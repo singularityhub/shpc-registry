@@ -4,19 +4,21 @@ name:  "quay.io/biocontainers/perl-spreadsheet-parseexcel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-spreadsheet-parseexcel/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-spreadsheet-parseexcel/container.yaml"
-updated_at: "2022-10-29 05:56:21.513265"
+updated_at: "2022-10-29 07:55:11.656482"
 latest: "0.65--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-spreadsheet-parseexcel"
 aliases:
- - "chartex"
  - "map"
  - "mirrorMappings"
  - "mkCSGB2312"
  - "mkmapfile"
+ - "chartex"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.65--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-spreadsheet-parseexcel"
-config: {"url": "https://biocontainers.pro/tools/perl-spreadsheet-parseexcel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-spreadsheet-parseexcel", "latest": {"0.65--pl5321hdfd78af_3": "sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77"}, "tags": {"0.65--pl5321hdfd78af_3": "sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77"}, "docker": "quay.io/biocontainers/perl-spreadsheet-parseexcel", "aliases": {"chartex": "/usr/local/bin/chartex", "map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile"}}
+config: {"url": "https://biocontainers.pro/tools/perl-spreadsheet-parseexcel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-spreadsheet-parseexcel", "latest": {"0.65--pl5321hdfd78af_3": "sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77"}, "tags": {"0.65--pl5321hdfd78af_3": "sha256:2670083853ae6844e096a48cac7e57599e82d4a5137adfd57380ab0f05d3ff77"}, "docker": "quay.io/biocontainers/perl-spreadsheet-parseexcel", "aliases": {"map": "/usr/local/bin/map", "mirrorMappings": "/usr/local/bin/mirrorMappings", "mkCSGB2312": "/usr/local/bin/mkCSGB2312", "mkmapfile": "/usr/local/bin/mkmapfile", "chartex": "/usr/local/bin/chartex", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-spreadsheet-parseexcel.
@@ -102,15 +104,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### chartex
-
-```bash
-$ singularity exec <container> /usr/local/bin/chartex
-$ podman run --it --rm --entrypoint /usr/local/bin/chartex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chartex   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### map
 
 ```bash
@@ -144,6 +137,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mkCSGB2312   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/mkmapfile
 $ podman run --it --rm --entrypoint /usr/local/bin/mkmapfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mkmapfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chartex
+
+```bash
+$ singularity exec <container> /usr/local/bin/chartex
+$ podman run --it --rm --entrypoint /usr/local/bin/chartex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chartex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

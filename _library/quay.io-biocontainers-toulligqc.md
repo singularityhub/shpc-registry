@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/toulligqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toulligqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/toulligqc/container.yaml"
-updated_at: "2022-10-29 05:55:24.966621"
+updated_at: "2022-10-29 07:54:30.733090"
 latest: "2.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/toulligqc"
 aliases:
  - "toulligqc"
- - "2to3-3.10"
+ - "fonttools"
+ - "pyftmerge"
+ - "pyftsubset"
+ - "ttx"
  - "brotli"
  - "f2py3.10"
- - "fonttools"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
  - "h5clear"
- - "h5copy"
 versions:
  - "2.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for toulligqc"
-config: {"url": "https://biocontainers.pro/tools/toulligqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toulligqc", "latest": {"2.2.2--pyhdfd78af_0": "sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560"}, "tags": {"2.2.2--pyhdfd78af_0": "sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560"}, "docker": "quay.io/biocontainers/toulligqc", "aliases": {"toulligqc": "/usr/local/bin/toulligqc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/toulligqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toulligqc", "latest": {"2.2.2--pyhdfd78af_0": "sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560"}, "tags": {"2.2.2--pyhdfd78af_0": "sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560"}, "docker": "quay.io/biocontainers/toulligqc", "aliases": {"toulligqc": "/usr/local/bin/toulligqc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/toulligqc.
@@ -117,12 +117,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/toulligqc   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
+#### fonttools
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyftmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyftsubset
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyftsubset
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ttx
+
+```bash
+$ singularity exec <container> /usr/local/bin/ttx
+$ podman run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -144,48 +171,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD
 ```
 
 
-#### fonttools
+#### opj_compress
 
 ```bash
-$ singularity exec <container> /usr/local/bin/fonttools
-$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2h5
+#### opj_decompress
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### opj_dump
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -195,15 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/h5clear
 $ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5copy
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

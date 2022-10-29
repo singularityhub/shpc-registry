@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dxpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dxpy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dxpy/container.yaml"
-updated_at: "2022-10-29 05:56:52.221983"
+updated_at: "2022-10-29 07:55:33.778149"
 latest: "0.318.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/dxpy"
 aliases:
@@ -29,20 +29,20 @@ aliases:
  - "dx-upload-all-outputs"
  - "wsdump"
  - "xattr"
- - "2to3-3.8"
  - "activate-global-python-argcomplete"
- - "chardetect"
- - "idle3.8"
- - "pydoc3.8"
  - "python-argcomplete-check-easy-install-script"
  - "python-argcomplete-tcsh"
+ - "register-python-argcomplete"
+ - "chardetect"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
- - "register-python-argcomplete"
 versions:
  - "0.318.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for dxpy"
-config: {"url": "https://biocontainers.pro/tools/dxpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dxpy", "latest": {"0.318.1--pyh5e36f6f_0": "sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca"}, "tags": {"0.318.1--pyh5e36f6f_0": "sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca"}, "docker": "quay.io/biocontainers/dxpy", "aliases": {"dx": "/usr/local/bin/dx", "dx-app-wizard": "/usr/local/bin/dx-app-wizard", "dx-build-app": "/usr/local/bin/dx-build-app", "dx-build-applet": "/usr/local/bin/dx-build-applet", "dx-clone-asset": "/usr/local/bin/dx-clone-asset", "dx-docker": "/usr/local/bin/dx-docker", "dx-download-all-inputs": "/usr/local/bin/dx-download-all-inputs", "dx-fetch-bundled-depends": "/usr/local/bin/dx-fetch-bundled-depends", "dx-generate-dxapp": "/usr/local/bin/dx-generate-dxapp", "dx-jobutil-add-output": "/usr/local/bin/dx-jobutil-add-output", "dx-jobutil-dxlink": "/usr/local/bin/dx-jobutil-dxlink", "dx-jobutil-new-job": "/usr/local/bin/dx-jobutil-new-job", "dx-jobutil-parse-link": "/usr/local/bin/dx-jobutil-parse-link", "dx-jobutil-report-error": "/usr/local/bin/dx-jobutil-report-error", "dx-log-stream": "/usr/local/bin/dx-log-stream", "dx-mount-all-inputs": "/usr/local/bin/dx-mount-all-inputs", "dx-notebook-reconnect": "/usr/local/bin/dx-notebook-reconnect", "dx-print-bash-vars": "/usr/local/bin/dx-print-bash-vars", "dx-upload-all-outputs": "/usr/local/bin/dx-upload-all-outputs", "wsdump": "/usr/local/bin/wsdump", "xattr": "/usr/local/bin/xattr", "2to3-3.8": "/usr/local/bin/2to3-3.8", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "chardetect": "/usr/local/bin/chardetect", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete"}}
+config: {"url": "https://biocontainers.pro/tools/dxpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dxpy", "latest": {"0.318.1--pyh5e36f6f_0": "sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca"}, "tags": {"0.318.1--pyh5e36f6f_0": "sha256:ab2f23ef517b0b0362c71bb36572dec96744eb3c5bb912fe91b369907e7ac3ca"}, "docker": "quay.io/biocontainers/dxpy", "aliases": {"dx": "/usr/local/bin/dx", "dx-app-wizard": "/usr/local/bin/dx-app-wizard", "dx-build-app": "/usr/local/bin/dx-build-app", "dx-build-applet": "/usr/local/bin/dx-build-applet", "dx-clone-asset": "/usr/local/bin/dx-clone-asset", "dx-docker": "/usr/local/bin/dx-docker", "dx-download-all-inputs": "/usr/local/bin/dx-download-all-inputs", "dx-fetch-bundled-depends": "/usr/local/bin/dx-fetch-bundled-depends", "dx-generate-dxapp": "/usr/local/bin/dx-generate-dxapp", "dx-jobutil-add-output": "/usr/local/bin/dx-jobutil-add-output", "dx-jobutil-dxlink": "/usr/local/bin/dx-jobutil-dxlink", "dx-jobutil-new-job": "/usr/local/bin/dx-jobutil-new-job", "dx-jobutil-parse-link": "/usr/local/bin/dx-jobutil-parse-link", "dx-jobutil-report-error": "/usr/local/bin/dx-jobutil-report-error", "dx-log-stream": "/usr/local/bin/dx-log-stream", "dx-mount-all-inputs": "/usr/local/bin/dx-mount-all-inputs", "dx-notebook-reconnect": "/usr/local/bin/dx-notebook-reconnect", "dx-print-bash-vars": "/usr/local/bin/dx-print-bash-vars", "dx-upload-all-outputs": "/usr/local/bin/dx-upload-all-outputs", "wsdump": "/usr/local/bin/wsdump", "xattr": "/usr/local/bin/xattr", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dxpy.
@@ -317,48 +317,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xattr   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### activate-global-python-argcomplete
 
 ```bash
 $ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
 $ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pydoc3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -380,6 +344,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v 
 ```
 
 
+#### register-python-argcomplete
+
+```bash
+$ singularity exec <container> /usr/local/bin/register-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### python3.8
 
 ```bash
@@ -395,15 +404,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### register-python-argcomplete
-
-```bash
-$ singularity exec <container> /usr/local/bin/register-python-argcomplete
-$ podman run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

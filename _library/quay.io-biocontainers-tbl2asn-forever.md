@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/tbl2asn-forever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
-updated_at: "2022-10-29 05:35:06.577284"
+updated_at: "2022-10-29 07:39:33.206141"
 latest: "25.7f--0"
 container_url: "https://biocontainers.pro/tools/tbl2asn-forever"
 aliases:
  - "faketime"
- - "idn"
  - "real-tbl2asn"
  - "tbl2asn"
+ - "idn"
 versions:
  - "25.7f--0"
 description: "shpc-registry automated BioContainers addition for tbl2asn-forever"
-config: {"url": "https://biocontainers.pro/tools/tbl2asn-forever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn-forever", "latest": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "tags": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "docker": "quay.io/biocontainers/tbl2asn-forever", "aliases": {"faketime": "/usr/local/bin/faketime", "idn": "/usr/local/bin/idn", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "tbl2asn": "/usr/local/bin/tbl2asn"}}
+config: {"url": "https://biocontainers.pro/tools/tbl2asn-forever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn-forever", "latest": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "tags": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "docker": "quay.io/biocontainers/tbl2asn-forever", "aliases": {"faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "tbl2asn": "/usr/local/bin/tbl2asn", "idn": "/usr/local/bin/idn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbl2asn-forever.
@@ -110,15 +110,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD
 ```
 
 
-#### idn
-
-```bash
-$ singularity exec <container> /usr/local/bin/idn
-$ podman run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### real-tbl2asn
 
 ```bash
@@ -134,6 +125,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/tbl2asn
 $ podman run --it --rm --entrypoint /usr/local/bin/tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idn
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn
+$ podman run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

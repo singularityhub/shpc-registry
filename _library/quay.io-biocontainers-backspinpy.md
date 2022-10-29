@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/backspinpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/backspinpy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/backspinpy/container.yaml"
-updated_at: "2022-10-29 05:49:17.713873"
+updated_at: "2022-10-29 07:50:01.950611"
 latest: "0.2.1--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/backspinpy"
 aliases:
  - "backspin"
- - "2to3-3.6"
  - "futurize"
- - "idle3.6"
- - "ncurses5-config"
- - "ncursesw5-config"
  - "pasteurize"
+ - "2to3-3.6"
+ - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv-3.6"
 versions:
  - "0.2.1--pyh24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for backspinpy"
-config: {"url": "https://biocontainers.pro/tools/backspinpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for backspinpy", "latest": {"0.2.1--pyh24bf2e0_1": "sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934"}, "tags": {"0.2.1--pyh24bf2e0_1": "sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934"}, "docker": "quay.io/biocontainers/backspinpy", "aliases": {"backspin": "/usr/local/bin/backspin", "2to3-3.6": "/usr/local/bin/2to3-3.6", "futurize": "/usr/local/bin/futurize", "idle3.6": "/usr/local/bin/idle3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
+config: {"url": "https://biocontainers.pro/tools/backspinpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for backspinpy", "latest": {"0.2.1--pyh24bf2e0_1": "sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934"}, "tags": {"0.2.1--pyh24bf2e0_1": "sha256:7f7b2b55b86da3b98274fe31bcbe847ac52a91a9013b5c6fd152aeb1dfceb934"}, "docker": "quay.io/biocontainers/backspinpy", "aliases": {"backspin": "/usr/local/bin/backspin", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/backspinpy.
@@ -117,15 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/backspin   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### futurize
 
 ```bash
@@ -135,39 +126,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pasteurize
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pasteurize
 $ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +186,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/python3.6m
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

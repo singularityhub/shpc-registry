@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/pycluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pycluster/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pycluster/container.yaml"
-updated_at: "2022-10-29 05:59:19.528984"
+updated_at: "2022-10-29 07:57:21.239510"
 latest: "1.54--py37h37892f8_6"
 container_url: "https://biocontainers.pro/tools/pycluster"
 aliases:
- - "2to3-3.7"
  - "f2py3.7"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
  - "python3.7m"
  - "python3.7m-config"
- - "pyvenv"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "1.54--py37h37892f8_6"
 description: "shpc-registry automated BioContainers addition for pycluster"
-config: {"url": "https://biocontainers.pro/tools/pycluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycluster", "latest": {"1.54--py37h37892f8_6": "sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4"}, "tags": {"1.54--py37h37892f8_6": "sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4"}, "docker": "quay.io/biocontainers/pycluster", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/pycluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pycluster", "latest": {"1.54--py37h37892f8_6": "sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4"}, "tags": {"1.54--py37h37892f8_6": "sha256:f3205e9a244c006513081712b810e6987a8e2604f30338a2ea7bac7f9a870cc4"}, "docker": "quay.io/biocontainers/pycluster", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pycluster.
@@ -107,21 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -179,21 +179,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pyvenv-3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

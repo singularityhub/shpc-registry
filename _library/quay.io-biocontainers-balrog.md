@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/balrog"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/balrog/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/balrog/container.yaml"
-updated_at: "2022-10-29 05:41:45.427441"
+updated_at: "2022-10-29 07:44:26.773191"
 latest: "0.5.1--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/balrog"
 aliases:
  - "balrog"
- - "2to3-3.10"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.5.1--hd03093a_2"
 description: "shpc-registry automated BioContainers addition for balrog"
-config: {"url": "https://biocontainers.pro/tools/balrog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for balrog", "latest": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae"}, "tags": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae"}, "docker": "quay.io/biocontainers/balrog", "aliases": {"balrog": "/usr/local/bin/balrog", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/balrog", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for balrog", "latest": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae"}, "tags": {"0.5.1--hd03093a_2": "sha256:9342d38ca446ad9b2ce151cc498d6e86356dd34eae71336fc93f26261cdd75ae"}, "docker": "quay.io/biocontainers/balrog", "aliases": {"balrog": "/usr/local/bin/balrog", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/balrog.
@@ -114,21 +114,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/balrog   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

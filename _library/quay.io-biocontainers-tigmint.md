@@ -4,10 +4,13 @@ name:  "quay.io/biocontainers/tigmint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tigmint/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tigmint/container.yaml"
-updated_at: "2022-10-29 05:31:55.352446"
+updated_at: "2022-10-29 07:37:13.152795"
 latest: "1.2.7--py39h6935b12_0"
 container_url: "https://biocontainers.pro/tools/tigmint"
 aliases:
+ - "gunzip"
+ - "gzexe"
+ - "gzip"
  - "indexlr"
  - "lrunzip"
  - "lrzcat"
@@ -21,22 +24,32 @@ aliases:
  - "tigmint_estimate_dist.py"
  - "tigmint_molecule.py"
  - "tigmint_molecule_paf.py"
+ - "uncompress"
+ - "zcat"
+ - "zcmp"
+ - "zdiff"
+ - "zegrep"
+ - "zfgrep"
+ - "zforce"
+ - "zgrep"
+ - "zmore"
+ - "znew"
  - "zsh"
  - "zsh-5.8"
- - "ace2sam"
- - "annotateBed"
- - "bamToBed"
- - "bamToFastq"
- - "bed12ToBed6"
- - "bedToBam"
- - "bedToIgv"
- - "bedpeToBam"
- - "bedtools"
- - "blast2sam.pl"
+ - "zip"
+ - "x86_64-conda_cos7-linux-gnu-ld"
+ - "tar"
+ - "pigz"
+ - "unpigz"
+ - "sdust"
+ - "paftools.js"
+ - "minimap2"
+ - "k8"
+ - "qualfa2fq.pl"
 versions:
  - "1.2.7--py39h6935b12_0"
 description: "shpc-registry automated BioContainers addition for tigmint"
-config: {"url": "https://biocontainers.pro/tools/tigmint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tigmint", "latest": {"1.2.7--py39h6935b12_0": "sha256:26b81398baad6bd7c6d14b733169a9f9f33e1c32059aed9c3e77839b452db4f2"}, "tags": {"1.2.7--py39h6935b12_0": "sha256:26b81398baad6bd7c6d14b733169a9f9f33e1c32059aed9c3e77839b452db4f2"}, "docker": "quay.io/biocontainers/tigmint", "aliases": {"indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/tigmint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tigmint", "latest": {"1.2.7--py39h6935b12_0": "sha256:26b81398baad6bd7c6d14b733169a9f9f33e1c32059aed9c3e77839b452db4f2"}, "tags": {"1.2.7--py39h6935b12_0": "sha256:26b81398baad6bd7c6d14b733169a9f9f33e1c32059aed9c3e77839b452db4f2"}, "docker": "quay.io/biocontainers/tigmint", "aliases": {"gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "zip": "/usr/local/bin/zip", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "tar": "/usr/local/bin/tar", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tigmint.
@@ -119,6 +132,33 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### gunzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/gunzip
+$ podman run --it --rm --entrypoint /usr/local/bin/gunzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gunzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gzexe
+
+```bash
+$ singularity exec <container> /usr/local/bin/gzexe
+$ podman run --it --rm --entrypoint /usr/local/bin/gzexe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gzexe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/gzip
+$ podman run --it --rm --entrypoint /usr/local/bin/gzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -239,6 +279,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tigmint_molecule_paf.py   -v 
 ```
 
 
+#### uncompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/uncompress
+$ podman run --it --rm --entrypoint /usr/local/bin/uncompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uncompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/zcat
+$ podman run --it --rm --entrypoint /usr/local/bin/zcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/zcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/zcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/zdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/zdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zegrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/zegrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zfgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/zfgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zforce
+
+```bash
+$ singularity exec <container> /usr/local/bin/zforce
+$ podman run --it --rm --entrypoint /usr/local/bin/zforce   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zforce   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/zgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zmore
+
+```bash
+$ singularity exec <container> /usr/local/bin/zmore
+$ podman run --it --rm --entrypoint /usr/local/bin/zmore   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zmore   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### znew
+
+```bash
+$ singularity exec <container> /usr/local/bin/znew
+$ podman run --it --rm --entrypoint /usr/local/bin/znew   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/znew   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### zsh
 
 ```bash
@@ -257,93 +387,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/zsh-5.8   -v ${PWD} -w ${PWD}
 ```
 
 
-#### ace2sam
+#### zip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zip
+$ podman run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### x86_64-conda_cos7-linux-gnu-ld
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### tar
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tar
+$ podman run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### pigz
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bed12ToBed6
+#### unpigz
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unpigz
+$ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToBam
+#### sdust
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sdust
+$ podman run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToIgv
+#### paftools.js
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToIgv
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/paftools.js
+$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedpeToBam
+#### minimap2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedtools
+#### k8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### qualfa2fq.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

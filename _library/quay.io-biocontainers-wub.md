@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wub/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wub/container.yaml"
-updated_at: "2022-10-29 05:55:42.898849"
+updated_at: "2022-10-29 07:54:43.731815"
 latest: "0.5.1--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/wub"
 aliases:
@@ -56,20 +56,20 @@ aliases:
  - "simulate_sequences.py"
  - "simulate_sequencing_simple.py"
  - "split_fastx.py"
- - "2to3-3.8"
- - "bgzip"
- - "f2py3.8"
- - "idle3.8"
- - "jpgicc"
- - "linkicc"
- - "psicc"
  - "py.test"
- - "pydoc3.8"
  - "pytest"
+ - "tqdm"
+ - "f2py3.8"
+ - "bgzip"
+ - "tabix"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
 versions:
  - "0.5.1--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for wub"
-config: {"url": "https://biocontainers.pro/tools/wub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wub", "latest": {"0.5.1--pyh3252c3a_0": "sha256:1e358e246b96faf65142a9b6da732e46cf97d6c20c75fd3f4226c50d2b93ad25"}, "tags": {"0.5.1--pyh3252c3a_0": "sha256:1e358e246b96faf65142a9b6da732e46cf97d6c20c75fd3f4226c50d2b93ad25"}, "docker": "quay.io/biocontainers/wub", "aliases": {"_template_script.py": "/usr/local/bin/_template_script.py", "add_errors.py": "/usr/local/bin/add_errors.py", "annotate_length.py": "/usr/local/bin/annotate_length.py", "bam_accuracy.py": "/usr/local/bin/bam_accuracy.py", "bam_alignment_length.py": "/usr/local/bin/bam_alignment_length.py", "bam_alignment_qc.py": "/usr/local/bin/bam_alignment_qc.py", "bam_alignments_compare.py": "/usr/local/bin/bam_alignments_compare.py", "bam_count_reads.py": "/usr/local/bin/bam_count_reads.py", "bam_cov.py": "/usr/local/bin/bam_cov.py", "bam_fill_unaligned.py": "/usr/local/bin/bam_fill_unaligned.py", "bam_frag_coverage.py": "/usr/local/bin/bam_frag_coverage.py", "bam_gc_vs_qual.py": "/usr/local/bin/bam_gc_vs_qual.py", "bam_multi_qc.py": "/usr/local/bin/bam_multi_qc.py", "bam_ref_base_coverage.py": "/usr/local/bin/bam_ref_base_coverage.py", "bam_ref_tab.py": "/usr/local/bin/bam_ref_tab.py", "bam_score_filter.py": "/usr/local/bin/bam_score_filter.py", "bam_soft_clips_tab.py": "/usr/local/bin/bam_soft_clips_tab.py", "bias_explorer.py": "/usr/local/bin/bias_explorer.py", "calculate_coverage.py": "/usr/local/bin/calculate_coverage.py", "compare_genomes_dnadiff.py": "/usr/local/bin/compare_genomes_dnadiff.py", "compare_genomes_lastal.py": "/usr/local/bin/compare_genomes_lastal.py", "convert_alphabet.py": "/usr/local/bin/convert_alphabet.py", "correlate_counts.py": "/usr/local/bin/correlate_counts.py", "fasta_to_mock_fastq.py": "/usr/local/bin/fasta_to_mock_fastq.py", "fastq_qual_tab.py": "/usr/local/bin/fastq_qual_tab.py", "fastq_time_slice.py": "/usr/local/bin/fastq_time_slice.py", "fastq_time_tab.py": "/usr/local/bin/fastq_time_tab.py", "fastx_ends_tab.py": "/usr/local/bin/fastx_ends_tab.py", "fastx_grep.py": "/usr/local/bin/fastx_grep.py", "fastx_length_tab.py": "/usr/local/bin/fastx_length_tab.py", "length_normalise_counts.py": "/usr/local/bin/length_normalise_counts.py", "merge_tsvs.py": "/usr/local/bin/merge_tsvs.py", "multi_length_hist.py": "/usr/local/bin/multi_length_hist.py", "pickle_cat.py": "/usr/local/bin/pickle_cat.py", "plot_counts_correlation.py": "/usr/local/bin/plot_counts_correlation.py", "plot_gffcmp_stats.py": "/usr/local/bin/plot_gffcmp_stats.py", "plot_qualities.py": "/usr/local/bin/plot_qualities.py", "plot_sequence_properties.py": "/usr/local/bin/plot_sequence_properties.py", "reads_across_time.py": "/usr/local/bin/reads_across_time.py", "reads_stats.py": "/usr/local/bin/reads_stats.py", "reverse_fastq.py": "/usr/local/bin/reverse_fastq.py", "sequence_filter.py": "/usr/local/bin/sequence_filter.py", "sequence_subtract.py": "/usr/local/bin/sequence_subtract.py", "simulate_errors.py": "/usr/local/bin/simulate_errors.py", "simulate_genome.py": "/usr/local/bin/simulate_genome.py", "simulate_sequences.py": "/usr/local/bin/simulate_sequences.py", "simulate_sequencing_simple.py": "/usr/local/bin/simulate_sequencing_simple.py", "split_fastx.py": "/usr/local/bin/split_fastx.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "bgzip": "/usr/local/bin/bgzip", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "py.test": "/usr/local/bin/py.test", "pydoc3.8": "/usr/local/bin/pydoc3.8", "pytest": "/usr/local/bin/pytest"}}
+config: {"url": "https://biocontainers.pro/tools/wub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wub", "latest": {"0.5.1--pyh3252c3a_0": "sha256:1e358e246b96faf65142a9b6da732e46cf97d6c20c75fd3f4226c50d2b93ad25"}, "tags": {"0.5.1--pyh3252c3a_0": "sha256:1e358e246b96faf65142a9b6da732e46cf97d6c20c75fd3f4226c50d2b93ad25"}, "docker": "quay.io/biocontainers/wub", "aliases": {"_template_script.py": "/usr/local/bin/_template_script.py", "add_errors.py": "/usr/local/bin/add_errors.py", "annotate_length.py": "/usr/local/bin/annotate_length.py", "bam_accuracy.py": "/usr/local/bin/bam_accuracy.py", "bam_alignment_length.py": "/usr/local/bin/bam_alignment_length.py", "bam_alignment_qc.py": "/usr/local/bin/bam_alignment_qc.py", "bam_alignments_compare.py": "/usr/local/bin/bam_alignments_compare.py", "bam_count_reads.py": "/usr/local/bin/bam_count_reads.py", "bam_cov.py": "/usr/local/bin/bam_cov.py", "bam_fill_unaligned.py": "/usr/local/bin/bam_fill_unaligned.py", "bam_frag_coverage.py": "/usr/local/bin/bam_frag_coverage.py", "bam_gc_vs_qual.py": "/usr/local/bin/bam_gc_vs_qual.py", "bam_multi_qc.py": "/usr/local/bin/bam_multi_qc.py", "bam_ref_base_coverage.py": "/usr/local/bin/bam_ref_base_coverage.py", "bam_ref_tab.py": "/usr/local/bin/bam_ref_tab.py", "bam_score_filter.py": "/usr/local/bin/bam_score_filter.py", "bam_soft_clips_tab.py": "/usr/local/bin/bam_soft_clips_tab.py", "bias_explorer.py": "/usr/local/bin/bias_explorer.py", "calculate_coverage.py": "/usr/local/bin/calculate_coverage.py", "compare_genomes_dnadiff.py": "/usr/local/bin/compare_genomes_dnadiff.py", "compare_genomes_lastal.py": "/usr/local/bin/compare_genomes_lastal.py", "convert_alphabet.py": "/usr/local/bin/convert_alphabet.py", "correlate_counts.py": "/usr/local/bin/correlate_counts.py", "fasta_to_mock_fastq.py": "/usr/local/bin/fasta_to_mock_fastq.py", "fastq_qual_tab.py": "/usr/local/bin/fastq_qual_tab.py", "fastq_time_slice.py": "/usr/local/bin/fastq_time_slice.py", "fastq_time_tab.py": "/usr/local/bin/fastq_time_tab.py", "fastx_ends_tab.py": "/usr/local/bin/fastx_ends_tab.py", "fastx_grep.py": "/usr/local/bin/fastx_grep.py", "fastx_length_tab.py": "/usr/local/bin/fastx_length_tab.py", "length_normalise_counts.py": "/usr/local/bin/length_normalise_counts.py", "merge_tsvs.py": "/usr/local/bin/merge_tsvs.py", "multi_length_hist.py": "/usr/local/bin/multi_length_hist.py", "pickle_cat.py": "/usr/local/bin/pickle_cat.py", "plot_counts_correlation.py": "/usr/local/bin/plot_counts_correlation.py", "plot_gffcmp_stats.py": "/usr/local/bin/plot_gffcmp_stats.py", "plot_qualities.py": "/usr/local/bin/plot_qualities.py", "plot_sequence_properties.py": "/usr/local/bin/plot_sequence_properties.py", "reads_across_time.py": "/usr/local/bin/reads_across_time.py", "reads_stats.py": "/usr/local/bin/reads_stats.py", "reverse_fastq.py": "/usr/local/bin/reverse_fastq.py", "sequence_filter.py": "/usr/local/bin/sequence_filter.py", "sequence_subtract.py": "/usr/local/bin/sequence_subtract.py", "simulate_errors.py": "/usr/local/bin/simulate_errors.py", "simulate_genome.py": "/usr/local/bin/simulate_genome.py", "simulate_sequences.py": "/usr/local/bin/simulate_sequences.py", "simulate_sequencing_simple.py": "/usr/local/bin/simulate_sequencing_simple.py", "split_fastx.py": "/usr/local/bin/split_fastx.py", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "tqdm": "/usr/local/bin/tqdm", "f2py3.8": "/usr/local/bin/f2py3.8", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wub.
@@ -587,21 +587,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/split_fastx.py   -v ${PWD} -w
 ```
 
 
-#### 2to3-3.8
+#### py.test
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### pytest
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -614,48 +623,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD}
 ```
 
 
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.8
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jpgicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### linkicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### psicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/psicc
-$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### py.test
-
-```bash
-$ singularity exec <container> /usr/local/bin/py.test
-$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -668,12 +668,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD
 ```
 
 
-#### pytest
+#### python3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pytest
-$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

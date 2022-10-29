@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/modlamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/modlamp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/modlamp/container.yaml"
-updated_at: "2022-10-29 05:52:52.830137"
+updated_at: "2022-10-29 07:52:40.020755"
 latest: "4.2.1--pyh9f0ad1d_0"
 container_url: "https://biocontainers.pro/tools/modlamp"
 aliases:
  - "example_descriptors.py"
  - "example_modlamp.py"
- - "2to3-3.8"
- - "chardetect"
- - "f2py3.8"
- - "idle3.8"
  - "my_print_defaults"
  - "mysql_config"
  - "perror"
  - "protoc"
- - "pydoc3.8"
- - "python3.8"
+ - "xslt-config"
+ - "xsltproc"
+ - "f2py3.8"
+ - "chardetect"
+ - "2to3-3.8"
+ - "idle3.8"
 versions:
  - "4.2.1--pyh9f0ad1d_0"
 description: "shpc-registry automated BioContainers addition for modlamp"
-config: {"url": "https://biocontainers.pro/tools/modlamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for modlamp", "latest": {"4.2.1--pyh9f0ad1d_0": "sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113"}, "tags": {"4.2.1--pyh9f0ad1d_0": "sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113"}, "docker": "quay.io/biocontainers/modlamp", "aliases": {"example_descriptors.py": "/usr/local/bin/example_descriptors.py", "example_modlamp.py": "/usr/local/bin/example_modlamp.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "protoc": "/usr/local/bin/protoc", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
+config: {"url": "https://biocontainers.pro/tools/modlamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for modlamp", "latest": {"4.2.1--pyh9f0ad1d_0": "sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113"}, "tags": {"4.2.1--pyh9f0ad1d_0": "sha256:38c4e43a2d889f9a40eeacba5fa88774c9f2e76e7938a70f6d86d95a370d6113"}, "docker": "quay.io/biocontainers/modlamp", "aliases": {"example_descriptors.py": "/usr/local/bin/example_descriptors.py", "example_modlamp.py": "/usr/local/bin/example_modlamp.py", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "protoc": "/usr/local/bin/protoc", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/modlamp.
@@ -127,42 +127,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/example_modlamp.py   -v ${PWD
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### my_print_defaults
 
 ```bash
@@ -199,21 +163,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/protoc   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### pydoc3.8
+#### xslt-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### python3.8
+#### xsltproc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

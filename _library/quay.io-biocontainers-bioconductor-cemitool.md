@@ -4,16 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-cemitool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cemitool/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cemitool/container.yaml"
-updated_at: "2022-10-29 05:39:49.782536"
+updated_at: "2022-10-29 07:43:01.633818"
 latest: "1.8.3--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cemitool"
 aliases:
- - "pandoc"
  - "pandoc-citeproc"
+ - "pandoc"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.3--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cemitool"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cemitool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cemitool", "latest": {"1.8.3--r36_0": "sha256:931ce1d7ea3af55372d7617774a822b7c73890d462218070891e45d7da240068"}, "tags": {"1.8.3--r36_0": "sha256:931ce1d7ea3af55372d7617774a822b7c73890d462218070891e45d7da240068"}, "docker": "quay.io/biocontainers/bioconductor-cemitool", "aliases": {"pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cemitool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cemitool", "latest": {"1.8.3--r36_0": "sha256:931ce1d7ea3af55372d7617774a822b7c73890d462218070891e45d7da240068"}, "tags": {"1.8.3--r36_0": "sha256:931ce1d7ea3af55372d7617774a822b7c73890d462218070891e45d7da240068"}, "docker": "quay.io/biocontainers/bioconductor-cemitool", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cemitool.
@@ -99,6 +102,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### pandoc-citeproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc-citeproc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### pandoc
 
 ```bash
@@ -108,12 +120,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### pandoc-citeproc
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pandoc-citeproc
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

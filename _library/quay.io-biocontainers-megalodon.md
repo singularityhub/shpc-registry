@@ -4,26 +4,31 @@ name:  "quay.io/biocontainers/megalodon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megalodon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/megalodon/container.yaml"
-updated_at: "2022-10-29 05:55:08.754418"
+updated_at: "2022-10-29 07:54:18.881183"
 latest: "2.3.1--py37h73a75cf_0"
 container_url: "https://biocontainers.pro/tools/megalodon"
 aliases:
- - "megalodon"
- - "megalodon_extras"
- - "2to3-3.7"
  - "check_compression"
  - "compress_fast5"
- - "f2py3.7"
  - "fast5_subset"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
- - "h5clear"
+ - "megalodon"
+ - "megalodon_extras"
+ - "multi_to_single_fast5"
+ - "single_to_multi_fast5"
+ - "minimap2.py"
+ - "tar"
+ - "tqdm"
+ - "f2py3.7"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
+ - "2to3-3.7"
+ - "idle3.7"
+ - "pydoc3.7"
 versions:
  - "2.3.1--py37h73a75cf_0"
 description: "shpc-registry automated BioContainers addition for megalodon"
-config: {"url": "https://biocontainers.pro/tools/megalodon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megalodon", "latest": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "tags": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "docker": "quay.io/biocontainers/megalodon", "aliases": {"megalodon": "/usr/local/bin/megalodon", "megalodon_extras": "/usr/local/bin/megalodon_extras", "2to3-3.7": "/usr/local/bin/2to3-3.7", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "f2py3.7": "/usr/local/bin/f2py3.7", "fast5_subset": "/usr/local/bin/fast5_subset", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/megalodon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megalodon", "latest": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "tags": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "docker": "quay.io/biocontainers/megalodon", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "megalodon": "/usr/local/bin/megalodon", "megalodon_extras": "/usr/local/bin/megalodon_extras", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "minimap2.py": "/usr/local/bin/minimap2.py", "tar": "/usr/local/bin/tar", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/megalodon.
@@ -109,33 +114,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### megalodon
-
-```bash
-$ singularity exec <container> /usr/local/bin/megalodon
-$ podman run --it --rm --entrypoint /usr/local/bin/megalodon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/megalodon   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### megalodon_extras
-
-```bash
-$ singularity exec <container> /usr/local/bin/megalodon_extras
-$ podman run --it --rm --entrypoint /usr/local/bin/megalodon_extras   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/megalodon_extras   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### check_compression
 
 ```bash
@@ -154,15 +132,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/compress_fast5   -v ${PWD} -w
 ```
 
 
-#### f2py3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### fast5_subset
 
 ```bash
@@ -172,48 +141,129 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fast5_subset   -v ${PWD} -w $
 ```
 
 
-#### gif2h5
+#### megalodon
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/megalodon
+$ podman run --it --rm --entrypoint /usr/local/bin/megalodon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/megalodon   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### megalodon_extras
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/megalodon_extras
+$ podman run --it --rm --entrypoint /usr/local/bin/megalodon_extras   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/megalodon_extras   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5c++
+#### multi_to_single_fast5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/multi_to_single_fast5
+$ podman run --it --rm --entrypoint /usr/local/bin/multi_to_single_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/multi_to_single_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5cc
+#### single_to_multi_fast5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/single_to_multi_fast5
+$ podman run --it --rm --entrypoint /usr/local/bin/single_to_multi_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/single_to_multi_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5clear
+#### minimap2.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/minimap2.py
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tar
+
+```bash
+$ singularity exec <container> /usr/local/bin/tar
+$ podman run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

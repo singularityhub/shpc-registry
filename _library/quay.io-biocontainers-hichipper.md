@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hichipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hichipper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hichipper/container.yaml"
-updated_at: "2022-10-29 05:45:12.551791"
+updated_at: "2022-10-29 07:47:01.257075"
 latest: "0.7.7--py_1"
 container_url: "https://biocontainers.pro/tools/hichipper"
 aliases:
@@ -12,17 +12,18 @@ aliases:
  - "macs2"
  - "f2py2"
  - "f2py2.7"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
  - "idle"
  - "python-config"
- - "python2"
- - "python2-config"
- - "python2.7"
- - "python2.7-config"
  - "smtpd.py"
+ - "gio-launch-desktop"
 versions:
  - "0.7.7--py_1"
 description: "shpc-registry automated BioContainers addition for hichipper"
-config: {"url": "https://biocontainers.pro/tools/hichipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hichipper", "latest": {"0.7.7--py_1": "sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249"}, "tags": {"0.7.7--py_1": "sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249"}, "docker": "quay.io/biocontainers/hichipper", "aliases": {"hichipper": "/usr/local/bin/hichipper", "macs2": "/usr/local/bin/macs2", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/hichipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hichipper", "latest": {"0.7.7--py_1": "sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249"}, "tags": {"0.7.7--py_1": "sha256:07ac65fcb2be21bafe5545694f8a54224d128c52647c3c8e3407e863f3c18249"}, "docker": "quay.io/biocontainers/hichipper", "aliases": {"hichipper": "/usr/local/bin/hichipper", "macs2": "/usr/local/bin/macs2", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hichipper.
@@ -144,6 +145,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD}
 ```
 
 
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle
 
 ```bash
@@ -162,48 +199,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w 
 ```
 
 
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### smtpd.py
 
 ```bash
 $ singularity exec <container> /usr/local/bin/smtpd.py
 $ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomedata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/genomedata/container.yaml"
-updated_at: "2022-10-29 05:48:45.268615"
+updated_at: "2022-10-29 07:49:38.025326"
 latest: "1.5.0--py310h35e684e_3"
 container_url: "https://biocontainers.pro/tools/genomedata"
 aliases:
@@ -29,20 +29,20 @@ aliases:
  - "nohead"
  - "run_genomedata_tests.py"
  - "test_genomedata.py"
- - "2to3-3.10"
- - "annotateBed"
- - "bamToBed"
- - "bamToFastq"
- - "bed12ToBed6"
- - "bedToBam"
- - "bedToIgv"
- - "bedpeToBam"
- - "bedtools"
- - "closestBed"
+ - "pt2to3"
+ - "ptdump"
+ - "ptrepack"
+ - "pttree"
+ - "my_print_defaults"
+ - "mysql_config"
+ - "perror"
+ - "mirror_server"
+ - "mirror_server_stop"
+ - "shiftBed"
 versions:
  - "1.5.0--py310h35e684e_3"
 description: "shpc-registry automated BioContainers addition for genomedata"
-config: {"url": "https://biocontainers.pro/tools/genomedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomedata", "latest": {"1.5.0--py310h35e684e_3": "sha256:f0e3df8a4b6a9f5808571434d2bcd2c96a002d8e2055f172458754705d103480"}, "tags": {"1.5.0--py310h35e684e_3": "sha256:f0e3df8a4b6a9f5808571434d2bcd2c96a002d8e2055f172458754705d103480"}, "docker": "quay.io/biocontainers/genomedata", "aliases": {"bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "filter": "/usr/local/bin/filter", "genomedata-close-data": "/usr/local/bin/genomedata-close-data", "genomedata-erase-data": "/usr/local/bin/genomedata-erase-data", "genomedata-hardmask": "/usr/local/bin/genomedata-hardmask", "genomedata-histogram": "/usr/local/bin/genomedata-histogram", "genomedata-info": "/usr/local/bin/genomedata-info", "genomedata-load": "/usr/local/bin/genomedata-load", "genomedata-load-assembly": "/usr/local/bin/genomedata-load-assembly", "genomedata-load-data": "/usr/local/bin/genomedata-load-data", "genomedata-load-seq": "/usr/local/bin/genomedata-load-seq", "genomedata-open-data": "/usr/local/bin/genomedata-open-data", "genomedata-query": "/usr/local/bin/genomedata-query", "genomedata-report": "/usr/local/bin/genomedata-report", "hidehead": "/usr/local/bin/hidehead", "innerjoin": "/usr/local/bin/innerjoin", "intersect": "/usr/local/bin/intersect", "mean": "/usr/local/bin/mean", "nohead": "/usr/local/bin/nohead", "run_genomedata_tests.py": "/usr/local/bin/run_genomedata_tests.py", "test_genomedata.py": "/usr/local/bin/test_genomedata.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed"}}
+config: {"url": "https://biocontainers.pro/tools/genomedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomedata", "latest": {"1.5.0--py310h35e684e_3": "sha256:f0e3df8a4b6a9f5808571434d2bcd2c96a002d8e2055f172458754705d103480"}, "tags": {"1.5.0--py310h35e684e_3": "sha256:f0e3df8a4b6a9f5808571434d2bcd2c96a002d8e2055f172458754705d103480"}, "docker": "quay.io/biocontainers/genomedata", "aliases": {"bigWigToBedGraph": "/usr/local/bin/bigWigToBedGraph", "filter": "/usr/local/bin/filter", "genomedata-close-data": "/usr/local/bin/genomedata-close-data", "genomedata-erase-data": "/usr/local/bin/genomedata-erase-data", "genomedata-hardmask": "/usr/local/bin/genomedata-hardmask", "genomedata-histogram": "/usr/local/bin/genomedata-histogram", "genomedata-info": "/usr/local/bin/genomedata-info", "genomedata-load": "/usr/local/bin/genomedata-load", "genomedata-load-assembly": "/usr/local/bin/genomedata-load-assembly", "genomedata-load-data": "/usr/local/bin/genomedata-load-data", "genomedata-load-seq": "/usr/local/bin/genomedata-load-seq", "genomedata-open-data": "/usr/local/bin/genomedata-open-data", "genomedata-query": "/usr/local/bin/genomedata-query", "genomedata-report": "/usr/local/bin/genomedata-report", "hidehead": "/usr/local/bin/hidehead", "innerjoin": "/usr/local/bin/innerjoin", "intersect": "/usr/local/bin/intersect", "mean": "/usr/local/bin/mean", "nohead": "/usr/local/bin/nohead", "run_genomedata_tests.py": "/usr/local/bin/run_genomedata_tests.py", "test_genomedata.py": "/usr/local/bin/test_genomedata.py", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "shiftBed": "/usr/local/bin/shiftBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomedata.
@@ -317,93 +317,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/test_genomedata.py   -v ${PWD
 ```
 
 
-#### 2to3-3.10
+#### pt2to3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pt2to3
+$ podman run --it --rm --entrypoint /usr/local/bin/pt2to3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pt2to3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### ptdump
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ptdump
+$ podman run --it --rm --entrypoint /usr/local/bin/ptdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ptdump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### ptrepack
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ptrepack
+$ podman run --it --rm --entrypoint /usr/local/bin/ptrepack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ptrepack   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### pttree
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pttree
+$ podman run --it --rm --entrypoint /usr/local/bin/pttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pttree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bed12ToBed6
+#### my_print_defaults
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/my_print_defaults
+$ podman run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToBam
+#### mysql_config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mysql_config
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToIgv
+#### perror
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToIgv
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perror
+$ podman run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedpeToBam
+#### mirror_server
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mirror_server
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedtools
+#### mirror_server_stop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mirror_server_stop
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### closestBed
+#### shiftBed
 
 ```bash
-$ singularity exec <container> /usr/local/bin/closestBed
-$ podman run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/shiftBed
+$ podman run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

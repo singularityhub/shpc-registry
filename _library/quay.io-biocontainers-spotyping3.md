@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/spotyping3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spotyping3/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spotyping3/container.yaml"
-updated_at: "2022-10-29 05:45:46.411617"
+updated_at: "2022-10-29 07:47:26.141341"
 latest: "3.0--py_0"
 container_url: "https://biocontainers.pro/tools/spotyping3"
 aliases:
  - "SpoTyping.py"
  - "SpoTyping_plot.r"
- - "2to3-3.6"
+ - "test_pcre"
+ - "blastdbcp"
+ - "gene_info_reader"
+ - "seqdb_demo"
+ - "seqdb_perf"
+ - "seedtop"
+ - "run_with_lock"
  - "blast_formatter"
  - "blastdb_aliastool"
  - "blastdbcheck"
- - "blastdbcmd"
- - "blastdbcp"
- - "blastn"
- - "blastp"
- - "blastx"
- - "c89"
 versions:
  - "3.0--py_0"
 description: "shpc-registry automated BioContainers addition for spotyping3"
-config: {"url": "https://biocontainers.pro/tools/spotyping3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spotyping3", "latest": {"3.0--py_0": "sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e"}, "tags": {"3.0--py_0": "sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e"}, "docker": "quay.io/biocontainers/spotyping3", "aliases": {"SpoTyping.py": "/usr/local/bin/SpoTyping.py", "SpoTyping_plot.r": "/usr/local/bin/SpoTyping_plot.r", "2to3-3.6": "/usr/local/bin/2to3-3.6", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "c89": "/usr/local/bin/c89"}}
+config: {"url": "https://biocontainers.pro/tools/spotyping3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spotyping3", "latest": {"3.0--py_0": "sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e"}, "tags": {"3.0--py_0": "sha256:7180a61d05e07338b2e2726e460c5e419b8687b6db8c9871fd578fc02690ff3e"}, "docker": "quay.io/biocontainers/spotyping3", "aliases": {"SpoTyping.py": "/usr/local/bin/SpoTyping.py", "SpoTyping_plot.r": "/usr/local/bin/SpoTyping_plot.r", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "run_with_lock": "/usr/local/bin/run_with_lock", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spotyping3.
@@ -127,12 +127,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/SpoTyping_plot.r   -v ${PWD} 
 ```
 
 
-#### 2to3-3.6
+#### test_pcre
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/test_pcre
+$ podman run --it --rm --entrypoint /usr/local/bin/test_pcre   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test_pcre   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gene_info_reader
+
+```bash
+$ singularity exec <container> /usr/local/bin/gene_info_reader
+$ podman run --it --rm --entrypoint /usr/local/bin/gene_info_reader   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gene_info_reader   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### seqdb_demo
+
+```bash
+$ singularity exec <container> /usr/local/bin/seqdb_demo
+$ podman run --it --rm --entrypoint /usr/local/bin/seqdb_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqdb_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### seqdb_perf
+
+```bash
+$ singularity exec <container> /usr/local/bin/seqdb_perf
+$ podman run --it --rm --entrypoint /usr/local/bin/seqdb_perf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqdb_perf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### seedtop
+
+```bash
+$ singularity exec <container> /usr/local/bin/seedtop
+$ podman run --it --rm --entrypoint /usr/local/bin/seedtop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seedtop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_with_lock
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_with_lock
+$ podman run --it --rm --entrypoint /usr/local/bin/run_with_lock   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_with_lock   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -160,60 +214,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/blastdbcheck
 $ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdbcmd
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdbcmd
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdbcp
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdbcp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastn
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastn
-$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastp
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastx
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastx
-$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c89
-
-```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

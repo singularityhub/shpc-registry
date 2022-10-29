@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/snikt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snikt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snikt/container.yaml"
-updated_at: "2022-10-29 05:36:43.488231"
+updated_at: "2022-10-29 07:40:44.764529"
 latest: "0.5.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snikt"
 aliases:
  - "snikt.R"
- - "pandoc"
  - "seqtk"
+ - "pandoc"
 versions:
  - "0.5.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snikt"
-config: {"url": "https://biocontainers.pro/tools/snikt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snikt", "latest": {"0.5.0--r41hdfd78af_0": "sha256:269918776ab7e236c31ee209cd815e5a11dc5ed4620aeb5090263914fd9def9d"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:269918776ab7e236c31ee209cd815e5a11dc5ed4620aeb5090263914fd9def9d"}, "docker": "quay.io/biocontainers/snikt", "aliases": {"snikt.R": "/usr/local/bin/snikt.R", "pandoc": "/usr/local/bin/pandoc", "seqtk": "/usr/local/bin/seqtk"}}
+config: {"url": "https://biocontainers.pro/tools/snikt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snikt", "latest": {"0.5.0--r41hdfd78af_0": "sha256:269918776ab7e236c31ee209cd815e5a11dc5ed4620aeb5090263914fd9def9d"}, "tags": {"0.5.0--r41hdfd78af_0": "sha256:269918776ab7e236c31ee209cd815e5a11dc5ed4620aeb5090263914fd9def9d"}, "docker": "quay.io/biocontainers/snikt", "aliases": {"snikt.R": "/usr/local/bin/snikt.R", "seqtk": "/usr/local/bin/seqtk", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snikt.
@@ -109,21 +109,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/snikt.R   -v ${PWD} -w ${PWD}
 ```
 
 
-#### pandoc
-
-```bash
-$ singularity exec <container> /usr/local/bin/pandoc
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### seqtk
 
 ```bash
 $ singularity exec <container> /usr/local/bin/seqtk
 $ podman run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pandoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

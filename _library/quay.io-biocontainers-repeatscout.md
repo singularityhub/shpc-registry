@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repeatscout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatscout/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/repeatscout/container.yaml"
-updated_at: "2022-10-29 05:55:39.594797"
+updated_at: "2022-10-29 07:54:41.367001"
 latest: "1.0.6--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/repeatscout"
 aliases:
@@ -16,12 +16,14 @@ aliases:
  - "merge-lmer-tables.prl"
  - "nmerge"
  - "nseg"
- - "trf"
  - "trf4.10.0-rc.2.linux64.exe"
+ - "trf"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.0.6--hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for repeatscout"
-config: {"url": "https://biocontainers.pro/tools/repeatscout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatscout", "latest": {"1.0.6--hec16e2b_3": "sha256:6452aef972e37b3be9f7c1fe321c53c73ac7d61d98e3dd116039cc8218777694"}, "tags": {"1.0.6--hec16e2b_3": "sha256:6452aef972e37b3be9f7c1fe321c53c73ac7d61d98e3dd116039cc8218777694"}, "docker": "quay.io/biocontainers/repeatscout", "aliases": {"RepeatScout": "/usr/local/bin/RepeatScout", "build_lmer_table": "/usr/local/bin/build_lmer_table", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "trf": "/usr/local/bin/trf", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe"}}
+config: {"url": "https://biocontainers.pro/tools/repeatscout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatscout", "latest": {"1.0.6--hec16e2b_3": "sha256:6452aef972e37b3be9f7c1fe321c53c73ac7d61d98e3dd116039cc8218777694"}, "tags": {"1.0.6--hec16e2b_3": "sha256:6452aef972e37b3be9f7c1fe321c53c73ac7d61d98e3dd116039cc8218777694"}, "docker": "quay.io/biocontainers/repeatscout", "aliases": {"RepeatScout": "/usr/local/bin/RepeatScout", "build_lmer_table": "/usr/local/bin/build_lmer_table", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repeatscout.
@@ -179,6 +181,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nseg   -v ${PWD} -w ${PWD} <c
 ```
 
 
+#### trf4.10.0-rc.2.linux64.exe
+
+```bash
+$ singularity exec <container> /usr/local/bin/trf4.10.0-rc.2.linux64.exe
+$ podman run --it --rm --entrypoint /usr/local/bin/trf4.10.0-rc.2.linux64.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trf4.10.0-rc.2.linux64.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### trf
 
 ```bash
@@ -188,12 +199,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/trf   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### trf4.10.0-rc.2.linux64.exe
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/trf4.10.0-rc.2.linux64.exe
-$ podman run --it --rm --entrypoint /usr/local/bin/trf4.10.0-rc.2.linux64.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/trf4.10.0-rc.2.linux64.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

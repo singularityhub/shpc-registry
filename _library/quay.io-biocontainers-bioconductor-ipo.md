@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-ipo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ipo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ipo/container.yaml"
-updated_at: "2022-10-29 05:51:08.823470"
+updated_at: "2022-10-29 07:51:23.474288"
 latest: "1.8.1--r351_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ipo"
 aliases:
- - "gif2h5"
  - "gif2hdf"
  - "h4_ncdump"
  - "h4_ncgen"
  - "h4cc"
  - "h4redeploy"
- - "h52gif"
- - "h5c++"
- - "h5cc"
- - "h5clear"
+ - "hdf24to8"
+ - "hdf2gif"
+ - "hdf2jpeg"
+ - "hdf8to24"
+ - "hdfcomp"
 versions:
  - "1.8.1--r351_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ipo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ipo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ipo", "latest": {"1.8.1--r351_1": "sha256:38fd0a1939eb670d1b767e6f38fff9b2f7d3661794bf7ab72addabb2e3b463db"}, "tags": {"1.8.1--r351_1": "sha256:38fd0a1939eb670d1b767e6f38fff9b2f7d3661794bf7ab72addabb2e3b463db"}, "docker": "quay.io/biocontainers/bioconductor-ipo", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ipo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ipo", "latest": {"1.8.1--r351_1": "sha256:38fd0a1939eb670d1b767e6f38fff9b2f7d3661794bf7ab72addabb2e3b463db"}, "tags": {"1.8.1--r351_1": "sha256:38fd0a1939eb670d1b767e6f38fff9b2f7d3661794bf7ab72addabb2e3b463db"}, "docker": "quay.io/biocontainers/bioconductor-ipo", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ipo.
@@ -107,15 +107,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### gif2h5
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gif2hdf
 
 ```bash
@@ -161,39 +152,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${P
 ```
 
 
-#### h52gif
+#### hdf24to8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hdf24to8
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf24to8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf24to8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5c++
+#### hdf2gif
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hdf2gif
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf2gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf2gif   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5cc
+#### hdf2jpeg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hdf2jpeg
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf2jpeg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf2jpeg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5clear
+#### hdf8to24
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hdf8to24
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf8to24   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf8to24   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hdfcomp
+
+```bash
+$ singularity exec <container> /usr/local/bin/hdfcomp
+$ podman run --it --rm --entrypoint /usr/local/bin/hdfcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdfcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

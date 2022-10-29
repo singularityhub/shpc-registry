@@ -4,17 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-interest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interest/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interest/container.yaml"
-updated_at: "2022-10-29 05:49:46.488640"
+updated_at: "2022-10-29 07:50:23.046399"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-interest"
 aliases:
  - "my_print_defaults"
  - "mysql_config"
  - "perror"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-interest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-interest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interest", "latest": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "tags": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "docker": "quay.io/biocontainers/bioconductor-interest", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-interest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interest", "latest": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "tags": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "docker": "quay.io/biocontainers/bioconductor-interest", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-interest.
@@ -124,6 +127,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/perror
 $ podman run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

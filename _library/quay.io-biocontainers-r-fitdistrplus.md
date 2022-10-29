@@ -4,21 +4,22 @@ name:  "quay.io/biocontainers/r-fitdistrplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fitdistrplus/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-fitdistrplus/container.yaml"
-updated_at: "2022-10-29 05:38:07.942758"
+updated_at: "2022-10-29 07:41:47.038975"
 latest: "1.0_6--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fitdistrplus"
 aliases:
+ - "pngcp"
  - "bmp2tiff"
  - "gif2tiff"
- - "ncurses5-config"
- - "pngcp"
  - "ras2tiff"
  - "rgb2ycbcr"
  - "thumbnail"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.0_6--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-fitdistrplus"
-config: {"url": "https://biocontainers.pro/tools/r-fitdistrplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fitdistrplus", "latest": {"1.0_6--r3.2.2_0": "sha256:c700a3e56ddc884c2e09f0f5f52e5885ab3a9ba4880a2f01411a8c7a057ec7b9"}, "tags": {"1.0_6--r3.2.2_0": "sha256:c700a3e56ddc884c2e09f0f5f52e5885ab3a9ba4880a2f01411a8c7a057ec7b9"}, "docker": "quay.io/biocontainers/r-fitdistrplus", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ncurses5-config": "/usr/local/bin/ncurses5-config", "pngcp": "/usr/local/bin/pngcp", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
+config: {"url": "https://biocontainers.pro/tools/r-fitdistrplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fitdistrplus", "latest": {"1.0_6--r3.2.2_0": "sha256:c700a3e56ddc884c2e09f0f5f52e5885ab3a9ba4880a2f01411a8c7a057ec7b9"}, "tags": {"1.0_6--r3.2.2_0": "sha256:c700a3e56ddc884c2e09f0f5f52e5885ab3a9ba4880a2f01411a8c7a057ec7b9"}, "docker": "quay.io/biocontainers/r-fitdistrplus", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fitdistrplus.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### pngcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngcp
+$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bmp2tiff
 
 ```bash
@@ -119,24 +129,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/gif2tiff
 $ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pngcp
-
-```bash
-$ singularity exec <container> /usr/local/bin/pngcp
-$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -164,6 +156,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/thumbnail
 $ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

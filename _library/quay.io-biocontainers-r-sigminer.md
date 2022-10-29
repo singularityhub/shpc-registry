@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/r-sigminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigminer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigminer/container.yaml"
-updated_at: "2022-10-29 05:33:05.140007"
+updated_at: "2022-10-29 07:38:04.349824"
 latest: "2.1.7--r41hecf12ef_1"
 container_url: "https://biocontainers.pro/tools/r-sigminer"
 aliases:
- - "2to3-3.10"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "2.1.7--r41hecf12ef_1"
 description: "shpc-registry automated BioContainers addition for r-sigminer"
-config: {"url": "https://biocontainers.pro/tools/r-sigminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigminer", "latest": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366"}, "tags": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366"}, "docker": "quay.io/biocontainers/r-sigminer", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-sigminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigminer", "latest": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366"}, "tags": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366"}, "docker": "quay.io/biocontainers/r-sigminer", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sigminer.
@@ -104,21 +104,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

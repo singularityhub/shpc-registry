@@ -4,26 +4,27 @@ name:  "quay.io/biocontainers/haploconduct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploconduct/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/haploconduct/container.yaml"
-updated_at: "2022-10-29 05:50:12.937651"
+updated_at: "2022-10-29 07:50:42.475305"
 latest: "0.2.1--py27h16ec135_3"
 container_url: "https://biocontainers.pro/tools/haploconduct"
 aliases:
  - "haploconduct"
+ - "kallisto"
  - "rust-overlaps"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
+ - "qualfa2fq.pl"
+ - "xa2multi.pl"
  - "bwa"
- - "export2sam.pl"
  - "f2py2"
  - "f2py2.7"
  - "fasta-sanitize.pl"
- - "gif2h5"
+ - "plot-ampliconstats"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
 versions:
  - "0.2.1--py27h16ec135_3"
 description: "shpc-registry automated BioContainers addition for haploconduct"
-config: {"url": "https://biocontainers.pro/tools/haploconduct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploconduct", "latest": {"0.2.1--py27h16ec135_3": "sha256:35438cf11320433689af1860613f4a97c4ab84f13651abfa4b088c74b57a13dc"}, "tags": {"0.2.1--py27h16ec135_3": "sha256:35438cf11320433689af1860613f4a97c4ab84f13651abfa4b088c74b57a13dc"}, "docker": "quay.io/biocontainers/haploconduct", "aliases": {"haploconduct": "/usr/local/bin/haploconduct", "rust-overlaps": "/usr/local/bin/rust-overlaps", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "bwa": "/usr/local/bin/bwa", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "gif2h5": "/usr/local/bin/gif2h5"}}
+config: {"url": "https://biocontainers.pro/tools/haploconduct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploconduct", "latest": {"0.2.1--py27h16ec135_3": "sha256:35438cf11320433689af1860613f4a97c4ab84f13651abfa4b088c74b57a13dc"}, "tags": {"0.2.1--py27h16ec135_3": "sha256:35438cf11320433689af1860613f4a97c4ab84f13651abfa4b088c74b57a13dc"}, "docker": "quay.io/biocontainers/haploconduct", "aliases": {"haploconduct": "/usr/local/bin/haploconduct", "kallisto": "/usr/local/bin/kallisto", "rust-overlaps": "/usr/local/bin/rust-overlaps", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haploconduct.
@@ -118,6 +119,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/haploconduct   -v ${PWD} -w $
 ```
 
 
+#### kallisto
+
+```bash
+$ singularity exec <container> /usr/local/bin/kallisto
+$ podman run --it --rm --entrypoint /usr/local/bin/kallisto   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kallisto   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### rust-overlaps
 
 ```bash
@@ -127,39 +137,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rust-overlaps   -v ${PWD} -w 
 ```
 
 
-#### ace2sam
+#### qualfa2fq.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### xa2multi.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xa2multi.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -169,15 +161,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/bwa
 $ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### export2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -208,12 +191,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD}
 ```
 
 
-#### gif2h5
+#### plot-ampliconstats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

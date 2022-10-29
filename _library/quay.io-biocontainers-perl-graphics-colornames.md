@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-graphics-colornames"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graphics-colornames/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graphics-colornames/container.yaml"
-updated_at: "2022-10-29 05:33:53.418129"
+updated_at: "2022-10-29 07:38:39.845131"
 latest: "2.11--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-graphics-colornames"
 aliases:
  - "config_data"
  - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.11--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-graphics-colornames"
-config: {"url": "https://biocontainers.pro/tools/perl-graphics-colornames", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graphics-colornames", "latest": {"2.11--pl5321hdfd78af_1": "sha256:dcc5becb60f2b3d147f3ecf443b8fe6f611616267b4c391d1c5fd16b2c1b5492"}, "tags": {"2.11--pl5321hdfd78af_1": "sha256:dcc5becb60f2b3d147f3ecf443b8fe6f611616267b4c391d1c5fd16b2c1b5492"}, "docker": "quay.io/biocontainers/perl-graphics-colornames", "aliases": {"config_data": "/usr/local/bin/config_data", "perl5.32.1": "/usr/local/bin/perl5.32.1"}}
+config: {"url": "https://biocontainers.pro/tools/perl-graphics-colornames", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graphics-colornames", "latest": {"2.11--pl5321hdfd78af_1": "sha256:dcc5becb60f2b3d147f3ecf443b8fe6f611616267b4c391d1c5fd16b2c1b5492"}, "tags": {"2.11--pl5321hdfd78af_1": "sha256:dcc5becb60f2b3d147f3ecf443b8fe6f611616267b4c391d1c5fd16b2c1b5492"}, "docker": "quay.io/biocontainers/perl-graphics-colornames", "aliases": {"config_data": "/usr/local/bin/config_data", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-graphics-colornames.
@@ -114,6 +115,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/perl5.32.1
 $ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

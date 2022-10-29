@@ -4,23 +4,24 @@ name:  "quay.io/biocontainers/lcfit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lcfit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lcfit/container.yaml"
-updated_at: "2022-10-29 05:34:49.134322"
+updated_at: "2022-10-29 07:39:20.513934"
 latest: "0.5--h20b91ae_3"
 container_url: "https://biocontainers.pro/tools/lcfit"
 aliases:
  - "2to3-3.6"
  - "idle3.6"
- - "ncurses5-config"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "0.5--h20b91ae_3"
 description: "shpc-registry automated BioContainers addition for lcfit"
-config: {"url": "https://biocontainers.pro/tools/lcfit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lcfit", "latest": {"0.5--h20b91ae_3": "sha256:47d81919a48a286dc9c1080992a06af8aab126d97ad400de3fa5653179539de6"}, "tags": {"0.5--h20b91ae_3": "sha256:47d81919a48a286dc9c1080992a06af8aab126d97ad400de3fa5653179539de6"}, "docker": "quay.io/biocontainers/lcfit", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/lcfit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lcfit", "latest": {"0.5--h20b91ae_3": "sha256:47d81919a48a286dc9c1080992a06af8aab126d97ad400de3fa5653179539de6"}, "tags": {"0.5--h20b91ae_3": "sha256:47d81919a48a286dc9c1080992a06af8aab126d97ad400de3fa5653179539de6"}, "docker": "quay.io/biocontainers/lcfit", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lcfit.
@@ -124,15 +125,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD}
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pydoc3.6
 
 ```bash
@@ -184,6 +176,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

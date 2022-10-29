@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/r-sew"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sew/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-sew/container.yaml"
-updated_at: "2022-10-29 05:34:26.001239"
+updated_at: "2022-10-29 07:39:03.816220"
 latest: "1.0.1--r41h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/r-sew"
 aliases:
- - "ace2sam"
+ - "rsync-ssl"
+ - "rsync"
+ - "xxh128sum"
+ - "xxh32sum"
+ - "xxh64sum"
+ - "xxhsum"
+ - "basenc"
  - "b2sum"
  - "base32"
  - "base64"
- - "basename"
- - "basenc"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "cat"
 versions:
  - "1.0.1--r41h9f5acd7_1"
 description: "shpc-registry automated BioContainers addition for r-sew"
-config: {"url": "https://biocontainers.pro/tools/r-sew", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sew", "latest": {"1.0.1--r41h9f5acd7_1": "sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7"}, "tags": {"1.0.1--r41h9f5acd7_1": "sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7"}, "docker": "quay.io/biocontainers/r-sew", "aliases": {"ace2sam": "/usr/local/bin/ace2sam", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "cat": "/usr/local/bin/cat"}}
+config: {"url": "https://biocontainers.pro/tools/r-sew", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sew", "latest": {"1.0.1--r41h9f5acd7_1": "sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7"}, "tags": {"1.0.1--r41h9f5acd7_1": "sha256:853e3d8cbf9d4e2136e271899e9c352325748bf93cc0f460244d2a3fb9905ac7"}, "docker": "quay.io/biocontainers/r-sew", "aliases": {"rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sew.
@@ -107,12 +107,66 @@ $ singularity inspect -d <container>
 ```
 
 
-#### ace2sam
+#### rsync-ssl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rsync-ssl
+$ podman run --it --rm --entrypoint /usr/local/bin/rsync-ssl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rsync-ssl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rsync
+
+```bash
+$ singularity exec <container> /usr/local/bin/rsync
+$ podman run --it --rm --entrypoint /usr/local/bin/rsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xxh128sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/xxh128sum
+$ podman run --it --rm --entrypoint /usr/local/bin/xxh128sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xxh128sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xxh32sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/xxh32sum
+$ podman run --it --rm --entrypoint /usr/local/bin/xxh32sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xxh32sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xxh64sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/xxh64sum
+$ podman run --it --rm --entrypoint /usr/local/bin/xxh64sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xxh64sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xxhsum
+
+```bash
+$ singularity exec <container> /usr/local/bin/xxhsum
+$ podman run --it --rm --entrypoint /usr/local/bin/xxhsum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xxhsum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -140,60 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/base64
 $ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### basename
-
-```bash
-$ singularity exec <container> /usr/local/bin/basename
-$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### basenc
-
-```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cat
-
-```bash
-$ singularity exec <container> /usr/local/bin/cat
-$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

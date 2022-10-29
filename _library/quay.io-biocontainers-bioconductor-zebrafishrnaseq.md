@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-zebrafishrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zebrafishrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zebrafishrnaseq/container.yaml"
-updated_at: "2022-10-29 05:58:15.624224"
+updated_at: "2022-10-29 07:56:34.313289"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq"
 aliases:
+ - ".bioconductor-zebrafishrnaseq-post-link.sh"
+ - ".bioconductor-zebrafishrnaseq-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-zebrafishrnaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafishrnaseq", "latest": {"1.9.0--r40_0": "sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af"}, "tags": {"1.9.0--r40_0": "sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af"}, "docker": "quay.io/biocontainers/bioconductor-zebrafishrnaseq", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafishrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafishrnaseq", "latest": {"1.9.0--r40_0": "sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af"}, "tags": {"1.9.0--r40_0": "sha256:7221fb618f6399b2b2a6672da2882ef6c15a52498e4bc0a37218a03ae0c270af"}, "docker": "quay.io/biocontainers/bioconductor-zebrafishrnaseq", "aliases": {".bioconductor-zebrafishrnaseq-post-link.sh": "/usr/local/bin/.bioconductor-zebrafishrnaseq-post-link.sh", ".bioconductor-zebrafishrnaseq-pre-unlink.sh": "/usr/local/bin/.bioconductor-zebrafishrnaseq-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zebrafishrnaseq.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-zebrafishrnaseq-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-zebrafishrnaseq-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-zebrafishrnaseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-zebrafishrnaseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-zebrafishrnaseq-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-zebrafishrnaseq-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-zebrafishrnaseq-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-zebrafishrnaseq-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

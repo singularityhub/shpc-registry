@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/biobb_common"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_common/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_common/container.yaml"
-updated_at: "2022-10-29 05:59:14.130139"
+updated_at: "2022-10-29 07:57:17.244605"
 latest: "3.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_common"
 aliases:
- - "2to3-3.10"
- - "f2py3.10"
- - "idle3.10"
  - "normalizer"
+ - "f2py3.10"
+ - "2to3-3.10"
+ - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "3.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_common"
-config: {"url": "https://biocontainers.pro/tools/biobb_common", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_common", "latest": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "docker": "quay.io/biocontainers/biobb_common", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_common", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_common", "latest": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "docker": "quay.io/biocontainers/biobb_common", "aliases": {"normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_common.
@@ -105,12 +105,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### normalizer
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -123,21 +123,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD
 ```
 
 
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### normalizer
-
-```bash
-$ singularity exec <container> /usr/local/bin/normalizer
-$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

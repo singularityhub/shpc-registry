@@ -4,21 +4,22 @@ name:  "quay.io/biocontainers/r-fields"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fields/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-fields/container.yaml"
-updated_at: "2022-10-29 05:42:23.868105"
+updated_at: "2022-10-29 07:44:55.751764"
 latest: "8.4_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fields"
 aliases:
+ - "pngcp"
  - "bmp2tiff"
  - "gif2tiff"
- - "ncurses5-config"
- - "pngcp"
  - "ras2tiff"
  - "rgb2ycbcr"
  - "thumbnail"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "8.4_1--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-fields"
-config: {"url": "https://biocontainers.pro/tools/r-fields", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fields", "latest": {"8.4_1--r3.2.2_0": "sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8"}, "tags": {"8.4_1--r3.2.2_0": "sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8"}, "docker": "quay.io/biocontainers/r-fields", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ncurses5-config": "/usr/local/bin/ncurses5-config", "pngcp": "/usr/local/bin/pngcp", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
+config: {"url": "https://biocontainers.pro/tools/r-fields", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fields", "latest": {"8.4_1--r3.2.2_0": "sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8"}, "tags": {"8.4_1--r3.2.2_0": "sha256:5ae8a0454cc4958d1396eaac6c893cf66106b575d68b3e75f88d0f26e4899fd8"}, "docker": "quay.io/biocontainers/r-fields", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fields.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### pngcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngcp
+$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bmp2tiff
 
 ```bash
@@ -119,24 +129,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/gif2tiff
 $ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pngcp
-
-```bash
-$ singularity exec <container> /usr/local/bin/pngcp
-$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -164,6 +156,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/thumbnail
 $ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

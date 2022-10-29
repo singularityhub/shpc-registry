@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/opentargets-validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opentargets-validator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets-validator/container.yaml"
-updated_at: "2022-10-29 05:38:25.227060"
+updated_at: "2022-10-29 07:41:59.788907"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/opentargets-validator"
 aliases:
  - "opentargets_validator"
- - "2to3-3.7"
- - "futurize"
- - "idle3.7"
  - "jsonschema"
  - "normalizer"
+ - "futurize"
  - "pasteurize"
+ - "2to3-3.7"
+ - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for opentargets-validator"
-config: {"url": "https://biocontainers.pro/tools/opentargets-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opentargets-validator", "latest": {"0.8.0--pyhdfd78af_0": "sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1"}, "docker": "quay.io/biocontainers/opentargets-validator", "aliases": {"opentargets_validator": "/usr/local/bin/opentargets_validator", "2to3-3.7": "/usr/local/bin/2to3-3.7", "futurize": "/usr/local/bin/futurize", "idle3.7": "/usr/local/bin/idle3.7", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/opentargets-validator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opentargets-validator", "latest": {"0.8.0--pyhdfd78af_0": "sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:f4f2e74d55a3cdadd46c30c3a36faf927f4fe5342548183387969f602b4da5f1"}, "docker": "quay.io/biocontainers/opentargets-validator", "aliases": {"opentargets_validator": "/usr/local/bin/opentargets_validator", "jsonschema": "/usr/local/bin/jsonschema", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/opentargets-validator.
@@ -117,33 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/opentargets_validator   -v ${
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### futurize
-
-```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### jsonschema
 
 ```bash
@@ -162,12 +135,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${P
 ```
 
 
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### pasteurize
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pasteurize
 $ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

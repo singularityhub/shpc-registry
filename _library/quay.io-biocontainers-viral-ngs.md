@@ -4,10 +4,13 @@ name:  "quay.io/biocontainers/viral-ngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral-ngs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/viral-ngs/container.yaml"
-updated_at: "2022-10-29 05:54:33.447637"
+updated_at: "2022-10-29 07:53:53.230533"
 latest: "1.13.4--py35_0"
 container_url: "https://biocontainers.pro/tools/viral-ngs"
 aliases:
+ - ".viral-ngs-post-link.sh"
+ - "GenomeAnalysisTK"
+ - "Trinity"
  - "Trinity-test"
  - "assembly.py"
  - "bamtools-2.4.0"
@@ -18,6 +21,7 @@ aliases:
  - "coverage-3.5"
  - "coverage3"
  - "extract_fullseq"
+ - "fastq-interleave"
  - "flake8"
  - "gatk-register"
  - "illumina.py"
@@ -25,12 +29,31 @@ aliases:
  - "interhost.py"
  - "intrahost.py"
  - "isnovoindex"
+ - "kraken"
+ - "kraken-build"
  - "kraken-build.bak"
+ - "kraken-filter"
  - "kraken-filter.bak"
+ - "kraken-mpa-report"
  - "kraken-mpa-report.bak"
+ - "kraken-report"
  - "kraken-report.bak"
+ - "kraken-translate"
  - "kraken-translate.bak"
  - "kraken.bak"
+ - "last-dotplot"
+ - "last-map-probs"
+ - "last-merge-batches"
+ - "last-pair-probs"
+ - "last-postmask"
+ - "last-split"
+ - "last-train"
+ - "lastal"
+ - "lastdb"
+ - "maf-convert"
+ - "maf-join"
+ - "maf-sort"
+ - "maf-swap"
  - "metagenomics.py"
  - "mvicuna"
  - "ncbi.py"
@@ -47,31 +70,42 @@ aliases:
  - "novorun.pl"
  - "novosort"
  - "novoutil"
+ - "parallel-fasta"
+ - "parallel-fastq"
  - "prinseq-graphs-noPCA.pl"
  - "prinseq-graphs.pl"
  - "prinseq-lite.pl"
  - "py.test-3.5"
+ - "pycodestyle"
  - "pyflakes"
+ - "pylupdate4"
+ - "pyrcc4"
+ - "pyuic4"
+ - "qdoc3"
+ - "qmlviewer"
+ - "qt3to4"
+ - "qtconfig"
+ - "qttracereplay"
  - "read_utils.py"
  - "reports.py"
  - "srprism"
  - "taxon_filter.py"
  - "variant_caller"
  - "vphaser2"
- - "2to3-3.5"
- - "GenomeAnalysisTK"
- - "Trinity"
- - "ace2sam"
- - "appletviewer"
- - "asadmin"
- - "assistant"
- - "bamtools"
- - "bcftools"
- - "bgzip"
+ - "gatk"
+ - "pbr"
+ - "ktClassifyBLAST"
+ - "ktGetContigMagnitudes"
+ - "ktGetLCA"
+ - "ktGetLibPath"
+ - "ktGetTaxIDFromAcc"
+ - "ktGetTaxInfo"
+ - "ktImportBLAST"
+ - "ktImportDiskUsage"
 versions:
  - "1.13.4--py35_0"
 description: "shpc-registry automated BioContainers addition for viral-ngs"
-config: {"url": "https://biocontainers.pro/tools/viral-ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viral-ngs", "latest": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "tags": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "docker": "quay.io/biocontainers/viral-ngs", "aliases": {"Trinity-test": "/usr/local/bin/Trinity-test", "assembly.py": "/usr/local/bin/assembly.py", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "broad_utils.py": "/usr/local/bin/broad_utils.py", "coverage-3.5": "/usr/local/bin/coverage-3.5", "coverage3": "/usr/local/bin/coverage3", "extract_fullseq": "/usr/local/bin/extract_fullseq", "flake8": "/usr/local/bin/flake8", "gatk-register": "/usr/local/bin/gatk-register", "illumina.py": "/usr/local/bin/illumina.py", "install_tools.py": "/usr/local/bin/install_tools.py", "interhost.py": "/usr/local/bin/interhost.py", "intrahost.py": "/usr/local/bin/intrahost.py", "isnovoindex": "/usr/local/bin/isnovoindex", "kraken-build.bak": "/usr/local/bin/kraken-build.bak", "kraken-filter.bak": "/usr/local/bin/kraken-filter.bak", "kraken-mpa-report.bak": "/usr/local/bin/kraken-mpa-report.bak", "kraken-report.bak": "/usr/local/bin/kraken-report.bak", "kraken-translate.bak": "/usr/local/bin/kraken-translate.bak", "kraken.bak": "/usr/local/bin/kraken.bak", "metagenomics.py": "/usr/local/bin/metagenomics.py", "mvicuna": "/usr/local/bin/mvicuna", "ncbi.py": "/usr/local/bin/ncbi.py", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignCS": "/usr/local/bin/novoalignCS", "novoalignCSMPI": "/usr/local/bin/novoalignCSMPI", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "prinseq-graphs-noPCA.pl": "/usr/local/bin/prinseq-graphs-noPCA.pl", "prinseq-graphs.pl": "/usr/local/bin/prinseq-graphs.pl", "prinseq-lite.pl": "/usr/local/bin/prinseq-lite.pl", "py.test-3.5": "/usr/local/bin/py.test-3.5", "pyflakes": "/usr/local/bin/pyflakes", "read_utils.py": "/usr/local/bin/read_utils.py", "reports.py": "/usr/local/bin/reports.py", "srprism": "/usr/local/bin/srprism", "taxon_filter.py": "/usr/local/bin/taxon_filter.py", "variant_caller": "/usr/local/bin/variant_caller", "vphaser2": "/usr/local/bin/vphaser2", "2to3-3.5": "/usr/local/bin/2to3-3.5", "GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "Trinity": "/usr/local/bin/Trinity", "ace2sam": "/usr/local/bin/ace2sam", "appletviewer": "/usr/local/bin/appletviewer", "asadmin": "/usr/local/bin/asadmin", "assistant": "/usr/local/bin/assistant", "bamtools": "/usr/local/bin/bamtools", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip"}}
+config: {"url": "https://biocontainers.pro/tools/viral-ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viral-ngs", "latest": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "tags": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "docker": "quay.io/biocontainers/viral-ngs", "aliases": {".viral-ngs-post-link.sh": "/usr/local/bin/.viral-ngs-post-link.sh", "GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "Trinity": "/usr/local/bin/Trinity", "Trinity-test": "/usr/local/bin/Trinity-test", "assembly.py": "/usr/local/bin/assembly.py", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "broad_utils.py": "/usr/local/bin/broad_utils.py", "coverage-3.5": "/usr/local/bin/coverage-3.5", "coverage3": "/usr/local/bin/coverage3", "extract_fullseq": "/usr/local/bin/extract_fullseq", "fastq-interleave": "/usr/local/bin/fastq-interleave", "flake8": "/usr/local/bin/flake8", "gatk-register": "/usr/local/bin/gatk-register", "illumina.py": "/usr/local/bin/illumina.py", "install_tools.py": "/usr/local/bin/install_tools.py", "interhost.py": "/usr/local/bin/interhost.py", "intrahost.py": "/usr/local/bin/intrahost.py", "isnovoindex": "/usr/local/bin/isnovoindex", "kraken": "/usr/local/bin/kraken", "kraken-build": "/usr/local/bin/kraken-build", "kraken-build.bak": "/usr/local/bin/kraken-build.bak", "kraken-filter": "/usr/local/bin/kraken-filter", "kraken-filter.bak": "/usr/local/bin/kraken-filter.bak", "kraken-mpa-report": "/usr/local/bin/kraken-mpa-report", "kraken-mpa-report.bak": "/usr/local/bin/kraken-mpa-report.bak", "kraken-report": "/usr/local/bin/kraken-report", "kraken-report.bak": "/usr/local/bin/kraken-report.bak", "kraken-translate": "/usr/local/bin/kraken-translate", "kraken-translate.bak": "/usr/local/bin/kraken-translate.bak", "kraken.bak": "/usr/local/bin/kraken.bak", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-merge-batches": "/usr/local/bin/last-merge-batches", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastdb": "/usr/local/bin/lastdb", "maf-convert": "/usr/local/bin/maf-convert", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "metagenomics.py": "/usr/local/bin/metagenomics.py", "mvicuna": "/usr/local/bin/mvicuna", "ncbi.py": "/usr/local/bin/ncbi.py", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignCS": "/usr/local/bin/novoalignCS", "novoalignCSMPI": "/usr/local/bin/novoalignCSMPI", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "prinseq-graphs-noPCA.pl": "/usr/local/bin/prinseq-graphs-noPCA.pl", "prinseq-graphs.pl": "/usr/local/bin/prinseq-graphs.pl", "prinseq-lite.pl": "/usr/local/bin/prinseq-lite.pl", "py.test-3.5": "/usr/local/bin/py.test-3.5", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "pylupdate4": "/usr/local/bin/pylupdate4", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "read_utils.py": "/usr/local/bin/read_utils.py", "reports.py": "/usr/local/bin/reports.py", "srprism": "/usr/local/bin/srprism", "taxon_filter.py": "/usr/local/bin/taxon_filter.py", "variant_caller": "/usr/local/bin/variant_caller", "vphaser2": "/usr/local/bin/vphaser2", "gatk": "/usr/local/bin/gatk", "pbr": "/usr/local/bin/pbr", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viral-ngs.
@@ -154,6 +188,33 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .viral-ngs-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.viral-ngs-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.viral-ngs-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.viral-ngs-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### GenomeAnalysisTK
+
+```bash
+$ singularity exec <container> /usr/local/bin/GenomeAnalysisTK
+$ podman run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Trinity
+
+```bash
+$ singularity exec <container> /usr/local/bin/Trinity
+$ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -247,6 +308,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extract_fullseq   -v ${PWD} -
 ```
 
 
+#### fastq-interleave
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq-interleave
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq-interleave   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq-interleave   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### flake8
 
 ```bash
@@ -310,12 +380,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/isnovoindex   -v ${PWD} -w ${
 ```
 
 
+#### kraken
+
+```bash
+$ singularity exec <container> /usr/local/bin/kraken
+$ podman run --it --rm --entrypoint /usr/local/bin/kraken   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kraken   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kraken-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/kraken-build
+$ podman run --it --rm --entrypoint /usr/local/bin/kraken-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kraken-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### kraken-build.bak
 
 ```bash
 $ singularity exec <container> /usr/local/bin/kraken-build.bak
 $ podman run --it --rm --entrypoint /usr/local/bin/kraken-build.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/kraken-build.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kraken-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/kraken-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/kraken-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kraken-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -328,6 +425,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kraken-filter.bak   -v ${PWD}
 ```
 
 
+#### kraken-mpa-report
+
+```bash
+$ singularity exec <container> /usr/local/bin/kraken-mpa-report
+$ podman run --it --rm --entrypoint /usr/local/bin/kraken-mpa-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kraken-mpa-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### kraken-mpa-report.bak
 
 ```bash
@@ -337,12 +443,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kraken-mpa-report.bak   -v ${
 ```
 
 
+#### kraken-report
+
+```bash
+$ singularity exec <container> /usr/local/bin/kraken-report
+$ podman run --it --rm --entrypoint /usr/local/bin/kraken-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kraken-report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### kraken-report.bak
 
 ```bash
 $ singularity exec <container> /usr/local/bin/kraken-report.bak
 $ podman run --it --rm --entrypoint /usr/local/bin/kraken-report.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/kraken-report.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kraken-translate
+
+```bash
+$ singularity exec <container> /usr/local/bin/kraken-translate
+$ podman run --it --rm --entrypoint /usr/local/bin/kraken-translate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kraken-translate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -361,6 +485,123 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kraken-translate.bak   -v ${P
 $ singularity exec <container> /usr/local/bin/kraken.bak
 $ podman run --it --rm --entrypoint /usr/local/bin/kraken.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/kraken.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### last-dotplot
+
+```bash
+$ singularity exec <container> /usr/local/bin/last-dotplot
+$ podman run --it --rm --entrypoint /usr/local/bin/last-dotplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/last-dotplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### last-map-probs
+
+```bash
+$ singularity exec <container> /usr/local/bin/last-map-probs
+$ podman run --it --rm --entrypoint /usr/local/bin/last-map-probs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/last-map-probs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### last-merge-batches
+
+```bash
+$ singularity exec <container> /usr/local/bin/last-merge-batches
+$ podman run --it --rm --entrypoint /usr/local/bin/last-merge-batches   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/last-merge-batches   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### last-pair-probs
+
+```bash
+$ singularity exec <container> /usr/local/bin/last-pair-probs
+$ podman run --it --rm --entrypoint /usr/local/bin/last-pair-probs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/last-pair-probs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### last-postmask
+
+```bash
+$ singularity exec <container> /usr/local/bin/last-postmask
+$ podman run --it --rm --entrypoint /usr/local/bin/last-postmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/last-postmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### last-split
+
+```bash
+$ singularity exec <container> /usr/local/bin/last-split
+$ podman run --it --rm --entrypoint /usr/local/bin/last-split   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/last-split   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### last-train
+
+```bash
+$ singularity exec <container> /usr/local/bin/last-train
+$ podman run --it --rm --entrypoint /usr/local/bin/last-train   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/last-train   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lastal
+
+```bash
+$ singularity exec <container> /usr/local/bin/lastal
+$ podman run --it --rm --entrypoint /usr/local/bin/lastal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lastal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lastdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/lastdb
+$ podman run --it --rm --entrypoint /usr/local/bin/lastdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lastdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maf-convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/maf-convert
+$ podman run --it --rm --entrypoint /usr/local/bin/maf-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maf-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maf-join
+
+```bash
+$ singularity exec <container> /usr/local/bin/maf-join
+$ podman run --it --rm --entrypoint /usr/local/bin/maf-join   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maf-join   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maf-sort
+
+```bash
+$ singularity exec <container> /usr/local/bin/maf-sort
+$ podman run --it --rm --entrypoint /usr/local/bin/maf-sort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maf-sort   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maf-swap
+
+```bash
+$ singularity exec <container> /usr/local/bin/maf-swap
+$ podman run --it --rm --entrypoint /usr/local/bin/maf-swap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maf-swap   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -508,6 +749,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/novoutil   -v ${PWD} -w ${PWD
 ```
 
 
+#### parallel-fasta
+
+```bash
+$ singularity exec <container> /usr/local/bin/parallel-fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/parallel-fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parallel-fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### parallel-fastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/parallel-fastq
+$ podman run --it --rm --entrypoint /usr/local/bin/parallel-fastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parallel-fastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### prinseq-graphs-noPCA.pl
 
 ```bash
@@ -544,12 +803,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/py.test-3.5   -v ${PWD} -w ${
 ```
 
 
+#### pycodestyle
+
+```bash
+$ singularity exec <container> /usr/local/bin/pycodestyle
+$ podman run --it --rm --entrypoint /usr/local/bin/pycodestyle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pycodestyle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### pyflakes
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyflakes
 $ podman run --it --rm --entrypoint /usr/local/bin/pyflakes   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyflakes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pylupdate4
+
+```bash
+$ singularity exec <container> /usr/local/bin/pylupdate4
+$ podman run --it --rm --entrypoint /usr/local/bin/pylupdate4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pylupdate4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrcc4
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrcc4
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrcc4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrcc4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyuic4
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyuic4
+$ podman run --it --rm --entrypoint /usr/local/bin/pyuic4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyuic4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qdoc3
+
+```bash
+$ singularity exec <container> /usr/local/bin/qdoc3
+$ podman run --it --rm --entrypoint /usr/local/bin/qdoc3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdoc3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qmlviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/qmlviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/qmlviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qmlviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qt3to4
+
+```bash
+$ singularity exec <container> /usr/local/bin/qt3to4
+$ podman run --it --rm --entrypoint /usr/local/bin/qt3to4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qt3to4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qtconfig
+
+```bash
+$ singularity exec <container> /usr/local/bin/qtconfig
+$ podman run --it --rm --entrypoint /usr/local/bin/qtconfig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qtconfig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qttracereplay
+
+```bash
+$ singularity exec <container> /usr/local/bin/qttracereplay
+$ podman run --it --rm --entrypoint /usr/local/bin/qttracereplay   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qttracereplay   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -607,93 +947,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vphaser2   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.5
+#### gatk
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gatk
+$ podman run --it --rm --entrypoint /usr/local/bin/gatk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gatk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### GenomeAnalysisTK
+#### pbr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/GenomeAnalysisTK
-$ podman run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pbr
+$ podman run --it --rm --entrypoint /usr/local/bin/pbr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Trinity
+#### ktClassifyBLAST
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Trinity
-$ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktClassifyBLAST
+$ podman run --it --rm --entrypoint /usr/local/bin/ktClassifyBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktClassifyBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### ktGetContigMagnitudes
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetContigMagnitudes
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetContigMagnitudes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetContigMagnitudes   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### appletviewer
+#### ktGetLCA
 
 ```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetLCA
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetLCA   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetLCA   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asadmin
+#### ktGetLibPath
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asadmin
-$ podman run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetLibPath
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetLibPath   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetLibPath   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### ktGetTaxIDFromAcc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetTaxIDFromAcc
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetTaxIDFromAcc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetTaxIDFromAcc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamtools
+#### ktGetTaxInfo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetTaxInfo
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetTaxInfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetTaxInfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcftools
+#### ktImportBLAST
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktImportBLAST
+$ podman run --it --rm --entrypoint /usr/local/bin/ktImportBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktImportBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### ktImportDiskUsage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktImportDiskUsage
+$ podman run --it --rm --entrypoint /usr/local/bin/ktImportDiskUsage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktImportDiskUsage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

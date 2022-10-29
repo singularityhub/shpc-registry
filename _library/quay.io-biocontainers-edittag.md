@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edittag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edittag/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/edittag/container.yaml"
-updated_at: "2022-10-29 05:36:53.769270"
+updated_at: "2022-10-29 07:40:52.336898"
 latest: "1.1--py_2"
 container_url: "https://biocontainers.pro/tools/edittag"
 aliases:
@@ -14,20 +14,20 @@ aliases:
  - "estimate_sequencing_error_effects.py"
  - "get_tag_flows_for_454.py"
  - "validate_edit_metric_tags.py"
- - "2to3-3.7"
  - "f2py3.7"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
  - "python3.7m"
  - "python3.7m-config"
- - "pyvenv"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "1.1--py_2"
 description: "shpc-registry automated BioContainers addition for edittag"
-config: {"url": "https://biocontainers.pro/tools/edittag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edittag", "latest": {"1.1--py_2": "sha256:fcbd4abbaa4dab6383a517cc3a36a0032bc0f0e3245d3b920a1457f805da94c1"}, "tags": {"1.1--py_2": "sha256:fcbd4abbaa4dab6383a517cc3a36a0032bc0f0e3245d3b920a1457f805da94c1"}, "docker": "quay.io/biocontainers/edittag", "aliases": {"add_tags_to_adapters.py": "/usr/local/bin/add_tags_to_adapters.py", "add_tags_to_primers.py": "/usr/local/bin/add_tags_to_primers.py", "design_edit_metric_tags.py": "/usr/local/bin/design_edit_metric_tags.py", "estimate_sequencing_error_effects.py": "/usr/local/bin/estimate_sequencing_error_effects.py", "get_tag_flows_for_454.py": "/usr/local/bin/get_tag_flows_for_454.py", "validate_edit_metric_tags.py": "/usr/local/bin/validate_edit_metric_tags.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/edittag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edittag", "latest": {"1.1--py_2": "sha256:fcbd4abbaa4dab6383a517cc3a36a0032bc0f0e3245d3b920a1457f805da94c1"}, "tags": {"1.1--py_2": "sha256:fcbd4abbaa4dab6383a517cc3a36a0032bc0f0e3245d3b920a1457f805da94c1"}, "docker": "quay.io/biocontainers/edittag", "aliases": {"add_tags_to_adapters.py": "/usr/local/bin/add_tags_to_adapters.py", "add_tags_to_primers.py": "/usr/local/bin/add_tags_to_primers.py", "design_edit_metric_tags.py": "/usr/local/bin/design_edit_metric_tags.py", "estimate_sequencing_error_effects.py": "/usr/local/bin/estimate_sequencing_error_effects.py", "get_tag_flows_for_454.py": "/usr/local/bin/get_tag_flows_for_454.py", "validate_edit_metric_tags.py": "/usr/local/bin/validate_edit_metric_tags.py", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edittag.
@@ -167,21 +167,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/validate_edit_metric_tags.py 
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -239,21 +239,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pyvenv-3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

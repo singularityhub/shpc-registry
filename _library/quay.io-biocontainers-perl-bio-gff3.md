@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/perl-bio-gff3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-gff3/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-gff3/container.yaml"
-updated_at: "2022-10-29 05:53:24.710238"
+updated_at: "2022-10-29 07:53:03.579876"
 latest: "2.0--pl5321hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/perl-bio-gff3"
 aliases:
  - "gff3_from_fasta"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.0--pl5321hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for perl-bio-gff3"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-gff3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-gff3", "latest": {"2.0--pl5321hdfd78af_5": "sha256:dc4158de2ad838c9dd404cc3bae8ebc78e9958d560a10f9b3762972198411118"}, "tags": {"2.0--pl5321hdfd78af_5": "sha256:dc4158de2ad838c9dd404cc3bae8ebc78e9958d560a10f9b3762972198411118"}, "docker": "quay.io/biocontainers/perl-bio-gff3", "aliases": {"gff3_from_fasta": "/usr/local/bin/gff3_from_fasta"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-gff3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-gff3", "latest": {"2.0--pl5321hdfd78af_5": "sha256:dc4158de2ad838c9dd404cc3bae8ebc78e9958d560a10f9b3762972198411118"}, "tags": {"2.0--pl5321hdfd78af_5": "sha256:dc4158de2ad838c9dd404cc3bae8ebc78e9958d560a10f9b3762972198411118"}, "docker": "quay.io/biocontainers/perl-bio-gff3", "aliases": {"gff3_from_fasta": "/usr/local/bin/gff3_from_fasta", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-gff3.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/gff3_from_fasta
 $ podman run --it --rm --entrypoint /usr/local/bin/gff3_from_fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gff3_from_fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

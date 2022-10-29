@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/perl-biox-seq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-biox-seq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-biox-seq/container.yaml"
-updated_at: "2022-10-29 05:38:00.334971"
+updated_at: "2022-10-29 07:41:41.442579"
 latest: "0.008006--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-biox-seq"
 aliases:
  - "bgzip.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.008006--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-biox-seq"
-config: {"url": "https://biocontainers.pro/tools/perl-biox-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biox-seq", "latest": {"0.008006--pl5321hdfd78af_0": "sha256:194e6f0a79c5866e95f89733756fbb49865cce50661e728cd6b785114e1134b2"}, "tags": {"0.008006--pl5321hdfd78af_0": "sha256:194e6f0a79c5866e95f89733756fbb49865cce50661e728cd6b785114e1134b2"}, "docker": "quay.io/biocontainers/perl-biox-seq", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-biox-seq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biox-seq", "latest": {"0.008006--pl5321hdfd78af_0": "sha256:194e6f0a79c5866e95f89733756fbb49865cce50661e728cd6b785114e1134b2"}, "tags": {"0.008006--pl5321hdfd78af_0": "sha256:194e6f0a79c5866e95f89733756fbb49865cce50661e728cd6b785114e1134b2"}, "docker": "quay.io/biocontainers/perl-biox-seq", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-biox-seq.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/bgzip.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/bgzip.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bgzip.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

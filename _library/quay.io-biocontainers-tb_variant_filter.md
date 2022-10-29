@@ -4,21 +4,26 @@ name:  "quay.io/biocontainers/tb_variant_filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tb_variant_filter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tb_variant_filter/container.yaml"
-updated_at: "2022-10-29 05:56:59.777296"
+updated_at: "2022-10-29 07:55:39.269973"
 latest: "0.3.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tb_variant_filter"
 aliases:
  - "tb_bed_to_region_list"
  - "tb_region_list_to_bed"
  - "tb_variant_filter"
- - "chardetect"
- - "f2py3.9"
  - "xslt-config"
  - "xsltproc"
+ - "chardetect"
+ - "f2py3.9"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.3.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tb_variant_filter"
-config: {"url": "https://biocontainers.pro/tools/tb_variant_filter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tb_variant_filter", "latest": {"0.3.5--pyhdfd78af_0": "sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b"}, "tags": {"0.3.5--pyhdfd78af_0": "sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b"}, "docker": "quay.io/biocontainers/tb_variant_filter", "aliases": {"tb_bed_to_region_list": "/usr/local/bin/tb_bed_to_region_list", "tb_region_list_to_bed": "/usr/local/bin/tb_region_list_to_bed", "tb_variant_filter": "/usr/local/bin/tb_variant_filter", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
+config: {"url": "https://biocontainers.pro/tools/tb_variant_filter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tb_variant_filter", "latest": {"0.3.5--pyhdfd78af_0": "sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b"}, "tags": {"0.3.5--pyhdfd78af_0": "sha256:fd3838fb07d741603b1f1900c25076e6cdf03fc1eaadd78542d3ef5308de579b"}, "docker": "quay.io/biocontainers/tb_variant_filter", "aliases": {"tb_bed_to_region_list": "/usr/local/bin/tb_bed_to_region_list", "tb_region_list_to_bed": "/usr/local/bin/tb_region_list_to_bed", "tb_variant_filter": "/usr/local/bin/tb_variant_filter", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tb_variant_filter.
@@ -131,6 +136,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tb_variant_filter   -v ${PWD}
 ```
 
 
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### chardetect
 
 ```bash
@@ -149,21 +172,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
-#### xslt-config
+#### 2to3-3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/xslt-config
-$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### xsltproc
+#### idle3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/xsltproc
-$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brockman-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brockman-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/brockman-pipeline/container.yaml"
-updated_at: "2022-10-29 05:52:30.015086"
+updated_at: "2022-10-29 07:52:23.202662"
 latest: "1.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/brockman-pipeline"
 aliases:
@@ -12,25 +12,27 @@ aliases:
  - "AMUSED-KS"
  - "alignKMers"
  - "brockman_pipeline"
+ - "bundle"
+ - "bundler"
  - "racc"
  - "racc2y"
  - "shuffleCodons.rb"
  - "shuffleCodonsAddMotifs.rb"
  - "y2racc"
- - "2to3-3.9"
- - "ace2sam"
- - "annotateBed"
- - "aserver"
- - "bamToBed"
- - "bamToFastq"
- - "bed12ToBed6"
- - "bedToBam"
- - "bedToIgv"
- - "bedpeToBam"
+ - "gdbm_dump"
+ - "gdbm_load"
+ - "gdbmtool"
+ - "jemalloc-config"
+ - "jeprof"
+ - "twoBitToFa"
+ - "jemalloc.sh"
+ - "erb"
+ - "gem"
+ - "irb"
 versions:
  - "1.0--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for brockman-pipeline"
-config: {"url": "https://biocontainers.pro/tools/brockman-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brockman-pipeline", "latest": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "tags": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "docker": "quay.io/biocontainers/brockman-pipeline", "aliases": {"AMUSED": "/usr/local/bin/AMUSED", "AMUSED-KS": "/usr/local/bin/AMUSED-KS", "alignKMers": "/usr/local/bin/alignKMers", "brockman_pipeline": "/usr/local/bin/brockman_pipeline", "racc": "/usr/local/bin/racc", "racc2y": "/usr/local/bin/racc2y", "shuffleCodons.rb": "/usr/local/bin/shuffleCodons.rb", "shuffleCodonsAddMotifs.rb": "/usr/local/bin/shuffleCodonsAddMotifs.rb", "y2racc": "/usr/local/bin/y2racc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "aserver": "/usr/local/bin/aserver", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
+config: {"url": "https://biocontainers.pro/tools/brockman-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brockman-pipeline", "latest": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "tags": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "docker": "quay.io/biocontainers/brockman-pipeline", "aliases": {"AMUSED": "/usr/local/bin/AMUSED", "AMUSED-KS": "/usr/local/bin/AMUSED-KS", "alignKMers": "/usr/local/bin/alignKMers", "brockman_pipeline": "/usr/local/bin/brockman_pipeline", "bundle": "/usr/local/bin/bundle", "bundler": "/usr/local/bin/bundler", "racc": "/usr/local/bin/racc", "racc2y": "/usr/local/bin/racc2y", "shuffleCodons.rb": "/usr/local/bin/shuffleCodons.rb", "shuffleCodonsAddMotifs.rb": "/usr/local/bin/shuffleCodonsAddMotifs.rb", "y2racc": "/usr/local/bin/y2racc", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jeprof": "/usr/local/bin/jeprof", "twoBitToFa": "/usr/local/bin/twoBitToFa", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/brockman-pipeline.
@@ -152,6 +154,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/brockman_pipeline   -v ${PWD}
 ```
 
 
+#### bundle
+
+```bash
+$ singularity exec <container> /usr/local/bin/bundle
+$ podman run --it --rm --entrypoint /usr/local/bin/bundle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bundle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bundler
+
+```bash
+$ singularity exec <container> /usr/local/bin/bundler
+$ podman run --it --rm --entrypoint /usr/local/bin/bundler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bundler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### racc
 
 ```bash
@@ -197,93 +217,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/y2racc   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.9
+#### gdbm_dump
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdbm_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/gdbm_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdbm_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### gdbm_load
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdbm_load
+$ podman run --it --rm --entrypoint /usr/local/bin/gdbm_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdbm_load   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### gdbmtool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdbmtool
+$ podman run --it --rm --entrypoint /usr/local/bin/gdbmtool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdbmtool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### jemalloc-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jemalloc-config
+$ podman run --it --rm --entrypoint /usr/local/bin/jemalloc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jemalloc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### jeprof
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jeprof
+$ podman run --it --rm --entrypoint /usr/local/bin/jeprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jeprof   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### twoBitToFa
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/twoBitToFa
+$ podman run --it --rm --entrypoint /usr/local/bin/twoBitToFa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/twoBitToFa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bed12ToBed6
+#### jemalloc.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jemalloc.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/jemalloc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jemalloc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToBam
+#### erb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/erb
+$ podman run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToIgv
+#### gem
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToIgv
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gem
+$ podman run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedpeToBam
+#### irb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/irb
+$ podman run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

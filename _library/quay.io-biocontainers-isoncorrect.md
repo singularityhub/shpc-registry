@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/isoncorrect"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isoncorrect/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/isoncorrect/container.yaml"
-updated_at: "2022-10-29 05:47:49.305907"
+updated_at: "2022-10-29 07:48:56.637242"
 latest: "0.0.8--py_0"
 container_url: "https://biocontainers.pro/tools/isoncorrect"
 aliases:
  - "isONcorrect"
  - "run_isoncorrect"
- - "2to3-3.8"
  - "f2py3.8"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.0.8--py_0"
 description: "shpc-registry automated BioContainers addition for isoncorrect"
-config: {"url": "https://biocontainers.pro/tools/isoncorrect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isoncorrect", "latest": {"0.0.8--py_0": "sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae"}, "tags": {"0.0.8--py_0": "sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae"}, "docker": "quay.io/biocontainers/isoncorrect", "aliases": {"isONcorrect": "/usr/local/bin/isONcorrect", "run_isoncorrect": "/usr/local/bin/run_isoncorrect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/isoncorrect", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isoncorrect", "latest": {"0.0.8--py_0": "sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae"}, "tags": {"0.0.8--py_0": "sha256:aa4900a8abe1b3bdbcfb3c7f77a85f83f12c4a59d87852369e1c462a255e65ae"}, "docker": "quay.io/biocontainers/isoncorrect", "aliases": {"isONcorrect": "/usr/local/bin/isONcorrect", "run_isoncorrect": "/usr/local/bin/run_isoncorrect", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isoncorrect.
@@ -123,21 +123,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run_isoncorrect   -v ${PWD} -
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.8
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

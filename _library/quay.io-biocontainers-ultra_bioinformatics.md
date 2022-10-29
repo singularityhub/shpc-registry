@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ultra_bioinformatics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ultra_bioinformatics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ultra_bioinformatics/container.yaml"
-updated_at: "2022-10-29 05:53:32.850810"
+updated_at: "2022-10-29 07:53:09.539350"
 latest: "0.0.4.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ultra_bioinformatics"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "edlib-aligner"
  - "slaMEM"
  - "uLTRA"
- - "2to3-3.9"
- - "activate-global-python-argcomplete"
- - "combineMUMs"
- - "delta-filter"
- - "dnadiff"
- - "exact-tandems"
- - "f2py3.9"
- - "faidx"
- - "get_objgraph"
  - "gffutils-cli"
+ - "activate-global-python-argcomplete"
+ - "get_objgraph"
+ - "python-argcomplete-check-easy-install-script"
+ - "python-argcomplete-tcsh"
+ - "register-python-argcomplete"
+ - "undill"
+ - "mapview"
+ - "mgaps"
+ - "run-mummer1"
 versions:
  - "0.0.4.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for ultra_bioinformatics"
-config: {"url": "https://biocontainers.pro/tools/ultra_bioinformatics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ultra_bioinformatics", "latest": {"0.0.4.1--pyh5e36f6f_0": "sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51"}, "tags": {"0.0.4.1--pyh5e36f6f_0": "sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51"}, "docker": "quay.io/biocontainers/ultra_bioinformatics", "aliases": {"StrobeMap": "/usr/local/bin/StrobeMap", "edlib-aligner": "/usr/local/bin/edlib-aligner", "slaMEM": "/usr/local/bin/slaMEM", "uLTRA": "/usr/local/bin/uLTRA", "2to3-3.9": "/usr/local/bin/2to3-3.9", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "f2py3.9": "/usr/local/bin/f2py3.9", "faidx": "/usr/local/bin/faidx", "get_objgraph": "/usr/local/bin/get_objgraph", "gffutils-cli": "/usr/local/bin/gffutils-cli"}}
+config: {"url": "https://biocontainers.pro/tools/ultra_bioinformatics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ultra_bioinformatics", "latest": {"0.0.4.1--pyh5e36f6f_0": "sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51"}, "tags": {"0.0.4.1--pyh5e36f6f_0": "sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51"}, "docker": "quay.io/biocontainers/ultra_bioinformatics", "aliases": {"StrobeMap": "/usr/local/bin/StrobeMap", "edlib-aligner": "/usr/local/bin/edlib-aligner", "slaMEM": "/usr/local/bin/slaMEM", "uLTRA": "/usr/local/bin/uLTRA", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "get_objgraph": "/usr/local/bin/get_objgraph", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "undill": "/usr/local/bin/undill", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ultra_bioinformatics.
@@ -147,12 +147,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/uLTRA   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.9
+#### gffutils-cli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gffutils-cli
+$ podman run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -165,60 +165,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcom
 ```
 
 
-#### combineMUMs
-
-```bash
-$ singularity exec <container> /usr/local/bin/combineMUMs
-$ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### delta-filter
-
-```bash
-$ singularity exec <container> /usr/local/bin/delta-filter
-$ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dnadiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/dnadiff
-$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### exact-tandems
-
-```bash
-$ singularity exec <container> /usr/local/bin/exact-tandems
-$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### faidx
-
-```bash
-$ singularity exec <container> /usr/local/bin/faidx
-$ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### get_objgraph
 
 ```bash
@@ -228,12 +174,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w $
 ```
 
 
-#### gffutils-cli
+#### python-argcomplete-check-easy-install-script
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gffutils-cli
-$ podman run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python-argcomplete-check-easy-install-script
+$ podman run --it --rm --entrypoint /usr/local/bin/python-argcomplete-check-easy-install-script   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-check-easy-install-script   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-argcomplete-tcsh
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-argcomplete-tcsh
+$ podman run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### register-python-argcomplete
+
+```bash
+$ singularity exec <container> /usr/local/bin/register-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### undill
+
+```bash
+$ singularity exec <container> /usr/local/bin/undill
+$ podman run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mapview
+
+```bash
+$ singularity exec <container> /usr/local/bin/mapview
+$ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mgaps
+
+```bash
+$ singularity exec <container> /usr/local/bin/mgaps
+$ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run-mummer1
+
+```bash
+$ singularity exec <container> /usr/local/bin/run-mummer1
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

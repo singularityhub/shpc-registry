@@ -4,26 +4,27 @@ name:  "quay.io/biocontainers/magcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/magcluster/container.yaml"
-updated_at: "2022-10-29 05:52:02.781220"
+updated_at: "2022-10-29 07:52:03.260709"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/magcluster"
 aliases:
  - "clinker"
  - "magcluster"
- - "2to3-3.7"
- - "SOAPsh.pl"
- - "accn-at-a-time"
- - "ace.pl"
- - "activate-global-python-argcomplete"
- - "acyclic"
- - "align-columns"
- - "alimask"
- - "amino-acid-composition"
- - "annotate"
+ - "prokka-make_tarball"
+ - "prokka-abricate_to_fasta_db"
+ - "prokka"
+ - "prokka-biocyc_to_fasta_db"
+ - "prokka-build_kingdom_dbs"
+ - "prokka-cdd_to_hmm"
+ - "prokka-clusters_to_hmm"
+ - "prokka-genbank_to_fasta_db"
+ - "prokka-genpept_to_fasta_db"
+ - "prokka-hamap_to_hmm"
+ - "prokka-tigrfams_to_hmm"
 versions:
  - "0.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for magcluster"
-config: {"url": "https://biocontainers.pro/tools/magcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magcluster", "latest": {"0.2.2--pyhdfd78af_0": "sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d"}, "docker": "quay.io/biocontainers/magcluster", "aliases": {"clinker": "/usr/local/bin/clinker", "magcluster": "/usr/local/bin/magcluster", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace.pl": "/usr/local/bin/ace.pl", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "acyclic": "/usr/local/bin/acyclic", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate"}}
+config: {"url": "https://biocontainers.pro/tools/magcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magcluster", "latest": {"0.2.2--pyhdfd78af_0": "sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:8b2fc39941c2aa679e313e1061956ddba48d8d89fc5ea294615190349e1fe52d"}, "docker": "quay.io/biocontainers/magcluster", "aliases": {"clinker": "/usr/local/bin/clinker", "magcluster": "/usr/local/bin/magcluster", "prokka-make_tarball": "/usr/local/bin/prokka-make_tarball", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db", "prokka-genpept_to_fasta_db": "/usr/local/bin/prokka-genpept_to_fasta_db", "prokka-hamap_to_hmm": "/usr/local/bin/prokka-hamap_to_hmm", "prokka-tigrfams_to_hmm": "/usr/local/bin/prokka-tigrfams_to_hmm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/magcluster.
@@ -127,93 +128,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/magcluster   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.7
+#### prokka-make_tarball
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-make_tarball
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-make_tarball   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-make_tarball   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SOAPsh.pl
+#### prokka-abricate_to_fasta_db
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-abricate_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-abricate_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-abricate_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### prokka
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace.pl
+#### prokka-biocyc_to_fasta_db
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-biocyc_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-biocyc_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-biocyc_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### activate-global-python-argcomplete
+#### prokka-build_kingdom_dbs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
-$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-build_kingdom_dbs
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-build_kingdom_dbs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-build_kingdom_dbs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### prokka-cdd_to_hmm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-cdd_to_hmm
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-cdd_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-cdd_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### prokka-clusters_to_hmm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-clusters_to_hmm
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-clusters_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-clusters_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### prokka-genbank_to_fasta_db
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-genbank_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-genbank_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-genbank_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### prokka-genpept_to_fasta_db
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-genpept_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-genpept_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-genpept_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### prokka-hamap_to_hmm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-hamap_to_hmm
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-hamap_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-hamap_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### prokka-tigrfams_to_hmm
+
+```bash
+$ singularity exec <container> /usr/local/bin/prokka-tigrfams_to_hmm
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-tigrfams_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-tigrfams_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

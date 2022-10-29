@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/scvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scvis/container.yaml"
-updated_at: "2022-10-29 05:56:46.202327"
+updated_at: "2022-10-29 07:55:29.449092"
 latest: "0.1.0--scvis_0"
 container_url: "https://biocontainers.pro/tools/scvis"
 aliases:
  - "scvis"
- - "2to3-3.6"
- - "assistant"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
- - "dbus-run-session"
- - "dbus-send"
- - "dbus-test-tool"
- - "dbus-update-activation-environment"
+ - "pbr"
+ - "g-ir-doc-tool"
+ - "theano-cache"
+ - "theano-nose"
+ - "freeze_graph"
+ - "mako-render"
+ - "g-ir-annotation-tool"
+ - "g-ir-compiler"
+ - "g-ir-generate"
+ - "g-ir-inspect"
 versions:
  - "0.1.0--scvis_0"
 description: "shpc-registry automated BioContainers addition for scvis"
-config: {"url": "https://biocontainers.pro/tools/scvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvis", "latest": {"0.1.0--scvis_0": "sha256:8480ed863db56e475879e139e667422bfd029eb906d15cf1bf33a8c4ae9a7ea6"}, "tags": {"0.1.0--scvis_0": "sha256:8480ed863db56e475879e139e667422bfd029eb906d15cf1bf33a8c4ae9a7ea6"}, "docker": "quay.io/biocontainers/scvis", "aliases": {"scvis": "/usr/local/bin/scvis", "2to3-3.6": "/usr/local/bin/2to3-3.6", "assistant": "/usr/local/bin/assistant", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
+config: {"url": "https://biocontainers.pro/tools/scvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvis", "latest": {"0.1.0--scvis_0": "sha256:8480ed863db56e475879e139e667422bfd029eb906d15cf1bf33a8c4ae9a7ea6"}, "tags": {"0.1.0--scvis_0": "sha256:8480ed863db56e475879e139e667422bfd029eb906d15cf1bf33a8c4ae9a7ea6"}, "docker": "quay.io/biocontainers/scvis", "aliases": {"scvis": "/usr/local/bin/scvis", "pbr": "/usr/local/bin/pbr", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scvis.
@@ -117,93 +117,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scvis   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.6
+#### pbr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pbr
+$ podman run --it --rm --entrypoint /usr/local/bin/pbr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### g-ir-doc-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-doc-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### theano-cache
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/theano-cache
+$ podman run --it --rm --entrypoint /usr/local/bin/theano-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/theano-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### theano-nose
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/theano-nose
+$ podman run --it --rm --entrypoint /usr/local/bin/theano-nose   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/theano-nose   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### freeze_graph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/freeze_graph
+$ podman run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### mako-render
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mako-render
+$ podman run --it --rm --entrypoint /usr/local/bin/mako-render   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mako-render   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-run-session
+#### g-ir-annotation-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-run-session
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-annotation-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-send
+#### g-ir-compiler
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-send
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-compiler
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-test-tool
+#### g-ir-generate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-test-tool
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-generate
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-update-activation-environment
+#### g-ir-inspect
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-update-activation-environment
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

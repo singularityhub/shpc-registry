@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-seqpattern"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqpattern/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqpattern/container.yaml"
-updated_at: "2022-10-29 05:46:29.488971"
+updated_at: "2022-10-29 07:47:57.721866"
 latest: "1.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqpattern"
 aliases:
- - "ncurses5-config"
- - "ncursesw5-config"
  - "tclsh8.5"
  - "wish8.5"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-seqpattern"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seqpattern", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqpattern", "latest": {"1.8.0--r3.4.1_0": "sha256:86b14f1ef7ab44e8d6c4d925355da9c4a6866d1649d7c3cafb97224f8c5e84c9"}, "tags": {"1.8.0--r3.4.1_0": "sha256:86b14f1ef7ab44e8d6c4d925355da9c4a6866d1649d7c3cafb97224f8c5e84c9"}, "docker": "quay.io/biocontainers/bioconductor-seqpattern", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seqpattern", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqpattern", "latest": {"1.8.0--r3.4.1_0": "sha256:86b14f1ef7ab44e8d6c4d925355da9c4a6866d1649d7c3cafb97224f8c5e84c9"}, "tags": {"1.8.0--r3.4.1_0": "sha256:86b14f1ef7ab44e8d6c4d925355da9c4a6866d1649d7c3cafb97224f8c5e84c9"}, "docker": "quay.io/biocontainers/bioconductor-seqpattern", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seqpattern.
@@ -101,24 +101,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### tclsh8.5
 
 ```bash
@@ -134,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/wish8.5
 $ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

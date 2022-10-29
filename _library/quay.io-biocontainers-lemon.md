@@ -4,17 +4,14 @@ name:  "quay.io/biocontainers/lemon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lemon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lemon/container.yaml"
-updated_at: "2022-10-29 05:33:08.423969"
+updated_at: "2022-10-29 07:38:06.765100"
 latest: "1.3.1--0"
 container_url: "https://biocontainers.pro/tools/lemon"
-aliases:
- - "activate"
- - "conda"
- - "deactivate"
+
 versions:
  - "1.3.1--0"
 description: "shpc-registry automated BioContainers addition for lemon"
-config: {"url": "https://biocontainers.pro/tools/lemon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lemon", "latest": {"1.3.1--0": "sha256:90f08f5a756311e279d13deba06e374d3c546b2d3534e6c1abd3f63eb170e747"}, "tags": {"1.3.1--0": "sha256:90f08f5a756311e279d13deba06e374d3c546b2d3534e6c1abd3f63eb170e747"}, "docker": "quay.io/biocontainers/lemon", "aliases": {"activate": "/usr/local/bin/activate", "conda": "/usr/local/bin/conda", "deactivate": "/usr/local/bin/deactivate"}}
+config: {"url": "https://biocontainers.pro/tools/lemon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lemon", "latest": {"1.3.1--0": "sha256:90f08f5a756311e279d13deba06e374d3c546b2d3534e6c1abd3f63eb170e747"}, "tags": {"1.3.1--0": "sha256:90f08f5a756311e279d13deba06e374d3c546b2d3534e6c1abd3f63eb170e747"}, "docker": "quay.io/biocontainers/lemon"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lemon.
@@ -100,32 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### activate
+
+#### lemon
 
 ```bash
-$ singularity exec <container> /usr/local/bin/activate
-$ podman run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
-
-#### conda
-
-```bash
-$ singularity exec <container> /usr/local/bin/conda
-$ podman run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### deactivate
-
-```bash
-$ singularity exec <container> /usr/local/bin/deactivate
-$ podman run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

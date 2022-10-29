@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-ms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-ms/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-ms/container.yaml"
-updated_at: "2022-10-29 05:52:47.904675"
+updated_at: "2022-10-29 07:52:36.425410"
 latest: "0.207002--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-ms"
 aliases:
@@ -13,10 +13,12 @@ aliases:
  - "index_mzml"
  - "index_pepxml"
  - "unimod2storable.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.207002--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-ms"
-config: {"url": "https://biocontainers.pro/tools/perl-ms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ms", "latest": {"0.207002--pl5321hdfd78af_0": "sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59"}, "tags": {"0.207002--pl5321hdfd78af_0": "sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59"}, "docker": "quay.io/biocontainers/perl-ms", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl", "cv2storable.pl": "/usr/local/bin/cv2storable.pl", "index_mzml": "/usr/local/bin/index_mzml", "index_pepxml": "/usr/local/bin/index_pepxml", "unimod2storable.pl": "/usr/local/bin/unimod2storable.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-ms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-ms", "latest": {"0.207002--pl5321hdfd78af_0": "sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59"}, "tags": {"0.207002--pl5321hdfd78af_0": "sha256:0aca2b426acdf483003e49fa4da0bd99915b283c6a9ad580e62bfb7a0c369d59"}, "docker": "quay.io/biocontainers/perl-ms", "aliases": {"bgzip.pl": "/usr/local/bin/bgzip.pl", "cv2storable.pl": "/usr/local/bin/cv2storable.pl", "index_mzml": "/usr/local/bin/index_mzml", "index_pepxml": "/usr/local/bin/index_pepxml", "unimod2storable.pl": "/usr/local/bin/unimod2storable.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-ms.
@@ -144,6 +146,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/index_pepxml   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/unimod2storable.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/unimod2storable.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/unimod2storable.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

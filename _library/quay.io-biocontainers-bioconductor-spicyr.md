@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-spicyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spicyr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spicyr/container.yaml"
-updated_at: "2022-10-29 05:55:22.254356"
+updated_at: "2022-10-29 07:54:28.758512"
 latest: "1.6.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spicyr"
 aliases:
- - "CreateDOMDocument"
- - "DOMCount"
- - "DOMPrint"
- - "EnumVal"
- - "MemParse"
- - "PParse"
- - "PSVIWriter"
- - "Redirect"
- - "SAX2Count"
- - "SAX2Print"
+ - "testepsg"
+ - "gdal_create"
+ - "pdfsig"
+ - "pg_standby"
+ - "gdal_viewshed"
+ - "gdalmdiminfo"
+ - "gdalmdimtranslate"
+ - "pg_verifybackup"
+ - "geosop"
+ - "pdfattach"
 versions:
  - "1.6.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spicyr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spicyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spicyr", "latest": {"1.6.0--r41hdfd78af_0": "sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54"}, "docker": "quay.io/biocontainers/bioconductor-spicyr", "aliases": {"CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spicyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spicyr", "latest": {"1.6.0--r41hdfd78af_0": "sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:b70eea6a0597fa588f82ab445c61c268a5dec90b61d93abd7533f67546094d54"}, "docker": "quay.io/biocontainers/bioconductor-spicyr", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spicyr.
@@ -107,93 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### CreateDOMDocument
+#### testepsg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/CreateDOMDocument
-$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/testepsg
+$ podman run --it --rm --entrypoint /usr/local/bin/testepsg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/testepsg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DOMCount
+#### gdal_create
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DOMCount
-$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdal_create
+$ podman run --it --rm --entrypoint /usr/local/bin/gdal_create   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdal_create   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DOMPrint
+#### pdfsig
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DOMPrint
-$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfsig
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfsig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfsig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### EnumVal
+#### pg_standby
 
 ```bash
-$ singularity exec <container> /usr/local/bin/EnumVal
-$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_standby
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_standby   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_standby   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MemParse
+#### gdal_viewshed
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MemParse
-$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdal_viewshed
+$ podman run --it --rm --entrypoint /usr/local/bin/gdal_viewshed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdal_viewshed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### PParse
+#### gdalmdiminfo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/PParse
-$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdalmdiminfo
+$ podman run --it --rm --entrypoint /usr/local/bin/gdalmdiminfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdalmdiminfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### PSVIWriter
+#### gdalmdimtranslate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/PSVIWriter
-$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdalmdimtranslate
+$ podman run --it --rm --entrypoint /usr/local/bin/gdalmdimtranslate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdalmdimtranslate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Redirect
+#### pg_verifybackup
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Redirect
-$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_verifybackup
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_verifybackup   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_verifybackup   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SAX2Count
+#### geosop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SAX2Count
-$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/geosop
+$ podman run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SAX2Print
+#### pdfattach
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SAX2Print
-$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Print   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Print   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfattach
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfattach   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfattach   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

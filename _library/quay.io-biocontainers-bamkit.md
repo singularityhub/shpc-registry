@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bamkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamkit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamkit/container.yaml"
-updated_at: "2022-10-29 05:56:16.651463"
+updated_at: "2022-10-29 07:55:08.135978"
 latest: "16.07.26--py_0"
 container_url: "https://biocontainers.pro/tools/bamkit"
 aliases:
@@ -15,17 +15,17 @@ aliases:
  - "bamlibs.py"
  - "bamtofastq.py"
  - "sectosupp"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
  - "idle"
  - "python-config"
- - "python2"
- - "python2-config"
- - "python2.7"
- - "python2.7-config"
  - "smtpd.py"
 versions:
  - "16.07.26--py_0"
 description: "shpc-registry automated BioContainers addition for bamkit"
-config: {"url": "https://biocontainers.pro/tools/bamkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamkit", "latest": {"16.07.26--py_0": "sha256:88fec69401a1fb439f5cffccde7aaca50bc5b9032570b4c5d50710b8deffa723"}, "tags": {"16.07.26--py_0": "sha256:88fec69401a1fb439f5cffccde7aaca50bc5b9032570b4c5d50710b8deffa723"}, "docker": "quay.io/biocontainers/bamkit", "aliases": {"bamcleanheader.py": "/usr/local/bin/bamcleanheader.py", "bamfilterrg.py": "/usr/local/bin/bamfilterrg.py", "bamgroupreads.py": "/usr/local/bin/bamgroupreads.py", "bamheadrg.py": "/usr/local/bin/bamheadrg.py", "bamlibs.py": "/usr/local/bin/bamlibs.py", "bamtofastq.py": "/usr/local/bin/bamtofastq.py", "sectosupp": "/usr/local/bin/sectosupp", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/bamkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamkit", "latest": {"16.07.26--py_0": "sha256:88fec69401a1fb439f5cffccde7aaca50bc5b9032570b4c5d50710b8deffa723"}, "tags": {"16.07.26--py_0": "sha256:88fec69401a1fb439f5cffccde7aaca50bc5b9032570b4c5d50710b8deffa723"}, "docker": "quay.io/biocontainers/bamkit", "aliases": {"bamcleanheader.py": "/usr/local/bin/bamcleanheader.py", "bamfilterrg.py": "/usr/local/bin/bamfilterrg.py", "bamgroupreads.py": "/usr/local/bin/bamgroupreads.py", "bamheadrg.py": "/usr/local/bin/bamheadrg.py", "bamlibs.py": "/usr/local/bin/bamlibs.py", "bamtofastq.py": "/usr/local/bin/bamtofastq.py", "sectosupp": "/usr/local/bin/sectosupp", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamkit.
@@ -174,6 +174,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sectosupp   -v ${PWD} -w ${PW
 ```
 
 
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle
 
 ```bash
@@ -189,42 +225,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/python-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/ivar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ivar/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ivar/container.yaml"
-updated_at: "2022-10-29 05:38:13.842533"
+updated_at: "2022-10-29 07:41:51.427052"
 latest: "1.3.1--ha04fe3b_4"
 container_url: "https://biocontainers.pro/tools/ivar"
 aliases:
  - "ivar"
+ - "fasta-sanitize.pl"
+ - "plot-ampliconstats"
  - "ace2sam"
- - "bgzip"
  - "blast2sam.pl"
  - "bowtie2sam.pl"
  - "export2sam.pl"
- - "fasta-sanitize.pl"
- - "htsfile"
  - "interpolate_sam.pl"
  - "maq2sam-long"
  - "maq2sam-short"
+ - "md5fa"
 versions:
  - "1.3.1--ha04fe3b_4"
 description: "shpc-registry automated BioContainers addition for ivar"
-config: {"url": "https://biocontainers.pro/tools/ivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ivar", "latest": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931"}, "tags": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931"}, "docker": "quay.io/biocontainers/ivar", "aliases": {"ivar": "/usr/local/bin/ivar", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short"}}
+config: {"url": "https://biocontainers.pro/tools/ivar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ivar", "latest": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931"}, "tags": {"1.3.1--ha04fe3b_4": "sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931"}, "docker": "quay.io/biocontainers/ivar", "aliases": {"ivar": "/usr/local/bin/ivar", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ivar.
@@ -117,21 +117,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ivar   -v ${PWD} -w ${PWD} <c
 ```
 
 
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-ampliconstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ace2sam
 
 ```bash
 $ singularity exec <container> /usr/local/bin/ace2sam
 $ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,24 +171,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w 
 ```
 
 
-#### fasta-sanitize.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### interpolate_sam.pl
 
 ```bash
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/maq2sam-short
 $ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### md5fa
+
+```bash
+$ singularity exec <container> /usr/local/bin/md5fa
+$ podman run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

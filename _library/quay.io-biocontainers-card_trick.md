@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/card_trick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/card_trick/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/card_trick/container.yaml"
-updated_at: "2022-10-29 05:34:18.404878"
+updated_at: "2022-10-29 07:38:58.210497"
 latest: "0.2.1--py_0"
 container_url: "https://biocontainers.pro/tools/card_trick"
 aliases:
  - "card-trick"
  - "pronto"
- - "2to3-3.8"
- - "chardetect"
  - "f2py3.8"
+ - "chardetect"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.2.1--py_0"
 description: "shpc-registry automated BioContainers addition for card_trick"
-config: {"url": "https://biocontainers.pro/tools/card_trick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for card_trick", "latest": {"0.2.1--py_0": "sha256:c069e54de1cf6e2f4f10a1bb31338f2a7081b386e52469da64e96b03e421f195"}, "tags": {"0.2.1--py_0": "sha256:c069e54de1cf6e2f4f10a1bb31338f2a7081b386e52469da64e96b03e421f195"}, "docker": "quay.io/biocontainers/card_trick", "aliases": {"card-trick": "/usr/local/bin/card-trick", "pronto": "/usr/local/bin/pronto", "2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/card_trick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for card_trick", "latest": {"0.2.1--py_0": "sha256:c069e54de1cf6e2f4f10a1bb31338f2a7081b386e52469da64e96b03e421f195"}, "tags": {"0.2.1--py_0": "sha256:c069e54de1cf6e2f4f10a1bb31338f2a7081b386e52469da64e96b03e421f195"}, "docker": "quay.io/biocontainers/card_trick", "aliases": {"card-trick": "/usr/local/bin/card-trick", "pronto": "/usr/local/bin/pronto", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/card_trick.
@@ -124,12 +124,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pronto   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.8
+#### f2py3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -142,12 +142,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${P
 ```
 
 
-#### f2py3.8
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

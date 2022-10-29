@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/deeparg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeparg/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deeparg/container.yaml"
-updated_at: "2022-10-29 05:49:04.212996"
+updated_at: "2022-10-29 07:49:51.960642"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/deeparg"
 aliases:
  - "deeparg"
  - "theano-test"
- - "assistant"
- - "canbusutil"
- - "chardetect"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
- - "dbus-run-session"
- - "dbus-send"
- - "dbus-test-tool"
+ - "theano-cache"
+ - "theano-nose"
+ - "ete3"
+ - "diamond"
+ - "tabulate"
+ - "qhelpconverter"
+ - "f2py2"
+ - "f2py2.7"
+ - "idn2"
+ - "qwebengine_convert_dict"
 versions:
  - "1.0.2--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for deeparg"
-config: {"url": "https://biocontainers.pro/tools/deeparg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeparg", "latest": {"1.0.2--pyhdfd78af_1": "sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf"}, "docker": "quay.io/biocontainers/deeparg", "aliases": {"deeparg": "/usr/local/bin/deeparg", "theano-test": "/usr/local/bin/theano-test", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "chardetect": "/usr/local/bin/chardetect", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
+config: {"url": "https://biocontainers.pro/tools/deeparg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeparg", "latest": {"1.0.2--pyhdfd78af_1": "sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:e832b2c8217b058b9fba5bd61be0c87f03721464bfb7bc7025ed100414b974bf"}, "docker": "quay.io/biocontainers/deeparg", "aliases": {"deeparg": "/usr/local/bin/deeparg", "theano-test": "/usr/local/bin/theano-test", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "ete3": "/usr/local/bin/ete3", "diamond": "/usr/local/bin/diamond", "tabulate": "/usr/local/bin/tabulate", "qhelpconverter": "/usr/local/bin/qhelpconverter", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idn2": "/usr/local/bin/idn2", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeparg.
@@ -127,93 +127,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/theano-test   -v ${PWD} -w ${
 ```
 
 
-#### assistant
+#### theano-cache
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/theano-cache
+$ podman run --it --rm --entrypoint /usr/local/bin/theano-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/theano-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### theano-nose
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/theano-nose
+$ podman run --it --rm --entrypoint /usr/local/bin/theano-nose   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/theano-nose   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### chardetect
+#### ete3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ete3
+$ podman run --it --rm --entrypoint /usr/local/bin/ete3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ete3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### diamond
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/diamond
+$ podman run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### tabulate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabulate
+$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### qhelpconverter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qhelpconverter
+$ podman run --it --rm --entrypoint /usr/local/bin/qhelpconverter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qhelpconverter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### f2py2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-run-session
+#### f2py2.7
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-run-session
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-send
+#### idn2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-send
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-test-tool
+#### qwebengine_convert_dict
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-test-tool
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qwebengine_convert_dict
+$ podman run --it --rm --entrypoint /usr/local/bin/qwebengine_convert_dict   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qwebengine_convert_dict   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

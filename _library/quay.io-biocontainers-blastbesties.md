@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/blastbesties"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blastbesties/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blastbesties/container.yaml"
-updated_at: "2022-10-29 05:42:14.279090"
+updated_at: "2022-10-29 07:44:48.446796"
 latest: "1.1.1--py_2"
 container_url: "https://biocontainers.pro/tools/blastbesties"
 aliases:
  - "blastbesties"
  - "2to3-3.6"
  - "idle3.6"
- - "ncurses5-config"
- - "ncursesw5-config"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.1.1--py_2"
 description: "shpc-registry automated BioContainers addition for blastbesties"
-config: {"url": "https://biocontainers.pro/tools/blastbesties", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blastbesties", "latest": {"1.1.1--py_2": "sha256:c7b7fcf9be3e3a175c7fa0dfc2f6ef52eeb88f7f1e3a5f33e4da704db1a632f0"}, "tags": {"1.1.1--py_2": "sha256:c7b7fcf9be3e3a175c7fa0dfc2f6ef52eeb88f7f1e3a5f33e4da704db1a632f0"}, "docker": "quay.io/biocontainers/blastbesties", "aliases": {"blastbesties": "/usr/local/bin/blastbesties", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/blastbesties", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blastbesties", "latest": {"1.1.1--py_2": "sha256:c7b7fcf9be3e3a175c7fa0dfc2f6ef52eeb88f7f1e3a5f33e4da704db1a632f0"}, "tags": {"1.1.1--py_2": "sha256:c7b7fcf9be3e3a175c7fa0dfc2f6ef52eeb88f7f1e3a5f33e4da704db1a632f0"}, "docker": "quay.io/biocontainers/blastbesties", "aliases": {"blastbesties": "/usr/local/bin/blastbesties", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blastbesties.
@@ -135,24 +135,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD}
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pydoc3.6
 
 ```bash
@@ -204,6 +186,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

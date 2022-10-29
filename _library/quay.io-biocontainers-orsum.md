@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/orsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orsum/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/orsum/container.yaml"
-updated_at: "2022-10-29 05:38:00.876550"
+updated_at: "2022-10-29 07:41:41.844082"
 latest: "1.4.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/orsum"
 aliases:
  - "orsum.py"
  - "plotFunctions.py"
  - "termCombinationLib.py"
- - "2to3-3.10"
+ - "fonttools"
+ - "pyftmerge"
+ - "pyftsubset"
+ - "ttx"
  - "brotli"
+ - "f2py3.10"
+ - "img2webp"
  - "cwebp"
  - "dwebp"
- - "f2py3.10"
- - "fonttools"
- - "gif2rgb"
  - "gif2webp"
- - "gifbuild"
- - "gifclrmp"
 versions:
  - "1.4.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for orsum"
-config: {"url": "https://biocontainers.pro/tools/orsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orsum", "latest": {"1.4.0--hdfd78af_0": "sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf"}, "tags": {"1.4.0--hdfd78af_0": "sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf"}, "docker": "quay.io/biocontainers/orsum", "aliases": {"orsum.py": "/usr/local/bin/orsum.py", "plotFunctions.py": "/usr/local/bin/plotFunctions.py", "termCombinationLib.py": "/usr/local/bin/termCombinationLib.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp"}}
+config: {"url": "https://biocontainers.pro/tools/orsum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orsum", "latest": {"1.4.0--hdfd78af_0": "sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf"}, "tags": {"1.4.0--hdfd78af_0": "sha256:dfa94f9ce9ff8053e2f39b85c49a835fa286586014b278b952b136431cd29ccf"}, "docker": "quay.io/biocontainers/orsum", "aliases": {"orsum.py": "/usr/local/bin/orsum.py", "plotFunctions.py": "/usr/local/bin/plotFunctions.py", "termCombinationLib.py": "/usr/local/bin/termCombinationLib.py", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orsum.
@@ -137,12 +137,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/termCombinationLib.py   -v ${
 ```
 
 
-#### 2to3-3.10
+#### fonttools
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyftmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyftsubset
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyftsubset
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ttx
+
+```bash
+$ singularity exec <container> /usr/local/bin/ttx
+$ podman run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -152,6 +179,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/brotli
 $ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### img2webp
+
+```bash
+$ singularity exec <container> /usr/local/bin/img2webp
+$ podman run --it --rm --entrypoint /usr/local/bin/img2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/img2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -173,57 +218,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fonttools
-
-```bash
-$ singularity exec <container> /usr/local/bin/fonttools
-$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2rgb
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gif2webp
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gif2webp
 $ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifbuild
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifclrmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifclrmp
-$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

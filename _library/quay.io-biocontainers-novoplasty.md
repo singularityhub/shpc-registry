@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/novoplasty"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoplasty/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/novoplasty/container.yaml"
-updated_at: "2022-10-29 05:36:03.811750"
+updated_at: "2022-10-29 07:40:15.234364"
 latest: "4.3.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/novoplasty"
 aliases:
@@ -12,10 +12,12 @@ aliases:
  - "NOVOPlasty.pl"
  - "NOVOPlasty4.3.1.pl"
  - "filter_reads.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "4.3.1--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for novoplasty"
-config: {"url": "https://biocontainers.pro/tools/novoplasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoplasty", "latest": {"4.3.1--pl5321hdfd78af_1": "sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f"}, "tags": {"4.3.1--pl5321hdfd78af_1": "sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f"}, "docker": "quay.io/biocontainers/novoplasty", "aliases": {"Circos.pl": "/usr/local/bin/Circos.pl", "NOVOPlasty.pl": "/usr/local/bin/NOVOPlasty.pl", "NOVOPlasty4.3.1.pl": "/usr/local/bin/NOVOPlasty4.3.1.pl", "filter_reads.pl": "/usr/local/bin/filter_reads.pl"}}
+config: {"url": "https://biocontainers.pro/tools/novoplasty", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoplasty", "latest": {"4.3.1--pl5321hdfd78af_1": "sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f"}, "tags": {"4.3.1--pl5321hdfd78af_1": "sha256:f5276f7eabaef7d3d660bdd2c8a2b7cecd93e9cdd677ec86233edb4aba35e39f"}, "docker": "quay.io/biocontainers/novoplasty", "aliases": {"Circos.pl": "/usr/local/bin/Circos.pl", "NOVOPlasty.pl": "/usr/local/bin/NOVOPlasty.pl", "NOVOPlasty4.3.1.pl": "/usr/local/bin/NOVOPlasty4.3.1.pl", "filter_reads.pl": "/usr/local/bin/filter_reads.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novoplasty.
@@ -134,6 +136,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/NOVOPlasty4.3.1.pl   -v ${PWD
 $ singularity exec <container> /usr/local/bin/filter_reads.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/filter_reads.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/filter_reads.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

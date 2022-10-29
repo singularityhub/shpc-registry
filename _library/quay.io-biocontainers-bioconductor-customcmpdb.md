@@ -4,19 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-customcmpdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-customcmpdb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-customcmpdb/container.yaml"
-updated_at: "2022-10-29 05:39:17.367277"
+updated_at: "2022-10-29 07:42:37.712453"
 latest: "1.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-customcmpdb"
 aliases:
+ - "rsvg-convert"
+ - "gdk-pixbuf-thumbnailer"
  - "gdk-pixbuf-csource"
  - "gdk-pixbuf-pixdata"
  - "gdk-pixbuf-query-loaders"
- - "gdk-pixbuf-thumbnailer"
- - "rsvg-convert"
 versions:
  - "1.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-customcmpdb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-customcmpdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-customcmpdb", "latest": {"1.4.0--r41hdfd78af_0": "sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea"}, "docker": "quay.io/biocontainers/bioconductor-customcmpdb", "aliases": {"gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "rsvg-convert": "/usr/local/bin/rsvg-convert"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-customcmpdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-customcmpdb", "latest": {"1.4.0--r41hdfd78af_0": "sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:25bf2cf0f7f803321dc0f13a3d7f87a03f733de012293c539aa90ba8b08540ea"}, "docker": "quay.io/biocontainers/bioconductor-customcmpdb", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-customcmpdb.
@@ -102,6 +102,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### rsvg-convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/rsvg-convert
+$ podman run --it --rm --entrypoint /usr/local/bin/rsvg-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rsvg-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-thumbnailer
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-thumbnailer
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gdk-pixbuf-csource
 
 ```bash
@@ -126,24 +144,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD
 $ singularity exec <container> /usr/local/bin/gdk-pixbuf-query-loaders
 $ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdk-pixbuf-thumbnailer
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdk-pixbuf-thumbnailer
-$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### rsvg-convert
-
-```bash
-$ singularity exec <container> /usr/local/bin/rsvg-convert
-$ podman run --it --rm --entrypoint /usr/local/bin/rsvg-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/rsvg-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

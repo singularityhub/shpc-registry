@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypeflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypeflow/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pypeflow/container.yaml"
-updated_at: "2022-10-29 05:54:58.926280"
+updated_at: "2022-10-29 07:54:11.798876"
 latest: "2.2.0--py27_0"
 container_url: "https://biocontainers.pro/tools/pypeflow"
 aliases:
@@ -12,18 +12,18 @@ aliases:
  - "pwatcher-main"
  - "pwatcher-pypeflow-example"
  - "futurize"
- - "idle"
  - "pasteurize"
- - "python-config"
- - "python2"
  - "python2-config"
- - "python2.7"
  - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
+ - "python-config"
  - "smtpd.py"
 versions:
  - "2.2.0--py27_0"
 description: "shpc-registry automated BioContainers addition for pypeflow"
-config: {"url": "https://biocontainers.pro/tools/pypeflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypeflow", "latest": {"2.2.0--py27_0": "sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15"}, "tags": {"2.2.0--py27_0": "sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15"}, "docker": "quay.io/biocontainers/pypeflow", "aliases": {"heartbeat-wrapper": "/usr/local/bin/heartbeat-wrapper", "pwatcher-main": "/usr/local/bin/pwatcher-main", "pwatcher-pypeflow-example": "/usr/local/bin/pwatcher-pypeflow-example", "futurize": "/usr/local/bin/futurize", "idle": "/usr/local/bin/idle", "pasteurize": "/usr/local/bin/pasteurize", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/pypeflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypeflow", "latest": {"2.2.0--py27_0": "sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15"}, "tags": {"2.2.0--py27_0": "sha256:49166946e9490479b8d22b52cbbfb44476a49244c166fa91dd0ce74028958c15"}, "docker": "quay.io/biocontainers/pypeflow", "aliases": {"heartbeat-wrapper": "/usr/local/bin/heartbeat-wrapper", "pwatcher-main": "/usr/local/bin/pwatcher-main", "pwatcher-pypeflow-example": "/usr/local/bin/pwatcher-pypeflow-example", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypeflow.
@@ -145,39 +145,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pasteurize
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pasteurize
 $ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -190,6 +163,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w
 ```
 
 
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### python2.7
 
 ```bash
@@ -199,12 +190,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PW
 ```
 
 
-#### python2.7-config
+#### idle
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

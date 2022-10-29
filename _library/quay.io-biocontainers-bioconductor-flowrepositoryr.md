@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-flowrepositoryr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowrepositoryr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowrepositoryr/container.yaml"
-updated_at: "2022-10-29 05:57:58.267702"
+updated_at: "2022-10-29 07:56:21.715825"
 latest: "1.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowrepositoryr"
 aliases:
- - "ncurses5-config"
- - "ncursesw5-config"
  - "tclsh8.5"
  - "wish8.5"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowrepositoryr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowrepositoryr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowrepositoryr", "latest": {"1.8.0--r3.4.1_0": "sha256:dd78b4346e1a9d2a1652afe8f66f4dccd9f356f3d9453e0bf8064b0fe426d0a5"}, "tags": {"1.8.0--r3.4.1_0": "sha256:dd78b4346e1a9d2a1652afe8f66f4dccd9f356f3d9453e0bf8064b0fe426d0a5"}, "docker": "quay.io/biocontainers/bioconductor-flowrepositoryr", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowrepositoryr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowrepositoryr", "latest": {"1.8.0--r3.4.1_0": "sha256:dd78b4346e1a9d2a1652afe8f66f4dccd9f356f3d9453e0bf8064b0fe426d0a5"}, "tags": {"1.8.0--r3.4.1_0": "sha256:dd78b4346e1a9d2a1652afe8f66f4dccd9f356f3d9453e0bf8064b0fe426d0a5"}, "docker": "quay.io/biocontainers/bioconductor-flowrepositoryr", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowrepositoryr.
@@ -101,24 +101,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### tclsh8.5
 
 ```bash
@@ -134,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/wish8.5
 $ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

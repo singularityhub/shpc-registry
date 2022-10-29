@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/parsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/parsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/parsnp/container.yaml"
-updated_at: "2022-10-29 05:33:29.261863"
+updated_at: "2022-10-29 07:38:22.131941"
 latest: "1.7.4--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/parsnp"
 aliases:
@@ -15,20 +15,20 @@ aliases:
  - "logger.py"
  - "parsnp"
  - "template.ini"
- - "2to3-3.10"
- - "FastTree"
- - "FastTreeMP"
+ - "fastANI"
+ - "raxmlHPC"
+ - "raxmlHPC-AVX2"
+ - "raxmlHPC-PTHREADS"
+ - "raxmlHPC-PTHREADS-AVX2"
+ - "raxmlHPC-PTHREADS-SSE3"
+ - "raxmlHPC-SSE3"
  - "capnp"
  - "capnpc"
  - "capnpc-c++"
- - "capnpc-capnp"
- - "einsi"
- - "f2py3.10"
- - "fastANI"
 versions:
  - "1.7.4--hd03093a_1"
 description: "shpc-registry automated BioContainers addition for parsnp"
-config: {"url": "https://biocontainers.pro/tools/parsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parsnp", "latest": {"1.7.4--hd03093a_1": "sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158"}, "tags": {"1.7.4--hd03093a_1": "sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158"}, "docker": "quay.io/biocontainers/parsnp", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile", "extend.py": "/usr/local/bin/extend.py", "harvesttools": "/usr/local/bin/harvesttools", "logger.py": "/usr/local/bin/logger.py", "parsnp": "/usr/local/bin/parsnp", "template.ini": "/usr/local/bin/template.ini", "2to3-3.10": "/usr/local/bin/2to3-3.10", "FastTree": "/usr/local/bin/FastTree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "einsi": "/usr/local/bin/einsi", "f2py3.10": "/usr/local/bin/f2py3.10", "fastANI": "/usr/local/bin/fastANI"}}
+config: {"url": "https://biocontainers.pro/tools/parsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for parsnp", "latest": {"1.7.4--hd03093a_1": "sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158"}, "tags": {"1.7.4--hd03093a_1": "sha256:92ec26ccc5ad8c73fc010f9deb5594ce9e63874516ca12aad069988256fb5158"}, "docker": "quay.io/biocontainers/parsnp", "aliases": {"Phi": "/usr/local/bin/Phi", "Profile": "/usr/local/bin/Profile", "extend.py": "/usr/local/bin/extend.py", "harvesttools": "/usr/local/bin/harvesttools", "logger.py": "/usr/local/bin/logger.py", "parsnp": "/usr/local/bin/parsnp", "template.ini": "/usr/local/bin/template.ini", "fastANI": "/usr/local/bin/fastANI", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/parsnp.
@@ -177,30 +177,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/template.ini   -v ${PWD} -w $
 ```
 
 
-#### 2to3-3.10
+#### fastANI
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastANI
+$ podman run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTree
+#### raxmlHPC
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTreeMP
+#### raxmlHPC-AVX2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-AVX2
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raxmlHPC-PTHREADS
+
+```bash
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raxmlHPC-PTHREADS-AVX2
+
+```bash
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raxmlHPC-PTHREADS-SSE3
+
+```bash
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS-SSE3
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raxmlHPC-SSE3
+
+```bash
+$ singularity exec <container> /usr/local/bin/raxmlHPC-SSE3
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -228,42 +264,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/capnpc-c++
 $ podman run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### capnpc-capnp
-
-```bash
-$ singularity exec <container> /usr/local/bin/capnpc-capnp
-$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### einsi
-
-```bash
-$ singularity exec <container> /usr/local/bin/einsi
-$ podman run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastANI
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastANI
-$ podman run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

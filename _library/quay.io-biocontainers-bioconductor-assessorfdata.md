@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-assessorfdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-assessorfdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-assessorfdata/container.yaml"
-updated_at: "2022-10-29 05:32:09.611835"
+updated_at: "2022-10-29 07:37:23.448275"
 latest: "1.8.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-assessorfdata"
 aliases:
+ - ".bioconductor-assessorfdata-post-link.sh"
+ - ".bioconductor-assessorfdata-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-assessorfdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-assessorfdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-assessorfdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d"}, "docker": "quay.io/biocontainers/bioconductor-assessorfdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-assessorfdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-assessorfdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7b375210fa91081638cb05e654a39bd1070fe450f8d2c1c35abad6be1159f38d"}, "docker": "quay.io/biocontainers/bioconductor-assessorfdata", "aliases": {".bioconductor-assessorfdata-post-link.sh": "/usr/local/bin/.bioconductor-assessorfdata-post-link.sh", ".bioconductor-assessorfdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-assessorfdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-assessorfdata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-assessorfdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-assessorfdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-assessorfdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-assessorfdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-assessorfdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-assessorfdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-assessorfdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-assessorfdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staramr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staramr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/staramr/container.yaml"
-updated_at: "2022-10-29 05:45:58.499796"
+updated_at: "2022-10-29 07:47:34.934832"
 latest: "0.8.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/staramr"
 aliases:
@@ -14,20 +14,20 @@ aliases:
  - "green3.10"
  - "mlst"
  - "staramr"
- - "2to3-3.10"
- - "accn-at-a-time"
- - "align-columns"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asn2xml"
- - "between-two-genes"
- - "blast_formatter"
- - "blastdb_aliastool"
- - "blastdbcheck"
+ - "unidecode"
+ - "coverage"
+ - "git"
+ - "git-cvsserver"
+ - "git-receive-pack"
+ - "git-shell"
+ - "git-upload-archive"
+ - "git-upload-pack"
+ - "gitk"
+ - "bp_pairwise_kaks.pl"
 versions:
  - "0.8.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for staramr"
-config: {"url": "https://biocontainers.pro/tools/staramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staramr", "latest": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "tags": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "docker": "quay.io/biocontainers/staramr", "aliases": {"file": "/usr/local/bin/file", "green": "/usr/local/bin/green", "green3": "/usr/local/bin/green3", "green3.10": "/usr/local/bin/green3.10", "mlst": "/usr/local/bin/mlst", "staramr": "/usr/local/bin/staramr", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
+config: {"url": "https://biocontainers.pro/tools/staramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staramr", "latest": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "tags": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "docker": "quay.io/biocontainers/staramr", "aliases": {"file": "/usr/local/bin/file", "green": "/usr/local/bin/green", "green3": "/usr/local/bin/green3", "green3.10": "/usr/local/bin/green3.10", "mlst": "/usr/local/bin/mlst", "staramr": "/usr/local/bin/staramr", "unidecode": "/usr/local/bin/unidecode", "coverage": "/usr/local/bin/coverage", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staramr.
@@ -167,93 +167,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/staramr   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.10
+#### unidecode
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unidecode
+$ podman run --it --rm --entrypoint /usr/local/bin/unidecode   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unidecode   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### coverage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/coverage
+$ podman run --it --rm --entrypoint /usr/local/bin/coverage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coverage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### git
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git
+$ podman run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### git-cvsserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-cvsserver
+$ podman run --it --rm --entrypoint /usr/local/bin/git-cvsserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-cvsserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### git-receive-pack
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-receive-pack
+$ podman run --it --rm --entrypoint /usr/local/bin/git-receive-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-receive-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asn2xml
+#### git-shell
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-shell
+$ podman run --it --rm --entrypoint /usr/local/bin/git-shell   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-shell   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### between-two-genes
+#### git-upload-archive
 
 ```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-upload-archive
+$ podman run --it --rm --entrypoint /usr/local/bin/git-upload-archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-upload-archive   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast_formatter
+#### git-upload-pack
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-upload-pack
+$ podman run --it --rm --entrypoint /usr/local/bin/git-upload-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-upload-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdb_aliastool
+#### gitk
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gitk
+$ podman run --it --rm --entrypoint /usr/local/bin/gitk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gitk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcheck
+#### bp_pairwise_kaks.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

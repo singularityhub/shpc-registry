@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arb-bio-devel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arb-bio-devel/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/arb-bio-devel/container.yaml"
-updated_at: "2022-10-29 05:48:43.082360"
+updated_at: "2022-10-29 07:49:36.418730"
 latest: "6.0.6--h6bb024c_8"
 container_url: "https://biocontainers.pro/tools/arb-bio-devel"
 aliases:
@@ -126,20 +126,20 @@ aliases:
  - "uil"
  - "xfig"
  - "xmbind"
- - "2to3-3.6"
- - "CreateDOMDocument"
- - "DOMCount"
- - "DOMPrint"
- - "EnumVal"
- - "FastTree"
+ - "gnuplot"
+ - "raxmlHPC"
+ - "raxmlHPC-AVX2"
+ - "raxmlHPC-PTHREADS"
+ - "raxmlHPC-PTHREADS-AVX2"
+ - "raxmlHPC-PTHREADS-SSE3"
+ - "raxmlHPC-SSE3"
  - "FastTree-2.1.10.c"
- - "FastTreeMP"
- - "MemParse"
- - "PParse"
+ - "oshCC"
+ - "oshc++"
 versions:
  - "6.0.6--h6bb024c_8"
 description: "shpc-registry automated BioContainers addition for arb-bio-devel"
-config: {"url": "https://biocontainers.pro/tools/arb-bio-devel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arb-bio-devel", "latest": {"6.0.6--h6bb024c_8": "sha256:457abf21c651ab3c6914037e3cf60adecf9d9dbe78c3656abb025fee8b541073"}, "tags": {"6.0.6--h6bb024c_8": "sha256:457abf21c651ab3c6914037e3cf60adecf9d9dbe78c3656abb025fee8b541073"}, "docker": "quay.io/biocontainers/arb-bio-devel", "aliases": {"DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "arb": "/usr/local/bin/arb", "arb_2_ascii": "/usr/local/bin/arb_2_ascii", "arb_2_bin": "/usr/local/bin/arb_2_bin", "arb_a2ps": "/usr/local/bin/arb_a2ps", "arb_bootstrap": "/usr/local/bin/arb_bootstrap", "arb_clean": "/usr/local/bin/arb_clean", "arb_consensus_tree": "/usr/local/bin/arb_consensus_tree", "arb_convert_aln": "/usr/local/bin/arb_convert_aln", "arb_db_server": "/usr/local/bin/arb_db_server", "arb_dist": "/usr/local/bin/arb_dist", "arb_dnapars": "/usr/local/bin/arb_dnapars", "arb_dnarates": "/usr/local/bin/arb_dnarates", "arb_echo": "/usr/local/bin/arb_echo", "arb_edit4": "/usr/local/bin/arb_edit4", "arb_export_rates": "/usr/local/bin/arb_export_rates", "arb_export_tree": "/usr/local/bin/arb_export_tree", "arb_fastdnaml": "/usr/local/bin/arb_fastdnaml", "arb_flush_mem": "/usr/local/bin/arb_flush_mem", "arb_gene_probe": "/usr/local/bin/arb_gene_probe", "arb_help2xml": "/usr/local/bin/arb_help2xml", "arb_help_useredit.sh": "/usr/local/bin/arb_help_useredit.sh", "arb_ign": "/usr/local/bin/arb_ign", "arb_installubuntu4arb.sh": "/usr/local/bin/arb_installubuntu4arb.sh", "arb_launcher": "/usr/local/bin/arb_launcher", "arb_ludwig": "/usr/local/bin/arb_ludwig", "arb_macsetup": "/usr/local/bin/arb_macsetup", "arb_message": "/usr/local/bin/arb_message", "arb_naligner": "/usr/local/bin/arb_naligner", "arb_name_server": "/usr/local/bin/arb_name_server", "arb_nexus2newick.awk": "/usr/local/bin/arb_nexus2newick.awk", "arb_notify": "/usr/local/bin/arb_notify", "arb_ntree": "/usr/local/bin/arb_ntree", "arb_panic": "/usr/local/bin/arb_panic", "arb_pars": "/usr/local/bin/arb_pars", "arb_phylo": "/usr/local/bin/arb_phylo", "arb_phyml": "/usr/local/bin/arb_phyml", "arb_primer": "/usr/local/bin/arb_primer", "arb_probe": "/usr/local/bin/arb_probe", "arb_proml": "/usr/local/bin/arb_proml", "arb_proto_2_xsub": "/usr/local/bin/arb_proto_2_xsub", "arb_protpars": "/usr/local/bin/arb_protpars", "arb_pt_server": "/usr/local/bin/arb_pt_server", "arb_raxml": "/usr/local/bin/arb_raxml", "arb_read_tree": "/usr/local/bin/arb_read_tree", "arb_readlink": "/usr/local/bin/arb_readlink", "arb_readseq": "/usr/local/bin/arb_readseq", "arb_remote": "/usr/local/bin/arb_remote", "arb_repair": "/usr/local/bin/arb_repair", "arb_replace": "/usr/local/bin/arb_replace", "arb_rexec": "/usr/local/bin/arb_rexec", "arb_rnacma": "/usr/local/bin/arb_rnacma", "arb_sed": "/usr/local/bin/arb_sed", "arb_sleep": "/usr/local/bin/arb_sleep", "arb_textedit": "/usr/local/bin/arb_textedit", "arb_textprint": "/usr/local/bin/arb_textprint", "arb_trace": "/usr/local/bin/arb_trace", "arb_treegen": "/usr/local/bin/arb_treegen", "arb_wait": "/usr/local/bin/arb_wait", "arb_wetc": "/usr/local/bin/arb_wetc", "arb_who": "/usr/local/bin/arb_who", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapars": "/usr/local/bin/dnapars", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree", "drawtree_gui": "/usr/local/bin/drawtree_gui", "fig2dev": "/usr/local/bin/fig2dev", "fig2ps2tex": "/usr/local/bin/fig2ps2tex", "fitch": "/usr/local/bin/fitch", "gendist": "/usr/local/bin/gendist", "kitsch": "/usr/local/bin/kitsch", "mb": "/usr/local/bin/mb", "mb-mpi": "/usr/local/bin/mb-mpi", "mix": "/usr/local/bin/mix", "move": "/usr/local/bin/move", "mwm": "/usr/local/bin/mwm", "neighbor": "/usr/local/bin/neighbor", "ompi-dvm": "/usr/local/bin/ompi-dvm", "ompi-ps": "/usr/local/bin/ompi-ps", "ompi-top": "/usr/local/bin/ompi-top", "orte-dvm": "/usr/local/bin/orte-dvm", "orte-ps": "/usr/local/bin/orte-ps", "orte-top": "/usr/local/bin/orte-top", "pars": "/usr/local/bin/pars", "penny": "/usr/local/bin/penny", "phylip": "/usr/local/bin/phylip", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "pic2tpic": "/usr/local/bin/pic2tpic", "proml": "/usr/local/bin/proml", "promlk": "/usr/local/bin/promlk", "protdist": "/usr/local/bin/protdist", "protpars": "/usr/local/bin/protpars", "prun": "/usr/local/bin/prun", "restdist": "/usr/local/bin/restdist", "restml": "/usr/local/bin/restml", "retree": "/usr/local/bin/retree", "seqboot": "/usr/local/bin/seqboot", "transfig": "/usr/local/bin/transfig", "treedist": "/usr/local/bin/treedist", "uil": "/usr/local/bin/uil", "xfig": "/usr/local/bin/xfig", "xmbind": "/usr/local/bin/xmbind", "2to3-3.6": "/usr/local/bin/2to3-3.6", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "FastTree": "/usr/local/bin/FastTree", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse"}}
+config: {"url": "https://biocontainers.pro/tools/arb-bio-devel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arb-bio-devel", "latest": {"6.0.6--h6bb024c_8": "sha256:457abf21c651ab3c6914037e3cf60adecf9d9dbe78c3656abb025fee8b541073"}, "tags": {"6.0.6--h6bb024c_8": "sha256:457abf21c651ab3c6914037e3cf60adecf9d9dbe78c3656abb025fee8b541073"}, "docker": "quay.io/biocontainers/arb-bio-devel", "aliases": {"DrawGram.jar": "/usr/local/bin/DrawGram.jar", "DrawTree.jar": "/usr/local/bin/DrawTree.jar", "arb": "/usr/local/bin/arb", "arb_2_ascii": "/usr/local/bin/arb_2_ascii", "arb_2_bin": "/usr/local/bin/arb_2_bin", "arb_a2ps": "/usr/local/bin/arb_a2ps", "arb_bootstrap": "/usr/local/bin/arb_bootstrap", "arb_clean": "/usr/local/bin/arb_clean", "arb_consensus_tree": "/usr/local/bin/arb_consensus_tree", "arb_convert_aln": "/usr/local/bin/arb_convert_aln", "arb_db_server": "/usr/local/bin/arb_db_server", "arb_dist": "/usr/local/bin/arb_dist", "arb_dnapars": "/usr/local/bin/arb_dnapars", "arb_dnarates": "/usr/local/bin/arb_dnarates", "arb_echo": "/usr/local/bin/arb_echo", "arb_edit4": "/usr/local/bin/arb_edit4", "arb_export_rates": "/usr/local/bin/arb_export_rates", "arb_export_tree": "/usr/local/bin/arb_export_tree", "arb_fastdnaml": "/usr/local/bin/arb_fastdnaml", "arb_flush_mem": "/usr/local/bin/arb_flush_mem", "arb_gene_probe": "/usr/local/bin/arb_gene_probe", "arb_help2xml": "/usr/local/bin/arb_help2xml", "arb_help_useredit.sh": "/usr/local/bin/arb_help_useredit.sh", "arb_ign": "/usr/local/bin/arb_ign", "arb_installubuntu4arb.sh": "/usr/local/bin/arb_installubuntu4arb.sh", "arb_launcher": "/usr/local/bin/arb_launcher", "arb_ludwig": "/usr/local/bin/arb_ludwig", "arb_macsetup": "/usr/local/bin/arb_macsetup", "arb_message": "/usr/local/bin/arb_message", "arb_naligner": "/usr/local/bin/arb_naligner", "arb_name_server": "/usr/local/bin/arb_name_server", "arb_nexus2newick.awk": "/usr/local/bin/arb_nexus2newick.awk", "arb_notify": "/usr/local/bin/arb_notify", "arb_ntree": "/usr/local/bin/arb_ntree", "arb_panic": "/usr/local/bin/arb_panic", "arb_pars": "/usr/local/bin/arb_pars", "arb_phylo": "/usr/local/bin/arb_phylo", "arb_phyml": "/usr/local/bin/arb_phyml", "arb_primer": "/usr/local/bin/arb_primer", "arb_probe": "/usr/local/bin/arb_probe", "arb_proml": "/usr/local/bin/arb_proml", "arb_proto_2_xsub": "/usr/local/bin/arb_proto_2_xsub", "arb_protpars": "/usr/local/bin/arb_protpars", "arb_pt_server": "/usr/local/bin/arb_pt_server", "arb_raxml": "/usr/local/bin/arb_raxml", "arb_read_tree": "/usr/local/bin/arb_read_tree", "arb_readlink": "/usr/local/bin/arb_readlink", "arb_readseq": "/usr/local/bin/arb_readseq", "arb_remote": "/usr/local/bin/arb_remote", "arb_repair": "/usr/local/bin/arb_repair", "arb_replace": "/usr/local/bin/arb_replace", "arb_rexec": "/usr/local/bin/arb_rexec", "arb_rnacma": "/usr/local/bin/arb_rnacma", "arb_sed": "/usr/local/bin/arb_sed", "arb_sleep": "/usr/local/bin/arb_sleep", "arb_textedit": "/usr/local/bin/arb_textedit", "arb_textprint": "/usr/local/bin/arb_textprint", "arb_trace": "/usr/local/bin/arb_trace", "arb_treegen": "/usr/local/bin/arb_treegen", "arb_wait": "/usr/local/bin/arb_wait", "arb_wetc": "/usr/local/bin/arb_wetc", "arb_who": "/usr/local/bin/arb_who", "clique": "/usr/local/bin/clique", "consense": "/usr/local/bin/consense", "contml": "/usr/local/bin/contml", "contrast": "/usr/local/bin/contrast", "dnacomp": "/usr/local/bin/dnacomp", "dnadist": "/usr/local/bin/dnadist", "dnainvar": "/usr/local/bin/dnainvar", "dnaml": "/usr/local/bin/dnaml", "dnamlk": "/usr/local/bin/dnamlk", "dnamove": "/usr/local/bin/dnamove", "dnapars": "/usr/local/bin/dnapars", "dnapenny": "/usr/local/bin/dnapenny", "dollop": "/usr/local/bin/dollop", "dolmove": "/usr/local/bin/dolmove", "dolpenny": "/usr/local/bin/dolpenny", "drawgram": "/usr/local/bin/drawgram", "drawgram_gui": "/usr/local/bin/drawgram_gui", "drawtree": "/usr/local/bin/drawtree", "drawtree_gui": "/usr/local/bin/drawtree_gui", "fig2dev": "/usr/local/bin/fig2dev", "fig2ps2tex": "/usr/local/bin/fig2ps2tex", "fitch": "/usr/local/bin/fitch", "gendist": "/usr/local/bin/gendist", "kitsch": "/usr/local/bin/kitsch", "mb": "/usr/local/bin/mb", "mb-mpi": "/usr/local/bin/mb-mpi", "mix": "/usr/local/bin/mix", "move": "/usr/local/bin/move", "mwm": "/usr/local/bin/mwm", "neighbor": "/usr/local/bin/neighbor", "ompi-dvm": "/usr/local/bin/ompi-dvm", "ompi-ps": "/usr/local/bin/ompi-ps", "ompi-top": "/usr/local/bin/ompi-top", "orte-dvm": "/usr/local/bin/orte-dvm", "orte-ps": "/usr/local/bin/orte-ps", "orte-top": "/usr/local/bin/orte-top", "pars": "/usr/local/bin/pars", "penny": "/usr/local/bin/penny", "phylip": "/usr/local/bin/phylip", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "pic2tpic": "/usr/local/bin/pic2tpic", "proml": "/usr/local/bin/proml", "promlk": "/usr/local/bin/promlk", "protdist": "/usr/local/bin/protdist", "protpars": "/usr/local/bin/protpars", "prun": "/usr/local/bin/prun", "restdist": "/usr/local/bin/restdist", "restml": "/usr/local/bin/restml", "retree": "/usr/local/bin/retree", "seqboot": "/usr/local/bin/seqboot", "transfig": "/usr/local/bin/transfig", "treedist": "/usr/local/bin/treedist", "uil": "/usr/local/bin/uil", "xfig": "/usr/local/bin/xfig", "xmbind": "/usr/local/bin/xmbind", "gnuplot": "/usr/local/bin/gnuplot", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arb-bio-devel.
@@ -1287,57 +1287,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xmbind   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.6
+#### gnuplot
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gnuplot
+$ podman run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### CreateDOMDocument
+#### raxmlHPC
 
 ```bash
-$ singularity exec <container> /usr/local/bin/CreateDOMDocument
-$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DOMCount
+#### raxmlHPC-AVX2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DOMCount
-$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-AVX2
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DOMPrint
+#### raxmlHPC-PTHREADS
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DOMPrint
-$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### EnumVal
+#### raxmlHPC-PTHREADS-AVX2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/EnumVal
-$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTree
+#### raxmlHPC-PTHREADS-SSE3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS-SSE3
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raxmlHPC-SSE3
+
+```bash
+$ singularity exec <container> /usr/local/bin/raxmlHPC-SSE3
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1350,30 +1359,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD}
 ```
 
 
-#### FastTreeMP
+#### oshCC
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshCC
+$ podman run --it --rm --entrypoint /usr/local/bin/oshCC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshCC   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MemParse
+#### oshc++
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MemParse
-$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### PParse
-
-```bash
-$ singularity exec <container> /usr/local/bin/PParse
-$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshc++
+$ podman run --it --rm --entrypoint /usr/local/bin/oshc++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshc++   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ggdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggdata/container.yaml"
-updated_at: "2022-10-29 05:53:27.944035"
+updated_at: "2022-10-29 07:53:05.964504"
 latest: "1.28.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggdata"
 aliases:
+ - ".bioconductor-ggdata-post-link.sh"
+ - ".bioconductor-ggdata-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.28.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ggdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggdata", "latest": {"1.28.0--r40hdfd78af_1": "sha256:d12f9c93a5b9c55afc8212d9b9977e0f8bf63c4f649cf4a4022f751a48de52bb"}, "tags": {"1.28.0--r40hdfd78af_1": "sha256:d12f9c93a5b9c55afc8212d9b9977e0f8bf63c4f649cf4a4022f751a48de52bb"}, "docker": "quay.io/biocontainers/bioconductor-ggdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggdata", "latest": {"1.28.0--r40hdfd78af_1": "sha256:d12f9c93a5b9c55afc8212d9b9977e0f8bf63c4f649cf4a4022f751a48de52bb"}, "tags": {"1.28.0--r40hdfd78af_1": "sha256:d12f9c93a5b9c55afc8212d9b9977e0f8bf63c4f649cf4a4022f751a48de52bb"}, "docker": "quay.io/biocontainers/bioconductor-ggdata", "aliases": {".bioconductor-ggdata-post-link.sh": "/usr/local/bin/.bioconductor-ggdata-post-link.sh", ".bioconductor-ggdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ggdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggdata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-ggdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ggdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ggdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ggdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-ggdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ggdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ggdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ggdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

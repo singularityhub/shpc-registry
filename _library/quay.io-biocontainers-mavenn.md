@@ -4,24 +4,25 @@ name:  "quay.io/biocontainers/mavenn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mavenn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mavenn/container.yaml"
-updated_at: "2022-10-29 05:48:59.866496"
+updated_at: "2022-10-29 07:49:48.787501"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mavenn"
 aliases:
- - "2to3-3.9"
- - "aserver"
- - "assistant"
- - "brotli"
- - "canbusutil"
- - "certutil"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
+ - "import_pb_to_tensorboard"
+ - "estimator_ckpt_converter"
+ - "google-oauthlib-tool"
+ - "grpc_cpp_plugin"
+ - "grpc_csharp_plugin"
+ - "grpc_node_plugin"
+ - "grpc_objective_c_plugin"
+ - "grpc_php_plugin"
+ - "grpc_python_plugin"
+ - "grpc_ruby_plugin"
+ - "tf_upgrade_v2"
 versions:
  - "1.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mavenn"
-config: {"url": "https://biocontainers.pro/tools/mavenn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavenn", "latest": {"1.0.0--pyhdfd78af_0": "sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a"}, "docker": "quay.io/biocontainers/mavenn", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "brotli": "/usr/local/bin/brotli", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor"}}
+config: {"url": "https://biocontainers.pro/tools/mavenn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mavenn", "latest": {"1.0.0--pyhdfd78af_0": "sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:1a6c4096483e08490985db1aadeec22d4041688f76a9a4ad86a4585f7465785a"}, "docker": "quay.io/biocontainers/mavenn", "aliases": {"import_pb_to_tensorboard": "/usr/local/bin/import_pb_to_tensorboard", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mavenn.
@@ -107,93 +108,102 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
+#### import_pb_to_tensorboard
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/import_pb_to_tensorboard
+$ podman run --it --rm --entrypoint /usr/local/bin/import_pb_to_tensorboard   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/import_pb_to_tensorboard   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### estimator_ckpt_converter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/estimator_ckpt_converter
+$ podman run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### google-oauthlib-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/google-oauthlib-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### grpc_cpp_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_cpp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### grpc_csharp_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_csharp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### certutil
+#### grpc_node_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/certutil
-$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_node_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### grpc_objective_c_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_objective_c_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### grpc_php_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_php_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_php_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_php_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### grpc_python_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_python_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_python_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_python_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### grpc_ruby_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_ruby_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_ruby_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_ruby_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tf_upgrade_v2
+
+```bash
+$ singularity exec <container> /usr/local/bin/tf_upgrade_v2
+$ podman run --it --rm --entrypoint /usr/local/bin/tf_upgrade_v2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tf_upgrade_v2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

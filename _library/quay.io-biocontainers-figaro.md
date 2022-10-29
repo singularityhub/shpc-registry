@@ -4,24 +4,25 @@ name:  "quay.io/biocontainers/figaro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/figaro/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/figaro/container.yaml"
-updated_at: "2022-10-29 05:43:16.096314"
+updated_at: "2022-10-29 07:45:35.069242"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/figaro"
 aliases:
  - "figaro.py"
- - "2to3-3.9"
  - "f2py3.9"
- - "idle3.9"
  - "opj_compress"
  - "opj_decompress"
  - "opj_dump"
+ - "2to3-3.9"
+ - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
+ - "jpgicc"
 versions:
  - "1.1.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for figaro"
-config: {"url": "https://biocontainers.pro/tools/figaro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for figaro", "latest": {"1.1.2--hdfd78af_0": "sha256:96c4413778349db464e73cd6f2118ab8a9b6f08cd3756daa769f87a75c93cc24"}, "tags": {"1.1.2--hdfd78af_0": "sha256:96c4413778349db464e73cd6f2118ab8a9b6f08cd3756daa769f87a75c93cc24"}, "docker": "quay.io/biocontainers/figaro", "aliases": {"figaro.py": "/usr/local/bin/figaro.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/figaro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for figaro", "latest": {"1.1.2--hdfd78af_0": "sha256:96c4413778349db464e73cd6f2118ab8a9b6f08cd3756daa769f87a75c93cc24"}, "tags": {"1.1.2--hdfd78af_0": "sha256:96c4413778349db464e73cd6f2118ab8a9b6f08cd3756daa769f87a75c93cc24"}, "docker": "quay.io/biocontainers/figaro", "aliases": {"figaro.py": "/usr/local/bin/figaro.py", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/figaro.
@@ -116,30 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/figaro.py   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -170,6 +153,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD
 ```
 
 
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### pydoc3.9
 
 ```bash
@@ -194,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.9-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

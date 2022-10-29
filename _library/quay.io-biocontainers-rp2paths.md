@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/rp2paths"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rp2paths/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rp2paths/container.yaml"
-updated_at: "2022-10-29 05:51:19.628057"
+updated_at: "2022-10-29 07:51:31.460293"
 latest: "1.5.0"
 container_url: "https://biocontainers.pro/tools/rp2paths"
 aliases:
- - "2to3-3.7"
+ - "cxpm"
+ - "sxpm"
  - "acyclic"
- - "aserver"
  - "bcomps"
  - "ccomps"
  - "circo"
- - "cluster"
- - "cxpm"
  - "dijkstra"
  - "dot"
+ - "dot2gxl"
+ - "dot_builtins"
 versions:
  - "1.5.0"
 description: "shpc-registry automated BioContainers addition for rp2paths"
-config: {"url": "https://biocontainers.pro/tools/rp2paths", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rp2paths", "latest": {"1.5.0": "sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7"}, "tags": {"1.5.0": "sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7"}, "docker": "quay.io/biocontainers/rp2paths", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "acyclic": "/usr/local/bin/acyclic", "aserver": "/usr/local/bin/aserver", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "cxpm": "/usr/local/bin/cxpm", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot"}}
+config: {"url": "https://biocontainers.pro/tools/rp2paths", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rp2paths", "latest": {"1.5.0": "sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7"}, "tags": {"1.5.0": "sha256:bfd41807000936370ad5f77004aef24e9746887844dfb096d15856f026a892e7"}, "docker": "quay.io/biocontainers/rp2paths", "aliases": {"cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl", "dot_builtins": "/usr/local/bin/dot_builtins"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rp2paths.
@@ -107,12 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.7
+#### cxpm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cxpm
+$ podman run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sxpm
+
+```bash
+$ singularity exec <container> /usr/local/bin/sxpm
+$ podman run --it --rm --entrypoint /usr/local/bin/sxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -122,15 +131,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/acyclic
 $ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -161,24 +161,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### cluster
-
-```bash
-$ singularity exec <container> /usr/local/bin/cluster
-$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cxpm
-
-```bash
-$ singularity exec <container> /usr/local/bin/cxpm
-$ podman run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### dijkstra
 
 ```bash
@@ -194,6 +176,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/dot
 $ podman run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dot2gxl
+
+```bash
+$ singularity exec <container> /usr/local/bin/dot2gxl
+$ podman run --it --rm --entrypoint /usr/local/bin/dot2gxl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dot2gxl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dot_builtins
+
+```bash
+$ singularity exec <container> /usr/local/bin/dot_builtins
+$ podman run --it --rm --entrypoint /usr/local/bin/dot_builtins   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dot_builtins   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

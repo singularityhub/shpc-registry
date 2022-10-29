@@ -4,11 +4,13 @@ name:  "quay.io/biocontainers/pyopenms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopenms/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyopenms/container.yaml"
-updated_at: "2022-10-29 05:49:38.355913"
+updated_at: "2022-10-29 07:50:17.060114"
 latest: "2.8.0--py36h24c8720_1"
 container_url: "https://biocontainers.pro/tools/pyopenms"
 aliases:
- - "2to3-3.6"
+ - "svm-predict"
+ - "svm-scale"
+ - "svm-train"
  - "CreateDOMDocument"
  - "DOMCount"
  - "DOMPrint"
@@ -16,12 +18,10 @@ aliases:
  - "MemParse"
  - "PParse"
  - "PSVIWriter"
- - "Redirect"
- - "SAX2Count"
 versions:
  - "2.8.0--py36h24c8720_1"
 description: "shpc-registry automated BioContainers addition for pyopenms"
-config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "docker": "quay.io/biocontainers/pyopenms", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
+config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "docker": "quay.io/biocontainers/pyopenms", "aliases": {"svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopenms.
@@ -107,12 +107,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
+#### svm-predict
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/svm-predict
+$ podman run --it --rm --entrypoint /usr/local/bin/svm-predict   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/svm-predict   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### svm-scale
+
+```bash
+$ singularity exec <container> /usr/local/bin/svm-scale
+$ podman run --it --rm --entrypoint /usr/local/bin/svm-scale   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/svm-scale   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### svm-train
+
+```bash
+$ singularity exec <container> /usr/local/bin/svm-train
+$ podman run --it --rm --entrypoint /usr/local/bin/svm-train   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/svm-train   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -176,24 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/PSVIWriter
 $ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### Redirect
-
-```bash
-$ singularity exec <container> /usr/local/bin/Redirect
-$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### SAX2Count
-
-```bash
-$ singularity exec <container> /usr/local/bin/SAX2Count
-$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

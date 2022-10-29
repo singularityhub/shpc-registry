@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/msalign2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msalign2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/msalign2/container.yaml"
-updated_at: "2022-10-29 05:46:19.582281"
+updated_at: "2022-10-29 07:47:50.505397"
 latest: "1.0--h7132678_3"
 container_url: "https://biocontainers.pro/tools/msalign2"
 aliases:
  - "msalign2"
- - "annotate"
  - "bdftogd"
- - "cwebp"
- - "dwebp"
  - "gd2copypal"
  - "gd2togif"
  - "gd2topng"
  - "gdcmpgif"
  - "gdparttopng"
  - "gdtopng"
+ - "giftogd2"
+ - "pngtogd"
+ - "pngtogd2"
 versions:
  - "1.0--h7132678_3"
 description: "shpc-registry automated BioContainers addition for msalign2"
-config: {"url": "https://biocontainers.pro/tools/msalign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msalign2", "latest": {"1.0--h7132678_3": "sha256:c7d2321b8132c2d896ce94d7932ff756839af4314215fe09d58f6fdd89031e6e"}, "tags": {"1.0--h7132678_3": "sha256:c7d2321b8132c2d896ce94d7932ff756839af4314215fe09d58f6fdd89031e6e"}, "docker": "quay.io/biocontainers/msalign2", "aliases": {"msalign2": "/usr/local/bin/msalign2", "annotate": "/usr/local/bin/annotate", "bdftogd": "/usr/local/bin/bdftogd", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng"}}
+config: {"url": "https://biocontainers.pro/tools/msalign2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msalign2", "latest": {"1.0--h7132678_3": "sha256:c7d2321b8132c2d896ce94d7932ff756839af4314215fe09d58f6fdd89031e6e"}, "tags": {"1.0--h7132678_3": "sha256:c7d2321b8132c2d896ce94d7932ff756839af4314215fe09d58f6fdd89031e6e"}, "docker": "quay.io/biocontainers/msalign2", "aliases": {"msalign2": "/usr/local/bin/msalign2", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2", "pngtogd": "/usr/local/bin/pngtogd", "pngtogd2": "/usr/local/bin/pngtogd2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msalign2.
@@ -117,39 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/msalign2   -v ${PWD} -w ${PWD
 ```
 
 
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bdftogd
 
 ```bash
 $ singularity exec <container> /usr/local/bin/bdftogd
 $ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +177,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdparttopng   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/gdtopng
 $ podman run --it --rm --entrypoint /usr/local/bin/gdtopng   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gdtopng   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftogd2
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftogd2
+$ podman run --it --rm --entrypoint /usr/local/bin/giftogd2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftogd2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pngtogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngtogd
+$ podman run --it --rm --entrypoint /usr/local/bin/pngtogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngtogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pngtogd2
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngtogd2
+$ podman run --it --rm --entrypoint /usr/local/bin/pngtogd2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngtogd2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

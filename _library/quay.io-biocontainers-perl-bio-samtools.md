@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/perl-bio-samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-samtools/container.yaml"
-updated_at: "2022-10-29 05:48:34.962137"
+updated_at: "2022-10-29 07:49:30.407504"
 latest: "1.43--pl5321h7132678_3"
 container_url: "https://biocontainers.pro/tools/perl-bio-samtools"
 aliases:
- - "bamToGBrowse.pl"
  - "bp_aacomp"
  - "bp_bioflat_index"
  - "bp_biogetseq"
@@ -18,10 +17,11 @@ aliases:
  - "bp_fetch"
  - "bp_filter_search"
  - "bp_find-blast-matches"
+ - "bp_gccalc"
 versions:
  - "1.43--pl5321h7132678_3"
 description: "shpc-registry automated BioContainers addition for perl-bio-samtools"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-samtools", "latest": {"1.43--pl5321h7132678_3": "sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d"}, "tags": {"1.43--pl5321h7132678_3": "sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d"}, "docker": "quay.io/biocontainers/perl-bio-samtools", "aliases": {"bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-samtools", "latest": {"1.43--pl5321h7132678_3": "sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d"}, "tags": {"1.43--pl5321h7132678_3": "sha256:8d6e3b354a177cd0bf79c789f15f64604dc5c06698e391fb445c0b064d09310d"}, "docker": "quay.io/biocontainers/perl-bio-samtools", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-samtools.
@@ -107,15 +107,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### bamToGBrowse.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bp_aacomp
 
 ```bash
@@ -194,6 +185,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bp_filter_search   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/bp_find-blast-matches
 $ podman run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_gccalc
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_gccalc
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_gccalc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_gccalc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

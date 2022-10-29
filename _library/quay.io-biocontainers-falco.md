@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/falco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/falco/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/falco/container.yaml"
-updated_at: "2022-10-29 05:39:15.218552"
+updated_at: "2022-10-29 07:42:36.104341"
 latest: "1.2.1--h867801b_3"
 container_url: "https://biocontainers.pro/tools/falco"
 aliases:
  - "falco"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "1.2.1--h867801b_3"
 description: "shpc-registry automated BioContainers addition for falco"
-config: {"url": "https://biocontainers.pro/tools/falco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for falco", "latest": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2"}, "tags": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2"}, "docker": "quay.io/biocontainers/falco", "aliases": {"falco": "/usr/local/bin/falco", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/falco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for falco", "latest": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2"}, "tags": {"1.2.1--h867801b_3": "sha256:6e83a10b0f59f7c8c9ef377006583374635f48a2cecf553f7123f25090917da2"}, "docker": "quay.io/biocontainers/falco", "aliases": {"falco": "/usr/local/bin/falco", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/falco.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/falco   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

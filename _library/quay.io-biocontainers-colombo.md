@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/colombo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/colombo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/colombo/container.yaml"
-updated_at: "2022-10-29 05:43:12.865644"
+updated_at: "2022-10-29 07:45:32.668002"
 latest: "v4.0--1"
 container_url: "https://biocontainers.pro/tools/colombo"
 aliases:
@@ -13,19 +13,19 @@ aliases:
  - "SigiHMM"
  - "mSigiHMM"
  - "jaotc"
- - "jar"
- - "jarsigner"
- - "java"
- - "javac"
- - "javadoc"
- - "javap"
- - "jcmd"
- - "jconsole"
- - "jdb"
+ - "jdeprscan"
+ - "jhsdb"
+ - "jimage"
+ - "jlink"
+ - "jmod"
+ - "jshell"
+ - "jjs"
+ - "pack200"
+ - "rmic"
 versions:
  - "v4.0--1"
 description: "shpc-registry automated BioContainers addition for colombo"
-config: {"url": "https://biocontainers.pro/tools/colombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colombo", "latest": {"v4.0--1": "sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698"}, "tags": {"v4.0--1": "sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698"}, "docker": "quay.io/biocontainers/colombo", "aliases": {"Colombo": "/usr/local/bin/Colombo", "SigiCRF": "/usr/local/bin/SigiCRF", "SigiHMM": "/usr/local/bin/SigiHMM", "mSigiHMM": "/usr/local/bin/mSigiHMM", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb"}}
+config: {"url": "https://biocontainers.pro/tools/colombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for colombo", "latest": {"v4.0--1": "sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698"}, "tags": {"v4.0--1": "sha256:b09d49ad4fd507b68d998dd0a3e26759d816bfed69476a5760c888aa933ac698"}, "docker": "quay.io/biocontainers/colombo", "aliases": {"Colombo": "/usr/local/bin/Colombo", "SigiCRF": "/usr/local/bin/SigiCRF", "SigiHMM": "/usr/local/bin/SigiHMM", "mSigiHMM": "/usr/local/bin/mSigiHMM", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/colombo.
@@ -156,84 +156,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### jar
+#### jdeprscan
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jar
-$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jdeprscan
+$ podman run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jarsigner
+#### jhsdb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jarsigner
-$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### java
+#### jimage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/java
-$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jimage
+$ podman run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### javac
+#### jlink
 
 ```bash
-$ singularity exec <container> /usr/local/bin/javac
-$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jlink
+$ podman run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### javadoc
+#### jmod
 
 ```bash
-$ singularity exec <container> /usr/local/bin/javadoc
-$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jmod
+$ podman run --it --rm --entrypoint /usr/local/bin/jmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### javap
+#### jshell
 
 ```bash
-$ singularity exec <container> /usr/local/bin/javap
-$ podman run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jshell
+$ podman run --it --rm --entrypoint /usr/local/bin/jshell   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jshell   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jcmd
+#### jjs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jcmd
-$ podman run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jjs
+$ podman run --it --rm --entrypoint /usr/local/bin/jjs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jjs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jconsole
+#### pack200
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jconsole
-$ podman run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pack200
+$ podman run --it --rm --entrypoint /usr/local/bin/pack200   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pack200   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jdb
+#### rmic
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jdb
-$ podman run --it --rm --entrypoint /usr/local/bin/jdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rmic
+$ podman run --it --rm --entrypoint /usr/local/bin/rmic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rmic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

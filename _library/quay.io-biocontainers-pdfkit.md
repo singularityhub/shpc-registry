@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pdfkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdfkit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pdfkit/container.yaml"
-updated_at: "2022-10-29 05:55:53.692362"
+updated_at: "2022-10-29 07:54:51.603105"
 latest: "0.6.1--py36_0"
 container_url: "https://biocontainers.pro/tools/pdfkit"
 aliases:
@@ -17,12 +17,12 @@ aliases:
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
- - "pyvenv"
  - "pyvenv-3.6"
+ - "pyvenv"
 versions:
  - "0.6.1--py36_0"
 description: "shpc-registry automated BioContainers addition for pdfkit"
-config: {"url": "https://biocontainers.pro/tools/pdfkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pdfkit", "latest": {"0.6.1--py36_0": "sha256:88393462de8fc7ec9e678cb4870a5b6f0370d18695b2434af8564d9c0f8b62ff"}, "tags": {"0.6.1--py36_0": "sha256:88393462de8fc7ec9e678cb4870a5b6f0370d18695b2434af8564d9c0f8b62ff"}, "docker": "quay.io/biocontainers/pdfkit", "aliases": {"wkhtmltoimage": "/usr/local/bin/wkhtmltoimage", "wkhtmltopdf": "/usr/local/bin/wkhtmltopdf", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pdfkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pdfkit", "latest": {"0.6.1--py36_0": "sha256:88393462de8fc7ec9e678cb4870a5b6f0370d18695b2434af8564d9c0f8b62ff"}, "tags": {"0.6.1--py36_0": "sha256:88393462de8fc7ec9e678cb4870a5b6f0370d18695b2434af8564d9c0f8b62ff"}, "docker": "quay.io/biocontainers/pdfkit", "aliases": {"wkhtmltoimage": "/usr/local/bin/wkhtmltoimage", "wkhtmltopdf": "/usr/local/bin/wkhtmltopdf", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pdfkit.
@@ -189,21 +189,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pyvenv-3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

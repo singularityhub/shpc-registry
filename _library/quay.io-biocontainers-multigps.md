@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/multigps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multigps/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/multigps/container.yaml"
-updated_at: "2022-10-29 05:31:31.427552"
+updated_at: "2022-10-29 07:36:55.728196"
 latest: "0.74--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/multigps"
 aliases:
  - "multigps"
  - "xsltproc_lite"
- - "2to3-3.8"
  - "alphtype"
  - "ama"
  - "ama-qvalues"
  - "ame"
- - "aserver"
  - "beeml2meme"
  - "centrimo"
  - "ceqlogo"
  - "chen2meme"
+ - "clustalw2fasta"
+ - "clustalw2phylip"
 versions:
  - "0.74--h9ee0642_3"
 description: "shpc-registry automated BioContainers addition for multigps"
-config: {"url": "https://biocontainers.pro/tools/multigps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multigps", "latest": {"0.74--h9ee0642_3": "sha256:973b31e273187a6bcdbc5fdfc19b2a4a03e7864009aad29c8e5adc6b473ec4d0"}, "tags": {"0.74--h9ee0642_3": "sha256:973b31e273187a6bcdbc5fdfc19b2a4a03e7864009aad29c8e5adc6b473ec4d0"}, "docker": "quay.io/biocontainers/multigps", "aliases": {"multigps": "/usr/local/bin/multigps", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "2to3-3.8": "/usr/local/bin/2to3-3.8", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "aserver": "/usr/local/bin/aserver", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme"}}
+config: {"url": "https://biocontainers.pro/tools/multigps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multigps", "latest": {"0.74--h9ee0642_3": "sha256:973b31e273187a6bcdbc5fdfc19b2a4a03e7864009aad29c8e5adc6b473ec4d0"}, "tags": {"0.74--h9ee0642_3": "sha256:973b31e273187a6bcdbc5fdfc19b2a4a03e7864009aad29c8e5adc6b473ec4d0"}, "docker": "quay.io/biocontainers/multigps", "aliases": {"multigps": "/usr/local/bin/multigps", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multigps.
@@ -127,15 +127,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xsltproc_lite   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### alphtype
 
 ```bash
@@ -172,15 +163,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ame   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### beeml2meme
 
 ```bash
@@ -214,6 +196,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ceqlogo   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/chen2meme
 $ podman run --it --rm --entrypoint /usr/local/bin/chen2meme   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chen2meme   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clustalw2fasta
+
+```bash
+$ singularity exec <container> /usr/local/bin/clustalw2fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/clustalw2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clustalw2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clustalw2phylip
+
+```bash
+$ singularity exec <container> /usr/local/bin/clustalw2phylip
+$ podman run --it --rm --entrypoint /usr/local/bin/clustalw2phylip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clustalw2phylip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-clumsiddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clumsiddata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clumsiddata/container.yaml"
-updated_at: "2022-10-29 05:33:39.715902"
+updated_at: "2022-10-29 07:38:29.784467"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clumsiddata"
 aliases:
+ - ".bioconductor-clumsiddata-post-link.sh"
+ - ".bioconductor-clumsiddata-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-clumsiddata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clumsiddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clumsiddata", "latest": {"1.8.0--r41hdfd78af_0": "sha256:ac369c324b15ddc4226c3357422e34cd74c2a89cbf54f4f2a07586b3ae072de6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:ac369c324b15ddc4226c3357422e34cd74c2a89cbf54f4f2a07586b3ae072de6"}, "docker": "quay.io/biocontainers/bioconductor-clumsiddata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clumsiddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clumsiddata", "latest": {"1.8.0--r41hdfd78af_0": "sha256:ac369c324b15ddc4226c3357422e34cd74c2a89cbf54f4f2a07586b3ae072de6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:ac369c324b15ddc4226c3357422e34cd74c2a89cbf54f4f2a07586b3ae072de6"}, "docker": "quay.io/biocontainers/bioconductor-clumsiddata", "aliases": {".bioconductor-clumsiddata-post-link.sh": "/usr/local/bin/.bioconductor-clumsiddata-post-link.sh", ".bioconductor-clumsiddata-pre-unlink.sh": "/usr/local/bin/.bioconductor-clumsiddata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clumsiddata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-clumsiddata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-clumsiddata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-clumsiddata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-clumsiddata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-clumsiddata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-clumsiddata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-clumsiddata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-clumsiddata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

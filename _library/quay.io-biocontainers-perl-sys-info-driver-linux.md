@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/perl-sys-info-driver-linux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sys-info-driver-linux/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sys-info-driver-linux/container.yaml"
-updated_at: "2022-10-29 05:31:49.847380"
+updated_at: "2022-10-29 07:37:09.206019"
 latest: "0.7905--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-sys-info-driver-linux"
 aliases:
  - "tts"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.7905--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-sys-info-driver-linux"
-config: {"url": "https://biocontainers.pro/tools/perl-sys-info-driver-linux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sys-info-driver-linux", "latest": {"0.7905--pl5321hdfd78af_1": "sha256:ab2db8b8914f4c770c3083a3d2e6db5a923f14b47188e53847f92fc7e1c137a8"}, "tags": {"0.7905--pl5321hdfd78af_1": "sha256:ab2db8b8914f4c770c3083a3d2e6db5a923f14b47188e53847f92fc7e1c137a8"}, "docker": "quay.io/biocontainers/perl-sys-info-driver-linux", "aliases": {"tts": "/usr/local/bin/tts"}}
+config: {"url": "https://biocontainers.pro/tools/perl-sys-info-driver-linux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sys-info-driver-linux", "latest": {"0.7905--pl5321hdfd78af_1": "sha256:ab2db8b8914f4c770c3083a3d2e6db5a923f14b47188e53847f92fc7e1c137a8"}, "tags": {"0.7905--pl5321hdfd78af_1": "sha256:ab2db8b8914f4c770c3083a3d2e6db5a923f14b47188e53847f92fc7e1c137a8"}, "docker": "quay.io/biocontainers/perl-sys-info-driver-linux", "aliases": {"tts": "/usr/local/bin/tts", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sys-info-driver-linux.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/tts
 $ podman run --it --rm --entrypoint /usr/local/bin/tts   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

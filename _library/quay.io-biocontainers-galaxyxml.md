@@ -4,23 +4,23 @@ name:  "quay.io/biocontainers/galaxyxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxyxml/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxyxml/container.yaml"
-updated_at: "2022-10-29 05:45:33.849406"
+updated_at: "2022-10-29 07:47:16.927676"
 latest: "0.4.9--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/galaxyxml"
 aliases:
- - "2to3-3.8"
  - "futurize"
- - "idle3.8"
  - "pasteurize"
+ - "xslt-config"
+ - "xsltproc"
+ - "2to3-3.8"
+ - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
- - "xslt-config"
- - "xsltproc"
 versions:
  - "0.4.9--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for galaxyxml"
-config: {"url": "https://biocontainers.pro/tools/galaxyxml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxyxml", "latest": {"0.4.9--pyh864c0ab_1": "sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452"}, "tags": {"0.4.9--pyh864c0ab_1": "sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452"}, "docker": "quay.io/biocontainers/galaxyxml", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "futurize": "/usr/local/bin/futurize", "idle3.8": "/usr/local/bin/idle3.8", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
+config: {"url": "https://biocontainers.pro/tools/galaxyxml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxyxml", "latest": {"0.4.9--pyh864c0ab_1": "sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452"}, "tags": {"0.4.9--pyh864c0ab_1": "sha256:1fed5e040b66851135ad37b47e1c6dec0d88dea668e00c3499b27eb148b39452"}, "docker": "quay.io/biocontainers/galaxyxml", "aliases": {"futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxyxml.
@@ -106,15 +106,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### futurize
 
 ```bash
@@ -124,21 +115,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pasteurize
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pasteurize
 $ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -166,24 +184,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xslt-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/xslt-config
-$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xsltproc
-
-```bash
-$ singularity exec <container> /usr/local/bin/xsltproc
-$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

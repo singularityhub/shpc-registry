@@ -4,27 +4,32 @@ name:  "quay.io/biocontainers/deepvariant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepvariant/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deepvariant/container.yaml"
-updated_at: "2022-10-29 05:40:51.834402"
+updated_at: "2022-10-29 07:43:47.060140"
 latest: "1.4.0--py36hf3e76ba_0"
 container_url: "https://biocontainers.pro/tools/deepvariant"
 aliases:
+ - ".deepvariant-post-link.sh"
+ - ".deepvariant-pre-unlink.sh"
+ - "bq"
+ - "docker-credential-gcloud"
  - "dv_call_variants.py"
  - "dv_make_examples.py"
  - "dv_postprocess_variants.py"
- - "2to3-3.6"
- - "appletviewer"
- - "bgzip"
- - "bq"
- - "chardetect"
+ - "gcloud"
+ - "gsutil"
+ - "funzip"
+ - "unzipsfx"
+ - "zipgrep"
+ - "zipinfo"
+ - "freeze_graph"
+ - "google-oauthlib-tool"
+ - "unzip"
  - "clhsdb"
- - "docker-credential-gcloud"
- - "env_parallel"
- - "env_parallel.ash"
- - "env_parallel.bash"
+ - "hsdb"
 versions:
  - "1.4.0--py36hf3e76ba_0"
 description: "shpc-registry automated BioContainers addition for deepvariant"
-config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {"dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "bgzip": "/usr/local/bin/bgzip", "bq": "/usr/local/bin/bq", "chardetect": "/usr/local/bin/chardetect", "clhsdb": "/usr/local/bin/clhsdb", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash"}}
+config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {".deepvariant-post-link.sh": "/usr/local/bin/.deepvariant-post-link.sh", ".deepvariant-pre-unlink.sh": "/usr/local/bin/.deepvariant-pre-unlink.sh", "bq": "/usr/local/bin/bq", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "freeze_graph": "/usr/local/bin/freeze_graph", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "unzip": "/usr/local/bin/unzip", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepvariant.
@@ -110,6 +115,42 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .deepvariant-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.deepvariant-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.deepvariant-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.deepvariant-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .deepvariant-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.deepvariant-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.deepvariant-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.deepvariant-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bq
+$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### docker-credential-gcloud
+
+```bash
+$ singularity exec <container> /usr/local/bin/docker-credential-gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dv_call_variants.py
 
 ```bash
@@ -137,48 +178,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dv_postprocess_variants.py   
 ```
 
 
-#### 2to3-3.6
+#### gcloud
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### appletviewer
+#### gsutil
 
 ```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gsutil
+$ podman run --it --rm --entrypoint /usr/local/bin/gsutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsutil   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### funzip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/funzip
+$ podman run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bq
+#### unzipsfx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bq
-$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unzipsfx
+$ podman run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### chardetect
+#### zipgrep
 
 ```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zipgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zipinfo
+
+```bash
+$ singularity exec <container> /usr/local/bin/zipinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### freeze_graph
+
+```bash
+$ singularity exec <container> /usr/local/bin/freeze_graph
+$ podman run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### google-oauthlib-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/google-oauthlib-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/unzip
+$ podman run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -191,39 +268,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### docker-credential-gcloud
+#### hsdb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/docker-credential-gcloud
-$ podman run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### env_parallel
-
-```bash
-$ singularity exec <container> /usr/local/bin/env_parallel
-$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### env_parallel.ash
-
-```bash
-$ singularity exec <container> /usr/local/bin/env_parallel.ash
-$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### env_parallel.bash
-
-```bash
-$ singularity exec <container> /usr/local/bin/env_parallel.bash
-$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

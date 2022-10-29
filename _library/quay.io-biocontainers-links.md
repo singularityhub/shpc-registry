@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/links"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/links/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/links/container.yaml"
-updated_at: "2022-10-29 05:57:13.314267"
+updated_at: "2022-10-29 07:55:49.067272"
 latest: "2.0.1--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/links"
 aliases:
@@ -13,10 +13,12 @@ aliases:
  - "LINKS-make-real"
  - "LINKS.pl"
  - "LINKS_CPP"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.0.1--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for links"
-config: {"url": "https://biocontainers.pro/tools/links", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for links", "latest": {"2.0.1--h9f5acd7_2": "sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f"}, "docker": "quay.io/biocontainers/links", "aliases": {"LINKS": "/usr/local/bin/LINKS", "LINKS-make": "/usr/local/bin/LINKS-make", "LINKS-make-real": "/usr/local/bin/LINKS-make-real", "LINKS.pl": "/usr/local/bin/LINKS.pl", "LINKS_CPP": "/usr/local/bin/LINKS_CPP"}}
+config: {"url": "https://biocontainers.pro/tools/links", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for links", "latest": {"2.0.1--h9f5acd7_2": "sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f"}, "tags": {"2.0.1--h9f5acd7_2": "sha256:c8f95e2f3235a4b8bbaf8faa9c4533a9f7eb0f19c444cea01aabb75a10ec1c8f"}, "docker": "quay.io/biocontainers/links", "aliases": {"LINKS": "/usr/local/bin/LINKS", "LINKS-make": "/usr/local/bin/LINKS-make", "LINKS-make-real": "/usr/local/bin/LINKS-make-real", "LINKS.pl": "/usr/local/bin/LINKS.pl", "LINKS_CPP": "/usr/local/bin/LINKS_CPP", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/links.
@@ -144,6 +146,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/LINKS.pl   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/LINKS_CPP
 $ podman run --it --rm --entrypoint /usr/local/bin/LINKS_CPP   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/LINKS_CPP   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

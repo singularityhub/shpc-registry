@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/grid/container.yaml"
-updated_at: "2022-10-29 05:46:39.304724"
+updated_at: "2022-10-29 07:48:04.940856"
 latest: "1.3--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/grid"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "mosdepth"
  - "pathoscope"
  - "update_database"
- - "CA.pm"
- - "accn-at-a-time"
- - "amino-acid-composition"
- - "annotateBed"
- - "archive-pubmed"
- - "asp-cp"
- - "asp-ls"
- - "bamToBed"
- - "bamToFastq"
  - "bamtools"
+ - "seqtk"
+ - "CA.pm"
+ - "cacert.pem"
+ - "index-themes"
+ - "parsort"
+ - "fetch-extras"
+ - "go.mod"
+ - "go.sum"
+ - "hlp-xtract.txt"
 versions:
  - "1.3--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for grid"
-config: {"url": "https://biocontainers.pro/tools/grid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grid", "latest": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "tags": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "docker": "quay.io/biocontainers/grid", "aliases": {"grid": "/usr/local/bin/grid", "mosdepth": "/usr/local/bin/mosdepth", "pathoscope": "/usr/local/bin/pathoscope", "update_database": "/usr/local/bin/update_database", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotateBed": "/usr/local/bin/annotateBed", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/grid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grid", "latest": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "tags": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "docker": "quay.io/biocontainers/grid", "aliases": {"grid": "/usr/local/bin/grid", "mosdepth": "/usr/local/bin/mosdepth", "pathoscope": "/usr/local/bin/pathoscope", "update_database": "/usr/local/bin/update_database", "bamtools": "/usr/local/bin/bamtools", "seqtk": "/usr/local/bin/seqtk", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "parsort": "/usr/local/bin/parsort", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grid.
@@ -147,6 +147,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/update_database   -v ${PWD} -
 ```
 
 
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### seqtk
+
+```bash
+$ singularity exec <container> /usr/local/bin/seqtk
+$ podman run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### CA.pm
 
 ```bash
@@ -156,84 +174,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### accn-at-a-time
+#### cacert.pem
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cacert.pem
+$ podman run --it --rm --entrypoint /usr/local/bin/cacert.pem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cacert.pem   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### index-themes
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/index-themes
+$ podman run --it --rm --entrypoint /usr/local/bin/index-themes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/index-themes   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### parsort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/parsort
+$ podman run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### fetch-extras
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fetch-extras
+$ podman run --it --rm --entrypoint /usr/local/bin/fetch-extras   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fetch-extras   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-cp
+#### go.mod
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-cp
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/go.mod
+$ podman run --it --rm --entrypoint /usr/local/bin/go.mod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/go.mod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-ls
+#### go.sum
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-ls
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/go.sum
+$ podman run --it --rm --entrypoint /usr/local/bin/go.sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/go.sum   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### hlp-xtract.txt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamToFastq
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamtools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hlp-xtract.txt
+$ podman run --it --rm --entrypoint /usr/local/bin/hlp-xtract.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hlp-xtract.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

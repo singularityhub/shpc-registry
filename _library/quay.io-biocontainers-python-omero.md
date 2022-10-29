@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-omero"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-omero/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-omero/container.yaml"
-updated_at: "2022-10-29 05:31:16.709427"
+updated_at: "2022-10-29 07:36:44.940379"
 latest: "5.7.1--py_0"
 container_url: "https://biocontainers.pro/tools/python-omero"
 aliases:
@@ -13,18 +13,18 @@ aliases:
  - "setpythonpath.bat"
  - "slice2py"
  - "winconfig.bat"
- - "2to3-3.8"
- - "f2py3.8"
  - "futurize"
- - "idle3.8"
  - "pasteurize"
+ - "f2py3.8"
+ - "2to3-3.8"
+ - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
 versions:
  - "5.7.1--py_0"
 description: "shpc-registry automated BioContainers addition for python-omero"
-config: {"url": "https://biocontainers.pro/tools/python-omero", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-omero", "latest": {"5.7.1--py_0": "sha256:8bf01fbd70f3420aab116b7092f107073daccfaea269728a90c2797df48a7adc"}, "tags": {"5.7.1--py_0": "sha256:8bf01fbd70f3420aab116b7092f107073daccfaea269728a90c2797df48a7adc"}, "docker": "quay.io/biocontainers/python-omero", "aliases": {"omero": "/usr/local/bin/omero", "omero.bat": "/usr/local/bin/omero.bat", "setpythonpath.bat": "/usr/local/bin/setpythonpath.bat", "slice2py": "/usr/local/bin/slice2py", "winconfig.bat": "/usr/local/bin/winconfig.bat", "2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "futurize": "/usr/local/bin/futurize", "idle3.8": "/usr/local/bin/idle3.8", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/python-omero", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-omero", "latest": {"5.7.1--py_0": "sha256:8bf01fbd70f3420aab116b7092f107073daccfaea269728a90c2797df48a7adc"}, "tags": {"5.7.1--py_0": "sha256:8bf01fbd70f3420aab116b7092f107073daccfaea269728a90c2797df48a7adc"}, "docker": "quay.io/biocontainers/python-omero", "aliases": {"omero": "/usr/local/bin/omero", "omero.bat": "/usr/local/bin/omero.bat", "setpythonpath.bat": "/usr/local/bin/setpythonpath.bat", "slice2py": "/usr/local/bin/slice2py", "winconfig.bat": "/usr/local/bin/winconfig.bat", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-omero.
@@ -155,12 +155,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/winconfig.bat   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.8
+#### futurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -173,12 +182,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD}
 ```
 
 
-#### futurize
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -188,15 +197,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/idle3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pasteurize
-
-```bash
-$ singularity exec <container> /usr/local/bin/pasteurize
-$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

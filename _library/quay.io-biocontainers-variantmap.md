@@ -4,25 +4,27 @@ name:  "quay.io/biocontainers/variantmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variantmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/variantmap/container.yaml"
-updated_at: "2022-10-29 05:50:03.723258"
+updated_at: "2022-10-29 07:50:35.746650"
 latest: "1.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/variantmap"
 aliases:
- - "variantmap_app.py"
  - "dash-generate-components"
- - "f2py3.9"
+ - "renderer"
+ - "variantmap_app.py"
  - "flask"
+ - "pt2to3"
+ - "ptdump"
+ - "ptrepack"
+ - "pttree"
  - "futurize"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
+ - "pasteurize"
+ - "f2py3.9"
  - "h5clear"
- - "h5copy"
+ - "h5format_convert"
 versions:
  - "1.0.2--py_0"
 description: "shpc-registry automated BioContainers addition for variantmap"
-config: {"url": "https://biocontainers.pro/tools/variantmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variantmap", "latest": {"1.0.2--py_0": "sha256:a7a4625201eed3b749705de4aebbe6cf8d4065bcc3daec115b1fd44b4d1cabf0"}, "tags": {"1.0.2--py_0": "sha256:a7a4625201eed3b749705de4aebbe6cf8d4065bcc3daec115b1fd44b4d1cabf0"}, "docker": "quay.io/biocontainers/variantmap", "aliases": {"variantmap_app.py": "/usr/local/bin/variantmap_app.py", "dash-generate-components": "/usr/local/bin/dash-generate-components", "f2py3.9": "/usr/local/bin/f2py3.9", "flask": "/usr/local/bin/flask", "futurize": "/usr/local/bin/futurize", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/variantmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variantmap", "latest": {"1.0.2--py_0": "sha256:a7a4625201eed3b749705de4aebbe6cf8d4065bcc3daec115b1fd44b4d1cabf0"}, "tags": {"1.0.2--py_0": "sha256:a7a4625201eed3b749705de4aebbe6cf8d4065bcc3daec115b1fd44b4d1cabf0"}, "docker": "quay.io/biocontainers/variantmap", "aliases": {"dash-generate-components": "/usr/local/bin/dash-generate-components", "renderer": "/usr/local/bin/renderer", "variantmap_app.py": "/usr/local/bin/variantmap_app.py", "flask": "/usr/local/bin/flask", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/variantmap.
@@ -108,15 +110,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### variantmap_app.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/variantmap_app.py
-$ podman run --it --rm --entrypoint /usr/local/bin/variantmap_app.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/variantmap_app.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### dash-generate-components
 
 ```bash
@@ -126,12 +119,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dash-generate-components   -v
 ```
 
 
-#### f2py3.9
+#### renderer
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/renderer
+$ podman run --it --rm --entrypoint /usr/local/bin/renderer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/renderer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### variantmap_app.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/variantmap_app.py
+$ podman run --it --rm --entrypoint /usr/local/bin/variantmap_app.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/variantmap_app.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -144,6 +146,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <
 ```
 
 
+#### pt2to3
+
+```bash
+$ singularity exec <container> /usr/local/bin/pt2to3
+$ podman run --it --rm --entrypoint /usr/local/bin/pt2to3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pt2to3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ptdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/ptdump
+$ podman run --it --rm --entrypoint /usr/local/bin/ptdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ptdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ptrepack
+
+```bash
+$ singularity exec <container> /usr/local/bin/ptrepack
+$ podman run --it --rm --entrypoint /usr/local/bin/ptrepack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ptrepack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pttree
+
+```bash
+$ singularity exec <container> /usr/local/bin/pttree
+$ podman run --it --rm --entrypoint /usr/local/bin/pttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### futurize
 
 ```bash
@@ -153,39 +191,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### gif2h5
+#### pasteurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### f2py3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -198,12 +218,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD}
 ```
 
 
-#### h5copy
+#### h5format_convert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/h5format_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

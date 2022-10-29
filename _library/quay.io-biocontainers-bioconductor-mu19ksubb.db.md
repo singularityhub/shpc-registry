@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mu19ksubb.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mu19ksubb.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mu19ksubb.db/container.yaml"
-updated_at: "2022-10-29 05:50:06.985551"
+updated_at: "2022-10-29 07:50:38.121315"
 latest: "3.2.3--r41hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-mu19ksubb.db"
 aliases:
+ - ".bioconductor-mu19ksubb.db-post-link.sh"
+ - ".bioconductor-mu19ksubb.db-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for bioconductor-mu19ksubb.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mu19ksubb.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mu19ksubb.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:bd0899d0d3c2b0577231cc11551965a16bdd4ca87acc4dc50ae057140ecbcdb6"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:bd0899d0d3c2b0577231cc11551965a16bdd4ca87acc4dc50ae057140ecbcdb6"}, "docker": "quay.io/biocontainers/bioconductor-mu19ksubb.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mu19ksubb.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mu19ksubb.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:bd0899d0d3c2b0577231cc11551965a16bdd4ca87acc4dc50ae057140ecbcdb6"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:bd0899d0d3c2b0577231cc11551965a16bdd4ca87acc4dc50ae057140ecbcdb6"}, "docker": "quay.io/biocontainers/bioconductor-mu19ksubb.db", "aliases": {".bioconductor-mu19ksubb.db-post-link.sh": "/usr/local/bin/.bioconductor-mu19ksubb.db-post-link.sh", ".bioconductor-mu19ksubb.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mu19ksubb.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mu19ksubb.db.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-mu19ksubb.db-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-mu19ksubb.db-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mu19ksubb.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mu19ksubb.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-mu19ksubb.db-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-mu19ksubb.db-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mu19ksubb.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mu19ksubb.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

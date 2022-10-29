@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/pynacl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynacl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pynacl/container.yaml"
-updated_at: "2022-10-29 05:37:16.646610"
+updated_at: "2022-10-29 07:41:09.065134"
 latest: "0.3.0--py36_0"
 container_url: "https://biocontainers.pro/tools/pynacl"
 aliases:
- - "2to3-3.6"
  - "easy_install-3.6"
+ - "2to3-3.6"
  - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
- - "pyvenv"
  - "pyvenv-3.6"
+ - "tclsh8.5"
 versions:
  - "0.3.0--py36_0"
 description: "shpc-registry automated BioContainers addition for pynacl"
-config: {"url": "https://biocontainers.pro/tools/pynacl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynacl", "latest": {"0.3.0--py36_0": "sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010"}, "tags": {"0.3.0--py36_0": "sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010"}, "docker": "quay.io/biocontainers/pynacl", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/pynacl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynacl", "latest": {"0.3.0--py36_0": "sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010"}, "tags": {"0.3.0--py36_0": "sha256:367294da009be84f019164eca327c17ca042b21959c9089b1905ce0d13ec7010"}, "docker": "quay.io/biocontainers/pynacl", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pynacl.
@@ -107,21 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### easy_install-3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/easy_install-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -179,21 +179,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pyvenv-3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,10 +4,11 @@ name:  "quay.io/biocontainers/sra-human-scrubber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sra-human-scrubber/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sra-human-scrubber/container.yaml"
-updated_at: "2022-10-29 05:40:58.397309"
+updated_at: "2022-10-29 07:43:51.855677"
 latest: "2.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sra-human-scrubber"
 aliases:
+ - ".sra-human-scrubber-post-link.sh"
  - "aligns_to"
  - "cut_spots_fastq.py"
  - "fastq_to_fasta.py"
@@ -22,7 +23,7 @@ aliases:
 versions:
  - "2.0.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sra-human-scrubber"
-config: {"url": "https://biocontainers.pro/tools/sra-human-scrubber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sra-human-scrubber", "latest": {"2.0.0--hdfd78af_0": "sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef"}, "tags": {"2.0.0--hdfd78af_0": "sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef"}, "docker": "quay.io/biocontainers/sra-human-scrubber", "aliases": {"aligns_to": "/usr/local/bin/aligns_to", "cut_spots_fastq.py": "/usr/local/bin/cut_spots_fastq.py", "fastq_to_fasta.py": "/usr/local/bin/fastq_to_fasta.py", "init_db.sh": "/usr/local/bin/init_db.sh", "scrub.sh": "/usr/local/bin/scrub.sh", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/sra-human-scrubber", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sra-human-scrubber", "latest": {"2.0.0--hdfd78af_0": "sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef"}, "tags": {"2.0.0--hdfd78af_0": "sha256:30cb9d414882f518f77fa917196c4df412c3919ecdd4ed4acdf00eb1b70c40ef"}, "docker": "quay.io/biocontainers/sra-human-scrubber", "aliases": {".sra-human-scrubber-post-link.sh": "/usr/local/bin/.sra-human-scrubber-post-link.sh", "aligns_to": "/usr/local/bin/aligns_to", "cut_spots_fastq.py": "/usr/local/bin/cut_spots_fastq.py", "fastq_to_fasta.py": "/usr/local/bin/fastq_to_fasta.py", "init_db.sh": "/usr/local/bin/init_db.sh", "scrub.sh": "/usr/local/bin/scrub.sh", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sra-human-scrubber.
@@ -105,6 +106,15 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .sra-human-scrubber-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.sra-human-scrubber-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.sra-human-scrubber-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.sra-human-scrubber-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

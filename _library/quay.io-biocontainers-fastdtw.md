@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastdtw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastdtw/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastdtw/container.yaml"
-updated_at: "2022-10-29 05:38:29.566635"
+updated_at: "2022-10-29 07:42:02.973872"
 latest: "0.2.0--py_1"
 container_url: "https://biocontainers.pro/tools/fastdtw"
 aliases:
@@ -16,10 +16,12 @@ aliases:
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "0.2.0--py_1"
 description: "shpc-registry automated BioContainers addition for fastdtw"
-config: {"url": "https://biocontainers.pro/tools/fastdtw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastdtw", "latest": {"0.2.0--py_1": "sha256:44da8743b9bda07e31789dfd1cb4d971f62c1d55cfaa822c0ab0dee962bfdf80"}, "tags": {"0.2.0--py_1": "sha256:44da8743b9bda07e31789dfd1cb4d971f62c1d55cfaa822c0ab0dee962bfdf80"}, "docker": "quay.io/biocontainers/fastdtw", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/fastdtw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastdtw", "latest": {"0.2.0--py_1": "sha256:44da8743b9bda07e31789dfd1cb4d971f62c1d55cfaa822c0ab0dee962bfdf80"}, "tags": {"0.2.0--py_1": "sha256:44da8743b9bda07e31789dfd1cb4d971f62c1d55cfaa822c0ab0dee962bfdf80"}, "docker": "quay.io/biocontainers/fastdtw", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastdtw.
@@ -174,6 +176,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

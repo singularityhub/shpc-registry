@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/pyjaspar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyjaspar/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyjaspar/container.yaml"
-updated_at: "2022-10-29 05:43:20.973279"
+updated_at: "2022-10-29 07:45:38.653137"
 latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyjaspar"
 aliases:
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -17,7 +17,7 @@ aliases:
 versions:
  - "2.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pyjaspar"
-config: {"url": "https://biocontainers.pro/tools/pyjaspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyjaspar", "latest": {"2.1.0--pyhdfd78af_0": "sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3"}, "docker": "quay.io/biocontainers/pyjaspar", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyjaspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyjaspar", "latest": {"2.1.0--pyhdfd78af_0": "sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:b32a0ca32f5684ec86de127a77692570702329dece15de599c6cdb76eaf8ebe3"}, "docker": "quay.io/biocontainers/pyjaspar", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyjaspar.
@@ -103,21 +103,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

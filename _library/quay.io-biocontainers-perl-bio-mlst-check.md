@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-mlst-check"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-mlst-check/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-mlst-check/container.yaml"
-updated_at: "2022-10-29 05:54:39.971857"
+updated_at: "2022-10-29 07:53:57.990635"
 latest: "2.1.1706216--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-bio-mlst-check"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "download_mlst_databases"
  - "get_emm_sequence_type"
  - "get_sequence_type"
- - "accn-at-a-time"
- - "align-columns"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asn2xml"
- - "bamToGBrowse.pl"
- - "between-two-genes"
- - "blast_formatter"
- - "blastdb_aliastool"
- - "blastdbcheck"
+ - "bp_aacomp"
+ - "bp_bioflat_index"
+ - "bp_biogetseq"
+ - "bp_dbsplit"
+ - "bp_extract_feature_seq"
+ - "bp_fastam9_to_table"
+ - "bp_fetch"
+ - "bp_filter_search"
+ - "bp_find-blast-matches"
+ - "bp_gccalc"
 versions:
  - "2.1.1706216--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-bio-mlst-check"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-mlst-check", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-mlst-check", "latest": {"2.1.1706216--pl5321hdfd78af_3": "sha256:a16858549be495b0427df8a5ccb41a7b8b947811a86fdafaa37ee8c840b1fd83"}, "tags": {"2.1.1706216--pl5321hdfd78af_3": "sha256:a16858549be495b0427df8a5ccb41a7b8b947811a86fdafaa37ee8c840b1fd83"}, "docker": "quay.io/biocontainers/perl-bio-mlst-check", "aliases": {"download_fasta_database": "/usr/local/bin/download_fasta_database", "download_mlst_databases": "/usr/local/bin/download_mlst_databases", "get_emm_sequence_type": "/usr/local/bin/get_emm_sequence_type", "get_sequence_type": "/usr/local/bin/get_sequence_type", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-mlst-check", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-mlst-check", "latest": {"2.1.1706216--pl5321hdfd78af_3": "sha256:a16858549be495b0427df8a5ccb41a7b8b947811a86fdafaa37ee8c840b1fd83"}, "tags": {"2.1.1706216--pl5321hdfd78af_3": "sha256:a16858549be495b0427df8a5ccb41a7b8b947811a86fdafaa37ee8c840b1fd83"}, "docker": "quay.io/biocontainers/perl-bio-mlst-check", "aliases": {"download_fasta_database": "/usr/local/bin/download_fasta_database", "download_mlst_databases": "/usr/local/bin/download_mlst_databases", "get_emm_sequence_type": "/usr/local/bin/get_emm_sequence_type", "get_sequence_type": "/usr/local/bin/get_sequence_type", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-mlst-check.
@@ -147,93 +147,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/get_sequence_type   -v ${PWD}
 ```
 
 
-#### accn-at-a-time
+#### bp_aacomp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_aacomp
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### bp_bioflat_index
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_bioflat_index
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### bp_biogetseq
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_biogetseq
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_biogetseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_biogetseq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### bp_dbsplit
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_dbsplit
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asn2xml
+#### bp_extract_feature_seq
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_extract_feature_seq
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToGBrowse.pl
+#### bp_fastam9_to_table
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_fastam9_to_table
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### between-two-genes
+#### bp_fetch
 
 ```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_fetch
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_fetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_fetch   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast_formatter
+#### bp_filter_search
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_filter_search
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_filter_search   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_filter_search   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdb_aliastool
+#### bp_find-blast-matches
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_find-blast-matches
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcheck
+#### bp_gccalc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_gccalc
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_gccalc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_gccalc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

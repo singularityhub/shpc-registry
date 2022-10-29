@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/stream_atac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stream_atac/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/stream_atac/container.yaml"
-updated_at: "2022-10-29 05:53:46.313490"
+updated_at: "2022-10-29 07:53:19.486456"
 latest: "0.3.5--py_5"
 container_url: "https://biocontainers.pro/tools/stream_atac"
 aliases:
  - "stream_atac"
- - "2to3-3.7"
- - "c89"
- - "c99"
- - "curve_keygen"
- - "f2py3.7"
+ - "zip"
  - "funzip"
- - "gif2h5"
- - "gio-launch-desktop"
- - "h52gif"
- - "h5c++"
+ - "unzipsfx"
+ - "zipgrep"
+ - "zipinfo"
+ - "jupyter-bundlerextension"
+ - "jupyter-nbextension"
+ - "jupyter-notebook"
+ - "jupyter-serverextension"
+ - "unzip"
 versions:
  - "0.3.5--py_5"
 description: "shpc-registry automated BioContainers addition for stream_atac"
-config: {"url": "https://biocontainers.pro/tools/stream_atac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stream_atac", "latest": {"0.3.5--py_5": "sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5"}, "tags": {"0.3.5--py_5": "sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5"}, "docker": "quay.io/biocontainers/stream_atac", "aliases": {"stream_atac": "/usr/local/bin/stream_atac", "2to3-3.7": "/usr/local/bin/2to3-3.7", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "curve_keygen": "/usr/local/bin/curve_keygen", "f2py3.7": "/usr/local/bin/f2py3.7", "funzip": "/usr/local/bin/funzip", "gif2h5": "/usr/local/bin/gif2h5", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++"}}
+config: {"url": "https://biocontainers.pro/tools/stream_atac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stream_atac", "latest": {"0.3.5--py_5": "sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5"}, "tags": {"0.3.5--py_5": "sha256:5f33f127d097a5d4a3f3bd3492e8dc4b4a53c8757a183e22bbf6f90d9cf9b7c5"}, "docker": "quay.io/biocontainers/stream_atac", "aliases": {"stream_atac": "/usr/local/bin/stream_atac", "zip": "/usr/local/bin/zip", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "unzip": "/usr/local/bin/unzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stream_atac.
@@ -117,48 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/stream_atac   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.7
+#### zip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c89
-
-```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c99
-
-```bash
-$ singularity exec <container> /usr/local/bin/c99
-$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### curve_keygen
-
-```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zip
+$ podman run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -171,39 +135,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### gif2h5
+#### unzipsfx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unzipsfx
+$ podman run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gio-launch-desktop
+#### zipgrep
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zipgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### zipinfo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zipinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5c++
+#### jupyter-bundlerextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-bundlerextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-nbextension
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-nbextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-notebook
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-notebook
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-serverextension
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-serverextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/unzip
+$ podman run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

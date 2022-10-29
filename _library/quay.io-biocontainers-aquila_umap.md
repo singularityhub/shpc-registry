@@ -4,14 +4,11 @@ name:  "quay.io/biocontainers/aquila_umap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquila_umap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aquila_umap/container.yaml"
-updated_at: "2022-10-29 05:51:44.897829"
+updated_at: "2022-10-29 07:51:50.166420"
 latest: "1.0--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/aquila_umap"
 aliases:
  - "aquila_umap"
- - "2to3-3.7"
- - "ace2sam"
- - "blast2sam.pl"
  - "bowtie2"
  - "bowtie2-align-l"
  - "bowtie2-align-s"
@@ -19,10 +16,13 @@ aliases:
  - "bowtie2-build-l"
  - "bowtie2-build-s"
  - "bowtie2-inspect"
+ - "bowtie2-inspect-l"
+ - "bowtie2-inspect-s"
+ - "2to3-3.7"
 versions:
  - "1.0--pyh864c0ab_2"
 description: "shpc-registry automated BioContainers addition for aquila_umap"
-config: {"url": "https://biocontainers.pro/tools/aquila_umap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquila_umap", "latest": {"1.0--pyh864c0ab_2": "sha256:5e6d05e4c6544e2c7de5d1801e430c8beda54d05ece03ca88a0bc4198170d74f"}, "tags": {"1.0--pyh864c0ab_2": "sha256:5e6d05e4c6544e2c7de5d1801e430c8beda54d05ece03ca88a0bc4198170d74f"}, "docker": "quay.io/biocontainers/aquila_umap", "aliases": {"aquila_umap": "/usr/local/bin/aquila_umap", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect"}}
+config: {"url": "https://biocontainers.pro/tools/aquila_umap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquila_umap", "latest": {"1.0--pyh864c0ab_2": "sha256:5e6d05e4c6544e2c7de5d1801e430c8beda54d05ece03ca88a0bc4198170d74f"}, "tags": {"1.0--pyh864c0ab_2": "sha256:5e6d05e4c6544e2c7de5d1801e430c8beda54d05ece03ca88a0bc4198170d74f"}, "docker": "quay.io/biocontainers/aquila_umap", "aliases": {"aquila_umap": "/usr/local/bin/aquila_umap", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "2to3-3.7": "/usr/local/bin/2to3-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aquila_umap.
@@ -117,33 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aquila_umap   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bowtie2
 
 ```bash
@@ -204,6 +177,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/bowtie2-inspect
 $ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

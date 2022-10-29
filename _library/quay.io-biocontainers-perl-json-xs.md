@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/perl-json-xs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-json-xs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-json-xs/container.yaml"
-updated_at: "2022-10-29 05:49:59.926609"
+updated_at: "2022-10-29 07:50:32.969629"
 latest: "4.03--pl5321h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/perl-json-xs"
 aliases:
  - "json_xs"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "4.03--pl5321h9f5acd7_1"
 description: "shpc-registry automated BioContainers addition for perl-json-xs"
-config: {"url": "https://biocontainers.pro/tools/perl-json-xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-xs", "latest": {"4.03--pl5321h9f5acd7_1": "sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f"}, "tags": {"4.03--pl5321h9f5acd7_1": "sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f"}, "docker": "quay.io/biocontainers/perl-json-xs", "aliases": {"json_xs": "/usr/local/bin/json_xs"}}
+config: {"url": "https://biocontainers.pro/tools/perl-json-xs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-json-xs", "latest": {"4.03--pl5321h9f5acd7_1": "sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f"}, "tags": {"4.03--pl5321h9f5acd7_1": "sha256:54a3acc7cdf5176b7234038fd8fc5d988fb2810e462672f45918a6c2e28c8f6f"}, "docker": "quay.io/biocontainers/perl-json-xs", "aliases": {"json_xs": "/usr/local/bin/json_xs", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-json-xs.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/json_xs
 $ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

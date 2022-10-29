@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brass/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/brass/container.yaml"
-updated_at: "2022-10-29 05:39:10.315918"
+updated_at: "2022-10-29 07:42:32.471457"
 latest: "5.1.6--7"
 container_url: "https://biocontainers.pro/tools/brass"
 aliases:
@@ -24,11 +24,15 @@ aliases:
  - "brass_foldback_reads.pl"
  - "bwa_aln.pl"
  - "bwa_mem.pl"
+ - "cgpAppendIdsToVcf.pl"
+ - "cgpVCFSplit.pl"
  - "collate_rg_regions.pl"
  - "combineResults.pl"
  - "compute_coverage.pl"
  - "corrected_insertsize.pl"
+ - "cover"
  - "coverage_merge.pl"
+ - "cpancover"
  - "cvtbdf.pl"
  - "diff_bams.pl"
  - "dotty"
@@ -39,6 +43,7 @@ aliases:
  - "fasta2esd"
  - "fastaannotatecdna"
  - "fastachecksum"
+ - "fastaclean"
  - "fastaclip"
  - "fastacomposition"
  - "fastadiff"
@@ -54,6 +59,7 @@ aliases:
  - "fastarevcomp"
  - "fastasoftmask"
  - "fastasort"
+ - "fastasplit"
  - "fastasubseq"
  - "fastatranslate"
  - "fastavalidcds"
@@ -61,8 +67,10 @@ aliases:
  - "filterout-bam"
  - "findbp"
  - "findbp-all"
+ - "gcov2perl"
  - "get_abs_bkpts_from_clipped_reads.pl"
  - "gfClient"
+ - "gfServer"
  - "gnos_pull.pl"
  - "grass.pl"
  - "ipcress"
@@ -83,20 +91,21 @@ aliases:
  - "samsort"
  - "samsplit"
  - "xml_to_bas.pl"
- - "2to3-3.5"
- - "SOAPsh.pl"
- - "ace.pl"
- - "acyclic"
- - "annotate"
- - "annotateBed"
- - "bam2bedgraph"
- - "bamToBed"
- - "bamToFastq"
- - "bamToGBrowse.pl"
+ - "yapp"
+ - "pod_cover"
+ - "twoBitToFa"
+ - "blat"
+ - "velvetg"
+ - "velveth"
+ - "twoBitInfo"
+ - "bp_pairwise_kaks.pl"
+ - "bp_search2BSML.pl"
+ - "faToTwoBit"
+ - "gdlib-config"
 versions:
  - "5.1.6--7"
 description: "shpc-registry automated BioContainers addition for brass"
-config: {"url": "https://biocontainers.pro/tools/brass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brass", "latest": {"5.1.6--7": "sha256:771f1290a7bd6d666c5c3e49d1e3ea9e67f1bc6560a901a04c91102035bcd169"}, "tags": {"5.1.6--7": "sha256:771f1290a7bd6d666c5c3e49d1e3ea9e67f1bc6560a901a04c91102035bcd169"}, "docker": "quay.io/biocontainers/brass", "aliases": {"augment-bam": "/usr/local/bin/augment-bam", "bamToBw.pl": "/usr/local/bin/bamToBw.pl", "bam_stats.pl": "/usr/local/bin/bam_stats.pl", "bam_to_sra_sub.pl": "/usr/local/bin/bam_to_sra_sub.pl", "bdf2gdfont.PLS": "/usr/local/bin/bdf2gdfont.PLS", "brass-assemble": "/usr/local/bin/brass-assemble", "brass-group": "/usr/local/bin/brass-group", "brass.pl": "/usr/local/bin/brass.pl", "brassI_filter.pl": "/usr/local/bin/brassI_filter.pl", "brassI_np_in.pl": "/usr/local/bin/brassI_np_in.pl", "brassI_pre_filter.pl": "/usr/local/bin/brassI_pre_filter.pl", "brassI_prep_bam.pl": "/usr/local/bin/brassI_prep_bam.pl", "brass_bedpe2vcf.pl": "/usr/local/bin/brass_bedpe2vcf.pl", "brass_foldback_reads.pl": "/usr/local/bin/brass_foldback_reads.pl", "bwa_aln.pl": "/usr/local/bin/bwa_aln.pl", "bwa_mem.pl": "/usr/local/bin/bwa_mem.pl", "collate_rg_regions.pl": "/usr/local/bin/collate_rg_regions.pl", "combineResults.pl": "/usr/local/bin/combineResults.pl", "compute_coverage.pl": "/usr/local/bin/compute_coverage.pl", "corrected_insertsize.pl": "/usr/local/bin/corrected_insertsize.pl", "coverage_merge.pl": "/usr/local/bin/coverage_merge.pl", "cvtbdf.pl": "/usr/local/bin/cvtbdf.pl", "diff_bams.pl": "/usr/local/bin/diff_bams.pl", "dotty": "/usr/local/bin/dotty", "esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "faToNib": "/usr/local/bin/faToNib", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "filter_with_microbes_and_remapping.pl": "/usr/local/bin/filter_with_microbes_and_remapping.pl", "filterout-bam": "/usr/local/bin/filterout-bam", "findbp": "/usr/local/bin/findbp", "findbp-all": "/usr/local/bin/findbp-all", "get_abs_bkpts_from_clipped_reads.pl": "/usr/local/bin/get_abs_bkpts_from_clipped_reads.pl", "gfClient": "/usr/local/bin/gfClient", "gnos_pull.pl": "/usr/local/bin/gnos_pull.pl", "grass.pl": "/usr/local/bin/grass.pl", "ipcress": "/usr/local/bin/ipcress", "lneato": "/usr/local/bin/lneato", "make-repeat-file": "/usr/local/bin/make-repeat-file", "match_rg_patterns_to_library.pl": "/usr/local/bin/match_rg_patterns_to_library.pl", "merge_double_rgs.pl": "/usr/local/bin/merge_double_rgs.pl", "monitor.pl": "/usr/local/bin/monitor.pl", "nibFrag": "/usr/local/bin/nibFrag", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "rearr2bedpe": "/usr/local/bin/rearr2bedpe", "samcat": "/usr/local/bin/samcat", "samcount": "/usr/local/bin/samcount", "samgroupbyname": "/usr/local/bin/samgroupbyname", "samhead": "/usr/local/bin/samhead", "samsort": "/usr/local/bin/samsort", "samsplit": "/usr/local/bin/samsplit", "xml_to_bas.pl": "/usr/local/bin/xml_to_bas.pl", "2to3-3.5": "/usr/local/bin/2to3-3.5", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "annotateBed": "/usr/local/bin/annotateBed", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl"}}
+config: {"url": "https://biocontainers.pro/tools/brass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brass", "latest": {"5.1.6--7": "sha256:771f1290a7bd6d666c5c3e49d1e3ea9e67f1bc6560a901a04c91102035bcd169"}, "tags": {"5.1.6--7": "sha256:771f1290a7bd6d666c5c3e49d1e3ea9e67f1bc6560a901a04c91102035bcd169"}, "docker": "quay.io/biocontainers/brass", "aliases": {"augment-bam": "/usr/local/bin/augment-bam", "bamToBw.pl": "/usr/local/bin/bamToBw.pl", "bam_stats.pl": "/usr/local/bin/bam_stats.pl", "bam_to_sra_sub.pl": "/usr/local/bin/bam_to_sra_sub.pl", "bdf2gdfont.PLS": "/usr/local/bin/bdf2gdfont.PLS", "brass-assemble": "/usr/local/bin/brass-assemble", "brass-group": "/usr/local/bin/brass-group", "brass.pl": "/usr/local/bin/brass.pl", "brassI_filter.pl": "/usr/local/bin/brassI_filter.pl", "brassI_np_in.pl": "/usr/local/bin/brassI_np_in.pl", "brassI_pre_filter.pl": "/usr/local/bin/brassI_pre_filter.pl", "brassI_prep_bam.pl": "/usr/local/bin/brassI_prep_bam.pl", "brass_bedpe2vcf.pl": "/usr/local/bin/brass_bedpe2vcf.pl", "brass_foldback_reads.pl": "/usr/local/bin/brass_foldback_reads.pl", "bwa_aln.pl": "/usr/local/bin/bwa_aln.pl", "bwa_mem.pl": "/usr/local/bin/bwa_mem.pl", "cgpAppendIdsToVcf.pl": "/usr/local/bin/cgpAppendIdsToVcf.pl", "cgpVCFSplit.pl": "/usr/local/bin/cgpVCFSplit.pl", "collate_rg_regions.pl": "/usr/local/bin/collate_rg_regions.pl", "combineResults.pl": "/usr/local/bin/combineResults.pl", "compute_coverage.pl": "/usr/local/bin/compute_coverage.pl", "corrected_insertsize.pl": "/usr/local/bin/corrected_insertsize.pl", "cover": "/usr/local/bin/cover", "coverage_merge.pl": "/usr/local/bin/coverage_merge.pl", "cpancover": "/usr/local/bin/cpancover", "cvtbdf.pl": "/usr/local/bin/cvtbdf.pl", "diff_bams.pl": "/usr/local/bin/diff_bams.pl", "dotty": "/usr/local/bin/dotty", "esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "faToNib": "/usr/local/bin/faToNib", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclean": "/usr/local/bin/fastaclean", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasplit": "/usr/local/bin/fastasplit", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "filter_with_microbes_and_remapping.pl": "/usr/local/bin/filter_with_microbes_and_remapping.pl", "filterout-bam": "/usr/local/bin/filterout-bam", "findbp": "/usr/local/bin/findbp", "findbp-all": "/usr/local/bin/findbp-all", "gcov2perl": "/usr/local/bin/gcov2perl", "get_abs_bkpts_from_clipped_reads.pl": "/usr/local/bin/get_abs_bkpts_from_clipped_reads.pl", "gfClient": "/usr/local/bin/gfClient", "gfServer": "/usr/local/bin/gfServer", "gnos_pull.pl": "/usr/local/bin/gnos_pull.pl", "grass.pl": "/usr/local/bin/grass.pl", "ipcress": "/usr/local/bin/ipcress", "lneato": "/usr/local/bin/lneato", "make-repeat-file": "/usr/local/bin/make-repeat-file", "match_rg_patterns_to_library.pl": "/usr/local/bin/match_rg_patterns_to_library.pl", "merge_double_rgs.pl": "/usr/local/bin/merge_double_rgs.pl", "monitor.pl": "/usr/local/bin/monitor.pl", "nibFrag": "/usr/local/bin/nibFrag", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "rearr2bedpe": "/usr/local/bin/rearr2bedpe", "samcat": "/usr/local/bin/samcat", "samcount": "/usr/local/bin/samcount", "samgroupbyname": "/usr/local/bin/samgroupbyname", "samhead": "/usr/local/bin/samhead", "samsort": "/usr/local/bin/samsort", "samsplit": "/usr/local/bin/samsplit", "xml_to_bas.pl": "/usr/local/bin/xml_to_bas.pl", "yapp": "/usr/local/bin/yapp", "pod_cover": "/usr/local/bin/pod_cover", "twoBitToFa": "/usr/local/bin/twoBitToFa", "blat": "/usr/local/bin/blat", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "twoBitInfo": "/usr/local/bin/twoBitInfo", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "faToTwoBit": "/usr/local/bin/faToTwoBit", "gdlib-config": "/usr/local/bin/gdlib-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/brass.
@@ -326,6 +335,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwa_mem.pl   -v ${PWD} -w ${P
 ```
 
 
+#### cgpAppendIdsToVcf.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/cgpAppendIdsToVcf.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cgpAppendIdsToVcf.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cgpAppendIdsToVcf.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cgpVCFSplit.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/cgpVCFSplit.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cgpVCFSplit.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cgpVCFSplit.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### collate_rg_regions.pl
 
 ```bash
@@ -362,12 +389,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/corrected_insertsize.pl   -v 
 ```
 
 
+#### cover
+
+```bash
+$ singularity exec <container> /usr/local/bin/cover
+$ podman run --it --rm --entrypoint /usr/local/bin/cover   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cover   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### coverage_merge.pl
 
 ```bash
 $ singularity exec <container> /usr/local/bin/coverage_merge.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/coverage_merge.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/coverage_merge.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpancover
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpancover
+$ podman run --it --rm --entrypoint /usr/local/bin/cpancover   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpancover   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -458,6 +503,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastaannotatecdna   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/fastachecksum
 $ podman run --it --rm --entrypoint /usr/local/bin/fastachecksum   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fastachecksum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastaclean
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastaclean
+$ podman run --it --rm --entrypoint /usr/local/bin/fastaclean   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastaclean   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -596,6 +650,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastasort   -v ${PWD} -w ${PW
 ```
 
 
+#### fastasplit
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastasplit
+$ podman run --it --rm --entrypoint /usr/local/bin/fastasplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastasplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### fastasubseq
 
 ```bash
@@ -659,6 +722,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/findbp-all   -v ${PWD} -w ${P
 ```
 
 
+#### gcov2perl
+
+```bash
+$ singularity exec <container> /usr/local/bin/gcov2perl
+$ podman run --it --rm --entrypoint /usr/local/bin/gcov2perl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gcov2perl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### get_abs_bkpts_from_clipped_reads.pl
 
 ```bash
@@ -674,6 +746,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/get_abs_bkpts_from_clipped_re
 $ singularity exec <container> /usr/local/bin/gfClient
 $ podman run --it --rm --entrypoint /usr/local/bin/gfClient   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gfClient   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gfServer
+
+```bash
+$ singularity exec <container> /usr/local/bin/gfServer
+$ podman run --it --rm --entrypoint /usr/local/bin/gfServer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gfServer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -857,93 +938,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xml_to_bas.pl   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.5
+#### yapp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/yapp
+$ podman run --it --rm --entrypoint /usr/local/bin/yapp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/yapp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SOAPsh.pl
+#### pod_cover
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pod_cover
+$ podman run --it --rm --entrypoint /usr/local/bin/pod_cover   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pod_cover   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace.pl
+#### twoBitToFa
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/twoBitToFa
+$ podman run --it --rm --entrypoint /usr/local/bin/twoBitToFa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/twoBitToFa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### blat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blat
+$ podman run --it --rm --entrypoint /usr/local/bin/blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### velvetg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/velvetg
+$ podman run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### velveth
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/velveth
+$ podman run --it --rm --entrypoint /usr/local/bin/velveth   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/velveth   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bam2bedgraph
+#### twoBitInfo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bam2bedgraph
-$ podman run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/twoBitInfo
+$ podman run --it --rm --entrypoint /usr/local/bin/twoBitInfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/twoBitInfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### bp_pairwise_kaks.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### bp_search2BSML.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_search2BSML.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToGBrowse.pl
+#### faToTwoBit
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/faToTwoBit
+$ podman run --it --rm --entrypoint /usr/local/bin/faToTwoBit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faToTwoBit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdlib-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdlib-config
+$ podman run --it --rm --entrypoint /usr/local/bin/gdlib-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdlib-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

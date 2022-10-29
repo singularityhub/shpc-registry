@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/aptardi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aptardi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aptardi/container.yaml"
-updated_at: "2022-10-29 05:34:37.632660"
+updated_at: "2022-10-29 07:39:12.142754"
 latest: "1.4--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/aptardi"
 aliases:
  - "aptardi"
- - "2to3-3.7"
- - "chardetect"
  - "estimator_ckpt_converter"
- - "f2py3.7"
- - "gif2h5"
  - "google-oauthlib-tool"
- - "h52gif"
- - "h5c++"
- - "h5cc"
- - "h5clear"
+ - "tf_upgrade_v2"
+ - "tflite_convert"
+ - "saved_model_cli"
+ - "toco"
+ - "toco_from_protos"
+ - "tensorboard"
+ - "pyrsa-decrypt"
+ - "pyrsa-encrypt"
 versions:
  - "1.4--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for aptardi"
-config: {"url": "https://biocontainers.pro/tools/aptardi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aptardi", "latest": {"1.4--pyh5e36f6f_0": "sha256:15679bc27b0c007c06045d1a422940555449995641741c3b0f7ec8ea8d3abcf8"}, "tags": {"1.4--pyh5e36f6f_0": "sha256:15679bc27b0c007c06045d1a422940555449995641741c3b0f7ec8ea8d3abcf8"}, "docker": "quay.io/biocontainers/aptardi", "aliases": {"aptardi": "/usr/local/bin/aptardi", "2to3-3.7": "/usr/local/bin/2to3-3.7", "chardetect": "/usr/local/bin/chardetect", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "f2py3.7": "/usr/local/bin/f2py3.7", "gif2h5": "/usr/local/bin/gif2h5", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/aptardi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aptardi", "latest": {"1.4--pyh5e36f6f_0": "sha256:15679bc27b0c007c06045d1a422940555449995641741c3b0f7ec8ea8d3abcf8"}, "tags": {"1.4--pyh5e36f6f_0": "sha256:15679bc27b0c007c06045d1a422940555449995641741c3b0f7ec8ea8d3abcf8"}, "docker": "quay.io/biocontainers/aptardi", "aliases": {"aptardi": "/usr/local/bin/aptardi", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco", "toco_from_protos": "/usr/local/bin/toco_from_protos", "tensorboard": "/usr/local/bin/tensorboard", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aptardi.
@@ -117,48 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aptardi   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### estimator_ckpt_converter
 
 ```bash
 $ singularity exec <container> /usr/local/bin/estimator_ckpt_converter
 $ podman run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2h5
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -171,39 +135,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${P
 ```
 
 
-#### h52gif
+#### tf_upgrade_v2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tf_upgrade_v2
+$ podman run --it --rm --entrypoint /usr/local/bin/tf_upgrade_v2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tf_upgrade_v2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5c++
+#### tflite_convert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tflite_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/tflite_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tflite_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5cc
+#### saved_model_cli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/saved_model_cli
+$ podman run --it --rm --entrypoint /usr/local/bin/saved_model_cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/saved_model_cli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5clear
+#### toco
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/toco
+$ podman run --it --rm --entrypoint /usr/local/bin/toco   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/toco   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### toco_from_protos
+
+```bash
+$ singularity exec <container> /usr/local/bin/toco_from_protos
+$ podman run --it --rm --entrypoint /usr/local/bin/toco_from_protos   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/toco_from_protos   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tensorboard
+
+```bash
+$ singularity exec <container> /usr/local/bin/tensorboard
+$ podman run --it --rm --entrypoint /usr/local/bin/tensorboard   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tensorboard   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-decrypt
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-decrypt
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-encrypt
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-encrypt
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

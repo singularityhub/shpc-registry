@@ -4,24 +4,26 @@ name:  "quay.io/biocontainers/fragbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fragbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fragbuilder/container.yaml"
-updated_at: "2022-10-29 05:36:51.598760"
+updated_at: "2022-10-29 07:40:50.746122"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fragbuilder"
 aliases:
  - "babel"
- - "f2py2"
- - "f2py2.7"
- - "idle"
- - "obabel"
  - "obchiral"
+ - "obabel"
  - "obconformer"
  - "obdistgen"
  - "obenergy"
  - "obfit"
+ - "obgen"
+ - "obgrep"
+ - "obminimize"
+ - "obprobe"
+ - "obprop"
 versions:
  - "1.0.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for fragbuilder"
-config: {"url": "https://biocontainers.pro/tools/fragbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fragbuilder", "latest": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "tags": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "docker": "quay.io/biocontainers/fragbuilder", "aliases": {"babel": "/usr/local/bin/babel", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "obabel": "/usr/local/bin/obabel", "obchiral": "/usr/local/bin/obchiral", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit"}}
+config: {"url": "https://biocontainers.pro/tools/fragbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fragbuilder", "latest": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "tags": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "docker": "quay.io/biocontainers/fragbuilder", "aliases": {"babel": "/usr/local/bin/babel", "obchiral": "/usr/local/bin/obchiral", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fragbuilder.
@@ -116,30 +118,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/babel   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### f2py2
+#### obchiral
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py2
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/obchiral
+$ podman run --it --rm --entrypoint /usr/local/bin/obchiral   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obchiral   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -149,15 +133,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/obabel
 $ podman run --it --rm --entrypoint /usr/local/bin/obabel   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/obabel   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### obchiral
-
-```bash
-$ singularity exec <container> /usr/local/bin/obchiral
-$ podman run --it --rm --entrypoint /usr/local/bin/obchiral   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/obchiral   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +169,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/obenergy   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/obfit
 $ podman run --it --rm --entrypoint /usr/local/bin/obfit   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/obfit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/obgen
+$ podman run --it --rm --entrypoint /usr/local/bin/obgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/obgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/obgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obminimize
+
+```bash
+$ singularity exec <container> /usr/local/bin/obminimize
+$ podman run --it --rm --entrypoint /usr/local/bin/obminimize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obminimize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obprobe
+
+```bash
+$ singularity exec <container> /usr/local/bin/obprobe
+$ podman run --it --rm --entrypoint /usr/local/bin/obprobe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obprobe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obprop
+
+```bash
+$ singularity exec <container> /usr/local/bin/obprop
+$ podman run --it --rm --entrypoint /usr/local/bin/obprop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obprop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

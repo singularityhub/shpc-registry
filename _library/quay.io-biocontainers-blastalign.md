@@ -4,14 +4,13 @@ name:  "quay.io/biocontainers/blastalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blastalign/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blastalign/container.yaml"
-updated_at: "2022-10-29 05:30:13.829263"
+updated_at: "2022-10-29 07:35:58.677438"
 latest: "1.4--hec16e2b_7"
 container_url: "https://biocontainers.pro/tools/blastalign"
 aliases:
  - "BlastAlign"
  - "BlastAlign.py"
  - "BlastAlignP"
- - "2to3-3.10"
  - "bl2seq"
  - "blastall"
  - "blastclust"
@@ -20,11 +19,12 @@ aliases:
  - "fastacmd"
  - "formatdb"
  - "formatrpsdb"
- - "idle3.10"
+ - "impala"
+ - "makemat"
 versions:
  - "1.4--hec16e2b_7"
 description: "shpc-registry automated BioContainers addition for blastalign"
-config: {"url": "https://biocontainers.pro/tools/blastalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blastalign", "latest": {"1.4--hec16e2b_7": "sha256:744cad6391a4e9f01c39c5b3c8e11d1cce6eae440060b6ad223663b3877bcca4"}, "tags": {"1.4--hec16e2b_7": "sha256:744cad6391a4e9f01c39c5b3c8e11d1cce6eae440060b6ad223663b3877bcca4"}, "docker": "quay.io/biocontainers/blastalign", "aliases": {"BlastAlign": "/usr/local/bin/BlastAlign", "BlastAlign.py": "/usr/local/bin/BlastAlign.py", "BlastAlignP": "/usr/local/bin/BlastAlignP", "2to3-3.10": "/usr/local/bin/2to3-3.10", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/blastalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blastalign", "latest": {"1.4--hec16e2b_7": "sha256:744cad6391a4e9f01c39c5b3c8e11d1cce6eae440060b6ad223663b3877bcca4"}, "tags": {"1.4--hec16e2b_7": "sha256:744cad6391a4e9f01c39c5b3c8e11d1cce6eae440060b6ad223663b3877bcca4"}, "docker": "quay.io/biocontainers/blastalign", "aliases": {"BlastAlign": "/usr/local/bin/BlastAlign", "BlastAlign.py": "/usr/local/bin/BlastAlign.py", "BlastAlignP": "/usr/local/bin/BlastAlignP", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blastalign.
@@ -137,15 +137,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/BlastAlignP   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bl2seq
 
 ```bash
@@ -218,12 +209,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/formatrpsdb   -v ${PWD} -w ${
 ```
 
 
-#### idle3.10
+#### impala
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/impala
+$ podman run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### makemat
+
+```bash
+$ singularity exec <container> /usr/local/bin/makemat
+$ podman run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

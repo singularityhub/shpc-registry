@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/aquilasv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquilasv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aquilasv/container.yaml"
-updated_at: "2022-10-29 05:34:23.228386"
+updated_at: "2022-10-29 07:39:01.791708"
 latest: "1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aquilasv"
 aliases:
  - "AquilaSV_step1"
  - "AquilaSV_step2"
  - "AquilaSV_step3"
- - "2to3-3.9"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
  - "cds-mapping-stats"
  - "cds-subgraphs"
- - "export2sam.pl"
- - "f2py3.9"
- - "fasta-sanitize.pl"
+ - "mag-improve"
+ - "spades-convert-bin-to-fasta"
+ - "spades-gsimplifier"
+ - "spades-kmer-estimating"
+ - "spades-read-filter"
+ - "spaligner"
+ - "spades-bwa"
+ - "spades-core"
 versions:
  - "1.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for aquilasv"
-config: {"url": "https://biocontainers.pro/tools/aquilasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquilasv", "latest": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "tags": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "docker": "quay.io/biocontainers/aquilasv", "aliases": {"AquilaSV_step1": "/usr/local/bin/AquilaSV_step1", "AquilaSV_step2": "/usr/local/bin/AquilaSV_step2", "AquilaSV_step3": "/usr/local/bin/AquilaSV_step3", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py3.9": "/usr/local/bin/f2py3.9", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
+config: {"url": "https://biocontainers.pro/tools/aquilasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquilasv", "latest": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "tags": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "docker": "quay.io/biocontainers/aquilasv", "aliases": {"AquilaSV_step1": "/usr/local/bin/AquilaSV_step1", "AquilaSV_step2": "/usr/local/bin/AquilaSV_step2", "AquilaSV_step3": "/usr/local/bin/AquilaSV_step3", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aquilasv.
@@ -137,51 +137,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/AquilaSV_step3   -v ${PWD} -w
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cds-mapping-stats
 
 ```bash
@@ -200,30 +155,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cds-subgraphs   -v ${PWD} -w 
 ```
 
 
-#### export2sam.pl
+#### mag-improve
 
 ```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mag-improve
+$ podman run --it --rm --entrypoint /usr/local/bin/mag-improve   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mag-improve   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### f2py3.9
+#### spades-convert-bin-to-fasta
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-convert-bin-to-fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-convert-bin-to-fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-convert-bin-to-fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### fasta-sanitize.pl
+#### spades-gsimplifier
 
 ```bash
-$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-gsimplifier
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-gsimplifier   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-gsimplifier   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### spades-kmer-estimating
+
+```bash
+$ singularity exec <container> /usr/local/bin/spades-kmer-estimating
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-kmer-estimating   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-kmer-estimating   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### spades-read-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/spades-read-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-read-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-read-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### spaligner
+
+```bash
+$ singularity exec <container> /usr/local/bin/spaligner
+$ podman run --it --rm --entrypoint /usr/local/bin/spaligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spaligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### spades-bwa
+
+```bash
+$ singularity exec <container> /usr/local/bin/spades-bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### spades-core
+
+```bash
+$ singularity exec <container> /usr/local/bin/spades-core
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-core   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-core   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

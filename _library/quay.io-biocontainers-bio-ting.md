@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/bio-ting"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bio-ting/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bio-ting/container.yaml"
-updated_at: "2022-10-29 05:52:33.329260"
+updated_at: "2022-10-29 07:52:25.601172"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/bio-ting"
 aliases:
  - "imseq2ting"
  - "ting"
- - "2to3-3.8"
  - "f2py3.8"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for bio-ting"
-config: {"url": "https://biocontainers.pro/tools/bio-ting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bio-ting", "latest": {"1.1.0--py_0": "sha256:87e15ead14280f75a5381c6aac684126fa36a8c09431927fdc585101afa67296"}, "tags": {"1.1.0--py_0": "sha256:87e15ead14280f75a5381c6aac684126fa36a8c09431927fdc585101afa67296"}, "docker": "quay.io/biocontainers/bio-ting", "aliases": {"imseq2ting": "/usr/local/bin/imseq2ting", "ting": "/usr/local/bin/ting", "2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bio-ting", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bio-ting", "latest": {"1.1.0--py_0": "sha256:87e15ead14280f75a5381c6aac684126fa36a8c09431927fdc585101afa67296"}, "tags": {"1.1.0--py_0": "sha256:87e15ead14280f75a5381c6aac684126fa36a8c09431927fdc585101afa67296"}, "docker": "quay.io/biocontainers/bio-ting", "aliases": {"imseq2ting": "/usr/local/bin/imseq2ting", "ting": "/usr/local/bin/ting", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bio-ting.
@@ -123,21 +123,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ting   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.8
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

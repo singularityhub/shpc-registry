@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mikado"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mikado/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mikado/container.yaml"
-updated_at: "2022-10-29 05:33:54.468048"
+updated_at: "2022-10-29 07:38:40.647838"
 latest: "2.2.4--py39h70b41aa_0"
 container_url: "https://biocontainers.pro/tools/mikado"
 aliases:
@@ -12,7 +12,9 @@ aliases:
  - "align_collect.py"
  - "asm_collect.py"
  - "bam2gtf.py"
+ - "black"
  - "black-primer"
+ - "blackd"
  - "calculate_distances.py"
  - "class_run.py"
  - "convert_cdna_match_gff3.py"
@@ -30,20 +32,20 @@ aliases:
  - "split_fasta.py"
  - "tease_maker_apart.py"
  - "trim_long_introns.py"
- - "2to3-3.9"
- - "Magick++-config"
- - "MagickCore-config"
- - "MagickWand-config"
- - "acyclic"
- - "animate"
- - "annotate"
+ - "stone"
  - "asadmin"
- - "bcomps"
- - "bdftogd"
+ - "bundle_image"
+ - "cfadmin"
+ - "cq"
+ - "cwutil"
+ - "dynamodb_dump"
+ - "dynamodb_load"
+ - "elbadmin"
+ - "fetch_file"
 versions:
  - "2.2.4--py39h70b41aa_0"
 description: "shpc-registry automated BioContainers addition for mikado"
-config: {"url": "https://biocontainers.pro/tools/mikado", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mikado", "latest": {"2.2.4--py39h70b41aa_0": "sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea"}, "tags": {"2.2.4--py39h70b41aa_0": "sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea"}, "docker": "quay.io/biocontainers/mikado", "aliases": {"add_transcript_feature_to_gtf.py": "/usr/local/bin/add_transcript_feature_to_gtf.py", "align_collect.py": "/usr/local/bin/align_collect.py", "asm_collect.py": "/usr/local/bin/asm_collect.py", "bam2gtf.py": "/usr/local/bin/bam2gtf.py", "black-primer": "/usr/local/bin/black-primer", "calculate_distances.py": "/usr/local/bin/calculate_distances.py", "class_run.py": "/usr/local/bin/class_run.py", "convert_cdna_match_gff3.py": "/usr/local/bin/convert_cdna_match_gff3.py", "daijin": "/usr/local/bin/daijin", "extract_promoter_regions.py": "/usr/local/bin/extract_promoter_regions.py", "getFastaFromIds.py": "/usr/local/bin/getFastaFromIds.py", "gffjunc_to_bed12.py": "/usr/local/bin/gffjunc_to_bed12.py", "grep.py": "/usr/local/bin/grep.py", "hypothesis": "/usr/local/bin/hypothesis", "merge_junction_bed12.py": "/usr/local/bin/merge_junction_bed12.py", "mikado": "/usr/local/bin/mikado", "remove_from_embl.py": "/usr/local/bin/remove_from_embl.py", "remove_utrs.py": "/usr/local/bin/remove_utrs.py", "sanitize_blast_db.py": "/usr/local/bin/sanitize_blast_db.py", "split_fasta.py": "/usr/local/bin/split_fasta.py", "tease_maker_apart.py": "/usr/local/bin/tease_maker_apart.py", "trim_long_introns.py": "/usr/local/bin/trim_long_introns.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "annotate": "/usr/local/bin/annotate", "asadmin": "/usr/local/bin/asadmin", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd"}}
+config: {"url": "https://biocontainers.pro/tools/mikado", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mikado", "latest": {"2.2.4--py39h70b41aa_0": "sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea"}, "tags": {"2.2.4--py39h70b41aa_0": "sha256:0a1fa4a62ed41707c54c3c4a31b8a4bfc15f18f5d1f1b06b69f9bc7a07de38ea"}, "docker": "quay.io/biocontainers/mikado", "aliases": {"add_transcript_feature_to_gtf.py": "/usr/local/bin/add_transcript_feature_to_gtf.py", "align_collect.py": "/usr/local/bin/align_collect.py", "asm_collect.py": "/usr/local/bin/asm_collect.py", "bam2gtf.py": "/usr/local/bin/bam2gtf.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "calculate_distances.py": "/usr/local/bin/calculate_distances.py", "class_run.py": "/usr/local/bin/class_run.py", "convert_cdna_match_gff3.py": "/usr/local/bin/convert_cdna_match_gff3.py", "daijin": "/usr/local/bin/daijin", "extract_promoter_regions.py": "/usr/local/bin/extract_promoter_regions.py", "getFastaFromIds.py": "/usr/local/bin/getFastaFromIds.py", "gffjunc_to_bed12.py": "/usr/local/bin/gffjunc_to_bed12.py", "grep.py": "/usr/local/bin/grep.py", "hypothesis": "/usr/local/bin/hypothesis", "merge_junction_bed12.py": "/usr/local/bin/merge_junction_bed12.py", "mikado": "/usr/local/bin/mikado", "remove_from_embl.py": "/usr/local/bin/remove_from_embl.py", "remove_utrs.py": "/usr/local/bin/remove_utrs.py", "sanitize_blast_db.py": "/usr/local/bin/sanitize_blast_db.py", "split_fasta.py": "/usr/local/bin/split_fasta.py", "tease_maker_apart.py": "/usr/local/bin/tease_maker_apart.py", "trim_long_introns.py": "/usr/local/bin/trim_long_introns.py", "stone": "/usr/local/bin/stone", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mikado.
@@ -165,12 +167,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2gtf.py   -v ${PWD} -w ${P
 ```
 
 
+#### black
+
+```bash
+$ singularity exec <container> /usr/local/bin/black
+$ podman run --it --rm --entrypoint /usr/local/bin/black   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/black   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### black-primer
 
 ```bash
 $ singularity exec <container> /usr/local/bin/black-primer
 $ podman run --it --rm --entrypoint /usr/local/bin/black-primer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/black-primer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blackd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blackd
+$ podman run --it --rm --entrypoint /usr/local/bin/blackd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blackd   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -327,66 +347,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/trim_long_introns.py   -v ${P
 ```
 
 
-#### 2to3-3.9
+#### stone
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### Magick++-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/Magick++-config
-$ podman run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### MagickCore-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/MagickCore-config
-$ podman run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### MagickWand-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/MagickWand-config
-$ podman run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### animate
-
-```bash
-$ singularity exec <container> /usr/local/bin/animate
-$ podman run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/stone
+$ podman run --it --rm --entrypoint /usr/local/bin/stone   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stone   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -399,21 +365,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD}
 ```
 
 
-#### bcomps
+#### bundle_image
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bundle_image
+$ podman run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### cfadmin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cfadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cq
+
+```bash
+$ singularity exec <container> /usr/local/bin/cq
+$ podman run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwutil
+$ podman run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_load
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_load
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### elbadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/elbadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fetch_file
+
+```bash
+$ singularity exec <container> /usr/local/bin/fetch_file
+$ podman run --it --rm --entrypoint /usr/local/bin/fetch_file   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fetch_file   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

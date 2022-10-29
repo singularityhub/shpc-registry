@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/stringtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stringtie/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/stringtie/container.yaml"
-updated_at: "2022-10-29 05:55:58.073627"
+updated_at: "2022-10-29 07:54:54.753948"
 latest: "2.2.1--hecb563c_2"
 container_url: "https://biocontainers.pro/tools/stringtie"
 aliases:
  - "prepDE.py"
  - "stringtie"
  - "2to3-3.10"
- - "bgzip"
- - "htsfile"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
+ - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "2.2.1--hecb563c_2"
 description: "shpc-registry automated BioContainers addition for stringtie"
-config: {"url": "https://biocontainers.pro/tools/stringtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringtie", "latest": {"2.2.1--hecb563c_2": "sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf"}, "tags": {"2.2.1--hecb563c_2": "sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf"}, "docker": "quay.io/biocontainers/stringtie", "aliases": {"prepDE.py": "/usr/local/bin/prepDE.py", "stringtie": "/usr/local/bin/stringtie", "2to3-3.10": "/usr/local/bin/2to3-3.10", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/stringtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stringtie", "latest": {"2.2.1--hecb563c_2": "sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf"}, "tags": {"2.2.1--hecb563c_2": "sha256:8f557d827442a99b264caf623e075f4e3bd4421b2ffc8de69bc45156a076dadf"}, "docker": "quay.io/biocontainers/stringtie", "aliases": {"prepDE.py": "/usr/local/bin/prepDE.py", "stringtie": "/usr/local/bin/stringtie", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stringtie.
@@ -135,24 +135,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### idle3.10
 
 ```bash
@@ -195,6 +177,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/beast2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/beast2/container.yaml"
-updated_at: "2022-10-29 05:36:38.649174"
+updated_at: "2022-10-29 07:40:41.134009"
 latest: "2.6.3--hf1b8bbb_0"
 container_url: "https://biocontainers.pro/tools/beast2"
 aliases:
@@ -16,20 +16,20 @@ aliases:
  - "logcombiner"
  - "packagemanager"
  - "treeannotator"
- - "appletviewer"
  - "extcheck"
- - "idlj"
- - "jar"
- - "jarsigner"
- - "java"
  - "java-rmi.cgi"
- - "javac"
- - "javadoc"
  - "javah"
+ - "jhat"
+ - "jsadebugd"
+ - "native2ascii"
+ - "policytool"
+ - "appletviewer"
+ - "idlj"
+ - "orbd"
 versions:
  - "2.6.3--hf1b8bbb_0"
 description: "shpc-registry automated BioContainers addition for beast2"
-config: {"docker": "quay.io/biocontainers/beast2", "url": "https://biocontainers.pro/tools/beast2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast2", "latest": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d"}, "tags": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d"}, "aliases": {"applauncher": "/usr/local/bin/applauncher", "beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "densitree": "/usr/local/bin/densitree", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "packagemanager": "/usr/local/bin/packagemanager", "treeannotator": "/usr/local/bin/treeannotator", "appletviewer": "/usr/local/bin/appletviewer", "extcheck": "/usr/local/bin/extcheck", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javah": "/usr/local/bin/javah"}, "env": {"DISPLAY": ""}, "features": {"home": true}}
+config: {"url": "https://biocontainers.pro/tools/beast2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast2", "latest": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d"}, "tags": {"2.6.3--hf1b8bbb_0": "sha256:e1445642dc3d56960309cfe8a6d7720650606f5577485eb16038fb9abb015d1d"}, "docker": "quay.io/biocontainers/beast2", "aliases": {"applauncher": "/usr/local/bin/applauncher", "beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "densitree": "/usr/local/bin/densitree", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "packagemanager": "/usr/local/bin/packagemanager", "treeannotator": "/usr/local/bin/treeannotator", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beast2.
@@ -187,57 +187,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/treeannotator   -v ${PWD} -w 
 ```
 
 
-#### appletviewer
-
-```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### extcheck
 
 ```bash
 $ singularity exec <container> /usr/local/bin/extcheck
 $ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idlj
-
-```bash
-$ singularity exec <container> /usr/local/bin/idlj
-$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jar
-
-```bash
-$ singularity exec <container> /usr/local/bin/jar
-$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jarsigner
-
-```bash
-$ singularity exec <container> /usr/local/bin/jarsigner
-$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### java
-
-```bash
-$ singularity exec <container> /usr/local/bin/java
-$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -250,30 +205,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w $
 ```
 
 
-#### javac
-
-```bash
-$ singularity exec <container> /usr/local/bin/javac
-$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### javadoc
-
-```bash
-$ singularity exec <container> /usr/local/bin/javadoc
-$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### javah
 
 ```bash
 $ singularity exec <container> /usr/local/bin/javah
 $ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jhat
+
+```bash
+$ singularity exec <container> /usr/local/bin/jhat
+$ podman run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jsadebugd
+
+```bash
+$ singularity exec <container> /usr/local/bin/jsadebugd
+$ podman run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### native2ascii
+
+```bash
+$ singularity exec <container> /usr/local/bin/native2ascii
+$ podman run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### policytool
+
+```bash
+$ singularity exec <container> /usr/local/bin/policytool
+$ podman run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### orbd
+
+```bash
+$ singularity exec <container> /usr/local/bin/orbd
+$ podman run --it --rm --entrypoint /usr/local/bin/orbd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/orbd   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

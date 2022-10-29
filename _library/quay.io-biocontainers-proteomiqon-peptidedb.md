@@ -4,16 +4,16 @@ name:  "quay.io/biocontainers/proteomiqon-peptidedb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-peptidedb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-peptidedb/container.yaml"
-updated_at: "2022-10-29 05:37:35.040533"
+updated_at: "2022-10-29 07:41:22.680309"
 latest: "0.0.7--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/proteomiqon-peptidedb"
 aliases:
- - "proteomiqon-peptidedb"
  - "lttng-gen-tp"
+ - "proteomiqon-peptidedb"
 versions:
  - "0.0.7--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for proteomiqon-peptidedb"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-peptidedb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-peptidedb", "latest": {"0.0.7--hdfd78af_1": "sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e"}, "tags": {"0.0.7--hdfd78af_1": "sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e"}, "docker": "quay.io/biocontainers/proteomiqon-peptidedb", "aliases": {"proteomiqon-peptidedb": "/usr/local/bin/proteomiqon-peptidedb", "lttng-gen-tp": "/usr/local/bin/lttng-gen-tp"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-peptidedb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-peptidedb", "latest": {"0.0.7--hdfd78af_1": "sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e"}, "tags": {"0.0.7--hdfd78af_1": "sha256:da279ca28078e058e9aa61885a5d7471fa8c051e74fae4f903a9fdce702efe4e"}, "docker": "quay.io/biocontainers/proteomiqon-peptidedb", "aliases": {"lttng-gen-tp": "/usr/local/bin/lttng-gen-tp", "proteomiqon-peptidedb": "/usr/local/bin/proteomiqon-peptidedb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-peptidedb.
@@ -99,21 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### proteomiqon-peptidedb
-
-```bash
-$ singularity exec <container> /usr/local/bin/proteomiqon-peptidedb
-$ podman run --it --rm --entrypoint /usr/local/bin/proteomiqon-peptidedb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/proteomiqon-peptidedb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### lttng-gen-tp
 
 ```bash
 $ singularity exec <container> /usr/local/bin/lttng-gen-tp
 $ podman run --it --rm --entrypoint /usr/local/bin/lttng-gen-tp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/lttng-gen-tp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### proteomiqon-peptidedb
+
+```bash
+$ singularity exec <container> /usr/local/bin/proteomiqon-peptidedb
+$ podman run --it --rm --entrypoint /usr/local/bin/proteomiqon-peptidedb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/proteomiqon-peptidedb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

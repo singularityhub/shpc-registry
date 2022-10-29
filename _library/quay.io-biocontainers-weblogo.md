@@ -4,24 +4,25 @@ name:  "quay.io/biocontainers/weblogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weblogo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/weblogo/container.yaml"
-updated_at: "2022-10-29 05:43:14.493518"
+updated_at: "2022-10-29 07:45:33.873021"
 latest: "3.7.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/weblogo"
 aliases:
- - "2to3-3.10"
+ - "weblogo"
+ - "transformseq"
  - "dvipdf"
  - "eps2eps"
- - "f2py3.10"
  - "gs"
  - "gsbj"
  - "gsdj"
  - "gsdj500"
  - "gslj"
  - "gslp"
+ - "gsnd"
 versions:
  - "3.7.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for weblogo"
-config: {"url": "https://biocontainers.pro/tools/weblogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weblogo", "latest": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "tags": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "docker": "quay.io/biocontainers/weblogo", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "f2py3.10": "/usr/local/bin/f2py3.10", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp"}}
+config: {"url": "https://biocontainers.pro/tools/weblogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weblogo", "latest": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "tags": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "docker": "quay.io/biocontainers/weblogo", "aliases": {"weblogo": "/usr/local/bin/weblogo", "transformseq": "/usr/local/bin/transformseq", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp", "gsnd": "/usr/local/bin/gsnd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/weblogo.
@@ -107,12 +108,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### weblogo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/weblogo
+$ podman run --it --rm --entrypoint /usr/local/bin/weblogo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/weblogo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### transformseq
+
+```bash
+$ singularity exec <container> /usr/local/bin/transformseq
+$ podman run --it --rm --entrypoint /usr/local/bin/transformseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/transformseq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -131,15 +141,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/eps2eps
 $ podman run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gslj   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/gslp
 $ podman run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsnd
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsnd
+$ podman run --it --rm --entrypoint /usr/local/bin/gsnd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsnd   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

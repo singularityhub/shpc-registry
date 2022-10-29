@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nasp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nasp/container.yaml"
-updated_at: "2022-10-29 05:40:50.744447"
+updated_at: "2022-10-29 07:43:46.272049"
 latest: "1.2.1--py36hf8e0771_1"
 container_url: "https://biocontainers.pro/tools/nasp"
 aliases:
@@ -18,21 +18,22 @@ aliases:
  - "merge_matrices.py"
  - "nasp"
  - "report_single_snps_single_isolate.py"
+ - "varfilter.py"
  - "vcf_to_matrix"
- - "2to3-3.6"
- - "ace2sam"
- - "aserver"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
+ - "trimmomatic"
+ - "mapview"
+ - "mgaps"
+ - "run-mummer1"
+ - "run-mummer3"
  - "combineMUMs"
  - "delta-filter"
  - "dnadiff"
  - "exact-tandems"
- - "export2sam.pl"
+ - "mummer"
 versions:
  - "1.2.1--py36hf8e0771_1"
 description: "shpc-registry automated BioContainers addition for nasp"
-config: {"url": "https://biocontainers.pro/tools/nasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nasp", "latest": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "tags": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "docker": "quay.io/biocontainers/nasp", "aliases": {"convert_external_genome": "/usr/local/bin/convert_external_genome", "filter_matrix_by_coord.py": "/usr/local/bin/filter_matrix_by_coord.py", "filter_matrix_by_distance.py": "/usr/local/bin/filter_matrix_by_distance.py", "filter_matrix_by_genome.py": "/usr/local/bin/filter_matrix_by_genome.py", "find_duplicates": "/usr/local/bin/find_duplicates", "format_fasta": "/usr/local/bin/format_fasta", "matrix_to_fasta.py": "/usr/local/bin/matrix_to_fasta.py", "merge_matrices.py": "/usr/local/bin/merge_matrices.py", "nasp": "/usr/local/bin/nasp", "report_single_snps_single_isolate.py": "/usr/local/bin/report_single_snps_single_isolate.py", "vcf_to_matrix": "/usr/local/bin/vcf_to_matrix", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "aserver": "/usr/local/bin/aserver", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/nasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nasp", "latest": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "tags": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "docker": "quay.io/biocontainers/nasp", "aliases": {"convert_external_genome": "/usr/local/bin/convert_external_genome", "filter_matrix_by_coord.py": "/usr/local/bin/filter_matrix_by_coord.py", "filter_matrix_by_distance.py": "/usr/local/bin/filter_matrix_by_distance.py", "filter_matrix_by_genome.py": "/usr/local/bin/filter_matrix_by_genome.py", "find_duplicates": "/usr/local/bin/find_duplicates", "format_fasta": "/usr/local/bin/format_fasta", "matrix_to_fasta.py": "/usr/local/bin/matrix_to_fasta.py", "merge_matrices.py": "/usr/local/bin/merge_matrices.py", "nasp": "/usr/local/bin/nasp", "report_single_snps_single_isolate.py": "/usr/local/bin/report_single_snps_single_isolate.py", "varfilter.py": "/usr/local/bin/varfilter.py", "vcf_to_matrix": "/usr/local/bin/vcf_to_matrix", "trimmomatic": "/usr/local/bin/trimmomatic", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nasp.
@@ -208,6 +209,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/report_single_snps_single_iso
 ```
 
 
+#### varfilter.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/varfilter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/varfilter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/varfilter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### vcf_to_matrix
 
 ```bash
@@ -217,48 +227,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcf_to_matrix   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.6
+#### trimmomatic
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/trimmomatic
+$ podman run --it --rm --entrypoint /usr/local/bin/trimmomatic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trimmomatic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### mapview
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mapview
+$ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### mgaps
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mgaps
+$ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### run-mummer1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/run-mummer1
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### run-mummer3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/run-mummer3
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -298,12 +308,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w 
 ```
 
 
-#### export2sam.pl
+#### mummer
 
 ```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mummer
+$ podman run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

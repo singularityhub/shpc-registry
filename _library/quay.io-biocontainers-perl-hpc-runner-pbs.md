@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-pbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-pbs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-pbs/container.yaml"
-updated_at: "2022-10-29 05:46:20.115598"
+updated_at: "2022-10-29 07:47:50.906818"
 latest: "0.12--0"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-pbs"
 aliases:
@@ -15,20 +15,20 @@ aliases:
  - "slurmrunnerbasic.pl"
  - "slurmrunnerrsyslog.pl"
  - "testnodes.pl"
- - "c2ph"
  - "findrule"
  - "l4p-tmpl"
- - "moose-outdated"
- - "package-stash-conflicts"
  - "perl5.22.0"
- - "podselect"
+ - "c2ph"
  - "pstruct"
  - "tpage"
  - "ttree"
+ - "moose-outdated"
+ - "package-stash-conflicts"
+ - "podselect"
 versions:
  - "0.12--0"
 description: "shpc-registry automated BioContainers addition for perl-hpc-runner-pbs"
-config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-pbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-pbs", "latest": {"0.12--0": "sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d"}, "tags": {"0.12--0": "sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d"}, "docker": "quay.io/biocontainers/perl-hpc-runner-pbs", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "pbsrunner.pl": "/usr/local/bin/pbsrunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "c2ph": "/usr/local/bin/c2ph", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "perl5.22.0": "/usr/local/bin/perl5.22.0", "podselect": "/usr/local/bin/podselect", "pstruct": "/usr/local/bin/pstruct", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-pbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-pbs", "latest": {"0.12--0": "sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d"}, "tags": {"0.12--0": "sha256:ebe8cdeddd845bef8d94a212cc60e553494267055a1144461758012f3ec2b65d"}, "docker": "quay.io/biocontainers/perl-hpc-runner-pbs", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "pbsrunner.pl": "/usr/local/bin/pbsrunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hpc-runner-pbs.
@@ -177,15 +177,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/testnodes.pl   -v ${PWD} -w $
 ```
 
 
-#### c2ph
-
-```bash
-$ singularity exec <container> /usr/local/bin/c2ph
-$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### findrule
 
 ```bash
@@ -204,24 +195,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD
 ```
 
 
-#### moose-outdated
-
-```bash
-$ singularity exec <container> /usr/local/bin/moose-outdated
-$ podman run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### package-stash-conflicts
-
-```bash
-$ singularity exec <container> /usr/local/bin/package-stash-conflicts
-$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### perl5.22.0
 
 ```bash
@@ -231,12 +204,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${P
 ```
 
 
-#### podselect
+#### c2ph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/podselect
-$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c2ph
+$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -264,6 +237,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tpage   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/ttree
 $ podman run --it --rm --entrypoint /usr/local/bin/ttree   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### moose-outdated
+
+```bash
+$ singularity exec <container> /usr/local/bin/moose-outdated
+$ podman run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

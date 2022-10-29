@@ -4,19 +4,19 @@ name:  "quay.io/biocontainers/shapeit4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shapeit4/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/shapeit4/container.yaml"
-updated_at: "2022-10-29 05:59:28.629595"
+updated_at: "2022-10-29 07:57:28.023339"
 latest: "4.2.2--h24bf969_1"
 container_url: "https://biocontainers.pro/tools/shapeit4"
 aliases:
  - "shapeit4"
  - "shapeit4.2"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "4.2.2--h24bf969_1"
 description: "shpc-registry automated BioContainers addition for shapeit4"
-config: {"url": "https://biocontainers.pro/tools/shapeit4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeit4", "latest": {"4.2.2--h24bf969_1": "sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861"}, "tags": {"4.2.2--h24bf969_1": "sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861"}, "docker": "quay.io/biocontainers/shapeit4", "aliases": {"shapeit4": "/usr/local/bin/shapeit4", "shapeit4.2": "/usr/local/bin/shapeit4.2", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/shapeit4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shapeit4", "latest": {"4.2.2--h24bf969_1": "sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861"}, "tags": {"4.2.2--h24bf969_1": "sha256:99027f00d2dabd6151f01612cc17d06c1a8731a04473bc2ad24a4cb1f734a861"}, "docker": "quay.io/biocontainers/shapeit4", "aliases": {"shapeit4": "/usr/local/bin/shapeit4", "shapeit4.2": "/usr/local/bin/shapeit4.2", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shapeit4.
@@ -120,21 +120,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shapeit4.2   -v ${PWD} -w ${P
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

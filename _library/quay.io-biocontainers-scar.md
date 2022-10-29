@@ -4,25 +4,26 @@ name:  "quay.io/biocontainers/scar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scar/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scar/container.yaml"
-updated_at: "2022-10-29 05:30:37.635396"
+updated_at: "2022-10-29 07:36:16.489966"
 latest: "0.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scar"
 aliases:
  - "scar"
- - "2to3-3.9"
- - "brotli"
+ - "torchrun"
+ - "scanpy"
  - "convert-caffe2-to-onnx"
  - "convert-onnx-to-caffe2"
+ - "ninja"
  - "docutils"
- - "f2py3.9"
- - "fonttools"
- - "gif2h5"
  - "google-oauthlib-tool"
  - "grpc_cpp_plugin"
+ - "grpc_csharp_plugin"
+ - "grpc_node_plugin"
+ - "grpc_objective_c_plugin"
 versions:
  - "0.4.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scar"
-config: {"url": "https://biocontainers.pro/tools/scar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scar", "latest": {"0.4.4--pyhdfd78af_0": "sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903"}, "tags": {"0.4.4--pyhdfd78af_0": "sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903"}, "docker": "quay.io/biocontainers/scar", "aliases": {"scar": "/usr/local/bin/scar", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "docutils": "/usr/local/bin/docutils", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/scar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scar", "latest": {"0.4.4--pyhdfd78af_0": "sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903"}, "tags": {"0.4.4--pyhdfd78af_0": "sha256:abd805f097d4f9316cf1aae47187af07d341771d351117d7ab2492068adff903"}, "docker": "quay.io/biocontainers/scar", "aliases": {"scar": "/usr/local/bin/scar", "torchrun": "/usr/local/bin/torchrun", "scanpy": "/usr/local/bin/scanpy", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "docutils": "/usr/local/bin/docutils", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scar.
@@ -117,21 +118,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scar   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.9
+#### torchrun
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/torchrun
+$ podman run --it --rm --entrypoint /usr/local/bin/torchrun   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/torchrun   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### scanpy
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/scanpy
+$ podman run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -153,39 +154,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v $
 ```
 
 
+#### ninja
+
+```bash
+$ singularity exec <container> /usr/local/bin/ninja
+$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### docutils
 
 ```bash
 $ singularity exec <container> /usr/local/bin/docutils
 $ podman run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fonttools
-
-```bash
-$ singularity exec <container> /usr/local/bin/fonttools
-$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2h5
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +187,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${P
 $ singularity exec <container> /usr/local/bin/grpc_cpp_plugin
 $ podman run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_csharp_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_csharp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_node_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_node_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_objective_c_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_objective_c_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

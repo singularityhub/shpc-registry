@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/pynast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pynast/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pynast/container.yaml"
-updated_at: "2022-10-29 05:32:07.432266"
+updated_at: "2022-10-29 07:37:21.869952"
 latest: "1.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/pynast"
 aliases:
  - "pynast"
  - "aggregate_profile.pl"
- - "assistant"
- - "canbusutil"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
- - "dbus-run-session"
- - "dbus-send"
- - "dbus-test-tool"
+ - "profile2mat.pl"
+ - "mpiCC"
+ - "ompi-clean"
+ - "ompi-server"
+ - "ompi_info"
+ - "opal_wrapper"
+ - "orte-clean"
+ - "orte-info"
+ - "orte-server"
 versions:
  - "1.2.2--py_2"
 description: "shpc-registry automated BioContainers addition for pynast"
-config: {"url": "https://biocontainers.pro/tools/pynast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynast", "latest": {"1.2.2--py_2": "sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9"}, "tags": {"1.2.2--py_2": "sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9"}, "docker": "quay.io/biocontainers/pynast", "aliases": {"pynast": "/usr/local/bin/pynast", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
+config: {"url": "https://biocontainers.pro/tools/pynast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pynast", "latest": {"1.2.2--py_2": "sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9"}, "tags": {"1.2.2--py_2": "sha256:f37a0932d07dd33286e49504a97dd1c339f8c3e62f6a6dc65ea1ec4e6569f8a9"}, "docker": "quay.io/biocontainers/pynast", "aliases": {"pynast": "/usr/local/bin/pynast", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "profile2mat.pl": "/usr/local/bin/profile2mat.pl", "mpiCC": "/usr/local/bin/mpiCC", "ompi-clean": "/usr/local/bin/ompi-clean", "ompi-server": "/usr/local/bin/ompi-server", "ompi_info": "/usr/local/bin/ompi_info", "opal_wrapper": "/usr/local/bin/opal_wrapper", "orte-clean": "/usr/local/bin/orte-clean", "orte-info": "/usr/local/bin/orte-info", "orte-server": "/usr/local/bin/orte-server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pynast.
@@ -126,84 +126,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${P
 ```
 
 
-#### assistant
+#### profile2mat.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/profile2mat.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/profile2mat.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/profile2mat.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### mpiCC
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpiCC
+$ podman run --it --rm --entrypoint /usr/local/bin/mpiCC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpiCC   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### ompi-clean
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ompi-clean
+$ podman run --it --rm --entrypoint /usr/local/bin/ompi-clean   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ompi-clean   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### ompi-server
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ompi-server
+$ podman run --it --rm --entrypoint /usr/local/bin/ompi-server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ompi-server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### ompi_info
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ompi_info
+$ podman run --it --rm --entrypoint /usr/local/bin/ompi_info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ompi_info   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### opal_wrapper
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/opal_wrapper
+$ podman run --it --rm --entrypoint /usr/local/bin/opal_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opal_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-run-session
+#### orte-clean
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-run-session
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/orte-clean
+$ podman run --it --rm --entrypoint /usr/local/bin/orte-clean   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/orte-clean   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-send
+#### orte-info
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-send
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/orte-info
+$ podman run --it --rm --entrypoint /usr/local/bin/orte-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/orte-info   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-test-tool
+#### orte-server
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-test-tool
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/orte-server
+$ podman run --it --rm --entrypoint /usr/local/bin/orte-server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/orte-server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

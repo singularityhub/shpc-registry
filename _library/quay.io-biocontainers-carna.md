@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/carna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/carna/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/carna/container.yaml"
-updated_at: "2022-10-29 05:46:48.484791"
+updated_at: "2022-10-29 07:48:11.762994"
 latest: "1.3.3--h470a237_2"
 container_url: "https://biocontainers.pro/tools/carna"
 aliases:
@@ -93,20 +93,20 @@ aliases:
  - "tsp"
  - "warehouses"
  - "word-square"
- - "Kinfold"
+ - "RNApvmin"
+ - "b2ct"
+ - "ct2db"
+ - "kinwalker"
+ - "popt"
  - "RNA2Dfold"
  - "RNALalifold"
- - "RNALfold"
  - "RNAPKplex"
- - "RNAaliduplex"
- - "RNAalifold"
- - "RNAcofold"
- - "RNAdistance"
- - "RNAduplex"
+ - "RNAparconv"
+ - "RNAplex"
 versions:
  - "1.3.3--h470a237_2"
 description: "shpc-registry automated BioContainers addition for carna"
-config: {"url": "https://biocontainers.pro/tools/carna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for carna", "latest": {"1.3.3--h470a237_2": "sha256:136150668910eacc412c2cef8ee7de4ef6732f1bf8b75ecc9cfa63ded2f07089"}, "tags": {"1.3.3--h470a237_2": "sha256:136150668910eacc412c2cef8ee7de4ef6732f1bf8b75ecc9cfa63ded2f07089"}, "docker": "quay.io/biocontainers/carna", "aliases": {"LocARNA_RNAz.pm": "/usr/local/bin/LocARNA_RNAz.pm", "RNAz.pm": "/usr/local/bin/RNAz.pm", "all-interval": "/usr/local/bin/all-interval", "aln-seqs.pl": "/usr/local/bin/aln-seqs.pl", "aln2fa.pl": "/usr/local/bin/aln2fa.pl", "alnsel.pl": "/usr/local/bin/alnsel.pl", "alpha": "/usr/local/bin/alpha", "average-dot.pl": "/usr/local/bin/average-dot.pl", "bacp": "/usr/local/bin/bacp", "bibd": "/usr/local/bin/bibd", "bin-packing": "/usr/local/bin/bin-packing", "black-hole": "/usr/local/bin/black-hole", "car-sequencing": "/usr/local/bin/car-sequencing", "carna": "/usr/local/bin/carna", "carna.pl": "/usr/local/bin/carna.pl", "cartesian-heart": "/usr/local/bin/cartesian-heart", "colored-matrix": "/usr/local/bin/colored-matrix", "crew": "/usr/local/bin/crew", "crossword": "/usr/local/bin/crossword", "crowded-chess": "/usr/local/bin/crowded-chess", "descartes-folium": "/usr/local/bin/descartes-folium", "dominating-queens": "/usr/local/bin/dominating-queens", "domino": "/usr/local/bin/domino", "donald": "/usr/local/bin/donald", "dot2pp": "/usr/local/bin/dot2pp", "efpa": "/usr/local/bin/efpa", "eq20": "/usr/local/bin/eq20", "exparna_p": "/usr/local/bin/exparna_p", "exploc_p": "/usr/local/bin/exploc_p", "fzn-gecode": "/usr/local/bin/fzn-gecode", "gen-reliab-dot.pl": "/usr/local/bin/gen-reliab-dot.pl", "golf": "/usr/local/bin/golf", "golomb-ruler": "/usr/local/bin/golomb-ruler", "graph-color": "/usr/local/bin/graph-color", "grocery": "/usr/local/bin/grocery", "hamming": "/usr/local/bin/hamming", "ind-set": "/usr/local/bin/ind-set", "kakuro": "/usr/local/bin/kakuro", "knights": "/usr/local/bin/knights", "langford-number": "/usr/local/bin/langford-number", "locarna": "/usr/local/bin/locarna", "locarna-mea.pl": "/usr/local/bin/locarna-mea.pl", "locarna-motif-scan": "/usr/local/bin/locarna-motif-scan", "locarna_deviation": "/usr/local/bin/locarna_deviation", "locarna_p": "/usr/local/bin/locarna_p", "locarna_rnafold_pp": "/usr/local/bin/locarna_rnafold_pp", "locarnap-predict-and-plot.pl": "/usr/local/bin/locarnap-predict-and-plot.pl", "locarnap-realign-all.pl": "/usr/local/bin/locarnap-realign-all.pl", "locarnap-revcomp.pl": "/usr/local/bin/locarnap-revcomp.pl", "locarnap-revisit-RNAz-hits.pl": "/usr/local/bin/locarnap-revisit-RNAz-hits.pl", "locarnap_fit": "/usr/local/bin/locarnap_fit", "locarnate": "/usr/local/bin/locarnate", "magic-sequence": "/usr/local/bin/magic-sequence", "magic-square": "/usr/local/bin/magic-square", "minesweeper": "/usr/local/bin/minesweeper", "mlocarna": "/usr/local/bin/mlocarna", "mlocarna_nnames": "/usr/local/bin/mlocarna_nnames", "money": "/usr/local/bin/money", "multi-bin-packing": "/usr/local/bin/multi-bin-packing", "mzn-gecode": "/usr/local/bin/mzn-gecode", "nonogram": "/usr/local/bin/nonogram", "open-shop": "/usr/local/bin/open-shop", "ortho-latin": "/usr/local/bin/ortho-latin", "partition": "/usr/local/bin/partition", "pentominoes": "/usr/local/bin/pentominoes", "perfect-square": "/usr/local/bin/perfect-square", "photo": "/usr/local/bin/photo", "plot-bmprobs": "/usr/local/bin/plot-bmprobs", "pp2dot": "/usr/local/bin/pp2dot", "qcp": "/usr/local/bin/qcp", "queen-armies": "/usr/local/bin/queen-armies", "queens": "/usr/local/bin/queens", "radiotherapy": "/usr/local/bin/radiotherapy", "reliability-profile.pl": "/usr/local/bin/reliability-profile.pl", "ribosum2cc": "/usr/local/bin/ribosum2cc", "sat": "/usr/local/bin/sat", "schurs-lemma": "/usr/local/bin/schurs-lemma", "sparse": "/usr/local/bin/sparse", "sports-league": "/usr/local/bin/sports-league", "steel-mill": "/usr/local/bin/steel-mill", "steiner": "/usr/local/bin/steiner", "sudoku": "/usr/local/bin/sudoku", "tsp": "/usr/local/bin/tsp", "warehouses": "/usr/local/bin/warehouses", "word-square": "/usr/local/bin/word-square", "Kinfold": "/usr/local/bin/Kinfold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNALfold": "/usr/local/bin/RNALfold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex"}}
+config: {"url": "https://biocontainers.pro/tools/carna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for carna", "latest": {"1.3.3--h470a237_2": "sha256:136150668910eacc412c2cef8ee7de4ef6732f1bf8b75ecc9cfa63ded2f07089"}, "tags": {"1.3.3--h470a237_2": "sha256:136150668910eacc412c2cef8ee7de4ef6732f1bf8b75ecc9cfa63ded2f07089"}, "docker": "quay.io/biocontainers/carna", "aliases": {"LocARNA_RNAz.pm": "/usr/local/bin/LocARNA_RNAz.pm", "RNAz.pm": "/usr/local/bin/RNAz.pm", "all-interval": "/usr/local/bin/all-interval", "aln-seqs.pl": "/usr/local/bin/aln-seqs.pl", "aln2fa.pl": "/usr/local/bin/aln2fa.pl", "alnsel.pl": "/usr/local/bin/alnsel.pl", "alpha": "/usr/local/bin/alpha", "average-dot.pl": "/usr/local/bin/average-dot.pl", "bacp": "/usr/local/bin/bacp", "bibd": "/usr/local/bin/bibd", "bin-packing": "/usr/local/bin/bin-packing", "black-hole": "/usr/local/bin/black-hole", "car-sequencing": "/usr/local/bin/car-sequencing", "carna": "/usr/local/bin/carna", "carna.pl": "/usr/local/bin/carna.pl", "cartesian-heart": "/usr/local/bin/cartesian-heart", "colored-matrix": "/usr/local/bin/colored-matrix", "crew": "/usr/local/bin/crew", "crossword": "/usr/local/bin/crossword", "crowded-chess": "/usr/local/bin/crowded-chess", "descartes-folium": "/usr/local/bin/descartes-folium", "dominating-queens": "/usr/local/bin/dominating-queens", "domino": "/usr/local/bin/domino", "donald": "/usr/local/bin/donald", "dot2pp": "/usr/local/bin/dot2pp", "efpa": "/usr/local/bin/efpa", "eq20": "/usr/local/bin/eq20", "exparna_p": "/usr/local/bin/exparna_p", "exploc_p": "/usr/local/bin/exploc_p", "fzn-gecode": "/usr/local/bin/fzn-gecode", "gen-reliab-dot.pl": "/usr/local/bin/gen-reliab-dot.pl", "golf": "/usr/local/bin/golf", "golomb-ruler": "/usr/local/bin/golomb-ruler", "graph-color": "/usr/local/bin/graph-color", "grocery": "/usr/local/bin/grocery", "hamming": "/usr/local/bin/hamming", "ind-set": "/usr/local/bin/ind-set", "kakuro": "/usr/local/bin/kakuro", "knights": "/usr/local/bin/knights", "langford-number": "/usr/local/bin/langford-number", "locarna": "/usr/local/bin/locarna", "locarna-mea.pl": "/usr/local/bin/locarna-mea.pl", "locarna-motif-scan": "/usr/local/bin/locarna-motif-scan", "locarna_deviation": "/usr/local/bin/locarna_deviation", "locarna_p": "/usr/local/bin/locarna_p", "locarna_rnafold_pp": "/usr/local/bin/locarna_rnafold_pp", "locarnap-predict-and-plot.pl": "/usr/local/bin/locarnap-predict-and-plot.pl", "locarnap-realign-all.pl": "/usr/local/bin/locarnap-realign-all.pl", "locarnap-revcomp.pl": "/usr/local/bin/locarnap-revcomp.pl", "locarnap-revisit-RNAz-hits.pl": "/usr/local/bin/locarnap-revisit-RNAz-hits.pl", "locarnap_fit": "/usr/local/bin/locarnap_fit", "locarnate": "/usr/local/bin/locarnate", "magic-sequence": "/usr/local/bin/magic-sequence", "magic-square": "/usr/local/bin/magic-square", "minesweeper": "/usr/local/bin/minesweeper", "mlocarna": "/usr/local/bin/mlocarna", "mlocarna_nnames": "/usr/local/bin/mlocarna_nnames", "money": "/usr/local/bin/money", "multi-bin-packing": "/usr/local/bin/multi-bin-packing", "mzn-gecode": "/usr/local/bin/mzn-gecode", "nonogram": "/usr/local/bin/nonogram", "open-shop": "/usr/local/bin/open-shop", "ortho-latin": "/usr/local/bin/ortho-latin", "partition": "/usr/local/bin/partition", "pentominoes": "/usr/local/bin/pentominoes", "perfect-square": "/usr/local/bin/perfect-square", "photo": "/usr/local/bin/photo", "plot-bmprobs": "/usr/local/bin/plot-bmprobs", "pp2dot": "/usr/local/bin/pp2dot", "qcp": "/usr/local/bin/qcp", "queen-armies": "/usr/local/bin/queen-armies", "queens": "/usr/local/bin/queens", "radiotherapy": "/usr/local/bin/radiotherapy", "reliability-profile.pl": "/usr/local/bin/reliability-profile.pl", "ribosum2cc": "/usr/local/bin/ribosum2cc", "sat": "/usr/local/bin/sat", "schurs-lemma": "/usr/local/bin/schurs-lemma", "sparse": "/usr/local/bin/sparse", "sports-league": "/usr/local/bin/sports-league", "steel-mill": "/usr/local/bin/steel-mill", "steiner": "/usr/local/bin/steiner", "sudoku": "/usr/local/bin/sudoku", "tsp": "/usr/local/bin/tsp", "warehouses": "/usr/local/bin/warehouses", "word-square": "/usr/local/bin/word-square", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAparconv": "/usr/local/bin/RNAparconv", "RNAplex": "/usr/local/bin/RNAplex"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/carna.
@@ -957,12 +957,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/word-square   -v ${PWD} -w ${
 ```
 
 
-#### Kinfold
+#### RNApvmin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Kinfold
-$ podman run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/RNApvmin
+$ podman run --it --rm --entrypoint /usr/local/bin/RNApvmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNApvmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2ct
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2ct
+$ podman run --it --rm --entrypoint /usr/local/bin/b2ct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2ct   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ct2db
+
+```bash
+$ singularity exec <container> /usr/local/bin/ct2db
+$ podman run --it --rm --entrypoint /usr/local/bin/ct2db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ct2db   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kinwalker
+
+```bash
+$ singularity exec <container> /usr/local/bin/kinwalker
+$ podman run --it --rm --entrypoint /usr/local/bin/kinwalker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kinwalker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### popt
+
+```bash
+$ singularity exec <container> /usr/local/bin/popt
+$ podman run --it --rm --entrypoint /usr/local/bin/popt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/popt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -984,15 +1020,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${
 ```
 
 
-#### RNALfold
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNALfold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### RNAPKplex
 
 ```bash
@@ -1002,48 +1029,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PW
 ```
 
 
-#### RNAaliduplex
+#### RNAparconv
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNAaliduplex
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/RNAparconv
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAparconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAparconv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### RNAalifold
+#### RNAplex
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNAalifold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNAcofold
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNAcofold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAcofold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAcofold   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNAdistance
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNAdistance
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAdistance   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAdistance   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNAduplex
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNAduplex
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/RNAplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAplex   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

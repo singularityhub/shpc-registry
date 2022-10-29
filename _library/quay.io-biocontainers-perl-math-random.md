@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-random"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-random/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-random/container.yaml"
-updated_at: "2022-10-29 05:35:25.668470"
+updated_at: "2022-10-29 07:39:47.151383"
 latest: "0.72--pl5321hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/perl-math-random"
 

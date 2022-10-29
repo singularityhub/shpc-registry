@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/emptydrops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emptydrops/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/emptydrops/container.yaml"
-updated_at: "2022-10-29 05:32:21.996701"
+updated_at: "2022-10-29 07:37:32.566113"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/emptydrops"
 aliases:
- - "2to3-3.9"
  - "f2py3.9"
+ - "h5clear"
+ - "h5format_convert"
+ - "h5watch"
+ - "h5fc"
  - "gif2h5"
  - "h52gif"
  - "h5c++"
- - "h5cc"
- - "h5clear"
  - "h5copy"
  - "h5debug"
- - "h5diff"
 versions:
  - "0.0.5--py_0"
 description: "shpc-registry automated BioContainers addition for emptydrops"
-config: {"url": "https://biocontainers.pro/tools/emptydrops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emptydrops", "latest": {"0.0.5--py_0": "sha256:51ee30b171f4ead499a4de8a8b687f122ef017954ddccb91f69aefc7dab7644a"}, "tags": {"0.0.5--py_0": "sha256:51ee30b171f4ead499a4de8a8b687f122ef017954ddccb91f69aefc7dab7644a"}, "docker": "quay.io/biocontainers/emptydrops", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/emptydrops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emptydrops", "latest": {"0.0.5--py_0": "sha256:51ee30b171f4ead499a4de8a8b687f122ef017954ddccb91f69aefc7dab7644a"}, "tags": {"0.0.5--py_0": "sha256:51ee30b171f4ead499a4de8a8b687f122ef017954ddccb91f69aefc7dab7644a"}, "docker": "quay.io/biocontainers/emptydrops", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emptydrops.
@@ -107,21 +107,48 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5format_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5format_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5watch
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5watch
+$ podman run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5fc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5fc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -152,24 +179,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5clear
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### h5copy
 
 ```bash
@@ -185,15 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/h5debug
 $ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5diff
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5diff
-$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

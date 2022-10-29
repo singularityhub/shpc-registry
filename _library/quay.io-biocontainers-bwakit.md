@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwakit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwakit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwakit/container.yaml"
-updated_at: "2022-10-29 05:39:34.717101"
+updated_at: "2022-10-29 07:42:50.501782"
 latest: "0.7.17.dev1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bwakit"
 aliases:
@@ -21,20 +21,20 @@ aliases:
  - "typeHLA-selctg.js"
  - "typeHLA.js"
  - "typeHLA.sh"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "bwa"
- - "export2sam.pl"
- - "fasta-sanitize.pl"
- - "htsfile"
- - "interpolate_sam.pl"
+ - "seqtk"
+ - "perl5.32.0"
  - "k8"
+ - "qualfa2fq.pl"
+ - "xa2multi.pl"
+ - "bwa"
+ - "fasta-sanitize.pl"
+ - "plot-ampliconstats"
+ - "ace2sam"
+ - "blast2sam.pl"
 versions:
  - "0.7.17.dev1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bwakit"
-config: {"url": "https://biocontainers.pro/tools/bwakit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwakit", "latest": {"0.7.17.dev1--hdfd78af_1": "sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4"}, "tags": {"0.7.17.dev1--hdfd78af_1": "sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4"}, "docker": "quay.io/biocontainers/bwakit", "aliases": {"bwa-postalt.js": "/usr/local/bin/bwa-postalt.js", "fermi2": "/usr/local/bin/fermi2", "fermi2.pl": "/usr/local/bin/fermi2.pl", "htsbox": "/usr/local/bin/htsbox", "ropebwt2": "/usr/local/bin/ropebwt2", "run-HLA": "/usr/local/bin/run-HLA", "run-bwamem": "/usr/local/bin/run-bwamem", "run-gen-ref": "/usr/local/bin/run-gen-ref", "samblaster": "/usr/local/bin/samblaster", "trimadap": "/usr/local/bin/trimadap", "typeHLA-selctg.js": "/usr/local/bin/typeHLA-selctg.js", "typeHLA.js": "/usr/local/bin/typeHLA.js", "typeHLA.sh": "/usr/local/bin/typeHLA.sh", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "bwa": "/usr/local/bin/bwa", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "k8": "/usr/local/bin/k8"}}
+config: {"url": "https://biocontainers.pro/tools/bwakit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwakit", "latest": {"0.7.17.dev1--hdfd78af_1": "sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4"}, "tags": {"0.7.17.dev1--hdfd78af_1": "sha256:335464029b06a3726692c6cba1620c56b988f0dac202df3c3ae33ef9a2f434c4"}, "docker": "quay.io/biocontainers/bwakit", "aliases": {"bwa-postalt.js": "/usr/local/bin/bwa-postalt.js", "fermi2": "/usr/local/bin/fermi2", "fermi2.pl": "/usr/local/bin/fermi2.pl", "htsbox": "/usr/local/bin/htsbox", "ropebwt2": "/usr/local/bin/ropebwt2", "run-HLA": "/usr/local/bin/run-HLA", "run-bwamem": "/usr/local/bin/run-bwamem", "run-gen-ref": "/usr/local/bin/run-gen-ref", "samblaster": "/usr/local/bin/samblaster", "trimadap": "/usr/local/bin/trimadap", "typeHLA-selctg.js": "/usr/local/bin/typeHLA-selctg.js", "typeHLA.js": "/usr/local/bin/typeHLA.js", "typeHLA.sh": "/usr/local/bin/typeHLA.sh", "seqtk": "/usr/local/bin/seqtk", "perl5.32.0": "/usr/local/bin/perl5.32.0", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwakit.
@@ -237,39 +237,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/typeHLA.sh   -v ${PWD} -w ${P
 ```
 
 
-#### ace2sam
+#### seqtk
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/seqtk
+$ podman run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### perl5.32.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### k8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### qualfa2fq.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xa2multi.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/xa2multi.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -282,15 +291,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### export2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### fasta-sanitize.pl
 
 ```bash
@@ -300,30 +300,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD}
 ```
 
 
-#### htsfile
+#### plot-ampliconstats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### interpolate_sam.pl
+#### ace2sam
 
 ```bash
-$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### k8
+#### blast2sam.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/k8
-$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

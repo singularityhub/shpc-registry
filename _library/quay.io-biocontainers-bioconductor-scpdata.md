@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-scpdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scpdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scpdata/container.yaml"
-updated_at: "2022-10-29 05:37:27.436799"
+updated_at: "2022-10-29 07:41:17.074567"
 latest: "1.2.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-scpdata"
 aliases:
+ - ".bioconductor-scpdata-post-link.sh"
+ - ".bioconductor-scpdata-pre-unlink.sh"
  - "glpsol"
 versions:
  - "1.2.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-scpdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scpdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpdata", "latest": {"1.2.0--r41hdfd78af_1": "sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc"}, "docker": "quay.io/biocontainers/bioconductor-scpdata", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scpdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scpdata", "latest": {"1.2.0--r41hdfd78af_1": "sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc"}, "docker": "quay.io/biocontainers/bioconductor-scpdata", "aliases": {".bioconductor-scpdata-post-link.sh": "/usr/local/bin/.bioconductor-scpdata-post-link.sh", ".bioconductor-scpdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-scpdata-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scpdata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-scpdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-scpdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-scpdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-scpdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-scpdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-scpdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-scpdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-scpdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

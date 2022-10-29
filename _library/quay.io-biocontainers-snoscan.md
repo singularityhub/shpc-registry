@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snoscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snoscan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snoscan/container.yaml"
-updated_at: "2022-10-29 05:55:01.099248"
+updated_at: "2022-10-29 07:54:13.375818"
 latest: "1.0--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/snoscan"
 aliases:
@@ -19,10 +19,12 @@ aliases:
  - "sort-snos"
  - "sort-snos.pl"
  - "swiss2gsi.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.0--pl5321hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for snoscan"
-config: {"url": "https://biocontainers.pro/tools/snoscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snoscan", "latest": {"1.0--pl5321hec16e2b_3": "sha256:0bf3cd93d6a0f33c2fae120c4f83a4618598cbf794abb972556a4ef2e0e68999"}, "tags": {"1.0--pl5321hec16e2b_3": "sha256:0bf3cd93d6a0f33c2fae120c4f83a4618598cbf794abb972556a4ef2e0e68999"}, "docker": "quay.io/biocontainers/snoscan", "aliases": {"fasta2gsi.pl": "/usr/local/bin/fasta2gsi.pl", "genbank2gsi.pl": "/usr/local/bin/genbank2gsi.pl", "genpept2gsi.pl": "/usr/local/bin/genpept2gsi.pl", "pir2gsi.pl": "/usr/local/bin/pir2gsi.pl", "snoscan": "/usr/local/bin/snoscan", "snoscanA": "/usr/local/bin/snoscanA", "snoscanH": "/usr/local/bin/snoscanH", "snoscanY": "/usr/local/bin/snoscanY", "sort-snos": "/usr/local/bin/sort-snos", "sort-snos.pl": "/usr/local/bin/sort-snos.pl", "swiss2gsi.pl": "/usr/local/bin/swiss2gsi.pl"}}
+config: {"url": "https://biocontainers.pro/tools/snoscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snoscan", "latest": {"1.0--pl5321hec16e2b_3": "sha256:0bf3cd93d6a0f33c2fae120c4f83a4618598cbf794abb972556a4ef2e0e68999"}, "tags": {"1.0--pl5321hec16e2b_3": "sha256:0bf3cd93d6a0f33c2fae120c4f83a4618598cbf794abb972556a4ef2e0e68999"}, "docker": "quay.io/biocontainers/snoscan", "aliases": {"fasta2gsi.pl": "/usr/local/bin/fasta2gsi.pl", "genbank2gsi.pl": "/usr/local/bin/genbank2gsi.pl", "genpept2gsi.pl": "/usr/local/bin/genpept2gsi.pl", "pir2gsi.pl": "/usr/local/bin/pir2gsi.pl", "snoscan": "/usr/local/bin/snoscan", "snoscanA": "/usr/local/bin/snoscanA", "snoscanH": "/usr/local/bin/snoscanH", "snoscanY": "/usr/local/bin/snoscanY", "sort-snos": "/usr/local/bin/sort-snos", "sort-snos.pl": "/usr/local/bin/sort-snos.pl", "swiss2gsi.pl": "/usr/local/bin/swiss2gsi.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snoscan.
@@ -204,6 +206,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sort-snos.pl   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/swiss2gsi.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/swiss2gsi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/swiss2gsi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

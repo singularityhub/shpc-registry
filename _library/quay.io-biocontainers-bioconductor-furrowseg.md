@@ -4,10 +4,12 @@ name:  "quay.io/biocontainers/bioconductor-furrowseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-furrowseg/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-furrowseg/container.yaml"
-updated_at: "2022-10-29 05:55:16.855013"
+updated_at: "2022-10-29 07:54:24.816267"
 latest: "1.22.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-furrowseg"
 aliases:
+ - ".bioconductor-furrowseg-post-link.sh"
+ - ".bioconductor-furrowseg-pre-unlink.sh"
  - "fftw-wisdom"
  - "fftw-wisdom-to-conf"
  - "fftwf-wisdom"
@@ -15,7 +17,7 @@ aliases:
 versions:
  - "1.22.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-furrowseg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-furrowseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-furrowseg", "latest": {"1.22.0--r41hdfd78af_1": "sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744"}, "docker": "quay.io/biocontainers/bioconductor-furrowseg", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-furrowseg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-furrowseg", "latest": {"1.22.0--r41hdfd78af_1": "sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744"}, "docker": "quay.io/biocontainers/bioconductor-furrowseg", "aliases": {".bioconductor-furrowseg-post-link.sh": "/usr/local/bin/.bioconductor-furrowseg-post-link.sh", ".bioconductor-furrowseg-pre-unlink.sh": "/usr/local/bin/.bioconductor-furrowseg-pre-unlink.sh", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-furrowseg.
@@ -98,6 +100,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-furrowseg-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-furrowseg-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-furrowseg-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-furrowseg-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-furrowseg-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-furrowseg-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-furrowseg-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-furrowseg-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

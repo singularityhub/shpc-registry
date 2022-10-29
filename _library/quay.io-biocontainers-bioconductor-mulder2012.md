@@ -4,24 +4,26 @@ name:  "quay.io/biocontainers/bioconductor-mulder2012"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mulder2012/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mulder2012/container.yaml"
-updated_at: "2022-10-29 05:58:28.623803"
+updated_at: "2022-10-29 07:56:43.743899"
 latest: "0.26.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mulder2012"
 aliases:
- - "aserver"
- - "c89"
- - "c99"
- - "gif2rgb"
- - "gifbuild"
- - "gifclrmp"
- - "gifecho"
+ - ".bioconductor-mulder2012-post-link.sh"
+ - ".bioconductor-mulder2012-pre-unlink.sh"
  - "giffilter"
- - "giffix"
+ - "gifsponge"
+ - "gifecho"
  - "gifinto"
+ - "jaotc"
+ - "aserver"
+ - "jdeprscan"
+ - "jhsdb"
+ - "jimage"
+ - "jlink"
 versions:
  - "0.26.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mulder2012"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mulder2012", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mulder2012", "latest": {"0.26.0--r36_0": "sha256:bf27bf5a0effcf6a4941ec48db83c4d8bc56c2c3eb1cb5349131840726016e33"}, "tags": {"0.26.0--r36_0": "sha256:bf27bf5a0effcf6a4941ec48db83c4d8bc56c2c3eb1cb5349131840726016e33"}, "docker": "quay.io/biocontainers/bioconductor-mulder2012", "aliases": {"aserver": "/usr/local/bin/aserver", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "gifecho": "/usr/local/bin/gifecho", "giffilter": "/usr/local/bin/giffilter", "giffix": "/usr/local/bin/giffix", "gifinto": "/usr/local/bin/gifinto"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mulder2012", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mulder2012", "latest": {"0.26.0--r36_0": "sha256:bf27bf5a0effcf6a4941ec48db83c4d8bc56c2c3eb1cb5349131840726016e33"}, "tags": {"0.26.0--r36_0": "sha256:bf27bf5a0effcf6a4941ec48db83c4d8bc56c2c3eb1cb5349131840726016e33"}, "docker": "quay.io/biocontainers/bioconductor-mulder2012", "aliases": {".bioconductor-mulder2012-post-link.sh": "/usr/local/bin/.bioconductor-mulder2012-post-link.sh", ".bioconductor-mulder2012-pre-unlink.sh": "/usr/local/bin/.bioconductor-mulder2012-pre-unlink.sh", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mulder2012.
@@ -107,66 +109,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### aserver
+#### .bioconductor-mulder2012-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-mulder2012-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mulder2012-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mulder2012-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### c89
+#### .bioconductor-mulder2012-pre-unlink.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c99
-
-```bash
-$ singularity exec <container> /usr/local/bin/c99
-$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2rgb
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifbuild
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifclrmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifclrmp
-$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifecho
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifecho
-$ podman run --it --rm --entrypoint /usr/local/bin/gifecho   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifecho   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-mulder2012-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mulder2012-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mulder2012-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -179,12 +136,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/giffilter   -v ${PWD} -w ${PW
 ```
 
 
-#### giffix
+#### gifsponge
 
 ```bash
-$ singularity exec <container> /usr/local/bin/giffix
-$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gifsponge
+$ podman run --it --rm --entrypoint /usr/local/bin/gifsponge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifsponge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifecho
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifecho
+$ podman run --it --rm --entrypoint /usr/local/bin/gifecho   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifecho   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +160,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/gifinto
 $ podman run --it --rm --entrypoint /usr/local/bin/gifinto   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gifinto   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jdeprscan
+
+```bash
+$ singularity exec <container> /usr/local/bin/jdeprscan
+$ podman run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/jhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jimage
+
+```bash
+$ singularity exec <container> /usr/local/bin/jimage
+$ podman run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jlink
+
+```bash
+$ singularity exec <container> /usr/local/bin/jlink
+$ podman run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dimspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dimspy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dimspy/container.yaml"
-updated_at: "2022-10-29 05:50:30.220296"
+updated_at: "2022-10-29 07:50:55.177705"
 latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dimspy"
 aliases:
@@ -18,7 +18,8 @@ aliases:
  - "nunit-console2"
  - "nunit-console4"
  - "vbc"
- - "2to3-3.7"
+ - "mono-package-runtime"
+ - "sgen-grep-binprot"
  - "al"
  - "al2"
  - "caspol"
@@ -27,11 +28,10 @@ aliases:
  - "cert-sync"
  - "cert2spc"
  - "certmgr"
- - "chktrust"
 versions:
  - "2.0.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for dimspy"
-config: {"url": "https://biocontainers.pro/tools/dimspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dimspy", "latest": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "tags": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "docker": "quay.io/biocontainers/dimspy", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "dimspy": "/usr/local/bin/dimspy", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "vbc": "/usr/local/bin/vbc", "2to3-3.7": "/usr/local/bin/2to3-3.7", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust"}}
+config: {"url": "https://biocontainers.pro/tools/dimspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dimspy", "latest": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "tags": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "docker": "quay.io/biocontainers/dimspy", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "dimspy": "/usr/local/bin/dimspy", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dimspy.
@@ -207,12 +207,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### 2to3-3.7
+#### mono-package-runtime
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mono-package-runtime
+$ podman run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sgen-grep-binprot
+
+```bash
+$ singularity exec <container> /usr/local/bin/sgen-grep-binprot
+$ podman run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -285,15 +294,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cert2spc   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/certmgr
 $ podman run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chktrust
-
-```bash
-$ singularity exec <container> /usr/local/bin/chktrust
-$ podman run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

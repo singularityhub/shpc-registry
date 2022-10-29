@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-term-progressbar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-progressbar/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-progressbar/container.yaml"
-updated_at: "2022-10-29 05:58:11.288872"
+updated_at: "2022-10-29 07:56:31.153914"
 latest: "2.22--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-term-progressbar"
 aliases:
  - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.22--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-term-progressbar"
-config: {"url": "https://biocontainers.pro/tools/perl-term-progressbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-progressbar", "latest": {"2.22--pl5321hdfd78af_1": "sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90"}, "tags": {"2.22--pl5321hdfd78af_1": "sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90"}, "docker": "quay.io/biocontainers/perl-term-progressbar", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
+config: {"url": "https://biocontainers.pro/tools/perl-term-progressbar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-progressbar", "latest": {"2.22--pl5321hdfd78af_1": "sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90"}, "tags": {"2.22--pl5321hdfd78af_1": "sha256:95015aeb0f30f0668041a75fadfd1f4780161768816ea8a30af4d6f3bfb63d90"}, "docker": "quay.io/biocontainers/perl-term-progressbar", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-term-progressbar.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/perl5.32.1
 $ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

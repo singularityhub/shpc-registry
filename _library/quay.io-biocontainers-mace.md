@@ -4,12 +4,13 @@ name:  "quay.io/biocontainers/mace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mace/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mace/container.yaml"
-updated_at: "2022-10-29 05:49:15.029210"
+updated_at: "2022-10-29 07:49:59.959356"
 latest: "1.2--py27hdeff1b7_3"
 container_url: "https://biocontainers.pro/tools/mace"
 aliases:
  - "mace.py"
  - "preprocessor.py"
+ - "wigToBigWig"
  - "aggregate_scores_in_intervals.py"
  - "align_print_template.py"
  - "axt_extract_ranges.py"
@@ -19,11 +20,10 @@ aliases:
  - "bed_bigwig_profile.py"
  - "bed_build_windows.py"
  - "bed_complement.py"
- - "bed_count_by_interval.py"
 versions:
  - "1.2--py27hdeff1b7_3"
 description: "shpc-registry automated BioContainers addition for mace"
-config: {"url": "https://biocontainers.pro/tools/mace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mace", "latest": {"1.2--py27hdeff1b7_3": "sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061"}, "tags": {"1.2--py27hdeff1b7_3": "sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061"}, "docker": "quay.io/biocontainers/mace", "aliases": {"mace.py": "/usr/local/bin/mace.py", "preprocessor.py": "/usr/local/bin/preprocessor.py", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/mace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mace", "latest": {"1.2--py27hdeff1b7_3": "sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061"}, "tags": {"1.2--py27hdeff1b7_3": "sha256:9ea49e4946df4c442fcb93a259ee671703ef6f0e05aa1f9457aea74894e41061"}, "docker": "quay.io/biocontainers/mace", "aliases": {"mace.py": "/usr/local/bin/mace.py", "preprocessor.py": "/usr/local/bin/preprocessor.py", "wigToBigWig": "/usr/local/bin/wigToBigWig", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mace.
@@ -127,6 +127,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/preprocessor.py   -v ${PWD} -
 ```
 
 
+#### wigToBigWig
+
+```bash
+$ singularity exec <container> /usr/local/bin/wigToBigWig
+$ podman run --it --rm --entrypoint /usr/local/bin/wigToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wigToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### aggregate_scores_in_intervals.py
 
 ```bash
@@ -205,15 +214,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${P
 $ singularity exec <container> /usr/local/bin/bed_complement.py
 $ podman run --it --rm --entrypoint /usr/local/bin/bed_complement.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bed_complement.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bed_count_by_interval.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/bed_count_by_interval.py
-$ podman run --it --rm --entrypoint /usr/local/bin/bed_count_by_interval.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed_count_by_interval.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/transcov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transcov/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/transcov/container.yaml"
-updated_at: "2022-10-29 05:37:52.327164"
+updated_at: "2022-10-29 07:41:35.472633"
 latest: "1.1.3--py_0"
 container_url: "https://biocontainers.pro/tools/transcov"
 aliases:
  - "transcov"
- - "2to3-3.7"
  - "f2py3.7"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
@@ -18,10 +18,11 @@ aliases:
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "1.1.3--py_0"
 description: "shpc-registry automated BioContainers addition for transcov"
-config: {"url": "https://biocontainers.pro/tools/transcov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transcov", "latest": {"1.1.3--py_0": "sha256:a6b55352d8ac536021200434f19585ef924ff00b6e5f3756b7be3b64c5aecb7c"}, "tags": {"1.1.3--py_0": "sha256:a6b55352d8ac536021200434f19585ef924ff00b6e5f3756b7be3b64c5aecb7c"}, "docker": "quay.io/biocontainers/transcov", "aliases": {"transcov": "/usr/local/bin/transcov", "2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/transcov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transcov", "latest": {"1.1.3--py_0": "sha256:a6b55352d8ac536021200434f19585ef924ff00b6e5f3756b7be3b64c5aecb7c"}, "tags": {"1.1.3--py_0": "sha256:a6b55352d8ac536021200434f19585ef924ff00b6e5f3756b7be3b64c5aecb7c"}, "docker": "quay.io/biocontainers/transcov", "aliases": {"transcov": "/usr/local/bin/transcov", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transcov.
@@ -116,21 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/transcov   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

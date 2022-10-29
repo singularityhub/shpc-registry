@@ -4,26 +4,28 @@ name:  "quay.io/biocontainers/hypercluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hypercluster/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hypercluster/container.yaml"
-updated_at: "2022-10-29 05:44:41.170106"
+updated_at: "2022-10-29 07:46:37.938419"
 latest: "0.1.9--0"
 container_url: "https://biocontainers.pro/tools/hypercluster"
 aliases:
  - "community"
+ - "croco-0.6-config"
+ - "csslint-0.6"
  - "x86_64-conda_cos6-linux-gnu-pkg-config"
- - "2to3-3.7"
- - "Magick++-config"
- - "MagickCore-config"
- - "MagickWand-config"
- - "acyclic"
- - "animate"
- - "assistant"
- - "bcomps"
- - "canbusutil"
- - "ccomps"
+ - "mpichversion"
+ - "mpivars"
+ - "parkill"
+ - "hydra_nameserver"
+ - "hydra_persist"
+ - "hydra_pmi_proxy"
+ - "mpiexec.hydra"
+ - "g-ir-doc-tool"
+ - "giffilter"
+ - "gifsponge"
 versions:
  - "0.1.9--0"
 description: "shpc-registry automated BioContainers addition for hypercluster"
-config: {"url": "https://biocontainers.pro/tools/hypercluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypercluster", "latest": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "tags": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "docker": "quay.io/biocontainers/hypercluster", "aliases": {"community": "/usr/local/bin/community", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "2to3-3.7": "/usr/local/bin/2to3-3.7", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "assistant": "/usr/local/bin/assistant", "bcomps": "/usr/local/bin/bcomps", "canbusutil": "/usr/local/bin/canbusutil", "ccomps": "/usr/local/bin/ccomps"}}
+config: {"url": "https://biocontainers.pro/tools/hypercluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypercluster", "latest": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "tags": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "docker": "quay.io/biocontainers/hypercluster", "aliases": {"community": "/usr/local/bin/community", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hypercluster.
@@ -118,6 +120,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/community   -v ${PWD} -w ${PW
 ```
 
 
+#### croco-0.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/croco-0.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/croco-0.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/croco-0.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csslint-0.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/csslint-0.6
+$ podman run --it --rm --entrypoint /usr/local/bin/csslint-0.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csslint-0.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### x86_64-conda_cos6-linux-gnu-pkg-config
 
 ```bash
@@ -127,93 +147,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos6-linux-gnu-p
 ```
 
 
-#### 2to3-3.7
+#### mpichversion
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpichversion
+$ podman run --it --rm --entrypoint /usr/local/bin/mpichversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpichversion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Magick++-config
+#### mpivars
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Magick++-config
-$ podman run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpivars
+$ podman run --it --rm --entrypoint /usr/local/bin/mpivars   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpivars   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MagickCore-config
+#### parkill
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MagickCore-config
-$ podman run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/parkill
+$ podman run --it --rm --entrypoint /usr/local/bin/parkill   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parkill   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MagickWand-config
+#### hydra_nameserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MagickWand-config
-$ podman run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hydra_nameserver
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_nameserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_nameserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### hydra_persist
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hydra_persist
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_persist   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_persist   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### animate
+#### hydra_pmi_proxy
 
 ```bash
-$ singularity exec <container> /usr/local/bin/animate
-$ podman run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hydra_pmi_proxy
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_pmi_proxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_pmi_proxy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### mpiexec.hydra
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpiexec.hydra
+$ podman run --it --rm --entrypoint /usr/local/bin/mpiexec.hydra   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpiexec.hydra   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### g-ir-doc-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-doc-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### giffilter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/giffilter
+$ podman run --it --rm --entrypoint /usr/local/bin/giffilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffilter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### gifsponge
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gifsponge
+$ podman run --it --rm --entrypoint /usr/local/bin/gifsponge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifsponge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

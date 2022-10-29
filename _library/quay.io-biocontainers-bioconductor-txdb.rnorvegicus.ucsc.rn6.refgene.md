@@ -4,24 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene/container.yaml"
-updated_at: "2022-10-29 05:46:17.967318"
+updated_at: "2022-10-29 07:47:49.309815"
 latest: "3.4.6--r41hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene"
 aliases:
- - "R"
- - "Rscript"
- - "acountry"
- - "adig"
- - "ahost"
- - "autopoint"
- - "bunzip2"
- - "bzcat"
- - "bzcmp"
- - "bzdiff"
+ - ".bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-post-link.sh"
+ - ".bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-pre-unlink.sh"
 versions:
  - "3.4.6--r41hdfd78af_8"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene", "latest": {"3.4.6--r41hdfd78af_8": "sha256:54a045a5a2b8dc001f5713c361b890c9ee6d8c93b58a4c22f3b3710b5c81ce39"}, "tags": {"3.4.6--r41hdfd78af_8": "sha256:54a045a5a2b8dc001f5713c361b890c9ee6d8c93b58a4c22f3b3710b5c81ce39"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene", "latest": {"3.4.6--r41hdfd78af_8": "sha256:54a045a5a2b8dc001f5713c361b890c9ee6d8c93b58a4c22f3b3710b5c81ce39"}, "tags": {"3.4.6--r41hdfd78af_8": "sha256:54a045a5a2b8dc001f5713c361b890c9ee6d8c93b58a4c22f3b3710b5c81ce39"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene", "aliases": {".bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-post-link.sh", ".bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene.
@@ -107,93 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### R
+#### .bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/R
-$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Rscript
+#### .bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-pre-unlink.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Rscript
-$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acountry
-
-```bash
-$ singularity exec <container> /usr/local/bin/acountry
-$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### adig
-
-```bash
-$ singularity exec <container> /usr/local/bin/adig
-$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ahost
-
-```bash
-$ singularity exec <container> /usr/local/bin/ahost
-$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### autopoint
-
-```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bunzip2
-
-```bash
-$ singularity exec <container> /usr/local/bin/bunzip2
-$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcat
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcmp
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzdiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzdiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

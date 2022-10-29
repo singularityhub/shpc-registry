@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/super-focus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/super-focus/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/super-focus/container.yaml"
-updated_at: "2022-10-29 05:55:22.798640"
+updated_at: "2022-10-29 07:54:29.153412"
 latest: "1.6--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/super-focus"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "rapsearch"
  - "superfocus"
  - "superfocus_downloadDB"
- - "2to3-3.10"
- - "accn-at-a-time"
- - "align-columns"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asn2xml"
+ - "mmseqs"
+ - "jellyfish"
+ - "gawk-5.1.0"
  - "awk"
- - "between-two-genes"
- - "blast_formatter"
- - "blastdb_aliastool"
+ - "gawk"
+ - "diamond"
+ - "edirect.py"
+ - "filter-columns"
+ - "fuse-segments"
+ - "gene2range"
 versions:
  - "1.6--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for super-focus"
-config: {"url": "https://biocontainers.pro/tools/super-focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for super-focus", "latest": {"1.6--pyhdfd78af_1": "sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9"}, "tags": {"1.6--pyhdfd78af_1": "sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9"}, "docker": "quay.io/biocontainers/super-focus", "aliases": {"prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch", "superfocus": "/usr/local/bin/superfocus", "superfocus_downloadDB": "/usr/local/bin/superfocus_downloadDB", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "awk": "/usr/local/bin/awk", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool"}}
+config: {"url": "https://biocontainers.pro/tools/super-focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for super-focus", "latest": {"1.6--pyhdfd78af_1": "sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9"}, "tags": {"1.6--pyhdfd78af_1": "sha256:d638c5b4b8528890f384b4f18f3c194cb3d56725b5fb315cb99d8cf7804df7f9"}, "docker": "quay.io/biocontainers/super-focus", "aliases": {"prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch", "superfocus": "/usr/local/bin/superfocus", "superfocus_downloadDB": "/usr/local/bin/superfocus_downloadDB", "mmseqs": "/usr/local/bin/mmseqs", "jellyfish": "/usr/local/bin/jellyfish", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "diamond": "/usr/local/bin/diamond", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/super-focus.
@@ -147,57 +147,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/superfocus_downloadDB   -v ${
 ```
 
 
-#### 2to3-3.10
+#### mmseqs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mmseqs
+$ podman run --it --rm --entrypoint /usr/local/bin/mmseqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mmseqs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### jellyfish
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### gawk-5.1.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### amino-acid-composition
-
-```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### archive-pubmed
-
-```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### asn2xml
-
-```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -210,30 +183,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### between-two-genes
+#### gawk
 
 ```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gawk
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast_formatter
+#### diamond
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/diamond
+$ podman run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdb_aliastool
+#### edirect.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/edirect.py
+$ podman run --it --rm --entrypoint /usr/local/bin/edirect.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/edirect.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filter-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fuse-segments
+
+```bash
+$ singularity exec <container> /usr/local/bin/fuse-segments
+$ podman run --it --rm --entrypoint /usr/local/bin/fuse-segments   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fuse-segments   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gene2range
+
+```bash
+$ singularity exec <container> /usr/local/bin/gene2range
+$ podman run --it --rm --entrypoint /usr/local/bin/gene2range   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gene2range   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

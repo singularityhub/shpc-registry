@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/ldblockshow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ldblockshow/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ldblockshow/container.yaml"
-updated_at: "2022-10-29 05:45:10.370783"
+updated_at: "2022-10-29 07:46:59.656134"
 latest: "1.40--pl5321hd03093a_2"
 container_url: "https://biocontainers.pro/tools/ldblockshow"
 aliases:
  - "LDBlockShow"
  - "ShowLDSVG"
  - "plink"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.40--pl5321hd03093a_2"
 description: "shpc-registry automated BioContainers addition for ldblockshow"
-config: {"url": "https://biocontainers.pro/tools/ldblockshow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ldblockshow", "latest": {"1.40--pl5321hd03093a_2": "sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2"}, "tags": {"1.40--pl5321hd03093a_2": "sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2"}, "docker": "quay.io/biocontainers/ldblockshow", "aliases": {"LDBlockShow": "/usr/local/bin/LDBlockShow", "ShowLDSVG": "/usr/local/bin/ShowLDSVG", "plink": "/usr/local/bin/plink"}}
+config: {"url": "https://biocontainers.pro/tools/ldblockshow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ldblockshow", "latest": {"1.40--pl5321hd03093a_2": "sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2"}, "tags": {"1.40--pl5321hd03093a_2": "sha256:0780e7d3e35e4977859a316e8797c61993390d6c9880ff6ad339affdeba91be2"}, "docker": "quay.io/biocontainers/ldblockshow", "aliases": {"LDBlockShow": "/usr/local/bin/LDBlockShow", "ShowLDSVG": "/usr/local/bin/ShowLDSVG", "plink": "/usr/local/bin/plink", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ldblockshow.
@@ -124,6 +126,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ShowLDSVG   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/plink
 $ podman run --it --rm --entrypoint /usr/local/bin/plink   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/plink   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

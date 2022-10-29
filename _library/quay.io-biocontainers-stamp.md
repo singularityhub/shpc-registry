@@ -4,26 +4,35 @@ name:  "quay.io/biocontainers/stamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stamp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/stamp/container.yaml"
-updated_at: "2022-10-29 05:40:34.981305"
+updated_at: "2022-10-29 07:43:34.793518"
 latest: "2.1.3--py_2"
 container_url: "https://biocontainers.pro/tools/stamp"
 aliases:
  - "STAMP"
  - "checkHierarchy.py"
- - "assistant"
+ - "pylupdate4"
+ - "pyqi"
+ - "pyrcc4"
+ - "pyuic4"
+ - "qdoc3"
+ - "qmlviewer"
+ - "qt3to4"
+ - "qtconfig"
+ - "qttracereplay"
  - "biom"
- - "designer"
+ - "qhelpconverter"
+ - "sip"
  - "futurize"
- - "gio-launch-desktop"
- - "idle"
- - "lconvert"
- - "linguist"
- - "lrelease"
- - "lupdate"
+ - "pasteurize"
+ - "qdbus"
+ - "qdbuscpp2xml"
+ - "qdbusviewer"
+ - "qdbusxml2cpp"
+ - "xmlpatterns"
 versions:
  - "2.1.3--py_2"
 description: "shpc-registry automated BioContainers addition for stamp"
-config: {"url": "https://biocontainers.pro/tools/stamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stamp", "latest": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "tags": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "docker": "quay.io/biocontainers/stamp", "aliases": {"STAMP": "/usr/local/bin/STAMP", "checkHierarchy.py": "/usr/local/bin/checkHierarchy.py", "assistant": "/usr/local/bin/assistant", "biom": "/usr/local/bin/biom", "designer": "/usr/local/bin/designer", "futurize": "/usr/local/bin/futurize", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle": "/usr/local/bin/idle", "lconvert": "/usr/local/bin/lconvert", "linguist": "/usr/local/bin/linguist", "lrelease": "/usr/local/bin/lrelease", "lupdate": "/usr/local/bin/lupdate"}}
+config: {"url": "https://biocontainers.pro/tools/stamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stamp", "latest": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "tags": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "docker": "quay.io/biocontainers/stamp", "aliases": {"STAMP": "/usr/local/bin/STAMP", "checkHierarchy.py": "/usr/local/bin/checkHierarchy.py", "pylupdate4": "/usr/local/bin/pylupdate4", "pyqi": "/usr/local/bin/pyqi", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qdoc3": "/usr/local/bin/qdoc3", "qmlviewer": "/usr/local/bin/qmlviewer", "qt3to4": "/usr/local/bin/qt3to4", "qtconfig": "/usr/local/bin/qtconfig", "qttracereplay": "/usr/local/bin/qttracereplay", "biom": "/usr/local/bin/biom", "qhelpconverter": "/usr/local/bin/qhelpconverter", "sip": "/usr/local/bin/sip", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "qdbus": "/usr/local/bin/qdbus", "qdbuscpp2xml": "/usr/local/bin/qdbuscpp2xml", "qdbusviewer": "/usr/local/bin/qdbusviewer", "qdbusxml2cpp": "/usr/local/bin/qdbusxml2cpp", "xmlpatterns": "/usr/local/bin/xmlpatterns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stamp.
@@ -127,12 +136,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/checkHierarchy.py   -v ${PWD}
 ```
 
 
-#### assistant
+#### pylupdate4
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pylupdate4
+$ podman run --it --rm --entrypoint /usr/local/bin/pylupdate4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pylupdate4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyqi
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyqi
+$ podman run --it --rm --entrypoint /usr/local/bin/pyqi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyqi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrcc4
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrcc4
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrcc4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrcc4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyuic4
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyuic4
+$ podman run --it --rm --entrypoint /usr/local/bin/pyuic4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyuic4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qdoc3
+
+```bash
+$ singularity exec <container> /usr/local/bin/qdoc3
+$ podman run --it --rm --entrypoint /usr/local/bin/qdoc3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdoc3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qmlviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/qmlviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/qmlviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qmlviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qt3to4
+
+```bash
+$ singularity exec <container> /usr/local/bin/qt3to4
+$ podman run --it --rm --entrypoint /usr/local/bin/qt3to4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qt3to4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qtconfig
+
+```bash
+$ singularity exec <container> /usr/local/bin/qtconfig
+$ podman run --it --rm --entrypoint /usr/local/bin/qtconfig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qtconfig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qttracereplay
+
+```bash
+$ singularity exec <container> /usr/local/bin/qttracereplay
+$ podman run --it --rm --entrypoint /usr/local/bin/qttracereplay   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qttracereplay   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -145,12 +226,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### designer
+#### qhelpconverter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/designer
-$ podman run --it --rm --entrypoint /usr/local/bin/designer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/designer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qhelpconverter
+$ podman run --it --rm --entrypoint /usr/local/bin/qhelpconverter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qhelpconverter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sip
+
+```bash
+$ singularity exec <container> /usr/local/bin/sip
+$ podman run --it --rm --entrypoint /usr/local/bin/sip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -163,57 +253,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### gio-launch-desktop
+#### pasteurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle
+#### qdbus
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qdbus
+$ podman run --it --rm --entrypoint /usr/local/bin/qdbus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdbus   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### lconvert
+#### qdbuscpp2xml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/lconvert
-$ podman run --it --rm --entrypoint /usr/local/bin/lconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/lconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qdbuscpp2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/qdbuscpp2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdbuscpp2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### linguist
+#### qdbusviewer
 
 ```bash
-$ singularity exec <container> /usr/local/bin/linguist
-$ podman run --it --rm --entrypoint /usr/local/bin/linguist   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linguist   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qdbusviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/qdbusviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdbusviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### lrelease
+#### qdbusxml2cpp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/lrelease
-$ podman run --it --rm --entrypoint /usr/local/bin/lrelease   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/lrelease   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qdbusxml2cpp
+$ podman run --it --rm --entrypoint /usr/local/bin/qdbusxml2cpp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdbusxml2cpp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### lupdate
+#### xmlpatterns
 
 ```bash
-$ singularity exec <container> /usr/local/bin/lupdate
-$ podman run --it --rm --entrypoint /usr/local/bin/lupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/lupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xmlpatterns
+$ podman run --it --rm --entrypoint /usr/local/bin/xmlpatterns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xmlpatterns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

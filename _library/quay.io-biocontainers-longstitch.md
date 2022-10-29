@@ -4,12 +4,13 @@ name:  "quay.io/biocontainers/longstitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longstitch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/longstitch/container.yaml"
-updated_at: "2022-10-29 05:42:06.773079"
+updated_at: "2022-10-29 07:44:42.738959"
 latest: "1.0.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longstitch"
 aliases:
  - "LINKS"
  - "abyss-rresolver-short"
+ - "abyss-stack-size"
  - "arcs"
  - "arcs-make"
  - "gunzip"
@@ -29,6 +30,7 @@ aliases:
  - "ntLink"
  - "ntLink_rounds"
  - "prlimit"
+ - "scriptlive"
  - "tigmint"
  - "tigmint-arcs-tsv"
  - "tigmint-cut"
@@ -48,20 +50,20 @@ aliases:
  - "znew"
  - "zsh"
  - "zsh-5.8"
- - "2to3-3.9"
- - "ABYSS"
- - "ABYSS-P"
- - "AdjList"
- - "Consensus"
- - "DAssembler"
- - "DistanceEst"
- - "DistanceEst-ssq"
- - "KAligner"
- - "MergeContigs"
+ - "cal"
+ - "chmem"
+ - "choom"
+ - "chrt"
+ - "col"
+ - "colcrt"
+ - "colrm"
+ - "column"
+ - "dmesg"
+ - "eject"
 versions:
  - "1.0.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for longstitch"
-config: {"url": "https://biocontainers.pro/tools/longstitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longstitch", "latest": {"1.0.3--hdfd78af_0": "sha256:38f1711e184bd2a7cf02dee5ac1cdd7dc74417ffbe2f4cb36ee2ea3e20b68c4e"}, "tags": {"1.0.3--hdfd78af_0": "sha256:38f1711e184bd2a7cf02dee5ac1cdd7dc74417ffbe2f4cb36ee2ea3e20b68c4e"}, "docker": "quay.io/biocontainers/longstitch", "aliases": {"LINKS": "/usr/local/bin/LINKS", "abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "arcs": "/usr/local/bin/arcs", "arcs-make": "/usr/local/bin/arcs-make", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "irqtop": "/usr/local/bin/irqtop", "long-to-linked-pe": "/usr/local/bin/long-to-linked-pe", "longstitch": "/usr/local/bin/longstitch", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "ntLink": "/usr/local/bin/ntLink", "ntLink_rounds": "/usr/local/bin/ntLink_rounds", "prlimit": "/usr/local/bin/prlimit", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus", "DAssembler": "/usr/local/bin/DAssembler", "DistanceEst": "/usr/local/bin/DistanceEst", "DistanceEst-ssq": "/usr/local/bin/DistanceEst-ssq", "KAligner": "/usr/local/bin/KAligner", "MergeContigs": "/usr/local/bin/MergeContigs"}}
+config: {"url": "https://biocontainers.pro/tools/longstitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longstitch", "latest": {"1.0.3--hdfd78af_0": "sha256:38f1711e184bd2a7cf02dee5ac1cdd7dc74417ffbe2f4cb36ee2ea3e20b68c4e"}, "tags": {"1.0.3--hdfd78af_0": "sha256:38f1711e184bd2a7cf02dee5ac1cdd7dc74417ffbe2f4cb36ee2ea3e20b68c4e"}, "docker": "quay.io/biocontainers/longstitch", "aliases": {"LINKS": "/usr/local/bin/LINKS", "abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "arcs": "/usr/local/bin/arcs", "arcs-make": "/usr/local/bin/arcs-make", "gunzip": "/usr/local/bin/gunzip", "gzexe": "/usr/local/bin/gzexe", "gzip": "/usr/local/bin/gzip", "indexlr": "/usr/local/bin/indexlr", "irqtop": "/usr/local/bin/irqtop", "long-to-linked-pe": "/usr/local/bin/long-to-linked-pe", "longstitch": "/usr/local/bin/longstitch", "lrunzip": "/usr/local/bin/lrunzip", "lrzcat": "/usr/local/bin/lrzcat", "lrzip": "/usr/local/bin/lrzip", "lrztar": "/usr/local/bin/lrztar", "lrzuntar": "/usr/local/bin/lrzuntar", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "ntLink": "/usr/local/bin/ntLink", "ntLink_rounds": "/usr/local/bin/ntLink_rounds", "prlimit": "/usr/local/bin/prlimit", "scriptlive": "/usr/local/bin/scriptlive", "tigmint": "/usr/local/bin/tigmint", "tigmint-arcs-tsv": "/usr/local/bin/tigmint-arcs-tsv", "tigmint-cut": "/usr/local/bin/tigmint-cut", "tigmint-make": "/usr/local/bin/tigmint-make", "tigmint_estimate_dist.py": "/usr/local/bin/tigmint_estimate_dist.py", "tigmint_molecule.py": "/usr/local/bin/tigmint_molecule.py", "tigmint_molecule_paf.py": "/usr/local/bin/tigmint_molecule_paf.py", "uncompress": "/usr/local/bin/uncompress", "zcat": "/usr/local/bin/zcat", "zcmp": "/usr/local/bin/zcmp", "zdiff": "/usr/local/bin/zdiff", "zegrep": "/usr/local/bin/zegrep", "zfgrep": "/usr/local/bin/zfgrep", "zforce": "/usr/local/bin/zforce", "zgrep": "/usr/local/bin/zgrep", "zmore": "/usr/local/bin/zmore", "znew": "/usr/local/bin/znew", "zsh": "/usr/local/bin/zsh", "zsh-5.8": "/usr/local/bin/zsh-5.8", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longstitch.
@@ -162,6 +164,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/LINKS   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/abyss-rresolver-short
 $ podman run --it --rm --entrypoint /usr/local/bin/abyss-rresolver-short   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/abyss-rresolver-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-stack-size
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-stack-size
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-stack-size   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-stack-size   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -336,6 +347,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/prlimit   -v ${PWD} -w ${PWD}
 ```
 
 
+#### scriptlive
+
+```bash
+$ singularity exec <container> /usr/local/bin/scriptlive
+$ podman run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### tigmint
 
 ```bash
@@ -507,93 +527,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/zsh-5.8   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.9
+#### cal
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cal
+$ podman run --it --rm --entrypoint /usr/local/bin/cal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cal   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ABYSS
+#### chmem
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ABYSS
-$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chmem
+$ podman run --it --rm --entrypoint /usr/local/bin/chmem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmem   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ABYSS-P
+#### choom
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ABYSS-P
-$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/choom
+$ podman run --it --rm --entrypoint /usr/local/bin/choom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/choom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### AdjList
+#### chrt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/AdjList
-$ podman run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chrt
+$ podman run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Consensus
+#### col
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Consensus
-$ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/col
+$ podman run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DAssembler
+#### colcrt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DAssembler
-$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/colcrt
+$ podman run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DistanceEst
+#### colrm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/colrm
+$ podman run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DistanceEst-ssq
+#### column
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst-ssq
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/column
+$ podman run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### KAligner
+#### dmesg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/KAligner
-$ podman run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dmesg
+$ podman run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MergeContigs
+#### eject
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MergeContigs
-$ podman run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/eject
+$ podman run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

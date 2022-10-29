@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/changeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/changeo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/changeo/container.yaml"
-updated_at: "2022-10-29 05:48:37.675731"
+updated_at: "2022-10-29 07:49:32.405473"
 latest: "1.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/changeo"
 aliases:
@@ -31,20 +31,20 @@ aliases:
  - "SplitSeq.py"
  - "UnifyHeaders.py"
  - "airr-tools"
- - "2to3-3.8"
- - "accn-at-a-time"
+ - "filter-table"
+ - "spdi2prod"
+ - "vsearch"
+ - "muscle"
  - "align-columns"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asn2xml"
- - "between-two-genes"
- - "blast_formatter"
- - "blastdb_aliastool"
- - "blastdbcheck"
+ - "blst2tkns"
+ - "csv2xml"
+ - "disambiguate-nucleotides"
+ - "download-ncbi-software"
+ - "ecommon.sh"
 versions:
  - "1.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for changeo"
-config: {"url": "https://biocontainers.pro/tools/changeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for changeo", "latest": {"1.2.0--pyhdfd78af_0": "sha256:aa3dc82f13ac8ac5f932b8fa97397bf9138c955196e8c3695b1df5c89ab8d3df"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:aa3dc82f13ac8ac5f932b8fa97397bf9138c955196e8c3695b1df5c89ab8d3df"}, "docker": "quay.io/biocontainers/changeo", "aliases": {"AlignRecords.py": "/usr/local/bin/AlignRecords.py", "AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "AssignGenes.py": "/usr/local/bin/AssignGenes.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "BuildTrees.py": "/usr/local/bin/BuildTrees.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertDb.py": "/usr/local/bin/ConvertDb.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "CreateGermlines.py": "/usr/local/bin/CreateGermlines.py", "DefineClones.py": "/usr/local/bin/DefineClones.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MakeDb.py": "/usr/local/bin/MakeDb.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseDb.py": "/usr/local/bin/ParseDb.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py", "airr-tools": "/usr/local/bin/airr-tools", "2to3-3.8": "/usr/local/bin/2to3-3.8", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
+config: {"url": "https://biocontainers.pro/tools/changeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for changeo", "latest": {"1.2.0--pyhdfd78af_0": "sha256:aa3dc82f13ac8ac5f932b8fa97397bf9138c955196e8c3695b1df5c89ab8d3df"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:aa3dc82f13ac8ac5f932b8fa97397bf9138c955196e8c3695b1df5c89ab8d3df"}, "docker": "quay.io/biocontainers/changeo", "aliases": {"AlignRecords.py": "/usr/local/bin/AlignRecords.py", "AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "AssignGenes.py": "/usr/local/bin/AssignGenes.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "BuildTrees.py": "/usr/local/bin/BuildTrees.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertDb.py": "/usr/local/bin/ConvertDb.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "CreateGermlines.py": "/usr/local/bin/CreateGermlines.py", "DefineClones.py": "/usr/local/bin/DefineClones.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MakeDb.py": "/usr/local/bin/MakeDb.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseDb.py": "/usr/local/bin/ParseDb.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py", "airr-tools": "/usr/local/bin/airr-tools", "filter-table": "/usr/local/bin/filter-table", "spdi2prod": "/usr/local/bin/spdi2prod", "vsearch": "/usr/local/bin/vsearch", "muscle": "/usr/local/bin/muscle", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides", "download-ncbi-software": "/usr/local/bin/download-ncbi-software", "ecommon.sh": "/usr/local/bin/ecommon.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/changeo.
@@ -337,21 +337,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/airr-tools   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.8
+#### filter-table
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/filter-table
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-table   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### spdi2prod
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spdi2prod
+$ podman run --it --rm --entrypoint /usr/local/bin/spdi2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spdi2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vsearch
+
+```bash
+$ singularity exec <container> /usr/local/bin/vsearch
+$ podman run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### muscle
+
+```bash
+$ singularity exec <container> /usr/local/bin/muscle
+$ podman run --it --rm --entrypoint /usr/local/bin/muscle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/muscle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -364,66 +382,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w 
 ```
 
 
-#### amino-acid-composition
+#### blst2tkns
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blst2tkns
+$ podman run --it --rm --entrypoint /usr/local/bin/blst2tkns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blst2tkns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### csv2xml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/csv2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/csv2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asn2xml
+#### disambiguate-nucleotides
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/disambiguate-nucleotides
+$ podman run --it --rm --entrypoint /usr/local/bin/disambiguate-nucleotides   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/disambiguate-nucleotides   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### between-two-genes
+#### download-ncbi-software
 
 ```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/download-ncbi-software
+$ podman run --it --rm --entrypoint /usr/local/bin/download-ncbi-software   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/download-ncbi-software   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast_formatter
+#### ecommon.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdb_aliastool
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdbcheck
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ecommon.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/ecommon.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ecommon.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

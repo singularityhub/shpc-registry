@@ -4,25 +4,34 @@ name:  "quay.io/biocontainers/biobb_adapters"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_adapters/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_adapters/container.yaml"
-updated_at: "2022-10-29 05:32:34.556623"
+updated_at: "2022-10-29 07:37:41.785741"
 latest: "3.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_adapters"
 aliases:
- - "black-primer"
- - "2to3-3.8"
- - "activate-global-python-argcomplete"
- - "acyclic"
- - "annotate"
- - "aserver"
- - "assistant"
  - "bagit.py"
- - "bcomps"
- - "bdftogd"
  - "black"
+ - "black-primer"
+ - "blackd"
+ - "jupyter-console"
+ - "jupyter-dejavu"
+ - "jupyter-qtconsole"
+ - "prov-compare"
+ - "prov-convert"
+ - "send2trash"
+ - "cwltool"
+ - "schema-salad-doc"
+ - "schema-salad-tool"
+ - "csv2rdf"
+ - "rdf2dot"
+ - "rdfgraphisomorphism"
+ - "rdfpipe"
+ - "rdfs2dot"
+ - "jupyter-bundlerextension"
+ - "jupyter-nbextension"
 versions:
  - "3.7.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_adapters"
-config: {"url": "https://biocontainers.pro/tools/biobb_adapters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_adapters", "latest": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85"}, "tags": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85"}, "docker": "quay.io/biocontainers/biobb_adapters", "aliases": {"black-primer": "/usr/local/bin/black-primer", "2to3-3.8": "/usr/local/bin/2to3-3.8", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bagit.py": "/usr/local/bin/bagit.py", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "black": "/usr/local/bin/black"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_adapters", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_adapters", "latest": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85"}, "tags": {"3.7.0--pyhdfd78af_0": "sha256:4d8ee7daa23a452321524f2ad7c6f3cadc41bc490670a6d02bfdf03afb990c85"}, "docker": "quay.io/biocontainers/biobb_adapters", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "black": "/usr/local/bin/black", "black-primer": "/usr/local/bin/black-primer", "blackd": "/usr/local/bin/blackd", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "send2trash": "/usr/local/bin/send2trash", "cwltool": "/usr/local/bin/cwltool", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_adapters.
@@ -108,69 +117,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### black-primer
-
-```bash
-$ singularity exec <container> /usr/local/bin/black-primer
-$ podman run --it --rm --entrypoint /usr/local/bin/black-primer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/black-primer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### activate-global-python-argcomplete
-
-```bash
-$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
-$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### assistant
-
-```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bagit.py
 
 ```bash
@@ -180,30 +126,174 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bagit.py   -v ${PWD} -w ${PWD
 ```
 
 
-#### bcomps
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bdftogd
-
-```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### black
 
 ```bash
 $ singularity exec <container> /usr/local/bin/black
 $ podman run --it --rm --entrypoint /usr/local/bin/black   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/black   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### black-primer
+
+```bash
+$ singularity exec <container> /usr/local/bin/black-primer
+$ podman run --it --rm --entrypoint /usr/local/bin/black-primer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/black-primer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blackd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blackd
+$ podman run --it --rm --entrypoint /usr/local/bin/blackd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blackd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-console
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-console
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-console   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-console   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-dejavu
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-dejavu
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-dejavu   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-dejavu   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-qtconsole
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-qtconsole
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-qtconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-qtconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### prov-compare
+
+```bash
+$ singularity exec <container> /usr/local/bin/prov-compare
+$ podman run --it --rm --entrypoint /usr/local/bin/prov-compare   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prov-compare   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### prov-convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/prov-convert
+$ podman run --it --rm --entrypoint /usr/local/bin/prov-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prov-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### send2trash
+
+```bash
+$ singularity exec <container> /usr/local/bin/send2trash
+$ podman run --it --rm --entrypoint /usr/local/bin/send2trash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/send2trash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwltool
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwltool
+$ podman run --it --rm --entrypoint /usr/local/bin/cwltool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwltool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### schema-salad-doc
+
+```bash
+$ singularity exec <container> /usr/local/bin/schema-salad-doc
+$ podman run --it --rm --entrypoint /usr/local/bin/schema-salad-doc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/schema-salad-doc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### schema-salad-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/schema-salad-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/schema-salad-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/schema-salad-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csv2rdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/csv2rdf
+$ podman run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdf2dot
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdf2dot
+$ podman run --it --rm --entrypoint /usr/local/bin/rdf2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdf2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdfgraphisomorphism
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdfgraphisomorphism
+$ podman run --it --rm --entrypoint /usr/local/bin/rdfgraphisomorphism   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdfgraphisomorphism   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdfpipe
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdfpipe
+$ podman run --it --rm --entrypoint /usr/local/bin/rdfpipe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdfpipe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdfs2dot
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdfs2dot
+$ podman run --it --rm --entrypoint /usr/local/bin/rdfs2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdfs2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-bundlerextension
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-bundlerextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-nbextension
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-nbextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

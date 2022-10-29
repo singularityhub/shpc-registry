@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/bolt-lmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bolt-lmm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bolt-lmm/container.yaml"
-updated_at: "2022-10-29 05:50:05.347693"
+updated_at: "2022-10-29 07:50:36.931197"
 latest: "2.3.4--hbe668fe_0"
 container_url: "https://biocontainers.pro/tools/bolt-lmm"
 aliases:
  - "bolt"
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "2.3.4--hbe668fe_0"
 description: "shpc-registry automated BioContainers addition for bolt-lmm"
-config: {"url": "https://biocontainers.pro/tools/bolt-lmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bolt-lmm", "latest": {"2.3.4--hbe668fe_0": "sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8"}, "tags": {"2.3.4--hbe668fe_0": "sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8"}, "docker": "quay.io/biocontainers/bolt-lmm", "aliases": {"bolt": "/usr/local/bin/bolt", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/bolt-lmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bolt-lmm", "latest": {"2.3.4--hbe668fe_0": "sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8"}, "tags": {"2.3.4--hbe668fe_0": "sha256:50ea2009289ab36e2025487eb652f85437436b641e6cd6c83643353034dacff8"}, "docker": "quay.io/biocontainers/bolt-lmm", "aliases": {"bolt": "/usr/local/bin/bolt", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bolt-lmm.
@@ -113,21 +113,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bolt   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

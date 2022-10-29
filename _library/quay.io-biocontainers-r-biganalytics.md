@@ -4,17 +4,18 @@ name:  "quay.io/biocontainers/r-biganalytics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biganalytics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-biganalytics/container.yaml"
-updated_at: "2022-10-29 05:45:57.959593"
+updated_at: "2022-10-29 07:47:34.537044"
 latest: "1.1.14--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-biganalytics"
 aliases:
- - "tclsh8.5"
  - "uconv"
+ - "tclsh8.5"
  - "wish8.5"
+ - "ncursesw5-config"
 versions:
  - "1.1.14--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-biganalytics"
-config: {"url": "https://biocontainers.pro/tools/r-biganalytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biganalytics", "latest": {"1.1.14--r3.3.1_0": "sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea"}, "tags": {"1.1.14--r3.3.1_0": "sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea"}, "docker": "quay.io/biocontainers/r-biganalytics", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "uconv": "/usr/local/bin/uconv", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/r-biganalytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biganalytics", "latest": {"1.1.14--r3.3.1_0": "sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea"}, "tags": {"1.1.14--r3.3.1_0": "sha256:f11c38f795d0f9be4dd825f5daad90c4f85a85f617356f913e5d1548a17c43ea"}, "docker": "quay.io/biocontainers/r-biganalytics", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biganalytics.
@@ -100,15 +101,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### tclsh8.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/tclsh8.5
-$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### uconv
 
 ```bash
@@ -118,12 +110,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <
 ```
 
 
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### wish8.5
 
 ```bash
 $ singularity exec <container> /usr/local/bin/wish8.5
 $ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

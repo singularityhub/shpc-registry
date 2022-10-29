@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/bioconductor-depecher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-depecher/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-depecher/container.yaml"
-updated_at: "2022-10-29 05:55:13.130300"
+updated_at: "2022-10-29 07:54:22.040332"
 latest: "1.8.0--r41h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-depecher"
 aliases:
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "1.8.0--r41h399db7b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-depecher"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-depecher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-depecher", "latest": {"1.8.0--r41h399db7b_0": "sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9"}, "docker": "quay.io/biocontainers/bioconductor-depecher", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-depecher", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-depecher", "latest": {"1.8.0--r41h399db7b_0": "sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:81666b3e9788a0798a5eee8328b486b05fa29f62b2a0bd32fbb4c8488c6555c9"}, "docker": "quay.io/biocontainers/bioconductor-depecher", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-depecher.
@@ -104,21 +104,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

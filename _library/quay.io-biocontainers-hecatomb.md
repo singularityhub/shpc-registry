@@ -4,25 +4,36 @@ name:  "quay.io/biocontainers/hecatomb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hecatomb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hecatomb/container.yaml"
-updated_at: "2022-10-29 05:40:30.062499"
+updated_at: "2022-10-29 07:43:31.169346"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hecatomb"
 aliases:
- - "hecatomb"
- - "2to3-3.10"
- - "acyclic"
- - "annotate"
- - "bcomps"
- - "bdftogd"
  - "bsdcat"
  - "bsdcpio"
  - "bsdtar"
+ - "conda2solv"
+ - "dumpsolv"
+ - "hecatomb"
+ - "installcheck"
+ - "mamba"
+ - "mamba-package"
+ - "mergesolv"
+ - "repo2solv"
+ - "testsolv"
+ - "conda-env"
+ - "cph"
+ - "plac_runner.py"
+ - "yte"
+ - "docutils"
+ - "pulptest"
  - "cbc"
- - "ccomps"
+ - "clp"
+ - "snakemake"
+ - "snakemake-bash-completion"
 versions:
  - "1.1.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hecatomb"
-config: {"url": "https://biocontainers.pro/tools/hecatomb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hecatomb", "latest": {"1.1.0--hdfd78af_0": "sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05"}, "tags": {"1.1.0--hdfd78af_0": "sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05"}, "docker": "quay.io/biocontainers/hecatomb", "aliases": {"hecatomb": "/usr/local/bin/hecatomb", "2to3-3.10": "/usr/local/bin/2to3-3.10", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "cbc": "/usr/local/bin/cbc", "ccomps": "/usr/local/bin/ccomps"}}
+config: {"url": "https://biocontainers.pro/tools/hecatomb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hecatomb", "latest": {"1.1.0--hdfd78af_0": "sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05"}, "tags": {"1.1.0--hdfd78af_0": "sha256:d74f91dc02b4c54fb1ee2d70d19806d87ef12e60d1082c346c15f70ba9f0ca05"}, "docker": "quay.io/biocontainers/hecatomb", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "hecatomb": "/usr/local/bin/hecatomb", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hecatomb.
@@ -108,60 +119,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### hecatomb
-
-```bash
-$ singularity exec <container> /usr/local/bin/hecatomb
-$ podman run --it --rm --entrypoint /usr/local/bin/hecatomb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/hecatomb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bcomps
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bdftogd
-
-```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bsdcat
 
 ```bash
@@ -189,6 +146,141 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### conda2solv
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda2solv
+$ podman run --it --rm --entrypoint /usr/local/bin/conda2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dumpsolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/dumpsolv
+$ podman run --it --rm --entrypoint /usr/local/bin/dumpsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dumpsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hecatomb
+
+```bash
+$ singularity exec <container> /usr/local/bin/hecatomb
+$ podman run --it --rm --entrypoint /usr/local/bin/hecatomb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hecatomb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### installcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/installcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/installcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/installcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mamba
+
+```bash
+$ singularity exec <container> /usr/local/bin/mamba
+$ podman run --it --rm --entrypoint /usr/local/bin/mamba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mamba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mamba-package
+
+```bash
+$ singularity exec <container> /usr/local/bin/mamba-package
+$ podman run --it --rm --entrypoint /usr/local/bin/mamba-package   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mamba-package   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mergesolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/mergesolv
+$ podman run --it --rm --entrypoint /usr/local/bin/mergesolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mergesolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### repo2solv
+
+```bash
+$ singularity exec <container> /usr/local/bin/repo2solv
+$ podman run --it --rm --entrypoint /usr/local/bin/repo2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/repo2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### testsolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/testsolv
+$ podman run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conda-env
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda-env
+$ podman run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cph
+
+```bash
+$ singularity exec <container> /usr/local/bin/cph
+$ podman run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plac_runner.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/plac_runner.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### yte
+
+```bash
+$ singularity exec <container> /usr/local/bin/yte
+$ podman run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### docutils
+
+```bash
+$ singularity exec <container> /usr/local/bin/docutils
+$ podman run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pulptest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pulptest
+$ podman run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### cbc
 
 ```bash
@@ -198,12 +290,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### ccomps
+#### clp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clp
+$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snakemake
+
+```bash
+$ singularity exec <container> /usr/local/bin/snakemake
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snakemake-bash-completion
+
+```bash
+$ singularity exec <container> /usr/local/bin/snakemake-bash-completion
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

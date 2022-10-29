@@ -4,20 +4,24 @@ name:  "quay.io/biocontainers/searchgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/searchgui/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/searchgui/container.yaml"
-updated_at: "2022-10-29 05:48:30.599546"
+updated_at: "2022-10-29 07:49:27.196878"
 latest: "3.3.9--1"
 container_url: "https://biocontainers.pro/tools/searchgui"
 aliases:
+ - "csc"
  - "csc-dim"
+ - "csi"
+ - "illinkanalyzer"
  - "monograph"
  - "nunit-console"
  - "nunit-console2"
  - "nunit-console4"
  - "searchgui"
- - "2to3-3.7"
+ - "vbc"
+ - "mono-package-runtime"
+ - "sgen-grep-binprot"
  - "al"
  - "al2"
- - "appletviewer"
  - "caspol"
  - "cccheck"
  - "ccrewrite"
@@ -27,7 +31,7 @@ aliases:
 versions:
  - "3.3.9--1"
 description: "shpc-registry automated BioContainers addition for searchgui"
-config: {"url": "https://biocontainers.pro/tools/searchgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for searchgui", "latest": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce"}, "tags": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce"}, "docker": "quay.io/biocontainers/searchgui", "aliases": {"csc-dim": "/usr/local/bin/csc-dim", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "searchgui": "/usr/local/bin/searchgui", "2to3-3.7": "/usr/local/bin/2to3-3.7", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "appletviewer": "/usr/local/bin/appletviewer", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/searchgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for searchgui", "latest": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce"}, "tags": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce"}, "docker": "quay.io/biocontainers/searchgui", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "searchgui": "/usr/local/bin/searchgui", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/searchgui.
@@ -113,12 +117,39 @@ $ singularity inspect -d <container>
 ```
 
 
+#### csc
+
+```bash
+$ singularity exec <container> /usr/local/bin/csc
+$ podman run --it --rm --entrypoint /usr/local/bin/csc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### csc-dim
 
 ```bash
 $ singularity exec <container> /usr/local/bin/csc-dim
 $ podman run --it --rm --entrypoint /usr/local/bin/csc-dim   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/csc-dim   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csi
+
+```bash
+$ singularity exec <container> /usr/local/bin/csi
+$ podman run --it --rm --entrypoint /usr/local/bin/csi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### illinkanalyzer
+
+```bash
+$ singularity exec <container> /usr/local/bin/illinkanalyzer
+$ podman run --it --rm --entrypoint /usr/local/bin/illinkanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/illinkanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -167,12 +198,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/searchgui   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.7
+#### vbc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vbc
+$ podman run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mono-package-runtime
+
+```bash
+$ singularity exec <container> /usr/local/bin/mono-package-runtime
+$ podman run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sgen-grep-binprot
+
+```bash
+$ singularity exec <container> /usr/local/bin/sgen-grep-binprot
+$ podman run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -191,15 +240,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/al   -v ${PWD} -w ${PWD} <con
 $ singularity exec <container> /usr/local/bin/al2
 $ podman run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### appletviewer
-
-```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

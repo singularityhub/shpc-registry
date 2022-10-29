@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/kraken-biom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kraken-biom/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kraken-biom/container.yaml"
-updated_at: "2022-10-29 05:35:43.787390"
+updated_at: "2022-10-29 07:40:00.416051"
 latest: "1.2.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/kraken-biom"
 aliases:
  - "kraken-biom"
- - "2to3-3.10"
  - "biom"
- - "f2py3.10"
  - "futurize"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
+ - "pasteurize"
+ - "f2py3.10"
  - "h5clear"
- - "h5copy"
+ - "h5format_convert"
+ - "h5watch"
+ - "h5fc"
+ - "2to3-3.10"
+ - "idle3.10"
 versions:
  - "1.2.0--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for kraken-biom"
-config: {"url": "https://biocontainers.pro/tools/kraken-biom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken-biom", "latest": {"1.2.0--pyh5e36f6f_0": "sha256:e33c6c5bb0ec36224b42427445771af87411b334442fabd5c5188aafc98498bd"}, "tags": {"1.2.0--pyh5e36f6f_0": "sha256:e33c6c5bb0ec36224b42427445771af87411b334442fabd5c5188aafc98498bd"}, "docker": "quay.io/biocontainers/kraken-biom", "aliases": {"kraken-biom": "/usr/local/bin/kraken-biom", "2to3-3.10": "/usr/local/bin/2to3-3.10", "biom": "/usr/local/bin/biom", "f2py3.10": "/usr/local/bin/f2py3.10", "futurize": "/usr/local/bin/futurize", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/kraken-biom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kraken-biom", "latest": {"1.2.0--pyh5e36f6f_0": "sha256:e33c6c5bb0ec36224b42427445771af87411b334442fabd5c5188aafc98498bd"}, "tags": {"1.2.0--pyh5e36f6f_0": "sha256:e33c6c5bb0ec36224b42427445771af87411b334442fabd5c5188aafc98498bd"}, "docker": "quay.io/biocontainers/kraken-biom", "aliases": {"kraken-biom": "/usr/local/bin/kraken-biom", "biom": "/usr/local/bin/biom", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kraken-biom.
@@ -117,30 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kraken-biom   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### biom
 
 ```bash
 $ singularity exec <container> /usr/local/bin/biom
 $ podman run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -153,39 +135,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### gif2h5
+#### pasteurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### f2py3.10
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -198,12 +162,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD}
 ```
 
 
-#### h5copy
+#### h5format_convert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/h5format_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5watch
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5watch
+$ podman run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5fc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5fc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

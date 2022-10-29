@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/cgecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgecore/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgecore/container.yaml"
-updated_at: "2022-10-29 05:49:49.146149"
+updated_at: "2022-10-29 07:50:25.026735"
 latest: "1.5.6--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/cgecore"
 aliases:
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -17,7 +17,7 @@ aliases:
 versions:
  - "1.5.6--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for cgecore"
-config: {"url": "https://biocontainers.pro/tools/cgecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgecore", "latest": {"1.5.6--pyh3252c3a_0": "sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700"}, "tags": {"1.5.6--pyh3252c3a_0": "sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700"}, "docker": "quay.io/biocontainers/cgecore", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/cgecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgecore", "latest": {"1.5.6--pyh3252c3a_0": "sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700"}, "tags": {"1.5.6--pyh3252c3a_0": "sha256:62133de41430d50b1c4397118778e02dff0afb106313b124116fb37809e12700"}, "docker": "quay.io/biocontainers/cgecore", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgecore.
@@ -103,21 +103,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

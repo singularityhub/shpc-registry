@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/geosketch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/geosketch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/geosketch/container.yaml"
-updated_at: "2022-10-29 05:47:10.711751"
+updated_at: "2022-10-29 07:48:28.169413"
 latest: "1.2--py_0"
 container_url: "https://biocontainers.pro/tools/geosketch"
 aliases:
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -17,7 +17,7 @@ aliases:
 versions:
  - "1.2--py_0"
 description: "shpc-registry automated BioContainers addition for geosketch"
-config: {"url": "https://biocontainers.pro/tools/geosketch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geosketch", "latest": {"1.2--py_0": "sha256:19d427fa6f03a49de1768a5d7202830d0c65d23dabe6bed6b68725864af061b7"}, "tags": {"1.2--py_0": "sha256:19d427fa6f03a49de1768a5d7202830d0c65d23dabe6bed6b68725864af061b7"}, "docker": "quay.io/biocontainers/geosketch", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/geosketch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for geosketch", "latest": {"1.2--py_0": "sha256:19d427fa6f03a49de1768a5d7202830d0c65d23dabe6bed6b68725864af061b7"}, "tags": {"1.2--py_0": "sha256:19d427fa6f03a49de1768a5d7202830d0c65d23dabe6bed6b68725864af061b7"}, "docker": "quay.io/biocontainers/geosketch", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/geosketch.
@@ -103,21 +103,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

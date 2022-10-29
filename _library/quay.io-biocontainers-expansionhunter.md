@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/expansionhunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expansionhunter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/expansionhunter/container.yaml"
-updated_at: "2022-10-29 05:40:20.114225"
+updated_at: "2022-10-29 07:43:24.005137"
 latest: "4.0.2--he785bd8_0"
 container_url: "https://biocontainers.pro/tools/expansionhunter"
 aliases:
  - "ExpansionHunter"
- - "2to3-3.8"
- - "bgzip"
  - "f2py3.8"
  - "htsfile"
+ - "bgzip"
+ - "tabix"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
- - "tabix"
 versions:
  - "4.0.2--he785bd8_0"
 description: "shpc-registry automated BioContainers addition for expansionhunter"
-config: {"url": "https://biocontainers.pro/tools/expansionhunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expansionhunter", "latest": {"4.0.2--he785bd8_0": "sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271"}, "tags": {"4.0.2--he785bd8_0": "sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271"}, "docker": "quay.io/biocontainers/expansionhunter", "aliases": {"ExpansionHunter": "/usr/local/bin/ExpansionHunter", "2to3-3.8": "/usr/local/bin/2to3-3.8", "bgzip": "/usr/local/bin/bgzip", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/expansionhunter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expansionhunter", "latest": {"4.0.2--he785bd8_0": "sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271"}, "tags": {"4.0.2--he785bd8_0": "sha256:14fdbbe90897bee02c3e33d949a0c38f396f164ad4e0b4a0e0548758b57c3271"}, "docker": "quay.io/biocontainers/expansionhunter", "aliases": {"ExpansionHunter": "/usr/local/bin/ExpansionHunter", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expansionhunter.
@@ -116,24 +116,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ExpansionHunter   -v ${PWD} -
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.8
 
 ```bash
@@ -149,6 +131,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -185,15 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tabix
-
-```bash
-$ singularity exec <container> /usr/local/bin/tabix
-$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

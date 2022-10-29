@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/mg-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mg-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mg-toolkit/container.yaml"
-updated_at: "2022-10-29 05:52:31.645330"
+updated_at: "2022-10-29 07:52:24.402107"
 latest: "0.9.1--py_0"
 container_url: "https://biocontainers.pro/tools/mg-toolkit"
 aliases:
  - "mg-toolkit"
- - "2to3-3.9"
+ - "jsonschema"
+ - "tqdm"
  - "chardetect"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
- - "jsonschema"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
- - "tqdm"
 versions:
  - "0.9.1--py_0"
 description: "shpc-registry automated BioContainers addition for mg-toolkit"
-config: {"url": "https://biocontainers.pro/tools/mg-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mg-toolkit", "latest": {"0.9.1--py_0": "sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3"}, "tags": {"0.9.1--py_0": "sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3"}, "docker": "quay.io/biocontainers/mg-toolkit", "aliases": {"mg-toolkit": "/usr/local/bin/mg-toolkit", "2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "jsonschema": "/usr/local/bin/jsonschema", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/mg-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mg-toolkit", "latest": {"0.9.1--py_0": "sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3"}, "tags": {"0.9.1--py_0": "sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3"}, "docker": "quay.io/biocontainers/mg-toolkit", "aliases": {"mg-toolkit": "/usr/local/bin/mg-toolkit", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mg-toolkit.
@@ -116,12 +116,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mg-toolkit   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.9
+#### jsonschema
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jsonschema
+$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -143,21 +152,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jsonschema
-
-```bash
-$ singularity exec <container> /usr/local/bin/jsonschema
-$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -185,15 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.9-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tqdm
-
-```bash
-$ singularity exec <container> /usr/local/bin/tqdm
-$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

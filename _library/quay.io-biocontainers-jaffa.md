@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jaffa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jaffa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jaffa/container.yaml"
-updated_at: "2022-10-29 05:55:55.883047"
+updated_at: "2022-10-29 07:54:53.184962"
 latest: "2.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jaffa"
 aliases:
@@ -16,7 +16,28 @@ aliases:
  - "bpipe-torque.sh"
  - "bpipe-utils.sh"
  - "faToNib"
+ - "fasta_clipping_histogram.pl"
+ - "fasta_formatter"
+ - "fasta_nucleotide_changer"
+ - "fastq_masker"
+ - "fastq_quality_boxplot_graph.sh"
+ - "fastq_quality_converter"
+ - "fastq_quality_filter"
+ - "fastq_quality_trimmer"
+ - "fastq_to_fasta"
+ - "fastx_artifacts_filter"
+ - "fastx_barcode_splitter.pl"
+ - "fastx_clipper"
+ - "fastx_collapser"
+ - "fastx_nucleotide_distribution_graph.sh"
+ - "fastx_nucleotide_distribution_line_graph.sh"
+ - "fastx_quality_stats"
+ - "fastx_renamer"
+ - "fastx_reverse_complement"
+ - "fastx_trimmer"
+ - "fastx_uncollapser"
  - "gfClient"
+ - "gfServer"
  - "groovy_script"
  - "jaffa-assembly"
  - "jaffa-direct"
@@ -26,20 +47,21 @@ aliases:
  - "oases_pipeline.py"
  - "pslPretty"
  - "pslReps"
- - "a_sample_mt.sh"
- - "addadapters.sh"
- - "addssu.sh"
- - "adjusthomopolymers.sh"
+ - "pslSort"
+ - "kmutate.sh"
+ - "nosetests-3.9"
+ - "runhmm.sh"
+ - "kmerposition.sh"
+ - "reformatpb.sh"
+ - "summarizecoverage.sh"
+ - "twoBitToFa"
  - "alltoall.sh"
- - "analyzeaccession.sh"
- - "analyzegenes.sh"
  - "analyzesketchresults.sh"
- - "applyvariants.sh"
- - "aserver"
+ - "blat"
 versions:
  - "2.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jaffa"
-config: {"url": "https://biocontainers.pro/tools/jaffa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jaffa", "latest": {"2.3--hdfd78af_0": "sha256:cc18a8fbacf34b8bc0439bd2d92fb5a48facc36a2c88e7abfc7c7382cfe2335d"}, "tags": {"2.3--hdfd78af_0": "sha256:cc18a8fbacf34b8bc0439bd2d92fb5a48facc36a2c88e7abfc7c7382cfe2335d"}, "docker": "quay.io/biocontainers/jaffa", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "faToNib": "/usr/local/bin/faToNib", "gfClient": "/usr/local/bin/gfClient", "groovy_script": "/usr/local/bin/groovy_script", "jaffa-assembly": "/usr/local/bin/jaffa-assembly", "jaffa-direct": "/usr/local/bin/jaffa-direct", "jaffa-hybrid": "/usr/local/bin/jaffa-hybrid", "nibFrag": "/usr/local/bin/nibFrag", "oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "addadapters.sh": "/usr/local/bin/addadapters.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "aserver": "/usr/local/bin/aserver"}}
+config: {"url": "https://biocontainers.pro/tools/jaffa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jaffa", "latest": {"2.3--hdfd78af_0": "sha256:cc18a8fbacf34b8bc0439bd2d92fb5a48facc36a2c88e7abfc7c7382cfe2335d"}, "tags": {"2.3--hdfd78af_0": "sha256:cc18a8fbacf34b8bc0439bd2d92fb5a48facc36a2c88e7abfc7c7382cfe2335d"}, "docker": "quay.io/biocontainers/jaffa", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "faToNib": "/usr/local/bin/faToNib", "fasta_clipping_histogram.pl": "/usr/local/bin/fasta_clipping_histogram.pl", "fasta_formatter": "/usr/local/bin/fasta_formatter", "fasta_nucleotide_changer": "/usr/local/bin/fasta_nucleotide_changer", "fastq_masker": "/usr/local/bin/fastq_masker", "fastq_quality_boxplot_graph.sh": "/usr/local/bin/fastq_quality_boxplot_graph.sh", "fastq_quality_converter": "/usr/local/bin/fastq_quality_converter", "fastq_quality_filter": "/usr/local/bin/fastq_quality_filter", "fastq_quality_trimmer": "/usr/local/bin/fastq_quality_trimmer", "fastq_to_fasta": "/usr/local/bin/fastq_to_fasta", "fastx_artifacts_filter": "/usr/local/bin/fastx_artifacts_filter", "fastx_barcode_splitter.pl": "/usr/local/bin/fastx_barcode_splitter.pl", "fastx_clipper": "/usr/local/bin/fastx_clipper", "fastx_collapser": "/usr/local/bin/fastx_collapser", "fastx_nucleotide_distribution_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_graph.sh", "fastx_nucleotide_distribution_line_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_line_graph.sh", "fastx_quality_stats": "/usr/local/bin/fastx_quality_stats", "fastx_renamer": "/usr/local/bin/fastx_renamer", "fastx_reverse_complement": "/usr/local/bin/fastx_reverse_complement", "fastx_trimmer": "/usr/local/bin/fastx_trimmer", "fastx_uncollapser": "/usr/local/bin/fastx_uncollapser", "gfClient": "/usr/local/bin/gfClient", "gfServer": "/usr/local/bin/gfServer", "groovy_script": "/usr/local/bin/groovy_script", "jaffa-assembly": "/usr/local/bin/jaffa-assembly", "jaffa-direct": "/usr/local/bin/jaffa-direct", "jaffa-hybrid": "/usr/local/bin/jaffa-hybrid", "nibFrag": "/usr/local/bin/nibFrag", "oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "pslPretty": "/usr/local/bin/pslPretty", "pslReps": "/usr/local/bin/pslReps", "pslSort": "/usr/local/bin/pslSort", "kmutate.sh": "/usr/local/bin/kmutate.sh", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "twoBitToFa": "/usr/local/bin/twoBitToFa", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "blat": "/usr/local/bin/blat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jaffa.
@@ -197,12 +219,201 @@ $ docker run --it --rm --entrypoint /usr/local/bin/faToNib   -v ${PWD} -w ${PWD}
 ```
 
 
+#### fasta_clipping_histogram.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta_clipping_histogram.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta_clipping_histogram.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta_clipping_histogram.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta_nucleotide_changer
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta_nucleotide_changer
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta_nucleotide_changer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta_nucleotide_changer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastq_masker
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq_masker
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq_masker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq_masker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastq_quality_boxplot_graph.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq_quality_boxplot_graph.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq_quality_boxplot_graph.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq_quality_boxplot_graph.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastq_quality_converter
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq_quality_converter
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq_quality_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq_quality_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastq_quality_filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq_quality_filter
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq_quality_filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq_quality_filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastq_quality_trimmer
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq_quality_trimmer
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq_quality_trimmer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq_quality_trimmer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastq_to_fasta
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq_to_fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq_to_fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq_to_fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_artifacts_filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_artifacts_filter
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_artifacts_filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_artifacts_filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_barcode_splitter.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_barcode_splitter.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_barcode_splitter.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_barcode_splitter.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_clipper
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_clipper
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_clipper   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_clipper   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_collapser
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_collapser
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_collapser   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_collapser   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_nucleotide_distribution_graph.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_nucleotide_distribution_graph.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_nucleotide_distribution_graph.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_nucleotide_distribution_graph.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_nucleotide_distribution_line_graph.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_nucleotide_distribution_line_graph.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_quality_stats
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_quality_stats
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_quality_stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_quality_stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_renamer
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_renamer
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_renamer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_renamer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_reverse_complement
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_reverse_complement
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_reverse_complement   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_reverse_complement   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_trimmer
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_trimmer
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_trimmer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_trimmer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastx_uncollapser
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastx_uncollapser
+$ podman run --it --rm --entrypoint /usr/local/bin/fastx_uncollapser   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastx_uncollapser   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gfClient
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gfClient
 $ podman run --it --rm --entrypoint /usr/local/bin/gfClient   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gfClient   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gfServer
+
+```bash
+$ singularity exec <container> /usr/local/bin/gfServer
+$ podman run --it --rm --entrypoint /usr/local/bin/gfServer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gfServer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -287,39 +498,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pslReps   -v ${PWD} -w ${PWD}
 ```
 
 
-#### a_sample_mt.sh
+#### pslSort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pslSort
+$ podman run --it --rm --entrypoint /usr/local/bin/pslSort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pslSort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addadapters.sh
+#### kmutate.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addadapters.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmutate.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addssu.sh
+#### nosetests-3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addssu.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/nosetests-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/nosetests-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nosetests-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### adjusthomopolymers.sh
+#### runhmm.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/adjusthomopolymers.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/runhmm.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmerposition.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmerposition.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### reformatpb.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/reformatpb.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### summarizecoverage.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/summarizecoverage.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### twoBitToFa
+
+```bash
+$ singularity exec <container> /usr/local/bin/twoBitToFa
+$ podman run --it --rm --entrypoint /usr/local/bin/twoBitToFa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/twoBitToFa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -332,24 +579,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${
 ```
 
 
-#### analyzeaccession.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/analyzeaccession.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### analyzegenes.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/analyzegenes.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### analyzesketchresults.sh
 
 ```bash
@@ -359,21 +588,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v 
 ```
 
 
-#### applyvariants.sh
+#### blat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/applyvariants.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blat
+$ podman run --it --rm --entrypoint /usr/local/bin/blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

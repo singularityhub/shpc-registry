@@ -4,10 +4,12 @@ name:  "quay.io/biocontainers/metaxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaxa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metaxa/container.yaml"
-updated_at: "2022-10-29 05:42:00.205793"
+updated_at: "2022-10-29 07:44:37.854914"
 latest: "2.2.3--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metaxa"
 aliases:
+ - "hmmc2"
+ - "hmmerfm-exactmatch"
  - "metaxa2"
  - "metaxa2_c"
  - "metaxa2_dbb"
@@ -18,20 +20,20 @@ aliases:
  - "metaxa2_ttt"
  - "metaxa2_uc"
  - "metaxa2_x"
- - "2to3-3.10"
- - "alimask"
- - "blast_formatter"
- - "blastdb_aliastool"
- - "blastdbcheck"
- - "blastdbcmd"
+ - "vsearch"
+ - "test_pcre"
  - "blastdbcp"
- - "blastn"
- - "blastp"
- - "blastx"
+ - "gene_info_reader"
+ - "seqdb_demo"
+ - "seqdb_perf"
+ - "seedtop"
+ - "mafft-sparsecore.rb"
+ - "einsi"
+ - "fftns"
 versions:
  - "2.2.3--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for metaxa"
-config: {"url": "https://biocontainers.pro/tools/metaxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaxa", "latest": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "tags": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "docker": "quay.io/biocontainers/metaxa", "aliases": {"metaxa2": "/usr/local/bin/metaxa2", "metaxa2_c": "/usr/local/bin/metaxa2_c", "metaxa2_dbb": "/usr/local/bin/metaxa2_dbb", "metaxa2_dc": "/usr/local/bin/metaxa2_dc", "metaxa2_install_database": "/usr/local/bin/metaxa2_install_database", "metaxa2_rf": "/usr/local/bin/metaxa2_rf", "metaxa2_si": "/usr/local/bin/metaxa2_si", "metaxa2_ttt": "/usr/local/bin/metaxa2_ttt", "metaxa2_uc": "/usr/local/bin/metaxa2_uc", "metaxa2_x": "/usr/local/bin/metaxa2_x", "2to3-3.10": "/usr/local/bin/2to3-3.10", "alimask": "/usr/local/bin/alimask", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx"}}
+config: {"url": "https://biocontainers.pro/tools/metaxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaxa", "latest": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "tags": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "docker": "quay.io/biocontainers/metaxa", "aliases": {"hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "metaxa2": "/usr/local/bin/metaxa2", "metaxa2_c": "/usr/local/bin/metaxa2_c", "metaxa2_dbb": "/usr/local/bin/metaxa2_dbb", "metaxa2_dc": "/usr/local/bin/metaxa2_dc", "metaxa2_install_database": "/usr/local/bin/metaxa2_install_database", "metaxa2_rf": "/usr/local/bin/metaxa2_rf", "metaxa2_si": "/usr/local/bin/metaxa2_si", "metaxa2_ttt": "/usr/local/bin/metaxa2_ttt", "metaxa2_uc": "/usr/local/bin/metaxa2_uc", "metaxa2_x": "/usr/local/bin/metaxa2_x", "vsearch": "/usr/local/bin/vsearch", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaxa.
@@ -114,6 +116,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### hmmc2
+
+```bash
+$ singularity exec <container> /usr/local/bin/hmmc2
+$ podman run --it --rm --entrypoint /usr/local/bin/hmmc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hmmc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hmmerfm-exactmatch
+
+```bash
+$ singularity exec <container> /usr/local/bin/hmmerfm-exactmatch
+$ podman run --it --rm --entrypoint /usr/local/bin/hmmerfm-exactmatch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hmmerfm-exactmatch   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -207,57 +227,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/metaxa2_x   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
+#### vsearch
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vsearch
+$ podman run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### test_pcre
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast_formatter
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdb_aliastool
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdbcheck
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdbcmd
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdbcmd
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/test_pcre
+$ podman run --it --rm --entrypoint /usr/local/bin/test_pcre   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test_pcre   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -270,30 +254,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PW
 ```
 
 
-#### blastn
+#### gene_info_reader
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastn
-$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gene_info_reader
+$ podman run --it --rm --entrypoint /usr/local/bin/gene_info_reader   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gene_info_reader   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastp
+#### seqdb_demo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/seqdb_demo
+$ podman run --it --rm --entrypoint /usr/local/bin/seqdb_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqdb_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastx
+#### seqdb_perf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastx
-$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/seqdb_perf
+$ podman run --it --rm --entrypoint /usr/local/bin/seqdb_perf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqdb_perf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### seedtop
+
+```bash
+$ singularity exec <container> /usr/local/bin/seedtop
+$ podman run --it --rm --entrypoint /usr/local/bin/seedtop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seedtop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mafft-sparsecore.rb
+
+```bash
+$ singularity exec <container> /usr/local/bin/mafft-sparsecore.rb
+$ podman run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### einsi
+
+```bash
+$ singularity exec <container> /usr/local/bin/einsi
+$ podman run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftns
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftns
+$ podman run --it --rm --entrypoint /usr/local/bin/fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

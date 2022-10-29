@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gait-gm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gait-gm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gait-gm/container.yaml"
-updated_at: "2022-10-29 05:42:12.654068"
+updated_at: "2022-10-29 07:44:47.227181"
 latest: "21.7.22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gait-gm"
 aliases:
@@ -51,24 +51,26 @@ aliases:
  - "subset_data.py"
  - "summarize_flags.py"
  - "svm_classifier.py"
+ - "tab-to-vcf"
  - "threshold_based_flags.py"
  - "ttest.py"
  - "ttest_perm.py"
  - "ttest_single_group.py"
- - "2to3-3.9"
- - "c89"
- - "c99"
- - "chardetect"
- - "f2py3.9"
+ - "vcf-haplotypes"
  - "fill-aa"
  - "fill-an-ac"
  - "fill-fs"
  - "fill-ref-md5"
- - "idle3.9"
+ - "vcf-annotate"
+ - "vcf-compare"
+ - "vcf-concat"
+ - "vcf-consensus"
+ - "vcf-contrast"
+ - "vcf-convert"
 versions:
  - "21.7.22--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gait-gm"
-config: {"url": "https://biocontainers.pro/tools/gait-gm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gait-gm", "latest": {"21.7.22--pyhdfd78af_0": "sha256:4c0331786c45f448d7bf87574b681b261bdd40d801ca0cb774b74feea8695ba0"}, "tags": {"21.7.22--pyhdfd78af_0": "sha256:4c0331786c45f448d7bf87574b681b261bdd40d801ca0cb774b74feea8695ba0"}, "docker": "quay.io/biocontainers/gait-gm", "aliases": {"add_group_rank.py": "/usr/local/bin/add_group_rank.py", "add_kegg_anno_info.py": "/usr/local/bin/add_kegg_anno_info.py", "add_kegg_pathway_info.py": "/usr/local/bin/add_kegg_pathway_info.py", "add_pval_flags.py": "/usr/local/bin/add_pval_flags.py", "all_by_all_correlation.py": "/usr/local/bin/all_by_all_correlation.py", "anova_fixed.py": "/usr/local/bin/anova_fixed.py", "bland_altman_plot.py": "/usr/local/bin/bland_altman_plot.py", "blank_feature_filtering_flags.py": "/usr/local/bin/blank_feature_filtering_flags.py", "coefficient_variation_flags.py": "/usr/local/bin/coefficient_variation_flags.py", "compare_flags.py": "/usr/local/bin/compare_flags.py", "compound_identification.py": "/usr/local/bin/compound_identification.py", "data_normalization_and_rescaling.py": "/usr/local/bin/data_normalization_and_rescaling.py", "distribution_features.py": "/usr/local/bin/distribution_features.py", "distribution_samples.py": "/usr/local/bin/distribution_samples.py", "ensembl2symbol.py": "/usr/local/bin/ensembl2symbol.py", "hierarchical_clustering_heatmap.py": "/usr/local/bin/hierarchical_clustering_heatmap.py", "imputation.py": "/usr/local/bin/imputation.py", "kruskal_wallis.py": "/usr/local/bin/kruskal_wallis.py", "lasso_enet_var_select.py": "/usr/local/bin/lasso_enet_var_select.py", "linear_discriminant_analysis.py": "/usr/local/bin/linear_discriminant_analysis.py", "log_and_glog_transformation.py": "/usr/local/bin/log_and_glog_transformation.py", "magnitude_difference_flags.py": "/usr/local/bin/magnitude_difference_flags.py", "mahalanobis_distance.py": "/usr/local/bin/mahalanobis_distance.py", "merge_flags.py": "/usr/local/bin/merge_flags.py", "modify_design_file.py": "/usr/local/bin/modify_design_file.py", "modulated_modularity_clustering.py": "/usr/local/bin/modulated_modularity_clustering.py", "multiple_testing_adjustment.py": "/usr/local/bin/multiple_testing_adjustment.py", "mzrt_match.py": "/usr/local/bin/mzrt_match.py", "partial_least_squares.py": "/usr/local/bin/partial_least_squares.py", "principal_component_analysis.py": "/usr/local/bin/principal_component_analysis.py", "random_forest.py": "/usr/local/bin/random_forest.py", "remove_selected_features_samples.py": "/usr/local/bin/remove_selected_features_samples.py", "remove_user_specified_row_col.py": "/usr/local/bin/remove_user_specified_row_col.py", "retention_time_flags.py": "/usr/local/bin/retention_time_flags.py", "run_order_regression.py": "/usr/local/bin/run_order_regression.py", "sPLS.py": "/usr/local/bin/sPLS.py", "scatter_plot_2D.py": "/usr/local/bin/scatter_plot_2D.py", "scatter_plot_3D.py": "/usr/local/bin/scatter_plot_3D.py", "split_wide_dataset.py": "/usr/local/bin/split_wide_dataset.py", "standardized_euclidean_distance.py": "/usr/local/bin/standardized_euclidean_distance.py", "subset_data.py": "/usr/local/bin/subset_data.py", "summarize_flags.py": "/usr/local/bin/summarize_flags.py", "svm_classifier.py": "/usr/local/bin/svm_classifier.py", "threshold_based_flags.py": "/usr/local/bin/threshold_based_flags.py", "ttest.py": "/usr/local/bin/ttest.py", "ttest_perm.py": "/usr/local/bin/ttest_perm.py", "ttest_single_group.py": "/usr/local/bin/ttest_single_group.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "idle3.9": "/usr/local/bin/idle3.9"}}
+config: {"url": "https://biocontainers.pro/tools/gait-gm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gait-gm", "latest": {"21.7.22--pyhdfd78af_0": "sha256:4c0331786c45f448d7bf87574b681b261bdd40d801ca0cb774b74feea8695ba0"}, "tags": {"21.7.22--pyhdfd78af_0": "sha256:4c0331786c45f448d7bf87574b681b261bdd40d801ca0cb774b74feea8695ba0"}, "docker": "quay.io/biocontainers/gait-gm", "aliases": {"add_group_rank.py": "/usr/local/bin/add_group_rank.py", "add_kegg_anno_info.py": "/usr/local/bin/add_kegg_anno_info.py", "add_kegg_pathway_info.py": "/usr/local/bin/add_kegg_pathway_info.py", "add_pval_flags.py": "/usr/local/bin/add_pval_flags.py", "all_by_all_correlation.py": "/usr/local/bin/all_by_all_correlation.py", "anova_fixed.py": "/usr/local/bin/anova_fixed.py", "bland_altman_plot.py": "/usr/local/bin/bland_altman_plot.py", "blank_feature_filtering_flags.py": "/usr/local/bin/blank_feature_filtering_flags.py", "coefficient_variation_flags.py": "/usr/local/bin/coefficient_variation_flags.py", "compare_flags.py": "/usr/local/bin/compare_flags.py", "compound_identification.py": "/usr/local/bin/compound_identification.py", "data_normalization_and_rescaling.py": "/usr/local/bin/data_normalization_and_rescaling.py", "distribution_features.py": "/usr/local/bin/distribution_features.py", "distribution_samples.py": "/usr/local/bin/distribution_samples.py", "ensembl2symbol.py": "/usr/local/bin/ensembl2symbol.py", "hierarchical_clustering_heatmap.py": "/usr/local/bin/hierarchical_clustering_heatmap.py", "imputation.py": "/usr/local/bin/imputation.py", "kruskal_wallis.py": "/usr/local/bin/kruskal_wallis.py", "lasso_enet_var_select.py": "/usr/local/bin/lasso_enet_var_select.py", "linear_discriminant_analysis.py": "/usr/local/bin/linear_discriminant_analysis.py", "log_and_glog_transformation.py": "/usr/local/bin/log_and_glog_transformation.py", "magnitude_difference_flags.py": "/usr/local/bin/magnitude_difference_flags.py", "mahalanobis_distance.py": "/usr/local/bin/mahalanobis_distance.py", "merge_flags.py": "/usr/local/bin/merge_flags.py", "modify_design_file.py": "/usr/local/bin/modify_design_file.py", "modulated_modularity_clustering.py": "/usr/local/bin/modulated_modularity_clustering.py", "multiple_testing_adjustment.py": "/usr/local/bin/multiple_testing_adjustment.py", "mzrt_match.py": "/usr/local/bin/mzrt_match.py", "partial_least_squares.py": "/usr/local/bin/partial_least_squares.py", "principal_component_analysis.py": "/usr/local/bin/principal_component_analysis.py", "random_forest.py": "/usr/local/bin/random_forest.py", "remove_selected_features_samples.py": "/usr/local/bin/remove_selected_features_samples.py", "remove_user_specified_row_col.py": "/usr/local/bin/remove_user_specified_row_col.py", "retention_time_flags.py": "/usr/local/bin/retention_time_flags.py", "run_order_regression.py": "/usr/local/bin/run_order_regression.py", "sPLS.py": "/usr/local/bin/sPLS.py", "scatter_plot_2D.py": "/usr/local/bin/scatter_plot_2D.py", "scatter_plot_3D.py": "/usr/local/bin/scatter_plot_3D.py", "split_wide_dataset.py": "/usr/local/bin/split_wide_dataset.py", "standardized_euclidean_distance.py": "/usr/local/bin/standardized_euclidean_distance.py", "subset_data.py": "/usr/local/bin/subset_data.py", "summarize_flags.py": "/usr/local/bin/summarize_flags.py", "svm_classifier.py": "/usr/local/bin/svm_classifier.py", "tab-to-vcf": "/usr/local/bin/tab-to-vcf", "threshold_based_flags.py": "/usr/local/bin/threshold_based_flags.py", "ttest.py": "/usr/local/bin/ttest.py", "ttest_perm.py": "/usr/local/bin/ttest_perm.py", "ttest_single_group.py": "/usr/local/bin/ttest_single_group.py", "vcf-haplotypes": "/usr/local/bin/vcf-haplotypes", "fill-aa": "/usr/local/bin/fill-aa", "fill-an-ac": "/usr/local/bin/fill-an-ac", "fill-fs": "/usr/local/bin/fill-fs", "fill-ref-md5": "/usr/local/bin/fill-ref-md5", "vcf-annotate": "/usr/local/bin/vcf-annotate", "vcf-compare": "/usr/local/bin/vcf-compare", "vcf-concat": "/usr/local/bin/vcf-concat", "vcf-consensus": "/usr/local/bin/vcf-consensus", "vcf-contrast": "/usr/local/bin/vcf-contrast", "vcf-convert": "/usr/local/bin/vcf-convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gait-gm.
@@ -541,6 +543,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/svm_classifier.py   -v ${PWD}
 ```
 
 
+#### tab-to-vcf
+
+```bash
+$ singularity exec <container> /usr/local/bin/tab-to-vcf
+$ podman run --it --rm --entrypoint /usr/local/bin/tab-to-vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tab-to-vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### threshold_based_flags.py
 
 ```bash
@@ -577,48 +588,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ttest_single_group.py   -v ${
 ```
 
 
-#### 2to3-3.9
+#### vcf-haplotypes
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c89
-
-```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c99
-
-```bash
-$ singularity exec <container> /usr/local/bin/c99
-$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vcf-haplotypes
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf-haplotypes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf-haplotypes   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -658,12 +633,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fill-ref-md5   -v ${PWD} -w $
 ```
 
 
-#### idle3.9
+#### vcf-annotate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vcf-annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf-annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf-annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf-compare
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf-compare
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf-compare   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf-compare   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf-concat
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf-concat
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf-concat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf-concat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf-consensus
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf-consensus
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf-consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf-consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf-contrast
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf-contrast
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf-contrast   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf-contrast   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf-convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf-convert
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

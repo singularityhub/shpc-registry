@@ -4,24 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rta10probeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rta10probeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rta10probeset.db/container.yaml"
-updated_at: "2022-10-29 05:50:21.076830"
+updated_at: "2022-10-29 07:50:48.431447"
 latest: "8.8.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rta10probeset.db"
 aliases:
- - "R"
- - "Rscript"
- - "acountry"
- - "adig"
- - "ahost"
- - "autopoint"
- - "bunzip2"
- - "bzcat"
- - "bzcmp"
- - "bzdiff"
+ - ".bioconductor-rta10probeset.db-post-link.sh"
+ - ".bioconductor-rta10probeset.db-pre-unlink.sh"
 versions:
  - "8.8.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rta10probeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rta10probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rta10probeset.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a"}, "docker": "quay.io/biocontainers/bioconductor-rta10probeset.db", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rta10probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rta10probeset.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:16f5eb716e7ab6c58c8b1d960a04363511d08447a81afc18d261d39975c02d3a"}, "docker": "quay.io/biocontainers/bioconductor-rta10probeset.db", "aliases": {".bioconductor-rta10probeset.db-post-link.sh": "/usr/local/bin/.bioconductor-rta10probeset.db-post-link.sh", ".bioconductor-rta10probeset.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-rta10probeset.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rta10probeset.db.
@@ -107,93 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### R
+#### .bioconductor-rta10probeset.db-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/R
-$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-rta10probeset.db-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rta10probeset.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rta10probeset.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Rscript
+#### .bioconductor-rta10probeset.db-pre-unlink.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Rscript
-$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acountry
-
-```bash
-$ singularity exec <container> /usr/local/bin/acountry
-$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### adig
-
-```bash
-$ singularity exec <container> /usr/local/bin/adig
-$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ahost
-
-```bash
-$ singularity exec <container> /usr/local/bin/ahost
-$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### autopoint
-
-```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bunzip2
-
-```bash
-$ singularity exec <container> /usr/local/bin/bunzip2
-$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcat
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcmp
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzdiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzdiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-rta10probeset.db-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rta10probeset.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rta10probeset.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

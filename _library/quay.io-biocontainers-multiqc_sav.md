@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/multiqc_sav"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc_sav/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc_sav/container.yaml"
-updated_at: "2022-10-29 05:31:07.853429"
+updated_at: "2022-10-29 07:36:38.518195"
 latest: "0.0.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/multiqc_sav"
 aliases:
@@ -20,20 +20,20 @@ aliases:
  - "interop_plot_qscore_histogram"
  - "interop_plot_sample_qc"
  - "interop_summary"
- - "2to3-3.10"
- - "brotli"
+ - "multiqc"
  - "cmark"
  - "coloredlogs"
- - "cwebp"
- - "dwebp"
- - "f2py3.10"
+ - "humanfriendly"
+ - "markdown_py"
+ - "pygmentize"
  - "fonttools"
- - "futurize"
- - "gif2rgb"
+ - "pyftmerge"
+ - "pyftsubset"
+ - "ttx"
 versions:
  - "0.0.3--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for multiqc_sav"
-config: {"url": "https://biocontainers.pro/tools/multiqc_sav", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc_sav", "latest": {"0.0.3--pyh5e36f6f_0": "sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896"}, "tags": {"0.0.3--pyh5e36f6f_0": "sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896"}, "docker": "quay.io/biocontainers/multiqc_sav", "aliases": {"interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "futurize": "/usr/local/bin/futurize", "gif2rgb": "/usr/local/bin/gif2rgb"}}
+config: {"url": "https://biocontainers.pro/tools/multiqc_sav", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multiqc_sav", "latest": {"0.0.3--pyh5e36f6f_0": "sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896"}, "tags": {"0.0.3--pyh5e36f6f_0": "sha256:af63bf97d223419b2d492ff950433d43b767146ef1b1ec76f0a0be2839014896"}, "docker": "quay.io/biocontainers/multiqc_sav", "aliases": {"interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "multiqc": "/usr/local/bin/multiqc", "cmark": "/usr/local/bin/cmark", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "pygmentize": "/usr/local/bin/pygmentize", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multiqc_sav.
@@ -227,21 +227,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/interop_summary   -v ${PWD} -
 ```
 
 
-#### 2to3-3.10
+#### multiqc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/multiqc
+$ podman run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -263,30 +254,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${
 ```
 
 
-#### cwebp
+#### humanfriendly
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dwebp
+#### markdown_py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/markdown_py
+$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### f2py3.10
+#### pygmentize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pygmentize
+$ podman run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -299,21 +290,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PW
 ```
 
 
-#### futurize
+#### pyftmerge
 
 ```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2rgb
+#### pyftsubset
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftsubset
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ttx
+
+```bash
+$ singularity exec <container> /usr/local/bin/ttx
+$ podman run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,12 @@ name:  "quay.io/biocontainers/pauda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pauda/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pauda/container.yaml"
-updated_at: "2022-10-29 05:34:31.559224"
+updated_at: "2022-10-29 07:39:07.782320"
 latest: "1.0.1--1"
 container_url: "https://biocontainers.pro/tools/pauda"
 aliases:
  - "pauda-build"
  - "pauda-run"
- - "2to3-3.6"
- - "appletviewer"
  - "bowtie2"
  - "bowtie2-align-l"
  - "bowtie2-align-s"
@@ -20,10 +18,12 @@ aliases:
  - "bowtie2-build-s"
  - "bowtie2-inspect"
  - "bowtie2-inspect-l"
+ - "bowtie2-inspect-s"
+ - "extcheck"
 versions:
  - "1.0.1--1"
 description: "shpc-registry automated BioContainers addition for pauda"
-config: {"url": "https://biocontainers.pro/tools/pauda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pauda", "latest": {"1.0.1--1": "sha256:f143524e0bac41eea90cb4bc3eae046489f7f2ec36a02346694a3372cbda4ab8"}, "tags": {"1.0.1--1": "sha256:f143524e0bac41eea90cb4bc3eae046489f7f2ec36a02346694a3372cbda4ab8"}, "docker": "quay.io/biocontainers/pauda", "aliases": {"pauda-build": "/usr/local/bin/pauda-build", "pauda-run": "/usr/local/bin/pauda-run", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l"}}
+config: {"url": "https://biocontainers.pro/tools/pauda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pauda", "latest": {"1.0.1--1": "sha256:f143524e0bac41eea90cb4bc3eae046489f7f2ec36a02346694a3372cbda4ab8"}, "tags": {"1.0.1--1": "sha256:f143524e0bac41eea90cb4bc3eae046489f7f2ec36a02346694a3372cbda4ab8"}, "docker": "quay.io/biocontainers/pauda", "aliases": {"pauda-build": "/usr/local/bin/pauda-build", "pauda-run": "/usr/local/bin/pauda-run", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "extcheck": "/usr/local/bin/extcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pauda.
@@ -127,24 +127,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pauda-run   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### appletviewer
-
-```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bowtie2
 
 ```bash
@@ -214,6 +196,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/bowtie2-inspect-l
 $ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/nudup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nudup/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nudup/container.yaml"
-updated_at: "2022-10-29 05:34:23.768330"
+updated_at: "2022-10-29 07:39:02.188918"
 latest: "2.3.3--py_2"
 container_url: "https://biocontainers.pro/tools/nudup"
 aliases:
  - "nudup.py"
- - "ace2sam"
+ - "egrep"
+ - "fgrep"
+ - "grep"
+ - "basenc"
  - "b2sum"
  - "base32"
  - "base64"
  - "basename"
- - "basenc"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
  - "cat"
+ - "chcon"
 versions:
  - "2.3.3--py_2"
 description: "shpc-registry automated BioContainers addition for nudup"
-config: {"url": "https://biocontainers.pro/tools/nudup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nudup", "latest": {"2.3.3--py_2": "sha256:33d15014310fe929682c7b24ee9c938b32e1965ee2e32d92613ed08f80afefe7"}, "tags": {"2.3.3--py_2": "sha256:33d15014310fe929682c7b24ee9c938b32e1965ee2e32d92613ed08f80afefe7"}, "docker": "quay.io/biocontainers/nudup", "aliases": {"nudup.py": "/usr/local/bin/nudup.py", "ace2sam": "/usr/local/bin/ace2sam", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "cat": "/usr/local/bin/cat"}}
+config: {"url": "https://biocontainers.pro/tools/nudup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nudup", "latest": {"2.3.3--py_2": "sha256:33d15014310fe929682c7b24ee9c938b32e1965ee2e32d92613ed08f80afefe7"}, "tags": {"2.3.3--py_2": "sha256:33d15014310fe929682c7b24ee9c938b32e1965ee2e32d92613ed08f80afefe7"}, "docker": "quay.io/biocontainers/nudup", "aliases": {"nudup.py": "/usr/local/bin/nudup.py", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nudup.
@@ -117,12 +117,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nudup.py   -v ${PWD} -w ${PWD
 ```
 
 
-#### ace2sam
+#### egrep
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/egrep
+$ podman run --it --rm --entrypoint /usr/local/bin/egrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/egrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/fgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/fgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grep
+
+```bash
+$ singularity exec <container> /usr/local/bin/grep
+$ podman run --it --rm --entrypoint /usr/local/bin/grep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,48 +189,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD
 ```
 
 
-#### basenc
-
-```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cat
 
 ```bash
 $ singularity exec <container> /usr/local/bin/cat
 $ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chcon
+
+```bash
+$ singularity exec <container> /usr/local/bin/chcon
+$ podman run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

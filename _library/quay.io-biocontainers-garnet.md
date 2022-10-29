@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/garnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/garnet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/garnet/container.yaml"
-updated_at: "2022-10-29 05:44:48.183579"
+updated_at: "2022-10-29 07:46:43.174144"
 latest: "0.4.5--py36_0"
 container_url: "https://biocontainers.pro/tools/garnet"
 aliases:
- - "2to3-3.6"
- - "assistant"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
- - "dbus-run-session"
- - "dbus-send"
- - "dbus-test-tool"
- - "dbus-update-activation-environment"
+ - "easy_install-3.6"
+ - "qhelpconverter"
+ - "pylupdate5"
+ - "pyrcc5"
+ - "pyuic5"
+ - "sip"
+ - "qdoc"
+ - "gst-device-monitor-1.0"
+ - "gst-discoverer-1.0"
+ - "gst-play-1.0"
 versions:
  - "0.4.5--py36_0"
 description: "shpc-registry automated BioContainers addition for garnet"
-config: {"url": "https://biocontainers.pro/tools/garnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnet", "latest": {"0.4.5--py36_0": "sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee"}, "tags": {"0.4.5--py36_0": "sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee"}, "docker": "quay.io/biocontainers/garnet", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "assistant": "/usr/local/bin/assistant", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
+config: {"url": "https://biocontainers.pro/tools/garnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnet", "latest": {"0.4.5--py36_0": "sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee"}, "tags": {"0.4.5--py36_0": "sha256:1c662efd6a6620f2c60239b9d2ae7287fd9d41e589addc5ca4b758fb904d46ee"}, "docker": "quay.io/biocontainers/garnet", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0", "gst-discoverer-1.0": "/usr/local/bin/gst-discoverer-1.0", "gst-play-1.0": "/usr/local/bin/gst-play-1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/garnet.
@@ -107,93 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
+#### easy_install-3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/easy_install-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### qhelpconverter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qhelpconverter
+$ podman run --it --rm --entrypoint /usr/local/bin/qhelpconverter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qhelpconverter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### pylupdate5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pylupdate5
+$ podman run --it --rm --entrypoint /usr/local/bin/pylupdate5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pylupdate5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### pyrcc5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyrcc5
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrcc5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrcc5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### pyuic5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyuic5
+$ podman run --it --rm --entrypoint /usr/local/bin/pyuic5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyuic5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### sip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sip
+$ podman run --it --rm --entrypoint /usr/local/bin/sip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-run-session
+#### qdoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-run-session
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qdoc
+$ podman run --it --rm --entrypoint /usr/local/bin/qdoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-send
+#### gst-device-monitor-1.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-send
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gst-device-monitor-1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gst-device-monitor-1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gst-device-monitor-1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-test-tool
+#### gst-discoverer-1.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-test-tool
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gst-discoverer-1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gst-discoverer-1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gst-discoverer-1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-update-activation-environment
+#### gst-play-1.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-update-activation-environment
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gst-play-1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gst-play-1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gst-play-1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

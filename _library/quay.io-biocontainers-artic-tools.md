@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/artic-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/artic-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/artic-tools/container.yaml"
-updated_at: "2022-10-29 05:43:54.623113"
+updated_at: "2022-10-29 07:46:03.273941"
 latest: "0.3.1--hb777114_3"
 container_url: "https://biocontainers.pro/tools/artic-tools"
 aliases:
  - "artic-tools"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "0.3.1--hb777114_3"
 description: "shpc-registry automated BioContainers addition for artic-tools"
-config: {"url": "https://biocontainers.pro/tools/artic-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for artic-tools", "latest": {"0.3.1--hb777114_3": "sha256:553bc3014cebef6e8ba240f7cd4cb246c91bd4fb36cc37d2f7ea46efd5c994fa"}, "tags": {"0.3.1--hb777114_3": "sha256:553bc3014cebef6e8ba240f7cd4cb246c91bd4fb36cc37d2f7ea46efd5c994fa"}, "docker": "quay.io/biocontainers/artic-tools", "aliases": {"artic-tools": "/usr/local/bin/artic-tools", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/artic-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for artic-tools", "latest": {"0.3.1--hb777114_3": "sha256:553bc3014cebef6e8ba240f7cd4cb246c91bd4fb36cc37d2f7ea46efd5c994fa"}, "tags": {"0.3.1--hb777114_3": "sha256:553bc3014cebef6e8ba240f7cd4cb246c91bd4fb36cc37d2f7ea46efd5c994fa"}, "docker": "quay.io/biocontainers/artic-tools", "aliases": {"artic-tools": "/usr/local/bin/artic-tools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/artic-tools.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/artic-tools   -v ${PWD} -w ${
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

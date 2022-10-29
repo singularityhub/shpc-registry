@@ -4,20 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-mitoode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mitoode/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mitoode/container.yaml"
-updated_at: "2022-10-29 05:30:04.567858"
+updated_at: "2022-10-29 07:35:51.767233"
 latest: "1.25.0--r40h037d062_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mitoode"
 aliases:
+ - ".bioconductor-mitoodedata-post-link.sh"
+ - ".bioconductor-mitoodedata-pre-unlink.sh"
  - "2to3-3.8"
- - "gio-launch-desktop"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.25.0--r40h037d062_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mitoode"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mitoode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mitoode", "latest": {"1.25.0--r40h037d062_0": "sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977"}, "tags": {"1.25.0--r40h037d062_0": "sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977"}, "docker": "quay.io/biocontainers/bioconductor-mitoode", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mitoode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mitoode", "latest": {"1.25.0--r40h037d062_0": "sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977"}, "tags": {"1.25.0--r40h037d062_0": "sha256:a8d942487d9e3fd78a103485ed368549bd84912fe0101169ecfa7e261b4e1977"}, "docker": "quay.io/biocontainers/bioconductor-mitoode", "aliases": {".bioconductor-mitoodedata-post-link.sh": "/usr/local/bin/.bioconductor-mitoodedata-post-link.sh", ".bioconductor-mitoodedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mitoodedata-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mitoode.
@@ -103,21 +107,30 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-mitoodedata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-mitoodedata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mitoodedata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mitoodedata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-mitoodedata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-mitoodedata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mitoodedata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mitoodedata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.8
 
 ```bash
 $ singularity exec <container> /usr/local/bin/2to3-3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -154,6 +167,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

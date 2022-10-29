@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/phylics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phylics/container.yaml"
-updated_at: "2022-10-29 05:56:26.509949"
+updated_at: "2022-10-29 07:55:15.225602"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylics"
 aliases:
- - "2to3-3.8"
+ - "iptest3"
+ - "iptest"
+ - "ipython3"
+ - "ipython"
+ - "numba"
+ - "pycc"
+ - "natsort"
+ - "pygmentize"
  - "f2py3.8"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
- - "h5clear"
- - "h5copy"
- - "h5debug"
- - "h5diff"
+ - "opj_compress"
 versions:
  - "1.0.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for phylics"
-config: {"url": "https://biocontainers.pro/tools/phylics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylics", "latest": {"1.0.7--pyhdfd78af_0": "sha256:c686973ff9057f12c6badb1a5d0df95c7d0a210ca440a223cfd7ca763984b2cc"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:c686973ff9057f12c6badb1a5d0df95c7d0a210ca440a223cfd7ca763984b2cc"}, "docker": "quay.io/biocontainers/phylics", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/phylics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylics", "latest": {"1.0.7--pyhdfd78af_0": "sha256:c686973ff9057f12c6badb1a5d0df95c7d0a210ca440a223cfd7ca763984b2cc"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:c686973ff9057f12c6badb1a5d0df95c7d0a210ca440a223cfd7ca763984b2cc"}, "docker": "quay.io/biocontainers/phylics", "aliases": {"iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "natsort": "/usr/local/bin/natsort", "pygmentize": "/usr/local/bin/pygmentize", "f2py3.8": "/usr/local/bin/f2py3.8", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylics.
@@ -107,12 +107,75 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.8
+#### iptest3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/iptest3
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### iptest
+
+```bash
+$ singularity exec <container> /usr/local/bin/iptest
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython3
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython3
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### numba
+
+```bash
+$ singularity exec <container> /usr/local/bin/numba
+$ podman run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pycc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pycc
+$ podman run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### natsort
+
+```bash
+$ singularity exec <container> /usr/local/bin/natsort
+$ podman run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pygmentize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pygmentize
+$ podman run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -125,75 +188,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD}
 ```
 
 
-#### gif2h5
+#### opj_compress
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h52gif
-
-```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5clear
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5copy
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5debug
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5debug
-$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5diff
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5diff
-$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/sierrapy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sierrapy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sierrapy/container.yaml"
-updated_at: "2022-10-29 05:31:07.295723"
+updated_at: "2022-10-29 07:36:38.115339"
 latest: "0.4.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sierrapy"
 aliases:
  - "gql-cli"
  - "sierrapy"
+ - "normalizer"
+ - "tqdm"
  - "2to3-3.10"
  - "idle3.10"
- - "normalizer"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
- - "tqdm"
 versions:
  - "0.4.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for sierrapy"
-config: {"url": "https://biocontainers.pro/tools/sierrapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sierrapy", "latest": {"0.4.1--pyh7cba7a3_0": "sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7"}, "tags": {"0.4.1--pyh7cba7a3_0": "sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7"}, "docker": "quay.io/biocontainers/sierrapy", "aliases": {"gql-cli": "/usr/local/bin/gql-cli", "sierrapy": "/usr/local/bin/sierrapy", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/sierrapy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sierrapy", "latest": {"0.4.1--pyh7cba7a3_0": "sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7"}, "tags": {"0.4.1--pyh7cba7a3_0": "sha256:3e197e4530011075c0228c07976cd0567bd89c07296b76d0a9b5aae481ba53c7"}, "docker": "quay.io/biocontainers/sierrapy", "aliases": {"gql-cli": "/usr/local/bin/gql-cli", "sierrapy": "/usr/local/bin/sierrapy", "normalizer": "/usr/local/bin/normalizer", "tqdm": "/usr/local/bin/tqdm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sierrapy.
@@ -125,6 +125,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sierrapy   -v ${PWD} -w ${PWD
 ```
 
 
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.10
 
 ```bash
@@ -140,15 +158,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/idle3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### normalizer
-
-```bash
-$ singularity exec <container> /usr/local/bin/normalizer
-$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -185,15 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tqdm
-
-```bash
-$ singularity exec <container> /usr/local/bin/tqdm
-$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

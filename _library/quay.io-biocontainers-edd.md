@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/edd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/edd/container.yaml"
-updated_at: "2022-10-29 05:58:51.200455"
+updated_at: "2022-10-29 07:57:00.496565"
 latest: "1.1.19--py27h4329609_4"
 container_url: "https://biocontainers.pro/tools/edd"
 aliases:
  - "edd"
- - "ace2sam"
+ - "intersection_matrix.py"
+ - "intron_exon_reads.py"
+ - "pbt_plotting_example.py"
+ - "peak_pie.py"
+ - "pybedtools"
+ - "venn_gchart.py"
+ - "venn_mpl.py"
  - "annotate.py"
- - "annotateBed"
- - "bamToBed"
- - "bamToFastq"
- - "bcftools"
- - "bed12ToBed6"
- - "bedToBam"
- - "bedToIgv"
- - "bedpeToBam"
+ - "gff2gff.py"
+ - "guess-ploidy.py"
 versions:
  - "1.1.19--py27h4329609_4"
 description: "shpc-registry automated BioContainers addition for edd"
-config: {"url": "https://biocontainers.pro/tools/edd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edd", "latest": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "tags": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "docker": "quay.io/biocontainers/edd", "aliases": {"edd": "/usr/local/bin/edd", "ace2sam": "/usr/local/bin/ace2sam", "annotate.py": "/usr/local/bin/annotate.py", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bcftools": "/usr/local/bin/bcftools", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
+config: {"url": "https://biocontainers.pro/tools/edd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edd", "latest": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "tags": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "docker": "quay.io/biocontainers/edd", "aliases": {"edd": "/usr/local/bin/edd", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edd.
@@ -117,12 +117,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/edd   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### ace2sam
+#### intersection_matrix.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/intersection_matrix.py
+$ podman run --it --rm --entrypoint /usr/local/bin/intersection_matrix.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/intersection_matrix.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### intron_exon_reads.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/intron_exon_reads.py
+$ podman run --it --rm --entrypoint /usr/local/bin/intron_exon_reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/intron_exon_reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbt_plotting_example.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbt_plotting_example.py
+$ podman run --it --rm --entrypoint /usr/local/bin/pbt_plotting_example.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbt_plotting_example.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### peak_pie.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/peak_pie.py
+$ podman run --it --rm --entrypoint /usr/local/bin/peak_pie.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/peak_pie.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pybedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/pybedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/pybedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pybedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### venn_gchart.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/venn_gchart.py
+$ podman run --it --rm --entrypoint /usr/local/bin/venn_gchart.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/venn_gchart.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### venn_mpl.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/venn_mpl.py
+$ podman run --it --rm --entrypoint /usr/local/bin/venn_mpl.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/venn_mpl.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -135,75 +189,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${
 ```
 
 
-#### annotateBed
+#### gff2gff.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gff2gff.py
+$ podman run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### guess-ploidy.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamToFastq
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bcftools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bed12ToBed6
-
-```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedToBam
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedToIgv
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedToIgv
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedpeToBam
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spaln"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spaln/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spaln/container.yaml"
-updated_at: "2022-10-29 05:56:36.440053"
+updated_at: "2022-10-29 07:55:22.379088"
 latest: "2.4.9--pl5321hd03093a_0"
 container_url: "https://biocontainers.pro/tools/spaln"
 aliases:
@@ -16,10 +16,12 @@ aliases:
  - "sortgrcd"
  - "spaln"
  - "spspaln.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.4.9--pl5321hd03093a_0"
 description: "shpc-registry automated BioContainers addition for spaln"
-config: {"url": "https://biocontainers.pro/tools/spaln", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spaln", "latest": {"2.4.9--pl5321hd03093a_0": "sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858"}, "tags": {"2.4.9--pl5321hd03093a_0": "sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858"}, "docker": "quay.io/biocontainers/spaln", "aliases": {"catchr.pl": "/usr/local/bin/catchr.pl", "makblk.pl": "/usr/local/bin/makblk.pl", "makdbs": "/usr/local/bin/makdbs", "makeidx.pl": "/usr/local/bin/makeidx.pl", "makmdm": "/usr/local/bin/makmdm", "sortgrcd": "/usr/local/bin/sortgrcd", "spaln": "/usr/local/bin/spaln", "spspaln.pl": "/usr/local/bin/spspaln.pl"}}
+config: {"url": "https://biocontainers.pro/tools/spaln", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spaln", "latest": {"2.4.9--pl5321hd03093a_0": "sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858"}, "tags": {"2.4.9--pl5321hd03093a_0": "sha256:34800f4b833dbeaefb8795acfcc53083680e2bb1baa5ea01b680d52764dec858"}, "docker": "quay.io/biocontainers/spaln", "aliases": {"catchr.pl": "/usr/local/bin/catchr.pl", "makblk.pl": "/usr/local/bin/makblk.pl", "makdbs": "/usr/local/bin/makdbs", "makeidx.pl": "/usr/local/bin/makeidx.pl", "makmdm": "/usr/local/bin/makmdm", "sortgrcd": "/usr/local/bin/sortgrcd", "spaln": "/usr/local/bin/spaln", "spspaln.pl": "/usr/local/bin/spspaln.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spaln.
@@ -174,6 +176,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/spaln   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/spspaln.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/spspaln.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/spspaln.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

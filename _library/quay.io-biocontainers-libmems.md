@@ -4,15 +4,14 @@ name:  "quay.io/biocontainers/libmems"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libmems/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/libmems/container.yaml"
-updated_at: "2022-10-29 05:50:10.778807"
+updated_at: "2022-10-29 07:50:40.893352"
 latest: "1.6.0--h2df963e_5"
 container_url: "https://biocontainers.pro/tools/libmems"
-aliases:
- - "env-execute"
+
 versions:
  - "1.6.0--h2df963e_5"
 description: "shpc-registry automated BioContainers addition for libmems"
-config: {"url": "https://biocontainers.pro/tools/libmems", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmems", "latest": {"1.6.0--h2df963e_5": "sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0"}, "tags": {"1.6.0--h2df963e_5": "sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0"}, "docker": "quay.io/biocontainers/libmems", "aliases": {"env-execute": "/usr/local/env-execute"}}
+config: {"url": "https://biocontainers.pro/tools/libmems", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libmems", "latest": {"1.6.0--h2df963e_5": "sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0"}, "tags": {"1.6.0--h2df963e_5": "sha256:786d03bdadf29715ee462ee37bd95472e8e20f3c082d4f6724622bfe9db086e0"}, "docker": "quay.io/biocontainers/libmems"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libmems.
@@ -98,14 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### env-execute
+
+#### libmems
 
 ```bash
-$ singularity exec <container> /usr/local/env-execute
-$ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

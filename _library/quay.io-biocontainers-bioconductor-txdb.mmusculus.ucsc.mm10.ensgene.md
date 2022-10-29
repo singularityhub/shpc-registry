@@ -4,20 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/container.yaml"
-updated_at: "2022-10-29 05:53:20.903948"
+updated_at: "2022-10-29 07:53:00.769709"
 latest: "3.4.0--r40_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
 aliases:
+ - ".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh"
+ - ".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh"
  - "2to3-3.8"
- - "gio-launch-desktop"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "3.4.0--r40_9"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "latest": {"3.4.0--r40_9": "sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2"}, "tags": {"3.4.0--r40_9": "sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "latest": {"3.4.0--r40_9": "sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2"}, "tags": {"3.4.0--r40_9": "sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "aliases": {".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene.
@@ -103,21 +107,30 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.8
 
 ```bash
 $ singularity exec <container> /usr/local/bin/2to3-3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -154,6 +167,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

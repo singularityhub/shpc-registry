@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-cellid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellid/container.yaml"
-updated_at: "2022-10-29 05:43:51.881118"
+updated_at: "2022-10-29 07:46:01.289902"
 latest: "1.2.1--r41hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellid"
 aliases:
- - "geos-config"
  - "geosop"
+ - "geos-config"
  - "glpsol"
 versions:
  - "1.2.1--r41hc247a5b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellid"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellid", "latest": {"1.2.1--r41hc247a5b_1": "sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46"}, "docker": "quay.io/biocontainers/bioconductor-cellid", "aliases": {"geos-config": "/usr/local/bin/geos-config", "geosop": "/usr/local/bin/geosop", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellid", "latest": {"1.2.1--r41hc247a5b_1": "sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:b7d4f7626574dbf0d4761fbc663e08275d0aa4b9bc991eda538bcc3fbf40ae46"}, "docker": "quay.io/biocontainers/bioconductor-cellid", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellid.
@@ -100,21 +100,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### geos-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/geos-config
-$ podman run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### geosop
 
 ```bash
 $ singularity exec <container> /usr/local/bin/geosop
 $ podman run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### geos-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/geos-config
+$ podman run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

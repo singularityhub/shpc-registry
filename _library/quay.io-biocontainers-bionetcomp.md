@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/bionetcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bionetcomp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bionetcomp/container.yaml"
-updated_at: "2022-10-29 05:41:49.859298"
+updated_at: "2022-10-29 07:44:30.072575"
 latest: "1.1--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/bionetcomp"
 aliases:
  - "bionetcomp"
  - "gseapy"
- - "2to3-3.9"
- - "browse"
- - "chardetect"
  - "easydev_buildPackage"
- - "f2py3.9"
  - "ibrowse"
- - "idle3.9"
  - "multigit"
+ - "browse"
+ - "xslt-config"
+ - "xsltproc"
+ - "chardetect"
+ - "f2py3.9"
  - "opj_compress"
  - "opj_decompress"
 versions:
  - "1.1--pyhfa5458b_0"
 description: "shpc-registry automated BioContainers addition for bionetcomp"
-config: {"url": "https://biocontainers.pro/tools/bionetcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bionetcomp", "latest": {"1.1--pyhfa5458b_0": "sha256:2925996a315b8bd77cab44cd01e1d2b9491507f334cf21a12333d16bff4bcdab"}, "tags": {"1.1--pyhfa5458b_0": "sha256:2925996a315b8bd77cab44cd01e1d2b9491507f334cf21a12333d16bff4bcdab"}, "docker": "quay.io/biocontainers/bionetcomp", "aliases": {"bionetcomp": "/usr/local/bin/bionetcomp", "gseapy": "/usr/local/bin/gseapy", "2to3-3.9": "/usr/local/bin/2to3-3.9", "browse": "/usr/local/bin/browse", "chardetect": "/usr/local/bin/chardetect", "easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "f2py3.9": "/usr/local/bin/f2py3.9", "ibrowse": "/usr/local/bin/ibrowse", "idle3.9": "/usr/local/bin/idle3.9", "multigit": "/usr/local/bin/multigit", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
+config: {"url": "https://biocontainers.pro/tools/bionetcomp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bionetcomp", "latest": {"1.1--pyhfa5458b_0": "sha256:2925996a315b8bd77cab44cd01e1d2b9491507f334cf21a12333d16bff4bcdab"}, "tags": {"1.1--pyhfa5458b_0": "sha256:2925996a315b8bd77cab44cd01e1d2b9491507f334cf21a12333d16bff4bcdab"}, "docker": "quay.io/biocontainers/bionetcomp", "aliases": {"bionetcomp": "/usr/local/bin/bionetcomp", "gseapy": "/usr/local/bin/gseapy", "easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bionetcomp.
@@ -127,48 +127,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gseapy   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### browse
-
-```bash
-$ singularity exec <container> /usr/local/bin/browse
-$ podman run --it --rm --entrypoint /usr/local/bin/browse   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/browse   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### easydev_buildPackage
 
 ```bash
 $ singularity exec <container> /usr/local/bin/easydev_buildPackage
 $ podman run --it --rm --entrypoint /usr/local/bin/easydev_buildPackage   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/easydev_buildPackage   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -181,21 +145,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ibrowse   -v ${PWD} -w ${PWD}
 ```
 
 
-#### idle3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### multigit
 
 ```bash
 $ singularity exec <container> /usr/local/bin/multigit
 $ podman run --it --rm --entrypoint /usr/local/bin/multigit   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/multigit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### browse
+
+```bash
+$ singularity exec <container> /usr/local/bin/browse
+$ podman run --it --rm --entrypoint /usr/local/bin/browse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/browse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

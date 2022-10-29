@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/demuxem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demuxem/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/demuxem/container.yaml"
-updated_at: "2022-10-29 05:38:07.399066"
+updated_at: "2022-10-29 07:41:46.638275"
 latest: "0.1.7--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/demuxem"
 aliases:
  - "demuxEM"
  - "pegasusio"
- - "2to3-3.9"
- - "brotli"
- - "cwebp"
- - "dwebp"
- - "f2py3.9"
+ - "natsort"
+ - "mirror_server"
+ - "mirror_server_stop"
  - "fonttools"
- - "gif2h5"
- - "gif2rgb"
- - "gif2webp"
- - "gifbuild"
+ - "pyftmerge"
+ - "pyftsubset"
+ - "ttx"
+ - "brotli"
+ - "img2webp"
+ - "cwebp"
 versions:
  - "0.1.7--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for demuxem"
-config: {"url": "https://biocontainers.pro/tools/demuxem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxem", "latest": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "docker": "quay.io/biocontainers/demuxem", "aliases": {"demuxEM": "/usr/local/bin/demuxEM", "pegasusio": "/usr/local/bin/pegasusio", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp", "gifbuild": "/usr/local/bin/gifbuild"}}
+config: {"url": "https://biocontainers.pro/tools/demuxem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for demuxem", "latest": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:a122f404ae5694e9232b18ae22014d9fd0011a28b1f350cea19986741184cbb5"}, "docker": "quay.io/biocontainers/demuxem", "aliases": {"demuxEM": "/usr/local/bin/demuxEM", "pegasusio": "/usr/local/bin/pegasusio", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/demuxem.
@@ -127,48 +127,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pegasusio   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.9
+#### natsort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/natsort
+$ podman run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### mirror_server
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mirror_server
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cwebp
+#### mirror_server_stop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mirror_server_stop
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -181,39 +163,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PW
 ```
 
 
-#### gif2h5
+#### pyftmerge
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2rgb
+#### pyftsubset
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftsubset
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2webp
+#### ttx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2webp
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ttx
+$ podman run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gifbuild
+#### brotli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### img2webp
+
+```bash
+$ singularity exec <container> /usr/local/bin/img2webp
+$ podman run --it --rm --entrypoint /usr/local/bin/img2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/img2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

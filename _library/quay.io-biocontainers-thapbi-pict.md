@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/thapbi-pict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thapbi-pict/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/thapbi-pict/container.yaml"
-updated_at: "2022-10-29 05:50:38.963407"
+updated_at: "2022-10-29 07:51:01.532713"
 latest: "0.6.9--py_0"
 container_url: "https://biocontainers.pro/tools/thapbi-pict"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "graph_plot.py"
  - "swarm"
  - "thapbi_pict"
- - "2to3-3.7"
- - "acyclic"
- - "alimask"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "aserver"
- - "asp-cp"
- - "asp-ls"
- - "bcomps"
- - "between-two-genes"
+ - "flash"
+ - "igraph"
+ - "cutadapt"
+ - "vba_extract.py"
+ - "trimmomatic"
+ - "cxpm"
+ - "sxpm"
+ - "pigz"
+ - "unpigz"
+ - "fetch-extras"
 versions:
  - "0.6.9--py_0"
 description: "shpc-registry automated BioContainers addition for thapbi-pict"
-config: {"url": "https://biocontainers.pro/tools/thapbi-pict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thapbi-pict", "latest": {"0.6.9--py_0": "sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3"}, "tags": {"0.6.9--py_0": "sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3"}, "docker": "quay.io/biocontainers/thapbi-pict", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "thapbi_pict": "/usr/local/bin/thapbi_pict", "2to3-3.7": "/usr/local/bin/2to3-3.7", "acyclic": "/usr/local/bin/acyclic", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "bcomps": "/usr/local/bin/bcomps", "between-two-genes": "/usr/local/bin/between-two-genes"}}
+config: {"url": "https://biocontainers.pro/tools/thapbi-pict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thapbi-pict", "latest": {"0.6.9--py_0": "sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3"}, "tags": {"0.6.9--py_0": "sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3"}, "docker": "quay.io/biocontainers/thapbi-pict", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "thapbi_pict": "/usr/local/bin/thapbi_pict", "flash": "/usr/local/bin/flash", "igraph": "/usr/local/bin/igraph", "cutadapt": "/usr/local/bin/cutadapt", "vba_extract.py": "/usr/local/bin/vba_extract.py", "trimmomatic": "/usr/local/bin/trimmomatic", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "fetch-extras": "/usr/local/bin/fetch-extras"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/thapbi-pict.
@@ -147,93 +147,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/thapbi_pict   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.7
+#### flash
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flash
+$ podman run --it --rm --entrypoint /usr/local/bin/flash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flash   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### igraph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/igraph
+$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### cutadapt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cutadapt
+$ podman run --it --rm --entrypoint /usr/local/bin/cutadapt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cutadapt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### vba_extract.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vba_extract.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vba_extract.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vba_extract.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### trimmomatic
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/trimmomatic
+$ podman run --it --rm --entrypoint /usr/local/bin/trimmomatic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trimmomatic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### cxpm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cxpm
+$ podman run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-cp
+#### sxpm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-cp
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sxpm
+$ podman run --it --rm --entrypoint /usr/local/bin/sxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-ls
+#### pigz
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-ls
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### unpigz
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unpigz
+$ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### between-two-genes
+#### fetch-extras
 
 ```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fetch-extras
+$ podman run --it --rm --entrypoint /usr/local/bin/fetch-extras   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fetch-extras   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

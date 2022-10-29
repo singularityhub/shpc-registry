@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/isocor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isocor/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/isocor/container.yaml"
-updated_at: "2022-10-29 05:33:47.937027"
+updated_at: "2022-10-29 07:38:35.814200"
 latest: "2.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/isocor"
 aliases:
  - "isocor"
  - "isocorcli"
- - "2to3-3.8"
  - "f2py3.8"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "2.2.0--py_0"
 description: "shpc-registry automated BioContainers addition for isocor"
-config: {"url": "https://biocontainers.pro/tools/isocor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isocor", "latest": {"2.2.0--py_0": "sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e"}, "tags": {"2.2.0--py_0": "sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e"}, "docker": "quay.io/biocontainers/isocor", "aliases": {"isocor": "/usr/local/bin/isocor", "isocorcli": "/usr/local/bin/isocorcli", "2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/isocor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isocor", "latest": {"2.2.0--py_0": "sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e"}, "tags": {"2.2.0--py_0": "sha256:f8aa7f264418d3a5a1eb10bf6ddfa23e70b17f0236e070df28f72313278b519e"}, "docker": "quay.io/biocontainers/isocor", "aliases": {"isocor": "/usr/local/bin/isocor", "isocorcli": "/usr/local/bin/isocorcli", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isocor.
@@ -123,21 +123,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/isocorcli   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.8
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/2pg_cartesian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/2pg_cartesian/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/2pg_cartesian/container.yaml"
-updated_at: "2022-10-29 05:32:33.445734"
+updated_at: "2022-10-29 07:37:40.974989"
 latest: "1.0.1--h87f3376_5"
 container_url: "https://biocontainers.pro/tools/2pg_cartesian"
 aliases:
@@ -43,10 +43,9 @@ aliases:
  - "fftwf-wisdom"
  - "fftwl-wisdom"
 versions:
- - "1.0.1--h1b792b2_4"
  - "1.0.1--h87f3376_5"
 description: "shpc-registry automated BioContainers addition for 2pg_cartesian"
-config: {"url": "https://biocontainers.pro/tools/2pg_cartesian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for 2pg_cartesian", "latest": {"1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "tags": {"1.0.1--h1b792b2_4": "sha256:5698338400cb3cfbfd071445caa165213a6737d0af6fd158a5aff4e2b29335f0", "1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "docker": "quay.io/biocontainers/2pg_cartesian", "aliases": {"gmx": "/usr/local/bin/gmx", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "protpred-Gromacs-Dominance": "/usr/local/bin/protpred-Gromacs-Dominance", "protpred-Gromacs-Front": "/usr/local/bin/protpred-Gromacs-Front", "protpred-Gromacs-MC_Metropolis": "/usr/local/bin/protpred-Gromacs-MC_Metropolis", "protpred-Gromacs-Mono": "/usr/local/bin/protpred-Gromacs-Mono", "protpred-Gromacs-NSGA2": "/usr/local/bin/protpred-Gromacs-NSGA2", "protpred-Gromacs-Random_Algorithm": "/usr/local/bin/protpred-Gromacs-Random_Algorithm", "protpred-Gromacs-Sort_Method_Files_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_Files_by_Front_Dominance", "protpred-Gromacs-Sort_Method_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_by_Front_Dominance", "protpred-Gromacs-Test_compute_Diehdral": "/usr/local/bin/protpred-Gromacs-Test_compute_Diehdral", "protpred-Gromacs-Test_compute_objetivies": "/usr/local/bin/protpred-Gromacs-Test_compute_objetivies", "protpred-Gromacs-Test_crossover": "/usr/local/bin/protpred-Gromacs-Test_crossover", "protpred-Gromacs-Test_dm_refinement": "/usr/local/bin/protpred-Gromacs-Test_dm_refinement", "protpred-Gromacs-Test_load_population": "/usr/local/bin/protpred-Gromacs-Test_load_population", "protpred-Gromacs-Test_random_number": "/usr/local/bin/protpred-Gromacs-Test_random_number", "protpred-Gromacs-Test_rotation": "/usr/local/bin/protpred-Gromacs-Test_rotation", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/2pg_cartesian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for 2pg_cartesian", "latest": {"1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "tags": {"1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "docker": "quay.io/biocontainers/2pg_cartesian", "aliases": {"gmx": "/usr/local/bin/gmx", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "protpred-Gromacs-Dominance": "/usr/local/bin/protpred-Gromacs-Dominance", "protpred-Gromacs-Front": "/usr/local/bin/protpred-Gromacs-Front", "protpred-Gromacs-MC_Metropolis": "/usr/local/bin/protpred-Gromacs-MC_Metropolis", "protpred-Gromacs-Mono": "/usr/local/bin/protpred-Gromacs-Mono", "protpred-Gromacs-NSGA2": "/usr/local/bin/protpred-Gromacs-NSGA2", "protpred-Gromacs-Random_Algorithm": "/usr/local/bin/protpred-Gromacs-Random_Algorithm", "protpred-Gromacs-Sort_Method_Files_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_Files_by_Front_Dominance", "protpred-Gromacs-Sort_Method_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_by_Front_Dominance", "protpred-Gromacs-Test_compute_Diehdral": "/usr/local/bin/protpred-Gromacs-Test_compute_Diehdral", "protpred-Gromacs-Test_compute_objetivies": "/usr/local/bin/protpred-Gromacs-Test_compute_objetivies", "protpred-Gromacs-Test_crossover": "/usr/local/bin/protpred-Gromacs-Test_crossover", "protpred-Gromacs-Test_dm_refinement": "/usr/local/bin/protpred-Gromacs-Test_dm_refinement", "protpred-Gromacs-Test_load_population": "/usr/local/bin/protpred-Gromacs-Test_load_population", "protpred-Gromacs-Test_random_number": "/usr/local/bin/protpred-Gromacs-Test_random_number", "protpred-Gromacs-Test_rotation": "/usr/local/bin/protpred-Gromacs-Test_rotation", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/2pg_cartesian.
@@ -61,7 +60,7 @@ $ shpc install quay.io/biocontainers/2pg_cartesian
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/2pg_cartesian:1.0.1--h1b792b2_4
+$ shpc install quay.io/biocontainers/2pg_cartesian:1.0.1--h87f3376_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -73,8 +72,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/2pg_cartesian/1.0.1--h1b792b2_4
-$ module help quay.io/biocontainers/2pg_cartesian/1.0.1--h1b792b2_4
+$ module load quay.io/biocontainers/2pg_cartesian/1.0.1--h87f3376_5
+$ module help quay.io/biocontainers/2pg_cartesian/1.0.1--h87f3376_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

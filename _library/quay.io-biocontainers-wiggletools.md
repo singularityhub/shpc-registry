@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/wiggletools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wiggletools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wiggletools/container.yaml"
-updated_at: "2022-10-29 05:54:29.040836"
+updated_at: "2022-10-29 07:53:50.025785"
 latest: "1.2.8--he98db58_2"
 container_url: "https://biocontainers.pro/tools/wiggletools"
 aliases:
  - "wiggletools"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "1.2.8--he98db58_2"
 description: "shpc-registry automated BioContainers addition for wiggletools"
-config: {"url": "https://biocontainers.pro/tools/wiggletools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wiggletools", "latest": {"1.2.8--he98db58_2": "sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68"}, "tags": {"1.2.8--he98db58_2": "sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68"}, "docker": "quay.io/biocontainers/wiggletools", "aliases": {"wiggletools": "/usr/local/bin/wiggletools", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/wiggletools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wiggletools", "latest": {"1.2.8--he98db58_2": "sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68"}, "tags": {"1.2.8--he98db58_2": "sha256:3ff83dfd89d41e43630d3279838430860b67ab72897a288f10ded38c6e3fff68"}, "docker": "quay.io/biocontainers/wiggletools", "aliases": {"wiggletools": "/usr/local/bin/wiggletools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wiggletools.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wiggletools   -v ${PWD} -w ${
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

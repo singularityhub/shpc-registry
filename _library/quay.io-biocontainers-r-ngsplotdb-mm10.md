@@ -4,10 +4,12 @@ name:  "quay.io/biocontainers/r-ngsplotdb-mm10"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ngsplotdb-mm10/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-ngsplotdb-mm10/container.yaml"
-updated_at: "2022-10-29 05:52:34.915196"
+updated_at: "2022-10-29 07:52:26.807059"
 latest: "3.00--hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/r-ngsplotdb-mm10"
 aliases:
+ - ".r-ngsplotdb-mm10-post-link.sh"
+ - ".r-ngsplotdb-mm10-pre-unlink.sh"
  - "ExtractGName.R"
  - "alt_reg_cufflinks"
  - "alter2bed.pl"
@@ -34,19 +36,20 @@ aliases:
  - "time.tabix.2.r"
  - "time.tabix.extractOnly.r"
  - "time.tabix.r"
- - "idle"
  - "idn2"
- - "python-config"
- - "python2"
- - "python2-config"
- - "python2.7"
- - "python2.7-config"
- - "smtpd.py"
  - "wget"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
+ - "python-config"
+ - "smtpd.py"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.00--hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for r-ngsplotdb-mm10"
-config: {"url": "https://biocontainers.pro/tools/r-ngsplotdb-mm10", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ngsplotdb-mm10", "latest": {"3.00--hdfd78af_7": "sha256:c32a85fefdd16505508732f16d823a6835eddf568bdbdd6d4f06d96ccfe96f9a"}, "tags": {"3.00--hdfd78af_7": "sha256:c32a85fefdd16505508732f16d823a6835eddf568bdbdd6d4f06d96ccfe96f9a"}, "docker": "quay.io/biocontainers/r-ngsplotdb-mm10", "aliases": {"ExtractGName.R": "/usr/local/bin/ExtractGName.R", "alt_reg_cufflinks": "/usr/local/bin/alt_reg_cufflinks", "alter2bed.pl": "/usr/local/bin/alter2bed.pl", "combine_diff.pl": "/usr/local/bin/combine_diff.pl", "coordinat.pl": "/usr/local/bin/coordinat.pl", "difflist2bed.pl": "/usr/local/bin/difflist2bed.pl", "get_difflist.pl": "/usr/local/bin/get_difflist.pl", "gtf2txt_plot.pl": "/usr/local/bin/gtf2txt_plot.pl", "install.db.tables.r": "/usr/local/bin/install.db.tables.r", "make_cgi_list.R": "/usr/local/bin/make_cgi_list.R", "make_gene_model.R": "/usr/local/bin/make_gene_model.R", "ngs.plot.r": "/usr/local/bin/ngs.plot.r", "ngsplotdb.py": "/usr/local/bin/ngsplotdb.py", "parse_diff.pl": "/usr/local/bin/parse_diff.pl", "plotCorrGram.r": "/usr/local/bin/plotCorrGram.r", "remove.db.tables.r": "/usr/local/bin/remove.db.tables.r", "replot.r": "/usr/local/bin/replot.r", "setTableDefaults.py": "/usr/local/bin/setTableDefaults.py", "time.bigWig.extractOnly.r": "/usr/local/bin/time.bigWig.extractOnly.r", "time.bigWig.r": "/usr/local/bin/time.bigWig.r", "time.libload.r": "/usr/local/bin/time.libload.r", "time.ngs.plot.extractOnly.r": "/usr/local/bin/time.ngs.plot.extractOnly.r", "time.ngs.plot.r": "/usr/local/bin/time.ngs.plot.r", "time.tabix.2.r": "/usr/local/bin/time.tabix.2.r", "time.tabix.extractOnly.r": "/usr/local/bin/time.tabix.extractOnly.r", "time.tabix.r": "/usr/local/bin/time.tabix.r", "idle": "/usr/local/bin/idle", "idn2": "/usr/local/bin/idn2", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/r-ngsplotdb-mm10", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ngsplotdb-mm10", "latest": {"3.00--hdfd78af_7": "sha256:c32a85fefdd16505508732f16d823a6835eddf568bdbdd6d4f06d96ccfe96f9a"}, "tags": {"3.00--hdfd78af_7": "sha256:c32a85fefdd16505508732f16d823a6835eddf568bdbdd6d4f06d96ccfe96f9a"}, "docker": "quay.io/biocontainers/r-ngsplotdb-mm10", "aliases": {".r-ngsplotdb-mm10-post-link.sh": "/usr/local/bin/.r-ngsplotdb-mm10-post-link.sh", ".r-ngsplotdb-mm10-pre-unlink.sh": "/usr/local/bin/.r-ngsplotdb-mm10-pre-unlink.sh", "ExtractGName.R": "/usr/local/bin/ExtractGName.R", "alt_reg_cufflinks": "/usr/local/bin/alt_reg_cufflinks", "alter2bed.pl": "/usr/local/bin/alter2bed.pl", "combine_diff.pl": "/usr/local/bin/combine_diff.pl", "coordinat.pl": "/usr/local/bin/coordinat.pl", "difflist2bed.pl": "/usr/local/bin/difflist2bed.pl", "get_difflist.pl": "/usr/local/bin/get_difflist.pl", "gtf2txt_plot.pl": "/usr/local/bin/gtf2txt_plot.pl", "install.db.tables.r": "/usr/local/bin/install.db.tables.r", "make_cgi_list.R": "/usr/local/bin/make_cgi_list.R", "make_gene_model.R": "/usr/local/bin/make_gene_model.R", "ngs.plot.r": "/usr/local/bin/ngs.plot.r", "ngsplotdb.py": "/usr/local/bin/ngsplotdb.py", "parse_diff.pl": "/usr/local/bin/parse_diff.pl", "plotCorrGram.r": "/usr/local/bin/plotCorrGram.r", "remove.db.tables.r": "/usr/local/bin/remove.db.tables.r", "replot.r": "/usr/local/bin/replot.r", "setTableDefaults.py": "/usr/local/bin/setTableDefaults.py", "time.bigWig.extractOnly.r": "/usr/local/bin/time.bigWig.extractOnly.r", "time.bigWig.r": "/usr/local/bin/time.bigWig.r", "time.libload.r": "/usr/local/bin/time.libload.r", "time.ngs.plot.extractOnly.r": "/usr/local/bin/time.ngs.plot.extractOnly.r", "time.ngs.plot.r": "/usr/local/bin/time.ngs.plot.r", "time.tabix.2.r": "/usr/local/bin/time.tabix.2.r", "time.tabix.extractOnly.r": "/usr/local/bin/time.tabix.extractOnly.r", "time.tabix.r": "/usr/local/bin/time.tabix.r", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ngsplotdb-mm10.
@@ -129,6 +132,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .r-ngsplotdb-mm10-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.r-ngsplotdb-mm10-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.r-ngsplotdb-mm10-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.r-ngsplotdb-mm10-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .r-ngsplotdb-mm10-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.r-ngsplotdb-mm10-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.r-ngsplotdb-mm10-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.r-ngsplotdb-mm10-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -366,15 +387,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/time.tabix.r   -v ${PWD} -w $
 ```
 
 
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### idn2
 
 ```bash
@@ -384,21 +396,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### python-config
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -411,6 +414,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w
 ```
 
 
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### python2.7
 
 ```bash
@@ -420,12 +441,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PW
 ```
 
 
-#### python2.7-config
+#### idle
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -438,12 +468,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD
 ```
 
 
-#### wget
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

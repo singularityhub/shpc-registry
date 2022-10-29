@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rsat-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsat-core/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rsat-core/container.yaml"
-updated_at: "2022-10-29 05:51:01.240054"
+updated_at: "2022-10-29 07:51:17.879914"
 latest: "2020.02.29--py36pl526r36hc99cbb1_0"
 container_url: "https://biocontainers.pro/tools/rsat-core"
 aliases:
@@ -17,21 +17,47 @@ aliases:
  - "cpp"
  - "index_bigwigset.pl"
  - "info-gibbs"
+ - "innochecksum"
  - "lz4_decompress"
  - "matchcluster"
  - "matrix-scan-quick"
  - "mkdna6idx"
  - "mkvtree"
+ - "myisam_ftdump"
+ - "myisamchk"
+ - "myisamlog"
+ - "myisampack"
+ - "mysql"
  - "mysql.server"
+ - "mysql_client_test"
  - "mysql_client_test_embedded"
  - "mysql_config_editor"
  - "mysql_embedded"
  - "mysql_install_db"
+ - "mysql_plugin"
+ - "mysql_secure_installation"
  - "mysql_ssl_rsa_setup"
+ - "mysql_tzinfo_to_sql"
+ - "mysql_upgrade"
+ - "mysqladmin"
+ - "mysqlbinlog"
+ - "mysqlcheck"
+ - "mysqld"
+ - "mysqld_multi"
+ - "mysqld_safe"
+ - "mysqldump"
+ - "mysqldumpslow"
+ - "mysqlimport"
  - "mysqlpump"
+ - "mysqlshow"
+ - "mysqlslap"
+ - "mysqltest"
  - "mysqltest_embedded"
  - "mysqlxtest"
  - "repfind.pl"
+ - "replace"
+ - "resolve_stack_dump"
+ - "resolveip"
  - "retrieve-variation-seq"
  - "rsat"
  - "upgradeprj.pl"
@@ -46,20 +72,20 @@ aliases:
  - "vsubseqselect"
  - "wigToBigWig.pl"
  - "zlib_decompress"
- - "2to3-3.6"
- - "SOAPsh.pl"
- - "ace.pl"
- - "acyclic"
- - "amino-acid-composition"
- - "annotate"
- - "annotateBed"
- - "archive-pubmed"
- - "asp-cp"
- - "asp-ls"
+ - "transformseq"
+ - "weblogo"
+ - "chrpath"
+ - "g-ir-doc-tool"
+ - "gnuplot"
+ - "l4p-tmpl"
+ - "g-ir-annotation-tool"
+ - "g-ir-compiler"
+ - "g-ir-generate"
+ - "g-ir-inspect"
 versions:
  - "2020.02.29--py36pl526r36hc99cbb1_0"
 description: "shpc-registry automated BioContainers addition for rsat-core"
-config: {"url": "https://biocontainers.pro/tools/rsat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsat-core", "latest": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "tags": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "docker": "quay.io/biocontainers/rsat-core", "aliases": {"Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "bigWigToWig.pl": "/usr/local/bin/bigWigToWig.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "compare-matrices-quick": "/usr/local/bin/compare-matrices-quick", "count-words": "/usr/local/bin/count-words", "cpp": "/usr/local/bin/cpp", "index_bigwigset.pl": "/usr/local/bin/index_bigwigset.pl", "info-gibbs": "/usr/local/bin/info-gibbs", "lz4_decompress": "/usr/local/bin/lz4_decompress", "matchcluster": "/usr/local/bin/matchcluster", "matrix-scan-quick": "/usr/local/bin/matrix-scan-quick", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "mysql.server": "/usr/local/bin/mysql.server", "mysql_client_test_embedded": "/usr/local/bin/mysql_client_test_embedded", "mysql_config_editor": "/usr/local/bin/mysql_config_editor", "mysql_embedded": "/usr/local/bin/mysql_embedded", "mysql_install_db": "/usr/local/bin/mysql_install_db", "mysql_ssl_rsa_setup": "/usr/local/bin/mysql_ssl_rsa_setup", "mysqlpump": "/usr/local/bin/mysqlpump", "mysqltest_embedded": "/usr/local/bin/mysqltest_embedded", "mysqlxtest": "/usr/local/bin/mysqlxtest", "repfind.pl": "/usr/local/bin/repfind.pl", "retrieve-variation-seq": "/usr/local/bin/retrieve-variation-seq", "rsat": "/usr/local/bin/rsat", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "variation-scan": "/usr/local/bin/variation-scan", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "wigToBigWig.pl": "/usr/local/bin/wigToBigWig.pl", "zlib_decompress": "/usr/local/bin/zlib_decompress", "2to3-3.6": "/usr/local/bin/2to3-3.6", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate", "annotateBed": "/usr/local/bin/annotateBed", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls"}}
+config: {"url": "https://biocontainers.pro/tools/rsat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsat-core", "latest": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "tags": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "docker": "quay.io/biocontainers/rsat-core", "aliases": {"Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "bigWigToWig.pl": "/usr/local/bin/bigWigToWig.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "compare-matrices-quick": "/usr/local/bin/compare-matrices-quick", "count-words": "/usr/local/bin/count-words", "cpp": "/usr/local/bin/cpp", "index_bigwigset.pl": "/usr/local/bin/index_bigwigset.pl", "info-gibbs": "/usr/local/bin/info-gibbs", "innochecksum": "/usr/local/bin/innochecksum", "lz4_decompress": "/usr/local/bin/lz4_decompress", "matchcluster": "/usr/local/bin/matchcluster", "matrix-scan-quick": "/usr/local/bin/matrix-scan-quick", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "myisam_ftdump": "/usr/local/bin/myisam_ftdump", "myisamchk": "/usr/local/bin/myisamchk", "myisamlog": "/usr/local/bin/myisamlog", "myisampack": "/usr/local/bin/myisampack", "mysql": "/usr/local/bin/mysql", "mysql.server": "/usr/local/bin/mysql.server", "mysql_client_test": "/usr/local/bin/mysql_client_test", "mysql_client_test_embedded": "/usr/local/bin/mysql_client_test_embedded", "mysql_config_editor": "/usr/local/bin/mysql_config_editor", "mysql_embedded": "/usr/local/bin/mysql_embedded", "mysql_install_db": "/usr/local/bin/mysql_install_db", "mysql_plugin": "/usr/local/bin/mysql_plugin", "mysql_secure_installation": "/usr/local/bin/mysql_secure_installation", "mysql_ssl_rsa_setup": "/usr/local/bin/mysql_ssl_rsa_setup", "mysql_tzinfo_to_sql": "/usr/local/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/local/bin/mysql_upgrade", "mysqladmin": "/usr/local/bin/mysqladmin", "mysqlbinlog": "/usr/local/bin/mysqlbinlog", "mysqlcheck": "/usr/local/bin/mysqlcheck", "mysqld": "/usr/local/bin/mysqld", "mysqld_multi": "/usr/local/bin/mysqld_multi", "mysqld_safe": "/usr/local/bin/mysqld_safe", "mysqldump": "/usr/local/bin/mysqldump", "mysqldumpslow": "/usr/local/bin/mysqldumpslow", "mysqlimport": "/usr/local/bin/mysqlimport", "mysqlpump": "/usr/local/bin/mysqlpump", "mysqlshow": "/usr/local/bin/mysqlshow", "mysqlslap": "/usr/local/bin/mysqlslap", "mysqltest": "/usr/local/bin/mysqltest", "mysqltest_embedded": "/usr/local/bin/mysqltest_embedded", "mysqlxtest": "/usr/local/bin/mysqlxtest", "repfind.pl": "/usr/local/bin/repfind.pl", "replace": "/usr/local/bin/replace", "resolve_stack_dump": "/usr/local/bin/resolve_stack_dump", "resolveip": "/usr/local/bin/resolveip", "retrieve-variation-seq": "/usr/local/bin/retrieve-variation-seq", "rsat": "/usr/local/bin/rsat", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "variation-scan": "/usr/local/bin/variation-scan", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "wigToBigWig.pl": "/usr/local/bin/wigToBigWig.pl", "zlib_decompress": "/usr/local/bin/zlib_decompress", "transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "chrpath": "/usr/local/bin/chrpath", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "gnuplot": "/usr/local/bin/gnuplot", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rsat-core.
@@ -226,6 +252,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/info-gibbs   -v ${PWD} -w ${P
 ```
 
 
+#### innochecksum
+
+```bash
+$ singularity exec <container> /usr/local/bin/innochecksum
+$ podman run --it --rm --entrypoint /usr/local/bin/innochecksum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/innochecksum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### lz4_decompress
 
 ```bash
@@ -271,12 +306,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mkvtree   -v ${PWD} -w ${PWD}
 ```
 
 
+#### myisam_ftdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/myisam_ftdump
+$ podman run --it --rm --entrypoint /usr/local/bin/myisam_ftdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/myisam_ftdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### myisamchk
+
+```bash
+$ singularity exec <container> /usr/local/bin/myisamchk
+$ podman run --it --rm --entrypoint /usr/local/bin/myisamchk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/myisamchk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### myisamlog
+
+```bash
+$ singularity exec <container> /usr/local/bin/myisamlog
+$ podman run --it --rm --entrypoint /usr/local/bin/myisamlog   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/myisamlog   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### myisampack
+
+```bash
+$ singularity exec <container> /usr/local/bin/myisampack
+$ podman run --it --rm --entrypoint /usr/local/bin/myisampack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/myisampack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysql
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mysql.server
 
 ```bash
 $ singularity exec <container> /usr/local/bin/mysql.server
 $ podman run --it --rm --entrypoint /usr/local/bin/mysql.server   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mysql.server   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysql_client_test
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_client_test
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_client_test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_client_test   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -316,6 +405,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mysql_install_db   -v ${PWD} 
 ```
 
 
+#### mysql_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysql_secure_installation
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_secure_installation
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_secure_installation   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_secure_installation   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mysql_ssl_rsa_setup
 
 ```bash
@@ -325,12 +432,138 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mysql_ssl_rsa_setup   -v ${PW
 ```
 
 
+#### mysql_tzinfo_to_sql
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_tzinfo_to_sql
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_tzinfo_to_sql   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_tzinfo_to_sql   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysql_upgrade
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_upgrade
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_upgrade   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_upgrade   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqladmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqladmin
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqladmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqladmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqlbinlog
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqlbinlog
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqlbinlog   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqlbinlog   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqlcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqlcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqlcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqlcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqld
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqld
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqld   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqld   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqld_multi
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqld_multi
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqld_multi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqld_multi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqld_safe
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqld_safe
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqld_safe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqld_safe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqldump
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqldump
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqldump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqldump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqldumpslow
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqldumpslow
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqldumpslow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqldumpslow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqlimport
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqlimport
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqlimport   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqlimport   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mysqlpump
 
 ```bash
 $ singularity exec <container> /usr/local/bin/mysqlpump
 $ podman run --it --rm --entrypoint /usr/local/bin/mysqlpump   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mysqlpump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqlshow
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqlshow
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqlshow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqlshow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqlslap
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqlslap
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqlslap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqlslap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysqltest
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysqltest
+$ podman run --it --rm --entrypoint /usr/local/bin/mysqltest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysqltest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -358,6 +591,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mysqlxtest   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/repfind.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/repfind.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/repfind.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### replace
+
+```bash
+$ singularity exec <container> /usr/local/bin/replace
+$ podman run --it --rm --entrypoint /usr/local/bin/replace   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/replace   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### resolve_stack_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/resolve_stack_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/resolve_stack_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/resolve_stack_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### resolveip
+
+```bash
+$ singularity exec <container> /usr/local/bin/resolveip
+$ podman run --it --rm --entrypoint /usr/local/bin/resolveip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/resolveip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -487,93 +747,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/zlib_decompress   -v ${PWD} -
 ```
 
 
-#### 2to3-3.6
+#### transformseq
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/transformseq
+$ podman run --it --rm --entrypoint /usr/local/bin/transformseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/transformseq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SOAPsh.pl
+#### weblogo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/weblogo
+$ podman run --it --rm --entrypoint /usr/local/bin/weblogo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/weblogo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace.pl
+#### chrpath
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chrpath
+$ podman run --it --rm --entrypoint /usr/local/bin/chrpath   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chrpath   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### g-ir-doc-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-doc-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### gnuplot
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gnuplot
+$ podman run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### l4p-tmpl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### g-ir-annotation-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-annotation-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### g-ir-compiler
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-compiler
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-cp
+#### g-ir-generate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-cp
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-generate
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-ls
+#### g-ir-inspect
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-ls
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/g-ir-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

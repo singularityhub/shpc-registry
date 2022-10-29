@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-onto-perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-onto-perl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-onto-perl/container.yaml"
-updated_at: "2022-10-29 05:58:08.022937"
+updated_at: "2022-10-29 07:56:28.786821"
 latest: "1.45--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-onto-perl"
 aliases:
@@ -47,10 +47,12 @@ aliases:
  - "obo_union.pl"
  - "owl2obo.pl"
  - "xpath"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.45--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-onto-perl"
-config: {"url": "https://biocontainers.pro/tools/perl-onto-perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-onto-perl", "latest": {"1.45--pl5321hdfd78af_3": "sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf"}, "tags": {"1.45--pl5321hdfd78af_3": "sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf"}, "docker": "quay.io/biocontainers/perl-onto-perl", "aliases": {"bioportal_csv2obo.pl": "/usr/local/bin/bioportal_csv2obo.pl", "dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "get_ancestor_terms.pl": "/usr/local/bin/get_ancestor_terms.pl", "get_child_terms.pl": "/usr/local/bin/get_child_terms.pl", "get_descendent_terms.pl": "/usr/local/bin/get_descendent_terms.pl", "get_lowest_common_ancestor.pl": "/usr/local/bin/get_lowest_common_ancestor.pl", "get_obsolete_term_id_vs_def_in_go.pl": "/usr/local/bin/get_obsolete_term_id_vs_def_in_go.pl", "get_obsolete_term_id_vs_name_in_go.pl": "/usr/local/bin/get_obsolete_term_id_vs_name_in_go.pl", "get_obsolete_terms.pl": "/usr/local/bin/get_obsolete_terms.pl", "get_parent_terms.pl": "/usr/local/bin/get_parent_terms.pl", "get_relationship_id_vs_relationship_def.pl": "/usr/local/bin/get_relationship_id_vs_relationship_def.pl", "get_relationship_id_vs_relationship_name.pl": "/usr/local/bin/get_relationship_id_vs_relationship_name.pl", "get_relationship_id_vs_relationship_namespace.pl": "/usr/local/bin/get_relationship_id_vs_relationship_namespace.pl", "get_relationship_types.pl": "/usr/local/bin/get_relationship_types.pl", "get_root_terms.pl": "/usr/local/bin/get_root_terms.pl", "get_subontology_from.pl": "/usr/local/bin/get_subontology_from.pl", "get_term_id_vs_term_def.pl": "/usr/local/bin/get_term_id_vs_term_def.pl", "get_term_id_vs_term_name.pl": "/usr/local/bin/get_term_id_vs_term_name.pl", "get_term_id_vs_term_namespace.pl": "/usr/local/bin/get_term_id_vs_term_namespace.pl", "get_term_local_neighbourhood.pl": "/usr/local/bin/get_term_local_neighbourhood.pl", "get_term_synonyms.pl": "/usr/local/bin/get_term_synonyms.pl", "get_terms.pl": "/usr/local/bin/get_terms.pl", "get_terms_and_synonyms.pl": "/usr/local/bin/get_terms_and_synonyms.pl", "get_terms_by_name.pl": "/usr/local/bin/get_terms_by_name.pl", "go2csv.pl": "/usr/local/bin/go2csv.pl", "go2owl.pl": "/usr/local/bin/go2owl.pl", "goa2rdf.pl": "/usr/local/bin/goa2rdf.pl", "obo2apo.pl": "/usr/local/bin/obo2apo.pl", "obo2owl.pl": "/usr/local/bin/obo2owl.pl", "obo2rdf.pl": "/usr/local/bin/obo2rdf.pl", "obo2tran.pl": "/usr/local/bin/obo2tran.pl", "obo2xml.pl": "/usr/local/bin/obo2xml.pl", "obo_intersection.pl": "/usr/local/bin/obo_intersection.pl", "obo_transitive_reduction.pl": "/usr/local/bin/obo_transitive_reduction.pl", "obo_trimming.pl": "/usr/local/bin/obo_trimming.pl", "obo_union.pl": "/usr/local/bin/obo_union.pl", "owl2obo.pl": "/usr/local/bin/owl2obo.pl", "xpath": "/usr/local/bin/xpath"}}
+config: {"url": "https://biocontainers.pro/tools/perl-onto-perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-onto-perl", "latest": {"1.45--pl5321hdfd78af_3": "sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf"}, "tags": {"1.45--pl5321hdfd78af_3": "sha256:0452214abc53f8d1b712bda7abc19e79a72b4b893c1dfdb06711df0c96c0b4bf"}, "docker": "quay.io/biocontainers/perl-onto-perl", "aliases": {"bioportal_csv2obo.pl": "/usr/local/bin/bioportal_csv2obo.pl", "dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "get_ancestor_terms.pl": "/usr/local/bin/get_ancestor_terms.pl", "get_child_terms.pl": "/usr/local/bin/get_child_terms.pl", "get_descendent_terms.pl": "/usr/local/bin/get_descendent_terms.pl", "get_lowest_common_ancestor.pl": "/usr/local/bin/get_lowest_common_ancestor.pl", "get_obsolete_term_id_vs_def_in_go.pl": "/usr/local/bin/get_obsolete_term_id_vs_def_in_go.pl", "get_obsolete_term_id_vs_name_in_go.pl": "/usr/local/bin/get_obsolete_term_id_vs_name_in_go.pl", "get_obsolete_terms.pl": "/usr/local/bin/get_obsolete_terms.pl", "get_parent_terms.pl": "/usr/local/bin/get_parent_terms.pl", "get_relationship_id_vs_relationship_def.pl": "/usr/local/bin/get_relationship_id_vs_relationship_def.pl", "get_relationship_id_vs_relationship_name.pl": "/usr/local/bin/get_relationship_id_vs_relationship_name.pl", "get_relationship_id_vs_relationship_namespace.pl": "/usr/local/bin/get_relationship_id_vs_relationship_namespace.pl", "get_relationship_types.pl": "/usr/local/bin/get_relationship_types.pl", "get_root_terms.pl": "/usr/local/bin/get_root_terms.pl", "get_subontology_from.pl": "/usr/local/bin/get_subontology_from.pl", "get_term_id_vs_term_def.pl": "/usr/local/bin/get_term_id_vs_term_def.pl", "get_term_id_vs_term_name.pl": "/usr/local/bin/get_term_id_vs_term_name.pl", "get_term_id_vs_term_namespace.pl": "/usr/local/bin/get_term_id_vs_term_namespace.pl", "get_term_local_neighbourhood.pl": "/usr/local/bin/get_term_local_neighbourhood.pl", "get_term_synonyms.pl": "/usr/local/bin/get_term_synonyms.pl", "get_terms.pl": "/usr/local/bin/get_terms.pl", "get_terms_and_synonyms.pl": "/usr/local/bin/get_terms_and_synonyms.pl", "get_terms_by_name.pl": "/usr/local/bin/get_terms_by_name.pl", "go2csv.pl": "/usr/local/bin/go2csv.pl", "go2owl.pl": "/usr/local/bin/go2owl.pl", "goa2rdf.pl": "/usr/local/bin/goa2rdf.pl", "obo2apo.pl": "/usr/local/bin/obo2apo.pl", "obo2owl.pl": "/usr/local/bin/obo2owl.pl", "obo2rdf.pl": "/usr/local/bin/obo2rdf.pl", "obo2tran.pl": "/usr/local/bin/obo2tran.pl", "obo2xml.pl": "/usr/local/bin/obo2xml.pl", "obo_intersection.pl": "/usr/local/bin/obo_intersection.pl", "obo_transitive_reduction.pl": "/usr/local/bin/obo_transitive_reduction.pl", "obo_trimming.pl": "/usr/local/bin/obo_trimming.pl", "obo_union.pl": "/usr/local/bin/obo_union.pl", "owl2obo.pl": "/usr/local/bin/owl2obo.pl", "xpath": "/usr/local/bin/xpath", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-onto-perl.
@@ -484,6 +486,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/owl2obo.pl   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/xpath
 $ podman run --it --rm --entrypoint /usr/local/bin/xpath   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xpath   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

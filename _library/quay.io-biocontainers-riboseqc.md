@@ -4,16 +4,19 @@ name:  "quay.io/biocontainers/riboseqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboseqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/riboseqc/container.yaml"
-updated_at: "2022-10-29 05:44:09.255396"
+updated_at: "2022-10-29 07:46:14.122015"
 latest: "1.1--r36_1"
 container_url: "https://biocontainers.pro/tools/riboseqc"
 aliases:
- - "pandoc"
  - "pandoc-citeproc"
+ - "pandoc"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.1--r36_1"
 description: "shpc-registry automated BioContainers addition for riboseqc"
-config: {"url": "https://biocontainers.pro/tools/riboseqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboseqc", "latest": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "tags": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "docker": "quay.io/biocontainers/riboseqc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc"}}
+config: {"url": "https://biocontainers.pro/tools/riboseqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboseqc", "latest": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "tags": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "docker": "quay.io/biocontainers/riboseqc", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riboseqc.
@@ -99,6 +102,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### pandoc-citeproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc-citeproc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### pandoc
 
 ```bash
@@ -108,12 +120,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### pandoc-citeproc
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pandoc-citeproc
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

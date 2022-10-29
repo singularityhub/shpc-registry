@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/microhapulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/microhapulator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/microhapulator/container.yaml"
-updated_at: "2022-10-29 05:44:18.477425"
+updated_at: "2022-10-29 07:46:20.971681"
 latest: "0.7.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/microhapulator"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "iss"
  - "mhpl8r"
  - "termgraph"
- - "2to3-3.9"
- - "ace2sam"
- - "aserver"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "brotli"
- - "bwa"
- - "cbc"
- - "clp"
+ - "stone"
+ - "flash"
+ - "plac_runner.py"
+ - "yte"
+ - "docutils"
+ - "x86_64-conda_cos7-linux-gnu-ld"
+ - "jpackage"
+ - "fastqc"
+ - "grpc_cpp_plugin"
+ - "grpc_csharp_plugin"
 versions:
  - "0.7.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for microhapulator"
-config: {"url": "https://biocontainers.pro/tools/microhapulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microhapulator", "latest": {"0.7.2--pyhdfd78af_0": "sha256:c542f99626c3034d8042a28174a40f661b8318e039ebc46dbe51818f481f9973"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:c542f99626c3034d8042a28174a40f661b8318e039ebc46dbe51818f481f9973"}, "docker": "quay.io/biocontainers/microhapulator", "aliases": {"happer": "/usr/local/bin/happer", "iss": "/usr/local/bin/iss", "mhpl8r": "/usr/local/bin/mhpl8r", "termgraph": "/usr/local/bin/termgraph", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "aserver": "/usr/local/bin/aserver", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "brotli": "/usr/local/bin/brotli", "bwa": "/usr/local/bin/bwa", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp"}}
+config: {"url": "https://biocontainers.pro/tools/microhapulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for microhapulator", "latest": {"0.7.2--pyhdfd78af_0": "sha256:c542f99626c3034d8042a28174a40f661b8318e039ebc46dbe51818f481f9973"}, "tags": {"0.7.2--pyhdfd78af_0": "sha256:c542f99626c3034d8042a28174a40f661b8318e039ebc46dbe51818f481f9973"}, "docker": "quay.io/biocontainers/microhapulator", "aliases": {"happer": "/usr/local/bin/happer", "iss": "/usr/local/bin/iss", "mhpl8r": "/usr/local/bin/mhpl8r", "termgraph": "/usr/local/bin/termgraph", "stone": "/usr/local/bin/stone", "flash": "/usr/local/bin/flash", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "docutils": "/usr/local/bin/docutils", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "jpackage": "/usr/local/bin/jpackage", "fastqc": "/usr/local/bin/fastqc", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/microhapulator.
@@ -147,93 +147,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/termgraph   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.9
+#### stone
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/stone
+$ podman run --it --rm --entrypoint /usr/local/bin/stone   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stone   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### flash
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flash
+$ podman run --it --rm --entrypoint /usr/local/bin/flash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flash   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### plac_runner.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plac_runner.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### yte
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/yte
+$ podman run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### docutils
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/docutils
+$ podman run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### x86_64-conda_cos7-linux-gnu-ld
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### jpackage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jpackage
+$ podman run --it --rm --entrypoint /usr/local/bin/jpackage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpackage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bwa
+#### fastqc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bwa
-$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastqc
+$ podman run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cbc
+#### grpc_cpp_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cbc
-$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_cpp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### clp
+#### grpc_csharp_plugin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/clp
-$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grpc_csharp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/menetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/menetools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/menetools/container.yaml"
-updated_at: "2022-10-29 05:51:35.836375"
+updated_at: "2022-10-29 07:51:43.412564"
 latest: "2.0.6--py_0"
 container_url: "https://biocontainers.pro/tools/menetools"
 aliases:
@@ -12,6 +12,8 @@ aliases:
  - "menecof"
  - "menepath"
  - "menescope"
+ - "xslt-config"
+ - "xsltproc"
  - "2to3-3.6"
  - "idle3.6"
  - "pydoc3.6"
@@ -20,12 +22,10 @@ aliases:
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
- - "xslt-config"
- - "xsltproc"
 versions:
  - "2.0.6--py_0"
 description: "shpc-registry automated BioContainers addition for menetools"
-config: {"url": "https://biocontainers.pro/tools/menetools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for menetools", "latest": {"2.0.6--py_0": "sha256:1ae447a78343b646e4301da62214a5425dd0986bd7af4795b5d6742357e5d0e2"}, "tags": {"2.0.6--py_0": "sha256:1ae447a78343b646e4301da62214a5425dd0986bd7af4795b5d6742357e5d0e2"}, "docker": "quay.io/biocontainers/menetools", "aliases": {"menecheck": "/usr/local/bin/menecheck", "menecof": "/usr/local/bin/menecof", "menepath": "/usr/local/bin/menepath", "menescope": "/usr/local/bin/menescope", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
+config: {"url": "https://biocontainers.pro/tools/menetools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for menetools", "latest": {"2.0.6--py_0": "sha256:1ae447a78343b646e4301da62214a5425dd0986bd7af4795b5d6742357e5d0e2"}, "tags": {"2.0.6--py_0": "sha256:1ae447a78343b646e4301da62214a5425dd0986bd7af4795b5d6742357e5d0e2"}, "docker": "quay.io/biocontainers/menetools", "aliases": {"menecheck": "/usr/local/bin/menecheck", "menecof": "/usr/local/bin/menecof", "menepath": "/usr/local/bin/menepath", "menescope": "/usr/local/bin/menescope", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/menetools.
@@ -147,6 +147,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/menescope   -v ${PWD} -w ${PW
 ```
 
 
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.6
 
 ```bash
@@ -216,24 +234,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xslt-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/xslt-config
-$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xsltproc
-
-```bash
-$ singularity exec <container> /usr/local/bin/xsltproc
-$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

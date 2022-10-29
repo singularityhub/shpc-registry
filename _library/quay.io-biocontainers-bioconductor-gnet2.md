@@ -4,16 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-gnet2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gnet2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gnet2/container.yaml"
-updated_at: "2022-10-29 05:38:52.758985"
+updated_at: "2022-10-29 07:42:20.444328"
 latest: "1.8.0--r41h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gnet2"
 aliases:
- - "x86_64-conda-linux-gnu-gfortran.bin"
  - "xgboost"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41h399db7b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gnet2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gnet2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gnet2", "latest": {"1.8.0--r41h399db7b_0": "sha256:cea6a8005017e23d09c1fdddaaae3bb2621e709062668e1220b47a6787fa6e12"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:cea6a8005017e23d09c1fdddaaae3bb2621e709062668e1220b47a6787fa6e12"}, "docker": "quay.io/biocontainers/bioconductor-gnet2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "xgboost": "/usr/local/bin/xgboost"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gnet2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gnet2", "latest": {"1.8.0--r41h399db7b_0": "sha256:cea6a8005017e23d09c1fdddaaae3bb2621e709062668e1220b47a6787fa6e12"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:cea6a8005017e23d09c1fdddaaae3bb2621e709062668e1220b47a6787fa6e12"}, "docker": "quay.io/biocontainers/bioconductor-gnet2", "aliases": {"xgboost": "/usr/local/bin/xgboost", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gnet2.
@@ -99,21 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### x86_64-conda-linux-gnu-gfortran.bin
-
-```bash
-$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
-$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### xgboost
 
 ```bash
 $ singularity exec <container> /usr/local/bin/xgboost
 $ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

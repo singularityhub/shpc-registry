@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/python-goenrichment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-goenrichment/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-goenrichment/container.yaml"
-updated_at: "2022-10-29 05:30:25.122150"
+updated_at: "2022-10-29 07:36:07.231955"
 latest: "1.0.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/python-goenrichment"
 aliases:
  - "goenrich"
  - "goenrich_createdb"
- - "2to3-3.9"
  - "f2py3.9"
- - "idle3.9"
- - "jpgicc"
- - "linkicc"
  - "opj_compress"
  - "opj_decompress"
  - "opj_dump"
- - "psicc"
+ - "2to3-3.9"
+ - "idle3.9"
  - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "jpgicc"
 versions:
  - "1.0.3--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for python-goenrichment"
-config: {"url": "https://biocontainers.pro/tools/python-goenrichment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-goenrichment", "latest": {"1.0.3--pyh5e36f6f_0": "sha256:54dcc4c1acb4f47a62b86c72276c9d5a85034d1f3c802922a6a6e83c813155f7"}, "tags": {"1.0.3--pyh5e36f6f_0": "sha256:54dcc4c1acb4f47a62b86c72276c9d5a85034d1f3c802922a6a6e83c813155f7"}, "docker": "quay.io/biocontainers/python-goenrichment", "aliases": {"goenrich": "/usr/local/bin/goenrich", "goenrich_createdb": "/usr/local/bin/goenrich_createdb", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "psicc": "/usr/local/bin/psicc", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
+config: {"url": "https://biocontainers.pro/tools/python-goenrichment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-goenrichment", "latest": {"1.0.3--pyh5e36f6f_0": "sha256:54dcc4c1acb4f47a62b86c72276c9d5a85034d1f3c802922a6a6e83c813155f7"}, "tags": {"1.0.3--pyh5e36f6f_0": "sha256:54dcc4c1acb4f47a62b86c72276c9d5a85034d1f3c802922a6a6e83c813155f7"}, "docker": "quay.io/biocontainers/python-goenrichment", "aliases": {"goenrich": "/usr/local/bin/goenrich", "goenrich_createdb": "/usr/local/bin/goenrich_createdb", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-goenrichment.
@@ -127,48 +127,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/goenrich_createdb   -v ${PWD}
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jpgicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### linkicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -199,12 +163,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD
 ```
 
 
-#### psicc
+#### 2to3-3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/psicc
-$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -214,6 +187,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/pydoc3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

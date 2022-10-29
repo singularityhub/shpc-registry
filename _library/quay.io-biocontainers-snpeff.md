@@ -4,24 +4,25 @@ name:  "quay.io/biocontainers/snpeff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpeff/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snpeff/container.yaml"
-updated_at: "2022-10-29 05:54:08.620178"
+updated_at: "2022-10-29 07:53:35.726878"
 latest: "5.1d--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snpeff"
 aliases:
- - "2to3-3.10"
- - "aserver"
+ - "snpEff"
  - "cups-config"
- - "gif2rgb"
- - "gifbuild"
- - "gifclrmp"
- - "giffix"
- - "giftext"
- - "giftool"
- - "idle3.10"
+ - "ippeveprinter"
+ - "ipptool"
+ - "jfr"
+ - "jaotc"
+ - "aserver"
+ - "jdeprscan"
+ - "jhsdb"
+ - "jimage"
+ - "jlink"
 versions:
  - "5.1d--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snpeff"
-config: {"url": "https://biocontainers.pro/tools/snpeff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpeff", "latest": {"5.1d--hdfd78af_0": "sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410"}, "tags": {"5.1d--hdfd78af_0": "sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410"}, "docker": "quay.io/biocontainers/snpeff", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "cups-config": "/usr/local/bin/cups-config", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/snpeff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpeff", "latest": {"5.1d--hdfd78af_0": "sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410"}, "tags": {"5.1d--hdfd78af_0": "sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410"}, "docker": "quay.io/biocontainers/snpeff", "aliases": {"snpEff": "/usr/local/bin/snpEff", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snpeff.
@@ -107,21 +108,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### snpEff
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snpEff
+$ podman run --it --rm --entrypoint /usr/local/bin/snpEff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snpEff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -134,66 +126,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${
 ```
 
 
-#### gif2rgb
+#### ippeveprinter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ippeveprinter
+$ podman run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gifbuild
+#### ipptool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ipptool
+$ podman run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gifclrmp
+#### jfr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gifclrmp
-$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jfr
+$ podman run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### giffix
+#### jaotc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/giffix
-$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### giftext
+#### aserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/giftext
-$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### giftool
+#### jdeprscan
 
 ```bash
-$ singularity exec <container> /usr/local/bin/giftool
-$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jdeprscan
+$ podman run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.10
+#### jhsdb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jimage
+
+```bash
+$ singularity exec <container> /usr/local/bin/jimage
+$ podman run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jlink
+
+```bash
+$ singularity exec <container> /usr/local/bin/jlink
+$ podman run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

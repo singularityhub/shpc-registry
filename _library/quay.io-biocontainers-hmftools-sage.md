@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/hmftools-sage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-sage/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-sage/container.yaml"
-updated_at: "2022-10-29 05:54:41.036305"
+updated_at: "2022-10-29 07:53:58.778492"
 latest: "3.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-sage"
 aliases:
  - "SAGE"
- - "aserver"
  - "cups-config"
  - "ippeveprinter"
  - "ipptool"
+ - "jfr"
  - "jaotc"
- - "jar"
- - "jarsigner"
- - "java"
- - "javac"
- - "javadoc"
+ - "aserver"
+ - "jdeprscan"
+ - "jhsdb"
+ - "jimage"
+ - "jlink"
 versions:
  - "3.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-sage"
-config: {"url": "https://biocontainers.pro/tools/hmftools-sage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-sage", "latest": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1"}, "tags": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1"}, "docker": "quay.io/biocontainers/hmftools-sage", "aliases": {"SAGE": "/usr/local/bin/SAGE", "aserver": "/usr/local/bin/aserver", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-sage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-sage", "latest": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1"}, "tags": {"3.1--hdfd78af_0": "sha256:3804df655d9ae7c37ba5ba816ca5a95446bdb3d7fcb0fc587a83618e167f3ce1"}, "docker": "quay.io/biocontainers/hmftools-sage", "aliases": {"SAGE": "/usr/local/bin/SAGE", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-sage.
@@ -117,15 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/SAGE   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cups-config
 
 ```bash
@@ -153,6 +144,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD}
 ```
 
 
+#### jfr
+
+```bash
+$ singularity exec <container> /usr/local/bin/jfr
+$ podman run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### jaotc
 
 ```bash
@@ -162,48 +162,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### jar
+#### aserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jar
-$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jarsigner
+#### jdeprscan
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jarsigner
-$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jdeprscan
+$ podman run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### java
+#### jhsdb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/java
-$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### javac
+#### jimage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/javac
-$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jimage
+$ podman run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### javadoc
+#### jlink
 
 ```bash
-$ singularity exec <container> /usr/local/bin/javadoc
-$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jlink
+$ podman run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

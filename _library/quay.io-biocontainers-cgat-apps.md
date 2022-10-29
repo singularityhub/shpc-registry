@@ -4,26 +4,29 @@ name:  "quay.io/biocontainers/cgat-apps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-apps/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-apps/container.yaml"
-updated_at: "2022-10-29 05:30:17.068464"
+updated_at: "2022-10-29 07:36:01.125571"
 latest: "0.6.5--py37h179cca4_2"
 container_url: "https://biocontainers.pro/tools/cgat-apps"
 aliases:
+ - "bq"
  - "cgat"
  - "docker-credential-gcloud"
- - "2to3-3.7"
- - "annotateBed"
- - "b2sum"
- - "bamToBed"
- - "bamToFastq"
- - "base32"
- - "base64"
- - "basename"
+ - "gcloud"
+ - "time"
+ - "gsutil"
+ - "egrep"
+ - "fgrep"
+ - "grep"
+ - "wigToBigWig"
+ - "bedGraphToBigWig"
+ - "bedToBigBed"
  - "basenc"
- - "bed12ToBed6"
+ - "b2sum"
+ - "base32"
 versions:
  - "0.6.5--py37h179cca4_2"
 description: "shpc-registry automated BioContainers addition for cgat-apps"
-config: {"url": "https://biocontainers.pro/tools/cgat-apps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-apps", "latest": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "tags": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "docker": "quay.io/biocontainers/cgat-apps", "aliases": {"cgat": "/usr/local/bin/cgat", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "2to3-3.7": "/usr/local/bin/2to3-3.7", "annotateBed": "/usr/local/bin/annotateBed", "b2sum": "/usr/local/bin/b2sum", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
+config: {"url": "https://biocontainers.pro/tools/cgat-apps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-apps", "latest": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "tags": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "docker": "quay.io/biocontainers/cgat-apps", "aliases": {"bq": "/usr/local/bin/bq", "cgat": "/usr/local/bin/cgat", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "gcloud": "/usr/local/bin/gcloud", "time": "/usr/local/bin/time", "gsutil": "/usr/local/bin/gsutil", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-apps.
@@ -109,6 +112,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### bq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bq
+$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### cgat
 
 ```bash
@@ -127,75 +139,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v
 ```
 
 
-#### 2to3-3.7
+#### gcloud
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### time
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/time
+$ podman run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### b2sum
+#### gsutil
 
 ```bash
-$ singularity exec <container> /usr/local/bin/b2sum
-$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gsutil
+$ podman run --it --rm --entrypoint /usr/local/bin/gsutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsutil   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### egrep
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/egrep
+$ podman run --it --rm --entrypoint /usr/local/bin/egrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/egrep   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### fgrep
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/fgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### base32
+#### grep
 
 ```bash
-$ singularity exec <container> /usr/local/bin/base32
-$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/grep
+$ podman run --it --rm --entrypoint /usr/local/bin/grep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grep   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### base64
+#### wigToBigWig
 
 ```bash
-$ singularity exec <container> /usr/local/bin/base64
-$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wigToBigWig
+$ podman run --it --rm --entrypoint /usr/local/bin/wigToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wigToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### basename
+#### bedGraphToBigWig
 
 ```bash
-$ singularity exec <container> /usr/local/bin/basename
-$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bedGraphToBigWig
+$ podman run --it --rm --entrypoint /usr/local/bin/bedGraphToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedGraphToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBigBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBigBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBigBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBigBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -208,12 +229,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### bed12ToBed6
+#### b2sum
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

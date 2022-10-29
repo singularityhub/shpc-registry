@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ssu-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ssu-align/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ssu-align/container.yaml"
-updated_at: "2022-10-29 05:59:36.721687"
+updated_at: "2022-10-29 07:57:33.998748"
 latest: "0.1.1--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/ssu-align"
 aliases:
@@ -47,10 +47,12 @@ aliases:
  - "ssu-mask"
  - "ssu-merge"
  - "ssu-prep"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.1.1--hec16e2b_4"
 description: "shpc-registry automated BioContainers addition for ssu-align"
-config: {"url": "https://biocontainers.pro/tools/ssu-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ssu-align", "latest": {"0.1.1--hec16e2b_4": "sha256:aff66b1638bfc295c7be7b4b90f38b7aeee5af976e1f5a26051c064c573d751d"}, "tags": {"0.1.1--hec16e2b_4": "sha256:aff66b1638bfc295c7be7b4b90f38b7aeee5af976e1f5a26051c064c573d751d"}, "docker": "quay.io/biocontainers/ssu-align", "aliases": {"_ssu-align": "/usr/local/bin/_ssu-align", "_ssu-build": "/usr/local/bin/_ssu-build", "_ssu-draw": "/usr/local/bin/_ssu-draw", "_ssu-mask": "/usr/local/bin/_ssu-mask", "_ssu-merge": "/usr/local/bin/_ssu-merge", "_ssu-prep": "/usr/local/bin/_ssu-prep", "ssu-align": "/usr/local/bin/ssu-align", "ssu-build": "/usr/local/bin/ssu-build", "ssu-cmalign": "/usr/local/bin/ssu-cmalign", "ssu-cmbuild": "/usr/local/bin/ssu-cmbuild", "ssu-cmcalibrate": "/usr/local/bin/ssu-cmcalibrate", "ssu-cmemit": "/usr/local/bin/ssu-cmemit", "ssu-cmfetch": "/usr/local/bin/ssu-cmfetch", "ssu-cmscore": "/usr/local/bin/ssu-cmscore", "ssu-cmsearch": "/usr/local/bin/ssu-cmsearch", "ssu-cmstat": "/usr/local/bin/ssu-cmstat", "ssu-draw": "/usr/local/bin/ssu-draw", "ssu-esl-afetch": "/usr/local/bin/ssu-esl-afetch", "ssu-esl-alimanip": "/usr/local/bin/ssu-esl-alimanip", "ssu-esl-alimap": "/usr/local/bin/ssu-esl-alimap", "ssu-esl-alimask": "/usr/local/bin/ssu-esl-alimask", "ssu-esl-alimerge": "/usr/local/bin/ssu-esl-alimerge", "ssu-esl-alistat": "/usr/local/bin/ssu-esl-alistat", "ssu-esl-cluster": "/usr/local/bin/ssu-esl-cluster", "ssu-esl-compalign": "/usr/local/bin/ssu-esl-compalign", "ssu-esl-compstruct": "/usr/local/bin/ssu-esl-compstruct", "ssu-esl-histplot": "/usr/local/bin/ssu-esl-histplot", "ssu-esl-mask": "/usr/local/bin/ssu-esl-mask", "ssu-esl-reformat": "/usr/local/bin/ssu-esl-reformat", "ssu-esl-selectn": "/usr/local/bin/ssu-esl-selectn", "ssu-esl-seqrange": "/usr/local/bin/ssu-esl-seqrange", "ssu-esl-seqstat": "/usr/local/bin/ssu-esl-seqstat", "ssu-esl-sfetch": "/usr/local/bin/ssu-esl-sfetch", "ssu-esl-shuffle": "/usr/local/bin/ssu-esl-shuffle", "ssu-esl-ssdraw": "/usr/local/bin/ssu-esl-ssdraw", "ssu-esl-weight": "/usr/local/bin/ssu-esl-weight", "ssu-mask": "/usr/local/bin/ssu-mask", "ssu-merge": "/usr/local/bin/ssu-merge", "ssu-prep": "/usr/local/bin/ssu-prep"}}
+config: {"url": "https://biocontainers.pro/tools/ssu-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ssu-align", "latest": {"0.1.1--hec16e2b_4": "sha256:aff66b1638bfc295c7be7b4b90f38b7aeee5af976e1f5a26051c064c573d751d"}, "tags": {"0.1.1--hec16e2b_4": "sha256:aff66b1638bfc295c7be7b4b90f38b7aeee5af976e1f5a26051c064c573d751d"}, "docker": "quay.io/biocontainers/ssu-align", "aliases": {"_ssu-align": "/usr/local/bin/_ssu-align", "_ssu-build": "/usr/local/bin/_ssu-build", "_ssu-draw": "/usr/local/bin/_ssu-draw", "_ssu-mask": "/usr/local/bin/_ssu-mask", "_ssu-merge": "/usr/local/bin/_ssu-merge", "_ssu-prep": "/usr/local/bin/_ssu-prep", "ssu-align": "/usr/local/bin/ssu-align", "ssu-build": "/usr/local/bin/ssu-build", "ssu-cmalign": "/usr/local/bin/ssu-cmalign", "ssu-cmbuild": "/usr/local/bin/ssu-cmbuild", "ssu-cmcalibrate": "/usr/local/bin/ssu-cmcalibrate", "ssu-cmemit": "/usr/local/bin/ssu-cmemit", "ssu-cmfetch": "/usr/local/bin/ssu-cmfetch", "ssu-cmscore": "/usr/local/bin/ssu-cmscore", "ssu-cmsearch": "/usr/local/bin/ssu-cmsearch", "ssu-cmstat": "/usr/local/bin/ssu-cmstat", "ssu-draw": "/usr/local/bin/ssu-draw", "ssu-esl-afetch": "/usr/local/bin/ssu-esl-afetch", "ssu-esl-alimanip": "/usr/local/bin/ssu-esl-alimanip", "ssu-esl-alimap": "/usr/local/bin/ssu-esl-alimap", "ssu-esl-alimask": "/usr/local/bin/ssu-esl-alimask", "ssu-esl-alimerge": "/usr/local/bin/ssu-esl-alimerge", "ssu-esl-alistat": "/usr/local/bin/ssu-esl-alistat", "ssu-esl-cluster": "/usr/local/bin/ssu-esl-cluster", "ssu-esl-compalign": "/usr/local/bin/ssu-esl-compalign", "ssu-esl-compstruct": "/usr/local/bin/ssu-esl-compstruct", "ssu-esl-histplot": "/usr/local/bin/ssu-esl-histplot", "ssu-esl-mask": "/usr/local/bin/ssu-esl-mask", "ssu-esl-reformat": "/usr/local/bin/ssu-esl-reformat", "ssu-esl-selectn": "/usr/local/bin/ssu-esl-selectn", "ssu-esl-seqrange": "/usr/local/bin/ssu-esl-seqrange", "ssu-esl-seqstat": "/usr/local/bin/ssu-esl-seqstat", "ssu-esl-sfetch": "/usr/local/bin/ssu-esl-sfetch", "ssu-esl-shuffle": "/usr/local/bin/ssu-esl-shuffle", "ssu-esl-ssdraw": "/usr/local/bin/ssu-esl-ssdraw", "ssu-esl-weight": "/usr/local/bin/ssu-esl-weight", "ssu-mask": "/usr/local/bin/ssu-mask", "ssu-merge": "/usr/local/bin/ssu-merge", "ssu-prep": "/usr/local/bin/ssu-prep", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ssu-align.
@@ -484,6 +486,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ssu-merge   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/ssu-prep
 $ podman run --it --rm --entrypoint /usr/local/bin/ssu-prep   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ssu-prep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

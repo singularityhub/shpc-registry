@@ -4,10 +4,12 @@ name:  "quay.io/biocontainers/bioconductor-donapllp2013"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-donapllp2013/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-donapllp2013/container.yaml"
-updated_at: "2022-10-29 05:57:04.687659"
+updated_at: "2022-10-29 07:55:42.796661"
 latest: "1.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-donapllp2013"
 aliases:
+ - ".bioconductor-donapllp2013-post-link.sh"
+ - ".bioconductor-donapllp2013-pre-unlink.sh"
  - "fftw-wisdom"
  - "fftw-wisdom-to-conf"
  - "fftwf-wisdom"
@@ -15,7 +17,7 @@ aliases:
 versions:
  - "1.32.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-donapllp2013"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-donapllp2013", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-donapllp2013", "latest": {"1.32.0--r41hdfd78af_1": "sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c"}, "docker": "quay.io/biocontainers/bioconductor-donapllp2013", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-donapllp2013", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-donapllp2013", "latest": {"1.32.0--r41hdfd78af_1": "sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:93dc265b2b3f58e4c0ebcd3df6a56942adb85f5d4a698f09506fbff93b2f265c"}, "docker": "quay.io/biocontainers/bioconductor-donapllp2013", "aliases": {".bioconductor-donapllp2013-post-link.sh": "/usr/local/bin/.bioconductor-donapllp2013-post-link.sh", ".bioconductor-donapllp2013-pre-unlink.sh": "/usr/local/bin/.bioconductor-donapllp2013-pre-unlink.sh", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-donapllp2013.
@@ -98,6 +100,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-donapllp2013-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-donapllp2013-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-donapllp2013-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-donapllp2013-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-donapllp2013-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-donapllp2013-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-donapllp2013-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-donapllp2013-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

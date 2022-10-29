@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-namespace-autoclean"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-namespace-autoclean/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-namespace-autoclean/container.yaml"
-updated_at: "2022-10-29 05:49:37.824205"
+updated_at: "2022-10-29 07:50:16.661659"
 latest: "0.29--pl5321h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/perl-namespace-autoclean"
 aliases:
- - "cpanm"
  - "package-stash-conflicts"
+ - "cpanm"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.29--pl5321h9f5acd7_1"
 description: "shpc-registry automated BioContainers addition for perl-namespace-autoclean"
-config: {"url": "https://biocontainers.pro/tools/perl-namespace-autoclean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-namespace-autoclean", "latest": {"0.29--pl5321h9f5acd7_1": "sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba"}, "tags": {"0.29--pl5321h9f5acd7_1": "sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba"}, "docker": "quay.io/biocontainers/perl-namespace-autoclean", "aliases": {"cpanm": "/usr/local/bin/cpanm", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
+config: {"url": "https://biocontainers.pro/tools/perl-namespace-autoclean", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-namespace-autoclean", "latest": {"0.29--pl5321h9f5acd7_1": "sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba"}, "tags": {"0.29--pl5321h9f5acd7_1": "sha256:61136316db3d1104005ae31a3e4f4073ceba194ec1b61fdc496fe8a0e98c81ba"}, "docker": "quay.io/biocontainers/perl-namespace-autoclean", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-namespace-autoclean.
@@ -99,6 +101,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### cpanm
 
 ```bash
@@ -108,12 +119,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### package-stash-conflicts
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/package-stash-conflicts
-$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

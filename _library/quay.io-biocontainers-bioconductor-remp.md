@@ -4,24 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-remp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
-updated_at: "2022-10-29 05:38:32.867066"
+updated_at: "2022-10-29 07:42:05.352681"
 latest: "1.8.1--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-remp"
 aliases:
- - "R"
- - "Rscript"
- - "autopoint"
- - "bunzip2"
- - "bzcat"
- - "bzcmp"
- - "bzdiff"
- - "bzegrep"
- - "bzfgrep"
- - "bzgrep"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.1--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-remp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-remp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-remp", "latest": {"1.8.1--r36_1": "sha256:2226aacfbc6f34f9f10250ad1769c872398e69ff992d9d91495ef85559b1090a"}, "tags": {"1.8.1--r36_1": "sha256:2226aacfbc6f34f9f10250ad1769c872398e69ff992d9d91495ef85559b1090a"}, "docker": "quay.io/biocontainers/bioconductor-remp", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff", "bzegrep": "/usr/local/bin/bzegrep", "bzfgrep": "/usr/local/bin/bzfgrep", "bzgrep": "/usr/local/bin/bzgrep"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-remp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-remp", "latest": {"1.8.1--r36_1": "sha256:2226aacfbc6f34f9f10250ad1769c872398e69ff992d9d91495ef85559b1090a"}, "tags": {"1.8.1--r36_1": "sha256:2226aacfbc6f34f9f10250ad1769c872398e69ff992d9d91495ef85559b1090a"}, "docker": "quay.io/biocontainers/bioconductor-remp", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-remp.
@@ -107,93 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### R
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/R
-$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Rscript
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Rscript
-$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### autopoint
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bunzip2
-
-```bash
-$ singularity exec <container> /usr/local/bin/bunzip2
-$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcat
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcmp
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzdiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzdiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzegrep
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzegrep
-$ podman run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzfgrep
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzfgrep
-$ podman run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzgrep
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzgrep
-$ podman run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

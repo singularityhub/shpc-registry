@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/genesplicer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genesplicer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/genesplicer/container.yaml"
-updated_at: "2022-10-29 05:52:39.300562"
+updated_at: "2022-10-29 07:52:30.023682"
 latest: "1.0--1"
 container_url: "https://biocontainers.pro/tools/genesplicer"
 aliases:
+ - ".genesplicer-post-link.sh"
  - "genesplicer"
 versions:
  - "1.0--1"
 description: "shpc-registry automated BioContainers addition for genesplicer"
-config: {"url": "https://biocontainers.pro/tools/genesplicer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genesplicer", "latest": {"1.0--1": "sha256:99c3b5f60d2e4d05bde27e9c8d92ef30ba0a1d322b37c984dd5d16832c2ff3bd"}, "tags": {"1.0--1": "sha256:99c3b5f60d2e4d05bde27e9c8d92ef30ba0a1d322b37c984dd5d16832c2ff3bd"}, "docker": "quay.io/biocontainers/genesplicer", "aliases": {"genesplicer": "/usr/local/bin/genesplicer"}}
+config: {"url": "https://biocontainers.pro/tools/genesplicer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genesplicer", "latest": {"1.0--1": "sha256:99c3b5f60d2e4d05bde27e9c8d92ef30ba0a1d322b37c984dd5d16832c2ff3bd"}, "tags": {"1.0--1": "sha256:99c3b5f60d2e4d05bde27e9c8d92ef30ba0a1d322b37c984dd5d16832c2ff3bd"}, "docker": "quay.io/biocontainers/genesplicer", "aliases": {".genesplicer-post-link.sh": "/usr/local/bin/.genesplicer-post-link.sh", "genesplicer": "/usr/local/bin/genesplicer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genesplicer.
@@ -95,6 +96,15 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .genesplicer-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.genesplicer-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.genesplicer-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.genesplicer-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

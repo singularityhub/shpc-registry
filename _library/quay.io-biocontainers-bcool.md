@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcool/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcool/container.yaml"
-updated_at: "2022-10-29 05:39:40.619536"
+updated_at: "2022-10-29 07:42:54.905579"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bcool"
 aliases:
@@ -14,8 +14,8 @@ aliases:
  - "btrim"
  - "ntcard"
  - "nthll"
- - "2to3-3.9"
  - "h5cc"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.0.0--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bcool"
-config: {"url": "https://biocontainers.pro/tools/bcool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcool", "latest": {"1.0.0--hdfd78af_2": "sha256:57a1a88195cdfec73b68700525e9966271fbfe74d554d06c3c93a99f698ae0b3"}, "tags": {"1.0.0--hdfd78af_2": "sha256:57a1a88195cdfec73b68700525e9966271fbfe74d554d06c3c93a99f698ae0b3"}, "docker": "quay.io/biocontainers/bcool", "aliases": {"bcalm": "/usr/local/bin/bcalm", "bcool": "/usr/local/bin/bcool", "bgreat": "/usr/local/bin/bgreat", "btrim": "/usr/local/bin/btrim", "ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "2to3-3.9": "/usr/local/bin/2to3-3.9", "h5cc": "/usr/local/bin/h5cc", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/bcool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcool", "latest": {"1.0.0--hdfd78af_2": "sha256:57a1a88195cdfec73b68700525e9966271fbfe74d554d06c3c93a99f698ae0b3"}, "tags": {"1.0.0--hdfd78af_2": "sha256:57a1a88195cdfec73b68700525e9966271fbfe74d554d06c3c93a99f698ae0b3"}, "docker": "quay.io/biocontainers/bcool", "aliases": {"bcalm": "/usr/local/bin/bcalm", "bcool": "/usr/local/bin/bcool", "bgreat": "/usr/local/bin/bgreat", "btrim": "/usr/local/bin/btrim", "ntcard": "/usr/local/bin/ntcard", "nthll": "/usr/local/bin/nthll", "h5cc": "/usr/local/bin/h5cc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcool.
@@ -163,21 +163,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nthll   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### h5cc
 
 ```bash
 $ singularity exec <container> /usr/local/bin/h5cc
 $ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

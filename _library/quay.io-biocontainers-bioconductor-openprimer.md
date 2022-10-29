@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-openprimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-openprimer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-openprimer/container.yaml"
-updated_at: "2022-10-29 05:57:37.192986"
+updated_at: "2022-10-29 07:56:06.397340"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-openprimer"
 aliases:
+ - "mafft-sparsecore.rb"
  - "einsi"
  - "fftns"
  - "fftnsi"
  - "ginsi"
- - "gio-launch-desktop"
  - "linsi"
- - "mafft"
  - "mafft-distance"
  - "mafft-einsi"
  - "mafft-fftns"
+ - "mafft-fftnsi"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-openprimer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-openprimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-openprimer", "latest": {"1.8.0--r36_0": "sha256:985bec5ccf8112aa61602030247d47af35b564a155b7dddc769ee448848188d9"}, "tags": {"1.8.0--r36_0": "sha256:985bec5ccf8112aa61602030247d47af35b564a155b7dddc769ee448848188d9"}, "docker": "quay.io/biocontainers/bioconductor-openprimer", "aliases": {"einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "linsi": "/usr/local/bin/linsi", "mafft": "/usr/local/bin/mafft", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-openprimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-openprimer", "latest": {"1.8.0--r36_0": "sha256:985bec5ccf8112aa61602030247d47af35b564a155b7dddc769ee448848188d9"}, "tags": {"1.8.0--r36_0": "sha256:985bec5ccf8112aa61602030247d47af35b564a155b7dddc769ee448848188d9"}, "docker": "quay.io/biocontainers/bioconductor-openprimer", "aliases": {"mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi", "mafft-fftns": "/usr/local/bin/mafft-fftns", "mafft-fftnsi": "/usr/local/bin/mafft-fftnsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-openprimer.
@@ -107,6 +107,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### mafft-sparsecore.rb
+
+```bash
+$ singularity exec <container> /usr/local/bin/mafft-sparsecore.rb
+$ podman run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### einsi
 
 ```bash
@@ -143,30 +152,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ginsi   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### linsi
 
 ```bash
 $ singularity exec <container> /usr/local/bin/linsi
 $ podman run --it --rm --entrypoint /usr/local/bin/linsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/linsi   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### mafft
-
-```bash
-$ singularity exec <container> /usr/local/bin/mafft
-$ podman run --it --rm --entrypoint /usr/local/bin/mafft   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mafft   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +185,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mafft-einsi   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/mafft-fftns
 $ podman run --it --rm --entrypoint /usr/local/bin/mafft-fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mafft-fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mafft-fftnsi
+
+```bash
+$ singularity exec <container> /usr/local/bin/mafft-fftnsi
+$ podman run --it --rm --entrypoint /usr/local/bin/mafft-fftnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mafft-fftnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

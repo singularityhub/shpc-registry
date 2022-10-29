@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dmelsgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmelsgi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmelsgi/container.yaml"
-updated_at: "2022-10-29 05:48:35.483000"
+updated_at: "2022-10-29 07:49:30.805912"
 latest: "1.26.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmelsgi"
 aliases:
+ - ".bioconductor-dmelsgi-post-link.sh"
+ - ".bioconductor-dmelsgi-pre-unlink.sh"
  - "glpsol"
 versions:
  - "1.26.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-dmelsgi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dmelsgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmelsgi", "latest": {"1.26.0--r41hdfd78af_1": "sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044"}, "docker": "quay.io/biocontainers/bioconductor-dmelsgi", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dmelsgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmelsgi", "latest": {"1.26.0--r41hdfd78af_1": "sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:09100acbc06a941981dbdfc404455e793398feb27a0c4b025fd72aae7049f044"}, "docker": "quay.io/biocontainers/bioconductor-dmelsgi", "aliases": {".bioconductor-dmelsgi-post-link.sh": "/usr/local/bin/.bioconductor-dmelsgi-post-link.sh", ".bioconductor-dmelsgi-pre-unlink.sh": "/usr/local/bin/.bioconductor-dmelsgi-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dmelsgi.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-dmelsgi-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-dmelsgi-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dmelsgi-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dmelsgi-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-dmelsgi-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-dmelsgi-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dmelsgi-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dmelsgi-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

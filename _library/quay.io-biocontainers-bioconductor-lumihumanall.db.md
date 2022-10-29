@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-lumihumanall.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumihumanall.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumihumanall.db/container.yaml"
-updated_at: "2022-10-29 05:30:40.928226"
+updated_at: "2022-10-29 07:36:18.900232"
 latest: "1.22.0--r40hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumihumanall.db"
 aliases:
+ - ".bioconductor-lumihumanall.db-post-link.sh"
+ - ".bioconductor-lumihumanall.db-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.22.0--r40hdfd78af_9"
 description: "shpc-registry automated BioContainers addition for bioconductor-lumihumanall.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lumihumanall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumihumanall.db", "latest": {"1.22.0--r40hdfd78af_9": "sha256:79526cd106a5a71ef3bc28b8ab595f007600aff88ce163e33cfaa1862174648e"}, "tags": {"1.22.0--r40hdfd78af_9": "sha256:79526cd106a5a71ef3bc28b8ab595f007600aff88ce163e33cfaa1862174648e"}, "docker": "quay.io/biocontainers/bioconductor-lumihumanall.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lumihumanall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumihumanall.db", "latest": {"1.22.0--r40hdfd78af_9": "sha256:79526cd106a5a71ef3bc28b8ab595f007600aff88ce163e33cfaa1862174648e"}, "tags": {"1.22.0--r40hdfd78af_9": "sha256:79526cd106a5a71ef3bc28b8ab595f007600aff88ce163e33cfaa1862174648e"}, "docker": "quay.io/biocontainers/bioconductor-lumihumanall.db", "aliases": {".bioconductor-lumihumanall.db-post-link.sh": "/usr/local/bin/.bioconductor-lumihumanall.db-post-link.sh", ".bioconductor-lumihumanall.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-lumihumanall.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lumihumanall.db.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-lumihumanall.db-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-lumihumanall.db-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-lumihumanall.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-lumihumanall.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-lumihumanall.db-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-lumihumanall.db-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-lumihumanall.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-lumihumanall.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

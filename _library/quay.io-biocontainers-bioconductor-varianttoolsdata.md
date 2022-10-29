@@ -4,24 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-varianttoolsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-varianttoolsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-varianttoolsdata/container.yaml"
-updated_at: "2022-10-29 05:34:27.121957"
+updated_at: "2022-10-29 07:39:04.610068"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-varianttoolsdata"
 aliases:
- - "R"
- - "Rscript"
- - "autopoint"
- - "bunzip2"
- - "bzcat"
- - "bzcmp"
- - "bzdiff"
- - "bzegrep"
- - "bzfgrep"
- - "bzgrep"
+ - ".bioconductor-varianttoolsdata-post-link.sh"
+ - ".bioconductor-varianttoolsdata-pre-unlink.sh"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-varianttoolsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-varianttoolsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-varianttoolsdata", "latest": {"1.8.0--r36_1": "sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca"}, "tags": {"1.8.0--r36_1": "sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca"}, "docker": "quay.io/biocontainers/bioconductor-varianttoolsdata", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff", "bzegrep": "/usr/local/bin/bzegrep", "bzfgrep": "/usr/local/bin/bzfgrep", "bzgrep": "/usr/local/bin/bzgrep"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-varianttoolsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-varianttoolsdata", "latest": {"1.8.0--r36_1": "sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca"}, "tags": {"1.8.0--r36_1": "sha256:cc5b0da1cddb5df9031ede5bef86ef5be44d7e7fba6269842fdb87a77cddffca"}, "docker": "quay.io/biocontainers/bioconductor-varianttoolsdata", "aliases": {".bioconductor-varianttoolsdata-post-link.sh": "/usr/local/bin/.bioconductor-varianttoolsdata-post-link.sh", ".bioconductor-varianttoolsdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-varianttoolsdata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-varianttoolsdata.
@@ -107,93 +102,48 @@ $ singularity inspect -d <container>
 ```
 
 
-#### R
+#### .bioconductor-varianttoolsdata-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/R
-$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-varianttoolsdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-varianttoolsdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-varianttoolsdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Rscript
+#### .bioconductor-varianttoolsdata-pre-unlink.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Rscript
-$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-varianttoolsdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-varianttoolsdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-varianttoolsdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### autopoint
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bunzip2
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bunzip2
-$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bzcat
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bzcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcmp
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzdiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzdiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzegrep
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzegrep
-$ podman run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzfgrep
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzfgrep
-$ podman run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzgrep
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzgrep
-$ podman run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

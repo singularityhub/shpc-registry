@@ -4,15 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-vulcandata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vulcandata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vulcandata/container.yaml"
-updated_at: "2022-10-29 05:37:32.886517"
+updated_at: "2022-10-29 07:41:21.077774"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vulcandata"
 aliases:
+ - ".bioconductor-vulcandata-post-link.sh"
+ - ".bioconductor-vulcandata-pre-unlink.sh"
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vulcandata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcandata", "latest": {"1.8.0--r36_0": "sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a"}, "tags": {"1.8.0--r36_0": "sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a"}, "docker": "quay.io/biocontainers/bioconductor-vulcandata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vulcandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vulcandata", "latest": {"1.8.0--r36_0": "sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a"}, "tags": {"1.8.0--r36_0": "sha256:86fda5b2e7f68ee250399689919209c425e82cc2834f187904e317fc1519563a"}, "docker": "quay.io/biocontainers/bioconductor-vulcandata", "aliases": {".bioconductor-vulcandata-post-link.sh": "/usr/local/bin/.bioconductor-vulcandata-post-link.sh", ".bioconductor-vulcandata-pre-unlink.sh": "/usr/local/bin/.bioconductor-vulcandata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vulcandata.
@@ -98,12 +102,48 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-vulcandata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-vulcandata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-vulcandata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-vulcandata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-vulcandata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-vulcandata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-vulcandata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-vulcandata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gio-launch-desktop
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

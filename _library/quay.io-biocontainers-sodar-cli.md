@@ -4,23 +4,23 @@ name:  "quay.io/biocontainers/sodar-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sodar-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sodar-cli/container.yaml"
-updated_at: "2022-10-29 05:34:35.429368"
+updated_at: "2022-10-29 07:39:10.552279"
 latest: "0.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sodar-cli"
 aliases:
  - "sodar-cli"
- - "2to3-3.9"
+ - "tabulate"
+ - "tqdm"
  - "chardetect"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
- - "tabulate"
- - "tqdm"
 versions:
  - "0.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for sodar-cli"
-config: {"url": "https://biocontainers.pro/tools/sodar-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sodar-cli", "latest": {"0.1.0--pyhdfd78af_0": "sha256:89648c2ff82e64945a8680952cb3dc12ffbcbf92b08bb5a2cb322e11a819bb0e"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:89648c2ff82e64945a8680952cb3dc12ffbcbf92b08bb5a2cb322e11a819bb0e"}, "docker": "quay.io/biocontainers/sodar-cli", "aliases": {"sodar-cli": "/usr/local/bin/sodar-cli", "2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "tabulate": "/usr/local/bin/tabulate", "tqdm": "/usr/local/bin/tqdm"}}
+config: {"url": "https://biocontainers.pro/tools/sodar-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sodar-cli", "latest": {"0.1.0--pyhdfd78af_0": "sha256:89648c2ff82e64945a8680952cb3dc12ffbcbf92b08bb5a2cb322e11a819bb0e"}, "tags": {"0.1.0--pyhdfd78af_0": "sha256:89648c2ff82e64945a8680952cb3dc12ffbcbf92b08bb5a2cb322e11a819bb0e"}, "docker": "quay.io/biocontainers/sodar-cli", "aliases": {"sodar-cli": "/usr/local/bin/sodar-cli", "tabulate": "/usr/local/bin/tabulate", "tqdm": "/usr/local/bin/tqdm", "chardetect": "/usr/local/bin/chardetect", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sodar-cli.
@@ -115,12 +115,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sodar-cli   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.9
+#### tabulate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabulate
+$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -130,6 +139,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/chardetect
 $ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -166,24 +184,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.9-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tabulate
-
-```bash
-$ singularity exec <container> /usr/local/bin/tabulate
-$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tqdm
-
-```bash
-$ singularity exec <container> /usr/local/bin/tqdm
-$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

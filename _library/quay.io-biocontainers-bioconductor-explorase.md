@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-explorase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-explorase/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-explorase/container.yaml"
-updated_at: "2022-10-29 05:41:12.502277"
+updated_at: "2022-10-29 07:44:02.135605"
 latest: "1.53.0--r40hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-explorase"
 aliases:
  - "ggobi"
- - "gdk-pixbuf-csource"
- - "gdk-pixbuf-pixdata"
- - "gdk-pixbuf-query-loaders"
- - "gdk-pixbuf-thumbnailer"
  - "gtk-builder-convert"
  - "gtk-demo"
  - "gtk-query-immodules-2.0"
  - "gtk-update-icon-cache"
+ - "gdk-pixbuf-thumbnailer"
+ - "gdk-pixbuf-csource"
+ - "gdk-pixbuf-pixdata"
+ - "gdk-pixbuf-query-loaders"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.53.0--r40hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-explorase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-explorase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-explorase", "latest": {"1.53.0--r40hdfd78af_2": "sha256:eda2a656e4c60f2920a9ab3ed00ecfad04746b067618eee0c082d9319ff6bcc9"}, "tags": {"1.53.0--r40hdfd78af_2": "sha256:eda2a656e4c60f2920a9ab3ed00ecfad04746b067618eee0c082d9319ff6bcc9"}, "docker": "quay.io/biocontainers/bioconductor-explorase", "aliases": {"ggobi": "/usr/local/bin/ggobi", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-explorase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-explorase", "latest": {"1.53.0--r40hdfd78af_2": "sha256:eda2a656e4c60f2920a9ab3ed00ecfad04746b067618eee0c082d9319ff6bcc9"}, "tags": {"1.53.0--r40hdfd78af_2": "sha256:eda2a656e4c60f2920a9ab3ed00ecfad04746b067618eee0c082d9319ff6bcc9"}, "docker": "quay.io/biocontainers/bioconductor-explorase", "aliases": {"ggobi": "/usr/local/bin/ggobi", "gtk-builder-convert": "/usr/local/bin/gtk-builder-convert", "gtk-demo": "/usr/local/bin/gtk-demo", "gtk-query-immodules-2.0": "/usr/local/bin/gtk-query-immodules-2.0", "gtk-update-icon-cache": "/usr/local/bin/gtk-update-icon-cache", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-explorase.
@@ -116,42 +116,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ggobi   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### gdk-pixbuf-csource
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdk-pixbuf-csource
-$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdk-pixbuf-pixdata
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdk-pixbuf-pixdata
-$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdk-pixbuf-query-loaders
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdk-pixbuf-query-loaders
-$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdk-pixbuf-thumbnailer
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdk-pixbuf-thumbnailer
-$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gtk-builder-convert
 
 ```bash
@@ -185,6 +149,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gtk-query-immodules-2.0   -v 
 $ singularity exec <container> /usr/local/bin/gtk-update-icon-cache
 $ podman run --it --rm --entrypoint /usr/local/bin/gtk-update-icon-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gtk-update-icon-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-thumbnailer
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-thumbnailer
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-thumbnailer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-csource
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-csource
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-pixdata
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-pixdata
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-query-loaders
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-query-loaders
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

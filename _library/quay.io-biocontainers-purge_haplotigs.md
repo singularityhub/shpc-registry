@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/purge_haplotigs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/purge_haplotigs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/purge_haplotigs/container.yaml"
-updated_at: "2022-10-29 05:53:56.463175"
+updated_at: "2022-10-29 07:53:26.991076"
 latest: "1.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/purge_haplotigs"
 aliases:
  - "purge_haplotigs"
- - "ace2sam"
+ - "sdust"
+ - "paftools.js"
+ - "minimap2"
+ - "k8"
+ - "fasta-sanitize.pl"
+ - "shiftBed"
+ - "plot-ampliconstats"
  - "annotateBed"
  - "bamToBed"
  - "bamToFastq"
- - "bed12ToBed6"
- - "bedToBam"
- - "bedToIgv"
- - "bedpeToBam"
- - "bedtools"
- - "bgzip"
 versions:
  - "1.1.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for purge_haplotigs"
-config: {"url": "https://biocontainers.pro/tools/purge_haplotigs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for purge_haplotigs", "latest": {"1.1.2--hdfd78af_0": "sha256:1e3e70e85ecaecc1f9272670a1530182f5a31eef556d793a9c0f43409bede2e0"}, "tags": {"1.1.2--hdfd78af_0": "sha256:1e3e70e85ecaecc1f9272670a1530182f5a31eef556d793a9c0f43409bede2e0"}, "docker": "quay.io/biocontainers/purge_haplotigs", "aliases": {"purge_haplotigs": "/usr/local/bin/purge_haplotigs", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "bgzip": "/usr/local/bin/bgzip"}}
+config: {"url": "https://biocontainers.pro/tools/purge_haplotigs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for purge_haplotigs", "latest": {"1.1.2--hdfd78af_0": "sha256:1e3e70e85ecaecc1f9272670a1530182f5a31eef556d793a9c0f43409bede2e0"}, "tags": {"1.1.2--hdfd78af_0": "sha256:1e3e70e85ecaecc1f9272670a1530182f5a31eef556d793a9c0f43409bede2e0"}, "docker": "quay.io/biocontainers/purge_haplotigs", "aliases": {"purge_haplotigs": "/usr/local/bin/purge_haplotigs", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/purge_haplotigs.
@@ -117,12 +117,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/purge_haplotigs   -v ${PWD} -
 ```
 
 
-#### ace2sam
+#### sdust
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sdust
+$ podman run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### paftools.js
+
+```bash
+$ singularity exec <container> /usr/local/bin/paftools.js
+$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minimap2
+
+```bash
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### k8
+
+```bash
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### shiftBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/shiftBed
+$ podman run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-ampliconstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -150,60 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/bamToFastq
 $ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bed12ToBed6
-
-```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedToBam
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedToIgv
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedToIgv
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedpeToBam
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedtools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

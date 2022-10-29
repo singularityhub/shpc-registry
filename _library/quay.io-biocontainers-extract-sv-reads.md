@@ -4,18 +4,20 @@ name:  "quay.io/biocontainers/extract-sv-reads"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extract-sv-reads/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/extract-sv-reads/container.yaml"
-updated_at: "2022-10-29 05:54:37.783962"
+updated_at: "2022-10-29 07:53:56.413793"
 latest: "1.3.0--pl5321h2df963e_3"
 container_url: "https://biocontainers.pro/tools/extract-sv-reads"
 aliases:
  - "extract-sv-reads"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.3.0--pl5321h2df963e_3"
 description: "shpc-registry automated BioContainers addition for extract-sv-reads"
-config: {"url": "https://biocontainers.pro/tools/extract-sv-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract-sv-reads", "latest": {"1.3.0--pl5321h2df963e_3": "sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622"}, "tags": {"1.3.0--pl5321h2df963e_3": "sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622"}, "docker": "quay.io/biocontainers/extract-sv-reads", "aliases": {"extract-sv-reads": "/usr/local/bin/extract-sv-reads", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/extract-sv-reads", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extract-sv-reads", "latest": {"1.3.0--pl5321h2df963e_3": "sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622"}, "tags": {"1.3.0--pl5321h2df963e_3": "sha256:f12edee3c89ff878ec38b1f132ef0f5f9487ef99dcecd5c239c1ac6b70de9622"}, "docker": "quay.io/biocontainers/extract-sv-reads", "aliases": {"extract-sv-reads": "/usr/local/bin/extract-sv-reads", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extract-sv-reads.
@@ -110,15 +112,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extract-sv-reads   -v ${PWD} 
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
@@ -128,12 +121,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD}
 ```
 
 
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### tabix
 
 ```bash
 $ singularity exec <container> /usr/local/bin/tabix
 $ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

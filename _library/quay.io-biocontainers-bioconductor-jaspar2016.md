@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-jaspar2016"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jaspar2016/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jaspar2016/container.yaml"
-updated_at: "2022-10-29 05:41:54.240162"
+updated_at: "2022-10-29 07:44:33.360066"
 latest: "1.8.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-jaspar2016"
 aliases:
+ - ".bioconductor-jaspar2016-post-link.sh"
+ - ".bioconductor-jaspar2016-pre-unlink.sh"
+ - "wget"
  - "ncurses5-config"
  - "ncursesw5-config"
- - "wget"
 versions:
  - "1.8.0--r341_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-jaspar2016"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2016", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2016", "latest": {"1.8.0--r341_0": "sha256:61efef25d5a530838035d8467e1e9f5d27ce253f768684723a457ab90c6827ca"}, "tags": {"1.8.0--r341_0": "sha256:61efef25d5a530838035d8467e1e9f5d27ce253f768684723a457ab90c6827ca"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2016", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2016", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2016", "latest": {"1.8.0--r341_0": "sha256:61efef25d5a530838035d8467e1e9f5d27ce253f768684723a457ab90c6827ca"}, "tags": {"1.8.0--r341_0": "sha256:61efef25d5a530838035d8467e1e9f5d27ce253f768684723a457ab90c6827ca"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2016", "aliases": {".bioconductor-jaspar2016-post-link.sh": "/usr/local/bin/.bioconductor-jaspar2016-post-link.sh", ".bioconductor-jaspar2016-pre-unlink.sh": "/usr/local/bin/.bioconductor-jaspar2016-pre-unlink.sh", "wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-jaspar2016.
@@ -100,6 +102,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-jaspar2016-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-jaspar2016-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-jaspar2016-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-jaspar2016-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-jaspar2016-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-jaspar2016-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-jaspar2016-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-jaspar2016-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ncurses5-config
 
 ```bash
@@ -115,15 +144,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/ncursesw5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gemini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemini/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gemini/container.yaml"
-updated_at: "2022-10-29 05:55:24.434739"
+updated_at: "2022-10-29 07:54:30.340009"
 latest: "0.30.2--py27h6a6cfb3_5"
 container_url: "https://biocontainers.pro/tools/gemini"
 aliases:
@@ -17,20 +17,22 @@ aliases:
  - "ipcluster"
  - "ipcontroller"
  - "ipengine"
+ - "iptest2"
+ - "ipython2"
+ - "unidecode"
+ - "cyvcf2"
+ - "dask-scheduler"
+ - "dask-ssh"
+ - "dask-worker"
+ - "jupyter-kernel"
+ - "jupyter-kernelspec"
+ - "jupyter-run"
  - "aggregate_scores_in_intervals.py"
  - "align_print_template.py"
- - "annotateBed"
- - "axt_extract_ranges.py"
- - "axt_to_fasta.py"
- - "axt_to_lav.py"
- - "axt_to_maf.py"
- - "bamToBed"
- - "bamToFastq"
- - "bed12ToBed6"
 versions:
  - "0.30.2--py27h6a6cfb3_5"
 description: "shpc-registry automated BioContainers addition for gemini"
-config: {"url": "https://biocontainers.pro/tools/gemini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemini", "latest": {"0.30.2--py27h6a6cfb3_5": "sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396"}, "tags": {"0.30.2--py27h6a6cfb3_5": "sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396"}, "docker": "quay.io/biocontainers/gemini", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "gemini": "/usr/local/bin/gemini", "grabix": "/usr/local/bin/grabix", "ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "annotateBed": "/usr/local/bin/annotateBed", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
+config: {"url": "https://biocontainers.pro/tools/gemini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gemini", "latest": {"0.30.2--py27h6a6cfb3_5": "sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396"}, "tags": {"0.30.2--py27h6a6cfb3_5": "sha256:373181e58cfde76f65811879a26fcc37d289c8f4d76bdc8ec72cc79d1a0a0396"}, "docker": "quay.io/biocontainers/gemini", "aliases": {"bottle.py": "/usr/local/bin/bottle.py", "dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "gemini": "/usr/local/bin/gemini", "grabix": "/usr/local/bin/grabix", "ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "unidecode": "/usr/local/bin/unidecode", "cyvcf2": "/usr/local/bin/cyvcf2", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gemini.
@@ -197,6 +199,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ipengine   -v ${PWD} -w ${PWD
 ```
 
 
+#### iptest2
+
+```bash
+$ singularity exec <container> /usr/local/bin/iptest2
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython2
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython2
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unidecode
+
+```bash
+$ singularity exec <container> /usr/local/bin/unidecode
+$ podman run --it --rm --entrypoint /usr/local/bin/unidecode   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unidecode   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cyvcf2
+
+```bash
+$ singularity exec <container> /usr/local/bin/cyvcf2
+$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dask-scheduler
+
+```bash
+$ singularity exec <container> /usr/local/bin/dask-scheduler
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-scheduler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-scheduler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dask-ssh
+
+```bash
+$ singularity exec <container> /usr/local/bin/dask-ssh
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-ssh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-ssh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dask-worker
+
+```bash
+$ singularity exec <container> /usr/local/bin/dask-worker
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-worker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-worker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-kernel
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-kernel
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-kernelspec
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-kernelspec
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-run
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-run
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-run   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-run   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### aggregate_scores_in_intervals.py
 
 ```bash
@@ -212,78 +304,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals
 $ singularity exec <container> /usr/local/bin/align_print_template.py
 $ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotateBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_extract_ranges.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_extract_ranges.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_to_fasta.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_to_fasta.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_to_lav.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_to_lav.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_to_maf.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_to_maf.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamToBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamToFastq
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bed12ToBed6
-
-```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

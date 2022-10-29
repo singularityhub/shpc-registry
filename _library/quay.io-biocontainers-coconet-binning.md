@@ -4,25 +4,26 @@ name:  "quay.io/biocontainers/coconet-binning"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coconet-binning/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/coconet-binning/container.yaml"
-updated_at: "2022-10-29 05:31:27.608168"
+updated_at: "2022-10-29 07:36:52.941425"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/coconet-binning"
 aliases:
  - "coconet"
- - "2to3-3.7"
- - "chardetect"
+ - "pybind11-config"
  - "convert-caffe2-to-onnx"
  - "convert-onnx-to-caffe2"
- - "cygdb"
- - "cython"
- - "cythonize"
+ - "ninja"
+ - "igraph"
  - "doesitcache"
- - "f2py3.7"
- - "gif2h5"
+ - "iptest3"
+ - "iptest"
+ - "ipython3"
+ - "ipython"
+ - "cygdb"
 versions:
  - "1.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for coconet-binning"
-config: {"url": "https://biocontainers.pro/tools/coconet-binning", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coconet-binning", "latest": {"1.1.0--py_0": "sha256:a6f0996c05cb22d39afc382b114ee1ea528c6e2421a711d51a1a73f0d59de8da"}, "tags": {"1.1.0--py_0": "sha256:a6f0996c05cb22d39afc382b114ee1ea528c6e2421a711d51a1a73f0d59de8da"}, "docker": "quay.io/biocontainers/coconet-binning", "aliases": {"coconet": "/usr/local/bin/coconet", "2to3-3.7": "/usr/local/bin/2to3-3.7", "chardetect": "/usr/local/bin/chardetect", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "doesitcache": "/usr/local/bin/doesitcache", "f2py3.7": "/usr/local/bin/f2py3.7", "gif2h5": "/usr/local/bin/gif2h5"}}
+config: {"url": "https://biocontainers.pro/tools/coconet-binning", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coconet-binning", "latest": {"1.1.0--py_0": "sha256:a6f0996c05cb22d39afc382b114ee1ea528c6e2421a711d51a1a73f0d59de8da"}, "tags": {"1.1.0--py_0": "sha256:a6f0996c05cb22d39afc382b114ee1ea528c6e2421a711d51a1a73f0d59de8da"}, "docker": "quay.io/biocontainers/coconet-binning", "aliases": {"coconet": "/usr/local/bin/coconet", "pybind11-config": "/usr/local/bin/pybind11-config", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "igraph": "/usr/local/bin/igraph", "doesitcache": "/usr/local/bin/doesitcache", "iptest3": "/usr/local/bin/iptest3", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coconet-binning.
@@ -117,21 +118,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/coconet   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.7
+#### pybind11-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pybind11-config
+$ podman run --it --rm --entrypoint /usr/local/bin/pybind11-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pybind11-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -153,30 +145,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v $
 ```
 
 
-#### cygdb
+#### ninja
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cygdb
-$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ninja
+$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cython
+#### igraph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cython
-$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cythonize
-
-```bash
-$ singularity exec <container> /usr/local/bin/cythonize
-$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/igraph
+$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -189,21 +172,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${
 ```
 
 
-#### f2py3.7
+#### iptest3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/iptest3
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2h5
+#### iptest
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/iptest
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython3
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython3
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cygdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

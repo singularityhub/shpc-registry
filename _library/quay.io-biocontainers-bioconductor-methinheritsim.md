@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-methinheritsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methinheritsim/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methinheritsim/container.yaml"
-updated_at: "2022-10-29 05:37:54.454105"
+updated_at: "2022-10-29 07:41:37.057988"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methinheritsim"
 aliases:
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methinheritsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methinheritsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methinheritsim", "latest": {"1.8.0--r36_0": "sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e"}, "tags": {"1.8.0--r36_0": "sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e"}, "docker": "quay.io/biocontainers/bioconductor-methinheritsim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methinheritsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methinheritsim", "latest": {"1.8.0--r36_0": "sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e"}, "tags": {"1.8.0--r36_0": "sha256:83023cc66d086697e4a53d99e4efcb6e9190569e9279679acd00ae84a24e6c4e"}, "docker": "quay.io/biocontainers/bioconductor-methinheritsim", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methinheritsim.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

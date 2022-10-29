@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-kodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kodata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kodata/container.yaml"
-updated_at: "2022-10-29 05:45:45.309427"
+updated_at: "2022-10-29 07:47:25.346956"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kodata"
 aliases:
+ - ".bioconductor-kodata-post-link.sh"
+ - ".bioconductor-kodata-pre-unlink.sh"
  - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kodata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kodata", "latest": {"1.8.0--r351_0": "sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278"}, "tags": {"1.8.0--r351_0": "sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278"}, "docker": "quay.io/biocontainers/bioconductor-kodata", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kodata", "latest": {"1.8.0--r351_0": "sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278"}, "tags": {"1.8.0--r351_0": "sha256:a25b645c0a204c8583cdeca15a4897315bc29f01b20ef7b80324e675d0008278"}, "docker": "quay.io/biocontainers/bioconductor-kodata", "aliases": {".bioconductor-kodata-post-link.sh": "/usr/local/bin/.bioconductor-kodata-post-link.sh", ".bioconductor-kodata-pre-unlink.sh": "/usr/local/bin/.bioconductor-kodata-pre-unlink.sh", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kodata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-kodata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-kodata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-kodata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-kodata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

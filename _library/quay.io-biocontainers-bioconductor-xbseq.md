@@ -4,19 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-xbseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xbseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xbseq/container.yaml"
-updated_at: "2022-10-29 05:44:55.708149"
+updated_at: "2022-10-29 07:46:48.801101"
 latest: "1.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xbseq"
 aliases:
+ - "wget"
+ - "tclsh8.5"
+ - "wish8.5"
  - "ncurses5-config"
  - "ncursesw5-config"
- - "tclsh8.5"
- - "wget"
- - "wish8.5"
 versions:
  - "1.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xbseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xbseq", "latest": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe"}, "tags": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe"}, "docker": "quay.io/biocontainers/bioconductor-xbseq", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wget": "/usr/local/bin/wget", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xbseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xbseq", "latest": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe"}, "tags": {"1.8.0--r3.4.1_0": "sha256:3ef025c2c68b30c6c51055339f6db52be6f6c119b987a7b26757e1463b085bfe"}, "docker": "quay.io/biocontainers/bioconductor-xbseq", "aliases": {"wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xbseq.
@@ -102,6 +102,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ncurses5-config
 
 ```bash
@@ -117,33 +144,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/ncursesw5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tclsh8.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/tclsh8.5
-$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wish8.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/wish8.5
-$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

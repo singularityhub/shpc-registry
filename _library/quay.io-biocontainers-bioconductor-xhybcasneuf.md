@@ -4,24 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-xhybcasneuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xhybcasneuf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xhybcasneuf/container.yaml"
-updated_at: "2022-10-29 05:59:11.361558"
+updated_at: "2022-10-29 07:57:15.254623"
 latest: "1.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-xhybcasneuf"
 aliases:
- - "R"
- - "Rscript"
- - "acountry"
- - "adig"
- - "ahost"
- - "autopoint"
- - "bunzip2"
- - "bzcat"
- - "bzcmp"
- - "bzdiff"
+ - ".bioconductor-xhybcasneuf-post-link.sh"
+ - ".bioconductor-xhybcasneuf-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-xhybcasneuf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xhybcasneuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xhybcasneuf", "latest": {"1.32.0--r41hdfd78af_1": "sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a"}, "docker": "quay.io/biocontainers/bioconductor-xhybcasneuf", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xhybcasneuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xhybcasneuf", "latest": {"1.32.0--r41hdfd78af_1": "sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:77ebdc528a4e8df041d1b68eef0a084fe7f8b32a1f7ed253da2e1a0aca29c65a"}, "docker": "quay.io/biocontainers/bioconductor-xhybcasneuf", "aliases": {".bioconductor-xhybcasneuf-post-link.sh": "/usr/local/bin/.bioconductor-xhybcasneuf-post-link.sh", ".bioconductor-xhybcasneuf-pre-unlink.sh": "/usr/local/bin/.bioconductor-xhybcasneuf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xhybcasneuf.
@@ -107,93 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### R
+#### .bioconductor-xhybcasneuf-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/R
-$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-xhybcasneuf-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-xhybcasneuf-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-xhybcasneuf-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Rscript
+#### .bioconductor-xhybcasneuf-pre-unlink.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Rscript
-$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acountry
-
-```bash
-$ singularity exec <container> /usr/local/bin/acountry
-$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### adig
-
-```bash
-$ singularity exec <container> /usr/local/bin/adig
-$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ahost
-
-```bash
-$ singularity exec <container> /usr/local/bin/ahost
-$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### autopoint
-
-```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bunzip2
-
-```bash
-$ singularity exec <container> /usr/local/bin/bunzip2
-$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcat
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcmp
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzdiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzdiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-xhybcasneuf-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-xhybcasneuf-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-xhybcasneuf-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

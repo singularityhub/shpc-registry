@@ -4,15 +4,14 @@ name:  "quay.io/biocontainers/libgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgenome/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/libgenome/container.yaml"
-updated_at: "2022-10-29 05:38:55.689927"
+updated_at: "2022-10-29 07:42:22.442320"
 latest: "1.3.1--h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/libgenome"
-aliases:
- - "env-execute"
+
 versions:
  - "1.3.1--h9f5acd7_5"
 description: "shpc-registry automated BioContainers addition for libgenome"
-config: {"url": "https://biocontainers.pro/tools/libgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgenome", "latest": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a"}, "docker": "quay.io/biocontainers/libgenome", "aliases": {"env-execute": "/usr/local/env-execute"}}
+config: {"url": "https://biocontainers.pro/tools/libgenome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgenome", "latest": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a"}, "tags": {"1.3.1--h9f5acd7_5": "sha256:aaa664a489c0b3461ffbe63941ba94c16976237f1904b12a019dac0b837f6d1a"}, "docker": "quay.io/biocontainers/libgenome"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libgenome.
@@ -98,14 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### env-execute
+
+#### libgenome
 
 ```bash
-$ singularity exec <container> /usr/local/env-execute
-$ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

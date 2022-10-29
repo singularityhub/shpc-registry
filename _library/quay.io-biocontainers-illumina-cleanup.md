@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/illumina-cleanup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/illumina-cleanup/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/illumina-cleanup/container.yaml"
-updated_at: "2022-10-29 05:55:19.562144"
+updated_at: "2022-10-29 07:54:26.783577"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/illumina-cleanup"
 aliases:
@@ -13,22 +13,23 @@ aliases:
  - "illumina-cleanup"
  - "jq"
  - "lighter"
+ - "nextflow"
  - "nextflow.bak"
  - "onig-config"
- - "a_sample_mt.sh"
- - "ace2sam"
- - "addadapters.sh"
- - "addssu.sh"
- - "adjusthomopolymers.sh"
+ - "kmutate.sh"
+ - "runhmm.sh"
+ - "kmerposition.sh"
+ - "reformatpb.sh"
+ - "summarizecoverage.sh"
  - "alltoall.sh"
- - "analyzeaccession.sh"
- - "analyzegenes.sh"
  - "analyzesketchresults.sh"
- - "applyvariants.sh"
+ - "comparessu.sh"
+ - "filtersilva.sh"
+ - "sketchblacklist2.sh"
 versions:
  - "1.0.0--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for illumina-cleanup"
-config: {"url": "https://biocontainers.pro/tools/illumina-cleanup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illumina-cleanup", "latest": {"1.0.0--hdfd78af_2": "sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c"}, "tags": {"1.0.0--hdfd78af_2": "sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c"}, "docker": "quay.io/biocontainers/illumina-cleanup", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "fastq-scan": "/usr/local/bin/fastq-scan", "illumina-cleanup": "/usr/local/bin/illumina-cleanup", "jq": "/usr/local/bin/jq", "lighter": "/usr/local/bin/lighter", "nextflow.bak": "/usr/local/bin/nextflow.bak", "onig-config": "/usr/local/bin/onig-config", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "ace2sam": "/usr/local/bin/ace2sam", "addadapters.sh": "/usr/local/bin/addadapters.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh"}}
+config: {"url": "https://biocontainers.pro/tools/illumina-cleanup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for illumina-cleanup", "latest": {"1.0.0--hdfd78af_2": "sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c"}, "tags": {"1.0.0--hdfd78af_2": "sha256:55f1683d2fbbd3dd946897e2f301f16670ccb5f2d611882dcfcdbce4b9e3db3c"}, "docker": "quay.io/biocontainers/illumina-cleanup", "aliases": {"Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "fastq-scan": "/usr/local/bin/fastq-scan", "illumina-cleanup": "/usr/local/bin/illumina-cleanup", "jq": "/usr/local/bin/jq", "lighter": "/usr/local/bin/lighter", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "onig-config": "/usr/local/bin/onig-config", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/illumina-cleanup.
@@ -159,6 +160,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lighter   -v ${PWD} -w ${PWD}
 ```
 
 
+#### nextflow
+
+```bash
+$ singularity exec <container> /usr/local/bin/nextflow
+$ podman run --it --rm --entrypoint /usr/local/bin/nextflow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nextflow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### nextflow.bak
 
 ```bash
@@ -177,48 +187,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/onig-config   -v ${PWD} -w ${
 ```
 
 
-#### a_sample_mt.sh
+#### kmutate.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmutate.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### runhmm.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/runhmm.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addadapters.sh
+#### kmerposition.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addadapters.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmerposition.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addssu.sh
+#### reformatpb.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addssu.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/reformatpb.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### adjusthomopolymers.sh
+#### summarizecoverage.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/adjusthomopolymers.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/summarizecoverage.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -231,24 +241,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${
 ```
 
 
-#### analyzeaccession.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/analyzeaccession.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### analyzegenes.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/analyzegenes.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### analyzesketchresults.sh
 
 ```bash
@@ -258,12 +250,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v 
 ```
 
 
-#### applyvariants.sh
+#### comparessu.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/applyvariants.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/comparessu.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/comparessu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/comparessu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filtersilva.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/filtersilva.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/filtersilva.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filtersilva.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sketchblacklist2.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/sketchblacklist2.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/sketchblacklist2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sketchblacklist2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

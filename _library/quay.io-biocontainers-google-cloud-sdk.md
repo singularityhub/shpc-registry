@@ -4,24 +4,26 @@ name:  "quay.io/biocontainers/google-cloud-sdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/google-cloud-sdk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/google-cloud-sdk/container.yaml"
-updated_at: "2022-10-29 05:34:03.680034"
+updated_at: "2022-10-29 07:38:47.429471"
 latest: "166.0.0--py27_0"
 container_url: "https://biocontainers.pro/tools/google-cloud-sdk"
 aliases:
  - "bq"
- - "easy_install-2.7"
  - "gcloud"
  - "gsutil"
- - "idle"
- - "ncurses5-config"
- - "ncursesw5-config"
- - "python-config"
- - "python2"
+ - "easy_install-2.7"
  - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
+ - "python-config"
+ - "smtpd.py"
+ - "tclsh8.5"
 versions:
  - "166.0.0--py27_0"
 description: "shpc-registry automated BioContainers addition for google-cloud-sdk"
-config: {"url": "https://biocontainers.pro/tools/google-cloud-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-cloud-sdk", "latest": {"166.0.0--py27_0": "sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa"}, "tags": {"166.0.0--py27_0": "sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa"}, "docker": "quay.io/biocontainers/google-cloud-sdk", "aliases": {"bq": "/usr/local/bin/bq", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "idle": "/usr/local/bin/idle", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config"}}
+config: {"url": "https://biocontainers.pro/tools/google-cloud-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for google-cloud-sdk", "latest": {"166.0.0--py27_0": "sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa"}, "tags": {"166.0.0--py27_0": "sha256:6369087cfb8bcf26a69a4ccab1d286f39ad990fe1353f3b86b5e7e0c118189aa"}, "docker": "quay.io/biocontainers/google-cloud-sdk", "aliases": {"bq": "/usr/local/bin/bq", "gcloud": "/usr/local/bin/gcloud", "gsutil": "/usr/local/bin/gsutil", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/google-cloud-sdk.
@@ -116,15 +118,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <con
 ```
 
 
-#### easy_install-2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/easy_install-2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gcloud
 
 ```bash
@@ -143,39 +136,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gsutil   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### idle
+#### easy_install-2.7
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/easy_install-2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ncurses5-config
+#### python2-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ncursesw5-config
+#### python2.7-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -188,12 +172,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD}
 ```
 
 
-#### python2-config
+#### python2.7
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

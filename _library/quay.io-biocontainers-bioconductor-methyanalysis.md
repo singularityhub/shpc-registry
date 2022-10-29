@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-methyanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methyanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methyanalysis/container.yaml"
-updated_at: "2022-10-29 05:37:44.239999"
+updated_at: "2022-10-29 07:41:29.482697"
 latest: "1.32.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methyanalysis"
 aliases:
@@ -14,10 +14,12 @@ aliases:
  - "python3.9"
  - "python3.9-config"
  - "x86_64-conda-linux-gnu-gfortran.bin"
+ - "c89"
+ - "c99"
 versions:
  - "1.32.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-methyanalysis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methyanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyanalysis", "latest": {"1.32.0--r40hdfd78af_1": "sha256:6c62bc396a83d9328dcfc2fcc741ede4d7d7e4074ea4fa63cdc5ca483778a66c"}, "tags": {"1.32.0--r40hdfd78af_1": "sha256:6c62bc396a83d9328dcfc2fcc741ede4d7d7e4074ea4fa63cdc5ca483778a66c"}, "docker": "quay.io/biocontainers/bioconductor-methyanalysis", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methyanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyanalysis", "latest": {"1.32.0--r40hdfd78af_1": "sha256:6c62bc396a83d9328dcfc2fcc741ede4d7d7e4074ea4fa63cdc5ca483778a66c"}, "tags": {"1.32.0--r40hdfd78af_1": "sha256:6c62bc396a83d9328dcfc2fcc741ede4d7d7e4074ea4fa63cdc5ca483778a66c"}, "docker": "quay.io/biocontainers/bioconductor-methyanalysis", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methyanalysis.
@@ -154,6 +156,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
 $ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

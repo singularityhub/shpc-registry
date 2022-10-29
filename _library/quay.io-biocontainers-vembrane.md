@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/vembrane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vembrane/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vembrane/container.yaml"
-updated_at: "2022-10-29 05:40:43.717759"
+updated_at: "2022-10-29 07:43:41.138422"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vembrane"
 aliases:
  - "vembrane"
  - "f2py3.9"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vembrane"
-config: {"url": "https://biocontainers.pro/tools/vembrane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vembrane", "latest": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "docker": "quay.io/biocontainers/vembrane", "aliases": {"vembrane": "/usr/local/bin/vembrane", "f2py3.9": "/usr/local/bin/f2py3.9"}}
+config: {"url": "https://biocontainers.pro/tools/vembrane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vembrane", "latest": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "docker": "quay.io/biocontainers/vembrane", "aliases": {"vembrane": "/usr/local/bin/vembrane", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vembrane.
@@ -114,6 +119,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vembrane   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,18 +4,20 @@ name:  "quay.io/biocontainers/perl-biosails"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-biosails/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-biosails/container.yaml"
-updated_at: "2022-10-29 05:46:54.484238"
+updated_at: "2022-10-29 07:48:16.156148"
 latest: "0.02--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-biosails"
 aliases:
- - "cpanm"
+ - "perl-reversion"
  - "moose-outdated"
  - "package-stash-conflicts"
- - "perl-reversion"
+ - "cpanm"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.02--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-biosails"
-config: {"url": "https://biocontainers.pro/tools/perl-biosails", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biosails", "latest": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "tags": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "docker": "quay.io/biocontainers/perl-biosails", "aliases": {"cpanm": "/usr/local/bin/cpanm", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "perl-reversion": "/usr/local/bin/perl-reversion"}}
+config: {"url": "https://biocontainers.pro/tools/perl-biosails", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biosails", "latest": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "tags": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "docker": "quay.io/biocontainers/perl-biosails", "aliases": {"perl-reversion": "/usr/local/bin/perl-reversion", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-biosails.
@@ -101,12 +103,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### cpanm
+#### perl-reversion
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cpanm
-$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl-reversion
+$ podman run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -128,12 +130,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v 
 ```
 
 
-#### perl-reversion
+#### cpanm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/perl-reversion
-$ podman run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

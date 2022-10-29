@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-ccmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccmap/container.yaml"
-updated_at: "2022-10-29 05:45:40.409046"
+updated_at: "2022-10-29 07:47:21.733837"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccmap"
 aliases:
- - "wget"
  - "xgboost"
+ - "wget"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ccmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ccmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccmap", "latest": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "tags": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "docker": "quay.io/biocontainers/bioconductor-ccmap", "aliases": {"wget": "/usr/local/bin/wget", "xgboost": "/usr/local/bin/xgboost"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ccmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccmap", "latest": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "tags": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "docker": "quay.io/biocontainers/bioconductor-ccmap", "aliases": {"xgboost": "/usr/local/bin/xgboost", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ccmap.
@@ -99,6 +101,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### xgboost
+
+```bash
+$ singularity exec <container> /usr/local/bin/xgboost
+$ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### wget
 
 ```bash
@@ -108,12 +119,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### xgboost
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/xgboost
-$ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

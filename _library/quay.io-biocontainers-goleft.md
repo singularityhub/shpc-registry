@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/goleft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goleft/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/goleft/container.yaml"
-updated_at: "2022-10-29 05:33:27.644840"
+updated_at: "2022-10-29 07:38:20.930289"
 latest: "0.2.4--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/goleft"
 aliases:
  - "goleft"
+ - "fasta-sanitize.pl"
+ - "plot-ampliconstats"
  - "ace2sam"
- - "bgzip"
  - "blast2sam.pl"
  - "bowtie2sam.pl"
  - "export2sam.pl"
- - "fasta-sanitize.pl"
- - "htsfile"
  - "interpolate_sam.pl"
  - "maq2sam-long"
  - "maq2sam-short"
+ - "md5fa"
 versions:
  - "0.2.4--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for goleft"
-config: {"url": "https://biocontainers.pro/tools/goleft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goleft", "latest": {"0.2.4--h9ee0642_1": "sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75"}, "tags": {"0.2.4--h9ee0642_1": "sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75"}, "docker": "quay.io/biocontainers/goleft", "aliases": {"goleft": "/usr/local/bin/goleft", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short"}}
+config: {"url": "https://biocontainers.pro/tools/goleft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goleft", "latest": {"0.2.4--h9ee0642_1": "sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75"}, "tags": {"0.2.4--h9ee0642_1": "sha256:6d60fe73daed42e743222ae077aff5ee97ed1edfbacc1ecd7e3d9e612df38c75"}, "docker": "quay.io/biocontainers/goleft", "aliases": {"goleft": "/usr/local/bin/goleft", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/goleft.
@@ -117,21 +117,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/goleft   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-ampliconstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ace2sam
 
 ```bash
 $ singularity exec <container> /usr/local/bin/ace2sam
 $ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,24 +171,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w 
 ```
 
 
-#### fasta-sanitize.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### interpolate_sam.pl
 
 ```bash
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/maq2sam-short
 $ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### md5fa
+
+```bash
+$ singularity exec <container> /usr/local/bin/md5fa
+$ podman run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

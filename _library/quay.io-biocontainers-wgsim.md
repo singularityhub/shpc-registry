@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/wgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wgsim/container.yaml"
-updated_at: "2022-10-29 05:31:38.981996"
+updated_at: "2022-10-29 07:37:01.296451"
 latest: "1.0--h7132678_5"
 container_url: "https://biocontainers.pro/tools/wgsim"
 aliases:
  - "wgsim"
  - "wgsim_eval.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.0--h7132678_5"
 description: "shpc-registry automated BioContainers addition for wgsim"
-config: {"url": "https://biocontainers.pro/tools/wgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgsim", "latest": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "tags": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "docker": "quay.io/biocontainers/wgsim", "aliases": {"wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl"}}
+config: {"url": "https://biocontainers.pro/tools/wgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgsim", "latest": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "tags": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "docker": "quay.io/biocontainers/wgsim", "aliases": {"wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgsim.
@@ -114,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wgsim   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/wgsim_eval.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/wgsim_eval.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wgsim_eval.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/ont_vbz_hdf_plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ont_vbz_hdf_plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ont_vbz_hdf_plugin/container.yaml"
-updated_at: "2022-10-29 05:45:48.045184"
+updated_at: "2022-10-29 07:47:27.350800"
 latest: "1.0.1--hb6da537_3"
 container_url: "https://biocontainers.pro/tools/ont_vbz_hdf_plugin"
 aliases:
+ - "mirror_server"
+ - "mirror_server_stop"
+ - "h5clear"
+ - "h5format_convert"
+ - "h5watch"
+ - "h5fc"
  - "gif2h5"
  - "h52gif"
  - "h5c++"
- - "h5cc"
- - "h5clear"
  - "h5copy"
- - "h5debug"
- - "h5diff"
- - "h5dump"
- - "h5fc"
 versions:
  - "1.0.1--hb6da537_3"
 description: "shpc-registry automated BioContainers addition for ont_vbz_hdf_plugin"
-config: {"url": "https://biocontainers.pro/tools/ont_vbz_hdf_plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ont_vbz_hdf_plugin", "latest": {"1.0.1--hb6da537_3": "sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397"}, "tags": {"1.0.1--hb6da537_3": "sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397"}, "docker": "quay.io/biocontainers/ont_vbz_hdf_plugin", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5dump": "/usr/local/bin/h5dump", "h5fc": "/usr/local/bin/h5fc"}}
+config: {"url": "https://biocontainers.pro/tools/ont_vbz_hdf_plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ont_vbz_hdf_plugin", "latest": {"1.0.1--hb6da537_3": "sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397"}, "tags": {"1.0.1--hb6da537_3": "sha256:92d2a449b8275a099cf8645daa6ced678606b56cf62fa4af5bd92ab2d2c6a397"}, "docker": "quay.io/biocontainers/ont_vbz_hdf_plugin", "aliases": {"mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ont_vbz_hdf_plugin.
@@ -107,6 +107,60 @@ $ singularity inspect -d <container>
 ```
 
 
+#### mirror_server
+
+```bash
+$ singularity exec <container> /usr/local/bin/mirror_server
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mirror_server_stop
+
+```bash
+$ singularity exec <container> /usr/local/bin/mirror_server_stop
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5format_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5format_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5watch
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5watch
+$ podman run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5fc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5fc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gif2h5
 
 ```bash
@@ -134,66 +188,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5clear
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### h5copy
 
 ```bash
 $ singularity exec <container> /usr/local/bin/h5copy
 $ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5debug
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5debug
-$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5diff
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5diff
-$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5dump
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5dump
-$ podman run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5fc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5fc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

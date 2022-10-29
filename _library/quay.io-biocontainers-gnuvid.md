@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gnuvid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnuvid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gnuvid/container.yaml"
-updated_at: "2022-10-29 05:34:09.161343"
+updated_at: "2022-10-29 07:38:51.413183"
 latest: "2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gnuvid"
 aliases:
@@ -25,20 +25,20 @@ aliases:
  - "Metadata_piechart.py"
  - "Temporal_plot_Introductions_Importations.py"
  - "gofasta"
- - "2to3-3.9"
- - "accn-at-a-time"
- - "align-columns"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asn2xml"
- - "between-two-genes"
- - "blast_formatter"
- - "blastdb_aliastool"
- - "blastdbcheck"
+ - "filter-table"
+ - "spdi2prod"
+ - "mafft-sparsecore.rb"
+ - "einsi"
+ - "fftns"
+ - "fftnsi"
+ - "ginsi"
+ - "linsi"
+ - "mafft-distance"
+ - "mafft-einsi"
 versions:
  - "2.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gnuvid"
-config: {"url": "https://biocontainers.pro/tools/gnuvid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnuvid", "latest": {"2.4--hdfd78af_0": "sha256:42db7365c34d8bc01d6f2ed63e40301c01eb95af76c6acb8dd203cb152b89391"}, "tags": {"2.4--hdfd78af_0": "sha256:42db7365c34d8bc01d6f2ed63e40301c01eb95af76c6acb8dd203cb152b89391"}, "docker": "quay.io/biocontainers/gnuvid", "aliases": {"Clonal_complex_assigner.py": "/usr/local/bin/Clonal_complex_assigner.py", "Extract_US_genomes.py": "/usr/local/bin/Extract_US_genomes.py", "Extract_fasta_sequence_blast_report.py": "/usr/local/bin/Extract_fasta_sequence_blast_report.py", "GNUVID.py": "/usr/local/bin/GNUVID.py", "GNUVID_CCs_summary.py": "/usr/local/bin/GNUVID_CCs_summary.py", "GNUVID_FASTA_divider.py": "/usr/local/bin/GNUVID_FASTA_divider.py", "GNUVID_Post_CC_processor.py": "/usr/local/bin/GNUVID_Post_CC_processor.py", "GNUVID_Post_Training.py": "/usr/local/bin/GNUVID_Post_Training.py", "GNUVID_Predict.py": "/usr/local/bin/GNUVID_Predict.py", "GNUVID_Subsample_STs.py": "/usr/local/bin/GNUVID_Subsample_STs.py", "GNUVID_Training.py": "/usr/local/bin/GNUVID_Training.py", "GNUVID_database_customizer.py": "/usr/local/bin/GNUVID_database_customizer.py", "GNUVID_preprocessor.py": "/usr/local/bin/GNUVID_preprocessor.py", "GNUVID_update_db.py": "/usr/local/bin/GNUVID_update_db.py", "Metadata_piechart.py": "/usr/local/bin/Metadata_piechart.py", "Temporal_plot_Introductions_Importations.py": "/usr/local/bin/Temporal_plot_Introductions_Importations.py", "gofasta": "/usr/local/bin/gofasta", "2to3-3.9": "/usr/local/bin/2to3-3.9", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
+config: {"url": "https://biocontainers.pro/tools/gnuvid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnuvid", "latest": {"2.4--hdfd78af_0": "sha256:42db7365c34d8bc01d6f2ed63e40301c01eb95af76c6acb8dd203cb152b89391"}, "tags": {"2.4--hdfd78af_0": "sha256:42db7365c34d8bc01d6f2ed63e40301c01eb95af76c6acb8dd203cb152b89391"}, "docker": "quay.io/biocontainers/gnuvid", "aliases": {"Clonal_complex_assigner.py": "/usr/local/bin/Clonal_complex_assigner.py", "Extract_US_genomes.py": "/usr/local/bin/Extract_US_genomes.py", "Extract_fasta_sequence_blast_report.py": "/usr/local/bin/Extract_fasta_sequence_blast_report.py", "GNUVID.py": "/usr/local/bin/GNUVID.py", "GNUVID_CCs_summary.py": "/usr/local/bin/GNUVID_CCs_summary.py", "GNUVID_FASTA_divider.py": "/usr/local/bin/GNUVID_FASTA_divider.py", "GNUVID_Post_CC_processor.py": "/usr/local/bin/GNUVID_Post_CC_processor.py", "GNUVID_Post_Training.py": "/usr/local/bin/GNUVID_Post_Training.py", "GNUVID_Predict.py": "/usr/local/bin/GNUVID_Predict.py", "GNUVID_Subsample_STs.py": "/usr/local/bin/GNUVID_Subsample_STs.py", "GNUVID_Training.py": "/usr/local/bin/GNUVID_Training.py", "GNUVID_database_customizer.py": "/usr/local/bin/GNUVID_database_customizer.py", "GNUVID_preprocessor.py": "/usr/local/bin/GNUVID_preprocessor.py", "GNUVID_update_db.py": "/usr/local/bin/GNUVID_update_db.py", "Metadata_piechart.py": "/usr/local/bin/Metadata_piechart.py", "Temporal_plot_Introductions_Importations.py": "/usr/local/bin/Temporal_plot_Introductions_Importations.py", "gofasta": "/usr/local/bin/gofasta", "filter-table": "/usr/local/bin/filter-table", "spdi2prod": "/usr/local/bin/spdi2prod", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi", "ginsi": "/usr/local/bin/ginsi", "linsi": "/usr/local/bin/linsi", "mafft-distance": "/usr/local/bin/mafft-distance", "mafft-einsi": "/usr/local/bin/mafft-einsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gnuvid.
@@ -277,93 +277,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gofasta   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.9
+#### filter-table
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/filter-table
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-table   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### spdi2prod
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spdi2prod
+$ podman run --it --rm --entrypoint /usr/local/bin/spdi2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spdi2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### mafft-sparsecore.rb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mafft-sparsecore.rb
+$ podman run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### einsi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/einsi
+$ podman run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### fftns
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fftns
+$ podman run --it --rm --entrypoint /usr/local/bin/fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asn2xml
+#### fftnsi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fftnsi
+$ podman run --it --rm --entrypoint /usr/local/bin/fftnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### between-two-genes
+#### ginsi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ginsi
+$ podman run --it --rm --entrypoint /usr/local/bin/ginsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ginsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast_formatter
+#### linsi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/linsi
+$ podman run --it --rm --entrypoint /usr/local/bin/linsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdb_aliastool
+#### mafft-distance
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mafft-distance
+$ podman run --it --rm --entrypoint /usr/local/bin/mafft-distance   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mafft-distance   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcheck
+#### mafft-einsi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mafft-einsi
+$ podman run --it --rm --entrypoint /usr/local/bin/mafft-einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mafft-einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

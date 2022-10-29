@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/svdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svdb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/svdb/container.yaml"
-updated_at: "2022-10-29 05:44:31.982367"
+updated_at: "2022-10-29 07:46:31.095090"
 latest: "2.5.2--py36h40b2fa4_0"
 container_url: "https://biocontainers.pro/tools/svdb"
 aliases:
  - "svdb"
- - "2to3-3.6"
  - "f2py3.6"
+ - "2to3-3.6"
  - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
@@ -18,10 +18,11 @@ aliases:
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "pyvenv"
 versions:
  - "2.5.2--py36h40b2fa4_0"
 description: "shpc-registry automated BioContainers addition for svdb"
-config: {"url": "https://biocontainers.pro/tools/svdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svdb", "latest": {"2.5.2--py36h40b2fa4_0": "sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb"}, "tags": {"2.5.2--py36h40b2fa4_0": "sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb"}, "docker": "quay.io/biocontainers/svdb", "aliases": {"svdb": "/usr/local/bin/svdb", "2to3-3.6": "/usr/local/bin/2to3-3.6", "f2py3.6": "/usr/local/bin/f2py3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/svdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svdb", "latest": {"2.5.2--py36h40b2fa4_0": "sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb"}, "tags": {"2.5.2--py36h40b2fa4_0": "sha256:f83996eca213345a591c5c48018fa1b4aca0511e29d92b2d8976ba374de7bcbb"}, "docker": "quay.io/biocontainers/svdb", "aliases": {"svdb": "/usr/local/bin/svdb", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svdb.
@@ -116,21 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/svdb   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

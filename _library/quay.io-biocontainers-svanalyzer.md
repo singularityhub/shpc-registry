@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/svanalyzer/container.yaml"
-updated_at: "2022-10-29 05:36:55.956021"
+updated_at: "2022-10-29 07:40:53.931555"
 latest: "0.36--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/svanalyzer"
 aliases:
@@ -14,20 +14,20 @@ aliases:
  - "SVrefine"
  - "SVwiden"
  - "svanalyzer"
- - "2to3-3.10"
- - "ace2sam"
- - "annotateBed"
- - "bamToBed"
- - "bamToFastq"
- - "bed12ToBed6"
- - "bedToBam"
- - "bedToIgv"
- - "bedpeToBam"
- - "bedtools"
+ - "l4p-tmpl"
+ - "mapview"
+ - "mgaps"
+ - "run-mummer1"
+ - "run-mummer3"
+ - "combineMUMs"
+ - "delta-filter"
+ - "dnadiff"
+ - "exact-tandems"
+ - "mummer"
 versions:
  - "0.36--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for svanalyzer"
-config: {"url": "https://biocontainers.pro/tools/svanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svanalyzer", "latest": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "tags": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "docker": "quay.io/biocontainers/svanalyzer", "aliases": {"SVbenchmark": "/usr/local/bin/SVbenchmark", "SVcomp": "/usr/local/bin/SVcomp", "SVmerge": "/usr/local/bin/SVmerge", "SVrefine": "/usr/local/bin/SVrefine", "SVwiden": "/usr/local/bin/SVwiden", "svanalyzer": "/usr/local/bin/svanalyzer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
+config: {"url": "https://biocontainers.pro/tools/svanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svanalyzer", "latest": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "tags": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "docker": "quay.io/biocontainers/svanalyzer", "aliases": {"SVbenchmark": "/usr/local/bin/SVbenchmark", "SVcomp": "/usr/local/bin/SVcomp", "SVmerge": "/usr/local/bin/SVmerge", "SVrefine": "/usr/local/bin/SVrefine", "SVwiden": "/usr/local/bin/SVwiden", "svanalyzer": "/usr/local/bin/svanalyzer", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svanalyzer.
@@ -167,93 +167,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/svanalyzer   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.10
+#### l4p-tmpl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### mapview
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mapview
+$ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### mgaps
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mgaps
+$ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### run-mummer1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/run-mummer1
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### run-mummer3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/run-mummer3
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bed12ToBed6
+#### combineMUMs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/combineMUMs
+$ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToBam
+#### delta-filter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/delta-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToIgv
+#### dnadiff
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToIgv
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dnadiff
+$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedpeToBam
+#### exact-tandems
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/exact-tandems
+$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedtools
+#### mummer
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mummer
+$ podman run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

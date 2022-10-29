@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/effectivet3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/effectivet3/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/effectivet3/container.yaml"
-updated_at: "2022-10-29 05:31:51.460051"
+updated_at: "2022-10-29 07:37:10.388295"
 latest: "1.0.1--py35_0"
 container_url: "https://biocontainers.pro/tools/effectivet3"
 aliases:
  - "effectivet3"
- - "2to3-3.5"
- - "appletviewer"
  - "easy_install-3.5"
- - "extcheck"
+ - "2to3-3.5"
  - "idle3.5"
- - "idlj"
- - "jar"
- - "jarsigner"
- - "java"
- - "java-rmi.cgi"
+ - "pydoc3.5"
+ - "python3.5"
+ - "python3.5-config"
+ - "python3.5m"
+ - "python3.5m-config"
+ - "pyvenv-3.5"
+ - "extcheck"
 versions:
  - "1.0.1--py35_0"
 description: "shpc-registry automated BioContainers addition for effectivet3"
-config: {"url": "https://biocontainers.pro/tools/effectivet3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for effectivet3", "latest": {"1.0.1--py35_0": "sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db"}, "tags": {"1.0.1--py35_0": "sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db"}, "docker": "quay.io/biocontainers/effectivet3", "aliases": {"effectivet3": "/usr/local/bin/effectivet3", "2to3-3.5": "/usr/local/bin/2to3-3.5", "appletviewer": "/usr/local/bin/appletviewer", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "extcheck": "/usr/local/bin/extcheck", "idle3.5": "/usr/local/bin/idle3.5", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi"}}
+config: {"url": "https://biocontainers.pro/tools/effectivet3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for effectivet3", "latest": {"1.0.1--py35_0": "sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db"}, "tags": {"1.0.1--py35_0": "sha256:b516f07ffee3469afa4e67f0f7576e31ed3bff326ca7758f9d94e6e152aeb2db"}, "docker": "quay.io/biocontainers/effectivet3", "aliases": {"effectivet3": "/usr/local/bin/effectivet3", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "extcheck": "/usr/local/bin/extcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/effectivet3.
@@ -117,24 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/effectivet3   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### appletviewer
-
-```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### easy_install-3.5
 
 ```bash
@@ -144,12 +126,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} 
 ```
 
 
-#### extcheck
+#### 2to3-3.5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/extcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,48 +144,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD}
 ```
 
 
-#### idlj
+#### pydoc3.5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idlj
-$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pydoc3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jar
+#### python3.5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jar
-$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jarsigner
+#### python3.5-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jarsigner
-$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### java
+#### python3.5m
 
 ```bash
-$ singularity exec <container> /usr/local/bin/java
-$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.5m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### java-rmi.cgi
+#### python3.5m-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/java-rmi.cgi
-$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.5m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

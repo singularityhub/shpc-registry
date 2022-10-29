@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/idr-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idr-py/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/idr-py/container.yaml"
-updated_at: "2022-10-29 05:34:04.216025"
+updated_at: "2022-10-29 07:38:47.829234"
 latest: "0.4.2--py_0"
 container_url: "https://biocontainers.pro/tools/idr-py"
 aliases:
@@ -13,20 +13,20 @@ aliases:
  - "setpythonpath.bat"
  - "slice2py"
  - "winconfig.bat"
- - "2to3-3.8"
- - "chardetect"
- - "curve_keygen"
- - "f2py3.8"
- - "futurize"
- - "idle3.8"
- - "iptest"
+ - "jupyter-bundlerextension"
+ - "jupyter-nbextension"
+ - "jupyter-notebook"
+ - "jupyter-serverextension"
+ - "jupyter-nbconvert"
+ - "jupyter-kernel"
+ - "jupyter-kernelspec"
+ - "jupyter-run"
  - "iptest3"
- - "ipython"
- - "ipython3"
+ - "curve_keygen"
 versions:
  - "0.4.2--py_0"
 description: "shpc-registry automated BioContainers addition for idr-py"
-config: {"url": "https://biocontainers.pro/tools/idr-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for idr-py", "latest": {"0.4.2--py_0": "sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80"}, "tags": {"0.4.2--py_0": "sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80"}, "docker": "quay.io/biocontainers/idr-py", "aliases": {"omero": "/usr/local/bin/omero", "omero.bat": "/usr/local/bin/omero.bat", "setpythonpath.bat": "/usr/local/bin/setpythonpath.bat", "slice2py": "/usr/local/bin/slice2py", "winconfig.bat": "/usr/local/bin/winconfig.bat", "2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "curve_keygen": "/usr/local/bin/curve_keygen", "f2py3.8": "/usr/local/bin/f2py3.8", "futurize": "/usr/local/bin/futurize", "idle3.8": "/usr/local/bin/idle3.8", "iptest": "/usr/local/bin/iptest", "iptest3": "/usr/local/bin/iptest3", "ipython": "/usr/local/bin/ipython", "ipython3": "/usr/local/bin/ipython3"}}
+config: {"url": "https://biocontainers.pro/tools/idr-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for idr-py", "latest": {"0.4.2--py_0": "sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80"}, "tags": {"0.4.2--py_0": "sha256:d1b3cd1be9d9b716de992e402caa561ac98df95d4b65831a93470d448fbe7c80"}, "docker": "quay.io/biocontainers/idr-py", "aliases": {"omero": "/usr/local/bin/omero", "omero.bat": "/usr/local/bin/omero.bat", "setpythonpath.bat": "/usr/local/bin/setpythonpath.bat", "slice2py": "/usr/local/bin/slice2py", "winconfig.bat": "/usr/local/bin/winconfig.bat", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "curve_keygen": "/usr/local/bin/curve_keygen"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/idr-py.
@@ -157,66 +157,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/winconfig.bat   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.8
+#### jupyter-bundlerextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-bundlerextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### chardetect
+#### jupyter-nbextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### curve_keygen
+#### jupyter-notebook
 
 ```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-notebook
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### f2py3.8
+#### jupyter-serverextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-serverextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### futurize
+#### jupyter-nbconvert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbconvert
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.8
+#### jupyter-kernel
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-kernel
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### iptest
+#### jupyter-kernelspec
 
 ```bash
-$ singularity exec <container> /usr/local/bin/iptest
-$ podman run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-kernelspec
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-run
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-run
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-run   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-run   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -229,21 +238,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/iptest3   -v ${PWD} -w ${PWD}
 ```
 
 
-#### ipython
+#### curve_keygen
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ipython
-$ podman run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ipython3
-
-```bash
-$ singularity exec <container> /usr/local/bin/ipython3
-$ podman run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/curve_keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

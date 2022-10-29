@@ -4,26 +4,28 @@ name:  "quay.io/biocontainers/hlaprofiler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hlaprofiler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hlaprofiler/container.yaml"
-updated_at: "2022-10-29 05:57:54.492582"
+updated_at: "2022-10-29 07:56:18.974451"
 latest: "1.0.5--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/hlaprofiler"
 aliases:
  - "HLAProfiler.pl"
  - "install.pl"
- - "cpanm"
- - "jellyfish"
  - "kraken"
  - "kraken-build"
  - "kraken-filter"
  - "kraken-mpa-report"
  - "kraken-report"
  - "kraken-translate"
+ - "jellyfish"
  - "moose-outdated"
  - "package-stash-conflicts"
+ - "cpanm"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "1.0.5--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for hlaprofiler"
-config: {"url": "https://biocontainers.pro/tools/hlaprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hlaprofiler", "latest": {"1.0.5--hdfd78af_3": "sha256:fa734140e9a751207993d5f954f3af090cb01b8ab68bc2de082a1783c5bc5c71"}, "tags": {"1.0.5--hdfd78af_3": "sha256:fa734140e9a751207993d5f954f3af090cb01b8ab68bc2de082a1783c5bc5c71"}, "docker": "quay.io/biocontainers/hlaprofiler", "aliases": {"HLAProfiler.pl": "/usr/local/bin/HLAProfiler.pl", "install.pl": "/usr/local/bin/install.pl", "cpanm": "/usr/local/bin/cpanm", "jellyfish": "/usr/local/bin/jellyfish", "kraken": "/usr/local/bin/kraken", "kraken-build": "/usr/local/bin/kraken-build", "kraken-filter": "/usr/local/bin/kraken-filter", "kraken-mpa-report": "/usr/local/bin/kraken-mpa-report", "kraken-report": "/usr/local/bin/kraken-report", "kraken-translate": "/usr/local/bin/kraken-translate", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
+config: {"url": "https://biocontainers.pro/tools/hlaprofiler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hlaprofiler", "latest": {"1.0.5--hdfd78af_3": "sha256:fa734140e9a751207993d5f954f3af090cb01b8ab68bc2de082a1783c5bc5c71"}, "tags": {"1.0.5--hdfd78af_3": "sha256:fa734140e9a751207993d5f954f3af090cb01b8ab68bc2de082a1783c5bc5c71"}, "docker": "quay.io/biocontainers/hlaprofiler", "aliases": {"HLAProfiler.pl": "/usr/local/bin/HLAProfiler.pl", "install.pl": "/usr/local/bin/install.pl", "kraken": "/usr/local/bin/kraken", "kraken-build": "/usr/local/bin/kraken-build", "kraken-filter": "/usr/local/bin/kraken-filter", "kraken-mpa-report": "/usr/local/bin/kraken-mpa-report", "kraken-report": "/usr/local/bin/kraken-report", "kraken-translate": "/usr/local/bin/kraken-translate", "jellyfish": "/usr/local/bin/jellyfish", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hlaprofiler.
@@ -127,24 +129,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/install.pl   -v ${PWD} -w ${P
 ```
 
 
-#### cpanm
-
-```bash
-$ singularity exec <container> /usr/local/bin/cpanm
-$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jellyfish
-
-```bash
-$ singularity exec <container> /usr/local/bin/jellyfish
-$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### kraken
 
 ```bash
@@ -199,6 +183,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kraken-translate   -v ${PWD} 
 ```
 
 
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### moose-outdated
 
 ```bash
@@ -214,6 +207,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/package-stash-conflicts
 $ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpanm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

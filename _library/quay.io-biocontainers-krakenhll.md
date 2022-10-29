@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krakenhll"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakenhll/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/krakenhll/container.yaml"
-updated_at: "2022-10-29 05:40:31.720518"
+updated_at: "2022-10-29 07:43:32.411501"
 latest: "0.4.8--pl526ha92aebf_1"
 container_url: "https://biocontainers.pro/tools/krakenhll"
 aliases:
@@ -18,20 +18,20 @@ aliases:
  - "krakenhll-report"
  - "krakenhll-translate"
  - "read_merger.pl"
- - "c2ph"
  - "jellyfish"
+ - "perl5.22.0"
+ - "c2ph"
+ - "pstruct"
  - "lwp-download"
  - "lwp-dump"
  - "lwp-mirror"
  - "lwp-request"
- - "perl5.22.0"
  - "perl5.26.2"
  - "podselect"
- - "pstruct"
 versions:
  - "0.4.8--pl526ha92aebf_1"
 description: "shpc-registry automated BioContainers addition for krakenhll"
-config: {"url": "https://biocontainers.pro/tools/krakenhll", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenhll", "latest": {"0.4.8--pl526ha92aebf_1": "sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec"}, "tags": {"0.4.8--pl526ha92aebf_1": "sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec"}, "docker": "quay.io/biocontainers/krakenhll", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenhll": "/usr/local/bin/krakenhll", "krakenhll-build": "/usr/local/bin/krakenhll-build", "krakenhll-download": "/usr/local/bin/krakenhll-download", "krakenhll-extract-reads": "/usr/local/bin/krakenhll-extract-reads", "krakenhll-filter": "/usr/local/bin/krakenhll-filter", "krakenhll-mpa-report": "/usr/local/bin/krakenhll-mpa-report", "krakenhll-report": "/usr/local/bin/krakenhll-report", "krakenhll-translate": "/usr/local/bin/krakenhll-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "c2ph": "/usr/local/bin/c2ph", "jellyfish": "/usr/local/bin/jellyfish", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.22.0": "/usr/local/bin/perl5.22.0", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "pstruct": "/usr/local/bin/pstruct"}}
+config: {"url": "https://biocontainers.pro/tools/krakenhll", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenhll", "latest": {"0.4.8--pl526ha92aebf_1": "sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec"}, "tags": {"0.4.8--pl526ha92aebf_1": "sha256:00f1c37d4e35555ec7936081d77346707fd2d54aec15941f4d35480dc72b60ec"}, "docker": "quay.io/biocontainers/krakenhll", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenhll": "/usr/local/bin/krakenhll", "krakenhll-build": "/usr/local/bin/krakenhll-build", "krakenhll-download": "/usr/local/bin/krakenhll-download", "krakenhll-extract-reads": "/usr/local/bin/krakenhll-extract-reads", "krakenhll-filter": "/usr/local/bin/krakenhll-filter", "krakenhll-mpa-report": "/usr/local/bin/krakenhll-mpa-report", "krakenhll-report": "/usr/local/bin/krakenhll-report", "krakenhll-translate": "/usr/local/bin/krakenhll-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "jellyfish": "/usr/local/bin/jellyfish", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krakenhll.
@@ -207,6 +207,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/read_merger.pl   -v ${PWD} -w
 ```
 
 
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.22.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.22.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### c2ph
 
 ```bash
@@ -216,12 +234,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### jellyfish
+#### pstruct
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jellyfish
-$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pstruct
+$ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -261,15 +279,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${
 ```
 
 
-#### perl5.22.0
-
-```bash
-$ singularity exec <container> /usr/local/bin/perl5.22.0
-$ podman run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### perl5.26.2
 
 ```bash
@@ -285,15 +294,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/podselect
 $ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pstruct
-
-```bash
-$ singularity exec <container> /usr/local/bin/pstruct
-$ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,14 @@ name:  "quay.io/biocontainers/sepp-refsilva128"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sepp-refsilva128/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sepp-refsilva128/container.yaml"
-updated_at: "2022-10-29 05:44:13.021333"
+updated_at: "2022-10-29 07:46:16.950508"
 latest: "4.5.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sepp-refsilva128"
-aliases:
- - "env-execute"
+
 versions:
  - "4.5.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for sepp-refsilva128"
-config: {"url": "https://biocontainers.pro/tools/sepp-refsilva128", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp-refsilva128", "latest": {"4.5.1--hdfd78af_1": "sha256:886dbccb5333b6983744f2f4725d777902ff832d661047f0a3c4238f74ad2306"}, "tags": {"4.5.1--hdfd78af_1": "sha256:886dbccb5333b6983744f2f4725d777902ff832d661047f0a3c4238f74ad2306"}, "docker": "quay.io/biocontainers/sepp-refsilva128", "aliases": {"env-execute": "/usr/local/env-execute"}}
+config: {"url": "https://biocontainers.pro/tools/sepp-refsilva128", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sepp-refsilva128", "latest": {"4.5.1--hdfd78af_1": "sha256:886dbccb5333b6983744f2f4725d777902ff832d661047f0a3c4238f74ad2306"}, "tags": {"4.5.1--hdfd78af_1": "sha256:886dbccb5333b6983744f2f4725d777902ff832d661047f0a3c4238f74ad2306"}, "docker": "quay.io/biocontainers/sepp-refsilva128"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sepp-refsilva128.
@@ -98,14 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### env-execute
+
+#### sepp-refsilva128
 
 ```bash
-$ singularity exec <container> /usr/local/env-execute
-$ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hiline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hiline/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hiline/container.yaml"
-updated_at: "2022-10-29 05:40:15.829455"
+updated_at: "2022-10-29 07:43:20.778865"
 latest: "0.2.4--py39h8aee962_0"
 container_url: "https://biocontainers.pro/tools/hiline"
 aliases:
@@ -16,20 +16,20 @@ aliases:
  - "bwa-mem2.avx512bw"
  - "bwa-mem2.sse41"
  - "bwa-mem2.sse42"
- - "ace2sam"
+ - "gawk-5.1.0"
  - "awk"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "bwa"
- - "export2sam.pl"
- - "f2py3.9"
- - "fasta-sanitize.pl"
  - "gawk"
+ - "sdust"
+ - "paftools.js"
+ - "minimap2"
+ - "k8"
+ - "qualfa2fq.pl"
+ - "xa2multi.pl"
+ - "bwa"
 versions:
  - "0.2.4--py39h8aee962_0"
 description: "shpc-registry automated BioContainers addition for hiline"
-config: {"url": "https://biocontainers.pro/tools/hiline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hiline", "latest": {"0.2.4--py39h8aee962_0": "sha256:e86dab9efbae9b4278a157f2d9eebf23b613080920eadc1166cb37a370552e9b"}, "tags": {"0.2.4--py39h8aee962_0": "sha256:e86dab9efbae9b4278a157f2d9eebf23b613080920eadc1166cb37a370552e9b"}, "docker": "quay.io/biocontainers/hiline", "aliases": {"HiLine": "/usr/local/bin/HiLine", "_HiLine_Aligner": "/usr/local/bin/_HiLine_Aligner", "bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "ace2sam": "/usr/local/bin/ace2sam", "awk": "/usr/local/bin/awk", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "bwa": "/usr/local/bin/bwa", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py3.9": "/usr/local/bin/f2py3.9", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "gawk": "/usr/local/bin/gawk"}}
+config: {"url": "https://biocontainers.pro/tools/hiline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hiline", "latest": {"0.2.4--py39h8aee962_0": "sha256:e86dab9efbae9b4278a157f2d9eebf23b613080920eadc1166cb37a370552e9b"}, "tags": {"0.2.4--py39h8aee962_0": "sha256:e86dab9efbae9b4278a157f2d9eebf23b613080920eadc1166cb37a370552e9b"}, "docker": "quay.io/biocontainers/hiline", "aliases": {"HiLine": "/usr/local/bin/HiLine", "_HiLine_Aligner": "/usr/local/bin/_HiLine_Aligner", "bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hiline.
@@ -187,12 +187,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwa-mem2.sse42   -v ${PWD} -w
 ```
 
 
-#### ace2sam
+#### gawk-5.1.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -205,30 +205,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### bgzip
+#### gawk
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gawk
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### sdust
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sdust
+$ podman run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### paftools.js
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/paftools.js
+$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minimap2
+
+```bash
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### k8
+
+```bash
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qualfa2fq.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xa2multi.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/xa2multi.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -238,42 +274,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/bwa
 $ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### export2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fasta-sanitize.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gawk
-
-```bash
-$ singularity exec <container> /usr/local/bin/gawk
-$ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

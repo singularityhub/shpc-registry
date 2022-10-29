@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abruijn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abruijn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abruijn/container.yaml"
-updated_at: "2022-10-29 05:58:52.849475"
+updated_at: "2022-10-29 07:57:01.688558"
 latest: "2.1b--py27_0"
 container_url: "https://biocontainers.pro/tools/abruijn"
 aliases:
@@ -13,19 +13,19 @@ aliases:
  - "abruijn-polish"
  - "abruijn-repeat"
  - "easy_install-2.7"
- - "idle"
- - "ncurses5-config"
- - "ncursesw5-config"
- - "python-config"
- - "python2"
  - "python2-config"
- - "python2.7"
  - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
+ - "python-config"
  - "smtpd.py"
+ - "tclsh8.5"
+ - "wish8.5"
 versions:
  - "2.1b--py27_0"
 description: "shpc-registry automated BioContainers addition for abruijn"
-config: {"url": "https://biocontainers.pro/tools/abruijn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abruijn", "latest": {"2.1b--py27_0": "sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262"}, "tags": {"2.1b--py27_0": "sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262"}, "docker": "quay.io/biocontainers/abruijn", "aliases": {"abruijn": "/usr/local/bin/abruijn", "abruijn-assemble": "/usr/local/bin/abruijn-assemble", "abruijn-polish": "/usr/local/bin/abruijn-polish", "abruijn-repeat": "/usr/local/bin/abruijn-repeat", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "idle": "/usr/local/bin/idle", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/abruijn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abruijn", "latest": {"2.1b--py27_0": "sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262"}, "tags": {"2.1b--py27_0": "sha256:dc49e7814ef55343174c488386507f786d79670b4257b08d1fa66c0c8157b262"}, "docker": "quay.io/biocontainers/abruijn", "aliases": {"abruijn": "/usr/local/bin/abruijn", "abruijn-assemble": "/usr/local/bin/abruijn-assemble", "abruijn-polish": "/usr/local/bin/abruijn-polish", "abruijn-repeat": "/usr/local/bin/abruijn-repeat", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abruijn.
@@ -156,66 +156,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} 
 ```
 
 
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### python2-config
 
 ```bash
 $ singularity exec <container> /usr/local/bin/python2-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -228,12 +174,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} 
 ```
 
 
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### smtpd.py
 
 ```bash
 $ singularity exec <container> /usr/local/bin/smtpd.py
 $ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

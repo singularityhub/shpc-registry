@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/vawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vawk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vawk/container.yaml"
-updated_at: "2022-10-29 05:47:22.588235"
+updated_at: "2022-10-29 07:48:37.039240"
 latest: "0.0.2--py_4"
 container_url: "https://biocontainers.pro/tools/vawk"
 aliases:
  - "gawk-4.2.1"
  - "vawk"
- - "2to3-3.7"
  - "awk"
  - "gawk"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "0.0.2--py_4"
 description: "shpc-registry automated BioContainers addition for vawk"
-config: {"url": "https://biocontainers.pro/tools/vawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vawk", "latest": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "tags": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "docker": "quay.io/biocontainers/vawk", "aliases": {"gawk-4.2.1": "/usr/local/bin/gawk-4.2.1", "vawk": "/usr/local/bin/vawk", "2to3-3.7": "/usr/local/bin/2to3-3.7", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/vawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vawk", "latest": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "tags": {"0.0.2--py_4": "sha256:5246f4a117de0142bfe2d06c72b813cd8e54f078bccf68d6407b7fc2703a52e2"}, "docker": "quay.io/biocontainers/vawk", "aliases": {"gawk-4.2.1": "/usr/local/bin/gawk-4.2.1", "vawk": "/usr/local/bin/vawk", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vawk.
@@ -127,15 +127,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vawk   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### awk
 
 ```bash
@@ -151,6 +142,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/gawk
 $ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

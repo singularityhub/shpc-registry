@@ -4,26 +4,31 @@ name:  "quay.io/biocontainers/bax2bam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bax2bam/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bax2bam/container.yaml"
-updated_at: "2022-10-29 05:49:26.873425"
+updated_at: "2022-10-29 07:50:08.732884"
 latest: "0.0.9--h018d624_7"
 container_url: "https://biocontainers.pro/tools/bax2bam"
 aliases:
+ - ".bax2bam-post-link.sh"
+ - "bam2sam"
  - "bax2bam"
  - "pbbamify"
- - "bam2sam"
- - "bgzip"
+ - "pbindex"
+ - "pbindexdump"
+ - "pbmerge"
+ - "h5clear"
+ - "h5format_convert"
+ - "h5watch"
+ - "h5fc"
  - "gif2h5"
  - "h52gif"
  - "h5c++"
- - "h5cc"
- - "h5clear"
  - "h5copy"
  - "h5debug"
  - "h5diff"
 versions:
  - "0.0.9--h018d624_7"
 description: "shpc-registry automated BioContainers addition for bax2bam"
-config: {"url": "https://biocontainers.pro/tools/bax2bam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bax2bam", "latest": {"0.0.9--h018d624_7": "sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee"}, "tags": {"0.0.9--h018d624_7": "sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee"}, "docker": "quay.io/biocontainers/bax2bam", "aliases": {"bax2bam": "/usr/local/bin/bax2bam", "pbbamify": "/usr/local/bin/pbbamify", "bam2sam": "/usr/local/bin/bam2sam", "bgzip": "/usr/local/bin/bgzip", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/bax2bam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bax2bam", "latest": {"0.0.9--h018d624_7": "sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee"}, "tags": {"0.0.9--h018d624_7": "sha256:4464f6126573dfc7bb28e4b1ab75183b6038220784f51f3f5d282868680bcdee"}, "docker": "quay.io/biocontainers/bax2bam", "aliases": {".bax2bam-post-link.sh": "/usr/local/bin/.bax2bam-post-link.sh", "bam2sam": "/usr/local/bin/bam2sam", "bax2bam": "/usr/local/bin/bax2bam", "pbbamify": "/usr/local/bin/pbbamify", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bax2bam.
@@ -109,6 +114,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bax2bam-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bax2bam-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bax2bam-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bax2bam-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bax2bam
 
 ```bash
@@ -127,21 +150,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pbbamify   -v ${PWD} -w ${PWD
 ```
 
 
-#### bam2sam
+#### pbindex
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bam2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/bam2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bam2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pbindex
+$ podman run --it --rm --entrypoint /usr/local/bin/pbindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbindex   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### pbindexdump
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pbindexdump
+$ podman run --it --rm --entrypoint /usr/local/bin/pbindexdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbindexdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pbmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5format_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5format_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5watch
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5watch
+$ podman run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5fc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5fc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -169,24 +237,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/h5c++
 $ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5clear
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

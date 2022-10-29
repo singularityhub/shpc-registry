@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/quantiprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantiprot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/quantiprot/container.yaml"
-updated_at: "2022-10-29 05:34:38.723607"
+updated_at: "2022-10-29 07:39:12.935988"
 latest: "0.2.4--py_0"
 container_url: "https://biocontainers.pro/tools/quantiprot"
 aliases:
- - "chardetect"
  - "f2py3.8"
+ - "chardetect"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "0.2.4--py_0"
 description: "shpc-registry automated BioContainers addition for quantiprot"
-config: {"url": "https://biocontainers.pro/tools/quantiprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quantiprot", "latest": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "tags": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "docker": "quay.io/biocontainers/quantiprot", "aliases": {"chardetect": "/usr/local/bin/chardetect", "f2py3.8": "/usr/local/bin/f2py3.8"}}
+config: {"url": "https://biocontainers.pro/tools/quantiprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quantiprot", "latest": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "tags": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "docker": "quay.io/biocontainers/quantiprot", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quantiprot.
@@ -99,6 +104,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### chardetect
 
 ```bash
@@ -108,12 +122,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${P
 ```
 
 
-#### f2py3.8
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/hitac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hitac/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hitac/container.yaml"
-updated_at: "2022-10-29 05:53:57.538017"
+updated_at: "2022-10-29 07:53:27.780210"
 latest: "2.0.9--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hitac"
 aliases:
  - "hiclass"
- - "brotli"
- - "cwebp"
+ - "doesitcache"
+ - "ipython3"
+ - "ipython"
  - "cygdb"
  - "cython"
  - "cythonize"
- - "doesitcache"
- - "dwebp"
- - "f2py3.9"
- - "fonttools"
- - "gif2h5"
+ - "py.test"
+ - "pytest"
+ - "natsort"
+ - "mirror_server"
 versions:
  - "2.0.9--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for hitac"
-config: {"url": "https://biocontainers.pro/tools/hitac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hitac", "latest": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4"}, "docker": "quay.io/biocontainers/hitac", "aliases": {"hiclass": "/usr/local/bin/hiclass", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "doesitcache": "/usr/local/bin/doesitcache", "dwebp": "/usr/local/bin/dwebp", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5"}}
+config: {"url": "https://biocontainers.pro/tools/hitac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hitac", "latest": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4"}, "docker": "quay.io/biocontainers/hitac", "aliases": {"hiclass": "/usr/local/bin/hiclass", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hitac.
@@ -117,21 +117,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hiclass   -v ${PWD} -w ${PWD}
 ```
 
 
-#### brotli
+#### doesitcache
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/doesitcache
+$ podman run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cwebp
+#### ipython3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ipython3
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,48 +171,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PW
 ```
 
 
-#### doesitcache
+#### py.test
 
 ```bash
-$ singularity exec <container> /usr/local/bin/doesitcache
-$ podman run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dwebp
+#### pytest
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### f2py3.9
+#### natsort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/natsort
+$ podman run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### fonttools
+#### mirror_server
 
 ```bash
-$ singularity exec <container> /usr/local/bin/fonttools
-$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2h5
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mirror_server
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

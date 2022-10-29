@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-mime-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-tools/container.yaml"
-updated_at: "2022-10-29 05:39:58.995395"
+updated_at: "2022-10-29 07:43:08.404876"
 latest: "5.508--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-mime-tools"
 aliases:
  - "binhex.pl"
  - "debinhex.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "5.508--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-mime-tools"
-config: {"url": "https://biocontainers.pro/tools/perl-mime-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-tools", "latest": {"5.508--pl5321hdfd78af_2": "sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021"}, "tags": {"5.508--pl5321hdfd78af_2": "sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021"}, "docker": "quay.io/biocontainers/perl-mime-tools", "aliases": {"binhex.pl": "/usr/local/bin/binhex.pl", "debinhex.pl": "/usr/local/bin/debinhex.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-mime-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-tools", "latest": {"5.508--pl5321hdfd78af_2": "sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021"}, "tags": {"5.508--pl5321hdfd78af_2": "sha256:8072aa4bbc6aa2a86036d8bdd4b0c74d5f2e765a7a2a2bfb35d3da8ba9b0c021"}, "docker": "quay.io/biocontainers/perl-mime-tools", "aliases": {"binhex.pl": "/usr/local/bin/binhex.pl", "debinhex.pl": "/usr/local/bin/debinhex.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-mime-tools.
@@ -114,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/binhex.pl   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/debinhex.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/debinhex.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/debinhex.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

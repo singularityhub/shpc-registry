@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/protgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/protgraph/container.yaml"
-updated_at: "2022-10-29 05:30:09.985681"
+updated_at: "2022-10-29 07:35:55.843608"
 latest: "0.3.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/protgraph"
 aliases:
@@ -15,20 +15,20 @@ aliases:
  - "protgraph_pepsqlite_to_fasta"
  - "protgraph_print_sums"
  - "protgraph_replace_fasta_header"
- - "2to3-3.10"
+ - "igraph"
  - "cmpfillin"
- - "f2py3.10"
- - "glpsol"
  - "gpmetis"
  - "graphchk"
- - "idle3.10"
- - "igraph"
  - "m2gmetis"
  - "mpmetis"
+ - "ndmetis"
+ - "glpsol"
+ - "protoc"
+ - "normalizer"
 versions:
  - "0.3.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for protgraph"
-config: {"url": "https://biocontainers.pro/tools/protgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for protgraph", "latest": {"0.3.4--pyhdfd78af_0": "sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d"}, "docker": "quay.io/biocontainers/protgraph", "aliases": {"geomet": "/usr/local/bin/geomet", "protgraph": "/usr/local/bin/protgraph", "protgraph_compact_fasta": "/usr/local/bin/protgraph_compact_fasta", "protgraph_generate_fasta_decoys": "/usr/local/bin/protgraph_generate_fasta_decoys", "protgraph_pepsqlite_to_fasta": "/usr/local/bin/protgraph_pepsqlite_to_fasta", "protgraph_print_sums": "/usr/local/bin/protgraph_print_sums", "protgraph_replace_fasta_header": "/usr/local/bin/protgraph_replace_fasta_header", "2to3-3.10": "/usr/local/bin/2to3-3.10", "cmpfillin": "/usr/local/bin/cmpfillin", "f2py3.10": "/usr/local/bin/f2py3.10", "glpsol": "/usr/local/bin/glpsol", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "idle3.10": "/usr/local/bin/idle3.10", "igraph": "/usr/local/bin/igraph", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis"}}
+config: {"url": "https://biocontainers.pro/tools/protgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for protgraph", "latest": {"0.3.4--pyhdfd78af_0": "sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d"}, "docker": "quay.io/biocontainers/protgraph", "aliases": {"geomet": "/usr/local/bin/geomet", "protgraph": "/usr/local/bin/protgraph", "protgraph_compact_fasta": "/usr/local/bin/protgraph_compact_fasta", "protgraph_generate_fasta_decoys": "/usr/local/bin/protgraph_generate_fasta_decoys", "protgraph_pepsqlite_to_fasta": "/usr/local/bin/protgraph_pepsqlite_to_fasta", "protgraph_print_sums": "/usr/local/bin/protgraph_print_sums", "protgraph_replace_fasta_header": "/usr/local/bin/protgraph_replace_fasta_header", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/protgraph.
@@ -177,12 +177,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/protgraph_replace_fasta_heade
 ```
 
 
-#### 2to3-3.10
+#### igraph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/igraph
+$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -192,24 +192,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/cmpfillin
 $ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### glpsol
-
-```bash
-$ singularity exec <container> /usr/local/bin/glpsol
-$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -231,24 +213,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### igraph
-
-```bash
-$ singularity exec <container> /usr/local/bin/igraph
-$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### m2gmetis
 
 ```bash
@@ -264,6 +228,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/m2gmetis   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/mpmetis
 $ podman run --it --rm --entrypoint /usr/local/bin/mpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ndmetis
+
+```bash
+$ singularity exec <container> /usr/local/bin/ndmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/ndmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ndmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### protoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/protoc
+$ podman run --it --rm --entrypoint /usr/local/bin/protoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/protoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

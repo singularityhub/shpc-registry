@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metasv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metasv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metasv/container.yaml"
-updated_at: "2022-10-29 05:43:33.465389"
+updated_at: "2022-10-29 07:45:47.802504"
 latest: "0.5.4--py27h9801fc8_4"
 container_url: "https://biocontainers.pro/tools/metasv"
 aliases:
@@ -16,20 +16,20 @@ aliases:
  - "run_metasv_bed2vcf.py"
  - "run_metasv_sc_analysis.py"
  - "svtool_to_vcf.py"
- - "ace2sam"
- - "annotate.py"
- - "annotateBed"
- - "bamToBed"
- - "bamToFastq"
- - "bed12ToBed6"
- - "bedToBam"
- - "bedToIgv"
- - "bedpeToBam"
- - "bedtools"
+ - "cds-mapping-stats"
+ - "cds-subgraphs"
+ - "mag-improve"
+ - "spades-convert-bin-to-fasta"
+ - "spades-gsimplifier"
+ - "spades-kmer-estimating"
+ - "spades-read-filter"
+ - "spaligner"
+ - "spades-bwa"
+ - "spades-core"
 versions:
  - "0.5.4--py27h9801fc8_4"
 description: "shpc-registry automated BioContainers addition for metasv"
-config: {"url": "https://biocontainers.pro/tools/metasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metasv", "latest": {"0.5.4--py27h9801fc8_4": "sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9"}, "tags": {"0.5.4--py27h9801fc8_4": "sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9"}, "docker": "quay.io/biocontainers/metasv", "aliases": {"age_align": "/usr/local/bin/age_align", "annotate_vcf_bam.py": "/usr/local/bin/annotate_vcf_bam.py", "pybedtools_demo.py": "/usr/local/bin/pybedtools_demo.py", "run_metasv.py": "/usr/local/bin/run_metasv.py", "run_metasv_age.py": "/usr/local/bin/run_metasv_age.py", "run_metasv_bed2vcf.py": "/usr/local/bin/run_metasv_bed2vcf.py", "run_metasv_sc_analysis.py": "/usr/local/bin/run_metasv_sc_analysis.py", "svtool_to_vcf.py": "/usr/local/bin/svtool_to_vcf.py", "ace2sam": "/usr/local/bin/ace2sam", "annotate.py": "/usr/local/bin/annotate.py", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
+config: {"url": "https://biocontainers.pro/tools/metasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metasv", "latest": {"0.5.4--py27h9801fc8_4": "sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9"}, "tags": {"0.5.4--py27h9801fc8_4": "sha256:3da7a16717e840af039661fcdca68ab4c03b425149462555169c788a43ce46c9"}, "docker": "quay.io/biocontainers/metasv", "aliases": {"age_align": "/usr/local/bin/age_align", "annotate_vcf_bam.py": "/usr/local/bin/annotate_vcf_bam.py", "pybedtools_demo.py": "/usr/local/bin/pybedtools_demo.py", "run_metasv.py": "/usr/local/bin/run_metasv.py", "run_metasv_age.py": "/usr/local/bin/run_metasv_age.py", "run_metasv_bed2vcf.py": "/usr/local/bin/run_metasv_bed2vcf.py", "run_metasv_sc_analysis.py": "/usr/local/bin/run_metasv_sc_analysis.py", "svtool_to_vcf.py": "/usr/local/bin/svtool_to_vcf.py", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "mag-improve": "/usr/local/bin/mag-improve", "spades-convert-bin-to-fasta": "/usr/local/bin/spades-convert-bin-to-fasta", "spades-gsimplifier": "/usr/local/bin/spades-gsimplifier", "spades-kmer-estimating": "/usr/local/bin/spades-kmer-estimating", "spades-read-filter": "/usr/local/bin/spades-read-filter", "spaligner": "/usr/local/bin/spaligner", "spades-bwa": "/usr/local/bin/spades-bwa", "spades-core": "/usr/local/bin/spades-core"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metasv.
@@ -187,93 +187,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/svtool_to_vcf.py   -v ${PWD} 
 ```
 
 
-#### ace2sam
+#### cds-mapping-stats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cds-mapping-stats
+$ podman run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate.py
+#### cds-subgraphs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate.py
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cds-subgraphs
+$ podman run --it --rm --entrypoint /usr/local/bin/cds-subgraphs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cds-subgraphs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### mag-improve
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mag-improve
+$ podman run --it --rm --entrypoint /usr/local/bin/mag-improve   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mag-improve   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### spades-convert-bin-to-fasta
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-convert-bin-to-fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-convert-bin-to-fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-convert-bin-to-fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### spades-gsimplifier
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-gsimplifier
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-gsimplifier   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-gsimplifier   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bed12ToBed6
+#### spades-kmer-estimating
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-kmer-estimating
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-kmer-estimating   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-kmer-estimating   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToBam
+#### spades-read-filter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-read-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-read-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-read-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedToIgv
+#### spaligner
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedToIgv
-$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spaligner
+$ podman run --it --rm --entrypoint /usr/local/bin/spaligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spaligner   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedpeToBam
+#### spades-bwa
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bedtools
+#### spades-core
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bedtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spades-core
+$ podman run --it --rm --entrypoint /usr/local/bin/spades-core   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades-core   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

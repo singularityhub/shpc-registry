@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cdo/container.yaml"
-updated_at: "2022-10-29 05:52:52.283624"
+updated_at: "2022-10-29 07:52:39.618403"
 latest: "2.0.0"
 container_url: "https://biocontainers.pro/tools/cdo"
 aliases:
@@ -57,19 +57,19 @@ aliases:
  - "metar_ls"
  - "tigge_check"
  - "aec"
+ - "uuid"
+ - "uuid-config"
+ - "projsync"
+ - "udunits2"
+ - "invgeod"
+ - "invproj"
+ - "projinfo"
  - "cct"
- - "cs2cs"
- - "fftw-wisdom"
- - "fftw-wisdom-to-conf"
- - "fftwf-wisdom"
- - "fftwl-wisdom"
- - "geod"
  - "gie"
- - "gif2h5"
 versions:
  - "2.0.0"
 description: "shpc-registry automated BioContainers addition for cdo"
-config: {"url": "https://biocontainers.pro/tools/cdo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdo", "latest": {"2.0.0": "sha256:4912d32e1d1559ea840bf333c58cecd595a4ee50891ce71a1cbd7d45a778d2ca"}, "tags": {"2.0.0": "sha256:4912d32e1d1559ea840bf333c58cecd595a4ee50891ce71a1cbd7d45a778d2ca"}, "docker": "quay.io/biocontainers/cdo", "aliases": {"bufr_compare": "/usr/local/bin/bufr_compare", "bufr_compare_dir": "/usr/local/bin/bufr_compare_dir", "bufr_copy": "/usr/local/bin/bufr_copy", "bufr_count": "/usr/local/bin/bufr_count", "bufr_dump": "/usr/local/bin/bufr_dump", "bufr_filter": "/usr/local/bin/bufr_filter", "bufr_get": "/usr/local/bin/bufr_get", "bufr_index_build": "/usr/local/bin/bufr_index_build", "bufr_ls": "/usr/local/bin/bufr_ls", "bufr_set": "/usr/local/bin/bufr_set", "cdo": "/usr/local/bin/cdo", "codes_bufr_filter": "/usr/local/bin/codes_bufr_filter", "codes_count": "/usr/local/bin/codes_count", "codes_info": "/usr/local/bin/codes_info", "codes_parser": "/usr/local/bin/codes_parser", "codes_split_file": "/usr/local/bin/codes_split_file", "grib2ppm": "/usr/local/bin/grib2ppm", "grib_compare": "/usr/local/bin/grib_compare", "grib_copy": "/usr/local/bin/grib_copy", "grib_count": "/usr/local/bin/grib_count", "grib_dump": "/usr/local/bin/grib_dump", "grib_filter": "/usr/local/bin/grib_filter", "grib_get": "/usr/local/bin/grib_get", "grib_get_data": "/usr/local/bin/grib_get_data", "grib_histogram": "/usr/local/bin/grib_histogram", "grib_index_build": "/usr/local/bin/grib_index_build", "grib_ls": "/usr/local/bin/grib_ls", "grib_merge": "/usr/local/bin/grib_merge", "grib_set": "/usr/local/bin/grib_set", "grib_to_netcdf": "/usr/local/bin/grib_to_netcdf", "gts_compare": "/usr/local/bin/gts_compare", "gts_copy": "/usr/local/bin/gts_copy", "gts_count": "/usr/local/bin/gts_count", "gts_dump": "/usr/local/bin/gts_dump", "gts_filter": "/usr/local/bin/gts_filter", "gts_get": "/usr/local/bin/gts_get", "gts_ls": "/usr/local/bin/gts_ls", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "jiv": "/usr/local/bin/jiv", "metar_compare": "/usr/local/bin/metar_compare", "metar_copy": "/usr/local/bin/metar_copy", "metar_dump": "/usr/local/bin/metar_dump", "metar_filter": "/usr/local/bin/metar_filter", "metar_get": "/usr/local/bin/metar_get", "metar_ls": "/usr/local/bin/metar_ls", "tigge_check": "/usr/local/bin/tigge_check", "aec": "/usr/local/bin/aec", "cct": "/usr/local/bin/cct", "cs2cs": "/usr/local/bin/cs2cs", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "geod": "/usr/local/bin/geod", "gie": "/usr/local/bin/gie", "gif2h5": "/usr/local/bin/gif2h5"}}
+config: {"url": "https://biocontainers.pro/tools/cdo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdo", "latest": {"2.0.0": "sha256:4912d32e1d1559ea840bf333c58cecd595a4ee50891ce71a1cbd7d45a778d2ca"}, "tags": {"2.0.0": "sha256:4912d32e1d1559ea840bf333c58cecd595a4ee50891ce71a1cbd7d45a778d2ca"}, "docker": "quay.io/biocontainers/cdo", "aliases": {"bufr_compare": "/usr/local/bin/bufr_compare", "bufr_compare_dir": "/usr/local/bin/bufr_compare_dir", "bufr_copy": "/usr/local/bin/bufr_copy", "bufr_count": "/usr/local/bin/bufr_count", "bufr_dump": "/usr/local/bin/bufr_dump", "bufr_filter": "/usr/local/bin/bufr_filter", "bufr_get": "/usr/local/bin/bufr_get", "bufr_index_build": "/usr/local/bin/bufr_index_build", "bufr_ls": "/usr/local/bin/bufr_ls", "bufr_set": "/usr/local/bin/bufr_set", "cdo": "/usr/local/bin/cdo", "codes_bufr_filter": "/usr/local/bin/codes_bufr_filter", "codes_count": "/usr/local/bin/codes_count", "codes_info": "/usr/local/bin/codes_info", "codes_parser": "/usr/local/bin/codes_parser", "codes_split_file": "/usr/local/bin/codes_split_file", "grib2ppm": "/usr/local/bin/grib2ppm", "grib_compare": "/usr/local/bin/grib_compare", "grib_copy": "/usr/local/bin/grib_copy", "grib_count": "/usr/local/bin/grib_count", "grib_dump": "/usr/local/bin/grib_dump", "grib_filter": "/usr/local/bin/grib_filter", "grib_get": "/usr/local/bin/grib_get", "grib_get_data": "/usr/local/bin/grib_get_data", "grib_histogram": "/usr/local/bin/grib_histogram", "grib_index_build": "/usr/local/bin/grib_index_build", "grib_ls": "/usr/local/bin/grib_ls", "grib_merge": "/usr/local/bin/grib_merge", "grib_set": "/usr/local/bin/grib_set", "grib_to_netcdf": "/usr/local/bin/grib_to_netcdf", "gts_compare": "/usr/local/bin/gts_compare", "gts_copy": "/usr/local/bin/gts_copy", "gts_count": "/usr/local/bin/gts_count", "gts_dump": "/usr/local/bin/gts_dump", "gts_filter": "/usr/local/bin/gts_filter", "gts_get": "/usr/local/bin/gts_get", "gts_ls": "/usr/local/bin/gts_ls", "imgcmp": "/usr/local/bin/imgcmp", "imginfo": "/usr/local/bin/imginfo", "jasper": "/usr/local/bin/jasper", "jiv": "/usr/local/bin/jiv", "metar_compare": "/usr/local/bin/metar_compare", "metar_copy": "/usr/local/bin/metar_copy", "metar_dump": "/usr/local/bin/metar_dump", "metar_filter": "/usr/local/bin/metar_filter", "metar_get": "/usr/local/bin/metar_get", "metar_ls": "/usr/local/bin/metar_ls", "tigge_check": "/usr/local/bin/tigge_check", "aec": "/usr/local/bin/aec", "uuid": "/usr/local/bin/uuid", "uuid-config": "/usr/local/bin/uuid-config", "projsync": "/usr/local/bin/projsync", "udunits2": "/usr/local/bin/udunits2", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cdo.
@@ -596,6 +596,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <co
 ```
 
 
+#### uuid
+
+```bash
+$ singularity exec <container> /usr/local/bin/uuid
+$ podman run --it --rm --entrypoint /usr/local/bin/uuid   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uuid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### uuid-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/uuid-config
+$ podman run --it --rm --entrypoint /usr/local/bin/uuid-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uuid-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### projsync
+
+```bash
+$ singularity exec <container> /usr/local/bin/projsync
+$ podman run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### udunits2
+
+```bash
+$ singularity exec <container> /usr/local/bin/udunits2
+$ podman run --it --rm --entrypoint /usr/local/bin/udunits2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/udunits2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### invgeod
+
+```bash
+$ singularity exec <container> /usr/local/bin/invgeod
+$ podman run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### invproj
+
+```bash
+$ singularity exec <container> /usr/local/bin/invproj
+$ podman run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### projinfo
+
+```bash
+$ singularity exec <container> /usr/local/bin/projinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/projinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/projinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### cct
 
 ```bash
@@ -605,75 +668,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cct   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### cs2cs
-
-```bash
-$ singularity exec <container> /usr/local/bin/cs2cs
-$ podman run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftw-wisdom
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftw-wisdom
-$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftw-wisdom-to-conf
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
-$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftwf-wisdom
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftwf-wisdom
-$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftwl-wisdom
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftwl-wisdom
-$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### geod
-
-```bash
-$ singularity exec <container> /usr/local/bin/geod
-$ podman run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gie
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gie
 $ podman run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2h5
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

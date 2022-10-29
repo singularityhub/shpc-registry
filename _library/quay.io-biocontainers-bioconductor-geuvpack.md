@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-geuvpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geuvpack/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geuvpack/container.yaml"
-updated_at: "2022-10-29 05:43:56.240054"
+updated_at: "2022-10-29 07:46:04.459251"
 latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-geuvpack"
 aliases:
+ - ".bioconductor-geuvpack-post-link.sh"
+ - ".bioconductor-geuvpack-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.22.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-geuvpack"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geuvpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geuvpack", "latest": {"1.22.0--r40hdfd78af_1": "sha256:040e9492d94244dd1d532bf6dabebaf0923e43c82271034d1e510e431e88f7dc"}, "tags": {"1.22.0--r40hdfd78af_1": "sha256:040e9492d94244dd1d532bf6dabebaf0923e43c82271034d1e510e431e88f7dc"}, "docker": "quay.io/biocontainers/bioconductor-geuvpack", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geuvpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geuvpack", "latest": {"1.22.0--r40hdfd78af_1": "sha256:040e9492d94244dd1d532bf6dabebaf0923e43c82271034d1e510e431e88f7dc"}, "tags": {"1.22.0--r40hdfd78af_1": "sha256:040e9492d94244dd1d532bf6dabebaf0923e43c82271034d1e510e431e88f7dc"}, "docker": "quay.io/biocontainers/bioconductor-geuvpack", "aliases": {".bioconductor-geuvpack-post-link.sh": "/usr/local/bin/.bioconductor-geuvpack-post-link.sh", ".bioconductor-geuvpack-pre-unlink.sh": "/usr/local/bin/.bioconductor-geuvpack-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geuvpack.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-geuvpack-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-geuvpack-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-geuvpack-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-geuvpack-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-geuvpack-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-geuvpack-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-geuvpack-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-geuvpack-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

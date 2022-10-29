@@ -4,28 +4,29 @@ name:  "quay.io/biocontainers/codan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/codan/container.yaml"
-updated_at: "2022-10-29 05:53:48.932797"
+updated_at: "2022-10-29 07:53:21.458049"
 latest: "1.2--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/codan"
 aliases:
+ - ".codan-post-link.sh"
  - "codan.py"
  - "fasta_to_tops"
  - "predict"
  - "tops-viterbi_decoding"
- - "2to3-3.9"
+ - "bp_pairwise_kaks.pl"
+ - "bp_search2BSML.pl"
  - "CA.pm"
- - "accn-at-a-time"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asp-cp"
- - "asp-ls"
- - "between-two-genes"
- - "blast_formatter"
- - "blastdb_aliastool"
+ - "cacert.pem"
+ - "index-themes"
+ - "bp_aacomp.pl"
+ - "bp_biofetch_genbank_proxy.pl"
+ - "bp_bioflat_index.pl"
+ - "bp_biogetseq.pl"
+ - "bp_blast2tree.pl"
 versions:
  - "1.2--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for codan"
-config: {"url": "https://biocontainers.pro/tools/codan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codan", "latest": {"1.2--h9ee0642_0": "sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b"}, "tags": {"1.2--h9ee0642_0": "sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b"}, "docker": "quay.io/biocontainers/codan", "aliases": {"codan.py": "/usr/local/bin/codan.py", "fasta_to_tops": "/usr/local/bin/fasta_to_tops", "predict": "/usr/local/bin/predict", "tops-viterbi_decoding": "/usr/local/bin/tops-viterbi_decoding", "2to3-3.9": "/usr/local/bin/2to3-3.9", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool"}}
+config: {"url": "https://biocontainers.pro/tools/codan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codan", "latest": {"1.2--h9ee0642_0": "sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b"}, "tags": {"1.2--h9ee0642_0": "sha256:bd79add0674f98a3490c9f21add769e8fb833062232b9d6e0d58f76bea73307b"}, "docker": "quay.io/biocontainers/codan", "aliases": {".codan-post-link.sh": "/usr/local/bin/.codan-post-link.sh", "codan.py": "/usr/local/bin/codan.py", "fasta_to_tops": "/usr/local/bin/fasta_to_tops", "predict": "/usr/local/bin/predict", "tops-viterbi_decoding": "/usr/local/bin/tops-viterbi_decoding", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/codan.
@@ -111,6 +112,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .codan-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.codan-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.codan-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.codan-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### codan.py
 
 ```bash
@@ -147,12 +157,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tops-viterbi_decoding   -v ${
 ```
 
 
-#### 2to3-3.9
+#### bp_pairwise_kaks.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_search2BSML.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_search2BSML.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -165,75 +184,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### accn-at-a-time
+#### cacert.pem
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cacert.pem
+$ podman run --it --rm --entrypoint /usr/local/bin/cacert.pem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cacert.pem   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### index-themes
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/index-themes
+$ podman run --it --rm --entrypoint /usr/local/bin/index-themes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/index-themes   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### bp_aacomp.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_aacomp.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_aacomp.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_aacomp.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-cp
+#### bp_biofetch_genbank_proxy.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-cp
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_biofetch_genbank_proxy.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_biofetch_genbank_proxy.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_biofetch_genbank_proxy.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asp-ls
+#### bp_bioflat_index.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asp-ls
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_bioflat_index.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### between-two-genes
+#### bp_biogetseq.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_biogetseq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_biogetseq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_biogetseq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast_formatter
+#### bp_blast2tree.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdb_aliastool
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_blast2tree.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_blast2tree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_blast2tree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

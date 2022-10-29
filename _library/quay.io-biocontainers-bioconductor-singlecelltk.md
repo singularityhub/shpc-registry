@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-singlecelltk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
-updated_at: "2022-10-29 05:34:48.069158"
+updated_at: "2022-10-29 07:39:19.712848"
 latest: "2.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecelltk"
 aliases:
+ - "xgboost"
+ - "x86_64-conda-linux-gnu-pkg-config"
  - "Magick++-config"
  - "MagickCore-config"
  - "MagickWand-config"
- - "acyclic"
  - "animate"
- - "annotate"
- - "bcomps"
- - "bdftogd"
- - "ccomps"
- - "circo"
+ - "composite"
+ - "conjure"
+ - "convert"
+ - "display"
 versions:
  - "2.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-singlecelltk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecelltk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecelltk", "latest": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "docker": "quay.io/biocontainers/bioconductor-singlecelltk", "aliases": {"Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecelltk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecelltk", "latest": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "docker": "quay.io/biocontainers/bioconductor-singlecelltk", "aliases": {"xgboost": "/usr/local/bin/xgboost", "x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-singlecelltk.
@@ -107,6 +107,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### xgboost
+
+```bash
+$ singularity exec <container> /usr/local/bin/xgboost
+$ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-pkg-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### Magick++-config
 
 ```bash
@@ -134,15 +152,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD}
 ```
 
 
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### animate
 
 ```bash
@@ -152,48 +161,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD}
 ```
 
 
-#### annotate
+#### composite
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/composite
+$ podman run --it --rm --entrypoint /usr/local/bin/composite   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/composite   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### conjure
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/conjure
+$ podman run --it --rm --entrypoint /usr/local/bin/conjure   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conjure   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### convert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/convert
+$ podman run --it --rm --entrypoint /usr/local/bin/convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### display
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### circo
-
-```bash
-$ singularity exec <container> /usr/local/bin/circo
-$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/display
+$ podman run --it --rm --entrypoint /usr/local/bin/display   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/display   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,11 +4,12 @@ name:  "quay.io/biocontainers/pymix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pymix/container.yaml"
-updated_at: "2022-10-29 05:45:30.495457"
+updated_at: "2022-10-29 07:47:14.524679"
 latest: "0.8--py27hcb787e7_1"
 container_url: "https://biocontainers.pro/tools/pymix"
 aliases:
  - "assistant-qt4"
+ - "ccache-swig"
  - "designer-qt4"
  - "ghmm-config"
  - "lconvert-qt4"
@@ -38,23 +39,24 @@ aliases:
  - "rcc-qt4"
  - "scluster"
  - "smix_hmm"
+ - "swig"
  - "uic-qt4"
  - "xmlpatterns-qt4"
  - "xmlpatternsvalidator-qt4"
- - "ccache-swig"
  - "cluster"
- - "idle"
- - "ncurses5-config"
- - "ncursesw5-config"
- - "python-config"
- - "python2"
+ - "sip"
+ - "qt.conf"
  - "python2-config"
- - "python2.7"
  - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
+ - "python-config"
+ - "smtpd.py"
 versions:
  - "0.8--py27hcb787e7_1"
 description: "shpc-registry automated BioContainers addition for pymix"
-config: {"url": "https://biocontainers.pro/tools/pymix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymix", "latest": {"0.8--py27hcb787e7_1": "sha256:cbf7f71867a9644e5285be48a5e81546c0a3bb453ca3dc60a4aaf678acadab03"}, "tags": {"0.8--py27hcb787e7_1": "sha256:cbf7f71867a9644e5285be48a5e81546c0a3bb453ca3dc60a4aaf678acadab03"}, "docker": "quay.io/biocontainers/pymix", "aliases": {"assistant-qt4": "/usr/local/bin/assistant-qt4", "designer-qt4": "/usr/local/bin/designer-qt4", "ghmm-config": "/usr/local/bin/ghmm-config", "lconvert-qt4": "/usr/local/bin/lconvert-qt4", "linguist-qt4": "/usr/local/bin/linguist-qt4", "lrelease-qt4": "/usr/local/bin/lrelease-qt4", "lupdate-qt4": "/usr/local/bin/lupdate-qt4", "moc-qt4": "/usr/local/bin/moc-qt4", "pixeltool-qt4": "/usr/local/bin/pixeltool-qt4", "probdist": "/usr/local/bin/probdist", "pylupdate4": "/usr/local/bin/pylupdate4", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qcollectiongenerator-qt4": "/usr/local/bin/qcollectiongenerator-qt4", "qdbus-qt4": "/usr/local/bin/qdbus-qt4", "qdbuscpp2xml-qt4": "/usr/local/bin/qdbuscpp2xml-qt4", "qdbusviewer-qt4": "/usr/local/bin/qdbusviewer-qt4", "qdbusxml2cpp-qt4": "/usr/local/bin/qdbusxml2cpp-qt4", "qdoc3-qt4": "/usr/local/bin/qdoc3-qt4", "qhelpconverter-qt4": "/usr/local/bin/qhelpconverter-qt4", "qhelpgenerator-qt4": "/usr/local/bin/qhelpgenerator-qt4", "qmake-qt4": "/usr/local/bin/qmake-qt4", "qmlplugindump-qt4": "/usr/local/bin/qmlplugindump-qt4", "qmlviewer-qt4": "/usr/local/bin/qmlviewer-qt4", "qt3to4-qt4": "/usr/local/bin/qt3to4-qt4", "qtconfig-qt4": "/usr/local/bin/qtconfig-qt4", "qttracereplay-qt4": "/usr/local/bin/qttracereplay-qt4", "rcc-qt4": "/usr/local/bin/rcc-qt4", "scluster": "/usr/local/bin/scluster", "smix_hmm": "/usr/local/bin/smix_hmm", "uic-qt4": "/usr/local/bin/uic-qt4", "xmlpatterns-qt4": "/usr/local/bin/xmlpatterns-qt4", "xmlpatternsvalidator-qt4": "/usr/local/bin/xmlpatternsvalidator-qt4", "ccache-swig": "/usr/local/bin/ccache-swig", "cluster": "/usr/local/bin/cluster", "idle": "/usr/local/bin/idle", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/pymix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymix", "latest": {"0.8--py27hcb787e7_1": "sha256:cbf7f71867a9644e5285be48a5e81546c0a3bb453ca3dc60a4aaf678acadab03"}, "tags": {"0.8--py27hcb787e7_1": "sha256:cbf7f71867a9644e5285be48a5e81546c0a3bb453ca3dc60a4aaf678acadab03"}, "docker": "quay.io/biocontainers/pymix", "aliases": {"assistant-qt4": "/usr/local/bin/assistant-qt4", "ccache-swig": "/usr/local/bin/ccache-swig", "designer-qt4": "/usr/local/bin/designer-qt4", "ghmm-config": "/usr/local/bin/ghmm-config", "lconvert-qt4": "/usr/local/bin/lconvert-qt4", "linguist-qt4": "/usr/local/bin/linguist-qt4", "lrelease-qt4": "/usr/local/bin/lrelease-qt4", "lupdate-qt4": "/usr/local/bin/lupdate-qt4", "moc-qt4": "/usr/local/bin/moc-qt4", "pixeltool-qt4": "/usr/local/bin/pixeltool-qt4", "probdist": "/usr/local/bin/probdist", "pylupdate4": "/usr/local/bin/pylupdate4", "pyrcc4": "/usr/local/bin/pyrcc4", "pyuic4": "/usr/local/bin/pyuic4", "qcollectiongenerator-qt4": "/usr/local/bin/qcollectiongenerator-qt4", "qdbus-qt4": "/usr/local/bin/qdbus-qt4", "qdbuscpp2xml-qt4": "/usr/local/bin/qdbuscpp2xml-qt4", "qdbusviewer-qt4": "/usr/local/bin/qdbusviewer-qt4", "qdbusxml2cpp-qt4": "/usr/local/bin/qdbusxml2cpp-qt4", "qdoc3-qt4": "/usr/local/bin/qdoc3-qt4", "qhelpconverter-qt4": "/usr/local/bin/qhelpconverter-qt4", "qhelpgenerator-qt4": "/usr/local/bin/qhelpgenerator-qt4", "qmake-qt4": "/usr/local/bin/qmake-qt4", "qmlplugindump-qt4": "/usr/local/bin/qmlplugindump-qt4", "qmlviewer-qt4": "/usr/local/bin/qmlviewer-qt4", "qt3to4-qt4": "/usr/local/bin/qt3to4-qt4", "qtconfig-qt4": "/usr/local/bin/qtconfig-qt4", "qttracereplay-qt4": "/usr/local/bin/qttracereplay-qt4", "rcc-qt4": "/usr/local/bin/rcc-qt4", "scluster": "/usr/local/bin/scluster", "smix_hmm": "/usr/local/bin/smix_hmm", "swig": "/usr/local/bin/swig", "uic-qt4": "/usr/local/bin/uic-qt4", "xmlpatterns-qt4": "/usr/local/bin/xmlpatterns-qt4", "xmlpatternsvalidator-qt4": "/usr/local/bin/xmlpatternsvalidator-qt4", "cluster": "/usr/local/bin/cluster", "sip": "/usr/local/bin/sip", "qt.conf": "/usr/local/bin/qt.conf", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymix.
@@ -146,6 +148,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/assistant-qt4
 $ podman run --it --rm --entrypoint /usr/local/bin/assistant-qt4   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/assistant-qt4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccache-swig
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccache-swig
+$ podman run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -410,6 +421,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/smix_hmm   -v ${PWD} -w ${PWD
 ```
 
 
+#### swig
+
+```bash
+$ singularity exec <container> /usr/local/bin/swig
+$ podman run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### uic-qt4
 
 ```bash
@@ -437,15 +457,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xmlpatternsvalidator-qt4   -v
 ```
 
 
-#### ccache-swig
-
-```bash
-$ singularity exec <container> /usr/local/bin/ccache-swig
-$ podman run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cluster
 
 ```bash
@@ -455,48 +466,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD}
 ```
 
 
-#### idle
+#### sip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sip
+$ podman run --it --rm --entrypoint /usr/local/bin/sip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ncurses5-config
+#### qt.conf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qt.conf
+$ podman run --it --rm --entrypoint /usr/local/bin/qt.conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qt.conf   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -509,6 +493,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w
 ```
 
 
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### python2.7
 
 ```bash
@@ -518,12 +520,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PW
 ```
 
 
-#### python2.7-config
+#### idle
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

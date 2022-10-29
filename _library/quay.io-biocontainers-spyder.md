@@ -4,28 +4,34 @@ name:  "quay.io/biocontainers/spyder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spyder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spyder/container.yaml"
-updated_at: "2022-10-29 05:40:27.830359"
+updated_at: "2022-10-29 07:43:29.581637"
 latest: "3.3.1--py35_1"
 container_url: "https://biocontainers.pro/tools/spyder"
 aliases:
+ - "epylint"
+ - "isort"
+ - "jupyter-qtconsole"
  - "keyring"
  - "pycodestyle"
  - "pyflakes"
+ - "pylint"
+ - "pyreverse"
  - "spyder"
- - "2to3-3.5"
- - "assistant"
- - "chardetect"
- - "curve_keygen"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
- - "dbus-run-session"
- - "dbus-send"
+ - "symilar"
+ - "jupyter-nbconvert"
+ - "sphinx-apidoc"
+ - "sphinx-autogen"
+ - "sphinx-build"
+ - "sphinx-quickstart"
+ - "jupyter-kernel"
+ - "jupyter-kernelspec"
+ - "jupyter-run"
+ - "pybabel"
+ - "iptest3"
 versions:
  - "3.3.1--py35_1"
 description: "shpc-registry automated BioContainers addition for spyder"
-config: {"url": "https://biocontainers.pro/tools/spyder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spyder", "latest": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "tags": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "docker": "quay.io/biocontainers/spyder", "aliases": {"keyring": "/usr/local/bin/keyring", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "spyder": "/usr/local/bin/spyder", "2to3-3.5": "/usr/local/bin/2to3-3.5", "assistant": "/usr/local/bin/assistant", "chardetect": "/usr/local/bin/chardetect", "curve_keygen": "/usr/local/bin/curve_keygen", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send"}}
+config: {"url": "https://biocontainers.pro/tools/spyder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spyder", "latest": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "tags": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "docker": "quay.io/biocontainers/spyder", "aliases": {"epylint": "/usr/local/bin/epylint", "isort": "/usr/local/bin/isort", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "keyring": "/usr/local/bin/keyring", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "pylint": "/usr/local/bin/pylint", "pyreverse": "/usr/local/bin/pyreverse", "spyder": "/usr/local/bin/spyder", "symilar": "/usr/local/bin/symilar", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "pybabel": "/usr/local/bin/pybabel", "iptest3": "/usr/local/bin/iptest3"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spyder.
@@ -111,6 +117,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### epylint
+
+```bash
+$ singularity exec <container> /usr/local/bin/epylint
+$ podman run --it --rm --entrypoint /usr/local/bin/epylint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/epylint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### isort
+
+```bash
+$ singularity exec <container> /usr/local/bin/isort
+$ podman run --it --rm --entrypoint /usr/local/bin/isort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/isort   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-qtconsole
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-qtconsole
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-qtconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-qtconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### keyring
 
 ```bash
@@ -138,6 +171,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyflakes   -v ${PWD} -w ${PWD
 ```
 
 
+#### pylint
+
+```bash
+$ singularity exec <container> /usr/local/bin/pylint
+$ podman run --it --rm --entrypoint /usr/local/bin/pylint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pylint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyreverse
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyreverse
+$ podman run --it --rm --entrypoint /usr/local/bin/pyreverse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyreverse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### spyder
 
 ```bash
@@ -147,93 +198,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/spyder   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.5
+#### symilar
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/symilar
+$ podman run --it --rm --entrypoint /usr/local/bin/symilar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/symilar   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### jupyter-nbconvert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbconvert
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### chardetect
+#### sphinx-apidoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sphinx-apidoc
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-apidoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-apidoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### curve_keygen
+#### sphinx-autogen
 
 ```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sphinx-autogen
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-autogen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-autogen   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### sphinx-build
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sphinx-build
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-build   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### sphinx-quickstart
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sphinx-quickstart
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-quickstart   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-quickstart   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### jupyter-kernel
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-kernel
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### jupyter-kernelspec
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-kernelspec
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-run-session
+#### jupyter-run
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-run-session
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-run
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-run   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-run   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-send
+#### pybabel
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-send
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pybabel
+$ podman run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### iptest3
+
+```bash
+$ singularity exec <container> /usr/local/bin/iptest3
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

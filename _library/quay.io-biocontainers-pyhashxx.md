@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/pyhashxx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyhashxx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyhashxx/container.yaml"
-updated_at: "2022-10-29 05:32:19.294912"
+updated_at: "2022-10-29 07:37:30.576960"
 latest: "0.1.3--py36_1"
 container_url: "https://biocontainers.pro/tools/pyhashxx"
 aliases:
  - "2to3-3.6"
  - "idle3.6"
- - "ncurses5-config"
- - "ncursesw5-config"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
- - "pyvenv"
+ - "pyvenv-3.6"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "0.1.3--py36_1"
 description: "shpc-registry automated BioContainers addition for pyhashxx"
-config: {"url": "https://biocontainers.pro/tools/pyhashxx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyhashxx", "latest": {"0.1.3--py36_1": "sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987"}, "tags": {"0.1.3--py36_1": "sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987"}, "docker": "quay.io/biocontainers/pyhashxx", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/pyhashxx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyhashxx", "latest": {"0.1.3--py36_1": "sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987"}, "tags": {"0.1.3--py36_1": "sha256:541580e6188b6a78a702d014476735c014c6cf66e34198585d8445359d134987"}, "docker": "quay.io/biocontainers/pyhashxx", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyhashxx.
@@ -125,24 +125,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD}
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pydoc3.6
 
 ```bash
@@ -188,12 +170,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
+#### pyvenv-3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

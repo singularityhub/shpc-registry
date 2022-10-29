@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scpred-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scpred-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scpred-cli/container.yaml"
-updated_at: "2022-10-29 05:36:54.857934"
+updated_at: "2022-10-29 07:40:53.135096"
 latest: "0.1.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/scpred-cli"
 aliases:
@@ -15,12 +15,12 @@ aliases:
  - "scpred_post_install_tests.sh"
  - "scpred_predict.R"
  - "scpred_train_model.R"
- - "2to3-3.9"
  - "build_env_setup.sh"
  - "conda_build.sh"
- - "f2py3.9"
- - "idle3.9"
  - "pandoc"
+ - "f2py3.9"
+ - "2to3-3.9"
+ - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "0.1.0--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for scpred-cli"
-config: {"url": "https://biocontainers.pro/tools/scpred-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scpred-cli", "latest": {"0.1.0--hdfd78af_2": "sha256:d6f6e9e201377651996133a3e6f3e51e061e1e125f880cf0d58ffd0096534bb5"}, "tags": {"0.1.0--hdfd78af_2": "sha256:d6f6e9e201377651996133a3e6f3e51e061e1e125f880cf0d58ffd0096534bb5"}, "docker": "quay.io/biocontainers/scpred-cli", "aliases": {"get_test_data.R": "/usr/local/bin/get_test_data.R", "scpred_get_feature_space.R": "/usr/local/bin/scpred_get_feature_space.R", "scpred_get_std_output.R": "/usr/local/bin/scpred_get_std_output.R", "scpred_post_install_tests.bats": "/usr/local/bin/scpred_post_install_tests.bats", "scpred_post_install_tests.sh": "/usr/local/bin/scpred_post_install_tests.sh", "scpred_predict.R": "/usr/local/bin/scpred_predict.R", "scpred_train_model.R": "/usr/local/bin/scpred_train_model.R", "2to3-3.9": "/usr/local/bin/2to3-3.9", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pandoc": "/usr/local/bin/pandoc", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/scpred-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scpred-cli", "latest": {"0.1.0--hdfd78af_2": "sha256:d6f6e9e201377651996133a3e6f3e51e061e1e125f880cf0d58ffd0096534bb5"}, "tags": {"0.1.0--hdfd78af_2": "sha256:d6f6e9e201377651996133a3e6f3e51e061e1e125f880cf0d58ffd0096534bb5"}, "docker": "quay.io/biocontainers/scpred-cli", "aliases": {"get_test_data.R": "/usr/local/bin/get_test_data.R", "scpred_get_feature_space.R": "/usr/local/bin/scpred_get_feature_space.R", "scpred_get_std_output.R": "/usr/local/bin/scpred_get_std_output.R", "scpred_post_install_tests.bats": "/usr/local/bin/scpred_post_install_tests.bats", "scpred_post_install_tests.sh": "/usr/local/bin/scpred_post_install_tests.sh", "scpred_predict.R": "/usr/local/bin/scpred_predict.R", "scpred_train_model.R": "/usr/local/bin/scpred_train_model.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "pandoc": "/usr/local/bin/pandoc", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scpred-cli.
@@ -177,15 +177,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scpred_train_model.R   -v ${P
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### build_env_setup.sh
 
 ```bash
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w
 ```
 
 
+#### pandoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### f2py3.9
 
 ```bash
@@ -213,21 +213,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pandoc
-
-```bash
-$ singularity exec <container> /usr/local/bin/pandoc
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

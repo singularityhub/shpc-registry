@@ -4,12 +4,11 @@ name:  "quay.io/biocontainers/basic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/basic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/basic/container.yaml"
-updated_at: "2022-10-29 05:40:26.229246"
+updated_at: "2022-10-29 07:43:28.390014"
 latest: "1.5.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/basic"
 aliases:
  - "BASIC.py"
- - "2to3-3.8"
  - "bowtie2"
  - "bowtie2-align-l"
  - "bowtie2-align-s"
@@ -19,10 +18,11 @@ aliases:
  - "bowtie2-inspect"
  - "bowtie2-inspect-l"
  - "bowtie2-inspect-s"
+ - "perl5.26.2"
 versions:
  - "1.5.1--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for basic"
-config: {"url": "https://biocontainers.pro/tools/basic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for basic", "latest": {"1.5.1--pyh864c0ab_1": "sha256:6f1254fe9cf0c0cf146ac3ffb07cd4e927a830dfc499474d70fb64a8375cbe8c"}, "tags": {"1.5.1--pyh864c0ab_1": "sha256:6f1254fe9cf0c0cf146ac3ffb07cd4e927a830dfc499474d70fb64a8375cbe8c"}, "docker": "quay.io/biocontainers/basic", "aliases": {"BASIC.py": "/usr/local/bin/BASIC.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s"}}
+config: {"url": "https://biocontainers.pro/tools/basic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for basic", "latest": {"1.5.1--pyh864c0ab_1": "sha256:6f1254fe9cf0c0cf146ac3ffb07cd4e927a830dfc499474d70fb64a8375cbe8c"}, "tags": {"1.5.1--pyh864c0ab_1": "sha256:6f1254fe9cf0c0cf146ac3ffb07cd4e927a830dfc499474d70fb64a8375cbe8c"}, "docker": "quay.io/biocontainers/basic", "aliases": {"BASIC.py": "/usr/local/bin/BASIC.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "perl5.26.2": "/usr/local/bin/perl5.26.2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/basic.
@@ -117,15 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/BASIC.py   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bowtie2
 
 ```bash
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/bowtie2-inspect-s
 $ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

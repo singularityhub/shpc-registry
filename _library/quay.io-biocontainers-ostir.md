@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/ostir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ostir/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ostir/container.yaml"
-updated_at: "2022-10-29 05:59:10.836738"
+updated_at: "2022-10-29 07:57:14.857018"
 latest: "1.0.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ostir"
 aliases:
  - "ostir"
- - "2to3-3.9"
+ - "RNAdos"
  - "AnalyseDists"
  - "AnalyseSeqs"
- - "Kinfold"
+ - "RNAlocmin"
+ - "RNApvmin"
+ - "b2ct"
+ - "ct2db"
+ - "kinwalker"
+ - "popt"
  - "RNA2Dfold"
- - "RNALalifold"
- - "RNALfold"
- - "RNAPKplex"
- - "RNAaliduplex"
- - "RNAalifold"
 versions:
  - "1.0.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ostir"
-config: {"url": "https://biocontainers.pro/tools/ostir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ostir", "latest": {"1.0.6--pyhdfd78af_0": "sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296"}, "docker": "quay.io/biocontainers/ostir", "aliases": {"ostir": "/usr/local/bin/ostir", "2to3-3.9": "/usr/local/bin/2to3-3.9", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "Kinfold": "/usr/local/bin/Kinfold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNALfold": "/usr/local/bin/RNALfold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold"}}
+config: {"url": "https://biocontainers.pro/tools/ostir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ostir", "latest": {"1.0.6--pyhdfd78af_0": "sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296"}, "tags": {"1.0.6--pyhdfd78af_0": "sha256:4f6d965f7f20e3f8562fa59259aa995773ac37c6c0987444782f719036348296"}, "docker": "quay.io/biocontainers/ostir", "aliases": {"ostir": "/usr/local/bin/ostir", "RNAdos": "/usr/local/bin/RNAdos", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ostir.
@@ -117,12 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ostir   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.9
+#### RNAdos
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/RNAdos
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAdos   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAdos   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -144,12 +144,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${
 ```
 
 
-#### Kinfold
+#### RNAlocmin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Kinfold
-$ podman run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/RNAlocmin
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAlocmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAlocmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNApvmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNApvmin
+$ podman run --it --rm --entrypoint /usr/local/bin/RNApvmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNApvmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2ct
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2ct
+$ podman run --it --rm --entrypoint /usr/local/bin/b2ct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2ct   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ct2db
+
+```bash
+$ singularity exec <container> /usr/local/bin/ct2db
+$ podman run --it --rm --entrypoint /usr/local/bin/ct2db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ct2db   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kinwalker
+
+```bash
+$ singularity exec <container> /usr/local/bin/kinwalker
+$ podman run --it --rm --entrypoint /usr/local/bin/kinwalker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kinwalker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### popt
+
+```bash
+$ singularity exec <container> /usr/local/bin/popt
+$ podman run --it --rm --entrypoint /usr/local/bin/popt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/popt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -159,51 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/RNA2Dfold
 $ podman run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNALalifold
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNALalifold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNALfold
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNALfold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNAPKplex
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNAPKplex
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNAaliduplex
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNAaliduplex
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNAalifold
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNAalifold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

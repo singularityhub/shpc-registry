@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eigensoft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eigensoft/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/eigensoft/container.yaml"
-updated_at: "2022-10-29 05:43:08.625939"
+updated_at: "2022-10-29 07:45:29.451417"
 latest: "7.2.1--h2469040_5"
 container_url: "https://biocontainers.pro/tools/eigensoft"
 aliases:
@@ -20,10 +20,12 @@ aliases:
  - "smartrel"
  - "smshrink"
  - "twstats"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "7.2.1--h2469040_5"
 description: "shpc-registry automated BioContainers addition for eigensoft"
-config: {"url": "https://biocontainers.pro/tools/eigensoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eigensoft", "latest": {"7.2.1--h2469040_5": "sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e"}, "tags": {"7.2.1--h2469040_5": "sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e"}, "docker": "quay.io/biocontainers/eigensoft", "aliases": {"baseprog": "/usr/local/bin/baseprog", "convertf": "/usr/local/bin/convertf", "eigenstrat": "/usr/local/bin/eigenstrat", "eigenstratQTL": "/usr/local/bin/eigenstratQTL", "mergeit": "/usr/local/bin/mergeit", "pca": "/usr/local/bin/pca", "pcatoy": "/usr/local/bin/pcatoy", "smarteigenstrat": "/usr/local/bin/smarteigenstrat", "smartpca": "/usr/local/bin/smartpca", "smartrel": "/usr/local/bin/smartrel", "smshrink": "/usr/local/bin/smshrink", "twstats": "/usr/local/bin/twstats"}}
+config: {"url": "https://biocontainers.pro/tools/eigensoft", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eigensoft", "latest": {"7.2.1--h2469040_5": "sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e"}, "tags": {"7.2.1--h2469040_5": "sha256:9456610b45716dfa6c5dfad81b4ae981dd0662bf7ae4c2b5317d42a28db4946e"}, "docker": "quay.io/biocontainers/eigensoft", "aliases": {"baseprog": "/usr/local/bin/baseprog", "convertf": "/usr/local/bin/convertf", "eigenstrat": "/usr/local/bin/eigenstrat", "eigenstratQTL": "/usr/local/bin/eigenstratQTL", "mergeit": "/usr/local/bin/mergeit", "pca": "/usr/local/bin/pca", "pcatoy": "/usr/local/bin/pcatoy", "smarteigenstrat": "/usr/local/bin/smarteigenstrat", "smartpca": "/usr/local/bin/smartpca", "smartrel": "/usr/local/bin/smartrel", "smshrink": "/usr/local/bin/smshrink", "twstats": "/usr/local/bin/twstats", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eigensoft.
@@ -214,6 +216,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/smshrink   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/twstats
 $ podman run --it --rm --entrypoint /usr/local/bin/twstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/twstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

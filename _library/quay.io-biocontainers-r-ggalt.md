@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/r-ggalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggalt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggalt/container.yaml"
-updated_at: "2022-10-29 05:37:33.949945"
+updated_at: "2022-10-29 07:41:21.877606"
 latest: "0.4.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-ggalt"
 aliases:
  - "nad2bin"
- - "bmp2tiff"
- - "cs2cs"
- - "geod"
- - "gif2tiff"
  - "invgeod"
  - "invproj"
+ - "cs2cs"
+ - "geod"
  - "proj"
+ - "bmp2tiff"
+ - "gif2tiff"
  - "ras2tiff"
  - "rgb2ycbcr"
- - "tclsh8.5"
+ - "thumbnail"
 versions:
  - "0.4.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-ggalt"
-config: {"url": "https://biocontainers.pro/tools/r-ggalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggalt", "latest": {"0.4.0--r3.3.2_0": "sha256:ba5d65b6b7d84dffb463c95f26692f13c9cb9a4a7781846160f153b09e724515"}, "tags": {"0.4.0--r3.3.2_0": "sha256:ba5d65b6b7d84dffb463c95f26692f13c9cb9a4a7781846160f153b09e724515"}, "docker": "quay.io/biocontainers/r-ggalt", "aliases": {"nad2bin": "/usr/local/bin/nad2bin", "bmp2tiff": "/usr/local/bin/bmp2tiff", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "gif2tiff": "/usr/local/bin/gif2tiff", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "proj": "/usr/local/bin/proj", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggalt", "latest": {"0.4.0--r3.3.2_0": "sha256:ba5d65b6b7d84dffb463c95f26692f13c9cb9a4a7781846160f153b09e724515"}, "tags": {"0.4.0--r3.3.2_0": "sha256:ba5d65b6b7d84dffb463c95f26692f13c9cb9a4a7781846160f153b09e724515"}, "docker": "quay.io/biocontainers/r-ggalt", "aliases": {"nad2bin": "/usr/local/bin/nad2bin", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggalt.
@@ -117,12 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nad2bin   -v ${PWD} -w ${PWD}
 ```
 
 
-#### bmp2tiff
+#### invgeod
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bmp2tiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/invgeod
+$ podman run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### invproj
+
+```bash
+$ singularity exec <container> /usr/local/bin/invproj
+$ podman run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -144,39 +153,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### gif2tiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2tiff
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### invgeod
-
-```bash
-$ singularity exec <container> /usr/local/bin/invgeod
-$ podman run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### invproj
-
-```bash
-$ singularity exec <container> /usr/local/bin/invproj
-$ podman run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### proj
 
 ```bash
 $ singularity exec <container> /usr/local/bin/proj
 $ podman run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bmp2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -198,12 +198,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PW
 ```
 
 
-#### tclsh8.5
+#### thumbnail
 
 ```bash
-$ singularity exec <container> /usr/local/bin/tclsh8.5
-$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

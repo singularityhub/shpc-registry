@@ -4,31 +4,27 @@ name:  "quay.io/biocontainers/bbmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bbmap/container.yaml"
-updated_at: "2022-10-29 05:43:26.381465"
+updated_at: "2022-10-29 07:45:42.639690"
 latest: "38.79--h516909a_0"
 container_url: "https://biocontainers.pro/tools/bbmap"
 aliases:
+ - "bbmap.sh"
+ - "bbmapskimmer.sh"
  - "demuxbyname2.sh"
- - "a_sample_mt.sh"
- - "addadapters.sh"
+ - "alltoall.sh"
+ - "analyzesketchresults.sh"
+ - "comparessu.sh"
+ - "filtersilva.sh"
+ - "sketchblacklist2.sh"
+ - "splitribo.sh"
  - "addssu.sh"
  - "adjusthomopolymers.sh"
- - "alltoall.sh"
  - "analyzeaccession.sh"
  - "analyzegenes.sh"
- - "analyzesketchresults.sh"
- - "applyvariants.sh"
- - "aserver"
 versions:
- - "38.89--h1296035_0"
- - "38.90--he522d1c_3"
- - "38.91--he522d1c_1"
- - "38.92--he522d1c_0"
- - "38.93--he522d1c_0"
- - "38.96--h5c4e2a8_0"
  - "38.79--h516909a_0"
 description: "shpc-registry automated BioContainers addition for bbmap"
-config: {"docker": "quay.io/biocontainers/bbmap", "url": "https://biocontainers.pro/tools/bbmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbmap", "latest": {"38.79--h516909a_0": "sha256:f12df79cf92bbc50effabab6cda944c128954295340070e5a3bdc2c991a65b87"}, "tags": {"38.89--h1296035_0": "sha256:acc26b0e54b1323c2db287fabb8bffecda94e766b6759dfdddc7472687b52f33", "38.90--he522d1c_3": "sha256:e85733071f68bc84959aa97155f9d13b87fdfd17f41703fe861c057a56dec2b0", "38.91--he522d1c_1": "sha256:5679f2c146844662be023769146fa787ea101f3dd833ade36aaa0bb533c9939a", "38.92--he522d1c_0": "sha256:103f3a1ec4144933c583da1f8f9bfc7447468e0150c9591d4cc1aff8f98830b9", "38.93--he522d1c_0": "sha256:c171d975ea9b1d4232af2e3608927b5ec83807608263d4e12428964b2f99e4dc", "38.96--h5c4e2a8_0": "sha256:1bc2b5f07fd506ee2cce882a1f8b7b40abffe4e860a89bd87e6599e09dee827c", "38.79--h516909a_0": "sha256:f12df79cf92bbc50effabab6cda944c128954295340070e5a3bdc2c991a65b87"}, "aliases": {"demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "addadapters.sh": "/usr/local/bin/addadapters.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "applyvariants.sh": "/usr/local/bin/applyvariants.sh", "aserver": "/usr/local/bin/aserver"}}
+config: {"url": "https://biocontainers.pro/tools/bbmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbmap", "latest": {"38.79--h516909a_0": "sha256:f12df79cf92bbc50effabab6cda944c128954295340070e5a3bdc2c991a65b87"}, "tags": {"38.79--h516909a_0": "sha256:f12df79cf92bbc50effabab6cda944c128954295340070e5a3bdc2c991a65b87"}, "docker": "quay.io/biocontainers/bbmap", "aliases": {"bbmap.sh": "/usr/local/bin/bbmap.sh", "bbmapskimmer.sh": "/usr/local/bin/bbmapskimmer.sh", "demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bbmap.
@@ -43,7 +39,7 @@ $ shpc install quay.io/biocontainers/bbmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bbmap:38.89--h1296035_0
+$ shpc install quay.io/biocontainers/bbmap:38.79--h516909a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bbmap/38.89--h1296035_0
-$ module help quay.io/biocontainers/bbmap/38.89--h1296035_0
+$ module load quay.io/biocontainers/bbmap/38.79--h516909a_0
+$ module help quay.io/biocontainers/bbmap/38.79--h516909a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
@@ -114,6 +110,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### bbmap.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bbmap.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/bbmap.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bbmap.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bbmapskimmer.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bbmapskimmer.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/bbmapskimmer.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bbmapskimmer.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### demuxbyname2.sh
 
 ```bash
@@ -123,21 +137,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/demuxbyname2.sh   -v ${PWD} -
 ```
 
 
-#### a_sample_mt.sh
+#### alltoall.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/alltoall.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addadapters.sh
+#### analyzesketchresults.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addadapters.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/analyzesketchresults.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### comparessu.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/comparessu.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/comparessu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/comparessu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filtersilva.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/filtersilva.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/filtersilva.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filtersilva.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sketchblacklist2.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/sketchblacklist2.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/sketchblacklist2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sketchblacklist2.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### splitribo.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/splitribo.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/splitribo.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/splitribo.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -159,15 +209,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${
 ```
 
 
-#### alltoall.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/alltoall.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### analyzeaccession.sh
 
 ```bash
@@ -183,33 +224,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PW
 $ singularity exec <container> /usr/local/bin/analyzegenes.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### analyzesketchresults.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/analyzesketchresults.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### applyvariants.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/applyvariants.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/applyvariants.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

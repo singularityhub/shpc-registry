@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/tmux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tmux/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tmux/container.yaml"
-updated_at: "2022-10-29 05:39:31.948015"
+updated_at: "2022-10-29 07:42:48.495656"
 latest: "2.1--1"
 container_url: "https://biocontainers.pro/tools/tmux"
 aliases:
  - "event_rpcgen.py"
  - "tmux"
+ - "ncurses5-config"
 versions:
  - "2.1--1"
 description: "shpc-registry automated BioContainers addition for tmux"
-config: {"url": "https://biocontainers.pro/tools/tmux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tmux", "latest": {"2.1--1": "sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a"}, "tags": {"2.1--1": "sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a"}, "docker": "quay.io/biocontainers/tmux", "aliases": {"event_rpcgen.py": "/usr/local/bin/event_rpcgen.py", "tmux": "/usr/local/bin/tmux"}}
+config: {"url": "https://biocontainers.pro/tools/tmux", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tmux", "latest": {"2.1--1": "sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a"}, "tags": {"2.1--1": "sha256:d913306f28590231f4972249bcaebadbcb7408c500601a8e5aef64bde00add4a"}, "docker": "quay.io/biocontainers/tmux", "aliases": {"event_rpcgen.py": "/usr/local/bin/event_rpcgen.py", "tmux": "/usr/local/bin/tmux", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tmux.
@@ -114,6 +115,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/event_rpcgen.py   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/tmux
 $ podman run --it --rm --entrypoint /usr/local/bin/tmux   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tmux   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

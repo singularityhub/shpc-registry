@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-mogamun"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mogamun/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mogamun/container.yaml"
-updated_at: "2022-10-29 05:59:29.690112"
+updated_at: "2022-10-29 07:57:28.819557"
 latest: "1.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mogamun"
 aliases:
  - "Cytoscape"
- - "aserver"
- - "curve_keygen"
  - "cytoscape.sh"
  - "gen_vmoptions.sh"
- - "gif2rgb"
- - "gifbuild"
- - "gifclrmp"
- - "giffix"
- - "giftext"
+ - "curve_keygen"
+ - "jfr"
+ - "jaotc"
+ - "aserver"
+ - "jdeprscan"
+ - "jhsdb"
+ - "jimage"
 versions:
  - "1.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mogamun"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mogamun", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mogamun", "latest": {"1.4.0--r41hdfd78af_0": "sha256:75d395718e6c06e52a16967b030e9f7c0dab7553198190950087109cc069c5eb"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:75d395718e6c06e52a16967b030e9f7c0dab7553198190950087109cc069c5eb"}, "docker": "quay.io/biocontainers/bioconductor-mogamun", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "aserver": "/usr/local/bin/aserver", "curve_keygen": "/usr/local/bin/curve_keygen", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mogamun", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mogamun", "latest": {"1.4.0--r41hdfd78af_0": "sha256:75d395718e6c06e52a16967b030e9f7c0dab7553198190950087109cc069c5eb"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:75d395718e6c06e52a16967b030e9f7c0dab7553198190950087109cc069c5eb"}, "docker": "quay.io/biocontainers/bioconductor-mogamun", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mogamun.
@@ -116,24 +116,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Cytoscape   -v ${PWD} -w ${PW
 ```
 
 
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### curve_keygen
-
-```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cytoscape.sh
 
 ```bash
@@ -152,48 +134,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gen_vmoptions.sh   -v ${PWD} 
 ```
 
 
-#### gif2rgb
+#### curve_keygen
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/curve_keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gifbuild
+#### jfr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jfr
+$ podman run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gifclrmp
+#### jaotc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gifclrmp
-$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### giffix
+#### aserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/giffix
-$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### giftext
+#### jdeprscan
 
 ```bash
-$ singularity exec <container> /usr/local/bin/giftext
-$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jdeprscan
+$ podman run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/jhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jimage
+
+```bash
+$ singularity exec <container> /usr/local/bin/jimage
+$ podman run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

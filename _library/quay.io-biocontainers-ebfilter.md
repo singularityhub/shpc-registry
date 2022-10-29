@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/ebfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ebfilter/container.yaml"
-updated_at: "2022-10-29 05:39:15.764880"
+updated_at: "2022-10-29 07:42:36.503980"
 latest: "0.2.2--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/ebfilter"
 aliases:
  - "EBFilter"
- - "2to3-3.7"
+ - "vcf_sample_filter.py"
+ - "vcf_filter.py"
+ - "vcf_melt"
  - "f2py3.7"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
  - "python3.7m"
- - "python3.7m-config"
- - "pyvenv"
- - "pyvenv-3.7"
 versions:
  - "0.2.2--pyh5ca1d4c_0"
 description: "shpc-registry automated BioContainers addition for ebfilter"
-config: {"url": "https://biocontainers.pro/tools/ebfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ebfilter", "latest": {"0.2.2--pyh5ca1d4c_0": "sha256:27d43f45c97f99cd926909993b70df39e882a0d39699e080d4f6db548fc00766"}, "tags": {"0.2.2--pyh5ca1d4c_0": "sha256:27d43f45c97f99cd926909993b70df39e882a0d39699e080d4f6db548fc00766"}, "docker": "quay.io/biocontainers/ebfilter", "aliases": {"EBFilter": "/usr/local/bin/EBFilter", "2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/ebfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ebfilter", "latest": {"0.2.2--pyh5ca1d4c_0": "sha256:27d43f45c97f99cd926909993b70df39e882a0d39699e080d4f6db548fc00766"}, "tags": {"0.2.2--pyh5ca1d4c_0": "sha256:27d43f45c97f99cd926909993b70df39e882a0d39699e080d4f6db548fc00766"}, "docker": "quay.io/biocontainers/ebfilter", "aliases": {"EBFilter": "/usr/local/bin/EBFilter", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ebfilter.
@@ -117,12 +117,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/EBFilter   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.7
+#### vcf_sample_filter.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vcf_sample_filter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_sample_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_sample_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_filter.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_filter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_melt
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_melt
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_melt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_melt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -132,6 +150,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/f2py3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -177,33 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/python3.7m
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.7m-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.7m-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pyvenv-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

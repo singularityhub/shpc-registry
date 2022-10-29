@@ -4,24 +4,25 @@ name:  "quay.io/biocontainers/mummer4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer4/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mummer4/container.yaml"
-updated_at: "2022-10-29 05:37:40.469612"
+updated_at: "2022-10-29 07:41:26.684432"
 latest: "4.0.0rc1--pl5321h87f3376_3"
 container_url: "https://biocontainers.pro/tools/mummer4"
 aliases:
- - "annotate"
+ - "delta2vcf"
  - "combineMUMs"
  - "delta-filter"
- - "delta2vcf"
  - "dnadiff"
  - "exact-tandems"
  - "mummer"
  - "mummerplot"
  - "nucmer"
  - "promer"
+ - "repeat-match"
+ - "show-aligns"
 versions:
  - "4.0.0rc1--pl5321h87f3376_3"
 description: "shpc-registry automated BioContainers addition for mummer4"
-config: {"url": "https://biocontainers.pro/tools/mummer4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer4", "latest": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1"}, "tags": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1"}, "docker": "quay.io/biocontainers/mummer4", "aliases": {"annotate": "/usr/local/bin/annotate", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "delta2vcf": "/usr/local/bin/delta2vcf", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer"}}
+config: {"url": "https://biocontainers.pro/tools/mummer4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer4", "latest": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1"}, "tags": {"4.0.0rc1--pl5321h87f3376_3": "sha256:e9b44d62ae397a36ea380cd83a86b701be2ad18907be207c552f7d8b07f6d7d1"}, "docker": "quay.io/biocontainers/mummer4", "aliases": {"delta2vcf": "/usr/local/bin/delta2vcf", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer", "repeat-match": "/usr/local/bin/repeat-match", "show-aligns": "/usr/local/bin/show-aligns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer4.
@@ -107,12 +108,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### annotate
+#### delta2vcf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/delta2vcf
+$ podman run --it --rm --entrypoint /usr/local/bin/delta2vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delta2vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -131,15 +132,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/delta-filter
 $ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### delta2vcf
-
-```bash
-$ singularity exec <container> /usr/local/bin/delta2vcf
-$ podman run --it --rm --entrypoint /usr/local/bin/delta2vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/delta2vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +186,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nucmer   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/promer
 $ podman run --it --rm --entrypoint /usr/local/bin/promer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/promer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### repeat-match
+
+```bash
+$ singularity exec <container> /usr/local/bin/repeat-match
+$ podman run --it --rm --entrypoint /usr/local/bin/repeat-match   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/repeat-match   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### show-aligns
+
+```bash
+$ singularity exec <container> /usr/local/bin/show-aligns
+$ podman run --it --rm --entrypoint /usr/local/bin/show-aligns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/show-aligns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

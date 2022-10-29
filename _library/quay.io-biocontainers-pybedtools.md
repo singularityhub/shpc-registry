@@ -4,11 +4,12 @@ name:  "quay.io/biocontainers/pybedtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pybedtools/container.yaml"
-updated_at: "2022-10-29 05:37:36.138193"
+updated_at: "2022-10-29 07:41:23.483700"
 latest: "0.8.2--py36hb377018_1"
 container_url: "https://biocontainers.pro/tools/pybedtools"
 aliases:
- - "2to3-3.6"
+ - "f2py3.6"
+ - "shiftBed"
  - "annotateBed"
  - "bamToBed"
  - "bamToFastq"
@@ -17,11 +18,10 @@ aliases:
  - "bedToIgv"
  - "bedpeToBam"
  - "bedtools"
- - "closestBed"
 versions:
  - "0.8.2--py36hb377018_1"
 description: "shpc-registry automated BioContainers addition for pybedtools"
-config: {"url": "https://biocontainers.pro/tools/pybedtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedtools", "latest": {"0.8.2--py36hb377018_1": "sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d"}, "tags": {"0.8.2--py36hb377018_1": "sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d"}, "docker": "quay.io/biocontainers/pybedtools", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed"}}
+config: {"url": "https://biocontainers.pro/tools/pybedtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pybedtools", "latest": {"0.8.2--py36hb377018_1": "sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d"}, "tags": {"0.8.2--py36hb377018_1": "sha256:c12c4f27169252130d609775950d43c46d84dd41810a0dd460c5562caafdb94d"}, "docker": "quay.io/biocontainers/pybedtools", "aliases": {"f2py3.6": "/usr/local/bin/f2py3.6", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pybedtools.
@@ -107,12 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
+#### f2py3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### shiftBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/shiftBed
+$ podman run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -185,15 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/bedtools
 $ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### closestBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/closestBed
-$ podman run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

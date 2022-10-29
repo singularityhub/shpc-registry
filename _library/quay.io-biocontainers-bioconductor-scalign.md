@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scalign/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scalign/container.yaml"
-updated_at: "2022-10-29 05:45:10.928710"
+updated_at: "2022-10-29 07:47:00.054554"
 latest: "1.8.0--py36r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scalign"
 aliases:
@@ -16,10 +16,11 @@ aliases:
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "pyvenv"
 versions:
  - "1.8.0--py36r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scalign"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scalign", "latest": {"1.8.0--py36r41hdfd78af_0": "sha256:9b32646debdc89d4e39c976befd2e29c11afcf115fb42f91006bc511abddb923"}, "tags": {"1.8.0--py36r41hdfd78af_0": "sha256:9b32646debdc89d4e39c976befd2e29c11afcf115fb42f91006bc511abddb923"}, "docker": "quay.io/biocontainers/bioconductor-scalign", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scalign", "latest": {"1.8.0--py36r41hdfd78af_0": "sha256:9b32646debdc89d4e39c976befd2e29c11afcf115fb42f91006bc511abddb923"}, "tags": {"1.8.0--py36r41hdfd78af_0": "sha256:9b32646debdc89d4e39c976befd2e29c11afcf115fb42f91006bc511abddb923"}, "docker": "quay.io/biocontainers/bioconductor-scalign", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scalign.
@@ -174,6 +175,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

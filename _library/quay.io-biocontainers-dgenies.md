@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/dgenies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dgenies/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dgenies/container.yaml"
-updated_at: "2022-10-29 05:43:00.525006"
+updated_at: "2022-10-29 07:45:23.397463"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dgenies"
 aliases:
  - "dgenies"
- - "2to3-3.10"
- - "brotli"
- - "cwebp"
- - "dwebp"
- - "f2py3.10"
+ - "pbr"
  - "flask"
+ - "igzip"
+ - "pbunzip2"
+ - "pbzcat"
+ - "pbzip2"
+ - "pigz"
+ - "unpigz"
+ - "markdown_py"
  - "fonttools"
- - "gif2rgb"
- - "gif2webp"
- - "gifbuild"
 versions:
  - "1.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dgenies"
-config: {"url": "https://biocontainers.pro/tools/dgenies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dgenies", "latest": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "docker": "quay.io/biocontainers/dgenies", "aliases": {"dgenies": "/usr/local/bin/dgenies", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.10": "/usr/local/bin/f2py3.10", "flask": "/usr/local/bin/flask", "fonttools": "/usr/local/bin/fonttools", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp", "gifbuild": "/usr/local/bin/gifbuild"}}
+config: {"url": "https://biocontainers.pro/tools/dgenies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dgenies", "latest": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "docker": "quay.io/biocontainers/dgenies", "aliases": {"dgenies": "/usr/local/bin/dgenies", "pbr": "/usr/local/bin/pbr", "flask": "/usr/local/bin/flask", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "markdown_py": "/usr/local/bin/markdown_py", "fonttools": "/usr/local/bin/fonttools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dgenies.
@@ -117,48 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dgenies   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.10
+#### pbr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pbr
+$ podman run --it --rm --entrypoint /usr/local/bin/pbr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -171,39 +135,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <
 ```
 
 
+#### igzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/igzip
+$ podman run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/pbunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/pbzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/pbzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unpigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/unpigz
+$ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### markdown_py
+
+```bash
+$ singularity exec <container> /usr/local/bin/markdown_py
+$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### fonttools
 
 ```bash
 $ singularity exec <container> /usr/local/bin/fonttools
 $ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2rgb
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2webp
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2webp
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifbuild
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spades/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spades/container.yaml"
-updated_at: "2022-10-29 05:38:27.412782"
+updated_at: "2022-10-29 07:42:01.382015"
 latest: "3.9.1--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/spades"
 aliases:
@@ -14,26 +14,27 @@ aliases:
  - "dipspades.py"
  - "hammer"
  - "ionhammer"
- - "scaffold_correction"
- - "spades"
- - "2to3-3.5"
- - "idle3.5"
  - "metaspades.py"
  - "plasmidspades.py"
+ - "rnaspades.py"
+ - "scaffold_correction"
+ - "spades"
+ - "spades.py"
+ - "spades_init.py"
+ - "truspades.py"
+ - "2to3-3.5"
+ - "idle3.5"
  - "pydoc3.5"
  - "python3.5"
  - "python3.5-config"
  - "python3.5m"
  - "python3.5m-config"
  - "pyvenv-3.5"
+ - "pyvenv"
 versions:
- - "3.15.0--h633aebb_0"
- - "3.15.2--h95f258a_1"
- - "3.15.3--h95f258a_0"
- - "3.15.4--h95f258a_0"
  - "3.9.1--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for spades"
-config: {"docker": "quay.io/biocontainers/spades", "url": "https://biocontainers.pro/tools/spades", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spades", "latest": {"3.9.1--h9ee0642_1": "sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab"}, "tags": {"3.15.0--h633aebb_0": "sha256:4cc7e41f53d3effb25b59afedc3fbd2d3e08fff449a507ecfa6731ff6d81ff79", "3.15.2--h95f258a_1": "sha256:250657af71d37fafdff81af644e92bf84485d4d9b6894f58ff84efdc1a6ec9eb", "3.15.3--h95f258a_0": "sha256:a5cb2eb2740fdba4902e541c50307c7958b3b0824be2904323319eb275b256c7", "3.15.4--h95f258a_0": "sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1", "3.9.1--h9ee0642_1": "sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab"}, "aliases": {"bwa-spades": "/usr/local/bin/bwa-spades", "corrector": "/usr/local/bin/corrector", "dipspades": "/usr/local/bin/dipspades", "dipspades.py": "/usr/local/bin/dipspades.py", "hammer": "/usr/local/bin/hammer", "ionhammer": "/usr/local/bin/ionhammer", "scaffold_correction": "/usr/local/bin/scaffold_correction", "spades": "/usr/local/bin/spades", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
+config: {"url": "https://biocontainers.pro/tools/spades", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spades", "latest": {"3.9.1--h9ee0642_1": "sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab"}, "tags": {"3.9.1--h9ee0642_1": "sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab"}, "docker": "quay.io/biocontainers/spades", "aliases": {"bwa-spades": "/usr/local/bin/bwa-spades", "corrector": "/usr/local/bin/corrector", "dipspades": "/usr/local/bin/dipspades", "dipspades.py": "/usr/local/bin/dipspades.py", "hammer": "/usr/local/bin/hammer", "ionhammer": "/usr/local/bin/ionhammer", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "scaffold_correction": "/usr/local/bin/scaffold_correction", "spades": "/usr/local/bin/spades", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "truspades.py": "/usr/local/bin/truspades.py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spades.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/spades
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spades:3.15.0--h633aebb_0
+$ shpc install quay.io/biocontainers/spades:3.9.1--h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spades/3.15.0--h633aebb_0
-$ module help quay.io/biocontainers/spades/3.15.0--h633aebb_0
+$ module load quay.io/biocontainers/spades/3.9.1--h9ee0642_1
+$ module help quay.io/biocontainers/spades/3.9.1--h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
@@ -173,6 +174,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ionhammer   -v ${PWD} -w ${PW
 ```
 
 
+#### metaspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/metaspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/metaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plasmidspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/plasmidspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plasmidspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plasmidspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rnaspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rnaspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rnaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rnaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### scaffold_correction
 
 ```bash
@@ -191,6 +219,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/spades   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### spades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/spades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/spades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### spades_init.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/spades_init.py
+$ podman run --it --rm --entrypoint /usr/local/bin/spades_init.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spades_init.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### truspades.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/truspades.py
+$ podman run --it --rm --entrypoint /usr/local/bin/truspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/truspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.5
 
 ```bash
@@ -206,24 +261,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/idle3.5
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### metaspades.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/metaspades.py
-$ podman run --it --rm --entrypoint /usr/local/bin/metaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/metaspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### plasmidspades.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/plasmidspades.py
-$ podman run --it --rm --entrypoint /usr/local/bin/plasmidspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/plasmidspades.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -278,6 +315,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.5
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

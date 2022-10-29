@@ -4,10 +4,13 @@ name:  "quay.io/biocontainers/medaka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/medaka/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/medaka/container.yaml"
-updated_at: "2022-10-29 05:57:49.581439"
+updated_at: "2022-10-29 07:56:15.440699"
 latest: "1.2.2--py36hbcc4abb_0"
 container_url: "https://biocontainers.pro/tools/medaka"
 aliases:
+ - "check_compression"
+ - "compress_fast5"
+ - "fast5_subset"
  - "hdf2tf.py"
  - "medaka"
  - "medaka_consensus"
@@ -17,20 +20,23 @@ aliases:
  - "medaka_variant"
  - "medaka_version_report"
  - "mini_align"
- - "2to3-3.6"
- - "ace2sam"
- - "bcftools"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "chardetect"
- - "check_compression"
- - "color-chrs.pl"
- - "compress_fast5"
+ - "multi_to_single_fast5"
+ - "single_to_multi_fast5"
+ - "whatshap"
+ - "minimap2.py"
+ - "estimator_ckpt_converter"
+ - "google-oauthlib-tool"
+ - "tar"
+ - "igzip"
+ - "gff2gff.py"
+ - "tf_upgrade_v2"
+ - "tflite_convert"
+ - "saved_model_cli"
+ - "toco"
 versions:
  - "1.2.2--py36hbcc4abb_0"
 description: "shpc-registry automated BioContainers addition for medaka"
-config: {"url": "https://biocontainers.pro/tools/medaka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for medaka", "latest": {"1.2.2--py36hbcc4abb_0": "sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8"}, "tags": {"1.2.2--py36hbcc4abb_0": "sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8"}, "docker": "quay.io/biocontainers/medaka", "aliases": {"hdf2tf.py": "/usr/local/bin/hdf2tf.py", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "chardetect": "/usr/local/bin/chardetect", "check_compression": "/usr/local/bin/check_compression", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "compress_fast5": "/usr/local/bin/compress_fast5"}}
+config: {"url": "https://biocontainers.pro/tools/medaka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for medaka", "latest": {"1.2.2--py36hbcc4abb_0": "sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8"}, "tags": {"1.2.2--py36hbcc4abb_0": "sha256:0962cbe886fde7a0bf162be544a0ebea035485ab759517754ea1a986c08e08d8"}, "docker": "quay.io/biocontainers/medaka", "aliases": {"check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "fast5_subset": "/usr/local/bin/fast5_subset", "hdf2tf.py": "/usr/local/bin/hdf2tf.py", "medaka": "/usr/local/bin/medaka", "medaka_consensus": "/usr/local/bin/medaka_consensus", "medaka_counts": "/usr/local/bin/medaka_counts", "medaka_data_path": "/usr/local/bin/medaka_data_path", "medaka_haploid_variant": "/usr/local/bin/medaka_haploid_variant", "medaka_variant": "/usr/local/bin/medaka_variant", "medaka_version_report": "/usr/local/bin/medaka_version_report", "mini_align": "/usr/local/bin/mini_align", "multi_to_single_fast5": "/usr/local/bin/multi_to_single_fast5", "single_to_multi_fast5": "/usr/local/bin/single_to_multi_fast5", "whatshap": "/usr/local/bin/whatshap", "minimap2.py": "/usr/local/bin/minimap2.py", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "tar": "/usr/local/bin/tar", "igzip": "/usr/local/bin/igzip", "gff2gff.py": "/usr/local/bin/gff2gff.py", "tf_upgrade_v2": "/usr/local/bin/tf_upgrade_v2", "tflite_convert": "/usr/local/bin/tflite_convert", "saved_model_cli": "/usr/local/bin/saved_model_cli", "toco": "/usr/local/bin/toco"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/medaka.
@@ -116,6 +122,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### check_compression
+
+```bash
+$ singularity exec <container> /usr/local/bin/check_compression
+$ podman run --it --rm --entrypoint /usr/local/bin/check_compression   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/check_compression   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compress_fast5
+
+```bash
+$ singularity exec <container> /usr/local/bin/compress_fast5
+$ podman run --it --rm --entrypoint /usr/local/bin/compress_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compress_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fast5_subset
+
+```bash
+$ singularity exec <container> /usr/local/bin/fast5_subset
+$ podman run --it --rm --entrypoint /usr/local/bin/fast5_subset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fast5_subset   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### hdf2tf.py
 
 ```bash
@@ -197,93 +230,120 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mini_align   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.6
+#### multi_to_single_fast5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/multi_to_single_fast5
+$ podman run --it --rm --entrypoint /usr/local/bin/multi_to_single_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/multi_to_single_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### single_to_multi_fast5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/single_to_multi_fast5
+$ podman run --it --rm --entrypoint /usr/local/bin/single_to_multi_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/single_to_multi_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcftools
+#### whatshap
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/whatshap
+$ podman run --it --rm --entrypoint /usr/local/bin/whatshap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/whatshap   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### minimap2.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/minimap2.py
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### estimator_ckpt_converter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/estimator_ckpt_converter
+$ podman run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### google-oauthlib-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/google-oauthlib-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### chardetect
+#### tar
 
 ```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tar
+$ podman run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### check_compression
+#### igzip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/check_compression
-$ podman run --it --rm --entrypoint /usr/local/bin/check_compression   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/check_compression   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/igzip
+$ podman run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### color-chrs.pl
+#### gff2gff.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/color-chrs.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gff2gff.py
+$ podman run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### compress_fast5
+#### tf_upgrade_v2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/compress_fast5
-$ podman run --it --rm --entrypoint /usr/local/bin/compress_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/compress_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tf_upgrade_v2
+$ podman run --it --rm --entrypoint /usr/local/bin/tf_upgrade_v2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tf_upgrade_v2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tflite_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/tflite_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/tflite_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tflite_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### saved_model_cli
+
+```bash
+$ singularity exec <container> /usr/local/bin/saved_model_cli
+$ podman run --it --rm --entrypoint /usr/local/bin/saved_model_cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/saved_model_cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### toco
+
+```bash
+$ singularity exec <container> /usr/local/bin/toco
+$ podman run --it --rm --entrypoint /usr/local/bin/toco   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/toco   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

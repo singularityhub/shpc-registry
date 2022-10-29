@@ -4,22 +4,22 @@ name:  "quay.io/biocontainers/pronto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pronto/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pronto/container.yaml"
-updated_at: "2022-10-29 05:48:13.348900"
+updated_at: "2022-10-29 07:49:14.338990"
 latest: "2.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pronto"
 aliases:
- - "2to3-3.10"
+ - "x86_64-conda_cos7-linux-gnu-ld"
  - "chardetect"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
- - "x86_64-conda_cos7-linux-gnu-ld"
 versions:
  - "2.5.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pronto"
-config: {"url": "https://biocontainers.pro/tools/pronto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pronto", "latest": {"2.5.1--pyhdfd78af_0": "sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6"}, "tags": {"2.5.1--pyhdfd78af_0": "sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6"}, "docker": "quay.io/biocontainers/pronto", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "chardetect": "/usr/local/bin/chardetect", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld"}}
+config: {"url": "https://biocontainers.pro/tools/pronto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pronto", "latest": {"2.5.1--pyhdfd78af_0": "sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6"}, "tags": {"2.5.1--pyhdfd78af_0": "sha256:639b5301b7af8ebac01c28673852f49df0c565fdfe63232824a25af2bc9702d6"}, "docker": "quay.io/biocontainers/pronto", "aliases": {"x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "chardetect": "/usr/local/bin/chardetect", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pronto.
@@ -105,12 +105,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### x86_64-conda_cos7-linux-gnu-ld
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -120,6 +120,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/chardetect
 $ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -165,15 +174,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### x86_64-conda_cos7-linux-gnu-ld
-
-```bash
-$ singularity exec <container> /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
-$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

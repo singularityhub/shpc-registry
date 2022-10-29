@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/livekraken"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/livekraken/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/livekraken/container.yaml"
-updated_at: "2022-10-29 05:36:39.747422"
+updated_at: "2022-10-29 07:40:41.937974"
 latest: "1.0--pl5321h2df963e_8"
 container_url: "https://biocontainers.pro/tools/livekraken"
 aliases:
@@ -15,17 +15,19 @@ aliases:
  - "livekraken-report"
  - "livekraken-translate"
  - "livekraken_sankey_diagram.py"
+ - "jellyfish"
  - "2to3-3.10"
  - "idle3.10"
- - "jellyfish"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.0--pl5321h2df963e_8"
 description: "shpc-registry automated BioContainers addition for livekraken"
-config: {"url": "https://biocontainers.pro/tools/livekraken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for livekraken", "latest": {"1.0--pl5321h2df963e_8": "sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b"}, "tags": {"1.0--pl5321h2df963e_8": "sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b"}, "docker": "quay.io/biocontainers/livekraken", "aliases": {"livekraken": "/usr/local/bin/livekraken", "livekraken-build": "/usr/local/bin/livekraken-build", "livekraken-filter": "/usr/local/bin/livekraken-filter", "livekraken-mpa-report": "/usr/local/bin/livekraken-mpa-report", "livekraken-report": "/usr/local/bin/livekraken-report", "livekraken-translate": "/usr/local/bin/livekraken-translate", "livekraken_sankey_diagram.py": "/usr/local/bin/livekraken_sankey_diagram.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "jellyfish": "/usr/local/bin/jellyfish", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/livekraken", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for livekraken", "latest": {"1.0--pl5321h2df963e_8": "sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b"}, "tags": {"1.0--pl5321h2df963e_8": "sha256:99864bf327e18d570639a46b10413f60c59719c72320dd16fe342dbf1b37008b"}, "docker": "quay.io/biocontainers/livekraken", "aliases": {"livekraken": "/usr/local/bin/livekraken", "livekraken-build": "/usr/local/bin/livekraken-build", "livekraken-filter": "/usr/local/bin/livekraken-filter", "livekraken-mpa-report": "/usr/local/bin/livekraken-mpa-report", "livekraken-report": "/usr/local/bin/livekraken-report", "livekraken-translate": "/usr/local/bin/livekraken-translate", "livekraken_sankey_diagram.py": "/usr/local/bin/livekraken_sankey_diagram.py", "jellyfish": "/usr/local/bin/jellyfish", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/livekraken.
@@ -174,6 +176,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/livekraken_sankey_diagram.py 
 ```
 
 
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.10
 
 ```bash
@@ -189,15 +200,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/idle3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jellyfish
-
-```bash
-$ singularity exec <container> /usr/local/bin/jellyfish
-$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -234,6 +236,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

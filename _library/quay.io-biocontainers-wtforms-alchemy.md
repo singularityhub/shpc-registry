@@ -4,23 +4,24 @@ name:  "quay.io/biocontainers/wtforms-alchemy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wtforms-alchemy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wtforms-alchemy/container.yaml"
-updated_at: "2022-10-29 05:36:34.923076"
+updated_at: "2022-10-29 07:40:38.310719"
 latest: "0.16.9--py_0"
 container_url: "https://biocontainers.pro/tools/wtforms-alchemy"
 aliases:
+ - "pybabel"
  - "2to3-3.6"
  - "idle3.6"
- - "pybabel"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "pyvenv"
 versions:
  - "0.16.9--py_0"
 description: "shpc-registry automated BioContainers addition for wtforms-alchemy"
-config: {"url": "https://biocontainers.pro/tools/wtforms-alchemy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtforms-alchemy", "latest": {"0.16.9--py_0": "sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb"}, "tags": {"0.16.9--py_0": "sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb"}, "docker": "quay.io/biocontainers/wtforms-alchemy", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pybabel": "/usr/local/bin/pybabel", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/wtforms-alchemy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wtforms-alchemy", "latest": {"0.16.9--py_0": "sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb"}, "tags": {"0.16.9--py_0": "sha256:579af0fc46df6f310566c5632771e77ffb54ffb9e6737d40da5ef35576e524bb"}, "docker": "quay.io/biocontainers/wtforms-alchemy", "aliases": {"pybabel": "/usr/local/bin/pybabel", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wtforms-alchemy.
@@ -106,6 +107,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### pybabel
+
+```bash
+$ singularity exec <container> /usr/local/bin/pybabel
+$ podman run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.6
 
 ```bash
@@ -121,15 +131,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/idle3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pybabel
-
-```bash
-$ singularity exec <container> /usr/local/bin/pybabel
-$ podman run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -184,6 +185,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

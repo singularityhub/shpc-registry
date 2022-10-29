@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/komb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/komb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/komb/container.yaml"
-updated_at: "2022-10-29 05:50:03.187459"
+updated_at: "2022-10-29 07:50:35.348704"
 latest: "1.0--py37h595c7a6_5"
 container_url: "https://biocontainers.pro/tools/komb"
 aliases:
  - "Bifrost"
  - "abyss-db-csv"
  - "komb"
- - "2to3-3.7"
+ - "abyss-bloom-dbg"
+ - "abyss-bloom-dist.mk.Makefile"
+ - "abyss-db-txt"
+ - "abyss-dida"
+ - "abyss-paired-dbg"
+ - "abyss-paired-dbg-mpi"
+ - "abyss-pe.Makefile"
+ - "abyss-sealer"
  - "ABYSS"
  - "ABYSS-P"
- - "AdjList"
- - "Consensus"
- - "DAssembler"
- - "DistanceEst"
- - "DistanceEst-ssq"
- - "KAligner"
- - "MergeContigs"
 versions:
  - "1.0--py37h595c7a6_5"
 description: "shpc-registry automated BioContainers addition for komb"
-config: {"url": "https://biocontainers.pro/tools/komb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for komb", "latest": {"1.0--py37h595c7a6_5": "sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b"}, "tags": {"1.0--py37h595c7a6_5": "sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b"}, "docker": "quay.io/biocontainers/komb", "aliases": {"Bifrost": "/usr/local/bin/Bifrost", "abyss-db-csv": "/usr/local/bin/abyss-db-csv", "komb": "/usr/local/bin/komb", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus", "DAssembler": "/usr/local/bin/DAssembler", "DistanceEst": "/usr/local/bin/DistanceEst", "DistanceEst-ssq": "/usr/local/bin/DistanceEst-ssq", "KAligner": "/usr/local/bin/KAligner", "MergeContigs": "/usr/local/bin/MergeContigs"}}
+config: {"url": "https://biocontainers.pro/tools/komb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for komb", "latest": {"1.0--py37h595c7a6_5": "sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b"}, "tags": {"1.0--py37h595c7a6_5": "sha256:9362a60c7a27bd00c04a7d599660e43cd4a3acb45d9f56306ee3248fe1a8707b"}, "docker": "quay.io/biocontainers/komb", "aliases": {"Bifrost": "/usr/local/bin/Bifrost", "abyss-db-csv": "/usr/local/bin/abyss-db-csv", "komb": "/usr/local/bin/komb", "abyss-bloom-dbg": "/usr/local/bin/abyss-bloom-dbg", "abyss-bloom-dist.mk.Makefile": "/usr/local/bin/abyss-bloom-dist.mk.Makefile", "abyss-db-txt": "/usr/local/bin/abyss-db-txt", "abyss-dida": "/usr/local/bin/abyss-dida", "abyss-paired-dbg": "/usr/local/bin/abyss-paired-dbg", "abyss-paired-dbg-mpi": "/usr/local/bin/abyss-paired-dbg-mpi", "abyss-pe.Makefile": "/usr/local/bin/abyss-pe.Makefile", "abyss-sealer": "/usr/local/bin/abyss-sealer", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/komb.
@@ -137,12 +137,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/komb   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.7
+#### abyss-bloom-dbg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/abyss-bloom-dbg
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-bloom-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-bloom-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-bloom-dist.mk.Makefile
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-bloom-dist.mk.Makefile
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-bloom-dist.mk.Makefile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-bloom-dist.mk.Makefile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-db-txt
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-db-txt
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-db-txt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-db-txt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-dida
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-dida
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-dida   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-dida   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-paired-dbg
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-paired-dbg
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-paired-dbg-mpi
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-paired-dbg-mpi
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg-mpi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg-mpi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-pe.Makefile
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-pe.Makefile
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-pe.Makefile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-pe.Makefile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-sealer
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-sealer
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-sealer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-sealer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -161,69 +224,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/ABYSS-P
 $ podman run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### AdjList
-
-```bash
-$ singularity exec <container> /usr/local/bin/AdjList
-$ podman run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### Consensus
-
-```bash
-$ singularity exec <container> /usr/local/bin/Consensus
-$ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DAssembler
-
-```bash
-$ singularity exec <container> /usr/local/bin/DAssembler
-$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DistanceEst
-
-```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DistanceEst-ssq
-
-```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst-ssq
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### KAligner
-
-```bash
-$ singularity exec <container> /usr/local/bin/KAligner
-$ podman run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### MergeContigs
-
-```bash
-$ singularity exec <container> /usr/local/bin/MergeContigs
-$ podman run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

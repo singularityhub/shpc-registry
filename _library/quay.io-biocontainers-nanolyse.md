@@ -4,17 +4,22 @@ name:  "quay.io/biocontainers/nanolyse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanolyse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanolyse/container.yaml"
-updated_at: "2022-10-29 05:54:05.123206"
+updated_at: "2022-10-29 07:53:33.345157"
 latest: "1.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/nanolyse"
 aliases:
  - "NanoLyse"
- - "f2py3.8"
  - "minimap2.py"
+ - "f2py3.8"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.2.0--py_0"
 description: "shpc-registry automated BioContainers addition for nanolyse"
-config: {"url": "https://biocontainers.pro/tools/nanolyse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanolyse", "latest": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "tags": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "docker": "quay.io/biocontainers/nanolyse", "aliases": {"NanoLyse": "/usr/local/bin/NanoLyse", "f2py3.8": "/usr/local/bin/f2py3.8", "minimap2.py": "/usr/local/bin/minimap2.py"}}
+config: {"url": "https://biocontainers.pro/tools/nanolyse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanolyse", "latest": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "tags": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "docker": "quay.io/biocontainers/nanolyse", "aliases": {"NanoLyse": "/usr/local/bin/NanoLyse", "minimap2.py": "/usr/local/bin/minimap2.py", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanolyse.
@@ -109,6 +114,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/NanoLyse   -v ${PWD} -w ${PWD
 ```
 
 
+#### minimap2.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/minimap2.py
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### f2py3.8
 
 ```bash
@@ -118,12 +132,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD}
 ```
 
 
-#### minimap2.py
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/minimap2.py
-$ podman run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

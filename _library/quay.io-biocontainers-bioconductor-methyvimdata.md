@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-methyvimdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methyvimdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methyvimdata/container.yaml"
-updated_at: "2022-10-29 05:30:58.927853"
+updated_at: "2022-10-29 07:36:32.107885"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methyvimdata"
 aliases:
+ - ".bioconductor-methyvimdata-post-link.sh"
+ - ".bioconductor-methyvimdata-pre-unlink.sh"
+ - "gio-launch-desktop"
  - "c89"
  - "c99"
- - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methyvimdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methyvimdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyvimdata", "latest": {"1.8.0--r36_0": "sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634"}, "tags": {"1.8.0--r36_0": "sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634"}, "docker": "quay.io/biocontainers/bioconductor-methyvimdata", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methyvimdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyvimdata", "latest": {"1.8.0--r36_0": "sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634"}, "tags": {"1.8.0--r36_0": "sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634"}, "docker": "quay.io/biocontainers/bioconductor-methyvimdata", "aliases": {".bioconductor-methyvimdata-post-link.sh": "/usr/local/bin/.bioconductor-methyvimdata-post-link.sh", ".bioconductor-methyvimdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-methyvimdata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methyvimdata.
@@ -100,6 +102,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-methyvimdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-methyvimdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-methyvimdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-methyvimdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-methyvimdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-methyvimdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-methyvimdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-methyvimdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### c89
 
 ```bash
@@ -115,15 +144,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/c99
 $ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

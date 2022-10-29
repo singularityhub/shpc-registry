@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/oncopipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncopipe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/oncopipe/container.yaml"
-updated_at: "2022-10-29 05:52:00.576341"
+updated_at: "2022-10-29 07:52:01.668613"
 latest: "1.0.8--py_0"
 container_url: "https://biocontainers.pro/tools/oncopipe"
 aliases:
- - "2to3-3.8"
- - "acyclic"
- - "bcomps"
- - "ccomps"
- - "chardetect"
- - "circo"
- - "cluster"
+ - "snakemake"
+ - "snakemake-bash-completion"
+ - "jp.py"
  - "cxpm"
- - "dijkstra"
- - "dot"
+ - "sxpm"
+ - "pyrsa-decrypt"
+ - "pyrsa-encrypt"
+ - "pyrsa-keygen"
+ - "pyrsa-priv2pub"
+ - "pyrsa-sign"
 versions:
  - "1.0.8--py_0"
 description: "shpc-registry automated BioContainers addition for oncopipe"
-config: {"url": "https://biocontainers.pro/tools/oncopipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncopipe", "latest": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "tags": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "docker": "quay.io/biocontainers/oncopipe", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "chardetect": "/usr/local/bin/chardetect", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "cxpm": "/usr/local/bin/cxpm", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot"}}
+config: {"url": "https://biocontainers.pro/tools/oncopipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncopipe", "latest": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "tags": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "docker": "quay.io/biocontainers/oncopipe", "aliases": {"snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jp.py": "/usr/local/bin/jp.py", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub", "pyrsa-sign": "/usr/local/bin/pyrsa-sign"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oncopipe.
@@ -107,66 +107,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.8
+#### snakemake
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snakemake
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### snakemake-bash-completion
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snakemake-bash-completion
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### jp.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ccomps
-
-```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### circo
-
-```bash
-$ singularity exec <container> /usr/local/bin/circo
-$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cluster
-
-```bash
-$ singularity exec <container> /usr/local/bin/cluster
-$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jp.py
+$ podman run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -179,21 +143,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### dijkstra
+#### sxpm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dijkstra
-$ podman run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sxpm
+$ podman run --it --rm --entrypoint /usr/local/bin/sxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dot
+#### pyrsa-decrypt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dot
-$ podman run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyrsa-decrypt
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-encrypt
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-encrypt
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-keygen
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-priv2pub
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-priv2pub
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-priv2pub   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-priv2pub   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-sign
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-sign
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-sign   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-sign   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

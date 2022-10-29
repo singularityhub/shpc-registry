@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-optparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-optparse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-optparse/container.yaml"
-updated_at: "2022-10-29 05:38:03.589326"
+updated_at: "2022-10-29 07:41:43.841640"
 latest: "1.6.0"
 container_url: "https://biocontainers.pro/tools/r-optparse"
 aliases:
@@ -13,10 +13,13 @@ aliases:
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
+ - "c89"
+ - "c99"
 versions:
  - "1.6.0"
 description: "shpc-registry automated BioContainers addition for r-optparse"
-config: {"url": "https://biocontainers.pro/tools/r-optparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-optparse", "latest": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "tags": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "docker": "quay.io/biocontainers/r-optparse", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-optparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-optparse", "latest": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "tags": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "docker": "quay.io/biocontainers/r-optparse", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-optparse.
@@ -144,6 +147,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.9-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

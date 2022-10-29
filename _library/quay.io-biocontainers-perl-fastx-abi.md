@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/perl-fastx-abi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-fastx-abi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-fastx-abi/container.yaml"
-updated_at: "2022-10-29 05:42:55.144490"
+updated_at: "2022-10-29 07:45:19.341239"
 latest: "1.0.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-fastx-abi"
 aliases:
  - "abi2fq"
  - "mergeabi"
  - "stripabitags"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.0.1--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-fastx-abi"
-config: {"url": "https://biocontainers.pro/tools/perl-fastx-abi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-fastx-abi", "latest": {"1.0.1--pl5321hdfd78af_1": "sha256:15ec29cca51e7eb634c5e964362eddf0e7119bdf34b8eb12381ad5c8fd9cf891"}, "tags": {"1.0.1--pl5321hdfd78af_1": "sha256:15ec29cca51e7eb634c5e964362eddf0e7119bdf34b8eb12381ad5c8fd9cf891"}, "docker": "quay.io/biocontainers/perl-fastx-abi", "aliases": {"abi2fq": "/usr/local/bin/abi2fq", "mergeabi": "/usr/local/bin/mergeabi", "stripabitags": "/usr/local/bin/stripabitags"}}
+config: {"url": "https://biocontainers.pro/tools/perl-fastx-abi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-fastx-abi", "latest": {"1.0.1--pl5321hdfd78af_1": "sha256:15ec29cca51e7eb634c5e964362eddf0e7119bdf34b8eb12381ad5c8fd9cf891"}, "tags": {"1.0.1--pl5321hdfd78af_1": "sha256:15ec29cca51e7eb634c5e964362eddf0e7119bdf34b8eb12381ad5c8fd9cf891"}, "docker": "quay.io/biocontainers/perl-fastx-abi", "aliases": {"abi2fq": "/usr/local/bin/abi2fq", "mergeabi": "/usr/local/bin/mergeabi", "stripabitags": "/usr/local/bin/stripabitags", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-fastx-abi.
@@ -124,6 +126,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergeabi   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/stripabitags
 $ podman run --it --rm --entrypoint /usr/local/bin/stripabitags   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/stripabitags   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

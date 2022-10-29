@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emirge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emirge/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/emirge/container.yaml"
-updated_at: "2022-10-29 05:38:44.685349"
+updated_at: "2022-10-29 07:42:14.478144"
 latest: "0.61.1--py27h30f897e_7"
 container_url: "https://biocontainers.pro/tools/emirge"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "emirge_amplicon.py"
  - "emirge_makedb.py"
  - "emirge_rename_fasta.py"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie"
+ - "vsearch"
  - "bowtie-align-l"
  - "bowtie-align-s"
- - "bowtie-build"
  - "bowtie-build-l"
  - "bowtie-build-s"
+ - "bowtie-inspect-l"
+ - "bowtie-inspect-s"
+ - "bowtie"
+ - "bowtie-build"
  - "bowtie-inspect"
 versions:
  - "0.61.1--py27h30f897e_7"
 description: "shpc-registry automated BioContainers addition for emirge"
-config: {"url": "https://biocontainers.pro/tools/emirge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emirge", "latest": {"0.61.1--py27h30f897e_7": "sha256:45f2a17f66ba80c76dc3616d60154912b7a065fe37153749e06d4cb96cbfeb45"}, "tags": {"0.61.1--py27h30f897e_7": "sha256:45f2a17f66ba80c76dc3616d60154912b7a065fe37153749e06d4cb96cbfeb45"}, "docker": "quay.io/biocontainers/emirge", "aliases": {"emirge.py": "/usr/local/bin/emirge.py", "emirge_amplicon.py": "/usr/local/bin/emirge_amplicon.py", "emirge_makedb.py": "/usr/local/bin/emirge_makedb.py", "emirge_rename_fasta.py": "/usr/local/bin/emirge_rename_fasta.py", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie": "/usr/local/bin/bowtie", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect": "/usr/local/bin/bowtie-inspect"}}
+config: {"url": "https://biocontainers.pro/tools/emirge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emirge", "latest": {"0.61.1--py27h30f897e_7": "sha256:45f2a17f66ba80c76dc3616d60154912b7a065fe37153749e06d4cb96cbfeb45"}, "tags": {"0.61.1--py27h30f897e_7": "sha256:45f2a17f66ba80c76dc3616d60154912b7a065fe37153749e06d4cb96cbfeb45"}, "docker": "quay.io/biocontainers/emirge", "aliases": {"emirge.py": "/usr/local/bin/emirge.py", "emirge_amplicon.py": "/usr/local/bin/emirge_amplicon.py", "emirge_makedb.py": "/usr/local/bin/emirge_makedb.py", "emirge_rename_fasta.py": "/usr/local/bin/emirge_rename_fasta.py", "vsearch": "/usr/local/bin/vsearch", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s", "bowtie": "/usr/local/bin/bowtie", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-inspect": "/usr/local/bin/bowtie-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emirge.
@@ -147,39 +147,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/emirge_rename_fasta.py   -v $
 ```
 
 
-#### ace2sam
+#### vsearch
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vsearch
+$ podman run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -201,15 +174,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie-align-s   -v ${PWD} -w
 ```
 
 
-#### bowtie-build
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie-build
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-build   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-build   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bowtie-build-l
 
 ```bash
@@ -225,6 +189,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie-build-l   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/bowtie-build-s
 $ podman run --it --rm --entrypoint /usr/local/bin/bowtie-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bowtie-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-inspect-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-inspect-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-inspect-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-inspect-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-build
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-build   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

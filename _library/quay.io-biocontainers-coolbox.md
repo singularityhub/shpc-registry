@@ -4,27 +4,30 @@ name:  "quay.io/biocontainers/coolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/coolbox/container.yaml"
-updated_at: "2022-10-29 05:42:56.205026"
+updated_at: "2022-10-29 07:45:20.153807"
 latest: "0.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/coolbox"
 aliases:
  - "coolbox"
+ - "jupyter-console"
+ - "jupyter-qtconsole"
  - "jupyter-server"
  - "voila"
- - "2to3-3.8"
- - "ace2sam"
- - "aserver"
- - "assistant"
+ - "wsdump.py"
+ - "cooler"
  - "bam2pairs"
- - "bgzip"
- - "blast2sam.pl"
- - "bokeh"
- - "bowtie2sam.pl"
- - "canbusutil"
+ - "column_remover.pl"
+ - "duplicate_header_remover.pl"
+ - "fragment_4dnpairs.pl"
+ - "juicer_shortform2pairs.pl"
+ - "merge-pairs.sh"
+ - "merged_nodup2pairs.pl"
+ - "old_merged_nodup2pairs.pl"
+ - "pairix"
 versions:
  - "0.3.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for coolbox"
-config: {"url": "https://biocontainers.pro/tools/coolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coolbox", "latest": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "tags": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "docker": "quay.io/biocontainers/coolbox", "aliases": {"coolbox": "/usr/local/bin/coolbox", "jupyter-server": "/usr/local/bin/jupyter-server", "voila": "/usr/local/bin/voila", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ace2sam": "/usr/local/bin/ace2sam", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bam2pairs": "/usr/local/bin/bam2pairs", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bokeh": "/usr/local/bin/bokeh", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "canbusutil": "/usr/local/bin/canbusutil"}}
+config: {"url": "https://biocontainers.pro/tools/coolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coolbox", "latest": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "tags": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "docker": "quay.io/biocontainers/coolbox", "aliases": {"coolbox": "/usr/local/bin/coolbox", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "jupyter-server": "/usr/local/bin/jupyter-server", "voila": "/usr/local/bin/voila", "wsdump.py": "/usr/local/bin/wsdump.py", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coolbox.
@@ -119,6 +122,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/coolbox   -v ${PWD} -w ${PWD}
 ```
 
 
+#### jupyter-console
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-console
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-console   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-console   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-qtconsole
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-qtconsole
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-qtconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-qtconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### jupyter-server
 
 ```bash
@@ -137,39 +158,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/voila   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.8
+#### wsdump.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wsdump.py
+$ podman run --it --rm --entrypoint /usr/local/bin/wsdump.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wsdump.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### cooler
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### assistant
-
-```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cooler
+$ podman run --it --rm --entrypoint /usr/local/bin/cooler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cooler   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -182,48 +185,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PW
 ```
 
 
-#### bgzip
+#### column_remover.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/column_remover.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/column_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/column_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### duplicate_header_remover.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/duplicate_header_remover.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/duplicate_header_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/duplicate_header_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bokeh
+#### fragment_4dnpairs.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bokeh
-$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fragment_4dnpairs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fragment_4dnpairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fragment_4dnpairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### juicer_shortform2pairs.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/juicer_shortform2pairs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/juicer_shortform2pairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/juicer_shortform2pairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### merge-pairs.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/merge-pairs.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/merge-pairs.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/merge-pairs.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### merged_nodup2pairs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/merged_nodup2pairs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/merged_nodup2pairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/merged_nodup2pairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### old_merged_nodup2pairs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/old_merged_nodup2pairs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/old_merged_nodup2pairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/old_merged_nodup2pairs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pairix
+
+```bash
+$ singularity exec <container> /usr/local/bin/pairix
+$ podman run --it --rm --entrypoint /usr/local/bin/pairix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pairix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

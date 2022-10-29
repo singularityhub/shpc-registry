@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/deltabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deltabs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deltabs/container.yaml"
-updated_at: "2022-10-29 05:56:07.357796"
+updated_at: "2022-10-29 07:55:01.456018"
 latest: "0.1--2"
 container_url: "https://biocontainers.pro/tools/deltabs"
 aliases:
  - "buildCustomModels.pl"
  - "deltaBS.pl"
- - "2to3-3.7"
- - "SOAPsh.pl"
- - "ace.pl"
- - "acyclic"
- - "alimask"
- - "annotate"
+ - "giffilter"
+ - "gifsponge"
+ - "gifecho"
+ - "gifinto"
+ - "gdlib-config"
  - "bam2bedgraph"
- - "bamToGBrowse.pl"
+ - "bp_pairwise_kaks"
+ - "bp_find-blast-matches.pl"
+ - "t_coffee"
  - "baseml"
- - "basemlg"
 versions:
  - "0.1--2"
 description: "shpc-registry automated BioContainers addition for deltabs"
-config: {"url": "https://biocontainers.pro/tools/deltabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deltabs", "latest": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "tags": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "docker": "quay.io/biocontainers/deltabs", "aliases": {"buildCustomModels.pl": "/usr/local/bin/buildCustomModels.pl", "deltaBS.pl": "/usr/local/bin/deltaBS.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "alimask": "/usr/local/bin/alimask", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
+config: {"url": "https://biocontainers.pro/tools/deltabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deltabs", "latest": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "tags": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "docker": "quay.io/biocontainers/deltabs", "aliases": {"buildCustomModels.pl": "/usr/local/bin/buildCustomModels.pl", "deltaBS.pl": "/usr/local/bin/deltaBS.pl", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "gdlib-config": "/usr/local/bin/gdlib-config", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deltabs.
@@ -127,57 +127,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/deltaBS.pl   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.7
+#### giffilter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/giffilter
+$ podman run --it --rm --entrypoint /usr/local/bin/giffilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffilter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SOAPsh.pl
+#### gifsponge
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gifsponge
+$ podman run --it --rm --entrypoint /usr/local/bin/gifsponge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifsponge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace.pl
+#### gifecho
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gifecho
+$ podman run --it --rm --entrypoint /usr/local/bin/gifecho   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifecho   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### gifinto
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gifinto
+$ podman run --it --rm --entrypoint /usr/local/bin/gifinto   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifinto   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### gdlib-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdlib-config
+$ podman run --it --rm --entrypoint /usr/local/bin/gdlib-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdlib-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -190,12 +181,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w $
 ```
 
 
-#### bamToGBrowse.pl
+#### bp_pairwise_kaks
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_find-blast-matches.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_find-blast-matches.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### t_coffee
+
+```bash
+$ singularity exec <container> /usr/local/bin/t_coffee
+$ podman run --it --rm --entrypoint /usr/local/bin/t_coffee   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/t_coffee   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -205,15 +214,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/baseml
 $ podman run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### basemlg
-
-```bash
-$ singularity exec <container> /usr/local/bin/basemlg
-$ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

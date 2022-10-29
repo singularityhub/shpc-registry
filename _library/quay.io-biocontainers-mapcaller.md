@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/mapcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mapcaller/container.yaml"
-updated_at: "2022-10-29 05:31:15.042762"
+updated_at: "2022-10-29 07:36:43.731347"
 latest: "0.9.9.7--h9b50bf8_0"
 container_url: "https://biocontainers.pro/tools/mapcaller"
 aliases:
  - "MapCaller"
  - "bwt_index"
- - "2to3-3.7"
  - "f2py3.7"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
@@ -19,10 +19,11 @@ aliases:
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "0.9.9.7--h9b50bf8_0"
 description: "shpc-registry automated BioContainers addition for mapcaller"
-config: {"url": "https://biocontainers.pro/tools/mapcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapcaller", "latest": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce"}, "tags": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce"}, "docker": "quay.io/biocontainers/mapcaller", "aliases": {"MapCaller": "/usr/local/bin/MapCaller", "bwt_index": "/usr/local/bin/bwt_index", "2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/mapcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapcaller", "latest": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce"}, "tags": {"0.9.9.7--h9b50bf8_0": "sha256:c692fffa51b1ef8d39e6e9ca2da98dd8c8a77d47373fb663c81e5d64f944dbce"}, "docker": "quay.io/biocontainers/mapcaller", "aliases": {"MapCaller": "/usr/local/bin/MapCaller", "bwt_index": "/usr/local/bin/bwt_index", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapcaller.
@@ -126,21 +127,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwt_index   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +205,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

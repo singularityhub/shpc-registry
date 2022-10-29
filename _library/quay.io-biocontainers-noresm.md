@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/noresm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/noresm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/noresm/container.yaml"
-updated_at: "2022-10-29 05:33:19.971895"
+updated_at: "2022-10-29 07:38:15.288220"
 latest: "2.0.2--py38pl5321hbcac906_1"
 container_url: "https://biocontainers.pro/tools/noresm"
 aliases:
@@ -14,13 +14,18 @@ aliases:
  - "ar"
  - "as"
  - "c++filt"
+ - "ccmake"
+ - "cmake"
+ - "cpack"
  - "create_clone"
  - "create_newcase"
  - "create_test"
+ - "ctest"
  - "dirmngr"
  - "dirmngr-client"
  - "dumpsexp"
  - "dwp"
+ - "ed2k-link"
  - "edonr256-hash"
  - "edonr512-hash"
  - "elfedit"
@@ -47,6 +52,7 @@ aliases:
  - "h5pcc"
  - "h5perf"
  - "h5pfc"
+ - "has160-hash"
  - "hmac256"
  - "kbxutil"
  - "ksba-config"
@@ -55,7 +61,9 @@ aliases:
  - "ld.gold"
  - "libassuan-config"
  - "libgcrypt-config"
+ - "magnet-link"
  - "mpicalc"
+ - "nf-config"
  - "nm"
  - "npth-config"
  - "ntbtls-config"
@@ -66,6 +74,8 @@ aliases:
  - "query_testlists"
  - "ranlib"
  - "readelf"
+ - "rhash"
+ - "sfv-hash"
  - "size"
  - "strings"
  - "strip"
@@ -81,22 +91,25 @@ aliases:
  - "svnsync"
  - "svnversion"
  - "tcsh"
+ - "tiger-hash"
+ - "tth-hash"
  - "watchgnupg"
+ - "whirlpool-hash"
  - "yat2m"
- - "ccmake"
- - "cmake"
- - "cpack"
- - "ctest"
- - "db_archive"
- - "db_checkpoint"
+ - "mpichversion"
+ - "mpivars"
+ - "parkill"
+ - "hydra_nameserver"
+ - "hydra_persist"
+ - "hydra_pmi_proxy"
+ - "mpiexec.hydra"
  - "db_convert"
- - "db_deadlock"
- - "db_dump"
- - "db_hotbackup"
+ - "mpifort"
+ - "mpic++"
 versions:
  - "2.0.2--py38pl5321hbcac906_1"
 description: "shpc-registry automated BioContainers addition for noresm"
-config: {"url": "https://biocontainers.pro/tools/noresm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for noresm", "latest": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "tags": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "docker": "quay.io/biocontainers/noresm", "aliases": {"addr2line": "/usr/local/bin/addr2line", "apr-1-config": "/usr/local/bin/apr-1-config", "apu-1-config": "/usr/local/bin/apu-1-config", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "create_clone": "/usr/local/bin/create_clone", "create_newcase": "/usr/local/bin/create_newcase", "create_test": "/usr/local/bin/create_test", "dirmngr": "/usr/local/bin/dirmngr", "dirmngr-client": "/usr/local/bin/dirmngr-client", "dumpsexp": "/usr/local/bin/dumpsexp", "dwp": "/usr/local/bin/dwp", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "gpg": "/usr/local/bin/gpg", "gpg-agent": "/usr/local/bin/gpg-agent", "gpg-card": "/usr/local/bin/gpg-card", "gpg-connect-agent": "/usr/local/bin/gpg-connect-agent", "gpg-error": "/usr/local/bin/gpg-error", "gpg-error-config": "/usr/local/bin/gpg-error-config", "gpg-wks-client": "/usr/local/bin/gpg-wks-client", "gpg-wks-server": "/usr/local/bin/gpg-wks-server", "gpgconf": "/usr/local/bin/gpgconf", "gpgparsemail": "/usr/local/bin/gpgparsemail", "gpgrt-config": "/usr/local/bin/gpgrt-config", "gpgscm": "/usr/local/bin/gpgscm", "gpgsm": "/usr/local/bin/gpgsm", "gpgsplit": "/usr/local/bin/gpgsplit", "gpgtar": "/usr/local/bin/gpgtar", "gpgv": "/usr/local/bin/gpgv", "gprof": "/usr/local/bin/gprof", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "hmac256": "/usr/local/bin/hmac256", "kbxutil": "/usr/local/bin/kbxutil", "ksba-config": "/usr/local/bin/ksba-config", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "libassuan-config": "/usr/local/bin/libassuan-config", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "nm": "/usr/local/bin/nm", "npth-config": "/usr/local/bin/npth-config", "ntbtls-config": "/usr/local/bin/ntbtls-config", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "ph5diff": "/usr/local/bin/ph5diff", "query_config": "/usr/local/bin/query_config", "query_testlists": "/usr/local/bin/query_testlists", "ranlib": "/usr/local/bin/ranlib", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "svn": "/usr/local/bin/svn", "svnadmin": "/usr/local/bin/svnadmin", "svnbench": "/usr/local/bin/svnbench", "svndumpfilter": "/usr/local/bin/svndumpfilter", "svnfsfs": "/usr/local/bin/svnfsfs", "svnlook": "/usr/local/bin/svnlook", "svnmucc": "/usr/local/bin/svnmucc", "svnrdump": "/usr/local/bin/svnrdump", "svnserve": "/usr/local/bin/svnserve", "svnsync": "/usr/local/bin/svnsync", "svnversion": "/usr/local/bin/svnversion", "tcsh": "/usr/local/bin/tcsh", "watchgnupg": "/usr/local/bin/watchgnupg", "yat2m": "/usr/local/bin/yat2m", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_convert": "/usr/local/bin/db_convert", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup"}}
+config: {"url": "https://biocontainers.pro/tools/noresm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for noresm", "latest": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "tags": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "docker": "quay.io/biocontainers/noresm", "aliases": {"addr2line": "/usr/local/bin/addr2line", "apr-1-config": "/usr/local/bin/apr-1-config", "apu-1-config": "/usr/local/bin/apu-1-config", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "create_clone": "/usr/local/bin/create_clone", "create_newcase": "/usr/local/bin/create_newcase", "create_test": "/usr/local/bin/create_test", "ctest": "/usr/local/bin/ctest", "dirmngr": "/usr/local/bin/dirmngr", "dirmngr-client": "/usr/local/bin/dirmngr-client", "dumpsexp": "/usr/local/bin/dumpsexp", "dwp": "/usr/local/bin/dwp", "ed2k-link": "/usr/local/bin/ed2k-link", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "gpg": "/usr/local/bin/gpg", "gpg-agent": "/usr/local/bin/gpg-agent", "gpg-card": "/usr/local/bin/gpg-card", "gpg-connect-agent": "/usr/local/bin/gpg-connect-agent", "gpg-error": "/usr/local/bin/gpg-error", "gpg-error-config": "/usr/local/bin/gpg-error-config", "gpg-wks-client": "/usr/local/bin/gpg-wks-client", "gpg-wks-server": "/usr/local/bin/gpg-wks-server", "gpgconf": "/usr/local/bin/gpgconf", "gpgparsemail": "/usr/local/bin/gpgparsemail", "gpgrt-config": "/usr/local/bin/gpgrt-config", "gpgscm": "/usr/local/bin/gpgscm", "gpgsm": "/usr/local/bin/gpgsm", "gpgsplit": "/usr/local/bin/gpgsplit", "gpgtar": "/usr/local/bin/gpgtar", "gpgv": "/usr/local/bin/gpgv", "gprof": "/usr/local/bin/gprof", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "has160-hash": "/usr/local/bin/has160-hash", "hmac256": "/usr/local/bin/hmac256", "kbxutil": "/usr/local/bin/kbxutil", "ksba-config": "/usr/local/bin/ksba-config", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "libassuan-config": "/usr/local/bin/libassuan-config", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "magnet-link": "/usr/local/bin/magnet-link", "mpicalc": "/usr/local/bin/mpicalc", "nf-config": "/usr/local/bin/nf-config", "nm": "/usr/local/bin/nm", "npth-config": "/usr/local/bin/npth-config", "ntbtls-config": "/usr/local/bin/ntbtls-config", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "ph5diff": "/usr/local/bin/ph5diff", "query_config": "/usr/local/bin/query_config", "query_testlists": "/usr/local/bin/query_testlists", "ranlib": "/usr/local/bin/ranlib", "readelf": "/usr/local/bin/readelf", "rhash": "/usr/local/bin/rhash", "sfv-hash": "/usr/local/bin/sfv-hash", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "svn": "/usr/local/bin/svn", "svnadmin": "/usr/local/bin/svnadmin", "svnbench": "/usr/local/bin/svnbench", "svndumpfilter": "/usr/local/bin/svndumpfilter", "svnfsfs": "/usr/local/bin/svnfsfs", "svnlook": "/usr/local/bin/svnlook", "svnmucc": "/usr/local/bin/svnmucc", "svnrdump": "/usr/local/bin/svnrdump", "svnserve": "/usr/local/bin/svnserve", "svnsync": "/usr/local/bin/svnsync", "svnversion": "/usr/local/bin/svnversion", "tcsh": "/usr/local/bin/tcsh", "tiger-hash": "/usr/local/bin/tiger-hash", "tth-hash": "/usr/local/bin/tth-hash", "watchgnupg": "/usr/local/bin/watchgnupg", "whirlpool-hash": "/usr/local/bin/whirlpool-hash", "yat2m": "/usr/local/bin/yat2m", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "db_convert": "/usr/local/bin/db_convert", "mpifort": "/usr/local/bin/mpifort", "mpic++": "/usr/local/bin/mpic++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/noresm.
@@ -236,6 +249,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c++filt   -v ${PWD} -w ${PWD}
 ```
 
 
+#### ccmake
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccmake
+$ podman run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmake
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmake
+$ podman run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpack
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpack
+$ podman run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### create_clone
 
 ```bash
@@ -260,6 +300,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/create_newcase   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/create_test
 $ podman run --it --rm --entrypoint /usr/local/bin/create_test   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/create_test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ctest
+
+```bash
+$ singularity exec <container> /usr/local/bin/ctest
+$ podman run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -296,6 +345,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dumpsexp   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/dwp
 $ podman run --it --rm --entrypoint /usr/local/bin/dwp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dwp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ed2k-link
+
+```bash
+$ singularity exec <container> /usr/local/bin/ed2k-link
+$ podman run --it --rm --entrypoint /usr/local/bin/ed2k-link   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ed2k-link   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -533,6 +591,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5pfc   -v ${PWD} -w ${PWD} <
 ```
 
 
+#### has160-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/has160-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/has160-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/has160-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### hmac256
 
 ```bash
@@ -605,12 +672,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/libgcrypt-config   -v ${PWD} 
 ```
 
 
+#### magnet-link
+
+```bash
+$ singularity exec <container> /usr/local/bin/magnet-link
+$ podman run --it --rm --entrypoint /usr/local/bin/magnet-link   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/magnet-link   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mpicalc
 
 ```bash
 $ singularity exec <container> /usr/local/bin/mpicalc
 $ podman run --it --rm --entrypoint /usr/local/bin/mpicalc   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mpicalc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nf-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/nf-config
+$ podman run --it --rm --entrypoint /usr/local/bin/nf-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nf-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -701,6 +786,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ranlib   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/readelf
 $ podman run --it --rm --entrypoint /usr/local/bin/readelf   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/readelf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rhash
+
+```bash
+$ singularity exec <container> /usr/local/bin/rhash
+$ podman run --it --rm --entrypoint /usr/local/bin/rhash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rhash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sfv-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/sfv-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/sfv-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sfv-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -839,12 +942,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tcsh   -v ${PWD} -w ${PWD} <c
 ```
 
 
+#### tiger-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/tiger-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/tiger-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tiger-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tth-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/tth-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/tth-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tth-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### watchgnupg
 
 ```bash
 $ singularity exec <container> /usr/local/bin/watchgnupg
 $ podman run --it --rm --entrypoint /usr/local/bin/watchgnupg   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/watchgnupg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### whirlpool-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/whirlpool-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/whirlpool-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/whirlpool-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -857,57 +987,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/yat2m   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### ccmake
+#### mpichversion
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccmake
-$ podman run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpichversion
+$ podman run --it --rm --entrypoint /usr/local/bin/mpichversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpichversion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cmake
+#### mpivars
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cmake
-$ podman run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpivars
+$ podman run --it --rm --entrypoint /usr/local/bin/mpivars   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpivars   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cpack
+#### parkill
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cpack
-$ podman run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/parkill
+$ podman run --it --rm --entrypoint /usr/local/bin/parkill   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parkill   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ctest
+#### hydra_nameserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ctest
-$ podman run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hydra_nameserver
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_nameserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_nameserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### db_archive
+#### hydra_persist
 
 ```bash
-$ singularity exec <container> /usr/local/bin/db_archive
-$ podman run --it --rm --entrypoint /usr/local/bin/db_archive   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/db_archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hydra_persist
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_persist   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_persist   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### db_checkpoint
+#### hydra_pmi_proxy
 
 ```bash
-$ singularity exec <container> /usr/local/bin/db_checkpoint
-$ podman run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hydra_pmi_proxy
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_pmi_proxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_pmi_proxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpiexec.hydra
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpiexec.hydra
+$ podman run --it --rm --entrypoint /usr/local/bin/mpiexec.hydra   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpiexec.hydra   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -920,30 +1059,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/db_convert   -v ${PWD} -w ${P
 ```
 
 
-#### db_deadlock
+#### mpifort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/db_deadlock
-$ podman run --it --rm --entrypoint /usr/local/bin/db_deadlock   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/db_deadlock   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpifort
+$ podman run --it --rm --entrypoint /usr/local/bin/mpifort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpifort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### db_dump
+#### mpic++
 
 ```bash
-$ singularity exec <container> /usr/local/bin/db_dump
-$ podman run --it --rm --entrypoint /usr/local/bin/db_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/db_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### db_hotbackup
-
-```bash
-$ singularity exec <container> /usr/local/bin/db_hotbackup
-$ podman run --it --rm --entrypoint /usr/local/bin/db_hotbackup   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/db_hotbackup   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mpic++
+$ podman run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,16 @@ name:  "quay.io/biocontainers/iqtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iqtree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/iqtree/container.yaml"
-updated_at: "2022-10-29 05:35:10.939658"
+updated_at: "2022-10-29 07:39:36.373998"
 latest: "2.2.0_beta--hb97b32f_1"
 container_url: "https://biocontainers.pro/tools/iqtree"
 aliases:
- - "iqtree2"
  - "iqtree"
+ - "iqtree2"
 versions:
  - "2.2.0_beta--hb97b32f_1"
 description: "shpc-registry automated BioContainers addition for iqtree"
-config: {"url": "https://biocontainers.pro/tools/iqtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iqtree", "latest": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3"}, "tags": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3"}, "docker": "quay.io/biocontainers/iqtree", "aliases": {"iqtree2": "/usr/local/bin/iqtree2", "iqtree": "/usr/local/bin/iqtree"}}
+config: {"url": "https://biocontainers.pro/tools/iqtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iqtree", "latest": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3"}, "tags": {"2.2.0_beta--hb97b32f_1": "sha256:96ca289717c1d1d07536802939f2da66c22ccf7e527b22297c78de585358e1c3"}, "docker": "quay.io/biocontainers/iqtree", "aliases": {"iqtree": "/usr/local/bin/iqtree", "iqtree2": "/usr/local/bin/iqtree2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iqtree.
@@ -99,21 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### iqtree2
-
-```bash
-$ singularity exec <container> /usr/local/bin/iqtree2
-$ podman run --it --rm --entrypoint /usr/local/bin/iqtree2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/iqtree2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### iqtree
 
 ```bash
 $ singularity exec <container> /usr/local/bin/iqtree
 $ podman run --it --rm --entrypoint /usr/local/bin/iqtree   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/iqtree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### iqtree2
+
+```bash
+$ singularity exec <container> /usr/local/bin/iqtree2
+$ podman run --it --rm --entrypoint /usr/local/bin/iqtree2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iqtree2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

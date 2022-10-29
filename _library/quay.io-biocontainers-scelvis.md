@@ -4,27 +4,29 @@ name:  "quay.io/biocontainers/scelvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scelvis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scelvis/container.yaml"
-updated_at: "2022-10-29 05:56:10.106368"
+updated_at: "2022-10-29 07:55:03.426330"
 latest: "0.8.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scelvis"
 aliases:
+ - "dash-generate-components"
  - "dash-update-components"
  - "rehttpfs"
+ - "renderer"
  - "scelvis"
- - "2to3-3.9"
- - "brotli"
- - "dash-generate-components"
+ - "scanpy"
  - "docutils"
- - "f2py3.9"
+ - "sphinx-apidoc"
+ - "sphinx-autogen"
+ - "sphinx-build"
+ - "sphinx-quickstart"
  - "flask"
- - "fonttools"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
+ - "pybabel"
+ - "jp.py"
+ - "numba"
 versions:
  - "0.8.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scelvis"
-config: {"url": "https://biocontainers.pro/tools/scelvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scelvis", "latest": {"0.8.9--pyhdfd78af_0": "sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e"}, "tags": {"0.8.9--pyhdfd78af_0": "sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e"}, "docker": "quay.io/biocontainers/scelvis", "aliases": {"dash-update-components": "/usr/local/bin/dash-update-components", "rehttpfs": "/usr/local/bin/rehttpfs", "scelvis": "/usr/local/bin/scelvis", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "dash-generate-components": "/usr/local/bin/dash-generate-components", "docutils": "/usr/local/bin/docutils", "f2py3.9": "/usr/local/bin/f2py3.9", "flask": "/usr/local/bin/flask", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++"}}
+config: {"url": "https://biocontainers.pro/tools/scelvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scelvis", "latest": {"0.8.9--pyhdfd78af_0": "sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e"}, "tags": {"0.8.9--pyhdfd78af_0": "sha256:271d44f615064690926fd914cf0fbca1ba74746c79cf7ac72eac71c59218943e"}, "docker": "quay.io/biocontainers/scelvis", "aliases": {"dash-generate-components": "/usr/local/bin/dash-generate-components", "dash-update-components": "/usr/local/bin/dash-update-components", "rehttpfs": "/usr/local/bin/rehttpfs", "renderer": "/usr/local/bin/renderer", "scelvis": "/usr/local/bin/scelvis", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "flask": "/usr/local/bin/flask", "pybabel": "/usr/local/bin/pybabel", "jp.py": "/usr/local/bin/jp.py", "numba": "/usr/local/bin/numba"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scelvis.
@@ -110,6 +112,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### dash-generate-components
+
+```bash
+$ singularity exec <container> /usr/local/bin/dash-generate-components
+$ podman run --it --rm --entrypoint /usr/local/bin/dash-generate-components   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dash-generate-components   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dash-update-components
 
 ```bash
@@ -128,6 +139,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rehttpfs   -v ${PWD} -w ${PWD
 ```
 
 
+#### renderer
+
+```bash
+$ singularity exec <container> /usr/local/bin/renderer
+$ podman run --it --rm --entrypoint /usr/local/bin/renderer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/renderer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### scelvis
 
 ```bash
@@ -137,30 +157,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scelvis   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.9
+#### scanpy
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dash-generate-components
-
-```bash
-$ singularity exec <container> /usr/local/bin/dash-generate-components
-$ podman run --it --rm --entrypoint /usr/local/bin/dash-generate-components   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dash-generate-components   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/scanpy
+$ podman run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -173,12 +175,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD
 ```
 
 
-#### f2py3.9
+#### sphinx-apidoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sphinx-apidoc
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-apidoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-apidoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sphinx-autogen
+
+```bash
+$ singularity exec <container> /usr/local/bin/sphinx-autogen
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-autogen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-autogen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sphinx-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/sphinx-build
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sphinx-quickstart
+
+```bash
+$ singularity exec <container> /usr/local/bin/sphinx-quickstart
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-quickstart   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-quickstart   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -191,39 +220,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### fonttools
+#### pybabel
 
 ```bash
-$ singularity exec <container> /usr/local/bin/fonttools
-$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pybabel
+$ podman run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2h5
+#### jp.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jp.py
+$ podman run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### numba
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/numba
+$ podman run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

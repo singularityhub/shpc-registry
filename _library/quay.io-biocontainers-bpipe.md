@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bpipe/container.yaml"
-updated_at: "2022-10-29 05:47:21.507737"
+updated_at: "2022-10-29 07:48:36.233076"
 latest: "0.9.9.9--0"
 container_url: "https://biocontainers.pro/tools/bpipe"
 aliases:
@@ -15,20 +15,20 @@ aliases:
  - "bpipe-torque.sh"
  - "bpipe-utils.sh"
  - "groovy_script"
- - "aserver"
+ - "basenc"
  - "b2sum"
  - "base32"
  - "base64"
  - "basename"
- - "basenc"
  - "cat"
  - "chcon"
  - "chgrp"
  - "chmod"
+ - "chown"
 versions:
  - "0.9.9.9--0"
 description: "shpc-registry automated BioContainers addition for bpipe"
-config: {"url": "https://biocontainers.pro/tools/bpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpipe", "latest": {"0.9.9.9--0": "sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e"}, "tags": {"0.9.9.9--0": "sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e"}, "docker": "quay.io/biocontainers/bpipe", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "aserver": "/usr/local/bin/aserver", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
+config: {"url": "https://biocontainers.pro/tools/bpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bpipe", "latest": {"0.9.9.9--0": "sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e"}, "tags": {"0.9.9.9--0": "sha256:0fb865041714af50badf982cfd7f27e90404d095cf5aeafe6f1c269745a4680e"}, "docker": "quay.io/biocontainers/bpipe", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bpipe.
@@ -177,12 +177,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/groovy_script   -v ${PWD} -w 
 ```
 
 
-#### aserver
+#### basenc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -222,15 +222,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD
 ```
 
 
-#### basenc
-
-```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cat
 
 ```bash
@@ -264,6 +255,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/chmod
 $ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chown
+
+```bash
+$ singularity exec <container> /usr/local/bin/chown
+$ podman run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

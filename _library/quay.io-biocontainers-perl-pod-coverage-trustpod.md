@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/perl-pod-coverage-trustpod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-coverage-trustpod/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-coverage-trustpod/container.yaml"
-updated_at: "2022-10-29 05:45:50.799116"
+updated_at: "2022-10-29 07:47:29.340596"
 latest: "0.100005--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pod-coverage-trustpod"
 aliases:
- - "cpanm"
  - "pod_cover"
+ - "cpanm"
  - "podselect"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.100005--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-pod-coverage-trustpod"
-config: {"url": "https://biocontainers.pro/tools/perl-pod-coverage-trustpod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-coverage-trustpod", "latest": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "tags": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "docker": "quay.io/biocontainers/perl-pod-coverage-trustpod", "aliases": {"cpanm": "/usr/local/bin/cpanm", "pod_cover": "/usr/local/bin/pod_cover", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-pod-coverage-trustpod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-coverage-trustpod", "latest": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "tags": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "docker": "quay.io/biocontainers/perl-pod-coverage-trustpod", "aliases": {"pod_cover": "/usr/local/bin/pod_cover", "cpanm": "/usr/local/bin/cpanm", "podselect": "/usr/local/bin/podselect", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-pod-coverage-trustpod.
@@ -100,15 +102,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### cpanm
-
-```bash
-$ singularity exec <container> /usr/local/bin/cpanm
-$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pod_cover
 
 ```bash
@@ -118,12 +111,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pod_cover   -v ${PWD} -w ${PW
 ```
 
 
+#### cpanm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### podselect
 
 ```bash
 $ singularity exec <container> /usr/local/bin/podselect
 $ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

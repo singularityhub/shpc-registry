@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/askocli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/askocli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/askocli/container.yaml"
-updated_at: "2022-10-29 05:52:19.683486"
+updated_at: "2022-10-29 07:52:15.630423"
 latest: "0.5--py_0"
 container_url: "https://biocontainers.pro/tools/askocli"
 aliases:
  - "askocli"
- - "2to3-3.7"
  - "chardetect"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
  - "python3.7m"
  - "python3.7m-config"
- - "pyvenv"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "0.5--py_0"
 description: "shpc-registry automated BioContainers addition for askocli"
-config: {"url": "https://biocontainers.pro/tools/askocli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for askocli", "latest": {"0.5--py_0": "sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1"}, "tags": {"0.5--py_0": "sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1"}, "docker": "quay.io/biocontainers/askocli", "aliases": {"askocli": "/usr/local/bin/askocli", "2to3-3.7": "/usr/local/bin/2to3-3.7", "chardetect": "/usr/local/bin/chardetect", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/askocli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for askocli", "latest": {"0.5--py_0": "sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1"}, "tags": {"0.5--py_0": "sha256:3f708e1f25f8df6cb15b5cac94da894335440cb0e14b438bf6adc9c4bdeabbb1"}, "docker": "quay.io/biocontainers/askocli", "aliases": {"askocli": "/usr/local/bin/askocli", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/askocli.
@@ -117,21 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/askocli   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### chardetect
 
 ```bash
 $ singularity exec <container> /usr/local/bin/chardetect
 $ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -189,21 +189,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pyvenv-3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

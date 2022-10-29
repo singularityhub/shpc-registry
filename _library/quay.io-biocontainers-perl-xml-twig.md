@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/perl-xml-twig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-twig/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-twig/container.yaml"
-updated_at: "2022-10-29 05:54:30.136387"
+updated_at: "2022-10-29 07:53:50.831749"
 latest: "3.52--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-xml-twig"
 aliases:
- - "htmltree"
- - "perl5.26.2"
- - "podselect"
- - "tidyp"
- - "webtidy"
  - "xml_grep"
  - "xml_merge"
  - "xml_pp"
  - "xml_spellcheck"
  - "xml_split"
+ - "webtidy"
+ - "tidyp"
+ - "htmltree"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "3.52--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-xml-twig"
-config: {"url": "https://biocontainers.pro/tools/perl-xml-twig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-twig", "latest": {"3.52--pl526_2": "sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb"}, "tags": {"3.52--pl526_2": "sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb"}, "docker": "quay.io/biocontainers/perl-xml-twig", "aliases": {"htmltree": "/usr/local/bin/htmltree", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "tidyp": "/usr/local/bin/tidyp", "webtidy": "/usr/local/bin/webtidy", "xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split"}}
+config: {"url": "https://biocontainers.pro/tools/perl-xml-twig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-twig", "latest": {"3.52--pl526_2": "sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb"}, "tags": {"3.52--pl526_2": "sha256:f0c6b482fa8ac5bed5c8e0ed25378c392429dbcb191c332582c2dd8c458679eb"}, "docker": "quay.io/biocontainers/perl-xml-twig", "aliases": {"xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "htmltree": "/usr/local/bin/htmltree", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-xml-twig.
@@ -107,51 +107,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### htmltree
-
-```bash
-$ singularity exec <container> /usr/local/bin/htmltree
-$ podman run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### perl5.26.2
-
-```bash
-$ singularity exec <container> /usr/local/bin/perl5.26.2
-$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### podselect
-
-```bash
-$ singularity exec <container> /usr/local/bin/podselect
-$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tidyp
-
-```bash
-$ singularity exec <container> /usr/local/bin/tidyp
-$ podman run --it --rm --entrypoint /usr/local/bin/tidyp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tidyp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### webtidy
-
-```bash
-$ singularity exec <container> /usr/local/bin/webtidy
-$ podman run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### xml_grep
 
 ```bash
@@ -194,6 +149,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xml_spellcheck   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/xml_split
 $ podman run --it --rm --entrypoint /usr/local/bin/xml_split   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xml_split   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### webtidy
+
+```bash
+$ singularity exec <container> /usr/local/bin/webtidy
+$ podman run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tidyp
+
+```bash
+$ singularity exec <container> /usr/local/bin/tidyp
+$ podman run --it --rm --entrypoint /usr/local/bin/tidyp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tidyp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htmltree
+
+```bash
+$ singularity exec <container> /usr/local/bin/htmltree
+$ podman run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,24 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-prebsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prebsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prebsdata/container.yaml"
-updated_at: "2022-10-29 05:52:26.696463"
+updated_at: "2022-10-29 07:52:20.814165"
 latest: "1.30.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-prebsdata"
 aliases:
- - "R"
- - "Rscript"
- - "acountry"
- - "adig"
- - "ahost"
- - "autopoint"
- - "bunzip2"
- - "bzcat"
- - "bzcmp"
- - "bzdiff"
+ - ".bioconductor-prebsdata-post-link.sh"
+ - ".bioconductor-prebsdata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-prebsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prebsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prebsdata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17"}, "docker": "quay.io/biocontainers/bioconductor-prebsdata", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prebsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prebsdata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:eaf27840a3437a21bf506db0ef089b7f493a2f01dfde8ff5a4ad04edc3c26e17"}, "docker": "quay.io/biocontainers/bioconductor-prebsdata", "aliases": {".bioconductor-prebsdata-post-link.sh": "/usr/local/bin/.bioconductor-prebsdata-post-link.sh", ".bioconductor-prebsdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-prebsdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prebsdata.
@@ -107,93 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### R
+#### .bioconductor-prebsdata-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/R
-$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-prebsdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-prebsdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-prebsdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Rscript
+#### .bioconductor-prebsdata-pre-unlink.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Rscript
-$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acountry
-
-```bash
-$ singularity exec <container> /usr/local/bin/acountry
-$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### adig
-
-```bash
-$ singularity exec <container> /usr/local/bin/adig
-$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ahost
-
-```bash
-$ singularity exec <container> /usr/local/bin/ahost
-$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### autopoint
-
-```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bunzip2
-
-```bash
-$ singularity exec <container> /usr/local/bin/bunzip2
-$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcat
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcmp
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzdiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzdiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-prebsdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-prebsdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-prebsdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

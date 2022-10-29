@@ -4,26 +4,27 @@ name:  "quay.io/biocontainers/cooltools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cooltools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cooltools/container.yaml"
-updated_at: "2022-10-29 05:34:49.685345"
+updated_at: "2022-10-29 07:39:20.916258"
 latest: "0.5.1--py37h37892f8_1"
 container_url: "https://biocontainers.pro/tools/cooltools"
 aliases:
  - "cooltools"
  - "tiff2fsspec"
- - "2to3-3.7"
+ - "tiffcomment"
  - "JxrDecApp"
  - "JxrEncApp"
- - "aec"
- - "bam2pairs"
- - "bgzip"
- - "bokeh"
- - "brotli"
  - "cbrunsli"
- - "column_remover.pl"
+ - "dbrunsli"
+ - "imagecodecs"
+ - "lsm2bin"
+ - "tifffile"
+ - "zfp"
+ - "zopfli"
+ - "zopflipng"
 versions:
  - "0.5.1--py37h37892f8_1"
 description: "shpc-registry automated BioContainers addition for cooltools"
-config: {"url": "https://biocontainers.pro/tools/cooltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cooltools", "latest": {"0.5.1--py37h37892f8_1": "sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0"}, "tags": {"0.5.1--py37h37892f8_1": "sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0"}, "docker": "quay.io/biocontainers/cooltools", "aliases": {"cooltools": "/usr/local/bin/cooltools", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "2to3-3.7": "/usr/local/bin/2to3-3.7", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "aec": "/usr/local/bin/aec", "bam2pairs": "/usr/local/bin/bam2pairs", "bgzip": "/usr/local/bin/bgzip", "bokeh": "/usr/local/bin/bokeh", "brotli": "/usr/local/bin/brotli", "cbrunsli": "/usr/local/bin/cbrunsli", "column_remover.pl": "/usr/local/bin/column_remover.pl"}}
+config: {"url": "https://biocontainers.pro/tools/cooltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cooltools", "latest": {"0.5.1--py37h37892f8_1": "sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0"}, "tags": {"0.5.1--py37h37892f8_1": "sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0"}, "docker": "quay.io/biocontainers/cooltools", "aliases": {"cooltools": "/usr/local/bin/cooltools", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cooltools.
@@ -127,12 +128,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tiff2fsspec   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.7
+#### tiffcomment
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tiffcomment
+$ podman run --it --rm --entrypoint /usr/local/bin/tiffcomment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tiffcomment   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -154,51 +155,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/JxrEncApp   -v ${PWD} -w ${PW
 ```
 
 
-#### aec
-
-```bash
-$ singularity exec <container> /usr/local/bin/aec
-$ podman run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bam2pairs
-
-```bash
-$ singularity exec <container> /usr/local/bin/bam2pairs
-$ podman run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bokeh
-
-```bash
-$ singularity exec <container> /usr/local/bin/bokeh
-$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cbrunsli
 
 ```bash
@@ -208,12 +164,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cbrunsli   -v ${PWD} -w ${PWD
 ```
 
 
-#### column_remover.pl
+#### dbrunsli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/column_remover.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/column_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/column_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dbrunsli
+$ podman run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### imagecodecs
+
+```bash
+$ singularity exec <container> /usr/local/bin/imagecodecs
+$ podman run --it --rm --entrypoint /usr/local/bin/imagecodecs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/imagecodecs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lsm2bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/lsm2bin
+$ podman run --it --rm --entrypoint /usr/local/bin/lsm2bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lsm2bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tifffile
+
+```bash
+$ singularity exec <container> /usr/local/bin/tifffile
+$ podman run --it --rm --entrypoint /usr/local/bin/tifffile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tifffile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zfp
+
+```bash
+$ singularity exec <container> /usr/local/bin/zfp
+$ podman run --it --rm --entrypoint /usr/local/bin/zfp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zfp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zopfli
+
+```bash
+$ singularity exec <container> /usr/local/bin/zopfli
+$ podman run --it --rm --entrypoint /usr/local/bin/zopfli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zopfli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zopflipng
+
+```bash
+$ singularity exec <container> /usr/local/bin/zopflipng
+$ podman run --it --rm --entrypoint /usr/local/bin/zopflipng   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zopflipng   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

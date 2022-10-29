@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pipits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipits/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pipits/container.yaml"
-updated_at: "2022-10-29 05:41:10.380065"
+updated_at: "2022-10-29 07:44:00.547942"
 latest: "2.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pipits"
 aliases:
@@ -51,20 +51,20 @@ aliases:
  - "pipits_uc2otutable"
  - "pispino_createreadpairslist"
  - "pispino_seqprep"
- - "2to3-3.10"
- - "alimask"
+ - "nosetests-3.9"
+ - "seqkit"
  - "biom"
+ - "vsearch"
+ - "nosetests"
  - "cygdb"
  - "cython"
  - "cythonize"
+ - "hmmpgmd_shard"
  - "easel"
- - "esl-afetch"
- - "esl-alimanip"
- - "esl-alimap"
 versions:
  - "2.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pipits"
-config: {"url": "https://biocontainers.pro/tools/pipits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipits", "latest": {"2.8--pyhdfd78af_0": "sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178"}, "tags": {"2.8--pyhdfd78af_0": "sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178"}, "docker": "quay.io/biocontainers/pipits", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "ITSx": "/usr/local/bin/ITSx", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "fasta_clipping_histogram.pl": "/usr/local/bin/fasta_clipping_histogram.pl", "fasta_formatter": "/usr/local/bin/fasta_formatter", "fasta_nucleotide_changer": "/usr/local/bin/fasta_nucleotide_changer", "fastq_masker": "/usr/local/bin/fastq_masker", "fastq_quality_boxplot_graph.sh": "/usr/local/bin/fastq_quality_boxplot_graph.sh", "fastq_quality_converter": "/usr/local/bin/fastq_quality_converter", "fastq_quality_filter": "/usr/local/bin/fastq_quality_filter", "fastq_quality_trimmer": "/usr/local/bin/fastq_quality_trimmer", "fastq_to_fasta": "/usr/local/bin/fastq_to_fasta", "fastx_artifacts_filter": "/usr/local/bin/fastx_artifacts_filter", "fastx_barcode_splitter.pl": "/usr/local/bin/fastx_barcode_splitter.pl", "fastx_clipper": "/usr/local/bin/fastx_clipper", "fastx_collapser": "/usr/local/bin/fastx_collapser", "fastx_nucleotide_distribution_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_graph.sh", "fastx_nucleotide_distribution_line_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_line_graph.sh", "fastx_quality_stats": "/usr/local/bin/fastx_quality_stats", "fastx_renamer": "/usr/local/bin/fastx_renamer", "fastx_reverse_complement": "/usr/local/bin/fastx_reverse_complement", "fastx_trimmer": "/usr/local/bin/fastx_trimmer", "fastx_uncollapser": "/usr/local/bin/fastx_uncollapser", "hmmgs": "/usr/local/bin/hmmgs", "pipits_funguild.py": "/usr/local/bin/pipits_funguild.py", "pipits_funits": "/usr/local/bin/pipits_funits", "pipits_getsamplelistfromfasta": "/usr/local/bin/pipits_getsamplelistfromfasta", "pipits_phylotype_biom": "/usr/local/bin/pipits_phylotype_biom", "pipits_process": "/usr/local/bin/pipits_process", "pipits_reformatAssignedTaxonomy": "/usr/local/bin/pipits_reformatAssignedTaxonomy", "pipits_rereplicate": "/usr/local/bin/pipits_rereplicate", "pipits_retrain_rdp": "/usr/local/bin/pipits_retrain_rdp", "pipits_uc2otutable": "/usr/local/bin/pipits_uc2otutable", "pispino_createreadpairslist": "/usr/local/bin/pispino_createreadpairslist", "pispino_seqprep": "/usr/local/bin/pispino_seqprep", "2to3-3.10": "/usr/local/bin/2to3-3.10", "alimask": "/usr/local/bin/alimask", "biom": "/usr/local/bin/biom", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "easel": "/usr/local/bin/easel", "esl-afetch": "/usr/local/bin/esl-afetch", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap"}}
+config: {"url": "https://biocontainers.pro/tools/pipits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipits", "latest": {"2.8--pyhdfd78af_0": "sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178"}, "tags": {"2.8--pyhdfd78af_0": "sha256:b4dbfb7e4d4255d6765b589bb599eaac2fc9a99618f039edadd1e6b8332bf178"}, "docker": "quay.io/biocontainers/pipits", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "ITSx": "/usr/local/bin/ITSx", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "fasta_clipping_histogram.pl": "/usr/local/bin/fasta_clipping_histogram.pl", "fasta_formatter": "/usr/local/bin/fasta_formatter", "fasta_nucleotide_changer": "/usr/local/bin/fasta_nucleotide_changer", "fastq_masker": "/usr/local/bin/fastq_masker", "fastq_quality_boxplot_graph.sh": "/usr/local/bin/fastq_quality_boxplot_graph.sh", "fastq_quality_converter": "/usr/local/bin/fastq_quality_converter", "fastq_quality_filter": "/usr/local/bin/fastq_quality_filter", "fastq_quality_trimmer": "/usr/local/bin/fastq_quality_trimmer", "fastq_to_fasta": "/usr/local/bin/fastq_to_fasta", "fastx_artifacts_filter": "/usr/local/bin/fastx_artifacts_filter", "fastx_barcode_splitter.pl": "/usr/local/bin/fastx_barcode_splitter.pl", "fastx_clipper": "/usr/local/bin/fastx_clipper", "fastx_collapser": "/usr/local/bin/fastx_collapser", "fastx_nucleotide_distribution_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_graph.sh", "fastx_nucleotide_distribution_line_graph.sh": "/usr/local/bin/fastx_nucleotide_distribution_line_graph.sh", "fastx_quality_stats": "/usr/local/bin/fastx_quality_stats", "fastx_renamer": "/usr/local/bin/fastx_renamer", "fastx_reverse_complement": "/usr/local/bin/fastx_reverse_complement", "fastx_trimmer": "/usr/local/bin/fastx_trimmer", "fastx_uncollapser": "/usr/local/bin/fastx_uncollapser", "hmmgs": "/usr/local/bin/hmmgs", "pipits_funguild.py": "/usr/local/bin/pipits_funguild.py", "pipits_funits": "/usr/local/bin/pipits_funits", "pipits_getsamplelistfromfasta": "/usr/local/bin/pipits_getsamplelistfromfasta", "pipits_phylotype_biom": "/usr/local/bin/pipits_phylotype_biom", "pipits_process": "/usr/local/bin/pipits_process", "pipits_reformatAssignedTaxonomy": "/usr/local/bin/pipits_reformatAssignedTaxonomy", "pipits_rereplicate": "/usr/local/bin/pipits_rereplicate", "pipits_retrain_rdp": "/usr/local/bin/pipits_retrain_rdp", "pipits_uc2otutable": "/usr/local/bin/pipits_uc2otutable", "pispino_createreadpairslist": "/usr/local/bin/pispino_createreadpairslist", "pispino_seqprep": "/usr/local/bin/pispino_seqprep", "nosetests-3.9": "/usr/local/bin/nosetests-3.9", "seqkit": "/usr/local/bin/seqkit", "biom": "/usr/local/bin/biom", "vsearch": "/usr/local/bin/vsearch", "nosetests": "/usr/local/bin/nosetests", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pipits.
@@ -537,21 +537,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pispino_seqprep   -v ${PWD} -
 ```
 
 
-#### 2to3-3.10
+#### nosetests-3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/nosetests-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/nosetests-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nosetests-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### seqkit
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/seqkit
+$ podman run --it --rm --entrypoint /usr/local/bin/seqkit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqkit   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -561,6 +561,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/biom
 $ podman run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vsearch
+
+```bash
+$ singularity exec <container> /usr/local/bin/vsearch
+$ podman run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nosetests
+
+```bash
+$ singularity exec <container> /usr/local/bin/nosetests
+$ podman run --it --rm --entrypoint /usr/local/bin/nosetests   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nosetests   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -591,39 +609,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PW
 ```
 
 
+#### hmmpgmd_shard
+
+```bash
+$ singularity exec <container> /usr/local/bin/hmmpgmd_shard
+$ podman run --it --rm --entrypoint /usr/local/bin/hmmpgmd_shard   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hmmpgmd_shard   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### easel
 
 ```bash
 $ singularity exec <container> /usr/local/bin/easel
 $ podman run --it --rm --entrypoint /usr/local/bin/easel   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/easel   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### esl-afetch
-
-```bash
-$ singularity exec <container> /usr/local/bin/esl-afetch
-$ podman run --it --rm --entrypoint /usr/local/bin/esl-afetch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/esl-afetch   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### esl-alimanip
-
-```bash
-$ singularity exec <container> /usr/local/bin/esl-alimanip
-$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimanip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimanip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### esl-alimap
-
-```bash
-$ singularity exec <container> /usr/local/bin/esl-alimap
-$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimap   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimap   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/flask-admin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-admin/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/flask-admin/container.yaml"
-updated_at: "2022-10-29 05:43:51.331400"
+updated_at: "2022-10-29 07:46:00.893078"
 latest: "1.4.0--py36_0"
 container_url: "https://biocontainers.pro/tools/flask-admin"
 aliases:
- - "2to3-3.6"
- - "easy_install-3.6"
  - "flask"
+ - "easy_install-3.6"
+ - "2to3-3.6"
  - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.4.0--py36_0"
 description: "shpc-registry automated BioContainers addition for flask-admin"
-config: {"url": "https://biocontainers.pro/tools/flask-admin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-admin", "latest": {"1.4.0--py36_0": "sha256:d0a4cccafe7f1d9223ed9cdd7b64c56236d078ee88b4437d329c11bca324a3a9"}, "tags": {"1.4.0--py36_0": "sha256:d0a4cccafe7f1d9223ed9cdd7b64c56236d078ee88b4437d329c11bca324a3a9"}, "docker": "quay.io/biocontainers/flask-admin", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "flask": "/usr/local/bin/flask", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/flask-admin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-admin", "latest": {"1.4.0--py36_0": "sha256:d0a4cccafe7f1d9223ed9cdd7b64c56236d078ee88b4437d329c11bca324a3a9"}, "tags": {"1.4.0--py36_0": "sha256:d0a4cccafe7f1d9223ed9cdd7b64c56236d078ee88b4437d329c11bca324a3a9"}, "docker": "quay.io/biocontainers/flask-admin", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-admin.
@@ -107,12 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
+#### flask
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -125,12 +125,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} 
 ```
 
 
-#### flask
+#### 2to3-3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/flask
-$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/psm_fragments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psm_fragments/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/psm_fragments/container.yaml"
-updated_at: "2022-10-29 05:33:11.173751"
+updated_at: "2022-10-29 07:38:08.827121"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/psm_fragments"
 aliases:
- - "2to3-3.9"
+ - "xslt-config"
+ - "xsltproc"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
- - "jpgicc"
- - "linkicc"
- - "psicc"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
- - "tificc"
+ - "jpgicc"
+ - "linkicc"
 versions:
  - "1.0.3--py_0"
 description: "shpc-registry automated BioContainers addition for psm_fragments"
-config: {"url": "https://biocontainers.pro/tools/psm_fragments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psm_fragments", "latest": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "tags": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "docker": "quay.io/biocontainers/psm_fragments", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "tificc": "/usr/local/bin/tificc"}}
+config: {"url": "https://biocontainers.pro/tools/psm_fragments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psm_fragments", "latest": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "tags": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "docker": "quay.io/biocontainers/psm_fragments", "aliases": {"xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psm_fragments.
@@ -107,12 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
+#### xslt-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -125,39 +134,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jpgicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### linkicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### psicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/psicc
-$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -188,12 +179,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} 
 ```
 
 
-#### tificc
+#### jpgicc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/tificc
-$ podman run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

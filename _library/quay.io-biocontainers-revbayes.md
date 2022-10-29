@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/revbayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/revbayes/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/revbayes/container.yaml"
-updated_at: "2022-10-29 05:51:16.935313"
+updated_at: "2022-10-29 07:51:29.458300"
 latest: "1.0.13--h105e827_5"
 container_url: "https://biocontainers.pro/tools/revbayes"
 aliases:
  - "rb"
  - "rb-mpi"
- - "aggregate_profile.pl"
- - "mpiCC"
- - "mpic++"
- - "mpicc"
- - "mpicxx"
- - "mpiexec"
- - "mpif77"
- - "mpif90"
- - "mpifort"
- - "mpirun"
+ - "oshCC"
+ - "oshc++"
+ - "oshcxx"
+ - "shmemCC"
+ - "shmemc++"
+ - "shmemcxx"
+ - "oshcc"
+ - "oshfort"
+ - "oshmem_info"
+ - "oshrun"
 versions:
  - "1.0.13--h105e827_5"
 description: "shpc-registry automated BioContainers addition for revbayes"
-config: {"url": "https://biocontainers.pro/tools/revbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for revbayes", "latest": {"1.0.13--h105e827_5": "sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428"}, "tags": {"1.0.13--h105e827_5": "sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428"}, "docker": "quay.io/biocontainers/revbayes", "aliases": {"rb": "/usr/local/bin/rb", "rb-mpi": "/usr/local/bin/rb-mpi", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "mpiCC": "/usr/local/bin/mpiCC", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc", "mpicxx": "/usr/local/bin/mpicxx", "mpiexec": "/usr/local/bin/mpiexec", "mpif77": "/usr/local/bin/mpif77", "mpif90": "/usr/local/bin/mpif90", "mpifort": "/usr/local/bin/mpifort", "mpirun": "/usr/local/bin/mpirun"}}
+config: {"url": "https://biocontainers.pro/tools/revbayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for revbayes", "latest": {"1.0.13--h105e827_5": "sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428"}, "tags": {"1.0.13--h105e827_5": "sha256:b36ea89b8ad6f695ccea031d451e58912de27299ca7ce9e31f96a7789b1fd428"}, "docker": "quay.io/biocontainers/revbayes", "aliases": {"rb": "/usr/local/bin/rb", "rb-mpi": "/usr/local/bin/rb-mpi", "oshCC": "/usr/local/bin/oshCC", "oshc++": "/usr/local/bin/oshc++", "oshcxx": "/usr/local/bin/oshcxx", "shmemCC": "/usr/local/bin/shmemCC", "shmemc++": "/usr/local/bin/shmemc++", "shmemcxx": "/usr/local/bin/shmemcxx", "oshcc": "/usr/local/bin/oshcc", "oshfort": "/usr/local/bin/oshfort", "oshmem_info": "/usr/local/bin/oshmem_info", "oshrun": "/usr/local/bin/oshrun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/revbayes.
@@ -127,93 +127,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rb-mpi   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### aggregate_profile.pl
+#### oshCC
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshCC
+$ podman run --it --rm --entrypoint /usr/local/bin/oshCC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshCC   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpiCC
+#### oshc++
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpiCC
-$ podman run --it --rm --entrypoint /usr/local/bin/mpiCC   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpiCC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshc++
+$ podman run --it --rm --entrypoint /usr/local/bin/oshc++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshc++   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpic++
+#### oshcxx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpic++
-$ podman run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshcxx
+$ podman run --it --rm --entrypoint /usr/local/bin/oshcxx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshcxx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpicc
+#### shmemCC
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpicc
-$ podman run --it --rm --entrypoint /usr/local/bin/mpicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/shmemCC
+$ podman run --it --rm --entrypoint /usr/local/bin/shmemCC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shmemCC   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpicxx
+#### shmemc++
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpicxx
-$ podman run --it --rm --entrypoint /usr/local/bin/mpicxx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpicxx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/shmemc++
+$ podman run --it --rm --entrypoint /usr/local/bin/shmemc++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shmemc++   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpiexec
+#### shmemcxx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpiexec
-$ podman run --it --rm --entrypoint /usr/local/bin/mpiexec   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpiexec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/shmemcxx
+$ podman run --it --rm --entrypoint /usr/local/bin/shmemcxx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shmemcxx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpif77
+#### oshcc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpif77
-$ podman run --it --rm --entrypoint /usr/local/bin/mpif77   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpif77   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshcc
+$ podman run --it --rm --entrypoint /usr/local/bin/oshcc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshcc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpif90
+#### oshfort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpif90
-$ podman run --it --rm --entrypoint /usr/local/bin/mpif90   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpif90   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshfort
+$ podman run --it --rm --entrypoint /usr/local/bin/oshfort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshfort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpifort
+#### oshmem_info
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpifort
-$ podman run --it --rm --entrypoint /usr/local/bin/mpifort   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpifort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshmem_info
+$ podman run --it --rm --entrypoint /usr/local/bin/oshmem_info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshmem_info   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### mpirun
+#### oshrun
 
 ```bash
-$ singularity exec <container> /usr/local/bin/mpirun
-$ podman run --it --rm --entrypoint /usr/local/bin/mpirun   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mpirun   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oshrun
+$ podman run --it --rm --entrypoint /usr/local/bin/oshrun   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oshrun   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

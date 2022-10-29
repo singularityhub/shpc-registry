@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-methylclock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylclock/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylclock/container.yaml"
-updated_at: "2022-10-29 05:38:51.664053"
+updated_at: "2022-10-29 07:42:19.651539"
 latest: "1.0.1--r41hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylclock"
 aliases:
+ - ".bioconductor-methylclockdata-post-link.sh"
+ - ".bioconductor-methylclockdata-pre-unlink.sh"
  - "git2_cli"
- - "2to3-3.10"
- - "f2py3.10"
- - "idle3.10"
- - "pandoc"
  - "pandoc-server"
+ - "pandoc"
+ - "f2py3.10"
+ - "2to3-3.10"
+ - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
@@ -21,7 +23,7 @@ aliases:
 versions:
  - "1.0.1--r41hc247a5b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylclock"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylclock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylclock", "latest": {"1.0.1--r41hc247a5b_1": "sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8"}, "tags": {"1.0.1--r41hc247a5b_1": "sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8"}, "docker": "quay.io/biocontainers/bioconductor-methylclock", "aliases": {"git2_cli": "/usr/local/bin/git2_cli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pandoc": "/usr/local/bin/pandoc", "pandoc-server": "/usr/local/bin/pandoc-server", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylclock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylclock", "latest": {"1.0.1--r41hc247a5b_1": "sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8"}, "tags": {"1.0.1--r41hc247a5b_1": "sha256:1716e14e42cd21ac8549751f2ccbb550220a3c23f88e8cb240ee5e8f222199d8"}, "docker": "quay.io/biocontainers/bioconductor-methylclock", "aliases": {".bioconductor-methylclockdata-post-link.sh": "/usr/local/bin/.bioconductor-methylclockdata-post-link.sh", ".bioconductor-methylclockdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-methylclockdata-pre-unlink.sh", "git2_cli": "/usr/local/bin/git2_cli", "pandoc-server": "/usr/local/bin/pandoc-server", "pandoc": "/usr/local/bin/pandoc", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylclock.
@@ -107,6 +109,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-methylclockdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-methylclockdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-methylclockdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-methylclockdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-methylclockdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-methylclockdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-methylclockdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-methylclockdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### git2_cli
 
 ```bash
@@ -116,30 +136,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/git2_cli   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.10
+#### pandoc-server
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc-server
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -152,12 +154,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### pandoc-server
+#### f2py3.10
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pandoc-server
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

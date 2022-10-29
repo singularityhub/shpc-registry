@@ -4,27 +4,29 @@ name:  "quay.io/biocontainers/starfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/starfish/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/starfish/container.yaml"
-updated_at: "2022-10-29 05:37:51.258019"
+updated_at: "2022-10-29 07:41:34.676115"
 latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/starfish"
 aliases:
+ - "isympy"
  - "slicedimage"
  - "starfish"
  - "tiff2fsspec"
- - "2to3-3.9"
+ - "tiffcomment"
  - "JxrDecApp"
  - "JxrEncApp"
- - "aec"
- - "aserver"
- - "assistant"
- - "brotli"
- - "canbusutil"
  - "cbrunsli"
- - "certutil"
+ - "dbrunsli"
+ - "imagecodecs"
+ - "lsm2bin"
+ - "tifffile"
+ - "zfp"
+ - "zopfli"
+ - "zopflipng"
 versions:
  - "0.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for starfish"
-config: {"url": "https://biocontainers.pro/tools/starfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starfish", "latest": {"0.2.2--pyhdfd78af_0": "sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3"}, "docker": "quay.io/biocontainers/starfish", "aliases": {"slicedimage": "/usr/local/bin/slicedimage", "starfish": "/usr/local/bin/starfish", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "2to3-3.9": "/usr/local/bin/2to3-3.9", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "aec": "/usr/local/bin/aec", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "brotli": "/usr/local/bin/brotli", "canbusutil": "/usr/local/bin/canbusutil", "cbrunsli": "/usr/local/bin/cbrunsli", "certutil": "/usr/local/bin/certutil"}}
+config: {"url": "https://biocontainers.pro/tools/starfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for starfish", "latest": {"0.2.2--pyhdfd78af_0": "sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3"}, "tags": {"0.2.2--pyhdfd78af_0": "sha256:541f4726ec9c5cf5238922ebca8f1f8bad741cc0ad3277d08fecdd0fdd67b3d3"}, "docker": "quay.io/biocontainers/starfish", "aliases": {"isympy": "/usr/local/bin/isympy", "slicedimage": "/usr/local/bin/slicedimage", "starfish": "/usr/local/bin/starfish", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/starfish.
@@ -110,6 +112,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### isympy
+
+```bash
+$ singularity exec <container> /usr/local/bin/isympy
+$ podman run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### slicedimage
 
 ```bash
@@ -137,12 +148,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tiff2fsspec   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.9
+#### tiffcomment
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tiffcomment
+$ podman run --it --rm --entrypoint /usr/local/bin/tiffcomment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tiffcomment   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -164,51 +175,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/JxrEncApp   -v ${PWD} -w ${PW
 ```
 
 
-#### aec
-
-```bash
-$ singularity exec <container> /usr/local/bin/aec
-$ podman run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### assistant
-
-```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### canbusutil
-
-```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cbrunsli
 
 ```bash
@@ -218,12 +184,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cbrunsli   -v ${PWD} -w ${PWD
 ```
 
 
-#### certutil
+#### dbrunsli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/certutil
-$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dbrunsli
+$ podman run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### imagecodecs
+
+```bash
+$ singularity exec <container> /usr/local/bin/imagecodecs
+$ podman run --it --rm --entrypoint /usr/local/bin/imagecodecs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/imagecodecs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lsm2bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/lsm2bin
+$ podman run --it --rm --entrypoint /usr/local/bin/lsm2bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lsm2bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tifffile
+
+```bash
+$ singularity exec <container> /usr/local/bin/tifffile
+$ podman run --it --rm --entrypoint /usr/local/bin/tifffile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tifffile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zfp
+
+```bash
+$ singularity exec <container> /usr/local/bin/zfp
+$ podman run --it --rm --entrypoint /usr/local/bin/zfp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zfp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zopfli
+
+```bash
+$ singularity exec <container> /usr/local/bin/zopfli
+$ podman run --it --rm --entrypoint /usr/local/bin/zopfli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zopfli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zopflipng
+
+```bash
+$ singularity exec <container> /usr/local/bin/zopflipng
+$ podman run --it --rm --entrypoint /usr/local/bin/zopflipng   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zopflipng   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

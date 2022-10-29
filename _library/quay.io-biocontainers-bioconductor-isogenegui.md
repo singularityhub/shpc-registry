@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-isogenegui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isogenegui/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isogenegui/container.yaml"
-updated_at: "2022-10-29 05:55:14.207095"
+updated_at: "2022-10-29 07:54:22.838372"
 latest: "2.30.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-isogenegui"
 aliases:
- - "aserver"
+ - "jpackage"
  - "cups-config"
- - "gif2rgb"
- - "gifbuild"
- - "gifclrmp"
- - "giffix"
- - "giftext"
- - "giftool"
  - "ippeveprinter"
  - "ipptool"
+ - "jfr"
+ - "aserver"
+ - "jdeprscan"
+ - "jhsdb"
+ - "jimage"
+ - "jlink"
 versions:
  - "2.30.0--r41hc247a5b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-isogenegui"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-isogenegui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isogenegui", "latest": {"2.30.0--r41hc247a5b_2": "sha256:4b457c78a16c7a47ab7499f496bbd054ae86f1721f6ffed9000c99b4334786f9"}, "tags": {"2.30.0--r41hc247a5b_2": "sha256:4b457c78a16c7a47ab7499f496bbd054ae86f1721f6ffed9000c99b4334786f9"}, "docker": "quay.io/biocontainers/bioconductor-isogenegui", "aliases": {"aserver": "/usr/local/bin/aserver", "cups-config": "/usr/local/bin/cups-config", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-isogenegui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isogenegui", "latest": {"2.30.0--r41hc247a5b_2": "sha256:4b457c78a16c7a47ab7499f496bbd054ae86f1721f6ffed9000c99b4334786f9"}, "tags": {"2.30.0--r41hc247a5b_2": "sha256:4b457c78a16c7a47ab7499f496bbd054ae86f1721f6ffed9000c99b4334786f9"}, "docker": "quay.io/biocontainers/bioconductor-isogenegui", "aliases": {"jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-isogenegui.
@@ -107,12 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### aserver
+#### jpackage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jpackage
+$ podman run --it --rm --entrypoint /usr/local/bin/jpackage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpackage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -122,60 +122,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/cups-config
 $ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2rgb
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifbuild
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifclrmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifclrmp
-$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### giffix
-
-```bash
-$ singularity exec <container> /usr/local/bin/giffix
-$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### giftext
-
-```bash
-$ singularity exec <container> /usr/local/bin/giftext
-$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### giftool
-
-```bash
-$ singularity exec <container> /usr/local/bin/giftool
-$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +140,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/ipptool
 $ podman run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jfr
+
+```bash
+$ singularity exec <container> /usr/local/bin/jfr
+$ podman run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jdeprscan
+
+```bash
+$ singularity exec <container> /usr/local/bin/jdeprscan
+$ podman run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/jhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jimage
+
+```bash
+$ singularity exec <container> /usr/local/bin/jimage
+$ podman run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jimage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jlink
+
+```bash
+$ singularity exec <container> /usr/local/bin/jlink
+$ podman run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jlink   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

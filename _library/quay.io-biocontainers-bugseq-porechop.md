@@ -4,23 +4,24 @@ name:  "quay.io/biocontainers/bugseq-porechop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bugseq-porechop/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bugseq-porechop/container.yaml"
-updated_at: "2022-10-29 05:42:56.749109"
+updated_at: "2022-10-29 07:45:20.559944"
 latest: "0.3.4pre--py37h96cfd12_2"
 container_url: "https://biocontainers.pro/tools/bugseq-porechop"
 aliases:
+ - "porechop"
  - "2to3-3.7"
  - "idle3.7"
- - "porechop"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "0.3.4pre--py37h96cfd12_2"
 description: "shpc-registry automated BioContainers addition for bugseq-porechop"
-config: {"url": "https://biocontainers.pro/tools/bugseq-porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bugseq-porechop", "latest": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26"}, "tags": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26"}, "docker": "quay.io/biocontainers/bugseq-porechop", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "porechop": "/usr/local/bin/porechop", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/bugseq-porechop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bugseq-porechop", "latest": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26"}, "tags": {"0.3.4pre--py37h96cfd12_2": "sha256:f95fb3004e6dd2f7364be4d9872a0deba3732382ed682a8c82aa554d4ecabf26"}, "docker": "quay.io/biocontainers/bugseq-porechop", "aliases": {"porechop": "/usr/local/bin/porechop", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bugseq-porechop.
@@ -106,6 +107,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### porechop
+
+```bash
+$ singularity exec <container> /usr/local/bin/porechop
+$ podman run --it --rm --entrypoint /usr/local/bin/porechop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/porechop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.7
 
 ```bash
@@ -121,15 +131,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/idle3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### porechop
-
-```bash
-$ singularity exec <container> /usr/local/bin/porechop
-$ podman run --it --rm --entrypoint /usr/local/bin/porechop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/porechop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -184,6 +185,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

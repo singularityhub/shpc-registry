@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biscuit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biscuit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biscuit/container.yaml"
-updated_at: "2022-10-29 05:30:10.565818"
+updated_at: "2022-10-29 07:35:56.251855"
 latest: "1.1.0.20220707--he272189_1"
 container_url: "https://biocontainers.pro/tools/biscuit"
 aliases:
@@ -12,10 +12,12 @@ aliases:
  - "biscuit"
  - "build_biscuit_QC_assets.pl"
  - "build_biscuit_QC_assets.pl.bak"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.1.0.20220707--he272189_1"
 description: "shpc-registry automated BioContainers addition for biscuit"
-config: {"url": "https://biocontainers.pro/tools/biscuit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biscuit", "latest": {"1.1.0.20220707--he272189_1": "sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270"}, "tags": {"1.1.0.20220707--he272189_1": "sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270"}, "docker": "quay.io/biocontainers/biscuit", "aliases": {"QC.sh": "/usr/local/bin/QC.sh", "biscuit": "/usr/local/bin/biscuit", "build_biscuit_QC_assets.pl": "/usr/local/bin/build_biscuit_QC_assets.pl", "build_biscuit_QC_assets.pl.bak": "/usr/local/bin/build_biscuit_QC_assets.pl.bak"}}
+config: {"url": "https://biocontainers.pro/tools/biscuit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biscuit", "latest": {"1.1.0.20220707--he272189_1": "sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270"}, "tags": {"1.1.0.20220707--he272189_1": "sha256:ca540d2b392d0e2ea6525b0b4e88e99eed713deff2bd6cec942e01b14333e270"}, "docker": "quay.io/biocontainers/biscuit", "aliases": {"QC.sh": "/usr/local/bin/QC.sh", "biscuit": "/usr/local/bin/biscuit", "build_biscuit_QC_assets.pl": "/usr/local/bin/build_biscuit_QC_assets.pl", "build_biscuit_QC_assets.pl.bak": "/usr/local/bin/build_biscuit_QC_assets.pl.bak", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biscuit.
@@ -134,6 +136,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/build_biscuit_QC_assets.pl   
 $ singularity exec <container> /usr/local/bin/build_biscuit_QC_assets.pl.bak
 $ podman run --it --rm --entrypoint /usr/local/bin/build_biscuit_QC_assets.pl.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/build_biscuit_QC_assets.pl.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

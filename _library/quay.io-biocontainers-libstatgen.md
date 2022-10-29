@@ -4,17 +4,14 @@ name:  "quay.io/biocontainers/libstatgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libstatgen/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/libstatgen/container.yaml"
-updated_at: "2022-10-29 05:54:55.682876"
+updated_at: "2022-10-29 07:54:09.430361"
 latest: "1.0.5--he941832_0"
 container_url: "https://biocontainers.pro/tools/libstatgen"
-aliases:
- - "activate"
- - "conda"
- - "deactivate"
+
 versions:
  - "1.0.5--he941832_0"
 description: "shpc-registry automated BioContainers addition for libstatgen"
-config: {"url": "https://biocontainers.pro/tools/libstatgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libstatgen", "latest": {"1.0.5--he941832_0": "sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a"}, "tags": {"1.0.5--he941832_0": "sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a"}, "docker": "quay.io/biocontainers/libstatgen", "aliases": {"activate": "/usr/local/bin/activate", "conda": "/usr/local/bin/conda", "deactivate": "/usr/local/bin/deactivate"}}
+config: {"url": "https://biocontainers.pro/tools/libstatgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libstatgen", "latest": {"1.0.5--he941832_0": "sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a"}, "tags": {"1.0.5--he941832_0": "sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a"}, "docker": "quay.io/biocontainers/libstatgen"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libstatgen.
@@ -100,32 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### activate
+
+#### libstatgen
 
 ```bash
-$ singularity exec <container> /usr/local/bin/activate
-$ podman run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
-
-#### conda
-
-```bash
-$ singularity exec <container> /usr/local/bin/conda
-$ podman run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### deactivate
-
-```bash
-$ singularity exec <container> /usr/local/bin/deactivate
-$ podman run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,20 +4,20 @@ name:  "quay.io/biocontainers/collectl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collectl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/collectl/container.yaml"
-updated_at: "2022-10-29 05:47:29.648245"
+updated_at: "2022-10-29 07:48:42.260755"
 latest: "4.0.4--pl5.22.0_3"
 container_url: "https://biocontainers.pro/tools/collectl"
 aliases:
  - "collectl"
  - "colmux"
- - "c2ph"
  - "perl5.22.0"
- - "podselect"
+ - "c2ph"
  - "pstruct"
+ - "podselect"
 versions:
  - "4.0.4--pl5.22.0_3"
 description: "shpc-registry automated BioContainers addition for collectl"
-config: {"url": "https://biocontainers.pro/tools/collectl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collectl", "latest": {"4.0.4--pl5.22.0_3": "sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089"}, "tags": {"4.0.4--pl5.22.0_3": "sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089"}, "docker": "quay.io/biocontainers/collectl", "aliases": {"collectl": "/usr/local/bin/collectl", "colmux": "/usr/local/bin/colmux", "c2ph": "/usr/local/bin/c2ph", "perl5.22.0": "/usr/local/bin/perl5.22.0", "podselect": "/usr/local/bin/podselect", "pstruct": "/usr/local/bin/pstruct"}}
+config: {"url": "https://biocontainers.pro/tools/collectl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for collectl", "latest": {"4.0.4--pl5.22.0_3": "sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089"}, "tags": {"4.0.4--pl5.22.0_3": "sha256:d696215f7d0c43c53e3d6f878ea02814744f03580a84ecd9435399b5ac45a089"}, "docker": "quay.io/biocontainers/collectl", "aliases": {"collectl": "/usr/local/bin/collectl", "colmux": "/usr/local/bin/colmux", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/collectl.
@@ -121,15 +121,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/colmux   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### c2ph
-
-```bash
-$ singularity exec <container> /usr/local/bin/c2ph
-$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### perl5.22.0
 
 ```bash
@@ -139,12 +130,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${P
 ```
 
 
-#### podselect
+#### c2ph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/podselect
-$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c2ph
+$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -154,6 +145,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/pstruct
 $ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

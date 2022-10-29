@@ -4,15 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-chimp.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chimp.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chimp.db0/container.yaml"
-updated_at: "2022-10-29 05:58:45.885813"
+updated_at: "2022-10-29 07:56:56.490451"
 latest: "3.8.2--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chimp.db0"
 aliases:
+ - ".bioconductor-chimp.db0-post-link.sh"
+ - ".bioconductor-chimp.db0-pre-unlink.sh"
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "3.8.2--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-chimp.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chimp.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chimp.db0", "latest": {"3.8.2--r36_1": "sha256:3cab0a3f7148df56440a396fc0d7c0bb4c28ab017e061b93a1596e0efac86c47"}, "tags": {"3.8.2--r36_1": "sha256:3cab0a3f7148df56440a396fc0d7c0bb4c28ab017e061b93a1596e0efac86c47"}, "docker": "quay.io/biocontainers/bioconductor-chimp.db0", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chimp.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chimp.db0", "latest": {"3.8.2--r36_1": "sha256:3cab0a3f7148df56440a396fc0d7c0bb4c28ab017e061b93a1596e0efac86c47"}, "tags": {"3.8.2--r36_1": "sha256:3cab0a3f7148df56440a396fc0d7c0bb4c28ab017e061b93a1596e0efac86c47"}, "docker": "quay.io/biocontainers/bioconductor-chimp.db0", "aliases": {".bioconductor-chimp.db0-post-link.sh": "/usr/local/bin/.bioconductor-chimp.db0-post-link.sh", ".bioconductor-chimp.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-chimp.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chimp.db0.
@@ -98,12 +102,48 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-chimp.db0-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-chimp.db0-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-chimp.db0-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-chimp.db0-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-chimp.db0-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-chimp.db0-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-chimp.db0-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-chimp.db0-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gio-launch-desktop
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

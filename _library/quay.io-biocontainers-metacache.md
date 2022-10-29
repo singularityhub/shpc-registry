@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metacache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metacache/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metacache/container.yaml"
-updated_at: "2022-10-29 05:57:36.647078"
+updated_at: "2022-10-29 07:56:06.004381"
 latest: "2.2.3--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/metacache"
 aliases:
@@ -16,20 +16,20 @@ aliases:
  - "metacache-db-info"
  - "metacache-partition-genomes"
  - "summarize-results"
+ - "gawk-5.1.0"
  - "awk"
  - "gawk"
- - "gawk-5.1.0"
- - "idle"
  - "idn2"
- - "python-config"
- - "python2"
+ - "wget"
  - "python2-config"
- - "python2.7"
  - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
 versions:
  - "2.2.3--hd03093a_1"
 description: "shpc-registry automated BioContainers addition for metacache"
-config: {"url": "https://biocontainers.pro/tools/metacache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metacache", "latest": {"2.2.3--hd03093a_1": "sha256:85c927d789db3e9da7d0435892d528d1c8e44d1e6e5446d4bb68c40f163739ba"}, "tags": {"2.2.3--hd03093a_1": "sha256:85c927d789db3e9da7d0435892d528d1c8e44d1e6e5446d4bb68c40f163739ba"}, "docker": "quay.io/biocontainers/metacache", "aliases": {"download-ncbi-genomes": "/usr/local/bin/download-ncbi-genomes", "download-ncbi-taxmaps": "/usr/local/bin/download-ncbi-taxmaps", "download-ncbi-taxonomy": "/usr/local/bin/download-ncbi-taxonomy", "metacache": "/usr/local/bin/metacache", "metacache-build-refseq": "/usr/local/bin/metacache-build-refseq", "metacache-db-info": "/usr/local/bin/metacache-db-info", "metacache-partition-genomes": "/usr/local/bin/metacache-partition-genomes", "summarize-results": "/usr/local/bin/summarize-results", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "idle": "/usr/local/bin/idle", "idn2": "/usr/local/bin/idn2", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/metacache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metacache", "latest": {"2.2.3--hd03093a_1": "sha256:85c927d789db3e9da7d0435892d528d1c8e44d1e6e5446d4bb68c40f163739ba"}, "tags": {"2.2.3--hd03093a_1": "sha256:85c927d789db3e9da7d0435892d528d1c8e44d1e6e5446d4bb68c40f163739ba"}, "docker": "quay.io/biocontainers/metacache", "aliases": {"download-ncbi-genomes": "/usr/local/bin/download-ncbi-genomes", "download-ncbi-taxmaps": "/usr/local/bin/download-ncbi-taxmaps", "download-ncbi-taxonomy": "/usr/local/bin/download-ncbi-taxonomy", "metacache": "/usr/local/bin/metacache", "metacache-build-refseq": "/usr/local/bin/metacache-build-refseq", "metacache-db-info": "/usr/local/bin/metacache-db-info", "metacache-partition-genomes": "/usr/local/bin/metacache-partition-genomes", "summarize-results": "/usr/local/bin/summarize-results", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metacache.
@@ -187,6 +187,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarize-results   -v ${PWD}
 ```
 
 
+#### gawk-5.1.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### awk
 
 ```bash
@@ -205,24 +214,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### gawk-5.1.0
-
-```bash
-$ singularity exec <container> /usr/local/bin/gawk-5.1.0
-$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### idn2
 
 ```bash
@@ -232,21 +223,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### python-config
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -259,6 +241,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w
 ```
 
 
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### python2.7
 
 ```bash
@@ -268,12 +268,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PW
 ```
 
 
-#### python2.7-config
+#### idle
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

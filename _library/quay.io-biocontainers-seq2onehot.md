@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/seq2onehot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seq2onehot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/seq2onehot/container.yaml"
-updated_at: "2022-10-29 05:53:53.249931"
+updated_at: "2022-10-29 07:53:24.623297"
 latest: "0.0.1--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/seq2onehot"
 aliases:
  - "seq2onehot"
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "0.0.1--pyhfa5458b_0"
 description: "shpc-registry automated BioContainers addition for seq2onehot"
-config: {"url": "https://biocontainers.pro/tools/seq2onehot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2onehot", "latest": {"0.0.1--pyhfa5458b_0": "sha256:6d116b0b2ea78644926072e1dbc2b0891e7810e526a4b5069c3a6122022bc31f"}, "tags": {"0.0.1--pyhfa5458b_0": "sha256:6d116b0b2ea78644926072e1dbc2b0891e7810e526a4b5069c3a6122022bc31f"}, "docker": "quay.io/biocontainers/seq2onehot", "aliases": {"seq2onehot": "/usr/local/bin/seq2onehot", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/seq2onehot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seq2onehot", "latest": {"0.0.1--pyhfa5458b_0": "sha256:6d116b0b2ea78644926072e1dbc2b0891e7810e526a4b5069c3a6122022bc31f"}, "tags": {"0.0.1--pyhfa5458b_0": "sha256:6d116b0b2ea78644926072e1dbc2b0891e7810e526a4b5069c3a6122022bc31f"}, "docker": "quay.io/biocontainers/seq2onehot", "aliases": {"seq2onehot": "/usr/local/bin/seq2onehot", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seq2onehot.
@@ -113,21 +113,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seq2onehot   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-humanaffydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-humanaffydata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-humanaffydata/container.yaml"
-updated_at: "2022-10-29 05:31:59.143257"
+updated_at: "2022-10-29 07:37:15.902314"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-humanaffydata"
 aliases:
+ - ".bioconductor-humanaffydata-post-link.sh"
+ - ".bioconductor-humanaffydata-pre-unlink.sh"
  - "wget"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-humanaffydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-humanaffydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humanaffydata", "latest": {"1.8.0--r351_0": "sha256:1ba79b3dc661daf357d765003cb7bbaf768c5d697f07758eb4a1926f940ce970"}, "tags": {"1.8.0--r351_0": "sha256:1ba79b3dc661daf357d765003cb7bbaf768c5d697f07758eb4a1926f940ce970"}, "docker": "quay.io/biocontainers/bioconductor-humanaffydata", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-humanaffydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-humanaffydata", "latest": {"1.8.0--r351_0": "sha256:1ba79b3dc661daf357d765003cb7bbaf768c5d697f07758eb4a1926f940ce970"}, "tags": {"1.8.0--r351_0": "sha256:1ba79b3dc661daf357d765003cb7bbaf768c5d697f07758eb4a1926f940ce970"}, "docker": "quay.io/biocontainers/bioconductor-humanaffydata", "aliases": {".bioconductor-humanaffydata-post-link.sh": "/usr/local/bin/.bioconductor-humanaffydata-post-link.sh", ".bioconductor-humanaffydata-pre-unlink.sh": "/usr/local/bin/.bioconductor-humanaffydata-pre-unlink.sh", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-humanaffydata.
@@ -98,12 +102,48 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-humanaffydata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-humanaffydata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-humanaffydata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-humanaffydata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-humanaffydata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-humanaffydata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-humanaffydata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-humanaffydata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### wget
 
 ```bash
 $ singularity exec <container> /usr/local/bin/wget
 $ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

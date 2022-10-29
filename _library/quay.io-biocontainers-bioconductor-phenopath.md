@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-phenopath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenopath/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenopath/container.yaml"
-updated_at: "2022-10-29 05:57:29.546975"
+updated_at: "2022-10-29 07:56:00.835462"
 latest: "1.8.0--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenopath"
 aliases:
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r36he1b5a44_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-phenopath"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phenopath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenopath", "latest": {"1.8.0--r36he1b5a44_1": "sha256:45a3db9671f61659909e05c5c0c77f87c6b8db3752efcf5299b7b70d0b955b5a"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:45a3db9671f61659909e05c5c0c77f87c6b8db3752efcf5299b7b70d0b955b5a"}, "docker": "quay.io/biocontainers/bioconductor-phenopath", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phenopath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phenopath", "latest": {"1.8.0--r36he1b5a44_1": "sha256:45a3db9671f61659909e05c5c0c77f87c6b8db3752efcf5299b7b70d0b955b5a"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:45a3db9671f61659909e05c5c0c77f87c6b8db3752efcf5299b7b70d0b955b5a"}, "docker": "quay.io/biocontainers/bioconductor-phenopath", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phenopath.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/abra2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abra2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abra2/container.yaml"
-updated_at: "2022-10-29 05:42:40.127569"
+updated_at: "2022-10-29 07:45:07.968024"
 latest: "2.24--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/abra2"
 aliases:
  - "abra2"
- - "aserver"
+ - "basenc"
  - "b2sum"
  - "base32"
  - "base64"
  - "basename"
- - "basenc"
  - "cat"
  - "chcon"
  - "chgrp"
  - "chmod"
+ - "chown"
 versions:
  - "2.24--h9f5acd7_1"
 description: "shpc-registry automated BioContainers addition for abra2"
-config: {"url": "https://biocontainers.pro/tools/abra2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abra2", "latest": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "aserver": "/usr/local/bin/aserver", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
+config: {"url": "https://biocontainers.pro/tools/abra2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abra2", "latest": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abra2.
@@ -117,12 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abra2   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### aserver
+#### basenc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,15 +162,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD
 ```
 
 
-#### basenc
-
-```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cat
 
 ```bash
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/chmod
 $ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chown
+
+```bash
+$ singularity exec <container> /usr/local/bin/chown
+$ podman run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

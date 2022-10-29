@@ -4,18 +4,20 @@ name:  "quay.io/biocontainers/perl-tie-log4perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-log4perl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-log4perl/container.yaml"
-updated_at: "2022-10-29 05:35:51.904858"
+updated_at: "2022-10-29 07:40:06.446020"
 latest: "0.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-tie-log4perl"
 aliases:
+ - "l4p-tmpl"
  - "dbilogstrip"
  - "dbiprof"
  - "dbiproxy"
- - "l4p-tmpl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.1--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-tie-log4perl"
-config: {"url": "https://biocontainers.pro/tools/perl-tie-log4perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-log4perl", "latest": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "tags": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "docker": "quay.io/biocontainers/perl-tie-log4perl", "aliases": {"dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "l4p-tmpl": "/usr/local/bin/l4p-tmpl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-tie-log4perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-log4perl", "latest": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "tags": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "docker": "quay.io/biocontainers/perl-tie-log4perl", "aliases": {"l4p-tmpl": "/usr/local/bin/l4p-tmpl", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-tie-log4perl.
@@ -101,6 +103,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### l4p-tmpl
+
+```bash
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dbilogstrip
 
 ```bash
@@ -128,12 +139,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD
 ```
 
 
-#### l4p-tmpl
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/l4p-tmpl
-$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

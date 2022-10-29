@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/bioconductor-destiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-destiny/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-destiny/container.yaml"
-updated_at: "2022-10-29 05:40:52.369609"
+updated_at: "2022-10-29 07:43:47.455468"
 latest: "3.8.1--r41hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-destiny"
 aliases:
- - "2to3-3.10"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "3.8.1--r41hc247a5b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-destiny"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-destiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-destiny", "latest": {"3.8.1--r41hc247a5b_1": "sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0"}, "tags": {"3.8.1--r41hc247a5b_1": "sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0"}, "docker": "quay.io/biocontainers/bioconductor-destiny", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-destiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-destiny", "latest": {"3.8.1--r41hc247a5b_1": "sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0"}, "tags": {"3.8.1--r41hc247a5b_1": "sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0"}, "docker": "quay.io/biocontainers/bioconductor-destiny", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-destiny.
@@ -104,21 +104,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

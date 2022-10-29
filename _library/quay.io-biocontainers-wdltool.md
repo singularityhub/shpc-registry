@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/wdltool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wdltool/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wdltool/container.yaml"
-updated_at: "2022-10-29 05:37:06.322824"
+updated_at: "2022-10-29 07:41:01.521756"
 latest: "0.9--py36_0"
 container_url: "https://biocontainers.pro/tools/wdltool"
 aliases:
  - "wdltool"
- - "2to3-3.6"
- - "appletviewer"
  - "easy_install-3.6"
  - "extcheck"
- - "idle3.6"
- - "idlj"
- - "jar"
- - "jarsigner"
- - "java"
  - "java-rmi.cgi"
+ - "javah"
+ - "jhat"
+ - "jsadebugd"
+ - "native2ascii"
+ - "policytool"
+ - "appletviewer"
+ - "idlj"
 versions:
  - "0.9--py36_0"
 description: "shpc-registry automated BioContainers addition for wdltool"
-config: {"url": "https://biocontainers.pro/tools/wdltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wdltool", "latest": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6"}, "tags": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6"}, "docker": "quay.io/biocontainers/wdltool", "aliases": {"wdltool": "/usr/local/bin/wdltool", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "extcheck": "/usr/local/bin/extcheck", "idle3.6": "/usr/local/bin/idle3.6", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi"}}
+config: {"url": "https://biocontainers.pro/tools/wdltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wdltool", "latest": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6"}, "tags": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6"}, "docker": "quay.io/biocontainers/wdltool", "aliases": {"wdltool": "/usr/local/bin/wdltool", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wdltool.
@@ -117,24 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wdltool   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### appletviewer
-
-```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### easy_install-3.6
 
 ```bash
@@ -153,12 +135,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle3.6
+#### java-rmi.cgi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javah
+
+```bash
+$ singularity exec <container> /usr/local/bin/javah
+$ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jhat
+
+```bash
+$ singularity exec <container> /usr/local/bin/jhat
+$ podman run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jsadebugd
+
+```bash
+$ singularity exec <container> /usr/local/bin/jsadebugd
+$ podman run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### native2ascii
+
+```bash
+$ singularity exec <container> /usr/local/bin/native2ascii
+$ podman run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### policytool
+
+```bash
+$ singularity exec <container> /usr/local/bin/policytool
+$ podman run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -168,42 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/idlj
 $ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jar
-
-```bash
-$ singularity exec <container> /usr/local/bin/jar
-$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jarsigner
-
-```bash
-$ singularity exec <container> /usr/local/bin/jarsigner
-$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### java
-
-```bash
-$ singularity exec <container> /usr/local/bin/java
-$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### java-rmi.cgi
-
-```bash
-$ singularity exec <container> /usr/local/bin/java-rmi.cgi
-$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

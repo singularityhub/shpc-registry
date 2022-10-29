@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-hmp2data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hmp2data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hmp2data/container.yaml"
-updated_at: "2022-10-29 05:55:23.328690"
+updated_at: "2022-10-29 07:54:29.545459"
 latest: "1.8.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hmp2data"
 aliases:
+ - ".bioconductor-hmp2data-post-link.sh"
+ - ".bioconductor-hmp2data-pre-unlink.sh"
+ - "pandoc-server"
  - "glpsol"
  - "pandoc"
- - "pandoc-server"
 versions:
  - "1.8.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hmp2data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hmp2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hmp2data", "latest": {"1.8.0--r41hdfd78af_1": "sha256:e666d9b5e01e13860a6793f8e6b20f988b27da681366b6114d3f4a8cd8512a6e"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:e666d9b5e01e13860a6793f8e6b20f988b27da681366b6114d3f4a8cd8512a6e"}, "docker": "quay.io/biocontainers/bioconductor-hmp2data", "aliases": {"glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc", "pandoc-server": "/usr/local/bin/pandoc-server"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hmp2data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hmp2data", "latest": {"1.8.0--r41hdfd78af_1": "sha256:e666d9b5e01e13860a6793f8e6b20f988b27da681366b6114d3f4a8cd8512a6e"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:e666d9b5e01e13860a6793f8e6b20f988b27da681366b6114d3f4a8cd8512a6e"}, "docker": "quay.io/biocontainers/bioconductor-hmp2data", "aliases": {".bioconductor-hmp2data-post-link.sh": "/usr/local/bin/.bioconductor-hmp2data-post-link.sh", ".bioconductor-hmp2data-pre-unlink.sh": "/usr/local/bin/.bioconductor-hmp2data-pre-unlink.sh", "pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hmp2data.
@@ -100,6 +102,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-hmp2data-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-hmp2data-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hmp2data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hmp2data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-hmp2data-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-hmp2data-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hmp2data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hmp2data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pandoc-server
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc-server
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### glpsol
 
 ```bash
@@ -115,15 +144,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/pandoc
 $ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pandoc-server
-
-```bash
-$ singularity exec <container> /usr/local/bin/pandoc-server
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

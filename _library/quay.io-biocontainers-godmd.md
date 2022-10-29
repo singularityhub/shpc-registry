@@ -4,10 +4,11 @@ name:  "quay.io/biocontainers/godmd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/godmd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/godmd/container.yaml"
-updated_at: "2022-10-29 05:32:14.426102"
+updated_at: "2022-10-29 07:37:27.008489"
 latest: "1.0.0--hcce0283_4"
 container_url: "https://biocontainers.pro/tools/godmd"
 aliases:
+ - ".godmd-post-link.sh"
  - "discrete"
  - "2to3-3.7"
  - "idle3.7"
@@ -17,10 +18,11 @@ aliases:
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "1.0.0--hcce0283_4"
 description: "shpc-registry automated BioContainers addition for godmd"
-config: {"url": "https://biocontainers.pro/tools/godmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for godmd", "latest": {"1.0.0--hcce0283_4": "sha256:a974e1954075f0cd735d404c9f4146fe2b736246101da36797516dd75021de1c"}, "tags": {"1.0.0--hcce0283_4": "sha256:a974e1954075f0cd735d404c9f4146fe2b736246101da36797516dd75021de1c"}, "docker": "quay.io/biocontainers/godmd", "aliases": {"discrete": "/usr/local/bin/discrete", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/godmd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for godmd", "latest": {"1.0.0--hcce0283_4": "sha256:a974e1954075f0cd735d404c9f4146fe2b736246101da36797516dd75021de1c"}, "tags": {"1.0.0--hcce0283_4": "sha256:a974e1954075f0cd735d404c9f4146fe2b736246101da36797516dd75021de1c"}, "docker": "quay.io/biocontainers/godmd", "aliases": {".godmd-post-link.sh": "/usr/local/bin/.godmd-post-link.sh", "discrete": "/usr/local/bin/discrete", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/godmd.
@@ -106,6 +108,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .godmd-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.godmd-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.godmd-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.godmd-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### discrete
 
 ```bash
@@ -184,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

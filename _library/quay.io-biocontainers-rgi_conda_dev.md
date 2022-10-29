@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rgi_conda_dev"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
-updated_at: "2022-10-29 05:33:24.372470"
+updated_at: "2022-10-29 07:38:18.520934"
 latest: "3.1.2--py27_1"
 container_url: "https://biocontainers.pro/tools/rgi_conda_dev"
 aliases:
@@ -13,20 +13,20 @@ aliases:
  - "rgi_jsonformat"
  - "rgi_jsontab"
  - "rgi_load"
- - "blast_formatter"
- - "blastdb_aliastool"
- - "blastdbcheck"
- - "blastdbcmd"
- - "blastdbcp"
- - "blastn"
- - "blastp"
- - "blastx"
- - "bmp2tiff"
- - "convert2blastmask"
+ - "createfontdatachunk.py"
+ - "enhancer.py"
+ - "explode.py"
+ - "gifmaker.py"
+ - "painter.py"
+ - "player.py"
+ - "thresholder.py"
+ - "viewer.py"
+ - "pilconvert.py"
+ - "pildriver.py"
 versions:
  - "3.1.2--py27_1"
 description: "shpc-registry automated BioContainers addition for rgi_conda_dev"
-config: {"url": "https://biocontainers.pro/tools/rgi_conda_dev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi_conda_dev", "latest": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "tags": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "docker": "quay.io/biocontainers/rgi_conda_dev", "aliases": {"rgi": "/usr/local/bin/rgi", "rgi_clean": "/usr/local/bin/rgi_clean", "rgi_jsonformat": "/usr/local/bin/rgi_jsonformat", "rgi_jsontab": "/usr/local/bin/rgi_jsontab", "rgi_load": "/usr/local/bin/rgi_load", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "bmp2tiff": "/usr/local/bin/bmp2tiff", "convert2blastmask": "/usr/local/bin/convert2blastmask"}}
+config: {"url": "https://biocontainers.pro/tools/rgi_conda_dev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi_conda_dev", "latest": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "tags": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "docker": "quay.io/biocontainers/rgi_conda_dev", "aliases": {"rgi": "/usr/local/bin/rgi", "rgi_clean": "/usr/local/bin/rgi_clean", "rgi_jsonformat": "/usr/local/bin/rgi_jsonformat", "rgi_jsontab": "/usr/local/bin/rgi_jsontab", "rgi_load": "/usr/local/bin/rgi_load", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rgi_conda_dev.
@@ -157,93 +157,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rgi_load   -v ${PWD} -w ${PWD
 ```
 
 
-#### blast_formatter
+#### createfontdatachunk.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/createfontdatachunk.py
+$ podman run --it --rm --entrypoint /usr/local/bin/createfontdatachunk.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/createfontdatachunk.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdb_aliastool
+#### enhancer.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/enhancer.py
+$ podman run --it --rm --entrypoint /usr/local/bin/enhancer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/enhancer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcheck
+#### explode.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/explode.py
+$ podman run --it --rm --entrypoint /usr/local/bin/explode.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/explode.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcmd
+#### gifmaker.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcmd
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gifmaker.py
+$ podman run --it --rm --entrypoint /usr/local/bin/gifmaker.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifmaker.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcp
+#### painter.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/painter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/painter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/painter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastn
+#### player.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastn
-$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/player.py
+$ podman run --it --rm --entrypoint /usr/local/bin/player.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/player.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastp
+#### thresholder.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/thresholder.py
+$ podman run --it --rm --entrypoint /usr/local/bin/thresholder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thresholder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastx
+#### viewer.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastx
-$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/viewer.py
+$ podman run --it --rm --entrypoint /usr/local/bin/viewer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/viewer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bmp2tiff
+#### pilconvert.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bmp2tiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pilconvert.py
+$ podman run --it --rm --entrypoint /usr/local/bin/pilconvert.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pilconvert.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### convert2blastmask
+#### pildriver.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/convert2blastmask
-$ podman run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pildriver.py
+$ podman run --it --rm --entrypoint /usr/local/bin/pildriver.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pildriver.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

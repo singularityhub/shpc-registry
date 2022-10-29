@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/python-igraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-igraph/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-igraph/container.yaml"
-updated_at: "2022-10-29 05:56:13.953055"
+updated_at: "2022-10-29 07:55:06.173312"
 latest: "0.7.1.post6--py35_2"
 container_url: "https://biocontainers.pro/tools/python-igraph"
 aliases:
- - "2to3-3.5"
- - "easy_install-3.5"
- - "idle3.5"
  - "igraph"
+ - "easy_install-3.5"
+ - "2to3-3.5"
+ - "idle3.5"
  - "pydoc3.5"
  - "python3.5"
  - "python3.5-config"
  - "python3.5m"
  - "python3.5m-config"
- - "pyvenv"
+ - "pyvenv-3.5"
 versions:
  - "0.7.1.post6--py35_2"
 description: "shpc-registry automated BioContainers addition for python-igraph"
-config: {"url": "https://biocontainers.pro/tools/python-igraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-igraph", "latest": {"0.7.1.post6--py35_2": "sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1"}, "tags": {"0.7.1.post6--py35_2": "sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1"}, "docker": "quay.io/biocontainers/python-igraph", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "idle3.5": "/usr/local/bin/idle3.5", "igraph": "/usr/local/bin/igraph", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/python-igraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-igraph", "latest": {"0.7.1.post6--py35_2": "sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1"}, "tags": {"0.7.1.post6--py35_2": "sha256:89d264cc57398bac41d71f28d56312050ac89ec7c702a8720791510e68bccba1"}, "docker": "quay.io/biocontainers/python-igraph", "aliases": {"igraph": "/usr/local/bin/igraph", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-igraph.
@@ -107,12 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.5
+#### igraph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/igraph
+$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -125,21 +125,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} 
 ```
 
 
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.5
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.5
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### igraph
-
-```bash
-$ singularity exec <container> /usr/local/bin/igraph
-$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -188,12 +188,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
+#### pyvenv-3.5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyvenv-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/frc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/frc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/frc/container.yaml"
-updated_at: "2022-10-29 05:36:41.371655"
+updated_at: "2022-10-29 07:40:43.150981"
 latest: "5b3f53e--boost1.64_0"
 container_url: "https://biocontainers.pro/tools/frc"
 aliases:
  - "FRC"
  - "bamtools-2.4.0"
- - "2to3-3.6"
- - "ace2sam"
  - "bamtools"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
  - "easy_install-3.6"
- - "export2sam.pl"
+ - "2to3-3.6"
  - "idle3.6"
- - "interpolate_sam.pl"
- - "maq2sam-long"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv-3.6"
 versions:
  - "5b3f53e--boost1.64_0"
 description: "shpc-registry automated BioContainers addition for frc"
-config: {"url": "https://biocontainers.pro/tools/frc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for frc", "latest": {"5b3f53e--boost1.64_0": "sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050"}, "tags": {"5b3f53e--boost1.64_0": "sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050"}, "docker": "quay.io/biocontainers/frc", "aliases": {"FRC": "/usr/local/bin/FRC", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "bamtools": "/usr/local/bin/bamtools", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "export2sam.pl": "/usr/local/bin/export2sam.pl", "idle3.6": "/usr/local/bin/idle3.6", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
+config: {"url": "https://biocontainers.pro/tools/frc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for frc", "latest": {"5b3f53e--boost1.64_0": "sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050"}, "tags": {"5b3f53e--boost1.64_0": "sha256:41ae5f229cb39b54122788ea30e5fc7653c710bcd7e41ce56add99e931ea4050"}, "docker": "quay.io/biocontainers/frc", "aliases": {"FRC": "/usr/local/bin/FRC", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bamtools": "/usr/local/bin/bamtools", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/frc.
@@ -127,48 +127,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bamtools-2.4.0   -v ${PWD} -w
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bamtools
 
 ```bash
 $ singularity exec <container> /usr/local/bin/bamtools
 $ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -181,12 +145,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} 
 ```
 
 
-#### export2sam.pl
+#### 2to3-3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -199,21 +163,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD}
 ```
 
 
-#### interpolate_sam.pl
+#### pydoc3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### maq2sam-long
+#### python3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/maq2sam-long
-$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

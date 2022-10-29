@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iva/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/iva/container.yaml"
-updated_at: "2022-10-29 05:32:53.646352"
+updated_at: "2022-10-29 07:37:55.915695"
 latest: "1.0.9--py_2"
 container_url: "https://biocontainers.pro/tools/iva"
 aliases:
@@ -21,20 +21,20 @@ aliases:
  - "splitmates"
  - "splitreads"
  - "trunkreads"
- - "2to3-3.7"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
+ - "kmc"
+ - "kmc_dump"
+ - "kmc_tools"
+ - "fastaq"
+ - "mapview"
+ - "mgaps"
+ - "run-mummer1"
+ - "run-mummer3"
  - "combineMUMs"
  - "delta-filter"
- - "dnadiff"
- - "exact-tandems"
- - "export2sam.pl"
 versions:
  - "1.0.9--py_2"
 description: "shpc-registry automated BioContainers addition for iva"
-config: {"url": "https://biocontainers.pro/tools/iva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iva", "latest": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "tags": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "docker": "quay.io/biocontainers/iva", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "iva": "/usr/local/bin/iva", "iva_qc": "/usr/local/bin/iva_qc", "iva_qc_make_db": "/usr/local/bin/iva_qc_make_db", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/iva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iva", "latest": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "tags": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "docker": "quay.io/biocontainers/iva", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "iva": "/usr/local/bin/iva", "iva_qc": "/usr/local/bin/iva_qc", "iva_qc_make_db": "/usr/local/bin/iva_qc_make_db", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iva.
@@ -237,48 +237,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/trunkreads   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.7
+#### kmc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmc
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### kmc_dump
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmc_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### kmc_tools
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmc_tools
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### fastaq
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastaq
+$ podman run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### mapview
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mapview
+$ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mgaps
+
+```bash
+$ singularity exec <container> /usr/local/bin/mgaps
+$ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run-mummer1
+
+```bash
+$ singularity exec <container> /usr/local/bin/run-mummer1
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run-mummer3
+
+```bash
+$ singularity exec <container> /usr/local/bin/run-mummer3
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -297,33 +324,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/delta-filter
 $ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dnadiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/dnadiff
-$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### exact-tandems
-
-```bash
-$ singularity exec <container> /usr/local/bin/exact-tandems
-$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### export2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bftools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bftools/container.yaml"
-updated_at: "2022-10-29 05:52:44.151887"
+updated_at: "2022-10-29 07:52:33.635248"
 latest: "6.7.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bftools"
 aliases:
@@ -18,22 +18,23 @@ aliases:
  - "logback.xml"
  - "mkfake"
  - "showinf"
+ - "tiffcomment"
  - "xmlindent"
  - "xmlvalid"
- - "aserver"
+ - "metadata_conda_debug.yaml"
+ - "jpackage"
+ - "cups-config"
+ - "ippeveprinter"
+ - "ipptool"
  - "build_env_setup.sh"
  - "conda_build.sh"
- - "cups-config"
- - "gif2rgb"
- - "gifbuild"
- - "gifclrmp"
- - "giffix"
- - "giftext"
- - "giftool"
+ - "jfr"
+ - "aserver"
+ - "jdeprscan"
 versions:
  - "6.7.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bftools"
-config: {"url": "https://biocontainers.pro/tools/bftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bftools", "latest": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "tags": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "docker": "quay.io/biocontainers/bftools", "aliases": {"bf.sh": "/usr/local/bin/bf.sh", "bfconvert": "/usr/local/bin/bfconvert", "bioformats_package.jar": "/usr/local/bin/bioformats_package.jar", "config.sh": "/usr/local/bin/config.sh", "domainlist": "/usr/local/bin/domainlist", "formatlist": "/usr/local/bin/formatlist", "ijview": "/usr/local/bin/ijview", "logback.xml": "/usr/local/bin/logback.xml", "mkfake": "/usr/local/bin/mkfake", "showinf": "/usr/local/bin/showinf", "xmlindent": "/usr/local/bin/xmlindent", "xmlvalid": "/usr/local/bin/xmlvalid", "aserver": "/usr/local/bin/aserver", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "cups-config": "/usr/local/bin/cups-config", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
+config: {"url": "https://biocontainers.pro/tools/bftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bftools", "latest": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "tags": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "docker": "quay.io/biocontainers/bftools", "aliases": {"bf.sh": "/usr/local/bin/bf.sh", "bfconvert": "/usr/local/bin/bfconvert", "bioformats_package.jar": "/usr/local/bin/bioformats_package.jar", "config.sh": "/usr/local/bin/config.sh", "domainlist": "/usr/local/bin/domainlist", "formatlist": "/usr/local/bin/formatlist", "ijview": "/usr/local/bin/ijview", "logback.xml": "/usr/local/bin/logback.xml", "mkfake": "/usr/local/bin/mkfake", "showinf": "/usr/local/bin/showinf", "tiffcomment": "/usr/local/bin/tiffcomment", "xmlindent": "/usr/local/bin/xmlindent", "xmlvalid": "/usr/local/bin/xmlvalid", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "jpackage": "/usr/local/bin/jpackage", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "jfr": "/usr/local/bin/jfr", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bftools.
@@ -209,6 +210,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/showinf   -v ${PWD} -w ${PWD}
 ```
 
 
+#### tiffcomment
+
+```bash
+$ singularity exec <container> /usr/local/bin/tiffcomment
+$ podman run --it --rm --entrypoint /usr/local/bin/tiffcomment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tiffcomment   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### xmlindent
 
 ```bash
@@ -227,12 +237,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xmlvalid   -v ${PWD} -w ${PWD
 ```
 
 
-#### aserver
+#### metadata_conda_debug.yaml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/metadata_conda_debug.yaml
+$ podman run --it --rm --entrypoint /usr/local/bin/metadata_conda_debug.yaml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metadata_conda_debug.yaml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpackage
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpackage
+$ podman run --it --rm --entrypoint /usr/local/bin/jpackage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpackage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cups-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/cups-config
+$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ippeveprinter
+
+```bash
+$ singularity exec <container> /usr/local/bin/ippeveprinter
+$ podman run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipptool
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipptool
+$ podman run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -254,66 +300,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w
 ```
 
 
-#### cups-config
+#### jfr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cups-config
-$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jfr
+$ podman run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2rgb
+#### aserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gifbuild
+#### jdeprscan
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gifclrmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/gifclrmp
-$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### giffix
-
-```bash
-$ singularity exec <container> /usr/local/bin/giffix
-$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### giftext
-
-```bash
-$ singularity exec <container> /usr/local/bin/giftext
-$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### giftool
-
-```bash
-$ singularity exec <container> /usr/local/bin/giftool
-$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jdeprscan
+$ podman run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdeprscan   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

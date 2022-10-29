@@ -4,30 +4,32 @@ name:  "quay.io/biocontainers/secapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/secapr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/secapr/container.yaml"
-updated_at: "2022-10-29 05:59:25.922372"
+updated_at: "2022-10-29 07:57:26.035540"
 latest: "2.2.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/secapr"
 aliases:
  - "abyss-rresolver-short"
+ - "abyss-stack-size"
  - "io_demo"
+ - "scriptlive"
  - "secapr"
  - "ucx_info"
  - "ucx_perftest"
  - "ucx_read_profile"
- - "2to3-3.8"
- - "ABYSS"
- - "ABYSS-P"
- - "AdjList"
- - "Consensus"
- - "DAssembler"
- - "DistanceEst"
- - "DistanceEst-ssq"
- - "KAligner"
- - "MergeContigs"
+ - "cal"
+ - "chmem"
+ - "choom"
+ - "chrt"
+ - "col"
+ - "colcrt"
+ - "colrm"
+ - "column"
+ - "dmesg"
+ - "eject"
 versions:
  - "2.2.8--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for secapr"
-config: {"url": "https://biocontainers.pro/tools/secapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for secapr", "latest": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "tags": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "docker": "quay.io/biocontainers/secapr", "aliases": {"abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "io_demo": "/usr/local/bin/io_demo", "secapr": "/usr/local/bin/secapr", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus", "DAssembler": "/usr/local/bin/DAssembler", "DistanceEst": "/usr/local/bin/DistanceEst", "DistanceEst-ssq": "/usr/local/bin/DistanceEst-ssq", "KAligner": "/usr/local/bin/KAligner", "MergeContigs": "/usr/local/bin/MergeContigs"}}
+config: {"url": "https://biocontainers.pro/tools/secapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for secapr", "latest": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "tags": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "docker": "quay.io/biocontainers/secapr", "aliases": {"abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "io_demo": "/usr/local/bin/io_demo", "scriptlive": "/usr/local/bin/scriptlive", "secapr": "/usr/local/bin/secapr", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/secapr.
@@ -122,12 +124,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abyss-rresolver-short   -v ${
 ```
 
 
+#### abyss-stack-size
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-stack-size
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-stack-size   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-stack-size   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### io_demo
 
 ```bash
 $ singularity exec <container> /usr/local/bin/io_demo
 $ podman run --it --rm --entrypoint /usr/local/bin/io_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/io_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scriptlive
+
+```bash
+$ singularity exec <container> /usr/local/bin/scriptlive
+$ podman run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -167,93 +187,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ucx_read_profile   -v ${PWD} 
 ```
 
 
-#### 2to3-3.8
+#### cal
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cal
+$ podman run --it --rm --entrypoint /usr/local/bin/cal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cal   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ABYSS
+#### chmem
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ABYSS
-$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chmem
+$ podman run --it --rm --entrypoint /usr/local/bin/chmem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmem   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ABYSS-P
+#### choom
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ABYSS-P
-$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/choom
+$ podman run --it --rm --entrypoint /usr/local/bin/choom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/choom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### AdjList
+#### chrt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/AdjList
-$ podman run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chrt
+$ podman run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Consensus
+#### col
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Consensus
-$ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/col
+$ podman run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DAssembler
+#### colcrt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DAssembler
-$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/colcrt
+$ podman run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DistanceEst
+#### colrm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/colrm
+$ podman run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DistanceEst-ssq
+#### column
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst-ssq
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/column
+$ podman run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### KAligner
+#### dmesg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/KAligner
-$ podman run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dmesg
+$ podman run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MergeContigs
+#### eject
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MergeContigs
-$ podman run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/eject
+$ podman run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

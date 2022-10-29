@@ -4,38 +4,46 @@ name:  "quay.io/biocontainers/zga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zga/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/zga/container.yaml"
-updated_at: "2022-10-29 05:51:05.073729"
+updated_at: "2022-10-29 07:51:20.666099"
 latest: "0.0.9.post2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/zga"
 aliases:
+ - ".zga-post-link.sh"
+ - "checkm"
  - "dfast"
  - "dfast_file_downloader.py"
  - "file_downloader.py"
+ - "flye"
+ - "flye-minimap2"
  - "flye-modules"
  - "flye-samtools"
  - "ghostx"
  - "mga"
+ - "miniasm"
+ - "minidot"
  - "nxtrim"
+ - "sam_add_rg.pl"
  - "unicycler"
  - "unicycler_align"
  - "unicycler_check"
  - "unicycler_polish"
  - "unicycler_scrub"
+ - "update_version.sh"
  - "zga"
- - "a_sample_mt.sh"
- - "abba-baba"
- - "accn-at-a-time"
- - "ace2sam"
- - "addadapters.sh"
- - "addssu.sh"
- - "adjusthomopolymers.sh"
- - "align-columns"
- - "alimask"
- - "alltoall.sh"
+ - "filter-table"
+ - "kmutate.sh"
+ - "runhmm.sh"
+ - "spdi2prod"
+ - "fastp"
+ - "pilon"
+ - "kmerposition.sh"
+ - "reformatpb.sh"
+ - "rppr"
+ - "summarizecoverage.sh"
 versions:
  - "0.0.9.post2--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for zga"
-config: {"url": "https://biocontainers.pro/tools/zga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zga", "latest": {"0.0.9.post2--pyhdfd78af_1": "sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df"}, "tags": {"0.0.9.post2--pyhdfd78af_1": "sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df"}, "docker": "quay.io/biocontainers/zga", "aliases": {"dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "nxtrim": "/usr/local/bin/nxtrim", "unicycler": "/usr/local/bin/unicycler", "unicycler_align": "/usr/local/bin/unicycler_align", "unicycler_check": "/usr/local/bin/unicycler_check", "unicycler_polish": "/usr/local/bin/unicycler_polish", "unicycler_scrub": "/usr/local/bin/unicycler_scrub", "zga": "/usr/local/bin/zga", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "abba-baba": "/usr/local/bin/abba-baba", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace2sam": "/usr/local/bin/ace2sam", "addadapters.sh": "/usr/local/bin/addadapters.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "alltoall.sh": "/usr/local/bin/alltoall.sh"}}
+config: {"url": "https://biocontainers.pro/tools/zga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for zga", "latest": {"0.0.9.post2--pyhdfd78af_1": "sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df"}, "tags": {"0.0.9.post2--pyhdfd78af_1": "sha256:9934c00a59ba9ceb8ede393026a1255450d9a7a2a8ee7fe5891dd613654b00df"}, "docker": "quay.io/biocontainers/zga", "aliases": {".zga-post-link.sh": "/usr/local/bin/.zga-post-link.sh", "checkm": "/usr/local/bin/checkm", "dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "flye": "/usr/local/bin/flye", "flye-minimap2": "/usr/local/bin/flye-minimap2", "flye-modules": "/usr/local/bin/flye-modules", "flye-samtools": "/usr/local/bin/flye-samtools", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "nxtrim": "/usr/local/bin/nxtrim", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "unicycler": "/usr/local/bin/unicycler", "unicycler_align": "/usr/local/bin/unicycler_align", "unicycler_check": "/usr/local/bin/unicycler_check", "unicycler_polish": "/usr/local/bin/unicycler_polish", "unicycler_scrub": "/usr/local/bin/unicycler_scrub", "update_version.sh": "/usr/local/bin/update_version.sh", "zga": "/usr/local/bin/zga", "filter-table": "/usr/local/bin/filter-table", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "spdi2prod": "/usr/local/bin/spdi2prod", "fastp": "/usr/local/bin/fastp", "pilon": "/usr/local/bin/pilon", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "rppr": "/usr/local/bin/rppr", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/zga.
@@ -121,6 +129,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .zga-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.zga-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.zga-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.zga-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### checkm
+
+```bash
+$ singularity exec <container> /usr/local/bin/checkm
+$ podman run --it --rm --entrypoint /usr/local/bin/checkm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/checkm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dfast
 
 ```bash
@@ -145,6 +171,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dfast_file_downloader.py   -v
 $ singularity exec <container> /usr/local/bin/file_downloader.py
 $ podman run --it --rm --entrypoint /usr/local/bin/file_downloader.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/file_downloader.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### flye
+
+```bash
+$ singularity exec <container> /usr/local/bin/flye
+$ podman run --it --rm --entrypoint /usr/local/bin/flye   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flye   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### flye-minimap2
+
+```bash
+$ singularity exec <container> /usr/local/bin/flye-minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/flye-minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flye-minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -184,12 +228,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mga   -v ${PWD} -w ${PWD} <co
 ```
 
 
+#### miniasm
+
+```bash
+$ singularity exec <container> /usr/local/bin/miniasm
+$ podman run --it --rm --entrypoint /usr/local/bin/miniasm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/miniasm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minidot
+
+```bash
+$ singularity exec <container> /usr/local/bin/minidot
+$ podman run --it --rm --entrypoint /usr/local/bin/minidot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minidot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### nxtrim
 
 ```bash
 $ singularity exec <container> /usr/local/bin/nxtrim
 $ podman run --it --rm --entrypoint /usr/local/bin/nxtrim   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/nxtrim   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sam_add_rg.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/sam_add_rg.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/sam_add_rg.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sam_add_rg.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -238,6 +309,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/unicycler_scrub   -v ${PWD} -
 ```
 
 
+#### update_version.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/update_version.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/update_version.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/update_version.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### zga
 
 ```bash
@@ -247,93 +327,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/zga   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### a_sample_mt.sh
+#### filter-table
 
 ```bash
-$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/filter-table
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-table   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### abba-baba
+#### kmutate.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/abba-baba
-$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmutate.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmutate.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### runhmm.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/runhmm.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/runhmm.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### spdi2prod
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/spdi2prod
+$ podman run --it --rm --entrypoint /usr/local/bin/spdi2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/spdi2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addadapters.sh
+#### fastp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addadapters.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastp
+$ podman run --it --rm --entrypoint /usr/local/bin/fastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addssu.sh
+#### pilon
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addssu.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pilon
+$ podman run --it --rm --entrypoint /usr/local/bin/pilon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pilon   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### adjusthomopolymers.sh
+#### kmerposition.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/adjusthomopolymers.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmerposition.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmerposition.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### reformatpb.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/reformatpb.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/reformatpb.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### rppr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rppr
+$ podman run --it --rm --entrypoint /usr/local/bin/rppr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rppr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alltoall.sh
+#### summarizecoverage.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alltoall.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/summarizecoverage.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/summarizecoverage.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

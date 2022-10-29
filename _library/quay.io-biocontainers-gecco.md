@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/gecco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gecco/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gecco/container.yaml"
-updated_at: "2022-10-29 05:40:25.648901"
+updated_at: "2022-10-29 07:43:27.991620"
 latest: "0.9.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gecco"
 aliases:
  - "gecco"
  - "pyrodigal"
- - "2to3-3.10"
  - "cmark"
- - "f2py3.10"
- - "futurize"
- - "idle3.10"
- - "pasteurize"
- - "pydoc3.10"
+ - "tabulate"
  - "pygmentize"
- - "python3.1"
- - "python3.10"
+ - "tqdm"
+ - "futurize"
+ - "pasteurize"
+ - "f2py3.10"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
 versions:
  - "0.9.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gecco"
-config: {"url": "https://biocontainers.pro/tools/gecco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gecco", "latest": {"0.9.5--pyhdfd78af_0": "sha256:9f1bdcf94165e8596a452d1adae6098311a398121fc1beaa36ebb17d65e3a58c"}, "tags": {"0.9.5--pyhdfd78af_0": "sha256:9f1bdcf94165e8596a452d1adae6098311a398121fc1beaa36ebb17d65e3a58c"}, "docker": "quay.io/biocontainers/gecco", "aliases": {"gecco": "/usr/local/bin/gecco", "pyrodigal": "/usr/local/bin/pyrodigal", "2to3-3.10": "/usr/local/bin/2to3-3.10", "cmark": "/usr/local/bin/cmark", "f2py3.10": "/usr/local/bin/f2py3.10", "futurize": "/usr/local/bin/futurize", "idle3.10": "/usr/local/bin/idle3.10", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.10": "/usr/local/bin/pydoc3.10", "pygmentize": "/usr/local/bin/pygmentize", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/gecco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gecco", "latest": {"0.9.5--pyhdfd78af_0": "sha256:9f1bdcf94165e8596a452d1adae6098311a398121fc1beaa36ebb17d65e3a58c"}, "tags": {"0.9.5--pyhdfd78af_0": "sha256:9f1bdcf94165e8596a452d1adae6098311a398121fc1beaa36ebb17d65e3a58c"}, "docker": "quay.io/biocontainers/gecco", "aliases": {"gecco": "/usr/local/bin/gecco", "pyrodigal": "/usr/local/bin/pyrodigal", "cmark": "/usr/local/bin/cmark", "tabulate": "/usr/local/bin/tabulate", "pygmentize": "/usr/local/bin/pygmentize", "tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gecco.
@@ -127,15 +127,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyrodigal   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cmark
 
 ```bash
@@ -145,48 +136,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### f2py3.10
+#### tabulate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### futurize
-
-```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pasteurize
-
-```bash
-$ singularity exec <container> /usr/local/bin/pasteurize
-$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pydoc3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabulate
+$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -199,21 +154,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${P
 ```
 
 
-#### python3.1
+#### tqdm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python3.1
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### python3.10
+#### futurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

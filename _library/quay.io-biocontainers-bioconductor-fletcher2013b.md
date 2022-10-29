@@ -4,13 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-fletcher2013b"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fletcher2013b/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fletcher2013b/container.yaml"
-updated_at: "2022-10-29 05:33:36.924564"
+updated_at: "2022-10-29 07:38:27.766439"
 latest: "1.30.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-fletcher2013b"
 aliases:
- - "2to3-3.10"
- - "f2py3.10"
+ - ".bioconductor-fletcher2013b-post-link.sh"
+ - ".bioconductor-fletcher2013b-pre-unlink.sh"
  - "glpsol"
+ - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -19,7 +21,7 @@ aliases:
 versions:
  - "1.30.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-fletcher2013b"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fletcher2013b", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fletcher2013b", "latest": {"1.30.0--r41hdfd78af_1": "sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e"}, "docker": "quay.io/biocontainers/bioconductor-fletcher2013b", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "glpsol": "/usr/local/bin/glpsol", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fletcher2013b", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fletcher2013b", "latest": {"1.30.0--r41hdfd78af_1": "sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e"}, "docker": "quay.io/biocontainers/bioconductor-fletcher2013b", "aliases": {".bioconductor-fletcher2013b-post-link.sh": "/usr/local/bin/.bioconductor-fletcher2013b-post-link.sh", ".bioconductor-fletcher2013b-pre-unlink.sh": "/usr/local/bin/.bioconductor-fletcher2013b-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fletcher2013b.
@@ -105,12 +107,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### .bioconductor-fletcher2013b-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-fletcher2013b-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-fletcher2013b-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-fletcher2013b-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-fletcher2013b-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-fletcher2013b-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-fletcher2013b-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-fletcher2013b-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -123,12 +143,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD
 ```
 
 
-#### glpsol
+#### 2to3-3.10
 
 ```bash
-$ singularity exec <container> /usr/local/bin/glpsol
-$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

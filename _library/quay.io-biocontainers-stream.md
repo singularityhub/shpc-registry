@@ -4,27 +4,28 @@ name:  "quay.io/biocontainers/stream"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stream/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/stream/container.yaml"
-updated_at: "2022-10-29 05:56:22.077886"
+updated_at: "2022-10-29 07:55:12.049080"
 latest: "0.4.0--py37r36hc99cbb1_0"
 container_url: "https://biocontainers.pro/tools/stream"
 aliases:
  - "gunicorn"
  - "slugify"
+ - "stream"
  - "stream_run_test"
- - "2to3-3.7"
- - "assistant"
- - "c89"
- - "c99"
- - "canbusutil"
- - "curve_keygen"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
+ - "zip"
+ - "unidecode"
+ - "jupyter-bundlerextension"
+ - "jupyter-nbextension"
+ - "jupyter-notebook"
+ - "jupyter-serverextension"
+ - "unzip"
+ - "jupyter-nbconvert"
+ - "jupyter-kernel"
+ - "jupyter-kernelspec"
 versions:
  - "0.4.0--py37r36hc99cbb1_0"
 description: "shpc-registry automated BioContainers addition for stream"
-config: {"url": "https://biocontainers.pro/tools/stream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stream", "latest": {"0.4.0--py37r36hc99cbb1_0": "sha256:59ebb094505a21d0fe38825be15c968aeda821dc94bc924080cf799e3a420f0a"}, "tags": {"0.4.0--py37r36hc99cbb1_0": "sha256:59ebb094505a21d0fe38825be15c968aeda821dc94bc924080cf799e3a420f0a"}, "docker": "quay.io/biocontainers/stream", "aliases": {"gunicorn": "/usr/local/bin/gunicorn", "slugify": "/usr/local/bin/slugify", "stream_run_test": "/usr/local/bin/stream_run_test", "2to3-3.7": "/usr/local/bin/2to3-3.7", "assistant": "/usr/local/bin/assistant", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "canbusutil": "/usr/local/bin/canbusutil", "curve_keygen": "/usr/local/bin/curve_keygen", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor"}}
+config: {"url": "https://biocontainers.pro/tools/stream", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stream", "latest": {"0.4.0--py37r36hc99cbb1_0": "sha256:59ebb094505a21d0fe38825be15c968aeda821dc94bc924080cf799e3a420f0a"}, "tags": {"0.4.0--py37r36hc99cbb1_0": "sha256:59ebb094505a21d0fe38825be15c968aeda821dc94bc924080cf799e3a420f0a"}, "docker": "quay.io/biocontainers/stream", "aliases": {"gunicorn": "/usr/local/bin/gunicorn", "slugify": "/usr/local/bin/slugify", "stream": "/usr/local/bin/stream", "stream_run_test": "/usr/local/bin/stream_run_test", "zip": "/usr/local/bin/zip", "unidecode": "/usr/local/bin/unidecode", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "unzip": "/usr/local/bin/unzip", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stream.
@@ -128,6 +129,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/slugify   -v ${PWD} -w ${PWD}
 ```
 
 
+#### stream
+
+```bash
+$ singularity exec <container> /usr/local/bin/stream
+$ podman run --it --rm --entrypoint /usr/local/bin/stream   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stream   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### stream_run_test
 
 ```bash
@@ -137,93 +147,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/stream_run_test   -v ${PWD} -
 ```
 
 
-#### 2to3-3.7
+#### zip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zip
+$ podman run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### unidecode
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unidecode
+$ podman run --it --rm --entrypoint /usr/local/bin/unidecode   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unidecode   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### c89
+#### jupyter-bundlerextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-bundlerextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### c99
+#### jupyter-nbextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/c99
-$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### jupyter-notebook
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-notebook
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### curve_keygen
+#### jupyter-serverextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-serverextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### unzip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unzip
+$ podman run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### jupyter-nbconvert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbconvert
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### jupyter-kernel
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-kernel
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### jupyter-kernelspec
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-kernelspec
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

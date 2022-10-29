@@ -4,25 +4,34 @@ name:  "quay.io/biocontainers/snippy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snippy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snippy/container.yaml"
-updated_at: "2022-10-29 05:39:34.191343"
+updated_at: "2022-10-29 07:42:50.098192"
 latest: "4.6.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/snippy"
 aliases:
+ - "sam_add_rg.pl"
+ - "snippy"
+ - "snippy-clean_full_aln"
+ - "snippy-core"
+ - "snippy-multi"
+ - "snippy-vcf_extract_subs"
+ - "snippy-vcf_report"
+ - "snippy-vcf_to_tab"
  - "split_ref_by_bai_datasize.py"
- - "2to3-3.7"
- - "abba-baba"
- - "ace2sam"
- - "annotateBed"
+ - "update_version.sh"
+ - "snp-sites"
+ - "vt"
+ - "tabix++"
+ - "samclip"
  - "any2fasta"
- - "bFst"
- - "bamToBed"
- - "bamToFastq"
- - "bamToGBrowse.pl"
+ - "bc"
+ - "dc"
+ - "snpEff"
  - "bamleftalign"
+ - "coverage_to_regions.py"
 versions:
  - "4.6.0--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for snippy"
-config: {"url": "https://biocontainers.pro/tools/snippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snippy", "latest": {"4.6.0--hdfd78af_2": "sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70"}, "tags": {"4.6.0--hdfd78af_2": "sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70"}, "docker": "quay.io/biocontainers/snippy", "aliases": {"split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "abba-baba": "/usr/local/bin/abba-baba", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "any2fasta": "/usr/local/bin/any2fasta", "bFst": "/usr/local/bin/bFst", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "bamleftalign": "/usr/local/bin/bamleftalign"}}
+config: {"url": "https://biocontainers.pro/tools/snippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snippy", "latest": {"4.6.0--hdfd78af_2": "sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70"}, "tags": {"4.6.0--hdfd78af_2": "sha256:8d1589ab60af6a9dac53dd069b71fdffc2d6530047e4b9742b59a89fbe2a5b70"}, "docker": "quay.io/biocontainers/snippy", "aliases": {"sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "snippy": "/usr/local/bin/snippy", "snippy-clean_full_aln": "/usr/local/bin/snippy-clean_full_aln", "snippy-core": "/usr/local/bin/snippy-core", "snippy-multi": "/usr/local/bin/snippy-multi", "snippy-vcf_extract_subs": "/usr/local/bin/snippy-vcf_extract_subs", "snippy-vcf_report": "/usr/local/bin/snippy-vcf_report", "snippy-vcf_to_tab": "/usr/local/bin/snippy-vcf_to_tab", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "update_version.sh": "/usr/local/bin/update_version.sh", "snp-sites": "/usr/local/bin/snp-sites", "vt": "/usr/local/bin/vt", "tabix++": "/usr/local/bin/tabix++", "samclip": "/usr/local/bin/samclip", "any2fasta": "/usr/local/bin/any2fasta", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "snpEff": "/usr/local/bin/snpEff", "bamleftalign": "/usr/local/bin/bamleftalign", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snippy.
@@ -108,6 +117,78 @@ $ singularity inspect -d <container>
 ```
 
 
+#### sam_add_rg.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/sam_add_rg.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/sam_add_rg.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sam_add_rg.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snippy
+
+```bash
+$ singularity exec <container> /usr/local/bin/snippy
+$ podman run --it --rm --entrypoint /usr/local/bin/snippy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snippy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snippy-clean_full_aln
+
+```bash
+$ singularity exec <container> /usr/local/bin/snippy-clean_full_aln
+$ podman run --it --rm --entrypoint /usr/local/bin/snippy-clean_full_aln   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snippy-clean_full_aln   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snippy-core
+
+```bash
+$ singularity exec <container> /usr/local/bin/snippy-core
+$ podman run --it --rm --entrypoint /usr/local/bin/snippy-core   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snippy-core   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snippy-multi
+
+```bash
+$ singularity exec <container> /usr/local/bin/snippy-multi
+$ podman run --it --rm --entrypoint /usr/local/bin/snippy-multi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snippy-multi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snippy-vcf_extract_subs
+
+```bash
+$ singularity exec <container> /usr/local/bin/snippy-vcf_extract_subs
+$ podman run --it --rm --entrypoint /usr/local/bin/snippy-vcf_extract_subs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snippy-vcf_extract_subs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snippy-vcf_report
+
+```bash
+$ singularity exec <container> /usr/local/bin/snippy-vcf_report
+$ podman run --it --rm --entrypoint /usr/local/bin/snippy-vcf_report   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snippy-vcf_report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snippy-vcf_to_tab
+
+```bash
+$ singularity exec <container> /usr/local/bin/snippy-vcf_to_tab
+$ podman run --it --rm --entrypoint /usr/local/bin/snippy-vcf_to_tab   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snippy-vcf_to_tab   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### split_ref_by_bai_datasize.py
 
 ```bash
@@ -117,39 +198,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/split_ref_by_bai_datasize.py 
 ```
 
 
-#### 2to3-3.7
+#### update_version.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/update_version.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/update_version.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/update_version.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### abba-baba
+#### snp-sites
 
 ```bash
-$ singularity exec <container> /usr/local/bin/abba-baba
-$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snp-sites
+$ podman run --it --rm --entrypoint /usr/local/bin/snp-sites   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snp-sites   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### vt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vt
+$ podman run --it --rm --entrypoint /usr/local/bin/vt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### tabix++
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabix++
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### samclip
+
+```bash
+$ singularity exec <container> /usr/local/bin/samclip
+$ podman run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,39 +252,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/any2fasta   -v ${PWD} -w ${PW
 ```
 
 
-#### bFst
+#### bc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bFst
-$ podman run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bc
+$ podman run --it --rm --entrypoint /usr/local/bin/bc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToBed
+#### dc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dc
+$ podman run --it --rm --entrypoint /usr/local/bin/dc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToFastq
+#### snpEff
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamToGBrowse.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snpEff
+$ podman run --it --rm --entrypoint /usr/local/bin/snpEff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snpEff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +285,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/bamleftalign
 $ podman run --it --rm --entrypoint /usr/local/bin/bamleftalign   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bamleftalign   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coverage_to_regions.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/coverage_to_regions.py
+$ podman run --it --rm --entrypoint /usr/local/bin/coverage_to_regions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coverage_to_regions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

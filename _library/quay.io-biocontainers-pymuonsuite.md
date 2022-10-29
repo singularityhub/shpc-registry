@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymuonsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymuonsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pymuonsuite/container.yaml"
-updated_at: "2022-10-29 05:53:33.938336"
+updated_at: "2022-10-29 07:53:10.332794"
 latest: "0.2.1"
 container_url: "https://biocontainers.pro/tools/pymuonsuite"
 aliases:
@@ -25,20 +25,20 @@ aliases:
  - "pm-uep-plot"
  - "soprano_submitter"
  - "vasp2cell"
- - "2to3-3.10"
- - "brotli"
- - "cwebp"
- - "dwebp"
- - "f2py3.10"
  - "flask"
  - "fonttools"
- - "gif2rgb"
- - "gif2webp"
- - "gifbuild"
+ - "pyftmerge"
+ - "pyftsubset"
+ - "ttx"
+ - "brotli"
+ - "f2py3.10"
+ - "img2webp"
+ - "cwebp"
+ - "dwebp"
 versions:
  - "0.2.1"
 description: "shpc-registry automated BioContainers addition for pymuonsuite"
-config: {"url": "https://biocontainers.pro/tools/pymuonsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymuonsuite", "latest": {"0.2.1": "sha256:0ebe7c44475a5a8a6e3e261394ff50bf649dfd75e9a51f1031e504f9e6d06693"}, "tags": {"0.2.1": "sha256:0ebe7c44475a5a8a6e3e261394ff50bf649dfd75e9a51f1031e504f9e6d06693"}, "docker": "quay.io/biocontainers/pymuonsuite", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "magresaverage": "/usr/local/bin/magresaverage", "phylogen": "/usr/local/bin/phylogen", "pm-asephonons": "/usr/local/bin/pm-asephonons", "pm-muairss": "/usr/local/bin/pm-muairss", "pm-muairss-gen": "/usr/local/bin/pm-muairss-gen", "pm-nq": "/usr/local/bin/pm-nq", "pm-symmetry": "/usr/local/bin/pm-symmetry", "pm-uep-opt": "/usr/local/bin/pm-uep-opt", "pm-uep-plot": "/usr/local/bin/pm-uep-plot", "soprano_submitter": "/usr/local/bin/soprano_submitter", "vasp2cell": "/usr/local/bin/vasp2cell", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.10": "/usr/local/bin/f2py3.10", "flask": "/usr/local/bin/flask", "fonttools": "/usr/local/bin/fonttools", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp", "gifbuild": "/usr/local/bin/gifbuild"}}
+config: {"url": "https://biocontainers.pro/tools/pymuonsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymuonsuite", "latest": {"0.2.1": "sha256:0ebe7c44475a5a8a6e3e261394ff50bf649dfd75e9a51f1031e504f9e6d06693"}, "tags": {"0.2.1": "sha256:0ebe7c44475a5a8a6e3e261394ff50bf649dfd75e9a51f1031e504f9e6d06693"}, "docker": "quay.io/biocontainers/pymuonsuite", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "magresaverage": "/usr/local/bin/magresaverage", "phylogen": "/usr/local/bin/phylogen", "pm-asephonons": "/usr/local/bin/pm-asephonons", "pm-muairss": "/usr/local/bin/pm-muairss", "pm-muairss-gen": "/usr/local/bin/pm-muairss-gen", "pm-nq": "/usr/local/bin/pm-nq", "pm-symmetry": "/usr/local/bin/pm-symmetry", "pm-uep-opt": "/usr/local/bin/pm-uep-opt", "pm-uep-plot": "/usr/local/bin/pm-uep-plot", "soprano_submitter": "/usr/local/bin/soprano_submitter", "vasp2cell": "/usr/local/bin/vasp2cell", "flask": "/usr/local/bin/flask", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "img2webp": "/usr/local/bin/img2webp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymuonsuite.
@@ -277,51 +277,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vasp2cell   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### flask
 
 ```bash
@@ -340,30 +295,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PW
 ```
 
 
-#### gif2rgb
+#### pyftmerge
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2rgb
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2webp
+#### pyftsubset
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2webp
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftsubset
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gifbuild
+#### ttx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gifbuild
-$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ttx
+$ podman run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### img2webp
+
+```bash
+$ singularity exec <container> /usr/local/bin/img2webp
+$ podman run --it --rm --entrypoint /usr/local/bin/img2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/img2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

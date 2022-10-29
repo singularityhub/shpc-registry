@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/glimmerhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimmerhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/glimmerhmm/container.yaml"
-updated_at: "2022-10-29 05:35:09.341865"
+updated_at: "2022-10-29 07:39:35.187977"
 latest: "3.0.4--pl5321h87f3376_5"
 container_url: "https://biocontainers.pro/tools/glimmerhmm"
 aliases:
  - "glimmerhmm"
- - "glimmhmm.pl"
  - "trainGlimmerHMM"
+ - "glimmhmm.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "3.0.4--pl5321h87f3376_5"
 description: "shpc-registry automated BioContainers addition for glimmerhmm"
-config: {"url": "https://biocontainers.pro/tools/glimmerhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmerhmm", "latest": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "tags": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "docker": "quay.io/biocontainers/glimmerhmm", "aliases": {"glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM"}}
+config: {"url": "https://biocontainers.pro/tools/glimmerhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmerhmm", "latest": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "tags": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "docker": "quay.io/biocontainers/glimmerhmm", "aliases": {"glimmerhmm": "/usr/local/bin/glimmerhmm", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glimmerhmm.
@@ -109,6 +111,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/glimmerhmm   -v ${PWD} -w ${P
 ```
 
 
+#### trainGlimmerHMM
+
+```bash
+$ singularity exec <container> /usr/local/bin/trainGlimmerHMM
+$ podman run --it --rm --entrypoint /usr/local/bin/trainGlimmerHMM   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trainGlimmerHMM   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### glimmhmm.pl
 
 ```bash
@@ -118,12 +129,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/glimmhmm.pl   -v ${PWD} -w ${
 ```
 
 
-#### trainGlimmerHMM
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/trainGlimmerHMM
-$ podman run --it --rm --entrypoint /usr/local/bin/trainGlimmerHMM   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/trainGlimmerHMM   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

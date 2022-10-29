@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/cage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cage/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cage/container.yaml"
-updated_at: "2022-10-29 05:39:13.575092"
+updated_at: "2022-10-29 07:42:34.901009"
 latest: "2016.05.13--hb0f8ad4_5"
 container_url: "https://biocontainers.pro/tools/cage"
 aliases:
  - "bamdump"
  - "cage"
  - "cage-classify.py"
- - "2to3-3.10"
  - "bamtools"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "2016.05.13--hb0f8ad4_5"
 description: "shpc-registry automated BioContainers addition for cage"
-config: {"url": "https://biocontainers.pro/tools/cage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cage", "latest": {"2016.05.13--hb0f8ad4_5": "sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2"}, "tags": {"2016.05.13--hb0f8ad4_5": "sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2"}, "docker": "quay.io/biocontainers/cage", "aliases": {"bamdump": "/usr/local/bin/bamdump", "cage": "/usr/local/bin/cage", "cage-classify.py": "/usr/local/bin/cage-classify.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "bamtools": "/usr/local/bin/bamtools", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/cage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cage", "latest": {"2016.05.13--hb0f8ad4_5": "sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2"}, "tags": {"2016.05.13--hb0f8ad4_5": "sha256:f4d272f3c563c4ad5f0598f75002f442f4471267e1c25f42ed679ee3ef6249b2"}, "docker": "quay.io/biocontainers/cage", "aliases": {"bamdump": "/usr/local/bin/bamdump", "cage": "/usr/local/bin/cage", "cage-classify.py": "/usr/local/bin/cage-classify.py", "bamtools": "/usr/local/bin/bamtools", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cage.
@@ -134,21 +134,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cage-classify.py   -v ${PWD} 
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bamtools
 
 ```bash
 $ singularity exec <container> /usr/local/bin/bamtools
 $ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

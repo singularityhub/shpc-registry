@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/calour"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calour/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/calour/container.yaml"
-updated_at: "2022-10-29 05:58:46.436539"
+updated_at: "2022-10-29 07:56:56.904061"
 latest: "2020.8.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/calour"
 aliases:
@@ -49,6 +49,8 @@ aliases:
  - "jack_wait"
  - "jack_zombie"
  - "jackd"
+ - "jupyter-dejavu"
+ - "jupyter-execute"
  - "lprodump"
  - "lrelease-pro"
  - "lupdate-pro"
@@ -68,6 +70,7 @@ aliases:
  - "qmltime"
  - "qmltyperegistrar"
  - "qpaeq"
+ - "send2trash"
  - "setfattr"
  - "sip-build"
  - "sip-distinfo"
@@ -76,20 +79,20 @@ aliases:
  - "sip-sdist"
  - "sip-wheel"
  - "tracegen"
- - "2to3-3.10"
- - "aserver"
- - "assistant"
- - "biom"
- - "brotli"
- - "canbusutil"
- - "certutil"
- - "cups-config"
- - "curve_keygen"
- - "cwebp"
+ - "flac"
+ - "metaflac"
+ - "sndfile-cmp"
+ - "sndfile-concat"
+ - "sndfile-convert"
+ - "sndfile-deinterleave"
+ - "sndfile-info"
+ - "sndfile-interleave"
+ - "sndfile-metadata-get"
+ - "sndfile-metadata-set"
 versions:
  - "2020.8.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for calour"
-config: {"url": "https://biocontainers.pro/tools/calour", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for calour", "latest": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "tags": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "docker": "quay.io/biocontainers/calour", "aliases": {"attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "esdcompat": "/usr/local/bin/esdcompat", "getfattr": "/usr/local/bin/getfattr", "jack_alias": "/usr/local/bin/jack_alias", "jack_bufsize": "/usr/local/bin/jack_bufsize", "jack_connect": "/usr/local/bin/jack_connect", "jack_control": "/usr/local/bin/jack_control", "jack_cpu": "/usr/local/bin/jack_cpu", "jack_cpu_load": "/usr/local/bin/jack_cpu_load", "jack_disconnect": "/usr/local/bin/jack_disconnect", "jack_evmon": "/usr/local/bin/jack_evmon", "jack_freewheel": "/usr/local/bin/jack_freewheel", "jack_iodelay": "/usr/local/bin/jack_iodelay", "jack_latent_client": "/usr/local/bin/jack_latent_client", "jack_load": "/usr/local/bin/jack_load", "jack_lsp": "/usr/local/bin/jack_lsp", "jack_metro": "/usr/local/bin/jack_metro", "jack_midi_dump": "/usr/local/bin/jack_midi_dump", "jack_midi_latency_test": "/usr/local/bin/jack_midi_latency_test", "jack_midiseq": "/usr/local/bin/jack_midiseq", "jack_midisine": "/usr/local/bin/jack_midisine", "jack_monitor_client": "/usr/local/bin/jack_monitor_client", "jack_multiple_metro": "/usr/local/bin/jack_multiple_metro", "jack_netsource": "/usr/local/bin/jack_netsource", "jack_property": "/usr/local/bin/jack_property", "jack_rec": "/usr/local/bin/jack_rec", "jack_samplerate": "/usr/local/bin/jack_samplerate", "jack_server_control": "/usr/local/bin/jack_server_control", "jack_session_notify": "/usr/local/bin/jack_session_notify", "jack_showtime": "/usr/local/bin/jack_showtime", "jack_simdtests": "/usr/local/bin/jack_simdtests", "jack_simple_client": "/usr/local/bin/jack_simple_client", "jack_simple_session_client": "/usr/local/bin/jack_simple_session_client", "jack_test": "/usr/local/bin/jack_test", "jack_thru": "/usr/local/bin/jack_thru", "jack_transport": "/usr/local/bin/jack_transport", "jack_unload": "/usr/local/bin/jack_unload", "jack_wait": "/usr/local/bin/jack_wait", "jack_zombie": "/usr/local/bin/jack_zombie", "jackd": "/usr/local/bin/jackd", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug", "pa-info": "/usr/local/bin/pa-info", "pacat": "/usr/local/bin/pacat", "pacmd": "/usr/local/bin/pacmd", "pactl": "/usr/local/bin/pactl", "padsp": "/usr/local/bin/padsp", "pamon": "/usr/local/bin/pamon", "paplay": "/usr/local/bin/paplay", "parec": "/usr/local/bin/parec", "parecord": "/usr/local/bin/parecord", "pasuspender": "/usr/local/bin/pasuspender", "pulseaudio": "/usr/local/bin/pulseaudio", "qmlformat": "/usr/local/bin/qmlformat", "qmltime": "/usr/local/bin/qmltime", "qmltyperegistrar": "/usr/local/bin/qmltyperegistrar", "qpaeq": "/usr/local/bin/qpaeq", "setfattr": "/usr/local/bin/setfattr", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "tracegen": "/usr/local/bin/tracegen", "2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "biom": "/usr/local/bin/biom", "brotli": "/usr/local/bin/brotli", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "cups-config": "/usr/local/bin/cups-config", "curve_keygen": "/usr/local/bin/curve_keygen", "cwebp": "/usr/local/bin/cwebp"}}
+config: {"url": "https://biocontainers.pro/tools/calour", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for calour", "latest": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "tags": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "docker": "quay.io/biocontainers/calour", "aliases": {"attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "esdcompat": "/usr/local/bin/esdcompat", "getfattr": "/usr/local/bin/getfattr", "jack_alias": "/usr/local/bin/jack_alias", "jack_bufsize": "/usr/local/bin/jack_bufsize", "jack_connect": "/usr/local/bin/jack_connect", "jack_control": "/usr/local/bin/jack_control", "jack_cpu": "/usr/local/bin/jack_cpu", "jack_cpu_load": "/usr/local/bin/jack_cpu_load", "jack_disconnect": "/usr/local/bin/jack_disconnect", "jack_evmon": "/usr/local/bin/jack_evmon", "jack_freewheel": "/usr/local/bin/jack_freewheel", "jack_iodelay": "/usr/local/bin/jack_iodelay", "jack_latent_client": "/usr/local/bin/jack_latent_client", "jack_load": "/usr/local/bin/jack_load", "jack_lsp": "/usr/local/bin/jack_lsp", "jack_metro": "/usr/local/bin/jack_metro", "jack_midi_dump": "/usr/local/bin/jack_midi_dump", "jack_midi_latency_test": "/usr/local/bin/jack_midi_latency_test", "jack_midiseq": "/usr/local/bin/jack_midiseq", "jack_midisine": "/usr/local/bin/jack_midisine", "jack_monitor_client": "/usr/local/bin/jack_monitor_client", "jack_multiple_metro": "/usr/local/bin/jack_multiple_metro", "jack_netsource": "/usr/local/bin/jack_netsource", "jack_property": "/usr/local/bin/jack_property", "jack_rec": "/usr/local/bin/jack_rec", "jack_samplerate": "/usr/local/bin/jack_samplerate", "jack_server_control": "/usr/local/bin/jack_server_control", "jack_session_notify": "/usr/local/bin/jack_session_notify", "jack_showtime": "/usr/local/bin/jack_showtime", "jack_simdtests": "/usr/local/bin/jack_simdtests", "jack_simple_client": "/usr/local/bin/jack_simple_client", "jack_simple_session_client": "/usr/local/bin/jack_simple_session_client", "jack_test": "/usr/local/bin/jack_test", "jack_thru": "/usr/local/bin/jack_thru", "jack_transport": "/usr/local/bin/jack_transport", "jack_unload": "/usr/local/bin/jack_unload", "jack_wait": "/usr/local/bin/jack_wait", "jack_zombie": "/usr/local/bin/jack_zombie", "jackd": "/usr/local/bin/jackd", "jupyter-dejavu": "/usr/local/bin/jupyter-dejavu", "jupyter-execute": "/usr/local/bin/jupyter-execute", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug", "pa-info": "/usr/local/bin/pa-info", "pacat": "/usr/local/bin/pacat", "pacmd": "/usr/local/bin/pacmd", "pactl": "/usr/local/bin/pactl", "padsp": "/usr/local/bin/padsp", "pamon": "/usr/local/bin/pamon", "paplay": "/usr/local/bin/paplay", "parec": "/usr/local/bin/parec", "parecord": "/usr/local/bin/parecord", "pasuspender": "/usr/local/bin/pasuspender", "pulseaudio": "/usr/local/bin/pulseaudio", "qmlformat": "/usr/local/bin/qmlformat", "qmltime": "/usr/local/bin/qmltime", "qmltyperegistrar": "/usr/local/bin/qmltyperegistrar", "qpaeq": "/usr/local/bin/qpaeq", "send2trash": "/usr/local/bin/send2trash", "setfattr": "/usr/local/bin/setfattr", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "tracegen": "/usr/local/bin/tracegen", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info", "sndfile-interleave": "/usr/local/bin/sndfile-interleave", "sndfile-metadata-get": "/usr/local/bin/sndfile-metadata-get", "sndfile-metadata-set": "/usr/local/bin/sndfile-metadata-set"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/calour.
@@ -544,6 +547,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/jackd   -v ${PWD} -w ${PWD} <
 ```
 
 
+#### jupyter-dejavu
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-dejavu
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-dejavu   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-dejavu   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-execute
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-execute
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### lprodump
 
 ```bash
@@ -715,6 +736,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/qpaeq   -v ${PWD} -w ${PWD} <
 ```
 
 
+#### send2trash
+
+```bash
+$ singularity exec <container> /usr/local/bin/send2trash
+$ podman run --it --rm --entrypoint /usr/local/bin/send2trash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/send2trash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### setfattr
 
 ```bash
@@ -787,93 +817,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tracegen   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.10
+#### flac
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flac
+$ podman run --it --rm --entrypoint /usr/local/bin/flac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flac   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### metaflac
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/metaflac
+$ podman run --it --rm --entrypoint /usr/local/bin/metaflac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metaflac   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### sndfile-cmp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-cmp
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-cmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-cmp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### biom
+#### sndfile-concat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/biom
-$ podman run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-concat
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-concat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-concat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### sndfile-convert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-convert
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### sndfile-deinterleave
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-deinterleave
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-deinterleave   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-deinterleave   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### certutil
+#### sndfile-info
 
 ```bash
-$ singularity exec <container> /usr/local/bin/certutil
-$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-info
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-info   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cups-config
+#### sndfile-interleave
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cups-config
-$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-interleave
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-interleave   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-interleave   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### curve_keygen
+#### sndfile-metadata-get
 
 ```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-metadata-get
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-metadata-get   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-metadata-get   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cwebp
+#### sndfile-metadata-set
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sndfile-metadata-set
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-metadata-set   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-metadata-set   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

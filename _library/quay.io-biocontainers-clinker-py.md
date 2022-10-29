@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/clinker-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinker-py/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/clinker-py/container.yaml"
-updated_at: "2022-10-29 05:54:03.504030"
+updated_at: "2022-10-29 07:53:32.138411"
 latest: "0.0.25--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/clinker-py"
 aliases:
  - "clinker"
- - "2to3-3.10"
- - "activate-global-python-argcomplete"
- - "f2py3.10"
- - "faidx"
  - "gffutils-cli"
- - "idle3.10"
- - "pydoc3.10"
+ - "activate-global-python-argcomplete"
  - "python-argcomplete-check-easy-install-script"
  - "python-argcomplete-tcsh"
- - "python3.1"
+ - "register-python-argcomplete"
+ - "faidx"
+ - "f2py3.10"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
 versions:
  - "0.0.25--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for clinker-py"
-config: {"url": "https://biocontainers.pro/tools/clinker-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinker-py", "latest": {"0.0.25--pyh5e36f6f_0": "sha256:a732c3d6103353b4e41d32fd02f4b6d108c29a8b40e411b0c1b62fe1c4d1c08f"}, "tags": {"0.0.25--pyh5e36f6f_0": "sha256:a732c3d6103353b4e41d32fd02f4b6d108c29a8b40e411b0c1b62fe1c4d1c08f"}, "docker": "quay.io/biocontainers/clinker-py", "aliases": {"clinker": "/usr/local/bin/clinker", "2to3-3.10": "/usr/local/bin/2to3-3.10", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "f2py3.10": "/usr/local/bin/f2py3.10", "faidx": "/usr/local/bin/faidx", "gffutils-cli": "/usr/local/bin/gffutils-cli", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "python3.1": "/usr/local/bin/python3.1"}}
+config: {"url": "https://biocontainers.pro/tools/clinker-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clinker-py", "latest": {"0.0.25--pyh5e36f6f_0": "sha256:a732c3d6103353b4e41d32fd02f4b6d108c29a8b40e411b0c1b62fe1c4d1c08f"}, "tags": {"0.0.25--pyh5e36f6f_0": "sha256:a732c3d6103353b4e41d32fd02f4b6d108c29a8b40e411b0c1b62fe1c4d1c08f"}, "docker": "quay.io/biocontainers/clinker-py", "aliases": {"clinker": "/usr/local/bin/clinker", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clinker-py.
@@ -117,42 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clinker   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### activate-global-python-argcomplete
-
-```bash
-$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
-$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### faidx
-
-```bash
-$ singularity exec <container> /usr/local/bin/faidx
-$ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gffutils-cli
 
 ```bash
@@ -162,21 +126,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w $
 ```
 
 
-#### idle3.10
+#### activate-global-python-argcomplete
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pydoc3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -198,12 +153,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v 
 ```
 
 
-#### python3.1
+#### register-python-argcomplete
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python3.1
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/register-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### faidx
+
+```bash
+$ singularity exec <container> /usr/local/bin/faidx
+$ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

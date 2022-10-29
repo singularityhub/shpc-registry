@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repdenovo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repdenovo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/repdenovo/container.yaml"
-updated_at: "2022-10-29 05:55:54.791029"
+updated_at: "2022-10-29 07:54:52.390440"
 latest: "0.0.1--h4dc6686_2"
 container_url: "https://biocontainers.pro/tools/repdenovo"
 aliases:
@@ -20,20 +20,20 @@ aliases:
  - "TERefiner_1"
  - "Utility.py"
  - "main.py"
- - "2to3-3.10"
+ - "velvetg"
+ - "velveth"
  - "bamtools"
- - "bwa"
- - "idle3.10"
  - "jellyfish"
- - "pydoc3.10"
- - "python3.1"
- - "python3.10"
- - "python3.10-config"
  - "qualfa2fq.pl"
+ - "xa2multi.pl"
+ - "bwa"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
 versions:
  - "0.0.1--h4dc6686_2"
 description: "shpc-registry automated BioContainers addition for repdenovo"
-config: {"url": "https://biocontainers.pro/tools/repdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repdenovo", "latest": {"0.0.1--h4dc6686_2": "sha256:9fc82e46f70a77c0cec86668399750bbf0d30c2026013b6c95f8844c3e4b8336"}, "tags": {"0.0.1--h4dc6686_2": "sha256:9fc82e46f70a77c0cec86668399750bbf0d30c2026013b6c95f8844c3e4b8336"}, "docker": "quay.io/biocontainers/repdenovo", "aliases": {"Assembly.py": "/usr/local/bin/Assembly.py", "BasicInfoPaser.py": "/usr/local/bin/BasicInfoPaser.py", "ClassifyContigs.py": "/usr/local/bin/ClassifyContigs.py", "ContigsMerger": "/usr/local/bin/ContigsMerger", "ExtractKmers.py": "/usr/local/bin/ExtractKmers.py", "FilterAndScaffold.py": "/usr/local/bin/FilterAndScaffold.py", "FilterPEReads.py": "/usr/local/bin/FilterPEReads.py", "KmerCount.py": "/usr/local/bin/KmerCount.py", "MergeContigs.py": "/usr/local/bin/MergeContigs.py", "TERefiner_1": "/usr/local/bin/TERefiner_1", "Utility.py": "/usr/local/bin/Utility.py", "main.py": "/usr/local/bin/main.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "bamtools": "/usr/local/bin/bamtools", "bwa": "/usr/local/bin/bwa", "idle3.10": "/usr/local/bin/idle3.10", "jellyfish": "/usr/local/bin/jellyfish", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl"}}
+config: {"url": "https://biocontainers.pro/tools/repdenovo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repdenovo", "latest": {"0.0.1--h4dc6686_2": "sha256:9fc82e46f70a77c0cec86668399750bbf0d30c2026013b6c95f8844c3e4b8336"}, "tags": {"0.0.1--h4dc6686_2": "sha256:9fc82e46f70a77c0cec86668399750bbf0d30c2026013b6c95f8844c3e4b8336"}, "docker": "quay.io/biocontainers/repdenovo", "aliases": {"Assembly.py": "/usr/local/bin/Assembly.py", "BasicInfoPaser.py": "/usr/local/bin/BasicInfoPaser.py", "ClassifyContigs.py": "/usr/local/bin/ClassifyContigs.py", "ContigsMerger": "/usr/local/bin/ContigsMerger", "ExtractKmers.py": "/usr/local/bin/ExtractKmers.py", "FilterAndScaffold.py": "/usr/local/bin/FilterAndScaffold.py", "FilterPEReads.py": "/usr/local/bin/FilterPEReads.py", "KmerCount.py": "/usr/local/bin/KmerCount.py", "MergeContigs.py": "/usr/local/bin/MergeContigs.py", "TERefiner_1": "/usr/local/bin/TERefiner_1", "Utility.py": "/usr/local/bin/Utility.py", "main.py": "/usr/local/bin/main.py", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "bamtools": "/usr/local/bin/bamtools", "jellyfish": "/usr/local/bin/jellyfish", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repdenovo.
@@ -227,12 +227,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/main.py   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.10
+#### velvetg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/velvetg
+$ podman run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### velveth
+
+```bash
+$ singularity exec <container> /usr/local/bin/velveth
+$ podman run --it --rm --entrypoint /usr/local/bin/velveth   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/velveth   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -245,12 +254,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD
 ```
 
 
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qualfa2fq.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xa2multi.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/xa2multi.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bwa
 
 ```bash
 $ singularity exec <container> /usr/local/bin/bwa
 $ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -263,57 +308,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD
 ```
 
 
-#### jellyfish
-
-```bash
-$ singularity exec <container> /usr/local/bin/jellyfish
-$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pydoc3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pydoc3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.1
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.1
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.10-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.10-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### qualfa2fq.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

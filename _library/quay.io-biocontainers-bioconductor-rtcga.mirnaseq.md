@@ -4,12 +4,14 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.mirnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.mirnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.mirnaseq/container.yaml"
-updated_at: "2022-10-29 05:35:45.376493"
+updated_at: "2022-10-29 07:40:01.624700"
 latest: "1.22.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.mirnaseq"
 aliases:
- - "2to3-3.10"
+ - ".bioconductor-rtcga.mirnaseq-post-link.sh"
+ - ".bioconductor-rtcga.mirnaseq-pre-unlink.sh"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -18,7 +20,7 @@ aliases:
 versions:
  - "1.22.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.mirnaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.mirnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.mirnaseq", "latest": {"1.22.0--r41hdfd78af_1": "sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.mirnaseq", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.mirnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.mirnaseq", "latest": {"1.22.0--r41hdfd78af_1": "sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:45f26c8c1bbdc1a0f5e011b4ef4d923a89c494a699ed9ca37974b1415d3dd6d9"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.mirnaseq", "aliases": {".bioconductor-rtcga.mirnaseq-post-link.sh": "/usr/local/bin/.bioconductor-rtcga.mirnaseq-post-link.sh", ".bioconductor-rtcga.mirnaseq-pre-unlink.sh": "/usr/local/bin/.bioconductor-rtcga.mirnaseq-pre-unlink.sh", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.mirnaseq.
@@ -104,12 +106,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### .bioconductor-rtcga.mirnaseq-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-rtcga.mirnaseq-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.mirnaseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.mirnaseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-rtcga.mirnaseq-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-rtcga.mirnaseq-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.mirnaseq-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.mirnaseq-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -119,6 +130,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

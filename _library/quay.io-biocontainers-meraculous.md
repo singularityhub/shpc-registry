@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meraculous"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meraculous/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/meraculous/container.yaml"
-updated_at: "2022-10-29 05:50:37.891539"
+updated_at: "2022-10-29 07:51:00.730757"
 latest: "2.2.6--pl5321h2df963e_4"
 container_url: "https://biocontainers.pro/tools/meraculous"
 aliases:
@@ -60,20 +60,20 @@ aliases:
  - "split_and_validate_reads.pl"
  - "test_dependencies.pl"
  - "unique.pl"
- - "2to3-3.10"
- - "annotate"
- - "aserver"
- - "assistant"
- - "bdftogd"
- - "canbusutil"
- - "certutil"
  - "chrpath"
- - "cwebp"
+ - "gnuplot"
+ - "l4p-tmpl"
+ - "xkbcli"
+ - "pg_config"
  - "dbilogstrip"
+ - "dbiprof"
+ - "dbiproxy"
+ - "qdistancefieldgenerator"
+ - "qmlpreview"
 versions:
  - "2.2.6--pl5321h2df963e_4"
 description: "shpc-registry automated BioContainers addition for meraculous"
-config: {"url": "https://biocontainers.pro/tools/meraculous", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meraculous", "latest": {"2.2.6--pl5321h2df963e_4": "sha256:d0f31c99504bd4687fb208d71606f6e1b6cd0e60a7faf4d41bd4749b14f9c1a2"}, "tags": {"2.2.6--pl5321h2df963e_4": "sha256:d0f31c99504bd4687fb208d71606f6e1b6cd0e60a7faf4d41bd4749b14f9c1a2"}, "docker": "quay.io/biocontainers/meraculous", "aliases": {"N50.pl": "/usr/local/bin/N50.pl", "UnitTest_LV": "/usr/local/bin/UnitTest_LV", "_bubbleFinder2.pl": "/usr/local/bin/_bubbleFinder2.pl", "_oNo4.pl": "/usr/local/bin/_oNo4.pl", "blastMapAnalyzer2.pl": "/usr/local/bin/blastMapAnalyzer2.pl", "bmaToLinks.pl": "/usr/local/bin/bmaToLinks.pl", "bootstrap_run.sh": "/usr/local/bin/bootstrap_run.sh", "bubblePopper.pl": "/usr/local/bin/bubblePopper.pl", "bubbleScout.pl": "/usr/local/bin/bubbleScout.pl", "cluster_submit.sh": "/usr/local/bin/cluster_submit.sh", "contigBias.pl": "/usr/local/bin/contigBias.pl", "contigMerDepth_128mer": "/usr/local/bin/contigMerDepth_128mer", "contigMerDepth_56mer": "/usr/local/bin/contigMerDepth_56mer", "divide_it.pl": "/usr/local/bin/divide_it.pl", "evaluate_meraculous_run.sh": "/usr/local/bin/evaluate_meraculous_run.sh", "fasta_splitter.pl": "/usr/local/bin/fasta_splitter.pl", "fasta_stats": "/usr/local/bin/fasta_stats", "findDMin2.pl": "/usr/local/bin/findDMin2.pl", "gapDivider.pl": "/usr/local/bin/gapDivider.pl", "gapPlacer.pl": "/usr/local/bin/gapPlacer.pl", "haplotyper.Naive.pl": "/usr/local/bin/haplotyper.Naive.pl", "haplotyper.pl": "/usr/local/bin/haplotyper.pl", "histogram2.pl": "/usr/local/bin/histogram2.pl", "isjobcomplete.sh": "/usr/local/bin/isjobcomplete.sh", "kmerHistAnalyzer.pl": "/usr/local/bin/kmerHistAnalyzer.pl", "loadBalanceMers.pl": "/usr/local/bin/loadBalanceMers.pl", "memtime": "/usr/local/bin/memtime", "merBlast_128mer": "/usr/local/bin/merBlast_128mer", "merBlast_56mer": "/usr/local/bin/merBlast_56mer", "merCounterTh_128mer": "/usr/local/bin/merCounterTh_128mer", "merCounterTh_56mer": "/usr/local/bin/merCounterTh_56mer", "meraculous.pl": "/usr/local/bin/meraculous.pl", "meraculous4h.pl": "/usr/local/bin/meraculous4h.pl", "meraculousTh_128mer": "/usr/local/bin/meraculousTh_128mer", "meraculousTh_56mer": "/usr/local/bin/meraculousTh_56mer", "merauder": "/usr/local/bin/merauder", "mergeMerBlasts": "/usr/local/bin/mergeMerBlasts", "mergraphTh_128mer": "/usr/local/bin/mergraphTh_128mer", "mergraphTh_56mer": "/usr/local/bin/mergraphTh_56mer", "oNo7.pl": "/usr/local/bin/oNo7.pl", "optimize2.pl": "/usr/local/bin/optimize2.pl", "randomList2.pl": "/usr/local/bin/randomList2.pl", "run_meraculous.sh": "/usr/local/bin/run_meraculous.sh", "scaffReportToFasta.pl": "/usr/local/bin/scaffReportToFasta.pl", "scaffold2contig.pl": "/usr/local/bin/scaffold2contig.pl", "screen_list2.pl": "/usr/local/bin/screen_list2.pl", "spanner.pl": "/usr/local/bin/spanner.pl", "splinter.pl": "/usr/local/bin/splinter.pl", "splinter_scaffolds.pl": "/usr/local/bin/splinter_scaffolds.pl", "split_and_validate_reads.pl": "/usr/local/bin/split_and_validate_reads.pl", "test_dependencies.pl": "/usr/local/bin/test_dependencies.pl", "unique.pl": "/usr/local/bin/unique.pl", "2to3-3.10": "/usr/local/bin/2to3-3.10", "annotate": "/usr/local/bin/annotate", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bdftogd": "/usr/local/bin/bdftogd", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "chrpath": "/usr/local/bin/chrpath", "cwebp": "/usr/local/bin/cwebp", "dbilogstrip": "/usr/local/bin/dbilogstrip"}}
+config: {"url": "https://biocontainers.pro/tools/meraculous", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meraculous", "latest": {"2.2.6--pl5321h2df963e_4": "sha256:d0f31c99504bd4687fb208d71606f6e1b6cd0e60a7faf4d41bd4749b14f9c1a2"}, "tags": {"2.2.6--pl5321h2df963e_4": "sha256:d0f31c99504bd4687fb208d71606f6e1b6cd0e60a7faf4d41bd4749b14f9c1a2"}, "docker": "quay.io/biocontainers/meraculous", "aliases": {"N50.pl": "/usr/local/bin/N50.pl", "UnitTest_LV": "/usr/local/bin/UnitTest_LV", "_bubbleFinder2.pl": "/usr/local/bin/_bubbleFinder2.pl", "_oNo4.pl": "/usr/local/bin/_oNo4.pl", "blastMapAnalyzer2.pl": "/usr/local/bin/blastMapAnalyzer2.pl", "bmaToLinks.pl": "/usr/local/bin/bmaToLinks.pl", "bootstrap_run.sh": "/usr/local/bin/bootstrap_run.sh", "bubblePopper.pl": "/usr/local/bin/bubblePopper.pl", "bubbleScout.pl": "/usr/local/bin/bubbleScout.pl", "cluster_submit.sh": "/usr/local/bin/cluster_submit.sh", "contigBias.pl": "/usr/local/bin/contigBias.pl", "contigMerDepth_128mer": "/usr/local/bin/contigMerDepth_128mer", "contigMerDepth_56mer": "/usr/local/bin/contigMerDepth_56mer", "divide_it.pl": "/usr/local/bin/divide_it.pl", "evaluate_meraculous_run.sh": "/usr/local/bin/evaluate_meraculous_run.sh", "fasta_splitter.pl": "/usr/local/bin/fasta_splitter.pl", "fasta_stats": "/usr/local/bin/fasta_stats", "findDMin2.pl": "/usr/local/bin/findDMin2.pl", "gapDivider.pl": "/usr/local/bin/gapDivider.pl", "gapPlacer.pl": "/usr/local/bin/gapPlacer.pl", "haplotyper.Naive.pl": "/usr/local/bin/haplotyper.Naive.pl", "haplotyper.pl": "/usr/local/bin/haplotyper.pl", "histogram2.pl": "/usr/local/bin/histogram2.pl", "isjobcomplete.sh": "/usr/local/bin/isjobcomplete.sh", "kmerHistAnalyzer.pl": "/usr/local/bin/kmerHistAnalyzer.pl", "loadBalanceMers.pl": "/usr/local/bin/loadBalanceMers.pl", "memtime": "/usr/local/bin/memtime", "merBlast_128mer": "/usr/local/bin/merBlast_128mer", "merBlast_56mer": "/usr/local/bin/merBlast_56mer", "merCounterTh_128mer": "/usr/local/bin/merCounterTh_128mer", "merCounterTh_56mer": "/usr/local/bin/merCounterTh_56mer", "meraculous.pl": "/usr/local/bin/meraculous.pl", "meraculous4h.pl": "/usr/local/bin/meraculous4h.pl", "meraculousTh_128mer": "/usr/local/bin/meraculousTh_128mer", "meraculousTh_56mer": "/usr/local/bin/meraculousTh_56mer", "merauder": "/usr/local/bin/merauder", "mergeMerBlasts": "/usr/local/bin/mergeMerBlasts", "mergraphTh_128mer": "/usr/local/bin/mergraphTh_128mer", "mergraphTh_56mer": "/usr/local/bin/mergraphTh_56mer", "oNo7.pl": "/usr/local/bin/oNo7.pl", "optimize2.pl": "/usr/local/bin/optimize2.pl", "randomList2.pl": "/usr/local/bin/randomList2.pl", "run_meraculous.sh": "/usr/local/bin/run_meraculous.sh", "scaffReportToFasta.pl": "/usr/local/bin/scaffReportToFasta.pl", "scaffold2contig.pl": "/usr/local/bin/scaffold2contig.pl", "screen_list2.pl": "/usr/local/bin/screen_list2.pl", "spanner.pl": "/usr/local/bin/spanner.pl", "splinter.pl": "/usr/local/bin/splinter.pl", "splinter_scaffolds.pl": "/usr/local/bin/splinter_scaffolds.pl", "split_and_validate_reads.pl": "/usr/local/bin/split_and_validate_reads.pl", "test_dependencies.pl": "/usr/local/bin/test_dependencies.pl", "unique.pl": "/usr/local/bin/unique.pl", "chrpath": "/usr/local/bin/chrpath", "gnuplot": "/usr/local/bin/gnuplot", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meraculous.
@@ -627,69 +627,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/unique.pl   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### assistant
-
-```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bdftogd
-
-```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### canbusutil
-
-```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### certutil
-
-```bash
-$ singularity exec <container> /usr/local/bin/certutil
-$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### chrpath
 
 ```bash
@@ -699,12 +636,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chrpath   -v ${PWD} -w ${PWD}
 ```
 
 
-#### cwebp
+#### gnuplot
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gnuplot
+$ podman run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### l4p-tmpl
+
+```bash
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xkbcli
+
+```bash
+$ singularity exec <container> /usr/local/bin/xkbcli
+$ podman run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pg_config
+
+```bash
+$ singularity exec <container> /usr/local/bin/pg_config
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -714,6 +678,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/dbilogstrip
 $ podman run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbiprof
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbiprof
+$ podman run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbiproxy
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbiproxy
+$ podman run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qdistancefieldgenerator
+
+```bash
+$ singularity exec <container> /usr/local/bin/qdistancefieldgenerator
+$ podman run --it --rm --entrypoint /usr/local/bin/qdistancefieldgenerator   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdistancefieldgenerator   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qmlpreview
+
+```bash
+$ singularity exec <container> /usr/local/bin/qmlpreview
+$ podman run --it --rm --entrypoint /usr/local/bin/qmlpreview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qmlpreview   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

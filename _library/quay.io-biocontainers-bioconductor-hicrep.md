@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hicrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicrep/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicrep/container.yaml"
-updated_at: "2022-10-29 05:34:13.517819"
+updated_at: "2022-10-29 07:38:54.621498"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicrep"
 aliases:
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hicrep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicrep", "latest": {"1.8.0--r36_1": "sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244"}, "tags": {"1.8.0--r36_1": "sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244"}, "docker": "quay.io/biocontainers/bioconductor-hicrep", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicrep", "latest": {"1.8.0--r36_1": "sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244"}, "tags": {"1.8.0--r36_1": "sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244"}, "docker": "quay.io/biocontainers/bioconductor-hicrep", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicrep.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

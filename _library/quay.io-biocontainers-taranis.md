@@ -4,11 +4,12 @@ name:  "quay.io/biocontainers/taranis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taranis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/taranis/container.yaml"
-updated_at: "2022-10-29 05:33:46.846646"
+updated_at: "2022-10-29 07:38:35.010757"
 latest: "2.0.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/taranis"
 aliases:
  - "Dockerfile"
+ - "LICENSE"
  - "allele_calling.py"
  - "analyze_schema.py"
  - "create_schema.py"
@@ -18,20 +19,21 @@ aliases:
  - "reference_alleles.py"
  - "taranis.py"
  - "taranis_configuration.py"
- - "2to3-3.7"
- - "CA.pm"
- - "LICENSE"
- - "SOAPsh.pl"
- - "accn-at-a-time"
- - "ace.pl"
- - "acyclic"
- - "alimask"
- - "amino-acid-composition"
- - "annotate"
+ - "tbl2asn-test"
+ - "fix-sqn-date"
+ - "faketime"
+ - "real-tbl2asn"
+ - "prokka-abricate_to_fasta_db"
+ - "prokka"
+ - "prokka-biocyc_to_fasta_db"
+ - "prokka-build_kingdom_dbs"
+ - "prokka-cdd_to_hmm"
+ - "prokka-clusters_to_hmm"
+ - "prokka-genbank_to_fasta_db"
 versions:
  - "2.0.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for taranis"
-config: {"url": "https://biocontainers.pro/tools/taranis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taranis", "latest": {"2.0.1--hdfd78af_0": "sha256:f46b5422c3046ae31f3096d2d0877b8e6f4ecf6dac324c127dac030ea945caf8"}, "tags": {"2.0.1--hdfd78af_0": "sha256:f46b5422c3046ae31f3096d2d0877b8e6f4ecf6dac324c127dac030ea945caf8"}, "docker": "quay.io/biocontainers/taranis", "aliases": {"Dockerfile": "/usr/local/bin/Dockerfile", "allele_calling.py": "/usr/local/bin/allele_calling.py", "analyze_schema.py": "/usr/local/bin/analyze_schema.py", "create_schema.py": "/usr/local/bin/create_schema.py", "distance_matrix.py": "/usr/local/bin/distance_matrix.py", "environment.yml": "/usr/local/bin/environment.yml", "logging_config.ini": "/usr/local/bin/logging_config.ini", "reference_alleles.py": "/usr/local/bin/reference_alleles.py", "taranis.py": "/usr/local/bin/taranis.py", "taranis_configuration.py": "/usr/local/bin/taranis_configuration.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "CA.pm": "/usr/local/bin/CA.pm", "LICENSE": "/usr/local/bin/LICENSE", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate"}}
+config: {"url": "https://biocontainers.pro/tools/taranis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taranis", "latest": {"2.0.1--hdfd78af_0": "sha256:f46b5422c3046ae31f3096d2d0877b8e6f4ecf6dac324c127dac030ea945caf8"}, "tags": {"2.0.1--hdfd78af_0": "sha256:f46b5422c3046ae31f3096d2d0877b8e6f4ecf6dac324c127dac030ea945caf8"}, "docker": "quay.io/biocontainers/taranis", "aliases": {"Dockerfile": "/usr/local/bin/Dockerfile", "LICENSE": "/usr/local/bin/LICENSE", "allele_calling.py": "/usr/local/bin/allele_calling.py", "analyze_schema.py": "/usr/local/bin/analyze_schema.py", "create_schema.py": "/usr/local/bin/create_schema.py", "distance_matrix.py": "/usr/local/bin/distance_matrix.py", "environment.yml": "/usr/local/bin/environment.yml", "logging_config.ini": "/usr/local/bin/logging_config.ini", "reference_alleles.py": "/usr/local/bin/reference_alleles.py", "taranis.py": "/usr/local/bin/taranis.py", "taranis_configuration.py": "/usr/local/bin/taranis_configuration.py", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "prokka": "/usr/local/bin/prokka", "prokka-biocyc_to_fasta_db": "/usr/local/bin/prokka-biocyc_to_fasta_db", "prokka-build_kingdom_dbs": "/usr/local/bin/prokka-build_kingdom_dbs", "prokka-cdd_to_hmm": "/usr/local/bin/prokka-cdd_to_hmm", "prokka-clusters_to_hmm": "/usr/local/bin/prokka-clusters_to_hmm", "prokka-genbank_to_fasta_db": "/usr/local/bin/prokka-genbank_to_fasta_db"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taranis.
@@ -126,6 +128,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Dockerfile   -v ${PWD} -w ${P
 ```
 
 
+#### LICENSE
+
+```bash
+$ singularity exec <container> /usr/local/bin/LICENSE
+$ podman run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### allele_calling.py
 
 ```bash
@@ -207,93 +218,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/taranis_configuration.py   -v
 ```
 
 
-#### 2to3-3.7
+#### tbl2asn-test
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tbl2asn-test
+$ podman run --it --rm --entrypoint /usr/local/bin/tbl2asn-test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tbl2asn-test   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### CA.pm
+#### fix-sqn-date
 
 ```bash
-$ singularity exec <container> /usr/local/bin/CA.pm
-$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fix-sqn-date
+$ podman run --it --rm --entrypoint /usr/local/bin/fix-sqn-date   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fix-sqn-date   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### LICENSE
+#### faketime
 
 ```bash
-$ singularity exec <container> /usr/local/bin/LICENSE
-$ podman run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/faketime
+$ podman run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SOAPsh.pl
+#### real-tbl2asn
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/real-tbl2asn
+$ podman run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### prokka-abricate_to_fasta_db
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-abricate_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-abricate_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-abricate_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace.pl
+#### prokka
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### prokka-biocyc_to_fasta_db
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-biocyc_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-biocyc_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-biocyc_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### prokka-build_kingdom_dbs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-build_kingdom_dbs
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-build_kingdom_dbs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-build_kingdom_dbs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### prokka-cdd_to_hmm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-cdd_to_hmm
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-cdd_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-cdd_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### prokka-clusters_to_hmm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-clusters_to_hmm
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-clusters_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-clusters_to_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### prokka-genbank_to_fasta_db
+
+```bash
+$ singularity exec <container> /usr/local/bin/prokka-genbank_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-genbank_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-genbank_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

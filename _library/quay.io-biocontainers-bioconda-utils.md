@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconda-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconda-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconda-utils/container.yaml"
-updated_at: "2022-10-29 05:56:46.736921"
+updated_at: "2022-10-29 07:55:29.848521"
 latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconda-utils"
 aliases:
@@ -12,6 +12,9 @@ aliases:
  - "binstar"
  - "bioconda-utils"
  - "boa"
+ - "bsdcat"
+ - "bsdcpio"
+ - "bsdtar"
  - "celery"
  - "conda-build"
  - "conda-convert"
@@ -25,29 +28,42 @@ aliases:
  - "conda-server"
  - "conda-skeleton"
  - "conda-verify"
+ - "conda2solv"
+ - "dumpsolv"
+ - "galaxy-tool-test"
+ - "installcheck"
  - "involucro"
+ - "mamba"
  - "mamba-package"
+ - "mergesolv"
+ - "mulled-build"
+ - "mulled-build-channel"
+ - "mulled-build-files"
+ - "mulled-build-tool"
+ - "mulled-search"
  - "patchelf"
  - "pkginfo"
  - "pyjson5"
+ - "repo2solv"
  - "rg"
  - "scalar"
  - "skopeo"
+ - "testsolv"
  - "watchgod"
- - "2to3-3.7"
- - "acyclic"
- - "annotate"
- - "bcomps"
- - "bdftogd"
- - "bsdcat"
- - "bsdcpio"
- - "bsdtar"
- - "ccomps"
- - "chardetect"
+ - "conda-env"
+ - "cph"
+ - "git"
+ - "git-cvsserver"
+ - "git-receive-pack"
+ - "git-shell"
+ - "git-upload-archive"
+ - "git-upload-pack"
+ - "gitk"
+ - "docutils"
 versions:
  - "1.1.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconda-utils"
-config: {"url": "https://biocontainers.pro/tools/bioconda-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconda-utils", "latest": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "docker": "quay.io/biocontainers/bioconda-utils", "aliases": {"anaconda": "/usr/local/bin/anaconda", "binstar": "/usr/local/bin/binstar", "bioconda-utils": "/usr/local/bin/bioconda-utils", "boa": "/usr/local/bin/boa", "celery": "/usr/local/bin/celery", "conda-build": "/usr/local/bin/conda-build", "conda-convert": "/usr/local/bin/conda-convert", "conda-debug": "/usr/local/bin/conda-debug", "conda-develop": "/usr/local/bin/conda-develop", "conda-index": "/usr/local/bin/conda-index", "conda-inspect": "/usr/local/bin/conda-inspect", "conda-mambabuild": "/usr/local/bin/conda-mambabuild", "conda-metapackage": "/usr/local/bin/conda-metapackage", "conda-render": "/usr/local/bin/conda-render", "conda-server": "/usr/local/bin/conda-server", "conda-skeleton": "/usr/local/bin/conda-skeleton", "conda-verify": "/usr/local/bin/conda-verify", "involucro": "/usr/local/bin/involucro", "mamba-package": "/usr/local/bin/mamba-package", "patchelf": "/usr/local/bin/patchelf", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "rg": "/usr/local/bin/rg", "scalar": "/usr/local/bin/scalar", "skopeo": "/usr/local/bin/skopeo", "watchgod": "/usr/local/bin/watchgod", "2to3-3.7": "/usr/local/bin/2to3-3.7", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "ccomps": "/usr/local/bin/ccomps", "chardetect": "/usr/local/bin/chardetect"}}
+config: {"url": "https://biocontainers.pro/tools/bioconda-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconda-utils", "latest": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "docker": "quay.io/biocontainers/bioconda-utils", "aliases": {"anaconda": "/usr/local/bin/anaconda", "binstar": "/usr/local/bin/binstar", "bioconda-utils": "/usr/local/bin/bioconda-utils", "boa": "/usr/local/bin/boa", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "celery": "/usr/local/bin/celery", "conda-build": "/usr/local/bin/conda-build", "conda-convert": "/usr/local/bin/conda-convert", "conda-debug": "/usr/local/bin/conda-debug", "conda-develop": "/usr/local/bin/conda-develop", "conda-index": "/usr/local/bin/conda-index", "conda-inspect": "/usr/local/bin/conda-inspect", "conda-mambabuild": "/usr/local/bin/conda-mambabuild", "conda-metapackage": "/usr/local/bin/conda-metapackage", "conda-render": "/usr/local/bin/conda-render", "conda-server": "/usr/local/bin/conda-server", "conda-skeleton": "/usr/local/bin/conda-skeleton", "conda-verify": "/usr/local/bin/conda-verify", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "installcheck": "/usr/local/bin/installcheck", "involucro": "/usr/local/bin/involucro", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-search": "/usr/local/bin/mulled-search", "patchelf": "/usr/local/bin/patchelf", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "repo2solv": "/usr/local/bin/repo2solv", "rg": "/usr/local/bin/rg", "scalar": "/usr/local/bin/scalar", "skopeo": "/usr/local/bin/skopeo", "testsolv": "/usr/local/bin/testsolv", "watchgod": "/usr/local/bin/watchgod", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "docutils": "/usr/local/bin/docutils"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconda-utils.
@@ -169,6 +185,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/boa   -v ${PWD} -w ${PWD} <co
 ```
 
 
+#### bsdcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsdcpio
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdcpio
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsdtar
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdtar
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### celery
 
 ```bash
@@ -286,6 +329,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda-verify   -v ${PWD} -w $
 ```
 
 
+#### conda2solv
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda2solv
+$ podman run --it --rm --entrypoint /usr/local/bin/conda2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dumpsolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/dumpsolv
+$ podman run --it --rm --entrypoint /usr/local/bin/dumpsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dumpsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### galaxy-tool-test
+
+```bash
+$ singularity exec <container> /usr/local/bin/galaxy-tool-test
+$ podman run --it --rm --entrypoint /usr/local/bin/galaxy-tool-test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/galaxy-tool-test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### installcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/installcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/installcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/installcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### involucro
 
 ```bash
@@ -295,12 +374,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/involucro   -v ${PWD} -w ${PW
 ```
 
 
+#### mamba
+
+```bash
+$ singularity exec <container> /usr/local/bin/mamba
+$ podman run --it --rm --entrypoint /usr/local/bin/mamba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mamba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mamba-package
 
 ```bash
 $ singularity exec <container> /usr/local/bin/mamba-package
 $ podman run --it --rm --entrypoint /usr/local/bin/mamba-package   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mamba-package   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mergesolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/mergesolv
+$ podman run --it --rm --entrypoint /usr/local/bin/mergesolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mergesolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mulled-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/mulled-build
+$ podman run --it --rm --entrypoint /usr/local/bin/mulled-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mulled-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mulled-build-channel
+
+```bash
+$ singularity exec <container> /usr/local/bin/mulled-build-channel
+$ podman run --it --rm --entrypoint /usr/local/bin/mulled-build-channel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mulled-build-channel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mulled-build-files
+
+```bash
+$ singularity exec <container> /usr/local/bin/mulled-build-files
+$ podman run --it --rm --entrypoint /usr/local/bin/mulled-build-files   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mulled-build-files   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mulled-build-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/mulled-build-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/mulled-build-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mulled-build-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mulled-search
+
+```bash
+$ singularity exec <container> /usr/local/bin/mulled-search
+$ podman run --it --rm --entrypoint /usr/local/bin/mulled-search   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mulled-search   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -331,6 +473,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyjson5   -v ${PWD} -w ${PWD}
 ```
 
 
+#### repo2solv
+
+```bash
+$ singularity exec <container> /usr/local/bin/repo2solv
+$ podman run --it --rm --entrypoint /usr/local/bin/repo2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/repo2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### rg
 
 ```bash
@@ -358,6 +509,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/skopeo   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### testsolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/testsolv
+$ podman run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### watchgod
 
 ```bash
@@ -367,93 +527,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/watchgod   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.7
+#### conda-env
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/conda-env
+$ podman run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### cph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cph
+$ podman run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### git
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git
+$ podman run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### git-cvsserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-cvsserver
+$ podman run --it --rm --entrypoint /usr/local/bin/git-cvsserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-cvsserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### git-receive-pack
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-receive-pack
+$ podman run --it --rm --entrypoint /usr/local/bin/git-receive-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-receive-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bsdcat
+#### git-shell
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bsdcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-shell
+$ podman run --it --rm --entrypoint /usr/local/bin/git-shell   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-shell   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bsdcpio
+#### git-upload-archive
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bsdcpio
-$ podman run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-upload-archive
+$ podman run --it --rm --entrypoint /usr/local/bin/git-upload-archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-upload-archive   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bsdtar
+#### git-upload-pack
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bsdtar
-$ podman run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-upload-pack
+$ podman run --it --rm --entrypoint /usr/local/bin/git-upload-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-upload-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### gitk
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gitk
+$ podman run --it --rm --entrypoint /usr/local/bin/gitk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gitk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### chardetect
+#### docutils
 
 ```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/docutils
+$ podman run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

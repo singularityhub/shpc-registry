@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-lwp-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lwp-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lwp-simple/container.yaml"
-updated_at: "2022-10-29 05:33:05.696938"
+updated_at: "2022-10-29 07:38:04.750240"
 latest: "6.39--pl5321h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/perl-lwp-simple"
 aliases:
@@ -12,10 +12,12 @@ aliases:
  - "lwp-dump"
  - "lwp-mirror"
  - "lwp-request"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "6.39--pl5321h9ee0642_5"
 description: "shpc-registry automated BioContainers addition for perl-lwp-simple"
-config: {"url": "https://biocontainers.pro/tools/perl-lwp-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lwp-simple", "latest": {"6.39--pl5321h9ee0642_5": "sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26"}, "tags": {"6.39--pl5321h9ee0642_5": "sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26"}, "docker": "quay.io/biocontainers/perl-lwp-simple", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request"}}
+config: {"url": "https://biocontainers.pro/tools/perl-lwp-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lwp-simple", "latest": {"6.39--pl5321h9ee0642_5": "sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26"}, "tags": {"6.39--pl5321h9ee0642_5": "sha256:d2d176d05ba7a4d52de887cb074ef69fc8ea8df87b47086581beef8c108f8c26"}, "docker": "quay.io/biocontainers/perl-lwp-simple", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-lwp-simple.
@@ -134,6 +136,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/lwp-request
 $ podman run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

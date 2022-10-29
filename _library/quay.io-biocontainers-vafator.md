@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vafator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vafator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vafator/container.yaml"
-updated_at: "2022-10-29 05:53:51.597658"
+updated_at: "2022-10-29 07:53:23.440956"
 latest: "2.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vafator"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "multiallelics-filter"
  - "vafator"
  - "vafator2decifer"
+ - "cyvcf2"
+ - "coloredlogs"
+ - "humanfriendly"
+ - "shiftBed"
  - "annotateBed"
  - "bamToBed"
  - "bamToFastq"
  - "bed12ToBed6"
  - "bedToBam"
  - "bedToIgv"
- - "bedpeToBam"
- - "bedtools"
- - "bgzip"
- - "closestBed"
 versions:
  - "2.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vafator"
-config: {"url": "https://biocontainers.pro/tools/vafator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vafator", "latest": {"2.1.0--pyhdfd78af_0": "sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13"}, "docker": "quay.io/biocontainers/vafator", "aliases": {"hatchet2bed": "/usr/local/bin/hatchet2bed", "multiallelics-filter": "/usr/local/bin/multiallelics-filter", "vafator": "/usr/local/bin/vafator", "vafator2decifer": "/usr/local/bin/vafator2decifer", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "bgzip": "/usr/local/bin/bgzip", "closestBed": "/usr/local/bin/closestBed"}}
+config: {"url": "https://biocontainers.pro/tools/vafator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vafator", "latest": {"2.1.0--pyhdfd78af_0": "sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13"}, "tags": {"2.1.0--pyhdfd78af_0": "sha256:171e5790b44732eef01a22f6ec4d8efaf4de92c91c4e6a80a4a2c96197f7ea13"}, "docker": "quay.io/biocontainers/vafator", "aliases": {"hatchet2bed": "/usr/local/bin/hatchet2bed", "multiallelics-filter": "/usr/local/bin/multiallelics-filter", "vafator": "/usr/local/bin/vafator", "vafator2decifer": "/usr/local/bin/vafator2decifer", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vafator.
@@ -147,6 +147,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vafator2decifer   -v ${PWD} -
 ```
 
 
+#### cyvcf2
+
+```bash
+$ singularity exec <container> /usr/local/bin/cyvcf2
+$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coloredlogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### humanfriendly
+
+```bash
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### shiftBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/shiftBed
+$ podman run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### annotateBed
 
 ```bash
@@ -198,42 +234,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/bedToIgv
 $ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedpeToBam
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedpeToBam
-$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedtools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### closestBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/closestBed
-$ podman run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ctseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ctseq/container.yaml"
-updated_at: "2022-10-29 05:49:45.959650"
+updated_at: "2022-10-29 07:50:22.648566"
 latest: "0.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/ctseq"
 aliases:
@@ -71,10 +71,10 @@ aliases:
  - "run_type_CP.sh"
  - "test_data.fastq"
  - "umi_tools"
- - "2to3-3.7"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
+ - "metadata_conda_debug.yaml"
+ - "cutadapt"
+ - "pigz"
+ - "unpigz"
  - "bowtie2"
  - "bowtie2-align-l"
  - "bowtie2-align-s"
@@ -84,7 +84,7 @@ aliases:
 versions:
  - "0.0.2--py_0"
 description: "shpc-registry automated BioContainers addition for ctseq"
-config: {"url": "https://biocontainers.pro/tools/ctseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctseq", "latest": {"0.0.2--py_0": "sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4"}, "tags": {"0.0.2--py_0": "sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4"}, "docker": "quay.io/biocontainers/ctseq", "aliases": {"Bismark_alignment_modes.pdf": "/usr/local/bin/Bismark_alignment_modes.pdf", "NOMe_filtering": "/usr/local/bin/NOMe_filtering", "_config.yml": "/usr/local/bin/_config.yml", "bam2nuc": "/usr/local/bin/bam2nuc", "bismark": "/usr/local/bin/bismark", "bismark2bedGraph": "/usr/local/bin/bismark2bedGraph", "bismark2report": "/usr/local/bin/bismark2report", "bismark2summary": "/usr/local/bin/bismark2summary", "bismark_genome_preparation": "/usr/local/bin/bismark_genome_preparation", "bismark_methylation_extractor": "/usr/local/bin/bismark_methylation_extractor", "compare_HLA.py": "/usr/local/bin/compare_HLA.py", "compare_HLA.py.bak": "/usr/local/bin/compare_HLA.py.bak", "compare_HLA_Omixon.py": "/usr/local/bin/compare_HLA_Omixon.py", "compare_HLA_Omixon.py.bak": "/usr/local/bin/compare_HLA_Omixon.py.bak", "copy_bismark_files_for_release.pl": "/usr/local/bin/copy_bismark_files_for_release.pl", "coverage2cytosine": "/usr/local/bin/coverage2cytosine", "ctseq": "/usr/local/bin/ctseq", "deduplicate_bismark": "/usr/local/bin/deduplicate_bismark", "extract_Omixon_HLA.py": "/usr/local/bin/extract_Omixon_HLA.py", "extract_Omixon_HLA.py.bak": "/usr/local/bin/extract_Omixon_HLA.py.bak", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "filter_non_conversion": "/usr/local/bin/filter_non_conversion", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "hisatgenotype.py": "/usr/local/bin/hisatgenotype.py", "hisatgenotype_HLA_genotyping_PGs.py": "/usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py", "hisatgenotype_HLA_genotyping_PGs.py.bak": "/usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py.bak", "hisatgenotype_build_genome.py": "/usr/local/bin/hisatgenotype_build_genome.py", "hisatgenotype_convert_codis.py": "/usr/local/bin/hisatgenotype_convert_codis.py", "hisatgenotype_convert_codis.py.bak": "/usr/local/bin/hisatgenotype_convert_codis.py.bak", "hisatgenotype_extract_codis_data.py": "/usr/local/bin/hisatgenotype_extract_codis_data.py", "hisatgenotype_extract_codis_data.py.bak": "/usr/local/bin/hisatgenotype_extract_codis_data.py.bak", "hisatgenotype_extract_cyp_data.py": "/usr/local/bin/hisatgenotype_extract_cyp_data.py", "hisatgenotype_extract_cyp_data.py.bak": "/usr/local/bin/hisatgenotype_extract_cyp_data.py.bak", "hisatgenotype_extract_reads.py": "/usr/local/bin/hisatgenotype_extract_reads.py", "hisatgenotype_extract_vars.py": "/usr/local/bin/hisatgenotype_extract_vars.py", "hisatgenotype_hla_cyp.py": "/usr/local/bin/hisatgenotype_hla_cyp.py", "hisatgenotype_locus.py": "/usr/local/bin/hisatgenotype_locus.py", "hisatgenotype_locus_samples.py": "/usr/local/bin/hisatgenotype_locus_samples.py", "hisatgenotype_locus_samples.py.bak": "/usr/local/bin/hisatgenotype_locus_samples.py.bak", "license.txt": "/usr/local/bin/license.txt", "methylation_consistency": "/usr/local/bin/methylation_consistency", "run_extract_CP.sh": "/usr/local/bin/run_extract_CP.sh", "run_extract_ILMN.sh": "/usr/local/bin/run_extract_ILMN.sh", "run_genotype_build.sh": "/usr/local/bin/run_genotype_build.sh", "run_hisat2_build.sh": "/usr/local/bin/run_hisat2_build.sh", "run_type_CP.sh": "/usr/local/bin/run_type_CP.sh", "test_data.fastq": "/usr/local/bin/test_data.fastq", "umi_tools": "/usr/local/bin/umi_tools", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
+config: {"url": "https://biocontainers.pro/tools/ctseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctseq", "latest": {"0.0.2--py_0": "sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4"}, "tags": {"0.0.2--py_0": "sha256:46a4feee4d38f44d566e11856eff82b27dbad75f0fbfaaa16585c2621da77fb4"}, "docker": "quay.io/biocontainers/ctseq", "aliases": {"Bismark_alignment_modes.pdf": "/usr/local/bin/Bismark_alignment_modes.pdf", "NOMe_filtering": "/usr/local/bin/NOMe_filtering", "_config.yml": "/usr/local/bin/_config.yml", "bam2nuc": "/usr/local/bin/bam2nuc", "bismark": "/usr/local/bin/bismark", "bismark2bedGraph": "/usr/local/bin/bismark2bedGraph", "bismark2report": "/usr/local/bin/bismark2report", "bismark2summary": "/usr/local/bin/bismark2summary", "bismark_genome_preparation": "/usr/local/bin/bismark_genome_preparation", "bismark_methylation_extractor": "/usr/local/bin/bismark_methylation_extractor", "compare_HLA.py": "/usr/local/bin/compare_HLA.py", "compare_HLA.py.bak": "/usr/local/bin/compare_HLA.py.bak", "compare_HLA_Omixon.py": "/usr/local/bin/compare_HLA_Omixon.py", "compare_HLA_Omixon.py.bak": "/usr/local/bin/compare_HLA_Omixon.py.bak", "copy_bismark_files_for_release.pl": "/usr/local/bin/copy_bismark_files_for_release.pl", "coverage2cytosine": "/usr/local/bin/coverage2cytosine", "ctseq": "/usr/local/bin/ctseq", "deduplicate_bismark": "/usr/local/bin/deduplicate_bismark", "extract_Omixon_HLA.py": "/usr/local/bin/extract_Omixon_HLA.py", "extract_Omixon_HLA.py.bak": "/usr/local/bin/extract_Omixon_HLA.py.bak", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "filter_non_conversion": "/usr/local/bin/filter_non_conversion", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "hisatgenotype.py": "/usr/local/bin/hisatgenotype.py", "hisatgenotype_HLA_genotyping_PGs.py": "/usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py", "hisatgenotype_HLA_genotyping_PGs.py.bak": "/usr/local/bin/hisatgenotype_HLA_genotyping_PGs.py.bak", "hisatgenotype_build_genome.py": "/usr/local/bin/hisatgenotype_build_genome.py", "hisatgenotype_convert_codis.py": "/usr/local/bin/hisatgenotype_convert_codis.py", "hisatgenotype_convert_codis.py.bak": "/usr/local/bin/hisatgenotype_convert_codis.py.bak", "hisatgenotype_extract_codis_data.py": "/usr/local/bin/hisatgenotype_extract_codis_data.py", "hisatgenotype_extract_codis_data.py.bak": "/usr/local/bin/hisatgenotype_extract_codis_data.py.bak", "hisatgenotype_extract_cyp_data.py": "/usr/local/bin/hisatgenotype_extract_cyp_data.py", "hisatgenotype_extract_cyp_data.py.bak": "/usr/local/bin/hisatgenotype_extract_cyp_data.py.bak", "hisatgenotype_extract_reads.py": "/usr/local/bin/hisatgenotype_extract_reads.py", "hisatgenotype_extract_vars.py": "/usr/local/bin/hisatgenotype_extract_vars.py", "hisatgenotype_hla_cyp.py": "/usr/local/bin/hisatgenotype_hla_cyp.py", "hisatgenotype_locus.py": "/usr/local/bin/hisatgenotype_locus.py", "hisatgenotype_locus_samples.py": "/usr/local/bin/hisatgenotype_locus_samples.py", "hisatgenotype_locus_samples.py.bak": "/usr/local/bin/hisatgenotype_locus_samples.py.bak", "license.txt": "/usr/local/bin/license.txt", "methylation_consistency": "/usr/local/bin/methylation_consistency", "run_extract_CP.sh": "/usr/local/bin/run_extract_CP.sh", "run_extract_ILMN.sh": "/usr/local/bin/run_extract_ILMN.sh", "run_genotype_build.sh": "/usr/local/bin/run_genotype_build.sh", "run_hisat2_build.sh": "/usr/local/bin/run_hisat2_build.sh", "run_type_CP.sh": "/usr/local/bin/run_type_CP.sh", "test_data.fastq": "/usr/local/bin/test_data.fastq", "umi_tools": "/usr/local/bin/umi_tools", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "cutadapt": "/usr/local/bin/cutadapt", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ctseq.
@@ -737,39 +737,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/umi_tools   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.7
+#### metadata_conda_debug.yaml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/metadata_conda_debug.yaml
+$ podman run --it --rm --entrypoint /usr/local/bin/metadata_conda_debug.yaml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metadata_conda_debug.yaml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### cutadapt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cutadapt
+$ podman run --it --rm --entrypoint /usr/local/bin/cutadapt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cutadapt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### pigz
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### unpigz
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unpigz
+$ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

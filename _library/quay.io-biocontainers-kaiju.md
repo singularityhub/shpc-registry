@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kaiju"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kaiju/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kaiju/container.yaml"
-updated_at: "2022-10-29 05:36:12.486799"
+updated_at: "2022-10-29 07:40:21.723853"
 latest: "1.9.0--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/kaiju"
 aliases:
@@ -24,18 +24,20 @@ aliases:
  - "kaiju2table"
  - "kaijup"
  - "kaijux"
+ - "idn2"
+ - "wget"
  - "2to3-3.10"
  - "idle3.10"
- - "idn2"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
- - "wget"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.9.0--h5b5514e_1"
 description: "shpc-registry automated BioContainers addition for kaiju"
-config: {"url": "https://biocontainers.pro/tools/kaiju", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kaiju", "latest": {"1.9.0--h5b5514e_1": "sha256:4131bb30e4ee9edcec5abfb9d90ad5f09b6acf6c7361bc10cac781805a474c27"}, "tags": {"1.9.0--h5b5514e_1": "sha256:4131bb30e4ee9edcec5abfb9d90ad5f09b6acf6c7361bc10cac781805a474c27"}, "docker": "quay.io/biocontainers/kaiju", "aliases": {"kaiju": "/usr/local/bin/kaiju", "kaiju-addTaxonNames": "/usr/local/bin/kaiju-addTaxonNames", "kaiju-convertMAR.py": "/usr/local/bin/kaiju-convertMAR.py", "kaiju-convertNR": "/usr/local/bin/kaiju-convertNR", "kaiju-excluded-accessions.txt": "/usr/local/bin/kaiju-excluded-accessions.txt", "kaiju-gbk2faa.pl": "/usr/local/bin/kaiju-gbk2faa.pl", "kaiju-makedb": "/usr/local/bin/kaiju-makedb", "kaiju-mergeOutputs": "/usr/local/bin/kaiju-mergeOutputs", "kaiju-mkbwt": "/usr/local/bin/kaiju-mkbwt", "kaiju-mkfmi": "/usr/local/bin/kaiju-mkfmi", "kaiju-multi": "/usr/local/bin/kaiju-multi", "kaiju-taxonlistEuk.tsv": "/usr/local/bin/kaiju-taxonlistEuk.tsv", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaiju2table": "/usr/local/bin/kaiju2table", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "idn2": "/usr/local/bin/idn2", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/kaiju", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kaiju", "latest": {"1.9.0--h5b5514e_1": "sha256:4131bb30e4ee9edcec5abfb9d90ad5f09b6acf6c7361bc10cac781805a474c27"}, "tags": {"1.9.0--h5b5514e_1": "sha256:4131bb30e4ee9edcec5abfb9d90ad5f09b6acf6c7361bc10cac781805a474c27"}, "docker": "quay.io/biocontainers/kaiju", "aliases": {"kaiju": "/usr/local/bin/kaiju", "kaiju-addTaxonNames": "/usr/local/bin/kaiju-addTaxonNames", "kaiju-convertMAR.py": "/usr/local/bin/kaiju-convertMAR.py", "kaiju-convertNR": "/usr/local/bin/kaiju-convertNR", "kaiju-excluded-accessions.txt": "/usr/local/bin/kaiju-excluded-accessions.txt", "kaiju-gbk2faa.pl": "/usr/local/bin/kaiju-gbk2faa.pl", "kaiju-makedb": "/usr/local/bin/kaiju-makedb", "kaiju-mergeOutputs": "/usr/local/bin/kaiju-mergeOutputs", "kaiju-mkbwt": "/usr/local/bin/kaiju-mkbwt", "kaiju-mkfmi": "/usr/local/bin/kaiju-mkfmi", "kaiju-multi": "/usr/local/bin/kaiju-multi", "kaiju-taxonlistEuk.tsv": "/usr/local/bin/kaiju-taxonlistEuk.tsv", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaiju2table": "/usr/local/bin/kaiju2table", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kaiju.
@@ -265,6 +267,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kaijux   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### idn2
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.10
 
 ```bash
@@ -280,15 +300,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/idle3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idn2
-
-```bash
-$ singularity exec <container> /usr/local/bin/idn2
-$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -328,12 +339,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD}
 ```
 
 
-#### wget
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

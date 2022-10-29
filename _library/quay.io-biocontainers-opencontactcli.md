@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/opencontactcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opencontactcli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/opencontactcli/container.yaml"
-updated_at: "2022-10-29 05:58:06.951633"
+updated_at: "2022-10-29 07:56:27.994381"
 latest: "1.1--py36h5f405dc_6"
 container_url: "https://biocontainers.pro/tools/opencontactcli"
 aliases:
@@ -20,8 +20,8 @@ aliases:
  - "ntresc03n.pdb"
  - "residc03.pdb"
  - "residc03n.pdb"
- - "2to3-3.6"
  - "f2py3.6"
+ - "2to3-3.6"
  - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
@@ -29,10 +29,11 @@ aliases:
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "pyvenv"
 versions:
  - "1.1--py36h5f405dc_6"
 description: "shpc-registry automated BioContainers addition for opencontactcli"
-config: {"url": "https://biocontainers.pro/tools/opencontactcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opencontactcli", "latest": {"1.1--py36h5f405dc_6": "sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c"}, "tags": {"1.1--py36h5f405dc_6": "sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c"}, "docker": "quay.io/biocontainers/opencontactcli", "aliases": {"OpenContactCLI": "/usr/local/bin/OpenContactCLI", "contactgui.f": "/usr/local/bin/contactgui.f", "ctresc03.pdb": "/usr/local/bin/ctresc03.pdb", "ctresc03n.pdb": "/usr/local/bin/ctresc03n.pdb", "inputgui.f": "/usr/local/bin/inputgui.f", "ljresid": "/usr/local/bin/ljresid", "ljresidn": "/usr/local/bin/ljresidn", "main_cli.py": "/usr/local/bin/main_cli.py", "ntresc03.pdb": "/usr/local/bin/ntresc03.pdb", "ntresc03n.pdb": "/usr/local/bin/ntresc03n.pdb", "residc03.pdb": "/usr/local/bin/residc03.pdb", "residc03n.pdb": "/usr/local/bin/residc03n.pdb", "2to3-3.6": "/usr/local/bin/2to3-3.6", "f2py3.6": "/usr/local/bin/f2py3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/opencontactcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opencontactcli", "latest": {"1.1--py36h5f405dc_6": "sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c"}, "tags": {"1.1--py36h5f405dc_6": "sha256:ac624ab162be8768da170c651c9093a02f9e8934d5aebe070025e040fce9923c"}, "docker": "quay.io/biocontainers/opencontactcli", "aliases": {"OpenContactCLI": "/usr/local/bin/OpenContactCLI", "contactgui.f": "/usr/local/bin/contactgui.f", "ctresc03.pdb": "/usr/local/bin/ctresc03.pdb", "ctresc03n.pdb": "/usr/local/bin/ctresc03n.pdb", "inputgui.f": "/usr/local/bin/inputgui.f", "ljresid": "/usr/local/bin/ljresid", "ljresidn": "/usr/local/bin/ljresidn", "main_cli.py": "/usr/local/bin/main_cli.py", "ntresc03.pdb": "/usr/local/bin/ntresc03.pdb", "ntresc03n.pdb": "/usr/local/bin/ntresc03n.pdb", "residc03.pdb": "/usr/local/bin/residc03.pdb", "residc03n.pdb": "/usr/local/bin/residc03n.pdb", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/opencontactcli.
@@ -226,21 +227,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/residc03n.pdb   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -304,6 +305,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

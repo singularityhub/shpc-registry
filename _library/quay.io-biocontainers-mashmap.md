@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/mashmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mashmap/container.yaml"
-updated_at: "2022-10-29 05:35:36.101681"
+updated_at: "2022-10-29 07:39:54.779225"
 latest: "2.0--pl5321h8e5b204_8"
 container_url: "https://biocontainers.pro/tools/mashmap"
 aliases:
  - "mashmap"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.0--pl5321h8e5b204_8"
 description: "shpc-registry automated BioContainers addition for mashmap"
-config: {"url": "https://biocontainers.pro/tools/mashmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashmap", "latest": {"2.0--pl5321h8e5b204_8": "sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122"}, "tags": {"2.0--pl5321h8e5b204_8": "sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122"}, "docker": "quay.io/biocontainers/mashmap", "aliases": {"mashmap": "/usr/local/bin/mashmap"}}
+config: {"url": "https://biocontainers.pro/tools/mashmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashmap", "latest": {"2.0--pl5321h8e5b204_8": "sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122"}, "tags": {"2.0--pl5321h8e5b204_8": "sha256:6b6c744b535f172a9f5f0b6ce936cb8a125c2c81eadfe306e499a5e16cc96122"}, "docker": "quay.io/biocontainers/mashmap", "aliases": {"mashmap": "/usr/local/bin/mashmap", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mashmap.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/mashmap
 $ podman run --it --rm --entrypoint /usr/local/bin/mashmap   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mashmap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb/container.yaml"
-updated_at: "2022-10-29 05:37:15.548497"
+updated_at: "2022-10-29 07:41:08.272147"
 latest: "1.00.0--r40hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribosomaldatabaseproject11.5mgdb"
 aliases:
+ - ".bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh"
+ - ".bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.00.0--r40hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for bioconductor-ribosomaldatabaseproject11.5mgdb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ribosomaldatabaseproject11.5mgdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribosomaldatabaseproject11.5mgdb", "latest": {"1.00.0--r40hdfd78af_6": "sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c"}, "tags": {"1.00.0--r40hdfd78af_6": "sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c"}, "docker": "quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ribosomaldatabaseproject11.5mgdb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribosomaldatabaseproject11.5mgdb", "latest": {"1.00.0--r40hdfd78af_6": "sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c"}, "tags": {"1.00.0--r40hdfd78af_6": "sha256:4f171b19b0a2841b7a6e386756169ebdd384f4a875f6035e5d7e5193257a847c"}, "docker": "quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb", "aliases": {".bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh": "/usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh", ".bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh": "/usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ribosomaldatabaseproject11.5mgdb.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ribosomaldatabaseproject11.5mgdb-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

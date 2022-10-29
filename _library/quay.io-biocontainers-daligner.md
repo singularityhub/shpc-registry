@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/daligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/daligner/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/daligner/container.yaml"
-updated_at: "2022-10-29 05:30:39.838506"
+updated_at: "2022-10-29 07:36:18.098213"
 latest: "1.0p2--h470a237_1"
 container_url: "https://biocontainers.pro/tools/daligner"
 aliases:
  - "HPC.daligner"
- - "LAdump"
- - "LAindex"
  - "LAcat"
  - "LAcheck"
+ - "LAdump"
+ - "LAindex"
  - "LAmerge"
  - "LAshow"
  - "LAsort"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.0p2--h470a237_1"
 description: "shpc-registry automated BioContainers addition for daligner"
-config: {"url": "https://biocontainers.pro/tools/daligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for daligner", "latest": {"1.0p2--h470a237_1": "sha256:be059ee81acd1c4330fa66bef00ebd9e3b8401d79318028afb5ead31664203b2"}, "tags": {"1.0p2--h470a237_1": "sha256:be059ee81acd1c4330fa66bef00ebd9e3b8401d79318028afb5ead31664203b2"}, "docker": "quay.io/biocontainers/daligner", "aliases": {"HPC.daligner": "/usr/local/bin/HPC.daligner", "LAdump": "/usr/local/bin/LAdump", "LAindex": "/usr/local/bin/LAindex", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "daligner": "/usr/local/bin/daligner"}}
+config: {"url": "https://biocontainers.pro/tools/daligner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for daligner", "latest": {"1.0p2--h470a237_1": "sha256:be059ee81acd1c4330fa66bef00ebd9e3b8401d79318028afb5ead31664203b2"}, "tags": {"1.0p2--h470a237_1": "sha256:be059ee81acd1c4330fa66bef00ebd9e3b8401d79318028afb5ead31664203b2"}, "docker": "quay.io/biocontainers/daligner", "aliases": {"HPC.daligner": "/usr/local/bin/HPC.daligner", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAdump": "/usr/local/bin/LAdump", "LAindex": "/usr/local/bin/LAindex", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "daligner": "/usr/local/bin/daligner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/daligner.
@@ -116,24 +116,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/HPC.daligner   -v ${PWD} -w $
 ```
 
 
-#### LAdump
-
-```bash
-$ singularity exec <container> /usr/local/bin/LAdump
-$ podman run --it --rm --entrypoint /usr/local/bin/LAdump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/LAdump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### LAindex
-
-```bash
-$ singularity exec <container> /usr/local/bin/LAindex
-$ podman run --it --rm --entrypoint /usr/local/bin/LAindex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/LAindex   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### LAcat
 
 ```bash
@@ -149,6 +131,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/LAcat   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/LAcheck
 $ podman run --it --rm --entrypoint /usr/local/bin/LAcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/LAcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### LAdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAdump
+$ podman run --it --rm --entrypoint /usr/local/bin/LAdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### LAindex
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAindex
+$ podman run --it --rm --entrypoint /usr/local/bin/LAindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAindex   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

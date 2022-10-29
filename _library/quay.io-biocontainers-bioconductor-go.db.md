@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-go.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-go.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-go.db/container.yaml"
-updated_at: "2022-10-29 05:48:08.424933"
+updated_at: "2022-10-29 07:49:10.737132"
 latest: "3.8.2--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-go.db"
 aliases:
+ - ".bioconductor-go.db-post-link.sh"
+ - ".bioconductor-go.db-pre-unlink.sh"
+ - "gio-launch-desktop"
  - "c89"
  - "c99"
- - "gio-launch-desktop"
 versions:
  - "3.8.2--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-go.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-go.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-go.db", "latest": {"3.8.2--r36_1": "sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921"}, "tags": {"3.8.2--r36_1": "sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921"}, "docker": "quay.io/biocontainers/bioconductor-go.db", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-go.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-go.db", "latest": {"3.8.2--r36_1": "sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921"}, "tags": {"3.8.2--r36_1": "sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921"}, "docker": "quay.io/biocontainers/bioconductor-go.db", "aliases": {".bioconductor-go.db-post-link.sh": "/usr/local/bin/.bioconductor-go.db-post-link.sh", ".bioconductor-go.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-go.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-go.db.
@@ -100,6 +102,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-go.db-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-go.db-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-go.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-go.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-go.db-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-go.db-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-go.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-go.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### c89
 
 ```bash
@@ -115,15 +144,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/c99
 $ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

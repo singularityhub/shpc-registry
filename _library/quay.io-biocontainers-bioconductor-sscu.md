@@ -4,17 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-sscu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sscu/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sscu/container.yaml"
-updated_at: "2022-10-29 05:49:47.030428"
+updated_at: "2022-10-29 07:50:23.444138"
 latest: "2.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sscu"
 aliases:
- - "ncurses5-config"
  - "tclsh8.5"
  - "wish8.5"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "2.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sscu"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sscu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sscu", "latest": {"2.8.0--r3.4.1_0": "sha256:84292bf0b534dfa362136ac8297db50f0b978642b86dcf9c293a94e71bb5fd79"}, "tags": {"2.8.0--r3.4.1_0": "sha256:84292bf0b534dfa362136ac8297db50f0b978642b86dcf9c293a94e71bb5fd79"}, "docker": "quay.io/biocontainers/bioconductor-sscu", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sscu", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sscu", "latest": {"2.8.0--r3.4.1_0": "sha256:84292bf0b534dfa362136ac8297db50f0b978642b86dcf9c293a94e71bb5fd79"}, "tags": {"2.8.0--r3.4.1_0": "sha256:84292bf0b534dfa362136ac8297db50f0b978642b86dcf9c293a94e71bb5fd79"}, "docker": "quay.io/biocontainers/bioconductor-sscu", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sscu.
@@ -100,15 +101,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### tclsh8.5
 
 ```bash
@@ -124,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/wish8.5
 $ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

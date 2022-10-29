@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectrassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spectrassembler/container.yaml"
-updated_at: "2022-10-29 05:56:40.252053"
+updated_at: "2022-10-29 07:55:25.126546"
 latest: "0.0.1a1--py_4"
 container_url: "https://biocontainers.pro/tools/spectrassembler"
 aliases:
@@ -19,16 +19,16 @@ aliases:
  - "blastall"
  - "blastclust"
  - "blastpgp"
- - "bwa"
  - "copymat"
- - "f2py2"
- - "f2py2.7"
  - "fastacmd"
  - "formatdb"
+ - "formatrpsdb"
+ - "impala"
+ - "makemat"
 versions:
  - "0.0.1a1--py_4"
 description: "shpc-registry automated BioContainers addition for spectrassembler"
-config: {"url": "https://biocontainers.pro/tools/spectrassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrassembler", "latest": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "tags": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "docker": "quay.io/biocontainers/spectrassembler", "aliases": {"gen_cons_from_poa.py": "/usr/local/bin/gen_cons_from_poa.py", "get_position_from_sam.py": "/usr/local/bin/get_position_from_sam.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "minimap": "/usr/local/bin/minimap", "minimap-lite": "/usr/local/bin/minimap-lite", "poa": "/usr/local/bin/poa", "spectral_layout_from_minimap.py": "/usr/local/bin/spectral_layout_from_minimap.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "bwa": "/usr/local/bin/bwa", "copymat": "/usr/local/bin/copymat", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb"}}
+config: {"url": "https://biocontainers.pro/tools/spectrassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrassembler", "latest": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "tags": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "docker": "quay.io/biocontainers/spectrassembler", "aliases": {"gen_cons_from_poa.py": "/usr/local/bin/gen_cons_from_poa.py", "get_position_from_sam.py": "/usr/local/bin/get_position_from_sam.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "minimap": "/usr/local/bin/minimap", "minimap-lite": "/usr/local/bin/minimap-lite", "poa": "/usr/local/bin/poa", "spectral_layout_from_minimap.py": "/usr/local/bin/spectral_layout_from_minimap.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spectrassembler.
@@ -213,39 +213,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD
 ```
 
 
-#### bwa
-
-```bash
-$ singularity exec <container> /usr/local/bin/bwa
-$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### copymat
 
 ```bash
 $ singularity exec <container> /usr/local/bin/copymat
 $ podman run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py2
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py2
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -264,6 +237,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastacmd   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/formatdb
 $ podman run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### formatrpsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/formatrpsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/formatrpsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/formatrpsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### impala
+
+```bash
+$ singularity exec <container> /usr/local/bin/impala
+$ podman run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### makemat
+
+```bash
+$ singularity exec <container> /usr/local/bin/makemat
+$ podman run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/vamb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vamb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vamb/container.yaml"
-updated_at: "2022-10-29 05:34:10.255670"
+updated_at: "2022-10-29 07:38:52.212914"
 latest: "3.0.2--py37h8902056_2"
 container_url: "https://biocontainers.pro/tools/vamb"
 aliases:
  - "concatenate.py"
  - "vamb"
- - "2to3-3.7"
  - "convert-caffe2-to-onnx"
  - "convert-onnx-to-caffe2"
- - "f2py3.7"
- - "idle3.7"
  - "ninja"
+ - "f2py3.7"
+ - "2to3-3.7"
+ - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "3.0.2--py37h8902056_2"
 description: "shpc-registry automated BioContainers addition for vamb"
-config: {"url": "https://biocontainers.pro/tools/vamb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vamb", "latest": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1"}, "tags": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1"}, "docker": "quay.io/biocontainers/vamb", "aliases": {"concatenate.py": "/usr/local/bin/concatenate.py", "vamb": "/usr/local/bin/vamb", "2to3-3.7": "/usr/local/bin/2to3-3.7", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "ninja": "/usr/local/bin/ninja", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
+config: {"url": "https://biocontainers.pro/tools/vamb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vamb", "latest": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1"}, "tags": {"3.0.2--py37h8902056_2": "sha256:f6c3eae18439c3bbdac47d72242a37e9df5ef82bfe1c54749dfaac1914202bf1"}, "docker": "quay.io/biocontainers/vamb", "aliases": {"concatenate.py": "/usr/local/bin/concatenate.py", "vamb": "/usr/local/bin/vamb", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vamb.
@@ -127,15 +127,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vamb   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### convert-caffe2-to-onnx
 
 ```bash
@@ -154,6 +145,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v $
 ```
 
 
+#### ninja
+
+```bash
+$ singularity exec <container> /usr/local/bin/ninja
+$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### f2py3.7
 
 ```bash
@@ -163,21 +163,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD}
 ```
 
 
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ninja
-
-```bash
-$ singularity exec <container> /usr/local/bin/ninja
-$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

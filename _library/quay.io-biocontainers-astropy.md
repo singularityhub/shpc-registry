@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/astropy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/astropy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/astropy/container.yaml"
-updated_at: "2022-10-29 05:50:19.439260"
+updated_at: "2022-10-29 07:50:47.236957"
 latest: "3.0.5--py37h7b6447c_1"
 container_url: "https://biocontainers.pro/tools/astropy"
 aliases:
@@ -17,20 +17,20 @@ aliases:
  - "showtable"
  - "volint"
  - "wcslint"
+ - "py.test"
+ - "pytest"
  - "2to3-3.7"
  - "idle3.7"
- - "py.test"
  - "pydoc3.7"
- - "pytest"
  - "python3.7"
  - "python3.7-config"
  - "python3.7m"
  - "python3.7m-config"
- - "pyvenv"
+ - "pyvenv-3.7"
 versions:
  - "3.0.5--py37h7b6447c_1"
 description: "shpc-registry automated BioContainers addition for astropy"
-config: {"url": "https://biocontainers.pro/tools/astropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for astropy", "latest": {"3.0.5--py37h7b6447c_1": "sha256:0971a4300fdc206d48669e43cf64fb9edde18a446a1e757bc1c8e9387dc20629"}, "tags": {"3.0.5--py37h7b6447c_1": "sha256:0971a4300fdc206d48669e43cf64fb9edde18a446a1e757bc1c8e9387dc20629"}, "docker": "quay.io/biocontainers/astropy", "aliases": {"fits2bitmap": "/usr/local/bin/fits2bitmap", "fitscheck": "/usr/local/bin/fitscheck", "fitsdiff": "/usr/local/bin/fitsdiff", "fitsheader": "/usr/local/bin/fitsheader", "fitsinfo": "/usr/local/bin/fitsinfo", "samp_hub": "/usr/local/bin/samp_hub", "showtable": "/usr/local/bin/showtable", "volint": "/usr/local/bin/volint", "wcslint": "/usr/local/bin/wcslint", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "py.test": "/usr/local/bin/py.test", "pydoc3.7": "/usr/local/bin/pydoc3.7", "pytest": "/usr/local/bin/pytest", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/astropy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for astropy", "latest": {"3.0.5--py37h7b6447c_1": "sha256:0971a4300fdc206d48669e43cf64fb9edde18a446a1e757bc1c8e9387dc20629"}, "tags": {"3.0.5--py37h7b6447c_1": "sha256:0971a4300fdc206d48669e43cf64fb9edde18a446a1e757bc1c8e9387dc20629"}, "docker": "quay.io/biocontainers/astropy", "aliases": {"fits2bitmap": "/usr/local/bin/fits2bitmap", "fitscheck": "/usr/local/bin/fitscheck", "fitsdiff": "/usr/local/bin/fitsdiff", "fitsheader": "/usr/local/bin/fitsheader", "fitsinfo": "/usr/local/bin/fitsinfo", "samp_hub": "/usr/local/bin/samp_hub", "showtable": "/usr/local/bin/showtable", "volint": "/usr/local/bin/volint", "wcslint": "/usr/local/bin/wcslint", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/astropy.
@@ -197,6 +197,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wcslint   -v ${PWD} -w ${PWD}
 ```
 
 
+#### py.test
+
+```bash
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pytest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.7
 
 ```bash
@@ -215,30 +233,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD}
 ```
 
 
-#### py.test
-
-```bash
-$ singularity exec <container> /usr/local/bin/py.test
-$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pydoc3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pydoc3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pytest
-
-```bash
-$ singularity exec <container> /usr/local/bin/pytest
-$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -278,12 +278,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
+#### pyvenv-3.7
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyvenv-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

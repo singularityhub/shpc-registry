@@ -4,25 +4,30 @@ name:  "quay.io/biocontainers/metabinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabinner/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metabinner/container.yaml"
-updated_at: "2022-10-29 05:57:04.141925"
+updated_at: "2022-10-29 07:55:42.405255"
 latest: "1.4.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabinner"
 aliases:
- - "run_metabinner.sh"
- - "2to3-3.7"
  - "FragGeneScan"
- - "ace2sam"
- - "alimask"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "bwa"
  - "checkm"
+ - "hmmc2"
+ - "hmmerfm-exactmatch"
+ - "run_FragGeneScan.pl"
+ - "run_metabinner.sh"
+ - "rppr"
+ - "guppy"
+ - "pplacer"
  - "dendropy-format"
+ - "sumlabels.py"
+ - "sumtrees.py"
+ - "prodigal"
+ - "qualfa2fq.pl"
+ - "xa2multi.pl"
+ - "bwa"
 versions:
  - "1.4.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metabinner"
-config: {"url": "https://biocontainers.pro/tools/metabinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinner", "latest": {"1.4.4--hdfd78af_0": "sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772"}, "tags": {"1.4.4--hdfd78af_0": "sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772"}, "docker": "quay.io/biocontainers/metabinner", "aliases": {"run_metabinner.sh": "/usr/local/bin/run_metabinner.sh", "2to3-3.7": "/usr/local/bin/2to3-3.7", "FragGeneScan": "/usr/local/bin/FragGeneScan", "ace2sam": "/usr/local/bin/ace2sam", "alimask": "/usr/local/bin/alimask", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "bwa": "/usr/local/bin/bwa", "checkm": "/usr/local/bin/checkm", "dendropy-format": "/usr/local/bin/dendropy-format"}}
+config: {"url": "https://biocontainers.pro/tools/metabinner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabinner", "latest": {"1.4.4--hdfd78af_0": "sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772"}, "tags": {"1.4.4--hdfd78af_0": "sha256:88196b3069c92bf87c0612cf0e84eec2232b66cad0fa5cf0185579c2f9278772"}, "docker": "quay.io/biocontainers/metabinner", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "checkm": "/usr/local/bin/checkm", "hmmc2": "/usr/local/bin/hmmc2", "hmmerfm-exactmatch": "/usr/local/bin/hmmerfm-exactmatch", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "run_metabinner.sh": "/usr/local/bin/run_metabinner.sh", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "prodigal": "/usr/local/bin/prodigal", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabinner.
@@ -108,84 +113,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### run_metabinner.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/run_metabinner.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/run_metabinner.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/run_metabinner.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### FragGeneScan
 
 ```bash
 $ singularity exec <container> /usr/local/bin/FragGeneScan
 $ podman run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### alimask
-
-```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bwa
-
-```bash
-$ singularity exec <container> /usr/local/bin/bwa
-$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -198,12 +131,129 @@ $ docker run --it --rm --entrypoint /usr/local/bin/checkm   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### hmmc2
+
+```bash
+$ singularity exec <container> /usr/local/bin/hmmc2
+$ podman run --it --rm --entrypoint /usr/local/bin/hmmc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hmmc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hmmerfm-exactmatch
+
+```bash
+$ singularity exec <container> /usr/local/bin/hmmerfm-exactmatch
+$ podman run --it --rm --entrypoint /usr/local/bin/hmmerfm-exactmatch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hmmerfm-exactmatch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_FragGeneScan.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_FragGeneScan.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/run_FragGeneScan.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_FragGeneScan.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_metabinner.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_metabinner.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/run_metabinner.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_metabinner.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rppr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rppr
+$ podman run --it --rm --entrypoint /usr/local/bin/rppr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rppr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### guppy
+
+```bash
+$ singularity exec <container> /usr/local/bin/guppy
+$ podman run --it --rm --entrypoint /usr/local/bin/guppy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guppy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pplacer
+
+```bash
+$ singularity exec <container> /usr/local/bin/pplacer
+$ podman run --it --rm --entrypoint /usr/local/bin/pplacer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pplacer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dendropy-format
 
 ```bash
 $ singularity exec <container> /usr/local/bin/dendropy-format
 $ podman run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sumlabels.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sumlabels.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sumtrees.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sumtrees.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### prodigal
+
+```bash
+$ singularity exec <container> /usr/local/bin/prodigal
+$ podman run --it --rm --entrypoint /usr/local/bin/prodigal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prodigal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qualfa2fq.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xa2multi.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/xa2multi.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bwa
+
+```bash
+$ singularity exec <container> /usr/local/bin/bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

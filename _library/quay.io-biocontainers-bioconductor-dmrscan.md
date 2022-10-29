@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dmrscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrscan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrscan/container.yaml"
-updated_at: "2022-10-29 05:48:40.379417"
+updated_at: "2022-10-29 07:49:34.400874"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrscan"
 aliases:
+ - "wget"
  - "c89"
  - "c99"
- - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dmrscan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrscan", "latest": {"1.8.0--r351_0": "sha256:0c0d295e6bd53ab970bf7f6bf48cb2b1ebec08c949acf8e8baf092b69e119f87"}, "tags": {"1.8.0--r351_0": "sha256:0c0d295e6bd53ab970bf7f6bf48cb2b1ebec08c949acf8e8baf092b69e119f87"}, "docker": "quay.io/biocontainers/bioconductor-dmrscan", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrscan", "latest": {"1.8.0--r351_0": "sha256:0c0d295e6bd53ab970bf7f6bf48cb2b1ebec08c949acf8e8baf092b69e119f87"}, "tags": {"1.8.0--r351_0": "sha256:0c0d295e6bd53ab970bf7f6bf48cb2b1ebec08c949acf8e8baf092b69e119f87"}, "docker": "quay.io/biocontainers/bioconductor-dmrscan", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dmrscan.
@@ -100,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### c89
 
 ```bash
@@ -115,15 +124,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/c99
 $ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

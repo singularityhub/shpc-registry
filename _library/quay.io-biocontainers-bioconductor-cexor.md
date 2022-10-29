@@ -4,22 +4,22 @@ name:  "quay.io/biocontainers/bioconductor-cexor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cexor/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cexor/container.yaml"
-updated_at: "2022-10-29 05:42:57.824704"
+updated_at: "2022-10-29 07:45:21.373627"
 latest: "1.8.0--0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cexor"
 aliases:
+ - "pngcp"
  - "bmp2tiff"
  - "gif2tiff"
- - "ncurses5-config"
- - "ncursesw5-config"
- - "pngcp"
  - "ras2tiff"
  - "rgb2ycbcr"
  - "thumbnail"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.8.0--0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cexor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cexor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cexor", "latest": {"1.8.0--0": "sha256:a20ecf2b90cc811a6df29d7569927376118626cb8152002f9671dde56438fdf6"}, "tags": {"1.8.0--0": "sha256:a20ecf2b90cc811a6df29d7569927376118626cb8152002f9671dde56438fdf6"}, "docker": "quay.io/biocontainers/bioconductor-cexor", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pngcp": "/usr/local/bin/pngcp", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cexor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cexor", "latest": {"1.8.0--0": "sha256:a20ecf2b90cc811a6df29d7569927376118626cb8152002f9671dde56438fdf6"}, "tags": {"1.8.0--0": "sha256:a20ecf2b90cc811a6df29d7569927376118626cb8152002f9671dde56438fdf6"}, "docker": "quay.io/biocontainers/bioconductor-cexor", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cexor.
@@ -105,6 +105,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### pngcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngcp
+$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bmp2tiff
 
 ```bash
@@ -120,33 +129,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/gif2tiff
 $ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pngcp
-
-```bash
-$ singularity exec <container> /usr/local/bin/pngcp
-$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -174,6 +156,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/thumbnail
 $ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

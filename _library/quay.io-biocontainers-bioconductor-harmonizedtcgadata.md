@@ -4,15 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-harmonizedtcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harmonizedtcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harmonizedtcgadata/container.yaml"
-updated_at: "2022-10-29 05:44:22.219251"
+updated_at: "2022-10-29 07:46:23.787863"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata"
 aliases:
+ - ".bioconductor-harmonizedtcgadata-post-link.sh"
+ - ".bioconductor-harmonizedtcgadata-pre-unlink.sh"
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-harmonizedtcgadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harmonizedtcgadata", "latest": {"1.8.0--r36_0": "sha256:b74adf29f129752959f2a20b62e7d17c7f836be131b2932deb2e45678501dfa5"}, "tags": {"1.8.0--r36_0": "sha256:b74adf29f129752959f2a20b62e7d17c7f836be131b2932deb2e45678501dfa5"}, "docker": "quay.io/biocontainers/bioconductor-harmonizedtcgadata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-harmonizedtcgadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harmonizedtcgadata", "latest": {"1.8.0--r36_0": "sha256:b74adf29f129752959f2a20b62e7d17c7f836be131b2932deb2e45678501dfa5"}, "tags": {"1.8.0--r36_0": "sha256:b74adf29f129752959f2a20b62e7d17c7f836be131b2932deb2e45678501dfa5"}, "docker": "quay.io/biocontainers/bioconductor-harmonizedtcgadata", "aliases": {".bioconductor-harmonizedtcgadata-post-link.sh": "/usr/local/bin/.bioconductor-harmonizedtcgadata-post-link.sh", ".bioconductor-harmonizedtcgadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-harmonizedtcgadata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-harmonizedtcgadata.
@@ -98,12 +102,48 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-harmonizedtcgadata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-harmonizedtcgadata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-harmonizedtcgadata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-harmonizedtcgadata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-harmonizedtcgadata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-harmonizedtcgadata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-harmonizedtcgadata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-harmonizedtcgadata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gio-launch-desktop
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

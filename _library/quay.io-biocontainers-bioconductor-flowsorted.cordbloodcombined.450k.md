@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/container.yaml"
-updated_at: "2022-10-29 05:32:44.359750"
+updated_at: "2022-10-29 07:37:49.024123"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodcombined.450k"
 aliases:
+ - ".bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh"
+ - ".bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodcombined.450k"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodcombined.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodcombined.450k", "latest": {"1.8.0--r41hdfd78af_0": "sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodcombined.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodcombined.450k", "latest": {"1.8.0--r41hdfd78af_0": "sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k", "aliases": {".bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh": "/usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh", ".bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh": "/usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

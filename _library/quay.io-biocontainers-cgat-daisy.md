@@ -4,25 +4,29 @@ name:  "quay.io/biocontainers/cgat-daisy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-daisy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-daisy/container.yaml"
-updated_at: "2022-10-29 05:38:58.641425"
+updated_at: "2022-10-29 07:42:24.452829"
 latest: "0.1.9--pyh5e36f6f_2"
 container_url: "https://biocontainers.pro/tools/cgat-daisy"
 aliases:
+ - "bq"
  - "daisy"
- - "2to3-3.9"
+ - "docker-credential-gcloud"
+ - "gcloud"
+ - "time"
+ - "gsutil"
+ - "basenc"
  - "b2sum"
  - "base32"
  - "base64"
  - "basename"
- - "basenc"
- - "bq"
  - "cat"
  - "chcon"
  - "chgrp"
+ - "chmod"
 versions:
  - "0.1.9--pyh5e36f6f_2"
 description: "shpc-registry automated BioContainers addition for cgat-daisy"
-config: {"url": "https://biocontainers.pro/tools/cgat-daisy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-daisy", "latest": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "tags": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "docker": "quay.io/biocontainers/cgat-daisy", "aliases": {"daisy": "/usr/local/bin/daisy", "2to3-3.9": "/usr/local/bin/2to3-3.9", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bq": "/usr/local/bin/bq", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp"}}
+config: {"url": "https://biocontainers.pro/tools/cgat-daisy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-daisy", "latest": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "tags": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "docker": "quay.io/biocontainers/cgat-daisy", "aliases": {"bq": "/usr/local/bin/bq", "daisy": "/usr/local/bin/daisy", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "gcloud": "/usr/local/bin/gcloud", "time": "/usr/local/bin/time", "gsutil": "/usr/local/bin/gsutil", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-daisy.
@@ -108,6 +112,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### bq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bq
+$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### daisy
 
 ```bash
@@ -117,12 +130,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/daisy   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.9
+#### docker-credential-gcloud
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/docker-credential-gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gcloud
+
+```bash
+$ singularity exec <container> /usr/local/bin/gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### time
+
+```bash
+$ singularity exec <container> /usr/local/bin/time
+$ podman run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsutil
+$ podman run --it --rm --entrypoint /usr/local/bin/gsutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,24 +211,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD
 ```
 
 
-#### basenc
-
-```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bq
-
-```bash
-$ singularity exec <container> /usr/local/bin/bq
-$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cat
 
 ```bash
@@ -204,6 +235,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/chgrp
 $ podman run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chmod
+
+```bash
+$ singularity exec <container> /usr/local/bin/chmod
+$ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,25 +4,26 @@ name:  "quay.io/biocontainers/scirpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scirpy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scirpy/container.yaml"
-updated_at: "2022-10-29 05:37:24.733985"
+updated_at: "2022-10-29 07:41:15.053864"
 latest: "0.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scirpy"
 aliases:
  - "airr-tools"
- - "2to3-3.9"
- - "chardetect"
- - "cmpfillin"
  - "dunamai"
- - "f2py3.9"
- - "gif2h5"
- - "glpsol"
+ - "scanpy"
+ - "igraph"
+ - "sphinx-apidoc"
+ - "sphinx-autogen"
+ - "sphinx-build"
+ - "sphinx-quickstart"
+ - "pybabel"
+ - "cmpfillin"
  - "gpmetis"
  - "graphchk"
- - "h52gif"
 versions:
  - "0.9.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scirpy"
-config: {"url": "https://biocontainers.pro/tools/scirpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scirpy", "latest": {"0.9.1--pyhdfd78af_0": "sha256:b9c7892ee076733df38e6d66abacdce0a5900964a9391437cf5923d5afc89bd8"}, "tags": {"0.9.1--pyhdfd78af_0": "sha256:b9c7892ee076733df38e6d66abacdce0a5900964a9391437cf5923d5afc89bd8"}, "docker": "quay.io/biocontainers/scirpy", "aliases": {"airr-tools": "/usr/local/bin/airr-tools", "2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "cmpfillin": "/usr/local/bin/cmpfillin", "dunamai": "/usr/local/bin/dunamai", "f2py3.9": "/usr/local/bin/f2py3.9", "gif2h5": "/usr/local/bin/gif2h5", "glpsol": "/usr/local/bin/glpsol", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "h52gif": "/usr/local/bin/h52gif"}}
+config: {"url": "https://biocontainers.pro/tools/scirpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scirpy", "latest": {"0.9.1--pyhdfd78af_0": "sha256:b9c7892ee076733df38e6d66abacdce0a5900964a9391437cf5923d5afc89bd8"}, "tags": {"0.9.1--pyhdfd78af_0": "sha256:b9c7892ee076733df38e6d66abacdce0a5900964a9391437cf5923d5afc89bd8"}, "docker": "quay.io/biocontainers/scirpy", "aliases": {"airr-tools": "/usr/local/bin/airr-tools", "dunamai": "/usr/local/bin/dunamai", "scanpy": "/usr/local/bin/scanpy", "igraph": "/usr/local/bin/igraph", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scirpy.
@@ -117,33 +118,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/airr-tools   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cmpfillin
-
-```bash
-$ singularity exec <container> /usr/local/bin/cmpfillin
-$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### dunamai
 
 ```bash
@@ -153,30 +127,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dunamai   -v ${PWD} -w ${PWD}
 ```
 
 
-#### f2py3.9
+#### scanpy
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/scanpy
+$ podman run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2h5
+#### igraph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/igraph
+$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### glpsol
+#### sphinx-apidoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/glpsol
-$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sphinx-apidoc
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-apidoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-apidoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sphinx-autogen
+
+```bash
+$ singularity exec <container> /usr/local/bin/sphinx-autogen
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-autogen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-autogen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sphinx-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/sphinx-build
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sphinx-quickstart
+
+```bash
+$ singularity exec <container> /usr/local/bin/sphinx-quickstart
+$ podman run --it --rm --entrypoint /usr/local/bin/sphinx-quickstart   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sphinx-quickstart   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pybabel
+
+```bash
+$ singularity exec <container> /usr/local/bin/pybabel
+$ podman run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pybabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmpfillin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmpfillin
+$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -195,15 +214,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gpmetis   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/graphchk
 $ podman run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h52gif
-
-```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

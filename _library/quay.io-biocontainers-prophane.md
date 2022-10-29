@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prophane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophane/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/prophane/container.yaml"
-updated_at: "2022-10-29 05:37:48.037067"
+updated_at: "2022-10-29 07:41:32.279599"
 latest: "6.2.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prophane"
 aliases:
@@ -19,20 +19,20 @@ aliases:
  - "prophane"
  - "repo2solv"
  - "testsolv"
- - "2to3-3.9"
- - "cbc"
- - "chardetect"
- - "clp"
  - "conda-env"
  - "cph"
- - "f2py3.9"
- - "idle3.9"
- - "jpgicc"
- - "jsonschema"
+ - "pulptest"
+ - "cbc"
+ - "clp"
+ - "snakemake"
+ - "snakemake-bash-completion"
+ - "tabulate"
+ - "jupyter-trust"
+ - "jupyter"
 versions:
  - "6.2.6--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for prophane"
-config: {"url": "https://biocontainers.pro/tools/prophane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophane", "latest": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "tags": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "docker": "quay.io/biocontainers/prophane", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "prophane": "/usr/local/bin/prophane", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cbc": "/usr/local/bin/cbc", "chardetect": "/usr/local/bin/chardetect", "clp": "/usr/local/bin/clp", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "jsonschema": "/usr/local/bin/jsonschema"}}
+config: {"url": "https://biocontainers.pro/tools/prophane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophane", "latest": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "tags": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "docker": "quay.io/biocontainers/prophane", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "prophane": "/usr/local/bin/prophane", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prophane.
@@ -217,42 +217,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cbc
-
-```bash
-$ singularity exec <container> /usr/local/bin/cbc
-$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### clp
-
-```bash
-$ singularity exec <container> /usr/local/bin/clp
-$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### conda-env
 
 ```bash
@@ -271,39 +235,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### f2py3.9
+#### pulptest
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pulptest
+$ podman run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.9
+#### cbc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cbc
+$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jpgicc
+#### clp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clp
+$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jsonschema
+#### snakemake
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jsonschema
-$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snakemake
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snakemake-bash-completion
+
+```bash
+$ singularity exec <container> /usr/local/bin/snakemake-bash-completion
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabulate
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabulate
+$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-trust
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-trust
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-synaptome.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synaptome.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synaptome.db/container.yaml"
-updated_at: "2022-10-29 05:35:16.893757"
+updated_at: "2022-10-29 07:39:40.756401"
 latest: "0.99.8--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-synaptome.db"
 aliases:
+ - ".bioconductor-synaptome.db-post-link.sh"
+ - ".bioconductor-synaptome.db-pre-unlink.sh"
  - "glpsol"
 versions:
  - "0.99.8--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-synaptome.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synaptome.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synaptome.db", "latest": {"0.99.8--r41hdfd78af_1": "sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f"}, "tags": {"0.99.8--r41hdfd78af_1": "sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f"}, "docker": "quay.io/biocontainers/bioconductor-synaptome.db", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synaptome.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synaptome.db", "latest": {"0.99.8--r41hdfd78af_1": "sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f"}, "tags": {"0.99.8--r41hdfd78af_1": "sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f"}, "docker": "quay.io/biocontainers/bioconductor-synaptome.db", "aliases": {".bioconductor-synaptome.db-post-link.sh": "/usr/local/bin/.bioconductor-synaptome.db-post-link.sh", ".bioconductor-synaptome.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-synaptome.db-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synaptome.db.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-synaptome.db-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-synaptome.db-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-synaptome.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-synaptome.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-synaptome.db-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-synaptome.db-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-synaptome.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-synaptome.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

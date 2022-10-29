@@ -4,10 +4,12 @@ name:  "quay.io/biocontainers/pyasr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyasr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyasr/container.yaml"
-updated_at: "2022-10-29 05:53:49.995952"
+updated_at: "2022-10-29 07:53:22.250094"
 latest: "0.6.1--py_0"
 container_url: "https://biocontainers.pro/tools/pyasr"
 aliases:
+ - "sumlabels.py"
+ - "sumtrees.py"
  - "2to3-3.6"
  - "idle3.6"
  - "pydoc3.6"
@@ -15,13 +17,11 @@ aliases:
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
- - "pyvenv"
  - "pyvenv-3.6"
- - "sumlabels.py"
 versions:
  - "0.6.1--py_0"
 description: "shpc-registry automated BioContainers addition for pyasr"
-config: {"url": "https://biocontainers.pro/tools/pyasr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasr", "latest": {"0.6.1--py_0": "sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199"}, "tags": {"0.6.1--py_0": "sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199"}, "docker": "quay.io/biocontainers/pyasr", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "sumlabels.py": "/usr/local/bin/sumlabels.py"}}
+config: {"url": "https://biocontainers.pro/tools/pyasr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyasr", "latest": {"0.6.1--py_0": "sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199"}, "tags": {"0.6.1--py_0": "sha256:2feb7cf6cea3df644af72a9a46c1b68e4847aab070262f25bef25700956c6199"}, "docker": "quay.io/biocontainers/pyasr", "aliases": {"sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyasr.
@@ -107,6 +107,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### sumlabels.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sumlabels.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sumtrees.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sumtrees.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.6
 
 ```bash
@@ -170,30 +188,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pyvenv-3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### sumlabels.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/sumlabels.py
-$ podman run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

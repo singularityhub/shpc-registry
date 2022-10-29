@@ -4,13 +4,14 @@ name:  "quay.io/biocontainers/tecount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tecount/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tecount/container.yaml"
-updated_at: "2022-10-29 05:55:33.687750"
+updated_at: "2022-10-29 07:54:37.033865"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tecount"
 aliases:
  - "TEcount"
- - "2to3-3.10"
- - "ace2sam"
+ - "fasta-sanitize.pl"
+ - "shiftBed"
+ - "plot-ampliconstats"
  - "annotateBed"
  - "bamToBed"
  - "bamToFastq"
@@ -18,11 +19,10 @@ aliases:
  - "bedToBam"
  - "bedToIgv"
  - "bedpeToBam"
- - "bedtools"
 versions:
  - "1.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tecount"
-config: {"url": "https://biocontainers.pro/tools/tecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tecount", "latest": {"1.0.1--pyhdfd78af_0": "sha256:470a79a3c2bcfdb90122d3290515d3b4668d1be13c583336b02183d91e89ce8a"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:470a79a3c2bcfdb90122d3290515d3b4668d1be13c583336b02183d91e89ce8a"}, "docker": "quay.io/biocontainers/tecount", "aliases": {"TEcount": "/usr/local/bin/TEcount", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
+config: {"url": "https://biocontainers.pro/tools/tecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tecount", "latest": {"1.0.1--pyhdfd78af_0": "sha256:470a79a3c2bcfdb90122d3290515d3b4668d1be13c583336b02183d91e89ce8a"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:470a79a3c2bcfdb90122d3290515d3b4668d1be13c583336b02183d91e89ce8a"}, "docker": "quay.io/biocontainers/tecount", "aliases": {"TEcount": "/usr/local/bin/TEcount", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "shiftBed": "/usr/local/bin/shiftBed", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tecount.
@@ -117,21 +117,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/TEcount   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.10
+#### fasta-sanitize.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### shiftBed
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/shiftBed
+$ podman run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-ampliconstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -195,15 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/bedpeToBam
 $ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bedtools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bedtools
-$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

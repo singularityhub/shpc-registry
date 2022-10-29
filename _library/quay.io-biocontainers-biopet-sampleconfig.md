@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/biopet-sampleconfig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-sampleconfig/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-sampleconfig/container.yaml"
-updated_at: "2022-10-29 05:50:05.883408"
+updated_at: "2022-10-29 07:50:37.325971"
 latest: "0.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-sampleconfig"
 aliases:
  - "biopet-sampleconfig"
- - "2to3-3.9"
- - "appletviewer"
  - "clhsdb"
- - "extcheck"
  - "hsdb"
- - "idle3.9"
- - "idlj"
- - "jar"
- - "jarsigner"
- - "java"
+ - "extcheck"
+ - "java-rmi.cgi"
+ - "javah"
+ - "jhat"
+ - "jsadebugd"
+ - "native2ascii"
+ - "policytool"
+ - "appletviewer"
 versions:
  - "0.3--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for biopet-sampleconfig"
-config: {"url": "https://biocontainers.pro/tools/biopet-sampleconfig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-sampleconfig", "latest": {"0.3--hdfd78af_1": "sha256:0aa721324800ce9d1e1d68a6ea81916a3f486b447d81af9c2e364bb9cad6067f"}, "tags": {"0.3--hdfd78af_1": "sha256:0aa721324800ce9d1e1d68a6ea81916a3f486b447d81af9c2e364bb9cad6067f"}, "docker": "quay.io/biocontainers/biopet-sampleconfig", "aliases": {"biopet-sampleconfig": "/usr/local/bin/biopet-sampleconfig", "2to3-3.9": "/usr/local/bin/2to3-3.9", "appletviewer": "/usr/local/bin/appletviewer", "clhsdb": "/usr/local/bin/clhsdb", "extcheck": "/usr/local/bin/extcheck", "hsdb": "/usr/local/bin/hsdb", "idle3.9": "/usr/local/bin/idle3.9", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
+config: {"url": "https://biocontainers.pro/tools/biopet-sampleconfig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-sampleconfig", "latest": {"0.3--hdfd78af_1": "sha256:0aa721324800ce9d1e1d68a6ea81916a3f486b447d81af9c2e364bb9cad6067f"}, "tags": {"0.3--hdfd78af_1": "sha256:0aa721324800ce9d1e1d68a6ea81916a3f486b447d81af9c2e364bb9cad6067f"}, "docker": "quay.io/biocontainers/biopet-sampleconfig", "aliases": {"biopet-sampleconfig": "/usr/local/bin/biopet-sampleconfig", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biopet-sampleconfig.
@@ -117,39 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/biopet-sampleconfig   -v ${PW
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### appletviewer
-
-```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### clhsdb
 
 ```bash
 $ singularity exec <container> /usr/local/bin/clhsdb
 $ podman run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### extcheck
-
-```bash
-$ singularity exec <container> /usr/local/bin/extcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,48 +135,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### idle3.9
+#### extcheck
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idlj
+#### java-rmi.cgi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idlj
-$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jar
+#### javah
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jar
-$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/javah
+$ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jarsigner
+#### jhat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jarsigner
-$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jhat
+$ podman run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### java
+#### jsadebugd
 
 ```bash
-$ singularity exec <container> /usr/local/bin/java
-$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jsadebugd
+$ podman run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### native2ascii
+
+```bash
+$ singularity exec <container> /usr/local/bin/native2ascii
+$ podman run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### policytool
+
+```bash
+$ singularity exec <container> /usr/local/bin/policytool
+$ podman run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/policytool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

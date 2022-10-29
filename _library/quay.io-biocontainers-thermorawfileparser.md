@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/thermorawfileparser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thermorawfileparser/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/thermorawfileparser/container.yaml"
-updated_at: "2022-10-29 05:34:12.446410"
+updated_at: "2022-10-29 07:38:53.822024"
 latest: "1.4.0--ha8f3691_0"
 container_url: "https://biocontainers.pro/tools/thermorawfileparser"
 aliases:
@@ -12,17 +12,28 @@ aliases:
  - "AWSSDK.CloudWatchLogs.pdb"
  - "AWSSDK.Core.pdb"
  - "AWSSDK.S3.pdb"
+ - "LICENSE"
  - "NUnit3.TestAdapter.pdb"
  - "THERMO_LICENSE"
  - "ThermoRawFileParser"
  - "ThermoRawFileParser.exe"
+ - "ThermoRawFileParser.exe.config"
  - "ThermoRawFileParser.pdb"
  - "ThermoRawFileParser.sh"
+ - "csc"
+ - "csc-dim"
+ - "csi"
+ - "illinkanalyzer"
+ - "monograph"
+ - "nunit-console"
+ - "nunit-console2"
+ - "nunit-console4"
  - "thermorawfileparser"
- - "LICENSE"
+ - "vbc"
+ - "mono-package-runtime"
+ - "sgen-grep-binprot"
  - "al"
  - "al2"
- - "build_env_setup.sh"
  - "caspol"
  - "cccheck"
  - "ccrewrite"
@@ -32,7 +43,7 @@ aliases:
 versions:
  - "1.4.0--ha8f3691_0"
 description: "shpc-registry automated BioContainers addition for thermorawfileparser"
-config: {"url": "https://biocontainers.pro/tools/thermorawfileparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thermorawfileparser", "latest": {"1.4.0--ha8f3691_0": "sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404"}, "tags": {"1.4.0--ha8f3691_0": "sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404"}, "docker": "quay.io/biocontainers/thermorawfileparser", "aliases": {"AWS.Logger.Core.pdb": "/usr/local/bin/AWS.Logger.Core.pdb", "AWSSDK.CloudWatchLogs.pdb": "/usr/local/bin/AWSSDK.CloudWatchLogs.pdb", "AWSSDK.Core.pdb": "/usr/local/bin/AWSSDK.Core.pdb", "AWSSDK.S3.pdb": "/usr/local/bin/AWSSDK.S3.pdb", "NUnit3.TestAdapter.pdb": "/usr/local/bin/NUnit3.TestAdapter.pdb", "THERMO_LICENSE": "/usr/local/bin/THERMO_LICENSE", "ThermoRawFileParser": "/usr/local/bin/ThermoRawFileParser", "ThermoRawFileParser.exe": "/usr/local/bin/ThermoRawFileParser.exe", "ThermoRawFileParser.pdb": "/usr/local/bin/ThermoRawFileParser.pdb", "ThermoRawFileParser.sh": "/usr/local/bin/ThermoRawFileParser.sh", "thermorawfileparser": "/usr/local/bin/thermorawfileparser", "LICENSE": "/usr/local/bin/LICENSE", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/thermorawfileparser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thermorawfileparser", "latest": {"1.4.0--ha8f3691_0": "sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404"}, "tags": {"1.4.0--ha8f3691_0": "sha256:76c17e3124b723f271bc3d5cf0555650288676bb1a827bd1bae9bb684444a404"}, "docker": "quay.io/biocontainers/thermorawfileparser", "aliases": {"AWS.Logger.Core.pdb": "/usr/local/bin/AWS.Logger.Core.pdb", "AWSSDK.CloudWatchLogs.pdb": "/usr/local/bin/AWSSDK.CloudWatchLogs.pdb", "AWSSDK.Core.pdb": "/usr/local/bin/AWSSDK.Core.pdb", "AWSSDK.S3.pdb": "/usr/local/bin/AWSSDK.S3.pdb", "LICENSE": "/usr/local/bin/LICENSE", "NUnit3.TestAdapter.pdb": "/usr/local/bin/NUnit3.TestAdapter.pdb", "THERMO_LICENSE": "/usr/local/bin/THERMO_LICENSE", "ThermoRawFileParser": "/usr/local/bin/ThermoRawFileParser", "ThermoRawFileParser.exe": "/usr/local/bin/ThermoRawFileParser.exe", "ThermoRawFileParser.exe.config": "/usr/local/bin/ThermoRawFileParser.exe.config", "ThermoRawFileParser.pdb": "/usr/local/bin/ThermoRawFileParser.pdb", "ThermoRawFileParser.sh": "/usr/local/bin/ThermoRawFileParser.sh", "csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "thermorawfileparser": "/usr/local/bin/thermorawfileparser", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/thermorawfileparser.
@@ -154,6 +165,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/AWSSDK.S3.pdb   -v ${PWD} -w 
 ```
 
 
+#### LICENSE
+
+```bash
+$ singularity exec <container> /usr/local/bin/LICENSE
+$ podman run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### NUnit3.TestAdapter.pdb
 
 ```bash
@@ -190,6 +210,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ThermoRawFileParser.exe   -v 
 ```
 
 
+#### ThermoRawFileParser.exe.config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ThermoRawFileParser.exe.config
+$ podman run --it --rm --entrypoint /usr/local/bin/ThermoRawFileParser.exe.config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ThermoRawFileParser.exe.config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ThermoRawFileParser.pdb
 
 ```bash
@@ -208,6 +237,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ThermoRawFileParser.sh   -v $
 ```
 
 
+#### csc
+
+```bash
+$ singularity exec <container> /usr/local/bin/csc
+$ podman run --it --rm --entrypoint /usr/local/bin/csc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csc-dim
+
+```bash
+$ singularity exec <container> /usr/local/bin/csc-dim
+$ podman run --it --rm --entrypoint /usr/local/bin/csc-dim   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csc-dim   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csi
+
+```bash
+$ singularity exec <container> /usr/local/bin/csi
+$ podman run --it --rm --entrypoint /usr/local/bin/csi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### illinkanalyzer
+
+```bash
+$ singularity exec <container> /usr/local/bin/illinkanalyzer
+$ podman run --it --rm --entrypoint /usr/local/bin/illinkanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/illinkanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### monograph
+
+```bash
+$ singularity exec <container> /usr/local/bin/monograph
+$ podman run --it --rm --entrypoint /usr/local/bin/monograph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/monograph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nunit-console
+
+```bash
+$ singularity exec <container> /usr/local/bin/nunit-console
+$ podman run --it --rm --entrypoint /usr/local/bin/nunit-console   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nunit-console   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nunit-console2
+
+```bash
+$ singularity exec <container> /usr/local/bin/nunit-console2
+$ podman run --it --rm --entrypoint /usr/local/bin/nunit-console2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nunit-console2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nunit-console4
+
+```bash
+$ singularity exec <container> /usr/local/bin/nunit-console4
+$ podman run --it --rm --entrypoint /usr/local/bin/nunit-console4   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nunit-console4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### thermorawfileparser
 
 ```bash
@@ -217,12 +318,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/thermorawfileparser   -v ${PW
 ```
 
 
-#### LICENSE
+#### vbc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/LICENSE
-$ podman run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vbc
+$ podman run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mono-package-runtime
+
+```bash
+$ singularity exec <container> /usr/local/bin/mono-package-runtime
+$ podman run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sgen-grep-binprot
+
+```bash
+$ singularity exec <container> /usr/local/bin/sgen-grep-binprot
+$ podman run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -241,15 +360,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/al   -v ${PWD} -w ${PWD} <con
 $ singularity exec <container> /usr/local/bin/al2
 $ podman run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### build_env_setup.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/build_env_setup.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

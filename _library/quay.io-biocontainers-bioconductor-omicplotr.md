@@ -4,21 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-omicplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicplotr/container.yaml"
-updated_at: "2022-10-29 05:34:53.492104"
+updated_at: "2022-10-29 07:39:23.696833"
 latest: "1.8.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicplotr"
 aliases:
+ - "pandoc-citeproc"
+ - "pandoc"
  - "2to3-3.8"
  - "idle3.8"
- - "pandoc"
- - "pandoc-citeproc"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicplotr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicplotr", "latest": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "tags": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "docker": "quay.io/biocontainers/bioconductor-omicplotr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicplotr", "latest": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "tags": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "docker": "quay.io/biocontainers/bioconductor-omicplotr", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicplotr.
@@ -104,6 +107,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### pandoc-citeproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc-citeproc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pandoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.8
 
 ```bash
@@ -119,24 +140,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/idle3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pandoc
-
-```bash
-$ singularity exec <container> /usr/local/bin/pandoc
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pandoc-citeproc
-
-```bash
-$ singularity exec <container> /usr/local/bin/pandoc-citeproc
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -164,6 +167,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75/container.yaml"
-updated_at: "2022-10-29 05:39:36.336591"
+updated_at: "2022-10-29 07:42:51.691299"
 latest: "2.99.0--r40hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v75"
 aliases:
+ - ".bioconductor-ensdb.hsapiens.v75-post-link.sh"
+ - ".bioconductor-ensdb.hsapiens.v75-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.99.0--r40hdfd78af_9"
 description: "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v75"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v75", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v75", "latest": {"2.99.0--r40hdfd78af_9": "sha256:0af9ffae60af053bd2d6c2bc5bdedd02d5539fd0b7aa2558848957919b90c319"}, "tags": {"2.99.0--r40hdfd78af_9": "sha256:0af9ffae60af053bd2d6c2bc5bdedd02d5539fd0b7aa2558848957919b90c319"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.hsapiens.v75", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.hsapiens.v75", "latest": {"2.99.0--r40hdfd78af_9": "sha256:0af9ffae60af053bd2d6c2bc5bdedd02d5539fd0b7aa2558848957919b90c319"}, "tags": {"2.99.0--r40hdfd78af_9": "sha256:0af9ffae60af053bd2d6c2bc5bdedd02d5539fd0b7aa2558848957919b90c319"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75", "aliases": {".bioconductor-ensdb.hsapiens.v75-post-link.sh": "/usr/local/bin/.bioconductor-ensdb.hsapiens.v75-post-link.sh", ".bioconductor-ensdb.hsapiens.v75-pre-unlink.sh": "/usr/local/bin/.bioconductor-ensdb.hsapiens.v75-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ensdb.hsapiens.v75.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-ensdb.hsapiens.v75-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-ensdb.hsapiens.v75-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v75-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

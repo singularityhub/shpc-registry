@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/snakeobjects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakeobjects/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snakeobjects/container.yaml"
-updated_at: "2022-10-29 05:37:23.076179"
+updated_at: "2022-10-29 07:41:13.856505"
 latest: "3.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/snakeobjects"
 aliases:
  - "sobjects"
- - "2to3-3.10"
+ - "plac_runner.py"
+ - "yte"
+ - "pulptest"
  - "cbc"
  - "clp"
- - "idle3.10"
- - "jsonschema"
- - "jupyter"
- - "jupyter-migrate"
- - "jupyter-troubleshoot"
+ - "snakemake"
+ - "snakemake-bash-completion"
+ - "tabulate"
  - "jupyter-trust"
- - "normalizer"
+ - "jupyter"
 versions:
  - "3.1.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for snakeobjects"
-config: {"url": "https://biocontainers.pro/tools/snakeobjects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakeobjects", "latest": {"3.1.1--pyh5e36f6f_0": "sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04"}, "tags": {"3.1.1--pyh5e36f6f_0": "sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04"}, "docker": "quay.io/biocontainers/snakeobjects", "aliases": {"sobjects": "/usr/local/bin/sobjects", "2to3-3.10": "/usr/local/bin/2to3-3.10", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "idle3.10": "/usr/local/bin/idle3.10", "jsonschema": "/usr/local/bin/jsonschema", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jupyter-trust": "/usr/local/bin/jupyter-trust", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/snakeobjects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakeobjects", "latest": {"3.1.1--pyh5e36f6f_0": "sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04"}, "tags": {"3.1.1--pyh5e36f6f_0": "sha256:1d92811a3779c5c9c7ed9046b2b9a88f8a5694e481c1ac896efe0ec4f1021b04"}, "docker": "quay.io/biocontainers/snakeobjects", "aliases": {"sobjects": "/usr/local/bin/sobjects", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakeobjects.
@@ -117,12 +117,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sobjects   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.10
+#### plac_runner.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plac_runner.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### yte
+
+```bash
+$ singularity exec <container> /usr/local/bin/yte
+$ podman run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pulptest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pulptest
+$ podman run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -144,48 +162,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### idle3.10
+#### snakemake
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snakemake
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jsonschema
+#### snakemake-bash-completion
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jsonschema
-$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snakemake-bash-completion
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jupyter
+#### tabulate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jupyter
-$ podman run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jupyter-migrate
-
-```bash
-$ singularity exec <container> /usr/local/bin/jupyter-migrate
-$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-migrate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-migrate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jupyter-troubleshoot
-
-```bash
-$ singularity exec <container> /usr/local/bin/jupyter-troubleshoot
-$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-troubleshoot   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-troubleshoot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabulate
+$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -198,12 +198,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w 
 ```
 
 
-#### normalizer
+#### jupyter
 
 ```bash
-$ singularity exec <container> /usr/local/bin/normalizer
-$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

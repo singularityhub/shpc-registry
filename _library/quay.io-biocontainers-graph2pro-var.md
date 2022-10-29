@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graph2pro-var"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graph2pro-var/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/graph2pro-var/container.yaml"
-updated_at: "2022-10-29 05:48:45.826674"
+updated_at: "2022-10-29 07:49:38.428696"
 latest: "1.0.0--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/graph2pro-var"
 aliases:
@@ -33,20 +33,20 @@ aliases:
  - "run_FragGeneScan.pl"
  - "step1output.py"
  - "tryptic.py"
- - "2to3-3.9"
  - "FET.pl"
- - "appletviewer"
- - "awk"
- - "bowtie2"
- - "bowtie2-align-l"
- - "bowtie2-align-s"
- - "bowtie2-build"
- - "bowtie2-build-l"
- - "bowtie2-build-s"
+ - "cd-hit-clstr_2_blm8.pl"
+ - "clstr_list.pl"
+ - "clstr_list_sort.pl"
+ - "cd-hit"
+ - "cd-hit-2d"
+ - "cd-hit-2d-para.pl"
+ - "cd-hit-454"
+ - "cd-hit-div"
+ - "cd-hit-div.pl"
 versions:
  - "1.0.0--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for graph2pro-var"
-config: {"url": "https://biocontainers.pro/tools/graph2pro-var", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graph2pro-var", "latest": {"1.0.0--h9ee0642_1": "sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25"}, "tags": {"1.0.0--h9ee0642_1": "sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25"}, "docker": "quay.io/biocontainers/graph2pro-var", "aliases": {"DBGraph2Pro": "/usr/local/bin/DBGraph2Pro", "DBGraphPep2Pro": "/usr/local/bin/DBGraphPep2Pro", "FragGeneScan": "/usr/local/bin/FragGeneScan", "combineFragandDBGraph_fastg.py": "/usr/local/bin/combineFragandDBGraph_fastg.py", "combineFragandDBGraph_fastg_old.py": "/usr/local/bin/combineFragandDBGraph_fastg_old.py", "combineSpec_files.py": "/usr/local/bin/combineSpec_files.py", "combineThree_o.py": "/usr/local/bin/combineThree_o.py", "createFixedReverseKR.py": "/usr/local/bin/createFixedReverseKR.py", "fastg2fasta.py": "/usr/local/bin/fastg2fasta.py", "generate_var2pep_only.py": "/usr/local/bin/generate_var2pep_only.py", "getProteinFasta.py": "/usr/local/bin/getProteinFasta.py", "getUniquePeptides_files.py": "/usr/local/bin/getUniquePeptides_files.py", "getUniqueProtein_o.py": "/usr/local/bin/getUniqueProtein_o.py", "msgf_plus": "/usr/local/bin/msgf_plus", "parseFDR_o.py": "/usr/local/bin/parseFDR_o.py", "parseFDR_o_peptide.py": "/usr/local/bin/parseFDR_o_peptide.py", "parseMismatch.py": "/usr/local/bin/parseMismatch.py", "patchpos.py": "/usr/local/bin/patchpos.py", "prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch", "removeRC.py": "/usr/local/bin/removeRC.py", "replaceID.py": "/usr/local/bin/replaceID.py", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "step1output.py": "/usr/local/bin/step1output.py", "tryptic.py": "/usr/local/bin/tryptic.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "FET.pl": "/usr/local/bin/FET.pl", "appletviewer": "/usr/local/bin/appletviewer", "awk": "/usr/local/bin/awk", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
+config: {"url": "https://biocontainers.pro/tools/graph2pro-var", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graph2pro-var", "latest": {"1.0.0--h9ee0642_1": "sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25"}, "tags": {"1.0.0--h9ee0642_1": "sha256:7c3c490d2ca932be14e3a49a8d706bdd9c0db64a0be8f422bc2b0b7baaaa5e25"}, "docker": "quay.io/biocontainers/graph2pro-var", "aliases": {"DBGraph2Pro": "/usr/local/bin/DBGraph2Pro", "DBGraphPep2Pro": "/usr/local/bin/DBGraphPep2Pro", "FragGeneScan": "/usr/local/bin/FragGeneScan", "combineFragandDBGraph_fastg.py": "/usr/local/bin/combineFragandDBGraph_fastg.py", "combineFragandDBGraph_fastg_old.py": "/usr/local/bin/combineFragandDBGraph_fastg_old.py", "combineSpec_files.py": "/usr/local/bin/combineSpec_files.py", "combineThree_o.py": "/usr/local/bin/combineThree_o.py", "createFixedReverseKR.py": "/usr/local/bin/createFixedReverseKR.py", "fastg2fasta.py": "/usr/local/bin/fastg2fasta.py", "generate_var2pep_only.py": "/usr/local/bin/generate_var2pep_only.py", "getProteinFasta.py": "/usr/local/bin/getProteinFasta.py", "getUniquePeptides_files.py": "/usr/local/bin/getUniquePeptides_files.py", "getUniqueProtein_o.py": "/usr/local/bin/getUniqueProtein_o.py", "msgf_plus": "/usr/local/bin/msgf_plus", "parseFDR_o.py": "/usr/local/bin/parseFDR_o.py", "parseFDR_o_peptide.py": "/usr/local/bin/parseFDR_o_peptide.py", "parseMismatch.py": "/usr/local/bin/parseMismatch.py", "patchpos.py": "/usr/local/bin/patchpos.py", "prerapsearch": "/usr/local/bin/prerapsearch", "rapsearch": "/usr/local/bin/rapsearch", "removeRC.py": "/usr/local/bin/removeRC.py", "replaceID.py": "/usr/local/bin/replaceID.py", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "step1output.py": "/usr/local/bin/step1output.py", "tryptic.py": "/usr/local/bin/tryptic.py", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit", "cd-hit-2d": "/usr/local/bin/cd-hit-2d", "cd-hit-2d-para.pl": "/usr/local/bin/cd-hit-2d-para.pl", "cd-hit-454": "/usr/local/bin/cd-hit-454", "cd-hit-div": "/usr/local/bin/cd-hit-div", "cd-hit-div.pl": "/usr/local/bin/cd-hit-div.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graph2pro-var.
@@ -357,15 +357,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tryptic.py   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### FET.pl
 
 ```bash
@@ -375,75 +366,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### appletviewer
+#### cd-hit-clstr_2_blm8.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-clstr_2_blm8.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### awk
+#### clstr_list.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/awk
-$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clstr_list.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/clstr_list.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clstr_list.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2
+#### clstr_list_sort.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clstr_list_sort.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/clstr_list_sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clstr_list_sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-align-l
+#### cd-hit
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-align-s
+#### cd-hit-2d
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-2d
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-2d   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-2d   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build
+#### cd-hit-2d-para.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-2d-para.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-2d-para.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-2d-para.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build-l
+#### cd-hit-454
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-454
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-454   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-454   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build-s
+#### cd-hit-div
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-div
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-div   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-div   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cd-hit-div.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/cd-hit-div.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-div.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-div.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/ctat-mutations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ctat-mutations/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ctat-mutations/container.yaml"
-updated_at: "2022-10-29 05:33:40.838341"
+updated_at: "2022-10-29 07:38:30.586846"
 latest: "2.0.1--py27_5"
 container_url: "https://biocontainers.pro/tools/ctat-mutations"
 aliases:
  - "ctat_mutations"
+ - "gatk"
  - "STAR"
  - "STARlong"
- - "ace2sam"
- - "appletviewer"
- - "bcftools"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "chardetect"
- - "color-chrs.pl"
+ - "picard"
+ - "extcheck"
+ - "java-rmi.cgi"
+ - "javah"
+ - "jhat"
+ - "jsadebugd"
+ - "native2ascii"
 versions:
  - "2.0.1--py27_5"
 description: "shpc-registry automated BioContainers addition for ctat-mutations"
-config: {"url": "https://biocontainers.pro/tools/ctat-mutations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctat-mutations", "latest": {"2.0.1--py27_5": "sha256:3cb88ef5e4ef8e40677f219c090d81f32f601df2e48b9ae37451a836ad85e335"}, "tags": {"2.0.1--py27_5": "sha256:3cb88ef5e4ef8e40677f219c090d81f32f601df2e48b9ae37451a836ad85e335"}, "docker": "quay.io/biocontainers/ctat-mutations", "aliases": {"ctat_mutations": "/usr/local/bin/ctat_mutations", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "ace2sam": "/usr/local/bin/ace2sam", "appletviewer": "/usr/local/bin/appletviewer", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "chardetect": "/usr/local/bin/chardetect", "color-chrs.pl": "/usr/local/bin/color-chrs.pl"}}
+config: {"url": "https://biocontainers.pro/tools/ctat-mutations", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ctat-mutations", "latest": {"2.0.1--py27_5": "sha256:3cb88ef5e4ef8e40677f219c090d81f32f601df2e48b9ae37451a836ad85e335"}, "tags": {"2.0.1--py27_5": "sha256:3cb88ef5e4ef8e40677f219c090d81f32f601df2e48b9ae37451a836ad85e335"}, "docker": "quay.io/biocontainers/ctat-mutations", "aliases": {"ctat_mutations": "/usr/local/bin/ctat_mutations", "gatk": "/usr/local/bin/gatk", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "picard": "/usr/local/bin/picard", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ctat-mutations.
@@ -117,6 +117,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ctat_mutations   -v ${PWD} -w
 ```
 
 
+#### gatk
+
+```bash
+$ singularity exec <container> /usr/local/bin/gatk
+$ podman run --it --rm --entrypoint /usr/local/bin/gatk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gatk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### STAR
 
 ```bash
@@ -135,75 +144,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD
 ```
 
 
-#### ace2sam
+#### picard
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/picard
+$ podman run --it --rm --entrypoint /usr/local/bin/picard   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/picard   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### appletviewer
+#### extcheck
 
 ```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcftools
+#### java-rmi.cgi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### javah
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/javah
+$ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### jhat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jhat
+$ podman run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jhat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### jsadebugd
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jsadebugd
+$ podman run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsadebugd   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### chardetect
+#### native2ascii
 
 ```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### color-chrs.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/color-chrs.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/native2ascii
+$ podman run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/native2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

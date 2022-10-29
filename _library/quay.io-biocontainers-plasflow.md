@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/plasflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasflow/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/plasflow/container.yaml"
-updated_at: "2022-10-29 05:30:29.454943"
+updated_at: "2022-10-29 07:36:10.482337"
 latest: "1.1.0--py35_0"
 container_url: "https://biocontainers.pro/tools/plasflow"
 aliases:
  - "PlasFlow.py"
- - "2to3-3.5"
  - "enhancer.py"
  - "explode.py"
- - "freeze_graph"
  - "gifmaker.py"
- - "idle3.5"
- - "markdown_py"
- - "ncurses5-config"
- - "ncursesw5-config"
  - "painter.py"
+ - "player.py"
+ - "thresholder.py"
+ - "viewer.py"
+ - "pilconvert.py"
+ - "pildriver.py"
+ - "pilfile.py"
 versions:
  - "1.1.0--py35_0"
 description: "shpc-registry automated BioContainers addition for plasflow"
-config: {"url": "https://biocontainers.pro/tools/plasflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasflow", "latest": {"1.1.0--py35_0": "sha256:74bb70254dd1a3eafd49050c4845a3657a05ff3466741d9e37d4b205216065e6"}, "tags": {"1.1.0--py35_0": "sha256:74bb70254dd1a3eafd49050c4845a3657a05ff3466741d9e37d4b205216065e6"}, "docker": "quay.io/biocontainers/plasflow", "aliases": {"PlasFlow.py": "/usr/local/bin/PlasFlow.py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "freeze_graph": "/usr/local/bin/freeze_graph", "gifmaker.py": "/usr/local/bin/gifmaker.py", "idle3.5": "/usr/local/bin/idle3.5", "markdown_py": "/usr/local/bin/markdown_py", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "painter.py": "/usr/local/bin/painter.py"}}
+config: {"url": "https://biocontainers.pro/tools/plasflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasflow", "latest": {"1.1.0--py35_0": "sha256:74bb70254dd1a3eafd49050c4845a3657a05ff3466741d9e37d4b205216065e6"}, "tags": {"1.1.0--py35_0": "sha256:74bb70254dd1a3eafd49050c4845a3657a05ff3466741d9e37d4b205216065e6"}, "docker": "quay.io/biocontainers/plasflow", "aliases": {"PlasFlow.py": "/usr/local/bin/PlasFlow.py", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py", "thresholder.py": "/usr/local/bin/thresholder.py", "viewer.py": "/usr/local/bin/viewer.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasflow.
@@ -117,15 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/PlasFlow.py   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### enhancer.py
 
 ```bash
@@ -144,15 +135,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/explode.py   -v ${PWD} -w ${P
 ```
 
 
-#### freeze_graph
-
-```bash
-$ singularity exec <container> /usr/local/bin/freeze_graph
-$ podman run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gifmaker.py
 
 ```bash
@@ -162,48 +144,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gifmaker.py   -v ${PWD} -w ${
 ```
 
 
-#### idle3.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### markdown_py
-
-```bash
-$ singularity exec <container> /usr/local/bin/markdown_py
-$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### painter.py
 
 ```bash
 $ singularity exec <container> /usr/local/bin/painter.py
 $ podman run --it --rm --entrypoint /usr/local/bin/painter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/painter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### player.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/player.py
+$ podman run --it --rm --entrypoint /usr/local/bin/player.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/player.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thresholder.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/thresholder.py
+$ podman run --it --rm --entrypoint /usr/local/bin/thresholder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thresholder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### viewer.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/viewer.py
+$ podman run --it --rm --entrypoint /usr/local/bin/viewer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/viewer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pilconvert.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/pilconvert.py
+$ podman run --it --rm --entrypoint /usr/local/bin/pilconvert.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pilconvert.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pildriver.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/pildriver.py
+$ podman run --it --rm --entrypoint /usr/local/bin/pildriver.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pildriver.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pilfile.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/pilfile.py
+$ podman run --it --rm --entrypoint /usr/local/bin/pilfile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pilfile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

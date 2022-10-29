@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pbsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbsv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pbsv/container.yaml"
-updated_at: "2022-10-29 05:44:03.274242"
+updated_at: "2022-10-29 07:46:09.676668"
 latest: "2.8.0--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/pbsv"
 aliases:
+ - ".pbsv-post-link.sh"
  - "pbsv"
 versions:
  - "2.8.0--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for pbsv"
-config: {"url": "https://biocontainers.pro/tools/pbsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbsv", "latest": {"2.8.0--h9ee0642_0": "sha256:627c8685f240bbf0d5cc7bf1b0180457c23588d25efcffc72461b8c23fb830e5"}, "tags": {"2.8.0--h9ee0642_0": "sha256:627c8685f240bbf0d5cc7bf1b0180457c23588d25efcffc72461b8c23fb830e5"}, "docker": "quay.io/biocontainers/pbsv", "aliases": {"pbsv": "/usr/local/bin/pbsv"}}
+config: {"url": "https://biocontainers.pro/tools/pbsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbsv", "latest": {"2.8.0--h9ee0642_0": "sha256:627c8685f240bbf0d5cc7bf1b0180457c23588d25efcffc72461b8c23fb830e5"}, "tags": {"2.8.0--h9ee0642_0": "sha256:627c8685f240bbf0d5cc7bf1b0180457c23588d25efcffc72461b8c23fb830e5"}, "docker": "quay.io/biocontainers/pbsv", "aliases": {".pbsv-post-link.sh": "/usr/local/bin/.pbsv-post-link.sh", "pbsv": "/usr/local/bin/pbsv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbsv.
@@ -95,6 +96,15 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .pbsv-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.pbsv-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.pbsv-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.pbsv-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

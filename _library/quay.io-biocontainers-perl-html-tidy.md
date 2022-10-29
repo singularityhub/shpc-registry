@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-html-tidy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tidy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tidy/container.yaml"
-updated_at: "2022-10-29 05:42:03.461634"
+updated_at: "2022-10-29 07:44:40.290470"
 latest: "1.60--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-html-tidy"
 aliases:
- - "tidyp"
  - "webtidy"
+ - "tidyp"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.60--pl5321hec16e2b_2"
 description: "shpc-registry automated BioContainers addition for perl-html-tidy"
-config: {"url": "https://biocontainers.pro/tools/perl-html-tidy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tidy", "latest": {"1.60--pl5321hec16e2b_2": "sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691"}, "tags": {"1.60--pl5321hec16e2b_2": "sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691"}, "docker": "quay.io/biocontainers/perl-html-tidy", "aliases": {"tidyp": "/usr/local/bin/tidyp", "webtidy": "/usr/local/bin/webtidy"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-tidy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tidy", "latest": {"1.60--pl5321hec16e2b_2": "sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691"}, "tags": {"1.60--pl5321hec16e2b_2": "sha256:fc01f4bae989e73eb07fd6c4c6dfc2dacce6c1d3eed6a8fdb21c87f9934ba691"}, "docker": "quay.io/biocontainers/perl-html-tidy", "aliases": {"webtidy": "/usr/local/bin/webtidy", "tidyp": "/usr/local/bin/tidyp", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-tidy.
@@ -99,6 +101,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### webtidy
+
+```bash
+$ singularity exec <container> /usr/local/bin/webtidy
+$ podman run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### tidyp
 
 ```bash
@@ -108,12 +119,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tidyp   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### webtidy
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/webtidy
-$ podman run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

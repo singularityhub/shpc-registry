@@ -4,12 +4,13 @@ name:  "quay.io/biocontainers/pfam_scan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pfam_scan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pfam_scan/container.yaml"
-updated_at: "2022-10-29 05:49:52.395751"
+updated_at: "2022-10-29 07:50:27.418288"
 latest: "1.6--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/pfam_scan"
 aliases:
  - "pfam_scan.pl"
- - "alimask"
+ - "bp_pairwise_kaks.pl"
+ - "bp_search2BSML.pl"
  - "bp_aacomp.pl"
  - "bp_biofetch_genbank_proxy.pl"
  - "bp_bioflat_index.pl"
@@ -18,11 +19,10 @@ aliases:
  - "bp_bulk_load_gff.pl"
  - "bp_chaos_plot.pl"
  - "bp_classify_hits_kingdom.pl"
- - "bp_composite_LD.pl"
 versions:
  - "1.6--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for pfam_scan"
-config: {"url": "https://biocontainers.pro/tools/pfam_scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pfam_scan", "latest": {"1.6--hdfd78af_4": "sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d"}, "tags": {"1.6--hdfd78af_4": "sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d"}, "docker": "quay.io/biocontainers/pfam_scan", "aliases": {"pfam_scan.pl": "/usr/local/bin/pfam_scan.pl", "alimask": "/usr/local/bin/alimask", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl", "bp_composite_LD.pl": "/usr/local/bin/bp_composite_LD.pl"}}
+config: {"url": "https://biocontainers.pro/tools/pfam_scan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pfam_scan", "latest": {"1.6--hdfd78af_4": "sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d"}, "tags": {"1.6--hdfd78af_4": "sha256:ff78ea49eb3192839c04f865891cff54e1fe7f3a3f19f28eaf28505ba6bade7d"}, "docker": "quay.io/biocontainers/pfam_scan", "aliases": {"pfam_scan.pl": "/usr/local/bin/pfam_scan.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pfam_scan.
@@ -117,12 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pfam_scan.pl   -v ${PWD} -w $
 ```
 
 
-#### alimask
+#### bp_pairwise_kaks.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_search2BSML.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_search2BSML.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -195,15 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bp_chaos_plot.pl   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/bp_classify_hits_kingdom.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/bp_classify_hits_kingdom.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bp_classify_hits_kingdom.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bp_composite_LD.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bp_composite_LD.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_composite_LD.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_composite_LD.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dsqtl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dsqtl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dsqtl/container.yaml"
-updated_at: "2022-10-29 05:43:48.669915"
+updated_at: "2022-10-29 07:45:58.910471"
 latest: "0.28.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dsqtl"
 aliases:
+ - ".bioconductor-dsqtl-post-link.sh"
+ - ".bioconductor-dsqtl-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.28.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-dsqtl"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dsqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dsqtl", "latest": {"0.28.0--r40hdfd78af_1": "sha256:9496488702608b2a631e1d33db2d7a989d567a4d85c9b60582df66097177138a"}, "tags": {"0.28.0--r40hdfd78af_1": "sha256:9496488702608b2a631e1d33db2d7a989d567a4d85c9b60582df66097177138a"}, "docker": "quay.io/biocontainers/bioconductor-dsqtl", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dsqtl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dsqtl", "latest": {"0.28.0--r40hdfd78af_1": "sha256:9496488702608b2a631e1d33db2d7a989d567a4d85c9b60582df66097177138a"}, "tags": {"0.28.0--r40hdfd78af_1": "sha256:9496488702608b2a631e1d33db2d7a989d567a4d85c9b60582df66097177138a"}, "docker": "quay.io/biocontainers/bioconductor-dsqtl", "aliases": {".bioconductor-dsqtl-post-link.sh": "/usr/local/bin/.bioconductor-dsqtl-post-link.sh", ".bioconductor-dsqtl-pre-unlink.sh": "/usr/local/bin/.bioconductor-dsqtl-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dsqtl.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-dsqtl-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-dsqtl-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dsqtl-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dsqtl-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-dsqtl-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-dsqtl-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dsqtl-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dsqtl-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

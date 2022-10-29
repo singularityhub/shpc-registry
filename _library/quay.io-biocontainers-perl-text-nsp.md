@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-nsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-nsp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-nsp/container.yaml"
-updated_at: "2022-10-29 05:55:56.959255"
+updated_at: "2022-10-29 07:54:53.970563"
 latest: "1.31--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-text-nsp"
 aliases:
@@ -23,10 +23,12 @@ aliases:
  - "rank-script.sh"
  - "rank.pl"
  - "statistic.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.31--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-text-nsp"
-config: {"url": "https://biocontainers.pro/tools/perl-text-nsp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-nsp", "latest": {"1.31--pl5321hdfd78af_3": "sha256:c34f9645cfbe56ece8183c2dd1ec5bcdf95d84d198208677572831f585b3c8e5"}, "tags": {"1.31--pl5321hdfd78af_3": "sha256:c34f9645cfbe56ece8183c2dd1ec5bcdf95d84d198208677572831f585b3c8e5"}, "docker": "quay.io/biocontainers/perl-text-nsp", "aliases": {"combig-script.sh": "/usr/local/bin/combig-script.sh", "combig.pl": "/usr/local/bin/combig.pl", "count.pl": "/usr/local/bin/count.pl", "count2huge.pl": "/usr/local/bin/count2huge.pl", "find-compounds.pl": "/usr/local/bin/find-compounds.pl", "huge-count.pl": "/usr/local/bin/huge-count.pl", "huge-delete.pl": "/usr/local/bin/huge-delete.pl", "huge-merge.pl": "/usr/local/bin/huge-merge.pl", "huge-sort.pl": "/usr/local/bin/huge-sort.pl", "huge-split.pl": "/usr/local/bin/huge-split.pl", "kocos-script.sh": "/usr/local/bin/kocos-script.sh", "kocos.pl": "/usr/local/bin/kocos.pl", "rank-script.sh": "/usr/local/bin/rank-script.sh", "rank.pl": "/usr/local/bin/rank.pl", "statistic.pl": "/usr/local/bin/statistic.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-text-nsp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-text-nsp", "latest": {"1.31--pl5321hdfd78af_3": "sha256:c34f9645cfbe56ece8183c2dd1ec5bcdf95d84d198208677572831f585b3c8e5"}, "tags": {"1.31--pl5321hdfd78af_3": "sha256:c34f9645cfbe56ece8183c2dd1ec5bcdf95d84d198208677572831f585b3c8e5"}, "docker": "quay.io/biocontainers/perl-text-nsp", "aliases": {"combig-script.sh": "/usr/local/bin/combig-script.sh", "combig.pl": "/usr/local/bin/combig.pl", "count.pl": "/usr/local/bin/count.pl", "count2huge.pl": "/usr/local/bin/count2huge.pl", "find-compounds.pl": "/usr/local/bin/find-compounds.pl", "huge-count.pl": "/usr/local/bin/huge-count.pl", "huge-delete.pl": "/usr/local/bin/huge-delete.pl", "huge-merge.pl": "/usr/local/bin/huge-merge.pl", "huge-sort.pl": "/usr/local/bin/huge-sort.pl", "huge-split.pl": "/usr/local/bin/huge-split.pl", "kocos-script.sh": "/usr/local/bin/kocos-script.sh", "kocos.pl": "/usr/local/bin/kocos.pl", "rank-script.sh": "/usr/local/bin/rank-script.sh", "rank.pl": "/usr/local/bin/rank.pl", "statistic.pl": "/usr/local/bin/statistic.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-text-nsp.
@@ -244,6 +246,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rank.pl   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/statistic.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/statistic.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/statistic.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gubbins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gubbins/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gubbins/container.yaml"
-updated_at: "2022-10-29 05:33:18.313441"
+updated_at: "2022-10-29 07:38:14.059504"
 latest: "3.2.1--py39pl5321h87d955d_0"
 container_url: "https://biocontainers.pro/tools/gubbins"
 aliases:
@@ -18,20 +18,20 @@ aliases:
  - "raxml-ng-mpi"
  - "run_gubbins.py"
  - "ska"
- - "2to3-3.9"
- - "FastTree"
- - "FastTreeMP"
- - "aggregate_profile.pl"
- - "cwebp"
+ - "iqtree"
+ - "raxmlHPC"
+ - "raxmlHPC-AVX2"
+ - "raxmlHPC-PTHREADS"
+ - "raxmlHPC-PTHREADS-AVX2"
+ - "raxmlHPC-PTHREADS-SSE3"
+ - "raxmlHPC-SSE3"
  - "dendropy-format"
- - "dwebp"
- - "f2py3.9"
- - "fasttree"
  - "get_objgraph"
+ - "undill"
 versions:
  - "3.2.1--py39pl5321h87d955d_0"
 description: "shpc-registry automated BioContainers addition for gubbins"
-config: {"url": "https://biocontainers.pro/tools/gubbins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gubbins", "latest": {"3.2.1--py39pl5321h87d955d_0": "sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff"}, "tags": {"3.2.1--py39pl5321h87d955d_0": "sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff"}, "docker": "quay.io/biocontainers/gubbins", "aliases": {"extract_gubbins_clade.py": "/usr/local/bin/extract_gubbins_clade.py", "generate_ska_alignment.py": "/usr/local/bin/generate_ska_alignment.py", "gubbins": "/usr/local/bin/gubbins", "gubbins_alignment_checker.py": "/usr/local/bin/gubbins_alignment_checker.py", "mask_gubbins_aln.py": "/usr/local/bin/mask_gubbins_aln.py", "rapidnj": "/usr/local/bin/rapidnj", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "ska": "/usr/local/bin/ska", "2to3-3.9": "/usr/local/bin/2to3-3.9", "FastTree": "/usr/local/bin/FastTree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "cwebp": "/usr/local/bin/cwebp", "dendropy-format": "/usr/local/bin/dendropy-format", "dwebp": "/usr/local/bin/dwebp", "f2py3.9": "/usr/local/bin/f2py3.9", "fasttree": "/usr/local/bin/fasttree", "get_objgraph": "/usr/local/bin/get_objgraph"}}
+config: {"url": "https://biocontainers.pro/tools/gubbins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gubbins", "latest": {"3.2.1--py39pl5321h87d955d_0": "sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff"}, "tags": {"3.2.1--py39pl5321h87d955d_0": "sha256:18221405d72b5ba7ca93aa9098cb99b73cc290ef0c1f60104ac29a40dc9d1cff"}, "docker": "quay.io/biocontainers/gubbins", "aliases": {"extract_gubbins_clade.py": "/usr/local/bin/extract_gubbins_clade.py", "generate_ska_alignment.py": "/usr/local/bin/generate_ska_alignment.py", "gubbins": "/usr/local/bin/gubbins", "gubbins_alignment_checker.py": "/usr/local/bin/gubbins_alignment_checker.py", "mask_gubbins_aln.py": "/usr/local/bin/mask_gubbins_aln.py", "rapidnj": "/usr/local/bin/rapidnj", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "ska": "/usr/local/bin/ska", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "dendropy-format": "/usr/local/bin/dendropy-format", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gubbins.
@@ -207,48 +207,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ska   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### 2to3-3.9
+#### iqtree
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/iqtree
+$ podman run --it --rm --entrypoint /usr/local/bin/iqtree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iqtree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTree
+#### raxmlHPC
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTreeMP
+#### raxmlHPC-AVX2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-AVX2
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aggregate_profile.pl
+#### raxmlHPC-PTHREADS
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cwebp
+#### raxmlHPC-PTHREADS-AVX2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS-AVX2
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-AVX2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raxmlHPC-PTHREADS-SSE3
+
+```bash
+$ singularity exec <container> /usr/local/bin/raxmlHPC-PTHREADS-SSE3
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-PTHREADS-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raxmlHPC-SSE3
+
+```bash
+$ singularity exec <container> /usr/local/bin/raxmlHPC-SSE3
+$ podman run --it --rm --entrypoint /usr/local/bin/raxmlHPC-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raxmlHPC-SSE3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -261,39 +279,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -
 ```
 
 
-#### dwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fasttree
-
-```bash
-$ singularity exec <container> /usr/local/bin/fasttree
-$ podman run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### get_objgraph
 
 ```bash
 $ singularity exec <container> /usr/local/bin/get_objgraph
 $ podman run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### undill
+
+```bash
+$ singularity exec <container> /usr/local/bin/undill
+$ podman run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/tetoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetoolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tetoolkit/container.yaml"
-updated_at: "2022-10-29 05:55:27.693867"
+updated_at: "2022-10-29 07:54:32.708869"
 latest: "2.0.3--py_1"
 container_url: "https://biocontainers.pro/tools/tetoolkit"
 aliases:
  - "TEcount"
  - "TEtranscripts"
- - "ace2sam"
- - "bcftools"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "color-chrs.pl"
- - "export2sam.pl"
  - "guess-ploidy.py"
- - "idle"
- - "interpolate_sam.pl"
- - "maq2sam-long"
+ - "plot-roh.py"
+ - "run-roh.pl"
+ - "color-chrs.pl"
+ - "plot-vcfstats"
+ - "bcftools"
+ - "vcfutils.pl"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
 versions:
  - "2.0.3--py_1"
 description: "shpc-registry automated BioContainers addition for tetoolkit"
-config: {"url": "https://biocontainers.pro/tools/tetoolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetoolkit", "latest": {"2.0.3--py_1": "sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a"}, "tags": {"2.0.3--py_1": "sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a"}, "docker": "quay.io/biocontainers/tetoolkit", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "idle": "/usr/local/bin/idle", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
+config: {"url": "https://biocontainers.pro/tools/tetoolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetoolkit", "latest": {"2.0.3--py_1": "sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a"}, "tags": {"2.0.3--py_1": "sha256:13035591e530c3b924bc8e83b979ca519140be38b6b904ffc42a4eb560a8f74a"}, "docker": "quay.io/biocontainers/tetoolkit", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tetoolkit.
@@ -127,39 +127,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/TEtranscripts   -v ${PWD} -w 
 ```
 
 
-#### ace2sam
+#### guess-ploidy.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcftools
+#### plot-roh.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plot-roh.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### run-roh.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/run-roh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -172,48 +163,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w 
 ```
 
 
-#### export2sam.pl
+#### plot-vcfstats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plot-vcfstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### guess-ploidy.py
+#### bcftools
 
 ```bash
-$ singularity exec <container> /usr/local/bin/guess-ploidy.py
-$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle
+#### vcfutils.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vcfutils.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### interpolate_sam.pl
+#### python2-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### maq2sam-long
+#### python2.7-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/maq2sam-long
-$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-stan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stan/container.yaml"
-updated_at: "2022-10-29 05:41:26.948793"
+updated_at: "2022-10-29 07:44:12.954011"
 latest: "2.8.0--r341hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stan"
 aliases:
+ - "wget"
  - "ncurses5-config"
  - "ncursesw5-config"
- - "wget"
 versions:
  - "2.8.0--r341hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stan", "latest": {"2.8.0--r341hfc679d8_0": "sha256:a416b638f7963884f8e78e5ea4a5dfe82c224a4de4235a243d728f8dadea3f5a"}, "tags": {"2.8.0--r341hfc679d8_0": "sha256:a416b638f7963884f8e78e5ea4a5dfe82c224a4de4235a243d728f8dadea3f5a"}, "docker": "quay.io/biocontainers/bioconductor-stan", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stan", "latest": {"2.8.0--r341hfc679d8_0": "sha256:a416b638f7963884f8e78e5ea4a5dfe82c224a4de4235a243d728f8dadea3f5a"}, "tags": {"2.8.0--r341hfc679d8_0": "sha256:a416b638f7963884f8e78e5ea4a5dfe82c224a4de4235a243d728f8dadea3f5a"}, "docker": "quay.io/biocontainers/bioconductor-stan", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stan.
@@ -100,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ncurses5-config
 
 ```bash
@@ -115,15 +124,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/ncursesw5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

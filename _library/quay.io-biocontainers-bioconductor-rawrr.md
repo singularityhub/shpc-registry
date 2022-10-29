@@ -4,12 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-rawrr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rawrr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rawrr/container.yaml"
-updated_at: "2022-10-29 05:49:34.552455"
+updated_at: "2022-10-29 07:50:14.286168"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rawrr"
 aliases:
  - "aprofutil"
+ - "csc"
+ - "csi"
+ - "illinkanalyzer"
  - "mono-hang-watchdog"
+ - "vbc"
+ - "mono-package-runtime"
+ - "sgen-grep-binprot"
  - "al"
  - "al2"
  - "caspol"
@@ -18,12 +24,10 @@ aliases:
  - "cert-sync"
  - "cert2spc"
  - "certmgr"
- - "chktrust"
- - "crlupdate"
 versions:
  - "1.2.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rawrr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rawrr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rawrr", "latest": {"1.2.0--r41hdfd78af_0": "sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2"}, "docker": "quay.io/biocontainers/bioconductor-rawrr", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rawrr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rawrr", "latest": {"1.2.0--r41hdfd78af_0": "sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:64c2a70d6061a17efbe398e16057528b90f6b892357e687c626d5cbb965df0d2"}, "docker": "quay.io/biocontainers/bioconductor-rawrr", "aliases": {"aprofutil": "/usr/local/bin/aprofutil", "csc": "/usr/local/bin/csc", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "mono-hang-watchdog": "/usr/local/bin/mono-hang-watchdog", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rawrr.
@@ -118,12 +122,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aprofutil   -v ${PWD} -w ${PW
 ```
 
 
+#### csc
+
+```bash
+$ singularity exec <container> /usr/local/bin/csc
+$ podman run --it --rm --entrypoint /usr/local/bin/csc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csi
+
+```bash
+$ singularity exec <container> /usr/local/bin/csi
+$ podman run --it --rm --entrypoint /usr/local/bin/csi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### illinkanalyzer
+
+```bash
+$ singularity exec <container> /usr/local/bin/illinkanalyzer
+$ podman run --it --rm --entrypoint /usr/local/bin/illinkanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/illinkanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mono-hang-watchdog
 
 ```bash
 $ singularity exec <container> /usr/local/bin/mono-hang-watchdog
 $ podman run --it --rm --entrypoint /usr/local/bin/mono-hang-watchdog   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mono-hang-watchdog   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vbc
+
+```bash
+$ singularity exec <container> /usr/local/bin/vbc
+$ podman run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mono-package-runtime
+
+```bash
+$ singularity exec <container> /usr/local/bin/mono-package-runtime
+$ podman run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mono-package-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sgen-grep-binprot
+
+```bash
+$ singularity exec <container> /usr/local/bin/sgen-grep-binprot
+$ podman run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sgen-grep-binprot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -196,24 +254,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cert2spc   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/certmgr
 $ podman run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chktrust
-
-```bash
-$ singularity exec <container> /usr/local/bin/chktrust
-$ podman run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### crlupdate
-
-```bash
-$ singularity exec <container> /usr/local/bin/crlupdate
-$ podman run --it --rm --entrypoint /usr/local/bin/crlupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/crlupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

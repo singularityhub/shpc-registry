@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metalign/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metalign/container.yaml"
-updated_at: "2022-10-29 05:42:52.998966"
+updated_at: "2022-10-29 07:45:17.719950"
 latest: "0.12.5--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/metalign"
 aliases:
@@ -15,10 +15,6 @@ aliases:
  - "QueryDNADatabase.py"
  - "StreamingQueryDNADatabase.py"
  - "StreamingQueryDNADatabase_queue.py"
- - "map_and_profile.py"
- - "metalign.py"
- - "select_db.py"
- - "2to3-3.7"
  - "abundance-dist-single.py"
  - "abundance-dist.py"
  - "annotate-partitions.py"
@@ -27,11 +23,40 @@ aliases:
  - "extract-long-sequences.py"
  - "extract-paired-reads.py"
  - "extract-partitions.py"
+ - "fastq-to-fasta.py"
+ - "filter-abund-single.py"
+ - "filter-abund.py"
+ - "filter-stoptags.py"
+ - "find-knots.py"
+ - "interleave-reads.py"
+ - "load-graph.py"
+ - "load-into-counting.py"
+ - "make-initial-stoptags.py"
+ - "map_and_profile.py"
+ - "merge-partitions.py"
+ - "metalign.py"
+ - "normalize-by-median.py"
+ - "partition-graph.py"
+ - "readstats.py"
+ - "sample-reads-randomly.py"
+ - "select_db.py"
+ - "split-paired-reads.py"
+ - "trim-low-abund.py"
+ - "unique-kmers.py"
+ - "screed"
+ - "kmc"
+ - "kmc_dump"
+ - "kmc_tools"
+ - "sdust"
+ - "paftools.js"
+ - "minimap2"
+ - "k8"
  - "f2py3.7"
+ - "2to3-3.7"
 versions:
  - "0.12.5--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for metalign"
-config: {"url": "https://biocontainers.pro/tools/metalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metalign", "latest": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "tags": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "docker": "quay.io/biocontainers/metalign", "aliases": {"MakeDNADatabase.py": "/usr/local/bin/MakeDNADatabase.py", "MakeNodeGraph.py": "/usr/local/bin/MakeNodeGraph.py", "MakeStreamingDNADatabase.py": "/usr/local/bin/MakeStreamingDNADatabase.py", "MakeStreamingPrefilter.py": "/usr/local/bin/MakeStreamingPrefilter.py", "QueryDNADatabase.py": "/usr/local/bin/QueryDNADatabase.py", "StreamingQueryDNADatabase.py": "/usr/local/bin/StreamingQueryDNADatabase.py", "StreamingQueryDNADatabase_queue.py": "/usr/local/bin/StreamingQueryDNADatabase_queue.py", "map_and_profile.py": "/usr/local/bin/map_and_profile.py", "metalign.py": "/usr/local/bin/metalign.py", "select_db.py": "/usr/local/bin/select_db.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "count-median.py": "/usr/local/bin/count-median.py", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "f2py3.7": "/usr/local/bin/f2py3.7"}}
+config: {"url": "https://biocontainers.pro/tools/metalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metalign", "latest": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "tags": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "docker": "quay.io/biocontainers/metalign", "aliases": {"MakeDNADatabase.py": "/usr/local/bin/MakeDNADatabase.py", "MakeNodeGraph.py": "/usr/local/bin/MakeNodeGraph.py", "MakeStreamingDNADatabase.py": "/usr/local/bin/MakeStreamingDNADatabase.py", "MakeStreamingPrefilter.py": "/usr/local/bin/MakeStreamingPrefilter.py", "QueryDNADatabase.py": "/usr/local/bin/QueryDNADatabase.py", "StreamingQueryDNADatabase.py": "/usr/local/bin/StreamingQueryDNADatabase.py", "StreamingQueryDNADatabase_queue.py": "/usr/local/bin/StreamingQueryDNADatabase_queue.py", "abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "count-median.py": "/usr/local/bin/count-median.py", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "fastq-to-fasta.py": "/usr/local/bin/fastq-to-fasta.py", "filter-abund-single.py": "/usr/local/bin/filter-abund-single.py", "filter-abund.py": "/usr/local/bin/filter-abund.py", "filter-stoptags.py": "/usr/local/bin/filter-stoptags.py", "find-knots.py": "/usr/local/bin/find-knots.py", "interleave-reads.py": "/usr/local/bin/interleave-reads.py", "load-graph.py": "/usr/local/bin/load-graph.py", "load-into-counting.py": "/usr/local/bin/load-into-counting.py", "make-initial-stoptags.py": "/usr/local/bin/make-initial-stoptags.py", "map_and_profile.py": "/usr/local/bin/map_and_profile.py", "merge-partitions.py": "/usr/local/bin/merge-partitions.py", "metalign.py": "/usr/local/bin/metalign.py", "normalize-by-median.py": "/usr/local/bin/normalize-by-median.py", "partition-graph.py": "/usr/local/bin/partition-graph.py", "readstats.py": "/usr/local/bin/readstats.py", "sample-reads-randomly.py": "/usr/local/bin/sample-reads-randomly.py", "select_db.py": "/usr/local/bin/select_db.py", "split-paired-reads.py": "/usr/local/bin/split-paired-reads.py", "trim-low-abund.py": "/usr/local/bin/trim-low-abund.py", "unique-kmers.py": "/usr/local/bin/unique-kmers.py", "screed": "/usr/local/bin/screed", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metalign.
@@ -180,42 +205,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/StreamingQueryDNADatabase_que
 ```
 
 
-#### map_and_profile.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/map_and_profile.py
-$ podman run --it --rm --entrypoint /usr/local/bin/map_and_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/map_and_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### metalign.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/metalign.py
-$ podman run --it --rm --entrypoint /usr/local/bin/metalign.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/metalign.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### select_db.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/select_db.py
-$ podman run --it --rm --entrypoint /usr/local/bin/select_db.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/select_db.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### abundance-dist-single.py
 
 ```bash
@@ -288,12 +277,273 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extract-partitions.py   -v ${
 ```
 
 
+#### fastq-to-fasta.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq-to-fasta.py
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq-to-fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq-to-fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filter-abund-single.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter-abund-single.py
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-abund-single.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-abund-single.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filter-abund.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter-abund.py
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-abund.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-abund.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filter-stoptags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter-stoptags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-stoptags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-stoptags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### find-knots.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/find-knots.py
+$ podman run --it --rm --entrypoint /usr/local/bin/find-knots.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/find-knots.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### interleave-reads.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/interleave-reads.py
+$ podman run --it --rm --entrypoint /usr/local/bin/interleave-reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interleave-reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### load-graph.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/load-graph.py
+$ podman run --it --rm --entrypoint /usr/local/bin/load-graph.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/load-graph.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### load-into-counting.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/load-into-counting.py
+$ podman run --it --rm --entrypoint /usr/local/bin/load-into-counting.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/load-into-counting.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### make-initial-stoptags.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/make-initial-stoptags.py
+$ podman run --it --rm --entrypoint /usr/local/bin/make-initial-stoptags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/make-initial-stoptags.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### map_and_profile.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/map_and_profile.py
+$ podman run --it --rm --entrypoint /usr/local/bin/map_and_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/map_and_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### merge-partitions.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/merge-partitions.py
+$ podman run --it --rm --entrypoint /usr/local/bin/merge-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/merge-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### metalign.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/metalign.py
+$ podman run --it --rm --entrypoint /usr/local/bin/metalign.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metalign.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalize-by-median.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalize-by-median.py
+$ podman run --it --rm --entrypoint /usr/local/bin/normalize-by-median.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalize-by-median.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### partition-graph.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/partition-graph.py
+$ podman run --it --rm --entrypoint /usr/local/bin/partition-graph.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/partition-graph.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### readstats.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/readstats.py
+$ podman run --it --rm --entrypoint /usr/local/bin/readstats.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/readstats.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sample-reads-randomly.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sample-reads-randomly.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sample-reads-randomly.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sample-reads-randomly.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### select_db.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/select_db.py
+$ podman run --it --rm --entrypoint /usr/local/bin/select_db.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/select_db.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### split-paired-reads.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/split-paired-reads.py
+$ podman run --it --rm --entrypoint /usr/local/bin/split-paired-reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/split-paired-reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### trim-low-abund.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/trim-low-abund.py
+$ podman run --it --rm --entrypoint /usr/local/bin/trim-low-abund.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trim-low-abund.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unique-kmers.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/unique-kmers.py
+$ podman run --it --rm --entrypoint /usr/local/bin/unique-kmers.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unique-kmers.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### screed
+
+```bash
+$ singularity exec <container> /usr/local/bin/screed
+$ podman run --it --rm --entrypoint /usr/local/bin/screed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/screed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmc
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmc
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmc_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmc_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmc_tools
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmc_tools
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sdust
+
+```bash
+$ singularity exec <container> /usr/local/bin/sdust
+$ podman run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### paftools.js
+
+```bash
+$ singularity exec <container> /usr/local/bin/paftools.js
+$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minimap2
+
+```bash
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### k8
+
+```bash
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### f2py3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/pdbfixer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pdbfixer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pdbfixer/container.yaml"
-updated_at: "2022-10-29 05:44:24.939085"
+updated_at: "2022-10-29 07:46:25.807212"
 latest: "1.8.1"
 container_url: "https://biocontainers.pro/tools/pdbfixer"
 aliases:
  - "pdbfixer"
- - "2to3-3.10"
- - "f2py3.10"
  - "fftw-wisdom"
  - "fftw-wisdom-to-conf"
  - "fftwf-wisdom"
  - "fftwl-wisdom"
+ - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "1.8.1"
 description: "shpc-registry automated BioContainers addition for pdbfixer"
-config: {"url": "https://biocontainers.pro/tools/pdbfixer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pdbfixer", "latest": {"1.8.1": "sha256:2ef51fa5f45cf68b64b3a5eb9a1e03ba70b4f9d3972c31ecb755cf55c5c74ba1"}, "tags": {"1.8.1": "sha256:2ef51fa5f45cf68b64b3a5eb9a1e03ba70b4f9d3972c31ecb755cf55c5c74ba1"}, "docker": "quay.io/biocontainers/pdbfixer", "aliases": {"pdbfixer": "/usr/local/bin/pdbfixer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/pdbfixer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pdbfixer", "latest": {"1.8.1": "sha256:2ef51fa5f45cf68b64b3a5eb9a1e03ba70b4f9d3972c31ecb755cf55c5c74ba1"}, "tags": {"1.8.1": "sha256:2ef51fa5f45cf68b64b3a5eb9a1e03ba70b4f9d3972c31ecb755cf55c5c74ba1"}, "docker": "quay.io/biocontainers/pdbfixer", "aliases": {"pdbfixer": "/usr/local/bin/pdbfixer", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pdbfixer.
@@ -117,24 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pdbfixer   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### fftw-wisdom
 
 ```bash
@@ -168,6 +150,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/fftwl-wisdom
 $ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

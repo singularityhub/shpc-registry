@@ -4,24 +4,16 @@ name:  "quay.io/biocontainers/perl-number-misc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-number-misc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-number-misc/container.yaml"
-updated_at: "2022-10-29 05:37:09.070552"
+updated_at: "2022-10-29 07:41:03.512962"
 latest: "1.2--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-number-misc"
 aliases:
- - "corelist"
- - "cpan"
- - "enc2xs"
- - "encguess"
- - "h2ph"
- - "h2xs"
- - "instmodsh"
- - "json_pp"
- - "libnetcfg"
- - "perl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.2--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-number-misc"
-config: {"url": "https://biocontainers.pro/tools/perl-number-misc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-number-misc", "latest": {"1.2--pl5321hdfd78af_2": "sha256:7063389dc4516a4492f9725ebb4922fdedfc9ce28d39a21900541a8df4c6335c"}, "tags": {"1.2--pl5321hdfd78af_2": "sha256:7063389dc4516a4492f9725ebb4922fdedfc9ce28d39a21900541a8df4c6335c"}, "docker": "quay.io/biocontainers/perl-number-misc", "aliases": {"corelist": "/usr/local/bin/corelist", "cpan": "/usr/local/bin/cpan", "enc2xs": "/usr/local/bin/enc2xs", "encguess": "/usr/local/bin/encguess", "h2ph": "/usr/local/bin/h2ph", "h2xs": "/usr/local/bin/h2xs", "instmodsh": "/usr/local/bin/instmodsh", "json_pp": "/usr/local/bin/json_pp", "libnetcfg": "/usr/local/bin/libnetcfg", "perl": "/usr/local/bin/perl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-number-misc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-number-misc", "latest": {"1.2--pl5321hdfd78af_2": "sha256:7063389dc4516a4492f9725ebb4922fdedfc9ce28d39a21900541a8df4c6335c"}, "tags": {"1.2--pl5321hdfd78af_2": "sha256:7063389dc4516a4492f9725ebb4922fdedfc9ce28d39a21900541a8df4c6335c"}, "docker": "quay.io/biocontainers/perl-number-misc", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-number-misc.
@@ -107,93 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### corelist
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/corelist
-$ podman run --it --rm --entrypoint /usr/local/bin/corelist   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/corelist   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cpan
+#### streamzip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cpan
-$ podman run --it --rm --entrypoint /usr/local/bin/cpan   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cpan   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### enc2xs
-
-```bash
-$ singularity exec <container> /usr/local/bin/enc2xs
-$ podman run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### encguess
-
-```bash
-$ singularity exec <container> /usr/local/bin/encguess
-$ podman run --it --rm --entrypoint /usr/local/bin/encguess   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/encguess   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h2ph
-
-```bash
-$ singularity exec <container> /usr/local/bin/h2ph
-$ podman run --it --rm --entrypoint /usr/local/bin/h2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h2xs
-
-```bash
-$ singularity exec <container> /usr/local/bin/h2xs
-$ podman run --it --rm --entrypoint /usr/local/bin/h2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### instmodsh
-
-```bash
-$ singularity exec <container> /usr/local/bin/instmodsh
-$ podman run --it --rm --entrypoint /usr/local/bin/instmodsh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/instmodsh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### json_pp
-
-```bash
-$ singularity exec <container> /usr/local/bin/json_pp
-$ podman run --it --rm --entrypoint /usr/local/bin/json_pp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/json_pp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### libnetcfg
-
-```bash
-$ singularity exec <container> /usr/local/bin/libnetcfg
-$ podman run --it --rm --entrypoint /usr/local/bin/libnetcfg   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/libnetcfg   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### perl
-
-```bash
-$ singularity exec <container> /usr/local/bin/perl
-$ podman run --it --rm --entrypoint /usr/local/bin/perl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/perl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

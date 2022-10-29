@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngs-bits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-bits/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-bits/container.yaml"
-updated_at: "2022-10-29 05:40:43.190860"
+updated_at: "2022-10-29 07:43:40.740637"
 latest: "2022_10--py310hf1a0324_1"
 container_url: "https://biocontainers.pro/tools/ngs-bits"
 aliases:
@@ -140,20 +140,20 @@ aliases:
  - "VcfToTsv"
  - "settings.ini.example"
  - "settings_nightly.ini"
- - "2to3-3.10"
- - "aserver"
- - "assistant"
- - "bgzip"
- - "brotli"
- - "canbusutil"
+ - "xkbcli"
+ - "pg_config"
+ - "qdistancefieldgenerator"
+ - "qmlpreview"
+ - "qvkgen"
  - "certutil"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
+ - "nspr-config"
+ - "nss-config"
+ - "pk12util"
+ - "qwebengine_convert_dict"
 versions:
  - "2022_10--py310hf1a0324_1"
 description: "shpc-registry automated BioContainers addition for ngs-bits"
-config: {"url": "https://biocontainers.pro/tools/ngs-bits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-bits", "latest": {"2022_10--py310hf1a0324_1": "sha256:0fd9c75e0c99950893cc176945ddeb33cca3c3f1fe9bda809514e4f4fbe41fc8"}, "tags": {"2022_10--py310hf1a0324_1": "sha256:0fd9c75e0c99950893cc176945ddeb33cca3c3f1fe9bda809514e4f4fbe41fc8"}, "docker": "quay.io/biocontainers/ngs-bits", "aliases": {"BamCleanHaloplex": "/usr/local/bin/BamCleanHaloplex", "BamClipOverlap": "/usr/local/bin/BamClipOverlap", "BamDownsample": "/usr/local/bin/BamDownsample", "BamFilter": "/usr/local/bin/BamFilter", "BamToFastq": "/usr/local/bin/BamToFastq", "BedAdd": "/usr/local/bin/BedAdd", "BedAnnotateFreq": "/usr/local/bin/BedAnnotateFreq", "BedAnnotateFromBed": "/usr/local/bin/BedAnnotateFromBed", "BedAnnotateGC": "/usr/local/bin/BedAnnotateGC", "BedAnnotateGenes": "/usr/local/bin/BedAnnotateGenes", "BedChunk": "/usr/local/bin/BedChunk", "BedCoverage": "/usr/local/bin/BedCoverage", "BedExtend": "/usr/local/bin/BedExtend", "BedGeneOverlap": "/usr/local/bin/BedGeneOverlap", "BedHighCoverage": "/usr/local/bin/BedHighCoverage", "BedInfo": "/usr/local/bin/BedInfo", "BedIntersect": "/usr/local/bin/BedIntersect", "BedLiftOver": "/usr/local/bin/BedLiftOver", "BedLowCoverage": "/usr/local/bin/BedLowCoverage", "BedMerge": "/usr/local/bin/BedMerge", "BedReadCount": "/usr/local/bin/BedReadCount", "BedShrink": "/usr/local/bin/BedShrink", "BedSort": "/usr/local/bin/BedSort", "BedSubtract": "/usr/local/bin/BedSubtract", "BedToFasta": "/usr/local/bin/BedToFasta", "BedpeAnnotateBreakpointDensity": "/usr/local/bin/BedpeAnnotateBreakpointDensity", "BedpeAnnotateCnvOverlap": "/usr/local/bin/BedpeAnnotateCnvOverlap", "BedpeAnnotateCounts": "/usr/local/bin/BedpeAnnotateCounts", "BedpeAnnotateFromBed": "/usr/local/bin/BedpeAnnotateFromBed", "BedpeFilter": "/usr/local/bin/BedpeFilter", "BedpeGeneAnnotation": "/usr/local/bin/BedpeGeneAnnotation", "BedpeSort": "/usr/local/bin/BedpeSort", "BedpeToBed": "/usr/local/bin/BedpeToBed", "CfDnaQC": "/usr/local/bin/CfDnaQC", "CnvFilterAnnotations": "/usr/local/bin/CnvFilterAnnotations", "CnvGeneAnnotation": "/usr/local/bin/CnvGeneAnnotation", "CnvHunter": "/usr/local/bin/CnvHunter", "FastaInfo": "/usr/local/bin/FastaInfo", "FastqAddBarcode": "/usr/local/bin/FastqAddBarcode", "FastqConcat": "/usr/local/bin/FastqConcat", "FastqConvert": "/usr/local/bin/FastqConvert", "FastqDownsample": "/usr/local/bin/FastqDownsample", "FastqExtract": "/usr/local/bin/FastqExtract", "FastqExtractBarcode": "/usr/local/bin/FastqExtractBarcode", "FastqExtractUMI": "/usr/local/bin/FastqExtractUMI", "FastqFormat": "/usr/local/bin/FastqFormat", "FastqList": "/usr/local/bin/FastqList", "FastqMidParser": "/usr/local/bin/FastqMidParser", "FastqToFasta": "/usr/local/bin/FastqToFasta", "FastqTrim": "/usr/local/bin/FastqTrim", "GSvar.ini.example": "/usr/local/bin/GSvar.ini.example", "GSvarServer.ini.example": "/usr/local/bin/GSvarServer.ini.example", "GSvar_filters.ini": "/usr/local/bin/GSvar_filters.ini", "GSvar_filters_cnv.ini": "/usr/local/bin/GSvar_filters_cnv.ini", "GSvar_filters_sv.ini": "/usr/local/bin/GSvar_filters_sv.ini", "GSvar_special_regions.tsv": "/usr/local/bin/GSvar_special_regions.tsv", "GenePrioritization": "/usr/local/bin/GenePrioritization", "GenesToApproved": "/usr/local/bin/GenesToApproved", "GenesToBed": "/usr/local/bin/GenesToBed", "GraphStringDb": "/usr/local/bin/GraphStringDb", "HgvsToVcf": "/usr/local/bin/HgvsToVcf", "MappingQC": "/usr/local/bin/MappingQC", "NGSDAddVariantsGermline": "/usr/local/bin/NGSDAddVariantsGermline", "NGSDAddVariantsSomatic": "/usr/local/bin/NGSDAddVariantsSomatic", "NGSDAnnotateCNV": "/usr/local/bin/NGSDAnnotateCNV", "NGSDAnnotateGeneExpression": "/usr/local/bin/NGSDAnnotateGeneExpression", "NGSDAnnotateRNA": "/usr/local/bin/NGSDAnnotateRNA", "NGSDAnnotateSV": "/usr/local/bin/NGSDAnnotateSV", "NGSDExportAnnotationData": "/usr/local/bin/NGSDExportAnnotationData", "NGSDExportCnvTrack": "/usr/local/bin/NGSDExportCnvTrack", "NGSDExportGenes": "/usr/local/bin/NGSDExportGenes", "NGSDExportSV": "/usr/local/bin/NGSDExportSV", "NGSDExportSamples": "/usr/local/bin/NGSDExportSamples", "NGSDExtractRNACohort": "/usr/local/bin/NGSDExtractRNACohort", "NGSDImportEnsembl": "/usr/local/bin/NGSDImportEnsembl", "NGSDImportExpressionData": "/usr/local/bin/NGSDImportExpressionData", "NGSDImportGeneInfo": "/usr/local/bin/NGSDImportGeneInfo", "NGSDImportHGNC": "/usr/local/bin/NGSDImportHGNC", "NGSDImportHPO": "/usr/local/bin/NGSDImportHPO", "NGSDImportOMIM": "/usr/local/bin/NGSDImportOMIM", "NGSDImportORPHA": "/usr/local/bin/NGSDImportORPHA", "NGSDImportQC": "/usr/local/bin/NGSDImportQC", "NGSDInit": "/usr/local/bin/NGSDInit", "NGSDMaintain": "/usr/local/bin/NGSDMaintain", "NGSDUpdateSvGenotype": "/usr/local/bin/NGSDUpdateSvGenotype", "PERsim": "/usr/local/bin/PERsim", "PhenotypeSubtree": "/usr/local/bin/PhenotypeSubtree", "PhenotypesToGenes": "/usr/local/bin/PhenotypesToGenes", "ReadQC": "/usr/local/bin/ReadQC", "RnaQC": "/usr/local/bin/RnaQC", "RohHunter": "/usr/local/bin/RohHunter", "SampleAncestry": "/usr/local/bin/SampleAncestry", "SampleDiff": "/usr/local/bin/SampleDiff", "SampleGender": "/usr/local/bin/SampleGender", "SampleOverview": "/usr/local/bin/SampleOverview", "SampleSimilarity": "/usr/local/bin/SampleSimilarity", "SeqPurge": "/usr/local/bin/SeqPurge", "SomaticCnvMetrics": "/usr/local/bin/SomaticCnvMetrics", "SomaticQC": "/usr/local/bin/SomaticQC", "SplicingToBed": "/usr/local/bin/SplicingToBed", "SvFilterAnnotations": "/usr/local/bin/SvFilterAnnotations", "TrioMaternalContamination": "/usr/local/bin/TrioMaternalContamination", "TsvFilter": "/usr/local/bin/TsvFilter", "TsvInfo": "/usr/local/bin/TsvInfo", "TsvMerge": "/usr/local/bin/TsvMerge", "TsvSlice": "/usr/local/bin/TsvSlice", "TsvToQC": "/usr/local/bin/TsvToQC", "UpdHunter": "/usr/local/bin/UpdHunter", "VariantAnnotateASE": "/usr/local/bin/VariantAnnotateASE", "VariantAnnotateFrequency": "/usr/local/bin/VariantAnnotateFrequency", "VariantFilterAnnotations": "/usr/local/bin/VariantFilterAnnotations", "VariantFilterRegions": "/usr/local/bin/VariantFilterRegions", "VariantQC": "/usr/local/bin/VariantQC", "VariantRanking": "/usr/local/bin/VariantRanking", "VcfAnnotateConsequence": "/usr/local/bin/VcfAnnotateConsequence", "VcfAnnotateFromBed": "/usr/local/bin/VcfAnnotateFromBed", "VcfAnnotateFromBigWig": "/usr/local/bin/VcfAnnotateFromBigWig", "VcfAnnotateFromVcf": "/usr/local/bin/VcfAnnotateFromVcf", "VcfAnnotateHexplorer": "/usr/local/bin/VcfAnnotateHexplorer", "VcfBreakMulti": "/usr/local/bin/VcfBreakMulti", "VcfCalculatePRS": "/usr/local/bin/VcfCalculatePRS", "VcfCheck": "/usr/local/bin/VcfCheck", "VcfExtractSamples": "/usr/local/bin/VcfExtractSamples", "VcfFilter": "/usr/local/bin/VcfFilter", "VcfLeftNormalize": "/usr/local/bin/VcfLeftNormalize", "VcfSort": "/usr/local/bin/VcfSort", "VcfStreamSort": "/usr/local/bin/VcfStreamSort", "VcfToBed": "/usr/local/bin/VcfToBed", "VcfToBedpe": "/usr/local/bin/VcfToBedpe", "VcfToTsv": "/usr/local/bin/VcfToTsv", "settings.ini.example": "/usr/local/bin/settings.ini.example", "settings_nightly.ini": "/usr/local/bin/settings_nightly.ini", "2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bgzip": "/usr/local/bin/bgzip", "brotli": "/usr/local/bin/brotli", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch"}}
+config: {"url": "https://biocontainers.pro/tools/ngs-bits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-bits", "latest": {"2022_10--py310hf1a0324_1": "sha256:0fd9c75e0c99950893cc176945ddeb33cca3c3f1fe9bda809514e4f4fbe41fc8"}, "tags": {"2022_10--py310hf1a0324_1": "sha256:0fd9c75e0c99950893cc176945ddeb33cca3c3f1fe9bda809514e4f4fbe41fc8"}, "docker": "quay.io/biocontainers/ngs-bits", "aliases": {"BamCleanHaloplex": "/usr/local/bin/BamCleanHaloplex", "BamClipOverlap": "/usr/local/bin/BamClipOverlap", "BamDownsample": "/usr/local/bin/BamDownsample", "BamFilter": "/usr/local/bin/BamFilter", "BamToFastq": "/usr/local/bin/BamToFastq", "BedAdd": "/usr/local/bin/BedAdd", "BedAnnotateFreq": "/usr/local/bin/BedAnnotateFreq", "BedAnnotateFromBed": "/usr/local/bin/BedAnnotateFromBed", "BedAnnotateGC": "/usr/local/bin/BedAnnotateGC", "BedAnnotateGenes": "/usr/local/bin/BedAnnotateGenes", "BedChunk": "/usr/local/bin/BedChunk", "BedCoverage": "/usr/local/bin/BedCoverage", "BedExtend": "/usr/local/bin/BedExtend", "BedGeneOverlap": "/usr/local/bin/BedGeneOverlap", "BedHighCoverage": "/usr/local/bin/BedHighCoverage", "BedInfo": "/usr/local/bin/BedInfo", "BedIntersect": "/usr/local/bin/BedIntersect", "BedLiftOver": "/usr/local/bin/BedLiftOver", "BedLowCoverage": "/usr/local/bin/BedLowCoverage", "BedMerge": "/usr/local/bin/BedMerge", "BedReadCount": "/usr/local/bin/BedReadCount", "BedShrink": "/usr/local/bin/BedShrink", "BedSort": "/usr/local/bin/BedSort", "BedSubtract": "/usr/local/bin/BedSubtract", "BedToFasta": "/usr/local/bin/BedToFasta", "BedpeAnnotateBreakpointDensity": "/usr/local/bin/BedpeAnnotateBreakpointDensity", "BedpeAnnotateCnvOverlap": "/usr/local/bin/BedpeAnnotateCnvOverlap", "BedpeAnnotateCounts": "/usr/local/bin/BedpeAnnotateCounts", "BedpeAnnotateFromBed": "/usr/local/bin/BedpeAnnotateFromBed", "BedpeFilter": "/usr/local/bin/BedpeFilter", "BedpeGeneAnnotation": "/usr/local/bin/BedpeGeneAnnotation", "BedpeSort": "/usr/local/bin/BedpeSort", "BedpeToBed": "/usr/local/bin/BedpeToBed", "CfDnaQC": "/usr/local/bin/CfDnaQC", "CnvFilterAnnotations": "/usr/local/bin/CnvFilterAnnotations", "CnvGeneAnnotation": "/usr/local/bin/CnvGeneAnnotation", "CnvHunter": "/usr/local/bin/CnvHunter", "FastaInfo": "/usr/local/bin/FastaInfo", "FastqAddBarcode": "/usr/local/bin/FastqAddBarcode", "FastqConcat": "/usr/local/bin/FastqConcat", "FastqConvert": "/usr/local/bin/FastqConvert", "FastqDownsample": "/usr/local/bin/FastqDownsample", "FastqExtract": "/usr/local/bin/FastqExtract", "FastqExtractBarcode": "/usr/local/bin/FastqExtractBarcode", "FastqExtractUMI": "/usr/local/bin/FastqExtractUMI", "FastqFormat": "/usr/local/bin/FastqFormat", "FastqList": "/usr/local/bin/FastqList", "FastqMidParser": "/usr/local/bin/FastqMidParser", "FastqToFasta": "/usr/local/bin/FastqToFasta", "FastqTrim": "/usr/local/bin/FastqTrim", "GSvar.ini.example": "/usr/local/bin/GSvar.ini.example", "GSvarServer.ini.example": "/usr/local/bin/GSvarServer.ini.example", "GSvar_filters.ini": "/usr/local/bin/GSvar_filters.ini", "GSvar_filters_cnv.ini": "/usr/local/bin/GSvar_filters_cnv.ini", "GSvar_filters_sv.ini": "/usr/local/bin/GSvar_filters_sv.ini", "GSvar_special_regions.tsv": "/usr/local/bin/GSvar_special_regions.tsv", "GenePrioritization": "/usr/local/bin/GenePrioritization", "GenesToApproved": "/usr/local/bin/GenesToApproved", "GenesToBed": "/usr/local/bin/GenesToBed", "GraphStringDb": "/usr/local/bin/GraphStringDb", "HgvsToVcf": "/usr/local/bin/HgvsToVcf", "MappingQC": "/usr/local/bin/MappingQC", "NGSDAddVariantsGermline": "/usr/local/bin/NGSDAddVariantsGermline", "NGSDAddVariantsSomatic": "/usr/local/bin/NGSDAddVariantsSomatic", "NGSDAnnotateCNV": "/usr/local/bin/NGSDAnnotateCNV", "NGSDAnnotateGeneExpression": "/usr/local/bin/NGSDAnnotateGeneExpression", "NGSDAnnotateRNA": "/usr/local/bin/NGSDAnnotateRNA", "NGSDAnnotateSV": "/usr/local/bin/NGSDAnnotateSV", "NGSDExportAnnotationData": "/usr/local/bin/NGSDExportAnnotationData", "NGSDExportCnvTrack": "/usr/local/bin/NGSDExportCnvTrack", "NGSDExportGenes": "/usr/local/bin/NGSDExportGenes", "NGSDExportSV": "/usr/local/bin/NGSDExportSV", "NGSDExportSamples": "/usr/local/bin/NGSDExportSamples", "NGSDExtractRNACohort": "/usr/local/bin/NGSDExtractRNACohort", "NGSDImportEnsembl": "/usr/local/bin/NGSDImportEnsembl", "NGSDImportExpressionData": "/usr/local/bin/NGSDImportExpressionData", "NGSDImportGeneInfo": "/usr/local/bin/NGSDImportGeneInfo", "NGSDImportHGNC": "/usr/local/bin/NGSDImportHGNC", "NGSDImportHPO": "/usr/local/bin/NGSDImportHPO", "NGSDImportOMIM": "/usr/local/bin/NGSDImportOMIM", "NGSDImportORPHA": "/usr/local/bin/NGSDImportORPHA", "NGSDImportQC": "/usr/local/bin/NGSDImportQC", "NGSDInit": "/usr/local/bin/NGSDInit", "NGSDMaintain": "/usr/local/bin/NGSDMaintain", "NGSDUpdateSvGenotype": "/usr/local/bin/NGSDUpdateSvGenotype", "PERsim": "/usr/local/bin/PERsim", "PhenotypeSubtree": "/usr/local/bin/PhenotypeSubtree", "PhenotypesToGenes": "/usr/local/bin/PhenotypesToGenes", "ReadQC": "/usr/local/bin/ReadQC", "RnaQC": "/usr/local/bin/RnaQC", "RohHunter": "/usr/local/bin/RohHunter", "SampleAncestry": "/usr/local/bin/SampleAncestry", "SampleDiff": "/usr/local/bin/SampleDiff", "SampleGender": "/usr/local/bin/SampleGender", "SampleOverview": "/usr/local/bin/SampleOverview", "SampleSimilarity": "/usr/local/bin/SampleSimilarity", "SeqPurge": "/usr/local/bin/SeqPurge", "SomaticCnvMetrics": "/usr/local/bin/SomaticCnvMetrics", "SomaticQC": "/usr/local/bin/SomaticQC", "SplicingToBed": "/usr/local/bin/SplicingToBed", "SvFilterAnnotations": "/usr/local/bin/SvFilterAnnotations", "TrioMaternalContamination": "/usr/local/bin/TrioMaternalContamination", "TsvFilter": "/usr/local/bin/TsvFilter", "TsvInfo": "/usr/local/bin/TsvInfo", "TsvMerge": "/usr/local/bin/TsvMerge", "TsvSlice": "/usr/local/bin/TsvSlice", "TsvToQC": "/usr/local/bin/TsvToQC", "UpdHunter": "/usr/local/bin/UpdHunter", "VariantAnnotateASE": "/usr/local/bin/VariantAnnotateASE", "VariantAnnotateFrequency": "/usr/local/bin/VariantAnnotateFrequency", "VariantFilterAnnotations": "/usr/local/bin/VariantFilterAnnotations", "VariantFilterRegions": "/usr/local/bin/VariantFilterRegions", "VariantQC": "/usr/local/bin/VariantQC", "VariantRanking": "/usr/local/bin/VariantRanking", "VcfAnnotateConsequence": "/usr/local/bin/VcfAnnotateConsequence", "VcfAnnotateFromBed": "/usr/local/bin/VcfAnnotateFromBed", "VcfAnnotateFromBigWig": "/usr/local/bin/VcfAnnotateFromBigWig", "VcfAnnotateFromVcf": "/usr/local/bin/VcfAnnotateFromVcf", "VcfAnnotateHexplorer": "/usr/local/bin/VcfAnnotateHexplorer", "VcfBreakMulti": "/usr/local/bin/VcfBreakMulti", "VcfCalculatePRS": "/usr/local/bin/VcfCalculatePRS", "VcfCheck": "/usr/local/bin/VcfCheck", "VcfExtractSamples": "/usr/local/bin/VcfExtractSamples", "VcfFilter": "/usr/local/bin/VcfFilter", "VcfLeftNormalize": "/usr/local/bin/VcfLeftNormalize", "VcfSort": "/usr/local/bin/VcfSort", "VcfStreamSort": "/usr/local/bin/VcfStreamSort", "VcfToBed": "/usr/local/bin/VcfToBed", "VcfToBedpe": "/usr/local/bin/VcfToBedpe", "VcfToTsv": "/usr/local/bin/VcfToTsv", "settings.ini.example": "/usr/local/bin/settings.ini.example", "settings_nightly.ini": "/usr/local/bin/settings_nightly.ini", "xkbcli": "/usr/local/bin/xkbcli", "pg_config": "/usr/local/bin/pg_config", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util", "qwebengine_convert_dict": "/usr/local/bin/qwebengine_convert_dict"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngs-bits.
@@ -1427,57 +1427,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/settings_nightly.ini   -v ${P
 ```
 
 
-#### 2to3-3.10
+#### xkbcli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xkbcli
+$ podman run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### pg_config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_config
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### qdistancefieldgenerator
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qdistancefieldgenerator
+$ podman run --it --rm --entrypoint /usr/local/bin/qdistancefieldgenerator   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qdistancefieldgenerator   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### qmlpreview
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qmlpreview
+$ podman run --it --rm --entrypoint /usr/local/bin/qmlpreview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qmlpreview   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### qvkgen
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### canbusutil
-
-```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qvkgen
+$ podman run --it --rm --entrypoint /usr/local/bin/qvkgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qvkgen   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1490,30 +1481,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD
 ```
 
 
-#### dbus-cleanup-sockets
+#### nspr-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/nspr-config
+$ podman run --it --rm --entrypoint /usr/local/bin/nspr-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nspr-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### nss-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/nss-config
+$ podman run --it --rm --entrypoint /usr/local/bin/nss-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nss-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### pk12util
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pk12util
+$ podman run --it --rm --entrypoint /usr/local/bin/pk12util   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pk12util   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qwebengine_convert_dict
+
+```bash
+$ singularity exec <container> /usr/local/bin/qwebengine_convert_dict
+$ podman run --it --rm --entrypoint /usr/local/bin/qwebengine_convert_dict   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qwebengine_convert_dict   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

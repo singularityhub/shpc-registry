@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene/container.yaml"
-updated_at: "2022-10-29 05:46:37.142498"
+updated_at: "2022-10-29 07:48:03.332431"
 latest: "3.4.6--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau8.refgene"
 aliases:
+ - ".bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh"
+ - ".bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh"
+ - "gio-launch-desktop"
  - "c89"
  - "c99"
- - "gio-launch-desktop"
 versions:
  - "3.4.6--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.btaurus.ucsc.bostau8.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau8.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.btaurus.ucsc.bostau8.refgene", "latest": {"3.4.6--r36_1": "sha256:002682ecf9565d754b22f577b5afd56fbcc98678addadd1b3fff232250a4149e"}, "tags": {"3.4.6--r36_1": "sha256:002682ecf9565d754b22f577b5afd56fbcc98678addadd1b3fff232250a4149e"}, "docker": "quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.btaurus.ucsc.bostau8.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.btaurus.ucsc.bostau8.refgene", "latest": {"3.4.6--r36_1": "sha256:002682ecf9565d754b22f577b5afd56fbcc98678addadd1b3fff232250a4149e"}, "tags": {"3.4.6--r36_1": "sha256:002682ecf9565d754b22f577b5afd56fbcc98678addadd1b3fff232250a4149e"}, "docker": "quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene", "aliases": {".bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh", ".bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.btaurus.ucsc.bostau8.refgene.
@@ -100,6 +102,33 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.btaurus.ucsc.bostau8.refgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### c89
 
 ```bash
@@ -115,15 +144,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/c99
 $ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

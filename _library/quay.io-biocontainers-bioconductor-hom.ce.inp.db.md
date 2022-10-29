@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hom.ce.inp.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hom.ce.inp.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hom.ce.inp.db/container.yaml"
-updated_at: "2022-10-29 05:43:55.162005"
+updated_at: "2022-10-29 07:46:03.667711"
 latest: "3.1.3--r40hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-hom.ce.inp.db"
 aliases:
+ - ".bioconductor-hom.ce.inp.db-post-link.sh"
+ - ".bioconductor-hom.ce.inp.db-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.1.3--r40hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-hom.ce.inp.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hom.ce.inp.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hom.ce.inp.db", "latest": {"3.1.3--r40hdfd78af_2": "sha256:ec5e4cedfa1409b35a96971a55150cc0541f93000bd2301b7c0c9d17855f6bdc"}, "tags": {"3.1.3--r40hdfd78af_2": "sha256:ec5e4cedfa1409b35a96971a55150cc0541f93000bd2301b7c0c9d17855f6bdc"}, "docker": "quay.io/biocontainers/bioconductor-hom.ce.inp.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hom.ce.inp.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hom.ce.inp.db", "latest": {"3.1.3--r40hdfd78af_2": "sha256:ec5e4cedfa1409b35a96971a55150cc0541f93000bd2301b7c0c9d17855f6bdc"}, "tags": {"3.1.3--r40hdfd78af_2": "sha256:ec5e4cedfa1409b35a96971a55150cc0541f93000bd2301b7c0c9d17855f6bdc"}, "docker": "quay.io/biocontainers/bioconductor-hom.ce.inp.db", "aliases": {".bioconductor-hom.ce.inp.db-post-link.sh": "/usr/local/bin/.bioconductor-hom.ce.inp.db-post-link.sh", ".bioconductor-hom.ce.inp.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hom.ce.inp.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hom.ce.inp.db.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-hom.ce.inp.db-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-hom.ce.inp.db-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hom.ce.inp.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hom.ce.inp.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-hom.ce.inp.db-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-hom.ce.inp.db-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hom.ce.inp.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hom.ce.inp.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

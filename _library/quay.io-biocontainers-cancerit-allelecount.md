@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/cancerit-allelecount"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cancerit-allelecount/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cancerit-allelecount/container.yaml"
-updated_at: "2022-10-29 05:30:42.009491"
+updated_at: "2022-10-29 07:36:19.701887"
 latest: "4.3.0--ha8fb052_3"
 container_url: "https://biocontainers.pro/tools/cancerit-allelecount"
 aliases:
  - "alleleCounter"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "4.3.0--ha8fb052_3"
 description: "shpc-registry automated BioContainers addition for cancerit-allelecount"
-config: {"url": "https://biocontainers.pro/tools/cancerit-allelecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cancerit-allelecount", "latest": {"4.3.0--ha8fb052_3": "sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54"}, "tags": {"4.3.0--ha8fb052_3": "sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54"}, "docker": "quay.io/biocontainers/cancerit-allelecount", "aliases": {"alleleCounter": "/usr/local/bin/alleleCounter", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/cancerit-allelecount", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cancerit-allelecount", "latest": {"4.3.0--ha8fb052_3": "sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54"}, "tags": {"4.3.0--ha8fb052_3": "sha256:0be75beaf4d37798e3a7f9f075e509baa6c2d4fa928778137b41f425c5000e54"}, "docker": "quay.io/biocontainers/cancerit-allelecount", "aliases": {"alleleCounter": "/usr/local/bin/alleleCounter", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cancerit-allelecount.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/alleleCounter   -v ${PWD} -w 
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

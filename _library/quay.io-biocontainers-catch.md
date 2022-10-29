@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/catch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/catch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/catch/container.yaml"
-updated_at: "2022-10-29 05:30:41.471173"
+updated_at: "2022-10-29 07:36:19.300922"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/catch"
 aliases:
@@ -13,8 +13,8 @@ aliases:
  - "design_large.py"
  - "design_naively.py"
  - "pool.py"
- - "2to3-3.10"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -23,7 +23,7 @@ aliases:
 versions:
  - "1.5.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for catch"
-config: {"url": "https://biocontainers.pro/tools/catch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for catch", "latest": {"1.5.0--pyhdfd78af_0": "sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8"}, "docker": "quay.io/biocontainers/catch", "aliases": {"analyze_probe_coverage.py": "/usr/local/bin/analyze_probe_coverage.py", "design.py": "/usr/local/bin/design.py", "design_large.py": "/usr/local/bin/design_large.py", "design_naively.py": "/usr/local/bin/design_naively.py", "pool.py": "/usr/local/bin/pool.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/catch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for catch", "latest": {"1.5.0--pyhdfd78af_0": "sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8"}, "docker": "quay.io/biocontainers/catch", "aliases": {"analyze_probe_coverage.py": "/usr/local/bin/analyze_probe_coverage.py", "design.py": "/usr/local/bin/design.py", "design_large.py": "/usr/local/bin/design_large.py", "design_naively.py": "/usr/local/bin/design_naively.py", "pool.py": "/usr/local/bin/pool.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/catch.
@@ -154,21 +154,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pool.py   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

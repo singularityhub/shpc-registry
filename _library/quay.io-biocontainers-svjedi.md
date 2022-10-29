@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/svjedi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svjedi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/svjedi/container.yaml"
-updated_at: "2022-10-29 05:44:09.772435"
+updated_at: "2022-10-29 07:46:14.528569"
 latest: "1.1.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/svjedi"
 aliases:
  - "svjedi.py"
- - "2to3-3.10"
- - "f2py3.10"
- - "idle3.10"
- - "k8"
- - "minimap2"
+ - "sdust"
  - "paftools.js"
+ - "minimap2"
+ - "k8"
+ - "f2py3.10"
+ - "2to3-3.10"
+ - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
- - "python3.10-config"
 versions:
  - "1.1.6--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for svjedi"
-config: {"url": "https://biocontainers.pro/tools/svjedi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svjedi", "latest": {"1.1.6--hdfd78af_1": "sha256:4d7fcdbf687c6e43935d27d8f80d96bd9fc76fe9c9d205022b640938efb90301"}, "tags": {"1.1.6--hdfd78af_1": "sha256:4d7fcdbf687c6e43935d27d8f80d96bd9fc76fe9c9d205022b640938efb90301"}, "docker": "quay.io/biocontainers/svjedi", "aliases": {"svjedi.py": "/usr/local/bin/svjedi.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "paftools.js": "/usr/local/bin/paftools.js", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/svjedi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svjedi", "latest": {"1.1.6--hdfd78af_1": "sha256:4d7fcdbf687c6e43935d27d8f80d96bd9fc76fe9c9d205022b640938efb90301"}, "tags": {"1.1.6--hdfd78af_1": "sha256:4d7fcdbf687c6e43935d27d8f80d96bd9fc76fe9c9d205022b640938efb90301"}, "docker": "quay.io/biocontainers/svjedi", "aliases": {"svjedi.py": "/usr/local/bin/svjedi.py", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svjedi.
@@ -117,39 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/svjedi.py   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
+#### sdust
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sdust
+$ podman run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### f2py3.10
+#### paftools.js
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### k8
-
-```bash
-$ singularity exec <container> /usr/local/bin/k8
-$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/paftools.js
+$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,12 +144,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD
 ```
 
 
-#### paftools.js
+#### k8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/paftools.js
-$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -195,15 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.10-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.10-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

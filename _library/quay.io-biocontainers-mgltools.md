@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mgltools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgltools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mgltools/container.yaml"
-updated_at: "2022-10-29 05:44:50.857093"
+updated_at: "2022-10-29 07:46:45.190688"
 latest: "1.5.7--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/mgltools"
 aliases:
@@ -18,6 +18,8 @@ aliases:
  - "ipcontroller2"
  - "ipengine"
  - "ipengine2"
+ - "iptest2"
+ - "ipython2"
  - "mglbabel"
  - "mglenv.csh"
  - "mglenv.sh"
@@ -53,20 +55,20 @@ aliases:
  - "sagapython-version"
  - "tester"
  - "vision"
- - "cygdb"
- - "cython"
- - "cythonize"
- - "easy_install-2.7"
- - "idle"
- - "iptest"
- - "iptest2"
- - "ipython"
- - "ipython2"
  - "obabel"
+ - "obconformer"
+ - "obdistgen"
+ - "obenergy"
+ - "obfit"
+ - "obgen"
+ - "obgrep"
+ - "obminimize"
+ - "obprobe"
+ - "obprop"
 versions:
  - "1.5.7--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for mgltools"
-config: {"url": "https://biocontainers.pro/tools/mgltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgltools", "latest": {"1.5.7--h9ee0642_1": "sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105"}, "tags": {"1.5.7--h9ee0642_1": "sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105"}, "docker": "quay.io/biocontainers/mgltools", "aliases": {"adt": "/usr/local/bin/adt", "archosv": "/usr/local/bin/archosv", "babel": "/usr/local/bin/babel", "evol": "/usr/local/bin/evol", "ipcluster": "/usr/local/bin/ipcluster", "ipcluster2": "/usr/local/bin/ipcluster2", "ipcontroller": "/usr/local/bin/ipcontroller", "ipcontroller2": "/usr/local/bin/ipcontroller2", "ipengine": "/usr/local/bin/ipengine", "ipengine2": "/usr/local/bin/ipengine2", "mglbabel": "/usr/local/bin/mglbabel", "mglenv.csh": "/usr/local/bin/mglenv.csh", "mglenv.sh": "/usr/local/bin/mglenv.sh", "mglobabel": "/usr/local/bin/mglobabel", "mglobchiral": "/usr/local/bin/mglobchiral", "mglobconformer": "/usr/local/bin/mglobconformer", "mglobenergy": "/usr/local/bin/mglobenergy", "mglobfit": "/usr/local/bin/mglobfit", "mglobgen": "/usr/local/bin/mglobgen", "mglobgrep": "/usr/local/bin/mglobgrep", "mglobminimize": "/usr/local/bin/mglobminimize", "mglobprobe": "/usr/local/bin/mglobprobe", "mglobprop": "/usr/local/bin/mglobprop", "mglobrms": "/usr/local/bin/mglobrms", "mglobrotamer": "/usr/local/bin/mglobrotamer", "mglobrotate": "/usr/local/bin/mglobrotate", "mglobspectrophore": "/usr/local/bin/mglobspectrophore", "mglroundtrip": "/usr/local/bin/mglroundtrip", "obchiral": "/usr/local/bin/obchiral", "pip2": "/usr/local/bin/pip2", "pip2.7": "/usr/local/bin/pip2.7", "pmv": "/usr/local/bin/pmv", "prepare_ligand4.py": "/usr/local/bin/prepare_ligand4.py", "prepare_receptor4.py": "/usr/local/bin/prepare_receptor4.py", "prody": "/usr/local/bin/prody", "pythonsh": "/usr/local/bin/pythonsh", "raccoon": "/usr/local/bin/raccoon", "radical-utils-fix-headers.pl": "/usr/local/bin/radical-utils-fix-headers.pl", "radical-utils-mongodb.py": "/usr/local/bin/radical-utils-mongodb.py", "radical-utils-pylint.sh": "/usr/local/bin/radical-utils-pylint.sh", "radical-utils-version": "/usr/local/bin/radical-utils-version", "runAdt": "/usr/local/bin/runAdt", "sagapython-version": "/usr/local/bin/sagapython-version", "tester": "/usr/local/bin/tester", "vision": "/usr/local/bin/vision", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "idle": "/usr/local/bin/idle", "iptest": "/usr/local/bin/iptest", "iptest2": "/usr/local/bin/iptest2", "ipython": "/usr/local/bin/ipython", "ipython2": "/usr/local/bin/ipython2", "obabel": "/usr/local/bin/obabel"}}
+config: {"url": "https://biocontainers.pro/tools/mgltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgltools", "latest": {"1.5.7--h9ee0642_1": "sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105"}, "tags": {"1.5.7--h9ee0642_1": "sha256:14bc2a1b05f77fa6cf34257253e17a9fb487cefb15050deb69167764a5ae5105"}, "docker": "quay.io/biocontainers/mgltools", "aliases": {"adt": "/usr/local/bin/adt", "archosv": "/usr/local/bin/archosv", "babel": "/usr/local/bin/babel", "evol": "/usr/local/bin/evol", "ipcluster": "/usr/local/bin/ipcluster", "ipcluster2": "/usr/local/bin/ipcluster2", "ipcontroller": "/usr/local/bin/ipcontroller", "ipcontroller2": "/usr/local/bin/ipcontroller2", "ipengine": "/usr/local/bin/ipengine", "ipengine2": "/usr/local/bin/ipengine2", "iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "mglbabel": "/usr/local/bin/mglbabel", "mglenv.csh": "/usr/local/bin/mglenv.csh", "mglenv.sh": "/usr/local/bin/mglenv.sh", "mglobabel": "/usr/local/bin/mglobabel", "mglobchiral": "/usr/local/bin/mglobchiral", "mglobconformer": "/usr/local/bin/mglobconformer", "mglobenergy": "/usr/local/bin/mglobenergy", "mglobfit": "/usr/local/bin/mglobfit", "mglobgen": "/usr/local/bin/mglobgen", "mglobgrep": "/usr/local/bin/mglobgrep", "mglobminimize": "/usr/local/bin/mglobminimize", "mglobprobe": "/usr/local/bin/mglobprobe", "mglobprop": "/usr/local/bin/mglobprop", "mglobrms": "/usr/local/bin/mglobrms", "mglobrotamer": "/usr/local/bin/mglobrotamer", "mglobrotate": "/usr/local/bin/mglobrotate", "mglobspectrophore": "/usr/local/bin/mglobspectrophore", "mglroundtrip": "/usr/local/bin/mglroundtrip", "obchiral": "/usr/local/bin/obchiral", "pip2": "/usr/local/bin/pip2", "pip2.7": "/usr/local/bin/pip2.7", "pmv": "/usr/local/bin/pmv", "prepare_ligand4.py": "/usr/local/bin/prepare_ligand4.py", "prepare_receptor4.py": "/usr/local/bin/prepare_receptor4.py", "prody": "/usr/local/bin/prody", "pythonsh": "/usr/local/bin/pythonsh", "raccoon": "/usr/local/bin/raccoon", "radical-utils-fix-headers.pl": "/usr/local/bin/radical-utils-fix-headers.pl", "radical-utils-mongodb.py": "/usr/local/bin/radical-utils-mongodb.py", "radical-utils-pylint.sh": "/usr/local/bin/radical-utils-pylint.sh", "radical-utils-version": "/usr/local/bin/radical-utils-version", "runAdt": "/usr/local/bin/runAdt", "sagapython-version": "/usr/local/bin/sagapython-version", "tester": "/usr/local/bin/tester", "vision": "/usr/local/bin/vision", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgltools.
@@ -239,6 +241,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ipengine   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/ipengine2
 $ podman run --it --rm --entrypoint /usr/local/bin/ipengine2   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ipengine2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### iptest2
+
+```bash
+$ singularity exec <container> /usr/local/bin/iptest2
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython2
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython2
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -557,93 +577,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vision   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### cygdb
-
-```bash
-$ singularity exec <container> /usr/local/bin/cygdb
-$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cython
-
-```bash
-$ singularity exec <container> /usr/local/bin/cython
-$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cythonize
-
-```bash
-$ singularity exec <container> /usr/local/bin/cythonize
-$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### easy_install-2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/easy_install-2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### iptest
-
-```bash
-$ singularity exec <container> /usr/local/bin/iptest
-$ podman run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### iptest2
-
-```bash
-$ singularity exec <container> /usr/local/bin/iptest2
-$ podman run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ipython
-
-```bash
-$ singularity exec <container> /usr/local/bin/ipython
-$ podman run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ipython2
-
-```bash
-$ singularity exec <container> /usr/local/bin/ipython2
-$ podman run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### obabel
 
 ```bash
 $ singularity exec <container> /usr/local/bin/obabel
 $ podman run --it --rm --entrypoint /usr/local/bin/obabel   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/obabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obconformer
+
+```bash
+$ singularity exec <container> /usr/local/bin/obconformer
+$ podman run --it --rm --entrypoint /usr/local/bin/obconformer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obconformer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obdistgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/obdistgen
+$ podman run --it --rm --entrypoint /usr/local/bin/obdistgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obdistgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obenergy
+
+```bash
+$ singularity exec <container> /usr/local/bin/obenergy
+$ podman run --it --rm --entrypoint /usr/local/bin/obenergy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obenergy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obfit
+
+```bash
+$ singularity exec <container> /usr/local/bin/obfit
+$ podman run --it --rm --entrypoint /usr/local/bin/obfit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obfit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/obgen
+$ podman run --it --rm --entrypoint /usr/local/bin/obgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/obgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/obgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obminimize
+
+```bash
+$ singularity exec <container> /usr/local/bin/obminimize
+$ podman run --it --rm --entrypoint /usr/local/bin/obminimize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obminimize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obprobe
+
+```bash
+$ singularity exec <container> /usr/local/bin/obprobe
+$ podman run --it --rm --entrypoint /usr/local/bin/obprobe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obprobe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obprop
+
+```bash
+$ singularity exec <container> /usr/local/bin/obprop
+$ podman run --it --rm --entrypoint /usr/local/bin/obprop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obprop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

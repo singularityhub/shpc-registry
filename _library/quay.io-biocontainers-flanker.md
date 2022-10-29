@@ -4,25 +4,27 @@ name:  "quay.io/biocontainers/flanker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flanker/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/flanker/container.yaml"
-updated_at: "2022-10-29 05:36:24.607249"
+updated_at: "2022-10-29 07:40:30.636021"
 latest: "0.1.5--py_0"
 container_url: "https://biocontainers.pro/tools/flanker"
 aliases:
- - "flanker"
- - "2to3-3.7"
- - "CA.pm"
- - "SOAPsh.pl"
  - "abricate"
  - "abricate-get_db"
- - "accn-at-a-time"
- - "ace.pl"
- - "acyclic"
- - "amino-acid-composition"
- - "annotate"
+ - "flanker"
+ - "any2fasta"
+ - "funzip"
+ - "unzipsfx"
+ - "zipgrep"
+ - "zipinfo"
+ - "unzip"
+ - "capnp"
+ - "capnpc"
+ - "capnpc-c++"
+ - "capnpc-capnp"
 versions:
  - "0.1.5--py_0"
 description: "shpc-registry automated BioContainers addition for flanker"
-config: {"url": "https://biocontainers.pro/tools/flanker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flanker", "latest": {"0.1.5--py_0": "sha256:9bdedadf71d11b3003d0e406a27f23becb944c803aa52fd732ad5beaf608aa89"}, "tags": {"0.1.5--py_0": "sha256:9bdedadf71d11b3003d0e406a27f23becb944c803aa52fd732ad5beaf608aa89"}, "docker": "quay.io/biocontainers/flanker", "aliases": {"flanker": "/usr/local/bin/flanker", "2to3-3.7": "/usr/local/bin/2to3-3.7", "CA.pm": "/usr/local/bin/CA.pm", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate"}}
+config: {"url": "https://biocontainers.pro/tools/flanker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flanker", "latest": {"0.1.5--py_0": "sha256:9bdedadf71d11b3003d0e406a27f23becb944c803aa52fd732ad5beaf608aa89"}, "tags": {"0.1.5--py_0": "sha256:9bdedadf71d11b3003d0e406a27f23becb944c803aa52fd732ad5beaf608aa89"}, "docker": "quay.io/biocontainers/flanker", "aliases": {"abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "flanker": "/usr/local/bin/flanker", "any2fasta": "/usr/local/bin/any2fasta", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flanker.
@@ -108,42 +110,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### flanker
-
-```bash
-$ singularity exec <container> /usr/local/bin/flanker
-$ podman run --it --rm --entrypoint /usr/local/bin/flanker   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/flanker   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### CA.pm
-
-```bash
-$ singularity exec <container> /usr/local/bin/CA.pm
-$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### SOAPsh.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### abricate
 
 ```bash
@@ -162,48 +128,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/abricate-get_db   -v ${PWD} -
 ```
 
 
-#### accn-at-a-time
+#### flanker
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flanker
+$ podman run --it --rm --entrypoint /usr/local/bin/flanker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flanker   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace.pl
+#### any2fasta
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/any2fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/any2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/any2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### funzip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/funzip
+$ podman run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### unzipsfx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unzipsfx
+$ podman run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### zipgrep
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zipgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zipinfo
+
+```bash
+$ singularity exec <container> /usr/local/bin/zipinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/unzip
+$ podman run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-c++
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

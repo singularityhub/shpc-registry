@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-monocle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-monocle/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-monocle/container.yaml"
-updated_at: "2022-10-29 05:31:25.436268"
+updated_at: "2022-10-29 07:36:51.348438"
 latest: "2.8.0--r341hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-monocle"
 aliases:
+ - "wget"
  - "ncurses5-config"
  - "ncursesw5-config"
- - "wget"
 versions:
  - "2.8.0--r341hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-monocle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-monocle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-monocle", "latest": {"2.8.0--r341hfc679d8_0": "sha256:a351da663530d44884ecb005cf40003b01a99da5b431fae7388753a04698e31b"}, "tags": {"2.8.0--r341hfc679d8_0": "sha256:a351da663530d44884ecb005cf40003b01a99da5b431fae7388753a04698e31b"}, "docker": "quay.io/biocontainers/bioconductor-monocle", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-monocle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-monocle", "latest": {"2.8.0--r341hfc679d8_0": "sha256:a351da663530d44884ecb005cf40003b01a99da5b431fae7388753a04698e31b"}, "tags": {"2.8.0--r341hfc679d8_0": "sha256:a351da663530d44884ecb005cf40003b01a99da5b431fae7388753a04698e31b"}, "docker": "quay.io/biocontainers/bioconductor-monocle", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-monocle.
@@ -100,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ncurses5-config
 
 ```bash
@@ -115,15 +124,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/ncursesw5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

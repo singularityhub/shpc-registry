@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-atlas-modules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-atlas-modules/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-atlas-modules/container.yaml"
-updated_at: "2022-10-29 05:39:54.661745"
+updated_at: "2022-10-29 07:43:05.212152"
 latest: "0.3.1--pl5262h87f3376_3"
 container_url: "https://biocontainers.pro/tools/perl-atlas-modules"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "dm_date"
  - "dm_zdump"
  - "validjson"
- - "2to3-3.10"
- - "acyclic"
- - "annotate"
- - "bcomps"
- - "bdftogd"
- - "ccomps"
- - "circo"
- - "cluster"
- - "clusterdb"
- - "config_data"
+ - "pg_amcheck"
+ - "pod_cover"
+ - "pg_verifybackup"
+ - "pg_checksums"
+ - "findrule"
+ - "tzselect"
+ - "zdump"
+ - "zic"
+ - "oid2name"
+ - "pg_receivewal"
 versions:
  - "0.3.1--pl5262h87f3376_3"
 description: "shpc-registry automated BioContainers addition for perl-atlas-modules"
-config: {"url": "https://biocontainers.pro/tools/perl-atlas-modules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-atlas-modules", "latest": {"0.3.1--pl5262h87f3376_3": "sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de"}, "tags": {"0.3.1--pl5262h87f3376_3": "sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de"}, "docker": "quay.io/biocontainers/perl-atlas-modules", "aliases": {"crc32": "/usr/local/bin/crc32", "dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "validjson": "/usr/local/bin/validjson", "2to3-3.10": "/usr/local/bin/2to3-3.10", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "clusterdb": "/usr/local/bin/clusterdb", "config_data": "/usr/local/bin/config_data"}}
+config: {"url": "https://biocontainers.pro/tools/perl-atlas-modules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-atlas-modules", "latest": {"0.3.1--pl5262h87f3376_3": "sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de"}, "tags": {"0.3.1--pl5262h87f3376_3": "sha256:36423ff98bcd6b1ee25252f3fc42c7d2312cbadc8629ecd5045120ac1eceb5de"}, "docker": "quay.io/biocontainers/perl-atlas-modules", "aliases": {"crc32": "/usr/local/bin/crc32", "dm_date": "/usr/local/bin/dm_date", "dm_zdump": "/usr/local/bin/dm_zdump", "validjson": "/usr/local/bin/validjson", "pg_amcheck": "/usr/local/bin/pg_amcheck", "pod_cover": "/usr/local/bin/pod_cover", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pg_checksums": "/usr/local/bin/pg_checksums", "findrule": "/usr/local/bin/findrule", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-atlas-modules.
@@ -147,93 +147,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/validjson   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
+#### pg_amcheck
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_amcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_amcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_amcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### pod_cover
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pod_cover
+$ podman run --it --rm --entrypoint /usr/local/bin/pod_cover   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pod_cover   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### pg_verifybackup
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_verifybackup
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_verifybackup   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_verifybackup   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### pg_checksums
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_checksums
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_checksums   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_checksums   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### findrule
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/findrule
+$ podman run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### tzselect
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tzselect
+$ podman run --it --rm --entrypoint /usr/local/bin/tzselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tzselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### circo
+#### zdump
 
 ```bash
-$ singularity exec <container> /usr/local/bin/circo
-$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zdump
+$ podman run --it --rm --entrypoint /usr/local/bin/zdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zdump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cluster
+#### zic
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cluster
-$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zic
+$ podman run --it --rm --entrypoint /usr/local/bin/zic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### clusterdb
+#### oid2name
 
 ```bash
-$ singularity exec <container> /usr/local/bin/clusterdb
-$ podman run --it --rm --entrypoint /usr/local/bin/clusterdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/clusterdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/oid2name
+$ podman run --it --rm --entrypoint /usr/local/bin/oid2name   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/oid2name   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### config_data
+#### pg_receivewal
 
 ```bash
-$ singularity exec <container> /usr/local/bin/config_data
-$ podman run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_receivewal
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_receivewal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_receivewal   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

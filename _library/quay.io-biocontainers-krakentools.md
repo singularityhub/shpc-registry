@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/krakentools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakentools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/krakentools/container.yaml"
-updated_at: "2022-10-29 05:33:27.115822"
+updated_at: "2022-10-29 07:38:20.530901"
 latest: "1.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/krakentools"
 aliases:
@@ -19,8 +19,8 @@ aliases:
  - "kreport2mpa.py"
  - "make_kreport.py"
  - "make_ktaxonomy.py"
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -28,7 +28,7 @@ aliases:
 versions:
  - "1.2--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for krakentools"
-config: {"url": "https://biocontainers.pro/tools/krakentools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakentools", "latest": {"1.2--pyh5e36f6f_0": "sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2"}, "tags": {"1.2--pyh5e36f6f_0": "sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2"}, "docker": "quay.io/biocontainers/krakentools", "aliases": {"alpha_diversity.py": "/usr/local/bin/alpha_diversity.py", "beta_diversity.py": "/usr/local/bin/beta_diversity.py", "combine_kreports.py": "/usr/local/bin/combine_kreports.py", "combine_mpa.py": "/usr/local/bin/combine_mpa.py", "extract_kraken_reads.py": "/usr/local/bin/extract_kraken_reads.py", "filter_bracken.out.py": "/usr/local/bin/filter_bracken.out.py", "fix_unmapped.py": "/usr/local/bin/fix_unmapped.py", "kreport2krona.py": "/usr/local/bin/kreport2krona.py", "kreport2mpa.py": "/usr/local/bin/kreport2mpa.py", "make_kreport.py": "/usr/local/bin/make_kreport.py", "make_ktaxonomy.py": "/usr/local/bin/make_ktaxonomy.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/krakentools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakentools", "latest": {"1.2--pyh5e36f6f_0": "sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2"}, "tags": {"1.2--pyh5e36f6f_0": "sha256:d37b812d36072f812eb2f4148f5045bb0ed95897248324d540ef7c3be89d72d2"}, "docker": "quay.io/biocontainers/krakentools", "aliases": {"alpha_diversity.py": "/usr/local/bin/alpha_diversity.py", "beta_diversity.py": "/usr/local/bin/beta_diversity.py", "combine_kreports.py": "/usr/local/bin/combine_kreports.py", "combine_mpa.py": "/usr/local/bin/combine_mpa.py", "extract_kraken_reads.py": "/usr/local/bin/extract_kraken_reads.py", "filter_bracken.out.py": "/usr/local/bin/filter_bracken.out.py", "fix_unmapped.py": "/usr/local/bin/fix_unmapped.py", "kreport2krona.py": "/usr/local/bin/kreport2krona.py", "kreport2mpa.py": "/usr/local/bin/kreport2mpa.py", "make_kreport.py": "/usr/local/bin/make_kreport.py", "make_ktaxonomy.py": "/usr/local/bin/make_ktaxonomy.py", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krakentools.
@@ -213,21 +213,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/make_ktaxonomy.py   -v ${PWD}
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

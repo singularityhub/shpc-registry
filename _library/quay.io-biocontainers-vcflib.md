@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/vcflib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcflib/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vcflib/container.yaml"
-updated_at: "2022-10-29 05:51:17.480416"
+updated_at: "2022-10-29 07:51:29.855930"
 latest: "1.0.3--ha04fe3b_2"
 container_url: "https://biocontainers.pro/tools/vcflib"
 aliases:
- - "2to3-3.10"
- - "abba-baba"
- - "ace2sam"
- - "bFst"
+ - "tabix++"
  - "bc"
+ - "dc"
+ - "abba-baba"
+ - "bFst"
  - "bed2region"
- - "bgzip"
  - "bgziptabix"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
+ - "dumpContigsFromHeader"
+ - "genotypeSummary"
+ - "hapLrt"
 versions:
  - "1.0.3--ha04fe3b_2"
 description: "shpc-registry automated BioContainers addition for vcflib"
-config: {"url": "https://biocontainers.pro/tools/vcflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcflib", "latest": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "tags": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "docker": "quay.io/biocontainers/vcflib", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "abba-baba": "/usr/local/bin/abba-baba", "ace2sam": "/usr/local/bin/ace2sam", "bFst": "/usr/local/bin/bFst", "bc": "/usr/local/bin/bc", "bed2region": "/usr/local/bin/bed2region", "bgzip": "/usr/local/bin/bgzip", "bgziptabix": "/usr/local/bin/bgziptabix", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/vcflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcflib", "latest": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "tags": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "docker": "quay.io/biocontainers/vcflib", "aliases": {"tabix++": "/usr/local/bin/tabix++", "bc": "/usr/local/bin/bc", "dc": "/usr/local/bin/dc", "abba-baba": "/usr/local/bin/abba-baba", "bFst": "/usr/local/bin/bFst", "bed2region": "/usr/local/bin/bed2region", "bgziptabix": "/usr/local/bin/bgziptabix", "dumpContigsFromHeader": "/usr/local/bin/dumpContigsFromHeader", "genotypeSummary": "/usr/local/bin/genotypeSummary", "hapLrt": "/usr/local/bin/hapLrt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcflib.
@@ -107,39 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### tabix++
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### abba-baba
-
-```bash
-$ singularity exec <container> /usr/local/bin/abba-baba
-$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bFst
-
-```bash
-$ singularity exec <container> /usr/local/bin/bFst
-$ podman run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabix++
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix++   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -152,21 +125,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bc   -v ${PWD} -w ${PWD} <con
 ```
 
 
+#### dc
+
+```bash
+$ singularity exec <container> /usr/local/bin/dc
+$ podman run --it --rm --entrypoint /usr/local/bin/dc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abba-baba
+
+```bash
+$ singularity exec <container> /usr/local/bin/abba-baba
+$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bFst
+
+```bash
+$ singularity exec <container> /usr/local/bin/bFst
+$ podman run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bed2region
 
 ```bash
 $ singularity exec <container> /usr/local/bin/bed2region
 $ podman run --it --rm --entrypoint /usr/local/bin/bed2region   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bed2region   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -179,21 +170,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bgziptabix   -v ${PWD} -w ${P
 ```
 
 
-#### blast2sam.pl
+#### dumpContigsFromHeader
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dumpContigsFromHeader
+$ podman run --it --rm --entrypoint /usr/local/bin/dumpContigsFromHeader   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dumpContigsFromHeader   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### genotypeSummary
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/genotypeSummary
+$ podman run --it --rm --entrypoint /usr/local/bin/genotypeSummary   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/genotypeSummary   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hapLrt
+
+```bash
+$ singularity exec <container> /usr/local/bin/hapLrt
+$ podman run --it --rm --entrypoint /usr/local/bin/hapLrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hapLrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

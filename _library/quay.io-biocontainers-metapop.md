@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metapop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metapop/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metapop/container.yaml"
-updated_at: "2022-10-29 05:57:25.785675"
+updated_at: "2022-10-29 07:55:58.090924"
 latest: "1.0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metapop"
 aliases:
@@ -18,20 +18,20 @@ aliases:
  - "MetaPop_Mine_Reads.R"
  - "MetaPop_Preprocess.R"
  - "MetaPop_Preprocessing_Summaries.R"
- - "ace2sam"
- - "bcftools"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "color-chrs.pl"
- - "export2sam.pl"
- - "fasta-sanitize.pl"
  - "gff2gff.py"
  - "guess-ploidy.py"
+ - "plot-roh.py"
+ - "run-roh.pl"
+ - "color-chrs.pl"
+ - "plot-vcfstats"
+ - "bcftools"
+ - "vcfutils.pl"
+ - "fasta-sanitize.pl"
+ - "plot-ampliconstats"
 versions:
  - "1.0.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for metapop"
-config: {"url": "https://biocontainers.pro/tools/metapop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metapop", "latest": {"1.0.2--hdfd78af_1": "sha256:b670034d0fe0d3cfac8ce98d0834dd30fa8834243c98ea871485a3608ae2c03c"}, "tags": {"1.0.2--hdfd78af_1": "sha256:b670034d0fe0d3cfac8ce98d0834dd30fa8834243c98ea871485a3608ae2c03c"}, "docker": "quay.io/biocontainers/metapop", "aliases": {"MetaPop.R": "/usr/local/bin/MetaPop.R", "MetaPop_Call_SNPs.R": "/usr/local/bin/MetaPop_Call_SNPs.R", "MetaPop_Codon_Bias_Separate.R": "/usr/local/bin/MetaPop_Codon_Bias_Separate.R", "MetaPop_Codon_Bias_Viz.R": "/usr/local/bin/MetaPop_Codon_Bias_Viz.R", "MetaPop_Macrodiversity.R": "/usr/local/bin/MetaPop_Macrodiversity.R", "MetaPop_Microdiversity.R": "/usr/local/bin/MetaPop_Microdiversity.R", "MetaPop_Microdiversity_Visualizations.R": "/usr/local/bin/MetaPop_Microdiversity_Visualizations.R", "MetaPop_Mine_Reads.R": "/usr/local/bin/MetaPop_Mine_Reads.R", "MetaPop_Preprocess.R": "/usr/local/bin/MetaPop_Preprocess.R", "MetaPop_Preprocessing_Summaries.R": "/usr/local/bin/MetaPop_Preprocessing_Summaries.R", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
+config: {"url": "https://biocontainers.pro/tools/metapop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metapop", "latest": {"1.0.2--hdfd78af_1": "sha256:b670034d0fe0d3cfac8ce98d0834dd30fa8834243c98ea871485a3608ae2c03c"}, "tags": {"1.0.2--hdfd78af_1": "sha256:b670034d0fe0d3cfac8ce98d0834dd30fa8834243c98ea871485a3608ae2c03c"}, "docker": "quay.io/biocontainers/metapop", "aliases": {"MetaPop.R": "/usr/local/bin/MetaPop.R", "MetaPop_Call_SNPs.R": "/usr/local/bin/MetaPop_Call_SNPs.R", "MetaPop_Codon_Bias_Separate.R": "/usr/local/bin/MetaPop_Codon_Bias_Separate.R", "MetaPop_Codon_Bias_Viz.R": "/usr/local/bin/MetaPop_Codon_Bias_Viz.R", "MetaPop_Macrodiversity.R": "/usr/local/bin/MetaPop_Macrodiversity.R", "MetaPop_Microdiversity.R": "/usr/local/bin/MetaPop_Microdiversity.R", "MetaPop_Microdiversity_Visualizations.R": "/usr/local/bin/MetaPop_Microdiversity_Visualizations.R", "MetaPop_Mine_Reads.R": "/usr/local/bin/MetaPop_Mine_Reads.R", "MetaPop_Preprocess.R": "/usr/local/bin/MetaPop_Preprocess.R", "MetaPop_Preprocessing_Summaries.R": "/usr/local/bin/MetaPop_Preprocessing_Summaries.R", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metapop.
@@ -207,78 +207,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/MetaPop_Preprocessing_Summari
 ```
 
 
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bcftools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### color-chrs.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/color-chrs.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### export2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fasta-sanitize.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gff2gff.py
 
 ```bash
@@ -294,6 +222,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/guess-ploidy.py
 $ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-roh.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-roh.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run-roh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/run-roh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-vcfstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-vcfstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcfutils.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcfutils.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-ampliconstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

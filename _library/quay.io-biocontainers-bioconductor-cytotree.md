@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/bioconductor-cytotree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytotree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytotree/container.yaml"
-updated_at: "2022-10-29 05:30:05.659550"
+updated_at: "2022-10-29 07:35:52.572347"
 latest: "1.0.3--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytotree"
 aliases:
- - "2to3-3.9"
- - "f2py3.9"
- - "idle3.9"
  - "pandoc"
+ - "f2py3.9"
+ - "2to3-3.9"
+ - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "1.0.3--r40h399db7b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytotree"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytotree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytotree", "latest": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "tags": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "docker": "quay.io/biocontainers/bioconductor-cytotree", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pandoc": "/usr/local/bin/pandoc", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytotree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytotree", "latest": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "tags": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "docker": "quay.io/biocontainers/bioconductor-cytotree", "aliases": {"pandoc": "/usr/local/bin/pandoc", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytotree.
@@ -105,12 +105,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
+#### pandoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -123,21 +123,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pandoc
-
-```bash
-$ singularity exec <container> /usr/local/bin/pandoc
-$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

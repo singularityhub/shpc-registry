@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tetranscripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tetranscripts/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tetranscripts/container.yaml"
-updated_at: "2022-10-29 05:50:45.506920"
+updated_at: "2022-10-29 07:51:06.319630"
 latest: "2.2.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/tetranscripts"
 aliases:
@@ -18,10 +18,12 @@ aliases:
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
+ - "pyvenv"
+ - "c89"
 versions:
  - "2.2.1--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for tetranscripts"
-config: {"url": "https://biocontainers.pro/tools/tetranscripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetranscripts", "latest": {"2.2.1--pyh864c0ab_1": "sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7"}, "tags": {"2.2.1--pyh864c0ab_1": "sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7"}, "docker": "quay.io/biocontainers/tetranscripts", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/tetranscripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tetranscripts", "latest": {"2.2.1--pyh864c0ab_1": "sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7"}, "tags": {"2.2.1--pyh864c0ab_1": "sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7"}, "docker": "quay.io/biocontainers/tetranscripts", "aliases": {"TEcount": "/usr/local/bin/TEcount", "TEtranscripts": "/usr/local/bin/TEtranscripts", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv", "c89": "/usr/local/bin/c89"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tetranscripts.
@@ -194,6 +196,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

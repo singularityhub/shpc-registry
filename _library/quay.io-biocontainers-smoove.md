@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smoove"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smoove/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/smoove/container.yaml"
-updated_at: "2022-10-29 05:46:14.249043"
+updated_at: "2022-10-29 07:47:46.519003"
 latest: "0.2.8--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/smoove"
 aliases:
@@ -13,12 +13,18 @@ aliases:
  - "duphold"
  - "extractSplitReads_BwaMem"
  - "gsort"
+ - "ldc-build-runtime"
+ - "ldc-profdata"
+ - "ldc-prune-cache"
+ - "ldc2"
+ - "ldmd2"
  - "lib_stats.R"
  - "lumpy"
  - "lumpy_filter"
  - "lumpyexpress"
  - "mosdepth"
  - "samblaster"
+ - "scriptlive"
  - "smoove"
  - "sv_classifier.py"
  - "svtools"
@@ -29,20 +35,20 @@ aliases:
  - "vcf_group_multiline.py"
  - "vcf_modify_header.py"
  - "vcf_paste.py"
- - "ace2sam"
- - "awk"
- - "bcftools"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
  - "cal"
  - "chmem"
  - "choom"
  - "chrt"
+ - "col"
+ - "colcrt"
+ - "colrm"
+ - "column"
+ - "dmesg"
+ - "eject"
 versions:
  - "0.2.8--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for smoove"
-config: {"url": "https://biocontainers.pro/tools/smoove", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smoove", "latest": {"0.2.8--h9ee0642_1": "sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8"}, "tags": {"0.2.8--h9ee0642_1": "sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8"}, "docker": "quay.io/biocontainers/smoove", "aliases": {"cnvanator_to_bedpes.py": "/usr/local/bin/cnvanator_to_bedpes.py", "create_coordinates": "/usr/local/bin/create_coordinates", "duphold": "/usr/local/bin/duphold", "extractSplitReads_BwaMem": "/usr/local/bin/extractSplitReads_BwaMem", "gsort": "/usr/local/bin/gsort", "lib_stats.R": "/usr/local/bin/lib_stats.R", "lumpy": "/usr/local/bin/lumpy", "lumpy_filter": "/usr/local/bin/lumpy_filter", "lumpyexpress": "/usr/local/bin/lumpyexpress", "mosdepth": "/usr/local/bin/mosdepth", "samblaster": "/usr/local/bin/samblaster", "smoove": "/usr/local/bin/smoove", "sv_classifier.py": "/usr/local/bin/sv_classifier.py", "svtools": "/usr/local/bin/svtools", "svtyper": "/usr/local/bin/svtyper", "svtyper-sso": "/usr/local/bin/svtyper-sso", "update_info.py": "/usr/local/bin/update_info.py", "vcf_allele_freq.py": "/usr/local/bin/vcf_allele_freq.py", "vcf_group_multiline.py": "/usr/local/bin/vcf_group_multiline.py", "vcf_modify_header.py": "/usr/local/bin/vcf_modify_header.py", "vcf_paste.py": "/usr/local/bin/vcf_paste.py", "ace2sam": "/usr/local/bin/ace2sam", "awk": "/usr/local/bin/awk", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt"}}
+config: {"url": "https://biocontainers.pro/tools/smoove", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for smoove", "latest": {"0.2.8--h9ee0642_1": "sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8"}, "tags": {"0.2.8--h9ee0642_1": "sha256:846950fdbc767f476fc563d9488a228933552fc5534011eb1f9c0987722165c8"}, "docker": "quay.io/biocontainers/smoove", "aliases": {"cnvanator_to_bedpes.py": "/usr/local/bin/cnvanator_to_bedpes.py", "create_coordinates": "/usr/local/bin/create_coordinates", "duphold": "/usr/local/bin/duphold", "extractSplitReads_BwaMem": "/usr/local/bin/extractSplitReads_BwaMem", "gsort": "/usr/local/bin/gsort", "ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "lib_stats.R": "/usr/local/bin/lib_stats.R", "lumpy": "/usr/local/bin/lumpy", "lumpy_filter": "/usr/local/bin/lumpy_filter", "lumpyexpress": "/usr/local/bin/lumpyexpress", "mosdepth": "/usr/local/bin/mosdepth", "samblaster": "/usr/local/bin/samblaster", "scriptlive": "/usr/local/bin/scriptlive", "smoove": "/usr/local/bin/smoove", "sv_classifier.py": "/usr/local/bin/sv_classifier.py", "svtools": "/usr/local/bin/svtools", "svtyper": "/usr/local/bin/svtyper", "svtyper-sso": "/usr/local/bin/svtyper-sso", "update_info.py": "/usr/local/bin/update_info.py", "vcf_allele_freq.py": "/usr/local/bin/vcf_allele_freq.py", "vcf_group_multiline.py": "/usr/local/bin/vcf_group_multiline.py", "vcf_modify_header.py": "/usr/local/bin/vcf_modify_header.py", "vcf_paste.py": "/usr/local/bin/vcf_paste.py", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/smoove.
@@ -173,6 +179,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gsort   -v ${PWD} -w ${PWD} <
 ```
 
 
+#### ldc-build-runtime
+
+```bash
+$ singularity exec <container> /usr/local/bin/ldc-build-runtime
+$ podman run --it --rm --entrypoint /usr/local/bin/ldc-build-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ldc-build-runtime   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ldc-profdata
+
+```bash
+$ singularity exec <container> /usr/local/bin/ldc-profdata
+$ podman run --it --rm --entrypoint /usr/local/bin/ldc-profdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ldc-profdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ldc-prune-cache
+
+```bash
+$ singularity exec <container> /usr/local/bin/ldc-prune-cache
+$ podman run --it --rm --entrypoint /usr/local/bin/ldc-prune-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ldc-prune-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ldc2
+
+```bash
+$ singularity exec <container> /usr/local/bin/ldc2
+$ podman run --it --rm --entrypoint /usr/local/bin/ldc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ldc2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ldmd2
+
+```bash
+$ singularity exec <container> /usr/local/bin/ldmd2
+$ podman run --it --rm --entrypoint /usr/local/bin/ldmd2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ldmd2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### lib_stats.R
 
 ```bash
@@ -224,6 +275,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mosdepth   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/samblaster
 $ podman run --it --rm --entrypoint /usr/local/bin/samblaster   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/samblaster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scriptlive
+
+```bash
+$ singularity exec <container> /usr/local/bin/scriptlive
+$ podman run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -317,60 +377,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcf_paste.py   -v ${PWD} -w $
 ```
 
 
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### awk
-
-```bash
-$ singularity exec <container> /usr/local/bin/awk
-$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bcftools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cal
 
 ```bash
@@ -404,6 +410,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/choom   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/chrt
 $ podman run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### col
+
+```bash
+$ singularity exec <container> /usr/local/bin/col
+$ podman run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### colcrt
+
+```bash
+$ singularity exec <container> /usr/local/bin/colcrt
+$ podman run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### colrm
+
+```bash
+$ singularity exec <container> /usr/local/bin/colrm
+$ podman run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### column
+
+```bash
+$ singularity exec <container> /usr/local/bin/column
+$ podman run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dmesg
+
+```bash
+$ singularity exec <container> /usr/local/bin/dmesg
+$ podman run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### eject
+
+```bash
+$ singularity exec <container> /usr/local/bin/eject
+$ podman run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

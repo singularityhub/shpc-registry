@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/solvebio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/solvebio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/solvebio/container.yaml"
-updated_at: "2022-10-29 05:37:16.115918"
+updated_at: "2022-10-29 07:41:08.667864"
 latest: "2.9.0--py_0"
 container_url: "https://biocontainers.pro/tools/solvebio"
 aliases:
  - "solvebio"
- - "2to3-3.8"
  - "chardetect"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "2.9.0--py_0"
 description: "shpc-registry automated BioContainers addition for solvebio"
-config: {"url": "https://biocontainers.pro/tools/solvebio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for solvebio", "latest": {"2.9.0--py_0": "sha256:259ebad4ec983aeb94bb0f009e12bbfb61aa30370238862a362db1e1214edad4"}, "tags": {"2.9.0--py_0": "sha256:259ebad4ec983aeb94bb0f009e12bbfb61aa30370238862a362db1e1214edad4"}, "docker": "quay.io/biocontainers/solvebio", "aliases": {"solvebio": "/usr/local/bin/solvebio", "2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/solvebio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for solvebio", "latest": {"2.9.0--py_0": "sha256:259ebad4ec983aeb94bb0f009e12bbfb61aa30370238862a362db1e1214edad4"}, "tags": {"2.9.0--py_0": "sha256:259ebad4ec983aeb94bb0f009e12bbfb61aa30370238862a362db1e1214edad4"}, "docker": "quay.io/biocontainers/solvebio", "aliases": {"solvebio": "/usr/local/bin/solvebio", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/solvebio.
@@ -113,21 +113,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/solvebio   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### chardetect
 
 ```bash
 $ singularity exec <container> /usr/local/bin/chardetect
 $ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

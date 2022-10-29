@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/metachip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metachip/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metachip/container.yaml"
-updated_at: "2022-10-29 05:56:16.115439"
+updated_at: "2022-10-29 07:55:07.742173"
 latest: "1.10.9--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/metachip"
 aliases:
  - "MetaCHIP"
- - "2to3-3.8"
- - "FastTree"
  - "FastTree-2.1.10.c"
+ - "ete3"
  - "FastTreeMP"
- - "accn-at-a-time"
- - "align-columns"
- - "alimask"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "aserver"
+ - "FastTree"
+ - "fasttree"
+ - "xkbcli"
+ - "mafft-sparsecore.rb"
+ - "einsi"
+ - "fftns"
+ - "fftnsi"
 versions:
  - "1.10.9--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for metachip"
-config: {"url": "https://biocontainers.pro/tools/metachip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metachip", "latest": {"1.10.9--pyh5e36f6f_0": "sha256:82cf7e556b9a4453582fcbcc366841436e3a9ebcfa7e72de87617995c83da413"}, "tags": {"1.10.9--pyh5e36f6f_0": "sha256:82cf7e556b9a4453582fcbcc366841436e3a9ebcfa7e72de87617995c83da413"}, "docker": "quay.io/biocontainers/metachip", "aliases": {"MetaCHIP": "/usr/local/bin/MetaCHIP", "2to3-3.8": "/usr/local/bin/2to3-3.8", "FastTree": "/usr/local/bin/FastTree", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver"}}
+config: {"url": "https://biocontainers.pro/tools/metachip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metachip", "latest": {"1.10.9--pyh5e36f6f_0": "sha256:82cf7e556b9a4453582fcbcc366841436e3a9ebcfa7e72de87617995c83da413"}, "tags": {"1.10.9--pyh5e36f6f_0": "sha256:82cf7e556b9a4453582fcbcc366841436e3a9ebcfa7e72de87617995c83da413"}, "docker": "quay.io/biocontainers/metachip", "aliases": {"MetaCHIP": "/usr/local/bin/MetaCHIP", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "ete3": "/usr/local/bin/ete3", "FastTreeMP": "/usr/local/bin/FastTreeMP", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "xkbcli": "/usr/local/bin/xkbcli", "mafft-sparsecore.rb": "/usr/local/bin/mafft-sparsecore.rb", "einsi": "/usr/local/bin/einsi", "fftns": "/usr/local/bin/fftns", "fftnsi": "/usr/local/bin/fftnsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metachip.
@@ -117,30 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/MetaCHIP   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### FastTree
-
-```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### FastTree-2.1.10.c
 
 ```bash
 $ singularity exec <container> /usr/local/bin/FastTree-2.1.10.c
 $ podman run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ete3
+
+```bash
+$ singularity exec <container> /usr/local/bin/ete3
+$ podman run --it --rm --entrypoint /usr/local/bin/ete3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ete3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -153,57 +144,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${P
 ```
 
 
-#### accn-at-a-time
+#### FastTree
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/FastTree
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### fasttree
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fasttree
+$ podman run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### xkbcli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xkbcli
+$ podman run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### mafft-sparsecore.rb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mafft-sparsecore.rb
+$ podman run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mafft-sparsecore.rb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### einsi
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/einsi
+$ podman run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### fftns
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fftns
+$ podman run --it --rm --entrypoint /usr/local/bin/fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftnsi
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftnsi
+$ podman run --it --rm --entrypoint /usr/local/bin/fftnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftnsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

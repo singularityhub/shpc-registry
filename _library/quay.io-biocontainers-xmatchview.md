@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xmatchview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmatchview/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xmatchview/container.yaml"
-updated_at: "2022-10-29 05:45:01.105454"
+updated_at: "2022-10-29 07:46:52.843972"
 latest: "v1.1.1--py_0"
 container_url: "https://biocontainers.pro/tools/xmatchview"
 aliases:
@@ -14,20 +14,20 @@ aliases:
  - "wtpt"
  - "xmatchview-conifer.py"
  - "xmatchview.py"
- - "idle"
  - "pilconvert.py"
  - "pildriver.py"
  - "pilfile.py"
  - "pilfont.py"
  - "pilprint.py"
- - "python-config"
- - "python2"
  - "python2-config"
+ - "python2.7-config"
+ - "python2"
  - "python2.7"
+ - "idle"
 versions:
  - "v1.1.1--py_0"
 description: "shpc-registry automated BioContainers addition for xmatchview"
-config: {"url": "https://biocontainers.pro/tools/xmatchview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmatchview", "latest": {"v1.1.1--py_0": "sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e"}, "tags": {"v1.1.1--py_0": "sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e"}, "docker": "quay.io/biocontainers/xmatchview", "aliases": {"icc2ps": "/usr/local/bin/icc2ps", "icclink": "/usr/local/bin/icclink", "icctrans": "/usr/local/bin/icctrans", "wtpt": "/usr/local/bin/wtpt", "xmatchview-conifer.py": "/usr/local/bin/xmatchview-conifer.py", "xmatchview.py": "/usr/local/bin/xmatchview.py", "idle": "/usr/local/bin/idle", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py", "pilfont.py": "/usr/local/bin/pilfont.py", "pilprint.py": "/usr/local/bin/pilprint.py", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/xmatchview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmatchview", "latest": {"v1.1.1--py_0": "sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e"}, "tags": {"v1.1.1--py_0": "sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e"}, "docker": "quay.io/biocontainers/xmatchview", "aliases": {"icc2ps": "/usr/local/bin/icc2ps", "icclink": "/usr/local/bin/icclink", "icctrans": "/usr/local/bin/icctrans", "wtpt": "/usr/local/bin/wtpt", "xmatchview-conifer.py": "/usr/local/bin/xmatchview-conifer.py", "xmatchview.py": "/usr/local/bin/xmatchview.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py", "pilfont.py": "/usr/local/bin/pilfont.py", "pilprint.py": "/usr/local/bin/pilprint.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xmatchview.
@@ -167,15 +167,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xmatchview.py   -v ${PWD} -w 
 ```
 
 
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pilconvert.py
 
 ```bash
@@ -221,12 +212,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pilprint.py   -v ${PWD} -w ${
 ```
 
 
-#### python-config
+#### python2-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -239,21 +239,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD}
 ```
 
 
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### python2.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/python2.7
 $ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

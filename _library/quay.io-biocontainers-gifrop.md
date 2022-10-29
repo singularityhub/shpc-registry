@@ -4,11 +4,13 @@ name:  "quay.io/biocontainers/gifrop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gifrop/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gifrop/container.yaml"
-updated_at: "2022-10-29 05:44:01.643220"
+updated_at: "2022-10-29 07:46:08.476909"
 latest: "0.0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gifrop"
 aliases:
  - "LICENSE"
+ - "abricate"
+ - "abricate-get_db"
  - "cluster_graphs.R"
  - "create_pan_genome"
  - "create_pan_genome_plots.R"
@@ -35,21 +37,23 @@ aliases:
  - "roary-query_pan_genome"
  - "roary-unique_genes_per_sample"
  - "submodule_test.R"
+ - "tbl2asn-test"
  - "transfer_annotation_to_groups"
- - "2to3-3.7"
- - "CA.pm"
- - "FET.pl"
- - "FastTree"
- - "FastTree-2.1.10.c"
- - "FastTreeMP"
- - "SOAPsh.pl"
- - "abricate"
- - "abricate-get_db"
- - "accn-at-a-time"
+ - "yapp"
+ - "fix-sqn-date"
+ - "prank"
+ - "faketime"
+ - "real-tbl2asn"
+ - "prokka-abricate_to_fasta_db"
+ - "any2fasta"
+ - "clm"
+ - "clmformat"
+ - "clxdo"
+ - "mcl"
 versions:
  - "0.0.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gifrop"
-config: {"url": "https://biocontainers.pro/tools/gifrop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gifrop", "latest": {"0.0.9--hdfd78af_0": "sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f"}, "tags": {"0.0.9--hdfd78af_0": "sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f"}, "docker": "quay.io/biocontainers/gifrop", "aliases": {"LICENSE": "/usr/local/bin/LICENSE", "cluster_graphs.R": "/usr/local/bin/cluster_graphs.R", "create_pan_genome": "/usr/local/bin/create_pan_genome", "create_pan_genome_plots.R": "/usr/local/bin/create_pan_genome_plots.R", "extract_proteome_from_gff": "/usr/local/bin/extract_proteome_from_gff", "gifrop": "/usr/local/bin/gifrop", "gifrop_R_reqs.R": "/usr/local/bin/gifrop_R_reqs.R", "gifrop_classify.R": "/usr/local/bin/gifrop_classify.R", "gifrop_cluster.R": "/usr/local/bin/gifrop_cluster.R", "gifrop_id.R": "/usr/local/bin/gifrop_id.R", "gifrop_pannotate.R": "/usr/local/bin/gifrop_pannotate.R", "gifrop_plots.R": "/usr/local/bin/gifrop_plots.R", "iterative_cdhit": "/usr/local/bin/iterative_cdhit", "pan_genome_assembly_statistics": "/usr/local/bin/pan_genome_assembly_statistics", "pan_genome_core_alignment": "/usr/local/bin/pan_genome_core_alignment", "pan_genome_post_analysis": "/usr/local/bin/pan_genome_post_analysis", "pan_genome_reorder_spreadsheet": "/usr/local/bin/pan_genome_reorder_spreadsheet", "pan_pipe": "/usr/local/bin/pan_pipe", "parallel_all_against_all_blastp": "/usr/local/bin/parallel_all_against_all_blastp", "protein_alignment_from_nucleotides": "/usr/local/bin/protein_alignment_from_nucleotides", "query_pan_genome": "/usr/local/bin/query_pan_genome", "roary": "/usr/local/bin/roary", "roary-create_pan_genome_plots.R": "/usr/local/bin/roary-create_pan_genome_plots.R", "roary-pan_genome_reorder_spreadsheet": "/usr/local/bin/roary-pan_genome_reorder_spreadsheet", "roary-query_pan_genome": "/usr/local/bin/roary-query_pan_genome", "roary-unique_genes_per_sample": "/usr/local/bin/roary-unique_genes_per_sample", "submodule_test.R": "/usr/local/bin/submodule_test.R", "transfer_annotation_to_groups": "/usr/local/bin/transfer_annotation_to_groups", "2to3-3.7": "/usr/local/bin/2to3-3.7", "CA.pm": "/usr/local/bin/CA.pm", "FET.pl": "/usr/local/bin/FET.pl", "FastTree": "/usr/local/bin/FastTree", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "accn-at-a-time": "/usr/local/bin/accn-at-a-time"}}
+config: {"url": "https://biocontainers.pro/tools/gifrop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gifrop", "latest": {"0.0.9--hdfd78af_0": "sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f"}, "tags": {"0.0.9--hdfd78af_0": "sha256:c23feca560501c93d3fc4f246644011a4d2445c507c1105bbaa275f9c83fd36f"}, "docker": "quay.io/biocontainers/gifrop", "aliases": {"LICENSE": "/usr/local/bin/LICENSE", "abricate": "/usr/local/bin/abricate", "abricate-get_db": "/usr/local/bin/abricate-get_db", "cluster_graphs.R": "/usr/local/bin/cluster_graphs.R", "create_pan_genome": "/usr/local/bin/create_pan_genome", "create_pan_genome_plots.R": "/usr/local/bin/create_pan_genome_plots.R", "extract_proteome_from_gff": "/usr/local/bin/extract_proteome_from_gff", "gifrop": "/usr/local/bin/gifrop", "gifrop_R_reqs.R": "/usr/local/bin/gifrop_R_reqs.R", "gifrop_classify.R": "/usr/local/bin/gifrop_classify.R", "gifrop_cluster.R": "/usr/local/bin/gifrop_cluster.R", "gifrop_id.R": "/usr/local/bin/gifrop_id.R", "gifrop_pannotate.R": "/usr/local/bin/gifrop_pannotate.R", "gifrop_plots.R": "/usr/local/bin/gifrop_plots.R", "iterative_cdhit": "/usr/local/bin/iterative_cdhit", "pan_genome_assembly_statistics": "/usr/local/bin/pan_genome_assembly_statistics", "pan_genome_core_alignment": "/usr/local/bin/pan_genome_core_alignment", "pan_genome_post_analysis": "/usr/local/bin/pan_genome_post_analysis", "pan_genome_reorder_spreadsheet": "/usr/local/bin/pan_genome_reorder_spreadsheet", "pan_pipe": "/usr/local/bin/pan_pipe", "parallel_all_against_all_blastp": "/usr/local/bin/parallel_all_against_all_blastp", "protein_alignment_from_nucleotides": "/usr/local/bin/protein_alignment_from_nucleotides", "query_pan_genome": "/usr/local/bin/query_pan_genome", "roary": "/usr/local/bin/roary", "roary-create_pan_genome_plots.R": "/usr/local/bin/roary-create_pan_genome_plots.R", "roary-pan_genome_reorder_spreadsheet": "/usr/local/bin/roary-pan_genome_reorder_spreadsheet", "roary-query_pan_genome": "/usr/local/bin/roary-query_pan_genome", "roary-unique_genes_per_sample": "/usr/local/bin/roary-unique_genes_per_sample", "submodule_test.R": "/usr/local/bin/submodule_test.R", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "transfer_annotation_to_groups": "/usr/local/bin/transfer_annotation_to_groups", "yapp": "/usr/local/bin/yapp", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "prank": "/usr/local/bin/prank", "faketime": "/usr/local/bin/faketime", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "prokka-abricate_to_fasta_db": "/usr/local/bin/prokka-abricate_to_fasta_db", "any2fasta": "/usr/local/bin/any2fasta", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gifrop.
@@ -141,6 +145,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/LICENSE
 $ podman run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/LICENSE   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abricate
+
+```bash
+$ singularity exec <container> /usr/local/bin/abricate
+$ podman run --it --rm --entrypoint /usr/local/bin/abricate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abricate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abricate-get_db
+
+```bash
+$ singularity exec <container> /usr/local/bin/abricate-get_db
+$ podman run --it --rm --entrypoint /usr/local/bin/abricate-get_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abricate-get_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -378,6 +400,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/submodule_test.R   -v ${PWD} 
 ```
 
 
+#### tbl2asn-test
+
+```bash
+$ singularity exec <container> /usr/local/bin/tbl2asn-test
+$ podman run --it --rm --entrypoint /usr/local/bin/tbl2asn-test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tbl2asn-test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### transfer_annotation_to_groups
 
 ```bash
@@ -387,93 +418,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/transfer_annotation_to_groups
 ```
 
 
-#### 2to3-3.7
+#### yapp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/yapp
+$ podman run --it --rm --entrypoint /usr/local/bin/yapp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/yapp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### CA.pm
+#### fix-sqn-date
 
 ```bash
-$ singularity exec <container> /usr/local/bin/CA.pm
-$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fix-sqn-date
+$ podman run --it --rm --entrypoint /usr/local/bin/fix-sqn-date   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fix-sqn-date   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FET.pl
+#### prank
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FET.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prank
+$ podman run --it --rm --entrypoint /usr/local/bin/prank   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prank   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTree
+#### faketime
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/faketime
+$ podman run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTree-2.1.10.c
+#### real-tbl2asn
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree-2.1.10.c
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/real-tbl2asn
+$ podman run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTreeMP
+#### prokka-abricate_to_fasta_db
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/prokka-abricate_to_fasta_db
+$ podman run --it --rm --entrypoint /usr/local/bin/prokka-abricate_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prokka-abricate_to_fasta_db   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SOAPsh.pl
+#### any2fasta
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/any2fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/any2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/any2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### abricate
+#### clm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/abricate
-$ podman run --it --rm --entrypoint /usr/local/bin/abricate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abricate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clm
+$ podman run --it --rm --entrypoint /usr/local/bin/clm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### abricate-get_db
+#### clmformat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/abricate-get_db
-$ podman run --it --rm --entrypoint /usr/local/bin/abricate-get_db   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abricate-get_db   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clmformat
+$ podman run --it --rm --entrypoint /usr/local/bin/clmformat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clmformat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### clxdo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clxdo
+$ podman run --it --rm --entrypoint /usr/local/bin/clxdo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clxdo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mcl
+
+```bash
+$ singularity exec <container> /usr/local/bin/mcl
+$ podman run --it --rm --entrypoint /usr/local/bin/mcl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bcbreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbreport/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcbreport/container.yaml"
-updated_at: "2022-10-29 05:51:26.116849"
+updated_at: "2022-10-29 07:51:36.245286"
 latest: "0.99.29--py_2"
 container_url: "https://biocontainers.pro/tools/bcbreport"
 aliases:
@@ -16,10 +16,11 @@ aliases:
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "0.99.29--py_2"
 description: "shpc-registry automated BioContainers addition for bcbreport"
-config: {"url": "https://biocontainers.pro/tools/bcbreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbreport", "latest": {"0.99.29--py_2": "sha256:99d982a15fd5305b058cabf1c1c4b55fdec666269222ef2fa26758ae53701515"}, "tags": {"0.99.29--py_2": "sha256:99d982a15fd5305b058cabf1c1c4b55fdec666269222ef2fa26758ae53701515"}, "docker": "quay.io/biocontainers/bcbreport", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/bcbreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbreport", "latest": {"0.99.29--py_2": "sha256:99d982a15fd5305b058cabf1c1c4b55fdec666269222ef2fa26758ae53701515"}, "tags": {"0.99.29--py_2": "sha256:99d982a15fd5305b058cabf1c1c4b55fdec666269222ef2fa26758ae53701515"}, "docker": "quay.io/biocontainers/bcbreport", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcbreport.
@@ -174,6 +175,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyrpipe/container.yaml"
-updated_at: "2022-10-29 05:46:52.289864"
+updated_at: "2022-10-29 07:48:14.554752"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/pyrpipe"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "pyrpipe"
  - "pyrpipe_diagnostic"
  - "weasyprint"
- - "2to3-3.9"
- - "chardetect"
- - "coloredlogs"
- - "f2py3.9"
- - "futurize"
+ - "multiqc"
  - "get_objgraph"
+ - "undill"
+ - "coloredlogs"
  - "humanfriendly"
- - "idle3.9"
- - "jpgicc"
- - "linkicc"
+ - "markdown_py"
+ - "futurize"
+ - "pasteurize"
+ - "chardetect"
+ - "f2py3.9"
 versions:
  - "0.0.5--py_0"
 description: "shpc-registry automated BioContainers addition for pyrpipe"
-config: {"url": "https://biocontainers.pro/tools/pyrpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrpipe", "latest": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "tags": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "docker": "quay.io/biocontainers/pyrpipe", "aliases": {"cairosvg": "/usr/local/bin/cairosvg", "pyrpipe": "/usr/local/bin/pyrpipe", "pyrpipe_diagnostic": "/usr/local/bin/pyrpipe_diagnostic", "weasyprint": "/usr/local/bin/weasyprint", "2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "coloredlogs": "/usr/local/bin/coloredlogs", "f2py3.9": "/usr/local/bin/f2py3.9", "futurize": "/usr/local/bin/futurize", "get_objgraph": "/usr/local/bin/get_objgraph", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
+config: {"url": "https://biocontainers.pro/tools/pyrpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrpipe", "latest": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "tags": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "docker": "quay.io/biocontainers/pyrpipe", "aliases": {"cairosvg": "/usr/local/bin/cairosvg", "pyrpipe": "/usr/local/bin/pyrpipe", "pyrpipe_diagnostic": "/usr/local/bin/pyrpipe_diagnostic", "weasyprint": "/usr/local/bin/weasyprint", "multiqc": "/usr/local/bin/multiqc", "get_objgraph": "/usr/local/bin/get_objgraph", "undill": "/usr/local/bin/undill", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "markdown_py": "/usr/local/bin/markdown_py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyrpipe.
@@ -147,48 +147,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/weasyprint   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.9
+#### multiqc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### coloredlogs
-
-```bash
-$ singularity exec <container> /usr/local/bin/coloredlogs
-$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### futurize
-
-```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/multiqc
+$ podman run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -201,6 +165,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w $
 ```
 
 
+#### undill
+
+```bash
+$ singularity exec <container> /usr/local/bin/undill
+$ podman run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coloredlogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### humanfriendly
 
 ```bash
@@ -210,30 +192,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w 
 ```
 
 
-#### idle3.9
+#### markdown_py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/markdown_py
+$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### jpgicc
+#### futurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### linkicc
+#### pasteurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

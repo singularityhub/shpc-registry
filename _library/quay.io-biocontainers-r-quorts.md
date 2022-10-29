@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-quorts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-quorts/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-quorts/container.yaml"
-updated_at: "2022-10-29 05:46:53.932194"
+updated_at: "2022-10-29 07:48:15.758230"
 latest: "1.3.0--r341_1"
 container_url: "https://biocontainers.pro/tools/r-quorts"
 aliases:
  - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.3.0--r341_1"
 description: "shpc-registry automated BioContainers addition for r-quorts"
-config: {"url": "https://biocontainers.pro/tools/r-quorts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-quorts", "latest": {"1.3.0--r341_1": "sha256:126e62ce1f46211de740b571c76f4a7e30a39b6bf713b04285dbfcee859e5144"}, "tags": {"1.3.0--r341_1": "sha256:126e62ce1f46211de740b571c76f4a7e30a39b6bf713b04285dbfcee859e5144"}, "docker": "quay.io/biocontainers/r-quorts", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-quorts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-quorts", "latest": {"1.3.0--r341_1": "sha256:126e62ce1f46211de740b571c76f4a7e30a39b6bf713b04285dbfcee859e5144"}, "tags": {"1.3.0--r341_1": "sha256:126e62ce1f46211de740b571c76f4a7e30a39b6bf713b04285dbfcee859e5144"}, "docker": "quay.io/biocontainers/r-quorts", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-quorts.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ncurses5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,18 +4,14 @@ name:  "quay.io/biocontainers/bwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwa/container.yaml"
-updated_at: "2022-10-29 05:50:07.528975"
+updated_at: "2022-10-29 07:50:38.515698"
 latest: "0.7.8--h7132678_7"
 container_url: "https://biocontainers.pro/tools/bwa"
-aliases:
- - "bwa"
+
 versions:
- - "0.7.17--h84994c4_4"
- - "0.7.17--h5bf99c6_8"
- - "0.7.17--h7132678_9"
  - "0.7.8--h7132678_7"
 description: "shpc-registry automated BioContainers addition for bwa"
-config: {"docker": "quay.io/biocontainers/bwa", "url": "https://biocontainers.pro/tools/bwa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa", "latest": {"0.7.8--h7132678_7": "sha256:92907ceb35f5aab25fd6084b75d0f3f526b15d8e25b9923d930468ddca08c48c"}, "tags": {"0.7.17--h84994c4_4": "sha256:4f183ae370c240d175cd55424538b39f047c8add50896de896f0d12a73d4a9a0", "0.7.17--h5bf99c6_8": "sha256:f8494324de6da332792dc8e4acc2549152375e1966c96163087d6ff6d42ff48c", "0.7.17--h7132678_9": "sha256:07822e4293a8c59755b295c448b9541db6c9bdbfdedb010bdbdcc1e1e935370f", "0.7.8--h7132678_7": "sha256:92907ceb35f5aab25fd6084b75d0f3f526b15d8e25b9923d930468ddca08c48c"}, "aliases": {"bwa": "/usr/local/bin/bwa"}}
+config: {"url": "https://biocontainers.pro/tools/bwa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa", "latest": {"0.7.8--h7132678_7": "sha256:92907ceb35f5aab25fd6084b75d0f3f526b15d8e25b9923d930468ddca08c48c"}, "tags": {"0.7.8--h7132678_7": "sha256:92907ceb35f5aab25fd6084b75d0f3f526b15d8e25b9923d930468ddca08c48c"}, "docker": "quay.io/biocontainers/bwa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa.
@@ -30,7 +26,7 @@ $ shpc install quay.io/biocontainers/bwa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwa:0.7.17--h84994c4_4
+$ shpc install quay.io/biocontainers/bwa:0.7.8--h7132678_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +38,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwa/0.7.17--h84994c4_4
-$ module help quay.io/biocontainers/bwa/0.7.17--h84994c4_4
+$ module load quay.io/biocontainers/bwa/0.7.8--h7132678_7
+$ module help quay.io/biocontainers/bwa/0.7.8--h7132678_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
@@ -101,14 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
+
 #### bwa
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bwa
-$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

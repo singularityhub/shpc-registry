@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/fastmlst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastmlst/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastmlst/container.yaml"
-updated_at: "2022-10-29 05:45:00.573734"
+updated_at: "2022-10-29 07:46:52.440019"
 latest: "0.0.9--py_0"
 container_url: "https://biocontainers.pro/tools/fastmlst"
 aliases:
  - "fastmlst"
- - "blast_formatter"
- - "blastdb_aliastool"
- - "blastdbcheck"
- - "blastdbcmd"
+ - "test_pcre"
  - "blastdbcp"
- - "blastn"
- - "blastp"
- - "blastx"
- - "convert2blastmask"
- - "datatool"
+ - "gene_info_reader"
+ - "seqdb_demo"
+ - "seqdb_perf"
+ - "seedtop"
+ - "tqdm"
+ - "run_with_lock"
+ - "f2py3.8"
+ - "blast_formatter"
 versions:
  - "0.0.9--py_0"
 description: "shpc-registry automated BioContainers addition for fastmlst"
-config: {"url": "https://biocontainers.pro/tools/fastmlst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastmlst", "latest": {"0.0.9--py_0": "sha256:cc131ee6bc0b619e22e8ceb8bef435cf764a29f07751726b5db3f83e618cbdbf"}, "tags": {"0.0.9--py_0": "sha256:cc131ee6bc0b619e22e8ceb8bef435cf764a29f07751726b5db3f83e618cbdbf"}, "docker": "quay.io/biocontainers/fastmlst", "aliases": {"fastmlst": "/usr/local/bin/fastmlst", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "convert2blastmask": "/usr/local/bin/convert2blastmask", "datatool": "/usr/local/bin/datatool"}}
+config: {"url": "https://biocontainers.pro/tools/fastmlst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastmlst", "latest": {"0.0.9--py_0": "sha256:cc131ee6bc0b619e22e8ceb8bef435cf764a29f07751726b5db3f83e618cbdbf"}, "tags": {"0.0.9--py_0": "sha256:cc131ee6bc0b619e22e8ceb8bef435cf764a29f07751726b5db3f83e618cbdbf"}, "docker": "quay.io/biocontainers/fastmlst", "aliases": {"fastmlst": "/usr/local/bin/fastmlst", "test_pcre": "/usr/local/bin/test_pcre", "blastdbcp": "/usr/local/bin/blastdbcp", "gene_info_reader": "/usr/local/bin/gene_info_reader", "seqdb_demo": "/usr/local/bin/seqdb_demo", "seqdb_perf": "/usr/local/bin/seqdb_perf", "seedtop": "/usr/local/bin/seedtop", "tqdm": "/usr/local/bin/tqdm", "run_with_lock": "/usr/local/bin/run_with_lock", "f2py3.8": "/usr/local/bin/f2py3.8", "blast_formatter": "/usr/local/bin/blast_formatter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastmlst.
@@ -117,39 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastmlst   -v ${PWD} -w ${PWD
 ```
 
 
-#### blast_formatter
+#### test_pcre
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdb_aliastool
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdbcheck
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdbcmd
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdbcmd
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/test_pcre
+$ podman run --it --rm --entrypoint /usr/local/bin/test_pcre   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test_pcre   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,48 +135,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PW
 ```
 
 
-#### blastn
+#### gene_info_reader
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastn
-$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gene_info_reader
+$ podman run --it --rm --entrypoint /usr/local/bin/gene_info_reader   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gene_info_reader   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastp
+#### seqdb_demo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/seqdb_demo
+$ podman run --it --rm --entrypoint /usr/local/bin/seqdb_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqdb_demo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastx
+#### seqdb_perf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastx
-$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/seqdb_perf
+$ podman run --it --rm --entrypoint /usr/local/bin/seqdb_perf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqdb_perf   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### convert2blastmask
+#### seedtop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/convert2blastmask
-$ podman run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/seedtop
+$ podman run --it --rm --entrypoint /usr/local/bin/seedtop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seedtop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### datatool
+#### tqdm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/datatool
-$ podman run --it --rm --entrypoint /usr/local/bin/datatool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/datatool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run_with_lock
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_with_lock
+$ podman run --it --rm --entrypoint /usr/local/bin/run_with_lock   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_with_lock   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

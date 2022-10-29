@@ -4,22 +4,22 @@ name:  "quay.io/biocontainers/workspace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/workspace/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/workspace/container.yaml"
-updated_at: "2022-10-29 05:39:48.171187"
+updated_at: "2022-10-29 07:43:00.439859"
 latest: "0.3.1--py27_2"
 container_url: "https://biocontainers.pro/tools/workspace"
 aliases:
  - "ws"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
  - "idle"
  - "python-config"
- - "python2"
- - "python2-config"
- - "python2.7"
- - "python2.7-config"
  - "smtpd.py"
 versions:
  - "0.3.1--py27_2"
 description: "shpc-registry automated BioContainers addition for workspace"
-config: {"url": "https://biocontainers.pro/tools/workspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for workspace", "latest": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857"}, "tags": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857"}, "docker": "quay.io/biocontainers/workspace", "aliases": {"ws": "/usr/local/bin/ws", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/workspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for workspace", "latest": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857"}, "tags": {"0.3.1--py27_2": "sha256:c8538e485273f5921502e1755eee31b16ea5b255904fb7bfe1fb688e92682857"}, "docker": "quay.io/biocontainers/workspace", "aliases": {"ws": "/usr/local/bin/ws", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/workspace.
@@ -114,6 +114,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ws   -v ${PWD} -w ${PWD} <con
 ```
 
 
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle
 
 ```bash
@@ -129,42 +165,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/python-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

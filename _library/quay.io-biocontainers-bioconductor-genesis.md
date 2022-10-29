@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/bioconductor-genesis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genesis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genesis/container.yaml"
-updated_at: "2022-10-29 05:44:40.088111"
+updated_at: "2022-10-29 07:46:37.130346"
 latest: "2.24.2--r41hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genesis"
 aliases:
- - "2to3-3.10"
- - "f2py3.10"
  - "glpsol"
+ - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "2.24.2--r41hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genesis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genesis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genesis", "latest": {"2.24.2--r41hc0cfd56_0": "sha256:ed996b44aa5fb4666d1a39eb20570d110e28a8ce68175abfcdfaee0f25941505"}, "tags": {"2.24.2--r41hc0cfd56_0": "sha256:ed996b44aa5fb4666d1a39eb20570d110e28a8ce68175abfcdfaee0f25941505"}, "docker": "quay.io/biocontainers/bioconductor-genesis", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "glpsol": "/usr/local/bin/glpsol", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genesis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genesis", "latest": {"2.24.2--r41hc0cfd56_0": "sha256:ed996b44aa5fb4666d1a39eb20570d110e28a8ce68175abfcdfaee0f25941505"}, "tags": {"2.24.2--r41hc0cfd56_0": "sha256:ed996b44aa5fb4666d1a39eb20570d110e28a8ce68175abfcdfaee0f25941505"}, "docker": "quay.io/biocontainers/bioconductor-genesis", "aliases": {"glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genesis.
@@ -105,12 +105,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### glpsol
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -123,12 +123,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD
 ```
 
 
-#### glpsol
+#### 2to3-3.10
 
 ```bash
-$ singularity exec <container> /usr/local/bin/glpsol
-$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

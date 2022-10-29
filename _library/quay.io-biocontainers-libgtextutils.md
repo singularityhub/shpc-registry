@@ -4,15 +4,14 @@ name:  "quay.io/biocontainers/libgtextutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libgtextutils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/libgtextutils/container.yaml"
-updated_at: "2022-10-29 05:50:04.278318"
+updated_at: "2022-10-29 07:50:36.141354"
 latest: "0.7--h87f3376_9"
 container_url: "https://biocontainers.pro/tools/libgtextutils"
-aliases:
- - "env-execute"
+
 versions:
  - "0.7--h87f3376_9"
 description: "shpc-registry automated BioContainers addition for libgtextutils"
-config: {"url": "https://biocontainers.pro/tools/libgtextutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgtextutils", "latest": {"0.7--h87f3376_9": "sha256:e0db5758a99daecf61134b07ec0d60f8086ec3be275199d0b9a2ac098bb985ec"}, "tags": {"0.7--h87f3376_9": "sha256:e0db5758a99daecf61134b07ec0d60f8086ec3be275199d0b9a2ac098bb985ec"}, "docker": "quay.io/biocontainers/libgtextutils", "aliases": {"env-execute": "/usr/local/env-execute"}}
+config: {"url": "https://biocontainers.pro/tools/libgtextutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libgtextutils", "latest": {"0.7--h87f3376_9": "sha256:e0db5758a99daecf61134b07ec0d60f8086ec3be275199d0b9a2ac098bb985ec"}, "tags": {"0.7--h87f3376_9": "sha256:e0db5758a99daecf61134b07ec0d60f8086ec3be275199d0b9a2ac098bb985ec"}, "docker": "quay.io/biocontainers/libgtextutils"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libgtextutils.
@@ -98,14 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### env-execute
+
+#### libgtextutils
 
 ```bash
-$ singularity exec <container> /usr/local/env-execute
-$ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

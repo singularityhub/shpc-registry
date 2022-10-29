@@ -4,17 +4,18 @@ name:  "quay.io/biocontainers/r-snpassoc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-snpassoc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-snpassoc/container.yaml"
-updated_at: "2022-10-29 05:36:11.425682"
+updated_at: "2022-10-29 07:40:20.902362"
 latest: "1.9_2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-snpassoc"
 aliases:
- - "ncurses5-config"
  - "tclsh8.5"
  - "wish8.5"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.9_2--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-snpassoc"
-config: {"url": "https://biocontainers.pro/tools/r-snpassoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snpassoc", "latest": {"1.9_2--r3.4.1_0": "sha256:287d75a0101b063e00f756f760da0367d39a1890a06f759573b6bc2189df9a5e"}, "tags": {"1.9_2--r3.4.1_0": "sha256:287d75a0101b063e00f756f760da0367d39a1890a06f759573b6bc2189df9a5e"}, "docker": "quay.io/biocontainers/r-snpassoc", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/r-snpassoc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-snpassoc", "latest": {"1.9_2--r3.4.1_0": "sha256:287d75a0101b063e00f756f760da0367d39a1890a06f759573b6bc2189df9a5e"}, "tags": {"1.9_2--r3.4.1_0": "sha256:287d75a0101b063e00f756f760da0367d39a1890a06f759573b6bc2189df9a5e"}, "docker": "quay.io/biocontainers/r-snpassoc", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-snpassoc.
@@ -100,15 +101,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### tclsh8.5
 
 ```bash
@@ -124,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/wish8.5
 $ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

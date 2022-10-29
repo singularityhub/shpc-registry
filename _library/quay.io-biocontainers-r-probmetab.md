@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/r-probmetab"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-probmetab/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-probmetab/container.yaml"
-updated_at: "2022-10-29 05:33:34.724979"
+updated_at: "2022-10-29 07:38:26.153934"
 latest: "1.1--r34he1b5a44_4"
 container_url: "https://biocontainers.pro/tools/r-probmetab"
 aliases:
+ - "nc-config"
+ - "nccopy"
+ - "ncdump"
+ - "ncgen"
+ - "ncgen3"
  - "gif2h5"
  - "h52gif"
  - "h5c++"
- - "h5cc"
  - "h5copy"
  - "h5debug"
- - "h5diff"
- - "h5dump"
- - "h5import"
- - "h5jam"
 versions:
  - "1.1--r34he1b5a44_4"
 description: "shpc-registry automated BioContainers addition for r-probmetab"
-config: {"url": "https://biocontainers.pro/tools/r-probmetab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-probmetab", "latest": {"1.1--r34he1b5a44_4": "sha256:8c7b6eda43182d9639334fcdd5b8ea3af1e0d5c714d922fb54fda8bc56b72617"}, "tags": {"1.1--r34he1b5a44_4": "sha256:8c7b6eda43182d9639334fcdd5b8ea3af1e0d5c714d922fb54fda8bc56b72617"}, "docker": "quay.io/biocontainers/r-probmetab", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5dump": "/usr/local/bin/h5dump", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
+config: {"url": "https://biocontainers.pro/tools/r-probmetab", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-probmetab", "latest": {"1.1--r34he1b5a44_4": "sha256:8c7b6eda43182d9639334fcdd5b8ea3af1e0d5c714d922fb54fda8bc56b72617"}, "tags": {"1.1--r34he1b5a44_4": "sha256:8c7b6eda43182d9639334fcdd5b8ea3af1e0d5c714d922fb54fda8bc56b72617"}, "docker": "quay.io/biocontainers/r-probmetab", "aliases": {"nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-probmetab.
@@ -107,6 +107,51 @@ $ singularity inspect -d <container>
 ```
 
 
+#### nc-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/nc-config
+$ podman run --it --rm --entrypoint /usr/local/bin/nc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nccopy
+
+```bash
+$ singularity exec <container> /usr/local/bin/nccopy
+$ podman run --it --rm --entrypoint /usr/local/bin/nccopy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nccopy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncdump
+$ podman run --it --rm --entrypoint /usr/local/bin/ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncgen
+$ podman run --it --rm --entrypoint /usr/local/bin/ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncgen3
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncgen3
+$ podman run --it --rm --entrypoint /usr/local/bin/ncgen3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncgen3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gif2h5
 
 ```bash
@@ -134,15 +179,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### h5copy
 
 ```bash
@@ -158,42 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/h5debug
 $ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5diff
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5diff
-$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5dump
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5dump
-$ podman run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5import
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5import
-$ podman run --it --rm --entrypoint /usr/local/bin/h5import   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5import   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5jam
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5jam
-$ podman run --it --rm --entrypoint /usr/local/bin/h5jam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5jam   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

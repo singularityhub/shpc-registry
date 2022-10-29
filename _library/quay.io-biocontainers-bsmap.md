@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bsmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bsmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bsmap/container.yaml"
-updated_at: "2022-10-29 05:54:10.950616"
+updated_at: "2022-10-29 07:53:37.312272"
 latest: "2.90--h5b5514e_4"
 container_url: "https://biocontainers.pro/tools/bsmap"
 aliases:
@@ -13,20 +13,20 @@ aliases:
  - "methdiff.py"
  - "methratio.py"
  - "sam2bam.sh"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
  - "build_env_setup.sh"
  - "conda_build.sh"
- - "export2sam.pl"
  - "fasta-sanitize.pl"
- - "htsfile"
+ - "plot-ampliconstats"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
  - "idle"
+ - "python-config"
 versions:
  - "2.90--h5b5514e_4"
 description: "shpc-registry automated BioContainers addition for bsmap"
-config: {"url": "https://biocontainers.pro/tools/bsmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bsmap", "latest": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "tags": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "docker": "quay.io/biocontainers/bsmap", "aliases": {"bsmap": "/usr/local/bin/bsmap", "bsp2sam.py": "/usr/local/bin/bsp2sam.py", "methdiff.py": "/usr/local/bin/methdiff.py", "methratio.py": "/usr/local/bin/methratio.py", "sam2bam.sh": "/usr/local/bin/sam2bam.sh", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "idle": "/usr/local/bin/idle"}}
+config: {"url": "https://biocontainers.pro/tools/bsmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bsmap", "latest": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "tags": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "docker": "quay.io/biocontainers/bsmap", "aliases": {"bsmap": "/usr/local/bin/bsmap", "bsp2sam.py": "/usr/local/bin/bsp2sam.py", "methdiff.py": "/usr/local/bin/methdiff.py", "methratio.py": "/usr/local/bin/methratio.py", "sam2bam.sh": "/usr/local/bin/sam2bam.sh", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bsmap.
@@ -157,42 +157,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sam2bam.sh   -v ${PWD} -w ${P
 ```
 
 
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### build_env_setup.sh
 
 ```bash
@@ -211,15 +175,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w
 ```
 
 
-#### export2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### fasta-sanitize.pl
 
 ```bash
@@ -229,12 +184,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD}
 ```
 
 
-#### htsfile
+#### plot-ampliconstats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -244,6 +235,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/idle
 $ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

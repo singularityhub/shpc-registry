@@ -4,14 +4,11 @@ name:  "quay.io/biocontainers/crispritz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispritz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crispritz/container.yaml"
-updated_at: "2022-10-29 05:40:16.900493"
+updated_at: "2022-10-29 07:43:21.583519"
 latest: "2.3.7--py36hbd375b7_1"
 container_url: "https://biocontainers.pro/tools/crispritz"
 aliases:
  - "crispritz.py"
- - "2to3-3.6"
- - "ace2sam"
- - "annotateBed"
  - "bam2bed"
  - "bam2bed-float128"
  - "bam2bed-megarow"
@@ -19,10 +16,13 @@ aliases:
  - "bam2bed_gnuParallel"
  - "bam2bed_gnuParallel-float128"
  - "bam2bed_gnuParallel-megarow"
+ - "bam2bed_gnuParallel-typical"
+ - "bam2bed_sge"
+ - "bam2bed_sge-float128"
 versions:
  - "2.3.7--py36hbd375b7_1"
 description: "shpc-registry automated BioContainers addition for crispritz"
-config: {"url": "https://biocontainers.pro/tools/crispritz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispritz", "latest": {"2.3.7--py36hbd375b7_1": "sha256:e364f3755211e99d5edb9fcf11d825aea867a2e42fb52a54933eab13e453d248"}, "tags": {"2.3.7--py36hbd375b7_1": "sha256:e364f3755211e99d5edb9fcf11d825aea867a2e42fb52a54933eab13e453d248"}, "docker": "quay.io/biocontainers/crispritz", "aliases": {"crispritz.py": "/usr/local/bin/crispritz.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bam2bed": "/usr/local/bin/bam2bed", "bam2bed-float128": "/usr/local/bin/bam2bed-float128", "bam2bed-megarow": "/usr/local/bin/bam2bed-megarow", "bam2bed-typical": "/usr/local/bin/bam2bed-typical", "bam2bed_gnuParallel": "/usr/local/bin/bam2bed_gnuParallel", "bam2bed_gnuParallel-float128": "/usr/local/bin/bam2bed_gnuParallel-float128", "bam2bed_gnuParallel-megarow": "/usr/local/bin/bam2bed_gnuParallel-megarow"}}
+config: {"url": "https://biocontainers.pro/tools/crispritz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispritz", "latest": {"2.3.7--py36hbd375b7_1": "sha256:e364f3755211e99d5edb9fcf11d825aea867a2e42fb52a54933eab13e453d248"}, "tags": {"2.3.7--py36hbd375b7_1": "sha256:e364f3755211e99d5edb9fcf11d825aea867a2e42fb52a54933eab13e453d248"}, "docker": "quay.io/biocontainers/crispritz", "aliases": {"crispritz.py": "/usr/local/bin/crispritz.py", "bam2bed": "/usr/local/bin/bam2bed", "bam2bed-float128": "/usr/local/bin/bam2bed-float128", "bam2bed-megarow": "/usr/local/bin/bam2bed-megarow", "bam2bed-typical": "/usr/local/bin/bam2bed-typical", "bam2bed_gnuParallel": "/usr/local/bin/bam2bed_gnuParallel", "bam2bed_gnuParallel-float128": "/usr/local/bin/bam2bed_gnuParallel-float128", "bam2bed_gnuParallel-megarow": "/usr/local/bin/bam2bed_gnuParallel-megarow", "bam2bed_gnuParallel-typical": "/usr/local/bin/bam2bed_gnuParallel-typical", "bam2bed_sge": "/usr/local/bin/bam2bed_sge", "bam2bed_sge-float128": "/usr/local/bin/bam2bed_sge-float128"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crispritz.
@@ -117,33 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/crispritz.py   -v ${PWD} -w $
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotateBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bam2bed
 
 ```bash
@@ -204,6 +177,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-float128 
 $ singularity exec <container> /usr/local/bin/bam2bed_gnuParallel-megarow
 $ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-megarow   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-megarow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed_gnuParallel-typical
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed_gnuParallel-typical
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-typical   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-typical   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed_sge
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed_sge
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_sge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_sge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed_sge-float128
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed_sge-float128
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_sge-float128   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_sge-float128   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

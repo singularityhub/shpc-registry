@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/epic2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epic2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/epic2/container.yaml"
-updated_at: "2022-10-29 05:53:27.404422"
+updated_at: "2022-10-29 07:53:05.567500"
 latest: "0.0.48--py36hb4700b3_0"
 container_url: "https://biocontainers.pro/tools/epic2"
 aliases:
  - "epic2"
  - "epic2-bw"
  - "epic2-df"
- - "2to3-3.6"
- - "bgzip"
- - "f2py3.6"
- - "htsfile"
- - "idle3.6"
  - "natsort"
+ - "f2py3.6"
+ - "2to3-3.6"
+ - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv-3.6"
 versions:
  - "0.0.48--py36hb4700b3_0"
 description: "shpc-registry automated BioContainers addition for epic2"
-config: {"url": "https://biocontainers.pro/tools/epic2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic2", "latest": {"0.0.48--py36hb4700b3_0": "sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61"}, "tags": {"0.0.48--py36hb4700b3_0": "sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61"}, "docker": "quay.io/biocontainers/epic2", "aliases": {"epic2": "/usr/local/bin/epic2", "epic2-bw": "/usr/local/bin/epic2-bw", "epic2-df": "/usr/local/bin/epic2-df", "2to3-3.6": "/usr/local/bin/2to3-3.6", "bgzip": "/usr/local/bin/bgzip", "f2py3.6": "/usr/local/bin/f2py3.6", "htsfile": "/usr/local/bin/htsfile", "idle3.6": "/usr/local/bin/idle3.6", "natsort": "/usr/local/bin/natsort", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
+config: {"url": "https://biocontainers.pro/tools/epic2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epic2", "latest": {"0.0.48--py36hb4700b3_0": "sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61"}, "tags": {"0.0.48--py36hb4700b3_0": "sha256:d30e12a08ca4001c78500703fba18380b5d1d2a2e01386caf27e55c409e25a61"}, "docker": "quay.io/biocontainers/epic2", "aliases": {"epic2": "/usr/local/bin/epic2", "epic2-bw": "/usr/local/bin/epic2-bw", "epic2-df": "/usr/local/bin/epic2-df", "natsort": "/usr/local/bin/natsort", "f2py3.6": "/usr/local/bin/f2py3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epic2.
@@ -137,21 +137,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/epic2-df   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.6
+#### natsort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/natsort
+$ podman run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -164,12 +155,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD}
 ```
 
 
-#### htsfile
+#### 2to3-3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -179,15 +170,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/idle3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### natsort
-
-```bash
-$ singularity exec <container> /usr/local/bin/natsort
-$ podman run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/natsort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -224,6 +206,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/python3.6m
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

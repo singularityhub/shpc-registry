@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/tombo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tombo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tombo/container.yaml"
-updated_at: "2022-10-29 05:55:51.529857"
+updated_at: "2022-10-29 07:54:50.032110"
 latest: "1.0--py27_0"
 container_url: "https://biocontainers.pro/tools/tombo"
 aliases:
  - "graphmap"
  - "tombo"
- - "bwa"
+ - "perl5.22.0"
  - "c2ph"
+ - "pstruct"
  - "cygdb"
  - "cython"
  - "cythonize"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
- - "h5copy"
+ - "minimap2"
+ - "qualfa2fq.pl"
+ - "xa2multi.pl"
+ - "bwa"
 versions:
  - "1.0--py27_0"
 description: "shpc-registry automated BioContainers addition for tombo"
-config: {"url": "https://biocontainers.pro/tools/tombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tombo", "latest": {"1.0--py27_0": "sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb"}, "tags": {"1.0--py27_0": "sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb"}, "docker": "quay.io/biocontainers/tombo", "aliases": {"graphmap": "/usr/local/bin/graphmap", "tombo": "/usr/local/bin/tombo", "bwa": "/usr/local/bin/bwa", "c2ph": "/usr/local/bin/c2ph", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/tombo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tombo", "latest": {"1.0--py27_0": "sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb"}, "tags": {"1.0--py27_0": "sha256:6f93d035e4d3bdd641e0b7e3070dcbce909ea115befa72af6f9c0b47d34fabdb"}, "docker": "quay.io/biocontainers/tombo", "aliases": {"graphmap": "/usr/local/bin/graphmap", "tombo": "/usr/local/bin/tombo", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "minimap2": "/usr/local/bin/minimap2", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tombo.
@@ -127,12 +127,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tombo   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### bwa
+#### perl5.22.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bwa
-$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.22.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -142,6 +142,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/c2ph
 $ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pstruct
+
+```bash
+$ singularity exec <container> /usr/local/bin/pstruct
+$ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -172,48 +181,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PW
 ```
 
 
-#### gif2h5
+#### minimap2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### qualfa2fq.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5c++
+#### xa2multi.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xa2multi.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xa2multi.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5cc
+#### bwa
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5copy
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

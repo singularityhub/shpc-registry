@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jass_preprocessing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jass_preprocessing/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jass_preprocessing/container.yaml"
-updated_at: "2022-10-29 05:33:07.338063"
+updated_at: "2022-10-29 07:38:05.959095"
 latest: "2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jass_preprocessing"
 aliases:
@@ -13,10 +13,16 @@ aliases:
  - "opj_compress"
  - "opj_decompress"
  - "opj_dump"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "jpgicc"
 versions:
  - "2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jass_preprocessing"
-config: {"url": "https://biocontainers.pro/tools/jass_preprocessing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jass_preprocessing", "latest": {"2.2--pyhdfd78af_0": "sha256:216102b03fc62cfc85499d329dc3b0a93bd48ed27ca08da526c3fba31ed7b5da"}, "tags": {"2.2--pyhdfd78af_0": "sha256:216102b03fc62cfc85499d329dc3b0a93bd48ed27ca08da526c3fba31ed7b5da"}, "docker": "quay.io/biocontainers/jass_preprocessing", "aliases": {"jass_preprocessing": "/usr/local/bin/jass_preprocessing", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
+config: {"url": "https://biocontainers.pro/tools/jass_preprocessing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jass_preprocessing", "latest": {"2.2--pyhdfd78af_0": "sha256:216102b03fc62cfc85499d329dc3b0a93bd48ed27ca08da526c3fba31ed7b5da"}, "tags": {"2.2--pyhdfd78af_0": "sha256:216102b03fc62cfc85499d329dc3b0a93bd48ed27ca08da526c3fba31ed7b5da"}, "docker": "quay.io/biocontainers/jass_preprocessing", "aliases": {"jass_preprocessing": "/usr/local/bin/jass_preprocessing", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jass_preprocessing.
@@ -144,6 +150,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/opj_dump
 $ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

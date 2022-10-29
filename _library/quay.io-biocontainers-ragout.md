@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ragout"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ragout/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ragout/container.yaml"
-updated_at: "2022-10-29 05:53:39.901219"
+updated_at: "2022-10-29 07:53:14.704691"
 latest: "2.3--py36h2ad2d48_4"
 container_url: "https://biocontainers.pro/tools/ragout"
 aliases:
@@ -22,10 +22,11 @@ aliases:
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "pyvenv"
 versions:
  - "2.3--py36h2ad2d48_4"
 description: "shpc-registry automated BioContainers addition for ragout"
-config: {"url": "https://biocontainers.pro/tools/ragout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ragout", "latest": {"2.3--py36h2ad2d48_4": "sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f"}, "tags": {"2.3--py36h2ad2d48_4": "sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f"}, "docker": "quay.io/biocontainers/ragout", "aliases": {"C-Sibelia.py": "/usr/local/bin/C-Sibelia.py", "Sibelia": "/usr/local/bin/Sibelia", "ragout": "/usr/local/bin/ragout", "ragout-maf2synteny": "/usr/local/bin/ragout-maf2synteny", "ragout-overlap": "/usr/local/bin/ragout-overlap", "snpEffAnnotate.py": "/usr/local/bin/snpEffAnnotate.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/ragout", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ragout", "latest": {"2.3--py36h2ad2d48_4": "sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f"}, "tags": {"2.3--py36h2ad2d48_4": "sha256:f38f9ed228012953b6d21e180b47c6031cc9d727a4cf818ee13d24e1bf77799f"}, "docker": "quay.io/biocontainers/ragout", "aliases": {"C-Sibelia.py": "/usr/local/bin/C-Sibelia.py", "Sibelia": "/usr/local/bin/Sibelia", "ragout": "/usr/local/bin/ragout", "ragout-maf2synteny": "/usr/local/bin/ragout-maf2synteny", "ragout-overlap": "/usr/local/bin/ragout-overlap", "snpEffAnnotate.py": "/usr/local/bin/snpEffAnnotate.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ragout.
@@ -234,6 +235,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

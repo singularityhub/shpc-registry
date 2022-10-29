@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/phylorank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylorank/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phylorank/container.yaml"
-updated_at: "2022-10-29 05:53:02.049931"
+updated_at: "2022-10-29 07:52:46.816989"
 latest: "0.1.9--py_0"
 container_url: "https://biocontainers.pro/tools/phylorank"
 aliases:
  - "phylorank"
- - "2to3-3.9"
  - "dendropy-format"
- - "f2py3.9"
+ - "sumlabels.py"
+ - "sumtrees.py"
  - "futurize"
- - "idle3.9"
- - "jpgicc"
- - "linkicc"
  - "pasteurize"
- - "psicc"
+ - "f2py3.9"
+ - "2to3-3.9"
+ - "idle3.9"
  - "pydoc3.9"
+ - "python3.9"
 versions:
  - "0.1.9--py_0"
 description: "shpc-registry automated BioContainers addition for phylorank"
-config: {"url": "https://biocontainers.pro/tools/phylorank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylorank", "latest": {"0.1.9--py_0": "sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98"}, "tags": {"0.1.9--py_0": "sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98"}, "docker": "quay.io/biocontainers/phylorank", "aliases": {"phylorank": "/usr/local/bin/phylorank", "2to3-3.9": "/usr/local/bin/2to3-3.9", "dendropy-format": "/usr/local/bin/dendropy-format", "f2py3.9": "/usr/local/bin/f2py3.9", "futurize": "/usr/local/bin/futurize", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "pasteurize": "/usr/local/bin/pasteurize", "psicc": "/usr/local/bin/psicc", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
+config: {"url": "https://biocontainers.pro/tools/phylorank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylorank", "latest": {"0.1.9--py_0": "sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98"}, "tags": {"0.1.9--py_0": "sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98"}, "docker": "quay.io/biocontainers/phylorank", "aliases": {"phylorank": "/usr/local/bin/phylorank", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylorank.
@@ -117,15 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phylorank   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### dendropy-format
 
 ```bash
@@ -135,12 +126,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -
 ```
 
 
-#### f2py3.9
+#### sumlabels.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sumlabels.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sumtrees.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sumtrees.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -153,33 +153,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jpgicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### linkicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pasteurize
 
 ```bash
@@ -189,12 +162,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${P
 ```
 
 
-#### psicc
+#### f2py3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/psicc
-$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/pydoc3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

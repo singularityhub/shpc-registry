@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/garnett-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/garnett-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/garnett-cli/container.yaml"
-updated_at: "2022-10-29 05:54:16.866314"
+updated_at: "2022-10-29 07:53:41.271756"
 latest: "v0.0.1--r36_0"
 container_url: "https://biocontainers.pro/tools/garnett-cli"
 aliases:
@@ -17,14 +17,14 @@ aliases:
  - "make_test_data.R"
  - "parse_expr_data.R"
  - "build_env_setup.sh"
- - "c89"
- - "c99"
  - "conda_build.sh"
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "v0.0.1--r36_0"
 description: "shpc-registry automated BioContainers addition for garnett-cli"
-config: {"url": "https://biocontainers.pro/tools/garnett-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnett-cli", "latest": {"v0.0.1--r36_0": "sha256:38e89fa8f323b4abf55bf7304665172b007951f405494b62dad56e1fcccdde76"}, "tags": {"v0.0.1--r36_0": "sha256:38e89fa8f323b4abf55bf7304665172b007951f405494b62dad56e1fcccdde76"}, "docker": "quay.io/biocontainers/garnett-cli", "aliases": {"garnett_check_markers.R": "/usr/local/bin/garnett_check_markers.R", "garnett_classify_cells.R": "/usr/local/bin/garnett_classify_cells.R", "garnett_cli_post_install_tests.bats": "/usr/local/bin/garnett_cli_post_install_tests.bats", "garnett_cli_post_install_tests.sh": "/usr/local/bin/garnett_cli_post_install_tests.sh", "garnett_get_feature_genes.R": "/usr/local/bin/garnett_get_feature_genes.R", "garnett_train_classifier.R": "/usr/local/bin/garnett_train_classifier.R", "make_test_data.R": "/usr/local/bin/make_test_data.R", "parse_expr_data.R": "/usr/local/bin/parse_expr_data.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "conda_build.sh": "/usr/local/bin/conda_build.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/garnett-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for garnett-cli", "latest": {"v0.0.1--r36_0": "sha256:38e89fa8f323b4abf55bf7304665172b007951f405494b62dad56e1fcccdde76"}, "tags": {"v0.0.1--r36_0": "sha256:38e89fa8f323b4abf55bf7304665172b007951f405494b62dad56e1fcccdde76"}, "docker": "quay.io/biocontainers/garnett-cli", "aliases": {"garnett_check_markers.R": "/usr/local/bin/garnett_check_markers.R", "garnett_classify_cells.R": "/usr/local/bin/garnett_classify_cells.R", "garnett_cli_post_install_tests.bats": "/usr/local/bin/garnett_cli_post_install_tests.bats", "garnett_cli_post_install_tests.sh": "/usr/local/bin/garnett_cli_post_install_tests.sh", "garnett_get_feature_genes.R": "/usr/local/bin/garnett_get_feature_genes.R", "garnett_train_classifier.R": "/usr/local/bin/garnett_train_classifier.R", "make_test_data.R": "/usr/local/bin/make_test_data.R", "parse_expr_data.R": "/usr/local/bin/parse_expr_data.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/garnett-cli.
@@ -191,24 +191,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD
 ```
 
 
-#### c89
-
-```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c99
-
-```bash
-$ singularity exec <container> /usr/local/bin/c99
-$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### conda_build.sh
 
 ```bash
@@ -224,6 +206,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

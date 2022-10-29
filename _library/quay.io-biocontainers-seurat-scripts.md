@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seurat-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seurat-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/seurat-scripts/container.yaml"
-updated_at: "2022-10-29 05:52:06.628087"
+updated_at: "2022-10-29 07:52:06.065575"
 latest: "4.0.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/seurat-scripts"
 aliases:
@@ -34,20 +34,20 @@ aliases:
  - "seurat-scale-data.R"
  - "seurat-select-integration-features.R"
  - "seurat-split-object.R"
+ - "mirror_server"
+ - "mirror_server_stop"
  - "build_env_setup.sh"
  - "conda_build.sh"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
+ - "pandoc"
  - "h5clear"
- - "h5copy"
- - "h5debug"
- - "h5diff"
+ - "h5format_convert"
+ - "h5watch"
+ - "h5fc"
+ - "gif2h5"
 versions:
  - "4.0.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for seurat-scripts"
-config: {"url": "https://biocontainers.pro/tools/seurat-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seurat-scripts", "latest": {"4.0.0--hdfd78af_0": "sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0"}, "tags": {"4.0.0--hdfd78af_0": "sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0"}, "docker": "quay.io/biocontainers/seurat-scripts", "aliases": {"r-seurat-scripts-post-install-tests.bats": "/usr/local/bin/r-seurat-scripts-post-install-tests.bats", "r-seurat-scripts-post-install-tests.sh": "/usr/local/bin/r-seurat-scripts-post-install-tests.sh", "seurat-classify-against-reference.R": "/usr/local/bin/seurat-classify-against-reference.R", "seurat-convert.R": "/usr/local/bin/seurat-convert.R", "seurat-dim-plot.R": "/usr/local/bin/seurat-dim-plot.R", "seurat-export-cellbrowser.R": "/usr/local/bin/seurat-export-cellbrowser.R", "seurat-filter-cells.R": "/usr/local/bin/seurat-filter-cells.R", "seurat-find-clusters.R": "/usr/local/bin/seurat-find-clusters.R", "seurat-find-conserved-markers.R": "/usr/local/bin/seurat-find-conserved-markers.R", "seurat-find-markers.R": "/usr/local/bin/seurat-find-markers.R", "seurat-find-neighbours.R": "/usr/local/bin/seurat-find-neighbours.R", "seurat-find-variable-genes.R": "/usr/local/bin/seurat-find-variable-genes.R", "seurat-get-random-genes.R": "/usr/local/bin/seurat-get-random-genes.R", "seurat-hover-locator.R": "/usr/local/bin/seurat-hover-locator.R", "seurat-integration.R": "/usr/local/bin/seurat-integration.R", "seurat-map-query.R": "/usr/local/bin/seurat-map-query.R", "seurat-normalise-data.R": "/usr/local/bin/seurat-normalise-data.R", "seurat-plot.R": "/usr/local/bin/seurat-plot.R", "seurat-read-10x.R": "/usr/local/bin/seurat-read-10x.R", "seurat-read.R": "/usr/local/bin/seurat-read.R", "seurat-run-pca.R": "/usr/local/bin/seurat-run-pca.R", "seurat-run-tsne.R": "/usr/local/bin/seurat-run-tsne.R", "seurat-run-umap.R": "/usr/local/bin/seurat-run-umap.R", "seurat-scale-data.R": "/usr/local/bin/seurat-scale-data.R", "seurat-select-integration-features.R": "/usr/local/bin/seurat-select-integration-features.R", "seurat-split-object.R": "/usr/local/bin/seurat-split-object.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
+config: {"url": "https://biocontainers.pro/tools/seurat-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seurat-scripts", "latest": {"4.0.0--hdfd78af_0": "sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0"}, "tags": {"4.0.0--hdfd78af_0": "sha256:455f2f0024096890c38d29b2f36b73400806c943a0f9c4e091cb7b07fae9afa0"}, "docker": "quay.io/biocontainers/seurat-scripts", "aliases": {"r-seurat-scripts-post-install-tests.bats": "/usr/local/bin/r-seurat-scripts-post-install-tests.bats", "r-seurat-scripts-post-install-tests.sh": "/usr/local/bin/r-seurat-scripts-post-install-tests.sh", "seurat-classify-against-reference.R": "/usr/local/bin/seurat-classify-against-reference.R", "seurat-convert.R": "/usr/local/bin/seurat-convert.R", "seurat-dim-plot.R": "/usr/local/bin/seurat-dim-plot.R", "seurat-export-cellbrowser.R": "/usr/local/bin/seurat-export-cellbrowser.R", "seurat-filter-cells.R": "/usr/local/bin/seurat-filter-cells.R", "seurat-find-clusters.R": "/usr/local/bin/seurat-find-clusters.R", "seurat-find-conserved-markers.R": "/usr/local/bin/seurat-find-conserved-markers.R", "seurat-find-markers.R": "/usr/local/bin/seurat-find-markers.R", "seurat-find-neighbours.R": "/usr/local/bin/seurat-find-neighbours.R", "seurat-find-variable-genes.R": "/usr/local/bin/seurat-find-variable-genes.R", "seurat-get-random-genes.R": "/usr/local/bin/seurat-get-random-genes.R", "seurat-hover-locator.R": "/usr/local/bin/seurat-hover-locator.R", "seurat-integration.R": "/usr/local/bin/seurat-integration.R", "seurat-map-query.R": "/usr/local/bin/seurat-map-query.R", "seurat-normalise-data.R": "/usr/local/bin/seurat-normalise-data.R", "seurat-plot.R": "/usr/local/bin/seurat-plot.R", "seurat-read-10x.R": "/usr/local/bin/seurat-read-10x.R", "seurat-read.R": "/usr/local/bin/seurat-read.R", "seurat-run-pca.R": "/usr/local/bin/seurat-run-pca.R", "seurat-run-tsne.R": "/usr/local/bin/seurat-run-tsne.R", "seurat-run-umap.R": "/usr/local/bin/seurat-run-umap.R", "seurat-scale-data.R": "/usr/local/bin/seurat-scale-data.R", "seurat-select-integration-features.R": "/usr/local/bin/seurat-select-integration-features.R", "seurat-split-object.R": "/usr/local/bin/seurat-split-object.R", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "pandoc": "/usr/local/bin/pandoc", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seurat-scripts.
@@ -367,6 +367,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seurat-split-object.R   -v ${
 ```
 
 
+#### mirror_server
+
+```bash
+$ singularity exec <container> /usr/local/bin/mirror_server
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mirror_server_stop
+
+```bash
+$ singularity exec <container> /usr/local/bin/mirror_server_stop
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### build_env_setup.sh
 
 ```bash
@@ -385,39 +403,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w
 ```
 
 
-#### gif2h5
+#### pandoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h52gif
-
-```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -430,30 +421,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD}
 ```
 
 
-#### h5copy
+#### h5format_convert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/h5format_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5format_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5debug
+#### h5watch
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5debug
-$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/h5watch
+$ podman run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5watch   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5diff
+#### h5fc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5diff
-$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/h5fc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

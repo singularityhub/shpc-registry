@@ -4,12 +4,13 @@ name:  "quay.io/biocontainers/motifraptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/motifraptor/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/motifraptor/container.yaml"
-updated_at: "2022-10-29 05:35:02.199301"
+updated_at: "2022-10-29 07:39:30.034768"
 latest: "0.3.0--py36h40b2fa4_5"
 container_url: "https://biocontainers.pro/tools/motifraptor"
 aliases:
  - "MotifRaptor"
- - "2to3-3.6"
+ - "f2py3.6"
+ - "shiftBed"
  - "annotateBed"
  - "bamToBed"
  - "bamToFastq"
@@ -18,11 +19,10 @@ aliases:
  - "bedToIgv"
  - "bedpeToBam"
  - "bedtools"
- - "closestBed"
 versions:
  - "0.3.0--py36h40b2fa4_5"
 description: "shpc-registry automated BioContainers addition for motifraptor"
-config: {"url": "https://biocontainers.pro/tools/motifraptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for motifraptor", "latest": {"0.3.0--py36h40b2fa4_5": "sha256:327545f3e0000e9089260299eeaa323146da031f00aec691fff3b49c865c377f"}, "tags": {"0.3.0--py36h40b2fa4_5": "sha256:327545f3e0000e9089260299eeaa323146da031f00aec691fff3b49c865c377f"}, "docker": "quay.io/biocontainers/motifraptor", "aliases": {"MotifRaptor": "/usr/local/bin/MotifRaptor", "2to3-3.6": "/usr/local/bin/2to3-3.6", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed"}}
+config: {"url": "https://biocontainers.pro/tools/motifraptor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for motifraptor", "latest": {"0.3.0--py36h40b2fa4_5": "sha256:327545f3e0000e9089260299eeaa323146da031f00aec691fff3b49c865c377f"}, "tags": {"0.3.0--py36h40b2fa4_5": "sha256:327545f3e0000e9089260299eeaa323146da031f00aec691fff3b49c865c377f"}, "docker": "quay.io/biocontainers/motifraptor", "aliases": {"MotifRaptor": "/usr/local/bin/MotifRaptor", "f2py3.6": "/usr/local/bin/f2py3.6", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/motifraptor.
@@ -117,12 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/MotifRaptor   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.6
+#### f2py3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### shiftBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/shiftBed
+$ podman run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -195,15 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/bedtools
 $ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### closestBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/closestBed
-$ podman run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

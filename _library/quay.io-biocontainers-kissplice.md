@@ -4,23 +4,23 @@ name:  "quay.io/biocontainers/kissplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kissplice/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kissplice/container.yaml"
-updated_at: "2022-10-29 05:56:33.103654"
+updated_at: "2022-10-29 07:55:19.946844"
 latest: "2.5.5--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/kissplice"
 aliases:
  - "bcalm"
  - "kissplice"
  - "2to3-3.10"
- - "h5cc"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
+ - "h5cc"
 versions:
  - "2.5.5--h5b5514e_0"
 description: "shpc-registry automated BioContainers addition for kissplice"
-config: {"url": "https://biocontainers.pro/tools/kissplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kissplice", "latest": {"2.5.5--h5b5514e_0": "sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1"}, "tags": {"2.5.5--h5b5514e_0": "sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1"}, "docker": "quay.io/biocontainers/kissplice", "aliases": {"bcalm": "/usr/local/bin/bcalm", "kissplice": "/usr/local/bin/kissplice", "2to3-3.10": "/usr/local/bin/2to3-3.10", "h5cc": "/usr/local/bin/h5cc", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/kissplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kissplice", "latest": {"2.5.5--h5b5514e_0": "sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1"}, "tags": {"2.5.5--h5b5514e_0": "sha256:bd7e29a41f935f295d7e9c3d39f8ab1377e5e1e3663db7175ddf75fa9ef323e1"}, "docker": "quay.io/biocontainers/kissplice", "aliases": {"bcalm": "/usr/local/bin/bcalm", "kissplice": "/usr/local/bin/kissplice", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kissplice.
@@ -133,15 +133,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 ```
 
 
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### idle3.10
 
 ```bash
@@ -184,6 +175,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/cptac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cptac/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cptac/container.yaml"
-updated_at: "2022-10-29 05:46:21.187765"
+updated_at: "2022-10-29 07:47:51.699639"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cptac"
 aliases:
- - "2to3-3.10"
- - "f2py3.10"
+ - "runxlrd.py"
  - "flask"
- - "idle3.10"
  - "normalizer"
+ - "f2py3.10"
+ - "2to3-3.10"
+ - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
- - "runxlrd.py"
 versions:
  - "1.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cptac"
-config: {"url": "https://biocontainers.pro/tools/cptac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cptac", "latest": {"1.1.2--pyhdfd78af_0": "sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59"}, "docker": "quay.io/biocontainers/cptac", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "flask": "/usr/local/bin/flask", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "runxlrd.py": "/usr/local/bin/runxlrd.py"}}
+config: {"url": "https://biocontainers.pro/tools/cptac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cptac", "latest": {"1.1.2--pyhdfd78af_0": "sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:950b99e315ac77d15f6fc964932db5b270b686202126c9c85a4fded125697e59"}, "docker": "quay.io/biocontainers/cptac", "aliases": {"runxlrd.py": "/usr/local/bin/runxlrd.py", "flask": "/usr/local/bin/flask", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cptac.
@@ -107,21 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### runxlrd.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/runxlrd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -134,21 +125,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### idle3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### normalizer
 
 ```bash
 $ singularity exec <container> /usr/local/bin/normalizer
 $ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -185,15 +194,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### runxlrd.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/runxlrd.py
-$ podman run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

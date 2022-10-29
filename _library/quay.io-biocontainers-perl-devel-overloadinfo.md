@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-devel-overloadinfo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-overloadinfo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-overloadinfo/container.yaml"
-updated_at: "2022-10-29 05:54:00.738999"
+updated_at: "2022-10-29 07:53:30.144935"
 latest: "0.007--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-devel-overloadinfo"
 aliases:
- - "cpanm"
  - "package-stash-conflicts"
+ - "cpanm"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.007--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-devel-overloadinfo"
-config: {"url": "https://biocontainers.pro/tools/perl-devel-overloadinfo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-overloadinfo", "latest": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "tags": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "docker": "quay.io/biocontainers/perl-devel-overloadinfo", "aliases": {"cpanm": "/usr/local/bin/cpanm", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
+config: {"url": "https://biocontainers.pro/tools/perl-devel-overloadinfo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-overloadinfo", "latest": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "tags": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "docker": "quay.io/biocontainers/perl-devel-overloadinfo", "aliases": {"package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-devel-overloadinfo.
@@ -99,6 +101,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### cpanm
 
 ```bash
@@ -108,12 +119,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### package-stash-conflicts
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/package-stash-conflicts
-$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/saffrontree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/saffrontree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/saffrontree/container.yaml"
-updated_at: "2022-10-29 05:30:03.465173"
+updated_at: "2022-10-29 07:35:50.959759"
 latest: "0.1.2--py36_0"
 container_url: "https://biocontainers.pro/tools/saffrontree"
 aliases:
  - "saffrontree"
- - "2to3-3.6"
- - "bmp2tiff"
  - "createfontdatachunk.py"
- - "easy_install-3.6"
+ - "kmc"
+ - "kmc_dump"
+ - "kmc_tools"
  - "enhancer.py"
  - "explode.py"
  - "fastaq"
- - "gif2tiff"
  - "gifmaker.py"
- - "idle3.6"
+ - "painter.py"
+ - "player.py"
 versions:
  - "0.1.2--py36_0"
 description: "shpc-registry automated BioContainers addition for saffrontree"
-config: {"url": "https://biocontainers.pro/tools/saffrontree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for saffrontree", "latest": {"0.1.2--py36_0": "sha256:d423ebef8a0f6718852cfd0e758e6f70dda22446fd23206cc65e78e16ef864e1"}, "tags": {"0.1.2--py36_0": "sha256:d423ebef8a0f6718852cfd0e758e6f70dda22446fd23206cc65e78e16ef864e1"}, "docker": "quay.io/biocontainers/saffrontree", "aliases": {"saffrontree": "/usr/local/bin/saffrontree", "2to3-3.6": "/usr/local/bin/2to3-3.6", "bmp2tiff": "/usr/local/bin/bmp2tiff", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "fastaq": "/usr/local/bin/fastaq", "gif2tiff": "/usr/local/bin/gif2tiff", "gifmaker.py": "/usr/local/bin/gifmaker.py", "idle3.6": "/usr/local/bin/idle3.6"}}
+config: {"url": "https://biocontainers.pro/tools/saffrontree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for saffrontree", "latest": {"0.1.2--py36_0": "sha256:d423ebef8a0f6718852cfd0e758e6f70dda22446fd23206cc65e78e16ef864e1"}, "tags": {"0.1.2--py36_0": "sha256:d423ebef8a0f6718852cfd0e758e6f70dda22446fd23206cc65e78e16ef864e1"}, "docker": "quay.io/biocontainers/saffrontree", "aliases": {"saffrontree": "/usr/local/bin/saffrontree", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "enhancer.py": "/usr/local/bin/enhancer.py", "explode.py": "/usr/local/bin/explode.py", "fastaq": "/usr/local/bin/fastaq", "gifmaker.py": "/usr/local/bin/gifmaker.py", "painter.py": "/usr/local/bin/painter.py", "player.py": "/usr/local/bin/player.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/saffrontree.
@@ -117,24 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/saffrontree   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bmp2tiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bmp2tiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### createfontdatachunk.py
 
 ```bash
@@ -144,12 +126,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/createfontdatachunk.py   -v $
 ```
 
 
-#### easy_install-3.6
+#### kmc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/easy_install-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmc
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmc_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmc_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmc_tools
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmc_tools
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -180,15 +180,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### gif2tiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2tiff
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gifmaker.py
 
 ```bash
@@ -198,12 +189,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gifmaker.py   -v ${PWD} -w ${
 ```
 
 
-#### idle3.6
+#### painter.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/painter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/painter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/painter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### player.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/player.py
+$ podman run --it --rm --entrypoint /usr/local/bin/player.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/player.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

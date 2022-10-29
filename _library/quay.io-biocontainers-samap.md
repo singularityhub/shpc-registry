@@ -4,25 +4,26 @@ name:  "quay.io/biocontainers/samap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samap/container.yaml"
-updated_at: "2022-10-29 05:46:49.026932"
+updated_at: "2022-10-29 07:48:12.163373"
 latest: "1.0.7--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/samap"
 aliases:
- - "scalar"
- - "2to3-3.7"
- - "brotli"
- - "cmpfillin"
- - "docutils"
  - "dunamai"
- - "f2py3.7"
- - "fonttools"
- - "get_objgraph"
- - "gif2h5"
+ - "scalar"
  - "git"
+ - "git-cvsserver"
+ - "git-receive-pack"
+ - "git-shell"
+ - "git-upload-archive"
+ - "git-upload-pack"
+ - "gitk"
+ - "scanpy"
+ - "docutils"
+ - "igraph"
 versions:
  - "1.0.7--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for samap"
-config: {"url": "https://biocontainers.pro/tools/samap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samap", "latest": {"1.0.7--pyhdfd78af_0": "sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5"}, "docker": "quay.io/biocontainers/samap", "aliases": {"scalar": "/usr/local/bin/scalar", "2to3-3.7": "/usr/local/bin/2to3-3.7", "brotli": "/usr/local/bin/brotli", "cmpfillin": "/usr/local/bin/cmpfillin", "docutils": "/usr/local/bin/docutils", "dunamai": "/usr/local/bin/dunamai", "f2py3.7": "/usr/local/bin/f2py3.7", "fonttools": "/usr/local/bin/fonttools", "get_objgraph": "/usr/local/bin/get_objgraph", "gif2h5": "/usr/local/bin/gif2h5", "git": "/usr/local/bin/git"}}
+config: {"url": "https://biocontainers.pro/tools/samap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samap", "latest": {"1.0.7--pyhdfd78af_0": "sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5"}, "tags": {"1.0.7--pyhdfd78af_0": "sha256:93a5196803174d1ec72294bdbd01c00d002ab37bb9ff1b4de85757861545f3c5"}, "docker": "quay.io/biocontainers/samap", "aliases": {"dunamai": "/usr/local/bin/dunamai", "scalar": "/usr/local/bin/scalar", "git": "/usr/local/bin/git", "git-cvsserver": "/usr/local/bin/git-cvsserver", "git-receive-pack": "/usr/local/bin/git-receive-pack", "git-shell": "/usr/local/bin/git-shell", "git-upload-archive": "/usr/local/bin/git-upload-archive", "git-upload-pack": "/usr/local/bin/git-upload-pack", "gitk": "/usr/local/bin/gitk", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "igraph": "/usr/local/bin/igraph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samap.
@@ -108,6 +109,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### dunamai
+
+```bash
+$ singularity exec <container> /usr/local/bin/dunamai
+$ podman run --it --rm --entrypoint /usr/local/bin/dunamai   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dunamai   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### scalar
 
 ```bash
@@ -117,30 +127,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scalar   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.7
+#### git
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git
+$ podman run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### git-cvsserver
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-cvsserver
+$ podman run --it --rm --entrypoint /usr/local/bin/git-cvsserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-cvsserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cmpfillin
+#### git-receive-pack
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cmpfillin
-$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/git-receive-pack
+$ podman run --it --rm --entrypoint /usr/local/bin/git-receive-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-receive-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### git-shell
+
+```bash
+$ singularity exec <container> /usr/local/bin/git-shell
+$ podman run --it --rm --entrypoint /usr/local/bin/git-shell   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-shell   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### git-upload-archive
+
+```bash
+$ singularity exec <container> /usr/local/bin/git-upload-archive
+$ podman run --it --rm --entrypoint /usr/local/bin/git-upload-archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-upload-archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### git-upload-pack
+
+```bash
+$ singularity exec <container> /usr/local/bin/git-upload-pack
+$ podman run --it --rm --entrypoint /usr/local/bin/git-upload-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/git-upload-pack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gitk
+
+```bash
+$ singularity exec <container> /usr/local/bin/gitk
+$ podman run --it --rm --entrypoint /usr/local/bin/gitk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gitk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scanpy
+
+```bash
+$ singularity exec <container> /usr/local/bin/scanpy
+$ podman run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scanpy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -153,57 +208,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD
 ```
 
 
-#### dunamai
+#### igraph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dunamai
-$ podman run --it --rm --entrypoint /usr/local/bin/dunamai   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dunamai   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fonttools
-
-```bash
-$ singularity exec <container> /usr/local/bin/fonttools
-$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### get_objgraph
-
-```bash
-$ singularity exec <container> /usr/local/bin/get_objgraph
-$ podman run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2h5
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### git
-
-```bash
-$ singularity exec <container> /usr/local/bin/git
-$ podman run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/git   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/igraph
+$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

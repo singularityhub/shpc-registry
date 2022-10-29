@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/proteinortho"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteinortho/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/proteinortho/container.yaml"
-updated_at: "2022-10-29 05:38:59.259945"
+updated_at: "2022-10-29 07:42:24.855744"
 latest: "6.1.1--hedee03e_0"
 container_url: "https://biocontainers.pro/tools/proteinortho"
 aliases:
@@ -26,18 +26,19 @@ aliases:
  - "proteinortho_singletons.pl"
  - "proteinortho_summary.pl"
  - "proteinortho_treeBuilderCore"
- - "2to3-3.10"
  - "diamond"
+ - "2to3-3.10"
  - "idle3.10"
- - "perl5.32.1"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "6.1.1--hedee03e_0"
 description: "shpc-registry automated BioContainers addition for proteinortho"
-config: {"url": "https://biocontainers.pro/tools/proteinortho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteinortho", "latest": {"6.1.1--hedee03e_0": "sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc"}, "tags": {"6.1.1--hedee03e_0": "sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc"}, "docker": "quay.io/biocontainers/proteinortho", "aliases": {"proteinortho": "/usr/local/bin/proteinortho", "proteinortho2html.pl": "/usr/local/bin/proteinortho2html.pl", "proteinortho2tree.pl": "/usr/local/bin/proteinortho2tree.pl", "proteinortho2xml.pl": "/usr/local/bin/proteinortho2xml.pl", "proteinortho6.pl": "/usr/local/bin/proteinortho6.pl", "proteinortho_cleanupblastgraph": "/usr/local/bin/proteinortho_cleanupblastgraph", "proteinortho_clustering": "/usr/local/bin/proteinortho_clustering", "proteinortho_compareProteinorthoGraphs.pl": "/usr/local/bin/proteinortho_compareProteinorthoGraphs.pl", "proteinortho_do_mcl.pl": "/usr/local/bin/proteinortho_do_mcl.pl", "proteinortho_extract_from_graph.pl": "/usr/local/bin/proteinortho_extract_from_graph.pl", "proteinortho_ffadj_mcs.py": "/usr/local/bin/proteinortho_ffadj_mcs.py", "proteinortho_formatUsearch.pl": "/usr/local/bin/proteinortho_formatUsearch.pl", "proteinortho_grab_proteins.pl": "/usr/local/bin/proteinortho_grab_proteins.pl", "proteinortho_graphMinusRemovegraph": "/usr/local/bin/proteinortho_graphMinusRemovegraph", "proteinortho_history.pl": "/usr/local/bin/proteinortho_history.pl", "proteinortho_singletons.pl": "/usr/local/bin/proteinortho_singletons.pl", "proteinortho_summary.pl": "/usr/local/bin/proteinortho_summary.pl", "proteinortho_treeBuilderCore": "/usr/local/bin/proteinortho_treeBuilderCore", "2to3-3.10": "/usr/local/bin/2to3-3.10", "diamond": "/usr/local/bin/diamond", "idle3.10": "/usr/local/bin/idle3.10", "perl5.32.1": "/usr/local/bin/perl5.32.1", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/proteinortho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteinortho", "latest": {"6.1.1--hedee03e_0": "sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc"}, "tags": {"6.1.1--hedee03e_0": "sha256:ca4852ad87a13e4f6f95f540c0839e9884ee42037562dbe80b0c40631070e6dc"}, "docker": "quay.io/biocontainers/proteinortho", "aliases": {"proteinortho": "/usr/local/bin/proteinortho", "proteinortho2html.pl": "/usr/local/bin/proteinortho2html.pl", "proteinortho2tree.pl": "/usr/local/bin/proteinortho2tree.pl", "proteinortho2xml.pl": "/usr/local/bin/proteinortho2xml.pl", "proteinortho6.pl": "/usr/local/bin/proteinortho6.pl", "proteinortho_cleanupblastgraph": "/usr/local/bin/proteinortho_cleanupblastgraph", "proteinortho_clustering": "/usr/local/bin/proteinortho_clustering", "proteinortho_compareProteinorthoGraphs.pl": "/usr/local/bin/proteinortho_compareProteinorthoGraphs.pl", "proteinortho_do_mcl.pl": "/usr/local/bin/proteinortho_do_mcl.pl", "proteinortho_extract_from_graph.pl": "/usr/local/bin/proteinortho_extract_from_graph.pl", "proteinortho_ffadj_mcs.py": "/usr/local/bin/proteinortho_ffadj_mcs.py", "proteinortho_formatUsearch.pl": "/usr/local/bin/proteinortho_formatUsearch.pl", "proteinortho_grab_proteins.pl": "/usr/local/bin/proteinortho_grab_proteins.pl", "proteinortho_graphMinusRemovegraph": "/usr/local/bin/proteinortho_graphMinusRemovegraph", "proteinortho_history.pl": "/usr/local/bin/proteinortho_history.pl", "proteinortho_singletons.pl": "/usr/local/bin/proteinortho_singletons.pl", "proteinortho_summary.pl": "/usr/local/bin/proteinortho_summary.pl", "proteinortho_treeBuilderCore": "/usr/local/bin/proteinortho_treeBuilderCore", "diamond": "/usr/local/bin/diamond", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteinortho.
@@ -285,15 +286,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/proteinortho_treeBuilderCore 
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### diamond
 
 ```bash
@@ -303,21 +295,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD}
 ```
 
 
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/idle3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### perl5.32.1
-
-```bash
-$ singularity exec <container> /usr/local/bin/perl5.32.1
-$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -354,6 +346,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,11 +4,20 @@ name:  "quay.io/biocontainers/vsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vsnp/container.yaml"
-updated_at: "2022-10-29 05:33:18.843894"
+updated_at: "2022-10-29 07:38:14.465431"
 latest: "2.03--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/vsnp"
 aliases:
+ - "abyss-rresolver-short"
+ - "abyss-stack-size"
  - "cpuinfo"
+ - "irqtop"
+ - "lsirq"
+ - "nsenter"
+ - "prlimit"
+ - "sam_add_rg.pl"
+ - "scriptlive"
+ - "update_version.sh"
  - "vSNP_step1.py"
  - "vSNP_step2.py"
  - "vsnp_alignment_vcf.py"
@@ -28,20 +37,20 @@ aliases:
  - "vsnp_reference_options.py"
  - "vsnp_remove_from_analysis.py"
  - "vsnp_spoligotype.py"
- - "ABYSS"
- - "ABYSS-P"
- - "AdjList"
- - "Consensus"
- - "DAssembler"
- - "DistanceEst"
- - "DistanceEst-ssq"
- - "KAligner"
- - "MergeContigs"
- - "MergePaths"
+ - "cal"
+ - "chmem"
+ - "choom"
+ - "chrt"
+ - "col"
+ - "colcrt"
+ - "colrm"
+ - "column"
+ - "dmesg"
+ - "eject"
 versions:
  - "2.03--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for vsnp"
-config: {"url": "https://biocontainers.pro/tools/vsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vsnp", "latest": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "tags": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "docker": "quay.io/biocontainers/vsnp", "aliases": {"cpuinfo": "/usr/local/bin/cpuinfo", "vSNP_step1.py": "/usr/local/bin/vSNP_step1.py", "vSNP_step2.py": "/usr/local/bin/vSNP_step2.py", "vsnp_alignment_vcf.py": "/usr/local/bin/vsnp_alignment_vcf.py", "vsnp_best_reference.py": "/usr/local/bin/vsnp_best_reference.py", "vsnp_bruc_mlst.py": "/usr/local/bin/vsnp_bruc_mlst.py", "vsnp_chromosome_reference.py": "/usr/local/bin/vsnp_chromosome_reference.py", "vsnp_excel_merge_files.py": "/usr/local/bin/vsnp_excel_merge_files.py", "vsnp_fasta_gbk_gff_by_acc.py": "/usr/local/bin/vsnp_fasta_gbk_gff_by_acc.py", "vsnp_fasta_to_snps_table.py": "/usr/local/bin/vsnp_fasta_to_snps_table.py", "vsnp_fastq_quality.py": "/usr/local/bin/vsnp_fastq_quality.py", "vsnp_file_management.py": "/usr/local/bin/vsnp_file_management.py", "vsnp_filter_finder.py": "/usr/local/bin/vsnp_filter_finder.py", "vsnp_group_reporter.py": "/usr/local/bin/vsnp_group_reporter.py", "vsnp_html_step2_summary.py": "/usr/local/bin/vsnp_html_step2_summary.py", "vsnp_merge_vcf_into_fasta.py": "/usr/local/bin/vsnp_merge_vcf_into_fasta.py", "vsnp_path_adder.py": "/usr/local/bin/vsnp_path_adder.py", "vsnp_reference_options.py": "/usr/local/bin/vsnp_reference_options.py", "vsnp_remove_from_analysis.py": "/usr/local/bin/vsnp_remove_from_analysis.py", "vsnp_spoligotype.py": "/usr/local/bin/vsnp_spoligotype.py", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus", "DAssembler": "/usr/local/bin/DAssembler", "DistanceEst": "/usr/local/bin/DistanceEst", "DistanceEst-ssq": "/usr/local/bin/DistanceEst-ssq", "KAligner": "/usr/local/bin/KAligner", "MergeContigs": "/usr/local/bin/MergeContigs", "MergePaths": "/usr/local/bin/MergePaths"}}
+config: {"url": "https://biocontainers.pro/tools/vsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vsnp", "latest": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "tags": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "docker": "quay.io/biocontainers/vsnp", "aliases": {"abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "abyss-stack-size": "/usr/local/bin/abyss-stack-size", "cpuinfo": "/usr/local/bin/cpuinfo", "irqtop": "/usr/local/bin/irqtop", "lsirq": "/usr/local/bin/lsirq", "nsenter": "/usr/local/bin/nsenter", "prlimit": "/usr/local/bin/prlimit", "sam_add_rg.pl": "/usr/local/bin/sam_add_rg.pl", "scriptlive": "/usr/local/bin/scriptlive", "update_version.sh": "/usr/local/bin/update_version.sh", "vSNP_step1.py": "/usr/local/bin/vSNP_step1.py", "vSNP_step2.py": "/usr/local/bin/vSNP_step2.py", "vsnp_alignment_vcf.py": "/usr/local/bin/vsnp_alignment_vcf.py", "vsnp_best_reference.py": "/usr/local/bin/vsnp_best_reference.py", "vsnp_bruc_mlst.py": "/usr/local/bin/vsnp_bruc_mlst.py", "vsnp_chromosome_reference.py": "/usr/local/bin/vsnp_chromosome_reference.py", "vsnp_excel_merge_files.py": "/usr/local/bin/vsnp_excel_merge_files.py", "vsnp_fasta_gbk_gff_by_acc.py": "/usr/local/bin/vsnp_fasta_gbk_gff_by_acc.py", "vsnp_fasta_to_snps_table.py": "/usr/local/bin/vsnp_fasta_to_snps_table.py", "vsnp_fastq_quality.py": "/usr/local/bin/vsnp_fastq_quality.py", "vsnp_file_management.py": "/usr/local/bin/vsnp_file_management.py", "vsnp_filter_finder.py": "/usr/local/bin/vsnp_filter_finder.py", "vsnp_group_reporter.py": "/usr/local/bin/vsnp_group_reporter.py", "vsnp_html_step2_summary.py": "/usr/local/bin/vsnp_html_step2_summary.py", "vsnp_merge_vcf_into_fasta.py": "/usr/local/bin/vsnp_merge_vcf_into_fasta.py", "vsnp_path_adder.py": "/usr/local/bin/vsnp_path_adder.py", "vsnp_reference_options.py": "/usr/local/bin/vsnp_reference_options.py", "vsnp_remove_from_analysis.py": "/usr/local/bin/vsnp_remove_from_analysis.py", "vsnp_spoligotype.py": "/usr/local/bin/vsnp_spoligotype.py", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vsnp.
@@ -127,12 +136,93 @@ $ singularity inspect -d <container>
 ```
 
 
+#### abyss-rresolver-short
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-rresolver-short
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-rresolver-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-rresolver-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-stack-size
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-stack-size
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-stack-size   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-stack-size   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### cpuinfo
 
 ```bash
 $ singularity exec <container> /usr/local/bin/cpuinfo
 $ podman run --it --rm --entrypoint /usr/local/bin/cpuinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cpuinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### irqtop
+
+```bash
+$ singularity exec <container> /usr/local/bin/irqtop
+$ podman run --it --rm --entrypoint /usr/local/bin/irqtop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/irqtop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lsirq
+
+```bash
+$ singularity exec <container> /usr/local/bin/lsirq
+$ podman run --it --rm --entrypoint /usr/local/bin/lsirq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lsirq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nsenter
+
+```bash
+$ singularity exec <container> /usr/local/bin/nsenter
+$ podman run --it --rm --entrypoint /usr/local/bin/nsenter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nsenter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### prlimit
+
+```bash
+$ singularity exec <container> /usr/local/bin/prlimit
+$ podman run --it --rm --entrypoint /usr/local/bin/prlimit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/prlimit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sam_add_rg.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/sam_add_rg.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/sam_add_rg.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sam_add_rg.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scriptlive
+
+```bash
+$ singularity exec <container> /usr/local/bin/scriptlive
+$ podman run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### update_version.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/update_version.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/update_version.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/update_version.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -307,93 +397,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vsnp_spoligotype.py   -v ${PW
 ```
 
 
-#### ABYSS
+#### cal
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ABYSS
-$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cal
+$ podman run --it --rm --entrypoint /usr/local/bin/cal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cal   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ABYSS-P
+#### chmem
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ABYSS-P
-$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chmem
+$ podman run --it --rm --entrypoint /usr/local/bin/chmem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmem   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### AdjList
+#### choom
 
 ```bash
-$ singularity exec <container> /usr/local/bin/AdjList
-$ podman run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/choom
+$ podman run --it --rm --entrypoint /usr/local/bin/choom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/choom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Consensus
+#### chrt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Consensus
-$ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chrt
+$ podman run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DAssembler
+#### col
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DAssembler
-$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/col
+$ podman run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/col   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DistanceEst
+#### colcrt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/colcrt
+$ podman run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colcrt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DistanceEst-ssq
+#### colrm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DistanceEst-ssq
-$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/colrm
+$ podman run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/colrm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### KAligner
+#### column
 
 ```bash
-$ singularity exec <container> /usr/local/bin/KAligner
-$ podman run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/column
+$ podman run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MergeContigs
+#### dmesg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MergeContigs
-$ podman run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dmesg
+$ podman run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MergePaths
+#### eject
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MergePaths
-$ podman run --it --rm --entrypoint /usr/local/bin/MergePaths   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MergePaths   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/eject
+$ podman run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

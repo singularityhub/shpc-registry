@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/crossmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crossmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crossmap/container.yaml"
-updated_at: "2022-10-29 05:47:30.760703"
+updated_at: "2022-10-29 07:48:43.063708"
 latest: "0.6.4--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/crossmap"
 aliases:
  - "CrossMap.py"
- - "2to3-3.9"
+ - "wigToBigWig"
  - "aggregate_scores_in_intervals.py"
  - "align_print_template.py"
  - "axt_extract_ranges.py"
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.6.4--pyhb7b1952_0"
 description: "shpc-registry automated BioContainers addition for crossmap"
-config: {"url": "https://biocontainers.pro/tools/crossmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crossmap", "latest": {"0.6.4--pyhb7b1952_0": "sha256:fb8612ddf0323ff957e1279fff063378714a8624ad45a68d88ef69dc290988e2"}, "tags": {"0.6.4--pyhb7b1952_0": "sha256:fb8612ddf0323ff957e1279fff063378714a8624ad45a68d88ef69dc290988e2"}, "docker": "quay.io/biocontainers/crossmap", "aliases": {"CrossMap.py": "/usr/local/bin/CrossMap.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
+config: {"url": "https://biocontainers.pro/tools/crossmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crossmap", "latest": {"0.6.4--pyhb7b1952_0": "sha256:fb8612ddf0323ff957e1279fff063378714a8624ad45a68d88ef69dc290988e2"}, "tags": {"0.6.4--pyhb7b1952_0": "sha256:fb8612ddf0323ff957e1279fff063378714a8624ad45a68d88ef69dc290988e2"}, "docker": "quay.io/biocontainers/crossmap", "aliases": {"CrossMap.py": "/usr/local/bin/CrossMap.py", "wigToBigWig": "/usr/local/bin/wigToBigWig", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crossmap.
@@ -117,12 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/CrossMap.py   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.9
+#### wigToBigWig
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wigToBigWig
+$ podman run --it --rm --entrypoint /usr/local/bin/wigToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wigToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

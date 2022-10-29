@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dchiprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dchiprep/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dchiprep/container.yaml"
-updated_at: "2022-10-29 05:58:35.675885"
+updated_at: "2022-10-29 07:56:48.915107"
 latest: "1.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dchiprep"
 aliases:
+ - "wget"
  - "ncurses5-config"
  - "ncursesw5-config"
- - "wget"
 versions:
  - "1.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dchiprep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dchiprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dchiprep", "latest": {"1.8.0--r3.4.1_0": "sha256:e6e21322dceca279d29dbd292fcaefbca1257821ef4e46c972a2c8e21ca83c0b"}, "tags": {"1.8.0--r3.4.1_0": "sha256:e6e21322dceca279d29dbd292fcaefbca1257821ef4e46c972a2c8e21ca83c0b"}, "docker": "quay.io/biocontainers/bioconductor-dchiprep", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dchiprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dchiprep", "latest": {"1.8.0--r3.4.1_0": "sha256:e6e21322dceca279d29dbd292fcaefbca1257821ef4e46c972a2c8e21ca83c0b"}, "tags": {"1.8.0--r3.4.1_0": "sha256:e6e21322dceca279d29dbd292fcaefbca1257821ef4e46c972a2c8e21ca83c0b"}, "docker": "quay.io/biocontainers/bioconductor-dchiprep", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dchiprep.
@@ -100,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ncurses5-config
 
 ```bash
@@ -115,15 +124,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/ncursesw5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

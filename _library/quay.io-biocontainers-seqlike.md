@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/seqlike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqlike/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/seqlike/container.yaml"
-updated_at: "2022-10-29 05:40:16.362230"
+updated_at: "2022-10-29 07:43:21.180625"
 latest: "1.1.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/seqlike"
 aliases:
- - "2to3-3.10"
+ - "transformseq"
+ - "weblogo"
  - "dvipdf"
  - "eps2eps"
- - "f2py3.10"
  - "gs"
  - "gsbj"
  - "gsdj"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.1.6--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for seqlike"
-config: {"url": "https://biocontainers.pro/tools/seqlike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqlike", "latest": {"1.1.6--pyh5e36f6f_0": "sha256:6c439d5987ded03966cd308e70d67cf1b501e1e7fd9a5cdee9bf503e8ab40433"}, "tags": {"1.1.6--pyh5e36f6f_0": "sha256:6c439d5987ded03966cd308e70d67cf1b501e1e7fd9a5cdee9bf503e8ab40433"}, "docker": "quay.io/biocontainers/seqlike", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "f2py3.10": "/usr/local/bin/f2py3.10", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp"}}
+config: {"url": "https://biocontainers.pro/tools/seqlike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqlike", "latest": {"1.1.6--pyh5e36f6f_0": "sha256:6c439d5987ded03966cd308e70d67cf1b501e1e7fd9a5cdee9bf503e8ab40433"}, "tags": {"1.1.6--pyh5e36f6f_0": "sha256:6c439d5987ded03966cd308e70d67cf1b501e1e7fd9a5cdee9bf503e8ab40433"}, "docker": "quay.io/biocontainers/seqlike", "aliases": {"transformseq": "/usr/local/bin/transformseq", "weblogo": "/usr/local/bin/weblogo", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqlike.
@@ -107,12 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
+#### transformseq
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/transformseq
+$ podman run --it --rm --entrypoint /usr/local/bin/transformseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/transformseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### weblogo
+
+```bash
+$ singularity exec <container> /usr/local/bin/weblogo
+$ podman run --it --rm --entrypoint /usr/local/bin/weblogo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/weblogo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -131,15 +140,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/eps2eps
 $ podman run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

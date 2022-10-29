@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/meta-sparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meta-sparse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/meta-sparse/container.yaml"
-updated_at: "2022-10-29 05:58:02.081199"
+updated_at: "2022-10-29 07:56:24.463414"
 latest: "0.1.2--py27h24bf2e0_2"
 container_url: "https://biocontainers.pro/tools/meta-sparse"
 aliases:
  - "capnpc-cython"
  - "sparse"
- - "ace2sam"
- - "blast2sam.pl"
+ - "mash"
+ - "cygdb"
+ - "cython"
+ - "cythonize"
  - "bowtie2"
  - "bowtie2-align-l"
  - "bowtie2-align-s"
  - "bowtie2-build"
  - "bowtie2-build-l"
  - "bowtie2-build-s"
- - "bowtie2-inspect"
- - "bowtie2-inspect-l"
 versions:
  - "0.1.2--py27h24bf2e0_2"
 description: "shpc-registry automated BioContainers addition for meta-sparse"
-config: {"url": "https://biocontainers.pro/tools/meta-sparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meta-sparse", "latest": {"0.1.2--py27h24bf2e0_2": "sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d"}, "tags": {"0.1.2--py27h24bf2e0_2": "sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d"}, "docker": "quay.io/biocontainers/meta-sparse", "aliases": {"capnpc-cython": "/usr/local/bin/capnpc-cython", "sparse": "/usr/local/bin/sparse", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l"}}
+config: {"url": "https://biocontainers.pro/tools/meta-sparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for meta-sparse", "latest": {"0.1.2--py27h24bf2e0_2": "sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d"}, "tags": {"0.1.2--py27h24bf2e0_2": "sha256:08be3eaa3087092270629b92f393b3573f2afaa8063db42187421a4703fd3f2d"}, "docker": "quay.io/biocontainers/meta-sparse", "aliases": {"capnpc-cython": "/usr/local/bin/capnpc-cython", "sparse": "/usr/local/bin/sparse", "mash": "/usr/local/bin/mash", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/meta-sparse.
@@ -127,21 +127,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sparse   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### ace2sam
+#### mash
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mash
+$ podman run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### cygdb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cython
+
+```bash
+$ singularity exec <container> /usr/local/bin/cython
+$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cythonize
+
+```bash
+$ singularity exec <container> /usr/local/bin/cythonize
+$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -196,24 +214,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/bowtie2-build-s
 $ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-inspect
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-inspect-l
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

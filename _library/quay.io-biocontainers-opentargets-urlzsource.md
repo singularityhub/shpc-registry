@@ -4,22 +4,22 @@ name:  "quay.io/biocontainers/opentargets-urlzsource"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opentargets-urlzsource/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets-urlzsource/container.yaml"
-updated_at: "2022-10-29 05:54:21.991167"
+updated_at: "2022-10-29 07:53:44.855589"
 latest: "1.0.0--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/opentargets-urlzsource"
 aliases:
- - "2to3-3.8"
- - "chardetect"
  - "futurize"
- - "idle3.8"
  - "pasteurize"
+ - "chardetect"
+ - "2to3-3.8"
+ - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
 versions:
  - "1.0.0--pyh864c0ab_0"
 description: "shpc-registry automated BioContainers addition for opentargets-urlzsource"
-config: {"url": "https://biocontainers.pro/tools/opentargets-urlzsource", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opentargets-urlzsource", "latest": {"1.0.0--pyh864c0ab_0": "sha256:12d7c0bde3052b8ec4ebefe4dccff27f45db947867fdb1c05760ce21c02c1b15"}, "tags": {"1.0.0--pyh864c0ab_0": "sha256:12d7c0bde3052b8ec4ebefe4dccff27f45db947867fdb1c05760ce21c02c1b15"}, "docker": "quay.io/biocontainers/opentargets-urlzsource", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "futurize": "/usr/local/bin/futurize", "idle3.8": "/usr/local/bin/idle3.8", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/opentargets-urlzsource", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for opentargets-urlzsource", "latest": {"1.0.0--pyh864c0ab_0": "sha256:12d7c0bde3052b8ec4ebefe4dccff27f45db947867fdb1c05760ce21c02c1b15"}, "tags": {"1.0.0--pyh864c0ab_0": "sha256:12d7c0bde3052b8ec4ebefe4dccff27f45db947867fdb1c05760ce21c02c1b15"}, "docker": "quay.io/biocontainers/opentargets-urlzsource", "aliases": {"futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "chardetect": "/usr/local/bin/chardetect", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/opentargets-urlzsource.
@@ -105,12 +105,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.8
+#### futurize
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -123,12 +132,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${P
 ```
 
 
-#### futurize
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -138,15 +147,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/idle3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pasteurize
-
-```bash
-$ singularity exec <container> /usr/local/bin/pasteurize
-$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

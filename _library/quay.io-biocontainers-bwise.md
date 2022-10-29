@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bwise"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwise/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwise/container.yaml"
-updated_at: "2022-10-29 05:58:43.198874"
+updated_at: "2022-10-29 07:56:54.498903"
 latest: "1.0.0--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/bwise"
 aliases:
@@ -13,16 +13,16 @@ aliases:
  - "btrim"
  - "bwise"
  - "2to3-3.10"
- - "h5cc"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
+ - "h5cc"
 versions:
  - "1.0.0--h5b5514e_2"
 description: "shpc-registry automated BioContainers addition for bwise"
-config: {"url": "https://biocontainers.pro/tools/bwise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwise", "latest": {"1.0.0--h5b5514e_2": "sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311"}, "tags": {"1.0.0--h5b5514e_2": "sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311"}, "docker": "quay.io/biocontainers/bwise", "aliases": {"bcalm": "/usr/local/bin/bcalm", "bgreat": "/usr/local/bin/bgreat", "btrim": "/usr/local/bin/btrim", "bwise": "/usr/local/bin/bwise", "2to3-3.10": "/usr/local/bin/2to3-3.10", "h5cc": "/usr/local/bin/h5cc", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bwise", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwise", "latest": {"1.0.0--h5b5514e_2": "sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311"}, "tags": {"1.0.0--h5b5514e_2": "sha256:473530ec687bd650d518f8330e94e0885e896ef3730e9284817fdb028e2a0311"}, "docker": "quay.io/biocontainers/bwise", "aliases": {"bcalm": "/usr/local/bin/bcalm", "bgreat": "/usr/local/bin/bgreat", "btrim": "/usr/local/bin/btrim", "bwise": "/usr/local/bin/bwise", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwise.
@@ -153,15 +153,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 ```
 
 
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### idle3.10
 
 ```bash
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

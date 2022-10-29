@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/crypto_typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crypto_typer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crypto_typer/container.yaml"
-updated_at: "2022-10-29 05:47:43.356433"
+updated_at: "2022-10-29 07:48:52.280570"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/crypto_typer"
 aliases:
  - "crypto_typer"
- - "2to3-3.7"
- - "blast_formatter"
  - "blast_report"
- - "blastdb_aliastool"
  - "blastdb_convert"
  - "blastdb_path"
- - "blastdbcheck"
- - "blastdbcmd"
- - "blastdbcp"
- - "blastn"
+ - "certtool"
+ - "gnutls-cli"
+ - "gnutls-cli-debug"
+ - "gnutls-serv"
+ - "nettle-hash"
+ - "nettle-lfib-stream"
+ - "nettle-pbkdf2"
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for crypto_typer"
-config: {"url": "https://biocontainers.pro/tools/crypto_typer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crypto_typer", "latest": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "tags": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "docker": "quay.io/biocontainers/crypto_typer", "aliases": {"crypto_typer": "/usr/local/bin/crypto_typer", "2to3-3.7": "/usr/local/bin/2to3-3.7", "blast_formatter": "/usr/local/bin/blast_formatter", "blast_report": "/usr/local/bin/blast_report", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn"}}
+config: {"url": "https://biocontainers.pro/tools/crypto_typer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crypto_typer", "latest": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "tags": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "docker": "quay.io/biocontainers/crypto_typer", "aliases": {"crypto_typer": "/usr/local/bin/crypto_typer", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash", "nettle-lfib-stream": "/usr/local/bin/nettle-lfib-stream", "nettle-pbkdf2": "/usr/local/bin/nettle-pbkdf2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crypto_typer.
@@ -117,39 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/crypto_typer   -v ${PWD} -w $
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast_formatter
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### blast_report
 
 ```bash
 $ singularity exec <container> /usr/local/bin/blast_report
 $ podman run --it --rm --entrypoint /usr/local/bin/blast_report   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/blast_report   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blastdb_aliastool
-
-```bash
-$ singularity exec <container> /usr/local/bin/blastdb_aliastool
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -171,39 +144,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blastdb_path   -v ${PWD} -w $
 ```
 
 
-#### blastdbcheck
+#### certtool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcheck
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/certtool
+$ podman run --it --rm --entrypoint /usr/local/bin/certtool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certtool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcmd
+#### gnutls-cli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcmd
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gnutls-cli
+$ podman run --it --rm --entrypoint /usr/local/bin/gnutls-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gnutls-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastdbcp
+#### gnutls-cli-debug
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastdbcp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gnutls-cli-debug
+$ podman run --it --rm --entrypoint /usr/local/bin/gnutls-cli-debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gnutls-cli-debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastn
+#### gnutls-serv
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastn
-$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gnutls-serv
+$ podman run --it --rm --entrypoint /usr/local/bin/gnutls-serv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gnutls-serv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nettle-hash
+
+```bash
+$ singularity exec <container> /usr/local/bin/nettle-hash
+$ podman run --it --rm --entrypoint /usr/local/bin/nettle-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nettle-hash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nettle-lfib-stream
+
+```bash
+$ singularity exec <container> /usr/local/bin/nettle-lfib-stream
+$ podman run --it --rm --entrypoint /usr/local/bin/nettle-lfib-stream   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nettle-lfib-stream   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nettle-pbkdf2
+
+```bash
+$ singularity exec <container> /usr/local/bin/nettle-pbkdf2
+$ podman run --it --rm --entrypoint /usr/local/bin/nettle-pbkdf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nettle-pbkdf2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,18 +4,23 @@ name:  "quay.io/biocontainers/harmony-pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
-updated_at: "2022-10-29 05:46:40.378795"
+updated_at: "2022-10-29 07:48:05.739597"
 latest: "0.1.7--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/harmony-pytorch"
 aliases:
  - "convert-caffe2-to-onnx"
  - "convert-onnx-to-caffe2"
- - "f2py3.8"
  - "ninja"
+ - "f2py3.8"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "0.1.7--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for harmony-pytorch"
-config: {"url": "https://biocontainers.pro/tools/harmony-pytorch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmony-pytorch", "latest": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "docker": "quay.io/biocontainers/harmony-pytorch", "aliases": {"convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "f2py3.8": "/usr/local/bin/f2py3.8", "ninja": "/usr/local/bin/ninja"}}
+config: {"url": "https://biocontainers.pro/tools/harmony-pytorch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmony-pytorch", "latest": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "docker": "quay.io/biocontainers/harmony-pytorch", "aliases": {"convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/harmony-pytorch.
@@ -119,6 +124,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v $
 ```
 
 
+#### ninja
+
+```bash
+$ singularity exec <container> /usr/local/bin/ninja
+$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### f2py3.8
 
 ```bash
@@ -128,12 +142,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD}
 ```
 
 
-#### ninja
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ninja
-$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

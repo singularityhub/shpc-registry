@@ -4,32 +4,34 @@ name:  "quay.io/biocontainers/isescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isescan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/isescan/container.yaml"
-updated_at: "2022-10-29 05:55:36.918677"
+updated_at: "2022-10-29 07:54:39.401313"
 latest: "1.7.2.3--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/isescan"
 aliases:
+ - "FragGeneScan"
  - "constants.py"
  - "isPredict.py"
  - "is_analysis.py"
  - "isescan.py"
  - "pred.py"
  - "pyssw.py"
+ - "run_FragGeneScan.pl"
  - "ssw_wrap.py"
  - "tools.py"
- - "2to3-3.10"
- - "FragGeneScan"
- - "accn-at-a-time"
+ - "edirect.py"
+ - "filter-columns"
+ - "fuse-segments"
+ - "gene2range"
+ - "tbl2prod"
+ - "uniq-table"
  - "align-columns"
- - "alimask"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asn2xml"
- - "between-two-genes"
- - "blast_formatter"
+ - "blst2tkns"
+ - "csv2xml"
+ - "disambiguate-nucleotides"
 versions:
  - "1.7.2.3--hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for isescan"
-config: {"url": "https://biocontainers.pro/tools/isescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isescan", "latest": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab"}, "tags": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab"}, "docker": "quay.io/biocontainers/isescan", "aliases": {"constants.py": "/usr/local/bin/constants.py", "isPredict.py": "/usr/local/bin/isPredict.py", "is_analysis.py": "/usr/local/bin/is_analysis.py", "isescan.py": "/usr/local/bin/isescan.py", "pred.py": "/usr/local/bin/pred.py", "pyssw.py": "/usr/local/bin/pyssw.py", "ssw_wrap.py": "/usr/local/bin/ssw_wrap.py", "tools.py": "/usr/local/bin/tools.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "FragGeneScan": "/usr/local/bin/FragGeneScan", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter"}}
+config: {"url": "https://biocontainers.pro/tools/isescan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isescan", "latest": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab"}, "tags": {"1.7.2.3--hec16e2b_1": "sha256:b72103cf8c859553b3a1f829863ec86f778052ad102754ae18f3b8508db282ab"}, "docker": "quay.io/biocontainers/isescan", "aliases": {"FragGeneScan": "/usr/local/bin/FragGeneScan", "constants.py": "/usr/local/bin/constants.py", "isPredict.py": "/usr/local/bin/isPredict.py", "is_analysis.py": "/usr/local/bin/is_analysis.py", "isescan.py": "/usr/local/bin/isescan.py", "pred.py": "/usr/local/bin/pred.py", "pyssw.py": "/usr/local/bin/pyssw.py", "run_FragGeneScan.pl": "/usr/local/bin/run_FragGeneScan.pl", "ssw_wrap.py": "/usr/local/bin/ssw_wrap.py", "tools.py": "/usr/local/bin/tools.py", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isescan.
@@ -115,6 +117,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### FragGeneScan
+
+```bash
+$ singularity exec <container> /usr/local/bin/FragGeneScan
+$ podman run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### constants.py
 
 ```bash
@@ -169,6 +180,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyssw.py   -v ${PWD} -w ${PWD
 ```
 
 
+#### run_FragGeneScan.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/run_FragGeneScan.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/run_FragGeneScan.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run_FragGeneScan.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ssw_wrap.py
 
 ```bash
@@ -187,30 +207,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tools.py   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.10
+#### edirect.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/edirect.py
+$ podman run --it --rm --entrypoint /usr/local/bin/edirect.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/edirect.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FragGeneScan
+#### filter-columns
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FragGeneScan
-$ podman run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/filter-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/filter-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### fuse-segments
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fuse-segments
+$ podman run --it --rm --entrypoint /usr/local/bin/fuse-segments   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fuse-segments   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gene2range
+
+```bash
+$ singularity exec <container> /usr/local/bin/gene2range
+$ podman run --it --rm --entrypoint /usr/local/bin/gene2range   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gene2range   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tbl2prod
+
+```bash
+$ singularity exec <container> /usr/local/bin/tbl2prod
+$ podman run --it --rm --entrypoint /usr/local/bin/tbl2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tbl2prod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### uniq-table
+
+```bash
+$ singularity exec <container> /usr/local/bin/uniq-table
+$ podman run --it --rm --entrypoint /usr/local/bin/uniq-table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uniq-table   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -223,57 +270,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w 
 ```
 
 
-#### alimask
+#### blst2tkns
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blst2tkns
+$ podman run --it --rm --entrypoint /usr/local/bin/blst2tkns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blst2tkns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### csv2xml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/csv2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/csv2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### disambiguate-nucleotides
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### asn2xml
-
-```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### between-two-genes
-
-```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast_formatter
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast_formatter
-$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/disambiguate-nucleotides
+$ podman run --it --rm --entrypoint /usr/local/bin/disambiguate-nucleotides   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/disambiguate-nucleotides   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biotradis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biotradis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biotradis/container.yaml"
-updated_at: "2022-10-29 05:41:56.956141"
+updated_at: "2022-10-29 07:44:35.399159"
 latest: "1.4.5--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/biotradis"
 aliases:
@@ -15,6 +15,7 @@ aliases:
  - "combine_tradis_plots"
  - "fetchseq"
  - "filter_tradis_tags"
+ - "mixreads"
  - "readstats"
  - "remove_tradis_tags"
  - "simqual"
@@ -28,20 +29,20 @@ aliases:
  - "tradis_merge_plots"
  - "tradis_plot"
  - "trunkreads"
- - "2to3-3.7"
- - "SOAPsh.pl"
- - "ace.pl"
- - "ace2sam"
- - "acyclic"
- - "annotate"
+ - "config_data"
  - "bam2bedgraph"
- - "bamToGBrowse.pl"
+ - "bp_pairwise_kaks"
+ - "bp_find-blast-matches.pl"
+ - "t_coffee"
  - "baseml"
  - "basemlg"
+ - "chi2"
+ - "codeml"
+ - "evolver"
 versions:
  - "1.4.5--hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for biotradis"
-config: {"url": "https://biocontainers.pro/tools/biotradis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biotradis", "latest": {"1.4.5--hdfd78af_5": "sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054"}, "tags": {"1.4.5--hdfd78af_5": "sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054"}, "docker": "quay.io/biocontainers/biotradis", "aliases": {"add_tradis_tags": "/usr/local/bin/add_tradis_tags", "bacteria_tradis": "/usr/local/bin/bacteria_tradis", "basqcol": "/usr/local/bin/basqcol", "check_tradis_tags": "/usr/local/bin/check_tradis_tags", "combine_tradis_plots": "/usr/local/bin/combine_tradis_plots", "fetchseq": "/usr/local/bin/fetchseq", "filter_tradis_tags": "/usr/local/bin/filter_tradis_tags", "readstats": "/usr/local/bin/readstats", "remove_tradis_tags": "/usr/local/bin/remove_tradis_tags", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "tradis_comparison.R": "/usr/local/bin/tradis_comparison.R", "tradis_essentiality.R": "/usr/local/bin/tradis_essentiality.R", "tradis_gene_insert_sites": "/usr/local/bin/tradis_gene_insert_sites", "tradis_merge_plots": "/usr/local/bin/tradis_merge_plots", "tradis_plot": "/usr/local/bin/tradis_plot", "trunkreads": "/usr/local/bin/trunkreads", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "ace2sam": "/usr/local/bin/ace2sam", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
+config: {"url": "https://biocontainers.pro/tools/biotradis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biotradis", "latest": {"1.4.5--hdfd78af_5": "sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054"}, "tags": {"1.4.5--hdfd78af_5": "sha256:c6abddaabd2c7cb244c14acc9b7c22ca04faa439bc4cd8e85a6551550ba91054"}, "docker": "quay.io/biocontainers/biotradis", "aliases": {"add_tradis_tags": "/usr/local/bin/add_tradis_tags", "bacteria_tradis": "/usr/local/bin/bacteria_tradis", "basqcol": "/usr/local/bin/basqcol", "check_tradis_tags": "/usr/local/bin/check_tradis_tags", "combine_tradis_plots": "/usr/local/bin/combine_tradis_plots", "fetchseq": "/usr/local/bin/fetchseq", "filter_tradis_tags": "/usr/local/bin/filter_tradis_tags", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "remove_tradis_tags": "/usr/local/bin/remove_tradis_tags", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "tradis_comparison.R": "/usr/local/bin/tradis_comparison.R", "tradis_essentiality.R": "/usr/local/bin/tradis_essentiality.R", "tradis_gene_insert_sites": "/usr/local/bin/tradis_gene_insert_sites", "tradis_merge_plots": "/usr/local/bin/tradis_merge_plots", "tradis_plot": "/usr/local/bin/tradis_plot", "trunkreads": "/usr/local/bin/trunkreads", "config_data": "/usr/local/bin/config_data", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biotradis.
@@ -190,6 +191,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filter_tradis_tags   -v ${PWD
 ```
 
 
+#### mixreads
+
+```bash
+$ singularity exec <container> /usr/local/bin/mixreads
+$ podman run --it --rm --entrypoint /usr/local/bin/mixreads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mixreads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### readstats
 
 ```bash
@@ -307,57 +317,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/trunkreads   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.7
+#### config_data
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### SOAPsh.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/config_data
+$ podman run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -370,12 +335,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w $
 ```
 
 
-#### bamToGBrowse.pl
+#### bp_pairwise_kaks
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_find-blast-matches.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_find-blast-matches.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### t_coffee
+
+```bash
+$ singularity exec <container> /usr/local/bin/t_coffee
+$ podman run --it --rm --entrypoint /usr/local/bin/t_coffee   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/t_coffee   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -394,6 +377,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/basemlg
 $ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chi2
+
+```bash
+$ singularity exec <container> /usr/local/bin/chi2
+$ podman run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### codeml
+
+```bash
+$ singularity exec <container> /usr/local/bin/codeml
+$ podman run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### evolver
+
+```bash
+$ singularity exec <container> /usr/local/bin/evolver
+$ podman run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

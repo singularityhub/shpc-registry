@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scvi-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvi-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scvi-tools/container.yaml"
-updated_at: "2022-10-29 05:58:27.533501"
+updated_at: "2022-10-29 07:56:42.958716"
 latest: "0.9.1--py_0"
 container_url: "https://biocontainers.pro/tools/scvi-tools"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "keyring"
  - "pkginfo"
  - "poetry"
- - "2to3-3.8"
- - "chardetect"
- - "cmark"
  - "convert-caffe2-to-onnx"
  - "convert-onnx-to-caffe2"
- - "curve_keygen"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
- - "dbus-launch"
- - "dbus-monitor"
+ - "ninja"
+ - "google-oauthlib-tool"
+ - "cmark"
+ - "jupyter-bundlerextension"
+ - "jupyter-nbextension"
+ - "jupyter-notebook"
+ - "jupyter-serverextension"
+ - "jupyter-nbconvert"
 versions:
  - "0.9.1--py_0"
 description: "shpc-registry automated BioContainers addition for scvi-tools"
-config: {"url": "https://biocontainers.pro/tools/scvi-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvi-tools", "latest": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "tags": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "docker": "quay.io/biocontainers/scvi-tools", "aliases": {"hyperopt-mongo-worker": "/usr/local/bin/hyperopt-mongo-worker", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "cmark": "/usr/local/bin/cmark", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "curve_keygen": "/usr/local/bin/curve_keygen", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor"}}
+config: {"url": "https://biocontainers.pro/tools/scvi-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvi-tools", "latest": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "tags": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "docker": "quay.io/biocontainers/scvi-tools", "aliases": {"hyperopt-mongo-worker": "/usr/local/bin/hyperopt-mongo-worker", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "google-oauthlib-tool": "/usr/local/bin/google-oauthlib-tool", "cmark": "/usr/local/bin/cmark", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scvi-tools.
@@ -147,33 +147,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/poetry   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cmark
-
-```bash
-$ singularity exec <container> /usr/local/bin/cmark
-$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### convert-caffe2-to-onnx
 
 ```bash
@@ -192,48 +165,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v $
 ```
 
 
-#### curve_keygen
+#### ninja
 
 ```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ninja
+$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### google-oauthlib-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/google-oauthlib-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/google-oauthlib-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### cmark
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cmark
+$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-launch
+#### jupyter-bundlerextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-launch
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-bundlerextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-monitor
+#### jupyter-nbextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-monitor
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-notebook
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-notebook
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-serverextension
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-serverextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-nbconvert
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-nbconvert
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

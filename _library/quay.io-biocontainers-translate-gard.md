@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/translate-gard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/translate-gard/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/translate-gard/container.yaml"
-updated_at: "2022-10-29 05:31:50.936705"
+updated_at: "2022-10-29 07:37:09.994325"
 latest: "1.0.4--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/translate-gard"
 aliases:
- - "translate-gard"
  - "node"
  - "npm"
+ - "translate-gard"
 versions:
  - "1.0.4--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for translate-gard"
-config: {"url": "https://biocontainers.pro/tools/translate-gard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for translate-gard", "latest": {"1.0.4--h9ee0642_1": "sha256:67918e31f6f90adee83f1ec68e6575f0a1a84916f6a659e62d4a6f72c177aba3"}, "tags": {"1.0.4--h9ee0642_1": "sha256:67918e31f6f90adee83f1ec68e6575f0a1a84916f6a659e62d4a6f72c177aba3"}, "docker": "quay.io/biocontainers/translate-gard", "aliases": {"translate-gard": "/usr/local/bin/translate-gard", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm"}}
+config: {"url": "https://biocontainers.pro/tools/translate-gard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for translate-gard", "latest": {"1.0.4--h9ee0642_1": "sha256:67918e31f6f90adee83f1ec68e6575f0a1a84916f6a659e62d4a6f72c177aba3"}, "tags": {"1.0.4--h9ee0642_1": "sha256:67918e31f6f90adee83f1ec68e6575f0a1a84916f6a659e62d4a6f72c177aba3"}, "docker": "quay.io/biocontainers/translate-gard", "aliases": {"node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "translate-gard": "/usr/local/bin/translate-gard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/translate-gard.
@@ -100,15 +100,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### translate-gard
-
-```bash
-$ singularity exec <container> /usr/local/bin/translate-gard
-$ podman run --it --rm --entrypoint /usr/local/bin/translate-gard   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/translate-gard   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### node
 
 ```bash
@@ -124,6 +115,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/node   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/npm
 $ podman run --it --rm --entrypoint /usr/local/bin/npm   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/npm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### translate-gard
+
+```bash
+$ singularity exec <container> /usr/local/bin/translate-gard
+$ podman run --it --rm --entrypoint /usr/local/bin/translate-gard   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/translate-gard   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

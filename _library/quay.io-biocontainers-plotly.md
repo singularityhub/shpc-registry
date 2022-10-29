@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/plotly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotly/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/plotly/container.yaml"
-updated_at: "2022-10-29 05:33:35.823961"
+updated_at: "2022-10-29 07:38:26.958415"
 latest: "3.1.1"
 container_url: "https://biocontainers.pro/tools/plotly"
 aliases:
- - "2to3-3.6"
- - "chardetect"
- - "idle3.6"
- - "jsonschema"
+ - "jupyter-trust"
  - "jupyter"
  - "jupyter-migrate"
  - "jupyter-troubleshoot"
- - "jupyter-trust"
- - "ncurses5-config"
- - "ncursesw5-config"
+ - "jsonschema"
+ - "chardetect"
+ - "2to3-3.6"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "python3.6"
 versions:
  - "3.1.1"
 description: "shpc-registry automated BioContainers addition for plotly"
-config: {"url": "https://biocontainers.pro/tools/plotly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plotly", "latest": {"3.1.1": "sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207"}, "tags": {"3.1.1": "sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207"}, "docker": "quay.io/biocontainers/plotly", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "chardetect": "/usr/local/bin/chardetect", "idle3.6": "/usr/local/bin/idle3.6", "jsonschema": "/usr/local/bin/jsonschema", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jupyter-trust": "/usr/local/bin/jupyter-trust", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/plotly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plotly", "latest": {"3.1.1": "sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207"}, "tags": {"3.1.1": "sha256:c730bd10f824df20fe15a38d11a058e6864fd17124ccb11ce9d0bd0a24836207"}, "docker": "quay.io/biocontainers/plotly", "aliases": {"jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jsonschema": "/usr/local/bin/jsonschema", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plotly.
@@ -107,39 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
+#### jupyter-trust
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jsonschema
-
-```bash
-$ singularity exec <container> /usr/local/bin/jsonschema
-$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-trust
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -170,30 +143,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/jupyter-troubleshoot   -v ${P
 ```
 
 
-#### jupyter-trust
+#### jsonschema
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jupyter-trust
-$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jsonschema
+$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ncurses5-config
+#### chardetect
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ncursesw5-config
+#### 2to3-3.6
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

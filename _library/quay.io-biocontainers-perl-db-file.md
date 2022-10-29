@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/perl-db-file"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-db-file/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-db-file/container.yaml"
-updated_at: "2022-10-29 05:52:54.992520"
+updated_at: "2022-10-29 07:52:41.617475"
 latest: "1.855--pl5321h779adbc_1"
 container_url: "https://biocontainers.pro/tools/perl-db-file"
 aliases:
+ - "db_convert"
  - "db_archive"
  - "db_checkpoint"
- - "db_convert"
  - "db_deadlock"
  - "db_dump"
  - "db_hotbackup"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.855--pl5321h779adbc_1"
 description: "shpc-registry automated BioContainers addition for perl-db-file"
-config: {"url": "https://biocontainers.pro/tools/perl-db-file", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-db-file", "latest": {"1.855--pl5321h779adbc_1": "sha256:30ddaf79506f3237e0d95f5db673a3d89baeb932801da71dbe8ed3782f851d7c"}, "tags": {"1.855--pl5321h779adbc_1": "sha256:30ddaf79506f3237e0d95f5db673a3d89baeb932801da71dbe8ed3782f851d7c"}, "docker": "quay.io/biocontainers/perl-db-file", "aliases": {"db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_convert": "/usr/local/bin/db_convert", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load", "db_log_verify": "/usr/local/bin/db_log_verify", "db_printlog": "/usr/local/bin/db_printlog", "db_recover": "/usr/local/bin/db_recover"}}
+config: {"url": "https://biocontainers.pro/tools/perl-db-file", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-db-file", "latest": {"1.855--pl5321h779adbc_1": "sha256:30ddaf79506f3237e0d95f5db673a3d89baeb932801da71dbe8ed3782f851d7c"}, "tags": {"1.855--pl5321h779adbc_1": "sha256:30ddaf79506f3237e0d95f5db673a3d89baeb932801da71dbe8ed3782f851d7c"}, "docker": "quay.io/biocontainers/perl-db-file", "aliases": {"db_convert": "/usr/local/bin/db_convert", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup", "db_load": "/usr/local/bin/db_load", "db_log_verify": "/usr/local/bin/db_log_verify", "db_printlog": "/usr/local/bin/db_printlog", "db_recover": "/usr/local/bin/db_recover"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-db-file.
@@ -107,6 +107,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### db_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/db_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### db_archive
 
 ```bash
@@ -122,15 +131,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/db_archive   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/db_checkpoint
 $ podman run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### db_convert
-
-```bash
-$ singularity exec <container> /usr/local/bin/db_convert
-$ podman run --it --rm --entrypoint /usr/local/bin/db_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/db_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

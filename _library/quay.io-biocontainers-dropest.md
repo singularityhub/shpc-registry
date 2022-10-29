@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/dropest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dropest/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dropest/container.yaml"
-updated_at: "2022-10-29 05:56:47.853117"
+updated_at: "2022-10-29 07:55:30.630089"
 latest: "0.8.6--r41he6cf555_4"
 container_url: "https://biocontainers.pro/tools/dropest"
 aliases:
  - "dropReport.Rsc"
  - "dropest"
  - "droptag"
- - "2to3-3.10"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.8.6--r41he6cf555_4"
 description: "shpc-registry automated BioContainers addition for dropest"
-config: {"url": "https://biocontainers.pro/tools/dropest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropest", "latest": {"0.8.6--r41he6cf555_4": "sha256:5ff67249afd14e5c1e7f2785442885a75cc509377780be54d8585fb57ba94cb9"}, "tags": {"0.8.6--r41he6cf555_4": "sha256:5ff67249afd14e5c1e7f2785442885a75cc509377780be54d8585fb57ba94cb9"}, "docker": "quay.io/biocontainers/dropest", "aliases": {"dropReport.Rsc": "/usr/local/bin/dropReport.Rsc", "dropest": "/usr/local/bin/dropest", "droptag": "/usr/local/bin/droptag", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/dropest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dropest", "latest": {"0.8.6--r41he6cf555_4": "sha256:5ff67249afd14e5c1e7f2785442885a75cc509377780be54d8585fb57ba94cb9"}, "tags": {"0.8.6--r41he6cf555_4": "sha256:5ff67249afd14e5c1e7f2785442885a75cc509377780be54d8585fb57ba94cb9"}, "docker": "quay.io/biocontainers/dropest", "aliases": {"dropReport.Rsc": "/usr/local/bin/dropReport.Rsc", "dropest": "/usr/local/bin/dropest", "droptag": "/usr/local/bin/droptag", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dropest.
@@ -134,21 +134,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/droptag   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

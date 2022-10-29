@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/psiclass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psiclass/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/psiclass/container.yaml"
-updated_at: "2022-10-29 05:30:49.701129"
+updated_at: "2022-10-29 07:36:25.302079"
 latest: "1.0.3--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/psiclass"
 aliases:
@@ -16,10 +16,12 @@ aliases:
  - "subexon-info"
  - "trust-splice"
  - "vote-transcripts"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.0.3--h87f3376_0"
 description: "shpc-registry automated BioContainers addition for psiclass"
-config: {"url": "https://biocontainers.pro/tools/psiclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psiclass", "latest": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2"}, "tags": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2"}, "docker": "quay.io/biocontainers/psiclass", "aliases": {"add-genename": "/usr/local/bin/add-genename", "classes": "/usr/local/bin/classes", "combine-subexons": "/usr/local/bin/combine-subexons", "junc": "/usr/local/bin/junc", "psiclass": "/usr/local/bin/psiclass", "subexon-info": "/usr/local/bin/subexon-info", "trust-splice": "/usr/local/bin/trust-splice", "vote-transcripts": "/usr/local/bin/vote-transcripts"}}
+config: {"url": "https://biocontainers.pro/tools/psiclass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psiclass", "latest": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2"}, "tags": {"1.0.3--h87f3376_0": "sha256:1b62a8b80e084a6b6aa11f51c5b578aa69398c6ada84e0dd13e8dd85d9a2fda2"}, "docker": "quay.io/biocontainers/psiclass", "aliases": {"add-genename": "/usr/local/bin/add-genename", "classes": "/usr/local/bin/classes", "combine-subexons": "/usr/local/bin/combine-subexons", "junc": "/usr/local/bin/junc", "psiclass": "/usr/local/bin/psiclass", "subexon-info": "/usr/local/bin/subexon-info", "trust-splice": "/usr/local/bin/trust-splice", "vote-transcripts": "/usr/local/bin/vote-transcripts", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psiclass.
@@ -174,6 +176,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/trust-splice   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/vote-transcripts
 $ podman run --it --rm --entrypoint /usr/local/bin/vote-transcripts   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vote-transcripts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

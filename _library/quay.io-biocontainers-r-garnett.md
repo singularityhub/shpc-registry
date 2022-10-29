@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/r-garnett"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-garnett/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-garnett/container.yaml"
-updated_at: "2022-10-29 05:39:03.486422"
+updated_at: "2022-10-29 07:42:27.664016"
 latest: "0.2.8--r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-garnett"
 aliases:
- - "2to3-3.9"
- - "CreateDOMDocument"
- - "DOMCount"
- - "DOMPrint"
- - "EnumVal"
- - "MemParse"
- - "PParse"
- - "PSVIWriter"
- - "Redirect"
- - "SAX2Count"
+ - "testepsg"
+ - "gdal_create"
+ - "pg_standby"
+ - "gdal_viewshed"
+ - "gdalmdiminfo"
+ - "gdalmdimtranslate"
+ - "pg_verifybackup"
+ - "pdfattach"
+ - "applygeo"
+ - "geotifcp"
 versions:
  - "0.2.8--r41hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-garnett"
-config: {"url": "https://biocontainers.pro/tools/r-garnett", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-garnett", "latest": {"0.2.8--r41hdfd78af_3": "sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1"}, "tags": {"0.2.8--r41hdfd78af_3": "sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1"}, "docker": "quay.io/biocontainers/r-garnett", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
+config: {"url": "https://biocontainers.pro/tools/r-garnett", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-garnett", "latest": {"0.2.8--r41hdfd78af_3": "sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1"}, "tags": {"0.2.8--r41hdfd78af_3": "sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1"}, "docker": "quay.io/biocontainers/r-garnett", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo", "geotifcp": "/usr/local/bin/geotifcp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-garnett.
@@ -107,93 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
+#### testepsg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/testepsg
+$ podman run --it --rm --entrypoint /usr/local/bin/testepsg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/testepsg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### CreateDOMDocument
+#### gdal_create
 
 ```bash
-$ singularity exec <container> /usr/local/bin/CreateDOMDocument
-$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdal_create
+$ podman run --it --rm --entrypoint /usr/local/bin/gdal_create   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdal_create   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DOMCount
+#### pg_standby
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DOMCount
-$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_standby
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_standby   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_standby   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### DOMPrint
+#### gdal_viewshed
 
 ```bash
-$ singularity exec <container> /usr/local/bin/DOMPrint
-$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdal_viewshed
+$ podman run --it --rm --entrypoint /usr/local/bin/gdal_viewshed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdal_viewshed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### EnumVal
+#### gdalmdiminfo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/EnumVal
-$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdalmdiminfo
+$ podman run --it --rm --entrypoint /usr/local/bin/gdalmdiminfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdalmdiminfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### MemParse
+#### gdalmdimtranslate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/MemParse
-$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gdalmdimtranslate
+$ podman run --it --rm --entrypoint /usr/local/bin/gdalmdimtranslate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdalmdimtranslate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### PParse
+#### pg_verifybackup
 
 ```bash
-$ singularity exec <container> /usr/local/bin/PParse
-$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pg_verifybackup
+$ podman run --it --rm --entrypoint /usr/local/bin/pg_verifybackup   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pg_verifybackup   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### PSVIWriter
+#### pdfattach
 
 ```bash
-$ singularity exec <container> /usr/local/bin/PSVIWriter
-$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfattach
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfattach   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfattach   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Redirect
+#### applygeo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Redirect
-$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/applygeo
+$ podman run --it --rm --entrypoint /usr/local/bin/applygeo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/applygeo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SAX2Count
+#### geotifcp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SAX2Count
-$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/geotifcp
+$ podman run --it --rm --entrypoint /usr/local/bin/geotifcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geotifcp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

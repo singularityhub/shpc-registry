@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/alignstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignstats/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/alignstats/container.yaml"
-updated_at: "2022-10-29 05:56:50.578607"
+updated_at: "2022-10-29 07:55:32.593284"
 latest: "0.9.1--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/alignstats"
 aliases:
  - "alignstats"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "0.9.1--hec16e2b_2"
 description: "shpc-registry automated BioContainers addition for alignstats"
-config: {"url": "https://biocontainers.pro/tools/alignstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignstats", "latest": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b"}, "tags": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b"}, "docker": "quay.io/biocontainers/alignstats", "aliases": {"alignstats": "/usr/local/bin/alignstats", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/alignstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for alignstats", "latest": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b"}, "tags": {"0.9.1--hec16e2b_2": "sha256:06e06fc0252d6bf34b254ef0b4cef75f868e5e0b25f522e75f1f784c0014700b"}, "docker": "quay.io/biocontainers/alignstats", "aliases": {"alignstats": "/usr/local/bin/alignstats", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/alignstats.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/alignstats   -v ${PWD} -w ${P
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

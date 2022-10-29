@@ -4,10 +4,12 @@ name:  "quay.io/biocontainers/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samtools/container.yaml"
-updated_at: "2022-10-29 05:53:55.373358"
+updated_at: "2022-10-29 07:53:26.205208"
 latest: "1.9--h43f6869_9"
 container_url: "https://biocontainers.pro/tools/samtools"
 aliases:
+ - "samtools"
+ - "samtools.pl"
  - "ace2sam"
  - "blast2sam.pl"
  - "bowtie2sam.pl"
@@ -17,17 +19,11 @@ aliases:
  - "maq2sam-short"
  - "md5fa"
  - "md5sum-lite"
- - "novo2sam.pl"
+ - "plot-bamstats"
 versions:
- - "1.10--h2e538c0_3"
- - "1.11--h6270b1f_0"
- - "1.12--h9aed4be_1"
- - "1.13--h8c37831_0"
- - "1.14--hb421002_0"
- - "1.15--h3843a85_0"
  - "1.9--h43f6869_9"
 description: "shpc-registry automated BioContainers addition for samtools"
-config: {"docker": "quay.io/biocontainers/samtools", "url": "https://biocontainers.pro/tools/samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samtools", "latest": {"1.9--h43f6869_9": "sha256:3712d1d1952011033bd129aecb8731e68679cafab0d025f718f654ad040ae852"}, "tags": {"1.10--h2e538c0_3": "sha256:84a8d0c0acec87448a47cefa60c4f4a545887239fcd7984a58b48e7a6ac86390", "1.11--h6270b1f_0": "sha256:141120f19f849b79e05ae2fac981383988445c373b8b5db7f3dd221179af382b", "1.12--h9aed4be_1": "sha256:5fd5f0937adf8a24b5bf7655110e501df78ae51588547c8617f17c3291a723e1", "1.13--h8c37831_0": "sha256:04da5297386dfae2458a93613a8c60216d158ee7cb9f96188dad71c1952f7f72", "1.14--hb421002_0": "sha256:88632c41eba8b94b7a2a1013f422aecf478a0cb278740bcc3a38058c903d61ad", "1.15--h3843a85_0": "sha256:d68e1b5f504dc60eb9f2a02eecbac44a63f144e7d455b3fb1a25323c667ca4c4", "1.9--h43f6869_9": "sha256:3712d1d1952011033bd129aecb8731e68679cafab0d025f718f654ad040ae852"}, "aliases": {"ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "novo2sam.pl": "/usr/local/bin/novo2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/samtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samtools", "latest": {"1.9--h43f6869_9": "sha256:3712d1d1952011033bd129aecb8731e68679cafab0d025f718f654ad040ae852"}, "tags": {"1.9--h43f6869_9": "sha256:3712d1d1952011033bd129aecb8731e68679cafab0d025f718f654ad040ae852"}, "docker": "quay.io/biocontainers/samtools", "aliases": {"samtools": "/usr/local/bin/samtools", "samtools.pl": "/usr/local/bin/samtools.pl", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samtools.
@@ -42,7 +38,7 @@ $ shpc install quay.io/biocontainers/samtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/samtools:1.10--h2e538c0_3
+$ shpc install quay.io/biocontainers/samtools:1.9--h43f6869_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/samtools/1.10--h2e538c0_3
-$ module help quay.io/biocontainers/samtools/1.10--h2e538c0_3
+$ module load quay.io/biocontainers/samtools/1.9--h43f6869_9
+$ module help quay.io/biocontainers/samtools/1.9--h43f6869_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
@@ -110,6 +106,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### samtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/samtools
+$ podman run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### samtools.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/samtools.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/samtools.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samtools.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,12 +208,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/md5sum-lite   -v ${PWD} -w ${
 ```
 
 
-#### novo2sam.pl
+#### plot-bamstats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/novo2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/novo2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/novo2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plot-bamstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-camera"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-camera/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-camera/container.yaml"
-updated_at: "2022-10-29 05:44:58.394681"
+updated_at: "2022-10-29 07:46:50.822709"
 latest: "1.50.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-camera"
 aliases:
- - "gif2h5"
+ - "zipcmp"
+ - "zipmerge"
+ - "ziptool"
  - "gif2hdf"
  - "glpsol"
  - "h4_ncdump"
  - "h4_ncgen"
  - "h4cc"
  - "h4redeploy"
- - "h52gif"
- - "h5c++"
- - "h5cc"
+ - "hdf24to8"
 versions:
  - "1.50.0--r41hc0cfd56_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-camera"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-camera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-camera", "latest": {"1.50.0--r41hc0cfd56_2": "sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b"}, "tags": {"1.50.0--r41hc0cfd56_2": "sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b"}, "docker": "quay.io/biocontainers/bioconductor-camera", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-camera", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-camera", "latest": {"1.50.0--r41hc0cfd56_2": "sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b"}, "tags": {"1.50.0--r41hc0cfd56_2": "sha256:6425b05e521a504699ec56749fc0efe37b3e9d132d76a588e2ef95dbc942869b"}, "docker": "quay.io/biocontainers/bioconductor-camera", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-camera.
@@ -107,12 +107,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### gif2h5
+#### zipcmp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zipcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/zipcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zipmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/zipmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/zipmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ziptool
+
+```bash
+$ singularity exec <container> /usr/local/bin/ziptool
+$ podman run --it --rm --entrypoint /usr/local/bin/ziptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ziptool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -170,30 +188,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${P
 ```
 
 
-#### h52gif
+#### hdf24to8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hdf24to8
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf24to8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf24to8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

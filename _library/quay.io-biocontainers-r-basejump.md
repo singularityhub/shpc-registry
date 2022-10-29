@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/r-basejump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-basejump/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-basejump/container.yaml"
-updated_at: "2022-10-29 05:33:51.781822"
+updated_at: "2022-10-29 07:38:38.652977"
 latest: "0.9.9--r351_0"
 container_url: "https://biocontainers.pro/tools/r-basejump"
 aliases:
  - "wget"
+ - "c89"
+ - "c99"
 versions:
  - "0.9.9--r351_0"
 description: "shpc-registry automated BioContainers addition for r-basejump"
-config: {"url": "https://biocontainers.pro/tools/r-basejump", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-basejump", "latest": {"0.9.9--r351_0": "sha256:01eaf445ae38a81bac6793680bfc751cdae1827beac4b05756e107c75e4e4bf4"}, "tags": {"0.9.9--r351_0": "sha256:01eaf445ae38a81bac6793680bfc751cdae1827beac4b05756e107c75e4e4bf4"}, "docker": "quay.io/biocontainers/r-basejump", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/r-basejump", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-basejump", "latest": {"0.9.9--r351_0": "sha256:01eaf445ae38a81bac6793680bfc751cdae1827beac4b05756e107c75e4e4bf4"}, "tags": {"0.9.9--r351_0": "sha256:01eaf445ae38a81bac6793680bfc751cdae1827beac4b05756e107c75e4e4bf4"}, "docker": "quay.io/biocontainers/r-basejump", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-basejump.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/wget
 $ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

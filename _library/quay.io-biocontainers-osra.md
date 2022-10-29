@@ -4,13 +4,14 @@ name:  "quay.io/biocontainers/osra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/osra/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/osra/container.yaml"
-updated_at: "2022-10-29 05:33:01.276158"
+updated_at: "2022-10-29 07:38:01.544889"
 latest: "2.1.0--0"
 container_url: "https://biocontainers.pro/tools/osra"
 aliases:
  - "GraphicsMagick++-config"
  - "GraphicsMagick-config"
  - "GraphicsMagickWand-config"
+ - "babel"
  - "convertfilestopdf"
  - "convertfilestops"
  - "convertformat"
@@ -34,20 +35,20 @@ aliases:
  - "tesseract"
  - "wftopfa"
  - "xtractprotos"
- - "annotate"
- - "babel"
- - "bdftogd"
- - "cwebp"
- - "dvipdf"
- - "dwebp"
- - "eps2eps"
- - "gd2copypal"
- - "gd2togif"
- - "gd2topng"
+ - "roundtrip"
+ - "gnuplot"
+ - "pdfdetach"
+ - "pdffonts"
+ - "pdfimages"
+ - "pdfinfo"
+ - "pdfseparate"
+ - "pdftocairo"
+ - "pdftohtml"
+ - "pdftoppm"
 versions:
  - "2.1.0--0"
 description: "shpc-registry automated BioContainers addition for osra"
-config: {"url": "https://biocontainers.pro/tools/osra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for osra", "latest": {"2.1.0--0": "sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8"}, "tags": {"2.1.0--0": "sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8"}, "docker": "quay.io/biocontainers/osra", "aliases": {"GraphicsMagick++-config": "/usr/local/bin/GraphicsMagick++-config", "GraphicsMagick-config": "/usr/local/bin/GraphicsMagick-config", "GraphicsMagickWand-config": "/usr/local/bin/GraphicsMagickWand-config", "convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "font2c": "/usr/local/bin/font2c", "gm": "/usr/local/bin/gm", "gocr": "/usr/local/bin/gocr", "gocr.tcl": "/usr/local/bin/gocr.tcl", "mkbitmap": "/usr/local/bin/mkbitmap", "ocrad": "/usr/local/bin/ocrad", "osra": "/usr/local/bin/osra", "potrace": "/usr/local/bin/potrace", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "tesseract": "/usr/local/bin/tesseract", "wftopfa": "/usr/local/bin/wftopfa", "xtractprotos": "/usr/local/bin/xtractprotos", "annotate": "/usr/local/bin/annotate", "babel": "/usr/local/bin/babel", "bdftogd": "/usr/local/bin/bdftogd", "cwebp": "/usr/local/bin/cwebp", "dvipdf": "/usr/local/bin/dvipdf", "dwebp": "/usr/local/bin/dwebp", "eps2eps": "/usr/local/bin/eps2eps", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng"}}
+config: {"url": "https://biocontainers.pro/tools/osra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for osra", "latest": {"2.1.0--0": "sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8"}, "tags": {"2.1.0--0": "sha256:87a443d532e175201dc4e69a6e9cedb1cd80f24287e4e4eabe4bfef99535c5f8"}, "docker": "quay.io/biocontainers/osra", "aliases": {"GraphicsMagick++-config": "/usr/local/bin/GraphicsMagick++-config", "GraphicsMagick-config": "/usr/local/bin/GraphicsMagick-config", "GraphicsMagickWand-config": "/usr/local/bin/GraphicsMagickWand-config", "babel": "/usr/local/bin/babel", "convertfilestopdf": "/usr/local/bin/convertfilestopdf", "convertfilestops": "/usr/local/bin/convertfilestops", "convertformat": "/usr/local/bin/convertformat", "convertsegfilestopdf": "/usr/local/bin/convertsegfilestopdf", "convertsegfilestops": "/usr/local/bin/convertsegfilestops", "converttopdf": "/usr/local/bin/converttopdf", "converttops": "/usr/local/bin/converttops", "fileinfo": "/usr/local/bin/fileinfo", "font2c": "/usr/local/bin/font2c", "gm": "/usr/local/bin/gm", "gocr": "/usr/local/bin/gocr", "gocr.tcl": "/usr/local/bin/gocr.tcl", "mkbitmap": "/usr/local/bin/mkbitmap", "ocrad": "/usr/local/bin/ocrad", "osra": "/usr/local/bin/osra", "potrace": "/usr/local/bin/potrace", "printimage": "/usr/local/bin/printimage", "printsplitimage": "/usr/local/bin/printsplitimage", "printtiff": "/usr/local/bin/printtiff", "splitimage2pdf": "/usr/local/bin/splitimage2pdf", "tesseract": "/usr/local/bin/tesseract", "wftopfa": "/usr/local/bin/wftopfa", "xtractprotos": "/usr/local/bin/xtractprotos", "roundtrip": "/usr/local/bin/roundtrip", "gnuplot": "/usr/local/bin/gnuplot", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages", "pdfinfo": "/usr/local/bin/pdfinfo", "pdfseparate": "/usr/local/bin/pdfseparate", "pdftocairo": "/usr/local/bin/pdftocairo", "pdftohtml": "/usr/local/bin/pdftohtml", "pdftoppm": "/usr/local/bin/pdftoppm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/osra.
@@ -157,6 +158,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/GraphicsMagick-config   -v ${
 $ singularity exec <container> /usr/local/bin/GraphicsMagickWand-config
 $ podman run --it --rm --entrypoint /usr/local/bin/GraphicsMagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/GraphicsMagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### babel
+
+```bash
+$ singularity exec <container> /usr/local/bin/babel
+$ podman run --it --rm --entrypoint /usr/local/bin/babel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/babel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -367,93 +377,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xtractprotos   -v ${PWD} -w $
 ```
 
 
-#### annotate
+#### roundtrip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/roundtrip
+$ podman run --it --rm --entrypoint /usr/local/bin/roundtrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/roundtrip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### babel
+#### gnuplot
 
 ```bash
-$ singularity exec <container> /usr/local/bin/babel
-$ podman run --it --rm --entrypoint /usr/local/bin/babel   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/babel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gnuplot
+$ podman run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gnuplot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### pdfdetach
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfdetach
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfdetach   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfdetach   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cwebp
+#### pdffonts
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdffonts
+$ podman run --it --rm --entrypoint /usr/local/bin/pdffonts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdffonts   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dvipdf
+#### pdfimages
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dvipdf
-$ podman run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfimages
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfimages   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfimages   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dwebp
+#### pdfinfo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### eps2eps
+#### pdfseparate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/eps2eps
-$ podman run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfseparate
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfseparate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfseparate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gd2copypal
+#### pdftocairo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gd2copypal
-$ podman run --it --rm --entrypoint /usr/local/bin/gd2copypal   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gd2copypal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdftocairo
+$ podman run --it --rm --entrypoint /usr/local/bin/pdftocairo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdftocairo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gd2togif
+#### pdftohtml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gd2togif
-$ podman run --it --rm --entrypoint /usr/local/bin/gd2togif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gd2togif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdftohtml
+$ podman run --it --rm --entrypoint /usr/local/bin/pdftohtml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdftohtml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gd2topng
+#### pdftoppm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gd2topng
-$ podman run --it --rm --entrypoint /usr/local/bin/gd2topng   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gd2topng   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdftoppm
+$ podman run --it --rm --entrypoint /usr/local/bin/pdftoppm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdftoppm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

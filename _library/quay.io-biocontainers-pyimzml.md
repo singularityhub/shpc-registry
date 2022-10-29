@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/pyimzml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyimzml/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyimzml/container.yaml"
-updated_at: "2022-10-29 05:56:35.913067"
+updated_at: "2022-10-29 07:55:21.986408"
 latest: "1.5.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/pyimzml"
 aliases:
  - "wheezy.template"
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "1.5.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for pyimzml"
-config: {"url": "https://biocontainers.pro/tools/pyimzml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyimzml", "latest": {"1.5.1--pyh5e36f6f_0": "sha256:8d858334833a72f9e332e267a00cd71bd37bc5f3e7714663c674a64db93ce11b"}, "tags": {"1.5.1--pyh5e36f6f_0": "sha256:8d858334833a72f9e332e267a00cd71bd37bc5f3e7714663c674a64db93ce11b"}, "docker": "quay.io/biocontainers/pyimzml", "aliases": {"wheezy.template": "/usr/local/bin/wheezy.template", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/pyimzml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyimzml", "latest": {"1.5.1--pyh5e36f6f_0": "sha256:8d858334833a72f9e332e267a00cd71bd37bc5f3e7714663c674a64db93ce11b"}, "tags": {"1.5.1--pyh5e36f6f_0": "sha256:8d858334833a72f9e332e267a00cd71bd37bc5f3e7714663c674a64db93ce11b"}, "docker": "quay.io/biocontainers/pyimzml", "aliases": {"wheezy.template": "/usr/local/bin/wheezy.template", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyimzml.
@@ -113,21 +113,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wheezy.template   -v ${PWD} -
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

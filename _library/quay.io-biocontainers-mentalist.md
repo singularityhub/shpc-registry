@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mentalist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mentalist/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mentalist/container.yaml"
-updated_at: "2022-10-29 05:57:53.396468"
+updated_at: "2022-10-29 07:56:18.187123"
 latest: "0.2.4--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/mentalist"
 aliases:
@@ -16,20 +16,20 @@ aliases:
  - "julia-debug"
  - "mentalist"
  - "mlst_download_functions.jl"
- - "cmpfillin"
- - "fftw-wisdom"
- - "fftw-wisdom-to-conf"
- - "fftwf-wisdom"
- - "fftwl-wisdom"
  - "funzip"
- - "gif2h5"
+ - "unzipsfx"
+ - "zipgrep"
+ - "zipinfo"
+ - "unzip"
+ - "cmpfillin"
  - "gpmetis"
  - "graphchk"
- - "h52gif"
+ - "m2gmetis"
+ - "mpmetis"
 versions:
  - "0.2.4--hec16e2b_5"
 description: "shpc-registry automated BioContainers addition for mentalist"
-config: {"url": "https://biocontainers.pro/tools/mentalist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mentalist", "latest": {"0.2.4--hec16e2b_5": "sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009"}, "tags": {"0.2.4--hec16e2b_5": "sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009"}, "docker": "quay.io/biocontainers/mentalist", "aliases": {"MentaLiST.jl": "/usr/local/bin/MentaLiST.jl", "build_db_functions.jl": "/usr/local/bin/build_db_functions.jl", "calling_functions.jl": "/usr/local/bin/calling_functions.jl", "db_graph.jl": "/usr/local/bin/db_graph.jl", "julia": "/usr/local/bin/julia", "julia-debug": "/usr/local/bin/julia-debug", "mentalist": "/usr/local/bin/mentalist", "mlst_download_functions.jl": "/usr/local/bin/mlst_download_functions.jl", "cmpfillin": "/usr/local/bin/cmpfillin", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "funzip": "/usr/local/bin/funzip", "gif2h5": "/usr/local/bin/gif2h5", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "h52gif": "/usr/local/bin/h52gif"}}
+config: {"url": "https://biocontainers.pro/tools/mentalist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mentalist", "latest": {"0.2.4--hec16e2b_5": "sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009"}, "tags": {"0.2.4--hec16e2b_5": "sha256:fb531110f12b434acb5b77e6a504338403892e5a56e0b8bd814ada30cd2d8009"}, "docker": "quay.io/biocontainers/mentalist", "aliases": {"MentaLiST.jl": "/usr/local/bin/MentaLiST.jl", "build_db_functions.jl": "/usr/local/bin/build_db_functions.jl", "calling_functions.jl": "/usr/local/bin/calling_functions.jl", "db_graph.jl": "/usr/local/bin/db_graph.jl", "julia": "/usr/local/bin/julia", "julia-debug": "/usr/local/bin/julia-debug", "mentalist": "/usr/local/bin/mentalist", "mlst_download_functions.jl": "/usr/local/bin/mlst_download_functions.jl", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "unzip": "/usr/local/bin/unzip", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mentalist.
@@ -187,51 +187,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mlst_download_functions.jl   
 ```
 
 
-#### cmpfillin
-
-```bash
-$ singularity exec <container> /usr/local/bin/cmpfillin
-$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftw-wisdom
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftw-wisdom
-$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftw-wisdom-to-conf
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
-$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftwf-wisdom
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftwf-wisdom
-$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fftwl-wisdom
-
-```bash
-$ singularity exec <container> /usr/local/bin/fftwl-wisdom
-$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### funzip
 
 ```bash
@@ -241,12 +196,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### gif2h5
+#### unzipsfx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/unzipsfx
+$ podman run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zipgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/zipgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zipinfo
+
+```bash
+$ singularity exec <container> /usr/local/bin/zipinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/unzip
+$ podman run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmpfillin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmpfillin
+$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -268,12 +259,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD
 ```
 
 
-#### h52gif
+#### m2gmetis
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/m2gmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/m2gmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/m2gmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpmetis
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/mpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

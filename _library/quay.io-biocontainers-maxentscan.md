@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/maxentscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/maxentscan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/maxentscan/container.yaml"
-updated_at: "2022-10-29 05:35:32.234056"
+updated_at: "2022-10-29 07:39:51.975146"
 latest: "0_2004.04.21--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/maxentscan"
 aliases:
  - "maxentscan_score3.pl"
  - "maxentscan_score5.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0_2004.04.21--pl5321hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for maxentscan"
-config: {"url": "https://biocontainers.pro/tools/maxentscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maxentscan", "latest": {"0_2004.04.21--pl5321hdfd78af_4": "sha256:06488462c7e5fef512486bb244d03d885330ac9c9796ad51dfa0077ddb80e4e6"}, "tags": {"0_2004.04.21--pl5321hdfd78af_4": "sha256:06488462c7e5fef512486bb244d03d885330ac9c9796ad51dfa0077ddb80e4e6"}, "docker": "quay.io/biocontainers/maxentscan", "aliases": {"maxentscan_score3.pl": "/usr/local/bin/maxentscan_score3.pl", "maxentscan_score5.pl": "/usr/local/bin/maxentscan_score5.pl"}}
+config: {"url": "https://biocontainers.pro/tools/maxentscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for maxentscan", "latest": {"0_2004.04.21--pl5321hdfd78af_4": "sha256:06488462c7e5fef512486bb244d03d885330ac9c9796ad51dfa0077ddb80e4e6"}, "tags": {"0_2004.04.21--pl5321hdfd78af_4": "sha256:06488462c7e5fef512486bb244d03d885330ac9c9796ad51dfa0077ddb80e4e6"}, "docker": "quay.io/biocontainers/maxentscan", "aliases": {"maxentscan_score3.pl": "/usr/local/bin/maxentscan_score3.pl", "maxentscan_score5.pl": "/usr/local/bin/maxentscan_score5.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/maxentscan.
@@ -114,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/maxentscan_score3.pl   -v ${P
 $ singularity exec <container> /usr/local/bin/maxentscan_score5.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/maxentscan_score5.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/maxentscan_score5.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

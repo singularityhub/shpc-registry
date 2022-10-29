@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fargene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fargene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fargene/container.yaml"
-updated_at: "2022-10-29 05:43:57.852318"
+updated_at: "2022-10-29 07:46:05.666697"
 latest: "0.1--py27h21c881e_4"
 container_url: "https://biocontainers.pro/tools/fargene"
 aliases:
@@ -12,6 +12,8 @@ aliases:
  - "fargene"
  - "fargene_model_creation"
  - "pick_long_reads"
+ - "trim_galore"
+ - "clustalo"
  - "_aaindexextract"
  - "_abiview"
  - "_acdc"
@@ -21,11 +23,10 @@ aliases:
  - "_acdvalid"
  - "_antigenic"
  - "_backtranambig"
- - "_backtranseq"
 versions:
  - "0.1--py27h21c881e_4"
 description: "shpc-registry automated BioContainers addition for fargene"
-config: {"url": "https://biocontainers.pro/tools/fargene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fargene", "latest": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "tags": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "docker": "quay.io/biocontainers/fargene", "aliases": {"ORFfinder": "/usr/local/bin/ORFfinder", "fargene": "/usr/local/bin/fargene", "fargene_model_creation": "/usr/local/bin/fargene_model_creation", "pick_long_reads": "/usr/local/bin/pick_long_reads", "_aaindexextract": "/usr/local/bin/_aaindexextract", "_abiview": "/usr/local/bin/_abiview", "_acdc": "/usr/local/bin/_acdc", "_acdpretty": "/usr/local/bin/_acdpretty", "_acdtable": "/usr/local/bin/_acdtable", "_acdtrace": "/usr/local/bin/_acdtrace", "_acdvalid": "/usr/local/bin/_acdvalid", "_antigenic": "/usr/local/bin/_antigenic", "_backtranambig": "/usr/local/bin/_backtranambig", "_backtranseq": "/usr/local/bin/_backtranseq"}}
+config: {"url": "https://biocontainers.pro/tools/fargene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fargene", "latest": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "tags": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "docker": "quay.io/biocontainers/fargene", "aliases": {"ORFfinder": "/usr/local/bin/ORFfinder", "fargene": "/usr/local/bin/fargene", "fargene_model_creation": "/usr/local/bin/fargene_model_creation", "pick_long_reads": "/usr/local/bin/pick_long_reads", "trim_galore": "/usr/local/bin/trim_galore", "clustalo": "/usr/local/bin/clustalo", "_aaindexextract": "/usr/local/bin/_aaindexextract", "_abiview": "/usr/local/bin/_abiview", "_acdc": "/usr/local/bin/_acdc", "_acdpretty": "/usr/local/bin/_acdpretty", "_acdtable": "/usr/local/bin/_acdtable", "_acdtrace": "/usr/local/bin/_acdtrace", "_acdvalid": "/usr/local/bin/_acdvalid", "_antigenic": "/usr/local/bin/_antigenic", "_backtranambig": "/usr/local/bin/_backtranambig"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fargene.
@@ -147,6 +148,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pick_long_reads   -v ${PWD} -
 ```
 
 
+#### trim_galore
+
+```bash
+$ singularity exec <container> /usr/local/bin/trim_galore
+$ podman run --it --rm --entrypoint /usr/local/bin/trim_galore   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trim_galore   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clustalo
+
+```bash
+$ singularity exec <container> /usr/local/bin/clustalo
+$ podman run --it --rm --entrypoint /usr/local/bin/clustalo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clustalo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### _aaindexextract
 
 ```bash
@@ -225,15 +244,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/_backtranambig
 $ podman run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### _backtranseq
-
-```bash
-$ singularity exec <container> /usr/local/bin/_backtranseq
-$ podman run --it --rm --entrypoint /usr/local/bin/_backtranseq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/_backtranseq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

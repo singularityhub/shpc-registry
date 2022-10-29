@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/mosdepth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mosdepth/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mosdepth/container.yaml"
-updated_at: "2022-10-29 05:35:43.242270"
+updated_at: "2022-10-29 07:40:00.012903"
 latest: "0.3.3--h37c5b7d_2"
 container_url: "https://biocontainers.pro/tools/mosdepth"
 aliases:
  - "mosdepth"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "0.3.3--h37c5b7d_2"
 description: "shpc-registry automated BioContainers addition for mosdepth"
-config: {"url": "https://biocontainers.pro/tools/mosdepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mosdepth", "latest": {"0.3.3--h37c5b7d_2": "sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e"}, "tags": {"0.3.3--h37c5b7d_2": "sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e"}, "docker": "quay.io/biocontainers/mosdepth", "aliases": {"mosdepth": "/usr/local/bin/mosdepth", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/mosdepth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mosdepth", "latest": {"0.3.3--h37c5b7d_2": "sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e"}, "tags": {"0.3.3--h37c5b7d_2": "sha256:d550465fce1cbfbe9cfe0facd4aa910b455f9ba93f4f4d701a08a7096e8f7d6e"}, "docker": "quay.io/biocontainers/mosdepth", "aliases": {"mosdepth": "/usr/local/bin/mosdepth", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mosdepth.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mosdepth   -v ${PWD} -w ${PWD
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

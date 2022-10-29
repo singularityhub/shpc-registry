@@ -4,24 +4,25 @@ name:  "quay.io/biocontainers/cgat-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-core/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-core/container.yaml"
-updated_at: "2022-10-29 05:38:01.943649"
+updated_at: "2022-10-29 07:41:42.642474"
 latest: "0.5.14--py_0"
 container_url: "https://biocontainers.pro/tools/cgat-core"
 aliases:
- - "2to3-3.7"
+ - "time"
+ - "basenc"
  - "b2sum"
  - "base32"
  - "base64"
  - "basename"
- - "basenc"
  - "cat"
  - "chcon"
  - "chgrp"
  - "chmod"
+ - "chown"
 versions:
  - "0.5.14--py_0"
 description: "shpc-registry automated BioContainers addition for cgat-core"
-config: {"url": "https://biocontainers.pro/tools/cgat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-core", "latest": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "tags": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "docker": "quay.io/biocontainers/cgat-core", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
+config: {"url": "https://biocontainers.pro/tools/cgat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-core", "latest": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "tags": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "docker": "quay.io/biocontainers/cgat-core", "aliases": {"time": "/usr/local/bin/time", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-core.
@@ -107,12 +108,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.7
+#### time
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/time
+$ podman run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -152,15 +162,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD
 ```
 
 
-#### basenc
-
-```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cat
 
 ```bash
@@ -194,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/chmod
 $ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chown
+
+```bash
+$ singularity exec <container> /usr/local/bin/chown
+$ podman run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

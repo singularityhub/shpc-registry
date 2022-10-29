@@ -4,13 +4,15 @@ name:  "quay.io/biocontainers/ope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ope/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ope/container.yaml"
-updated_at: "2022-10-29 05:32:56.402118"
+updated_at: "2022-10-29 07:37:57.919639"
 latest: "0.8--pyh5bfb8f1_0"
 container_url: "https://biocontainers.pro/tools/ope"
 aliases:
  - "ope"
+ - "openssl"
  - "perl5.30.3"
- - "2to3-3.9"
+ - "screed"
+ - "parsort"
  - "env_parallel"
  - "env_parallel.ash"
  - "env_parallel.bash"
@@ -19,11 +21,10 @@ aliases:
  - "env_parallel.fish"
  - "env_parallel.ksh"
  - "env_parallel.mksh"
- - "env_parallel.pdksh"
 versions:
  - "0.8--pyh5bfb8f1_0"
 description: "shpc-registry automated BioContainers addition for ope"
-config: {"url": "https://biocontainers.pro/tools/ope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ope", "latest": {"0.8--pyh5bfb8f1_0": "sha256:165b41194b1ad8d33432f40064301516b62daac9549fbf7b11ff101fa5f513c4"}, "tags": {"0.8--pyh5bfb8f1_0": "sha256:165b41194b1ad8d33432f40064301516b62daac9549fbf7b11ff101fa5f513c4"}, "docker": "quay.io/biocontainers/ope", "aliases": {"ope": "/usr/local/bin/ope", "perl5.30.3": "/usr/local/bin/perl5.30.3", "2to3-3.9": "/usr/local/bin/2to3-3.9", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh"}}
+config: {"url": "https://biocontainers.pro/tools/ope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ope", "latest": {"0.8--pyh5bfb8f1_0": "sha256:165b41194b1ad8d33432f40064301516b62daac9549fbf7b11ff101fa5f513c4"}, "tags": {"0.8--pyh5bfb8f1_0": "sha256:165b41194b1ad8d33432f40064301516b62daac9549fbf7b11ff101fa5f513c4"}, "docker": "quay.io/biocontainers/ope", "aliases": {"ope": "/usr/local/bin/ope", "openssl": "/usr/local/bin/openssl", "perl5.30.3": "/usr/local/bin/perl5.30.3", "screed": "/usr/local/bin/screed", "parsort": "/usr/local/bin/parsort", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ope.
@@ -118,6 +119,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ope   -v ${PWD} -w ${PWD} <co
 ```
 
 
+#### openssl
+
+```bash
+$ singularity exec <container> /usr/local/bin/openssl
+$ podman run --it --rm --entrypoint /usr/local/bin/openssl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/openssl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### perl5.30.3
 
 ```bash
@@ -127,12 +137,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/perl5.30.3   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.9
+#### screed
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/screed
+$ podman run --it --rm --entrypoint /usr/local/bin/screed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/screed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### parsort
+
+```bash
+$ singularity exec <container> /usr/local/bin/parsort
+$ podman run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -205,15 +224,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ksh   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/env_parallel.mksh
 $ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### env_parallel.pdksh
-
-```bash
-$ singularity exec <container> /usr/local/bin/env_parallel.pdksh
-$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.pdksh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.pdksh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

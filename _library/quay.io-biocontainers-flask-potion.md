@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/flask-potion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-potion/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/flask-potion/container.yaml"
-updated_at: "2022-10-29 05:33:42.497179"
+updated_at: "2022-10-29 07:38:31.793424"
 latest: "0.12.1--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-potion"
 aliases:
- - "2to3-3.5"
- - "easy_install-3.5"
  - "flask"
+ - "easy_install-3.5"
+ - "2to3-3.5"
  - "idle3.5"
- - "jsonschema"
  - "pydoc3.5"
  - "python3.5"
  - "python3.5-config"
  - "python3.5m"
  - "python3.5m-config"
+ - "pyvenv-3.5"
 versions:
  - "0.12.1--py35_0"
 description: "shpc-registry automated BioContainers addition for flask-potion"
-config: {"url": "https://biocontainers.pro/tools/flask-potion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-potion", "latest": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe"}, "tags": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe"}, "docker": "quay.io/biocontainers/flask-potion", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "flask": "/usr/local/bin/flask", "idle3.5": "/usr/local/bin/idle3.5", "jsonschema": "/usr/local/bin/jsonschema", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
+config: {"url": "https://biocontainers.pro/tools/flask-potion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-potion", "latest": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe"}, "tags": {"0.12.1--py35_0": "sha256:e6029aeb1a3e6ef7fb5fb4f369a24aab814e1a7c5781e83c4f7fca0f60936cfe"}, "docker": "quay.io/biocontainers/flask-potion", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-potion.
@@ -107,12 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.5
+#### flask
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -125,12 +125,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} 
 ```
 
 
-#### flask
+#### 2to3-3.5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/flask
-$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -140,15 +140,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/idle3.5
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jsonschema
-
-```bash
-$ singularity exec <container> /usr/local/bin/jsonschema
-$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +185,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.5m-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

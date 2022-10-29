@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/bamclipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamclipper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamclipper/container.yaml"
-updated_at: "2022-10-29 05:40:02.774659"
+updated_at: "2022-10-29 07:43:11.195066"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bamclipper"
 aliases:
  - "bamclipper.sh"
  - "clipprimer.pl"
  - "injectseparator.pl"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "build_env_setup.sh"
- - "conda_build.sh"
+ - "parsort"
+ - "perl5.32.0"
  - "env_parallel"
  - "env_parallel.ash"
  - "env_parallel.bash"
  - "env_parallel.csh"
+ - "env_parallel.dash"
+ - "env_parallel.fish"
+ - "env_parallel.ksh"
+ - "env_parallel.mksh"
 versions:
  - "1.0.0--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bamclipper"
-config: {"url": "https://biocontainers.pro/tools/bamclipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamclipper", "latest": {"1.0.0--hdfd78af_2": "sha256:893197e80846c1966f6364bd26dd1599e4c5f435b16949b7f7085c6c6ed6ff95"}, "tags": {"1.0.0--hdfd78af_2": "sha256:893197e80846c1966f6364bd26dd1599e4c5f435b16949b7f7085c6c6ed6ff95"}, "docker": "quay.io/biocontainers/bamclipper", "aliases": {"bamclipper.sh": "/usr/local/bin/bamclipper.sh", "clipprimer.pl": "/usr/local/bin/clipprimer.pl", "injectseparator.pl": "/usr/local/bin/injectseparator.pl", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh"}}
+config: {"url": "https://biocontainers.pro/tools/bamclipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamclipper", "latest": {"1.0.0--hdfd78af_2": "sha256:893197e80846c1966f6364bd26dd1599e4c5f435b16949b7f7085c6c6ed6ff95"}, "tags": {"1.0.0--hdfd78af_2": "sha256:893197e80846c1966f6364bd26dd1599e4c5f435b16949b7f7085c6c6ed6ff95"}, "docker": "quay.io/biocontainers/bamclipper", "aliases": {"bamclipper.sh": "/usr/local/bin/bamclipper.sh", "clipprimer.pl": "/usr/local/bin/clipprimer.pl", "injectseparator.pl": "/usr/local/bin/injectseparator.pl", "parsort": "/usr/local/bin/parsort", "perl5.32.0": "/usr/local/bin/perl5.32.0", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamclipper.
@@ -137,57 +137,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/injectseparator.pl   -v ${PWD
 ```
 
 
-#### ace2sam
+#### parsort
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/parsort
+$ podman run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### perl5.32.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### build_env_setup.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/build_env_setup.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### conda_build.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/conda_build.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -224,6 +188,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/env_parallel.csh
 $ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.dash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.dash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.fish
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.fish
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.ksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.ksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.mksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.mksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

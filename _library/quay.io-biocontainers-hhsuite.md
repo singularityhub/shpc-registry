@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hhsuite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hhsuite/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hhsuite/container.yaml"
-updated_at: "2022-10-29 05:30:21.319053"
+updated_at: "2022-10-29 07:36:04.391617"
 latest: "v3.2.0--py36pl526hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/hhsuite"
 aliases:
@@ -35,18 +35,18 @@ aliases:
  - "hhsearch_omp"
  - "2to3-3.6"
  - "idle3.6"
- - "perl5.26.2"
- - "podselect"
  - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
  - "python3.6m-config"
  - "pyvenv-3.6"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "v3.2.0--py36pl526hf484d3e_0"
 description: "shpc-registry automated BioContainers addition for hhsuite"
-config: {"url": "https://biocontainers.pro/tools/hhsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hhsuite", "latest": {"v3.2.0--py36pl526hf484d3e_0": "sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f"}, "tags": {"v3.2.0--py36pl526hf484d3e_0": "sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f"}, "docker": "quay.io/biocontainers/hhsuite", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/hhsuite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hhsuite", "latest": {"v3.2.0--py36pl526hf484d3e_0": "sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f"}, "tags": {"v3.2.0--py36pl526hf484d3e_0": "sha256:44283c395ebf9638682caad75b400773e5052ef25a45b53209be8e88ced2f48f"}, "docker": "quay.io/biocontainers/hhsuite", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hhsuite.
@@ -375,24 +375,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD}
 ```
 
 
-#### perl5.26.2
-
-```bash
-$ singularity exec <container> /usr/local/bin/perl5.26.2
-$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### podselect
-
-```bash
-$ singularity exec <container> /usr/local/bin/podselect
-$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pydoc3.6
 
 ```bash
@@ -444,6 +426,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

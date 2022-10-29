@@ -4,17 +4,14 @@ name:  "quay.io/biocontainers/sparsehash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparsehash/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sparsehash/container.yaml"
-updated_at: "2022-10-29 05:54:43.167667"
+updated_at: "2022-10-29 07:54:00.353324"
 latest: "2.0.3--0"
 container_url: "https://biocontainers.pro/tools/sparsehash"
-aliases:
- - "activate"
- - "conda"
- - "deactivate"
+
 versions:
  - "2.0.3--0"
 description: "shpc-registry automated BioContainers addition for sparsehash"
-config: {"url": "https://biocontainers.pro/tools/sparsehash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparsehash", "latest": {"2.0.3--0": "sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812"}, "tags": {"2.0.3--0": "sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812"}, "docker": "quay.io/biocontainers/sparsehash", "aliases": {"activate": "/usr/local/bin/activate", "conda": "/usr/local/bin/conda", "deactivate": "/usr/local/bin/deactivate"}}
+config: {"url": "https://biocontainers.pro/tools/sparsehash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparsehash", "latest": {"2.0.3--0": "sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812"}, "tags": {"2.0.3--0": "sha256:8f410856e4b0df343263fecc7d5c8b239f640cdf7f0f0357f218188679a5f812"}, "docker": "quay.io/biocontainers/sparsehash"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sparsehash.
@@ -100,32 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### activate
+
+#### sparsehash
 
 ```bash
-$ singularity exec <container> /usr/local/bin/activate
-$ podman run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
-
-#### conda
-
-```bash
-$ singularity exec <container> /usr/local/bin/conda
-$ podman run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### deactivate
-
-```bash
-$ singularity exec <container> /usr/local/bin/deactivate
-$ podman run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

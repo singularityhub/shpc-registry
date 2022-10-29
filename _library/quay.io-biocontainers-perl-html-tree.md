@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/perl-html-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tree/container.yaml"
-updated_at: "2022-10-29 05:56:20.970732"
+updated_at: "2022-10-29 07:55:11.263971"
 latest: "5.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-html-tree"
 aliases:
  - "htmltree"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "5.07--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-html-tree"
-config: {"url": "https://biocontainers.pro/tools/perl-html-tree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tree", "latest": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "tags": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "docker": "quay.io/biocontainers/perl-html-tree", "aliases": {"htmltree": "/usr/local/bin/htmltree"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-tree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tree", "latest": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "tags": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "docker": "quay.io/biocontainers/perl-html-tree", "aliases": {"htmltree": "/usr/local/bin/htmltree", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-tree.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/htmltree
 $ podman run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

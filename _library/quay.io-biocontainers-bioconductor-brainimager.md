@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-brainimager"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainimager/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainimager/container.yaml"
-updated_at: "2022-10-29 05:49:42.172168"
+updated_at: "2022-10-29 07:50:19.843655"
 latest: "1.1.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainimager"
 aliases:
+ - "gio-launch-desktop"
  - "c89"
  - "c99"
- - "gio-launch-desktop"
 versions:
  - "1.1.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-brainimager"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-brainimager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainimager", "latest": {"1.1.0--r36_1": "sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30"}, "tags": {"1.1.0--r36_1": "sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30"}, "docker": "quay.io/biocontainers/bioconductor-brainimager", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-brainimager", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainimager", "latest": {"1.1.0--r36_1": "sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30"}, "tags": {"1.1.0--r36_1": "sha256:f49eb126ecf413e68ff6e0f75e4a5912275060fff41d57424a12f1c8d5d38a30"}, "docker": "quay.io/biocontainers/bioconductor-brainimager", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-brainimager.
@@ -100,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### c89
 
 ```bash
@@ -115,15 +124,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/c99
 $ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

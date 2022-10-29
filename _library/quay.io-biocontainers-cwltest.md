@@ -4,26 +4,28 @@ name:  "quay.io/biocontainers/cwltest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cwltest/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cwltest/container.yaml"
-updated_at: "2022-10-29 05:42:22.799181"
+updated_at: "2022-10-29 07:44:54.945411"
 latest: "2.2.20220521103021--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cwltest"
 aliases:
- - "cwltest"
- - "mock-cwl-runner"
- - "2to3-3.10"
  - "black"
  - "blackd"
+ - "cwltest"
+ - "mock-cwl-runner"
+ - "schema-salad-doc"
+ - "schema-salad-tool"
  - "csv2rdf"
+ - "rdf2dot"
+ - "rdfgraphisomorphism"
+ - "rdfpipe"
+ - "rdfs2dot"
  - "doesitcache"
- - "idle3.10"
  - "normalizer"
- - "pydoc3.10"
- - "python3.1"
- - "python3.10"
+ - "2to3-3.10"
 versions:
  - "2.2.20220521103021--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cwltest"
-config: {"url": "https://biocontainers.pro/tools/cwltest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwltest", "latest": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "tags": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "docker": "quay.io/biocontainers/cwltest", "aliases": {"cwltest": "/usr/local/bin/cwltest", "mock-cwl-runner": "/usr/local/bin/mock-cwl-runner", "2to3-3.10": "/usr/local/bin/2to3-3.10", "black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "csv2rdf": "/usr/local/bin/csv2rdf", "doesitcache": "/usr/local/bin/doesitcache", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
+config: {"url": "https://biocontainers.pro/tools/cwltest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwltest", "latest": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "tags": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "docker": "quay.io/biocontainers/cwltest", "aliases": {"black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "cwltest": "/usr/local/bin/cwltest", "mock-cwl-runner": "/usr/local/bin/mock-cwl-runner", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "csv2rdf": "/usr/local/bin/csv2rdf", "rdf2dot": "/usr/local/bin/rdf2dot", "rdfgraphisomorphism": "/usr/local/bin/rdfgraphisomorphism", "rdfpipe": "/usr/local/bin/rdfpipe", "rdfs2dot": "/usr/local/bin/rdfs2dot", "doesitcache": "/usr/local/bin/doesitcache", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cwltest.
@@ -109,33 +111,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### cwltest
-
-```bash
-$ singularity exec <container> /usr/local/bin/cwltest
-$ podman run --it --rm --entrypoint /usr/local/bin/cwltest   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwltest   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### mock-cwl-runner
-
-```bash
-$ singularity exec <container> /usr/local/bin/mock-cwl-runner
-$ podman run --it --rm --entrypoint /usr/local/bin/mock-cwl-runner   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/mock-cwl-runner   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### black
 
 ```bash
@@ -154,12 +129,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blackd   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### cwltest
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwltest
+$ podman run --it --rm --entrypoint /usr/local/bin/cwltest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwltest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mock-cwl-runner
+
+```bash
+$ singularity exec <container> /usr/local/bin/mock-cwl-runner
+$ podman run --it --rm --entrypoint /usr/local/bin/mock-cwl-runner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mock-cwl-runner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### schema-salad-doc
+
+```bash
+$ singularity exec <container> /usr/local/bin/schema-salad-doc
+$ podman run --it --rm --entrypoint /usr/local/bin/schema-salad-doc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/schema-salad-doc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### schema-salad-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/schema-salad-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/schema-salad-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/schema-salad-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### csv2rdf
 
 ```bash
 $ singularity exec <container> /usr/local/bin/csv2rdf
 $ podman run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdf2dot
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdf2dot
+$ podman run --it --rm --entrypoint /usr/local/bin/rdf2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdf2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdfgraphisomorphism
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdfgraphisomorphism
+$ podman run --it --rm --entrypoint /usr/local/bin/rdfgraphisomorphism   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdfgraphisomorphism   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdfpipe
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdfpipe
+$ podman run --it --rm --entrypoint /usr/local/bin/rdfpipe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdfpipe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdfs2dot
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdfs2dot
+$ podman run --it --rm --entrypoint /usr/local/bin/rdfs2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdfs2dot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -172,15 +219,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${
 ```
 
 
-#### idle3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### normalizer
 
 ```bash
@@ -190,30 +228,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${P
 ```
 
 
-#### pydoc3.10
+#### 2to3-3.10
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.1
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.1
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

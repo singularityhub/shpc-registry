@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/flask-sqlalchemy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-sqlalchemy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/flask-sqlalchemy/container.yaml"
-updated_at: "2022-10-29 05:58:43.759054"
+updated_at: "2022-10-29 07:56:54.897448"
 latest: "2.1--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-sqlalchemy"
 aliases:
- - "2to3-3.5"
- - "easy_install-3.5"
  - "flask"
+ - "easy_install-3.5"
+ - "2to3-3.5"
  - "idle3.5"
  - "pydoc3.5"
  - "python3.5"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "2.1--py35_0"
 description: "shpc-registry automated BioContainers addition for flask-sqlalchemy"
-config: {"url": "https://biocontainers.pro/tools/flask-sqlalchemy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-sqlalchemy", "latest": {"2.1--py35_0": "sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27"}, "tags": {"2.1--py35_0": "sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27"}, "docker": "quay.io/biocontainers/flask-sqlalchemy", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "flask": "/usr/local/bin/flask", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
+config: {"url": "https://biocontainers.pro/tools/flask-sqlalchemy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-sqlalchemy", "latest": {"2.1--py35_0": "sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27"}, "tags": {"2.1--py35_0": "sha256:ee06d1cc4523ae1fcf38156262679dafefeff5190a3e23b00b0242e75e10ce27"}, "docker": "quay.io/biocontainers/flask-sqlalchemy", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-sqlalchemy.
@@ -107,12 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.5
+#### flask
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -125,12 +125,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} 
 ```
 
 
-#### flask
+#### 2to3-3.5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/flask
-$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

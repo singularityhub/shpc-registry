@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/irma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irma/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/irma/container.yaml"
-updated_at: "2022-10-29 05:42:01.303977"
+updated_at: "2022-10-29 07:44:38.661319"
 latest: "1.0.2--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/irma"
 aliases:
  - "IRMA"
  - "LABEL"
  - "QUICK_INSTALL.txt"
- - "FastTree"
- - "FastTreeMP"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
+ - "zip"
  - "blat"
- - "bowtie2sam.pl"
- - "build_env_setup.sh"
- - "conda_build.sh"
- - "env_parallel"
+ - "metadata_conda_debug.yaml"
+ - "FastTreeMP"
+ - "muscle"
+ - "FastTree"
+ - "fasttree"
+ - "parsort"
+ - "pigz"
+ - "unpigz"
 versions:
  - "1.0.2--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for irma"
-config: {"url": "https://biocontainers.pro/tools/irma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irma", "latest": {"1.0.2--pl5321hdfd78af_2": "sha256:1ae0ba56c93255dd42011f02887d78decae4b0231940ba47d08c378de1e4ccc9"}, "tags": {"1.0.2--pl5321hdfd78af_2": "sha256:1ae0ba56c93255dd42011f02887d78decae4b0231940ba47d08c378de1e4ccc9"}, "docker": "quay.io/biocontainers/irma", "aliases": {"IRMA": "/usr/local/bin/IRMA", "LABEL": "/usr/local/bin/LABEL", "QUICK_INSTALL.txt": "/usr/local/bin/QUICK_INSTALL.txt", "FastTree": "/usr/local/bin/FastTree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "blat": "/usr/local/bin/blat", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "env_parallel": "/usr/local/bin/env_parallel"}}
+config: {"url": "https://biocontainers.pro/tools/irma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irma", "latest": {"1.0.2--pl5321hdfd78af_2": "sha256:1ae0ba56c93255dd42011f02887d78decae4b0231940ba47d08c378de1e4ccc9"}, "tags": {"1.0.2--pl5321hdfd78af_2": "sha256:1ae0ba56c93255dd42011f02887d78decae4b0231940ba47d08c378de1e4ccc9"}, "docker": "quay.io/biocontainers/irma", "aliases": {"IRMA": "/usr/local/bin/IRMA", "LABEL": "/usr/local/bin/LABEL", "QUICK_INSTALL.txt": "/usr/local/bin/QUICK_INSTALL.txt", "zip": "/usr/local/bin/zip", "blat": "/usr/local/bin/blat", "metadata_conda_debug.yaml": "/usr/local/bin/metadata_conda_debug.yaml", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "parsort": "/usr/local/bin/parsort", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irma.
@@ -137,48 +137,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/QUICK_INSTALL.txt   -v ${PWD}
 ```
 
 
-#### FastTree
+#### zip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### FastTreeMP
-
-```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace2sam
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/zip
+$ podman run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -191,39 +155,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/blat   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### bowtie2sam.pl
+#### metadata_conda_debug.yaml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/metadata_conda_debug.yaml
+$ podman run --it --rm --entrypoint /usr/local/bin/metadata_conda_debug.yaml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metadata_conda_debug.yaml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### build_env_setup.sh
+#### FastTreeMP
 
 ```bash
-$ singularity exec <container> /usr/local/bin/build_env_setup.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/FastTreeMP
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### conda_build.sh
+#### muscle
 
 ```bash
-$ singularity exec <container> /usr/local/bin/conda_build.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/muscle
+$ podman run --it --rm --entrypoint /usr/local/bin/muscle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/muscle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### env_parallel
+#### FastTree
 
 ```bash
-$ singularity exec <container> /usr/local/bin/env_parallel
-$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/FastTree
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasttree
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasttree
+$ podman run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### parsort
+
+```bash
+$ singularity exec <container> /usr/local/bin/parsort
+$ podman run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unpigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/unpigz
+$ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

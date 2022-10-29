@@ -4,10 +4,12 @@ name:  "quay.io/biocontainers/mango"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mango/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mango/container.yaml"
-updated_at: "2022-10-29 05:35:47.018054"
+updated_at: "2022-10-29 07:40:02.838218"
 latest: "0.0.5--pyh864c0ab_4"
 container_url: "https://biocontainers.pro/tools/mango"
 aliases:
+ - ".mango-post-link.sh"
+ - ".mango-pre-unlink.sh"
  - "adam-shell"
  - "adam-submit"
  - "adamR"
@@ -50,20 +52,20 @@ aliases:
  - "sparkR"
  - "sparkR.cmd"
  - "sparkR2.cmd"
- - "2to3-3.6"
- - "appletviewer"
- - "assistant"
- - "bokeh"
- - "curve_keygen"
+ - "jupyter-bundlerextension"
+ - "jupyter-nbextension"
+ - "jupyter-notebook"
+ - "jupyter-serverextension"
  - "dask-scheduler"
  - "dask-ssh"
  - "dask-worker"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
+ - "jupyter-nbconvert"
+ - "jupyter-kernel"
+ - "jupyter-kernelspec"
 versions:
  - "0.0.5--pyh864c0ab_4"
 description: "shpc-registry automated BioContainers addition for mango"
-config: {"url": "https://biocontainers.pro/tools/mango", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mango", "latest": {"0.0.5--pyh864c0ab_4": "sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d"}, "tags": {"0.0.5--pyh864c0ab_4": "sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d"}, "docker": "quay.io/biocontainers/mango", "aliases": {"adam-shell": "/usr/local/bin/adam-shell", "adam-submit": "/usr/local/bin/adam-submit", "adamR": "/usr/local/bin/adamR", "beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "find-adam-assembly.sh": "/usr/local/bin/find-adam-assembly.sh", "find-adam-egg.sh": "/usr/local/bin/find-adam-egg.sh", "find-adam-home": "/usr/local/bin/find-adam-home", "find-mango-assembly.sh": "/usr/local/bin/find-mango-assembly.sh", "find-mango-home": "/usr/local/bin/find-mango-home", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find-spark.sh": "/usr/local/bin/find-spark.sh", "find_adam_home.py": "/usr/local/bin/find_adam_home.py", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "make_genome": "/usr/local/bin/make_genome", "mango-notebook": "/usr/local/bin/mango-notebook", "mango-submit": "/usr/local/bin/mango-submit", "pyadam": "/usr/local/bin/pyadam", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "assistant": "/usr/local/bin/assistant", "bokeh": "/usr/local/bin/bokeh", "curve_keygen": "/usr/local/bin/curve_keygen", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon"}}
+config: {"url": "https://biocontainers.pro/tools/mango", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mango", "latest": {"0.0.5--pyh864c0ab_4": "sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d"}, "tags": {"0.0.5--pyh864c0ab_4": "sha256:07103f9c7ba46c7940306ccf1b72f4bc3022fdd2186702d12c48994a0bd7945d"}, "docker": "quay.io/biocontainers/mango", "aliases": {".mango-post-link.sh": "/usr/local/bin/.mango-post-link.sh", ".mango-pre-unlink.sh": "/usr/local/bin/.mango-pre-unlink.sh", "adam-shell": "/usr/local/bin/adam-shell", "adam-submit": "/usr/local/bin/adam-submit", "adamR": "/usr/local/bin/adamR", "beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "find-adam-assembly.sh": "/usr/local/bin/find-adam-assembly.sh", "find-adam-egg.sh": "/usr/local/bin/find-adam-egg.sh", "find-adam-home": "/usr/local/bin/find-adam-home", "find-mango-assembly.sh": "/usr/local/bin/find-mango-assembly.sh", "find-mango-home": "/usr/local/bin/find-mango-home", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find-spark.sh": "/usr/local/bin/find-spark.sh", "find_adam_home.py": "/usr/local/bin/find_adam_home.py", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "make_genome": "/usr/local/bin/make_genome", "mango-notebook": "/usr/local/bin/mango-notebook", "mango-submit": "/usr/local/bin/mango-submit", "pyadam": "/usr/local/bin/pyadam", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd", "jupyter-bundlerextension": "/usr/local/bin/jupyter-bundlerextension", "jupyter-nbextension": "/usr/local/bin/jupyter-nbextension", "jupyter-notebook": "/usr/local/bin/jupyter-notebook", "jupyter-serverextension": "/usr/local/bin/jupyter-serverextension", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mango.
@@ -146,6 +148,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .mango-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.mango-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.mango-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.mango-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .mango-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.mango-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.mango-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.mango-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -527,48 +547,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sparkR2.cmd   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.6
+#### jupyter-bundlerextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-bundlerextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-bundlerextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### appletviewer
+#### jupyter-nbextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### jupyter-notebook
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-notebook
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-notebook   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bokeh
+#### jupyter-serverextension
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bokeh
-$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### curve_keygen
-
-```bash
-$ singularity exec <container> /usr/local/bin/curve_keygen
-$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-serverextension
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-serverextension   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -599,21 +610,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dask-worker   -v ${PWD} -w ${
 ```
 
 
-#### dbus-cleanup-sockets
+#### jupyter-nbconvert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-nbconvert
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-nbconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### jupyter-kernel
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jupyter-kernel
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-kernelspec
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-kernelspec
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-kernelspec   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

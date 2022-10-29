@@ -4,12 +4,14 @@ name:  "quay.io/biocontainers/nmrml2isa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nmrml2isa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nmrml2isa/container.yaml"
-updated_at: "2022-10-29 05:40:07.111160"
+updated_at: "2022-10-29 07:43:14.402367"
 latest: "0.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/nmrml2isa"
 aliases:
  - "nmrml2isa"
  - "pronto"
+ - "xslt-config"
+ - "xsltproc"
  - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
@@ -18,12 +20,10 @@ aliases:
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
- - "xslt-config"
- - "xsltproc"
 versions:
  - "0.3.1--py_0"
 description: "shpc-registry automated BioContainers addition for nmrml2isa"
-config: {"url": "https://biocontainers.pro/tools/nmrml2isa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nmrml2isa", "latest": {"0.3.1--py_0": "sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04"}, "tags": {"0.3.1--py_0": "sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04"}, "docker": "quay.io/biocontainers/nmrml2isa", "aliases": {"nmrml2isa": "/usr/local/bin/nmrml2isa", "pronto": "/usr/local/bin/pronto", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
+config: {"url": "https://biocontainers.pro/tools/nmrml2isa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nmrml2isa", "latest": {"0.3.1--py_0": "sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04"}, "tags": {"0.3.1--py_0": "sha256:8c4413cbb08e8517524bfa2737782701f80e903d7d22331d915075efcacccd04"}, "docker": "quay.io/biocontainers/nmrml2isa", "aliases": {"nmrml2isa": "/usr/local/bin/nmrml2isa", "pronto": "/usr/local/bin/pronto", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nmrml2isa.
@@ -127,6 +127,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pronto   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.7
 
 ```bash
@@ -196,24 +214,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xslt-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/xslt-config
-$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xsltproc
-
-```bash
-$ singularity exec <container> /usr/local/bin/xsltproc
-$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,24 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-affymetrixdatatestfiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/container.yaml"
-updated_at: "2022-10-29 05:41:18.402172"
+updated_at: "2022-10-29 07:44:06.506750"
 latest: "0.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-affymetrixdatatestfiles"
 aliases:
- - "R"
- - "Rscript"
- - "acountry"
- - "adig"
- - "ahost"
- - "autopoint"
- - "bunzip2"
- - "bzcat"
- - "bzcmp"
- - "bzdiff"
+ - ".bioconductor-affymetrixdatatestfiles-post-link.sh"
+ - ".bioconductor-affymetrixdatatestfiles-pre-unlink.sh"
 versions:
  - "0.32.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-affymetrixdatatestfiles"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affymetrixdatatestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affymetrixdatatestfiles", "latest": {"0.32.0--r41hdfd78af_1": "sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a"}, "docker": "quay.io/biocontainers/bioconductor-affymetrixdatatestfiles", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affymetrixdatatestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affymetrixdatatestfiles", "latest": {"0.32.0--r41hdfd78af_1": "sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a"}, "docker": "quay.io/biocontainers/bioconductor-affymetrixdatatestfiles", "aliases": {".bioconductor-affymetrixdatatestfiles-post-link.sh": "/usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh", ".bioconductor-affymetrixdatatestfiles-pre-unlink.sh": "/usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affymetrixdatatestfiles.
@@ -107,93 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### R
+#### .bioconductor-affymetrixdatatestfiles-post-link.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/R
-$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Rscript
+#### .bioconductor-affymetrixdatatestfiles-pre-unlink.sh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Rscript
-$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acountry
-
-```bash
-$ singularity exec <container> /usr/local/bin/acountry
-$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### adig
-
-```bash
-$ singularity exec <container> /usr/local/bin/adig
-$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ahost
-
-```bash
-$ singularity exec <container> /usr/local/bin/ahost
-$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### autopoint
-
-```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bunzip2
-
-```bash
-$ singularity exec <container> /usr/local/bin/bunzip2
-$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcat
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcat
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzcmp
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzcmp
-$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bzdiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bzdiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

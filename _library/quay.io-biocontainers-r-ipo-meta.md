@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/r-ipo-meta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ipo-meta/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-ipo-meta/container.yaml"
-updated_at: "2022-10-29 05:55:49.933398"
+updated_at: "2022-10-29 07:54:48.846951"
 latest: "1.7.5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ipo-meta"
 aliases:
+ - "nc-config"
+ - "nccopy"
+ - "ncdump"
+ - "ncgen"
+ - "ncgen3"
+ - "uconv"
  - "gif2h5"
  - "h52gif"
  - "h5c++"
- - "h5cc"
  - "h5copy"
- - "h5debug"
- - "h5diff"
- - "h5dump"
- - "h5import"
- - "h5jam"
 versions:
  - "1.7.5--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-ipo-meta"
-config: {"url": "https://biocontainers.pro/tools/r-ipo-meta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ipo-meta", "latest": {"1.7.5--r3.3.1_0": "sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752"}, "tags": {"1.7.5--r3.3.1_0": "sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752"}, "docker": "quay.io/biocontainers/r-ipo-meta", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5dump": "/usr/local/bin/h5dump", "h5import": "/usr/local/bin/h5import", "h5jam": "/usr/local/bin/h5jam"}}
+config: {"url": "https://biocontainers.pro/tools/r-ipo-meta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ipo-meta", "latest": {"1.7.5--r3.3.1_0": "sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752"}, "tags": {"1.7.5--r3.3.1_0": "sha256:ba27e8bb91d72ece683fd1ae3212ec9e5fd9a23c7987235704e20c392ef0b752"}, "docker": "quay.io/biocontainers/r-ipo-meta", "aliases": {"nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "uconv": "/usr/local/bin/uconv", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ipo-meta.
@@ -107,6 +107,60 @@ $ singularity inspect -d <container>
 ```
 
 
+#### nc-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/nc-config
+$ podman run --it --rm --entrypoint /usr/local/bin/nc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nccopy
+
+```bash
+$ singularity exec <container> /usr/local/bin/nccopy
+$ podman run --it --rm --entrypoint /usr/local/bin/nccopy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nccopy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncdump
+$ podman run --it --rm --entrypoint /usr/local/bin/ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncgen
+$ podman run --it --rm --entrypoint /usr/local/bin/ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncgen3
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncgen3
+$ podman run --it --rm --entrypoint /usr/local/bin/ncgen3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncgen3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### uconv
+
+```bash
+$ singularity exec <container> /usr/local/bin/uconv
+$ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gif2h5
 
 ```bash
@@ -134,66 +188,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### h5copy
 
 ```bash
 $ singularity exec <container> /usr/local/bin/h5copy
 $ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5debug
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5debug
-$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5diff
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5diff
-$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5dump
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5dump
-$ podman run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5import
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5import
-$ podman run --it --rm --entrypoint /usr/local/bin/h5import   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5import   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5jam
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5jam
-$ podman run --it --rm --entrypoint /usr/local/bin/h5jam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5jam   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

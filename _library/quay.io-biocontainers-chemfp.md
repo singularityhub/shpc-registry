@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chemfp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chemfp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/chemfp/container.yaml"
-updated_at: "2022-10-29 05:37:04.167003"
+updated_at: "2022-10-29 07:40:59.921705"
 latest: "1.6.1--py27h9801fc8_2"
 container_url: "https://biocontainers.pro/tools/chemfp"
 aliases:
@@ -16,9 +16,6 @@ aliases:
  - "rdkit2fps"
  - "sdf2fps"
  - "simsearch"
- - "f2py2"
- - "f2py2.7"
- - "idle"
  - "obabel"
  - "obconformer"
  - "obdistgen"
@@ -26,10 +23,13 @@ aliases:
  - "obfit"
  - "obgen"
  - "obgrep"
+ - "obminimize"
+ - "obprobe"
+ - "obprop"
 versions:
  - "1.6.1--py27h9801fc8_2"
 description: "shpc-registry automated BioContainers addition for chemfp"
-config: {"url": "https://biocontainers.pro/tools/chemfp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chemfp", "latest": {"1.6.1--py27h9801fc8_2": "sha256:72bbac3ec771eed2920c673d71aa88cf56a989f70891d919f3d0d76d56679c8d"}, "tags": {"1.6.1--py27h9801fc8_2": "sha256:72bbac3ec771eed2920c673d71aa88cf56a989f70891d919f3d0d76d56679c8d"}, "docker": "quay.io/biocontainers/chemfp", "aliases": {"fpcat": "/usr/local/bin/fpcat", "ob2fps": "/usr/local/bin/ob2fps", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "oe2fps": "/usr/local/bin/oe2fps", "rdkit2fps": "/usr/local/bin/rdkit2fps", "sdf2fps": "/usr/local/bin/sdf2fps", "simsearch": "/usr/local/bin/simsearch", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep"}}
+config: {"url": "https://biocontainers.pro/tools/chemfp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chemfp", "latest": {"1.6.1--py27h9801fc8_2": "sha256:72bbac3ec771eed2920c673d71aa88cf56a989f70891d919f3d0d76d56679c8d"}, "tags": {"1.6.1--py27h9801fc8_2": "sha256:72bbac3ec771eed2920c673d71aa88cf56a989f70891d919f3d0d76d56679c8d"}, "docker": "quay.io/biocontainers/chemfp", "aliases": {"fpcat": "/usr/local/bin/fpcat", "ob2fps": "/usr/local/bin/ob2fps", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "oe2fps": "/usr/local/bin/oe2fps", "rdkit2fps": "/usr/local/bin/rdkit2fps", "sdf2fps": "/usr/local/bin/sdf2fps", "simsearch": "/usr/local/bin/simsearch", "obabel": "/usr/local/bin/obabel", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit", "obgen": "/usr/local/bin/obgen", "obgrep": "/usr/local/bin/obgrep", "obminimize": "/usr/local/bin/obminimize", "obprobe": "/usr/local/bin/obprobe", "obprop": "/usr/local/bin/obprop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chemfp.
@@ -187,33 +187,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/simsearch   -v ${PWD} -w ${PW
 ```
 
 
-#### f2py2
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py2
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### obabel
 
 ```bash
@@ -274,6 +247,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/obgen   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/obgrep
 $ podman run --it --rm --entrypoint /usr/local/bin/obgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/obgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obminimize
+
+```bash
+$ singularity exec <container> /usr/local/bin/obminimize
+$ podman run --it --rm --entrypoint /usr/local/bin/obminimize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obminimize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obprobe
+
+```bash
+$ singularity exec <container> /usr/local/bin/obprobe
+$ podman run --it --rm --entrypoint /usr/local/bin/obprobe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obprobe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obprop
+
+```bash
+$ singularity exec <container> /usr/local/bin/obprop
+$ podman run --it --rm --entrypoint /usr/local/bin/obprop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obprop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

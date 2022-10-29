@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/perl-pod-elemental"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-elemental/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-elemental/container.yaml"
-updated_at: "2022-10-29 05:40:01.148774"
+updated_at: "2022-10-29 07:43:09.995438"
 latest: "0.103005--pl5321hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/perl-pod-elemental"
 aliases:
- - "cpanm"
  - "moose-outdated"
  - "package-stash-conflicts"
+ - "cpanm"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.103005--pl5321hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for perl-pod-elemental"
-config: {"url": "https://biocontainers.pro/tools/perl-pod-elemental", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-elemental", "latest": {"0.103005--pl5321hec16e2b_1": "sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349"}, "tags": {"0.103005--pl5321hec16e2b_1": "sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349"}, "docker": "quay.io/biocontainers/perl-pod-elemental", "aliases": {"cpanm": "/usr/local/bin/cpanm", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
+config: {"url": "https://biocontainers.pro/tools/perl-pod-elemental", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-elemental", "latest": {"0.103005--pl5321hec16e2b_1": "sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349"}, "tags": {"0.103005--pl5321hec16e2b_1": "sha256:822654e396b344ad461026c88e47fac230d22a6f525077459e2a49fb718ff349"}, "docker": "quay.io/biocontainers/perl-pod-elemental", "aliases": {"moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "cpanm": "/usr/local/bin/cpanm", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-pod-elemental.
@@ -100,15 +102,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### cpanm
-
-```bash
-$ singularity exec <container> /usr/local/bin/cpanm
-$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### moose-outdated
 
 ```bash
@@ -124,6 +117,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/package-stash-conflicts
 $ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpanm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

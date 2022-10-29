@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/popscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popscle/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/popscle/container.yaml"
-updated_at: "2022-10-29 05:43:05.951242"
+updated_at: "2022-10-29 07:45:27.443621"
 latest: "0.1beta--h985387c_1"
 container_url: "https://biocontainers.pro/tools/popscle"
 aliases:
  - "popscle"
  - "ace2sam"
- - "bgzip"
  - "blast2sam.pl"
  - "bowtie2sam.pl"
  - "export2sam.pl"
- - "htsfile"
  - "interpolate_sam.pl"
  - "maq2sam-long"
  - "maq2sam-short"
  - "md5fa"
+ - "md5sum-lite"
+ - "plot-bamstats"
 versions:
  - "0.1beta--h985387c_1"
 description: "shpc-registry automated BioContainers addition for popscle"
-config: {"url": "https://biocontainers.pro/tools/popscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popscle", "latest": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8"}, "tags": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8"}, "docker": "quay.io/biocontainers/popscle", "aliases": {"popscle": "/usr/local/bin/popscle", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/popscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for popscle", "latest": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8"}, "tags": {"0.1beta--h985387c_1": "sha256:b62007c7cddfd73cb46fd763e058d8ec6e01a3cabb8a887eefca2890119935d8"}, "docker": "quay.io/biocontainers/popscle", "aliases": {"popscle": "/usr/local/bin/popscle", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/popscle.
@@ -126,15 +126,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD}
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### blast2sam.pl
 
 ```bash
@@ -159,15 +150,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/export2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +186,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/md5fa
 $ podman run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### md5sum-lite
+
+```bash
+$ singularity exec <container> /usr/local/bin/md5sum-lite
+$ podman run --it --rm --entrypoint /usr/local/bin/md5sum-lite   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/md5sum-lite   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-bamstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-bamstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

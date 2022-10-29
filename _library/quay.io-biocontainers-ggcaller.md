@@ -4,27 +4,28 @@ name:  "quay.io/biocontainers/ggcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ggcaller/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ggcaller/container.yaml"
-updated_at: "2022-10-29 05:46:23.364087"
+updated_at: "2022-10-29 07:47:53.294033"
 latest: "1.3.0--py38hee2cf1e_1"
 container_url: "https://biocontainers.pro/tools/ggcaller"
 aliases:
  - "Bifrost"
  - "ggcaller"
  - "rapidnj"
- - "2to3-3.8"
+ - "torchrun"
+ - "snp-sites"
+ - "convert-caffe2-to-onnx"
+ - "convert-onnx-to-caffe2"
+ - "ninja"
+ - "gffutils-cli"
  - "FET.pl"
- - "activate-global-python-argcomplete"
- - "aggregate_scores_in_intervals.py"
- - "align_print_template.py"
- - "alimask"
- - "axt_extract_ranges.py"
- - "axt_to_fasta.py"
- - "axt_to_lav.py"
- - "axt_to_maf.py"
+ - "cd-hit-clstr_2_blm8.pl"
+ - "clstr_list.pl"
+ - "clstr_list_sort.pl"
+ - "cd-hit"
 versions:
  - "1.3.0--py38hee2cf1e_1"
 description: "shpc-registry automated BioContainers addition for ggcaller"
-config: {"url": "https://biocontainers.pro/tools/ggcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ggcaller", "latest": {"1.3.0--py38hee2cf1e_1": "sha256:83f27a9a7b57fa0c0fe140774c18b4992d8678fff7291edd3a7718b931f3b412"}, "tags": {"1.3.0--py38hee2cf1e_1": "sha256:83f27a9a7b57fa0c0fe140774c18b4992d8678fff7291edd3a7718b931f3b412"}, "docker": "quay.io/biocontainers/ggcaller", "aliases": {"Bifrost": "/usr/local/bin/Bifrost", "ggcaller": "/usr/local/bin/ggcaller", "rapidnj": "/usr/local/bin/rapidnj", "2to3-3.8": "/usr/local/bin/2to3-3.8", "FET.pl": "/usr/local/bin/FET.pl", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "alimask": "/usr/local/bin/alimask", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py"}}
+config: {"url": "https://biocontainers.pro/tools/ggcaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ggcaller", "latest": {"1.3.0--py38hee2cf1e_1": "sha256:83f27a9a7b57fa0c0fe140774c18b4992d8678fff7291edd3a7718b931f3b412"}, "tags": {"1.3.0--py38hee2cf1e_1": "sha256:83f27a9a7b57fa0c0fe140774c18b4992d8678fff7291edd3a7718b931f3b412"}, "docker": "quay.io/biocontainers/ggcaller", "aliases": {"Bifrost": "/usr/local/bin/Bifrost", "ggcaller": "/usr/local/bin/ggcaller", "rapidnj": "/usr/local/bin/rapidnj", "torchrun": "/usr/local/bin/torchrun", "snp-sites": "/usr/local/bin/snp-sites", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "ninja": "/usr/local/bin/ninja", "gffutils-cli": "/usr/local/bin/gffutils-cli", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl", "cd-hit": "/usr/local/bin/cd-hit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ggcaller.
@@ -137,12 +138,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rapidnj   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.8
+#### torchrun
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/torchrun
+$ podman run --it --rm --entrypoint /usr/local/bin/torchrun   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/torchrun   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### snp-sites
+
+```bash
+$ singularity exec <container> /usr/local/bin/snp-sites
+$ podman run --it --rm --entrypoint /usr/local/bin/snp-sites   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snp-sites   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert-caffe2-to-onnx
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert-caffe2-to-onnx
+$ podman run --it --rm --entrypoint /usr/local/bin/convert-caffe2-to-onnx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert-caffe2-to-onnx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert-onnx-to-caffe2
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert-onnx-to-caffe2
+$ podman run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ninja
+
+```bash
+$ singularity exec <container> /usr/local/bin/ninja
+$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gffutils-cli
+
+```bash
+$ singularity exec <container> /usr/local/bin/gffutils-cli
+$ podman run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -155,75 +201,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### activate-global-python-argcomplete
+#### cd-hit-clstr_2_blm8.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
-$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-clstr_2_blm8.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aggregate_scores_in_intervals.py
+#### clstr_list.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aggregate_scores_in_intervals.py
-$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clstr_list.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/clstr_list.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clstr_list.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align_print_template.py
+#### clstr_list_sort.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align_print_template.py
-$ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clstr_list_sort.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/clstr_list_sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clstr_list_sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### cd-hit
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_extract_ranges.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_extract_ranges.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_to_fasta.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_to_fasta.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_to_lav.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_to_lav.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### axt_to_maf.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/axt_to_maf.py
-$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,12 +4,11 @@ name:  "quay.io/biocontainers/apollo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/apollo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/apollo/container.yaml"
-updated_at: "2022-10-29 05:54:12.147038"
+updated_at: "2022-10-29 07:53:38.100698"
 latest: "4.2.9--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/apollo"
 aliases:
  - "arrow"
- - "2to3-3.8"
  - "aggregate_scores_in_intervals.py"
  - "align_print_template.py"
  - "axt_extract_ranges.py"
@@ -19,10 +18,11 @@ aliases:
  - "bed_bigwig_profile.py"
  - "bed_build_windows.py"
  - "bed_complement.py"
+ - "bed_count_by_interval.py"
 versions:
  - "4.2.9--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for apollo"
-config: {"url": "https://biocontainers.pro/tools/apollo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for apollo", "latest": {"4.2.9--pyh3252c3a_0": "sha256:39fd119b46afeede690b6464e46e090d4dd1166564b8cb9d5659ecf32f29a56a"}, "tags": {"4.2.9--pyh3252c3a_0": "sha256:39fd119b46afeede690b6464e46e090d4dd1166564b8cb9d5659ecf32f29a56a"}, "docker": "quay.io/biocontainers/apollo", "aliases": {"arrow": "/usr/local/bin/arrow", "2to3-3.8": "/usr/local/bin/2to3-3.8", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
+config: {"url": "https://biocontainers.pro/tools/apollo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for apollo", "latest": {"4.2.9--pyh3252c3a_0": "sha256:39fd119b46afeede690b6464e46e090d4dd1166564b8cb9d5659ecf32f29a56a"}, "tags": {"4.2.9--pyh3252c3a_0": "sha256:39fd119b46afeede690b6464e46e090d4dd1166564b8cb9d5659ecf32f29a56a"}, "docker": "quay.io/biocontainers/apollo", "aliases": {"arrow": "/usr/local/bin/arrow", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/apollo.
@@ -117,15 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/arrow   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### aggregate_scores_in_intervals.py
 
 ```bash
@@ -204,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${P
 $ singularity exec <container> /usr/local/bin/bed_complement.py
 $ podman run --it --rm --entrypoint /usr/local/bin/bed_complement.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bed_complement.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_count_by_interval.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_count_by_interval.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_count_by_interval.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_count_by_interval.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

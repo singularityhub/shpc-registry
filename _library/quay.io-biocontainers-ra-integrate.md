@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ra-integrate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ra-integrate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ra-integrate/container.yaml"
-updated_at: "2022-10-29 05:56:03.531985"
+updated_at: "2022-10-29 07:54:58.697955"
 latest: "0.1--0"
 container_url: "https://biocontainers.pro/tools/ra-integrate"
 aliases:
@@ -23,20 +23,20 @@ aliases:
  - "unitigger"
  - "widen_overlaps"
  - "zoom"
+ - "erb"
+ - "gem"
+ - "irb"
+ - "rake"
+ - "rdoc"
+ - "ri"
+ - "ruby"
+ - "easy_install-3.5"
+ - "pngcp"
  - "2to3-3.5"
- - "acyclic"
- - "bcomps"
- - "bmp2tiff"
- - "ccomps"
- - "circo"
- - "cluster"
- - "dijkstra"
- - "dot"
- - "dot2gxl"
 versions:
  - "0.1--0"
 description: "shpc-registry automated BioContainers addition for ra-integrate"
-config: {"url": "https://biocontainers.pro/tools/ra-integrate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ra-integrate", "latest": {"0.1--0": "sha256:578261c1b4d3f29e249be2e862998606eb8d75eaf0b68eb7b79ae9f77b7af447"}, "tags": {"0.1--0": "sha256:578261c1b4d3f29e249be2e862998606eb8d75eaf0b68eb7b79ae9f77b7af447"}, "docker": "quay.io/biocontainers/ra-integrate", "aliases": {"consensus": "/usr/local/bin/consensus", "depot": "/usr/local/bin/depot", "dotty": "/usr/local/bin/dotty", "fill_read_coverage": "/usr/local/bin/fill_read_coverage", "filter_contained": "/usr/local/bin/filter_contained", "filter_erroneous_overlaps": "/usr/local/bin/filter_erroneous_overlaps", "filter_transitive": "/usr/local/bin/filter_transitive", "lneato": "/usr/local/bin/lneato", "overlap2dot": "/usr/local/bin/overlap2dot", "ra-integrate": "/usr/local/bin/ra-integrate", "ra_consensus": "/usr/local/bin/ra_consensus", "to_afg": "/usr/local/bin/to_afg", "unitigger": "/usr/local/bin/unitigger", "widen_overlaps": "/usr/local/bin/widen_overlaps", "zoom": "/usr/local/bin/zoom", "2to3-3.5": "/usr/local/bin/2to3-3.5", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "bmp2tiff": "/usr/local/bin/bmp2tiff", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl"}}
+config: {"url": "https://biocontainers.pro/tools/ra-integrate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ra-integrate", "latest": {"0.1--0": "sha256:578261c1b4d3f29e249be2e862998606eb8d75eaf0b68eb7b79ae9f77b7af447"}, "tags": {"0.1--0": "sha256:578261c1b4d3f29e249be2e862998606eb8d75eaf0b68eb7b79ae9f77b7af447"}, "docker": "quay.io/biocontainers/ra-integrate", "aliases": {"consensus": "/usr/local/bin/consensus", "depot": "/usr/local/bin/depot", "dotty": "/usr/local/bin/dotty", "fill_read_coverage": "/usr/local/bin/fill_read_coverage", "filter_contained": "/usr/local/bin/filter_contained", "filter_erroneous_overlaps": "/usr/local/bin/filter_erroneous_overlaps", "filter_transitive": "/usr/local/bin/filter_transitive", "lneato": "/usr/local/bin/lneato", "overlap2dot": "/usr/local/bin/overlap2dot", "ra-integrate": "/usr/local/bin/ra-integrate", "ra_consensus": "/usr/local/bin/ra_consensus", "to_afg": "/usr/local/bin/to_afg", "unitigger": "/usr/local/bin/unitigger", "widen_overlaps": "/usr/local/bin/widen_overlaps", "zoom": "/usr/local/bin/zoom", "erb": "/usr/local/bin/erb", "gem": "/usr/local/bin/gem", "irb": "/usr/local/bin/irb", "rake": "/usr/local/bin/rake", "rdoc": "/usr/local/bin/rdoc", "ri": "/usr/local/bin/ri", "ruby": "/usr/local/bin/ruby", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "pngcp": "/usr/local/bin/pngcp", "2to3-3.5": "/usr/local/bin/2to3-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ra-integrate.
@@ -257,93 +257,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/zoom   -v ${PWD} -w ${PWD} <c
 ```
 
 
+#### erb
+
+```bash
+$ singularity exec <container> /usr/local/bin/erb
+$ podman run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gem
+
+```bash
+$ singularity exec <container> /usr/local/bin/gem
+$ podman run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### irb
+
+```bash
+$ singularity exec <container> /usr/local/bin/irb
+$ podman run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rake
+
+```bash
+$ singularity exec <container> /usr/local/bin/rake
+$ podman run --it --rm --entrypoint /usr/local/bin/rake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rdoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/rdoc
+$ podman run --it --rm --entrypoint /usr/local/bin/rdoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rdoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ri
+
+```bash
+$ singularity exec <container> /usr/local/bin/ri
+$ podman run --it --rm --entrypoint /usr/local/bin/ri   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ri   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ruby
+
+```bash
+$ singularity exec <container> /usr/local/bin/ruby
+$ podman run --it --rm --entrypoint /usr/local/bin/ruby   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ruby   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### easy_install-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pngcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngcp
+$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.5
 
 ```bash
 $ singularity exec <container> /usr/local/bin/2to3-3.5
 $ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bcomps
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bmp2tiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/bmp2tiff
-$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ccomps
-
-```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### circo
-
-```bash
-$ singularity exec <container> /usr/local/bin/circo
-$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cluster
-
-```bash
-$ singularity exec <container> /usr/local/bin/cluster
-$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dijkstra
-
-```bash
-$ singularity exec <container> /usr/local/bin/dijkstra
-$ podman run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dot
-
-```bash
-$ singularity exec <container> /usr/local/bin/dot
-$ podman run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dot2gxl
-
-```bash
-$ singularity exec <container> /usr/local/bin/dot2gxl
-$ podman run --it --rm --entrypoint /usr/local/bin/dot2gxl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dot2gxl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

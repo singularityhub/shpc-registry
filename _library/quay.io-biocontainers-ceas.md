@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ceas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ceas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ceas/container.yaml"
-updated_at: "2022-10-29 05:44:12.497845"
+updated_at: "2022-10-29 07:46:16.546861"
 latest: "1.0.2--py_2"
 container_url: "https://biocontainers.pro/tools/ceas"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "ceas"
  - "gca"
  - "sitepro"
- - "idle"
  - "my_print_defaults"
  - "mysql_config"
  - "perror"
- - "python-config"
- - "python2"
  - "python2-config"
- - "python2.7"
  - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
+ - "python-config"
  - "smtpd.py"
 versions:
  - "1.0.2--py_2"
 description: "shpc-registry automated BioContainers addition for ceas"
-config: {"url": "https://biocontainers.pro/tools/ceas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ceas", "latest": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "tags": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "docker": "quay.io/biocontainers/ceas", "aliases": {"build_genomeBG": "/usr/local/bin/build_genomeBG", "ceas": "/usr/local/bin/ceas", "gca": "/usr/local/bin/gca", "sitepro": "/usr/local/bin/sitepro", "idle": "/usr/local/bin/idle", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/ceas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ceas", "latest": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "tags": {"1.0.2--py_2": "sha256:79304f3273a34733415b22e465a12179288883b8c717c0eb1ca3e425342dbe7c"}, "docker": "quay.io/biocontainers/ceas", "aliases": {"build_genomeBG": "/usr/local/bin/build_genomeBG", "ceas": "/usr/local/bin/ceas", "gca": "/usr/local/bin/gca", "sitepro": "/usr/local/bin/sitepro", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ceas.
@@ -147,15 +147,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sitepro   -v ${PWD} -w ${PWD}
 ```
 
 
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### my_print_defaults
 
 ```bash
@@ -183,12 +174,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### python-config
+#### python2-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -201,15 +201,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD}
 ```
 
 
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### python2.7
 
 ```bash
@@ -219,12 +210,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PW
 ```
 
 
-#### python2.7-config
+#### idle
 
 ```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-convert-binhex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-convert-binhex/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-convert-binhex/container.yaml"
-updated_at: "2022-10-29 05:56:29.230526"
+updated_at: "2022-10-29 07:55:17.184956"
 latest: "1.125--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-convert-binhex"
 aliases:
  - "binhex.pl"
  - "debinhex.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.125--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-convert-binhex"
-config: {"url": "https://biocontainers.pro/tools/perl-convert-binhex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-convert-binhex", "latest": {"1.125--pl5321hdfd78af_2": "sha256:5e2c1bfd9d7b73eb8213f0ffb69fa5d2e9e31ba47dd5da0213492ed536588163"}, "tags": {"1.125--pl5321hdfd78af_2": "sha256:5e2c1bfd9d7b73eb8213f0ffb69fa5d2e9e31ba47dd5da0213492ed536588163"}, "docker": "quay.io/biocontainers/perl-convert-binhex", "aliases": {"binhex.pl": "/usr/local/bin/binhex.pl", "debinhex.pl": "/usr/local/bin/debinhex.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-convert-binhex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-convert-binhex", "latest": {"1.125--pl5321hdfd78af_2": "sha256:5e2c1bfd9d7b73eb8213f0ffb69fa5d2e9e31ba47dd5da0213492ed536588163"}, "tags": {"1.125--pl5321hdfd78af_2": "sha256:5e2c1bfd9d7b73eb8213f0ffb69fa5d2e9e31ba47dd5da0213492ed536588163"}, "docker": "quay.io/biocontainers/perl-convert-binhex", "aliases": {"binhex.pl": "/usr/local/bin/binhex.pl", "debinhex.pl": "/usr/local/bin/debinhex.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-convert-binhex.
@@ -114,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/binhex.pl   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/debinhex.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/debinhex.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/debinhex.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

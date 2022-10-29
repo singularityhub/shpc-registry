@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eval/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/eval/container.yaml"
-updated_at: "2022-10-29 05:56:51.674417"
+updated_at: "2022-10-29 07:55:33.380973"
 latest: "2.2.8--pl526_1"
 container_url: "https://biocontainers.pro/tools/eval"
 aliases:
@@ -23,7 +23,8 @@ aliases:
  - "merge_gtf_transcripts.py"
  - "validate_gtf.pl"
  - "validate_splice_sites.pl"
- - "2to3-3.7"
+ - "bp_pairwise_kaks.pl"
+ - "bp_search2BSML.pl"
  - "bp_aacomp.pl"
  - "bp_biofetch_genbank_proxy.pl"
  - "bp_bioflat_index.pl"
@@ -32,11 +33,10 @@ aliases:
  - "bp_bulk_load_gff.pl"
  - "bp_chaos_plot.pl"
  - "bp_classify_hits_kingdom.pl"
- - "bp_composite_LD.pl"
 versions:
  - "2.2.8--pl526_1"
 description: "shpc-registry automated BioContainers addition for eval"
-config: {"url": "https://biocontainers.pro/tools/eval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eval", "latest": {"2.2.8--pl526_1": "sha256:8fc80165439a7328b8332e38f4063047bf60204244a6dcac9e499abff5bec2d9"}, "tags": {"2.2.8--pl526_1": "sha256:8fc80165439a7328b8332e38f4063047bf60204244a6dcac9e499abff5bec2d9"}, "docker": "quay.io/biocontainers/eval", "aliases": {"RangeFinder.py": "/usr/local/bin/RangeFinder.py", "combine_eval_reports.pl": "/usr/local/bin/combine_eval_reports.pl", "eval.pl": "/usr/local/bin/eval.pl", "evaluate_gtf.pl": "/usr/local/bin/evaluate_gtf.pl", "filter_badlist.pl": "/usr/local/bin/filter_badlist.pl", "filter_gtfs.pl": "/usr/local/bin/filter_gtfs.pl", "get_distribution.pl": "/usr/local/bin/get_distribution.pl", "get_general_stats.pl": "/usr/local/bin/get_general_stats.pl", "get_overlap_stats.pl": "/usr/local/bin/get_overlap_stats.pl", "gff3_to_gtf.pl": "/usr/local/bin/gff3_to_gtf.pl", "graph_gtfs.pl": "/usr/local/bin/graph_gtfs.pl", "make_intron_lenght_vs_performance_graph.pl": "/usr/local/bin/make_intron_lenght_vs_performance_graph.pl", "merge_gtf_transcripts.py": "/usr/local/bin/merge_gtf_transcripts.py", "validate_gtf.pl": "/usr/local/bin/validate_gtf.pl", "validate_splice_sites.pl": "/usr/local/bin/validate_splice_sites.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl", "bp_composite_LD.pl": "/usr/local/bin/bp_composite_LD.pl"}}
+config: {"url": "https://biocontainers.pro/tools/eval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eval", "latest": {"2.2.8--pl526_1": "sha256:8fc80165439a7328b8332e38f4063047bf60204244a6dcac9e499abff5bec2d9"}, "tags": {"2.2.8--pl526_1": "sha256:8fc80165439a7328b8332e38f4063047bf60204244a6dcac9e499abff5bec2d9"}, "docker": "quay.io/biocontainers/eval", "aliases": {"RangeFinder.py": "/usr/local/bin/RangeFinder.py", "combine_eval_reports.pl": "/usr/local/bin/combine_eval_reports.pl", "eval.pl": "/usr/local/bin/eval.pl", "evaluate_gtf.pl": "/usr/local/bin/evaluate_gtf.pl", "filter_badlist.pl": "/usr/local/bin/filter_badlist.pl", "filter_gtfs.pl": "/usr/local/bin/filter_gtfs.pl", "get_distribution.pl": "/usr/local/bin/get_distribution.pl", "get_general_stats.pl": "/usr/local/bin/get_general_stats.pl", "get_overlap_stats.pl": "/usr/local/bin/get_overlap_stats.pl", "gff3_to_gtf.pl": "/usr/local/bin/gff3_to_gtf.pl", "graph_gtfs.pl": "/usr/local/bin/graph_gtfs.pl", "make_intron_lenght_vs_performance_graph.pl": "/usr/local/bin/make_intron_lenght_vs_performance_graph.pl", "merge_gtf_transcripts.py": "/usr/local/bin/merge_gtf_transcripts.py", "validate_gtf.pl": "/usr/local/bin/validate_gtf.pl", "validate_splice_sites.pl": "/usr/local/bin/validate_splice_sites.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl", "bp_classify_hits_kingdom.pl": "/usr/local/bin/bp_classify_hits_kingdom.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eval.
@@ -257,12 +257,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/validate_splice_sites.pl   -v
 ```
 
 
-#### 2to3-3.7
+#### bp_pairwise_kaks.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_search2BSML.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_search2BSML.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -335,15 +344,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bp_chaos_plot.pl   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/bp_classify_hits_kingdom.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/bp_classify_hits_kingdom.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bp_classify_hits_kingdom.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bp_composite_LD.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bp_composite_LD.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_composite_LD.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_composite_LD.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

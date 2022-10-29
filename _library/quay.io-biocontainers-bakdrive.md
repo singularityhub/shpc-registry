@@ -4,26 +4,27 @@ name:  "quay.io/biocontainers/bakdrive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bakdrive/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bakdrive/container.yaml"
-updated_at: "2022-10-29 05:56:49.483950"
+updated_at: "2022-10-29 07:55:31.806397"
 latest: "1.0.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bakdrive"
 aliases:
  - "bakdrive"
  - "httpx"
- - "2to3-3.9"
+ - "isympy"
+ - "cmark"
+ - "pulptest"
  - "cbc"
  - "clp"
- - "cmark"
- - "f2py3.9"
- - "futurize"
  - "glpsol"
- - "idle3.9"
- - "isympy"
- - "normalizer"
+ - "rst2html4.py"
+ - "rst2html5.py"
+ - "rst2html.py"
+ - "rst2latex.py"
+ - "rst2man.py"
 versions:
  - "1.0.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bakdrive"
-config: {"url": "https://biocontainers.pro/tools/bakdrive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bakdrive", "latest": {"1.0.4--hdfd78af_0": "sha256:248fdd478912ae707d9acf27b9ff2f704ef87a0ecd2f95fb5ee5dd306724b736"}, "tags": {"1.0.4--hdfd78af_0": "sha256:248fdd478912ae707d9acf27b9ff2f704ef87a0ecd2f95fb5ee5dd306724b736"}, "docker": "quay.io/biocontainers/bakdrive", "aliases": {"bakdrive": "/usr/local/bin/bakdrive", "httpx": "/usr/local/bin/httpx", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "cmark": "/usr/local/bin/cmark", "f2py3.9": "/usr/local/bin/f2py3.9", "futurize": "/usr/local/bin/futurize", "glpsol": "/usr/local/bin/glpsol", "idle3.9": "/usr/local/bin/idle3.9", "isympy": "/usr/local/bin/isympy", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/bakdrive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bakdrive", "latest": {"1.0.4--hdfd78af_0": "sha256:248fdd478912ae707d9acf27b9ff2f704ef87a0ecd2f95fb5ee5dd306724b736"}, "tags": {"1.0.4--hdfd78af_0": "sha256:248fdd478912ae707d9acf27b9ff2f704ef87a0ecd2f95fb5ee5dd306724b736"}, "docker": "quay.io/biocontainers/bakdrive", "aliases": {"bakdrive": "/usr/local/bin/bakdrive", "httpx": "/usr/local/bin/httpx", "isympy": "/usr/local/bin/isympy", "cmark": "/usr/local/bin/cmark", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "glpsol": "/usr/local/bin/glpsol", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bakdrive.
@@ -127,12 +128,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/httpx   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### 2to3-3.9
+#### isympy
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/isympy
+$ podman run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmark
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmark
+$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pulptest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pulptest
+$ podman run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -154,33 +173,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### cmark
-
-```bash
-$ singularity exec <container> /usr/local/bin/cmark
-$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### futurize
-
-```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### glpsol
 
 ```bash
@@ -190,30 +182,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### idle3.9
+#### rst2html4.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html4.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html4.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html4.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### isympy
+#### rst2html5.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/isympy
-$ podman run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html5.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### normalizer
+#### rst2html.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/normalizer
-$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2latex.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2latex.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2latex.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2latex.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2man.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2man.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

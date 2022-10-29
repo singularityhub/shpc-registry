@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dsimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dsimer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dsimer/container.yaml"
-updated_at: "2022-10-29 05:51:06.675215"
+updated_at: "2022-10-29 07:51:21.871981"
 latest: "1.6.0--r341hfc679d8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dsimer"
 aliases:
+ - "wget"
  - "ncurses5-config"
  - "ncursesw5-config"
- - "wget"
 versions:
  - "1.6.0--r341hfc679d8_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dsimer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dsimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dsimer", "latest": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7"}, "tags": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7"}, "docker": "quay.io/biocontainers/bioconductor-dsimer", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dsimer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dsimer", "latest": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7"}, "tags": {"1.6.0--r341hfc679d8_0": "sha256:1eff67cd40149138651a63e519148108bd41233d899cb925030f4ba51e93cca7"}, "docker": "quay.io/biocontainers/bioconductor-dsimer", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dsimer.
@@ -100,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ncurses5-config
 
 ```bash
@@ -115,15 +124,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/ncursesw5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

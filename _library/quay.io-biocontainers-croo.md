@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/croo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/croo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/croo/container.yaml"
-updated_at: "2022-10-29 05:47:55.267376"
+updated_at: "2022-10-29 07:49:01.052495"
 latest: "0.6.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/croo"
 aliases:
@@ -23,20 +23,20 @@ aliases:
  - "run_mysql_server_docker.sh"
  - "run_mysql_server_singularity.sh"
  - "wsdump.py"
- - "2to3-3.9"
  - "activate-global-python-argcomplete"
- - "acyclic"
- - "annotate"
- - "aserver"
- - "assistant"
- - "bcomps"
- - "bdftogd"
- - "canbusutil"
- - "ccomps"
+ - "python-argcomplete-check-easy-install-script"
+ - "python-argcomplete-tcsh"
+ - "register-python-argcomplete"
+ - "coloredlogs"
+ - "humanfriendly"
+ - "xkbcli"
+ - "jp.py"
+ - "py.test"
+ - "pytest"
 versions:
  - "0.6.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for croo"
-config: {"url": "https://biocontainers.pro/tools/croo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for croo", "latest": {"0.6.0--pyhdfd78af_0": "sha256:9113ed9172e6644ab28850dd9c5f9f1ee149514e12e5147607fac8fad5a621ee"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:9113ed9172e6644ab28850dd9c5f9f1ee149514e12e5147607fac8fad5a621ee"}, "docker": "quay.io/biocontainers/croo", "aliases": {"autouri": "/usr/local/bin/autouri", "aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "caper": "/usr/local/bin/caper", "create_instance.sh": "/usr/local/bin/create_instance.sh", "croo": "/usr/local/bin/croo", "miniwdl": "/usr/local/bin/miniwdl", "pygtail": "/usr/local/bin/pygtail", "pyhocon": "/usr/local/bin/pyhocon", "run_mysql_server_docker.sh": "/usr/local/bin/run_mysql_server_docker.sh", "run_mysql_server_singularity.sh": "/usr/local/bin/run_mysql_server_singularity.sh", "wsdump.py": "/usr/local/bin/wsdump.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "canbusutil": "/usr/local/bin/canbusutil", "ccomps": "/usr/local/bin/ccomps"}}
+config: {"url": "https://biocontainers.pro/tools/croo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for croo", "latest": {"0.6.0--pyhdfd78af_0": "sha256:9113ed9172e6644ab28850dd9c5f9f1ee149514e12e5147607fac8fad5a621ee"}, "tags": {"0.6.0--pyhdfd78af_0": "sha256:9113ed9172e6644ab28850dd9c5f9f1ee149514e12e5147607fac8fad5a621ee"}, "docker": "quay.io/biocontainers/croo", "aliases": {"autouri": "/usr/local/bin/autouri", "aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "caper": "/usr/local/bin/caper", "create_instance.sh": "/usr/local/bin/create_instance.sh", "croo": "/usr/local/bin/croo", "miniwdl": "/usr/local/bin/miniwdl", "pygtail": "/usr/local/bin/pygtail", "pyhocon": "/usr/local/bin/pyhocon", "run_mysql_server_docker.sh": "/usr/local/bin/run_mysql_server_docker.sh", "run_mysql_server_singularity.sh": "/usr/local/bin/run_mysql_server_singularity.sh", "wsdump.py": "/usr/local/bin/wsdump.py", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "xkbcli": "/usr/local/bin/xkbcli", "jp.py": "/usr/local/bin/jp.py", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/croo.
@@ -257,15 +257,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wsdump.py   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### activate-global-python-argcomplete
 
 ```bash
@@ -275,75 +266,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcom
 ```
 
 
-#### acyclic
+#### python-argcomplete-check-easy-install-script
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python-argcomplete-check-easy-install-script
+$ podman run --it --rm --entrypoint /usr/local/bin/python-argcomplete-check-easy-install-script   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-check-easy-install-script   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### python-argcomplete-tcsh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python-argcomplete-tcsh
+$ podman run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### register-python-argcomplete
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/register-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### coloredlogs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### humanfriendly
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### xkbcli
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xkbcli
+$ podman run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xkbcli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### jp.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jp.py
+$ podman run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### py.test
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pytest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

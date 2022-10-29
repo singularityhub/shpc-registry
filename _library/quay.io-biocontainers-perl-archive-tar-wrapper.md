@@ -4,18 +4,20 @@ name:  "quay.io/biocontainers/perl-archive-tar-wrapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-archive-tar-wrapper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-archive-tar-wrapper/container.yaml"
-updated_at: "2022-10-29 05:31:44.381106"
+updated_at: "2022-10-29 07:37:05.249833"
 latest: "0.33--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-archive-tar-wrapper"
 aliases:
+ - "l4p-tmpl"
  - "dbilogstrip"
  - "dbiprof"
  - "dbiproxy"
- - "l4p-tmpl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.33--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-archive-tar-wrapper"
-config: {"url": "https://biocontainers.pro/tools/perl-archive-tar-wrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-tar-wrapper", "latest": {"0.33--pl5321hdfd78af_1": "sha256:8ce46d77ffb6c1ec6ec35709e58d8693aa65eaea82676b6254d8f1ee20b13547"}, "tags": {"0.33--pl5321hdfd78af_1": "sha256:8ce46d77ffb6c1ec6ec35709e58d8693aa65eaea82676b6254d8f1ee20b13547"}, "docker": "quay.io/biocontainers/perl-archive-tar-wrapper", "aliases": {"dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "l4p-tmpl": "/usr/local/bin/l4p-tmpl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-archive-tar-wrapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-archive-tar-wrapper", "latest": {"0.33--pl5321hdfd78af_1": "sha256:8ce46d77ffb6c1ec6ec35709e58d8693aa65eaea82676b6254d8f1ee20b13547"}, "tags": {"0.33--pl5321hdfd78af_1": "sha256:8ce46d77ffb6c1ec6ec35709e58d8693aa65eaea82676b6254d8f1ee20b13547"}, "docker": "quay.io/biocontainers/perl-archive-tar-wrapper", "aliases": {"l4p-tmpl": "/usr/local/bin/l4p-tmpl", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-archive-tar-wrapper.
@@ -101,6 +103,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### l4p-tmpl
+
+```bash
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dbilogstrip
 
 ```bash
@@ -128,12 +139,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD
 ```
 
 
-#### l4p-tmpl
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/l4p-tmpl
-$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

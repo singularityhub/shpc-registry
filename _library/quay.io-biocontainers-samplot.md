@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/samplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samplot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samplot/container.yaml"
-updated_at: "2022-10-29 05:41:47.060690"
+updated_at: "2022-10-29 07:44:28.001420"
 latest: "1.3.0--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/samplot"
 aliases:
  - "samplot"
- - "2to3-3.9"
- - "f2py3.9"
- - "idle3.9"
  - "idn2"
- - "jpgicc"
- - "linkicc"
+ - "wget"
+ - "f2py3.9"
  - "opj_compress"
  - "opj_decompress"
  - "opj_dump"
- - "psicc"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
 versions:
  - "1.3.0--pyh5e36f6f_1"
 description: "shpc-registry automated BioContainers addition for samplot"
-config: {"url": "https://biocontainers.pro/tools/samplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samplot", "latest": {"1.3.0--pyh5e36f6f_1": "sha256:b7e4a9a52e1d908505398c6dc0fec1a4063841f7cfe701122bb417e204b1387a"}, "tags": {"1.3.0--pyh5e36f6f_1": "sha256:b7e4a9a52e1d908505398c6dc0fec1a4063841f7cfe701122bb417e204b1387a"}, "docker": "quay.io/biocontainers/samplot", "aliases": {"samplot": "/usr/local/bin/samplot", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "idn2": "/usr/local/bin/idn2", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "psicc": "/usr/local/bin/psicc"}}
+config: {"url": "https://biocontainers.pro/tools/samplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samplot", "latest": {"1.3.0--pyh5e36f6f_1": "sha256:b7e4a9a52e1d908505398c6dc0fec1a4063841f7cfe701122bb417e204b1387a"}, "tags": {"1.3.0--pyh5e36f6f_1": "sha256:b7e4a9a52e1d908505398c6dc0fec1a4063841f7cfe701122bb417e204b1387a"}, "docker": "quay.io/biocontainers/samplot", "aliases": {"samplot": "/usr/local/bin/samplot", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samplot.
@@ -117,33 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/samplot   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### idn2
 
 ```bash
@@ -153,21 +126,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### jpgicc
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### linkicc
+#### f2py3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -198,12 +171,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD
 ```
 
 
-#### psicc
+#### 2to3-3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/psicc
-$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

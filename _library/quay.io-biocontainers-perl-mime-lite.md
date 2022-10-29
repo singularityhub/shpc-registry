@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-mime-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-mime-lite/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-mime-lite/container.yaml"
-updated_at: "2022-10-29 05:59:35.644549"
+updated_at: "2022-10-29 07:57:33.200355"
 latest: "3.030--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-mime-lite"
 aliases:
  - "perl5.32.1"
+ - "streamzip"
 versions:
  - "3.030--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-mime-lite"
-config: {"url": "https://biocontainers.pro/tools/perl-mime-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-lite", "latest": {"3.030--pl5321hdfd78af_2": "sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00"}, "tags": {"3.030--pl5321hdfd78af_2": "sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00"}, "docker": "quay.io/biocontainers/perl-mime-lite", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
+config: {"url": "https://biocontainers.pro/tools/perl-mime-lite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-mime-lite", "latest": {"3.030--pl5321hdfd78af_2": "sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00"}, "tags": {"3.030--pl5321hdfd78af_2": "sha256:77249d307b9055425ac49beee38f5711fdf061a7c56c772c4f489a67ac73af00"}, "docker": "quay.io/biocontainers/perl-mime-lite", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-mime-lite.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/perl5.32.1
 $ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

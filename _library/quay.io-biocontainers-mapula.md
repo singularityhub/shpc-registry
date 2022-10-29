@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mapula"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapula/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mapula/container.yaml"
-updated_at: "2022-10-29 05:34:08.056258"
+updated_at: "2022-10-29 07:38:50.608233"
 latest: "2.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mapula"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "font-awesome-to-png"
  - "icon-font-to-png"
  - "mapula"
- - "2to3-3.9"
  - "bokeh"
+ - "markdown_py"
+ - "tqdm"
  - "chardetect"
  - "f2py3.9"
- - "idle3.9"
- - "jpgicc"
- - "linkicc"
- - "markdown_py"
  - "opj_compress"
  - "opj_decompress"
+ - "opj_dump"
+ - "2to3-3.9"
+ - "idle3.9"
 versions:
  - "2.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mapula"
-config: {"url": "https://biocontainers.pro/tools/mapula", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapula", "latest": {"2.1.2--pyhdfd78af_0": "sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a"}, "tags": {"2.1.2--pyhdfd78af_0": "sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a"}, "docker": "quay.io/biocontainers/mapula", "aliases": {"aplanat": "/usr/local/bin/aplanat", "font-awesome-to-png": "/usr/local/bin/font-awesome-to-png", "icon-font-to-png": "/usr/local/bin/icon-font-to-png", "mapula": "/usr/local/bin/mapula", "2to3-3.9": "/usr/local/bin/2to3-3.9", "bokeh": "/usr/local/bin/bokeh", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "markdown_py": "/usr/local/bin/markdown_py", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
+config: {"url": "https://biocontainers.pro/tools/mapula", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mapula", "latest": {"2.1.2--pyhdfd78af_0": "sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a"}, "tags": {"2.1.2--pyhdfd78af_0": "sha256:6c14ac43f1b74eea981ccc8da6ade63a72c336a9005a05a91d7171f458110a1a"}, "docker": "quay.io/biocontainers/mapula", "aliases": {"aplanat": "/usr/local/bin/aplanat", "font-awesome-to-png": "/usr/local/bin/font-awesome-to-png", "icon-font-to-png": "/usr/local/bin/icon-font-to-png", "mapula": "/usr/local/bin/mapula", "bokeh": "/usr/local/bin/bokeh", "markdown_py": "/usr/local/bin/markdown_py", "tqdm": "/usr/local/bin/tqdm", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mapula.
@@ -147,21 +147,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mapula   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bokeh
 
 ```bash
 $ singularity exec <container> /usr/local/bin/bokeh
 $ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### markdown_py
+
+```bash
+$ singularity exec <container> /usr/local/bin/markdown_py
+$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -183,42 +192,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
-#### idle3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jpgicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### linkicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### markdown_py
-
-```bash
-$ singularity exec <container> /usr/local/bin/markdown_py
-$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### opj_compress
 
 ```bash
@@ -234,6 +207,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/opj_decompress
 $ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

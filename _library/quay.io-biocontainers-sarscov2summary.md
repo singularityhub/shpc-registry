@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/sarscov2summary"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sarscov2summary/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sarscov2summary/container.yaml"
-updated_at: "2022-10-29 05:36:55.394744"
+updated_at: "2022-10-29 07:40:53.532961"
 latest: "0.5--py_1"
 container_url: "https://biocontainers.pro/tools/sarscov2summary"
 aliases:
  - "sarscov2summary"
- - "2to3-3.8"
  - "f2py3.8"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "0.5--py_1"
 description: "shpc-registry automated BioContainers addition for sarscov2summary"
-config: {"url": "https://biocontainers.pro/tools/sarscov2summary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sarscov2summary", "latest": {"0.5--py_1": "sha256:4ab42ce1880a33807d43264a93d077254efe5bf07457dceb5b911027f5b54ed9"}, "tags": {"0.5--py_1": "sha256:4ab42ce1880a33807d43264a93d077254efe5bf07457dceb5b911027f5b54ed9"}, "docker": "quay.io/biocontainers/sarscov2summary", "aliases": {"sarscov2summary": "/usr/local/bin/sarscov2summary", "2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/sarscov2summary", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sarscov2summary", "latest": {"0.5--py_1": "sha256:4ab42ce1880a33807d43264a93d077254efe5bf07457dceb5b911027f5b54ed9"}, "tags": {"0.5--py_1": "sha256:4ab42ce1880a33807d43264a93d077254efe5bf07457dceb5b911027f5b54ed9"}, "docker": "quay.io/biocontainers/sarscov2summary", "aliases": {"sarscov2summary": "/usr/local/bin/sarscov2summary", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sarscov2summary.
@@ -113,21 +113,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sarscov2summary   -v ${PWD} -
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.8
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.8
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

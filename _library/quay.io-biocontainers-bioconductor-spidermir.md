@@ -4,17 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-spidermir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spidermir/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spidermir/container.yaml"
-updated_at: "2022-10-29 05:40:26.759845"
+updated_at: "2022-10-29 07:43:28.783732"
 latest: "1.8.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spidermir"
 aliases:
+ - "wget"
  - "ncurses5-config"
  - "ncursesw5-config"
- - "wget"
 versions:
  - "1.8.2--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spidermir"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spidermir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spidermir", "latest": {"1.8.2--r3.4.1_0": "sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be"}, "tags": {"1.8.2--r3.4.1_0": "sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be"}, "docker": "quay.io/biocontainers/bioconductor-spidermir", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spidermir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spidermir", "latest": {"1.8.2--r3.4.1_0": "sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be"}, "tags": {"1.8.2--r3.4.1_0": "sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be"}, "docker": "quay.io/biocontainers/bioconductor-spidermir", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spidermir.
@@ -100,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ncurses5-config
 
 ```bash
@@ -115,15 +124,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/ncursesw5-config
 $ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### wget
-
-```bash
-$ singularity exec <container> /usr/local/bin/wget
-$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

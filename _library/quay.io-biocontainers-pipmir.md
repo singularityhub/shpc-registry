@@ -4,11 +4,12 @@ name:  "quay.io/biocontainers/pipmir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipmir/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pipmir/container.yaml"
-updated_at: "2022-10-29 05:33:25.469196"
+updated_at: "2022-10-29 07:38:19.327349"
 latest: "1.1--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/pipmir"
 aliases:
  - "PIPmiR"
+ - "RNAfold"
  - "Kinfold"
  - "RNALfold"
  - "RNAaliduplex"
@@ -17,12 +18,11 @@ aliases:
  - "RNAdistance"
  - "RNAduplex"
  - "RNAeval"
- - "RNAfold"
  - "RNAforester"
 versions:
  - "1.1--hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for pipmir"
-config: {"url": "https://biocontainers.pro/tools/pipmir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipmir", "latest": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "tags": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "docker": "quay.io/biocontainers/pipmir", "aliases": {"PIPmiR": "/usr/local/bin/PIPmiR", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAfold": "/usr/local/bin/RNAfold", "RNAforester": "/usr/local/bin/RNAforester"}}
+config: {"url": "https://biocontainers.pro/tools/pipmir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipmir", "latest": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "tags": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "docker": "quay.io/biocontainers/pipmir", "aliases": {"PIPmiR": "/usr/local/bin/PIPmiR", "RNAfold": "/usr/local/bin/RNAfold", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAforester": "/usr/local/bin/RNAforester"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pipmir.
@@ -117,6 +117,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/PIPmiR   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### RNAfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### Kinfold
 
 ```bash
@@ -186,15 +195,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/RNAduplex   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/RNAeval
 $ podman run --it --rm --entrypoint /usr/local/bin/RNAeval   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/RNAeval   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RNAfold
-
-```bash
-$ singularity exec <container> /usr/local/bin/RNAfold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAfold   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

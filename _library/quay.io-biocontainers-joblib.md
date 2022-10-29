@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/joblib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/joblib/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/joblib/container.yaml"
-updated_at: "2022-10-29 05:56:12.879329"
+updated_at: "2022-10-29 07:55:05.388310"
 latest: "0.9.3--py36_0"
 container_url: "https://biocontainers.pro/tools/joblib"
 aliases:
- - "2to3-3.6"
  - "easy_install-3.6"
+ - "2to3-3.6"
  - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.9.3--py36_0"
 description: "shpc-registry automated BioContainers addition for joblib"
-config: {"url": "https://biocontainers.pro/tools/joblib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for joblib", "latest": {"0.9.3--py36_0": "sha256:84ad4b4a67c45e5ef0f07c8dc18cd46db7bcac137fbc8563908dd33c05faaa17"}, "tags": {"0.9.3--py36_0": "sha256:84ad4b4a67c45e5ef0f07c8dc18cd46db7bcac137fbc8563908dd33c05faaa17"}, "docker": "quay.io/biocontainers/joblib", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/joblib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for joblib", "latest": {"0.9.3--py36_0": "sha256:84ad4b4a67c45e5ef0f07c8dc18cd46db7bcac137fbc8563908dd33c05faaa17"}, "tags": {"0.9.3--py36_0": "sha256:84ad4b4a67c45e5ef0f07c8dc18cd46db7bcac137fbc8563908dd33c05faaa17"}, "docker": "quay.io/biocontainers/joblib", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/joblib.
@@ -107,21 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### easy_install-3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/easy_install-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

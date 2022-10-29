@@ -4,17 +4,18 @@ name:  "quay.io/biocontainers/grep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grep/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/grep/container.yaml"
-updated_at: "2022-10-29 05:49:12.819415"
+updated_at: "2022-10-29 07:49:58.356394"
 latest: "3.4--hcb20899_2"
 container_url: "https://biocontainers.pro/tools/grep"
 aliases:
  - "egrep"
  - "fgrep"
  - "grep"
+ - "pcregrep"
 versions:
  - "3.4--hcb20899_2"
 description: "shpc-registry automated BioContainers addition for grep"
-config: {"url": "https://biocontainers.pro/tools/grep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grep", "latest": {"3.4--hcb20899_2": "sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc"}, "tags": {"3.4--hcb20899_2": "sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc"}, "docker": "quay.io/biocontainers/grep", "aliases": {"egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep"}}
+config: {"url": "https://biocontainers.pro/tools/grep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grep", "latest": {"3.4--hcb20899_2": "sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc"}, "tags": {"3.4--hcb20899_2": "sha256:8482764cb21b0d1250b7947b9343a8503cdfa22be79ff292f7c3393c81062fbc"}, "docker": "quay.io/biocontainers/grep", "aliases": {"egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "pcregrep": "/usr/local/bin/pcregrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grep.
@@ -124,6 +125,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fgrep   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/grep
 $ podman run --it --rm --entrypoint /usr/local/bin/grep   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/grep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pcregrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/pcregrep
+$ podman run --it --rm --entrypoint /usr/local/bin/pcregrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pcregrep   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

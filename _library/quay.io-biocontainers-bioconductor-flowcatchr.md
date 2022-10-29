@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-flowcatchr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowcatchr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowcatchr/container.yaml"
-updated_at: "2022-10-29 05:56:41.896693"
+updated_at: "2022-10-29 07:55:26.304068"
 latest: "1.28.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowcatchr"
 aliases:
+ - "x86_64-conda-linux-gnu-pkg-config"
  - "Magick++-config"
  - "MagickCore-config"
  - "MagickWand-config"
- - "acyclic"
  - "animate"
- - "annotate"
- - "bcomps"
- - "bdftogd"
- - "ccomps"
- - "circo"
+ - "composite"
+ - "conjure"
+ - "convert"
+ - "display"
+ - "identify"
 versions:
  - "1.28.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowcatchr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowcatchr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowcatchr", "latest": {"1.28.0--r41hdfd78af_0": "sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f"}, "docker": "quay.io/biocontainers/bioconductor-flowcatchr", "aliases": {"Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowcatchr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowcatchr", "latest": {"1.28.0--r41hdfd78af_0": "sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:54907d72ea55fc409fd35dbd86dbd236ac7450b5cff61bbef17670dd35aa4c9f"}, "docker": "quay.io/biocontainers/bioconductor-flowcatchr", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowcatchr.
@@ -107,6 +107,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### x86_64-conda-linux-gnu-pkg-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-pkg-config
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### Magick++-config
 
 ```bash
@@ -134,15 +143,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD}
 ```
 
 
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### animate
 
 ```bash
@@ -152,48 +152,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD}
 ```
 
 
-#### annotate
+#### composite
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/composite
+$ podman run --it --rm --entrypoint /usr/local/bin/composite   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/composite   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### conjure
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/conjure
+$ podman run --it --rm --entrypoint /usr/local/bin/conjure   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conjure   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### convert
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/convert
+$ podman run --it --rm --entrypoint /usr/local/bin/convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### display
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/display
+$ podman run --it --rm --entrypoint /usr/local/bin/display   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/display   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### circo
+#### identify
 
 ```bash
-$ singularity exec <container> /usr/local/bin/circo
-$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/identify
+$ podman run --it --rm --entrypoint /usr/local/bin/identify   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/identify   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

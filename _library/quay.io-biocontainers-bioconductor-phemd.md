@@ -4,20 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-phemd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phemd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phemd/container.yaml"
-updated_at: "2022-10-29 05:50:14.038371"
+updated_at: "2022-10-29 07:50:43.266626"
 latest: "1.6.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-phemd"
 aliases:
- - "2to3-3.9"
  - "f2py3.9"
+ - "2to3-3.9"
  - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.6.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-phemd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-phemd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phemd", "latest": {"1.6.0--r40hdfd78af_1": "sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1"}, "docker": "quay.io/biocontainers/bioconductor-phemd", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-phemd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-phemd", "latest": {"1.6.0--r40hdfd78af_1": "sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:6a280129a286f90c50b6ae8674360a5a23f35d2465b780a6b1887e6c53cd75a1"}, "docker": "quay.io/biocontainers/bioconductor-phemd", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-phemd.
@@ -103,21 +104,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.9
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.9
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -154,6 +155,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.9-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

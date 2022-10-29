@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/rsidx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsidx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rsidx/container.yaml"
-updated_at: "2022-10-29 05:44:24.421851"
+updated_at: "2022-10-29 07:46:25.401987"
 latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rsidx"
 aliases:
  - "rsidx"
  - "2to3-3.10"
- - "bgzip"
- - "htsfile"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
+ - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rsidx"
-config: {"url": "https://biocontainers.pro/tools/rsidx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsidx", "latest": {"0.3--pyhdfd78af_0": "sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42"}, "tags": {"0.3--pyhdfd78af_0": "sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42"}, "docker": "quay.io/biocontainers/rsidx", "aliases": {"rsidx": "/usr/local/bin/rsidx", "2to3-3.10": "/usr/local/bin/2to3-3.10", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/rsidx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsidx", "latest": {"0.3--pyhdfd78af_0": "sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42"}, "tags": {"0.3--pyhdfd78af_0": "sha256:1b32c1963335b2c7bcdff420a7ac2ca91dad68b7339a55395929971920a51d42"}, "docker": "quay.io/biocontainers/rsidx", "aliases": {"rsidx": "/usr/local/bin/rsidx", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rsidx.
@@ -125,24 +125,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### idle3.10
 
 ```bash
@@ -185,6 +167,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

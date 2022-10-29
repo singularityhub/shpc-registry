@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/perl-bio-eutilities"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-eutilities/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-eutilities/container.yaml"
-updated_at: "2022-10-29 05:39:01.673727"
+updated_at: "2022-10-29 07:42:26.451759"
 latest: "1.77--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-eutilities"
 aliases:
  - "bp_einfo"
  - "bp_genbank_ref_extractor"
+ - "bp_pairwise_kaks.pl"
+ - "bp_search2BSML.pl"
  - "bp_aacomp"
- - "bp_aacomp.pl"
- - "bp_biofetch_genbank_proxy.pl"
  - "bp_bioflat_index"
- - "bp_bioflat_index.pl"
  - "bp_biogetseq"
- - "bp_biogetseq.pl"
- - "bp_blast2tree.pl"
- - "bp_bulk_load_gff.pl"
- - "bp_chaos_plot.pl"
+ - "bp_dbsplit"
+ - "bp_extract_feature_seq"
+ - "bp_fastam9_to_table"
+ - "bp_fetch"
+ - "bp_filter_search"
 versions:
  - "1.77--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-bio-eutilities"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-eutilities", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-eutilities", "latest": {"1.77--pl5321hdfd78af_0": "sha256:4b53f846adff2da3234a8e4764a441fe6d64d8be0e79f1f0886e1be86157517a"}, "tags": {"1.77--pl5321hdfd78af_0": "sha256:4b53f846adff2da3234a8e4764a441fe6d64d8be0e79f1f0886e1be86157517a"}, "docker": "quay.io/biocontainers/perl-bio-eutilities", "aliases": {"bp_einfo": "/usr/local/bin/bp_einfo", "bp_genbank_ref_extractor": "/usr/local/bin/bp_genbank_ref_extractor", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_aacomp.pl": "/usr/local/bin/bp_aacomp.pl", "bp_biofetch_genbank_proxy.pl": "/usr/local/bin/bp_biofetch_genbank_proxy.pl", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_bioflat_index.pl": "/usr/local/bin/bp_bioflat_index.pl", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_biogetseq.pl": "/usr/local/bin/bp_biogetseq.pl", "bp_blast2tree.pl": "/usr/local/bin/bp_blast2tree.pl", "bp_bulk_load_gff.pl": "/usr/local/bin/bp_bulk_load_gff.pl", "bp_chaos_plot.pl": "/usr/local/bin/bp_chaos_plot.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-eutilities", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-eutilities", "latest": {"1.77--pl5321hdfd78af_0": "sha256:4b53f846adff2da3234a8e4764a441fe6d64d8be0e79f1f0886e1be86157517a"}, "tags": {"1.77--pl5321hdfd78af_0": "sha256:4b53f846adff2da3234a8e4764a441fe6d64d8be0e79f1f0886e1be86157517a"}, "docker": "quay.io/biocontainers/perl-bio-eutilities", "aliases": {"bp_einfo": "/usr/local/bin/bp_einfo", "bp_genbank_ref_extractor": "/usr/local/bin/bp_genbank_ref_extractor", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-eutilities.
@@ -127,30 +127,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bp_genbank_ref_extractor   -v
 ```
 
 
+#### bp_pairwise_kaks.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_search2BSML.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_search2BSML.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_search2BSML.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bp_aacomp
 
 ```bash
 $ singularity exec <container> /usr/local/bin/bp_aacomp
 $ podman run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bp_aacomp.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bp_aacomp.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_aacomp.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_aacomp.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bp_biofetch_genbank_proxy.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bp_biofetch_genbank_proxy.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_biofetch_genbank_proxy.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_biofetch_genbank_proxy.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -163,15 +163,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index   -v ${PWD} 
 ```
 
 
-#### bp_bioflat_index.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bp_bioflat_index.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bp_biogetseq
 
 ```bash
@@ -181,39 +172,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bp_biogetseq   -v ${PWD} -w $
 ```
 
 
-#### bp_biogetseq.pl
+#### bp_dbsplit
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bp_biogetseq.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_biogetseq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_biogetseq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_dbsplit
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bp_blast2tree.pl
+#### bp_extract_feature_seq
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bp_blast2tree.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_blast2tree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_blast2tree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_extract_feature_seq
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bp_bulk_load_gff.pl
+#### bp_fastam9_to_table
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bp_bulk_load_gff.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_bulk_load_gff.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_bulk_load_gff.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_fastam9_to_table
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bp_chaos_plot.pl
+#### bp_fetch
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bp_chaos_plot.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bp_chaos_plot.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bp_chaos_plot.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_fetch
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_fetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_fetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_filter_search
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_filter_search
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_filter_search   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_filter_search   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

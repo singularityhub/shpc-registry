@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-degreport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-degreport/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-degreport/container.yaml"
-updated_at: "2022-10-29 05:43:30.730312"
+updated_at: "2022-10-29 07:45:45.811109"
 latest: "1.8.2--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-degreport"
 aliases:
- - "ncursesw5-config"
- - "tclsh8.5"
  - "uconv"
+ - "tclsh8.5"
  - "wish8.5"
+ - "ncursesw5-config"
 versions:
  - "1.8.2--r3.3.2_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-degreport"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-degreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-degreport", "latest": {"1.8.2--r3.3.2_1": "sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a"}, "tags": {"1.8.2--r3.3.2_1": "sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a"}, "docker": "quay.io/biocontainers/bioconductor-degreport", "aliases": {"ncursesw5-config": "/usr/local/bin/ncursesw5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "uconv": "/usr/local/bin/uconv", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-degreport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-degreport", "latest": {"1.8.2--r3.3.2_1": "sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a"}, "tags": {"1.8.2--r3.3.2_1": "sha256:efaa5471c1aa1125c846918990743ae5eb9cf58bd3529c1e089a7c334f973d9a"}, "docker": "quay.io/biocontainers/bioconductor-degreport", "aliases": {"uconv": "/usr/local/bin/uconv", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-degreport.
@@ -101,12 +101,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### ncursesw5-config
+#### uconv
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/uconv
+$ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -119,21 +119,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD
 ```
 
 
-#### uconv
-
-```bash
-$ singularity exec <container> /usr/local/bin/uconv
-$ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### wish8.5
 
 ```bash
 $ singularity exec <container> /usr/local/bin/wish8.5
 $ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

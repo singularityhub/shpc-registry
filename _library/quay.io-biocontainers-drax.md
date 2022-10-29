@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drax/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/drax/container.yaml"
-updated_at: "2022-10-29 05:40:04.400213"
+updated_at: "2022-10-29 07:43:12.396113"
 latest: "0.0.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/drax"
 aliases:
@@ -29,20 +29,20 @@ aliases:
  - "nextflow"
  - "normandcorrectwrapper.sh"
  - "taxonlist.tsv"
- - "2to3-3.6"
- - "a_sample_mt.sh"
- - "ace2sam"
- - "addadapters.sh"
- - "appletviewer"
- - "assistant"
- - "b2sum"
- - "base32"
- - "base64"
- - "basename"
+ - "multiqc"
+ - "fastp"
+ - "ktClassifyBLAST"
+ - "ktGetContigMagnitudes"
+ - "ktGetLCA"
+ - "ktGetLibPath"
+ - "ktGetTaxIDFromAcc"
+ - "ktGetTaxInfo"
+ - "ktImportBLAST"
+ - "ktImportDiskUsage"
 versions:
  - "0.0.0--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for drax"
-config: {"url": "https://biocontainers.pro/tools/drax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drax", "latest": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "tags": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "docker": "quay.io/biocontainers/drax", "aliases": {"addTaxonNames": "/usr/local/bin/addTaxonNames", "bbmergegapped.sh": "/usr/local/bin/bbmergegapped.sh", "bbqc.sh": "/usr/local/bin/bbqc.sh", "convertNR": "/usr/local/bin/convertNR", "convert_mar_to_kaiju.py": "/usr/local/bin/convert_mar_to_kaiju.py", "drax": "/usr/local/bin/drax", "gbk2faa.pl": "/usr/local/bin/gbk2faa.pl", "groot": "/usr/local/bin/groot", "kaiju": "/usr/local/bin/kaiju", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaijuReport": "/usr/local/bin/kaijuReport", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "makeDB.sh": "/usr/local/bin/makeDB.sh", "mergeOutputs": "/usr/local/bin/mergeOutputs", "metacherchant.sh": "/usr/local/bin/metacherchant.sh", "mkbwt": "/usr/local/bin/mkbwt", "mkfmi": "/usr/local/bin/mkfmi", "nextflow": "/usr/local/bin/nextflow", "normandcorrectwrapper.sh": "/usr/local/bin/normandcorrectwrapper.sh", "taxonlist.tsv": "/usr/local/bin/taxonlist.tsv", "2to3-3.6": "/usr/local/bin/2to3-3.6", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "ace2sam": "/usr/local/bin/ace2sam", "addadapters.sh": "/usr/local/bin/addadapters.sh", "appletviewer": "/usr/local/bin/appletviewer", "assistant": "/usr/local/bin/assistant", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename"}}
+config: {"url": "https://biocontainers.pro/tools/drax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drax", "latest": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "tags": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "docker": "quay.io/biocontainers/drax", "aliases": {"addTaxonNames": "/usr/local/bin/addTaxonNames", "bbmergegapped.sh": "/usr/local/bin/bbmergegapped.sh", "bbqc.sh": "/usr/local/bin/bbqc.sh", "convertNR": "/usr/local/bin/convertNR", "convert_mar_to_kaiju.py": "/usr/local/bin/convert_mar_to_kaiju.py", "drax": "/usr/local/bin/drax", "gbk2faa.pl": "/usr/local/bin/gbk2faa.pl", "groot": "/usr/local/bin/groot", "kaiju": "/usr/local/bin/kaiju", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaijuReport": "/usr/local/bin/kaijuReport", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "makeDB.sh": "/usr/local/bin/makeDB.sh", "mergeOutputs": "/usr/local/bin/mergeOutputs", "metacherchant.sh": "/usr/local/bin/metacherchant.sh", "mkbwt": "/usr/local/bin/mkbwt", "mkfmi": "/usr/local/bin/mkfmi", "nextflow": "/usr/local/bin/nextflow", "normandcorrectwrapper.sh": "/usr/local/bin/normandcorrectwrapper.sh", "taxonlist.tsv": "/usr/local/bin/taxonlist.tsv", "multiqc": "/usr/local/bin/multiqc", "fastp": "/usr/local/bin/fastp", "ktClassifyBLAST": "/usr/local/bin/ktClassifyBLAST", "ktGetContigMagnitudes": "/usr/local/bin/ktGetContigMagnitudes", "ktGetLCA": "/usr/local/bin/ktGetLCA", "ktGetLibPath": "/usr/local/bin/ktGetLibPath", "ktGetTaxIDFromAcc": "/usr/local/bin/ktGetTaxIDFromAcc", "ktGetTaxInfo": "/usr/local/bin/ktGetTaxInfo", "ktImportBLAST": "/usr/local/bin/ktImportBLAST", "ktImportDiskUsage": "/usr/local/bin/ktImportDiskUsage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drax.
@@ -317,93 +317,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/taxonlist.tsv   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.6
+#### multiqc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/multiqc
+$ podman run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/multiqc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### a_sample_mt.sh
+#### fastp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastp
+$ podman run --it --rm --entrypoint /usr/local/bin/fastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### ktClassifyBLAST
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktClassifyBLAST
+$ podman run --it --rm --entrypoint /usr/local/bin/ktClassifyBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktClassifyBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### addadapters.sh
+#### ktGetContigMagnitudes
 
 ```bash
-$ singularity exec <container> /usr/local/bin/addadapters.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetContigMagnitudes
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetContigMagnitudes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetContigMagnitudes   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### appletviewer
+#### ktGetLCA
 
 ```bash
-$ singularity exec <container> /usr/local/bin/appletviewer
-$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetLCA
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetLCA   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetLCA   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### ktGetLibPath
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetLibPath
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetLibPath   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetLibPath   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### b2sum
+#### ktGetTaxIDFromAcc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/b2sum
-$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetTaxIDFromAcc
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetTaxIDFromAcc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetTaxIDFromAcc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### base32
+#### ktGetTaxInfo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/base32
-$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktGetTaxInfo
+$ podman run --it --rm --entrypoint /usr/local/bin/ktGetTaxInfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktGetTaxInfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### base64
+#### ktImportBLAST
 
 ```bash
-$ singularity exec <container> /usr/local/bin/base64
-$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktImportBLAST
+$ podman run --it --rm --entrypoint /usr/local/bin/ktImportBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktImportBLAST   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### basename
+#### ktImportDiskUsage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/basename
-$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ktImportDiskUsage
+$ podman run --it --rm --entrypoint /usr/local/bin/ktImportDiskUsage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktImportDiskUsage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

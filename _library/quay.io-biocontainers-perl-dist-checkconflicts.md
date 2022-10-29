@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-dist-checkconflicts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dist-checkconflicts/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dist-checkconflicts/container.yaml"
-updated_at: "2022-10-29 05:41:43.256013"
+updated_at: "2022-10-29 07:44:25.137383"
 latest: "0.11--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-dist-checkconflicts"
 aliases:
  - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.11--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-dist-checkconflicts"
-config: {"url": "https://biocontainers.pro/tools/perl-dist-checkconflicts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dist-checkconflicts", "latest": {"0.11--pl5321hdfd78af_3": "sha256:1834b409ced1552591b3ca99248ff47cacdca4312a941818c50231598cb33901"}, "tags": {"0.11--pl5321hdfd78af_3": "sha256:1834b409ced1552591b3ca99248ff47cacdca4312a941818c50231598cb33901"}, "docker": "quay.io/biocontainers/perl-dist-checkconflicts", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
+config: {"url": "https://biocontainers.pro/tools/perl-dist-checkconflicts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dist-checkconflicts", "latest": {"0.11--pl5321hdfd78af_3": "sha256:1834b409ced1552591b3ca99248ff47cacdca4312a941818c50231598cb33901"}, "tags": {"0.11--pl5321hdfd78af_3": "sha256:1834b409ced1552591b3ca99248ff47cacdca4312a941818c50231598cb33901"}, "docker": "quay.io/biocontainers/perl-dist-checkconflicts", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-dist-checkconflicts.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/perl5.32.1
 $ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

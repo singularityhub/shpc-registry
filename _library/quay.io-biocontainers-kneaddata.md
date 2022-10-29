@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kneaddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kneaddata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kneaddata/container.yaml"
-updated_at: "2022-10-29 05:50:22.147961"
+updated_at: "2022-10-29 07:50:49.229620"
 latest: "0.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kneaddata"
 aliases:
@@ -15,20 +15,20 @@ aliases:
  - "kneaddata_read_count_table"
  - "kneaddata_test"
  - "kneaddata_trf_parallel"
- - "2to3-3.9"
- - "ace2sam"
- - "aserver"
- - "bgzip"
- - "blast2sam.pl"
+ - "trf4.10.0-rc.2.linux64.exe"
+ - "trf"
+ - "fastqc"
+ - "trimmomatic"
  - "bowtie2"
  - "bowtie2-align-l"
  - "bowtie2-align-s"
  - "bowtie2-build"
  - "bowtie2-build-l"
+ - "bowtie2-build-s"
 versions:
  - "0.9.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for kneaddata"
-config: {"url": "https://biocontainers.pro/tools/kneaddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kneaddata", "latest": {"0.9.0--pyhdfd78af_0": "sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25"}, "docker": "quay.io/biocontainers/kneaddata", "aliases": {"kneaddata": "/usr/local/bin/kneaddata", "kneaddata_bowtie2_discordant_pairs": "/usr/local/bin/kneaddata_bowtie2_discordant_pairs", "kneaddata_build_database": "/usr/local/bin/kneaddata_build_database", "kneaddata_database": "/usr/local/bin/kneaddata_database", "kneaddata_read_count_table": "/usr/local/bin/kneaddata_read_count_table", "kneaddata_test": "/usr/local/bin/kneaddata_test", "kneaddata_trf_parallel": "/usr/local/bin/kneaddata_trf_parallel", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "aserver": "/usr/local/bin/aserver", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l"}}
+config: {"url": "https://biocontainers.pro/tools/kneaddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kneaddata", "latest": {"0.9.0--pyhdfd78af_0": "sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25"}, "docker": "quay.io/biocontainers/kneaddata", "aliases": {"kneaddata": "/usr/local/bin/kneaddata", "kneaddata_bowtie2_discordant_pairs": "/usr/local/bin/kneaddata_bowtie2_discordant_pairs", "kneaddata_build_database": "/usr/local/bin/kneaddata_build_database", "kneaddata_database": "/usr/local/bin/kneaddata_database", "kneaddata_read_count_table": "/usr/local/bin/kneaddata_read_count_table", "kneaddata_test": "/usr/local/bin/kneaddata_test", "kneaddata_trf_parallel": "/usr/local/bin/kneaddata_trf_parallel", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "fastqc": "/usr/local/bin/fastqc", "trimmomatic": "/usr/local/bin/trimmomatic", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kneaddata.
@@ -177,48 +177,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kneaddata_trf_parallel   -v $
 ```
 
 
-#### 2to3-3.9
+#### trf4.10.0-rc.2.linux64.exe
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/trf4.10.0-rc.2.linux64.exe
+$ podman run --it --rm --entrypoint /usr/local/bin/trf4.10.0-rc.2.linux64.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trf4.10.0-rc.2.linux64.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### trf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/trf
+$ podman run --it --rm --entrypoint /usr/local/bin/trf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trf   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### fastqc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastqc
+$ podman run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastqc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### trimmomatic
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### blast2sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/trimmomatic
+$ podman run --it --rm --entrypoint /usr/local/bin/trimmomatic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trimmomatic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -264,6 +255,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/bowtie2-build-l
 $ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

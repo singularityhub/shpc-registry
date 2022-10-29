@@ -4,21 +4,22 @@ name:  "quay.io/biocontainers/r-survey"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-survey/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-survey/container.yaml"
-updated_at: "2022-10-29 05:30:34.358801"
+updated_at: "2022-10-29 07:36:14.091547"
 latest: "3.31_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-survey"
 aliases:
  - "bmp2tiff"
  - "gif2tiff"
- - "ncurses5-config"
  - "ras2tiff"
  - "rgb2ycbcr"
  - "thumbnail"
  - "uconv"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "3.31_5--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-survey"
-config: {"url": "https://biocontainers.pro/tools/r-survey", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-survey", "latest": {"3.31_5--r3.3.1_0": "sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed"}, "tags": {"3.31_5--r3.3.1_0": "sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed"}, "docker": "quay.io/biocontainers/r-survey", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv"}}
+config: {"url": "https://biocontainers.pro/tools/r-survey", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-survey", "latest": {"3.31_5--r3.3.1_0": "sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed"}, "tags": {"3.31_5--r3.3.1_0": "sha256:9276ccc66b46f1b7d5ecf515bc78a82c4a60ec14c2bed0c6133ab47c82c0fbed"}, "docker": "quay.io/biocontainers/r-survey", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-survey.
@@ -122,15 +123,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD
 ```
 
 
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### ras2tiff
 
 ```bash
@@ -164,6 +156,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/uconv
 $ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

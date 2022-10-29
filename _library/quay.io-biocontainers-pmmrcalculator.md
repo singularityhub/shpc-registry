@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pmmrcalculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmmrcalculator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pmmrcalculator/container.yaml"
-updated_at: "2022-10-29 05:32:57.477963"
+updated_at: "2022-10-29 07:37:58.725053"
 latest: "1.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pmmrcalculator"
 aliases:
@@ -16,12 +16,12 @@ aliases:
  - "python3.7-config"
  - "python3.7m"
  - "python3.7m-config"
- - "pyvenv"
  - "pyvenv-3.7"
+ - "pyvenv"
 versions:
  - "1.1.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pmmrcalculator"
-config: {"url": "https://biocontainers.pro/tools/pmmrcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmmrcalculator", "latest": {"1.1.0--hdfd78af_0": "sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac"}, "tags": {"1.1.0--hdfd78af_0": "sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac"}, "docker": "quay.io/biocontainers/pmmrcalculator", "aliases": {"pmmrcalculator": "/usr/local/bin/pmmrcalculator", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/pmmrcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmmrcalculator", "latest": {"1.1.0--hdfd78af_0": "sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac"}, "tags": {"1.1.0--hdfd78af_0": "sha256:fd6eb81a923ddf1201722c7aebb34e15dbc0ceeb63ff1af2f99eccb1eb982fac"}, "docker": "quay.io/biocontainers/pmmrcalculator", "aliases": {"pmmrcalculator": "/usr/local/bin/pmmrcalculator", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pmmrcalculator.
@@ -179,21 +179,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 ```
 
 
-#### pyvenv
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pyvenv-3.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

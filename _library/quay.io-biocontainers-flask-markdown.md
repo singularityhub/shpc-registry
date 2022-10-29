@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/flask-markdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flask-markdown/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/flask-markdown/container.yaml"
-updated_at: "2022-10-29 05:32:37.277372"
+updated_at: "2022-10-29 07:37:43.787876"
 latest: "0.3--py35_0"
 container_url: "https://biocontainers.pro/tools/flask-markdown"
 aliases:
- - "2to3-3.5"
- - "easy_install-3.5"
  - "flask"
- - "idle3.5"
+ - "easy_install-3.5"
  - "markdown_py"
+ - "2to3-3.5"
+ - "idle3.5"
  - "pydoc3.5"
  - "python3.5"
  - "python3.5-config"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.3--py35_0"
 description: "shpc-registry automated BioContainers addition for flask-markdown"
-config: {"url": "https://biocontainers.pro/tools/flask-markdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-markdown", "latest": {"0.3--py35_0": "sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515"}, "tags": {"0.3--py35_0": "sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515"}, "docker": "quay.io/biocontainers/flask-markdown", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "flask": "/usr/local/bin/flask", "idle3.5": "/usr/local/bin/idle3.5", "markdown_py": "/usr/local/bin/markdown_py", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
+config: {"url": "https://biocontainers.pro/tools/flask-markdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flask-markdown", "latest": {"0.3--py35_0": "sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515"}, "tags": {"0.3--py35_0": "sha256:6de51f977e3c6afe16002f4af41b7376d5a4889e88294d10b03f41f8d051f515"}, "docker": "quay.io/biocontainers/flask-markdown", "aliases": {"flask": "/usr/local/bin/flask", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "markdown_py": "/usr/local/bin/markdown_py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flask-markdown.
@@ -107,12 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.5
+#### flask
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -125,12 +125,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} 
 ```
 
 
-#### flask
+#### markdown_py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/flask
-$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/markdown_py
+$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -140,15 +149,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/idle3.5
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### markdown_py
-
-```bash
-$ singularity exec <container> /usr/local/bin/markdown_py
-$ podman run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/markdown_py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

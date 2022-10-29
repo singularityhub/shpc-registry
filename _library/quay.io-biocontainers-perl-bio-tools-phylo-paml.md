@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/perl-bio-tools-phylo-paml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-tools-phylo-paml/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-tools-phylo-paml/container.yaml"
-updated_at: "2022-10-29 05:55:47.749249"
+updated_at: "2022-10-29 07:54:47.272150"
 latest: "1.7.3--pl5262hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-bio-tools-phylo-paml"
 aliases:
- - "SOAPsh.pl"
- - "ace.pl"
- - "acyclic"
- - "annotate"
  - "bam2bedgraph"
- - "bamToGBrowse.pl"
+ - "bp_pairwise_kaks"
+ - "bp_find-blast-matches.pl"
  - "baseml"
  - "basemlg"
- - "bcomps"
- - "bdf2gdfont.pl"
+ - "chi2"
+ - "codeml"
+ - "evolver"
+ - "infinitesites"
+ - "mcmctree"
 versions:
  - "1.7.3--pl5262hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-bio-tools-phylo-paml"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-tools-phylo-paml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-tools-phylo-paml", "latest": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "tags": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "docker": "quay.io/biocontainers/perl-bio-tools-phylo-paml", "aliases": {"SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "bcomps": "/usr/local/bin/bcomps", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-tools-phylo-paml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-tools-phylo-paml", "latest": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "tags": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "docker": "quay.io/biocontainers/perl-bio-tools-phylo-paml", "aliases": {"bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver", "infinitesites": "/usr/local/bin/infinitesites", "mcmctree": "/usr/local/bin/mcmctree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-tools-phylo-paml.
@@ -107,42 +107,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### SOAPsh.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bam2bedgraph
 
 ```bash
@@ -152,12 +116,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w $
 ```
 
 
-#### bamToGBrowse.pl
+#### bp_pairwise_kaks
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_find-blast-matches.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_find-blast-matches.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -179,21 +152,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD}
 ```
 
 
-#### bcomps
+#### chi2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chi2
+$ podman run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdf2gdfont.pl
+#### codeml
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdf2gdfont.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/codeml
+$ podman run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### evolver
+
+```bash
+$ singularity exec <container> /usr/local/bin/evolver
+$ podman run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### infinitesites
+
+```bash
+$ singularity exec <container> /usr/local/bin/infinitesites
+$ podman run --it --rm --entrypoint /usr/local/bin/infinitesites   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/infinitesites   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mcmctree
+
+```bash
+$ singularity exec <container> /usr/local/bin/mcmctree
+$ podman run --it --rm --entrypoint /usr/local/bin/mcmctree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcmctree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

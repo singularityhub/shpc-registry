@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-normr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normr/container.yaml"
-updated_at: "2022-10-29 05:41:30.224881"
+updated_at: "2022-10-29 07:44:15.387772"
 latest: "1.8.0--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normr"
 aliases:
  - "wget"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r351hf484d3e_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-normr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-normr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normr", "latest": {"1.8.0--r351hf484d3e_0": "sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373"}, "docker": "quay.io/biocontainers/bioconductor-normr", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-normr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normr", "latest": {"1.8.0--r351hf484d3e_0": "sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:f7c47ac1c13620a496b9ceba6b6b23476ffd8553725c47f584183c758a9e3373"}, "docker": "quay.io/biocontainers/bioconductor-normr", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-normr.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/wget
 $ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

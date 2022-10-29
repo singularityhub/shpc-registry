@@ -4,24 +4,27 @@ name:  "quay.io/biocontainers/galaxy-objectstore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
-updated_at: "2022-10-29 05:30:58.404314"
+updated_at: "2022-10-29 07:36:31.707337"
 latest: "22.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-objectstore"
 aliases:
- - "2to3-3.10"
  - "cheetah"
  - "cheetah-analyze"
  - "cheetah-compile"
  - "docutils"
- - "futurize"
- - "idle3.10"
- - "normalizer"
- - "pasteurize"
- - "pydoc3.10"
+ - "rst2html4.py"
+ - "rst2html5.py"
+ - "rst2html.py"
+ - "rst2latex.py"
+ - "rst2man.py"
+ - "rst2odt.py"
+ - "rst2odt_prepstyles.py"
+ - "rst2pseudoxml.py"
+ - "rst2s5.py"
 versions:
  - "22.1.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for galaxy-objectstore"
-config: {"url": "https://biocontainers.pro/tools/galaxy-objectstore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-objectstore", "latest": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "docker": "quay.io/biocontainers/galaxy-objectstore", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "docutils": "/usr/local/bin/docutils", "futurize": "/usr/local/bin/futurize", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-objectstore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-objectstore", "latest": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "docker": "quay.io/biocontainers/galaxy-objectstore", "aliases": {"cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "docutils": "/usr/local/bin/docutils", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py", "rst2s5.py": "/usr/local/bin/rst2s5.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-objectstore.
@@ -107,15 +110,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cheetah
 
 ```bash
@@ -152,48 +146,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD
 ```
 
 
-#### futurize
+#### rst2html4.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html4.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html4.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html4.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.10
+#### rst2html5.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html5.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### normalizer
+#### rst2html.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/normalizer
-$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### pasteurize
+#### rst2latex.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pasteurize
-$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2latex.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2latex.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2latex.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### pydoc3.10
+#### rst2man.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2man.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2odt.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2odt.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2odt.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2odt.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2odt_prepstyles.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2odt_prepstyles.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2odt_prepstyles.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2odt_prepstyles.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2pseudoxml.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2pseudoxml.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2pseudoxml.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2pseudoxml.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2s5.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2s5.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2s5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2s5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

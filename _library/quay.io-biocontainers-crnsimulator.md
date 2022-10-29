@@ -4,25 +4,26 @@ name:  "quay.io/biocontainers/crnsimulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crnsimulator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crnsimulator/container.yaml"
-updated_at: "2022-10-29 05:34:14.607773"
+updated_at: "2022-10-29 07:38:55.419718"
 latest: "0.9--pyh5bfb8f1_0"
 container_url: "https://biocontainers.pro/tools/crnsimulator"
 aliases:
  - "crnsimulator"
- - "2to3-3.9"
- - "f2py3.9"
- - "idle3.9"
  - "isympy"
- - "jpgicc"
- - "linkicc"
- - "psicc"
+ - "f2py3.9"
+ - "2to3-3.9"
+ - "idle3.9"
  - "pydoc3.9"
  - "python3.9"
  - "python3.9-config"
+ - "jpgicc"
+ - "linkicc"
+ - "psicc"
+ - "tificc"
 versions:
  - "0.9--pyh5bfb8f1_0"
 description: "shpc-registry automated BioContainers addition for crnsimulator"
-config: {"url": "https://biocontainers.pro/tools/crnsimulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crnsimulator", "latest": {"0.9--pyh5bfb8f1_0": "sha256:009167f69f138a1a0a196b1ffd09b92420e7a072cfb642e1e6afd418a2bd5f92"}, "tags": {"0.9--pyh5bfb8f1_0": "sha256:009167f69f138a1a0a196b1ffd09b92420e7a072cfb642e1e6afd418a2bd5f92"}, "docker": "quay.io/biocontainers/crnsimulator", "aliases": {"crnsimulator": "/usr/local/bin/crnsimulator", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "isympy": "/usr/local/bin/isympy", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/crnsimulator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crnsimulator", "latest": {"0.9--pyh5bfb8f1_0": "sha256:009167f69f138a1a0a196b1ffd09b92420e7a072cfb642e1e6afd418a2bd5f92"}, "tags": {"0.9--pyh5bfb8f1_0": "sha256:009167f69f138a1a0a196b1ffd09b92420e7a072cfb642e1e6afd418a2bd5f92"}, "docker": "quay.io/biocontainers/crnsimulator", "aliases": {"crnsimulator": "/usr/local/bin/crnsimulator", "isympy": "/usr/local/bin/isympy", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crnsimulator.
@@ -117,12 +118,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/crnsimulator   -v ${PWD} -w $
 ```
 
 
-#### 2to3-3.9
+#### isympy
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/isympy
+$ podman run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -135,6 +136,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle3.9
 
 ```bash
@@ -144,12 +154,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD}
 ```
 
 
-#### isympy
+#### pydoc3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/isympy
-$ podman run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/isympy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -180,30 +208,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### pydoc3.9
+#### tificc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.9-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.9-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tificc
+$ podman run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

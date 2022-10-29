@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/coreutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coreutils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/coreutils/container.yaml"
-updated_at: "2022-10-29 05:38:39.892715"
+updated_at: "2022-10-29 07:42:10.895052"
 latest: "8.31--h14c3975_0"
 container_url: "https://biocontainers.pro/tools/coreutils"
 aliases:
+ - "basenc"
  - "b2sum"
  - "base32"
  - "base64"
  - "basename"
- - "basenc"
  - "cat"
  - "chcon"
  - "chgrp"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "8.31--h14c3975_0"
 description: "shpc-registry automated BioContainers addition for coreutils"
-config: {"url": "https://biocontainers.pro/tools/coreutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coreutils", "latest": {"8.31--h14c3975_0": "sha256:5e775e4111ec92f609cfe0504b6db2ddef4b65fb9177b9aaa5c1a0f0fc27d256"}, "tags": {"8.31--h14c3975_0": "sha256:5e775e4111ec92f609cfe0504b6db2ddef4b65fb9177b9aaa5c1a0f0fc27d256"}, "docker": "quay.io/biocontainers/coreutils", "aliases": {"b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
+config: {"url": "https://biocontainers.pro/tools/coreutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coreutils", "latest": {"8.31--h14c3975_0": "sha256:5e775e4111ec92f609cfe0504b6db2ddef4b65fb9177b9aaa5c1a0f0fc27d256"}, "tags": {"8.31--h14c3975_0": "sha256:5e775e4111ec92f609cfe0504b6db2ddef4b65fb9177b9aaa5c1a0f0fc27d256"}, "docker": "quay.io/biocontainers/coreutils", "aliases": {"basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coreutils.
@@ -107,6 +107,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### b2sum
 
 ```bash
@@ -140,15 +149,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/basename
 $ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### basenc
-
-```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

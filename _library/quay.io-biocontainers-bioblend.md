@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioblend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioblend/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioblend/container.yaml"
-updated_at: "2022-10-29 05:45:20.143250"
+updated_at: "2022-10-29 07:47:06.891619"
 latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioblend"
 aliases:
- - "2to3-3.10"
  - "bioblend-galaxy-tests"
- - "futurize"
- - "idle3.10"
+ - "x86_64-conda_cos7-linux-gnu-ld"
  - "normalizer"
+ - "futurize"
  - "pasteurize"
+ - "2to3-3.10"
+ - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
@@ -21,7 +22,7 @@ aliases:
 versions:
  - "1.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioblend"
-config: {"url": "https://biocontainers.pro/tools/bioblend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioblend", "latest": {"1.0.0--pyhdfd78af_0": "sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e"}, "docker": "quay.io/biocontainers/bioblend", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "futurize": "/usr/local/bin/futurize", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioblend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioblend", "latest": {"1.0.0--pyhdfd78af_0": "sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e"}, "tags": {"1.0.0--pyhdfd78af_0": "sha256:73d160352bb76df38390d608f4f14ba9fd001f0030fa81c0eb62b888e6f8421e"}, "docker": "quay.io/biocontainers/bioblend", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioblend.
@@ -107,15 +108,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bioblend-galaxy-tests
 
 ```bash
@@ -125,21 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bioblend-galaxy-tests   -v ${
 ```
 
 
-#### futurize
+#### x86_64-conda_cos7-linux-gnu-ld
 
 ```bash
-$ singularity exec <container> /usr/local/bin/futurize
-$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -152,12 +135,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${P
 ```
 
 
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### pasteurize
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pasteurize
 $ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

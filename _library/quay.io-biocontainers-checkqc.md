@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/checkqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/checkqc/container.yaml"
-updated_at: "2022-10-29 05:52:56.654807"
+updated_at: "2022-10-29 07:52:42.817894"
 latest: "3.6.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkqc"
 aliases:
@@ -23,18 +23,18 @@ aliases:
  - "interop_plot_sample_qc"
  - "interop_summary"
  - "sample-sheet"
+ - "tabulate"
+ - "normalizer"
  - "2to3-3.10"
  - "idle3.10"
- - "normalizer"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
- - "tabulate"
 versions:
  - "3.6.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for checkqc"
-config: {"url": "https://biocontainers.pro/tools/checkqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkqc", "latest": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8"}, "tags": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8"}, "docker": "quay.io/biocontainers/checkqc", "aliases": {"checkqc": "/usr/local/bin/checkqc", "checkqc-ws": "/usr/local/bin/checkqc-ws", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "sample-sheet": "/usr/local/bin/sample-sheet", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "tabulate": "/usr/local/bin/tabulate"}}
+config: {"url": "https://biocontainers.pro/tools/checkqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkqc", "latest": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8"}, "tags": {"3.6.6--pyhdfd78af_0": "sha256:fc4178f83f08068d1f4cc56d93918b4da6b760d85d7d9505381020104e13a8d8"}, "docker": "quay.io/biocontainers/checkqc", "aliases": {"checkqc": "/usr/local/bin/checkqc", "checkqc-ws": "/usr/local/bin/checkqc-ws", "interop_aggregate": "/usr/local/bin/interop_aggregate", "interop_dumpbin": "/usr/local/bin/interop_dumpbin", "interop_dumptext": "/usr/local/bin/interop_dumptext", "interop_imaging_table": "/usr/local/bin/interop_imaging_table", "interop_index-summary": "/usr/local/bin/interop_index-summary", "interop_plot_by_cycle": "/usr/local/bin/interop_plot_by_cycle", "interop_plot_by_lane": "/usr/local/bin/interop_plot_by_lane", "interop_plot_flowcell": "/usr/local/bin/interop_plot_flowcell", "interop_plot_qscore_heatmap": "/usr/local/bin/interop_plot_qscore_heatmap", "interop_plot_qscore_histogram": "/usr/local/bin/interop_plot_qscore_histogram", "interop_plot_sample_qc": "/usr/local/bin/interop_plot_sample_qc", "interop_summary": "/usr/local/bin/interop_summary", "sample-sheet": "/usr/local/bin/sample-sheet", "tabulate": "/usr/local/bin/tabulate", "normalizer": "/usr/local/bin/normalizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkqc.
@@ -255,6 +255,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sample-sheet   -v ${PWD} -w $
 ```
 
 
+#### tabulate
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabulate
+$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.10
 
 ```bash
@@ -270,15 +288,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/idle3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### normalizer
-
-```bash
-$ singularity exec <container> /usr/local/bin/normalizer
-$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -315,15 +324,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### tabulate
-
-```bash
-$ singularity exec <container> /usr/local/bin/tabulate
-$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-data-walk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-walk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-walk/container.yaml"
-updated_at: "2022-10-29 05:39:19.508211"
+updated_at: "2022-10-29 07:42:39.314116"
 latest: "2.01--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-data-walk"
 aliases:
  - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.01--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-data-walk"
-config: {"url": "https://biocontainers.pro/tools/perl-data-walk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-walk", "latest": {"2.01--pl5321hdfd78af_2": "sha256:5932ecc7428d3faaf558db5320dc84e1957fd0c3a046ce1d7e6bcb2f5253d1ee"}, "tags": {"2.01--pl5321hdfd78af_2": "sha256:5932ecc7428d3faaf558db5320dc84e1957fd0c3a046ce1d7e6bcb2f5253d1ee"}, "docker": "quay.io/biocontainers/perl-data-walk", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
+config: {"url": "https://biocontainers.pro/tools/perl-data-walk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-walk", "latest": {"2.01--pl5321hdfd78af_2": "sha256:5932ecc7428d3faaf558db5320dc84e1957fd0c3a046ce1d7e6bcb2f5253d1ee"}, "tags": {"2.01--pl5321hdfd78af_2": "sha256:5932ecc7428d3faaf558db5320dc84e1957fd0c3a046ce1d7e6bcb2f5253d1ee"}, "docker": "quay.io/biocontainers/perl-data-walk", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-data-walk.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/perl5.32.1
 $ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

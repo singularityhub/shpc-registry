@@ -4,24 +4,25 @@ name:  "quay.io/biocontainers/gffutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gffutils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gffutils/container.yaml"
-updated_at: "2022-10-29 05:52:53.910585"
+updated_at: "2022-10-29 07:52:40.818258"
 latest: "0.9--py_1"
 container_url: "https://biocontainers.pro/tools/gffutils"
 aliases:
- - "2to3-3.5"
- - "activate-global-python-argcomplete"
- - "faidx"
  - "gffutils-cli"
- - "idle3.5"
- - "ncurses5-config"
- - "ncursesw5-config"
- - "pydoc3.5"
+ - "activate-global-python-argcomplete"
  - "python-argcomplete-check-easy-install-script"
  - "python-argcomplete-tcsh"
+ - "register-python-argcomplete"
+ - "faidx"
+ - "2to3-3.5"
+ - "idle3.5"
+ - "pydoc3.5"
+ - "python3.5"
+ - "python3.5-config"
 versions:
  - "0.9--py_1"
 description: "shpc-registry automated BioContainers addition for gffutils"
-config: {"url": "https://biocontainers.pro/tools/gffutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffutils", "latest": {"0.9--py_1": "sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e"}, "tags": {"0.9--py_1": "sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e"}, "docker": "quay.io/biocontainers/gffutils", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "faidx": "/usr/local/bin/faidx", "gffutils-cli": "/usr/local/bin/gffutils-cli", "idle3.5": "/usr/local/bin/idle3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh"}}
+config: {"url": "https://biocontainers.pro/tools/gffutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gffutils", "latest": {"0.9--py_1": "sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e"}, "tags": {"0.9--py_1": "sha256:dc769d1465c11ff16fc8e925ab192c9dd23c6908b9c89329e4b1e4abae641f8e"}, "docker": "quay.io/biocontainers/gffutils", "aliases": {"gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "faidx": "/usr/local/bin/faidx", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gffutils.
@@ -107,33 +108,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### activate-global-python-argcomplete
-
-```bash
-$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
-$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### faidx
-
-```bash
-$ singularity exec <container> /usr/local/bin/faidx
-$ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gffutils-cli
 
 ```bash
@@ -143,39 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w $
 ```
 
 
-#### idle3.5
+#### activate-global-python-argcomplete
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncurses5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncurses5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ncursesw5-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/ncursesw5-config
-$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pydoc3.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +141,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-check-easy
 $ singularity exec <container> /usr/local/bin/python-argcomplete-tcsh
 $ podman run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python-argcomplete-tcsh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### register-python-argcomplete
+
+```bash
+$ singularity exec <container> /usr/local/bin/register-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/register-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### faidx
+
+```bash
+$ singularity exec <container> /usr/local/bin/faidx
+$ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

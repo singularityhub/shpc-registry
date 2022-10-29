@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-gosemsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gosemsim/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gosemsim/container.yaml"
-updated_at: "2022-10-29 05:35:26.204430"
+updated_at: "2022-10-29 07:39:47.554273"
 latest: "2.8.0--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gosemsim"
 aliases:
  - "wget"
+ - "c89"
+ - "c99"
 versions:
  - "2.8.0--r351hf484d3e_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gosemsim"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gosemsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gosemsim", "latest": {"2.8.0--r351hf484d3e_0": "sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d"}, "tags": {"2.8.0--r351hf484d3e_0": "sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d"}, "docker": "quay.io/biocontainers/bioconductor-gosemsim", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gosemsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gosemsim", "latest": {"2.8.0--r351hf484d3e_0": "sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d"}, "tags": {"2.8.0--r351hf484d3e_0": "sha256:d190962b3f941f9b7f8928843b07367e8e2b77362fe7f9ed4edc6de4a826093d"}, "docker": "quay.io/biocontainers/bioconductor-gosemsim", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gosemsim.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/wget
 $ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

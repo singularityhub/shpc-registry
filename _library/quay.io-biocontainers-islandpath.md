@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/islandpath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/islandpath/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/islandpath/container.yaml"
-updated_at: "2022-10-29 05:59:35.100956"
+updated_at: "2022-10-29 07:57:32.804095"
 latest: "1.0.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/islandpath"
 aliases:
  - "islandpath"
- - "2to3-3.7"
- - "SOAPsh.pl"
- - "ace.pl"
- - "acyclic"
- - "alimask"
- - "annotate"
+ - "l4p-tmpl"
  - "bam2bedgraph"
- - "bamToGBrowse.pl"
+ - "bp_pairwise_kaks"
+ - "bp_find-blast-matches.pl"
+ - "t_coffee"
  - "baseml"
  - "basemlg"
+ - "chi2"
+ - "codeml"
+ - "evolver"
 versions:
  - "1.0.6--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for islandpath"
-config: {"url": "https://biocontainers.pro/tools/islandpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for islandpath", "latest": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "tags": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "docker": "quay.io/biocontainers/islandpath", "aliases": {"islandpath": "/usr/local/bin/islandpath", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "alimask": "/usr/local/bin/alimask", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
+config: {"url": "https://biocontainers.pro/tools/islandpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for islandpath", "latest": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "tags": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "docker": "quay.io/biocontainers/islandpath", "aliases": {"islandpath": "/usr/local/bin/islandpath", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/islandpath.
@@ -117,57 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/islandpath   -v ${PWD} -w ${P
 ```
 
 
-#### 2to3-3.7
+#### l4p-tmpl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### SOAPsh.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ace.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### acyclic
-
-```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### alimask
-
-```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -180,12 +135,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w $
 ```
 
 
-#### bamToGBrowse.pl
+#### bp_pairwise_kaks
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bp_pairwise_kaks
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_pairwise_kaks   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_find-blast-matches.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_find-blast-matches.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### t_coffee
+
+```bash
+$ singularity exec <container> /usr/local/bin/t_coffee
+$ podman run --it --rm --entrypoint /usr/local/bin/t_coffee   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/t_coffee   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +177,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/basemlg
 $ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chi2
+
+```bash
+$ singularity exec <container> /usr/local/bin/chi2
+$ podman run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### codeml
+
+```bash
+$ singularity exec <container> /usr/local/bin/codeml
+$ podman run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### evolver
+
+```bash
+$ singularity exec <container> /usr/local/bin/evolver
+$ podman run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/panx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/panx/container.yaml"
-updated_at: "2022-10-29 05:48:41.440808"
+updated_at: "2022-10-29 07:49:35.200303"
 latest: "1.6.0--py27_0"
 container_url: "https://biocontainers.pro/tools/panx"
 aliases:
@@ -14,20 +14,20 @@ aliases:
  - "panX.py"
  - "temporal_signal.py"
  - "timetree_inference.py"
- - "FastTree"
- - "FastTreeMP"
- - "assistant"
- - "c2ph"
+ - "createfontdatachunk.py"
  - "clm"
  - "clmformat"
  - "clxdo"
- - "createfontdatachunk.py"
- - "dbus-cleanup-sockets"
- - "dbus-daemon"
+ - "mcl"
+ - "mclblastline"
+ - "mclcm"
+ - "mclpipeline"
+ - "mcx"
+ - "mcxarray"
 versions:
  - "1.6.0--py27_0"
 description: "shpc-registry automated BioContainers addition for panx"
-config: {"url": "https://biocontainers.pro/tools/panx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panx", "latest": {"1.6.0--py27_0": "sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4"}, "tags": {"1.6.0--py27_0": "sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4"}, "docker": "quay.io/biocontainers/panx", "aliases": {"FastTree.c": "/usr/local/bin/FastTree.c", "ancestral_reconstruction.py": "/usr/local/bin/ancestral_reconstruction.py", "ete": "/usr/local/bin/ete", "panX.py": "/usr/local/bin/panX.py", "temporal_signal.py": "/usr/local/bin/temporal_signal.py", "timetree_inference.py": "/usr/local/bin/timetree_inference.py", "FastTree": "/usr/local/bin/FastTree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "assistant": "/usr/local/bin/assistant", "c2ph": "/usr/local/bin/c2ph", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon"}}
+config: {"url": "https://biocontainers.pro/tools/panx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panx", "latest": {"1.6.0--py27_0": "sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4"}, "tags": {"1.6.0--py27_0": "sha256:07c58714d624590440defb27a33e0472ae3fda841f7afb4af0510c281b594ee4"}, "docker": "quay.io/biocontainers/panx", "aliases": {"FastTree.c": "/usr/local/bin/FastTree.c", "ancestral_reconstruction.py": "/usr/local/bin/ancestral_reconstruction.py", "ete": "/usr/local/bin/ete", "panX.py": "/usr/local/bin/panX.py", "temporal_signal.py": "/usr/local/bin/temporal_signal.py", "timetree_inference.py": "/usr/local/bin/timetree_inference.py", "createfontdatachunk.py": "/usr/local/bin/createfontdatachunk.py", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panx.
@@ -167,39 +167,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/timetree_inference.py   -v ${
 ```
 
 
-#### FastTree
+#### createfontdatachunk.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### FastTreeMP
-
-```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### assistant
-
-```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c2ph
-
-```bash
-$ singularity exec <container> /usr/local/bin/c2ph
-$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/createfontdatachunk.py
+$ podman run --it --rm --entrypoint /usr/local/bin/createfontdatachunk.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/createfontdatachunk.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -230,30 +203,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clxdo   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### createfontdatachunk.py
+#### mcl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/createfontdatachunk.py
-$ podman run --it --rm --entrypoint /usr/local/bin/createfontdatachunk.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/createfontdatachunk.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mcl
+$ podman run --it --rm --entrypoint /usr/local/bin/mcl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-cleanup-sockets
+#### mclblastline
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mclblastline
+$ podman run --it --rm --entrypoint /usr/local/bin/mclblastline   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mclblastline   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbus-daemon
+#### mclcm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbus-daemon
-$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mclcm
+$ podman run --it --rm --entrypoint /usr/local/bin/mclcm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mclcm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mclpipeline
+
+```bash
+$ singularity exec <container> /usr/local/bin/mclpipeline
+$ podman run --it --rm --entrypoint /usr/local/bin/mclpipeline   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mclpipeline   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mcx
+
+```bash
+$ singularity exec <container> /usr/local/bin/mcx
+$ podman run --it --rm --entrypoint /usr/local/bin/mcx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mcxarray
+
+```bash
+$ singularity exec <container> /usr/local/bin/mcxarray
+$ podman run --it --rm --entrypoint /usr/local/bin/mcxarray   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcxarray   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

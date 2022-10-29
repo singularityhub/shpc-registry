@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/portcullis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/portcullis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/portcullis/container.yaml"
-updated_at: "2022-10-29 05:41:01.700242"
+updated_at: "2022-10-29 07:43:54.231862"
 latest: "1.2.4--py38haf070c8_0"
 container_url: "https://biocontainers.pro/tools/portcullis"
 aliases:
  - "junctools"
  - "portcullis"
  - "portcullis_rule_filter"
- - "2to3-3.8"
+ - "tabulate"
+ - "fasta-sanitize.pl"
+ - "plot-ampliconstats"
+ - "f2py3.8"
  - "ace2sam"
- - "bgzip"
  - "blast2sam.pl"
  - "bowtie2sam.pl"
  - "export2sam.pl"
- - "f2py3.8"
- - "fasta-sanitize.pl"
- - "htsfile"
- - "idle3.8"
+ - "interpolate_sam.pl"
+ - "maq2sam-long"
 versions:
  - "1.2.4--py38haf070c8_0"
 description: "shpc-registry automated BioContainers addition for portcullis"
-config: {"url": "https://biocontainers.pro/tools/portcullis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for portcullis", "latest": {"1.2.4--py38haf070c8_0": "sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e"}, "tags": {"1.2.4--py38haf070c8_0": "sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e"}, "docker": "quay.io/biocontainers/portcullis", "aliases": {"junctools": "/usr/local/bin/junctools", "portcullis": "/usr/local/bin/portcullis", "portcullis_rule_filter": "/usr/local/bin/portcullis_rule_filter", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py3.8": "/usr/local/bin/f2py3.8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "idle3.8": "/usr/local/bin/idle3.8"}}
+config: {"url": "https://biocontainers.pro/tools/portcullis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for portcullis", "latest": {"1.2.4--py38haf070c8_0": "sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e"}, "tags": {"1.2.4--py38haf070c8_0": "sha256:31745e5ddc3278ecf73961035031a08a3c4c13e96ac447dc6a534f7a18426d4e"}, "docker": "quay.io/biocontainers/portcullis", "aliases": {"junctools": "/usr/local/bin/junctools", "portcullis": "/usr/local/bin/portcullis", "portcullis_rule_filter": "/usr/local/bin/portcullis_rule_filter", "tabulate": "/usr/local/bin/tabulate", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "f2py3.8": "/usr/local/bin/f2py3.8", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/portcullis.
@@ -137,12 +137,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/portcullis_rule_filter   -v $
 ```
 
 
-#### 2to3-3.8
+#### tabulate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabulate
+$ podman run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabulate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-ampliconstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -152,15 +179,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/ace2sam
 $ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -191,39 +209,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w 
 ```
 
 
-#### f2py3.8
+#### interpolate_sam.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### fasta-sanitize.pl
+#### maq2sam-long
 
 ```bash
-$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/maq2sam-long
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

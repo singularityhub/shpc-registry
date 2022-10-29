@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymisc-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymisc-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pymisc-utils/container.yaml"
-updated_at: "2022-10-29 05:53:06.372826"
+updated_at: "2022-10-29 07:52:50.017871"
 latest: "0.2.11--pyh7cba7a3_6"
 container_url: "https://biocontainers.pro/tools/pymisc-utils"
 aliases:
@@ -48,20 +48,20 @@ aliases:
  - "test_gzip.py"
  - "utils.py"
  - "validation_utils.py"
- - "2to3-3.10"
- - "acyclic"
- - "annotate"
- - "bcomps"
- - "bdftogd"
+ - "runxlrd.py"
+ - "dask-scheduler"
+ - "dask-ssh"
+ - "dask-worker"
  - "bokeh"
- - "brotli"
- - "ccomps"
- - "circo"
- - "cluster"
+ - "diffimg"
+ - "delaunay"
+ - "gts-config"
+ - "gts2dxf"
+ - "gts2oogl"
 versions:
  - "0.2.11--pyh7cba7a3_6"
 description: "shpc-registry automated BioContainers addition for pymisc-utils"
-config: {"url": "https://biocontainers.pro/tools/pymisc-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymisc-utils", "latest": {"0.2.11--pyh7cba7a3_6": "sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08"}, "tags": {"0.2.11--pyh7cba7a3_6": "sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08"}, "docker": "quay.io/biocontainers/pymisc-utils", "aliases": {"__init__.py": "/usr/local/bin/__init__.py", "call-program": "/usr/local/bin/call-program", "call-sbatch": "/usr/local/bin/call-sbatch", "call_program.py": "/usr/local/bin/call_program.py", "call_sbatch.py": "/usr/local/bin/call_sbatch.py", "column_selector.py": "/usr/local/bin/column_selector.py", "dask_utils.py": "/usr/local/bin/dask_utils.py", "dataset_manager.py": "/usr/local/bin/dataset_manager.py", "deprecated_decorator.py": "/usr/local/bin/deprecated_decorator.py", "external_sparse_matrix_list.py": "/usr/local/bin/external_sparse_matrix_list.py", "gene_ontology_utils.py": "/usr/local/bin/gene_ontology_utils.py", "incremental_count_vectorizer.py": "/usr/local/bin/incremental_count_vectorizer.py", "incremental_gaussian_estimator.py": "/usr/local/bin/incremental_gaussian_estimator.py", "latex.py": "/usr/local/bin/latex.py", "logging_utils.py": "/usr/local/bin/logging_utils.py", "math_utils.py": "/usr/local/bin/math_utils.py", "ml_utils.py": "/usr/local/bin/ml_utils.py", "mpl_utils.py": "/usr/local/bin/mpl_utils.py", "multicolumn_imputer.py": "/usr/local/bin/multicolumn_imputer.py", "multicolumn_label_encoder.py": "/usr/local/bin/multicolumn_label_encoder.py", "mygene_utils.py": "/usr/local/bin/mygene_utils.py", "nlp_utils.py": "/usr/local/bin/nlp_utils.py", "nltk": "/usr/local/bin/nltk", "pandas_utils.py": "/usr/local/bin/pandas_utils.py", "parallel.py": "/usr/local/bin/parallel.py", "physionet_utils.py": "/usr/local/bin/physionet_utils.py", "scancel-range": "/usr/local/bin/scancel-range", "scancel_range.py": "/usr/local/bin/scancel_range.py", "scip_utils.py": "/usr/local/bin/scip_utils.py", "shell_utils.py": "/usr/local/bin/shell_utils.py", "simple_numeric_bow_union.py": "/usr/local/bin/simple_numeric_bow_union.py", "slurm.py": "/usr/local/bin/slurm.py", "sparse_vector.py": "/usr/local/bin/sparse_vector.py", "ssh_utils.py": "/usr/local/bin/ssh_utils.py", "stats_utils.py": "/usr/local/bin/stats_utils.py", "suppress_stdout_stderr.py": "/usr/local/bin/suppress_stdout_stderr.py", "test-gzip": "/usr/local/bin/test-gzip", "test_gzip.py": "/usr/local/bin/test_gzip.py", "utils.py": "/usr/local/bin/utils.py", "validation_utils.py": "/usr/local/bin/validation_utils.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "bokeh": "/usr/local/bin/bokeh", "brotli": "/usr/local/bin/brotli", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster"}}
+config: {"url": "https://biocontainers.pro/tools/pymisc-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymisc-utils", "latest": {"0.2.11--pyh7cba7a3_6": "sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08"}, "tags": {"0.2.11--pyh7cba7a3_6": "sha256:ac3ae5ecdb0a8dfe52ee77ad76827548b8807bcfd2334b143007947e1a1adf08"}, "docker": "quay.io/biocontainers/pymisc-utils", "aliases": {"__init__.py": "/usr/local/bin/__init__.py", "call-program": "/usr/local/bin/call-program", "call-sbatch": "/usr/local/bin/call-sbatch", "call_program.py": "/usr/local/bin/call_program.py", "call_sbatch.py": "/usr/local/bin/call_sbatch.py", "column_selector.py": "/usr/local/bin/column_selector.py", "dask_utils.py": "/usr/local/bin/dask_utils.py", "dataset_manager.py": "/usr/local/bin/dataset_manager.py", "deprecated_decorator.py": "/usr/local/bin/deprecated_decorator.py", "external_sparse_matrix_list.py": "/usr/local/bin/external_sparse_matrix_list.py", "gene_ontology_utils.py": "/usr/local/bin/gene_ontology_utils.py", "incremental_count_vectorizer.py": "/usr/local/bin/incremental_count_vectorizer.py", "incremental_gaussian_estimator.py": "/usr/local/bin/incremental_gaussian_estimator.py", "latex.py": "/usr/local/bin/latex.py", "logging_utils.py": "/usr/local/bin/logging_utils.py", "math_utils.py": "/usr/local/bin/math_utils.py", "ml_utils.py": "/usr/local/bin/ml_utils.py", "mpl_utils.py": "/usr/local/bin/mpl_utils.py", "multicolumn_imputer.py": "/usr/local/bin/multicolumn_imputer.py", "multicolumn_label_encoder.py": "/usr/local/bin/multicolumn_label_encoder.py", "mygene_utils.py": "/usr/local/bin/mygene_utils.py", "nlp_utils.py": "/usr/local/bin/nlp_utils.py", "nltk": "/usr/local/bin/nltk", "pandas_utils.py": "/usr/local/bin/pandas_utils.py", "parallel.py": "/usr/local/bin/parallel.py", "physionet_utils.py": "/usr/local/bin/physionet_utils.py", "scancel-range": "/usr/local/bin/scancel-range", "scancel_range.py": "/usr/local/bin/scancel_range.py", "scip_utils.py": "/usr/local/bin/scip_utils.py", "shell_utils.py": "/usr/local/bin/shell_utils.py", "simple_numeric_bow_union.py": "/usr/local/bin/simple_numeric_bow_union.py", "slurm.py": "/usr/local/bin/slurm.py", "sparse_vector.py": "/usr/local/bin/sparse_vector.py", "ssh_utils.py": "/usr/local/bin/ssh_utils.py", "stats_utils.py": "/usr/local/bin/stats_utils.py", "suppress_stdout_stderr.py": "/usr/local/bin/suppress_stdout_stderr.py", "test-gzip": "/usr/local/bin/test-gzip", "test_gzip.py": "/usr/local/bin/test_gzip.py", "utils.py": "/usr/local/bin/utils.py", "validation_utils.py": "/usr/local/bin/validation_utils.py", "runxlrd.py": "/usr/local/bin/runxlrd.py", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bokeh": "/usr/local/bin/bokeh", "diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymisc-utils.
@@ -507,48 +507,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/validation_utils.py   -v ${PW
 ```
 
 
-#### 2to3-3.10
+#### runxlrd.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/runxlrd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### dask-scheduler
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dask-scheduler
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-scheduler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-scheduler   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### dask-ssh
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dask-ssh
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-ssh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-ssh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### dask-worker
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bdftogd
-
-```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/dask-worker
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-worker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-worker   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -561,39 +552,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### brotli
+#### diffimg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/diffimg
+$ podman run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### delaunay
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/delaunay
+$ podman run --it --rm --entrypoint /usr/local/bin/delaunay   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delaunay   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### circo
+#### gts-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/circo
-$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gts-config
+$ podman run --it --rm --entrypoint /usr/local/bin/gts-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gts-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### cluster
+#### gts2dxf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cluster
-$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gts2dxf
+$ podman run --it --rm --entrypoint /usr/local/bin/gts2dxf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gts2dxf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gts2oogl
+
+```bash
+$ singularity exec <container> /usr/local/bin/gts2oogl
+$ podman run --it --rm --entrypoint /usr/local/bin/gts2oogl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gts2oogl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

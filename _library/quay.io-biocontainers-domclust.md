@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/domclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/domclust/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/domclust/container.yaml"
-updated_at: "2022-10-29 05:44:03.806121"
+updated_at: "2022-10-29 07:46:10.078040"
 latest: "1.2.8a--h470a237_1"
 container_url: "https://biocontainers.pro/tools/domclust"
 aliases:
@@ -16,12 +16,12 @@ aliases:
  - "fasta2genefile.pl"
  - "perl5.22.2"
  - "c2ph"
- - "podselect"
  - "pstruct"
+ - "podselect"
 versions:
  - "1.2.8a--h470a237_1"
 description: "shpc-registry automated BioContainers addition for domclust"
-config: {"url": "https://biocontainers.pro/tools/domclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for domclust", "latest": {"1.2.8a--h470a237_1": "sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36"}, "tags": {"1.2.8a--h470a237_1": "sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36"}, "docker": "quay.io/biocontainers/domclust", "aliases": {"addtit.pl": "/usr/local/bin/addtit.pl", "blast2homfile.pl": "/usr/local/bin/blast2homfile.pl", "cmpr.pl": "/usr/local/bin/cmpr.pl", "convgraph.pl": "/usr/local/bin/convgraph.pl", "domclust": "/usr/local/bin/domclust", "fasta2genefile.pl": "/usr/local/bin/fasta2genefile.pl", "perl5.22.2": "/usr/local/bin/perl5.22.2", "c2ph": "/usr/local/bin/c2ph", "podselect": "/usr/local/bin/podselect", "pstruct": "/usr/local/bin/pstruct"}}
+config: {"url": "https://biocontainers.pro/tools/domclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for domclust", "latest": {"1.2.8a--h470a237_1": "sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36"}, "tags": {"1.2.8a--h470a237_1": "sha256:f6b8af22546c2246253fdfef898e92c21b9c9cd6e74d86f0dddcc77c59495a36"}, "docker": "quay.io/biocontainers/domclust", "aliases": {"addtit.pl": "/usr/local/bin/addtit.pl", "blast2homfile.pl": "/usr/local/bin/blast2homfile.pl", "cmpr.pl": "/usr/local/bin/cmpr.pl", "convgraph.pl": "/usr/local/bin/convgraph.pl", "domclust": "/usr/local/bin/domclust", "fasta2genefile.pl": "/usr/local/bin/fasta2genefile.pl", "perl5.22.2": "/usr/local/bin/perl5.22.2", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/domclust.
@@ -179,21 +179,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### podselect
-
-```bash
-$ singularity exec <container> /usr/local/bin/podselect
-$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pstruct
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pstruct
 $ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

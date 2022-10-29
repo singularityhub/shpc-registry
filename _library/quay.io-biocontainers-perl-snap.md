@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/perl-snap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-snap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-snap/container.yaml"
-updated_at: "2022-10-29 05:44:46.031838"
+updated_at: "2022-10-29 07:46:41.562637"
 latest: "2.1.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-snap"
 aliases:
  - "SNAP.pl"
  - "SNAPstats.pl"
  - "codons-xyplot.pl"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.1.1--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-snap"
-config: {"url": "https://biocontainers.pro/tools/perl-snap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-snap", "latest": {"2.1.1--pl5321hdfd78af_1": "sha256:28616a471376b39ec32320a84e7555196c70657f67a86c225f4fbf6bf3bae8cf"}, "tags": {"2.1.1--pl5321hdfd78af_1": "sha256:28616a471376b39ec32320a84e7555196c70657f67a86c225f4fbf6bf3bae8cf"}, "docker": "quay.io/biocontainers/perl-snap", "aliases": {"SNAP.pl": "/usr/local/bin/SNAP.pl", "SNAPstats.pl": "/usr/local/bin/SNAPstats.pl", "codons-xyplot.pl": "/usr/local/bin/codons-xyplot.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-snap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-snap", "latest": {"2.1.1--pl5321hdfd78af_1": "sha256:28616a471376b39ec32320a84e7555196c70657f67a86c225f4fbf6bf3bae8cf"}, "tags": {"2.1.1--pl5321hdfd78af_1": "sha256:28616a471376b39ec32320a84e7555196c70657f67a86c225f4fbf6bf3bae8cf"}, "docker": "quay.io/biocontainers/perl-snap", "aliases": {"SNAP.pl": "/usr/local/bin/SNAP.pl", "SNAPstats.pl": "/usr/local/bin/SNAPstats.pl", "codons-xyplot.pl": "/usr/local/bin/codons-xyplot.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-snap.
@@ -124,6 +126,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/SNAPstats.pl   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/codons-xyplot.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/codons-xyplot.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/codons-xyplot.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

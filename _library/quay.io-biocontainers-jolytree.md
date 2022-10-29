@@ -4,26 +4,27 @@ name:  "quay.io/biocontainers/jolytree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jolytree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jolytree/container.yaml"
-updated_at: "2022-10-29 05:30:50.807542"
+updated_at: "2022-10-29 07:36:26.099755"
 latest: "1.1b--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/jolytree"
 aliases:
  - "JolyTree.sh"
  - "REQ"
- - "aserver"
- - "awk"
+ - "fastme"
  - "capnp"
  - "capnpc"
  - "capnpc-c++"
  - "capnpc-capnp"
- - "fastme"
- - "gawk"
+ - "mash"
  - "gawk-5.1.0"
+ - "awk"
+ - "gawk"
+ - "jfr"
  - "jaotc"
 versions:
  - "1.1b--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for jolytree"
-config: {"url": "https://biocontainers.pro/tools/jolytree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jolytree", "latest": {"1.1b--hdfd78af_1": "sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8"}, "tags": {"1.1b--hdfd78af_1": "sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8"}, "docker": "quay.io/biocontainers/jolytree", "aliases": {"JolyTree.sh": "/usr/local/bin/JolyTree.sh", "REQ": "/usr/local/bin/REQ", "aserver": "/usr/local/bin/aserver", "awk": "/usr/local/bin/awk", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "fastme": "/usr/local/bin/fastme", "gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "jaotc": "/usr/local/bin/jaotc"}}
+config: {"url": "https://biocontainers.pro/tools/jolytree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jolytree", "latest": {"1.1b--hdfd78af_1": "sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8"}, "tags": {"1.1b--hdfd78af_1": "sha256:9b88f1e6a6f4e2750946c88ae752f37b646eb7caf5c793298ac1b696d46df5d8"}, "docker": "quay.io/biocontainers/jolytree", "aliases": {"JolyTree.sh": "/usr/local/bin/JolyTree.sh", "REQ": "/usr/local/bin/REQ", "fastme": "/usr/local/bin/fastme", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "mash": "/usr/local/bin/mash", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jolytree.
@@ -127,21 +128,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/REQ   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### aserver
+#### fastme
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### awk
-
-```bash
-$ singularity exec <container> /usr/local/bin/awk
-$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastme
+$ podman run --it --rm --entrypoint /usr/local/bin/fastme   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastme   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -181,12 +173,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w $
 ```
 
 
-#### fastme
+#### mash
 
 ```bash
-$ singularity exec <container> /usr/local/bin/fastme
-$ podman run --it --rm --entrypoint /usr/local/bin/fastme   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastme   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mash
+$ podman run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gawk-5.1.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### awk
+
+```bash
+$ singularity exec <container> /usr/local/bin/awk
+$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -199,12 +209,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### gawk-5.1.0
+#### jfr
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gawk-5.1.0
-$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jfr
+$ podman run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jfr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

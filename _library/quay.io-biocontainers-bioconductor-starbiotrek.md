@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-starbiotrek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-starbiotrek/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-starbiotrek/container.yaml"
-updated_at: "2022-10-29 05:47:22.042593"
+updated_at: "2022-10-29 07:48:36.634504"
 latest: "1.8.1--r351_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-starbiotrek"
 aliases:
  - "idn2"
  - "wget"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.1--r351_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-starbiotrek"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-starbiotrek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-starbiotrek", "latest": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "tags": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "docker": "quay.io/biocontainers/bioconductor-starbiotrek", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-starbiotrek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-starbiotrek", "latest": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "tags": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "docker": "quay.io/biocontainers/bioconductor-starbiotrek", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-starbiotrek.
@@ -114,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/wget
 $ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

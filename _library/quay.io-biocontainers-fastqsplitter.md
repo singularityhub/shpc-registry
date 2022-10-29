@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastqsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastqsplitter/container.yaml"
-updated_at: "2022-10-29 05:49:34.021402"
+updated_at: "2022-10-29 07:50:13.885781"
 latest: "1.2.0--py38hbff2b2d_3"
 container_url: "https://biocontainers.pro/tools/fastqsplitter"
 aliases:
@@ -15,10 +15,14 @@ aliases:
  - "pbzip2"
  - "pigz"
  - "unpigz"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
 versions:
  - "1.2.0--py38hbff2b2d_3"
 description: "shpc-registry automated BioContainers addition for fastqsplitter"
-config: {"url": "https://biocontainers.pro/tools/fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqsplitter", "latest": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a"}, "tags": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a"}, "docker": "quay.io/biocontainers/fastqsplitter", "aliases": {"fastqsplitter": "/usr/local/bin/fastqsplitter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz"}}
+config: {"url": "https://biocontainers.pro/tools/fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqsplitter", "latest": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a"}, "tags": {"1.2.0--py38hbff2b2d_3": "sha256:9bd62e637a0a1f968653282b334a4fba2879fced60855cee971dcfd4ed7fc39a"}, "docker": "quay.io/biocontainers/fastqsplitter", "aliases": {"fastqsplitter": "/usr/local/bin/fastqsplitter", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqsplitter.
@@ -164,6 +168,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/unpigz
 $ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

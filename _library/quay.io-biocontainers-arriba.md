@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arriba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arriba/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/arriba/container.yaml"
-updated_at: "2022-10-29 05:39:33.073578"
+updated_at: "2022-10-29 07:42:49.297613"
 latest: "2.3.0--ha04fe3b_1"
 container_url: "https://biocontainers.pro/tools/arriba"
 aliases:
@@ -17,18 +17,18 @@ aliases:
  - "run_arriba_on_prealigned_bam.sh"
  - "STAR"
  - "STARlong"
+ - "fasta-sanitize.pl"
+ - "plot-ampliconstats"
  - "ace2sam"
- - "bgzip"
  - "blast2sam.pl"
  - "bowtie2sam.pl"
  - "export2sam.pl"
- - "fasta-sanitize.pl"
- - "htsfile"
  - "interpolate_sam.pl"
+ - "maq2sam-long"
 versions:
  - "2.3.0--ha04fe3b_1"
 description: "shpc-registry automated BioContainers addition for arriba"
-config: {"url": "https://biocontainers.pro/tools/arriba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arriba", "latest": {"2.3.0--ha04fe3b_1": "sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5"}, "tags": {"2.3.0--ha04fe3b_1": "sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5"}, "docker": "quay.io/biocontainers/arriba", "aliases": {"arriba": "/usr/local/bin/arriba", "convert_fusions_to_vcf.sh": "/usr/local/bin/convert_fusions_to_vcf.sh", "draw_fusions.R": "/usr/local/bin/draw_fusions.R", "extract_fusion-supporting_alignments.sh": "/usr/local/bin/extract_fusion-supporting_alignments.sh", "quantify_virus_expression.sh": "/usr/local/bin/quantify_virus_expression.sh", "run_arriba.sh": "/usr/local/bin/run_arriba.sh", "run_arriba_on_prealigned_bam.sh": "/usr/local/bin/run_arriba_on_prealigned_bam.sh", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/arriba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arriba", "latest": {"2.3.0--ha04fe3b_1": "sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5"}, "tags": {"2.3.0--ha04fe3b_1": "sha256:0b46650c649f24856861dcddb21c1d78fbefaef437ea3619c9304f59b1de1ae5"}, "docker": "quay.io/biocontainers/arriba", "aliases": {"arriba": "/usr/local/bin/arriba", "convert_fusions_to_vcf.sh": "/usr/local/bin/convert_fusions_to_vcf.sh", "draw_fusions.R": "/usr/local/bin/draw_fusions.R", "extract_fusion-supporting_alignments.sh": "/usr/local/bin/extract_fusion-supporting_alignments.sh", "quantify_virus_expression.sh": "/usr/local/bin/quantify_virus_expression.sh", "run_arriba.sh": "/usr/local/bin/run_arriba.sh", "run_arriba_on_prealigned_bam.sh": "/usr/local/bin/run_arriba_on_prealigned_bam.sh", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arriba.
@@ -195,21 +195,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD
 ```
 
 
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-ampliconstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ace2sam
 
 ```bash
 $ singularity exec <container> /usr/local/bin/ace2sam
 $ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -240,30 +249,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w 
 ```
 
 
-#### fasta-sanitize.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### interpolate_sam.pl
 
 ```bash
 $ singularity exec <container> /usr/local/bin/interpolate_sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maq2sam-long
+
+```bash
+$ singularity exec <container> /usr/local/bin/maq2sam-long
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

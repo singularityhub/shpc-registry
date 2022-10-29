@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/fsnviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fsnviz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fsnviz/container.yaml"
-updated_at: "2022-10-29 05:51:24.521018"
+updated_at: "2022-10-29 07:51:35.045384"
 latest: "0.3.0--pyhdfd78af_5"
 container_url: "https://biocontainers.pro/tools/fsnviz"
 aliases:
  - "crimson"
  - "fsnviz"
- - "2to3-3.6"
- - "annotate"
- - "bdf2gdfont.pl"
- - "bdftogd"
  - "circos"
  - "circos.exe"
  - "compile.bat"
  - "compile.make"
- - "cwebp"
- - "dwebp"
+ - "gddiag"
+ - "list.modules"
+ - "test.modules"
+ - "bdf2gdfont.pl"
+ - "bdftogd"
+ - "gd2copypal"
 versions:
  - "0.3.0--pyhdfd78af_5"
 description: "shpc-registry automated BioContainers addition for fsnviz"
-config: {"url": "https://biocontainers.pro/tools/fsnviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsnviz", "latest": {"0.3.0--pyhdfd78af_5": "sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4"}, "tags": {"0.3.0--pyhdfd78af_5": "sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4"}, "docker": "quay.io/biocontainers/fsnviz", "aliases": {"crimson": "/usr/local/bin/crimson", "fsnviz": "/usr/local/bin/fsnviz", "2to3-3.6": "/usr/local/bin/2to3-3.6", "annotate": "/usr/local/bin/annotate", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp"}}
+config: {"url": "https://biocontainers.pro/tools/fsnviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fsnviz", "latest": {"0.3.0--pyhdfd78af_5": "sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4"}, "tags": {"0.3.0--pyhdfd78af_5": "sha256:c51d8d331c80929b4d5d87ca1326687e422e703bdae195cffc83a04c058dece4"}, "docker": "quay.io/biocontainers/fsnviz", "aliases": {"crimson": "/usr/local/bin/crimson", "fsnviz": "/usr/local/bin/fsnviz", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fsnviz.
@@ -127,42 +127,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fsnviz   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bdf2gdfont.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/bdf2gdfont.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bdftogd
-
-```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### circos
 
 ```bash
@@ -199,21 +163,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/compile.make   -v ${PWD} -w $
 ```
 
 
-#### cwebp
+#### gddiag
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gddiag
+$ podman run --it --rm --entrypoint /usr/local/bin/gddiag   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gddiag   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dwebp
+#### list.modules
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/list.modules
+$ podman run --it --rm --entrypoint /usr/local/bin/list.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/list.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### test.modules
+
+```bash
+$ singularity exec <container> /usr/local/bin/test.modules
+$ podman run --it --rm --entrypoint /usr/local/bin/test.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdf2gdfont.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdf2gdfont.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gd2copypal
+
+```bash
+$ singularity exec <container> /usr/local/bin/gd2copypal
+$ podman run --it --rm --entrypoint /usr/local/bin/gd2copypal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gd2copypal   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

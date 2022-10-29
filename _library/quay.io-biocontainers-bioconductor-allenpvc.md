@@ -4,15 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-allenpvc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-allenpvc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-allenpvc/container.yaml"
-updated_at: "2022-10-29 05:53:17.651884"
+updated_at: "2022-10-29 07:52:58.370479"
 latest: "1.4.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-allenpvc"
 aliases:
+ - ".bioconductor-allenpvc-post-link.sh"
+ - ".bioconductor-allenpvc-pre-unlink.sh"
  - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.4.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-allenpvc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-allenpvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-allenpvc", "latest": {"1.4.0--r36_0": "sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03"}, "tags": {"1.4.0--r36_0": "sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03"}, "docker": "quay.io/biocontainers/bioconductor-allenpvc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-allenpvc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-allenpvc", "latest": {"1.4.0--r36_0": "sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03"}, "tags": {"1.4.0--r36_0": "sha256:5543eb79d44b2f044fc5ed7693ca0977284bd6aa9a1b94e686c437bb65b93e03"}, "docker": "quay.io/biocontainers/bioconductor-allenpvc", "aliases": {".bioconductor-allenpvc-post-link.sh": "/usr/local/bin/.bioconductor-allenpvc-post-link.sh", ".bioconductor-allenpvc-pre-unlink.sh": "/usr/local/bin/.bioconductor-allenpvc-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-allenpvc.
@@ -98,12 +102,48 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-allenpvc-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-allenpvc-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-allenpvc-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-allenpvc-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-allenpvc-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-allenpvc-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-allenpvc-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-allenpvc-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### gio-launch-desktop
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gio-launch-desktop
 $ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

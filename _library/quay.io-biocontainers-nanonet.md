@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanonet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanonet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanonet/container.yaml"
-updated_at: "2022-10-29 05:51:43.832263"
+updated_at: "2022-10-29 07:51:49.373113"
 latest: "2.0.0--boost1.60_0"
 container_url: "https://biocontainers.pro/tools/nanonet"
 aliases:
@@ -13,20 +13,20 @@ aliases:
  - "nanonetcall"
  - "nanonettrain"
  - "watchmedo"
+ - "easy_install-2.7"
  - "cygdb"
  - "cython"
  - "cythonize"
- - "easy_install-2.7"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
- - "h5copy"
- - "h5debug"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
+ - "idle"
+ - "python-config"
 versions:
  - "2.0.0--boost1.60_0"
 description: "shpc-registry automated BioContainers addition for nanonet"
-config: {"url": "https://biocontainers.pro/tools/nanonet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanonet", "latest": {"2.0.0--boost1.60_0": "sha256:5ae27ef6f8c05dbda852b0fe1594265c35669e331e8fce46b7ba7c504b88b682"}, "tags": {"2.0.0--boost1.60_0": "sha256:5ae27ef6f8c05dbda852b0fe1594265c35669e331e8fce46b7ba7c504b88b682"}, "docker": "quay.io/biocontainers/nanonet", "aliases": {"myriad": "/usr/local/bin/myriad", "nanonet2d": "/usr/local/bin/nanonet2d", "nanonetcall": "/usr/local/bin/nanonetcall", "nanonettrain": "/usr/local/bin/nanonettrain", "watchmedo": "/usr/local/bin/watchmedo", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
+config: {"url": "https://biocontainers.pro/tools/nanonet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanonet", "latest": {"2.0.0--boost1.60_0": "sha256:5ae27ef6f8c05dbda852b0fe1594265c35669e331e8fce46b7ba7c504b88b682"}, "tags": {"2.0.0--boost1.60_0": "sha256:5ae27ef6f8c05dbda852b0fe1594265c35669e331e8fce46b7ba7c504b88b682"}, "docker": "quay.io/biocontainers/nanonet", "aliases": {"myriad": "/usr/local/bin/myriad", "nanonet2d": "/usr/local/bin/nanonet2d", "nanonetcall": "/usr/local/bin/nanonetcall", "nanonettrain": "/usr/local/bin/nanonettrain", "watchmedo": "/usr/local/bin/watchmedo", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanonet.
@@ -157,6 +157,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/watchmedo   -v ${PWD} -w ${PW
 ```
 
 
+#### easy_install-2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### cygdb
 
 ```bash
@@ -184,66 +193,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PW
 ```
 
 
-#### easy_install-2.7
+#### python2-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/easy_install-2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2h5
+#### python2.7-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h52gif
+#### python2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5c++
+#### python2.7
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5cc
+#### idle
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### h5copy
+#### python-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5debug
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5debug
-$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

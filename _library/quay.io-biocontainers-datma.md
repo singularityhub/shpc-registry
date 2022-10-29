@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/datma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/datma/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/datma/container.yaml"
-updated_at: "2022-10-29 05:31:15.603745"
+updated_at: "2022-10-29 07:36:44.137863"
 latest: "2.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/datma"
 aliases:
@@ -23,6 +23,7 @@ aliases:
  - "flash2"
  - "genFm9"
  - "general.py"
+ - "icarus.py"
  - "kaiju"
  - "kaiju-addTaxonNames"
  - "kaiju-convertMAR.py"
@@ -39,29 +40,39 @@ aliases:
  - "kaiju2table"
  - "kaijup"
  - "kaijux"
+ - "ktClassifyHits"
+ - "ktImportHits"
  - "map_genFm9.py"
  - "mapping"
  - "mergeNotCombined"
  - "merge_tool.py"
+ - "metaquast"
+ - "metaquast.py"
+ - "quast"
+ - "quast-download-busco"
+ - "quast-download-gridss"
+ - "quast-download-silva"
+ - "quast-lg.py"
+ - "quast.py"
  - "rapifilt"
  - "rdp_classifier"
  - "removal_tool.py"
  - "runDATMA.sh"
  - "selectFasta"
- - "2to3-3.10"
- - "accn-at-a-time"
- - "ace2sam"
- - "align-columns"
- - "alimask"
- - "amino-acid-composition"
- - "annotate"
- - "annotateBed"
- - "archive-pubmed"
- - "aserver"
+ - "megahit_core"
+ - "megahit_core_no_hw_accel"
+ - "megahit_core_popcnt"
+ - "circos"
+ - "circos.exe"
+ - "compile.bat"
+ - "compile.make"
+ - "gddiag"
+ - "glimmerhmm"
+ - "glimmhmm.pl"
 versions:
  - "2.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for datma"
-config: {"url": "https://biocontainers.pro/tools/datma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for datma", "latest": {"2.0--hdfd78af_0": "sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089"}, "tags": {"2.0--hdfd78af_0": "sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089"}, "docker": "quay.io/biocontainers/datma", "aliases": {"assembly_annotation_tool.py": "/usr/local/bin/assembly_annotation_tool.py", "assembly_annotation_tool_seq.py": "/usr/local/bin/assembly_annotation_tool_seq.py", "binning": "/usr/local/bin/binning", "binning_tool.py": "/usr/local/bin/binning_tool.py", "checkm": "/usr/local/bin/checkm", "clame": "/usr/local/bin/clame", "datma.py": "/usr/local/bin/datma.py", "datma_seq.py": "/usr/local/bin/datma_seq.py", "exportTools.sh": "/usr/local/bin/exportTools.sh", "filterQuality.py": "/usr/local/bin/filterQuality.py", "finalReport.py": "/usr/local/bin/finalReport.py", "finalReport2.py": "/usr/local/bin/finalReport2.py", "flash2": "/usr/local/bin/flash2", "genFm9": "/usr/local/bin/genFm9", "general.py": "/usr/local/bin/general.py", "kaiju": "/usr/local/bin/kaiju", "kaiju-addTaxonNames": "/usr/local/bin/kaiju-addTaxonNames", "kaiju-convertMAR.py": "/usr/local/bin/kaiju-convertMAR.py", "kaiju-convertNR": "/usr/local/bin/kaiju-convertNR", "kaiju-excluded-accessions.txt": "/usr/local/bin/kaiju-excluded-accessions.txt", "kaiju-gbk2faa.pl": "/usr/local/bin/kaiju-gbk2faa.pl", "kaiju-makedb": "/usr/local/bin/kaiju-makedb", "kaiju-mergeOutputs": "/usr/local/bin/kaiju-mergeOutputs", "kaiju-mkbwt": "/usr/local/bin/kaiju-mkbwt", "kaiju-mkfmi": "/usr/local/bin/kaiju-mkfmi", "kaiju-multi": "/usr/local/bin/kaiju-multi", "kaiju-taxonlistEuk.tsv": "/usr/local/bin/kaiju-taxonlistEuk.tsv", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaiju2table": "/usr/local/bin/kaiju2table", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "map_genFm9.py": "/usr/local/bin/map_genFm9.py", "mapping": "/usr/local/bin/mapping", "mergeNotCombined": "/usr/local/bin/mergeNotCombined", "merge_tool.py": "/usr/local/bin/merge_tool.py", "rapifilt": "/usr/local/bin/rapifilt", "rdp_classifier": "/usr/local/bin/rdp_classifier", "removal_tool.py": "/usr/local/bin/removal_tool.py", "runDATMA.sh": "/usr/local/bin/runDATMA.sh", "selectFasta": "/usr/local/bin/selectFasta", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace2sam": "/usr/local/bin/ace2sam", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate", "annotateBed": "/usr/local/bin/annotateBed", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver"}}
+config: {"url": "https://biocontainers.pro/tools/datma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for datma", "latest": {"2.0--hdfd78af_0": "sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089"}, "tags": {"2.0--hdfd78af_0": "sha256:e62a96f83c898755af00b7c25da2f3037fefa1d741f4aa42b1192ef1a7d85089"}, "docker": "quay.io/biocontainers/datma", "aliases": {"assembly_annotation_tool.py": "/usr/local/bin/assembly_annotation_tool.py", "assembly_annotation_tool_seq.py": "/usr/local/bin/assembly_annotation_tool_seq.py", "binning": "/usr/local/bin/binning", "binning_tool.py": "/usr/local/bin/binning_tool.py", "checkm": "/usr/local/bin/checkm", "clame": "/usr/local/bin/clame", "datma.py": "/usr/local/bin/datma.py", "datma_seq.py": "/usr/local/bin/datma_seq.py", "exportTools.sh": "/usr/local/bin/exportTools.sh", "filterQuality.py": "/usr/local/bin/filterQuality.py", "finalReport.py": "/usr/local/bin/finalReport.py", "finalReport2.py": "/usr/local/bin/finalReport2.py", "flash2": "/usr/local/bin/flash2", "genFm9": "/usr/local/bin/genFm9", "general.py": "/usr/local/bin/general.py", "icarus.py": "/usr/local/bin/icarus.py", "kaiju": "/usr/local/bin/kaiju", "kaiju-addTaxonNames": "/usr/local/bin/kaiju-addTaxonNames", "kaiju-convertMAR.py": "/usr/local/bin/kaiju-convertMAR.py", "kaiju-convertNR": "/usr/local/bin/kaiju-convertNR", "kaiju-excluded-accessions.txt": "/usr/local/bin/kaiju-excluded-accessions.txt", "kaiju-gbk2faa.pl": "/usr/local/bin/kaiju-gbk2faa.pl", "kaiju-makedb": "/usr/local/bin/kaiju-makedb", "kaiju-mergeOutputs": "/usr/local/bin/kaiju-mergeOutputs", "kaiju-mkbwt": "/usr/local/bin/kaiju-mkbwt", "kaiju-mkfmi": "/usr/local/bin/kaiju-mkfmi", "kaiju-multi": "/usr/local/bin/kaiju-multi", "kaiju-taxonlistEuk.tsv": "/usr/local/bin/kaiju-taxonlistEuk.tsv", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaiju2table": "/usr/local/bin/kaiju2table", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "ktClassifyHits": "/usr/local/bin/ktClassifyHits", "ktImportHits": "/usr/local/bin/ktImportHits", "map_genFm9.py": "/usr/local/bin/map_genFm9.py", "mapping": "/usr/local/bin/mapping", "mergeNotCombined": "/usr/local/bin/mergeNotCombined", "merge_tool.py": "/usr/local/bin/merge_tool.py", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "rapifilt": "/usr/local/bin/rapifilt", "rdp_classifier": "/usr/local/bin/rdp_classifier", "removal_tool.py": "/usr/local/bin/removal_tool.py", "runDATMA.sh": "/usr/local/bin/runDATMA.sh", "selectFasta": "/usr/local/bin/selectFasta", "megahit_core": "/usr/local/bin/megahit_core", "megahit_core_no_hw_accel": "/usr/local/bin/megahit_core_no_hw_accel", "megahit_core_popcnt": "/usr/local/bin/megahit_core_popcnt", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "gddiag": "/usr/local/bin/gddiag", "glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/datma.
@@ -282,6 +293,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/general.py   -v ${PWD} -w ${P
 ```
 
 
+#### icarus.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/icarus.py
+$ podman run --it --rm --entrypoint /usr/local/bin/icarus.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/icarus.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### kaiju
 
 ```bash
@@ -426,6 +446,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kaijux   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### ktClassifyHits
+
+```bash
+$ singularity exec <container> /usr/local/bin/ktClassifyHits
+$ podman run --it --rm --entrypoint /usr/local/bin/ktClassifyHits   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktClassifyHits   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ktImportHits
+
+```bash
+$ singularity exec <container> /usr/local/bin/ktImportHits
+$ podman run --it --rm --entrypoint /usr/local/bin/ktImportHits   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ktImportHits   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### map_genFm9.py
 
 ```bash
@@ -459,6 +497,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mergeNotCombined   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/merge_tool.py
 $ podman run --it --rm --entrypoint /usr/local/bin/merge_tool.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/merge_tool.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### metaquast
+
+```bash
+$ singularity exec <container> /usr/local/bin/metaquast
+$ podman run --it --rm --entrypoint /usr/local/bin/metaquast   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metaquast   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### metaquast.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/metaquast.py
+$ podman run --it --rm --entrypoint /usr/local/bin/metaquast.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metaquast.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### quast
+
+```bash
+$ singularity exec <container> /usr/local/bin/quast
+$ podman run --it --rm --entrypoint /usr/local/bin/quast   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/quast   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### quast-download-busco
+
+```bash
+$ singularity exec <container> /usr/local/bin/quast-download-busco
+$ podman run --it --rm --entrypoint /usr/local/bin/quast-download-busco   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/quast-download-busco   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### quast-download-gridss
+
+```bash
+$ singularity exec <container> /usr/local/bin/quast-download-gridss
+$ podman run --it --rm --entrypoint /usr/local/bin/quast-download-gridss   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/quast-download-gridss   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### quast-download-silva
+
+```bash
+$ singularity exec <container> /usr/local/bin/quast-download-silva
+$ podman run --it --rm --entrypoint /usr/local/bin/quast-download-silva   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/quast-download-silva   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### quast-lg.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/quast-lg.py
+$ podman run --it --rm --entrypoint /usr/local/bin/quast-lg.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/quast-lg.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### quast.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/quast.py
+$ podman run --it --rm --entrypoint /usr/local/bin/quast.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/quast.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -507,93 +617,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/selectFasta   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.10
+#### megahit_core
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/megahit_core
+$ podman run --it --rm --entrypoint /usr/local/bin/megahit_core   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/megahit_core   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### megahit_core_no_hw_accel
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/megahit_core_no_hw_accel
+$ podman run --it --rm --entrypoint /usr/local/bin/megahit_core_no_hw_accel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/megahit_core_no_hw_accel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### megahit_core_popcnt
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/megahit_core_popcnt
+$ podman run --it --rm --entrypoint /usr/local/bin/megahit_core_popcnt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/megahit_core_popcnt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### circos
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/circos
+$ podman run --it --rm --entrypoint /usr/local/bin/circos   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circos   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### circos.exe
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/circos.exe
+$ podman run --it --rm --entrypoint /usr/local/bin/circos.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circos.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### compile.bat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/compile.bat
+$ podman run --it --rm --entrypoint /usr/local/bin/compile.bat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile.bat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### compile.make
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/compile.make
+$ podman run --it --rm --entrypoint /usr/local/bin/compile.make   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile.make   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotateBed
+#### gddiag
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gddiag
+$ podman run --it --rm --entrypoint /usr/local/bin/gddiag   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gddiag   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### glimmerhmm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/glimmerhmm
+$ podman run --it --rm --entrypoint /usr/local/bin/glimmerhmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glimmerhmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### glimmhmm.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/glimmhmm.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/glimmhmm.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glimmhmm.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

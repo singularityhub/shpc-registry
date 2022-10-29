@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/container.yaml"
-updated_at: "2022-10-29 05:33:55.550563"
+updated_at: "2022-10-29 07:38:41.448799"
 latest: "3.2.2--r40_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
 aliases:
+ - ".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh"
+ - ".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.2--r40_9"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "latest": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32"}, "tags": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "latest": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32"}, "tags": {"3.2.2--r40_9": "sha256:c1ee7af71dd5efdfa491302da0cd86e441a8d2bccdc1b1c92166a2ba09f6be32"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene", "aliases": {".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh", ".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

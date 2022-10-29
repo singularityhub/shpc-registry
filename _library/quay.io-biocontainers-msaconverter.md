@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/msaconverter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaconverter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/msaconverter/container.yaml"
-updated_at: "2022-10-29 05:35:25.129353"
+updated_at: "2022-10-29 07:39:46.752038"
 latest: "0.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msaconverter"
 aliases:
  - "msaconverter"
- - "2to3-3.10"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "0.0.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for msaconverter"
-config: {"url": "https://biocontainers.pro/tools/msaconverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaconverter", "latest": {"0.0.2--pyhdfd78af_0": "sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1"}, "docker": "quay.io/biocontainers/msaconverter", "aliases": {"msaconverter": "/usr/local/bin/msaconverter", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/msaconverter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msaconverter", "latest": {"0.0.2--pyhdfd78af_0": "sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1"}, "tags": {"0.0.2--pyhdfd78af_0": "sha256:e192268f586b00e469cd3546fa88080dfab3a3e0cf824b6ecf03a54e0602fcd1"}, "docker": "quay.io/biocontainers/msaconverter", "aliases": {"msaconverter": "/usr/local/bin/msaconverter", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msaconverter.
@@ -114,21 +114,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/msaconverter   -v ${PWD} -w $
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

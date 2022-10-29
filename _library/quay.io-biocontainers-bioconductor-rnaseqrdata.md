@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rnaseqrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqrdata/container.yaml"
-updated_at: "2022-10-29 05:54:01.287671"
+updated_at: "2022-10-29 07:53:30.542330"
 latest: "1.8.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqrdata"
 aliases:
+ - ".bioconductor-rnaseqrdata-post-link.sh"
+ - ".bioconductor-rnaseqrdata-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaseqrdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqrdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:0d1c4c1334598b027b016f03c30fae3ce0948b834490989310e05e159a5332fc"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:0d1c4c1334598b027b016f03c30fae3ce0948b834490989310e05e159a5332fc"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqrdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqrdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:0d1c4c1334598b027b016f03c30fae3ce0948b834490989310e05e159a5332fc"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:0d1c4c1334598b027b016f03c30fae3ce0948b834490989310e05e159a5332fc"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqrdata", "aliases": {".bioconductor-rnaseqrdata-post-link.sh": "/usr/local/bin/.bioconductor-rnaseqrdata-post-link.sh", ".bioconductor-rnaseqrdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-rnaseqrdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaseqrdata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-rnaseqrdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-rnaseqrdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rnaseqrdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rnaseqrdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-rnaseqrdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-rnaseqrdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rnaseqrdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rnaseqrdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,12 @@ name:  "quay.io/biocontainers/hisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hisat2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hisat2/container.yaml"
-updated_at: "2022-10-29 05:33:23.816070"
+updated_at: "2022-10-29 07:38:18.114272"
 latest: "2.2.1--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/hisat2"
 aliases:
  - "extract_exons.py"
  - "extract_splice_sites.py"
- - "hisat2_read_statistics.py"
- - "2to3-3.10"
  - "hisat2"
  - "hisat2-align-l"
  - "hisat2-align-s"
@@ -21,10 +19,24 @@ aliases:
  - "hisat2-inspect"
  - "hisat2-inspect-l"
  - "hisat2-inspect-s"
+ - "hisat2_extract_exons.py"
+ - "hisat2_extract_snps_haplotypes_UCSC.py"
+ - "hisat2_extract_snps_haplotypes_VCF.py"
+ - "hisat2_extract_splice_sites.py"
+ - "hisat2_read_statistics.py"
+ - "hisat2_simulate_reads.py"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.2.1--h87f3376_4"
 description: "shpc-registry automated BioContainers addition for hisat2"
-config: {"url": "https://biocontainers.pro/tools/hisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hisat2", "latest": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "tags": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "docker": "quay.io/biocontainers/hisat2", "aliases": {"extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s"}}
+config: {"url": "https://biocontainers.pro/tools/hisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hisat2", "latest": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "tags": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "docker": "quay.io/biocontainers/hisat2", "aliases": {"extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hisat2.
@@ -128,24 +140,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extract_splice_sites.py   -v 
 ```
 
 
-#### hisat2_read_statistics.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/hisat2_read_statistics.py
-$ podman run --it --rm --entrypoint /usr/local/bin/hisat2_read_statistics.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/hisat2_read_statistics.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### hisat2
 
 ```bash
@@ -224,6 +218,132 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hisat2-inspect-l   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/hisat2-inspect-s
 $ podman run --it --rm --entrypoint /usr/local/bin/hisat2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hisat2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2_extract_exons.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2_extract_exons.py
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2_extract_exons.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2_extract_exons.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2_extract_snps_haplotypes_UCSC.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2_extract_snps_haplotypes_VCF.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2_extract_splice_sites.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2_extract_splice_sites.py
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2_extract_splice_sites.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2_extract_splice_sites.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2_read_statistics.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2_read_statistics.py
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2_read_statistics.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2_read_statistics.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2_simulate_reads.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2_simulate_reads.py
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2_simulate_reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2_simulate_reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hsmmsinglecell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hsmmsinglecell/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hsmmsinglecell/container.yaml"
-updated_at: "2022-10-29 05:48:32.806680"
+updated_at: "2022-10-29 07:49:28.808042"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hsmmsinglecell"
 aliases:
+ - ".bioconductor-hsmmsinglecell-post-link.sh"
+ - ".bioconductor-hsmmsinglecell-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hsmmsinglecell"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hsmmsinglecell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hsmmsinglecell", "latest": {"1.9.0--r40_0": "sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120"}, "tags": {"1.9.0--r40_0": "sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120"}, "docker": "quay.io/biocontainers/bioconductor-hsmmsinglecell", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hsmmsinglecell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hsmmsinglecell", "latest": {"1.9.0--r40_0": "sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120"}, "tags": {"1.9.0--r40_0": "sha256:ed515829a87c14b2cbf9cbdf63b4d07596e1321b92b09bf98625cbb76d733120"}, "docker": "quay.io/biocontainers/bioconductor-hsmmsinglecell", "aliases": {".bioconductor-hsmmsinglecell-post-link.sh": "/usr/local/bin/.bioconductor-hsmmsinglecell-post-link.sh", ".bioconductor-hsmmsinglecell-pre-unlink.sh": "/usr/local/bin/.bioconductor-hsmmsinglecell-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hsmmsinglecell.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-hsmmsinglecell-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-hsmmsinglecell-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hsmmsinglecell-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hsmmsinglecell-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-hsmmsinglecell-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-hsmmsinglecell-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hsmmsinglecell-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hsmmsinglecell-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

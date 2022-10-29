@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scmap-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scmap-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scmap-cli/container.yaml"
-updated_at: "2022-10-29 05:43:37.811128"
+updated_at: "2022-10-29 07:45:50.982058"
 latest: "0.0.9--0"
 container_url: "https://biocontainers.pro/tools/scmap-cli"
 aliases:
@@ -18,20 +18,20 @@ aliases:
  - "scmap-scmap-cluster.R"
  - "scmap-select-features.R"
  - "scmap_get_std_output.R"
- - "2to3-3.8"
  - "build_env_setup.sh"
- - "c89"
- - "c99"
  - "conda_build.sh"
- - "gio-launch-desktop"
+ - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "0.0.9--0"
 description: "shpc-registry automated BioContainers addition for scmap-cli"
-config: {"url": "https://biocontainers.pro/tools/scmap-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scmap-cli", "latest": {"0.0.9--0": "sha256:9713c8fb1a1508db9fb261f4429614d6b609c37612bde66f3729e5cba9b06d27"}, "tags": {"0.0.9--0": "sha256:9713c8fb1a1508db9fb261f4429614d6b609c37612bde66f3729e5cba9b06d27"}, "docker": "quay.io/biocontainers/scmap-cli", "aliases": {"scmap-cli-post-install-tests.bats": "/usr/local/bin/scmap-cli-post-install-tests.bats", "scmap-cli-post-install-tests.sh": "/usr/local/bin/scmap-cli-post-install-tests.sh", "scmap-index-cell.R": "/usr/local/bin/scmap-index-cell.R", "scmap-index-cluster.R": "/usr/local/bin/scmap-index-cluster.R", "scmap-make-test-data.R": "/usr/local/bin/scmap-make-test-data.R", "scmap-preprocess-sce.R": "/usr/local/bin/scmap-preprocess-sce.R", "scmap-scmap-cell.R": "/usr/local/bin/scmap-scmap-cell.R", "scmap-scmap-cluster.R": "/usr/local/bin/scmap-scmap-cluster.R", "scmap-select-features.R": "/usr/local/bin/scmap-select-features.R", "scmap_get_std_output.R": "/usr/local/bin/scmap_get_std_output.R", "2to3-3.8": "/usr/local/bin/2to3-3.8", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "conda_build.sh": "/usr/local/bin/conda_build.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/scmap-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scmap-cli", "latest": {"0.0.9--0": "sha256:9713c8fb1a1508db9fb261f4429614d6b609c37612bde66f3729e5cba9b06d27"}, "tags": {"0.0.9--0": "sha256:9713c8fb1a1508db9fb261f4429614d6b609c37612bde66f3729e5cba9b06d27"}, "docker": "quay.io/biocontainers/scmap-cli", "aliases": {"scmap-cli-post-install-tests.bats": "/usr/local/bin/scmap-cli-post-install-tests.bats", "scmap-cli-post-install-tests.sh": "/usr/local/bin/scmap-cli-post-install-tests.sh", "scmap-index-cell.R": "/usr/local/bin/scmap-index-cell.R", "scmap-index-cluster.R": "/usr/local/bin/scmap-index-cluster.R", "scmap-make-test-data.R": "/usr/local/bin/scmap-make-test-data.R", "scmap-preprocess-sce.R": "/usr/local/bin/scmap-preprocess-sce.R", "scmap-scmap-cell.R": "/usr/local/bin/scmap-scmap-cell.R", "scmap-scmap-cluster.R": "/usr/local/bin/scmap-scmap-cluster.R", "scmap-select-features.R": "/usr/local/bin/scmap-select-features.R", "scmap_get_std_output.R": "/usr/local/bin/scmap_get_std_output.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scmap-cli.
@@ -207,39 +207,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scmap_get_std_output.R   -v $
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### build_env_setup.sh
 
 ```bash
 $ singularity exec <container> /usr/local/bin/build_env_setup.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c89
-
-```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c99
-
-```bash
-$ singularity exec <container> /usr/local/bin/c99
-$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -252,12 +225,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w
 ```
 
 
-#### gio-launch-desktop
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -294,6 +267,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/mirtop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirtop/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mirtop/container.yaml"
-updated_at: "2022-10-29 05:41:45.988859"
+updated_at: "2022-10-29 07:44:27.182898"
 latest: "0.4.25--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mirtop"
 aliases:
  - "mirtop"
- - "2to3-3.9"
+ - "shiftBed"
  - "annotateBed"
  - "bamToBed"
  - "bamToFastq"
@@ -22,7 +22,7 @@ aliases:
 versions:
  - "0.4.25--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for mirtop"
-config: {"url": "https://biocontainers.pro/tools/mirtop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirtop", "latest": {"0.4.25--pyh5e36f6f_0": "sha256:b5d97e763aab6b1ffb75c52ec8bac086bb7fab67a2fda7a29d454029c59e15c9"}, "tags": {"0.4.25--pyh5e36f6f_0": "sha256:b5d97e763aab6b1ffb75c52ec8bac086bb7fab67a2fda7a29d454029c59e15c9"}, "docker": "quay.io/biocontainers/mirtop", "aliases": {"mirtop": "/usr/local/bin/mirtop", "2to3-3.9": "/usr/local/bin/2to3-3.9", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed"}}
+config: {"url": "https://biocontainers.pro/tools/mirtop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirtop", "latest": {"0.4.25--pyh5e36f6f_0": "sha256:b5d97e763aab6b1ffb75c52ec8bac086bb7fab67a2fda7a29d454029c59e15c9"}, "tags": {"0.4.25--pyh5e36f6f_0": "sha256:b5d97e763aab6b1ffb75c52ec8bac086bb7fab67a2fda7a29d454029c59e15c9"}, "docker": "quay.io/biocontainers/mirtop", "aliases": {"mirtop": "/usr/local/bin/mirtop", "shiftBed": "/usr/local/bin/shiftBed", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mirtop.
@@ -117,12 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mirtop   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.9
+#### shiftBed
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/shiftBed
+$ podman run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shiftBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

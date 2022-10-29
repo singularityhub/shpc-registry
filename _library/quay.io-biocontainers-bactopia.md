@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bactopia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bactopia/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bactopia/container.yaml"
-updated_at: "2022-10-29 05:30:28.885144"
+updated_at: "2022-10-29 07:36:10.078749"
 latest: "2.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bactopia"
 aliases:
@@ -18,39 +18,51 @@ aliases:
  - "bactopia-download.py"
  - "bactopia-prepare.py"
  - "bactopia-search.py"
+ - "bsdcat"
+ - "bsdcpio"
+ - "bsdtar"
  - "check-assembly-accession.py"
  - "check-fastqs.py"
  - "cleanup-coverage.py"
+ - "conda2solv"
  - "dna_mutation"
+ - "dumpsolv"
  - "executor"
  - "fasta2parts"
  - "fasta_check"
  - "fasta_extract"
  - "gff_check"
  - "gimme_taxa.py"
+ - "installcheck"
+ - "mamba"
  - "mamba-package"
  - "mask-consensus.py"
  - "merge-blast-json.py"
+ - "mergesolv"
  - "mlst-blast.py"
  - "ncbi-genome-download"
+ - "nextflow"
+ - "nextflow.bak"
  - "ngd"
+ - "repo2solv"
  - "select-references.py"
  - "split-coverages.py"
  - "staphopia"
- - "2to3-3.9"
+ - "testsolv"
+ - "conda-env"
+ - "cph"
+ - "fastaq"
+ - "funzip"
+ - "unzipsfx"
+ - "zipgrep"
+ - "zipinfo"
  - "FET.pl"
- - "accn-at-a-time"
- - "ace2sam"
- - "align-columns"
- - "alimask"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "aserver"
- - "asn2xml"
+ - "cd-hit-clstr_2_blm8.pl"
+ - "cds-mapping-stats"
 versions:
  - "2.1.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bactopia"
-config: {"url": "https://biocontainers.pro/tools/bactopia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bactopia", "latest": {"2.1.1--hdfd78af_0": "sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51"}, "tags": {"2.1.1--hdfd78af_0": "sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51"}, "docker": "quay.io/biocontainers/bactopia", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "ariba": "/usr/local/bin/ariba", "bactopia": "/usr/local/bin/bactopia", "bactopia-citations.py": "/usr/local/bin/bactopia-citations.py", "bactopia-datasets.py": "/usr/local/bin/bactopia-datasets.py", "bactopia-download.py": "/usr/local/bin/bactopia-download.py", "bactopia-prepare.py": "/usr/local/bin/bactopia-prepare.py", "bactopia-search.py": "/usr/local/bin/bactopia-search.py", "check-assembly-accession.py": "/usr/local/bin/check-assembly-accession.py", "check-fastqs.py": "/usr/local/bin/check-fastqs.py", "cleanup-coverage.py": "/usr/local/bin/cleanup-coverage.py", "dna_mutation": "/usr/local/bin/dna_mutation", "executor": "/usr/local/bin/executor", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "mamba-package": "/usr/local/bin/mamba-package", "mask-consensus.py": "/usr/local/bin/mask-consensus.py", "merge-blast-json.py": "/usr/local/bin/merge-blast-json.py", "mlst-blast.py": "/usr/local/bin/mlst-blast.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "select-references.py": "/usr/local/bin/select-references.py", "split-coverages.py": "/usr/local/bin/split-coverages.py", "staphopia": "/usr/local/bin/staphopia", "2to3-3.9": "/usr/local/bin/2to3-3.9", "FET.pl": "/usr/local/bin/FET.pl", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace2sam": "/usr/local/bin/ace2sam", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver", "asn2xml": "/usr/local/bin/asn2xml"}}
+config: {"url": "https://biocontainers.pro/tools/bactopia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bactopia", "latest": {"2.1.1--hdfd78af_0": "sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51"}, "tags": {"2.1.1--hdfd78af_0": "sha256:4febfb57515009b8a872666d0d541d942777afbfbdfd5b4d0b0e1a47987fbe51"}, "docker": "quay.io/biocontainers/bactopia", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "ariba": "/usr/local/bin/ariba", "bactopia": "/usr/local/bin/bactopia", "bactopia-citations.py": "/usr/local/bin/bactopia-citations.py", "bactopia-datasets.py": "/usr/local/bin/bactopia-datasets.py", "bactopia-download.py": "/usr/local/bin/bactopia-download.py", "bactopia-prepare.py": "/usr/local/bin/bactopia-prepare.py", "bactopia-search.py": "/usr/local/bin/bactopia-search.py", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "check-assembly-accession.py": "/usr/local/bin/check-assembly-accession.py", "check-fastqs.py": "/usr/local/bin/check-fastqs.py", "cleanup-coverage.py": "/usr/local/bin/cleanup-coverage.py", "conda2solv": "/usr/local/bin/conda2solv", "dna_mutation": "/usr/local/bin/dna_mutation", "dumpsolv": "/usr/local/bin/dumpsolv", "executor": "/usr/local/bin/executor", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mask-consensus.py": "/usr/local/bin/mask-consensus.py", "merge-blast-json.py": "/usr/local/bin/merge-blast-json.py", "mergesolv": "/usr/local/bin/mergesolv", "mlst-blast.py": "/usr/local/bin/mlst-blast.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "nextflow": "/usr/local/bin/nextflow", "nextflow.bak": "/usr/local/bin/nextflow.bak", "ngd": "/usr/local/bin/ngd", "repo2solv": "/usr/local/bin/repo2solv", "select-references.py": "/usr/local/bin/select-references.py", "split-coverages.py": "/usr/local/bin/split-coverages.py", "staphopia": "/usr/local/bin/staphopia", "testsolv": "/usr/local/bin/testsolv", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "fastaq": "/usr/local/bin/fastaq", "funzip": "/usr/local/bin/funzip", "unzipsfx": "/usr/local/bin/unzipsfx", "zipgrep": "/usr/local/bin/zipgrep", "zipinfo": "/usr/local/bin/zipinfo", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bactopia.
@@ -226,6 +238,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bactopia-search.py   -v ${PWD
 ```
 
 
+#### bsdcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsdcpio
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdcpio
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsdtar
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdtar
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### check-assembly-accession.py
 
 ```bash
@@ -253,12 +292,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cleanup-coverage.py   -v ${PW
 ```
 
 
+#### conda2solv
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda2solv
+$ podman run --it --rm --entrypoint /usr/local/bin/conda2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dna_mutation
 
 ```bash
 $ singularity exec <container> /usr/local/bin/dna_mutation
 $ podman run --it --rm --entrypoint /usr/local/bin/dna_mutation   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dna_mutation   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dumpsolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/dumpsolv
+$ podman run --it --rm --entrypoint /usr/local/bin/dumpsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dumpsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -316,6 +373,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gimme_taxa.py   -v ${PWD} -w 
 ```
 
 
+#### installcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/installcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/installcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/installcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mamba
+
+```bash
+$ singularity exec <container> /usr/local/bin/mamba
+$ podman run --it --rm --entrypoint /usr/local/bin/mamba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mamba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mamba-package
 
 ```bash
@@ -343,6 +418,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/merge-blast-json.py   -v ${PW
 ```
 
 
+#### mergesolv
+
+```bash
+$ singularity exec <container> /usr/local/bin/mergesolv
+$ podman run --it --rm --entrypoint /usr/local/bin/mergesolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mergesolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### mlst-blast.py
 
 ```bash
@@ -361,12 +445,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncbi-genome-download   -v ${P
 ```
 
 
+#### nextflow
+
+```bash
+$ singularity exec <container> /usr/local/bin/nextflow
+$ podman run --it --rm --entrypoint /usr/local/bin/nextflow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nextflow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nextflow.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/nextflow.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/nextflow.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nextflow.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ngd
 
 ```bash
 $ singularity exec <container> /usr/local/bin/ngd
 $ podman run --it --rm --entrypoint /usr/local/bin/ngd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ngd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### repo2solv
+
+```bash
+$ singularity exec <container> /usr/local/bin/repo2solv
+$ podman run --it --rm --entrypoint /usr/local/bin/repo2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/repo2solv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -397,12 +508,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/staphopia   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.9
+#### testsolv
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/testsolv
+$ podman run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conda-env
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda-env
+$ podman run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cph
+
+```bash
+$ singularity exec <container> /usr/local/bin/cph
+$ podman run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastaq
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastaq
+$ podman run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### funzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/funzip
+$ podman run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unzipsfx
+
+```bash
+$ singularity exec <container> /usr/local/bin/unzipsfx
+$ podman run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzipsfx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zipgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/zipgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### zipinfo
+
+```bash
+$ singularity exec <container> /usr/local/bin/zipinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/zipinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -415,75 +589,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### accn-at-a-time
+#### cd-hit-clstr_2_blm8.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-clstr_2_blm8.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### cds-mapping-stats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### align-columns
-
-```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### alimask
-
-```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### amino-acid-composition
-
-```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### archive-pubmed
-
-```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### aserver
-
-```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### asn2xml
-
-```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cds-mapping-stats
+$ podman run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

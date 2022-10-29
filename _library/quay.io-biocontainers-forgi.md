@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/forgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/forgi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/forgi/container.yaml"
-updated_at: "2022-10-29 05:44:46.583922"
+updated_at: "2022-10-29 07:46:41.967868"
 latest: "2.1.1--py36hffcf100_1"
 container_url: "https://biocontainers.pro/tools/forgi"
 aliases:
@@ -14,20 +14,20 @@ aliases:
  - "pseudoknot_analyzer.py"
  - "rnaConvert.py"
  - "visualize_rna.py"
- - "2to3-3.6"
  - "f2py3.6"
  - "futurize"
- - "idle3.6"
- - "opj_compress"
- - "opj_decompress"
- - "opj_dump"
  - "pasteurize"
+ - "2to3-3.6"
+ - "idle3.6"
  - "pydoc3.6"
  - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
 versions:
  - "2.1.1--py36hffcf100_1"
 description: "shpc-registry automated BioContainers addition for forgi"
-config: {"url": "https://biocontainers.pro/tools/forgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forgi", "latest": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d"}, "tags": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d"}, "docker": "quay.io/biocontainers/forgi", "aliases": {"compare_RNA.py": "/usr/local/bin/compare_RNA.py", "describe_cg.py": "/usr/local/bin/describe_cg.py", "forgi_config.py": "/usr/local/bin/forgi_config.py", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "visualize_rna.py": "/usr/local/bin/visualize_rna.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "idle3.6": "/usr/local/bin/idle3.6", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6"}}
+config: {"url": "https://biocontainers.pro/tools/forgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for forgi", "latest": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d"}, "tags": {"2.1.1--py36hffcf100_1": "sha256:240b3bc7b02fdc9b3961d97633e5e325c8247dbef6a5846ef33efdcc2b83255d"}, "docker": "quay.io/biocontainers/forgi", "aliases": {"compare_RNA.py": "/usr/local/bin/compare_RNA.py", "describe_cg.py": "/usr/local/bin/describe_cg.py", "forgi_config.py": "/usr/local/bin/forgi_config.py", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "visualize_rna.py": "/usr/local/bin/visualize_rna.py", "f2py3.6": "/usr/local/bin/f2py3.6", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/forgi.
@@ -167,15 +167,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/visualize_rna.py   -v ${PWD} 
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.6
 
 ```bash
@@ -194,48 +185,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### opj_compress
-
-```bash
-$ singularity exec <container> /usr/local/bin/opj_compress
-$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### opj_decompress
-
-```bash
-$ singularity exec <container> /usr/local/bin/opj_decompress
-$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### opj_dump
-
-```bash
-$ singularity exec <container> /usr/local/bin/opj_dump
-$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pasteurize
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pasteurize
 $ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -254,6 +227,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/python3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

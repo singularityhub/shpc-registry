@@ -4,19 +4,37 @@ name:  "quay.io/biocontainers/intemap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/intemap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/intemap/container.yaml"
-updated_at: "2022-10-29 05:57:30.127890"
+updated_at: "2022-10-29 07:56:01.282839"
 latest: "1.0--py27_1"
 container_url: "https://biocontainers.pro/tools/intemap"
 aliases:
  - "AtacDriver.py"
+ - "Catrack"
+ - "DAM2fasta"
+ - "DB2fasta"
  - "DB2quiva"
+ - "DBdust"
+ - "DBrm"
+ - "DBshow"
+ - "DBsplit"
+ - "DBstats"
  - "ESTmapper.pl"
  - "FilterCtgCov"
  - "HPCdaligner"
  - "HPCmapper"
+ - "LAcat"
+ - "LAcheck"
+ - "LAmerge"
+ - "LAshow"
+ - "LAsort"
+ - "LAsplit"
+ - "Makefile"
+ - "Makefile.am"
+ - "Makefile.in"
  - "PBcR"
  - "SCFtoCTG"
  - "abyss-db-csv"
+ - "aclocal.bak"
  - "addCNSToStore"
  - "addReadsToUnitigs"
  - "analyzeBest"
@@ -26,8 +44,12 @@ aliases:
  - "asmOutputStatistics"
  - "asmToAGP.pl"
  - "atac.pl"
+ - "automake.bak"
  - "bam2sam"
+ - "bazel-scan.py"
  - "blasr"
+ - "bogart"
+ - "bogus"
  - "bogusness"
  - "buildPosMap"
  - "buildRefContigs"
@@ -71,6 +93,7 @@ aliases:
  - "cov_model_qmer.r"
  - "ctgcns"
  - "ctgvalidate"
+ - "daligner"
  - "dazcon"
  - "deduplicate"
  - "demotePosMap"
@@ -88,9 +111,13 @@ aliases:
  - "extractUnmapped"
  - "extract_fastqread"
  - "extractmessages"
+ - "fa2fq"
+ - "fa2fq.o"
  - "falcon-bench"
  - "falcon-print-routes"
  - "falcon_sense"
+ - "fasta2DAM"
+ - "fasta2DB"
  - "fastaToCA"
  - "fastatrans"
  - "fastqAnalyze"
@@ -105,10 +132,18 @@ aliases:
  - "filterNULL"
  - "filterOverlap"
  - "filterPolishes"
+ - "filter_blat"
+ - "filter_blat.o"
+ - "filter_contigs"
+ - "filter_contigs.o"
+ - "filterfa"
+ - "filterfa.o"
  - "filtertest"
  - "finalTrim"
  - "fixPolishesIID"
  - "fixUnitigs"
+ - "fq2fa"
+ - "fq2fa.o"
  - "fragmentDepth"
  - "fragsInVars"
  - "frgs2clones"
@@ -126,6 +161,16 @@ aliases:
  - "headPolishes"
  - "heavychains"
  - "hitConverter"
+ - "idba"
+ - "idba.o"
+ - "idba_hybrid"
+ - "idba_hybrid.o"
+ - "idba_tran"
+ - "idba_tran.o"
+ - "idba_tran_test"
+ - "idba_tran_test.o"
+ - "idba_ud"
+ - "idba_ud.o"
  - "initialTrim"
  - "kmer-mask"
  - "kmer_hist.r"
@@ -161,6 +206,7 @@ aliases:
  - "orte-top"
  - "outputLayout"
  - "overlap"
+ - "overlapInCore"
  - "overlapStats"
  - "overlapStore"
  - "overlapStoreBucketizer"
@@ -170,18 +216,29 @@ aliases:
  - "overlap_partition"
  - "overmerry"
  - "pacBioToCA"
+ - "parallel_blat"
+ - "parallel_blat.o"
+ - "parallel_rna_blat"
+ - "parallel_rna_blat.o"
  - "parseSNP"
  - "pbdagcon"
+ - "pbindex"
+ - "pbindexdump"
+ - "pbmerge"
  - "pbutgcns"
  - "pickBestPair"
  - "pickBestPolish"
  - "pickUniquePolish"
  - "plotCoverageVsIdentity"
  - "positionDB"
+ - "print_graph"
+ - "print_graph.o"
  - "projectFeatures"
  - "puncsamfile.sh"
  - "quake.py"
  - "quiva2DB"
+ - "raw_n50"
+ - "raw_n50.o"
  - "realignPolishes"
  - "removeDuplicate"
  - "removeMateOverlap"
@@ -193,6 +250,7 @@ aliases:
  - "resolveSurrogates"
  - "rewriteCache"
  - "rfheader"
+ - "run-unittest.py"
  - "runCA"
  - "runCA-dedupe"
  - "runCA-overlapStoreBuild"
@@ -206,15 +264,37 @@ aliases:
  - "runidba.py"
  - "runquake.py"
  - "runrfh.py"
+ - "sample_reads"
+ - "sample_reads.o"
+ - "scaffold"
+ - "scaffold.o"
+ - "scan.py"
  - "seagen"
  - "seatac"
  - "sffToCA"
  - "show-corrects"
+ - "shuffle_reads"
+ - "shuffle_reads.o"
  - "sim4db"
+ - "sim_reads"
+ - "sim_reads.o"
+ - "sim_reads_tran"
+ - "sim_reads_tran.o"
  - "simple"
+ - "simulator"
  - "sortHits"
  - "sortPolishes"
+ - "sort_psl"
+ - "sort_psl.o"
+ - "sort_reads"
+ - "sort_reads.o"
  - "splitUnitigs"
+ - "split_fa"
+ - "split_fa.o"
+ - "split_fq"
+ - "split_fq.o"
+ - "split_scaffold"
+ - "split_scaffold.o"
  - "statsGenerator"
  - "summarizePolishes"
  - "terminate"
@@ -222,6 +302,7 @@ aliases:
  - "test-merStream"
  - "test-seqCache"
  - "test-seqStream"
+ - "test.o"
  - "testAtac"
  - "tigStore"
  - "tracearchiveToCA"
@@ -234,22 +315,38 @@ aliases:
  - "upgrade-v8-to-v9"
  - "upgrade-v9-to-v10"
  - "utg2fasta"
+ - "utgcns"
  - "utgcnsfix"
+ - "validate_blat"
+ - "validate_blat_parallel"
+ - "validate_blat_parallel_local"
+ - "validate_blat_parallel_rna"
+ - "validate_component"
+ - "validate_component.o"
+ - "validate_contigs_blat"
+ - "validate_contigs_blat.o"
+ - "validate_contigs_mummer"
+ - "validate_contigs_mummer.o"
+ - "validate_mummer"
+ - "validate_reads_blat"
+ - "validate_reads_blat.o"
+ - "validate_rna"
+ - "validate_rna.o"
  - "vennPolishes"
+ - "abyss-bloom-dbg"
+ - "abyss-db-txt"
+ - "abyss-dida"
+ - "abyss-paired-dbg"
+ - "abyss-paired-dbg-mpi"
+ - "abyss-sealer"
  - "ABYSS"
  - "ABYSS-P"
  - "AdjList"
- - "Catrack"
  - "Consensus"
- - "DAM2fasta"
- - "DAssembler"
- - "DB2fasta"
- - "DBdust"
- - "DBrm"
 versions:
  - "1.0--py27_1"
 description: "shpc-registry automated BioContainers addition for intemap"
-config: {"url": "https://biocontainers.pro/tools/intemap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intemap", "latest": {"1.0--py27_1": "sha256:b411669a4b1289fc95833aae0cfdab2764cc9b0be9ae512837485fb93470b4e2"}, "tags": {"1.0--py27_1": "sha256:b411669a4b1289fc95833aae0cfdab2764cc9b0be9ae512837485fb93470b4e2"}, "docker": "quay.io/biocontainers/intemap", "aliases": {"AtacDriver.py": "/usr/local/bin/AtacDriver.py", "DB2quiva": "/usr/local/bin/DB2quiva", "ESTmapper.pl": "/usr/local/bin/ESTmapper.pl", "FilterCtgCov": "/usr/local/bin/FilterCtgCov", "HPCdaligner": "/usr/local/bin/HPCdaligner", "HPCmapper": "/usr/local/bin/HPCmapper", "PBcR": "/usr/local/bin/PBcR", "SCFtoCTG": "/usr/local/bin/SCFtoCTG", "abyss-db-csv": "/usr/local/bin/abyss-db-csv", "addCNSToStore": "/usr/local/bin/addCNSToStore", "addReadsToUnitigs": "/usr/local/bin/addReadsToUnitigs", "analyzeBest": "/usr/local/bin/analyzeBest", "analyzePosMap": "/usr/local/bin/analyzePosMap", "analyzeScaffolds": "/usr/local/bin/analyzeScaffolds", "asmOutputFasta": "/usr/local/bin/asmOutputFasta", "asmOutputStatistics": "/usr/local/bin/asmOutputStatistics", "asmToAGP.pl": "/usr/local/bin/asmToAGP.pl", "atac.pl": "/usr/local/bin/atac.pl", "bam2sam": "/usr/local/bin/bam2sam", "blasr": "/usr/local/bin/blasr", "bogusness": "/usr/local/bin/bogusness", "buildPosMap": "/usr/local/bin/buildPosMap", "buildRefContigs": "/usr/local/bin/buildRefContigs", "buildUnitigs": "/usr/local/bin/buildUnitigs", "build_bithash": "/usr/local/bin/build_bithash", "ca2ace.pl": "/usr/local/bin/ca2ace.pl", "caqc.pl": "/usr/local/bin/caqc.pl", "caqc_help.ini": "/usr/local/bin/caqc_help.ini", "cat-corrects": "/usr/local/bin/cat-corrects", "cat-erates": "/usr/local/bin/cat-erates", "cgw": "/usr/local/bin/cgw", "cgwDump": "/usr/local/bin/cgwDump", "chimChe": "/usr/local/bin/chimChe", "chimera": "/usr/local/bin/chimera", "classifyMates": "/usr/local/bin/classifyMates", "classifyMatesApply": "/usr/local/bin/classifyMatesApply", "classifyMatesPairwise": "/usr/local/bin/classifyMatesPairwise", "cleanAtac": "/usr/local/bin/cleanAtac", "cleanPolishes": "/usr/local/bin/cleanPolishes", "clumpMaker": "/usr/local/bin/clumpMaker", "coalesceMatches": "/usr/local/bin/coalesceMatches", "comparePolishes": "/usr/local/bin/comparePolishes", "computeCoverageStat": "/usr/local/bin/computeCoverageStat", "configureESTmapper.pl": "/usr/local/bin/configureESTmapper.pl", "convert-fasta-to-v2.pl": "/usr/local/bin/convert-fasta-to-v2.pl", "convertOverlap": "/usr/local/bin/convertOverlap", "convertPolishes": "/usr/local/bin/convertPolishes", "convertSamToCA": "/usr/local/bin/convertSamToCA", "convertToAtac": "/usr/local/bin/convertToAtac", "convertToExtent": "/usr/local/bin/convertToExtent", "convertToPBCNS": "/usr/local/bin/convertToPBCNS", "correct": "/usr/local/bin/correct", "correct-frags": "/usr/local/bin/correct-frags", "correct-olaps": "/usr/local/bin/correct-olaps", "correctGaps": "/usr/local/bin/correctGaps", "correctPacBio": "/usr/local/bin/correctPacBio", "count-kmers": "/usr/local/bin/count-kmers", "count-qmers": "/usr/local/bin/count-qmers", "cov_model.py": "/usr/local/bin/cov_model.py", "cov_model.r": "/usr/local/bin/cov_model.r", "cov_model_qmer.r": "/usr/local/bin/cov_model_qmer.r", "ctgcns": "/usr/local/bin/ctgcns", "ctgvalidate": "/usr/local/bin/ctgvalidate", "dazcon": "/usr/local/bin/dazcon", "deduplicate": "/usr/local/bin/deduplicate", "demotePosMap": "/usr/local/bin/demotePosMap", "depthOfPolishes": "/usr/local/bin/depthOfPolishes", "detectChimera": "/usr/local/bin/detectChimera", "dumpCloneMiddles": "/usr/local/bin/dumpCloneMiddles", "dumpPBRLayoutStore": "/usr/local/bin/dumpPBRLayoutStore", "dumpSingletons": "/usr/local/bin/dumpSingletons", "erate-estimate": "/usr/local/bin/erate-estimate", "estimate-mer-threshold": "/usr/local/bin/estimate-mer-threshold", "existDB": "/usr/local/bin/existDB", "extendClearRanges": "/usr/local/bin/extendClearRanges", "extendClearRangesPartition": "/usr/local/bin/extendClearRangesPartition", "extractSequence": "/usr/local/bin/extractSequence", "extractUnmapped": "/usr/local/bin/extractUnmapped", "extract_fastqread": "/usr/local/bin/extract_fastqread", "extractmessages": "/usr/local/bin/extractmessages", "falcon-bench": "/usr/local/bin/falcon-bench", "falcon-print-routes": "/usr/local/bin/falcon-print-routes", "falcon_sense": "/usr/local/bin/falcon_sense", "fastaToCA": "/usr/local/bin/fastaToCA", "fastatrans": "/usr/local/bin/fastatrans", "fastqAnalyze": "/usr/local/bin/fastqAnalyze", "fastqSample": "/usr/local/bin/fastqSample", "fastqSimulate": "/usr/local/bin/fastqSimulate", "fastqSimulate-sort": "/usr/local/bin/fastqSimulate-sort", "fastqToCA": "/usr/local/bin/fastqToCA", "fastqtofasta": "/usr/local/bin/fastqtofasta", "filterEST": "/usr/local/bin/filterEST", "filterESTsimple": "/usr/local/bin/filterESTsimple", "filterMRNA": "/usr/local/bin/filterMRNA", "filterNULL": "/usr/local/bin/filterNULL", "filterOverlap": "/usr/local/bin/filterOverlap", "filterPolishes": "/usr/local/bin/filterPolishes", "filtertest": "/usr/local/bin/filtertest", "finalTrim": "/usr/local/bin/finalTrim", "fixPolishesIID": "/usr/local/bin/fixPolishesIID", "fixUnitigs": "/usr/local/bin/fixUnitigs", "fragmentDepth": "/usr/local/bin/fragmentDepth", "fragsInVars": "/usr/local/bin/fragsInVars", "frgs2clones": "/usr/local/bin/frgs2clones", "gapShifter": "/usr/local/bin/gapShifter", "gatekeeper": "/usr/local/bin/gatekeeper", "gatekeeperbench": "/usr/local/bin/gatekeeperbench", "gkpStoreCreate": "/usr/local/bin/gkpStoreCreate", "gkpStoreDumpFASTQ": "/usr/local/bin/gkpStoreDumpFASTQ", "godnadiff_pairctg.sh": "/usr/local/bin/godnadiff_pairctg.sh", "gomapandfilter.sh": "/usr/local/bin/gomapandfilter.sh", "gomerge.sh": "/usr/local/bin/gomerge.sh", "greedyFragmentTiling": "/usr/local/bin/greedyFragmentTiling", "greedy_layout_to_IUM": "/usr/local/bin/greedy_layout_to_IUM", "happy-clones-span-clumps": "/usr/local/bin/happy-clones-span-clumps", "headPolishes": "/usr/local/bin/headPolishes", "heavychains": "/usr/local/bin/heavychains", "hitConverter": "/usr/local/bin/hitConverter", "initialTrim": "/usr/local/bin/initialTrim", "kmer-mask": "/usr/local/bin/kmer-mask", "kmer_hist.r": "/usr/local/bin/kmer_hist.r", "leaff": "/usr/local/bin/leaff", "lengthFilter": "/usr/local/bin/lengthFilter", "makeplot.pl": "/usr/local/bin/makeplot.pl", "mapMers": "/usr/local/bin/mapMers", "mapMers-depth": "/usr/local/bin/mapMers-depth", "mappedCoverage": "/usr/local/bin/mappedCoverage", "markRepeatUnique": "/usr/local/bin/markRepeatUnique", "markUniqueUnique": "/usr/local/bin/markUniqueUnique", "matchExtender": "/usr/local/bin/matchExtender", "merTrim": "/usr/local/bin/merTrim", "merTrimApply": "/usr/local/bin/merTrimApply", "mercy": "/usr/local/bin/mercy", "mergeCounts": "/usr/local/bin/mergeCounts", "mergePolishes": "/usr/local/bin/mergePolishes", "mergeassembly": "/usr/local/bin/mergeassembly", "mergefastq-p": "/usr/local/bin/mergefastq-p", "mergeprocess.sh": "/usr/local/bin/mergeprocess.sh", "mergeqc.pl": "/usr/local/bin/mergeqc.pl", "metagenomics_ovl_analyses": "/usr/local/bin/metagenomics_ovl_analyses", "mismatchCounter": "/usr/local/bin/mismatchCounter", "mt19937ar-test": "/usr/local/bin/mt19937ar-test", "olap-from-seeds": "/usr/local/bin/olap-from-seeds", "ompi-dvm": "/usr/local/bin/ompi-dvm", "ompi-ps": "/usr/local/bin/ompi-ps", "ompi-submit": "/usr/local/bin/ompi-submit", "ompi-top": "/usr/local/bin/ompi-top", "orte-dvm": "/usr/local/bin/orte-dvm", "orte-ps": "/usr/local/bin/orte-ps", "orte-submit": "/usr/local/bin/orte-submit", "orte-top": "/usr/local/bin/orte-top", "outputLayout": "/usr/local/bin/outputLayout", "overlap": "/usr/local/bin/overlap", "overlapStats": "/usr/local/bin/overlapStats", "overlapStore": "/usr/local/bin/overlapStore", "overlapStoreBucketizer": "/usr/local/bin/overlapStoreBucketizer", "overlapStoreBuild": "/usr/local/bin/overlapStoreBuild", "overlapStoreIndexer": "/usr/local/bin/overlapStoreIndexer", "overlapStoreSorter": "/usr/local/bin/overlapStoreSorter", "overlap_partition": "/usr/local/bin/overlap_partition", "overmerry": "/usr/local/bin/overmerry", "pacBioToCA": "/usr/local/bin/pacBioToCA", "parseSNP": "/usr/local/bin/parseSNP", "pbdagcon": "/usr/local/bin/pbdagcon", "pbutgcns": "/usr/local/bin/pbutgcns", "pickBestPair": "/usr/local/bin/pickBestPair", "pickBestPolish": "/usr/local/bin/pickBestPolish", "pickUniquePolish": "/usr/local/bin/pickUniquePolish", "plotCoverageVsIdentity": "/usr/local/bin/plotCoverageVsIdentity", "positionDB": "/usr/local/bin/positionDB", "projectFeatures": "/usr/local/bin/projectFeatures", "puncsamfile.sh": "/usr/local/bin/puncsamfile.sh", "quake.py": "/usr/local/bin/quake.py", "quiva2DB": "/usr/local/bin/quiva2DB", "realignPolishes": "/usr/local/bin/realignPolishes", "removeDuplicate": "/usr/local/bin/removeDuplicate", "removeMateOverlap": "/usr/local/bin/removeMateOverlap", "removeRedundant": "/usr/local/bin/removeRedundant", "remove_fragment": "/usr/local/bin/remove_fragment", "replaceUIDwithName-fastq": "/usr/local/bin/replaceUIDwithName-fastq", "replaceUIDwithName-posmap": "/usr/local/bin/replaceUIDwithName-posmap", "reportAlignmentDifferences": "/usr/local/bin/reportAlignmentDifferences", "resolveSurrogates": "/usr/local/bin/resolveSurrogates", "rewriteCache": "/usr/local/bin/rewriteCache", "rfheader": "/usr/local/bin/rfheader", "runCA": "/usr/local/bin/runCA", "runCA-dedupe": "/usr/local/bin/runCA-dedupe", "runCA-overlapStoreBuild": "/usr/local/bin/runCA-overlapStoreBuild", "runCA.bak": "/usr/local/bin/runCA.bak", "runConcurrently.pl": "/usr/local/bin/runConcurrently.pl", "runInteMAP.py": "/usr/local/bin/runInteMAP.py", "run_greedy.csh": "/usr/local/bin/run_greedy.csh", "runabyss.py": "/usr/local/bin/runabyss.py", "runcabog.py": "/usr/local/bin/runcabog.py", "runerrcor.py": "/usr/local/bin/runerrcor.py", "runidba.py": "/usr/local/bin/runidba.py", "runquake.py": "/usr/local/bin/runquake.py", "runrfh.py": "/usr/local/bin/runrfh.py", "seagen": "/usr/local/bin/seagen", "seatac": "/usr/local/bin/seatac", "sffToCA": "/usr/local/bin/sffToCA", "show-corrects": "/usr/local/bin/show-corrects", "sim4db": "/usr/local/bin/sim4db", "simple": "/usr/local/bin/simple", "sortHits": "/usr/local/bin/sortHits", "sortPolishes": "/usr/local/bin/sortPolishes", "splitUnitigs": "/usr/local/bin/splitUnitigs", "statsGenerator": "/usr/local/bin/statsGenerator", "summarizePolishes": "/usr/local/bin/summarizePolishes", "terminate": "/usr/local/bin/terminate", "terminator": "/usr/local/bin/terminator", "test-merStream": "/usr/local/bin/test-merStream", "test-seqCache": "/usr/local/bin/test-seqCache", "test-seqStream": "/usr/local/bin/test-seqStream", "testAtac": "/usr/local/bin/testAtac", "tigStore": "/usr/local/bin/tigStore", "tracearchiveToCA": "/usr/local/bin/tracearchiveToCA", "tracedb-to-frg.pl": "/usr/local/bin/tracedb-to-frg.pl", "trimFastqByQVWindow": "/usr/local/bin/trimFastqByQVWindow", "uidclient": "/usr/local/bin/uidclient", "uniqPolishes": "/usr/local/bin/uniqPolishes", "uniqueFilter": "/usr/local/bin/uniqueFilter", "unitigger": "/usr/local/bin/unitigger", "upgrade-v8-to-v9": "/usr/local/bin/upgrade-v8-to-v9", "upgrade-v9-to-v10": "/usr/local/bin/upgrade-v9-to-v10", "utg2fasta": "/usr/local/bin/utg2fasta", "utgcnsfix": "/usr/local/bin/utgcnsfix", "vennPolishes": "/usr/local/bin/vennPolishes", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Catrack": "/usr/local/bin/Catrack", "Consensus": "/usr/local/bin/Consensus", "DAM2fasta": "/usr/local/bin/DAM2fasta", "DAssembler": "/usr/local/bin/DAssembler", "DB2fasta": "/usr/local/bin/DB2fasta", "DBdust": "/usr/local/bin/DBdust", "DBrm": "/usr/local/bin/DBrm"}}
+config: {"url": "https://biocontainers.pro/tools/intemap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for intemap", "latest": {"1.0--py27_1": "sha256:b411669a4b1289fc95833aae0cfdab2764cc9b0be9ae512837485fb93470b4e2"}, "tags": {"1.0--py27_1": "sha256:b411669a4b1289fc95833aae0cfdab2764cc9b0be9ae512837485fb93470b4e2"}, "docker": "quay.io/biocontainers/intemap", "aliases": {"AtacDriver.py": "/usr/local/bin/AtacDriver.py", "Catrack": "/usr/local/bin/Catrack", "DAM2fasta": "/usr/local/bin/DAM2fasta", "DB2fasta": "/usr/local/bin/DB2fasta", "DB2quiva": "/usr/local/bin/DB2quiva", "DBdust": "/usr/local/bin/DBdust", "DBrm": "/usr/local/bin/DBrm", "DBshow": "/usr/local/bin/DBshow", "DBsplit": "/usr/local/bin/DBsplit", "DBstats": "/usr/local/bin/DBstats", "ESTmapper.pl": "/usr/local/bin/ESTmapper.pl", "FilterCtgCov": "/usr/local/bin/FilterCtgCov", "HPCdaligner": "/usr/local/bin/HPCdaligner", "HPCmapper": "/usr/local/bin/HPCmapper", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "Makefile": "/usr/local/bin/Makefile", "Makefile.am": "/usr/local/bin/Makefile.am", "Makefile.in": "/usr/local/bin/Makefile.in", "PBcR": "/usr/local/bin/PBcR", "SCFtoCTG": "/usr/local/bin/SCFtoCTG", "abyss-db-csv": "/usr/local/bin/abyss-db-csv", "aclocal.bak": "/usr/local/bin/aclocal.bak", "addCNSToStore": "/usr/local/bin/addCNSToStore", "addReadsToUnitigs": "/usr/local/bin/addReadsToUnitigs", "analyzeBest": "/usr/local/bin/analyzeBest", "analyzePosMap": "/usr/local/bin/analyzePosMap", "analyzeScaffolds": "/usr/local/bin/analyzeScaffolds", "asmOutputFasta": "/usr/local/bin/asmOutputFasta", "asmOutputStatistics": "/usr/local/bin/asmOutputStatistics", "asmToAGP.pl": "/usr/local/bin/asmToAGP.pl", "atac.pl": "/usr/local/bin/atac.pl", "automake.bak": "/usr/local/bin/automake.bak", "bam2sam": "/usr/local/bin/bam2sam", "bazel-scan.py": "/usr/local/bin/bazel-scan.py", "blasr": "/usr/local/bin/blasr", "bogart": "/usr/local/bin/bogart", "bogus": "/usr/local/bin/bogus", "bogusness": "/usr/local/bin/bogusness", "buildPosMap": "/usr/local/bin/buildPosMap", "buildRefContigs": "/usr/local/bin/buildRefContigs", "buildUnitigs": "/usr/local/bin/buildUnitigs", "build_bithash": "/usr/local/bin/build_bithash", "ca2ace.pl": "/usr/local/bin/ca2ace.pl", "caqc.pl": "/usr/local/bin/caqc.pl", "caqc_help.ini": "/usr/local/bin/caqc_help.ini", "cat-corrects": "/usr/local/bin/cat-corrects", "cat-erates": "/usr/local/bin/cat-erates", "cgw": "/usr/local/bin/cgw", "cgwDump": "/usr/local/bin/cgwDump", "chimChe": "/usr/local/bin/chimChe", "chimera": "/usr/local/bin/chimera", "classifyMates": "/usr/local/bin/classifyMates", "classifyMatesApply": "/usr/local/bin/classifyMatesApply", "classifyMatesPairwise": "/usr/local/bin/classifyMatesPairwise", "cleanAtac": "/usr/local/bin/cleanAtac", "cleanPolishes": "/usr/local/bin/cleanPolishes", "clumpMaker": "/usr/local/bin/clumpMaker", "coalesceMatches": "/usr/local/bin/coalesceMatches", "comparePolishes": "/usr/local/bin/comparePolishes", "computeCoverageStat": "/usr/local/bin/computeCoverageStat", "configureESTmapper.pl": "/usr/local/bin/configureESTmapper.pl", "convert-fasta-to-v2.pl": "/usr/local/bin/convert-fasta-to-v2.pl", "convertOverlap": "/usr/local/bin/convertOverlap", "convertPolishes": "/usr/local/bin/convertPolishes", "convertSamToCA": "/usr/local/bin/convertSamToCA", "convertToAtac": "/usr/local/bin/convertToAtac", "convertToExtent": "/usr/local/bin/convertToExtent", "convertToPBCNS": "/usr/local/bin/convertToPBCNS", "correct": "/usr/local/bin/correct", "correct-frags": "/usr/local/bin/correct-frags", "correct-olaps": "/usr/local/bin/correct-olaps", "correctGaps": "/usr/local/bin/correctGaps", "correctPacBio": "/usr/local/bin/correctPacBio", "count-kmers": "/usr/local/bin/count-kmers", "count-qmers": "/usr/local/bin/count-qmers", "cov_model.py": "/usr/local/bin/cov_model.py", "cov_model.r": "/usr/local/bin/cov_model.r", "cov_model_qmer.r": "/usr/local/bin/cov_model_qmer.r", "ctgcns": "/usr/local/bin/ctgcns", "ctgvalidate": "/usr/local/bin/ctgvalidate", "daligner": "/usr/local/bin/daligner", "dazcon": "/usr/local/bin/dazcon", "deduplicate": "/usr/local/bin/deduplicate", "demotePosMap": "/usr/local/bin/demotePosMap", "depthOfPolishes": "/usr/local/bin/depthOfPolishes", "detectChimera": "/usr/local/bin/detectChimera", "dumpCloneMiddles": "/usr/local/bin/dumpCloneMiddles", "dumpPBRLayoutStore": "/usr/local/bin/dumpPBRLayoutStore", "dumpSingletons": "/usr/local/bin/dumpSingletons", "erate-estimate": "/usr/local/bin/erate-estimate", "estimate-mer-threshold": "/usr/local/bin/estimate-mer-threshold", "existDB": "/usr/local/bin/existDB", "extendClearRanges": "/usr/local/bin/extendClearRanges", "extendClearRangesPartition": "/usr/local/bin/extendClearRangesPartition", "extractSequence": "/usr/local/bin/extractSequence", "extractUnmapped": "/usr/local/bin/extractUnmapped", "extract_fastqread": "/usr/local/bin/extract_fastqread", "extractmessages": "/usr/local/bin/extractmessages", "fa2fq": "/usr/local/bin/fa2fq", "fa2fq.o": "/usr/local/bin/fa2fq.o", "falcon-bench": "/usr/local/bin/falcon-bench", "falcon-print-routes": "/usr/local/bin/falcon-print-routes", "falcon_sense": "/usr/local/bin/falcon_sense", "fasta2DAM": "/usr/local/bin/fasta2DAM", "fasta2DB": "/usr/local/bin/fasta2DB", "fastaToCA": "/usr/local/bin/fastaToCA", "fastatrans": "/usr/local/bin/fastatrans", "fastqAnalyze": "/usr/local/bin/fastqAnalyze", "fastqSample": "/usr/local/bin/fastqSample", "fastqSimulate": "/usr/local/bin/fastqSimulate", "fastqSimulate-sort": "/usr/local/bin/fastqSimulate-sort", "fastqToCA": "/usr/local/bin/fastqToCA", "fastqtofasta": "/usr/local/bin/fastqtofasta", "filterEST": "/usr/local/bin/filterEST", "filterESTsimple": "/usr/local/bin/filterESTsimple", "filterMRNA": "/usr/local/bin/filterMRNA", "filterNULL": "/usr/local/bin/filterNULL", "filterOverlap": "/usr/local/bin/filterOverlap", "filterPolishes": "/usr/local/bin/filterPolishes", "filter_blat": "/usr/local/bin/filter_blat", "filter_blat.o": "/usr/local/bin/filter_blat.o", "filter_contigs": "/usr/local/bin/filter_contigs", "filter_contigs.o": "/usr/local/bin/filter_contigs.o", "filterfa": "/usr/local/bin/filterfa", "filterfa.o": "/usr/local/bin/filterfa.o", "filtertest": "/usr/local/bin/filtertest", "finalTrim": "/usr/local/bin/finalTrim", "fixPolishesIID": "/usr/local/bin/fixPolishesIID", "fixUnitigs": "/usr/local/bin/fixUnitigs", "fq2fa": "/usr/local/bin/fq2fa", "fq2fa.o": "/usr/local/bin/fq2fa.o", "fragmentDepth": "/usr/local/bin/fragmentDepth", "fragsInVars": "/usr/local/bin/fragsInVars", "frgs2clones": "/usr/local/bin/frgs2clones", "gapShifter": "/usr/local/bin/gapShifter", "gatekeeper": "/usr/local/bin/gatekeeper", "gatekeeperbench": "/usr/local/bin/gatekeeperbench", "gkpStoreCreate": "/usr/local/bin/gkpStoreCreate", "gkpStoreDumpFASTQ": "/usr/local/bin/gkpStoreDumpFASTQ", "godnadiff_pairctg.sh": "/usr/local/bin/godnadiff_pairctg.sh", "gomapandfilter.sh": "/usr/local/bin/gomapandfilter.sh", "gomerge.sh": "/usr/local/bin/gomerge.sh", "greedyFragmentTiling": "/usr/local/bin/greedyFragmentTiling", "greedy_layout_to_IUM": "/usr/local/bin/greedy_layout_to_IUM", "happy-clones-span-clumps": "/usr/local/bin/happy-clones-span-clumps", "headPolishes": "/usr/local/bin/headPolishes", "heavychains": "/usr/local/bin/heavychains", "hitConverter": "/usr/local/bin/hitConverter", "idba": "/usr/local/bin/idba", "idba.o": "/usr/local/bin/idba.o", "idba_hybrid": "/usr/local/bin/idba_hybrid", "idba_hybrid.o": "/usr/local/bin/idba_hybrid.o", "idba_tran": "/usr/local/bin/idba_tran", "idba_tran.o": "/usr/local/bin/idba_tran.o", "idba_tran_test": "/usr/local/bin/idba_tran_test", "idba_tran_test.o": "/usr/local/bin/idba_tran_test.o", "idba_ud": "/usr/local/bin/idba_ud", "idba_ud.o": "/usr/local/bin/idba_ud.o", "initialTrim": "/usr/local/bin/initialTrim", "kmer-mask": "/usr/local/bin/kmer-mask", "kmer_hist.r": "/usr/local/bin/kmer_hist.r", "leaff": "/usr/local/bin/leaff", "lengthFilter": "/usr/local/bin/lengthFilter", "makeplot.pl": "/usr/local/bin/makeplot.pl", "mapMers": "/usr/local/bin/mapMers", "mapMers-depth": "/usr/local/bin/mapMers-depth", "mappedCoverage": "/usr/local/bin/mappedCoverage", "markRepeatUnique": "/usr/local/bin/markRepeatUnique", "markUniqueUnique": "/usr/local/bin/markUniqueUnique", "matchExtender": "/usr/local/bin/matchExtender", "merTrim": "/usr/local/bin/merTrim", "merTrimApply": "/usr/local/bin/merTrimApply", "mercy": "/usr/local/bin/mercy", "mergeCounts": "/usr/local/bin/mergeCounts", "mergePolishes": "/usr/local/bin/mergePolishes", "mergeassembly": "/usr/local/bin/mergeassembly", "mergefastq-p": "/usr/local/bin/mergefastq-p", "mergeprocess.sh": "/usr/local/bin/mergeprocess.sh", "mergeqc.pl": "/usr/local/bin/mergeqc.pl", "metagenomics_ovl_analyses": "/usr/local/bin/metagenomics_ovl_analyses", "mismatchCounter": "/usr/local/bin/mismatchCounter", "mt19937ar-test": "/usr/local/bin/mt19937ar-test", "olap-from-seeds": "/usr/local/bin/olap-from-seeds", "ompi-dvm": "/usr/local/bin/ompi-dvm", "ompi-ps": "/usr/local/bin/ompi-ps", "ompi-submit": "/usr/local/bin/ompi-submit", "ompi-top": "/usr/local/bin/ompi-top", "orte-dvm": "/usr/local/bin/orte-dvm", "orte-ps": "/usr/local/bin/orte-ps", "orte-submit": "/usr/local/bin/orte-submit", "orte-top": "/usr/local/bin/orte-top", "outputLayout": "/usr/local/bin/outputLayout", "overlap": "/usr/local/bin/overlap", "overlapInCore": "/usr/local/bin/overlapInCore", "overlapStats": "/usr/local/bin/overlapStats", "overlapStore": "/usr/local/bin/overlapStore", "overlapStoreBucketizer": "/usr/local/bin/overlapStoreBucketizer", "overlapStoreBuild": "/usr/local/bin/overlapStoreBuild", "overlapStoreIndexer": "/usr/local/bin/overlapStoreIndexer", "overlapStoreSorter": "/usr/local/bin/overlapStoreSorter", "overlap_partition": "/usr/local/bin/overlap_partition", "overmerry": "/usr/local/bin/overmerry", "pacBioToCA": "/usr/local/bin/pacBioToCA", "parallel_blat": "/usr/local/bin/parallel_blat", "parallel_blat.o": "/usr/local/bin/parallel_blat.o", "parallel_rna_blat": "/usr/local/bin/parallel_rna_blat", "parallel_rna_blat.o": "/usr/local/bin/parallel_rna_blat.o", "parseSNP": "/usr/local/bin/parseSNP", "pbdagcon": "/usr/local/bin/pbdagcon", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "pbutgcns": "/usr/local/bin/pbutgcns", "pickBestPair": "/usr/local/bin/pickBestPair", "pickBestPolish": "/usr/local/bin/pickBestPolish", "pickUniquePolish": "/usr/local/bin/pickUniquePolish", "plotCoverageVsIdentity": "/usr/local/bin/plotCoverageVsIdentity", "positionDB": "/usr/local/bin/positionDB", "print_graph": "/usr/local/bin/print_graph", "print_graph.o": "/usr/local/bin/print_graph.o", "projectFeatures": "/usr/local/bin/projectFeatures", "puncsamfile.sh": "/usr/local/bin/puncsamfile.sh", "quake.py": "/usr/local/bin/quake.py", "quiva2DB": "/usr/local/bin/quiva2DB", "raw_n50": "/usr/local/bin/raw_n50", "raw_n50.o": "/usr/local/bin/raw_n50.o", "realignPolishes": "/usr/local/bin/realignPolishes", "removeDuplicate": "/usr/local/bin/removeDuplicate", "removeMateOverlap": "/usr/local/bin/removeMateOverlap", "removeRedundant": "/usr/local/bin/removeRedundant", "remove_fragment": "/usr/local/bin/remove_fragment", "replaceUIDwithName-fastq": "/usr/local/bin/replaceUIDwithName-fastq", "replaceUIDwithName-posmap": "/usr/local/bin/replaceUIDwithName-posmap", "reportAlignmentDifferences": "/usr/local/bin/reportAlignmentDifferences", "resolveSurrogates": "/usr/local/bin/resolveSurrogates", "rewriteCache": "/usr/local/bin/rewriteCache", "rfheader": "/usr/local/bin/rfheader", "run-unittest.py": "/usr/local/bin/run-unittest.py", "runCA": "/usr/local/bin/runCA", "runCA-dedupe": "/usr/local/bin/runCA-dedupe", "runCA-overlapStoreBuild": "/usr/local/bin/runCA-overlapStoreBuild", "runCA.bak": "/usr/local/bin/runCA.bak", "runConcurrently.pl": "/usr/local/bin/runConcurrently.pl", "runInteMAP.py": "/usr/local/bin/runInteMAP.py", "run_greedy.csh": "/usr/local/bin/run_greedy.csh", "runabyss.py": "/usr/local/bin/runabyss.py", "runcabog.py": "/usr/local/bin/runcabog.py", "runerrcor.py": "/usr/local/bin/runerrcor.py", "runidba.py": "/usr/local/bin/runidba.py", "runquake.py": "/usr/local/bin/runquake.py", "runrfh.py": "/usr/local/bin/runrfh.py", "sample_reads": "/usr/local/bin/sample_reads", "sample_reads.o": "/usr/local/bin/sample_reads.o", "scaffold": "/usr/local/bin/scaffold", "scaffold.o": "/usr/local/bin/scaffold.o", "scan.py": "/usr/local/bin/scan.py", "seagen": "/usr/local/bin/seagen", "seatac": "/usr/local/bin/seatac", "sffToCA": "/usr/local/bin/sffToCA", "show-corrects": "/usr/local/bin/show-corrects", "shuffle_reads": "/usr/local/bin/shuffle_reads", "shuffle_reads.o": "/usr/local/bin/shuffle_reads.o", "sim4db": "/usr/local/bin/sim4db", "sim_reads": "/usr/local/bin/sim_reads", "sim_reads.o": "/usr/local/bin/sim_reads.o", "sim_reads_tran": "/usr/local/bin/sim_reads_tran", "sim_reads_tran.o": "/usr/local/bin/sim_reads_tran.o", "simple": "/usr/local/bin/simple", "simulator": "/usr/local/bin/simulator", "sortHits": "/usr/local/bin/sortHits", "sortPolishes": "/usr/local/bin/sortPolishes", "sort_psl": "/usr/local/bin/sort_psl", "sort_psl.o": "/usr/local/bin/sort_psl.o", "sort_reads": "/usr/local/bin/sort_reads", "sort_reads.o": "/usr/local/bin/sort_reads.o", "splitUnitigs": "/usr/local/bin/splitUnitigs", "split_fa": "/usr/local/bin/split_fa", "split_fa.o": "/usr/local/bin/split_fa.o", "split_fq": "/usr/local/bin/split_fq", "split_fq.o": "/usr/local/bin/split_fq.o", "split_scaffold": "/usr/local/bin/split_scaffold", "split_scaffold.o": "/usr/local/bin/split_scaffold.o", "statsGenerator": "/usr/local/bin/statsGenerator", "summarizePolishes": "/usr/local/bin/summarizePolishes", "terminate": "/usr/local/bin/terminate", "terminator": "/usr/local/bin/terminator", "test-merStream": "/usr/local/bin/test-merStream", "test-seqCache": "/usr/local/bin/test-seqCache", "test-seqStream": "/usr/local/bin/test-seqStream", "test.o": "/usr/local/bin/test.o", "testAtac": "/usr/local/bin/testAtac", "tigStore": "/usr/local/bin/tigStore", "tracearchiveToCA": "/usr/local/bin/tracearchiveToCA", "tracedb-to-frg.pl": "/usr/local/bin/tracedb-to-frg.pl", "trimFastqByQVWindow": "/usr/local/bin/trimFastqByQVWindow", "uidclient": "/usr/local/bin/uidclient", "uniqPolishes": "/usr/local/bin/uniqPolishes", "uniqueFilter": "/usr/local/bin/uniqueFilter", "unitigger": "/usr/local/bin/unitigger", "upgrade-v8-to-v9": "/usr/local/bin/upgrade-v8-to-v9", "upgrade-v9-to-v10": "/usr/local/bin/upgrade-v9-to-v10", "utg2fasta": "/usr/local/bin/utg2fasta", "utgcns": "/usr/local/bin/utgcns", "utgcnsfix": "/usr/local/bin/utgcnsfix", "validate_blat": "/usr/local/bin/validate_blat", "validate_blat_parallel": "/usr/local/bin/validate_blat_parallel", "validate_blat_parallel_local": "/usr/local/bin/validate_blat_parallel_local", "validate_blat_parallel_rna": "/usr/local/bin/validate_blat_parallel_rna", "validate_component": "/usr/local/bin/validate_component", "validate_component.o": "/usr/local/bin/validate_component.o", "validate_contigs_blat": "/usr/local/bin/validate_contigs_blat", "validate_contigs_blat.o": "/usr/local/bin/validate_contigs_blat.o", "validate_contigs_mummer": "/usr/local/bin/validate_contigs_mummer", "validate_contigs_mummer.o": "/usr/local/bin/validate_contigs_mummer.o", "validate_mummer": "/usr/local/bin/validate_mummer", "validate_reads_blat": "/usr/local/bin/validate_reads_blat", "validate_reads_blat.o": "/usr/local/bin/validate_reads_blat.o", "validate_rna": "/usr/local/bin/validate_rna", "validate_rna.o": "/usr/local/bin/validate_rna.o", "vennPolishes": "/usr/local/bin/vennPolishes", "abyss-bloom-dbg": "/usr/local/bin/abyss-bloom-dbg", "abyss-db-txt": "/usr/local/bin/abyss-db-txt", "abyss-dida": "/usr/local/bin/abyss-dida", "abyss-paired-dbg": "/usr/local/bin/abyss-paired-dbg", "abyss-paired-dbg-mpi": "/usr/local/bin/abyss-paired-dbg-mpi", "abyss-sealer": "/usr/local/bin/abyss-sealer", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/intemap.
@@ -344,12 +441,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/AtacDriver.py   -v ${PWD} -w 
 ```
 
 
+#### Catrack
+
+```bash
+$ singularity exec <container> /usr/local/bin/Catrack
+$ podman run --it --rm --entrypoint /usr/local/bin/Catrack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Catrack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DAM2fasta
+
+```bash
+$ singularity exec <container> /usr/local/bin/DAM2fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/DAM2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DAM2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DB2fasta
+
+```bash
+$ singularity exec <container> /usr/local/bin/DB2fasta
+$ podman run --it --rm --entrypoint /usr/local/bin/DB2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DB2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### DB2quiva
 
 ```bash
 $ singularity exec <container> /usr/local/bin/DB2quiva
 $ podman run --it --rm --entrypoint /usr/local/bin/DB2quiva   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/DB2quiva   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DBdust
+
+```bash
+$ singularity exec <container> /usr/local/bin/DBdust
+$ podman run --it --rm --entrypoint /usr/local/bin/DBdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DBdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DBrm
+
+```bash
+$ singularity exec <container> /usr/local/bin/DBrm
+$ podman run --it --rm --entrypoint /usr/local/bin/DBrm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DBrm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DBshow
+
+```bash
+$ singularity exec <container> /usr/local/bin/DBshow
+$ podman run --it --rm --entrypoint /usr/local/bin/DBshow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DBshow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DBsplit
+
+```bash
+$ singularity exec <container> /usr/local/bin/DBsplit
+$ podman run --it --rm --entrypoint /usr/local/bin/DBsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DBsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DBstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/DBstats
+$ podman run --it --rm --entrypoint /usr/local/bin/DBstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DBstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -389,6 +558,87 @@ $ docker run --it --rm --entrypoint /usr/local/bin/HPCmapper   -v ${PWD} -w ${PW
 ```
 
 
+#### LAcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAcat
+$ podman run --it --rm --entrypoint /usr/local/bin/LAcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### LAcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/LAcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### LAmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/LAmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### LAshow
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAshow
+$ podman run --it --rm --entrypoint /usr/local/bin/LAshow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAshow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### LAsort
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAsort
+$ podman run --it --rm --entrypoint /usr/local/bin/LAsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAsort   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### LAsplit
+
+```bash
+$ singularity exec <container> /usr/local/bin/LAsplit
+$ podman run --it --rm --entrypoint /usr/local/bin/LAsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/LAsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Makefile
+
+```bash
+$ singularity exec <container> /usr/local/bin/Makefile
+$ podman run --it --rm --entrypoint /usr/local/bin/Makefile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Makefile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Makefile.am
+
+```bash
+$ singularity exec <container> /usr/local/bin/Makefile.am
+$ podman run --it --rm --entrypoint /usr/local/bin/Makefile.am   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Makefile.am   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Makefile.in
+
+```bash
+$ singularity exec <container> /usr/local/bin/Makefile.in
+$ podman run --it --rm --entrypoint /usr/local/bin/Makefile.in   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Makefile.in   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### PBcR
 
 ```bash
@@ -413,6 +663,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/SCFtoCTG   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/abyss-db-csv
 $ podman run --it --rm --entrypoint /usr/local/bin/abyss-db-csv   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/abyss-db-csv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aclocal.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/aclocal.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/aclocal.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aclocal.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -497,6 +756,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/atac.pl   -v ${PWD} -w ${PWD}
 ```
 
 
+#### automake.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/automake.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/automake.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/automake.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### bam2sam
 
 ```bash
@@ -506,12 +774,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam2sam   -v ${PWD} -w ${PWD}
 ```
 
 
+#### bazel-scan.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bazel-scan.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bazel-scan.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bazel-scan.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### blasr
 
 ```bash
 $ singularity exec <container> /usr/local/bin/blasr
 $ podman run --it --rm --entrypoint /usr/local/bin/blasr   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/blasr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bogart
+
+```bash
+$ singularity exec <container> /usr/local/bin/bogart
+$ podman run --it --rm --entrypoint /usr/local/bin/bogart   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bogart   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bogus
+
+```bash
+$ singularity exec <container> /usr/local/bin/bogus
+$ podman run --it --rm --entrypoint /usr/local/bin/bogus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bogus   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -902,6 +1197,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ctgvalidate   -v ${PWD} -w ${
 ```
 
 
+#### daligner
+
+```bash
+$ singularity exec <container> /usr/local/bin/daligner
+$ podman run --it --rm --entrypoint /usr/local/bin/daligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/daligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dazcon
 
 ```bash
@@ -1055,6 +1359,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extractmessages   -v ${PWD} -
 ```
 
 
+#### fa2fq
+
+```bash
+$ singularity exec <container> /usr/local/bin/fa2fq
+$ podman run --it --rm --entrypoint /usr/local/bin/fa2fq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fa2fq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fa2fq.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/fa2fq.o
+$ podman run --it --rm --entrypoint /usr/local/bin/fa2fq.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fa2fq.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### falcon-bench
 
 ```bash
@@ -1079,6 +1401,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/falcon-print-routes   -v ${PW
 $ singularity exec <container> /usr/local/bin/falcon_sense
 $ podman run --it --rm --entrypoint /usr/local/bin/falcon_sense   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/falcon_sense   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta2DAM
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta2DAM
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta2DAM   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta2DAM   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta2DB
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta2DB
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta2DB   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta2DB   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1208,6 +1548,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/filterPolishes   -v ${PWD} -w
 ```
 
 
+#### filter_blat
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter_blat
+$ podman run --it --rm --entrypoint /usr/local/bin/filter_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filter_blat.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter_blat.o
+$ podman run --it --rm --entrypoint /usr/local/bin/filter_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filter_contigs
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter_contigs
+$ podman run --it --rm --entrypoint /usr/local/bin/filter_contigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter_contigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filter_contigs.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/filter_contigs.o
+$ podman run --it --rm --entrypoint /usr/local/bin/filter_contigs.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filter_contigs.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filterfa
+
+```bash
+$ singularity exec <container> /usr/local/bin/filterfa
+$ podman run --it --rm --entrypoint /usr/local/bin/filterfa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filterfa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### filterfa.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/filterfa.o
+$ podman run --it --rm --entrypoint /usr/local/bin/filterfa.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/filterfa.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### filtertest
 
 ```bash
@@ -1241,6 +1635,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fixPolishesIID   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/fixUnitigs
 $ podman run --it --rm --entrypoint /usr/local/bin/fixUnitigs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fixUnitigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fq2fa
+
+```bash
+$ singularity exec <container> /usr/local/bin/fq2fa
+$ podman run --it --rm --entrypoint /usr/local/bin/fq2fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fq2fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fq2fa.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/fq2fa.o
+$ podman run --it --rm --entrypoint /usr/local/bin/fq2fa.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fq2fa.o   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1394,6 +1806,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/heavychains   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/hitConverter
 $ podman run --it --rm --entrypoint /usr/local/bin/hitConverter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hitConverter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba
+$ podman run --it --rm --entrypoint /usr/local/bin/idba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba.o
+$ podman run --it --rm --entrypoint /usr/local/bin/idba.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_hybrid
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_hybrid
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_hybrid   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_hybrid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_hybrid.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_hybrid.o
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_hybrid.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_hybrid.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_tran
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_tran
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_tran   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_tran   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_tran.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_tran.o
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_tran.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_tran.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_tran_test
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_tran_test
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_tran_test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_tran_test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_tran_test.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_tran_test.o
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_tran_test.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_tran_test.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_ud
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_ud
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_ud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_ud   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idba_ud.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/idba_ud.o
+$ podman run --it --rm --entrypoint /usr/local/bin/idba_ud.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idba_ud.o   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1712,6 +2214,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/overlap   -v ${PWD} -w ${PWD}
 ```
 
 
+#### overlapInCore
+
+```bash
+$ singularity exec <container> /usr/local/bin/overlapInCore
+$ podman run --it --rm --entrypoint /usr/local/bin/overlapInCore   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/overlapInCore   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### overlapStats
 
 ```bash
@@ -1793,6 +2304,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pacBioToCA   -v ${PWD} -w ${P
 ```
 
 
+#### parallel_blat
+
+```bash
+$ singularity exec <container> /usr/local/bin/parallel_blat
+$ podman run --it --rm --entrypoint /usr/local/bin/parallel_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parallel_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### parallel_blat.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/parallel_blat.o
+$ podman run --it --rm --entrypoint /usr/local/bin/parallel_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parallel_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### parallel_rna_blat
+
+```bash
+$ singularity exec <container> /usr/local/bin/parallel_rna_blat
+$ podman run --it --rm --entrypoint /usr/local/bin/parallel_rna_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parallel_rna_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### parallel_rna_blat.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/parallel_rna_blat.o
+$ podman run --it --rm --entrypoint /usr/local/bin/parallel_rna_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/parallel_rna_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### parseSNP
 
 ```bash
@@ -1808,6 +2355,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/parseSNP   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/pbdagcon
 $ podman run --it --rm --entrypoint /usr/local/bin/pbdagcon   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pbdagcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbindex
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbindex
+$ podman run --it --rm --entrypoint /usr/local/bin/pbindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbindexdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbindexdump
+$ podman run --it --rm --entrypoint /usr/local/bin/pbindexdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbindexdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pbmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1865,6 +2439,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/positionDB   -v ${PWD} -w ${P
 ```
 
 
+#### print_graph
+
+```bash
+$ singularity exec <container> /usr/local/bin/print_graph
+$ podman run --it --rm --entrypoint /usr/local/bin/print_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/print_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### print_graph.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/print_graph.o
+$ podman run --it --rm --entrypoint /usr/local/bin/print_graph.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/print_graph.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### projectFeatures
 
 ```bash
@@ -1898,6 +2490,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/quake.py   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/quiva2DB
 $ podman run --it --rm --entrypoint /usr/local/bin/quiva2DB   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/quiva2DB   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raw_n50
+
+```bash
+$ singularity exec <container> /usr/local/bin/raw_n50
+$ podman run --it --rm --entrypoint /usr/local/bin/raw_n50   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raw_n50   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### raw_n50.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/raw_n50.o
+$ podman run --it --rm --entrypoint /usr/local/bin/raw_n50.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/raw_n50.o   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1997,6 +2607,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rewriteCache   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/rfheader
 $ podman run --it --rm --entrypoint /usr/local/bin/rfheader   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rfheader   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run-unittest.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/run-unittest.py
+$ podman run --it --rm --entrypoint /usr/local/bin/run-unittest.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-unittest.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -2117,6 +2736,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/runrfh.py   -v ${PWD} -w ${PW
 ```
 
 
+#### sample_reads
+
+```bash
+$ singularity exec <container> /usr/local/bin/sample_reads
+$ podman run --it --rm --entrypoint /usr/local/bin/sample_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sample_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sample_reads.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/sample_reads.o
+$ podman run --it --rm --entrypoint /usr/local/bin/sample_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sample_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scaffold
+
+```bash
+$ singularity exec <container> /usr/local/bin/scaffold
+$ podman run --it --rm --entrypoint /usr/local/bin/scaffold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scaffold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scaffold.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/scaffold.o
+$ podman run --it --rm --entrypoint /usr/local/bin/scaffold.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scaffold.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### scan.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/scan.py
+$ podman run --it --rm --entrypoint /usr/local/bin/scan.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scan.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### seagen
 
 ```bash
@@ -2153,6 +2817,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/show-corrects   -v ${PWD} -w 
 ```
 
 
+#### shuffle_reads
+
+```bash
+$ singularity exec <container> /usr/local/bin/shuffle_reads
+$ podman run --it --rm --entrypoint /usr/local/bin/shuffle_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shuffle_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### shuffle_reads.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/shuffle_reads.o
+$ podman run --it --rm --entrypoint /usr/local/bin/shuffle_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/shuffle_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### sim4db
 
 ```bash
@@ -2162,12 +2844,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sim4db   -v ${PWD} -w ${PWD} 
 ```
 
 
+#### sim_reads
+
+```bash
+$ singularity exec <container> /usr/local/bin/sim_reads
+$ podman run --it --rm --entrypoint /usr/local/bin/sim_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sim_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sim_reads.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/sim_reads.o
+$ podman run --it --rm --entrypoint /usr/local/bin/sim_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sim_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sim_reads_tran
+
+```bash
+$ singularity exec <container> /usr/local/bin/sim_reads_tran
+$ podman run --it --rm --entrypoint /usr/local/bin/sim_reads_tran   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sim_reads_tran   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sim_reads_tran.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/sim_reads_tran.o
+$ podman run --it --rm --entrypoint /usr/local/bin/sim_reads_tran.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sim_reads_tran.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### simple
 
 ```bash
 $ singularity exec <container> /usr/local/bin/simple
 $ podman run --it --rm --entrypoint /usr/local/bin/simple   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/simple   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### simulator
+
+```bash
+$ singularity exec <container> /usr/local/bin/simulator
+$ podman run --it --rm --entrypoint /usr/local/bin/simulator   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/simulator   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -2189,12 +2916,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sortPolishes   -v ${PWD} -w $
 ```
 
 
+#### sort_psl
+
+```bash
+$ singularity exec <container> /usr/local/bin/sort_psl
+$ podman run --it --rm --entrypoint /usr/local/bin/sort_psl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sort_psl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sort_psl.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/sort_psl.o
+$ podman run --it --rm --entrypoint /usr/local/bin/sort_psl.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sort_psl.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sort_reads
+
+```bash
+$ singularity exec <container> /usr/local/bin/sort_reads
+$ podman run --it --rm --entrypoint /usr/local/bin/sort_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sort_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sort_reads.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/sort_reads.o
+$ podman run --it --rm --entrypoint /usr/local/bin/sort_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sort_reads.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### splitUnitigs
 
 ```bash
 $ singularity exec <container> /usr/local/bin/splitUnitigs
 $ podman run --it --rm --entrypoint /usr/local/bin/splitUnitigs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/splitUnitigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### split_fa
+
+```bash
+$ singularity exec <container> /usr/local/bin/split_fa
+$ podman run --it --rm --entrypoint /usr/local/bin/split_fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/split_fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### split_fa.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/split_fa.o
+$ podman run --it --rm --entrypoint /usr/local/bin/split_fa.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/split_fa.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### split_fq
+
+```bash
+$ singularity exec <container> /usr/local/bin/split_fq
+$ podman run --it --rm --entrypoint /usr/local/bin/split_fq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/split_fq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### split_fq.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/split_fq.o
+$ podman run --it --rm --entrypoint /usr/local/bin/split_fq.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/split_fq.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### split_scaffold
+
+```bash
+$ singularity exec <container> /usr/local/bin/split_scaffold
+$ podman run --it --rm --entrypoint /usr/local/bin/split_scaffold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/split_scaffold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### split_scaffold.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/split_scaffold.o
+$ podman run --it --rm --entrypoint /usr/local/bin/split_scaffold.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/split_scaffold.o   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -2258,6 +3075,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/test-seqCache   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/test-seqStream
 $ podman run --it --rm --entrypoint /usr/local/bin/test-seqStream   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/test-seqStream   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### test.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/test.o
+$ podman run --it --rm --entrypoint /usr/local/bin/test.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test.o   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -2369,6 +3195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/utg2fasta   -v ${PWD} -w ${PW
 ```
 
 
+#### utgcns
+
+```bash
+$ singularity exec <container> /usr/local/bin/utgcns
+$ podman run --it --rm --entrypoint /usr/local/bin/utgcns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/utgcns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### utgcnsfix
 
 ```bash
@@ -2378,12 +3213,201 @@ $ docker run --it --rm --entrypoint /usr/local/bin/utgcnsfix   -v ${PWD} -w ${PW
 ```
 
 
+#### validate_blat
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_blat
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_blat_parallel
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_blat_parallel
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_blat_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_blat_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_blat_parallel_local
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_blat_parallel_local
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_blat_parallel_local   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_blat_parallel_local   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_blat_parallel_rna
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_blat_parallel_rna
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_blat_parallel_rna   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_blat_parallel_rna   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_component
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_component
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_component   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_component   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_component.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_component.o
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_component.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_component.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_contigs_blat
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_contigs_blat
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_contigs_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_contigs_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_contigs_blat.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_contigs_blat.o
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_contigs_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_contigs_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_contigs_mummer
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_contigs_mummer
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_contigs_mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_contigs_mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_contigs_mummer.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_contigs_mummer.o
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_contigs_mummer.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_contigs_mummer.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_mummer
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_mummer
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_reads_blat
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_reads_blat
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_reads_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_reads_blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_reads_blat.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_reads_blat.o
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_reads_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_reads_blat.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_rna
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_rna
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_rna   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_rna   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### validate_rna.o
+
+```bash
+$ singularity exec <container> /usr/local/bin/validate_rna.o
+$ podman run --it --rm --entrypoint /usr/local/bin/validate_rna.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/validate_rna.o   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### vennPolishes
 
 ```bash
 $ singularity exec <container> /usr/local/bin/vennPolishes
 $ podman run --it --rm --entrypoint /usr/local/bin/vennPolishes   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vennPolishes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-bloom-dbg
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-bloom-dbg
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-bloom-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-bloom-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-db-txt
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-db-txt
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-db-txt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-db-txt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-dida
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-dida
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-dida   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-dida   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-paired-dbg
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-paired-dbg
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-paired-dbg-mpi
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-paired-dbg-mpi
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg-mpi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-paired-dbg-mpi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abyss-sealer
+
+```bash
+$ singularity exec <container> /usr/local/bin/abyss-sealer
+$ podman run --it --rm --entrypoint /usr/local/bin/abyss-sealer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abyss-sealer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -2414,66 +3438,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD}
 ```
 
 
-#### Catrack
-
-```bash
-$ singularity exec <container> /usr/local/bin/Catrack
-$ podman run --it --rm --entrypoint /usr/local/bin/Catrack   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Catrack   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### Consensus
 
 ```bash
 $ singularity exec <container> /usr/local/bin/Consensus
 $ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DAM2fasta
-
-```bash
-$ singularity exec <container> /usr/local/bin/DAM2fasta
-$ podman run --it --rm --entrypoint /usr/local/bin/DAM2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DAM2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DAssembler
-
-```bash
-$ singularity exec <container> /usr/local/bin/DAssembler
-$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DB2fasta
-
-```bash
-$ singularity exec <container> /usr/local/bin/DB2fasta
-$ podman run --it --rm --entrypoint /usr/local/bin/DB2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DB2fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DBdust
-
-```bash
-$ singularity exec <container> /usr/local/bin/DBdust
-$ podman run --it --rm --entrypoint /usr/local/bin/DBdust   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DBdust   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DBrm
-
-```bash
-$ singularity exec <container> /usr/local/bin/DBrm
-$ podman run --it --rm --entrypoint /usr/local/bin/DBrm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DBrm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

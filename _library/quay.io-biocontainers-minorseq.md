@@ -4,10 +4,11 @@ name:  "quay.io/biocontainers/minorseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/minorseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/minorseq/container.yaml"
-updated_at: "2022-10-29 05:43:07.554383"
+updated_at: "2022-10-29 07:45:28.651251"
 latest: "1.12.0--0"
 container_url: "https://biocontainers.pro/tools/minorseq"
 aliases:
+ - ".minorseq-post-link.sh"
  - "ccs"
  - "ccs-alt"
  - "cleric"
@@ -17,19 +18,19 @@ aliases:
  - "mixdata"
  - "pbmm2"
  - "ace2sam"
- - "bgzip"
  - "blast2sam.pl"
  - "bowtie2sam.pl"
  - "export2sam.pl"
- - "htsfile"
  - "interpolate_sam.pl"
  - "maq2sam-long"
  - "maq2sam-short"
  - "md5fa"
+ - "md5sum-lite"
+ - "plot-bamstats"
 versions:
  - "1.12.0--0"
 description: "shpc-registry automated BioContainers addition for minorseq"
-config: {"url": "https://biocontainers.pro/tools/minorseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minorseq", "latest": {"1.12.0--0": "sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8"}, "tags": {"1.12.0--0": "sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8"}, "docker": "quay.io/biocontainers/minorseq", "aliases": {"ccs": "/usr/local/bin/ccs", "ccs-alt": "/usr/local/bin/ccs-alt", "cleric": "/usr/local/bin/cleric", "fuse": "/usr/local/bin/fuse", "juliet": "/usr/local/bin/juliet", "julietflow": "/usr/local/bin/julietflow", "mixdata": "/usr/local/bin/mixdata", "pbmm2": "/usr/local/bin/pbmm2", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/minorseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for minorseq", "latest": {"1.12.0--0": "sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8"}, "tags": {"1.12.0--0": "sha256:573b3de3d90fea8c71c5754e51dcb3845c675bf7d9cbe3856cadf68dd40321f8"}, "docker": "quay.io/biocontainers/minorseq", "aliases": {".minorseq-post-link.sh": "/usr/local/bin/.minorseq-post-link.sh", "ccs": "/usr/local/bin/ccs", "ccs-alt": "/usr/local/bin/ccs-alt", "cleric": "/usr/local/bin/cleric", "fuse": "/usr/local/bin/fuse", "juliet": "/usr/local/bin/juliet", "julietflow": "/usr/local/bin/julietflow", "mixdata": "/usr/local/bin/mixdata", "pbmm2": "/usr/local/bin/pbmm2", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa", "md5sum-lite": "/usr/local/bin/md5sum-lite", "plot-bamstats": "/usr/local/bin/plot-bamstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/minorseq.
@@ -115,6 +116,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .minorseq-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.minorseq-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.minorseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.minorseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ccs
 
 ```bash
@@ -196,15 +206,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD}
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### blast2sam.pl
 
 ```bash
@@ -229,15 +230,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/export2sam.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### htsfile
-
-```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -274,6 +266,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/md5fa
 $ podman run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### md5sum-lite
+
+```bash
+$ singularity exec <container> /usr/local/bin/md5sum-lite
+$ podman run --it --rm --entrypoint /usr/local/bin/md5sum-lite   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/md5sum-lite   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-bamstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-bamstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-bamstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

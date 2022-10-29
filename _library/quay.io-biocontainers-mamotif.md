@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/mamotif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mamotif/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mamotif/container.yaml"
-updated_at: "2022-10-29 05:52:18.103025"
+updated_at: "2022-10-29 07:52:14.431505"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/mamotif"
 aliases:
  - "mamotif"
  - "manorm"
  - "motifscan"
- - "2to3-3.7"
- - "chardetect"
+ - "tqdm"
  - "f2py3.7"
+ - "chardetect"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
  - "python3.7-config"
  - "python3.7m"
  - "python3.7m-config"
- - "pyvenv-3.7"
 versions:
  - "1.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for mamotif"
-config: {"url": "https://biocontainers.pro/tools/mamotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mamotif", "latest": {"1.1.0--py_0": "sha256:b61b333d72d63acc758302652c941aa0cce2c40c3c4ab161aa88e748a3b93d2d"}, "tags": {"1.1.0--py_0": "sha256:b61b333d72d63acc758302652c941aa0cce2c40c3c4ab161aa88e748a3b93d2d"}, "docker": "quay.io/biocontainers/mamotif", "aliases": {"mamotif": "/usr/local/bin/mamotif", "manorm": "/usr/local/bin/manorm", "motifscan": "/usr/local/bin/motifscan", "2to3-3.7": "/usr/local/bin/2to3-3.7", "chardetect": "/usr/local/bin/chardetect", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/mamotif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mamotif", "latest": {"1.1.0--py_0": "sha256:b61b333d72d63acc758302652c941aa0cce2c40c3c4ab161aa88e748a3b93d2d"}, "tags": {"1.1.0--py_0": "sha256:b61b333d72d63acc758302652c941aa0cce2c40c3c4ab161aa88e748a3b93d2d"}, "docker": "quay.io/biocontainers/mamotif", "aliases": {"mamotif": "/usr/local/bin/mamotif", "manorm": "/usr/local/bin/manorm", "motifscan": "/usr/local/bin/motifscan", "tqdm": "/usr/local/bin/tqdm", "f2py3.7": "/usr/local/bin/f2py3.7", "chardetect": "/usr/local/bin/chardetect", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mamotif.
@@ -137,12 +137,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/motifscan   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.7
+#### tqdm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -155,12 +164,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${P
 ```
 
 
-#### f2py3.7
+#### 2to3-3.7
 
 ```bash
-$ singularity exec <container> /usr/local/bin/f2py3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -215,15 +224,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.7m-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pyvenv-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/pyvenv-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

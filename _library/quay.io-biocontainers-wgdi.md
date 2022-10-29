@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wgdi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgdi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wgdi/container.yaml"
-updated_at: "2022-10-29 05:54:27.424497"
+updated_at: "2022-10-29 07:53:48.817827"
 latest: "0.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/wgdi"
 aliases:
@@ -12,20 +12,20 @@ aliases:
  - "iqtree2"
  - "pal2nal.pl"
  - "wgdi"
- - "2to3-3.10"
- - "FastTree"
+ - "readal"
+ - "statal"
+ - "trimal"
+ - "iqtree"
  - "FastTreeMP"
+ - "muscle"
+ - "FastTree"
+ - "fasttree"
  - "baseml"
  - "basemlg"
- - "brotli"
- - "chi2"
- - "codeml"
- - "einsi"
- - "evolver"
 versions:
  - "0.6.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for wgdi"
-config: {"url": "https://biocontainers.pro/tools/wgdi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgdi", "latest": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf"}, "docker": "quay.io/biocontainers/wgdi", "aliases": {"divvier": "/usr/local/bin/divvier", "iqtree2": "/usr/local/bin/iqtree2", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "wgdi": "/usr/local/bin/wgdi", "2to3-3.10": "/usr/local/bin/2to3-3.10", "FastTree": "/usr/local/bin/FastTree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "brotli": "/usr/local/bin/brotli", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "einsi": "/usr/local/bin/einsi", "evolver": "/usr/local/bin/evolver"}}
+config: {"url": "https://biocontainers.pro/tools/wgdi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgdi", "latest": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:323c2e9fed19e2b6fd9665b68495a900e8606906ddf412e13dd415196d8c0abf"}, "docker": "quay.io/biocontainers/wgdi", "aliases": {"divvier": "/usr/local/bin/divvier", "iqtree2": "/usr/local/bin/iqtree2", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "wgdi": "/usr/local/bin/wgdi", "readal": "/usr/local/bin/readal", "statal": "/usr/local/bin/statal", "trimal": "/usr/local/bin/trimal", "iqtree": "/usr/local/bin/iqtree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "muscle": "/usr/local/bin/muscle", "FastTree": "/usr/local/bin/FastTree", "fasttree": "/usr/local/bin/fasttree", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgdi.
@@ -147,12 +147,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wgdi   -v ${PWD} -w ${PWD} <c
 ```
 
 
-#### 2to3-3.10
+#### readal
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/readal
+$ podman run --it --rm --entrypoint /usr/local/bin/readal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/readal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### statal
+
+```bash
+$ singularity exec <container> /usr/local/bin/statal
+$ podman run --it --rm --entrypoint /usr/local/bin/statal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/statal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### trimal
+
+```bash
+$ singularity exec <container> /usr/local/bin/trimal
+$ podman run --it --rm --entrypoint /usr/local/bin/trimal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trimal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### iqtree
+
+```bash
+$ singularity exec <container> /usr/local/bin/iqtree
+$ podman run --it --rm --entrypoint /usr/local/bin/iqtree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iqtree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTreeMP
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTreeMP
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### muscle
+
+```bash
+$ singularity exec <container> /usr/local/bin/muscle
+$ podman run --it --rm --entrypoint /usr/local/bin/muscle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/muscle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -165,12 +210,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD
 ```
 
 
-#### FastTreeMP
+#### fasttree
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fasttree
+$ podman run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasttree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -189,51 +234,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/basemlg
 $ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chi2
-
-```bash
-$ singularity exec <container> /usr/local/bin/chi2
-$ podman run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chi2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### codeml
-
-```bash
-$ singularity exec <container> /usr/local/bin/codeml
-$ podman run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/codeml   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### einsi
-
-```bash
-$ singularity exec <container> /usr/local/bin/einsi
-$ podman run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### evolver
-
-```bash
-$ singularity exec <container> /usr/local/bin/evolver
-$ podman run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/evolver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

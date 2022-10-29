@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pirate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pirate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pirate/container.yaml"
-updated_at: "2022-10-29 05:41:53.152643"
+updated_at: "2022-10-29 07:44:32.540052"
 latest: "1.0.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pirate"
 aliases:
@@ -23,20 +23,20 @@ aliases:
  - "subsample_outputs.pl"
  - "subset_alignments.pl"
  - "unique_sequences.pl"
- - "2to3-3.7"
- - "FET.pl"
- - "FastTree"
- - "FastTreeMP"
- - "accn-at-a-time"
- - "align-columns"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asn2xml"
- - "bamToGBrowse.pl"
+ - "clm"
+ - "clmformat"
+ - "clxdo"
+ - "mcl"
+ - "mclblastline"
+ - "mclcm"
+ - "mclpipeline"
+ - "mcx"
+ - "mcxarray"
+ - "mcxassemble"
 versions:
  - "1.0.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pirate"
-config: {"url": "https://biocontainers.pro/tools/pirate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pirate", "latest": {"1.0.5--hdfd78af_0": "sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0"}, "tags": {"1.0.5--hdfd78af_0": "sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0"}, "docker": "quay.io/biocontainers/pirate", "aliases": {"PIRATE": "/usr/local/bin/PIRATE", "PIRATE_to_Rtab.pl": "/usr/local/bin/PIRATE_to_Rtab.pl", "PIRATE_to_roary.pl": "/usr/local/bin/PIRATE_to_roary.pl", "analyse_blast_outputs.pl": "/usr/local/bin/analyse_blast_outputs.pl", "analyse_loci_list.pl": "/usr/local/bin/analyse_loci_list.pl", "annotate_treeWAS_output.pl": "/usr/local/bin/annotate_treeWAS_output.pl", "convert_to_distmat.pl": "/usr/local/bin/convert_to_distmat.pl", "convert_to_treeWAS.pl": "/usr/local/bin/convert_to_treeWAS.pl", "create_pangenome_alignment_aa.pl": "/usr/local/bin/create_pangenome_alignment_aa.pl", "pangenome_variants_to_treeWAS.pl": "/usr/local/bin/pangenome_variants_to_treeWAS.pl", "paralogs_to_Rtab.pl": "/usr/local/bin/paralogs_to_Rtab.pl", "select_representative": "/usr/local/bin/select_representative", "subsample_outputs.pl": "/usr/local/bin/subsample_outputs.pl", "subset_alignments.pl": "/usr/local/bin/subset_alignments.pl", "unique_sequences.pl": "/usr/local/bin/unique_sequences.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "FET.pl": "/usr/local/bin/FET.pl", "FastTree": "/usr/local/bin/FastTree", "FastTreeMP": "/usr/local/bin/FastTreeMP", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl"}}
+config: {"url": "https://biocontainers.pro/tools/pirate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pirate", "latest": {"1.0.5--hdfd78af_0": "sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0"}, "tags": {"1.0.5--hdfd78af_0": "sha256:2e365e2fa46c6185c30feba261d5a30fa991c937646e4b3506ad470994175ea0"}, "docker": "quay.io/biocontainers/pirate", "aliases": {"PIRATE": "/usr/local/bin/PIRATE", "PIRATE_to_Rtab.pl": "/usr/local/bin/PIRATE_to_Rtab.pl", "PIRATE_to_roary.pl": "/usr/local/bin/PIRATE_to_roary.pl", "analyse_blast_outputs.pl": "/usr/local/bin/analyse_blast_outputs.pl", "analyse_loci_list.pl": "/usr/local/bin/analyse_loci_list.pl", "annotate_treeWAS_output.pl": "/usr/local/bin/annotate_treeWAS_output.pl", "convert_to_distmat.pl": "/usr/local/bin/convert_to_distmat.pl", "convert_to_treeWAS.pl": "/usr/local/bin/convert_to_treeWAS.pl", "create_pangenome_alignment_aa.pl": "/usr/local/bin/create_pangenome_alignment_aa.pl", "pangenome_variants_to_treeWAS.pl": "/usr/local/bin/pangenome_variants_to_treeWAS.pl", "paralogs_to_Rtab.pl": "/usr/local/bin/paralogs_to_Rtab.pl", "select_representative": "/usr/local/bin/select_representative", "subsample_outputs.pl": "/usr/local/bin/subsample_outputs.pl", "subset_alignments.pl": "/usr/local/bin/subset_alignments.pl", "unique_sequences.pl": "/usr/local/bin/unique_sequences.pl", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pirate.
@@ -257,93 +257,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/unique_sequences.pl   -v ${PW
 ```
 
 
-#### 2to3-3.7
+#### clm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clm
+$ podman run --it --rm --entrypoint /usr/local/bin/clm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FET.pl
+#### clmformat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FET.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clmformat
+$ podman run --it --rm --entrypoint /usr/local/bin/clmformat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clmformat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTree
+#### clxdo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTree
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clxdo
+$ podman run --it --rm --entrypoint /usr/local/bin/clxdo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clxdo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### FastTreeMP
+#### mcl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/FastTreeMP
-$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mcl
+$ podman run --it --rm --entrypoint /usr/local/bin/mcl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### mclblastline
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mclblastline
+$ podman run --it --rm --entrypoint /usr/local/bin/mclblastline   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mclblastline   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-columns
+#### mclcm
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-columns
-$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mclcm
+$ podman run --it --rm --entrypoint /usr/local/bin/mclcm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mclcm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### mclpipeline
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mclpipeline
+$ podman run --it --rm --entrypoint /usr/local/bin/mclpipeline   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mclpipeline   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### archive-pubmed
+#### mcx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mcx
+$ podman run --it --rm --entrypoint /usr/local/bin/mcx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### asn2xml
+#### mcxarray
 
 ```bash
-$ singularity exec <container> /usr/local/bin/asn2xml
-$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mcxarray
+$ podman run --it --rm --entrypoint /usr/local/bin/mcxarray   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcxarray   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bamToGBrowse.pl
+#### mcxassemble
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mcxassemble
+$ podman run --it --rm --entrypoint /usr/local/bin/mcxassemble   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mcxassemble   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

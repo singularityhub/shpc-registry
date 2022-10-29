@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/perl-perlio-encoding"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-perlio-encoding/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-perlio-encoding/container.yaml"
-updated_at: "2022-10-29 05:45:28.834189"
+updated_at: "2022-10-29 07:47:13.309228"
 latest: "0.18--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-perlio-encoding"
 aliases:
  - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.18--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-perlio-encoding"
-config: {"url": "https://biocontainers.pro/tools/perl-perlio-encoding", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perlio-encoding", "latest": {"0.18--pl5321hdfd78af_2": "sha256:44e025887ead80cdceabdd237b2d134abcf97209a397cd64b6de368ef88a23ff"}, "tags": {"0.18--pl5321hdfd78af_2": "sha256:44e025887ead80cdceabdd237b2d134abcf97209a397cd64b6de368ef88a23ff"}, "docker": "quay.io/biocontainers/perl-perlio-encoding", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
+config: {"url": "https://biocontainers.pro/tools/perl-perlio-encoding", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-perlio-encoding", "latest": {"0.18--pl5321hdfd78af_2": "sha256:44e025887ead80cdceabdd237b2d134abcf97209a397cd64b6de368ef88a23ff"}, "tags": {"0.18--pl5321hdfd78af_2": "sha256:44e025887ead80cdceabdd237b2d134abcf97209a397cd64b6de368ef88a23ff"}, "docker": "quay.io/biocontainers/perl-perlio-encoding", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-perlio-encoding.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/perl5.32.1
 $ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

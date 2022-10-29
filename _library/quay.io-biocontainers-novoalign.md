@@ -4,10 +4,11 @@ name:  "quay.io/biocontainers/novoalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/novoalign/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/novoalign/container.yaml"
-updated_at: "2022-10-29 05:30:22.387336"
+updated_at: "2022-10-29 07:36:05.202613"
 latest: "4.03.04--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/novoalign"
 aliases:
+ - ".novoalign-post-link.sh"
  - "IONTorrent.R"
  - "installpackages.R"
  - "irqtop"
@@ -32,7 +33,7 @@ aliases:
  - "prlimit"
  - "qcalplot.R"
  - "rrbsreference"
- - "2to3-3.9"
+ - "scriptlive"
  - "cal"
  - "chmem"
  - "choom"
@@ -42,10 +43,11 @@ aliases:
  - "colrm"
  - "column"
  - "dmesg"
+ - "eject"
 versions:
  - "4.03.04--h5b5514e_1"
 description: "shpc-registry automated BioContainers addition for novoalign"
-config: {"url": "https://biocontainers.pro/tools/novoalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoalign", "latest": {"4.03.04--h5b5514e_1": "sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed"}, "tags": {"4.03.04--h5b5514e_1": "sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed"}, "docker": "quay.io/biocontainers/novoalign", "aliases": {"IONTorrent.R": "/usr/local/bin/IONTorrent.R", "installpackages.R": "/usr/local/bin/installpackages.R", "irqtop": "/usr/local/bin/irqtop", "isnovoindex": "/usr/local/bin/isnovoindex", "lsirq": "/usr/local/bin/lsirq", "novo2maq": "/usr/local/bin/novo2maq", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novolrcleaver": "/usr/local/bin/novolrcleaver", "novolrcorrector": "/usr/local/bin/novolrcorrector", "novolrpolish": "/usr/local/bin/novolrpolish", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "nsenter": "/usr/local/bin/nsenter", "prlimit": "/usr/local/bin/prlimit", "qcalplot.R": "/usr/local/bin/qcalplot.R", "rrbsreference": "/usr/local/bin/rrbsreference", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg"}}
+config: {"url": "https://biocontainers.pro/tools/novoalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for novoalign", "latest": {"4.03.04--h5b5514e_1": "sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed"}, "tags": {"4.03.04--h5b5514e_1": "sha256:2bb7ac3cb85142370801a9c6db466b23d820fe1777b6e5a9d54e2cfdfea1c0ed"}, "docker": "quay.io/biocontainers/novoalign", "aliases": {".novoalign-post-link.sh": "/usr/local/bin/.novoalign-post-link.sh", "IONTorrent.R": "/usr/local/bin/IONTorrent.R", "installpackages.R": "/usr/local/bin/installpackages.R", "irqtop": "/usr/local/bin/irqtop", "isnovoindex": "/usr/local/bin/isnovoindex", "lsirq": "/usr/local/bin/lsirq", "novo2maq": "/usr/local/bin/novo2maq", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novolrcleaver": "/usr/local/bin/novolrcleaver", "novolrcorrector": "/usr/local/bin/novolrcorrector", "novolrpolish": "/usr/local/bin/novolrpolish", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "nsenter": "/usr/local/bin/nsenter", "prlimit": "/usr/local/bin/prlimit", "qcalplot.R": "/usr/local/bin/qcalplot.R", "rrbsreference": "/usr/local/bin/rrbsreference", "scriptlive": "/usr/local/bin/scriptlive", "cal": "/usr/local/bin/cal", "chmem": "/usr/local/bin/chmem", "choom": "/usr/local/bin/choom", "chrt": "/usr/local/bin/chrt", "col": "/usr/local/bin/col", "colcrt": "/usr/local/bin/colcrt", "colrm": "/usr/local/bin/colrm", "column": "/usr/local/bin/column", "dmesg": "/usr/local/bin/dmesg", "eject": "/usr/local/bin/eject"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/novoalign.
@@ -128,6 +130,15 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .novoalign-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.novoalign-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.novoalign-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.novoalign-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -347,12 +358,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rrbsreference   -v ${PWD} -w 
 ```
 
 
-#### 2to3-3.9
+#### scriptlive
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/scriptlive
+$ podman run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/scriptlive   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -434,6 +445,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/column   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/dmesg
 $ podman run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dmesg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### eject
+
+```bash
+$ singularity exec <container> /usr/local/bin/eject
+$ podman run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eject   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

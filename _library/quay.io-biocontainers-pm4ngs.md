@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pm4ngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pm4ngs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pm4ngs/container.yaml"
-updated_at: "2022-10-29 05:55:10.409492"
+updated_at: "2022-10-29 07:54:20.063051"
 latest: "0.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pm4ngs"
 aliases:
@@ -38,20 +38,20 @@ aliases:
  - "prov-compare"
  - "prov-convert"
  - "wsdump.py"
- - "2to3-3.8"
- - "activate-global-python-argcomplete"
- - "acyclic"
- - "annotate"
- - "aserver"
- - "assistant"
- - "bcomps"
- - "bdftogd"
- - "canbusutil"
- - "ccomps"
+ - "cwltool"
+ - "conda-env"
+ - "cph"
+ - "schema-salad-doc"
+ - "schema-salad-tool"
+ - "pdfattach"
+ - "csv2rdf"
+ - "pdfdetach"
+ - "pdffonts"
+ - "pdfimages"
 versions:
  - "0.0.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pm4ngs"
-config: {"url": "https://biocontainers.pro/tools/pm4ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pm4ngs", "latest": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "docker": "quay.io/biocontainers/pm4ngs", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioconda2biocontainer": "/usr/local/bin/bioconda2biocontainer", "bioconda2cwldocker": "/usr/local/bin/bioconda2cwldocker", "biocontainers-search": "/usr/local/bin/biocontainers-search", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "cookiecutter": "/usr/local/bin/cookiecutter", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "goenrichment": "/usr/local/bin/goenrichment", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "pm4ngs-chipexo": "/usr/local/bin/pm4ngs-chipexo", "pm4ngs-chipexo-demo": "/usr/local/bin/pm4ngs-chipexo-demo", "pm4ngs-chipseq": "/usr/local/bin/pm4ngs-chipseq", "pm4ngs-chipseq-demo": "/usr/local/bin/pm4ngs-chipseq-demo", "pm4ngs-create": "/usr/local/bin/pm4ngs-create", "pm4ngs-rnaseq": "/usr/local/bin/pm4ngs-rnaseq", "pm4ngs-rnaseq-demo": "/usr/local/bin/pm4ngs-rnaseq-demo", "pm4ngs-server": "/usr/local/bin/pm4ngs-server", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "wsdump.py": "/usr/local/bin/wsdump.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "canbusutil": "/usr/local/bin/canbusutil", "ccomps": "/usr/local/bin/ccomps"}}
+config: {"url": "https://biocontainers.pro/tools/pm4ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pm4ngs", "latest": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "docker": "quay.io/biocontainers/pm4ngs", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioconda2biocontainer": "/usr/local/bin/bioconda2biocontainer", "bioconda2cwldocker": "/usr/local/bin/bioconda2cwldocker", "biocontainers-search": "/usr/local/bin/biocontainers-search", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "cookiecutter": "/usr/local/bin/cookiecutter", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "goenrichment": "/usr/local/bin/goenrichment", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "pm4ngs-chipexo": "/usr/local/bin/pm4ngs-chipexo", "pm4ngs-chipexo-demo": "/usr/local/bin/pm4ngs-chipexo-demo", "pm4ngs-chipseq": "/usr/local/bin/pm4ngs-chipseq", "pm4ngs-chipseq-demo": "/usr/local/bin/pm4ngs-chipseq-demo", "pm4ngs-create": "/usr/local/bin/pm4ngs-create", "pm4ngs-rnaseq": "/usr/local/bin/pm4ngs-rnaseq", "pm4ngs-rnaseq-demo": "/usr/local/bin/pm4ngs-rnaseq-demo", "pm4ngs-server": "/usr/local/bin/pm4ngs-server", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "wsdump.py": "/usr/local/bin/wsdump.py", "cwltool": "/usr/local/bin/cwltool", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "schema-salad-doc": "/usr/local/bin/schema-salad-doc", "schema-salad-tool": "/usr/local/bin/schema-salad-tool", "pdfattach": "/usr/local/bin/pdfattach", "csv2rdf": "/usr/local/bin/csv2rdf", "pdfdetach": "/usr/local/bin/pdfdetach", "pdffonts": "/usr/local/bin/pdffonts", "pdfimages": "/usr/local/bin/pdfimages"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pm4ngs.
@@ -407,93 +407,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wsdump.py   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.8
+#### cwltool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cwltool
+$ podman run --it --rm --entrypoint /usr/local/bin/cwltool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwltool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### activate-global-python-argcomplete
+#### conda-env
 
 ```bash
-$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
-$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/conda-env
+$ podman run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### cph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cph
+$ podman run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### schema-salad-doc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/schema-salad-doc
+$ podman run --it --rm --entrypoint /usr/local/bin/schema-salad-doc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/schema-salad-doc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### aserver
+#### schema-salad-tool
 
 ```bash
-$ singularity exec <container> /usr/local/bin/aserver
-$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/schema-salad-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/schema-salad-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/schema-salad-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### assistant
+#### pdfattach
 
 ```bash
-$ singularity exec <container> /usr/local/bin/assistant
-$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfattach
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfattach   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfattach   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcomps
+#### csv2rdf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/csv2rdf
+$ podman run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bdftogd
+#### pdfdetach
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfdetach
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfdetach   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfdetach   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### canbusutil
+#### pdffonts
 
 ```bash
-$ singularity exec <container> /usr/local/bin/canbusutil
-$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdffonts
+$ podman run --it --rm --entrypoint /usr/local/bin/pdffonts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdffonts   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ccomps
+#### pdfimages
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pdfimages
+$ podman run --it --rm --entrypoint /usr/local/bin/pdfimages   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pdfimages   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

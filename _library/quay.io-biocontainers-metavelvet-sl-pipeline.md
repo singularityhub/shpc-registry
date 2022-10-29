@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metavelvet-sl-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet-sl-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet-sl-pipeline/container.yaml"
-updated_at: "2022-10-29 05:31:34.672119"
+updated_at: "2022-10-29 07:36:58.117772"
 latest: "1.0--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/metavelvet-sl-pipeline"
 aliases:
@@ -27,20 +27,20 @@ aliases:
  - "metaphlan2krona.py"
  - "run-annoIS.pl"
  - "subset.py"
- - "bowtie2"
- - "bowtie2-align-l"
- - "bowtie2-align-s"
- - "bowtie2-build"
- - "bowtie2-build-l"
- - "bowtie2-build-s"
- - "bowtie2-inspect"
- - "bowtie2-inspect-l"
- - "bowtie2-inspect-s"
+ - "svm-predict"
+ - "svm-scale"
+ - "svm-train"
+ - "velvetg"
+ - "velveth"
+ - "config_data"
+ - "easy_install-2.7"
+ - "perl5.22.0"
  - "c2ph"
+ - "pstruct"
 versions:
  - "1.0--pl5.22.0_0"
 description: "shpc-registry automated BioContainers addition for metavelvet-sl-pipeline"
-config: {"url": "https://biocontainers.pro/tools/metavelvet-sl-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-sl-pipeline", "latest": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "tags": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "docker": "quay.io/biocontainers/metavelvet-sl-pipeline", "aliases": {"FeatureExtract.pl": "/usr/local/bin/FeatureExtract.pl", "FeatureExtractPredict.pl": "/usr/local/bin/FeatureExtractPredict.pl", "GenerateCommand.pl": "/usr/local/bin/GenerateCommand.pl", "ReadTaxon.pl": "/usr/local/bin/ReadTaxon.pl", "checkdata.py": "/usr/local/bin/checkdata.py", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "dwgsim_eval_plot.py": "/usr/local/bin/dwgsim_eval_plot.py", "dwgsim_mut_to_vcf.pl": "/usr/local/bin/dwgsim_mut_to_vcf.pl", "dwgsim_pileup_eval.pl": "/usr/local/bin/dwgsim_pileup_eval.pl", "easy.py": "/usr/local/bin/easy.py", "eval.pl": "/usr/local/bin/eval.pl", "grid.py": "/usr/local/bin/grid.py", "meta-velvete": "/usr/local/bin/meta-velvete", "meta-velvetg": "/usr/local/bin/meta-velvetg", "metaphlan2.py": "/usr/local/bin/metaphlan2.py", "metaphlan2krona.py": "/usr/local/bin/metaphlan2krona.py", "run-annoIS.pl": "/usr/local/bin/run-annoIS.pl", "subset.py": "/usr/local/bin/subset.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "c2ph": "/usr/local/bin/c2ph"}}
+config: {"url": "https://biocontainers.pro/tools/metavelvet-sl-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-sl-pipeline", "latest": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "tags": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "docker": "quay.io/biocontainers/metavelvet-sl-pipeline", "aliases": {"FeatureExtract.pl": "/usr/local/bin/FeatureExtract.pl", "FeatureExtractPredict.pl": "/usr/local/bin/FeatureExtractPredict.pl", "GenerateCommand.pl": "/usr/local/bin/GenerateCommand.pl", "ReadTaxon.pl": "/usr/local/bin/ReadTaxon.pl", "checkdata.py": "/usr/local/bin/checkdata.py", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "dwgsim_eval_plot.py": "/usr/local/bin/dwgsim_eval_plot.py", "dwgsim_mut_to_vcf.pl": "/usr/local/bin/dwgsim_mut_to_vcf.pl", "dwgsim_pileup_eval.pl": "/usr/local/bin/dwgsim_pileup_eval.pl", "easy.py": "/usr/local/bin/easy.py", "eval.pl": "/usr/local/bin/eval.pl", "grid.py": "/usr/local/bin/grid.py", "meta-velvete": "/usr/local/bin/meta-velvete", "meta-velvetg": "/usr/local/bin/meta-velvetg", "metaphlan2.py": "/usr/local/bin/metaphlan2.py", "metaphlan2krona.py": "/usr/local/bin/metaphlan2krona.py", "run-annoIS.pl": "/usr/local/bin/run-annoIS.pl", "subset.py": "/usr/local/bin/subset.py", "svm-predict": "/usr/local/bin/svm-predict", "svm-scale": "/usr/local/bin/svm-scale", "svm-train": "/usr/local/bin/svm-train", "velvetg": "/usr/local/bin/velvetg", "velveth": "/usr/local/bin/velveth", "config_data": "/usr/local/bin/config_data", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metavelvet-sl-pipeline.
@@ -297,84 +297,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/subset.py   -v ${PWD} -w ${PW
 ```
 
 
-#### bowtie2
+#### svm-predict
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/svm-predict
+$ podman run --it --rm --entrypoint /usr/local/bin/svm-predict   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/svm-predict   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-align-l
+#### svm-scale
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/svm-scale
+$ podman run --it --rm --entrypoint /usr/local/bin/svm-scale   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/svm-scale   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-align-s
+#### svm-train
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/svm-train
+$ podman run --it --rm --entrypoint /usr/local/bin/svm-train   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/svm-train   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build
+#### velvetg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/velvetg
+$ podman run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/velvetg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build-l
+#### velveth
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/velveth
+$ podman run --it --rm --entrypoint /usr/local/bin/velveth   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/velveth   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build-s
+#### config_data
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/config_data
+$ podman run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-inspect
+#### easy_install-2.7
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/easy_install-2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-inspect-l
+#### perl5.22.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-inspect-s
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.22.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -384,6 +375,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/c2ph
 $ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pstruct
+
+```bash
+$ singularity exec <container> /usr/local/bin/pstruct
+$ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

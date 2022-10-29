@@ -4,16 +4,16 @@ name:  "quay.io/biocontainers/pytest-marks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-marks/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-marks/container.yaml"
-updated_at: "2022-10-29 05:49:18.259649"
+updated_at: "2022-10-29 07:50:02.348549"
 latest: "0.4--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-marks"
 aliases:
- - "2to3-3.6"
  - "easy_install-3.6"
- - "idle3.6"
  - "py.test"
- - "pydoc3.6"
  - "pytest"
+ - "2to3-3.6"
+ - "idle3.6"
+ - "pydoc3.6"
  - "python3.6"
  - "python3.6-config"
  - "python3.6m"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "0.4--py36_0"
 description: "shpc-registry automated BioContainers addition for pytest-marks"
-config: {"url": "https://biocontainers.pro/tools/pytest-marks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-marks", "latest": {"0.4--py36_0": "sha256:b9f88c2f9a89a16901c6f128fb075bacd0cecce1f11e1777f797c222d2065d71"}, "tags": {"0.4--py36_0": "sha256:b9f88c2f9a89a16901c6f128fb075bacd0cecce1f11e1777f797c222d2065d71"}, "docker": "quay.io/biocontainers/pytest-marks", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "idle3.6": "/usr/local/bin/idle3.6", "py.test": "/usr/local/bin/py.test", "pydoc3.6": "/usr/local/bin/pydoc3.6", "pytest": "/usr/local/bin/pytest", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
+config: {"url": "https://biocontainers.pro/tools/pytest-marks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytest-marks", "latest": {"0.4--py36_0": "sha256:b9f88c2f9a89a16901c6f128fb075bacd0cecce1f11e1777f797c222d2065d71"}, "tags": {"0.4--py36_0": "sha256:b9f88c2f9a89a16901c6f128fb075bacd0cecce1f11e1777f797c222d2065d71"}, "docker": "quay.io/biocontainers/pytest-marks", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytest-marks.
@@ -107,30 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### easy_install-3.6
 
 ```bash
 $ singularity exec <container> /usr/local/bin/easy_install-3.6
 $ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### idle3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -143,21 +125,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD}
 ```
 
 
-#### pydoc3.6
-
-```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.6
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pytest
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pytest
 $ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

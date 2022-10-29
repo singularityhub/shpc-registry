@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-msnbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msnbase/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msnbase/container.yaml"
-updated_at: "2022-10-29 05:30:35.984374"
+updated_at: "2022-10-29 07:36:15.285587"
 latest: "2.8.3--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msnbase"
 aliases:
- - "c89"
- - "c99"
- - "gif2h5"
  - "gif2hdf"
- - "gio-launch-desktop"
  - "h4_ncdump"
  - "h4_ncgen"
  - "h4cc"
  - "h4redeploy"
- - "h52gif"
+ - "hdf24to8"
+ - "hdf2gif"
+ - "hdf2jpeg"
+ - "hdf8to24"
+ - "hdfcomp"
 versions:
  - "2.8.3--r351hf484d3e_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msnbase"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msnbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msnbase", "latest": {"2.8.3--r351hf484d3e_0": "sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3"}, "tags": {"2.8.3--r351hf484d3e_0": "sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3"}, "docker": "quay.io/biocontainers/bioconductor-msnbase", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "h52gif": "/usr/local/bin/h52gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msnbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msnbase", "latest": {"2.8.3--r351hf484d3e_0": "sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3"}, "tags": {"2.8.3--r351hf484d3e_0": "sha256:ebd9244ae1e2ab403fb72cf47a83c3055c39e243a7249d4f90835a3e5b0597b3"}, "docker": "quay.io/biocontainers/bioconductor-msnbase", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msnbase.
@@ -107,48 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### c89
-
-```bash
-$ singularity exec <container> /usr/local/bin/c89
-$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### c99
-
-```bash
-$ singularity exec <container> /usr/local/bin/c99
-$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gif2h5
-
-```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gif2hdf
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gif2hdf
 $ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gio-launch-desktop
-
-```bash
-$ singularity exec <container> /usr/local/bin/gio-launch-desktop
-$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -188,12 +152,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${P
 ```
 
 
-#### h52gif
+#### hdf24to8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/hdf24to8
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf24to8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf24to8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hdf2gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/hdf2gif
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf2gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf2gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hdf2jpeg
+
+```bash
+$ singularity exec <container> /usr/local/bin/hdf2jpeg
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf2jpeg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf2jpeg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hdf8to24
+
+```bash
+$ singularity exec <container> /usr/local/bin/hdf8to24
+$ podman run --it --rm --entrypoint /usr/local/bin/hdf8to24   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdf8to24   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hdfcomp
+
+```bash
+$ singularity exec <container> /usr/local/bin/hdfcomp
+$ podman run --it --rm --entrypoint /usr/local/bin/hdfcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hdfcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

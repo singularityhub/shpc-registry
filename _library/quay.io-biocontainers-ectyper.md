@@ -4,25 +4,26 @@ name:  "quay.io/biocontainers/ectyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ectyper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ectyper/container.yaml"
-updated_at: "2022-10-29 05:49:53.468407"
+updated_at: "2022-10-29 07:50:28.214113"
 latest: "1.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ectyper"
 aliases:
+ - ".ectyper-post-link.sh"
  - "ectyper"
- - "2to3-3.9"
+ - "capnp"
+ - "capnpc"
+ - "capnpc-c++"
+ - "capnpc-capnp"
+ - "gff2gff.py"
+ - "mash"
+ - "seqtk"
  - "CA.pm"
- - "accn-at-a-time"
- - "ace2sam"
- - "amino-acid-composition"
- - "archive-pubmed"
- - "asp-cp"
- - "asp-ls"
- - "bcftools"
- - "between-two-genes"
+ - "cacert.pem"
+ - "index-themes"
 versions:
  - "1.0.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for ectyper"
-config: {"url": "https://biocontainers.pro/tools/ectyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ectyper", "latest": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465"}, "docker": "quay.io/biocontainers/ectyper", "aliases": {"ectyper": "/usr/local/bin/ectyper", "2to3-3.9": "/usr/local/bin/2to3-3.9", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace2sam": "/usr/local/bin/ace2sam", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "bcftools": "/usr/local/bin/bcftools", "between-two-genes": "/usr/local/bin/between-two-genes"}}
+config: {"url": "https://biocontainers.pro/tools/ectyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ectyper", "latest": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465"}, "tags": {"1.0.0--pyhdfd78af_1": "sha256:6a9bde6f67c77754bc535211913196165b6c458c3813eed5c3dbfee5165c4465"}, "docker": "quay.io/biocontainers/ectyper", "aliases": {".ectyper-post-link.sh": "/usr/local/bin/.ectyper-post-link.sh", "ectyper": "/usr/local/bin/ectyper", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "gff2gff.py": "/usr/local/bin/gff2gff.py", "mash": "/usr/local/bin/mash", "seqtk": "/usr/local/bin/seqtk", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ectyper.
@@ -108,6 +109,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .ectyper-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.ectyper-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.ectyper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.ectyper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ectyper
 
 ```bash
@@ -117,12 +127,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ectyper   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.9
+#### capnp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-c++
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gff2gff.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/gff2gff.py
+$ podman run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mash
+
+```bash
+$ singularity exec <container> /usr/local/bin/mash
+$ podman run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### seqtk
+
+```bash
+$ singularity exec <container> /usr/local/bin/seqtk
+$ podman run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -135,75 +199,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### accn-at-a-time
+#### cacert.pem
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cacert.pem
+$ podman run --it --rm --entrypoint /usr/local/bin/cacert.pem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cacert.pem   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### index-themes
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### amino-acid-composition
-
-```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### archive-pubmed
-
-```bash
-$ singularity exec <container> /usr/local/bin/archive-pubmed
-$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### asp-cp
-
-```bash
-$ singularity exec <container> /usr/local/bin/asp-cp
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### asp-ls
-
-```bash
-$ singularity exec <container> /usr/local/bin/asp-ls
-$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bcftools
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### between-two-genes
-
-```bash
-$ singularity exec <container> /usr/local/bin/between-two-genes
-$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/index-themes
+$ podman run --it --rm --entrypoint /usr/local/bin/index-themes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/index-themes   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

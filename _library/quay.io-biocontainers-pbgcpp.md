@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pbgcpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbgcpp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pbgcpp/container.yaml"
-updated_at: "2022-10-29 05:39:21.687132"
+updated_at: "2022-10-29 07:42:40.913703"
 latest: "2.0.2--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/pbgcpp"
 aliases:
+ - ".pbgcpp-post-link.sh"
  - "gcpp"
 versions:
  - "2.0.2--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for pbgcpp"
-config: {"url": "https://biocontainers.pro/tools/pbgcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbgcpp", "latest": {"2.0.2--h9ee0642_1": "sha256:85d2c5e1d3927ab3bf76ce8ad0ed36e81724b464c7d1a7fe000eaf56df95683e"}, "tags": {"2.0.2--h9ee0642_1": "sha256:85d2c5e1d3927ab3bf76ce8ad0ed36e81724b464c7d1a7fe000eaf56df95683e"}, "docker": "quay.io/biocontainers/pbgcpp", "aliases": {"gcpp": "/usr/local/bin/gcpp"}}
+config: {"url": "https://biocontainers.pro/tools/pbgcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbgcpp", "latest": {"2.0.2--h9ee0642_1": "sha256:85d2c5e1d3927ab3bf76ce8ad0ed36e81724b464c7d1a7fe000eaf56df95683e"}, "tags": {"2.0.2--h9ee0642_1": "sha256:85d2c5e1d3927ab3bf76ce8ad0ed36e81724b464c7d1a7fe000eaf56df95683e"}, "docker": "quay.io/biocontainers/pbgcpp", "aliases": {".pbgcpp-post-link.sh": "/usr/local/bin/.pbgcpp-post-link.sh", "gcpp": "/usr/local/bin/gcpp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbgcpp.
@@ -95,6 +96,15 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .pbgcpp-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.pbgcpp-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.pbgcpp-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.pbgcpp-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

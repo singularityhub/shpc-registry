@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/ffq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ffq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ffq/container.yaml"
-updated_at: "2022-10-29 05:41:50.952108"
+updated_at: "2022-10-29 07:44:30.891165"
 latest: "0.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ffq"
 aliases:
  - "ffq"
+ - "xml2-config.bak"
+ - "normalizer"
+ - "xslt-config"
+ - "xsltproc"
  - "2to3-3.10"
  - "idle3.10"
- - "normalizer"
  - "pydoc3.10"
  - "python3.1"
  - "python3.10"
  - "python3.10-config"
- - "xml2-config.bak"
- - "xslt-config"
- - "xsltproc"
 versions:
  - "0.3.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ffq"
-config: {"url": "https://biocontainers.pro/tools/ffq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ffq", "latest": {"0.3.0--pyhdfd78af_0": "sha256:b4cb5b57f2a7d98e18aeb3801b40ae7d18fb70edd52769b6bb3776477207ed6c"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:b4cb5b57f2a7d98e18aeb3801b40ae7d18fb70edd52769b6bb3776477207ed6c"}, "docker": "quay.io/biocontainers/ffq", "aliases": {"ffq": "/usr/local/bin/ffq", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
+config: {"url": "https://biocontainers.pro/tools/ffq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ffq", "latest": {"0.3.0--pyhdfd78af_0": "sha256:b4cb5b57f2a7d98e18aeb3801b40ae7d18fb70edd52769b6bb3776477207ed6c"}, "tags": {"0.3.0--pyhdfd78af_0": "sha256:b4cb5b57f2a7d98e18aeb3801b40ae7d18fb70edd52769b6bb3776477207ed6c"}, "docker": "quay.io/biocontainers/ffq", "aliases": {"ffq": "/usr/local/bin/ffq", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "normalizer": "/usr/local/bin/normalizer", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ffq.
@@ -117,6 +117,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ffq   -v ${PWD} -w ${PWD} <co
 ```
 
 
+#### xml2-config.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/xml2-config.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/xml2-config.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xml2-config.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.10
 
 ```bash
@@ -132,15 +168,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/idle3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### normalizer
-
-```bash
-$ singularity exec <container> /usr/local/bin/normalizer
-$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -177,33 +204,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/python3.10-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xml2-config.bak
-
-```bash
-$ singularity exec <container> /usr/local/bin/xml2-config.bak
-$ podman run --it --rm --entrypoint /usr/local/bin/xml2-config.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xml2-config.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xslt-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/xslt-config
-$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xsltproc
-
-```bash
-$ singularity exec <container> /usr/local/bin/xsltproc
-$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

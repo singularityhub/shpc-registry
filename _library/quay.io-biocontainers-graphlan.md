@@ -4,28 +4,28 @@ name:  "quay.io/biocontainers/graphlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphlan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/graphlan/container.yaml"
-updated_at: "2022-10-29 05:53:42.057799"
+updated_at: "2022-10-29 07:53:16.302357"
 latest: "1.1.3--2"
 container_url: "https://biocontainers.pro/tools/graphlan"
 aliases:
+ - "__init__.py"
  - "graphlan.py"
  - "graphlan_annotate.py"
  - "graphlan_lib.py"
  - "pyphlan.py"
- - "__init__.py"
  - "f2py2"
  - "f2py2.7"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
  - "idle"
  - "python-config"
- - "python2"
- - "python2-config"
- - "python2.7"
- - "python2.7-config"
  - "smtpd.py"
 versions:
  - "1.1.3--2"
 description: "shpc-registry automated BioContainers addition for graphlan"
-config: {"url": "https://biocontainers.pro/tools/graphlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphlan", "latest": {"1.1.3--2": "sha256:f12c86a00d0a956e46f55064bf108135c1467977a2621f4eba897d8abd9263c6"}, "tags": {"1.1.3--2": "sha256:f12c86a00d0a956e46f55064bf108135c1467977a2621f4eba897d8abd9263c6"}, "docker": "quay.io/biocontainers/graphlan", "aliases": {"graphlan.py": "/usr/local/bin/graphlan.py", "graphlan_annotate.py": "/usr/local/bin/graphlan_annotate.py", "graphlan_lib.py": "/usr/local/bin/graphlan_lib.py", "pyphlan.py": "/usr/local/bin/pyphlan.py", "__init__.py": "/usr/local/bin/__init__.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/graphlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphlan", "latest": {"1.1.3--2": "sha256:f12c86a00d0a956e46f55064bf108135c1467977a2621f4eba897d8abd9263c6"}, "tags": {"1.1.3--2": "sha256:f12c86a00d0a956e46f55064bf108135c1467977a2621f4eba897d8abd9263c6"}, "docker": "quay.io/biocontainers/graphlan", "aliases": {"__init__.py": "/usr/local/bin/__init__.py", "graphlan.py": "/usr/local/bin/graphlan.py", "graphlan_annotate.py": "/usr/local/bin/graphlan_annotate.py", "graphlan_lib.py": "/usr/local/bin/graphlan_lib.py", "pyphlan.py": "/usr/local/bin/pyphlan.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphlan.
@@ -111,6 +111,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### __init__.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/__init__.py
+$ podman run --it --rm --entrypoint /usr/local/bin/__init__.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/__init__.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### graphlan.py
 
 ```bash
@@ -147,15 +156,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyphlan.py   -v ${PWD} -w ${P
 ```
 
 
-#### __init__.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/__init__.py
-$ podman run --it --rm --entrypoint /usr/local/bin/__init__.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/__init__.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py2
 
 ```bash
@@ -174,6 +174,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD}
 ```
 
 
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle
 
 ```bash
@@ -189,42 +225,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/python-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

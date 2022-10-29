@@ -4,12 +4,12 @@ name:  "quay.io/biocontainers/filechunkio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/filechunkio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/filechunkio/container.yaml"
-updated_at: "2022-10-29 05:46:45.775761"
+updated_at: "2022-10-29 07:48:09.746929"
 latest: "1.6--py35_0"
 container_url: "https://biocontainers.pro/tools/filechunkio"
 aliases:
- - "2to3-3.5"
  - "easy_install-3.5"
+ - "2to3-3.5"
  - "idle3.5"
  - "pydoc3.5"
  - "python3.5"
@@ -21,7 +21,7 @@ aliases:
 versions:
  - "1.6--py35_0"
 description: "shpc-registry automated BioContainers addition for filechunkio"
-config: {"url": "https://biocontainers.pro/tools/filechunkio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filechunkio", "latest": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1"}, "tags": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1"}, "docker": "quay.io/biocontainers/filechunkio", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/filechunkio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for filechunkio", "latest": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1"}, "tags": {"1.6--py35_0": "sha256:40320935ca1da8836ea49ed02d58a62ec090d8d6171f2e48a2964011434368d1"}, "docker": "quay.io/biocontainers/filechunkio", "aliases": {"easy_install-3.5": "/usr/local/bin/easy_install-3.5", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/filechunkio.
@@ -107,21 +107,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.5
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.5
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### easy_install-3.5
 
 ```bash
 $ singularity exec <container> /usr/local/bin/easy_install-3.5
 $ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

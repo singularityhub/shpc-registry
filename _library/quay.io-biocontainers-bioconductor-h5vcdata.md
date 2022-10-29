@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-h5vcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-h5vcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-h5vcdata/container.yaml"
-updated_at: "2022-10-29 05:32:52.567240"
+updated_at: "2022-10-29 07:37:55.108089"
 latest: "2.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-h5vcdata"
 aliases:
+ - ".bioconductor-h5vcdata-post-link.sh"
+ - ".bioconductor-h5vcdata-pre-unlink.sh"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-h5vcdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-h5vcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-h5vcdata", "latest": {"2.9.0--r40_0": "sha256:3491c0f8728c3afa2c1f309c1659397097d987e7d3831b93b958ec2b6eeab8c9"}, "tags": {"2.9.0--r40_0": "sha256:3491c0f8728c3afa2c1f309c1659397097d987e7d3831b93b958ec2b6eeab8c9"}, "docker": "quay.io/biocontainers/bioconductor-h5vcdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-h5vcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-h5vcdata", "latest": {"2.9.0--r40_0": "sha256:3491c0f8728c3afa2c1f309c1659397097d987e7d3831b93b958ec2b6eeab8c9"}, "tags": {"2.9.0--r40_0": "sha256:3491c0f8728c3afa2c1f309c1659397097d987e7d3831b93b958ec2b6eeab8c9"}, "docker": "quay.io/biocontainers/bioconductor-h5vcdata", "aliases": {".bioconductor-h5vcdata-post-link.sh": "/usr/local/bin/.bioconductor-h5vcdata-post-link.sh", ".bioconductor-h5vcdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-h5vcdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-h5vcdata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-h5vcdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-h5vcdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-h5vcdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-h5vcdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-h5vcdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-h5vcdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-h5vcdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-h5vcdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

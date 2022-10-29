@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/seroba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seroba/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/seroba/container.yaml"
-updated_at: "2022-10-29 05:58:56.080963"
+updated_at: "2022-10-29 07:57:04.081400"
 latest: "1.0.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/seroba"
 aliases:
  - "ariba"
  - "seroba"
- - "2to3-3.8"
+ - "kmc"
+ - "kmc_dump"
+ - "kmc_tools"
+ - "fastaq"
  - "FET.pl"
- - "ace2sam"
- - "bcftools"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2"
- - "bowtie2-align-l"
- - "bowtie2-align-s"
- - "bowtie2-build"
+ - "cd-hit-clstr_2_blm8.pl"
+ - "cds-mapping-stats"
+ - "cds-subgraphs"
+ - "clstr_list.pl"
+ - "clstr_list_sort.pl"
 versions:
  - "1.0.2--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for seroba"
-config: {"url": "https://biocontainers.pro/tools/seroba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seroba", "latest": {"1.0.2--pyhdfd78af_1": "sha256:36b6ec2c8091d38c0efd4814491e64886e48eaf41b434b5d1baf6ba95ddfef8b"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:36b6ec2c8091d38c0efd4814491e64886e48eaf41b434b5d1baf6ba95ddfef8b"}, "docker": "quay.io/biocontainers/seroba", "aliases": {"ariba": "/usr/local/bin/ariba", "seroba": "/usr/local/bin/seroba", "2to3-3.8": "/usr/local/bin/2to3-3.8", "FET.pl": "/usr/local/bin/FET.pl", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build"}}
+config: {"url": "https://biocontainers.pro/tools/seroba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seroba", "latest": {"1.0.2--pyhdfd78af_1": "sha256:36b6ec2c8091d38c0efd4814491e64886e48eaf41b434b5d1baf6ba95ddfef8b"}, "tags": {"1.0.2--pyhdfd78af_1": "sha256:36b6ec2c8091d38c0efd4814491e64886e48eaf41b434b5d1baf6ba95ddfef8b"}, "docker": "quay.io/biocontainers/seroba", "aliases": {"ariba": "/usr/local/bin/ariba", "seroba": "/usr/local/bin/seroba", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "fastaq": "/usr/local/bin/fastaq", "FET.pl": "/usr/local/bin/FET.pl", "cd-hit-clstr_2_blm8.pl": "/usr/local/bin/cd-hit-clstr_2_blm8.pl", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "clstr_list.pl": "/usr/local/bin/clstr_list.pl", "clstr_list_sort.pl": "/usr/local/bin/clstr_list_sort.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seroba.
@@ -127,12 +127,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seroba   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### 2to3-3.8
+#### kmc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/kmc
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmc_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmc_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kmc_tools
+
+```bash
+$ singularity exec <container> /usr/local/bin/kmc_tools
+$ podman run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kmc_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastaq
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastaq
+$ podman run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -145,75 +172,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### ace2sam
+#### cd-hit-clstr_2_blm8.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cd-hit-clstr_2_blm8.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cd-hit-clstr_2_blm8.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bcftools
+#### cds-mapping-stats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bcftools
-$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cds-mapping-stats
+$ podman run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### cds-subgraphs
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cds-subgraphs
+$ podman run --it --rm --entrypoint /usr/local/bin/cds-subgraphs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cds-subgraphs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### clstr_list.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clstr_list.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/clstr_list.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clstr_list.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2
+#### clstr_list_sort.pl
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-align-l
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-align-s
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-build
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/clstr_list_sort.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/clstr_list_sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clstr_list_sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

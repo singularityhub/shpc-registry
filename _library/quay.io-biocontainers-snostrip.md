@@ -4,25 +4,26 @@ name:  "quay.io/biocontainers/snostrip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snostrip/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snostrip/container.yaml"
-updated_at: "2022-10-29 05:40:14.740081"
+updated_at: "2022-10-29 07:43:19.980246"
 latest: "2.0.2--pl5321h87f3376_4"
 container_url: "https://biocontainers.pro/tools/snostrip"
 aliases:
+ - "RNAmultifold"
  - "snoStrip.pl"
- - "2to3-3.9"
- - "AnalyseDists"
- - "AnalyseSeqs"
- - "Kinfold"
- - "RNA2Dfold"
- - "RNALalifold"
- - "RNALfold"
- - "RNAPKplex"
- - "RNAaliduplex"
- - "RNAalifold"
+ - "bl2seq"
+ - "blastall"
+ - "blastclust"
+ - "blastpgp"
+ - "copymat"
+ - "fastacmd"
+ - "formatdb"
+ - "formatrpsdb"
+ - "impala"
+ - "makemat"
 versions:
  - "2.0.2--pl5321h87f3376_4"
 description: "shpc-registry automated BioContainers addition for snostrip"
-config: {"url": "https://biocontainers.pro/tools/snostrip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snostrip", "latest": {"2.0.2--pl5321h87f3376_4": "sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb"}, "tags": {"2.0.2--pl5321h87f3376_4": "sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb"}, "docker": "quay.io/biocontainers/snostrip", "aliases": {"snoStrip.pl": "/usr/local/bin/snoStrip.pl", "2to3-3.9": "/usr/local/bin/2to3-3.9", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "Kinfold": "/usr/local/bin/Kinfold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNALfold": "/usr/local/bin/RNALfold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold"}}
+config: {"url": "https://biocontainers.pro/tools/snostrip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snostrip", "latest": {"2.0.2--pl5321h87f3376_4": "sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb"}, "tags": {"2.0.2--pl5321h87f3376_4": "sha256:a105846a2ce12c8bc07be7c3ca2925fa577ae281c5d5b20df440a6bb5f2623bb"}, "docker": "quay.io/biocontainers/snostrip", "aliases": {"RNAmultifold": "/usr/local/bin/RNAmultifold", "snoStrip.pl": "/usr/local/bin/snoStrip.pl", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snostrip.
@@ -108,6 +109,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### RNAmultifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAmultifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAmultifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAmultifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### snoStrip.pl
 
 ```bash
@@ -117,93 +127,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/snoStrip.pl   -v ${PWD} -w ${
 ```
 
 
-#### 2to3-3.9
+#### bl2seq
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bl2seq
+$ podman run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### AnalyseDists
+#### blastall
 
 ```bash
-$ singularity exec <container> /usr/local/bin/AnalyseDists
-$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blastall
+$ podman run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### AnalyseSeqs
+#### blastclust
 
 ```bash
-$ singularity exec <container> /usr/local/bin/AnalyseSeqs
-$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blastclust
+$ podman run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### Kinfold
+#### blastpgp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/Kinfold
-$ podman run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/blastpgp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### RNA2Dfold
+#### copymat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNA2Dfold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/copymat
+$ podman run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### RNALalifold
+#### fastacmd
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNALalifold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastacmd
+$ podman run --it --rm --entrypoint /usr/local/bin/fastacmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastacmd   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### RNALfold
+#### formatdb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNALfold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/formatdb
+$ podman run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### RNAPKplex
+#### formatrpsdb
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNAPKplex
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/formatrpsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/formatrpsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/formatrpsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### RNAaliduplex
+#### impala
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNAaliduplex
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/impala
+$ podman run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### RNAalifold
+#### makemat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/RNAalifold
-$ podman run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/makemat
+$ podman run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

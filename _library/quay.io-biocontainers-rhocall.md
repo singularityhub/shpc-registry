@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/rhocall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rhocall/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rhocall/container.yaml"
-updated_at: "2022-10-29 05:54:19.203545"
+updated_at: "2022-10-29 07:53:42.863013"
 latest: "0.5.1--py39hbf8eff0_1"
 container_url: "https://biocontainers.pro/tools/rhocall"
 aliases:
  - "rhocall"
- - "2to3-3.9"
- - "bgzip"
- - "brotli"
- - "coloredlogs"
  - "cyvcf2"
- - "f2py3.9"
- - "fonttools"
- - "htsfile"
+ - "coloredlogs"
  - "humanfriendly"
- - "idle3.9"
+ - "fonttools"
+ - "pyftmerge"
+ - "pyftsubset"
+ - "ttx"
+ - "brotli"
+ - "f2py3.9"
+ - "opj_compress"
 versions:
  - "0.5.1--py39hbf8eff0_1"
 description: "shpc-registry automated BioContainers addition for rhocall"
-config: {"url": "https://biocontainers.pro/tools/rhocall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rhocall", "latest": {"0.5.1--py39hbf8eff0_1": "sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665"}, "tags": {"0.5.1--py39hbf8eff0_1": "sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665"}, "docker": "quay.io/biocontainers/rhocall", "aliases": {"rhocall": "/usr/local/bin/rhocall", "2to3-3.9": "/usr/local/bin/2to3-3.9", "bgzip": "/usr/local/bin/bgzip", "brotli": "/usr/local/bin/brotli", "coloredlogs": "/usr/local/bin/coloredlogs", "cyvcf2": "/usr/local/bin/cyvcf2", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "htsfile": "/usr/local/bin/htsfile", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.9": "/usr/local/bin/idle3.9"}}
+config: {"url": "https://biocontainers.pro/tools/rhocall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rhocall", "latest": {"0.5.1--py39hbf8eff0_1": "sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665"}, "tags": {"0.5.1--py39hbf8eff0_1": "sha256:38c8deb8e5c0c6c043e9d542ff8bfa3ce0d339c7a9258d7c5c0c4d4f6b508665"}, "docker": "quay.io/biocontainers/rhocall", "aliases": {"rhocall": "/usr/local/bin/rhocall", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rhocall.
@@ -117,30 +117,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rhocall   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.9
+#### cyvcf2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### brotli
-
-```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cyvcf2
+$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -153,21 +135,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${
 ```
 
 
-#### cyvcf2
+#### humanfriendly
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cyvcf2
-$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### f2py3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/f2py3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -180,30 +153,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PW
 ```
 
 
-#### htsfile
+#### pyftmerge
 
 ```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### humanfriendly
+#### pyftsubset
 
 ```bash
-$ singularity exec <container> /usr/local/bin/humanfriendly
-$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pyftsubset
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.9
+#### ttx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ttx
+$ podman run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

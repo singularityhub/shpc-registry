@@ -4,26 +4,26 @@ name:  "quay.io/biocontainers/peddy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peddy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/peddy/container.yaml"
-updated_at: "2022-10-29 05:32:11.226243"
+updated_at: "2022-10-29 07:37:24.634877"
 latest: "0.4.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/peddy"
 aliases:
  - "peddy"
  - "toolshed"
- - "2to3-3.9"
- - "bgzip"
- - "coloredlogs"
  - "cyvcf2"
- - "f2py3.9"
- - "htsfile"
+ - "coloredlogs"
  - "humanfriendly"
- - "idle3.9"
- - "jpgicc"
- - "linkicc"
+ - "f2py3.9"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
+ - "htsfile"
+ - "bgzip"
+ - "tabix"
 versions:
  - "0.4.8--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for peddy"
-config: {"url": "https://biocontainers.pro/tools/peddy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peddy", "latest": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "tags": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "docker": "quay.io/biocontainers/peddy", "aliases": {"peddy": "/usr/local/bin/peddy", "toolshed": "/usr/local/bin/toolshed", "2to3-3.9": "/usr/local/bin/2to3-3.9", "bgzip": "/usr/local/bin/bgzip", "coloredlogs": "/usr/local/bin/coloredlogs", "cyvcf2": "/usr/local/bin/cyvcf2", "f2py3.9": "/usr/local/bin/f2py3.9", "htsfile": "/usr/local/bin/htsfile", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
+config: {"url": "https://biocontainers.pro/tools/peddy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peddy", "latest": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "tags": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "docker": "quay.io/biocontainers/peddy", "aliases": {"peddy": "/usr/local/bin/peddy", "toolshed": "/usr/local/bin/toolshed", "cyvcf2": "/usr/local/bin/cyvcf2", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peddy.
@@ -127,21 +127,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/toolshed   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.9
+#### cyvcf2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cyvcf2
+$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -154,12 +145,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${
 ```
 
 
-#### cyvcf2
+#### humanfriendly
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cyvcf2
-$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -172,6 +163,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### htsfile
 
 ```bash
@@ -181,39 +199,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD}
 ```
 
 
-#### humanfriendly
+#### bgzip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/humanfriendly
-$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.9
+#### tabix
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### jpgicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/jpgicc
-$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### linkicc
-
-```bash
-$ singularity exec <container> /usr/local/bin/linkicc
-$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

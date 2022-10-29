@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-bnem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bnem/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bnem/container.yaml"
-updated_at: "2022-10-29 05:47:40.064872"
+updated_at: "2022-10-29 07:48:49.886820"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bnem"
 aliases:
- - "acyclic"
- - "annotate"
- - "bcomps"
- - "bdftogd"
- - "ccomps"
- - "circo"
- - "cluster"
- - "cwebp"
- - "delaunay"
  - "diffimg"
+ - "delaunay"
+ - "gts-config"
+ - "gts2dxf"
+ - "gts2oogl"
+ - "gts2stl"
+ - "gtscheck"
+ - "gtscompare"
+ - "gtstemplate"
+ - "stl2gts"
 versions:
  - "1.2.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bnem"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bnem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bnem", "latest": {"1.2.0--r41hdfd78af_0": "sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10"}, "docker": "quay.io/biocontainers/bioconductor-bnem", "aliases": {"acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "cwebp": "/usr/local/bin/cwebp", "delaunay": "/usr/local/bin/delaunay", "diffimg": "/usr/local/bin/diffimg"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bnem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bnem", "latest": {"1.2.0--r41hdfd78af_0": "sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:7ec1599582485219e623158561e5c51e867c21bd3c468d07fac880fb36edcd10"}, "docker": "quay.io/biocontainers/bioconductor-bnem", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bnem.
@@ -107,75 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### acyclic
+#### diffimg
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### annotate
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bcomps
-
-```bash
-$ singularity exec <container> /usr/local/bin/bcomps
-$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bdftogd
-
-```bash
-$ singularity exec <container> /usr/local/bin/bdftogd
-$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ccomps
-
-```bash
-$ singularity exec <container> /usr/local/bin/ccomps
-$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### circo
-
-```bash
-$ singularity exec <container> /usr/local/bin/circo
-$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cluster
-
-```bash
-$ singularity exec <container> /usr/local/bin/cluster
-$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cwebp
-
-```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/diffimg
+$ podman run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -188,12 +125,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/delaunay   -v ${PWD} -w ${PWD
 ```
 
 
-#### diffimg
+#### gts-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/diffimg
-$ podman run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gts-config
+$ podman run --it --rm --entrypoint /usr/local/bin/gts-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gts-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gts2dxf
+
+```bash
+$ singularity exec <container> /usr/local/bin/gts2dxf
+$ podman run --it --rm --entrypoint /usr/local/bin/gts2dxf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gts2dxf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gts2oogl
+
+```bash
+$ singularity exec <container> /usr/local/bin/gts2oogl
+$ podman run --it --rm --entrypoint /usr/local/bin/gts2oogl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gts2oogl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gts2stl
+
+```bash
+$ singularity exec <container> /usr/local/bin/gts2stl
+$ podman run --it --rm --entrypoint /usr/local/bin/gts2stl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gts2stl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gtscheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/gtscheck
+$ podman run --it --rm --entrypoint /usr/local/bin/gtscheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gtscheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gtscompare
+
+```bash
+$ singularity exec <container> /usr/local/bin/gtscompare
+$ podman run --it --rm --entrypoint /usr/local/bin/gtscompare   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gtscompare   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gtstemplate
+
+```bash
+$ singularity exec <container> /usr/local/bin/gtstemplate
+$ podman run --it --rm --entrypoint /usr/local/bin/gtstemplate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gtstemplate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stl2gts
+
+```bash
+$ singularity exec <container> /usr/local/bin/stl2gts
+$ podman run --it --rm --entrypoint /usr/local/bin/stl2gts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stl2gts   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

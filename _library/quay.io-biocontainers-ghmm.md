@@ -4,28 +4,30 @@ name:  "quay.io/biocontainers/ghmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghmm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ghmm/container.yaml"
-updated_at: "2022-10-29 05:31:03.886137"
+updated_at: "2022-10-29 07:36:35.701660"
 latest: "0.9--py27pl5321he3645e8_2"
 container_url: "https://biocontainers.pro/tools/ghmm"
 aliases:
+ - "ccache-swig"
  - "ghmm-config"
  - "probdist"
  - "scluster"
  - "smix_hmm"
- - "ccache-swig"
+ - "swig"
  - "cluster"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
  - "idle"
  - "python-config"
- - "python2"
- - "python2-config"
- - "python2.7"
- - "python2.7-config"
  - "smtpd.py"
- - "swig"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.9--py27pl5321he3645e8_2"
 description: "shpc-registry automated BioContainers addition for ghmm"
-config: {"url": "https://biocontainers.pro/tools/ghmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghmm", "latest": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "tags": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "docker": "quay.io/biocontainers/ghmm", "aliases": {"ghmm-config": "/usr/local/bin/ghmm-config", "probdist": "/usr/local/bin/probdist", "scluster": "/usr/local/bin/scluster", "smix_hmm": "/usr/local/bin/smix_hmm", "ccache-swig": "/usr/local/bin/ccache-swig", "cluster": "/usr/local/bin/cluster", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py", "swig": "/usr/local/bin/swig"}}
+config: {"url": "https://biocontainers.pro/tools/ghmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghmm", "latest": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "tags": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "docker": "quay.io/biocontainers/ghmm", "aliases": {"ccache-swig": "/usr/local/bin/ccache-swig", "ghmm-config": "/usr/local/bin/ghmm-config", "probdist": "/usr/local/bin/probdist", "scluster": "/usr/local/bin/scluster", "smix_hmm": "/usr/local/bin/smix_hmm", "swig": "/usr/local/bin/swig", "cluster": "/usr/local/bin/cluster", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghmm.
@@ -111,6 +113,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### ccache-swig
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccache-swig
+$ podman run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### ghmm-config
 
 ```bash
@@ -147,12 +158,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/smix_hmm   -v ${PWD} -w ${PWD
 ```
 
 
-#### ccache-swig
+#### swig
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ccache-swig
-$ podman run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/swig
+$ podman run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -162,6 +173,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/cluster
 $ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -183,42 +230,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w 
 ```
 
 
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### smtpd.py
 
 ```bash
@@ -228,12 +239,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD
 ```
 
 
-#### swig
+#### perl5.32.1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/swig
-$ podman run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

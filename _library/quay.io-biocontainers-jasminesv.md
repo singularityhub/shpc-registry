@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jasminesv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jasminesv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jasminesv/container.yaml"
-updated_at: "2022-10-29 05:45:27.736980"
+updated_at: "2022-10-29 07:47:12.507315"
 latest: "1.1.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jasminesv"
 aliases:
@@ -15,20 +15,20 @@ aliases:
  - "jasmine.jar"
  - "jasmine_igv.jar"
  - "jasmine_iris.jar"
- - "2to3-3.10"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "export2sam.pl"
+ - "racon"
+ - "rampler"
+ - "racon_wrapper"
+ - "sdust"
+ - "paftools.js"
+ - "minimap2"
+ - "k8"
  - "fasta-sanitize.pl"
- - "htsfile"
- - "idle3.10"
- - "interpolate_sam.pl"
+ - "plot-ampliconstats"
+ - "jaotc"
 versions:
  - "1.1.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jasminesv"
-config: {"url": "https://biocontainers.pro/tools/jasminesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jasminesv", "latest": {"1.1.5--hdfd78af_0": "sha256:a1523c661ee6e4c5d7d1a33559446454e7cd9cae70b011ce46cc00acbab4dd71"}, "tags": {"1.1.5--hdfd78af_0": "sha256:a1523c661ee6e4c5d7d1a33559446454e7cd9cae70b011ce46cc00acbab4dd71"}, "docker": "quay.io/biocontainers/jasminesv", "aliases": {"igv_jasmine": "/usr/local/bin/igv_jasmine", "iris": "/usr/local/bin/iris", "iris.jar": "/usr/local/bin/iris.jar", "jasmine": "/usr/local/bin/jasmine", "jasmine.jar": "/usr/local/bin/jasmine.jar", "jasmine_igv.jar": "/usr/local/bin/jasmine_igv.jar", "jasmine_iris.jar": "/usr/local/bin/jasmine_iris.jar", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "idle3.10": "/usr/local/bin/idle3.10", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/jasminesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jasminesv", "latest": {"1.1.5--hdfd78af_0": "sha256:a1523c661ee6e4c5d7d1a33559446454e7cd9cae70b011ce46cc00acbab4dd71"}, "tags": {"1.1.5--hdfd78af_0": "sha256:a1523c661ee6e4c5d7d1a33559446454e7cd9cae70b011ce46cc00acbab4dd71"}, "docker": "quay.io/biocontainers/jasminesv", "aliases": {"igv_jasmine": "/usr/local/bin/igv_jasmine", "iris": "/usr/local/bin/iris", "iris.jar": "/usr/local/bin/iris.jar", "jasmine": "/usr/local/bin/jasmine", "jasmine.jar": "/usr/local/bin/jasmine.jar", "jasmine_igv.jar": "/usr/local/bin/jasmine_igv.jar", "jasmine_iris.jar": "/usr/local/bin/jasmine_iris.jar", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "sdust": "/usr/local/bin/sdust", "paftools.js": "/usr/local/bin/paftools.js", "minimap2": "/usr/local/bin/minimap2", "k8": "/usr/local/bin/k8", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jasminesv.
@@ -177,57 +177,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/jasmine_iris.jar   -v ${PWD} 
 ```
 
 
-#### 2to3-3.10
+#### racon
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/racon
+$ podman run --it --rm --entrypoint /usr/local/bin/racon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/racon   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### rampler
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rampler
+$ podman run --it --rm --entrypoint /usr/local/bin/rampler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rampler   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### racon_wrapper
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/racon_wrapper
+$ podman run --it --rm --entrypoint /usr/local/bin/racon_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/racon_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### sdust
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sdust
+$ podman run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sdust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### paftools.js
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/paftools.js
+$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### export2sam.pl
+#### minimap2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/export2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### k8
+
+```bash
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -240,30 +249,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD}
 ```
 
 
-#### htsfile
+#### plot-ampliconstats
 
 ```bash
-$ singularity exec <container> /usr/local/bin/htsfile
-$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plot-ampliconstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-ampliconstats   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.10
+#### jaotc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### interpolate_sam.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

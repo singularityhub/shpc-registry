@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/aletsch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aletsch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aletsch/container.yaml"
-updated_at: "2022-10-29 05:49:17.188869"
+updated_at: "2022-10-29 07:50:01.548839"
 latest: "1.0.3--hefd527f_4"
 container_url: "https://biocontainers.pro/tools/aletsch"
 aliases:
  - "aletsch"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "1.0.3--hefd527f_4"
 description: "shpc-registry automated BioContainers addition for aletsch"
-config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aletsch.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aletsch   -v ${PWD} -w ${PWD}
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

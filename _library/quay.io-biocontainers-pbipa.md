@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbipa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbipa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pbipa/container.yaml"
-updated_at: "2022-10-29 05:37:35.585891"
+updated_at: "2022-10-29 07:41:23.084369"
 latest: "1.8.0--hbd632db_1"
 container_url: "https://biocontainers.pro/tools/pbipa"
 aliases:
@@ -22,20 +22,20 @@ aliases:
  - "nighthawk"
  - "pancake"
  - "pblayout"
- - "2to3-3.10"
- - "ace2sam"
- - "bgzip"
- - "blast2sam.pl"
- - "bowtie2sam.pl"
- - "brotli"
+ - "plac_runner.py"
+ - "yte"
+ - "racon"
+ - "rampler"
+ - "racon_wrapper"
+ - "pulptest"
  - "cbc"
  - "clp"
- - "cwebp"
- - "dwebp"
+ - "snakemake"
+ - "snakemake-bash-completion"
 versions:
  - "1.8.0--hbd632db_1"
 description: "shpc-registry automated BioContainers addition for pbipa"
-config: {"url": "https://biocontainers.pro/tools/pbipa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbipa", "latest": {"1.8.0--hbd632db_1": "sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395"}, "tags": {"1.8.0--hbd632db_1": "sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395"}, "docker": "quay.io/biocontainers/pbipa", "aliases": {"falconc": "/usr/local/bin/falconc", "ipa": "/usr/local/bin/ipa", "ipa2-task": "/usr/local/bin/ipa2-task", "ipa2_graph_to_contig": "/usr/local/bin/ipa2_graph_to_contig", "ipa2_ovlp_to_graph": "/usr/local/bin/ipa2_ovlp_to_graph", "ipa_purge_dups": "/usr/local/bin/ipa_purge_dups", "ipa_purge_dups_calcuts": "/usr/local/bin/ipa_purge_dups_calcuts", "ipa_purge_dups_get_seqs": "/usr/local/bin/ipa_purge_dups_get_seqs", "ipa_purge_dups_ngscstat": "/usr/local/bin/ipa_purge_dups_ngscstat", "ipa_purge_dups_pbcstat": "/usr/local/bin/ipa_purge_dups_pbcstat", "ipa_purge_dups_split_fa": "/usr/local/bin/ipa_purge_dups_split_fa", "nighthawk": "/usr/local/bin/nighthawk", "pancake": "/usr/local/bin/pancake", "pblayout": "/usr/local/bin/pblayout", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "brotli": "/usr/local/bin/brotli", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp"}}
+config: {"url": "https://biocontainers.pro/tools/pbipa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbipa", "latest": {"1.8.0--hbd632db_1": "sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395"}, "tags": {"1.8.0--hbd632db_1": "sha256:bccb1909c5acb769b5cdd6173d406f3da45b695150099d451c17d6dfd1f26395"}, "docker": "quay.io/biocontainers/pbipa", "aliases": {"falconc": "/usr/local/bin/falconc", "ipa": "/usr/local/bin/ipa", "ipa2-task": "/usr/local/bin/ipa2-task", "ipa2_graph_to_contig": "/usr/local/bin/ipa2_graph_to_contig", "ipa2_ovlp_to_graph": "/usr/local/bin/ipa2_ovlp_to_graph", "ipa_purge_dups": "/usr/local/bin/ipa_purge_dups", "ipa_purge_dups_calcuts": "/usr/local/bin/ipa_purge_dups_calcuts", "ipa_purge_dups_get_seqs": "/usr/local/bin/ipa_purge_dups_get_seqs", "ipa_purge_dups_ngscstat": "/usr/local/bin/ipa_purge_dups_ngscstat", "ipa_purge_dups_pbcstat": "/usr/local/bin/ipa_purge_dups_pbcstat", "ipa_purge_dups_split_fa": "/usr/local/bin/ipa_purge_dups_split_fa", "nighthawk": "/usr/local/bin/nighthawk", "pancake": "/usr/local/bin/pancake", "pblayout": "/usr/local/bin/pblayout", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "racon": "/usr/local/bin/racon", "rampler": "/usr/local/bin/rampler", "racon_wrapper": "/usr/local/bin/racon_wrapper", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbipa.
@@ -247,57 +247,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pblayout   -v ${PWD} -w ${PWD
 ```
 
 
-#### 2to3-3.10
+#### plac_runner.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/plac_runner.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plac_runner.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### yte
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/yte
+$ podman run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/yte   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bgzip
+#### racon
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/racon
+$ podman run --it --rm --entrypoint /usr/local/bin/racon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/racon   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blast2sam.pl
+#### rampler
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blast2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rampler
+$ podman run --it --rm --entrypoint /usr/local/bin/rampler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rampler   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2sam.pl
+#### racon_wrapper
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/racon_wrapper
+$ podman run --it --rm --entrypoint /usr/local/bin/racon_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/racon_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### pulptest
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pulptest
+$ podman run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pulptest   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -319,21 +319,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### cwebp
+#### snakemake
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snakemake
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dwebp
+#### snakemake-bash-completion
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dwebp
-$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/snakemake-bash-completion
+$ podman run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/snakemake-bash-completion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

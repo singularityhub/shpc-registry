@@ -4,18 +4,14 @@ name:  "quay.io/biocontainers/expat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/expat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/expat/container.yaml"
-updated_at: "2022-10-29 05:33:17.252146"
+updated_at: "2022-10-29 07:38:13.258898"
 latest: "2.1.0--0"
 container_url: "https://biocontainers.pro/tools/expat"
-aliases:
- - "activate"
- - "conda"
- - "deactivate"
- - "xmlwf"
+
 versions:
  - "2.1.0--0"
 description: "shpc-registry automated BioContainers addition for expat"
-config: {"url": "https://biocontainers.pro/tools/expat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expat", "latest": {"2.1.0--0": "sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f"}, "tags": {"2.1.0--0": "sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f"}, "docker": "quay.io/biocontainers/expat", "aliases": {"activate": "/usr/local/bin/activate", "conda": "/usr/local/bin/conda", "deactivate": "/usr/local/bin/deactivate", "xmlwf": "/usr/local/bin/xmlwf"}}
+config: {"url": "https://biocontainers.pro/tools/expat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for expat", "latest": {"2.1.0--0": "sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f"}, "tags": {"2.1.0--0": "sha256:66b31c6f6e2771418f024b60a5582907dc792971b25cd72ce7718967b568523f"}, "docker": "quay.io/biocontainers/expat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/expat.
@@ -101,41 +97,14 @@ $ singularity inspect -d <container>
 ```
 
 
-#### activate
+
+#### expat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/activate
-$ podman run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity run <container>
+$ podman run --rm  -v ${PWD} -w ${PWD} <container>
+$ docker run --rm  -v ${PWD} -w ${PWD} <container>
 ```
-
-
-#### conda
-
-```bash
-$ singularity exec <container> /usr/local/bin/conda
-$ podman run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### deactivate
-
-```bash
-$ singularity exec <container> /usr/local/bin/deactivate
-$ podman run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### xmlwf
-
-```bash
-$ singularity exec <container> /usr/local/bin/xmlwf
-$ podman run --it --rm --entrypoint /usr/local/bin/xmlwf   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/xmlwf   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
 
 
 In the above, the `<container>` directive will reference an actual container provided

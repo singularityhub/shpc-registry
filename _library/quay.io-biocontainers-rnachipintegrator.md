@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/rnachipintegrator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnachipintegrator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rnachipintegrator/container.yaml"
-updated_at: "2022-10-29 05:46:58.836775"
+updated_at: "2022-10-29 07:48:19.348115"
 latest: "2.0.0--py_1"
 container_url: "https://biocontainers.pro/tools/rnachipintegrator"
 aliases:
  - "RnaChipIntegrator"
  - "vba_extract.py"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "2.0.0--py_1"
 description: "shpc-registry automated BioContainers addition for rnachipintegrator"
-config: {"url": "https://biocontainers.pro/tools/rnachipintegrator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnachipintegrator", "latest": {"2.0.0--py_1": "sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6"}, "tags": {"2.0.0--py_1": "sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6"}, "docker": "quay.io/biocontainers/rnachipintegrator", "aliases": {"RnaChipIntegrator": "/usr/local/bin/RnaChipIntegrator", "vba_extract.py": "/usr/local/bin/vba_extract.py"}}
+config: {"url": "https://biocontainers.pro/tools/rnachipintegrator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnachipintegrator", "latest": {"2.0.0--py_1": "sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6"}, "tags": {"2.0.0--py_1": "sha256:d198d63246c57c95dd73075ee3a930b8740fa2af2f0ed4032398cf683aa152a6"}, "docker": "quay.io/biocontainers/rnachipintegrator", "aliases": {"RnaChipIntegrator": "/usr/local/bin/RnaChipIntegrator", "vba_extract.py": "/usr/local/bin/vba_extract.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnachipintegrator.
@@ -114,6 +119,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/RnaChipIntegrator   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/vba_extract.py
 $ podman run --it --rm --entrypoint /usr/local/bin/vba_extract.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vba_extract.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

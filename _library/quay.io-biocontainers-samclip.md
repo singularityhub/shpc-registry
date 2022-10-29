@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/samclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samclip/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samclip/container.yaml"
-updated_at: "2022-10-29 05:55:29.335695"
+updated_at: "2022-10-29 07:54:33.890247"
 latest: "0.4.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/samclip"
 aliases:
- - "perl5.32.0"
  - "samclip"
+ - "perl5.32.0"
+ - "streamzip"
 versions:
  - "0.4.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for samclip"
-config: {"url": "https://biocontainers.pro/tools/samclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samclip", "latest": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "tags": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "docker": "quay.io/biocontainers/samclip", "aliases": {"perl5.32.0": "/usr/local/bin/perl5.32.0", "samclip": "/usr/local/bin/samclip"}}
+config: {"url": "https://biocontainers.pro/tools/samclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samclip", "latest": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "tags": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "docker": "quay.io/biocontainers/samclip", "aliases": {"samclip": "/usr/local/bin/samclip", "perl5.32.0": "/usr/local/bin/perl5.32.0", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samclip.
@@ -99,6 +100,15 @@ $ singularity inspect -d <container>
 ```
 
 
+#### samclip
+
+```bash
+$ singularity exec <container> /usr/local/bin/samclip
+$ podman run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### perl5.32.0
 
 ```bash
@@ -108,12 +118,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${P
 ```
 
 
-#### samclip
+#### streamzip
 
 ```bash
-$ singularity exec <container> /usr/local/bin/samclip
-$ podman run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

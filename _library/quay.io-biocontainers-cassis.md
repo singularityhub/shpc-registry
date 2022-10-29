@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cassis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cassis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cassis/container.yaml"
-updated_at: "2022-10-29 05:43:53.534726"
+updated_at: "2022-10-29 07:46:02.478714"
 latest: "0.0.20120106--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cassis"
 aliases:
@@ -12,6 +12,7 @@ aliases:
  - "lastz"
  - "lastz_32"
  - "lastz_D"
+ - "perl5.32.0"
  - "dvipdf"
  - "eps2eps"
  - "gs"
@@ -21,11 +22,10 @@ aliases:
  - "gslj"
  - "gslp"
  - "gsnd"
- - "lprsetup.sh"
 versions:
  - "0.0.20120106--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for cassis"
-config: {"url": "https://biocontainers.pro/tools/cassis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cassis", "latest": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "tags": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "docker": "quay.io/biocontainers/cassis", "aliases": {"cassis": "/usr/local/bin/cassis", "lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp", "gsnd": "/usr/local/bin/gsnd", "lprsetup.sh": "/usr/local/bin/lprsetup.sh"}}
+config: {"url": "https://biocontainers.pro/tools/cassis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cassis", "latest": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "tags": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "docker": "quay.io/biocontainers/cassis", "aliases": {"cassis": "/usr/local/bin/cassis", "lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "perl5.32.0": "/usr/local/bin/perl5.32.0", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp", "gsnd": "/usr/local/bin/gsnd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cassis.
@@ -147,6 +147,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lastz_D   -v ${PWD} -w ${PWD}
 ```
 
 
+#### perl5.32.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### dvipdf
 
 ```bash
@@ -225,15 +234,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/gsnd
 $ podman run --it --rm --entrypoint /usr/local/bin/gsnd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gsnd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### lprsetup.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/lprsetup.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/lprsetup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/lprsetup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

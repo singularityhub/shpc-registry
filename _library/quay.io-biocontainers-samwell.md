@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/samwell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samwell/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samwell/container.yaml"
-updated_at: "2022-10-29 05:58:18.798562"
+updated_at: "2022-10-29 07:56:36.681836"
 latest: "0.0.4--py39hbf8eff0_1"
 container_url: "https://biocontainers.pro/tools/samwell"
 aliases:
- - "2to3-3.9"
+ - "docutils"
  - "cygdb"
  - "cython"
  - "cythonize"
- - "docutils"
- - "idle3.9"
- - "pydoc3.9"
- - "python3.9"
- - "python3.9-config"
+ - "rst2html4.py"
+ - "rst2html5.py"
  - "rst2html.py"
+ - "rst2latex.py"
+ - "rst2man.py"
+ - "rst2odt.py"
 versions:
  - "0.0.4--py39hbf8eff0_1"
 description: "shpc-registry automated BioContainers addition for samwell"
-config: {"url": "https://biocontainers.pro/tools/samwell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samwell", "latest": {"0.0.4--py39hbf8eff0_1": "sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b"}, "tags": {"0.0.4--py39hbf8eff0_1": "sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b"}, "docker": "quay.io/biocontainers/samwell", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "docutils": "/usr/local/bin/docutils", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "rst2html.py": "/usr/local/bin/rst2html.py"}}
+config: {"url": "https://biocontainers.pro/tools/samwell", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samwell", "latest": {"0.0.4--py39hbf8eff0_1": "sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b"}, "tags": {"0.0.4--py39hbf8eff0_1": "sha256:4f02faf3cb58c793cd24e733143d8be372133c11f7fe06b7d60ae9837289237b"}, "docker": "quay.io/biocontainers/samwell", "aliases": {"docutils": "/usr/local/bin/docutils", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samwell.
@@ -107,12 +107,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### 2to3-3.9
+#### docutils
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/docutils
+$ podman run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -143,48 +143,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PW
 ```
 
 
-#### docutils
+#### rst2html4.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/docutils
-$ podman run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html4.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html4.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html4.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### idle3.9
+#### rst2html5.py
 
 ```bash
-$ singularity exec <container> /usr/local/bin/idle3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### pydoc3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/pydoc3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.9
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python3.9-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python3.9-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/rst2html5.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2html5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2html5.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +167,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/rst2html.py
 $ podman run --it --rm --entrypoint /usr/local/bin/rst2html.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rst2html.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2latex.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2latex.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2latex.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2latex.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2man.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2man.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rst2odt.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/rst2odt.py
+$ podman run --it --rm --entrypoint /usr/local/bin/rst2odt.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rst2odt.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

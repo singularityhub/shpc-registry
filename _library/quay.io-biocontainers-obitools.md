@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/obitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/obitools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/obitools/container.yaml"
-updated_at: "2022-10-29 05:49:10.696477"
+updated_at: "2022-10-29 07:49:56.756259"
 latest: "1.2.13--py27h9801fc8_4"
 container_url: "https://biocontainers.pro/tools/obitools"
 aliases:
@@ -16,6 +16,8 @@ aliases:
  - "extractreads"
  - "extractreads2"
  - "illuminapairedend"
+ - "iptest2"
+ - "ipython2"
  - "ngsfilter"
  - "obiaddtaxids"
  - "obiannotate"
@@ -42,20 +44,20 @@ aliases:
  - "obitaxonomy"
  - "obiuniq"
  - "oligotag"
- - "idle"
  - "iptest"
- - "iptest2"
  - "ipython"
- - "ipython2"
  - "pygmentize"
- - "python-config"
- - "python2"
  - "python2-config"
+ - "python2.7-config"
+ - "python2"
  - "python2.7"
+ - "idle"
+ - "python-config"
+ - "smtpd.py"
 versions:
  - "1.2.13--py27h9801fc8_4"
 description: "shpc-registry automated BioContainers addition for obitools"
-config: {"url": "https://biocontainers.pro/tools/obitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for obitools", "latest": {"1.2.13--py27h9801fc8_4": "sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4"}, "tags": {"1.2.13--py27h9801fc8_4": "sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4"}, "docker": "quay.io/biocontainers/obitools", "aliases": {"ali2consensus": "/usr/local/bin/ali2consensus", "ecodbtaxstat": "/usr/local/bin/ecodbtaxstat", "ecotag": "/usr/local/bin/ecotag", "ecotaxspecificity": "/usr/local/bin/ecotaxspecificity", "ecotaxstat": "/usr/local/bin/ecotaxstat", "extractreads": "/usr/local/bin/extractreads", "extractreads2": "/usr/local/bin/extractreads2", "illuminapairedend": "/usr/local/bin/illuminapairedend", "ngsfilter": "/usr/local/bin/ngsfilter", "obiaddtaxids": "/usr/local/bin/obiaddtaxids", "obiannotate": "/usr/local/bin/obiannotate", "obiclean": "/usr/local/bin/obiclean", "obicomplement": "/usr/local/bin/obicomplement", "obiconvert": "/usr/local/bin/obiconvert", "obicount": "/usr/local/bin/obicount", "obicut": "/usr/local/bin/obicut", "obidistribute": "/usr/local/bin/obidistribute", "obiextract": "/usr/local/bin/obiextract", "obigrep": "/usr/local/bin/obigrep", "obihead": "/usr/local/bin/obihead", "obijoinpairedend": "/usr/local/bin/obijoinpairedend", "obipr2": "/usr/local/bin/obipr2", "obisample": "/usr/local/bin/obisample", "obiselect": "/usr/local/bin/obiselect", "obisilva": "/usr/local/bin/obisilva", "obisort": "/usr/local/bin/obisort", "obisplit": "/usr/local/bin/obisplit", "obistat": "/usr/local/bin/obistat", "obisubset": "/usr/local/bin/obisubset", "obitab": "/usr/local/bin/obitab", "obitail": "/usr/local/bin/obitail", "obitaxonomy": "/usr/local/bin/obitaxonomy", "obiuniq": "/usr/local/bin/obiuniq", "oligotag": "/usr/local/bin/oligotag", "idle": "/usr/local/bin/idle", "iptest": "/usr/local/bin/iptest", "iptest2": "/usr/local/bin/iptest2", "ipython": "/usr/local/bin/ipython", "ipython2": "/usr/local/bin/ipython2", "pygmentize": "/usr/local/bin/pygmentize", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/obitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for obitools", "latest": {"1.2.13--py27h9801fc8_4": "sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4"}, "tags": {"1.2.13--py27h9801fc8_4": "sha256:c71ee5146f362c785d9edd05be7b4a0b7b5e101ff42a7a912734ca746a988fb4"}, "docker": "quay.io/biocontainers/obitools", "aliases": {"ali2consensus": "/usr/local/bin/ali2consensus", "ecodbtaxstat": "/usr/local/bin/ecodbtaxstat", "ecotag": "/usr/local/bin/ecotag", "ecotaxspecificity": "/usr/local/bin/ecotaxspecificity", "ecotaxstat": "/usr/local/bin/ecotaxstat", "extractreads": "/usr/local/bin/extractreads", "extractreads2": "/usr/local/bin/extractreads2", "illuminapairedend": "/usr/local/bin/illuminapairedend", "iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "ngsfilter": "/usr/local/bin/ngsfilter", "obiaddtaxids": "/usr/local/bin/obiaddtaxids", "obiannotate": "/usr/local/bin/obiannotate", "obiclean": "/usr/local/bin/obiclean", "obicomplement": "/usr/local/bin/obicomplement", "obiconvert": "/usr/local/bin/obiconvert", "obicount": "/usr/local/bin/obicount", "obicut": "/usr/local/bin/obicut", "obidistribute": "/usr/local/bin/obidistribute", "obiextract": "/usr/local/bin/obiextract", "obigrep": "/usr/local/bin/obigrep", "obihead": "/usr/local/bin/obihead", "obijoinpairedend": "/usr/local/bin/obijoinpairedend", "obipr2": "/usr/local/bin/obipr2", "obisample": "/usr/local/bin/obisample", "obiselect": "/usr/local/bin/obiselect", "obisilva": "/usr/local/bin/obisilva", "obisort": "/usr/local/bin/obisort", "obisplit": "/usr/local/bin/obisplit", "obistat": "/usr/local/bin/obistat", "obisubset": "/usr/local/bin/obisubset", "obitab": "/usr/local/bin/obitab", "obitail": "/usr/local/bin/obitail", "obitaxonomy": "/usr/local/bin/obitaxonomy", "obiuniq": "/usr/local/bin/obiuniq", "oligotag": "/usr/local/bin/oligotag", "iptest": "/usr/local/bin/iptest", "ipython": "/usr/local/bin/ipython", "pygmentize": "/usr/local/bin/pygmentize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/obitools.
@@ -210,6 +212,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extractreads2   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/illuminapairedend
 $ podman run --it --rm --entrypoint /usr/local/bin/illuminapairedend   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/illuminapairedend   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### iptest2
+
+```bash
+$ singularity exec <container> /usr/local/bin/iptest2
+$ podman run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipython2
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipython2
+$ podman run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -447,30 +467,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/oligotag   -v ${PWD} -w ${PWD
 ```
 
 
-#### idle
-
-```bash
-$ singularity exec <container> /usr/local/bin/idle
-$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### iptest
 
 ```bash
 $ singularity exec <container> /usr/local/bin/iptest
 $ podman run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/iptest   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### iptest2
-
-```bash
-$ singularity exec <container> /usr/local/bin/iptest2
-$ podman run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/iptest2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -483,39 +485,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ipython   -v ${PWD} -w ${PWD}
 ```
 
 
-#### ipython2
-
-```bash
-$ singularity exec <container> /usr/local/bin/ipython2
-$ podman run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ipython2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### pygmentize
 
 ```bash
 $ singularity exec <container> /usr/local/bin/pygmentize
 $ podman run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -528,12 +503,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w
 ```
 
 
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### python2.7
 
 ```bash
 $ singularity exec <container> /usr/local/bin/python2.7
 $ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

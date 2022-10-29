@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/longqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/longqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/longqc/container.yaml"
-updated_at: "2022-10-29 05:31:30.315340"
+updated_at: "2022-10-29 07:36:54.933799"
 latest: "1.2.0c--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/longqc"
 aliases:
@@ -21,20 +21,20 @@ aliases:
  - "lq_sequel.py"
  - "lq_utils.py"
  - "minimap2-coverage"
- - "2to3-3.9"
+ - "mirror_server"
+ - "mirror_server_stop"
+ - "fonttools"
+ - "pyftmerge"
+ - "pyftsubset"
+ - "ttx"
  - "brotli"
  - "f2py3.9"
- - "fonttools"
- - "gif2h5"
- - "h52gif"
- - "h5c++"
- - "h5cc"
- - "h5clear"
- - "h5copy"
+ - "opj_compress"
+ - "opj_decompress"
 versions:
  - "1.2.0c--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for longqc"
-config: {"url": "https://biocontainers.pro/tools/longqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longqc", "latest": {"1.2.0c--hdfd78af_0": "sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a"}, "tags": {"1.2.0c--hdfd78af_0": "sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a"}, "docker": "quay.io/biocontainers/longqc", "aliases": {"_version.py": "/usr/local/bin/_version.py", "longQC.py": "/usr/local/bin/longQC.py", "lq_adapt.py": "/usr/local/bin/lq_adapt.py", "lq_coverage.py": "/usr/local/bin/lq_coverage.py", "lq_exec.py": "/usr/local/bin/lq_exec.py", "lq_gamma.py": "/usr/local/bin/lq_gamma.py", "lq_gcfrac.py": "/usr/local/bin/lq_gcfrac.py", "lq_mask.py": "/usr/local/bin/lq_mask.py", "lq_nanopore.py": "/usr/local/bin/lq_nanopore.py", "lq_rs.py": "/usr/local/bin/lq_rs.py", "lq_sequel.py": "/usr/local/bin/lq_sequel.py", "lq_utils.py": "/usr/local/bin/lq_utils.py", "minimap2-coverage": "/usr/local/bin/minimap2-coverage", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy"}}
+config: {"url": "https://biocontainers.pro/tools/longqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for longqc", "latest": {"1.2.0c--hdfd78af_0": "sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a"}, "tags": {"1.2.0c--hdfd78af_0": "sha256:da5016444c31af60d75262f182fa0d398b78f9579468c15c2104c9475af2dc9a"}, "docker": "quay.io/biocontainers/longqc", "aliases": {"_version.py": "/usr/local/bin/_version.py", "longQC.py": "/usr/local/bin/longQC.py", "lq_adapt.py": "/usr/local/bin/lq_adapt.py", "lq_coverage.py": "/usr/local/bin/lq_coverage.py", "lq_exec.py": "/usr/local/bin/lq_exec.py", "lq_gamma.py": "/usr/local/bin/lq_gamma.py", "lq_gcfrac.py": "/usr/local/bin/lq_gcfrac.py", "lq_mask.py": "/usr/local/bin/lq_mask.py", "lq_nanopore.py": "/usr/local/bin/lq_nanopore.py", "lq_rs.py": "/usr/local/bin/lq_rs.py", "lq_sequel.py": "/usr/local/bin/lq_sequel.py", "lq_utils.py": "/usr/local/bin/lq_utils.py", "minimap2-coverage": "/usr/local/bin/minimap2-coverage", "mirror_server": "/usr/local/bin/mirror_server", "mirror_server_stop": "/usr/local/bin/mirror_server_stop", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.9": "/usr/local/bin/f2py3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/longqc.
@@ -237,12 +237,57 @@ $ docker run --it --rm --entrypoint /usr/local/bin/minimap2-coverage   -v ${PWD}
 ```
 
 
-#### 2to3-3.9
+#### mirror_server
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.9
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mirror_server
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mirror_server_stop
+
+```bash
+$ singularity exec <container> /usr/local/bin/mirror_server_stop
+$ podman run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mirror_server_stop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyftmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyftsubset
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyftsubset
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftsubset   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ttx
+
+```bash
+$ singularity exec <container> /usr/local/bin/ttx
+$ podman run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -264,66 +309,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD}
 ```
 
 
-#### fonttools
+#### opj_compress
 
 ```bash
-$ singularity exec <container> /usr/local/bin/fonttools
-$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### gif2h5
+#### opj_decompress
 
 ```bash
-$ singularity exec <container> /usr/local/bin/gif2h5
-$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h52gif
-
-```bash
-$ singularity exec <container> /usr/local/bin/h52gif
-$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5c++
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5c++
-$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5cc
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5cc
-$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5clear
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5clear
-$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### h5copy
-
-```bash
-$ singularity exec <container> /usr/local/bin/h5copy
-$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,23 +4,23 @@ name:  "quay.io/biocontainers/bioconductor-ggmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ggmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ggmsa/container.yaml"
-updated_at: "2022-10-29 05:52:50.103664"
+updated_at: "2022-10-29 07:52:38.028149"
 latest: "1.0.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ggmsa"
 aliases:
- - "cct"
- - "cs2cs"
- - "geod"
- - "gie"
+ - "projsync"
  - "invgeod"
  - "invproj"
- - "proj"
  - "projinfo"
- - "projsync"
+ - "cct"
+ - "gie"
+ - "cs2cs"
+ - "geod"
+ - "proj"
 versions:
  - "1.0.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ggmsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggmsa", "latest": {"1.0.0--r41hdfd78af_0": "sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e"}, "docker": "quay.io/biocontainers/bioconductor-ggmsa", "aliases": {"cct": "/usr/local/bin/cct", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "gie": "/usr/local/bin/gie", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "proj": "/usr/local/bin/proj", "projinfo": "/usr/local/bin/projinfo", "projsync": "/usr/local/bin/projsync"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ggmsa", "latest": {"1.0.0--r41hdfd78af_0": "sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e"}, "docker": "quay.io/biocontainers/bioconductor-ggmsa", "aliases": {"projsync": "/usr/local/bin/projsync", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ggmsa.
@@ -106,39 +106,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### cct
+#### projsync
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cct
-$ podman run --it --rm --entrypoint /usr/local/bin/cct   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cct   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### cs2cs
-
-```bash
-$ singularity exec <container> /usr/local/bin/cs2cs
-$ podman run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### geod
-
-```bash
-$ singularity exec <container> /usr/local/bin/geod
-$ podman run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gie
-
-```bash
-$ singularity exec <container> /usr/local/bin/gie
-$ podman run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/projsync
+$ podman run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -160,15 +133,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD}
 ```
 
 
-#### proj
-
-```bash
-$ singularity exec <container> /usr/local/bin/proj
-$ podman run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### projinfo
 
 ```bash
@@ -178,12 +142,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/projinfo   -v ${PWD} -w ${PWD
 ```
 
 
-#### projsync
+#### cct
 
 ```bash
-$ singularity exec <container> /usr/local/bin/projsync
-$ podman run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cct
+$ podman run --it --rm --entrypoint /usr/local/bin/cct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cct   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gie
+
+```bash
+$ singularity exec <container> /usr/local/bin/gie
+$ podman run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cs2cs
+
+```bash
+$ singularity exec <container> /usr/local/bin/cs2cs
+$ podman run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### geod
+
+```bash
+$ singularity exec <container> /usr/local/bin/geod
+$ podman run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### proj
+
+```bash
+$ singularity exec <container> /usr/local/bin/proj
+$ podman run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

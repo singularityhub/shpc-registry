@@ -4,18 +4,18 @@ name:  "quay.io/biocontainers/rnabridge-align"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnabridge-align/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rnabridge-align/container.yaml"
-updated_at: "2022-10-29 05:38:20.894361"
+updated_at: "2022-10-29 07:41:56.587898"
 latest: "1.0.1--hefd527f_4"
 container_url: "https://biocontainers.pro/tools/rnabridge-align"
 aliases:
  - "rnabridge-align"
- - "bgzip"
  - "htsfile"
+ - "bgzip"
  - "tabix"
 versions:
  - "1.0.1--hefd527f_4"
 description: "shpc-registry automated BioContainers addition for rnabridge-align"
-config: {"url": "https://biocontainers.pro/tools/rnabridge-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabridge-align", "latest": {"1.0.1--hefd527f_4": "sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5"}, "tags": {"1.0.1--hefd527f_4": "sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5"}, "docker": "quay.io/biocontainers/rnabridge-align", "aliases": {"rnabridge-align": "/usr/local/bin/rnabridge-align", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/rnabridge-align", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnabridge-align", "latest": {"1.0.1--hefd527f_4": "sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5"}, "tags": {"1.0.1--hefd527f_4": "sha256:a0ec6458724051da16962849e49ece50527f373c78978481d570157f5e8ac9f5"}, "docker": "quay.io/biocontainers/rnabridge-align", "aliases": {"rnabridge-align": "/usr/local/bin/rnabridge-align", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnabridge-align.
@@ -110,21 +110,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rnabridge-align   -v ${PWD} -
 ```
 
 
-#### bgzip
-
-```bash
-$ singularity exec <container> /usr/local/bin/bgzip
-$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### htsfile
 
 ```bash
 $ singularity exec <container> /usr/local/bin/htsfile
 $ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

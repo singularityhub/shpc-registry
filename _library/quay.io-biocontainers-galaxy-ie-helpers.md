@@ -4,27 +4,27 @@ name:  "quay.io/biocontainers/galaxy-ie-helpers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-ie-helpers/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-ie-helpers/container.yaml"
-updated_at: "2022-10-29 05:38:31.206557"
+updated_at: "2022-10-29 07:42:04.162295"
 latest: "0.2.5--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/galaxy-ie-helpers"
 aliases:
  - "get"
  - "get_user_history"
  - "put"
- - "2to3-3.8"
  - "asadmin"
  - "bundle_image"
  - "cfadmin"
- - "chardetect"
  - "cq"
  - "cwutil"
  - "dynamodb_dump"
  - "dynamodb_load"
  - "elbadmin"
+ - "fetch_file"
+ - "glacier"
 versions:
  - "0.2.5--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for galaxy-ie-helpers"
-config: {"url": "https://biocontainers.pro/tools/galaxy-ie-helpers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ie-helpers", "latest": {"0.2.5--pyh864c0ab_1": "sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f"}, "docker": "quay.io/biocontainers/galaxy-ie-helpers", "aliases": {"get": "/usr/local/bin/get", "get_user_history": "/usr/local/bin/get_user_history", "put": "/usr/local/bin/put", "2to3-3.8": "/usr/local/bin/2to3-3.8", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "chardetect": "/usr/local/bin/chardetect", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-ie-helpers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-ie-helpers", "latest": {"0.2.5--pyh864c0ab_1": "sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f"}, "tags": {"0.2.5--pyh864c0ab_1": "sha256:418165f38475a8a6bcdb43a14d702622dce39bd9abcda354417127d3673cba4f"}, "docker": "quay.io/biocontainers/galaxy-ie-helpers", "aliases": {"get": "/usr/local/bin/get", "get_user_history": "/usr/local/bin/get_user_history", "put": "/usr/local/bin/put", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-ie-helpers.
@@ -137,15 +137,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/put   -v ${PWD} -w ${PWD} <co
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### asadmin
 
 ```bash
@@ -170,15 +161,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/cfadmin
 $ podman run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### chardetect
-
-```bash
-$ singularity exec <container> /usr/local/bin/chardetect
-$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -224,6 +206,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/elbadmin
 $ podman run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fetch_file
+
+```bash
+$ singularity exec <container> /usr/local/bin/fetch_file
+$ podman run --it --rm --entrypoint /usr/local/bin/fetch_file   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fetch_file   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glacier
+
+```bash
+$ singularity exec <container> /usr/local/bin/glacier
+$ podman run --it --rm --entrypoint /usr/local/bin/glacier   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glacier   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

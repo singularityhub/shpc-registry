@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mothur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mothur/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mothur/container.yaml"
-updated_at: "2022-10-29 05:38:57.477177"
+updated_at: "2022-10-29 07:42:23.652914"
 latest: "1.48.0--h9f4bb92_2"
 container_url: "https://biocontainers.pro/tools/mothur"
 aliases:
@@ -40,20 +40,20 @@ aliases:
  - "vdb-passwd.2.9.6"
  - "vdb-unlock.2.9.6"
  - "vdb-validate.2.9.6"
- - "abi-dump"
  - "abi-dump.2"
- - "align-info"
  - "align-info.2"
- - "bam-load"
  - "bam-load.2"
- - "bl2seq"
- - "blastall"
- - "blastclust"
- - "blastpgp"
+ - "cache-mgr.2"
+ - "cg-load.2"
+ - "fasterq-dump.2"
+ - "fastq-dump.2"
+ - "illumina-dump.2"
+ - "kar.2"
+ - "kdbmeta.2"
 versions:
  - "1.48.0--h9f4bb92_2"
 description: "shpc-registry automated BioContainers addition for mothur"
-config: {"url": "https://biocontainers.pro/tools/mothur", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mothur", "latest": {"1.48.0--h9f4bb92_2": "sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c"}, "tags": {"1.48.0--h9f4bb92_2": "sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c"}, "docker": "quay.io/biocontainers/mothur", "aliases": {"abi-dump.2.9.6": "/usr/local/bin/abi-dump.2.9.6", "align-info.2.9.6": "/usr/local/bin/align-info.2.9.6", "bam-load.2.9.6": "/usr/local/bin/bam-load.2.9.6", "cache-mgr.2.9.6": "/usr/local/bin/cache-mgr.2.9.6", "cg-load.2.9.6": "/usr/local/bin/cg-load.2.9.6", "fasterq-dump.2.9.6": "/usr/local/bin/fasterq-dump.2.9.6", "fastq-dump.2.9.6": "/usr/local/bin/fastq-dump.2.9.6", "illumina-dump.2.9.6": "/usr/local/bin/illumina-dump.2.9.6", "kar.2.9.6": "/usr/local/bin/kar.2.9.6", "kdbmeta.2.9.6": "/usr/local/bin/kdbmeta.2.9.6", "kget.2.9.6": "/usr/local/bin/kget.2.9.6", "latf-load.2.9.6": "/usr/local/bin/latf-load.2.9.6", "mothur": "/usr/local/bin/mothur", "prefetch.2.9.6": "/usr/local/bin/prefetch.2.9.6", "rcexplain.2.9.6": "/usr/local/bin/rcexplain.2.9.6", "sam-dump.2.9.6": "/usr/local/bin/sam-dump.2.9.6", "sff-dump.2.9.6": "/usr/local/bin/sff-dump.2.9.6", "sra-pileup.2.9.6": "/usr/local/bin/sra-pileup.2.9.6", "sra-sort.2.9.6": "/usr/local/bin/sra-sort.2.9.6", "sra-stat.2.9.6": "/usr/local/bin/sra-stat.2.9.6", "srapath.2.9.6": "/usr/local/bin/srapath.2.9.6", "test-sra.2.9.6": "/usr/local/bin/test-sra.2.9.6", "uchime": "/usr/local/bin/uchime", "vdb-config.2.9.6": "/usr/local/bin/vdb-config.2.9.6", "vdb-copy.2.9.6": "/usr/local/bin/vdb-copy.2.9.6", "vdb-decrypt.2.9.6": "/usr/local/bin/vdb-decrypt.2.9.6", "vdb-dump.2.9.6": "/usr/local/bin/vdb-dump.2.9.6", "vdb-encrypt.2.9.6": "/usr/local/bin/vdb-encrypt.2.9.6", "vdb-lock.2.9.6": "/usr/local/bin/vdb-lock.2.9.6", "vdb-passwd.2.9.6": "/usr/local/bin/vdb-passwd.2.9.6", "vdb-unlock.2.9.6": "/usr/local/bin/vdb-unlock.2.9.6", "vdb-validate.2.9.6": "/usr/local/bin/vdb-validate.2.9.6", "abi-dump": "/usr/local/bin/abi-dump", "abi-dump.2": "/usr/local/bin/abi-dump.2", "align-info": "/usr/local/bin/align-info", "align-info.2": "/usr/local/bin/align-info.2", "bam-load": "/usr/local/bin/bam-load", "bam-load.2": "/usr/local/bin/bam-load.2", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp"}}
+config: {"url": "https://biocontainers.pro/tools/mothur", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mothur", "latest": {"1.48.0--h9f4bb92_2": "sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c"}, "tags": {"1.48.0--h9f4bb92_2": "sha256:7ae311b9be8901036abd5eb205b1ee0eef2695c92fa0ceee518d627d2f35ee0c"}, "docker": "quay.io/biocontainers/mothur", "aliases": {"abi-dump.2.9.6": "/usr/local/bin/abi-dump.2.9.6", "align-info.2.9.6": "/usr/local/bin/align-info.2.9.6", "bam-load.2.9.6": "/usr/local/bin/bam-load.2.9.6", "cache-mgr.2.9.6": "/usr/local/bin/cache-mgr.2.9.6", "cg-load.2.9.6": "/usr/local/bin/cg-load.2.9.6", "fasterq-dump.2.9.6": "/usr/local/bin/fasterq-dump.2.9.6", "fastq-dump.2.9.6": "/usr/local/bin/fastq-dump.2.9.6", "illumina-dump.2.9.6": "/usr/local/bin/illumina-dump.2.9.6", "kar.2.9.6": "/usr/local/bin/kar.2.9.6", "kdbmeta.2.9.6": "/usr/local/bin/kdbmeta.2.9.6", "kget.2.9.6": "/usr/local/bin/kget.2.9.6", "latf-load.2.9.6": "/usr/local/bin/latf-load.2.9.6", "mothur": "/usr/local/bin/mothur", "prefetch.2.9.6": "/usr/local/bin/prefetch.2.9.6", "rcexplain.2.9.6": "/usr/local/bin/rcexplain.2.9.6", "sam-dump.2.9.6": "/usr/local/bin/sam-dump.2.9.6", "sff-dump.2.9.6": "/usr/local/bin/sff-dump.2.9.6", "sra-pileup.2.9.6": "/usr/local/bin/sra-pileup.2.9.6", "sra-sort.2.9.6": "/usr/local/bin/sra-sort.2.9.6", "sra-stat.2.9.6": "/usr/local/bin/sra-stat.2.9.6", "srapath.2.9.6": "/usr/local/bin/srapath.2.9.6", "test-sra.2.9.6": "/usr/local/bin/test-sra.2.9.6", "uchime": "/usr/local/bin/uchime", "vdb-config.2.9.6": "/usr/local/bin/vdb-config.2.9.6", "vdb-copy.2.9.6": "/usr/local/bin/vdb-copy.2.9.6", "vdb-decrypt.2.9.6": "/usr/local/bin/vdb-decrypt.2.9.6", "vdb-dump.2.9.6": "/usr/local/bin/vdb-dump.2.9.6", "vdb-encrypt.2.9.6": "/usr/local/bin/vdb-encrypt.2.9.6", "vdb-lock.2.9.6": "/usr/local/bin/vdb-lock.2.9.6", "vdb-passwd.2.9.6": "/usr/local/bin/vdb-passwd.2.9.6", "vdb-unlock.2.9.6": "/usr/local/bin/vdb-unlock.2.9.6", "vdb-validate.2.9.6": "/usr/local/bin/vdb-validate.2.9.6", "abi-dump.2": "/usr/local/bin/abi-dump.2", "align-info.2": "/usr/local/bin/align-info.2", "bam-load.2": "/usr/local/bin/bam-load.2", "cache-mgr.2": "/usr/local/bin/cache-mgr.2", "cg-load.2": "/usr/local/bin/cg-load.2", "fasterq-dump.2": "/usr/local/bin/fasterq-dump.2", "fastq-dump.2": "/usr/local/bin/fastq-dump.2", "illumina-dump.2": "/usr/local/bin/illumina-dump.2", "kar.2": "/usr/local/bin/kar.2", "kdbmeta.2": "/usr/local/bin/kdbmeta.2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mothur.
@@ -427,30 +427,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vdb-validate.2.9.6   -v ${PWD
 ```
 
 
-#### abi-dump
-
-```bash
-$ singularity exec <container> /usr/local/bin/abi-dump
-$ podman run --it --rm --entrypoint /usr/local/bin/abi-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abi-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### abi-dump.2
 
 ```bash
 $ singularity exec <container> /usr/local/bin/abi-dump.2
 $ podman run --it --rm --entrypoint /usr/local/bin/abi-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/abi-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### align-info
-
-```bash
-$ singularity exec <container> /usr/local/bin/align-info
-$ podman run --it --rm --entrypoint /usr/local/bin/align-info   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-info   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -463,15 +445,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/align-info.2   -v ${PWD} -w $
 ```
 
 
-#### bam-load
-
-```bash
-$ singularity exec <container> /usr/local/bin/bam-load
-$ podman run --it --rm --entrypoint /usr/local/bin/bam-load   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bam-load   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bam-load.2
 
 ```bash
@@ -481,39 +454,66 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bam-load.2   -v ${PWD} -w ${P
 ```
 
 
-#### bl2seq
+#### cache-mgr.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bl2seq
-$ podman run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cache-mgr.2
+$ podman run --it --rm --entrypoint /usr/local/bin/cache-mgr.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cache-mgr.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastall
+#### cg-load.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastall
-$ podman run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cg-load.2
+$ podman run --it --rm --entrypoint /usr/local/bin/cg-load.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cg-load.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastclust
+#### fasterq-dump.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastclust
-$ podman run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fasterq-dump.2
+$ podman run --it --rm --entrypoint /usr/local/bin/fasterq-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasterq-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### blastpgp
+#### fastq-dump.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/blastpgp
-$ podman run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fastq-dump.2
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### illumina-dump.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/illumina-dump.2
+$ podman run --it --rm --entrypoint /usr/local/bin/illumina-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/illumina-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kar.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/kar.2
+$ podman run --it --rm --entrypoint /usr/local/bin/kar.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kar.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### kdbmeta.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/kdbmeta.2
+$ podman run --it --rm --entrypoint /usr/local/bin/kdbmeta.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/kdbmeta.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

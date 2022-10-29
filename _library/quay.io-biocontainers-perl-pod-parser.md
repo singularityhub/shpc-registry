@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/perl-pod-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-parser/container.yaml"
-updated_at: "2022-10-29 05:46:03.976270"
+updated_at: "2022-10-29 07:47:38.946863"
 latest: "1.63--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-pod-parser"
 aliases:
  - "cpanm"
  - "podselect"
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "1.63--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-pod-parser"
-config: {"url": "https://biocontainers.pro/tools/perl-pod-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-parser", "latest": {"1.63--pl5321hdfd78af_2": "sha256:502409bec85a8db345b999f5b7a23de5fb1b792c70a6d4941c503b200a8becb0"}, "tags": {"1.63--pl5321hdfd78af_2": "sha256:502409bec85a8db345b999f5b7a23de5fb1b792c70a6d4941c503b200a8becb0"}, "docker": "quay.io/biocontainers/perl-pod-parser", "aliases": {"cpanm": "/usr/local/bin/cpanm", "podselect": "/usr/local/bin/podselect"}}
+config: {"url": "https://biocontainers.pro/tools/perl-pod-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-parser", "latest": {"1.63--pl5321hdfd78af_2": "sha256:502409bec85a8db345b999f5b7a23de5fb1b792c70a6d4941c503b200a8becb0"}, "tags": {"1.63--pl5321hdfd78af_2": "sha256:502409bec85a8db345b999f5b7a23de5fb1b792c70a6d4941c503b200a8becb0"}, "docker": "quay.io/biocontainers/perl-pod-parser", "aliases": {"cpanm": "/usr/local/bin/cpanm", "podselect": "/usr/local/bin/podselect", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-pod-parser.
@@ -114,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/podselect
 $ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

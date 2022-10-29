@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rismed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rismed/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-rismed/container.yaml"
-updated_at: "2022-10-29 05:40:27.304347"
+updated_at: "2022-10-29 07:43:29.182629"
 latest: "2.1.7--r40h6115d3f_2"
 container_url: "https://biocontainers.pro/tools/r-rismed"
 aliases:
@@ -13,10 +13,13 @@ aliases:
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "2.1.7--r40h6115d3f_2"
 description: "shpc-registry automated BioContainers addition for r-rismed"
-config: {"url": "https://biocontainers.pro/tools/r-rismed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rismed", "latest": {"2.1.7--r40h6115d3f_2": "sha256:2fd08e4dd9c9b7dfca74cc9ffb7edfa8e5a93a27a08c8d3360e9bc65d9257a9f"}, "tags": {"2.1.7--r40h6115d3f_2": "sha256:2fd08e4dd9c9b7dfca74cc9ffb7edfa8e5a93a27a08c8d3360e9bc65d9257a9f"}, "docker": "quay.io/biocontainers/r-rismed", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-rismed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rismed", "latest": {"2.1.7--r40h6115d3f_2": "sha256:2fd08e4dd9c9b7dfca74cc9ffb7edfa8e5a93a27a08c8d3360e9bc65d9257a9f"}, "tags": {"2.1.7--r40h6115d3f_2": "sha256:2fd08e4dd9c9b7dfca74cc9ffb7edfa8e5a93a27a08c8d3360e9bc65d9257a9f"}, "docker": "quay.io/biocontainers/r-rismed", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rismed.
@@ -144,6 +147,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

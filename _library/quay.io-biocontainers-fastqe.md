@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/fastqe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastqe/container.yaml"
-updated_at: "2022-10-29 05:30:19.746078"
+updated_at: "2022-10-29 07:36:03.176801"
 latest: "0.2.7--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/fastqe"
 aliases:
  - "fastqe"
  - "pyemojify"
- - "2to3-3.10"
  - "f2py3.10"
+ - "2to3-3.10"
  - "idle3.10"
  - "pydoc3.10"
  - "python3.1"
@@ -20,7 +20,7 @@ aliases:
 versions:
  - "0.2.7--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for fastqe"
-config: {"url": "https://biocontainers.pro/tools/fastqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqe", "latest": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "tags": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "docker": "quay.io/biocontainers/fastqe", "aliases": {"fastqe": "/usr/local/bin/fastqe", "pyemojify": "/usr/local/bin/pyemojify", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/fastqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqe", "latest": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "tags": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "docker": "quay.io/biocontainers/fastqe", "aliases": {"fastqe": "/usr/local/bin/fastqe", "pyemojify": "/usr/local/bin/pyemojify", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqe.
@@ -124,21 +124,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyemojify   -v ${PWD} -w ${PW
 ```
 
 
-#### 2to3-3.10
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### f2py3.10
 
 ```bash
 $ singularity exec <container> /usr/local/bin/f2py3.10
 $ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

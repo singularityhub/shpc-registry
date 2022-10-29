@@ -4,19 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-fission"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fission/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fission/container.yaml"
-updated_at: "2022-10-29 05:40:03.844958"
+updated_at: "2022-10-29 07:43:11.992386"
 latest: "1.8.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fission"
 aliases:
+ - ".bioconductor-fission-post-link.sh"
+ - ".bioconductor-fission-pre-unlink.sh"
  - "2to3-3.8"
  - "idle3.8"
  - "pydoc3.8"
  - "python3.8"
  - "python3.8-config"
+ - "gio-launch-desktop"
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fission"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fission", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fission", "latest": {"1.8.0--r40_0": "sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027"}, "tags": {"1.8.0--r40_0": "sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027"}, "docker": "quay.io/biocontainers/bioconductor-fission", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fission", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fission", "latest": {"1.8.0--r40_0": "sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027"}, "tags": {"1.8.0--r40_0": "sha256:3fb8a3c3578b01c932391716cd7a864eeb653350d876edc80e37717f9ed26027"}, "docker": "quay.io/biocontainers/bioconductor-fission", "aliases": {".bioconductor-fission-post-link.sh": "/usr/local/bin/.bioconductor-fission-post-link.sh", ".bioconductor-fission-pre-unlink.sh": "/usr/local/bin/.bioconductor-fission-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fission.
@@ -102,6 +107,24 @@ $ singularity inspect -d <container>
 ```
 
 
+#### .bioconductor-fission-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-fission-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-fission-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-fission-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-fission-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-fission-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-fission-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-fission-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### 2to3-3.8
 
 ```bash
@@ -144,6 +167,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/python3.8-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

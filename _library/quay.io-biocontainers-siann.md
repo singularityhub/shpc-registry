@@ -4,26 +4,27 @@ name:  "quay.io/biocontainers/siann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/siann/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/siann/container.yaml"
-updated_at: "2022-10-29 05:49:02.564434"
+updated_at: "2022-10-29 07:49:50.773830"
 latest: "1.3--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/siann"
 aliases:
  - "make_database.sh"
  - "siann.py"
- - "bowtie2"
- - "bowtie2-align-l"
- - "bowtie2-align-s"
- - "bowtie2-build"
- - "bowtie2-build-l"
- - "bowtie2-build-s"
- - "bowtie2-inspect"
- - "bowtie2-inspect-l"
- - "bowtie2-inspect-s"
+ - "time"
+ - "mapview"
+ - "mgaps"
+ - "run-mummer1"
+ - "run-mummer3"
  - "combineMUMs"
+ - "delta-filter"
+ - "dnadiff"
+ - "exact-tandems"
+ - "mummer"
+ - "mummerplot"
 versions:
  - "1.3--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for siann"
-config: {"url": "https://biocontainers.pro/tools/siann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for siann", "latest": {"1.3--hdfd78af_0": "sha256:4cff38262636330c11852de53cfa56c25ddb2d50ac5932e682bdf400f2672751"}, "tags": {"1.3--hdfd78af_0": "sha256:4cff38262636330c11852de53cfa56c25ddb2d50ac5932e682bdf400f2672751"}, "docker": "quay.io/biocontainers/siann", "aliases": {"make_database.sh": "/usr/local/bin/make_database.sh", "siann.py": "/usr/local/bin/siann.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "combineMUMs": "/usr/local/bin/combineMUMs"}}
+config: {"url": "https://biocontainers.pro/tools/siann", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for siann", "latest": {"1.3--hdfd78af_0": "sha256:4cff38262636330c11852de53cfa56c25ddb2d50ac5932e682bdf400f2672751"}, "tags": {"1.3--hdfd78af_0": "sha256:4cff38262636330c11852de53cfa56c25ddb2d50ac5932e682bdf400f2672751"}, "docker": "quay.io/biocontainers/siann", "aliases": {"make_database.sh": "/usr/local/bin/make_database.sh", "siann.py": "/usr/local/bin/siann.py", "time": "/usr/local/bin/time", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/siann.
@@ -127,84 +128,48 @@ $ docker run --it --rm --entrypoint /usr/local/bin/siann.py   -v ${PWD} -w ${PWD
 ```
 
 
-#### bowtie2
+#### time
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/time
+$ podman run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/time   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-align-l
+#### mapview
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mapview
+$ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-align-s
+#### mgaps
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-align-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/mgaps
+$ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build
+#### run-mummer1
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/run-mummer1
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bowtie2-build-l
+#### run-mummer3
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-build-s
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-build-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-inspect
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-inspect-l
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect-l
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bowtie2-inspect-s
-
-```bash
-$ singularity exec <container> /usr/local/bin/bowtie2-inspect-s
-$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/run-mummer3
+$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -214,6 +179,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/combineMUMs
 $ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### delta-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/delta-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dnadiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/dnadiff
+$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### exact-tandems
+
+```bash
+$ singularity exec <container> /usr/local/bin/exact-tandems
+$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mummer
+
+```bash
+$ singularity exec <container> /usr/local/bin/mummer
+$ podman run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mummerplot
+
+```bash
+$ singularity exec <container> /usr/local/bin/mummerplot
+$ podman run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

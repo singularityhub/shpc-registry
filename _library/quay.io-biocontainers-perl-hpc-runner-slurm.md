@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-hpc-runner-slurm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-slurm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-slurm/container.yaml"
-updated_at: "2022-10-29 05:55:35.318221"
+updated_at: "2022-10-29 07:54:38.223475"
 latest: "2.58--2"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-slurm"
 aliases:
@@ -15,20 +15,20 @@ aliases:
  - "slurmrunnerbasic.pl"
  - "slurmrunnerrsyslog.pl"
  - "testnodes.pl"
- - "c2ph"
- - "config_data"
- - "cpanm"
- - "dbilogstrip"
- - "dbiprof"
- - "dbiproxy"
  - "findrule"
- - "imgsize"
- - "json_xs"
  - "l4p-tmpl"
+ - "config_data"
+ - "perl5.22.0"
+ - "c2ph"
+ - "pstruct"
+ - "imgsize"
+ - "tpage"
+ - "ttree"
+ - "dbilogstrip"
 versions:
  - "2.58--2"
 description: "shpc-registry automated BioContainers addition for perl-hpc-runner-slurm"
-config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-slurm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-slurm", "latest": {"2.58--2": "sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856"}, "tags": {"2.58--2": "sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856"}, "docker": "quay.io/biocontainers/perl-hpc-runner-slurm", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "mcerunner.pl": "/usr/local/bin/mcerunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "c2ph": "/usr/local/bin/c2ph", "config_data": "/usr/local/bin/config_data", "cpanm": "/usr/local/bin/cpanm", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "findrule": "/usr/local/bin/findrule", "imgsize": "/usr/local/bin/imgsize", "json_xs": "/usr/local/bin/json_xs", "l4p-tmpl": "/usr/local/bin/l4p-tmpl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-slurm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-slurm", "latest": {"2.58--2": "sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856"}, "tags": {"2.58--2": "sha256:05f734982b9bfc7c4a4434b58aea238ff0bf9b11faec0bb9dcb13082e1a87856"}, "docker": "quay.io/biocontainers/perl-hpc-runner-slurm", "aliases": {"cpus.in": "/usr/local/bin/cpus.in", "cpus.pl": "/usr/local/bin/cpus.pl", "mcerunner.pl": "/usr/local/bin/mcerunner.pl", "slurmrunner.pl": "/usr/local/bin/slurmrunner.pl", "slurmrunnerbasic.pl": "/usr/local/bin/slurmrunnerbasic.pl", "slurmrunnerrsyslog.pl": "/usr/local/bin/slurmrunnerrsyslog.pl", "testnodes.pl": "/usr/local/bin/testnodes.pl", "findrule": "/usr/local/bin/findrule", "l4p-tmpl": "/usr/local/bin/l4p-tmpl", "config_data": "/usr/local/bin/config_data", "perl5.22.0": "/usr/local/bin/perl5.22.0", "c2ph": "/usr/local/bin/c2ph", "pstruct": "/usr/local/bin/pstruct", "imgsize": "/usr/local/bin/imgsize", "tpage": "/usr/local/bin/tpage", "ttree": "/usr/local/bin/ttree", "dbilogstrip": "/usr/local/bin/dbilogstrip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hpc-runner-slurm.
@@ -177,12 +177,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/testnodes.pl   -v ${PWD} -w $
 ```
 
 
-#### c2ph
+#### findrule
 
 ```bash
-$ singularity exec <container> /usr/local/bin/c2ph
-$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/findrule
+$ podman run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### l4p-tmpl
+
+```bash
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -195,48 +204,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${
 ```
 
 
-#### cpanm
+#### perl5.22.0
 
 ```bash
-$ singularity exec <container> /usr/local/bin/cpanm
-$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/perl5.22.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbilogstrip
+#### c2ph
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbilogstrip
-$ podman run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c2ph
+$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### dbiprof
+#### pstruct
 
 ```bash
-$ singularity exec <container> /usr/local/bin/dbiprof
-$ podman run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dbiproxy
-
-```bash
-$ singularity exec <container> /usr/local/bin/dbiproxy
-$ podman run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### findrule
-
-```bash
-$ singularity exec <container> /usr/local/bin/findrule
-$ podman run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pstruct
+$ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -249,21 +240,30 @@ $ docker run --it --rm --entrypoint /usr/local/bin/imgsize   -v ${PWD} -w ${PWD}
 ```
 
 
-#### json_xs
+#### tpage
 
 ```bash
-$ singularity exec <container> /usr/local/bin/json_xs
-$ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/tpage
+$ podman run --it --rm --entrypoint /usr/local/bin/tpage   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tpage   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### l4p-tmpl
+#### ttree
 
 ```bash
-$ singularity exec <container> /usr/local/bin/l4p-tmpl
-$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ttree
+$ podman run --it --rm --entrypoint /usr/local/bin/ttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ttree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbilogstrip
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbilogstrip
+$ podman run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

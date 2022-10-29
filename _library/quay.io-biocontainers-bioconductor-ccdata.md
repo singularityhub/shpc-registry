@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ccdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccdata/container.yaml"
-updated_at: "2022-10-29 05:40:37.739736"
+updated_at: "2022-10-29 07:43:36.771150"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccdata"
 aliases:
+ - ".bioconductor-ccdata-post-link.sh"
+ - ".bioconductor-ccdata-pre-unlink.sh"
  - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ccdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ccdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccdata", "latest": {"1.8.0--r351_0": "sha256:d229e9a26968a39afff6544f39e76cf2e15e544a0ef4ce0377aba8ad977cd46f"}, "tags": {"1.8.0--r351_0": "sha256:d229e9a26968a39afff6544f39e76cf2e15e544a0ef4ce0377aba8ad977cd46f"}, "docker": "quay.io/biocontainers/bioconductor-ccdata", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ccdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccdata", "latest": {"1.8.0--r351_0": "sha256:d229e9a26968a39afff6544f39e76cf2e15e544a0ef4ce0377aba8ad977cd46f"}, "tags": {"1.8.0--r351_0": "sha256:d229e9a26968a39afff6544f39e76cf2e15e544a0ef4ce0377aba8ad977cd46f"}, "docker": "quay.io/biocontainers/bioconductor-ccdata", "aliases": {".bioconductor-ccdata-post-link.sh": "/usr/local/bin/.bioconductor-ccdata-post-link.sh", ".bioconductor-ccdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ccdata-pre-unlink.sh", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ccdata.
@@ -95,6 +97,24 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
+```
+
+
+#### .bioconductor-ccdata-post-link.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ccdata-post-link.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### .bioconductor-ccdata-pre-unlink.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

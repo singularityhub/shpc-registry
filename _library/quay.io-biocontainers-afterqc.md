@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/afterqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/afterqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/afterqc/container.yaml"
-updated_at: "2022-10-29 05:55:34.787305"
+updated_at: "2022-10-29 07:54:37.828014"
 latest: "0.9.7--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/afterqc"
 aliases:
@@ -19,17 +19,17 @@ aliases:
  - "qcreporter.py"
  - "qualitycontrol.py"
  - "util.py"
+ - "python2-config"
+ - "python2.7-config"
+ - "python2"
+ - "python2.7"
  - "idle"
  - "python-config"
- - "python2"
- - "python2-config"
- - "python2.7"
- - "python2.7-config"
  - "smtpd.py"
 versions:
  - "0.9.7--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for afterqc"
-config: {"url": "https://biocontainers.pro/tools/afterqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for afterqc", "latest": {"0.9.7--hdfd78af_4": "sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60"}, "tags": {"0.9.7--hdfd78af_4": "sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60"}, "docker": "quay.io/biocontainers/afterqc", "aliases": {"after.py": "/usr/local/bin/after.py", "barcodeprocesser.py": "/usr/local/bin/barcodeprocesser.py", "bubbledetector.py": "/usr/local/bin/bubbledetector.py", "bubbleprocesser.py": "/usr/local/bin/bubbleprocesser.py", "circledetector.py": "/usr/local/bin/circledetector.py", "debubble.py": "/usr/local/bin/debubble.py", "fastq.py": "/usr/local/bin/fastq.py", "preprocesser.py": "/usr/local/bin/preprocesser.py", "qcreporter.py": "/usr/local/bin/qcreporter.py", "qualitycontrol.py": "/usr/local/bin/qualitycontrol.py", "util.py": "/usr/local/bin/util.py", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/afterqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for afterqc", "latest": {"0.9.7--hdfd78af_4": "sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60"}, "tags": {"0.9.7--hdfd78af_4": "sha256:5b4c109c25ac7808e9506097993854ba7fd06c542466b3606eb566452e91cb60"}, "docker": "quay.io/biocontainers/afterqc", "aliases": {"after.py": "/usr/local/bin/after.py", "barcodeprocesser.py": "/usr/local/bin/barcodeprocesser.py", "bubbledetector.py": "/usr/local/bin/bubbledetector.py", "bubbleprocesser.py": "/usr/local/bin/bubbleprocesser.py", "circledetector.py": "/usr/local/bin/circledetector.py", "debubble.py": "/usr/local/bin/debubble.py", "fastq.py": "/usr/local/bin/fastq.py", "preprocesser.py": "/usr/local/bin/preprocesser.py", "qcreporter.py": "/usr/local/bin/qcreporter.py", "qualitycontrol.py": "/usr/local/bin/qualitycontrol.py", "util.py": "/usr/local/bin/util.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/afterqc.
@@ -214,6 +214,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/util.py   -v ${PWD} -w ${PWD}
 ```
 
 
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### idle
 
 ```bash
@@ -229,42 +265,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/python-config
 $ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2
-$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### python2.7-config
-
-```bash
-$ singularity exec <container> /usr/local/bin/python2.7-config
-$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

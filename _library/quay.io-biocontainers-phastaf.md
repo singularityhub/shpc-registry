@@ -4,25 +4,25 @@ name:  "quay.io/biocontainers/phastaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phastaf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phastaf/container.yaml"
-updated_at: "2022-10-29 05:57:47.979421"
+updated_at: "2022-10-29 07:56:14.252960"
 latest: "0.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phastaf"
 aliases:
  - "phastaf"
- - "annotateBed"
  - "any2fasta"
+ - "basenc"
  - "b2sum"
- - "bamToBed"
- - "bamToFastq"
  - "base32"
  - "base64"
  - "basename"
- - "basenc"
- - "bed12ToBed6"
+ - "cat"
+ - "chcon"
+ - "chgrp"
+ - "chmod"
 versions:
  - "0.1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for phastaf"
-config: {"url": "https://biocontainers.pro/tools/phastaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phastaf", "latest": {"0.1.0--hdfd78af_1": "sha256:5c8b643451c1c135d67f8c2a4d95eca4f9cabc7fe4a3a6afad393d96dceb6a81"}, "tags": {"0.1.0--hdfd78af_1": "sha256:5c8b643451c1c135d67f8c2a4d95eca4f9cabc7fe4a3a6afad393d96dceb6a81"}, "docker": "quay.io/biocontainers/phastaf", "aliases": {"phastaf": "/usr/local/bin/phastaf", "annotateBed": "/usr/local/bin/annotateBed", "any2fasta": "/usr/local/bin/any2fasta", "b2sum": "/usr/local/bin/b2sum", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
+config: {"url": "https://biocontainers.pro/tools/phastaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phastaf", "latest": {"0.1.0--hdfd78af_1": "sha256:5c8b643451c1c135d67f8c2a4d95eca4f9cabc7fe4a3a6afad393d96dceb6a81"}, "tags": {"0.1.0--hdfd78af_1": "sha256:5c8b643451c1c135d67f8c2a4d95eca4f9cabc7fe4a3a6afad393d96dceb6a81"}, "docker": "quay.io/biocontainers/phastaf", "aliases": {"phastaf": "/usr/local/bin/phastaf", "any2fasta": "/usr/local/bin/any2fasta", "basenc": "/usr/local/bin/basenc", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phastaf.
@@ -117,15 +117,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phastaf   -v ${PWD} -w ${PWD}
 ```
 
 
-#### annotateBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/annotateBed
-$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### any2fasta
 
 ```bash
@@ -135,30 +126,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/any2fasta   -v ${PWD} -w ${PW
 ```
 
 
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
 #### b2sum
 
 ```bash
 $ singularity exec <container> /usr/local/bin/b2sum
 $ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamToBed
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToBed
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### bamToFastq
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToFastq
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -189,21 +171,39 @@ $ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD
 ```
 
 
-#### basenc
+#### cat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/basenc
-$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/cat
+$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bed12ToBed6
+#### chcon
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bed12ToBed6
-$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/chcon
+$ podman run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chgrp
+
+```bash
+$ singularity exec <container> /usr/local/bin/chgrp
+$ podman run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chmod
+
+```bash
+$ singularity exec <container> /usr/local/bin/chmod
+$ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

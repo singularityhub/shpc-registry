@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metapi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metapi/container.yaml"
-updated_at: "2022-10-29 05:41:59.649082"
+updated_at: "2022-10-29 07:44:37.446062"
 latest: "2.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metapi"
 aliases:
@@ -80,20 +80,20 @@ aliases:
  - "vdb-passwd.2.11.0"
  - "vdb-unlock.2.11.0"
  - "vdb-validate.2.11.0"
- - "2to3-3.10"
- - "abi-dump"
- - "abi-dump.2"
- - "align-cache"
+ - "stone"
  - "align-cache.2"
- - "align-info"
- - "align-info.2"
- - "bam-load"
- - "bam-load.2"
- - "brotli"
+ - "md5cp.2"
+ - "read-filter-redact.2"
+ - "sra-sort-cg.2"
+ - "vdb-diff.2"
+ - "align-cache"
+ - "fasterq-dump-orig"
+ - "fastq-dump-orig"
+ - "md5cp"
 versions:
  - "2.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metapi"
-config: {"url": "https://biocontainers.pro/tools/metapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metapi", "latest": {"2.4.0--pyhdfd78af_0": "sha256:a43dd515da46fa320151998a6d9eb9658618630af60b41bfb13f8a9b4c4d1bac"}, "tags": {"2.4.0--pyhdfd78af_0": "sha256:a43dd515da46fa320151998a6d9eb9658618630af60b41bfb13f8a9b4c4d1bac"}, "docker": "quay.io/biocontainers/metapi", "aliases": {"abi-dump.2.11.0": "/usr/local/bin/abi-dump.2.11.0", "abi-load": "/usr/local/bin/abi-load", "abi-load.2": "/usr/local/bin/abi-load.2", "abi-load.2.11.0": "/usr/local/bin/abi-load.2.11.0", "align-cache.2.11.0": "/usr/local/bin/align-cache.2.11.0", "align-info.2.11.0": "/usr/local/bin/align-info.2.11.0", "bam-load.2.11.0": "/usr/local/bin/bam-load.2.11.0", "cache-mgr.2.11.0": "/usr/local/bin/cache-mgr.2.11.0", "ccextract": "/usr/local/bin/ccextract", "ccextract.2": "/usr/local/bin/ccextract.2", "ccextract.2.11.0": "/usr/local/bin/ccextract.2.11.0", "cg-load.2.11.0": "/usr/local/bin/cg-load.2.11.0", "fasterq-dump-orig.2.11.0": "/usr/local/bin/fasterq-dump-orig.2.11.0", "fasterq-dump.2.11.0": "/usr/local/bin/fasterq-dump.2.11.0", "fastq-dump-orig.2.11.0": "/usr/local/bin/fastq-dump-orig.2.11.0", "fastq-dump.2.11.0": "/usr/local/bin/fastq-dump.2.11.0", "fastq-load": "/usr/local/bin/fastq-load", "fastq-load.2": "/usr/local/bin/fastq-load.2", "fastq-load.2.11.0": "/usr/local/bin/fastq-load.2.11.0", "fd": "/usr/local/bin/fd", "helicos-load": "/usr/local/bin/helicos-load", "helicos-load.2": "/usr/local/bin/helicos-load.2", "helicos-load.2.11.0": "/usr/local/bin/helicos-load.2.11.0", "illumina-dump.2.11.0": "/usr/local/bin/illumina-dump.2.11.0", "illumina-load": "/usr/local/bin/illumina-load", "illumina-load.2": "/usr/local/bin/illumina-load.2", "illumina-load.2.11.0": "/usr/local/bin/illumina-load.2.11.0", "kar.2.11.0": "/usr/local/bin/kar.2.11.0", "kdbmeta.2.11.0": "/usr/local/bin/kdbmeta.2.11.0", "kget.2.11.0": "/usr/local/bin/kget.2.11.0", "latf-load.2.11.0": "/usr/local/bin/latf-load.2.11.0", "md5cp.2.11.0": "/usr/local/bin/md5cp.2.11.0", "metapi": "/usr/local/bin/metapi", "pacbio-load": "/usr/local/bin/pacbio-load", "pacbio-load.2": "/usr/local/bin/pacbio-load.2", "pacbio-load.2.11.0": "/usr/local/bin/pacbio-load.2.11.0", "pacbio-loadxml": "/usr/local/bin/pacbio-loadxml", "pacbio-loadxml.2": "/usr/local/bin/pacbio-loadxml.2", "pacbio-loadxml.2.11.0": "/usr/local/bin/pacbio-loadxml.2.11.0", "prefetch-orig.2.11.0": "/usr/local/bin/prefetch-orig.2.11.0", "prefetch.2.11.0": "/usr/local/bin/prefetch.2.11.0", "rcexplain.2.11.0": "/usr/local/bin/rcexplain.2.11.0", "read-filter-redact.2.11.0": "/usr/local/bin/read-filter-redact.2.11.0", "sam-dump-orig.2.11.0": "/usr/local/bin/sam-dump-orig.2.11.0", "sam-dump.2.11.0": "/usr/local/bin/sam-dump.2.11.0", "sff-dump.2.11.0": "/usr/local/bin/sff-dump.2.11.0", "sff-load": "/usr/local/bin/sff-load", "sff-load.2": "/usr/local/bin/sff-load.2", "sff-load.2.11.0": "/usr/local/bin/sff-load.2.11.0", "sra-pileup-orig.2.11.0": "/usr/local/bin/sra-pileup-orig.2.11.0", "sra-pileup.2.11.0": "/usr/local/bin/sra-pileup.2.11.0", "sra-sort-cg.2.11.0": "/usr/local/bin/sra-sort-cg.2.11.0", "sra-sort.2.11.0": "/usr/local/bin/sra-sort.2.11.0", "sra-stat.2.11.0": "/usr/local/bin/sra-stat.2.11.0", "srapath-orig.2.11.0": "/usr/local/bin/srapath-orig.2.11.0", "srapath.2.11.0": "/usr/local/bin/srapath.2.11.0", "sratools.2.11.0": "/usr/local/bin/sratools.2.11.0", "srf-load": "/usr/local/bin/srf-load", "srf-load.2": "/usr/local/bin/srf-load.2", "srf-load.2.11.0": "/usr/local/bin/srf-load.2.11.0", "test-sra.2.11.0": "/usr/local/bin/test-sra.2.11.0", "vdb-config.2.11.0": "/usr/local/bin/vdb-config.2.11.0", "vdb-copy.2.11.0": "/usr/local/bin/vdb-copy.2.11.0", "vdb-decrypt.2.11.0": "/usr/local/bin/vdb-decrypt.2.11.0", "vdb-diff.2.11.0": "/usr/local/bin/vdb-diff.2.11.0", "vdb-dump-orig.2.11.0": "/usr/local/bin/vdb-dump-orig.2.11.0", "vdb-dump.2.11.0": "/usr/local/bin/vdb-dump.2.11.0", "vdb-encrypt.2.11.0": "/usr/local/bin/vdb-encrypt.2.11.0", "vdb-lock.2.11.0": "/usr/local/bin/vdb-lock.2.11.0", "vdb-passwd.2.11.0": "/usr/local/bin/vdb-passwd.2.11.0", "vdb-unlock.2.11.0": "/usr/local/bin/vdb-unlock.2.11.0", "vdb-validate.2.11.0": "/usr/local/bin/vdb-validate.2.11.0", "2to3-3.10": "/usr/local/bin/2to3-3.10", "abi-dump": "/usr/local/bin/abi-dump", "abi-dump.2": "/usr/local/bin/abi-dump.2", "align-cache": "/usr/local/bin/align-cache", "align-cache.2": "/usr/local/bin/align-cache.2", "align-info": "/usr/local/bin/align-info", "align-info.2": "/usr/local/bin/align-info.2", "bam-load": "/usr/local/bin/bam-load", "bam-load.2": "/usr/local/bin/bam-load.2", "brotli": "/usr/local/bin/brotli"}}
+config: {"url": "https://biocontainers.pro/tools/metapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metapi", "latest": {"2.4.0--pyhdfd78af_0": "sha256:a43dd515da46fa320151998a6d9eb9658618630af60b41bfb13f8a9b4c4d1bac"}, "tags": {"2.4.0--pyhdfd78af_0": "sha256:a43dd515da46fa320151998a6d9eb9658618630af60b41bfb13f8a9b4c4d1bac"}, "docker": "quay.io/biocontainers/metapi", "aliases": {"abi-dump.2.11.0": "/usr/local/bin/abi-dump.2.11.0", "abi-load": "/usr/local/bin/abi-load", "abi-load.2": "/usr/local/bin/abi-load.2", "abi-load.2.11.0": "/usr/local/bin/abi-load.2.11.0", "align-cache.2.11.0": "/usr/local/bin/align-cache.2.11.0", "align-info.2.11.0": "/usr/local/bin/align-info.2.11.0", "bam-load.2.11.0": "/usr/local/bin/bam-load.2.11.0", "cache-mgr.2.11.0": "/usr/local/bin/cache-mgr.2.11.0", "ccextract": "/usr/local/bin/ccextract", "ccextract.2": "/usr/local/bin/ccextract.2", "ccextract.2.11.0": "/usr/local/bin/ccextract.2.11.0", "cg-load.2.11.0": "/usr/local/bin/cg-load.2.11.0", "fasterq-dump-orig.2.11.0": "/usr/local/bin/fasterq-dump-orig.2.11.0", "fasterq-dump.2.11.0": "/usr/local/bin/fasterq-dump.2.11.0", "fastq-dump-orig.2.11.0": "/usr/local/bin/fastq-dump-orig.2.11.0", "fastq-dump.2.11.0": "/usr/local/bin/fastq-dump.2.11.0", "fastq-load": "/usr/local/bin/fastq-load", "fastq-load.2": "/usr/local/bin/fastq-load.2", "fastq-load.2.11.0": "/usr/local/bin/fastq-load.2.11.0", "fd": "/usr/local/bin/fd", "helicos-load": "/usr/local/bin/helicos-load", "helicos-load.2": "/usr/local/bin/helicos-load.2", "helicos-load.2.11.0": "/usr/local/bin/helicos-load.2.11.0", "illumina-dump.2.11.0": "/usr/local/bin/illumina-dump.2.11.0", "illumina-load": "/usr/local/bin/illumina-load", "illumina-load.2": "/usr/local/bin/illumina-load.2", "illumina-load.2.11.0": "/usr/local/bin/illumina-load.2.11.0", "kar.2.11.0": "/usr/local/bin/kar.2.11.0", "kdbmeta.2.11.0": "/usr/local/bin/kdbmeta.2.11.0", "kget.2.11.0": "/usr/local/bin/kget.2.11.0", "latf-load.2.11.0": "/usr/local/bin/latf-load.2.11.0", "md5cp.2.11.0": "/usr/local/bin/md5cp.2.11.0", "metapi": "/usr/local/bin/metapi", "pacbio-load": "/usr/local/bin/pacbio-load", "pacbio-load.2": "/usr/local/bin/pacbio-load.2", "pacbio-load.2.11.0": "/usr/local/bin/pacbio-load.2.11.0", "pacbio-loadxml": "/usr/local/bin/pacbio-loadxml", "pacbio-loadxml.2": "/usr/local/bin/pacbio-loadxml.2", "pacbio-loadxml.2.11.0": "/usr/local/bin/pacbio-loadxml.2.11.0", "prefetch-orig.2.11.0": "/usr/local/bin/prefetch-orig.2.11.0", "prefetch.2.11.0": "/usr/local/bin/prefetch.2.11.0", "rcexplain.2.11.0": "/usr/local/bin/rcexplain.2.11.0", "read-filter-redact.2.11.0": "/usr/local/bin/read-filter-redact.2.11.0", "sam-dump-orig.2.11.0": "/usr/local/bin/sam-dump-orig.2.11.0", "sam-dump.2.11.0": "/usr/local/bin/sam-dump.2.11.0", "sff-dump.2.11.0": "/usr/local/bin/sff-dump.2.11.0", "sff-load": "/usr/local/bin/sff-load", "sff-load.2": "/usr/local/bin/sff-load.2", "sff-load.2.11.0": "/usr/local/bin/sff-load.2.11.0", "sra-pileup-orig.2.11.0": "/usr/local/bin/sra-pileup-orig.2.11.0", "sra-pileup.2.11.0": "/usr/local/bin/sra-pileup.2.11.0", "sra-sort-cg.2.11.0": "/usr/local/bin/sra-sort-cg.2.11.0", "sra-sort.2.11.0": "/usr/local/bin/sra-sort.2.11.0", "sra-stat.2.11.0": "/usr/local/bin/sra-stat.2.11.0", "srapath-orig.2.11.0": "/usr/local/bin/srapath-orig.2.11.0", "srapath.2.11.0": "/usr/local/bin/srapath.2.11.0", "sratools.2.11.0": "/usr/local/bin/sratools.2.11.0", "srf-load": "/usr/local/bin/srf-load", "srf-load.2": "/usr/local/bin/srf-load.2", "srf-load.2.11.0": "/usr/local/bin/srf-load.2.11.0", "test-sra.2.11.0": "/usr/local/bin/test-sra.2.11.0", "vdb-config.2.11.0": "/usr/local/bin/vdb-config.2.11.0", "vdb-copy.2.11.0": "/usr/local/bin/vdb-copy.2.11.0", "vdb-decrypt.2.11.0": "/usr/local/bin/vdb-decrypt.2.11.0", "vdb-diff.2.11.0": "/usr/local/bin/vdb-diff.2.11.0", "vdb-dump-orig.2.11.0": "/usr/local/bin/vdb-dump-orig.2.11.0", "vdb-dump.2.11.0": "/usr/local/bin/vdb-dump.2.11.0", "vdb-encrypt.2.11.0": "/usr/local/bin/vdb-encrypt.2.11.0", "vdb-lock.2.11.0": "/usr/local/bin/vdb-lock.2.11.0", "vdb-passwd.2.11.0": "/usr/local/bin/vdb-passwd.2.11.0", "vdb-unlock.2.11.0": "/usr/local/bin/vdb-unlock.2.11.0", "vdb-validate.2.11.0": "/usr/local/bin/vdb-validate.2.11.0", "stone": "/usr/local/bin/stone", "align-cache.2": "/usr/local/bin/align-cache.2", "md5cp.2": "/usr/local/bin/md5cp.2", "read-filter-redact.2": "/usr/local/bin/read-filter-redact.2", "sra-sort-cg.2": "/usr/local/bin/sra-sort-cg.2", "vdb-diff.2": "/usr/local/bin/vdb-diff.2", "align-cache": "/usr/local/bin/align-cache", "fasterq-dump-orig": "/usr/local/bin/fasterq-dump-orig", "fastq-dump-orig": "/usr/local/bin/fastq-dump-orig", "md5cp": "/usr/local/bin/md5cp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metapi.
@@ -827,39 +827,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vdb-validate.2.11.0   -v ${PW
 ```
 
 
-#### 2to3-3.10
+#### stone
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.10
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### abi-dump
-
-```bash
-$ singularity exec <container> /usr/local/bin/abi-dump
-$ podman run --it --rm --entrypoint /usr/local/bin/abi-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abi-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### abi-dump.2
-
-```bash
-$ singularity exec <container> /usr/local/bin/abi-dump.2
-$ podman run --it --rm --entrypoint /usr/local/bin/abi-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/abi-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### align-cache
-
-```bash
-$ singularity exec <container> /usr/local/bin/align-cache
-$ podman run --it --rm --entrypoint /usr/local/bin/align-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/stone
+$ podman run --it --rm --entrypoint /usr/local/bin/stone   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stone   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -872,48 +845,75 @@ $ docker run --it --rm --entrypoint /usr/local/bin/align-cache.2   -v ${PWD} -w 
 ```
 
 
-#### align-info
+#### md5cp.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-info
-$ podman run --it --rm --entrypoint /usr/local/bin/align-info   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/md5cp.2
+$ podman run --it --rm --entrypoint /usr/local/bin/md5cp.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/md5cp.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### align-info.2
+#### read-filter-redact.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/align-info.2
-$ podman run --it --rm --entrypoint /usr/local/bin/align-info.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/align-info.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/read-filter-redact.2
+$ podman run --it --rm --entrypoint /usr/local/bin/read-filter-redact.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/read-filter-redact.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bam-load
+#### sra-sort-cg.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bam-load
-$ podman run --it --rm --entrypoint /usr/local/bin/bam-load   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bam-load   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/sra-sort-cg.2
+$ podman run --it --rm --entrypoint /usr/local/bin/sra-sort-cg.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sra-sort-cg.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### bam-load.2
+#### vdb-diff.2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/bam-load.2
-$ podman run --it --rm --entrypoint /usr/local/bin/bam-load.2   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bam-load.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/vdb-diff.2
+$ podman run --it --rm --entrypoint /usr/local/bin/vdb-diff.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vdb-diff.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### brotli
+#### align-cache
 
 ```bash
-$ singularity exec <container> /usr/local/bin/brotli
-$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/align-cache
+$ podman run --it --rm --entrypoint /usr/local/bin/align-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasterq-dump-orig
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasterq-dump-orig
+$ podman run --it --rm --entrypoint /usr/local/bin/fasterq-dump-orig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasterq-dump-orig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastq-dump-orig
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastq-dump-orig
+$ podman run --it --rm --entrypoint /usr/local/bin/fastq-dump-orig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastq-dump-orig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### md5cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/md5cp
+$ podman run --it --rm --entrypoint /usr/local/bin/md5cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/md5cp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

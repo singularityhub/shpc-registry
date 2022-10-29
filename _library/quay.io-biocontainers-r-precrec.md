@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/r-precrec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-precrec/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-precrec/container.yaml"
-updated_at: "2022-10-29 05:48:03.514320"
+updated_at: "2022-10-29 07:49:07.114334"
 latest: "0.9.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-precrec"
 aliases:
  - "tclsh8.5"
  - "wish8.5"
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "0.9.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-precrec"
-config: {"url": "https://biocontainers.pro/tools/r-precrec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-precrec", "latest": {"0.9.1--r3.4.1_0": "sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c"}, "tags": {"0.9.1--r3.4.1_0": "sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c"}, "docker": "quay.io/biocontainers/r-precrec", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/r-precrec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-precrec", "latest": {"0.9.1--r3.4.1_0": "sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c"}, "tags": {"0.9.1--r3.4.1_0": "sha256:cc1ffa47b8ce49be33767eba141a5294e76305ce20f324560ebee94ffdb7375c"}, "docker": "quay.io/biocontainers/r-precrec", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-precrec.
@@ -114,6 +116,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/wish8.5
 $ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

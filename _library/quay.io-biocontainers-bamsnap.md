@@ -4,13 +4,13 @@ name:  "quay.io/biocontainers/bamsnap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamsnap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamsnap/container.yaml"
-updated_at: "2022-10-29 05:46:22.290829"
+updated_at: "2022-10-29 07:47:52.495298"
 latest: "0.2.19--py_0"
 container_url: "https://biocontainers.pro/tools/bamsnap"
 aliases:
  - "bamsnap"
- - "2to3-3.7"
  - "faidx"
+ - "2to3-3.7"
  - "idle3.7"
  - "pydoc3.7"
  - "python3.7"
@@ -18,10 +18,11 @@ aliases:
  - "python3.7m"
  - "python3.7m-config"
  - "pyvenv-3.7"
+ - "jpgicc"
 versions:
  - "0.2.19--py_0"
 description: "shpc-registry automated BioContainers addition for bamsnap"
-config: {"url": "https://biocontainers.pro/tools/bamsnap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamsnap", "latest": {"0.2.19--py_0": "sha256:54a4ca9802065fd5a856c01b5e8729d1740f13ce7ee2cc43d2dc9d708c38ec41"}, "tags": {"0.2.19--py_0": "sha256:54a4ca9802065fd5a856c01b5e8729d1740f13ce7ee2cc43d2dc9d708c38ec41"}, "docker": "quay.io/biocontainers/bamsnap", "aliases": {"bamsnap": "/usr/local/bin/bamsnap", "2to3-3.7": "/usr/local/bin/2to3-3.7", "faidx": "/usr/local/bin/faidx", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/bamsnap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamsnap", "latest": {"0.2.19--py_0": "sha256:54a4ca9802065fd5a856c01b5e8729d1740f13ce7ee2cc43d2dc9d708c38ec41"}, "tags": {"0.2.19--py_0": "sha256:54a4ca9802065fd5a856c01b5e8729d1740f13ce7ee2cc43d2dc9d708c38ec41"}, "docker": "quay.io/biocontainers/bamsnap", "aliases": {"bamsnap": "/usr/local/bin/bamsnap", "faidx": "/usr/local/bin/faidx", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamsnap.
@@ -116,21 +117,21 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bamsnap   -v ${PWD} -w ${PWD}
 ```
 
 
-#### 2to3-3.7
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### faidx
 
 ```bash
 $ singularity exec <container> /usr/local/bin/faidx
 $ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -194,6 +195,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyvenv-3.7
 $ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

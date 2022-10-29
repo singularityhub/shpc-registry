@@ -4,15 +4,13 @@ name:  "quay.io/biocontainers/integron_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/integron_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/integron_finder/container.yaml"
-updated_at: "2022-10-29 05:58:22.633885"
+updated_at: "2022-10-29 07:56:39.429152"
 latest: "2.0rc6--py_0"
 container_url: "https://biocontainers.pro/tools/integron_finder"
 aliases:
  - "integron_finder"
  - "integron_merge"
  - "integron_split"
- - "2to3-3.8"
- - "alimask"
  - "cmalign"
  - "cmbuild"
  - "cmcalibrate"
@@ -21,10 +19,12 @@ aliases:
  - "cmfetch"
  - "cmpress"
  - "cmscan"
+ - "cmsearch"
+ - "cmstat"
 versions:
  - "2.0rc6--py_0"
 description: "shpc-registry automated BioContainers addition for integron_finder"
-config: {"url": "https://biocontainers.pro/tools/integron_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for integron_finder", "latest": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd"}, "tags": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd"}, "docker": "quay.io/biocontainers/integron_finder", "aliases": {"integron_finder": "/usr/local/bin/integron_finder", "integron_merge": "/usr/local/bin/integron_merge", "integron_split": "/usr/local/bin/integron_split", "2to3-3.8": "/usr/local/bin/2to3-3.8", "alimask": "/usr/local/bin/alimask", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan"}}
+config: {"url": "https://biocontainers.pro/tools/integron_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for integron_finder", "latest": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd"}, "tags": {"2.0rc6--py_0": "sha256:d8142e6e03ddb12d02be189e62846803eee97161ca396125af83e33158d119dd"}, "docker": "quay.io/biocontainers/integron_finder", "aliases": {"integron_finder": "/usr/local/bin/integron_finder", "integron_merge": "/usr/local/bin/integron_merge", "integron_split": "/usr/local/bin/integron_split", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/integron_finder.
@@ -137,24 +137,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/integron_split   -v ${PWD} -w
 ```
 
 
-#### 2to3-3.8
-
-```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.8
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### alimask
-
-```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### cmalign
 
 ```bash
@@ -224,6 +206,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cmpress   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/cmscan
 $ podman run --it --rm --entrypoint /usr/local/bin/cmscan   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cmscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmsearch
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmsearch
+$ podman run --it --rm --entrypoint /usr/local/bin/cmsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmstat
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmstat
+$ podman run --it --rm --entrypoint /usr/local/bin/cmstat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmstat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

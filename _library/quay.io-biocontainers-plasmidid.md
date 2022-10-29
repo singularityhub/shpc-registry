@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/plasmidid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidid/container.yaml"
-updated_at: "2022-10-29 05:30:52.454041"
+updated_at: "2022-10-29 07:36:27.307572"
 latest: "1.6.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/plasmidid"
 aliases:
@@ -38,20 +38,20 @@ aliases:
  - "summary_report_pid.py"
  - "summary_table.sh"
  - "tbl2asn-test"
- - "2to3-3.7"
- - "CA.pm"
- - "SOAPsh.pl"
- - "accn-at-a-time"
- - "ace.pl"
- - "ace2sam"
- - "acyclic"
- - "alimask"
- - "amino-acid-composition"
- - "annotate"
+ - "fix-sqn-date"
+ - "circos"
+ - "circos.exe"
+ - "compile.bat"
+ - "compile.make"
+ - "faketime"
+ - "gddiag"
+ - "list.modules"
+ - "real-tbl2asn"
+ - "test.modules"
 versions:
  - "1.6.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for plasmidid"
-config: {"url": "https://biocontainers.pro/tools/plasmidid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidid", "latest": {"1.6.5--hdfd78af_0": "sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f"}, "tags": {"1.6.5--hdfd78af_0": "sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f"}, "docker": "quay.io/biocontainers/plasmidid", "aliases": {"adapt_filter_coverage.sh": "/usr/local/bin/adapt_filter_coverage.sh", "blast_align.sh": "/usr/local/bin/blast_align.sh", "blast_to_bed.sh": "/usr/local/bin/blast_to_bed.sh", "blast_to_complete.sh": "/usr/local/bin/blast_to_complete.sh", "blast_to_link.sh": "/usr/local/bin/blast_to_link.sh", "bowtie_mapper.sh": "/usr/local/bin/bowtie_mapper.sh", "build_karyotype.sh": "/usr/local/bin/build_karyotype.sh", "calculate_seqlen.sh": "/usr/local/bin/calculate_seqlen.sh", "cdhit_cluster.sh": "/usr/local/bin/cdhit_cluster.sh", "check_dependencies.sh": "/usr/local/bin/check_dependencies.sh", "check_mandatory_files.sh": "/usr/local/bin/check_mandatory_files.sh", "coordinate_adapter.sh": "/usr/local/bin/coordinate_adapter.sh", "download_plasmid_database.py": "/usr/local/bin/download_plasmid_database.py", "draw_circos_images.sh": "/usr/local/bin/draw_circos_images.sh", "filter_fasta.sh": "/usr/local/bin/filter_fasta.sh", "get_coverage.sh": "/usr/local/bin/get_coverage.sh", "gff_to_bed.sh": "/usr/local/bin/gff_to_bed.sh", "mash_screener.sh": "/usr/local/bin/mash_screener.sh", "mashclust.py": "/usr/local/bin/mashclust.py", "ncbi_database_fetcher.sh": "/usr/local/bin/ncbi_database_fetcher.sh", "plasmidID": "/usr/local/bin/plasmidID", "process_cluster_output.sh": "/usr/local/bin/process_cluster_output.sh", "prokka_annotation.sh": "/usr/local/bin/prokka_annotation.sh", "quality_trim.sh": "/usr/local/bin/quality_trim.sh", "rename_from_fasta.sh": "/usr/local/bin/rename_from_fasta.sh", "sam_to_bam.sh": "/usr/local/bin/sam_to_bam.sh", "spades_assembly.sh": "/usr/local/bin/spades_assembly.sh", "summary_report_pid.py": "/usr/local/bin/summary_report_pid.py", "summary_table.sh": "/usr/local/bin/summary_table.sh", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "2to3-3.7": "/usr/local/bin/2to3-3.7", "CA.pm": "/usr/local/bin/CA.pm", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace.pl": "/usr/local/bin/ace.pl", "ace2sam": "/usr/local/bin/ace2sam", "acyclic": "/usr/local/bin/acyclic", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate"}}
+config: {"url": "https://biocontainers.pro/tools/plasmidid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidid", "latest": {"1.6.5--hdfd78af_0": "sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f"}, "tags": {"1.6.5--hdfd78af_0": "sha256:b8e8a9c07ff3144644d55cdcff0c6c4fd4b8fdf8f4f3d503c47e0d9ed84a315f"}, "docker": "quay.io/biocontainers/plasmidid", "aliases": {"adapt_filter_coverage.sh": "/usr/local/bin/adapt_filter_coverage.sh", "blast_align.sh": "/usr/local/bin/blast_align.sh", "blast_to_bed.sh": "/usr/local/bin/blast_to_bed.sh", "blast_to_complete.sh": "/usr/local/bin/blast_to_complete.sh", "blast_to_link.sh": "/usr/local/bin/blast_to_link.sh", "bowtie_mapper.sh": "/usr/local/bin/bowtie_mapper.sh", "build_karyotype.sh": "/usr/local/bin/build_karyotype.sh", "calculate_seqlen.sh": "/usr/local/bin/calculate_seqlen.sh", "cdhit_cluster.sh": "/usr/local/bin/cdhit_cluster.sh", "check_dependencies.sh": "/usr/local/bin/check_dependencies.sh", "check_mandatory_files.sh": "/usr/local/bin/check_mandatory_files.sh", "coordinate_adapter.sh": "/usr/local/bin/coordinate_adapter.sh", "download_plasmid_database.py": "/usr/local/bin/download_plasmid_database.py", "draw_circos_images.sh": "/usr/local/bin/draw_circos_images.sh", "filter_fasta.sh": "/usr/local/bin/filter_fasta.sh", "get_coverage.sh": "/usr/local/bin/get_coverage.sh", "gff_to_bed.sh": "/usr/local/bin/gff_to_bed.sh", "mash_screener.sh": "/usr/local/bin/mash_screener.sh", "mashclust.py": "/usr/local/bin/mashclust.py", "ncbi_database_fetcher.sh": "/usr/local/bin/ncbi_database_fetcher.sh", "plasmidID": "/usr/local/bin/plasmidID", "process_cluster_output.sh": "/usr/local/bin/process_cluster_output.sh", "prokka_annotation.sh": "/usr/local/bin/prokka_annotation.sh", "quality_trim.sh": "/usr/local/bin/quality_trim.sh", "rename_from_fasta.sh": "/usr/local/bin/rename_from_fasta.sh", "sam_to_bam.sh": "/usr/local/bin/sam_to_bam.sh", "spades_assembly.sh": "/usr/local/bin/spades_assembly.sh", "summary_report_pid.py": "/usr/local/bin/summary_report_pid.py", "summary_table.sh": "/usr/local/bin/summary_table.sh", "tbl2asn-test": "/usr/local/bin/tbl2asn-test", "fix-sqn-date": "/usr/local/bin/fix-sqn-date", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "faketime": "/usr/local/bin/faketime", "gddiag": "/usr/local/bin/gddiag", "list.modules": "/usr/local/bin/list.modules", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "test.modules": "/usr/local/bin/test.modules"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasmidid.
@@ -407,93 +407,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tbl2asn-test   -v ${PWD} -w $
 ```
 
 
-#### 2to3-3.7
+#### fix-sqn-date
 
 ```bash
-$ singularity exec <container> /usr/local/bin/2to3-3.7
-$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/fix-sqn-date
+$ podman run --it --rm --entrypoint /usr/local/bin/fix-sqn-date   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fix-sqn-date   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### CA.pm
+#### circos
 
 ```bash
-$ singularity exec <container> /usr/local/bin/CA.pm
-$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/circos
+$ podman run --it --rm --entrypoint /usr/local/bin/circos   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circos   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### SOAPsh.pl
+#### circos.exe
 
 ```bash
-$ singularity exec <container> /usr/local/bin/SOAPsh.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/circos.exe
+$ podman run --it --rm --entrypoint /usr/local/bin/circos.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circos.exe   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### accn-at-a-time
+#### compile.bat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/accn-at-a-time
-$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/compile.bat
+$ podman run --it --rm --entrypoint /usr/local/bin/compile.bat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile.bat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace.pl
+#### compile.make
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/compile.make
+$ podman run --it --rm --entrypoint /usr/local/bin/compile.make   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile.make   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### ace2sam
+#### faketime
 
 ```bash
-$ singularity exec <container> /usr/local/bin/ace2sam
-$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/faketime
+$ podman run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### acyclic
+#### gddiag
 
 ```bash
-$ singularity exec <container> /usr/local/bin/acyclic
-$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gddiag
+$ podman run --it --rm --entrypoint /usr/local/bin/gddiag   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gddiag   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### alimask
+#### list.modules
 
 ```bash
-$ singularity exec <container> /usr/local/bin/alimask
-$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/list.modules
+$ podman run --it --rm --entrypoint /usr/local/bin/list.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/list.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### amino-acid-composition
+#### real-tbl2asn
 
 ```bash
-$ singularity exec <container> /usr/local/bin/amino-acid-composition
-$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/real-tbl2asn
+$ podman run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### annotate
+#### test.modules
 
 ```bash
-$ singularity exec <container> /usr/local/bin/annotate
-$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/test.modules
+$ podman run --it --rm --entrypoint /usr/local/bin/test.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test.modules   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

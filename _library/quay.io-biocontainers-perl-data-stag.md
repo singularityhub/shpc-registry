@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/perl-data-stag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-stag/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-stag/container.yaml"
-updated_at: "2022-10-29 05:57:27.898154"
+updated_at: "2022-10-29 07:55:59.660643"
 latest: "0.14--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-data-stag"
 aliases:
- - "json_xs"
  - "stag-autoschema.pl"
  - "stag-db.pl"
  - "stag-diff.pl"
@@ -18,10 +17,11 @@ aliases:
  - "stag-flatten.pl"
  - "stag-grep.pl"
  - "stag-handle.pl"
+ - "stag-itext2simple.pl"
 versions:
  - "0.14--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-data-stag"
-config: {"url": "https://biocontainers.pro/tools/perl-data-stag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-stag", "latest": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "tags": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "docker": "quay.io/biocontainers/perl-data-stag", "aliases": {"json_xs": "/usr/local/bin/json_xs", "stag-autoschema.pl": "/usr/local/bin/stag-autoschema.pl", "stag-db.pl": "/usr/local/bin/stag-db.pl", "stag-diff.pl": "/usr/local/bin/stag-diff.pl", "stag-drawtree.pl": "/usr/local/bin/stag-drawtree.pl", "stag-filter.pl": "/usr/local/bin/stag-filter.pl", "stag-findsubtree.pl": "/usr/local/bin/stag-findsubtree.pl", "stag-flatten.pl": "/usr/local/bin/stag-flatten.pl", "stag-grep.pl": "/usr/local/bin/stag-grep.pl", "stag-handle.pl": "/usr/local/bin/stag-handle.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-data-stag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-stag", "latest": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "tags": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "docker": "quay.io/biocontainers/perl-data-stag", "aliases": {"stag-autoschema.pl": "/usr/local/bin/stag-autoschema.pl", "stag-db.pl": "/usr/local/bin/stag-db.pl", "stag-diff.pl": "/usr/local/bin/stag-diff.pl", "stag-drawtree.pl": "/usr/local/bin/stag-drawtree.pl", "stag-filter.pl": "/usr/local/bin/stag-filter.pl", "stag-findsubtree.pl": "/usr/local/bin/stag-findsubtree.pl", "stag-flatten.pl": "/usr/local/bin/stag-flatten.pl", "stag-grep.pl": "/usr/local/bin/stag-grep.pl", "stag-handle.pl": "/usr/local/bin/stag-handle.pl", "stag-itext2simple.pl": "/usr/local/bin/stag-itext2simple.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-data-stag.
@@ -107,15 +107,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### json_xs
-
-```bash
-$ singularity exec <container> /usr/local/bin/json_xs
-$ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### stag-autoschema.pl
 
 ```bash
@@ -194,6 +185,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/stag-grep.pl   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/stag-handle.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/stag-handle.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/stag-handle.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-itext2simple.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-itext2simple.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-itext2simple.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-itext2simple.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
