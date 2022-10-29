@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-asafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asafe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asafe/container.yaml"
-updated_at: "2022-10-29 17:46:02.311098"
+updated_at: "2022-10-29 17:51:50.595380"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asafe"
 aliases:

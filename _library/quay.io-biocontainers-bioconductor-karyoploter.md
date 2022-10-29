@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-karyoploter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-karyoploter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-karyoploter/container.yaml"
-updated_at: "2022-10-29 17:58:34.571957"
+updated_at: "2022-10-29 18:04:03.243247"
 latest: "1.8.5--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-karyoploter"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-htsfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htsfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htsfilter/container.yaml"
-updated_at: "2022-10-29 18:08:16.864592"
+updated_at: "2022-10-29 18:13:31.962154"
 latest: "1.34.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-htsfilter"
 

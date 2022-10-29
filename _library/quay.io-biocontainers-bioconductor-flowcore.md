@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-flowcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowcore/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowcore/container.yaml"
-updated_at: "2022-10-29 17:53:47.980629"
+updated_at: "2022-10-29 17:59:21.618387"
 latest: "2.6.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowcore"
 

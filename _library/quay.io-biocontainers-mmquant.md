@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mmquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mmquant/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mmquant/container.yaml"
-updated_at: "2022-10-29 18:21:28.278343"
+updated_at: "2022-10-29 18:26:33.528298"
 latest: "1.0.4--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/mmquant"
 aliases:

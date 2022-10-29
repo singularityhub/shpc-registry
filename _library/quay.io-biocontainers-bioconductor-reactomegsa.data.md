@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-reactomegsa.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
-updated_at: "2022-10-29 17:32:40.139284"
+updated_at: "2022-10-29 17:38:46.818930"
 latest: "1.8.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegsa.data"
 aliases:

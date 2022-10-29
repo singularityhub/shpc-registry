@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ribowaltz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribowaltz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ribowaltz/container.yaml"
-updated_at: "2022-10-29 18:26:38.691695"
+updated_at: "2022-10-29 18:31:43.941385"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ribowaltz"
 

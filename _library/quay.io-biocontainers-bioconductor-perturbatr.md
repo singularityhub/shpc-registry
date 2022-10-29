@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-perturbatr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-perturbatr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-perturbatr/container.yaml"
-updated_at: "2022-10-29 18:02:05.807499"
+updated_at: "2022-10-29 18:07:29.316268"
 latest: "1.8.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-perturbatr"
 aliases:

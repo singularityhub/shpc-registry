@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase1.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase1.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.1kgenomes.phase1.grch38/container.yaml"
-updated_at: "2022-10-29 17:50:04.813976"
+updated_at: "2022-10-29 17:55:44.655314"
 latest: "3.7.0--r36_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.1kgenomes.phase1.grch38"
 aliases:
