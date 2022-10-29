@@ -146,8 +146,8 @@ def main():
         image = "quay.io/biocontainers/%s" % image_name
 
         container_dir = os.path.join(args.registry, image)
-        # if os.path.exists(container_dir):
-        #    continue
+        if os.path.exists(container_dir):
+            continue
 
         print(f"Image {image} found in cache and not in registry!")
         aliases = shpc.utils.read_json(entry)
