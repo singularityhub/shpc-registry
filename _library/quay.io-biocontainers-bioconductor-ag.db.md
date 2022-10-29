@@ -4,18 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ag.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ag.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ag.db/container.yaml"
-updated_at: "2022-10-27 00:18:49.070645"
+updated_at: "2022-10-29 05:30:43.664546"
 latest: "3.2.3--r41hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-ag.db"
 aliases:
- - ".bioconductor-ag.db-post-link.sh"
- - ".bioconductor-ag.db-pre-unlink.sh"
- - ".bioconductor-org.at.tair.db-post-link.sh"
- - ".bioconductor-org.at.tair.db-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_8"
 description: "shpc-registry automated BioContainers addition for bioconductor-ag.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ag.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ag.db", "latest": {"3.2.3--r41hdfd78af_8": "sha256:12ebf86065b97cab40d1eeb1a0676343e9d74d1a3040564b8b681ccd2bf270da"}, "tags": {"3.2.3--r41hdfd78af_8": "sha256:12ebf86065b97cab40d1eeb1a0676343e9d74d1a3040564b8b681ccd2bf270da"}, "docker": "quay.io/biocontainers/bioconductor-ag.db", "aliases": {".bioconductor-ag.db-post-link.sh": "/usr/local/bin/.bioconductor-ag.db-post-link.sh", ".bioconductor-ag.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-ag.db-pre-unlink.sh", ".bioconductor-org.at.tair.db-post-link.sh": "/usr/local/bin/.bioconductor-org.at.tair.db-post-link.sh", ".bioconductor-org.at.tair.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-org.at.tair.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ag.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ag.db", "latest": {"3.2.3--r41hdfd78af_8": "sha256:12ebf86065b97cab40d1eeb1a0676343e9d74d1a3040564b8b681ccd2bf270da"}, "tags": {"3.2.3--r41hdfd78af_8": "sha256:12ebf86065b97cab40d1eeb1a0676343e9d74d1a3040564b8b681ccd2bf270da"}, "docker": "quay.io/biocontainers/bioconductor-ag.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ag.db.
@@ -101,39 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-ag.db-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ag.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ag.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ag.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-ag.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ag.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ag.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ag.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-org.at.tair.db-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-org.at.tair.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.at.tair.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.at.tair.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-org.at.tair.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-org.at.tair.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.at.tair.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.at.tair.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

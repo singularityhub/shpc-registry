@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-opossom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-opossom/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-opossom/container.yaml"
-updated_at: "2022-10-27 00:30:19.574269"
+updated_at: "2022-10-29 05:45:54.603573"
 latest: "2.8.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-opossom"
-
+aliases:
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r40h399db7b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-opossom"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-opossom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-opossom", "latest": {"2.8.0--r40h399db7b_1": "sha256:04f9f710ffb40cb770ff3252f709449ac806b211608158b5e0375ce77d1941d6"}, "tags": {"2.8.0--r40h399db7b_1": "sha256:04f9f710ffb40cb770ff3252f709449ac806b211608158b5e0375ce77d1941d6"}, "docker": "quay.io/biocontainers/bioconductor-opossom"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-opossom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-opossom", "latest": {"2.8.0--r40h399db7b_1": "sha256:04f9f710ffb40cb770ff3252f709449ac806b211608158b5e0375ce77d1941d6"}, "tags": {"2.8.0--r40h399db7b_1": "sha256:04f9f710ffb40cb770ff3252f709449ac806b211608158b5e0375ce77d1941d6"}, "docker": "quay.io/biocontainers/bioconductor-opossom", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-opossom.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-opossom
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

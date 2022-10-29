@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/bioconductor-rchemcpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rchemcpp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rchemcpp/container.yaml"
-updated_at: "2022-10-27 00:22:35.276949"
+updated_at: "2022-10-29 05:35:41.608484"
 latest: "2.21.1--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rchemcpp"
 aliases:
  - "croco-0.6-config"
  - "csslint-0.6"
+ - "2to3-3.7"
+ - "g-ir-annotation-tool"
+ - "g-ir-compiler"
+ - "g-ir-doc-tool"
+ - "g-ir-generate"
+ - "g-ir-inspect"
+ - "g-ir-scanner"
+ - "gdk-pixbuf-csource"
+ - "gdk-pixbuf-pixdata"
+ - "gdk-pixbuf-query-loaders"
 versions:
  - "2.21.1--r36he1b5a44_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rchemcpp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rchemcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rchemcpp", "latest": {"2.21.1--r36he1b5a44_1": "sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0"}, "tags": {"2.21.1--r36he1b5a44_1": "sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0"}, "docker": "quay.io/biocontainers/bioconductor-rchemcpp", "aliases": {"croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rchemcpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rchemcpp", "latest": {"2.21.1--r36he1b5a44_1": "sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0"}, "tags": {"2.21.1--r36he1b5a44_1": "sha256:e02c93c7489e1f074ea45cdd37e6b2f48c604bd597de7b19c10f694abc142ad0"}, "docker": "quay.io/biocontainers/bioconductor-rchemcpp", "aliases": {"croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "2to3-3.7": "/usr/local/bin/2to3-3.7", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rchemcpp.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/croco-0.6-config   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/csslint-0.6
 $ podman run --it --rm --entrypoint /usr/local/bin/csslint-0.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/csslint-0.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-annotation-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-annotation-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-compiler
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-compiler
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-doc-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-doc-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-doc-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-generate
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-generate
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-inspect
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-scanner
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-scanner
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-scanner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-scanner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-csource
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-csource
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-pixdata
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-pixdata
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-query-loaders
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-query-loaders
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

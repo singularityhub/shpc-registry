@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gsbenchmark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsbenchmark/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsbenchmark/container.yaml"
-updated_at: "2022-10-27 00:19:43.771687"
+updated_at: "2022-10-29 05:31:54.225395"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsbenchmark"
 aliases:
- - ".bioconductor-gsbenchmark-post-link.sh"
- - ".bioconductor-gsbenchmark-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsbenchmark"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsbenchmark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsbenchmark", "latest": {"1.9.0--r40_0": "sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e"}, "tags": {"1.9.0--r40_0": "sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e"}, "docker": "quay.io/biocontainers/bioconductor-gsbenchmark", "aliases": {".bioconductor-gsbenchmark-post-link.sh": "/usr/local/bin/.bioconductor-gsbenchmark-post-link.sh", ".bioconductor-gsbenchmark-pre-unlink.sh": "/usr/local/bin/.bioconductor-gsbenchmark-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsbenchmark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsbenchmark", "latest": {"1.9.0--r40_0": "sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e"}, "tags": {"1.9.0--r40_0": "sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e"}, "docker": "quay.io/biocontainers/bioconductor-gsbenchmark", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsbenchmark.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-gsbenchmark-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-gsbenchmark-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsbenchmark-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsbenchmark-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-gsbenchmark-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-gsbenchmark-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsbenchmark-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsbenchmark-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/trycycler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trycycler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/trycycler/container.yaml"
-updated_at: "2022-10-27 00:40:17.978998"
+updated_at: "2022-10-29 05:59:08.622478"
 latest: "0.5.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/trycycler"
 aliases:
  - "trycycler"
+ - "capnp"
+ - "capnpc"
+ - "capnpc-c++"
+ - "capnpc-capnp"
+ - "f2py3.9"
+ - "k8"
+ - "mash"
+ - "miniasm"
+ - "minidot"
+ - "minimap2"
 versions:
  - "0.5.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for trycycler"
-config: {"url": "https://biocontainers.pro/tools/trycycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trycycler", "latest": {"0.5.3--pyhdfd78af_0": "sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935"}, "tags": {"0.5.3--pyhdfd78af_0": "sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935"}, "docker": "quay.io/biocontainers/trycycler", "aliases": {"trycycler": "/usr/local/bin/trycycler"}}
+config: {"url": "https://biocontainers.pro/tools/trycycler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trycycler", "latest": {"0.5.3--pyhdfd78af_0": "sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935"}, "tags": {"0.5.3--pyhdfd78af_0": "sha256:6d41aeea85f64f241195ffb1396b9c027623a5a987941569aed360893ffc0935"}, "docker": "quay.io/biocontainers/trycycler", "aliases": {"trycycler": "/usr/local/bin/trycycler", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "f2py3.9": "/usr/local/bin/f2py3.9", "k8": "/usr/local/bin/k8", "mash": "/usr/local/bin/mash", "miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot", "minimap2": "/usr/local/bin/minimap2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trycycler.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/trycycler
 $ podman run --it --rm --entrypoint /usr/local/bin/trycycler   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/trycycler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-c++
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### k8
+
+```bash
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mash
+
+```bash
+$ singularity exec <container> /usr/local/bin/mash
+$ podman run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### miniasm
+
+```bash
+$ singularity exec <container> /usr/local/bin/miniasm
+$ podman run --it --rm --entrypoint /usr/local/bin/miniasm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/miniasm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minidot
+
+```bash
+$ singularity exec <container> /usr/local/bin/minidot
+$ podman run --it --rm --entrypoint /usr/local/bin/minidot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minidot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minimap2
+
+```bash
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

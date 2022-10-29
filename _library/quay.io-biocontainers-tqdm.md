@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/tqdm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tqdm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tqdm/container.yaml"
-updated_at: "2022-10-27 00:21:27.301124"
+updated_at: "2022-10-29 05:34:10.804882"
 latest: "4.7.2--py36_0"
 container_url: "https://biocontainers.pro/tools/tqdm"
-
+aliases:
+ - "2to3-3.6"
+ - "easy_install-3.6"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv-3.6"
+ - "tclsh8.5"
 versions:
  - "4.7.2--py36_0"
 description: "shpc-registry automated BioContainers addition for tqdm"
-config: {"url": "https://biocontainers.pro/tools/tqdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tqdm", "latest": {"4.7.2--py36_0": "sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604"}, "tags": {"4.7.2--py36_0": "sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604"}, "docker": "quay.io/biocontainers/tqdm"}
+config: {"url": "https://biocontainers.pro/tools/tqdm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tqdm", "latest": {"4.7.2--py36_0": "sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604"}, "tags": {"4.7.2--py36_0": "sha256:6ca79b39216dbb379eb97f612f5a6fc00e50ea9b29569348e16d2d6ced287604"}, "docker": "quay.io/biocontainers/tqdm", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tqdm.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### tqdm
+#### 2to3-3.6
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### easy_install-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,12 +4,10 @@ name:  "quay.io/biocontainers/dfast_qc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dfast_qc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dfast_qc/container.yaml"
-updated_at: "2022-10-27 00:30:11.898886"
+updated_at: "2022-10-29 05:45:44.801155"
 latest: "0.4.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dfast_qc"
 aliases:
- - ".checkm-genome-post-link.sh"
- - ".checkm-genome-pre-unlink.sh"
  - "dfast_qc"
  - "dqc_admin_tools.py"
  - "dqc_initial_setup.sh"
@@ -20,10 +18,20 @@ aliases:
  - "sip-module"
  - "sip-sdist"
  - "sip-wheel"
+ - "2to3-3.9"
+ - "accn-at-a-time"
+ - "align-columns"
+ - "alimask"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "aserver"
+ - "asn2xml"
+ - "assistant"
+ - "attr"
 versions:
  - "0.4.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dfast_qc"
-config: {"url": "https://biocontainers.pro/tools/dfast_qc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dfast_qc", "latest": {"0.4.2--hdfd78af_0": "sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43"}, "tags": {"0.4.2--hdfd78af_0": "sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43"}, "docker": "quay.io/biocontainers/dfast_qc", "aliases": {".checkm-genome-post-link.sh": "/usr/local/bin/.checkm-genome-post-link.sh", ".checkm-genome-pre-unlink.sh": "/usr/local/bin/.checkm-genome-pre-unlink.sh", "dfast_qc": "/usr/local/bin/dfast_qc", "dqc_admin_tools.py": "/usr/local/bin/dqc_admin_tools.py", "dqc_initial_setup.sh": "/usr/local/bin/dqc_initial_setup.sh", "pwiz.py": "/usr/local/bin/pwiz.py", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel"}}
+config: {"url": "https://biocontainers.pro/tools/dfast_qc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dfast_qc", "latest": {"0.4.2--hdfd78af_0": "sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43"}, "tags": {"0.4.2--hdfd78af_0": "sha256:8d57ff93148df75e6eebf28ab35ce4e588127e7ec7921ed00b31d67cba9caf43"}, "docker": "quay.io/biocontainers/dfast_qc", "aliases": {"dfast_qc": "/usr/local/bin/dfast_qc", "dqc_admin_tools.py": "/usr/local/bin/dqc_admin_tools.py", "dqc_initial_setup.sh": "/usr/local/bin/dqc_initial_setup.sh", "pwiz.py": "/usr/local/bin/pwiz.py", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "2to3-3.9": "/usr/local/bin/2to3-3.9", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver", "asn2xml": "/usr/local/bin/asn2xml", "assistant": "/usr/local/bin/assistant", "attr": "/usr/local/bin/attr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dfast_qc.
@@ -106,24 +114,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .checkm-genome-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.checkm-genome-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.checkm-genome-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.checkm-genome-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .checkm-genome-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.checkm-genome-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.checkm-genome-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.checkm-genome-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -214,6 +204,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sip-sdist   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/sip-wheel
 $ podman run --it --rm --entrypoint /usr/local/bin/sip-wheel   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sip-wheel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### attr
+
+```bash
+$ singularity exec <container> /usr/local/bin/attr
+$ podman run --it --rm --entrypoint /usr/local/bin/attr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/attr   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

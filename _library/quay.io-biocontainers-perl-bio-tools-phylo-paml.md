@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/perl-bio-tools-phylo-paml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-tools-phylo-paml/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-tools-phylo-paml/container.yaml"
-updated_at: "2022-10-27 00:37:44.071876"
+updated_at: "2022-10-29 05:55:47.749249"
 latest: "1.7.3--pl5262hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-bio-tools-phylo-paml"
-
+aliases:
+ - "SOAPsh.pl"
+ - "ace.pl"
+ - "acyclic"
+ - "annotate"
+ - "bam2bedgraph"
+ - "bamToGBrowse.pl"
+ - "baseml"
+ - "basemlg"
+ - "bcomps"
+ - "bdf2gdfont.pl"
 versions:
  - "1.7.3--pl5262hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-bio-tools-phylo-paml"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-tools-phylo-paml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-tools-phylo-paml", "latest": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "tags": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "docker": "quay.io/biocontainers/perl-bio-tools-phylo-paml"}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-tools-phylo-paml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-tools-phylo-paml", "latest": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "tags": {"1.7.3--pl5262hdfd78af_2": "sha256:53fa967afabc8d2bd3ca42b490ad55f3311eaf57716b73df2d27118c456218f1"}, "docker": "quay.io/biocontainers/perl-bio-tools-phylo-paml", "aliases": {"SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "bcomps": "/usr/local/bin/bcomps", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-tools-phylo-paml.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-bio-tools-phylo-paml
+#### SOAPsh.pl
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ace.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bedgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bedgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToGBrowse.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### baseml
+
+```bash
+$ singularity exec <container> /usr/local/bin/baseml
+$ podman run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basemlg
+
+```bash
+$ singularity exec <container> /usr/local/bin/basemlg
+$ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdf2gdfont.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdf2gdfont.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

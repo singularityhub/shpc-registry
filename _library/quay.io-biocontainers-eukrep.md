@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/eukrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukrep/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/eukrep/container.yaml"
-updated_at: "2022-10-27 00:36:16.438220"
+updated_at: "2022-10-29 05:53:52.132445"
 latest: "0.6.7--pyh5e36f6f_2"
 container_url: "https://biocontainers.pro/tools/eukrep"
 aliases:
  - "EukRep"
  - "kpal"
+ - "2to3-3.7"
+ - "f2py3.7"
+ - "futurize"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
 versions:
  - "0.6.7--pyh5e36f6f_2"
 description: "shpc-registry automated BioContainers addition for eukrep"
-config: {"url": "https://biocontainers.pro/tools/eukrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukrep", "latest": {"0.6.7--pyh5e36f6f_2": "sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31"}, "tags": {"0.6.7--pyh5e36f6f_2": "sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31"}, "docker": "quay.io/biocontainers/eukrep", "aliases": {"EukRep": "/usr/local/bin/EukRep", "kpal": "/usr/local/bin/kpal"}}
+config: {"url": "https://biocontainers.pro/tools/eukrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eukrep", "latest": {"0.6.7--pyh5e36f6f_2": "sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31"}, "tags": {"0.6.7--pyh5e36f6f_2": "sha256:576ddeae452b16ecbf4bc3b4fe57cd8af7e91b7a49a4096c32515bc365483f31"}, "docker": "quay.io/biocontainers/eukrep", "aliases": {"EukRep": "/usr/local/bin/EukRep", "kpal": "/usr/local/bin/kpal", "2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "futurize": "/usr/local/bin/futurize", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eukrep.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/EukRep   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/kpal
 $ podman run --it --rm --entrypoint /usr/local/bin/kpal   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/kpal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

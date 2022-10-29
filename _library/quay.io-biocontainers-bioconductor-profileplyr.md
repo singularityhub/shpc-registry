@@ -4,18 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-profileplyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-profileplyr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-profileplyr/container.yaml"
-updated_at: "2022-10-27 00:40:13.664202"
+updated_at: "2022-10-29 05:59:03.161225"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-profileplyr"
 aliases:
- - ".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh"
- - ".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh"
- - ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh"
- - ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-profileplyr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-profileplyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-profileplyr", "latest": {"1.8.0--r41hdfd78af_0": "sha256:c834dded7a708fa474d73436aa5f2c17676c641d4c5327bea8bc449d8686076d"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:c834dded7a708fa474d73436aa5f2c17676c641d4c5327bea8bc449d8686076d"}, "docker": "quay.io/biocontainers/bioconductor-profileplyr", "aliases": {".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh", ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-profileplyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-profileplyr", "latest": {"1.8.0--r41hdfd78af_0": "sha256:c834dded7a708fa474d73436aa5f2c17676c641d4c5327bea8bc449d8686076d"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:c834dded7a708fa474d73436aa5f2c17676c641d4c5327bea8bc449d8686076d"}, "docker": "quay.io/biocontainers/bioconductor-profileplyr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-profileplyr.
@@ -101,39 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

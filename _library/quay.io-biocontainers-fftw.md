@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/fftw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fftw/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fftw/container.yaml"
-updated_at: "2022-10-27 00:40:10.214584"
+updated_at: "2022-10-29 05:58:58.217893"
 latest: "3.3.4--0"
 container_url: "https://biocontainers.pro/tools/fftw"
-
+aliases:
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
 versions:
  - "3.3.4--0"
 description: "shpc-registry automated BioContainers addition for fftw"
-config: {"url": "https://biocontainers.pro/tools/fftw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fftw", "latest": {"3.3.4--0": "sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf"}, "tags": {"3.3.4--0": "sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf"}, "docker": "quay.io/biocontainers/fftw"}
+config: {"url": "https://biocontainers.pro/tools/fftw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fftw", "latest": {"3.3.4--0": "sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf"}, "tags": {"3.3.4--0": "sha256:819bd01645316c33951ea5474a02e3c02d26ef9a544ad366a783d645411cf1bf"}, "docker": "quay.io/biocontainers/fftw", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fftw.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### fftw
+#### fftw-wisdom
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

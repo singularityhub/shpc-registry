@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/crypto_typer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crypto_typer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crypto_typer/container.yaml"
-updated_at: "2022-10-27 00:31:39.583644"
+updated_at: "2022-10-29 05:47:43.356433"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/crypto_typer"
 aliases:
  - "crypto_typer"
+ - "2to3-3.7"
+ - "blast_formatter"
+ - "blast_report"
+ - "blastdb_aliastool"
+ - "blastdb_convert"
+ - "blastdb_path"
+ - "blastdbcheck"
+ - "blastdbcmd"
+ - "blastdbcp"
+ - "blastn"
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for crypto_typer"
-config: {"url": "https://biocontainers.pro/tools/crypto_typer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crypto_typer", "latest": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "tags": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "docker": "quay.io/biocontainers/crypto_typer", "aliases": {"crypto_typer": "/usr/local/bin/crypto_typer"}}
+config: {"url": "https://biocontainers.pro/tools/crypto_typer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crypto_typer", "latest": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "tags": {"1.0.0--py_0": "sha256:4dd3f40653643ddfe0cd2a30c8091540628367bc19e832fd982070d297806287"}, "docker": "quay.io/biocontainers/crypto_typer", "aliases": {"crypto_typer": "/usr/local/bin/crypto_typer", "2to3-3.7": "/usr/local/bin/2to3-3.7", "blast_formatter": "/usr/local/bin/blast_formatter", "blast_report": "/usr/local/bin/blast_report", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crypto_typer.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/crypto_typer
 $ podman run --it --rm --entrypoint /usr/local/bin/crypto_typer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/crypto_typer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_report
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_report
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_report   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_path
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_path
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_path   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_path   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastn
+$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

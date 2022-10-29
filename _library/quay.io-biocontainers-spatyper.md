@@ -4,19 +4,25 @@ name:  "quay.io/biocontainers/spatyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spatyper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spatyper/container.yaml"
-updated_at: "2022-10-27 00:33:48.176988"
+updated_at: "2022-10-29 05:50:31.306660"
 latest: "0.3.3--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/spatyper"
 aliases:
- - ".spatyper-post-link.sh"
  - "download-spatypes.sh"
  - "spaTyper"
  - "sparepeats.fasta"
  - "spatypes.txt"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "idn2"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "wget"
 versions:
  - "0.3.3--pyhdfd78af_3"
 description: "shpc-registry automated BioContainers addition for spatyper"
-config: {"url": "https://biocontainers.pro/tools/spatyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spatyper", "latest": {"0.3.3--pyhdfd78af_3": "sha256:8c29abb04a86643c36a7bc46e08141b4c181e1ea25bfd90e9b43f22f0940bc82"}, "tags": {"0.3.3--pyhdfd78af_3": "sha256:8c29abb04a86643c36a7bc46e08141b4c181e1ea25bfd90e9b43f22f0940bc82"}, "docker": "quay.io/biocontainers/spatyper", "aliases": {".spatyper-post-link.sh": "/usr/local/bin/.spatyper-post-link.sh", "download-spatypes.sh": "/usr/local/bin/download-spatypes.sh", "spaTyper": "/usr/local/bin/spaTyper", "sparepeats.fasta": "/usr/local/bin/sparepeats.fasta", "spatypes.txt": "/usr/local/bin/spatypes.txt"}}
+config: {"url": "https://biocontainers.pro/tools/spatyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spatyper", "latest": {"0.3.3--pyhdfd78af_3": "sha256:8c29abb04a86643c36a7bc46e08141b4c181e1ea25bfd90e9b43f22f0940bc82"}, "tags": {"0.3.3--pyhdfd78af_3": "sha256:8c29abb04a86643c36a7bc46e08141b4c181e1ea25bfd90e9b43f22f0940bc82"}, "docker": "quay.io/biocontainers/spatyper", "aliases": {"download-spatypes.sh": "/usr/local/bin/download-spatypes.sh", "spaTyper": "/usr/local/bin/spaTyper", "sparepeats.fasta": "/usr/local/bin/sparepeats.fasta", "spatypes.txt": "/usr/local/bin/spatypes.txt", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "idn2": "/usr/local/bin/idn2", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spatyper.
@@ -102,15 +108,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .spatyper-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.spatyper-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.spatyper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.spatyper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### download-spatypes.sh
 
 ```bash
@@ -144,6 +141,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sparepeats.fasta   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/spatypes.txt
 $ podman run --it --rm --entrypoint /usr/local/bin/spatypes.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/spatypes.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idn2
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

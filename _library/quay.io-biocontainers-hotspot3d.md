@@ -4,15 +4,23 @@ name:  "quay.io/biocontainers/hotspot3d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hotspot3d/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hotspot3d/container.yaml"
-updated_at: "2022-10-27 00:24:05.296539"
+updated_at: "2022-10-29 05:37:41.006809"
 latest: "1.8.2--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/hotspot3d"
 aliases:
  - "hotspot3d"
+ - "cpanm"
+ - "json_xs"
+ - "lwp-download"
+ - "lwp-dump"
+ - "lwp-mirror"
+ - "lwp-request"
+ - "moose-outdated"
+ - "package-stash-conflicts"
 versions:
  - "1.8.2--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for hotspot3d"
-config: {"url": "https://biocontainers.pro/tools/hotspot3d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hotspot3d", "latest": {"1.8.2--pl5321hdfd78af_3": "sha256:589b482be15d79934f166d1c49d569705a0e7565c97add393874f4aa98b2a588"}, "tags": {"1.8.2--pl5321hdfd78af_3": "sha256:589b482be15d79934f166d1c49d569705a0e7565c97add393874f4aa98b2a588"}, "docker": "quay.io/biocontainers/hotspot3d", "aliases": {"hotspot3d": "/usr/local/bin/hotspot3d"}}
+config: {"url": "https://biocontainers.pro/tools/hotspot3d", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hotspot3d", "latest": {"1.8.2--pl5321hdfd78af_3": "sha256:589b482be15d79934f166d1c49d569705a0e7565c97add393874f4aa98b2a588"}, "tags": {"1.8.2--pl5321hdfd78af_3": "sha256:589b482be15d79934f166d1c49d569705a0e7565c97add393874f4aa98b2a588"}, "docker": "quay.io/biocontainers/hotspot3d", "aliases": {"hotspot3d": "/usr/local/bin/hotspot3d", "cpanm": "/usr/local/bin/cpanm", "json_xs": "/usr/local/bin/json_xs", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hotspot3d.
@@ -104,6 +112,78 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/hotspot3d
 $ podman run --it --rm --entrypoint /usr/local/bin/hotspot3d   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hotspot3d   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpanm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### json_xs
+
+```bash
+$ singularity exec <container> /usr/local/bin/json_xs
+$ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-download
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-download
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-dump
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-mirror
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-mirror
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-request
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-request
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### moose-outdated
+
+```bash
+$ singularity exec <container> /usr/local/bin/moose-outdated
+$ podman run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

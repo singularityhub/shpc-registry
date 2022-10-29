@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-sub-install"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sub-install/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sub-install/container.yaml"
-updated_at: "2022-10-27 00:28:18.650261"
+updated_at: "2022-10-29 05:43:17.201781"
 latest: "0.928--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-sub-install"
-
+aliases:
+ - "perl5.32.1"
 versions:
  - "0.928--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-sub-install"
-config: {"url": "https://biocontainers.pro/tools/perl-sub-install", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sub-install", "latest": {"0.928--pl5321hdfd78af_3": "sha256:b27a87204f0dc083b0796d5d4fda04e7748a1a66b336410585163b931b3e58b3"}, "tags": {"0.928--pl5321hdfd78af_3": "sha256:b27a87204f0dc083b0796d5d4fda04e7748a1a66b336410585163b931b3e58b3"}, "docker": "quay.io/biocontainers/perl-sub-install"}
+config: {"url": "https://biocontainers.pro/tools/perl-sub-install", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sub-install", "latest": {"0.928--pl5321hdfd78af_3": "sha256:b27a87204f0dc083b0796d5d4fda04e7748a1a66b336410585163b931b3e58b3"}, "tags": {"0.928--pl5321hdfd78af_3": "sha256:b27a87204f0dc083b0796d5d4fda04e7748a1a66b336410585163b931b3e58b3"}, "docker": "quay.io/biocontainers/perl-sub-install", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sub-install.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-sub-install
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

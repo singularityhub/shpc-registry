@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/aquilasv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquilasv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aquilasv/container.yaml"
-updated_at: "2022-10-27 00:21:37.067544"
+updated_at: "2022-10-29 05:34:23.228386"
 latest: "1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/aquilasv"
 aliases:
  - "AquilaSV_step1"
  - "AquilaSV_step2"
  - "AquilaSV_step3"
+ - "2to3-3.9"
+ - "ace2sam"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "cds-mapping-stats"
+ - "cds-subgraphs"
+ - "export2sam.pl"
+ - "f2py3.9"
+ - "fasta-sanitize.pl"
 versions:
  - "1.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for aquilasv"
-config: {"url": "https://biocontainers.pro/tools/aquilasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquilasv", "latest": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "tags": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "docker": "quay.io/biocontainers/aquilasv", "aliases": {"AquilaSV_step1": "/usr/local/bin/AquilaSV_step1", "AquilaSV_step2": "/usr/local/bin/AquilaSV_step2", "AquilaSV_step3": "/usr/local/bin/AquilaSV_step3"}}
+config: {"url": "https://biocontainers.pro/tools/aquilasv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquilasv", "latest": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "tags": {"1.5--pyhdfd78af_0": "sha256:1170144f456ef04dc429ba3ff3daacf3e079050a6c8c71a6470bb50690140876"}, "docker": "quay.io/biocontainers/aquilasv", "aliases": {"AquilaSV_step1": "/usr/local/bin/AquilaSV_step1", "AquilaSV_step2": "/usr/local/bin/AquilaSV_step2", "AquilaSV_step3": "/usr/local/bin/AquilaSV_step3", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "cds-mapping-stats": "/usr/local/bin/cds-mapping-stats", "cds-subgraphs": "/usr/local/bin/cds-subgraphs", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py3.9": "/usr/local/bin/f2py3.9", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aquilasv.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/AquilaSV_step2   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/AquilaSV_step3
 $ podman run --it --rm --entrypoint /usr/local/bin/AquilaSV_step3   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/AquilaSV_step3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cds-mapping-stats
+
+```bash
+$ singularity exec <container> /usr/local/bin/cds-mapping-stats
+$ podman run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cds-mapping-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cds-subgraphs
+
+```bash
+$ singularity exec <container> /usr/local/bin/cds-subgraphs
+$ podman run --it --rm --entrypoint /usr/local/bin/cds-subgraphs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cds-subgraphs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

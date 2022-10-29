@@ -4,11 +4,25 @@ name:  "quay.io/biocontainers/2pg_cartesian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/2pg_cartesian/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/2pg_cartesian/container.yaml"
-updated_at: "2022-10-27 00:20:14.264097"
+updated_at: "2022-10-29 05:32:33.445734"
 latest: "1.0.1--h87f3376_5"
 container_url: "https://biocontainers.pro/tools/2pg_cartesian"
 aliases:
  - "gmx"
+ - "hwloc-annotate"
+ - "hwloc-bind"
+ - "hwloc-calc"
+ - "hwloc-compress-dir"
+ - "hwloc-diff"
+ - "hwloc-distrib"
+ - "hwloc-gather-cpuid"
+ - "hwloc-gather-topology"
+ - "hwloc-info"
+ - "hwloc-ls"
+ - "hwloc-patch"
+ - "hwloc-ps"
+ - "lstopo"
+ - "lstopo-no-graphics"
  - "protpred-Gromacs-Dominance"
  - "protpred-Gromacs-Front"
  - "protpred-Gromacs-MC_Metropolis"
@@ -24,15 +38,19 @@ aliases:
  - "protpred-Gromacs-Test_load_population"
  - "protpred-Gromacs-Test_random_number"
  - "protpred-Gromacs-Test_rotation"
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
 versions:
  - "1.0.1--h1b792b2_4"
  - "1.0.1--h87f3376_5"
-description: "2pg cartesian is a framework of optimization algorithms for protein structure prediction"
-config: {"url": "https://biocontainers.pro/tools/2pg_cartesian", "maintainer": "@vsoch", "description": "2pg cartesian is a framework of optimization algorithms for protein structure prediction", "latest": {"1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "tags": {"1.0.1--h1b792b2_4": "sha256:5698338400cb3cfbfd071445caa165213a6737d0af6fd158a5aff4e2b29335f0", "1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "docker": "quay.io/biocontainers/2pg_cartesian", "aliases": {"gmx": "/usr/local/bin/gmx", "protpred-Gromacs-Dominance": "/usr/local/bin/protpred-Gromacs-Dominance", "protpred-Gromacs-Front": "/usr/local/bin/protpred-Gromacs-Front", "protpred-Gromacs-MC_Metropolis": "/usr/local/bin/protpred-Gromacs-MC_Metropolis", "protpred-Gromacs-Mono": "/usr/local/bin/protpred-Gromacs-Mono", "protpred-Gromacs-NSGA2": "/usr/local/bin/protpred-Gromacs-NSGA2", "protpred-Gromacs-Random_Algorithm": "/usr/local/bin/protpred-Gromacs-Random_Algorithm", "protpred-Gromacs-Sort_Method_Files_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_Files_by_Front_Dominance", "protpred-Gromacs-Sort_Method_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_by_Front_Dominance", "protpred-Gromacs-Test_compute_Diehdral": "/usr/local/bin/protpred-Gromacs-Test_compute_Diehdral", "protpred-Gromacs-Test_compute_objetivies": "/usr/local/bin/protpred-Gromacs-Test_compute_objetivies", "protpred-Gromacs-Test_crossover": "/usr/local/bin/protpred-Gromacs-Test_crossover", "protpred-Gromacs-Test_dm_refinement": "/usr/local/bin/protpred-Gromacs-Test_dm_refinement", "protpred-Gromacs-Test_load_population": "/usr/local/bin/protpred-Gromacs-Test_load_population", "protpred-Gromacs-Test_random_number": "/usr/local/bin/protpred-Gromacs-Test_random_number", "protpred-Gromacs-Test_rotation": "/usr/local/bin/protpred-Gromacs-Test_rotation"}}
+description: "shpc-registry automated BioContainers addition for 2pg_cartesian"
+config: {"url": "https://biocontainers.pro/tools/2pg_cartesian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for 2pg_cartesian", "latest": {"1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "tags": {"1.0.1--h1b792b2_4": "sha256:5698338400cb3cfbfd071445caa165213a6737d0af6fd158a5aff4e2b29335f0", "1.0.1--h87f3376_5": "sha256:cdcd420a590e51668130484f2cef2bb975e20836c8126d0d0289419989e60098"}, "docker": "quay.io/biocontainers/2pg_cartesian", "aliases": {"gmx": "/usr/local/bin/gmx", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "protpred-Gromacs-Dominance": "/usr/local/bin/protpred-Gromacs-Dominance", "protpred-Gromacs-Front": "/usr/local/bin/protpred-Gromacs-Front", "protpred-Gromacs-MC_Metropolis": "/usr/local/bin/protpred-Gromacs-MC_Metropolis", "protpred-Gromacs-Mono": "/usr/local/bin/protpred-Gromacs-Mono", "protpred-Gromacs-NSGA2": "/usr/local/bin/protpred-Gromacs-NSGA2", "protpred-Gromacs-Random_Algorithm": "/usr/local/bin/protpred-Gromacs-Random_Algorithm", "protpred-Gromacs-Sort_Method_Files_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_Files_by_Front_Dominance", "protpred-Gromacs-Sort_Method_by_Front_Dominance": "/usr/local/bin/protpred-Gromacs-Sort_Method_by_Front_Dominance", "protpred-Gromacs-Test_compute_Diehdral": "/usr/local/bin/protpred-Gromacs-Test_compute_Diehdral", "protpred-Gromacs-Test_compute_objetivies": "/usr/local/bin/protpred-Gromacs-Test_compute_objetivies", "protpred-Gromacs-Test_crossover": "/usr/local/bin/protpred-Gromacs-Test_crossover", "protpred-Gromacs-Test_dm_refinement": "/usr/local/bin/protpred-Gromacs-Test_dm_refinement", "protpred-Gromacs-Test_load_population": "/usr/local/bin/protpred-Gromacs-Test_load_population", "protpred-Gromacs-Test_random_number": "/usr/local/bin/protpred-Gromacs-Test_random_number", "protpred-Gromacs-Test_rotation": "/usr/local/bin/protpred-Gromacs-Test_rotation", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/2pg_cartesian.
-2pg cartesian is a framework of optimization algorithms for protein structure prediction
+shpc-registry automated BioContainers addition for 2pg_cartesian
 After [installing shpc](#install) you will want to install this container module:
 
 
@@ -120,6 +138,132 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/gmx
 $ podman run --it --rm --entrypoint /usr/local/bin/gmx   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gmx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-bind
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-bind
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-bind   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-bind   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-calc
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-calc
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-calc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-calc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-compress-dir
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-compress-dir
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-compress-dir   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-compress-dir   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-diff
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-diff
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-distrib
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-distrib
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-distrib   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-distrib   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-gather-cpuid
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-gather-cpuid
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-gather-cpuid   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-gather-cpuid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-gather-topology
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-gather-topology
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-gather-topology   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-gather-topology   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-info
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-info
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-patch
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-patch
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-patch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-patch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hwloc-ps
+
+```bash
+$ singularity exec <container> /usr/local/bin/hwloc-ps
+$ podman run --it --rm --entrypoint /usr/local/bin/hwloc-ps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hwloc-ps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lstopo
+
+```bash
+$ singularity exec <container> /usr/local/bin/lstopo
+$ podman run --it --rm --entrypoint /usr/local/bin/lstopo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lstopo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lstopo-no-graphics
+
+```bash
+$ singularity exec <container> /usr/local/bin/lstopo-no-graphics
+$ podman run --it --rm --entrypoint /usr/local/bin/lstopo-no-graphics   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lstopo-no-graphics   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -255,6 +399,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/protpred-Gromacs-Test_random_
 $ singularity exec <container> /usr/local/bin/protpred-Gromacs-Test_rotation
 $ podman run --it --rm --entrypoint /usr/local/bin/protpred-Gromacs-Test_rotation   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/protpred-Gromacs-Test_rotation   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

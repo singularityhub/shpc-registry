@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-proloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-proloc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-proloc/container.yaml"
-updated_at: "2022-10-27 00:29:22.460347"
+updated_at: "2022-10-29 05:44:40.632187"
 latest: "1.34.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-proloc"
-
+aliases:
+ - "gif2h5"
+ - "gif2hdf"
+ - "glpsol"
+ - "h4_ncdump"
+ - "h4_ncgen"
+ - "h4cc"
+ - "h4redeploy"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
 versions:
  - "1.34.0--r41hc247a5b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-proloc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-proloc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proloc", "latest": {"1.34.0--r41hc247a5b_2": "sha256:6deff5adec3bed7b5bdaccaeefaafb4f7d96a9ea4bf6cf3c84678c67fd4df1fc"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:6deff5adec3bed7b5bdaccaeefaafb4f7d96a9ea4bf6cf3c84678c67fd4df1fc"}, "docker": "quay.io/biocontainers/bioconductor-proloc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-proloc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-proloc", "latest": {"1.34.0--r41hc247a5b_2": "sha256:6deff5adec3bed7b5bdaccaeefaafb4f7d96a9ea4bf6cf3c84678c67fd4df1fc"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:6deff5adec3bed7b5bdaccaeefaafb4f7d96a9ea4bf6cf3c84678c67fd4df1fc"}, "docker": "quay.io/biocontainers/bioconductor-proloc", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "glpsol": "/usr/local/bin/glpsol", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-proloc.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-proloc
+#### gif2h5
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2hdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2hdf
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncdump
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncgen
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4redeploy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4redeploy
+$ podman run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lordec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lordec/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lordec/container.yaml"
-updated_at: "2022-10-27 00:20:36.691258"
+updated_at: "2022-10-29 05:33:04.042964"
 latest: "0.9--h77376b9_3"
 container_url: "https://biocontainers.pro/tools/lordec"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "lordec-trim"
  - "lordec-trim-split"
  - "lordec_sge_slurm_wrapper.sh"
+ - "2to3-3.10"
+ - "dbgh5"
+ - "f2py3.10"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
 versions:
  - "0.9--h77376b9_3"
 description: "shpc-registry automated BioContainers addition for lordec"
-config: {"url": "https://biocontainers.pro/tools/lordec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordec", "latest": {"0.9--h77376b9_3": "sha256:a83c41f5e6b8cc6ddfe5e43d155f5a354b8ec47e3f969c123a82b8ea592ade36"}, "tags": {"0.9--h77376b9_3": "sha256:a83c41f5e6b8cc6ddfe5e43d155f5a354b8ec47e3f969c123a82b8ea592ade36"}, "docker": "quay.io/biocontainers/lordec", "aliases": {"dbginfo": "/usr/local/bin/dbginfo", "leon": "/usr/local/bin/leon", "lordec-build-SR-graph": "/usr/local/bin/lordec-build-SR-graph", "lordec-correct": "/usr/local/bin/lordec-correct", "lordec-stat": "/usr/local/bin/lordec-stat", "lordec-trim": "/usr/local/bin/lordec-trim", "lordec-trim-split": "/usr/local/bin/lordec-trim-split", "lordec_sge_slurm_wrapper.sh": "/usr/local/bin/lordec_sge_slurm_wrapper.sh"}}
+config: {"url": "https://biocontainers.pro/tools/lordec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordec", "latest": {"0.9--h77376b9_3": "sha256:a83c41f5e6b8cc6ddfe5e43d155f5a354b8ec47e3f969c123a82b8ea592ade36"}, "tags": {"0.9--h77376b9_3": "sha256:a83c41f5e6b8cc6ddfe5e43d155f5a354b8ec47e3f969c123a82b8ea592ade36"}, "docker": "quay.io/biocontainers/lordec", "aliases": {"dbginfo": "/usr/local/bin/dbginfo", "leon": "/usr/local/bin/leon", "lordec-build-SR-graph": "/usr/local/bin/lordec-build-SR-graph", "lordec-correct": "/usr/local/bin/lordec-correct", "lordec-stat": "/usr/local/bin/lordec-stat", "lordec-trim": "/usr/local/bin/lordec-trim", "lordec-trim-split": "/usr/local/bin/lordec-trim-split", "lordec_sge_slurm_wrapper.sh": "/usr/local/bin/lordec_sge_slurm_wrapper.sh", "2to3-3.10": "/usr/local/bin/2to3-3.10", "dbgh5": "/usr/local/bin/dbgh5", "f2py3.10": "/usr/local/bin/f2py3.10", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lordec.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lordec-trim-split   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/lordec_sge_slurm_wrapper.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/lordec_sge_slurm_wrapper.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/lordec_sge_slurm_wrapper.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbgh5
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbgh5
+$ podman run --it --rm --entrypoint /usr/local/bin/dbgh5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbgh5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

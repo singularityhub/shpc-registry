@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eqtlbma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eqtlbma/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/eqtlbma/container.yaml"
-updated_at: "2022-10-27 00:23:55.051403"
+updated_at: "2022-10-29 05:37:27.968892"
 latest: "1.3.3--hcf8db43_3"
 container_url: "https://biocontainers.pro/tools/eqtlbma"
 aliases:
@@ -13,10 +13,14 @@ aliases:
  - "eqtlbma_bf_parallel.bash"
  - "eqtlbma_hm"
  - "tutorial_eqtlbma.R"
+ - "c89"
+ - "c99"
+ - "gio-launch-desktop"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.3.3--hcf8db43_3"
 description: "shpc-registry automated BioContainers addition for eqtlbma"
-config: {"url": "https://biocontainers.pro/tools/eqtlbma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eqtlbma", "latest": {"1.3.3--hcf8db43_3": "sha256:55a72cd5f2e4186941ad4337162a89ab2e21884b4480bee296ea3e2926cbec1a"}, "tags": {"1.3.3--hcf8db43_3": "sha256:55a72cd5f2e4186941ad4337162a89ab2e21884b4480bee296ea3e2926cbec1a"}, "docker": "quay.io/biocontainers/eqtlbma", "aliases": {"eqtlbma_avg_bfs": "/usr/local/bin/eqtlbma_avg_bfs", "eqtlbma_bf": "/usr/local/bin/eqtlbma_bf", "eqtlbma_bf_parallel.bash": "/usr/local/bin/eqtlbma_bf_parallel.bash", "eqtlbma_hm": "/usr/local/bin/eqtlbma_hm", "tutorial_eqtlbma.R": "/usr/local/bin/tutorial_eqtlbma.R"}}
+config: {"url": "https://biocontainers.pro/tools/eqtlbma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eqtlbma", "latest": {"1.3.3--hcf8db43_3": "sha256:55a72cd5f2e4186941ad4337162a89ab2e21884b4480bee296ea3e2926cbec1a"}, "tags": {"1.3.3--hcf8db43_3": "sha256:55a72cd5f2e4186941ad4337162a89ab2e21884b4480bee296ea3e2926cbec1a"}, "docker": "quay.io/biocontainers/eqtlbma", "aliases": {"eqtlbma_avg_bfs": "/usr/local/bin/eqtlbma_avg_bfs", "eqtlbma_bf": "/usr/local/bin/eqtlbma_bf", "eqtlbma_bf_parallel.bash": "/usr/local/bin/eqtlbma_bf_parallel.bash", "eqtlbma_hm": "/usr/local/bin/eqtlbma_hm", "tutorial_eqtlbma.R": "/usr/local/bin/tutorial_eqtlbma.R", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eqtlbma.
@@ -144,6 +148,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/eqtlbma_hm   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/tutorial_eqtlbma.R
 $ podman run --it --rm --entrypoint /usr/local/bin/tutorial_eqtlbma.R   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tutorial_eqtlbma.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/entrez-direct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/entrez-direct/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/entrez-direct/container.yaml"
-updated_at: "2022-10-27 00:23:48.655650"
+updated_at: "2022-10-29 05:37:19.850781"
 latest: "7.70--pl526_2"
 container_url: "https://biocontainers.pro/tools/entrez-direct"
 aliases:
@@ -29,10 +29,20 @@ aliases:
  - "setup-deps.pl.bak"
  - "setup.sh.orig"
  - "stash-pubmed"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "between-two-genes"
+ - "common.go"
+ - "conda_build.sh"
+ - "download-pubmed"
+ - "download-sequence"
+ - "eaddress"
 versions:
  - "7.70--pl526_2"
 description: "shpc-registry automated BioContainers addition for entrez-direct"
-config: {"url": "https://biocontainers.pro/tools/entrez-direct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for entrez-direct", "latest": {"7.70--pl526_2": "sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494"}, "tags": {"7.70--pl526_2": "sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494"}, "docker": "quay.io/biocontainers/entrez-direct", "aliases": {"asp-ls.bak": "/usr/local/bin/asp-ls.bak", "edirect.pl.bak": "/usr/local/bin/edirect.pl.bak", "edirutil.bak": "/usr/local/bin/edirutil.bak", "erase-pubmed": "/usr/local/bin/erase-pubmed", "ftp-cp.bak": "/usr/local/bin/ftp-cp.bak", "ftp-ls.bak": "/usr/local/bin/ftp-ls.bak", "gbf2xml.bak": "/usr/local/bin/gbf2xml.bak", "get-stash-uids": "/usr/local/bin/get-stash-uids", "invert-pubmed": "/usr/local/bin/invert-pubmed", "log-pubmed": "/usr/local/bin/log-pubmed", "master-pubmed": "/usr/local/bin/master-pubmed", "merge-pubmed": "/usr/local/bin/merge-pubmed", "nquire.bak": "/usr/local/bin/nquire.bak", "prepare-stash": "/usr/local/bin/prepare-stash", "promote-pubmed": "/usr/local/bin/promote-pubmed", "refresh-versioned": "/usr/local/bin/refresh-versioned", "repack-pubmed": "/usr/local/bin/repack-pubmed", "run-ncbi-converter.bak": "/usr/local/bin/run-ncbi-converter.bak", "setup-deps.pl.bak": "/usr/local/bin/setup-deps.pl.bak", "setup.sh.orig": "/usr/local/bin/setup.sh.orig", "stash-pubmed": "/usr/local/bin/stash-pubmed"}}
+config: {"url": "https://biocontainers.pro/tools/entrez-direct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for entrez-direct", "latest": {"7.70--pl526_2": "sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494"}, "tags": {"7.70--pl526_2": "sha256:5dfbbee26e1a0111d50a57862385606d61ea48576dc8c6cf0db5c8d7db912494"}, "docker": "quay.io/biocontainers/entrez-direct", "aliases": {"asp-ls.bak": "/usr/local/bin/asp-ls.bak", "edirect.pl.bak": "/usr/local/bin/edirect.pl.bak", "edirutil.bak": "/usr/local/bin/edirutil.bak", "erase-pubmed": "/usr/local/bin/erase-pubmed", "ftp-cp.bak": "/usr/local/bin/ftp-cp.bak", "ftp-ls.bak": "/usr/local/bin/ftp-ls.bak", "gbf2xml.bak": "/usr/local/bin/gbf2xml.bak", "get-stash-uids": "/usr/local/bin/get-stash-uids", "invert-pubmed": "/usr/local/bin/invert-pubmed", "log-pubmed": "/usr/local/bin/log-pubmed", "master-pubmed": "/usr/local/bin/master-pubmed", "merge-pubmed": "/usr/local/bin/merge-pubmed", "nquire.bak": "/usr/local/bin/nquire.bak", "prepare-stash": "/usr/local/bin/prepare-stash", "promote-pubmed": "/usr/local/bin/promote-pubmed", "refresh-versioned": "/usr/local/bin/refresh-versioned", "repack-pubmed": "/usr/local/bin/repack-pubmed", "run-ncbi-converter.bak": "/usr/local/bin/run-ncbi-converter.bak", "setup-deps.pl.bak": "/usr/local/bin/setup-deps.pl.bak", "setup.sh.orig": "/usr/local/bin/setup.sh.orig", "stash-pubmed": "/usr/local/bin/stash-pubmed", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "common.go": "/usr/local/bin/common.go", "conda_build.sh": "/usr/local/bin/conda_build.sh", "download-pubmed": "/usr/local/bin/download-pubmed", "download-sequence": "/usr/local/bin/download-sequence", "eaddress": "/usr/local/bin/eaddress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/entrez-direct.
@@ -304,6 +314,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/setup.sh.orig   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/stash-pubmed
 $ podman run --it --rm --entrypoint /usr/local/bin/stash-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/stash-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### common.go
+
+```bash
+$ singularity exec <container> /usr/local/bin/common.go
+$ podman run --it --rm --entrypoint /usr/local/bin/common.go   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/common.go   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conda_build.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda_build.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### download-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/download-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/download-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/download-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### download-sequence
+
+```bash
+$ singularity exec <container> /usr/local/bin/download-sequence
+$ podman run --it --rm --entrypoint /usr/local/bin/download-sequence   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/download-sequence   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### eaddress
+
+```bash
+$ singularity exec <container> /usr/local/bin/eaddress
+$ podman run --it --rm --entrypoint /usr/local/bin/eaddress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eaddress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

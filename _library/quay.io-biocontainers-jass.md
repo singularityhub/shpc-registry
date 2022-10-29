@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/jass"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jass/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jass/container.yaml"
-updated_at: "2022-10-27 00:33:21.264118"
+updated_at: "2022-10-29 05:49:56.157663"
 latest: "2.2--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/jass"
 aliases:
  - "celery"
  - "jass"
+ - "chardetect"
+ - "f2py3.9"
+ - "flask"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
 versions:
  - "2.2--pyhb7b1952_0"
 description: "shpc-registry automated BioContainers addition for jass"
-config: {"url": "https://biocontainers.pro/tools/jass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jass", "latest": {"2.2--pyhb7b1952_0": "sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e"}, "tags": {"2.2--pyhb7b1952_0": "sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e"}, "docker": "quay.io/biocontainers/jass", "aliases": {"celery": "/usr/local/bin/celery", "jass": "/usr/local/bin/jass"}}
+config: {"url": "https://biocontainers.pro/tools/jass", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jass", "latest": {"2.2--pyhb7b1952_0": "sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e"}, "tags": {"2.2--pyhb7b1952_0": "sha256:66d6851d6b762232989564b4ebcf4395b2002905b8c06dddedfe4887789f136e"}, "docker": "quay.io/biocontainers/jass", "aliases": {"celery": "/usr/local/bin/celery", "jass": "/usr/local/bin/jass", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "flask": "/usr/local/bin/flask", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jass.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/celery   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/jass
 $ podman run --it --rm --entrypoint /usr/local/bin/jass   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/jass   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### flask
+
+```bash
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

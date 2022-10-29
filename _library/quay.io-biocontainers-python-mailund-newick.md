@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/python-mailund-newick"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-mailund-newick/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-mailund-newick/container.yaml"
-updated_at: "2022-10-27 00:30:46.114109"
+updated_at: "2022-10-29 05:46:31.672290"
 latest: "1.3--py27_1"
 container_url: "https://biocontainers.pro/tools/python-mailund-newick"
-
+aliases:
+ - "idle"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "1.3--py27_1"
 description: "shpc-registry automated BioContainers addition for python-mailund-newick"
-config: {"url": "https://biocontainers.pro/tools/python-mailund-newick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-mailund-newick", "latest": {"1.3--py27_1": "sha256:ccea82c861fcf392a7e1563b11b38baa754671ef013e6336ac5061c70dee98c7"}, "tags": {"1.3--py27_1": "sha256:ccea82c861fcf392a7e1563b11b38baa754671ef013e6336ac5061c70dee98c7"}, "docker": "quay.io/biocontainers/python-mailund-newick"}
+config: {"url": "https://biocontainers.pro/tools/python-mailund-newick", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-mailund-newick", "latest": {"1.3--py27_1": "sha256:ccea82c861fcf392a7e1563b11b38baa754671ef013e6336ac5061c70dee98c7"}, "tags": {"1.3--py27_1": "sha256:ccea82c861fcf392a7e1563b11b38baa754671ef013e6336ac5061c70dee98c7"}, "docker": "quay.io/biocontainers/python-mailund-newick", "aliases": {"idle": "/usr/local/bin/idle", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-mailund-newick.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### python-mailund-newick
+#### idle
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/pyfastx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastx/container.yaml"
-updated_at: "2022-10-27 00:26:11.628115"
+updated_at: "2022-10-29 05:40:29.524582"
 latest: "0.8.4--py38h4c6a040_1"
 container_url: "https://biocontainers.pro/tools/pyfastx"
 aliases:
  - "pyfastx"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "0.8.4--py38h4c6a040_1"
 description: "shpc-registry automated BioContainers addition for pyfastx"
-config: {"url": "https://biocontainers.pro/tools/pyfastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastx", "latest": {"0.8.4--py38h4c6a040_1": "sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7"}, "tags": {"0.8.4--py38h4c6a040_1": "sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7"}, "docker": "quay.io/biocontainers/pyfastx", "aliases": {"pyfastx": "/usr/local/bin/pyfastx"}}
+config: {"url": "https://biocontainers.pro/tools/pyfastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyfastx", "latest": {"0.8.4--py38h4c6a040_1": "sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7"}, "tags": {"0.8.4--py38h4c6a040_1": "sha256:bea6d8242020df2cce630454adc91ff35ae182d9e9e516a9d1f4d64deda73cd7"}, "docker": "quay.io/biocontainers/pyfastx", "aliases": {"pyfastx": "/usr/local/bin/pyfastx", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyfastx.
@@ -104,6 +109,51 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/pyfastx
 $ podman run --it --rm --entrypoint /usr/local/bin/pyfastx   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyfastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

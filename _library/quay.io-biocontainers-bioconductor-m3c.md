@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/bioconductor-m3c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m3c/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m3c/container.yaml"
-updated_at: "2022-10-27 00:25:01.536755"
+updated_at: "2022-10-29 05:38:54.508223"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-m3c"
-
+aliases:
+ - "2to3-3.7"
+ - "f2py3.7"
+ - "idle3.7"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
+ - "pyvenv-3.7"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-m3c"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-m3c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3c", "latest": {"1.8.0--r36_0": "sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f"}, "tags": {"1.8.0--r36_0": "sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f"}, "docker": "quay.io/biocontainers/bioconductor-m3c"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-m3c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3c", "latest": {"1.8.0--r36_0": "sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f"}, "tags": {"1.8.0--r36_0": "sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f"}, "docker": "quay.io/biocontainers/bioconductor-m3c", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-m3c.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-m3c
+#### 2to3-3.7
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nasp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nasp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nasp/container.yaml"
-updated_at: "2022-10-27 00:26:27.828180"
+updated_at: "2022-10-29 05:40:50.744447"
 latest: "1.2.1--py36hf8e0771_1"
 container_url: "https://biocontainers.pro/tools/nasp"
 aliases:
@@ -19,10 +19,20 @@ aliases:
  - "nasp"
  - "report_single_snps_single_isolate.py"
  - "vcf_to_matrix"
+ - "2to3-3.6"
+ - "ace2sam"
+ - "aserver"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "combineMUMs"
+ - "delta-filter"
+ - "dnadiff"
+ - "exact-tandems"
+ - "export2sam.pl"
 versions:
  - "1.2.1--py36hf8e0771_1"
 description: "shpc-registry automated BioContainers addition for nasp"
-config: {"url": "https://biocontainers.pro/tools/nasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nasp", "latest": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "tags": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "docker": "quay.io/biocontainers/nasp", "aliases": {"convert_external_genome": "/usr/local/bin/convert_external_genome", "filter_matrix_by_coord.py": "/usr/local/bin/filter_matrix_by_coord.py", "filter_matrix_by_distance.py": "/usr/local/bin/filter_matrix_by_distance.py", "filter_matrix_by_genome.py": "/usr/local/bin/filter_matrix_by_genome.py", "find_duplicates": "/usr/local/bin/find_duplicates", "format_fasta": "/usr/local/bin/format_fasta", "matrix_to_fasta.py": "/usr/local/bin/matrix_to_fasta.py", "merge_matrices.py": "/usr/local/bin/merge_matrices.py", "nasp": "/usr/local/bin/nasp", "report_single_snps_single_isolate.py": "/usr/local/bin/report_single_snps_single_isolate.py", "vcf_to_matrix": "/usr/local/bin/vcf_to_matrix"}}
+config: {"url": "https://biocontainers.pro/tools/nasp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nasp", "latest": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "tags": {"1.2.1--py36hf8e0771_1": "sha256:cf8efe7ed51afd7fbdb14e1a250f5afa59a020c68aa0a6e4716c66f199440871"}, "docker": "quay.io/biocontainers/nasp", "aliases": {"convert_external_genome": "/usr/local/bin/convert_external_genome", "filter_matrix_by_coord.py": "/usr/local/bin/filter_matrix_by_coord.py", "filter_matrix_by_distance.py": "/usr/local/bin/filter_matrix_by_distance.py", "filter_matrix_by_genome.py": "/usr/local/bin/filter_matrix_by_genome.py", "find_duplicates": "/usr/local/bin/find_duplicates", "format_fasta": "/usr/local/bin/format_fasta", "matrix_to_fasta.py": "/usr/local/bin/matrix_to_fasta.py", "merge_matrices.py": "/usr/local/bin/merge_matrices.py", "nasp": "/usr/local/bin/nasp", "report_single_snps_single_isolate.py": "/usr/local/bin/report_single_snps_single_isolate.py", "vcf_to_matrix": "/usr/local/bin/vcf_to_matrix", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "aserver": "/usr/local/bin/aserver", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nasp.
@@ -204,6 +214,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/report_single_snps_single_iso
 $ singularity exec <container> /usr/local/bin/vcf_to_matrix
 $ podman run --it --rm --entrypoint /usr/local/bin/vcf_to_matrix   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vcf_to_matrix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### combineMUMs
+
+```bash
+$ singularity exec <container> /usr/local/bin/combineMUMs
+$ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### delta-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/delta-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dnadiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/dnadiff
+$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### exact-tandems
+
+```bash
+$ singularity exec <container> /usr/local/bin/exact-tandems
+$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

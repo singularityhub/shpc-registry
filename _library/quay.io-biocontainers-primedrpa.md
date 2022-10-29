@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/primedrpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primedrpa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/primedrpa/container.yaml"
-updated_at: "2022-10-27 00:34:51.084090"
+updated_at: "2022-10-29 05:51:59.495455"
 latest: "1.0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/primedrpa"
 aliases:
  - "PrimedRPA"
+ - "2to3-3.10"
+ - "accn-at-a-time"
+ - "ace2sam"
+ - "align-columns"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asn2xml"
+ - "between-two-genes"
+ - "bgzip"
+ - "blast2sam.pl"
 versions:
  - "1.0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for primedrpa"
-config: {"url": "https://biocontainers.pro/tools/primedrpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primedrpa", "latest": {"1.0.3--pyhdfd78af_0": "sha256:7546facca1169d3c6547caea747fe429e622255cd635fe35d402fd4e9471387a"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:7546facca1169d3c6547caea747fe429e622255cd635fe35d402fd4e9471387a"}, "docker": "quay.io/biocontainers/primedrpa", "aliases": {"PrimedRPA": "/usr/local/bin/PrimedRPA"}}
+config: {"url": "https://biocontainers.pro/tools/primedrpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primedrpa", "latest": {"1.0.3--pyhdfd78af_0": "sha256:7546facca1169d3c6547caea747fe429e622255cd635fe35d402fd4e9471387a"}, "tags": {"1.0.3--pyhdfd78af_0": "sha256:7546facca1169d3c6547caea747fe429e622255cd635fe35d402fd4e9471387a"}, "docker": "quay.io/biocontainers/primedrpa", "aliases": {"PrimedRPA": "/usr/local/bin/PrimedRPA", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace2sam": "/usr/local/bin/ace2sam", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primedrpa.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/PrimedRPA
 $ podman run --it --rm --entrypoint /usr/local/bin/PrimedRPA   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/PrimedRPA   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

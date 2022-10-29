@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/rd-analyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rd-analyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rd-analyzer/container.yaml"
-updated_at: "2022-10-27 00:33:10.545545"
+updated_at: "2022-10-29 05:49:42.734696"
 latest: "1.01--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rd-analyzer"
 aliases:
  - "RD-Analyzer-extended.py"
  - "RD-Analyzer.py"
+ - "bcftools"
+ - "bwa"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "qualfa2fq.pl"
+ - "samtools"
 versions:
  - "1.01--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rd-analyzer"
-config: {"url": "https://biocontainers.pro/tools/rd-analyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rd-analyzer", "latest": {"1.01--hdfd78af_0": "sha256:8c3f2b629bde7ed0549262568748821fd0f4f9478b391caaa7cc57f2f5b9ae41"}, "tags": {"1.01--hdfd78af_0": "sha256:8c3f2b629bde7ed0549262568748821fd0f4f9478b391caaa7cc57f2f5b9ae41"}, "docker": "quay.io/biocontainers/rd-analyzer", "aliases": {"RD-Analyzer-extended.py": "/usr/local/bin/RD-Analyzer-extended.py", "RD-Analyzer.py": "/usr/local/bin/RD-Analyzer.py"}}
+config: {"url": "https://biocontainers.pro/tools/rd-analyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rd-analyzer", "latest": {"1.01--hdfd78af_0": "sha256:8c3f2b629bde7ed0549262568748821fd0f4f9478b391caaa7cc57f2f5b9ae41"}, "tags": {"1.01--hdfd78af_0": "sha256:8c3f2b629bde7ed0549262568748821fd0f4f9478b391caaa7cc57f2f5b9ae41"}, "docker": "quay.io/biocontainers/rd-analyzer", "aliases": {"RD-Analyzer-extended.py": "/usr/local/bin/RD-Analyzer-extended.py", "RD-Analyzer.py": "/usr/local/bin/RD-Analyzer.py", "bcftools": "/usr/local/bin/bcftools", "bwa": "/usr/local/bin/bwa", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "samtools": "/usr/local/bin/samtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rd-analyzer.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/RD-Analyzer-extended.py   -v 
 $ singularity exec <container> /usr/local/bin/RD-Analyzer.py
 $ podman run --it --rm --entrypoint /usr/local/bin/RD-Analyzer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/RD-Analyzer.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bwa
+
+```bash
+$ singularity exec <container> /usr/local/bin/bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### qualfa2fq.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/qualfa2fq.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/qualfa2fq.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### samtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/samtools
+$ podman run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

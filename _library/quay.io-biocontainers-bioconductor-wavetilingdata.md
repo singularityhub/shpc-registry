@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-wavetilingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wavetilingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wavetilingdata/container.yaml"
-updated_at: "2022-10-27 00:34:27.253535"
+updated_at: "2022-10-29 05:51:26.646387"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-wavetilingdata"
 aliases:
- - ".bioconductor-wavetilingdata-post-link.sh"
- - ".bioconductor-wavetilingdata-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.26.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-wavetilingdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wavetilingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wavetilingdata", "latest": {"1.26.0--r40hdfd78af_1": "sha256:e110afe33bece848bd7ab064a8089434211e495c853f9e54ffc6e5a121dca7a7"}, "tags": {"1.26.0--r40hdfd78af_1": "sha256:e110afe33bece848bd7ab064a8089434211e495c853f9e54ffc6e5a121dca7a7"}, "docker": "quay.io/biocontainers/bioconductor-wavetilingdata", "aliases": {".bioconductor-wavetilingdata-post-link.sh": "/usr/local/bin/.bioconductor-wavetilingdata-post-link.sh", ".bioconductor-wavetilingdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-wavetilingdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wavetilingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wavetilingdata", "latest": {"1.26.0--r40hdfd78af_1": "sha256:e110afe33bece848bd7ab064a8089434211e495c853f9e54ffc6e5a121dca7a7"}, "tags": {"1.26.0--r40hdfd78af_1": "sha256:e110afe33bece848bd7ab064a8089434211e495c853f9e54ffc6e5a121dca7a7"}, "docker": "quay.io/biocontainers/bioconductor-wavetilingdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wavetilingdata.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-wavetilingdata-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-wavetilingdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-wavetilingdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-wavetilingdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-wavetilingdata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-wavetilingdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-wavetilingdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-wavetilingdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

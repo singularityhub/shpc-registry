@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/perl-tie-log4perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-tie-log4perl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-tie-log4perl/container.yaml"
-updated_at: "2022-10-27 00:22:42.523568"
+updated_at: "2022-10-29 05:35:51.904858"
 latest: "0.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-tie-log4perl"
-
+aliases:
+ - "dbilogstrip"
+ - "dbiprof"
+ - "dbiproxy"
+ - "l4p-tmpl"
 versions:
  - "0.1--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-tie-log4perl"
-config: {"url": "https://biocontainers.pro/tools/perl-tie-log4perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-log4perl", "latest": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "tags": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "docker": "quay.io/biocontainers/perl-tie-log4perl"}
+config: {"url": "https://biocontainers.pro/tools/perl-tie-log4perl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-tie-log4perl", "latest": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "tags": {"0.1--pl5321hdfd78af_2": "sha256:89ec68ed50db9866e62366cb82a6ddba7c55678f9e19d5ecb1e74cb0f4b88ada"}, "docker": "quay.io/biocontainers/perl-tie-log4perl", "aliases": {"dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "l4p-tmpl": "/usr/local/bin/l4p-tmpl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-tie-log4perl.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-tie-log4perl
+#### dbilogstrip
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/dbilogstrip
+$ podman run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### dbiprof
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbiprof
+$ podman run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbiproxy
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbiproxy
+$ podman run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### l4p-tmpl
+
+```bash
+$ singularity exec <container> /usr/local/bin/l4p-tmpl
+$ podman run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/l4p-tmpl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

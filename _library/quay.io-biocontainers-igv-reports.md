@@ -4,16 +4,23 @@ name:  "quay.io/biocontainers/igv-reports"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igv-reports/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/igv-reports/container.yaml"
-updated_at: "2022-10-27 00:29:49.249350"
+updated_at: "2022-10-29 05:45:15.256147"
 latest: "1.6.1--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/igv-reports"
 aliases:
  - "create_datauri"
  - "create_report"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "normalizer"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "1.6.1--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for igv-reports"
-config: {"url": "https://biocontainers.pro/tools/igv-reports", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igv-reports", "latest": {"1.6.1--pyh7cba7a3_0": "sha256:5f8e40f84d3398f243d1cea959802752e8d8f54686dba4a389144746e69b1294"}, "tags": {"1.6.1--pyh7cba7a3_0": "sha256:5f8e40f84d3398f243d1cea959802752e8d8f54686dba4a389144746e69b1294"}, "docker": "quay.io/biocontainers/igv-reports", "aliases": {"create_datauri": "/usr/local/bin/create_datauri", "create_report": "/usr/local/bin/create_report"}}
+config: {"url": "https://biocontainers.pro/tools/igv-reports", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igv-reports", "latest": {"1.6.1--pyh7cba7a3_0": "sha256:5f8e40f84d3398f243d1cea959802752e8d8f54686dba4a389144746e69b1294"}, "tags": {"1.6.1--pyh7cba7a3_0": "sha256:5f8e40f84d3398f243d1cea959802752e8d8f54686dba4a389144746e69b1294"}, "docker": "quay.io/biocontainers/igv-reports", "aliases": {"create_datauri": "/usr/local/bin/create_datauri", "create_report": "/usr/local/bin/create_report", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igv-reports.
@@ -114,6 +121,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/create_datauri   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/create_report
 $ podman run --it --rm --entrypoint /usr/local/bin/create_report   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/create_report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38/container.yaml"
-updated_at: "2022-10-27 00:30:23.399908"
+updated_at: "2022-10-29 05:46:00.115332"
 latest: "3.13.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.r3.0.grch38"
 aliases:
- - ".bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh"
- - ".bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.13.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafh5.gnomad.r3.0.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.r3.0.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafh5.gnomad.r3.0.grch38", "latest": {"3.13.0--r41hdfd78af_0": "sha256:b115bed64b1e25752bd8edf2c51ed22a3d1f8d6d5615eb98fa0176f061ddf7c7"}, "tags": {"3.13.0--r41hdfd78af_0": "sha256:b115bed64b1e25752bd8edf2c51ed22a3d1f8d6d5615eb98fa0176f061ddf7c7"}, "docker": "quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38", "aliases": {".bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh": "/usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh", ".bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh": "/usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafh5.gnomad.r3.0.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafh5.gnomad.r3.0.grch38", "latest": {"3.13.0--r41hdfd78af_0": "sha256:b115bed64b1e25752bd8edf2c51ed22a3d1f8d6d5615eb98fa0176f061ddf7c7"}, "tags": {"3.13.0--r41hdfd78af_0": "sha256:b115bed64b1e25752bd8edf2c51ed22a3d1f8d6d5615eb98fa0176f061ddf7c7"}, "docker": "quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafh5.gnomad.r3.0.grch38.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafh5.gnomad.r3.0.grch38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/exonerate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/exonerate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/exonerate/container.yaml"
-updated_at: "2022-10-27 00:23:03.353622"
+updated_at: "2022-10-29 05:36:19.038944"
 latest: "2.4.0--h09da616_5"
 container_url: "https://biocontainers.pro/tools/exonerate"
 aliases:
@@ -35,10 +35,16 @@ aliases:
  - "fastatranslate"
  - "fastavalidcds"
  - "ipcress"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "2.4.0--h09da616_5"
 description: "shpc-registry automated BioContainers addition for exonerate"
-config: {"url": "https://biocontainers.pro/tools/exonerate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exonerate", "latest": {"2.4.0--h09da616_5": "sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a"}, "tags": {"2.4.0--h09da616_5": "sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a"}, "docker": "quay.io/biocontainers/exonerate", "aliases": {"esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclean": "/usr/local/bin/fastaclean", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasplit": "/usr/local/bin/fastasplit", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress"}}
+config: {"url": "https://biocontainers.pro/tools/exonerate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for exonerate", "latest": {"2.4.0--h09da616_5": "sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a"}, "tags": {"2.4.0--h09da616_5": "sha256:96de65ff2b02b8026cc382a3ef5cb8646de44b16f0f90f0b839a52119e3e977a"}, "docker": "quay.io/biocontainers/exonerate", "aliases": {"esd2esi": "/usr/local/bin/esd2esi", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "fasta2esd": "/usr/local/bin/fasta2esd", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclean": "/usr/local/bin/fastaclean", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasplit": "/usr/local/bin/fastasplit", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "ipcress": "/usr/local/bin/ipcress", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/exonerate.
@@ -364,6 +370,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastavalidcds   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/ipcress
 $ podman run --it --rm --entrypoint /usr/local/bin/ipcress   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ipcress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

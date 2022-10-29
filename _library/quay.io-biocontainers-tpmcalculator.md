@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/tpmcalculator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tpmcalculator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tpmcalculator/container.yaml"
-updated_at: "2022-10-27 00:18:25.260605"
+updated_at: "2022-10-29 05:30:11.661439"
 latest: "0.0.4--ha7703dc_2"
 container_url: "https://biocontainers.pro/tools/tpmcalculator"
 aliases:
  - "TPMCalculator"
+ - "bamtools"
 versions:
  - "0.0.4--ha7703dc_2"
 description: "shpc-registry automated BioContainers addition for tpmcalculator"
-config: {"url": "https://biocontainers.pro/tools/tpmcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tpmcalculator", "latest": {"0.0.4--ha7703dc_2": "sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e"}, "tags": {"0.0.4--ha7703dc_2": "sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e"}, "docker": "quay.io/biocontainers/tpmcalculator", "aliases": {"TPMCalculator": "/usr/local/bin/TPMCalculator"}}
+config: {"url": "https://biocontainers.pro/tools/tpmcalculator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tpmcalculator", "latest": {"0.0.4--ha7703dc_2": "sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e"}, "tags": {"0.0.4--ha7703dc_2": "sha256:ebb1671f09de2449f89efd4a1c92650f1bdf51952cf3e4b243f995c835e4fd3e"}, "docker": "quay.io/biocontainers/tpmcalculator", "aliases": {"TPMCalculator": "/usr/local/bin/TPMCalculator", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tpmcalculator.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/TPMCalculator
 $ podman run --it --rm --entrypoint /usr/local/bin/TPMCalculator   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/TPMCalculator   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

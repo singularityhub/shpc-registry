@@ -4,16 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-panther.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panther.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panther.db/container.yaml"
-updated_at: "2022-10-27 00:38:42.267013"
+updated_at: "2022-10-29 05:57:03.595159"
 latest: "1.0.5--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-panther.db"
 aliases:
- - ".bioconductor-panther.db-post-link.sh"
- - ".bioconductor-panther.db-pre-unlink.sh"
+ - "R"
+ - "Rscript"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
+ - "bzegrep"
+ - "bzfgrep"
+ - "bzgrep"
 versions:
  - "1.0.5--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-panther.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-panther.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panther.db", "latest": {"1.0.5--r36_0": "sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f"}, "tags": {"1.0.5--r36_0": "sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f"}, "docker": "quay.io/biocontainers/bioconductor-panther.db", "aliases": {".bioconductor-panther.db-post-link.sh": "/usr/local/bin/.bioconductor-panther.db-post-link.sh", ".bioconductor-panther.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-panther.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-panther.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panther.db", "latest": {"1.0.5--r36_0": "sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f"}, "tags": {"1.0.5--r36_0": "sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f"}, "docker": "quay.io/biocontainers/bioconductor-panther.db", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff", "bzegrep": "/usr/local/bin/bzegrep", "bzfgrep": "/usr/local/bin/bzfgrep", "bzgrep": "/usr/local/bin/bzgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-panther.db.
@@ -99,21 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-panther.db-post-link.sh
+#### R
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-panther.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-panther.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-panther.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-panther.db-pre-unlink.sh
+#### Rscript
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-panther.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-panther.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-panther.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzegrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzegrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzfgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzfgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

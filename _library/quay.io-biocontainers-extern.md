@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/extern"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extern/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/extern/container.yaml"
-updated_at: "2022-10-27 00:32:31.315107"
+updated_at: "2022-10-29 05:48:51.766626"
 latest: "0.2.1--py27_1"
 container_url: "https://biocontainers.pro/tools/extern"
-
+aliases:
+ - "idle"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "0.2.1--py27_1"
 description: "shpc-registry automated BioContainers addition for extern"
-config: {"url": "https://biocontainers.pro/tools/extern", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extern", "latest": {"0.2.1--py27_1": "sha256:02fca024d3f22160ee1df056014edd903b4ff4053c0661a255638bdb4f2b3bca"}, "tags": {"0.2.1--py27_1": "sha256:02fca024d3f22160ee1df056014edd903b4ff4053c0661a255638bdb4f2b3bca"}, "docker": "quay.io/biocontainers/extern"}
+config: {"url": "https://biocontainers.pro/tools/extern", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extern", "latest": {"0.2.1--py27_1": "sha256:02fca024d3f22160ee1df056014edd903b4ff4053c0661a255638bdb4f2b3bca"}, "tags": {"0.2.1--py27_1": "sha256:02fca024d3f22160ee1df056014edd903b4ff4053c0661a255638bdb4f2b3bca"}, "docker": "quay.io/biocontainers/extern", "aliases": {"idle": "/usr/local/bin/idle", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extern.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### extern
+#### idle
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

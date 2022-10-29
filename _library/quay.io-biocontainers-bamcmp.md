@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bamcmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamcmp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamcmp/container.yaml"
-updated_at: "2022-10-27 00:26:23.620646"
+updated_at: "2022-10-29 05:40:44.795036"
 latest: "2.2--h28e74a2_2"
 container_url: "https://biocontainers.pro/tools/bamcmp"
 aliases:
  - "bamcmp"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "2.2--h28e74a2_2"
 description: "shpc-registry automated BioContainers addition for bamcmp"
-config: {"url": "https://biocontainers.pro/tools/bamcmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamcmp", "latest": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce"}, "tags": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce"}, "docker": "quay.io/biocontainers/bamcmp", "aliases": {"bamcmp": "/usr/local/bin/bamcmp"}}
+config: {"url": "https://biocontainers.pro/tools/bamcmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamcmp", "latest": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce"}, "tags": {"2.2--h28e74a2_2": "sha256:b897fa18e68b331cf9fe6c1128e5fd8ccf51fc3d3d545608ee43f412f77ebbce"}, "docker": "quay.io/biocontainers/bamcmp", "aliases": {"bamcmp": "/usr/local/bin/bamcmp", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamcmp.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/bamcmp
 $ podman run --it --rm --entrypoint /usr/local/bin/bamcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bamcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

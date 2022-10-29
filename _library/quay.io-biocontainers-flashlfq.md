@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/flashlfq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/flashlfq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/flashlfq/container.yaml"
-updated_at: "2022-10-27 00:34:40.031349"
+updated_at: "2022-10-29 05:51:44.357597"
 latest: "1.2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/flashlfq"
 aliases:
  - "FlashLFQ"
+ - "lttng-gen-tp"
 versions:
  - "1.2.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for flashlfq"
-config: {"url": "https://biocontainers.pro/tools/flashlfq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flashlfq", "latest": {"1.2.4--hdfd78af_0": "sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714"}, "tags": {"1.2.4--hdfd78af_0": "sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714"}, "docker": "quay.io/biocontainers/flashlfq", "aliases": {"FlashLFQ": "/usr/local/bin/FlashLFQ"}}
+config: {"url": "https://biocontainers.pro/tools/flashlfq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for flashlfq", "latest": {"1.2.4--hdfd78af_0": "sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714"}, "tags": {"1.2.4--hdfd78af_0": "sha256:d1654b13f30566096da690a28eae8e8e4f36394bb4b3cca4578c49adc4bad714"}, "docker": "quay.io/biocontainers/flashlfq", "aliases": {"FlashLFQ": "/usr/local/bin/FlashLFQ", "lttng-gen-tp": "/usr/local/bin/lttng-gen-tp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/flashlfq.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/FlashLFQ
 $ podman run --it --rm --entrypoint /usr/local/bin/FlashLFQ   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/FlashLFQ   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lttng-gen-tp
+
+```bash
+$ singularity exec <container> /usr/local/bin/lttng-gen-tp
+$ podman run --it --rm --entrypoint /usr/local/bin/lttng-gen-tp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lttng-gen-tp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

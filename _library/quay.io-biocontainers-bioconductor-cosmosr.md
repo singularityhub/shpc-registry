@@ -4,18 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cosmosr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosmosr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosmosr/container.yaml"
-updated_at: "2022-10-27 00:30:30.684867"
+updated_at: "2022-10-29 05:46:09.926835"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosmosr"
 aliases:
- - ".bioconductor-bcellviper-post-link.sh"
- - ".bioconductor-bcellviper-pre-unlink.sh"
- - ".bioconductor-dorothea-post-link.sh"
- - ".bioconductor-dorothea-pre-unlink.sh"
+ - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cosmosr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cosmosr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosmosr", "latest": {"1.2.0--r41hdfd78af_0": "sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0"}, "docker": "quay.io/biocontainers/bioconductor-cosmosr", "aliases": {".bioconductor-bcellviper-post-link.sh": "/usr/local/bin/.bioconductor-bcellviper-post-link.sh", ".bioconductor-bcellviper-pre-unlink.sh": "/usr/local/bin/.bioconductor-bcellviper-pre-unlink.sh", ".bioconductor-dorothea-post-link.sh": "/usr/local/bin/.bioconductor-dorothea-post-link.sh", ".bioconductor-dorothea-pre-unlink.sh": "/usr/local/bin/.bioconductor-dorothea-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cosmosr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosmosr", "latest": {"1.2.0--r41hdfd78af_0": "sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0818dde3e37d6f3041ec115d6951fe266c1d7dc0515bdea4ba8e40f65ecd71b0"}, "docker": "quay.io/biocontainers/bioconductor-cosmosr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cosmosr.
@@ -101,39 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-bcellviper-post-link.sh
+#### pandoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bcellviper-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bcellviper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bcellviper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-bcellviper-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bcellviper-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bcellviper-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bcellviper-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-dorothea-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-dorothea-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dorothea-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dorothea-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-dorothea-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-dorothea-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dorothea-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dorothea-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

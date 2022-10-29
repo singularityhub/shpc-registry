@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene/container.yaml"
-updated_at: "2022-10-27 00:35:46.219041"
+updated_at: "2022-10-29 05:53:11.197065"
 latest: "3.4.6--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
 aliases:
- - ".bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh"
- - ".bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh"
+ - "c89"
+ - "c99"
+ - "gio-launch-desktop"
 versions:
  - "3.4.6--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "latest": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6"}, "tags": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6"}, "docker": "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "aliases": {".bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh", ".bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "latest": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6"}, "tags": {"3.4.6--r36_1": "sha256:10ab120034febb80f5087c50a84f02f3d58a122003e306d8b013f69eb72197e6"}, "docker": "quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.sscrofa.ucsc.susscr3.refgene.
@@ -99,21 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.sscrofa.ucsc.susscr3.refgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_model"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_model/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_model/container.yaml"
-updated_at: "2022-10-27 00:34:58.332511"
+updated_at: "2022-10-29 05:52:09.352816"
 latest: "3.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_model"
 aliases:
@@ -15,10 +15,18 @@ aliases:
  - "fix_chirality"
  - "fix_side_chain"
  - "mutate"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "normalizer"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "3.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_model"
-config: {"url": "https://biocontainers.pro/tools/biobb_model", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_model", "latest": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1"}, "docker": "quay.io/biocontainers/biobb_model", "aliases": {"check_structure": "/usr/local/bin/check_structure", "checking_log": "/usr/local/bin/checking_log", "fix_amides": "/usr/local/bin/fix_amides", "fix_backbone": "/usr/local/bin/fix_backbone", "fix_chirality": "/usr/local/bin/fix_chirality", "fix_side_chain": "/usr/local/bin/fix_side_chain", "mutate": "/usr/local/bin/mutate"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_model", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_model", "latest": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1"}, "docker": "quay.io/biocontainers/biobb_model", "aliases": {"check_structure": "/usr/local/bin/check_structure", "checking_log": "/usr/local/bin/checking_log", "fix_amides": "/usr/local/bin/fix_amides", "fix_backbone": "/usr/local/bin/fix_backbone", "fix_chirality": "/usr/local/bin/fix_chirality", "fix_side_chain": "/usr/local/bin/fix_side_chain", "mutate": "/usr/local/bin/mutate", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_model.
@@ -164,6 +172,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fix_side_chain   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/mutate
 $ podman run --it --rm --entrypoint /usr/local/bin/mutate   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mutate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

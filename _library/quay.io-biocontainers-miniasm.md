@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/miniasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniasm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/miniasm/container.yaml"
-updated_at: "2022-10-27 00:30:41.362388"
+updated_at: "2022-10-29 05:46:25.536546"
 latest: "0.3_r179--h7132678_3"
 container_url: "https://biocontainers.pro/tools/miniasm"
-
+aliases:
+ - "miniasm"
+ - "minidot"
 versions:
  - "0.3_r179--h7132678_3"
 description: "shpc-registry automated BioContainers addition for miniasm"
-config: {"url": "https://biocontainers.pro/tools/miniasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miniasm", "latest": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0"}, "tags": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0"}, "docker": "quay.io/biocontainers/miniasm"}
+config: {"url": "https://biocontainers.pro/tools/miniasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miniasm", "latest": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0"}, "tags": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0"}, "docker": "quay.io/biocontainers/miniasm", "aliases": {"miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/miniasm.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### miniasm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/miniasm
+$ podman run --it --rm --entrypoint /usr/local/bin/miniasm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/miniasm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### minidot
+
+```bash
+$ singularity exec <container> /usr/local/bin/minidot
+$ podman run --it --rm --entrypoint /usr/local/bin/minidot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minidot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/goetia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/goetia/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/goetia/container.yaml"
-updated_at: "2022-10-27 00:25:18.165338"
+updated_at: "2022-10-29 05:39:16.830890"
 latest: "0.14--py36hd181a71_1"
 container_url: "https://biocontainers.pro/tools/goetia"
 aliases:
@@ -36,10 +36,20 @@ aliases:
  - "scan-build"
  - "scan-view"
  - "sourmash"
+ - "2to3-3.6"
+ - "c89"
+ - "c99"
+ - "f2py3.6"
+ - "get_objgraph"
+ - "idle3.6"
+ - "jpgicc"
+ - "jsonschema"
+ - "linkicc"
+ - "psicc"
 versions:
  - "0.14--py36hd181a71_1"
 description: "shpc-registry automated BioContainers addition for goetia"
-config: {"url": "https://biocontainers.pro/tools/goetia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goetia", "latest": {"0.14--py36hd181a71_1": "sha256:30e6a5ae975f3a1e4ac203ef7835291116de546ab8db00377782ab7158ba8edc"}, "tags": {"0.14--py36hd181a71_1": "sha256:30e6a5ae975f3a1e4ac203ef7835291116de546ab8db00377782ab7158ba8edc"}, "docker": "quay.io/biocontainers/goetia", "aliases": {"bam2fasta": "/usr/local/bin/bam2fasta", "c-index-test": "/usr/local/bin/c-index-test", "clang": "/usr/local/bin/clang", "clang++": "/usr/local/bin/clang++", "clang-5.0": "/usr/local/bin/clang-5.0", "clang-check": "/usr/local/bin/clang-check", "clang-cl": "/usr/local/bin/clang-cl", "clang-cpp": "/usr/local/bin/clang-cpp", "clang-format": "/usr/local/bin/clang-format", "clang-import-test": "/usr/local/bin/clang-import-test", "clang-offload-bundler": "/usr/local/bin/clang-offload-bundler", "clang-rename": "/usr/local/bin/clang-rename", "cling-config": "/usr/local/bin/cling-config", "cppyy-generator": "/usr/local/bin/cppyy-generator", "cpuinfo": "/usr/local/bin/cpuinfo", "draff": "/usr/local/bin/draff", "genreflex": "/usr/local/bin/genreflex", "git-clang-format": "/usr/local/bin/git-clang-format", "goetia": "/usr/local/bin/goetia", "pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "pyfiglet": "/usr/local/bin/pyfiglet", "rootcling": "/usr/local/bin/rootcling", "scan-build": "/usr/local/bin/scan-build", "scan-view": "/usr/local/bin/scan-view", "sourmash": "/usr/local/bin/sourmash"}}
+config: {"url": "https://biocontainers.pro/tools/goetia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for goetia", "latest": {"0.14--py36hd181a71_1": "sha256:30e6a5ae975f3a1e4ac203ef7835291116de546ab8db00377782ab7158ba8edc"}, "tags": {"0.14--py36hd181a71_1": "sha256:30e6a5ae975f3a1e4ac203ef7835291116de546ab8db00377782ab7158ba8edc"}, "docker": "quay.io/biocontainers/goetia", "aliases": {"bam2fasta": "/usr/local/bin/bam2fasta", "c-index-test": "/usr/local/bin/c-index-test", "clang": "/usr/local/bin/clang", "clang++": "/usr/local/bin/clang++", "clang-5.0": "/usr/local/bin/clang-5.0", "clang-check": "/usr/local/bin/clang-check", "clang-cl": "/usr/local/bin/clang-cl", "clang-cpp": "/usr/local/bin/clang-cpp", "clang-format": "/usr/local/bin/clang-format", "clang-import-test": "/usr/local/bin/clang-import-test", "clang-offload-bundler": "/usr/local/bin/clang-offload-bundler", "clang-rename": "/usr/local/bin/clang-rename", "cling-config": "/usr/local/bin/cling-config", "cppyy-generator": "/usr/local/bin/cppyy-generator", "cpuinfo": "/usr/local/bin/cpuinfo", "draff": "/usr/local/bin/draff", "genreflex": "/usr/local/bin/genreflex", "git-clang-format": "/usr/local/bin/git-clang-format", "goetia": "/usr/local/bin/goetia", "pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "pyfiglet": "/usr/local/bin/pyfiglet", "rootcling": "/usr/local/bin/rootcling", "scan-build": "/usr/local/bin/scan-build", "scan-view": "/usr/local/bin/scan-view", "sourmash": "/usr/local/bin/sourmash", "2to3-3.6": "/usr/local/bin/2to3-3.6", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "f2py3.6": "/usr/local/bin/f2py3.6", "get_objgraph": "/usr/local/bin/get_objgraph", "idle3.6": "/usr/local/bin/idle3.6", "jpgicc": "/usr/local/bin/jpgicc", "jsonschema": "/usr/local/bin/jsonschema", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/goetia.
@@ -374,6 +384,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scan-view   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/sourmash
 $ podman run --it --rm --entrypoint /usr/local/bin/sourmash   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sourmash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### get_objgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/get_objgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jsonschema
+
+```bash
+$ singularity exec <container> /usr/local/bin/jsonschema
+$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### psicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/psicc
+$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

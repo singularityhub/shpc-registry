@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/biolib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biolib/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biolib/container.yaml"
-updated_at: "2022-10-27 00:20:42.802242"
+updated_at: "2022-10-29 05:33:12.842177"
 latest: "0.1.9--py_0"
 container_url: "https://biocontainers.pro/tools/biolib"
-
+aliases:
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.1.9--py_0"
 description: "shpc-registry automated BioContainers addition for biolib"
-config: {"url": "https://biocontainers.pro/tools/biolib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biolib", "latest": {"0.1.9--py_0": "sha256:a1a183a251072df451ed481e0f95f12541312547614ce7867934e896d7d24553"}, "tags": {"0.1.9--py_0": "sha256:a1a183a251072df451ed481e0f95f12541312547614ce7867934e896d7d24553"}, "docker": "quay.io/biocontainers/biolib"}
+config: {"url": "https://biocontainers.pro/tools/biolib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biolib", "latest": {"0.1.9--py_0": "sha256:a1a183a251072df451ed481e0f95f12541312547614ce7867934e896d7d24553"}, "tags": {"0.1.9--py_0": "sha256:a1a183a251072df451ed481e0f95f12541312547614ce7867934e896d7d24553"}, "docker": "quay.io/biocontainers/biolib", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biolib.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### biolib
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

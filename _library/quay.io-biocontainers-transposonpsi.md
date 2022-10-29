@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transposonpsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transposonpsi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/transposonpsi/container.yaml"
-updated_at: "2022-10-27 00:18:42.261777"
+updated_at: "2022-10-29 05:30:33.811481"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/transposonpsi"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "m2fmt_tier_hits.pl"
  - "transposonPSI.pl"
  - "transposon_db_m2fmt_to_gff3.pl"
+ - "2to3-3.7"
+ - "SOAPsh.pl"
+ - "ace.pl"
+ - "acyclic"
+ - "annotate"
+ - "bam2bedgraph"
+ - "bamToGBrowse.pl"
+ - "baseml"
+ - "basemlg"
+ - "bcomps"
 versions:
  - "1.0.0--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for transposonpsi"
-config: {"url": "https://biocontainers.pro/tools/transposonpsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transposonpsi", "latest": {"1.0.0--hdfd78af_2": "sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada"}, "tags": {"1.0.0--hdfd78af_2": "sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada"}, "docker": "quay.io/biocontainers/transposonpsi", "aliases": {"BPbtab": "/usr/local/bin/BPbtab", "TBLASTN_hit_chainer.pl": "/usr/local/bin/TBLASTN_hit_chainer.pl", "TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl": "/usr/local/bin/TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl", "TPSI_btab_to_gff3.pl": "/usr/local/bin/TPSI_btab_to_gff3.pl", "TPSI_chains_to_fasta.pl": "/usr/local/bin/TPSI_chains_to_fasta.pl", "TPSI_chains_to_gff3.pl": "/usr/local/bin/TPSI_chains_to_gff3.pl", "m2fmt_tier_hits.pl": "/usr/local/bin/m2fmt_tier_hits.pl", "transposonPSI.pl": "/usr/local/bin/transposonPSI.pl", "transposon_db_m2fmt_to_gff3.pl": "/usr/local/bin/transposon_db_m2fmt_to_gff3.pl"}}
+config: {"url": "https://biocontainers.pro/tools/transposonpsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for transposonpsi", "latest": {"1.0.0--hdfd78af_2": "sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada"}, "tags": {"1.0.0--hdfd78af_2": "sha256:4d8f7db74586ba17230b160c77895aa1ab34cc87f1d44ce367bd0a5c6122dada"}, "docker": "quay.io/biocontainers/transposonpsi", "aliases": {"BPbtab": "/usr/local/bin/BPbtab", "TBLASTN_hit_chainer.pl": "/usr/local/bin/TBLASTN_hit_chainer.pl", "TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl": "/usr/local/bin/TBLASTN_hit_chainer_nonoverlapping_genome_DP_extraction.pl", "TPSI_btab_to_gff3.pl": "/usr/local/bin/TPSI_btab_to_gff3.pl", "TPSI_chains_to_fasta.pl": "/usr/local/bin/TPSI_chains_to_fasta.pl", "TPSI_chains_to_gff3.pl": "/usr/local/bin/TPSI_chains_to_gff3.pl", "m2fmt_tier_hits.pl": "/usr/local/bin/m2fmt_tier_hits.pl", "transposonPSI.pl": "/usr/local/bin/transposonPSI.pl", "transposon_db_m2fmt_to_gff3.pl": "/usr/local/bin/transposon_db_m2fmt_to_gff3.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "bcomps": "/usr/local/bin/bcomps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/transposonpsi.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/transposonPSI.pl   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/transposon_db_m2fmt_to_gff3.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/transposon_db_m2fmt_to_gff3.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/transposon_db_m2fmt_to_gff3.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SOAPsh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bedgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bedgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToGBrowse.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### baseml
+
+```bash
+$ singularity exec <container> /usr/local/bin/baseml
+$ podman run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basemlg
+
+```bash
+$ singularity exec <container> /usr/local/bin/basemlg
+$ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

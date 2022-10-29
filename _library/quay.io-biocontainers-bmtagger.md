@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bmtagger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bmtagger/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bmtagger/container.yaml"
-updated_at: "2022-10-27 00:37:17.185280"
+updated_at: "2022-10-29 05:55:13.663554"
 latest: "3.101--h470a237_4"
 container_url: "https://biocontainers.pro/tools/bmtagger"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "bmtool"
  - "extract_fullseq"
  - "srprism"
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
+ - "blastdbcmd"
+ - "blastdbcp"
+ - "blastn"
+ - "blastp"
+ - "blastx"
+ - "convert2blastmask"
+ - "datatool"
 versions:
  - "3.101--h470a237_4"
 description: "shpc-registry automated BioContainers addition for bmtagger"
-config: {"url": "https://biocontainers.pro/tools/bmtagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bmtagger", "latest": {"3.101--h470a237_4": "sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97"}, "tags": {"3.101--h470a237_4": "sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97"}, "docker": "quay.io/biocontainers/bmtagger", "aliases": {"bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "extract_fullseq": "/usr/local/bin/extract_fullseq", "srprism": "/usr/local/bin/srprism"}}
+config: {"url": "https://biocontainers.pro/tools/bmtagger", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bmtagger", "latest": {"3.101--h470a237_4": "sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97"}, "tags": {"3.101--h470a237_4": "sha256:12d6761b05b473971e38cf4ff438e6614c7e39128a51bec3073f7158c2d3ef97"}, "docker": "quay.io/biocontainers/bmtagger", "aliases": {"bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "extract_fullseq": "/usr/local/bin/extract_fullseq", "srprism": "/usr/local/bin/srprism", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "convert2blastmask": "/usr/local/bin/convert2blastmask", "datatool": "/usr/local/bin/datatool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bmtagger.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extract_fullseq   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/srprism
 $ podman run --it --rm --entrypoint /usr/local/bin/srprism   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/srprism   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastn
+$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastx
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastx
+$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert2blastmask
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert2blastmask
+$ podman run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### datatool
+
+```bash
+$ singularity exec <container> /usr/local/bin/datatool
+$ podman run --it --rm --entrypoint /usr/local/bin/datatool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/datatool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

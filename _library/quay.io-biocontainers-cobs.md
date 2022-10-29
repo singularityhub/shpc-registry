@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/cobs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cobs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cobs/container.yaml"
-updated_at: "2022-10-27 00:40:21.460302"
+updated_at: "2022-10-29 05:59:12.995603"
 latest: "0.2.0--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/cobs"
 aliases:
  - "cobs"
+ - "xxhsum"
 versions:
  - "0.2.0--hd03093a_0"
 description: "shpc-registry automated BioContainers addition for cobs"
-config: {"url": "https://biocontainers.pro/tools/cobs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cobs", "latest": {"0.2.0--hd03093a_0": "sha256:11fccbca332c0117d09b8b7384d3ea0148d518a8c010b57f95acf0ef9cdffbae"}, "tags": {"0.2.0--hd03093a_0": "sha256:11fccbca332c0117d09b8b7384d3ea0148d518a8c010b57f95acf0ef9cdffbae"}, "docker": "quay.io/biocontainers/cobs", "aliases": {"cobs": "/usr/local/bin/cobs"}}
+config: {"url": "https://biocontainers.pro/tools/cobs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cobs", "latest": {"0.2.0--hd03093a_0": "sha256:11fccbca332c0117d09b8b7384d3ea0148d518a8c010b57f95acf0ef9cdffbae"}, "tags": {"0.2.0--hd03093a_0": "sha256:11fccbca332c0117d09b8b7384d3ea0148d518a8c010b57f95acf0ef9cdffbae"}, "docker": "quay.io/biocontainers/cobs", "aliases": {"cobs": "/usr/local/bin/cobs", "xxhsum": "/usr/local/bin/xxhsum"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cobs.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/cobs
 $ podman run --it --rm --entrypoint /usr/local/bin/cobs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cobs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xxhsum
+
+```bash
+$ singularity exec <container> /usr/local/bin/xxhsum
+$ podman run --it --rm --entrypoint /usr/local/bin/xxhsum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xxhsum   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

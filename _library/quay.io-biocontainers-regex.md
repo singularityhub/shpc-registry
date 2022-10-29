@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/regex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/regex/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/regex/container.yaml"
-updated_at: "2022-10-27 00:34:58.749082"
+updated_at: "2022-10-29 05:52:09.925103"
 latest: "2016.06.24--py35_1"
 container_url: "https://biocontainers.pro/tools/regex"
-
+aliases:
+ - "2to3-3.5"
+ - "easy_install-3.5"
+ - "idle3.5"
+ - "ncurses5-config"
+ - "pydoc3.5"
+ - "python3.5"
+ - "python3.5-config"
+ - "python3.5m"
+ - "python3.5m-config"
+ - "pyvenv-3.5"
 versions:
  - "2016.06.24--py35_1"
 description: "shpc-registry automated BioContainers addition for regex"
-config: {"url": "https://biocontainers.pro/tools/regex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regex", "latest": {"2016.06.24--py35_1": "sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b"}, "tags": {"2016.06.24--py35_1": "sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b"}, "docker": "quay.io/biocontainers/regex"}
+config: {"url": "https://biocontainers.pro/tools/regex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for regex", "latest": {"2016.06.24--py35_1": "sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b"}, "tags": {"2016.06.24--py35_1": "sha256:c5e4f4c85d2ea937db03838095672bcfe1fa453965e11cec53565f3a38763d1b"}, "docker": "quay.io/biocontainers/regex", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "idle3.5": "/usr/local/bin/idle3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/regex.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### regex
+#### 2to3-3.5
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### easy_install-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/edd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/edd/container.yaml"
-updated_at: "2022-10-27 00:40:05.099485"
+updated_at: "2022-10-29 05:58:51.200455"
 latest: "1.1.19--py27h4329609_4"
 container_url: "https://biocontainers.pro/tools/edd"
 aliases:
  - "edd"
+ - "ace2sam"
+ - "annotate.py"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bcftools"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
 versions:
  - "1.1.19--py27h4329609_4"
 description: "shpc-registry automated BioContainers addition for edd"
-config: {"url": "https://biocontainers.pro/tools/edd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edd", "latest": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "tags": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "docker": "quay.io/biocontainers/edd", "aliases": {"edd": "/usr/local/bin/edd"}}
+config: {"url": "https://biocontainers.pro/tools/edd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edd", "latest": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "tags": {"1.1.19--py27h4329609_4": "sha256:5e9c6125f0b26c4a697618e0f1f8096703dada38dafa1604ae144f5c56309d89"}, "docker": "quay.io/biocontainers/edd", "aliases": {"edd": "/usr/local/bin/edd", "ace2sam": "/usr/local/bin/ace2sam", "annotate.py": "/usr/local/bin/annotate.py", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bcftools": "/usr/local/bin/bcftools", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edd.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/edd
 $ podman run --it --rm --entrypoint /usr/local/bin/edd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/edd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate.py
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

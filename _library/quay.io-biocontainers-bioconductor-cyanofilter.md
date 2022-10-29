@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cyanofilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cyanofilter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cyanofilter/container.yaml"
-updated_at: "2022-10-27 00:30:28.125832"
+updated_at: "2022-10-29 05:46:06.688490"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cyanofilter"
-
+aliases:
+ - "geos-config"
+ - "geosop"
 versions:
  - "1.2.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cyanofilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cyanofilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cyanofilter", "latest": {"1.2.0--r41hdfd78af_0": "sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4"}, "docker": "quay.io/biocontainers/bioconductor-cyanofilter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cyanofilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cyanofilter", "latest": {"1.2.0--r41hdfd78af_0": "sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:cec3a76eeca3b237a7b5c5ae6d96d6dd6c6230c6ab6a977798782e8f462422d4"}, "docker": "quay.io/biocontainers/bioconductor-cyanofilter", "aliases": {"geos-config": "/usr/local/bin/geos-config", "geosop": "/usr/local/bin/geosop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cyanofilter.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-cyanofilter
+#### geos-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/geos-config
+$ podman run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### geosop
+
+```bash
+$ singularity exec <container> /usr/local/bin/geosop
+$ podman run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

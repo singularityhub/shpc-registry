@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mobster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobster/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mobster/container.yaml"
-updated_at: "2022-10-27 00:19:16.326038"
+updated_at: "2022-10-29 05:31:19.467080"
 latest: "0.2.4.1--1"
 container_url: "https://biocontainers.pro/tools/mobster"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "MosaikText"
  - "mobster"
  - "mobster-to-vcf"
+ - "2to3-3.6"
+ - "appletviewer"
+ - "extcheck"
+ - "idle3.6"
+ - "idlj"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "java-rmi.cgi"
+ - "javac"
 versions:
  - "0.2.4.1--1"
 description: "shpc-registry automated BioContainers addition for mobster"
-config: {"url": "https://biocontainers.pro/tools/mobster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mobster", "latest": {"0.2.4.1--1": "sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c"}, "tags": {"0.2.4.1--1": "sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c"}, "docker": "quay.io/biocontainers/mobster", "aliases": {"MosaikAligner": "/usr/local/bin/MosaikAligner", "MosaikBuild": "/usr/local/bin/MosaikBuild", "MosaikJump": "/usr/local/bin/MosaikJump", "MosaikText": "/usr/local/bin/MosaikText", "mobster": "/usr/local/bin/mobster", "mobster-to-vcf": "/usr/local/bin/mobster-to-vcf"}}
+config: {"url": "https://biocontainers.pro/tools/mobster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mobster", "latest": {"0.2.4.1--1": "sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c"}, "tags": {"0.2.4.1--1": "sha256:ca3657866765cadf80910b6d0e6701086fbce8b4a76e2b34af985b0d7076183c"}, "docker": "quay.io/biocontainers/mobster", "aliases": {"MosaikAligner": "/usr/local/bin/MosaikAligner", "MosaikBuild": "/usr/local/bin/MosaikBuild", "MosaikJump": "/usr/local/bin/MosaikJump", "MosaikText": "/usr/local/bin/MosaikText", "mobster": "/usr/local/bin/mobster", "mobster-to-vcf": "/usr/local/bin/mobster-to-vcf", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "extcheck": "/usr/local/bin/extcheck", "idle3.6": "/usr/local/bin/idle3.6", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javac": "/usr/local/bin/javac"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mobster.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mobster   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/mobster-to-vcf
 $ podman run --it --rm --entrypoint /usr/local/bin/mobster-to-vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mobster-to-vcf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java-rmi.cgi
+
+```bash
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

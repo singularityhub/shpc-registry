@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/galaxy-objectstore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-objectstore/container.yaml"
-updated_at: "2022-10-27 00:19:00.109165"
+updated_at: "2022-10-29 05:30:58.404314"
 latest: "22.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-objectstore"
-
+aliases:
+ - "2to3-3.10"
+ - "cheetah"
+ - "cheetah-analyze"
+ - "cheetah-compile"
+ - "docutils"
+ - "futurize"
+ - "idle3.10"
+ - "normalizer"
+ - "pasteurize"
+ - "pydoc3.10"
 versions:
  - "22.1.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for galaxy-objectstore"
-config: {"url": "https://biocontainers.pro/tools/galaxy-objectstore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-objectstore", "latest": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "docker": "quay.io/biocontainers/galaxy-objectstore"}
+config: {"url": "https://biocontainers.pro/tools/galaxy-objectstore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-objectstore", "latest": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:61ccf6a893390ea655b838478affed3fb4967fc79914ef306d7631caec6c77a5"}, "docker": "quay.io/biocontainers/galaxy-objectstore", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "docutils": "/usr/local/bin/docutils", "futurize": "/usr/local/bin/futurize", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-objectstore.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### galaxy-objectstore
+#### 2to3-3.10
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### cheetah
+
+```bash
+$ singularity exec <container> /usr/local/bin/cheetah
+$ podman run --it --rm --entrypoint /usr/local/bin/cheetah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cheetah   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cheetah-analyze
+
+```bash
+$ singularity exec <container> /usr/local/bin/cheetah-analyze
+$ podman run --it --rm --entrypoint /usr/local/bin/cheetah-analyze   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cheetah-analyze   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cheetah-compile
+
+```bash
+$ singularity exec <container> /usr/local/bin/cheetah-compile
+$ podman run --it --rm --entrypoint /usr/local/bin/cheetah-compile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cheetah-compile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### docutils
+
+```bash
+$ singularity exec <container> /usr/local/bin/docutils
+$ podman run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docutils   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,17 +4,22 @@ name:  "quay.io/biocontainers/altamisa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/altamisa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/altamisa/container.yaml"
-updated_at: "2022-10-27 00:23:03.778321"
+updated_at: "2022-10-29 05:36:19.567312"
 latest: "0.2.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/altamisa"
 aliases:
  - "isatab2dot"
  - "isatab2isatab"
  - "isatab_validate"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.2.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for altamisa"
-config: {"url": "https://biocontainers.pro/tools/altamisa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for altamisa", "latest": {"0.2.9--pyhdfd78af_0": "sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08"}, "tags": {"0.2.9--pyhdfd78af_0": "sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08"}, "docker": "quay.io/biocontainers/altamisa", "aliases": {"isatab2dot": "/usr/local/bin/isatab2dot", "isatab2isatab": "/usr/local/bin/isatab2isatab", "isatab_validate": "/usr/local/bin/isatab_validate"}}
+config: {"url": "https://biocontainers.pro/tools/altamisa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for altamisa", "latest": {"0.2.9--pyhdfd78af_0": "sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08"}, "tags": {"0.2.9--pyhdfd78af_0": "sha256:e857a7752e2bd13d1a3e9e1636791075114e00be07f19766b23fcff575d45d08"}, "docker": "quay.io/biocontainers/altamisa", "aliases": {"isatab2dot": "/usr/local/bin/isatab2dot", "isatab2isatab": "/usr/local/bin/isatab2isatab", "isatab_validate": "/usr/local/bin/isatab_validate", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/altamisa.
@@ -124,6 +129,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/isatab2isatab   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/isatab_validate
 $ podman run --it --rm --entrypoint /usr/local/bin/isatab_validate   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/isatab_validate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

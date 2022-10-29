@@ -4,18 +4,15 @@ name:  "quay.io/biocontainers/moabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moabs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/moabs/container.yaml"
-updated_at: "2022-10-27 00:34:07.699764"
+updated_at: "2022-10-29 05:50:59.114572"
 latest: "1.3.9.6--pl5321r41h87262cc_3"
 container_url: "https://biocontainers.pro/tools/moabs"
 aliases:
- - ".moabs-post-link.sh"
  - "bamsort.sh"
  - "bbf"
  - "bseqc2"
  - "bseqc2mbiasplot.R"
  - "bsmap"
- - "lut_pdiffCI.dat"
- - "lut_pdiffInRegion.dat"
  - "mcall"
  - "mcomp"
  - "moabs"
@@ -26,10 +23,13 @@ aliases:
  - "routines.pm"
  - "template_for_cfg"
  - "template_for_qsub"
+ - "idn2"
+ - "samtools"
+ - "wget"
 versions:
  - "1.3.9.6--pl5321r41h87262cc_3"
 description: "shpc-registry automated BioContainers addition for moabs"
-config: {"url": "https://biocontainers.pro/tools/moabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moabs", "latest": {"1.3.9.6--pl5321r41h87262cc_3": "sha256:656f4b98a7b42f3023c2c2b4bcbdfac065f72d16e89cee10389f82925fb8769c"}, "tags": {"1.3.9.6--pl5321r41h87262cc_3": "sha256:656f4b98a7b42f3023c2c2b4bcbdfac065f72d16e89cee10389f82925fb8769c"}, "docker": "quay.io/biocontainers/moabs", "aliases": {".moabs-post-link.sh": "/usr/local/bin/.moabs-post-link.sh", "bamsort.sh": "/usr/local/bin/bamsort.sh", "bbf": "/usr/local/bin/bbf", "bseqc2": "/usr/local/bin/bseqc2", "bseqc2mbiasplot.R": "/usr/local/bin/bseqc2mbiasplot.R", "bsmap": "/usr/local/bin/bsmap", "lut_pdiffCI.dat": "/usr/local/bin/lut_pdiffCI.dat", "lut_pdiffInRegion.dat": "/usr/local/bin/lut_pdiffInRegion.dat", "mcall": "/usr/local/bin/mcall", "mcomp": "/usr/local/bin/mcomp", "moabs": "/usr/local/bin/moabs", "numCI": "/usr/local/bin/numCI", "pefilter": "/usr/local/bin/pefilter", "preprocess_novoalign.sh": "/usr/local/bin/preprocess_novoalign.sh", "redepth.pl": "/usr/local/bin/redepth.pl", "routines.pm": "/usr/local/bin/routines.pm", "template_for_cfg": "/usr/local/bin/template_for_cfg", "template_for_qsub": "/usr/local/bin/template_for_qsub"}}
+config: {"url": "https://biocontainers.pro/tools/moabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moabs", "latest": {"1.3.9.6--pl5321r41h87262cc_3": "sha256:656f4b98a7b42f3023c2c2b4bcbdfac065f72d16e89cee10389f82925fb8769c"}, "tags": {"1.3.9.6--pl5321r41h87262cc_3": "sha256:656f4b98a7b42f3023c2c2b4bcbdfac065f72d16e89cee10389f82925fb8769c"}, "docker": "quay.io/biocontainers/moabs", "aliases": {"bamsort.sh": "/usr/local/bin/bamsort.sh", "bbf": "/usr/local/bin/bbf", "bseqc2": "/usr/local/bin/bseqc2", "bseqc2mbiasplot.R": "/usr/local/bin/bseqc2mbiasplot.R", "bsmap": "/usr/local/bin/bsmap", "mcall": "/usr/local/bin/mcall", "mcomp": "/usr/local/bin/mcomp", "moabs": "/usr/local/bin/moabs", "numCI": "/usr/local/bin/numCI", "pefilter": "/usr/local/bin/pefilter", "preprocess_novoalign.sh": "/usr/local/bin/preprocess_novoalign.sh", "redepth.pl": "/usr/local/bin/redepth.pl", "routines.pm": "/usr/local/bin/routines.pm", "template_for_cfg": "/usr/local/bin/template_for_cfg", "template_for_qsub": "/usr/local/bin/template_for_qsub", "idn2": "/usr/local/bin/idn2", "samtools": "/usr/local/bin/samtools", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moabs.
@@ -115,15 +115,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .moabs-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.moabs-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.moabs-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.moabs-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bamsort.sh
 
 ```bash
@@ -166,24 +157,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bseqc2mbiasplot.R   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/bsmap
 $ podman run --it --rm --entrypoint /usr/local/bin/bsmap   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bsmap   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### lut_pdiffCI.dat
-
-```bash
-$ singularity exec <container> /usr/local/bin/lut_pdiffCI.dat
-$ podman run --it --rm --entrypoint /usr/local/bin/lut_pdiffCI.dat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/lut_pdiffCI.dat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### lut_pdiffInRegion.dat
-
-```bash
-$ singularity exec <container> /usr/local/bin/lut_pdiffInRegion.dat
-$ podman run --it --rm --entrypoint /usr/local/bin/lut_pdiffInRegion.dat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/lut_pdiffInRegion.dat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -274,6 +247,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/template_for_cfg   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/template_for_qsub
 $ podman run --it --rm --entrypoint /usr/local/bin/template_for_qsub   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/template_for_qsub   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idn2
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### samtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/samtools
+$ podman run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

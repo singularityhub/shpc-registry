@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/sharedmem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sharedmem/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sharedmem/container.yaml"
-updated_at: "2022-10-27 00:35:09.864520"
+updated_at: "2022-10-29 05:52:25.084778"
 latest: "0.3.6--py_0"
 container_url: "https://biocontainers.pro/tools/sharedmem"
-
+aliases:
+ - "2to3-3.7"
+ - "f2py3.7"
+ - "idle3.7"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
+ - "pyvenv-3.7"
 versions:
  - "0.3.6--py_0"
 description: "shpc-registry automated BioContainers addition for sharedmem"
-config: {"url": "https://biocontainers.pro/tools/sharedmem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sharedmem", "latest": {"0.3.6--py_0": "sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b"}, "tags": {"0.3.6--py_0": "sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b"}, "docker": "quay.io/biocontainers/sharedmem"}
+config: {"url": "https://biocontainers.pro/tools/sharedmem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sharedmem", "latest": {"0.3.6--py_0": "sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b"}, "tags": {"0.3.6--py_0": "sha256:468c6ddd4dfff0c635c4197aee40a0fee9f8a7095ce63f7abce0df59006e376b"}, "docker": "quay.io/biocontainers/sharedmem", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sharedmem.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### sharedmem
+#### 2to3-3.7
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

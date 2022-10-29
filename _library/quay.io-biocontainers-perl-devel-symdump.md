@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-devel-symdump"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-symdump/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-symdump/container.yaml"
-updated_at: "2022-10-27 00:24:17.302149"
+updated_at: "2022-10-29 05:37:56.028826"
 latest: "2.18--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-devel-symdump"
-
+aliases:
+ - "perl5.32.1"
 versions:
  - "2.18--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-devel-symdump"
-config: {"url": "https://biocontainers.pro/tools/perl-devel-symdump", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-symdump", "latest": {"2.18--pl5321hdfd78af_2": "sha256:090053260f303f3f3a4f8dd257697062edcc46ba963070ea7e3fd021a6295024"}, "tags": {"2.18--pl5321hdfd78af_2": "sha256:090053260f303f3f3a4f8dd257697062edcc46ba963070ea7e3fd021a6295024"}, "docker": "quay.io/biocontainers/perl-devel-symdump"}
+config: {"url": "https://biocontainers.pro/tools/perl-devel-symdump", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-symdump", "latest": {"2.18--pl5321hdfd78af_2": "sha256:090053260f303f3f3a4f8dd257697062edcc46ba963070ea7e3fd021a6295024"}, "tags": {"2.18--pl5321hdfd78af_2": "sha256:090053260f303f3f3a4f8dd257697062edcc46ba963070ea7e3fd021a6295024"}, "docker": "quay.io/biocontainers/perl-devel-symdump", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-devel-symdump.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-devel-symdump
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

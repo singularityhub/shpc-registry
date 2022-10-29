@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/cgat-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-core/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-core/container.yaml"
-updated_at: "2022-10-27 00:24:21.998526"
+updated_at: "2022-10-29 05:38:01.943649"
 latest: "0.5.14--py_0"
 container_url: "https://biocontainers.pro/tools/cgat-core"
-
+aliases:
+ - "2to3-3.7"
+ - "b2sum"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "basenc"
+ - "cat"
+ - "chcon"
+ - "chgrp"
+ - "chmod"
 versions:
  - "0.5.14--py_0"
 description: "shpc-registry automated BioContainers addition for cgat-core"
-config: {"url": "https://biocontainers.pro/tools/cgat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-core", "latest": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "tags": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "docker": "quay.io/biocontainers/cgat-core"}
+config: {"url": "https://biocontainers.pro/tools/cgat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-core", "latest": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "tags": {"0.5.14--py_0": "sha256:173642d1e3fa36c82e4048d699ff76aff6de07e5bf3751a080a331ffc75bc829"}, "docker": "quay.io/biocontainers/cgat-core", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-core.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### cgat-core
+#### 2to3-3.7
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cat
+
+```bash
+$ singularity exec <container> /usr/local/bin/cat
+$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chcon
+
+```bash
+$ singularity exec <container> /usr/local/bin/chcon
+$ podman run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chgrp
+
+```bash
+$ singularity exec <container> /usr/local/bin/chgrp
+$ podman run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chmod
+
+```bash
+$ singularity exec <container> /usr/local/bin/chmod
+$ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

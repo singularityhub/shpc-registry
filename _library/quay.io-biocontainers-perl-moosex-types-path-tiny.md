@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/perl-moosex-types-path-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-types-path-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-types-path-tiny/container.yaml"
-updated_at: "2022-10-27 00:25:52.523062"
+updated_at: "2022-10-29 05:40:03.306094"
 latest: "0.012--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-moosex-types-path-tiny"
-
+aliases:
+ - "cpanm"
+ - "moose-outdated"
+ - "package-stash-conflicts"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "0.012--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-moosex-types-path-tiny"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-types-path-tiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-types-path-tiny", "latest": {"0.012--pl526_2": "sha256:60d720ef16c58eff08ec948f9b6a2451db52cfcad87f93273d6b51cc83052cc1"}, "tags": {"0.012--pl526_2": "sha256:60d720ef16c58eff08ec948f9b6a2451db52cfcad87f93273d6b51cc83052cc1"}, "docker": "quay.io/biocontainers/perl-moosex-types-path-tiny"}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-types-path-tiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-types-path-tiny", "latest": {"0.012--pl526_2": "sha256:60d720ef16c58eff08ec948f9b6a2451db52cfcad87f93273d6b51cc83052cc1"}, "tags": {"0.012--pl526_2": "sha256:60d720ef16c58eff08ec948f9b6a2451db52cfcad87f93273d6b51cc83052cc1"}, "docker": "quay.io/biocontainers/perl-moosex-types-path-tiny", "aliases": {"cpanm": "/usr/local/bin/cpanm", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-types-path-tiny.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-moosex-types-path-tiny
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### moose-outdated
+
+```bash
+$ singularity exec <container> /usr/local/bin/moose-outdated
+$ podman run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chexmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chexmix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/chexmix/container.yaml"
-updated_at: "2022-10-27 00:26:19.304124"
+updated_at: "2022-10-29 05:40:39.363592"
 latest: "0.52--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chexmix"
 aliases:
@@ -23,10 +23,20 @@ aliases:
  - "tgene"
  - "xstreme"
  - "xstreme_html_to_tsv"
+ - "2to3-3.9"
+ - "aggregate_profile.pl"
+ - "alphtype"
+ - "ama"
+ - "ama-qvalues"
+ - "ame"
+ - "aserver"
+ - "beeml2meme"
+ - "centrimo"
+ - "ceqlogo"
 versions:
  - "0.52--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for chexmix"
-config: {"url": "https://biocontainers.pro/tools/chexmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chexmix", "latest": {"0.52--hdfd78af_0": "sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128"}, "tags": {"0.52--hdfd78af_0": "sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128"}, "docker": "quay.io/biocontainers/chexmix", "aliases": {"centrimo-plots": "/usr/local/bin/centrimo-plots", "chexmix": "/usr/local/bin/chexmix", "dtc": "/usr/local/bin/dtc", "fasta-from-bed": "/usr/local/bin/fasta-from-bed", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "index-fasta-file": "/usr/local/bin/index-fasta-file", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "sea": "/usr/local/bin/sea", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv"}}
+config: {"url": "https://biocontainers.pro/tools/chexmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chexmix", "latest": {"0.52--hdfd78af_0": "sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128"}, "tags": {"0.52--hdfd78af_0": "sha256:ffd9cf92a820c25ccc05fd62e815aefb0519aa0da2313e1c36aa200a5f61a128"}, "docker": "quay.io/biocontainers/chexmix", "aliases": {"centrimo-plots": "/usr/local/bin/centrimo-plots", "chexmix": "/usr/local/bin/chexmix", "dtc": "/usr/local/bin/dtc", "fasta-from-bed": "/usr/local/bin/fasta-from-bed", "fasta-holdout-set": "/usr/local/bin/fasta-holdout-set", "fasta-re-match": "/usr/local/bin/fasta-re-match", "index-fasta-file": "/usr/local/bin/index-fasta-file", "meme-chip_html_to_tsv": "/usr/local/bin/meme-chip_html_to_tsv", "momo": "/usr/local/bin/momo", "sea": "/usr/local/bin/sea", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "tgene": "/usr/local/bin/tgene", "xstreme": "/usr/local/bin/xstreme", "xstreme_html_to_tsv": "/usr/local/bin/xstreme_html_to_tsv", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "aserver": "/usr/local/bin/aserver", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chexmix.
@@ -244,6 +254,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xstreme   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/xstreme_html_to_tsv
 $ podman run --it --rm --entrypoint /usr/local/bin/xstreme_html_to_tsv   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xstreme_html_to_tsv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_profile.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alphtype
+
+```bash
+$ singularity exec <container> /usr/local/bin/alphtype
+$ podman run --it --rm --entrypoint /usr/local/bin/alphtype   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alphtype   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ama
+
+```bash
+$ singularity exec <container> /usr/local/bin/ama
+$ podman run --it --rm --entrypoint /usr/local/bin/ama   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ama   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ama-qvalues
+
+```bash
+$ singularity exec <container> /usr/local/bin/ama-qvalues
+$ podman run --it --rm --entrypoint /usr/local/bin/ama-qvalues   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ama-qvalues   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ame
+
+```bash
+$ singularity exec <container> /usr/local/bin/ame
+$ podman run --it --rm --entrypoint /usr/local/bin/ame   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ame   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### beeml2meme
+
+```bash
+$ singularity exec <container> /usr/local/bin/beeml2meme
+$ podman run --it --rm --entrypoint /usr/local/bin/beeml2meme   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/beeml2meme   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### centrimo
+
+```bash
+$ singularity exec <container> /usr/local/bin/centrimo
+$ podman run --it --rm --entrypoint /usr/local/bin/centrimo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/centrimo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ceqlogo
+
+```bash
+$ singularity exec <container> /usr/local/bin/ceqlogo
+$ podman run --it --rm --entrypoint /usr/local/bin/ceqlogo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ceqlogo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

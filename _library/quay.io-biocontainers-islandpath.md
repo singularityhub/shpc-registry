@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/islandpath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/islandpath/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/islandpath/container.yaml"
-updated_at: "2022-10-27 00:40:38.696025"
+updated_at: "2022-10-29 05:59:35.100956"
 latest: "1.0.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/islandpath"
 aliases:
  - "islandpath"
+ - "2to3-3.7"
+ - "SOAPsh.pl"
+ - "ace.pl"
+ - "acyclic"
+ - "alimask"
+ - "annotate"
+ - "bam2bedgraph"
+ - "bamToGBrowse.pl"
+ - "baseml"
+ - "basemlg"
 versions:
  - "1.0.6--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for islandpath"
-config: {"url": "https://biocontainers.pro/tools/islandpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for islandpath", "latest": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "tags": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "docker": "quay.io/biocontainers/islandpath", "aliases": {"islandpath": "/usr/local/bin/islandpath"}}
+config: {"url": "https://biocontainers.pro/tools/islandpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for islandpath", "latest": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "tags": {"1.0.6--hdfd78af_0": "sha256:aaeac1727ebbd2c2bc4c872f0ccfaa99a639834af95975ea326a514b2e080c17"}, "docker": "quay.io/biocontainers/islandpath", "aliases": {"islandpath": "/usr/local/bin/islandpath", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "alimask": "/usr/local/bin/alimask", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/islandpath.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/islandpath
 $ podman run --it --rm --entrypoint /usr/local/bin/islandpath   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/islandpath   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SOAPsh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bedgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bedgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToGBrowse.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### baseml
+
+```bash
+$ singularity exec <container> /usr/local/bin/baseml
+$ podman run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basemlg
+
+```bash
+$ singularity exec <container> /usr/local/bin/basemlg
+$ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/edta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edta/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/edta/container.yaml"
-updated_at: "2022-10-27 00:29:50.114797"
+updated_at: "2022-10-29 05:45:16.361615"
 latest: "2.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/edta"
 aliases:
@@ -81,14 +81,23 @@ aliases:
  - "rmOut2Fasta.pl"
  - "rmOutToGFF3.pl"
  - "rmToUCSCTables.pl"
- - "rmblastn"
  - "trfMask"
  - "viewMSA.pl"
  - "wublastToCrossmatch.pl"
+ - "2to3-3.6"
+ - "FET.pl"
+ - "accn-at-a-time"
+ - "align-columns"
+ - "alimask"
+ - "amino-acid-composition"
+ - "annotate"
+ - "archive-pubmed"
+ - "aserver"
+ - "asn2xml"
 versions:
  - "2.1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for edta"
-config: {"url": "https://biocontainers.pro/tools/edta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edta", "latest": {"2.1.0--hdfd78af_1": "sha256:4fac4caac4af6dc8eeea6ae09af464f9379fa704c6f2f9dd705687759dab5925"}, "tags": {"2.1.0--hdfd78af_1": "sha256:4fac4caac4af6dc8eeea6ae09af464f9379fa704c6f2f9dd705687759dab5925"}, "docker": "quay.io/biocontainers/edta", "aliases": {"BuildDatabase": "/usr/local/bin/BuildDatabase", "DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "EDTA.pl": "/usr/local/bin/EDTA.pl", "EDTA_processI.pl": "/usr/local/bin/EDTA_processI.pl", "EDTA_raw.pl": "/usr/local/bin/EDTA_raw.pl", "LAI": "/usr/local/bin/LAI", "LTRPipeline": "/usr/local/bin/LTRPipeline", "LTR_retriever": "/usr/local/bin/LTR_retriever", "LTR_retriever.py": "/usr/local/bin/LTR_retriever.py", "Linup": "/usr/local/bin/Linup", "Ninja": "/usr/local/bin/Ninja", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "Refiner": "/usr/local/bin/Refiner", "RepeatClassifier": "/usr/local/bin/RepeatClassifier", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatMasker.py": "/usr/local/bin/RepeatMasker.py", "RepeatModeler": "/usr/local/bin/RepeatModeler", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "RepeatScout": "/usr/local/bin/RepeatScout", "TEsorter": "/usr/local/bin/TEsorter", "TEsorter-test": "/usr/local/bin/TEsorter-test", "alignAndCallConsensus.pl": "/usr/local/bin/alignAndCallConsensus.pl", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "build_lmer_table": "/usr/local/bin/build_lmer_table", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "check_result.pl": "/usr/local/bin/check_result.pl", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "concatenate_domains.py": "/usr/local/bin/concatenate_domains.py", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "generateSeedAlignments.pl": "/usr/local/bin/generateSeedAlignments.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "genometools-config": "/usr/local/bin/genometools-config", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "get_record.py": "/usr/local/bin/get_record.py", "grf-alignment": "/usr/local/bin/grf-alignment", "grf-alignment2": "/usr/local/bin/grf-alignment2", "grf-dbn": "/usr/local/bin/grf-dbn", "grf-filter": "/usr/local/bin/grf-filter", "grf-intersperse": "/usr/local/bin/grf-intersperse", "grf-main": "/usr/local/bin/grf-main", "grf-mite-cluster": "/usr/local/bin/grf-mite-cluster", "grf-nest": "/usr/local/bin/grf-nest", "gt": "/usr/local/bin/gt", "imagespread": "/usr/local/bin/imagespread", "lib-test.pl": "/usr/local/bin/lib-test.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "maskFile.pl": "/usr/local/bin/maskFile.pl", "mdust": "/usr/local/bin/mdust", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "ppserver.py": "/usr/local/bin/ppserver.py", "psearch": "/usr/local/bin/psearch", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "rmblastn": "/usr/local/bin/rmblastn", "trfMask": "/usr/local/bin/trfMask", "viewMSA.pl": "/usr/local/bin/viewMSA.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl"}}
+config: {"url": "https://biocontainers.pro/tools/edta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for edta", "latest": {"2.1.0--hdfd78af_1": "sha256:4fac4caac4af6dc8eeea6ae09af464f9379fa704c6f2f9dd705687759dab5925"}, "tags": {"2.1.0--hdfd78af_1": "sha256:4fac4caac4af6dc8eeea6ae09af464f9379fa704c6f2f9dd705687759dab5925"}, "docker": "quay.io/biocontainers/edta", "aliases": {"BuildDatabase": "/usr/local/bin/BuildDatabase", "DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "EDTA.pl": "/usr/local/bin/EDTA.pl", "EDTA_processI.pl": "/usr/local/bin/EDTA_processI.pl", "EDTA_raw.pl": "/usr/local/bin/EDTA_raw.pl", "LAI": "/usr/local/bin/LAI", "LTRPipeline": "/usr/local/bin/LTRPipeline", "LTR_retriever": "/usr/local/bin/LTR_retriever", "LTR_retriever.py": "/usr/local/bin/LTR_retriever.py", "Linup": "/usr/local/bin/Linup", "Ninja": "/usr/local/bin/Ninja", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "Refiner": "/usr/local/bin/Refiner", "RepeatClassifier": "/usr/local/bin/RepeatClassifier", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatMasker.py": "/usr/local/bin/RepeatMasker.py", "RepeatModeler": "/usr/local/bin/RepeatModeler", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "RepeatScout": "/usr/local/bin/RepeatScout", "TEsorter": "/usr/local/bin/TEsorter", "TEsorter-test": "/usr/local/bin/TEsorter-test", "alignAndCallConsensus.pl": "/usr/local/bin/alignAndCallConsensus.pl", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "build_lmer_table": "/usr/local/bin/build_lmer_table", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "check_result.pl": "/usr/local/bin/check_result.pl", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "concatenate_domains.py": "/usr/local/bin/concatenate_domains.py", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "generateSeedAlignments.pl": "/usr/local/bin/generateSeedAlignments.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "genometools-config": "/usr/local/bin/genometools-config", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "get_record.py": "/usr/local/bin/get_record.py", "grf-alignment": "/usr/local/bin/grf-alignment", "grf-alignment2": "/usr/local/bin/grf-alignment2", "grf-dbn": "/usr/local/bin/grf-dbn", "grf-filter": "/usr/local/bin/grf-filter", "grf-intersperse": "/usr/local/bin/grf-intersperse", "grf-main": "/usr/local/bin/grf-main", "grf-mite-cluster": "/usr/local/bin/grf-mite-cluster", "grf-nest": "/usr/local/bin/grf-nest", "gt": "/usr/local/bin/gt", "imagespread": "/usr/local/bin/imagespread", "lib-test.pl": "/usr/local/bin/lib-test.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "maskFile.pl": "/usr/local/bin/maskFile.pl", "mdust": "/usr/local/bin/mdust", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "ppserver.py": "/usr/local/bin/ppserver.py", "psearch": "/usr/local/bin/psearch", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "viewMSA.pl": "/usr/local/bin/viewMSA.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "2to3-3.6": "/usr/local/bin/2to3-3.6", "FET.pl": "/usr/local/bin/FET.pl", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver", "asn2xml": "/usr/local/bin/asn2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/edta.
@@ -831,15 +840,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rmToUCSCTables.pl   -v ${PWD}
 ```
 
 
-#### rmblastn
-
-```bash
-$ singularity exec <container> /usr/local/bin/rmblastn
-$ podman run --it --rm --entrypoint /usr/local/bin/rmblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/rmblastn   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### trfMask
 
 ```bash
@@ -864,6 +864,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/viewMSA.pl   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/wublastToCrossmatch.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/wublastToCrossmatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wublastToCrossmatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FET.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/FET.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

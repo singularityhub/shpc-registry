@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/fqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fqtools/container.yaml"
-updated_at: "2022-10-27 00:40:33.978215"
+updated_at: "2022-10-29 05:59:29.165825"
 latest: "2.0--h6233b05_9"
 container_url: "https://biocontainers.pro/tools/fqtools"
 aliases:
  - "fqtools"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "2.0--h6233b05_9"
 description: "shpc-registry automated BioContainers addition for fqtools"
-config: {"url": "https://biocontainers.pro/tools/fqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqtools", "latest": {"2.0--h6233b05_9": "sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb"}, "tags": {"2.0--h6233b05_9": "sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb"}, "docker": "quay.io/biocontainers/fqtools", "aliases": {"fqtools": "/usr/local/bin/fqtools"}}
+config: {"url": "https://biocontainers.pro/tools/fqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqtools", "latest": {"2.0--h6233b05_9": "sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb"}, "tags": {"2.0--h6233b05_9": "sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb"}, "docker": "quay.io/biocontainers/fqtools", "aliases": {"fqtools": "/usr/local/bin/fqtools", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqtools.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/fqtools
 $ podman run --it --rm --entrypoint /usr/local/bin/fqtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fqtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

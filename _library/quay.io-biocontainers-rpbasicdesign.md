@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rpbasicdesign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpbasicdesign/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rpbasicdesign/container.yaml"
-updated_at: "2022-10-27 00:32:38.154449"
+updated_at: "2022-10-29 05:49:00.936862"
 latest: "1.1.1"
 container_url: "https://biocontainers.pro/tools/rpbasicdesign"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "slugify"
  - "upload_zenodo"
  - "upload_zenodo.py"
+ - "2to3-3.9"
+ - "brotli"
+ - "cmark"
+ - "csv2rdf"
+ - "f2py3.9"
+ - "fonttools"
+ - "futurize"
+ - "gif2h5"
+ - "glpsol"
+ - "h52gif"
 versions:
  - "1.1.1"
 description: "shpc-registry automated BioContainers addition for rpbasicdesign"
-config: {"url": "https://biocontainers.pro/tools/rpbasicdesign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpbasicdesign", "latest": {"1.1.1": "sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5"}, "tags": {"1.1.1": "sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5"}, "docker": "quay.io/biocontainers/rpbasicdesign", "aliases": {"depinfo": "/usr/local/bin/depinfo", "filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py"}}
+config: {"url": "https://biocontainers.pro/tools/rpbasicdesign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpbasicdesign", "latest": {"1.1.1": "sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5"}, "tags": {"1.1.1": "sha256:aaf1679ea79d30e824d51409e44152116c5c93fad9091c254932551171dab8e5"}, "docker": "quay.io/biocontainers/rpbasicdesign", "aliases": {"depinfo": "/usr/local/bin/depinfo", "filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "cmark": "/usr/local/bin/cmark", "csv2rdf": "/usr/local/bin/csv2rdf", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "futurize": "/usr/local/bin/futurize", "gif2h5": "/usr/local/bin/gif2h5", "glpsol": "/usr/local/bin/glpsol", "h52gif": "/usr/local/bin/h52gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rpbasicdesign.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/upload_zenodo   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/upload_zenodo.py
 $ podman run --it --rm --entrypoint /usr/local/bin/upload_zenodo.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/upload_zenodo.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmark
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmark
+$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csv2rdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/csv2rdf
+$ podman run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

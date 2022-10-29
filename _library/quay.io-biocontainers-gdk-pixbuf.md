@@ -4,14 +4,22 @@ name:  "quay.io/biocontainers/gdk-pixbuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdk-pixbuf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gdk-pixbuf/container.yaml"
-updated_at: "2022-10-27 00:20:19.032416"
+updated_at: "2022-10-29 05:32:40.007141"
 latest: "2.32.2--1"
 container_url: "https://biocontainers.pro/tools/gdk-pixbuf"
-
+aliases:
+ - "g-ir-annotation-tool"
+ - "g-ir-compiler"
+ - "g-ir-generate"
+ - "g-ir-inspect"
+ - "g-ir-scanner"
+ - "gdk-pixbuf-csource"
+ - "gdk-pixbuf-pixdata"
+ - "gdk-pixbuf-query-loaders"
 versions:
  - "2.32.2--1"
 description: "shpc-registry automated BioContainers addition for gdk-pixbuf"
-config: {"url": "https://biocontainers.pro/tools/gdk-pixbuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdk-pixbuf", "latest": {"2.32.2--1": "sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5"}, "tags": {"2.32.2--1": "sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5"}, "docker": "quay.io/biocontainers/gdk-pixbuf"}
+config: {"url": "https://biocontainers.pro/tools/gdk-pixbuf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdk-pixbuf", "latest": {"2.32.2--1": "sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5"}, "tags": {"2.32.2--1": "sha256:5b90a51114c487ae83bdb683270c012a5de4c5e66f2453eec7708e5551af33b5"}, "docker": "quay.io/biocontainers/gdk-pixbuf", "aliases": {"g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gdk-pixbuf.
@@ -97,14 +105,77 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### gdk-pixbuf
+#### g-ir-annotation-tool
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/g-ir-annotation-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-annotation-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### g-ir-compiler
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-compiler
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-compiler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-generate
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-generate
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-generate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-inspect
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### g-ir-scanner
+
+```bash
+$ singularity exec <container> /usr/local/bin/g-ir-scanner
+$ podman run --it --rm --entrypoint /usr/local/bin/g-ir-scanner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/g-ir-scanner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-csource
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-csource
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-csource   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-pixdata
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-pixdata
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-pixdata   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdk-pixbuf-query-loaders
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdk-pixbuf-query-loaders
+$ podman run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdk-pixbuf-query-loaders   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

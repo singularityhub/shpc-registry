@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-nestlink"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nestlink/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nestlink/container.yaml"
-updated_at: "2022-10-27 00:27:40.771441"
+updated_at: "2022-10-29 05:42:28.193589"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nestlink"
 aliases:
- - ".bioconductor-nestlink-post-link.sh"
- - ".bioconductor-nestlink-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nestlink"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nestlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nestlink", "latest": {"1.8.0--r41hdfd78af_0": "sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093"}, "docker": "quay.io/biocontainers/bioconductor-nestlink", "aliases": {".bioconductor-nestlink-post-link.sh": "/usr/local/bin/.bioconductor-nestlink-post-link.sh", ".bioconductor-nestlink-pre-unlink.sh": "/usr/local/bin/.bioconductor-nestlink-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nestlink", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nestlink", "latest": {"1.8.0--r41hdfd78af_0": "sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093"}, "docker": "quay.io/biocontainers/bioconductor-nestlink", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nestlink.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-nestlink-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-nestlink-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-nestlink-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-nestlink-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-nestlink-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-nestlink-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-nestlink-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-nestlink-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pathostat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathostat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathostat/container.yaml"
-updated_at: "2022-10-27 00:32:47.121339"
+updated_at: "2022-10-29 05:49:12.294819"
 latest: "1.8.4--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathostat"
-
+aliases:
+ - "pandoc"
+ - "pandoc-citeproc"
+ - "wget"
 versions:
  - "1.8.4--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathostat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathostat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathostat", "latest": {"1.8.4--r351_0": "sha256:347c81c309b1c6dabbb6f238c685d70fb2308ae015b11dc884c1d38496cb05c0"}, "tags": {"1.8.4--r351_0": "sha256:347c81c309b1c6dabbb6f238c685d70fb2308ae015b11dc884c1d38496cb05c0"}, "docker": "quay.io/biocontainers/bioconductor-pathostat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathostat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathostat", "latest": {"1.8.4--r351_0": "sha256:347c81c309b1c6dabbb6f238c685d70fb2308ae015b11dc884c1d38496cb05c0"}, "tags": {"1.8.4--r351_0": "sha256:347c81c309b1c6dabbb6f238c685d70fb2308ae015b11dc884c1d38496cb05c0"}, "docker": "quay.io/biocontainers/bioconductor-pathostat", "aliases": {"pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathostat.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-pathostat
+#### pandoc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### pandoc-citeproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc-citeproc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

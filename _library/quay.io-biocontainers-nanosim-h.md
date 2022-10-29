@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nanosim-h"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanosim-h/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanosim-h/container.yaml"
-updated_at: "2022-10-27 00:39:36.254965"
+updated_at: "2022-10-29 05:58:13.454091"
 latest: "1.1.0.4--pyr40h145b6a8_2"
 container_url: "https://biocontainers.pro/tools/nanosim-h"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "maf-cut"
  - "nanosim-h"
  - "nanosim-h-train"
+ - "env_parallel"
+ - "env_parallel.ash"
+ - "env_parallel.bash"
+ - "env_parallel.csh"
+ - "env_parallel.dash"
+ - "env_parallel.fish"
+ - "env_parallel.ksh"
+ - "env_parallel.mksh"
+ - "env_parallel.pdksh"
+ - "env_parallel.sh"
 versions:
  - "1.1.0.4--pyr40h145b6a8_2"
 description: "shpc-registry automated BioContainers addition for nanosim-h"
-config: {"url": "https://biocontainers.pro/tools/nanosim-h", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanosim-h", "latest": {"1.1.0.4--pyr40h145b6a8_2": "sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150"}, "tags": {"1.1.0.4--pyr40h145b6a8_2": "sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150"}, "docker": "quay.io/biocontainers/nanosim-h", "aliases": {"last-split8": "/usr/local/bin/last-split8", "lastal8": "/usr/local/bin/lastal8", "lastdb8": "/usr/local/bin/lastdb8", "maf-cut": "/usr/local/bin/maf-cut", "nanosim-h": "/usr/local/bin/nanosim-h", "nanosim-h-train": "/usr/local/bin/nanosim-h-train"}}
+config: {"url": "https://biocontainers.pro/tools/nanosim-h", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanosim-h", "latest": {"1.1.0.4--pyr40h145b6a8_2": "sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150"}, "tags": {"1.1.0.4--pyr40h145b6a8_2": "sha256:76e3d6ab85a917623886d04b49504f1c0865dcfb6fa27cf9d8bd1a7145a26150"}, "docker": "quay.io/biocontainers/nanosim-h", "aliases": {"last-split8": "/usr/local/bin/last-split8", "lastal8": "/usr/local/bin/lastal8", "lastdb8": "/usr/local/bin/lastdb8", "maf-cut": "/usr/local/bin/maf-cut", "nanosim-h": "/usr/local/bin/nanosim-h", "nanosim-h-train": "/usr/local/bin/nanosim-h-train", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanosim-h.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nanosim-h   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/nanosim-h-train
 $ podman run --it --rm --entrypoint /usr/local/bin/nanosim-h-train   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/nanosim-h-train   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.ash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.ash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.bash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.bash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.csh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.csh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.dash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.dash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.fish
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.fish
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.ksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.ksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.mksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.mksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.pdksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.pdksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.pdksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.pdksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

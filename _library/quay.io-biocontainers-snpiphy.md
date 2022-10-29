@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snpiphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpiphy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snpiphy/container.yaml"
-updated_at: "2022-10-27 00:36:32.664834"
+updated_at: "2022-10-29 05:54:13.915296"
 latest: "0.5--py_0"
 container_url: "https://biocontainers.pro/tools/snpiphy"
 aliases:
@@ -15,10 +15,20 @@ aliases:
  - "snippy-vcf_extract_subs"
  - "snpiphy"
  - "snpiphy_generate_input_list"
+ - "2to3-3.7"
+ - "FastTree"
+ - "FastTree-2.1.10.c"
+ - "FastTreeMP"
+ - "SOAPsh.pl"
+ - "abba-baba"
+ - "ace.pl"
+ - "ace2sam"
+ - "acyclic"
+ - "annotate"
 versions:
  - "0.5--py_0"
 description: "shpc-registry automated BioContainers addition for snpiphy"
-config: {"url": "https://biocontainers.pro/tools/snpiphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpiphy", "latest": {"0.5--py_0": "sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a"}, "tags": {"0.5--py_0": "sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a"}, "docker": "quay.io/biocontainers/snpiphy", "aliases": {"gubbins": "/usr/local/bin/gubbins", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "snippy-clean_full_aln": "/usr/local/bin/snippy-clean_full_aln", "snippy-multi": "/usr/local/bin/snippy-multi", "snippy-vcf_extract_subs": "/usr/local/bin/snippy-vcf_extract_subs", "snpiphy": "/usr/local/bin/snpiphy", "snpiphy_generate_input_list": "/usr/local/bin/snpiphy_generate_input_list"}}
+config: {"url": "https://biocontainers.pro/tools/snpiphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpiphy", "latest": {"0.5--py_0": "sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a"}, "tags": {"0.5--py_0": "sha256:94a8355d83981da29efc47b2eb8bfcf35bc421cbd430aa37ef0104e451e7792a"}, "docker": "quay.io/biocontainers/snpiphy", "aliases": {"gubbins": "/usr/local/bin/gubbins", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "snippy-clean_full_aln": "/usr/local/bin/snippy-clean_full_aln", "snippy-multi": "/usr/local/bin/snippy-multi", "snippy-vcf_extract_subs": "/usr/local/bin/snippy-vcf_extract_subs", "snpiphy": "/usr/local/bin/snpiphy", "snpiphy_generate_input_list": "/usr/local/bin/snpiphy_generate_input_list", "2to3-3.7": "/usr/local/bin/2to3-3.7", "FastTree": "/usr/local/bin/FastTree", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "abba-baba": "/usr/local/bin/abba-baba", "ace.pl": "/usr/local/bin/ace.pl", "ace2sam": "/usr/local/bin/ace2sam", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snpiphy.
@@ -164,6 +174,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/snpiphy   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/snpiphy_generate_input_list
 $ podman run --it --rm --entrypoint /usr/local/bin/snpiphy_generate_input_list   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/snpiphy_generate_input_list   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree-2.1.10.c
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree-2.1.10.c
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTreeMP
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTreeMP
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SOAPsh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abba-baba
+
+```bash
+$ singularity exec <container> /usr/local/bin/abba-baba
+$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

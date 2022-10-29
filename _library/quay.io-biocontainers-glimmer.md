@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glimmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimmer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/glimmer/container.yaml"
-updated_at: "2022-10-27 00:35:28.615975"
+updated_at: "2022-10-29 05:52:49.018578"
 latest: "3.02--h87f3376_6"
 container_url: "https://biocontainers.pro/tools/glimmer"
 aliases:
@@ -29,10 +29,11 @@ aliases:
  - "uncovered"
  - "upstream-coords.awk"
  - "window-acgt"
+ - "test"
 versions:
  - "3.02--h87f3376_6"
 description: "shpc-registry automated BioContainers addition for glimmer"
-config: {"url": "https://biocontainers.pro/tools/glimmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmer", "latest": {"3.02--h87f3376_6": "sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308"}, "tags": {"3.02--h87f3376_6": "sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308"}, "docker": "quay.io/biocontainers/glimmer", "aliases": {"anomaly": "/usr/local/bin/anomaly", "build-fixed": "/usr/local/bin/build-fixed", "build-icm": "/usr/local/bin/build-icm", "entropy-profile": "/usr/local/bin/entropy-profile", "entropy-score": "/usr/local/bin/entropy-score", "extract": "/usr/local/bin/extract", "g3-from-scratch.csh": "/usr/local/bin/g3-from-scratch.csh", "g3-from-training.csh": "/usr/local/bin/g3-from-training.csh", "g3-iterated.csh": "/usr/local/bin/g3-iterated.csh", "get-motif-counts.awk": "/usr/local/bin/get-motif-counts.awk", "glim-diff.awk": "/usr/local/bin/glim-diff.awk", "glimmer3": "/usr/local/bin/glimmer3", "long-orfs": "/usr/local/bin/long-orfs", "match-list-col.awk": "/usr/local/bin/match-list-col.awk", "multi-extract": "/usr/local/bin/multi-extract", "not-acgt.awk": "/usr/local/bin/not-acgt.awk", "score-fixed": "/usr/local/bin/score-fixed", "start-codon-distrib": "/usr/local/bin/start-codon-distrib", "uncovered": "/usr/local/bin/uncovered", "upstream-coords.awk": "/usr/local/bin/upstream-coords.awk", "window-acgt": "/usr/local/bin/window-acgt"}}
+config: {"url": "https://biocontainers.pro/tools/glimmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmer", "latest": {"3.02--h87f3376_6": "sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308"}, "tags": {"3.02--h87f3376_6": "sha256:f86bef3b96dba3728d8dc45d81825ee2c81ceaaa710a2b513365452814f3b308"}, "docker": "quay.io/biocontainers/glimmer", "aliases": {"anomaly": "/usr/local/bin/anomaly", "build-fixed": "/usr/local/bin/build-fixed", "build-icm": "/usr/local/bin/build-icm", "entropy-profile": "/usr/local/bin/entropy-profile", "entropy-score": "/usr/local/bin/entropy-score", "extract": "/usr/local/bin/extract", "g3-from-scratch.csh": "/usr/local/bin/g3-from-scratch.csh", "g3-from-training.csh": "/usr/local/bin/g3-from-training.csh", "g3-iterated.csh": "/usr/local/bin/g3-iterated.csh", "get-motif-counts.awk": "/usr/local/bin/get-motif-counts.awk", "glim-diff.awk": "/usr/local/bin/glim-diff.awk", "glimmer3": "/usr/local/bin/glimmer3", "long-orfs": "/usr/local/bin/long-orfs", "match-list-col.awk": "/usr/local/bin/match-list-col.awk", "multi-extract": "/usr/local/bin/multi-extract", "not-acgt.awk": "/usr/local/bin/not-acgt.awk", "score-fixed": "/usr/local/bin/score-fixed", "start-codon-distrib": "/usr/local/bin/start-codon-distrib", "uncovered": "/usr/local/bin/uncovered", "upstream-coords.awk": "/usr/local/bin/upstream-coords.awk", "window-acgt": "/usr/local/bin/window-acgt", "test": "/usr/local/bin/test"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glimmer.
@@ -304,6 +305,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/upstream-coords.awk   -v ${PW
 $ singularity exec <container> /usr/local/bin/window-acgt
 $ podman run --it --rm --entrypoint /usr/local/bin/window-acgt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/window-acgt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### test
+
+```bash
+$ singularity exec <container> /usr/local/bin/test
+$ podman run --it --rm --entrypoint /usr/local/bin/test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

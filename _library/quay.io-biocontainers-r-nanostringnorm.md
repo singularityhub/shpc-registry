@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/r-nanostringnorm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-nanostringnorm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-nanostringnorm/container.yaml"
-updated_at: "2022-10-27 00:39:05.317313"
+updated_at: "2022-10-29 05:57:34.494158"
 latest: "1.2.1--r40h6115d3f_3"
 container_url: "https://biocontainers.pro/tools/r-nanostringnorm"
-
+aliases:
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.2.1--r40h6115d3f_3"
 description: "shpc-registry automated BioContainers addition for r-nanostringnorm"
-config: {"url": "https://biocontainers.pro/tools/r-nanostringnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nanostringnorm", "latest": {"1.2.1--r40h6115d3f_3": "sha256:eda0ae12e1a8c425f61d46c41375d60a6816b8d14cd16e2b24e1b89a9370c20b"}, "tags": {"1.2.1--r40h6115d3f_3": "sha256:eda0ae12e1a8c425f61d46c41375d60a6816b8d14cd16e2b24e1b89a9370c20b"}, "docker": "quay.io/biocontainers/r-nanostringnorm"}
+config: {"url": "https://biocontainers.pro/tools/r-nanostringnorm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-nanostringnorm", "latest": {"1.2.1--r40h6115d3f_3": "sha256:eda0ae12e1a8c425f61d46c41375d60a6816b8d14cd16e2b24e1b89a9370c20b"}, "tags": {"1.2.1--r40h6115d3f_3": "sha256:eda0ae12e1a8c425f61d46c41375d60a6816b8d14cd16e2b24e1b89a9370c20b"}, "docker": "quay.io/biocontainers/r-nanostringnorm", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-nanostringnorm.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-nanostringnorm
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

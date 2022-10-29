@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/scaffold_builder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scaffold_builder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scaffold_builder/container.yaml"
-updated_at: "2022-10-27 00:27:15.239912"
+updated_at: "2022-10-29 05:41:55.860158"
 latest: "2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scaffold_builder"
 aliases:
  - "scaffold_builder.py"
+ - "combineMUMs"
+ - "delta-filter"
+ - "dnadiff"
+ - "exact-tandems"
+ - "idle"
+ - "mapview"
+ - "mgaps"
+ - "mummer"
+ - "mummerplot"
+ - "nucmer"
 versions:
  - "2.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scaffold_builder"
-config: {"url": "https://biocontainers.pro/tools/scaffold_builder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scaffold_builder", "latest": {"2.3--pyhdfd78af_0": "sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9"}, "tags": {"2.3--pyhdfd78af_0": "sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9"}, "docker": "quay.io/biocontainers/scaffold_builder", "aliases": {"scaffold_builder.py": "/usr/local/bin/scaffold_builder.py"}}
+config: {"url": "https://biocontainers.pro/tools/scaffold_builder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scaffold_builder", "latest": {"2.3--pyhdfd78af_0": "sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9"}, "tags": {"2.3--pyhdfd78af_0": "sha256:ebd0d452f2b3f952fcfbec2e227c4e1fea8f1617dd051940944c235f0bf0a0a9"}, "docker": "quay.io/biocontainers/scaffold_builder", "aliases": {"scaffold_builder.py": "/usr/local/bin/scaffold_builder.py", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "idle": "/usr/local/bin/idle", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scaffold_builder.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/scaffold_builder.py
 $ podman run --it --rm --entrypoint /usr/local/bin/scaffold_builder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/scaffold_builder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### combineMUMs
+
+```bash
+$ singularity exec <container> /usr/local/bin/combineMUMs
+$ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### delta-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/delta-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dnadiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/dnadiff
+$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### exact-tandems
+
+```bash
+$ singularity exec <container> /usr/local/bin/exact-tandems
+$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mapview
+
+```bash
+$ singularity exec <container> /usr/local/bin/mapview
+$ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mgaps
+
+```bash
+$ singularity exec <container> /usr/local/bin/mgaps
+$ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mummer
+
+```bash
+$ singularity exec <container> /usr/local/bin/mummer
+$ podman run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mummerplot
+
+```bash
+$ singularity exec <container> /usr/local/bin/mummerplot
+$ podman run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### nucmer
+
+```bash
+$ singularity exec <container> /usr/local/bin/nucmer
+$ podman run --it --rm --entrypoint /usr/local/bin/nucmer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/nucmer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

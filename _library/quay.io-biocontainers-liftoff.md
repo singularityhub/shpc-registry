@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/liftoff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/liftoff/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/liftoff/container.yaml"
-updated_at: "2022-10-27 00:39:46.165977"
+updated_at: "2022-10-29 05:58:25.916623"
 latest: "1.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/liftoff"
 aliases:
  - "liftoff"
+ - "2to3-3.9"
+ - "activate-global-python-argcomplete"
+ - "brotli"
+ - "cwebp"
+ - "dwebp"
+ - "f2py3.9"
+ - "faidx"
+ - "fonttools"
+ - "gffutils-cli"
+ - "gif2rgb"
 versions:
  - "1.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for liftoff"
-config: {"url": "https://biocontainers.pro/tools/liftoff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for liftoff", "latest": {"1.6.3--pyhdfd78af_0": "sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894"}, "docker": "quay.io/biocontainers/liftoff", "aliases": {"liftoff": "/usr/local/bin/liftoff"}}
+config: {"url": "https://biocontainers.pro/tools/liftoff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for liftoff", "latest": {"1.6.3--pyhdfd78af_0": "sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:63d9a69375519259f155e2f0b0a61b4c95287684f324c7193e2cead7e4ef5894"}, "docker": "quay.io/biocontainers/liftoff", "aliases": {"liftoff": "/usr/local/bin/liftoff", "2to3-3.9": "/usr/local/bin/2to3-3.9", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.9": "/usr/local/bin/f2py3.9", "faidx": "/usr/local/bin/faidx", "fonttools": "/usr/local/bin/fonttools", "gffutils-cli": "/usr/local/bin/gffutils-cli", "gif2rgb": "/usr/local/bin/gif2rgb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/liftoff.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/liftoff
 $ podman run --it --rm --entrypoint /usr/local/bin/liftoff   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/liftoff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### activate-global-python-argcomplete
+
+```bash
+$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### faidx
+
+```bash
+$ singularity exec <container> /usr/local/bin/faidx
+$ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gffutils-cli
+
+```bash
+$ singularity exec <container> /usr/local/bin/gffutils-cli
+$ podman run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gffutils-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

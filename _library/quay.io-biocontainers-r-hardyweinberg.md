@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/r-hardyweinberg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-hardyweinberg/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-hardyweinberg/container.yaml"
-updated_at: "2022-10-27 00:35:15.801706"
+updated_at: "2022-10-29 05:52:32.773617"
 latest: "1.6.3--r36h0357c0b_1"
 container_url: "https://biocontainers.pro/tools/r-hardyweinberg"
-
+aliases:
+ - "R"
+ - "Rscript"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
+ - "bzegrep"
+ - "bzfgrep"
+ - "bzgrep"
 versions:
  - "1.6.3--r36h0357c0b_1"
 description: "shpc-registry automated BioContainers addition for r-hardyweinberg"
-config: {"url": "https://biocontainers.pro/tools/r-hardyweinberg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hardyweinberg", "latest": {"1.6.3--r36h0357c0b_1": "sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520"}, "tags": {"1.6.3--r36h0357c0b_1": "sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520"}, "docker": "quay.io/biocontainers/r-hardyweinberg"}
+config: {"url": "https://biocontainers.pro/tools/r-hardyweinberg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-hardyweinberg", "latest": {"1.6.3--r36h0357c0b_1": "sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520"}, "tags": {"1.6.3--r36h0357c0b_1": "sha256:a9029ef80930f85272c961f992a93687bcdab072e454ef9ef567fd0568eae520"}, "docker": "quay.io/biocontainers/r-hardyweinberg", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff", "bzegrep": "/usr/local/bin/bzegrep", "bzfgrep": "/usr/local/bin/bzfgrep", "bzgrep": "/usr/local/bin/bzgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-hardyweinberg.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-hardyweinberg
+#### R
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### Rscript
+
+```bash
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzegrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzegrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzfgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzfgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

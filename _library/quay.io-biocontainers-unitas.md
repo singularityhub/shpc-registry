@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/unitas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/unitas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/unitas/container.yaml"
-updated_at: "2022-10-27 00:38:22.216042"
+updated_at: "2022-10-29 05:56:37.542154"
 latest: "1.6.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/unitas"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "seqmap"
  - "to_fasta.py"
  - "unitas.pl"
+ - "2to3-3.9"
+ - "cpanm"
+ - "idle3.9"
+ - "lwp-download"
+ - "lwp-dump"
+ - "lwp-mirror"
+ - "lwp-request"
+ - "perl5.26.2"
+ - "podselect"
+ - "pydoc3.9"
 versions:
  - "1.6.1--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for unitas"
-config: {"url": "https://biocontainers.pro/tools/unitas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitas", "latest": {"1.6.1--hdfd78af_2": "sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d"}, "tags": {"1.6.1--hdfd78af_2": "sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d"}, "docker": "quay.io/biocontainers/unitas", "aliases": {"dnapi.py": "/usr/local/bin/dnapi.py", "qual_offset.py": "/usr/local/bin/qual_offset.py", "qual_trim.py": "/usr/local/bin/qual_trim.py", "seqmap": "/usr/local/bin/seqmap", "to_fasta.py": "/usr/local/bin/to_fasta.py", "unitas.pl": "/usr/local/bin/unitas.pl"}}
+config: {"url": "https://biocontainers.pro/tools/unitas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for unitas", "latest": {"1.6.1--hdfd78af_2": "sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d"}, "tags": {"1.6.1--hdfd78af_2": "sha256:eeea61e95455abc79b45fc704cb96cb3f8a65ee2da5b80a79e0b7df53165b14d"}, "docker": "quay.io/biocontainers/unitas", "aliases": {"dnapi.py": "/usr/local/bin/dnapi.py", "qual_offset.py": "/usr/local/bin/qual_offset.py", "qual_trim.py": "/usr/local/bin/qual_trim.py", "seqmap": "/usr/local/bin/seqmap", "to_fasta.py": "/usr/local/bin/to_fasta.py", "unitas.pl": "/usr/local/bin/unitas.pl", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cpanm": "/usr/local/bin/cpanm", "idle3.9": "/usr/local/bin/idle3.9", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect", "pydoc3.9": "/usr/local/bin/pydoc3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/unitas.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/to_fasta.py   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/unitas.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/unitas.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/unitas.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpanm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-download
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-download
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-dump
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-mirror
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-mirror
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-request
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-request
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

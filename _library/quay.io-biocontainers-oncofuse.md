@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/oncofuse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncofuse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/oncofuse/container.yaml"
-updated_at: "2022-10-27 00:34:17.044966"
+updated_at: "2022-10-29 05:51:12.041878"
 latest: "1.1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/oncofuse"
 aliases:
  - "oncofuse"
+ - "aserver"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
 versions:
  - "1.1.1--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for oncofuse"
-config: {"url": "https://biocontainers.pro/tools/oncofuse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncofuse", "latest": {"1.1.1--hdfd78af_2": "sha256:afe58c4910b875df010a3bc15f72584a724d736f4e3995949fdf442f85b4c5a7"}, "tags": {"1.1.1--hdfd78af_2": "sha256:afe58c4910b875df010a3bc15f72584a724d736f4e3995949fdf442f85b4c5a7"}, "docker": "quay.io/biocontainers/oncofuse", "aliases": {"oncofuse": "/usr/local/bin/oncofuse"}}
+config: {"url": "https://biocontainers.pro/tools/oncofuse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncofuse", "latest": {"1.1.1--hdfd78af_2": "sha256:afe58c4910b875df010a3bc15f72584a724d736f4e3995949fdf442f85b4c5a7"}, "tags": {"1.1.1--hdfd78af_2": "sha256:afe58c4910b875df010a3bc15f72584a724d736f4e3995949fdf442f85b4c5a7"}, "docker": "quay.io/biocontainers/oncofuse", "aliases": {"oncofuse": "/usr/local/bin/oncofuse", "aserver": "/usr/local/bin/aserver", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oncofuse.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/oncofuse
 $ podman run --it --rm --entrypoint /usr/local/bin/oncofuse   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/oncofuse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

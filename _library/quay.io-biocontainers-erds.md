@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/erds"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/erds/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/erds/container.yaml"
-updated_at: "2022-10-27 00:26:21.043189"
+updated_at: "2022-10-29 05:40:41.540189"
 latest: "1.1--pl5.22.0_1"
 container_url: "https://biocontainers.pro/tools/erds"
 aliases:
  - "erds_pipeline"
+ - "bcftools"
+ - "c2ph"
+ - "perl5.22.0"
+ - "podselect"
+ - "pstruct"
+ - "samtools"
+ - "vcfutils.pl"
 versions:
  - "1.1--pl5.22.0_1"
 description: "shpc-registry automated BioContainers addition for erds"
-config: {"url": "https://biocontainers.pro/tools/erds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for erds", "latest": {"1.1--pl5.22.0_1": "sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef"}, "tags": {"1.1--pl5.22.0_1": "sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef"}, "docker": "quay.io/biocontainers/erds", "aliases": {"erds_pipeline": "/usr/local/bin/erds_pipeline"}}
+config: {"url": "https://biocontainers.pro/tools/erds", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for erds", "latest": {"1.1--pl5.22.0_1": "sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef"}, "tags": {"1.1--pl5.22.0_1": "sha256:435894eb748ddc68e85b328f5f24fc595730949411792df20f5afc7a434289ef"}, "docker": "quay.io/biocontainers/erds", "aliases": {"erds_pipeline": "/usr/local/bin/erds_pipeline", "bcftools": "/usr/local/bin/bcftools", "c2ph": "/usr/local/bin/c2ph", "perl5.22.0": "/usr/local/bin/perl5.22.0", "podselect": "/usr/local/bin/podselect", "pstruct": "/usr/local/bin/pstruct", "samtools": "/usr/local/bin/samtools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/erds.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/erds_pipeline
 $ podman run --it --rm --entrypoint /usr/local/bin/erds_pipeline   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/erds_pipeline   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c2ph
+
+```bash
+$ singularity exec <container> /usr/local/bin/c2ph
+$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.22.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.22.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pstruct
+
+```bash
+$ singularity exec <container> /usr/local/bin/pstruct
+$ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### samtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/samtools
+$ podman run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcfutils.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcfutils.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

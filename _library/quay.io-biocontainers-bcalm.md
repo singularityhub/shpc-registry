@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bcalm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcalm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcalm/container.yaml"
-updated_at: "2022-10-27 00:29:19.060270"
+updated_at: "2022-10-29 05:44:36.346640"
 latest: "2.2.3--h5b5514e_3"
 container_url: "https://biocontainers.pro/tools/bcalm"
 aliases:
  - "bcalm"
+ - "h5cc"
 versions:
  - "2.2.3--h5b5514e_3"
 description: "shpc-registry automated BioContainers addition for bcalm"
-config: {"url": "https://biocontainers.pro/tools/bcalm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcalm", "latest": {"2.2.3--h5b5514e_3": "sha256:4259eb31aeb9f935607e54fe490f53e864810dea412b11c6369b18f132e4c87b"}, "tags": {"2.2.3--h5b5514e_3": "sha256:4259eb31aeb9f935607e54fe490f53e864810dea412b11c6369b18f132e4c87b"}, "docker": "quay.io/biocontainers/bcalm", "aliases": {"bcalm": "/usr/local/bin/bcalm"}}
+config: {"url": "https://biocontainers.pro/tools/bcalm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcalm", "latest": {"2.2.3--h5b5514e_3": "sha256:4259eb31aeb9f935607e54fe490f53e864810dea412b11c6369b18f132e4c87b"}, "tags": {"2.2.3--h5b5514e_3": "sha256:4259eb31aeb9f935607e54fe490f53e864810dea412b11c6369b18f132e4c87b"}, "docker": "quay.io/biocontainers/bcalm", "aliases": {"bcalm": "/usr/local/bin/bcalm", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcalm.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/bcalm
 $ podman run --it --rm --entrypoint /usr/local/bin/bcalm   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bcalm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

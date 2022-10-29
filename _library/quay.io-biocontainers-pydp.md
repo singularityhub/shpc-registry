@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/pydp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pydp/container.yaml"
-updated_at: "2022-10-27 00:25:39.388824"
+updated_at: "2022-10-29 05:39:45.444075"
 latest: "0.2.4--py_0"
 container_url: "https://biocontainers.pro/tools/pydp"
-
+aliases:
+ - "f2py2"
+ - "f2py2.7"
+ - "idle"
+ - "numba"
+ - "pycc"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
 versions:
  - "0.2.4--py_0"
 description: "shpc-registry automated BioContainers addition for pydp"
-config: {"url": "https://biocontainers.pro/tools/pydp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydp", "latest": {"0.2.4--py_0": "sha256:e37e4c00171e2632a26bc14d8c4138ee1cff24b4423b273d06fe419b03735b9f"}, "tags": {"0.2.4--py_0": "sha256:e37e4c00171e2632a26bc14d8c4138ee1cff24b4423b273d06fe419b03735b9f"}, "docker": "quay.io/biocontainers/pydp"}
+config: {"url": "https://biocontainers.pro/tools/pydp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydp", "latest": {"0.2.4--py_0": "sha256:e37e4c00171e2632a26bc14d8c4138ee1cff24b4423b273d06fe419b03735b9f"}, "tags": {"0.2.4--py_0": "sha256:e37e4c00171e2632a26bc14d8c4138ee1cff24b4423b273d06fe419b03735b9f"}, "docker": "quay.io/biocontainers/pydp", "aliases": {"f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydp.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### pydp
+#### f2py2
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### numba
+
+```bash
+$ singularity exec <container> /usr/local/bin/numba
+$ podman run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pycc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pycc
+$ podman run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

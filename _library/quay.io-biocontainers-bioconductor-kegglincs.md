@@ -4,18 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-kegglincs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kegglincs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kegglincs/container.yaml"
-updated_at: "2022-10-27 00:35:03.041082"
+updated_at: "2022-10-29 05:52:15.901355"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-kegglincs"
 aliases:
- - ".bioconductor-hgu133a.db-post-link.sh"
- - ".bioconductor-hgu133a.db-pre-unlink.sh"
- - ".bioconductor-kodata-post-link.sh"
- - ".bioconductor-kodata-pre-unlink.sh"
+ - "c89"
+ - "c99"
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-kegglincs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-kegglincs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kegglincs", "latest": {"1.8.0--r351_0": "sha256:aea1d34e36c09c106278f183a1e9bf3d6d92997dcd64671db6346a2318aaee1b"}, "tags": {"1.8.0--r351_0": "sha256:aea1d34e36c09c106278f183a1e9bf3d6d92997dcd64671db6346a2318aaee1b"}, "docker": "quay.io/biocontainers/bioconductor-kegglincs", "aliases": {".bioconductor-hgu133a.db-post-link.sh": "/usr/local/bin/.bioconductor-hgu133a.db-post-link.sh", ".bioconductor-hgu133a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh", ".bioconductor-kodata-post-link.sh": "/usr/local/bin/.bioconductor-kodata-post-link.sh", ".bioconductor-kodata-pre-unlink.sh": "/usr/local/bin/.bioconductor-kodata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-kegglincs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-kegglincs", "latest": {"1.8.0--r351_0": "sha256:aea1d34e36c09c106278f183a1e9bf3d6d92997dcd64671db6346a2318aaee1b"}, "tags": {"1.8.0--r351_0": "sha256:aea1d34e36c09c106278f183a1e9bf3d6d92997dcd64671db6346a2318aaee1b"}, "docker": "quay.io/biocontainers/bioconductor-kegglincs", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-kegglincs.
@@ -101,39 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-hgu133a.db-post-link.sh
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-hgu133a.db-pre-unlink.sh
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-kodata-post-link.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-kodata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-kodata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-kodata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-kodata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

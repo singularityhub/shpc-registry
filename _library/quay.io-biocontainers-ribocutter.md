@@ -4,15 +4,24 @@ name:  "quay.io/biocontainers/ribocutter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ribocutter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ribocutter/container.yaml"
-updated_at: "2022-10-27 00:29:57.323838"
+updated_at: "2022-10-29 05:45:26.057775"
 latest: "0.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ribocutter"
 aliases:
  - "ribocutter"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "igzip"
+ - "pigz"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "unpigz"
 versions:
  - "0.1.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for ribocutter"
-config: {"url": "https://biocontainers.pro/tools/ribocutter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribocutter", "latest": {"0.1.1--pyh5e36f6f_0": "sha256:8fdc2f546af2bdbfce31a59fc8fe050e4859ab2acc30e27a416eb31081c93e58"}, "tags": {"0.1.1--pyh5e36f6f_0": "sha256:8fdc2f546af2bdbfce31a59fc8fe050e4859ab2acc30e27a416eb31081c93e58"}, "docker": "quay.io/biocontainers/ribocutter", "aliases": {"ribocutter": "/usr/local/bin/ribocutter"}}
+config: {"url": "https://biocontainers.pro/tools/ribocutter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ribocutter", "latest": {"0.1.1--pyh5e36f6f_0": "sha256:8fdc2f546af2bdbfce31a59fc8fe050e4859ab2acc30e27a416eb31081c93e58"}, "tags": {"0.1.1--pyh5e36f6f_0": "sha256:8fdc2f546af2bdbfce31a59fc8fe050e4859ab2acc30e27a416eb31081c93e58"}, "docker": "quay.io/biocontainers/ribocutter", "aliases": {"ribocutter": "/usr/local/bin/ribocutter", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "igzip": "/usr/local/bin/igzip", "pigz": "/usr/local/bin/pigz", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "unpigz": "/usr/local/bin/unpigz"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ribocutter.
@@ -104,6 +113,87 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ribocutter
 $ podman run --it --rm --entrypoint /usr/local/bin/ribocutter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ribocutter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### igzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/igzip
+$ podman run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unpigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/unpigz
+$ podman run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unpigz   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

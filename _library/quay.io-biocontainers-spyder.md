@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spyder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spyder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spyder/container.yaml"
-updated_at: "2022-10-27 00:26:10.351665"
+updated_at: "2022-10-29 05:40:27.830359"
 latest: "3.3.1--py35_1"
 container_url: "https://biocontainers.pro/tools/spyder"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "pycodestyle"
  - "pyflakes"
  - "spyder"
+ - "2to3-3.5"
+ - "assistant"
+ - "chardetect"
+ - "curve_keygen"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
+ - "dbus-send"
 versions:
  - "3.3.1--py35_1"
 description: "shpc-registry automated BioContainers addition for spyder"
-config: {"url": "https://biocontainers.pro/tools/spyder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spyder", "latest": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "tags": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "docker": "quay.io/biocontainers/spyder", "aliases": {"keyring": "/usr/local/bin/keyring", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "spyder": "/usr/local/bin/spyder"}}
+config: {"url": "https://biocontainers.pro/tools/spyder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spyder", "latest": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "tags": {"3.3.1--py35_1": "sha256:afc560b443bc794dac6ab6e1c41d4f5038ba0f7ee989c69abdcca72cae0eb538"}, "docker": "quay.io/biocontainers/spyder", "aliases": {"keyring": "/usr/local/bin/keyring", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "spyder": "/usr/local/bin/spyder", "2to3-3.5": "/usr/local/bin/2to3-3.5", "assistant": "/usr/local/bin/assistant", "chardetect": "/usr/local/bin/chardetect", "curve_keygen": "/usr/local/bin/curve_keygen", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spyder.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyflakes   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/spyder
 $ podman run --it --rm --entrypoint /usr/local/bin/spyder   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/spyder   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### curve_keygen
+
+```bash
+$ singularity exec <container> /usr/local/bin/curve_keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-send
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-send
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

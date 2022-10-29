@@ -4,16 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-dapar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dapar/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dapar/container.yaml"
-updated_at: "2022-10-27 00:40:28.769143"
+updated_at: "2022-10-29 05:59:22.178083"
 latest: "1.26.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dapar"
 aliases:
- - ".bioconductor-dapardata-post-link.sh"
- - ".bioconductor-dapardata-pre-unlink.sh"
+ - "gif2h5"
+ - "gif2hdf"
+ - "h4_ncdump"
+ - "h4_ncgen"
+ - "h4cc"
+ - "h4redeploy"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
 versions:
  - "1.26.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dapar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dapar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dapar", "latest": {"1.26.0--r41hdfd78af_0": "sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997"}, "docker": "quay.io/biocontainers/bioconductor-dapar", "aliases": {".bioconductor-dapardata-post-link.sh": "/usr/local/bin/.bioconductor-dapardata-post-link.sh", ".bioconductor-dapardata-pre-unlink.sh": "/usr/local/bin/.bioconductor-dapardata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dapar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dapar", "latest": {"1.26.0--r41hdfd78af_0": "sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:7bd326863354e300cff6210594707ee3cceecb421e0f8c78fdd81cc61cf0c997"}, "docker": "quay.io/biocontainers/bioconductor-dapar", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dapar.
@@ -99,21 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-dapardata-post-link.sh
+#### gif2h5
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-dapardata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dapardata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dapardata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-dapardata-pre-unlink.sh
+#### gif2hdf
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-dapardata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-dapardata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-dapardata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gif2hdf
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncdump
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncgen
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4redeploy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4redeploy
+$ podman run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

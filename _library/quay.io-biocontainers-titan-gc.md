@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/titan-gc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/titan-gc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/titan-gc/container.yaml"
-updated_at: "2022-10-27 00:19:33.932634"
+updated_at: "2022-10-29 05:31:41.663222"
 latest: "1.5.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/titan-gc"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "updatedb"
  - "womtool"
  - "xargs"
+ - "aserver"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "javac"
+ - "javadoc"
+ - "javap"
+ - "jcmd"
+ - "jconsole"
 versions:
  - "1.5.3--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for titan-gc"
-config: {"url": "https://biocontainers.pro/tools/titan-gc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for titan-gc", "latest": {"1.5.3--hdfd78af_1": "sha256:4d24c7175705d1c147c903308fbc5f79a1f3af965abb5bd6a29947b4b1c0a6b3"}, "tags": {"1.5.3--hdfd78af_1": "sha256:4d24c7175705d1c147c903308fbc5f79a1f3af965abb5bd6a29947b4b1c0a6b3"}, "docker": "quay.io/biocontainers/titan-gc", "aliases": {"cromwell": "/usr/local/bin/cromwell", "find": "/usr/local/bin/find", "locate": "/usr/local/bin/locate", "titan-gc": "/usr/local/bin/titan-gc", "titan-gc-organize.py": "/usr/local/bin/titan-gc-organize.py", "titan-gc-prepare.py": "/usr/local/bin/titan-gc-prepare.py", "updatedb": "/usr/local/bin/updatedb", "womtool": "/usr/local/bin/womtool", "xargs": "/usr/local/bin/xargs"}}
+config: {"url": "https://biocontainers.pro/tools/titan-gc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for titan-gc", "latest": {"1.5.3--hdfd78af_1": "sha256:4d24c7175705d1c147c903308fbc5f79a1f3af965abb5bd6a29947b4b1c0a6b3"}, "tags": {"1.5.3--hdfd78af_1": "sha256:4d24c7175705d1c147c903308fbc5f79a1f3af965abb5bd6a29947b4b1c0a6b3"}, "docker": "quay.io/biocontainers/titan-gc", "aliases": {"cromwell": "/usr/local/bin/cromwell", "find": "/usr/local/bin/find", "locate": "/usr/local/bin/locate", "titan-gc": "/usr/local/bin/titan-gc", "titan-gc-organize.py": "/usr/local/bin/titan-gc-organize.py", "titan-gc-prepare.py": "/usr/local/bin/titan-gc-prepare.py", "updatedb": "/usr/local/bin/updatedb", "womtool": "/usr/local/bin/womtool", "xargs": "/usr/local/bin/xargs", "aserver": "/usr/local/bin/aserver", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/titan-gc.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/womtool   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/xargs
 $ podman run --it --rm --entrypoint /usr/local/bin/xargs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xargs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javap
+
+```bash
+$ singularity exec <container> /usr/local/bin/javap
+$ podman run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/jcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jconsole
+
+```bash
+$ singularity exec <container> /usr/local/bin/jconsole
+$ podman run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ltr_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_finder/container.yaml"
-updated_at: "2022-10-27 00:18:40.121378"
+updated_at: "2022-10-29 05:30:31.071260"
 latest: "1.07--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/ltr_finder"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "genome_plot_svg.pl"
  - "ltr_finder"
  - "psearch"
+ - "annotate"
+ - "bdf2gdfont.pl"
+ - "bdftogd"
+ - "cwebp"
+ - "dwebp"
+ - "gd2copypal"
+ - "gd2togif"
+ - "gd2topng"
+ - "gdcmpgif"
+ - "gdparttopng"
 versions:
  - "1.07--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for ltr_finder"
-config: {"url": "https://biocontainers.pro/tools/ltr_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_finder", "latest": {"1.07--h9f5acd7_2": "sha256:04062fd669ff8c2f6dc9dbaffecdb6dec5ce9e555c929ecc1c6c2f81cc69d309"}, "tags": {"1.07--h9f5acd7_2": "sha256:04062fd669ff8c2f6dc9dbaffecdb6dec5ce9e555c929ecc1c6c2f81cc69d309"}, "docker": "quay.io/biocontainers/ltr_finder", "aliases": {"check_result.pl": "/usr/local/bin/check_result.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "psearch": "/usr/local/bin/psearch"}}
+config: {"url": "https://biocontainers.pro/tools/ltr_finder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_finder", "latest": {"1.07--h9f5acd7_2": "sha256:04062fd669ff8c2f6dc9dbaffecdb6dec5ce9e555c929ecc1c6c2f81cc69d309"}, "tags": {"1.07--h9f5acd7_2": "sha256:04062fd669ff8c2f6dc9dbaffecdb6dec5ce9e555c929ecc1c6c2f81cc69d309"}, "docker": "quay.io/biocontainers/ltr_finder", "aliases": {"check_result.pl": "/usr/local/bin/check_result.pl", "down_tRNA.pl": "/usr/local/bin/down_tRNA.pl", "filter_rt.pl": "/usr/local/bin/filter_rt.pl", "genome_plot.pl": "/usr/local/bin/genome_plot.pl", "genome_plot2.pl": "/usr/local/bin/genome_plot2.pl", "genome_plot_svg.pl": "/usr/local/bin/genome_plot_svg.pl", "ltr_finder": "/usr/local/bin/ltr_finder", "psearch": "/usr/local/bin/psearch", "annotate": "/usr/local/bin/annotate", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ltr_finder.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ltr_finder   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/psearch
 $ podman run --it --rm --entrypoint /usr/local/bin/psearch   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/psearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdf2gdfont.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdf2gdfont.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdf2gdfont.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gd2copypal
+
+```bash
+$ singularity exec <container> /usr/local/bin/gd2copypal
+$ podman run --it --rm --entrypoint /usr/local/bin/gd2copypal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gd2copypal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gd2togif
+
+```bash
+$ singularity exec <container> /usr/local/bin/gd2togif
+$ podman run --it --rm --entrypoint /usr/local/bin/gd2togif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gd2togif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gd2topng
+
+```bash
+$ singularity exec <container> /usr/local/bin/gd2topng
+$ podman run --it --rm --entrypoint /usr/local/bin/gd2topng   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gd2topng   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdcmpgif
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdcmpgif
+$ podman run --it --rm --entrypoint /usr/local/bin/gdcmpgif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdcmpgif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gdparttopng
+
+```bash
+$ singularity exec <container> /usr/local/bin/gdparttopng
+$ podman run --it --rm --entrypoint /usr/local/bin/gdparttopng   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gdparttopng   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/constax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/constax/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/constax/container.yaml"
-updated_at: "2022-10-27 00:21:46.522987"
+updated_at: "2022-10-29 05:34:35.967779"
 latest: "2.0.9--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/constax"
 aliases:
@@ -21,10 +21,20 @@ aliases:
  - "constax"
  - "constax_no_inputs.sh"
  - "hmmgs"
+ - "2to3-3.9"
+ - "CA.pm"
+ - "accn-at-a-time"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "aserver"
+ - "asp-cp"
+ - "asp-ls"
+ - "between-two-genes"
+ - "blast_formatter"
 versions:
  - "2.0.9--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for constax"
-config: {"url": "https://biocontainers.pro/tools/constax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for constax", "latest": {"2.0.9--hdfd78af_0": "sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98"}, "tags": {"2.0.9--hdfd78af_0": "sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98"}, "docker": "quay.io/biocontainers/constax", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "constax": "/usr/local/bin/constax", "constax_no_inputs.sh": "/usr/local/bin/constax_no_inputs.sh", "hmmgs": "/usr/local/bin/hmmgs"}}
+config: {"url": "https://biocontainers.pro/tools/constax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for constax", "latest": {"2.0.9--hdfd78af_0": "sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98"}, "tags": {"2.0.9--hdfd78af_0": "sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98"}, "docker": "quay.io/biocontainers/constax", "aliases": {"AbundanceStats": "/usr/local/bin/AbundanceStats", "AlignmentTools": "/usr/local/bin/AlignmentTools", "Clustering": "/usr/local/bin/Clustering", "FrameBot": "/usr/local/bin/FrameBot", "KmerFilter": "/usr/local/bin/KmerFilter", "ProbeMatch": "/usr/local/bin/ProbeMatch", "ReadSeq": "/usr/local/bin/ReadSeq", "SeqFilters": "/usr/local/bin/SeqFilters", "SequenceMatch": "/usr/local/bin/SequenceMatch", "classifier": "/usr/local/bin/classifier", "constax": "/usr/local/bin/constax", "constax_no_inputs.sh": "/usr/local/bin/constax_no_inputs.sh", "hmmgs": "/usr/local/bin/hmmgs", "2to3-3.9": "/usr/local/bin/2to3-3.9", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/constax.
@@ -224,6 +234,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/constax_no_inputs.sh   -v ${P
 $ singularity exec <container> /usr/local/bin/hmmgs
 $ podman run --it --rm --entrypoint /usr/local/bin/hmmgs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hmmgs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CA.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/CA.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

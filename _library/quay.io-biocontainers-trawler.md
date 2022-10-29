@@ -4,16 +4,25 @@ name:  "quay.io/biocontainers/trawler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trawler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/trawler/container.yaml"
-updated_at: "2022-10-27 00:24:09.131576"
+updated_at: "2022-10-29 05:37:45.820909"
 latest: "2.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/trawler"
 aliases:
- - ".trawler-post-link.sh"
  - "trawler"
+ - "aserver"
+ - "cpanm"
+ - "dvipdf"
+ - "eps2eps"
+ - "gs"
+ - "gsbj"
+ - "gsdj"
+ - "gsdj500"
+ - "gslj"
+ - "gslp"
 versions:
  - "2.0--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for trawler"
-config: {"url": "https://biocontainers.pro/tools/trawler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trawler", "latest": {"2.0--hdfd78af_4": "sha256:5877fcd3393731f9b63bf852bfcdf8ec3268feccf8d212bbc81399bad14b743c"}, "tags": {"2.0--hdfd78af_4": "sha256:5877fcd3393731f9b63bf852bfcdf8ec3268feccf8d212bbc81399bad14b743c"}, "docker": "quay.io/biocontainers/trawler", "aliases": {".trawler-post-link.sh": "/usr/local/bin/.trawler-post-link.sh", "trawler": "/usr/local/bin/trawler"}}
+config: {"url": "https://biocontainers.pro/tools/trawler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trawler", "latest": {"2.0--hdfd78af_4": "sha256:5877fcd3393731f9b63bf852bfcdf8ec3268feccf8d212bbc81399bad14b743c"}, "tags": {"2.0--hdfd78af_4": "sha256:5877fcd3393731f9b63bf852bfcdf8ec3268feccf8d212bbc81399bad14b743c"}, "docker": "quay.io/biocontainers/trawler", "aliases": {"trawler": "/usr/local/bin/trawler", "aserver": "/usr/local/bin/aserver", "cpanm": "/usr/local/bin/cpanm", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trawler.
@@ -99,21 +108,102 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .trawler-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.trawler-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.trawler-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.trawler-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### trawler
 
 ```bash
 $ singularity exec <container> /usr/local/bin/trawler
 $ podman run --it --rm --entrypoint /usr/local/bin/trawler   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/trawler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpanm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dvipdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/dvipdf
+$ podman run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### eps2eps
+
+```bash
+$ singularity exec <container> /usr/local/bin/eps2eps
+$ podman run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gs
+
+```bash
+$ singularity exec <container> /usr/local/bin/gs
+$ podman run --it --rm --entrypoint /usr/local/bin/gs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsbj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsbj
+$ podman run --it --rm --entrypoint /usr/local/bin/gsbj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsbj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsdj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsdj
+$ podman run --it --rm --entrypoint /usr/local/bin/gsdj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsdj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsdj500
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsdj500
+$ podman run --it --rm --entrypoint /usr/local/bin/gsdj500   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsdj500   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gslj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gslj
+$ podman run --it --rm --entrypoint /usr/local/bin/gslj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gslj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gslp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gslp
+$ podman run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

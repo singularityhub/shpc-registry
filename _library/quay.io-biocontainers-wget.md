@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wget/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wget/container.yaml"
-updated_at: "2022-10-27 00:34:20.024731"
+updated_at: "2022-10-29 05:51:16.385769"
 latest: "1.20.1"
 container_url: "https://biocontainers.pro/tools/wget"
-
+aliases:
+ - "idn2"
+ - "wget"
 versions:
  - "1.20.1"
 description: "shpc-registry automated BioContainers addition for wget"
-config: {"url": "https://biocontainers.pro/tools/wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wget", "latest": {"1.20.1": "sha256:e8cecf9a14fbf12ad6beecf461dc80244e5f60f1ac2a91d80e61ee93f7c92881"}, "tags": {"1.20.1": "sha256:e8cecf9a14fbf12ad6beecf461dc80244e5f60f1ac2a91d80e61ee93f7c92881"}, "docker": "quay.io/biocontainers/wget"}
+config: {"url": "https://biocontainers.pro/tools/wget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wget", "latest": {"1.20.1": "sha256:e8cecf9a14fbf12ad6beecf461dc80244e5f60f1ac2a91d80e61ee93f7c92881"}, "tags": {"1.20.1": "sha256:e8cecf9a14fbf12ad6beecf461dc80244e5f60f1ac2a91d80e61ee93f7c92881"}, "docker": "quay.io/biocontainers/wget", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wget.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
+#### idn2
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 #### wget
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

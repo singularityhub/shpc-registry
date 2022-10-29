@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-msimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msimpute/container.yaml"
-updated_at: "2022-10-27 00:39:00.572094"
+updated_at: "2022-10-29 05:57:28.446805"
 latest: "1.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msimpute"
-
+aliases:
+ - "R"
+ - "Rscript"
+ - "acountry"
+ - "adig"
+ - "ahost"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
 versions:
  - "1.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msimpute"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msimpute", "latest": {"1.4.0--r41hdfd78af_0": "sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399"}, "docker": "quay.io/biocontainers/bioconductor-msimpute"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msimpute", "latest": {"1.4.0--r41hdfd78af_0": "sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399"}, "docker": "quay.io/biocontainers/bioconductor-msimpute", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msimpute.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-msimpute
+#### R
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### Rscript
+
+```bash
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acountry
+
+```bash
+$ singularity exec <container> /usr/local/bin/acountry
+$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### adig
+
+```bash
+$ singularity exec <container> /usr/local/bin/adig
+$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ahost
+
+```bash
+$ singularity exec <container> /usr/local/bin/ahost
+$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

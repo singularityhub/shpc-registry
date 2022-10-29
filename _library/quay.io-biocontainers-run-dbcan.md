@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/run-dbcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/run-dbcan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/run-dbcan/container.yaml"
-updated_at: "2022-10-27 00:37:08.212456"
+updated_at: "2022-10-29 05:55:01.660788"
 latest: "2.0.11--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/run-dbcan"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "parallel_group_many_proteins_many_patterns_noDNA.py"
  - "run_dbcan.py"
  - "train_many_organisms_many_families.py"
+ - "2to3-3.9"
+ - "FragGeneScan"
+ - "alimask"
+ - "diamond"
+ - "easel"
+ - "esl-afetch"
+ - "esl-alimanip"
+ - "esl-alimap"
+ - "esl-alimask"
+ - "esl-alimerge"
 versions:
  - "2.0.11--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for run-dbcan"
-config: {"url": "https://biocontainers.pro/tools/run-dbcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for run-dbcan", "latest": {"2.0.11--pyh3252c3a_0": "sha256:3e76d779763739eb5804a5cf22e761635bbc4ab3ae7d6228150125be2e352341"}, "tags": {"2.0.11--pyh3252c3a_0": "sha256:3e76d779763739eb5804a5cf22e761635bbc4ab3ae7d6228150125be2e352341"}, "docker": "quay.io/biocontainers/run-dbcan", "aliases": {"CGCFinder.py": "/usr/local/bin/CGCFinder.py", "add_functions_orf.py": "/usr/local/bin/add_functions_orf.py", "bact_group_many_proteins_many_patterns.py": "/usr/local/bin/bact_group_many_proteins_many_patterns.py", "hmmscan-parser.py": "/usr/local/bin/hmmscan-parser.py", "list_multidomain_proteins.py": "/usr/local/bin/list_multidomain_proteins.py", "parallel_group_many_proteins_many_patterns_noDNA.py": "/usr/local/bin/parallel_group_many_proteins_many_patterns_noDNA.py", "run_dbcan.py": "/usr/local/bin/run_dbcan.py", "train_many_organisms_many_families.py": "/usr/local/bin/train_many_organisms_many_families.py"}}
+config: {"url": "https://biocontainers.pro/tools/run-dbcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for run-dbcan", "latest": {"2.0.11--pyh3252c3a_0": "sha256:3e76d779763739eb5804a5cf22e761635bbc4ab3ae7d6228150125be2e352341"}, "tags": {"2.0.11--pyh3252c3a_0": "sha256:3e76d779763739eb5804a5cf22e761635bbc4ab3ae7d6228150125be2e352341"}, "docker": "quay.io/biocontainers/run-dbcan", "aliases": {"CGCFinder.py": "/usr/local/bin/CGCFinder.py", "add_functions_orf.py": "/usr/local/bin/add_functions_orf.py", "bact_group_many_proteins_many_patterns.py": "/usr/local/bin/bact_group_many_proteins_many_patterns.py", "hmmscan-parser.py": "/usr/local/bin/hmmscan-parser.py", "list_multidomain_proteins.py": "/usr/local/bin/list_multidomain_proteins.py", "parallel_group_many_proteins_many_patterns_noDNA.py": "/usr/local/bin/parallel_group_many_proteins_many_patterns_noDNA.py", "run_dbcan.py": "/usr/local/bin/run_dbcan.py", "train_many_organisms_many_families.py": "/usr/local/bin/train_many_organisms_many_families.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "FragGeneScan": "/usr/local/bin/FragGeneScan", "alimask": "/usr/local/bin/alimask", "diamond": "/usr/local/bin/diamond", "easel": "/usr/local/bin/easel", "esl-afetch": "/usr/local/bin/esl-afetch", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask", "esl-alimerge": "/usr/local/bin/esl-alimerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/run-dbcan.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run_dbcan.py   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/train_many_organisms_many_families.py
 $ podman run --it --rm --entrypoint /usr/local/bin/train_many_organisms_many_families.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/train_many_organisms_many_families.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FragGeneScan
+
+```bash
+$ singularity exec <container> /usr/local/bin/FragGeneScan
+$ podman run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FragGeneScan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### diamond
+
+```bash
+$ singularity exec <container> /usr/local/bin/diamond
+$ podman run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### easel
+
+```bash
+$ singularity exec <container> /usr/local/bin/easel
+$ podman run --it --rm --entrypoint /usr/local/bin/easel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-afetch
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-afetch
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-afetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-afetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-alimanip
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-alimanip
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimanip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimanip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-alimap
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-alimap
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-alimerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-alimerge
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimerge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

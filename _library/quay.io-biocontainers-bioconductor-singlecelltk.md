@@ -4,24 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-singlecelltk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-singlecelltk/container.yaml"
-updated_at: "2022-10-27 00:21:55.911731"
+updated_at: "2022-10-29 05:34:48.069158"
 latest: "2.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-singlecelltk"
 aliases:
- - ".bioconductor-celldex-post-link.sh"
- - ".bioconductor-celldex-pre-unlink.sh"
- - ".bioconductor-gsvadata-post-link.sh"
- - ".bioconductor-gsvadata-pre-unlink.sh"
- - ".bioconductor-hgu95a.db-post-link.sh"
- - ".bioconductor-hgu95a.db-pre-unlink.sh"
- - ".bioconductor-scrnaseq-post-link.sh"
- - ".bioconductor-scrnaseq-pre-unlink.sh"
- - ".bioconductor-tenxpbmcdata-post-link.sh"
- - ".bioconductor-tenxpbmcdata-pre-unlink.sh"
+ - "Magick++-config"
+ - "MagickCore-config"
+ - "MagickWand-config"
+ - "acyclic"
+ - "animate"
+ - "annotate"
+ - "bcomps"
+ - "bdftogd"
+ - "ccomps"
+ - "circo"
 versions:
  - "2.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-singlecelltk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecelltk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecelltk", "latest": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "docker": "quay.io/biocontainers/bioconductor-singlecelltk", "aliases": {".bioconductor-celldex-post-link.sh": "/usr/local/bin/.bioconductor-celldex-post-link.sh", ".bioconductor-celldex-pre-unlink.sh": "/usr/local/bin/.bioconductor-celldex-pre-unlink.sh", ".bioconductor-gsvadata-post-link.sh": "/usr/local/bin/.bioconductor-gsvadata-post-link.sh", ".bioconductor-gsvadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh", ".bioconductor-hgu95a.db-post-link.sh": "/usr/local/bin/.bioconductor-hgu95a.db-post-link.sh", ".bioconductor-hgu95a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu95a.db-pre-unlink.sh", ".bioconductor-scrnaseq-post-link.sh": "/usr/local/bin/.bioconductor-scrnaseq-post-link.sh", ".bioconductor-scrnaseq-pre-unlink.sh": "/usr/local/bin/.bioconductor-scrnaseq-pre-unlink.sh", ".bioconductor-tenxpbmcdata-post-link.sh": "/usr/local/bin/.bioconductor-tenxpbmcdata-post-link.sh", ".bioconductor-tenxpbmcdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-tenxpbmcdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-singlecelltk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-singlecelltk", "latest": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:56fed3da5c6d8756dc1f7fe7fa9b904bf2ca44c31c286d4dd37a46c993e847df"}, "docker": "quay.io/biocontainers/bioconductor-singlecelltk", "aliases": {"Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-singlecelltk.
@@ -107,93 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-celldex-post-link.sh
+#### Magick++-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-celldex-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-celldex-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-celldex-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/Magick++-config
+$ podman run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-celldex-pre-unlink.sh
+#### MagickCore-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-celldex-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-celldex-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-celldex-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/MagickCore-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-gsvadata-post-link.sh
+#### MagickWand-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-gsvadata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsvadata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsvadata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/MagickWand-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-gsvadata-pre-unlink.sh
+#### acyclic
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-hgu95a.db-post-link.sh
+#### animate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu95a.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu95a.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu95a.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/animate
+$ podman run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-hgu95a.db-pre-unlink.sh
+#### annotate
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu95a.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu95a.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu95a.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-scrnaseq-post-link.sh
+#### bcomps
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-scrnaseq-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-scrnaseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-scrnaseq-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-scrnaseq-pre-unlink.sh
+#### bdftogd
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-scrnaseq-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-scrnaseq-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-scrnaseq-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-tenxpbmcdata-post-link.sh
+#### ccomps
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tenxpbmcdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tenxpbmcdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tenxpbmcdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-tenxpbmcdata-pre-unlink.sh
+#### circo
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tenxpbmcdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tenxpbmcdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tenxpbmcdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/circo
+$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

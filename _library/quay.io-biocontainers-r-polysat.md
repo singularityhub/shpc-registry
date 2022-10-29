@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/r-polysat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-polysat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-polysat/container.yaml"
-updated_at: "2022-10-27 00:21:16.219258"
+updated_at: "2022-10-29 05:33:56.667289"
 latest: "1.7_4--r351h14c3975_0"
 container_url: "https://biocontainers.pro/tools/r-polysat"
-
+aliases:
+ - "R"
+ - "Rscript"
+ - "activate"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
+ - "bzegrep"
+ - "bzfgrep"
 versions:
  - "1.7_4--r351h14c3975_0"
 description: "shpc-registry automated BioContainers addition for r-polysat"
-config: {"url": "https://biocontainers.pro/tools/r-polysat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-polysat", "latest": {"1.7_4--r351h14c3975_0": "sha256:ce4b7a2a8ec1c3d6883f3c7cf9f234abbb9830d8225374abd99f8fea127b3d4b"}, "tags": {"1.7_4--r351h14c3975_0": "sha256:ce4b7a2a8ec1c3d6883f3c7cf9f234abbb9830d8225374abd99f8fea127b3d4b"}, "docker": "quay.io/biocontainers/r-polysat"}
+config: {"url": "https://biocontainers.pro/tools/r-polysat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-polysat", "latest": {"1.7_4--r351h14c3975_0": "sha256:ce4b7a2a8ec1c3d6883f3c7cf9f234abbb9830d8225374abd99f8fea127b3d4b"}, "tags": {"1.7_4--r351h14c3975_0": "sha256:ce4b7a2a8ec1c3d6883f3c7cf9f234abbb9830d8225374abd99f8fea127b3d4b"}, "docker": "quay.io/biocontainers/r-polysat", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "activate": "/usr/local/bin/activate", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff", "bzegrep": "/usr/local/bin/bzegrep", "bzfgrep": "/usr/local/bin/bzfgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-polysat.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-polysat
+#### R
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### Rscript
+
+```bash
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### activate
+
+```bash
+$ singularity exec <container> /usr/local/bin/activate
+$ podman run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzegrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzegrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzfgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzfgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/anvio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anvio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/anvio/container.yaml"
-updated_at: "2022-10-27 00:27:10.169684"
+updated_at: "2022-10-29 05:41:49.298535"
 latest: "6.2--0"
 container_url: "https://biocontainers.pro/tools/anvio"
 aliases:
- - "00_README.txt"
  - "anvi-analyze-synteny"
  - "anvi-cluster-contigs"
  - "anvi-compute-ani"
@@ -106,7 +105,6 @@ aliases:
  - "anvi-script-gen-scg-domain-classifier"
  - "anvi-script-gen-short-reads"
  - "anvi-script-gen_stats_for_single_copy_genes.R"
- - "anvi-script-gen_stats_for_single_copy_genes.README"
  - "anvi-script-gen_stats_for_single_copy_genes.py"
  - "anvi-script-gen_stats_for_single_copy_genes.sh"
  - "anvi-script-get-collection-info"
@@ -182,10 +180,20 @@ aliases:
  - "iu-visualize-plot-dicts"
  - "iu-visualize-qual-dicts"
  - "sqlformat"
+ - "2to3-3.6"
+ - "EukHighConfidenceFilter"
+ - "ace2sam"
+ - "alimask"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "assistant"
+ - "between-two-genes"
 versions:
  - "6.2--0"
 description: "shpc-registry automated BioContainers addition for anvio"
-config: {"url": "https://biocontainers.pro/tools/anvio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anvio", "latest": {"6.2--0": "sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8"}, "tags": {"6.2--0": "sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8"}, "docker": "quay.io/biocontainers/anvio", "aliases": {"00_README.txt": "/usr/local/bin/00_README.txt", "anvi-analyze-synteny": "/usr/local/bin/anvi-analyze-synteny", "anvi-cluster-contigs": "/usr/local/bin/anvi-cluster-contigs", "anvi-compute-ani": "/usr/local/bin/anvi-compute-ani", "anvi-compute-completeness": "/usr/local/bin/anvi-compute-completeness", "anvi-compute-gene-cluster-homogeneity": "/usr/local/bin/anvi-compute-gene-cluster-homogeneity", "anvi-compute-genome-similarity": "/usr/local/bin/anvi-compute-genome-similarity", "anvi-db-info": "/usr/local/bin/anvi-db-info", "anvi-delete-collection": "/usr/local/bin/anvi-delete-collection", "anvi-delete-hmms": "/usr/local/bin/anvi-delete-hmms", "anvi-delete-misc-data": "/usr/local/bin/anvi-delete-misc-data", "anvi-delete-state": "/usr/local/bin/anvi-delete-state", "anvi-dereplicate-genomes": "/usr/local/bin/anvi-dereplicate-genomes", "anvi-display-contigs-stats": "/usr/local/bin/anvi-display-contigs-stats", "anvi-display-pan": "/usr/local/bin/anvi-display-pan", "anvi-display-structure": "/usr/local/bin/anvi-display-structure", "anvi-estimate-genome-completeness": "/usr/local/bin/anvi-estimate-genome-completeness", "anvi-estimate-genome-taxonomy": "/usr/local/bin/anvi-estimate-genome-taxonomy", "anvi-estimate-scg-taxonomy": "/usr/local/bin/anvi-estimate-scg-taxonomy", "anvi-experimental-organization": "/usr/local/bin/anvi-experimental-organization", "anvi-export-collection": "/usr/local/bin/anvi-export-collection", "anvi-export-contigs": "/usr/local/bin/anvi-export-contigs", "anvi-export-functions": "/usr/local/bin/anvi-export-functions", "anvi-export-gene-calls": "/usr/local/bin/anvi-export-gene-calls", "anvi-export-gene-coverage-and-detection": "/usr/local/bin/anvi-export-gene-coverage-and-detection", "anvi-export-items-order": "/usr/local/bin/anvi-export-items-order", "anvi-export-locus": "/usr/local/bin/anvi-export-locus", "anvi-export-misc-data": "/usr/local/bin/anvi-export-misc-data", "anvi-export-splits-and-coverages": "/usr/local/bin/anvi-export-splits-and-coverages", "anvi-export-splits-taxonomy": "/usr/local/bin/anvi-export-splits-taxonomy", "anvi-export-state": "/usr/local/bin/anvi-export-state", "anvi-export-structures": "/usr/local/bin/anvi-export-structures", "anvi-export-table": "/usr/local/bin/anvi-export-table", "anvi-gen-contigs-database": "/usr/local/bin/anvi-gen-contigs-database", "anvi-gen-fixation-index-matrix": "/usr/local/bin/anvi-gen-fixation-index-matrix", "anvi-gen-gene-consensus-sequences": "/usr/local/bin/anvi-gen-gene-consensus-sequences", "anvi-gen-gene-level-stats-databases": "/usr/local/bin/anvi-gen-gene-level-stats-databases", "anvi-gen-genomes-storage": "/usr/local/bin/anvi-gen-genomes-storage", "anvi-gen-network": "/usr/local/bin/anvi-gen-network", "anvi-gen-phylogenomic-tree": "/usr/local/bin/anvi-gen-phylogenomic-tree", "anvi-gen-structure-database": "/usr/local/bin/anvi-gen-structure-database", "anvi-gen-variability-matrix": "/usr/local/bin/anvi-gen-variability-matrix", "anvi-gen-variability-network": "/usr/local/bin/anvi-gen-variability-network", "anvi-gen-variability-profile": "/usr/local/bin/anvi-gen-variability-profile", "anvi-get-aa-counts": "/usr/local/bin/anvi-get-aa-counts", "anvi-get-codon-frequencies": "/usr/local/bin/anvi-get-codon-frequencies", "anvi-get-enriched-functions-per-pan-group": "/usr/local/bin/anvi-get-enriched-functions-per-pan-group", "anvi-get-sequences-for-gene-calls": "/usr/local/bin/anvi-get-sequences-for-gene-calls", "anvi-get-sequences-for-gene-clusters": "/usr/local/bin/anvi-get-sequences-for-gene-clusters", "anvi-get-sequences-for-hmm-hits": "/usr/local/bin/anvi-get-sequences-for-hmm-hits", "anvi-get-short-reads-from-bam": "/usr/local/bin/anvi-get-short-reads-from-bam", "anvi-get-short-reads-mapping-to-a-gene": "/usr/local/bin/anvi-get-short-reads-mapping-to-a-gene", "anvi-get-split-coverages": "/usr/local/bin/anvi-get-split-coverages", "anvi-help": "/usr/local/bin/anvi-help", "anvi-import-collection": "/usr/local/bin/anvi-import-collection", "anvi-import-functions": "/usr/local/bin/anvi-import-functions", "anvi-import-items-order": "/usr/local/bin/anvi-import-items-order", "anvi-import-misc-data": "/usr/local/bin/anvi-import-misc-data", "anvi-import-state": "/usr/local/bin/anvi-import-state", "anvi-import-taxonomy-for-genes": "/usr/local/bin/anvi-import-taxonomy-for-genes", "anvi-import-taxonomy-for-layers": "/usr/local/bin/anvi-import-taxonomy-for-layers", "anvi-init-bam": "/usr/local/bin/anvi-init-bam", "anvi-inspect": "/usr/local/bin/anvi-inspect", "anvi-interactive": "/usr/local/bin/anvi-interactive", "anvi-matrix-to-newick": "/usr/local/bin/anvi-matrix-to-newick", "anvi-mcg-classifier": "/usr/local/bin/anvi-mcg-classifier", "anvi-merge": "/usr/local/bin/anvi-merge", "anvi-merge-bins": "/usr/local/bin/anvi-merge-bins", "anvi-meta-pan-genome": "/usr/local/bin/anvi-meta-pan-genome", "anvi-migrate": "/usr/local/bin/anvi-migrate", "anvi-oligotype-linkmers": "/usr/local/bin/anvi-oligotype-linkmers", "anvi-pan-genome": "/usr/local/bin/anvi-pan-genome", "anvi-profile": "/usr/local/bin/anvi-profile", "anvi-push": "/usr/local/bin/anvi-push", "anvi-refine": "/usr/local/bin/anvi-refine", "anvi-rename-bins": "/usr/local/bin/anvi-rename-bins", "anvi-report-linkmers": "/usr/local/bin/anvi-report-linkmers", "anvi-run-hmms": "/usr/local/bin/anvi-run-hmms", "anvi-run-ncbi-cogs": "/usr/local/bin/anvi-run-ncbi-cogs", "anvi-run-pfams": "/usr/local/bin/anvi-run-pfams", "anvi-run-scg-taxonomy": "/usr/local/bin/anvi-run-scg-taxonomy", "anvi-run-workflow": "/usr/local/bin/anvi-run-workflow", "anvi-scan-trnas": "/usr/local/bin/anvi-scan-trnas", "anvi-script-FASTA-to-contigs-db": "/usr/local/bin/anvi-script-FASTA-to-contigs-db", "anvi-script-add-default-collection": "/usr/local/bin/anvi-script-add-default-collection", "anvi-script-calculate-pn-ps-ratio": "/usr/local/bin/anvi-script-calculate-pn-ps-ratio", "anvi-script-checkm-tree-to-interactive": "/usr/local/bin/anvi-script-checkm-tree-to-interactive", "anvi-script-compute-ani-for-fasta": "/usr/local/bin/anvi-script-compute-ani-for-fasta", "anvi-script-estimate-genome-size": "/usr/local/bin/anvi-script-estimate-genome-size", "anvi-script-filter-fasta-by-blast": "/usr/local/bin/anvi-script-filter-fasta-by-blast", "anvi-script-gen-CPR-classifier": "/usr/local/bin/anvi-script-gen-CPR-classifier", "anvi-script-gen-distribution-of-genes-in-a-bin": "/usr/local/bin/anvi-script-gen-distribution-of-genes-in-a-bin", "anvi-script-gen-hmm-hits-matrix-across-genomes": "/usr/local/bin/anvi-script-gen-hmm-hits-matrix-across-genomes", "anvi-script-gen-programs-network": "/usr/local/bin/anvi-script-gen-programs-network", "anvi-script-gen-programs-vignette": "/usr/local/bin/anvi-script-gen-programs-vignette", "anvi-script-gen-scg-domain-classifier": "/usr/local/bin/anvi-script-gen-scg-domain-classifier", "anvi-script-gen-short-reads": "/usr/local/bin/anvi-script-gen-short-reads", "anvi-script-gen_stats_for_single_copy_genes.R": "/usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.R", "anvi-script-gen_stats_for_single_copy_genes.README": "/usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.README", "anvi-script-gen_stats_for_single_copy_genes.py": "/usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.py", "anvi-script-gen_stats_for_single_copy_genes.sh": "/usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.sh", "anvi-script-get-collection-info": "/usr/local/bin/anvi-script-get-collection-info", "anvi-script-get-coverage-from-bam": "/usr/local/bin/anvi-script-get-coverage-from-bam", "anvi-script-get-hmm-hits-per-gene-call": "/usr/local/bin/anvi-script-get-hmm-hits-per-gene-call", "anvi-script-get-short-reads-matching-something": "/usr/local/bin/anvi-script-get-short-reads-matching-something", "anvi-script-merge-collections": "/usr/local/bin/anvi-script-merge-collections", "anvi-script-predict-CPR-genomes": "/usr/local/bin/anvi-script-predict-CPR-genomes", "anvi-script-process-genbank": "/usr/local/bin/anvi-script-process-genbank", "anvi-script-process-genbank-metadata": "/usr/local/bin/anvi-script-process-genbank-metadata", "anvi-script-reformat-fasta": "/usr/local/bin/anvi-script-reformat-fasta", "anvi-script-run-eggnog-mapper": "/usr/local/bin/anvi-script-run-eggnog-mapper", "anvi-script-run-functional-enrichment-stats": "/usr/local/bin/anvi-script-run-functional-enrichment-stats", "anvi-script-snvs-to-interactive": "/usr/local/bin/anvi-script-snvs-to-interactive", "anvi-script-transpose-matrix": "/usr/local/bin/anvi-script-transpose-matrix", "anvi-script-variability-to-vcf": "/usr/local/bin/anvi-script-variability-to-vcf", "anvi-script-visualize-split-coverages": "/usr/local/bin/anvi-script-visualize-split-coverages", "anvi-search-functions": "/usr/local/bin/anvi-search-functions", "anvi-self-test": "/usr/local/bin/anvi-self-test", "anvi-setup-ncbi-cogs": "/usr/local/bin/anvi-setup-ncbi-cogs", "anvi-setup-pdb-database": "/usr/local/bin/anvi-setup-pdb-database", "anvi-setup-pfams": "/usr/local/bin/anvi-setup-pfams", "anvi-setup-scg-databases": "/usr/local/bin/anvi-setup-scg-databases", "anvi-show-collections-and-bins": "/usr/local/bin/anvi-show-collections-and-bins", "anvi-show-misc-data": "/usr/local/bin/anvi-show-misc-data", "anvi-split": "/usr/local/bin/anvi-split", "anvi-summarize": "/usr/local/bin/anvi-summarize", "anvi-threshold-taxonomy": "/usr/local/bin/anvi-threshold-taxonomy", "anvi-update-db-description": "/usr/local/bin/anvi-update-db-description", "anvi-update-structure-database": "/usr/local/bin/anvi-update-structure-database", "anvi-upgrade": "/usr/local/bin/anvi-upgrade", "average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "bottle.py": "/usr/local/bin/bottle.py", "calc-prorate": "/usr/local/bin/calc-prorate", "centrifuge": "/usr/local/bin/centrifuge", "centrifuge-BuildSharedSequence.pl": "/usr/local/bin/centrifuge-BuildSharedSequence.pl", "centrifuge-RemoveEmptySequence.pl": "/usr/local/bin/centrifuge-RemoveEmptySequence.pl", "centrifuge-RemoveN.pl": "/usr/local/bin/centrifuge-RemoveN.pl", "centrifuge-build": "/usr/local/bin/centrifuge-build", "centrifuge-build-bin": "/usr/local/bin/centrifuge-build-bin", "centrifuge-class": "/usr/local/bin/centrifuge-class", "centrifuge-compress.pl": "/usr/local/bin/centrifuge-compress.pl", "centrifuge-download": "/usr/local/bin/centrifuge-download", "centrifuge-inspect": "/usr/local/bin/centrifuge-inspect", "centrifuge-inspect-bin": "/usr/local/bin/centrifuge-inspect-bin", "centrifuge-kreport": "/usr/local/bin/centrifuge-kreport", "centrifuge-sort-nt.pl": "/usr/local/bin/centrifuge-sort-nt.pl", "centrifuge_evaluate.py": "/usr/local/bin/centrifuge_evaluate.py", "centrifuge_simulate_reads.py": "/usr/local/bin/centrifuge_simulate_reads.py", "cheroot": "/usr/local/bin/cheroot", "cherryd": "/usr/local/bin/cherryd", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "django-admin": "/usr/local/bin/django-admin", "django-admin.py": "/usr/local/bin/django-admin.py", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "iu-compute-qual-dicts-from-fastq": "/usr/local/bin/iu-compute-qual-dicts-from-fastq", "iu-deinterleave-fastq": "/usr/local/bin/iu-deinterleave-fastq", "iu-demultiplex": "/usr/local/bin/iu-demultiplex", "iu-fasta-to-fastq": "/usr/local/bin/iu-fasta-to-fastq", "iu-fastq-to-fasta": "/usr/local/bin/iu-fastq-to-fasta", "iu-filter-merged-reads": "/usr/local/bin/iu-filter-merged-reads", "iu-filter-quality-bokulich": "/usr/local/bin/iu-filter-quality-bokulich", "iu-filter-quality-minoche": "/usr/local/bin/iu-filter-quality-minoche", "iu-gen-configs": "/usr/local/bin/iu-gen-configs", "iu-gen-matching-fastq-files": "/usr/local/bin/iu-gen-matching-fastq-files", "iu-interleave-fastq": "/usr/local/bin/iu-interleave-fastq", "iu-merge-pairs": "/usr/local/bin/iu-merge-pairs", "iu-remove-ids-from-fastq": "/usr/local/bin/iu-remove-ids-from-fastq", "iu-subsample-fastq": "/usr/local/bin/iu-subsample-fastq", "iu-trim-V6-primers": "/usr/local/bin/iu-trim-V6-primers", "iu-trim-fastq": "/usr/local/bin/iu-trim-fastq", "iu-visualize-mismatch-distribution": "/usr/local/bin/iu-visualize-mismatch-distribution", "iu-visualize-plot-dicts": "/usr/local/bin/iu-visualize-plot-dicts", "iu-visualize-qual-dicts": "/usr/local/bin/iu-visualize-qual-dicts", "sqlformat": "/usr/local/bin/sqlformat"}}
+config: {"url": "https://biocontainers.pro/tools/anvio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anvio", "latest": {"6.2--0": "sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8"}, "tags": {"6.2--0": "sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8"}, "docker": "quay.io/biocontainers/anvio", "aliases": {"anvi-analyze-synteny": "/usr/local/bin/anvi-analyze-synteny", "anvi-cluster-contigs": "/usr/local/bin/anvi-cluster-contigs", "anvi-compute-ani": "/usr/local/bin/anvi-compute-ani", "anvi-compute-completeness": "/usr/local/bin/anvi-compute-completeness", "anvi-compute-gene-cluster-homogeneity": "/usr/local/bin/anvi-compute-gene-cluster-homogeneity", "anvi-compute-genome-similarity": "/usr/local/bin/anvi-compute-genome-similarity", "anvi-db-info": "/usr/local/bin/anvi-db-info", "anvi-delete-collection": "/usr/local/bin/anvi-delete-collection", "anvi-delete-hmms": "/usr/local/bin/anvi-delete-hmms", "anvi-delete-misc-data": "/usr/local/bin/anvi-delete-misc-data", "anvi-delete-state": "/usr/local/bin/anvi-delete-state", "anvi-dereplicate-genomes": "/usr/local/bin/anvi-dereplicate-genomes", "anvi-display-contigs-stats": "/usr/local/bin/anvi-display-contigs-stats", "anvi-display-pan": "/usr/local/bin/anvi-display-pan", "anvi-display-structure": "/usr/local/bin/anvi-display-structure", "anvi-estimate-genome-completeness": "/usr/local/bin/anvi-estimate-genome-completeness", "anvi-estimate-genome-taxonomy": "/usr/local/bin/anvi-estimate-genome-taxonomy", "anvi-estimate-scg-taxonomy": "/usr/local/bin/anvi-estimate-scg-taxonomy", "anvi-experimental-organization": "/usr/local/bin/anvi-experimental-organization", "anvi-export-collection": "/usr/local/bin/anvi-export-collection", "anvi-export-contigs": "/usr/local/bin/anvi-export-contigs", "anvi-export-functions": "/usr/local/bin/anvi-export-functions", "anvi-export-gene-calls": "/usr/local/bin/anvi-export-gene-calls", "anvi-export-gene-coverage-and-detection": "/usr/local/bin/anvi-export-gene-coverage-and-detection", "anvi-export-items-order": "/usr/local/bin/anvi-export-items-order", "anvi-export-locus": "/usr/local/bin/anvi-export-locus", "anvi-export-misc-data": "/usr/local/bin/anvi-export-misc-data", "anvi-export-splits-and-coverages": "/usr/local/bin/anvi-export-splits-and-coverages", "anvi-export-splits-taxonomy": "/usr/local/bin/anvi-export-splits-taxonomy", "anvi-export-state": "/usr/local/bin/anvi-export-state", "anvi-export-structures": "/usr/local/bin/anvi-export-structures", "anvi-export-table": "/usr/local/bin/anvi-export-table", "anvi-gen-contigs-database": "/usr/local/bin/anvi-gen-contigs-database", "anvi-gen-fixation-index-matrix": "/usr/local/bin/anvi-gen-fixation-index-matrix", "anvi-gen-gene-consensus-sequences": "/usr/local/bin/anvi-gen-gene-consensus-sequences", "anvi-gen-gene-level-stats-databases": "/usr/local/bin/anvi-gen-gene-level-stats-databases", "anvi-gen-genomes-storage": "/usr/local/bin/anvi-gen-genomes-storage", "anvi-gen-network": "/usr/local/bin/anvi-gen-network", "anvi-gen-phylogenomic-tree": "/usr/local/bin/anvi-gen-phylogenomic-tree", "anvi-gen-structure-database": "/usr/local/bin/anvi-gen-structure-database", "anvi-gen-variability-matrix": "/usr/local/bin/anvi-gen-variability-matrix", "anvi-gen-variability-network": "/usr/local/bin/anvi-gen-variability-network", "anvi-gen-variability-profile": "/usr/local/bin/anvi-gen-variability-profile", "anvi-get-aa-counts": "/usr/local/bin/anvi-get-aa-counts", "anvi-get-codon-frequencies": "/usr/local/bin/anvi-get-codon-frequencies", "anvi-get-enriched-functions-per-pan-group": "/usr/local/bin/anvi-get-enriched-functions-per-pan-group", "anvi-get-sequences-for-gene-calls": "/usr/local/bin/anvi-get-sequences-for-gene-calls", "anvi-get-sequences-for-gene-clusters": "/usr/local/bin/anvi-get-sequences-for-gene-clusters", "anvi-get-sequences-for-hmm-hits": "/usr/local/bin/anvi-get-sequences-for-hmm-hits", "anvi-get-short-reads-from-bam": "/usr/local/bin/anvi-get-short-reads-from-bam", "anvi-get-short-reads-mapping-to-a-gene": "/usr/local/bin/anvi-get-short-reads-mapping-to-a-gene", "anvi-get-split-coverages": "/usr/local/bin/anvi-get-split-coverages", "anvi-help": "/usr/local/bin/anvi-help", "anvi-import-collection": "/usr/local/bin/anvi-import-collection", "anvi-import-functions": "/usr/local/bin/anvi-import-functions", "anvi-import-items-order": "/usr/local/bin/anvi-import-items-order", "anvi-import-misc-data": "/usr/local/bin/anvi-import-misc-data", "anvi-import-state": "/usr/local/bin/anvi-import-state", "anvi-import-taxonomy-for-genes": "/usr/local/bin/anvi-import-taxonomy-for-genes", "anvi-import-taxonomy-for-layers": "/usr/local/bin/anvi-import-taxonomy-for-layers", "anvi-init-bam": "/usr/local/bin/anvi-init-bam", "anvi-inspect": "/usr/local/bin/anvi-inspect", "anvi-interactive": "/usr/local/bin/anvi-interactive", "anvi-matrix-to-newick": "/usr/local/bin/anvi-matrix-to-newick", "anvi-mcg-classifier": "/usr/local/bin/anvi-mcg-classifier", "anvi-merge": "/usr/local/bin/anvi-merge", "anvi-merge-bins": "/usr/local/bin/anvi-merge-bins", "anvi-meta-pan-genome": "/usr/local/bin/anvi-meta-pan-genome", "anvi-migrate": "/usr/local/bin/anvi-migrate", "anvi-oligotype-linkmers": "/usr/local/bin/anvi-oligotype-linkmers", "anvi-pan-genome": "/usr/local/bin/anvi-pan-genome", "anvi-profile": "/usr/local/bin/anvi-profile", "anvi-push": "/usr/local/bin/anvi-push", "anvi-refine": "/usr/local/bin/anvi-refine", "anvi-rename-bins": "/usr/local/bin/anvi-rename-bins", "anvi-report-linkmers": "/usr/local/bin/anvi-report-linkmers", "anvi-run-hmms": "/usr/local/bin/anvi-run-hmms", "anvi-run-ncbi-cogs": "/usr/local/bin/anvi-run-ncbi-cogs", "anvi-run-pfams": "/usr/local/bin/anvi-run-pfams", "anvi-run-scg-taxonomy": "/usr/local/bin/anvi-run-scg-taxonomy", "anvi-run-workflow": "/usr/local/bin/anvi-run-workflow", "anvi-scan-trnas": "/usr/local/bin/anvi-scan-trnas", "anvi-script-FASTA-to-contigs-db": "/usr/local/bin/anvi-script-FASTA-to-contigs-db", "anvi-script-add-default-collection": "/usr/local/bin/anvi-script-add-default-collection", "anvi-script-calculate-pn-ps-ratio": "/usr/local/bin/anvi-script-calculate-pn-ps-ratio", "anvi-script-checkm-tree-to-interactive": "/usr/local/bin/anvi-script-checkm-tree-to-interactive", "anvi-script-compute-ani-for-fasta": "/usr/local/bin/anvi-script-compute-ani-for-fasta", "anvi-script-estimate-genome-size": "/usr/local/bin/anvi-script-estimate-genome-size", "anvi-script-filter-fasta-by-blast": "/usr/local/bin/anvi-script-filter-fasta-by-blast", "anvi-script-gen-CPR-classifier": "/usr/local/bin/anvi-script-gen-CPR-classifier", "anvi-script-gen-distribution-of-genes-in-a-bin": "/usr/local/bin/anvi-script-gen-distribution-of-genes-in-a-bin", "anvi-script-gen-hmm-hits-matrix-across-genomes": "/usr/local/bin/anvi-script-gen-hmm-hits-matrix-across-genomes", "anvi-script-gen-programs-network": "/usr/local/bin/anvi-script-gen-programs-network", "anvi-script-gen-programs-vignette": "/usr/local/bin/anvi-script-gen-programs-vignette", "anvi-script-gen-scg-domain-classifier": "/usr/local/bin/anvi-script-gen-scg-domain-classifier", "anvi-script-gen-short-reads": "/usr/local/bin/anvi-script-gen-short-reads", "anvi-script-gen_stats_for_single_copy_genes.R": "/usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.R", "anvi-script-gen_stats_for_single_copy_genes.py": "/usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.py", "anvi-script-gen_stats_for_single_copy_genes.sh": "/usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.sh", "anvi-script-get-collection-info": "/usr/local/bin/anvi-script-get-collection-info", "anvi-script-get-coverage-from-bam": "/usr/local/bin/anvi-script-get-coverage-from-bam", "anvi-script-get-hmm-hits-per-gene-call": "/usr/local/bin/anvi-script-get-hmm-hits-per-gene-call", "anvi-script-get-short-reads-matching-something": "/usr/local/bin/anvi-script-get-short-reads-matching-something", "anvi-script-merge-collections": "/usr/local/bin/anvi-script-merge-collections", "anvi-script-predict-CPR-genomes": "/usr/local/bin/anvi-script-predict-CPR-genomes", "anvi-script-process-genbank": "/usr/local/bin/anvi-script-process-genbank", "anvi-script-process-genbank-metadata": "/usr/local/bin/anvi-script-process-genbank-metadata", "anvi-script-reformat-fasta": "/usr/local/bin/anvi-script-reformat-fasta", "anvi-script-run-eggnog-mapper": "/usr/local/bin/anvi-script-run-eggnog-mapper", "anvi-script-run-functional-enrichment-stats": "/usr/local/bin/anvi-script-run-functional-enrichment-stats", "anvi-script-snvs-to-interactive": "/usr/local/bin/anvi-script-snvs-to-interactive", "anvi-script-transpose-matrix": "/usr/local/bin/anvi-script-transpose-matrix", "anvi-script-variability-to-vcf": "/usr/local/bin/anvi-script-variability-to-vcf", "anvi-script-visualize-split-coverages": "/usr/local/bin/anvi-script-visualize-split-coverages", "anvi-search-functions": "/usr/local/bin/anvi-search-functions", "anvi-self-test": "/usr/local/bin/anvi-self-test", "anvi-setup-ncbi-cogs": "/usr/local/bin/anvi-setup-ncbi-cogs", "anvi-setup-pdb-database": "/usr/local/bin/anvi-setup-pdb-database", "anvi-setup-pfams": "/usr/local/bin/anvi-setup-pfams", "anvi-setup-scg-databases": "/usr/local/bin/anvi-setup-scg-databases", "anvi-show-collections-and-bins": "/usr/local/bin/anvi-show-collections-and-bins", "anvi-show-misc-data": "/usr/local/bin/anvi-show-misc-data", "anvi-split": "/usr/local/bin/anvi-split", "anvi-summarize": "/usr/local/bin/anvi-summarize", "anvi-threshold-taxonomy": "/usr/local/bin/anvi-threshold-taxonomy", "anvi-update-db-description": "/usr/local/bin/anvi-update-db-description", "anvi-update-structure-database": "/usr/local/bin/anvi-update-structure-database", "anvi-upgrade": "/usr/local/bin/anvi-upgrade", "average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "bottle.py": "/usr/local/bin/bottle.py", "calc-prorate": "/usr/local/bin/calc-prorate", "centrifuge": "/usr/local/bin/centrifuge", "centrifuge-BuildSharedSequence.pl": "/usr/local/bin/centrifuge-BuildSharedSequence.pl", "centrifuge-RemoveEmptySequence.pl": "/usr/local/bin/centrifuge-RemoveEmptySequence.pl", "centrifuge-RemoveN.pl": "/usr/local/bin/centrifuge-RemoveN.pl", "centrifuge-build": "/usr/local/bin/centrifuge-build", "centrifuge-build-bin": "/usr/local/bin/centrifuge-build-bin", "centrifuge-class": "/usr/local/bin/centrifuge-class", "centrifuge-compress.pl": "/usr/local/bin/centrifuge-compress.pl", "centrifuge-download": "/usr/local/bin/centrifuge-download", "centrifuge-inspect": "/usr/local/bin/centrifuge-inspect", "centrifuge-inspect-bin": "/usr/local/bin/centrifuge-inspect-bin", "centrifuge-kreport": "/usr/local/bin/centrifuge-kreport", "centrifuge-sort-nt.pl": "/usr/local/bin/centrifuge-sort-nt.pl", "centrifuge_evaluate.py": "/usr/local/bin/centrifuge_evaluate.py", "centrifuge_simulate_reads.py": "/usr/local/bin/centrifuge_simulate_reads.py", "cheroot": "/usr/local/bin/cheroot", "cherryd": "/usr/local/bin/cherryd", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "django-admin": "/usr/local/bin/django-admin", "django-admin.py": "/usr/local/bin/django-admin.py", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "iu-compute-qual-dicts-from-fastq": "/usr/local/bin/iu-compute-qual-dicts-from-fastq", "iu-deinterleave-fastq": "/usr/local/bin/iu-deinterleave-fastq", "iu-demultiplex": "/usr/local/bin/iu-demultiplex", "iu-fasta-to-fastq": "/usr/local/bin/iu-fasta-to-fastq", "iu-fastq-to-fasta": "/usr/local/bin/iu-fastq-to-fasta", "iu-filter-merged-reads": "/usr/local/bin/iu-filter-merged-reads", "iu-filter-quality-bokulich": "/usr/local/bin/iu-filter-quality-bokulich", "iu-filter-quality-minoche": "/usr/local/bin/iu-filter-quality-minoche", "iu-gen-configs": "/usr/local/bin/iu-gen-configs", "iu-gen-matching-fastq-files": "/usr/local/bin/iu-gen-matching-fastq-files", "iu-interleave-fastq": "/usr/local/bin/iu-interleave-fastq", "iu-merge-pairs": "/usr/local/bin/iu-merge-pairs", "iu-remove-ids-from-fastq": "/usr/local/bin/iu-remove-ids-from-fastq", "iu-subsample-fastq": "/usr/local/bin/iu-subsample-fastq", "iu-trim-V6-primers": "/usr/local/bin/iu-trim-V6-primers", "iu-trim-fastq": "/usr/local/bin/iu-trim-fastq", "iu-visualize-mismatch-distribution": "/usr/local/bin/iu-visualize-mismatch-distribution", "iu-visualize-plot-dicts": "/usr/local/bin/iu-visualize-plot-dicts", "iu-visualize-qual-dicts": "/usr/local/bin/iu-visualize-qual-dicts", "sqlformat": "/usr/local/bin/sqlformat", "2to3-3.6": "/usr/local/bin/2to3-3.6", "EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "ace2sam": "/usr/local/bin/ace2sam", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "assistant": "/usr/local/bin/assistant", "between-two-genes": "/usr/local/bin/between-two-genes"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anvio.
@@ -268,15 +276,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### 00_README.txt
-
-```bash
-$ singularity exec <container> /usr/local/bin/00_README.txt
-$ podman run --it --rm --entrypoint /usr/local/bin/00_README.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/00_README.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1153,15 +1152,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/anvi-script-gen_stats_for_sin
 ```
 
 
-#### anvi-script-gen_stats_for_single_copy_genes.README
-
-```bash
-$ singularity exec <container> /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.README
-$ podman run --it --rm --entrypoint /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.README   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/anvi-script-gen_stats_for_single_copy_genes.README   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### anvi-script-gen_stats_for_single_copy_genes.py
 
 ```bash
@@ -1834,6 +1824,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/iu-visualize-qual-dicts   -v 
 $ singularity exec <container> /usr/local/bin/sqlformat
 $ podman run --it --rm --entrypoint /usr/local/bin/sqlformat   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sqlformat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EukHighConfidenceFilter
+
+```bash
+$ singularity exec <container> /usr/local/bin/EukHighConfidenceFilter
+$ podman run --it --rm --entrypoint /usr/local/bin/EukHighConfidenceFilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EukHighConfidenceFilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

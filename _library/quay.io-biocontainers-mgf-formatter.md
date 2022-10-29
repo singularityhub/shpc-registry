@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/mgf-formatter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mgf-formatter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mgf-formatter/container.yaml"
-updated_at: "2022-10-27 00:27:45.421832"
+updated_at: "2022-10-29 05:42:34.740482"
 latest: "1.0.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/mgf-formatter"
 aliases:
  - "mgf-formatter"
+ - "2to3-3.9"
+ - "aserver"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
+ - "idle3.9"
+ - "jaotc"
 versions:
  - "1.0.0--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for mgf-formatter"
-config: {"url": "https://biocontainers.pro/tools/mgf-formatter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgf-formatter", "latest": {"1.0.0--hdfd78af_3": "sha256:50f2d2d1f002a3404117ac7fb1a9741205c7e432578620d54bf1df456b4b7f34"}, "tags": {"1.0.0--hdfd78af_3": "sha256:50f2d2d1f002a3404117ac7fb1a9741205c7e432578620d54bf1df456b4b7f34"}, "docker": "quay.io/biocontainers/mgf-formatter", "aliases": {"mgf-formatter": "/usr/local/bin/mgf-formatter"}}
+config: {"url": "https://biocontainers.pro/tools/mgf-formatter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mgf-formatter", "latest": {"1.0.0--hdfd78af_3": "sha256:50f2d2d1f002a3404117ac7fb1a9741205c7e432578620d54bf1df456b4b7f34"}, "tags": {"1.0.0--hdfd78af_3": "sha256:50f2d2d1f002a3404117ac7fb1a9741205c7e432578620d54bf1df456b4b7f34"}, "docker": "quay.io/biocontainers/mgf-formatter", "aliases": {"mgf-formatter": "/usr/local/bin/mgf-formatter", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aserver": "/usr/local/bin/aserver", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "idle3.9": "/usr/local/bin/idle3.9", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mgf-formatter.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/mgf-formatter
 $ podman run --it --rm --entrypoint /usr/local/bin/mgf-formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mgf-formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

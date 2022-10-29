@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/monocle3-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/monocle3-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/monocle3-cli/container.yaml"
-updated_at: "2022-10-27 00:39:28.885080"
+updated_at: "2022-10-29 05:58:04.253328"
 latest: "0.0.9--r36_1"
 container_url: "https://biocontainers.pro/tools/monocle3-cli"
 aliases:
  - "gdalserver"
  - "monocle3"
+ - "2to3-3.8"
+ - "CreateDOMDocument"
+ - "DOMCount"
+ - "DOMPrint"
+ - "EnumVal"
+ - "MemParse"
+ - "PParse"
+ - "PSVIWriter"
+ - "Redirect"
+ - "SAX2Count"
 versions:
  - "0.0.9--r36_1"
 description: "shpc-registry automated BioContainers addition for monocle3-cli"
-config: {"url": "https://biocontainers.pro/tools/monocle3-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for monocle3-cli", "latest": {"0.0.9--r36_1": "sha256:8eaa00d56865a20cb15feb62efac28324355ba7bc3a5dfdf1e9a21a837ac5ea6"}, "tags": {"0.0.9--r36_1": "sha256:8eaa00d56865a20cb15feb62efac28324355ba7bc3a5dfdf1e9a21a837ac5ea6"}, "docker": "quay.io/biocontainers/monocle3-cli", "aliases": {"gdalserver": "/usr/local/bin/gdalserver", "monocle3": "/usr/local/bin/monocle3"}}
+config: {"url": "https://biocontainers.pro/tools/monocle3-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for monocle3-cli", "latest": {"0.0.9--r36_1": "sha256:8eaa00d56865a20cb15feb62efac28324355ba7bc3a5dfdf1e9a21a837ac5ea6"}, "tags": {"0.0.9--r36_1": "sha256:8eaa00d56865a20cb15feb62efac28324355ba7bc3a5dfdf1e9a21a837ac5ea6"}, "docker": "quay.io/biocontainers/monocle3-cli", "aliases": {"gdalserver": "/usr/local/bin/gdalserver", "monocle3": "/usr/local/bin/monocle3", "2to3-3.8": "/usr/local/bin/2to3-3.8", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/monocle3-cli.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdalserver   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/monocle3
 $ podman run --it --rm --entrypoint /usr/local/bin/monocle3   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/monocle3   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CreateDOMDocument
+
+```bash
+$ singularity exec <container> /usr/local/bin/CreateDOMDocument
+$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMCount
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMCount
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMPrint
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMPrint
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EnumVal
+
+```bash
+$ singularity exec <container> /usr/local/bin/EnumVal
+$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MemParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/MemParse
+$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/PParse
+$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PSVIWriter
+
+```bash
+$ singularity exec <container> /usr/local/bin/PSVIWriter
+$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Redirect
+
+```bash
+$ singularity exec <container> /usr/local/bin/Redirect
+$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Count
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Count
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/python-msgpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-msgpack/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-msgpack/container.yaml"
-updated_at: "2022-10-27 00:22:03.160072"
+updated_at: "2022-10-29 05:34:57.793115"
 latest: "0.6.1--py36h2ad2d48_5"
 container_url: "https://biocontainers.pro/tools/python-msgpack"
-
+aliases:
+ - "2to3-3.6"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv"
+ - "pyvenv-3.6"
 versions:
  - "0.6.1--py36h2ad2d48_5"
 description: "shpc-registry automated BioContainers addition for python-msgpack"
-config: {"url": "https://biocontainers.pro/tools/python-msgpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-msgpack", "latest": {"0.6.1--py36h2ad2d48_5": "sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24"}, "tags": {"0.6.1--py36h2ad2d48_5": "sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24"}, "docker": "quay.io/biocontainers/python-msgpack"}
+config: {"url": "https://biocontainers.pro/tools/python-msgpack", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-msgpack", "latest": {"0.6.1--py36h2ad2d48_5": "sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24"}, "tags": {"0.6.1--py36h2ad2d48_5": "sha256:6c95a59b430c0469d935c70c547de9b441b4b0a8e317d69051724e55f76f4a24"}, "docker": "quay.io/biocontainers/python-msgpack", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-msgpack.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### python-msgpack
+#### 2to3-3.6
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

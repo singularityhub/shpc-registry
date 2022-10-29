@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/grampa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grampa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/grampa/container.yaml"
-updated_at: "2022-10-27 00:38:41.843339"
+updated_at: "2022-10-29 05:57:03.047296"
 latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grampa"
 aliases:
  - "grampa.py"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "1.3.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for grampa"
-config: {"url": "https://biocontainers.pro/tools/grampa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grampa", "latest": {"1.3.1--pyhdfd78af_0": "sha256:141ca08bc3edf1eda0079b385fa8df3ce6018ae1b0246ff0e549a89d1ab0f168"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:141ca08bc3edf1eda0079b385fa8df3ce6018ae1b0246ff0e549a89d1ab0f168"}, "docker": "quay.io/biocontainers/grampa", "aliases": {"grampa.py": "/usr/local/bin/grampa.py"}}
+config: {"url": "https://biocontainers.pro/tools/grampa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grampa", "latest": {"1.3.1--pyhdfd78af_0": "sha256:141ca08bc3edf1eda0079b385fa8df3ce6018ae1b0246ff0e549a89d1ab0f168"}, "tags": {"1.3.1--pyhdfd78af_0": "sha256:141ca08bc3edf1eda0079b385fa8df3ce6018ae1b0246ff0e549a89d1ab0f168"}, "docker": "quay.io/biocontainers/grampa", "aliases": {"grampa.py": "/usr/local/bin/grampa.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grampa.
@@ -104,6 +109,51 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/grampa.py
 $ podman run --it --rm --entrypoint /usr/local/bin/grampa.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/grampa.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

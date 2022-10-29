@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene/container.yaml"
-updated_at: "2022-10-27 00:39:24.501709"
+updated_at: "2022-10-29 05:57:58.816712"
 latest: "3.2.2--r40_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene"
 aliases:
- - ".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh"
- - ".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.2--r40_9"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "latest": {"3.2.2--r40_9": "sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847"}, "tags": {"3.2.2--r40_9": "sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "aliases": {".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh", ".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "latest": {"3.2.2--r40_9": "sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847"}, "tags": {"3.2.2--r40_9": "sha256:08205f03be594525704cc5ca3575078c971ea0f1f55e1e827e45b92ebd89b847"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

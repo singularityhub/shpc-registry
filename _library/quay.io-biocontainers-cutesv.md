@@ -4,15 +4,24 @@ name:  "quay.io/biocontainers/cutesv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutesv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cutesv/container.yaml"
-updated_at: "2022-10-27 00:36:57.894267"
+updated_at: "2022-10-29 05:54:48.096549"
 latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cutesv"
 aliases:
  - "cuteSV"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "vcf_filter.py"
+ - "vcf_melt"
+ - "vcf_sample_filter.py"
 versions:
  - "2.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cutesv"
-config: {"url": "https://biocontainers.pro/tools/cutesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cutesv", "latest": {"2.0.1--pyhdfd78af_0": "sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e"}, "docker": "quay.io/biocontainers/cutesv", "aliases": {"cuteSV": "/usr/local/bin/cuteSV"}}
+config: {"url": "https://biocontainers.pro/tools/cutesv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cutesv", "latest": {"2.0.1--pyhdfd78af_0": "sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e"}, "tags": {"2.0.1--pyhdfd78af_0": "sha256:fba304e987bee606ad3b1ffe43953d10bf0074923e5e2ea1754fd21f550bd95e"}, "docker": "quay.io/biocontainers/cutesv", "aliases": {"cuteSV": "/usr/local/bin/cuteSV", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cutesv.
@@ -104,6 +113,87 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/cuteSV
 $ podman run --it --rm --entrypoint /usr/local/bin/cuteSV   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cuteSV   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_filter.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_filter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_melt
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_melt
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_melt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_melt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_sample_filter.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_sample_filter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_sample_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_sample_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

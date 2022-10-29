@@ -4,17 +4,26 @@ name:  "quay.io/biocontainers/gepard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gepard/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gepard/container.yaml"
-updated_at: "2022-10-27 00:21:55.060812"
+updated_at: "2022-10-29 05:34:46.957300"
 latest: "2.1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gepard"
 aliases:
- - ".gepard-post-link.sh"
  - "gepard"
  - "gepardcmd"
+ - "aserver"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
 versions:
  - "2.1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for gepard"
-config: {"url": "https://biocontainers.pro/tools/gepard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gepard", "latest": {"2.1.0--hdfd78af_1": "sha256:7f376b28ef1eacae072d608251203cf9fd8f14d302405921b8164581f1766aa8"}, "tags": {"2.1.0--hdfd78af_1": "sha256:7f376b28ef1eacae072d608251203cf9fd8f14d302405921b8164581f1766aa8"}, "docker": "quay.io/biocontainers/gepard", "aliases": {".gepard-post-link.sh": "/usr/local/bin/.gepard-post-link.sh", "gepard": "/usr/local/bin/gepard", "gepardcmd": "/usr/local/bin/gepardcmd"}}
+config: {"url": "https://biocontainers.pro/tools/gepard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gepard", "latest": {"2.1.0--hdfd78af_1": "sha256:7f376b28ef1eacae072d608251203cf9fd8f14d302405921b8164581f1766aa8"}, "tags": {"2.1.0--hdfd78af_1": "sha256:7f376b28ef1eacae072d608251203cf9fd8f14d302405921b8164581f1766aa8"}, "docker": "quay.io/biocontainers/gepard", "aliases": {"gepard": "/usr/local/bin/gepard", "gepardcmd": "/usr/local/bin/gepardcmd", "aserver": "/usr/local/bin/aserver", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gepard.
@@ -100,15 +109,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .gepard-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.gepard-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.gepard-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.gepard-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gepard
 
 ```bash
@@ -124,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gepard   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/gepardcmd
 $ podman run --it --rm --entrypoint /usr/local/bin/gepardcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gepardcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,22 @@ name:  "quay.io/biocontainers/biobb_common"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_common/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_common/container.yaml"
-updated_at: "2022-10-27 00:40:22.313748"
+updated_at: "2022-10-29 05:59:14.130139"
 latest: "3.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_common"
-
+aliases:
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "normalizer"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "3.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_common"
-config: {"url": "https://biocontainers.pro/tools/biobb_common", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_common", "latest": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "docker": "quay.io/biocontainers/biobb_common"}
+config: {"url": "https://biocontainers.pro/tools/biobb_common", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_common", "latest": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:85e5f6e5e5027591ec3651c77886149686dfbd7ca34b2dc397f491f3a9e9d16e"}, "docker": "quay.io/biocontainers/biobb_common", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_common.
@@ -97,14 +105,77 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### biobb_common
+#### 2to3-3.10
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

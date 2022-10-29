@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/perl-biosails"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-biosails/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-biosails/container.yaml"
-updated_at: "2022-10-27 00:31:03.232470"
+updated_at: "2022-10-29 05:46:54.484238"
 latest: "0.02--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-biosails"
-
+aliases:
+ - "cpanm"
+ - "moose-outdated"
+ - "package-stash-conflicts"
+ - "perl-reversion"
 versions:
  - "0.02--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-biosails"
-config: {"url": "https://biocontainers.pro/tools/perl-biosails", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biosails", "latest": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "tags": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "docker": "quay.io/biocontainers/perl-biosails"}
+config: {"url": "https://biocontainers.pro/tools/perl-biosails", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-biosails", "latest": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "tags": {"0.02--pl5321hdfd78af_3": "sha256:2ee947e392b311445642695aa73a64d94b8433c4ac80e9d7b75525a6d4adf6f9"}, "docker": "quay.io/biocontainers/perl-biosails", "aliases": {"cpanm": "/usr/local/bin/cpanm", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts", "perl-reversion": "/usr/local/bin/perl-reversion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-biosails.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-biosails
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### moose-outdated
+
+```bash
+$ singularity exec <container> /usr/local/bin/moose-outdated
+$ podman run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl-reversion
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl-reversion
+$ podman run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

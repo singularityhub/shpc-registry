@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/samstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samstats/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samstats/container.yaml"
-updated_at: "2022-10-27 00:30:29.835636"
+updated_at: "2022-10-29 05:46:08.857181"
 latest: "0.2.2--py_0"
 container_url: "https://biocontainers.pro/tools/samstats"
 aliases:
  - "SAMstats"
  - "SAMstatsParallel"
+ - "2to3-3.7"
+ - "get_objgraph"
+ - "idle3.7"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
+ - "pyvenv-3.7"
+ - "undill"
 versions:
  - "0.2.2--py_0"
 description: "shpc-registry automated BioContainers addition for samstats"
-config: {"url": "https://biocontainers.pro/tools/samstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samstats", "latest": {"0.2.2--py_0": "sha256:cc397b097bcd1e7dd1f0f25348ca397c3919c71009b607fe13aa709dc3568e63"}, "tags": {"0.2.2--py_0": "sha256:cc397b097bcd1e7dd1f0f25348ca397c3919c71009b607fe13aa709dc3568e63"}, "docker": "quay.io/biocontainers/samstats", "aliases": {"SAMstats": "/usr/local/bin/SAMstats", "SAMstatsParallel": "/usr/local/bin/SAMstatsParallel"}}
+config: {"url": "https://biocontainers.pro/tools/samstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samstats", "latest": {"0.2.2--py_0": "sha256:cc397b097bcd1e7dd1f0f25348ca397c3919c71009b607fe13aa709dc3568e63"}, "tags": {"0.2.2--py_0": "sha256:cc397b097bcd1e7dd1f0f25348ca397c3919c71009b607fe13aa709dc3568e63"}, "docker": "quay.io/biocontainers/samstats", "aliases": {"SAMstats": "/usr/local/bin/SAMstats", "SAMstatsParallel": "/usr/local/bin/SAMstatsParallel", "2to3-3.7": "/usr/local/bin/2to3-3.7", "get_objgraph": "/usr/local/bin/get_objgraph", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "undill": "/usr/local/bin/undill"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samstats.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/SAMstats   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/SAMstatsParallel
 $ podman run --it --rm --entrypoint /usr/local/bin/SAMstatsParallel   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/SAMstatsParallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### get_objgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/get_objgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### undill
+
+```bash
+$ singularity exec <container> /usr/local/bin/undill
+$ podman run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/undill   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

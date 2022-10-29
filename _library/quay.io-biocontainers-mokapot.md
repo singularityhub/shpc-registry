@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/mokapot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mokapot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mokapot/container.yaml"
-updated_at: "2022-10-27 00:32:53.931993"
+updated_at: "2022-10-29 05:49:21.482908"
 latest: "0.8.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mokapot"
 aliases:
  - "mokapot"
  - "triqler"
+ - "2to3-3.10"
+ - "brotli"
+ - "cwebp"
+ - "dwebp"
+ - "f2py3.10"
+ - "fonttools"
+ - "gif2rgb"
+ - "gif2webp"
+ - "gifbuild"
+ - "gifclrmp"
 versions:
  - "0.8.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mokapot"
-config: {"url": "https://biocontainers.pro/tools/mokapot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mokapot", "latest": {"0.8.3--pyhdfd78af_0": "sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949"}, "docker": "quay.io/biocontainers/mokapot", "aliases": {"mokapot": "/usr/local/bin/mokapot", "triqler": "/usr/local/bin/triqler"}}
+config: {"url": "https://biocontainers.pro/tools/mokapot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mokapot", "latest": {"0.8.3--pyhdfd78af_0": "sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:e114dfda4bd0f57ca36a67456d408fbf61a9137f9a1a037acc06c23bf02d1949"}, "docker": "quay.io/biocontainers/mokapot", "aliases": {"mokapot": "/usr/local/bin/mokapot", "triqler": "/usr/local/bin/triqler", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mokapot.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mokapot   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/triqler
 $ podman run --it --rm --entrypoint /usr/local/bin/triqler   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/triqler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2webp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2webp
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

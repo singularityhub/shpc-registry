@@ -4,15 +4,24 @@ name:  "quay.io/biocontainers/svclone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svclone/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/svclone/container.yaml"
-updated_at: "2022-10-27 00:32:00.491640"
+updated_at: "2022-10-29 05:48:11.146905"
 latest: "v1.1.0--pyr41h5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/svclone"
 aliases:
  - "svclone"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "vcf_filter.py"
+ - "vcf_melt"
+ - "vcf_sample_filter.py"
 versions:
  - "v1.1.0--pyr41h5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for svclone"
-config: {"url": "https://biocontainers.pro/tools/svclone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svclone", "latest": {"v1.1.0--pyr41h5e36f6f_0": "sha256:21967c614e51b2261aa7eec8ab7754bb9e3a6a027fc6e6db45d046ec7a8d3617"}, "tags": {"v1.1.0--pyr41h5e36f6f_0": "sha256:21967c614e51b2261aa7eec8ab7754bb9e3a6a027fc6e6db45d046ec7a8d3617"}, "docker": "quay.io/biocontainers/svclone", "aliases": {"svclone": "/usr/local/bin/svclone"}}
+config: {"url": "https://biocontainers.pro/tools/svclone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svclone", "latest": {"v1.1.0--pyr41h5e36f6f_0": "sha256:21967c614e51b2261aa7eec8ab7754bb9e3a6a027fc6e6db45d046ec7a8d3617"}, "tags": {"v1.1.0--pyr41h5e36f6f_0": "sha256:21967c614e51b2261aa7eec8ab7754bb9e3a6a027fc6e6db45d046ec7a8d3617"}, "docker": "quay.io/biocontainers/svclone", "aliases": {"svclone": "/usr/local/bin/svclone", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svclone.
@@ -104,6 +113,87 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/svclone
 $ podman run --it --rm --entrypoint /usr/local/bin/svclone   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/svclone   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_filter.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_filter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_melt
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_melt
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_melt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_melt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcf_sample_filter.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcf_sample_filter.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vcf_sample_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcf_sample_filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

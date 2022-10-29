@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/sparse-neighbors-search"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sparse-neighbors-search/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sparse-neighbors-search/container.yaml"
-updated_at: "2022-10-27 00:26:13.744847"
+updated_at: "2022-10-29 05:40:32.271482"
 latest: "0.7--py37h675a0cb_2"
 container_url: "https://biocontainers.pro/tools/sparse-neighbors-search"
-
+aliases:
+ - "2to3-3.7"
+ - "f2py3.7"
+ - "idle3.7"
+ - "numba"
+ - "pycc"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
 versions:
  - "0.7--py37h675a0cb_2"
 description: "shpc-registry automated BioContainers addition for sparse-neighbors-search"
-config: {"url": "https://biocontainers.pro/tools/sparse-neighbors-search", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparse-neighbors-search", "latest": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943"}, "tags": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943"}, "docker": "quay.io/biocontainers/sparse-neighbors-search"}
+config: {"url": "https://biocontainers.pro/tools/sparse-neighbors-search", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sparse-neighbors-search", "latest": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943"}, "tags": {"0.7--py37h675a0cb_2": "sha256:ce3435ae32c832311e26fbbcf9032542e71fbe03d6a5d093958b50437839d943"}, "docker": "quay.io/biocontainers/sparse-neighbors-search", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sparse-neighbors-search.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### sparse-neighbors-search
+#### 2to3-3.7
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### numba
+
+```bash
+$ singularity exec <container> /usr/local/bin/numba
+$ podman run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pycc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pycc
+$ podman run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

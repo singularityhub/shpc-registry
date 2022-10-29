@@ -4,14 +4,22 @@ name:  "quay.io/biocontainers/bioconductor-cytotree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytotree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytotree/container.yaml"
-updated_at: "2022-10-27 00:18:20.583328"
+updated_at: "2022-10-29 05:30:05.659550"
 latest: "1.0.3--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytotree"
-
+aliases:
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pandoc"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.0.3--r40h399db7b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytotree"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytotree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytotree", "latest": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "tags": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "docker": "quay.io/biocontainers/bioconductor-cytotree"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytotree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytotree", "latest": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "tags": {"1.0.3--r40h399db7b_1": "sha256:d8d570dd5b7c88c06070bd3bd070bb62d02d236de5e624d3ac94e44464da5c4c"}, "docker": "quay.io/biocontainers/bioconductor-cytotree", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pandoc": "/usr/local/bin/pandoc", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytotree.
@@ -97,14 +105,77 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-cytotree
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pandoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

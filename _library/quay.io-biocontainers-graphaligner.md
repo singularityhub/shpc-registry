@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/graphaligner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphaligner/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/graphaligner/container.yaml"
-updated_at: "2022-10-27 00:19:16.759093"
+updated_at: "2022-10-29 05:31:20.008635"
 latest: "1.0.9--he1c1bb9_1"
 container_url: "https://biocontainers.pro/tools/graphaligner"
 aliases:

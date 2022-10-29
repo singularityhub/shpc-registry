@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/clust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clust/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/clust/container.yaml"
-updated_at: "2022-10-27 00:23:48.223966"
+updated_at: "2022-10-29 05:37:19.310878"
 latest: "1.8.9--py27h24bf2e0_0"
 container_url: "https://biocontainers.pro/tools/clust"
 aliases:
  - "clust"
+ - "assistant"
+ - "conv-template"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
+ - "dbus-send"
+ - "dbus-test-tool"
+ - "dbus-update-activation-environment"
 versions:
  - "1.8.9--py27h24bf2e0_0"
 description: "shpc-registry automated BioContainers addition for clust"
-config: {"url": "https://biocontainers.pro/tools/clust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clust", "latest": {"1.8.9--py27h24bf2e0_0": "sha256:696a24422dac338ca3a8f94c062c60bfe52b7020e905d6abf8bc88345096cc80"}, "tags": {"1.8.9--py27h24bf2e0_0": "sha256:696a24422dac338ca3a8f94c062c60bfe52b7020e905d6abf8bc88345096cc80"}, "docker": "quay.io/biocontainers/clust", "aliases": {"clust": "/usr/local/bin/clust"}}
+config: {"url": "https://biocontainers.pro/tools/clust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clust", "latest": {"1.8.9--py27h24bf2e0_0": "sha256:696a24422dac338ca3a8f94c062c60bfe52b7020e905d6abf8bc88345096cc80"}, "tags": {"1.8.9--py27h24bf2e0_0": "sha256:696a24422dac338ca3a8f94c062c60bfe52b7020e905d6abf8bc88345096cc80"}, "docker": "quay.io/biocontainers/clust", "aliases": {"clust": "/usr/local/bin/clust", "assistant": "/usr/local/bin/assistant", "conv-template": "/usr/local/bin/conv-template", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clust.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/clust
 $ podman run --it --rm --entrypoint /usr/local/bin/clust   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/clust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conv-template
+
+```bash
+$ singularity exec <container> /usr/local/bin/conv-template
+$ podman run --it --rm --entrypoint /usr/local/bin/conv-template   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conv-template   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-send
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-send
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-test-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-test-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-update-activation-environment
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-update-activation-environment
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

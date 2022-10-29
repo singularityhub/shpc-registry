@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/mygene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mygene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mygene/container.yaml"
-updated_at: "2022-10-27 00:23:57.171140"
+updated_at: "2022-10-29 05:37:30.683050"
 latest: "3.2.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mygene"
-
+aliases:
+ - "2to3-3.9"
+ - "chardetect"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "3.2.2--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for mygene"
-config: {"url": "https://biocontainers.pro/tools/mygene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mygene", "latest": {"3.2.2--pyh5e36f6f_0": "sha256:b34a66416cabf225993a5e42cf4a37c2a41f54fb96b48084117857c6f6561666"}, "tags": {"3.2.2--pyh5e36f6f_0": "sha256:b34a66416cabf225993a5e42cf4a37c2a41f54fb96b48084117857c6f6561666"}, "docker": "quay.io/biocontainers/mygene"}
+config: {"url": "https://biocontainers.pro/tools/mygene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mygene", "latest": {"3.2.2--pyh5e36f6f_0": "sha256:b34a66416cabf225993a5e42cf4a37c2a41f54fb96b48084117857c6f6561666"}, "tags": {"3.2.2--pyh5e36f6f_0": "sha256:b34a66416cabf225993a5e42cf4a37c2a41f54fb96b48084117857c6f6561666"}, "docker": "quay.io/biocontainers/mygene", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mygene.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### mygene
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

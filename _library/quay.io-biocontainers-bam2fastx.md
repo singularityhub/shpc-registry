@@ -4,21 +4,25 @@ name:  "quay.io/biocontainers/bam2fastx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bam2fastx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bam2fastx/container.yaml"
-updated_at: "2022-10-27 00:26:18.882241"
+updated_at: "2022-10-29 05:40:38.813788"
 latest: "1.3.1--hb7da652_2"
 container_url: "https://biocontainers.pro/tools/bam2fastx"
 aliases:
- - ".bam2fastx-post-link.sh"
- - ".pbbam-post-link.sh"
- - ".pbcopper-post-link.sh"
  - "bam2fasta"
  - "bam2fastq"
  - "ccs-kinetics-bystrandify"
  - "pbbamify"
+ - "bam2sam"
+ - "bgzip"
+ - "htsfile"
+ - "pbindex"
+ - "pbindexdump"
+ - "pbmerge"
+ - "tabix"
 versions:
  - "1.3.1--hb7da652_2"
 description: "shpc-registry automated BioContainers addition for bam2fastx"
-config: {"url": "https://biocontainers.pro/tools/bam2fastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam2fastx", "latest": {"1.3.1--hb7da652_2": "sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7"}, "tags": {"1.3.1--hb7da652_2": "sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7"}, "docker": "quay.io/biocontainers/bam2fastx", "aliases": {".bam2fastx-post-link.sh": "/usr/local/bin/.bam2fastx-post-link.sh", ".pbbam-post-link.sh": "/usr/local/bin/.pbbam-post-link.sh", ".pbcopper-post-link.sh": "/usr/local/bin/.pbcopper-post-link.sh", "bam2fasta": "/usr/local/bin/bam2fasta", "bam2fastq": "/usr/local/bin/bam2fastq", "ccs-kinetics-bystrandify": "/usr/local/bin/ccs-kinetics-bystrandify", "pbbamify": "/usr/local/bin/pbbamify"}}
+config: {"url": "https://biocontainers.pro/tools/bam2fastx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bam2fastx", "latest": {"1.3.1--hb7da652_2": "sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7"}, "tags": {"1.3.1--hb7da652_2": "sha256:1dd1a4249c16aa42a6961e37b59d7aa6678a161d1bf917cd5627097ac3a00be7"}, "docker": "quay.io/biocontainers/bam2fastx", "aliases": {"bam2fasta": "/usr/local/bin/bam2fasta", "bam2fastq": "/usr/local/bin/bam2fastq", "ccs-kinetics-bystrandify": "/usr/local/bin/ccs-kinetics-bystrandify", "pbbamify": "/usr/local/bin/pbbamify", "bam2sam": "/usr/local/bin/bam2sam", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bam2fastx.
@@ -104,33 +108,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bam2fastx-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bam2fastx-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bam2fastx-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bam2fastx-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .pbbam-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.pbbam-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.pbbam-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.pbbam-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .pbcopper-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.pbcopper-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.pbcopper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.pbcopper-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bam2fasta
 
 ```bash
@@ -164,6 +141,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ccs-kinetics-bystrandify   -v
 $ singularity exec <container> /usr/local/bin/pbbamify
 $ podman run --it --rm --entrypoint /usr/local/bin/pbbamify   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pbbamify   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbindex
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbindex
+$ podman run --it --rm --entrypoint /usr/local/bin/pbindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbindexdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbindexdump
+$ podman run --it --rm --entrypoint /usr/local/bin/pbindexdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbindexdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pbmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

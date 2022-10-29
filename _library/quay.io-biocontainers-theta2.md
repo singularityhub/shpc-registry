@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/theta2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/theta2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/theta2/container.yaml"
-updated_at: "2022-10-27 00:40:08.084173"
+updated_at: "2022-10-29 05:58:55.554404"
 latest: "0.7--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/theta2"
 aliases:
  - "RunTHetA.py"
+ - "assistant"
+ - "canbusutil"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
+ - "dbus-send"
+ - "dbus-test-tool"
+ - "dbus-update-activation-environment"
 versions:
  - "0.7--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for theta2"
-config: {"url": "https://biocontainers.pro/tools/theta2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for theta2", "latest": {"0.7--hdfd78af_3": "sha256:287f54454bdbcac17b1a5180800bb16116027268deddd148129aca11428adef9"}, "tags": {"0.7--hdfd78af_3": "sha256:287f54454bdbcac17b1a5180800bb16116027268deddd148129aca11428adef9"}, "docker": "quay.io/biocontainers/theta2", "aliases": {"RunTHetA.py": "/usr/local/bin/RunTHetA.py"}}
+config: {"url": "https://biocontainers.pro/tools/theta2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for theta2", "latest": {"0.7--hdfd78af_3": "sha256:287f54454bdbcac17b1a5180800bb16116027268deddd148129aca11428adef9"}, "tags": {"0.7--hdfd78af_3": "sha256:287f54454bdbcac17b1a5180800bb16116027268deddd148129aca11428adef9"}, "docker": "quay.io/biocontainers/theta2", "aliases": {"RunTHetA.py": "/usr/local/bin/RunTHetA.py", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/theta2.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/RunTHetA.py
 $ podman run --it --rm --entrypoint /usr/local/bin/RunTHetA.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/RunTHetA.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-send
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-send
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-test-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-test-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-update-activation-environment
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-update-activation-environment
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

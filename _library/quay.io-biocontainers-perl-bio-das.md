@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/perl-bio-das"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-das/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-das/container.yaml"
-updated_at: "2022-10-27 00:29:09.678196"
+updated_at: "2022-10-29 05:44:23.328364"
 latest: "1.17--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-bio-das"
-
+aliases:
+ - "bp_aacomp"
+ - "bp_bioflat_index"
+ - "bp_biogetseq"
+ - "bp_dbsplit"
+ - "bp_extract_feature_seq"
+ - "bp_fastam9_to_table"
+ - "bp_fetch"
+ - "bp_filter_search"
+ - "bp_find-blast-matches"
+ - "bp_gccalc"
 versions:
  - "1.17--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-bio-das"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-das", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-das", "latest": {"1.17--pl5321hdfd78af_1": "sha256:ae8c8f3cc07ed0b9f3fc159ca9b08f6dfdf78e333fa2b124ab08b2bbedb0394d"}, "tags": {"1.17--pl5321hdfd78af_1": "sha256:ae8c8f3cc07ed0b9f3fc159ca9b08f6dfdf78e333fa2b124ab08b2bbedb0394d"}, "docker": "quay.io/biocontainers/perl-bio-das"}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-das", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-das", "latest": {"1.17--pl5321hdfd78af_1": "sha256:ae8c8f3cc07ed0b9f3fc159ca9b08f6dfdf78e333fa2b124ab08b2bbedb0394d"}, "tags": {"1.17--pl5321hdfd78af_1": "sha256:ae8c8f3cc07ed0b9f3fc159ca9b08f6dfdf78e333fa2b124ab08b2bbedb0394d"}, "docker": "quay.io/biocontainers/perl-bio-das", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-das.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-bio-das
+#### bp_aacomp
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bp_aacomp
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### bp_bioflat_index
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_bioflat_index
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_biogetseq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_biogetseq
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_biogetseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_biogetseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_dbsplit
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_dbsplit
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_extract_feature_seq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_extract_feature_seq
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_fastam9_to_table
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_fastam9_to_table
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_fetch
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_fetch
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_fetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_fetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_filter_search
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_filter_search
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_filter_search   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_filter_search   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_find-blast-matches
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_find-blast-matches
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_find-blast-matches   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_gccalc
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_gccalc
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_gccalc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_gccalc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

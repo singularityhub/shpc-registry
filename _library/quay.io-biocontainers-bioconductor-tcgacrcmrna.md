@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tcgacrcmrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgacrcmrna/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgacrcmrna/container.yaml"
-updated_at: "2022-10-27 00:28:27.654289"
+updated_at: "2022-10-29 05:43:29.094952"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgacrcmrna"
 aliases:
- - ".bioconductor-tcgacrcmrna-post-link.sh"
- - ".bioconductor-tcgacrcmrna-pre-unlink.sh"
+ - "c89"
+ - "c99"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmrna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgacrcmrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmrna", "latest": {"1.9.0--r40_0": "sha256:5443dfe2ac3f2398959cce08325a870fff818701829339a5ee9f3e9762607150"}, "tags": {"1.9.0--r40_0": "sha256:5443dfe2ac3f2398959cce08325a870fff818701829339a5ee9f3e9762607150"}, "docker": "quay.io/biocontainers/bioconductor-tcgacrcmrna", "aliases": {".bioconductor-tcgacrcmrna-post-link.sh": "/usr/local/bin/.bioconductor-tcgacrcmrna-post-link.sh", ".bioconductor-tcgacrcmrna-pre-unlink.sh": "/usr/local/bin/.bioconductor-tcgacrcmrna-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgacrcmrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmrna", "latest": {"1.9.0--r40_0": "sha256:5443dfe2ac3f2398959cce08325a870fff818701829339a5ee9f3e9762607150"}, "tags": {"1.9.0--r40_0": "sha256:5443dfe2ac3f2398959cce08325a870fff818701829339a5ee9f3e9762607150"}, "docker": "quay.io/biocontainers/bioconductor-tcgacrcmrna", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcgacrcmrna.
@@ -99,21 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-tcgacrcmrna-post-link.sh
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tcgacrcmrna-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmrna-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmrna-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-tcgacrcmrna-pre-unlink.sh
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tcgacrcmrna-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmrna-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmrna-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

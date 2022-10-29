@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/galaxy-util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-util/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-util/container.yaml"
-updated_at: "2022-10-27 00:26:42.705928"
+updated_at: "2022-10-29 05:41:11.450043"
 latest: "21.9.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-util"
-
+aliases:
+ - "2to3-3.9"
+ - "chardetect"
+ - "cheetah"
+ - "cheetah-analyze"
+ - "cheetah-compile"
+ - "futurize"
+ - "idle3.9"
+ - "pasteurize"
+ - "pydoc3.9"
+ - "python3.9"
 versions:
  - "21.9.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for galaxy-util"
-config: {"url": "https://biocontainers.pro/tools/galaxy-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-util", "latest": {"21.9.0--pyhdfd78af_0": "sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c"}, "tags": {"21.9.0--pyhdfd78af_0": "sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c"}, "docker": "quay.io/biocontainers/galaxy-util"}
+config: {"url": "https://biocontainers.pro/tools/galaxy-util", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-util", "latest": {"21.9.0--pyhdfd78af_0": "sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c"}, "tags": {"21.9.0--pyhdfd78af_0": "sha256:eea3726086f657128d2fc86c74e256141576e88c32064c30d2b798ffdcf63f2c"}, "docker": "quay.io/biocontainers/galaxy-util", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "futurize": "/usr/local/bin/futurize", "idle3.9": "/usr/local/bin/idle3.9", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-util.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### galaxy-util
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cheetah
+
+```bash
+$ singularity exec <container> /usr/local/bin/cheetah
+$ podman run --it --rm --entrypoint /usr/local/bin/cheetah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cheetah   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cheetah-analyze
+
+```bash
+$ singularity exec <container> /usr/local/bin/cheetah-analyze
+$ podman run --it --rm --entrypoint /usr/local/bin/cheetah-analyze   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cheetah-analyze   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cheetah-compile
+
+```bash
+$ singularity exec <container> /usr/local/bin/cheetah-compile
+$ podman run --it --rm --entrypoint /usr/local/bin/cheetah-compile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cheetah-compile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

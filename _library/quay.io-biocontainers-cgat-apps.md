@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/cgat-apps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-apps/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-apps/container.yaml"
-updated_at: "2022-10-27 00:18:29.061794"
+updated_at: "2022-10-29 05:30:17.068464"
 latest: "0.6.5--py37h179cca4_2"
 container_url: "https://biocontainers.pro/tools/cgat-apps"
 aliases:
  - "cgat"
  - "docker-credential-gcloud"
+ - "2to3-3.7"
+ - "annotateBed"
+ - "b2sum"
+ - "bamToBed"
+ - "bamToFastq"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "basenc"
+ - "bed12ToBed6"
 versions:
  - "0.6.5--py37h179cca4_2"
 description: "shpc-registry automated BioContainers addition for cgat-apps"
-config: {"url": "https://biocontainers.pro/tools/cgat-apps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-apps", "latest": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "tags": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "docker": "quay.io/biocontainers/cgat-apps", "aliases": {"cgat": "/usr/local/bin/cgat", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud"}}
+config: {"url": "https://biocontainers.pro/tools/cgat-apps", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-apps", "latest": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "tags": {"0.6.5--py37h179cca4_2": "sha256:d4c82e87ed915c5e18ad15801a0d6c999fcf204c37ded62a20bcb72036ae980b"}, "docker": "quay.io/biocontainers/cgat-apps", "aliases": {"cgat": "/usr/local/bin/cgat", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "2to3-3.7": "/usr/local/bin/2to3-3.7", "annotateBed": "/usr/local/bin/annotateBed", "b2sum": "/usr/local/bin/b2sum", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-apps.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cgat   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/docker-credential-gcloud
 $ podman run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

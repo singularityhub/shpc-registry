@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/genblastg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genblastg/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/genblastg/container.yaml"
-updated_at: "2022-10-27 00:31:22.472121"
+updated_at: "2022-10-29 05:47:20.415849"
 latest: "1.39--1"
 container_url: "https://biocontainers.pro/tools/genblastg"
 aliases:
  - "genblastG"
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
+ - "blastdbcmd"
+ - "blastdbcp"
+ - "blastn"
+ - "blastp"
+ - "blastx"
+ - "convert2blastmask"
+ - "datatool"
 versions:
  - "1.39--1"
 description: "shpc-registry automated BioContainers addition for genblastg"
-config: {"url": "https://biocontainers.pro/tools/genblastg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genblastg", "latest": {"1.39--1": "sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38"}, "tags": {"1.39--1": "sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38"}, "docker": "quay.io/biocontainers/genblastg", "aliases": {"genblastG": "/usr/local/bin/genblastG"}}
+config: {"url": "https://biocontainers.pro/tools/genblastg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genblastg", "latest": {"1.39--1": "sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38"}, "tags": {"1.39--1": "sha256:2f1f5f2632e46840f6e2a05470493e13b52c7a86e3a4b2b218793022162f4d38"}, "docker": "quay.io/biocontainers/genblastg", "aliases": {"genblastG": "/usr/local/bin/genblastG", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "convert2blastmask": "/usr/local/bin/convert2blastmask", "datatool": "/usr/local/bin/datatool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genblastg.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/genblastG
 $ podman run --it --rm --entrypoint /usr/local/bin/genblastG   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/genblastG   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastn
+$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastx
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastx
+$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert2blastmask
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert2blastmask
+$ podman run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### datatool
+
+```bash
+$ singularity exec <container> /usr/local/bin/datatool
+$ podman run --it --rm --entrypoint /usr/local/bin/datatool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/datatool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

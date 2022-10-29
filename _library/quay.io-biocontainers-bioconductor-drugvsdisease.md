@@ -4,20 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-drugvsdisease"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drugvsdisease/container.yaml"
-updated_at: "2022-10-27 00:34:13.651787"
+updated_at: "2022-10-29 05:51:07.225198"
 latest: "2.36.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drugvsdisease"
 aliases:
- - ".bioconductor-cmap2data-post-link.sh"
- - ".bioconductor-cmap2data-pre-unlink.sh"
- - ".bioconductor-drugvsdiseasedata-post-link.sh"
- - ".bioconductor-drugvsdiseasedata-pre-unlink.sh"
- - ".bioconductor-hgu133a2.db-post-link.sh"
- - ".bioconductor-hgu133a2.db-pre-unlink.sh"
+ - "R"
+ - "Rscript"
+ - "acountry"
+ - "adig"
+ - "ahost"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
 versions:
  - "2.36.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drugvsdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease", "latest": {"2.36.0--r41hdfd78af_0": "sha256:e2f2d6492d52cab14103a8d1bba4c20b8f94f43629dea04593f6e36a52fed91d"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:e2f2d6492d52cab14103a8d1bba4c20b8f94f43629dea04593f6e36a52fed91d"}, "docker": "quay.io/biocontainers/bioconductor-drugvsdisease", "aliases": {".bioconductor-cmap2data-post-link.sh": "/usr/local/bin/.bioconductor-cmap2data-post-link.sh", ".bioconductor-cmap2data-pre-unlink.sh": "/usr/local/bin/.bioconductor-cmap2data-pre-unlink.sh", ".bioconductor-drugvsdiseasedata-post-link.sh": "/usr/local/bin/.bioconductor-drugvsdiseasedata-post-link.sh", ".bioconductor-drugvsdiseasedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-drugvsdiseasedata-pre-unlink.sh", ".bioconductor-hgu133a2.db-post-link.sh": "/usr/local/bin/.bioconductor-hgu133a2.db-post-link.sh", ".bioconductor-hgu133a2.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu133a2.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drugvsdisease", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drugvsdisease", "latest": {"2.36.0--r41hdfd78af_0": "sha256:e2f2d6492d52cab14103a8d1bba4c20b8f94f43629dea04593f6e36a52fed91d"}, "tags": {"2.36.0--r41hdfd78af_0": "sha256:e2f2d6492d52cab14103a8d1bba4c20b8f94f43629dea04593f6e36a52fed91d"}, "docker": "quay.io/biocontainers/bioconductor-drugvsdisease", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drugvsdisease.
@@ -103,57 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-cmap2data-post-link.sh
+#### R
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-cmap2data-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-cmap2data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-cmap2data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-cmap2data-pre-unlink.sh
+#### Rscript
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-cmap2data-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-cmap2data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-cmap2data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-drugvsdiseasedata-post-link.sh
+#### acountry
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-drugvsdiseasedata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-drugvsdiseasedata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-drugvsdiseasedata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/acountry
+$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-drugvsdiseasedata-pre-unlink.sh
+#### adig
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-drugvsdiseasedata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-drugvsdiseasedata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-drugvsdiseasedata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/adig
+$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-hgu133a2.db-post-link.sh
+#### ahost
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133a2.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a2.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a2.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ahost
+$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-hgu133a2.db-pre-unlink.sh
+#### autopoint
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133a2.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a2.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a2.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

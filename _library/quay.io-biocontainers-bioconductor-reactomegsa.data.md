@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-reactomegsa.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
-updated_at: "2022-10-27 00:23:07.215152"
+updated_at: "2022-10-29 05:36:24.070153"
 latest: "1.8.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegsa.data"
 aliases:
- - ".bioconductor-reactomegsa.data-post-link.sh"
- - ".bioconductor-reactomegsa.data-pre-unlink.sh"
+ - "geos-config"
+ - "geosop"
+ - "glpsol"
 versions:
  - "1.8.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {".bioconductor-reactomegsa.data-post-link.sh": "/usr/local/bin/.bioconductor-reactomegsa.data-post-link.sh", ".bioconductor-reactomegsa.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-reactomegsa.data-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {"geos-config": "/usr/local/bin/geos-config", "geosop": "/usr/local/bin/geosop", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reactomegsa.data.
@@ -99,21 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-reactomegsa.data-post-link.sh
+#### geos-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-reactomegsa.data-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-reactomegsa.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-reactomegsa.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/geos-config
+$ podman run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-reactomegsa.data-pre-unlink.sh
+#### geosop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-reactomegsa.data-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-reactomegsa.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-reactomegsa.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/geosop
+$ podman run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geosop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

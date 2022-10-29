@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ephemeris"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ephemeris/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ephemeris/container.yaml"
-updated_at: "2022-10-27 00:37:22.344625"
+updated_at: "2022-10-29 05:55:20.090537"
 latest: "0.9.0--py_0"
 container_url: "https://biocontainers.pro/tools/ephemeris"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "shed-tools"
  - "workflow-install"
  - "workflow-to-tools"
+ - "2to3-3.7"
+ - "asadmin"
+ - "bundle_image"
+ - "cfadmin"
+ - "chardetect"
+ - "cq"
+ - "cwutil"
+ - "dynamodb_dump"
+ - "dynamodb_load"
+ - "elbadmin"
 versions:
  - "0.9.0--py_0"
 description: "shpc-registry automated BioContainers addition for ephemeris"
-config: {"url": "https://biocontainers.pro/tools/ephemeris", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ephemeris", "latest": {"0.9.0--py_0": "sha256:7377ee47f373a1cf566ff3f8431132c79818f3904e76a1fcb9b2c64b00e401d2"}, "tags": {"0.9.0--py_0": "sha256:7377ee47f373a1cf566ff3f8431132c79818f3904e76a1fcb9b2c64b00e401d2"}, "docker": "quay.io/biocontainers/ephemeris", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "galaxy-wait": "/usr/local/bin/galaxy-wait", "get-tool-list": "/usr/local/bin/get-tool-list", "run-data-managers": "/usr/local/bin/run-data-managers", "setup-data-libraries": "/usr/local/bin/setup-data-libraries", "shed-tools": "/usr/local/bin/shed-tools", "workflow-install": "/usr/local/bin/workflow-install", "workflow-to-tools": "/usr/local/bin/workflow-to-tools"}}
+config: {"url": "https://biocontainers.pro/tools/ephemeris", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ephemeris", "latest": {"0.9.0--py_0": "sha256:7377ee47f373a1cf566ff3f8431132c79818f3904e76a1fcb9b2c64b00e401d2"}, "tags": {"0.9.0--py_0": "sha256:7377ee47f373a1cf566ff3f8431132c79818f3904e76a1fcb9b2c64b00e401d2"}, "docker": "quay.io/biocontainers/ephemeris", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "galaxy-wait": "/usr/local/bin/galaxy-wait", "get-tool-list": "/usr/local/bin/get-tool-list", "run-data-managers": "/usr/local/bin/run-data-managers", "setup-data-libraries": "/usr/local/bin/setup-data-libraries", "shed-tools": "/usr/local/bin/shed-tools", "workflow-install": "/usr/local/bin/workflow-install", "workflow-to-tools": "/usr/local/bin/workflow-to-tools", "2to3-3.7": "/usr/local/bin/2to3-3.7", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "chardetect": "/usr/local/bin/chardetect", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ephemeris.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/workflow-install   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/workflow-to-tools
 $ podman run --it --rm --entrypoint /usr/local/bin/workflow-to-tools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/workflow-to-tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/asadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bundle_image
+
+```bash
+$ singularity exec <container> /usr/local/bin/bundle_image
+$ podman run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cfadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cfadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cq
+
+```bash
+$ singularity exec <container> /usr/local/bin/cq
+$ podman run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwutil
+$ podman run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_load
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_load
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### elbadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/elbadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

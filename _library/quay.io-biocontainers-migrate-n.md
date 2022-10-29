@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/migrate-n"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/migrate-n/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/migrate-n/container.yaml"
-updated_at: "2022-10-27 00:21:09.820736"
+updated_at: "2022-10-29 05:33:48.507579"
 latest: "3.6.11--hde308d1_4"
 container_url: "https://biocontainers.pro/tools/migrate-n"
 aliases:
  - "migrate-n"
  - "migrate-n-mpi"
+ - "aggregate_profile.pl"
+ - "mpiCC"
+ - "mpic++"
+ - "mpicc"
+ - "mpicxx"
+ - "mpiexec"
+ - "mpif77"
+ - "mpif90"
+ - "mpifort"
+ - "mpirun"
 versions:
  - "3.6.11--hde308d1_4"
 description: "shpc-registry automated BioContainers addition for migrate-n"
-config: {"url": "https://biocontainers.pro/tools/migrate-n", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migrate-n", "latest": {"3.6.11--hde308d1_4": "sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804"}, "tags": {"3.6.11--hde308d1_4": "sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804"}, "docker": "quay.io/biocontainers/migrate-n", "aliases": {"migrate-n": "/usr/local/bin/migrate-n", "migrate-n-mpi": "/usr/local/bin/migrate-n-mpi"}}
+config: {"url": "https://biocontainers.pro/tools/migrate-n", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for migrate-n", "latest": {"3.6.11--hde308d1_4": "sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804"}, "tags": {"3.6.11--hde308d1_4": "sha256:a70dc735d72cef1097e750ee8e6b555efddb8a229e9fcfadb1e1c1b0c34e3804"}, "docker": "quay.io/biocontainers/migrate-n", "aliases": {"migrate-n": "/usr/local/bin/migrate-n", "migrate-n-mpi": "/usr/local/bin/migrate-n-mpi", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "mpiCC": "/usr/local/bin/mpiCC", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc", "mpicxx": "/usr/local/bin/mpicxx", "mpiexec": "/usr/local/bin/mpiexec", "mpif77": "/usr/local/bin/mpif77", "mpif90": "/usr/local/bin/mpif90", "mpifort": "/usr/local/bin/mpifort", "mpirun": "/usr/local/bin/mpirun"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/migrate-n.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/migrate-n   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/migrate-n-mpi
 $ podman run --it --rm --entrypoint /usr/local/bin/migrate-n-mpi   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/migrate-n-mpi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_profile.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpiCC
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpiCC
+$ podman run --it --rm --entrypoint /usr/local/bin/mpiCC   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpiCC   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpic++
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpic++
+$ podman run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpicc
+$ podman run --it --rm --entrypoint /usr/local/bin/mpicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpicxx
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpicxx
+$ podman run --it --rm --entrypoint /usr/local/bin/mpicxx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpicxx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpiexec
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpiexec
+$ podman run --it --rm --entrypoint /usr/local/bin/mpiexec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpiexec   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpif77
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpif77
+$ podman run --it --rm --entrypoint /usr/local/bin/mpif77   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpif77   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpif90
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpif90
+$ podman run --it --rm --entrypoint /usr/local/bin/mpif90   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpif90   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpifort
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpifort
+$ podman run --it --rm --entrypoint /usr/local/bin/mpifort   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpifort   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpirun
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpirun
+$ podman run --it --rm --entrypoint /usr/local/bin/mpirun   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpirun   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

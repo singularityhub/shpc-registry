@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/wisecondorx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wisecondorx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wisecondorx/container.yaml"
-updated_at: "2022-10-27 00:34:36.632300"
+updated_at: "2022-10-29 05:51:39.540458"
 latest: "1.2.5--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/wisecondorx"
 aliases:
  - "WisecondorX"
+ - "2to3-3.10"
+ - "brotli"
+ - "f2py3.10"
+ - "fonttools"
+ - "idle3.10"
+ - "jpgicc"
+ - "linkicc"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
 versions:
  - "1.2.5--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for wisecondorx"
-config: {"url": "https://biocontainers.pro/tools/wisecondorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wisecondorx", "latest": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb"}, "tags": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb"}, "docker": "quay.io/biocontainers/wisecondorx", "aliases": {"WisecondorX": "/usr/local/bin/WisecondorX"}}
+config: {"url": "https://biocontainers.pro/tools/wisecondorx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wisecondorx", "latest": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb"}, "tags": {"1.2.5--pyh5e36f6f_0": "sha256:8e2557f4bea29f796cd0eff1bcaf3f4fe3c52a0ea45c2ae685833715732d0bcb"}, "docker": "quay.io/biocontainers/wisecondorx", "aliases": {"WisecondorX": "/usr/local/bin/WisecondorX", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "idle3.10": "/usr/local/bin/idle3.10", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wisecondorx.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/WisecondorX
 $ podman run --it --rm --entrypoint /usr/local/bin/WisecondorX   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/WisecondorX   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

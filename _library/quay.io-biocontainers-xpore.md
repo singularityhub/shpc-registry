@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/xpore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xpore/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xpore/container.yaml"
-updated_at: "2022-10-27 00:36:49.383527"
+updated_at: "2022-10-29 05:54:36.132111"
 latest: "2.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/xpore"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "xpore"
  - "xpore-dataprep"
  - "xpore-diffmod"
+ - "chardetect"
+ - "epylint"
+ - "f2py3.9"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
 versions:
  - "2.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for xpore"
-config: {"url": "https://biocontainers.pro/tools/xpore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpore", "latest": {"2.1--pyh5e36f6f_0": "sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4"}, "tags": {"2.1--pyh5e36f6f_0": "sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4"}, "docker": "quay.io/biocontainers/xpore", "aliases": {"isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pyensembl": "/usr/local/bin/pyensembl", "xpore": "/usr/local/bin/xpore", "xpore-dataprep": "/usr/local/bin/xpore-dataprep", "xpore-diffmod": "/usr/local/bin/xpore-diffmod"}}
+config: {"url": "https://biocontainers.pro/tools/xpore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpore", "latest": {"2.1--pyh5e36f6f_0": "sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4"}, "tags": {"2.1--pyh5e36f6f_0": "sha256:5424b9d305ba65acb392496a740c731807a51de10689d117ad0c85b3991668f4"}, "docker": "quay.io/biocontainers/xpore", "aliases": {"isort-identify-imports": "/usr/local/bin/isort-identify-imports", "pyensembl": "/usr/local/bin/pyensembl", "xpore": "/usr/local/bin/xpore", "xpore-dataprep": "/usr/local/bin/xpore-dataprep", "xpore-diffmod": "/usr/local/bin/xpore-diffmod", "chardetect": "/usr/local/bin/chardetect", "epylint": "/usr/local/bin/epylint", "f2py3.9": "/usr/local/bin/f2py3.9", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xpore.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xpore-dataprep   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/xpore-diffmod
 $ podman run --it --rm --entrypoint /usr/local/bin/xpore-diffmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xpore-diffmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### epylint
+
+```bash
+$ singularity exec <container> /usr/local/bin/epylint
+$ podman run --it --rm --entrypoint /usr/local/bin/epylint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/epylint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

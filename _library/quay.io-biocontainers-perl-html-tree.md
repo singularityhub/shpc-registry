@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-html-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-tree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-tree/container.yaml"
-updated_at: "2022-10-27 00:38:09.213336"
+updated_at: "2022-10-29 05:56:20.970732"
 latest: "5.07--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-html-tree"
-
+aliases:
+ - "htmltree"
 versions:
  - "5.07--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-html-tree"
-config: {"url": "https://biocontainers.pro/tools/perl-html-tree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tree", "latest": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "tags": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "docker": "quay.io/biocontainers/perl-html-tree"}
+config: {"url": "https://biocontainers.pro/tools/perl-html-tree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-tree", "latest": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "tags": {"5.07--pl5321hdfd78af_2": "sha256:12924c579c7b9798745ea533c8f838448c915179bcfca5dbb65c75ae34742a5a"}, "docker": "quay.io/biocontainers/perl-html-tree", "aliases": {"htmltree": "/usr/local/bin/htmltree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-tree.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-html-tree
+#### htmltree
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/htmltree
+$ podman run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

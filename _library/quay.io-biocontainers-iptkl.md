@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iptkl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iptkl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/iptkl/container.yaml"
-updated_at: "2022-10-27 00:38:17.457186"
+updated_at: "2022-10-29 05:56:31.422656"
 latest: "0.6.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/iptkl"
 aliases:
@@ -18,10 +18,20 @@ aliases:
  - "prt_terms.py"
  - "wr_hier.py"
  - "wr_sections.py"
+ - "2to3-3.8"
+ - "CreateDOMDocument"
+ - "DOMCount"
+ - "DOMPrint"
+ - "EnumVal"
+ - "MemParse"
+ - "PParse"
+ - "PSVIWriter"
+ - "Redirect"
+ - "SAX2Count"
 versions:
  - "0.6.8--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for iptkl"
-config: {"url": "https://biocontainers.pro/tools/iptkl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iptkl", "latest": {"0.6.8--pyh5e36f6f_0": "sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3"}, "tags": {"0.6.8--pyh5e36f6f_0": "sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3"}, "docker": "quay.io/biocontainers/iptkl", "aliases": {"colorcet": "/usr/local/bin/colorcet", "compare_gos.py": "/usr/local/bin/compare_gos.py", "go_plot.py": "/usr/local/bin/go_plot.py", "holoviews": "/usr/local/bin/holoviews", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "nglview": "/usr/local/bin/nglview", "panel": "/usr/local/bin/panel", "prt_terms.py": "/usr/local/bin/prt_terms.py", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py"}}
+config: {"url": "https://biocontainers.pro/tools/iptkl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iptkl", "latest": {"0.6.8--pyh5e36f6f_0": "sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3"}, "tags": {"0.6.8--pyh5e36f6f_0": "sha256:424140b2aadbd8b303569b7fb1f08117fea473944acddb10b78725724e7645c3"}, "docker": "quay.io/biocontainers/iptkl", "aliases": {"colorcet": "/usr/local/bin/colorcet", "compare_gos.py": "/usr/local/bin/compare_gos.py", "go_plot.py": "/usr/local/bin/go_plot.py", "holoviews": "/usr/local/bin/holoviews", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "nglview": "/usr/local/bin/nglview", "panel": "/usr/local/bin/panel", "prt_terms.py": "/usr/local/bin/prt_terms.py", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iptkl.
@@ -194,6 +204,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wr_hier.py   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/wr_sections.py
 $ podman run --it --rm --entrypoint /usr/local/bin/wr_sections.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wr_sections.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CreateDOMDocument
+
+```bash
+$ singularity exec <container> /usr/local/bin/CreateDOMDocument
+$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMCount
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMCount
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMPrint
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMPrint
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EnumVal
+
+```bash
+$ singularity exec <container> /usr/local/bin/EnumVal
+$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MemParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/MemParse
+$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/PParse
+$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PSVIWriter
+
+```bash
+$ singularity exec <container> /usr/local/bin/PSVIWriter
+$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Redirect
+
+```bash
+$ singularity exec <container> /usr/local/bin/Redirect
+$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Count
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Count
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,19 @@ name:  "quay.io/biocontainers/fastafunk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastafunk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastafunk/container.yaml"
-updated_at: "2022-10-27 00:32:14.111211"
+updated_at: "2022-10-29 05:48:29.521189"
 latest: "0.1.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/fastafunk"
 aliases:
  - "fastafunk"
+ - "dendropy-format"
+ - "f2py3.8"
+ - "sumlabels.py"
+ - "sumtrees.py"
 versions:
  - "0.1.2--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for fastafunk"
-config: {"url": "https://biocontainers.pro/tools/fastafunk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastafunk", "latest": {"0.1.2--pyh5e36f6f_0": "sha256:31cd1692da8483b22f908424d87729542134a340fdbf0ab590ac962ac9aeae82"}, "tags": {"0.1.2--pyh5e36f6f_0": "sha256:31cd1692da8483b22f908424d87729542134a340fdbf0ab590ac962ac9aeae82"}, "docker": "quay.io/biocontainers/fastafunk", "aliases": {"fastafunk": "/usr/local/bin/fastafunk"}}
+config: {"url": "https://biocontainers.pro/tools/fastafunk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastafunk", "latest": {"0.1.2--pyh5e36f6f_0": "sha256:31cd1692da8483b22f908424d87729542134a340fdbf0ab590ac962ac9aeae82"}, "tags": {"0.1.2--pyh5e36f6f_0": "sha256:31cd1692da8483b22f908424d87729542134a340fdbf0ab590ac962ac9aeae82"}, "docker": "quay.io/biocontainers/fastafunk", "aliases": {"fastafunk": "/usr/local/bin/fastafunk", "dendropy-format": "/usr/local/bin/dendropy-format", "f2py3.8": "/usr/local/bin/f2py3.8", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastafunk.
@@ -104,6 +108,42 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/fastafunk
 $ podman run --it --rm --entrypoint /usr/local/bin/fastafunk   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fastafunk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dendropy-format
+
+```bash
+$ singularity exec <container> /usr/local/bin/dendropy-format
+$ podman run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sumlabels.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sumlabels.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumlabels.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sumtrees.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/sumtrees.py
+$ podman run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sumtrees.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

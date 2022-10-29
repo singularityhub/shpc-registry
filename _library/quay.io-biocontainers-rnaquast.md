@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaquast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaquast/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rnaquast/container.yaml"
-updated_at: "2022-10-27 00:32:08.153647"
+updated_at: "2022-10-29 05:48:21.436112"
 latest: "2.2.1--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/rnaquast"
 aliases:
@@ -13,18 +13,13 @@ aliases:
  - "add_name_to_gff3.pl"
  - "aln2wig"
  - "augustify.py"
- - "bamToWig.py"
  - "busco"
- - "compare_masking.pl"
  - "executeTestCGP.py"
  - "extractAnno.py"
- - "fix_in_frame_stop_codon_genes.py"
- - "fix_joingenes_gtf.pl"
  - "generate_plot.py"
  - "get_loci_from_gb.pl"
  - "gmap_cat"
  - "indexdb_cat"
- - "merge_masking.pl"
  - "metaeuk"
  - "pp_simScore"
  - "pslSort"
@@ -37,10 +32,20 @@ aliases:
  - "run_upp.py"
  - "seppJsonMerger.jar"
  - "split_sequences.py"
+ - "2to3-3.9"
+ - "STAR"
+ - "STARlong"
+ - "SplicedAlignment.pm"
+ - "_aaindexextract"
+ - "_abiview"
+ - "_acdc"
+ - "_acdpretty"
+ - "_acdtable"
+ - "_acdtrace"
 versions:
  - "2.2.1--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for rnaquast"
-config: {"url": "https://biocontainers.pro/tools/rnaquast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaquast", "latest": {"2.2.1--h9ee0642_0": "sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989"}, "tags": {"2.2.1--h9ee0642_0": "sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989"}, "docker": "quay.io/biocontainers/rnaquast", "aliases": {"PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "bamToWig.py": "/usr/local/bin/bamToWig.py", "busco": "/usr/local/bin/busco", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "extractAnno.py": "/usr/local/bin/extractAnno.py", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "generate_plot.py": "/usr/local/bin/generate_plot.py", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "gmap_cat": "/usr/local/bin/gmap_cat", "indexdb_cat": "/usr/local/bin/indexdb_cat", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "metaeuk": "/usr/local/bin/metaeuk", "pp_simScore": "/usr/local/bin/pp_simScore", "pslSort": "/usr/local/bin/pslSort", "rnaQUAST.py": "/usr/local/bin/rnaQUAST.py", "run-sepp.sh": "/usr/local/bin/run-sepp.sh", "run_abundance.py": "/usr/local/bin/run_abundance.py", "run_sepp.py": "/usr/local/bin/run_sepp.py", "run_tipp.py": "/usr/local/bin/run_tipp.py", "run_tipp_tool.py": "/usr/local/bin/run_tipp_tool.py", "run_upp.py": "/usr/local/bin/run_upp.py", "seppJsonMerger.jar": "/usr/local/bin/seppJsonMerger.jar", "split_sequences.py": "/usr/local/bin/split_sequences.py"}}
+config: {"url": "https://biocontainers.pro/tools/rnaquast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaquast", "latest": {"2.2.1--h9ee0642_0": "sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989"}, "tags": {"2.2.1--h9ee0642_0": "sha256:6b3678537b50cc63c9c1cf6088eb9f64cf833b51836e743f1733fb98d234f989"}, "docker": "quay.io/biocontainers/rnaquast", "aliases": {"PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "busco": "/usr/local/bin/busco", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "extractAnno.py": "/usr/local/bin/extractAnno.py", "generate_plot.py": "/usr/local/bin/generate_plot.py", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "gmap_cat": "/usr/local/bin/gmap_cat", "indexdb_cat": "/usr/local/bin/indexdb_cat", "metaeuk": "/usr/local/bin/metaeuk", "pp_simScore": "/usr/local/bin/pp_simScore", "pslSort": "/usr/local/bin/pslSort", "rnaQUAST.py": "/usr/local/bin/rnaQUAST.py", "run-sepp.sh": "/usr/local/bin/run-sepp.sh", "run_abundance.py": "/usr/local/bin/run_abundance.py", "run_sepp.py": "/usr/local/bin/run_sepp.py", "run_tipp.py": "/usr/local/bin/run_tipp.py", "run_tipp_tool.py": "/usr/local/bin/run_tipp_tool.py", "run_upp.py": "/usr/local/bin/run_upp.py", "seppJsonMerger.jar": "/usr/local/bin/seppJsonMerger.jar", "split_sequences.py": "/usr/local/bin/split_sequences.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "_aaindexextract": "/usr/local/bin/_aaindexextract", "_abiview": "/usr/local/bin/_abiview", "_acdc": "/usr/local/bin/_acdc", "_acdpretty": "/usr/local/bin/_acdpretty", "_acdtable": "/usr/local/bin/_acdtable", "_acdtrace": "/usr/local/bin/_acdtrace"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnaquast.
@@ -171,30 +176,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/augustify.py   -v ${PWD} -w $
 ```
 
 
-#### bamToWig.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/bamToWig.py
-$ podman run --it --rm --entrypoint /usr/local/bin/bamToWig.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/bamToWig.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### busco
 
 ```bash
 $ singularity exec <container> /usr/local/bin/busco
 $ podman run --it --rm --entrypoint /usr/local/bin/busco   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/busco   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### compare_masking.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/compare_masking.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/compare_masking.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/compare_masking.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -213,24 +200,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/executeTestCGP.py   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/extractAnno.py
 $ podman run --it --rm --entrypoint /usr/local/bin/extractAnno.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/extractAnno.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fix_in_frame_stop_codon_genes.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/fix_in_frame_stop_codon_genes.py
-$ podman run --it --rm --entrypoint /usr/local/bin/fix_in_frame_stop_codon_genes.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fix_in_frame_stop_codon_genes.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fix_joingenes_gtf.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/fix_joingenes_gtf.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/fix_joingenes_gtf.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fix_joingenes_gtf.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -267,15 +236,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gmap_cat   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/indexdb_cat
 $ podman run --it --rm --entrypoint /usr/local/bin/indexdb_cat   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/indexdb_cat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### merge_masking.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/merge_masking.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/merge_masking.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/merge_masking.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -384,6 +344,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seppJsonMerger.jar   -v ${PWD
 $ singularity exec <container> /usr/local/bin/split_sequences.py
 $ podman run --it --rm --entrypoint /usr/local/bin/split_sequences.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/split_sequences.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STAR
+
+```bash
+$ singularity exec <container> /usr/local/bin/STAR
+$ podman run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STARlong
+
+```bash
+$ singularity exec <container> /usr/local/bin/STARlong
+$ podman run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SplicedAlignment.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/SplicedAlignment.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _aaindexextract
+
+```bash
+$ singularity exec <container> /usr/local/bin/_aaindexextract
+$ podman run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _abiview
+
+```bash
+$ singularity exec <container> /usr/local/bin/_abiview
+$ podman run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdc
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdc
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdpretty
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdpretty
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtable
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtable
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtrace
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtrace
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

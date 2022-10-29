@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/sequencetools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequencetools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sequencetools/container.yaml"
-updated_at: "2022-10-27 00:31:38.319523"
+updated_at: "2022-10-29 05:47:41.710095"
 latest: "1.5.2--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/sequencetools"
 aliases:
  - "genoStats"
  - "pileupCaller"
  - "vcf2eigenstrat"
+ - "ace2sam"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "export2sam.pl"
+ - "fasta-sanitize.pl"
+ - "htsfile"
+ - "interpolate_sam.pl"
+ - "maq2sam-long"
+ - "maq2sam-short"
 versions:
  - "1.5.2--hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for sequencetools"
-config: {"url": "https://biocontainers.pro/tools/sequencetools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequencetools", "latest": {"1.5.2--hec16e2b_1": "sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f"}, "tags": {"1.5.2--hec16e2b_1": "sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f"}, "docker": "quay.io/biocontainers/sequencetools", "aliases": {"genoStats": "/usr/local/bin/genoStats", "pileupCaller": "/usr/local/bin/pileupCaller", "vcf2eigenstrat": "/usr/local/bin/vcf2eigenstrat"}}
+config: {"url": "https://biocontainers.pro/tools/sequencetools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequencetools", "latest": {"1.5.2--hec16e2b_1": "sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f"}, "tags": {"1.5.2--hec16e2b_1": "sha256:17b07c43c07dff2c4f5b7d67d727ecb9f11174ffd33884c357107808f480e79f"}, "docker": "quay.io/biocontainers/sequencetools", "aliases": {"genoStats": "/usr/local/bin/genoStats", "pileupCaller": "/usr/local/bin/pileupCaller", "vcf2eigenstrat": "/usr/local/bin/vcf2eigenstrat", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequencetools.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pileupCaller   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/vcf2eigenstrat
 $ podman run --it --rm --entrypoint /usr/local/bin/vcf2eigenstrat   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vcf2eigenstrat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### interpolate_sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maq2sam-long
+
+```bash
+$ singularity exec <container> /usr/local/bin/maq2sam-long
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maq2sam-short
+
+```bash
+$ singularity exec <container> /usr/local/bin/maq2sam-short
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

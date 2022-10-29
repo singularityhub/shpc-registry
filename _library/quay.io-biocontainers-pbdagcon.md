@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pbdagcon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbdagcon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pbdagcon/container.yaml"
-updated_at: "2022-10-27 00:20:32.839963"
+updated_at: "2022-10-29 05:32:59.112179"
 latest: "0.1--boost1.64_0"
 container_url: "https://biocontainers.pro/tools/pbdagcon"
 aliases:
@@ -32,10 +32,20 @@ aliases:
  - "pbdagcon"
  - "quiva2DB"
  - "simulator"
+ - "2to3-3.6"
+ - "easy_install-3.6"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
+ - "h5diff"
 versions:
  - "0.1--boost1.64_0"
 description: "shpc-registry automated BioContainers addition for pbdagcon"
-config: {"url": "https://biocontainers.pro/tools/pbdagcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbdagcon", "latest": {"0.1--boost1.64_0": "sha256:fbd203850410140f2512deeed50a6626ceac3dd182d6c251e3e0ad0474df62bb"}, "tags": {"0.1--boost1.64_0": "sha256:fbd203850410140f2512deeed50a6626ceac3dd182d6c251e3e0ad0474df62bb"}, "docker": "quay.io/biocontainers/pbdagcon", "aliases": {"Catrack": "/usr/local/bin/Catrack", "DAM2fasta": "/usr/local/bin/DAM2fasta", "DB2fasta": "/usr/local/bin/DB2fasta", "DB2quiva": "/usr/local/bin/DB2quiva", "DBdust": "/usr/local/bin/DBdust", "DBrm": "/usr/local/bin/DBrm", "DBshow": "/usr/local/bin/DBshow", "DBsplit": "/usr/local/bin/DBsplit", "DBstats": "/usr/local/bin/DBstats", "HPCdaligner": "/usr/local/bin/HPCdaligner", "HPCmapper": "/usr/local/bin/HPCmapper", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "daligner": "/usr/local/bin/daligner", "dazcon": "/usr/local/bin/dazcon", "fasta2DAM": "/usr/local/bin/fasta2DAM", "fasta2DB": "/usr/local/bin/fasta2DB", "pbdagcon": "/usr/local/bin/pbdagcon", "quiva2DB": "/usr/local/bin/quiva2DB", "simulator": "/usr/local/bin/simulator"}}
+config: {"url": "https://biocontainers.pro/tools/pbdagcon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbdagcon", "latest": {"0.1--boost1.64_0": "sha256:fbd203850410140f2512deeed50a6626ceac3dd182d6c251e3e0ad0474df62bb"}, "tags": {"0.1--boost1.64_0": "sha256:fbd203850410140f2512deeed50a6626ceac3dd182d6c251e3e0ad0474df62bb"}, "docker": "quay.io/biocontainers/pbdagcon", "aliases": {"Catrack": "/usr/local/bin/Catrack", "DAM2fasta": "/usr/local/bin/DAM2fasta", "DB2fasta": "/usr/local/bin/DB2fasta", "DB2quiva": "/usr/local/bin/DB2quiva", "DBdust": "/usr/local/bin/DBdust", "DBrm": "/usr/local/bin/DBrm", "DBshow": "/usr/local/bin/DBshow", "DBsplit": "/usr/local/bin/DBsplit", "DBstats": "/usr/local/bin/DBstats", "HPCdaligner": "/usr/local/bin/HPCdaligner", "HPCmapper": "/usr/local/bin/HPCmapper", "LAcat": "/usr/local/bin/LAcat", "LAcheck": "/usr/local/bin/LAcheck", "LAmerge": "/usr/local/bin/LAmerge", "LAshow": "/usr/local/bin/LAshow", "LAsort": "/usr/local/bin/LAsort", "LAsplit": "/usr/local/bin/LAsplit", "daligner": "/usr/local/bin/daligner", "dazcon": "/usr/local/bin/dazcon", "fasta2DAM": "/usr/local/bin/fasta2DAM", "fasta2DB": "/usr/local/bin/fasta2DB", "pbdagcon": "/usr/local/bin/pbdagcon", "quiva2DB": "/usr/local/bin/quiva2DB", "simulator": "/usr/local/bin/simulator", "2to3-3.6": "/usr/local/bin/2to3-3.6", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbdagcon.
@@ -334,6 +344,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/quiva2DB   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/simulator
 $ podman run --it --rm --entrypoint /usr/local/bin/simulator   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/simulator   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### easy_install-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5diff
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5diff
+$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

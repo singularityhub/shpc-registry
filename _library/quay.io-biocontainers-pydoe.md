@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/pydoe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pydoe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pydoe/container.yaml"
-updated_at: "2022-10-27 00:29:34.863512"
+updated_at: "2022-10-29 05:44:56.796230"
 latest: "0.3.8--py35_0"
 container_url: "https://biocontainers.pro/tools/pydoe"
-
+aliases:
+ - "2to3-3.5"
+ - "easy_install-3.5"
+ - "idle3.5"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "pydoc3.5"
+ - "python3.5"
+ - "python3.5-config"
+ - "python3.5m"
+ - "python3.5m-config"
 versions:
  - "0.3.8--py35_0"
 description: "shpc-registry automated BioContainers addition for pydoe"
-config: {"url": "https://biocontainers.pro/tools/pydoe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydoe", "latest": {"0.3.8--py35_0": "sha256:af82999a2d9f0ad46dd1e3be41847a4322ddd5e7d61c68f717e8de993f5c3b33"}, "tags": {"0.3.8--py35_0": "sha256:af82999a2d9f0ad46dd1e3be41847a4322ddd5e7d61c68f717e8de993f5c3b33"}, "docker": "quay.io/biocontainers/pydoe"}
+config: {"url": "https://biocontainers.pro/tools/pydoe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pydoe", "latest": {"0.3.8--py35_0": "sha256:af82999a2d9f0ad46dd1e3be41847a4322ddd5e7d61c68f717e8de993f5c3b33"}, "tags": {"0.3.8--py35_0": "sha256:af82999a2d9f0ad46dd1e3be41847a4322ddd5e7d61c68f717e8de993f5c3b33"}, "docker": "quay.io/biocontainers/pydoe", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "idle3.5": "/usr/local/bin/idle3.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pydoe.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### pydoe
+#### 2to3-3.5
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### easy_install-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

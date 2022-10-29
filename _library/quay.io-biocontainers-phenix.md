@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/phenix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phenix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phenix/container.yaml"
-updated_at: "2022-10-27 00:19:39.071193"
+updated_at: "2022-10-29 05:31:48.218284"
 latest: "1.4.1a--py27h3dcb392_1"
 container_url: "https://biocontainers.pro/tools/phenix"
 aliases:
- - ".gatk-post-link.sh"
  - "GenomeAnalysisTK"
  - "filter_vcf.py"
  - "gatk-register"
@@ -18,10 +17,20 @@ aliases:
  - "vcf2distancematrix.py"
  - "vcf2fasta.py"
  - "vcf2json.py"
+ - "ace2sam"
+ - "appletviewer"
+ - "aserver"
+ - "assistant"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2"
+ - "bowtie2-align-l"
+ - "bowtie2-align-s"
 versions:
  - "1.4.1a--py27h3dcb392_1"
 description: "shpc-registry automated BioContainers addition for phenix"
-config: {"url": "https://biocontainers.pro/tools/phenix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phenix", "latest": {"1.4.1a--py27h3dcb392_1": "sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d"}, "tags": {"1.4.1a--py27h3dcb392_1": "sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d"}, "docker": "quay.io/biocontainers/phenix", "aliases": {".gatk-post-link.sh": "/usr/local/bin/.gatk-post-link.sh", "GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "filter_vcf.py": "/usr/local/bin/filter_vcf.py", "gatk-register": "/usr/local/bin/gatk-register", "phenix.py": "/usr/local/bin/phenix.py", "prepare_reference.py": "/usr/local/bin/prepare_reference.py", "run_snp_pipeline.py": "/usr/local/bin/run_snp_pipeline.py", "vcf2distancematrix.py": "/usr/local/bin/vcf2distancematrix.py", "vcf2fasta.py": "/usr/local/bin/vcf2fasta.py", "vcf2json.py": "/usr/local/bin/vcf2json.py"}}
+config: {"url": "https://biocontainers.pro/tools/phenix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phenix", "latest": {"1.4.1a--py27h3dcb392_1": "sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d"}, "tags": {"1.4.1a--py27h3dcb392_1": "sha256:ae932d62d620e9d607e94ccd20809f7f8215001600dc3851c47e2c4076946b3d"}, "docker": "quay.io/biocontainers/phenix", "aliases": {"GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "filter_vcf.py": "/usr/local/bin/filter_vcf.py", "gatk-register": "/usr/local/bin/gatk-register", "phenix.py": "/usr/local/bin/phenix.py", "prepare_reference.py": "/usr/local/bin/prepare_reference.py", "run_snp_pipeline.py": "/usr/local/bin/run_snp_pipeline.py", "vcf2distancematrix.py": "/usr/local/bin/vcf2distancematrix.py", "vcf2fasta.py": "/usr/local/bin/vcf2fasta.py", "vcf2json.py": "/usr/local/bin/vcf2json.py", "ace2sam": "/usr/local/bin/ace2sam", "appletviewer": "/usr/local/bin/appletviewer", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phenix.
@@ -107,15 +116,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .gatk-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.gatk-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.gatk-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.gatk-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### GenomeAnalysisTK
 
 ```bash
@@ -194,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcf2fasta.py   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/vcf2json.py
 $ podman run --it --rm --entrypoint /usr/local/bin/vcf2json.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vcf2json.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

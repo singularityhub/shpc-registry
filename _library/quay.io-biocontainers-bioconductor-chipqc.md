@@ -4,26 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-chipqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipqc/container.yaml"
-updated_at: "2022-10-27 00:28:19.492351"
+updated_at: "2022-10-29 05:43:18.273579"
 latest: "1.30.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipqc"
 aliases:
- - ".bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh"
- - ".bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh"
- - ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh"
- - ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh"
- - ".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh"
- - ".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh"
- - ".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh"
- - ".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh"
- - ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh"
- - ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh"
- - ".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh"
- - ".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh"
+ - "R"
+ - "Rscript"
+ - "acountry"
+ - "adig"
+ - "ahost"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
 versions:
  - "1.30.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipqc", "latest": {"1.30.0--r41hdfd78af_0": "sha256:7231aedf5c9fd4a740daf85cc82687707b15890867de361154b9b493a349e7a5"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:7231aedf5c9fd4a740daf85cc82687707b15890867de361154b9b493a349e7a5"}, "docker": "quay.io/biocontainers/bioconductor-chipqc", "aliases": {".bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh", ".bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh", ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh", ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh", ".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh", ".bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh", ".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh", ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh", ".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh", ".bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipqc", "latest": {"1.30.0--r41hdfd78af_0": "sha256:7231aedf5c9fd4a740daf85cc82687707b15890867de361154b9b493a349e7a5"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:7231aedf5c9fd4a740daf85cc82687707b15890867de361154b9b493a349e7a5"}, "docker": "quay.io/biocontainers/bioconductor-chipqc", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipqc.
@@ -109,111 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh
+#### R
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh
+#### Rscript
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce6.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh
+#### acountry
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/acountry
+$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh
+#### adig
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/adig
+$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh
+#### ahost
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ahost
+$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh
+#### autopoint
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg18.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh
+#### bunzip2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh
+#### bzcat
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
+#### bzcmp
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh
+#### bzdiff
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn4.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

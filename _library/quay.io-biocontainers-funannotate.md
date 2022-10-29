@@ -4,12 +4,10 @@ name:  "quay.io/biocontainers/funannotate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/funannotate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/funannotate/container.yaml"
-updated_at: "2022-10-27 00:38:20.496296"
+updated_at: "2022-10-29 05:56:35.340145"
 latest: "1.8.9--pyhdfd78af_3"
 container_url: "https://biocontainers.pro/tools/funannotate"
 aliases:
- - ".funannotate-post-link.sh"
- - ".pasa-post-link.sh"
  - "CodingQuarry"
  - "CufflinksGTF_to_CodingQuarryGFF3.py"
  - "TransDecoder.LongOrfs"
@@ -38,12 +36,9 @@ aliases:
  - "color_defs.pl"
  - "compute_base_probs.pl"
  - "distro"
- - "esd2esi"
  - "espoca"
  - "evidence_modeler.pl"
  - "exclude_similar_proteins.pl"
- - "exonerate"
- - "exonerate-server"
  - "exonpairs"
  - "exp_up_ensg.pl"
  - "expand_links.pl"
@@ -51,29 +46,8 @@ aliases:
  - "extract_exons.py"
  - "extract_splice_sites.py"
  - "fasta"
- - "fasta2esd"
  - "fasta36"
  - "fasta_prot_checker.pl"
- - "fastaannotatecdna"
- - "fastachecksum"
- - "fastaclip"
- - "fastacomposition"
- - "fastadiff"
- - "fastaexplode"
- - "fastafetch"
- - "fastahardmask"
- - "fastaindex"
- - "fastalength"
- - "fastanrdb"
- - "fastaoverlap"
- - "fastareformat"
- - "fastaremove"
- - "fastarevcomp"
- - "fastasoftmask"
- - "fastasort"
- - "fastasubseq"
- - "fastatranslate"
- - "fastavalidcds"
  - "fastf36"
  - "fastm36"
  - "fasts36"
@@ -116,7 +90,6 @@ aliases:
  - "hisat2_simulate_reads.py"
  - "hmm-assembler.pl"
  - "hmm-info"
- - "ipcress"
  - "kadmin.local"
  - "kadmind"
  - "kdb5_util"
@@ -201,10 +174,20 @@ aliases:
  - "uri_unescape.pl"
  - "uuserver"
  - "zff2gff3.pl"
+ - "EukHighConfidenceFilter"
+ - "PtR"
+ - "SOAPsh.pl"
+ - "SplicedAlignment.pm"
+ - "Trinity"
+ - "TrinityStats.pl"
+ - "Trinity_gene_splice_modeler.py"
+ - "aa2nonred.pl"
+ - "abundance_estimates_to_matrix.pl"
+ - "accn-at-a-time"
 versions:
  - "1.8.9--pyhdfd78af_3"
 description: "shpc-registry automated BioContainers addition for funannotate"
-config: {"url": "https://biocontainers.pro/tools/funannotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for funannotate", "latest": {"1.8.9--pyhdfd78af_3": "sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a"}, "tags": {"1.8.9--pyhdfd78af_3": "sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a"}, "docker": "quay.io/biocontainers/funannotate", "aliases": {".funannotate-post-link.sh": "/usr/local/bin/.funannotate-post-link.sh", ".pasa-post-link.sh": "/usr/local/bin/.pasa-post-link.sh", "CodingQuarry": "/usr/local/bin/CodingQuarry", "CufflinksGTF_to_CodingQuarryGFF3.py": "/usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py", "TransDecoder.LongOrfs": "/usr/local/bin/TransDecoder.LongOrfs", "TransDecoder.Predict": "/usr/local/bin/TransDecoder.Predict", "ann_exons_ens.pl": "/usr/local/bin/ann_exons_ens.pl", "ann_exons_ncbi.pl": "/usr/local/bin/ann_exons_ncbi.pl", "ann_exons_up_sql.pl": "/usr/local/bin/ann_exons_up_sql.pl", "ann_exons_up_www.pl": "/usr/local/bin/ann_exons_up_www.pl", "ann_feats2ipr.pl": "/usr/local/bin/ann_feats2ipr.pl", "ann_feats2ipr_e.pl": "/usr/local/bin/ann_feats2ipr_e.pl", "ann_feats_up_sql.pl": "/usr/local/bin/ann_feats_up_sql.pl", "ann_feats_up_www2.pl": "/usr/local/bin/ann_feats_up_www2.pl", "ann_ipr_www.pl": "/usr/local/bin/ann_ipr_www.pl", "ann_pdb_cath.pl": "/usr/local/bin/ann_pdb_cath.pl", "ann_pdb_vast.pl": "/usr/local/bin/ann_pdb_vast.pl", "ann_pfam27.pl": "/usr/local/bin/ann_pfam27.pl", "ann_pfam28.pl": "/usr/local/bin/ann_pfam28.pl", "ann_pfam30.pl": "/usr/local/bin/ann_pfam30.pl", "ann_pfam30_tmptbl.pl": "/usr/local/bin/ann_pfam30_tmptbl.pl", "ann_pfam_www.pl": "/usr/local/bin/ann_pfam_www.pl", "ann_upfeats_pfam_www_e.pl": "/usr/local/bin/ann_upfeats_pfam_www_e.pl", "annot_blast_btop2.pl": "/usr/local/bin/annot_blast_btop2.pl", "autoRun.pathInfo": "/usr/local/bin/autoRun.pathInfo", "cdna_alignment_orf_to_genome_orf.pl": "/usr/local/bin/cdna_alignment_orf_to_genome_orf.pl", "cds-trainer.pl": "/usr/local/bin/cds-trainer.pl", "color_defs.pl": "/usr/local/bin/color_defs.pl", "compute_base_probs.pl": "/usr/local/bin/compute_base_probs.pl", "distro": "/usr/local/bin/distro", "esd2esi": "/usr/local/bin/esd2esi", "espoca": "/usr/local/bin/espoca", "evidence_modeler.pl": "/usr/local/bin/evidence_modeler.pl", "exclude_similar_proteins.pl": "/usr/local/bin/exclude_similar_proteins.pl", "exonerate": "/usr/local/bin/exonerate", "exonerate-server": "/usr/local/bin/exonerate-server", "exonpairs": "/usr/local/bin/exonpairs", "exp_up_ensg.pl": "/usr/local/bin/exp_up_ensg.pl", "expand_links.pl": "/usr/local/bin/expand_links.pl", "expand_uniref50.pl": "/usr/local/bin/expand_uniref50.pl", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "fasta": "/usr/local/bin/fasta", "fasta2esd": "/usr/local/bin/fasta2esd", "fasta36": "/usr/local/bin/fasta36", "fasta_prot_checker.pl": "/usr/local/bin/fasta_prot_checker.pl", "fastaannotatecdna": "/usr/local/bin/fastaannotatecdna", "fastachecksum": "/usr/local/bin/fastachecksum", "fastaclip": "/usr/local/bin/fastaclip", "fastacomposition": "/usr/local/bin/fastacomposition", "fastadiff": "/usr/local/bin/fastadiff", "fastaexplode": "/usr/local/bin/fastaexplode", "fastafetch": "/usr/local/bin/fastafetch", "fastahardmask": "/usr/local/bin/fastahardmask", "fastaindex": "/usr/local/bin/fastaindex", "fastalength": "/usr/local/bin/fastalength", "fastanrdb": "/usr/local/bin/fastanrdb", "fastaoverlap": "/usr/local/bin/fastaoverlap", "fastareformat": "/usr/local/bin/fastareformat", "fastaremove": "/usr/local/bin/fastaremove", "fastarevcomp": "/usr/local/bin/fastarevcomp", "fastasoftmask": "/usr/local/bin/fastasoftmask", "fastasort": "/usr/local/bin/fastasort", "fastasubseq": "/usr/local/bin/fastasubseq", "fastatranslate": "/usr/local/bin/fastatranslate", "fastavalidcds": "/usr/local/bin/fastavalidcds", "fastf36": "/usr/local/bin/fastf36", "fastm36": "/usr/local/bin/fastm36", "fasts36": "/usr/local/bin/fasts36", "fastx36": "/usr/local/bin/fastx36", "fasty36": "/usr/local/bin/fasty36", "fathom": "/usr/local/bin/fathom", "ffindex_resume.pl": "/usr/local/bin/ffindex_resume.pl", "forge": "/usr/local/bin/forge", "funannotate": "/usr/local/bin/funannotate", "gene_list_to_gff.pl": "/usr/local/bin/gene_list_to_gff.pl", "get_FL_accs.pl": "/usr/local/bin/get_FL_accs.pl", "get_longest_ORF_per_transcript.pl": "/usr/local/bin/get_longest_ORF_per_transcript.pl", "get_top_longest_fasta_entries.pl": "/usr/local/bin/get_top_longest_fasta_entries.pl", "gff3_file_to_bed.pl": "/usr/local/bin/gff3_file_to_bed.pl", "gff3_file_to_proteins.pl": "/usr/local/bin/gff3_file_to_proteins.pl", "gff3_gene_to_gtf_format.pl": "/usr/local/bin/gff3_gene_to_gtf_format.pl", "ggsearch36": "/usr/local/bin/ggsearch36", "glsearch36": "/usr/local/bin/glsearch36", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "gss-server": "/usr/local/bin/gss-server", "gtf_genome_to_cdna_fasta.pl": "/usr/local/bin/gtf_genome_to_cdna_fasta.pl", "gtf_to_alignment_gff3.pl": "/usr/local/bin/gtf_to_alignment_gff3.pl", "gtf_to_bed.pl": "/usr/local/bin/gtf_to_bed.pl", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "hmm-assembler.pl": "/usr/local/bin/hmm-assembler.pl", "hmm-info": "/usr/local/bin/hmm-info", "ipcress": "/usr/local/bin/ipcress", "kadmin.local": "/usr/local/bin/kadmin.local", "kadmind": "/usr/local/bin/kadmind", "kdb5_util": "/usr/local/bin/kdb5_util", "kprop": "/usr/local/bin/kprop", "kpropd": "/usr/local/bin/kpropd", "kproplog": "/usr/local/bin/kproplog", "krb5-send-pr": "/usr/local/bin/krb5-send-pr", "krb5kdc": "/usr/local/bin/krb5kdc", "lalign36": "/usr/local/bin/lalign36", "lav2plt.pl": "/usr/local/bin/lav2plt.pl", "lavplt_ps.pl": "/usr/local/bin/lavplt_ps.pl", "lavplt_svg.pl": "/usr/local/bin/lavplt_svg.pl", "lighttpd": "/usr/local/bin/lighttpd", "lighttpd-angel": "/usr/local/bin/lighttpd-angel", "links2sql.pl": "/usr/local/bin/links2sql.pl", "m8_btop_msa.pl": "/usr/local/bin/m8_btop_msa.pl", "m9B_btop_msa.pl": "/usr/local/bin/m9B_btop_msa.pl", "map_db": "/usr/local/bin/map_db", "merge_blast_btab.pl": "/usr/local/bin/merge_blast_btab.pl", "noncoding-trainer.pl": "/usr/local/bin/noncoding-trainer.pl", "nr_ORFs_gff3.pl": "/usr/local/bin/nr_ORFs_gff3.pl", "parse_m9.pl": "/usr/local/bin/parse_m9.pl", "patch-hmm.pl": "/usr/local/bin/patch-hmm.pl", "pfam_runner.pl": "/usr/local/bin/pfam_runner.pl", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phyrex": "/usr/local/bin/phyrex", "phytime": "/usr/local/bin/phytime", "pluginviewer": "/usr/local/bin/pluginviewer", "prepDE.py": "/usr/local/bin/prepDE.py", "proteinortho": "/usr/local/bin/proteinortho", "proteinortho2html.pl": "/usr/local/bin/proteinortho2html.pl", "proteinortho2tree.pl": "/usr/local/bin/proteinortho2tree.pl", "proteinortho2xml.pl": "/usr/local/bin/proteinortho2xml.pl", "proteinortho6.pl": "/usr/local/bin/proteinortho6.pl", "proteinortho_cleanupblastgraph": "/usr/local/bin/proteinortho_cleanupblastgraph", "proteinortho_clustering": "/usr/local/bin/proteinortho_clustering", "proteinortho_compareProteinorthoGraphs.pl": "/usr/local/bin/proteinortho_compareProteinorthoGraphs.pl", "proteinortho_do_mcl.pl": "/usr/local/bin/proteinortho_do_mcl.pl", "proteinortho_extract_from_graph.pl": "/usr/local/bin/proteinortho_extract_from_graph.pl", "proteinortho_ffadj_mcs.py": "/usr/local/bin/proteinortho_ffadj_mcs.py", "proteinortho_formatUsearch.pl": "/usr/local/bin/proteinortho_formatUsearch.pl", "proteinortho_grab_proteins.pl": "/usr/local/bin/proteinortho_grab_proteins.pl", "proteinortho_graphMinusRemovegraph": "/usr/local/bin/proteinortho_graphMinusRemovegraph", "proteinortho_history.pl": "/usr/local/bin/proteinortho_history.pl", "proteinortho_singletons.pl": "/usr/local/bin/proteinortho_singletons.pl", "proteinortho_summary.pl": "/usr/local/bin/proteinortho_summary.pl", "proteinortho_treeBuilderCore": "/usr/local/bin/proteinortho_treeBuilderCore", "pslCDnaFilter": "/usr/local/bin/pslCDnaFilter", "ratewig.pl": "/usr/local/bin/ratewig.pl", "refine_gff3_group_iso_strip_utrs.pl": "/usr/local/bin/refine_gff3_group_iso_strip_utrs.pl", "refine_hexamer_scores.pl": "/usr/local/bin/refine_hexamer_scores.pl", "remove_eclipsed_ORFs.pl": "/usr/local/bin/remove_eclipsed_ORFs.pl", "res2R.pl": "/usr/local/bin/res2R.pl", "run_CQ-PM_mine.sh": "/usr/local/bin/run_CQ-PM_mine.sh", "run_CQ-PM_stranded.sh": "/usr/local/bin/run_CQ-PM_stranded.sh", "run_CQ-PM_unstranded.sh": "/usr/local/bin/run_CQ-PM_unstranded.sh", "saslauthd": "/usr/local/bin/saslauthd", "score_CDS_likelihood_all_6_frames.pl": "/usr/local/bin/score_CDS_likelihood_all_6_frames.pl", "select_best_ORFs_per_transcript.pl": "/usr/local/bin/select_best_ORFs_per_transcript.pl", "seq_n_baseprobs_to_loglikelihood_vals.pl": "/usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl", "shuffle_embed.pl": "/usr/local/bin/shuffle_embed.pl", "sift_bam_max_cov.pl": "/usr/local/bin/sift_bam_max_cov.pl", "sim_server": "/usr/local/bin/sim_server", "slclust": "/usr/local/bin/slclust", "snap": "/usr/local/bin/snap", "ssearch36": "/usr/local/bin/ssearch36", "sserver": "/usr/local/bin/sserver", "start_codon_refinement.pl": "/usr/local/bin/start_codon_refinement.pl", "stringtie": "/usr/local/bin/stringtie", "summ_domain_ident.pl": "/usr/local/bin/summ_domain_ident.pl", "tantan": "/usr/local/bin/tantan", "testsaslauthd": "/usr/local/bin/testsaslauthd", "tfastf36": "/usr/local/bin/tfastf36", "tfastm36": "/usr/local/bin/tfastm36", "tfasts36": "/usr/local/bin/tfasts36", "tfastx36": "/usr/local/bin/tfastx36", "tfasty36": "/usr/local/bin/tfasty36", "train_start_PWM.pl": "/usr/local/bin/train_start_PWM.pl", "uniqscan": "/usr/local/bin/uniqscan", "uniqscanl": "/usr/local/bin/uniqscanl", "uri_unescape.pl": "/usr/local/bin/uri_unescape.pl", "uuserver": "/usr/local/bin/uuserver", "zff2gff3.pl": "/usr/local/bin/zff2gff3.pl"}}
+config: {"url": "https://biocontainers.pro/tools/funannotate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for funannotate", "latest": {"1.8.9--pyhdfd78af_3": "sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a"}, "tags": {"1.8.9--pyhdfd78af_3": "sha256:7d5100997b58f0a94b48463a2a6bb77a00b7e8bee01517bea8977509b33fe13a"}, "docker": "quay.io/biocontainers/funannotate", "aliases": {"CodingQuarry": "/usr/local/bin/CodingQuarry", "CufflinksGTF_to_CodingQuarryGFF3.py": "/usr/local/bin/CufflinksGTF_to_CodingQuarryGFF3.py", "TransDecoder.LongOrfs": "/usr/local/bin/TransDecoder.LongOrfs", "TransDecoder.Predict": "/usr/local/bin/TransDecoder.Predict", "ann_exons_ens.pl": "/usr/local/bin/ann_exons_ens.pl", "ann_exons_ncbi.pl": "/usr/local/bin/ann_exons_ncbi.pl", "ann_exons_up_sql.pl": "/usr/local/bin/ann_exons_up_sql.pl", "ann_exons_up_www.pl": "/usr/local/bin/ann_exons_up_www.pl", "ann_feats2ipr.pl": "/usr/local/bin/ann_feats2ipr.pl", "ann_feats2ipr_e.pl": "/usr/local/bin/ann_feats2ipr_e.pl", "ann_feats_up_sql.pl": "/usr/local/bin/ann_feats_up_sql.pl", "ann_feats_up_www2.pl": "/usr/local/bin/ann_feats_up_www2.pl", "ann_ipr_www.pl": "/usr/local/bin/ann_ipr_www.pl", "ann_pdb_cath.pl": "/usr/local/bin/ann_pdb_cath.pl", "ann_pdb_vast.pl": "/usr/local/bin/ann_pdb_vast.pl", "ann_pfam27.pl": "/usr/local/bin/ann_pfam27.pl", "ann_pfam28.pl": "/usr/local/bin/ann_pfam28.pl", "ann_pfam30.pl": "/usr/local/bin/ann_pfam30.pl", "ann_pfam30_tmptbl.pl": "/usr/local/bin/ann_pfam30_tmptbl.pl", "ann_pfam_www.pl": "/usr/local/bin/ann_pfam_www.pl", "ann_upfeats_pfam_www_e.pl": "/usr/local/bin/ann_upfeats_pfam_www_e.pl", "annot_blast_btop2.pl": "/usr/local/bin/annot_blast_btop2.pl", "autoRun.pathInfo": "/usr/local/bin/autoRun.pathInfo", "cdna_alignment_orf_to_genome_orf.pl": "/usr/local/bin/cdna_alignment_orf_to_genome_orf.pl", "cds-trainer.pl": "/usr/local/bin/cds-trainer.pl", "color_defs.pl": "/usr/local/bin/color_defs.pl", "compute_base_probs.pl": "/usr/local/bin/compute_base_probs.pl", "distro": "/usr/local/bin/distro", "espoca": "/usr/local/bin/espoca", "evidence_modeler.pl": "/usr/local/bin/evidence_modeler.pl", "exclude_similar_proteins.pl": "/usr/local/bin/exclude_similar_proteins.pl", "exonpairs": "/usr/local/bin/exonpairs", "exp_up_ensg.pl": "/usr/local/bin/exp_up_ensg.pl", "expand_links.pl": "/usr/local/bin/expand_links.pl", "expand_uniref50.pl": "/usr/local/bin/expand_uniref50.pl", "extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "fasta": "/usr/local/bin/fasta", "fasta36": "/usr/local/bin/fasta36", "fasta_prot_checker.pl": "/usr/local/bin/fasta_prot_checker.pl", "fastf36": "/usr/local/bin/fastf36", "fastm36": "/usr/local/bin/fastm36", "fasts36": "/usr/local/bin/fasts36", "fastx36": "/usr/local/bin/fastx36", "fasty36": "/usr/local/bin/fasty36", "fathom": "/usr/local/bin/fathom", "ffindex_resume.pl": "/usr/local/bin/ffindex_resume.pl", "forge": "/usr/local/bin/forge", "funannotate": "/usr/local/bin/funannotate", "gene_list_to_gff.pl": "/usr/local/bin/gene_list_to_gff.pl", "get_FL_accs.pl": "/usr/local/bin/get_FL_accs.pl", "get_longest_ORF_per_transcript.pl": "/usr/local/bin/get_longest_ORF_per_transcript.pl", "get_top_longest_fasta_entries.pl": "/usr/local/bin/get_top_longest_fasta_entries.pl", "gff3_file_to_bed.pl": "/usr/local/bin/gff3_file_to_bed.pl", "gff3_file_to_proteins.pl": "/usr/local/bin/gff3_file_to_proteins.pl", "gff3_gene_to_gtf_format.pl": "/usr/local/bin/gff3_gene_to_gtf_format.pl", "ggsearch36": "/usr/local/bin/ggsearch36", "glsearch36": "/usr/local/bin/glsearch36", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "gss-server": "/usr/local/bin/gss-server", "gtf_genome_to_cdna_fasta.pl": "/usr/local/bin/gtf_genome_to_cdna_fasta.pl", "gtf_to_alignment_gff3.pl": "/usr/local/bin/gtf_to_alignment_gff3.pl", "gtf_to_bed.pl": "/usr/local/bin/gtf_to_bed.pl", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s", "hisat2_extract_exons.py": "/usr/local/bin/hisat2_extract_exons.py", "hisat2_extract_snps_haplotypes_UCSC.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_UCSC.py", "hisat2_extract_snps_haplotypes_VCF.py": "/usr/local/bin/hisat2_extract_snps_haplotypes_VCF.py", "hisat2_extract_splice_sites.py": "/usr/local/bin/hisat2_extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "hisat2_simulate_reads.py": "/usr/local/bin/hisat2_simulate_reads.py", "hmm-assembler.pl": "/usr/local/bin/hmm-assembler.pl", "hmm-info": "/usr/local/bin/hmm-info", "kadmin.local": "/usr/local/bin/kadmin.local", "kadmind": "/usr/local/bin/kadmind", "kdb5_util": "/usr/local/bin/kdb5_util", "kprop": "/usr/local/bin/kprop", "kpropd": "/usr/local/bin/kpropd", "kproplog": "/usr/local/bin/kproplog", "krb5-send-pr": "/usr/local/bin/krb5-send-pr", "krb5kdc": "/usr/local/bin/krb5kdc", "lalign36": "/usr/local/bin/lalign36", "lav2plt.pl": "/usr/local/bin/lav2plt.pl", "lavplt_ps.pl": "/usr/local/bin/lavplt_ps.pl", "lavplt_svg.pl": "/usr/local/bin/lavplt_svg.pl", "lighttpd": "/usr/local/bin/lighttpd", "lighttpd-angel": "/usr/local/bin/lighttpd-angel", "links2sql.pl": "/usr/local/bin/links2sql.pl", "m8_btop_msa.pl": "/usr/local/bin/m8_btop_msa.pl", "m9B_btop_msa.pl": "/usr/local/bin/m9B_btop_msa.pl", "map_db": "/usr/local/bin/map_db", "merge_blast_btab.pl": "/usr/local/bin/merge_blast_btab.pl", "noncoding-trainer.pl": "/usr/local/bin/noncoding-trainer.pl", "nr_ORFs_gff3.pl": "/usr/local/bin/nr_ORFs_gff3.pl", "parse_m9.pl": "/usr/local/bin/parse_m9.pl", "patch-hmm.pl": "/usr/local/bin/patch-hmm.pl", "pfam_runner.pl": "/usr/local/bin/pfam_runner.pl", "phyml": "/usr/local/bin/phyml", "phyml-mpi": "/usr/local/bin/phyml-mpi", "phyrex": "/usr/local/bin/phyrex", "phytime": "/usr/local/bin/phytime", "pluginviewer": "/usr/local/bin/pluginviewer", "prepDE.py": "/usr/local/bin/prepDE.py", "proteinortho": "/usr/local/bin/proteinortho", "proteinortho2html.pl": "/usr/local/bin/proteinortho2html.pl", "proteinortho2tree.pl": "/usr/local/bin/proteinortho2tree.pl", "proteinortho2xml.pl": "/usr/local/bin/proteinortho2xml.pl", "proteinortho6.pl": "/usr/local/bin/proteinortho6.pl", "proteinortho_cleanupblastgraph": "/usr/local/bin/proteinortho_cleanupblastgraph", "proteinortho_clustering": "/usr/local/bin/proteinortho_clustering", "proteinortho_compareProteinorthoGraphs.pl": "/usr/local/bin/proteinortho_compareProteinorthoGraphs.pl", "proteinortho_do_mcl.pl": "/usr/local/bin/proteinortho_do_mcl.pl", "proteinortho_extract_from_graph.pl": "/usr/local/bin/proteinortho_extract_from_graph.pl", "proteinortho_ffadj_mcs.py": "/usr/local/bin/proteinortho_ffadj_mcs.py", "proteinortho_formatUsearch.pl": "/usr/local/bin/proteinortho_formatUsearch.pl", "proteinortho_grab_proteins.pl": "/usr/local/bin/proteinortho_grab_proteins.pl", "proteinortho_graphMinusRemovegraph": "/usr/local/bin/proteinortho_graphMinusRemovegraph", "proteinortho_history.pl": "/usr/local/bin/proteinortho_history.pl", "proteinortho_singletons.pl": "/usr/local/bin/proteinortho_singletons.pl", "proteinortho_summary.pl": "/usr/local/bin/proteinortho_summary.pl", "proteinortho_treeBuilderCore": "/usr/local/bin/proteinortho_treeBuilderCore", "pslCDnaFilter": "/usr/local/bin/pslCDnaFilter", "ratewig.pl": "/usr/local/bin/ratewig.pl", "refine_gff3_group_iso_strip_utrs.pl": "/usr/local/bin/refine_gff3_group_iso_strip_utrs.pl", "refine_hexamer_scores.pl": "/usr/local/bin/refine_hexamer_scores.pl", "remove_eclipsed_ORFs.pl": "/usr/local/bin/remove_eclipsed_ORFs.pl", "res2R.pl": "/usr/local/bin/res2R.pl", "run_CQ-PM_mine.sh": "/usr/local/bin/run_CQ-PM_mine.sh", "run_CQ-PM_stranded.sh": "/usr/local/bin/run_CQ-PM_stranded.sh", "run_CQ-PM_unstranded.sh": "/usr/local/bin/run_CQ-PM_unstranded.sh", "saslauthd": "/usr/local/bin/saslauthd", "score_CDS_likelihood_all_6_frames.pl": "/usr/local/bin/score_CDS_likelihood_all_6_frames.pl", "select_best_ORFs_per_transcript.pl": "/usr/local/bin/select_best_ORFs_per_transcript.pl", "seq_n_baseprobs_to_loglikelihood_vals.pl": "/usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl", "shuffle_embed.pl": "/usr/local/bin/shuffle_embed.pl", "sift_bam_max_cov.pl": "/usr/local/bin/sift_bam_max_cov.pl", "sim_server": "/usr/local/bin/sim_server", "slclust": "/usr/local/bin/slclust", "snap": "/usr/local/bin/snap", "ssearch36": "/usr/local/bin/ssearch36", "sserver": "/usr/local/bin/sserver", "start_codon_refinement.pl": "/usr/local/bin/start_codon_refinement.pl", "stringtie": "/usr/local/bin/stringtie", "summ_domain_ident.pl": "/usr/local/bin/summ_domain_ident.pl", "tantan": "/usr/local/bin/tantan", "testsaslauthd": "/usr/local/bin/testsaslauthd", "tfastf36": "/usr/local/bin/tfastf36", "tfastm36": "/usr/local/bin/tfastm36", "tfasts36": "/usr/local/bin/tfasts36", "tfastx36": "/usr/local/bin/tfastx36", "tfasty36": "/usr/local/bin/tfasty36", "train_start_PWM.pl": "/usr/local/bin/train_start_PWM.pl", "uniqscan": "/usr/local/bin/uniqscan", "uniqscanl": "/usr/local/bin/uniqscanl", "uri_unescape.pl": "/usr/local/bin/uri_unescape.pl", "uuserver": "/usr/local/bin/uuserver", "zff2gff3.pl": "/usr/local/bin/zff2gff3.pl", "EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "PtR": "/usr/local/bin/PtR", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "Trinity": "/usr/local/bin/Trinity", "TrinityStats.pl": "/usr/local/bin/TrinityStats.pl", "Trinity_gene_splice_modeler.py": "/usr/local/bin/Trinity_gene_splice_modeler.py", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "abundance_estimates_to_matrix.pl": "/usr/local/bin/abundance_estimates_to_matrix.pl", "accn-at-a-time": "/usr/local/bin/accn-at-a-time"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/funannotate.
@@ -287,24 +270,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .funannotate-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.funannotate-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.funannotate-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.funannotate-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .pasa-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.pasa-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.pasa-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.pasa-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -560,15 +525,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/distro   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### esd2esi
-
-```bash
-$ singularity exec <container> /usr/local/bin/esd2esi
-$ podman run --it --rm --entrypoint /usr/local/bin/esd2esi   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/esd2esi   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### espoca
 
 ```bash
@@ -593,24 +549,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/evidence_modeler.pl   -v ${PW
 $ singularity exec <container> /usr/local/bin/exclude_similar_proteins.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/exclude_similar_proteins.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/exclude_similar_proteins.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### exonerate
-
-```bash
-$ singularity exec <container> /usr/local/bin/exonerate
-$ podman run --it --rm --entrypoint /usr/local/bin/exonerate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/exonerate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### exonerate-server
-
-```bash
-$ singularity exec <container> /usr/local/bin/exonerate-server
-$ podman run --it --rm --entrypoint /usr/local/bin/exonerate-server   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/exonerate-server   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -677,15 +615,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fasta   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### fasta2esd
-
-```bash
-$ singularity exec <container> /usr/local/bin/fasta2esd
-$ podman run --it --rm --entrypoint /usr/local/bin/fasta2esd   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fasta2esd   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### fasta36
 
 ```bash
@@ -701,186 +630,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fasta36   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/fasta_prot_checker.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/fasta_prot_checker.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fasta_prot_checker.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastaannotatecdna
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastaannotatecdna
-$ podman run --it --rm --entrypoint /usr/local/bin/fastaannotatecdna   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastaannotatecdna   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastachecksum
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastachecksum
-$ podman run --it --rm --entrypoint /usr/local/bin/fastachecksum   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastachecksum   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastaclip
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastaclip
-$ podman run --it --rm --entrypoint /usr/local/bin/fastaclip   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastaclip   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastacomposition
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastacomposition
-$ podman run --it --rm --entrypoint /usr/local/bin/fastacomposition   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastacomposition   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastadiff
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastadiff
-$ podman run --it --rm --entrypoint /usr/local/bin/fastadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastaexplode
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastaexplode
-$ podman run --it --rm --entrypoint /usr/local/bin/fastaexplode   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastaexplode   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastafetch
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastafetch
-$ podman run --it --rm --entrypoint /usr/local/bin/fastafetch   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastafetch   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastahardmask
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastahardmask
-$ podman run --it --rm --entrypoint /usr/local/bin/fastahardmask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastahardmask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastaindex
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastaindex
-$ podman run --it --rm --entrypoint /usr/local/bin/fastaindex   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastaindex   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastalength
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastalength
-$ podman run --it --rm --entrypoint /usr/local/bin/fastalength   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastalength   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastanrdb
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastanrdb
-$ podman run --it --rm --entrypoint /usr/local/bin/fastanrdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastanrdb   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastaoverlap
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastaoverlap
-$ podman run --it --rm --entrypoint /usr/local/bin/fastaoverlap   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastaoverlap   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastareformat
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastareformat
-$ podman run --it --rm --entrypoint /usr/local/bin/fastareformat   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastareformat   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastaremove
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastaremove
-$ podman run --it --rm --entrypoint /usr/local/bin/fastaremove   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastaremove   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastarevcomp
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastarevcomp
-$ podman run --it --rm --entrypoint /usr/local/bin/fastarevcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastarevcomp   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastasoftmask
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastasoftmask
-$ podman run --it --rm --entrypoint /usr/local/bin/fastasoftmask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastasoftmask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastasort
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastasort
-$ podman run --it --rm --entrypoint /usr/local/bin/fastasort   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastasort   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastasubseq
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastasubseq
-$ podman run --it --rm --entrypoint /usr/local/bin/fastasubseq   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastasubseq   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastatranslate
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastatranslate
-$ podman run --it --rm --entrypoint /usr/local/bin/fastatranslate   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastatranslate   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### fastavalidcds
-
-```bash
-$ singularity exec <container> /usr/local/bin/fastavalidcds
-$ podman run --it --rm --entrypoint /usr/local/bin/fastavalidcds   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/fastavalidcds   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1259,15 +1008,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hmm-assembler.pl   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/hmm-info
 $ podman run --it --rm --entrypoint /usr/local/bin/hmm-info   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hmm-info   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### ipcress
-
-```bash
-$ singularity exec <container> /usr/local/bin/ipcress
-$ podman run --it --rm --entrypoint /usr/local/bin/ipcress   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ipcress   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -2024,6 +1764,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/uuserver   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/zff2gff3.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/zff2gff3.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/zff2gff3.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EukHighConfidenceFilter
+
+```bash
+$ singularity exec <container> /usr/local/bin/EukHighConfidenceFilter
+$ podman run --it --rm --entrypoint /usr/local/bin/EukHighConfidenceFilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EukHighConfidenceFilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PtR
+
+```bash
+$ singularity exec <container> /usr/local/bin/PtR
+$ podman run --it --rm --entrypoint /usr/local/bin/PtR   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PtR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SOAPsh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SplicedAlignment.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/SplicedAlignment.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Trinity
+
+```bash
+$ singularity exec <container> /usr/local/bin/Trinity
+$ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### TrinityStats.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/TrinityStats.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/TrinityStats.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/TrinityStats.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Trinity_gene_splice_modeler.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/Trinity_gene_splice_modeler.py
+$ podman run --it --rm --entrypoint /usr/local/bin/Trinity_gene_splice_modeler.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Trinity_gene_splice_modeler.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aa2nonred.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/aa2nonred.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/aa2nonred.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aa2nonred.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abundance_estimates_to_matrix.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/abundance_estimates_to_matrix.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/abundance_estimates_to_matrix.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abundance_estimates_to_matrix.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/cwltest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cwltest/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cwltest/container.yaml"
-updated_at: "2022-10-27 00:27:36.564450"
+updated_at: "2022-10-29 05:42:22.799181"
 latest: "2.2.20220521103021--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cwltest"
 aliases:
  - "cwltest"
  - "mock-cwl-runner"
+ - "2to3-3.10"
+ - "black"
+ - "blackd"
+ - "csv2rdf"
+ - "doesitcache"
+ - "idle3.10"
+ - "normalizer"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
 versions:
  - "2.2.20220521103021--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cwltest"
-config: {"url": "https://biocontainers.pro/tools/cwltest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwltest", "latest": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "tags": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "docker": "quay.io/biocontainers/cwltest", "aliases": {"cwltest": "/usr/local/bin/cwltest", "mock-cwl-runner": "/usr/local/bin/mock-cwl-runner"}}
+config: {"url": "https://biocontainers.pro/tools/cwltest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cwltest", "latest": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "tags": {"2.2.20220521103021--pyhdfd78af_0": "sha256:3d4b506dfd348f63359e5e772f8e3aa5feb30c60c11b3fa4c5893e1055c01b0a"}, "docker": "quay.io/biocontainers/cwltest", "aliases": {"cwltest": "/usr/local/bin/cwltest", "mock-cwl-runner": "/usr/local/bin/mock-cwl-runner", "2to3-3.10": "/usr/local/bin/2to3-3.10", "black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "csv2rdf": "/usr/local/bin/csv2rdf", "doesitcache": "/usr/local/bin/doesitcache", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cwltest.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cwltest   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/mock-cwl-runner
 $ podman run --it --rm --entrypoint /usr/local/bin/mock-cwl-runner   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mock-cwl-runner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### black
+
+```bash
+$ singularity exec <container> /usr/local/bin/black
+$ podman run --it --rm --entrypoint /usr/local/bin/black   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/black   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blackd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blackd
+$ podman run --it --rm --entrypoint /usr/local/bin/blackd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blackd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csv2rdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/csv2rdf
+$ podman run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv2rdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### doesitcache
+
+```bash
+$ singularity exec <container> /usr/local/bin/doesitcache
+$ podman run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

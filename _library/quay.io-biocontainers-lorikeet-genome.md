@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lorikeet-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lorikeet-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lorikeet-genome/container.yaml"
-updated_at: "2022-10-27 00:31:02.376260"
+updated_at: "2022-10-29 05:46:53.395256"
 latest: "0.7.3--h28a2364_1"
 container_url: "https://biocontainers.pro/tools/lorikeet-genome"
 aliases:
@@ -18,10 +18,20 @@ aliases:
  - "lorikeet"
  - "ngmlr"
  - "svim"
+ - "2to3-3.10"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bokeh"
+ - "bowtie2sam.pl"
+ - "brotli"
+ - "bwa"
+ - "color-chrs.pl"
 versions:
  - "0.7.3--h28a2364_1"
 description: "shpc-registry automated BioContainers addition for lorikeet-genome"
-config: {"url": "https://biocontainers.pro/tools/lorikeet-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lorikeet-genome", "latest": {"0.7.3--h28a2364_1": "sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841"}, "tags": {"0.7.3--h28a2364_1": "sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841"}, "docker": "quay.io/biocontainers/lorikeet-genome", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "dashing": "/usr/local/bin/dashing", "lorikeet": "/usr/local/bin/lorikeet", "ngmlr": "/usr/local/bin/ngmlr", "svim": "/usr/local/bin/svim"}}
+config: {"url": "https://biocontainers.pro/tools/lorikeet-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lorikeet-genome", "latest": {"0.7.3--h28a2364_1": "sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841"}, "tags": {"0.7.3--h28a2364_1": "sha256:478bdf1f330e1e1155e6a757fcc7a6efef55e2d192b0214c41f397194b638841"}, "docker": "quay.io/biocontainers/lorikeet-genome", "aliases": {"bwa-mem2": "/usr/local/bin/bwa-mem2", "bwa-mem2.avx": "/usr/local/bin/bwa-mem2.avx", "bwa-mem2.avx2": "/usr/local/bin/bwa-mem2.avx2", "bwa-mem2.avx512bw": "/usr/local/bin/bwa-mem2.avx512bw", "bwa-mem2.sse41": "/usr/local/bin/bwa-mem2.sse41", "bwa-mem2.sse42": "/usr/local/bin/bwa-mem2.sse42", "dashing": "/usr/local/bin/dashing", "lorikeet": "/usr/local/bin/lorikeet", "ngmlr": "/usr/local/bin/ngmlr", "svim": "/usr/local/bin/svim", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bokeh": "/usr/local/bin/bokeh", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "brotli": "/usr/local/bin/brotli", "bwa": "/usr/local/bin/bwa", "color-chrs.pl": "/usr/local/bin/color-chrs.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lorikeet-genome.
@@ -194,6 +204,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ngmlr   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/svim
 $ podman run --it --rm --entrypoint /usr/local/bin/svim   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/svim   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bokeh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bokeh
+$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bwa
+
+```bash
+$ singularity exec <container> /usr/local/bin/bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/epytope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epytope/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/epytope/container.yaml"
-updated_at: "2022-10-27 00:26:16.325662"
+updated_at: "2022-10-29 05:40:35.543358"
 latest: "3.1.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/epytope"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "mhcflurry-downloads"
  - "mhcflurry-predict"
  - "pyomo"
+ - "2to3-3.7"
+ - "f2py3.7"
+ - "freeze_graph"
+ - "futurize"
+ - "gif2h5"
+ - "grpc_cpp_plugin"
+ - "grpc_csharp_plugin"
+ - "grpc_node_plugin"
+ - "grpc_objective_c_plugin"
+ - "grpc_php_plugin"
 versions:
  - "3.1.0--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for epytope"
-config: {"url": "https://biocontainers.pro/tools/epytope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epytope", "latest": {"3.1.0--pyh5e36f6f_0": "sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9"}, "tags": {"3.1.0--pyh5e36f6f_0": "sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9"}, "docker": "quay.io/biocontainers/epytope", "aliases": {"_mhcflurry-cluster-worker-entry-point": "/usr/local/bin/_mhcflurry-cluster-worker-entry-point", "mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "pyomo": "/usr/local/bin/pyomo"}}
+config: {"url": "https://biocontainers.pro/tools/epytope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epytope", "latest": {"3.1.0--pyh5e36f6f_0": "sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9"}, "tags": {"3.1.0--pyh5e36f6f_0": "sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9"}, "docker": "quay.io/biocontainers/epytope", "aliases": {"_mhcflurry-cluster-worker-entry-point": "/usr/local/bin/_mhcflurry-cluster-worker-entry-point", "mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "pyomo": "/usr/local/bin/pyomo", "2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "freeze_graph": "/usr/local/bin/freeze_graph", "futurize": "/usr/local/bin/futurize", "gif2h5": "/usr/local/bin/gif2h5", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epytope.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mhcflurry-predict   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pyomo
 $ podman run --it --rm --entrypoint /usr/local/bin/pyomo   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyomo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### freeze_graph
+
+```bash
+$ singularity exec <container> /usr/local/bin/freeze_graph
+$ podman run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/freeze_graph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_cpp_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_cpp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_csharp_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_csharp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_node_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_node_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_objective_c_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_objective_c_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_php_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_php_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_php_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_php_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

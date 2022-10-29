@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-santa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-santa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-santa/container.yaml"
-updated_at: "2022-10-27 00:22:11.814493"
+updated_at: "2022-10-29 05:35:09.878602"
 latest: "2.30.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-santa"
-
+aliases:
+ - "glpsol"
 versions:
  - "2.30.0--r41hc0cfd56_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-santa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-santa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-santa", "latest": {"2.30.0--r41hc0cfd56_2": "sha256:c1446254ca0e49aa8bc386edfe9fcf1964aa736f5814860331d17e9347ebdd1a"}, "tags": {"2.30.0--r41hc0cfd56_2": "sha256:c1446254ca0e49aa8bc386edfe9fcf1964aa736f5814860331d17e9347ebdd1a"}, "docker": "quay.io/biocontainers/bioconductor-santa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-santa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-santa", "latest": {"2.30.0--r41hc0cfd56_2": "sha256:c1446254ca0e49aa8bc386edfe9fcf1964aa736f5814860331d17e9347ebdd1a"}, "tags": {"2.30.0--r41hc0cfd56_2": "sha256:c1446254ca0e49aa8bc386edfe9fcf1964aa736f5814860331d17e9347ebdd1a"}, "docker": "quay.io/biocontainers/bioconductor-santa", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-santa.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-santa
+#### glpsol
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

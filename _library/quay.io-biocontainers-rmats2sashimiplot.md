@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/rmats2sashimiplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rmats2sashimiplot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rmats2sashimiplot/container.yaml"
-updated_at: "2022-10-27 00:23:34.153900"
+updated_at: "2022-10-29 05:37:01.431368"
 latest: "2.0.4--py27h21c881e_2"
 container_url: "https://biocontainers.pro/tools/rmats2sashimiplot"
 aliases:
  - "index_gff"
  - "rmats2sashimiplot"
  - "sashimi_plot"
+ - "ace2sam"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
+ - "bgzip"
 versions:
  - "2.0.4--py27h21c881e_2"
 description: "shpc-registry automated BioContainers addition for rmats2sashimiplot"
-config: {"url": "https://biocontainers.pro/tools/rmats2sashimiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmats2sashimiplot", "latest": {"2.0.4--py27h21c881e_2": "sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5"}, "tags": {"2.0.4--py27h21c881e_2": "sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5"}, "docker": "quay.io/biocontainers/rmats2sashimiplot", "aliases": {"index_gff": "/usr/local/bin/index_gff", "rmats2sashimiplot": "/usr/local/bin/rmats2sashimiplot", "sashimi_plot": "/usr/local/bin/sashimi_plot"}}
+config: {"url": "https://biocontainers.pro/tools/rmats2sashimiplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rmats2sashimiplot", "latest": {"2.0.4--py27h21c881e_2": "sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5"}, "tags": {"2.0.4--py27h21c881e_2": "sha256:f9847503f54c249ec84ff20cd23184f93da09be654c6745d951860b3485b31c5"}, "docker": "quay.io/biocontainers/rmats2sashimiplot", "aliases": {"index_gff": "/usr/local/bin/index_gff", "rmats2sashimiplot": "/usr/local/bin/rmats2sashimiplot", "sashimi_plot": "/usr/local/bin/sashimi_plot", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "bgzip": "/usr/local/bin/bgzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rmats2sashimiplot.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rmats2sashimiplot   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/sashimi_plot
 $ podman run --it --rm --entrypoint /usr/local/bin/sashimi_plot   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sashimi_plot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

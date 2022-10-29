@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cmseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cmseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cmseq/container.yaml"
-updated_at: "2022-10-27 00:18:58.819791"
+updated_at: "2022-10-29 05:30:56.793273"
 latest: "1.0.4--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/cmseq"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "consensus_aDNA.py"
  - "poly.py"
  - "polymut.py"
+ - "2to3-3.9"
+ - "ace2sam"
+ - "aggregate_scores_in_intervals.py"
+ - "align_print_template.py"
+ - "axt_extract_ranges.py"
+ - "axt_to_fasta.py"
+ - "axt_to_lav.py"
+ - "axt_to_maf.py"
+ - "bed_bigwig_profile.py"
+ - "bed_build_windows.py"
 versions:
  - "1.0.4--pyhb7b1952_0"
 description: "shpc-registry automated BioContainers addition for cmseq"
-config: {"url": "https://biocontainers.pro/tools/cmseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmseq", "latest": {"1.0.4--pyhb7b1952_0": "sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16"}, "tags": {"1.0.4--pyhb7b1952_0": "sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16"}, "docker": "quay.io/biocontainers/cmseq", "aliases": {"breadth_depth.py": "/usr/local/bin/breadth_depth.py", "consensus.py": "/usr/local/bin/consensus.py", "consensus_aDNA.py": "/usr/local/bin/consensus_aDNA.py", "poly.py": "/usr/local/bin/poly.py", "polymut.py": "/usr/local/bin/polymut.py"}}
+config: {"url": "https://biocontainers.pro/tools/cmseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cmseq", "latest": {"1.0.4--pyhb7b1952_0": "sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16"}, "tags": {"1.0.4--pyhb7b1952_0": "sha256:20eb390d29d4c30a9468d0d397e78d5774a4486be297f9287496481d83e98e16"}, "docker": "quay.io/biocontainers/cmseq", "aliases": {"breadth_depth.py": "/usr/local/bin/breadth_depth.py", "consensus.py": "/usr/local/bin/consensus.py", "consensus_aDNA.py": "/usr/local/bin/consensus_aDNA.py", "poly.py": "/usr/local/bin/poly.py", "polymut.py": "/usr/local/bin/polymut.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cmseq.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/poly.py   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/polymut.py
 $ podman run --it --rm --entrypoint /usr/local/bin/polymut.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/polymut.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_scores_in_intervals.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_scores_in_intervals.py
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align_print_template.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/align_print_template.py
+$ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_extract_ranges.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_extract_ranges.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_fasta.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_fasta.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_lav.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_lav.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_maf.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_maf.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_bigwig_profile.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_bigwig_profile.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_build_windows.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_build_windows.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

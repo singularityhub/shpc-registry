@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/poa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/poa/container.yaml"
-updated_at: "2022-10-27 00:24:33.925451"
+updated_at: "2022-10-29 05:38:18.164040"
 latest: "2.0--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/poa"
 aliases:
  - "make_pscores.pl"
  - "poa"
+ - "bl2seq"
+ - "blastall"
+ - "blastclust"
+ - "blastpgp"
+ - "copymat"
+ - "fastacmd"
+ - "formatdb"
+ - "formatrpsdb"
+ - "impala"
+ - "makemat"
 versions:
  - "2.0--hec16e2b_4"
 description: "shpc-registry automated BioContainers addition for poa"
-config: {"url": "https://biocontainers.pro/tools/poa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poa", "latest": {"2.0--hec16e2b_4": "sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f"}, "tags": {"2.0--hec16e2b_4": "sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f"}, "docker": "quay.io/biocontainers/poa", "aliases": {"make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa"}}
+config: {"url": "https://biocontainers.pro/tools/poa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for poa", "latest": {"2.0--hec16e2b_4": "sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f"}, "tags": {"2.0--hec16e2b_4": "sha256:2311720a9b49e750d7bb220659e5850edb5f1fb06b56a5375b0ecb477368e01f"}, "docker": "quay.io/biocontainers/poa", "aliases": {"make_pscores.pl": "/usr/local/bin/make_pscores.pl", "poa": "/usr/local/bin/poa", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/poa.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/make_pscores.pl   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/poa
 $ podman run --it --rm --entrypoint /usr/local/bin/poa   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/poa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bl2seq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bl2seq
+$ podman run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastall
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastall
+$ podman run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastclust
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastclust
+$ podman run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastpgp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastpgp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### copymat
+
+```bash
+$ singularity exec <container> /usr/local/bin/copymat
+$ podman run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastacmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastacmd
+$ podman run --it --rm --entrypoint /usr/local/bin/fastacmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastacmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### formatdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/formatdb
+$ podman run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### formatrpsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/formatrpsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/formatrpsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/formatrpsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### impala
+
+```bash
+$ singularity exec <container> /usr/local/bin/impala
+$ podman run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/impala   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### makemat
+
+```bash
+$ singularity exec <container> /usr/local/bin/makemat
+$ podman run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/makemat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

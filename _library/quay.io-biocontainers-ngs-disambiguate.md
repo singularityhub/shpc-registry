@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/ngs-disambiguate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngs-disambiguate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ngs-disambiguate/container.yaml"
-updated_at: "2022-10-27 00:27:26.820864"
+updated_at: "2022-10-29 05:42:10.535674"
 latest: "2018.05.03--ha7703dc_6"
 container_url: "https://biocontainers.pro/tools/ngs-disambiguate"
 aliases:
  - "ngs_disambiguate"
+ - "bamtools"
 versions:
  - "2018.05.03--ha7703dc_6"
 description: "shpc-registry automated BioContainers addition for ngs-disambiguate"
-config: {"url": "https://biocontainers.pro/tools/ngs-disambiguate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-disambiguate", "latest": {"2018.05.03--ha7703dc_6": "sha256:8695e9f3bb10a56736234c0ec3c83da6249575cdbdbbe1160857c212c27ab657"}, "tags": {"2018.05.03--ha7703dc_6": "sha256:8695e9f3bb10a56736234c0ec3c83da6249575cdbdbbe1160857c212c27ab657"}, "docker": "quay.io/biocontainers/ngs-disambiguate", "aliases": {"ngs_disambiguate": "/usr/local/bin/ngs_disambiguate"}}
+config: {"url": "https://biocontainers.pro/tools/ngs-disambiguate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngs-disambiguate", "latest": {"2018.05.03--ha7703dc_6": "sha256:8695e9f3bb10a56736234c0ec3c83da6249575cdbdbbe1160857c212c27ab657"}, "tags": {"2018.05.03--ha7703dc_6": "sha256:8695e9f3bb10a56736234c0ec3c83da6249575cdbdbbe1160857c212c27ab657"}, "docker": "quay.io/biocontainers/ngs-disambiguate", "aliases": {"ngs_disambiguate": "/usr/local/bin/ngs_disambiguate", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngs-disambiguate.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ngs_disambiguate
 $ podman run --it --rm --entrypoint /usr/local/bin/ngs_disambiguate   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ngs_disambiguate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

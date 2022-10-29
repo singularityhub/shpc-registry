@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/wg-blimp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wg-blimp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wg-blimp/container.yaml"
-updated_at: "2022-10-27 00:34:05.981103"
+updated_at: "2022-10-29 05:50:56.939822"
 latest: "0.9.9--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/wg-blimp"
 aliases:
  - "wg-blimp"
+ - "2to3-3.9"
+ - "cbc"
+ - "chardetect"
+ - "clp"
+ - "f2py3.9"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
 versions:
  - "0.9.9--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for wg-blimp"
-config: {"url": "https://biocontainers.pro/tools/wg-blimp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wg-blimp", "latest": {"0.9.9--pyh5e36f6f_0": "sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475"}, "tags": {"0.9.9--pyh5e36f6f_0": "sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475"}, "docker": "quay.io/biocontainers/wg-blimp", "aliases": {"wg-blimp": "/usr/local/bin/wg-blimp"}}
+config: {"url": "https://biocontainers.pro/tools/wg-blimp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wg-blimp", "latest": {"0.9.9--pyh5e36f6f_0": "sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475"}, "tags": {"0.9.9--pyh5e36f6f_0": "sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475"}, "docker": "quay.io/biocontainers/wg-blimp", "aliases": {"wg-blimp": "/usr/local/bin/wg-blimp", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cbc": "/usr/local/bin/cbc", "chardetect": "/usr/local/bin/chardetect", "clp": "/usr/local/bin/clp", "f2py3.9": "/usr/local/bin/f2py3.9", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wg-blimp.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/wg-blimp
 $ podman run --it --rm --entrypoint /usr/local/bin/wg-blimp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wg-blimp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cbc
+
+```bash
+$ singularity exec <container> /usr/local/bin/cbc
+$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clp
+
+```bash
+$ singularity exec <container> /usr/local/bin/clp
+$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

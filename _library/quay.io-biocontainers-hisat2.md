@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/hisat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hisat2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hisat2/container.yaml"
-updated_at: "2022-10-27 00:20:51.392017"
+updated_at: "2022-10-29 05:33:23.816070"
 latest: "2.2.1--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/hisat2"
 aliases:
  - "extract_exons.py"
  - "extract_splice_sites.py"
  - "hisat2_read_statistics.py"
+ - "2to3-3.10"
+ - "hisat2"
+ - "hisat2-align-l"
+ - "hisat2-align-s"
+ - "hisat2-build"
+ - "hisat2-build-l"
+ - "hisat2-build-s"
+ - "hisat2-inspect"
+ - "hisat2-inspect-l"
+ - "hisat2-inspect-s"
 versions:
  - "2.2.1--h87f3376_4"
 description: "shpc-registry automated BioContainers addition for hisat2"
-config: {"url": "https://biocontainers.pro/tools/hisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hisat2", "latest": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "tags": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "docker": "quay.io/biocontainers/hisat2", "aliases": {"extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py"}}
+config: {"url": "https://biocontainers.pro/tools/hisat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hisat2", "latest": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "tags": {"2.2.1--h87f3376_4": "sha256:21be9c91bf66404e677bc2c70e986e39ce9a40e7950d5034e3561bb992e82ec6"}, "docker": "quay.io/biocontainers/hisat2", "aliases": {"extract_exons.py": "/usr/local/bin/extract_exons.py", "extract_splice_sites.py": "/usr/local/bin/extract_splice_sites.py", "hisat2_read_statistics.py": "/usr/local/bin/hisat2_read_statistics.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "hisat2": "/usr/local/bin/hisat2", "hisat2-align-l": "/usr/local/bin/hisat2-align-l", "hisat2-align-s": "/usr/local/bin/hisat2-align-s", "hisat2-build": "/usr/local/bin/hisat2-build", "hisat2-build-l": "/usr/local/bin/hisat2-build-l", "hisat2-build-s": "/usr/local/bin/hisat2-build-s", "hisat2-inspect": "/usr/local/bin/hisat2-inspect", "hisat2-inspect-l": "/usr/local/bin/hisat2-inspect-l", "hisat2-inspect-s": "/usr/local/bin/hisat2-inspect-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hisat2.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/extract_splice_sites.py   -v 
 $ singularity exec <container> /usr/local/bin/hisat2_read_statistics.py
 $ podman run --it --rm --entrypoint /usr/local/bin/hisat2_read_statistics.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hisat2_read_statistics.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-build
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-build-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-build-l
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-build-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-build-s
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-inspect
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-inspect-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-inspect-l
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hisat2-inspect-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/hisat2-inspect-s
+$ podman run --it --rm --entrypoint /usr/local/bin/hisat2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hisat2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

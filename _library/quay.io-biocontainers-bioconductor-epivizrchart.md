@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-epivizrchart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epivizrchart/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epivizrchart/container.yaml"
-updated_at: "2022-10-27 00:22:30.615192"
+updated_at: "2022-10-29 05:35:35.555593"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-epivizrchart"
-
+aliases:
+ - "c89"
+ - "c99"
+ - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-epivizrchart"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrchart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrchart", "latest": {"1.8.0--r36_0": "sha256:357732096555a243a49939dc698d49af92476564970fc6fd62f4b617a2f14465"}, "tags": {"1.8.0--r36_0": "sha256:357732096555a243a49939dc698d49af92476564970fc6fd62f4b617a2f14465"}, "docker": "quay.io/biocontainers/bioconductor-epivizrchart"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epivizrchart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epivizrchart", "latest": {"1.8.0--r36_0": "sha256:357732096555a243a49939dc698d49af92476564970fc6fd62f4b617a2f14465"}, "tags": {"1.8.0--r36_0": "sha256:357732096555a243a49939dc698d49af92476564970fc6fd62f4b617a2f14465"}, "docker": "quay.io/biocontainers/bioconductor-epivizrchart", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epivizrchart.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-epivizrchart
+#### c89
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

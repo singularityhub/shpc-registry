@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/emboss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emboss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/emboss/container.yaml"
-updated_at: "2022-10-27 00:38:28.212945"
+updated_at: "2022-10-29 05:56:45.103207"
 latest: "6.6.0--haa49230_5"
 container_url: "https://biocontainers.pro/tools/emboss"
-
+aliases:
+ - "2to3-3.7"
+ - "_aaindexextract"
+ - "_abiview"
+ - "_acdc"
+ - "_acdpretty"
+ - "_acdtable"
+ - "_acdtrace"
+ - "_acdvalid"
+ - "_antigenic"
+ - "_backtranambig"
 versions:
  - "6.6.0--haa49230_5"
 description: "shpc-registry automated BioContainers addition for emboss"
-config: {"url": "https://biocontainers.pro/tools/emboss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emboss", "latest": {"6.6.0--haa49230_5": "sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab"}, "tags": {"6.6.0--haa49230_5": "sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab"}, "docker": "quay.io/biocontainers/emboss"}
+config: {"url": "https://biocontainers.pro/tools/emboss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emboss", "latest": {"6.6.0--haa49230_5": "sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab"}, "tags": {"6.6.0--haa49230_5": "sha256:51a26af4f2349bcb017855d7e797bcdb787e9177b3067ff439ccdeac550991ab"}, "docker": "quay.io/biocontainers/emboss", "aliases": {"2to3-3.7": "/usr/local/bin/2to3-3.7", "_aaindexextract": "/usr/local/bin/_aaindexextract", "_abiview": "/usr/local/bin/_abiview", "_acdc": "/usr/local/bin/_acdc", "_acdpretty": "/usr/local/bin/_acdpretty", "_acdtable": "/usr/local/bin/_acdtable", "_acdtrace": "/usr/local/bin/_acdtrace", "_acdvalid": "/usr/local/bin/_acdvalid", "_antigenic": "/usr/local/bin/_antigenic", "_backtranambig": "/usr/local/bin/_backtranambig"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emboss.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### emboss
+#### 2to3-3.7
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### _aaindexextract
+
+```bash
+$ singularity exec <container> /usr/local/bin/_aaindexextract
+$ podman run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _abiview
+
+```bash
+$ singularity exec <container> /usr/local/bin/_abiview
+$ podman run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdc
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdc
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdpretty
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdpretty
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtable
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtable
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtrace
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtrace
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdvalid
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdvalid
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _antigenic
+
+```bash
+$ singularity exec <container> /usr/local/bin/_antigenic
+$ podman run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _backtranambig
+
+```bash
+$ singularity exec <container> /usr/local/bin/_backtranambig
+$ podman run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

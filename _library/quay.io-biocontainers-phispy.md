@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phispy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phispy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phispy/container.yaml"
-updated_at: "2022-10-27 00:25:44.041128"
+updated_at: "2022-10-29 05:39:52.473984"
 latest: "4.2.6--py36hae55d0a_1"
 container_url: "https://biocontainers.pro/tools/phispy"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "make_training_sets.py"
  - "mark_prophage_features.py"
  - "plot_stats.py"
+ - "2to3-3.6"
+ - "f2py3.6"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv"
+ - "pyvenv-3.6"
 versions:
  - "4.2.6--py36hae55d0a_1"
 description: "shpc-registry automated BioContainers addition for phispy"
-config: {"url": "https://biocontainers.pro/tools/phispy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phispy", "latest": {"4.2.6--py36hae55d0a_1": "sha256:998468b17ab66ce4a3d725ebe5620b2e813c549376069bd7aa7a6e626f225b7a"}, "tags": {"4.2.6--py36hae55d0a_1": "sha256:998468b17ab66ce4a3d725ebe5620b2e813c549376069bd7aa7a6e626f225b7a"}, "docker": "quay.io/biocontainers/phispy", "aliases": {"PhiSpy.py": "/usr/local/bin/PhiSpy.py", "compare_predictions_to_phages.py": "/usr/local/bin/compare_predictions_to_phages.py", "make_training_sets.py": "/usr/local/bin/make_training_sets.py", "mark_prophage_features.py": "/usr/local/bin/mark_prophage_features.py", "plot_stats.py": "/usr/local/bin/plot_stats.py"}}
+config: {"url": "https://biocontainers.pro/tools/phispy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phispy", "latest": {"4.2.6--py36hae55d0a_1": "sha256:998468b17ab66ce4a3d725ebe5620b2e813c549376069bd7aa7a6e626f225b7a"}, "tags": {"4.2.6--py36hae55d0a_1": "sha256:998468b17ab66ce4a3d725ebe5620b2e813c549376069bd7aa7a6e626f225b7a"}, "docker": "quay.io/biocontainers/phispy", "aliases": {"PhiSpy.py": "/usr/local/bin/PhiSpy.py", "compare_predictions_to_phages.py": "/usr/local/bin/compare_predictions_to_phages.py", "make_training_sets.py": "/usr/local/bin/make_training_sets.py", "mark_prophage_features.py": "/usr/local/bin/mark_prophage_features.py", "plot_stats.py": "/usr/local/bin/plot_stats.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "f2py3.6": "/usr/local/bin/f2py3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv": "/usr/local/bin/pyvenv", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phispy.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mark_prophage_features.py   -
 $ singularity exec <container> /usr/local/bin/plot_stats.py
 $ podman run --it --rm --entrypoint /usr/local/bin/plot_stats.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/plot_stats.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

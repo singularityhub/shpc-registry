@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/gawk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gawk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gawk/container.yaml"
-updated_at: "2022-10-27 00:21:35.384910"
+updated_at: "2022-10-29 05:34:21.092979"
 latest: "5.1.0"
 container_url: "https://biocontainers.pro/tools/gawk"
-
+aliases:
+ - "awk"
+ - "gawk"
+ - "gawk-5.1.0"
 versions:
  - "5.1.0"
 description: "shpc-registry automated BioContainers addition for gawk"
-config: {"url": "https://biocontainers.pro/tools/gawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gawk", "latest": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa"}, "tags": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa"}, "docker": "quay.io/biocontainers/gawk"}
+config: {"url": "https://biocontainers.pro/tools/gawk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gawk", "latest": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa"}, "tags": {"5.1.0": "sha256:9d300f3d0a35fb059e3952ce01b3b108d595d0a9e943f156dce7c078bb8617aa"}, "docker": "quay.io/biocontainers/gawk", "aliases": {"awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gawk.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
+#### awk
+
+```bash
+$ singularity exec <container> /usr/local/bin/awk
+$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 #### gawk
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gawk
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gawk-5.1.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

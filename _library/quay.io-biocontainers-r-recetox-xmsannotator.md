@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/r-recetox-xmsannotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-xmsannotator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-xmsannotator/container.yaml"
-updated_at: "2022-10-27 00:28:59.487374"
+updated_at: "2022-10-29 05:44:10.314969"
 latest: "0.9.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-recetox-xmsannotator"
-
+aliases:
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "gflags_completions.sh"
+ - "grpc_cpp_plugin"
+ - "grpc_csharp_plugin"
+ - "grpc_node_plugin"
+ - "grpc_objective_c_plugin"
+ - "grpc_php_plugin"
+ - "grpc_python_plugin"
+ - "grpc_ruby_plugin"
 versions:
  - "0.9.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-recetox-xmsannotator"
-config: {"url": "https://biocontainers.pro/tools/r-recetox-xmsannotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-xmsannotator", "latest": {"0.9.0--r41hdfd78af_0": "sha256:65a53a748432c9cd7e5b0874b02c20727749b89a49e3b0e5975ecba9aaa443c7"}, "tags": {"0.9.0--r41hdfd78af_0": "sha256:65a53a748432c9cd7e5b0874b02c20727749b89a49e3b0e5975ecba9aaa443c7"}, "docker": "quay.io/biocontainers/r-recetox-xmsannotator"}
+config: {"url": "https://biocontainers.pro/tools/r-recetox-xmsannotator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-xmsannotator", "latest": {"0.9.0--r41hdfd78af_0": "sha256:65a53a748432c9cd7e5b0874b02c20727749b89a49e3b0e5975ecba9aaa443c7"}, "tags": {"0.9.0--r41hdfd78af_0": "sha256:65a53a748432c9cd7e5b0874b02c20727749b89a49e3b0e5975ecba9aaa443c7"}, "docker": "quay.io/biocontainers/r-recetox-xmsannotator", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin", "grpc_ruby_plugin": "/usr/local/bin/grpc_ruby_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-recetox-xmsannotator.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-recetox-xmsannotator
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gflags_completions.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/gflags_completions.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_cpp_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_cpp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_csharp_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_csharp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_node_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_node_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_objective_c_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_objective_c_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_php_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_php_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_php_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_php_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_python_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_python_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_python_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_python_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_ruby_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_ruby_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_ruby_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_ruby_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/pal2nal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pal2nal/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pal2nal/container.yaml"
-updated_at: "2022-10-27 00:18:26.958992"
+updated_at: "2022-10-29 05:30:14.374330"
 latest: "14.1--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/pal2nal"
 aliases:
  - "pal2nal.pl"
+ - "perl5.32.1"
 versions:
  - "14.1--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for pal2nal"
-config: {"url": "https://biocontainers.pro/tools/pal2nal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pal2nal", "latest": {"14.1--pl5321hdfd78af_3": "sha256:b2a177b8ebbb1162e294782fad23634fa71b3bf6793f374aa83228e4ef640209"}, "tags": {"14.1--pl5321hdfd78af_3": "sha256:b2a177b8ebbb1162e294782fad23634fa71b3bf6793f374aa83228e4ef640209"}, "docker": "quay.io/biocontainers/pal2nal", "aliases": {"pal2nal.pl": "/usr/local/bin/pal2nal.pl"}}
+config: {"url": "https://biocontainers.pro/tools/pal2nal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pal2nal", "latest": {"14.1--pl5321hdfd78af_3": "sha256:b2a177b8ebbb1162e294782fad23634fa71b3bf6793f374aa83228e4ef640209"}, "tags": {"14.1--pl5321hdfd78af_3": "sha256:b2a177b8ebbb1162e294782fad23634fa71b3bf6793f374aa83228e4ef640209"}, "docker": "quay.io/biocontainers/pal2nal", "aliases": {"pal2nal.pl": "/usr/local/bin/pal2nal.pl", "perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pal2nal.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/pal2nal.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/pal2nal.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pal2nal.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

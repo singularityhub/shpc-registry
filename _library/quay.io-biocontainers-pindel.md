@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pindel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pindel/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pindel/container.yaml"
-updated_at: "2022-10-27 00:37:22.771733"
+updated_at: "2022-10-29 05:55:20.617677"
 latest: "0.2.5b9--h28e74a2_8"
 container_url: "https://biocontainers.pro/tools/pindel"
 aliases:
@@ -12,10 +12,13 @@ aliases:
  - "pindel2vcf"
  - "pindel2vcf4tcga"
  - "sam2pindel"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "0.2.5b9--h28e74a2_8"
 description: "shpc-registry automated BioContainers addition for pindel"
-config: {"url": "https://biocontainers.pro/tools/pindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pindel", "latest": {"0.2.5b9--h28e74a2_8": "sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef"}, "tags": {"0.2.5b9--h28e74a2_8": "sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef"}, "docker": "quay.io/biocontainers/pindel", "aliases": {"pindel": "/usr/local/bin/pindel", "pindel2vcf": "/usr/local/bin/pindel2vcf", "pindel2vcf4tcga": "/usr/local/bin/pindel2vcf4tcga", "sam2pindel": "/usr/local/bin/sam2pindel"}}
+config: {"url": "https://biocontainers.pro/tools/pindel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pindel", "latest": {"0.2.5b9--h28e74a2_8": "sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef"}, "tags": {"0.2.5b9--h28e74a2_8": "sha256:ce38f1010f2629154aab0b415d7d4848900290e7907ebfa90e52c932006916ef"}, "docker": "quay.io/biocontainers/pindel", "aliases": {"pindel": "/usr/local/bin/pindel", "pindel2vcf": "/usr/local/bin/pindel2vcf", "pindel2vcf4tcga": "/usr/local/bin/pindel2vcf4tcga", "sam2pindel": "/usr/local/bin/sam2pindel", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pindel.
@@ -134,6 +137,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pindel2vcf4tcga   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/sam2pindel
 $ podman run --it --rm --entrypoint /usr/local/bin/sam2pindel   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sam2pindel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

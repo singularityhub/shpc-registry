@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/sscocaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sscocaller/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sscocaller/container.yaml"
-updated_at: "2022-10-27 00:30:24.687099"
+updated_at: "2022-10-29 05:46:01.766553"
 latest: "0.2.2--h0ffbbc5_3"
 container_url: "https://biocontainers.pro/tools/sscocaller"
 aliases:
  - "sscocaller"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "0.2.2--h0ffbbc5_3"
 description: "shpc-registry automated BioContainers addition for sscocaller"
-config: {"url": "https://biocontainers.pro/tools/sscocaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sscocaller", "latest": {"0.2.2--h0ffbbc5_3": "sha256:becafe137af9922b3cb2f3594322b7ab6ebe8e3df2d7aea4bd3f427d222678ef"}, "tags": {"0.2.2--h0ffbbc5_3": "sha256:becafe137af9922b3cb2f3594322b7ab6ebe8e3df2d7aea4bd3f427d222678ef"}, "docker": "quay.io/biocontainers/sscocaller", "aliases": {"sscocaller": "/usr/local/bin/sscocaller"}}
+config: {"url": "https://biocontainers.pro/tools/sscocaller", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sscocaller", "latest": {"0.2.2--h0ffbbc5_3": "sha256:becafe137af9922b3cb2f3594322b7ab6ebe8e3df2d7aea4bd3f427d222678ef"}, "tags": {"0.2.2--h0ffbbc5_3": "sha256:becafe137af9922b3cb2f3594322b7ab6ebe8e3df2d7aea4bd3f427d222678ef"}, "docker": "quay.io/biocontainers/sscocaller", "aliases": {"sscocaller": "/usr/local/bin/sscocaller", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sscocaller.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/sscocaller
 $ podman run --it --rm --entrypoint /usr/local/bin/sscocaller   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sscocaller   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

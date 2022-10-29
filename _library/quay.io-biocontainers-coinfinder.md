@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/coinfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coinfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/coinfinder/container.yaml"
-updated_at: "2022-10-27 00:22:27.213066"
+updated_at: "2022-10-29 05:35:30.582832"
 latest: "1.2.0--py37haba7c85_0"
 container_url: "https://biocontainers.pro/tools/coinfinder"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "vpxdec"
  - "vpxenc"
  - "x264"
+ - "2to3-3.7"
+ - "Magick++-config"
+ - "MagickCore-config"
+ - "MagickWand-config"
+ - "acyclic"
+ - "animate"
+ - "annotate"
+ - "bcomps"
+ - "bdftogd"
+ - "ccomps"
 versions:
  - "1.2.0--py37haba7c85_0"
 description: "shpc-registry automated BioContainers addition for coinfinder"
-config: {"url": "https://biocontainers.pro/tools/coinfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coinfinder", "latest": {"1.2.0--py37haba7c85_0": "sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1"}, "tags": {"1.2.0--py37haba7c85_0": "sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1"}, "docker": "quay.io/biocontainers/coinfinder", "aliases": {"coinfinder": "/usr/local/bin/coinfinder", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264"}}
+config: {"url": "https://biocontainers.pro/tools/coinfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coinfinder", "latest": {"1.2.0--py37haba7c85_0": "sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1"}, "tags": {"1.2.0--py37haba7c85_0": "sha256:534f1e154055a49d4d2a6de83fa7c31496b41bcbba79bd1fbdde38554d64f2b1"}, "docker": "quay.io/biocontainers/coinfinder", "aliases": {"coinfinder": "/usr/local/bin/coinfinder", "ffmpeg": "/usr/local/bin/ffmpeg", "ffprobe": "/usr/local/bin/ffprobe", "h264dec": "/usr/local/bin/h264dec", "h264enc": "/usr/local/bin/h264enc", "lame": "/usr/local/bin/lame", "vpxdec": "/usr/local/bin/vpxdec", "vpxenc": "/usr/local/bin/vpxenc", "x264": "/usr/local/bin/x264", "2to3-3.7": "/usr/local/bin/2to3-3.7", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coinfinder.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vpxenc   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/x264
 $ podman run --it --rm --entrypoint /usr/local/bin/x264   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/x264   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Magick++-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/Magick++-config
+$ podman run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MagickCore-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickCore-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MagickWand-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickWand-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### animate
+
+```bash
+$ singularity exec <container> /usr/local/bin/animate
+$ podman run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

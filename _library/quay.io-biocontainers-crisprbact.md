@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/crisprbact"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crisprbact/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crisprbact/container.yaml"
-updated_at: "2022-10-27 00:31:34.026289"
+updated_at: "2022-10-29 05:47:35.150904"
 latest: "0.3.9--py_0"
 container_url: "https://biocontainers.pro/tools/crisprbact"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "keyring"
  - "pkginfo"
  - "poetry"
+ - "2to3-3.8"
+ - "chardetect"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
+ - "dbus-send"
+ - "dbus-test-tool"
+ - "dbus-update-activation-environment"
 versions:
  - "0.3.9--py_0"
 description: "shpc-registry automated BioContainers addition for crisprbact"
-config: {"url": "https://biocontainers.pro/tools/crisprbact", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crisprbact", "latest": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def"}, "tags": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def"}, "docker": "quay.io/biocontainers/crisprbact", "aliases": {"crisprbact": "/usr/local/bin/crisprbact", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry"}}
+config: {"url": "https://biocontainers.pro/tools/crisprbact", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crisprbact", "latest": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def"}, "tags": {"0.3.9--py_0": "sha256:2ce2d89e8ffb88a3dfff9554f7f2247d0b3009bd9fdfa76dc965e04b39b87def"}, "docker": "quay.io/biocontainers/crisprbact", "aliases": {"crisprbact": "/usr/local/bin/crisprbact", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crisprbact.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pkginfo   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/poetry
 $ podman run --it --rm --entrypoint /usr/local/bin/poetry   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/poetry   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-send
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-send
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-test-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-test-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-update-activation-environment
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-update-activation-environment
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

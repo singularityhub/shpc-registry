@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-test-utf8"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-utf8/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-utf8/container.yaml"
-updated_at: "2022-10-27 00:27:27.247475"
+updated_at: "2022-10-29 05:42:11.060183"
 latest: "1.01--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-test-utf8"
-
+aliases:
+ - "perl5.32.1"
 versions:
  - "1.01--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-test-utf8"
-config: {"url": "https://biocontainers.pro/tools/perl-test-utf8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-utf8", "latest": {"1.01--pl5321hdfd78af_1": "sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab"}, "tags": {"1.01--pl5321hdfd78af_1": "sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab"}, "docker": "quay.io/biocontainers/perl-test-utf8"}
+config: {"url": "https://biocontainers.pro/tools/perl-test-utf8", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-utf8", "latest": {"1.01--pl5321hdfd78af_1": "sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab"}, "tags": {"1.01--pl5321hdfd78af_1": "sha256:fd5ceb24ad91909e547b1996e8a2895f266ea6609877fe5fdd07b6e892ab32ab"}, "docker": "quay.io/biocontainers/perl-test-utf8", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-utf8.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-test-utf8
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

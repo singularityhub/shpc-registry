@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/connor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/connor/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/connor/container.yaml"
-updated_at: "2022-10-27 00:19:29.227891"
+updated_at: "2022-10-29 05:31:35.744457"
 latest: "0.6--py27_2"
 container_url: "https://biocontainers.pro/tools/connor"
 aliases:
  - "connor"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "cygdb"
+ - "cython"
+ - "cythonize"
+ - "export2sam.pl"
 versions:
  - "0.6--py27_2"
 description: "shpc-registry automated BioContainers addition for connor"
-config: {"url": "https://biocontainers.pro/tools/connor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for connor", "latest": {"0.6--py27_2": "sha256:ffb6b321dd2e4e5e736ec4a85b771485d11142d9c98907e873c51e02d77c7878"}, "tags": {"0.6--py27_2": "sha256:ffb6b321dd2e4e5e736ec4a85b771485d11142d9c98907e873c51e02d77c7878"}, "docker": "quay.io/biocontainers/connor", "aliases": {"connor": "/usr/local/bin/connor"}}
+config: {"url": "https://biocontainers.pro/tools/connor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for connor", "latest": {"0.6--py27_2": "sha256:ffb6b321dd2e4e5e736ec4a85b771485d11142d9c98907e873c51e02d77c7878"}, "tags": {"0.6--py27_2": "sha256:ffb6b321dd2e4e5e736ec4a85b771485d11142d9c98907e873c51e02d77c7878"}, "docker": "quay.io/biocontainers/connor", "aliases": {"connor": "/usr/local/bin/connor", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/connor.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/connor
 $ podman run --it --rm --entrypoint /usr/local/bin/connor   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/connor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cygdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cython
+
+```bash
+$ singularity exec <container> /usr/local/bin/cython
+$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cythonize
+
+```bash
+$ singularity exec <container> /usr/local/bin/cythonize
+$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/weeder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weeder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/weeder/container.yaml"
-updated_at: "2022-10-27 00:27:53.943412"
+updated_at: "2022-10-29 05:42:45.459888"
 latest: "2.0--h9f5acd7_6"
 container_url: "https://biocontainers.pro/tools/weeder"
 aliases:
  - "weeder2"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "2.0--h9f5acd7_6"
 description: "shpc-registry automated BioContainers addition for weeder"
-config: {"url": "https://biocontainers.pro/tools/weeder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weeder", "latest": {"2.0--h9f5acd7_6": "sha256:457c6fff18b3c16c95df4aa4e17fd02098df198175f231019bf35732a4e873f4"}, "tags": {"2.0--h9f5acd7_6": "sha256:457c6fff18b3c16c95df4aa4e17fd02098df198175f231019bf35732a4e873f4"}, "docker": "quay.io/biocontainers/weeder", "aliases": {"weeder2": "/usr/local/bin/weeder2"}}
+config: {"url": "https://biocontainers.pro/tools/weeder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weeder", "latest": {"2.0--h9f5acd7_6": "sha256:457c6fff18b3c16c95df4aa4e17fd02098df198175f231019bf35732a4e873f4"}, "tags": {"2.0--h9f5acd7_6": "sha256:457c6fff18b3c16c95df4aa4e17fd02098df198175f231019bf35732a4e873f4"}, "docker": "quay.io/biocontainers/weeder", "aliases": {"weeder2": "/usr/local/bin/weeder2", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/weeder.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/weeder2
 $ podman run --it --rm --entrypoint /usr/local/bin/weeder2   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/weeder2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

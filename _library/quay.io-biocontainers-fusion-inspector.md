@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/fusion-inspector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusion-inspector/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fusion-inspector/container.yaml"
-updated_at: "2022-10-27 00:31:28.028357"
+updated_at: "2022-10-29 05:47:27.462199"
 latest: "2.2.1--py37pl526hdbffeaa_0"
 container_url: "https://biocontainers.pro/tools/fusion-inspector"
 aliases:
- - ".fusion-inspector-post-link.sh"
  - "FusionInspector"
  - "Trinity_gene_splice_modeler.py"
  - "analyze_diff_expr.pl"
@@ -22,10 +21,20 @@ aliases:
  - "gmap_uncompress"
  - "seqtk-trinity"
  - "sift_bam_max_cov.pl"
+ - "2to3-3.7"
+ - "PtR"
+ - "STAR"
+ - "STARlong"
+ - "Trinity"
+ - "TrinityStats.pl"
+ - "abundance_estimates_to_matrix.pl"
+ - "ace2sam"
+ - "align_and_estimate_abundance.pl"
+ - "analyze_blastPlus_topHit_coverage.pl"
 versions:
  - "2.2.1--py37pl526hdbffeaa_0"
 description: "shpc-registry automated BioContainers addition for fusion-inspector"
-config: {"url": "https://biocontainers.pro/tools/fusion-inspector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusion-inspector", "latest": {"2.2.1--py37pl526hdbffeaa_0": "sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350"}, "tags": {"2.2.1--py37pl526hdbffeaa_0": "sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350"}, "docker": "quay.io/biocontainers/fusion-inspector", "aliases": {".fusion-inspector-post-link.sh": "/usr/local/bin/.fusion-inspector-post-link.sh", "FusionInspector": "/usr/local/bin/FusionInspector", "Trinity_gene_splice_modeler.py": "/usr/local/bin/Trinity_gene_splice_modeler.py", "analyze_diff_expr.pl": "/usr/local/bin/analyze_diff_expr.pl", "contig_ExN50_statistic.pl": "/usr/local/bin/contig_ExN50_statistic.pl", "define_clusters_by_cutting_tree.pl": "/usr/local/bin/define_clusters_by_cutting_tree.pl", "extract_supertranscript_from_reference.py": "/usr/local/bin/extract_supertranscript_from_reference.py", "filter_low_expr_transcripts.pl": "/usr/local/bin/filter_low_expr_transcripts.pl", "get_Trinity_gene_to_trans_map.pl": "/usr/local/bin/get_Trinity_gene_to_trans_map.pl", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "seqtk-trinity": "/usr/local/bin/seqtk-trinity", "sift_bam_max_cov.pl": "/usr/local/bin/sift_bam_max_cov.pl"}}
+config: {"url": "https://biocontainers.pro/tools/fusion-inspector", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusion-inspector", "latest": {"2.2.1--py37pl526hdbffeaa_0": "sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350"}, "tags": {"2.2.1--py37pl526hdbffeaa_0": "sha256:7a4f52bbad27f0504680bb82ae74081e97a404f6e0b8a6a1b900ebdbbdb3b350"}, "docker": "quay.io/biocontainers/fusion-inspector", "aliases": {"FusionInspector": "/usr/local/bin/FusionInspector", "Trinity_gene_splice_modeler.py": "/usr/local/bin/Trinity_gene_splice_modeler.py", "analyze_diff_expr.pl": "/usr/local/bin/analyze_diff_expr.pl", "contig_ExN50_statistic.pl": "/usr/local/bin/contig_ExN50_statistic.pl", "define_clusters_by_cutting_tree.pl": "/usr/local/bin/define_clusters_by_cutting_tree.pl", "extract_supertranscript_from_reference.py": "/usr/local/bin/extract_supertranscript_from_reference.py", "filter_low_expr_transcripts.pl": "/usr/local/bin/filter_low_expr_transcripts.pl", "get_Trinity_gene_to_trans_map.pl": "/usr/local/bin/get_Trinity_gene_to_trans_map.pl", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "seqtk-trinity": "/usr/local/bin/seqtk-trinity", "sift_bam_max_cov.pl": "/usr/local/bin/sift_bam_max_cov.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "PtR": "/usr/local/bin/PtR", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "Trinity": "/usr/local/bin/Trinity", "TrinityStats.pl": "/usr/local/bin/TrinityStats.pl", "abundance_estimates_to_matrix.pl": "/usr/local/bin/abundance_estimates_to_matrix.pl", "ace2sam": "/usr/local/bin/ace2sam", "align_and_estimate_abundance.pl": "/usr/local/bin/align_and_estimate_abundance.pl", "analyze_blastPlus_topHit_coverage.pl": "/usr/local/bin/analyze_blastPlus_topHit_coverage.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fusion-inspector.
@@ -108,15 +117,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .fusion-inspector-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.fusion-inspector-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.fusion-inspector-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.fusion-inspector-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -234,6 +234,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seqtk-trinity   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/sift_bam_max_cov.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/sift_bam_max_cov.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sift_bam_max_cov.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PtR
+
+```bash
+$ singularity exec <container> /usr/local/bin/PtR
+$ podman run --it --rm --entrypoint /usr/local/bin/PtR   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PtR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STAR
+
+```bash
+$ singularity exec <container> /usr/local/bin/STAR
+$ podman run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STARlong
+
+```bash
+$ singularity exec <container> /usr/local/bin/STARlong
+$ podman run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Trinity
+
+```bash
+$ singularity exec <container> /usr/local/bin/Trinity
+$ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### TrinityStats.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/TrinityStats.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/TrinityStats.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/TrinityStats.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abundance_estimates_to_matrix.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/abundance_estimates_to_matrix.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/abundance_estimates_to_matrix.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abundance_estimates_to_matrix.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align_and_estimate_abundance.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/align_and_estimate_abundance.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/align_and_estimate_abundance.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align_and_estimate_abundance.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### analyze_blastPlus_topHit_coverage.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/analyze_blastPlus_topHit_coverage.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/analyze_blastPlus_topHit_coverage.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/analyze_blastPlus_topHit_coverage.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

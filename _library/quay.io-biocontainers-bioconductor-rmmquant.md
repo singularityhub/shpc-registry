@@ -4,16 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-rmmquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmmquant/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmmquant/container.yaml"
-updated_at: "2022-10-27 00:39:33.690731"
+updated_at: "2022-10-29 05:58:10.212305"
 latest: "1.8.1--r40h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmmquant"
 aliases:
- - ".bioconductor-tbx20bamsubset-post-link.sh"
- - ".bioconductor-tbx20bamsubset-pre-unlink.sh"
+ - "pandoc"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.1--r40h399db7b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rmmquant"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rmmquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmmquant", "latest": {"1.8.1--r40h399db7b_0": "sha256:ac4b5f7ceaa43bc4f6d80aec632eecb0821b3b525fd32a124349daa9d2d9e401"}, "tags": {"1.8.1--r40h399db7b_0": "sha256:ac4b5f7ceaa43bc4f6d80aec632eecb0821b3b525fd32a124349daa9d2d9e401"}, "docker": "quay.io/biocontainers/bioconductor-rmmquant", "aliases": {".bioconductor-tbx20bamsubset-post-link.sh": "/usr/local/bin/.bioconductor-tbx20bamsubset-post-link.sh", ".bioconductor-tbx20bamsubset-pre-unlink.sh": "/usr/local/bin/.bioconductor-tbx20bamsubset-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rmmquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmmquant", "latest": {"1.8.1--r40h399db7b_0": "sha256:ac4b5f7ceaa43bc4f6d80aec632eecb0821b3b525fd32a124349daa9d2d9e401"}, "tags": {"1.8.1--r40h399db7b_0": "sha256:ac4b5f7ceaa43bc4f6d80aec632eecb0821b3b525fd32a124349daa9d2d9e401"}, "docker": "quay.io/biocontainers/bioconductor-rmmquant", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rmmquant.
@@ -99,21 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-tbx20bamsubset-post-link.sh
+#### pandoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tbx20bamsubset-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tbx20bamsubset-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tbx20bamsubset-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-tbx20bamsubset-pre-unlink.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tbx20bamsubset-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tbx20bamsubset-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tbx20bamsubset-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

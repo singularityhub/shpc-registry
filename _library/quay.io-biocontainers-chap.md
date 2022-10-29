@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/chap/container.yaml"
-updated_at: "2022-10-27 00:28:23.821020"
+updated_at: "2022-10-29 05:43:23.666623"
 latest: "0.9.1--h2df963e_2"
 container_url: "https://biocontainers.pro/tools/chap"
 aliases:
@@ -38,10 +38,14 @@ aliases:
  - "lstopo-no-graphics"
  - "ocloc"
  - "xplor2gmx.pl"
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
 versions:
  - "0.9.1--h2df963e_2"
 description: "shpc-registry automated BioContainers addition for chap"
-config: {"url": "https://biocontainers.pro/tools/chap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chap", "latest": {"0.9.1--h2df963e_2": "sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98"}, "tags": {"0.9.1--h2df963e_2": "sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98"}, "docker": "quay.io/biocontainers/chap", "aliases": {"GMXRC": "/usr/local/bin/GMXRC", "GMXRC.bash": "/usr/local/bin/GMXRC.bash", "GMXRC.csh": "/usr/local/bin/GMXRC.csh", "GMXRC.zsh": "/usr/local/bin/GMXRC.zsh", "GenX_IR": "/usr/local/bin/GenX_IR", "chap": "/usr/local/bin/chap", "demux.pl": "/usr/local/bin/demux.pl", "gmx": "/usr/local/bin/gmx", "gmx-completion-gmx.bash": "/usr/local/bin/gmx-completion-gmx.bash", "gmx-completion.bash": "/usr/local/bin/gmx-completion.bash", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-assembler": "/usr/local/bin/hwloc-assembler", "hwloc-assembler-remote": "/usr/local/bin/hwloc-assembler-remote", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distances": "/usr/local/bin/hwloc-distances", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "iga64": "/usr/local/bin/iga64", "llvm-spirv": "/usr/local/bin/llvm-spirv", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "ocloc": "/usr/local/bin/ocloc", "xplor2gmx.pl": "/usr/local/bin/xplor2gmx.pl"}}
+config: {"url": "https://biocontainers.pro/tools/chap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chap", "latest": {"0.9.1--h2df963e_2": "sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98"}, "tags": {"0.9.1--h2df963e_2": "sha256:13523b21b4073a71040b8e20a285571b4f5373a93646ed8624d70ac288ba6d98"}, "docker": "quay.io/biocontainers/chap", "aliases": {"GMXRC": "/usr/local/bin/GMXRC", "GMXRC.bash": "/usr/local/bin/GMXRC.bash", "GMXRC.csh": "/usr/local/bin/GMXRC.csh", "GMXRC.zsh": "/usr/local/bin/GMXRC.zsh", "GenX_IR": "/usr/local/bin/GenX_IR", "chap": "/usr/local/bin/chap", "demux.pl": "/usr/local/bin/demux.pl", "gmx": "/usr/local/bin/gmx", "gmx-completion-gmx.bash": "/usr/local/bin/gmx-completion-gmx.bash", "gmx-completion.bash": "/usr/local/bin/gmx-completion.bash", "hwloc-annotate": "/usr/local/bin/hwloc-annotate", "hwloc-assembler": "/usr/local/bin/hwloc-assembler", "hwloc-assembler-remote": "/usr/local/bin/hwloc-assembler-remote", "hwloc-bind": "/usr/local/bin/hwloc-bind", "hwloc-calc": "/usr/local/bin/hwloc-calc", "hwloc-compress-dir": "/usr/local/bin/hwloc-compress-dir", "hwloc-diff": "/usr/local/bin/hwloc-diff", "hwloc-distances": "/usr/local/bin/hwloc-distances", "hwloc-distrib": "/usr/local/bin/hwloc-distrib", "hwloc-gather-topology": "/usr/local/bin/hwloc-gather-topology", "hwloc-info": "/usr/local/bin/hwloc-info", "hwloc-ls": "/usr/local/bin/hwloc-ls", "hwloc-patch": "/usr/local/bin/hwloc-patch", "hwloc-ps": "/usr/local/bin/hwloc-ps", "iga64": "/usr/local/bin/iga64", "llvm-spirv": "/usr/local/bin/llvm-spirv", "lstopo": "/usr/local/bin/lstopo", "lstopo-no-graphics": "/usr/local/bin/lstopo-no-graphics", "ocloc": "/usr/local/bin/ocloc", "xplor2gmx.pl": "/usr/local/bin/xplor2gmx.pl", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chap.
@@ -394,6 +398,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ocloc   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/xplor2gmx.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/xplor2gmx.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xplor2gmx.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

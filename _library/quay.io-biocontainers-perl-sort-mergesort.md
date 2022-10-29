@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-sort-mergesort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-sort-mergesort/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-sort-mergesort/container.yaml"
-updated_at: "2022-10-27 00:26:59.152873"
+updated_at: "2022-10-29 05:41:34.531482"
 latest: "0.31--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-sort-mergesort"
-
+aliases:
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.31--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-sort-mergesort"
-config: {"url": "https://biocontainers.pro/tools/perl-sort-mergesort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sort-mergesort", "latest": {"0.31--pl5321hdfd78af_2": "sha256:aa13d268a8ce531963319da227ba66ea4760fb0b2d93f49d900de7683235855d"}, "tags": {"0.31--pl5321hdfd78af_2": "sha256:aa13d268a8ce531963319da227ba66ea4760fb0b2d93f49d900de7683235855d"}, "docker": "quay.io/biocontainers/perl-sort-mergesort"}
+config: {"url": "https://biocontainers.pro/tools/perl-sort-mergesort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-sort-mergesort", "latest": {"0.31--pl5321hdfd78af_2": "sha256:aa13d268a8ce531963319da227ba66ea4760fb0b2d93f49d900de7683235855d"}, "tags": {"0.31--pl5321hdfd78af_2": "sha256:aa13d268a8ce531963319da227ba66ea4760fb0b2d93f49d900de7683235855d"}, "docker": "quay.io/biocontainers/perl-sort-mergesort", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-sort-mergesort.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-sort-mergesort
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

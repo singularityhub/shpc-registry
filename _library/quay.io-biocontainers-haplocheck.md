@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/haplocheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haplocheck/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/haplocheck/container.yaml"
-updated_at: "2022-10-27 00:38:38.861850"
+updated_at: "2022-10-29 05:56:59.232237"
 latest: "1.3.3--h4a94de4_0"
 container_url: "https://biocontainers.pro/tools/haplocheck"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "haplocheck.jar"
  - "mutserve.jar"
  - "rCRS.fasta"
+ - "aserver"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "javac"
+ - "javadoc"
+ - "javap"
+ - "jcmd"
+ - "jconsole"
 versions:
  - "1.3.3--h4a94de4_0"
 description: "shpc-registry automated BioContainers addition for haplocheck"
-config: {"url": "https://biocontainers.pro/tools/haplocheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haplocheck", "latest": {"1.3.3--h4a94de4_0": "sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc"}, "tags": {"1.3.3--h4a94de4_0": "sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc"}, "docker": "quay.io/biocontainers/haplocheck", "aliases": {"cloudgene.yaml": "/usr/local/bin/cloudgene.yaml", "haplocheck": "/usr/local/bin/haplocheck", "haplocheck.jar": "/usr/local/bin/haplocheck.jar", "mutserve.jar": "/usr/local/bin/mutserve.jar", "rCRS.fasta": "/usr/local/bin/rCRS.fasta"}}
+config: {"url": "https://biocontainers.pro/tools/haplocheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haplocheck", "latest": {"1.3.3--h4a94de4_0": "sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc"}, "tags": {"1.3.3--h4a94de4_0": "sha256:a2d2bace16d9c2cec327aa984d48a6b456b0ce228120975072f8e2ac4a798afc"}, "docker": "quay.io/biocontainers/haplocheck", "aliases": {"cloudgene.yaml": "/usr/local/bin/cloudgene.yaml", "haplocheck": "/usr/local/bin/haplocheck", "haplocheck.jar": "/usr/local/bin/haplocheck.jar", "mutserve.jar": "/usr/local/bin/mutserve.jar", "rCRS.fasta": "/usr/local/bin/rCRS.fasta", "aserver": "/usr/local/bin/aserver", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haplocheck.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mutserve.jar   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/rCRS.fasta
 $ podman run --it --rm --entrypoint /usr/local/bin/rCRS.fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rCRS.fasta   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javap
+
+```bash
+$ singularity exec <container> /usr/local/bin/javap
+$ podman run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/jcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jconsole
+
+```bash
+$ singularity exec <container> /usr/local/bin/jconsole
+$ podman run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

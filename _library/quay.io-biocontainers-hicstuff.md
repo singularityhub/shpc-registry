@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/hicstuff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicstuff/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hicstuff/container.yaml"
-updated_at: "2022-10-27 00:33:56.216930"
+updated_at: "2022-10-29 05:50:43.334235"
 latest: "3.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hicstuff"
 aliases:
  - "hicstuff"
+ - "2to3-3.7"
+ - "ace2sam"
+ - "blast2sam.pl"
+ - "bowtie2"
+ - "bowtie2-align-l"
+ - "bowtie2-align-s"
+ - "bowtie2-build"
+ - "bowtie2-build-l"
+ - "bowtie2-build-s"
+ - "bowtie2-inspect"
 versions:
  - "3.1.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hicstuff"
-config: {"url": "https://biocontainers.pro/tools/hicstuff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicstuff", "latest": {"3.1.5--pyhdfd78af_0": "sha256:fed76d89a1c0460bbb9066c99383e14e67068f89a908879e2cc9bd6fb955c9d9"}, "tags": {"3.1.5--pyhdfd78af_0": "sha256:fed76d89a1c0460bbb9066c99383e14e67068f89a908879e2cc9bd6fb955c9d9"}, "docker": "quay.io/biocontainers/hicstuff", "aliases": {"hicstuff": "/usr/local/bin/hicstuff"}}
+config: {"url": "https://biocontainers.pro/tools/hicstuff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicstuff", "latest": {"3.1.5--pyhdfd78af_0": "sha256:fed76d89a1c0460bbb9066c99383e14e67068f89a908879e2cc9bd6fb955c9d9"}, "tags": {"3.1.5--pyhdfd78af_0": "sha256:fed76d89a1c0460bbb9066c99383e14e67068f89a908879e2cc9bd6fb955c9d9"}, "docker": "quay.io/biocontainers/hicstuff", "aliases": {"hicstuff": "/usr/local/bin/hicstuff", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicstuff.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/hicstuff
 $ podman run --it --rm --entrypoint /usr/local/bin/hicstuff   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hicstuff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

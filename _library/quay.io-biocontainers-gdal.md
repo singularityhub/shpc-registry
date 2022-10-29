@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gdal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdal/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gdal/container.yaml"
-updated_at: "2022-10-27 00:30:50.384552"
+updated_at: "2022-10-29 05:46:38.220249"
 latest: "2.4.0"
 container_url: "https://biocontainers.pro/tools/gdal"
 aliases:
@@ -35,10 +35,20 @@ aliases:
  - "ogrmerge.py"
  - "pct2rgb.py"
  - "rgb2pct.py"
+ - "2to3-3.6"
+ - "CreateDOMDocument"
+ - "DOMCount"
+ - "DOMPrint"
+ - "EnumVal"
+ - "MemParse"
+ - "PParse"
+ - "PSVIWriter"
+ - "Redirect"
+ - "SAX2Count"
 versions:
  - "2.4.0"
 description: "shpc-registry automated BioContainers addition for gdal"
-config: {"url": "https://biocontainers.pro/tools/gdal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdal", "latest": {"2.4.0": "sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0"}, "tags": {"2.4.0": "sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0"}, "docker": "quay.io/biocontainers/gdal", "aliases": {"epsg_tr.py": "/usr/local/bin/epsg_tr.py", "esri2wkt.py": "/usr/local/bin/esri2wkt.py", "gcps2vec.py": "/usr/local/bin/gcps2vec.py", "gcps2wld.py": "/usr/local/bin/gcps2wld.py", "gdal2tiles.py": "/usr/local/bin/gdal2tiles.py", "gdal2xyz.py": "/usr/local/bin/gdal2xyz.py", "gdal_auth.py": "/usr/local/bin/gdal_auth.py", "gdal_calc.py": "/usr/local/bin/gdal_calc.py", "gdal_edit.py": "/usr/local/bin/gdal_edit.py", "gdal_fillnodata.py": "/usr/local/bin/gdal_fillnodata.py", "gdal_merge.py": "/usr/local/bin/gdal_merge.py", "gdal_pansharpen.py": "/usr/local/bin/gdal_pansharpen.py", "gdal_polygonize.py": "/usr/local/bin/gdal_polygonize.py", "gdal_proximity.py": "/usr/local/bin/gdal_proximity.py", "gdal_retile.py": "/usr/local/bin/gdal_retile.py", "gdal_sieve.py": "/usr/local/bin/gdal_sieve.py", "gdalchksum.py": "/usr/local/bin/gdalchksum.py", "gdalcompare.py": "/usr/local/bin/gdalcompare.py", "gdalident.py": "/usr/local/bin/gdalident.py", "gdalimport.py": "/usr/local/bin/gdalimport.py", "gdalmove.py": "/usr/local/bin/gdalmove.py", "gdalserver": "/usr/local/bin/gdalserver", "mkgraticule.py": "/usr/local/bin/mkgraticule.py", "nad2bin": "/usr/local/bin/nad2bin", "ogrmerge.py": "/usr/local/bin/ogrmerge.py", "pct2rgb.py": "/usr/local/bin/pct2rgb.py", "rgb2pct.py": "/usr/local/bin/rgb2pct.py"}}
+config: {"url": "https://biocontainers.pro/tools/gdal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gdal", "latest": {"2.4.0": "sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0"}, "tags": {"2.4.0": "sha256:12a36761fa9708d74dfcee068178618d7c13bd8979145f9d478018c8cc1dc3b0"}, "docker": "quay.io/biocontainers/gdal", "aliases": {"epsg_tr.py": "/usr/local/bin/epsg_tr.py", "esri2wkt.py": "/usr/local/bin/esri2wkt.py", "gcps2vec.py": "/usr/local/bin/gcps2vec.py", "gcps2wld.py": "/usr/local/bin/gcps2wld.py", "gdal2tiles.py": "/usr/local/bin/gdal2tiles.py", "gdal2xyz.py": "/usr/local/bin/gdal2xyz.py", "gdal_auth.py": "/usr/local/bin/gdal_auth.py", "gdal_calc.py": "/usr/local/bin/gdal_calc.py", "gdal_edit.py": "/usr/local/bin/gdal_edit.py", "gdal_fillnodata.py": "/usr/local/bin/gdal_fillnodata.py", "gdal_merge.py": "/usr/local/bin/gdal_merge.py", "gdal_pansharpen.py": "/usr/local/bin/gdal_pansharpen.py", "gdal_polygonize.py": "/usr/local/bin/gdal_polygonize.py", "gdal_proximity.py": "/usr/local/bin/gdal_proximity.py", "gdal_retile.py": "/usr/local/bin/gdal_retile.py", "gdal_sieve.py": "/usr/local/bin/gdal_sieve.py", "gdalchksum.py": "/usr/local/bin/gdalchksum.py", "gdalcompare.py": "/usr/local/bin/gdalcompare.py", "gdalident.py": "/usr/local/bin/gdalident.py", "gdalimport.py": "/usr/local/bin/gdalimport.py", "gdalmove.py": "/usr/local/bin/gdalmove.py", "gdalserver": "/usr/local/bin/gdalserver", "mkgraticule.py": "/usr/local/bin/mkgraticule.py", "nad2bin": "/usr/local/bin/nad2bin", "ogrmerge.py": "/usr/local/bin/ogrmerge.py", "pct2rgb.py": "/usr/local/bin/pct2rgb.py", "rgb2pct.py": "/usr/local/bin/rgb2pct.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gdal.
@@ -364,6 +374,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pct2rgb.py   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/rgb2pct.py
 $ podman run --it --rm --entrypoint /usr/local/bin/rgb2pct.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rgb2pct.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CreateDOMDocument
+
+```bash
+$ singularity exec <container> /usr/local/bin/CreateDOMDocument
+$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMCount
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMCount
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMPrint
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMPrint
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EnumVal
+
+```bash
+$ singularity exec <container> /usr/local/bin/EnumVal
+$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MemParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/MemParse
+$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/PParse
+$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PSVIWriter
+
+```bash
+$ singularity exec <container> /usr/local/bin/PSVIWriter
+$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Redirect
+
+```bash
+$ singularity exec <container> /usr/local/bin/Redirect
+$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Count
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Count
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

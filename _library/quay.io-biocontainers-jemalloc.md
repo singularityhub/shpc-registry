@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/jemalloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jemalloc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jemalloc/container.yaml"
-updated_at: "2022-10-27 00:26:40.170546"
+updated_at: "2022-10-29 05:41:08.234474"
 latest: "4.5.0--0"
 container_url: "https://biocontainers.pro/tools/jemalloc"
-
+aliases:
+ - "jemalloc-config"
+ - "jemalloc.sh"
+ - "jeprof"
 versions:
  - "4.5.0--0"
 description: "shpc-registry automated BioContainers addition for jemalloc"
-config: {"url": "https://biocontainers.pro/tools/jemalloc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jemalloc", "latest": {"4.5.0--0": "sha256:49e412d7729504491acd4e8228db710436cb87c0ae6243a5a2691df4c328af30"}, "tags": {"4.5.0--0": "sha256:49e412d7729504491acd4e8228db710436cb87c0ae6243a5a2691df4c328af30"}, "docker": "quay.io/biocontainers/jemalloc"}
+config: {"url": "https://biocontainers.pro/tools/jemalloc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jemalloc", "latest": {"4.5.0--0": "sha256:49e412d7729504491acd4e8228db710436cb87c0ae6243a5a2691df4c328af30"}, "tags": {"4.5.0--0": "sha256:49e412d7729504491acd4e8228db710436cb87c0ae6243a5a2691df4c328af30"}, "docker": "quay.io/biocontainers/jemalloc", "aliases": {"jemalloc-config": "/usr/local/bin/jemalloc-config", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "jeprof": "/usr/local/bin/jeprof"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jemalloc.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### jemalloc
+#### jemalloc-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/jemalloc-config
+$ podman run --it --rm --entrypoint /usr/local/bin/jemalloc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jemalloc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### jemalloc.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/jemalloc.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/jemalloc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jemalloc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jeprof
+
+```bash
+$ singularity exec <container> /usr/local/bin/jeprof
+$ podman run --it --rm --entrypoint /usr/local/bin/jeprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jeprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/ecmwfapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ecmwfapi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ecmwfapi/container.yaml"
-updated_at: "2022-10-27 00:26:48.582569"
+updated_at: "2022-10-29 05:41:19.474001"
 latest: "1.4.1--py_2"
 container_url: "https://biocontainers.pro/tools/ecmwfapi"
-
+aliases:
+ - "2to3-3.6"
+ - "idle3.6"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv"
 versions:
  - "1.4.1--py_2"
 description: "shpc-registry automated BioContainers addition for ecmwfapi"
-config: {"url": "https://biocontainers.pro/tools/ecmwfapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecmwfapi", "latest": {"1.4.1--py_2": "sha256:1ff650990f42a733fa5f98e640d2a6db6e9dc2b6579b8a95e361414d39e83f00"}, "tags": {"1.4.1--py_2": "sha256:1ff650990f42a733fa5f98e640d2a6db6e9dc2b6579b8a95e361414d39e83f00"}, "docker": "quay.io/biocontainers/ecmwfapi"}
+config: {"url": "https://biocontainers.pro/tools/ecmwfapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ecmwfapi", "latest": {"1.4.1--py_2": "sha256:1ff650990f42a733fa5f98e640d2a6db6e9dc2b6579b8a95e361414d39e83f00"}, "tags": {"1.4.1--py_2": "sha256:1ff650990f42a733fa5f98e640d2a6db6e9dc2b6579b8a95e361414d39e83f00"}, "docker": "quay.io/biocontainers/ecmwfapi", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ecmwfapi.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### ecmwfapi
+#### 2to3-3.6
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

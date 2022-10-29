@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/aquila"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aquila/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aquila/container.yaml"
-updated_at: "2022-10-27 00:22:24.227113"
+updated_at: "2022-10-29 05:35:26.749939"
 latest: "1.0.0--py_0"
 container_url: "https://biocontainers.pro/tools/aquila"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "Aquila_step1"
  - "Aquila_step1_multilibs"
  - "Aquila_step2"
+ - "2to3-3.7"
+ - "ace2sam"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "export2sam.pl"
+ - "f2py3.7"
+ - "idle3.7"
+ - "interpolate_sam.pl"
+ - "k8"
+ - "maq2sam-long"
 versions:
  - "1.0.0--py_0"
 description: "shpc-registry automated BioContainers addition for aquila"
-config: {"url": "https://biocontainers.pro/tools/aquila", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquila", "latest": {"1.0.0--py_0": "sha256:f774c52e37a4022c2129fa3a27e530934a614c9f75cffa75bad3fcb63734b8fb"}, "tags": {"1.0.0--py_0": "sha256:f774c52e37a4022c2129fa3a27e530934a614c9f75cffa75bad3fcb63734b8fb"}, "docker": "quay.io/biocontainers/aquila", "aliases": {"Aquila_assembly_based_variants_call": "/usr/local/bin/Aquila_assembly_based_variants_call", "Aquila_clean": "/usr/local/bin/Aquila_clean", "Aquila_phasing_all_variants": "/usr/local/bin/Aquila_phasing_all_variants", "Aquila_step0_sortbam": "/usr/local/bin/Aquila_step0_sortbam", "Aquila_step0_sortbam_multilibs": "/usr/local/bin/Aquila_step0_sortbam_multilibs", "Aquila_step1": "/usr/local/bin/Aquila_step1", "Aquila_step1_multilibs": "/usr/local/bin/Aquila_step1_multilibs", "Aquila_step2": "/usr/local/bin/Aquila_step2"}}
+config: {"url": "https://biocontainers.pro/tools/aquila", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aquila", "latest": {"1.0.0--py_0": "sha256:f774c52e37a4022c2129fa3a27e530934a614c9f75cffa75bad3fcb63734b8fb"}, "tags": {"1.0.0--py_0": "sha256:f774c52e37a4022c2129fa3a27e530934a614c9f75cffa75bad3fcb63734b8fb"}, "docker": "quay.io/biocontainers/aquila", "aliases": {"Aquila_assembly_based_variants_call": "/usr/local/bin/Aquila_assembly_based_variants_call", "Aquila_clean": "/usr/local/bin/Aquila_clean", "Aquila_phasing_all_variants": "/usr/local/bin/Aquila_phasing_all_variants", "Aquila_step0_sortbam": "/usr/local/bin/Aquila_step0_sortbam", "Aquila_step0_sortbam_multilibs": "/usr/local/bin/Aquila_step0_sortbam_multilibs", "Aquila_step1": "/usr/local/bin/Aquila_step1", "Aquila_step1_multilibs": "/usr/local/bin/Aquila_step1_multilibs", "Aquila_step2": "/usr/local/bin/Aquila_step2", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "k8": "/usr/local/bin/k8", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aquila.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Aquila_step1_multilibs   -v $
 $ singularity exec <container> /usr/local/bin/Aquila_step2
 $ podman run --it --rm --entrypoint /usr/local/bin/Aquila_step2   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/Aquila_step2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### interpolate_sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### k8
+
+```bash
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maq2sam-long
+
+```bash
+$ singularity exec <container> /usr/local/bin/maq2sam-long
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

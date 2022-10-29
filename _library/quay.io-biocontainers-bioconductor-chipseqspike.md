@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-chipseqspike"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipseqspike/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipseqspike/container.yaml"
-updated_at: "2022-10-27 00:21:16.643427"
+updated_at: "2022-10-29 05:33:57.203232"
 latest: "1.9.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipseqspike"
-
+aliases:
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipseqspike"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipseqspike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipseqspike", "latest": {"1.9.0--r40hdfd78af_1": "sha256:87873ac96c4c9b65ff58a566d63bd182e37fa4bb521e379d7b543213668f63c5"}, "tags": {"1.9.0--r40hdfd78af_1": "sha256:87873ac96c4c9b65ff58a566d63bd182e37fa4bb521e379d7b543213668f63c5"}, "docker": "quay.io/biocontainers/bioconductor-chipseqspike"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipseqspike", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipseqspike", "latest": {"1.9.0--r40hdfd78af_1": "sha256:87873ac96c4c9b65ff58a566d63bd182e37fa4bb521e379d7b543213668f63c5"}, "tags": {"1.9.0--r40hdfd78af_1": "sha256:87873ac96c4c9b65ff58a566d63bd182e37fa4bb521e379d7b543213668f63c5"}, "docker": "quay.io/biocontainers/bioconductor-chipseqspike", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipseqspike.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-chipseqspike
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

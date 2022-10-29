@@ -4,16 +4,24 @@ name:  "quay.io/biocontainers/snakeparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakeparse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snakeparse/container.yaml"
-updated_at: "2022-10-27 00:24:44.541678"
+updated_at: "2022-10-29 05:38:32.321266"
 latest: "0.1.0--py_2"
 container_url: "https://biocontainers.pro/tools/snakeparse"
 aliases:
  - "pyhocon"
  - "snakeparse"
+ - "2to3-3.7"
+ - "idle3.7"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
+ - "pyvenv-3.7"
 versions:
  - "0.1.0--py_2"
 description: "shpc-registry automated BioContainers addition for snakeparse"
-config: {"url": "https://biocontainers.pro/tools/snakeparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakeparse", "latest": {"0.1.0--py_2": "sha256:b78e2509ce38a57dd90303710ab34863cdf804b121047915085b57fa51f6e612"}, "tags": {"0.1.0--py_2": "sha256:b78e2509ce38a57dd90303710ab34863cdf804b121047915085b57fa51f6e612"}, "docker": "quay.io/biocontainers/snakeparse", "aliases": {"pyhocon": "/usr/local/bin/pyhocon", "snakeparse": "/usr/local/bin/snakeparse"}}
+config: {"url": "https://biocontainers.pro/tools/snakeparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakeparse", "latest": {"0.1.0--py_2": "sha256:b78e2509ce38a57dd90303710ab34863cdf804b121047915085b57fa51f6e612"}, "tags": {"0.1.0--py_2": "sha256:b78e2509ce38a57dd90303710ab34863cdf804b121047915085b57fa51f6e612"}, "docker": "quay.io/biocontainers/snakeparse", "aliases": {"pyhocon": "/usr/local/bin/pyhocon", "snakeparse": "/usr/local/bin/snakeparse", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakeparse.
@@ -114,6 +122,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyhocon   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/snakeparse
 $ podman run --it --rm --entrypoint /usr/local/bin/snakeparse   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/snakeparse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

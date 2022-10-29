@@ -4,16 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-pepdat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pepdat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pepdat/container.yaml"
-updated_at: "2022-10-27 00:18:48.225832"
+updated_at: "2022-10-29 05:30:42.552637"
 latest: "1.8.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pepdat"
 aliases:
- - ".bioconductor-pepdat-post-link.sh"
- - ".bioconductor-pepdat-pre-unlink.sh"
+ - "2to3-3.8"
+ - "gio-launch-desktop"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.8.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pepdat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pepdat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepdat", "latest": {"1.8.0--r40_0": "sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb"}, "tags": {"1.8.0--r40_0": "sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb"}, "docker": "quay.io/biocontainers/bioconductor-pepdat", "aliases": {".bioconductor-pepdat-post-link.sh": "/usr/local/bin/.bioconductor-pepdat-post-link.sh", ".bioconductor-pepdat-pre-unlink.sh": "/usr/local/bin/.bioconductor-pepdat-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pepdat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pepdat", "latest": {"1.8.0--r40_0": "sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb"}, "tags": {"1.8.0--r40_0": "sha256:da4ed290d47781857a600837b606285cf3dede9cb6caf006e0ef47f85a6f05bb"}, "docker": "quay.io/biocontainers/bioconductor-pepdat", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pepdat.
@@ -99,21 +103,57 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-pepdat-post-link.sh
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pepdat-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pepdat-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pepdat-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-pepdat-pre-unlink.sh
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pepdat-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pepdat-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pepdat-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

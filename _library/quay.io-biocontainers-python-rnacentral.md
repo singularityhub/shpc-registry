@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/python-rnacentral"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-rnacentral/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-rnacentral/container.yaml"
-updated_at: "2022-10-27 00:39:29.761317"
+updated_at: "2022-10-29 05:58:05.352549"
 latest: "1.0.0--0"
 container_url: "https://biocontainers.pro/tools/python-rnacentral"
 aliases:
  - "rnacentral.py"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "1.0.0--0"
 description: "shpc-registry automated BioContainers addition for python-rnacentral"
-config: {"url": "https://biocontainers.pro/tools/python-rnacentral", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-rnacentral", "latest": {"1.0.0--0": "sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e"}, "tags": {"1.0.0--0": "sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e"}, "docker": "quay.io/biocontainers/python-rnacentral", "aliases": {"rnacentral.py": "/usr/local/bin/rnacentral.py"}}
+config: {"url": "https://biocontainers.pro/tools/python-rnacentral", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-rnacentral", "latest": {"1.0.0--0": "sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e"}, "tags": {"1.0.0--0": "sha256:45c6a65d549ef14be840956865911ef5ca5f039b191a0dc81bce142d5c146b7e"}, "docker": "quay.io/biocontainers/python-rnacentral", "aliases": {"rnacentral.py": "/usr/local/bin/rnacentral.py", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-rnacentral.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/rnacentral.py
 $ podman run --it --rm --entrypoint /usr/local/bin/rnacentral.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rnacentral.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

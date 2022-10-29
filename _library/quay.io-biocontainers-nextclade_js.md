@@ -4,17 +4,19 @@ name:  "quay.io/biocontainers/nextclade_js"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextclade_js/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nextclade_js/container.yaml"
-updated_at: "2022-10-27 00:33:25.113518"
+updated_at: "2022-10-29 05:50:01.518685"
 latest: "0.14.4--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/nextclade_js"
 aliases:
  - "nextclade"
  - "nextclade.js"
  - "npx"
+ - "node"
+ - "npm"
 versions:
  - "0.14.4--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for nextclade_js"
-config: {"url": "https://biocontainers.pro/tools/nextclade_js", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextclade_js", "latest": {"0.14.4--h9ee0642_0": "sha256:899170bbcc4629cad8043498244bd621b939779472a0db851801bde590801aa9"}, "tags": {"0.14.4--h9ee0642_0": "sha256:899170bbcc4629cad8043498244bd621b939779472a0db851801bde590801aa9"}, "docker": "quay.io/biocontainers/nextclade_js", "aliases": {"nextclade": "/usr/local/bin/nextclade", "nextclade.js": "/usr/local/bin/nextclade.js", "npx": "/usr/local/bin/npx"}}
+config: {"url": "https://biocontainers.pro/tools/nextclade_js", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextclade_js", "latest": {"0.14.4--h9ee0642_0": "sha256:899170bbcc4629cad8043498244bd621b939779472a0db851801bde590801aa9"}, "tags": {"0.14.4--h9ee0642_0": "sha256:899170bbcc4629cad8043498244bd621b939779472a0db851801bde590801aa9"}, "docker": "quay.io/biocontainers/nextclade_js", "aliases": {"nextclade": "/usr/local/bin/nextclade", "nextclade.js": "/usr/local/bin/nextclade.js", "npx": "/usr/local/bin/npx", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextclade_js.
@@ -124,6 +126,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nextclade.js   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/npx
 $ podman run --it --rm --entrypoint /usr/local/bin/npx   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/npx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### node
+
+```bash
+$ singularity exec <container> /usr/local/bin/node
+$ podman run --it --rm --entrypoint /usr/local/bin/node   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/node   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### npm
+
+```bash
+$ singularity exec <container> /usr/local/bin/npm
+$ podman run --it --rm --entrypoint /usr/local/bin/npm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/npm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

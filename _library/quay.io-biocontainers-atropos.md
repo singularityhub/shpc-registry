@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/atropos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atropos/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/atropos/container.yaml"
-updated_at: "2022-10-27 00:27:45.844220"
+updated_at: "2022-10-29 05:42:35.295974"
 latest: "1.1.31--py39hbf8eff0_2"
 container_url: "https://biocontainers.pro/tools/atropos"
 aliases:
  - "atropos"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "tqdm"
 versions:
  - "1.1.31--py39hbf8eff0_2"
 description: "shpc-registry automated BioContainers addition for atropos"
-config: {"url": "https://biocontainers.pro/tools/atropos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atropos", "latest": {"1.1.31--py39hbf8eff0_2": "sha256:f11b1d97dd8df11f6cbda15d4b1b6e45f1c9ba8b0e4a323d352c67d2cd009e87"}, "tags": {"1.1.31--py39hbf8eff0_2": "sha256:f11b1d97dd8df11f6cbda15d4b1b6e45f1c9ba8b0e4a323d352c67d2cd009e87"}, "docker": "quay.io/biocontainers/atropos", "aliases": {"atropos": "/usr/local/bin/atropos"}}
+config: {"url": "https://biocontainers.pro/tools/atropos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for atropos", "latest": {"1.1.31--py39hbf8eff0_2": "sha256:f11b1d97dd8df11f6cbda15d4b1b6e45f1c9ba8b0e4a323d352c67d2cd009e87"}, "tags": {"1.1.31--py39hbf8eff0_2": "sha256:f11b1d97dd8df11f6cbda15d4b1b6e45f1c9ba8b0e4a323d352c67d2cd009e87"}, "docker": "quay.io/biocontainers/atropos", "aliases": {"atropos": "/usr/local/bin/atropos", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/atropos.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/atropos
 $ podman run --it --rm --entrypoint /usr/local/bin/atropos   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/atropos   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

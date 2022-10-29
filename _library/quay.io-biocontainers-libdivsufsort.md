@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libdivsufsort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libdivsufsort/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/libdivsufsort/container.yaml"
-updated_at: "2022-10-27 00:28:53.556648"
+updated_at: "2022-10-29 05:44:02.732790"
 latest: "2.0.2--hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/libdivsufsort"
-
+aliases:
+ - "env-execute"
 versions:
  - "2.0.2--hec16e2b_6"
 description: "shpc-registry automated BioContainers addition for libdivsufsort"
-config: {"url": "https://biocontainers.pro/tools/libdivsufsort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libdivsufsort", "latest": {"2.0.2--hec16e2b_6": "sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c"}, "tags": {"2.0.2--hec16e2b_6": "sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c"}, "docker": "quay.io/biocontainers/libdivsufsort"}
+config: {"url": "https://biocontainers.pro/tools/libdivsufsort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libdivsufsort", "latest": {"2.0.2--hec16e2b_6": "sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c"}, "tags": {"2.0.2--hec16e2b_6": "sha256:d4db8163b70eda62444f834d4ace91cc562a92c045851845b3d7ac7821b2066c"}, "docker": "quay.io/biocontainers/libdivsufsort", "aliases": {"env-execute": "/usr/local/env-execute"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libdivsufsort.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### libdivsufsort
+#### env-execute
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/env-execute
+$ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

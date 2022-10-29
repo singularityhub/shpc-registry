@@ -4,18 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-missmethyl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-missmethyl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-missmethyl/container.yaml"
-updated_at: "2022-10-27 00:22:24.664822"
+updated_at: "2022-10-29 05:35:27.284714"
 latest: "1.26.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-missmethyl"
 aliases:
- - ".bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh"
- - ".bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh"
- - ".bioconductor-illuminahumanmethylationepicmanifest-post-link.sh"
- - ".bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.26.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-missmethyl"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-missmethyl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-missmethyl", "latest": {"1.26.0--r41hdfd78af_0": "sha256:232a00f7a738d72a7bec65af2ec860614d64d310a82fdcc5baab6c69c86839a9"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:232a00f7a738d72a7bec65af2ec860614d64d310a82fdcc5baab6c69c86839a9"}, "docker": "quay.io/biocontainers/bioconductor-missmethyl", "aliases": {".bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh": "/usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh", ".bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh": "/usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh", ".bioconductor-illuminahumanmethylationepicmanifest-post-link.sh": "/usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-post-link.sh", ".bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh": "/usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-missmethyl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-missmethyl", "latest": {"1.26.0--r41hdfd78af_0": "sha256:232a00f7a738d72a7bec65af2ec860614d64d310a82fdcc5baab6c69c86839a9"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:232a00f7a738d72a7bec65af2ec860614d64d310a82fdcc5baab6c69c86839a9"}, "docker": "quay.io/biocontainers/bioconductor-missmethyl", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-missmethyl.
@@ -101,39 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-illuminahumanmethylationepicmanifest-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminahumanmethylationepicmanifest-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

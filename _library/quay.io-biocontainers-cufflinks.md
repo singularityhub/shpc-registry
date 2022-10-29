@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cufflinks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cufflinks/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cufflinks/container.yaml"
-updated_at: "2022-10-27 00:33:36.689573"
+updated_at: "2022-10-29 05:50:16.193867"
 latest: "2.2.1--py36_2"
 container_url: "https://biocontainers.pro/tools/cufflinks"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "cuffquant"
  - "gffread"
  - "gtf_to_sam"
+ - "2to3-3.6"
+ - "idle3.6"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv-3.6"
 versions:
  - "2.2.1--py36_2"
 description: "shpc-registry automated BioContainers addition for cufflinks"
-config: {"url": "https://biocontainers.pro/tools/cufflinks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cufflinks", "latest": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd"}, "tags": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd"}, "docker": "quay.io/biocontainers/cufflinks", "aliases": {"cuffcompare": "/usr/local/bin/cuffcompare", "cuffdiff": "/usr/local/bin/cuffdiff", "cufflinks": "/usr/local/bin/cufflinks", "cuffmerge": "/usr/local/bin/cuffmerge", "cuffnorm": "/usr/local/bin/cuffnorm", "cuffquant": "/usr/local/bin/cuffquant", "gffread": "/usr/local/bin/gffread", "gtf_to_sam": "/usr/local/bin/gtf_to_sam"}}
+config: {"url": "https://biocontainers.pro/tools/cufflinks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cufflinks", "latest": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd"}, "tags": {"2.2.1--py36_2": "sha256:28c24c8bc79ad89d7426dd724f0e317b306467656ad7e18a6e7c29d8f7d72dcd"}, "docker": "quay.io/biocontainers/cufflinks", "aliases": {"cuffcompare": "/usr/local/bin/cuffcompare", "cuffdiff": "/usr/local/bin/cuffdiff", "cufflinks": "/usr/local/bin/cufflinks", "cuffmerge": "/usr/local/bin/cuffmerge", "cuffnorm": "/usr/local/bin/cuffnorm", "cuffquant": "/usr/local/bin/cuffquant", "gffread": "/usr/local/bin/gffread", "gtf_to_sam": "/usr/local/bin/gtf_to_sam", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cufflinks.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gffread   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/gtf_to_sam
 $ podman run --it --rm --entrypoint /usr/local/bin/gtf_to_sam   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gtf_to_sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

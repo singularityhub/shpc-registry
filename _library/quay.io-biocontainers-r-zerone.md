@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-zerone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-zerone/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-zerone/container.yaml"
-updated_at: "2022-10-27 00:18:41.832461"
+updated_at: "2022-10-29 05:30:33.268970"
 latest: "1.0--r341h470a237_1"
 container_url: "https://biocontainers.pro/tools/r-zerone"
-
+aliases:
+ - "ncurses5-config"
 versions:
  - "1.0--r341h470a237_1"
 description: "shpc-registry automated BioContainers addition for r-zerone"
-config: {"url": "https://biocontainers.pro/tools/r-zerone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-zerone", "latest": {"1.0--r341h470a237_1": "sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d"}, "tags": {"1.0--r341h470a237_1": "sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d"}, "docker": "quay.io/biocontainers/r-zerone"}
+config: {"url": "https://biocontainers.pro/tools/r-zerone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-zerone", "latest": {"1.0--r341h470a237_1": "sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d"}, "tags": {"1.0--r341h470a237_1": "sha256:7f18f1c64914a05cf4238d5c7d78fef72f3b207293a28dbbffa3c2647397c88d"}, "docker": "quay.io/biocontainers/r-zerone", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-zerone.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-zerone
+#### ncurses5-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

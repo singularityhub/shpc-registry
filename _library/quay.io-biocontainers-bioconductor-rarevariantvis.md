@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rarevariantvis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rarevariantvis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rarevariantvis/container.yaml"
-updated_at: "2022-10-27 00:25:09.626462"
+updated_at: "2022-10-29 05:39:05.845703"
 latest: "2.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rarevariantvis"
 aliases:
- - ".bioconductor-phastcons100way.ucsc.hg19-post-link.sh"
- - ".bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh"
+ - "wget"
 versions:
  - "2.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rarevariantvis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rarevariantvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rarevariantvis", "latest": {"2.8.0--r351_0": "sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd"}, "tags": {"2.8.0--r351_0": "sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd"}, "docker": "quay.io/biocontainers/bioconductor-rarevariantvis", "aliases": {".bioconductor-phastcons100way.ucsc.hg19-post-link.sh": "/usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-post-link.sh", ".bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh": "/usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rarevariantvis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rarevariantvis", "latest": {"2.8.0--r351_0": "sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd"}, "tags": {"2.8.0--r351_0": "sha256:06f5b5b2a8be0eaad0a3a56b2553cbb01d8ba236eda1edb27c1dc608d8ca5ecd"}, "docker": "quay.io/biocontainers/bioconductor-rarevariantvis", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rarevariantvis.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-phastcons100way.ucsc.hg19-post-link.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-phastcons100way.ucsc.hg19-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

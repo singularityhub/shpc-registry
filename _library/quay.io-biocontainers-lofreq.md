@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lofreq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lofreq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lofreq/container.yaml"
-updated_at: "2022-10-27 00:21:31.993473"
+updated_at: "2022-10-29 05:34:16.767576"
 latest: "2.1.5--py38ha1fcc84_8"
 container_url: "https://biocontainers.pro/tools/lofreq"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "lofreq2_indel_ovlp.py"
  - "lofreq2_somatic.py"
  - "lofreq2_vcfplot.py"
+ - "2to3-3.8"
+ - "ace2sam"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "export2sam.pl"
+ - "fasta-sanitize.pl"
+ - "htsfile"
+ - "idle3.8"
+ - "interpolate_sam.pl"
 versions:
  - "2.1.5--py38ha1fcc84_8"
 description: "shpc-registry automated BioContainers addition for lofreq"
-config: {"url": "https://biocontainers.pro/tools/lofreq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lofreq", "latest": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8"}, "tags": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8"}, "docker": "quay.io/biocontainers/lofreq", "aliases": {"lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py"}}
+config: {"url": "https://biocontainers.pro/tools/lofreq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lofreq", "latest": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8"}, "tags": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8"}, "docker": "quay.io/biocontainers/lofreq", "aliases": {"lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "idle3.8": "/usr/local/bin/idle3.8", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lofreq.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lofreq2_somatic.py   -v ${PWD
 $ singularity exec <container> /usr/local/bin/lofreq2_vcfplot.py
 $ podman run --it --rm --entrypoint /usr/local/bin/lofreq2_vcfplot.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/lofreq2_vcfplot.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### interpolate_sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

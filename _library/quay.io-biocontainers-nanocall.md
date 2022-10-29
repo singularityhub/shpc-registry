@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/nanocall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanocall/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanocall/container.yaml"
-updated_at: "2022-10-27 00:23:42.680709"
+updated_at: "2022-10-29 05:37:12.303771"
 latest: "v0.7.4--h0d531b0_4"
 container_url: "https://biocontainers.pro/tools/nanocall"
 aliases:
  - "nanocall"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
+ - "h5diff"
+ - "h5dump"
+ - "h5fc"
 versions:
  - "v0.7.4--h0d531b0_4"
 description: "shpc-registry automated BioContainers addition for nanocall"
-config: {"url": "https://biocontainers.pro/tools/nanocall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanocall", "latest": {"v0.7.4--h0d531b0_4": "sha256:4e13178433a8efdfc08f2d8c8072dd46e7b0acdfafcdfae43842473c664ae28d"}, "tags": {"v0.7.4--h0d531b0_4": "sha256:4e13178433a8efdfc08f2d8c8072dd46e7b0acdfafcdfae43842473c664ae28d"}, "docker": "quay.io/biocontainers/nanocall", "aliases": {"nanocall": "/usr/local/bin/nanocall"}}
+config: {"url": "https://biocontainers.pro/tools/nanocall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanocall", "latest": {"v0.7.4--h0d531b0_4": "sha256:4e13178433a8efdfc08f2d8c8072dd46e7b0acdfafcdfae43842473c664ae28d"}, "tags": {"v0.7.4--h0d531b0_4": "sha256:4e13178433a8efdfc08f2d8c8072dd46e7b0acdfafcdfae43842473c664ae28d"}, "docker": "quay.io/biocontainers/nanocall", "aliases": {"nanocall": "/usr/local/bin/nanocall", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5dump": "/usr/local/bin/h5dump", "h5fc": "/usr/local/bin/h5fc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanocall.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/nanocall
 $ podman run --it --rm --entrypoint /usr/local/bin/nanocall   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/nanocall   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5diff
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5diff
+$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5dump
+$ podman run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5fc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5fc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

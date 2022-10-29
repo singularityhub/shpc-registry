@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/skmer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/skmer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/skmer/container.yaml"
-updated_at: "2022-10-27 00:25:21.552192"
+updated_at: "2022-10-29 05:39:22.222108"
 latest: "3.2.1--pyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/skmer"
 aliases:
  - "skmer"
+ - "2to3-3.10"
+ - "capnp"
+ - "capnpc"
+ - "capnpc-c++"
+ - "capnpc-capnp"
+ - "f2py3.10"
+ - "idle3.10"
+ - "jellyfish"
+ - "mash"
+ - "pydoc3.10"
 versions:
  - "3.2.1--pyhfa5458b_0"
 description: "shpc-registry automated BioContainers addition for skmer"
-config: {"url": "https://biocontainers.pro/tools/skmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skmer", "latest": {"3.2.1--pyhfa5458b_0": "sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171"}, "tags": {"3.2.1--pyhfa5458b_0": "sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171"}, "docker": "quay.io/biocontainers/skmer", "aliases": {"skmer": "/usr/local/bin/skmer"}}
+config: {"url": "https://biocontainers.pro/tools/skmer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for skmer", "latest": {"3.2.1--pyhfa5458b_0": "sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171"}, "tags": {"3.2.1--pyhfa5458b_0": "sha256:0bffadaa43aee785e4fbf37df71aab92c7b85cd4bc86854aed9bf30ca665f171"}, "docker": "quay.io/biocontainers/skmer", "aliases": {"skmer": "/usr/local/bin/skmer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++", "capnpc-capnp": "/usr/local/bin/capnpc-capnp", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "jellyfish": "/usr/local/bin/jellyfish", "mash": "/usr/local/bin/mash", "pydoc3.10": "/usr/local/bin/pydoc3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/skmer.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/skmer
 $ podman run --it --rm --entrypoint /usr/local/bin/skmer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/skmer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-c++
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mash
+
+```bash
+$ singularity exec <container> /usr/local/bin/mash
+$ podman run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

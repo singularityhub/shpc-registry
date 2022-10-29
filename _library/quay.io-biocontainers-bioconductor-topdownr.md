@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-topdownr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topdownr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topdownr/container.yaml"
-updated_at: "2022-10-27 00:22:49.760816"
+updated_at: "2022-10-29 05:36:01.653488"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topdownr"
-
+aliases:
+ - "c89"
+ - "c99"
+ - "gif2h5"
+ - "gif2hdf"
+ - "gio-launch-desktop"
+ - "h4_ncdump"
+ - "h4_ncgen"
+ - "h4cc"
+ - "h4redeploy"
+ - "h52gif"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-topdownr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-topdownr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topdownr", "latest": {"1.8.0--r36_0": "sha256:259413782f5872ee2fad1215e84588c4f4ed0db6a06fd3921af95b86e288863c"}, "tags": {"1.8.0--r36_0": "sha256:259413782f5872ee2fad1215e84588c4f4ed0db6a06fd3921af95b86e288863c"}, "docker": "quay.io/biocontainers/bioconductor-topdownr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-topdownr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topdownr", "latest": {"1.8.0--r36_0": "sha256:259413782f5872ee2fad1215e84588c4f4ed0db6a06fd3921af95b86e288863c"}, "tags": {"1.8.0--r36_0": "sha256:259413782f5872ee2fad1215e84588c4f4ed0db6a06fd3921af95b86e288863c"}, "docker": "quay.io/biocontainers/bioconductor-topdownr", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "h52gif": "/usr/local/bin/h52gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-topdownr.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-topdownr
+#### c89
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2hdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2hdf
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncdump
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncgen
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4redeploy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4redeploy
+$ podman run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

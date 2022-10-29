@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riboplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboplot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/riboplot/container.yaml"
-updated_at: "2022-10-27 00:32:12.820736"
+updated_at: "2022-10-29 05:48:27.879500"
 latest: "0.3.1--py27_2"
 container_url: "https://biocontainers.pro/tools/riboplot"
 aliases:
@@ -37,10 +37,20 @@ aliases:
  - "uic-qt4"
  - "xmlpatterns-qt4"
  - "xmlpatternsvalidator-qt4"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
+ - "closestBed"
+ - "clusterBed"
 versions:
  - "0.3.1--py27_2"
 description: "shpc-registry automated BioContainers addition for riboplot"
-config: {"url": "https://biocontainers.pro/tools/riboplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboplot", "latest": {"0.3.1--py27_2": "sha256:af7dc3f7cdad4cc0992df85a307a29b17c03897932c908178f41bbe81c954e63"}, "tags": {"0.3.1--py27_2": "sha256:af7dc3f7cdad4cc0992df85a307a29b17c03897932c908178f41bbe81c954e63"}, "docker": "quay.io/biocontainers/riboplot", "aliases": {"assistant-qt4": "/usr/local/bin/assistant-qt4", "designer-qt4": "/usr/local/bin/designer-qt4", "lconvert-qt4": "/usr/local/bin/lconvert-qt4", "linguist-qt4": "/usr/local/bin/linguist-qt4", "lrelease-qt4": "/usr/local/bin/lrelease-qt4", "lupdate-qt4": "/usr/local/bin/lupdate-qt4", "moc-qt4": "/usr/local/bin/moc-qt4", "nosetests-2.7": "/usr/local/bin/nosetests-2.7", "pixeltool-qt4": "/usr/local/bin/pixeltool-qt4", "qcollectiongenerator-qt4": "/usr/local/bin/qcollectiongenerator-qt4", "qdbus-qt4": "/usr/local/bin/qdbus-qt4", "qdbuscpp2xml-qt4": "/usr/local/bin/qdbuscpp2xml-qt4", "qdbusviewer-qt4": "/usr/local/bin/qdbusviewer-qt4", "qdbusxml2cpp-qt4": "/usr/local/bin/qdbusxml2cpp-qt4", "qdoc3-qt4": "/usr/local/bin/qdoc3-qt4", "qhelpconverter-qt4": "/usr/local/bin/qhelpconverter-qt4", "qhelpgenerator-qt4": "/usr/local/bin/qhelpgenerator-qt4", "qmake-qt4": "/usr/local/bin/qmake-qt4", "qmlplugindump-qt4": "/usr/local/bin/qmlplugindump-qt4", "qmlviewer-qt4": "/usr/local/bin/qmlviewer-qt4", "qt3to4-qt4": "/usr/local/bin/qt3to4-qt4", "qtconfig-qt4": "/usr/local/bin/qtconfig-qt4", "qttracereplay-qt4": "/usr/local/bin/qttracereplay-qt4", "rcc-qt4": "/usr/local/bin/rcc-qt4", "ribocount": "/usr/local/bin/ribocount", "riboplot": "/usr/local/bin/riboplot", "uic-qt4": "/usr/local/bin/uic-qt4", "xmlpatterns-qt4": "/usr/local/bin/xmlpatterns-qt4", "xmlpatternsvalidator-qt4": "/usr/local/bin/xmlpatternsvalidator-qt4"}}
+config: {"url": "https://biocontainers.pro/tools/riboplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboplot", "latest": {"0.3.1--py27_2": "sha256:af7dc3f7cdad4cc0992df85a307a29b17c03897932c908178f41bbe81c954e63"}, "tags": {"0.3.1--py27_2": "sha256:af7dc3f7cdad4cc0992df85a307a29b17c03897932c908178f41bbe81c954e63"}, "docker": "quay.io/biocontainers/riboplot", "aliases": {"assistant-qt4": "/usr/local/bin/assistant-qt4", "designer-qt4": "/usr/local/bin/designer-qt4", "lconvert-qt4": "/usr/local/bin/lconvert-qt4", "linguist-qt4": "/usr/local/bin/linguist-qt4", "lrelease-qt4": "/usr/local/bin/lrelease-qt4", "lupdate-qt4": "/usr/local/bin/lupdate-qt4", "moc-qt4": "/usr/local/bin/moc-qt4", "nosetests-2.7": "/usr/local/bin/nosetests-2.7", "pixeltool-qt4": "/usr/local/bin/pixeltool-qt4", "qcollectiongenerator-qt4": "/usr/local/bin/qcollectiongenerator-qt4", "qdbus-qt4": "/usr/local/bin/qdbus-qt4", "qdbuscpp2xml-qt4": "/usr/local/bin/qdbuscpp2xml-qt4", "qdbusviewer-qt4": "/usr/local/bin/qdbusviewer-qt4", "qdbusxml2cpp-qt4": "/usr/local/bin/qdbusxml2cpp-qt4", "qdoc3-qt4": "/usr/local/bin/qdoc3-qt4", "qhelpconverter-qt4": "/usr/local/bin/qhelpconverter-qt4", "qhelpgenerator-qt4": "/usr/local/bin/qhelpgenerator-qt4", "qmake-qt4": "/usr/local/bin/qmake-qt4", "qmlplugindump-qt4": "/usr/local/bin/qmlplugindump-qt4", "qmlviewer-qt4": "/usr/local/bin/qmlviewer-qt4", "qt3to4-qt4": "/usr/local/bin/qt3to4-qt4", "qtconfig-qt4": "/usr/local/bin/qtconfig-qt4", "qttracereplay-qt4": "/usr/local/bin/qttracereplay-qt4", "rcc-qt4": "/usr/local/bin/rcc-qt4", "ribocount": "/usr/local/bin/ribocount", "riboplot": "/usr/local/bin/riboplot", "uic-qt4": "/usr/local/bin/uic-qt4", "xmlpatterns-qt4": "/usr/local/bin/xmlpatterns-qt4", "xmlpatternsvalidator-qt4": "/usr/local/bin/xmlpatternsvalidator-qt4", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "closestBed": "/usr/local/bin/closestBed", "clusterBed": "/usr/local/bin/clusterBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riboplot.
@@ -384,6 +394,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xmlpatterns-qt4   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/xmlpatternsvalidator-qt4
 $ podman run --it --rm --entrypoint /usr/local/bin/xmlpatternsvalidator-qt4   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xmlpatternsvalidator-qt4   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### closestBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/closestBed
+$ podman run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/closestBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clusterBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/clusterBed
+$ podman run --it --rm --entrypoint /usr/local/bin/clusterBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clusterBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

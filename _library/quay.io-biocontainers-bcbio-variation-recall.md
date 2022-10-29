@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/bcbio-variation-recall"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio-variation-recall/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio-variation-recall/container.yaml"
-updated_at: "2022-10-27 00:23:41.411308"
+updated_at: "2022-10-29 05:37:10.708964"
 latest: "0.2.6--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bcbio-variation-recall"
 aliases:
  - "bcbio-variation-recall"
+ - "aserver"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
 versions:
  - "0.2.6--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bcbio-variation-recall"
-config: {"url": "https://biocontainers.pro/tools/bcbio-variation-recall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio-variation-recall", "latest": {"0.2.6--hdfd78af_1": "sha256:1186f9274552dff5d523ae863a0c332bc6b2355c5b642411cef48e6d286205a2"}, "tags": {"0.2.6--hdfd78af_1": "sha256:1186f9274552dff5d523ae863a0c332bc6b2355c5b642411cef48e6d286205a2"}, "docker": "quay.io/biocontainers/bcbio-variation-recall", "aliases": {"bcbio-variation-recall": "/usr/local/bin/bcbio-variation-recall"}}
+config: {"url": "https://biocontainers.pro/tools/bcbio-variation-recall", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio-variation-recall", "latest": {"0.2.6--hdfd78af_1": "sha256:1186f9274552dff5d523ae863a0c332bc6b2355c5b642411cef48e6d286205a2"}, "tags": {"0.2.6--hdfd78af_1": "sha256:1186f9274552dff5d523ae863a0c332bc6b2355c5b642411cef48e6d286205a2"}, "docker": "quay.io/biocontainers/bcbio-variation-recall", "aliases": {"bcbio-variation-recall": "/usr/local/bin/bcbio-variation-recall", "aserver": "/usr/local/bin/aserver", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcbio-variation-recall.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/bcbio-variation-recall
 $ podman run --it --rm --entrypoint /usr/local/bin/bcbio-variation-recall   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bcbio-variation-recall   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

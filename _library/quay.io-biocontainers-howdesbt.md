@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/howdesbt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/howdesbt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/howdesbt/container.yaml"
-updated_at: "2022-10-27 00:36:55.335163"
+updated_at: "2022-10-29 05:54:44.248852"
 latest: "2.00.07--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/howdesbt"
 aliases:
  - "howdesbt"
+ - "jellyfish"
 versions:
  - "2.00.07--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for howdesbt"
-config: {"url": "https://biocontainers.pro/tools/howdesbt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for howdesbt", "latest": {"2.00.07--h9f5acd7_0": "sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d"}, "tags": {"2.00.07--h9f5acd7_0": "sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d"}, "docker": "quay.io/biocontainers/howdesbt", "aliases": {"howdesbt": "/usr/local/bin/howdesbt"}}
+config: {"url": "https://biocontainers.pro/tools/howdesbt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for howdesbt", "latest": {"2.00.07--h9f5acd7_0": "sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d"}, "tags": {"2.00.07--h9f5acd7_0": "sha256:2f65d9482b045fee7237abc8295ca7541649dee872d2955fe49770578186302d"}, "docker": "quay.io/biocontainers/howdesbt", "aliases": {"howdesbt": "/usr/local/bin/howdesbt", "jellyfish": "/usr/local/bin/jellyfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/howdesbt.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/howdesbt
 $ podman run --it --rm --entrypoint /usr/local/bin/howdesbt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/howdesbt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

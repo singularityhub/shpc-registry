@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/perl-moosex-getopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-getopt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-getopt/container.yaml"
-updated_at: "2022-10-27 00:32:19.250802"
+updated_at: "2022-10-29 05:48:36.037980"
 latest: "0.75--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-moosex-getopt"
-
+aliases:
+ - "cpanm"
+ - "moose-outdated"
+ - "package-stash-conflicts"
 versions:
  - "0.75--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-moosex-getopt"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-getopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-getopt", "latest": {"0.75--pl5321hdfd78af_0": "sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f"}, "tags": {"0.75--pl5321hdfd78af_0": "sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f"}, "docker": "quay.io/biocontainers/perl-moosex-getopt"}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-getopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-getopt", "latest": {"0.75--pl5321hdfd78af_0": "sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f"}, "tags": {"0.75--pl5321hdfd78af_0": "sha256:0096db86ed5952cd9386f61cce936c0e840b5b56489941d6d4a89214e190b93f"}, "docker": "quay.io/biocontainers/perl-moosex-getopt", "aliases": {"cpanm": "/usr/local/bin/cpanm", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-getopt.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-moosex-getopt
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### moose-outdated
+
+```bash
+$ singularity exec <container> /usr/local/bin/moose-outdated
+$ podman run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

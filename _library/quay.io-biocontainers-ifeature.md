@@ -4,14 +4,21 @@ name:  "quay.io/biocontainers/ifeature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ifeature/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ifeature/container.yaml"
-updated_at: "2022-10-27 00:19:45.497224"
+updated_at: "2022-10-29 05:31:56.441403"
 latest: "0.0.6--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/ifeature"
-
+aliases:
+ - "2to3-3.8"
+ - "f2py3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
+ - "tqdm"
 versions:
  - "0.0.6--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for ifeature"
-config: {"url": "https://biocontainers.pro/tools/ifeature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ifeature", "latest": {"0.0.6--pyh3252c3a_0": "sha256:38543581856b4525250fabfe5d6abb1f31f9308e41c7fd7ff11010d823c9c191"}, "tags": {"0.0.6--pyh3252c3a_0": "sha256:38543581856b4525250fabfe5d6abb1f31f9308e41c7fd7ff11010d823c9c191"}, "docker": "quay.io/biocontainers/ifeature"}
+config: {"url": "https://biocontainers.pro/tools/ifeature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ifeature", "latest": {"0.0.6--pyh3252c3a_0": "sha256:38543581856b4525250fabfe5d6abb1f31f9308e41c7fd7ff11010d823c9c191"}, "tags": {"0.0.6--pyh3252c3a_0": "sha256:38543581856b4525250fabfe5d6abb1f31f9308e41c7fd7ff11010d823c9c191"}, "docker": "quay.io/biocontainers/ifeature", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ifeature.
@@ -97,14 +104,68 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### ifeature
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

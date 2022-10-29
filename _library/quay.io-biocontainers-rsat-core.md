@@ -4,12 +4,10 @@ name:  "quay.io/biocontainers/rsat-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rsat-core/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rsat-core/container.yaml"
-updated_at: "2022-10-27 00:34:09.402455"
+updated_at: "2022-10-29 05:51:01.240054"
 latest: "2020.02.29--py36pl526r36hc99cbb1_0"
 container_url: "https://biocontainers.pro/tools/rsat-core"
 aliases:
- - ".vmatch-post-link.sh"
- - ".vmatch-pre-unlink.sh"
  - "Vmatchtrans.pl"
  - "bigWigToWig.pl"
  - "chain2dim"
@@ -48,10 +46,20 @@ aliases:
  - "vsubseqselect"
  - "wigToBigWig.pl"
  - "zlib_decompress"
+ - "2to3-3.6"
+ - "SOAPsh.pl"
+ - "ace.pl"
+ - "acyclic"
+ - "amino-acid-composition"
+ - "annotate"
+ - "annotateBed"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
 versions:
  - "2020.02.29--py36pl526r36hc99cbb1_0"
 description: "shpc-registry automated BioContainers addition for rsat-core"
-config: {"url": "https://biocontainers.pro/tools/rsat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsat-core", "latest": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "tags": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "docker": "quay.io/biocontainers/rsat-core", "aliases": {".vmatch-post-link.sh": "/usr/local/bin/.vmatch-post-link.sh", ".vmatch-pre-unlink.sh": "/usr/local/bin/.vmatch-pre-unlink.sh", "Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "bigWigToWig.pl": "/usr/local/bin/bigWigToWig.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "compare-matrices-quick": "/usr/local/bin/compare-matrices-quick", "count-words": "/usr/local/bin/count-words", "cpp": "/usr/local/bin/cpp", "index_bigwigset.pl": "/usr/local/bin/index_bigwigset.pl", "info-gibbs": "/usr/local/bin/info-gibbs", "lz4_decompress": "/usr/local/bin/lz4_decompress", "matchcluster": "/usr/local/bin/matchcluster", "matrix-scan-quick": "/usr/local/bin/matrix-scan-quick", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "mysql.server": "/usr/local/bin/mysql.server", "mysql_client_test_embedded": "/usr/local/bin/mysql_client_test_embedded", "mysql_config_editor": "/usr/local/bin/mysql_config_editor", "mysql_embedded": "/usr/local/bin/mysql_embedded", "mysql_install_db": "/usr/local/bin/mysql_install_db", "mysql_ssl_rsa_setup": "/usr/local/bin/mysql_ssl_rsa_setup", "mysqlpump": "/usr/local/bin/mysqlpump", "mysqltest_embedded": "/usr/local/bin/mysqltest_embedded", "mysqlxtest": "/usr/local/bin/mysqlxtest", "repfind.pl": "/usr/local/bin/repfind.pl", "retrieve-variation-seq": "/usr/local/bin/retrieve-variation-seq", "rsat": "/usr/local/bin/rsat", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "variation-scan": "/usr/local/bin/variation-scan", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "wigToBigWig.pl": "/usr/local/bin/wigToBigWig.pl", "zlib_decompress": "/usr/local/bin/zlib_decompress"}}
+config: {"url": "https://biocontainers.pro/tools/rsat-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rsat-core", "latest": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "tags": {"2020.02.29--py36pl526r36hc99cbb1_0": "sha256:6c033b4da5fa279ef7139b6614a1e6f95f725a3cffffc12b4cbf8c2260313402"}, "docker": "quay.io/biocontainers/rsat-core", "aliases": {"Vmatchtrans.pl": "/usr/local/bin/Vmatchtrans.pl", "bigWigToWig.pl": "/usr/local/bin/bigWigToWig.pl", "chain2dim": "/usr/local/bin/chain2dim", "cleanpp.sh": "/usr/local/bin/cleanpp.sh", "compare-matrices-quick": "/usr/local/bin/compare-matrices-quick", "count-words": "/usr/local/bin/count-words", "cpp": "/usr/local/bin/cpp", "index_bigwigset.pl": "/usr/local/bin/index_bigwigset.pl", "info-gibbs": "/usr/local/bin/info-gibbs", "lz4_decompress": "/usr/local/bin/lz4_decompress", "matchcluster": "/usr/local/bin/matchcluster", "matrix-scan-quick": "/usr/local/bin/matrix-scan-quick", "mkdna6idx": "/usr/local/bin/mkdna6idx", "mkvtree": "/usr/local/bin/mkvtree", "mysql.server": "/usr/local/bin/mysql.server", "mysql_client_test_embedded": "/usr/local/bin/mysql_client_test_embedded", "mysql_config_editor": "/usr/local/bin/mysql_config_editor", "mysql_embedded": "/usr/local/bin/mysql_embedded", "mysql_install_db": "/usr/local/bin/mysql_install_db", "mysql_ssl_rsa_setup": "/usr/local/bin/mysql_ssl_rsa_setup", "mysqlpump": "/usr/local/bin/mysqlpump", "mysqltest_embedded": "/usr/local/bin/mysqltest_embedded", "mysqlxtest": "/usr/local/bin/mysqlxtest", "repfind.pl": "/usr/local/bin/repfind.pl", "retrieve-variation-seq": "/usr/local/bin/retrieve-variation-seq", "rsat": "/usr/local/bin/rsat", "upgradeprj.pl": "/usr/local/bin/upgradeprj.pl", "variation-scan": "/usr/local/bin/variation-scan", "vendian": "/usr/local/bin/vendian", "vmatch": "/usr/local/bin/vmatch", "vmatchselect": "/usr/local/bin/vmatchselect", "vmigrate.sh": "/usr/local/bin/vmigrate.sh", "vseqinfo": "/usr/local/bin/vseqinfo", "vseqselect": "/usr/local/bin/vseqselect", "vstree2tex": "/usr/local/bin/vstree2tex", "vsubseqselect": "/usr/local/bin/vsubseqselect", "wigToBigWig.pl": "/usr/local/bin/wigToBigWig.pl", "zlib_decompress": "/usr/local/bin/zlib_decompress", "2to3-3.6": "/usr/local/bin/2to3-3.6", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate": "/usr/local/bin/annotate", "annotateBed": "/usr/local/bin/annotateBed", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rsat-core.
@@ -134,24 +142,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .vmatch-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.vmatch-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.vmatch-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.vmatch-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .vmatch-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.vmatch-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.vmatch-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.vmatch-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -494,6 +484,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wigToBigWig.pl   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/zlib_decompress
 $ podman run --it --rm --entrypoint /usr/local/bin/zlib_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/zlib_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SOAPsh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

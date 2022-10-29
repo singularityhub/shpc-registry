@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/python-sortedcontainers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-sortedcontainers/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-sortedcontainers/container.yaml"
-updated_at: "2022-10-27 00:25:44.466463"
+updated_at: "2022-10-29 05:39:53.003379"
 latest: "2.4.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/python-sortedcontainers"
-
+aliases:
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "2.4.0--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for python-sortedcontainers"
-config: {"url": "https://biocontainers.pro/tools/python-sortedcontainers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-sortedcontainers", "latest": {"2.4.0--pyh5e36f6f_0": "sha256:e3f300e7095caf143beed0cebe1bec65bd8bbd225b03f91bbe57a94756e33637"}, "tags": {"2.4.0--pyh5e36f6f_0": "sha256:e3f300e7095caf143beed0cebe1bec65bd8bbd225b03f91bbe57a94756e33637"}, "docker": "quay.io/biocontainers/python-sortedcontainers"}
+config: {"url": "https://biocontainers.pro/tools/python-sortedcontainers", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-sortedcontainers", "latest": {"2.4.0--pyh5e36f6f_0": "sha256:e3f300e7095caf143beed0cebe1bec65bd8bbd225b03f91bbe57a94756e33637"}, "tags": {"2.4.0--pyh5e36f6f_0": "sha256:e3f300e7095caf143beed0cebe1bec65bd8bbd225b03f91bbe57a94756e33637"}, "docker": "quay.io/biocontainers/python-sortedcontainers", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-sortedcontainers.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### python-sortedcontainers
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

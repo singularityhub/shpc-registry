@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch38/container.yaml"
-updated_at: "2022-10-27 00:21:14.088141"
+updated_at: "2022-10-29 05:33:53.940222"
 latest: "0.99.20--r40_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp144.grch38"
 aliases:
- - ".bioconductor-snplocs.hsapiens.dbsnp144.grch38-post-link.sh"
- - ".bioconductor-snplocs.hsapiens.dbsnp144.grch38-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.99.20--r40_9"
 description: "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp144.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp144.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp144.grch38", "latest": {"0.99.20--r40_9": "sha256:9106029143869aa14120743663dfe36c5413cc9ef45e8e3f556feb21171422a8"}, "tags": {"0.99.20--r40_9": "sha256:9106029143869aa14120743663dfe36c5413cc9ef45e8e3f556feb21171422a8"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch38", "aliases": {".bioconductor-snplocs.hsapiens.dbsnp144.grch38-post-link.sh": "/usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-post-link.sh", ".bioconductor-snplocs.hsapiens.dbsnp144.grch38-pre-unlink.sh": "/usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp144.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp144.grch38", "latest": {"0.99.20--r40_9": "sha256:9106029143869aa14120743663dfe36c5413cc9ef45e8e3f556feb21171422a8"}, "tags": {"0.99.20--r40_9": "sha256:9106029143869aa14120743663dfe36c5413cc9ef45e8e3f556feb21171422a8"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch38", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp144.grch38.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-snplocs.hsapiens.dbsnp144.grch38-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-snplocs.hsapiens.dbsnp144.grch38-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp144.grch38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

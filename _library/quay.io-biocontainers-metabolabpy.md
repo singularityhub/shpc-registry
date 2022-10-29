@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metabolabpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabolabpy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metabolabpy/container.yaml"
-updated_at: "2022-10-27 00:19:58.782436"
+updated_at: "2022-10-29 05:32:13.333113"
 latest: "0.6.53--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/metabolabpy"
 aliases:
@@ -15,10 +15,20 @@ aliases:
  - "pyside_tool.py"
  - "shiboken2"
  - "shiboken_tool.py"
+ - "2to3-3.9"
+ - "aserver"
+ - "assistant"
+ - "brotli"
+ - "canbusutil"
+ - "certutil"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
 versions:
  - "0.6.53--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metabolabpy"
-config: {"url": "https://biocontainers.pro/tools/metabolabpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabolabpy", "latest": {"0.6.53--pyhdfd78af_0": "sha256:6b212bdc302726f737019f386d0ddef9a3e22c0d35292e64d24d41eda1b09e55"}, "tags": {"0.6.53--pyhdfd78af_0": "sha256:6b212bdc302726f737019f386d0ddef9a3e22c0d35292e64d24d41eda1b09e55"}, "docker": "quay.io/biocontainers/metabolabpy", "aliases": {"metabolabpy": "/usr/local/bin/metabolabpy", "pyside2-lupdate": "/usr/local/bin/pyside2-lupdate", "pyside2-rcc": "/usr/local/bin/pyside2-rcc", "pyside2-uic": "/usr/local/bin/pyside2-uic", "pyside_tool.py": "/usr/local/bin/pyside_tool.py", "shiboken2": "/usr/local/bin/shiboken2", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py"}}
+config: {"url": "https://biocontainers.pro/tools/metabolabpy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metabolabpy", "latest": {"0.6.53--pyhdfd78af_0": "sha256:6b212bdc302726f737019f386d0ddef9a3e22c0d35292e64d24d41eda1b09e55"}, "tags": {"0.6.53--pyhdfd78af_0": "sha256:6b212bdc302726f737019f386d0ddef9a3e22c0d35292e64d24d41eda1b09e55"}, "docker": "quay.io/biocontainers/metabolabpy", "aliases": {"metabolabpy": "/usr/local/bin/metabolabpy", "pyside2-lupdate": "/usr/local/bin/pyside2-lupdate", "pyside2-rcc": "/usr/local/bin/pyside2-rcc", "pyside2-uic": "/usr/local/bin/pyside2-uic", "pyside_tool.py": "/usr/local/bin/pyside_tool.py", "shiboken2": "/usr/local/bin/shiboken2", "shiboken_tool.py": "/usr/local/bin/shiboken_tool.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "brotli": "/usr/local/bin/brotli", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metabolabpy.
@@ -164,6 +174,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shiboken2   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/shiboken_tool.py
 $ podman run --it --rm --entrypoint /usr/local/bin/shiboken_tool.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/shiboken_tool.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

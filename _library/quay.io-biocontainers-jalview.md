@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/jalview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jalview/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jalview/container.yaml"
-updated_at: "2022-10-27 00:37:58.110288"
+updated_at: "2022-10-29 05:56:05.730157"
 latest: "2.11.2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jalview"
 aliases:
  - "jalview"
+ - "2to3-3.10"
+ - "aserver"
+ - "cups-config"
+ - "idle3.10"
+ - "ippeveprinter"
+ - "ipptool"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
+ - "java"
 versions:
  - "2.11.2.4--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for jalview"
-config: {"url": "https://biocontainers.pro/tools/jalview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jalview", "latest": {"2.11.2.4--hdfd78af_0": "sha256:d2ee7d5c9d85a0c676de8e2f87a8dd627d5a63773b6e8b57b695c38a5ae4377b"}, "tags": {"2.11.2.4--hdfd78af_0": "sha256:d2ee7d5c9d85a0c676de8e2f87a8dd627d5a63773b6e8b57b695c38a5ae4377b"}, "docker": "quay.io/biocontainers/jalview", "aliases": {"jalview": "/usr/local/bin/jalview"}}
+config: {"url": "https://biocontainers.pro/tools/jalview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jalview", "latest": {"2.11.2.4--hdfd78af_0": "sha256:d2ee7d5c9d85a0c676de8e2f87a8dd627d5a63773b6e8b57b695c38a5ae4377b"}, "tags": {"2.11.2.4--hdfd78af_0": "sha256:d2ee7d5c9d85a0c676de8e2f87a8dd627d5a63773b6e8b57b695c38a5ae4377b"}, "docker": "quay.io/biocontainers/jalview", "aliases": {"jalview": "/usr/local/bin/jalview", "2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "cups-config": "/usr/local/bin/cups-config", "idle3.10": "/usr/local/bin/idle3.10", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jalview.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/jalview
 $ podman run --it --rm --entrypoint /usr/local/bin/jalview   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/jalview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cups-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/cups-config
+$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ippeveprinter
+
+```bash
+$ singularity exec <container> /usr/local/bin/ippeveprinter
+$ podman run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipptool
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipptool
+$ podman run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

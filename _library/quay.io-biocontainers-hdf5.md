@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/hdf5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hdf5/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hdf5/container.yaml"
-updated_at: "2022-10-27 00:30:41.789872"
+updated_at: "2022-10-29 05:46:26.103683"
 latest: "1.10.4"
 container_url: "https://biocontainers.pro/tools/hdf5"
-
+aliases:
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
+ - "h5diff"
+ - "h5dump"
+ - "h5fc"
 versions:
  - "1.10.4"
 description: "shpc-registry automated BioContainers addition for hdf5"
-config: {"url": "https://biocontainers.pro/tools/hdf5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hdf5", "latest": {"1.10.4": "sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306"}, "tags": {"1.10.4": "sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306"}, "docker": "quay.io/biocontainers/hdf5"}
+config: {"url": "https://biocontainers.pro/tools/hdf5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hdf5", "latest": {"1.10.4": "sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306"}, "tags": {"1.10.4": "sha256:83dc56674b08992f4aa0637c5164ba56579976d4f83962ab95996237ae11a306"}, "docker": "quay.io/biocontainers/hdf5", "aliases": {"gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5dump": "/usr/local/bin/h5dump", "h5fc": "/usr/local/bin/h5fc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hdf5.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### hdf5
+#### gif2h5
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5diff
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5diff
+$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5dump
+$ podman run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5fc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5fc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5fc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metavelvet-sl-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet-sl-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet-sl-pipeline/container.yaml"
-updated_at: "2022-10-27 00:19:28.373524"
+updated_at: "2022-10-29 05:31:34.672119"
 latest: "1.0--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/metavelvet-sl-pipeline"
 aliases:
@@ -27,10 +27,20 @@ aliases:
  - "metaphlan2krona.py"
  - "run-annoIS.pl"
  - "subset.py"
+ - "bowtie2"
+ - "bowtie2-align-l"
+ - "bowtie2-align-s"
+ - "bowtie2-build"
+ - "bowtie2-build-l"
+ - "bowtie2-build-s"
+ - "bowtie2-inspect"
+ - "bowtie2-inspect-l"
+ - "bowtie2-inspect-s"
+ - "c2ph"
 versions:
  - "1.0--pl5.22.0_0"
 description: "shpc-registry automated BioContainers addition for metavelvet-sl-pipeline"
-config: {"url": "https://biocontainers.pro/tools/metavelvet-sl-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-sl-pipeline", "latest": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "tags": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "docker": "quay.io/biocontainers/metavelvet-sl-pipeline", "aliases": {"FeatureExtract.pl": "/usr/local/bin/FeatureExtract.pl", "FeatureExtractPredict.pl": "/usr/local/bin/FeatureExtractPredict.pl", "GenerateCommand.pl": "/usr/local/bin/GenerateCommand.pl", "ReadTaxon.pl": "/usr/local/bin/ReadTaxon.pl", "checkdata.py": "/usr/local/bin/checkdata.py", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "dwgsim_eval_plot.py": "/usr/local/bin/dwgsim_eval_plot.py", "dwgsim_mut_to_vcf.pl": "/usr/local/bin/dwgsim_mut_to_vcf.pl", "dwgsim_pileup_eval.pl": "/usr/local/bin/dwgsim_pileup_eval.pl", "easy.py": "/usr/local/bin/easy.py", "eval.pl": "/usr/local/bin/eval.pl", "grid.py": "/usr/local/bin/grid.py", "meta-velvete": "/usr/local/bin/meta-velvete", "meta-velvetg": "/usr/local/bin/meta-velvetg", "metaphlan2.py": "/usr/local/bin/metaphlan2.py", "metaphlan2krona.py": "/usr/local/bin/metaphlan2krona.py", "run-annoIS.pl": "/usr/local/bin/run-annoIS.pl", "subset.py": "/usr/local/bin/subset.py"}}
+config: {"url": "https://biocontainers.pro/tools/metavelvet-sl-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-sl-pipeline", "latest": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "tags": {"1.0--pl5.22.0_0": "sha256:ff4bbe216a58af3ab40afd13f3dd62c95bb0ad704443be1201d0671ff5ab7be9"}, "docker": "quay.io/biocontainers/metavelvet-sl-pipeline", "aliases": {"FeatureExtract.pl": "/usr/local/bin/FeatureExtract.pl", "FeatureExtractPredict.pl": "/usr/local/bin/FeatureExtractPredict.pl", "GenerateCommand.pl": "/usr/local/bin/GenerateCommand.pl", "ReadTaxon.pl": "/usr/local/bin/ReadTaxon.pl", "checkdata.py": "/usr/local/bin/checkdata.py", "dwgsim": "/usr/local/bin/dwgsim", "dwgsim_eval": "/usr/local/bin/dwgsim_eval", "dwgsim_eval_plot.py": "/usr/local/bin/dwgsim_eval_plot.py", "dwgsim_mut_to_vcf.pl": "/usr/local/bin/dwgsim_mut_to_vcf.pl", "dwgsim_pileup_eval.pl": "/usr/local/bin/dwgsim_pileup_eval.pl", "easy.py": "/usr/local/bin/easy.py", "eval.pl": "/usr/local/bin/eval.pl", "grid.py": "/usr/local/bin/grid.py", "meta-velvete": "/usr/local/bin/meta-velvete", "meta-velvetg": "/usr/local/bin/meta-velvetg", "metaphlan2.py": "/usr/local/bin/metaphlan2.py", "metaphlan2krona.py": "/usr/local/bin/metaphlan2krona.py", "run-annoIS.pl": "/usr/local/bin/run-annoIS.pl", "subset.py": "/usr/local/bin/subset.py", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect", "bowtie2-inspect-l": "/usr/local/bin/bowtie2-inspect-l", "bowtie2-inspect-s": "/usr/local/bin/bowtie2-inspect-s", "c2ph": "/usr/local/bin/c2ph"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metavelvet-sl-pipeline.
@@ -284,6 +294,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run-annoIS.pl   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/subset.py
 $ podman run --it --rm --entrypoint /usr/local/bin/subset.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/subset.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c2ph
+
+```bash
+$ singularity exec <container> /usr/local/bin/c2ph
+$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/probamconvert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probamconvert/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/probamconvert/container.yaml"
-updated_at: "2022-10-27 00:31:13.504493"
+updated_at: "2022-10-29 05:47:08.036018"
 latest: "1.0.2--2"
 container_url: "https://biocontainers.pro/tools/probamconvert"
 aliases:
@@ -19,10 +19,20 @@ aliases:
  - "proBAM_mzid.py"
  - "proBAM_pepxml.py"
  - "proBAM_proBED.py"
+ - "ace2sam"
+ - "aggregate_profile.pl"
+ - "assistant"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "browse"
+ - "canbusutil"
+ - "chardetect"
 versions:
  - "1.0.2--2"
 description: "shpc-registry automated BioContainers addition for probamconvert"
-config: {"url": "https://biocontainers.pro/tools/probamconvert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probamconvert", "latest": {"1.0.2--2": "sha256:166c6e14e70dd9163ac7d4a139d76f38d6a7d9d3fe87f994387293941eb6f8c2"}, "tags": {"1.0.2--2": "sha256:166c6e14e70dd9163ac7d4a139d76f38d6a7d9d3fe87f994387293941eb6f8c2"}, "docker": "quay.io/biocontainers/probamconvert", "aliases": {"proBAM.py": "/usr/local/bin/proBAM.py", "proBAM_ENSEMBL.py": "/usr/local/bin/proBAM_ENSEMBL.py", "proBAM_GUI.py": "/usr/local/bin/proBAM_GUI.py", "proBAM_IDparser.py": "/usr/local/bin/proBAM_IDparser.py", "proBAM_biomart.py": "/usr/local/bin/proBAM_biomart.py", "proBAM_coref.py": "/usr/local/bin/proBAM_coref.py", "proBAM_input.py": "/usr/local/bin/proBAM_input.py", "proBAM_mzTab.py": "/usr/local/bin/proBAM_mzTab.py", "proBAM_mzid.py": "/usr/local/bin/proBAM_mzid.py", "proBAM_pepxml.py": "/usr/local/bin/proBAM_pepxml.py", "proBAM_proBED.py": "/usr/local/bin/proBAM_proBED.py"}}
+config: {"url": "https://biocontainers.pro/tools/probamconvert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probamconvert", "latest": {"1.0.2--2": "sha256:166c6e14e70dd9163ac7d4a139d76f38d6a7d9d3fe87f994387293941eb6f8c2"}, "tags": {"1.0.2--2": "sha256:166c6e14e70dd9163ac7d4a139d76f38d6a7d9d3fe87f994387293941eb6f8c2"}, "docker": "quay.io/biocontainers/probamconvert", "aliases": {"proBAM.py": "/usr/local/bin/proBAM.py", "proBAM_ENSEMBL.py": "/usr/local/bin/proBAM_ENSEMBL.py", "proBAM_GUI.py": "/usr/local/bin/proBAM_GUI.py", "proBAM_IDparser.py": "/usr/local/bin/proBAM_IDparser.py", "proBAM_biomart.py": "/usr/local/bin/proBAM_biomart.py", "proBAM_coref.py": "/usr/local/bin/proBAM_coref.py", "proBAM_input.py": "/usr/local/bin/proBAM_input.py", "proBAM_mzTab.py": "/usr/local/bin/proBAM_mzTab.py", "proBAM_mzid.py": "/usr/local/bin/proBAM_mzid.py", "proBAM_pepxml.py": "/usr/local/bin/proBAM_pepxml.py", "proBAM_proBED.py": "/usr/local/bin/proBAM_proBED.py", "ace2sam": "/usr/local/bin/ace2sam", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "assistant": "/usr/local/bin/assistant", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "browse": "/usr/local/bin/browse", "canbusutil": "/usr/local/bin/canbusutil", "chardetect": "/usr/local/bin/chardetect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/probamconvert.
@@ -204,6 +214,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/proBAM_pepxml.py   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/proBAM_proBED.py
 $ podman run --it --rm --entrypoint /usr/local/bin/proBAM_proBED.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/proBAM_proBED.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_profile.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### browse
+
+```bash
+$ singularity exec <container> /usr/local/bin/browse
+$ podman run --it --rm --entrypoint /usr/local/bin/browse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/browse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

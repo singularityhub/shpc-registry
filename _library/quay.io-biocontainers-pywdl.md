@@ -4,17 +4,24 @@ name:  "quay.io/biocontainers/pywdl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pywdl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pywdl/container.yaml"
-updated_at: "2022-10-27 00:27:23.017321"
+updated_at: "2022-10-29 05:42:05.651916"
 latest: "1.0.22--pyh864c0ab_3"
 container_url: "https://biocontainers.pro/tools/pywdl"
 aliases:
  - "wdl"
  - "wdl2dot"
  - "xtermcolor"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "py.test"
+ - "pydoc3.8"
+ - "pytest"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.0.22--pyh864c0ab_3"
 description: "shpc-registry automated BioContainers addition for pywdl"
-config: {"url": "https://biocontainers.pro/tools/pywdl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pywdl", "latest": {"1.0.22--pyh864c0ab_3": "sha256:9b107804b67c4afe83bef340b559a12c4d71894bf363087d41409a5c389b3e56"}, "tags": {"1.0.22--pyh864c0ab_3": "sha256:9b107804b67c4afe83bef340b559a12c4d71894bf363087d41409a5c389b3e56"}, "docker": "quay.io/biocontainers/pywdl", "aliases": {"wdl": "/usr/local/bin/wdl", "wdl2dot": "/usr/local/bin/wdl2dot", "xtermcolor": "/usr/local/bin/xtermcolor"}}
+config: {"url": "https://biocontainers.pro/tools/pywdl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pywdl", "latest": {"1.0.22--pyh864c0ab_3": "sha256:9b107804b67c4afe83bef340b559a12c4d71894bf363087d41409a5c389b3e56"}, "tags": {"1.0.22--pyh864c0ab_3": "sha256:9b107804b67c4afe83bef340b559a12c4d71894bf363087d41409a5c389b3e56"}, "docker": "quay.io/biocontainers/pywdl", "aliases": {"wdl": "/usr/local/bin/wdl", "wdl2dot": "/usr/local/bin/wdl2dot", "xtermcolor": "/usr/local/bin/xtermcolor", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "py.test": "/usr/local/bin/py.test", "pydoc3.8": "/usr/local/bin/pydoc3.8", "pytest": "/usr/local/bin/pytest", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pywdl.
@@ -124,6 +131,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wdl2dot   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/xtermcolor
 $ podman run --it --rm --entrypoint /usr/local/bin/xtermcolor   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xtermcolor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### py.test
+
+```bash
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pytest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-shazam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shazam/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-shazam/container.yaml"
-updated_at: "2022-10-27 00:28:16.111140"
+updated_at: "2022-10-29 05:43:13.930141"
 latest: "1.1.2--r41h3121a25_0"
 container_url: "https://biocontainers.pro/tools/r-shazam"
-
+aliases:
+ - "glpsol"
 versions:
  - "1.1.2--r41h3121a25_0"
 description: "shpc-registry automated BioContainers addition for r-shazam"
-config: {"url": "https://biocontainers.pro/tools/r-shazam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shazam", "latest": {"1.1.2--r41h3121a25_0": "sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb"}, "tags": {"1.1.2--r41h3121a25_0": "sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb"}, "docker": "quay.io/biocontainers/r-shazam"}
+config: {"url": "https://biocontainers.pro/tools/r-shazam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shazam", "latest": {"1.1.2--r41h3121a25_0": "sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb"}, "tags": {"1.1.2--r41h3121a25_0": "sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb"}, "docker": "quay.io/biocontainers/r-shazam", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-shazam.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-shazam
+#### glpsol
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

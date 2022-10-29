@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/perl-xml-dom-xpath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-dom-xpath/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-dom-xpath/container.yaml"
-updated_at: "2022-10-27 00:31:11.801125"
+updated_at: "2022-10-29 05:47:05.897837"
 latest: "0.14--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-xml-dom-xpath"
-
+aliases:
+ - "lwp-download"
+ - "lwp-dump"
+ - "lwp-mirror"
+ - "lwp-request"
 versions:
  - "0.14--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-xml-dom-xpath"
-config: {"url": "https://biocontainers.pro/tools/perl-xml-dom-xpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-dom-xpath", "latest": {"0.14--pl5321hdfd78af_2": "sha256:260ff3adee3b847e89b0aab1f67eecd88f05810a6de0c9a46b4fc01e521f5849"}, "tags": {"0.14--pl5321hdfd78af_2": "sha256:260ff3adee3b847e89b0aab1f67eecd88f05810a6de0c9a46b4fc01e521f5849"}, "docker": "quay.io/biocontainers/perl-xml-dom-xpath"}
+config: {"url": "https://biocontainers.pro/tools/perl-xml-dom-xpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-dom-xpath", "latest": {"0.14--pl5321hdfd78af_2": "sha256:260ff3adee3b847e89b0aab1f67eecd88f05810a6de0c9a46b4fc01e521f5849"}, "tags": {"0.14--pl5321hdfd78af_2": "sha256:260ff3adee3b847e89b0aab1f67eecd88f05810a6de0c9a46b4fc01e521f5849"}, "docker": "quay.io/biocontainers/perl-xml-dom-xpath", "aliases": {"lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-xml-dom-xpath.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-xml-dom-xpath
+#### lwp-download
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/lwp-download
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### lwp-dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-dump
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-mirror
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-mirror
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-request
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-request
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

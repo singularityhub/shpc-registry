@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconvert"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconvert/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconvert/container.yaml"
-updated_at: "2022-10-27 00:23:53.333500"
+updated_at: "2022-10-29 05:37:25.842514"
 latest: "0.6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconvert"
 aliases:
@@ -111,10 +111,20 @@ aliases:
  - "vdb-unlock.2.11.0"
  - "vdb-validate.2.11.0"
  - "wiggletools"
+ - "2to3-3.10"
+ - "abi-dump"
+ - "abi-dump.2"
+ - "ace2sam"
+ - "align-cache"
+ - "align-cache.2"
+ - "align-info"
+ - "align-info.2"
+ - "annotateBed"
+ - "bam-load"
 versions:
  - "0.6.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconvert"
-config: {"url": "https://biocontainers.pro/tools/bioconvert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconvert", "latest": {"0.6.1--pyhdfd78af_0": "sha256:262ea39364508f827346e032a57713f5b043079ff282be34b6361a4267981335"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:262ea39364508f827346e032a57713f5b043079ff282be34b6361a4267981335"}, "docker": "quay.io/biocontainers/bioconvert", "aliases": {"abi-dump.2.11.0": "/usr/local/bin/abi-dump.2.11.0", "abi-load": "/usr/local/bin/abi-load", "abi-load.2": "/usr/local/bin/abi-load.2", "abi-load.2.11.0": "/usr/local/bin/abi-load.2.11.0", "align-cache.2.11.0": "/usr/local/bin/align-cache.2.11.0", "align-info.2.11.0": "/usr/local/bin/align-info.2.11.0", "alignmentSieve": "/usr/local/bin/alignmentSieve", "bam-load.2.11.0": "/usr/local/bin/bam-load.2.11.0", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "bioconvert": "/usr/local/bin/bioconvert", "bioconvert_init": "/usr/local/bin/bioconvert_init", "bioconvert_stats": "/usr/local/bin/bioconvert_stats", "biosniff": "/usr/local/bin/biosniff", "cache-mgr.2.11.0": "/usr/local/bin/cache-mgr.2.11.0", "ccextract": "/usr/local/bin/ccextract", "ccextract.2": "/usr/local/bin/ccextract.2", "ccextract.2.11.0": "/usr/local/bin/ccextract.2.11.0", "cg-load.2.11.0": "/usr/local/bin/cg-load.2.11.0", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "dsrc": "/usr/local/bin/dsrc", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "fasterq-dump-orig.2.11.0": "/usr/local/bin/fasterq-dump-orig.2.11.0", "fasterq-dump.2.11.0": "/usr/local/bin/fasterq-dump.2.11.0", "fastq-dump-orig.2.11.0": "/usr/local/bin/fastq-dump-orig.2.11.0", "fastq-dump.2.11.0": "/usr/local/bin/fastq-dump.2.11.0", "fastq-load": "/usr/local/bin/fastq-load", "fastq-load.2": "/usr/local/bin/fastq-load.2", "fastq-load.2.11.0": "/usr/local/bin/fastq-load.2.11.0", "go": "/usr/local/bin/go", "gofmt": "/usr/local/bin/gofmt", "helicos-load": "/usr/local/bin/helicos-load", "helicos-load.2": "/usr/local/bin/helicos-load.2", "helicos-load.2.11.0": "/usr/local/bin/helicos-load.2.11.0", "illumina-dump.2.11.0": "/usr/local/bin/illumina-dump.2.11.0", "illumina-load": "/usr/local/bin/illumina-load", "illumina-load.2": "/usr/local/bin/illumina-load.2", "illumina-load.2.11.0": "/usr/local/bin/illumina-load.2.11.0", "kar.2.11.0": "/usr/local/bin/kar.2.11.0", "kdbmeta.2.11.0": "/usr/local/bin/kdbmeta.2.11.0", "kget.2.11.0": "/usr/local/bin/kget.2.11.0", "latf-load.2.11.0": "/usr/local/bin/latf-load.2.11.0", "mawk": "/usr/local/bin/mawk", "md5cp.2.11.0": "/usr/local/bin/md5cp.2.11.0", "mosdepth": "/usr/local/bin/mosdepth", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "pacbio-load": "/usr/local/bin/pacbio-load", "pacbio-load.2": "/usr/local/bin/pacbio-load.2", "pacbio-load.2.11.0": "/usr/local/bin/pacbio-load.2.11.0", "pacbio-loadxml": "/usr/local/bin/pacbio-loadxml", "pacbio-loadxml.2": "/usr/local/bin/pacbio-loadxml.2", "pacbio-loadxml.2.11.0": "/usr/local/bin/pacbio-loadxml.2.11.0", "plink": "/usr/local/bin/plink", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "prefetch-orig.2.11.0": "/usr/local/bin/prefetch-orig.2.11.0", "prefetch.2.11.0": "/usr/local/bin/prefetch.2.11.0", "rcexplain.2.11.0": "/usr/local/bin/rcexplain.2.11.0", "read-filter-redact.2.11.0": "/usr/local/bin/read-filter-redact.2.11.0", "sam-dump-orig.2.11.0": "/usr/local/bin/sam-dump-orig.2.11.0", "sam-dump.2.11.0": "/usr/local/bin/sam-dump.2.11.0", "sff-dump.2.11.0": "/usr/local/bin/sff-dump.2.11.0", "sff-load": "/usr/local/bin/sff-load", "sff-load.2": "/usr/local/bin/sff-load.2", "sff-load.2.11.0": "/usr/local/bin/sff-load.2.11.0", "squizz": "/usr/local/bin/squizz", "sra-pileup-orig.2.11.0": "/usr/local/bin/sra-pileup-orig.2.11.0", "sra-pileup.2.11.0": "/usr/local/bin/sra-pileup.2.11.0", "sra-sort-cg.2.11.0": "/usr/local/bin/sra-sort-cg.2.11.0", "sra-sort.2.11.0": "/usr/local/bin/sra-sort.2.11.0", "sra-stat.2.11.0": "/usr/local/bin/sra-stat.2.11.0", "srapath-orig.2.11.0": "/usr/local/bin/srapath-orig.2.11.0", "srapath.2.11.0": "/usr/local/bin/srapath.2.11.0", "sratools.2.11.0": "/usr/local/bin/sratools.2.11.0", "srf-load": "/usr/local/bin/srf-load", "srf-load.2": "/usr/local/bin/srf-load.2", "srf-load.2.11.0": "/usr/local/bin/srf-load.2.11.0", "test-sra.2.11.0": "/usr/local/bin/test-sra.2.11.0", "vdb-config.2.11.0": "/usr/local/bin/vdb-config.2.11.0", "vdb-copy.2.11.0": "/usr/local/bin/vdb-copy.2.11.0", "vdb-decrypt.2.11.0": "/usr/local/bin/vdb-decrypt.2.11.0", "vdb-diff.2.11.0": "/usr/local/bin/vdb-diff.2.11.0", "vdb-dump-orig.2.11.0": "/usr/local/bin/vdb-dump-orig.2.11.0", "vdb-dump.2.11.0": "/usr/local/bin/vdb-dump.2.11.0", "vdb-encrypt.2.11.0": "/usr/local/bin/vdb-encrypt.2.11.0", "vdb-lock.2.11.0": "/usr/local/bin/vdb-lock.2.11.0", "vdb-passwd.2.11.0": "/usr/local/bin/vdb-passwd.2.11.0", "vdb-unlock.2.11.0": "/usr/local/bin/vdb-unlock.2.11.0", "vdb-validate.2.11.0": "/usr/local/bin/vdb-validate.2.11.0", "wiggletools": "/usr/local/bin/wiggletools"}}
+config: {"url": "https://biocontainers.pro/tools/bioconvert", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconvert", "latest": {"0.6.1--pyhdfd78af_0": "sha256:262ea39364508f827346e032a57713f5b043079ff282be34b6361a4267981335"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:262ea39364508f827346e032a57713f5b043079ff282be34b6361a4267981335"}, "docker": "quay.io/biocontainers/bioconvert", "aliases": {"abi-dump.2.11.0": "/usr/local/bin/abi-dump.2.11.0", "abi-load": "/usr/local/bin/abi-load", "abi-load.2": "/usr/local/bin/abi-load.2", "abi-load.2.11.0": "/usr/local/bin/abi-load.2.11.0", "align-cache.2.11.0": "/usr/local/bin/align-cache.2.11.0", "align-info.2.11.0": "/usr/local/bin/align-info.2.11.0", "alignmentSieve": "/usr/local/bin/alignmentSieve", "bam-load.2.11.0": "/usr/local/bin/bam-load.2.11.0", "bamCompare": "/usr/local/bin/bamCompare", "bamCoverage": "/usr/local/bin/bamCoverage", "bamPEFragmentSize": "/usr/local/bin/bamPEFragmentSize", "bigwigCompare": "/usr/local/bin/bigwigCompare", "bioconvert": "/usr/local/bin/bioconvert", "bioconvert_init": "/usr/local/bin/bioconvert_init", "bioconvert_stats": "/usr/local/bin/bioconvert_stats", "biosniff": "/usr/local/bin/biosniff", "cache-mgr.2.11.0": "/usr/local/bin/cache-mgr.2.11.0", "ccextract": "/usr/local/bin/ccextract", "ccextract.2": "/usr/local/bin/ccextract.2", "ccextract.2.11.0": "/usr/local/bin/ccextract.2.11.0", "cg-load.2.11.0": "/usr/local/bin/cg-load.2.11.0", "computeGCBias": "/usr/local/bin/computeGCBias", "computeMatrix": "/usr/local/bin/computeMatrix", "computeMatrixOperations": "/usr/local/bin/computeMatrixOperations", "correctGCBias": "/usr/local/bin/correctGCBias", "deeptools": "/usr/local/bin/deeptools", "dsrc": "/usr/local/bin/dsrc", "estimateReadFiltering": "/usr/local/bin/estimateReadFiltering", "estimateScaleFactor": "/usr/local/bin/estimateScaleFactor", "fasterq-dump-orig.2.11.0": "/usr/local/bin/fasterq-dump-orig.2.11.0", "fasterq-dump.2.11.0": "/usr/local/bin/fasterq-dump.2.11.0", "fastq-dump-orig.2.11.0": "/usr/local/bin/fastq-dump-orig.2.11.0", "fastq-dump.2.11.0": "/usr/local/bin/fastq-dump.2.11.0", "fastq-load": "/usr/local/bin/fastq-load", "fastq-load.2": "/usr/local/bin/fastq-load.2", "fastq-load.2.11.0": "/usr/local/bin/fastq-load.2.11.0", "go": "/usr/local/bin/go", "gofmt": "/usr/local/bin/gofmt", "helicos-load": "/usr/local/bin/helicos-load", "helicos-load.2": "/usr/local/bin/helicos-load.2", "helicos-load.2.11.0": "/usr/local/bin/helicos-load.2.11.0", "illumina-dump.2.11.0": "/usr/local/bin/illumina-dump.2.11.0", "illumina-load": "/usr/local/bin/illumina-load", "illumina-load.2": "/usr/local/bin/illumina-load.2", "illumina-load.2.11.0": "/usr/local/bin/illumina-load.2.11.0", "kar.2.11.0": "/usr/local/bin/kar.2.11.0", "kdbmeta.2.11.0": "/usr/local/bin/kdbmeta.2.11.0", "kget.2.11.0": "/usr/local/bin/kget.2.11.0", "latf-load.2.11.0": "/usr/local/bin/latf-load.2.11.0", "mawk": "/usr/local/bin/mawk", "md5cp.2.11.0": "/usr/local/bin/md5cp.2.11.0", "mosdepth": "/usr/local/bin/mosdepth", "multiBamSummary": "/usr/local/bin/multiBamSummary", "multiBigwigSummary": "/usr/local/bin/multiBigwigSummary", "pacbio-load": "/usr/local/bin/pacbio-load", "pacbio-load.2": "/usr/local/bin/pacbio-load.2", "pacbio-load.2.11.0": "/usr/local/bin/pacbio-load.2.11.0", "pacbio-loadxml": "/usr/local/bin/pacbio-loadxml", "pacbio-loadxml.2": "/usr/local/bin/pacbio-loadxml.2", "pacbio-loadxml.2.11.0": "/usr/local/bin/pacbio-loadxml.2.11.0", "plink": "/usr/local/bin/plink", "plotCorrelation": "/usr/local/bin/plotCorrelation", "plotCoverage": "/usr/local/bin/plotCoverage", "plotEnrichment": "/usr/local/bin/plotEnrichment", "plotFingerprint": "/usr/local/bin/plotFingerprint", "plotHeatmap": "/usr/local/bin/plotHeatmap", "plotPCA": "/usr/local/bin/plotPCA", "plotProfile": "/usr/local/bin/plotProfile", "prefetch-orig.2.11.0": "/usr/local/bin/prefetch-orig.2.11.0", "prefetch.2.11.0": "/usr/local/bin/prefetch.2.11.0", "rcexplain.2.11.0": "/usr/local/bin/rcexplain.2.11.0", "read-filter-redact.2.11.0": "/usr/local/bin/read-filter-redact.2.11.0", "sam-dump-orig.2.11.0": "/usr/local/bin/sam-dump-orig.2.11.0", "sam-dump.2.11.0": "/usr/local/bin/sam-dump.2.11.0", "sff-dump.2.11.0": "/usr/local/bin/sff-dump.2.11.0", "sff-load": "/usr/local/bin/sff-load", "sff-load.2": "/usr/local/bin/sff-load.2", "sff-load.2.11.0": "/usr/local/bin/sff-load.2.11.0", "squizz": "/usr/local/bin/squizz", "sra-pileup-orig.2.11.0": "/usr/local/bin/sra-pileup-orig.2.11.0", "sra-pileup.2.11.0": "/usr/local/bin/sra-pileup.2.11.0", "sra-sort-cg.2.11.0": "/usr/local/bin/sra-sort-cg.2.11.0", "sra-sort.2.11.0": "/usr/local/bin/sra-sort.2.11.0", "sra-stat.2.11.0": "/usr/local/bin/sra-stat.2.11.0", "srapath-orig.2.11.0": "/usr/local/bin/srapath-orig.2.11.0", "srapath.2.11.0": "/usr/local/bin/srapath.2.11.0", "sratools.2.11.0": "/usr/local/bin/sratools.2.11.0", "srf-load": "/usr/local/bin/srf-load", "srf-load.2": "/usr/local/bin/srf-load.2", "srf-load.2.11.0": "/usr/local/bin/srf-load.2.11.0", "test-sra.2.11.0": "/usr/local/bin/test-sra.2.11.0", "vdb-config.2.11.0": "/usr/local/bin/vdb-config.2.11.0", "vdb-copy.2.11.0": "/usr/local/bin/vdb-copy.2.11.0", "vdb-decrypt.2.11.0": "/usr/local/bin/vdb-decrypt.2.11.0", "vdb-diff.2.11.0": "/usr/local/bin/vdb-diff.2.11.0", "vdb-dump-orig.2.11.0": "/usr/local/bin/vdb-dump-orig.2.11.0", "vdb-dump.2.11.0": "/usr/local/bin/vdb-dump.2.11.0", "vdb-encrypt.2.11.0": "/usr/local/bin/vdb-encrypt.2.11.0", "vdb-lock.2.11.0": "/usr/local/bin/vdb-lock.2.11.0", "vdb-passwd.2.11.0": "/usr/local/bin/vdb-passwd.2.11.0", "vdb-unlock.2.11.0": "/usr/local/bin/vdb-unlock.2.11.0", "vdb-validate.2.11.0": "/usr/local/bin/vdb-validate.2.11.0", "wiggletools": "/usr/local/bin/wiggletools", "2to3-3.10": "/usr/local/bin/2to3-3.10", "abi-dump": "/usr/local/bin/abi-dump", "abi-dump.2": "/usr/local/bin/abi-dump.2", "ace2sam": "/usr/local/bin/ace2sam", "align-cache": "/usr/local/bin/align-cache", "align-cache.2": "/usr/local/bin/align-cache.2", "align-info": "/usr/local/bin/align-info", "align-info.2": "/usr/local/bin/align-info.2", "annotateBed": "/usr/local/bin/annotateBed", "bam-load": "/usr/local/bin/bam-load"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconvert.
@@ -1124,6 +1134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vdb-validate.2.11.0   -v ${PW
 $ singularity exec <container> /usr/local/bin/wiggletools
 $ podman run --it --rm --entrypoint /usr/local/bin/wiggletools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wiggletools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abi-dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/abi-dump
+$ podman run --it --rm --entrypoint /usr/local/bin/abi-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abi-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abi-dump.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/abi-dump.2
+$ podman run --it --rm --entrypoint /usr/local/bin/abi-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abi-dump.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-cache
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-cache
+$ podman run --it --rm --entrypoint /usr/local/bin/align-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-cache   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-cache.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-cache.2
+$ podman run --it --rm --entrypoint /usr/local/bin/align-cache.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-cache.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-info
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-info
+$ podman run --it --rm --entrypoint /usr/local/bin/align-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-info.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-info.2
+$ podman run --it --rm --entrypoint /usr/local/bin/align-info.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-info.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam-load
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam-load
+$ podman run --it --rm --entrypoint /usr/local/bin/bam-load   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam-load   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

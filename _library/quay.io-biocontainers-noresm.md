@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/noresm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/noresm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/noresm/container.yaml"
-updated_at: "2022-10-27 00:20:48.402548"
+updated_at: "2022-10-29 05:33:19.971895"
 latest: "2.0.2--py38pl5321hbcac906_1"
 container_url: "https://biocontainers.pro/tools/noresm"
 aliases:
@@ -83,10 +83,20 @@ aliases:
  - "tcsh"
  - "watchgnupg"
  - "yat2m"
+ - "ccmake"
+ - "cmake"
+ - "cpack"
+ - "ctest"
+ - "db_archive"
+ - "db_checkpoint"
+ - "db_convert"
+ - "db_deadlock"
+ - "db_dump"
+ - "db_hotbackup"
 versions:
  - "2.0.2--py38pl5321hbcac906_1"
 description: "shpc-registry automated BioContainers addition for noresm"
-config: {"url": "https://biocontainers.pro/tools/noresm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for noresm", "latest": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "tags": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "docker": "quay.io/biocontainers/noresm", "aliases": {"addr2line": "/usr/local/bin/addr2line", "apr-1-config": "/usr/local/bin/apr-1-config", "apu-1-config": "/usr/local/bin/apu-1-config", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "create_clone": "/usr/local/bin/create_clone", "create_newcase": "/usr/local/bin/create_newcase", "create_test": "/usr/local/bin/create_test", "dirmngr": "/usr/local/bin/dirmngr", "dirmngr-client": "/usr/local/bin/dirmngr-client", "dumpsexp": "/usr/local/bin/dumpsexp", "dwp": "/usr/local/bin/dwp", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "gpg": "/usr/local/bin/gpg", "gpg-agent": "/usr/local/bin/gpg-agent", "gpg-card": "/usr/local/bin/gpg-card", "gpg-connect-agent": "/usr/local/bin/gpg-connect-agent", "gpg-error": "/usr/local/bin/gpg-error", "gpg-error-config": "/usr/local/bin/gpg-error-config", "gpg-wks-client": "/usr/local/bin/gpg-wks-client", "gpg-wks-server": "/usr/local/bin/gpg-wks-server", "gpgconf": "/usr/local/bin/gpgconf", "gpgparsemail": "/usr/local/bin/gpgparsemail", "gpgrt-config": "/usr/local/bin/gpgrt-config", "gpgscm": "/usr/local/bin/gpgscm", "gpgsm": "/usr/local/bin/gpgsm", "gpgsplit": "/usr/local/bin/gpgsplit", "gpgtar": "/usr/local/bin/gpgtar", "gpgv": "/usr/local/bin/gpgv", "gprof": "/usr/local/bin/gprof", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "hmac256": "/usr/local/bin/hmac256", "kbxutil": "/usr/local/bin/kbxutil", "ksba-config": "/usr/local/bin/ksba-config", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "libassuan-config": "/usr/local/bin/libassuan-config", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "nm": "/usr/local/bin/nm", "npth-config": "/usr/local/bin/npth-config", "ntbtls-config": "/usr/local/bin/ntbtls-config", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "ph5diff": "/usr/local/bin/ph5diff", "query_config": "/usr/local/bin/query_config", "query_testlists": "/usr/local/bin/query_testlists", "ranlib": "/usr/local/bin/ranlib", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "svn": "/usr/local/bin/svn", "svnadmin": "/usr/local/bin/svnadmin", "svnbench": "/usr/local/bin/svnbench", "svndumpfilter": "/usr/local/bin/svndumpfilter", "svnfsfs": "/usr/local/bin/svnfsfs", "svnlook": "/usr/local/bin/svnlook", "svnmucc": "/usr/local/bin/svnmucc", "svnrdump": "/usr/local/bin/svnrdump", "svnserve": "/usr/local/bin/svnserve", "svnsync": "/usr/local/bin/svnsync", "svnversion": "/usr/local/bin/svnversion", "tcsh": "/usr/local/bin/tcsh", "watchgnupg": "/usr/local/bin/watchgnupg", "yat2m": "/usr/local/bin/yat2m"}}
+config: {"url": "https://biocontainers.pro/tools/noresm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for noresm", "latest": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "tags": {"2.0.2--py38pl5321hbcac906_1": "sha256:d062dc61c48e24192ddbabcee3025ad81a7f271d6e81574b5b6e0090a127f793"}, "docker": "quay.io/biocontainers/noresm", "aliases": {"addr2line": "/usr/local/bin/addr2line", "apr-1-config": "/usr/local/bin/apr-1-config", "apu-1-config": "/usr/local/bin/apu-1-config", "ar": "/usr/local/bin/ar", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "create_clone": "/usr/local/bin/create_clone", "create_newcase": "/usr/local/bin/create_newcase", "create_test": "/usr/local/bin/create_test", "dirmngr": "/usr/local/bin/dirmngr", "dirmngr-client": "/usr/local/bin/dirmngr-client", "dumpsexp": "/usr/local/bin/dumpsexp", "dwp": "/usr/local/bin/dwp", "edonr256-hash": "/usr/local/bin/edonr256-hash", "edonr512-hash": "/usr/local/bin/edonr512-hash", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gost12-256-hash": "/usr/local/bin/gost12-256-hash", "gost12-512-hash": "/usr/local/bin/gost12-512-hash", "gpg": "/usr/local/bin/gpg", "gpg-agent": "/usr/local/bin/gpg-agent", "gpg-card": "/usr/local/bin/gpg-card", "gpg-connect-agent": "/usr/local/bin/gpg-connect-agent", "gpg-error": "/usr/local/bin/gpg-error", "gpg-error-config": "/usr/local/bin/gpg-error-config", "gpg-wks-client": "/usr/local/bin/gpg-wks-client", "gpg-wks-server": "/usr/local/bin/gpg-wks-server", "gpgconf": "/usr/local/bin/gpgconf", "gpgparsemail": "/usr/local/bin/gpgparsemail", "gpgrt-config": "/usr/local/bin/gpgrt-config", "gpgscm": "/usr/local/bin/gpgscm", "gpgsm": "/usr/local/bin/gpgsm", "gpgsplit": "/usr/local/bin/gpgsplit", "gpgtar": "/usr/local/bin/gpgtar", "gpgv": "/usr/local/bin/gpgv", "gprof": "/usr/local/bin/gprof", "h5pcc": "/usr/local/bin/h5pcc", "h5perf": "/usr/local/bin/h5perf", "h5pfc": "/usr/local/bin/h5pfc", "hmac256": "/usr/local/bin/hmac256", "kbxutil": "/usr/local/bin/kbxutil", "ksba-config": "/usr/local/bin/ksba-config", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "libassuan-config": "/usr/local/bin/libassuan-config", "libgcrypt-config": "/usr/local/bin/libgcrypt-config", "mpicalc": "/usr/local/bin/mpicalc", "nm": "/usr/local/bin/nm", "npth-config": "/usr/local/bin/npth-config", "ntbtls-config": "/usr/local/bin/ntbtls-config", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "ph5diff": "/usr/local/bin/ph5diff", "query_config": "/usr/local/bin/query_config", "query_testlists": "/usr/local/bin/query_testlists", "ranlib": "/usr/local/bin/ranlib", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "strip": "/usr/local/bin/strip", "svn": "/usr/local/bin/svn", "svnadmin": "/usr/local/bin/svnadmin", "svnbench": "/usr/local/bin/svnbench", "svndumpfilter": "/usr/local/bin/svndumpfilter", "svnfsfs": "/usr/local/bin/svnfsfs", "svnlook": "/usr/local/bin/svnlook", "svnmucc": "/usr/local/bin/svnmucc", "svnrdump": "/usr/local/bin/svnrdump", "svnserve": "/usr/local/bin/svnserve", "svnsync": "/usr/local/bin/svnsync", "svnversion": "/usr/local/bin/svnversion", "tcsh": "/usr/local/bin/tcsh", "watchgnupg": "/usr/local/bin/watchgnupg", "yat2m": "/usr/local/bin/yat2m", "ccmake": "/usr/local/bin/ccmake", "cmake": "/usr/local/bin/cmake", "cpack": "/usr/local/bin/cpack", "ctest": "/usr/local/bin/ctest", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_convert": "/usr/local/bin/db_convert", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/noresm.
@@ -844,6 +854,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/watchgnupg   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/yat2m
 $ podman run --it --rm --entrypoint /usr/local/bin/yat2m   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/yat2m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccmake
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccmake
+$ podman run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmake
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmake
+$ podman run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmake   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpack
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpack
+$ podman run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpack   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ctest
+
+```bash
+$ singularity exec <container> /usr/local/bin/ctest
+$ podman run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ctest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_archive
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_archive
+$ podman run --it --rm --entrypoint /usr/local/bin/db_archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_checkpoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_checkpoint
+$ podman run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/db_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_deadlock
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_deadlock
+$ podman run --it --rm --entrypoint /usr/local/bin/db_deadlock   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_deadlock   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/db_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_hotbackup
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_hotbackup
+$ podman run --it --rm --entrypoint /usr/local/bin/db_hotbackup   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_hotbackup   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

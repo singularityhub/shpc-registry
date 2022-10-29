@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arb-bio-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arb-bio-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/arb-bio-tools/container.yaml"
-updated_at: "2022-10-27 00:33:57.924728"
+updated_at: "2022-10-29 05:50:46.038061"
 latest: "6.0.6--haa8b8d8_8"
 container_url: "https://biocontainers.pro/tools/arb-bio-tools"
 aliases:
@@ -33,10 +33,11 @@ aliases:
  - "arb_replace"
  - "arb_rnacma"
  - "arb_treegen"
+ - "gio-launch-desktop"
 versions:
  - "6.0.6--haa8b8d8_8"
 description: "shpc-registry automated BioContainers addition for arb-bio-tools"
-config: {"url": "https://biocontainers.pro/tools/arb-bio-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arb-bio-tools", "latest": {"6.0.6--haa8b8d8_8": "sha256:af8a779cf8f62461557598eb1cdc3985e8c1f98c1f53fafe4d5a7f5805192546"}, "tags": {"6.0.6--haa8b8d8_8": "sha256:af8a779cf8f62461557598eb1cdc3985e8c1f98c1f53fafe4d5a7f5805192546"}, "docker": "quay.io/biocontainers/arb-bio-tools", "aliases": {"arb_2_ascii": "/usr/local/bin/arb_2_ascii", "arb_2_bin": "/usr/local/bin/arb_2_bin", "arb_a2ps": "/usr/local/bin/arb_a2ps", "arb_consensus_tree": "/usr/local/bin/arb_consensus_tree", "arb_convert_aln": "/usr/local/bin/arb_convert_aln", "arb_db_server": "/usr/local/bin/arb_db_server", "arb_dnarates": "/usr/local/bin/arb_dnarates", "arb_export_rates": "/usr/local/bin/arb_export_rates", "arb_export_tree": "/usr/local/bin/arb_export_tree", "arb_flush_mem": "/usr/local/bin/arb_flush_mem", "arb_gene_probe": "/usr/local/bin/arb_gene_probe", "arb_help2xml": "/usr/local/bin/arb_help2xml", "arb_message": "/usr/local/bin/arb_message", "arb_naligner": "/usr/local/bin/arb_naligner", "arb_name_server": "/usr/local/bin/arb_name_server", "arb_notify": "/usr/local/bin/arb_notify", "arb_primer": "/usr/local/bin/arb_primer", "arb_probe": "/usr/local/bin/arb_probe", "arb_proto_2_xsub": "/usr/local/bin/arb_proto_2_xsub", "arb_pt_server": "/usr/local/bin/arb_pt_server", "arb_read_tree": "/usr/local/bin/arb_read_tree", "arb_readseq": "/usr/local/bin/arb_readseq", "arb_replace": "/usr/local/bin/arb_replace", "arb_rnacma": "/usr/local/bin/arb_rnacma", "arb_treegen": "/usr/local/bin/arb_treegen"}}
+config: {"url": "https://biocontainers.pro/tools/arb-bio-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for arb-bio-tools", "latest": {"6.0.6--haa8b8d8_8": "sha256:af8a779cf8f62461557598eb1cdc3985e8c1f98c1f53fafe4d5a7f5805192546"}, "tags": {"6.0.6--haa8b8d8_8": "sha256:af8a779cf8f62461557598eb1cdc3985e8c1f98c1f53fafe4d5a7f5805192546"}, "docker": "quay.io/biocontainers/arb-bio-tools", "aliases": {"arb_2_ascii": "/usr/local/bin/arb_2_ascii", "arb_2_bin": "/usr/local/bin/arb_2_bin", "arb_a2ps": "/usr/local/bin/arb_a2ps", "arb_consensus_tree": "/usr/local/bin/arb_consensus_tree", "arb_convert_aln": "/usr/local/bin/arb_convert_aln", "arb_db_server": "/usr/local/bin/arb_db_server", "arb_dnarates": "/usr/local/bin/arb_dnarates", "arb_export_rates": "/usr/local/bin/arb_export_rates", "arb_export_tree": "/usr/local/bin/arb_export_tree", "arb_flush_mem": "/usr/local/bin/arb_flush_mem", "arb_gene_probe": "/usr/local/bin/arb_gene_probe", "arb_help2xml": "/usr/local/bin/arb_help2xml", "arb_message": "/usr/local/bin/arb_message", "arb_naligner": "/usr/local/bin/arb_naligner", "arb_name_server": "/usr/local/bin/arb_name_server", "arb_notify": "/usr/local/bin/arb_notify", "arb_primer": "/usr/local/bin/arb_primer", "arb_probe": "/usr/local/bin/arb_probe", "arb_proto_2_xsub": "/usr/local/bin/arb_proto_2_xsub", "arb_pt_server": "/usr/local/bin/arb_pt_server", "arb_read_tree": "/usr/local/bin/arb_read_tree", "arb_readseq": "/usr/local/bin/arb_readseq", "arb_replace": "/usr/local/bin/arb_replace", "arb_rnacma": "/usr/local/bin/arb_rnacma", "arb_treegen": "/usr/local/bin/arb_treegen", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/arb-bio-tools.
@@ -344,6 +345,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/arb_rnacma   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/arb_treegen
 $ podman run --it --rm --entrypoint /usr/local/bin/arb_treegen   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/arb_treegen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

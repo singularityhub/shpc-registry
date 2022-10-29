@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/somalier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somalier/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/somalier/container.yaml"
-updated_at: "2022-10-27 00:20:18.611833"
+updated_at: "2022-10-29 05:32:39.486789"
 latest: "0.2.15--h37c5b7d_0"
 container_url: "https://biocontainers.pro/tools/somalier"
 aliases:
  - "somalier"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "0.2.15--h37c5b7d_0"
 description: "shpc-registry automated BioContainers addition for somalier"
-config: {"url": "https://biocontainers.pro/tools/somalier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somalier", "latest": {"0.2.15--h37c5b7d_0": "sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4"}, "tags": {"0.2.15--h37c5b7d_0": "sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4"}, "docker": "quay.io/biocontainers/somalier", "aliases": {"somalier": "/usr/local/bin/somalier"}}
+config: {"url": "https://biocontainers.pro/tools/somalier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for somalier", "latest": {"0.2.15--h37c5b7d_0": "sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4"}, "tags": {"0.2.15--h37c5b7d_0": "sha256:eafc48e062371d67aba2f562920f9b53033eb06eb72f8e6516ca6b2558df5ac4"}, "docker": "quay.io/biocontainers/somalier", "aliases": {"somalier": "/usr/local/bin/somalier", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/somalier.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/somalier
 $ podman run --it --rm --entrypoint /usr/local/bin/somalier   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/somalier   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

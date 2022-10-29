@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/seqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/seqtk/container.yaml"
-updated_at: "2022-10-27 00:27:42.033667"
+updated_at: "2022-10-29 05:42:30.399554"
 latest: "1.3--h7132678_4"
 container_url: "https://biocontainers.pro/tools/seqtk"
-
+aliases:
+ - "seqtk"
 versions:
  - "1.3--h7132678_4"
 description: "shpc-registry automated BioContainers addition for seqtk"
-config: {"url": "https://biocontainers.pro/tools/seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqtk", "latest": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9"}, "tags": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9"}, "docker": "quay.io/biocontainers/seqtk"}
+config: {"url": "https://biocontainers.pro/tools/seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqtk", "latest": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9"}, "tags": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9"}, "docker": "quay.io/biocontainers/seqtk", "aliases": {"seqtk": "/usr/local/bin/seqtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqtk.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### seqtk
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/seqtk
+$ podman run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/seqtk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

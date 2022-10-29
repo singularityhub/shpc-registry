@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-precisiontrialdrawer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-precisiontrialdrawer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-precisiontrialdrawer/container.yaml"
-updated_at: "2022-10-27 00:25:08.349906"
+updated_at: "2022-10-29 05:39:04.109716"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer"
 aliases:
- - ".bioconductor-lowmacaannotation-post-link.sh"
- - ".bioconductor-lowmacaannotation-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-precisiontrialdrawer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-precisiontrialdrawer", "latest": {"1.8.0--r41hdfd78af_0": "sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6"}, "docker": "quay.io/biocontainers/bioconductor-precisiontrialdrawer", "aliases": {".bioconductor-lowmacaannotation-post-link.sh": "/usr/local/bin/.bioconductor-lowmacaannotation-post-link.sh", ".bioconductor-lowmacaannotation-pre-unlink.sh": "/usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-precisiontrialdrawer", "latest": {"1.8.0--r41hdfd78af_0": "sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6"}, "docker": "quay.io/biocontainers/bioconductor-precisiontrialdrawer", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-precisiontrialdrawer.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-lowmacaannotation-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-lowmacaannotation-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-lowmacaannotation-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-lowmacaannotation-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-lowmacaannotation-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

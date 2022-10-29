@@ -4,18 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pathwaysplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathwaysplice/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathwaysplice/container.yaml"
-updated_at: "2022-10-27 00:39:24.941913"
+updated_at: "2022-10-29 05:57:59.366830"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathwaysplice"
 aliases:
- - ".bioconductor-genelendatabase-post-link.sh"
- - ".bioconductor-genelendatabase-pre-unlink.sh"
- - ".bioconductor-pfam.db-post-link.sh"
- - ".bioconductor-pfam.db-pre-unlink.sh"
+ - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathwaysplice"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathwaysplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathwaysplice", "latest": {"1.8.0--r36_1": "sha256:73b9ae499b7e96a0a747dc4c1ef3610abe7c87fb6b1364c1f481a202167b486f"}, "tags": {"1.8.0--r36_1": "sha256:73b9ae499b7e96a0a747dc4c1ef3610abe7c87fb6b1364c1f481a202167b486f"}, "docker": "quay.io/biocontainers/bioconductor-pathwaysplice", "aliases": {".bioconductor-genelendatabase-post-link.sh": "/usr/local/bin/.bioconductor-genelendatabase-post-link.sh", ".bioconductor-genelendatabase-pre-unlink.sh": "/usr/local/bin/.bioconductor-genelendatabase-pre-unlink.sh", ".bioconductor-pfam.db-post-link.sh": "/usr/local/bin/.bioconductor-pfam.db-post-link.sh", ".bioconductor-pfam.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathwaysplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathwaysplice", "latest": {"1.8.0--r36_1": "sha256:73b9ae499b7e96a0a747dc4c1ef3610abe7c87fb6b1364c1f481a202167b486f"}, "tags": {"1.8.0--r36_1": "sha256:73b9ae499b7e96a0a747dc4c1ef3610abe7c87fb6b1364c1f481a202167b486f"}, "docker": "quay.io/biocontainers/bioconductor-pathwaysplice", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathwaysplice.
@@ -101,39 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-genelendatabase-post-link.sh
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-genelendatabase-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-genelendatabase-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-genelendatabase-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-genelendatabase-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-genelendatabase-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-genelendatabase-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-genelendatabase-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-pfam.db-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pfam.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pfam.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pfam.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-pfam.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

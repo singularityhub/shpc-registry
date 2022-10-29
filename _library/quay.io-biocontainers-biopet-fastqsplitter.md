@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/biopet-fastqsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-fastqsplitter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-fastqsplitter/container.yaml"
-updated_at: "2022-10-27 00:18:59.676798"
+updated_at: "2022-10-29 05:30:57.875238"
 latest: "0.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/biopet-fastqsplitter"
 aliases:
  - "biopet-fastqsplitter"
+ - "2to3-3.9"
+ - "appletviewer"
+ - "clhsdb"
+ - "extcheck"
+ - "hsdb"
+ - "idle3.9"
+ - "idlj"
+ - "jar"
+ - "jarsigner"
+ - "java"
 versions:
  - "0.1--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for biopet-fastqsplitter"
-config: {"url": "https://biocontainers.pro/tools/biopet-fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-fastqsplitter", "latest": {"0.1--hdfd78af_4": "sha256:a0dd5e3e586c4cc5f1083fede0dbe05412de21e20a812d8573fa074fdabf23c6"}, "tags": {"0.1--hdfd78af_4": "sha256:a0dd5e3e586c4cc5f1083fede0dbe05412de21e20a812d8573fa074fdabf23c6"}, "docker": "quay.io/biocontainers/biopet-fastqsplitter", "aliases": {"biopet-fastqsplitter": "/usr/local/bin/biopet-fastqsplitter"}}
+config: {"url": "https://biocontainers.pro/tools/biopet-fastqsplitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-fastqsplitter", "latest": {"0.1--hdfd78af_4": "sha256:a0dd5e3e586c4cc5f1083fede0dbe05412de21e20a812d8573fa074fdabf23c6"}, "tags": {"0.1--hdfd78af_4": "sha256:a0dd5e3e586c4cc5f1083fede0dbe05412de21e20a812d8573fa074fdabf23c6"}, "docker": "quay.io/biocontainers/biopet-fastqsplitter", "aliases": {"biopet-fastqsplitter": "/usr/local/bin/biopet-fastqsplitter", "2to3-3.9": "/usr/local/bin/2to3-3.9", "appletviewer": "/usr/local/bin/appletviewer", "clhsdb": "/usr/local/bin/clhsdb", "extcheck": "/usr/local/bin/extcheck", "hsdb": "/usr/local/bin/hsdb", "idle3.9": "/usr/local/bin/idle3.9", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biopet-fastqsplitter.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/biopet-fastqsplitter
 $ podman run --it --rm --entrypoint /usr/local/bin/biopet-fastqsplitter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/biopet-fastqsplitter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/clhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/hsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/genometools-genometools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genometools-genometools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/genometools-genometools/container.yaml"
-updated_at: "2022-10-27 00:34:06.405367"
+updated_at: "2022-10-29 05:50:57.478185"
 latest: "1.6.2--py38h5e2dfeb_3"
 container_url: "https://biocontainers.pro/tools/genometools-genometools"
 aliases:
  - "genometools-config"
  - "gt"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.6.2--py38h5e2dfeb_3"
 description: "shpc-registry automated BioContainers addition for genometools-genometools"
-config: {"url": "https://biocontainers.pro/tools/genometools-genometools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometools-genometools", "latest": {"1.6.2--py38h5e2dfeb_3": "sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87"}, "tags": {"1.6.2--py38h5e2dfeb_3": "sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87"}, "docker": "quay.io/biocontainers/genometools-genometools", "aliases": {"genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt"}}
+config: {"url": "https://biocontainers.pro/tools/genometools-genometools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genometools-genometools", "latest": {"1.6.2--py38h5e2dfeb_3": "sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87"}, "tags": {"1.6.2--py38h5e2dfeb_3": "sha256:0314916c25353611ab24c537be873afbcc14c7372ec55f367cb2eed4ae6fdb87"}, "docker": "quay.io/biocontainers/genometools-genometools", "aliases": {"genometools-config": "/usr/local/bin/genometools-config", "gt": "/usr/local/bin/gt", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genometools-genometools.
@@ -114,6 +119,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/genometools-config   -v ${PWD
 $ singularity exec <container> /usr/local/bin/gt
 $ podman run --it --rm --entrypoint /usr/local/bin/gt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

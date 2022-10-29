@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/stamp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stamp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/stamp/container.yaml"
-updated_at: "2022-10-27 00:26:15.885112"
+updated_at: "2022-10-29 05:40:34.981305"
 latest: "2.1.3--py_2"
 container_url: "https://biocontainers.pro/tools/stamp"
 aliases:
  - "STAMP"
  - "checkHierarchy.py"
+ - "assistant"
+ - "biom"
+ - "designer"
+ - "futurize"
+ - "gio-launch-desktop"
+ - "idle"
+ - "lconvert"
+ - "linguist"
+ - "lrelease"
+ - "lupdate"
 versions:
  - "2.1.3--py_2"
 description: "shpc-registry automated BioContainers addition for stamp"
-config: {"url": "https://biocontainers.pro/tools/stamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stamp", "latest": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "tags": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "docker": "quay.io/biocontainers/stamp", "aliases": {"STAMP": "/usr/local/bin/STAMP", "checkHierarchy.py": "/usr/local/bin/checkHierarchy.py"}}
+config: {"url": "https://biocontainers.pro/tools/stamp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for stamp", "latest": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "tags": {"2.1.3--py_2": "sha256:5d810f59eb45a000171bf6894c84774982ddce8f84e094aff1a47c7ab1dc7453"}, "docker": "quay.io/biocontainers/stamp", "aliases": {"STAMP": "/usr/local/bin/STAMP", "checkHierarchy.py": "/usr/local/bin/checkHierarchy.py", "assistant": "/usr/local/bin/assistant", "biom": "/usr/local/bin/biom", "designer": "/usr/local/bin/designer", "futurize": "/usr/local/bin/futurize", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle": "/usr/local/bin/idle", "lconvert": "/usr/local/bin/lconvert", "linguist": "/usr/local/bin/linguist", "lrelease": "/usr/local/bin/lrelease", "lupdate": "/usr/local/bin/lupdate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/stamp.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/STAMP   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/checkHierarchy.py
 $ podman run --it --rm --entrypoint /usr/local/bin/checkHierarchy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/checkHierarchy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### biom
+
+```bash
+$ singularity exec <container> /usr/local/bin/biom
+$ podman run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### designer
+
+```bash
+$ singularity exec <container> /usr/local/bin/designer
+$ podman run --it --rm --entrypoint /usr/local/bin/designer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/designer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lconvert
+
+```bash
+$ singularity exec <container> /usr/local/bin/lconvert
+$ podman run --it --rm --entrypoint /usr/local/bin/lconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linguist
+
+```bash
+$ singularity exec <container> /usr/local/bin/linguist
+$ podman run --it --rm --entrypoint /usr/local/bin/linguist   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linguist   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lrelease
+
+```bash
+$ singularity exec <container> /usr/local/bin/lrelease
+$ podman run --it --rm --entrypoint /usr/local/bin/lrelease   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lrelease   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lupdate
+
+```bash
+$ singularity exec <container> /usr/local/bin/lupdate
+$ podman run --it --rm --entrypoint /usr/local/bin/lupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

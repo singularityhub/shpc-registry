@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/r-optparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-optparse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-optparse/container.yaml"
-updated_at: "2022-10-27 00:24:23.287034"
+updated_at: "2022-10-29 05:38:03.589326"
 latest: "1.6.0"
 container_url: "https://biocontainers.pro/tools/r-optparse"
-
+aliases:
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "1.6.0"
 description: "shpc-registry automated BioContainers addition for r-optparse"
-config: {"url": "https://biocontainers.pro/tools/r-optparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-optparse", "latest": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "tags": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "docker": "quay.io/biocontainers/r-optparse"}
+config: {"url": "https://biocontainers.pro/tools/r-optparse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-optparse", "latest": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "tags": {"1.6.0": "sha256:8611f18446d462dd0ff557857322ab56fd3fff2004160ef73c737e3cf5b11886"}, "docker": "quay.io/biocontainers/r-optparse", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-optparse.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-optparse
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

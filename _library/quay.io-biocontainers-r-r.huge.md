@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/r-r.huge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.huge/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.huge/container.yaml"
-updated_at: "2022-10-27 00:31:10.068781"
+updated_at: "2022-10-29 05:47:03.704840"
 latest: "0.9.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.huge"
-
+aliases:
+ - "tclsh8.5"
+ - "uconv"
+ - "wish8.5"
 versions:
  - "0.9.0--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-r.huge"
-config: {"url": "https://biocontainers.pro/tools/r-r.huge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r.huge", "latest": {"0.9.0--r3.3.1_0": "sha256:4589057690276c65d210d3372a21474928e861cc7e1870e346733433682ff4fc"}, "tags": {"0.9.0--r3.3.1_0": "sha256:4589057690276c65d210d3372a21474928e861cc7e1870e346733433682ff4fc"}, "docker": "quay.io/biocontainers/r-r.huge"}
+config: {"url": "https://biocontainers.pro/tools/r-r.huge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r.huge", "latest": {"0.9.0--r3.3.1_0": "sha256:4589057690276c65d210d3372a21474928e861cc7e1870e346733433682ff4fc"}, "tags": {"0.9.0--r3.3.1_0": "sha256:4589057690276c65d210d3372a21474928e861cc7e1870e346733433682ff4fc"}, "docker": "quay.io/biocontainers/r-r.huge", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "uconv": "/usr/local/bin/uconv", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-r.huge.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-r.huge
+#### tclsh8.5
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### uconv
+
+```bash
+$ singularity exec <container> /usr/local/bin/uconv
+$ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

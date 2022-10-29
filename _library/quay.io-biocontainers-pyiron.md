@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyiron"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyiron/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyiron/container.yaml"
-updated_at: "2022-10-27 00:22:34.420287"
+updated_at: "2022-10-29 05:35:40.514137"
 latest: "0.2.2"
 container_url: "https://biocontainers.pro/tools/pyiron"
 aliases:
@@ -27,10 +27,20 @@ aliases:
  - "phonopy-tdplot"
  - "phonopy-vasp-born"
  - "phonopy-vasp-efe"
+ - "2to3-3.7"
+ - "assistant"
+ - "canbusutil"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
+ - "dbus-send"
+ - "dbus-test-tool"
 versions:
  - "0.2.2"
 description: "shpc-registry automated BioContainers addition for pyiron"
-config: {"url": "https://biocontainers.pro/tools/pyiron", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyiron", "latest": {"0.2.2": "sha256:d996c07806a2dc6091480ecc77fd16beab18c56dbb1154145cca199c06879373"}, "tags": {"0.2.2": "sha256:d996c07806a2dc6091480ecc77fd16beab18c56dbb1154145cca199c06879373"}, "docker": "quay.io/biocontainers/pyiron", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "phonopy": "/usr/local/bin/phonopy", "phonopy-FHI-aims": "/usr/local/bin/phonopy-FHI-aims", "phonopy-bandplot": "/usr/local/bin/phonopy-bandplot", "phonopy-crystal-born": "/usr/local/bin/phonopy-crystal-born", "phonopy-dispmanager": "/usr/local/bin/phonopy-dispmanager", "phonopy-gruneisen": "/usr/local/bin/phonopy-gruneisen", "phonopy-gruneisenplot": "/usr/local/bin/phonopy-gruneisenplot", "phonopy-pdosplot": "/usr/local/bin/phonopy-pdosplot", "phonopy-propplot": "/usr/local/bin/phonopy-propplot", "phonopy-qha": "/usr/local/bin/phonopy-qha", "phonopy-tdplot": "/usr/local/bin/phonopy-tdplot", "phonopy-vasp-born": "/usr/local/bin/phonopy-vasp-born", "phonopy-vasp-efe": "/usr/local/bin/phonopy-vasp-efe"}}
+config: {"url": "https://biocontainers.pro/tools/pyiron", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyiron", "latest": {"0.2.2": "sha256:d996c07806a2dc6091480ecc77fd16beab18c56dbb1154145cca199c06879373"}, "tags": {"0.2.2": "sha256:d996c07806a2dc6091480ecc77fd16beab18c56dbb1154145cca199c06879373"}, "docker": "quay.io/biocontainers/pyiron", "aliases": {"ase": "/usr/local/bin/ase", "ase-build": "/usr/local/bin/ase-build", "ase-db": "/usr/local/bin/ase-db", "ase-gui": "/usr/local/bin/ase-gui", "ase-info": "/usr/local/bin/ase-info", "ase-run": "/usr/local/bin/ase-run", "phonopy": "/usr/local/bin/phonopy", "phonopy-FHI-aims": "/usr/local/bin/phonopy-FHI-aims", "phonopy-bandplot": "/usr/local/bin/phonopy-bandplot", "phonopy-crystal-born": "/usr/local/bin/phonopy-crystal-born", "phonopy-dispmanager": "/usr/local/bin/phonopy-dispmanager", "phonopy-gruneisen": "/usr/local/bin/phonopy-gruneisen", "phonopy-gruneisenplot": "/usr/local/bin/phonopy-gruneisenplot", "phonopy-pdosplot": "/usr/local/bin/phonopy-pdosplot", "phonopy-propplot": "/usr/local/bin/phonopy-propplot", "phonopy-qha": "/usr/local/bin/phonopy-qha", "phonopy-tdplot": "/usr/local/bin/phonopy-tdplot", "phonopy-vasp-born": "/usr/local/bin/phonopy-vasp-born", "phonopy-vasp-efe": "/usr/local/bin/phonopy-vasp-efe", "2to3-3.7": "/usr/local/bin/2to3-3.7", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyiron.
@@ -284,6 +294,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phonopy-vasp-born   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/phonopy-vasp-efe
 $ podman run --it --rm --entrypoint /usr/local/bin/phonopy-vasp-efe   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/phonopy-vasp-efe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-send
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-send
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-test-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-test-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rad_haplotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rad_haplotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rad_haplotyper/container.yaml"
-updated_at: "2022-10-27 00:37:25.321939"
+updated_at: "2022-10-29 05:55:23.880603"
 latest: "1.1.9--pl5321hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/rad_haplotyper"
 aliases:
@@ -33,10 +33,20 @@ aliases:
  - "select_sec_rbcontig.pl"
  - "select_sec_rbcontig.pl.bak"
  - "split_ref_by_bai_datasize.py"
+ - "2to3-3.10"
+ - "FET.pl"
+ - "abba-baba"
+ - "ace2sam"
+ - "annotate"
+ - "annotateBed"
+ - "aserver"
+ - "assistant"
+ - "b2sum"
+ - "bFst"
 versions:
  - "1.1.9--pl5321hec16e2b_6"
 description: "shpc-registry automated BioContainers addition for rad_haplotyper"
-config: {"url": "https://biocontainers.pro/tools/rad_haplotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rad_haplotyper", "latest": {"1.1.9--pl5321hec16e2b_6": "sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5"}, "tags": {"1.1.9--pl5321hec16e2b_6": "sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5"}, "docker": "quay.io/biocontainers/rad_haplotyper", "aliases": {"ErrorCount.sh": "/usr/local/bin/ErrorCount.sh", "RefMapOpt.sh": "/usr/local/bin/RefMapOpt.sh", "ReferenceOpt.sh": "/usr/local/bin/ReferenceOpt.sh", "Rename_SequenceFiles.sh": "/usr/local/bin/Rename_SequenceFiles.sh", "dDocent": "/usr/local/bin/dDocent", "dDocent_filters": "/usr/local/bin/dDocent_filters", "filter_hwe_by_pop.pl": "/usr/local/bin/filter_hwe_by_pop.pl", "filter_missing_ind.sh": "/usr/local/bin/filter_missing_ind.sh", "mawk": "/usr/local/bin/mawk", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "pop_missing_filter.sh": "/usr/local/bin/pop_missing_filter.sh", "rad_haplotyper.pl": "/usr/local/bin/rad_haplotyper.pl", "rainbow": "/usr/local/bin/rainbow", "remake_reference.sh": "/usr/local/bin/remake_reference.sh", "remove.bad.hap.loci.sh": "/usr/local/bin/remove.bad.hap.loci.sh", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py"}}
+config: {"url": "https://biocontainers.pro/tools/rad_haplotyper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rad_haplotyper", "latest": {"1.1.9--pl5321hec16e2b_6": "sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5"}, "tags": {"1.1.9--pl5321hec16e2b_6": "sha256:8e41ebd2a826d3d78b79fed1b604aa00234b73e956c0f75485fc7ac3f2751de5"}, "docker": "quay.io/biocontainers/rad_haplotyper", "aliases": {"ErrorCount.sh": "/usr/local/bin/ErrorCount.sh", "RefMapOpt.sh": "/usr/local/bin/RefMapOpt.sh", "ReferenceOpt.sh": "/usr/local/bin/ReferenceOpt.sh", "Rename_SequenceFiles.sh": "/usr/local/bin/Rename_SequenceFiles.sh", "dDocent": "/usr/local/bin/dDocent", "dDocent_filters": "/usr/local/bin/dDocent_filters", "filter_hwe_by_pop.pl": "/usr/local/bin/filter_hwe_by_pop.pl", "filter_missing_ind.sh": "/usr/local/bin/filter_missing_ind.sh", "mawk": "/usr/local/bin/mawk", "pear": "/usr/local/bin/pear", "pearRM": "/usr/local/bin/pearRM", "pop_missing_filter.sh": "/usr/local/bin/pop_missing_filter.sh", "rad_haplotyper.pl": "/usr/local/bin/rad_haplotyper.pl", "rainbow": "/usr/local/bin/rainbow", "remake_reference.sh": "/usr/local/bin/remake_reference.sh", "remove.bad.hap.loci.sh": "/usr/local/bin/remove.bad.hap.loci.sh", "select_all_rbcontig.pl": "/usr/local/bin/select_all_rbcontig.pl", "select_all_rbcontig.pl.bak": "/usr/local/bin/select_all_rbcontig.pl.bak", "select_best_rbcontig.pl": "/usr/local/bin/select_best_rbcontig.pl", "select_best_rbcontig.pl.bak": "/usr/local/bin/select_best_rbcontig.pl.bak", "select_best_rbcontig_plus_read1.pl": "/usr/local/bin/select_best_rbcontig_plus_read1.pl", "select_best_rbcontig_plus_read1.pl.bak": "/usr/local/bin/select_best_rbcontig_plus_read1.pl.bak", "select_sec_rbcontig.pl": "/usr/local/bin/select_sec_rbcontig.pl", "select_sec_rbcontig.pl.bak": "/usr/local/bin/select_sec_rbcontig.pl.bak", "split_ref_by_bai_datasize.py": "/usr/local/bin/split_ref_by_bai_datasize.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "FET.pl": "/usr/local/bin/FET.pl", "abba-baba": "/usr/local/bin/abba-baba", "ace2sam": "/usr/local/bin/ace2sam", "annotate": "/usr/local/bin/annotate", "annotateBed": "/usr/local/bin/annotateBed", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "b2sum": "/usr/local/bin/b2sum", "bFst": "/usr/local/bin/bFst"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rad_haplotyper.
@@ -344,6 +354,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/select_sec_rbcontig.pl.bak   
 $ singularity exec <container> /usr/local/bin/split_ref_by_bai_datasize.py
 $ podman run --it --rm --entrypoint /usr/local/bin/split_ref_by_bai_datasize.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/split_ref_by_bai_datasize.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FET.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/FET.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abba-baba
+
+```bash
+$ singularity exec <container> /usr/local/bin/abba-baba
+$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bFst
+
+```bash
+$ singularity exec <container> /usr/local/bin/bFst
+$ podman run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

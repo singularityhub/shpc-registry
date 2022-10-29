@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-cellnoptr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellnoptr/container.yaml"
-updated_at: "2022-10-27 00:19:50.241366"
+updated_at: "2022-10-29 05:32:02.491837"
 latest: "1.40.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellnoptr"
-
+aliases:
+ - "acyclic"
+ - "annotate"
+ - "bcomps"
+ - "bdftogd"
+ - "ccomps"
+ - "circo"
+ - "cluster"
+ - "cwebp"
+ - "delaunay"
+ - "diffimg"
 versions:
  - "1.40.0--r41hc0cfd56_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellnoptr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellnoptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellnoptr", "latest": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930"}, "docker": "quay.io/biocontainers/bioconductor-cellnoptr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellnoptr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellnoptr", "latest": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:24ff04f2e18c047c97b94fa0660119674580a196e0073f9accccdce096eba930"}, "docker": "quay.io/biocontainers/bioconductor-cellnoptr", "aliases": {"acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "cwebp": "/usr/local/bin/cwebp", "delaunay": "/usr/local/bin/delaunay", "diffimg": "/usr/local/bin/diffimg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellnoptr.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-cellnoptr
+#### acyclic
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### circo
+
+```bash
+$ singularity exec <container> /usr/local/bin/circo
+$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cluster
+
+```bash
+$ singularity exec <container> /usr/local/bin/cluster
+$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### delaunay
+
+```bash
+$ singularity exec <container> /usr/local/bin/delaunay
+$ podman run --it --rm --entrypoint /usr/local/bin/delaunay   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delaunay   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### diffimg
+
+```bash
+$ singularity exec <container> /usr/local/bin/diffimg
+$ podman run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/discasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/discasm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/discasm/container.yaml"
-updated_at: "2022-10-27 00:37:18.907022"
+updated_at: "2022-10-29 05:55:15.809301"
 latest: "0.1.3--1"
 container_url: "https://biocontainers.pro/tools/discasm"
 aliases:
@@ -29,10 +29,20 @@ aliases:
  - "run_DE_analysis_from_samples_file.pl"
  - "seqtk-trinity"
  - "sift_bam_max_cov.pl"
+ - "STAR"
+ - "STARlong"
+ - "Trinity"
+ - "ace2sam"
+ - "aserver"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie"
+ - "bowtie-align-l"
 versions:
  - "0.1.3--1"
 description: "shpc-registry automated BioContainers addition for discasm"
-config: {"url": "https://biocontainers.pro/tools/discasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for discasm", "latest": {"0.1.3--1": "sha256:4705304b412ee9da1709ac422adfb1fe4680d4ae97f01046d16be6f4dcc9f4ca"}, "tags": {"0.1.3--1": "sha256:4705304b412ee9da1709ac422adfb1fe4680d4ae97f01046d16be6f4dcc9f4ca"}, "docker": "quay.io/biocontainers/discasm", "aliases": {"DISCASM": "/usr/local/bin/DISCASM", "PtR": "/usr/local/bin/PtR", "TrinityStats.pl": "/usr/local/bin/TrinityStats.pl", "Trinity_gene_splice_modeler.py": "/usr/local/bin/Trinity_gene_splice_modeler.py", "abundance_estimates_to_matrix.pl": "/usr/local/bin/abundance_estimates_to_matrix.pl", "align_and_estimate_abundance.pl": "/usr/local/bin/align_and_estimate_abundance.pl", "analyze_blastPlus_topHit_coverage.pl": "/usr/local/bin/analyze_blastPlus_topHit_coverage.pl", "analyze_diff_expr.pl": "/usr/local/bin/analyze_diff_expr.pl", "contig_ExN50_statistic.pl": "/usr/local/bin/contig_ExN50_statistic.pl", "define_clusters_by_cutting_tree.pl": "/usr/local/bin/define_clusters_by_cutting_tree.pl", "extract_supertranscript_from_reference.py": "/usr/local/bin/extract_supertranscript_from_reference.py", "filter_low_expr_transcripts.pl": "/usr/local/bin/filter_low_expr_transcripts.pl", "get_Trinity_gene_to_trans_map.pl": "/usr/local/bin/get_Trinity_gene_to_trans_map.pl", "insilico_read_normalization.pl": "/usr/local/bin/insilico_read_normalization.pl", "oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "retrieve_sequences_from_fasta.pl": "/usr/local/bin/retrieve_sequences_from_fasta.pl", "run_DE_analysis.pl": "/usr/local/bin/run_DE_analysis.pl", "run_DE_analysis_from_samples_file.pl": "/usr/local/bin/run_DE_analysis_from_samples_file.pl", "seqtk-trinity": "/usr/local/bin/seqtk-trinity", "sift_bam_max_cov.pl": "/usr/local/bin/sift_bam_max_cov.pl"}}
+config: {"url": "https://biocontainers.pro/tools/discasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for discasm", "latest": {"0.1.3--1": "sha256:4705304b412ee9da1709ac422adfb1fe4680d4ae97f01046d16be6f4dcc9f4ca"}, "tags": {"0.1.3--1": "sha256:4705304b412ee9da1709ac422adfb1fe4680d4ae97f01046d16be6f4dcc9f4ca"}, "docker": "quay.io/biocontainers/discasm", "aliases": {"DISCASM": "/usr/local/bin/DISCASM", "PtR": "/usr/local/bin/PtR", "TrinityStats.pl": "/usr/local/bin/TrinityStats.pl", "Trinity_gene_splice_modeler.py": "/usr/local/bin/Trinity_gene_splice_modeler.py", "abundance_estimates_to_matrix.pl": "/usr/local/bin/abundance_estimates_to_matrix.pl", "align_and_estimate_abundance.pl": "/usr/local/bin/align_and_estimate_abundance.pl", "analyze_blastPlus_topHit_coverage.pl": "/usr/local/bin/analyze_blastPlus_topHit_coverage.pl", "analyze_diff_expr.pl": "/usr/local/bin/analyze_diff_expr.pl", "contig_ExN50_statistic.pl": "/usr/local/bin/contig_ExN50_statistic.pl", "define_clusters_by_cutting_tree.pl": "/usr/local/bin/define_clusters_by_cutting_tree.pl", "extract_supertranscript_from_reference.py": "/usr/local/bin/extract_supertranscript_from_reference.py", "filter_low_expr_transcripts.pl": "/usr/local/bin/filter_low_expr_transcripts.pl", "get_Trinity_gene_to_trans_map.pl": "/usr/local/bin/get_Trinity_gene_to_trans_map.pl", "insilico_read_normalization.pl": "/usr/local/bin/insilico_read_normalization.pl", "oases": "/usr/local/bin/oases", "oases_pipeline.py": "/usr/local/bin/oases_pipeline.py", "retrieve_sequences_from_fasta.pl": "/usr/local/bin/retrieve_sequences_from_fasta.pl", "run_DE_analysis.pl": "/usr/local/bin/run_DE_analysis.pl", "run_DE_analysis_from_samples_file.pl": "/usr/local/bin/run_DE_analysis_from_samples_file.pl", "seqtk-trinity": "/usr/local/bin/seqtk-trinity", "sift_bam_max_cov.pl": "/usr/local/bin/sift_bam_max_cov.pl", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "Trinity": "/usr/local/bin/Trinity", "ace2sam": "/usr/local/bin/ace2sam", "aserver": "/usr/local/bin/aserver", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie": "/usr/local/bin/bowtie", "bowtie-align-l": "/usr/local/bin/bowtie-align-l"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/discasm.
@@ -304,6 +314,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/seqtk-trinity   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/sift_bam_max_cov.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/sift_bam_max_cov.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sift_bam_max_cov.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STAR
+
+```bash
+$ singularity exec <container> /usr/local/bin/STAR
+$ podman run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STARlong
+
+```bash
+$ singularity exec <container> /usr/local/bin/STARlong
+$ podman run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Trinity
+
+```bash
+$ singularity exec <container> /usr/local/bin/Trinity
+$ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

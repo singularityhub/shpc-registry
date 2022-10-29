@@ -4,16 +4,25 @@ name:  "quay.io/biocontainers/besst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/besst/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/besst/container.yaml"
-updated_at: "2022-10-27 00:38:16.153070"
+updated_at: "2022-10-29 05:56:29.764347"
 latest: "2.2.8--py_3"
 container_url: "https://biocontainers.pro/tools/besst"
 aliases:
  - "reads_to_ctg_map.py"
  - "runBESST"
+ - "f2py2"
+ - "f2py2.7"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "2.2.8--py_3"
 description: "shpc-registry automated BioContainers addition for besst"
-config: {"url": "https://biocontainers.pro/tools/besst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for besst", "latest": {"2.2.8--py_3": "sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23"}, "tags": {"2.2.8--py_3": "sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23"}, "docker": "quay.io/biocontainers/besst", "aliases": {"reads_to_ctg_map.py": "/usr/local/bin/reads_to_ctg_map.py", "runBESST": "/usr/local/bin/runBESST"}}
+config: {"url": "https://biocontainers.pro/tools/besst", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for besst", "latest": {"2.2.8--py_3": "sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23"}, "tags": {"2.2.8--py_3": "sha256:8bc0e817847371a7cbc49dcc9780a94476131f659e4e4b30fec5c054dbe23b23"}, "docker": "quay.io/biocontainers/besst", "aliases": {"reads_to_ctg_map.py": "/usr/local/bin/reads_to_ctg_map.py", "runBESST": "/usr/local/bin/runBESST", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/besst.
@@ -114,6 +123,87 @@ $ docker run --it --rm --entrypoint /usr/local/bin/reads_to_ctg_map.py   -v ${PW
 $ singularity exec <container> /usr/local/bin/runBESST
 $ podman run --it --rm --entrypoint /usr/local/bin/runBESST   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/runBESST   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

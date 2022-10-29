@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clark"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clark/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/clark/container.yaml"
-updated_at: "2022-10-27 00:35:19.228117"
+updated_at: "2022-10-29 05:52:37.135063"
 latest: "1.2.6.1--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/clark"
 aliases:
@@ -23,10 +23,11 @@ aliases:
  - "getTargetsDef"
  - "getfilesToTaxNodes"
  - "makeSummaryTables"
+ - "tar"
 versions:
  - "1.2.6.1--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for clark"
-config: {"url": "https://biocontainers.pro/tools/clark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clark", "latest": {"1.2.6.1--h9f5acd7_2": "sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473"}, "tags": {"1.2.6.1--h9f5acd7_2": "sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473"}, "docker": "quay.io/biocontainers/clark", "aliases": {"CLARK": "/usr/local/bin/CLARK", "CLARK-S": "/usr/local/bin/CLARK-S", "CLARK-l": "/usr/local/bin/CLARK-l", "converter": "/usr/local/bin/converter", "dscriptMaker": "/usr/local/bin/dscriptMaker", "exeSeq": "/usr/local/bin/exeSeq", "extractSeqs": "/usr/local/bin/extractSeqs", "getAbundance": "/usr/local/bin/getAbundance", "getAccssnTaxID": "/usr/local/bin/getAccssnTaxID", "getConfidenceDensity": "/usr/local/bin/getConfidenceDensity", "getGammaDensity": "/usr/local/bin/getGammaDensity", "getTargetSpecificKmersStat": "/usr/local/bin/getTargetSpecificKmersStat", "getTargetsDef": "/usr/local/bin/getTargetsDef", "getfilesToTaxNodes": "/usr/local/bin/getfilesToTaxNodes", "makeSummaryTables": "/usr/local/bin/makeSummaryTables"}}
+config: {"url": "https://biocontainers.pro/tools/clark", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clark", "latest": {"1.2.6.1--h9f5acd7_2": "sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473"}, "tags": {"1.2.6.1--h9f5acd7_2": "sha256:537b8e919ee0cec74188e0aef661eef5c9a47165678186c049480ca8e0fc6473"}, "docker": "quay.io/biocontainers/clark", "aliases": {"CLARK": "/usr/local/bin/CLARK", "CLARK-S": "/usr/local/bin/CLARK-S", "CLARK-l": "/usr/local/bin/CLARK-l", "converter": "/usr/local/bin/converter", "dscriptMaker": "/usr/local/bin/dscriptMaker", "exeSeq": "/usr/local/bin/exeSeq", "extractSeqs": "/usr/local/bin/extractSeqs", "getAbundance": "/usr/local/bin/getAbundance", "getAccssnTaxID": "/usr/local/bin/getAccssnTaxID", "getConfidenceDensity": "/usr/local/bin/getConfidenceDensity", "getGammaDensity": "/usr/local/bin/getGammaDensity", "getTargetSpecificKmersStat": "/usr/local/bin/getTargetSpecificKmersStat", "getTargetsDef": "/usr/local/bin/getTargetsDef", "getfilesToTaxNodes": "/usr/local/bin/getfilesToTaxNodes", "makeSummaryTables": "/usr/local/bin/makeSummaryTables", "tar": "/usr/local/bin/tar"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clark.
@@ -244,6 +245,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/getfilesToTaxNodes   -v ${PWD
 $ singularity exec <container> /usr/local/bin/makeSummaryTables
 $ podman run --it --rm --entrypoint /usr/local/bin/makeSummaryTables   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/makeSummaryTables   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tar
+
+```bash
+$ singularity exec <container> /usr/local/bin/tar
+$ podman run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tar   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

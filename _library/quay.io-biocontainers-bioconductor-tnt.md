@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tnt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tnt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tnt/container.yaml"
-updated_at: "2022-10-27 00:33:11.827415"
+updated_at: "2022-10-29 05:49:44.311938"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tnt"
-
+aliases:
+ - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tnt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tnt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tnt", "latest": {"1.8.0--r36_0": "sha256:329c7e980e76613642512b0bffb7929261852c6755f169b72713102d37baeb2f"}, "tags": {"1.8.0--r36_0": "sha256:329c7e980e76613642512b0bffb7929261852c6755f169b72713102d37baeb2f"}, "docker": "quay.io/biocontainers/bioconductor-tnt"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tnt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tnt", "latest": {"1.8.0--r36_0": "sha256:329c7e980e76613642512b0bffb7929261852c6755f169b72713102d37baeb2f"}, "tags": {"1.8.0--r36_0": "sha256:329c7e980e76613642512b0bffb7929261852c6755f169b72713102d37baeb2f"}, "docker": "quay.io/biocontainers/bioconductor-tnt", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tnt.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-tnt
+#### gio-launch-desktop
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

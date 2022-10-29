@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/sinto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sinto/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sinto/container.yaml"
-updated_at: "2022-10-27 00:22:14.817114"
+updated_at: "2022-10-29 05:35:13.659174"
 latest: "0.9.0--pyh086e186_0"
 container_url: "https://biocontainers.pro/tools/sinto"
 aliases:
  - "sinto"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "0.9.0--pyh086e186_0"
 description: "shpc-registry automated BioContainers addition for sinto"
-config: {"url": "https://biocontainers.pro/tools/sinto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sinto", "latest": {"0.9.0--pyh086e186_0": "sha256:0b1b32fc0db0891d7a3914628a7e6e4a5411eb5774a589daa15c61d2634397ca"}, "tags": {"0.9.0--pyh086e186_0": "sha256:0b1b32fc0db0891d7a3914628a7e6e4a5411eb5774a589daa15c61d2634397ca"}, "docker": "quay.io/biocontainers/sinto", "aliases": {"sinto": "/usr/local/bin/sinto"}}
+config: {"url": "https://biocontainers.pro/tools/sinto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sinto", "latest": {"0.9.0--pyh086e186_0": "sha256:0b1b32fc0db0891d7a3914628a7e6e4a5411eb5774a589daa15c61d2634397ca"}, "tags": {"0.9.0--pyh086e186_0": "sha256:0b1b32fc0db0891d7a3914628a7e6e4a5411eb5774a589daa15c61d2634397ca"}, "docker": "quay.io/biocontainers/sinto", "aliases": {"sinto": "/usr/local/bin/sinto", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sinto.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/sinto
 $ podman run --it --rm --entrypoint /usr/local/bin/sinto   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sinto   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/nanoqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanoqc/container.yaml"
-updated_at: "2022-10-27 00:21:20.477278"
+updated_at: "2022-10-29 05:34:02.014858"
 latest: "0.9.4--py_0"
 container_url: "https://biocontainers.pro/tools/nanoqc"
 aliases:
  - "nanoQC"
+ - "bokeh"
+ - "f2py3.8"
 versions:
  - "0.9.4--py_0"
 description: "shpc-registry automated BioContainers addition for nanoqc"
-config: {"url": "https://biocontainers.pro/tools/nanoqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoqc", "latest": {"0.9.4--py_0": "sha256:bfeac3db5282091ccf57fd230bb777c6ab99c87275ac1ee80ebeef761a1f5228"}, "tags": {"0.9.4--py_0": "sha256:bfeac3db5282091ccf57fd230bb777c6ab99c87275ac1ee80ebeef761a1f5228"}, "docker": "quay.io/biocontainers/nanoqc", "aliases": {"nanoQC": "/usr/local/bin/nanoQC"}}
+config: {"url": "https://biocontainers.pro/tools/nanoqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoqc", "latest": {"0.9.4--py_0": "sha256:bfeac3db5282091ccf57fd230bb777c6ab99c87275ac1ee80ebeef761a1f5228"}, "tags": {"0.9.4--py_0": "sha256:bfeac3db5282091ccf57fd230bb777c6ab99c87275ac1ee80ebeef761a1f5228"}, "docker": "quay.io/biocontainers/nanoqc", "aliases": {"nanoQC": "/usr/local/bin/nanoQC", "bokeh": "/usr/local/bin/bokeh", "f2py3.8": "/usr/local/bin/f2py3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoqc.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/nanoQC
 $ podman run --it --rm --entrypoint /usr/local/bin/nanoQC   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/nanoQC   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bokeh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bokeh
+$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

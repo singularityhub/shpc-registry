@@ -4,14 +4,22 @@ name:  "quay.io/biocontainers/r-bit64"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bit64/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-bit64/container.yaml"
-updated_at: "2022-10-27 00:20:29.375176"
+updated_at: "2022-10-29 05:32:54.203369"
 latest: "0.9_5--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-bit64"
-
+aliases:
+ - "bmp2tiff"
+ - "gif2tiff"
+ - "pango-querymodules"
+ - "pngcp"
+ - "ras2tiff"
+ - "rgb2ycbcr"
+ - "thumbnail"
+ - "uconv"
 versions:
  - "0.9_5--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-bit64"
-config: {"url": "https://biocontainers.pro/tools/r-bit64", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bit64", "latest": {"0.9_5--r3.3.1_0": "sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9"}, "tags": {"0.9_5--r3.3.1_0": "sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9"}, "docker": "quay.io/biocontainers/r-bit64"}
+config: {"url": "https://biocontainers.pro/tools/r-bit64", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bit64", "latest": {"0.9_5--r3.3.1_0": "sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9"}, "tags": {"0.9_5--r3.3.1_0": "sha256:8ef0a960efc1351fe54e28346afac07397c94e7cd94bd758acee50c3c8ad1fa9"}, "docker": "quay.io/biocontainers/r-bit64", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "pango-querymodules": "/usr/local/bin/pango-querymodules", "pngcp": "/usr/local/bin/pngcp", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bit64.
@@ -97,14 +105,77 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-bit64
+#### bmp2tiff
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pango-querymodules
+
+```bash
+$ singularity exec <container> /usr/local/bin/pango-querymodules
+$ podman run --it --rm --entrypoint /usr/local/bin/pango-querymodules   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pango-querymodules   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pngcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngcp
+$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ras2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/ras2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rgb2ycbcr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rgb2ycbcr
+$ podman run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thumbnail
+
+```bash
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### uconv
+
+```bash
+$ singularity exec <container> /usr/local/bin/uconv
+$ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

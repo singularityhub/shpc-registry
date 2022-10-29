@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mpra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpra/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpra/container.yaml"
-updated_at: "2022-10-27 00:18:18.460320"
+updated_at: "2022-10-29 05:30:02.930842"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpra"
-
+aliases:
+ - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mpra"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mpra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpra", "latest": {"1.8.0--r36_0": "sha256:c8db0d743f9f17a7fc4e11e4ba5d85d6b7da891e646f90e2f2f0983cd1a8e102"}, "tags": {"1.8.0--r36_0": "sha256:c8db0d743f9f17a7fc4e11e4ba5d85d6b7da891e646f90e2f2f0983cd1a8e102"}, "docker": "quay.io/biocontainers/bioconductor-mpra"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mpra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpra", "latest": {"1.8.0--r36_0": "sha256:c8db0d743f9f17a7fc4e11e4ba5d85d6b7da891e646f90e2f2f0983cd1a8e102"}, "tags": {"1.8.0--r36_0": "sha256:c8db0d743f9f17a7fc4e11e4ba5d85d6b7da891e646f90e2f2f0983cd1a8e102"}, "docker": "quay.io/biocontainers/bioconductor-mpra", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mpra.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-mpra
+#### gio-launch-desktop
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

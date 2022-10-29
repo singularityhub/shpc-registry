@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/influx_si"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/influx_si/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/influx_si/container.yaml"
-updated_at: "2022-10-27 00:24:25.449192"
+updated_at: "2022-10-29 05:38:06.868009"
 latest: "6.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/influx_si"
 aliases:
@@ -36,10 +36,17 @@ aliases:
  - "res2ftbl_meas.py"
  - "txt2ftbl"
  - "txt2ftbl.py"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "6.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for influx_si"
-config: {"url": "https://biocontainers.pro/tools/influx_si", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for influx_si", "latest": {"6.1--pyhdfd78af_0": "sha256:ac0352104547261057cc19c24e0b82ff2385f894563b08cb339ff40ee9bb53e5"}, "tags": {"6.1--pyhdfd78af_0": "sha256:ac0352104547261057cc19c24e0b82ff2385f894563b08cb339ff40ee9bb53e5"}, "docker": "quay.io/biocontainers/influx_si", "aliases": {"ff2ftbl": "/usr/local/bin/ff2ftbl", "ff2ftbl.py": "/usr/local/bin/ff2ftbl.py", "ftbl2code": "/usr/local/bin/ftbl2code", "ftbl2code.py": "/usr/local/bin/ftbl2code.py", "ftbl2cumoAb": "/usr/local/bin/ftbl2cumoAb", "ftbl2cumoAb.py": "/usr/local/bin/ftbl2cumoAb.py", "ftbl2kvh": "/usr/local/bin/ftbl2kvh", "ftbl2kvh.py": "/usr/local/bin/ftbl2kvh.py", "ftbl2labcin": "/usr/local/bin/ftbl2labcin", "ftbl2labcin.py": "/usr/local/bin/ftbl2labcin.py", "ftbl2metxml": "/usr/local/bin/ftbl2metxml", "ftbl2metxml.py": "/usr/local/bin/ftbl2metxml.py", "ftbl2mtf": "/usr/local/bin/ftbl2mtf", "ftbl2mtf.py": "/usr/local/bin/ftbl2mtf.py", "ftbl2netan": "/usr/local/bin/ftbl2netan", "ftbl2netan.py": "/usr/local/bin/ftbl2netan.py", "ftbl2optR": "/usr/local/bin/ftbl2optR", "ftbl2optR.py": "/usr/local/bin/ftbl2optR.py", "ftbl2xgmml": "/usr/local/bin/ftbl2xgmml", "ftbl2xgmml.py": "/usr/local/bin/ftbl2xgmml.py", "influx_i": "/usr/local/bin/influx_i", "influx_i.py": "/usr/local/bin/influx_i.py", "influx_s": "/usr/local/bin/influx_s", "influx_s.py": "/usr/local/bin/influx_s.py", "res2ftbl_meas": "/usr/local/bin/res2ftbl_meas", "res2ftbl_meas.py": "/usr/local/bin/res2ftbl_meas.py", "txt2ftbl": "/usr/local/bin/txt2ftbl", "txt2ftbl.py": "/usr/local/bin/txt2ftbl.py"}}
+config: {"url": "https://biocontainers.pro/tools/influx_si", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for influx_si", "latest": {"6.1--pyhdfd78af_0": "sha256:ac0352104547261057cc19c24e0b82ff2385f894563b08cb339ff40ee9bb53e5"}, "tags": {"6.1--pyhdfd78af_0": "sha256:ac0352104547261057cc19c24e0b82ff2385f894563b08cb339ff40ee9bb53e5"}, "docker": "quay.io/biocontainers/influx_si", "aliases": {"ff2ftbl": "/usr/local/bin/ff2ftbl", "ff2ftbl.py": "/usr/local/bin/ff2ftbl.py", "ftbl2code": "/usr/local/bin/ftbl2code", "ftbl2code.py": "/usr/local/bin/ftbl2code.py", "ftbl2cumoAb": "/usr/local/bin/ftbl2cumoAb", "ftbl2cumoAb.py": "/usr/local/bin/ftbl2cumoAb.py", "ftbl2kvh": "/usr/local/bin/ftbl2kvh", "ftbl2kvh.py": "/usr/local/bin/ftbl2kvh.py", "ftbl2labcin": "/usr/local/bin/ftbl2labcin", "ftbl2labcin.py": "/usr/local/bin/ftbl2labcin.py", "ftbl2metxml": "/usr/local/bin/ftbl2metxml", "ftbl2metxml.py": "/usr/local/bin/ftbl2metxml.py", "ftbl2mtf": "/usr/local/bin/ftbl2mtf", "ftbl2mtf.py": "/usr/local/bin/ftbl2mtf.py", "ftbl2netan": "/usr/local/bin/ftbl2netan", "ftbl2netan.py": "/usr/local/bin/ftbl2netan.py", "ftbl2optR": "/usr/local/bin/ftbl2optR", "ftbl2optR.py": "/usr/local/bin/ftbl2optR.py", "ftbl2xgmml": "/usr/local/bin/ftbl2xgmml", "ftbl2xgmml.py": "/usr/local/bin/ftbl2xgmml.py", "influx_i": "/usr/local/bin/influx_i", "influx_i.py": "/usr/local/bin/influx_i.py", "influx_s": "/usr/local/bin/influx_s", "influx_s.py": "/usr/local/bin/influx_s.py", "res2ftbl_meas": "/usr/local/bin/res2ftbl_meas", "res2ftbl_meas.py": "/usr/local/bin/res2ftbl_meas.py", "txt2ftbl": "/usr/local/bin/txt2ftbl", "txt2ftbl.py": "/usr/local/bin/txt2ftbl.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/influx_si.
@@ -374,6 +381,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/txt2ftbl   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/txt2ftbl.py
 $ podman run --it --rm --entrypoint /usr/local/bin/txt2ftbl.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/txt2ftbl.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

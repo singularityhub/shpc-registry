@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-interest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interest/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interest/container.yaml"
-updated_at: "2022-10-27 00:33:13.541481"
+updated_at: "2022-10-29 05:49:46.488640"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-interest"
-
+aliases:
+ - "my_print_defaults"
+ - "mysql_config"
+ - "perror"
 versions:
  - "1.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-interest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-interest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interest", "latest": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "tags": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "docker": "quay.io/biocontainers/bioconductor-interest"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-interest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interest", "latest": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "tags": {"1.8.0--r36_1": "sha256:96465bba61d7ba8fba14ea8729fa4b84bcce59c134161ada120b87da38cf788c"}, "docker": "quay.io/biocontainers/bioconductor-interest", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-interest.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-interest
+#### my_print_defaults
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/my_print_defaults
+$ podman run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### mysql_config
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_config
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perror
+
+```bash
+$ singularity exec <container> /usr/local/bin/perror
+$ podman run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

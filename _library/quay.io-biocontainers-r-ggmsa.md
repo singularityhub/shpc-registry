@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/r-ggmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggmsa/container.yaml"
-updated_at: "2022-10-27 00:32:54.364554"
+updated_at: "2022-10-29 05:49:22.020013"
 latest: "1.0.2--r41h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-ggmsa"
-
+aliases:
+ - "cct"
+ - "cs2cs"
+ - "geod"
+ - "gie"
+ - "invgeod"
+ - "invproj"
+ - "proj"
+ - "projinfo"
+ - "projsync"
 versions:
  - "1.0.2--r41h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-ggmsa"
-config: {"url": "https://biocontainers.pro/tools/r-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggmsa", "latest": {"1.0.2--r41h3121a25_1": "sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f"}, "tags": {"1.0.2--r41h3121a25_1": "sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f"}, "docker": "quay.io/biocontainers/r-ggmsa"}
+config: {"url": "https://biocontainers.pro/tools/r-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggmsa", "latest": {"1.0.2--r41h3121a25_1": "sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f"}, "tags": {"1.0.2--r41h3121a25_1": "sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f"}, "docker": "quay.io/biocontainers/r-ggmsa", "aliases": {"cct": "/usr/local/bin/cct", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "gie": "/usr/local/bin/gie", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "proj": "/usr/local/bin/proj", "projinfo": "/usr/local/bin/projinfo", "projsync": "/usr/local/bin/projsync"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggmsa.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-ggmsa
+#### cct
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cct
+$ podman run --it --rm --entrypoint /usr/local/bin/cct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cct   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### cs2cs
+
+```bash
+$ singularity exec <container> /usr/local/bin/cs2cs
+$ podman run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cs2cs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### geod
+
+```bash
+$ singularity exec <container> /usr/local/bin/geod
+$ podman run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gie
+
+```bash
+$ singularity exec <container> /usr/local/bin/gie
+$ podman run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gie   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### invgeod
+
+```bash
+$ singularity exec <container> /usr/local/bin/invgeod
+$ podman run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/invgeod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### invproj
+
+```bash
+$ singularity exec <container> /usr/local/bin/invproj
+$ podman run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/invproj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### proj
+
+```bash
+$ singularity exec <container> /usr/local/bin/proj
+$ podman run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/proj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### projinfo
+
+```bash
+$ singularity exec <container> /usr/local/bin/projinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/projinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/projinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### projsync
+
+```bash
+$ singularity exec <container> /usr/local/bin/projsync
+$ podman run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/projsync   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

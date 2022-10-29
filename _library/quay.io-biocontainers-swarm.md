@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/swarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swarm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/swarm/container.yaml"
-updated_at: "2022-10-27 00:23:39.717614"
+updated_at: "2022-10-29 05:37:08.524330"
 latest: "3.1.0--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/swarm"
 aliases:
  - "amplicon_contingency_table.py"
  - "graph_plot.py"
  - "swarm"
+ - "2to3-3.10"
+ - "cmpfillin"
+ - "glpsol"
+ - "gpmetis"
+ - "graphchk"
+ - "idle3.10"
+ - "igraph"
+ - "m2gmetis"
+ - "mpmetis"
+ - "ndmetis"
 versions:
  - "3.1.0--h9f5acd7_2"
 description: "shpc-registry automated BioContainers addition for swarm"
-config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm"}}
+config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "2to3-3.10": "/usr/local/bin/2to3-3.10", "cmpfillin": "/usr/local/bin/cmpfillin", "glpsol": "/usr/local/bin/glpsol", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "idle3.10": "/usr/local/bin/idle3.10", "igraph": "/usr/local/bin/igraph", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/swarm.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/graph_plot.py   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/swarm
 $ podman run --it --rm --entrypoint /usr/local/bin/swarm   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/swarm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmpfillin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmpfillin
+$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gpmetis
+
+```bash
+$ singularity exec <container> /usr/local/bin/gpmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/gpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### graphchk
+
+```bash
+$ singularity exec <container> /usr/local/bin/graphchk
+$ podman run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### igraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/igraph
+$ podman run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### m2gmetis
+
+```bash
+$ singularity exec <container> /usr/local/bin/m2gmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/m2gmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/m2gmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpmetis
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/mpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ndmetis
+
+```bash
+$ singularity exec <container> /usr/local/bin/ndmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/ndmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ndmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_vs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_vs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_vs/container.yaml"
-updated_at: "2022-10-27 00:23:35.004086"
+updated_at: "2022-10-29 05:37:02.537440"
 latest: "3.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_vs"
 aliases:
@@ -22,10 +22,20 @@ aliases:
  - "tpocket"
  - "vina"
  - "vina_split"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "gif2h5"
+ - "gif2hdf"
+ - "h4_ncdump"
+ - "h4_ncgen"
+ - "h4cc"
+ - "h4redeploy"
+ - "h52gif"
+ - "h5c++"
 versions:
  - "3.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_vs"
-config: {"url": "https://biocontainers.pro/tools/biobb_vs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_vs", "latest": {"3.8.1--pyhdfd78af_0": "sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf"}, "docker": "quay.io/biocontainers/biobb_vs", "aliases": {"autodock_vina_run": "/usr/local/bin/autodock_vina_run", "bindingsite": "/usr/local/bin/bindingsite", "box": "/usr/local/bin/box", "box_residues": "/usr/local/bin/box_residues", "dpocket": "/usr/local/bin/dpocket", "extract_model_pdbqt": "/usr/local/bin/extract_model_pdbqt", "fpocket": "/usr/local/bin/fpocket", "fpocket_filter": "/usr/local/bin/fpocket_filter", "fpocket_run": "/usr/local/bin/fpocket_run", "fpocket_select": "/usr/local/bin/fpocket_select", "mdpocket": "/usr/local/bin/mdpocket", "tpocket": "/usr/local/bin/tpocket", "vina": "/usr/local/bin/vina", "vina_split": "/usr/local/bin/vina_split"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_vs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_vs", "latest": {"3.8.1--pyhdfd78af_0": "sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:a089d7a39d9ef43fcc853dcb5940700a98d95762e83181914c8c72792d81b7bf"}, "docker": "quay.io/biocontainers/biobb_vs", "aliases": {"autodock_vina_run": "/usr/local/bin/autodock_vina_run", "bindingsite": "/usr/local/bin/bindingsite", "box": "/usr/local/bin/box", "box_residues": "/usr/local/bin/box_residues", "dpocket": "/usr/local/bin/dpocket", "extract_model_pdbqt": "/usr/local/bin/extract_model_pdbqt", "fpocket": "/usr/local/bin/fpocket", "fpocket_filter": "/usr/local/bin/fpocket_filter", "fpocket_run": "/usr/local/bin/fpocket_run", "fpocket_select": "/usr/local/bin/fpocket_select", "mdpocket": "/usr/local/bin/mdpocket", "tpocket": "/usr/local/bin/tpocket", "vina": "/usr/local/bin/vina", "vina_split": "/usr/local/bin/vina_split", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_vs.
@@ -234,6 +244,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vina   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/vina_split
 $ podman run --it --rm --entrypoint /usr/local/bin/vina_split   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vina_split   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2hdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2hdf
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncdump
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncgen
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4redeploy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4redeploy
+$ podman run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

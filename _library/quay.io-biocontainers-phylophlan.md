@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylophlan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylophlan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phylophlan/container.yaml"
-updated_at: "2022-10-27 00:28:37.808904"
+updated_at: "2022-10-29 05:43:42.718269"
 latest: "3.0--py_7"
 container_url: "https://biocontainers.pro/tools/phylophlan"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "phylophlan_strain_finder"
  - "phylophlan_write_config_file"
  - "phylophlan_write_default_configs.sh"
+ - "2to3-3.8"
+ - "FastTree"
+ - "FastTree-2.1.10.c"
+ - "FastTreeMP"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "between-two-genes"
+ - "blast_formatter"
 versions:
  - "3.0--py_7"
 description: "shpc-registry automated BioContainers addition for phylophlan"
-config: {"url": "https://biocontainers.pro/tools/phylophlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylophlan", "latest": {"3.0--py_7": "sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83"}, "tags": {"3.0--py_7": "sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83"}, "docker": "quay.io/biocontainers/phylophlan", "aliases": {"phylophlan": "/usr/local/bin/phylophlan", "phylophlan_draw_metagenomic": "/usr/local/bin/phylophlan_draw_metagenomic", "phylophlan_get_reference": "/usr/local/bin/phylophlan_get_reference", "phylophlan_metagenomic": "/usr/local/bin/phylophlan_metagenomic", "phylophlan_setup_database": "/usr/local/bin/phylophlan_setup_database", "phylophlan_strain_finder": "/usr/local/bin/phylophlan_strain_finder", "phylophlan_write_config_file": "/usr/local/bin/phylophlan_write_config_file", "phylophlan_write_default_configs.sh": "/usr/local/bin/phylophlan_write_default_configs.sh"}}
+config: {"url": "https://biocontainers.pro/tools/phylophlan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylophlan", "latest": {"3.0--py_7": "sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83"}, "tags": {"3.0--py_7": "sha256:7ad925997528299766b3f7cab8b13ce447e3715c4010976556d6a014a2f4ac83"}, "docker": "quay.io/biocontainers/phylophlan", "aliases": {"phylophlan": "/usr/local/bin/phylophlan", "phylophlan_draw_metagenomic": "/usr/local/bin/phylophlan_draw_metagenomic", "phylophlan_get_reference": "/usr/local/bin/phylophlan_get_reference", "phylophlan_metagenomic": "/usr/local/bin/phylophlan_metagenomic", "phylophlan_setup_database": "/usr/local/bin/phylophlan_setup_database", "phylophlan_strain_finder": "/usr/local/bin/phylophlan_strain_finder", "phylophlan_write_config_file": "/usr/local/bin/phylophlan_write_config_file", "phylophlan_write_default_configs.sh": "/usr/local/bin/phylophlan_write_default_configs.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "FastTree": "/usr/local/bin/FastTree", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylophlan.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phylophlan_write_config_file 
 $ singularity exec <container> /usr/local/bin/phylophlan_write_default_configs.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/phylophlan_write_default_configs.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/phylophlan_write_default_configs.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree-2.1.10.c
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree-2.1.10.c
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTreeMP
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTreeMP
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/krbalancing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krbalancing/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/krbalancing/container.yaml"
-updated_at: "2022-10-27 00:33:40.921964"
+updated_at: "2022-10-29 05:50:21.606208"
 latest: "0.0.5--py38h4a32c8e_4"
 container_url: "https://biocontainers.pro/tools/krbalancing"
-
+aliases:
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pybind11-config"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "0.0.5--py38h4a32c8e_4"
 description: "shpc-registry automated BioContainers addition for krbalancing"
-config: {"url": "https://biocontainers.pro/tools/krbalancing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krbalancing", "latest": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d"}, "tags": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d"}, "docker": "quay.io/biocontainers/krbalancing"}
+config: {"url": "https://biocontainers.pro/tools/krbalancing", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krbalancing", "latest": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d"}, "tags": {"0.0.5--py38h4a32c8e_4": "sha256:c393b80dd6376008d76af8256e9cc9a3e6c1cf6815bd30f4f5319b456032e34d"}, "docker": "quay.io/biocontainers/krbalancing", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pybind11-config": "/usr/local/bin/pybind11-config", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krbalancing.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### krbalancing
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pybind11-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/pybind11-config
+$ podman run --it --rm --entrypoint /usr/local/bin/pybind11-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pybind11-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-rcytoscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcytoscape/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcytoscape/container.yaml"
-updated_at: "2022-10-27 00:35:41.966206"
+updated_at: "2022-10-29 05:53:05.832580"
 latest: "1.27.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcytoscape"
-
+aliases:
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "tclsh8.5"
+ - "wish8.5"
 versions:
  - "1.27.1--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcytoscape"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcytoscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcytoscape", "latest": {"1.27.1--r3.4.1_0": "sha256:9fb2317938f1d87a6ef30f87e2a9582ada55236f5b5285103bb20c6ae643cfcc"}, "tags": {"1.27.1--r3.4.1_0": "sha256:9fb2317938f1d87a6ef30f87e2a9582ada55236f5b5285103bb20c6ae643cfcc"}, "docker": "quay.io/biocontainers/bioconductor-rcytoscape"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcytoscape", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcytoscape", "latest": {"1.27.1--r3.4.1_0": "sha256:9fb2317938f1d87a6ef30f87e2a9582ada55236f5b5285103bb20c6ae643cfcc"}, "tags": {"1.27.1--r3.4.1_0": "sha256:9fb2317938f1d87a6ef30f87e2a9582ada55236f5b5285103bb20c6ae643cfcc"}, "docker": "quay.io/biocontainers/bioconductor-rcytoscape", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcytoscape.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-rcytoscape
+#### ncurses5-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

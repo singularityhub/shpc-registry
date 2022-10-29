@@ -4,38 +4,35 @@ name:  "quay.io/biocontainers/ltr_retriever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_retriever/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_retriever/container.yaml"
-updated_at: "2022-10-27 00:28:48.880455"
+updated_at: "2022-10-29 05:43:56.767926"
 latest: "2.9.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/ltr_retriever"
 aliases:
- - "DateRepeats"
- - "DupMasker"
  - "LAI"
  - "LTR_retriever"
- - "ProcessRepeats"
  - "RM2Bed.py"
- - "RepeatMasker"
- - "RepeatProteinMask"
  - "buildRMLibFromEMBL.pl"
  - "buildSummary.pl"
- - "calcDivergenceFromAlign.pl"
  - "convert_MGEScan3.0.pl"
  - "convert_ltr_struc.pl"
  - "convert_ltrdetector.pl"
- - "createRepeatLandscape.pl"
- - "dupliconToSVG.pl"
- - "getRepeatMaskerBatch.pl"
  - "queryRepeatDatabase.pl"
  - "queryTaxonomyDatabase.pl"
- - "rmOut2Fasta.pl"
- - "rmOutToGFF3.pl"
- - "rmToUCSCTables.pl"
- - "trfMask"
  - "wublastToCrossmatch.pl"
+ - "CA.pm"
+ - "DateRepeats"
+ - "DupMasker"
+ - "FET.pl"
+ - "ProcessRepeats"
+ - "RepeatMasker"
+ - "RepeatProteinMask"
+ - "accn-at-a-time"
+ - "alimask"
+ - "amino-acid-composition"
 versions:
  - "2.9.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for ltr_retriever"
-config: {"url": "https://biocontainers.pro/tools/ltr_retriever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_retriever", "latest": {"2.9.0--hdfd78af_1": "sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58"}, "tags": {"2.9.0--hdfd78af_1": "sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58"}, "docker": "quay.io/biocontainers/ltr_retriever", "aliases": {"DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "LAI": "/usr/local/bin/LAI", "LTR_retriever": "/usr/local/bin/LTR_retriever", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "calcDivergenceFromAlign.pl": "/usr/local/bin/calcDivergenceFromAlign.pl", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "createRepeatLandscape.pl": "/usr/local/bin/createRepeatLandscape.pl", "dupliconToSVG.pl": "/usr/local/bin/dupliconToSVG.pl", "getRepeatMaskerBatch.pl": "/usr/local/bin/getRepeatMaskerBatch.pl", "queryRepeatDatabase.pl": "/usr/local/bin/queryRepeatDatabase.pl", "queryTaxonomyDatabase.pl": "/usr/local/bin/queryTaxonomyDatabase.pl", "rmOut2Fasta.pl": "/usr/local/bin/rmOut2Fasta.pl", "rmOutToGFF3.pl": "/usr/local/bin/rmOutToGFF3.pl", "rmToUCSCTables.pl": "/usr/local/bin/rmToUCSCTables.pl", "trfMask": "/usr/local/bin/trfMask", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl"}}
+config: {"url": "https://biocontainers.pro/tools/ltr_retriever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ltr_retriever", "latest": {"2.9.0--hdfd78af_1": "sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58"}, "tags": {"2.9.0--hdfd78af_1": "sha256:881fbf91a576048b71c7f9328609e4a9554bbe283400af3931a25250206c2b58"}, "docker": "quay.io/biocontainers/ltr_retriever", "aliases": {"LAI": "/usr/local/bin/LAI", "LTR_retriever": "/usr/local/bin/LTR_retriever", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "queryRepeatDatabase.pl": "/usr/local/bin/queryRepeatDatabase.pl", "queryTaxonomyDatabase.pl": "/usr/local/bin/queryTaxonomyDatabase.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl", "CA.pm": "/usr/local/bin/CA.pm", "DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "FET.pl": "/usr/local/bin/FET.pl", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ltr_retriever.
@@ -121,24 +118,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### DateRepeats
-
-```bash
-$ singularity exec <container> /usr/local/bin/DateRepeats
-$ podman run --it --rm --entrypoint /usr/local/bin/DateRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DateRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### DupMasker
-
-```bash
-$ singularity exec <container> /usr/local/bin/DupMasker
-$ podman run --it --rm --entrypoint /usr/local/bin/DupMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/DupMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### LAI
 
 ```bash
@@ -157,39 +136,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/LTR_retriever   -v ${PWD} -w 
 ```
 
 
-#### ProcessRepeats
-
-```bash
-$ singularity exec <container> /usr/local/bin/ProcessRepeats
-$ podman run --it --rm --entrypoint /usr/local/bin/ProcessRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/ProcessRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### RM2Bed.py
 
 ```bash
 $ singularity exec <container> /usr/local/bin/RM2Bed.py
 $ podman run --it --rm --entrypoint /usr/local/bin/RM2Bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/RM2Bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RepeatMasker
-
-```bash
-$ singularity exec <container> /usr/local/bin/RepeatMasker
-$ podman run --it --rm --entrypoint /usr/local/bin/RepeatMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RepeatMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### RepeatProteinMask
-
-```bash
-$ singularity exec <container> /usr/local/bin/RepeatProteinMask
-$ podman run --it --rm --entrypoint /usr/local/bin/RepeatProteinMask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RepeatProteinMask   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -208,15 +160,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/buildRMLibFromEMBL.pl   -v ${
 $ singularity exec <container> /usr/local/bin/buildSummary.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/buildSummary.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/buildSummary.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### calcDivergenceFromAlign.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/calcDivergenceFromAlign.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/calcDivergenceFromAlign.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/calcDivergenceFromAlign.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -247,33 +190,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/convert_ltrdetector.pl   -v $
 ```
 
 
-#### createRepeatLandscape.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/createRepeatLandscape.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/createRepeatLandscape.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/createRepeatLandscape.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### dupliconToSVG.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/dupliconToSVG.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/dupliconToSVG.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/dupliconToSVG.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### getRepeatMaskerBatch.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/getRepeatMaskerBatch.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/getRepeatMaskerBatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/getRepeatMaskerBatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### queryRepeatDatabase.pl
 
 ```bash
@@ -292,48 +208,102 @@ $ docker run --it --rm --entrypoint /usr/local/bin/queryTaxonomyDatabase.pl   -v
 ```
 
 
-#### rmOut2Fasta.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/rmOut2Fasta.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/rmOut2Fasta.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/rmOut2Fasta.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### rmOutToGFF3.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/rmOutToGFF3.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/rmOutToGFF3.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/rmOutToGFF3.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### rmToUCSCTables.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/rmToUCSCTables.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/rmToUCSCTables.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/rmToUCSCTables.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### trfMask
-
-```bash
-$ singularity exec <container> /usr/local/bin/trfMask
-$ podman run --it --rm --entrypoint /usr/local/bin/trfMask   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/trfMask   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### wublastToCrossmatch.pl
 
 ```bash
 $ singularity exec <container> /usr/local/bin/wublastToCrossmatch.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/wublastToCrossmatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wublastToCrossmatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CA.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/CA.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DateRepeats
+
+```bash
+$ singularity exec <container> /usr/local/bin/DateRepeats
+$ podman run --it --rm --entrypoint /usr/local/bin/DateRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DateRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DupMasker
+
+```bash
+$ singularity exec <container> /usr/local/bin/DupMasker
+$ podman run --it --rm --entrypoint /usr/local/bin/DupMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DupMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FET.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/FET.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ProcessRepeats
+
+```bash
+$ singularity exec <container> /usr/local/bin/ProcessRepeats
+$ podman run --it --rm --entrypoint /usr/local/bin/ProcessRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ProcessRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RepeatMasker
+
+```bash
+$ singularity exec <container> /usr/local/bin/RepeatMasker
+$ podman run --it --rm --entrypoint /usr/local/bin/RepeatMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RepeatMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RepeatProteinMask
+
+```bash
+$ singularity exec <container> /usr/local/bin/RepeatProteinMask
+$ podman run --it --rm --entrypoint /usr/local/bin/RepeatProteinMask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RepeatProteinMask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

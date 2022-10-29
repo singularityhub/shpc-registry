@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-crisprvariants"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprvariants/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprvariants/container.yaml"
-updated_at: "2022-10-27 00:30:17.882975"
+updated_at: "2022-10-29 05:45:52.430940"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprvariants"
-
+aliases:
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crisprvariants"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprvariants", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crisprvariants", "latest": {"1.8.0--r351_0": "sha256:57d93e2b3196b6f7a6c735e66d7f3712faedba78f39de35d78129acbd074be87"}, "tags": {"1.8.0--r351_0": "sha256:57d93e2b3196b6f7a6c735e66d7f3712faedba78f39de35d78129acbd074be87"}, "docker": "quay.io/biocontainers/bioconductor-crisprvariants"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crisprvariants", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crisprvariants", "latest": {"1.8.0--r351_0": "sha256:57d93e2b3196b6f7a6c735e66d7f3712faedba78f39de35d78129acbd074be87"}, "tags": {"1.8.0--r351_0": "sha256:57d93e2b3196b6f7a6c735e66d7f3712faedba78f39de35d78129acbd074be87"}, "docker": "quay.io/biocontainers/bioconductor-crisprvariants", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crisprvariants.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-crisprvariants
+#### wget
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

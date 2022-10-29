@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/metavelvet-annois"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metavelvet-annois/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metavelvet-annois/container.yaml"
-updated_at: "2022-10-27 00:18:54.166198"
+updated_at: "2022-10-29 05:30:50.242184"
 latest: "0.2.01--pl5321hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/metavelvet-annois"
 aliases:
  - "run-annoIS.pl"
+ - "config_data"
 versions:
  - "0.2.01--pl5321hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for metavelvet-annois"
-config: {"url": "https://biocontainers.pro/tools/metavelvet-annois", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-annois", "latest": {"0.2.01--pl5321hdfd78af_6": "sha256:6822e9194cea2b70af0d98fb04d3dd5f48eed583d61564c99416602203280c8c"}, "tags": {"0.2.01--pl5321hdfd78af_6": "sha256:6822e9194cea2b70af0d98fb04d3dd5f48eed583d61564c99416602203280c8c"}, "docker": "quay.io/biocontainers/metavelvet-annois", "aliases": {"run-annoIS.pl": "/usr/local/bin/run-annoIS.pl"}}
+config: {"url": "https://biocontainers.pro/tools/metavelvet-annois", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metavelvet-annois", "latest": {"0.2.01--pl5321hdfd78af_6": "sha256:6822e9194cea2b70af0d98fb04d3dd5f48eed583d61564c99416602203280c8c"}, "tags": {"0.2.01--pl5321hdfd78af_6": "sha256:6822e9194cea2b70af0d98fb04d3dd5f48eed583d61564c99416602203280c8c"}, "docker": "quay.io/biocontainers/metavelvet-annois", "aliases": {"run-annoIS.pl": "/usr/local/bin/run-annoIS.pl", "config_data": "/usr/local/bin/config_data"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metavelvet-annois.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/run-annoIS.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/run-annoIS.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/run-annoIS.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### config_data
+
+```bash
+$ singularity exec <container> /usr/local/bin/config_data
+$ podman run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

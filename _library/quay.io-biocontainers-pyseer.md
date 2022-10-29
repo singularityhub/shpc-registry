@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyseer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyseer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyseer/container.yaml"
-updated_at: "2022-10-27 00:35:56.423960"
+updated_at: "2022-10-29 05:53:25.799302"
 latest: "1.3.9--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/pyseer"
 aliases:
@@ -15,10 +15,20 @@ aliases:
  - "scree_plot_pyseer"
  - "similarity_pyseer"
  - "square_mash"
+ - "2to3-3.9"
+ - "ace2sam"
+ - "annotateBed"
+ - "bam2bed"
+ - "bam2bed-float128"
+ - "bam2bed-megarow"
+ - "bam2bed-typical"
+ - "bam2bed_gnuParallel"
+ - "bam2bed_gnuParallel-float128"
+ - "bam2bed_gnuParallel-megarow"
 versions:
  - "1.3.9--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for pyseer"
-config: {"url": "https://biocontainers.pro/tools/pyseer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseer", "latest": {"1.3.9--pyh5e36f6f_0": "sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e"}, "tags": {"1.3.9--pyh5e36f6f_0": "sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e"}, "docker": "quay.io/biocontainers/pyseer", "aliases": {"annotate_hits_pyseer": "/usr/local/bin/annotate_hits_pyseer", "enet_predict_pyseer": "/usr/local/bin/enet_predict_pyseer", "phandango_mapper": "/usr/local/bin/phandango_mapper", "pyseer": "/usr/local/bin/pyseer", "scree_plot_pyseer": "/usr/local/bin/scree_plot_pyseer", "similarity_pyseer": "/usr/local/bin/similarity_pyseer", "square_mash": "/usr/local/bin/square_mash"}}
+config: {"url": "https://biocontainers.pro/tools/pyseer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseer", "latest": {"1.3.9--pyh5e36f6f_0": "sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e"}, "tags": {"1.3.9--pyh5e36f6f_0": "sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e"}, "docker": "quay.io/biocontainers/pyseer", "aliases": {"annotate_hits_pyseer": "/usr/local/bin/annotate_hits_pyseer", "enet_predict_pyseer": "/usr/local/bin/enet_predict_pyseer", "phandango_mapper": "/usr/local/bin/phandango_mapper", "pyseer": "/usr/local/bin/pyseer", "scree_plot_pyseer": "/usr/local/bin/scree_plot_pyseer", "similarity_pyseer": "/usr/local/bin/similarity_pyseer", "square_mash": "/usr/local/bin/square_mash", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bam2bed": "/usr/local/bin/bam2bed", "bam2bed-float128": "/usr/local/bin/bam2bed-float128", "bam2bed-megarow": "/usr/local/bin/bam2bed-megarow", "bam2bed-typical": "/usr/local/bin/bam2bed-typical", "bam2bed_gnuParallel": "/usr/local/bin/bam2bed_gnuParallel", "bam2bed_gnuParallel-float128": "/usr/local/bin/bam2bed_gnuParallel-float128", "bam2bed_gnuParallel-megarow": "/usr/local/bin/bam2bed_gnuParallel-megarow"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyseer.
@@ -164,6 +174,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/similarity_pyseer   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/square_mash
 $ podman run --it --rm --entrypoint /usr/local/bin/square_mash   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/square_mash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed-float128
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed-float128
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed-float128   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed-float128   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed-megarow
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed-megarow
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed-megarow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed-megarow   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed-typical
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed-typical
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed-typical   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed-typical   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed_gnuParallel
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed_gnuParallel
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed_gnuParallel-float128
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed_gnuParallel-float128
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-float128   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-float128   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bed_gnuParallel-megarow
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bed_gnuParallel-megarow
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-megarow   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bed_gnuParallel-megarow   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/spectrassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spectrassembler/container.yaml"
-updated_at: "2022-10-27 00:38:24.344309"
+updated_at: "2022-10-29 05:56:40.252053"
 latest: "0.0.1a1--py_4"
 container_url: "https://biocontainers.pro/tools/spectrassembler"
 aliases:
@@ -15,10 +15,20 @@ aliases:
  - "minimap-lite"
  - "poa"
  - "spectral_layout_from_minimap.py"
+ - "bl2seq"
+ - "blastall"
+ - "blastclust"
+ - "blastpgp"
+ - "bwa"
+ - "copymat"
+ - "f2py2"
+ - "f2py2.7"
+ - "fastacmd"
+ - "formatdb"
 versions:
  - "0.0.1a1--py_4"
 description: "shpc-registry automated BioContainers addition for spectrassembler"
-config: {"url": "https://biocontainers.pro/tools/spectrassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrassembler", "latest": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "tags": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "docker": "quay.io/biocontainers/spectrassembler", "aliases": {"gen_cons_from_poa.py": "/usr/local/bin/gen_cons_from_poa.py", "get_position_from_sam.py": "/usr/local/bin/get_position_from_sam.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "minimap": "/usr/local/bin/minimap", "minimap-lite": "/usr/local/bin/minimap-lite", "poa": "/usr/local/bin/poa", "spectral_layout_from_minimap.py": "/usr/local/bin/spectral_layout_from_minimap.py"}}
+config: {"url": "https://biocontainers.pro/tools/spectrassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrassembler", "latest": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "tags": {"0.0.1a1--py_4": "sha256:be47b95d8cbd68a41537fbc23b25a216e0b698b3a30482403ad8cd5a7975cdeb"}, "docker": "quay.io/biocontainers/spectrassembler", "aliases": {"gen_cons_from_poa.py": "/usr/local/bin/gen_cons_from_poa.py", "get_position_from_sam.py": "/usr/local/bin/get_position_from_sam.py", "make_pscores.pl": "/usr/local/bin/make_pscores.pl", "minimap": "/usr/local/bin/minimap", "minimap-lite": "/usr/local/bin/minimap-lite", "poa": "/usr/local/bin/poa", "spectral_layout_from_minimap.py": "/usr/local/bin/spectral_layout_from_minimap.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "bwa": "/usr/local/bin/bwa", "copymat": "/usr/local/bin/copymat", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spectrassembler.
@@ -164,6 +174,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/poa   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/spectral_layout_from_minimap.py
 $ podman run --it --rm --entrypoint /usr/local/bin/spectral_layout_from_minimap.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/spectral_layout_from_minimap.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bl2seq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bl2seq
+$ podman run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bl2seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastall
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastall
+$ podman run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastall   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastclust
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastclust
+$ podman run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastclust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastpgp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastpgp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastpgp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bwa
+
+```bash
+$ singularity exec <container> /usr/local/bin/bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### copymat
+
+```bash
+$ singularity exec <container> /usr/local/bin/copymat
+$ podman run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/copymat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastacmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastacmd
+$ podman run --it --rm --entrypoint /usr/local/bin/fastacmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastacmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### formatdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/formatdb
+$ podman run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/formatdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

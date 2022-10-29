@@ -4,21 +4,30 @@ name:  "quay.io/biocontainers/plasmidfinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plasmidfinder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/plasmidfinder/container.yaml"
-updated_at: "2022-10-27 00:34:45.579751"
+updated_at: "2022-10-29 05:51:52.553277"
 latest: "2.1.6--py310hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/plasmidfinder"
 aliases:
- - ".plasmidfinder-post-link.sh"
  - "download-db.sh"
  - "kma"
  - "kma_index"
  - "kma_shm"
  - "kma_update"
  - "plasmidfinder.py"
+ - "2to3-3.10"
+ - "accn-at-a-time"
+ - "align-columns"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asn2xml"
+ - "between-two-genes"
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
 versions:
  - "2.1.6--py310hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for plasmidfinder"
-config: {"url": "https://biocontainers.pro/tools/plasmidfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidfinder", "latest": {"2.1.6--py310hdfd78af_1": "sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3"}, "tags": {"2.1.6--py310hdfd78af_1": "sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3"}, "docker": "quay.io/biocontainers/plasmidfinder", "aliases": {".plasmidfinder-post-link.sh": "/usr/local/bin/.plasmidfinder-post-link.sh", "download-db.sh": "/usr/local/bin/download-db.sh", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "plasmidfinder.py": "/usr/local/bin/plasmidfinder.py"}}
+config: {"url": "https://biocontainers.pro/tools/plasmidfinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plasmidfinder", "latest": {"2.1.6--py310hdfd78af_1": "sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3"}, "tags": {"2.1.6--py310hdfd78af_1": "sha256:0b02ed6e441e055d3c6e6ed083ae8731430e009466aa82f8aad0484001ea41c3"}, "docker": "quay.io/biocontainers/plasmidfinder", "aliases": {"download-db.sh": "/usr/local/bin/download-db.sh", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "plasmidfinder.py": "/usr/local/bin/plasmidfinder.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plasmidfinder.
@@ -104,15 +113,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .plasmidfinder-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.plasmidfinder-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.plasmidfinder-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.plasmidfinder-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### download-db.sh
 
 ```bash
@@ -164,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/kma_update   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/plasmidfinder.py
 $ podman run --it --rm --entrypoint /usr/local/bin/plasmidfinder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/plasmidfinder.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

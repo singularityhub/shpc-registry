@@ -4,14 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-omicplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicplotr/container.yaml"
-updated_at: "2022-10-27 00:21:59.744724"
+updated_at: "2022-10-29 05:34:53.492104"
 latest: "1.8.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicplotr"
-
+aliases:
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pandoc"
+ - "pandoc-citeproc"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.8.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicplotr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicplotr", "latest": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "tags": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "docker": "quay.io/biocontainers/bioconductor-omicplotr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicplotr", "latest": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "tags": {"1.8.0--r40_0": "sha256:d7eba5a775f6738cb880acf6aff2764d237da44f886307a1e101cdc41b8ec37c"}, "docker": "quay.io/biocontainers/bioconductor-omicplotr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicplotr.
@@ -97,14 +104,68 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-omicplotr
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pandoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pandoc-citeproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc-citeproc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-blimatestingdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blimatestingdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blimatestingdata/container.yaml"
-updated_at: "2022-10-27 00:18:34.974341"
+updated_at: "2022-10-29 05:30:24.578583"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-blimatestingdata"
 aliases:
- - ".bioconductor-blimatestingdata-post-link.sh"
- - ".bioconductor-blimatestingdata-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-blimatestingdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-blimatestingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blimatestingdata", "latest": {"1.9.0--r40_0": "sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2"}, "tags": {"1.9.0--r40_0": "sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2"}, "docker": "quay.io/biocontainers/bioconductor-blimatestingdata", "aliases": {".bioconductor-blimatestingdata-post-link.sh": "/usr/local/bin/.bioconductor-blimatestingdata-post-link.sh", ".bioconductor-blimatestingdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-blimatestingdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-blimatestingdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blimatestingdata", "latest": {"1.9.0--r40_0": "sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2"}, "tags": {"1.9.0--r40_0": "sha256:e49df655d63121d55ccb57e7725b0f4f5ccf83f14ea8b409b8e0499398947cc2"}, "docker": "quay.io/biocontainers/bioconductor-blimatestingdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-blimatestingdata.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-blimatestingdata-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-blimatestingdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-blimatestingdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-blimatestingdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-blimatestingdata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-blimatestingdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-blimatestingdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-blimatestingdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

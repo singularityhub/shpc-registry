@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-class-xsaccessor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-xsaccessor/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-xsaccessor/container.yaml"
-updated_at: "2022-10-27 00:19:52.386023"
+updated_at: "2022-10-29 05:32:05.247326"
 latest: "1.19--pl5321hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/perl-class-xsaccessor"
-
+aliases:
+ - "perl5.32.1"
 versions:
  - "1.19--pl5321hec16e2b_5"
 description: "shpc-registry automated BioContainers addition for perl-class-xsaccessor"
-config: {"url": "https://biocontainers.pro/tools/perl-class-xsaccessor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-xsaccessor", "latest": {"1.19--pl5321hec16e2b_5": "sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446"}, "tags": {"1.19--pl5321hec16e2b_5": "sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446"}, "docker": "quay.io/biocontainers/perl-class-xsaccessor"}
+config: {"url": "https://biocontainers.pro/tools/perl-class-xsaccessor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-class-xsaccessor", "latest": {"1.19--pl5321hec16e2b_5": "sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446"}, "tags": {"1.19--pl5321hec16e2b_5": "sha256:d17e8dee2f5b03e6a7c139eeb7dc0fb564b527ad826c5883521b7f8d839bc446"}, "docker": "quay.io/biocontainers/perl-class-xsaccessor", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-class-xsaccessor.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-class-xsaccessor
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,14 +4,22 @@ name:  "quay.io/biocontainers/bucketcache"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bucketcache/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bucketcache/container.yaml"
-updated_at: "2022-10-27 00:18:49.911744"
+updated_at: "2022-10-29 05:30:44.777676"
 latest: "0.12.0--py27_0"
 container_url: "https://biocontainers.pro/tools/bucketcache"
-
+aliases:
+ - "easy_install-2.7"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2.7"
+ - "smtpd.py"
+ - "tclsh8.5"
+ - "wish8.5"
 versions:
  - "0.12.0--py27_0"
 description: "shpc-registry automated BioContainers addition for bucketcache"
-config: {"url": "https://biocontainers.pro/tools/bucketcache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bucketcache", "latest": {"0.12.0--py27_0": "sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943"}, "tags": {"0.12.0--py27_0": "sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943"}, "docker": "quay.io/biocontainers/bucketcache"}
+config: {"url": "https://biocontainers.pro/tools/bucketcache", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bucketcache", "latest": {"0.12.0--py27_0": "sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943"}, "tags": {"0.12.0--py27_0": "sha256:e30fcc9dcabae8e7a0084110d4fceb42b4bf04bbdc9dd854d76ea8bc537b7943"}, "docker": "quay.io/biocontainers/bucketcache", "aliases": {"easy_install-2.7": "/usr/local/bin/easy_install-2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bucketcache.
@@ -97,14 +105,77 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bucketcache
+#### easy_install-2.7
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/easy_install-2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

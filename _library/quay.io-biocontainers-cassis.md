@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cassis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cassis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cassis/container.yaml"
-updated_at: "2022-10-27 00:28:46.332317"
+updated_at: "2022-10-29 05:43:53.534726"
 latest: "0.0.20120106--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/cassis"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "lastz"
  - "lastz_32"
  - "lastz_D"
+ - "dvipdf"
+ - "eps2eps"
+ - "gs"
+ - "gsbj"
+ - "gsdj"
+ - "gsdj500"
+ - "gslj"
+ - "gslp"
+ - "gsnd"
+ - "lprsetup.sh"
 versions:
  - "0.0.20120106--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for cassis"
-config: {"url": "https://biocontainers.pro/tools/cassis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cassis", "latest": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "tags": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "docker": "quay.io/biocontainers/cassis", "aliases": {"cassis": "/usr/local/bin/cassis", "lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D"}}
+config: {"url": "https://biocontainers.pro/tools/cassis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cassis", "latest": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "tags": {"0.0.20120106--hdfd78af_1": "sha256:454ce1cec842f4622a8d55fe3b59a2b0008a7252739ab819191f186565c7c0cb"}, "docker": "quay.io/biocontainers/cassis", "aliases": {"cassis": "/usr/local/bin/cassis", "lastz": "/usr/local/bin/lastz", "lastz_32": "/usr/local/bin/lastz_32", "lastz_D": "/usr/local/bin/lastz_D", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp", "gsnd": "/usr/local/bin/gsnd", "lprsetup.sh": "/usr/local/bin/lprsetup.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cassis.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lastz_32   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/lastz_D
 $ podman run --it --rm --entrypoint /usr/local/bin/lastz_D   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/lastz_D   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dvipdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/dvipdf
+$ podman run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### eps2eps
+
+```bash
+$ singularity exec <container> /usr/local/bin/eps2eps
+$ podman run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gs
+
+```bash
+$ singularity exec <container> /usr/local/bin/gs
+$ podman run --it --rm --entrypoint /usr/local/bin/gs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsbj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsbj
+$ podman run --it --rm --entrypoint /usr/local/bin/gsbj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsbj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsdj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsdj
+$ podman run --it --rm --entrypoint /usr/local/bin/gsdj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsdj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsdj500
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsdj500
+$ podman run --it --rm --entrypoint /usr/local/bin/gsdj500   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsdj500   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gslj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gslj
+$ podman run --it --rm --entrypoint /usr/local/bin/gslj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gslj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gslp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gslp
+$ podman run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsnd
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsnd
+$ podman run --it --rm --entrypoint /usr/local/bin/gsnd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsnd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lprsetup.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/lprsetup.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/lprsetup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lprsetup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

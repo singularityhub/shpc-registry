@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-chic.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chic.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chic.data/container.yaml"
-updated_at: "2022-10-27 00:28:00.292770"
+updated_at: "2022-10-29 05:42:53.523386"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chic.data"
 aliases:
- - ".bioconductor-chic.data-post-link.sh"
- - ".bioconductor-chic.data-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chic.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chic.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chic.data", "latest": {"1.9.0--r40_0": "sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1"}, "tags": {"1.9.0--r40_0": "sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1"}, "docker": "quay.io/biocontainers/bioconductor-chic.data", "aliases": {".bioconductor-chic.data-post-link.sh": "/usr/local/bin/.bioconductor-chic.data-post-link.sh", ".bioconductor-chic.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-chic.data-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chic.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chic.data", "latest": {"1.9.0--r40_0": "sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1"}, "tags": {"1.9.0--r40_0": "sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1"}, "docker": "quay.io/biocontainers/bioconductor-chic.data", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chic.data.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-chic.data-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-chic.data-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-chic.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-chic.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-chic.data-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-chic.data-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-chic.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-chic.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/dgenies"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dgenies/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dgenies/container.yaml"
-updated_at: "2022-10-27 00:28:05.418010"
+updated_at: "2022-10-29 05:43:00.525006"
 latest: "1.4.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dgenies"
 aliases:
  - "dgenies"
+ - "2to3-3.10"
+ - "brotli"
+ - "cwebp"
+ - "dwebp"
+ - "f2py3.10"
+ - "flask"
+ - "fonttools"
+ - "gif2rgb"
+ - "gif2webp"
+ - "gifbuild"
 versions:
  - "1.4.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dgenies"
-config: {"url": "https://biocontainers.pro/tools/dgenies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dgenies", "latest": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "docker": "quay.io/biocontainers/dgenies", "aliases": {"dgenies": "/usr/local/bin/dgenies"}}
+config: {"url": "https://biocontainers.pro/tools/dgenies", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dgenies", "latest": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "tags": {"1.4.0--pyhdfd78af_0": "sha256:92b1753c5363f783f3d0bff390d2d14094a8852f3bb08c8be76b1cbf0bb14989"}, "docker": "quay.io/biocontainers/dgenies", "aliases": {"dgenies": "/usr/local/bin/dgenies", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.10": "/usr/local/bin/f2py3.10", "flask": "/usr/local/bin/flask", "fonttools": "/usr/local/bin/fonttools", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp", "gifbuild": "/usr/local/bin/gifbuild"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dgenies.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/dgenies
 $ podman run --it --rm --entrypoint /usr/local/bin/dgenies   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dgenies   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### flask
+
+```bash
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2webp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2webp
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

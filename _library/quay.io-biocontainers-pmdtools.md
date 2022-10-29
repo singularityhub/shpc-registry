@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/pmdtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pmdtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pmdtools/container.yaml"
-updated_at: "2022-10-27 00:28:00.713081"
+updated_at: "2022-10-29 05:42:54.073644"
 latest: "0.60--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/pmdtools"
 aliases:
  - "plotPMD"
  - "pmdtools"
+ - "2to3-3.9"
+ - "ace2sam"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "export2sam.pl"
+ - "fasta-sanitize.pl"
+ - "htsfile"
+ - "idle3.9"
+ - "interpolate_sam.pl"
 versions:
  - "0.60--hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for pmdtools"
-config: {"url": "https://biocontainers.pro/tools/pmdtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmdtools", "latest": {"0.60--hdfd78af_5": "sha256:6f9ead275bcd212e37545897faee6f8040311585910930c46d5dd6c0e5885bfa"}, "tags": {"0.60--hdfd78af_5": "sha256:6f9ead275bcd212e37545897faee6f8040311585910930c46d5dd6c0e5885bfa"}, "docker": "quay.io/biocontainers/pmdtools", "aliases": {"plotPMD": "/usr/local/bin/plotPMD", "pmdtools": "/usr/local/bin/pmdtools"}}
+config: {"url": "https://biocontainers.pro/tools/pmdtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pmdtools", "latest": {"0.60--hdfd78af_5": "sha256:6f9ead275bcd212e37545897faee6f8040311585910930c46d5dd6c0e5885bfa"}, "tags": {"0.60--hdfd78af_5": "sha256:6f9ead275bcd212e37545897faee6f8040311585910930c46d5dd6c0e5885bfa"}, "docker": "quay.io/biocontainers/pmdtools", "aliases": {"plotPMD": "/usr/local/bin/plotPMD", "pmdtools": "/usr/local/bin/pmdtools", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "idle3.9": "/usr/local/bin/idle3.9", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pmdtools.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/plotPMD   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/pmdtools
 $ podman run --it --rm --entrypoint /usr/local/bin/pmdtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pmdtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### interpolate_sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,23 @@ name:  "quay.io/biocontainers/fastqe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastqe/container.yaml"
-updated_at: "2022-10-27 00:18:31.170383"
+updated_at: "2022-10-29 05:30:19.746078"
 latest: "0.2.7--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/fastqe"
 aliases:
  - "fastqe"
  - "pyemojify"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "0.2.7--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for fastqe"
-config: {"url": "https://biocontainers.pro/tools/fastqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqe", "latest": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "tags": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "docker": "quay.io/biocontainers/fastqe", "aliases": {"fastqe": "/usr/local/bin/fastqe", "pyemojify": "/usr/local/bin/pyemojify"}}
+config: {"url": "https://biocontainers.pro/tools/fastqe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastqe", "latest": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "tags": {"0.2.7--pyh5e36f6f_0": "sha256:c9bd9443a5579a724e1c3fdddea8eab8aa8bf331e85b4f2f5b3464275a96e4c0"}, "docker": "quay.io/biocontainers/fastqe", "aliases": {"fastqe": "/usr/local/bin/fastqe", "pyemojify": "/usr/local/bin/pyemojify", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastqe.
@@ -114,6 +121,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fastqe   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/pyemojify
 $ podman run --it --rm --entrypoint /usr/local/bin/pyemojify   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyemojify   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

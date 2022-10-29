@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dcmtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dcmtk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dcmtk/container.yaml"
-updated_at: "2022-10-27 00:36:40.425403"
+updated_at: "2022-10-29 05:54:24.170573"
 latest: "3.6.7--h92a7bdf_0"
 container_url: "https://biocontainers.pro/tools/dcmtk"
 aliases:
@@ -81,10 +81,20 @@ aliases:
  - "wltest"
  - "xml2dcm"
  - "xml2dsr"
+ - "flac"
+ - "metaflac"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
+ - "sndfile-cmp"
+ - "sndfile-concat"
+ - "sndfile-convert"
+ - "sndfile-deinterleave"
+ - "sndfile-info"
 versions:
  - "3.6.7--h92a7bdf_0"
 description: "shpc-registry automated BioContainers addition for dcmtk"
-config: {"url": "https://biocontainers.pro/tools/dcmtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dcmtk", "latest": {"3.6.7--h92a7bdf_0": "sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855"}, "tags": {"3.6.7--h92a7bdf_0": "sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855"}, "docker": "quay.io/biocontainers/dcmtk", "aliases": {"cda2dcm": "/usr/local/bin/cda2dcm", "dcm2json": "/usr/local/bin/dcm2json", "dcm2pdf": "/usr/local/bin/dcm2pdf", "dcm2pnm": "/usr/local/bin/dcm2pnm", "dcm2xml": "/usr/local/bin/dcm2xml", "dcmcjpeg": "/usr/local/bin/dcmcjpeg", "dcmcjpls": "/usr/local/bin/dcmcjpls", "dcmconv": "/usr/local/bin/dcmconv", "dcmcrle": "/usr/local/bin/dcmcrle", "dcmdata_tests": "/usr/local/bin/dcmdata_tests", "dcmdjpeg": "/usr/local/bin/dcmdjpeg", "dcmdjpls": "/usr/local/bin/dcmdjpls", "dcmdrle": "/usr/local/bin/dcmdrle", "dcmdspfn": "/usr/local/bin/dcmdspfn", "dcmdump": "/usr/local/bin/dcmdump", "dcmect_tests": "/usr/local/bin/dcmect_tests", "dcmfg_tests": "/usr/local/bin/dcmfg_tests", "dcmftest": "/usr/local/bin/dcmftest", "dcmgpdir": "/usr/local/bin/dcmgpdir", "dcmicmp": "/usr/local/bin/dcmicmp", "dcmiod_tests": "/usr/local/bin/dcmiod_tests", "dcmj2pnm": "/usr/local/bin/dcmj2pnm", "dcml2pnm": "/usr/local/bin/dcml2pnm", "dcmmkcrv": "/usr/local/bin/dcmmkcrv", "dcmmkdir": "/usr/local/bin/dcmmkdir", "dcmmklut": "/usr/local/bin/dcmmklut", "dcmnet_tests": "/usr/local/bin/dcmnet_tests", "dcmodify": "/usr/local/bin/dcmodify", "dcmp2pgm": "/usr/local/bin/dcmp2pgm", "dcmprscp": "/usr/local/bin/dcmprscp", "dcmprscu": "/usr/local/bin/dcmprscu", "dcmpschk": "/usr/local/bin/dcmpschk", "dcmpsmk": "/usr/local/bin/dcmpsmk", "dcmpsprt": "/usr/local/bin/dcmpsprt", "dcmpsrcv": "/usr/local/bin/dcmpsrcv", "dcmpssnd": "/usr/local/bin/dcmpssnd", "dcmqridx": "/usr/local/bin/dcmqridx", "dcmqrscp": "/usr/local/bin/dcmqrscp", "dcmqrti": "/usr/local/bin/dcmqrti", "dcmquant": "/usr/local/bin/dcmquant", "dcmrecv": "/usr/local/bin/dcmrecv", "dcmrt_tests": "/usr/local/bin/dcmrt_tests", "dcmscale": "/usr/local/bin/dcmscale", "dcmseg_tests": "/usr/local/bin/dcmseg_tests", "dcmsend": "/usr/local/bin/dcmsend", "dcmsign": "/usr/local/bin/dcmsign", "dcmsr_tests": "/usr/local/bin/dcmsr_tests", "dcmtls_tests": "/usr/local/bin/dcmtls_tests", "dcod2lum": "/usr/local/bin/dcod2lum", "dconvlum": "/usr/local/bin/dconvlum", "drtdump": "/usr/local/bin/drtdump", "drttest": "/usr/local/bin/drttest", "dsr2html": "/usr/local/bin/dsr2html", "dsr2xml": "/usr/local/bin/dsr2xml", "dsrdump": "/usr/local/bin/dsrdump", "dump2dcm": "/usr/local/bin/dump2dcm", "echoscu": "/usr/local/bin/echoscu", "findscu": "/usr/local/bin/findscu", "getscu": "/usr/local/bin/getscu", "img2dcm": "/usr/local/bin/img2dcm", "mkreport": "/usr/local/bin/mkreport", "movescu": "/usr/local/bin/movescu", "msgserv": "/usr/local/bin/msgserv", "ofstd_tests": "/usr/local/bin/ofstd_tests", "pdf2dcm": "/usr/local/bin/pdf2dcm", "stl2dcm": "/usr/local/bin/stl2dcm", "storescp": "/usr/local/bin/storescp", "storescu": "/usr/local/bin/storescu", "termscu": "/usr/local/bin/termscu", "wlmscpfs": "/usr/local/bin/wlmscpfs", "wltest": "/usr/local/bin/wltest", "xml2dcm": "/usr/local/bin/xml2dcm", "xml2dsr": "/usr/local/bin/xml2dsr"}}
+config: {"url": "https://biocontainers.pro/tools/dcmtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dcmtk", "latest": {"3.6.7--h92a7bdf_0": "sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855"}, "tags": {"3.6.7--h92a7bdf_0": "sha256:13183f52df02cbc357386ef4bdac6dd0d0442f676c38f0bfda0f49a1d0f12855"}, "docker": "quay.io/biocontainers/dcmtk", "aliases": {"cda2dcm": "/usr/local/bin/cda2dcm", "dcm2json": "/usr/local/bin/dcm2json", "dcm2pdf": "/usr/local/bin/dcm2pdf", "dcm2pnm": "/usr/local/bin/dcm2pnm", "dcm2xml": "/usr/local/bin/dcm2xml", "dcmcjpeg": "/usr/local/bin/dcmcjpeg", "dcmcjpls": "/usr/local/bin/dcmcjpls", "dcmconv": "/usr/local/bin/dcmconv", "dcmcrle": "/usr/local/bin/dcmcrle", "dcmdata_tests": "/usr/local/bin/dcmdata_tests", "dcmdjpeg": "/usr/local/bin/dcmdjpeg", "dcmdjpls": "/usr/local/bin/dcmdjpls", "dcmdrle": "/usr/local/bin/dcmdrle", "dcmdspfn": "/usr/local/bin/dcmdspfn", "dcmdump": "/usr/local/bin/dcmdump", "dcmect_tests": "/usr/local/bin/dcmect_tests", "dcmfg_tests": "/usr/local/bin/dcmfg_tests", "dcmftest": "/usr/local/bin/dcmftest", "dcmgpdir": "/usr/local/bin/dcmgpdir", "dcmicmp": "/usr/local/bin/dcmicmp", "dcmiod_tests": "/usr/local/bin/dcmiod_tests", "dcmj2pnm": "/usr/local/bin/dcmj2pnm", "dcml2pnm": "/usr/local/bin/dcml2pnm", "dcmmkcrv": "/usr/local/bin/dcmmkcrv", "dcmmkdir": "/usr/local/bin/dcmmkdir", "dcmmklut": "/usr/local/bin/dcmmklut", "dcmnet_tests": "/usr/local/bin/dcmnet_tests", "dcmodify": "/usr/local/bin/dcmodify", "dcmp2pgm": "/usr/local/bin/dcmp2pgm", "dcmprscp": "/usr/local/bin/dcmprscp", "dcmprscu": "/usr/local/bin/dcmprscu", "dcmpschk": "/usr/local/bin/dcmpschk", "dcmpsmk": "/usr/local/bin/dcmpsmk", "dcmpsprt": "/usr/local/bin/dcmpsprt", "dcmpsrcv": "/usr/local/bin/dcmpsrcv", "dcmpssnd": "/usr/local/bin/dcmpssnd", "dcmqridx": "/usr/local/bin/dcmqridx", "dcmqrscp": "/usr/local/bin/dcmqrscp", "dcmqrti": "/usr/local/bin/dcmqrti", "dcmquant": "/usr/local/bin/dcmquant", "dcmrecv": "/usr/local/bin/dcmrecv", "dcmrt_tests": "/usr/local/bin/dcmrt_tests", "dcmscale": "/usr/local/bin/dcmscale", "dcmseg_tests": "/usr/local/bin/dcmseg_tests", "dcmsend": "/usr/local/bin/dcmsend", "dcmsign": "/usr/local/bin/dcmsign", "dcmsr_tests": "/usr/local/bin/dcmsr_tests", "dcmtls_tests": "/usr/local/bin/dcmtls_tests", "dcod2lum": "/usr/local/bin/dcod2lum", "dconvlum": "/usr/local/bin/dconvlum", "drtdump": "/usr/local/bin/drtdump", "drttest": "/usr/local/bin/drttest", "dsr2html": "/usr/local/bin/dsr2html", "dsr2xml": "/usr/local/bin/dsr2xml", "dsrdump": "/usr/local/bin/dsrdump", "dump2dcm": "/usr/local/bin/dump2dcm", "echoscu": "/usr/local/bin/echoscu", "findscu": "/usr/local/bin/findscu", "getscu": "/usr/local/bin/getscu", "img2dcm": "/usr/local/bin/img2dcm", "mkreport": "/usr/local/bin/mkreport", "movescu": "/usr/local/bin/movescu", "msgserv": "/usr/local/bin/msgserv", "ofstd_tests": "/usr/local/bin/ofstd_tests", "pdf2dcm": "/usr/local/bin/pdf2dcm", "stl2dcm": "/usr/local/bin/stl2dcm", "storescp": "/usr/local/bin/storescp", "storescu": "/usr/local/bin/storescu", "termscu": "/usr/local/bin/termscu", "wlmscpfs": "/usr/local/bin/wlmscpfs", "wltest": "/usr/local/bin/wltest", "xml2dcm": "/usr/local/bin/xml2dcm", "xml2dsr": "/usr/local/bin/xml2dsr", "flac": "/usr/local/bin/flac", "metaflac": "/usr/local/bin/metaflac", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "sndfile-cmp": "/usr/local/bin/sndfile-cmp", "sndfile-concat": "/usr/local/bin/sndfile-concat", "sndfile-convert": "/usr/local/bin/sndfile-convert", "sndfile-deinterleave": "/usr/local/bin/sndfile-deinterleave", "sndfile-info": "/usr/local/bin/sndfile-info"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dcmtk.
@@ -824,6 +834,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xml2dcm   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/xml2dsr
 $ podman run --it --rm --entrypoint /usr/local/bin/xml2dsr   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xml2dsr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### flac
+
+```bash
+$ singularity exec <container> /usr/local/bin/flac
+$ podman run --it --rm --entrypoint /usr/local/bin/flac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### metaflac
+
+```bash
+$ singularity exec <container> /usr/local/bin/metaflac
+$ podman run --it --rm --entrypoint /usr/local/bin/metaflac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/metaflac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sndfile-cmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/sndfile-cmp
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-cmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-cmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sndfile-concat
+
+```bash
+$ singularity exec <container> /usr/local/bin/sndfile-concat
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-concat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-concat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sndfile-convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/sndfile-convert
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sndfile-deinterleave
+
+```bash
+$ singularity exec <container> /usr/local/bin/sndfile-deinterleave
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-deinterleave   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-deinterleave   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### sndfile-info
+
+```bash
+$ singularity exec <container> /usr/local/bin/sndfile-info
+$ podman run --it --rm --entrypoint /usr/local/bin/sndfile-info   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/sndfile-info   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

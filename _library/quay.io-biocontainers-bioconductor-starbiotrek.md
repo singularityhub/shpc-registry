@@ -4,16 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-starbiotrek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-starbiotrek/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-starbiotrek/container.yaml"
-updated_at: "2022-10-27 00:31:23.740795"
+updated_at: "2022-10-29 05:47:22.042593"
 latest: "1.8.1--r351_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-starbiotrek"
 aliases:
- - ".bioconductor-mirnatap.db-post-link.sh"
- - ".bioconductor-mirnatap.db-pre-unlink.sh"
+ - "idn2"
+ - "wget"
 versions:
  - "1.8.1--r351_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-starbiotrek"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-starbiotrek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-starbiotrek", "latest": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "tags": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "docker": "quay.io/biocontainers/bioconductor-starbiotrek", "aliases": {".bioconductor-mirnatap.db-post-link.sh": "/usr/local/bin/.bioconductor-mirnatap.db-post-link.sh", ".bioconductor-mirnatap.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-starbiotrek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-starbiotrek", "latest": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "tags": {"1.8.1--r351_1": "sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d"}, "docker": "quay.io/biocontainers/bioconductor-starbiotrek", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-starbiotrek.
@@ -99,21 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-mirnatap.db-post-link.sh
+#### idn2
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mirnatap.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mirnatap.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mirnatap.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-mirnatap.db-pre-unlink.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mirnatap.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

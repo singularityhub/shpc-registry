@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/metatree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metatree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metatree/container.yaml"
-updated_at: "2022-10-27 00:25:57.185652"
+updated_at: "2022-10-29 05:40:09.301409"
 latest: "0.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/metatree"
 aliases:
  - "genometreetk"
  - "metatree"
  - "phylorank"
+ - "2to3-3.8"
+ - "FastTree"
+ - "FastTree-2.1.10.c"
+ - "FastTreeMP"
+ - "alimask"
+ - "assistant"
+ - "canbusutil"
+ - "certutil"
+ - "compile-et.pl"
+ - "dbus-cleanup-sockets"
 versions:
  - "0.0.1--py_0"
 description: "shpc-registry automated BioContainers addition for metatree"
-config: {"url": "https://biocontainers.pro/tools/metatree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metatree", "latest": {"0.0.1--py_0": "sha256:bd67bc970e530439c7254daaf1a81a98b0da0c2ed8585a6f45dd3121671e426d"}, "tags": {"0.0.1--py_0": "sha256:bd67bc970e530439c7254daaf1a81a98b0da0c2ed8585a6f45dd3121671e426d"}, "docker": "quay.io/biocontainers/metatree", "aliases": {"genometreetk": "/usr/local/bin/genometreetk", "metatree": "/usr/local/bin/metatree", "phylorank": "/usr/local/bin/phylorank"}}
+config: {"url": "https://biocontainers.pro/tools/metatree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metatree", "latest": {"0.0.1--py_0": "sha256:bd67bc970e530439c7254daaf1a81a98b0da0c2ed8585a6f45dd3121671e426d"}, "tags": {"0.0.1--py_0": "sha256:bd67bc970e530439c7254daaf1a81a98b0da0c2ed8585a6f45dd3121671e426d"}, "docker": "quay.io/biocontainers/metatree", "aliases": {"genometreetk": "/usr/local/bin/genometreetk", "metatree": "/usr/local/bin/metatree", "phylorank": "/usr/local/bin/phylorank", "2to3-3.8": "/usr/local/bin/2to3-3.8", "FastTree": "/usr/local/bin/FastTree", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "alimask": "/usr/local/bin/alimask", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "compile-et.pl": "/usr/local/bin/compile-et.pl", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metatree.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/metatree   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/phylorank
 $ podman run --it --rm --entrypoint /usr/local/bin/phylorank   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/phylorank   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree-2.1.10.c
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree-2.1.10.c
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTreeMP
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTreeMP
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compile-et.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/compile-et.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/compile-et.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile-et.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

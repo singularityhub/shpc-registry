@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/midas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/midas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/midas/container.yaml"
-updated_at: "2022-10-27 00:34:45.149807"
+updated_at: "2022-10-29 05:51:52.001660"
 latest: "1.3.2--pyh5e36f6f_6"
 container_url: "https://biocontainers.pro/tools/midas"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "run_midas.py"
  - "snp_diversity.py"
  - "strain_tracking.py"
+ - "2to3-3.9"
+ - "CA.pm"
+ - "accn-at-a-time"
+ - "ace2sam"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "between-two-genes"
+ - "bgzip"
 versions:
  - "1.3.2--pyh5e36f6f_6"
 description: "shpc-registry automated BioContainers addition for midas"
-config: {"url": "https://biocontainers.pro/tools/midas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for midas", "latest": {"1.3.2--pyh5e36f6f_6": "sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122"}, "tags": {"1.3.2--pyh5e36f6f_6": "sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122"}, "docker": "quay.io/biocontainers/midas", "aliases": {"build_midas_db.py": "/usr/local/bin/build_midas_db.py", "call_consensus.py": "/usr/local/bin/call_consensus.py", "compare_genes.py": "/usr/local/bin/compare_genes.py", "hs-blastn": "/usr/local/bin/hs-blastn", "merge_midas.py": "/usr/local/bin/merge_midas.py", "query_by_compound.py": "/usr/local/bin/query_by_compound.py", "run_midas.py": "/usr/local/bin/run_midas.py", "snp_diversity.py": "/usr/local/bin/snp_diversity.py", "strain_tracking.py": "/usr/local/bin/strain_tracking.py"}}
+config: {"url": "https://biocontainers.pro/tools/midas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for midas", "latest": {"1.3.2--pyh5e36f6f_6": "sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122"}, "tags": {"1.3.2--pyh5e36f6f_6": "sha256:f9d363d882658bf7d90aff3a406166b7e8b4ec20846d516189d13470ca1ff122"}, "docker": "quay.io/biocontainers/midas", "aliases": {"build_midas_db.py": "/usr/local/bin/build_midas_db.py", "call_consensus.py": "/usr/local/bin/call_consensus.py", "compare_genes.py": "/usr/local/bin/compare_genes.py", "hs-blastn": "/usr/local/bin/hs-blastn", "merge_midas.py": "/usr/local/bin/merge_midas.py", "query_by_compound.py": "/usr/local/bin/query_by_compound.py", "run_midas.py": "/usr/local/bin/run_midas.py", "snp_diversity.py": "/usr/local/bin/snp_diversity.py", "strain_tracking.py": "/usr/local/bin/strain_tracking.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace2sam": "/usr/local/bin/ace2sam", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "bgzip": "/usr/local/bin/bgzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/midas.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/snp_diversity.py   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/strain_tracking.py
 $ podman run --it --rm --entrypoint /usr/local/bin/strain_tracking.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/strain_tracking.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CA.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/CA.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

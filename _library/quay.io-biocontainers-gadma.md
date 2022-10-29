@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gadma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gadma/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gadma/container.yaml"
-updated_at: "2022-10-27 00:39:55.207661"
+updated_at: "2022-10-29 05:58:37.813749"
 latest: "2.0.0rc22--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gadma"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "gadma-get_confidence_intervals_for_ld"
  - "gadma-precompute_ld_data"
  - "gadma-run_ls_on_boot_data"
+ - "2to3-3.8"
+ - "bokeh"
+ - "brotli"
+ - "dask-scheduler"
+ - "dask-ssh"
+ - "dask-worker"
+ - "f2py3.8"
+ - "fonttools"
+ - "gif2h5"
+ - "h52gif"
 versions:
  - "2.0.0rc22--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gadma"
-config: {"url": "https://biocontainers.pro/tools/gadma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gadma", "latest": {"2.0.0rc22--pyhdfd78af_0": "sha256:d8156f1ec8ec4ed9d055a9340842069afa23ce5c3d24076e907de781d5731d74"}, "tags": {"2.0.0rc22--pyhdfd78af_0": "sha256:d8156f1ec8ec4ed9d055a9340842069afa23ce5c3d24076e907de781d5731d74"}, "docker": "quay.io/biocontainers/gadma", "aliases": {"demes": "/usr/local/bin/demes", "gadma": "/usr/local/bin/gadma", "gadma-get_confidence_intervals": "/usr/local/bin/gadma-get_confidence_intervals", "gadma-get_confidence_intervals_for_ld": "/usr/local/bin/gadma-get_confidence_intervals_for_ld", "gadma-precompute_ld_data": "/usr/local/bin/gadma-precompute_ld_data", "gadma-run_ls_on_boot_data": "/usr/local/bin/gadma-run_ls_on_boot_data"}}
+config: {"url": "https://biocontainers.pro/tools/gadma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gadma", "latest": {"2.0.0rc22--pyhdfd78af_0": "sha256:d8156f1ec8ec4ed9d055a9340842069afa23ce5c3d24076e907de781d5731d74"}, "tags": {"2.0.0rc22--pyhdfd78af_0": "sha256:d8156f1ec8ec4ed9d055a9340842069afa23ce5c3d24076e907de781d5731d74"}, "docker": "quay.io/biocontainers/gadma", "aliases": {"demes": "/usr/local/bin/demes", "gadma": "/usr/local/bin/gadma", "gadma-get_confidence_intervals": "/usr/local/bin/gadma-get_confidence_intervals", "gadma-get_confidence_intervals_for_ld": "/usr/local/bin/gadma-get_confidence_intervals_for_ld", "gadma-precompute_ld_data": "/usr/local/bin/gadma-precompute_ld_data", "gadma-run_ls_on_boot_data": "/usr/local/bin/gadma-run_ls_on_boot_data", "2to3-3.8": "/usr/local/bin/2to3-3.8", "bokeh": "/usr/local/bin/bokeh", "brotli": "/usr/local/bin/brotli", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "f2py3.8": "/usr/local/bin/f2py3.8", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gadma.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gadma-precompute_ld_data   -v
 $ singularity exec <container> /usr/local/bin/gadma-run_ls_on_boot_data
 $ podman run --it --rm --entrypoint /usr/local/bin/gadma-run_ls_on_boot_data   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gadma-run_ls_on_boot_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bokeh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bokeh
+$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dask-scheduler
+
+```bash
+$ singularity exec <container> /usr/local/bin/dask-scheduler
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-scheduler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-scheduler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dask-ssh
+
+```bash
+$ singularity exec <container> /usr/local/bin/dask-ssh
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-ssh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-ssh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dask-worker
+
+```bash
+$ singularity exec <container> /usr/local/bin/dask-worker
+$ podman run --it --rm --entrypoint /usr/local/bin/dask-worker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dask-worker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ghmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ghmm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ghmm/container.yaml"
-updated_at: "2022-10-27 00:19:04.379009"
+updated_at: "2022-10-29 05:31:03.886137"
 latest: "0.9--py27pl5321he3645e8_2"
 container_url: "https://biocontainers.pro/tools/ghmm"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "probdist"
  - "scluster"
  - "smix_hmm"
+ - "ccache-swig"
+ - "cluster"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
+ - "swig"
 versions:
  - "0.9--py27pl5321he3645e8_2"
 description: "shpc-registry automated BioContainers addition for ghmm"
-config: {"url": "https://biocontainers.pro/tools/ghmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghmm", "latest": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "tags": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "docker": "quay.io/biocontainers/ghmm", "aliases": {"ghmm-config": "/usr/local/bin/ghmm-config", "probdist": "/usr/local/bin/probdist", "scluster": "/usr/local/bin/scluster", "smix_hmm": "/usr/local/bin/smix_hmm"}}
+config: {"url": "https://biocontainers.pro/tools/ghmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ghmm", "latest": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "tags": {"0.9--py27pl5321he3645e8_2": "sha256:9ec3a02057e24d11e36f53fdcca94e7f0f1526efc367e66b6c17742c88c12e6c"}, "docker": "quay.io/biocontainers/ghmm", "aliases": {"ghmm-config": "/usr/local/bin/ghmm-config", "probdist": "/usr/local/bin/probdist", "scluster": "/usr/local/bin/scluster", "smix_hmm": "/usr/local/bin/smix_hmm", "ccache-swig": "/usr/local/bin/ccache-swig", "cluster": "/usr/local/bin/cluster", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py", "swig": "/usr/local/bin/swig"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ghmm.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scluster   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/smix_hmm
 $ podman run --it --rm --entrypoint /usr/local/bin/smix_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/smix_hmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccache-swig
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccache-swig
+$ podman run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccache-swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cluster
+
+```bash
+$ singularity exec <container> /usr/local/bin/cluster
+$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### swig
+
+```bash
+$ singularity exec <container> /usr/local/bin/swig
+$ podman run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ppinfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
-updated_at: "2022-10-27 00:19:25.387173"
+updated_at: "2022-10-29 05:31:30.878819"
 latest: "1.8.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ppinfer"
 aliases:
- - ".bioconductor-yeastexpdata-post-link.sh"
- - ".bioconductor-yeastexpdata-pre-unlink.sh"
+ - "wget"
 versions:
  - "1.8.1--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ppinfer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ppinfer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ppinfer", "latest": {"1.8.1--r351_0": "sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057"}, "tags": {"1.8.1--r351_0": "sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057"}, "docker": "quay.io/biocontainers/bioconductor-ppinfer", "aliases": {".bioconductor-yeastexpdata-post-link.sh": "/usr/local/bin/.bioconductor-yeastexpdata-post-link.sh", ".bioconductor-yeastexpdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-yeastexpdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ppinfer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ppinfer", "latest": {"1.8.1--r351_0": "sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057"}, "tags": {"1.8.1--r351_0": "sha256:5a69d581f732588683ea9ea9838bbd66eafd2419d0d9aeb0b605e157fef60057"}, "docker": "quay.io/biocontainers/bioconductor-ppinfer", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ppinfer.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-yeastexpdata-post-link.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-yeastexpdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-yeastexpdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-yeastexpdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-yeastexpdata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-yeastexpdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-yeastexpdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-yeastexpdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

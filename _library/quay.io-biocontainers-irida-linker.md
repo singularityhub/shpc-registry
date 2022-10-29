@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/irida-linker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-linker/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/irida-linker/container.yaml"
-updated_at: "2022-10-27 00:25:01.104210"
+updated_at: "2022-10-29 05:38:53.905720"
 latest: "1.1.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/irida-linker"
 aliases:
  - "ngsArchiveLinker.pl"
+ - "json_xs"
+ - "lwp-download"
+ - "lwp-dump"
+ - "lwp-mirror"
+ - "lwp-request"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "1.1.1--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for irida-linker"
-config: {"url": "https://biocontainers.pro/tools/irida-linker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-linker", "latest": {"1.1.1--hdfd78af_2": "sha256:e185a0043c8d63a742964011a3e8dcb5d2747f61dc338e55fcf36d34e403e3f4"}, "tags": {"1.1.1--hdfd78af_2": "sha256:e185a0043c8d63a742964011a3e8dcb5d2747f61dc338e55fcf36d34e403e3f4"}, "docker": "quay.io/biocontainers/irida-linker", "aliases": {"ngsArchiveLinker.pl": "/usr/local/bin/ngsArchiveLinker.pl"}}
+config: {"url": "https://biocontainers.pro/tools/irida-linker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-linker", "latest": {"1.1.1--hdfd78af_2": "sha256:e185a0043c8d63a742964011a3e8dcb5d2747f61dc338e55fcf36d34e403e3f4"}, "tags": {"1.1.1--hdfd78af_2": "sha256:e185a0043c8d63a742964011a3e8dcb5d2747f61dc338e55fcf36d34e403e3f4"}, "docker": "quay.io/biocontainers/irida-linker", "aliases": {"ngsArchiveLinker.pl": "/usr/local/bin/ngsArchiveLinker.pl", "json_xs": "/usr/local/bin/json_xs", "lwp-download": "/usr/local/bin/lwp-download", "lwp-dump": "/usr/local/bin/lwp-dump", "lwp-mirror": "/usr/local/bin/lwp-mirror", "lwp-request": "/usr/local/bin/lwp-request", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irida-linker.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ngsArchiveLinker.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/ngsArchiveLinker.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ngsArchiveLinker.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### json_xs
+
+```bash
+$ singularity exec <container> /usr/local/bin/json_xs
+$ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-download
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-download
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-download   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-dump
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-mirror
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-mirror
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-mirror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lwp-request
+
+```bash
+$ singularity exec <container> /usr/local/bin/lwp-request
+$ podman run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lwp-request   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/clippy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clippy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/clippy/container.yaml"
-updated_at: "2022-10-27 00:31:06.229556"
+updated_at: "2022-10-29 05:46:58.287996"
 latest: "1.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/clippy"
 aliases:
  - "clippy"
+ - "2to3-3.9"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
+ - "brotli"
 versions:
  - "1.5.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for clippy"
-config: {"url": "https://biocontainers.pro/tools/clippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clippy", "latest": {"1.5.0--pyhdfd78af_0": "sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303"}, "docker": "quay.io/biocontainers/clippy", "aliases": {"clippy": "/usr/local/bin/clippy"}}
+config: {"url": "https://biocontainers.pro/tools/clippy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for clippy", "latest": {"1.5.0--pyhdfd78af_0": "sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:8a162c87d0992ea655fcb7988a3d5b1354d48e7397b00bf84861519b1f14c303"}, "docker": "quay.io/biocontainers/clippy", "aliases": {"clippy": "/usr/local/bin/clippy", "2to3-3.9": "/usr/local/bin/2to3-3.9", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "brotli": "/usr/local/bin/brotli"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/clippy.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/clippy
 $ podman run --it --rm --entrypoint /usr/local/bin/clippy   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/clippy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

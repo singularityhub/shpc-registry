@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mintie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mintie/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mintie/container.yaml"
-updated_at: "2022-10-27 00:21:02.057892"
+updated_at: "2022-10-29 05:33:37.475007"
 latest: "0.4.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mintie"
 aliases:
@@ -30,10 +30,20 @@ aliases:
  - "mintie"
  - "sc-counts"
  - "velocity-counts"
+ - "2to3-3.10"
+ - "a_sample_mt.sh"
+ - "ace2sam"
+ - "addadapters.sh"
+ - "addssu.sh"
+ - "adjusthomopolymers.sh"
+ - "alltoall.sh"
+ - "analyzeaccession.sh"
+ - "analyzegenes.sh"
+ - "analyzesketchresults.sh"
 versions:
  - "0.4.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mintie"
-config: {"url": "https://biocontainers.pro/tools/mintie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mintie", "latest": {"0.4.1--hdfd78af_0": "sha256:8cb2f1475e634fe4e14be3dacf39e37e0c33dc479b471a91399dc906093e6efb"}, "tags": {"0.4.1--hdfd78af_0": "sha256:8cb2f1475e634fe4e14be3dacf39e37e0c33dc479b471a91399dc906093e6efb"}, "docker": "quay.io/biocontainers/mintie", "aliases": {"SOAPdenovo-Trans-127mer": "/usr/local/bin/SOAPdenovo-Trans-127mer", "SOAPdenovo-Trans-31mer": "/usr/local/bin/SOAPdenovo-Trans-31mer", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "bulk-counts": "/usr/local/bin/bulk-counts", "fastuniq": "/usr/local/bin/fastuniq", "gmap.nosimd": "/usr/local/bin/gmap.nosimd", "gmap_cat": "/usr/local/bin/gmap_cat", "gmapl.nosimd": "/usr/local/bin/gmapl.nosimd", "groovy_script": "/usr/local/bin/groovy_script", "gsnap.nosimd": "/usr/local/bin/gsnap.nosimd", "gsnapl.nosimd": "/usr/local/bin/gsnapl.nosimd", "indexdb_cat": "/usr/local/bin/indexdb_cat", "mintie": "/usr/local/bin/mintie", "sc-counts": "/usr/local/bin/sc-counts", "velocity-counts": "/usr/local/bin/velocity-counts"}}
+config: {"url": "https://biocontainers.pro/tools/mintie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mintie", "latest": {"0.4.1--hdfd78af_0": "sha256:8cb2f1475e634fe4e14be3dacf39e37e0c33dc479b471a91399dc906093e6efb"}, "tags": {"0.4.1--hdfd78af_0": "sha256:8cb2f1475e634fe4e14be3dacf39e37e0c33dc479b471a91399dc906093e6efb"}, "docker": "quay.io/biocontainers/mintie", "aliases": {"SOAPdenovo-Trans-127mer": "/usr/local/bin/SOAPdenovo-Trans-127mer", "SOAPdenovo-Trans-31mer": "/usr/local/bin/SOAPdenovo-Trans-31mer", "Xcalcmem.sh": "/usr/local/bin/Xcalcmem.sh", "bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "bulk-counts": "/usr/local/bin/bulk-counts", "fastuniq": "/usr/local/bin/fastuniq", "gmap.nosimd": "/usr/local/bin/gmap.nosimd", "gmap_cat": "/usr/local/bin/gmap_cat", "gmapl.nosimd": "/usr/local/bin/gmapl.nosimd", "groovy_script": "/usr/local/bin/groovy_script", "gsnap.nosimd": "/usr/local/bin/gsnap.nosimd", "gsnapl.nosimd": "/usr/local/bin/gsnapl.nosimd", "indexdb_cat": "/usr/local/bin/indexdb_cat", "mintie": "/usr/local/bin/mintie", "sc-counts": "/usr/local/bin/sc-counts", "velocity-counts": "/usr/local/bin/velocity-counts", "2to3-3.10": "/usr/local/bin/2to3-3.10", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "ace2sam": "/usr/local/bin/ace2sam", "addadapters.sh": "/usr/local/bin/addadapters.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mintie.
@@ -314,6 +324,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sc-counts   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/velocity-counts
 $ podman run --it --rm --entrypoint /usr/local/bin/velocity-counts   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/velocity-counts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### a_sample_mt.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### addadapters.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/addadapters.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### addssu.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/addssu.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### adjusthomopolymers.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/adjusthomopolymers.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alltoall.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/alltoall.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### analyzeaccession.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/analyzeaccession.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/analyzeaccession.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### analyzegenes.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/analyzegenes.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/analyzegenes.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### analyzesketchresults.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/analyzesketchresults.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/analyzesketchresults.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

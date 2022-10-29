@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/fusion-filter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusion-filter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fusion-filter/container.yaml"
-updated_at: "2022-10-27 00:22:46.368882"
+updated_at: "2022-10-29 05:35:56.784798"
 latest: "0.5.0--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/fusion-filter"
 aliases:
- - ".fusion-filter-post-link.sh"
  - "blast_and_promiscuity_filter.pl"
  - "blast_check_pair.pl"
  - "blast_filter.pl"
@@ -32,10 +31,20 @@ aliases:
  - "prep_genome_lib.pl"
  - "promiscuity_filter.pl"
  - "remove_long_intron_readthru_transcripts.pl"
+ - "STAR"
+ - "STARlong"
+ - "ace2sam"
+ - "atoiindex"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "blast_formatter"
+ - "blast_report"
+ - "blastdb_aliastool"
+ - "blastdb_convert"
 versions:
  - "0.5.0--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for fusion-filter"
-config: {"url": "https://biocontainers.pro/tools/fusion-filter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusion-filter", "latest": {"0.5.0--hdfd78af_3": "sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4"}, "tags": {"0.5.0--hdfd78af_3": "sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4"}, "docker": "quay.io/biocontainers/fusion-filter", "aliases": {".fusion-filter-post-link.sh": "/usr/local/bin/.fusion-filter-post-link.sh", "blast_and_promiscuity_filter.pl": "/usr/local/bin/blast_and_promiscuity_filter.pl", "blast_check_pair.pl": "/usr/local/bin/blast_check_pair.pl", "blast_filter.pl": "/usr/local/bin/blast_filter.pl", "blast_outfmt6_replace_trans_id_w_gene_symbol.pl": "/usr/local/bin/blast_outfmt6_replace_trans_id_w_gene_symbol.pl", "build_chr_gene_alignment_index.pl": "/usr/local/bin/build_chr_gene_alignment_index.pl", "build_fusion_annot_db_index.pl": "/usr/local/bin/build_fusion_annot_db_index.pl", "build_prot_info_db.pl": "/usr/local/bin/build_prot_info_db.pl", "gencode_extract_relevant_gtf_exons.pl": "/usr/local/bin/gencode_extract_relevant_gtf_exons.pl", "gtf_file_to_feature_seqs.pl": "/usr/local/bin/gtf_file_to_feature_seqs.pl", "gtf_to_exon_gene_records.pl": "/usr/local/bin/gtf_to_exon_gene_records.pl", "gtf_to_gene_spans.pl": "/usr/local/bin/gtf_to_gene_spans.pl", "index_blast_pairs.pl": "/usr/local/bin/index_blast_pairs.pl", "index_blast_pairs.remove_gene_pair.pl": "/usr/local/bin/index_blast_pairs.remove_gene_pair.pl", "index_blast_pairs.remove_overlapping_genes.pl": "/usr/local/bin/index_blast_pairs.remove_overlapping_genes.pl", "index_cdna_seqs.pl": "/usr/local/bin/index_cdna_seqs.pl", "index_pfam_domain_info.pl": "/usr/local/bin/index_pfam_domain_info.pl", "isoform_blast_gene_chr_conversion.pl": "/usr/local/bin/isoform_blast_gene_chr_conversion.pl", "isoform_blast_mapping_indexer.pl": "/usr/local/bin/isoform_blast_mapping_indexer.pl", "just_blast_test.pl": "/usr/local/bin/just_blast_test.pl", "make_super_locus.pl": "/usr/local/bin/make_super_locus.pl", "prep_genome_lib.pl": "/usr/local/bin/prep_genome_lib.pl", "promiscuity_filter.pl": "/usr/local/bin/promiscuity_filter.pl", "remove_long_intron_readthru_transcripts.pl": "/usr/local/bin/remove_long_intron_readthru_transcripts.pl"}}
+config: {"url": "https://biocontainers.pro/tools/fusion-filter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fusion-filter", "latest": {"0.5.0--hdfd78af_3": "sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4"}, "tags": {"0.5.0--hdfd78af_3": "sha256:6fc5fbea4f138208039a0a4f8383239dbfc68134ecc4570996869bff167e81f4"}, "docker": "quay.io/biocontainers/fusion-filter", "aliases": {"blast_and_promiscuity_filter.pl": "/usr/local/bin/blast_and_promiscuity_filter.pl", "blast_check_pair.pl": "/usr/local/bin/blast_check_pair.pl", "blast_filter.pl": "/usr/local/bin/blast_filter.pl", "blast_outfmt6_replace_trans_id_w_gene_symbol.pl": "/usr/local/bin/blast_outfmt6_replace_trans_id_w_gene_symbol.pl", "build_chr_gene_alignment_index.pl": "/usr/local/bin/build_chr_gene_alignment_index.pl", "build_fusion_annot_db_index.pl": "/usr/local/bin/build_fusion_annot_db_index.pl", "build_prot_info_db.pl": "/usr/local/bin/build_prot_info_db.pl", "gencode_extract_relevant_gtf_exons.pl": "/usr/local/bin/gencode_extract_relevant_gtf_exons.pl", "gtf_file_to_feature_seqs.pl": "/usr/local/bin/gtf_file_to_feature_seqs.pl", "gtf_to_exon_gene_records.pl": "/usr/local/bin/gtf_to_exon_gene_records.pl", "gtf_to_gene_spans.pl": "/usr/local/bin/gtf_to_gene_spans.pl", "index_blast_pairs.pl": "/usr/local/bin/index_blast_pairs.pl", "index_blast_pairs.remove_gene_pair.pl": "/usr/local/bin/index_blast_pairs.remove_gene_pair.pl", "index_blast_pairs.remove_overlapping_genes.pl": "/usr/local/bin/index_blast_pairs.remove_overlapping_genes.pl", "index_cdna_seqs.pl": "/usr/local/bin/index_cdna_seqs.pl", "index_pfam_domain_info.pl": "/usr/local/bin/index_pfam_domain_info.pl", "isoform_blast_gene_chr_conversion.pl": "/usr/local/bin/isoform_blast_gene_chr_conversion.pl", "isoform_blast_mapping_indexer.pl": "/usr/local/bin/isoform_blast_mapping_indexer.pl", "just_blast_test.pl": "/usr/local/bin/just_blast_test.pl", "make_super_locus.pl": "/usr/local/bin/make_super_locus.pl", "prep_genome_lib.pl": "/usr/local/bin/prep_genome_lib.pl", "promiscuity_filter.pl": "/usr/local/bin/promiscuity_filter.pl", "remove_long_intron_readthru_transcripts.pl": "/usr/local/bin/remove_long_intron_readthru_transcripts.pl", "STAR": "/usr/local/bin/STAR", "STARlong": "/usr/local/bin/STARlong", "ace2sam": "/usr/local/bin/ace2sam", "atoiindex": "/usr/local/bin/atoiindex", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "blast_formatter": "/usr/local/bin/blast_formatter", "blast_report": "/usr/local/bin/blast_report", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdb_convert": "/usr/local/bin/blastdb_convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fusion-filter.
@@ -118,15 +127,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .fusion-filter-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.fusion-filter-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.fusion-filter-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.fusion-filter-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -334,6 +334,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/promiscuity_filter.pl   -v ${
 $ singularity exec <container> /usr/local/bin/remove_long_intron_readthru_transcripts.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/remove_long_intron_readthru_transcripts.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/remove_long_intron_readthru_transcripts.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STAR
+
+```bash
+$ singularity exec <container> /usr/local/bin/STAR
+$ podman run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STAR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### STARlong
+
+```bash
+$ singularity exec <container> /usr/local/bin/STARlong
+$ podman run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/STARlong   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### atoiindex
+
+```bash
+$ singularity exec <container> /usr/local/bin/atoiindex
+$ podman run --it --rm --entrypoint /usr/local/bin/atoiindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/atoiindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_report
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_report
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_report   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_report   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_convert
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_convert
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_convert   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/decifer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decifer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/decifer/container.yaml"
-updated_at: "2022-10-27 00:37:02.198783"
+updated_at: "2022-10-29 05:54:53.559308"
 latest: "2.1.3--py310h243b37b_0"
 container_url: "https://biocontainers.pro/tools/decifer"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "lemon-0.x-to-1.x.sh"
  - "lgf-gen"
  - "mergestatetrees"
+ - "2to3-3.10"
+ - "brotli"
+ - "cbc"
+ - "clp"
+ - "f2py3.10"
+ - "fonttools"
+ - "glpsol"
+ - "idle3.10"
+ - "jpgicc"
+ - "linkicc"
 versions:
  - "2.1.3--py310h243b37b_0"
 description: "shpc-registry automated BioContainers addition for decifer"
-config: {"url": "https://biocontainers.pro/tools/decifer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for decifer", "latest": {"2.1.3--py310h243b37b_0": "sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a"}, "tags": {"2.1.3--py310h243b37b_0": "sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a"}, "docker": "quay.io/biocontainers/decifer", "aliases": {"decifer": "/usr/local/bin/decifer", "dimacs-solver": "/usr/local/bin/dimacs-solver", "dimacs-to-lgf": "/usr/local/bin/dimacs-to-lgf", "fitbeta": "/usr/local/bin/fitbeta", "generatestatetrees": "/usr/local/bin/generatestatetrees", "lemon-0.x-to-1.x.sh": "/usr/local/bin/lemon-0.x-to-1.x.sh", "lgf-gen": "/usr/local/bin/lgf-gen", "mergestatetrees": "/usr/local/bin/mergestatetrees"}}
+config: {"url": "https://biocontainers.pro/tools/decifer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for decifer", "latest": {"2.1.3--py310h243b37b_0": "sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a"}, "tags": {"2.1.3--py310h243b37b_0": "sha256:37cc1cfb5ec58fba59d16e7ec13c54369aa8999bd808e41cca6d1f249acadd3a"}, "docker": "quay.io/biocontainers/decifer", "aliases": {"decifer": "/usr/local/bin/decifer", "dimacs-solver": "/usr/local/bin/dimacs-solver", "dimacs-to-lgf": "/usr/local/bin/dimacs-to-lgf", "fitbeta": "/usr/local/bin/fitbeta", "generatestatetrees": "/usr/local/bin/generatestatetrees", "lemon-0.x-to-1.x.sh": "/usr/local/bin/lemon-0.x-to-1.x.sh", "lgf-gen": "/usr/local/bin/lgf-gen", "mergestatetrees": "/usr/local/bin/mergestatetrees", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "glpsol": "/usr/local/bin/glpsol", "idle3.10": "/usr/local/bin/idle3.10", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/decifer.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/lgf-gen   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/mergestatetrees
 $ podman run --it --rm --entrypoint /usr/local/bin/mergestatetrees   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mergestatetrees   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cbc
+
+```bash
+$ singularity exec <container> /usr/local/bin/cbc
+$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clp
+
+```bash
+$ singularity exec <container> /usr/local/bin/clp
+$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

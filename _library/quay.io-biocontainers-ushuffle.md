@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/ushuffle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ushuffle/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ushuffle/container.yaml"
-updated_at: "2022-10-27 00:19:24.094324"
+updated_at: "2022-10-29 05:31:29.233926"
 latest: "1.2.2--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/ushuffle"
 aliases:
  - "ushuffle"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "1.2.2--py27h9801fc8_5"
 description: "shpc-registry automated BioContainers addition for ushuffle"
-config: {"url": "https://biocontainers.pro/tools/ushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ushuffle", "latest": {"1.2.2--py27h9801fc8_5": "sha256:448fd7d06f5e4bba86ef8e2084f495234deed1b4a40c135ca3faeb4d0dba9d07"}, "tags": {"1.2.2--py27h9801fc8_5": "sha256:448fd7d06f5e4bba86ef8e2084f495234deed1b4a40c135ca3faeb4d0dba9d07"}, "docker": "quay.io/biocontainers/ushuffle", "aliases": {"ushuffle": "/usr/local/bin/ushuffle"}}
+config: {"url": "https://biocontainers.pro/tools/ushuffle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ushuffle", "latest": {"1.2.2--py27h9801fc8_5": "sha256:448fd7d06f5e4bba86ef8e2084f495234deed1b4a40c135ca3faeb4d0dba9d07"}, "tags": {"1.2.2--py27h9801fc8_5": "sha256:448fd7d06f5e4bba86ef8e2084f495234deed1b4a40c135ca3faeb4d0dba9d07"}, "docker": "quay.io/biocontainers/ushuffle", "aliases": {"ushuffle": "/usr/local/bin/ushuffle", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ushuffle.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ushuffle
 $ podman run --it --rm --entrypoint /usr/local/bin/ushuffle   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ushuffle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

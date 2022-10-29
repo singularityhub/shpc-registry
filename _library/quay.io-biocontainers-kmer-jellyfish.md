@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/kmer-jellyfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kmer-jellyfish/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kmer-jellyfish/container.yaml"
-updated_at: "2022-10-27 00:39:55.634914"
+updated_at: "2022-10-29 05:58:38.354367"
 latest: "2.3.0--h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/kmer-jellyfish"
-
+aliases:
+ - "jellyfish"
 versions:
  - "2.3.0--h9f5acd7_3"
 description: "shpc-registry automated BioContainers addition for kmer-jellyfish"
-config: {"url": "https://biocontainers.pro/tools/kmer-jellyfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmer-jellyfish", "latest": {"2.3.0--h9f5acd7_3": "sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480"}, "tags": {"2.3.0--h9f5acd7_3": "sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480"}, "docker": "quay.io/biocontainers/kmer-jellyfish"}
+config: {"url": "https://biocontainers.pro/tools/kmer-jellyfish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kmer-jellyfish", "latest": {"2.3.0--h9f5acd7_3": "sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480"}, "tags": {"2.3.0--h9f5acd7_3": "sha256:8b656996004664483c1960d2202a2badf6b567687733e76fd32fb9c8389c7480"}, "docker": "quay.io/biocontainers/kmer-jellyfish", "aliases": {"jellyfish": "/usr/local/bin/jellyfish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kmer-jellyfish.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### kmer-jellyfish
+#### jellyfish
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

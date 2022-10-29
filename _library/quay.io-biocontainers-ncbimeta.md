@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncbimeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbimeta/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ncbimeta/container.yaml"
-updated_at: "2022-10-27 00:33:06.268218"
+updated_at: "2022-10-29 05:49:37.306627"
 latest: "0.8.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ncbimeta"
 aliases:
@@ -12,10 +12,18 @@ aliases:
  - "NCBImetaAnnotate"
  - "NCBImetaExport"
  - "NCBImetaJoin"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "xslt-config"
+ - "xsltproc"
 versions:
  - "0.8.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ncbimeta"
-config: {"url": "https://biocontainers.pro/tools/ncbimeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbimeta", "latest": {"0.8.3--pyhdfd78af_0": "sha256:2565d72da888b29752ce90c7a56d4a6b30410b058869136b6e480752e4521b3f"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:2565d72da888b29752ce90c7a56d4a6b30410b058869136b6e480752e4521b3f"}, "docker": "quay.io/biocontainers/ncbimeta", "aliases": {"NCBImeta": "/usr/local/bin/NCBImeta", "NCBImetaAnnotate": "/usr/local/bin/NCBImetaAnnotate", "NCBImetaExport": "/usr/local/bin/NCBImetaExport", "NCBImetaJoin": "/usr/local/bin/NCBImetaJoin"}}
+config: {"url": "https://biocontainers.pro/tools/ncbimeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbimeta", "latest": {"0.8.3--pyhdfd78af_0": "sha256:2565d72da888b29752ce90c7a56d4a6b30410b058869136b6e480752e4521b3f"}, "tags": {"0.8.3--pyhdfd78af_0": "sha256:2565d72da888b29752ce90c7a56d4a6b30410b058869136b6e480752e4521b3f"}, "docker": "quay.io/biocontainers/ncbimeta", "aliases": {"NCBImeta": "/usr/local/bin/NCBImeta", "NCBImetaAnnotate": "/usr/local/bin/NCBImetaAnnotate", "NCBImetaExport": "/usr/local/bin/NCBImetaExport", "NCBImetaJoin": "/usr/local/bin/NCBImetaJoin", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbimeta.
@@ -134,6 +142,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/NCBImetaExport   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/NCBImetaJoin
 $ podman run --it --rm --entrypoint /usr/local/bin/NCBImetaJoin   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/NCBImetaJoin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

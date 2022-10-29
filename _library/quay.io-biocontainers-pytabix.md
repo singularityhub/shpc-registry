@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/pytabix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytabix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pytabix/container.yaml"
-updated_at: "2022-10-27 00:36:08.775063"
+updated_at: "2022-10-29 05:53:42.598124"
 latest: "0.1--py39h2add14b_2"
 container_url: "https://biocontainers.pro/tools/pytabix"
-
+aliases:
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.1--py39h2add14b_2"
 description: "shpc-registry automated BioContainers addition for pytabix"
-config: {"url": "https://biocontainers.pro/tools/pytabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytabix", "latest": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c"}, "tags": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c"}, "docker": "quay.io/biocontainers/pytabix"}
+config: {"url": "https://biocontainers.pro/tools/pytabix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pytabix", "latest": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c"}, "tags": {"0.1--py39h2add14b_2": "sha256:b46165a98b4361dc4834539b3e98899be7eb5db8df8969ab590c8ca07a86f36c"}, "docker": "quay.io/biocontainers/pytabix", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pytabix.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### pytabix
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

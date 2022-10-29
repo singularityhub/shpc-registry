@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/graphprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/graphprot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/graphprot/container.yaml"
-updated_at: "2022-10-27 00:30:53.820043"
+updated_at: "2022-10-29 05:46:42.572785"
 latest: "1.1.7--h3445559_4"
 container_url: "https://biocontainers.pro/tools/graphprot"
 aliases:
  - "GraphProt.pl"
  - "RNAshapes"
  - "gawk-4.2.1"
+ - "2to3-3.6"
+ - "awk"
+ - "b2sum"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "cat"
+ - "chcon"
+ - "chgrp"
+ - "chmod"
 versions:
  - "1.1.7--h3445559_4"
 description: "shpc-registry automated BioContainers addition for graphprot"
-config: {"url": "https://biocontainers.pro/tools/graphprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphprot", "latest": {"1.1.7--h3445559_4": "sha256:a8b00657d5cab0048bc35897fc666c9130240be47aab5c8c5f6cdc5b59a36668"}, "tags": {"1.1.7--h3445559_4": "sha256:a8b00657d5cab0048bc35897fc666c9130240be47aab5c8c5f6cdc5b59a36668"}, "docker": "quay.io/biocontainers/graphprot", "aliases": {"GraphProt.pl": "/usr/local/bin/GraphProt.pl", "RNAshapes": "/usr/local/bin/RNAshapes", "gawk-4.2.1": "/usr/local/bin/gawk-4.2.1"}}
+config: {"url": "https://biocontainers.pro/tools/graphprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for graphprot", "latest": {"1.1.7--h3445559_4": "sha256:a8b00657d5cab0048bc35897fc666c9130240be47aab5c8c5f6cdc5b59a36668"}, "tags": {"1.1.7--h3445559_4": "sha256:a8b00657d5cab0048bc35897fc666c9130240be47aab5c8c5f6cdc5b59a36668"}, "docker": "quay.io/biocontainers/graphprot", "aliases": {"GraphProt.pl": "/usr/local/bin/GraphProt.pl", "RNAshapes": "/usr/local/bin/RNAshapes", "gawk-4.2.1": "/usr/local/bin/gawk-4.2.1", "2to3-3.6": "/usr/local/bin/2to3-3.6", "awk": "/usr/local/bin/awk", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/graphprot.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/RNAshapes   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/gawk-4.2.1
 $ podman run --it --rm --entrypoint /usr/local/bin/gawk-4.2.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gawk-4.2.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### awk
+
+```bash
+$ singularity exec <container> /usr/local/bin/awk
+$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cat
+
+```bash
+$ singularity exec <container> /usr/local/bin/cat
+$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chcon
+
+```bash
+$ singularity exec <container> /usr/local/bin/chcon
+$ podman run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chgrp
+
+```bash
+$ singularity exec <container> /usr/local/bin/chgrp
+$ podman run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chmod
+
+```bash
+$ singularity exec <container> /usr/local/bin/chmod
+$ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

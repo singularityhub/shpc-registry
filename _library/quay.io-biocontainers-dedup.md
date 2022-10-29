@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/dedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dedup/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dedup/container.yaml"
-updated_at: "2022-10-27 00:33:30.665856"
+updated_at: "2022-10-29 05:50:08.586036"
 latest: "0.12.8--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dedup"
 aliases:
  - "dedup"
+ - "2to3-3.9"
+ - "aserver"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
+ - "idle3.9"
+ - "jaotc"
 versions:
  - "0.12.8--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for dedup"
-config: {"url": "https://biocontainers.pro/tools/dedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dedup", "latest": {"0.12.8--hdfd78af_1": "sha256:f681e5168256c179431738ac720fc5b2cdec66555de8a84b918b041e19c79944"}, "tags": {"0.12.8--hdfd78af_1": "sha256:f681e5168256c179431738ac720fc5b2cdec66555de8a84b918b041e19c79944"}, "docker": "quay.io/biocontainers/dedup", "aliases": {"dedup": "/usr/local/bin/dedup"}}
+config: {"url": "https://biocontainers.pro/tools/dedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dedup", "latest": {"0.12.8--hdfd78af_1": "sha256:f681e5168256c179431738ac720fc5b2cdec66555de8a84b918b041e19c79944"}, "tags": {"0.12.8--hdfd78af_1": "sha256:f681e5168256c179431738ac720fc5b2cdec66555de8a84b918b041e19c79944"}, "docker": "quay.io/biocontainers/dedup", "aliases": {"dedup": "/usr/local/bin/dedup", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aserver": "/usr/local/bin/aserver", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "idle3.9": "/usr/local/bin/idle3.9", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dedup.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/dedup
 $ podman run --it --rm --entrypoint /usr/local/bin/dedup   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dedup   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

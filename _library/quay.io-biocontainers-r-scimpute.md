@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/r-scimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-scimpute/container.yaml"
-updated_at: "2022-10-27 00:25:45.315539"
+updated_at: "2022-10-29 05:39:54.112793"
 latest: "0.0.8--r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-scimpute"
-
+aliases:
+ - "env_parallel"
+ - "env_parallel.ash"
+ - "env_parallel.bash"
+ - "env_parallel.csh"
+ - "env_parallel.dash"
+ - "env_parallel.fish"
+ - "env_parallel.ksh"
+ - "env_parallel.mksh"
+ - "env_parallel.pdksh"
+ - "env_parallel.sh"
 versions:
  - "0.0.8--r41hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for r-scimpute"
-config: {"url": "https://biocontainers.pro/tools/r-scimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scimpute", "latest": {"0.0.8--r41hdfd78af_3": "sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569"}, "tags": {"0.0.8--r41hdfd78af_3": "sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569"}, "docker": "quay.io/biocontainers/r-scimpute"}
+config: {"url": "https://biocontainers.pro/tools/r-scimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-scimpute", "latest": {"0.0.8--r41hdfd78af_3": "sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569"}, "tags": {"0.0.8--r41hdfd78af_3": "sha256:37e4dce33aeec428dbffd1f8528c37e4329f49de7075c549f828847025b06569"}, "docker": "quay.io/biocontainers/r-scimpute", "aliases": {"env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh", "env_parallel.pdksh": "/usr/local/bin/env_parallel.pdksh", "env_parallel.sh": "/usr/local/bin/env_parallel.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-scimpute.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-scimpute
+#### env_parallel
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/env_parallel
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### env_parallel.ash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.ash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.bash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.bash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.csh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.csh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.dash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.dash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.fish
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.fish
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.ksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.ksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.mksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.mksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.mksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.pdksh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.pdksh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.pdksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.pdksh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

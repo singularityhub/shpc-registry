@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/rdp-readseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdp-readseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rdp-readseq/container.yaml"
-updated_at: "2022-10-27 00:39:02.769917"
+updated_at: "2022-10-29 05:57:31.216337"
 latest: "2.0.2--1"
 container_url: "https://biocontainers.pro/tools/rdp-readseq"
 aliases:
  - "ReadSeq"
+ - "appletviewer"
+ - "extcheck"
+ - "idlj"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "java-rmi.cgi"
+ - "javac"
+ - "javadoc"
+ - "javah"
 versions:
  - "2.0.2--1"
 description: "shpc-registry automated BioContainers addition for rdp-readseq"
-config: {"url": "https://biocontainers.pro/tools/rdp-readseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp-readseq", "latest": {"2.0.2--1": "sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1"}, "tags": {"2.0.2--1": "sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1"}, "docker": "quay.io/biocontainers/rdp-readseq", "aliases": {"ReadSeq": "/usr/local/bin/ReadSeq"}}
+config: {"url": "https://biocontainers.pro/tools/rdp-readseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp-readseq", "latest": {"2.0.2--1": "sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1"}, "tags": {"2.0.2--1": "sha256:b0bd08c2989538f20a60f134b622ad6dcac4d762d9696daf6dcb03b7970823c1"}, "docker": "quay.io/biocontainers/rdp-readseq", "aliases": {"ReadSeq": "/usr/local/bin/ReadSeq", "appletviewer": "/usr/local/bin/appletviewer", "extcheck": "/usr/local/bin/extcheck", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javah": "/usr/local/bin/javah"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdp-readseq.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ReadSeq
 $ podman run --it --rm --entrypoint /usr/local/bin/ReadSeq   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ReadSeq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java-rmi.cgi
+
+```bash
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javah
+
+```bash
+$ singularity exec <container> /usr/local/bin/javah
+$ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

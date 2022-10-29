@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/imctools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/imctools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/imctools/container.yaml"
-updated_at: "2022-10-27 00:35:10.708558"
+updated_at: "2022-10-29 05:52:26.174840"
 latest: "1.0.8--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/imctools"
-
+aliases:
+ - "2to3-3.8"
+ - "JxrDecApp"
+ - "JxrEncApp"
+ - "aec"
+ - "brotli"
+ - "cbrunsli"
+ - "dbrunsli"
+ - "f2py3.8"
+ - "gif2rgb"
+ - "gifbuild"
 versions:
  - "1.0.8--pyh864c0ab_0"
 description: "shpc-registry automated BioContainers addition for imctools"
-config: {"url": "https://biocontainers.pro/tools/imctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imctools", "latest": {"1.0.8--pyh864c0ab_0": "sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f"}, "tags": {"1.0.8--pyh864c0ab_0": "sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f"}, "docker": "quay.io/biocontainers/imctools"}
+config: {"url": "https://biocontainers.pro/tools/imctools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for imctools", "latest": {"1.0.8--pyh864c0ab_0": "sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f"}, "tags": {"1.0.8--pyh864c0ab_0": "sha256:89d3f1aa39091eb9a79f1084c99eb2d64f248bb5c4aee9d868e85c1ccf64498f"}, "docker": "quay.io/biocontainers/imctools", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "aec": "/usr/local/bin/aec", "brotli": "/usr/local/bin/brotli", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "f2py3.8": "/usr/local/bin/f2py3.8", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/imctools.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### imctools
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### JxrDecApp
+
+```bash
+$ singularity exec <container> /usr/local/bin/JxrDecApp
+$ podman run --it --rm --entrypoint /usr/local/bin/JxrDecApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/JxrDecApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### JxrEncApp
+
+```bash
+$ singularity exec <container> /usr/local/bin/JxrEncApp
+$ podman run --it --rm --entrypoint /usr/local/bin/JxrEncApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/JxrEncApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aec
+
+```bash
+$ singularity exec <container> /usr/local/bin/aec
+$ podman run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cbrunsli
+
+```bash
+$ singularity exec <container> /usr/local/bin/cbrunsli
+$ podman run --it --rm --entrypoint /usr/local/bin/cbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbrunsli
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbrunsli
+$ podman run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

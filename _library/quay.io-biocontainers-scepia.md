@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/scepia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scepia/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scepia/container.yaml"
-updated_at: "2022-10-27 00:30:42.248427"
+updated_at: "2022-10-29 05:46:26.714016"
 latest: "0.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scepia"
 aliases:
- - ".trawler-post-link.sh"
  - "GenomeOntology.pl"
  - "HomerConfig.pm"
  - "HomerSVGLogo.pm"
@@ -193,10 +192,20 @@ aliases:
  - "trawler"
  - "weeder2"
  - "zipHomerResults.pl"
+ - "2to3-3.9"
+ - "aggregate_profile.pl"
+ - "alphtype"
+ - "ama"
+ - "ama-qvalues"
+ - "ame"
+ - "annotateBed"
+ - "aserver"
+ - "assistant"
+ - "bamToBed"
 versions:
  - "0.5.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scepia"
-config: {"url": "https://biocontainers.pro/tools/scepia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scepia", "latest": {"0.5.1--pyhdfd78af_0": "sha256:ad3e8dcf7901e1f50ce906b47d1a9f2ef510fda34689341cd43af730400740d5"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:ad3e8dcf7901e1f50ce906b47d1a9f2ef510fda34689341cd43af730400740d5"}, "docker": "quay.io/biocontainers/scepia", "aliases": {".trawler-post-link.sh": "/usr/local/bin/.trawler-post-link.sh", "GenomeOntology.pl": "/usr/local/bin/GenomeOntology.pl", "HomerConfig.pm": "/usr/local/bin/HomerConfig.pm", "HomerSVGLogo.pm": "/usr/local/bin/HomerSVGLogo.pm", "ProSampler": "/usr/local/bin/ProSampler", "SIMA.pl": "/usr/local/bin/SIMA.pl", "Statistics.pm": "/usr/local/bin/Statistics.pm", "XXmotif": "/usr/local/bin/XXmotif", "addData.pl": "/usr/local/bin/addData.pl", "addDataHeader.pl": "/usr/local/bin/addDataHeader.pl", "addGeneAnnotation.pl": "/usr/local/bin/addGeneAnnotation.pl", "addInternalData.pl": "/usr/local/bin/addInternalData.pl", "addOligos.pl": "/usr/local/bin/addOligos.pl", "adjustPeakFile.pl": "/usr/local/bin/adjustPeakFile.pl", "adjustRedunGroupFile.pl": "/usr/local/bin/adjustRedunGroupFile.pl", "analyzeChIP-Seq.pl": "/usr/local/bin/analyzeChIP-Seq.pl", "analyzeHiC": "/usr/local/bin/analyzeHiC", "analyzeRNA.pl": "/usr/local/bin/analyzeRNA.pl", "analyzeRepeats.pl": "/usr/local/bin/analyzeRepeats.pl", "annotateInteractions.pl": "/usr/local/bin/annotateInteractions.pl", "annotatePeaks.pl": "/usr/local/bin/annotatePeaks.pl", "annotateRelativePosition.pl": "/usr/local/bin/annotateRelativePosition.pl", "annotateTranscripts.pl": "/usr/local/bin/annotateTranscripts.pl", "assignGeneWeights.pl": "/usr/local/bin/assignGeneWeights.pl", "assignGenomeAnnotation": "/usr/local/bin/assignGenomeAnnotation", "assignTSStoGene.pl": "/usr/local/bin/assignTSStoGene.pl", "batchAnnotatePeaksHistogram.pl": "/usr/local/bin/batchAnnotatePeaksHistogram.pl", "batchFindMotifs.pl": "/usr/local/bin/batchFindMotifs.pl", "batchFindMotifsGenome.pl": "/usr/local/bin/batchFindMotifsGenome.pl", "batchMakeHiCMatrix.pl": "/usr/local/bin/batchMakeHiCMatrix.pl", "batchMakeMultiWigHub.pl": "/usr/local/bin/batchMakeMultiWigHub.pl", "batchMakeTagDirectory.pl": "/usr/local/bin/batchMakeTagDirectory.pl", "batchParallel.pl": "/usr/local/bin/batchParallel.pl", "bed2DtoUCSCbed.pl": "/usr/local/bin/bed2DtoUCSCbed.pl", "bed2pos.pl": "/usr/local/bin/bed2pos.pl", "bed2tag.pl": "/usr/local/bin/bed2tag.pl", "bedToGenePred": "/usr/local/bin/bedToGenePred", "bigBedToBed": "/usr/local/bin/bigBedToBed", "blat2gtf.pl": "/usr/local/bin/blat2gtf.pl", "bridgeResult2Cytoscape.pl": "/usr/local/bin/bridgeResult2Cytoscape.pl", "changeNewLine.pl": "/usr/local/bin/changeNewLine.pl", "checkPeakFile.pl": "/usr/local/bin/checkPeakFile.pl", "checkTagBias.pl": "/usr/local/bin/checkTagBias.pl", "chopUpBackground.pl": "/usr/local/bin/chopUpBackground.pl", "chopUpPeakFile.pl": "/usr/local/bin/chopUpPeakFile.pl", "chopify.pl": "/usr/local/bin/chopify.pl", "cleanUpPeakFile.pl": "/usr/local/bin/cleanUpPeakFile.pl", "cleanUpSequences.pl": "/usr/local/bin/cleanUpSequences.pl", "cluster2bed.pl": "/usr/local/bin/cluster2bed.pl", "cluster2bedgraph.pl": "/usr/local/bin/cluster2bedgraph.pl", "combineGO.pl": "/usr/local/bin/combineGO.pl", "combineHubs.pl": "/usr/local/bin/combineHubs.pl", "combine_peaks": "/usr/local/bin/combine_peaks", "compareMotifs.pl": "/usr/local/bin/compareMotifs.pl", "condenseBedGraph.pl": "/usr/local/bin/condenseBedGraph.pl", "cons2fasta.pl": "/usr/local/bin/cons2fasta.pl", "conservationAverage.pl": "/usr/local/bin/conservationAverage.pl", "conservationPerLocus.pl": "/usr/local/bin/conservationPerLocus.pl", "convertCoordinates.pl": "/usr/local/bin/convertCoordinates.pl", "convertIDs.pl": "/usr/local/bin/convertIDs.pl", "convertOrganismID.pl": "/usr/local/bin/convertOrganismID.pl", "coverage_table": "/usr/local/bin/coverage_table", "createIGVhtml.pl": "/usr/local/bin/createIGVhtml.pl", "dinamo": "/usr/local/bin/dinamo", "dtc": "/usr/local/bin/dtc", "duplicateCol.pl": "/usr/local/bin/duplicateCol.pl", "eland2tags.pl": "/usr/local/bin/eland2tags.pl", "enr": "/usr/local/bin/enr", "fasta-from-bed": "/usr/local/bin/fasta-from-bed", "fasta2tab.pl": "/usr/local/bin/fasta2tab.pl", "fastq2fasta.pl": "/usr/local/bin/fastq2fasta.pl", "filterListBy.pl": "/usr/local/bin/filterListBy.pl", "filterTADsAndCPs.pl": "/usr/local/bin/filterTADsAndCPs.pl", "filterTADsAndLoops.pl": "/usr/local/bin/filterTADsAndLoops.pl", "filterTagDirectory.pl": "/usr/local/bin/filterTagDirectory.pl", "findGO.pl": "/usr/local/bin/findGO.pl", "findGOtxt.pl": "/usr/local/bin/findGOtxt.pl", "findHiCCompartments.pl": "/usr/local/bin/findHiCCompartments.pl", "findHiCDomains.pl": "/usr/local/bin/findHiCDomains.pl", "findHiCInteractionsByChr.pl": "/usr/local/bin/findHiCInteractionsByChr.pl", "findKnownMotifs.pl": "/usr/local/bin/findKnownMotifs.pl", "findMotifs.pl": "/usr/local/bin/findMotifs.pl", "findMotifsGenome.pl": "/usr/local/bin/findMotifsGenome.pl", "findPeaks": "/usr/local/bin/findPeaks", "findRedundantBLAT.pl": "/usr/local/bin/findRedundantBLAT.pl", "findTADsAndLoops.pl": "/usr/local/bin/findTADsAndLoops.pl", "findTADsAndLoopsFromRelMatrix": "/usr/local/bin/findTADsAndLoopsFromRelMatrix", "findTopMotifs.pl": "/usr/local/bin/findTopMotifs.pl", "findcsRNATSS.pl": "/usr/local/bin/findcsRNATSS.pl", "flipPC1toMatch.pl": "/usr/local/bin/flipPC1toMatch.pl", "fluff": "/usr/local/bin/fluff", "freq2group.pl": "/usr/local/bin/freq2group.pl", "gadem": "/usr/local/bin/gadem", "genericConvertIDs.pl": "/usr/local/bin/genericConvertIDs.pl", "genomeOntology": "/usr/local/bin/genomeOntology", "genomepy": "/usr/local/bin/genomepy", "getChrLengths.pl": "/usr/local/bin/getChrLengths.pl", "getConservedRegions.pl": "/usr/local/bin/getConservedRegions.pl", "getDiffExpression.pl": "/usr/local/bin/getDiffExpression.pl", "getDifferentialBedGraph.pl": "/usr/local/bin/getDifferentialBedGraph.pl", "getDifferentialPeaks": "/usr/local/bin/getDifferentialPeaks", "getDifferentialPeaksReplicates.pl": "/usr/local/bin/getDifferentialPeaksReplicates.pl", "getDistalPeaks.pl": "/usr/local/bin/getDistalPeaks.pl", "getFocalPeaks.pl": "/usr/local/bin/getFocalPeaks.pl", "getGWASoverlap.pl": "/usr/local/bin/getGWASoverlap.pl", "getGenesInCategory.pl": "/usr/local/bin/getGenesInCategory.pl", "getGenomeTilingPeaks": "/usr/local/bin/getGenomeTilingPeaks", "getHiCcorrDiff.pl": "/usr/local/bin/getHiCcorrDiff.pl", "getHomerQCstats.pl": "/usr/local/bin/getHomerQCstats.pl", "getLikelyAdapters.pl": "/usr/local/bin/getLikelyAdapters.pl", "getMappableRegions": "/usr/local/bin/getMappableRegions", "getMappingStats.pl": "/usr/local/bin/getMappingStats.pl", "getPartOfPromoter.pl": "/usr/local/bin/getPartOfPromoter.pl", "getPeakTags": "/usr/local/bin/getPeakTags", "getPos.pl": "/usr/local/bin/getPos.pl", "getRandomReads.pl": "/usr/local/bin/getRandomReads.pl", "getSiteConservation.pl": "/usr/local/bin/getSiteConservation.pl", "getTopPeaks.pl": "/usr/local/bin/getTopPeaks.pl", "gff2pos.pl": "/usr/local/bin/gff2pos.pl", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gimme": "/usr/local/bin/gimme", "go2cytoscape.pl": "/usr/local/bin/go2cytoscape.pl", "groupSequences.pl": "/usr/local/bin/groupSequences.pl", "homer": "/usr/local/bin/homer", "homer2": "/usr/local/bin/homer2", "homerTools": "/usr/local/bin/homerTools", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "index-fasta-file": "/usr/local/bin/index-fasta-file", "joinFiles.pl": "/usr/local/bin/joinFiles.pl", "loadGenome.pl": "/usr/local/bin/loadGenome.pl", "loadPromoters.pl": "/usr/local/bin/loadPromoters.pl", "makeBigBedMotifTrack.pl": "/usr/local/bin/makeBigBedMotifTrack.pl", "makeBigWig.pl": "/usr/local/bin/makeBigWig.pl", "makeBinaryFile.pl": "/usr/local/bin/makeBinaryFile.pl", "makeHiCWashUfile.pl": "/usr/local/bin/makeHiCWashUfile.pl", "makeMetaGeneProfile.pl": "/usr/local/bin/makeMetaGeneProfile.pl", "makeMultiWigHub.pl": "/usr/local/bin/makeMultiWigHub.pl", "makeTagDirectory": "/usr/local/bin/makeTagDirectory", "makeUCSCfile": "/usr/local/bin/makeUCSCfile", "map-fastq.pl": "/usr/local/bin/map-fastq.pl", "merge2Dbed.pl": "/usr/local/bin/merge2Dbed.pl", "mergeData.pl": "/usr/local/bin/mergeData.pl", "mergePeaks": "/usr/local/bin/mergePeaks", "motif2Jaspar.pl": "/usr/local/bin/motif2Jaspar.pl", "motif2Logo.pl": "/usr/local/bin/motif2Logo.pl", "parseGTF.pl": "/usr/local/bin/parseGTF.pl", "pos2bed.pl": "/usr/local/bin/pos2bed.pl", "prepForR.pl": "/usr/local/bin/prepForR.pl", "preparseGenome.pl": "/usr/local/bin/preparseGenome.pl", "profile2seq.pl": "/usr/local/bin/profile2seq.pl", "qnorm": "/usr/local/bin/qnorm", "qseq2fastq.pl": "/usr/local/bin/qseq2fastq.pl", "randRemoveBackground.pl": "/usr/local/bin/randRemoveBackground.pl", "randomizeGroupFile.pl": "/usr/local/bin/randomizeGroupFile.pl", "randomizeMotifs.pl": "/usr/local/bin/randomizeMotifs.pl", "removeAccVersion.pl": "/usr/local/bin/removeAccVersion.pl", "removeBadSeq.pl": "/usr/local/bin/removeBadSeq.pl", "removeOutOfBoundsReads.pl": "/usr/local/bin/removeOutOfBoundsReads.pl", "removePoorSeq.pl": "/usr/local/bin/removePoorSeq.pl", "removeRedundantPeaks.pl": "/usr/local/bin/removeRedundantPeaks.pl", "renamePeaks.pl": "/usr/local/bin/renamePeaks.pl", "resizePosFile.pl": "/usr/local/bin/resizePosFile.pl", "revoppMotif.pl": "/usr/local/bin/revoppMotif.pl", "rotateHiCmatrix.pl": "/usr/local/bin/rotateHiCmatrix.pl", "runHiCpca.pl": "/usr/local/bin/runHiCpca.pl", "sam2spliceJunc.pl": "/usr/local/bin/sam2spliceJunc.pl", "scanMotifGenomeWide.pl": "/usr/local/bin/scanMotifGenomeWide.pl", "scepia": "/usr/local/bin/scepia", "scrambleFasta.pl": "/usr/local/bin/scrambleFasta.pl", "selectRepeatBg.pl": "/usr/local/bin/selectRepeatBg.pl", "seq2profile.pl": "/usr/local/bin/seq2profile.pl", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "subtractBedGraphs.pl": "/usr/local/bin/subtractBedGraphs.pl", "subtractBedGraphsDirectory.pl": "/usr/local/bin/subtractBedGraphsDirectory.pl", "tab2fasta.pl": "/usr/local/bin/tab2fasta.pl", "tag2bed.pl": "/usr/local/bin/tag2bed.pl", "tag2pos.pl": "/usr/local/bin/tag2pos.pl", "tagDir2HiCsummary.pl": "/usr/local/bin/tagDir2HiCsummary.pl", "tagDir2bed.pl": "/usr/local/bin/tagDir2bed.pl", "tagDir2hicFile.pl": "/usr/local/bin/tagDir2hicFile.pl", "tgene": "/usr/local/bin/tgene", "trawler": "/usr/local/bin/trawler", "weeder2": "/usr/local/bin/weeder2", "zipHomerResults.pl": "/usr/local/bin/zipHomerResults.pl"}}
+config: {"url": "https://biocontainers.pro/tools/scepia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scepia", "latest": {"0.5.1--pyhdfd78af_0": "sha256:ad3e8dcf7901e1f50ce906b47d1a9f2ef510fda34689341cd43af730400740d5"}, "tags": {"0.5.1--pyhdfd78af_0": "sha256:ad3e8dcf7901e1f50ce906b47d1a9f2ef510fda34689341cd43af730400740d5"}, "docker": "quay.io/biocontainers/scepia", "aliases": {"GenomeOntology.pl": "/usr/local/bin/GenomeOntology.pl", "HomerConfig.pm": "/usr/local/bin/HomerConfig.pm", "HomerSVGLogo.pm": "/usr/local/bin/HomerSVGLogo.pm", "ProSampler": "/usr/local/bin/ProSampler", "SIMA.pl": "/usr/local/bin/SIMA.pl", "Statistics.pm": "/usr/local/bin/Statistics.pm", "XXmotif": "/usr/local/bin/XXmotif", "addData.pl": "/usr/local/bin/addData.pl", "addDataHeader.pl": "/usr/local/bin/addDataHeader.pl", "addGeneAnnotation.pl": "/usr/local/bin/addGeneAnnotation.pl", "addInternalData.pl": "/usr/local/bin/addInternalData.pl", "addOligos.pl": "/usr/local/bin/addOligos.pl", "adjustPeakFile.pl": "/usr/local/bin/adjustPeakFile.pl", "adjustRedunGroupFile.pl": "/usr/local/bin/adjustRedunGroupFile.pl", "analyzeChIP-Seq.pl": "/usr/local/bin/analyzeChIP-Seq.pl", "analyzeHiC": "/usr/local/bin/analyzeHiC", "analyzeRNA.pl": "/usr/local/bin/analyzeRNA.pl", "analyzeRepeats.pl": "/usr/local/bin/analyzeRepeats.pl", "annotateInteractions.pl": "/usr/local/bin/annotateInteractions.pl", "annotatePeaks.pl": "/usr/local/bin/annotatePeaks.pl", "annotateRelativePosition.pl": "/usr/local/bin/annotateRelativePosition.pl", "annotateTranscripts.pl": "/usr/local/bin/annotateTranscripts.pl", "assignGeneWeights.pl": "/usr/local/bin/assignGeneWeights.pl", "assignGenomeAnnotation": "/usr/local/bin/assignGenomeAnnotation", "assignTSStoGene.pl": "/usr/local/bin/assignTSStoGene.pl", "batchAnnotatePeaksHistogram.pl": "/usr/local/bin/batchAnnotatePeaksHistogram.pl", "batchFindMotifs.pl": "/usr/local/bin/batchFindMotifs.pl", "batchFindMotifsGenome.pl": "/usr/local/bin/batchFindMotifsGenome.pl", "batchMakeHiCMatrix.pl": "/usr/local/bin/batchMakeHiCMatrix.pl", "batchMakeMultiWigHub.pl": "/usr/local/bin/batchMakeMultiWigHub.pl", "batchMakeTagDirectory.pl": "/usr/local/bin/batchMakeTagDirectory.pl", "batchParallel.pl": "/usr/local/bin/batchParallel.pl", "bed2DtoUCSCbed.pl": "/usr/local/bin/bed2DtoUCSCbed.pl", "bed2pos.pl": "/usr/local/bin/bed2pos.pl", "bed2tag.pl": "/usr/local/bin/bed2tag.pl", "bedToGenePred": "/usr/local/bin/bedToGenePred", "bigBedToBed": "/usr/local/bin/bigBedToBed", "blat2gtf.pl": "/usr/local/bin/blat2gtf.pl", "bridgeResult2Cytoscape.pl": "/usr/local/bin/bridgeResult2Cytoscape.pl", "changeNewLine.pl": "/usr/local/bin/changeNewLine.pl", "checkPeakFile.pl": "/usr/local/bin/checkPeakFile.pl", "checkTagBias.pl": "/usr/local/bin/checkTagBias.pl", "chopUpBackground.pl": "/usr/local/bin/chopUpBackground.pl", "chopUpPeakFile.pl": "/usr/local/bin/chopUpPeakFile.pl", "chopify.pl": "/usr/local/bin/chopify.pl", "cleanUpPeakFile.pl": "/usr/local/bin/cleanUpPeakFile.pl", "cleanUpSequences.pl": "/usr/local/bin/cleanUpSequences.pl", "cluster2bed.pl": "/usr/local/bin/cluster2bed.pl", "cluster2bedgraph.pl": "/usr/local/bin/cluster2bedgraph.pl", "combineGO.pl": "/usr/local/bin/combineGO.pl", "combineHubs.pl": "/usr/local/bin/combineHubs.pl", "combine_peaks": "/usr/local/bin/combine_peaks", "compareMotifs.pl": "/usr/local/bin/compareMotifs.pl", "condenseBedGraph.pl": "/usr/local/bin/condenseBedGraph.pl", "cons2fasta.pl": "/usr/local/bin/cons2fasta.pl", "conservationAverage.pl": "/usr/local/bin/conservationAverage.pl", "conservationPerLocus.pl": "/usr/local/bin/conservationPerLocus.pl", "convertCoordinates.pl": "/usr/local/bin/convertCoordinates.pl", "convertIDs.pl": "/usr/local/bin/convertIDs.pl", "convertOrganismID.pl": "/usr/local/bin/convertOrganismID.pl", "coverage_table": "/usr/local/bin/coverage_table", "createIGVhtml.pl": "/usr/local/bin/createIGVhtml.pl", "dinamo": "/usr/local/bin/dinamo", "dtc": "/usr/local/bin/dtc", "duplicateCol.pl": "/usr/local/bin/duplicateCol.pl", "eland2tags.pl": "/usr/local/bin/eland2tags.pl", "enr": "/usr/local/bin/enr", "fasta-from-bed": "/usr/local/bin/fasta-from-bed", "fasta2tab.pl": "/usr/local/bin/fasta2tab.pl", "fastq2fasta.pl": "/usr/local/bin/fastq2fasta.pl", "filterListBy.pl": "/usr/local/bin/filterListBy.pl", "filterTADsAndCPs.pl": "/usr/local/bin/filterTADsAndCPs.pl", "filterTADsAndLoops.pl": "/usr/local/bin/filterTADsAndLoops.pl", "filterTagDirectory.pl": "/usr/local/bin/filterTagDirectory.pl", "findGO.pl": "/usr/local/bin/findGO.pl", "findGOtxt.pl": "/usr/local/bin/findGOtxt.pl", "findHiCCompartments.pl": "/usr/local/bin/findHiCCompartments.pl", "findHiCDomains.pl": "/usr/local/bin/findHiCDomains.pl", "findHiCInteractionsByChr.pl": "/usr/local/bin/findHiCInteractionsByChr.pl", "findKnownMotifs.pl": "/usr/local/bin/findKnownMotifs.pl", "findMotifs.pl": "/usr/local/bin/findMotifs.pl", "findMotifsGenome.pl": "/usr/local/bin/findMotifsGenome.pl", "findPeaks": "/usr/local/bin/findPeaks", "findRedundantBLAT.pl": "/usr/local/bin/findRedundantBLAT.pl", "findTADsAndLoops.pl": "/usr/local/bin/findTADsAndLoops.pl", "findTADsAndLoopsFromRelMatrix": "/usr/local/bin/findTADsAndLoopsFromRelMatrix", "findTopMotifs.pl": "/usr/local/bin/findTopMotifs.pl", "findcsRNATSS.pl": "/usr/local/bin/findcsRNATSS.pl", "flipPC1toMatch.pl": "/usr/local/bin/flipPC1toMatch.pl", "fluff": "/usr/local/bin/fluff", "freq2group.pl": "/usr/local/bin/freq2group.pl", "gadem": "/usr/local/bin/gadem", "genericConvertIDs.pl": "/usr/local/bin/genericConvertIDs.pl", "genomeOntology": "/usr/local/bin/genomeOntology", "genomepy": "/usr/local/bin/genomepy", "getChrLengths.pl": "/usr/local/bin/getChrLengths.pl", "getConservedRegions.pl": "/usr/local/bin/getConservedRegions.pl", "getDiffExpression.pl": "/usr/local/bin/getDiffExpression.pl", "getDifferentialBedGraph.pl": "/usr/local/bin/getDifferentialBedGraph.pl", "getDifferentialPeaks": "/usr/local/bin/getDifferentialPeaks", "getDifferentialPeaksReplicates.pl": "/usr/local/bin/getDifferentialPeaksReplicates.pl", "getDistalPeaks.pl": "/usr/local/bin/getDistalPeaks.pl", "getFocalPeaks.pl": "/usr/local/bin/getFocalPeaks.pl", "getGWASoverlap.pl": "/usr/local/bin/getGWASoverlap.pl", "getGenesInCategory.pl": "/usr/local/bin/getGenesInCategory.pl", "getGenomeTilingPeaks": "/usr/local/bin/getGenomeTilingPeaks", "getHiCcorrDiff.pl": "/usr/local/bin/getHiCcorrDiff.pl", "getHomerQCstats.pl": "/usr/local/bin/getHomerQCstats.pl", "getLikelyAdapters.pl": "/usr/local/bin/getLikelyAdapters.pl", "getMappableRegions": "/usr/local/bin/getMappableRegions", "getMappingStats.pl": "/usr/local/bin/getMappingStats.pl", "getPartOfPromoter.pl": "/usr/local/bin/getPartOfPromoter.pl", "getPeakTags": "/usr/local/bin/getPeakTags", "getPos.pl": "/usr/local/bin/getPos.pl", "getRandomReads.pl": "/usr/local/bin/getRandomReads.pl", "getSiteConservation.pl": "/usr/local/bin/getSiteConservation.pl", "getTopPeaks.pl": "/usr/local/bin/getTopPeaks.pl", "gff2pos.pl": "/usr/local/bin/gff2pos.pl", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gimme": "/usr/local/bin/gimme", "go2cytoscape.pl": "/usr/local/bin/go2cytoscape.pl", "groupSequences.pl": "/usr/local/bin/groupSequences.pl", "homer": "/usr/local/bin/homer", "homer2": "/usr/local/bin/homer2", "homerTools": "/usr/local/bin/homerTools", "htseq-count-barcodes": "/usr/local/bin/htseq-count-barcodes", "index-fasta-file": "/usr/local/bin/index-fasta-file", "joinFiles.pl": "/usr/local/bin/joinFiles.pl", "loadGenome.pl": "/usr/local/bin/loadGenome.pl", "loadPromoters.pl": "/usr/local/bin/loadPromoters.pl", "makeBigBedMotifTrack.pl": "/usr/local/bin/makeBigBedMotifTrack.pl", "makeBigWig.pl": "/usr/local/bin/makeBigWig.pl", "makeBinaryFile.pl": "/usr/local/bin/makeBinaryFile.pl", "makeHiCWashUfile.pl": "/usr/local/bin/makeHiCWashUfile.pl", "makeMetaGeneProfile.pl": "/usr/local/bin/makeMetaGeneProfile.pl", "makeMultiWigHub.pl": "/usr/local/bin/makeMultiWigHub.pl", "makeTagDirectory": "/usr/local/bin/makeTagDirectory", "makeUCSCfile": "/usr/local/bin/makeUCSCfile", "map-fastq.pl": "/usr/local/bin/map-fastq.pl", "merge2Dbed.pl": "/usr/local/bin/merge2Dbed.pl", "mergeData.pl": "/usr/local/bin/mergeData.pl", "mergePeaks": "/usr/local/bin/mergePeaks", "motif2Jaspar.pl": "/usr/local/bin/motif2Jaspar.pl", "motif2Logo.pl": "/usr/local/bin/motif2Logo.pl", "parseGTF.pl": "/usr/local/bin/parseGTF.pl", "pos2bed.pl": "/usr/local/bin/pos2bed.pl", "prepForR.pl": "/usr/local/bin/prepForR.pl", "preparseGenome.pl": "/usr/local/bin/preparseGenome.pl", "profile2seq.pl": "/usr/local/bin/profile2seq.pl", "qnorm": "/usr/local/bin/qnorm", "qseq2fastq.pl": "/usr/local/bin/qseq2fastq.pl", "randRemoveBackground.pl": "/usr/local/bin/randRemoveBackground.pl", "randomizeGroupFile.pl": "/usr/local/bin/randomizeGroupFile.pl", "randomizeMotifs.pl": "/usr/local/bin/randomizeMotifs.pl", "removeAccVersion.pl": "/usr/local/bin/removeAccVersion.pl", "removeBadSeq.pl": "/usr/local/bin/removeBadSeq.pl", "removeOutOfBoundsReads.pl": "/usr/local/bin/removeOutOfBoundsReads.pl", "removePoorSeq.pl": "/usr/local/bin/removePoorSeq.pl", "removeRedundantPeaks.pl": "/usr/local/bin/removeRedundantPeaks.pl", "renamePeaks.pl": "/usr/local/bin/renamePeaks.pl", "resizePosFile.pl": "/usr/local/bin/resizePosFile.pl", "revoppMotif.pl": "/usr/local/bin/revoppMotif.pl", "rotateHiCmatrix.pl": "/usr/local/bin/rotateHiCmatrix.pl", "runHiCpca.pl": "/usr/local/bin/runHiCpca.pl", "sam2spliceJunc.pl": "/usr/local/bin/sam2spliceJunc.pl", "scanMotifGenomeWide.pl": "/usr/local/bin/scanMotifGenomeWide.pl", "scepia": "/usr/local/bin/scepia", "scrambleFasta.pl": "/usr/local/bin/scrambleFasta.pl", "selectRepeatBg.pl": "/usr/local/bin/selectRepeatBg.pl", "seq2profile.pl": "/usr/local/bin/seq2profile.pl", "streme": "/usr/local/bin/streme", "streme_xml_to_html": "/usr/local/bin/streme_xml_to_html", "subtractBedGraphs.pl": "/usr/local/bin/subtractBedGraphs.pl", "subtractBedGraphsDirectory.pl": "/usr/local/bin/subtractBedGraphsDirectory.pl", "tab2fasta.pl": "/usr/local/bin/tab2fasta.pl", "tag2bed.pl": "/usr/local/bin/tag2bed.pl", "tag2pos.pl": "/usr/local/bin/tag2pos.pl", "tagDir2HiCsummary.pl": "/usr/local/bin/tagDir2HiCsummary.pl", "tagDir2bed.pl": "/usr/local/bin/tagDir2bed.pl", "tagDir2hicFile.pl": "/usr/local/bin/tagDir2hicFile.pl", "tgene": "/usr/local/bin/tgene", "trawler": "/usr/local/bin/trawler", "weeder2": "/usr/local/bin/weeder2", "zipHomerResults.pl": "/usr/local/bin/zipHomerResults.pl", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "annotateBed": "/usr/local/bin/annotateBed", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bamToBed": "/usr/local/bin/bamToBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scepia.
@@ -279,15 +288,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .trawler-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.trawler-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.trawler-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.trawler-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1944,6 +1944,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/weeder2   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/zipHomerResults.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/zipHomerResults.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/zipHomerResults.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_profile.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alphtype
+
+```bash
+$ singularity exec <container> /usr/local/bin/alphtype
+$ podman run --it --rm --entrypoint /usr/local/bin/alphtype   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alphtype   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ama
+
+```bash
+$ singularity exec <container> /usr/local/bin/ama
+$ podman run --it --rm --entrypoint /usr/local/bin/ama   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ama   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ama-qvalues
+
+```bash
+$ singularity exec <container> /usr/local/bin/ama-qvalues
+$ podman run --it --rm --entrypoint /usr/local/bin/ama-qvalues   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ama-qvalues   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ame
+
+```bash
+$ singularity exec <container> /usr/local/bin/ame
+$ podman run --it --rm --entrypoint /usr/local/bin/ame   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ame   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

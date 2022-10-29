@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cannoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cannoli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cannoli/container.yaml"
-updated_at: "2022-10-27 00:33:07.562418"
+updated_at: "2022-10-29 05:49:38.897772"
 latest: "1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cannoli"
 aliases:
@@ -41,10 +41,20 @@ aliases:
  - "sparkR"
  - "sparkR.cmd"
  - "sparkR2.cmd"
+ - "2to3-3.10"
+ - "aserver"
+ - "csv-import"
+ - "cups-config"
+ - "f2py3.10"
+ - "gflags_completions.sh"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
 versions:
  - "1.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for cannoli"
-config: {"url": "https://biocontainers.pro/tools/cannoli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cannoli", "latest": {"1.0--hdfd78af_0": "sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5"}, "tags": {"1.0--hdfd78af_0": "sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5"}, "docker": "quay.io/biocontainers/cannoli", "aliases": {"beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "cannoli-shell": "/usr/local/bin/cannoli-shell", "cannoli-submit": "/usr/local/bin/cannoli-submit", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd"}}
+config: {"url": "https://biocontainers.pro/tools/cannoli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cannoli", "latest": {"1.0--hdfd78af_0": "sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5"}, "tags": {"1.0--hdfd78af_0": "sha256:09c9ddeff4b684b00751bd6449848d940e18312522d2db721d40c61685919cf5"}, "docker": "quay.io/biocontainers/cannoli", "aliases": {"beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "cannoli-shell": "/usr/local/bin/cannoli-shell", "cannoli-submit": "/usr/local/bin/cannoli-submit", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd", "2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "csv-import": "/usr/local/bin/csv-import", "cups-config": "/usr/local/bin/cups-config", "f2py3.10": "/usr/local/bin/f2py3.10", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cannoli.
@@ -424,6 +434,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sparkR.cmd   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/sparkR2.cmd
 $ podman run --it --rm --entrypoint /usr/local/bin/sparkR2.cmd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sparkR2.cmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csv-import
+
+```bash
+$ singularity exec <container> /usr/local/bin/csv-import
+$ podman run --it --rm --entrypoint /usr/local/bin/csv-import   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv-import   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cups-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/cups-config
+$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gflags_completions.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/gflags_completions.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

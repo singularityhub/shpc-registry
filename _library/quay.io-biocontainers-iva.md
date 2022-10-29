@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/iva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iva/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/iva/container.yaml"
-updated_at: "2022-10-27 00:20:28.951248"
+updated_at: "2022-10-29 05:32:53.646352"
 latest: "1.0.9--py_2"
 container_url: "https://biocontainers.pro/tools/iva"
 aliases:
@@ -21,10 +21,20 @@ aliases:
  - "splitmates"
  - "splitreads"
  - "trunkreads"
+ - "2to3-3.7"
+ - "ace2sam"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "combineMUMs"
+ - "delta-filter"
+ - "dnadiff"
+ - "exact-tandems"
+ - "export2sam.pl"
 versions:
  - "1.0.9--py_2"
 description: "shpc-registry automated BioContainers addition for iva"
-config: {"url": "https://biocontainers.pro/tools/iva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iva", "latest": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "tags": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "docker": "quay.io/biocontainers/iva", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "iva": "/usr/local/bin/iva", "iva_qc": "/usr/local/bin/iva_qc", "iva_qc_make_db": "/usr/local/bin/iva_qc_make_db", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads"}}
+config: {"url": "https://biocontainers.pro/tools/iva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iva", "latest": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "tags": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "docker": "quay.io/biocontainers/iva", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "iva": "/usr/local/bin/iva", "iva_qc": "/usr/local/bin/iva_qc", "iva_qc_make_db": "/usr/local/bin/iva_qc_make_db", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iva.
@@ -224,6 +234,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/splitreads   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/trunkreads
 $ podman run --it --rm --entrypoint /usr/local/bin/trunkreads   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/trunkreads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### combineMUMs
+
+```bash
+$ singularity exec <container> /usr/local/bin/combineMUMs
+$ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### delta-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/delta-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dnadiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/dnadiff
+$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### exact-tandems
+
+```bash
+$ singularity exec <container> /usr/local/bin/exact-tandems
+$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

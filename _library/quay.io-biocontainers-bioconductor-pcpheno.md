@@ -4,16 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-pcpheno"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcpheno/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcpheno/container.yaml"
-updated_at: "2022-10-27 00:23:58.022648"
+updated_at: "2022-10-29 05:37:31.786733"
 latest: "1.50.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcpheno"
 aliases:
- - ".bioconductor-ppidata-post-link.sh"
- - ".bioconductor-ppidata-pre-unlink.sh"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.50.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcpheno"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcpheno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcpheno", "latest": {"1.50.0--r40_0": "sha256:d89ab4509e1e38039f1041f5bd282a873ba5f23ae4c44a343269316c81652833"}, "tags": {"1.50.0--r40_0": "sha256:d89ab4509e1e38039f1041f5bd282a873ba5f23ae4c44a343269316c81652833"}, "docker": "quay.io/biocontainers/bioconductor-pcpheno", "aliases": {".bioconductor-ppidata-post-link.sh": "/usr/local/bin/.bioconductor-ppidata-post-link.sh", ".bioconductor-ppidata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ppidata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcpheno", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcpheno", "latest": {"1.50.0--r40_0": "sha256:d89ab4509e1e38039f1041f5bd282a873ba5f23ae4c44a343269316c81652833"}, "tags": {"1.50.0--r40_0": "sha256:d89ab4509e1e38039f1041f5bd282a873ba5f23ae4c44a343269316c81652833"}, "docker": "quay.io/biocontainers/bioconductor-pcpheno", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcpheno.
@@ -99,21 +102,48 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-ppidata-post-link.sh
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ppidata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ppidata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ppidata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-ppidata-pre-unlink.sh
+#### idle3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ppidata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ppidata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ppidata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

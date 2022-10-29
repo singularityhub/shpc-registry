@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/fgwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgwas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fgwas/container.yaml"
-updated_at: "2022-10-27 00:23:43.973706"
+updated_at: "2022-10-29 05:37:13.907411"
 latest: "0.3.6--heafd8fd_5"
 container_url: "https://biocontainers.pro/tools/fgwas"
 aliases:
  - "fgwas"
+ - "test"
 versions:
  - "0.3.6--heafd8fd_5"
 description: "shpc-registry automated BioContainers addition for fgwas"
-config: {"url": "https://biocontainers.pro/tools/fgwas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgwas", "latest": {"0.3.6--heafd8fd_5": "sha256:912312c92a31d147493dc1977ccd48d229a9acc493b347a5029d1fa7a41c28cb"}, "tags": {"0.3.6--heafd8fd_5": "sha256:912312c92a31d147493dc1977ccd48d229a9acc493b347a5029d1fa7a41c28cb"}, "docker": "quay.io/biocontainers/fgwas", "aliases": {"fgwas": "/usr/local/bin/fgwas"}}
+config: {"url": "https://biocontainers.pro/tools/fgwas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgwas", "latest": {"0.3.6--heafd8fd_5": "sha256:912312c92a31d147493dc1977ccd48d229a9acc493b347a5029d1fa7a41c28cb"}, "tags": {"0.3.6--heafd8fd_5": "sha256:912312c92a31d147493dc1977ccd48d229a9acc493b347a5029d1fa7a41c28cb"}, "docker": "quay.io/biocontainers/fgwas", "aliases": {"fgwas": "/usr/local/bin/fgwas", "test": "/usr/local/bin/test"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgwas.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/fgwas
 $ podman run --it --rm --entrypoint /usr/local/bin/fgwas   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fgwas   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### test
+
+```bash
+$ singularity exec <container> /usr/local/bin/test
+$ podman run --it --rm --entrypoint /usr/local/bin/test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/test   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

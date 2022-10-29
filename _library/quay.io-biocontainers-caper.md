@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/caper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/caper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/caper/container.yaml"
-updated_at: "2022-10-27 00:29:35.713439"
+updated_at: "2022-10-29 05:44:57.856333"
 latest: "1.1.0--py_0"
 container_url: "https://biocontainers.pro/tools/caper"
 aliases:
@@ -21,10 +21,20 @@ aliases:
  - "pyhocon"
  - "run_mysql_server_docker.sh"
  - "run_mysql_server_singularity.sh"
+ - "2to3-3.8"
+ - "activate-global-python-argcomplete"
+ - "chardetect"
+ - "coloredlogs"
+ - "humanfriendly"
+ - "idle3.8"
+ - "jp.py"
+ - "protoc"
+ - "py.test"
+ - "pydoc3.8"
 versions:
  - "1.1.0--py_0"
 description: "shpc-registry automated BioContainers addition for caper"
-config: {"url": "https://biocontainers.pro/tools/caper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for caper", "latest": {"1.1.0--py_0": "sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67"}, "tags": {"1.1.0--py_0": "sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67"}, "docker": "quay.io/biocontainers/caper", "aliases": {"autouri": "/usr/local/bin/autouri", "aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "caper": "/usr/local/bin/caper", "create_instance.sh": "/usr/local/bin/create_instance.sh", "miniwdl": "/usr/local/bin/miniwdl", "pygtail": "/usr/local/bin/pygtail", "pyhocon": "/usr/local/bin/pyhocon", "run_mysql_server_docker.sh": "/usr/local/bin/run_mysql_server_docker.sh", "run_mysql_server_singularity.sh": "/usr/local/bin/run_mysql_server_singularity.sh"}}
+config: {"url": "https://biocontainers.pro/tools/caper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for caper", "latest": {"1.1.0--py_0": "sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67"}, "tags": {"1.1.0--py_0": "sha256:92f482ea771f9a097030d21dea4ed9720400cea5b4d56b5d0c37e23477e55a67"}, "docker": "quay.io/biocontainers/caper", "aliases": {"autouri": "/usr/local/bin/autouri", "aws": "/usr/local/bin/aws", "aws.cmd": "/usr/local/bin/aws.cmd", "aws_bash_completer": "/usr/local/bin/aws_bash_completer", "aws_completer": "/usr/local/bin/aws_completer", "aws_zsh_completer.sh": "/usr/local/bin/aws_zsh_completer.sh", "caper": "/usr/local/bin/caper", "create_instance.sh": "/usr/local/bin/create_instance.sh", "miniwdl": "/usr/local/bin/miniwdl", "pygtail": "/usr/local/bin/pygtail", "pyhocon": "/usr/local/bin/pyhocon", "run_mysql_server_docker.sh": "/usr/local/bin/run_mysql_server_docker.sh", "run_mysql_server_singularity.sh": "/usr/local/bin/run_mysql_server_singularity.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "chardetect": "/usr/local/bin/chardetect", "coloredlogs": "/usr/local/bin/coloredlogs", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.8": "/usr/local/bin/idle3.8", "jp.py": "/usr/local/bin/jp.py", "protoc": "/usr/local/bin/protoc", "py.test": "/usr/local/bin/py.test", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/caper.
@@ -224,6 +234,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run_mysql_server_docker.sh   
 $ singularity exec <container> /usr/local/bin/run_mysql_server_singularity.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/run_mysql_server_singularity.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/run_mysql_server_singularity.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### activate-global-python-argcomplete
+
+```bash
+$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coloredlogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### humanfriendly
+
+```bash
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jp.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/jp.py
+$ podman run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jp.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### protoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/protoc
+$ podman run --it --rm --entrypoint /usr/local/bin/protoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/protoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### py.test
+
+```bash
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

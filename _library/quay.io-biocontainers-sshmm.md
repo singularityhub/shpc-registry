@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sshmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sshmm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sshmm/container.yaml"
-updated_at: "2022-10-27 00:18:35.838924"
+updated_at: "2022-10-29 05:30:25.652147"
 latest: "1.0.7--py27he4fc25b_4"
 container_url: "https://biocontainers.pro/tools/sshmm"
 aliases:
@@ -81,10 +81,20 @@ aliases:
  - "train_seqstructhmm"
  - "validate"
  - "visualize_rna.py"
+ - "acyclic"
+ - "annotateBed"
+ - "assistant"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bcomps"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
 versions:
  - "1.0.7--py27he4fc25b_4"
 description: "shpc-registry automated BioContainers addition for sshmm"
-config: {"url": "https://biocontainers.pro/tools/sshmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sshmm", "latest": {"1.0.7--py27he4fc25b_4": "sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1"}, "tags": {"1.0.7--py27he4fc25b_4": "sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1"}, "docker": "quay.io/biocontainers/sshmm", "aliases": {"AccessFold": "/usr/local/bin/AccessFold", "AllSub": "/usr/local/bin/AllSub", "CircleCompare": "/usr/local/bin/CircleCompare", "CycleFold": "/usr/local/bin/CycleFold", "DuplexFold": "/usr/local/bin/DuplexFold", "DuplexFold-smp": "/usr/local/bin/DuplexFold-smp", "DynalignDotPlot": "/usr/local/bin/DynalignDotPlot", "EDcalculator": "/usr/local/bin/EDcalculator", "EDcalculator-smp": "/usr/local/bin/EDcalculator-smp", "EnergyPlot": "/usr/local/bin/EnergyPlot", "EnsembleEnergy": "/usr/local/bin/EnsembleEnergy", "Fold": "/usr/local/bin/Fold", "Fold-smp": "/usr/local/bin/Fold-smp", "MaxExpect": "/usr/local/bin/MaxExpect", "MaxExpect-smp": "/usr/local/bin/MaxExpect-smp", "NAPSS": "/usr/local/bin/NAPSS", "OligoWalk": "/usr/local/bin/OligoWalk", "PARTS": "/usr/local/bin/PARTS", "ProbKnot": "/usr/local/bin/ProbKnot", "ProbKnot-smp": "/usr/local/bin/ProbKnot-smp", "ProbScan": "/usr/local/bin/ProbScan", "ProbabilityPlot": "/usr/local/bin/ProbabilityPlot", "ProbablePair": "/usr/local/bin/ProbablePair", "ProbablePair-smp": "/usr/local/bin/ProbablePair-smp", "RNAshapes": "/usr/local/bin/RNAshapes", "RemovePseudoknots": "/usr/local/bin/RemovePseudoknots", "RemovePseudoknots-smp": "/usr/local/bin/RemovePseudoknots-smp", "Rsample": "/usr/local/bin/Rsample", "Rsample-smp": "/usr/local/bin/Rsample-smp", "ShapeKnots": "/usr/local/bin/ShapeKnots", "ShapeKnots-smp": "/usr/local/bin/ShapeKnots-smp", "TurboFold": "/usr/local/bin/TurboFold", "TurboFold-smp": "/usr/local/bin/TurboFold-smp", "batch_seqstructhmm": "/usr/local/bin/batch_seqstructhmm", "bifold": "/usr/local/bin/bifold", "bifold-smp": "/usr/local/bin/bifold-smp", "bipartition": "/usr/local/bin/bipartition", "bipartition-smp": "/usr/local/bin/bipartition-smp", "compare_RNA.py": "/usr/local/bin/compare_RNA.py", "ct2dot": "/usr/local/bin/ct2dot", "describe_cg.py": "/usr/local/bin/describe_cg.py", "design": "/usr/local/bin/design", "dot2ct": "/usr/local/bin/dot2ct", "draw": "/usr/local/bin/draw", "draw_model_graph": "/usr/local/bin/draw_model_graph", "dynalign": "/usr/local/bin/dynalign", "dynalign-smp": "/usr/local/bin/dynalign-smp", "dynalign_ii": "/usr/local/bin/dynalign_ii", "dynalign_ii-smp": "/usr/local/bin/dynalign_ii-smp", "efn2": "/usr/local/bin/efn2", "efn2-smp": "/usr/local/bin/efn2-smp", "forgi_config.py": "/usr/local/bin/forgi_config.py", "ghmm-config": "/usr/local/bin/ghmm-config", "multilign": "/usr/local/bin/multilign", "multilign-smp": "/usr/local/bin/multilign-smp", "oligoscreen": "/usr/local/bin/oligoscreen", "oligoscreen-smp": "/usr/local/bin/oligoscreen-smp", "partition": "/usr/local/bin/partition", "partition-smp": "/usr/local/bin/partition-smp", "phmm": "/usr/local/bin/phmm", "preprocess_dataset": "/usr/local/bin/preprocess_dataset", "probdist": "/usr/local/bin/probdist", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "refold": "/usr/local/bin/refold", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "scluster": "/usr/local/bin/scluster", "scorer": "/usr/local/bin/scorer", "smix_hmm": "/usr/local/bin/smix_hmm", "stochastic": "/usr/local/bin/stochastic", "stochastic-smp": "/usr/local/bin/stochastic-smp", "train_seqstructhmm": "/usr/local/bin/train_seqstructhmm", "validate": "/usr/local/bin/validate", "visualize_rna.py": "/usr/local/bin/visualize_rna.py"}}
+config: {"url": "https://biocontainers.pro/tools/sshmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sshmm", "latest": {"1.0.7--py27he4fc25b_4": "sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1"}, "tags": {"1.0.7--py27he4fc25b_4": "sha256:cb0885bc94d7298503d16ba646ab116a3ad10068fac32f14c35c60b0e3cc7ac1"}, "docker": "quay.io/biocontainers/sshmm", "aliases": {"AccessFold": "/usr/local/bin/AccessFold", "AllSub": "/usr/local/bin/AllSub", "CircleCompare": "/usr/local/bin/CircleCompare", "CycleFold": "/usr/local/bin/CycleFold", "DuplexFold": "/usr/local/bin/DuplexFold", "DuplexFold-smp": "/usr/local/bin/DuplexFold-smp", "DynalignDotPlot": "/usr/local/bin/DynalignDotPlot", "EDcalculator": "/usr/local/bin/EDcalculator", "EDcalculator-smp": "/usr/local/bin/EDcalculator-smp", "EnergyPlot": "/usr/local/bin/EnergyPlot", "EnsembleEnergy": "/usr/local/bin/EnsembleEnergy", "Fold": "/usr/local/bin/Fold", "Fold-smp": "/usr/local/bin/Fold-smp", "MaxExpect": "/usr/local/bin/MaxExpect", "MaxExpect-smp": "/usr/local/bin/MaxExpect-smp", "NAPSS": "/usr/local/bin/NAPSS", "OligoWalk": "/usr/local/bin/OligoWalk", "PARTS": "/usr/local/bin/PARTS", "ProbKnot": "/usr/local/bin/ProbKnot", "ProbKnot-smp": "/usr/local/bin/ProbKnot-smp", "ProbScan": "/usr/local/bin/ProbScan", "ProbabilityPlot": "/usr/local/bin/ProbabilityPlot", "ProbablePair": "/usr/local/bin/ProbablePair", "ProbablePair-smp": "/usr/local/bin/ProbablePair-smp", "RNAshapes": "/usr/local/bin/RNAshapes", "RemovePseudoknots": "/usr/local/bin/RemovePseudoknots", "RemovePseudoknots-smp": "/usr/local/bin/RemovePseudoknots-smp", "Rsample": "/usr/local/bin/Rsample", "Rsample-smp": "/usr/local/bin/Rsample-smp", "ShapeKnots": "/usr/local/bin/ShapeKnots", "ShapeKnots-smp": "/usr/local/bin/ShapeKnots-smp", "TurboFold": "/usr/local/bin/TurboFold", "TurboFold-smp": "/usr/local/bin/TurboFold-smp", "batch_seqstructhmm": "/usr/local/bin/batch_seqstructhmm", "bifold": "/usr/local/bin/bifold", "bifold-smp": "/usr/local/bin/bifold-smp", "bipartition": "/usr/local/bin/bipartition", "bipartition-smp": "/usr/local/bin/bipartition-smp", "compare_RNA.py": "/usr/local/bin/compare_RNA.py", "ct2dot": "/usr/local/bin/ct2dot", "describe_cg.py": "/usr/local/bin/describe_cg.py", "design": "/usr/local/bin/design", "dot2ct": "/usr/local/bin/dot2ct", "draw": "/usr/local/bin/draw", "draw_model_graph": "/usr/local/bin/draw_model_graph", "dynalign": "/usr/local/bin/dynalign", "dynalign-smp": "/usr/local/bin/dynalign-smp", "dynalign_ii": "/usr/local/bin/dynalign_ii", "dynalign_ii-smp": "/usr/local/bin/dynalign_ii-smp", "efn2": "/usr/local/bin/efn2", "efn2-smp": "/usr/local/bin/efn2-smp", "forgi_config.py": "/usr/local/bin/forgi_config.py", "ghmm-config": "/usr/local/bin/ghmm-config", "multilign": "/usr/local/bin/multilign", "multilign-smp": "/usr/local/bin/multilign-smp", "oligoscreen": "/usr/local/bin/oligoscreen", "oligoscreen-smp": "/usr/local/bin/oligoscreen-smp", "partition": "/usr/local/bin/partition", "partition-smp": "/usr/local/bin/partition-smp", "phmm": "/usr/local/bin/phmm", "preprocess_dataset": "/usr/local/bin/preprocess_dataset", "probdist": "/usr/local/bin/probdist", "pseudoknot_analyzer.py": "/usr/local/bin/pseudoknot_analyzer.py", "refold": "/usr/local/bin/refold", "rnaConvert.py": "/usr/local/bin/rnaConvert.py", "scluster": "/usr/local/bin/scluster", "scorer": "/usr/local/bin/scorer", "smix_hmm": "/usr/local/bin/smix_hmm", "stochastic": "/usr/local/bin/stochastic", "stochastic-smp": "/usr/local/bin/stochastic-smp", "train_seqstructhmm": "/usr/local/bin/train_seqstructhmm", "validate": "/usr/local/bin/validate", "visualize_rna.py": "/usr/local/bin/visualize_rna.py", "acyclic": "/usr/local/bin/acyclic", "annotateBed": "/usr/local/bin/annotateBed", "assistant": "/usr/local/bin/assistant", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bcomps": "/usr/local/bin/bcomps", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sshmm.
@@ -824,6 +834,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/validate   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/visualize_rna.py
 $ podman run --it --rm --entrypoint /usr/local/bin/visualize_rna.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/visualize_rna.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

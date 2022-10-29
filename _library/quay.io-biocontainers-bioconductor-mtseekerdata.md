@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mtseekerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mtseekerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mtseekerdata/container.yaml"
-updated_at: "2022-10-27 00:28:14.828486"
+updated_at: "2022-10-29 05:43:12.331758"
 latest: "1.2.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mtseekerdata"
 aliases:
- - ".bioconductor-mtseekerdata-post-link.sh"
- - ".bioconductor-mtseekerdata-pre-unlink.sh"
+ - "c89"
+ - "c99"
+ - "gio-launch-desktop"
 versions:
  - "1.2.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mtseekerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mtseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mtseekerdata", "latest": {"1.2.0--r36_1": "sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131"}, "tags": {"1.2.0--r36_1": "sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131"}, "docker": "quay.io/biocontainers/bioconductor-mtseekerdata", "aliases": {".bioconductor-mtseekerdata-post-link.sh": "/usr/local/bin/.bioconductor-mtseekerdata-post-link.sh", ".bioconductor-mtseekerdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mtseekerdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mtseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mtseekerdata", "latest": {"1.2.0--r36_1": "sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131"}, "tags": {"1.2.0--r36_1": "sha256:73433d39eefb0b020097a69f7063a802c96c29566303daf148795b4923b14131"}, "docker": "quay.io/biocontainers/bioconductor-mtseekerdata", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mtseekerdata.
@@ -99,21 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-mtseekerdata-post-link.sh
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mtseekerdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mtseekerdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mtseekerdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-mtseekerdata-pre-unlink.sh
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mtseekerdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mtseekerdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mtseekerdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

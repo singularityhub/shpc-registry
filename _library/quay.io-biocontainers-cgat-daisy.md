@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/cgat-daisy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-daisy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-daisy/container.yaml"
-updated_at: "2022-10-27 00:25:04.523670"
+updated_at: "2022-10-29 05:38:58.641425"
 latest: "0.1.9--pyh5e36f6f_2"
 container_url: "https://biocontainers.pro/tools/cgat-daisy"
 aliases:
  - "daisy"
+ - "2to3-3.9"
+ - "b2sum"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "basenc"
+ - "bq"
+ - "cat"
+ - "chcon"
+ - "chgrp"
 versions:
  - "0.1.9--pyh5e36f6f_2"
 description: "shpc-registry automated BioContainers addition for cgat-daisy"
-config: {"url": "https://biocontainers.pro/tools/cgat-daisy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-daisy", "latest": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "tags": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "docker": "quay.io/biocontainers/cgat-daisy", "aliases": {"daisy": "/usr/local/bin/daisy"}}
+config: {"url": "https://biocontainers.pro/tools/cgat-daisy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cgat-daisy", "latest": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "tags": {"0.1.9--pyh5e36f6f_2": "sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281"}, "docker": "quay.io/biocontainers/cgat-daisy", "aliases": {"daisy": "/usr/local/bin/daisy", "2to3-3.9": "/usr/local/bin/2to3-3.9", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bq": "/usr/local/bin/bq", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cgat-daisy.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/daisy
 $ podman run --it --rm --entrypoint /usr/local/bin/daisy   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/daisy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bq
+$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cat
+
+```bash
+$ singularity exec <container> /usr/local/bin/cat
+$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chcon
+
+```bash
+$ singularity exec <container> /usr/local/bin/chcon
+$ podman run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chgrp
+
+```bash
+$ singularity exec <container> /usr/local/bin/chgrp
+$ podman run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

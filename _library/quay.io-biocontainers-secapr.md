@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/secapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/secapr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/secapr/container.yaml"
-updated_at: "2022-10-27 00:40:31.814609"
+updated_at: "2022-10-29 05:59:25.922372"
 latest: "2.2.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/secapr"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "ucx_info"
  - "ucx_perftest"
  - "ucx_read_profile"
+ - "2to3-3.8"
+ - "ABYSS"
+ - "ABYSS-P"
+ - "AdjList"
+ - "Consensus"
+ - "DAssembler"
+ - "DistanceEst"
+ - "DistanceEst-ssq"
+ - "KAligner"
+ - "MergeContigs"
 versions:
  - "2.2.8--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for secapr"
-config: {"url": "https://biocontainers.pro/tools/secapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for secapr", "latest": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "tags": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "docker": "quay.io/biocontainers/secapr", "aliases": {"abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "io_demo": "/usr/local/bin/io_demo", "secapr": "/usr/local/bin/secapr", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile"}}
+config: {"url": "https://biocontainers.pro/tools/secapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for secapr", "latest": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "tags": {"2.2.8--pyh5e36f6f_0": "sha256:26ee9b0ae61a1936a376569ced1d19e1af109ea45a813095a26ba04d794f9226"}, "docker": "quay.io/biocontainers/secapr", "aliases": {"abyss-rresolver-short": "/usr/local/bin/abyss-rresolver-short", "io_demo": "/usr/local/bin/io_demo", "secapr": "/usr/local/bin/secapr", "ucx_info": "/usr/local/bin/ucx_info", "ucx_perftest": "/usr/local/bin/ucx_perftest", "ucx_read_profile": "/usr/local/bin/ucx_read_profile", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus", "DAssembler": "/usr/local/bin/DAssembler", "DistanceEst": "/usr/local/bin/DistanceEst", "DistanceEst-ssq": "/usr/local/bin/DistanceEst-ssq", "KAligner": "/usr/local/bin/KAligner", "MergeContigs": "/usr/local/bin/MergeContigs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/secapr.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ucx_perftest   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/ucx_read_profile
 $ podman run --it --rm --entrypoint /usr/local/bin/ucx_read_profile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ucx_read_profile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ABYSS
+
+```bash
+$ singularity exec <container> /usr/local/bin/ABYSS
+$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ABYSS-P
+
+```bash
+$ singularity exec <container> /usr/local/bin/ABYSS-P
+$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AdjList
+
+```bash
+$ singularity exec <container> /usr/local/bin/AdjList
+$ podman run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Consensus
+
+```bash
+$ singularity exec <container> /usr/local/bin/Consensus
+$ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DAssembler
+
+```bash
+$ singularity exec <container> /usr/local/bin/DAssembler
+$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DistanceEst
+
+```bash
+$ singularity exec <container> /usr/local/bin/DistanceEst
+$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DistanceEst-ssq
+
+```bash
+$ singularity exec <container> /usr/local/bin/DistanceEst-ssq
+$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### KAligner
+
+```bash
+$ singularity exec <container> /usr/local/bin/KAligner
+$ podman run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MergeContigs
+
+```bash
+$ singularity exec <container> /usr/local/bin/MergeContigs
+$ podman run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

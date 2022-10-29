@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy-data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-data/container.yaml"
-updated_at: "2022-10-27 00:29:36.973228"
+updated_at: "2022-10-29 05:44:59.479372"
 latest: "22.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/galaxy-data"
 aliases:
@@ -30,10 +30,20 @@ aliases:
  - "migrate"
  - "migrate-repository"
  - "sqlformat"
+ - "2to3-3.9"
+ - "aggregate_scores_in_intervals.py"
+ - "align_print_template.py"
+ - "axt_extract_ranges.py"
+ - "axt_to_fasta.py"
+ - "axt_to_lav.py"
+ - "axt_to_maf.py"
+ - "bagit.py"
+ - "bed_bigwig_profile.py"
+ - "bed_build_windows.py"
 versions:
  - "22.1.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for galaxy-data"
-config: {"url": "https://biocontainers.pro/tools/galaxy-data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-data", "latest": {"22.1.1--pyhdfd78af_0": "sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7"}, "docker": "quay.io/biocontainers/galaxy-data", "aliases": {"bagit_profile.py": "/usr/local/bin/bagit_profile.py", "bdbag": "/usr/local/bin/bdbag", "bdbag-utils": "/usr/local/bin/bdbag-utils", "galaxy-build-objects": "/usr/local/bin/galaxy-build-objects", "galaxy-manage-db": "/usr/local/bin/galaxy-manage-db", "gx-fastq-combiner": "/usr/local/bin/gx-fastq-combiner", "gx-fastq-filter": "/usr/local/bin/gx-fastq-filter", "gx-fastq-groomer": "/usr/local/bin/gx-fastq-groomer", "gx-fastq-manipulation": "/usr/local/bin/gx-fastq-manipulation", "gx-fastq-masker-by-quality": "/usr/local/bin/gx-fastq-masker-by-quality", "gx-fastq-paired-end-deinterlacer": "/usr/local/bin/gx-fastq-paired-end-deinterlacer", "gx-fastq-paired-end-interlacer": "/usr/local/bin/gx-fastq-paired-end-interlacer", "gx-fastq-paired-end-joiner": "/usr/local/bin/gx-fastq-paired-end-joiner", "gx-fastq-paired-end-splitter": "/usr/local/bin/gx-fastq-paired-end-splitter", "gx-fastq-stats": "/usr/local/bin/gx-fastq-stats", "gx-fastq-to-fasta": "/usr/local/bin/gx-fastq-to-fasta", "gx-fastq-to-tabular": "/usr/local/bin/gx-fastq-to-tabular", "gx-fastq-trimmer": "/usr/local/bin/gx-fastq-trimmer", "gx-fastq-trimmer-by-quality": "/usr/local/bin/gx-fastq-trimmer-by-quality", "migrate": "/usr/local/bin/migrate", "migrate-repository": "/usr/local/bin/migrate-repository", "sqlformat": "/usr/local/bin/sqlformat"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-data", "latest": {"22.1.1--pyhdfd78af_0": "sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7"}, "tags": {"22.1.1--pyhdfd78af_0": "sha256:0493f9c28131ca24f6ffdd49773249c2fd25f6427928625d10410bddcc37a3e7"}, "docker": "quay.io/biocontainers/galaxy-data", "aliases": {"bagit_profile.py": "/usr/local/bin/bagit_profile.py", "bdbag": "/usr/local/bin/bdbag", "bdbag-utils": "/usr/local/bin/bdbag-utils", "galaxy-build-objects": "/usr/local/bin/galaxy-build-objects", "galaxy-manage-db": "/usr/local/bin/galaxy-manage-db", "gx-fastq-combiner": "/usr/local/bin/gx-fastq-combiner", "gx-fastq-filter": "/usr/local/bin/gx-fastq-filter", "gx-fastq-groomer": "/usr/local/bin/gx-fastq-groomer", "gx-fastq-manipulation": "/usr/local/bin/gx-fastq-manipulation", "gx-fastq-masker-by-quality": "/usr/local/bin/gx-fastq-masker-by-quality", "gx-fastq-paired-end-deinterlacer": "/usr/local/bin/gx-fastq-paired-end-deinterlacer", "gx-fastq-paired-end-interlacer": "/usr/local/bin/gx-fastq-paired-end-interlacer", "gx-fastq-paired-end-joiner": "/usr/local/bin/gx-fastq-paired-end-joiner", "gx-fastq-paired-end-splitter": "/usr/local/bin/gx-fastq-paired-end-splitter", "gx-fastq-stats": "/usr/local/bin/gx-fastq-stats", "gx-fastq-to-fasta": "/usr/local/bin/gx-fastq-to-fasta", "gx-fastq-to-tabular": "/usr/local/bin/gx-fastq-to-tabular", "gx-fastq-trimmer": "/usr/local/bin/gx-fastq-trimmer", "gx-fastq-trimmer-by-quality": "/usr/local/bin/gx-fastq-trimmer-by-quality", "migrate": "/usr/local/bin/migrate", "migrate-repository": "/usr/local/bin/migrate-repository", "sqlformat": "/usr/local/bin/sqlformat", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bagit.py": "/usr/local/bin/bagit.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-data.
@@ -314,6 +324,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/migrate-repository   -v ${PWD
 $ singularity exec <container> /usr/local/bin/sqlformat
 $ podman run --it --rm --entrypoint /usr/local/bin/sqlformat   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sqlformat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_scores_in_intervals.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_scores_in_intervals.py
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align_print_template.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/align_print_template.py
+$ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_extract_ranges.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_extract_ranges.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_fasta.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_fasta.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_lav.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_lav.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_maf.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_maf.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bagit.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bagit.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bagit.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bagit.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_bigwig_profile.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_bigwig_profile.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_build_windows.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_build_windows.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

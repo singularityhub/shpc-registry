@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/umi_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umi_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/umi_tools/container.yaml"
-updated_at: "2022-10-27 00:35:00.866378"
+updated_at: "2022-10-29 05:52:13.208802"
 latest: "1.0.1--py37h516909a_0"
 container_url: "https://biocontainers.pro/tools/umi_tools"
 aliases:
  - "umi_tools"
+ - "2to3-3.7"
+ - "assistant"
+ - "canbusutil"
+ - "certutil"
+ - "compile-et.pl"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
 versions:
  - "1.0.1--py37h516909a_0"
 description: "shpc-registry automated BioContainers addition for umi_tools"
-config: {"url": "https://biocontainers.pro/tools/umi_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umi_tools", "latest": {"1.0.1--py37h516909a_0": "sha256:8755af50bacc2e942c980449176f0509bebbb411d83cdc234e1b2853d2dd3c29"}, "tags": {"1.0.1--py37h516909a_0": "sha256:8755af50bacc2e942c980449176f0509bebbb411d83cdc234e1b2853d2dd3c29"}, "docker": "quay.io/biocontainers/umi_tools", "aliases": {"umi_tools": "/usr/local/bin/umi_tools"}}
+config: {"url": "https://biocontainers.pro/tools/umi_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umi_tools", "latest": {"1.0.1--py37h516909a_0": "sha256:8755af50bacc2e942c980449176f0509bebbb411d83cdc234e1b2853d2dd3c29"}, "tags": {"1.0.1--py37h516909a_0": "sha256:8755af50bacc2e942c980449176f0509bebbb411d83cdc234e1b2853d2dd3c29"}, "docker": "quay.io/biocontainers/umi_tools", "aliases": {"umi_tools": "/usr/local/bin/umi_tools", "2to3-3.7": "/usr/local/bin/2to3-3.7", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "compile-et.pl": "/usr/local/bin/compile-et.pl", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umi_tools.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/umi_tools
 $ podman run --it --rm --entrypoint /usr/local/bin/umi_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/umi_tools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compile-et.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/compile-et.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/compile-et.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile-et.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

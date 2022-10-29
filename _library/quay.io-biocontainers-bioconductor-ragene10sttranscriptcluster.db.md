@@ -4,16 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-ragene10sttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ragene10sttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ragene10sttranscriptcluster.db/container.yaml"
-updated_at: "2022-10-27 00:18:41.410781"
+updated_at: "2022-10-29 05:30:32.726209"
 latest: "8.8.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ragene10sttranscriptcluster.db"
 aliases:
- - ".bioconductor-ragene10sttranscriptcluster.db-post-link.sh"
- - ".bioconductor-ragene10sttranscriptcluster.db-pre-unlink.sh"
+ - "R"
+ - "Rscript"
+ - "acountry"
+ - "adig"
+ - "ahost"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
 versions:
  - "8.8.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ragene10sttranscriptcluster.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ragene10sttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ragene10sttranscriptcluster.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:15ea72376a0230bc5d12b2a84159d74477cfeab7617b71ab53ea4332c37b0d46"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:15ea72376a0230bc5d12b2a84159d74477cfeab7617b71ab53ea4332c37b0d46"}, "docker": "quay.io/biocontainers/bioconductor-ragene10sttranscriptcluster.db", "aliases": {".bioconductor-ragene10sttranscriptcluster.db-post-link.sh": "/usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-post-link.sh", ".bioconductor-ragene10sttranscriptcluster.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ragene10sttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ragene10sttranscriptcluster.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:15ea72376a0230bc5d12b2a84159d74477cfeab7617b71ab53ea4332c37b0d46"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:15ea72376a0230bc5d12b2a84159d74477cfeab7617b71ab53ea4332c37b0d46"}, "docker": "quay.io/biocontainers/bioconductor-ragene10sttranscriptcluster.db", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ragene10sttranscriptcluster.db.
@@ -99,21 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-ragene10sttranscriptcluster.db-post-link.sh
+#### R
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-ragene10sttranscriptcluster.db-pre-unlink.sh
+#### Rscript
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ragene10sttranscriptcluster.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acountry
+
+```bash
+$ singularity exec <container> /usr/local/bin/acountry
+$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### adig
+
+```bash
+$ singularity exec <container> /usr/local/bin/adig
+$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ahost
+
+```bash
+$ singularity exec <container> /usr/local/bin/ahost
+$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

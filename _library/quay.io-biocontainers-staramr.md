@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/staramr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staramr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/staramr/container.yaml"
-updated_at: "2022-10-27 00:30:22.131208"
+updated_at: "2022-10-29 05:45:58.499796"
 latest: "0.8.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/staramr"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "green3.10"
  - "mlst"
  - "staramr"
+ - "2to3-3.10"
+ - "accn-at-a-time"
+ - "align-columns"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asn2xml"
+ - "between-two-genes"
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
 versions:
  - "0.8.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for staramr"
-config: {"url": "https://biocontainers.pro/tools/staramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staramr", "latest": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "tags": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "docker": "quay.io/biocontainers/staramr", "aliases": {"file": "/usr/local/bin/file", "green": "/usr/local/bin/green", "green3": "/usr/local/bin/green3", "green3.10": "/usr/local/bin/green3.10", "mlst": "/usr/local/bin/mlst", "staramr": "/usr/local/bin/staramr"}}
+config: {"url": "https://biocontainers.pro/tools/staramr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staramr", "latest": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "tags": {"0.8.0--pyhdfd78af_1": "sha256:845264047df122c41e62d6236a2ddb0698f54ed893edbd56380544eb83ca5849"}, "docker": "quay.io/biocontainers/staramr", "aliases": {"file": "/usr/local/bin/file", "green": "/usr/local/bin/green", "green3": "/usr/local/bin/green3", "green3.10": "/usr/local/bin/green3.10", "mlst": "/usr/local/bin/mlst", "staramr": "/usr/local/bin/staramr", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staramr.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mlst   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/staramr
 $ podman run --it --rm --entrypoint /usr/local/bin/staramr   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/staramr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

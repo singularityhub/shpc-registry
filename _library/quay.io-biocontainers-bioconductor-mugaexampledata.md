@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mugaexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mugaexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mugaexampledata/container.yaml"
-updated_at: "2022-10-27 00:29:47.555714"
+updated_at: "2022-10-29 05:45:13.101378"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mugaexampledata"
 aliases:
- - ".bioconductor-mugaexampledata-post-link.sh"
- - ".bioconductor-mugaexampledata-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mugaexampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mugaexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mugaexampledata", "latest": {"1.9.0--r40_0": "sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125"}, "tags": {"1.9.0--r40_0": "sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125"}, "docker": "quay.io/biocontainers/bioconductor-mugaexampledata", "aliases": {".bioconductor-mugaexampledata-post-link.sh": "/usr/local/bin/.bioconductor-mugaexampledata-post-link.sh", ".bioconductor-mugaexampledata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mugaexampledata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mugaexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mugaexampledata", "latest": {"1.9.0--r40_0": "sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125"}, "tags": {"1.9.0--r40_0": "sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125"}, "docker": "quay.io/biocontainers/bioconductor-mugaexampledata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mugaexampledata.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-mugaexampledata-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mugaexampledata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mugaexampledata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mugaexampledata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-mugaexampledata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mugaexampledata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mugaexampledata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mugaexampledata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

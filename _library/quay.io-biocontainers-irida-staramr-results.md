@@ -4,15 +4,24 @@ name:  "quay.io/biocontainers/irida-staramr-results"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/irida-staramr-results/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/irida-staramr-results/container.yaml"
-updated_at: "2022-10-27 00:27:57.329928"
+updated_at: "2022-10-29 05:42:49.752978"
 latest: "0.3.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/irida-staramr-results"
 aliases:
  - "irida-staramr-results"
+ - "2to3-3.10"
+ - "chardetect"
+ - "f2py3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
+ - "vba_extract.py"
 versions:
  - "0.3.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for irida-staramr-results"
-config: {"url": "https://biocontainers.pro/tools/irida-staramr-results", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-staramr-results", "latest": {"0.3.1--pyh5e36f6f_0": "sha256:b449d46eda1af64797345a7c6963ca66f4c5318c48b26dd31a68df614830c1a5"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:b449d46eda1af64797345a7c6963ca66f4c5318c48b26dd31a68df614830c1a5"}, "docker": "quay.io/biocontainers/irida-staramr-results", "aliases": {"irida-staramr-results": "/usr/local/bin/irida-staramr-results"}}
+config: {"url": "https://biocontainers.pro/tools/irida-staramr-results", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for irida-staramr-results", "latest": {"0.3.1--pyh5e36f6f_0": "sha256:b449d46eda1af64797345a7c6963ca66f4c5318c48b26dd31a68df614830c1a5"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:b449d46eda1af64797345a7c6963ca66f4c5318c48b26dd31a68df614830c1a5"}, "docker": "quay.io/biocontainers/irida-staramr-results", "aliases": {"irida-staramr-results": "/usr/local/bin/irida-staramr-results", "2to3-3.10": "/usr/local/bin/2to3-3.10", "chardetect": "/usr/local/bin/chardetect", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "vba_extract.py": "/usr/local/bin/vba_extract.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/irida-staramr-results.
@@ -104,6 +113,87 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/irida-staramr-results
 $ podman run --it --rm --entrypoint /usr/local/bin/irida-staramr-results   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/irida-staramr-results   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vba_extract.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/vba_extract.py
+$ podman run --it --rm --entrypoint /usr/local/bin/vba_extract.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vba_extract.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

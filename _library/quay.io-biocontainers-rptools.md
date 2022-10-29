@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rptools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rptools/container.yaml"
-updated_at: "2022-10-27 00:21:50.790443"
+updated_at: "2022-10-29 05:34:41.441979"
 latest: "5.12.3"
 container_url: "https://biocontainers.pro/tools/rptools"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "slugify"
  - "upload_zenodo"
  - "upload_zenodo.py"
+ - "2to3-3.9"
+ - "brotli"
+ - "cmark"
+ - "cwebp"
+ - "dwebp"
+ - "f2py3.9"
+ - "fonttools"
+ - "futurize"
+ - "gif2h5"
+ - "gif2rgb"
 versions:
  - "5.12.3"
 description: "shpc-registry automated BioContainers addition for rptools"
-config: {"url": "https://biocontainers.pro/tools/rptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rptools", "latest": {"5.12.3": "sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6"}, "tags": {"5.12.3": "sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6"}, "docker": "quay.io/biocontainers/rptools", "aliases": {"filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py"}}
+config: {"url": "https://biocontainers.pro/tools/rptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rptools", "latest": {"5.12.3": "sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6"}, "tags": {"5.12.3": "sha256:0577c0905fe77bdd385413292e06b0d650357b12f3fdff01960bf085bf9df7d6"}, "docker": "quay.io/biocontainers/rptools", "aliases": {"filetype": "/usr/local/bin/filetype", "httpx": "/usr/local/bin/httpx", "pint-convert": "/usr/local/bin/pint-convert", "search_zenodo": "/usr/local/bin/search_zenodo", "search_zenodo.py": "/usr/local/bin/search_zenodo.py", "slugify": "/usr/local/bin/slugify", "upload_zenodo": "/usr/local/bin/upload_zenodo", "upload_zenodo.py": "/usr/local/bin/upload_zenodo.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "cmark": "/usr/local/bin/cmark", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "futurize": "/usr/local/bin/futurize", "gif2h5": "/usr/local/bin/gif2h5", "gif2rgb": "/usr/local/bin/gif2rgb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rptools.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/upload_zenodo   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/upload_zenodo.py
 $ podman run --it --rm --entrypoint /usr/local/bin/upload_zenodo.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/upload_zenodo.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmark
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmark
+$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

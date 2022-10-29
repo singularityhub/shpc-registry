@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-expressionnormalizationworkflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-expressionnormalizationworkflow/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-expressionnormalizationworkflow/container.yaml"
-updated_at: "2022-10-27 00:18:59.247945"
+updated_at: "2022-10-29 05:30:57.347875"
 latest: "1.16.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-expressionnormalizationworkflow"
-
+aliases:
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.16.0--r40h399db7b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-expressionnormalizationworkflow"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-expressionnormalizationworkflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-expressionnormalizationworkflow", "latest": {"1.16.0--r40h399db7b_1": "sha256:f9a38edbf268aa78578d9a19845f7637d35742bcd19d349a8028018eb292643c"}, "tags": {"1.16.0--r40h399db7b_1": "sha256:f9a38edbf268aa78578d9a19845f7637d35742bcd19d349a8028018eb292643c"}, "docker": "quay.io/biocontainers/bioconductor-expressionnormalizationworkflow"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-expressionnormalizationworkflow", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-expressionnormalizationworkflow", "latest": {"1.16.0--r40h399db7b_1": "sha256:f9a38edbf268aa78578d9a19845f7637d35742bcd19d349a8028018eb292643c"}, "tags": {"1.16.0--r40h399db7b_1": "sha256:f9a38edbf268aa78578d9a19845f7637d35742bcd19d349a8028018eb292643c"}, "docker": "quay.io/biocontainers/bioconductor-expressionnormalizationworkflow", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-expressionnormalizationworkflow.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-expressionnormalizationworkflow
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

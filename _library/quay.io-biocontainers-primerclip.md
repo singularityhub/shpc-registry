@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/primerclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primerclip/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/primerclip/container.yaml"
-updated_at: "2022-10-27 00:34:42.188105"
+updated_at: "2022-10-29 05:51:48.158090"
 latest: "0.3.8--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/primerclip"
 aliases:
  - "primerclip"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.3.8--h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for primerclip"
-config: {"url": "https://biocontainers.pro/tools/primerclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primerclip", "latest": {"0.3.8--h9ee0642_1": "sha256:c15c511a5bc208cf6265bd0703f23707a407f5f19e3845f743cb0c5ebc2b131f"}, "tags": {"0.3.8--h9ee0642_1": "sha256:c15c511a5bc208cf6265bd0703f23707a407f5f19e3845f743cb0c5ebc2b131f"}, "docker": "quay.io/biocontainers/primerclip", "aliases": {"primerclip": "/usr/local/bin/primerclip"}}
+config: {"url": "https://biocontainers.pro/tools/primerclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for primerclip", "latest": {"0.3.8--h9ee0642_1": "sha256:c15c511a5bc208cf6265bd0703f23707a407f5f19e3845f743cb0c5ebc2b131f"}, "tags": {"0.3.8--h9ee0642_1": "sha256:c15c511a5bc208cf6265bd0703f23707a407f5f19e3845f743cb0c5ebc2b131f"}, "docker": "quay.io/biocontainers/primerclip", "aliases": {"primerclip": "/usr/local/bin/primerclip", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/primerclip.
@@ -104,6 +109,51 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/primerclip
 $ podman run --it --rm --entrypoint /usr/local/bin/primerclip   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/primerclip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylocsf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylocsf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phylocsf/container.yaml"
-updated_at: "2022-10-27 00:40:28.322569"
+updated_at: "2022-10-29 05:59:21.640988"
 latest: "1.0.1--h3eba124_1"
 container_url: "https://biocontainers.pro/tools/phylocsf"
 aliases:
@@ -48,10 +48,12 @@ aliases:
  - "ocamlrun"
  - "ocamlyacc"
  - "tal-AA.fa"
+ - "c89"
+ - "c99"
 versions:
  - "1.0.1--h3eba124_1"
 description: "shpc-registry automated BioContainers addition for phylocsf"
-config: {"url": "https://biocontainers.pro/tools/phylocsf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylocsf", "latest": {"1.0.1--h3eba124_1": "sha256:f7ce1298f62e47a2e0ba3ee0c3a63ff7f728f56ec63a7f8040cfd8a715475530"}, "tags": {"1.0.1--h3eba124_1": "sha256:f7ce1298f62e47a2e0ba3ee0c3a63ff7f728f56ec63a7f8040cfd8a715475530"}, "docker": "quay.io/biocontainers/phylocsf", "aliases": {"PhyloCSF": "/usr/local/bin/PhyloCSF", "PhyloCSF.Linux.x86_64": "/usr/local/bin/PhyloCSF.Linux.x86_64", "ocaml": "/usr/local/bin/ocaml", "ocamlc": "/usr/local/bin/ocamlc", "ocamlc.byte": "/usr/local/bin/ocamlc.byte", "ocamlc.opt": "/usr/local/bin/ocamlc.opt", "ocamlcmt": "/usr/local/bin/ocamlcmt", "ocamlcp": "/usr/local/bin/ocamlcp", "ocamlcp.byte": "/usr/local/bin/ocamlcp.byte", "ocamlcp.opt": "/usr/local/bin/ocamlcp.opt", "ocamldebug": "/usr/local/bin/ocamldebug", "ocamldep": "/usr/local/bin/ocamldep", "ocamldep.byte": "/usr/local/bin/ocamldep.byte", "ocamldep.opt": "/usr/local/bin/ocamldep.opt", "ocamldoc": "/usr/local/bin/ocamldoc", "ocamldoc.opt": "/usr/local/bin/ocamldoc.opt", "ocamllex": "/usr/local/bin/ocamllex", "ocamllex.byte": "/usr/local/bin/ocamllex.byte", "ocamllex.opt": "/usr/local/bin/ocamllex.opt", "ocamlmklib": "/usr/local/bin/ocamlmklib", "ocamlmklib.byte": "/usr/local/bin/ocamlmklib.byte", "ocamlmklib.opt": "/usr/local/bin/ocamlmklib.opt", "ocamlmktop": "/usr/local/bin/ocamlmktop", "ocamlmktop.byte": "/usr/local/bin/ocamlmktop.byte", "ocamlmktop.opt": "/usr/local/bin/ocamlmktop.opt", "ocamlobjinfo": "/usr/local/bin/ocamlobjinfo", "ocamlobjinfo.byte": "/usr/local/bin/ocamlobjinfo.byte", "ocamlobjinfo.opt": "/usr/local/bin/ocamlobjinfo.opt", "ocamlopt": "/usr/local/bin/ocamlopt", "ocamlopt.byte": "/usr/local/bin/ocamlopt.byte", "ocamlopt.opt": "/usr/local/bin/ocamlopt.opt", "ocamloptp": "/usr/local/bin/ocamloptp", "ocamloptp.byte": "/usr/local/bin/ocamloptp.byte", "ocamloptp.opt": "/usr/local/bin/ocamloptp.opt", "ocamlprof": "/usr/local/bin/ocamlprof", "ocamlprof.byte": "/usr/local/bin/ocamlprof.byte", "ocamlprof.opt": "/usr/local/bin/ocamlprof.opt", "ocamlrun": "/usr/local/bin/ocamlrun", "ocamlyacc": "/usr/local/bin/ocamlyacc", "tal-AA.fa": "/usr/local/bin/tal-AA.fa"}}
+config: {"url": "https://biocontainers.pro/tools/phylocsf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylocsf", "latest": {"1.0.1--h3eba124_1": "sha256:f7ce1298f62e47a2e0ba3ee0c3a63ff7f728f56ec63a7f8040cfd8a715475530"}, "tags": {"1.0.1--h3eba124_1": "sha256:f7ce1298f62e47a2e0ba3ee0c3a63ff7f728f56ec63a7f8040cfd8a715475530"}, "docker": "quay.io/biocontainers/phylocsf", "aliases": {"PhyloCSF": "/usr/local/bin/PhyloCSF", "PhyloCSF.Linux.x86_64": "/usr/local/bin/PhyloCSF.Linux.x86_64", "ocaml": "/usr/local/bin/ocaml", "ocamlc": "/usr/local/bin/ocamlc", "ocamlc.byte": "/usr/local/bin/ocamlc.byte", "ocamlc.opt": "/usr/local/bin/ocamlc.opt", "ocamlcmt": "/usr/local/bin/ocamlcmt", "ocamlcp": "/usr/local/bin/ocamlcp", "ocamlcp.byte": "/usr/local/bin/ocamlcp.byte", "ocamlcp.opt": "/usr/local/bin/ocamlcp.opt", "ocamldebug": "/usr/local/bin/ocamldebug", "ocamldep": "/usr/local/bin/ocamldep", "ocamldep.byte": "/usr/local/bin/ocamldep.byte", "ocamldep.opt": "/usr/local/bin/ocamldep.opt", "ocamldoc": "/usr/local/bin/ocamldoc", "ocamldoc.opt": "/usr/local/bin/ocamldoc.opt", "ocamllex": "/usr/local/bin/ocamllex", "ocamllex.byte": "/usr/local/bin/ocamllex.byte", "ocamllex.opt": "/usr/local/bin/ocamllex.opt", "ocamlmklib": "/usr/local/bin/ocamlmklib", "ocamlmklib.byte": "/usr/local/bin/ocamlmklib.byte", "ocamlmklib.opt": "/usr/local/bin/ocamlmklib.opt", "ocamlmktop": "/usr/local/bin/ocamlmktop", "ocamlmktop.byte": "/usr/local/bin/ocamlmktop.byte", "ocamlmktop.opt": "/usr/local/bin/ocamlmktop.opt", "ocamlobjinfo": "/usr/local/bin/ocamlobjinfo", "ocamlobjinfo.byte": "/usr/local/bin/ocamlobjinfo.byte", "ocamlobjinfo.opt": "/usr/local/bin/ocamlobjinfo.opt", "ocamlopt": "/usr/local/bin/ocamlopt", "ocamlopt.byte": "/usr/local/bin/ocamlopt.byte", "ocamlopt.opt": "/usr/local/bin/ocamlopt.opt", "ocamloptp": "/usr/local/bin/ocamloptp", "ocamloptp.byte": "/usr/local/bin/ocamloptp.byte", "ocamloptp.opt": "/usr/local/bin/ocamloptp.opt", "ocamlprof": "/usr/local/bin/ocamlprof", "ocamlprof.byte": "/usr/local/bin/ocamlprof.byte", "ocamlprof.opt": "/usr/local/bin/ocamlprof.opt", "ocamlrun": "/usr/local/bin/ocamlrun", "ocamlyacc": "/usr/local/bin/ocamlyacc", "tal-AA.fa": "/usr/local/bin/tal-AA.fa", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylocsf.
@@ -494,6 +496,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ocamlyacc   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/tal-AA.fa
 $ podman run --it --rm --entrypoint /usr/local/bin/tal-AA.fa   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tal-AA.fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/treetime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treetime/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/treetime/container.yaml"
-updated_at: "2022-10-27 00:24:02.296874"
+updated_at: "2022-10-29 05:37:37.197495"
 latest: "0.9.4--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/treetime"
 aliases:
  - "treetime"
+ - "2to3-3.10"
+ - "brotli"
+ - "f2py3.10"
+ - "fonttools"
+ - "idle3.10"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
+ - "pydoc3.10"
+ - "pyftmerge"
 versions:
  - "0.9.4--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for treetime"
-config: {"url": "https://biocontainers.pro/tools/treetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treetime", "latest": {"0.9.4--pyh7cba7a3_0": "sha256:df33fd4fd5195a6b2346d5e2d33f56e00af8f2490ec094612d8895347c4f0be3"}, "tags": {"0.9.4--pyh7cba7a3_0": "sha256:df33fd4fd5195a6b2346d5e2d33f56e00af8f2490ec094612d8895347c4f0be3"}, "docker": "quay.io/biocontainers/treetime", "aliases": {"treetime": "/usr/local/bin/treetime"}}
+config: {"url": "https://biocontainers.pro/tools/treetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treetime", "latest": {"0.9.4--pyh7cba7a3_0": "sha256:df33fd4fd5195a6b2346d5e2d33f56e00af8f2490ec094612d8895347c4f0be3"}, "tags": {"0.9.4--pyh7cba7a3_0": "sha256:df33fd4fd5195a6b2346d5e2d33f56e00af8f2490ec094612d8895347c4f0be3"}, "docker": "quay.io/biocontainers/treetime", "aliases": {"treetime": "/usr/local/bin/treetime", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "idle3.10": "/usr/local/bin/idle3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "pydoc3.10": "/usr/local/bin/pydoc3.10", "pyftmerge": "/usr/local/bin/pyftmerge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treetime.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/treetime
 $ podman run --it --rm --entrypoint /usr/local/bin/treetime   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/treetime   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyftmerge
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyftmerge
+$ podman run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyftmerge   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

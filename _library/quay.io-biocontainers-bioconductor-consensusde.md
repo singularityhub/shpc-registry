@@ -4,20 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-consensusde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-consensusde/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consensusde/container.yaml"
-updated_at: "2022-10-27 00:19:38.200411"
+updated_at: "2022-10-29 05:31:47.124569"
 latest: "1.8.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-consensusde"
 aliases:
- - ".bioconductor-airway-post-link.sh"
- - ".bioconductor-airway-pre-unlink.sh"
- - ".bioconductor-ensdb.hsapiens.v86-post-link.sh"
- - ".bioconductor-ensdb.hsapiens.v86-pre-unlink.sh"
- - ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh"
- - ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-consensusde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusde", "latest": {"1.8.0--r40hdfd78af_1": "sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436"}, "docker": "quay.io/biocontainers/bioconductor-consensusde", "aliases": {".bioconductor-airway-post-link.sh": "/usr/local/bin/.bioconductor-airway-post-link.sh", ".bioconductor-airway-pre-unlink.sh": "/usr/local/bin/.bioconductor-airway-pre-unlink.sh", ".bioconductor-ensdb.hsapiens.v86-post-link.sh": "/usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh", ".bioconductor-ensdb.hsapiens.v86-pre-unlink.sh": "/usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh", ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh", ".bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusde", "latest": {"1.8.0--r40hdfd78af_1": "sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436"}, "docker": "quay.io/biocontainers/bioconductor-consensusde", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-consensusde.
@@ -103,57 +103,57 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-airway-post-link.sh
+#### 2to3-3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-airway-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-airway-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-airway-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-airway-pre-unlink.sh
+#### idle3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-airway-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-airway-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-airway-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-ensdb.hsapiens.v86-post-link.sh
+#### pydoc3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-ensdb.hsapiens.v86-pre-unlink.sh
+#### python3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh
+#### python3.9-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

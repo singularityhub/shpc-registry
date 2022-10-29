@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hlama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hlama/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hlama/container.yaml"
-updated_at: "2022-10-27 00:37:26.618919"
+updated_at: "2022-10-29 05:55:25.496794"
 latest: "3.0.1--py35_0"
 container_url: "https://biocontainers.pro/tools/hlama"
 aliases:
@@ -42,10 +42,20 @@ aliases:
  - "scenariotreeserver"
  - "test.pyomo"
  - "test.pyutilib"
+ - "2to3-3.5"
+ - "ace2sam"
+ - "assistant"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "chardetect"
+ - "color-chrs.pl"
+ - "conv-template"
 versions:
  - "3.0.1--py35_0"
 description: "shpc-registry automated BioContainers addition for hlama"
-config: {"url": "https://biocontainers.pro/tools/hlama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hlama", "latest": {"3.0.1--py35_0": "sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3"}, "tags": {"3.0.1--py35_0": "sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3"}, "docker": "quay.io/biocontainers/hlama", "aliases": {"OSSolverService": "/usr/local/bin/OSSolverService", "OptiTypePipeline.py": "/usr/local/bin/OptiTypePipeline.py", "checkCopyright": "/usr/local/bin/checkCopyright", "checkcopyright": "/usr/local/bin/checkcopyright", "computeconf": "/usr/local/bin/computeconf", "dispatch_srvr": "/usr/local/bin/dispatch_srvr", "evaluate_xhat": "/usr/local/bin/evaluate_xhat", "get_pyomo_extras": "/usr/local/bin/get_pyomo_extras", "hlama": "/usr/local/bin/hlama", "kill_pyro_mip_servers": "/usr/local/bin/kill_pyro_mip_servers", "launch_pyro_mip_servers": "/usr/local/bin/launch_pyro_mip_servers", "lbin": "/usr/local/bin/lbin", "lpython": "/usr/local/bin/lpython", "ossolverservice": "/usr/local/bin/ossolverservice", "phsolverserver": "/usr/local/bin/phsolverserver", "pyomo": "/usr/local/bin/pyomo", "pyomo_ns": "/usr/local/bin/pyomo_ns", "pyomo_nsc": "/usr/local/bin/pyomo_nsc", "pyomo_old": "/usr/local/bin/pyomo_old", "pyomo_python": "/usr/local/bin/pyomo_python", "pypi_downloads": "/usr/local/bin/pypi_downloads", "pyro_mip_server": "/usr/local/bin/pyro_mip_server", "pyutilib_test_driver": "/usr/local/bin/pyutilib_test_driver", "razers3": "/usr/local/bin/razers3", "readsol": "/usr/local/bin/readsol", "replaceCopyright": "/usr/local/bin/replaceCopyright", "replacecopyright": "/usr/local/bin/replacecopyright", "results_schema": "/usr/local/bin/results_schema", "runbenders": "/usr/local/bin/runbenders", "runef": "/usr/local/bin/runef", "runph": "/usr/local/bin/runph", "scenariotreeserver": "/usr/local/bin/scenariotreeserver", "test.pyomo": "/usr/local/bin/test.pyomo", "test.pyutilib": "/usr/local/bin/test.pyutilib"}}
+config: {"url": "https://biocontainers.pro/tools/hlama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hlama", "latest": {"3.0.1--py35_0": "sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3"}, "tags": {"3.0.1--py35_0": "sha256:252ba196da8cd798bfde329a0232c63565c6a22957436f9f4ae62296db1b91e3"}, "docker": "quay.io/biocontainers/hlama", "aliases": {"OSSolverService": "/usr/local/bin/OSSolverService", "OptiTypePipeline.py": "/usr/local/bin/OptiTypePipeline.py", "checkCopyright": "/usr/local/bin/checkCopyright", "checkcopyright": "/usr/local/bin/checkcopyright", "computeconf": "/usr/local/bin/computeconf", "dispatch_srvr": "/usr/local/bin/dispatch_srvr", "evaluate_xhat": "/usr/local/bin/evaluate_xhat", "get_pyomo_extras": "/usr/local/bin/get_pyomo_extras", "hlama": "/usr/local/bin/hlama", "kill_pyro_mip_servers": "/usr/local/bin/kill_pyro_mip_servers", "launch_pyro_mip_servers": "/usr/local/bin/launch_pyro_mip_servers", "lbin": "/usr/local/bin/lbin", "lpython": "/usr/local/bin/lpython", "ossolverservice": "/usr/local/bin/ossolverservice", "phsolverserver": "/usr/local/bin/phsolverserver", "pyomo": "/usr/local/bin/pyomo", "pyomo_ns": "/usr/local/bin/pyomo_ns", "pyomo_nsc": "/usr/local/bin/pyomo_nsc", "pyomo_old": "/usr/local/bin/pyomo_old", "pyomo_python": "/usr/local/bin/pyomo_python", "pypi_downloads": "/usr/local/bin/pypi_downloads", "pyro_mip_server": "/usr/local/bin/pyro_mip_server", "pyutilib_test_driver": "/usr/local/bin/pyutilib_test_driver", "razers3": "/usr/local/bin/razers3", "readsol": "/usr/local/bin/readsol", "replaceCopyright": "/usr/local/bin/replaceCopyright", "replacecopyright": "/usr/local/bin/replacecopyright", "results_schema": "/usr/local/bin/results_schema", "runbenders": "/usr/local/bin/runbenders", "runef": "/usr/local/bin/runef", "runph": "/usr/local/bin/runph", "scenariotreeserver": "/usr/local/bin/scenariotreeserver", "test.pyomo": "/usr/local/bin/test.pyomo", "test.pyutilib": "/usr/local/bin/test.pyutilib", "2to3-3.5": "/usr/local/bin/2to3-3.5", "ace2sam": "/usr/local/bin/ace2sam", "assistant": "/usr/local/bin/assistant", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "chardetect": "/usr/local/bin/chardetect", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "conv-template": "/usr/local/bin/conv-template"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hlama.
@@ -434,6 +444,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/test.pyomo   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/test.pyutilib
 $ podman run --it --rm --entrypoint /usr/local/bin/test.pyutilib   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/test.pyutilib   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conv-template
+
+```bash
+$ singularity exec <container> /usr/local/bin/conv-template
+$ podman run --it --rm --entrypoint /usr/local/bin/conv-template   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conv-template   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

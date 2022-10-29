@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rgi_conda_dev"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
-updated_at: "2022-10-27 00:20:51.817154"
+updated_at: "2022-10-29 05:33:24.372470"
 latest: "3.1.2--py27_1"
 container_url: "https://biocontainers.pro/tools/rgi_conda_dev"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "rgi_jsonformat"
  - "rgi_jsontab"
  - "rgi_load"
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
+ - "blastdbcmd"
+ - "blastdbcp"
+ - "blastn"
+ - "blastp"
+ - "blastx"
+ - "bmp2tiff"
+ - "convert2blastmask"
 versions:
  - "3.1.2--py27_1"
 description: "shpc-registry automated BioContainers addition for rgi_conda_dev"
-config: {"url": "https://biocontainers.pro/tools/rgi_conda_dev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi_conda_dev", "latest": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "tags": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "docker": "quay.io/biocontainers/rgi_conda_dev", "aliases": {"rgi": "/usr/local/bin/rgi", "rgi_clean": "/usr/local/bin/rgi_clean", "rgi_jsonformat": "/usr/local/bin/rgi_jsonformat", "rgi_jsontab": "/usr/local/bin/rgi_jsontab", "rgi_load": "/usr/local/bin/rgi_load"}}
+config: {"url": "https://biocontainers.pro/tools/rgi_conda_dev", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi_conda_dev", "latest": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "tags": {"3.1.2--py27_1": "sha256:a8ad5c6a105f9b5b730b4608255cfe3d3eba0c2f4cf6c9fc47784a6468c11e12"}, "docker": "quay.io/biocontainers/rgi_conda_dev", "aliases": {"rgi": "/usr/local/bin/rgi", "rgi_clean": "/usr/local/bin/rgi_clean", "rgi_jsonformat": "/usr/local/bin/rgi_jsonformat", "rgi_jsontab": "/usr/local/bin/rgi_jsontab", "rgi_load": "/usr/local/bin/rgi_load", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx", "bmp2tiff": "/usr/local/bin/bmp2tiff", "convert2blastmask": "/usr/local/bin/convert2blastmask"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rgi_conda_dev.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rgi_jsontab   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/rgi_load
 $ podman run --it --rm --entrypoint /usr/local/bin/rgi_load   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rgi_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastn
+$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastx
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastx
+$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bmp2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert2blastmask
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert2blastmask
+$ podman run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert2blastmask   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

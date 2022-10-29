@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-annotationhubdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotationhubdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotationhubdata/container.yaml"
-updated_at: "2022-10-27 00:19:57.917418"
+updated_at: "2022-10-29 05:32:12.276205"
 latest: "1.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotationhubdata"
-
+aliases:
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "wget"
 versions:
  - "1.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotationhubdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationhubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationhubdata", "latest": {"1.8.0--r3.4.1_0": "sha256:d1d90553bc03e39751e4084529355c327a822318fc8aaf2eb4c184fcd622ff57"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d1d90553bc03e39751e4084529355c327a822318fc8aaf2eb4c184fcd622ff57"}, "docker": "quay.io/biocontainers/bioconductor-annotationhubdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationhubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationhubdata", "latest": {"1.8.0--r3.4.1_0": "sha256:d1d90553bc03e39751e4084529355c327a822318fc8aaf2eb4c184fcd622ff57"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d1d90553bc03e39751e4084529355c327a822318fc8aaf2eb4c184fcd622ff57"}, "docker": "quay.io/biocontainers/bioconductor-annotationhubdata", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotationhubdata.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-annotationhubdata
+#### ncurses5-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

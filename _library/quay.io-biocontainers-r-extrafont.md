@@ -4,14 +4,21 @@ name:  "quay.io/biocontainers/r-extrafont"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-extrafont/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-extrafont/container.yaml"
-updated_at: "2022-10-27 00:20:28.526615"
+updated_at: "2022-10-29 05:32:53.113333"
 latest: "0.17--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-extrafont"
-
+aliases:
+ - "bmp2tiff"
+ - "gif2tiff"
+ - "ras2tiff"
+ - "rgb2ycbcr"
+ - "tclsh8.5"
+ - "thumbnail"
+ - "wish8.5"
 versions:
  - "0.17--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for r-extrafont"
-config: {"url": "https://biocontainers.pro/tools/r-extrafont", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-extrafont", "latest": {"0.17--r3.3.2_0": "sha256:7d897de447fc5fc79bff28ba99f70a9ad32a9f46f740c02a971ed39401954315"}, "tags": {"0.17--r3.3.2_0": "sha256:7d897de447fc5fc79bff28ba99f70a9ad32a9f46f740c02a971ed39401954315"}, "docker": "quay.io/biocontainers/r-extrafont"}
+config: {"url": "https://biocontainers.pro/tools/r-extrafont", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-extrafont", "latest": {"0.17--r3.3.2_0": "sha256:7d897de447fc5fc79bff28ba99f70a9ad32a9f46f740c02a971ed39401954315"}, "tags": {"0.17--r3.3.2_0": "sha256:7d897de447fc5fc79bff28ba99f70a9ad32a9f46f740c02a971ed39401954315"}, "docker": "quay.io/biocontainers/r-extrafont", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "tclsh8.5": "/usr/local/bin/tclsh8.5", "thumbnail": "/usr/local/bin/thumbnail", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-extrafont.
@@ -97,14 +104,68 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-extrafont
+#### bmp2tiff
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ras2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/ras2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rgb2ycbcr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rgb2ycbcr
+$ podman run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thumbnail
+
+```bash
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

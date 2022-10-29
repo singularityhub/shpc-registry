@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-timeseriesexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-timeseriesexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-timeseriesexperiment/container.yaml"
-updated_at: "2022-10-27 00:34:07.266806"
+updated_at: "2022-10-29 05:50:58.564591"
 latest: "1.8.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-timeseriesexperiment"
-
+aliases:
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-timeseriesexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-timeseriesexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timeseriesexperiment", "latest": {"1.8.0--r40hdfd78af_1": "sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b"}, "docker": "quay.io/biocontainers/bioconductor-timeseriesexperiment"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-timeseriesexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-timeseriesexperiment", "latest": {"1.8.0--r40hdfd78af_1": "sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b"}, "docker": "quay.io/biocontainers/bioconductor-timeseriesexperiment", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-timeseriesexperiment.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-timeseriesexperiment
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

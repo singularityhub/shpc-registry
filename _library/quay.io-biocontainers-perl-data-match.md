@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-data-match"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-match/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-match/container.yaml"
-updated_at: "2022-10-27 00:27:46.686460"
+updated_at: "2022-10-29 05:42:36.389229"
 latest: "0.06--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-data-match"
-
+aliases:
+ - "findrule"
 versions:
  - "0.06--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-data-match"
-config: {"url": "https://biocontainers.pro/tools/perl-data-match", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-match", "latest": {"0.06--pl5321hdfd78af_1": "sha256:69ff5b9b461502d4b38cb1b2238744422b67fc34f45acb7282a4a78728dd29b4"}, "tags": {"0.06--pl5321hdfd78af_1": "sha256:69ff5b9b461502d4b38cb1b2238744422b67fc34f45acb7282a4a78728dd29b4"}, "docker": "quay.io/biocontainers/perl-data-match"}
+config: {"url": "https://biocontainers.pro/tools/perl-data-match", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-match", "latest": {"0.06--pl5321hdfd78af_1": "sha256:69ff5b9b461502d4b38cb1b2238744422b67fc34f45acb7282a4a78728dd29b4"}, "tags": {"0.06--pl5321hdfd78af_1": "sha256:69ff5b9b461502d4b38cb1b2238744422b67fc34f45acb7282a4a78728dd29b4"}, "docker": "quay.io/biocontainers/perl-data-match", "aliases": {"findrule": "/usr/local/bin/findrule"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-data-match.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-data-match
+#### findrule
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/findrule
+$ podman run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

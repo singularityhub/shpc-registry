@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-hivclustering"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-hivclustering/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/python-hivclustering/container.yaml"
-updated_at: "2022-10-27 00:18:22.723852"
+updated_at: "2022-10-29 05:30:08.375056"
 latest: "1.5.6--py_0"
 container_url: "https://biocontainers.pro/tools/python-hivclustering"
 aliases:
@@ -22,10 +22,20 @@ aliases:
  - "seqmerge"
  - "swig"
  - "translate"
+ - "2to3-3.6"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "export2sam.pl"
+ - "f2py3.6"
+ - "guess-ploidy.py"
 versions:
  - "1.5.6--py_0"
 description: "shpc-registry automated BioContainers addition for python-hivclustering"
-config: {"url": "https://biocontainers.pro/tools/python-hivclustering", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-hivclustering", "latest": {"1.5.6--py_0": "sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf"}, "tags": {"1.5.6--py_0": "sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf"}, "docker": "quay.io/biocontainers/python-hivclustering", "aliases": {"TNS": "/usr/local/bin/TNS", "bam2fna": "/usr/local/bin/bam2fna", "bam2msa": "/usr/local/bin/bam2msa", "bamclip": "/usr/local/bin/bamclip", "bealign": "/usr/local/bin/bealign", "ccache-swig": "/usr/local/bin/ccache-swig", "clipedge": "/usr/local/bin/clipedge", "consensus": "/usr/local/bin/consensus", "hivnetworkannotate": "/usr/local/bin/hivnetworkannotate", "hivnetworkcsv": "/usr/local/bin/hivnetworkcsv", "msa2bam": "/usr/local/bin/msa2bam", "seqmerge": "/usr/local/bin/seqmerge", "swig": "/usr/local/bin/swig", "translate": "/usr/local/bin/translate"}}
+config: {"url": "https://biocontainers.pro/tools/python-hivclustering", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-hivclustering", "latest": {"1.5.6--py_0": "sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf"}, "tags": {"1.5.6--py_0": "sha256:fedc821998c05509aa791feb61bb7b213811eea027b9f34cf4475a4e48ad19cf"}, "docker": "quay.io/biocontainers/python-hivclustering", "aliases": {"TNS": "/usr/local/bin/TNS", "bam2fna": "/usr/local/bin/bam2fna", "bam2msa": "/usr/local/bin/bam2msa", "bamclip": "/usr/local/bin/bamclip", "bealign": "/usr/local/bin/bealign", "ccache-swig": "/usr/local/bin/ccache-swig", "clipedge": "/usr/local/bin/clipedge", "consensus": "/usr/local/bin/consensus", "hivnetworkannotate": "/usr/local/bin/hivnetworkannotate", "hivnetworkcsv": "/usr/local/bin/hivnetworkcsv", "msa2bam": "/usr/local/bin/msa2bam", "seqmerge": "/usr/local/bin/seqmerge", "swig": "/usr/local/bin/swig", "translate": "/usr/local/bin/translate", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-hivclustering.
@@ -234,6 +244,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/swig   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/translate
 $ podman run --it --rm --entrypoint /usr/local/bin/translate   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/translate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### guess-ploidy.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

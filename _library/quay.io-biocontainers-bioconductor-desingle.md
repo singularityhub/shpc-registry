@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-desingle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-desingle/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-desingle/container.yaml"
-updated_at: "2022-10-27 00:32:30.016993"
+updated_at: "2022-10-29 05:48:50.150033"
 latest: "1.8.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-desingle"
-
+aliases:
+ - "2to3-3.8"
+ - "gio-launch-desktop"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.8.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-desingle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-desingle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-desingle", "latest": {"1.8.0--r40_0": "sha256:c6763767cb564291b5a254bafed09281260bc03c8af78c17a321ea5663a6220f"}, "tags": {"1.8.0--r40_0": "sha256:c6763767cb564291b5a254bafed09281260bc03c8af78c17a321ea5663a6220f"}, "docker": "quay.io/biocontainers/bioconductor-desingle"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-desingle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-desingle", "latest": {"1.8.0--r40_0": "sha256:c6763767cb564291b5a254bafed09281260bc03c8af78c17a321ea5663a6220f"}, "tags": {"1.8.0--r40_0": "sha256:c6763767cb564291b5a254bafed09281260bc03c8af78c17a321ea5663a6220f"}, "docker": "quay.io/biocontainers/bioconductor-desingle", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-desingle.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-desingle
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

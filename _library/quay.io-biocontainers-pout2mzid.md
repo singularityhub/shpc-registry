@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/pout2mzid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pout2mzid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pout2mzid/container.yaml"
-updated_at: "2022-10-27 00:19:53.659689"
+updated_at: "2022-10-29 05:32:06.860712"
 latest: "0.3.03--boost1.62_2"
 container_url: "https://biocontainers.pro/tools/pout2mzid"
 aliases:
  - "pout2mzid"
+ - "2to3-3.5"
+ - "CreateDOMDocument"
+ - "DOMCount"
+ - "DOMPrint"
+ - "EnumVal"
+ - "MemParse"
+ - "PParse"
+ - "PSVIWriter"
+ - "Redirect"
+ - "SAX2Count"
 versions:
  - "0.3.03--boost1.62_2"
 description: "shpc-registry automated BioContainers addition for pout2mzid"
-config: {"url": "https://biocontainers.pro/tools/pout2mzid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pout2mzid", "latest": {"0.3.03--boost1.62_2": "sha256:7843a3c3ad9fb9b50919fa8cc873d5c0c2ae110c273febd845e65bf66e663c25"}, "tags": {"0.3.03--boost1.62_2": "sha256:7843a3c3ad9fb9b50919fa8cc873d5c0c2ae110c273febd845e65bf66e663c25"}, "docker": "quay.io/biocontainers/pout2mzid", "aliases": {"pout2mzid": "/usr/local/bin/pout2mzid"}}
+config: {"url": "https://biocontainers.pro/tools/pout2mzid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pout2mzid", "latest": {"0.3.03--boost1.62_2": "sha256:7843a3c3ad9fb9b50919fa8cc873d5c0c2ae110c273febd845e65bf66e663c25"}, "tags": {"0.3.03--boost1.62_2": "sha256:7843a3c3ad9fb9b50919fa8cc873d5c0c2ae110c273febd845e65bf66e663c25"}, "docker": "quay.io/biocontainers/pout2mzid", "aliases": {"pout2mzid": "/usr/local/bin/pout2mzid", "2to3-3.5": "/usr/local/bin/2to3-3.5", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pout2mzid.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/pout2mzid
 $ podman run --it --rm --entrypoint /usr/local/bin/pout2mzid   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pout2mzid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CreateDOMDocument
+
+```bash
+$ singularity exec <container> /usr/local/bin/CreateDOMDocument
+$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMCount
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMCount
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMPrint
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMPrint
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EnumVal
+
+```bash
+$ singularity exec <container> /usr/local/bin/EnumVal
+$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MemParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/MemParse
+$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/PParse
+$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PSVIWriter
+
+```bash
+$ singularity exec <container> /usr/local/bin/PSVIWriter
+$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Redirect
+
+```bash
+$ singularity exec <container> /usr/local/bin/Redirect
+$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Count
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Count
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

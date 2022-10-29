@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dimspy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dimspy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dimspy/container.yaml"
-updated_at: "2022-10-27 00:33:47.327882"
+updated_at: "2022-10-29 05:50:30.220296"
 latest: "2.0.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/dimspy"
 aliases:
@@ -18,10 +18,20 @@ aliases:
  - "nunit-console2"
  - "nunit-console4"
  - "vbc"
+ - "2to3-3.7"
+ - "al"
+ - "al2"
+ - "caspol"
+ - "cccheck"
+ - "ccrewrite"
+ - "cert-sync"
+ - "cert2spc"
+ - "certmgr"
+ - "chktrust"
 versions:
  - "2.0.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for dimspy"
-config: {"url": "https://biocontainers.pro/tools/dimspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dimspy", "latest": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "tags": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "docker": "quay.io/biocontainers/dimspy", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "dimspy": "/usr/local/bin/dimspy", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "vbc": "/usr/local/bin/vbc"}}
+config: {"url": "https://biocontainers.pro/tools/dimspy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dimspy", "latest": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "tags": {"2.0.0--pyhdfd78af_1": "sha256:9621d1705faee27124330e3ac0bfed7abfb205ba46de6161f71ce9c2a95dfa34"}, "docker": "quay.io/biocontainers/dimspy", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "dimspy": "/usr/local/bin/dimspy", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "vbc": "/usr/local/bin/vbc", "2to3-3.7": "/usr/local/bin/2to3-3.7", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dimspy.
@@ -194,6 +204,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nunit-console4   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/vbc
 $ podman run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### al
+
+```bash
+$ singularity exec <container> /usr/local/bin/al
+$ podman run --it --rm --entrypoint /usr/local/bin/al   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/al   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### al2
+
+```bash
+$ singularity exec <container> /usr/local/bin/al2
+$ podman run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### caspol
+
+```bash
+$ singularity exec <container> /usr/local/bin/caspol
+$ podman run --it --rm --entrypoint /usr/local/bin/caspol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/caspol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cccheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/cccheck
+$ podman run --it --rm --entrypoint /usr/local/bin/cccheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cccheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccrewrite
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccrewrite
+$ podman run --it --rm --entrypoint /usr/local/bin/ccrewrite   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccrewrite   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cert-sync
+
+```bash
+$ singularity exec <container> /usr/local/bin/cert-sync
+$ podman run --it --rm --entrypoint /usr/local/bin/cert-sync   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cert-sync   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cert2spc
+
+```bash
+$ singularity exec <container> /usr/local/bin/cert2spc
+$ podman run --it --rm --entrypoint /usr/local/bin/cert2spc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cert2spc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certmgr
+
+```bash
+$ singularity exec <container> /usr/local/bin/certmgr
+$ podman run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chktrust
+
+```bash
+$ singularity exec <container> /usr/local/bin/chktrust
+$ podman run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

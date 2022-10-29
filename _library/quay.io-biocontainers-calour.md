@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/calour"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calour/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/calour/container.yaml"
-updated_at: "2022-10-27 00:40:01.649874"
+updated_at: "2022-10-29 05:58:46.436539"
 latest: "2020.8.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/calour"
 aliases:
@@ -76,10 +76,20 @@ aliases:
  - "sip-sdist"
  - "sip-wheel"
  - "tracegen"
+ - "2to3-3.10"
+ - "aserver"
+ - "assistant"
+ - "biom"
+ - "brotli"
+ - "canbusutil"
+ - "certutil"
+ - "cups-config"
+ - "curve_keygen"
+ - "cwebp"
 versions:
  - "2020.8.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for calour"
-config: {"url": "https://biocontainers.pro/tools/calour", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for calour", "latest": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "tags": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "docker": "quay.io/biocontainers/calour", "aliases": {"attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "esdcompat": "/usr/local/bin/esdcompat", "getfattr": "/usr/local/bin/getfattr", "jack_alias": "/usr/local/bin/jack_alias", "jack_bufsize": "/usr/local/bin/jack_bufsize", "jack_connect": "/usr/local/bin/jack_connect", "jack_control": "/usr/local/bin/jack_control", "jack_cpu": "/usr/local/bin/jack_cpu", "jack_cpu_load": "/usr/local/bin/jack_cpu_load", "jack_disconnect": "/usr/local/bin/jack_disconnect", "jack_evmon": "/usr/local/bin/jack_evmon", "jack_freewheel": "/usr/local/bin/jack_freewheel", "jack_iodelay": "/usr/local/bin/jack_iodelay", "jack_latent_client": "/usr/local/bin/jack_latent_client", "jack_load": "/usr/local/bin/jack_load", "jack_lsp": "/usr/local/bin/jack_lsp", "jack_metro": "/usr/local/bin/jack_metro", "jack_midi_dump": "/usr/local/bin/jack_midi_dump", "jack_midi_latency_test": "/usr/local/bin/jack_midi_latency_test", "jack_midiseq": "/usr/local/bin/jack_midiseq", "jack_midisine": "/usr/local/bin/jack_midisine", "jack_monitor_client": "/usr/local/bin/jack_monitor_client", "jack_multiple_metro": "/usr/local/bin/jack_multiple_metro", "jack_netsource": "/usr/local/bin/jack_netsource", "jack_property": "/usr/local/bin/jack_property", "jack_rec": "/usr/local/bin/jack_rec", "jack_samplerate": "/usr/local/bin/jack_samplerate", "jack_server_control": "/usr/local/bin/jack_server_control", "jack_session_notify": "/usr/local/bin/jack_session_notify", "jack_showtime": "/usr/local/bin/jack_showtime", "jack_simdtests": "/usr/local/bin/jack_simdtests", "jack_simple_client": "/usr/local/bin/jack_simple_client", "jack_simple_session_client": "/usr/local/bin/jack_simple_session_client", "jack_test": "/usr/local/bin/jack_test", "jack_thru": "/usr/local/bin/jack_thru", "jack_transport": "/usr/local/bin/jack_transport", "jack_unload": "/usr/local/bin/jack_unload", "jack_wait": "/usr/local/bin/jack_wait", "jack_zombie": "/usr/local/bin/jack_zombie", "jackd": "/usr/local/bin/jackd", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug", "pa-info": "/usr/local/bin/pa-info", "pacat": "/usr/local/bin/pacat", "pacmd": "/usr/local/bin/pacmd", "pactl": "/usr/local/bin/pactl", "padsp": "/usr/local/bin/padsp", "pamon": "/usr/local/bin/pamon", "paplay": "/usr/local/bin/paplay", "parec": "/usr/local/bin/parec", "parecord": "/usr/local/bin/parecord", "pasuspender": "/usr/local/bin/pasuspender", "pulseaudio": "/usr/local/bin/pulseaudio", "qmlformat": "/usr/local/bin/qmlformat", "qmltime": "/usr/local/bin/qmltime", "qmltyperegistrar": "/usr/local/bin/qmltyperegistrar", "qpaeq": "/usr/local/bin/qpaeq", "setfattr": "/usr/local/bin/setfattr", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "tracegen": "/usr/local/bin/tracegen"}}
+config: {"url": "https://biocontainers.pro/tools/calour", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for calour", "latest": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "tags": {"2020.8.6--pyhdfd78af_0": "sha256:d2104fdf7d1ef5a6c0710f60f1be99b1cc864b4aef79e485edc6c7b7e8373587"}, "docker": "quay.io/biocontainers/calour", "aliases": {"attr": "/usr/local/bin/attr", "balsam": "/usr/local/bin/balsam", "esdcompat": "/usr/local/bin/esdcompat", "getfattr": "/usr/local/bin/getfattr", "jack_alias": "/usr/local/bin/jack_alias", "jack_bufsize": "/usr/local/bin/jack_bufsize", "jack_connect": "/usr/local/bin/jack_connect", "jack_control": "/usr/local/bin/jack_control", "jack_cpu": "/usr/local/bin/jack_cpu", "jack_cpu_load": "/usr/local/bin/jack_cpu_load", "jack_disconnect": "/usr/local/bin/jack_disconnect", "jack_evmon": "/usr/local/bin/jack_evmon", "jack_freewheel": "/usr/local/bin/jack_freewheel", "jack_iodelay": "/usr/local/bin/jack_iodelay", "jack_latent_client": "/usr/local/bin/jack_latent_client", "jack_load": "/usr/local/bin/jack_load", "jack_lsp": "/usr/local/bin/jack_lsp", "jack_metro": "/usr/local/bin/jack_metro", "jack_midi_dump": "/usr/local/bin/jack_midi_dump", "jack_midi_latency_test": "/usr/local/bin/jack_midi_latency_test", "jack_midiseq": "/usr/local/bin/jack_midiseq", "jack_midisine": "/usr/local/bin/jack_midisine", "jack_monitor_client": "/usr/local/bin/jack_monitor_client", "jack_multiple_metro": "/usr/local/bin/jack_multiple_metro", "jack_netsource": "/usr/local/bin/jack_netsource", "jack_property": "/usr/local/bin/jack_property", "jack_rec": "/usr/local/bin/jack_rec", "jack_samplerate": "/usr/local/bin/jack_samplerate", "jack_server_control": "/usr/local/bin/jack_server_control", "jack_session_notify": "/usr/local/bin/jack_session_notify", "jack_showtime": "/usr/local/bin/jack_showtime", "jack_simdtests": "/usr/local/bin/jack_simdtests", "jack_simple_client": "/usr/local/bin/jack_simple_client", "jack_simple_session_client": "/usr/local/bin/jack_simple_session_client", "jack_test": "/usr/local/bin/jack_test", "jack_thru": "/usr/local/bin/jack_thru", "jack_transport": "/usr/local/bin/jack_transport", "jack_unload": "/usr/local/bin/jack_unload", "jack_wait": "/usr/local/bin/jack_wait", "jack_zombie": "/usr/local/bin/jack_zombie", "jackd": "/usr/local/bin/jackd", "lprodump": "/usr/local/bin/lprodump", "lrelease-pro": "/usr/local/bin/lrelease-pro", "lupdate-pro": "/usr/local/bin/lupdate-pro", "meshdebug": "/usr/local/bin/meshdebug", "pa-info": "/usr/local/bin/pa-info", "pacat": "/usr/local/bin/pacat", "pacmd": "/usr/local/bin/pacmd", "pactl": "/usr/local/bin/pactl", "padsp": "/usr/local/bin/padsp", "pamon": "/usr/local/bin/pamon", "paplay": "/usr/local/bin/paplay", "parec": "/usr/local/bin/parec", "parecord": "/usr/local/bin/parecord", "pasuspender": "/usr/local/bin/pasuspender", "pulseaudio": "/usr/local/bin/pulseaudio", "qmlformat": "/usr/local/bin/qmlformat", "qmltime": "/usr/local/bin/qmltime", "qmltyperegistrar": "/usr/local/bin/qmltyperegistrar", "qpaeq": "/usr/local/bin/qpaeq", "setfattr": "/usr/local/bin/setfattr", "sip-build": "/usr/local/bin/sip-build", "sip-distinfo": "/usr/local/bin/sip-distinfo", "sip-install": "/usr/local/bin/sip-install", "sip-module": "/usr/local/bin/sip-module", "sip-sdist": "/usr/local/bin/sip-sdist", "sip-wheel": "/usr/local/bin/sip-wheel", "tracegen": "/usr/local/bin/tracegen", "2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "biom": "/usr/local/bin/biom", "brotli": "/usr/local/bin/brotli", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "cups-config": "/usr/local/bin/cups-config", "curve_keygen": "/usr/local/bin/curve_keygen", "cwebp": "/usr/local/bin/cwebp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/calour.
@@ -774,6 +784,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sip-wheel   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/tracegen
 $ podman run --it --rm --entrypoint /usr/local/bin/tracegen   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tracegen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### biom
+
+```bash
+$ singularity exec <container> /usr/local/bin/biom
+$ podman run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cups-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/cups-config
+$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### curve_keygen
+
+```bash
+$ singularity exec <container> /usr/local/bin/curve_keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

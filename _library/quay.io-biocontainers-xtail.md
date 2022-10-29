@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/xtail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xtail/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xtail/container.yaml"
-updated_at: "2022-10-27 00:36:01.097473"
+updated_at: "2022-10-29 05:53:32.309892"
 latest: "1.1.5--r40_4"
 container_url: "https://biocontainers.pro/tools/xtail"
-
+aliases:
+ - "2to3"
+ - "2to3-3.8"
+ - "R"
+ - "Rscript"
+ - "acountry"
+ - "adig"
+ - "ahost"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
 versions:
  - "1.1.5--r40_4"
 description: "shpc-registry automated BioContainers addition for xtail"
-config: {"url": "https://biocontainers.pro/tools/xtail", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xtail", "latest": {"1.1.5--r40_4": "sha256:c8cb05fea45208e1645c214d919948a33c803b14aef28533aaacc962d5b12928"}, "tags": {"1.1.5--r40_4": "sha256:c8cb05fea45208e1645c214d919948a33c803b14aef28533aaacc962d5b12928"}, "docker": "quay.io/biocontainers/xtail"}
+config: {"url": "https://biocontainers.pro/tools/xtail", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xtail", "latest": {"1.1.5--r40_4": "sha256:c8cb05fea45208e1645c214d919948a33c803b14aef28533aaacc962d5b12928"}, "tags": {"1.1.5--r40_4": "sha256:c8cb05fea45208e1645c214d919948a33c803b14aef28533aaacc962d5b12928"}, "docker": "quay.io/biocontainers/xtail", "aliases": {"2to3": "/usr/local/bin/2to3", "2to3-3.8": "/usr/local/bin/2to3-3.8", "R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xtail.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### xtail
+#### 2to3
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### R
+
+```bash
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Rscript
+
+```bash
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acountry
+
+```bash
+$ singularity exec <container> /usr/local/bin/acountry
+$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### adig
+
+```bash
+$ singularity exec <container> /usr/local/bin/adig
+$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ahost
+
+```bash
+$ singularity exec <container> /usr/local/bin/ahost
+$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

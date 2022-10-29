@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/genotyphi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genotyphi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/genotyphi/container.yaml"
-updated_at: "2022-10-27 00:20:23.742054"
+updated_at: "2022-10-29 05:32:45.999435"
 latest: "1.9.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/genotyphi"
 aliases:
  - "genotyphi"
  - "genotyphi.py"
  - "parse_typhi_mykrobe.py"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "export2sam.pl"
+ - "f2py2"
+ - "f2py2.7"
+ - "fasta-sanitize.pl"
 versions:
  - "1.9.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for genotyphi"
-config: {"url": "https://biocontainers.pro/tools/genotyphi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genotyphi", "latest": {"1.9.1--hdfd78af_1": "sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde"}, "tags": {"1.9.1--hdfd78af_1": "sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde"}, "docker": "quay.io/biocontainers/genotyphi", "aliases": {"genotyphi": "/usr/local/bin/genotyphi", "genotyphi.py": "/usr/local/bin/genotyphi.py", "parse_typhi_mykrobe.py": "/usr/local/bin/parse_typhi_mykrobe.py"}}
+config: {"url": "https://biocontainers.pro/tools/genotyphi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genotyphi", "latest": {"1.9.1--hdfd78af_1": "sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde"}, "tags": {"1.9.1--hdfd78af_1": "sha256:90425b7c4c6327b2394880b97f86ed7f97943df385264d87bbb90e133f5e0cde"}, "docker": "quay.io/biocontainers/genotyphi", "aliases": {"genotyphi": "/usr/local/bin/genotyphi", "genotyphi.py": "/usr/local/bin/genotyphi.py", "parse_typhi_mykrobe.py": "/usr/local/bin/parse_typhi_mykrobe.py", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genotyphi.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/genotyphi.py   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/parse_typhi_mykrobe.py
 $ podman run --it --rm --entrypoint /usr/local/bin/parse_typhi_mykrobe.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/parse_typhi_mykrobe.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

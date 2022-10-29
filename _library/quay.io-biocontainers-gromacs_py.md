@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gromacs_py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gromacs_py/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gromacs_py/container.yaml"
-updated_at: "2022-10-27 00:36:59.610887"
+updated_at: "2022-10-29 05:54:50.287737"
 latest: "2.0.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gromacs_py"
 aliases:
@@ -144,10 +144,20 @@ aliases:
  - "xleap"
  - "xparmed"
  - "xplor2gmx.pl"
+ - "2to3-3.9"
+ - "cygdb"
+ - "cython"
+ - "cythonize"
+ - "f2py3.9"
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
+ - "gif2h5"
 versions:
  - "2.0.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gromacs_py"
-config: {"url": "https://biocontainers.pro/tools/gromacs_py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gromacs_py", "latest": {"2.0.2--pyhdfd78af_0": "sha256:1a3e56153d20e07a3f41345eb0afc09e0b32a2493f15b68afda9a1bd5a2504ff"}, "tags": {"2.0.2--pyhdfd78af_0": "sha256:1a3e56153d20e07a3f41345eb0afc09e0b32a2493f15b68afda9a1bd5a2504ff"}, "docker": "quay.io/biocontainers/gromacs_py", "aliases": {"AddToBox": "/usr/local/bin/AddToBox", "CartHess2FC.py": "/usr/local/bin/CartHess2FC.py", "ChBox": "/usr/local/bin/ChBox", "FEW.pl": "/usr/local/bin/FEW.pl", "GMXRC": "/usr/local/bin/GMXRC", "GMXRC.bash": "/usr/local/bin/GMXRC.bash", "GMXRC.csh": "/usr/local/bin/GMXRC.csh", "GMXRC.zsh": "/usr/local/bin/GMXRC.zsh", "IPMach.py": "/usr/local/bin/IPMach.py", "MCPB.py": "/usr/local/bin/MCPB.py", "MMPBSA.py": "/usr/local/bin/MMPBSA.py", "OptC4.py": "/usr/local/bin/OptC4.py", "PdbSearcher.py": "/usr/local/bin/PdbSearcher.py", "ProScrs.py": "/usr/local/bin/ProScrs.py", "PropPDB": "/usr/local/bin/PropPDB", "UnitCell": "/usr/local/bin/UnitCell", "XrayPrep": "/usr/local/bin/XrayPrep", "acpype": "/usr/local/bin/acpype", "add_pdb": "/usr/local/bin/add_pdb", "add_xray": "/usr/local/bin/add_xray", "addles": "/usr/local/bin/addles", "am1bcc": "/usr/local/bin/am1bcc", "amb2chm_par.py": "/usr/local/bin/amb2chm_par.py", "amb2chm_psf_crd.py": "/usr/local/bin/amb2chm_psf_crd.py", "amb2gro_top_gro.py": "/usr/local/bin/amb2gro_top_gro.py", "ambmask": "/usr/local/bin/ambmask", "ambpdb": "/usr/local/bin/ambpdb", "ante-MMPBSA.py": "/usr/local/bin/ante-MMPBSA.py", "antechamber": "/usr/local/bin/antechamber", "atomtype": "/usr/local/bin/atomtype", "bondtype": "/usr/local/bin/bondtype", "bondtype.orig": "/usr/local/bin/bondtype.orig", "car_to_files.py": "/usr/local/bin/car_to_files.py", "ceinutil.py": "/usr/local/bin/ceinutil.py", "cestats": "/usr/local/bin/cestats", "charmmlipid2amber.py": "/usr/local/bin/charmmlipid2amber.py", "cpeinutil.py": "/usr/local/bin/cpeinutil.py", "cphstats": "/usr/local/bin/cphstats", "cpinutil.py": "/usr/local/bin/cpinutil.py", "cpptraj": "/usr/local/bin/cpptraj", "create_peptide.py": "/usr/local/bin/create_peptide.py", "create_top.py": "/usr/local/bin/create_top.py", "demux.pl": "/usr/local/bin/demux.pl", "draw_membrane2": "/usr/local/bin/draw_membrane2", "elsize": "/usr/local/bin/elsize", "equi_3_step.py": "/usr/local/bin/equi_3_step.py", "espgen": "/usr/local/bin/espgen", "espgen.py": "/usr/local/bin/espgen.py", "extend.py": "/usr/local/bin/extend.py", "ffgbsa": "/usr/local/bin/ffgbsa", "finddgref.py": "/usr/local/bin/finddgref.py", "fitpkaeo.py": "/usr/local/bin/fitpkaeo.py", "fixremdcouts.py": "/usr/local/bin/fixremdcouts.py", "gbnsr6": "/usr/local/bin/gbnsr6", "gem.pmemd": "/usr/local/bin/gem.pmemd", "genremdinputs.py": "/usr/local/bin/genremdinputs.py", "gmx": "/usr/local/bin/gmx", "gmx-completion-gmx.bash": "/usr/local/bin/gmx-completion-gmx.bash", "gmx-completion.bash": "/usr/local/bin/gmx-completion.bash", "gwh": "/usr/local/bin/gwh", "hcp_getpdb": "/usr/local/bin/hcp_getpdb", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "insert_mol_no_vmd.py": "/usr/local/bin/insert_mol_no_vmd.py", "makeANG_RST": "/usr/local/bin/makeANG_RST", "makeDIST_RST": "/usr/local/bin/makeDIST_RST", "make_crd_hg": "/usr/local/bin/make_crd_hg", "mdgx": "/usr/local/bin/mdgx", "mdnab": "/usr/local/bin/mdnab", "mdout2pymbar.pl": "/usr/local/bin/mdout2pymbar.pl", "mdout_analyzer.py": "/usr/local/bin/mdout_analyzer.py", "memembed": "/usr/local/bin/memembed", "metalpdb2mol2.py": "/usr/local/bin/metalpdb2mol2.py", "metatwist": "/usr/local/bin/metatwist", "minab": "/usr/local/bin/minab", "minimize_pdb.py": "/usr/local/bin/minimize_pdb.py", "minimize_pdb_and_cyclic.py": "/usr/local/bin/minimize_pdb_and_cyclic.py", "mm_pbsa.pl": "/usr/local/bin/mm_pbsa.pl", "mm_pbsa_nabnmode": "/usr/local/bin/mm_pbsa_nabnmode", "mm_pbsa_statistics.pl": "/usr/local/bin/mm_pbsa_statistics.pl", "mmpbsa_py_energy": "/usr/local/bin/mmpbsa_py_energy", "mmpbsa_py_nabnmode": "/usr/local/bin/mmpbsa_py_nabnmode", "mol2rtf.py": "/usr/local/bin/mol2rtf.py", "molsurf": "/usr/local/bin/molsurf", "mpinab2c": "/usr/local/bin/mpinab2c", "nab": "/usr/local/bin/nab", "nab2c": "/usr/local/bin/nab2c", "nef_to_RST": "/usr/local/bin/nef_to_RST", "nf-config": "/usr/local/bin/nf-config", "nfe-umbrella-slice": "/usr/local/bin/nfe-umbrella-slice", "nmode": "/usr/local/bin/nmode", "packmol": "/usr/local/bin/packmol", "packmol-memgen": "/usr/local/bin/packmol-memgen", "paramfit": "/usr/local/bin/paramfit", "parmcal": "/usr/local/bin/parmcal", "parmchk2": "/usr/local/bin/parmchk2", "parmed": "/usr/local/bin/parmed", "pbsa": "/usr/local/bin/pbsa", "pdb2pqr_cli": "/usr/local/bin/pdb2pqr_cli", "pdb4amber": "/usr/local/bin/pdb4amber", "prepare_prot.py": "/usr/local/bin/prepare_prot.py", "prepare_prot_topo_edit.py": "/usr/local/bin/prepare_prot_topo_edit.py", "prepgen": "/usr/local/bin/prepgen", "process_mdout.perl": "/usr/local/bin/process_mdout.perl", "process_minout.perl": "/usr/local/bin/process_minout.perl", "production.py": "/usr/local/bin/production.py", "pymdpbsa": "/usr/local/bin/pymdpbsa", "pytleap": "/usr/local/bin/pytleap", "reduce": "/usr/local/bin/reduce", "residuegen": "/usr/local/bin/residuegen", "resp": "/usr/local/bin/resp", "respgen": "/usr/local/bin/respgen", "rism1d": "/usr/local/bin/rism1d", "rism3d.orave": "/usr/local/bin/rism3d.orave", "rism3d.snglpnt": "/usr/local/bin/rism3d.snglpnt", "rism3d.thermo": "/usr/local/bin/rism3d.thermo", "sander": "/usr/local/bin/sander", "sander.LES": "/usr/local/bin/sander.LES", "saxs_md": "/usr/local/bin/saxs_md", "saxs_rism": "/usr/local/bin/saxs_rism", "senergy": "/usr/local/bin/senergy", "sgldinfo.sh": "/usr/local/bin/sgldinfo.sh", "sgldwt.sh": "/usr/local/bin/sgldwt.sh", "simplepbsa": "/usr/local/bin/simplepbsa", "softcore_setup.py": "/usr/local/bin/softcore_setup.py", "solvate_ions.py": "/usr/local/bin/solvate_ions.py", "sqm": "/usr/local/bin/sqm", "sviol": "/usr/local/bin/sviol", "sviol2": "/usr/local/bin/sviol2", "teLeap": "/usr/local/bin/teLeap", "tleap": "/usr/local/bin/tleap", "top_em_equi_3_step_prod.py": "/usr/local/bin/top_em_equi_3_step_prod.py", "ucpp": "/usr/local/bin/ucpp", "xaLeap": "/usr/local/bin/xaLeap", "xleap": "/usr/local/bin/xleap", "xparmed": "/usr/local/bin/xparmed", "xplor2gmx.pl": "/usr/local/bin/xplor2gmx.pl"}}
+config: {"url": "https://biocontainers.pro/tools/gromacs_py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gromacs_py", "latest": {"2.0.2--pyhdfd78af_0": "sha256:1a3e56153d20e07a3f41345eb0afc09e0b32a2493f15b68afda9a1bd5a2504ff"}, "tags": {"2.0.2--pyhdfd78af_0": "sha256:1a3e56153d20e07a3f41345eb0afc09e0b32a2493f15b68afda9a1bd5a2504ff"}, "docker": "quay.io/biocontainers/gromacs_py", "aliases": {"AddToBox": "/usr/local/bin/AddToBox", "CartHess2FC.py": "/usr/local/bin/CartHess2FC.py", "ChBox": "/usr/local/bin/ChBox", "FEW.pl": "/usr/local/bin/FEW.pl", "GMXRC": "/usr/local/bin/GMXRC", "GMXRC.bash": "/usr/local/bin/GMXRC.bash", "GMXRC.csh": "/usr/local/bin/GMXRC.csh", "GMXRC.zsh": "/usr/local/bin/GMXRC.zsh", "IPMach.py": "/usr/local/bin/IPMach.py", "MCPB.py": "/usr/local/bin/MCPB.py", "MMPBSA.py": "/usr/local/bin/MMPBSA.py", "OptC4.py": "/usr/local/bin/OptC4.py", "PdbSearcher.py": "/usr/local/bin/PdbSearcher.py", "ProScrs.py": "/usr/local/bin/ProScrs.py", "PropPDB": "/usr/local/bin/PropPDB", "UnitCell": "/usr/local/bin/UnitCell", "XrayPrep": "/usr/local/bin/XrayPrep", "acpype": "/usr/local/bin/acpype", "add_pdb": "/usr/local/bin/add_pdb", "add_xray": "/usr/local/bin/add_xray", "addles": "/usr/local/bin/addles", "am1bcc": "/usr/local/bin/am1bcc", "amb2chm_par.py": "/usr/local/bin/amb2chm_par.py", "amb2chm_psf_crd.py": "/usr/local/bin/amb2chm_psf_crd.py", "amb2gro_top_gro.py": "/usr/local/bin/amb2gro_top_gro.py", "ambmask": "/usr/local/bin/ambmask", "ambpdb": "/usr/local/bin/ambpdb", "ante-MMPBSA.py": "/usr/local/bin/ante-MMPBSA.py", "antechamber": "/usr/local/bin/antechamber", "atomtype": "/usr/local/bin/atomtype", "bondtype": "/usr/local/bin/bondtype", "bondtype.orig": "/usr/local/bin/bondtype.orig", "car_to_files.py": "/usr/local/bin/car_to_files.py", "ceinutil.py": "/usr/local/bin/ceinutil.py", "cestats": "/usr/local/bin/cestats", "charmmlipid2amber.py": "/usr/local/bin/charmmlipid2amber.py", "cpeinutil.py": "/usr/local/bin/cpeinutil.py", "cphstats": "/usr/local/bin/cphstats", "cpinutil.py": "/usr/local/bin/cpinutil.py", "cpptraj": "/usr/local/bin/cpptraj", "create_peptide.py": "/usr/local/bin/create_peptide.py", "create_top.py": "/usr/local/bin/create_top.py", "demux.pl": "/usr/local/bin/demux.pl", "draw_membrane2": "/usr/local/bin/draw_membrane2", "elsize": "/usr/local/bin/elsize", "equi_3_step.py": "/usr/local/bin/equi_3_step.py", "espgen": "/usr/local/bin/espgen", "espgen.py": "/usr/local/bin/espgen.py", "extend.py": "/usr/local/bin/extend.py", "ffgbsa": "/usr/local/bin/ffgbsa", "finddgref.py": "/usr/local/bin/finddgref.py", "fitpkaeo.py": "/usr/local/bin/fitpkaeo.py", "fixremdcouts.py": "/usr/local/bin/fixremdcouts.py", "gbnsr6": "/usr/local/bin/gbnsr6", "gem.pmemd": "/usr/local/bin/gem.pmemd", "genremdinputs.py": "/usr/local/bin/genremdinputs.py", "gmx": "/usr/local/bin/gmx", "gmx-completion-gmx.bash": "/usr/local/bin/gmx-completion-gmx.bash", "gmx-completion.bash": "/usr/local/bin/gmx-completion.bash", "gwh": "/usr/local/bin/gwh", "hcp_getpdb": "/usr/local/bin/hcp_getpdb", "hwloc-gather-cpuid": "/usr/local/bin/hwloc-gather-cpuid", "insert_mol_no_vmd.py": "/usr/local/bin/insert_mol_no_vmd.py", "makeANG_RST": "/usr/local/bin/makeANG_RST", "makeDIST_RST": "/usr/local/bin/makeDIST_RST", "make_crd_hg": "/usr/local/bin/make_crd_hg", "mdgx": "/usr/local/bin/mdgx", "mdnab": "/usr/local/bin/mdnab", "mdout2pymbar.pl": "/usr/local/bin/mdout2pymbar.pl", "mdout_analyzer.py": "/usr/local/bin/mdout_analyzer.py", "memembed": "/usr/local/bin/memembed", "metalpdb2mol2.py": "/usr/local/bin/metalpdb2mol2.py", "metatwist": "/usr/local/bin/metatwist", "minab": "/usr/local/bin/minab", "minimize_pdb.py": "/usr/local/bin/minimize_pdb.py", "minimize_pdb_and_cyclic.py": "/usr/local/bin/minimize_pdb_and_cyclic.py", "mm_pbsa.pl": "/usr/local/bin/mm_pbsa.pl", "mm_pbsa_nabnmode": "/usr/local/bin/mm_pbsa_nabnmode", "mm_pbsa_statistics.pl": "/usr/local/bin/mm_pbsa_statistics.pl", "mmpbsa_py_energy": "/usr/local/bin/mmpbsa_py_energy", "mmpbsa_py_nabnmode": "/usr/local/bin/mmpbsa_py_nabnmode", "mol2rtf.py": "/usr/local/bin/mol2rtf.py", "molsurf": "/usr/local/bin/molsurf", "mpinab2c": "/usr/local/bin/mpinab2c", "nab": "/usr/local/bin/nab", "nab2c": "/usr/local/bin/nab2c", "nef_to_RST": "/usr/local/bin/nef_to_RST", "nf-config": "/usr/local/bin/nf-config", "nfe-umbrella-slice": "/usr/local/bin/nfe-umbrella-slice", "nmode": "/usr/local/bin/nmode", "packmol": "/usr/local/bin/packmol", "packmol-memgen": "/usr/local/bin/packmol-memgen", "paramfit": "/usr/local/bin/paramfit", "parmcal": "/usr/local/bin/parmcal", "parmchk2": "/usr/local/bin/parmchk2", "parmed": "/usr/local/bin/parmed", "pbsa": "/usr/local/bin/pbsa", "pdb2pqr_cli": "/usr/local/bin/pdb2pqr_cli", "pdb4amber": "/usr/local/bin/pdb4amber", "prepare_prot.py": "/usr/local/bin/prepare_prot.py", "prepare_prot_topo_edit.py": "/usr/local/bin/prepare_prot_topo_edit.py", "prepgen": "/usr/local/bin/prepgen", "process_mdout.perl": "/usr/local/bin/process_mdout.perl", "process_minout.perl": "/usr/local/bin/process_minout.perl", "production.py": "/usr/local/bin/production.py", "pymdpbsa": "/usr/local/bin/pymdpbsa", "pytleap": "/usr/local/bin/pytleap", "reduce": "/usr/local/bin/reduce", "residuegen": "/usr/local/bin/residuegen", "resp": "/usr/local/bin/resp", "respgen": "/usr/local/bin/respgen", "rism1d": "/usr/local/bin/rism1d", "rism3d.orave": "/usr/local/bin/rism3d.orave", "rism3d.snglpnt": "/usr/local/bin/rism3d.snglpnt", "rism3d.thermo": "/usr/local/bin/rism3d.thermo", "sander": "/usr/local/bin/sander", "sander.LES": "/usr/local/bin/sander.LES", "saxs_md": "/usr/local/bin/saxs_md", "saxs_rism": "/usr/local/bin/saxs_rism", "senergy": "/usr/local/bin/senergy", "sgldinfo.sh": "/usr/local/bin/sgldinfo.sh", "sgldwt.sh": "/usr/local/bin/sgldwt.sh", "simplepbsa": "/usr/local/bin/simplepbsa", "softcore_setup.py": "/usr/local/bin/softcore_setup.py", "solvate_ions.py": "/usr/local/bin/solvate_ions.py", "sqm": "/usr/local/bin/sqm", "sviol": "/usr/local/bin/sviol", "sviol2": "/usr/local/bin/sviol2", "teLeap": "/usr/local/bin/teLeap", "tleap": "/usr/local/bin/tleap", "top_em_equi_3_step_prod.py": "/usr/local/bin/top_em_equi_3_step_prod.py", "ucpp": "/usr/local/bin/ucpp", "xaLeap": "/usr/local/bin/xaLeap", "xleap": "/usr/local/bin/xleap", "xparmed": "/usr/local/bin/xparmed", "xplor2gmx.pl": "/usr/local/bin/xplor2gmx.pl", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "f2py3.9": "/usr/local/bin/f2py3.9", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "gif2h5": "/usr/local/bin/gif2h5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gromacs_py.
@@ -1454,6 +1464,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xparmed   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/xplor2gmx.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/xplor2gmx.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xplor2gmx.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cygdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cython
+
+```bash
+$ singularity exec <container> /usr/local/bin/cython
+$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cythonize
+
+```bash
+$ singularity exec <container> /usr/local/bin/cythonize
+$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

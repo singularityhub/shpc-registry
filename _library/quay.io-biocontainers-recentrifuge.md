@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/recentrifuge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/recentrifuge/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/recentrifuge/container.yaml"
-updated_at: "2022-10-27 00:25:36.006859"
+updated_at: "2022-10-29 05:39:41.151556"
 latest: "1.9.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/recentrifuge"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "retaxdump"
  - "retest"
  - "rextract"
+ - "2to3-3.10"
+ - "brotli"
+ - "cwebp"
+ - "dwebp"
+ - "f2py3.10"
+ - "fonttools"
+ - "gif2rgb"
+ - "gif2webp"
+ - "gifbuild"
+ - "gifclrmp"
 versions:
  - "1.9.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for recentrifuge"
-config: {"url": "https://biocontainers.pro/tools/recentrifuge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recentrifuge", "latest": {"1.9.1--pyhdfd78af_0": "sha256:32f8a055bd0ae507e7ce8c84fba2100b7a6554e36e8d7ca320367bbabd527897"}, "tags": {"1.9.1--pyhdfd78af_0": "sha256:32f8a055bd0ae507e7ce8c84fba2100b7a6554e36e8d7ca320367bbabd527897"}, "docker": "quay.io/biocontainers/recentrifuge", "aliases": {"rcf": "/usr/local/bin/rcf", "refasplit": "/usr/local/bin/refasplit", "remock": "/usr/local/bin/remock", "retaxdump": "/usr/local/bin/retaxdump", "retest": "/usr/local/bin/retest", "rextract": "/usr/local/bin/rextract"}}
+config: {"url": "https://biocontainers.pro/tools/recentrifuge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for recentrifuge", "latest": {"1.9.1--pyhdfd78af_0": "sha256:32f8a055bd0ae507e7ce8c84fba2100b7a6554e36e8d7ca320367bbabd527897"}, "tags": {"1.9.1--pyhdfd78af_0": "sha256:32f8a055bd0ae507e7ce8c84fba2100b7a6554e36e8d7ca320367bbabd527897"}, "docker": "quay.io/biocontainers/recentrifuge", "aliases": {"rcf": "/usr/local/bin/rcf", "refasplit": "/usr/local/bin/refasplit", "remock": "/usr/local/bin/remock", "retaxdump": "/usr/local/bin/retaxdump", "retest": "/usr/local/bin/retest", "rextract": "/usr/local/bin/rextract", "2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/recentrifuge.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/retest   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/rextract
 $ podman run --it --rm --entrypoint /usr/local/bin/rextract   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2webp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2webp
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

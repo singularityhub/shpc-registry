@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/quantiprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quantiprot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/quantiprot/container.yaml"
-updated_at: "2022-10-27 00:21:48.658340"
+updated_at: "2022-10-29 05:34:38.723607"
 latest: "0.2.4--py_0"
 container_url: "https://biocontainers.pro/tools/quantiprot"
-
+aliases:
+ - "chardetect"
+ - "f2py3.8"
 versions:
  - "0.2.4--py_0"
 description: "shpc-registry automated BioContainers addition for quantiprot"
-config: {"url": "https://biocontainers.pro/tools/quantiprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quantiprot", "latest": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "tags": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "docker": "quay.io/biocontainers/quantiprot"}
+config: {"url": "https://biocontainers.pro/tools/quantiprot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quantiprot", "latest": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "tags": {"0.2.4--py_0": "sha256:0cfbfccec994b01130ace680ba6f87e4ba9d92ad1b16023cc6fa3be2e3e73f2c"}, "docker": "quay.io/biocontainers/quantiprot", "aliases": {"chardetect": "/usr/local/bin/chardetect", "f2py3.8": "/usr/local/bin/f2py3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quantiprot.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### quantiprot
+#### chardetect
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

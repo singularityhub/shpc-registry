@@ -4,16 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ccmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccmap/container.yaml"
-updated_at: "2022-10-27 00:30:08.462406"
+updated_at: "2022-10-29 05:45:40.409046"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccmap"
 aliases:
- - ".bioconductor-ccdata-post-link.sh"
- - ".bioconductor-ccdata-pre-unlink.sh"
+ - "wget"
+ - "xgboost"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ccmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ccmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccmap", "latest": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "tags": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "docker": "quay.io/biocontainers/bioconductor-ccmap", "aliases": {".bioconductor-ccdata-post-link.sh": "/usr/local/bin/.bioconductor-ccdata-post-link.sh", ".bioconductor-ccdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ccdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ccmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ccmap", "latest": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "tags": {"1.8.0--r351_0": "sha256:61d80e33375347b1bdc5352c969f0e14b66e5f14365ee27d12bf522dd63e9ba3"}, "docker": "quay.io/biocontainers/bioconductor-ccmap", "aliases": {"wget": "/usr/local/bin/wget", "xgboost": "/usr/local/bin/xgboost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ccmap.
@@ -99,21 +99,21 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-ccdata-post-link.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ccdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-ccdata-pre-unlink.sh
+#### xgboost
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xgboost
+$ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

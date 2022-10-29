@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/varfish-annotator-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varfish-annotator-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/varfish-annotator-cli/container.yaml"
-updated_at: "2022-10-27 00:33:12.674306"
+updated_at: "2022-10-29 05:49:45.385865"
 latest: "0.9--0"
 container_url: "https://biocontainers.pro/tools/varfish-annotator-cli"
 aliases:
  - "varfish-annotator"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "javac"
+ - "javadoc"
+ - "javap"
+ - "jcmd"
+ - "jconsole"
+ - "jdb"
 versions:
  - "0.9--0"
 description: "shpc-registry automated BioContainers addition for varfish-annotator-cli"
-config: {"url": "https://biocontainers.pro/tools/varfish-annotator-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varfish-annotator-cli", "latest": {"0.9--0": "sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467"}, "tags": {"0.9--0": "sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467"}, "docker": "quay.io/biocontainers/varfish-annotator-cli", "aliases": {"varfish-annotator": "/usr/local/bin/varfish-annotator"}}
+config: {"url": "https://biocontainers.pro/tools/varfish-annotator-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varfish-annotator-cli", "latest": {"0.9--0": "sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467"}, "tags": {"0.9--0": "sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467"}, "docker": "quay.io/biocontainers/varfish-annotator-cli", "aliases": {"varfish-annotator": "/usr/local/bin/varfish-annotator", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole", "jdb": "/usr/local/bin/jdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varfish-annotator-cli.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/varfish-annotator
 $ podman run --it --rm --entrypoint /usr/local/bin/varfish-annotator   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/varfish-annotator   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javap
+
+```bash
+$ singularity exec <container> /usr/local/bin/javap
+$ podman run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/jcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jconsole
+
+```bash
+$ singularity exec <container> /usr/local/bin/jconsole
+$ podman run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/jdb
+$ podman run --it --rm --entrypoint /usr/local/bin/jdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jdb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

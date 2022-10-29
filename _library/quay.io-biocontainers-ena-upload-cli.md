@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/ena-upload-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-upload-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ena-upload-cli/container.yaml"
-updated_at: "2022-10-27 00:37:35.113525"
+updated_at: "2022-10-29 05:55:36.390086"
 latest: "0.6.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ena-upload-cli"
 aliases:
  - "ena-upload-cli"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "normalizer"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
+ - "xml2-config.bak"
+ - "xslt-config"
 versions:
  - "0.6.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for ena-upload-cli"
-config: {"url": "https://biocontainers.pro/tools/ena-upload-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-upload-cli", "latest": {"0.6.1--pyh5e36f6f_0": "sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6"}, "tags": {"0.6.1--pyh5e36f6f_0": "sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6"}, "docker": "quay.io/biocontainers/ena-upload-cli", "aliases": {"ena-upload-cli": "/usr/local/bin/ena-upload-cli"}}
+config: {"url": "https://biocontainers.pro/tools/ena-upload-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-upload-cli", "latest": {"0.6.1--pyh5e36f6f_0": "sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6"}, "tags": {"0.6.1--pyh5e36f6f_0": "sha256:b3244a8caf8c18efd7fc7970ed5f79c18b4eeed933be1c488ec90f0741061ca6"}, "docker": "quay.io/biocontainers/ena-upload-cli", "aliases": {"ena-upload-cli": "/usr/local/bin/ena-upload-cli", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "xslt-config": "/usr/local/bin/xslt-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ena-upload-cli.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ena-upload-cli
 $ podman run --it --rm --entrypoint /usr/local/bin/ena-upload-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ena-upload-cli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xml2-config.bak
+
+```bash
+$ singularity exec <container> /usr/local/bin/xml2-config.bak
+$ podman run --it --rm --entrypoint /usr/local/bin/xml2-config.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xml2-config.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

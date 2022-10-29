@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bftools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bftools/container.yaml"
-updated_at: "2022-10-27 00:35:24.775895"
+updated_at: "2022-10-29 05:52:44.151887"
 latest: "6.7.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bftools"
 aliases:
@@ -20,10 +20,20 @@ aliases:
  - "showinf"
  - "xmlindent"
  - "xmlvalid"
+ - "aserver"
+ - "build_env_setup.sh"
+ - "conda_build.sh"
+ - "cups-config"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
 versions:
  - "6.7.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bftools"
-config: {"url": "https://biocontainers.pro/tools/bftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bftools", "latest": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "tags": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "docker": "quay.io/biocontainers/bftools", "aliases": {"bf.sh": "/usr/local/bin/bf.sh", "bfconvert": "/usr/local/bin/bfconvert", "bioformats_package.jar": "/usr/local/bin/bioformats_package.jar", "config.sh": "/usr/local/bin/config.sh", "domainlist": "/usr/local/bin/domainlist", "formatlist": "/usr/local/bin/formatlist", "ijview": "/usr/local/bin/ijview", "logback.xml": "/usr/local/bin/logback.xml", "mkfake": "/usr/local/bin/mkfake", "showinf": "/usr/local/bin/showinf", "xmlindent": "/usr/local/bin/xmlindent", "xmlvalid": "/usr/local/bin/xmlvalid"}}
+config: {"url": "https://biocontainers.pro/tools/bftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bftools", "latest": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "tags": {"6.7.0--hdfd78af_0": "sha256:4f7e54cd1366910cb03f41efec6e83373a50d2e17724f049e05deb87bcd86fba"}, "docker": "quay.io/biocontainers/bftools", "aliases": {"bf.sh": "/usr/local/bin/bf.sh", "bfconvert": "/usr/local/bin/bfconvert", "bioformats_package.jar": "/usr/local/bin/bioformats_package.jar", "config.sh": "/usr/local/bin/config.sh", "domainlist": "/usr/local/bin/domainlist", "formatlist": "/usr/local/bin/formatlist", "ijview": "/usr/local/bin/ijview", "logback.xml": "/usr/local/bin/logback.xml", "mkfake": "/usr/local/bin/mkfake", "showinf": "/usr/local/bin/showinf", "xmlindent": "/usr/local/bin/xmlindent", "xmlvalid": "/usr/local/bin/xmlvalid", "aserver": "/usr/local/bin/aserver", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "cups-config": "/usr/local/bin/cups-config", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bftools.
@@ -214,6 +224,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/xmlindent   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/xmlvalid
 $ podman run --it --rm --entrypoint /usr/local/bin/xmlvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xmlvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### build_env_setup.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/build_env_setup.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conda_build.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda_build.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cups-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/cups-config
+$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

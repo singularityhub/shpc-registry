@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/perl-gfacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gfacs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gfacs/container.yaml"
-updated_at: "2022-10-27 00:38:47.417124"
+updated_at: "2022-10-29 05:57:10.085089"
 latest: "1.1.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-gfacs"
 aliases:
  - "gFACs.pl"
+ - "2to3-3.7"
+ - "SOAPsh.pl"
+ - "ace.pl"
+ - "acyclic"
+ - "annotate"
+ - "bam2bedgraph"
+ - "bamToGBrowse.pl"
+ - "baseml"
+ - "basemlg"
+ - "bcomps"
 versions:
  - "1.1.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-gfacs"
-config: {"url": "https://biocontainers.pro/tools/perl-gfacs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gfacs", "latest": {"1.1.1--hdfd78af_1": "sha256:71f699bb525e581f4820fce9ed2041f36c1d1d4ff34d0b0d463b4a778495b05a"}, "tags": {"1.1.1--hdfd78af_1": "sha256:71f699bb525e581f4820fce9ed2041f36c1d1d4ff34d0b0d463b4a778495b05a"}, "docker": "quay.io/biocontainers/perl-gfacs", "aliases": {"gFACs.pl": "/usr/local/bin/gFACs.pl"}}
+config: {"url": "https://biocontainers.pro/tools/perl-gfacs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-gfacs", "latest": {"1.1.1--hdfd78af_1": "sha256:71f699bb525e581f4820fce9ed2041f36c1d1d4ff34d0b0d463b4a778495b05a"}, "tags": {"1.1.1--hdfd78af_1": "sha256:71f699bb525e581f4820fce9ed2041f36c1d1d4ff34d0b0d463b4a778495b05a"}, "docker": "quay.io/biocontainers/perl-gfacs", "aliases": {"gFACs.pl": "/usr/local/bin/gFACs.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "bcomps": "/usr/local/bin/bcomps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-gfacs.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/gFACs.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/gFACs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gFACs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SOAPsh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bedgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bedgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToGBrowse.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### baseml
+
+```bash
+$ singularity exec <container> /usr/local/bin/baseml
+$ podman run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basemlg
+
+```bash
+$ singularity exec <container> /usr/local/bin/basemlg
+$ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

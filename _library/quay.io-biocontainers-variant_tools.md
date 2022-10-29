@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/variant_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/variant_tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/variant_tools/container.yaml"
-updated_at: "2022-10-27 00:24:52.607295"
+updated_at: "2022-10-29 05:38:43.080753"
 latest: "3.1.3--py36ha7febfa_2"
 container_url: "https://biocontainers.pro/tools/variant_tools"
 aliases:
  - "vtools"
  - "vtools_report"
  - "worker_run"
+ - "2to3-3.6"
+ - "curve_keygen"
+ - "f2py3.6"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
 versions:
  - "3.1.3--py36ha7febfa_2"
 description: "shpc-registry automated BioContainers addition for variant_tools"
-config: {"url": "https://biocontainers.pro/tools/variant_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variant_tools", "latest": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91"}, "tags": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91"}, "docker": "quay.io/biocontainers/variant_tools", "aliases": {"vtools": "/usr/local/bin/vtools", "vtools_report": "/usr/local/bin/vtools_report", "worker_run": "/usr/local/bin/worker_run"}}
+config: {"url": "https://biocontainers.pro/tools/variant_tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for variant_tools", "latest": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91"}, "tags": {"3.1.3--py36ha7febfa_2": "sha256:4b20ba746976b8ddb3c36d7df5c6177a0aa6706ac1789db3171d3db8c4935a91"}, "docker": "quay.io/biocontainers/variant_tools", "aliases": {"vtools": "/usr/local/bin/vtools", "vtools_report": "/usr/local/bin/vtools_report", "worker_run": "/usr/local/bin/worker_run", "2to3-3.6": "/usr/local/bin/2to3-3.6", "curve_keygen": "/usr/local/bin/curve_keygen", "f2py3.6": "/usr/local/bin/f2py3.6", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/variant_tools.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vtools_report   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/worker_run
 $ podman run --it --rm --entrypoint /usr/local/bin/worker_run   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/worker_run   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### curve_keygen
+
+```bash
+$ singularity exec <container> /usr/local/bin/curve_keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

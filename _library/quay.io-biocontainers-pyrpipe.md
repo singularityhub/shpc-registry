@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyrpipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyrpipe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyrpipe/container.yaml"
-updated_at: "2022-10-27 00:31:01.529586"
+updated_at: "2022-10-29 05:46:52.289864"
 latest: "0.0.5--py_0"
 container_url: "https://biocontainers.pro/tools/pyrpipe"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "pyrpipe"
  - "pyrpipe_diagnostic"
  - "weasyprint"
+ - "2to3-3.9"
+ - "chardetect"
+ - "coloredlogs"
+ - "f2py3.9"
+ - "futurize"
+ - "get_objgraph"
+ - "humanfriendly"
+ - "idle3.9"
+ - "jpgicc"
+ - "linkicc"
 versions:
  - "0.0.5--py_0"
 description: "shpc-registry automated BioContainers addition for pyrpipe"
-config: {"url": "https://biocontainers.pro/tools/pyrpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrpipe", "latest": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "tags": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "docker": "quay.io/biocontainers/pyrpipe", "aliases": {"cairosvg": "/usr/local/bin/cairosvg", "pyrpipe": "/usr/local/bin/pyrpipe", "pyrpipe_diagnostic": "/usr/local/bin/pyrpipe_diagnostic", "weasyprint": "/usr/local/bin/weasyprint"}}
+config: {"url": "https://biocontainers.pro/tools/pyrpipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyrpipe", "latest": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "tags": {"0.0.5--py_0": "sha256:453268243ab589f495bb6240175b98e6445264b68483716a80904c683538f842"}, "docker": "quay.io/biocontainers/pyrpipe", "aliases": {"cairosvg": "/usr/local/bin/cairosvg", "pyrpipe": "/usr/local/bin/pyrpipe", "pyrpipe_diagnostic": "/usr/local/bin/pyrpipe_diagnostic", "weasyprint": "/usr/local/bin/weasyprint", "2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "coloredlogs": "/usr/local/bin/coloredlogs", "f2py3.9": "/usr/local/bin/f2py3.9", "futurize": "/usr/local/bin/futurize", "get_objgraph": "/usr/local/bin/get_objgraph", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyrpipe.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pyrpipe_diagnostic   -v ${PWD
 $ singularity exec <container> /usr/local/bin/weasyprint
 $ podman run --it --rm --entrypoint /usr/local/bin/weasyprint   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/weasyprint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coloredlogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### get_objgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/get_objgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/get_objgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### humanfriendly
+
+```bash
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

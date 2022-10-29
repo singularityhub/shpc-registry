@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bsmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bsmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bsmap/container.yaml"
-updated_at: "2022-10-27 00:36:30.523812"
+updated_at: "2022-10-29 05:54:10.950616"
 latest: "2.90--h5b5514e_4"
 container_url: "https://biocontainers.pro/tools/bsmap"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "methdiff.py"
  - "methratio.py"
  - "sam2bam.sh"
+ - "ace2sam"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "build_env_setup.sh"
+ - "conda_build.sh"
+ - "export2sam.pl"
+ - "fasta-sanitize.pl"
+ - "htsfile"
+ - "idle"
 versions:
  - "2.90--h5b5514e_4"
 description: "shpc-registry automated BioContainers addition for bsmap"
-config: {"url": "https://biocontainers.pro/tools/bsmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bsmap", "latest": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "tags": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "docker": "quay.io/biocontainers/bsmap", "aliases": {"bsmap": "/usr/local/bin/bsmap", "bsp2sam.py": "/usr/local/bin/bsp2sam.py", "methdiff.py": "/usr/local/bin/methdiff.py", "methratio.py": "/usr/local/bin/methratio.py", "sam2bam.sh": "/usr/local/bin/sam2bam.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bsmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bsmap", "latest": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "tags": {"2.90--h5b5514e_4": "sha256:03e1c7931c26dd818f2ba3ed0a8cb2d2769e04e10b233825a16b9bc0a924a3f2"}, "docker": "quay.io/biocontainers/bsmap", "aliases": {"bsmap": "/usr/local/bin/bsmap", "bsp2sam.py": "/usr/local/bin/bsp2sam.py", "methdiff.py": "/usr/local/bin/methdiff.py", "methratio.py": "/usr/local/bin/methratio.py", "sam2bam.sh": "/usr/local/bin/sam2bam.sh", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "htsfile": "/usr/local/bin/htsfile", "idle": "/usr/local/bin/idle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bsmap.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/methratio.py   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/sam2bam.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/sam2bam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sam2bam.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### build_env_setup.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/build_env_setup.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conda_build.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda_build.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

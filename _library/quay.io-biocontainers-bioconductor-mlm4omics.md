@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mlm4omics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mlm4omics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mlm4omics/container.yaml"
-updated_at: "2022-10-27 00:26:30.425386"
+updated_at: "2022-10-29 05:40:54.582743"
 latest: "1.2.0--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mlm4omics"
-
+aliases:
+ - "gio-launch-desktop"
 versions:
  - "1.2.0--r351hf484d3e_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mlm4omics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mlm4omics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlm4omics", "latest": {"1.2.0--r351hf484d3e_0": "sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe"}, "tags": {"1.2.0--r351hf484d3e_0": "sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe"}, "docker": "quay.io/biocontainers/bioconductor-mlm4omics"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mlm4omics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mlm4omics", "latest": {"1.2.0--r351hf484d3e_0": "sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe"}, "tags": {"1.2.0--r351hf484d3e_0": "sha256:e5f233767451206ba965fd483a5c316e3813c71bf52e8fe1121652d5f3725abe"}, "docker": "quay.io/biocontainers/bioconductor-mlm4omics", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mlm4omics.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-mlm4omics
+#### gio-launch-desktop
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

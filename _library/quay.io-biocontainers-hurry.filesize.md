@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/hurry.filesize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hurry.filesize/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hurry.filesize/container.yaml"
-updated_at: "2022-10-27 00:34:18.324498"
+updated_at: "2022-10-29 05:51:13.698114"
 latest: "0.9--py35_0"
 container_url: "https://biocontainers.pro/tools/hurry.filesize"
-
+aliases:
+ - "2to3-3.5"
+ - "easy_install-3.5"
+ - "idle3.5"
+ - "pydoc3.5"
+ - "python3.5"
+ - "python3.5-config"
+ - "python3.5m"
+ - "python3.5m-config"
+ - "pyvenv-3.5"
+ - "tclsh8.5"
 versions:
  - "0.9--py35_0"
 description: "shpc-registry automated BioContainers addition for hurry.filesize"
-config: {"url": "https://biocontainers.pro/tools/hurry.filesize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hurry.filesize", "latest": {"0.9--py35_0": "sha256:087fb4e13a96d5c38bd9dc221a365dc9d0179f6858ae71201de40915aef66f86"}, "tags": {"0.9--py35_0": "sha256:087fb4e13a96d5c38bd9dc221a365dc9d0179f6858ae71201de40915aef66f86"}, "docker": "quay.io/biocontainers/hurry.filesize"}
+config: {"url": "https://biocontainers.pro/tools/hurry.filesize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hurry.filesize", "latest": {"0.9--py35_0": "sha256:087fb4e13a96d5c38bd9dc221a365dc9d0179f6858ae71201de40915aef66f86"}, "tags": {"0.9--py35_0": "sha256:087fb4e13a96d5c38bd9dc221a365dc9d0179f6858ae71201de40915aef66f86"}, "docker": "quay.io/biocontainers/hurry.filesize", "aliases": {"2to3-3.5": "/usr/local/bin/2to3-3.5", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hurry.filesize.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### hurry.filesize
+#### 2to3-3.5
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### easy_install-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.5m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.5m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.5m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

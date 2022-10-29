@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/w4mclstrpeakpics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/w4mclstrpeakpics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/w4mclstrpeakpics/container.yaml"
-updated_at: "2022-10-27 00:33:15.257890"
+updated_at: "2022-10-29 05:49:48.599145"
 latest: "0.98.1--r351_1"
 container_url: "https://biocontainers.pro/tools/w4mclstrpeakpics"
-
+aliases:
+ - "R"
+ - "Rscript"
+ - "activate"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
+ - "bzegrep"
+ - "bzfgrep"
 versions:
  - "0.98.1--r351_1"
 description: "shpc-registry automated BioContainers addition for w4mclstrpeakpics"
-config: {"url": "https://biocontainers.pro/tools/w4mclstrpeakpics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for w4mclstrpeakpics", "latest": {"0.98.1--r351_1": "sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a"}, "tags": {"0.98.1--r351_1": "sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a"}, "docker": "quay.io/biocontainers/w4mclstrpeakpics"}
+config: {"url": "https://biocontainers.pro/tools/w4mclstrpeakpics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for w4mclstrpeakpics", "latest": {"0.98.1--r351_1": "sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a"}, "tags": {"0.98.1--r351_1": "sha256:c474a6bf024776b3fb303c8bc8325ee4dda57ec3efb72b2629d3b55024eb042a"}, "docker": "quay.io/biocontainers/w4mclstrpeakpics", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "activate": "/usr/local/bin/activate", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff", "bzegrep": "/usr/local/bin/bzegrep", "bzfgrep": "/usr/local/bin/bzfgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/w4mclstrpeakpics.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### w4mclstrpeakpics
+#### R
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### Rscript
+
+```bash
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### activate
+
+```bash
+$ singularity exec <container> /usr/local/bin/activate
+$ podman run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzegrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzegrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzfgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzfgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

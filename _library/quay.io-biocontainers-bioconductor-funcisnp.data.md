@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-funcisnp.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funcisnp.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funcisnp.data/container.yaml"
-updated_at: "2022-10-27 00:22:03.594197"
+updated_at: "2022-10-29 05:34:58.325135"
 latest: "1.22.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-funcisnp.data"
 aliases:
- - ".bioconductor-funcisnp.data-post-link.sh"
- - ".bioconductor-funcisnp.data-pre-unlink.sh"
+ - "c89"
+ - "c99"
+ - "gio-launch-desktop"
 versions:
  - "1.22.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-funcisnp.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-funcisnp.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funcisnp.data", "latest": {"1.22.0--r36_0": "sha256:da9aba17b782dcead39d4ded37ce0d3bfc21fec797592600e55039ceda7ac6a4"}, "tags": {"1.22.0--r36_0": "sha256:da9aba17b782dcead39d4ded37ce0d3bfc21fec797592600e55039ceda7ac6a4"}, "docker": "quay.io/biocontainers/bioconductor-funcisnp.data", "aliases": {".bioconductor-funcisnp.data-post-link.sh": "/usr/local/bin/.bioconductor-funcisnp.data-post-link.sh", ".bioconductor-funcisnp.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-funcisnp.data-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-funcisnp.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funcisnp.data", "latest": {"1.22.0--r36_0": "sha256:da9aba17b782dcead39d4ded37ce0d3bfc21fec797592600e55039ceda7ac6a4"}, "tags": {"1.22.0--r36_0": "sha256:da9aba17b782dcead39d4ded37ce0d3bfc21fec797592600e55039ceda7ac6a4"}, "docker": "quay.io/biocontainers/bioconductor-funcisnp.data", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-funcisnp.data.
@@ -99,21 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-funcisnp.data-post-link.sh
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-funcisnp.data-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-funcisnp.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-funcisnp.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-funcisnp.data-pre-unlink.sh
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-funcisnp.data-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-funcisnp.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-funcisnp.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

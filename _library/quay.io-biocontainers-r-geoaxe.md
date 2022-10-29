@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-geoaxe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-geoaxe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-geoaxe/container.yaml"
-updated_at: "2022-10-27 00:39:21.936367"
+updated_at: "2022-10-29 05:57:55.580388"
 latest: "0.1.0--r351h6115d3f_4"
 container_url: "https://biocontainers.pro/tools/r-geoaxe"
-
+aliases:
+ - "geos-config"
 versions:
  - "0.1.0--r351h6115d3f_4"
 description: "shpc-registry automated BioContainers addition for r-geoaxe"
-config: {"url": "https://biocontainers.pro/tools/r-geoaxe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geoaxe", "latest": {"0.1.0--r351h6115d3f_4": "sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486"}, "tags": {"0.1.0--r351h6115d3f_4": "sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486"}, "docker": "quay.io/biocontainers/r-geoaxe"}
+config: {"url": "https://biocontainers.pro/tools/r-geoaxe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-geoaxe", "latest": {"0.1.0--r351h6115d3f_4": "sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486"}, "tags": {"0.1.0--r351h6115d3f_4": "sha256:8d00bd7d195b909409dfb8d10c4353c9742c0f43da8353f5ea911d82a9e4a486"}, "docker": "quay.io/biocontainers/r-geoaxe", "aliases": {"geos-config": "/usr/local/bin/geos-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-geoaxe.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-geoaxe
+#### geos-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/geos-config
+$ podman run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/asn2gb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/asn2gb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/asn2gb/container.yaml"
-updated_at: "2022-10-27 00:32:42.010077"
+updated_at: "2022-10-29 05:49:05.814144"
 latest: "18.2--h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/asn2gb"
 aliases:
  - "asn2gb"
+ - "idn"
 versions:
  - "18.2--h9ee0642_3"
 description: "shpc-registry automated BioContainers addition for asn2gb"
-config: {"url": "https://biocontainers.pro/tools/asn2gb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for asn2gb", "latest": {"18.2--h9ee0642_3": "sha256:7a3836210bc32927642f0862f060cde4edb7aad26651b236e914753ba10ac663"}, "tags": {"18.2--h9ee0642_3": "sha256:7a3836210bc32927642f0862f060cde4edb7aad26651b236e914753ba10ac663"}, "docker": "quay.io/biocontainers/asn2gb", "aliases": {"asn2gb": "/usr/local/bin/asn2gb"}}
+config: {"url": "https://biocontainers.pro/tools/asn2gb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for asn2gb", "latest": {"18.2--h9ee0642_3": "sha256:7a3836210bc32927642f0862f060cde4edb7aad26651b236e914753ba10ac663"}, "tags": {"18.2--h9ee0642_3": "sha256:7a3836210bc32927642f0862f060cde4edb7aad26651b236e914753ba10ac663"}, "docker": "quay.io/biocontainers/asn2gb", "aliases": {"asn2gb": "/usr/local/bin/asn2gb", "idn": "/usr/local/bin/idn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/asn2gb.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/asn2gb
 $ podman run --it --rm --entrypoint /usr/local/bin/asn2gb   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/asn2gb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idn
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn
+$ podman run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

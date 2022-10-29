@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/fgbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fgbio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fgbio/container.yaml"
-updated_at: "2022-10-27 00:33:40.072182"
+updated_at: "2022-10-29 05:50:20.539989"
 latest: "2.0.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fgbio"
 aliases:
  - "fgbio"
+ - "2to3-3.10"
+ - "aserver"
+ - "cups-config"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
+ - "idle3.10"
 versions:
  - "2.0.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fgbio"
-config: {"url": "https://biocontainers.pro/tools/fgbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgbio", "latest": {"2.0.2--hdfd78af_0": "sha256:135dd9bcd5d2819b93b69d7c9433c80f0ff4bc40f9cbd911b638ee98183f2dc8"}, "tags": {"2.0.2--hdfd78af_0": "sha256:135dd9bcd5d2819b93b69d7c9433c80f0ff4bc40f9cbd911b638ee98183f2dc8"}, "docker": "quay.io/biocontainers/fgbio", "aliases": {"fgbio": "/usr/local/bin/fgbio"}}
+config: {"url": "https://biocontainers.pro/tools/fgbio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fgbio", "latest": {"2.0.2--hdfd78af_0": "sha256:135dd9bcd5d2819b93b69d7c9433c80f0ff4bc40f9cbd911b638ee98183f2dc8"}, "tags": {"2.0.2--hdfd78af_0": "sha256:135dd9bcd5d2819b93b69d7c9433c80f0ff4bc40f9cbd911b638ee98183f2dc8"}, "docker": "quay.io/biocontainers/fgbio", "aliases": {"fgbio": "/usr/local/bin/fgbio", "2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "cups-config": "/usr/local/bin/cups-config", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fgbio.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/fgbio
 $ podman run --it --rm --entrypoint /usr/local/bin/fgbio   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fgbio   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cups-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/cups-config
+$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

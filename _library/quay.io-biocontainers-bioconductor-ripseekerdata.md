@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ripseekerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ripseekerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ripseekerdata/container.yaml"
-updated_at: "2022-10-27 00:39:54.775688"
+updated_at: "2022-10-29 05:58:37.272154"
 latest: "1.22.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ripseekerdata"
 aliases:
- - ".bioconductor-ripseekerdata-post-link.sh"
- - ".bioconductor-ripseekerdata-pre-unlink.sh"
+ - "gio-launch-desktop"
 versions:
  - "1.22.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ripseekerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ripseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ripseekerdata", "latest": {"1.22.0--r36_0": "sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa"}, "tags": {"1.22.0--r36_0": "sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa"}, "docker": "quay.io/biocontainers/bioconductor-ripseekerdata", "aliases": {".bioconductor-ripseekerdata-post-link.sh": "/usr/local/bin/.bioconductor-ripseekerdata-post-link.sh", ".bioconductor-ripseekerdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ripseekerdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ripseekerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ripseekerdata", "latest": {"1.22.0--r36_0": "sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa"}, "tags": {"1.22.0--r36_0": "sha256:9f3bc452e4b62c3ecf93b5cd5debd109d8b1c6a0cc59f9b713e7ced09be5deaa"}, "docker": "quay.io/biocontainers/bioconductor-ripseekerdata", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ripseekerdata.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-ripseekerdata-post-link.sh
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ripseekerdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ripseekerdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ripseekerdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-ripseekerdata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ripseekerdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ripseekerdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ripseekerdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

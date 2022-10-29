@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/msisensor-pro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msisensor-pro/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/msisensor-pro/container.yaml"
-updated_at: "2022-10-27 00:31:50.688483"
+updated_at: "2022-10-29 05:47:57.461874"
 latest: "v1.2.0--hfc31af2_0"
 container_url: "https://biocontainers.pro/tools/msisensor-pro"
 aliases:
  - "msisensor-pro"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "v1.2.0--hfc31af2_0"
 description: "shpc-registry automated BioContainers addition for msisensor-pro"
-config: {"url": "https://biocontainers.pro/tools/msisensor-pro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msisensor-pro", "latest": {"v1.2.0--hfc31af2_0": "sha256:7a73de995ab598c1819d5476f7450ad0c311d5235651a6466c445d74338d230e"}, "tags": {"v1.2.0--hfc31af2_0": "sha256:7a73de995ab598c1819d5476f7450ad0c311d5235651a6466c445d74338d230e"}, "docker": "quay.io/biocontainers/msisensor-pro", "aliases": {"msisensor-pro": "/usr/local/bin/msisensor-pro"}}
+config: {"url": "https://biocontainers.pro/tools/msisensor-pro", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msisensor-pro", "latest": {"v1.2.0--hfc31af2_0": "sha256:7a73de995ab598c1819d5476f7450ad0c311d5235651a6466c445d74338d230e"}, "tags": {"v1.2.0--hfc31af2_0": "sha256:7a73de995ab598c1819d5476f7450ad0c311d5235651a6466c445d74338d230e"}, "docker": "quay.io/biocontainers/msisensor-pro", "aliases": {"msisensor-pro": "/usr/local/bin/msisensor-pro", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msisensor-pro.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/msisensor-pro
 $ podman run --it --rm --entrypoint /usr/local/bin/msisensor-pro   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/msisensor-pro   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

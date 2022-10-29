@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/extracthifi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/extracthifi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/extracthifi/container.yaml"
-updated_at: "2022-10-27 00:19:19.372499"
+updated_at: "2022-10-29 05:31:23.227769"
 latest: "1.0.0--0"
 container_url: "https://biocontainers.pro/tools/extracthifi"
 aliases:
- - ".extracthifi-post-link.sh"
  - "extracthifi"
 versions:
  - "1.0.0--0"
 description: "shpc-registry automated BioContainers addition for extracthifi"
-config: {"url": "https://biocontainers.pro/tools/extracthifi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extracthifi", "latest": {"1.0.0--0": "sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa"}, "tags": {"1.0.0--0": "sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa"}, "docker": "quay.io/biocontainers/extracthifi", "aliases": {".extracthifi-post-link.sh": "/usr/local/bin/.extracthifi-post-link.sh", "extracthifi": "/usr/local/bin/extracthifi"}}
+config: {"url": "https://biocontainers.pro/tools/extracthifi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for extracthifi", "latest": {"1.0.0--0": "sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa"}, "tags": {"1.0.0--0": "sha256:a46b2bff402296dc5ea06a767ae464112f756552b7df67a9c0b815221d3720fa"}, "docker": "quay.io/biocontainers/extracthifi", "aliases": {"extracthifi": "/usr/local/bin/extracthifi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/extracthifi.
@@ -96,15 +95,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .extracthifi-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.extracthifi-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.extracthifi-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.extracthifi-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

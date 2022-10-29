@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metalign/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metalign/container.yaml"
-updated_at: "2022-10-27 00:27:59.871249"
+updated_at: "2022-10-29 05:42:52.998966"
 latest: "0.12.5--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/metalign"
 aliases:
@@ -18,10 +18,20 @@ aliases:
  - "map_and_profile.py"
  - "metalign.py"
  - "select_db.py"
+ - "2to3-3.7"
+ - "abundance-dist-single.py"
+ - "abundance-dist.py"
+ - "annotate-partitions.py"
+ - "count-median.py"
+ - "do-partition.py"
+ - "extract-long-sequences.py"
+ - "extract-paired-reads.py"
+ - "extract-partitions.py"
+ - "f2py3.7"
 versions:
  - "0.12.5--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for metalign"
-config: {"url": "https://biocontainers.pro/tools/metalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metalign", "latest": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "tags": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "docker": "quay.io/biocontainers/metalign", "aliases": {"MakeDNADatabase.py": "/usr/local/bin/MakeDNADatabase.py", "MakeNodeGraph.py": "/usr/local/bin/MakeNodeGraph.py", "MakeStreamingDNADatabase.py": "/usr/local/bin/MakeStreamingDNADatabase.py", "MakeStreamingPrefilter.py": "/usr/local/bin/MakeStreamingPrefilter.py", "QueryDNADatabase.py": "/usr/local/bin/QueryDNADatabase.py", "StreamingQueryDNADatabase.py": "/usr/local/bin/StreamingQueryDNADatabase.py", "StreamingQueryDNADatabase_queue.py": "/usr/local/bin/StreamingQueryDNADatabase_queue.py", "map_and_profile.py": "/usr/local/bin/map_and_profile.py", "metalign.py": "/usr/local/bin/metalign.py", "select_db.py": "/usr/local/bin/select_db.py"}}
+config: {"url": "https://biocontainers.pro/tools/metalign", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metalign", "latest": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "tags": {"0.12.5--pyh864c0ab_1": "sha256:42c649b328c0d98d8f6436c7d9071fa4a60191fb094afb4c628e19ba01b54a46"}, "docker": "quay.io/biocontainers/metalign", "aliases": {"MakeDNADatabase.py": "/usr/local/bin/MakeDNADatabase.py", "MakeNodeGraph.py": "/usr/local/bin/MakeNodeGraph.py", "MakeStreamingDNADatabase.py": "/usr/local/bin/MakeStreamingDNADatabase.py", "MakeStreamingPrefilter.py": "/usr/local/bin/MakeStreamingPrefilter.py", "QueryDNADatabase.py": "/usr/local/bin/QueryDNADatabase.py", "StreamingQueryDNADatabase.py": "/usr/local/bin/StreamingQueryDNADatabase.py", "StreamingQueryDNADatabase_queue.py": "/usr/local/bin/StreamingQueryDNADatabase_queue.py", "map_and_profile.py": "/usr/local/bin/map_and_profile.py", "metalign.py": "/usr/local/bin/metalign.py", "select_db.py": "/usr/local/bin/select_db.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "count-median.py": "/usr/local/bin/count-median.py", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "f2py3.7": "/usr/local/bin/f2py3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metalign.
@@ -194,6 +204,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/metalign.py   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/select_db.py
 $ podman run --it --rm --entrypoint /usr/local/bin/select_db.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/select_db.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abundance-dist-single.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/abundance-dist-single.py
+$ podman run --it --rm --entrypoint /usr/local/bin/abundance-dist-single.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abundance-dist-single.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abundance-dist.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/abundance-dist.py
+$ podman run --it --rm --entrypoint /usr/local/bin/abundance-dist.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abundance-dist.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate-partitions.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate-partitions.py
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### count-median.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/count-median.py
+$ podman run --it --rm --entrypoint /usr/local/bin/count-median.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/count-median.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### do-partition.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/do-partition.py
+$ podman run --it --rm --entrypoint /usr/local/bin/do-partition.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/do-partition.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extract-long-sequences.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/extract-long-sequences.py
+$ podman run --it --rm --entrypoint /usr/local/bin/extract-long-sequences.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extract-long-sequences.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extract-paired-reads.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/extract-paired-reads.py
+$ podman run --it --rm --entrypoint /usr/local/bin/extract-paired-reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extract-paired-reads.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extract-partitions.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/extract-partitions.py
+$ podman run --it --rm --entrypoint /usr/local/bin/extract-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extract-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

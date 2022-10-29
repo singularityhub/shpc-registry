@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/ngscheckmate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngscheckmate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ngscheckmate/container.yaml"
-updated_at: "2022-10-27 00:27:24.713045"
+updated_at: "2022-10-29 05:42:07.840059"
 latest: "1.0.0--py27r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/ngscheckmate"
 aliases:
  - "ncm.py"
  - "ncm_fastq.py"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "export2sam.pl"
+ - "fasta-sanitize.pl"
+ - "gff2gff.py"
+ - "guess-ploidy.py"
 versions:
  - "1.0.0--py27r41hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for ngscheckmate"
-config: {"url": "https://biocontainers.pro/tools/ngscheckmate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngscheckmate", "latest": {"1.0.0--py27r41hdfd78af_3": "sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af"}, "tags": {"1.0.0--py27r41hdfd78af_3": "sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af"}, "docker": "quay.io/biocontainers/ngscheckmate", "aliases": {"ncm.py": "/usr/local/bin/ncm.py", "ncm_fastq.py": "/usr/local/bin/ncm_fastq.py"}}
+config: {"url": "https://biocontainers.pro/tools/ngscheckmate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngscheckmate", "latest": {"1.0.0--py27r41hdfd78af_3": "sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af"}, "tags": {"1.0.0--py27r41hdfd78af_3": "sha256:7a75cb714aa195d812ade0ec82912e0a913b66039075b26e96c9343032aa28af"}, "docker": "quay.io/biocontainers/ngscheckmate", "aliases": {"ncm.py": "/usr/local/bin/ncm.py", "ncm_fastq.py": "/usr/local/bin/ncm_fastq.py", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngscheckmate.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncm.py   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/ncm_fastq.py
 $ podman run --it --rm --entrypoint /usr/local/bin/ncm_fastq.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncm_fastq.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gff2gff.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/gff2gff.py
+$ podman run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### guess-ploidy.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

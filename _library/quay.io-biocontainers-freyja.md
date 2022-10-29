@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/freyja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/freyja/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/freyja/container.yaml"
-updated_at: "2022-10-27 00:25:22.399480"
+updated_at: "2022-10-29 05:39:23.296194"
 latest: "1.3.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/freyja"
 aliases:
@@ -26,10 +26,20 @@ aliases:
  - "ssh-keyscan"
  - "sshd"
  - "usher"
+ - "2to3-3.10"
+ - "ace2sam"
+ - "aggregate_profile.pl"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "brotli"
+ - "cwebp"
+ - "dwebp"
+ - "einsi"
 versions:
  - "1.3.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for freyja"
-config: {"url": "https://biocontainers.pro/tools/freyja", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for freyja", "latest": {"1.3.9--pyhdfd78af_0": "sha256:d5a2f3350b27d0fbe1fcf26567a92512545d3ef99d31f0c52a9ddb42a6f8c225"}, "tags": {"1.3.9--pyhdfd78af_0": "sha256:d5a2f3350b27d0fbe1fcf26567a92512545d3ef99d31f0c52a9ddb42a6f8c225"}, "docker": "quay.io/biocontainers/freyja", "aliases": {"faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "freyja": "/usr/local/bin/freyja", "ivar": "/usr/local/bin/ivar", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "ripples": "/usr/local/bin/ripples", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "usher": "/usr/local/bin/usher"}}
+config: {"url": "https://biocontainers.pro/tools/freyja", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for freyja", "latest": {"1.3.9--pyhdfd78af_0": "sha256:d5a2f3350b27d0fbe1fcf26567a92512545d3ef99d31f0c52a9ddb42a6f8c225"}, "tags": {"1.3.9--pyhdfd78af_0": "sha256:d5a2f3350b27d0fbe1fcf26567a92512545d3ef99d31f0c52a9ddb42a6f8c225"}, "docker": "quay.io/biocontainers/freyja", "aliases": {"faToVcf": "/usr/local/bin/faToVcf", "fido2-assert": "/usr/local/bin/fido2-assert", "fido2-cred": "/usr/local/bin/fido2-cred", "fido2-token": "/usr/local/bin/fido2-token", "freyja": "/usr/local/bin/freyja", "ivar": "/usr/local/bin/ivar", "matOptimize": "/usr/local/bin/matOptimize", "matUtils": "/usr/local/bin/matUtils", "ripples": "/usr/local/bin/ripples", "scp": "/usr/local/bin/scp", "sftp": "/usr/local/bin/sftp", "ssh": "/usr/local/bin/ssh", "ssh-add": "/usr/local/bin/ssh-add", "ssh-agent": "/usr/local/bin/ssh-agent", "ssh-keygen": "/usr/local/bin/ssh-keygen", "ssh-keyscan": "/usr/local/bin/ssh-keyscan", "sshd": "/usr/local/bin/sshd", "usher": "/usr/local/bin/usher", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "einsi": "/usr/local/bin/einsi"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/freyja.
@@ -274,6 +284,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sshd   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/usher
 $ podman run --it --rm --entrypoint /usr/local/bin/usher   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/usher   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_profile.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### einsi
+
+```bash
+$ singularity exec <container> /usr/local/bin/einsi
+$ podman run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/einsi   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

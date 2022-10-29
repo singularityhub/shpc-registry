@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-clipper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clipper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clipper/container.yaml"
-updated_at: "2022-10-27 00:30:05.427039"
+updated_at: "2022-10-29 05:45:36.562582"
 latest: "1.34.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-clipper"
-
+aliases:
+ - "glpsol"
 versions:
  - "1.34.0--r41hc247a5b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-clipper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clipper", "latest": {"1.34.0--r41hc247a5b_2": "sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6"}, "docker": "quay.io/biocontainers/bioconductor-clipper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clipper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clipper", "latest": {"1.34.0--r41hc247a5b_2": "sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6"}, "tags": {"1.34.0--r41hc247a5b_2": "sha256:af25fa54acf82e3fe612e1cd3f4b918869e853f72293382407dd5e26831581a6"}, "docker": "quay.io/biocontainers/bioconductor-clipper", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clipper.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-clipper
+#### glpsol
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

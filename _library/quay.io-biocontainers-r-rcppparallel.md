@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/r-rcppparallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rcppparallel/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-rcppparallel/container.yaml"
-updated_at: "2022-10-27 00:35:22.218216"
+updated_at: "2022-10-29 05:52:40.883644"
 latest: "4.3.20--r3.3.1_1"
 container_url: "https://biocontainers.pro/tools/r-rcppparallel"
-
+aliases:
+ - "bmp2tiff"
+ - "gif2tiff"
+ - "ras2tiff"
+ - "rgb2ycbcr"
+ - "thumbnail"
+ - "uconv"
 versions:
  - "4.3.20--r3.3.1_1"
 description: "shpc-registry automated BioContainers addition for r-rcppparallel"
-config: {"url": "https://biocontainers.pro/tools/r-rcppparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcppparallel", "latest": {"4.3.20--r3.3.1_1": "sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef"}, "tags": {"4.3.20--r3.3.1_1": "sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef"}, "docker": "quay.io/biocontainers/r-rcppparallel"}
+config: {"url": "https://biocontainers.pro/tools/r-rcppparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rcppparallel", "latest": {"4.3.20--r3.3.1_1": "sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef"}, "tags": {"4.3.20--r3.3.1_1": "sha256:0b06b12d5cd926a5299f24a835f6b7ba14d615161fd2a0efdf17b448964de9ef"}, "docker": "quay.io/biocontainers/r-rcppparallel", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rcppparallel.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-rcppparallel
+#### bmp2tiff
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ras2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/ras2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rgb2ycbcr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rgb2ycbcr
+$ podman run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thumbnail
+
+```bash
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### uconv
+
+```bash
+$ singularity exec <container> /usr/local/bin/uconv
+$ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/raiss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raiss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/raiss/container.yaml"
-updated_at: "2022-10-27 00:31:27.164277"
+updated_at: "2022-10-29 05:47:26.387818"
 latest: "3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/raiss"
 aliases:
  - "raiss"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "3.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for raiss"
-config: {"url": "https://biocontainers.pro/tools/raiss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raiss", "latest": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a"}, "tags": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a"}, "docker": "quay.io/biocontainers/raiss", "aliases": {"raiss": "/usr/local/bin/raiss"}}
+config: {"url": "https://biocontainers.pro/tools/raiss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for raiss", "latest": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a"}, "tags": {"3.1--pyhdfd78af_0": "sha256:6e7e7a148d3a6ef925059fa26f00a70bb65c104e31523b07e5b70a0f453b2f3a"}, "docker": "quay.io/biocontainers/raiss", "aliases": {"raiss": "/usr/local/bin/raiss", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/raiss.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/raiss
 $ podman run --it --rm --entrypoint /usr/local/bin/raiss   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/raiss   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

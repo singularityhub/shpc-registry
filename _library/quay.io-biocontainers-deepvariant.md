@@ -4,19 +4,27 @@ name:  "quay.io/biocontainers/deepvariant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepvariant/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deepvariant/container.yaml"
-updated_at: "2022-10-27 00:26:28.674844"
+updated_at: "2022-10-29 05:40:51.834402"
 latest: "1.4.0--py36hf3e76ba_0"
 container_url: "https://biocontainers.pro/tools/deepvariant"
 aliases:
- - ".deepvariant-post-link.sh"
- - ".deepvariant-pre-unlink.sh"
  - "dv_call_variants.py"
  - "dv_make_examples.py"
  - "dv_postprocess_variants.py"
+ - "2to3-3.6"
+ - "appletviewer"
+ - "bgzip"
+ - "bq"
+ - "chardetect"
+ - "clhsdb"
+ - "docker-credential-gcloud"
+ - "env_parallel"
+ - "env_parallel.ash"
+ - "env_parallel.bash"
 versions:
  - "1.4.0--py36hf3e76ba_0"
 description: "shpc-registry automated BioContainers addition for deepvariant"
-config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {".deepvariant-post-link.sh": "/usr/local/bin/.deepvariant-post-link.sh", ".deepvariant-pre-unlink.sh": "/usr/local/bin/.deepvariant-pre-unlink.sh", "dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py"}}
+config: {"url": "https://biocontainers.pro/tools/deepvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepvariant", "latest": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "tags": {"1.4.0--py36hf3e76ba_0": "sha256:3479d8ee8b670117922797e12b09ac06f34ed5a5ee9e766fa6aa0fb9d15ca5d3"}, "docker": "quay.io/biocontainers/deepvariant", "aliases": {"dv_call_variants.py": "/usr/local/bin/dv_call_variants.py", "dv_make_examples.py": "/usr/local/bin/dv_make_examples.py", "dv_postprocess_variants.py": "/usr/local/bin/dv_postprocess_variants.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "bgzip": "/usr/local/bin/bgzip", "bq": "/usr/local/bin/bq", "chardetect": "/usr/local/bin/chardetect", "clhsdb": "/usr/local/bin/clhsdb", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepvariant.
@@ -102,24 +110,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .deepvariant-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.deepvariant-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.deepvariant-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.deepvariant-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .deepvariant-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.deepvariant-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.deepvariant-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.deepvariant-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### dv_call_variants.py
 
 ```bash
@@ -144,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dv_make_examples.py   -v ${PW
 $ singularity exec <container> /usr/local/bin/dv_postprocess_variants.py
 $ podman run --it --rm --entrypoint /usr/local/bin/dv_postprocess_variants.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dv_postprocess_variants.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bq
+$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/clhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### docker-credential-gcloud
+
+```bash
+$ singularity exec <container> /usr/local/bin/docker-credential-gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.ash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.ash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.bash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.bash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.cnv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.cnv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.cnv/container.yaml"
-updated_at: "2022-10-27 00:35:25.621380"
+updated_at: "2022-10-29 05:52:45.218545"
 latest: "1.22.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.cnv"
 aliases:
- - ".bioconductor-rtcga.cnv-post-link.sh"
- - ".bioconductor-rtcga.cnv-pre-unlink.sh"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "1.22.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.cnv"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.cnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.cnv", "latest": {"1.22.0--r41hdfd78af_1": "sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.cnv", "aliases": {".bioconductor-rtcga.cnv-post-link.sh": "/usr/local/bin/.bioconductor-rtcga.cnv-post-link.sh", ".bioconductor-rtcga.cnv-pre-unlink.sh": "/usr/local/bin/.bioconductor-rtcga.cnv-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.cnv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.cnv", "latest": {"1.22.0--r41hdfd78af_1": "sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:ba68d24d2f2bbe117a9e3ba28a523d91abe20adf5ea2bbe7e961a8d9284415c4"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.cnv", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.cnv.
@@ -99,21 +104,66 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-rtcga.cnv-post-link.sh
+#### 2to3-3.10
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-rtcga.cnv-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.cnv-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.cnv-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-rtcga.cnv-pre-unlink.sh
+#### f2py3.10
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-rtcga.cnv-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.cnv-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rtcga.cnv-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

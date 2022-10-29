@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-test-prereq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-prereq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-prereq/container.yaml"
-updated_at: "2022-10-27 00:29:20.334348"
+updated_at: "2022-10-29 05:44:37.942716"
 latest: "2.002--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-test-prereq"
-
+aliases:
+ - "config_data"
 versions:
  - "2.002--pl5321hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for perl-test-prereq"
-config: {"url": "https://biocontainers.pro/tools/perl-test-prereq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-prereq", "latest": {"2.002--pl5321hdfd78af_4": "sha256:14dbd3baef3a4292447addff5e355b68344a9d6ed8eca455545aab1473a0cade"}, "tags": {"2.002--pl5321hdfd78af_4": "sha256:14dbd3baef3a4292447addff5e355b68344a9d6ed8eca455545aab1473a0cade"}, "docker": "quay.io/biocontainers/perl-test-prereq"}
+config: {"url": "https://biocontainers.pro/tools/perl-test-prereq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-prereq", "latest": {"2.002--pl5321hdfd78af_4": "sha256:14dbd3baef3a4292447addff5e355b68344a9d6ed8eca455545aab1473a0cade"}, "tags": {"2.002--pl5321hdfd78af_4": "sha256:14dbd3baef3a4292447addff5e355b68344a9d6ed8eca455545aab1473a0cade"}, "docker": "quay.io/biocontainers/perl-test-prereq", "aliases": {"config_data": "/usr/local/bin/config_data"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-prereq.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-test-prereq
+#### config_data
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/config_data
+$ podman run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

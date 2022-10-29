@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/dnaio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnaio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dnaio/container.yaml"
-updated_at: "2022-10-27 00:33:52.414060"
+updated_at: "2022-10-29 05:50:37.368108"
 latest: "0.8.0--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/dnaio"
-
+aliases:
+ - "2to3-3.9"
+ - "idle3.9"
+ - "igzip"
+ - "pbunzip2"
+ - "pbzcat"
+ - "pbzip2"
+ - "pigz"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.8.0--py39hbf8eff0_0"
 description: "shpc-registry automated BioContainers addition for dnaio"
-config: {"url": "https://biocontainers.pro/tools/dnaio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnaio", "latest": {"0.8.0--py39hbf8eff0_0": "sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733"}, "tags": {"0.8.0--py39hbf8eff0_0": "sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733"}, "docker": "quay.io/biocontainers/dnaio"}
+config: {"url": "https://biocontainers.pro/tools/dnaio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dnaio", "latest": {"0.8.0--py39hbf8eff0_0": "sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733"}, "tags": {"0.8.0--py39hbf8eff0_0": "sha256:ba32fbeebfb974dbd40ca9d4772901a388168aec2bdd4c31a1e8dd8d6d158733"}, "docker": "quay.io/biocontainers/dnaio", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "igzip": "/usr/local/bin/igzip", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat", "pbzip2": "/usr/local/bin/pbzip2", "pigz": "/usr/local/bin/pigz", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dnaio.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### dnaio
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### igzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/igzip
+$ podman run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/pbunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/pbzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/pbzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pigz
+
+```bash
+$ singularity exec <container> /usr/local/bin/pigz
+$ podman run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pigz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

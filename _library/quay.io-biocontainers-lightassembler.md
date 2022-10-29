@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/lightassembler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lightassembler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lightassembler/container.yaml"
-updated_at: "2022-10-27 00:39:47.056402"
+updated_at: "2022-10-29 05:58:26.988626"
 latest: "1.0--hd03093a_3"
 container_url: "https://biocontainers.pro/tools/lightassembler"
 aliases:
  - "LightAssembler"
+ - "libtool"
+ - "libtoolize"
 versions:
  - "1.0--hd03093a_3"
 description: "shpc-registry automated BioContainers addition for lightassembler"
-config: {"url": "https://biocontainers.pro/tools/lightassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightassembler", "latest": {"1.0--hd03093a_3": "sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3"}, "tags": {"1.0--hd03093a_3": "sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3"}, "docker": "quay.io/biocontainers/lightassembler", "aliases": {"LightAssembler": "/usr/local/bin/LightAssembler"}}
+config: {"url": "https://biocontainers.pro/tools/lightassembler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lightassembler", "latest": {"1.0--hd03093a_3": "sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3"}, "tags": {"1.0--hd03093a_3": "sha256:58f381db032a2492cf55c21fee6da846a34af825ce151aa0bcab99c9507abdc3"}, "docker": "quay.io/biocontainers/lightassembler", "aliases": {"LightAssembler": "/usr/local/bin/LightAssembler", "libtool": "/usr/local/bin/libtool", "libtoolize": "/usr/local/bin/libtoolize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lightassembler.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/LightAssembler
 $ podman run --it --rm --entrypoint /usr/local/bin/LightAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/LightAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### libtool
+
+```bash
+$ singularity exec <container> /usr/local/bin/libtool
+$ podman run --it --rm --entrypoint /usr/local/bin/libtool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/libtool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### libtoolize
+
+```bash
+$ singularity exec <container> /usr/local/bin/libtoolize
+$ podman run --it --rm --entrypoint /usr/local/bin/libtoolize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/libtoolize   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/coolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/coolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/coolbox/container.yaml"
-updated_at: "2022-10-27 00:28:02.400834"
+updated_at: "2022-10-29 05:42:56.205026"
 latest: "0.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/coolbox"
 aliases:
  - "coolbox"
  - "jupyter-server"
  - "voila"
+ - "2to3-3.8"
+ - "ace2sam"
+ - "aserver"
+ - "assistant"
+ - "bam2pairs"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bokeh"
+ - "bowtie2sam.pl"
+ - "canbusutil"
 versions:
  - "0.3.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for coolbox"
-config: {"url": "https://biocontainers.pro/tools/coolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coolbox", "latest": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "tags": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "docker": "quay.io/biocontainers/coolbox", "aliases": {"coolbox": "/usr/local/bin/coolbox", "jupyter-server": "/usr/local/bin/jupyter-server", "voila": "/usr/local/bin/voila"}}
+config: {"url": "https://biocontainers.pro/tools/coolbox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for coolbox", "latest": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "tags": {"0.3.8--pyhdfd78af_0": "sha256:b4e9e211fe25d123cded2aa88b0297565a2bda58dd2d974a6be5b3f4b60d0fde"}, "docker": "quay.io/biocontainers/coolbox", "aliases": {"coolbox": "/usr/local/bin/coolbox", "jupyter-server": "/usr/local/bin/jupyter-server", "voila": "/usr/local/bin/voila", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ace2sam": "/usr/local/bin/ace2sam", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bam2pairs": "/usr/local/bin/bam2pairs", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bokeh": "/usr/local/bin/bokeh", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "canbusutil": "/usr/local/bin/canbusutil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/coolbox.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/jupyter-server   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/voila
 $ podman run --it --rm --entrypoint /usr/local/bin/voila   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/voila   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2pairs
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2pairs
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bokeh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bokeh
+$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

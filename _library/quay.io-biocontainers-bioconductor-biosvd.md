@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-biosvd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biosvd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biosvd/container.yaml"
-updated_at: "2022-10-27 00:20:53.524209"
+updated_at: "2022-10-29 05:33:26.555382"
 latest: "2.23.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biosvd"
-
+aliases:
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "2.23.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biosvd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biosvd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biosvd", "latest": {"2.23.0--r40_0": "sha256:323eee6a918d69728cad476ee1e7ccf5ee19000cccfdd8b0041d9e267f22b1e3"}, "tags": {"2.23.0--r40_0": "sha256:323eee6a918d69728cad476ee1e7ccf5ee19000cccfdd8b0041d9e267f22b1e3"}, "docker": "quay.io/biocontainers/bioconductor-biosvd"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biosvd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biosvd", "latest": {"2.23.0--r40_0": "sha256:323eee6a918d69728cad476ee1e7ccf5ee19000cccfdd8b0041d9e267f22b1e3"}, "tags": {"2.23.0--r40_0": "sha256:323eee6a918d69728cad476ee1e7ccf5ee19000cccfdd8b0041d9e267f22b1e3"}, "docker": "quay.io/biocontainers/bioconductor-biosvd", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biosvd.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-biosvd
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

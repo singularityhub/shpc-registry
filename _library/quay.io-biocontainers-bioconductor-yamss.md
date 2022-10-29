@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-yamss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yamss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yamss/container.yaml"
-updated_at: "2022-10-27 00:38:50.385796"
+updated_at: "2022-10-29 05:57:14.406313"
 latest: "1.8.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yamss"
-
+aliases:
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
+ - "gif2h5"
+ - "gif2hdf"
+ - "h4_ncdump"
+ - "h4_ncgen"
+ - "h4cc"
+ - "h4redeploy"
 versions:
  - "1.8.1--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-yamss"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-yamss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yamss", "latest": {"1.8.1--r351_0": "sha256:9285b8010c1d4d898bf53f05c31a8a7291bef05988674aa5ad1521d7c5144e77"}, "tags": {"1.8.1--r351_0": "sha256:9285b8010c1d4d898bf53f05c31a8a7291bef05988674aa5ad1521d7c5144e77"}, "docker": "quay.io/biocontainers/bioconductor-yamss"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-yamss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yamss", "latest": {"1.8.1--r351_0": "sha256:9285b8010c1d4d898bf53f05c31a8a7291bef05988674aa5ad1521d7c5144e77"}, "tags": {"1.8.1--r351_0": "sha256:9285b8010c1d4d898bf53f05c31a8a7291bef05988674aa5ad1521d7c5144e77"}, "docker": "quay.io/biocontainers/bioconductor-yamss", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-yamss.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-yamss
+#### fftw-wisdom
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2hdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2hdf
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncdump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncdump
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncdump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4_ncgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4_ncgen
+$ podman run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4_ncgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h4redeploy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h4redeploy
+$ podman run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h4redeploy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

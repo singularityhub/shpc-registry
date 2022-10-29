@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/xmlstarlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmlstarlet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xmlstarlet/container.yaml"
-updated_at: "2022-10-27 00:29:16.103312"
+updated_at: "2022-10-29 05:44:31.448644"
 latest: "1.6.1"
 container_url: "https://biocontainers.pro/tools/xmlstarlet"
 aliases:
  - "xml"
+ - "xslt-config"
+ - "xsltproc"
 versions:
  - "1.6.1"
 description: "shpc-registry automated BioContainers addition for xmlstarlet"
-config: {"url": "https://biocontainers.pro/tools/xmlstarlet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmlstarlet", "latest": {"1.6.1": "sha256:c07c380a5b1a7a469186d8bc088e9520ab8e2af23531135ecf17d705d90fac9d"}, "tags": {"1.6.1": "sha256:c07c380a5b1a7a469186d8bc088e9520ab8e2af23531135ecf17d705d90fac9d"}, "docker": "quay.io/biocontainers/xmlstarlet", "aliases": {"xml": "/usr/local/bin/xml"}}
+config: {"url": "https://biocontainers.pro/tools/xmlstarlet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmlstarlet", "latest": {"1.6.1": "sha256:c07c380a5b1a7a469186d8bc088e9520ab8e2af23531135ecf17d705d90fac9d"}, "tags": {"1.6.1": "sha256:c07c380a5b1a7a469186d8bc088e9520ab8e2af23531135ecf17d705d90fac9d"}, "docker": "quay.io/biocontainers/xmlstarlet", "aliases": {"xml": "/usr/local/bin/xml", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xmlstarlet.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/xml
 $ podman run --it --rm --entrypoint /usr/local/bin/xml   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xslt-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/xslt-config
+$ podman run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xslt-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xsltproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/xsltproc
+$ podman run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xsltproc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

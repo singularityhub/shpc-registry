@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-lockfile-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-lockfile-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-lockfile-simple/container.yaml"
-updated_at: "2022-10-27 00:23:02.079103"
+updated_at: "2022-10-29 05:36:17.346282"
 latest: "0.208--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-lockfile-simple"
-
+aliases:
+ - "env-execute"
 versions:
  - "0.208--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-lockfile-simple"
-config: {"url": "https://biocontainers.pro/tools/perl-lockfile-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lockfile-simple", "latest": {"0.208--hdfd78af_1": "sha256:2f29d4dcf77ec38763bb34a9f3f09f1fa9dd367d3962fde46a161a12e13cbc23"}, "tags": {"0.208--hdfd78af_1": "sha256:2f29d4dcf77ec38763bb34a9f3f09f1fa9dd367d3962fde46a161a12e13cbc23"}, "docker": "quay.io/biocontainers/perl-lockfile-simple"}
+config: {"url": "https://biocontainers.pro/tools/perl-lockfile-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-lockfile-simple", "latest": {"0.208--hdfd78af_1": "sha256:2f29d4dcf77ec38763bb34a9f3f09f1fa9dd367d3962fde46a161a12e13cbc23"}, "tags": {"0.208--hdfd78af_1": "sha256:2f29d4dcf77ec38763bb34a9f3f09f1fa9dd367d3962fde46a161a12e13cbc23"}, "docker": "quay.io/biocontainers/perl-lockfile-simple", "aliases": {"env-execute": "/usr/local/env-execute"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-lockfile-simple.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-lockfile-simple
+#### env-execute
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/env-execute
+$ podman run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/env-execute   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

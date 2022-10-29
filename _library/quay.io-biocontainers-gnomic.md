@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/gnomic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gnomic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gnomic/container.yaml"
-updated_at: "2022-10-27 00:33:25.544941"
+updated_at: "2022-10-29 05:50:02.088679"
 latest: "1.0.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/gnomic"
 aliases:
  - "grako"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.0.1--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for gnomic"
-config: {"url": "https://biocontainers.pro/tools/gnomic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnomic", "latest": {"1.0.1--pyh864c0ab_1": "sha256:9c656d5c4c8f3611078ae40bc1a4acf8f7428959a3b701d6d289fbc415ef9408"}, "tags": {"1.0.1--pyh864c0ab_1": "sha256:9c656d5c4c8f3611078ae40bc1a4acf8f7428959a3b701d6d289fbc415ef9408"}, "docker": "quay.io/biocontainers/gnomic", "aliases": {"grako": "/usr/local/bin/grako"}}
+config: {"url": "https://biocontainers.pro/tools/gnomic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gnomic", "latest": {"1.0.1--pyh864c0ab_1": "sha256:9c656d5c4c8f3611078ae40bc1a4acf8f7428959a3b701d6d289fbc415ef9408"}, "tags": {"1.0.1--pyh864c0ab_1": "sha256:9c656d5c4c8f3611078ae40bc1a4acf8f7428959a3b701d6d289fbc415ef9408"}, "docker": "quay.io/biocontainers/gnomic", "aliases": {"grako": "/usr/local/bin/grako", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gnomic.
@@ -104,6 +109,51 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/grako
 $ podman run --it --rm --entrypoint /usr/local/bin/grako   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/grako   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

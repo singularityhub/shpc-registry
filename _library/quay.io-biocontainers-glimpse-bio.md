@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/glimpse-bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimpse-bio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/glimpse-bio/container.yaml"
-updated_at: "2022-10-27 00:26:03.533022"
+updated_at: "2022-10-29 05:40:18.507189"
 latest: "v1.1.1--hd3cd7f2_0"
 container_url: "https://biocontainers.pro/tools/glimpse-bio"
 aliases:
@@ -14,10 +14,13 @@ aliases:
  - "GLIMPSE_phase"
  - "GLIMPSE_sample"
  - "GLIMPSE_snparray"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "v1.1.1--hd3cd7f2_0"
 description: "shpc-registry automated BioContainers addition for glimpse-bio"
-config: {"url": "https://biocontainers.pro/tools/glimpse-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimpse-bio", "latest": {"v1.1.1--hd3cd7f2_0": "sha256:31ea0d60db8f22d95c3d6cc8c4ca3899e7c4ee659169a00b93ba7c0e0fd1a207"}, "tags": {"v1.1.1--hd3cd7f2_0": "sha256:31ea0d60db8f22d95c3d6cc8c4ca3899e7c4ee659169a00b93ba7c0e0fd1a207"}, "docker": "quay.io/biocontainers/glimpse-bio", "aliases": {"GLIMPSE_chunk": "/usr/local/bin/GLIMPSE_chunk", "GLIMPSE_concordance": "/usr/local/bin/GLIMPSE_concordance", "GLIMPSE_ligate": "/usr/local/bin/GLIMPSE_ligate", "GLIMPSE_phase": "/usr/local/bin/GLIMPSE_phase", "GLIMPSE_sample": "/usr/local/bin/GLIMPSE_sample", "GLIMPSE_snparray": "/usr/local/bin/GLIMPSE_snparray"}}
+config: {"url": "https://biocontainers.pro/tools/glimpse-bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimpse-bio", "latest": {"v1.1.1--hd3cd7f2_0": "sha256:31ea0d60db8f22d95c3d6cc8c4ca3899e7c4ee659169a00b93ba7c0e0fd1a207"}, "tags": {"v1.1.1--hd3cd7f2_0": "sha256:31ea0d60db8f22d95c3d6cc8c4ca3899e7c4ee659169a00b93ba7c0e0fd1a207"}, "docker": "quay.io/biocontainers/glimpse-bio", "aliases": {"GLIMPSE_chunk": "/usr/local/bin/GLIMPSE_chunk", "GLIMPSE_concordance": "/usr/local/bin/GLIMPSE_concordance", "GLIMPSE_ligate": "/usr/local/bin/GLIMPSE_ligate", "GLIMPSE_phase": "/usr/local/bin/GLIMPSE_phase", "GLIMPSE_sample": "/usr/local/bin/GLIMPSE_sample", "GLIMPSE_snparray": "/usr/local/bin/GLIMPSE_snparray", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glimpse-bio.
@@ -154,6 +157,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/GLIMPSE_sample   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/GLIMPSE_snparray
 $ podman run --it --rm --entrypoint /usr/local/bin/GLIMPSE_snparray   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/GLIMPSE_snparray   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

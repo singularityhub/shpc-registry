@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ygs98.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ygs98.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ygs98.db/container.yaml"
-updated_at: "2022-10-27 00:29:02.869920"
+updated_at: "2022-10-29 05:44:14.696054"
 latest: "3.2.3--r41hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-ygs98.db"
 aliases:
- - ".bioconductor-ygs98.db-post-link.sh"
- - ".bioconductor-ygs98.db-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for bioconductor-ygs98.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ygs98.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ygs98.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:20587c04a93f008820d551508fa945adb423af4957b66dbab2d7665872355c95"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:20587c04a93f008820d551508fa945adb423af4957b66dbab2d7665872355c95"}, "docker": "quay.io/biocontainers/bioconductor-ygs98.db", "aliases": {".bioconductor-ygs98.db-post-link.sh": "/usr/local/bin/.bioconductor-ygs98.db-post-link.sh", ".bioconductor-ygs98.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-ygs98.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ygs98.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ygs98.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:20587c04a93f008820d551508fa945adb423af4957b66dbab2d7665872355c95"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:20587c04a93f008820d551508fa945adb423af4957b66dbab2d7665872355c95"}, "docker": "quay.io/biocontainers/bioconductor-ygs98.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ygs98.db.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-ygs98.db-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ygs98.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ygs98.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ygs98.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-ygs98.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ygs98.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ygs98.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ygs98.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

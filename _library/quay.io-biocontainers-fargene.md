@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fargene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fargene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fargene/container.yaml"
-updated_at: "2022-10-27 00:28:49.737489"
+updated_at: "2022-10-29 05:43:57.852318"
 latest: "0.1--py27h21c881e_4"
 container_url: "https://biocontainers.pro/tools/fargene"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "fargene"
  - "fargene_model_creation"
  - "pick_long_reads"
+ - "_aaindexextract"
+ - "_abiview"
+ - "_acdc"
+ - "_acdpretty"
+ - "_acdtable"
+ - "_acdtrace"
+ - "_acdvalid"
+ - "_antigenic"
+ - "_backtranambig"
+ - "_backtranseq"
 versions:
  - "0.1--py27h21c881e_4"
 description: "shpc-registry automated BioContainers addition for fargene"
-config: {"url": "https://biocontainers.pro/tools/fargene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fargene", "latest": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "tags": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "docker": "quay.io/biocontainers/fargene", "aliases": {"ORFfinder": "/usr/local/bin/ORFfinder", "fargene": "/usr/local/bin/fargene", "fargene_model_creation": "/usr/local/bin/fargene_model_creation", "pick_long_reads": "/usr/local/bin/pick_long_reads"}}
+config: {"url": "https://biocontainers.pro/tools/fargene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fargene", "latest": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "tags": {"0.1--py27h21c881e_4": "sha256:77f944a47472696df2dc5b316fdd2a7a36135fbf64fea6d3360eb873abff478a"}, "docker": "quay.io/biocontainers/fargene", "aliases": {"ORFfinder": "/usr/local/bin/ORFfinder", "fargene": "/usr/local/bin/fargene", "fargene_model_creation": "/usr/local/bin/fargene_model_creation", "pick_long_reads": "/usr/local/bin/pick_long_reads", "_aaindexextract": "/usr/local/bin/_aaindexextract", "_abiview": "/usr/local/bin/_abiview", "_acdc": "/usr/local/bin/_acdc", "_acdpretty": "/usr/local/bin/_acdpretty", "_acdtable": "/usr/local/bin/_acdtable", "_acdtrace": "/usr/local/bin/_acdtrace", "_acdvalid": "/usr/local/bin/_acdvalid", "_antigenic": "/usr/local/bin/_antigenic", "_backtranambig": "/usr/local/bin/_backtranambig", "_backtranseq": "/usr/local/bin/_backtranseq"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fargene.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fargene_model_creation   -v $
 $ singularity exec <container> /usr/local/bin/pick_long_reads
 $ podman run --it --rm --entrypoint /usr/local/bin/pick_long_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pick_long_reads   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _aaindexextract
+
+```bash
+$ singularity exec <container> /usr/local/bin/_aaindexextract
+$ podman run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _abiview
+
+```bash
+$ singularity exec <container> /usr/local/bin/_abiview
+$ podman run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdc
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdc
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdpretty
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdpretty
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtable
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtable
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtrace
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtrace
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdvalid
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdvalid
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _antigenic
+
+```bash
+$ singularity exec <container> /usr/local/bin/_antigenic
+$ podman run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _backtranambig
+
+```bash
+$ singularity exec <container> /usr/local/bin/_backtranambig
+$ podman run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _backtranseq
+
+```bash
+$ singularity exec <container> /usr/local/bin/_backtranseq
+$ podman run --it --rm --entrypoint /usr/local/bin/_backtranseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_backtranseq   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

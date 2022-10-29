@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/socru"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/socru/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/socru/container.yaml"
-updated_at: "2022-10-27 00:25:37.281086"
+updated_at: "2022-10-29 05:39:42.765384"
 latest: "2.2.4--py_1"
 container_url: "https://biocontainers.pro/tools/socru"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "socru_shrink_database"
  - "socru_species"
  - "socru_update_profile"
+ - "2to3-3.8"
+ - "CA.pm"
+ - "accn-at-a-time"
+ - "alimask"
+ - "amino-acid-composition"
+ - "annotateBed"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "bamToBed"
 versions:
  - "2.2.4--py_1"
 description: "shpc-registry automated BioContainers addition for socru"
-config: {"url": "https://biocontainers.pro/tools/socru", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for socru", "latest": {"2.2.4--py_1": "sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8"}, "tags": {"2.2.4--py_1": "sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8"}, "docker": "quay.io/biocontainers/socru", "aliases": {"socru": "/usr/local/bin/socru", "socru_create": "/usr/local/bin/socru_create", "socru_rebuild_profile": "/usr/local/bin/socru_rebuild_profile", "socru_shrink_database": "/usr/local/bin/socru_shrink_database", "socru_species": "/usr/local/bin/socru_species", "socru_update_profile": "/usr/local/bin/socru_update_profile"}}
+config: {"url": "https://biocontainers.pro/tools/socru", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for socru", "latest": {"2.2.4--py_1": "sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8"}, "tags": {"2.2.4--py_1": "sha256:7b75eac862334deac9d56ce38d1c3f49d7e878b0fa5930f17611f09774d3b6d8"}, "docker": "quay.io/biocontainers/socru", "aliases": {"socru": "/usr/local/bin/socru", "socru_create": "/usr/local/bin/socru_create", "socru_rebuild_profile": "/usr/local/bin/socru_rebuild_profile", "socru_shrink_database": "/usr/local/bin/socru_shrink_database", "socru_species": "/usr/local/bin/socru_species", "socru_update_profile": "/usr/local/bin/socru_update_profile", "2to3-3.8": "/usr/local/bin/2to3-3.8", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotateBed": "/usr/local/bin/annotateBed", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "bamToBed": "/usr/local/bin/bamToBed"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/socru.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/socru_species   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/socru_update_profile
 $ podman run --it --rm --entrypoint /usr/local/bin/socru_update_profile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/socru_update_profile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CA.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/CA.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

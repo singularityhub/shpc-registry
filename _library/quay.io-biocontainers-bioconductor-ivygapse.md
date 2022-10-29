@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ivygapse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ivygapse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ivygapse/container.yaml"
-updated_at: "2022-10-27 00:36:59.170603"
+updated_at: "2022-10-29 05:54:49.724576"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ivygapse"
-
+aliases:
+ - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ivygapse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ivygapse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ivygapse", "latest": {"1.8.0--r36_0": "sha256:551aa3c66e4ff20b1c7bd0bba3631d1070fa22f4d45ebeb214a17e7e4b4090bf"}, "tags": {"1.8.0--r36_0": "sha256:551aa3c66e4ff20b1c7bd0bba3631d1070fa22f4d45ebeb214a17e7e4b4090bf"}, "docker": "quay.io/biocontainers/bioconductor-ivygapse"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ivygapse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ivygapse", "latest": {"1.8.0--r36_0": "sha256:551aa3c66e4ff20b1c7bd0bba3631d1070fa22f4d45ebeb214a17e7e4b4090bf"}, "tags": {"1.8.0--r36_0": "sha256:551aa3c66e4ff20b1c7bd0bba3631d1070fa22f4d45ebeb214a17e7e4b4090bf"}, "docker": "quay.io/biocontainers/bioconductor-ivygapse", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ivygapse.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-ivygapse
+#### gio-launch-desktop
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

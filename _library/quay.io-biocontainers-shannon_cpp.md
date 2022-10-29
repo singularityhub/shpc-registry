@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shannon_cpp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shannon_cpp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/shannon_cpp/container.yaml"
-updated_at: "2022-10-27 00:19:35.223758"
+updated_at: "2022-10-29 05:31:43.292041"
 latest: "0.5.0--py27pl526h5dd6954_0"
 container_url: "https://biocontainers.pro/tools/shannon_cpp"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "run_rcorrector.pl"
  - "shannon_cpp"
  - "syrupy.py"
+ - "b2sum"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "basenc"
+ - "cat"
+ - "chcon"
+ - "chgrp"
+ - "chmod"
+ - "chown"
 versions:
  - "0.5.0--py27pl526h5dd6954_0"
 description: "shpc-registry automated BioContainers addition for shannon_cpp"
-config: {"url": "https://biocontainers.pro/tools/shannon_cpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shannon_cpp", "latest": {"0.5.0--py27pl526h5dd6954_0": "sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5"}, "tags": {"0.5.0--py27pl526h5dd6954_0": "sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5"}, "docker": "quay.io/biocontainers/shannon_cpp", "aliases": {"rcorrector": "/usr/local/bin/rcorrector", "run_rcorrector.pl": "/usr/local/bin/run_rcorrector.pl", "shannon_cpp": "/usr/local/bin/shannon_cpp", "syrupy.py": "/usr/local/bin/syrupy.py"}}
+config: {"url": "https://biocontainers.pro/tools/shannon_cpp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shannon_cpp", "latest": {"0.5.0--py27pl526h5dd6954_0": "sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5"}, "tags": {"0.5.0--py27pl526h5dd6954_0": "sha256:b8326d44136ea6ef269f70b1d0fe6e12ce50f2836cd7b112735cfdfb68b73ca5"}, "docker": "quay.io/biocontainers/shannon_cpp", "aliases": {"rcorrector": "/usr/local/bin/rcorrector", "run_rcorrector.pl": "/usr/local/bin/run_rcorrector.pl", "shannon_cpp": "/usr/local/bin/shannon_cpp", "syrupy.py": "/usr/local/bin/syrupy.py", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod", "chown": "/usr/local/bin/chown"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shannon_cpp.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shannon_cpp   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/syrupy.py
 $ podman run --it --rm --entrypoint /usr/local/bin/syrupy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/syrupy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cat
+
+```bash
+$ singularity exec <container> /usr/local/bin/cat
+$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chcon
+
+```bash
+$ singularity exec <container> /usr/local/bin/chcon
+$ podman run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chgrp
+
+```bash
+$ singularity exec <container> /usr/local/bin/chgrp
+$ podman run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chmod
+
+```bash
+$ singularity exec <container> /usr/local/bin/chmod
+$ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chown
+
+```bash
+$ singularity exec <container> /usr/local/bin/chown
+$ podman run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chown   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

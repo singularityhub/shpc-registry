@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo/container.yaml"
-updated_at: "2022-10-27 00:28:15.683134"
+updated_at: "2022-10-29 05:43:13.404684"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggandmetacoredzpathwaysgeo"
 aliases:
- - ".bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh"
- - ".bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-keggandmetacoredzpathwaysgeo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-keggandmetacoredzpathwaysgeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggandmetacoredzpathwaysgeo", "latest": {"1.9.0--r40_0": "sha256:f1d718a90b99123199ab8673e855e07727de2dce9e4970c2440cba4f00e94d89"}, "tags": {"1.9.0--r40_0": "sha256:f1d718a90b99123199ab8673e855e07727de2dce9e4970c2440cba4f00e94d89"}, "docker": "quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo", "aliases": {".bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh": "/usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh", ".bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh": "/usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-keggandmetacoredzpathwaysgeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggandmetacoredzpathwaysgeo", "latest": {"1.9.0--r40_0": "sha256:f1d718a90b99123199ab8673e855e07727de2dce9e4970c2440cba4f00e94d89"}, "tags": {"1.9.0--r40_0": "sha256:f1d718a90b99123199ab8673e855e07727de2dce9e4970c2440cba4f00e94d89"}, "docker": "quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-keggandmetacoredzpathwaysgeo.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggandmetacoredzpathwaysgeo-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bttcmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bttcmp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bttcmp/container.yaml"
-updated_at: "2022-10-27 00:25:34.726040"
+updated_at: "2022-10-29 05:39:39.542361"
 latest: "1.0.3--0"
 container_url: "https://biocontainers.pro/tools/bttcmp"
 aliases:
@@ -18,7 +18,6 @@ aliases:
  - "bttcmp"
  - "canu"
  - "canu-time"
- - "canu.defaults"
  - "circlator"
  - "contig_break_finder"
  - "contig_cleaner"
@@ -98,10 +97,20 @@ aliases:
  - "unicycler_scrub"
  - "vcf2scoary"
  - "wtdbgConvert"
+ - "2to3-3.6"
+ - "ABYSS"
+ - "ABYSS-P"
+ - "AdjList"
+ - "Consensus"
+ - "DAssembler"
+ - "DistanceEst"
+ - "DistanceEst-ssq"
+ - "FET.pl"
+ - "FastTree"
 versions:
  - "1.0.3--0"
 description: "shpc-registry automated BioContainers addition for bttcmp"
-config: {"url": "https://biocontainers.pro/tools/bttcmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bttcmp", "latest": {"1.0.3--0": "sha256:a15403626780a39dff4b818f376e771fe068394cfa81feffb612c5ef1011dfbe"}, "tags": {"1.0.3--0": "sha256:a15403626780a39dff4b818f376e771fe068394cfa81feffb612c5ef1011dfbe"}, "docker": "quay.io/biocontainers/bttcmp", "aliases": {"COG.pl": "/usr/local/bin/COG.pl", "Gblocks": "/usr/local/bin/Gblocks", "Plot_ANIheatmap.R": "/usr/local/bin/Plot_ANIheatmap.R", "Plot_COG.R": "/usr/local/bin/Plot_COG.R", "Plot_COG_Abundance.R": "/usr/local/bin/Plot_COG_Abundance.R", "Plot_MashHeatmap.R": "/usr/local/bin/Plot_MashHeatmap.R", "alignGFA": "/usr/local/bin/alignGFA", "bttcmp": "/usr/local/bin/bttcmp", "canu": "/usr/local/bin/canu", "canu-time": "/usr/local/bin/canu-time", "canu.defaults": "/usr/local/bin/canu.defaults", "circlator": "/usr/local/bin/circlator", "contig_break_finder": "/usr/local/bin/contig_break_finder", "contig_cleaner": "/usr/local/bin/contig_cleaner", "contig_overlap_trimmer": "/usr/local/bin/contig_overlap_trimmer", "coreprocess.pl": "/usr/local/bin/coreprocess.pl", "correctOverlaps": "/usr/local/bin/correctOverlaps", "dumpBlob": "/usr/local/bin/dumpBlob", "edalign": "/usr/local/bin/edalign", "errorEstimate": "/usr/local/bin/errorEstimate", "falconsense": "/usr/local/bin/falconsense", "fastme": "/usr/local/bin/fastme", "filterCorrectionLayouts": "/usr/local/bin/filterCorrectionLayouts", "filterCorrectionOverlaps": "/usr/local/bin/filterCorrectionOverlaps", "findErrors": "/usr/local/bin/findErrors", "findErrors-Dump": "/usr/local/bin/findErrors-Dump", "fmplot.py": "/usr/local/bin/fmplot.py", "gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "generateCorrectionLayouts": "/usr/local/bin/generateCorrectionLayouts", "genome_LenFilter_stats.pl": "/usr/local/bin/genome_LenFilter_stats.pl", "get_ANImatrix.pl": "/usr/local/bin/get_ANImatrix.pl", "get_Mash_Matrix.pl": "/usr/local/bin/get_Mash_Matrix.pl", "get_all_info_nucl.pl": "/usr/local/bin/get_all_info_nucl.pl", "get_all_info_orfs.pl": "/usr/local/bin/get_all_info_orfs.pl", "get_all_info_prot.pl": "/usr/local/bin/get_all_info_prot.pl", "get_flag_relative_abundances_table.pl": "/usr/local/bin/get_flag_relative_abundances_table.pl", "get_genes_table.pl": "/usr/local/bin/get_genes_table.pl", "gubbins": "/usr/local/bin/gubbins", "loadCorrectedReads": "/usr/local/bin/loadCorrectedReads", "loadErates": "/usr/local/bin/loadErates", "loadTrimmedReads": "/usr/local/bin/loadTrimmedReads", "mergeRanges": "/usr/local/bin/mergeRanges", "mhapConvert": "/usr/local/bin/mhapConvert", "mmapConvert": "/usr/local/bin/mmapConvert", "modeltest-ng": "/usr/local/bin/modeltest-ng", "orthofinder": "/usr/local/bin/orthofinder", "ovStoreBucketizer": "/usr/local/bin/ovStoreBucketizer", "ovStoreBuild": "/usr/local/bin/ovStoreBuild", "ovStoreConfig": "/usr/local/bin/ovStoreConfig", "ovStoreDump": "/usr/local/bin/ovStoreDump", "ovStoreIndexer": "/usr/local/bin/ovStoreIndexer", "ovStoreSorter": "/usr/local/bin/ovStoreSorter", "ovStoreStats": "/usr/local/bin/ovStoreStats", "overlapAlign": "/usr/local/bin/overlapAlign", "overlapConvert": "/usr/local/bin/overlapConvert", "overlapImport": "/usr/local/bin/overlapImport", "overlapInCorePartition": "/usr/local/bin/overlapInCorePartition", "overlapPair": "/usr/local/bin/overlapPair", "pacbio_post_process": "/usr/local/bin/pacbio_post_process", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "pgcgap": "/usr/local/bin/pgcgap", "plot_3Dpie.R": "/usr/local/bin/plot_3Dpie.R", "prefixEditDistance-matchLimitGenerate": "/usr/local/bin/prefixEditDistance-matchLimitGenerate", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "roary-unique_genes_per_sample": "/usr/local/bin/roary-unique_genes_per_sample", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "scoary": "/usr/local/bin/scoary", "scoary_GUI": "/usr/local/bin/scoary_GUI", "sequence": "/usr/local/bin/sequence", "sickle": "/usr/local/bin/sickle", "splitHaplotype": "/usr/local/bin/splitHaplotype", "splitReads": "/usr/local/bin/splitReads", "sqStoreCreate": "/usr/local/bin/sqStoreCreate", "sqStoreDumpFASTQ": "/usr/local/bin/sqStoreDumpFASTQ", "sqStoreDumpMetaData": "/usr/local/bin/sqStoreDumpMetaData", "tgStoreCompress": "/usr/local/bin/tgStoreCompress", "tgStoreDump": "/usr/local/bin/tgStoreDump", "tgStoreFilter": "/usr/local/bin/tgStoreFilter", "tgStoreLoad": "/usr/local/bin/tgStoreLoad", "tgTigDisplay": "/usr/local/bin/tgTigDisplay", "triangle2list.pl": "/usr/local/bin/triangle2list.pl", "trimReads": "/usr/local/bin/trimReads", "unicycler": "/usr/local/bin/unicycler", "unicycler_align": "/usr/local/bin/unicycler_align", "unicycler_check": "/usr/local/bin/unicycler_check", "unicycler_polish": "/usr/local/bin/unicycler_polish", "unicycler_scrub": "/usr/local/bin/unicycler_scrub", "vcf2scoary": "/usr/local/bin/vcf2scoary", "wtdbgConvert": "/usr/local/bin/wtdbgConvert"}}
+config: {"url": "https://biocontainers.pro/tools/bttcmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bttcmp", "latest": {"1.0.3--0": "sha256:a15403626780a39dff4b818f376e771fe068394cfa81feffb612c5ef1011dfbe"}, "tags": {"1.0.3--0": "sha256:a15403626780a39dff4b818f376e771fe068394cfa81feffb612c5ef1011dfbe"}, "docker": "quay.io/biocontainers/bttcmp", "aliases": {"COG.pl": "/usr/local/bin/COG.pl", "Gblocks": "/usr/local/bin/Gblocks", "Plot_ANIheatmap.R": "/usr/local/bin/Plot_ANIheatmap.R", "Plot_COG.R": "/usr/local/bin/Plot_COG.R", "Plot_COG_Abundance.R": "/usr/local/bin/Plot_COG_Abundance.R", "Plot_MashHeatmap.R": "/usr/local/bin/Plot_MashHeatmap.R", "alignGFA": "/usr/local/bin/alignGFA", "bttcmp": "/usr/local/bin/bttcmp", "canu": "/usr/local/bin/canu", "canu-time": "/usr/local/bin/canu-time", "circlator": "/usr/local/bin/circlator", "contig_break_finder": "/usr/local/bin/contig_break_finder", "contig_cleaner": "/usr/local/bin/contig_cleaner", "contig_overlap_trimmer": "/usr/local/bin/contig_overlap_trimmer", "coreprocess.pl": "/usr/local/bin/coreprocess.pl", "correctOverlaps": "/usr/local/bin/correctOverlaps", "dumpBlob": "/usr/local/bin/dumpBlob", "edalign": "/usr/local/bin/edalign", "errorEstimate": "/usr/local/bin/errorEstimate", "falconsense": "/usr/local/bin/falconsense", "fastme": "/usr/local/bin/fastme", "filterCorrectionLayouts": "/usr/local/bin/filterCorrectionLayouts", "filterCorrectionOverlaps": "/usr/local/bin/filterCorrectionOverlaps", "findErrors": "/usr/local/bin/findErrors", "findErrors-Dump": "/usr/local/bin/findErrors-Dump", "fmplot.py": "/usr/local/bin/fmplot.py", "gawk-5.0.1": "/usr/local/bin/gawk-5.0.1", "generateCorrectionLayouts": "/usr/local/bin/generateCorrectionLayouts", "genome_LenFilter_stats.pl": "/usr/local/bin/genome_LenFilter_stats.pl", "get_ANImatrix.pl": "/usr/local/bin/get_ANImatrix.pl", "get_Mash_Matrix.pl": "/usr/local/bin/get_Mash_Matrix.pl", "get_all_info_nucl.pl": "/usr/local/bin/get_all_info_nucl.pl", "get_all_info_orfs.pl": "/usr/local/bin/get_all_info_orfs.pl", "get_all_info_prot.pl": "/usr/local/bin/get_all_info_prot.pl", "get_flag_relative_abundances_table.pl": "/usr/local/bin/get_flag_relative_abundances_table.pl", "get_genes_table.pl": "/usr/local/bin/get_genes_table.pl", "gubbins": "/usr/local/bin/gubbins", "loadCorrectedReads": "/usr/local/bin/loadCorrectedReads", "loadErates": "/usr/local/bin/loadErates", "loadTrimmedReads": "/usr/local/bin/loadTrimmedReads", "mergeRanges": "/usr/local/bin/mergeRanges", "mhapConvert": "/usr/local/bin/mhapConvert", "mmapConvert": "/usr/local/bin/mmapConvert", "modeltest-ng": "/usr/local/bin/modeltest-ng", "orthofinder": "/usr/local/bin/orthofinder", "ovStoreBucketizer": "/usr/local/bin/ovStoreBucketizer", "ovStoreBuild": "/usr/local/bin/ovStoreBuild", "ovStoreConfig": "/usr/local/bin/ovStoreConfig", "ovStoreDump": "/usr/local/bin/ovStoreDump", "ovStoreIndexer": "/usr/local/bin/ovStoreIndexer", "ovStoreSorter": "/usr/local/bin/ovStoreSorter", "ovStoreStats": "/usr/local/bin/ovStoreStats", "overlapAlign": "/usr/local/bin/overlapAlign", "overlapConvert": "/usr/local/bin/overlapConvert", "overlapImport": "/usr/local/bin/overlapImport", "overlapInCorePartition": "/usr/local/bin/overlapInCorePartition", "overlapPair": "/usr/local/bin/overlapPair", "pacbio_post_process": "/usr/local/bin/pacbio_post_process", "pal2nal.pl": "/usr/local/bin/pal2nal.pl", "pgcgap": "/usr/local/bin/pgcgap", "plot_3Dpie.R": "/usr/local/bin/plot_3Dpie.R", "prefixEditDistance-matchLimitGenerate": "/usr/local/bin/prefixEditDistance-matchLimitGenerate", "raxml-ng": "/usr/local/bin/raxml-ng", "raxml-ng-mpi": "/usr/local/bin/raxml-ng-mpi", "roary-unique_genes_per_sample": "/usr/local/bin/roary-unique_genes_per_sample", "run_gubbins.py": "/usr/local/bin/run_gubbins.py", "scoary": "/usr/local/bin/scoary", "scoary_GUI": "/usr/local/bin/scoary_GUI", "sequence": "/usr/local/bin/sequence", "sickle": "/usr/local/bin/sickle", "splitHaplotype": "/usr/local/bin/splitHaplotype", "splitReads": "/usr/local/bin/splitReads", "sqStoreCreate": "/usr/local/bin/sqStoreCreate", "sqStoreDumpFASTQ": "/usr/local/bin/sqStoreDumpFASTQ", "sqStoreDumpMetaData": "/usr/local/bin/sqStoreDumpMetaData", "tgStoreCompress": "/usr/local/bin/tgStoreCompress", "tgStoreDump": "/usr/local/bin/tgStoreDump", "tgStoreFilter": "/usr/local/bin/tgStoreFilter", "tgStoreLoad": "/usr/local/bin/tgStoreLoad", "tgTigDisplay": "/usr/local/bin/tgTigDisplay", "triangle2list.pl": "/usr/local/bin/triangle2list.pl", "trimReads": "/usr/local/bin/trimReads", "unicycler": "/usr/local/bin/unicycler", "unicycler_align": "/usr/local/bin/unicycler_align", "unicycler_check": "/usr/local/bin/unicycler_check", "unicycler_polish": "/usr/local/bin/unicycler_polish", "unicycler_scrub": "/usr/local/bin/unicycler_scrub", "vcf2scoary": "/usr/local/bin/vcf2scoary", "wtdbgConvert": "/usr/local/bin/wtdbgConvert", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus", "DAssembler": "/usr/local/bin/DAssembler", "DistanceEst": "/usr/local/bin/DistanceEst", "DistanceEst-ssq": "/usr/local/bin/DistanceEst-ssq", "FET.pl": "/usr/local/bin/FET.pl", "FastTree": "/usr/local/bin/FastTree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bttcmp.
@@ -274,15 +283,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/canu   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/canu-time
 $ podman run --it --rm --entrypoint /usr/local/bin/canu-time   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/canu-time   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### canu.defaults
-
-```bash
-$ singularity exec <container> /usr/local/bin/canu.defaults
-$ podman run --it --rm --entrypoint /usr/local/bin/canu.defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/canu.defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -994,6 +994,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcf2scoary   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/wtdbgConvert
 $ podman run --it --rm --entrypoint /usr/local/bin/wtdbgConvert   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wtdbgConvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ABYSS
+
+```bash
+$ singularity exec <container> /usr/local/bin/ABYSS
+$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ABYSS-P
+
+```bash
+$ singularity exec <container> /usr/local/bin/ABYSS-P
+$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AdjList
+
+```bash
+$ singularity exec <container> /usr/local/bin/AdjList
+$ podman run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Consensus
+
+```bash
+$ singularity exec <container> /usr/local/bin/Consensus
+$ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DAssembler
+
+```bash
+$ singularity exec <container> /usr/local/bin/DAssembler
+$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DistanceEst
+
+```bash
+$ singularity exec <container> /usr/local/bin/DistanceEst
+$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DistanceEst-ssq
+
+```bash
+$ singularity exec <container> /usr/local/bin/DistanceEst-ssq
+$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FET.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/FET.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

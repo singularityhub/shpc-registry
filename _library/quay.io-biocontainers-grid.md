@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/grid/container.yaml"
-updated_at: "2022-10-27 00:30:51.268393"
+updated_at: "2022-10-29 05:46:39.304724"
 latest: "1.3--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/grid"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "mosdepth"
  - "pathoscope"
  - "update_database"
+ - "CA.pm"
+ - "accn-at-a-time"
+ - "amino-acid-composition"
+ - "annotateBed"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bamtools"
 versions:
  - "1.3--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for grid"
-config: {"url": "https://biocontainers.pro/tools/grid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grid", "latest": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "tags": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "docker": "quay.io/biocontainers/grid", "aliases": {"grid": "/usr/local/bin/grid", "mosdepth": "/usr/local/bin/mosdepth", "pathoscope": "/usr/local/bin/pathoscope", "update_database": "/usr/local/bin/update_database"}}
+config: {"url": "https://biocontainers.pro/tools/grid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for grid", "latest": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "tags": {"1.3--hdfd78af_3": "sha256:e46fd424a12bdcb86f8e98ee81cc03ba46cdcf7fcffb34b4451390b451d82b6d"}, "docker": "quay.io/biocontainers/grid", "aliases": {"grid": "/usr/local/bin/grid", "mosdepth": "/usr/local/bin/mosdepth", "pathoscope": "/usr/local/bin/pathoscope", "update_database": "/usr/local/bin/update_database", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotateBed": "/usr/local/bin/annotateBed", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/grid.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pathoscope   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/update_database
 $ podman run --it --rm --entrypoint /usr/local/bin/update_database   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/update_database   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CA.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/CA.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

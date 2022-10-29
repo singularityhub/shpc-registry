@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msproteomicstools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msproteomicstools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/msproteomicstools/container.yaml"
-updated_at: "2022-10-27 00:37:52.596235"
+updated_at: "2022-10-29 05:55:58.624121"
 latest: "0.8.0--py27h6d73bfa_1"
 container_url: "https://biocontainers.pro/tools/msproteomicstools"
 aliases:
@@ -52,10 +52,20 @@ aliases:
  - "tmp.py"
  - "trafoXML_visualize.py"
  - "tsv2spectrast.py"
+ - "cmpfillin"
+ - "f2py2"
+ - "f2py2.7"
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
+ - "glpsol"
+ - "gpmetis"
+ - "graphchk"
 versions:
  - "0.8.0--py27h6d73bfa_1"
 description: "shpc-registry automated BioContainers addition for msproteomicstools"
-config: {"url": "https://biocontainers.pro/tools/msproteomicstools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msproteomicstools", "latest": {"0.8.0--py27h6d73bfa_1": "sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1"}, "tags": {"0.8.0--py27h6d73bfa_1": "sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1"}, "docker": "quay.io/biocontainers/msproteomicstools", "aliases": {"AlignmentGUI.py": "/usr/local/bin/AlignmentGUI.py", "MSE2mzML.py": "/usr/local/bin/MSE2mzML.py", "MSE_split.py": "/usr/local/bin/MSE_split.py", "NISTParser.py": "/usr/local/bin/NISTParser.py", "ProtFDRTraML2Fasta.py": "/usr/local/bin/ProtFDRTraML2Fasta.py", "ProtFDRmProphet2Mayu.py": "/usr/local/bin/ProtFDRmProphet2Mayu.py", "TAPIR.py": "/usr/local/bin/TAPIR.py", "add_protein_annotation.py": "/usr/local/bin/add_protein_annotation.py", "compute_full_matrix.py": "/usr/local/bin/compute_full_matrix.py", "convertFromPeakview.py": "/usr/local/bin/convertFromPeakview.py", "convertMassLynxTomzML.py": "/usr/local/bin/convertMassLynxTomzML.py", "convertNISTLibraryToTSV.py": "/usr/local/bin/convertNISTLibraryToTSV.py", "copy_accesion.py": "/usr/local/bin/copy_accesion.py", "count_pep_prot.py": "/usr/local/bin/count_pep_prot.py", "dsdp5": "/usr/local/bin/dsdp5", "extract_matrix.py": "/usr/local/bin/extract_matrix.py", "fdr_cutoff.py": "/usr/local/bin/fdr_cutoff.py", "feature_alignment.py": "/usr/local/bin/feature_alignment.py", "featurealigner2msstats.py": "/usr/local/bin/featurealigner2msstats.py", "filterChrom.py": "/usr/local/bin/filterChrom.py", "filterPeakview.py": "/usr/local/bin/filterPeakview.py", "filterSqMass.py": "/usr/local/bin/filterSqMass.py", "fix_sonar.py": "/usr/local/bin/fix_sonar.py", "fix_swath_windows.py": "/usr/local/bin/fix_swath_windows.py", "makeSwathFile.py": "/usr/local/bin/makeSwathFile.py", "mergeSqMass.py": "/usr/local/bin/mergeSqMass.py", "pepxml2csv.py": "/usr/local/bin/pepxml2csv.py", "pepxml2csv_simple.py": "/usr/local/bin/pepxml2csv_simple.py", "plot_alignment_tree.py": "/usr/local/bin/plot_alignment_tree.py", "preprocess_peakview.py": "/usr/local/bin/preprocess_peakview.py", "proteinDBmasses.py": "/usr/local/bin/proteinDBmasses.py", "proteinDigest.py": "/usr/local/bin/proteinDigest.py", "proteins_not_in_library.py": "/usr/local/bin/proteins_not_in_library.py", "pseudoreverseDB.py": "/usr/local/bin/pseudoreverseDB.py", "requantAlignedValues.py": "/usr/local/bin/requantAlignedValues.py", "spectrast2spectrast_irt.py": "/usr/local/bin/spectrast2spectrast_irt.py", "spectrast2tsv.py": "/usr/local/bin/spectrast2tsv.py", "spectrast_cluster.py": "/usr/local/bin/spectrast_cluster.py", "spectrast_updateiRTs.py": "/usr/local/bin/spectrast_updateiRTs.py", "splitMSE.py": "/usr/local/bin/splitMSE.py", "split_mzXML_intoSwath.py": "/usr/local/bin/split_mzXML_intoSwath.py", "tmp.py": "/usr/local/bin/tmp.py", "trafoXML_visualize.py": "/usr/local/bin/trafoXML_visualize.py", "tsv2spectrast.py": "/usr/local/bin/tsv2spectrast.py"}}
+config: {"url": "https://biocontainers.pro/tools/msproteomicstools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msproteomicstools", "latest": {"0.8.0--py27h6d73bfa_1": "sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1"}, "tags": {"0.8.0--py27h6d73bfa_1": "sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1"}, "docker": "quay.io/biocontainers/msproteomicstools", "aliases": {"AlignmentGUI.py": "/usr/local/bin/AlignmentGUI.py", "MSE2mzML.py": "/usr/local/bin/MSE2mzML.py", "MSE_split.py": "/usr/local/bin/MSE_split.py", "NISTParser.py": "/usr/local/bin/NISTParser.py", "ProtFDRTraML2Fasta.py": "/usr/local/bin/ProtFDRTraML2Fasta.py", "ProtFDRmProphet2Mayu.py": "/usr/local/bin/ProtFDRmProphet2Mayu.py", "TAPIR.py": "/usr/local/bin/TAPIR.py", "add_protein_annotation.py": "/usr/local/bin/add_protein_annotation.py", "compute_full_matrix.py": "/usr/local/bin/compute_full_matrix.py", "convertFromPeakview.py": "/usr/local/bin/convertFromPeakview.py", "convertMassLynxTomzML.py": "/usr/local/bin/convertMassLynxTomzML.py", "convertNISTLibraryToTSV.py": "/usr/local/bin/convertNISTLibraryToTSV.py", "copy_accesion.py": "/usr/local/bin/copy_accesion.py", "count_pep_prot.py": "/usr/local/bin/count_pep_prot.py", "dsdp5": "/usr/local/bin/dsdp5", "extract_matrix.py": "/usr/local/bin/extract_matrix.py", "fdr_cutoff.py": "/usr/local/bin/fdr_cutoff.py", "feature_alignment.py": "/usr/local/bin/feature_alignment.py", "featurealigner2msstats.py": "/usr/local/bin/featurealigner2msstats.py", "filterChrom.py": "/usr/local/bin/filterChrom.py", "filterPeakview.py": "/usr/local/bin/filterPeakview.py", "filterSqMass.py": "/usr/local/bin/filterSqMass.py", "fix_sonar.py": "/usr/local/bin/fix_sonar.py", "fix_swath_windows.py": "/usr/local/bin/fix_swath_windows.py", "makeSwathFile.py": "/usr/local/bin/makeSwathFile.py", "mergeSqMass.py": "/usr/local/bin/mergeSqMass.py", "pepxml2csv.py": "/usr/local/bin/pepxml2csv.py", "pepxml2csv_simple.py": "/usr/local/bin/pepxml2csv_simple.py", "plot_alignment_tree.py": "/usr/local/bin/plot_alignment_tree.py", "preprocess_peakview.py": "/usr/local/bin/preprocess_peakview.py", "proteinDBmasses.py": "/usr/local/bin/proteinDBmasses.py", "proteinDigest.py": "/usr/local/bin/proteinDigest.py", "proteins_not_in_library.py": "/usr/local/bin/proteins_not_in_library.py", "pseudoreverseDB.py": "/usr/local/bin/pseudoreverseDB.py", "requantAlignedValues.py": "/usr/local/bin/requantAlignedValues.py", "spectrast2spectrast_irt.py": "/usr/local/bin/spectrast2spectrast_irt.py", "spectrast2tsv.py": "/usr/local/bin/spectrast2tsv.py", "spectrast_cluster.py": "/usr/local/bin/spectrast_cluster.py", "spectrast_updateiRTs.py": "/usr/local/bin/spectrast_updateiRTs.py", "splitMSE.py": "/usr/local/bin/splitMSE.py", "split_mzXML_intoSwath.py": "/usr/local/bin/split_mzXML_intoSwath.py", "tmp.py": "/usr/local/bin/tmp.py", "trafoXML_visualize.py": "/usr/local/bin/trafoXML_visualize.py", "tsv2spectrast.py": "/usr/local/bin/tsv2spectrast.py", "cmpfillin": "/usr/local/bin/cmpfillin", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "glpsol": "/usr/local/bin/glpsol", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msproteomicstools.
@@ -534,6 +544,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/trafoXML_visualize.py   -v ${
 $ singularity exec <container> /usr/local/bin/tsv2spectrast.py
 $ podman run --it --rm --entrypoint /usr/local/bin/tsv2spectrast.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tsv2spectrast.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmpfillin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmpfillin
+$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gpmetis
+
+```bash
+$ singularity exec <container> /usr/local/bin/gpmetis
+$ podman run --it --rm --entrypoint /usr/local/bin/gpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gpmetis   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### graphchk
+
+```bash
+$ singularity exec <container> /usr/local/bin/graphchk
+$ podman run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/graphchk   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/delegation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/delegation/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/delegation/container.yaml"
-updated_at: "2022-10-27 00:35:40.694922"
+updated_at: "2022-10-29 05:53:04.234208"
 latest: "1.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/delegation"
-
+aliases:
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.1--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for delegation"
-config: {"url": "https://biocontainers.pro/tools/delegation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for delegation", "latest": {"1.1--pyh864c0ab_1": "sha256:efa44a8df448ac74f2f550cff635ba3077f314156f5326719c7fb3b814ff6b3b"}, "tags": {"1.1--pyh864c0ab_1": "sha256:efa44a8df448ac74f2f550cff635ba3077f314156f5326719c7fb3b814ff6b3b"}, "docker": "quay.io/biocontainers/delegation"}
+config: {"url": "https://biocontainers.pro/tools/delegation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for delegation", "latest": {"1.1--pyh864c0ab_1": "sha256:efa44a8df448ac74f2f550cff635ba3077f314156f5326719c7fb3b814ff6b3b"}, "tags": {"1.1--pyh864c0ab_1": "sha256:efa44a8df448ac74f2f550cff635ba3077f314156f5326719c7fb3b814ff6b3b"}, "docker": "quay.io/biocontainers/delegation", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/delegation.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### delegation
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

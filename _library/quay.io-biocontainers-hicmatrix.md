@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/hicmatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hicmatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hicmatrix/container.yaml"
-updated_at: "2022-10-27 00:29:13.547386"
+updated_at: "2022-10-29 05:44:28.165682"
 latest: "2.2--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/hicmatrix"
 aliases:
  - "dask-mpi"
  - "dask-remote"
  - "dask-submit"
+ - "2to3-3.5"
+ - "ace2sam"
+ - "bam2pairs"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bokeh"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "column_remover.pl"
 versions:
  - "2.2--pyh24bf2e0_1"
 description: "shpc-registry automated BioContainers addition for hicmatrix"
-config: {"url": "https://biocontainers.pro/tools/hicmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicmatrix", "latest": {"2.2--pyh24bf2e0_1": "sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea"}, "tags": {"2.2--pyh24bf2e0_1": "sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea"}, "docker": "quay.io/biocontainers/hicmatrix", "aliases": {"dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit"}}
+config: {"url": "https://biocontainers.pro/tools/hicmatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hicmatrix", "latest": {"2.2--pyh24bf2e0_1": "sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea"}, "tags": {"2.2--pyh24bf2e0_1": "sha256:c523832375604f64607bb264aaa5f20bd507ac9a8274a5cecbe3b633dd09caea"}, "docker": "quay.io/biocontainers/hicmatrix", "aliases": {"dask-mpi": "/usr/local/bin/dask-mpi", "dask-remote": "/usr/local/bin/dask-remote", "dask-submit": "/usr/local/bin/dask-submit", "2to3-3.5": "/usr/local/bin/2to3-3.5", "ace2sam": "/usr/local/bin/ace2sam", "bam2pairs": "/usr/local/bin/bam2pairs", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bokeh": "/usr/local/bin/bokeh", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "column_remover.pl": "/usr/local/bin/column_remover.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hicmatrix.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dask-remote   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/dask-submit
 $ podman run --it --rm --entrypoint /usr/local/bin/dask-submit   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dask-submit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2pairs
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2pairs
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bokeh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bokeh
+$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### column_remover.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/column_remover.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/column_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/column_remover.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

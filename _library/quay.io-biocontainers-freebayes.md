@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/freebayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/freebayes/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/freebayes/container.yaml"
-updated_at: "2022-10-27 00:32:10.268485"
+updated_at: "2022-10-29 05:48:24.157505"
 latest: "1.3.3--py36hc088bd4_0"
 container_url: "https://biocontainers.pro/tools/freebayes"
-
+aliases:
+ - "2to3-3.6"
+ - "bamleftalign"
+ - "bgzip"
+ - "coverage_to_regions.py"
+ - "env_parallel"
+ - "env_parallel.ash"
+ - "env_parallel.bash"
+ - "env_parallel.csh"
+ - "env_parallel.dash"
+ - "env_parallel.fish"
 versions:
  - "1.3.3--py36hc088bd4_0"
 description: "shpc-registry automated BioContainers addition for freebayes"
-config: {"url": "https://biocontainers.pro/tools/freebayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for freebayes", "latest": {"1.3.3--py36hc088bd4_0": "sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7"}, "tags": {"1.3.3--py36hc088bd4_0": "sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7"}, "docker": "quay.io/biocontainers/freebayes"}
+config: {"url": "https://biocontainers.pro/tools/freebayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for freebayes", "latest": {"1.3.3--py36hc088bd4_0": "sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7"}, "tags": {"1.3.3--py36hc088bd4_0": "sha256:da103b362206e7eea33b2bafad20198113f72de445b3c1fe4fdd87ea552a59e7"}, "docker": "quay.io/biocontainers/freebayes", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "bamleftalign": "/usr/local/bin/bamleftalign", "bgzip": "/usr/local/bin/bgzip", "coverage_to_regions.py": "/usr/local/bin/coverage_to_regions.py", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/freebayes.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### freebayes
+#### 2to3-3.6
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### bamleftalign
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamleftalign
+$ podman run --it --rm --entrypoint /usr/local/bin/bamleftalign   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamleftalign   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coverage_to_regions.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/coverage_to_regions.py
+$ podman run --it --rm --entrypoint /usr/local/bin/coverage_to_regions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coverage_to_regions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.ash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.ash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.ash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.bash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.bash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.bash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.csh
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.csh
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.csh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.dash
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.dash
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.dash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### env_parallel.fish
+
+```bash
+$ singularity exec <container> /usr/local/bin/env_parallel.fish
+$ podman run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/env_parallel.fish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

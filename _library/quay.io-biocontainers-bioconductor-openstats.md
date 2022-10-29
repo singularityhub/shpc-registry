@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-openstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-openstats/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-openstats/container.yaml"
-updated_at: "2022-10-27 00:39:50.476397"
+updated_at: "2022-10-29 05:58:31.325642"
 latest: "1.6.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-openstats"
-
+aliases:
+ - "Magick++-config"
+ - "MagickCore-config"
+ - "MagickWand-config"
+ - "acyclic"
+ - "animate"
+ - "annotate"
+ - "bcomps"
+ - "bdftogd"
+ - "ccomps"
+ - "circo"
 versions:
  - "1.6.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-openstats"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-openstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-openstats", "latest": {"1.6.0--r41hdfd78af_0": "sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99"}, "docker": "quay.io/biocontainers/bioconductor-openstats"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-openstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-openstats", "latest": {"1.6.0--r41hdfd78af_0": "sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd393616907ad87571adf0e4172900e733cba1ea889a65bdc8233e6a15397c99"}, "docker": "quay.io/biocontainers/bioconductor-openstats", "aliases": {"Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-openstats.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-openstats
+#### Magick++-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/Magick++-config
+$ podman run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### MagickCore-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickCore-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MagickWand-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickWand-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### animate
+
+```bash
+$ singularity exec <container> /usr/local/bin/animate
+$ podman run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### circo
+
+```bash
+$ singularity exec <container> /usr/local/bin/circo
+$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

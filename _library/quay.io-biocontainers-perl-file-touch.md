@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-file-touch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-touch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-touch/container.yaml"
-updated_at: "2022-10-27 00:30:18.305487"
+updated_at: "2022-10-29 05:45:52.998921"
 latest: "0.12--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-touch"
-
+aliases:
+ - "perl5.32.1"
 versions:
  - "0.12--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-file-touch"
-config: {"url": "https://biocontainers.pro/tools/perl-file-touch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-touch", "latest": {"0.12--pl5321hdfd78af_0": "sha256:fd6329252eb44637703659a4d4c8f7e18dcd922127deab0d992c184bb3777be5"}, "tags": {"0.12--pl5321hdfd78af_0": "sha256:fd6329252eb44637703659a4d4c8f7e18dcd922127deab0d992c184bb3777be5"}, "docker": "quay.io/biocontainers/perl-file-touch"}
+config: {"url": "https://biocontainers.pro/tools/perl-file-touch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-touch", "latest": {"0.12--pl5321hdfd78af_0": "sha256:fd6329252eb44637703659a4d4c8f7e18dcd922127deab0d992c184bb3777be5"}, "tags": {"0.12--pl5321hdfd78af_0": "sha256:fd6329252eb44637703659a4d4c8f7e18dcd922127deab0d992c184bb3777be5"}, "docker": "quay.io/biocontainers/perl-file-touch", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-touch.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-file-touch
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

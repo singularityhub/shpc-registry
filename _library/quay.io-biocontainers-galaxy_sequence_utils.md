@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/galaxy_sequence_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy_sequence_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy_sequence_utils/container.yaml"
-updated_at: "2022-10-27 00:34:33.182547"
+updated_at: "2022-10-29 05:51:35.275852"
 latest: "1.1.5--py_0"
 container_url: "https://biocontainers.pro/tools/galaxy_sequence_utils"
 aliases:
@@ -22,10 +22,15 @@ aliases:
  - "gx-fastq-to-tabular"
  - "gx-fastq-trimmer"
  - "gx-fastq-trimmer-by-quality"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.1.5--py_0"
 description: "shpc-registry automated BioContainers addition for galaxy_sequence_utils"
-config: {"url": "https://biocontainers.pro/tools/galaxy_sequence_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy_sequence_utils", "latest": {"1.1.5--py_0": "sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510"}, "tags": {"1.1.5--py_0": "sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510"}, "docker": "quay.io/biocontainers/galaxy_sequence_utils", "aliases": {"gx-fastq-combiner": "/usr/local/bin/gx-fastq-combiner", "gx-fastq-filter": "/usr/local/bin/gx-fastq-filter", "gx-fastq-groomer": "/usr/local/bin/gx-fastq-groomer", "gx-fastq-manipulation": "/usr/local/bin/gx-fastq-manipulation", "gx-fastq-masker-by-quality": "/usr/local/bin/gx-fastq-masker-by-quality", "gx-fastq-paired-end-deinterlacer": "/usr/local/bin/gx-fastq-paired-end-deinterlacer", "gx-fastq-paired-end-interlacer": "/usr/local/bin/gx-fastq-paired-end-interlacer", "gx-fastq-paired-end-joiner": "/usr/local/bin/gx-fastq-paired-end-joiner", "gx-fastq-paired-end-splitter": "/usr/local/bin/gx-fastq-paired-end-splitter", "gx-fastq-stats": "/usr/local/bin/gx-fastq-stats", "gx-fastq-to-fasta": "/usr/local/bin/gx-fastq-to-fasta", "gx-fastq-to-tabular": "/usr/local/bin/gx-fastq-to-tabular", "gx-fastq-trimmer": "/usr/local/bin/gx-fastq-trimmer", "gx-fastq-trimmer-by-quality": "/usr/local/bin/gx-fastq-trimmer-by-quality"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy_sequence_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy_sequence_utils", "latest": {"1.1.5--py_0": "sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510"}, "tags": {"1.1.5--py_0": "sha256:4efad4ef94ed27fd0149780b0f9ee7d1c03e8f375fda17613a9c793bfc4e4510"}, "docker": "quay.io/biocontainers/galaxy_sequence_utils", "aliases": {"gx-fastq-combiner": "/usr/local/bin/gx-fastq-combiner", "gx-fastq-filter": "/usr/local/bin/gx-fastq-filter", "gx-fastq-groomer": "/usr/local/bin/gx-fastq-groomer", "gx-fastq-manipulation": "/usr/local/bin/gx-fastq-manipulation", "gx-fastq-masker-by-quality": "/usr/local/bin/gx-fastq-masker-by-quality", "gx-fastq-paired-end-deinterlacer": "/usr/local/bin/gx-fastq-paired-end-deinterlacer", "gx-fastq-paired-end-interlacer": "/usr/local/bin/gx-fastq-paired-end-interlacer", "gx-fastq-paired-end-joiner": "/usr/local/bin/gx-fastq-paired-end-joiner", "gx-fastq-paired-end-splitter": "/usr/local/bin/gx-fastq-paired-end-splitter", "gx-fastq-stats": "/usr/local/bin/gx-fastq-stats", "gx-fastq-to-fasta": "/usr/local/bin/gx-fastq-to-fasta", "gx-fastq-to-tabular": "/usr/local/bin/gx-fastq-to-tabular", "gx-fastq-trimmer": "/usr/local/bin/gx-fastq-trimmer", "gx-fastq-trimmer-by-quality": "/usr/local/bin/gx-fastq-trimmer-by-quality", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy_sequence_utils.
@@ -234,6 +239,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gx-fastq-trimmer   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/gx-fastq-trimmer-by-quality
 $ podman run --it --rm --entrypoint /usr/local/bin/gx-fastq-trimmer-by-quality   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gx-fastq-trimmer-by-quality   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

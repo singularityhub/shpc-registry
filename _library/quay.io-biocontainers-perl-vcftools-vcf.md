@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/perl-vcftools-vcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-vcftools-vcf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-vcftools-vcf/container.yaml"
-updated_at: "2022-10-27 00:36:33.084755"
+updated_at: "2022-10-29 05:54:14.538888"
 latest: "0.953--pl5.22.0_1"
 container_url: "https://biocontainers.pro/tools/perl-vcftools-vcf"
-
+aliases:
+ - "c2ph"
+ - "perl5.22.0"
+ - "podselect"
+ - "pstruct"
 versions:
  - "0.953--pl5.22.0_1"
 description: "shpc-registry automated BioContainers addition for perl-vcftools-vcf"
-config: {"url": "https://biocontainers.pro/tools/perl-vcftools-vcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-vcftools-vcf", "latest": {"0.953--pl5.22.0_1": "sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3"}, "tags": {"0.953--pl5.22.0_1": "sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3"}, "docker": "quay.io/biocontainers/perl-vcftools-vcf"}
+config: {"url": "https://biocontainers.pro/tools/perl-vcftools-vcf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-vcftools-vcf", "latest": {"0.953--pl5.22.0_1": "sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3"}, "tags": {"0.953--pl5.22.0_1": "sha256:361993d964b97011543e55c59d2f1c6f8f6ac37524e7af7922fcaea5a4622bc3"}, "docker": "quay.io/biocontainers/perl-vcftools-vcf", "aliases": {"c2ph": "/usr/local/bin/c2ph", "perl5.22.0": "/usr/local/bin/perl5.22.0", "podselect": "/usr/local/bin/podselect", "pstruct": "/usr/local/bin/pstruct"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-vcftools-vcf.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-vcftools-vcf
+#### c2ph
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/c2ph
+$ podman run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### perl5.22.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.22.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.22.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pstruct
+
+```bash
+$ singularity exec <container> /usr/local/bin/pstruct
+$ podman run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pstruct   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

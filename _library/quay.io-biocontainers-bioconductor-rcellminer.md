@@ -4,16 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-rcellminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcellminer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcellminer/container.yaml"
-updated_at: "2022-10-27 00:18:34.554311"
+updated_at: "2022-10-29 05:30:24.052540"
 latest: "2.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcellminer"
 aliases:
- - ".bioconductor-rcellminerdata-post-link.sh"
- - ".bioconductor-rcellminerdata-pre-unlink.sh"
+ - "appletviewer"
+ - "extcheck"
+ - "idlj"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "java-rmi.cgi"
+ - "javac"
+ - "javadoc"
+ - "javah"
 versions:
  - "2.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcellminer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcellminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcellminer", "latest": {"2.8.0--r36_1": "sha256:b927a7912ea2f428e2e8824ff0146656b4bbb6517a11fd94a30286e319a2beee"}, "tags": {"2.8.0--r36_1": "sha256:b927a7912ea2f428e2e8824ff0146656b4bbb6517a11fd94a30286e319a2beee"}, "docker": "quay.io/biocontainers/bioconductor-rcellminer", "aliases": {".bioconductor-rcellminerdata-post-link.sh": "/usr/local/bin/.bioconductor-rcellminerdata-post-link.sh", ".bioconductor-rcellminerdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-rcellminerdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcellminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcellminer", "latest": {"2.8.0--r36_1": "sha256:b927a7912ea2f428e2e8824ff0146656b4bbb6517a11fd94a30286e319a2beee"}, "tags": {"2.8.0--r36_1": "sha256:b927a7912ea2f428e2e8824ff0146656b4bbb6517a11fd94a30286e319a2beee"}, "docker": "quay.io/biocontainers/bioconductor-rcellminer", "aliases": {"appletviewer": "/usr/local/bin/appletviewer", "extcheck": "/usr/local/bin/extcheck", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javah": "/usr/local/bin/javah"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcellminer.
@@ -99,21 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-rcellminerdata-post-link.sh
+#### appletviewer
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-rcellminerdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rcellminerdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rcellminerdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-rcellminerdata-pre-unlink.sh
+#### extcheck
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-rcellminerdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rcellminerdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rcellminerdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java-rmi.cgi
+
+```bash
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javah
+
+```bash
+$ singularity exec <container> /usr/local/bin/javah
+$ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

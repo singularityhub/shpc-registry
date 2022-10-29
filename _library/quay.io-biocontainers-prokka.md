@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/prokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prokka/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/prokka/container.yaml"
-updated_at: "2022-10-27 00:37:31.703261"
+updated_at: "2022-10-29 05:55:32.060824"
 latest: "1.14.6--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/prokka"
 aliases:
  - "tbl2asn-test"
+ - "2to3-3.7"
+ - "accn-at-a-time"
+ - "align-columns"
+ - "alimask"
+ - "amino-acid-composition"
+ - "annotateBed"
+ - "aragorn"
+ - "archive-pubmed"
+ - "aserver"
+ - "asn2xml"
 versions:
  - "1.14.6--pl5321hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for prokka"
-config: {"url": "https://biocontainers.pro/tools/prokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prokka", "latest": {"1.14.6--pl5321hdfd78af_4": "sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14"}, "tags": {"1.14.6--pl5321hdfd78af_4": "sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14"}, "docker": "quay.io/biocontainers/prokka", "aliases": {"tbl2asn-test": "/usr/local/bin/tbl2asn-test"}}
+config: {"url": "https://biocontainers.pro/tools/prokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prokka", "latest": {"1.14.6--pl5321hdfd78af_4": "sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14"}, "tags": {"1.14.6--pl5321hdfd78af_4": "sha256:d68768c8a51763cb6de66a96e34107874556cee935a70e21c3369680e07b9e14"}, "docker": "quay.io/biocontainers/prokka", "aliases": {"tbl2asn-test": "/usr/local/bin/tbl2asn-test", "2to3-3.7": "/usr/local/bin/2to3-3.7", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotateBed": "/usr/local/bin/annotateBed", "aragorn": "/usr/local/bin/aragorn", "archive-pubmed": "/usr/local/bin/archive-pubmed", "aserver": "/usr/local/bin/aserver", "asn2xml": "/usr/local/bin/asn2xml"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prokka.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/tbl2asn-test
 $ podman run --it --rm --entrypoint /usr/local/bin/tbl2asn-test   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tbl2asn-test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aragorn
+
+```bash
+$ singularity exec <container> /usr/local/bin/aragorn
+$ podman run --it --rm --entrypoint /usr/local/bin/aragorn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aragorn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

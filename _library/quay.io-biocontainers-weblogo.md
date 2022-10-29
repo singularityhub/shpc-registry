@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/weblogo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weblogo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/weblogo/container.yaml"
-updated_at: "2022-10-27 00:28:16.530505"
+updated_at: "2022-10-29 05:43:14.493518"
 latest: "3.7.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/weblogo"
-
+aliases:
+ - "2to3-3.10"
+ - "dvipdf"
+ - "eps2eps"
+ - "f2py3.10"
+ - "gs"
+ - "gsbj"
+ - "gsdj"
+ - "gsdj500"
+ - "gslj"
+ - "gslp"
 versions:
  - "3.7.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for weblogo"
-config: {"url": "https://biocontainers.pro/tools/weblogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weblogo", "latest": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "tags": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "docker": "quay.io/biocontainers/weblogo"}
+config: {"url": "https://biocontainers.pro/tools/weblogo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for weblogo", "latest": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "tags": {"3.7.9--pyhdfd78af_0": "sha256:0a19729ee0a95b8d566c76b36e42a13c390fe0e3b46bcb5d8ce7f8d1608d3546"}, "docker": "quay.io/biocontainers/weblogo", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "dvipdf": "/usr/local/bin/dvipdf", "eps2eps": "/usr/local/bin/eps2eps", "f2py3.10": "/usr/local/bin/f2py3.10", "gs": "/usr/local/bin/gs", "gsbj": "/usr/local/bin/gsbj", "gsdj": "/usr/local/bin/gsdj", "gsdj500": "/usr/local/bin/gsdj500", "gslj": "/usr/local/bin/gslj", "gslp": "/usr/local/bin/gslp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/weblogo.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### weblogo
+#### 2to3-3.10
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### dvipdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/dvipdf
+$ podman run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dvipdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### eps2eps
+
+```bash
+$ singularity exec <container> /usr/local/bin/eps2eps
+$ podman run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/eps2eps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gs
+
+```bash
+$ singularity exec <container> /usr/local/bin/gs
+$ podman run --it --rm --entrypoint /usr/local/bin/gs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsbj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsbj
+$ podman run --it --rm --entrypoint /usr/local/bin/gsbj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsbj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsdj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsdj
+$ podman run --it --rm --entrypoint /usr/local/bin/gsdj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsdj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gsdj500
+
+```bash
+$ singularity exec <container> /usr/local/bin/gsdj500
+$ podman run --it --rm --entrypoint /usr/local/bin/gsdj500   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gsdj500   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gslj
+
+```bash
+$ singularity exec <container> /usr/local/bin/gslj
+$ podman run --it --rm --entrypoint /usr/local/bin/gslj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gslj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gslp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gslp
+$ podman run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gslp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

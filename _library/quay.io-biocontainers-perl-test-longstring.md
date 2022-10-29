@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-test-longstring"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-longstring/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-longstring/container.yaml"
-updated_at: "2022-10-27 00:24:44.119276"
+updated_at: "2022-10-29 05:38:31.739797"
 latest: "0.17--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-test-longstring"
-
+aliases:
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.17--pl5321hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for perl-test-longstring"
-config: {"url": "https://biocontainers.pro/tools/perl-test-longstring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-longstring", "latest": {"0.17--pl5321hdfd78af_3": "sha256:50f9b65619d8a7ae230727dad36d71004358f5d7fdf9a7036128ebe408c4eb3f"}, "tags": {"0.17--pl5321hdfd78af_3": "sha256:50f9b65619d8a7ae230727dad36d71004358f5d7fdf9a7036128ebe408c4eb3f"}, "docker": "quay.io/biocontainers/perl-test-longstring"}
+config: {"url": "https://biocontainers.pro/tools/perl-test-longstring", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-longstring", "latest": {"0.17--pl5321hdfd78af_3": "sha256:50f9b65619d8a7ae230727dad36d71004358f5d7fdf9a7036128ebe408c4eb3f"}, "tags": {"0.17--pl5321hdfd78af_3": "sha256:50f9b65619d8a7ae230727dad36d71004358f5d7fdf9a7036128ebe408c4eb3f"}, "docker": "quay.io/biocontainers/perl-test-longstring", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-longstring.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-test-longstring
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

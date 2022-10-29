@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/perl-graphviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-graphviz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-graphviz/container.yaml"
-updated_at: "2022-10-27 00:39:38.861048"
+updated_at: "2022-10-29 05:58:16.672291"
 latest: "2.24--pl5321h4b32bfc_1"
 container_url: "https://biocontainers.pro/tools/perl-graphviz"
-
+aliases:
+ - "acyclic"
+ - "annotate"
+ - "bcomps"
+ - "bdftogd"
+ - "ccomps"
+ - "circo"
+ - "cluster"
+ - "cwebp"
+ - "delaunay"
+ - "diffimg"
 versions:
  - "2.24--pl5321h4b32bfc_1"
 description: "shpc-registry automated BioContainers addition for perl-graphviz"
-config: {"url": "https://biocontainers.pro/tools/perl-graphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graphviz", "latest": {"2.24--pl5321h4b32bfc_1": "sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe"}, "tags": {"2.24--pl5321h4b32bfc_1": "sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe"}, "docker": "quay.io/biocontainers/perl-graphviz"}
+config: {"url": "https://biocontainers.pro/tools/perl-graphviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-graphviz", "latest": {"2.24--pl5321h4b32bfc_1": "sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe"}, "tags": {"2.24--pl5321h4b32bfc_1": "sha256:62fa3078740dbabce88120f32bd6e0e21da5adf50b25d4c660eec8cd482ef8fe"}, "docker": "quay.io/biocontainers/perl-graphviz", "aliases": {"acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "ccomps": "/usr/local/bin/ccomps", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "cwebp": "/usr/local/bin/cwebp", "delaunay": "/usr/local/bin/delaunay", "diffimg": "/usr/local/bin/diffimg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-graphviz.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-graphviz
+#### acyclic
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### circo
+
+```bash
+$ singularity exec <container> /usr/local/bin/circo
+$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cluster
+
+```bash
+$ singularity exec <container> /usr/local/bin/cluster
+$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### delaunay
+
+```bash
+$ singularity exec <container> /usr/local/bin/delaunay
+$ podman run --it --rm --entrypoint /usr/local/bin/delaunay   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delaunay   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### diffimg
+
+```bash
+$ singularity exec <container> /usr/local/bin/diffimg
+$ podman run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diffimg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

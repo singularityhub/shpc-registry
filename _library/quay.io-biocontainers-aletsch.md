@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/aletsch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aletsch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aletsch/container.yaml"
-updated_at: "2022-10-27 00:32:50.525027"
+updated_at: "2022-10-29 05:49:17.188869"
 latest: "1.0.3--hefd527f_4"
 container_url: "https://biocontainers.pro/tools/aletsch"
 aliases:
  - "aletsch"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "1.0.3--hefd527f_4"
 description: "shpc-registry automated BioContainers addition for aletsch"
-config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch"}}
+config: {"url": "https://biocontainers.pro/tools/aletsch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aletsch", "latest": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "tags": {"1.0.3--hefd527f_4": "sha256:70878181b401760d539c273170eb44b0b37984dc6b3db33977265024001db755"}, "docker": "quay.io/biocontainers/aletsch", "aliases": {"aletsch": "/usr/local/bin/aletsch", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aletsch.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/aletsch
 $ podman run --it --rm --entrypoint /usr/local/bin/aletsch   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/aletsch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

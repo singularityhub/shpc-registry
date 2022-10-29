@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/talon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/talon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/talon/container.yaml"
-updated_at: "2022-10-27 00:34:49.810110"
+updated_at: "2022-10-29 05:51:57.891572"
 latest: "v5.0--py_1"
 container_url: "https://biocontainers.pro/tools/talon"
 aliases:
@@ -19,10 +19,20 @@ aliases:
  - "talon_label_reads"
  - "talon_reformat_gtf"
  - "talon_summarize"
+ - "2to3-3.6"
+ - "annotate.py"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
 versions:
  - "v5.0--py_1"
 description: "shpc-registry automated BioContainers addition for talon"
-config: {"url": "https://biocontainers.pro/tools/talon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for talon", "latest": {"v5.0--py_1": "sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a"}, "tags": {"v5.0--py_1": "sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a"}, "docker": "quay.io/biocontainers/talon", "aliases": {"talon": "/usr/local/bin/talon", "talon_abundance": "/usr/local/bin/talon_abundance", "talon_create_GTF": "/usr/local/bin/talon_create_GTF", "talon_fetch_reads": "/usr/local/bin/talon_fetch_reads", "talon_filter_transcripts": "/usr/local/bin/talon_filter_transcripts", "talon_generate_report": "/usr/local/bin/talon_generate_report", "talon_get_sjs": "/usr/local/bin/talon_get_sjs", "talon_initialize_database": "/usr/local/bin/talon_initialize_database", "talon_label_reads": "/usr/local/bin/talon_label_reads", "talon_reformat_gtf": "/usr/local/bin/talon_reformat_gtf", "talon_summarize": "/usr/local/bin/talon_summarize"}}
+config: {"url": "https://biocontainers.pro/tools/talon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for talon", "latest": {"v5.0--py_1": "sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a"}, "tags": {"v5.0--py_1": "sha256:0b4e548c453c4300f7be4b85db2c508ccee0d1b5f4f2b946005f16e2986da03a"}, "docker": "quay.io/biocontainers/talon", "aliases": {"talon": "/usr/local/bin/talon", "talon_abundance": "/usr/local/bin/talon_abundance", "talon_create_GTF": "/usr/local/bin/talon_create_GTF", "talon_fetch_reads": "/usr/local/bin/talon_fetch_reads", "talon_filter_transcripts": "/usr/local/bin/talon_filter_transcripts", "talon_generate_report": "/usr/local/bin/talon_generate_report", "talon_get_sjs": "/usr/local/bin/talon_get_sjs", "talon_initialize_database": "/usr/local/bin/talon_initialize_database", "talon_label_reads": "/usr/local/bin/talon_label_reads", "talon_reformat_gtf": "/usr/local/bin/talon_reformat_gtf", "talon_summarize": "/usr/local/bin/talon_summarize", "2to3-3.6": "/usr/local/bin/2to3-3.6", "annotate.py": "/usr/local/bin/annotate.py", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/talon.
@@ -204,6 +214,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/talon_reformat_gtf   -v ${PWD
 $ singularity exec <container> /usr/local/bin/talon_summarize
 $ podman run --it --rm --entrypoint /usr/local/bin/talon_summarize   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/talon_summarize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate.py
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

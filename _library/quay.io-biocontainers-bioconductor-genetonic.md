@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-genetonic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genetonic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genetonic/container.yaml"
-updated_at: "2022-10-27 00:28:59.908962"
+updated_at: "2022-10-29 05:44:10.865377"
 latest: "1.6.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genetonic"
-
+aliases:
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
+ - "pandoc"
 versions:
  - "1.6.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genetonic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genetonic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genetonic", "latest": {"1.6.0--r41hdfd78af_0": "sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1"}, "docker": "quay.io/biocontainers/bioconductor-genetonic"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genetonic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genetonic", "latest": {"1.6.0--r41hdfd78af_0": "sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1"}, "docker": "quay.io/biocontainers/bioconductor-genetonic", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genetonic.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-genetonic
+#### fftw-wisdom
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pandoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

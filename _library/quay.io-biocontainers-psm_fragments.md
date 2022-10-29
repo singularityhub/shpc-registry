@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/psm_fragments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/psm_fragments/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/psm_fragments/container.yaml"
-updated_at: "2022-10-27 00:20:41.442096"
+updated_at: "2022-10-29 05:33:11.173751"
 latest: "1.0.3--py_0"
 container_url: "https://biocontainers.pro/tools/psm_fragments"
-
+aliases:
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "jpgicc"
+ - "linkicc"
+ - "psicc"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "tificc"
 versions:
  - "1.0.3--py_0"
 description: "shpc-registry automated BioContainers addition for psm_fragments"
-config: {"url": "https://biocontainers.pro/tools/psm_fragments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psm_fragments", "latest": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "tags": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "docker": "quay.io/biocontainers/psm_fragments"}
+config: {"url": "https://biocontainers.pro/tools/psm_fragments", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for psm_fragments", "latest": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "tags": {"1.0.3--py_0": "sha256:babc648defb2b0eea2e96d18176590b0aa94858f8bb23e71671e8f798e722532"}, "docker": "quay.io/biocontainers/psm_fragments", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/psm_fragments.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### psm_fragments
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### psicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/psicc
+$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tificc
+
+```bash
+$ singularity exec <container> /usr/local/bin/tificc
+$ podman run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

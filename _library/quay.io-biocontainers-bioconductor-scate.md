@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-scate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scate/container.yaml"
-updated_at: "2022-10-27 00:34:50.231163"
+updated_at: "2022-10-29 05:51:58.424849"
 latest: "1.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scate"
 aliases:
- - ".bioconductor-scatedata-post-link.sh"
- - ".bioconductor-scatedata-pre-unlink.sh"
+ - "xgboost"
 versions:
  - "1.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scate", "latest": {"1.4.0--r41hdfd78af_0": "sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b"}, "docker": "quay.io/biocontainers/bioconductor-scate", "aliases": {".bioconductor-scatedata-post-link.sh": "/usr/local/bin/.bioconductor-scatedata-post-link.sh", ".bioconductor-scatedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-scatedata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scate", "latest": {"1.4.0--r41hdfd78af_0": "sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b"}, "docker": "quay.io/biocontainers/bioconductor-scate", "aliases": {"xgboost": "/usr/local/bin/xgboost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scate.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-scatedata-post-link.sh
+#### xgboost
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-scatedata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-scatedata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-scatedata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-scatedata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-scatedata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-scatedata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-scatedata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/xgboost
+$ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

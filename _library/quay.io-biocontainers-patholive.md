@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/patholive"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/patholive/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/patholive/container.yaml"
-updated_at: "2022-10-27 00:36:12.611042"
+updated_at: "2022-10-29 05:53:47.350567"
 latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/patholive"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "hilive-build"
  - "hilive-out"
  - "patholive"
+ - "2to3-3.6"
+ - "assistant"
+ - "canbusutil"
+ - "certutil"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
+ - "dbus-send"
 versions:
  - "1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for patholive"
-config: {"url": "https://biocontainers.pro/tools/patholive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for patholive", "latest": {"1.0--hdfd78af_1": "sha256:f7527475a1b1b7c3b792096fbd8d322fe111e28b6d99eb1aff3fe0497062efb2"}, "tags": {"1.0--hdfd78af_1": "sha256:f7527475a1b1b7c3b792096fbd8d322fe111e28b6d99eb1aff3fe0497062efb2"}, "docker": "quay.io/biocontainers/patholive", "aliases": {"PathoLive.py": "/usr/local/bin/PathoLive.py", "hilive": "/usr/local/bin/hilive", "hilive-build": "/usr/local/bin/hilive-build", "hilive-out": "/usr/local/bin/hilive-out", "patholive": "/usr/local/bin/patholive"}}
+config: {"url": "https://biocontainers.pro/tools/patholive", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for patholive", "latest": {"1.0--hdfd78af_1": "sha256:f7527475a1b1b7c3b792096fbd8d322fe111e28b6d99eb1aff3fe0497062efb2"}, "tags": {"1.0--hdfd78af_1": "sha256:f7527475a1b1b7c3b792096fbd8d322fe111e28b6d99eb1aff3fe0497062efb2"}, "docker": "quay.io/biocontainers/patholive", "aliases": {"PathoLive.py": "/usr/local/bin/PathoLive.py", "hilive": "/usr/local/bin/hilive", "hilive-build": "/usr/local/bin/hilive-build", "hilive-out": "/usr/local/bin/hilive-out", "patholive": "/usr/local/bin/patholive", "2to3-3.6": "/usr/local/bin/2to3-3.6", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/patholive.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hilive-out   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/patholive
 $ podman run --it --rm --entrypoint /usr/local/bin/patholive   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/patholive   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-send
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-send
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

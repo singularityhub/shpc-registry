@@ -4,21 +4,25 @@ name:  "quay.io/biocontainers/abra2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abra2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abra2/container.yaml"
-updated_at: "2022-10-27 00:27:49.659135"
+updated_at: "2022-10-29 05:42:40.127569"
 latest: "2.24--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/abra2"
 aliases:
  - "abra2"
  - "aserver"
- - "autopoint"
- - "hb-ot-shape-closure"
- - "hb-shape"
- - "hb-subset"
- - "hb-view"
+ - "b2sum"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "basenc"
+ - "cat"
+ - "chcon"
+ - "chgrp"
+ - "chmod"
 versions:
  - "2.24--h9f5acd7_1"
 description: "shpc-registry automated BioContainers addition for abra2"
-config: {"url": "https://biocontainers.pro/tools/abra2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abra2", "latest": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "aserver": "/usr/local/bin/aserver", "autopoint": "/usr/local/bin/autopoint", "hb-ot-shape-closure": "/usr/local/bin/hb-ot-shape-closure", "hb-shape": "/usr/local/bin/hb-shape", "hb-subset": "/usr/local/bin/hb-subset", "hb-view": "/usr/local/bin/hb-view"}}
+config: {"url": "https://biocontainers.pro/tools/abra2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abra2", "latest": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "tags": {"2.24--h9f5acd7_1": "sha256:20c656ed1353e22a0fcc611f7a0b845f1340a01e7aabf1781731e8a0485857d2"}, "docker": "quay.io/biocontainers/abra2", "aliases": {"abra2": "/usr/local/bin/abra2", "aserver": "/usr/local/bin/aserver", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "cat": "/usr/local/bin/cat", "chcon": "/usr/local/bin/chcon", "chgrp": "/usr/local/bin/chgrp", "chmod": "/usr/local/bin/chmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abra2.
@@ -122,48 +126,84 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD}
 ```
 
 
-#### autopoint
+#### b2sum
 
 ```bash
-$ singularity exec <container> /usr/local/bin/autopoint
-$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### hb-ot-shape-closure
+#### base32
 
 ```bash
-$ singularity exec <container> /usr/local/bin/hb-ot-shape-closure
-$ podman run --it --rm --entrypoint /usr/local/bin/hb-ot-shape-closure   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/hb-ot-shape-closure   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### hb-shape
+#### base64
 
 ```bash
-$ singularity exec <container> /usr/local/bin/hb-shape
-$ podman run --it --rm --entrypoint /usr/local/bin/hb-shape   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/hb-shape   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### hb-subset
+#### basename
 
 ```bash
-$ singularity exec <container> /usr/local/bin/hb-subset
-$ podman run --it --rm --entrypoint /usr/local/bin/hb-subset   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/hb-subset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### hb-view
+#### basenc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/hb-view
-$ podman run --it --rm --entrypoint /usr/local/bin/hb-view   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/hb-view   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cat
+
+```bash
+$ singularity exec <container> /usr/local/bin/cat
+$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chcon
+
+```bash
+$ singularity exec <container> /usr/local/bin/chcon
+$ podman run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chcon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chgrp
+
+```bash
+$ singularity exec <container> /usr/local/bin/chgrp
+$ podman run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chgrp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chmod
+
+```bash
+$ singularity exec <container> /usr/local/bin/chmod
+$ podman run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chmod   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

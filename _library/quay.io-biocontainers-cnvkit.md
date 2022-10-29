@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cnvkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnvkit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cnvkit/container.yaml"
-updated_at: "2022-10-27 00:40:36.558540"
+updated_at: "2022-10-29 05:59:32.402849"
 latest: "0.9.6a0--py35_2"
 container_url: "https://biocontainers.pro/tools/cnvkit"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "guess_baits.py"
  - "reference2targets.py"
  - "skg_convert.py"
+ - "2to3-3.5"
+ - "ace2sam"
+ - "assistant"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "c89"
+ - "c99"
+ - "color-chrs.pl"
 versions:
  - "0.9.6a0--py35_2"
 description: "shpc-registry automated BioContainers addition for cnvkit"
-config: {"url": "https://biocontainers.pro/tools/cnvkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnvkit", "latest": {"0.9.6a0--py35_2": "sha256:b62f45c485a6b3b28daffe4899c9e6cea54a3a76db87542deeb110be16ab87be"}, "tags": {"0.9.6a0--py35_2": "sha256:b62f45c485a6b3b28daffe4899c9e6cea54a3a76db87542deeb110be16ab87be"}, "docker": "quay.io/biocontainers/cnvkit", "aliases": {"cnv_annotate.py": "/usr/local/bin/cnv_annotate.py", "cnv_expression_correlate.py": "/usr/local/bin/cnv_expression_correlate.py", "cnv_updater.py": "/usr/local/bin/cnv_updater.py", "cnv_ztest.py": "/usr/local/bin/cnv_ztest.py", "cnvkit.py": "/usr/local/bin/cnvkit.py", "guess_baits.py": "/usr/local/bin/guess_baits.py", "reference2targets.py": "/usr/local/bin/reference2targets.py", "skg_convert.py": "/usr/local/bin/skg_convert.py"}}
+config: {"url": "https://biocontainers.pro/tools/cnvkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnvkit", "latest": {"0.9.6a0--py35_2": "sha256:b62f45c485a6b3b28daffe4899c9e6cea54a3a76db87542deeb110be16ab87be"}, "tags": {"0.9.6a0--py35_2": "sha256:b62f45c485a6b3b28daffe4899c9e6cea54a3a76db87542deeb110be16ab87be"}, "docker": "quay.io/biocontainers/cnvkit", "aliases": {"cnv_annotate.py": "/usr/local/bin/cnv_annotate.py", "cnv_expression_correlate.py": "/usr/local/bin/cnv_expression_correlate.py", "cnv_updater.py": "/usr/local/bin/cnv_updater.py", "cnv_ztest.py": "/usr/local/bin/cnv_ztest.py", "cnvkit.py": "/usr/local/bin/cnvkit.py", "guess_baits.py": "/usr/local/bin/guess_baits.py", "reference2targets.py": "/usr/local/bin/reference2targets.py", "skg_convert.py": "/usr/local/bin/skg_convert.py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "ace2sam": "/usr/local/bin/ace2sam", "assistant": "/usr/local/bin/assistant", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "color-chrs.pl": "/usr/local/bin/color-chrs.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnvkit.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/reference2targets.py   -v ${P
 $ singularity exec <container> /usr/local/bin/skg_convert.py
 $ podman run --it --rm --entrypoint /usr/local/bin/skg_convert.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/skg_convert.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

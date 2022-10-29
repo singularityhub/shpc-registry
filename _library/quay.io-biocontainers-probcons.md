@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/probcons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/probcons/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/probcons/container.yaml"
-updated_at: "2022-10-27 00:25:16.471380"
+updated_at: "2022-10-29 05:39:14.678678"
 latest: "1.12--h8b12597_1"
 container_url: "https://biocontainers.pro/tools/probcons"
 aliases:
  - "probcons"
+ - "compare"
 versions:
  - "1.12--h8b12597_1"
 description: "shpc-registry automated BioContainers addition for probcons"
-config: {"url": "https://biocontainers.pro/tools/probcons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probcons", "latest": {"1.12--h8b12597_1": "sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d"}, "tags": {"1.12--h8b12597_1": "sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d"}, "docker": "quay.io/biocontainers/probcons", "aliases": {"probcons": "/usr/local/bin/probcons"}}
+config: {"url": "https://biocontainers.pro/tools/probcons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for probcons", "latest": {"1.12--h8b12597_1": "sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d"}, "tags": {"1.12--h8b12597_1": "sha256:27e2e1eb2b58a10e23554df3c8c38af7f81f11c7992349cbc2802917f088e07d"}, "docker": "quay.io/biocontainers/probcons", "aliases": {"probcons": "/usr/local/bin/probcons", "compare": "/usr/local/bin/compare"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/probcons.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/probcons
 $ podman run --it --rm --entrypoint /usr/local/bin/probcons   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/probcons   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compare
+
+```bash
+$ singularity exec <container> /usr/local/bin/compare
+$ podman run --it --rm --entrypoint /usr/local/bin/compare   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compare   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

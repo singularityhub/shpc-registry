@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/orthomcl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orthomcl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/orthomcl/container.yaml"
-updated_at: "2022-10-27 00:33:59.610801"
+updated_at: "2022-10-29 05:50:48.217056"
 latest: "2.0.9--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/orthomcl"
 aliases:
- - ".orthomcl-post-link.sh"
  - "orthomclAdjustFasta"
  - "orthomclBlastParser"
  - "orthomclDropSchema"
@@ -28,10 +27,20 @@ aliases:
  - "orthomclSingletons"
  - "orthomclSortGroupMembersByScore"
  - "orthomclSortGroupsFile"
+ - "2to3-3.9"
+ - "CA.pm"
+ - "accn-at-a-time"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "between-two-genes"
+ - "blast_formatter"
+ - "blastdb_aliastool"
 versions:
  - "2.0.9--hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for orthomcl"
-config: {"url": "https://biocontainers.pro/tools/orthomcl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orthomcl", "latest": {"2.0.9--hdfd78af_5": "sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4"}, "tags": {"2.0.9--hdfd78af_5": "sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4"}, "docker": "quay.io/biocontainers/orthomcl", "aliases": {".orthomcl-post-link.sh": "/usr/local/bin/.orthomcl-post-link.sh", "orthomclAdjustFasta": "/usr/local/bin/orthomclAdjustFasta", "orthomclBlastParser": "/usr/local/bin/orthomclBlastParser", "orthomclDropSchema": "/usr/local/bin/orthomclDropSchema", "orthomclDumpPairsFiles": "/usr/local/bin/orthomclDumpPairsFiles", "orthomclExtractProteinIdsFromGroupsFile": "/usr/local/bin/orthomclExtractProteinIdsFromGroupsFile", "orthomclExtractProteinPairsFromGroupsFile": "/usr/local/bin/orthomclExtractProteinPairsFromGroupsFile", "orthomclFilterFasta": "/usr/local/bin/orthomclFilterFasta", "orthomclInstallSchema": "/usr/local/bin/orthomclInstallSchema", "orthomclInstallSchema.sql": "/usr/local/bin/orthomclInstallSchema.sql", "orthomclLoadBlast": "/usr/local/bin/orthomclLoadBlast", "orthomclLoadBlast.sql": "/usr/local/bin/orthomclLoadBlast.sql", "orthomclMclToGroups": "/usr/local/bin/orthomclMclToGroups", "orthomclPairs": "/usr/local/bin/orthomclPairs", "orthomclReduceFasta": "/usr/local/bin/orthomclReduceFasta", "orthomclReduceGroups": "/usr/local/bin/orthomclReduceGroups", "orthomclRemoveIdenticalGroups": "/usr/local/bin/orthomclRemoveIdenticalGroups", "orthomclSingletons": "/usr/local/bin/orthomclSingletons", "orthomclSortGroupMembersByScore": "/usr/local/bin/orthomclSortGroupMembersByScore", "orthomclSortGroupsFile": "/usr/local/bin/orthomclSortGroupsFile"}}
+config: {"url": "https://biocontainers.pro/tools/orthomcl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orthomcl", "latest": {"2.0.9--hdfd78af_5": "sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4"}, "tags": {"2.0.9--hdfd78af_5": "sha256:b27b8ffcc4652fd885fd532afc4317bd18abb371814aa437bd61fbd6ca1e93c4"}, "docker": "quay.io/biocontainers/orthomcl", "aliases": {"orthomclAdjustFasta": "/usr/local/bin/orthomclAdjustFasta", "orthomclBlastParser": "/usr/local/bin/orthomclBlastParser", "orthomclDropSchema": "/usr/local/bin/orthomclDropSchema", "orthomclDumpPairsFiles": "/usr/local/bin/orthomclDumpPairsFiles", "orthomclExtractProteinIdsFromGroupsFile": "/usr/local/bin/orthomclExtractProteinIdsFromGroupsFile", "orthomclExtractProteinPairsFromGroupsFile": "/usr/local/bin/orthomclExtractProteinPairsFromGroupsFile", "orthomclFilterFasta": "/usr/local/bin/orthomclFilterFasta", "orthomclInstallSchema": "/usr/local/bin/orthomclInstallSchema", "orthomclInstallSchema.sql": "/usr/local/bin/orthomclInstallSchema.sql", "orthomclLoadBlast": "/usr/local/bin/orthomclLoadBlast", "orthomclLoadBlast.sql": "/usr/local/bin/orthomclLoadBlast.sql", "orthomclMclToGroups": "/usr/local/bin/orthomclMclToGroups", "orthomclPairs": "/usr/local/bin/orthomclPairs", "orthomclReduceFasta": "/usr/local/bin/orthomclReduceFasta", "orthomclReduceGroups": "/usr/local/bin/orthomclReduceGroups", "orthomclRemoveIdenticalGroups": "/usr/local/bin/orthomclRemoveIdenticalGroups", "orthomclSingletons": "/usr/local/bin/orthomclSingletons", "orthomclSortGroupMembersByScore": "/usr/local/bin/orthomclSortGroupMembersByScore", "orthomclSortGroupsFile": "/usr/local/bin/orthomclSortGroupsFile", "2to3-3.9": "/usr/local/bin/2to3-3.9", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orthomcl.
@@ -114,15 +123,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .orthomcl-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.orthomcl-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.orthomcl-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.orthomcl-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -294,6 +294,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/orthomclSortGroupMembersBySco
 $ singularity exec <container> /usr/local/bin/orthomclSortGroupsFile
 $ podman run --it --rm --entrypoint /usr/local/bin/orthomclSortGroupsFile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/orthomclSortGroupsFile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CA.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/CA.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/perl-pod-coverage-trustpod"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-coverage-trustpod/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-coverage-trustpod/container.yaml"
-updated_at: "2022-10-27 00:30:16.599710"
+updated_at: "2022-10-29 05:45:50.799116"
 latest: "0.100005--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pod-coverage-trustpod"
-
+aliases:
+ - "cpanm"
+ - "pod_cover"
+ - "podselect"
 versions:
  - "0.100005--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-pod-coverage-trustpod"
-config: {"url": "https://biocontainers.pro/tools/perl-pod-coverage-trustpod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-coverage-trustpod", "latest": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "tags": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "docker": "quay.io/biocontainers/perl-pod-coverage-trustpod"}
+config: {"url": "https://biocontainers.pro/tools/perl-pod-coverage-trustpod", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-pod-coverage-trustpod", "latest": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "tags": {"0.100005--pl5321hdfd78af_0": "sha256:1a341041a22bc258b55db63132db826a05d46a2a073f6de1dc02515bb1d97824"}, "docker": "quay.io/biocontainers/perl-pod-coverage-trustpod", "aliases": {"cpanm": "/usr/local/bin/cpanm", "pod_cover": "/usr/local/bin/pod_cover", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-pod-coverage-trustpod.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-pod-coverage-trustpod
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### pod_cover
+
+```bash
+$ singularity exec <container> /usr/local/bin/pod_cover
+$ podman run --it --rm --entrypoint /usr/local/bin/pod_cover   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pod_cover   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gcrisprtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gcrisprtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gcrisprtools/container.yaml"
-updated_at: "2022-10-27 00:26:51.543030"
+updated_at: "2022-10-29 05:41:23.766930"
 latest: "2.0.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gcrisprtools"
-
+aliases:
+ - "pandoc"
 versions:
  - "2.0.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gcrisprtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gcrisprtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gcrisprtools", "latest": {"2.0.0--r41hdfd78af_0": "sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b"}, "docker": "quay.io/biocontainers/bioconductor-gcrisprtools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gcrisprtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gcrisprtools", "latest": {"2.0.0--r41hdfd78af_0": "sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:47da2386925bdfd79c8d9758d74c43f8a29dd5f7f54e862bb894150dd3d8fc0b"}, "docker": "quay.io/biocontainers/bioconductor-gcrisprtools", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gcrisprtools.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-gcrisprtools
+#### pandoc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shorah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shorah/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/shorah/container.yaml"
-updated_at: "2022-10-27 00:33:01.172743"
+updated_at: "2022-10-29 05:49:30.755622"
 latest: "1.99.2--py36h721498b_1"
 container_url: "https://biocontainers.pro/tools/shorah"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "diri_sampler"
  - "fil"
  - "shorah"
+ - "2to3-3.6"
+ - "bgzip"
+ - "f2py3.6"
+ - "htsfile"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
 versions:
  - "1.99.2--py36h721498b_1"
 description: "shpc-registry automated BioContainers addition for shorah"
-config: {"url": "https://biocontainers.pro/tools/shorah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shorah", "latest": {"1.99.2--py36h721498b_1": "sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0"}, "tags": {"1.99.2--py36h721498b_1": "sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0"}, "docker": "quay.io/biocontainers/shorah", "aliases": {"b2w": "/usr/local/bin/b2w", "diri_sampler": "/usr/local/bin/diri_sampler", "fil": "/usr/local/bin/fil", "shorah": "/usr/local/bin/shorah"}}
+config: {"url": "https://biocontainers.pro/tools/shorah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for shorah", "latest": {"1.99.2--py36h721498b_1": "sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0"}, "tags": {"1.99.2--py36h721498b_1": "sha256:566066d5f0988c9974276c5b1253d5792c2570877d6f6284afe250842360faa0"}, "docker": "quay.io/biocontainers/shorah", "aliases": {"b2w": "/usr/local/bin/b2w", "diri_sampler": "/usr/local/bin/diri_sampler", "fil": "/usr/local/bin/fil", "shorah": "/usr/local/bin/shorah", "2to3-3.6": "/usr/local/bin/2to3-3.6", "bgzip": "/usr/local/bin/bgzip", "f2py3.6": "/usr/local/bin/f2py3.6", "htsfile": "/usr/local/bin/htsfile", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/shorah.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/fil   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/shorah
 $ podman run --it --rm --entrypoint /usr/local/bin/shorah   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/shorah   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

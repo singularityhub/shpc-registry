@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcen/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gcen/container.yaml"
-updated_at: "2022-10-27 00:32:15.404401"
+updated_at: "2022-10-29 05:48:31.134035"
 latest: "0.6.3--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/gcen"
 aliases:
@@ -24,10 +24,11 @@ aliases:
  - "network_stat"
  - "rwr"
  - "tsv_to_csv"
+ - "annotate"
 versions:
  - "0.6.3--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for gcen"
-config: {"url": "https://biocontainers.pro/tools/gcen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcen", "latest": {"0.6.3--h9f5acd7_0": "sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95"}, "tags": {"0.6.3--h9f5acd7_0": "sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95"}, "docker": "quay.io/biocontainers/gcen", "aliases": {"calculate_accuracy": "/usr/local/bin/calculate_accuracy", "csv_to_tsv": "/usr/local/bin/csv_to_tsv", "data_filter": "/usr/local/bin/data_filter", "data_norm": "/usr/local/bin/data_norm", "data_stat": "/usr/local/bin/data_stat", "enrich": "/usr/local/bin/enrich", "generate_expr_matrix_from_rsem": "/usr/local/bin/generate_expr_matrix_from_rsem", "generate_expr_matrix_from_stringtie": "/usr/local/bin/generate_expr_matrix_from_stringtie", "module_identify": "/usr/local/bin/module_identify", "network_build": "/usr/local/bin/network_build", "network_extract": "/usr/local/bin/network_extract", "network_merge": "/usr/local/bin/network_merge", "network_shuffle": "/usr/local/bin/network_shuffle", "network_stat": "/usr/local/bin/network_stat", "rwr": "/usr/local/bin/rwr", "tsv_to_csv": "/usr/local/bin/tsv_to_csv"}}
+config: {"url": "https://biocontainers.pro/tools/gcen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gcen", "latest": {"0.6.3--h9f5acd7_0": "sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95"}, "tags": {"0.6.3--h9f5acd7_0": "sha256:d8e0e085dbb0f2570b06a487f583fe402d603db541f22651e7915e1a6a5bae95"}, "docker": "quay.io/biocontainers/gcen", "aliases": {"calculate_accuracy": "/usr/local/bin/calculate_accuracy", "csv_to_tsv": "/usr/local/bin/csv_to_tsv", "data_filter": "/usr/local/bin/data_filter", "data_norm": "/usr/local/bin/data_norm", "data_stat": "/usr/local/bin/data_stat", "enrich": "/usr/local/bin/enrich", "generate_expr_matrix_from_rsem": "/usr/local/bin/generate_expr_matrix_from_rsem", "generate_expr_matrix_from_stringtie": "/usr/local/bin/generate_expr_matrix_from_stringtie", "module_identify": "/usr/local/bin/module_identify", "network_build": "/usr/local/bin/network_build", "network_extract": "/usr/local/bin/network_extract", "network_merge": "/usr/local/bin/network_merge", "network_shuffle": "/usr/local/bin/network_shuffle", "network_stat": "/usr/local/bin/network_stat", "rwr": "/usr/local/bin/rwr", "tsv_to_csv": "/usr/local/bin/tsv_to_csv", "annotate": "/usr/local/bin/annotate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gcen.
@@ -254,6 +255,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rwr   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/tsv_to_csv
 $ podman run --it --rm --entrypoint /usr/local/bin/tsv_to_csv   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tsv_to_csv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

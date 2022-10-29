@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/duphold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/duphold/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/duphold/container.yaml"
-updated_at: "2022-10-27 00:25:16.043081"
+updated_at: "2022-10-29 05:39:14.135276"
 latest: "0.2.1--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/duphold"
 aliases:
  - "duphold"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "0.2.1--hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for duphold"
-config: {"url": "https://biocontainers.pro/tools/duphold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duphold", "latest": {"0.2.1--hec16e2b_3": "sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237"}, "tags": {"0.2.1--hec16e2b_3": "sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237"}, "docker": "quay.io/biocontainers/duphold", "aliases": {"duphold": "/usr/local/bin/duphold"}}
+config: {"url": "https://biocontainers.pro/tools/duphold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for duphold", "latest": {"0.2.1--hec16e2b_3": "sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237"}, "tags": {"0.2.1--hec16e2b_3": "sha256:b7b1e1ae83345ba8528d54fba19127aab0e9fda166e3d7a7c19da6d951d99237"}, "docker": "quay.io/biocontainers/duphold", "aliases": {"duphold": "/usr/local/bin/duphold", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/duphold.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/duphold
 $ podman run --it --rm --entrypoint /usr/local/bin/duphold   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/duphold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

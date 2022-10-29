@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/svviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svviz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/svviz/container.yaml"
-updated_at: "2022-10-27 00:27:08.873698"
+updated_at: "2022-10-29 05:41:47.619741"
 latest: "1.6.2--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/svviz"
 aliases:
  - "svviz"
+ - "chardetect"
+ - "f2py2"
+ - "f2py2.7"
+ - "faidx"
+ - "flask"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
 versions:
  - "1.6.2--py27h9801fc8_5"
 description: "shpc-registry automated BioContainers addition for svviz"
-config: {"url": "https://biocontainers.pro/tools/svviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svviz", "latest": {"1.6.2--py27h9801fc8_5": "sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8"}, "tags": {"1.6.2--py27h9801fc8_5": "sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8"}, "docker": "quay.io/biocontainers/svviz", "aliases": {"svviz": "/usr/local/bin/svviz"}}
+config: {"url": "https://biocontainers.pro/tools/svviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svviz", "latest": {"1.6.2--py27h9801fc8_5": "sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8"}, "tags": {"1.6.2--py27h9801fc8_5": "sha256:f534e5b3b39dcf2b422be41222dcea2dc70c94494f93a1716a8b6dbdd417eff8"}, "docker": "quay.io/biocontainers/svviz", "aliases": {"svviz": "/usr/local/bin/svviz", "chardetect": "/usr/local/bin/chardetect", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "faidx": "/usr/local/bin/faidx", "flask": "/usr/local/bin/flask", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svviz.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/svviz
 $ podman run --it --rm --entrypoint /usr/local/bin/svviz   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/svviz   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### faidx
+
+```bash
+$ singularity exec <container> /usr/local/bin/faidx
+$ podman run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faidx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### flask
+
+```bash
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

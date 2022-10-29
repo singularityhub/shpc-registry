@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-synapsis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synapsis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synapsis/container.yaml"
-updated_at: "2022-10-27 00:23:32.454888"
+updated_at: "2022-10-29 05:36:58.712533"
 latest: "1.0.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synapsis"
-
+aliases:
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
 versions:
  - "1.0.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-synapsis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synapsis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synapsis", "latest": {"1.0.0--r41hdfd78af_0": "sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570"}, "docker": "quay.io/biocontainers/bioconductor-synapsis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synapsis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synapsis", "latest": {"1.0.0--r41hdfd78af_0": "sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:598b12a1f154b5354c10f4071d580d8a53c3505449604b8e483290a844983570"}, "docker": "quay.io/biocontainers/bioconductor-synapsis", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synapsis.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-synapsis
+#### fftw-wisdom
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

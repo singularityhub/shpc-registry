@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-flowqbdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowqbdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowqbdata/container.yaml"
-updated_at: "2022-10-27 00:26:46.076975"
+updated_at: "2022-10-29 05:41:15.713451"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowqbdata"
 aliases:
- - ".bioconductor-flowqbdata-post-link.sh"
- - ".bioconductor-flowqbdata-pre-unlink.sh"
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowqbdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowqbdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowqbdata", "latest": {"1.8.0--r351_0": "sha256:71ed461dcc49c00cf675e19a75c827aa20e49bfa6928ab9fe939a1a1413aa712"}, "tags": {"1.8.0--r351_0": "sha256:71ed461dcc49c00cf675e19a75c827aa20e49bfa6928ab9fe939a1a1413aa712"}, "docker": "quay.io/biocontainers/bioconductor-flowqbdata", "aliases": {".bioconductor-flowqbdata-post-link.sh": "/usr/local/bin/.bioconductor-flowqbdata-post-link.sh", ".bioconductor-flowqbdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-flowqbdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowqbdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowqbdata", "latest": {"1.8.0--r351_0": "sha256:71ed461dcc49c00cf675e19a75c827aa20e49bfa6928ab9fe939a1a1413aa712"}, "tags": {"1.8.0--r351_0": "sha256:71ed461dcc49c00cf675e19a75c827aa20e49bfa6928ab9fe939a1a1413aa712"}, "docker": "quay.io/biocontainers/bioconductor-flowqbdata", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowqbdata.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-flowqbdata-post-link.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-flowqbdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowqbdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowqbdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-flowqbdata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-flowqbdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowqbdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowqbdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

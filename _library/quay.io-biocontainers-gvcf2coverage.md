@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/gvcf2coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gvcf2coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gvcf2coverage/container.yaml"
-updated_at: "2022-10-27 00:18:18.034528"
+updated_at: "2022-10-29 05:30:02.378632"
 latest: "0.1--h8a6b41c_5"
 container_url: "https://biocontainers.pro/tools/gvcf2coverage"
 aliases:
  - "gvcf2coverage"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "0.1--h8a6b41c_5"
 description: "shpc-registry automated BioContainers addition for gvcf2coverage"
-config: {"url": "https://biocontainers.pro/tools/gvcf2coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf2coverage", "latest": {"0.1--h8a6b41c_5": "sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887"}, "tags": {"0.1--h8a6b41c_5": "sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887"}, "docker": "quay.io/biocontainers/gvcf2coverage", "aliases": {"gvcf2coverage": "/usr/local/bin/gvcf2coverage"}}
+config: {"url": "https://biocontainers.pro/tools/gvcf2coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gvcf2coverage", "latest": {"0.1--h8a6b41c_5": "sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887"}, "tags": {"0.1--h8a6b41c_5": "sha256:d311bf1743e808c818bac6287d43554d65c26517b71480bb2f59f1e71eaca887"}, "docker": "quay.io/biocontainers/gvcf2coverage", "aliases": {"gvcf2coverage": "/usr/local/bin/gvcf2coverage", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gvcf2coverage.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/gvcf2coverage
 $ podman run --it --rm --entrypoint /usr/local/bin/gvcf2coverage   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gvcf2coverage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

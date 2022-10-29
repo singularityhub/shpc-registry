@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepmedic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepmedic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deepmedic/container.yaml"
-updated_at: "2022-10-27 00:31:12.655452"
+updated_at: "2022-10-29 05:47:06.952536"
 latest: "0.6.1--py_1"
 container_url: "https://biocontainers.pro/tools/deepmedic"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "nib-trk2tck"
  - "parrec2nii"
  - "ppserver.py"
+ - "c89"
+ - "c99"
+ - "f2py2"
+ - "f2py2.7"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
 versions:
  - "0.6.1--py_1"
 description: "shpc-registry automated BioContainers addition for deepmedic"
-config: {"url": "https://biocontainers.pro/tools/deepmedic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepmedic", "latest": {"0.6.1--py_1": "sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64"}, "tags": {"0.6.1--py_1": "sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64"}, "docker": "quay.io/biocontainers/deepmedic", "aliases": {"deepMedicRun": "/usr/local/bin/deepMedicRun", "nib-dicomfs": "/usr/local/bin/nib-dicomfs", "nib-diff": "/usr/local/bin/nib-diff", "nib-ls": "/usr/local/bin/nib-ls", "nib-nifti-dx": "/usr/local/bin/nib-nifti-dx", "nib-tck2trk": "/usr/local/bin/nib-tck2trk", "nib-trk2tck": "/usr/local/bin/nib-trk2tck", "parrec2nii": "/usr/local/bin/parrec2nii", "ppserver.py": "/usr/local/bin/ppserver.py"}}
+config: {"url": "https://biocontainers.pro/tools/deepmedic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deepmedic", "latest": {"0.6.1--py_1": "sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64"}, "tags": {"0.6.1--py_1": "sha256:55a808db7aeac123986cd1624bacfe4dd25442aa71302965e32d14cef8138e64"}, "docker": "quay.io/biocontainers/deepmedic", "aliases": {"deepMedicRun": "/usr/local/bin/deepMedicRun", "nib-dicomfs": "/usr/local/bin/nib-dicomfs", "nib-diff": "/usr/local/bin/nib-diff", "nib-ls": "/usr/local/bin/nib-ls", "nib-nifti-dx": "/usr/local/bin/nib-nifti-dx", "nib-tck2trk": "/usr/local/bin/nib-tck2trk", "nib-trk2tck": "/usr/local/bin/nib-trk2tck", "parrec2nii": "/usr/local/bin/parrec2nii", "ppserver.py": "/usr/local/bin/ppserver.py", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deepmedic.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/parrec2nii   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/ppserver.py
 $ podman run --it --rm --entrypoint /usr/local/bin/ppserver.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ppserver.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

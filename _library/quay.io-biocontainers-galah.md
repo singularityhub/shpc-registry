@@ -4,16 +4,23 @@ name:  "quay.io/biocontainers/galah"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galah/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galah/container.yaml"
-updated_at: "2022-10-27 00:20:17.316742"
+updated_at: "2022-10-29 05:32:37.823777"
 latest: "0.3.1--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/galah"
 aliases:
  - "dashing"
  - "galah"
+ - "2to3-3.8"
+ - "f2py3.8"
+ - "fastANI"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "0.3.1--hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for galah"
-config: {"url": "https://biocontainers.pro/tools/galah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galah", "latest": {"0.3.1--hec16e2b_1": "sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41"}, "tags": {"0.3.1--hec16e2b_1": "sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41"}, "docker": "quay.io/biocontainers/galah", "aliases": {"dashing": "/usr/local/bin/dashing", "galah": "/usr/local/bin/galah"}}
+config: {"url": "https://biocontainers.pro/tools/galah", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galah", "latest": {"0.3.1--hec16e2b_1": "sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41"}, "tags": {"0.3.1--hec16e2b_1": "sha256:7c4e64c9912f0aa9394e5aec6a4974ddcb55281d0534d896ce8e428f59eb0a41"}, "docker": "quay.io/biocontainers/galah", "aliases": {"dashing": "/usr/local/bin/dashing", "galah": "/usr/local/bin/galah", "2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "fastANI": "/usr/local/bin/fastANI", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galah.
@@ -114,6 +121,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dashing   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/galah
 $ podman run --it --rm --entrypoint /usr/local/bin/galah   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/galah   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastANI
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastANI
+$ podman run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastANI   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

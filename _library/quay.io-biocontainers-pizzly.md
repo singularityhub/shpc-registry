@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pizzly"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pizzly/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pizzly/container.yaml"
-updated_at: "2022-10-27 00:30:34.964380"
+updated_at: "2022-10-29 05:46:16.917169"
 latest: "0.37.3--h470a237_3"
 container_url: "https://biocontainers.pro/tools/pizzly"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "pizzly_flatten_json.py.bak"
  - "pizzly_get_fragment_length.py"
  - "pizzly_get_fragment_length.py.bak"
+ - "2to3-3.6"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
+ - "h5diff"
+ - "h5dump"
 versions:
  - "0.37.3--h470a237_3"
 description: "shpc-registry automated BioContainers addition for pizzly"
-config: {"url": "https://biocontainers.pro/tools/pizzly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pizzly", "latest": {"0.37.3--h470a237_3": "sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631"}, "tags": {"0.37.3--h470a237_3": "sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631"}, "docker": "quay.io/biocontainers/pizzly", "aliases": {"pizzly": "/usr/local/bin/pizzly", "pizzly_flatten_json.py": "/usr/local/bin/pizzly_flatten_json.py", "pizzly_flatten_json.py.bak": "/usr/local/bin/pizzly_flatten_json.py.bak", "pizzly_get_fragment_length.py": "/usr/local/bin/pizzly_get_fragment_length.py", "pizzly_get_fragment_length.py.bak": "/usr/local/bin/pizzly_get_fragment_length.py.bak"}}
+config: {"url": "https://biocontainers.pro/tools/pizzly", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pizzly", "latest": {"0.37.3--h470a237_3": "sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631"}, "tags": {"0.37.3--h470a237_3": "sha256:ead1dc712bec8e196aeeea9f1312603de07579b33814fa301a6cdc56e3619631"}, "docker": "quay.io/biocontainers/pizzly", "aliases": {"pizzly": "/usr/local/bin/pizzly", "pizzly_flatten_json.py": "/usr/local/bin/pizzly_flatten_json.py", "pizzly_flatten_json.py.bak": "/usr/local/bin/pizzly_flatten_json.py.bak", "pizzly_get_fragment_length.py": "/usr/local/bin/pizzly_get_fragment_length.py", "pizzly_get_fragment_length.py.bak": "/usr/local/bin/pizzly_get_fragment_length.py.bak", "2to3-3.6": "/usr/local/bin/2to3-3.6", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5dump": "/usr/local/bin/h5dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pizzly.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pizzly_get_fragment_length.py
 $ singularity exec <container> /usr/local/bin/pizzly_get_fragment_length.py.bak
 $ podman run --it --rm --entrypoint /usr/local/bin/pizzly_get_fragment_length.py.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pizzly_get_fragment_length.py.bak   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5diff
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5diff
+$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5dump
+$ podman run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

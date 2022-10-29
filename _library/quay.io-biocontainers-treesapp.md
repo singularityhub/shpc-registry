@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/treesapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treesapp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/treesapp/container.yaml"
-updated_at: "2022-10-27 00:29:23.760917"
+updated_at: "2022-10-29 05:44:42.273692"
 latest: "0.9.8--py36hf1ae8f4_0"
 container_url: "https://biocontainers.pro/tools/treesapp"
 aliases:
  - "epa-ng"
  - "samsum"
  - "treesapp"
+ - "2to3-3.6"
+ - "FastTree"
+ - "FastTree-2.1.10.c"
+ - "FastTreeMP"
+ - "aggregate_profile.pl"
+ - "alimask"
+ - "assistant"
+ - "awk"
+ - "bwa"
+ - "canbusutil"
 versions:
  - "0.9.8--py36hf1ae8f4_0"
 description: "shpc-registry automated BioContainers addition for treesapp"
-config: {"url": "https://biocontainers.pro/tools/treesapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treesapp", "latest": {"0.9.8--py36hf1ae8f4_0": "sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b"}, "tags": {"0.9.8--py36hf1ae8f4_0": "sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b"}, "docker": "quay.io/biocontainers/treesapp", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "samsum": "/usr/local/bin/samsum", "treesapp": "/usr/local/bin/treesapp"}}
+config: {"url": "https://biocontainers.pro/tools/treesapp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for treesapp", "latest": {"0.9.8--py36hf1ae8f4_0": "sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b"}, "tags": {"0.9.8--py36hf1ae8f4_0": "sha256:d63460ac608408ff1be74b44e9252bbb0b8be1922563500451cc5ae1bccc812b"}, "docker": "quay.io/biocontainers/treesapp", "aliases": {"epa-ng": "/usr/local/bin/epa-ng", "samsum": "/usr/local/bin/samsum", "treesapp": "/usr/local/bin/treesapp", "2to3-3.6": "/usr/local/bin/2to3-3.6", "FastTree": "/usr/local/bin/FastTree", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "aggregate_profile.pl": "/usr/local/bin/aggregate_profile.pl", "alimask": "/usr/local/bin/alimask", "assistant": "/usr/local/bin/assistant", "awk": "/usr/local/bin/awk", "bwa": "/usr/local/bin/bwa", "canbusutil": "/usr/local/bin/canbusutil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/treesapp.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/samsum   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/treesapp
 $ podman run --it --rm --entrypoint /usr/local/bin/treesapp   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/treesapp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTree-2.1.10.c
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTree-2.1.10.c
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTree-2.1.10.c   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FastTreeMP
+
+```bash
+$ singularity exec <container> /usr/local/bin/FastTreeMP
+$ podman run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FastTreeMP   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_profile.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_profile.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_profile.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### awk
+
+```bash
+$ singularity exec <container> /usr/local/bin/awk
+$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bwa
+
+```bash
+$ singularity exec <container> /usr/local/bin/bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/vcflib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcflib/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vcflib/container.yaml"
-updated_at: "2022-10-27 00:34:20.891320"
+updated_at: "2022-10-29 05:51:17.480416"
 latest: "1.0.3--ha04fe3b_2"
 container_url: "https://biocontainers.pro/tools/vcflib"
-
+aliases:
+ - "2to3-3.10"
+ - "abba-baba"
+ - "ace2sam"
+ - "bFst"
+ - "bc"
+ - "bed2region"
+ - "bgzip"
+ - "bgziptabix"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
 versions:
  - "1.0.3--ha04fe3b_2"
 description: "shpc-registry automated BioContainers addition for vcflib"
-config: {"url": "https://biocontainers.pro/tools/vcflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcflib", "latest": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "tags": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "docker": "quay.io/biocontainers/vcflib"}
+config: {"url": "https://biocontainers.pro/tools/vcflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcflib", "latest": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "tags": {"1.0.3--ha04fe3b_2": "sha256:8a4583b2ebec8d8fb64e1fc28d23acbdcfaee19cd78b151501b2e0790b95b9b3"}, "docker": "quay.io/biocontainers/vcflib", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "abba-baba": "/usr/local/bin/abba-baba", "ace2sam": "/usr/local/bin/ace2sam", "bFst": "/usr/local/bin/bFst", "bc": "/usr/local/bin/bc", "bed2region": "/usr/local/bin/bed2region", "bgzip": "/usr/local/bin/bgzip", "bgziptabix": "/usr/local/bin/bgziptabix", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcflib.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### vcflib
+#### 2to3-3.10
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### abba-baba
+
+```bash
+$ singularity exec <container> /usr/local/bin/abba-baba
+$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bFst
+
+```bash
+$ singularity exec <container> /usr/local/bin/bFst
+$ podman run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bc
+
+```bash
+$ singularity exec <container> /usr/local/bin/bc
+$ podman run --it --rm --entrypoint /usr/local/bin/bc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed2region
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed2region
+$ podman run --it --rm --entrypoint /usr/local/bin/bed2region   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed2region   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgziptabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgziptabix
+$ podman run --it --rm --entrypoint /usr/local/bin/bgziptabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgziptabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

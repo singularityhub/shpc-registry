@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/aragorn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/aragorn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/aragorn/container.yaml"
-updated_at: "2022-10-27 00:28:38.669758"
+updated_at: "2022-10-29 05:43:43.774002"
 latest: "1.2.41--hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/aragorn"
-
+aliases:
+ - "aragorn"
 versions:
  - "1.2.41--hec16e2b_0"
 description: "shpc-registry automated BioContainers addition for aragorn"
-config: {"url": "https://biocontainers.pro/tools/aragorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aragorn", "latest": {"1.2.41--hec16e2b_0": "sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4"}, "tags": {"1.2.41--hec16e2b_0": "sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4"}, "docker": "quay.io/biocontainers/aragorn"}
+config: {"url": "https://biocontainers.pro/tools/aragorn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for aragorn", "latest": {"1.2.41--hec16e2b_0": "sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4"}, "tags": {"1.2.41--hec16e2b_0": "sha256:f2861de42c8da62ebf1114c533d681f57e1f93bc8278efc27306b19a192d6bd4"}, "docker": "quay.io/biocontainers/aragorn", "aliases": {"aragorn": "/usr/local/bin/aragorn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/aragorn.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### aragorn
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/aragorn
+$ podman run --it --rm --entrypoint /usr/local/bin/aragorn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aragorn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

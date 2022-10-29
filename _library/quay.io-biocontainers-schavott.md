@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/schavott"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/schavott/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/schavott/container.yaml"
-updated_at: "2022-10-27 00:39:18.527758"
+updated_at: "2022-10-29 05:57:51.194048"
 latest: "0.5.0--pyh145b6a8_2"
 container_url: "https://biocontainers.pro/tools/schavott"
 aliases:
  - "pyfasta"
  - "schavott"
  - "watchmedo"
+ - "2to3-3.8"
+ - "bokeh"
+ - "f2py3.8"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
 versions:
  - "0.5.0--pyh145b6a8_2"
 description: "shpc-registry automated BioContainers addition for schavott"
-config: {"url": "https://biocontainers.pro/tools/schavott", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for schavott", "latest": {"0.5.0--pyh145b6a8_2": "sha256:cbab650921f6a65f4c5ee7f5f3bc2c87b3a473167dd707ece6761df0c84e3494"}, "tags": {"0.5.0--pyh145b6a8_2": "sha256:cbab650921f6a65f4c5ee7f5f3bc2c87b3a473167dd707ece6761df0c84e3494"}, "docker": "quay.io/biocontainers/schavott", "aliases": {"pyfasta": "/usr/local/bin/pyfasta", "schavott": "/usr/local/bin/schavott", "watchmedo": "/usr/local/bin/watchmedo"}}
+config: {"url": "https://biocontainers.pro/tools/schavott", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for schavott", "latest": {"0.5.0--pyh145b6a8_2": "sha256:cbab650921f6a65f4c5ee7f5f3bc2c87b3a473167dd707ece6761df0c84e3494"}, "tags": {"0.5.0--pyh145b6a8_2": "sha256:cbab650921f6a65f4c5ee7f5f3bc2c87b3a473167dd707ece6761df0c84e3494"}, "docker": "quay.io/biocontainers/schavott", "aliases": {"pyfasta": "/usr/local/bin/pyfasta", "schavott": "/usr/local/bin/schavott", "watchmedo": "/usr/local/bin/watchmedo", "2to3-3.8": "/usr/local/bin/2to3-3.8", "bokeh": "/usr/local/bin/bokeh", "f2py3.8": "/usr/local/bin/f2py3.8", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/schavott.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/schavott   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/watchmedo
 $ podman run --it --rm --entrypoint /usr/local/bin/watchmedo   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/watchmedo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bokeh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bokeh
+$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

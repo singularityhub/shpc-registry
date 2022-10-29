@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pm4ngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pm4ngs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pm4ngs/container.yaml"
-updated_at: "2022-10-27 00:37:15.025992"
+updated_at: "2022-10-29 05:55:10.409492"
 latest: "0.0.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pm4ngs"
 aliases:
@@ -38,10 +38,20 @@ aliases:
  - "prov-compare"
  - "prov-convert"
  - "wsdump.py"
+ - "2to3-3.8"
+ - "activate-global-python-argcomplete"
+ - "acyclic"
+ - "annotate"
+ - "aserver"
+ - "assistant"
+ - "bcomps"
+ - "bdftogd"
+ - "canbusutil"
+ - "ccomps"
 versions:
  - "0.0.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pm4ngs"
-config: {"url": "https://biocontainers.pro/tools/pm4ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pm4ngs", "latest": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "docker": "quay.io/biocontainers/pm4ngs", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioconda2biocontainer": "/usr/local/bin/bioconda2biocontainer", "bioconda2cwldocker": "/usr/local/bin/bioconda2cwldocker", "biocontainers-search": "/usr/local/bin/biocontainers-search", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "cookiecutter": "/usr/local/bin/cookiecutter", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "goenrichment": "/usr/local/bin/goenrichment", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "pm4ngs-chipexo": "/usr/local/bin/pm4ngs-chipexo", "pm4ngs-chipexo-demo": "/usr/local/bin/pm4ngs-chipexo-demo", "pm4ngs-chipseq": "/usr/local/bin/pm4ngs-chipseq", "pm4ngs-chipseq-demo": "/usr/local/bin/pm4ngs-chipseq-demo", "pm4ngs-create": "/usr/local/bin/pm4ngs-create", "pm4ngs-rnaseq": "/usr/local/bin/pm4ngs-rnaseq", "pm4ngs-rnaseq-demo": "/usr/local/bin/pm4ngs-rnaseq-demo", "pm4ngs-server": "/usr/local/bin/pm4ngs-server", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "wsdump.py": "/usr/local/bin/wsdump.py"}}
+config: {"url": "https://biocontainers.pro/tools/pm4ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pm4ngs", "latest": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "tags": {"0.0.9--pyhdfd78af_0": "sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1"}, "docker": "quay.io/biocontainers/pm4ngs", "aliases": {"bagit.py": "/usr/local/bin/bagit.py", "bioconda2biocontainer": "/usr/local/bin/bioconda2biocontainer", "bioconda2cwldocker": "/usr/local/bin/bioconda2cwldocker", "biocontainers-search": "/usr/local/bin/biocontainers-search", "cheetah": "/usr/local/bin/cheetah", "cheetah-analyze": "/usr/local/bin/cheetah-analyze", "cheetah-compile": "/usr/local/bin/cheetah-compile", "cookiecutter": "/usr/local/bin/cookiecutter", "galaxy-tool-test": "/usr/local/bin/galaxy-tool-test", "goenrichment": "/usr/local/bin/goenrichment", "jupyter-console": "/usr/local/bin/jupyter-console", "jupyter-qtconsole": "/usr/local/bin/jupyter-qtconsole", "mulled-build": "/usr/local/bin/mulled-build", "mulled-build-channel": "/usr/local/bin/mulled-build-channel", "mulled-build-files": "/usr/local/bin/mulled-build-files", "mulled-build-tool": "/usr/local/bin/mulled-build-tool", "mulled-list": "/usr/local/bin/mulled-list", "mulled-search": "/usr/local/bin/mulled-search", "mulled-update-singularity-containers": "/usr/local/bin/mulled-update-singularity-containers", "pm4ngs-chipexo": "/usr/local/bin/pm4ngs-chipexo", "pm4ngs-chipexo-demo": "/usr/local/bin/pm4ngs-chipexo-demo", "pm4ngs-chipseq": "/usr/local/bin/pm4ngs-chipseq", "pm4ngs-chipseq-demo": "/usr/local/bin/pm4ngs-chipseq-demo", "pm4ngs-create": "/usr/local/bin/pm4ngs-create", "pm4ngs-rnaseq": "/usr/local/bin/pm4ngs-rnaseq", "pm4ngs-rnaseq-demo": "/usr/local/bin/pm4ngs-rnaseq-demo", "pm4ngs-server": "/usr/local/bin/pm4ngs-server", "prov-compare": "/usr/local/bin/prov-compare", "prov-convert": "/usr/local/bin/prov-convert", "wsdump.py": "/usr/local/bin/wsdump.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "aserver": "/usr/local/bin/aserver", "assistant": "/usr/local/bin/assistant", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "canbusutil": "/usr/local/bin/canbusutil", "ccomps": "/usr/local/bin/ccomps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pm4ngs.
@@ -394,6 +404,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/prov-convert   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/wsdump.py
 $ podman run --it --rm --entrypoint /usr/local/bin/wsdump.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wsdump.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### activate-global-python-argcomplete
+
+```bash
+$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

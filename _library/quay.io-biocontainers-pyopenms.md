@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/pyopenms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopenms/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyopenms/container.yaml"
-updated_at: "2022-10-27 00:33:07.116153"
+updated_at: "2022-10-29 05:49:38.355913"
 latest: "2.8.0--py36h24c8720_1"
 container_url: "https://biocontainers.pro/tools/pyopenms"
-
+aliases:
+ - "2to3-3.6"
+ - "CreateDOMDocument"
+ - "DOMCount"
+ - "DOMPrint"
+ - "EnumVal"
+ - "MemParse"
+ - "PParse"
+ - "PSVIWriter"
+ - "Redirect"
+ - "SAX2Count"
 versions:
  - "2.8.0--py36h24c8720_1"
 description: "shpc-registry automated BioContainers addition for pyopenms"
-config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "docker": "quay.io/biocontainers/pyopenms"}
+config: {"url": "https://biocontainers.pro/tools/pyopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopenms", "latest": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "tags": {"2.8.0--py36h24c8720_1": "sha256:dd0c6357466b8d2930ed748e66174ce5a24b7dfead9e241e780f1b348003485c"}, "docker": "quay.io/biocontainers/pyopenms", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopenms.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### pyopenms
+#### 2to3-3.6
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### CreateDOMDocument
+
+```bash
+$ singularity exec <container> /usr/local/bin/CreateDOMDocument
+$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMCount
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMCount
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMPrint
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMPrint
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EnumVal
+
+```bash
+$ singularity exec <container> /usr/local/bin/EnumVal
+$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MemParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/MemParse
+$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/PParse
+$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PSVIWriter
+
+```bash
+$ singularity exec <container> /usr/local/bin/PSVIWriter
+$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Redirect
+
+```bash
+$ singularity exec <container> /usr/local/bin/Redirect
+$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Count
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Count
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

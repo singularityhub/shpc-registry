@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/logol"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/logol/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/logol/container.yaml"
-updated_at: "2022-10-27 00:22:51.878952"
+updated_at: "2022-10-29 05:36:04.364215"
 latest: "1.7.8--2"
 container_url: "https://biocontainers.pro/tools/logol"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "swipl"
  - "swipl-ld"
  - "swipl-rc"
+ - "2to3-3.6"
+ - "appletviewer"
+ - "erb"
+ - "extcheck"
+ - "gem"
+ - "idle3.6"
+ - "idlj"
+ - "irb"
+ - "jar"
+ - "jarsigner"
 versions:
  - "1.7.8--2"
 description: "shpc-registry automated BioContainers addition for logol"
-config: {"url": "https://biocontainers.pro/tools/logol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for logol", "latest": {"1.7.8--2": "sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5"}, "tags": {"1.7.8--2": "sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5"}, "docker": "quay.io/biocontainers/logol", "aliases": {"LogolExec.sh": "/usr/local/bin/LogolExec.sh", "LogolMultiExec.sh": "/usr/local/bin/LogolMultiExec.sh", "cassiopee": "/usr/local/bin/cassiopee", "cassiopeeknife": "/usr/local/bin/cassiopeeknife", "latex2html": "/usr/local/bin/latex2html", "swipl": "/usr/local/bin/swipl", "swipl-ld": "/usr/local/bin/swipl-ld", "swipl-rc": "/usr/local/bin/swipl-rc"}}
+config: {"url": "https://biocontainers.pro/tools/logol", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for logol", "latest": {"1.7.8--2": "sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5"}, "tags": {"1.7.8--2": "sha256:e9bbe6c9bb2fb5bdb5d33afc48cd917b40776b8acfc99af496a3f4ab07d851d5"}, "docker": "quay.io/biocontainers/logol", "aliases": {"LogolExec.sh": "/usr/local/bin/LogolExec.sh", "LogolMultiExec.sh": "/usr/local/bin/LogolMultiExec.sh", "cassiopee": "/usr/local/bin/cassiopee", "cassiopeeknife": "/usr/local/bin/cassiopeeknife", "latex2html": "/usr/local/bin/latex2html", "swipl": "/usr/local/bin/swipl", "swipl-ld": "/usr/local/bin/swipl-ld", "swipl-rc": "/usr/local/bin/swipl-rc", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "erb": "/usr/local/bin/erb", "extcheck": "/usr/local/bin/extcheck", "gem": "/usr/local/bin/gem", "idle3.6": "/usr/local/bin/idle3.6", "idlj": "/usr/local/bin/idlj", "irb": "/usr/local/bin/irb", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/logol.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/swipl-ld   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/swipl-rc
 $ podman run --it --rm --entrypoint /usr/local/bin/swipl-rc   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/swipl-rc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### erb
+
+```bash
+$ singularity exec <container> /usr/local/bin/erb
+$ podman run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/erb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gem
+
+```bash
+$ singularity exec <container> /usr/local/bin/gem
+$ podman run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gem   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### irb
+
+```bash
+$ singularity exec <container> /usr/local/bin/irb
+$ podman run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/irb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

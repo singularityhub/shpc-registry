@@ -4,9 +4,9 @@ name:  "quay.io/biocontainers/bamtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamtools/container.yaml"
-updated_at: "2022-10-27 00:36:20.284803"
+updated_at: "2022-10-29 05:53:56.987242"
 latest: "2.5.2--hd03093a_0"
-container_url: "https://quay.io/repository/biocontainers/bamtools"
+container_url: "https://biocontainers.pro/tools/bamtools"
 aliases:
  - "bamtools"
 versions:
@@ -14,12 +14,12 @@ versions:
  - "2.5.1--h9a82719_9"
  - "2.5.1--hd03093a_10"
  - "2.5.2--hd03093a_0"
-description: "C++ API and command-line toolkit for working with BAM data."
-config: {"docker": "quay.io/biocontainers/bamtools", "url": "https://quay.io/repository/biocontainers/bamtools", "maintainer": "@marcodelapierre", "description": "C++ API and command-line toolkit for working with BAM data.", "latest": {"2.5.2--hd03093a_0": "sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804"}, "tags": {"2.5.1--he860b03_4": "sha256:40bc7f10591d9ed34c75a789e286fec80cd1e5d642b10274d09b09f494e14831", "2.5.1--h9a82719_9": "sha256:1df72d906a4db1f47d71516a8f026eecd614271f9c4c8e5e8ccde9210fcde227", "2.5.1--hd03093a_10": "sha256:a5b2a2e6c9d080f478adb5fa5406b6a2a808489d999911c1a9752a227ccd8c6b", "2.5.2--hd03093a_0": "sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804"}, "aliases": {"bamtools": "/usr/local/bin/bamtools"}}
+description: "shpc-registry automated BioContainers addition for bamtools"
+config: {"docker": "quay.io/biocontainers/bamtools", "url": "https://biocontainers.pro/tools/bamtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamtools", "latest": {"2.5.2--hd03093a_0": "sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804"}, "tags": {"2.5.1--he860b03_4": "sha256:40bc7f10591d9ed34c75a789e286fec80cd1e5d642b10274d09b09f494e14831", "2.5.1--h9a82719_9": "sha256:1df72d906a4db1f47d71516a8f026eecd614271f9c4c8e5e8ccde9210fcde227", "2.5.1--hd03093a_10": "sha256:a5b2a2e6c9d080f478adb5fa5406b6a2a808489d999911c1a9752a227ccd8c6b", "2.5.2--hd03093a_0": "sha256:599e39895bf24cd8cbbccda2a09609dc54435523298147d872267d94dfa19804"}, "aliases": {"bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamtools.
-C++ API and command-line toolkit for working with BAM data.
+shpc-registry automated BioContainers addition for bamtools
 After [installing shpc](#install) you will want to install this container module:
 
 

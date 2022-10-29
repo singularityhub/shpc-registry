@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biobb_pmx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_pmx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_pmx/container.yaml"
-updated_at: "2022-10-27 00:28:31.888231"
+updated_at: "2022-10-29 05:43:35.092489"
 latest: "3.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_pmx"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "pmxligand_hybrid"
  - "pmxmerge_ff"
  - "pmxmutate"
+ - "2to3-3.7"
+ - "brotli"
+ - "f2py3.7"
+ - "fonttools"
+ - "futurize"
+ - "idle3.7"
+ - "normalizer"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
 versions:
  - "3.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_pmx"
-config: {"url": "https://biocontainers.pro/tools/biobb_pmx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_pmx", "latest": {"3.8.1--pyhdfd78af_0": "sha256:c25e06f154b5294239498065229e08b4dc736a2f3a0f81cc67d0632d57007b78"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:c25e06f154b5294239498065229e08b4dc736a2f3a0f81cc67d0632d57007b78"}, "docker": "quay.io/biocontainers/biobb_pmx", "aliases": {"pmx": "/usr/local/bin/pmx", "pmxanalyse": "/usr/local/bin/pmxanalyse", "pmxatom_mapping": "/usr/local/bin/pmxatom_mapping", "pmxcreate_top": "/usr/local/bin/pmxcreate_top", "pmxgentop": "/usr/local/bin/pmxgentop", "pmxligand_hybrid": "/usr/local/bin/pmxligand_hybrid", "pmxmerge_ff": "/usr/local/bin/pmxmerge_ff", "pmxmutate": "/usr/local/bin/pmxmutate"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_pmx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_pmx", "latest": {"3.8.1--pyhdfd78af_0": "sha256:c25e06f154b5294239498065229e08b4dc736a2f3a0f81cc67d0632d57007b78"}, "tags": {"3.8.1--pyhdfd78af_0": "sha256:c25e06f154b5294239498065229e08b4dc736a2f3a0f81cc67d0632d57007b78"}, "docker": "quay.io/biocontainers/biobb_pmx", "aliases": {"pmx": "/usr/local/bin/pmx", "pmxanalyse": "/usr/local/bin/pmxanalyse", "pmxatom_mapping": "/usr/local/bin/pmxatom_mapping", "pmxcreate_top": "/usr/local/bin/pmxcreate_top", "pmxgentop": "/usr/local/bin/pmxgentop", "pmxligand_hybrid": "/usr/local/bin/pmxligand_hybrid", "pmxmerge_ff": "/usr/local/bin/pmxmerge_ff", "pmxmutate": "/usr/local/bin/pmxmutate", "2to3-3.7": "/usr/local/bin/2to3-3.7", "brotli": "/usr/local/bin/brotli", "f2py3.7": "/usr/local/bin/f2py3.7", "fonttools": "/usr/local/bin/fonttools", "futurize": "/usr/local/bin/futurize", "idle3.7": "/usr/local/bin/idle3.7", "normalizer": "/usr/local/bin/normalizer", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_pmx.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pmxmerge_ff   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/pmxmutate
 $ podman run --it --rm --entrypoint /usr/local/bin/pmxmutate   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pmxmutate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

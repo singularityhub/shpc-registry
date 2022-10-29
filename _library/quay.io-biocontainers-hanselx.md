@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/hanselx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hanselx/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hanselx/container.yaml"
-updated_at: "2022-10-27 00:24:32.228752"
+updated_at: "2022-10-29 05:38:15.443953"
 latest: "0.0.92--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/hanselx"
-
+aliases:
+ - "f2py3.8"
 versions:
  - "0.0.92--pyh864c0ab_1"
 description: "shpc-registry automated BioContainers addition for hanselx"
-config: {"url": "https://biocontainers.pro/tools/hanselx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hanselx", "latest": {"0.0.92--pyh864c0ab_1": "sha256:ee6c592fc69b8fc484d8a9d679bf530cb917599c5659e0a922dc901f925e9d5b"}, "tags": {"0.0.92--pyh864c0ab_1": "sha256:ee6c592fc69b8fc484d8a9d679bf530cb917599c5659e0a922dc901f925e9d5b"}, "docker": "quay.io/biocontainers/hanselx"}
+config: {"url": "https://biocontainers.pro/tools/hanselx", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hanselx", "latest": {"0.0.92--pyh864c0ab_1": "sha256:ee6c592fc69b8fc484d8a9d679bf530cb917599c5659e0a922dc901f925e9d5b"}, "tags": {"0.0.92--pyh864c0ab_1": "sha256:ee6c592fc69b8fc484d8a9d679bf530cb917599c5659e0a922dc901f925e9d5b"}, "docker": "quay.io/biocontainers/hanselx", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hanselx.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### hanselx
+#### f2py3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

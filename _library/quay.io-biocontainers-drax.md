@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/drax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/drax/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/drax/container.yaml"
-updated_at: "2022-10-27 00:25:53.370650"
+updated_at: "2022-10-29 05:40:04.400213"
 latest: "0.0.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/drax"
 aliases:
@@ -29,10 +29,20 @@ aliases:
  - "nextflow"
  - "normandcorrectwrapper.sh"
  - "taxonlist.tsv"
+ - "2to3-3.6"
+ - "a_sample_mt.sh"
+ - "ace2sam"
+ - "addadapters.sh"
+ - "appletviewer"
+ - "assistant"
+ - "b2sum"
+ - "base32"
+ - "base64"
+ - "basename"
 versions:
  - "0.0.0--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for drax"
-config: {"url": "https://biocontainers.pro/tools/drax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drax", "latest": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "tags": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "docker": "quay.io/biocontainers/drax", "aliases": {"addTaxonNames": "/usr/local/bin/addTaxonNames", "bbmergegapped.sh": "/usr/local/bin/bbmergegapped.sh", "bbqc.sh": "/usr/local/bin/bbqc.sh", "convertNR": "/usr/local/bin/convertNR", "convert_mar_to_kaiju.py": "/usr/local/bin/convert_mar_to_kaiju.py", "drax": "/usr/local/bin/drax", "gbk2faa.pl": "/usr/local/bin/gbk2faa.pl", "groot": "/usr/local/bin/groot", "kaiju": "/usr/local/bin/kaiju", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaijuReport": "/usr/local/bin/kaijuReport", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "makeDB.sh": "/usr/local/bin/makeDB.sh", "mergeOutputs": "/usr/local/bin/mergeOutputs", "metacherchant.sh": "/usr/local/bin/metacherchant.sh", "mkbwt": "/usr/local/bin/mkbwt", "mkfmi": "/usr/local/bin/mkfmi", "nextflow": "/usr/local/bin/nextflow", "normandcorrectwrapper.sh": "/usr/local/bin/normandcorrectwrapper.sh", "taxonlist.tsv": "/usr/local/bin/taxonlist.tsv"}}
+config: {"url": "https://biocontainers.pro/tools/drax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for drax", "latest": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "tags": {"0.0.0--hdfd78af_4": "sha256:d3e6e39933f1ecf666145f87d4b19a3cddc5dad1e8b7e1a38dc953c919afb364"}, "docker": "quay.io/biocontainers/drax", "aliases": {"addTaxonNames": "/usr/local/bin/addTaxonNames", "bbmergegapped.sh": "/usr/local/bin/bbmergegapped.sh", "bbqc.sh": "/usr/local/bin/bbqc.sh", "convertNR": "/usr/local/bin/convertNR", "convert_mar_to_kaiju.py": "/usr/local/bin/convert_mar_to_kaiju.py", "drax": "/usr/local/bin/drax", "gbk2faa.pl": "/usr/local/bin/gbk2faa.pl", "groot": "/usr/local/bin/groot", "kaiju": "/usr/local/bin/kaiju", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaijuReport": "/usr/local/bin/kaijuReport", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "makeDB.sh": "/usr/local/bin/makeDB.sh", "mergeOutputs": "/usr/local/bin/mergeOutputs", "metacherchant.sh": "/usr/local/bin/metacherchant.sh", "mkbwt": "/usr/local/bin/mkbwt", "mkfmi": "/usr/local/bin/mkfmi", "nextflow": "/usr/local/bin/nextflow", "normandcorrectwrapper.sh": "/usr/local/bin/normandcorrectwrapper.sh", "taxonlist.tsv": "/usr/local/bin/taxonlist.tsv", "2to3-3.6": "/usr/local/bin/2to3-3.6", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "ace2sam": "/usr/local/bin/ace2sam", "addadapters.sh": "/usr/local/bin/addadapters.sh", "appletviewer": "/usr/local/bin/appletviewer", "assistant": "/usr/local/bin/assistant", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/drax.
@@ -304,6 +314,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/normandcorrectwrapper.sh   -v
 $ singularity exec <container> /usr/local/bin/taxonlist.tsv
 $ podman run --it --rm --entrypoint /usr/local/bin/taxonlist.tsv   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/taxonlist.tsv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### a_sample_mt.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### addadapters.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/addadapters.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

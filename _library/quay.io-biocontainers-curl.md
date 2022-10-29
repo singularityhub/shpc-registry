@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/curl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/curl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/curl/container.yaml"
-updated_at: "2022-10-27 00:30:27.284960"
+updated_at: "2022-10-29 05:46:05.613395"
 latest: "7.80.0"
 container_url: "https://biocontainers.pro/tools/curl"
-
+aliases:
+ - "acountry"
+ - "adig"
+ - "ahost"
+ - "c_rehash"
+ - "captoinfo"
+ - "clear"
+ - "compile_et"
+ - "curl"
+ - "curl-config"
+ - "gss-client"
 versions:
  - "7.80.0"
 description: "shpc-registry automated BioContainers addition for curl"
-config: {"url": "https://biocontainers.pro/tools/curl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for curl", "latest": {"7.80.0": "sha256:02612444381847547416743657819f1d360fd3ac49bcff68faaf100db77ae597"}, "tags": {"7.80.0": "sha256:02612444381847547416743657819f1d360fd3ac49bcff68faaf100db77ae597"}, "docker": "quay.io/biocontainers/curl"}
+config: {"url": "https://biocontainers.pro/tools/curl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for curl", "latest": {"7.80.0": "sha256:02612444381847547416743657819f1d360fd3ac49bcff68faaf100db77ae597"}, "tags": {"7.80.0": "sha256:02612444381847547416743657819f1d360fd3ac49bcff68faaf100db77ae597"}, "docker": "quay.io/biocontainers/curl", "aliases": {"acountry": "/usr/local/bin/acountry", "adig": "/usr/local/bin/adig", "ahost": "/usr/local/bin/ahost", "c_rehash": "/usr/local/bin/c_rehash", "captoinfo": "/usr/local/bin/captoinfo", "clear": "/usr/local/bin/clear", "compile_et": "/usr/local/bin/compile_et", "curl": "/usr/local/bin/curl", "curl-config": "/usr/local/bin/curl-config", "gss-client": "/usr/local/bin/gss-client"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/curl.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
+#### acountry
+
+```bash
+$ singularity exec <container> /usr/local/bin/acountry
+$ podman run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acountry   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### adig
+
+```bash
+$ singularity exec <container> /usr/local/bin/adig
+$ podman run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ahost
+
+```bash
+$ singularity exec <container> /usr/local/bin/ahost
+$ podman run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ahost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c_rehash
+
+```bash
+$ singularity exec <container> /usr/local/bin/c_rehash
+$ podman run --it --rm --entrypoint /usr/local/bin/c_rehash   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c_rehash   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### captoinfo
+
+```bash
+$ singularity exec <container> /usr/local/bin/captoinfo
+$ podman run --it --rm --entrypoint /usr/local/bin/captoinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/captoinfo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/clear
+$ podman run --it --rm --entrypoint /usr/local/bin/clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compile_et
+
+```bash
+$ singularity exec <container> /usr/local/bin/compile_et
+$ podman run --it --rm --entrypoint /usr/local/bin/compile_et   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile_et   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 #### curl
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/curl
+$ podman run --it --rm --entrypoint /usr/local/bin/curl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### curl-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/curl-config
+$ podman run --it --rm --entrypoint /usr/local/bin/curl-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curl-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gss-client
+
+```bash
+$ singularity exec <container> /usr/local/bin/gss-client
+$ podman run --it --rm --entrypoint /usr/local/bin/gss-client   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gss-client   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

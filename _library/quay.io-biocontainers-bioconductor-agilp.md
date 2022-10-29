@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-agilp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agilp/container.yaml"
-updated_at: "2022-10-27 00:34:30.200040"
+updated_at: "2022-10-29 05:51:30.425051"
 latest: "3.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-agilp"
-
+aliases:
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "tclsh8.5"
+ - "wish8.5"
 versions:
  - "3.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-agilp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-agilp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agilp", "latest": {"3.8.0--r3.4.1_0": "sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e"}, "tags": {"3.8.0--r3.4.1_0": "sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e"}, "docker": "quay.io/biocontainers/bioconductor-agilp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-agilp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agilp", "latest": {"3.8.0--r3.4.1_0": "sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e"}, "tags": {"3.8.0--r3.4.1_0": "sha256:c5ddac6bc9f3f26de008fccfba9027937e86cb4153d70777536145eb5c2f643e"}, "docker": "quay.io/biocontainers/bioconductor-agilp", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-agilp.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-agilp
+#### ncurses5-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

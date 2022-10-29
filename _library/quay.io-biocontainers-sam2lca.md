@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/sam2lca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam2lca/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sam2lca/container.yaml"
-updated_at: "2022-10-27 00:33:53.259760"
+updated_at: "2022-10-29 05:50:38.427184"
 latest: "1.1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sam2lca"
 aliases:
  - "sam2lca"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "gflags_completions.sh"
+ - "idle3.9"
+ - "igzip"
+ - "jemalloc-config"
+ - "jemalloc.sh"
+ - "jeprof"
+ - "pbunzip2"
+ - "pbzcat"
 versions:
  - "1.1.2--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for sam2lca"
-config: {"url": "https://biocontainers.pro/tools/sam2lca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam2lca", "latest": {"1.1.2--pyhdfd78af_1": "sha256:a0ce611f6e4d0ecbe70dbca9cc6fd3513f10d4a73aa6048439c8032924e469ac"}, "tags": {"1.1.2--pyhdfd78af_1": "sha256:a0ce611f6e4d0ecbe70dbca9cc6fd3513f10d4a73aa6048439c8032924e469ac"}, "docker": "quay.io/biocontainers/sam2lca", "aliases": {"sam2lca": "/usr/local/bin/sam2lca"}}
+config: {"url": "https://biocontainers.pro/tools/sam2lca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sam2lca", "latest": {"1.1.2--pyhdfd78af_1": "sha256:a0ce611f6e4d0ecbe70dbca9cc6fd3513f10d4a73aa6048439c8032924e469ac"}, "tags": {"1.1.2--pyhdfd78af_1": "sha256:a0ce611f6e4d0ecbe70dbca9cc6fd3513f10d4a73aa6048439c8032924e469ac"}, "docker": "quay.io/biocontainers/sam2lca", "aliases": {"sam2lca": "/usr/local/bin/sam2lca", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "idle3.9": "/usr/local/bin/idle3.9", "igzip": "/usr/local/bin/igzip", "jemalloc-config": "/usr/local/bin/jemalloc-config", "jemalloc.sh": "/usr/local/bin/jemalloc.sh", "jeprof": "/usr/local/bin/jeprof", "pbunzip2": "/usr/local/bin/pbunzip2", "pbzcat": "/usr/local/bin/pbzcat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sam2lca.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/sam2lca
 $ podman run --it --rm --entrypoint /usr/local/bin/sam2lca   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sam2lca   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gflags_completions.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/gflags_completions.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### igzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/igzip
+$ podman run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/igzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jemalloc-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/jemalloc-config
+$ podman run --it --rm --entrypoint /usr/local/bin/jemalloc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jemalloc-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jemalloc.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/jemalloc.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/jemalloc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jemalloc.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jeprof
+
+```bash
+$ singularity exec <container> /usr/local/bin/jeprof
+$ podman run --it --rm --entrypoint /usr/local/bin/jeprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jeprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/pbunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pbzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/pbzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/pbzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pbzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

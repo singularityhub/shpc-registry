@@ -4,16 +4,23 @@ name:  "quay.io/biocontainers/itolapi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/itolapi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/itolapi/container.yaml"
-updated_at: "2022-10-27 00:34:00.037956"
+updated_at: "2022-10-29 05:50:48.772649"
 latest: "4.1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/itolapi"
 aliases:
  - "itol.py"
  - "itolexport.py"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "normalizer"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "4.1.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for itolapi"
-config: {"url": "https://biocontainers.pro/tools/itolapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itolapi", "latest": {"4.1.0--pyhdfd78af_0": "sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256"}, "docker": "quay.io/biocontainers/itolapi", "aliases": {"itol.py": "/usr/local/bin/itol.py", "itolexport.py": "/usr/local/bin/itolexport.py"}}
+config: {"url": "https://biocontainers.pro/tools/itolapi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for itolapi", "latest": {"4.1.0--pyhdfd78af_0": "sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256"}, "tags": {"4.1.0--pyhdfd78af_0": "sha256:838b9352c44c9ccae46e3117888c95b0349bcf3fd78061842cb45584d6a9c256"}, "docker": "quay.io/biocontainers/itolapi", "aliases": {"itol.py": "/usr/local/bin/itol.py", "itolexport.py": "/usr/local/bin/itolexport.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/itolapi.
@@ -114,6 +121,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/itol.py   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/itolexport.py
 $ podman run --it --rm --entrypoint /usr/local/bin/itolexport.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/itolexport.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

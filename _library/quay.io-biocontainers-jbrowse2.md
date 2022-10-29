@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jbrowse2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jbrowse2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jbrowse2/container.yaml"
-updated_at: "2022-10-27 00:29:56.031558"
+updated_at: "2022-10-29 05:45:23.926149"
 latest: "1.7.9--h9d45583_0"
 container_url: "https://biocontainers.pro/tools/jbrowse2"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "corepack"
  - "gff3sort.pl"
  - "jbrowse"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "export2sam.pl"
+ - "fasta-sanitize.pl"
+ - "findrule"
+ - "gff2gff.py"
 versions:
  - "1.7.9--h9d45583_0"
 description: "shpc-registry automated BioContainers addition for jbrowse2"
-config: {"url": "https://biocontainers.pro/tools/jbrowse2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jbrowse2", "latest": {"1.7.9--h9d45583_0": "sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc"}, "tags": {"1.7.9--h9d45583_0": "sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc"}, "docker": "quay.io/biocontainers/jbrowse2", "aliases": {"check-disorder.pl": "/usr/local/bin/check-disorder.pl", "corepack": "/usr/local/bin/corepack", "gff3sort.pl": "/usr/local/bin/gff3sort.pl", "jbrowse": "/usr/local/bin/jbrowse"}}
+config: {"url": "https://biocontainers.pro/tools/jbrowse2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jbrowse2", "latest": {"1.7.9--h9d45583_0": "sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc"}, "tags": {"1.7.9--h9d45583_0": "sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc"}, "docker": "quay.io/biocontainers/jbrowse2", "aliases": {"check-disorder.pl": "/usr/local/bin/check-disorder.pl", "corepack": "/usr/local/bin/corepack", "gff3sort.pl": "/usr/local/bin/gff3sort.pl", "jbrowse": "/usr/local/bin/jbrowse", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "findrule": "/usr/local/bin/findrule", "gff2gff.py": "/usr/local/bin/gff2gff.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jbrowse2.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gff3sort.pl   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/jbrowse
 $ podman run --it --rm --entrypoint /usr/local/bin/jbrowse   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/jbrowse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fasta-sanitize.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/fasta-sanitize.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fasta-sanitize.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### findrule
+
+```bash
+$ singularity exec <container> /usr/local/bin/findrule
+$ podman run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gff2gff.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/gff2gff.py
+$ podman run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

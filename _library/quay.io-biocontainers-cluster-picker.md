@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/cluster-picker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cluster-picker/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cluster-picker/container.yaml"
-updated_at: "2022-10-27 00:27:17.809836"
+updated_at: "2022-10-29 05:41:59.102362"
 latest: "1.2.3--1"
 container_url: "https://biocontainers.pro/tools/cluster-picker"
 aliases:
  - "cluster-picker"
+ - "appletviewer"
+ - "extcheck"
+ - "idlj"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "java-rmi.cgi"
+ - "javac"
+ - "javadoc"
+ - "javah"
 versions:
  - "1.2.3--1"
 description: "shpc-registry automated BioContainers addition for cluster-picker"
-config: {"url": "https://biocontainers.pro/tools/cluster-picker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cluster-picker", "latest": {"1.2.3--1": "sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28"}, "tags": {"1.2.3--1": "sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28"}, "docker": "quay.io/biocontainers/cluster-picker", "aliases": {"cluster-picker": "/usr/local/bin/cluster-picker"}}
+config: {"url": "https://biocontainers.pro/tools/cluster-picker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cluster-picker", "latest": {"1.2.3--1": "sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28"}, "tags": {"1.2.3--1": "sha256:65c852437e13f89c5277e2903e101c6999f05e8e267dbfd03bf57bc803b57b28"}, "docker": "quay.io/biocontainers/cluster-picker", "aliases": {"cluster-picker": "/usr/local/bin/cluster-picker", "appletviewer": "/usr/local/bin/appletviewer", "extcheck": "/usr/local/bin/extcheck", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javah": "/usr/local/bin/javah"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cluster-picker.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/cluster-picker
 $ podman run --it --rm --entrypoint /usr/local/bin/cluster-picker   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/cluster-picker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java-rmi.cgi
+
+```bash
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javah
+
+```bash
+$ singularity exec <container> /usr/local/bin/javah
+$ podman run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javah   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

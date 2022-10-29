@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/biobb_cmip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_cmip/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_cmip/container.yaml"
-updated_at: "2022-10-27 00:19:39.502197"
+updated_at: "2022-10-29 05:31:48.764858"
 latest: "3.7.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_cmip"
 aliases:
- - ".cmip-post-link.sh"
  - "avgEpsGrid"
  - "canal"
  - "check_structure"
@@ -22,10 +21,20 @@ aliases:
  - "surfnet2binaryGrid"
  - "titration"
  - "watden"
+ - "2to3-3.7"
+ - "brotli"
+ - "cwebp"
+ - "dwebp"
+ - "f2py3.7"
+ - "fonttools"
+ - "gif2h5"
+ - "gif2hdf"
+ - "gif2rgb"
+ - "gif2webp"
 versions:
  - "3.7.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_cmip"
-config: {"url": "https://biocontainers.pro/tools/biobb_cmip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_cmip", "latest": {"3.7.8--pyhdfd78af_0": "sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc"}, "tags": {"3.7.8--pyhdfd78af_0": "sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc"}, "docker": "quay.io/biocontainers/biobb_cmip", "aliases": {".cmip-post-link.sh": "/usr/local/bin/.cmip-post-link.sh", "avgEpsGrid": "/usr/local/bin/avgEpsGrid", "canal": "/usr/local/bin/canal", "check_structure": "/usr/local/bin/check_structure", "cmip": "/usr/local/bin/cmip", "getPatch": "/usr/local/bin/getPatch", "grd2cube": "/usr/local/bin/grd2cube", "gsd": "/usr/local/bin/gsd", "mrcfile-header": "/usr/local/bin/mrcfile-header", "mrcfile-validate": "/usr/local/bin/mrcfile-validate", "prepare_structure": "/usr/local/bin/prepare_structure", "surfnet2binaryGrid": "/usr/local/bin/surfnet2binaryGrid", "titration": "/usr/local/bin/titration", "watden": "/usr/local/bin/watden"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_cmip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_cmip", "latest": {"3.7.8--pyhdfd78af_0": "sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc"}, "tags": {"3.7.8--pyhdfd78af_0": "sha256:430bae684bf4158af6eb460f0426f336d4432a38004aaca692262f4ad1040cdc"}, "docker": "quay.io/biocontainers/biobb_cmip", "aliases": {"avgEpsGrid": "/usr/local/bin/avgEpsGrid", "canal": "/usr/local/bin/canal", "check_structure": "/usr/local/bin/check_structure", "cmip": "/usr/local/bin/cmip", "getPatch": "/usr/local/bin/getPatch", "grd2cube": "/usr/local/bin/grd2cube", "gsd": "/usr/local/bin/gsd", "mrcfile-header": "/usr/local/bin/mrcfile-header", "mrcfile-validate": "/usr/local/bin/mrcfile-validate", "prepare_structure": "/usr/local/bin/prepare_structure", "surfnet2binaryGrid": "/usr/local/bin/surfnet2binaryGrid", "titration": "/usr/local/bin/titration", "watden": "/usr/local/bin/watden", "2to3-3.7": "/usr/local/bin/2to3-3.7", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "f2py3.7": "/usr/local/bin/f2py3.7", "fonttools": "/usr/local/bin/fonttools", "gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "gif2rgb": "/usr/local/bin/gif2rgb", "gif2webp": "/usr/local/bin/gif2webp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_cmip.
@@ -108,15 +117,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .cmip-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.cmip-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.cmip-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.cmip-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -234,6 +234,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/titration   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/watden
 $ podman run --it --rm --entrypoint /usr/local/bin/watden   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/watden   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2hdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2hdf
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2webp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2webp
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2webp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

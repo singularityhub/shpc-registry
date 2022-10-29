@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/wbuild"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wbuild/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wbuild/container.yaml"
-updated_at: "2022-10-27 00:26:51.961431"
+updated_at: "2022-10-29 05:41:24.319543"
 latest: "1.8.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/wbuild"
 aliases:
  - "wbuild"
+ - "2to3-3.9"
+ - "cbc"
+ - "chardetect"
+ - "clp"
+ - "idle3.9"
+ - "jsonschema"
+ - "jupyter"
+ - "jupyter-migrate"
+ - "jupyter-troubleshoot"
+ - "jupyter-trust"
 versions:
  - "1.8.0--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for wbuild"
-config: {"url": "https://biocontainers.pro/tools/wbuild", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wbuild", "latest": {"1.8.0--pyhdfd78af_1": "sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f"}, "tags": {"1.8.0--pyhdfd78af_1": "sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f"}, "docker": "quay.io/biocontainers/wbuild", "aliases": {"wbuild": "/usr/local/bin/wbuild"}}
+config: {"url": "https://biocontainers.pro/tools/wbuild", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wbuild", "latest": {"1.8.0--pyhdfd78af_1": "sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f"}, "tags": {"1.8.0--pyhdfd78af_1": "sha256:52b2860b4b52abf59ae4be85990d5ce46b995c40876188f86e36693fd1da471f"}, "docker": "quay.io/biocontainers/wbuild", "aliases": {"wbuild": "/usr/local/bin/wbuild", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cbc": "/usr/local/bin/cbc", "chardetect": "/usr/local/bin/chardetect", "clp": "/usr/local/bin/clp", "idle3.9": "/usr/local/bin/idle3.9", "jsonschema": "/usr/local/bin/jsonschema", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wbuild.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/wbuild
 $ podman run --it --rm --entrypoint /usr/local/bin/wbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cbc
+
+```bash
+$ singularity exec <container> /usr/local/bin/cbc
+$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clp
+
+```bash
+$ singularity exec <container> /usr/local/bin/clp
+$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jsonschema
+
+```bash
+$ singularity exec <container> /usr/local/bin/jsonschema
+$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-migrate
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-migrate
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-migrate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-migrate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-troubleshoot
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-troubleshoot
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-troubleshoot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-troubleshoot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jupyter-trust
+
+```bash
+$ singularity exec <container> /usr/local/bin/jupyter-trust
+$ podman run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jupyter-trust   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

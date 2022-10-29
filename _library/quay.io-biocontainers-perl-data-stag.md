@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/perl-data-stag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-data-stag/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-data-stag/container.yaml"
-updated_at: "2022-10-27 00:39:00.149209"
+updated_at: "2022-10-29 05:57:27.898154"
 latest: "0.14--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-data-stag"
-
+aliases:
+ - "json_xs"
+ - "stag-autoschema.pl"
+ - "stag-db.pl"
+ - "stag-diff.pl"
+ - "stag-drawtree.pl"
+ - "stag-filter.pl"
+ - "stag-findsubtree.pl"
+ - "stag-flatten.pl"
+ - "stag-grep.pl"
+ - "stag-handle.pl"
 versions:
  - "0.14--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-data-stag"
-config: {"url": "https://biocontainers.pro/tools/perl-data-stag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-stag", "latest": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "tags": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "docker": "quay.io/biocontainers/perl-data-stag"}
+config: {"url": "https://biocontainers.pro/tools/perl-data-stag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-data-stag", "latest": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "tags": {"0.14--pl5321hdfd78af_2": "sha256:4cd57726ef1b844cdc58a766a1ae04709e283d4ebb81b3e348261676103f6928"}, "docker": "quay.io/biocontainers/perl-data-stag", "aliases": {"json_xs": "/usr/local/bin/json_xs", "stag-autoschema.pl": "/usr/local/bin/stag-autoschema.pl", "stag-db.pl": "/usr/local/bin/stag-db.pl", "stag-diff.pl": "/usr/local/bin/stag-diff.pl", "stag-drawtree.pl": "/usr/local/bin/stag-drawtree.pl", "stag-filter.pl": "/usr/local/bin/stag-filter.pl", "stag-findsubtree.pl": "/usr/local/bin/stag-findsubtree.pl", "stag-flatten.pl": "/usr/local/bin/stag-flatten.pl", "stag-grep.pl": "/usr/local/bin/stag-grep.pl", "stag-handle.pl": "/usr/local/bin/stag-handle.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-data-stag.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-data-stag
+#### json_xs
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/json_xs
+$ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### stag-autoschema.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-autoschema.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-autoschema.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-autoschema.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-db.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-db.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-db.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-db.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-diff.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-diff.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-diff.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-diff.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-drawtree.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-drawtree.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-drawtree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-drawtree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-filter.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-filter.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-filter.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-filter.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-findsubtree.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-findsubtree.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-findsubtree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-findsubtree.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-flatten.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-flatten.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-flatten.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-flatten.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-grep.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-grep.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-grep.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-grep.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### stag-handle.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/stag-handle.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/stag-handle.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/stag-handle.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/metaeuk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaeuk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metaeuk/container.yaml"
-updated_at: "2022-10-27 00:40:39.554949"
+updated_at: "2022-10-29 05:59:36.170294"
 latest: "6.a5d39d9--pl5321hf1761c0_1"
 container_url: "https://biocontainers.pro/tools/metaeuk"
 aliases:
  - "metaeuk"
+ - "awk"
+ - "gawk"
+ - "gawk-5.1.0"
+ - "idn2"
+ - "wget"
 versions:
  - "6.a5d39d9--pl5321hf1761c0_1"
 description: "shpc-registry automated BioContainers addition for metaeuk"
-config: {"url": "https://biocontainers.pro/tools/metaeuk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaeuk", "latest": {"6.a5d39d9--pl5321hf1761c0_1": "sha256:2b31f6eb87329e0b6bb738af94aa7bc12e75ca2a4451904596abbb1d0bf935d6"}, "tags": {"6.a5d39d9--pl5321hf1761c0_1": "sha256:2b31f6eb87329e0b6bb738af94aa7bc12e75ca2a4451904596abbb1d0bf935d6"}, "docker": "quay.io/biocontainers/metaeuk", "aliases": {"metaeuk": "/usr/local/bin/metaeuk"}}
+config: {"url": "https://biocontainers.pro/tools/metaeuk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaeuk", "latest": {"6.a5d39d9--pl5321hf1761c0_1": "sha256:2b31f6eb87329e0b6bb738af94aa7bc12e75ca2a4451904596abbb1d0bf935d6"}, "tags": {"6.a5d39d9--pl5321hf1761c0_1": "sha256:2b31f6eb87329e0b6bb738af94aa7bc12e75ca2a4451904596abbb1d0bf935d6"}, "docker": "quay.io/biocontainers/metaeuk", "aliases": {"metaeuk": "/usr/local/bin/metaeuk", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaeuk.
@@ -104,6 +109,51 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/metaeuk
 $ podman run --it --rm --entrypoint /usr/local/bin/metaeuk   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/metaeuk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### awk
+
+```bash
+$ singularity exec <container> /usr/local/bin/awk
+$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gawk
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gawk-5.1.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idn2
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

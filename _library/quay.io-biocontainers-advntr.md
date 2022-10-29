@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/advntr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/advntr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/advntr/container.yaml"
-updated_at: "2022-10-27 00:20:04.002952"
+updated_at: "2022-10-29 05:32:19.837502"
 latest: "1.4.1--py27h20e14e4_2"
 container_url: "https://biocontainers.pro/tools/advntr"
 aliases:
  - "adVNTR-Filtering"
  - "advntr"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "cygdb"
+ - "cython"
+ - "cythonize"
+ - "export2sam.pl"
 versions:
  - "1.4.1--py27h20e14e4_2"
 description: "shpc-registry automated BioContainers addition for advntr"
-config: {"url": "https://biocontainers.pro/tools/advntr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for advntr", "latest": {"1.4.1--py27h20e14e4_2": "sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d"}, "tags": {"1.4.1--py27h20e14e4_2": "sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d"}, "docker": "quay.io/biocontainers/advntr", "aliases": {"adVNTR-Filtering": "/usr/local/bin/adVNTR-Filtering", "advntr": "/usr/local/bin/advntr"}}
+config: {"url": "https://biocontainers.pro/tools/advntr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for advntr", "latest": {"1.4.1--py27h20e14e4_2": "sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d"}, "tags": {"1.4.1--py27h20e14e4_2": "sha256:0b569503b0f7a84ffaccd92ad555bdcaf38b9dc30a8d5dd1a2918e124aaec70d"}, "docker": "quay.io/biocontainers/advntr", "aliases": {"adVNTR-Filtering": "/usr/local/bin/adVNTR-Filtering", "advntr": "/usr/local/bin/advntr", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "export2sam.pl": "/usr/local/bin/export2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/advntr.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/adVNTR-Filtering   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/advntr
 $ podman run --it --rm --entrypoint /usr/local/bin/advntr   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/advntr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cygdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cython
+
+```bash
+$ singularity exec <container> /usr/local/bin/cython
+$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cythonize
+
+```bash
+$ singularity exec <container> /usr/local/bin/cythonize
+$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

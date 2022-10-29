@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/ncbi-ngs-sdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-ngs-sdk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-ngs-sdk/container.yaml"
-updated_at: "2022-10-27 00:37:41.922720"
+updated_at: "2022-10-29 05:55:45.078425"
 latest: "2.9.3--h550f44e_0"
 container_url: "https://biocontainers.pro/tools/ncbi-ngs-sdk"
-
+aliases:
+ - "activate"
+ - "conda"
+ - "deactivate"
+ - "derb"
+ - "genbrk"
+ - "gencfu"
+ - "gencnval"
+ - "gendict"
+ - "genrb"
+ - "iconv"
 versions:
  - "2.9.3--h550f44e_0"
 description: "shpc-registry automated BioContainers addition for ncbi-ngs-sdk"
-config: {"url": "https://biocontainers.pro/tools/ncbi-ngs-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-ngs-sdk", "latest": {"2.9.3--h550f44e_0": "sha256:1c812d0ca140f83a5d6ffe5ddcae56ba22b0ce1319c874e3e686eee3f3da4b4b"}, "tags": {"2.9.3--h550f44e_0": "sha256:1c812d0ca140f83a5d6ffe5ddcae56ba22b0ce1319c874e3e686eee3f3da4b4b"}, "docker": "quay.io/biocontainers/ncbi-ngs-sdk"}
+config: {"url": "https://biocontainers.pro/tools/ncbi-ngs-sdk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-ngs-sdk", "latest": {"2.9.3--h550f44e_0": "sha256:1c812d0ca140f83a5d6ffe5ddcae56ba22b0ce1319c874e3e686eee3f3da4b4b"}, "tags": {"2.9.3--h550f44e_0": "sha256:1c812d0ca140f83a5d6ffe5ddcae56ba22b0ce1319c874e3e686eee3f3da4b4b"}, "docker": "quay.io/biocontainers/ncbi-ngs-sdk", "aliases": {"activate": "/usr/local/bin/activate", "conda": "/usr/local/bin/conda", "deactivate": "/usr/local/bin/deactivate", "derb": "/usr/local/bin/derb", "genbrk": "/usr/local/bin/genbrk", "gencfu": "/usr/local/bin/gencfu", "gencnval": "/usr/local/bin/gencnval", "gendict": "/usr/local/bin/gendict", "genrb": "/usr/local/bin/genrb", "iconv": "/usr/local/bin/iconv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-ngs-sdk.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### ncbi-ngs-sdk
+#### activate
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/activate
+$ podman run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### conda
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda
+$ podman run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### deactivate
+
+```bash
+$ singularity exec <container> /usr/local/bin/deactivate
+$ podman run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/deactivate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### derb
+
+```bash
+$ singularity exec <container> /usr/local/bin/derb
+$ podman run --it --rm --entrypoint /usr/local/bin/derb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/derb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### genbrk
+
+```bash
+$ singularity exec <container> /usr/local/bin/genbrk
+$ podman run --it --rm --entrypoint /usr/local/bin/genbrk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/genbrk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gencfu
+
+```bash
+$ singularity exec <container> /usr/local/bin/gencfu
+$ podman run --it --rm --entrypoint /usr/local/bin/gencfu   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gencfu   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gencnval
+
+```bash
+$ singularity exec <container> /usr/local/bin/gencnval
+$ podman run --it --rm --entrypoint /usr/local/bin/gencnval   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gencnval   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gendict
+
+```bash
+$ singularity exec <container> /usr/local/bin/gendict
+$ podman run --it --rm --entrypoint /usr/local/bin/gendict   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gendict   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### genrb
+
+```bash
+$ singularity exec <container> /usr/local/bin/genrb
+$ podman run --it --rm --entrypoint /usr/local/bin/genrb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/genrb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### iconv
+
+```bash
+$ singularity exec <container> /usr/local/bin/iconv
+$ podman run --it --rm --entrypoint /usr/local/bin/iconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/iconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

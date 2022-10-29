@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/peakhood"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peakhood/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/peakhood/container.yaml"
-updated_at: "2022-10-27 00:22:19.945253"
+updated_at: "2022-10-29 05:35:20.700909"
 latest: "0.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/peakhood"
 aliases:
  - "bed_generate_unique_ids.py"
  - "gtf_add_transcript_biotype_info.py"
  - "peakhood"
+ - "2to3-3.9"
+ - "ace2sam"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
 versions:
  - "0.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for peakhood"
-config: {"url": "https://biocontainers.pro/tools/peakhood", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peakhood", "latest": {"0.3--pyhdfd78af_0": "sha256:316fc54775265c367fb0d8d1d7314860743da2b511f9b8438a1f3994af8c0535"}, "tags": {"0.3--pyhdfd78af_0": "sha256:316fc54775265c367fb0d8d1d7314860743da2b511f9b8438a1f3994af8c0535"}, "docker": "quay.io/biocontainers/peakhood", "aliases": {"bed_generate_unique_ids.py": "/usr/local/bin/bed_generate_unique_ids.py", "gtf_add_transcript_biotype_info.py": "/usr/local/bin/gtf_add_transcript_biotype_info.py", "peakhood": "/usr/local/bin/peakhood"}}
+config: {"url": "https://biocontainers.pro/tools/peakhood", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peakhood", "latest": {"0.3--pyhdfd78af_0": "sha256:316fc54775265c367fb0d8d1d7314860743da2b511f9b8438a1f3994af8c0535"}, "tags": {"0.3--pyhdfd78af_0": "sha256:316fc54775265c367fb0d8d1d7314860743da2b511f9b8438a1f3994af8c0535"}, "docker": "quay.io/biocontainers/peakhood", "aliases": {"bed_generate_unique_ids.py": "/usr/local/bin/bed_generate_unique_ids.py", "gtf_add_transcript_biotype_info.py": "/usr/local/bin/gtf_add_transcript_biotype_info.py", "peakhood": "/usr/local/bin/peakhood", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peakhood.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gtf_add_transcript_biotype_in
 $ singularity exec <container> /usr/local/bin/peakhood
 $ podman run --it --rm --entrypoint /usr/local/bin/peakhood   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/peakhood   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

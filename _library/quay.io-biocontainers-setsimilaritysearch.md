@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/setsimilaritysearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/setsimilaritysearch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/setsimilaritysearch/container.yaml"
-updated_at: "2022-10-27 00:32:09.841314"
+updated_at: "2022-10-29 05:48:23.629901"
 latest: "1.0.0"
 container_url: "https://biocontainers.pro/tools/setsimilaritysearch"
 aliases:
  - "all_pairs.py"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "1.0.0"
 description: "shpc-registry automated BioContainers addition for setsimilaritysearch"
-config: {"url": "https://biocontainers.pro/tools/setsimilaritysearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for setsimilaritysearch", "latest": {"1.0.0": "sha256:4883c088ef374418e91dd10612b75295e04f241c979fe1c5b6887d21bb764320"}, "tags": {"1.0.0": "sha256:4883c088ef374418e91dd10612b75295e04f241c979fe1c5b6887d21bb764320"}, "docker": "quay.io/biocontainers/setsimilaritysearch", "aliases": {"all_pairs.py": "/usr/local/bin/all_pairs.py"}}
+config: {"url": "https://biocontainers.pro/tools/setsimilaritysearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for setsimilaritysearch", "latest": {"1.0.0": "sha256:4883c088ef374418e91dd10612b75295e04f241c979fe1c5b6887d21bb764320"}, "tags": {"1.0.0": "sha256:4883c088ef374418e91dd10612b75295e04f241c979fe1c5b6887d21bb764320"}, "docker": "quay.io/biocontainers/setsimilaritysearch", "aliases": {"all_pairs.py": "/usr/local/bin/all_pairs.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/setsimilaritysearch.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/all_pairs.py
 $ podman run --it --rm --entrypoint /usr/local/bin/all_pairs.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/all_pairs.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

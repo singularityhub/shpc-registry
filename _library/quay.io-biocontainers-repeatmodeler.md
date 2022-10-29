@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/repeatmodeler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/repeatmodeler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/repeatmodeler/container.yaml"
-updated_at: "2022-10-27 00:29:49.675208"
+updated_at: "2022-10-29 05:45:15.798790"
 latest: "2.0.3--pl5321h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/repeatmodeler"
 aliases:
@@ -14,14 +14,11 @@ aliases:
  - "LTR_retriever"
  - "Linup"
  - "Ninja"
- - "RM2Bed.py"
  - "Refiner"
  - "RepeatClassifier"
  - "RepeatModeler"
  - "RepeatScout"
  - "alignAndCallConsensus.pl"
- - "buildRMLibFromEMBL.pl"
- - "buildSummary.pl"
  - "build_lmer_table"
  - "compare-out-to-gff.prl"
  - "convert_MGEScan3.0.pl"
@@ -40,11 +37,20 @@ aliases:
  - "nmerge"
  - "nseg"
  - "viewMSA.pl"
- - "wublastToCrossmatch.pl"
+ - "2to3-3.9"
+ - "DateRepeats"
+ - "DupMasker"
+ - "FET.pl"
+ - "ProcessRepeats"
+ - "RM2Bed.py"
+ - "RepeatMasker"
+ - "RepeatProteinMask"
+ - "accn-at-a-time"
+ - "align-columns"
 versions:
  - "2.0.3--pl5321h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for repeatmodeler"
-config: {"url": "https://biocontainers.pro/tools/repeatmodeler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatmodeler", "latest": {"2.0.3--pl5321h9ee0642_0": "sha256:375bee70d308ed528b2ddf525b0c54d731c308a978e9fa67cb4c1f9a43c7722b"}, "tags": {"2.0.3--pl5321h9ee0642_0": "sha256:375bee70d308ed528b2ddf525b0c54d731c308a978e9fa67cb4c1f9a43c7722b"}, "docker": "quay.io/biocontainers/repeatmodeler", "aliases": {"BuildDatabase": "/usr/local/bin/BuildDatabase", "LAI": "/usr/local/bin/LAI", "LTRPipeline": "/usr/local/bin/LTRPipeline", "LTR_retriever": "/usr/local/bin/LTR_retriever", "Linup": "/usr/local/bin/Linup", "Ninja": "/usr/local/bin/Ninja", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "Refiner": "/usr/local/bin/Refiner", "RepeatClassifier": "/usr/local/bin/RepeatClassifier", "RepeatModeler": "/usr/local/bin/RepeatModeler", "RepeatScout": "/usr/local/bin/RepeatScout", "alignAndCallConsensus.pl": "/usr/local/bin/alignAndCallConsensus.pl", "buildRMLibFromEMBL.pl": "/usr/local/bin/buildRMLibFromEMBL.pl", "buildSummary.pl": "/usr/local/bin/buildSummary.pl", "build_lmer_table": "/usr/local/bin/build_lmer_table", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "generateSeedAlignments.pl": "/usr/local/bin/generateSeedAlignments.pl", "imagespread": "/usr/local/bin/imagespread", "maskFile.pl": "/usr/local/bin/maskFile.pl", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "viewMSA.pl": "/usr/local/bin/viewMSA.pl", "wublastToCrossmatch.pl": "/usr/local/bin/wublastToCrossmatch.pl"}}
+config: {"url": "https://biocontainers.pro/tools/repeatmodeler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for repeatmodeler", "latest": {"2.0.3--pl5321h9ee0642_0": "sha256:375bee70d308ed528b2ddf525b0c54d731c308a978e9fa67cb4c1f9a43c7722b"}, "tags": {"2.0.3--pl5321h9ee0642_0": "sha256:375bee70d308ed528b2ddf525b0c54d731c308a978e9fa67cb4c1f9a43c7722b"}, "docker": "quay.io/biocontainers/repeatmodeler", "aliases": {"BuildDatabase": "/usr/local/bin/BuildDatabase", "LAI": "/usr/local/bin/LAI", "LTRPipeline": "/usr/local/bin/LTRPipeline", "LTR_retriever": "/usr/local/bin/LTR_retriever", "Linup": "/usr/local/bin/Linup", "Ninja": "/usr/local/bin/Ninja", "Refiner": "/usr/local/bin/Refiner", "RepeatClassifier": "/usr/local/bin/RepeatClassifier", "RepeatModeler": "/usr/local/bin/RepeatModeler", "RepeatScout": "/usr/local/bin/RepeatScout", "alignAndCallConsensus.pl": "/usr/local/bin/alignAndCallConsensus.pl", "build_lmer_table": "/usr/local/bin/build_lmer_table", "compare-out-to-gff.prl": "/usr/local/bin/compare-out-to-gff.prl", "convert_MGEScan3.0.pl": "/usr/local/bin/convert_MGEScan3.0.pl", "convert_ltr_struc.pl": "/usr/local/bin/convert_ltr_struc.pl", "convert_ltrdetector.pl": "/usr/local/bin/convert_ltrdetector.pl", "edgeredef": "/usr/local/bin/edgeredef", "eledef": "/usr/local/bin/eledef", "eleredef": "/usr/local/bin/eleredef", "famdef": "/usr/local/bin/famdef", "filter-stage-1.prl": "/usr/local/bin/filter-stage-1.prl", "filter-stage-2.prl": "/usr/local/bin/filter-stage-2.prl", "generateSeedAlignments.pl": "/usr/local/bin/generateSeedAlignments.pl", "imagespread": "/usr/local/bin/imagespread", "maskFile.pl": "/usr/local/bin/maskFile.pl", "merge-lmer-tables.prl": "/usr/local/bin/merge-lmer-tables.prl", "nmerge": "/usr/local/bin/nmerge", "nseg": "/usr/local/bin/nseg", "viewMSA.pl": "/usr/local/bin/viewMSA.pl", "2to3-3.9": "/usr/local/bin/2to3-3.9", "DateRepeats": "/usr/local/bin/DateRepeats", "DupMasker": "/usr/local/bin/DupMasker", "FET.pl": "/usr/local/bin/FET.pl", "ProcessRepeats": "/usr/local/bin/ProcessRepeats", "RM2Bed.py": "/usr/local/bin/RM2Bed.py", "RepeatMasker": "/usr/local/bin/RepeatMasker", "RepeatProteinMask": "/usr/local/bin/RepeatProteinMask", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/repeatmodeler.
@@ -184,15 +190,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Ninja   -v ${PWD} -w ${PWD} <
 ```
 
 
-#### RM2Bed.py
-
-```bash
-$ singularity exec <container> /usr/local/bin/RM2Bed.py
-$ podman run --it --rm --entrypoint /usr/local/bin/RM2Bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/RM2Bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### Refiner
 
 ```bash
@@ -235,24 +232,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/RepeatScout   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/alignAndCallConsensus.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/alignAndCallConsensus.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/alignAndCallConsensus.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### buildRMLibFromEMBL.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/buildRMLibFromEMBL.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/buildRMLibFromEMBL.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/buildRMLibFromEMBL.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### buildSummary.pl
-
-```bash
-$ singularity exec <container> /usr/local/bin/buildSummary.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/buildSummary.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/buildSummary.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -418,12 +397,93 @@ $ docker run --it --rm --entrypoint /usr/local/bin/viewMSA.pl   -v ${PWD} -w ${P
 ```
 
 
-#### wublastToCrossmatch.pl
+#### 2to3-3.9
 
 ```bash
-$ singularity exec <container> /usr/local/bin/wublastToCrossmatch.pl
-$ podman run --it --rm --entrypoint /usr/local/bin/wublastToCrossmatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/wublastToCrossmatch.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DateRepeats
+
+```bash
+$ singularity exec <container> /usr/local/bin/DateRepeats
+$ podman run --it --rm --entrypoint /usr/local/bin/DateRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DateRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DupMasker
+
+```bash
+$ singularity exec <container> /usr/local/bin/DupMasker
+$ podman run --it --rm --entrypoint /usr/local/bin/DupMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DupMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FET.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/FET.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ProcessRepeats
+
+```bash
+$ singularity exec <container> /usr/local/bin/ProcessRepeats
+$ podman run --it --rm --entrypoint /usr/local/bin/ProcessRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ProcessRepeats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RM2Bed.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/RM2Bed.py
+$ podman run --it --rm --entrypoint /usr/local/bin/RM2Bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RM2Bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RepeatMasker
+
+```bash
+$ singularity exec <container> /usr/local/bin/RepeatMasker
+$ podman run --it --rm --entrypoint /usr/local/bin/RepeatMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RepeatMasker   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RepeatProteinMask
+
+```bash
+$ singularity exec <container> /usr/local/bin/RepeatProteinMask
+$ podman run --it --rm --entrypoint /usr/local/bin/RepeatProteinMask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RepeatProteinMask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

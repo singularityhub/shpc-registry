@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mast/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mast/container.yaml"
-updated_at: "2022-10-27 00:29:06.253060"
+updated_at: "2022-10-29 05:44:19.013059"
 latest: "1.8.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mast"
-
+aliases:
+ - "wget"
 versions:
  - "1.8.1--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mast"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mast", "latest": {"1.8.1--r351_0": "sha256:9ba70bc7f4551d83d343dea503605ad5d745960d6af04936cd4dd70289369b0c"}, "tags": {"1.8.1--r351_0": "sha256:9ba70bc7f4551d83d343dea503605ad5d745960d6af04936cd4dd70289369b0c"}, "docker": "quay.io/biocontainers/bioconductor-mast"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mast", "latest": {"1.8.1--r351_0": "sha256:9ba70bc7f4551d83d343dea503605ad5d745960d6af04936cd4dd70289369b0c"}, "tags": {"1.8.1--r351_0": "sha256:9ba70bc7f4551d83d343dea503605ad5d745960d6af04936cd4dd70289369b0c"}, "docker": "quay.io/biocontainers/bioconductor-mast", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mast.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-mast
+#### wget
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

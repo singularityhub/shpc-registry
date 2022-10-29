@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/riboseqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboseqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/riboseqc/container.yaml"
-updated_at: "2022-10-27 00:28:58.628125"
+updated_at: "2022-10-29 05:44:09.255396"
 latest: "1.1--r36_1"
 container_url: "https://biocontainers.pro/tools/riboseqc"
-
+aliases:
+ - "pandoc"
+ - "pandoc-citeproc"
 versions:
  - "1.1--r36_1"
 description: "shpc-registry automated BioContainers addition for riboseqc"
-config: {"url": "https://biocontainers.pro/tools/riboseqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboseqc", "latest": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "tags": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "docker": "quay.io/biocontainers/riboseqc"}
+config: {"url": "https://biocontainers.pro/tools/riboseqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for riboseqc", "latest": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "tags": {"1.1--r36_1": "sha256:bbbe17fc6e85fb3dd0635866f052ca65795c8f8920d468203cd0fd54c88f90eb"}, "docker": "quay.io/biocontainers/riboseqc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/riboseqc.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### riboseqc
+#### pandoc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### pandoc-citeproc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pandoc-citeproc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

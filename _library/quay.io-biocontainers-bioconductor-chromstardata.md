@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-chromstardata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromstardata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromstardata/container.yaml"
-updated_at: "2022-10-27 00:35:17.952141"
+updated_at: "2022-10-29 05:52:35.458925"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromstardata"
 aliases:
- - ".bioconductor-chromstardata-post-link.sh"
- - ".bioconductor-chromstardata-pre-unlink.sh"
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromstardata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromstardata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromstardata", "latest": {"1.8.0--r351_0": "sha256:d258529ad83415c1962e88f254819ab9d7710b80342cfb9409751ef3f0cc166e"}, "tags": {"1.8.0--r351_0": "sha256:d258529ad83415c1962e88f254819ab9d7710b80342cfb9409751ef3f0cc166e"}, "docker": "quay.io/biocontainers/bioconductor-chromstardata", "aliases": {".bioconductor-chromstardata-post-link.sh": "/usr/local/bin/.bioconductor-chromstardata-post-link.sh", ".bioconductor-chromstardata-pre-unlink.sh": "/usr/local/bin/.bioconductor-chromstardata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromstardata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromstardata", "latest": {"1.8.0--r351_0": "sha256:d258529ad83415c1962e88f254819ab9d7710b80342cfb9409751ef3f0cc166e"}, "tags": {"1.8.0--r351_0": "sha256:d258529ad83415c1962e88f254819ab9d7710b80342cfb9409751ef3f0cc166e"}, "docker": "quay.io/biocontainers/bioconductor-chromstardata", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromstardata.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-chromstardata-post-link.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-chromstardata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-chromstardata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-chromstardata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-chromstardata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-chromstardata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-chromstardata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-chromstardata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scvi-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scvi-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scvi-tools/container.yaml"
-updated_at: "2022-10-27 00:39:47.497713"
+updated_at: "2022-10-29 05:58:27.533501"
 latest: "0.9.1--py_0"
 container_url: "https://biocontainers.pro/tools/scvi-tools"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "keyring"
  - "pkginfo"
  - "poetry"
+ - "2to3-3.8"
+ - "chardetect"
+ - "cmark"
+ - "convert-caffe2-to-onnx"
+ - "convert-onnx-to-caffe2"
+ - "curve_keygen"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
 versions:
  - "0.9.1--py_0"
 description: "shpc-registry automated BioContainers addition for scvi-tools"
-config: {"url": "https://biocontainers.pro/tools/scvi-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvi-tools", "latest": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "tags": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "docker": "quay.io/biocontainers/scvi-tools", "aliases": {"hyperopt-mongo-worker": "/usr/local/bin/hyperopt-mongo-worker", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry"}}
+config: {"url": "https://biocontainers.pro/tools/scvi-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scvi-tools", "latest": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "tags": {"0.9.1--py_0": "sha256:0bee7f7bbdc70fc3294f72588a35e06b986f50fcafda73aa009b2acd108d232c"}, "docker": "quay.io/biocontainers/scvi-tools", "aliases": {"hyperopt-mongo-worker": "/usr/local/bin/hyperopt-mongo-worker", "keyring": "/usr/local/bin/keyring", "pkginfo": "/usr/local/bin/pkginfo", "poetry": "/usr/local/bin/poetry", "2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "cmark": "/usr/local/bin/cmark", "convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "curve_keygen": "/usr/local/bin/curve_keygen", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scvi-tools.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pkginfo   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/poetry
 $ podman run --it --rm --entrypoint /usr/local/bin/poetry   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/poetry   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmark
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmark
+$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert-caffe2-to-onnx
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert-caffe2-to-onnx
+$ podman run --it --rm --entrypoint /usr/local/bin/convert-caffe2-to-onnx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert-caffe2-to-onnx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert-onnx-to-caffe2
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert-onnx-to-caffe2
+$ podman run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### curve_keygen
+
+```bash
+$ singularity exec <container> /usr/local/bin/curve_keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/curve_keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

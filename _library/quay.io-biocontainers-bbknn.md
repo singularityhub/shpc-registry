@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bbknn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbknn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bbknn/container.yaml"
-updated_at: "2022-10-27 00:32:02.618482"
+updated_at: "2022-10-29 05:48:13.881766"
 latest: "1.5.1--py36h91eb985_2"
 container_url: "https://biocontainers.pro/tools/bbknn"
-
+aliases:
+ - "2to3-3.6"
+ - "f2py3.6"
+ - "idle3.6"
+ - "numba"
+ - "pycc"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
 versions:
  - "1.5.1--py36h91eb985_2"
 description: "shpc-registry automated BioContainers addition for bbknn"
-config: {"url": "https://biocontainers.pro/tools/bbknn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbknn", "latest": {"1.5.1--py36h91eb985_2": "sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9"}, "tags": {"1.5.1--py36h91eb985_2": "sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9"}, "docker": "quay.io/biocontainers/bbknn"}
+config: {"url": "https://biocontainers.pro/tools/bbknn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbknn", "latest": {"1.5.1--py36h91eb985_2": "sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9"}, "tags": {"1.5.1--py36h91eb985_2": "sha256:0c298061db57270d6b11a7447a2beddffda274faf832cc6770b12d0e777711a9"}, "docker": "quay.io/biocontainers/bbknn", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "f2py3.6": "/usr/local/bin/f2py3.6", "idle3.6": "/usr/local/bin/idle3.6", "numba": "/usr/local/bin/numba", "pycc": "/usr/local/bin/pycc", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bbknn.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bbknn
+#### 2to3-3.6
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### numba
+
+```bash
+$ singularity exec <container> /usr/local/bin/numba
+$ podman run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pycc
+
+```bash
+$ singularity exec <container> /usr/local/bin/pycc
+$ podman run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pycc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

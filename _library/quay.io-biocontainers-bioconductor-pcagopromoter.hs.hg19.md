@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pcagopromoter.hs.hg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcagopromoter.hs.hg19/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcagopromoter.hs.hg19/container.yaml"
-updated_at: "2022-10-27 00:18:52.880602"
+updated_at: "2022-10-29 05:30:48.574298"
 latest: "1.26.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcagopromoter.hs.hg19"
 aliases:
- - ".bioconductor-pcagopromoter.hs.hg19-post-link.sh"
- - ".bioconductor-pcagopromoter.hs.hg19-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.26.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcagopromoter.hs.hg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcagopromoter.hs.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcagopromoter.hs.hg19", "latest": {"1.26.0--r40hdfd78af_1": "sha256:3f33f815dcc1bb34284417cfe1915cfa89dbca6c2249bc1c2b56f704aa3b3ea2"}, "tags": {"1.26.0--r40hdfd78af_1": "sha256:3f33f815dcc1bb34284417cfe1915cfa89dbca6c2249bc1c2b56f704aa3b3ea2"}, "docker": "quay.io/biocontainers/bioconductor-pcagopromoter.hs.hg19", "aliases": {".bioconductor-pcagopromoter.hs.hg19-post-link.sh": "/usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-post-link.sh", ".bioconductor-pcagopromoter.hs.hg19-pre-unlink.sh": "/usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcagopromoter.hs.hg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcagopromoter.hs.hg19", "latest": {"1.26.0--r40hdfd78af_1": "sha256:3f33f815dcc1bb34284417cfe1915cfa89dbca6c2249bc1c2b56f704aa3b3ea2"}, "tags": {"1.26.0--r40hdfd78af_1": "sha256:3f33f815dcc1bb34284417cfe1915cfa89dbca6c2249bc1c2b56f704aa3b3ea2"}, "docker": "quay.io/biocontainers/bioconductor-pcagopromoter.hs.hg19", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcagopromoter.hs.hg19.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-pcagopromoter.hs.hg19-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-pcagopromoter.hs.hg19-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcagopromoter.hs.hg19-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

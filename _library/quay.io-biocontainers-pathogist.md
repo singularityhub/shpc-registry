@@ -4,12 +4,10 @@ name:  "quay.io/biocontainers/pathogist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pathogist/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pathogist/container.yaml"
-updated_at: "2022-10-27 00:32:06.446609"
+updated_at: "2022-10-29 05:48:19.238555"
 latest: "0.3.6--py_1"
 container_url: "https://biocontainers.pro/tools/pathogist"
 aliases:
- - ".julia-post-link.sh"
- - ".julia-pre-unlink.sh"
  - "MentaLiST.jl"
  - "PATHOGIST"
  - "SpoTyping.py"
@@ -58,10 +56,20 @@ aliases:
  - "vcfnull2ref"
  - "vcftools"
  - "vcfunphase"
+ - "2to3-3.7"
+ - "abba-baba"
+ - "ace2sam"
+ - "assistant"
+ - "bFst"
+ - "bamleftalign"
+ - "bed2region"
+ - "bgzip"
+ - "bgziptabix"
+ - "blast2sam.pl"
 versions:
  - "0.3.6--py_1"
 description: "shpc-registry automated BioContainers addition for pathogist"
-config: {"url": "https://biocontainers.pro/tools/pathogist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathogist", "latest": {"0.3.6--py_1": "sha256:fe28d46a35c0c04246c03fb9290b989ae96251c23e83259ac3860002bd171618"}, "tags": {"0.3.6--py_1": "sha256:fe28d46a35c0c04246c03fb9290b989ae96251c23e83259ac3860002bd171618"}, "docker": "quay.io/biocontainers/pathogist", "aliases": {".julia-post-link.sh": "/usr/local/bin/.julia-post-link.sh", ".julia-pre-unlink.sh": "/usr/local/bin/.julia-pre-unlink.sh", "MentaLiST.jl": "/usr/local/bin/MentaLiST.jl", "PATHOGIST": "/usr/local/bin/PATHOGIST", "SpoTyping.py": "/usr/local/bin/SpoTyping.py", "SpoTyping_plot.r": "/usr/local/bin/SpoTyping_plot.r", "abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "build_db_functions.jl": "/usr/local/bin/build_db_functions.jl", "calling_functions.jl": "/usr/local/bin/calling_functions.jl", "count-median.py": "/usr/local/bin/count-median.py", "db_graph.jl": "/usr/local/bin/db_graph.jl", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "fastq-to-fasta.py": "/usr/local/bin/fastq-to-fasta.py", "filter-abund-single.py": "/usr/local/bin/filter-abund-single.py", "filter-abund.py": "/usr/local/bin/filter-abund.py", "filter-stoptags.py": "/usr/local/bin/filter-stoptags.py", "find-knots.py": "/usr/local/bin/find-knots.py", "interleave-reads.py": "/usr/local/bin/interleave-reads.py", "julia": "/usr/local/bin/julia", "kwip": "/usr/local/bin/kwip", "kwip-stats": "/usr/local/bin/kwip-stats", "load-graph.py": "/usr/local/bin/load-graph.py", "load-into-counting.py": "/usr/local/bin/load-into-counting.py", "make-initial-stoptags.py": "/usr/local/bin/make-initial-stoptags.py", "mentalist": "/usr/local/bin/mentalist", "merge-partitions.py": "/usr/local/bin/merge-partitions.py", "mlst_download_functions.jl": "/usr/local/bin/mlst_download_functions.jl", "normalize-by-median.py": "/usr/local/bin/normalize-by-median.py", "partition-graph.py": "/usr/local/bin/partition-graph.py", "prince": "/usr/local/bin/prince", "pulpdoctest": "/usr/local/bin/pulpdoctest", "readstats.py": "/usr/local/bin/readstats.py", "sample-reads-randomly.py": "/usr/local/bin/sample-reads-randomly.py", "snippy": "/usr/local/bin/snippy", "snippy-core": "/usr/local/bin/snippy-core", "snippy-vcf_filter": "/usr/local/bin/snippy-vcf_filter", "snippy-vcf_report": "/usr/local/bin/snippy-vcf_report", "snippy-vcf_to_tab": "/usr/local/bin/snippy-vcf_to_tab", "split-paired-reads.py": "/usr/local/bin/split-paired-reads.py", "trim-low-abund.py": "/usr/local/bin/trim-low-abund.py", "unique-kmers.py": "/usr/local/bin/unique-kmers.py", "vcfnormalizesvs": "/usr/local/bin/vcfnormalizesvs", "vcfnull2ref": "/usr/local/bin/vcfnull2ref", "vcftools": "/usr/local/bin/vcftools", "vcfunphase": "/usr/local/bin/vcfunphase"}}
+config: {"url": "https://biocontainers.pro/tools/pathogist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pathogist", "latest": {"0.3.6--py_1": "sha256:fe28d46a35c0c04246c03fb9290b989ae96251c23e83259ac3860002bd171618"}, "tags": {"0.3.6--py_1": "sha256:fe28d46a35c0c04246c03fb9290b989ae96251c23e83259ac3860002bd171618"}, "docker": "quay.io/biocontainers/pathogist", "aliases": {"MentaLiST.jl": "/usr/local/bin/MentaLiST.jl", "PATHOGIST": "/usr/local/bin/PATHOGIST", "SpoTyping.py": "/usr/local/bin/SpoTyping.py", "SpoTyping_plot.r": "/usr/local/bin/SpoTyping_plot.r", "abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "build_db_functions.jl": "/usr/local/bin/build_db_functions.jl", "calling_functions.jl": "/usr/local/bin/calling_functions.jl", "count-median.py": "/usr/local/bin/count-median.py", "db_graph.jl": "/usr/local/bin/db_graph.jl", "do-partition.py": "/usr/local/bin/do-partition.py", "extract-long-sequences.py": "/usr/local/bin/extract-long-sequences.py", "extract-paired-reads.py": "/usr/local/bin/extract-paired-reads.py", "extract-partitions.py": "/usr/local/bin/extract-partitions.py", "fastq-to-fasta.py": "/usr/local/bin/fastq-to-fasta.py", "filter-abund-single.py": "/usr/local/bin/filter-abund-single.py", "filter-abund.py": "/usr/local/bin/filter-abund.py", "filter-stoptags.py": "/usr/local/bin/filter-stoptags.py", "find-knots.py": "/usr/local/bin/find-knots.py", "interleave-reads.py": "/usr/local/bin/interleave-reads.py", "julia": "/usr/local/bin/julia", "kwip": "/usr/local/bin/kwip", "kwip-stats": "/usr/local/bin/kwip-stats", "load-graph.py": "/usr/local/bin/load-graph.py", "load-into-counting.py": "/usr/local/bin/load-into-counting.py", "make-initial-stoptags.py": "/usr/local/bin/make-initial-stoptags.py", "mentalist": "/usr/local/bin/mentalist", "merge-partitions.py": "/usr/local/bin/merge-partitions.py", "mlst_download_functions.jl": "/usr/local/bin/mlst_download_functions.jl", "normalize-by-median.py": "/usr/local/bin/normalize-by-median.py", "partition-graph.py": "/usr/local/bin/partition-graph.py", "prince": "/usr/local/bin/prince", "pulpdoctest": "/usr/local/bin/pulpdoctest", "readstats.py": "/usr/local/bin/readstats.py", "sample-reads-randomly.py": "/usr/local/bin/sample-reads-randomly.py", "snippy": "/usr/local/bin/snippy", "snippy-core": "/usr/local/bin/snippy-core", "snippy-vcf_filter": "/usr/local/bin/snippy-vcf_filter", "snippy-vcf_report": "/usr/local/bin/snippy-vcf_report", "snippy-vcf_to_tab": "/usr/local/bin/snippy-vcf_to_tab", "split-paired-reads.py": "/usr/local/bin/split-paired-reads.py", "trim-low-abund.py": "/usr/local/bin/trim-low-abund.py", "unique-kmers.py": "/usr/local/bin/unique-kmers.py", "vcfnormalizesvs": "/usr/local/bin/vcfnormalizesvs", "vcfnull2ref": "/usr/local/bin/vcfnull2ref", "vcftools": "/usr/local/bin/vcftools", "vcfunphase": "/usr/local/bin/vcfunphase", "2to3-3.7": "/usr/local/bin/2to3-3.7", "abba-baba": "/usr/local/bin/abba-baba", "ace2sam": "/usr/local/bin/ace2sam", "assistant": "/usr/local/bin/assistant", "bFst": "/usr/local/bin/bFst", "bamleftalign": "/usr/local/bin/bamleftalign", "bed2region": "/usr/local/bin/bed2region", "bgzip": "/usr/local/bin/bgzip", "bgziptabix": "/usr/local/bin/bgziptabix", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pathogist.
@@ -144,24 +152,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .julia-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.julia-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.julia-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.julia-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .julia-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.julia-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.julia-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.julia-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -594,6 +584,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vcftools   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/vcfunphase
 $ podman run --it --rm --entrypoint /usr/local/bin/vcfunphase   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vcfunphase   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abba-baba
+
+```bash
+$ singularity exec <container> /usr/local/bin/abba-baba
+$ podman run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abba-baba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bFst
+
+```bash
+$ singularity exec <container> /usr/local/bin/bFst
+$ podman run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bFst   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamleftalign
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamleftalign
+$ podman run --it --rm --entrypoint /usr/local/bin/bamleftalign   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamleftalign   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed2region
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed2region
+$ podman run --it --rm --entrypoint /usr/local/bin/bed2region   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed2region   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgziptabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgziptabix
+$ podman run --it --rm --entrypoint /usr/local/bin/bgziptabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgziptabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

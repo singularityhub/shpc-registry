@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-crossmeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crossmeta/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crossmeta/container.yaml"
-updated_at: "2022-10-27 00:37:32.559424"
+updated_at: "2022-10-29 05:55:33.146701"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crossmeta"
 aliases:
- - ".bioconductor-ccdata-post-link.sh"
- - ".bioconductor-ccdata-pre-unlink.sh"
+ - "pandoc"
+ - "pandoc-citeproc"
+ - "wget"
+ - "xgboost"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crossmeta"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crossmeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crossmeta", "latest": {"1.8.0--r351_0": "sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232"}, "tags": {"1.8.0--r351_0": "sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232"}, "docker": "quay.io/biocontainers/bioconductor-crossmeta", "aliases": {".bioconductor-ccdata-post-link.sh": "/usr/local/bin/.bioconductor-ccdata-post-link.sh", ".bioconductor-ccdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ccdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crossmeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crossmeta", "latest": {"1.8.0--r351_0": "sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232"}, "tags": {"1.8.0--r351_0": "sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232"}, "docker": "quay.io/biocontainers/bioconductor-crossmeta", "aliases": {"pandoc": "/usr/local/bin/pandoc", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "wget": "/usr/local/bin/wget", "xgboost": "/usr/local/bin/xgboost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crossmeta.
@@ -99,21 +101,39 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-ccdata-post-link.sh
+#### pandoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ccdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-ccdata-pre-unlink.sh
+#### pandoc-citeproc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-ccdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc-citeproc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc-citeproc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xgboost
+
+```bash
+$ singularity exec <container> /usr/local/bin/xgboost
+$ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

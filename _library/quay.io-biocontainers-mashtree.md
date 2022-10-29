@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mashtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mashtree/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mashtree/container.yaml"
-updated_at: "2022-10-27 00:29:03.713145"
+updated_at: "2022-10-29 05:44:15.807549"
 latest: "1.2.0--pl5321hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/mashtree"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "mashtree_wrapper_deprecated.pl"
  - "min_abundance_finder.pl"
  - "quicktree"
+ - "2to3-3.7"
+ - "bamToGBrowse.pl"
+ - "baseml"
+ - "basemlg"
+ - "bp_aacomp"
+ - "bp_bioflat_index"
+ - "bp_biogetseq"
+ - "bp_dbsplit"
+ - "bp_extract_feature_seq"
+ - "bp_fastam9_to_table"
 versions:
  - "1.2.0--pl5321hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for mashtree"
-config: {"url": "https://biocontainers.pro/tools/mashtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashtree", "latest": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab"}, "tags": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab"}, "docker": "quay.io/biocontainers/mashtree", "aliases": {"mashtree": "/usr/local/bin/mashtree", "mashtree_bootstrap.pl": "/usr/local/bin/mashtree_bootstrap.pl", "mashtree_cluster.pl": "/usr/local/bin/mashtree_cluster.pl", "mashtree_init.pl": "/usr/local/bin/mashtree_init.pl", "mashtree_jackknife.pl": "/usr/local/bin/mashtree_jackknife.pl", "mashtree_wrapper_deprecated.pl": "/usr/local/bin/mashtree_wrapper_deprecated.pl", "min_abundance_finder.pl": "/usr/local/bin/min_abundance_finder.pl", "quicktree": "/usr/local/bin/quicktree"}}
+config: {"url": "https://biocontainers.pro/tools/mashtree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mashtree", "latest": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab"}, "tags": {"1.2.0--pl5321hec16e2b_1": "sha256:7c2a10ebdf36ae6c1b97fd320b64ab27b11415499d2737e83cc21b4061f448ab"}, "docker": "quay.io/biocontainers/mashtree", "aliases": {"mashtree": "/usr/local/bin/mashtree", "mashtree_bootstrap.pl": "/usr/local/bin/mashtree_bootstrap.pl", "mashtree_cluster.pl": "/usr/local/bin/mashtree_cluster.pl", "mashtree_init.pl": "/usr/local/bin/mashtree_init.pl", "mashtree_jackknife.pl": "/usr/local/bin/mashtree_jackknife.pl", "mashtree_wrapper_deprecated.pl": "/usr/local/bin/mashtree_wrapper_deprecated.pl", "min_abundance_finder.pl": "/usr/local/bin/min_abundance_finder.pl", "quicktree": "/usr/local/bin/quicktree", "2to3-3.7": "/usr/local/bin/2to3-3.7", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mashtree.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/min_abundance_finder.pl   -v 
 $ singularity exec <container> /usr/local/bin/quicktree
 $ podman run --it --rm --entrypoint /usr/local/bin/quicktree   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/quicktree   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToGBrowse.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### baseml
+
+```bash
+$ singularity exec <container> /usr/local/bin/baseml
+$ podman run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basemlg
+
+```bash
+$ singularity exec <container> /usr/local/bin/basemlg
+$ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_aacomp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_aacomp
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_aacomp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_bioflat_index
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_bioflat_index
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_bioflat_index   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_biogetseq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_biogetseq
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_biogetseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_biogetseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_dbsplit
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_dbsplit
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_dbsplit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_extract_feature_seq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_extract_feature_seq
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_extract_feature_seq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bp_fastam9_to_table
+
+```bash
+$ singularity exec <container> /usr/local/bin/bp_fastam9_to_table
+$ podman run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bp_fastam9_to_table   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

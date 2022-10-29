@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-dce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dce/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dce/container.yaml"
-updated_at: "2022-10-27 00:22:33.145353"
+updated_at: "2022-10-29 05:35:38.829592"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dce"
-
+aliases:
+ - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dce"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dce", "latest": {"1.2.0--r41hdfd78af_0": "sha256:8e1cb0e1924983286499586059fef38b241b797df2722a67548b25443b4605cf"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:8e1cb0e1924983286499586059fef38b241b797df2722a67548b25443b4605cf"}, "docker": "quay.io/biocontainers/bioconductor-dce"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dce", "latest": {"1.2.0--r41hdfd78af_0": "sha256:8e1cb0e1924983286499586059fef38b241b797df2722a67548b25443b4605cf"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:8e1cb0e1924983286499586059fef38b241b797df2722a67548b25443b4605cf"}, "docker": "quay.io/biocontainers/bioconductor-dce", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dce.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-dce
+#### pandoc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/fithic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fithic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fithic/container.yaml"
-updated_at: "2022-10-27 00:39:42.291168"
+updated_at: "2022-10-29 05:58:20.998041"
 latest: "2.0.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/fithic"
 aliases:
  - "fithic"
+ - "2to3-3.6"
+ - "f2py3.6"
+ - "idle3.6"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
 versions:
  - "2.0.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for fithic"
-config: {"url": "https://biocontainers.pro/tools/fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fithic", "latest": {"2.0.8--pyhdfd78af_0": "sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1"}, "tags": {"2.0.8--pyhdfd78af_0": "sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1"}, "docker": "quay.io/biocontainers/fithic", "aliases": {"fithic": "/usr/local/bin/fithic"}}
+config: {"url": "https://biocontainers.pro/tools/fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fithic", "latest": {"2.0.8--pyhdfd78af_0": "sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1"}, "tags": {"2.0.8--pyhdfd78af_0": "sha256:26b21e118fb3777a5565cdd28ea7fcef807bc524fb7332d2fcd7616f80de70d1"}, "docker": "quay.io/biocontainers/fithic", "aliases": {"fithic": "/usr/local/bin/fithic", "2to3-3.6": "/usr/local/bin/2to3-3.6", "f2py3.6": "/usr/local/bin/f2py3.6", "idle3.6": "/usr/local/bin/idle3.6", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fithic.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/fithic
 $ podman run --it --rm --entrypoint /usr/local/bin/fithic   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fithic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

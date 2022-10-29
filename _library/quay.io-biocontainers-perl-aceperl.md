@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-aceperl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-aceperl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-aceperl/container.yaml"
-updated_at: "2022-10-27 00:32:29.152429"
+updated_at: "2022-10-29 05:48:49.077361"
 latest: "1.92--pl5321hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/perl-aceperl"
-
+aliases:
+ - "ace.pl"
 versions:
  - "1.92--pl5321hec16e2b_4"
 description: "shpc-registry automated BioContainers addition for perl-aceperl"
-config: {"url": "https://biocontainers.pro/tools/perl-aceperl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-aceperl", "latest": {"1.92--pl5321hec16e2b_4": "sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25"}, "tags": {"1.92--pl5321hec16e2b_4": "sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25"}, "docker": "quay.io/biocontainers/perl-aceperl"}
+config: {"url": "https://biocontainers.pro/tools/perl-aceperl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-aceperl", "latest": {"1.92--pl5321hec16e2b_4": "sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25"}, "tags": {"1.92--pl5321hec16e2b_4": "sha256:51c3a40bbb22072b38deeabc7a16471a8cd400e8de94069934adb1c27bd04e25"}, "docker": "quay.io/biocontainers/perl-aceperl", "aliases": {"ace.pl": "/usr/local/bin/ace.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-aceperl.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-aceperl
+#### ace.pl
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

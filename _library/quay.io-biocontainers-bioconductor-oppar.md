@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-oppar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oppar/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oppar/container.yaml"
-updated_at: "2022-10-27 00:27:36.980680"
+updated_at: "2022-10-29 05:42:23.351638"
 latest: "1.8.0--r341h470a237_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oppar"
-
+aliases:
+ - "ncurses5-config"
+ - "ncursesw5-config"
 versions:
  - "1.8.0--r341h470a237_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-oppar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oppar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oppar", "latest": {"1.8.0--r341h470a237_0": "sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b"}, "tags": {"1.8.0--r341h470a237_0": "sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b"}, "docker": "quay.io/biocontainers/bioconductor-oppar"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oppar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oppar", "latest": {"1.8.0--r341h470a237_0": "sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b"}, "tags": {"1.8.0--r341h470a237_0": "sha256:28b299b5ed318cc1dfe0c875623ced9269d8f8bff5bdb054f2bc3c7181c1996b"}, "docker": "quay.io/biocontainers/bioconductor-oppar", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oppar.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-oppar
+#### ncurses5-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

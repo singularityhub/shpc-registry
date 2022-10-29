@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/telescope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/telescope/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/telescope/container.yaml"
-updated_at: "2022-10-27 00:36:51.514992"
+updated_at: "2022-10-29 05:54:38.873671"
 latest: "1.0.3--py37hc399e3d_5"
 container_url: "https://biocontainers.pro/tools/telescope"
 aliases:
  - "telescope"
+ - "2to3-3.7"
+ - "f2py3.7"
+ - "futurize"
+ - "idle3.7"
+ - "pasteurize"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
 versions:
  - "1.0.3--py37hc399e3d_5"
 description: "shpc-registry automated BioContainers addition for telescope"
-config: {"url": "https://biocontainers.pro/tools/telescope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telescope", "latest": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65"}, "tags": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65"}, "docker": "quay.io/biocontainers/telescope", "aliases": {"telescope": "/usr/local/bin/telescope"}}
+config: {"url": "https://biocontainers.pro/tools/telescope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for telescope", "latest": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65"}, "tags": {"1.0.3--py37hc399e3d_5": "sha256:b2010ebdf2f5b2382317781653f583c3dc9ff8e487f1416c1d92cd1f1235ef65"}, "docker": "quay.io/biocontainers/telescope", "aliases": {"telescope": "/usr/local/bin/telescope", "2to3-3.7": "/usr/local/bin/2to3-3.7", "f2py3.7": "/usr/local/bin/f2py3.7", "futurize": "/usr/local/bin/futurize", "idle3.7": "/usr/local/bin/idle3.7", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/telescope.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/telescope
 $ podman run --it --rm --entrypoint /usr/local/bin/telescope   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/telescope   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

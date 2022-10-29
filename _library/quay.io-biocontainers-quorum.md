@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quorum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quorum/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/quorum/container.yaml"
-updated_at: "2022-10-27 00:38:56.750426"
+updated_at: "2022-10-29 05:57:23.101548"
 latest: "1.1.1--h7d875b9_4"
 container_url: "https://biocontainers.pro/tools/quorum"
 aliases:
@@ -13,10 +13,12 @@ aliases:
  - "quorum_create_database"
  - "quorum_error_correct_reads"
  - "split_mate_pairs"
+ - "jellyfish"
+ - "perl5.32.0"
 versions:
  - "1.1.1--h7d875b9_4"
 description: "shpc-registry automated BioContainers addition for quorum"
-config: {"url": "https://biocontainers.pro/tools/quorum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quorum", "latest": {"1.1.1--h7d875b9_4": "sha256:e1aad85d94073c2fb1dbf04b3def06a66ab075b14796500a95349f163be03d10"}, "tags": {"1.1.1--h7d875b9_4": "sha256:e1aad85d94073c2fb1dbf04b3def06a66ab075b14796500a95349f163be03d10"}, "docker": "quay.io/biocontainers/quorum", "aliases": {"merge_mate_pairs": "/usr/local/bin/merge_mate_pairs", "quorum": "/usr/local/bin/quorum", "quorum_create_database": "/usr/local/bin/quorum_create_database", "quorum_error_correct_reads": "/usr/local/bin/quorum_error_correct_reads", "split_mate_pairs": "/usr/local/bin/split_mate_pairs"}}
+config: {"url": "https://biocontainers.pro/tools/quorum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for quorum", "latest": {"1.1.1--h7d875b9_4": "sha256:e1aad85d94073c2fb1dbf04b3def06a66ab075b14796500a95349f163be03d10"}, "tags": {"1.1.1--h7d875b9_4": "sha256:e1aad85d94073c2fb1dbf04b3def06a66ab075b14796500a95349f163be03d10"}, "docker": "quay.io/biocontainers/quorum", "aliases": {"merge_mate_pairs": "/usr/local/bin/merge_mate_pairs", "quorum": "/usr/local/bin/quorum", "quorum_create_database": "/usr/local/bin/quorum_create_database", "quorum_error_correct_reads": "/usr/local/bin/quorum_error_correct_reads", "split_mate_pairs": "/usr/local/bin/split_mate_pairs", "jellyfish": "/usr/local/bin/jellyfish", "perl5.32.0": "/usr/local/bin/perl5.32.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/quorum.
@@ -144,6 +146,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/quorum_error_correct_reads   
 $ singularity exec <container> /usr/local/bin/split_mate_pairs
 $ podman run --it --rm --entrypoint /usr/local/bin/split_mate_pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/split_mate_pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

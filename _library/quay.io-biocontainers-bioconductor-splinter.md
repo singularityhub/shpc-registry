@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-splinter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-splinter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-splinter/container.yaml"
-updated_at: "2022-10-27 00:38:50.809646"
+updated_at: "2022-10-29 05:57:14.956092"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-splinter"
 aliases:
- - ".bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh"
- - ".bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh"
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-splinter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-splinter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splinter", "latest": {"1.8.0--r351_0": "sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a"}, "tags": {"1.8.0--r351_0": "sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a"}, "docker": "quay.io/biocontainers/bioconductor-splinter", "aliases": {".bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh": "/usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh", ".bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh": "/usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-splinter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-splinter", "latest": {"1.8.0--r351_0": "sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a"}, "tags": {"1.8.0--r351_0": "sha256:f431a2faedad5d022be40af055c53ea69cddfabf2009738939e0924ebb7e7d1a"}, "docker": "quay.io/biocontainers/bioconductor-splinter", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-splinter.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh
+#### wget
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

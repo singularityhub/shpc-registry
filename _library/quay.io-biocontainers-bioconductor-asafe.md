@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-asafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asafe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asafe/container.yaml"
-updated_at: "2022-10-27 00:35:53.016630"
+updated_at: "2022-10-29 05:53:21.454346"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asafe"
-
+aliases:
+ - "c89"
+ - "c99"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-asafe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-asafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asafe", "latest": {"1.8.0--r351_0": "sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0"}, "tags": {"1.8.0--r351_0": "sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0"}, "docker": "quay.io/biocontainers/bioconductor-asafe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-asafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asafe", "latest": {"1.8.0--r351_0": "sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0"}, "tags": {"1.8.0--r351_0": "sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0"}, "docker": "quay.io/biocontainers/bioconductor-asafe", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-asafe.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-asafe
+#### c89
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

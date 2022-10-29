@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/hesslab-gambit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hesslab-gambit/container.yaml"
-updated_at: "2022-10-27 00:37:38.910885"
+updated_at: "2022-10-29 05:55:41.248250"
 latest: "0.5.1--py39hbf8eff0_0"
 container_url: "https://biocontainers.pro/tools/hesslab-gambit"
 aliases:
  - "alembic"
  - "gambit"
+ - "f2py3.9"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
+ - "h5diff"
+ - "h5dump"
 versions:
  - "0.5.1--py39hbf8eff0_0"
 description: "shpc-registry automated BioContainers addition for hesslab-gambit"
-config: {"url": "https://biocontainers.pro/tools/hesslab-gambit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hesslab-gambit", "latest": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "tags": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "docker": "quay.io/biocontainers/hesslab-gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit"}}
+config: {"url": "https://biocontainers.pro/tools/hesslab-gambit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hesslab-gambit", "latest": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "tags": {"0.5.1--py39hbf8eff0_0": "sha256:83e74d99ff38403d2c8e30f092866c748a9f753c5764a29b153e44017c609e02"}, "docker": "quay.io/biocontainers/hesslab-gambit", "aliases": {"alembic": "/usr/local/bin/alembic", "gambit": "/usr/local/bin/gambit", "f2py3.9": "/usr/local/bin/f2py3.9", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff", "h5dump": "/usr/local/bin/h5dump"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hesslab-gambit.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/alembic   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/gambit
 $ podman run --it --rm --entrypoint /usr/local/bin/gambit   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gambit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5diff
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5diff
+$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5dump
+$ podman run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5dump   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

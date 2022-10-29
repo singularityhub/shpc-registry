@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/instrain"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/instrain/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/instrain/container.yaml"
-updated_at: "2022-10-27 00:37:19.335483"
+updated_at: "2022-10-29 05:55:16.330948"
 latest: "1.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/instrain"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "dRep"
  - "inStrain"
  - "parse_stb.py"
+ - "2to3-3.8"
+ - "ace2sam"
+ - "annotate"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "brotli"
+ - "capnp"
+ - "capnpc"
+ - "capnpc-c++"
 versions:
  - "1.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for instrain"
-config: {"url": "https://biocontainers.pro/tools/instrain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for instrain", "latest": {"1.6.3--pyhdfd78af_0": "sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a"}, "docker": "quay.io/biocontainers/instrain", "aliases": {"ScaffoldLevel_dRep.py": "/usr/local/bin/ScaffoldLevel_dRep.py", "dRep": "/usr/local/bin/dRep", "inStrain": "/usr/local/bin/inStrain", "parse_stb.py": "/usr/local/bin/parse_stb.py"}}
+config: {"url": "https://biocontainers.pro/tools/instrain", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for instrain", "latest": {"1.6.3--pyhdfd78af_0": "sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a"}, "tags": {"1.6.3--pyhdfd78af_0": "sha256:d5eee857a567b91b778ca593c69ae410fcd804b668dbeaa703f4b0f99232e88a"}, "docker": "quay.io/biocontainers/instrain", "aliases": {"ScaffoldLevel_dRep.py": "/usr/local/bin/ScaffoldLevel_dRep.py", "dRep": "/usr/local/bin/dRep", "inStrain": "/usr/local/bin/inStrain", "parse_stb.py": "/usr/local/bin/parse_stb.py", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ace2sam": "/usr/local/bin/ace2sam", "annotate": "/usr/local/bin/annotate", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "brotli": "/usr/local/bin/brotli", "capnp": "/usr/local/bin/capnp", "capnpc": "/usr/local/bin/capnpc", "capnpc-c++": "/usr/local/bin/capnpc-c++"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/instrain.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/inStrain   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/parse_stb.py
 $ podman run --it --rm --entrypoint /usr/local/bin/parse_stb.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/parse_stb.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnp
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnp
+$ podman run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### capnpc-c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/capnpc-c++
+$ podman run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/capnpc-c++   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

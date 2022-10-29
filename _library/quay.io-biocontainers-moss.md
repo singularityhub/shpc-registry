@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/moss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/moss/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/moss/container.yaml"
-updated_at: "2022-10-27 00:18:57.964932"
+updated_at: "2022-10-29 05:30:55.708783"
 latest: "0.1.1--h28e74a2_4"
 container_url: "https://biocontainers.pro/tools/moss"
 aliases:
  - "moss"
+ - "bgzip"
+ - "htsfile"
+ - "tabix"
 versions:
  - "0.1.1--h28e74a2_4"
 description: "shpc-registry automated BioContainers addition for moss"
-config: {"url": "https://biocontainers.pro/tools/moss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moss", "latest": {"0.1.1--h28e74a2_4": "sha256:0c1adee4440fffa9c20c9683e94cbdfd3220b8b05111c832ec946557197ed255"}, "tags": {"0.1.1--h28e74a2_4": "sha256:0c1adee4440fffa9c20c9683e94cbdfd3220b8b05111c832ec946557197ed255"}, "docker": "quay.io/biocontainers/moss", "aliases": {"moss": "/usr/local/bin/moss"}}
+config: {"url": "https://biocontainers.pro/tools/moss", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for moss", "latest": {"0.1.1--h28e74a2_4": "sha256:0c1adee4440fffa9c20c9683e94cbdfd3220b8b05111c832ec946557197ed255"}, "tags": {"0.1.1--h28e74a2_4": "sha256:0c1adee4440fffa9c20c9683e94cbdfd3220b8b05111c832ec946557197ed255"}, "docker": "quay.io/biocontainers/moss", "aliases": {"moss": "/usr/local/bin/moss", "bgzip": "/usr/local/bin/bgzip", "htsfile": "/usr/local/bin/htsfile", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/moss.
@@ -104,6 +107,33 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/moss
 $ podman run --it --rm --entrypoint /usr/local/bin/moss   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/moss   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

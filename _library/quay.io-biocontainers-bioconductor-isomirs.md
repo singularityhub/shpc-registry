@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-isomirs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isomirs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isomirs/container.yaml"
-updated_at: "2022-10-27 00:22:07.926303"
+updated_at: "2022-10-29 05:35:04.358919"
 latest: "1.8.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isomirs"
 aliases:
- - ".bioconductor-targetscan.hs.eg.db-post-link.sh"
- - ".bioconductor-targetscan.hs.eg.db-pre-unlink.sh"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "wget"
 versions:
  - "1.8.0--r341_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-isomirs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-isomirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isomirs", "latest": {"1.8.0--r341_0": "sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487"}, "tags": {"1.8.0--r341_0": "sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487"}, "docker": "quay.io/biocontainers/bioconductor-isomirs", "aliases": {".bioconductor-targetscan.hs.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-targetscan.hs.eg.db-post-link.sh", ".bioconductor-targetscan.hs.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-targetscan.hs.eg.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-isomirs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isomirs", "latest": {"1.8.0--r341_0": "sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487"}, "tags": {"1.8.0--r341_0": "sha256:fb4cddf8f3350e118dd1005c53d22ddd0d1cdfeddd9676b3307a9246ead47487"}, "docker": "quay.io/biocontainers/bioconductor-isomirs", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-isomirs.
@@ -99,21 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-targetscan.hs.eg.db-post-link.sh
+#### ncurses5-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-targetscan.hs.eg.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-targetscan.hs.eg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-targetscan.hs.eg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-targetscan.hs.eg.db-pre-unlink.sh
+#### ncursesw5-config
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-targetscan.hs.eg.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-targetscan.hs.eg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-targetscan.hs.eg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

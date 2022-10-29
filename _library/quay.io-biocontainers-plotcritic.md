@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/plotcritic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plotcritic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/plotcritic/container.yaml"
-updated_at: "2022-10-27 00:34:08.543729"
+updated_at: "2022-10-29 05:51:00.183388"
 latest: "1.0.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/plotcritic"
 aliases:
  - "plotcritic"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "1.0.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for plotcritic"
-config: {"url": "https://biocontainers.pro/tools/plotcritic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plotcritic", "latest": {"1.0.1--pyh5e36f6f_0": "sha256:42ddbb6a4b4232d2b6ede789353c3c604e3a0ed08ed6153f0361eac9ab402316"}, "tags": {"1.0.1--pyh5e36f6f_0": "sha256:42ddbb6a4b4232d2b6ede789353c3c604e3a0ed08ed6153f0361eac9ab402316"}, "docker": "quay.io/biocontainers/plotcritic", "aliases": {"plotcritic": "/usr/local/bin/plotcritic"}}
+config: {"url": "https://biocontainers.pro/tools/plotcritic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for plotcritic", "latest": {"1.0.1--pyh5e36f6f_0": "sha256:42ddbb6a4b4232d2b6ede789353c3c604e3a0ed08ed6153f0361eac9ab402316"}, "tags": {"1.0.1--pyh5e36f6f_0": "sha256:42ddbb6a4b4232d2b6ede789353c3c604e3a0ed08ed6153f0361eac9ab402316"}, "docker": "quay.io/biocontainers/plotcritic", "aliases": {"plotcritic": "/usr/local/bin/plotcritic", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/plotcritic.
@@ -104,6 +109,51 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/plotcritic
 $ podman run --it --rm --entrypoint /usr/local/bin/plotcritic   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/plotcritic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

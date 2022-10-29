@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/msi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/msi/container.yaml"
-updated_at: "2022-10-27 00:24:48.781102"
+updated_at: "2022-10-29 05:38:37.722284"
 latest: "0.3.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/msi"
 aliases:
@@ -46,10 +46,20 @@ aliases:
  - "msi_time_it"
  - "taxonkit"
  - "taxonkit_children.sh"
+ - "2to3-3.8"
+ - "FET.pl"
+ - "_aaindexextract"
+ - "_abiview"
+ - "_acdc"
+ - "_acdpretty"
+ - "_acdtable"
+ - "_acdtrace"
+ - "_acdvalid"
+ - "_antigenic"
 versions:
  - "0.3.6--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for msi"
-config: {"url": "https://biocontainers.pro/tools/msi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msi", "latest": {"0.3.6--hdfd78af_0": "sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9"}, "tags": {"0.3.6--hdfd78af_0": "sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9"}, "docker": "quay.io/biocontainers/msi", "aliases": {"bam2fastq": "/usr/local/bin/bam2fastq", "bam_add_tags": "/usr/local/bin/bam_add_tags", "bam_annotate.sh": "/usr/local/bin/bam_annotate.sh", "bam_umi_count": "/usr/local/bin/bam_umi_count", "fastq2bam": "/usr/local/bin/fastq2bam", "fastq_filter_n": "/usr/local/bin/fastq_filter_n", "fastq_filterpair": "/usr/local/bin/fastq_filterpair", "fastq_info": "/usr/local/bin/fastq_info", "fastq_not_empty": "/usr/local/bin/fastq_not_empty", "fastq_num_reads": "/usr/local/bin/fastq_num_reads", "fastq_pre_barcodes": "/usr/local/bin/fastq_pre_barcodes", "fastq_split_interleaved": "/usr/local/bin/fastq_split_interleaved", "fastq_tests": "/usr/local/bin/fastq_tests", "fastq_trim_poly_at": "/usr/local/bin/fastq_trim_poly_at", "fastq_truncate": "/usr/local/bin/fastq_truncate", "fastq_validator.sh": "/usr/local/bin/fastq_validator.sh", "isONclust": "/usr/local/bin/isONclust", "metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "msi": "/usr/local/bin/msi", "msi_cluster2reads": "/usr/local/bin/msi_cluster2reads", "msi_clustr2map.pl": "/usr/local/bin/msi_clustr2map.pl", "msi_clustr_add_size.pl": "/usr/local/bin/msi_clustr_add_size.pl", "msi_display_report": "/usr/local/bin/msi_display_report", "msi_docker": "/usr/local/bin/msi_docker", "msi_fastq_stats.sh": "/usr/local/bin/msi_fastq_stats.sh", "msi_incremental.sh": "/usr/local/bin/msi_incremental.sh", "msi_install.sh": "/usr/local/bin/msi_install.sh", "msi_rename_columns.sh": "/usr/local/bin/msi_rename_columns.sh", "msi_res2taxatable": "/usr/local/bin/msi_res2taxatable", "msi_shared.sh": "/usr/local/bin/msi_shared.sh", "msi_tidyup_results": "/usr/local/bin/msi_tidyup_results", "msi_tidyup_table": "/usr/local/bin/msi_tidyup_table", "msi_time_it": "/usr/local/bin/msi_time_it", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh"}}
+config: {"url": "https://biocontainers.pro/tools/msi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for msi", "latest": {"0.3.6--hdfd78af_0": "sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9"}, "tags": {"0.3.6--hdfd78af_0": "sha256:32c0c3838658ff1d9b8bea5188a28a2803cf8cd85469dad7c5e9814c8b8795b9"}, "docker": "quay.io/biocontainers/msi", "aliases": {"bam2fastq": "/usr/local/bin/bam2fastq", "bam_add_tags": "/usr/local/bin/bam_add_tags", "bam_annotate.sh": "/usr/local/bin/bam_annotate.sh", "bam_umi_count": "/usr/local/bin/bam_umi_count", "fastq2bam": "/usr/local/bin/fastq2bam", "fastq_filter_n": "/usr/local/bin/fastq_filter_n", "fastq_filterpair": "/usr/local/bin/fastq_filterpair", "fastq_info": "/usr/local/bin/fastq_info", "fastq_not_empty": "/usr/local/bin/fastq_not_empty", "fastq_num_reads": "/usr/local/bin/fastq_num_reads", "fastq_pre_barcodes": "/usr/local/bin/fastq_pre_barcodes", "fastq_split_interleaved": "/usr/local/bin/fastq_split_interleaved", "fastq_tests": "/usr/local/bin/fastq_tests", "fastq_trim_poly_at": "/usr/local/bin/fastq_trim_poly_at", "fastq_truncate": "/usr/local/bin/fastq_truncate", "fastq_validator.sh": "/usr/local/bin/fastq_validator.sh", "isONclust": "/usr/local/bin/isONclust", "metabin": "/usr/local/bin/metabin", "metabinkit_blast": "/usr/local/bin/metabinkit_blast", "metabinkit_blastgendb": "/usr/local/bin/metabinkit_blastgendb", "metabinkit_shared.sh": "/usr/local/bin/metabinkit_shared.sh", "msi": "/usr/local/bin/msi", "msi_cluster2reads": "/usr/local/bin/msi_cluster2reads", "msi_clustr2map.pl": "/usr/local/bin/msi_clustr2map.pl", "msi_clustr_add_size.pl": "/usr/local/bin/msi_clustr_add_size.pl", "msi_display_report": "/usr/local/bin/msi_display_report", "msi_docker": "/usr/local/bin/msi_docker", "msi_fastq_stats.sh": "/usr/local/bin/msi_fastq_stats.sh", "msi_incremental.sh": "/usr/local/bin/msi_incremental.sh", "msi_install.sh": "/usr/local/bin/msi_install.sh", "msi_rename_columns.sh": "/usr/local/bin/msi_rename_columns.sh", "msi_res2taxatable": "/usr/local/bin/msi_res2taxatable", "msi_shared.sh": "/usr/local/bin/msi_shared.sh", "msi_tidyup_results": "/usr/local/bin/msi_tidyup_results", "msi_tidyup_table": "/usr/local/bin/msi_tidyup_table", "msi_time_it": "/usr/local/bin/msi_time_it", "taxonkit": "/usr/local/bin/taxonkit", "taxonkit_children.sh": "/usr/local/bin/taxonkit_children.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "FET.pl": "/usr/local/bin/FET.pl", "_aaindexextract": "/usr/local/bin/_aaindexextract", "_abiview": "/usr/local/bin/_abiview", "_acdc": "/usr/local/bin/_acdc", "_acdpretty": "/usr/local/bin/_acdpretty", "_acdtable": "/usr/local/bin/_acdtable", "_acdtrace": "/usr/local/bin/_acdtrace", "_acdvalid": "/usr/local/bin/_acdvalid", "_antigenic": "/usr/local/bin/_antigenic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/msi.
@@ -474,6 +484,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/taxonkit   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/taxonkit_children.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/taxonkit_children.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/taxonkit_children.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### FET.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/FET.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/FET.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _aaindexextract
+
+```bash
+$ singularity exec <container> /usr/local/bin/_aaindexextract
+$ podman run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _abiview
+
+```bash
+$ singularity exec <container> /usr/local/bin/_abiview
+$ podman run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdc
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdc
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdpretty
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdpretty
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtable
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtable
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtrace
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtrace
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdvalid
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdvalid
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _antigenic
+
+```bash
+$ singularity exec <container> /usr/local/bin/_antigenic
+$ podman run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/bioconductor-rbm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbm/container.yaml"
-updated_at: "2022-10-27 00:39:56.482650"
+updated_at: "2022-10-29 05:58:39.939470"
 latest: "1.8.0--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbm"
-
+aliases:
+ - "bmp2tiff"
+ - "gif2tiff"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "ras2tiff"
+ - "rgb2ycbcr"
+ - "tclsh8.5"
+ - "thumbnail"
+ - "wish8.5"
 versions:
  - "1.8.0--r3.3.2_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rbm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbm", "latest": {"1.8.0--r3.3.2_0": "sha256:85f916dc8953146c1fa39f98b4d409d672b0fc87f2d43245947c5e5682dfcc71"}, "tags": {"1.8.0--r3.3.2_0": "sha256:85f916dc8953146c1fa39f98b4d409d672b0fc87f2d43245947c5e5682dfcc71"}, "docker": "quay.io/biocontainers/bioconductor-rbm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbm", "latest": {"1.8.0--r3.3.2_0": "sha256:85f916dc8953146c1fa39f98b4d409d672b0fc87f2d43245947c5e5682dfcc71"}, "tags": {"1.8.0--r3.3.2_0": "sha256:85f916dc8953146c1fa39f98b4d409d672b0fc87f2d43245947c5e5682dfcc71"}, "docker": "quay.io/biocontainers/bioconductor-rbm", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "tclsh8.5": "/usr/local/bin/tclsh8.5", "thumbnail": "/usr/local/bin/thumbnail", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbm.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-rbm
+#### bmp2tiff
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ras2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/ras2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rgb2ycbcr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rgb2ycbcr
+$ podman run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thumbnail
+
+```bash
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

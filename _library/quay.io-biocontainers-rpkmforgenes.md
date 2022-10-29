@@ -4,15 +4,24 @@ name:  "quay.io/biocontainers/rpkmforgenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rpkmforgenes/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rpkmforgenes/container.yaml"
-updated_at: "2022-10-27 00:29:06.683039"
+updated_at: "2022-10-29 05:44:19.535509"
 latest: "1.0.1--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/rpkmforgenes"
 aliases:
  - "rpkmforgenes.py"
+ - "f2py2"
+ - "f2py2.7"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "1.0.1--hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for rpkmforgenes"
-config: {"url": "https://biocontainers.pro/tools/rpkmforgenes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpkmforgenes", "latest": {"1.0.1--hdfd78af_3": "sha256:8c6476d0d8ce2e994f31e627fbc68fc99435d33f4cef1a1be471c399046e465e"}, "tags": {"1.0.1--hdfd78af_3": "sha256:8c6476d0d8ce2e994f31e627fbc68fc99435d33f4cef1a1be471c399046e465e"}, "docker": "quay.io/biocontainers/rpkmforgenes", "aliases": {"rpkmforgenes.py": "/usr/local/bin/rpkmforgenes.py"}}
+config: {"url": "https://biocontainers.pro/tools/rpkmforgenes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rpkmforgenes", "latest": {"1.0.1--hdfd78af_3": "sha256:8c6476d0d8ce2e994f31e627fbc68fc99435d33f4cef1a1be471c399046e465e"}, "tags": {"1.0.1--hdfd78af_3": "sha256:8c6476d0d8ce2e994f31e627fbc68fc99435d33f4cef1a1be471c399046e465e"}, "docker": "quay.io/biocontainers/rpkmforgenes", "aliases": {"rpkmforgenes.py": "/usr/local/bin/rpkmforgenes.py", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rpkmforgenes.
@@ -104,6 +113,87 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/rpkmforgenes.py
 $ podman run --it --rm --entrypoint /usr/local/bin/rpkmforgenes.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rpkmforgenes.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

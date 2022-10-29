@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/jcvi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jcvi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jcvi/container.yaml"
-updated_at: "2022-10-27 00:34:56.614624"
+updated_at: "2022-10-29 05:52:07.165639"
 latest: "1.1.5--py36h29c9776_0"
 container_url: "https://biocontainers.pro/tools/jcvi"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "cpuinfo"
  - "py.test-benchmark"
  - "pytest-benchmark"
+ - "2to3-3.6"
+ - "activate-global-python-argcomplete"
+ - "acyclic"
+ - "assistant"
+ - "bcomps"
+ - "canbusutil"
+ - "ccomps"
+ - "certutil"
+ - "chardetect"
+ - "circo"
 versions:
  - "1.1.5--py36h29c9776_0"
 description: "shpc-registry automated BioContainers addition for jcvi"
-config: {"url": "https://biocontainers.pro/tools/jcvi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jcvi", "latest": {"1.1.5--py36h29c9776_0": "sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db"}, "tags": {"1.1.5--py36h29c9776_0": "sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db"}, "docker": "quay.io/biocontainers/jcvi", "aliases": {"coveralls": "/usr/local/bin/coveralls", "cpuinfo": "/usr/local/bin/cpuinfo", "py.test-benchmark": "/usr/local/bin/py.test-benchmark", "pytest-benchmark": "/usr/local/bin/pytest-benchmark"}}
+config: {"url": "https://biocontainers.pro/tools/jcvi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jcvi", "latest": {"1.1.5--py36h29c9776_0": "sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db"}, "tags": {"1.1.5--py36h29c9776_0": "sha256:f425a65bada8e48b55f298d13782051d9e944439ff9091ce56a33ee9e9f261db"}, "docker": "quay.io/biocontainers/jcvi", "aliases": {"coveralls": "/usr/local/bin/coveralls", "cpuinfo": "/usr/local/bin/cpuinfo", "py.test-benchmark": "/usr/local/bin/py.test-benchmark", "pytest-benchmark": "/usr/local/bin/pytest-benchmark", "2to3-3.6": "/usr/local/bin/2to3-3.6", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "acyclic": "/usr/local/bin/acyclic", "assistant": "/usr/local/bin/assistant", "bcomps": "/usr/local/bin/bcomps", "canbusutil": "/usr/local/bin/canbusutil", "ccomps": "/usr/local/bin/ccomps", "certutil": "/usr/local/bin/certutil", "chardetect": "/usr/local/bin/chardetect", "circo": "/usr/local/bin/circo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jcvi.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/py.test-benchmark   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/pytest-benchmark
 $ podman run --it --rm --entrypoint /usr/local/bin/pytest-benchmark   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pytest-benchmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### activate-global-python-argcomplete
+
+```bash
+$ singularity exec <container> /usr/local/bin/activate-global-python-argcomplete
+$ podman run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/activate-global-python-argcomplete   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### circo
+
+```bash
+$ singularity exec <container> /usr/local/bin/circo
+$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

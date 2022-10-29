@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/borf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/borf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/borf/container.yaml"
-updated_at: "2022-10-27 00:31:31.485782"
+updated_at: "2022-10-29 05:47:31.863923"
 latest: "1.2--py_0"
 container_url: "https://biocontainers.pro/tools/borf"
 aliases:
  - "borf"
+ - "2to3-3.7"
+ - "assistant"
+ - "canbusutil"
+ - "certutil"
+ - "chardetect"
+ - "compile-et.pl"
+ - "cygdb"
+ - "cython"
+ - "cythonize"
+ - "dbus-cleanup-sockets"
 versions:
  - "1.2--py_0"
 description: "shpc-registry automated BioContainers addition for borf"
-config: {"url": "https://biocontainers.pro/tools/borf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for borf", "latest": {"1.2--py_0": "sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593"}, "tags": {"1.2--py_0": "sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593"}, "docker": "quay.io/biocontainers/borf", "aliases": {"borf": "/usr/local/bin/borf"}}
+config: {"url": "https://biocontainers.pro/tools/borf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for borf", "latest": {"1.2--py_0": "sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593"}, "tags": {"1.2--py_0": "sha256:a5f946e2897c7d3e813673b93cb0c15811b2e5d8472af24c4a1798b8930ed593"}, "docker": "quay.io/biocontainers/borf", "aliases": {"borf": "/usr/local/bin/borf", "2to3-3.7": "/usr/local/bin/2to3-3.7", "assistant": "/usr/local/bin/assistant", "canbusutil": "/usr/local/bin/canbusutil", "certutil": "/usr/local/bin/certutil", "chardetect": "/usr/local/bin/chardetect", "compile-et.pl": "/usr/local/bin/compile-et.pl", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/borf.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/borf
 $ podman run --it --rm --entrypoint /usr/local/bin/borf   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/borf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compile-et.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/compile-et.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/compile-et.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compile-et.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cygdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cython
+
+```bash
+$ singularity exec <container> /usr/local/bin/cython
+$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cythonize
+
+```bash
+$ singularity exec <container> /usr/local/bin/cythonize
+$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

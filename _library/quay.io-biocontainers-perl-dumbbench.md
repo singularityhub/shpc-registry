@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-dumbbench"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dumbbench/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dumbbench/container.yaml"
-updated_at: "2022-10-27 00:32:17.568393"
+updated_at: "2022-10-29 05:48:33.895268"
 latest: "0.111--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-dumbbench"
 aliases:
  - "dumbbench"
  - "use-devel-assertos"
+ - "findrule"
 versions:
  - "0.111--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-dumbbench"
-config: {"url": "https://biocontainers.pro/tools/perl-dumbbench", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dumbbench", "latest": {"0.111--pl5321hdfd78af_1": "sha256:3b02f7474f6b72758df31860281c17dd5c6a1400e2d4d575dcba89619a565316"}, "tags": {"0.111--pl5321hdfd78af_1": "sha256:3b02f7474f6b72758df31860281c17dd5c6a1400e2d4d575dcba89619a565316"}, "docker": "quay.io/biocontainers/perl-dumbbench", "aliases": {"dumbbench": "/usr/local/bin/dumbbench", "use-devel-assertos": "/usr/local/bin/use-devel-assertos"}}
+config: {"url": "https://biocontainers.pro/tools/perl-dumbbench", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dumbbench", "latest": {"0.111--pl5321hdfd78af_1": "sha256:3b02f7474f6b72758df31860281c17dd5c6a1400e2d4d575dcba89619a565316"}, "tags": {"0.111--pl5321hdfd78af_1": "sha256:3b02f7474f6b72758df31860281c17dd5c6a1400e2d4d575dcba89619a565316"}, "docker": "quay.io/biocontainers/perl-dumbbench", "aliases": {"dumbbench": "/usr/local/bin/dumbbench", "use-devel-assertos": "/usr/local/bin/use-devel-assertos", "findrule": "/usr/local/bin/findrule"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-dumbbench.
@@ -114,6 +115,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dumbbench   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/use-devel-assertos
 $ podman run --it --rm --entrypoint /usr/local/bin/use-devel-assertos   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/use-devel-assertos   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### findrule
+
+```bash
+$ singularity exec <container> /usr/local/bin/findrule
+$ podman run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

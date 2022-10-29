@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circexplorer2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circexplorer2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/circexplorer2/container.yaml"
-updated_at: "2022-10-27 00:29:59.861265"
+updated_at: "2022-10-29 05:45:29.389496"
 latest: "2.3.8--pyh5e36f6f_2"
 container_url: "https://biocontainers.pro/tools/circexplorer2"
 aliases:
@@ -40,10 +40,20 @@ aliases:
  - "tophat-fusion-post"
  - "tophat2"
  - "tophat_reports"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedGraphToBigWig"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
+ - "bowtie"
 versions:
  - "2.3.8--pyh5e36f6f_2"
 description: "shpc-registry automated BioContainers addition for circexplorer2"
-config: {"url": "https://biocontainers.pro/tools/circexplorer2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circexplorer2", "latest": {"2.3.8--pyh5e36f6f_2": "sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d"}, "tags": {"2.3.8--pyh5e36f6f_2": "sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d"}, "docker": "quay.io/biocontainers/circexplorer2", "aliases": {"CIRCexplorer2": "/usr/local/bin/CIRCexplorer2", "bam2fastx": "/usr/local/bin/bam2fastx", "bam_merge": "/usr/local/bin/bam_merge", "bed_to_juncs": "/usr/local/bin/bed_to_juncs", "contig_to_chr_coords": "/usr/local/bin/contig_to_chr_coords", "cuffcompare": "/usr/local/bin/cuffcompare", "cuffdiff": "/usr/local/bin/cuffdiff", "cufflinks": "/usr/local/bin/cufflinks", "cuffmerge": "/usr/local/bin/cuffmerge", "cuffnorm": "/usr/local/bin/cuffnorm", "cuffquant": "/usr/local/bin/cuffquant", "fast_circ.py": "/usr/local/bin/fast_circ.py", "fetch_ucsc.py": "/usr/local/bin/fetch_ucsc.py", "fix_map_ordering": "/usr/local/bin/fix_map_ordering", "genePredToGtf": "/usr/local/bin/genePredToGtf", "gffread": "/usr/local/bin/gffread", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "gtf_juncs": "/usr/local/bin/gtf_juncs", "gtf_to_fasta": "/usr/local/bin/gtf_to_fasta", "gtf_to_sam": "/usr/local/bin/gtf_to_sam", "juncs_db": "/usr/local/bin/juncs_db", "long_spanning_reads": "/usr/local/bin/long_spanning_reads", "map2gtf": "/usr/local/bin/map2gtf", "prep_reads": "/usr/local/bin/prep_reads", "sam_juncs": "/usr/local/bin/sam_juncs", "samtools_0.1.18": "/usr/local/bin/samtools_0.1.18", "segment_juncs": "/usr/local/bin/segment_juncs", "sra_to_solid": "/usr/local/bin/sra_to_solid", "tophat": "/usr/local/bin/tophat", "tophat-fusion-post": "/usr/local/bin/tophat-fusion-post", "tophat2": "/usr/local/bin/tophat2", "tophat_reports": "/usr/local/bin/tophat_reports"}}
+config: {"url": "https://biocontainers.pro/tools/circexplorer2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circexplorer2", "latest": {"2.3.8--pyh5e36f6f_2": "sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d"}, "tags": {"2.3.8--pyh5e36f6f_2": "sha256:813e2edc2f01a1afdae55985877d459fc2099123749434ce827727200b97ca0d"}, "docker": "quay.io/biocontainers/circexplorer2", "aliases": {"CIRCexplorer2": "/usr/local/bin/CIRCexplorer2", "bam2fastx": "/usr/local/bin/bam2fastx", "bam_merge": "/usr/local/bin/bam_merge", "bed_to_juncs": "/usr/local/bin/bed_to_juncs", "contig_to_chr_coords": "/usr/local/bin/contig_to_chr_coords", "cuffcompare": "/usr/local/bin/cuffcompare", "cuffdiff": "/usr/local/bin/cuffdiff", "cufflinks": "/usr/local/bin/cufflinks", "cuffmerge": "/usr/local/bin/cuffmerge", "cuffnorm": "/usr/local/bin/cuffnorm", "cuffquant": "/usr/local/bin/cuffquant", "fast_circ.py": "/usr/local/bin/fast_circ.py", "fetch_ucsc.py": "/usr/local/bin/fetch_ucsc.py", "fix_map_ordering": "/usr/local/bin/fix_map_ordering", "genePredToGtf": "/usr/local/bin/genePredToGtf", "gffread": "/usr/local/bin/gffread", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "gtf_juncs": "/usr/local/bin/gtf_juncs", "gtf_to_fasta": "/usr/local/bin/gtf_to_fasta", "gtf_to_sam": "/usr/local/bin/gtf_to_sam", "juncs_db": "/usr/local/bin/juncs_db", "long_spanning_reads": "/usr/local/bin/long_spanning_reads", "map2gtf": "/usr/local/bin/map2gtf", "prep_reads": "/usr/local/bin/prep_reads", "sam_juncs": "/usr/local/bin/sam_juncs", "samtools_0.1.18": "/usr/local/bin/samtools_0.1.18", "segment_juncs": "/usr/local/bin/segment_juncs", "sra_to_solid": "/usr/local/bin/sra_to_solid", "tophat": "/usr/local/bin/tophat", "tophat-fusion-post": "/usr/local/bin/tophat-fusion-post", "tophat2": "/usr/local/bin/tophat2", "tophat_reports": "/usr/local/bin/tophat_reports", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "bowtie": "/usr/local/bin/bowtie"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circexplorer2.
@@ -414,6 +424,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tophat2   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/tophat_reports
 $ podman run --it --rm --entrypoint /usr/local/bin/tophat_reports   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tophat_reports   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedGraphToBigWig
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedGraphToBigWig
+$ podman run --it --rm --entrypoint /usr/local/bin/bedGraphToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedGraphToBigWig   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

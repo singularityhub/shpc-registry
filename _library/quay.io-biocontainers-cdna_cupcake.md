@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cdna_cupcake"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cdna_cupcake/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cdna_cupcake/container.yaml"
-updated_at: "2022-10-27 00:27:53.516472"
+updated_at: "2022-10-29 05:42:44.910686"
 latest: "9.1.1--py37hc1659b7_0"
 container_url: "https://biocontainers.pro/tools/cdna_cupcake"
 aliases:
@@ -71,10 +71,20 @@ aliases:
  - "subsample_with_category.py"
  - "summarize_gmap_sam.py"
  - "summarize_sample_GFF_junctions.py"
+ - "2to3-3.7"
+ - "acyclic"
+ - "aggregate_scores_in_intervals.py"
+ - "align_print_template.py"
+ - "axt_extract_ranges.py"
+ - "axt_to_fasta.py"
+ - "axt_to_lav.py"
+ - "axt_to_maf.py"
+ - "bcomps"
+ - "bed_bigwig_profile.py"
 versions:
  - "9.1.1--py37hc1659b7_0"
 description: "shpc-registry automated BioContainers addition for cdna_cupcake"
-config: {"url": "https://biocontainers.pro/tools/cdna_cupcake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdna_cupcake", "latest": {"9.1.1--py37hc1659b7_0": "sha256:fdd0b6be0f57ae3538f39a9b24b949f4e1af4eb8afaa401f83fe80788b3f013a"}, "tags": {"9.1.1--py37hc1659b7_0": "sha256:fdd0b6be0f57ae3538f39a9b24b949f4e1af4eb8afaa401f83fe80788b3f013a"}, "docker": "quay.io/biocontainers/cdna_cupcake", "aliases": {"BED.py": "/usr/local/bin/BED.py", "BioReaders.py": "/usr/local/bin/BioReaders.py", "MPileUpVariantCaller.py": "/usr/local/bin/MPileUpVariantCaller.py", "MummerSNPReader.py": "/usr/local/bin/MummerSNPReader.py", "SAMMPileUpReader.py": "/usr/local/bin/SAMMPileUpReader.py", "STAR.py": "/usr/local/bin/STAR.py", "STARwrapper.py": "/usr/local/bin/STARwrapper.py", "SeqReaders.py": "/usr/local/bin/SeqReaders.py", "SeqSplitter.py": "/usr/local/bin/SeqSplitter.py", "UMI_BC_error_correct.py": "/usr/local/bin/UMI_BC_error_correct.py", "VariantPhaseCleaner.py": "/usr/local/bin/VariantPhaseCleaner.py", "VariantPhaser.py": "/usr/local/bin/VariantPhaser.py", "alignment_stats_from_sam.py": "/usr/local/bin/alignment_stats_from_sam.py", "calc_expected_accuracy_from_fastq.py": "/usr/local/bin/calc_expected_accuracy_from_fastq.py", "calc_probe_hit_from_sam.py": "/usr/local/bin/calc_probe_hit_from_sam.py", "chain_fusion_samples.py": "/usr/local/bin/chain_fusion_samples.py", "chain_samples.py": "/usr/local/bin/chain_samples.py", "clip_out_UMI_cellBC.py": "/usr/local/bin/clip_out_UMI_cellBC.py", "collapse_isoforms_by_sam.py": "/usr/local/bin/collapse_isoforms_by_sam.py", "collate_FLNC_gene_info.py": "/usr/local/bin/collate_FLNC_gene_info.py", "coordinate_mapper.py": "/usr/local/bin/coordinate_mapper.py", "create_fake_genome.py": "/usr/local/bin/create_fake_genome.py", "dedup_FLNC_per_cluster.py": "/usr/local/bin/dedup_FLNC_per_cluster.py", "demux_by_barcode_for_subsampling.py": "/usr/local/bin/demux_by_barcode_for_subsampling.py", "demux_by_barcode_groups.py": "/usr/local/bin/demux_by_barcode_groups.py", "demux_isoseq2_no_genome.py": "/usr/local/bin/demux_isoseq2_no_genome.py", "demux_isoseq_no_genome.py": "/usr/local/bin/demux_isoseq_no_genome.py", "demux_isoseq_with_genome.py": "/usr/local/bin/demux_isoseq_with_genome.py", "err_correct_w_genome.py": "/usr/local/bin/err_correct_w_genome.py", "fa2fq.py": "/usr/local/bin/fa2fq.py", "filter_away_subset.py": "/usr/local/bin/filter_away_subset.py", "filter_by_count.py": "/usr/local/bin/filter_by_count.py", "filter_lq_isoforms.py": "/usr/local/bin/filter_lq_isoforms.py", "fq2fa.py": "/usr/local/bin/fq2fa.py", "fusion_finder.py": "/usr/local/bin/fusion_finder.py", "get_abundance_post_collapse.py": "/usr/local/bin/get_abundance_post_collapse.py", "get_seq_stats.py": "/usr/local/bin/get_seq_stats.py", "get_seqs_from_list.py": "/usr/local/bin/get_seqs_from_list.py", "group_ORF_sequences.py": "/usr/local/bin/group_ORF_sequences.py", "ice_pbdagcon2.py": "/usr/local/bin/ice_pbdagcon2.py", "make_file_for_subsampling_from_collapsed.py": "/usr/local/bin/make_file_for_subsampling_from_collapsed.py", "match_w_annotation.py": "/usr/local/bin/match_w_annotation.py", "parse_matchAnnot.py": "/usr/local/bin/parse_matchAnnot.py", "picking_up_ice2.py": "/usr/local/bin/picking_up_ice2.py", "randomly_select_sequences.py": "/usr/local/bin/randomly_select_sequences.py", "revcomp.py": "/usr/local/bin/revcomp.py", "run_IceArrow2.py": "/usr/local/bin/run_IceArrow2.py", "run_IceInit2.py": "/usr/local/bin/run_IceInit2.py", "run_IceIterative2.py": "/usr/local/bin/run_IceIterative2.py", "run_IcePartial2.py": "/usr/local/bin/run_IcePartial2.py", "run_phaser.py": "/usr/local/bin/run_phaser.py", "run_preCluster.py": "/usr/local/bin/run_preCluster.py", "sam_to_bam.py": "/usr/local/bin/sam_to_bam.py", "sam_to_collapsed_gff.py": "/usr/local/bin/sam_to_collapsed_gff.py", "sam_to_gff3.py": "/usr/local/bin/sam_to_gff3.py", "scrub_sample_GFF_junctions.py": "/usr/local/bin/scrub_sample_GFF_junctions.py", "simulate.py": "/usr/local/bin/simulate.py", "simulate_phasing_data_from_fasta.py": "/usr/local/bin/simulate_phasing_data_from_fasta.py", "snps_to_vcf.py": "/usr/local/bin/snps_to_vcf.py", "subsample.py": "/usr/local/bin/subsample.py", "subsample_with_category.py": "/usr/local/bin/subsample_with_category.py", "summarize_gmap_sam.py": "/usr/local/bin/summarize_gmap_sam.py", "summarize_sample_GFF_junctions.py": "/usr/local/bin/summarize_sample_GFF_junctions.py"}}
+config: {"url": "https://biocontainers.pro/tools/cdna_cupcake", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cdna_cupcake", "latest": {"9.1.1--py37hc1659b7_0": "sha256:fdd0b6be0f57ae3538f39a9b24b949f4e1af4eb8afaa401f83fe80788b3f013a"}, "tags": {"9.1.1--py37hc1659b7_0": "sha256:fdd0b6be0f57ae3538f39a9b24b949f4e1af4eb8afaa401f83fe80788b3f013a"}, "docker": "quay.io/biocontainers/cdna_cupcake", "aliases": {"BED.py": "/usr/local/bin/BED.py", "BioReaders.py": "/usr/local/bin/BioReaders.py", "MPileUpVariantCaller.py": "/usr/local/bin/MPileUpVariantCaller.py", "MummerSNPReader.py": "/usr/local/bin/MummerSNPReader.py", "SAMMPileUpReader.py": "/usr/local/bin/SAMMPileUpReader.py", "STAR.py": "/usr/local/bin/STAR.py", "STARwrapper.py": "/usr/local/bin/STARwrapper.py", "SeqReaders.py": "/usr/local/bin/SeqReaders.py", "SeqSplitter.py": "/usr/local/bin/SeqSplitter.py", "UMI_BC_error_correct.py": "/usr/local/bin/UMI_BC_error_correct.py", "VariantPhaseCleaner.py": "/usr/local/bin/VariantPhaseCleaner.py", "VariantPhaser.py": "/usr/local/bin/VariantPhaser.py", "alignment_stats_from_sam.py": "/usr/local/bin/alignment_stats_from_sam.py", "calc_expected_accuracy_from_fastq.py": "/usr/local/bin/calc_expected_accuracy_from_fastq.py", "calc_probe_hit_from_sam.py": "/usr/local/bin/calc_probe_hit_from_sam.py", "chain_fusion_samples.py": "/usr/local/bin/chain_fusion_samples.py", "chain_samples.py": "/usr/local/bin/chain_samples.py", "clip_out_UMI_cellBC.py": "/usr/local/bin/clip_out_UMI_cellBC.py", "collapse_isoforms_by_sam.py": "/usr/local/bin/collapse_isoforms_by_sam.py", "collate_FLNC_gene_info.py": "/usr/local/bin/collate_FLNC_gene_info.py", "coordinate_mapper.py": "/usr/local/bin/coordinate_mapper.py", "create_fake_genome.py": "/usr/local/bin/create_fake_genome.py", "dedup_FLNC_per_cluster.py": "/usr/local/bin/dedup_FLNC_per_cluster.py", "demux_by_barcode_for_subsampling.py": "/usr/local/bin/demux_by_barcode_for_subsampling.py", "demux_by_barcode_groups.py": "/usr/local/bin/demux_by_barcode_groups.py", "demux_isoseq2_no_genome.py": "/usr/local/bin/demux_isoseq2_no_genome.py", "demux_isoseq_no_genome.py": "/usr/local/bin/demux_isoseq_no_genome.py", "demux_isoseq_with_genome.py": "/usr/local/bin/demux_isoseq_with_genome.py", "err_correct_w_genome.py": "/usr/local/bin/err_correct_w_genome.py", "fa2fq.py": "/usr/local/bin/fa2fq.py", "filter_away_subset.py": "/usr/local/bin/filter_away_subset.py", "filter_by_count.py": "/usr/local/bin/filter_by_count.py", "filter_lq_isoforms.py": "/usr/local/bin/filter_lq_isoforms.py", "fq2fa.py": "/usr/local/bin/fq2fa.py", "fusion_finder.py": "/usr/local/bin/fusion_finder.py", "get_abundance_post_collapse.py": "/usr/local/bin/get_abundance_post_collapse.py", "get_seq_stats.py": "/usr/local/bin/get_seq_stats.py", "get_seqs_from_list.py": "/usr/local/bin/get_seqs_from_list.py", "group_ORF_sequences.py": "/usr/local/bin/group_ORF_sequences.py", "ice_pbdagcon2.py": "/usr/local/bin/ice_pbdagcon2.py", "make_file_for_subsampling_from_collapsed.py": "/usr/local/bin/make_file_for_subsampling_from_collapsed.py", "match_w_annotation.py": "/usr/local/bin/match_w_annotation.py", "parse_matchAnnot.py": "/usr/local/bin/parse_matchAnnot.py", "picking_up_ice2.py": "/usr/local/bin/picking_up_ice2.py", "randomly_select_sequences.py": "/usr/local/bin/randomly_select_sequences.py", "revcomp.py": "/usr/local/bin/revcomp.py", "run_IceArrow2.py": "/usr/local/bin/run_IceArrow2.py", "run_IceInit2.py": "/usr/local/bin/run_IceInit2.py", "run_IceIterative2.py": "/usr/local/bin/run_IceIterative2.py", "run_IcePartial2.py": "/usr/local/bin/run_IcePartial2.py", "run_phaser.py": "/usr/local/bin/run_phaser.py", "run_preCluster.py": "/usr/local/bin/run_preCluster.py", "sam_to_bam.py": "/usr/local/bin/sam_to_bam.py", "sam_to_collapsed_gff.py": "/usr/local/bin/sam_to_collapsed_gff.py", "sam_to_gff3.py": "/usr/local/bin/sam_to_gff3.py", "scrub_sample_GFF_junctions.py": "/usr/local/bin/scrub_sample_GFF_junctions.py", "simulate.py": "/usr/local/bin/simulate.py", "simulate_phasing_data_from_fasta.py": "/usr/local/bin/simulate_phasing_data_from_fasta.py", "snps_to_vcf.py": "/usr/local/bin/snps_to_vcf.py", "subsample.py": "/usr/local/bin/subsample.py", "subsample_with_category.py": "/usr/local/bin/subsample_with_category.py", "summarize_gmap_sam.py": "/usr/local/bin/summarize_gmap_sam.py", "summarize_sample_GFF_junctions.py": "/usr/local/bin/summarize_sample_GFF_junctions.py", "2to3-3.7": "/usr/local/bin/2to3-3.7", "acyclic": "/usr/local/bin/acyclic", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bcomps": "/usr/local/bin/bcomps", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cdna_cupcake.
@@ -724,6 +734,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/summarize_gmap_sam.py   -v ${
 $ singularity exec <container> /usr/local/bin/summarize_sample_GFF_junctions.py
 $ podman run --it --rm --entrypoint /usr/local/bin/summarize_sample_GFF_junctions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/summarize_sample_GFF_junctions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_scores_in_intervals.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_scores_in_intervals.py
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align_print_template.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/align_print_template.py
+$ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_extract_ranges.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_extract_ranges.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_fasta.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_fasta.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_lav.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_lav.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_maf.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_maf.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_bigwig_profile.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_bigwig_profile.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

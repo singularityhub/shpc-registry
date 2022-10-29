@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-try-tiny-retry"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-try-tiny-retry/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-try-tiny-retry/container.yaml"
-updated_at: "2022-10-27 00:19:30.510458"
+updated_at: "2022-10-29 05:31:37.380605"
 latest: "0.004--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-try-tiny-retry"
-
+aliases:
+ - "perl5.32.1"
 versions:
  - "0.004--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-try-tiny-retry"
-config: {"url": "https://biocontainers.pro/tools/perl-try-tiny-retry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-try-tiny-retry", "latest": {"0.004--pl5321hdfd78af_1": "sha256:b682c1bcc2de77392348018959434c910124810ccf1de3b02f618feb810ba619"}, "tags": {"0.004--pl5321hdfd78af_1": "sha256:b682c1bcc2de77392348018959434c910124810ccf1de3b02f618feb810ba619"}, "docker": "quay.io/biocontainers/perl-try-tiny-retry"}
+config: {"url": "https://biocontainers.pro/tools/perl-try-tiny-retry", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-try-tiny-retry", "latest": {"0.004--pl5321hdfd78af_1": "sha256:b682c1bcc2de77392348018959434c910124810ccf1de3b02f618feb810ba619"}, "tags": {"0.004--pl5321hdfd78af_1": "sha256:b682c1bcc2de77392348018959434c910124810ccf1de3b02f618feb810ba619"}, "docker": "quay.io/biocontainers/perl-try-tiny-retry", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-try-tiny-retry.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-try-tiny-retry
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

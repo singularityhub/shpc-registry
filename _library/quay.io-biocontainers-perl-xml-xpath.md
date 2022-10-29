@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-xml-xpath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-xpath/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-xpath/container.yaml"
-updated_at: "2022-10-27 00:28:13.122091"
+updated_at: "2022-10-29 05:43:10.205722"
 latest: "1.47--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-xml-xpath"
-
+aliases:
+ - "perl5.32.1"
+ - "xpath"
 versions:
  - "1.47--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-xml-xpath"
-config: {"url": "https://biocontainers.pro/tools/perl-xml-xpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-xpath", "latest": {"1.47--pl5321hdfd78af_0": "sha256:d822a8863e927947b9afe8295e233634d96d1567bb5763564fd38c8c435acb92"}, "tags": {"1.47--pl5321hdfd78af_0": "sha256:d822a8863e927947b9afe8295e233634d96d1567bb5763564fd38c8c435acb92"}, "docker": "quay.io/biocontainers/perl-xml-xpath"}
+config: {"url": "https://biocontainers.pro/tools/perl-xml-xpath", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-xml-xpath", "latest": {"1.47--pl5321hdfd78af_0": "sha256:d822a8863e927947b9afe8295e233634d96d1567bb5763564fd38c8c435acb92"}, "tags": {"1.47--pl5321hdfd78af_0": "sha256:d822a8863e927947b9afe8295e233634d96d1567bb5763564fd38c8c435acb92"}, "docker": "quay.io/biocontainers/perl-xml-xpath", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "xpath": "/usr/local/bin/xpath"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-xml-xpath.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-xml-xpath
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### xpath
+
+```bash
+$ singularity exec <container> /usr/local/bin/xpath
+$ podman run --it --rm --entrypoint /usr/local/bin/xpath   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xpath   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

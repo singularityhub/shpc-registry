@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openms-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openms-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/openms-tools/container.yaml"
-updated_at: "2022-10-27 00:19:48.962161"
+updated_at: "2022-10-29 05:32:00.835722"
 latest: "2.4.0--hc9558a2_3"
 container_url: "https://biocontainers.pro/tools/openms-tools"
 aliases:
@@ -171,10 +171,20 @@ aliases:
  - "XFDR"
  - "XMLValidator"
  - "XTandemAdapter"
+ - "2to3-3.8"
+ - "CreateDOMDocument"
+ - "DOMCount"
+ - "DOMPrint"
+ - "EnumVal"
+ - "MemParse"
+ - "PParse"
+ - "PSVIWriter"
+ - "Redirect"
+ - "SAX2Count"
 versions:
  - "2.4.0--hc9558a2_3"
 description: "shpc-registry automated BioContainers addition for openms-tools"
-config: {"url": "https://biocontainers.pro/tools/openms-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openms-tools", "latest": {"2.4.0--hc9558a2_3": "sha256:6ee198784c494405ed4d3aba7b1a32719c8d304f835269905eba5d65001176d1"}, "tags": {"2.4.0--hc9558a2_3": "sha256:6ee198784c494405ed4d3aba7b1a32719c8d304f835269905eba5d65001176d1"}, "docker": "quay.io/biocontainers/openms-tools", "aliases": {"AccurateMassSearch": "/usr/local/bin/AccurateMassSearch", "AssayGeneratorMetabo": "/usr/local/bin/AssayGeneratorMetabo", "BaselineFilter": "/usr/local/bin/BaselineFilter", "CVInspector": "/usr/local/bin/CVInspector", "ClusterMassTraces": "/usr/local/bin/ClusterMassTraces", "ClusterMassTracesByPrecursor": "/usr/local/bin/ClusterMassTracesByPrecursor", "CometAdapter": "/usr/local/bin/CometAdapter", "CompNovo": "/usr/local/bin/CompNovo", "CompNovoCID": "/usr/local/bin/CompNovoCID", "ConsensusID": "/usr/local/bin/ConsensusID", "ConsensusMapNormalizer": "/usr/local/bin/ConsensusMapNormalizer", "CruxAdapter": "/usr/local/bin/CruxAdapter", "DTAExtractor": "/usr/local/bin/DTAExtractor", "DatabaseFilter": "/usr/local/bin/DatabaseFilter", "DeMeanderize": "/usr/local/bin/DeMeanderize", "Decharger": "/usr/local/bin/Decharger", "DecoyDatabase": "/usr/local/bin/DecoyDatabase", "Digestor": "/usr/local/bin/Digestor", "DigestorMotif": "/usr/local/bin/DigestorMotif", "EICExtractor": "/usr/local/bin/EICExtractor", "ERPairFinder": "/usr/local/bin/ERPairFinder", "ExternalCalibration": "/usr/local/bin/ExternalCalibration", "FFEval": "/usr/local/bin/FFEval", "FalseDiscoveryRate": "/usr/local/bin/FalseDiscoveryRate", "FeatureFinderCentroided": "/usr/local/bin/FeatureFinderCentroided", "FeatureFinderIdentification": "/usr/local/bin/FeatureFinderIdentification", "FeatureFinderIsotopeWavelet": "/usr/local/bin/FeatureFinderIsotopeWavelet", "FeatureFinderMRM": "/usr/local/bin/FeatureFinderMRM", "FeatureFinderMetabo": "/usr/local/bin/FeatureFinderMetabo", "FeatureFinderMultiplex": "/usr/local/bin/FeatureFinderMultiplex", "FeatureFinderSuperHirn": "/usr/local/bin/FeatureFinderSuperHirn", "FeatureLinkerLabeled": "/usr/local/bin/FeatureLinkerLabeled", "FeatureLinkerUnlabeled": "/usr/local/bin/FeatureLinkerUnlabeled", "FeatureLinkerUnlabeledKD": "/usr/local/bin/FeatureLinkerUnlabeledKD", "FeatureLinkerUnlabeledQT": "/usr/local/bin/FeatureLinkerUnlabeledQT", "FidoAdapter": "/usr/local/bin/FidoAdapter", "FileConverter": "/usr/local/bin/FileConverter", "FileFilter": "/usr/local/bin/FileFilter", "FileInfo": "/usr/local/bin/FileInfo", "FileMerger": "/usr/local/bin/FileMerger", "FuzzyDiff": "/usr/local/bin/FuzzyDiff", "GenericWrapper": "/usr/local/bin/GenericWrapper", "HighResPrecursorMassCorrector": "/usr/local/bin/HighResPrecursorMassCorrector", "IDConflictResolver": "/usr/local/bin/IDConflictResolver", "IDDecoyProbability": "/usr/local/bin/IDDecoyProbability", "IDExtractor": "/usr/local/bin/IDExtractor", "IDFileConverter": "/usr/local/bin/IDFileConverter", "IDFilter": "/usr/local/bin/IDFilter", "IDMapper": "/usr/local/bin/IDMapper", "IDMassAccuracy": "/usr/local/bin/IDMassAccuracy", "IDMerger": "/usr/local/bin/IDMerger", "IDPosteriorErrorProbability": "/usr/local/bin/IDPosteriorErrorProbability", "IDRTCalibration": "/usr/local/bin/IDRTCalibration", "IDRipper": "/usr/local/bin/IDRipper", "IDScoreSwitcher": "/usr/local/bin/IDScoreSwitcher", "IDSplitter": "/usr/local/bin/IDSplitter", "InclusionExclusionListCreator": "/usr/local/bin/InclusionExclusionListCreator", "InspectAdapter": "/usr/local/bin/InspectAdapter", "InternalCalibration": "/usr/local/bin/InternalCalibration", "IsobaricAnalyzer": "/usr/local/bin/IsobaricAnalyzer", "LabeledEval": "/usr/local/bin/LabeledEval", "LowMemPeakPickerHiRes": "/usr/local/bin/LowMemPeakPickerHiRes", "LowMemPeakPickerHiResRandomAccess": "/usr/local/bin/LowMemPeakPickerHiResRandomAccess", "LuciphorAdapter": "/usr/local/bin/LuciphorAdapter", "MRMMapper": "/usr/local/bin/MRMMapper", "MRMPairFinder": "/usr/local/bin/MRMPairFinder", "MRMTransitionGroupPicker": "/usr/local/bin/MRMTransitionGroupPicker", "MSFraggerAdapter": "/usr/local/bin/MSFraggerAdapter", "MSGFPlusAdapter": "/usr/local/bin/MSGFPlusAdapter", "MSSimulator": "/usr/local/bin/MSSimulator", "MSstatsConverter": "/usr/local/bin/MSstatsConverter", "MaRaClusterAdapter": "/usr/local/bin/MaRaClusterAdapter", "MapAlignerIdentification": "/usr/local/bin/MapAlignerIdentification", "MapAlignerPoseClustering": "/usr/local/bin/MapAlignerPoseClustering", "MapAlignerSpectrum": "/usr/local/bin/MapAlignerSpectrum", "MapNormalizer": "/usr/local/bin/MapNormalizer", "MapRTTransformer": "/usr/local/bin/MapRTTransformer", "MapStatistics": "/usr/local/bin/MapStatistics", "MascotAdapter": "/usr/local/bin/MascotAdapter", "MascotAdapterOnline": "/usr/local/bin/MascotAdapterOnline", "MassCalculator": "/usr/local/bin/MassCalculator", "MassTraceExtractor": "/usr/local/bin/MassTraceExtractor", "MetaProSIP": "/usr/local/bin/MetaProSIP", "MetaboliteAdductDecharger": "/usr/local/bin/MetaboliteAdductDecharger", "MetaboliteSpectralMatcher": "/usr/local/bin/MetaboliteSpectralMatcher", "MultiplexResolver": "/usr/local/bin/MultiplexResolver", "MyriMatchAdapter": "/usr/local/bin/MyriMatchAdapter", "MzMLSplitter": "/usr/local/bin/MzMLSplitter", "MzTabExporter": "/usr/local/bin/MzTabExporter", "NoiseFilterGaussian": "/usr/local/bin/NoiseFilterGaussian", "NoiseFilterSGolay": "/usr/local/bin/NoiseFilterSGolay", "NovorAdapter": "/usr/local/bin/NovorAdapter", "OMSSAAdapter": "/usr/local/bin/OMSSAAdapter", "OpenMSInfo": "/usr/local/bin/OpenMSInfo", "OpenPepXL": "/usr/local/bin/OpenPepXL", "OpenPepXLLF": "/usr/local/bin/OpenPepXLLF", "OpenSwathAnalyzer": "/usr/local/bin/OpenSwathAnalyzer", "OpenSwathAssayGenerator": "/usr/local/bin/OpenSwathAssayGenerator", "OpenSwathChromatogramExtractor": "/usr/local/bin/OpenSwathChromatogramExtractor", "OpenSwathConfidenceScoring": "/usr/local/bin/OpenSwathConfidenceScoring", "OpenSwathDIAPreScoring": "/usr/local/bin/OpenSwathDIAPreScoring", "OpenSwathDecoyGenerator": "/usr/local/bin/OpenSwathDecoyGenerator", "OpenSwathFeatureXMLToTSV": "/usr/local/bin/OpenSwathFeatureXMLToTSV", "OpenSwathFileSplitter": "/usr/local/bin/OpenSwathFileSplitter", "OpenSwathMzMLFileCacher": "/usr/local/bin/OpenSwathMzMLFileCacher", "OpenSwathRTNormalizer": "/usr/local/bin/OpenSwathRTNormalizer", "OpenSwathRewriteToFeatureXML": "/usr/local/bin/OpenSwathRewriteToFeatureXML", "OpenSwathWorkflow": "/usr/local/bin/OpenSwathWorkflow", "PSMFeatureExtractor": "/usr/local/bin/PSMFeatureExtractor", "PTModel": "/usr/local/bin/PTModel", "PTPredict": "/usr/local/bin/PTPredict", "PeakPickerHiRes": "/usr/local/bin/PeakPickerHiRes", "PeakPickerIterative": "/usr/local/bin/PeakPickerIterative", "PeakPickerWavelet": "/usr/local/bin/PeakPickerWavelet", "PepNovoAdapter": "/usr/local/bin/PepNovoAdapter", "PeptideIndexer": "/usr/local/bin/PeptideIndexer", "PercolatorAdapter": "/usr/local/bin/PercolatorAdapter", "PhosphoScoring": "/usr/local/bin/PhosphoScoring", "PrecursorIonSelector": "/usr/local/bin/PrecursorIonSelector", "PrecursorMassCorrector": "/usr/local/bin/PrecursorMassCorrector", "ProteinInference": "/usr/local/bin/ProteinInference", "ProteinQuantifier": "/usr/local/bin/ProteinQuantifier", "ProteinResolver": "/usr/local/bin/ProteinResolver", "QCCalculator": "/usr/local/bin/QCCalculator", "QCEmbedder": "/usr/local/bin/QCEmbedder", "QCExporter": "/usr/local/bin/QCExporter", "QCExtractor": "/usr/local/bin/QCExtractor", "QCImporter": "/usr/local/bin/QCImporter", "QCMerger": "/usr/local/bin/QCMerger", "QCShrinker": "/usr/local/bin/QCShrinker", "RNADigestor": "/usr/local/bin/RNADigestor", "RNPxlSearch": "/usr/local/bin/RNPxlSearch", "RNPxlXICFilter": "/usr/local/bin/RNPxlXICFilter", "RTEvaluation": "/usr/local/bin/RTEvaluation", "RTModel": "/usr/local/bin/RTModel", "RTPredict": "/usr/local/bin/RTPredict", "SeedListGenerator": "/usr/local/bin/SeedListGenerator", "SemanticValidator": "/usr/local/bin/SemanticValidator", "SequenceCoverageCalculator": "/usr/local/bin/SequenceCoverageCalculator", "SimpleSearchEngine": "/usr/local/bin/SimpleSearchEngine", "SiriusAdapter": "/usr/local/bin/SiriusAdapter", "SpecLibCreator": "/usr/local/bin/SpecLibCreator", "SpecLibSearcher": "/usr/local/bin/SpecLibSearcher", "SpectraFilterBernNorm": "/usr/local/bin/SpectraFilterBernNorm", "SpectraFilterMarkerMower": "/usr/local/bin/SpectraFilterMarkerMower", "SpectraFilterNLargest": "/usr/local/bin/SpectraFilterNLargest", "SpectraFilterNormalizer": "/usr/local/bin/SpectraFilterNormalizer", "SpectraFilterParentPeakMower": "/usr/local/bin/SpectraFilterParentPeakMower", "SpectraFilterScaler": "/usr/local/bin/SpectraFilterScaler", "SpectraFilterSqrtMower": "/usr/local/bin/SpectraFilterSqrtMower", "SpectraFilterThresholdMower": "/usr/local/bin/SpectraFilterThresholdMower", "SpectraFilterWindowMower": "/usr/local/bin/SpectraFilterWindowMower", "SpectraMerger": "/usr/local/bin/SpectraMerger", "SpectraSTSearchAdapter": "/usr/local/bin/SpectraSTSearchAdapter", "SvmTheoreticalSpectrumGeneratorTrainer": "/usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer", "TICCalculator": "/usr/local/bin/TICCalculator", "TOFCalibration": "/usr/local/bin/TOFCalibration", "TargetedFileConverter": "/usr/local/bin/TargetedFileConverter", "TextExporter": "/usr/local/bin/TextExporter", "TransformationEvaluation": "/usr/local/bin/TransformationEvaluation", "XFDR": "/usr/local/bin/XFDR", "XMLValidator": "/usr/local/bin/XMLValidator", "XTandemAdapter": "/usr/local/bin/XTandemAdapter"}}
+config: {"url": "https://biocontainers.pro/tools/openms-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for openms-tools", "latest": {"2.4.0--hc9558a2_3": "sha256:6ee198784c494405ed4d3aba7b1a32719c8d304f835269905eba5d65001176d1"}, "tags": {"2.4.0--hc9558a2_3": "sha256:6ee198784c494405ed4d3aba7b1a32719c8d304f835269905eba5d65001176d1"}, "docker": "quay.io/biocontainers/openms-tools", "aliases": {"AccurateMassSearch": "/usr/local/bin/AccurateMassSearch", "AssayGeneratorMetabo": "/usr/local/bin/AssayGeneratorMetabo", "BaselineFilter": "/usr/local/bin/BaselineFilter", "CVInspector": "/usr/local/bin/CVInspector", "ClusterMassTraces": "/usr/local/bin/ClusterMassTraces", "ClusterMassTracesByPrecursor": "/usr/local/bin/ClusterMassTracesByPrecursor", "CometAdapter": "/usr/local/bin/CometAdapter", "CompNovo": "/usr/local/bin/CompNovo", "CompNovoCID": "/usr/local/bin/CompNovoCID", "ConsensusID": "/usr/local/bin/ConsensusID", "ConsensusMapNormalizer": "/usr/local/bin/ConsensusMapNormalizer", "CruxAdapter": "/usr/local/bin/CruxAdapter", "DTAExtractor": "/usr/local/bin/DTAExtractor", "DatabaseFilter": "/usr/local/bin/DatabaseFilter", "DeMeanderize": "/usr/local/bin/DeMeanderize", "Decharger": "/usr/local/bin/Decharger", "DecoyDatabase": "/usr/local/bin/DecoyDatabase", "Digestor": "/usr/local/bin/Digestor", "DigestorMotif": "/usr/local/bin/DigestorMotif", "EICExtractor": "/usr/local/bin/EICExtractor", "ERPairFinder": "/usr/local/bin/ERPairFinder", "ExternalCalibration": "/usr/local/bin/ExternalCalibration", "FFEval": "/usr/local/bin/FFEval", "FalseDiscoveryRate": "/usr/local/bin/FalseDiscoveryRate", "FeatureFinderCentroided": "/usr/local/bin/FeatureFinderCentroided", "FeatureFinderIdentification": "/usr/local/bin/FeatureFinderIdentification", "FeatureFinderIsotopeWavelet": "/usr/local/bin/FeatureFinderIsotopeWavelet", "FeatureFinderMRM": "/usr/local/bin/FeatureFinderMRM", "FeatureFinderMetabo": "/usr/local/bin/FeatureFinderMetabo", "FeatureFinderMultiplex": "/usr/local/bin/FeatureFinderMultiplex", "FeatureFinderSuperHirn": "/usr/local/bin/FeatureFinderSuperHirn", "FeatureLinkerLabeled": "/usr/local/bin/FeatureLinkerLabeled", "FeatureLinkerUnlabeled": "/usr/local/bin/FeatureLinkerUnlabeled", "FeatureLinkerUnlabeledKD": "/usr/local/bin/FeatureLinkerUnlabeledKD", "FeatureLinkerUnlabeledQT": "/usr/local/bin/FeatureLinkerUnlabeledQT", "FidoAdapter": "/usr/local/bin/FidoAdapter", "FileConverter": "/usr/local/bin/FileConverter", "FileFilter": "/usr/local/bin/FileFilter", "FileInfo": "/usr/local/bin/FileInfo", "FileMerger": "/usr/local/bin/FileMerger", "FuzzyDiff": "/usr/local/bin/FuzzyDiff", "GenericWrapper": "/usr/local/bin/GenericWrapper", "HighResPrecursorMassCorrector": "/usr/local/bin/HighResPrecursorMassCorrector", "IDConflictResolver": "/usr/local/bin/IDConflictResolver", "IDDecoyProbability": "/usr/local/bin/IDDecoyProbability", "IDExtractor": "/usr/local/bin/IDExtractor", "IDFileConverter": "/usr/local/bin/IDFileConverter", "IDFilter": "/usr/local/bin/IDFilter", "IDMapper": "/usr/local/bin/IDMapper", "IDMassAccuracy": "/usr/local/bin/IDMassAccuracy", "IDMerger": "/usr/local/bin/IDMerger", "IDPosteriorErrorProbability": "/usr/local/bin/IDPosteriorErrorProbability", "IDRTCalibration": "/usr/local/bin/IDRTCalibration", "IDRipper": "/usr/local/bin/IDRipper", "IDScoreSwitcher": "/usr/local/bin/IDScoreSwitcher", "IDSplitter": "/usr/local/bin/IDSplitter", "InclusionExclusionListCreator": "/usr/local/bin/InclusionExclusionListCreator", "InspectAdapter": "/usr/local/bin/InspectAdapter", "InternalCalibration": "/usr/local/bin/InternalCalibration", "IsobaricAnalyzer": "/usr/local/bin/IsobaricAnalyzer", "LabeledEval": "/usr/local/bin/LabeledEval", "LowMemPeakPickerHiRes": "/usr/local/bin/LowMemPeakPickerHiRes", "LowMemPeakPickerHiResRandomAccess": "/usr/local/bin/LowMemPeakPickerHiResRandomAccess", "LuciphorAdapter": "/usr/local/bin/LuciphorAdapter", "MRMMapper": "/usr/local/bin/MRMMapper", "MRMPairFinder": "/usr/local/bin/MRMPairFinder", "MRMTransitionGroupPicker": "/usr/local/bin/MRMTransitionGroupPicker", "MSFraggerAdapter": "/usr/local/bin/MSFraggerAdapter", "MSGFPlusAdapter": "/usr/local/bin/MSGFPlusAdapter", "MSSimulator": "/usr/local/bin/MSSimulator", "MSstatsConverter": "/usr/local/bin/MSstatsConverter", "MaRaClusterAdapter": "/usr/local/bin/MaRaClusterAdapter", "MapAlignerIdentification": "/usr/local/bin/MapAlignerIdentification", "MapAlignerPoseClustering": "/usr/local/bin/MapAlignerPoseClustering", "MapAlignerSpectrum": "/usr/local/bin/MapAlignerSpectrum", "MapNormalizer": "/usr/local/bin/MapNormalizer", "MapRTTransformer": "/usr/local/bin/MapRTTransformer", "MapStatistics": "/usr/local/bin/MapStatistics", "MascotAdapter": "/usr/local/bin/MascotAdapter", "MascotAdapterOnline": "/usr/local/bin/MascotAdapterOnline", "MassCalculator": "/usr/local/bin/MassCalculator", "MassTraceExtractor": "/usr/local/bin/MassTraceExtractor", "MetaProSIP": "/usr/local/bin/MetaProSIP", "MetaboliteAdductDecharger": "/usr/local/bin/MetaboliteAdductDecharger", "MetaboliteSpectralMatcher": "/usr/local/bin/MetaboliteSpectralMatcher", "MultiplexResolver": "/usr/local/bin/MultiplexResolver", "MyriMatchAdapter": "/usr/local/bin/MyriMatchAdapter", "MzMLSplitter": "/usr/local/bin/MzMLSplitter", "MzTabExporter": "/usr/local/bin/MzTabExporter", "NoiseFilterGaussian": "/usr/local/bin/NoiseFilterGaussian", "NoiseFilterSGolay": "/usr/local/bin/NoiseFilterSGolay", "NovorAdapter": "/usr/local/bin/NovorAdapter", "OMSSAAdapter": "/usr/local/bin/OMSSAAdapter", "OpenMSInfo": "/usr/local/bin/OpenMSInfo", "OpenPepXL": "/usr/local/bin/OpenPepXL", "OpenPepXLLF": "/usr/local/bin/OpenPepXLLF", "OpenSwathAnalyzer": "/usr/local/bin/OpenSwathAnalyzer", "OpenSwathAssayGenerator": "/usr/local/bin/OpenSwathAssayGenerator", "OpenSwathChromatogramExtractor": "/usr/local/bin/OpenSwathChromatogramExtractor", "OpenSwathConfidenceScoring": "/usr/local/bin/OpenSwathConfidenceScoring", "OpenSwathDIAPreScoring": "/usr/local/bin/OpenSwathDIAPreScoring", "OpenSwathDecoyGenerator": "/usr/local/bin/OpenSwathDecoyGenerator", "OpenSwathFeatureXMLToTSV": "/usr/local/bin/OpenSwathFeatureXMLToTSV", "OpenSwathFileSplitter": "/usr/local/bin/OpenSwathFileSplitter", "OpenSwathMzMLFileCacher": "/usr/local/bin/OpenSwathMzMLFileCacher", "OpenSwathRTNormalizer": "/usr/local/bin/OpenSwathRTNormalizer", "OpenSwathRewriteToFeatureXML": "/usr/local/bin/OpenSwathRewriteToFeatureXML", "OpenSwathWorkflow": "/usr/local/bin/OpenSwathWorkflow", "PSMFeatureExtractor": "/usr/local/bin/PSMFeatureExtractor", "PTModel": "/usr/local/bin/PTModel", "PTPredict": "/usr/local/bin/PTPredict", "PeakPickerHiRes": "/usr/local/bin/PeakPickerHiRes", "PeakPickerIterative": "/usr/local/bin/PeakPickerIterative", "PeakPickerWavelet": "/usr/local/bin/PeakPickerWavelet", "PepNovoAdapter": "/usr/local/bin/PepNovoAdapter", "PeptideIndexer": "/usr/local/bin/PeptideIndexer", "PercolatorAdapter": "/usr/local/bin/PercolatorAdapter", "PhosphoScoring": "/usr/local/bin/PhosphoScoring", "PrecursorIonSelector": "/usr/local/bin/PrecursorIonSelector", "PrecursorMassCorrector": "/usr/local/bin/PrecursorMassCorrector", "ProteinInference": "/usr/local/bin/ProteinInference", "ProteinQuantifier": "/usr/local/bin/ProteinQuantifier", "ProteinResolver": "/usr/local/bin/ProteinResolver", "QCCalculator": "/usr/local/bin/QCCalculator", "QCEmbedder": "/usr/local/bin/QCEmbedder", "QCExporter": "/usr/local/bin/QCExporter", "QCExtractor": "/usr/local/bin/QCExtractor", "QCImporter": "/usr/local/bin/QCImporter", "QCMerger": "/usr/local/bin/QCMerger", "QCShrinker": "/usr/local/bin/QCShrinker", "RNADigestor": "/usr/local/bin/RNADigestor", "RNPxlSearch": "/usr/local/bin/RNPxlSearch", "RNPxlXICFilter": "/usr/local/bin/RNPxlXICFilter", "RTEvaluation": "/usr/local/bin/RTEvaluation", "RTModel": "/usr/local/bin/RTModel", "RTPredict": "/usr/local/bin/RTPredict", "SeedListGenerator": "/usr/local/bin/SeedListGenerator", "SemanticValidator": "/usr/local/bin/SemanticValidator", "SequenceCoverageCalculator": "/usr/local/bin/SequenceCoverageCalculator", "SimpleSearchEngine": "/usr/local/bin/SimpleSearchEngine", "SiriusAdapter": "/usr/local/bin/SiriusAdapter", "SpecLibCreator": "/usr/local/bin/SpecLibCreator", "SpecLibSearcher": "/usr/local/bin/SpecLibSearcher", "SpectraFilterBernNorm": "/usr/local/bin/SpectraFilterBernNorm", "SpectraFilterMarkerMower": "/usr/local/bin/SpectraFilterMarkerMower", "SpectraFilterNLargest": "/usr/local/bin/SpectraFilterNLargest", "SpectraFilterNormalizer": "/usr/local/bin/SpectraFilterNormalizer", "SpectraFilterParentPeakMower": "/usr/local/bin/SpectraFilterParentPeakMower", "SpectraFilterScaler": "/usr/local/bin/SpectraFilterScaler", "SpectraFilterSqrtMower": "/usr/local/bin/SpectraFilterSqrtMower", "SpectraFilterThresholdMower": "/usr/local/bin/SpectraFilterThresholdMower", "SpectraFilterWindowMower": "/usr/local/bin/SpectraFilterWindowMower", "SpectraMerger": "/usr/local/bin/SpectraMerger", "SpectraSTSearchAdapter": "/usr/local/bin/SpectraSTSearchAdapter", "SvmTheoreticalSpectrumGeneratorTrainer": "/usr/local/bin/SvmTheoreticalSpectrumGeneratorTrainer", "TICCalculator": "/usr/local/bin/TICCalculator", "TOFCalibration": "/usr/local/bin/TOFCalibration", "TargetedFileConverter": "/usr/local/bin/TargetedFileConverter", "TextExporter": "/usr/local/bin/TextExporter", "TransformationEvaluation": "/usr/local/bin/TransformationEvaluation", "XFDR": "/usr/local/bin/XFDR", "XMLValidator": "/usr/local/bin/XMLValidator", "XTandemAdapter": "/usr/local/bin/XTandemAdapter", "2to3-3.8": "/usr/local/bin/2to3-3.8", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/openms-tools.
@@ -1724,6 +1734,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/XMLValidator   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/XTandemAdapter
 $ podman run --it --rm --entrypoint /usr/local/bin/XTandemAdapter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/XTandemAdapter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CreateDOMDocument
+
+```bash
+$ singularity exec <container> /usr/local/bin/CreateDOMDocument
+$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMCount
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMCount
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMPrint
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMPrint
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EnumVal
+
+```bash
+$ singularity exec <container> /usr/local/bin/EnumVal
+$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MemParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/MemParse
+$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/PParse
+$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PSVIWriter
+
+```bash
+$ singularity exec <container> /usr/local/bin/PSVIWriter
+$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Redirect
+
+```bash
+$ singularity exec <container> /usr/local/bin/Redirect
+$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Count
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Count
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

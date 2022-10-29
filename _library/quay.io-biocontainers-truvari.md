@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/truvari"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/truvari/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/truvari/container.yaml"
-updated_at: "2022-10-27 00:24:07.423004"
+updated_at: "2022-10-29 05:37:43.698513"
 latest: "3.5.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/truvari"
 aliases:
  - "bwamempy"
  - "truvari"
+ - "2to3-3.10"
+ - "cmark"
+ - "f2py3.10"
+ - "futurize"
+ - "idle3.10"
+ - "pasteurize"
+ - "pydoc3.10"
+ - "pygmentize"
+ - "python3.1"
+ - "python3.10"
 versions:
  - "3.5.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for truvari"
-config: {"url": "https://biocontainers.pro/tools/truvari", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for truvari", "latest": {"3.5.0--pyhdfd78af_0": "sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3"}, "tags": {"3.5.0--pyhdfd78af_0": "sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3"}, "docker": "quay.io/biocontainers/truvari", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "truvari": "/usr/local/bin/truvari"}}
+config: {"url": "https://biocontainers.pro/tools/truvari", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for truvari", "latest": {"3.5.0--pyhdfd78af_0": "sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3"}, "tags": {"3.5.0--pyhdfd78af_0": "sha256:53513ea33dfdd6f7c0c37cfcc0af804202cdf6ec7a17a318b19d1014df761bd3"}, "docker": "quay.io/biocontainers/truvari", "aliases": {"bwamempy": "/usr/local/bin/bwamempy", "truvari": "/usr/local/bin/truvari", "2to3-3.10": "/usr/local/bin/2to3-3.10", "cmark": "/usr/local/bin/cmark", "f2py3.10": "/usr/local/bin/f2py3.10", "futurize": "/usr/local/bin/futurize", "idle3.10": "/usr/local/bin/idle3.10", "pasteurize": "/usr/local/bin/pasteurize", "pydoc3.10": "/usr/local/bin/pydoc3.10", "pygmentize": "/usr/local/bin/pygmentize", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/truvari.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwamempy   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/truvari
 $ podman run --it --rm --entrypoint /usr/local/bin/truvari   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/truvari   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmark
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmark
+$ podman run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmark   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pygmentize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pygmentize
+$ podman run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pygmentize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

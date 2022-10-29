@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/icescreen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/icescreen/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/icescreen/container.yaml"
-updated_at: "2022-10-27 00:28:31.455493"
+updated_at: "2022-10-29 05:43:34.542031"
 latest: "1.0.4--py310hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/icescreen"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "LOG_public_releases"
  - "agpl-3.0.txt"
  - "icescreen"
+ - "2to3-3.10"
+ - "accn-at-a-time"
+ - "aggregate_scores_in_intervals.py"
+ - "align-columns"
+ - "align_print_template.py"
+ - "alimask"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asn2xml"
+ - "axt_extract_ranges.py"
 versions:
  - "1.0.4--py310hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for icescreen"
-config: {"url": "https://biocontainers.pro/tools/icescreen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icescreen", "latest": {"1.0.4--py310hdfd78af_1": "sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd"}, "tags": {"1.0.4--py310hdfd78af_1": "sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd"}, "docker": "quay.io/biocontainers/icescreen", "aliases": {"AUTHORS.txt": "/usr/local/bin/AUTHORS.txt", "INSTALL": "/usr/local/bin/INSTALL", "LICENCE.txt": "/usr/local/bin/LICENCE.txt", "LOG_public_releases": "/usr/local/bin/LOG_public_releases", "agpl-3.0.txt": "/usr/local/bin/agpl-3.0.txt", "icescreen": "/usr/local/bin/icescreen"}}
+config: {"url": "https://biocontainers.pro/tools/icescreen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for icescreen", "latest": {"1.0.4--py310hdfd78af_1": "sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd"}, "tags": {"1.0.4--py310hdfd78af_1": "sha256:f47e05529012f861315b89a6ef1fa960f4ab16a92ee65c5e750f855f3025c1cd"}, "docker": "quay.io/biocontainers/icescreen", "aliases": {"AUTHORS.txt": "/usr/local/bin/AUTHORS.txt", "INSTALL": "/usr/local/bin/INSTALL", "LICENCE.txt": "/usr/local/bin/LICENCE.txt", "LOG_public_releases": "/usr/local/bin/LOG_public_releases", "agpl-3.0.txt": "/usr/local/bin/agpl-3.0.txt", "icescreen": "/usr/local/bin/icescreen", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align-columns": "/usr/local/bin/align-columns", "align_print_template.py": "/usr/local/bin/align_print_template.py", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/icescreen.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/agpl-3.0.txt   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/icescreen
 $ podman run --it --rm --entrypoint /usr/local/bin/icescreen   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/icescreen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_scores_in_intervals.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_scores_in_intervals.py
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align_print_template.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/align_print_template.py
+$ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_extract_ranges.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_extract_ranges.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

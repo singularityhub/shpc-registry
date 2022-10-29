@@ -4,13 +4,12 @@ name:  "quay.io/biocontainers/augustus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/augustus/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/augustus/container.yaml"
-updated_at: "2022-10-27 00:30:13.616554"
+updated_at: "2022-10-29 05:45:46.968705"
 latest: "3.5.0--pl5321hf46c7bb_0"
 container_url: "https://biocontainers.pro/tools/augustus"
 aliases:
  - "PF00225_full.blocks.txt"
  - "PF00225_seed.blocks.txt"
- - "README.autoAug"
  - "SplicedAlignment.pm"
  - "aa2nonred.pl"
  - "add_name_to_gff3.pl"
@@ -128,10 +127,20 @@ aliases:
  - "wigchoose.pl"
  - "writeResultsPage.pl"
  - "yaml2gff.1.4.pl"
+ - "2to3-3.10"
+ - "augustus"
+ - "bam2hints"
+ - "bamtools"
+ - "bgzip"
+ - "cmpfillin"
+ - "config_data"
+ - "cpanm"
+ - "dbilogstrip"
+ - "dbiprof"
 versions:
  - "3.5.0--pl5321hf46c7bb_0"
 description: "shpc-registry automated BioContainers addition for augustus"
-config: {"url": "https://biocontainers.pro/tools/augustus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for augustus", "latest": {"3.5.0--pl5321hf46c7bb_0": "sha256:eb986e9aaf4263ab10693f9d8b69e695510a79ab3cbea1bbf20d0ebfbf4fdf0c"}, "tags": {"3.5.0--pl5321hf46c7bb_0": "sha256:eb986e9aaf4263ab10693f9d8b69e695510a79ab3cbea1bbf20d0ebfbf4fdf0c"}, "docker": "quay.io/biocontainers/augustus", "aliases": {"PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "README.autoAug": "/usr/local/bin/README.autoAug", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "augustus2browser.pl": "/usr/local/bin/augustus2browser.pl", "augustus2gbrowse.pl": "/usr/local/bin/augustus2gbrowse.pl", "autoAug.pl": "/usr/local/bin/autoAug.pl", "autoAugPred.pl": "/usr/local/bin/autoAugPred.pl", "autoAugTrain.pl": "/usr/local/bin/autoAugTrain.pl", "bam2wig": "/usr/local/bin/bam2wig", "bamToWig.py": "/usr/local/bin/bamToWig.py", "bedgraph2wig.pl": "/usr/local/bin/bedgraph2wig.pl", "blat2gbrowse.pl": "/usr/local/bin/blat2gbrowse.pl", "blat2hints.pl": "/usr/local/bin/blat2hints.pl", "block2prfl.pl": "/usr/local/bin/block2prfl.pl", "cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank", "cegma2gff.pl": "/usr/local/bin/cegma2gff.pl", "checkParamArchive.pl": "/usr/local/bin/checkParamArchive.pl", "checkUTR": "/usr/local/bin/checkUTR", "cleanDOSfasta.pl": "/usr/local/bin/cleanDOSfasta.pl", "clusterAndSplitGenes.pl": "/usr/local/bin/clusterAndSplitGenes.pl", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "createAugustusJoblist.pl": "/usr/local/bin/createAugustusJoblist.pl", "del_from_prfl.pl": "/usr/local/bin/del_from_prfl.pl", "evalCGP.pl": "/usr/local/bin/evalCGP.pl", "eval_dualdecomp.pl": "/usr/local/bin/eval_dualdecomp.pl", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "exonerate2hints.pl": "/usr/local/bin/exonerate2hints.pl", "exoniphyDb2hints.pl": "/usr/local/bin/exoniphyDb2hints.pl", "extractAnno.py": "/usr/local/bin/extractAnno.py", "extractTranscriptEnds.pl": "/usr/local/bin/extractTranscriptEnds.pl", "filter-ppx.pl": "/usr/local/bin/filter-ppx.pl", "filterGenes.pl": "/usr/local/bin/filterGenes.pl", "filterGenesIn.pl": "/usr/local/bin/filterGenesIn.pl", "filterGenesIn_mRNAname.pl": "/usr/local/bin/filterGenesIn_mRNAname.pl", "filterGenesOut_mRNAname.pl": "/usr/local/bin/filterGenesOut_mRNAname.pl", "filterInFrameStopCodons.pl": "/usr/local/bin/filterInFrameStopCodons.pl", "filterMaf.pl": "/usr/local/bin/filterMaf.pl", "filterPSL.pl": "/usr/local/bin/filterPSL.pl", "filterShrimp.pl": "/usr/local/bin/filterShrimp.pl", "filterSpliceHints.pl": "/usr/local/bin/filterSpliceHints.pl", "findGffNamesInFasta.pl": "/usr/local/bin/findGffNamesInFasta.pl", "findRepetitiveProtSeqs.py": "/usr/local/bin/findRepetitiveProtSeqs.py", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "gbSmallDNA2gff.pl": "/usr/local/bin/gbSmallDNA2gff.pl", "gbrowse.conf": "/usr/local/bin/gbrowse.conf", "gbrowseold2gff3.pl": "/usr/local/bin/gbrowseold2gff3.pl", "getAnnoFasta.pl": "/usr/local/bin/getAnnoFasta.pl", "getAnnoFastaFromJoingenes.py": "/usr/local/bin/getAnnoFastaFromJoingenes.py", "getLinesMatching.pl": "/usr/local/bin/getLinesMatching.pl", "getSeq": "/usr/local/bin/getSeq", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "gff2gbSmallDNA.pl": "/usr/local/bin/gff2gbSmallDNA.pl", "gff2ps_mycustom": "/usr/local/bin/gff2ps_mycustom", "gffGetmRNA.pl": "/usr/local/bin/gffGetmRNA.pl", "gp2othergp.pl": "/usr/local/bin/gp2othergp.pl", "gtf2aa.pl": "/usr/local/bin/gtf2aa.pl", "gtf2gff.pl": "/usr/local/bin/gtf2gff.pl", "gth2gtf.pl": "/usr/local/bin/gth2gtf.pl", "hal2maf_split.pl": "/usr/local/bin/hal2maf_split.pl", "helpMod.pm": "/usr/local/bin/helpMod.pm", "joinPeptides.pl": "/usr/local/bin/joinPeptides.pl", "join_aug_pred.pl": "/usr/local/bin/join_aug_pred.pl", "join_mult_hints.pl": "/usr/local/bin/join_mult_hints.pl", "load2sqlitedb": "/usr/local/bin/load2sqlitedb", "lp_solve": "/usr/local/bin/lp_solve", "maf2conswig.pl": "/usr/local/bin/maf2conswig.pl", "makeMatchLists.pl": "/usr/local/bin/makeMatchLists.pl", "makeUtrTrainingSet.pl": "/usr/local/bin/makeUtrTrainingSet.pl", "maskNregions.pl": "/usr/local/bin/maskNregions.pl", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "moveParameters.pl": "/usr/local/bin/moveParameters.pl", "msa2prfl.pl": "/usr/local/bin/msa2prfl.pl", "new_species.pl": "/usr/local/bin/new_species.pl", "opt_init_and_term_probs.pl": "/usr/local/bin/opt_init_and_term_probs.pl", "optimize_augustus.pl": "/usr/local/bin/optimize_augustus.pl", "parseSim4Output.pl": "/usr/local/bin/parseSim4Output.pl", "partition_gtf2gb.pl": "/usr/local/bin/partition_gtf2gb.pl", "pasapolyA2hints.pl": "/usr/local/bin/pasapolyA2hints.pl", "peptides2alternatives.pl": "/usr/local/bin/peptides2alternatives.pl", "peptides2hints.pl": "/usr/local/bin/peptides2hints.pl", "phastconsDB2hints.pl": "/usr/local/bin/phastconsDB2hints.pl", "polyA2hints.pl": "/usr/local/bin/polyA2hints.pl", "pp_simScore": "/usr/local/bin/pp_simScore", "prints2prfl.pl": "/usr/local/bin/prints2prfl.pl", "pslMap.pl": "/usr/local/bin/pslMap.pl", "randomSplit.pl": "/usr/local/bin/randomSplit.pl", "rename_species.pl": "/usr/local/bin/rename_species.pl", "retroDB2hints.pl": "/usr/local/bin/retroDB2hints.pl", "rmRedundantHints.pl": "/usr/local/bin/rmRedundantHints.pl", "runAllSim4.pl": "/usr/local/bin/runAllSim4.pl", "samMap.pl": "/usr/local/bin/samMap.pl", "scipiogff2gff.pl": "/usr/local/bin/scipiogff2gff.pl", "setStopCodonFreqs.pl": "/usr/local/bin/setStopCodonFreqs.pl", "simpleFastaHeaders.pl": "/usr/local/bin/simpleFastaHeaders.pl", "simplifyFastaHeaders.pl": "/usr/local/bin/simplifyFastaHeaders.pl", "splitMfasta.pl": "/usr/local/bin/splitMfasta.pl", "split_wiggle.pl": "/usr/local/bin/split_wiggle.pl", "stringtie2fa.py": "/usr/local/bin/stringtie2fa.py", "summarizeACGTcontent.pl": "/usr/local/bin/summarizeACGTcontent.pl", "transMap2hints.pl": "/usr/local/bin/transMap2hints.pl", "uniquePeptides.pl": "/usr/local/bin/uniquePeptides.pl", "utrgff2gbrowse.pl": "/usr/local/bin/utrgff2gbrowse.pl", "utrrnaseq": "/usr/local/bin/utrrnaseq", "webserver-results.head": "/usr/local/bin/webserver-results.head", "webserver-results.tail": "/usr/local/bin/webserver-results.tail", "weedMaf.pl": "/usr/local/bin/weedMaf.pl", "wig2hints.pl": "/usr/local/bin/wig2hints.pl", "wigchoose.pl": "/usr/local/bin/wigchoose.pl", "writeResultsPage.pl": "/usr/local/bin/writeResultsPage.pl", "yaml2gff.1.4.pl": "/usr/local/bin/yaml2gff.1.4.pl"}}
+config: {"url": "https://biocontainers.pro/tools/augustus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for augustus", "latest": {"3.5.0--pl5321hf46c7bb_0": "sha256:eb986e9aaf4263ab10693f9d8b69e695510a79ab3cbea1bbf20d0ebfbf4fdf0c"}, "tags": {"3.5.0--pl5321hf46c7bb_0": "sha256:eb986e9aaf4263ab10693f9d8b69e695510a79ab3cbea1bbf20d0ebfbf4fdf0c"}, "docker": "quay.io/biocontainers/augustus", "aliases": {"PF00225_full.blocks.txt": "/usr/local/bin/PF00225_full.blocks.txt", "PF00225_seed.blocks.txt": "/usr/local/bin/PF00225_seed.blocks.txt", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "add_name_to_gff3.pl": "/usr/local/bin/add_name_to_gff3.pl", "aln2wig": "/usr/local/bin/aln2wig", "augustify.py": "/usr/local/bin/augustify.py", "augustus2browser.pl": "/usr/local/bin/augustus2browser.pl", "augustus2gbrowse.pl": "/usr/local/bin/augustus2gbrowse.pl", "autoAug.pl": "/usr/local/bin/autoAug.pl", "autoAugPred.pl": "/usr/local/bin/autoAugPred.pl", "autoAugTrain.pl": "/usr/local/bin/autoAugTrain.pl", "bam2wig": "/usr/local/bin/bam2wig", "bamToWig.py": "/usr/local/bin/bamToWig.py", "bedgraph2wig.pl": "/usr/local/bin/bedgraph2wig.pl", "blat2gbrowse.pl": "/usr/local/bin/blat2gbrowse.pl", "blat2hints.pl": "/usr/local/bin/blat2hints.pl", "block2prfl.pl": "/usr/local/bin/block2prfl.pl", "cdbfasta": "/usr/local/bin/cdbfasta", "cdbyank": "/usr/local/bin/cdbyank", "cegma2gff.pl": "/usr/local/bin/cegma2gff.pl", "checkParamArchive.pl": "/usr/local/bin/checkParamArchive.pl", "checkUTR": "/usr/local/bin/checkUTR", "cleanDOSfasta.pl": "/usr/local/bin/cleanDOSfasta.pl", "clusterAndSplitGenes.pl": "/usr/local/bin/clusterAndSplitGenes.pl", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "createAugustusJoblist.pl": "/usr/local/bin/createAugustusJoblist.pl", "del_from_prfl.pl": "/usr/local/bin/del_from_prfl.pl", "evalCGP.pl": "/usr/local/bin/evalCGP.pl", "eval_dualdecomp.pl": "/usr/local/bin/eval_dualdecomp.pl", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl", "executeTestCGP.py": "/usr/local/bin/executeTestCGP.py", "exonerate2hints.pl": "/usr/local/bin/exonerate2hints.pl", "exoniphyDb2hints.pl": "/usr/local/bin/exoniphyDb2hints.pl", "extractAnno.py": "/usr/local/bin/extractAnno.py", "extractTranscriptEnds.pl": "/usr/local/bin/extractTranscriptEnds.pl", "filter-ppx.pl": "/usr/local/bin/filter-ppx.pl", "filterGenes.pl": "/usr/local/bin/filterGenes.pl", "filterGenesIn.pl": "/usr/local/bin/filterGenesIn.pl", "filterGenesIn_mRNAname.pl": "/usr/local/bin/filterGenesIn_mRNAname.pl", "filterGenesOut_mRNAname.pl": "/usr/local/bin/filterGenesOut_mRNAname.pl", "filterInFrameStopCodons.pl": "/usr/local/bin/filterInFrameStopCodons.pl", "filterMaf.pl": "/usr/local/bin/filterMaf.pl", "filterPSL.pl": "/usr/local/bin/filterPSL.pl", "filterShrimp.pl": "/usr/local/bin/filterShrimp.pl", "filterSpliceHints.pl": "/usr/local/bin/filterSpliceHints.pl", "findGffNamesInFasta.pl": "/usr/local/bin/findGffNamesInFasta.pl", "findRepetitiveProtSeqs.py": "/usr/local/bin/findRepetitiveProtSeqs.py", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "gbSmallDNA2gff.pl": "/usr/local/bin/gbSmallDNA2gff.pl", "gbrowse.conf": "/usr/local/bin/gbrowse.conf", "gbrowseold2gff3.pl": "/usr/local/bin/gbrowseold2gff3.pl", "getAnnoFasta.pl": "/usr/local/bin/getAnnoFasta.pl", "getAnnoFastaFromJoingenes.py": "/usr/local/bin/getAnnoFastaFromJoingenes.py", "getLinesMatching.pl": "/usr/local/bin/getLinesMatching.pl", "getSeq": "/usr/local/bin/getSeq", "get_loci_from_gb.pl": "/usr/local/bin/get_loci_from_gb.pl", "gff2gbSmallDNA.pl": "/usr/local/bin/gff2gbSmallDNA.pl", "gff2ps_mycustom": "/usr/local/bin/gff2ps_mycustom", "gffGetmRNA.pl": "/usr/local/bin/gffGetmRNA.pl", "gp2othergp.pl": "/usr/local/bin/gp2othergp.pl", "gtf2aa.pl": "/usr/local/bin/gtf2aa.pl", "gtf2gff.pl": "/usr/local/bin/gtf2gff.pl", "gth2gtf.pl": "/usr/local/bin/gth2gtf.pl", "hal2maf_split.pl": "/usr/local/bin/hal2maf_split.pl", "helpMod.pm": "/usr/local/bin/helpMod.pm", "joinPeptides.pl": "/usr/local/bin/joinPeptides.pl", "join_aug_pred.pl": "/usr/local/bin/join_aug_pred.pl", "join_mult_hints.pl": "/usr/local/bin/join_mult_hints.pl", "load2sqlitedb": "/usr/local/bin/load2sqlitedb", "lp_solve": "/usr/local/bin/lp_solve", "maf2conswig.pl": "/usr/local/bin/maf2conswig.pl", "makeMatchLists.pl": "/usr/local/bin/makeMatchLists.pl", "makeUtrTrainingSet.pl": "/usr/local/bin/makeUtrTrainingSet.pl", "maskNregions.pl": "/usr/local/bin/maskNregions.pl", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "moveParameters.pl": "/usr/local/bin/moveParameters.pl", "msa2prfl.pl": "/usr/local/bin/msa2prfl.pl", "new_species.pl": "/usr/local/bin/new_species.pl", "opt_init_and_term_probs.pl": "/usr/local/bin/opt_init_and_term_probs.pl", "optimize_augustus.pl": "/usr/local/bin/optimize_augustus.pl", "parseSim4Output.pl": "/usr/local/bin/parseSim4Output.pl", "partition_gtf2gb.pl": "/usr/local/bin/partition_gtf2gb.pl", "pasapolyA2hints.pl": "/usr/local/bin/pasapolyA2hints.pl", "peptides2alternatives.pl": "/usr/local/bin/peptides2alternatives.pl", "peptides2hints.pl": "/usr/local/bin/peptides2hints.pl", "phastconsDB2hints.pl": "/usr/local/bin/phastconsDB2hints.pl", "polyA2hints.pl": "/usr/local/bin/polyA2hints.pl", "pp_simScore": "/usr/local/bin/pp_simScore", "prints2prfl.pl": "/usr/local/bin/prints2prfl.pl", "pslMap.pl": "/usr/local/bin/pslMap.pl", "randomSplit.pl": "/usr/local/bin/randomSplit.pl", "rename_species.pl": "/usr/local/bin/rename_species.pl", "retroDB2hints.pl": "/usr/local/bin/retroDB2hints.pl", "rmRedundantHints.pl": "/usr/local/bin/rmRedundantHints.pl", "runAllSim4.pl": "/usr/local/bin/runAllSim4.pl", "samMap.pl": "/usr/local/bin/samMap.pl", "scipiogff2gff.pl": "/usr/local/bin/scipiogff2gff.pl", "setStopCodonFreqs.pl": "/usr/local/bin/setStopCodonFreqs.pl", "simpleFastaHeaders.pl": "/usr/local/bin/simpleFastaHeaders.pl", "simplifyFastaHeaders.pl": "/usr/local/bin/simplifyFastaHeaders.pl", "splitMfasta.pl": "/usr/local/bin/splitMfasta.pl", "split_wiggle.pl": "/usr/local/bin/split_wiggle.pl", "stringtie2fa.py": "/usr/local/bin/stringtie2fa.py", "summarizeACGTcontent.pl": "/usr/local/bin/summarizeACGTcontent.pl", "transMap2hints.pl": "/usr/local/bin/transMap2hints.pl", "uniquePeptides.pl": "/usr/local/bin/uniquePeptides.pl", "utrgff2gbrowse.pl": "/usr/local/bin/utrgff2gbrowse.pl", "utrrnaseq": "/usr/local/bin/utrrnaseq", "webserver-results.head": "/usr/local/bin/webserver-results.head", "webserver-results.tail": "/usr/local/bin/webserver-results.tail", "weedMaf.pl": "/usr/local/bin/weedMaf.pl", "wig2hints.pl": "/usr/local/bin/wig2hints.pl", "wigchoose.pl": "/usr/local/bin/wigchoose.pl", "writeResultsPage.pl": "/usr/local/bin/writeResultsPage.pl", "yaml2gff.1.4.pl": "/usr/local/bin/yaml2gff.1.4.pl", "2to3-3.10": "/usr/local/bin/2to3-3.10", "augustus": "/usr/local/bin/augustus", "bam2hints": "/usr/local/bin/bam2hints", "bamtools": "/usr/local/bin/bamtools", "bgzip": "/usr/local/bin/bgzip", "cmpfillin": "/usr/local/bin/cmpfillin", "config_data": "/usr/local/bin/config_data", "cpanm": "/usr/local/bin/cpanm", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/augustus.
@@ -232,15 +241,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/PF00225_full.blocks.txt   -v 
 $ singularity exec <container> /usr/local/bin/PF00225_seed.blocks.txt
 $ podman run --it --rm --entrypoint /usr/local/bin/PF00225_seed.blocks.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/PF00225_seed.blocks.txt   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### README.autoAug
-
-```bash
-$ singularity exec <container> /usr/local/bin/README.autoAug
-$ podman run --it --rm --entrypoint /usr/local/bin/README.autoAug   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/README.autoAug   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -1294,6 +1294,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/writeResultsPage.pl   -v ${PW
 $ singularity exec <container> /usr/local/bin/yaml2gff.1.4.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/yaml2gff.1.4.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/yaml2gff.1.4.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### augustus
+
+```bash
+$ singularity exec <container> /usr/local/bin/augustus
+$ podman run --it --rm --entrypoint /usr/local/bin/augustus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/augustus   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2hints
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2hints
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2hints   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2hints   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmpfillin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmpfillin
+$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### config_data
+
+```bash
+$ singularity exec <container> /usr/local/bin/config_data
+$ podman run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/config_data   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cpanm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbilogstrip
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbilogstrip
+$ podman run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbiprof
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbiprof
+$ podman run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

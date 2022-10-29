@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/tirmite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tirmite/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tirmite/container.yaml"
-updated_at: "2022-10-27 00:20:17.748045"
+updated_at: "2022-10-29 05:32:38.383673"
 latest: "1.1.4--py_0"
 container_url: "https://biocontainers.pro/tools/tirmite"
 aliases:
  - "tirmite"
  - "tsplit-LTR"
  - "tsplit-TIR"
+ - "combineMUMs"
+ - "delta-filter"
+ - "dnadiff"
+ - "exact-tandems"
+ - "f2py3.8"
+ - "fastaq"
+ - "mapview"
+ - "mgaps"
+ - "mummer"
+ - "mummerplot"
 versions:
  - "1.1.4--py_0"
 description: "shpc-registry automated BioContainers addition for tirmite"
-config: {"url": "https://biocontainers.pro/tools/tirmite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tirmite", "latest": {"1.1.4--py_0": "sha256:af5ee06bf487b9705d18af513c06161e17af36cce7fc54b2a9752da35e888766"}, "tags": {"1.1.4--py_0": "sha256:af5ee06bf487b9705d18af513c06161e17af36cce7fc54b2a9752da35e888766"}, "docker": "quay.io/biocontainers/tirmite", "aliases": {"tirmite": "/usr/local/bin/tirmite", "tsplit-LTR": "/usr/local/bin/tsplit-LTR", "tsplit-TIR": "/usr/local/bin/tsplit-TIR"}}
+config: {"url": "https://biocontainers.pro/tools/tirmite", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tirmite", "latest": {"1.1.4--py_0": "sha256:af5ee06bf487b9705d18af513c06161e17af36cce7fc54b2a9752da35e888766"}, "tags": {"1.1.4--py_0": "sha256:af5ee06bf487b9705d18af513c06161e17af36cce7fc54b2a9752da35e888766"}, "docker": "quay.io/biocontainers/tirmite", "aliases": {"tirmite": "/usr/local/bin/tirmite", "tsplit-LTR": "/usr/local/bin/tsplit-LTR", "tsplit-TIR": "/usr/local/bin/tsplit-TIR", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "f2py3.8": "/usr/local/bin/f2py3.8", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tirmite.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tsplit-LTR   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/tsplit-TIR
 $ podman run --it --rm --entrypoint /usr/local/bin/tsplit-TIR   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tsplit-TIR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### combineMUMs
+
+```bash
+$ singularity exec <container> /usr/local/bin/combineMUMs
+$ podman run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/combineMUMs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### delta-filter
+
+```bash
+$ singularity exec <container> /usr/local/bin/delta-filter
+$ podman run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/delta-filter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dnadiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/dnadiff
+$ podman run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### exact-tandems
+
+```bash
+$ singularity exec <container> /usr/local/bin/exact-tandems
+$ podman run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/exact-tandems   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fastaq
+
+```bash
+$ singularity exec <container> /usr/local/bin/fastaq
+$ podman run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fastaq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mapview
+
+```bash
+$ singularity exec <container> /usr/local/bin/mapview
+$ podman run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mapview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mgaps
+
+```bash
+$ singularity exec <container> /usr/local/bin/mgaps
+$ podman run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mgaps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mummer
+
+```bash
+$ singularity exec <container> /usr/local/bin/mummer
+$ podman run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mummerplot
+
+```bash
+$ singularity exec <container> /usr/local/bin/mummerplot
+$ podman run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mummerplot   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

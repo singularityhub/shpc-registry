@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/straglr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/straglr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/straglr/container.yaml"
-updated_at: "2022-10-27 00:27:37.825363"
+updated_at: "2022-10-29 05:42:24.421589"
 latest: "1.3.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/straglr"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "ppserver"
  - "straglr.py"
  - "straglr_compare.py"
+ - "2to3-3.10"
+ - "accn-at-a-time"
+ - "align-columns"
+ - "amino-acid-composition"
+ - "annotateBed"
+ - "archive-pubmed"
+ - "asn2xml"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
 versions:
  - "1.3.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for straglr"
-config: {"url": "https://biocontainers.pro/tools/straglr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straglr", "latest": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627"}, "docker": "quay.io/biocontainers/straglr", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "straglr.py": "/usr/local/bin/straglr.py", "straglr_compare.py": "/usr/local/bin/straglr_compare.py"}}
+config: {"url": "https://biocontainers.pro/tools/straglr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for straglr", "latest": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627"}, "tags": {"1.3.0--pyhdfd78af_0": "sha256:cad130315c7e8c4c33436b660381a3b3725e72f2e3b20afa04d5d194442f6627"}, "docker": "quay.io/biocontainers/straglr", "aliases": {"pathos_connect": "/usr/local/bin/pathos_connect", "portpicker": "/usr/local/bin/portpicker", "pox": "/usr/local/bin/pox", "ppserver": "/usr/local/bin/ppserver", "straglr.py": "/usr/local/bin/straglr.py", "straglr_compare.py": "/usr/local/bin/straglr_compare.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotateBed": "/usr/local/bin/annotateBed", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/straglr.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/straglr.py   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/straglr_compare.py
 $ podman run --it --rm --entrypoint /usr/local/bin/straglr_compare.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/straglr_compare.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

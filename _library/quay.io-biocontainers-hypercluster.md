@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/hypercluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hypercluster/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hypercluster/container.yaml"
-updated_at: "2022-10-27 00:29:22.896357"
+updated_at: "2022-10-29 05:44:41.170106"
 latest: "0.1.9--0"
 container_url: "https://biocontainers.pro/tools/hypercluster"
 aliases:
  - "community"
  - "x86_64-conda_cos6-linux-gnu-pkg-config"
+ - "2to3-3.7"
+ - "Magick++-config"
+ - "MagickCore-config"
+ - "MagickWand-config"
+ - "acyclic"
+ - "animate"
+ - "assistant"
+ - "bcomps"
+ - "canbusutil"
+ - "ccomps"
 versions:
  - "0.1.9--0"
 description: "shpc-registry automated BioContainers addition for hypercluster"
-config: {"url": "https://biocontainers.pro/tools/hypercluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypercluster", "latest": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "tags": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "docker": "quay.io/biocontainers/hypercluster", "aliases": {"community": "/usr/local/bin/community", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config"}}
+config: {"url": "https://biocontainers.pro/tools/hypercluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypercluster", "latest": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "tags": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "docker": "quay.io/biocontainers/hypercluster", "aliases": {"community": "/usr/local/bin/community", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "2to3-3.7": "/usr/local/bin/2to3-3.7", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "assistant": "/usr/local/bin/assistant", "bcomps": "/usr/local/bin/bcomps", "canbusutil": "/usr/local/bin/canbusutil", "ccomps": "/usr/local/bin/ccomps"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hypercluster.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/community   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
 $ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Magick++-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/Magick++-config
+$ podman run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MagickCore-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickCore-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MagickWand-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickWand-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### animate
+
+```bash
+$ singularity exec <container> /usr/local/bin/animate
+$ podman run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconda-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconda-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconda-utils/container.yaml"
-updated_at: "2022-10-27 00:38:29.491855"
+updated_at: "2022-10-29 05:56:46.736921"
 latest: "1.1.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconda-utils"
 aliases:
@@ -34,10 +34,20 @@ aliases:
  - "scalar"
  - "skopeo"
  - "watchgod"
+ - "2to3-3.7"
+ - "acyclic"
+ - "annotate"
+ - "bcomps"
+ - "bdftogd"
+ - "bsdcat"
+ - "bsdcpio"
+ - "bsdtar"
+ - "ccomps"
+ - "chardetect"
 versions:
  - "1.1.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconda-utils"
-config: {"url": "https://biocontainers.pro/tools/bioconda-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconda-utils", "latest": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "docker": "quay.io/biocontainers/bioconda-utils", "aliases": {"anaconda": "/usr/local/bin/anaconda", "binstar": "/usr/local/bin/binstar", "bioconda-utils": "/usr/local/bin/bioconda-utils", "boa": "/usr/local/bin/boa", "celery": "/usr/local/bin/celery", "conda-build": "/usr/local/bin/conda-build", "conda-convert": "/usr/local/bin/conda-convert", "conda-debug": "/usr/local/bin/conda-debug", "conda-develop": "/usr/local/bin/conda-develop", "conda-index": "/usr/local/bin/conda-index", "conda-inspect": "/usr/local/bin/conda-inspect", "conda-mambabuild": "/usr/local/bin/conda-mambabuild", "conda-metapackage": "/usr/local/bin/conda-metapackage", "conda-render": "/usr/local/bin/conda-render", "conda-server": "/usr/local/bin/conda-server", "conda-skeleton": "/usr/local/bin/conda-skeleton", "conda-verify": "/usr/local/bin/conda-verify", "involucro": "/usr/local/bin/involucro", "mamba-package": "/usr/local/bin/mamba-package", "patchelf": "/usr/local/bin/patchelf", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "rg": "/usr/local/bin/rg", "scalar": "/usr/local/bin/scalar", "skopeo": "/usr/local/bin/skopeo", "watchgod": "/usr/local/bin/watchgod"}}
+config: {"url": "https://biocontainers.pro/tools/bioconda-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconda-utils", "latest": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "tags": {"1.1.5--pyhdfd78af_0": "sha256:291aa9841d34f183b13b318576edf2a8b01659a96f08c87bc874950fdc05360f"}, "docker": "quay.io/biocontainers/bioconda-utils", "aliases": {"anaconda": "/usr/local/bin/anaconda", "binstar": "/usr/local/bin/binstar", "bioconda-utils": "/usr/local/bin/bioconda-utils", "boa": "/usr/local/bin/boa", "celery": "/usr/local/bin/celery", "conda-build": "/usr/local/bin/conda-build", "conda-convert": "/usr/local/bin/conda-convert", "conda-debug": "/usr/local/bin/conda-debug", "conda-develop": "/usr/local/bin/conda-develop", "conda-index": "/usr/local/bin/conda-index", "conda-inspect": "/usr/local/bin/conda-inspect", "conda-mambabuild": "/usr/local/bin/conda-mambabuild", "conda-metapackage": "/usr/local/bin/conda-metapackage", "conda-render": "/usr/local/bin/conda-render", "conda-server": "/usr/local/bin/conda-server", "conda-skeleton": "/usr/local/bin/conda-skeleton", "conda-verify": "/usr/local/bin/conda-verify", "involucro": "/usr/local/bin/involucro", "mamba-package": "/usr/local/bin/mamba-package", "patchelf": "/usr/local/bin/patchelf", "pkginfo": "/usr/local/bin/pkginfo", "pyjson5": "/usr/local/bin/pyjson5", "rg": "/usr/local/bin/rg", "scalar": "/usr/local/bin/scalar", "skopeo": "/usr/local/bin/skopeo", "watchgod": "/usr/local/bin/watchgod", "2to3-3.7": "/usr/local/bin/2to3-3.7", "acyclic": "/usr/local/bin/acyclic", "annotate": "/usr/local/bin/annotate", "bcomps": "/usr/local/bin/bcomps", "bdftogd": "/usr/local/bin/bdftogd", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "ccomps": "/usr/local/bin/ccomps", "chardetect": "/usr/local/bin/chardetect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconda-utils.
@@ -354,6 +364,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/skopeo   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/watchgod
 $ podman run --it --rm --entrypoint /usr/local/bin/watchgod   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/watchgod   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bdftogd
+
+```bash
+$ singularity exec <container> /usr/local/bin/bdftogd
+$ podman run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bdftogd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsdcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsdcpio
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdcpio
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdcpio   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bsdtar
+
+```bash
+$ singularity exec <container> /usr/local/bin/bsdtar
+$ podman run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bsdtar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/qsignature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qsignature/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/qsignature/container.yaml"
-updated_at: "2022-10-27 00:18:17.613486"
+updated_at: "2022-10-29 05:30:01.844032"
 latest: "0.1pre--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/qsignature"
 aliases:
  - "qsignature"
+ - "aserver"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "javac"
+ - "javadoc"
+ - "javap"
+ - "jcmd"
+ - "jconsole"
 versions:
  - "0.1pre--hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for qsignature"
-config: {"url": "https://biocontainers.pro/tools/qsignature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qsignature", "latest": {"0.1pre--hdfd78af_5": "sha256:d3498ae1ab91cab4c06fb2e6c502ddd332ba0ae89903311b13f34879058a6bff"}, "tags": {"0.1pre--hdfd78af_5": "sha256:d3498ae1ab91cab4c06fb2e6c502ddd332ba0ae89903311b13f34879058a6bff"}, "docker": "quay.io/biocontainers/qsignature", "aliases": {"qsignature": "/usr/local/bin/qsignature"}}
+config: {"url": "https://biocontainers.pro/tools/qsignature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qsignature", "latest": {"0.1pre--hdfd78af_5": "sha256:d3498ae1ab91cab4c06fb2e6c502ddd332ba0ae89903311b13f34879058a6bff"}, "tags": {"0.1pre--hdfd78af_5": "sha256:d3498ae1ab91cab4c06fb2e6c502ddd332ba0ae89903311b13f34879058a6bff"}, "docker": "quay.io/biocontainers/qsignature", "aliases": {"qsignature": "/usr/local/bin/qsignature", "aserver": "/usr/local/bin/aserver", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc", "javap": "/usr/local/bin/javap", "jcmd": "/usr/local/bin/jcmd", "jconsole": "/usr/local/bin/jconsole"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qsignature.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/qsignature
 $ podman run --it --rm --entrypoint /usr/local/bin/qsignature   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/qsignature   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javap
+
+```bash
+$ singularity exec <container> /usr/local/bin/javap
+$ podman run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/jcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jconsole
+
+```bash
+$ singularity exec <container> /usr/local/bin/jconsole
+$ podman run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jconsole   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

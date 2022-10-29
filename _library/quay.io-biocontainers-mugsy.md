@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/mugsy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mugsy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mugsy/container.yaml"
-updated_at: "2022-10-27 00:38:04.929255"
+updated_at: "2022-10-29 05:56:14.503454"
 latest: "1.2.3--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/mugsy"
 aliases:
- - ".mugsy-post-link.sh"
  - "delta-dups.sh"
  - "fixMAFnames.pl"
  - "maf2fasta.pl"
@@ -19,10 +18,13 @@ aliases:
  - "splitmaf.pl"
  - "synchain-mugsy"
  - "xmfa2maf.pl"
+ - "build_env_setup.sh"
+ - "conda_build.sh"
+ - "perl5.32.0"
 versions:
  - "1.2.3--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for mugsy"
-config: {"url": "https://biocontainers.pro/tools/mugsy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mugsy", "latest": {"1.2.3--hdfd78af_4": "sha256:5764b6bc25ed1a6ba912154db34db2d2d5d260df3903a7327d4b3ad418475810"}, "tags": {"1.2.3--hdfd78af_4": "sha256:5764b6bc25ed1a6ba912154db34db2d2d5d260df3903a7327d4b3ad418475810"}, "docker": "quay.io/biocontainers/mugsy", "aliases": {".mugsy-post-link.sh": "/usr/local/bin/.mugsy-post-link.sh", "delta-dups.sh": "/usr/local/bin/delta-dups.sh", "fixMAFnames.pl": "/usr/local/bin/fixMAFnames.pl", "maf2fasta.pl": "/usr/local/bin/maf2fasta.pl", "mugsy": "/usr/local/bin/mugsy", "mugsyWGA": "/usr/local/bin/mugsyWGA", "mugsyenv.sh": "/usr/local/bin/mugsyenv.sh", "plot.pl": "/usr/local/bin/plot.pl", "splitmaf.pl": "/usr/local/bin/splitmaf.pl", "synchain-mugsy": "/usr/local/bin/synchain-mugsy", "xmfa2maf.pl": "/usr/local/bin/xmfa2maf.pl"}}
+config: {"url": "https://biocontainers.pro/tools/mugsy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mugsy", "latest": {"1.2.3--hdfd78af_4": "sha256:5764b6bc25ed1a6ba912154db34db2d2d5d260df3903a7327d4b3ad418475810"}, "tags": {"1.2.3--hdfd78af_4": "sha256:5764b6bc25ed1a6ba912154db34db2d2d5d260df3903a7327d4b3ad418475810"}, "docker": "quay.io/biocontainers/mugsy", "aliases": {"delta-dups.sh": "/usr/local/bin/delta-dups.sh", "fixMAFnames.pl": "/usr/local/bin/fixMAFnames.pl", "maf2fasta.pl": "/usr/local/bin/maf2fasta.pl", "mugsy": "/usr/local/bin/mugsy", "mugsyWGA": "/usr/local/bin/mugsyWGA", "mugsyenv.sh": "/usr/local/bin/mugsyenv.sh", "plot.pl": "/usr/local/bin/plot.pl", "splitmaf.pl": "/usr/local/bin/splitmaf.pl", "synchain-mugsy": "/usr/local/bin/synchain-mugsy", "xmfa2maf.pl": "/usr/local/bin/xmfa2maf.pl", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "perl5.32.0": "/usr/local/bin/perl5.32.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mugsy.
@@ -105,15 +107,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .mugsy-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.mugsy-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.mugsy-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.mugsy-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -204,6 +197,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/synchain-mugsy   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/xmfa2maf.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/xmfa2maf.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/xmfa2maf.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### build_env_setup.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/build_env_setup.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/build_env_setup.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conda_build.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda_build.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda_build.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.32.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

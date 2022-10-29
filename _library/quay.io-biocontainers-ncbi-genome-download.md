@@ -4,17 +4,25 @@ name:  "quay.io/biocontainers/ncbi-genome-download"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-genome-download/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-genome-download/container.yaml"
-updated_at: "2022-10-27 00:33:37.116731"
+updated_at: "2022-10-29 05:50:16.746876"
 latest: "0.3.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/ncbi-genome-download"
 aliases:
  - "gimme_taxa.py"
  - "ncbi-genome-download"
  - "ngd"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "normalizer"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
+ - "tqdm"
 versions:
  - "0.3.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for ncbi-genome-download"
-config: {"url": "https://biocontainers.pro/tools/ncbi-genome-download", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-genome-download", "latest": {"0.3.1--pyh5e36f6f_0": "sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8"}, "docker": "quay.io/biocontainers/ncbi-genome-download", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-genome-download", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-genome-download", "latest": {"0.3.1--pyh5e36f6f_0": "sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8"}, "tags": {"0.3.1--pyh5e36f6f_0": "sha256:de4be4c3596577e91192d12e6fb5eb0b7441af5ba33e67d114bff07c4d61d7d8"}, "docker": "quay.io/biocontainers/ncbi-genome-download", "aliases": {"gimme_taxa.py": "/usr/local/bin/gimme_taxa.py", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "normalizer": "/usr/local/bin/normalizer", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-genome-download.
@@ -124,6 +132,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncbi-genome-download   -v ${P
 $ singularity exec <container> /usr/local/bin/ngd
 $ podman run --it --rm --entrypoint /usr/local/bin/ngd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ngd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### normalizer
+
+```bash
+$ singularity exec <container> /usr/local/bin/normalizer
+$ podman run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/normalizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

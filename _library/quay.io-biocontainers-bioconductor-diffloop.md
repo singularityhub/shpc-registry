@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-diffloop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffloop/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffloop/container.yaml"
-updated_at: "2022-10-27 00:28:57.792514"
+updated_at: "2022-10-29 05:44:08.153748"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffloop"
-
+aliases:
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diffloop"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diffloop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffloop", "latest": {"1.8.0--r351_0": "sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966"}, "tags": {"1.8.0--r351_0": "sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966"}, "docker": "quay.io/biocontainers/bioconductor-diffloop"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diffloop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffloop", "latest": {"1.8.0--r351_0": "sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966"}, "tags": {"1.8.0--r351_0": "sha256:a190e8be8ea936f4f5a567695526edfafd7b3bbea0d2c07b281a56469a173966"}, "docker": "quay.io/biocontainers/bioconductor-diffloop", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diffloop.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-diffloop
+#### wget
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

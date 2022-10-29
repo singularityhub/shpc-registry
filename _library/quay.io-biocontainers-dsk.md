@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/dsk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dsk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dsk/container.yaml"
-updated_at: "2022-10-27 00:24:28.006825"
+updated_at: "2022-10-29 05:38:10.068862"
 latest: "2.3.3--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/dsk"
 aliases:
  - "dsk"
  - "dsk2ascii"
+ - "h5cc"
 versions:
  - "2.3.3--h5b5514e_2"
 description: "shpc-registry automated BioContainers addition for dsk"
-config: {"url": "https://biocontainers.pro/tools/dsk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dsk", "latest": {"2.3.3--h5b5514e_2": "sha256:7dc2b558c08c23666a3aedc8fcfff8c220991a4da4e44a71a3bfa31846fb43a3"}, "tags": {"2.3.3--h5b5514e_2": "sha256:7dc2b558c08c23666a3aedc8fcfff8c220991a4da4e44a71a3bfa31846fb43a3"}, "docker": "quay.io/biocontainers/dsk", "aliases": {"dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii"}}
+config: {"url": "https://biocontainers.pro/tools/dsk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dsk", "latest": {"2.3.3--h5b5514e_2": "sha256:7dc2b558c08c23666a3aedc8fcfff8c220991a4da4e44a71a3bfa31846fb43a3"}, "tags": {"2.3.3--h5b5514e_2": "sha256:7dc2b558c08c23666a3aedc8fcfff8c220991a4da4e44a71a3bfa31846fb43a3"}, "docker": "quay.io/biocontainers/dsk", "aliases": {"dsk": "/usr/local/bin/dsk", "dsk2ascii": "/usr/local/bin/dsk2ascii", "h5cc": "/usr/local/bin/h5cc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dsk.
@@ -114,6 +115,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dsk   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/dsk2ascii
 $ podman run --it --rm --entrypoint /usr/local/bin/dsk2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/dsk2ascii   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

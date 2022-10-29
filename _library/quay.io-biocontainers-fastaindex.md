@@ -4,16 +4,23 @@ name:  "quay.io/biocontainers/fastaindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastaindex/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastaindex/container.yaml"
-updated_at: "2022-10-27 00:29:53.923212"
+updated_at: "2022-10-29 05:45:21.238548"
 latest: "0.11c--py_3"
 container_url: "https://biocontainers.pro/tools/fastaindex"
 aliases:
  - "FastaIndex"
  - "fasta_stats"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "0.11c--py_3"
 description: "shpc-registry automated BioContainers addition for fastaindex"
-config: {"url": "https://biocontainers.pro/tools/fastaindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastaindex", "latest": {"0.11c--py_3": "sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241"}, "tags": {"0.11c--py_3": "sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241"}, "docker": "quay.io/biocontainers/fastaindex", "aliases": {"FastaIndex": "/usr/local/bin/FastaIndex", "fasta_stats": "/usr/local/bin/fasta_stats"}}
+config: {"url": "https://biocontainers.pro/tools/fastaindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fastaindex", "latest": {"0.11c--py_3": "sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241"}, "tags": {"0.11c--py_3": "sha256:8a5217da9358136db3dd08d4697a0cf6bdc32d6eab0a6fe0a0871e6566a7a241"}, "docker": "quay.io/biocontainers/fastaindex", "aliases": {"FastaIndex": "/usr/local/bin/FastaIndex", "fasta_stats": "/usr/local/bin/fasta_stats", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fastaindex.
@@ -114,6 +121,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/FastaIndex   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/fasta_stats
 $ podman run --it --rm --entrypoint /usr/local/bin/fasta_stats   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/fasta_stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

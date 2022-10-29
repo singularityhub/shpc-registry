@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/pairtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pairtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pairtools/container.yaml"
-updated_at: "2022-10-27 00:18:20.162562"
+updated_at: "2022-10-29 05:30:05.104674"
 latest: "1.0.1--py37h9f12aac_0"
 container_url: "https://biocontainers.pro/tools/pairtools"
 aliases:
  - "pairtools"
  - "pbgzip"
+ - "2to3-3.7"
+ - "ace2sam"
+ - "b2sum"
+ - "bam2pairs"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "basenc"
+ - "bgzip"
+ - "blast2sam.pl"
 versions:
  - "1.0.1--py37h9f12aac_0"
 description: "shpc-registry automated BioContainers addition for pairtools"
-config: {"url": "https://biocontainers.pro/tools/pairtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pairtools", "latest": {"1.0.1--py37h9f12aac_0": "sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408"}, "tags": {"1.0.1--py37h9f12aac_0": "sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408"}, "docker": "quay.io/biocontainers/pairtools", "aliases": {"pairtools": "/usr/local/bin/pairtools", "pbgzip": "/usr/local/bin/pbgzip"}}
+config: {"url": "https://biocontainers.pro/tools/pairtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pairtools", "latest": {"1.0.1--py37h9f12aac_0": "sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408"}, "tags": {"1.0.1--py37h9f12aac_0": "sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408"}, "docker": "quay.io/biocontainers/pairtools", "aliases": {"pairtools": "/usr/local/bin/pairtools", "pbgzip": "/usr/local/bin/pbgzip", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "b2sum": "/usr/local/bin/b2sum", "bam2pairs": "/usr/local/bin/bam2pairs", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pairtools.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pairtools   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/pbgzip
 $ podman run --it --rm --entrypoint /usr/local/bin/pbgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pbgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2pairs
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2pairs
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2pairs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

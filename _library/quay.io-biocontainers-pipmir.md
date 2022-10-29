@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/pipmir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pipmir/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pipmir/container.yaml"
-updated_at: "2022-10-27 00:20:52.671650"
+updated_at: "2022-10-29 05:33:25.469196"
 latest: "1.1--hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/pipmir"
 aliases:
  - "PIPmiR"
+ - "Kinfold"
+ - "RNALfold"
+ - "RNAaliduplex"
+ - "RNAalifold"
+ - "RNAcofold"
+ - "RNAdistance"
+ - "RNAduplex"
+ - "RNAeval"
+ - "RNAfold"
+ - "RNAforester"
 versions:
  - "1.1--hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for pipmir"
-config: {"url": "https://biocontainers.pro/tools/pipmir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipmir", "latest": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "tags": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "docker": "quay.io/biocontainers/pipmir", "aliases": {"PIPmiR": "/usr/local/bin/PIPmiR"}}
+config: {"url": "https://biocontainers.pro/tools/pipmir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pipmir", "latest": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "tags": {"1.1--hdfd78af_5": "sha256:2894a578a6f2811009b64f555d3c72fe46c5a75fc34c9bb416c559012802fdfe"}, "docker": "quay.io/biocontainers/pipmir", "aliases": {"PIPmiR": "/usr/local/bin/PIPmiR", "Kinfold": "/usr/local/bin/Kinfold", "RNALfold": "/usr/local/bin/RNALfold", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold", "RNAdistance": "/usr/local/bin/RNAdistance", "RNAduplex": "/usr/local/bin/RNAduplex", "RNAeval": "/usr/local/bin/RNAeval", "RNAfold": "/usr/local/bin/RNAfold", "RNAforester": "/usr/local/bin/RNAforester"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pipmir.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/PIPmiR
 $ podman run --it --rm --entrypoint /usr/local/bin/PIPmiR   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/PIPmiR   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Kinfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/Kinfold
+$ podman run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNALfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNALfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAaliduplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAaliduplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAalifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAalifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAcofold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAcofold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAcofold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAcofold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAdistance
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAdistance
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAdistance   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAdistance   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAduplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAduplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAeval
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAeval
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAeval   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAeval   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAforester
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAforester
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAforester   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAforester   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

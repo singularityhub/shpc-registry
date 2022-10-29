@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/htseqqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htseqqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/htseqqc/container.yaml"
-updated_at: "2022-10-27 00:38:17.013222"
+updated_at: "2022-10-29 05:56:30.886385"
 latest: "v1.0--pyh5bfb8f1_0"
 container_url: "https://biocontainers.pro/tools/htseqqc"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "StatisticSingle.py"
  - "common_functions.py"
  - "filter.py"
+ - "2to3-3.6"
+ - "ace2sam"
+ - "bcftools"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "export2sam.pl"
+ - "f2py3.6"
+ - "guess-ploidy.py"
+ - "htsfile"
 versions:
  - "v1.0--pyh5bfb8f1_0"
 description: "shpc-registry automated BioContainers addition for htseqqc"
-config: {"url": "https://biocontainers.pro/tools/htseqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htseqqc", "latest": {"v1.0--pyh5bfb8f1_0": "sha256:e60fe4f2f8c47c7d1a196403410becf5a6bae4378df3a06ac2118cec89766831"}, "tags": {"v1.0--pyh5bfb8f1_0": "sha256:e60fe4f2f8c47c7d1a196403410becf5a6bae4378df3a06ac2118cec89766831"}, "docker": "quay.io/biocontainers/htseqqc", "aliases": {"Filter_Pair.py": "/usr/local/bin/Filter_Pair.py", "Filter_Single.py": "/usr/local/bin/Filter_Single.py", "StatisticPair.py": "/usr/local/bin/StatisticPair.py", "StatisticSingle.py": "/usr/local/bin/StatisticSingle.py", "common_functions.py": "/usr/local/bin/common_functions.py", "filter.py": "/usr/local/bin/filter.py"}}
+config: {"url": "https://biocontainers.pro/tools/htseqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htseqqc", "latest": {"v1.0--pyh5bfb8f1_0": "sha256:e60fe4f2f8c47c7d1a196403410becf5a6bae4378df3a06ac2118cec89766831"}, "tags": {"v1.0--pyh5bfb8f1_0": "sha256:e60fe4f2f8c47c7d1a196403410becf5a6bae4378df3a06ac2118cec89766831"}, "docker": "quay.io/biocontainers/htseqqc", "aliases": {"Filter_Pair.py": "/usr/local/bin/Filter_Pair.py", "Filter_Single.py": "/usr/local/bin/Filter_Single.py", "StatisticPair.py": "/usr/local/bin/StatisticPair.py", "StatisticSingle.py": "/usr/local/bin/StatisticSingle.py", "common_functions.py": "/usr/local/bin/common_functions.py", "filter.py": "/usr/local/bin/filter.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "f2py3.6": "/usr/local/bin/f2py3.6", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "htsfile": "/usr/local/bin/htsfile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/htseqqc.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/common_functions.py   -v ${PW
 $ singularity exec <container> /usr/local/bin/filter.py
 $ podman run --it --rm --entrypoint /usr/local/bin/filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/filter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### guess-ploidy.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

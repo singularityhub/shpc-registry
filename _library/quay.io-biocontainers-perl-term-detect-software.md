@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/perl-term-detect-software"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-term-detect-software/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-term-detect-software/container.yaml"
-updated_at: "2022-10-27 00:32:43.695569"
+updated_at: "2022-10-29 05:49:07.974077"
 latest: "0.223--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-term-detect-software"
-
+aliases:
+ - "corelist"
+ - "cpan"
+ - "enc2xs"
+ - "encguess"
+ - "h2ph"
+ - "h2xs"
+ - "instmodsh"
+ - "json_pp"
+ - "libnetcfg"
+ - "perl"
 versions:
  - "0.223--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-term-detect-software"
-config: {"url": "https://biocontainers.pro/tools/perl-term-detect-software", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-detect-software", "latest": {"0.223--pl5321hdfd78af_0": "sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395"}, "tags": {"0.223--pl5321hdfd78af_0": "sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395"}, "docker": "quay.io/biocontainers/perl-term-detect-software"}
+config: {"url": "https://biocontainers.pro/tools/perl-term-detect-software", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-term-detect-software", "latest": {"0.223--pl5321hdfd78af_0": "sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395"}, "tags": {"0.223--pl5321hdfd78af_0": "sha256:de8eac1e30c4c4d6ecae42e64706a5e9fd3628ed3f9c8204659f9f96711e6395"}, "docker": "quay.io/biocontainers/perl-term-detect-software", "aliases": {"corelist": "/usr/local/bin/corelist", "cpan": "/usr/local/bin/cpan", "enc2xs": "/usr/local/bin/enc2xs", "encguess": "/usr/local/bin/encguess", "h2ph": "/usr/local/bin/h2ph", "h2xs": "/usr/local/bin/h2xs", "instmodsh": "/usr/local/bin/instmodsh", "json_pp": "/usr/local/bin/json_pp", "libnetcfg": "/usr/local/bin/libnetcfg", "perl": "/usr/local/bin/perl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-term-detect-software.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-term-detect-software
+#### corelist
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/corelist
+$ podman run --it --rm --entrypoint /usr/local/bin/corelist   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/corelist   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### cpan
+
+```bash
+$ singularity exec <container> /usr/local/bin/cpan
+$ podman run --it --rm --entrypoint /usr/local/bin/cpan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### enc2xs
+
+```bash
+$ singularity exec <container> /usr/local/bin/enc2xs
+$ podman run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### encguess
+
+```bash
+$ singularity exec <container> /usr/local/bin/encguess
+$ podman run --it --rm --entrypoint /usr/local/bin/encguess   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/encguess   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h2ph
+
+```bash
+$ singularity exec <container> /usr/local/bin/h2ph
+$ podman run --it --rm --entrypoint /usr/local/bin/h2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h2ph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h2xs
+
+```bash
+$ singularity exec <container> /usr/local/bin/h2xs
+$ podman run --it --rm --entrypoint /usr/local/bin/h2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### instmodsh
+
+```bash
+$ singularity exec <container> /usr/local/bin/instmodsh
+$ podman run --it --rm --entrypoint /usr/local/bin/instmodsh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/instmodsh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### json_pp
+
+```bash
+$ singularity exec <container> /usr/local/bin/json_pp
+$ podman run --it --rm --entrypoint /usr/local/bin/json_pp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/json_pp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### libnetcfg
+
+```bash
+$ singularity exec <container> /usr/local/bin/libnetcfg
+$ podman run --it --rm --entrypoint /usr/local/bin/libnetcfg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/libnetcfg   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl
+$ podman run --it --rm --entrypoint /usr/local/bin/perl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

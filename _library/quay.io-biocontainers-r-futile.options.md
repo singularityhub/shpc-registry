@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/r-futile.options"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-futile.options/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-futile.options/container.yaml"
-updated_at: "2022-10-27 00:33:02.444758"
+updated_at: "2022-10-29 05:49:32.391157"
 latest: "1.0.0--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-futile.options"
-
+aliases:
+ - "bmp2tiff"
+ - "gif2tiff"
+ - "pngcp"
+ - "ras2tiff"
+ - "rgb2ycbcr"
+ - "thumbnail"
 versions:
  - "1.0.0--r3.2.2_0"
 description: "shpc-registry automated BioContainers addition for r-futile.options"
-config: {"url": "https://biocontainers.pro/tools/r-futile.options", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-futile.options", "latest": {"1.0.0--r3.2.2_0": "sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f"}, "tags": {"1.0.0--r3.2.2_0": "sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f"}, "docker": "quay.io/biocontainers/r-futile.options"}
+config: {"url": "https://biocontainers.pro/tools/r-futile.options", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-futile.options", "latest": {"1.0.0--r3.2.2_0": "sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f"}, "tags": {"1.0.0--r3.2.2_0": "sha256:4ef42550b47399ba1cf845d071cee3496502c84a507eac44440d2fae6404dd7f"}, "docker": "quay.io/biocontainers/r-futile.options", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "pngcp": "/usr/local/bin/pngcp", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-futile.options.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-futile.options
+#### bmp2tiff
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pngcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngcp
+$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ras2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/ras2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rgb2ycbcr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rgb2ycbcr
+$ podman run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thumbnail
+
+```bash
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

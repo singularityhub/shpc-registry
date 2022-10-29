@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/codonw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/codonw/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/codonw/container.yaml"
-updated_at: "2022-10-27 00:20:58.621891"
+updated_at: "2022-10-29 05:33:33.097959"
 latest: "1.4.4--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/codonw"
 aliases:
@@ -25,10 +25,12 @@ aliases:
  - "rscu"
  - "tidy"
  - "transl"
+ - "cai"
+ - "gc"
 versions:
  - "1.4.4--hec16e2b_4"
 description: "shpc-registry automated BioContainers addition for codonw"
-config: {"url": "https://biocontainers.pro/tools/codonw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codonw", "latest": {"1.4.4--hec16e2b_4": "sha256:f25ea50420d73c881793d59af13e74e38f8f908f5d0031bb9a66010d26e41c74"}, "tags": {"1.4.4--hec16e2b_4": "sha256:f25ea50420d73c881793d59af13e74e38f8f908f5d0031bb9a66010d26e41c74"}, "docker": "quay.io/biocontainers/codonw", "aliases": {"aau": "/usr/local/bin/aau", "base3s": "/usr/local/bin/base3s", "bases": "/usr/local/bin/bases", "cbi": "/usr/local/bin/cbi", "codonw": "/usr/local/bin/codonw", "cu": "/usr/local/bin/cu", "cutab": "/usr/local/bin/cutab", "cutot": "/usr/local/bin/cutot", "dinuc": "/usr/local/bin/dinuc", "enc": "/usr/local/bin/enc", "fop": "/usr/local/bin/fop", "gc3s": "/usr/local/bin/gc3s", "raau": "/usr/local/bin/raau", "reader": "/usr/local/bin/reader", "rscu": "/usr/local/bin/rscu", "tidy": "/usr/local/bin/tidy", "transl": "/usr/local/bin/transl"}}
+config: {"url": "https://biocontainers.pro/tools/codonw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for codonw", "latest": {"1.4.4--hec16e2b_4": "sha256:f25ea50420d73c881793d59af13e74e38f8f908f5d0031bb9a66010d26e41c74"}, "tags": {"1.4.4--hec16e2b_4": "sha256:f25ea50420d73c881793d59af13e74e38f8f908f5d0031bb9a66010d26e41c74"}, "docker": "quay.io/biocontainers/codonw", "aliases": {"aau": "/usr/local/bin/aau", "base3s": "/usr/local/bin/base3s", "bases": "/usr/local/bin/bases", "cbi": "/usr/local/bin/cbi", "codonw": "/usr/local/bin/codonw", "cu": "/usr/local/bin/cu", "cutab": "/usr/local/bin/cutab", "cutot": "/usr/local/bin/cutot", "dinuc": "/usr/local/bin/dinuc", "enc": "/usr/local/bin/enc", "fop": "/usr/local/bin/fop", "gc3s": "/usr/local/bin/gc3s", "raau": "/usr/local/bin/raau", "reader": "/usr/local/bin/reader", "rscu": "/usr/local/bin/rscu", "tidy": "/usr/local/bin/tidy", "transl": "/usr/local/bin/transl", "cai": "/usr/local/bin/cai", "gc": "/usr/local/bin/gc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/codonw.
@@ -264,6 +266,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/tidy   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/transl
 $ podman run --it --rm --entrypoint /usr/local/bin/transl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/transl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cai
+
+```bash
+$ singularity exec <container> /usr/local/bin/cai
+$ podman run --it --rm --entrypoint /usr/local/bin/cai   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cai   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gc
+
+```bash
+$ singularity exec <container> /usr/local/bin/gc
+$ podman run --it --rm --entrypoint /usr/local/bin/gc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

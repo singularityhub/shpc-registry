@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/commet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/commet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/commet/container.yaml"
-updated_at: "2022-10-27 00:33:35.402515"
+updated_at: "2022-10-29 05:50:14.600070"
 latest: "24.7.14--r41hfada1a9_7"
 container_url: "https://biocontainers.pro/tools/commet"
 aliases:
@@ -16,10 +16,16 @@ aliases:
  - "filter_reads"
  - "heatmap.r"
  - "index_and_search"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "24.7.14--r41hfada1a9_7"
 description: "shpc-registry automated BioContainers addition for commet"
-config: {"url": "https://biocontainers.pro/tools/commet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for commet", "latest": {"24.7.14--r41hfada1a9_7": "sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38"}, "tags": {"24.7.14--r41hfada1a9_7": "sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38"}, "docker": "quay.io/biocontainers/commet", "aliases": {"Commet.py": "/usr/local/bin/Commet.py", "bvop": "/usr/local/bin/bvop", "compare_reads": "/usr/local/bin/compare_reads", "dendro.R": "/usr/local/bin/dendro.R", "extract_reads": "/usr/local/bin/extract_reads", "filter_reads": "/usr/local/bin/filter_reads", "heatmap.r": "/usr/local/bin/heatmap.r", "index_and_search": "/usr/local/bin/index_and_search"}}
+config: {"url": "https://biocontainers.pro/tools/commet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for commet", "latest": {"24.7.14--r41hfada1a9_7": "sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38"}, "tags": {"24.7.14--r41hfada1a9_7": "sha256:c1942271fbd8abdb58bc26d68310c1cf07e2f295678a00ef9f75b12c60052e38"}, "docker": "quay.io/biocontainers/commet", "aliases": {"Commet.py": "/usr/local/bin/Commet.py", "bvop": "/usr/local/bin/bvop", "compare_reads": "/usr/local/bin/compare_reads", "dendro.R": "/usr/local/bin/dendro.R", "extract_reads": "/usr/local/bin/extract_reads", "filter_reads": "/usr/local/bin/filter_reads", "heatmap.r": "/usr/local/bin/heatmap.r", "index_and_search": "/usr/local/bin/index_and_search", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/commet.
@@ -174,6 +180,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/heatmap.r   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/index_and_search
 $ podman run --it --rm --entrypoint /usr/local/bin/index_and_search   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/index_and_search   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

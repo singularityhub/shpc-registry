@@ -4,14 +4,22 @@ name:  "quay.io/biocontainers/bioconductor-rnaprobr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
-updated_at: "2022-10-27 00:35:55.987588"
+updated_at: "2022-10-29 05:53:25.236742"
 latest: "1.9.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaprobr"
-
+aliases:
+ - "my_print_defaults"
+ - "mysql_config"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "perror"
+ - "tclsh8.5"
+ - "wget"
+ - "wish8.5"
 versions:
  - "1.9.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaprobr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaprobr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaprobr", "latest": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f"}, "tags": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f"}, "docker": "quay.io/biocontainers/bioconductor-rnaprobr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaprobr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaprobr", "latest": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f"}, "tags": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f"}, "docker": "quay.io/biocontainers/bioconductor-rnaprobr", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "perror": "/usr/local/bin/perror", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wget": "/usr/local/bin/wget", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaprobr.
@@ -97,14 +105,77 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-rnaprobr
+#### my_print_defaults
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/my_print_defaults
+$ podman run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### mysql_config
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_config
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perror
+
+```bash
+$ singularity exec <container> /usr/local/bin/perror
+$ podman run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

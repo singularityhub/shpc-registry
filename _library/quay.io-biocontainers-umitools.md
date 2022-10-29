@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/umitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/umitools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/umitools/container.yaml"
-updated_at: "2022-10-27 00:30:57.657371"
+updated_at: "2022-10-29 05:46:47.380172"
 latest: "0.3.4--py_2"
 container_url: "https://biocontainers.pro/tools/umitools"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "umi_reformat_sra_fastq"
  - "umi_simulator"
  - "umitools"
+ - "2to3-3.6"
+ - "ace2sam"
+ - "bcftools"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "color-chrs.pl"
+ - "export2sam.pl"
+ - "guess-ploidy.py"
+ - "htsfile"
 versions:
  - "0.3.4--py_2"
 description: "shpc-registry automated BioContainers addition for umitools"
-config: {"url": "https://biocontainers.pro/tools/umitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umitools", "latest": {"0.3.4--py_2": "sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417"}, "tags": {"0.3.4--py_2": "sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417"}, "docker": "quay.io/biocontainers/umitools", "aliases": {"umi_mark_duplicates": "/usr/local/bin/umi_mark_duplicates", "umi_reformat_fastq": "/usr/local/bin/umi_reformat_fastq", "umi_reformat_sra_fastq": "/usr/local/bin/umi_reformat_sra_fastq", "umi_simulator": "/usr/local/bin/umi_simulator", "umitools": "/usr/local/bin/umitools"}}
+config: {"url": "https://biocontainers.pro/tools/umitools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for umitools", "latest": {"0.3.4--py_2": "sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417"}, "tags": {"0.3.4--py_2": "sha256:d9ed262fbf17569c141266e5ca4a5a97b36824f225afd237b82b69a595540417"}, "docker": "quay.io/biocontainers/umitools", "aliases": {"umi_mark_duplicates": "/usr/local/bin/umi_mark_duplicates", "umi_reformat_fastq": "/usr/local/bin/umi_reformat_fastq", "umi_reformat_sra_fastq": "/usr/local/bin/umi_reformat_sra_fastq", "umi_simulator": "/usr/local/bin/umi_simulator", "umitools": "/usr/local/bin/umitools", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "htsfile": "/usr/local/bin/htsfile"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/umitools.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/umi_simulator   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/umitools
 $ podman run --it --rm --entrypoint /usr/local/bin/umitools   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/umitools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### guess-ploidy.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins/container.yaml"
-updated_at: "2022-10-27 00:37:47.468042"
+updated_at: "2022-10-29 05:55:52.071367"
 latest: "0.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins"
 aliases:
  - "proteomiqon-joinquantpepionswithproteins"
+ - "lttng-gen-tp"
 versions:
  - "0.0.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for proteomiqon-joinquantpepionswithproteins"
-config: {"url": "https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-joinquantpepionswithproteins", "latest": {"0.0.1--hdfd78af_1": "sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2"}, "tags": {"0.0.1--hdfd78af_1": "sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2"}, "docker": "quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins", "aliases": {"proteomiqon-joinquantpepionswithproteins": "/usr/local/bin/proteomiqon-joinquantpepionswithproteins"}}
+config: {"url": "https://biocontainers.pro/tools/proteomiqon-joinquantpepionswithproteins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proteomiqon-joinquantpepionswithproteins", "latest": {"0.0.1--hdfd78af_1": "sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2"}, "tags": {"0.0.1--hdfd78af_1": "sha256:ab87dbd5b9e39b2f378c6ae456b39a9e293c8fdfb1d47b26cc2d35aa6003f1d2"}, "docker": "quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins", "aliases": {"proteomiqon-joinquantpepionswithproteins": "/usr/local/bin/proteomiqon-joinquantpepionswithproteins", "lttng-gen-tp": "/usr/local/bin/lttng-gen-tp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proteomiqon-joinquantpepionswithproteins.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/proteomiqon-joinquantpepionswithproteins
 $ podman run --it --rm --entrypoint /usr/local/bin/proteomiqon-joinquantpepionswithproteins   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/proteomiqon-joinquantpepionswithproteins   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### lttng-gen-tp
+
+```bash
+$ singularity exec <container> /usr/local/bin/lttng-gen-tp
+$ podman run --it --rm --entrypoint /usr/local/bin/lttng-gen-tp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/lttng-gen-tp   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

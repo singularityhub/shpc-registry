@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/xpressplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xpressplot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xpressplot/container.yaml"
-updated_at: "2022-10-27 00:27:22.177947"
+updated_at: "2022-10-29 05:42:04.570665"
 latest: "0.2.5--pyh4c3bd37_1"
 container_url: "https://biocontainers.pro/tools/xpressplot"
-
+aliases:
+ - "f2py3.8"
 versions:
  - "0.2.5--pyh4c3bd37_1"
 description: "shpc-registry automated BioContainers addition for xpressplot"
-config: {"url": "https://biocontainers.pro/tools/xpressplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpressplot", "latest": {"0.2.5--pyh4c3bd37_1": "sha256:51b3684c13d6205e7d6981377039f7a19f324e9efe9f90ef6fb6f8a5c7d1b378"}, "tags": {"0.2.5--pyh4c3bd37_1": "sha256:51b3684c13d6205e7d6981377039f7a19f324e9efe9f90ef6fb6f8a5c7d1b378"}, "docker": "quay.io/biocontainers/xpressplot"}
+config: {"url": "https://biocontainers.pro/tools/xpressplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xpressplot", "latest": {"0.2.5--pyh4c3bd37_1": "sha256:51b3684c13d6205e7d6981377039f7a19f324e9efe9f90ef6fb6f8a5c7d1b378"}, "tags": {"0.2.5--pyh4c3bd37_1": "sha256:51b3684c13d6205e7d6981377039f7a19f324e9efe9f90ef6fb6f8a5c7d1b378"}, "docker": "quay.io/biocontainers/xpressplot", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xpressplot.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### xpressplot
+#### f2py3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

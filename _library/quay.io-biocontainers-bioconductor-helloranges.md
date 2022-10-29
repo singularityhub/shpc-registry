@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-helloranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-helloranges/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-helloranges/container.yaml"
-updated_at: "2022-10-27 00:19:11.188495"
+updated_at: "2022-10-29 05:31:12.850476"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-helloranges"
-
+aliases:
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-helloranges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-helloranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-helloranges", "latest": {"1.8.0--r351_0": "sha256:189ed97f8eff30a1265686dcc923cdcc01a2bf523dec06021990637ef155d2d4"}, "tags": {"1.8.0--r351_0": "sha256:189ed97f8eff30a1265686dcc923cdcc01a2bf523dec06021990637ef155d2d4"}, "docker": "quay.io/biocontainers/bioconductor-helloranges"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-helloranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-helloranges", "latest": {"1.8.0--r351_0": "sha256:189ed97f8eff30a1265686dcc923cdcc01a2bf523dec06021990637ef155d2d4"}, "tags": {"1.8.0--r351_0": "sha256:189ed97f8eff30a1265686dcc923cdcc01a2bf523dec06021990637ef155d2d4"}, "docker": "quay.io/biocontainers/bioconductor-helloranges", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-helloranges.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-helloranges
+#### wget
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

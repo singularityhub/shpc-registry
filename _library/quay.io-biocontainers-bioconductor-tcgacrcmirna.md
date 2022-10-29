@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tcgacrcmirna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgacrcmirna/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgacrcmirna/container.yaml"
-updated_at: "2022-10-27 00:39:41.432654"
+updated_at: "2022-10-29 05:58:19.906779"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgacrcmirna"
 aliases:
- - ".bioconductor-tcgacrcmirna-post-link.sh"
- - ".bioconductor-tcgacrcmirna-pre-unlink.sh"
+ - "c89"
+ - "c99"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmirna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgacrcmirna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmirna", "latest": {"1.9.0--r40_0": "sha256:98ef10d7ea8887485250426095080840b73abe5651a84f91383552e12f0356fa"}, "tags": {"1.9.0--r40_0": "sha256:98ef10d7ea8887485250426095080840b73abe5651a84f91383552e12f0356fa"}, "docker": "quay.io/biocontainers/bioconductor-tcgacrcmirna", "aliases": {".bioconductor-tcgacrcmirna-post-link.sh": "/usr/local/bin/.bioconductor-tcgacrcmirna-post-link.sh", ".bioconductor-tcgacrcmirna-pre-unlink.sh": "/usr/local/bin/.bioconductor-tcgacrcmirna-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgacrcmirna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgacrcmirna", "latest": {"1.9.0--r40_0": "sha256:98ef10d7ea8887485250426095080840b73abe5651a84f91383552e12f0356fa"}, "tags": {"1.9.0--r40_0": "sha256:98ef10d7ea8887485250426095080840b73abe5651a84f91383552e12f0356fa"}, "docker": "quay.io/biocontainers/bioconductor-tcgacrcmirna", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcgacrcmirna.
@@ -99,21 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-tcgacrcmirna-post-link.sh
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tcgacrcmirna-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmirna-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmirna-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-tcgacrcmirna-pre-unlink.sh
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tcgacrcmirna-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmirna-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgacrcmirna-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/rabix-bunny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rabix-bunny/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rabix-bunny/container.yaml"
-updated_at: "2022-10-27 00:32:23.154475"
+updated_at: "2022-10-29 05:48:40.910968"
 latest: "1.0.4--hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/rabix-bunny"
 aliases:
  - "rabix"
+ - "appletviewer"
+ - "clhsdb"
+ - "extcheck"
+ - "hsdb"
+ - "idlj"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "java-rmi.cgi"
+ - "javac"
 versions:
  - "1.0.4--hdfd78af_9"
 description: "shpc-registry automated BioContainers addition for rabix-bunny"
-config: {"url": "https://biocontainers.pro/tools/rabix-bunny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rabix-bunny", "latest": {"1.0.4--hdfd78af_9": "sha256:f73c67e226498a186d81de791fc881be643f9d91c817d9d282ab2b55e0a40796"}, "tags": {"1.0.4--hdfd78af_9": "sha256:f73c67e226498a186d81de791fc881be643f9d91c817d9d282ab2b55e0a40796"}, "docker": "quay.io/biocontainers/rabix-bunny", "aliases": {"rabix": "/usr/local/bin/rabix"}}
+config: {"url": "https://biocontainers.pro/tools/rabix-bunny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rabix-bunny", "latest": {"1.0.4--hdfd78af_9": "sha256:f73c67e226498a186d81de791fc881be643f9d91c817d9d282ab2b55e0a40796"}, "tags": {"1.0.4--hdfd78af_9": "sha256:f73c67e226498a186d81de791fc881be643f9d91c817d9d282ab2b55e0a40796"}, "docker": "quay.io/biocontainers/rabix-bunny", "aliases": {"rabix": "/usr/local/bin/rabix", "appletviewer": "/usr/local/bin/appletviewer", "clhsdb": "/usr/local/bin/clhsdb", "extcheck": "/usr/local/bin/extcheck", "hsdb": "/usr/local/bin/hsdb", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javac": "/usr/local/bin/javac"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rabix-bunny.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/rabix
 $ podman run --it --rm --entrypoint /usr/local/bin/rabix   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/clhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/hsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java-rmi.cgi
+
+```bash
+$ singularity exec <container> /usr/local/bin/java-rmi.cgi
+$ podman run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java-rmi.cgi   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

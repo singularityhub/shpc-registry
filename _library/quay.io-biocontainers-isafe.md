@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/isafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isafe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/isafe/container.yaml"
-updated_at: "2022-10-27 00:35:33.766164"
+updated_at: "2022-10-29 05:52:55.562798"
 latest: "1.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/isafe"
 aliases:
  - "isafe"
+ - "2to3-3.9"
+ - "bcftools"
+ - "bgzip"
+ - "color-chrs.pl"
+ - "f2py3.9"
+ - "gff2gff.py"
+ - "guess-ploidy.py"
+ - "htsfile"
+ - "idle3.9"
+ - "plot-roh.py"
 versions:
  - "1.1.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for isafe"
-config: {"url": "https://biocontainers.pro/tools/isafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isafe", "latest": {"1.1.1--pyh5e36f6f_0": "sha256:e48fd39462b2532510c4cfc33064fd9eecb3be226375b358c026f28737f0a498"}, "tags": {"1.1.1--pyh5e36f6f_0": "sha256:e48fd39462b2532510c4cfc33064fd9eecb3be226375b358c026f28737f0a498"}, "docker": "quay.io/biocontainers/isafe", "aliases": {"isafe": "/usr/local/bin/isafe"}}
+config: {"url": "https://biocontainers.pro/tools/isafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for isafe", "latest": {"1.1.1--pyh5e36f6f_0": "sha256:e48fd39462b2532510c4cfc33064fd9eecb3be226375b358c026f28737f0a498"}, "tags": {"1.1.1--pyh5e36f6f_0": "sha256:e48fd39462b2532510c4cfc33064fd9eecb3be226375b358c026f28737f0a498"}, "docker": "quay.io/biocontainers/isafe", "aliases": {"isafe": "/usr/local/bin/isafe", "2to3-3.9": "/usr/local/bin/2to3-3.9", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "f2py3.9": "/usr/local/bin/f2py3.9", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "htsfile": "/usr/local/bin/htsfile", "idle3.9": "/usr/local/bin/idle3.9", "plot-roh.py": "/usr/local/bin/plot-roh.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/isafe.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/isafe
 $ podman run --it --rm --entrypoint /usr/local/bin/isafe   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/isafe   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gff2gff.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/gff2gff.py
+$ podman run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gff2gff.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### guess-ploidy.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-roh.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-roh.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

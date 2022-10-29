@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lrbase.gga.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lrbase.gga.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lrbase.gga.eg.db/container.yaml"
-updated_at: "2022-10-27 00:32:28.298767"
+updated_at: "2022-10-29 05:48:47.426816"
 latest: "2.0.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lrbase.gga.eg.db"
 aliases:
- - ".bioconductor-lrbase.gga.eg.db-post-link.sh"
- - ".bioconductor-lrbase.gga.eg.db-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.0.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lrbase.gga.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lrbase.gga.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lrbase.gga.eg.db", "latest": {"2.0.0--r41hdfd78af_0": "sha256:a209f4bf68937660b628f9af3427e17cb8194b3d7725cee8b2c7c8e94cbfacf0"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:a209f4bf68937660b628f9af3427e17cb8194b3d7725cee8b2c7c8e94cbfacf0"}, "docker": "quay.io/biocontainers/bioconductor-lrbase.gga.eg.db", "aliases": {".bioconductor-lrbase.gga.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-lrbase.gga.eg.db-post-link.sh", ".bioconductor-lrbase.gga.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-lrbase.gga.eg.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lrbase.gga.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lrbase.gga.eg.db", "latest": {"2.0.0--r41hdfd78af_0": "sha256:a209f4bf68937660b628f9af3427e17cb8194b3d7725cee8b2c7c8e94cbfacf0"}, "tags": {"2.0.0--r41hdfd78af_0": "sha256:a209f4bf68937660b628f9af3427e17cb8194b3d7725cee8b2c7c8e94cbfacf0"}, "docker": "quay.io/biocontainers/bioconductor-lrbase.gga.eg.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lrbase.gga.eg.db.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-lrbase.gga.eg.db-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-lrbase.gga.eg.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-lrbase.gga.eg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-lrbase.gga.eg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-lrbase.gga.eg.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-lrbase.gga.eg.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-lrbase.gga.eg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-lrbase.gga.eg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

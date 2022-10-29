@@ -4,16 +4,19 @@ name:  "quay.io/biocontainers/gff3sort"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gff3sort/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gff3sort/container.yaml"
-updated_at: "2022-10-27 00:36:03.235716"
+updated_at: "2022-10-29 05:53:35.037775"
 latest: "0.1.a1a2bc9--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/gff3sort"
 aliases:
  - "check-disorder.pl"
  - "gff3sort.pl"
+ - "findrule"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "0.1.a1a2bc9--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for gff3sort"
-config: {"url": "https://biocontainers.pro/tools/gff3sort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gff3sort", "latest": {"0.1.a1a2bc9--hdfd78af_2": "sha256:825bb9bc88934ae8fbc95ddff899eda431cade048d4bf3a833c7420e479881a8"}, "tags": {"0.1.a1a2bc9--hdfd78af_2": "sha256:825bb9bc88934ae8fbc95ddff899eda431cade048d4bf3a833c7420e479881a8"}, "docker": "quay.io/biocontainers/gff3sort", "aliases": {"check-disorder.pl": "/usr/local/bin/check-disorder.pl", "gff3sort.pl": "/usr/local/bin/gff3sort.pl"}}
+config: {"url": "https://biocontainers.pro/tools/gff3sort", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gff3sort", "latest": {"0.1.a1a2bc9--hdfd78af_2": "sha256:825bb9bc88934ae8fbc95ddff899eda431cade048d4bf3a833c7420e479881a8"}, "tags": {"0.1.a1a2bc9--hdfd78af_2": "sha256:825bb9bc88934ae8fbc95ddff899eda431cade048d4bf3a833c7420e479881a8"}, "docker": "quay.io/biocontainers/gff3sort", "aliases": {"check-disorder.pl": "/usr/local/bin/check-disorder.pl", "gff3sort.pl": "/usr/local/bin/gff3sort.pl", "findrule": "/usr/local/bin/findrule", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gff3sort.
@@ -114,6 +117,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/check-disorder.pl   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/gff3sort.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/gff3sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gff3sort.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### findrule
+
+```bash
+$ singularity exec <container> /usr/local/bin/findrule
+$ podman run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/findrule   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

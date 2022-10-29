@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/r-googlevis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-googlevis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-googlevis/container.yaml"
-updated_at: "2022-10-27 00:24:11.724527"
+updated_at: "2022-10-29 05:37:49.119901"
 latest: "0.5.10--r3.2.2_1"
 container_url: "https://biocontainers.pro/tools/r-googlevis"
-
+aliases:
+ - "bmp2tiff"
+ - "gif2tiff"
+ - "pngcp"
+ - "ras2tiff"
+ - "rgb2ycbcr"
+ - "thumbnail"
 versions:
  - "0.5.10--r3.2.2_1"
 description: "shpc-registry automated BioContainers addition for r-googlevis"
-config: {"url": "https://biocontainers.pro/tools/r-googlevis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-googlevis", "latest": {"0.5.10--r3.2.2_1": "sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421"}, "tags": {"0.5.10--r3.2.2_1": "sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421"}, "docker": "quay.io/biocontainers/r-googlevis"}
+config: {"url": "https://biocontainers.pro/tools/r-googlevis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-googlevis", "latest": {"0.5.10--r3.2.2_1": "sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421"}, "tags": {"0.5.10--r3.2.2_1": "sha256:f58e58fc924832e4bef82ebc5f7946aee81ef176a051586a2fbbfa9b22c9b421"}, "docker": "quay.io/biocontainers/r-googlevis", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "pngcp": "/usr/local/bin/pngcp", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-googlevis.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-googlevis
+#### bmp2tiff
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pngcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/pngcp
+$ podman run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pngcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ras2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/ras2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rgb2ycbcr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rgb2ycbcr
+$ podman run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thumbnail
+
+```bash
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/harmony-pytorch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/harmony-pytorch/container.yaml"
-updated_at: "2022-10-27 00:30:52.122171"
+updated_at: "2022-10-29 05:46:40.378795"
 latest: "0.1.7--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/harmony-pytorch"
 aliases:
- - ".scikit-learn-post-link.sh"
+ - "convert-caffe2-to-onnx"
+ - "convert-onnx-to-caffe2"
+ - "f2py3.8"
+ - "ninja"
 versions:
  - "0.1.7--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for harmony-pytorch"
-config: {"url": "https://biocontainers.pro/tools/harmony-pytorch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmony-pytorch", "latest": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "docker": "quay.io/biocontainers/harmony-pytorch", "aliases": {".scikit-learn-post-link.sh": "/usr/local/bin/.scikit-learn-post-link.sh"}}
+config: {"url": "https://biocontainers.pro/tools/harmony-pytorch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for harmony-pytorch", "latest": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "tags": {"0.1.7--pyhdfd78af_1": "sha256:edfd3e889733fb5c7070a370aab975467e7f76f8ddba1443f094f845e630b7bd"}, "docker": "quay.io/biocontainers/harmony-pytorch", "aliases": {"convert-caffe2-to-onnx": "/usr/local/bin/convert-caffe2-to-onnx", "convert-onnx-to-caffe2": "/usr/local/bin/convert-onnx-to-caffe2", "f2py3.8": "/usr/local/bin/f2py3.8", "ninja": "/usr/local/bin/ninja"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/harmony-pytorch.
@@ -98,12 +101,39 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .scikit-learn-post-link.sh
+#### convert-caffe2-to-onnx
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.scikit-learn-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.scikit-learn-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.scikit-learn-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/convert-caffe2-to-onnx
+$ podman run --it --rm --entrypoint /usr/local/bin/convert-caffe2-to-onnx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert-caffe2-to-onnx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### convert-onnx-to-caffe2
+
+```bash
+$ singularity exec <container> /usr/local/bin/convert-onnx-to-caffe2
+$ podman run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/convert-onnx-to-caffe2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ninja
+
+```bash
+$ singularity exec <container> /usr/local/bin/ninja
+$ podman run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ninja   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

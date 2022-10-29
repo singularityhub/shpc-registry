@@ -4,16 +4,22 @@ name:  "quay.io/biocontainers/mobidic-mpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mobidic-mpa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mobidic-mpa/container.yaml"
-updated_at: "2022-10-27 00:36:24.123306"
+updated_at: "2022-10-29 05:54:01.833647"
 latest: "1.3.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/mobidic-mpa"
 aliases:
  - "mpa"
  - "mpa_main"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "tqdm"
 versions:
  - "1.3.0--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for mobidic-mpa"
-config: {"url": "https://biocontainers.pro/tools/mobidic-mpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mobidic-mpa", "latest": {"1.3.0--pyh5e36f6f_0": "sha256:565271d82e71a1084520da9e53cd6bdb3ae46794558fef7f52566c38e78ee428"}, "tags": {"1.3.0--pyh5e36f6f_0": "sha256:565271d82e71a1084520da9e53cd6bdb3ae46794558fef7f52566c38e78ee428"}, "docker": "quay.io/biocontainers/mobidic-mpa", "aliases": {"mpa": "/usr/local/bin/mpa", "mpa_main": "/usr/local/bin/mpa_main"}}
+config: {"url": "https://biocontainers.pro/tools/mobidic-mpa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mobidic-mpa", "latest": {"1.3.0--pyh5e36f6f_0": "sha256:565271d82e71a1084520da9e53cd6bdb3ae46794558fef7f52566c38e78ee428"}, "tags": {"1.3.0--pyh5e36f6f_0": "sha256:565271d82e71a1084520da9e53cd6bdb3ae46794558fef7f52566c38e78ee428"}, "docker": "quay.io/biocontainers/mobidic-mpa", "aliases": {"mpa": "/usr/local/bin/mpa", "mpa_main": "/usr/local/bin/mpa_main", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mobidic-mpa.
@@ -114,6 +120,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/mpa   -v ${PWD} -w ${PWD} <co
 $ singularity exec <container> /usr/local/bin/mpa_main
 $ podman run --it --rm --entrypoint /usr/local/bin/mpa_main   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mpa_main   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

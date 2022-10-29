@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/chembl_structure_pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chembl_structure_pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/chembl_structure_pipeline/container.yaml"
-updated_at: "2022-10-27 00:31:25.020363"
+updated_at: "2022-10-29 05:47:23.696195"
 latest: "1.0.0"
 container_url: "https://biocontainers.pro/tools/chembl_structure_pipeline"
-
+aliases:
+ - "2to3-3.8"
+ - "f2py3.8"
+ - "idle3.8"
+ - "jpgicc"
+ - "linkicc"
+ - "psicc"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
+ - "tificc"
 versions:
  - "1.0.0"
 description: "shpc-registry automated BioContainers addition for chembl_structure_pipeline"
-config: {"url": "https://biocontainers.pro/tools/chembl_structure_pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chembl_structure_pipeline", "latest": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2"}, "tags": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2"}, "docker": "quay.io/biocontainers/chembl_structure_pipeline"}
+config: {"url": "https://biocontainers.pro/tools/chembl_structure_pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chembl_structure_pipeline", "latest": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2"}, "tags": {"1.0.0": "sha256:26c4a585d389dc471a9617183a6bbba4d5dfe9d878c933ba26f8460354abceb2"}, "docker": "quay.io/biocontainers/chembl_structure_pipeline", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "idle3.8": "/usr/local/bin/idle3.8", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc", "psicc": "/usr/local/bin/psicc", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "tificc": "/usr/local/bin/tificc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chembl_structure_pipeline.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### chembl_structure_pipeline
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### psicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/psicc
+$ podman run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/psicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tificc
+
+```bash
+$ singularity exec <container> /usr/local/bin/tificc
+$ podman run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tificc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

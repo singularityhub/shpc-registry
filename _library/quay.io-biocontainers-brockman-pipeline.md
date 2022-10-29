@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/brockman-pipeline"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/brockman-pipeline/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/brockman-pipeline/container.yaml"
-updated_at: "2022-10-27 00:35:13.694598"
+updated_at: "2022-10-29 05:52:30.015086"
 latest: "1.0--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/brockman-pipeline"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "shuffleCodons.rb"
  - "shuffleCodonsAddMotifs.rb"
  - "y2racc"
+ - "2to3-3.9"
+ - "ace2sam"
+ - "annotateBed"
+ - "aserver"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
 versions:
  - "1.0--hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for brockman-pipeline"
-config: {"url": "https://biocontainers.pro/tools/brockman-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brockman-pipeline", "latest": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "tags": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "docker": "quay.io/biocontainers/brockman-pipeline", "aliases": {"AMUSED": "/usr/local/bin/AMUSED", "AMUSED-KS": "/usr/local/bin/AMUSED-KS", "alignKMers": "/usr/local/bin/alignKMers", "brockman_pipeline": "/usr/local/bin/brockman_pipeline", "racc": "/usr/local/bin/racc", "racc2y": "/usr/local/bin/racc2y", "shuffleCodons.rb": "/usr/local/bin/shuffleCodons.rb", "shuffleCodonsAddMotifs.rb": "/usr/local/bin/shuffleCodonsAddMotifs.rb", "y2racc": "/usr/local/bin/y2racc"}}
+config: {"url": "https://biocontainers.pro/tools/brockman-pipeline", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for brockman-pipeline", "latest": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "tags": {"1.0--hdfd78af_4": "sha256:b509332e3d476a893d0ace336ae1fffa64b3b9162ef9fcc0231a9a86497664f6"}, "docker": "quay.io/biocontainers/brockman-pipeline", "aliases": {"AMUSED": "/usr/local/bin/AMUSED", "AMUSED-KS": "/usr/local/bin/AMUSED-KS", "alignKMers": "/usr/local/bin/alignKMers", "brockman_pipeline": "/usr/local/bin/brockman_pipeline", "racc": "/usr/local/bin/racc", "racc2y": "/usr/local/bin/racc2y", "shuffleCodons.rb": "/usr/local/bin/shuffleCodons.rb", "shuffleCodonsAddMotifs.rb": "/usr/local/bin/shuffleCodonsAddMotifs.rb", "y2racc": "/usr/local/bin/y2racc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "aserver": "/usr/local/bin/aserver", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/brockman-pipeline.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/shuffleCodonsAddMotifs.rb   -
 $ singularity exec <container> /usr/local/bin/y2racc
 $ podman run --it --rm --entrypoint /usr/local/bin/y2racc   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/y2racc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

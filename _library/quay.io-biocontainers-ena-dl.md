@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/ena-dl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ena-dl/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ena-dl/container.yaml"
-updated_at: "2022-10-27 00:29:46.715693"
+updated_at: "2022-10-29 05:45:12.009004"
 latest: "1.0.0--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/ena-dl"
 aliases:
  - "ena-dl"
+ - "2to3-3.9"
+ - "chardetect"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "1.0.0--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for ena-dl"
-config: {"url": "https://biocontainers.pro/tools/ena-dl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-dl", "latest": {"1.0.0--hdfd78af_2": "sha256:84a2cce9fb3de4942070f3851dda9504aa028baeab6665c291c19e021197347e"}, "tags": {"1.0.0--hdfd78af_2": "sha256:84a2cce9fb3de4942070f3851dda9504aa028baeab6665c291c19e021197347e"}, "docker": "quay.io/biocontainers/ena-dl", "aliases": {"ena-dl": "/usr/local/bin/ena-dl"}}
+config: {"url": "https://biocontainers.pro/tools/ena-dl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ena-dl", "latest": {"1.0.0--hdfd78af_2": "sha256:84a2cce9fb3de4942070f3851dda9504aa028baeab6665c291c19e021197347e"}, "tags": {"1.0.0--hdfd78af_2": "sha256:84a2cce9fb3de4942070f3851dda9504aa028baeab6665c291c19e021197347e"}, "docker": "quay.io/biocontainers/ena-dl", "aliases": {"ena-dl": "/usr/local/bin/ena-dl", "2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ena-dl.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ena-dl
 $ podman run --it --rm --entrypoint /usr/local/bin/ena-dl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ena-dl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

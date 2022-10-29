@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/elasticluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elasticluster/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/elasticluster/container.yaml"
-updated_at: "2022-10-27 00:18:53.310039"
+updated_at: "2022-10-29 05:30:49.117270"
 latest: "0.1.3bcbio--py27_12"
 container_url: "https://biocontainers.pro/tools/elasticluster"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "ansible-vault"
  - "elasticluster"
  - "gflags2man.py"
+ - "asadmin"
+ - "bundle_image"
+ - "cfadmin"
+ - "chardetect"
+ - "cq"
+ - "cwutil"
+ - "dynamodb_dump"
+ - "dynamodb_load"
+ - "elbadmin"
+ - "fetch_file"
 versions:
  - "0.1.3bcbio--py27_12"
 description: "shpc-registry automated BioContainers addition for elasticluster"
-config: {"url": "https://biocontainers.pro/tools/elasticluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elasticluster", "latest": {"0.1.3bcbio--py27_12": "sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955"}, "tags": {"0.1.3bcbio--py27_12": "sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955"}, "docker": "quay.io/biocontainers/elasticluster", "aliases": {"ansible": "/usr/local/bin/ansible", "ansible-doc": "/usr/local/bin/ansible-doc", "ansible-galaxy": "/usr/local/bin/ansible-galaxy", "ansible-playbook": "/usr/local/bin/ansible-playbook", "ansible-pull": "/usr/local/bin/ansible-pull", "ansible-vault": "/usr/local/bin/ansible-vault", "elasticluster": "/usr/local/bin/elasticluster", "gflags2man.py": "/usr/local/bin/gflags2man.py"}}
+config: {"url": "https://biocontainers.pro/tools/elasticluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for elasticluster", "latest": {"0.1.3bcbio--py27_12": "sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955"}, "tags": {"0.1.3bcbio--py27_12": "sha256:994d66438362d28348c41066662623fe870cb6d747db0da67771ccb235ddf955"}, "docker": "quay.io/biocontainers/elasticluster", "aliases": {"ansible": "/usr/local/bin/ansible", "ansible-doc": "/usr/local/bin/ansible-doc", "ansible-galaxy": "/usr/local/bin/ansible-galaxy", "ansible-playbook": "/usr/local/bin/ansible-playbook", "ansible-pull": "/usr/local/bin/ansible-pull", "ansible-vault": "/usr/local/bin/ansible-vault", "elasticluster": "/usr/local/bin/elasticluster", "gflags2man.py": "/usr/local/bin/gflags2man.py", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "chardetect": "/usr/local/bin/chardetect", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/elasticluster.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/elasticluster   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/gflags2man.py
 $ podman run --it --rm --entrypoint /usr/local/bin/gflags2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gflags2man.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/asadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bundle_image
+
+```bash
+$ singularity exec <container> /usr/local/bin/bundle_image
+$ podman run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cfadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cfadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cq
+
+```bash
+$ singularity exec <container> /usr/local/bin/cq
+$ podman run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwutil
+$ podman run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_load
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_load
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### elbadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/elbadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/elbadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fetch_file
+
+```bash
+$ singularity exec <container> /usr/local/bin/fetch_file
+$ podman run --it --rm --entrypoint /usr/local/bin/fetch_file   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fetch_file   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

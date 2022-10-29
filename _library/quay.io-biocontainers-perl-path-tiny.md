@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-path-tiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-path-tiny/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-path-tiny/container.yaml"
-updated_at: "2022-10-27 00:24:45.812273"
+updated_at: "2022-10-29 05:38:33.936800"
 latest: "0.122--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-path-tiny"
-
+aliases:
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "0.122--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-path-tiny"
-config: {"url": "https://biocontainers.pro/tools/perl-path-tiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-path-tiny", "latest": {"0.122--pl5321hdfd78af_0": "sha256:af2421623d74808398ba06e4be8b7ba8561e2b8974cc450c72e6ac0b158c0b5f"}, "tags": {"0.122--pl5321hdfd78af_0": "sha256:af2421623d74808398ba06e4be8b7ba8561e2b8974cc450c72e6ac0b158c0b5f"}, "docker": "quay.io/biocontainers/perl-path-tiny"}
+config: {"url": "https://biocontainers.pro/tools/perl-path-tiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-path-tiny", "latest": {"0.122--pl5321hdfd78af_0": "sha256:af2421623d74808398ba06e4be8b7ba8561e2b8974cc450c72e6ac0b158c0b5f"}, "tags": {"0.122--pl5321hdfd78af_0": "sha256:af2421623d74808398ba06e4be8b7ba8561e2b8974cc450c72e6ac0b158c0b5f"}, "docker": "quay.io/biocontainers/perl-path-tiny", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-path-tiny.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-path-tiny
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

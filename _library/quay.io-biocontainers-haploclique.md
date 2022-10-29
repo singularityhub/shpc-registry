@@ -4,16 +4,25 @@ name:  "quay.io/biocontainers/haploclique"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haploclique/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/haploclique/container.yaml"
-updated_at: "2022-10-27 00:38:35.458174"
+updated_at: "2022-10-29 05:56:54.368474"
 latest: "1.3.1--h48762f8_2"
 container_url: "https://biocontainers.pro/tools/haploclique"
 aliases:
  - "bamtools-2.4.1"
  - "haploclique"
+ - "2to3-3.6"
+ - "bamtools"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
+ - "pyvenv-3.6"
 versions:
  - "1.3.1--h48762f8_2"
 description: "shpc-registry automated BioContainers addition for haploclique"
-config: {"url": "https://biocontainers.pro/tools/haploclique", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploclique", "latest": {"1.3.1--h48762f8_2": "sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c"}, "tags": {"1.3.1--h48762f8_2": "sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c"}, "docker": "quay.io/biocontainers/haploclique", "aliases": {"bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "haploclique": "/usr/local/bin/haploclique"}}
+config: {"url": "https://biocontainers.pro/tools/haploclique", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haploclique", "latest": {"1.3.1--h48762f8_2": "sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c"}, "tags": {"1.3.1--h48762f8_2": "sha256:4c63af0f8a5685ba1663adeece510ea845cdd193b5983deb73d5c6d3546b818c"}, "docker": "quay.io/biocontainers/haploclique", "aliases": {"bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "haploclique": "/usr/local/bin/haploclique", "2to3-3.6": "/usr/local/bin/2to3-3.6", "bamtools": "/usr/local/bin/bamtools", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haploclique.
@@ -114,6 +123,87 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bamtools-2.4.1   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/haploclique
 $ podman run --it --rm --entrypoint /usr/local/bin/haploclique   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/haploclique   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

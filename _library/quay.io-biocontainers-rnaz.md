@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rnaz/container.yaml"
-updated_at: "2022-10-27 00:23:18.341113"
+updated_at: "2022-10-29 05:36:39.188227"
 latest: "2.1--pl526h6bb024c_4"
 container_url: "https://biocontainers.pro/tools/rnaz"
 aliases:
@@ -21,10 +21,12 @@ aliases:
  - "rnazSelectSeqs.pl"
  - "rnazSort.pl"
  - "rnazWindow.pl"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "2.1--pl526h6bb024c_4"
 description: "shpc-registry automated BioContainers addition for rnaz"
-config: {"url": "https://biocontainers.pro/tools/rnaz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaz", "latest": {"2.1--pl526h6bb024c_4": "sha256:333447efad1871fbf3f1dab7a870162cd3ea515236512df8cb20ce5cf6ecfacd"}, "tags": {"2.1--pl526h6bb024c_4": "sha256:333447efad1871fbf3f1dab7a870162cd3ea515236512df8cb20ce5cf6ecfacd"}, "docker": "quay.io/biocontainers/rnaz", "aliases": {"RNAz": "/usr/local/bin/RNAz", "rnazAnnotate.pl": "/usr/local/bin/rnazAnnotate.pl", "rnazBEDsort.pl": "/usr/local/bin/rnazBEDsort.pl", "rnazBEDstats.pl": "/usr/local/bin/rnazBEDstats.pl", "rnazBlast.pl": "/usr/local/bin/rnazBlast.pl", "rnazCluster.pl": "/usr/local/bin/rnazCluster.pl", "rnazFilter.pl": "/usr/local/bin/rnazFilter.pl", "rnazIndex.pl": "/usr/local/bin/rnazIndex.pl", "rnazMAF2BED.pl": "/usr/local/bin/rnazMAF2BED.pl", "rnazRandomizeAln.pl": "/usr/local/bin/rnazRandomizeAln.pl", "rnazSelectSeqs.pl": "/usr/local/bin/rnazSelectSeqs.pl", "rnazSort.pl": "/usr/local/bin/rnazSort.pl", "rnazWindow.pl": "/usr/local/bin/rnazWindow.pl"}}
+config: {"url": "https://biocontainers.pro/tools/rnaz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaz", "latest": {"2.1--pl526h6bb024c_4": "sha256:333447efad1871fbf3f1dab7a870162cd3ea515236512df8cb20ce5cf6ecfacd"}, "tags": {"2.1--pl526h6bb024c_4": "sha256:333447efad1871fbf3f1dab7a870162cd3ea515236512df8cb20ce5cf6ecfacd"}, "docker": "quay.io/biocontainers/rnaz", "aliases": {"RNAz": "/usr/local/bin/RNAz", "rnazAnnotate.pl": "/usr/local/bin/rnazAnnotate.pl", "rnazBEDsort.pl": "/usr/local/bin/rnazBEDsort.pl", "rnazBEDstats.pl": "/usr/local/bin/rnazBEDstats.pl", "rnazBlast.pl": "/usr/local/bin/rnazBlast.pl", "rnazCluster.pl": "/usr/local/bin/rnazCluster.pl", "rnazFilter.pl": "/usr/local/bin/rnazFilter.pl", "rnazIndex.pl": "/usr/local/bin/rnazIndex.pl", "rnazMAF2BED.pl": "/usr/local/bin/rnazMAF2BED.pl", "rnazRandomizeAln.pl": "/usr/local/bin/rnazRandomizeAln.pl", "rnazSelectSeqs.pl": "/usr/local/bin/rnazSelectSeqs.pl", "rnazSort.pl": "/usr/local/bin/rnazSort.pl", "rnazWindow.pl": "/usr/local/bin/rnazWindow.pl", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnaz.
@@ -224,6 +226,24 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rnazSort.pl   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/rnazWindow.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/rnazWindow.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rnazWindow.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

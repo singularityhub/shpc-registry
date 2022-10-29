@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-date-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-date-format/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-date-format/container.yaml"
-updated_at: "2022-10-27 00:30:55.101572"
+updated_at: "2022-10-29 05:46:44.166259"
 latest: "2.30--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-date-format"
-
+aliases:
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "2.30--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-date-format"
-config: {"url": "https://biocontainers.pro/tools/perl-date-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-date-format", "latest": {"2.30--pl526_2": "sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324"}, "tags": {"2.30--pl526_2": "sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324"}, "docker": "quay.io/biocontainers/perl-date-format"}
+config: {"url": "https://biocontainers.pro/tools/perl-date-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-date-format", "latest": {"2.30--pl526_2": "sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324"}, "tags": {"2.30--pl526_2": "sha256:7cfd4041022269e8995b4bd4b392b9dfd2f192cadfa114cfe95cef4bf6261324"}, "docker": "quay.io/biocontainers/perl-date-format", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-date-format.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-date-format
+#### perl5.26.2
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

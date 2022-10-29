@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hiddendomains"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hiddendomains/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hiddendomains/container.yaml"
-updated_at: "2022-10-27 00:32:47.974212"
+updated_at: "2022-10-29 05:49:13.373913"
 latest: "3.1--pl5321r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/hiddendomains"
 aliases:
@@ -17,10 +17,20 @@ aliases:
  - "peakCenters"
  - "run_hiddenDomains.R"
  - "run_hiddenDomains_no_control.R"
+ - "ace2sam"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
+ - "bgzip"
 versions:
  - "3.1--pl5321r41hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for hiddendomains"
-config: {"url": "https://biocontainers.pro/tools/hiddendomains", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hiddendomains", "latest": {"3.1--pl5321r41hdfd78af_3": "sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c"}, "tags": {"3.1--pl5321r41hdfd78af_3": "sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c"}, "docker": "quay.io/biocontainers/hiddendomains", "aliases": {"binReads.pl": "/usr/local/bin/binReads.pl", "centersToGEM.pl": "/usr/local/bin/centersToGEM.pl", "domainsMergeToBed.pl": "/usr/local/bin/domainsMergeToBed.pl", "domainsToBed.pl": "/usr/local/bin/domainsToBed.pl", "hiddenDomains": "/usr/local/bin/hiddenDomains", "hiddenDomains.R": "/usr/local/bin/hiddenDomains.R", "peakCenters": "/usr/local/bin/peakCenters", "run_hiddenDomains.R": "/usr/local/bin/run_hiddenDomains.R", "run_hiddenDomains_no_control.R": "/usr/local/bin/run_hiddenDomains_no_control.R"}}
+config: {"url": "https://biocontainers.pro/tools/hiddendomains", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hiddendomains", "latest": {"3.1--pl5321r41hdfd78af_3": "sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c"}, "tags": {"3.1--pl5321r41hdfd78af_3": "sha256:7f1f3ef74f2ef848a9c40afbba74006d011223ca747dda1716e7c419525f633c"}, "docker": "quay.io/biocontainers/hiddendomains", "aliases": {"binReads.pl": "/usr/local/bin/binReads.pl", "centersToGEM.pl": "/usr/local/bin/centersToGEM.pl", "domainsMergeToBed.pl": "/usr/local/bin/domainsMergeToBed.pl", "domainsToBed.pl": "/usr/local/bin/domainsToBed.pl", "hiddenDomains": "/usr/local/bin/hiddenDomains", "hiddenDomains.R": "/usr/local/bin/hiddenDomains.R", "peakCenters": "/usr/local/bin/peakCenters", "run_hiddenDomains.R": "/usr/local/bin/run_hiddenDomains.R", "run_hiddenDomains_no_control.R": "/usr/local/bin/run_hiddenDomains_no_control.R", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools", "bgzip": "/usr/local/bin/bgzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hiddendomains.
@@ -184,6 +194,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run_hiddenDomains.R   -v ${PW
 $ singularity exec <container> /usr/local/bin/run_hiddenDomains_no_control.R
 $ podman run --it --rm --entrypoint /usr/local/bin/run_hiddenDomains_no_control.R   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/run_hiddenDomains_no_control.R   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

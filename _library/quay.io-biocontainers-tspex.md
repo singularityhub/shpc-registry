@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/tspex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tspex/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tspex/container.yaml"
-updated_at: "2022-10-27 00:38:44.417114"
+updated_at: "2022-10-29 05:57:06.301489"
 latest: "0.6.2--py_0"
 container_url: "https://biocontainers.pro/tools/tspex"
 aliases:
  - "tspex"
+ - "f2py3.8"
+ - "runxlrd.py"
 versions:
  - "0.6.2--py_0"
 description: "shpc-registry automated BioContainers addition for tspex"
-config: {"url": "https://biocontainers.pro/tools/tspex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tspex", "latest": {"0.6.2--py_0": "sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f"}, "tags": {"0.6.2--py_0": "sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f"}, "docker": "quay.io/biocontainers/tspex", "aliases": {"tspex": "/usr/local/bin/tspex"}}
+config: {"url": "https://biocontainers.pro/tools/tspex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tspex", "latest": {"0.6.2--py_0": "sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f"}, "tags": {"0.6.2--py_0": "sha256:0307039e66d1dab4fe380268e15861e58595f727b5a3d03c6def0b26af6afc7f"}, "docker": "quay.io/biocontainers/tspex", "aliases": {"tspex": "/usr/local/bin/tspex", "f2py3.8": "/usr/local/bin/f2py3.8", "runxlrd.py": "/usr/local/bin/runxlrd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tspex.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/tspex
 $ podman run --it --rm --entrypoint /usr/local/bin/tspex   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tspex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### runxlrd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/runxlrd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

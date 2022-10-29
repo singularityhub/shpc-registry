@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/vembrane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vembrane/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vembrane/container.yaml"
-updated_at: "2022-10-27 00:26:22.762245"
+updated_at: "2022-10-29 05:40:43.717759"
 latest: "0.8.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vembrane"
 aliases:
  - "vembrane"
+ - "f2py3.9"
 versions:
  - "0.8.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vembrane"
-config: {"url": "https://biocontainers.pro/tools/vembrane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vembrane", "latest": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "docker": "quay.io/biocontainers/vembrane", "aliases": {"vembrane": "/usr/local/bin/vembrane"}}
+config: {"url": "https://biocontainers.pro/tools/vembrane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vembrane", "latest": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:573262178d6cbb96d9bba0c5670657b1018b609a140cf730b3406a0c32c012a4"}, "docker": "quay.io/biocontainers/vembrane", "aliases": {"vembrane": "/usr/local/bin/vembrane", "f2py3.9": "/usr/local/bin/f2py3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vembrane.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/vembrane
 $ podman run --it --rm --entrypoint /usr/local/bin/vembrane   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vembrane   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

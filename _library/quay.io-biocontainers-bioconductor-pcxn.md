@@ -4,16 +4,24 @@ name:  "quay.io/biocontainers/bioconductor-pcxn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcxn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcxn/container.yaml"
-updated_at: "2022-10-27 00:40:14.961703"
+updated_at: "2022-10-29 05:59:04.801049"
 latest: "2.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcxn"
 aliases:
- - ".bioconductor-pcxndata-post-link.sh"
- - ".bioconductor-pcxndata-pre-unlink.sh"
+ - "R"
+ - "Rscript"
+ - "autopoint"
+ - "bunzip2"
+ - "bzcat"
+ - "bzcmp"
+ - "bzdiff"
+ - "bzegrep"
+ - "bzfgrep"
+ - "bzgrep"
 versions:
  - "2.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcxn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcxn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcxn", "latest": {"2.8.0--r36_1": "sha256:4ec2975985a3406d5b78911926fcecd28d0bda45be273c682d286893d88340b3"}, "tags": {"2.8.0--r36_1": "sha256:4ec2975985a3406d5b78911926fcecd28d0bda45be273c682d286893d88340b3"}, "docker": "quay.io/biocontainers/bioconductor-pcxn", "aliases": {".bioconductor-pcxndata-post-link.sh": "/usr/local/bin/.bioconductor-pcxndata-post-link.sh", ".bioconductor-pcxndata-pre-unlink.sh": "/usr/local/bin/.bioconductor-pcxndata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcxn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcxn", "latest": {"2.8.0--r36_1": "sha256:4ec2975985a3406d5b78911926fcecd28d0bda45be273c682d286893d88340b3"}, "tags": {"2.8.0--r36_1": "sha256:4ec2975985a3406d5b78911926fcecd28d0bda45be273c682d286893d88340b3"}, "docker": "quay.io/biocontainers/bioconductor-pcxn", "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "autopoint": "/usr/local/bin/autopoint", "bunzip2": "/usr/local/bin/bunzip2", "bzcat": "/usr/local/bin/bzcat", "bzcmp": "/usr/local/bin/bzcmp", "bzdiff": "/usr/local/bin/bzdiff", "bzegrep": "/usr/local/bin/bzegrep", "bzfgrep": "/usr/local/bin/bzfgrep", "bzgrep": "/usr/local/bin/bzgrep"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcxn.
@@ -99,21 +107,93 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-pcxndata-post-link.sh
+#### R
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pcxndata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcxndata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcxndata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/R
+$ podman run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/R   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-pcxndata-pre-unlink.sh
+#### Rscript
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-pcxndata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcxndata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-pcxndata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/Rscript
+$ podman run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Rscript   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autopoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/autopoint
+$ podman run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autopoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bunzip2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bunzip2
+$ podman run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bunzip2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcat
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcat
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzcmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzcmp
+$ podman run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzcmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzdiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzdiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzdiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzegrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzegrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzegrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzfgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzfgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzfgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bzgrep
+
+```bash
+$ singularity exec <container> /usr/local/bin/bzgrep
+$ podman run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bzgrep   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

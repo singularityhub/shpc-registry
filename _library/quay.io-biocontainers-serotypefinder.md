@@ -4,17 +4,26 @@ name:  "quay.io/biocontainers/serotypefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/serotypefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/serotypefinder/container.yaml"
-updated_at: "2022-10-27 00:29:36.553575"
+updated_at: "2022-10-29 05:44:58.953708"
 latest: "2.0.1--py39hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/serotypefinder"
 aliases:
- - ".serotypefinder-post-link.sh"
  - "serotypefinder"
  - "update-serotypefinder-db"
+ - "2to3-3.7"
+ - "CA.pm"
+ - "accn-at-a-time"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "between-two-genes"
+ - "blast_formatter"
+ - "blastdb_aliastool"
 versions:
  - "2.0.1--py39hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for serotypefinder"
-config: {"url": "https://biocontainers.pro/tools/serotypefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for serotypefinder", "latest": {"2.0.1--py39hdfd78af_0": "sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a"}, "tags": {"2.0.1--py39hdfd78af_0": "sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a"}, "docker": "quay.io/biocontainers/serotypefinder", "aliases": {".serotypefinder-post-link.sh": "/usr/local/bin/.serotypefinder-post-link.sh", "serotypefinder": "/usr/local/bin/serotypefinder", "update-serotypefinder-db": "/usr/local/bin/update-serotypefinder-db"}}
+config: {"url": "https://biocontainers.pro/tools/serotypefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for serotypefinder", "latest": {"2.0.1--py39hdfd78af_0": "sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a"}, "tags": {"2.0.1--py39hdfd78af_0": "sha256:04d3dd31d77ca3f0d2d35dfb090c2beccad959f07fb9fe87a0c6db2d0650f99a"}, "docker": "quay.io/biocontainers/serotypefinder", "aliases": {"serotypefinder": "/usr/local/bin/serotypefinder", "update-serotypefinder-db": "/usr/local/bin/update-serotypefinder-db", "2to3-3.7": "/usr/local/bin/2to3-3.7", "CA.pm": "/usr/local/bin/CA.pm", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/serotypefinder.
@@ -100,15 +109,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .serotypefinder-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.serotypefinder-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.serotypefinder-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.serotypefinder-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### serotypefinder
 
 ```bash
@@ -124,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/serotypefinder   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/update-serotypefinder-db
 $ podman run --it --rm --entrypoint /usr/local/bin/update-serotypefinder-db   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/update-serotypefinder-db   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CA.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/CA.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CA.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

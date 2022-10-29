@@ -4,17 +4,16 @@ name:  "quay.io/biocontainers/pblaa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pblaa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pblaa/container.yaml"
-updated_at: "2022-10-27 00:33:09.692792"
+updated_at: "2022-10-29 05:49:41.638896"
 latest: "2.4.2--2"
 container_url: "https://biocontainers.pro/tools/pblaa"
 aliases:
- - ".pblaa-post-link.sh"
  - "laa"
  - "laagc"
 versions:
  - "2.4.2--2"
 description: "shpc-registry automated BioContainers addition for pblaa"
-config: {"url": "https://biocontainers.pro/tools/pblaa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pblaa", "latest": {"2.4.2--2": "sha256:91ad9abe4418e268d6dee7ac2c70eebc7d927d1c4537ba37fd464d1fe9242893"}, "tags": {"2.4.2--2": "sha256:91ad9abe4418e268d6dee7ac2c70eebc7d927d1c4537ba37fd464d1fe9242893"}, "docker": "quay.io/biocontainers/pblaa", "aliases": {".pblaa-post-link.sh": "/usr/local/bin/.pblaa-post-link.sh", "laa": "/usr/local/bin/laa", "laagc": "/usr/local/bin/laagc"}}
+config: {"url": "https://biocontainers.pro/tools/pblaa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pblaa", "latest": {"2.4.2--2": "sha256:91ad9abe4418e268d6dee7ac2c70eebc7d927d1c4537ba37fd464d1fe9242893"}, "tags": {"2.4.2--2": "sha256:91ad9abe4418e268d6dee7ac2c70eebc7d927d1c4537ba37fd464d1fe9242893"}, "docker": "quay.io/biocontainers/pblaa", "aliases": {"laa": "/usr/local/bin/laa", "laagc": "/usr/local/bin/laagc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pblaa.
@@ -97,15 +96,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .pblaa-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.pblaa-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.pblaa-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.pblaa-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

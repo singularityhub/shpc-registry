@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vtools/container.yaml"
-updated_at: "2022-10-27 00:21:37.915320"
+updated_at: "2022-10-29 05:34:24.305987"
 latest: "1.1.0--py38h17adfb0_4"
 container_url: "https://biocontainers.pro/tools/vtools"
 aliases:
@@ -12,10 +12,18 @@ aliases:
  - "vtools-filter"
  - "vtools-gcoverage"
  - "vtools-stats"
+ - "bgzip"
+ - "coloredlogs"
+ - "cyvcf2"
+ - "f2py3.8"
+ - "htsfile"
+ - "humanfriendly"
+ - "tabix"
+ - "tqdm"
 versions:
  - "1.1.0--py38h17adfb0_4"
 description: "shpc-registry automated BioContainers addition for vtools"
-config: {"url": "https://biocontainers.pro/tools/vtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vtools", "latest": {"1.1.0--py38h17adfb0_4": "sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da"}, "tags": {"1.1.0--py38h17adfb0_4": "sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da"}, "docker": "quay.io/biocontainers/vtools", "aliases": {"vtools-evaluate": "/usr/local/bin/vtools-evaluate", "vtools-filter": "/usr/local/bin/vtools-filter", "vtools-gcoverage": "/usr/local/bin/vtools-gcoverage", "vtools-stats": "/usr/local/bin/vtools-stats"}}
+config: {"url": "https://biocontainers.pro/tools/vtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vtools", "latest": {"1.1.0--py38h17adfb0_4": "sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da"}, "tags": {"1.1.0--py38h17adfb0_4": "sha256:99e3cf0a7d21ab2583f9685f161e384a222561b7d5d97fc630d103dc0c8102da"}, "docker": "quay.io/biocontainers/vtools", "aliases": {"vtools-evaluate": "/usr/local/bin/vtools-evaluate", "vtools-filter": "/usr/local/bin/vtools-filter", "vtools-gcoverage": "/usr/local/bin/vtools-gcoverage", "vtools-stats": "/usr/local/bin/vtools-stats", "bgzip": "/usr/local/bin/bgzip", "coloredlogs": "/usr/local/bin/coloredlogs", "cyvcf2": "/usr/local/bin/cyvcf2", "f2py3.8": "/usr/local/bin/f2py3.8", "htsfile": "/usr/local/bin/htsfile", "humanfriendly": "/usr/local/bin/humanfriendly", "tabix": "/usr/local/bin/tabix", "tqdm": "/usr/local/bin/tqdm"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vtools.
@@ -134,6 +142,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vtools-gcoverage   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/vtools-stats
 $ podman run --it --rm --entrypoint /usr/local/bin/vtools-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vtools-stats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coloredlogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cyvcf2
+
+```bash
+$ singularity exec <container> /usr/local/bin/cyvcf2
+$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### humanfriendly
+
+```bash
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tqdm
+
+```bash
+$ singularity exec <container> /usr/local/bin/tqdm
+$ podman run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tqdm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/glimmerhmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/glimmerhmm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/glimmerhmm/container.yaml"
-updated_at: "2022-10-27 00:22:11.389219"
+updated_at: "2022-10-29 05:35:09.341865"
 latest: "3.0.4--pl5321h87f3376_5"
 container_url: "https://biocontainers.pro/tools/glimmerhmm"
-
+aliases:
+ - "glimmerhmm"
+ - "glimmhmm.pl"
+ - "trainGlimmerHMM"
 versions:
  - "3.0.4--pl5321h87f3376_5"
 description: "shpc-registry automated BioContainers addition for glimmerhmm"
-config: {"url": "https://biocontainers.pro/tools/glimmerhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmerhmm", "latest": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "tags": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "docker": "quay.io/biocontainers/glimmerhmm"}
+config: {"url": "https://biocontainers.pro/tools/glimmerhmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for glimmerhmm", "latest": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "tags": {"3.0.4--pl5321h87f3376_5": "sha256:efcb52d8586dffdd54c001570ef0e660fba5168d74c4d2cf90930f8a85733281"}, "docker": "quay.io/biocontainers/glimmerhmm", "aliases": {"glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "trainGlimmerHMM": "/usr/local/bin/trainGlimmerHMM"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/glimmerhmm.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### glimmerhmm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/glimmerhmm
+$ podman run --it --rm --entrypoint /usr/local/bin/glimmerhmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glimmerhmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### glimmhmm.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/glimmhmm.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/glimmhmm.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glimmhmm.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### trainGlimmerHMM
+
+```bash
+$ singularity exec <container> /usr/local/bin/trainGlimmerHMM
+$ podman run --it --rm --entrypoint /usr/local/bin/trainGlimmerHMM   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/trainGlimmerHMM   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

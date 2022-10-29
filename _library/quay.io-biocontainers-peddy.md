@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/peddy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/peddy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/peddy/container.yaml"
-updated_at: "2022-10-27 00:19:57.065036"
+updated_at: "2022-10-29 05:32:11.226243"
 latest: "0.4.8--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/peddy"
 aliases:
  - "peddy"
  - "toolshed"
+ - "2to3-3.9"
+ - "bgzip"
+ - "coloredlogs"
+ - "cyvcf2"
+ - "f2py3.9"
+ - "htsfile"
+ - "humanfriendly"
+ - "idle3.9"
+ - "jpgicc"
+ - "linkicc"
 versions:
  - "0.4.8--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for peddy"
-config: {"url": "https://biocontainers.pro/tools/peddy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peddy", "latest": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "tags": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "docker": "quay.io/biocontainers/peddy", "aliases": {"peddy": "/usr/local/bin/peddy", "toolshed": "/usr/local/bin/toolshed"}}
+config: {"url": "https://biocontainers.pro/tools/peddy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for peddy", "latest": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "tags": {"0.4.8--pyh5e36f6f_0": "sha256:1f724a6cf9977a0df825fee1a3f9a44710b4f00a57fc8e1e5b08ff8e7538c25a"}, "docker": "quay.io/biocontainers/peddy", "aliases": {"peddy": "/usr/local/bin/peddy", "toolshed": "/usr/local/bin/toolshed", "2to3-3.9": "/usr/local/bin/2to3-3.9", "bgzip": "/usr/local/bin/bgzip", "coloredlogs": "/usr/local/bin/coloredlogs", "cyvcf2": "/usr/local/bin/cyvcf2", "f2py3.9": "/usr/local/bin/f2py3.9", "htsfile": "/usr/local/bin/htsfile", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/peddy.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/peddy   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/toolshed
 $ podman run --it --rm --entrypoint /usr/local/bin/toolshed   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/toolshed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coloredlogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cyvcf2
+
+```bash
+$ singularity exec <container> /usr/local/bin/cyvcf2
+$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### humanfriendly
+
+```bash
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

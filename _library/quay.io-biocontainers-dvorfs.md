@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dvorfs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dvorfs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dvorfs/container.yaml"
-updated_at: "2022-10-27 00:20:48.834054"
+updated_at: "2022-10-29 05:33:20.521352"
 latest: "1.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/dvorfs"
 aliases:
@@ -30,10 +30,20 @@ aliases:
  - "pswdb"
  - "scanwise"
  - "scanwise_server"
+ - "2to3-3.9"
+ - "_aaindexextract"
+ - "_abiview"
+ - "_acdc"
+ - "_acdpretty"
+ - "_acdtable"
+ - "_acdtrace"
+ - "_acdvalid"
+ - "_antigenic"
+ - "_backtranambig"
 versions:
  - "1.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for dvorfs"
-config: {"url": "https://biocontainers.pro/tools/dvorfs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dvorfs", "latest": {"1.0.1--pyhdfd78af_0": "sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f"}, "docker": "quay.io/biocontainers/dvorfs", "aliases": {"dba": "/usr/local/bin/dba", "dnal": "/usr/local/bin/dnal", "dvorfs": "/usr/local/bin/dvorfs", "estwise": "/usr/local/bin/estwise", "estwisedb": "/usr/local/bin/estwisedb", "genewise": "/usr/local/bin/genewise", "genewisedb": "/usr/local/bin/genewisedb", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "process-genewise": "/usr/local/bin/process-genewise", "promoterwise": "/usr/local/bin/promoterwise", "psw": "/usr/local/bin/psw", "pswdb": "/usr/local/bin/pswdb", "scanwise": "/usr/local/bin/scanwise", "scanwise_server": "/usr/local/bin/scanwise_server"}}
+config: {"url": "https://biocontainers.pro/tools/dvorfs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dvorfs", "latest": {"1.0.1--pyhdfd78af_0": "sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f"}, "tags": {"1.0.1--pyhdfd78af_0": "sha256:32cd4ae9df453f3c687b7a9aa7bf9491752711c940fa60f2cb720399b529e37f"}, "docker": "quay.io/biocontainers/dvorfs", "aliases": {"dba": "/usr/local/bin/dba", "dnal": "/usr/local/bin/dnal", "dvorfs": "/usr/local/bin/dvorfs", "estwise": "/usr/local/bin/estwise", "estwisedb": "/usr/local/bin/estwisedb", "genewise": "/usr/local/bin/genewise", "genewisedb": "/usr/local/bin/genewisedb", "hmmalign2": "/usr/local/bin/hmmalign2", "hmmbuild2": "/usr/local/bin/hmmbuild2", "hmmcalibrate2": "/usr/local/bin/hmmcalibrate2", "hmmconvert2": "/usr/local/bin/hmmconvert2", "hmmemit2": "/usr/local/bin/hmmemit2", "hmmfetch2": "/usr/local/bin/hmmfetch2", "hmmindex2": "/usr/local/bin/hmmindex2", "hmmpfam2": "/usr/local/bin/hmmpfam2", "hmmsearch2": "/usr/local/bin/hmmsearch2", "process-genewise": "/usr/local/bin/process-genewise", "promoterwise": "/usr/local/bin/promoterwise", "psw": "/usr/local/bin/psw", "pswdb": "/usr/local/bin/pswdb", "scanwise": "/usr/local/bin/scanwise", "scanwise_server": "/usr/local/bin/scanwise_server", "2to3-3.9": "/usr/local/bin/2to3-3.9", "_aaindexextract": "/usr/local/bin/_aaindexextract", "_abiview": "/usr/local/bin/_abiview", "_acdc": "/usr/local/bin/_acdc", "_acdpretty": "/usr/local/bin/_acdpretty", "_acdtable": "/usr/local/bin/_acdtable", "_acdtrace": "/usr/local/bin/_acdtrace", "_acdvalid": "/usr/local/bin/_acdvalid", "_antigenic": "/usr/local/bin/_antigenic", "_backtranambig": "/usr/local/bin/_backtranambig"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dvorfs.
@@ -314,6 +324,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scanwise   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/scanwise_server
 $ podman run --it --rm --entrypoint /usr/local/bin/scanwise_server   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/scanwise_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _aaindexextract
+
+```bash
+$ singularity exec <container> /usr/local/bin/_aaindexextract
+$ podman run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_aaindexextract   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _abiview
+
+```bash
+$ singularity exec <container> /usr/local/bin/_abiview
+$ podman run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_abiview   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdc
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdc
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdpretty
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdpretty
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdpretty   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtable
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtable
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtable   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdtrace
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdtrace
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdtrace   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _acdvalid
+
+```bash
+$ singularity exec <container> /usr/local/bin/_acdvalid
+$ podman run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_acdvalid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _antigenic
+
+```bash
+$ singularity exec <container> /usr/local/bin/_antigenic
+$ podman run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_antigenic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### _backtranambig
+
+```bash
+$ singularity exec <container> /usr/local/bin/_backtranambig
+$ podman run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/_backtranambig   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

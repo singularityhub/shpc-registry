@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/phylotoast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylotoast/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phylotoast/container.yaml"
-updated_at: "2022-10-27 00:34:18.751279"
+updated_at: "2022-10-29 05:51:14.786654"
 latest: "1.4.0rc2--py27_0"
 container_url: "https://biocontainers.pro/tools/phylotoast"
 aliases:
@@ -39,10 +39,20 @@ aliases:
  - "split_sequence_data.py"
  - "transform_biom.py"
  - "transpose_biom.py"
+ - "assistant"
+ - "biom"
+ - "dbus-cleanup-sockets"
+ - "dbus-daemon"
+ - "dbus-launch"
+ - "dbus-monitor"
+ - "dbus-run-session"
+ - "dbus-send"
+ - "dbus-test-tool"
+ - "dbus-update-activation-environment"
 versions:
  - "1.4.0rc2--py27_0"
 description: "shpc-registry automated BioContainers addition for phylotoast"
-config: {"url": "https://biocontainers.pro/tools/phylotoast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylotoast", "latest": {"1.4.0rc2--py27_0": "sha256:0d808c42b7f807e444ef8003766914c5b8c7765099a4037d2f1e0d56ec9c5a00"}, "tags": {"1.4.0rc2--py27_0": "sha256:0d808c42b7f807e444ef8003766914c5b8c7765099a4037d2f1e0d56ec9c5a00"}, "docker": "quay.io/biocontainers/phylotoast", "aliases": {"LDA.py": "/usr/local/bin/LDA.py", "LDA_bubble.py": "/usr/local/bin/LDA_bubble.py", "PCoA.py": "/usr/local/bin/PCoA.py", "PCoA_bubble.py": "/usr/local/bin/PCoA_bubble.py", "assign_taxonomy_by_blast_result.py": "/usr/local/bin/assign_taxonomy_by_blast_result.py", "barcode_filter.py": "/usr/local/bin/barcode_filter.py", "biom_relative_abundance.py": "/usr/local/bin/biom_relative_abundance.py", "condense_workflow.py": "/usr/local/bin/condense_workflow.py", "core_overlap_plot.py": "/usr/local/bin/core_overlap_plot.py", "diversity.py": "/usr/local/bin/diversity.py", "extract_shared_or_unique_otuids.py": "/usr/local/bin/extract_shared_or_unique_otuids.py", "filter_biom.py": "/usr/local/bin/filter_biom.py", "filter_keep_otus_by_sample.py": "/usr/local/bin/filter_keep_otus_by_sample.py", "filter_rep_set.py": "/usr/local/bin/filter_rep_set.py", "iTol.py": "/usr/local/bin/iTol.py", "iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "merge_otu_results.py": "/usr/local/bin/merge_otu_results.py", "multi_parallel_pick_otus.py": "/usr/local/bin/multi_parallel_pick_otus.py", "multi_qsub.py": "/usr/local/bin/multi_qsub.py", "network_plots_gephi.py": "/usr/local/bin/network_plots_gephi.py", "otu_condense.py": "/usr/local/bin/otu_condense.py", "otu_to_tax_name.py": "/usr/local/bin/otu_to_tax_name.py", "pick_otus_condense.py": "/usr/local/bin/pick_otus_condense.py", "primer_average.py": "/usr/local/bin/primer_average.py", "prune_otus.py": "/usr/local/bin/prune_otus.py", "pyqi": "/usr/local/bin/pyqi", "restrict_repset.py": "/usr/local/bin/restrict_repset.py", "split_sequence_data.py": "/usr/local/bin/split_sequence_data.py", "transform_biom.py": "/usr/local/bin/transform_biom.py", "transpose_biom.py": "/usr/local/bin/transpose_biom.py"}}
+config: {"url": "https://biocontainers.pro/tools/phylotoast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylotoast", "latest": {"1.4.0rc2--py27_0": "sha256:0d808c42b7f807e444ef8003766914c5b8c7765099a4037d2f1e0d56ec9c5a00"}, "tags": {"1.4.0rc2--py27_0": "sha256:0d808c42b7f807e444ef8003766914c5b8c7765099a4037d2f1e0d56ec9c5a00"}, "docker": "quay.io/biocontainers/phylotoast", "aliases": {"LDA.py": "/usr/local/bin/LDA.py", "LDA_bubble.py": "/usr/local/bin/LDA_bubble.py", "PCoA.py": "/usr/local/bin/PCoA.py", "PCoA_bubble.py": "/usr/local/bin/PCoA_bubble.py", "assign_taxonomy_by_blast_result.py": "/usr/local/bin/assign_taxonomy_by_blast_result.py", "barcode_filter.py": "/usr/local/bin/barcode_filter.py", "biom_relative_abundance.py": "/usr/local/bin/biom_relative_abundance.py", "condense_workflow.py": "/usr/local/bin/condense_workflow.py", "core_overlap_plot.py": "/usr/local/bin/core_overlap_plot.py", "diversity.py": "/usr/local/bin/diversity.py", "extract_shared_or_unique_otuids.py": "/usr/local/bin/extract_shared_or_unique_otuids.py", "filter_biom.py": "/usr/local/bin/filter_biom.py", "filter_keep_otus_by_sample.py": "/usr/local/bin/filter_keep_otus_by_sample.py", "filter_rep_set.py": "/usr/local/bin/filter_rep_set.py", "iTol.py": "/usr/local/bin/iTol.py", "iptest2": "/usr/local/bin/iptest2", "ipython2": "/usr/local/bin/ipython2", "merge_otu_results.py": "/usr/local/bin/merge_otu_results.py", "multi_parallel_pick_otus.py": "/usr/local/bin/multi_parallel_pick_otus.py", "multi_qsub.py": "/usr/local/bin/multi_qsub.py", "network_plots_gephi.py": "/usr/local/bin/network_plots_gephi.py", "otu_condense.py": "/usr/local/bin/otu_condense.py", "otu_to_tax_name.py": "/usr/local/bin/otu_to_tax_name.py", "pick_otus_condense.py": "/usr/local/bin/pick_otus_condense.py", "primer_average.py": "/usr/local/bin/primer_average.py", "prune_otus.py": "/usr/local/bin/prune_otus.py", "pyqi": "/usr/local/bin/pyqi", "restrict_repset.py": "/usr/local/bin/restrict_repset.py", "split_sequence_data.py": "/usr/local/bin/split_sequence_data.py", "transform_biom.py": "/usr/local/bin/transform_biom.py", "transpose_biom.py": "/usr/local/bin/transpose_biom.py", "assistant": "/usr/local/bin/assistant", "biom": "/usr/local/bin/biom", "dbus-cleanup-sockets": "/usr/local/bin/dbus-cleanup-sockets", "dbus-daemon": "/usr/local/bin/dbus-daemon", "dbus-launch": "/usr/local/bin/dbus-launch", "dbus-monitor": "/usr/local/bin/dbus-monitor", "dbus-run-session": "/usr/local/bin/dbus-run-session", "dbus-send": "/usr/local/bin/dbus-send", "dbus-test-tool": "/usr/local/bin/dbus-test-tool", "dbus-update-activation-environment": "/usr/local/bin/dbus-update-activation-environment"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylotoast.
@@ -404,6 +414,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/transform_biom.py   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/transpose_biom.py
 $ podman run --it --rm --entrypoint /usr/local/bin/transpose_biom.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/transpose_biom.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### biom
+
+```bash
+$ singularity exec <container> /usr/local/bin/biom
+$ podman run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-cleanup-sockets
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-cleanup-sockets
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-cleanup-sockets   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-daemon
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-daemon
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-daemon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-launch
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-launch
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-launch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-monitor
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-monitor
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-run-session
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-run-session
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-run-session   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-send
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-send
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-send   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-test-tool
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-test-tool
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-test-tool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbus-update-activation-environment
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbus-update-activation-environment
+$ podman run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbus-update-activation-environment   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

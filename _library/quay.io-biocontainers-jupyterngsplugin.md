@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/jupyterngsplugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jupyterngsplugin/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jupyterngsplugin/container.yaml"
-updated_at: "2022-10-27 00:35:46.641027"
+updated_at: "2022-10-29 05:53:12.250191"
 latest: "0.0.13a3--py_0"
 container_url: "https://biocontainers.pro/tools/jupyterngsplugin"
 aliases:
  - "x86_64-conda_cos6-linux-gnu-pkg-config"
+ - "Magick++-config"
+ - "MagickCore-config"
+ - "MagickWand-config"
+ - "acyclic"
+ - "animate"
+ - "assistant"
+ - "bcomps"
+ - "canbusutil"
+ - "ccomps"
+ - "certutil"
 versions:
  - "0.0.13a3--py_0"
 description: "shpc-registry automated BioContainers addition for jupyterngsplugin"
-config: {"url": "https://biocontainers.pro/tools/jupyterngsplugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jupyterngsplugin", "latest": {"0.0.13a3--py_0": "sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f"}, "tags": {"0.0.13a3--py_0": "sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f"}, "docker": "quay.io/biocontainers/jupyterngsplugin", "aliases": {"x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config"}}
+config: {"url": "https://biocontainers.pro/tools/jupyterngsplugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jupyterngsplugin", "latest": {"0.0.13a3--py_0": "sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f"}, "tags": {"0.0.13a3--py_0": "sha256:a8fb3b77776d865b245d231c91c69e59f5a833c0a8bb874adc6e9504666ef51f"}, "docker": "quay.io/biocontainers/jupyterngsplugin", "aliases": {"x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "acyclic": "/usr/local/bin/acyclic", "animate": "/usr/local/bin/animate", "assistant": "/usr/local/bin/assistant", "bcomps": "/usr/local/bin/bcomps", "canbusutil": "/usr/local/bin/canbusutil", "ccomps": "/usr/local/bin/ccomps", "certutil": "/usr/local/bin/certutil"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jupyterngsplugin.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config
 $ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Magick++-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/Magick++-config
+$ podman run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Magick++-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MagickCore-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickCore-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickCore-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MagickWand-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/MagickWand-config
+$ podman run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MagickWand-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### animate
+
+```bash
+$ singularity exec <container> /usr/local/bin/animate
+$ podman run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/animate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### canbusutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/canbusutil
+$ podman run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/canbusutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/certutil
+$ podman run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certutil   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

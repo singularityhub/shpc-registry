@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pypints"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypints/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pypints/container.yaml"
-updated_at: "2022-10-27 00:34:11.524647"
+updated_at: "2022-10-29 05:51:04.518733"
 latest: "1.1.8--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/pypints"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "pints_caller"
  - "pints_normalizer"
  - "pints_visualizer"
+ - "2to3-3.10"
+ - "ace2sam"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
 versions:
  - "1.1.8--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for pypints"
-config: {"url": "https://biocontainers.pro/tools/pypints", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypints", "latest": {"1.1.8--pyh7cba7a3_0": "sha256:c2a0f88405540b7849707f7ed898c142eabadcb4fd666c45315c497a79fa6b44"}, "tags": {"1.1.8--pyh7cba7a3_0": "sha256:c2a0f88405540b7849707f7ed898c142eabadcb4fd666c45315c497a79fa6b44"}, "docker": "quay.io/biocontainers/pypints", "aliases": {"pints_boundary_extender": "/usr/local/bin/pints_boundary_extender", "pints_caller": "/usr/local/bin/pints_caller", "pints_normalizer": "/usr/local/bin/pints_normalizer", "pints_visualizer": "/usr/local/bin/pints_visualizer"}}
+config: {"url": "https://biocontainers.pro/tools/pypints", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypints", "latest": {"1.1.8--pyh7cba7a3_0": "sha256:c2a0f88405540b7849707f7ed898c142eabadcb4fd666c45315c497a79fa6b44"}, "tags": {"1.1.8--pyh7cba7a3_0": "sha256:c2a0f88405540b7849707f7ed898c142eabadcb4fd666c45315c497a79fa6b44"}, "docker": "quay.io/biocontainers/pypints", "aliases": {"pints_boundary_extender": "/usr/local/bin/pints_boundary_extender", "pints_caller": "/usr/local/bin/pints_caller", "pints_normalizer": "/usr/local/bin/pints_normalizer", "pints_visualizer": "/usr/local/bin/pints_visualizer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypints.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pints_normalizer   -v ${PWD} 
 $ singularity exec <container> /usr/local/bin/pints_visualizer
 $ podman run --it --rm --entrypoint /usr/local/bin/pints_visualizer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pints_visualizer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

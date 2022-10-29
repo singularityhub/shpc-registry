@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sga"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sga/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sga/container.yaml"
-updated_at: "2022-10-27 00:23:35.425778"
+updated_at: "2022-10-29 05:37:03.081640"
 latest: "0.10.15--h4dc6686_7"
 container_url: "https://biocontainers.pro/tools/sga"
 aliases:
@@ -12,10 +12,11 @@ aliases:
  - "sga-astat.py"
  - "sga-bam2de.pl"
  - "sga-mergeDriver.pl"
+ - "bamtools"
 versions:
  - "0.10.15--h4dc6686_7"
 description: "shpc-registry automated BioContainers addition for sga"
-config: {"url": "https://biocontainers.pro/tools/sga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sga", "latest": {"0.10.15--h4dc6686_7": "sha256:f490091d6ff477a3e47caa623526f3877a9e9ccf23a062e642ffaf9c2d502b35"}, "tags": {"0.10.15--h4dc6686_7": "sha256:f490091d6ff477a3e47caa623526f3877a9e9ccf23a062e642ffaf9c2d502b35"}, "docker": "quay.io/biocontainers/sga", "aliases": {"sga": "/usr/local/bin/sga", "sga-astat.py": "/usr/local/bin/sga-astat.py", "sga-bam2de.pl": "/usr/local/bin/sga-bam2de.pl", "sga-mergeDriver.pl": "/usr/local/bin/sga-mergeDriver.pl"}}
+config: {"url": "https://biocontainers.pro/tools/sga", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sga", "latest": {"0.10.15--h4dc6686_7": "sha256:f490091d6ff477a3e47caa623526f3877a9e9ccf23a062e642ffaf9c2d502b35"}, "tags": {"0.10.15--h4dc6686_7": "sha256:f490091d6ff477a3e47caa623526f3877a9e9ccf23a062e642ffaf9c2d502b35"}, "docker": "quay.io/biocontainers/sga", "aliases": {"sga": "/usr/local/bin/sga", "sga-astat.py": "/usr/local/bin/sga-astat.py", "sga-bam2de.pl": "/usr/local/bin/sga-bam2de.pl", "sga-mergeDriver.pl": "/usr/local/bin/sga-mergeDriver.pl", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sga.
@@ -134,6 +135,15 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sga-bam2de.pl   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/sga-mergeDriver.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/sga-mergeDriver.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sga-mergeDriver.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

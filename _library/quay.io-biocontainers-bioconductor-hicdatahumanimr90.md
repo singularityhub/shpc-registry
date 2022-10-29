@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-hicdatahumanimr90"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdatahumanimr90/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdatahumanimr90/container.yaml"
-updated_at: "2022-10-27 00:32:06.015118"
+updated_at: "2022-10-29 05:48:18.686818"
 latest: "1.9.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdatahumanimr90"
 aliases:
- - ".bioconductor-hicdatahumanimr90-post-link.sh"
- - ".bioconductor-hicdatahumanimr90-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hicdatahumanimr90"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdatahumanimr90", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdatahumanimr90", "latest": {"1.9.0--r40_0": "sha256:4b9ffd74d0632411440597d5af1ac298cf68d69442a08681374a58fe6250df8d"}, "tags": {"1.9.0--r40_0": "sha256:4b9ffd74d0632411440597d5af1ac298cf68d69442a08681374a58fe6250df8d"}, "docker": "quay.io/biocontainers/bioconductor-hicdatahumanimr90", "aliases": {".bioconductor-hicdatahumanimr90-post-link.sh": "/usr/local/bin/.bioconductor-hicdatahumanimr90-post-link.sh", ".bioconductor-hicdatahumanimr90-pre-unlink.sh": "/usr/local/bin/.bioconductor-hicdatahumanimr90-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdatahumanimr90", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdatahumanimr90", "latest": {"1.9.0--r40_0": "sha256:4b9ffd74d0632411440597d5af1ac298cf68d69442a08681374a58fe6250df8d"}, "tags": {"1.9.0--r40_0": "sha256:4b9ffd74d0632411440597d5af1ac298cf68d69442a08681374a58fe6250df8d"}, "docker": "quay.io/biocontainers/bioconductor-hicdatahumanimr90", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicdatahumanimr90.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-hicdatahumanimr90-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hicdatahumanimr90-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hicdatahumanimr90-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hicdatahumanimr90-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-hicdatahumanimr90-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hicdatahumanimr90-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hicdatahumanimr90-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hicdatahumanimr90-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

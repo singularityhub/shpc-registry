@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.blood.epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
-updated_at: "2022-10-27 00:30:06.725506"
+updated_at: "2022-10-29 05:45:38.192272"
 latest: "1.8.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic"
 aliases:
- - ".bioconductor-flowsorted.blood.epic-post-link.sh"
- - ".bioconductor-flowsorted.blood.epic-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic", "latest": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.blood.epic", "aliases": {".bioconductor-flowsorted.blood.epic-post-link.sh": "/usr/local/bin/.bioconductor-flowsorted.blood.epic-post-link.sh", ".bioconductor-flowsorted.blood.epic-pre-unlink.sh": "/usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic", "latest": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.blood.epic", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.blood.epic.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-flowsorted.blood.epic-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-flowsorted.blood.epic-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.blood.epic-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.blood.epic-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-flowsorted.blood.epic-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,17 +4,20 @@ name:  "quay.io/biocontainers/rjchallis-assembly-stats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rjchallis-assembly-stats/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rjchallis-assembly-stats/container.yaml"
-updated_at: "2022-10-27 00:33:04.984104"
+updated_at: "2022-10-29 05:49:35.633740"
 latest: "17.02--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rjchallis-assembly-stats"
 aliases:
  - "asm2stats.minmaxgc.pl"
  - "asm2stats.minmaxgc.pl.bak"
  - "asm2stats.pl"
+ - "json_xs"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "17.02--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rjchallis-assembly-stats"
-config: {"url": "https://biocontainers.pro/tools/rjchallis-assembly-stats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rjchallis-assembly-stats", "latest": {"17.02--hdfd78af_0": "sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50"}, "tags": {"17.02--hdfd78af_0": "sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50"}, "docker": "quay.io/biocontainers/rjchallis-assembly-stats", "aliases": {"asm2stats.minmaxgc.pl": "/usr/local/bin/asm2stats.minmaxgc.pl", "asm2stats.minmaxgc.pl.bak": "/usr/local/bin/asm2stats.minmaxgc.pl.bak", "asm2stats.pl": "/usr/local/bin/asm2stats.pl"}}
+config: {"url": "https://biocontainers.pro/tools/rjchallis-assembly-stats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rjchallis-assembly-stats", "latest": {"17.02--hdfd78af_0": "sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50"}, "tags": {"17.02--hdfd78af_0": "sha256:6646f1d94c93e04adacf2bd80f0eb0fd91a5bfde2421738892c66274840fbb50"}, "docker": "quay.io/biocontainers/rjchallis-assembly-stats", "aliases": {"asm2stats.minmaxgc.pl": "/usr/local/bin/asm2stats.minmaxgc.pl", "asm2stats.minmaxgc.pl.bak": "/usr/local/bin/asm2stats.minmaxgc.pl.bak", "asm2stats.pl": "/usr/local/bin/asm2stats.pl", "json_xs": "/usr/local/bin/json_xs", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rjchallis-assembly-stats.
@@ -124,6 +127,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/asm2stats.minmaxgc.pl.bak   -
 $ singularity exec <container> /usr/local/bin/asm2stats.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/asm2stats.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/asm2stats.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### json_xs
+
+```bash
+$ singularity exec <container> /usr/local/bin/json_xs
+$ podman run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/json_xs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

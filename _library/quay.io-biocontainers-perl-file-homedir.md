@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/perl-file-homedir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-homedir/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-homedir/container.yaml"
-updated_at: "2022-10-27 00:38:55.897963"
+updated_at: "2022-10-29 05:57:21.421778"
 latest: "1.004--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-file-homedir"
-
+aliases:
+ - "cpanm"
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "1.004--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-file-homedir"
-config: {"url": "https://biocontainers.pro/tools/perl-file-homedir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-homedir", "latest": {"1.004--pl526_2": "sha256:d6cceb0f9251348bf15dba09f6f89dfb7b3a72684a376146cb79732858937172"}, "tags": {"1.004--pl526_2": "sha256:d6cceb0f9251348bf15dba09f6f89dfb7b3a72684a376146cb79732858937172"}, "docker": "quay.io/biocontainers/perl-file-homedir"}
+config: {"url": "https://biocontainers.pro/tools/perl-file-homedir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-file-homedir", "latest": {"1.004--pl526_2": "sha256:d6cceb0f9251348bf15dba09f6f89dfb7b3a72684a376146cb79732858937172"}, "tags": {"1.004--pl526_2": "sha256:d6cceb0f9251348bf15dba09f6f89dfb7b3a72684a376146cb79732858937172"}, "docker": "quay.io/biocontainers/perl-file-homedir", "aliases": {"cpanm": "/usr/local/bin/cpanm", "perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-file-homedir.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-file-homedir
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### perl5.26.2
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

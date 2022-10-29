@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/nextgenmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextgenmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nextgenmap/container.yaml"
-updated_at: "2022-10-27 00:36:47.677629"
+updated_at: "2022-10-29 05:54:33.982169"
 latest: "0.5.5--hc9558a2_4"
 container_url: "https://biocontainers.pro/tools/nextgenmap"
 aliases:
@@ -32,10 +32,13 @@ aliases:
  - "readelf"
  - "size"
  - "strings"
+ - "ar"
+ - "ranlib"
+ - "strip"
 versions:
  - "0.5.5--hc9558a2_4"
 description: "shpc-registry automated BioContainers addition for nextgenmap"
-config: {"url": "https://biocontainers.pro/tools/nextgenmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextgenmap", "latest": {"0.5.5--hc9558a2_4": "sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00"}, "tags": {"0.5.5--hc9558a2_4": "sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00"}, "docker": "quay.io/biocontainers/nextgenmap", "aliases": {"addr2line": "/usr/local/bin/addr2line", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "dwp": "/usr/local/bin/dwp", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gprof": "/usr/local/bin/gprof", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "ngm": "/usr/local/bin/ngm", "ngm-core": "/usr/local/bin/ngm-core", "ngm-core-debug": "/usr/local/bin/ngm-core-debug", "ngm-debug": "/usr/local/bin/ngm-debug", "ngm-log": "/usr/local/bin/ngm-log", "ngm-utils": "/usr/local/bin/ngm-utils", "ngm-utils-debug": "/usr/local/bin/ngm-utils-debug", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "oclTool": "/usr/local/bin/oclTool", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings"}}
+config: {"url": "https://biocontainers.pro/tools/nextgenmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextgenmap", "latest": {"0.5.5--hc9558a2_4": "sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00"}, "tags": {"0.5.5--hc9558a2_4": "sha256:7bc2c8c2036f6c2c654903f7782877b7d57f566f86a64dbce2fc900f5f8f9f00"}, "docker": "quay.io/biocontainers/nextgenmap", "aliases": {"addr2line": "/usr/local/bin/addr2line", "as": "/usr/local/bin/as", "c++filt": "/usr/local/bin/c++filt", "dwp": "/usr/local/bin/dwp", "elfedit": "/usr/local/bin/elfedit", "gold": "/usr/local/bin/gold", "gprof": "/usr/local/bin/gprof", "ld": "/usr/local/bin/ld", "ld.bfd": "/usr/local/bin/ld.bfd", "ld.gold": "/usr/local/bin/ld.gold", "ngm": "/usr/local/bin/ngm", "ngm-core": "/usr/local/bin/ngm-core", "ngm-core-debug": "/usr/local/bin/ngm-core-debug", "ngm-debug": "/usr/local/bin/ngm-debug", "ngm-log": "/usr/local/bin/ngm-log", "ngm-utils": "/usr/local/bin/ngm-utils", "ngm-utils-debug": "/usr/local/bin/ngm-utils-debug", "nm": "/usr/local/bin/nm", "objcopy": "/usr/local/bin/objcopy", "objdump": "/usr/local/bin/objdump", "oclTool": "/usr/local/bin/oclTool", "readelf": "/usr/local/bin/readelf", "size": "/usr/local/bin/size", "strings": "/usr/local/bin/strings", "ar": "/usr/local/bin/ar", "ranlib": "/usr/local/bin/ranlib", "strip": "/usr/local/bin/strip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextgenmap.
@@ -334,6 +337,33 @@ $ docker run --it --rm --entrypoint /usr/local/bin/size   -v ${PWD} -w ${PWD} <c
 $ singularity exec <container> /usr/local/bin/strings
 $ podman run --it --rm --entrypoint /usr/local/bin/strings   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/strings   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ar
+
+```bash
+$ singularity exec <container> /usr/local/bin/ar
+$ podman run --it --rm --entrypoint /usr/local/bin/ar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ranlib
+
+```bash
+$ singularity exec <container> /usr/local/bin/ranlib
+$ podman run --it --rm --entrypoint /usr/local/bin/ranlib   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ranlib   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### strip
+
+```bash
+$ singularity exec <container> /usr/local/bin/strip
+$ podman run --it --rm --entrypoint /usr/local/bin/strip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/strip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

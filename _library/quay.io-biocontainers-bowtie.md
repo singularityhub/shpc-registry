@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bowtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bowtie/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bowtie/container.yaml"
-updated_at: "2022-10-27 00:21:15.783876"
+updated_at: "2022-10-29 05:33:56.114726"
 latest: "1.3.1--py36h769816f_3"
 container_url: "https://biocontainers.pro/tools/bowtie"
-
+aliases:
+ - "2to3-3.6"
+ - "bowtie"
+ - "bowtie-align-l"
+ - "bowtie-align-s"
+ - "bowtie-build"
+ - "bowtie-build-l"
+ - "bowtie-build-s"
+ - "bowtie-inspect"
+ - "bowtie-inspect-l"
+ - "bowtie-inspect-s"
 versions:
  - "1.3.1--py36h769816f_3"
 description: "shpc-registry automated BioContainers addition for bowtie"
-config: {"url": "https://biocontainers.pro/tools/bowtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bowtie", "latest": {"1.3.1--py36h769816f_3": "sha256:ebfdf6379111f690154229e240b6d7e1b3556c99deb13abadee33c6b396c8373"}, "tags": {"1.3.1--py36h769816f_3": "sha256:ebfdf6379111f690154229e240b6d7e1b3556c99deb13abadee33c6b396c8373"}, "docker": "quay.io/biocontainers/bowtie"}
+config: {"url": "https://biocontainers.pro/tools/bowtie", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bowtie", "latest": {"1.3.1--py36h769816f_3": "sha256:ebfdf6379111f690154229e240b6d7e1b3556c99deb13abadee33c6b396c8373"}, "tags": {"1.3.1--py36h769816f_3": "sha256:ebfdf6379111f690154229e240b6d7e1b3556c99deb13abadee33c6b396c8373"}, "docker": "quay.io/biocontainers/bowtie", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "bowtie": "/usr/local/bin/bowtie", "bowtie-align-l": "/usr/local/bin/bowtie-align-l", "bowtie-align-s": "/usr/local/bin/bowtie-align-s", "bowtie-build": "/usr/local/bin/bowtie-build", "bowtie-build-l": "/usr/local/bin/bowtie-build-l", "bowtie-build-s": "/usr/local/bin/bowtie-build-s", "bowtie-inspect": "/usr/local/bin/bowtie-inspect", "bowtie-inspect-l": "/usr/local/bin/bowtie-inspect-l", "bowtie-inspect-s": "/usr/local/bin/bowtie-inspect-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bowtie.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 #### bowtie
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bowtie
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### bowtie-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-build
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-build-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-build-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-build-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-build-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-inspect
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-inspect-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-inspect-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie-inspect-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie-inspect-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie-inspect-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

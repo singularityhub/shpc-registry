@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-immunespacer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-immunespacer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-immunespacer/container.yaml"
-updated_at: "2022-10-27 00:22:38.240323"
+updated_at: "2022-10-29 05:35:46.480628"
 latest: "1.22.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-immunespacer"
-
+aliases:
+ - "pandoc"
 versions:
  - "1.22.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-immunespacer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-immunespacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-immunespacer", "latest": {"1.22.0--r41hdfd78af_0": "sha256:673301a4f9c5b35acb479842931c1d83d1486be61bec65bc05e620d75caa4a2d"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:673301a4f9c5b35acb479842931c1d83d1486be61bec65bc05e620d75caa4a2d"}, "docker": "quay.io/biocontainers/bioconductor-immunespacer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-immunespacer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-immunespacer", "latest": {"1.22.0--r41hdfd78af_0": "sha256:673301a4f9c5b35acb479842931c1d83d1486be61bec65bc05e620d75caa4a2d"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:673301a4f9c5b35acb479842931c1d83d1486be61bec65bc05e620d75caa4a2d"}, "docker": "quay.io/biocontainers/bioconductor-immunespacer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-immunespacer.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-immunespacer
+#### pandoc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

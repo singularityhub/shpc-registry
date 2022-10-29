@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/r-argumentcheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-argumentcheck/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-argumentcheck/container.yaml"
-updated_at: "2022-10-27 00:27:25.132678"
+updated_at: "2022-10-29 05:42:08.405609"
 latest: "0.10.2--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-argumentcheck"
-
+aliases:
+ - "ncurses5-config"
+ - "tclsh8.5"
+ - "wish8.5"
 versions:
  - "0.10.2--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for r-argumentcheck"
-config: {"url": "https://biocontainers.pro/tools/r-argumentcheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-argumentcheck", "latest": {"0.10.2--r3.4.1_0": "sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d"}, "tags": {"0.10.2--r3.4.1_0": "sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d"}, "docker": "quay.io/biocontainers/r-argumentcheck"}
+config: {"url": "https://biocontainers.pro/tools/r-argumentcheck", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-argumentcheck", "latest": {"0.10.2--r3.4.1_0": "sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d"}, "tags": {"0.10.2--r3.4.1_0": "sha256:e04e51c1d55b74491ca826a41bc5869de40b155564036d28329c122e085f788d"}, "docker": "quay.io/biocontainers/r-argumentcheck", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-argumentcheck.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-argumentcheck
+#### ncurses5-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

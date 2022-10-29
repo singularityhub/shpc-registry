@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/axiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/axiome/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/axiome/container.yaml"
-updated_at: "2022-10-27 00:19:34.795094"
+updated_at: "2022-10-29 05:31:42.758735"
 latest: "2.0.4--py_3"
 container_url: "https://biocontainers.pro/tools/axiome"
 aliases:
  - "axiome"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "2.0.4--py_3"
 description: "shpc-registry automated BioContainers addition for axiome"
-config: {"url": "https://biocontainers.pro/tools/axiome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for axiome", "latest": {"2.0.4--py_3": "sha256:80b279e9c7b21a39c4818e7743e73137d2bf8e951baa91b1e2fe58de1522bde4"}, "tags": {"2.0.4--py_3": "sha256:80b279e9c7b21a39c4818e7743e73137d2bf8e951baa91b1e2fe58de1522bde4"}, "docker": "quay.io/biocontainers/axiome", "aliases": {"axiome": "/usr/local/bin/axiome"}}
+config: {"url": "https://biocontainers.pro/tools/axiome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for axiome", "latest": {"2.0.4--py_3": "sha256:80b279e9c7b21a39c4818e7743e73137d2bf8e951baa91b1e2fe58de1522bde4"}, "tags": {"2.0.4--py_3": "sha256:80b279e9c7b21a39c4818e7743e73137d2bf8e951baa91b1e2fe58de1522bde4"}, "docker": "quay.io/biocontainers/axiome", "aliases": {"axiome": "/usr/local/bin/axiome", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/axiome.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/axiome
 $ podman run --it --rm --entrypoint /usr/local/bin/axiome   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/axiome   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

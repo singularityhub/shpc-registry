@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strling/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/strling/container.yaml"
-updated_at: "2022-10-27 00:25:19.011072"
+updated_at: "2022-10-29 05:39:17.924903"
 latest: "0.5.1--h8a6b41c_3"
 container_url: "https://biocontainers.pro/tools/strling"
 aliases:
@@ -18,10 +18,20 @@ aliases:
  - "groovy_script"
  - "strling"
  - "strling-outliers.py"
+ - "2to3-3.10"
+ - "aserver"
+ - "b2sum"
+ - "base32"
+ - "base64"
+ - "basename"
+ - "basenc"
+ - "bgzip"
+ - "brotli"
+ - "cat"
 versions:
  - "0.5.1--h8a6b41c_3"
 description: "shpc-registry automated BioContainers addition for strling"
-config: {"url": "https://biocontainers.pro/tools/strling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strling", "latest": {"0.5.1--h8a6b41c_3": "sha256:7165d1845c2e8b1f9c071e7369924958d3a6dbde32d8758bcbef5eb3c0073e33"}, "tags": {"0.5.1--h8a6b41c_3": "sha256:7165d1845c2e8b1f9c071e7369924958d3a6dbde32d8758bcbef5eb3c0073e33"}, "docker": "quay.io/biocontainers/strling", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "strling": "/usr/local/bin/strling", "strling-outliers.py": "/usr/local/bin/strling-outliers.py"}}
+config: {"url": "https://biocontainers.pro/tools/strling", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strling", "latest": {"0.5.1--h8a6b41c_3": "sha256:7165d1845c2e8b1f9c071e7369924958d3a6dbde32d8758bcbef5eb3c0073e33"}, "tags": {"0.5.1--h8a6b41c_3": "sha256:7165d1845c2e8b1f9c071e7369924958d3a6dbde32d8758bcbef5eb3c0073e33"}, "docker": "quay.io/biocontainers/strling", "aliases": {"bg-bpipe": "/usr/local/bin/bg-bpipe", "bpipe": "/usr/local/bin/bpipe", "bpipe-groovy": "/usr/local/bin/bpipe-groovy", "bpipe-pbspro.sh": "/usr/local/bin/bpipe-pbspro.sh", "bpipe-slurm.sh": "/usr/local/bin/bpipe-slurm.sh", "bpipe-torque.sh": "/usr/local/bin/bpipe-torque.sh", "bpipe-utils.sh": "/usr/local/bin/bpipe-utils.sh", "groovy_script": "/usr/local/bin/groovy_script", "strling": "/usr/local/bin/strling", "strling-outliers.py": "/usr/local/bin/strling-outliers.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "aserver": "/usr/local/bin/aserver", "b2sum": "/usr/local/bin/b2sum", "base32": "/usr/local/bin/base32", "base64": "/usr/local/bin/base64", "basename": "/usr/local/bin/basename", "basenc": "/usr/local/bin/basenc", "bgzip": "/usr/local/bin/bgzip", "brotli": "/usr/local/bin/brotli", "cat": "/usr/local/bin/cat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strling.
@@ -194,6 +204,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/strling   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/strling-outliers.py
 $ podman run --it --rm --entrypoint /usr/local/bin/strling-outliers.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/strling-outliers.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### b2sum
+
+```bash
+$ singularity exec <container> /usr/local/bin/b2sum
+$ podman run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/b2sum   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base32
+
+```bash
+$ singularity exec <container> /usr/local/bin/base32
+$ podman run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base32   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### base64
+
+```bash
+$ singularity exec <container> /usr/local/bin/base64
+$ podman run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/base64   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basename
+
+```bash
+$ singularity exec <container> /usr/local/bin/basename
+$ podman run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basename   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basenc
+
+```bash
+$ singularity exec <container> /usr/local/bin/basenc
+$ podman run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basenc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cat
+
+```bash
+$ singularity exec <container> /usr/local/bin/cat
+$ podman run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cat   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

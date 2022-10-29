@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/spectrum_utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spectrum_utils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spectrum_utils/container.yaml"
-updated_at: "2022-10-27 00:34:24.708618"
+updated_at: "2022-10-29 05:51:23.434695"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/spectrum_utils"
-
+aliases:
+ - "2to3-3.10"
+ - "brotli"
+ - "f2py3.10"
+ - "fonttools"
+ - "idle3.10"
+ - "jpgicc"
+ - "jsonschema"
+ - "linkicc"
+ - "numba"
+ - "opj_compress"
 versions:
  - "0.4.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for spectrum_utils"
-config: {"url": "https://biocontainers.pro/tools/spectrum_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrum_utils", "latest": {"0.4.1--pyhdfd78af_0": "sha256:45459d22a493021f0d988ef7d09b8fefe63947cd0a98e2418d26883c254b2700"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:45459d22a493021f0d988ef7d09b8fefe63947cd0a98e2418d26883c254b2700"}, "docker": "quay.io/biocontainers/spectrum_utils"}
+config: {"url": "https://biocontainers.pro/tools/spectrum_utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spectrum_utils", "latest": {"0.4.1--pyhdfd78af_0": "sha256:45459d22a493021f0d988ef7d09b8fefe63947cd0a98e2418d26883c254b2700"}, "tags": {"0.4.1--pyhdfd78af_0": "sha256:45459d22a493021f0d988ef7d09b8fefe63947cd0a98e2418d26883c254b2700"}, "docker": "quay.io/biocontainers/spectrum_utils", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "fonttools": "/usr/local/bin/fonttools", "idle3.10": "/usr/local/bin/idle3.10", "jpgicc": "/usr/local/bin/jpgicc", "jsonschema": "/usr/local/bin/jsonschema", "linkicc": "/usr/local/bin/linkicc", "numba": "/usr/local/bin/numba", "opj_compress": "/usr/local/bin/opj_compress"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spectrum_utils.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### spectrum_utils
+#### 2to3-3.10
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jsonschema
+
+```bash
+$ singularity exec <container> /usr/local/bin/jsonschema
+$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### linkicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/linkicc
+$ podman run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/linkicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### numba
+
+```bash
+$ singularity exec <container> /usr/local/bin/numba
+$ podman run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/numba   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

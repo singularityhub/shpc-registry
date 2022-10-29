@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-decomptumor2sig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-decomptumor2sig/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-decomptumor2sig/container.yaml"
-updated_at: "2022-10-27 00:39:30.643644"
+updated_at: "2022-10-29 05:58:06.416270"
 latest: "2.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-decomptumor2sig"
-
+aliases:
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-decomptumor2sig"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-decomptumor2sig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decomptumor2sig", "latest": {"2.8.0--r41hdfd78af_0": "sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9"}, "docker": "quay.io/biocontainers/bioconductor-decomptumor2sig"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-decomptumor2sig", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-decomptumor2sig", "latest": {"2.8.0--r41hdfd78af_0": "sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:1d1409f367d7a9f2679936552beab146144025d8ec4da6bcf40965a832c4e0f9"}, "docker": "quay.io/biocontainers/bioconductor-decomptumor2sig", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-decomptumor2sig.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-decomptumor2sig
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

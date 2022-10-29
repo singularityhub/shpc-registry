@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/pygvcf2coverage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pygvcf2coverage/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pygvcf2coverage/container.yaml"
-updated_at: "2022-10-27 00:19:10.768873"
+updated_at: "2022-10-29 05:31:12.293949"
 latest: "0.2--py_0"
 container_url: "https://biocontainers.pro/tools/pygvcf2coverage"
 aliases:
  - "pygvcf2coverage"
+ - "2to3-3.7"
+ - "bgzip"
+ - "coloredlogs"
+ - "cyvcf2"
+ - "f2py3.7"
+ - "htsfile"
+ - "humanfriendly"
+ - "idle3.7"
+ - "pydoc3.7"
+ - "python3.7"
 versions:
  - "0.2--py_0"
 description: "shpc-registry automated BioContainers addition for pygvcf2coverage"
-config: {"url": "https://biocontainers.pro/tools/pygvcf2coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygvcf2coverage", "latest": {"0.2--py_0": "sha256:d61a128c38d272c93c79107a44c78123f965cb2680cca08ad88d055c8cfc4e4d"}, "tags": {"0.2--py_0": "sha256:d61a128c38d272c93c79107a44c78123f965cb2680cca08ad88d055c8cfc4e4d"}, "docker": "quay.io/biocontainers/pygvcf2coverage", "aliases": {"pygvcf2coverage": "/usr/local/bin/pygvcf2coverage"}}
+config: {"url": "https://biocontainers.pro/tools/pygvcf2coverage", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pygvcf2coverage", "latest": {"0.2--py_0": "sha256:d61a128c38d272c93c79107a44c78123f965cb2680cca08ad88d055c8cfc4e4d"}, "tags": {"0.2--py_0": "sha256:d61a128c38d272c93c79107a44c78123f965cb2680cca08ad88d055c8cfc4e4d"}, "docker": "quay.io/biocontainers/pygvcf2coverage", "aliases": {"pygvcf2coverage": "/usr/local/bin/pygvcf2coverage", "2to3-3.7": "/usr/local/bin/2to3-3.7", "bgzip": "/usr/local/bin/bgzip", "coloredlogs": "/usr/local/bin/coloredlogs", "cyvcf2": "/usr/local/bin/cyvcf2", "f2py3.7": "/usr/local/bin/f2py3.7", "htsfile": "/usr/local/bin/htsfile", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pygvcf2coverage.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/pygvcf2coverage
 $ podman run --it --rm --entrypoint /usr/local/bin/pygvcf2coverage   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pygvcf2coverage   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### coloredlogs
+
+```bash
+$ singularity exec <container> /usr/local/bin/coloredlogs
+$ podman run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/coloredlogs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cyvcf2
+
+```bash
+$ singularity exec <container> /usr/local/bin/cyvcf2
+$ podman run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cyvcf2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### humanfriendly
+
+```bash
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

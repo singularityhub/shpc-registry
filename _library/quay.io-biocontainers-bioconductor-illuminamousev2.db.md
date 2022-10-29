@@ -4,16 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-illuminamousev2.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminamousev2.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminamousev2.db/container.yaml"
-updated_at: "2022-10-27 00:36:17.714233"
+updated_at: "2022-10-29 05:53:53.776649"
 latest: "1.26.0--r40_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminamousev2.db"
 aliases:
- - ".bioconductor-illuminamousev2.db-post-link.sh"
- - ".bioconductor-illuminamousev2.db-pre-unlink.sh"
+ - "2to3-3.8"
+ - "gio-launch-desktop"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.26.0--r40_9"
 description: "shpc-registry automated BioContainers addition for bioconductor-illuminamousev2.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminamousev2.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminamousev2.db", "latest": {"1.26.0--r40_9": "sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb"}, "tags": {"1.26.0--r40_9": "sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb"}, "docker": "quay.io/biocontainers/bioconductor-illuminamousev2.db", "aliases": {".bioconductor-illuminamousev2.db-post-link.sh": "/usr/local/bin/.bioconductor-illuminamousev2.db-post-link.sh", ".bioconductor-illuminamousev2.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-illuminamousev2.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminamousev2.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminamousev2.db", "latest": {"1.26.0--r40_9": "sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb"}, "tags": {"1.26.0--r40_9": "sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb"}, "docker": "quay.io/biocontainers/bioconductor-illuminamousev2.db", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-illuminamousev2.db.
@@ -99,21 +103,57 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-illuminamousev2.db-post-link.sh
+#### 2to3-3.8
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-illuminamousev2.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminamousev2.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminamousev2.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-illuminamousev2.db-pre-unlink.sh
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-illuminamousev2.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminamousev2.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-illuminamousev2.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

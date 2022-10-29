@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/magpurify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magpurify/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/magpurify/container.yaml"
-updated_at: "2022-10-27 00:28:54.834979"
+updated_at: "2022-10-29 05:44:04.375607"
 latest: "2.1.2--py_1"
 container_url: "https://biocontainers.pro/tools/magpurify"
 aliases:
- - ".magpurify-post-link.sh"
  - "coverm"
  - "last-split8"
  - "lastal8"
@@ -17,10 +16,20 @@ aliases:
  - "magpurify"
  - "remove_minimap2_duplicated_headers"
  - "starcode"
+ - "2to3-3.8"
+ - "ace2sam"
+ - "alimask"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
+ - "between-two-genes"
+ - "bgzip"
+ - "blast2sam.pl"
 versions:
  - "2.1.2--py_1"
 description: "shpc-registry automated BioContainers addition for magpurify"
-config: {"url": "https://biocontainers.pro/tools/magpurify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magpurify", "latest": {"2.1.2--py_1": "sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae"}, "tags": {"2.1.2--py_1": "sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae"}, "docker": "quay.io/biocontainers/magpurify", "aliases": {".magpurify-post-link.sh": "/usr/local/bin/.magpurify-post-link.sh", "coverm": "/usr/local/bin/coverm", "last-split8": "/usr/local/bin/last-split8", "lastal8": "/usr/local/bin/lastal8", "lastdb8": "/usr/local/bin/lastdb8", "maf-cut": "/usr/local/bin/maf-cut", "magpurify": "/usr/local/bin/magpurify", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode"}}
+config: {"url": "https://biocontainers.pro/tools/magpurify", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magpurify", "latest": {"2.1.2--py_1": "sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae"}, "tags": {"2.1.2--py_1": "sha256:04aa9ea844627dcad499aa86a37c41e85936527c4f195ff1a4c8726c940546ae"}, "docker": "quay.io/biocontainers/magpurify", "aliases": {"coverm": "/usr/local/bin/coverm", "last-split8": "/usr/local/bin/last-split8", "lastal8": "/usr/local/bin/lastal8", "lastdb8": "/usr/local/bin/lastdb8", "maf-cut": "/usr/local/bin/maf-cut", "magpurify": "/usr/local/bin/magpurify", "remove_minimap2_duplicated_headers": "/usr/local/bin/remove_minimap2_duplicated_headers", "starcode": "/usr/local/bin/starcode", "2to3-3.8": "/usr/local/bin/2to3-3.8", "ace2sam": "/usr/local/bin/ace2sam", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls", "between-two-genes": "/usr/local/bin/between-two-genes", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/magpurify.
@@ -106,15 +115,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .magpurify-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.magpurify-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.magpurify-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.magpurify-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### coverm
 
 ```bash
@@ -184,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/remove_minimap2_duplicated_he
 $ singularity exec <container> /usr/local/bin/starcode
 $ podman run --it --rm --entrypoint /usr/local/bin/starcode   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/starcode   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

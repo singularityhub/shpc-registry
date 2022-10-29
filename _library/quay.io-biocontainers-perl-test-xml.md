@@ -4,14 +4,23 @@ name:  "quay.io/biocontainers/perl-test-xml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-test-xml/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-test-xml/container.yaml"
-updated_at: "2022-10-27 00:40:24.910350"
+updated_at: "2022-10-29 05:59:17.376872"
 latest: "0.08--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-test-xml"
-
+aliases:
+ - "htmltree"
+ - "tidyp"
+ - "webtidy"
+ - "xml_grep"
+ - "xml_merge"
+ - "xml_pp"
+ - "xml_spellcheck"
+ - "xml_split"
+ - "xpath"
 versions:
  - "0.08--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-test-xml"
-config: {"url": "https://biocontainers.pro/tools/perl-test-xml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-xml", "latest": {"0.08--pl5321hdfd78af_2": "sha256:95188013a1268d30415b8f69c56027507b28c7c2f46a69166040000337de514f"}, "tags": {"0.08--pl5321hdfd78af_2": "sha256:95188013a1268d30415b8f69c56027507b28c7c2f46a69166040000337de514f"}, "docker": "quay.io/biocontainers/perl-test-xml"}
+config: {"url": "https://biocontainers.pro/tools/perl-test-xml", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-test-xml", "latest": {"0.08--pl5321hdfd78af_2": "sha256:95188013a1268d30415b8f69c56027507b28c7c2f46a69166040000337de514f"}, "tags": {"0.08--pl5321hdfd78af_2": "sha256:95188013a1268d30415b8f69c56027507b28c7c2f46a69166040000337de514f"}, "docker": "quay.io/biocontainers/perl-test-xml", "aliases": {"htmltree": "/usr/local/bin/htmltree", "tidyp": "/usr/local/bin/tidyp", "webtidy": "/usr/local/bin/webtidy", "xml_grep": "/usr/local/bin/xml_grep", "xml_merge": "/usr/local/bin/xml_merge", "xml_pp": "/usr/local/bin/xml_pp", "xml_spellcheck": "/usr/local/bin/xml_spellcheck", "xml_split": "/usr/local/bin/xml_split", "xpath": "/usr/local/bin/xpath"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-test-xml.
@@ -97,14 +106,86 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-test-xml
+#### htmltree
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/htmltree
+$ podman run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htmltree   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### tidyp
+
+```bash
+$ singularity exec <container> /usr/local/bin/tidyp
+$ podman run --it --rm --entrypoint /usr/local/bin/tidyp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tidyp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### webtidy
+
+```bash
+$ singularity exec <container> /usr/local/bin/webtidy
+$ podman run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/webtidy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xml_grep
+
+```bash
+$ singularity exec <container> /usr/local/bin/xml_grep
+$ podman run --it --rm --entrypoint /usr/local/bin/xml_grep   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xml_grep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xml_merge
+
+```bash
+$ singularity exec <container> /usr/local/bin/xml_merge
+$ podman run --it --rm --entrypoint /usr/local/bin/xml_merge   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xml_merge   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xml_pp
+
+```bash
+$ singularity exec <container> /usr/local/bin/xml_pp
+$ podman run --it --rm --entrypoint /usr/local/bin/xml_pp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xml_pp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xml_spellcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/xml_spellcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/xml_spellcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xml_spellcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xml_split
+
+```bash
+$ singularity exec <container> /usr/local/bin/xml_split
+$ podman run --it --rm --entrypoint /usr/local/bin/xml_split   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xml_split   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### xpath
+
+```bash
+$ singularity exec <container> /usr/local/bin/xpath
+$ podman run --it --rm --entrypoint /usr/local/bin/xpath   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xpath   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

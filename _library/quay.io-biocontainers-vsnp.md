@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vsnp/container.yaml"
-updated_at: "2022-10-27 00:20:47.535553"
+updated_at: "2022-10-29 05:33:18.843894"
 latest: "2.03--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/vsnp"
 aliases:
@@ -28,10 +28,20 @@ aliases:
  - "vsnp_reference_options.py"
  - "vsnp_remove_from_analysis.py"
  - "vsnp_spoligotype.py"
+ - "ABYSS"
+ - "ABYSS-P"
+ - "AdjList"
+ - "Consensus"
+ - "DAssembler"
+ - "DistanceEst"
+ - "DistanceEst-ssq"
+ - "KAligner"
+ - "MergeContigs"
+ - "MergePaths"
 versions:
  - "2.03--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for vsnp"
-config: {"url": "https://biocontainers.pro/tools/vsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vsnp", "latest": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "tags": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "docker": "quay.io/biocontainers/vsnp", "aliases": {"cpuinfo": "/usr/local/bin/cpuinfo", "vSNP_step1.py": "/usr/local/bin/vSNP_step1.py", "vSNP_step2.py": "/usr/local/bin/vSNP_step2.py", "vsnp_alignment_vcf.py": "/usr/local/bin/vsnp_alignment_vcf.py", "vsnp_best_reference.py": "/usr/local/bin/vsnp_best_reference.py", "vsnp_bruc_mlst.py": "/usr/local/bin/vsnp_bruc_mlst.py", "vsnp_chromosome_reference.py": "/usr/local/bin/vsnp_chromosome_reference.py", "vsnp_excel_merge_files.py": "/usr/local/bin/vsnp_excel_merge_files.py", "vsnp_fasta_gbk_gff_by_acc.py": "/usr/local/bin/vsnp_fasta_gbk_gff_by_acc.py", "vsnp_fasta_to_snps_table.py": "/usr/local/bin/vsnp_fasta_to_snps_table.py", "vsnp_fastq_quality.py": "/usr/local/bin/vsnp_fastq_quality.py", "vsnp_file_management.py": "/usr/local/bin/vsnp_file_management.py", "vsnp_filter_finder.py": "/usr/local/bin/vsnp_filter_finder.py", "vsnp_group_reporter.py": "/usr/local/bin/vsnp_group_reporter.py", "vsnp_html_step2_summary.py": "/usr/local/bin/vsnp_html_step2_summary.py", "vsnp_merge_vcf_into_fasta.py": "/usr/local/bin/vsnp_merge_vcf_into_fasta.py", "vsnp_path_adder.py": "/usr/local/bin/vsnp_path_adder.py", "vsnp_reference_options.py": "/usr/local/bin/vsnp_reference_options.py", "vsnp_remove_from_analysis.py": "/usr/local/bin/vsnp_remove_from_analysis.py", "vsnp_spoligotype.py": "/usr/local/bin/vsnp_spoligotype.py"}}
+config: {"url": "https://biocontainers.pro/tools/vsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vsnp", "latest": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "tags": {"2.03--hdfd78af_2": "sha256:05bb4ee3676e88481698f939591c2e582d9bc1df3dbea476081befe65089bd86"}, "docker": "quay.io/biocontainers/vsnp", "aliases": {"cpuinfo": "/usr/local/bin/cpuinfo", "vSNP_step1.py": "/usr/local/bin/vSNP_step1.py", "vSNP_step2.py": "/usr/local/bin/vSNP_step2.py", "vsnp_alignment_vcf.py": "/usr/local/bin/vsnp_alignment_vcf.py", "vsnp_best_reference.py": "/usr/local/bin/vsnp_best_reference.py", "vsnp_bruc_mlst.py": "/usr/local/bin/vsnp_bruc_mlst.py", "vsnp_chromosome_reference.py": "/usr/local/bin/vsnp_chromosome_reference.py", "vsnp_excel_merge_files.py": "/usr/local/bin/vsnp_excel_merge_files.py", "vsnp_fasta_gbk_gff_by_acc.py": "/usr/local/bin/vsnp_fasta_gbk_gff_by_acc.py", "vsnp_fasta_to_snps_table.py": "/usr/local/bin/vsnp_fasta_to_snps_table.py", "vsnp_fastq_quality.py": "/usr/local/bin/vsnp_fastq_quality.py", "vsnp_file_management.py": "/usr/local/bin/vsnp_file_management.py", "vsnp_filter_finder.py": "/usr/local/bin/vsnp_filter_finder.py", "vsnp_group_reporter.py": "/usr/local/bin/vsnp_group_reporter.py", "vsnp_html_step2_summary.py": "/usr/local/bin/vsnp_html_step2_summary.py", "vsnp_merge_vcf_into_fasta.py": "/usr/local/bin/vsnp_merge_vcf_into_fasta.py", "vsnp_path_adder.py": "/usr/local/bin/vsnp_path_adder.py", "vsnp_reference_options.py": "/usr/local/bin/vsnp_reference_options.py", "vsnp_remove_from_analysis.py": "/usr/local/bin/vsnp_remove_from_analysis.py", "vsnp_spoligotype.py": "/usr/local/bin/vsnp_spoligotype.py", "ABYSS": "/usr/local/bin/ABYSS", "ABYSS-P": "/usr/local/bin/ABYSS-P", "AdjList": "/usr/local/bin/AdjList", "Consensus": "/usr/local/bin/Consensus", "DAssembler": "/usr/local/bin/DAssembler", "DistanceEst": "/usr/local/bin/DistanceEst", "DistanceEst-ssq": "/usr/local/bin/DistanceEst-ssq", "KAligner": "/usr/local/bin/KAligner", "MergeContigs": "/usr/local/bin/MergeContigs", "MergePaths": "/usr/local/bin/MergePaths"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vsnp.
@@ -294,6 +304,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/vsnp_remove_from_analysis.py 
 $ singularity exec <container> /usr/local/bin/vsnp_spoligotype.py
 $ podman run --it --rm --entrypoint /usr/local/bin/vsnp_spoligotype.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vsnp_spoligotype.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ABYSS
+
+```bash
+$ singularity exec <container> /usr/local/bin/ABYSS
+$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ABYSS-P
+
+```bash
+$ singularity exec <container> /usr/local/bin/ABYSS-P
+$ podman run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ABYSS-P   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AdjList
+
+```bash
+$ singularity exec <container> /usr/local/bin/AdjList
+$ podman run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AdjList   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Consensus
+
+```bash
+$ singularity exec <container> /usr/local/bin/Consensus
+$ podman run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Consensus   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DAssembler
+
+```bash
+$ singularity exec <container> /usr/local/bin/DAssembler
+$ podman run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DAssembler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DistanceEst
+
+```bash
+$ singularity exec <container> /usr/local/bin/DistanceEst
+$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DistanceEst-ssq
+
+```bash
+$ singularity exec <container> /usr/local/bin/DistanceEst-ssq
+$ podman run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DistanceEst-ssq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### KAligner
+
+```bash
+$ singularity exec <container> /usr/local/bin/KAligner
+$ podman run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/KAligner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MergeContigs
+
+```bash
+$ singularity exec <container> /usr/local/bin/MergeContigs
+$ podman run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MergeContigs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MergePaths
+
+```bash
+$ singularity exec <container> /usr/local/bin/MergePaths
+$ podman run --it --rm --entrypoint /usr/local/bin/MergePaths   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MergePaths   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

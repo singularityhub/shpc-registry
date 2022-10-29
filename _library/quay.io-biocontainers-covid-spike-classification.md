@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/covid-spike-classification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/covid-spike-classification/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/covid-spike-classification/container.yaml"
-updated_at: "2022-10-27 00:36:22.413993"
+updated_at: "2022-10-29 05:53:59.685497"
 latest: "0.6.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/covid-spike-classification"
 aliases:
  - "covid-spike-classification"
  - "tracy"
+ - "2to3-3.9"
+ - "ace2sam"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2"
+ - "bowtie2-align-l"
+ - "bowtie2-align-s"
+ - "bowtie2-build"
+ - "bowtie2-build-l"
+ - "bowtie2-build-s"
 versions:
  - "0.6.4--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for covid-spike-classification"
-config: {"url": "https://biocontainers.pro/tools/covid-spike-classification", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for covid-spike-classification", "latest": {"0.6.4--pyhdfd78af_0": "sha256:291de9e23eabe10ef356d8c5f6449dc9d1a8dfc9dff52d4f58b8ab4209f624da"}, "tags": {"0.6.4--pyhdfd78af_0": "sha256:291de9e23eabe10ef356d8c5f6449dc9d1a8dfc9dff52d4f58b8ab4209f624da"}, "docker": "quay.io/biocontainers/covid-spike-classification", "aliases": {"covid-spike-classification": "/usr/local/bin/covid-spike-classification", "tracy": "/usr/local/bin/tracy"}}
+config: {"url": "https://biocontainers.pro/tools/covid-spike-classification", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for covid-spike-classification", "latest": {"0.6.4--pyhdfd78af_0": "sha256:291de9e23eabe10ef356d8c5f6449dc9d1a8dfc9dff52d4f58b8ab4209f624da"}, "tags": {"0.6.4--pyhdfd78af_0": "sha256:291de9e23eabe10ef356d8c5f6449dc9d1a8dfc9dff52d4f58b8ab4209f624da"}, "docker": "quay.io/biocontainers/covid-spike-classification", "aliases": {"covid-spike-classification": "/usr/local/bin/covid-spike-classification", "tracy": "/usr/local/bin/tracy", "2to3-3.9": "/usr/local/bin/2to3-3.9", "ace2sam": "/usr/local/bin/ace2sam", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/covid-spike-classification.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/covid-spike-classification   
 $ singularity exec <container> /usr/local/bin/tracy
 $ podman run --it --rm --entrypoint /usr/local/bin/tracy   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/tracy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

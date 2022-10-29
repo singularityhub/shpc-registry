@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/strainge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strainge/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/strainge/container.yaml"
-updated_at: "2022-10-27 00:26:25.734273"
+updated_at: "2022-10-29 05:40:47.472205"
 latest: "1.3.3--py39hcaef8bb_0"
 container_url: "https://biocontainers.pro/tools/strainge"
 aliases:
@@ -20,10 +20,20 @@ aliases:
  - "straingr"
  - "straingst"
  - "treepath"
+ - "2to3-3.9"
+ - "brotli"
+ - "cwebp"
+ - "cygdb"
+ - "cython"
+ - "cythonize"
+ - "doesitcache"
+ - "dwebp"
+ - "f2py3.9"
+ - "fonttools"
 versions:
  - "1.3.3--py39hcaef8bb_0"
 description: "shpc-registry automated BioContainers addition for strainge"
-config: {"url": "https://biocontainers.pro/tools/strainge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainge", "latest": {"1.3.3--py39hcaef8bb_0": "sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d"}, "tags": {"1.3.3--py39hcaef8bb_0": "sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d"}, "docker": "quay.io/biocontainers/strainge", "aliases": {"kmercoverage": "/usr/local/bin/kmercoverage", "kmerseq": "/usr/local/bin/kmerseq", "kmersimilarity": "/usr/local/bin/kmersimilarity", "kmerspectrum": "/usr/local/bin/kmerspectrum", "kmertree": "/usr/local/bin/kmertree", "pankmer": "/usr/local/bin/pankmer", "refseq-download": "/usr/local/bin/refseq-download", "refseq-extract": "/usr/local/bin/refseq-extract", "strainge": "/usr/local/bin/strainge", "straingr": "/usr/local/bin/straingr", "straingst": "/usr/local/bin/straingst", "treepath": "/usr/local/bin/treepath"}}
+config: {"url": "https://biocontainers.pro/tools/strainge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for strainge", "latest": {"1.3.3--py39hcaef8bb_0": "sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d"}, "tags": {"1.3.3--py39hcaef8bb_0": "sha256:5c01b0f52ad77ae4121ce991c07a5fe2c1119addba67fa23f9afb714ce5c3b1d"}, "docker": "quay.io/biocontainers/strainge", "aliases": {"kmercoverage": "/usr/local/bin/kmercoverage", "kmerseq": "/usr/local/bin/kmerseq", "kmersimilarity": "/usr/local/bin/kmersimilarity", "kmerspectrum": "/usr/local/bin/kmerspectrum", "kmertree": "/usr/local/bin/kmertree", "pankmer": "/usr/local/bin/pankmer", "refseq-download": "/usr/local/bin/refseq-download", "refseq-extract": "/usr/local/bin/refseq-extract", "strainge": "/usr/local/bin/strainge", "straingr": "/usr/local/bin/straingr", "straingst": "/usr/local/bin/straingst", "treepath": "/usr/local/bin/treepath", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "doesitcache": "/usr/local/bin/doesitcache", "dwebp": "/usr/local/bin/dwebp", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/strainge.
@@ -214,6 +224,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/straingst   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/treepath
 $ podman run --it --rm --entrypoint /usr/local/bin/treepath   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/treepath   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cygdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cython
+
+```bash
+$ singularity exec <container> /usr/local/bin/cython
+$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cythonize
+
+```bash
+$ singularity exec <container> /usr/local/bin/cythonize
+$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### doesitcache
+
+```bash
+$ singularity exec <container> /usr/local/bin/doesitcache
+$ podman run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/doesitcache   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/bcftools-snvphyl-plugin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools-snvphyl-plugin/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools-snvphyl-plugin/container.yaml"
-updated_at: "2022-10-27 00:28:50.577760"
+updated_at: "2022-10-29 05:43:58.925822"
 latest: "1.9--h2559242_7"
 container_url: "https://biocontainers.pro/tools/bcftools-snvphyl-plugin"
-
+aliases:
+ - "bcftools"
+ - "bgzip"
+ - "color-chrs.pl"
+ - "guess-ploidy.py"
+ - "htsfile"
+ - "plot-roh.py"
+ - "plot-vcfstats"
+ - "run-roh.pl"
+ - "tabix"
+ - "vcfutils.pl"
 versions:
  - "1.9--h2559242_7"
 description: "shpc-registry automated BioContainers addition for bcftools-snvphyl-plugin"
-config: {"url": "https://biocontainers.pro/tools/bcftools-snvphyl-plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcftools-snvphyl-plugin", "latest": {"1.9--h2559242_7": "sha256:d690e132b4d6604d72056d9a8e3437ec2fb94eb0deb43f49aea74c3bd91c73d3"}, "tags": {"1.9--h2559242_7": "sha256:d690e132b4d6604d72056d9a8e3437ec2fb94eb0deb43f49aea74c3bd91c73d3"}, "docker": "quay.io/biocontainers/bcftools-snvphyl-plugin"}
+config: {"url": "https://biocontainers.pro/tools/bcftools-snvphyl-plugin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcftools-snvphyl-plugin", "latest": {"1.9--h2559242_7": "sha256:d690e132b4d6604d72056d9a8e3437ec2fb94eb0deb43f49aea74c3bd91c73d3"}, "tags": {"1.9--h2559242_7": "sha256:d690e132b4d6604d72056d9a8e3437ec2fb94eb0deb43f49aea74c3bd91c73d3"}, "docker": "quay.io/biocontainers/bcftools-snvphyl-plugin", "aliases": {"bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "htsfile": "/usr/local/bin/htsfile", "plot-roh.py": "/usr/local/bin/plot-roh.py", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "run-roh.pl": "/usr/local/bin/run-roh.pl", "tabix": "/usr/local/bin/tabix", "vcfutils.pl": "/usr/local/bin/vcfutils.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcftools-snvphyl-plugin.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bcftools-snvphyl-plugin
+#### bcftools
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### color-chrs.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/color-chrs.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/color-chrs.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### guess-ploidy.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/guess-ploidy.py
+$ podman run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/guess-ploidy.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### htsfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/htsfile
+$ podman run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/htsfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-roh.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-roh.py
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-roh.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### plot-vcfstats
+
+```bash
+$ singularity exec <container> /usr/local/bin/plot-vcfstats
+$ podman run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/plot-vcfstats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### run-roh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/run-roh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/run-roh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tabix
+
+```bash
+$ singularity exec <container> /usr/local/bin/tabix
+$ podman run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tabix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### vcfutils.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/vcfutils.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/vcfutils.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

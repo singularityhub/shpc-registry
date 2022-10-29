@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/megalodon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megalodon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/megalodon/container.yaml"
-updated_at: "2022-10-27 00:37:13.754495"
+updated_at: "2022-10-29 05:55:08.754418"
 latest: "2.3.1--py37h73a75cf_0"
 container_url: "https://biocontainers.pro/tools/megalodon"
 aliases:
  - "megalodon"
  - "megalodon_extras"
+ - "2to3-3.7"
+ - "check_compression"
+ - "compress_fast5"
+ - "f2py3.7"
+ - "fast5_subset"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
 versions:
  - "2.3.1--py37h73a75cf_0"
 description: "shpc-registry automated BioContainers addition for megalodon"
-config: {"url": "https://biocontainers.pro/tools/megalodon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megalodon", "latest": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "tags": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "docker": "quay.io/biocontainers/megalodon", "aliases": {"megalodon": "/usr/local/bin/megalodon", "megalodon_extras": "/usr/local/bin/megalodon_extras"}}
+config: {"url": "https://biocontainers.pro/tools/megalodon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for megalodon", "latest": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "tags": {"2.3.1--py37h73a75cf_0": "sha256:880cf1cc1fd5b1a16eb94a579dc0e7d30348bf9ec1b4b0b12adaac3de4a6e33e"}, "docker": "quay.io/biocontainers/megalodon", "aliases": {"megalodon": "/usr/local/bin/megalodon", "megalodon_extras": "/usr/local/bin/megalodon_extras", "2to3-3.7": "/usr/local/bin/2to3-3.7", "check_compression": "/usr/local/bin/check_compression", "compress_fast5": "/usr/local/bin/compress_fast5", "f2py3.7": "/usr/local/bin/f2py3.7", "fast5_subset": "/usr/local/bin/fast5_subset", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/megalodon.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/megalodon   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/megalodon_extras
 $ podman run --it --rm --entrypoint /usr/local/bin/megalodon_extras   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/megalodon_extras   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### check_compression
+
+```bash
+$ singularity exec <container> /usr/local/bin/check_compression
+$ podman run --it --rm --entrypoint /usr/local/bin/check_compression   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/check_compression   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### compress_fast5
+
+```bash
+$ singularity exec <container> /usr/local/bin/compress_fast5
+$ podman run --it --rm --entrypoint /usr/local/bin/compress_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/compress_fast5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fast5_subset
+
+```bash
+$ singularity exec <container> /usr/local/bin/fast5_subset
+$ podman run --it --rm --entrypoint /usr/local/bin/fast5_subset   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fast5_subset   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

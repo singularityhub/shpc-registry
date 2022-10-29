@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/amplicon_coverage_plot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/amplicon_coverage_plot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/amplicon_coverage_plot/container.yaml"
-updated_at: "2022-10-27 00:40:25.334919"
+updated_at: "2022-10-29 05:59:17.921764"
 latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/amplicon_coverage_plot"
 aliases:
  - "amplicov"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.3.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for amplicon_coverage_plot"
-config: {"url": "https://biocontainers.pro/tools/amplicon_coverage_plot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amplicon_coverage_plot", "latest": {"0.3.2--pyhdfd78af_0": "sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c"}, "docker": "quay.io/biocontainers/amplicon_coverage_plot", "aliases": {"amplicov": "/usr/local/bin/amplicov"}}
+config: {"url": "https://biocontainers.pro/tools/amplicon_coverage_plot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for amplicon_coverage_plot", "latest": {"0.3.2--pyhdfd78af_0": "sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c"}, "tags": {"0.3.2--pyhdfd78af_0": "sha256:e491e3cd75d973764f62829479bd1a69fe55778406d3eb7e716f226ffdebc27c"}, "docker": "quay.io/biocontainers/amplicon_coverage_plot", "aliases": {"amplicov": "/usr/local/bin/amplicov", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/amplicon_coverage_plot.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/amplicov
 $ podman run --it --rm --entrypoint /usr/local/bin/amplicov   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/amplicov   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

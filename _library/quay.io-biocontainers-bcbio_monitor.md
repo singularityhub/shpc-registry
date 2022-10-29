@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/bcbio_monitor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcbio_monitor/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcbio_monitor/container.yaml"
-updated_at: "2022-10-27 00:32:07.297003"
+updated_at: "2022-10-29 05:48:20.340014"
 latest: "1.0.6--py_4"
 container_url: "https://biocontainers.pro/tools/bcbio_monitor"
 aliases:
  - "bcbio_monitor"
+ - "acyclic"
+ - "bcomps"
+ - "ccomps"
+ - "chardetect"
+ - "circo"
+ - "cluster"
+ - "cxpm"
+ - "dijkstra"
+ - "dot"
+ - "dot2gxl"
 versions:
  - "1.0.6--py_4"
 description: "shpc-registry automated BioContainers addition for bcbio_monitor"
-config: {"url": "https://biocontainers.pro/tools/bcbio_monitor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio_monitor", "latest": {"1.0.6--py_4": "sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c"}, "tags": {"1.0.6--py_4": "sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c"}, "docker": "quay.io/biocontainers/bcbio_monitor", "aliases": {"bcbio_monitor": "/usr/local/bin/bcbio_monitor"}}
+config: {"url": "https://biocontainers.pro/tools/bcbio_monitor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcbio_monitor", "latest": {"1.0.6--py_4": "sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c"}, "tags": {"1.0.6--py_4": "sha256:a30e77bae8ebfbc3b1a3c964dd9eba6c080cb0fe9f8bedb81f9053f3d92c739c"}, "docker": "quay.io/biocontainers/bcbio_monitor", "aliases": {"bcbio_monitor": "/usr/local/bin/bcbio_monitor", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "chardetect": "/usr/local/bin/chardetect", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "cxpm": "/usr/local/bin/cxpm", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot", "dot2gxl": "/usr/local/bin/dot2gxl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcbio_monitor.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/bcbio_monitor
 $ podman run --it --rm --entrypoint /usr/local/bin/bcbio_monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/bcbio_monitor   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### circo
+
+```bash
+$ singularity exec <container> /usr/local/bin/circo
+$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cluster
+
+```bash
+$ singularity exec <container> /usr/local/bin/cluster
+$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cxpm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cxpm
+$ podman run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dijkstra
+
+```bash
+$ singularity exec <container> /usr/local/bin/dijkstra
+$ podman run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dot
+
+```bash
+$ singularity exec <container> /usr/local/bin/dot
+$ podman run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dot2gxl
+
+```bash
+$ singularity exec <container> /usr/local/bin/dot2gxl
+$ podman run --it --rm --entrypoint /usr/local/bin/dot2gxl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dot2gxl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

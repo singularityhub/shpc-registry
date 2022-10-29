@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-hpaanalyze"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hpaanalyze/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hpaanalyze/container.yaml"
-updated_at: "2022-10-27 00:31:07.077215"
+updated_at: "2022-10-29 05:46:59.366466"
 latest: "1.8.1--r40hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hpaanalyze"
-
+aliases:
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.1--r40hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hpaanalyze"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hpaanalyze", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hpaanalyze", "latest": {"1.8.1--r40hdfd78af_0": "sha256:4c8fdffe67ecd8b389c9c584c2348e8c7c219e086a1d91c8a7449f0d843c7733"}, "tags": {"1.8.1--r40hdfd78af_0": "sha256:4c8fdffe67ecd8b389c9c584c2348e8c7c219e086a1d91c8a7449f0d843c7733"}, "docker": "quay.io/biocontainers/bioconductor-hpaanalyze"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hpaanalyze", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hpaanalyze", "latest": {"1.8.1--r40hdfd78af_0": "sha256:4c8fdffe67ecd8b389c9c584c2348e8c7c219e086a1d91c8a7449f0d843c7733"}, "tags": {"1.8.1--r40hdfd78af_0": "sha256:4c8fdffe67ecd8b389c9c584c2348e8c7c219e086a1d91c8a7449f0d843c7733"}, "docker": "quay.io/biocontainers/bioconductor-hpaanalyze", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hpaanalyze.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-hpaanalyze
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/preface"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/preface/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/preface/container.yaml"
-updated_at: "2022-10-27 00:30:25.123890"
+updated_at: "2022-10-29 05:46:02.340919"
 latest: "0.1.2--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/preface"
 aliases:
  - "PREFACE"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.1.2--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for preface"
-config: {"url": "https://biocontainers.pro/tools/preface", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for preface", "latest": {"0.1.2--hdfd78af_0": "sha256:fc72c7271badf16e67187c7c37aebc6f11646781a6b223aa588419c7a42d73bd"}, "tags": {"0.1.2--hdfd78af_0": "sha256:fc72c7271badf16e67187c7c37aebc6f11646781a6b223aa588419c7a42d73bd"}, "docker": "quay.io/biocontainers/preface", "aliases": {"PREFACE": "/usr/local/bin/PREFACE"}}
+config: {"url": "https://biocontainers.pro/tools/preface", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for preface", "latest": {"0.1.2--hdfd78af_0": "sha256:fc72c7271badf16e67187c7c37aebc6f11646781a6b223aa588419c7a42d73bd"}, "tags": {"0.1.2--hdfd78af_0": "sha256:fc72c7271badf16e67187c7c37aebc6f11646781a6b223aa588419c7a42d73bd"}, "docker": "quay.io/biocontainers/preface", "aliases": {"PREFACE": "/usr/local/bin/PREFACE", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/preface.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/PREFACE
 $ podman run --it --rm --entrypoint /usr/local/bin/PREFACE   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/PREFACE   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### x86_64-conda-linux-gnu-gfortran.bin
+
+```bash
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

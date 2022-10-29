@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/bwameth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwameth/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwameth/container.yaml"
-updated_at: "2022-10-27 00:18:45.652811"
+updated_at: "2022-10-29 05:30:39.288102"
 latest: "0.20--py35_0"
 container_url: "https://biocontainers.pro/tools/bwameth"
 aliases:
  - "bwameth.py"
  - "toolshed"
+ - "2to3-3.5"
+ - "ace2sam"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "bwa"
+ - "easy_install-3.5"
+ - "export2sam.pl"
+ - "idle3.5"
+ - "interpolate_sam.pl"
+ - "maq2sam-long"
 versions:
  - "0.20--py35_0"
 description: "shpc-registry automated BioContainers addition for bwameth"
-config: {"url": "https://biocontainers.pro/tools/bwameth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwameth", "latest": {"0.20--py35_0": "sha256:40c49bc433c6fc78211d27b1f7d2a977a87532a3654ca6dcccb2c52157ad9225"}, "tags": {"0.20--py35_0": "sha256:40c49bc433c6fc78211d27b1f7d2a977a87532a3654ca6dcccb2c52157ad9225"}, "docker": "quay.io/biocontainers/bwameth", "aliases": {"bwameth.py": "/usr/local/bin/bwameth.py", "toolshed": "/usr/local/bin/toolshed"}}
+config: {"url": "https://biocontainers.pro/tools/bwameth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwameth", "latest": {"0.20--py35_0": "sha256:40c49bc433c6fc78211d27b1f7d2a977a87532a3654ca6dcccb2c52157ad9225"}, "tags": {"0.20--py35_0": "sha256:40c49bc433c6fc78211d27b1f7d2a977a87532a3654ca6dcccb2c52157ad9225"}, "docker": "quay.io/biocontainers/bwameth", "aliases": {"bwameth.py": "/usr/local/bin/bwameth.py", "toolshed": "/usr/local/bin/toolshed", "2to3-3.5": "/usr/local/bin/2to3-3.5", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "bwa": "/usr/local/bin/bwa", "easy_install-3.5": "/usr/local/bin/easy_install-3.5", "export2sam.pl": "/usr/local/bin/export2sam.pl", "idle3.5": "/usr/local/bin/idle3.5", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwameth.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/bwameth.py   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/toolshed
 $ podman run --it --rm --entrypoint /usr/local/bin/toolshed   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/toolshed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bwa
+
+```bash
+$ singularity exec <container> /usr/local/bin/bwa
+$ podman run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bwa   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### easy_install-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### interpolate_sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maq2sam-long
+
+```bash
+$ singularity exec <container> /usr/local/bin/maq2sam-long
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

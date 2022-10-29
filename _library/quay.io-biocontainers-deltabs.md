@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/deltabs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deltabs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deltabs/container.yaml"
-updated_at: "2022-10-27 00:37:59.393166"
+updated_at: "2022-10-29 05:56:07.357796"
 latest: "0.1--2"
 container_url: "https://biocontainers.pro/tools/deltabs"
 aliases:
  - "buildCustomModels.pl"
  - "deltaBS.pl"
+ - "2to3-3.7"
+ - "SOAPsh.pl"
+ - "ace.pl"
+ - "acyclic"
+ - "alimask"
+ - "annotate"
+ - "bam2bedgraph"
+ - "bamToGBrowse.pl"
+ - "baseml"
+ - "basemlg"
 versions:
  - "0.1--2"
 description: "shpc-registry automated BioContainers addition for deltabs"
-config: {"url": "https://biocontainers.pro/tools/deltabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deltabs", "latest": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "tags": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "docker": "quay.io/biocontainers/deltabs", "aliases": {"buildCustomModels.pl": "/usr/local/bin/buildCustomModels.pl", "deltaBS.pl": "/usr/local/bin/deltaBS.pl"}}
+config: {"url": "https://biocontainers.pro/tools/deltabs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deltabs", "latest": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "tags": {"0.1--2": "sha256:f3606eeff115232e7476e30e54ba9c5cf3d02d18c15bc2ea4ecfd14c8af14b17"}, "docker": "quay.io/biocontainers/deltabs", "aliases": {"buildCustomModels.pl": "/usr/local/bin/buildCustomModels.pl", "deltaBS.pl": "/usr/local/bin/deltaBS.pl", "2to3-3.7": "/usr/local/bin/2to3-3.7", "SOAPsh.pl": "/usr/local/bin/SOAPsh.pl", "ace.pl": "/usr/local/bin/ace.pl", "acyclic": "/usr/local/bin/acyclic", "alimask": "/usr/local/bin/alimask", "annotate": "/usr/local/bin/annotate", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bamToGBrowse.pl": "/usr/local/bin/bamToGBrowse.pl", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deltabs.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/buildCustomModels.pl   -v ${P
 $ singularity exec <container> /usr/local/bin/deltaBS.pl
 $ podman run --it --rm --entrypoint /usr/local/bin/deltaBS.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/deltaBS.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SOAPsh.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/SOAPsh.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SOAPsh.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bam2bedgraph
+
+```bash
+$ singularity exec <container> /usr/local/bin/bam2bedgraph
+$ podman run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bam2bedgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToGBrowse.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToGBrowse.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToGBrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### baseml
+
+```bash
+$ singularity exec <container> /usr/local/bin/baseml
+$ podman run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/baseml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### basemlg
+
+```bash
+$ singularity exec <container> /usr/local/bin/basemlg
+$ podman run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/basemlg   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

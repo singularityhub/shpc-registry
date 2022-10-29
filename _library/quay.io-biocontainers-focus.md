@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/focus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/focus/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/focus/container.yaml"
-updated_at: "2022-10-27 00:27:55.638823"
+updated_at: "2022-10-29 05:42:47.646578"
 latest: "1.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/focus"
 aliases:
  - "focus"
  - "focus_database_utils"
+ - "2to3-3.10"
+ - "f2py3.10"
+ - "funzip"
+ - "idle3.10"
+ - "jellyfish"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
+ - "unzip"
 versions:
  - "1.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for focus"
-config: {"url": "https://biocontainers.pro/tools/focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for focus", "latest": {"1.8--pyhdfd78af_0": "sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517"}, "tags": {"1.8--pyhdfd78af_0": "sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517"}, "docker": "quay.io/biocontainers/focus", "aliases": {"focus": "/usr/local/bin/focus", "focus_database_utils": "/usr/local/bin/focus_database_utils"}}
+config: {"url": "https://biocontainers.pro/tools/focus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for focus", "latest": {"1.8--pyhdfd78af_0": "sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517"}, "tags": {"1.8--pyhdfd78af_0": "sha256:3e57db6f0b34d28910ad2179efbaf7d4e514f0b966b34cf15bc2ae8d2d4a9517"}, "docker": "quay.io/biocontainers/focus", "aliases": {"focus": "/usr/local/bin/focus", "focus_database_utils": "/usr/local/bin/focus_database_utils", "2to3-3.10": "/usr/local/bin/2to3-3.10", "f2py3.10": "/usr/local/bin/f2py3.10", "funzip": "/usr/local/bin/funzip", "idle3.10": "/usr/local/bin/idle3.10", "jellyfish": "/usr/local/bin/jellyfish", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config", "unzip": "/usr/local/bin/unzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/focus.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/focus   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/focus_database_utils
 $ podman run --it --rm --entrypoint /usr/local/bin/focus_database_utils   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/focus_database_utils   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### funzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/funzip
+$ podman run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/funzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jellyfish
+
+```bash
+$ singularity exec <container> /usr/local/bin/jellyfish
+$ podman run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jellyfish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### unzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/unzip
+$ podman run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/unzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

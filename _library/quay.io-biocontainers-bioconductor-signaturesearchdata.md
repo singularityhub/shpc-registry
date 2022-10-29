@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-signaturesearchdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-signaturesearchdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-signaturesearchdata/container.yaml"
-updated_at: "2022-10-27 00:19:48.497527"
+updated_at: "2022-10-29 05:32:00.233438"
 latest: "1.8.4--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-signaturesearchdata"
 aliases:
- - ".bioconductor-signaturesearchdata-post-link.sh"
- - ".bioconductor-signaturesearchdata-pre-unlink.sh"
+ - "glpsol"
 versions:
  - "1.8.4--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-signaturesearchdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-signaturesearchdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-signaturesearchdata", "latest": {"1.8.4--r41hdfd78af_0": "sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06"}, "tags": {"1.8.4--r41hdfd78af_0": "sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06"}, "docker": "quay.io/biocontainers/bioconductor-signaturesearchdata", "aliases": {".bioconductor-signaturesearchdata-post-link.sh": "/usr/local/bin/.bioconductor-signaturesearchdata-post-link.sh", ".bioconductor-signaturesearchdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-signaturesearchdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-signaturesearchdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-signaturesearchdata", "latest": {"1.8.4--r41hdfd78af_0": "sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06"}, "tags": {"1.8.4--r41hdfd78af_0": "sha256:bb88caf6f711e35a82121714d3b2b1554dc8c8e0565ec18548c1288306923b06"}, "docker": "quay.io/biocontainers/bioconductor-signaturesearchdata", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-signaturesearchdata.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-signaturesearchdata-post-link.sh
+#### glpsol
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-signaturesearchdata-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-signaturesearchdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-signaturesearchdata-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-signaturesearchdata-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-signaturesearchdata-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-signaturesearchdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-signaturesearchdata-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

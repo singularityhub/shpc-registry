@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/ped_parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ped_parser/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ped_parser/container.yaml"
-updated_at: "2022-10-27 00:31:04.507357"
+updated_at: "2022-10-29 05:46:56.128763"
 latest: "1.6.6--py_2"
 container_url: "https://biocontainers.pro/tools/ped_parser"
 aliases:
  - "ped_parser"
+ - "2to3-3.7"
+ - "idle3.7"
+ - "py.test"
+ - "pydoc3.7"
+ - "pytest"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
+ - "pyvenv"
 versions:
  - "1.6.6--py_2"
 description: "shpc-registry automated BioContainers addition for ped_parser"
-config: {"url": "https://biocontainers.pro/tools/ped_parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ped_parser", "latest": {"1.6.6--py_2": "sha256:0462154a5b51e8539cf23492ce01f8858e03cbf23e803b8931c62fab9d7a2d3b"}, "tags": {"1.6.6--py_2": "sha256:0462154a5b51e8539cf23492ce01f8858e03cbf23e803b8931c62fab9d7a2d3b"}, "docker": "quay.io/biocontainers/ped_parser", "aliases": {"ped_parser": "/usr/local/bin/ped_parser"}}
+config: {"url": "https://biocontainers.pro/tools/ped_parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ped_parser", "latest": {"1.6.6--py_2": "sha256:0462154a5b51e8539cf23492ce01f8858e03cbf23e803b8931c62fab9d7a2d3b"}, "tags": {"1.6.6--py_2": "sha256:0462154a5b51e8539cf23492ce01f8858e03cbf23e803b8931c62fab9d7a2d3b"}, "docker": "quay.io/biocontainers/ped_parser", "aliases": {"ped_parser": "/usr/local/bin/ped_parser", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "py.test": "/usr/local/bin/py.test", "pydoc3.7": "/usr/local/bin/pydoc3.7", "pytest": "/usr/local/bin/pytest", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ped_parser.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/ped_parser
 $ podman run --it --rm --entrypoint /usr/local/bin/ped_parser   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ped_parser   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### py.test
+
+```bash
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pytest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/visceral-evaluatesegmentation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/visceral-evaluatesegmentation/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/visceral-evaluatesegmentation/container.yaml"
-updated_at: "2022-10-27 00:32:57.764602"
+updated_at: "2022-10-29 05:49:26.340678"
 latest: "2015.07.03--hc9558a2_1"
 container_url: "https://biocontainers.pro/tools/visceral-evaluatesegmentation"
 aliases:
  - "EvaluateSegmentation"
  - "itkTestDriver"
+ - "fftw-wisdom"
+ - "fftw-wisdom-to-conf"
+ - "fftwf-wisdom"
+ - "fftwl-wisdom"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
 versions:
  - "2015.07.03--hc9558a2_1"
 description: "shpc-registry automated BioContainers addition for visceral-evaluatesegmentation"
-config: {"url": "https://biocontainers.pro/tools/visceral-evaluatesegmentation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for visceral-evaluatesegmentation", "latest": {"2015.07.03--hc9558a2_1": "sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32"}, "tags": {"2015.07.03--hc9558a2_1": "sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32"}, "docker": "quay.io/biocontainers/visceral-evaluatesegmentation", "aliases": {"EvaluateSegmentation": "/usr/local/bin/EvaluateSegmentation", "itkTestDriver": "/usr/local/bin/itkTestDriver"}}
+config: {"url": "https://biocontainers.pro/tools/visceral-evaluatesegmentation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for visceral-evaluatesegmentation", "latest": {"2015.07.03--hc9558a2_1": "sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32"}, "tags": {"2015.07.03--hc9558a2_1": "sha256:878d55b6079e105e7a1ce323e9045cf0bcb1b95f744a3f8968d525bac7a73c32"}, "docker": "quay.io/biocontainers/visceral-evaluatesegmentation", "aliases": {"EvaluateSegmentation": "/usr/local/bin/EvaluateSegmentation", "itkTestDriver": "/usr/local/bin/itkTestDriver", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/visceral-evaluatesegmentation.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/EvaluateSegmentation   -v ${P
 $ singularity exec <container> /usr/local/bin/itkTestDriver
 $ podman run --it --rm --entrypoint /usr/local/bin/itkTestDriver   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/itkTestDriver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftw-wisdom-to-conf
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftw-wisdom-to-conf
+$ podman run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftw-wisdom-to-conf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwf-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwf-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwf-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fftwl-wisdom
+
+```bash
+$ singularity exec <container> /usr/local/bin/fftwl-wisdom
+$ podman run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fftwl-wisdom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

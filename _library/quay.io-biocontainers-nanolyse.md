@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/nanolyse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanolyse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanolyse/container.yaml"
-updated_at: "2022-10-27 00:36:26.681177"
+updated_at: "2022-10-29 05:54:05.123206"
 latest: "1.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/nanolyse"
 aliases:
  - "NanoLyse"
+ - "f2py3.8"
+ - "minimap2.py"
 versions:
  - "1.2.0--py_0"
 description: "shpc-registry automated BioContainers addition for nanolyse"
-config: {"url": "https://biocontainers.pro/tools/nanolyse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanolyse", "latest": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "tags": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "docker": "quay.io/biocontainers/nanolyse", "aliases": {"NanoLyse": "/usr/local/bin/NanoLyse"}}
+config: {"url": "https://biocontainers.pro/tools/nanolyse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanolyse", "latest": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "tags": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "docker": "quay.io/biocontainers/nanolyse", "aliases": {"NanoLyse": "/usr/local/bin/NanoLyse", "f2py3.8": "/usr/local/bin/f2py3.8", "minimap2.py": "/usr/local/bin/minimap2.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanolyse.
@@ -104,6 +106,24 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/NanoLyse
 $ podman run --it --rm --entrypoint /usr/local/bin/NanoLyse   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/NanoLyse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minimap2.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/minimap2.py
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

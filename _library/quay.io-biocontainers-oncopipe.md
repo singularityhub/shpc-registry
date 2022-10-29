@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/oncopipe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncopipe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/oncopipe/container.yaml"
-updated_at: "2022-10-27 00:34:51.947834"
+updated_at: "2022-10-29 05:52:00.576341"
 latest: "1.0.8--py_0"
 container_url: "https://biocontainers.pro/tools/oncopipe"
-
+aliases:
+ - "2to3-3.8"
+ - "acyclic"
+ - "bcomps"
+ - "ccomps"
+ - "chardetect"
+ - "circo"
+ - "cluster"
+ - "cxpm"
+ - "dijkstra"
+ - "dot"
 versions:
  - "1.0.8--py_0"
 description: "shpc-registry automated BioContainers addition for oncopipe"
-config: {"url": "https://biocontainers.pro/tools/oncopipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncopipe", "latest": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "tags": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "docker": "quay.io/biocontainers/oncopipe"}
+config: {"url": "https://biocontainers.pro/tools/oncopipe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oncopipe", "latest": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "tags": {"1.0.8--py_0": "sha256:e372b442f1fc96dbb82417e35bdbea54ce95a6632d7997e59c8023dcaadb0266"}, "docker": "quay.io/biocontainers/oncopipe", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "ccomps": "/usr/local/bin/ccomps", "chardetect": "/usr/local/bin/chardetect", "circo": "/usr/local/bin/circo", "cluster": "/usr/local/bin/cluster", "cxpm": "/usr/local/bin/cxpm", "dijkstra": "/usr/local/bin/dijkstra", "dot": "/usr/local/bin/dot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oncopipe.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### oncopipe
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccomps
+$ podman run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### circo
+
+```bash
+$ singularity exec <container> /usr/local/bin/circo
+$ podman run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/circo   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cluster
+
+```bash
+$ singularity exec <container> /usr/local/bin/cluster
+$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cxpm
+
+```bash
+$ singularity exec <container> /usr/local/bin/cxpm
+$ podman run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cxpm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dijkstra
+
+```bash
+$ singularity exec <container> /usr/local/bin/dijkstra
+$ podman run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dijkstra   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dot
+
+```bash
+$ singularity exec <container> /usr/local/bin/dot
+$ podman run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dot   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

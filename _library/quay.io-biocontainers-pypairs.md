@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/pypairs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypairs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pypairs/container.yaml"
-updated_at: "2022-10-27 00:25:27.064632"
+updated_at: "2022-10-29 05:39:29.249129"
 latest: "3.2.3--py_0"
 container_url: "https://biocontainers.pro/tools/pypairs"
 aliases:
  - "cyclone"
  - "sandbag"
+ - "2to3-3.8"
+ - "f2py3.8"
+ - "gif2h5"
+ - "h52gif"
+ - "h5c++"
+ - "h5cc"
+ - "h5clear"
+ - "h5copy"
+ - "h5debug"
+ - "h5diff"
 versions:
  - "3.2.3--py_0"
 description: "shpc-registry automated BioContainers addition for pypairs"
-config: {"url": "https://biocontainers.pro/tools/pypairs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypairs", "latest": {"3.2.3--py_0": "sha256:604e9b9f4ef62b0235ad9a03d1503df319cf070913734ade5a9a3632bc40041e"}, "tags": {"3.2.3--py_0": "sha256:604e9b9f4ef62b0235ad9a03d1503df319cf070913734ade5a9a3632bc40041e"}, "docker": "quay.io/biocontainers/pypairs", "aliases": {"cyclone": "/usr/local/bin/cyclone", "sandbag": "/usr/local/bin/sandbag"}}
+config: {"url": "https://biocontainers.pro/tools/pypairs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pypairs", "latest": {"3.2.3--py_0": "sha256:604e9b9f4ef62b0235ad9a03d1503df319cf070913734ade5a9a3632bc40041e"}, "tags": {"3.2.3--py_0": "sha256:604e9b9f4ef62b0235ad9a03d1503df319cf070913734ade5a9a3632bc40041e"}, "docker": "quay.io/biocontainers/pypairs", "aliases": {"cyclone": "/usr/local/bin/cyclone", "sandbag": "/usr/local/bin/sandbag", "2to3-3.8": "/usr/local/bin/2to3-3.8", "f2py3.8": "/usr/local/bin/f2py3.8", "gif2h5": "/usr/local/bin/gif2h5", "h52gif": "/usr/local/bin/h52gif", "h5c++": "/usr/local/bin/h5c++", "h5cc": "/usr/local/bin/h5cc", "h5clear": "/usr/local/bin/h5clear", "h5copy": "/usr/local/bin/h5copy", "h5debug": "/usr/local/bin/h5debug", "h5diff": "/usr/local/bin/h5diff"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pypairs.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/cyclone   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/sandbag
 $ podman run --it --rm --entrypoint /usr/local/bin/sandbag   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sandbag   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h52gif
+
+```bash
+$ singularity exec <container> /usr/local/bin/h52gif
+$ podman run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h52gif   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5c++
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5c++
+$ podman run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5c++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5cc
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5cc
+$ podman run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5cc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5clear
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5clear
+$ podman run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5clear   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5copy
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5copy
+$ podman run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5copy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5debug
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5debug
+$ podman run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5debug   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### h5diff
+
+```bash
+$ singularity exec <container> /usr/local/bin/h5diff
+$ podman run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/h5diff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

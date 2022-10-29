@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/refgenconf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refgenconf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/refgenconf/container.yaml"
-updated_at: "2022-10-27 00:32:03.039277"
+updated_at: "2022-10-29 05:48:14.421931"
 latest: "0.9.3--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/refgenconf"
-
+aliases:
+ - "2to3-3.8"
+ - "chardetect"
+ - "futurize"
+ - "idle3.8"
+ - "pasteurize"
+ - "py.test"
+ - "pydoc3.8"
+ - "pytest"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "0.9.3--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for refgenconf"
-config: {"url": "https://biocontainers.pro/tools/refgenconf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for refgenconf", "latest": {"0.9.3--pyh3252c3a_0": "sha256:340fd3ca078477ca4647c6a0e0580927b5c746fb63db3f90b6f7271e3a7502e4"}, "tags": {"0.9.3--pyh3252c3a_0": "sha256:340fd3ca078477ca4647c6a0e0580927b5c746fb63db3f90b6f7271e3a7502e4"}, "docker": "quay.io/biocontainers/refgenconf"}
+config: {"url": "https://biocontainers.pro/tools/refgenconf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for refgenconf", "latest": {"0.9.3--pyh3252c3a_0": "sha256:340fd3ca078477ca4647c6a0e0580927b5c746fb63db3f90b6f7271e3a7502e4"}, "tags": {"0.9.3--pyh3252c3a_0": "sha256:340fd3ca078477ca4647c6a0e0580927b5c746fb63db3f90b6f7271e3a7502e4"}, "docker": "quay.io/biocontainers/refgenconf", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "chardetect": "/usr/local/bin/chardetect", "futurize": "/usr/local/bin/futurize", "idle3.8": "/usr/local/bin/idle3.8", "pasteurize": "/usr/local/bin/pasteurize", "py.test": "/usr/local/bin/py.test", "pydoc3.8": "/usr/local/bin/pydoc3.8", "pytest": "/usr/local/bin/pytest", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/refgenconf.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### refgenconf
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pasteurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/pasteurize
+$ podman run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pasteurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### py.test
+
+```bash
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pytest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

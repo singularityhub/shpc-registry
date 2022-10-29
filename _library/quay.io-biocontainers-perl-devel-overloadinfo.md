@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-devel-overloadinfo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-devel-overloadinfo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-devel-overloadinfo/container.yaml"
-updated_at: "2022-10-27 00:36:23.269503"
+updated_at: "2022-10-29 05:54:00.738999"
 latest: "0.007--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-devel-overloadinfo"
-
+aliases:
+ - "cpanm"
+ - "package-stash-conflicts"
 versions:
  - "0.007--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-devel-overloadinfo"
-config: {"url": "https://biocontainers.pro/tools/perl-devel-overloadinfo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-overloadinfo", "latest": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "tags": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "docker": "quay.io/biocontainers/perl-devel-overloadinfo"}
+config: {"url": "https://biocontainers.pro/tools/perl-devel-overloadinfo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-devel-overloadinfo", "latest": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "tags": {"0.007--pl5321hdfd78af_0": "sha256:9e51b0a77b7252f88a491ae0b7dcc169a575c00454a1b5d4fb0a45322bb2fa69"}, "docker": "quay.io/biocontainers/perl-devel-overloadinfo", "aliases": {"cpanm": "/usr/local/bin/cpanm", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-devel-overloadinfo.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-devel-overloadinfo
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

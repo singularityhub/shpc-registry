@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-hicdcplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicdcplus/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicdcplus/container.yaml"
-updated_at: "2022-10-27 00:24:31.386589"
+updated_at: "2022-10-29 05:38:14.383095"
 latest: "1.2.1--r41hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicdcplus"
-
+aliases:
+ - "glpsol"
 versions:
  - "1.2.1--r41hc247a5b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-hicdcplus"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdcplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdcplus", "latest": {"1.2.1--r41hc247a5b_1": "sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd"}, "docker": "quay.io/biocontainers/bioconductor-hicdcplus"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicdcplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicdcplus", "latest": {"1.2.1--r41hc247a5b_1": "sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd"}, "tags": {"1.2.1--r41hc247a5b_1": "sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd"}, "docker": "quay.io/biocontainers/bioconductor-hicdcplus", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicdcplus.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-hicdcplus
+#### glpsol
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

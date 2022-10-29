@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/detonate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/detonate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/detonate/container.yaml"
-updated_at: "2022-10-27 00:39:04.038872"
+updated_at: "2022-10-29 05:57:32.866761"
 latest: "1.11--hae1ec2f_3"
 container_url: "https://biocontainers.pro/tools/detonate"
 aliases:
@@ -24,10 +24,20 @@ aliases:
  - "rsem-synthesis-reference-transcripts"
  - "rsem_perl_utils.pm"
  - "varfilter.py"
+ - "2to3-3.6"
+ - "ace2sam"
+ - "blast2sam.pl"
+ - "bowtie2sam.pl"
+ - "export2sam.pl"
+ - "idle3.6"
+ - "interpolate_sam.pl"
+ - "maq2sam-long"
+ - "maq2sam-short"
+ - "md5fa"
 versions:
  - "1.11--hae1ec2f_3"
 description: "shpc-registry automated BioContainers addition for detonate"
-config: {"url": "https://biocontainers.pro/tools/detonate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for detonate", "latest": {"1.11--hae1ec2f_3": "sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f"}, "tags": {"1.11--hae1ec2f_3": "sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f"}, "docker": "quay.io/biocontainers/detonate", "aliases": {"ref-eval": "/usr/local/bin/ref-eval", "ref-eval-estimate-true-assembly": "/usr/local/bin/ref-eval-estimate-true-assembly", "rsem-build-read-index": "/usr/local/bin/rsem-build-read-index", "rsem-eval-calculate-score": "/usr/local/bin/rsem-eval-calculate-score", "rsem-eval-estimate-transcript-length-distribution": "/usr/local/bin/rsem-eval-estimate-transcript-length-distribution", "rsem-eval-run-em": "/usr/local/bin/rsem-eval-run-em", "rsem-extract-reference-transcripts": "/usr/local/bin/rsem-extract-reference-transcripts", "rsem-parse-alignments": "/usr/local/bin/rsem-parse-alignments", "rsem-plot-model": "/usr/local/bin/rsem-plot-model", "rsem-preref": "/usr/local/bin/rsem-preref", "rsem-sam-validator": "/usr/local/bin/rsem-sam-validator", "rsem-scan-for-paired-end-reads": "/usr/local/bin/rsem-scan-for-paired-end-reads", "rsem-simulate-reads": "/usr/local/bin/rsem-simulate-reads", "rsem-synthesis-reference-transcripts": "/usr/local/bin/rsem-synthesis-reference-transcripts", "rsem_perl_utils.pm": "/usr/local/bin/rsem_perl_utils.pm", "varfilter.py": "/usr/local/bin/varfilter.py"}}
+config: {"url": "https://biocontainers.pro/tools/detonate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for detonate", "latest": {"1.11--hae1ec2f_3": "sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f"}, "tags": {"1.11--hae1ec2f_3": "sha256:709d2a47767694eadf9e19dd278e57d5f1fd23dcaf6f0889a015570ea892475f"}, "docker": "quay.io/biocontainers/detonate", "aliases": {"ref-eval": "/usr/local/bin/ref-eval", "ref-eval-estimate-true-assembly": "/usr/local/bin/ref-eval-estimate-true-assembly", "rsem-build-read-index": "/usr/local/bin/rsem-build-read-index", "rsem-eval-calculate-score": "/usr/local/bin/rsem-eval-calculate-score", "rsem-eval-estimate-transcript-length-distribution": "/usr/local/bin/rsem-eval-estimate-transcript-length-distribution", "rsem-eval-run-em": "/usr/local/bin/rsem-eval-run-em", "rsem-extract-reference-transcripts": "/usr/local/bin/rsem-extract-reference-transcripts", "rsem-parse-alignments": "/usr/local/bin/rsem-parse-alignments", "rsem-plot-model": "/usr/local/bin/rsem-plot-model", "rsem-preref": "/usr/local/bin/rsem-preref", "rsem-sam-validator": "/usr/local/bin/rsem-sam-validator", "rsem-scan-for-paired-end-reads": "/usr/local/bin/rsem-scan-for-paired-end-reads", "rsem-simulate-reads": "/usr/local/bin/rsem-simulate-reads", "rsem-synthesis-reference-transcripts": "/usr/local/bin/rsem-synthesis-reference-transcripts", "rsem_perl_utils.pm": "/usr/local/bin/rsem_perl_utils.pm", "varfilter.py": "/usr/local/bin/varfilter.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "idle3.6": "/usr/local/bin/idle3.6", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/detonate.
@@ -254,6 +264,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rsem_perl_utils.pm   -v ${PWD
 $ singularity exec <container> /usr/local/bin/varfilter.py
 $ podman run --it --rm --entrypoint /usr/local/bin/varfilter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/varfilter.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### export2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/export2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/export2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### interpolate_sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/interpolate_sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/interpolate_sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maq2sam-long
+
+```bash
+$ singularity exec <container> /usr/local/bin/maq2sam-long
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-long   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### maq2sam-short
+
+```bash
+$ singularity exec <container> /usr/local/bin/maq2sam-short
+$ podman run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/maq2sam-short   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### md5fa
+
+```bash
+$ singularity exec <container> /usr/local/bin/md5fa
+$ podman run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/md5fa   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

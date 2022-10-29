@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/trnascan-se"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnascan-se/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/trnascan-se/container.yaml"
-updated_at: "2022-10-27 00:32:32.177247"
+updated_at: "2022-10-29 05:48:53.375662"
 latest: "2.0.9--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/trnascan-se"
-
+aliases:
+ - "EukHighConfidenceFilter"
+ - "cmalign"
+ - "cmbuild"
+ - "cmcalibrate"
+ - "cmconvert"
+ - "cmemit"
+ - "cmfetch"
+ - "cmpress"
+ - "cmscan"
+ - "cmsearch"
 versions:
  - "2.0.9--pl5321hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for trnascan-se"
-config: {"url": "https://biocontainers.pro/tools/trnascan-se", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnascan-se", "latest": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db"}, "tags": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db"}, "docker": "quay.io/biocontainers/trnascan-se"}
+config: {"url": "https://biocontainers.pro/tools/trnascan-se", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnascan-se", "latest": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db"}, "tags": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db"}, "docker": "quay.io/biocontainers/trnascan-se", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trnascan-se.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### trnascan-se
+#### EukHighConfidenceFilter
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/EukHighConfidenceFilter
+$ podman run --it --rm --entrypoint /usr/local/bin/EukHighConfidenceFilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EukHighConfidenceFilter   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### cmalign
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmalign
+$ podman run --it --rm --entrypoint /usr/local/bin/cmalign   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmalign   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/cmbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmcalibrate
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmcalibrate
+$ podman run --it --rm --entrypoint /usr/local/bin/cmcalibrate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmcalibrate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmconvert
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmconvert
+$ podman run --it --rm --entrypoint /usr/local/bin/cmconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmconvert   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmemit
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmemit
+$ podman run --it --rm --entrypoint /usr/local/bin/cmemit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmemit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmfetch
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmfetch
+$ podman run --it --rm --entrypoint /usr/local/bin/cmfetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmfetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmpress
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmpress
+$ podman run --it --rm --entrypoint /usr/local/bin/cmpress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmpress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmscan
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmscan
+$ podman run --it --rm --entrypoint /usr/local/bin/cmscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmscan   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmsearch
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmsearch
+$ podman run --it --rm --entrypoint /usr/local/bin/cmsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmsearch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

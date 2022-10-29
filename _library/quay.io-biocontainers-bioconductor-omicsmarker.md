@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-omicsmarker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicsmarker/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicsmarker/container.yaml"
-updated_at: "2022-10-27 00:27:42.457175"
+updated_at: "2022-10-29 05:42:30.962844"
 latest: "1.19.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicsmarker"
-
+aliases:
+ - "2to3-3.8"
+ - "gio-launch-desktop"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.19.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicsmarker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicsmarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicsmarker", "latest": {"1.19.0--r40_0": "sha256:7a444a8c53821fb91a5275e7e2782e58738203412f799e2ce264860068a2c455"}, "tags": {"1.19.0--r40_0": "sha256:7a444a8c53821fb91a5275e7e2782e58738203412f799e2ce264860068a2c455"}, "docker": "quay.io/biocontainers/bioconductor-omicsmarker"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicsmarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicsmarker", "latest": {"1.19.0--r40_0": "sha256:7a444a8c53821fb91a5275e7e2782e58738203412f799e2ce264860068a2c455"}, "tags": {"1.19.0--r40_0": "sha256:7a444a8c53821fb91a5275e7e2782e58738203412f799e2ce264860068a2c455"}, "docker": "quay.io/biocontainers/bioconductor-omicsmarker", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicsmarker.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-omicsmarker
+#### 2to3-3.8
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gio-launch-desktop
+
+```bash
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

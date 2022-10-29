@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-rgbif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rgbif/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-rgbif/container.yaml"
-updated_at: "2022-10-27 00:27:06.747986"
+updated_at: "2022-10-29 05:41:44.349570"
 latest: "1.3.0--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-rgbif"
-
+aliases:
+ - "geos-config"
 versions:
  - "1.3.0--r351h6115d3f_0"
 description: "shpc-registry automated BioContainers addition for r-rgbif"
-config: {"url": "https://biocontainers.pro/tools/r-rgbif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rgbif", "latest": {"1.3.0--r351h6115d3f_0": "sha256:f2b2b58b118b1f922d4b3fbe570e0734b19c0f1b3ea0c52d794f22d7de87a98c"}, "tags": {"1.3.0--r351h6115d3f_0": "sha256:f2b2b58b118b1f922d4b3fbe570e0734b19c0f1b3ea0c52d794f22d7de87a98c"}, "docker": "quay.io/biocontainers/r-rgbif"}
+config: {"url": "https://biocontainers.pro/tools/r-rgbif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rgbif", "latest": {"1.3.0--r351h6115d3f_0": "sha256:f2b2b58b118b1f922d4b3fbe570e0734b19c0f1b3ea0c52d794f22d7de87a98c"}, "tags": {"1.3.0--r351h6115d3f_0": "sha256:f2b2b58b118b1f922d4b3fbe570e0734b19c0f1b3ea0c52d794f22d7de87a98c"}, "docker": "quay.io/biocontainers/r-rgbif", "aliases": {"geos-config": "/usr/local/bin/geos-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rgbif.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-rgbif
+#### geos-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/geos-config
+$ podman run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/geos-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

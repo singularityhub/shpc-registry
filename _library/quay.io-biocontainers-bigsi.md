@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bigsi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bigsi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bigsi/container.yaml"
-updated_at: "2022-10-27 00:34:04.715859"
+updated_at: "2022-10-29 05:50:54.761100"
 latest: "0.3.1--py_0"
 container_url: "https://biocontainers.pro/tools/bigsi"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "falcon-bench"
  - "falcon-print-routes"
  - "hug"
+ - "2to3-3.7"
+ - "chardetect"
+ - "cygdb"
+ - "cython"
+ - "cythonize"
+ - "db_archive"
+ - "db_checkpoint"
+ - "db_deadlock"
+ - "db_dump"
+ - "db_hotbackup"
 versions:
  - "0.3.1--py_0"
 description: "shpc-registry automated BioContainers addition for bigsi"
-config: {"url": "https://biocontainers.pro/tools/bigsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bigsi", "latest": {"0.3.1--py_0": "sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5"}, "tags": {"0.3.1--py_0": "sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5"}, "docker": "quay.io/biocontainers/bigsi", "aliases": {"bigsi": "/usr/local/bin/bigsi", "falcon-bench": "/usr/local/bin/falcon-bench", "falcon-print-routes": "/usr/local/bin/falcon-print-routes", "hug": "/usr/local/bin/hug"}}
+config: {"url": "https://biocontainers.pro/tools/bigsi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bigsi", "latest": {"0.3.1--py_0": "sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5"}, "tags": {"0.3.1--py_0": "sha256:cb03250b3b94c8ad996c8250692df03a4ae9b60fdcfb8770df8833f1172012f5"}, "docker": "quay.io/biocontainers/bigsi", "aliases": {"bigsi": "/usr/local/bin/bigsi", "falcon-bench": "/usr/local/bin/falcon-bench", "falcon-print-routes": "/usr/local/bin/falcon-print-routes", "hug": "/usr/local/bin/hug", "2to3-3.7": "/usr/local/bin/2to3-3.7", "chardetect": "/usr/local/bin/chardetect", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "db_archive": "/usr/local/bin/db_archive", "db_checkpoint": "/usr/local/bin/db_checkpoint", "db_deadlock": "/usr/local/bin/db_deadlock", "db_dump": "/usr/local/bin/db_dump", "db_hotbackup": "/usr/local/bin/db_hotbackup"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bigsi.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/falcon-print-routes   -v ${PW
 $ singularity exec <container> /usr/local/bin/hug
 $ podman run --it --rm --entrypoint /usr/local/bin/hug   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/hug   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cygdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/cygdb
+$ podman run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cygdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cython
+
+```bash
+$ singularity exec <container> /usr/local/bin/cython
+$ podman run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cython   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cythonize
+
+```bash
+$ singularity exec <container> /usr/local/bin/cythonize
+$ podman run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cythonize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_archive
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_archive
+$ podman run --it --rm --entrypoint /usr/local/bin/db_archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_archive   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_checkpoint
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_checkpoint
+$ podman run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_checkpoint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_deadlock
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_deadlock
+$ podman run --it --rm --entrypoint /usr/local/bin/db_deadlock   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_deadlock   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/db_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### db_hotbackup
+
+```bash
+$ singularity exec <container> /usr/local/bin/db_hotbackup
+$ podman run --it --rm --entrypoint /usr/local/bin/db_hotbackup   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/db_hotbackup   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

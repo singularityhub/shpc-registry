@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/banner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/banner/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/banner/container.yaml"
-updated_at: "2022-10-27 00:27:43.721601"
+updated_at: "2022-10-29 05:42:32.573230"
 latest: "0.0.2--py_0"
 container_url: "https://biocontainers.pro/tools/banner"
 aliases:
  - "banner"
+ - "2to3-3.6"
+ - "conv-template"
+ - "from-template"
+ - "idle3.6"
+ - "py.test"
+ - "pydoc3.6"
+ - "pytest"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
 versions:
  - "0.0.2--py_0"
 description: "shpc-registry automated BioContainers addition for banner"
-config: {"url": "https://biocontainers.pro/tools/banner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for banner", "latest": {"0.0.2--py_0": "sha256:a86222352f6573a5cdc8925b24f28c762238b465e0359acf27d7200ff4880d94"}, "tags": {"0.0.2--py_0": "sha256:a86222352f6573a5cdc8925b24f28c762238b465e0359acf27d7200ff4880d94"}, "docker": "quay.io/biocontainers/banner", "aliases": {"banner": "/usr/local/bin/banner"}}
+config: {"url": "https://biocontainers.pro/tools/banner", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for banner", "latest": {"0.0.2--py_0": "sha256:a86222352f6573a5cdc8925b24f28c762238b465e0359acf27d7200ff4880d94"}, "tags": {"0.0.2--py_0": "sha256:a86222352f6573a5cdc8925b24f28c762238b465e0359acf27d7200ff4880d94"}, "docker": "quay.io/biocontainers/banner", "aliases": {"banner": "/usr/local/bin/banner", "2to3-3.6": "/usr/local/bin/2to3-3.6", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "idle3.6": "/usr/local/bin/idle3.6", "py.test": "/usr/local/bin/py.test", "pydoc3.6": "/usr/local/bin/pydoc3.6", "pytest": "/usr/local/bin/pytest", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/banner.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/banner
 $ podman run --it --rm --entrypoint /usr/local/bin/banner   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/banner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conv-template
+
+```bash
+$ singularity exec <container> /usr/local/bin/conv-template
+$ podman run --it --rm --entrypoint /usr/local/bin/conv-template   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conv-template   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### from-template
+
+```bash
+$ singularity exec <container> /usr/local/bin/from-template
+$ podman run --it --rm --entrypoint /usr/local/bin/from-template   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/from-template   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### py.test
+
+```bash
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pytest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

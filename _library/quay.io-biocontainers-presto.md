@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/presto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/presto/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/presto/container.yaml"
-updated_at: "2022-10-27 00:24:29.690786"
+updated_at: "2022-10-29 05:38:12.220523"
 latest: "0.7.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/presto"
 aliases:
@@ -22,10 +22,20 @@ aliases:
  - "ParseLog.py"
  - "SplitSeq.py"
  - "UnifyHeaders.py"
+ - "2to3-3.10"
+ - "accn-at-a-time"
+ - "align-columns"
+ - "amino-acid-composition"
+ - "archive-pubmed"
+ - "asn2xml"
+ - "between-two-genes"
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
 versions:
  - "0.7.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for presto"
-config: {"url": "https://biocontainers.pro/tools/presto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for presto", "latest": {"0.7.1--pyhdfd78af_0": "sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5"}, "tags": {"0.7.1--pyhdfd78af_0": "sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5"}, "docker": "quay.io/biocontainers/presto", "aliases": {"AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py"}}
+config: {"url": "https://biocontainers.pro/tools/presto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for presto", "latest": {"0.7.1--pyhdfd78af_0": "sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5"}, "tags": {"0.7.1--pyhdfd78af_0": "sha256:2743943d2cb9065b7d19853ad972dcaa6977905e3edf3c0a4cc1fa295691e1c5"}, "docker": "quay.io/biocontainers/presto", "aliases": {"AlignSets.py": "/usr/local/bin/AlignSets.py", "AssemblePairs.py": "/usr/local/bin/AssemblePairs.py", "BuildConsensus.py": "/usr/local/bin/BuildConsensus.py", "ClusterSets.py": "/usr/local/bin/ClusterSets.py", "CollapseSeq.py": "/usr/local/bin/CollapseSeq.py", "ConvertHeaders.py": "/usr/local/bin/ConvertHeaders.py", "EstimateError.py": "/usr/local/bin/EstimateError.py", "FilterSeq.py": "/usr/local/bin/FilterSeq.py", "MaskPrimers.py": "/usr/local/bin/MaskPrimers.py", "PairSeq.py": "/usr/local/bin/PairSeq.py", "ParseHeaders.py": "/usr/local/bin/ParseHeaders.py", "ParseLog.py": "/usr/local/bin/ParseLog.py", "SplitSeq.py": "/usr/local/bin/SplitSeq.py", "UnifyHeaders.py": "/usr/local/bin/UnifyHeaders.py", "2to3-3.10": "/usr/local/bin/2to3-3.10", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "align-columns": "/usr/local/bin/align-columns", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asn2xml": "/usr/local/bin/asn2xml", "between-two-genes": "/usr/local/bin/between-two-genes", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/presto.
@@ -234,6 +244,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/SplitSeq.py   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/UnifyHeaders.py
 $ podman run --it --rm --entrypoint /usr/local/bin/UnifyHeaders.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/UnifyHeaders.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asn2xml
+
+```bash
+$ singularity exec <container> /usr/local/bin/asn2xml
+$ podman run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asn2xml   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### between-two-genes
+
+```bash
+$ singularity exec <container> /usr/local/bin/between-two-genes
+$ podman run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/between-two-genes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

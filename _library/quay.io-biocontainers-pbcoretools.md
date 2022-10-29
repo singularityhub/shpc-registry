@@ -4,22 +4,28 @@ name:  "quay.io/biocontainers/pbcoretools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbcoretools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pbcoretools/container.yaml"
-updated_at: "2022-10-27 00:27:41.193601"
+updated_at: "2022-10-29 05:42:28.751453"
 latest: "0.8.1--py_1"
 container_url: "https://biocontainers.pro/tools/pbcoretools"
 aliases:
- - ".open"
- - ".pbcommand-post-link.sh"
- - ".pbcore-post-link.sh"
- - ".pbcoretools-post-link.sh"
  - "bamsieve"
  - "dataset"
  - "pbtools-gather"
  - "pbvalidate"
+ - "2to3-3.7"
+ - "avro"
+ - "chardetect"
+ - "f2py3.7"
+ - "idle3.7"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
 versions:
  - "0.8.1--py_1"
 description: "shpc-registry automated BioContainers addition for pbcoretools"
-config: {"url": "https://biocontainers.pro/tools/pbcoretools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbcoretools", "latest": {"0.8.1--py_1": "sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15"}, "tags": {"0.8.1--py_1": "sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15"}, "docker": "quay.io/biocontainers/pbcoretools", "aliases": {".open": "/usr/local/bin/.open", ".pbcommand-post-link.sh": "/usr/local/bin/.pbcommand-post-link.sh", ".pbcore-post-link.sh": "/usr/local/bin/.pbcore-post-link.sh", ".pbcoretools-post-link.sh": "/usr/local/bin/.pbcoretools-post-link.sh", "bamsieve": "/usr/local/bin/bamsieve", "dataset": "/usr/local/bin/dataset", "pbtools-gather": "/usr/local/bin/pbtools-gather", "pbvalidate": "/usr/local/bin/pbvalidate"}}
+config: {"url": "https://biocontainers.pro/tools/pbcoretools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pbcoretools", "latest": {"0.8.1--py_1": "sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15"}, "tags": {"0.8.1--py_1": "sha256:f7e6370222d5f5035ee2f32dd75d5c8b50d3d6106d18b7d6bf45fbfbb2e6dd15"}, "docker": "quay.io/biocontainers/pbcoretools", "aliases": {"bamsieve": "/usr/local/bin/bamsieve", "dataset": "/usr/local/bin/dataset", "pbtools-gather": "/usr/local/bin/pbtools-gather", "pbvalidate": "/usr/local/bin/pbvalidate", "2to3-3.7": "/usr/local/bin/2to3-3.7", "avro": "/usr/local/bin/avro", "chardetect": "/usr/local/bin/chardetect", "f2py3.7": "/usr/local/bin/f2py3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pbcoretools.
@@ -105,42 +111,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .open
-
-```bash
-$ singularity exec <container> /usr/local/bin/.open
-$ podman run --it --rm --entrypoint /usr/local/bin/.open   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.open   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .pbcommand-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.pbcommand-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.pbcommand-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.pbcommand-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .pbcore-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.pbcore-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.pbcore-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.pbcore-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .pbcoretools-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.pbcoretools-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.pbcoretools-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.pbcoretools-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### bamsieve
 
 ```bash
@@ -174,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pbtools-gather   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/pbvalidate
 $ podman run --it --rm --entrypoint /usr/local/bin/pbvalidate   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pbvalidate   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### avro
+
+```bash
+$ singularity exec <container> /usr/local/bin/avro
+$ podman run --it --rm --entrypoint /usr/local/bin/avro   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/avro   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

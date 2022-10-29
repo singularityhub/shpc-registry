@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/methylartist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylartist/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/methylartist/container.yaml"
-updated_at: "2022-10-27 00:22:59.085569"
+updated_at: "2022-10-29 05:36:13.547740"
 latest: "1.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/methylartist"
 aliases:
  - "demux_fast5"
  - "methylartist"
+ - "2to3-3.9"
+ - "aggregate_scores_in_intervals.py"
+ - "align_print_template.py"
+ - "axt_extract_ranges.py"
+ - "axt_to_fasta.py"
+ - "axt_to_lav.py"
+ - "axt_to_maf.py"
+ - "bed_bigwig_profile.py"
+ - "bed_build_windows.py"
+ - "bed_complement.py"
 versions:
  - "1.2.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for methylartist"
-config: {"url": "https://biocontainers.pro/tools/methylartist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylartist", "latest": {"1.2.3--pyhdfd78af_0": "sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f"}, "docker": "quay.io/biocontainers/methylartist", "aliases": {"demux_fast5": "/usr/local/bin/demux_fast5", "methylartist": "/usr/local/bin/methylartist"}}
+config: {"url": "https://biocontainers.pro/tools/methylartist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for methylartist", "latest": {"1.2.3--pyhdfd78af_0": "sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f"}, "tags": {"1.2.3--pyhdfd78af_0": "sha256:2935328ec3a1754bd7f56935d212ad12b59733fd4ad80c13b211e4c6b1c5296f"}, "docker": "quay.io/biocontainers/methylartist", "aliases": {"demux_fast5": "/usr/local/bin/demux_fast5", "methylartist": "/usr/local/bin/methylartist", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/methylartist.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/demux_fast5   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/methylartist
 $ podman run --it --rm --entrypoint /usr/local/bin/methylartist   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/methylartist   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_scores_in_intervals.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_scores_in_intervals.py
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align_print_template.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/align_print_template.py
+$ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_extract_ranges.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_extract_ranges.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_extract_ranges.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_fasta.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_fasta.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_fasta.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_lav.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_lav.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_lav.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### axt_to_maf.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/axt_to_maf.py
+$ podman run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/axt_to_maf.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_bigwig_profile.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_bigwig_profile.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_bigwig_profile.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_build_windows.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_build_windows.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_build_windows.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed_complement.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed_complement.py
+$ podman run --it --rm --entrypoint /usr/local/bin/bed_complement.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed_complement.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

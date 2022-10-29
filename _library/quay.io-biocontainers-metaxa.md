@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/metaxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaxa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metaxa/container.yaml"
-updated_at: "2022-10-27 00:27:18.699948"
+updated_at: "2022-10-29 05:42:00.205793"
 latest: "2.2.3--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metaxa"
 aliases:
@@ -18,10 +18,20 @@ aliases:
  - "metaxa2_ttt"
  - "metaxa2_uc"
  - "metaxa2_x"
+ - "2to3-3.10"
+ - "alimask"
+ - "blast_formatter"
+ - "blastdb_aliastool"
+ - "blastdbcheck"
+ - "blastdbcmd"
+ - "blastdbcp"
+ - "blastn"
+ - "blastp"
+ - "blastx"
 versions:
  - "2.2.3--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for metaxa"
-config: {"url": "https://biocontainers.pro/tools/metaxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaxa", "latest": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "tags": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "docker": "quay.io/biocontainers/metaxa", "aliases": {"metaxa2": "/usr/local/bin/metaxa2", "metaxa2_c": "/usr/local/bin/metaxa2_c", "metaxa2_dbb": "/usr/local/bin/metaxa2_dbb", "metaxa2_dc": "/usr/local/bin/metaxa2_dc", "metaxa2_install_database": "/usr/local/bin/metaxa2_install_database", "metaxa2_rf": "/usr/local/bin/metaxa2_rf", "metaxa2_si": "/usr/local/bin/metaxa2_si", "metaxa2_ttt": "/usr/local/bin/metaxa2_ttt", "metaxa2_uc": "/usr/local/bin/metaxa2_uc", "metaxa2_x": "/usr/local/bin/metaxa2_x"}}
+config: {"url": "https://biocontainers.pro/tools/metaxa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metaxa", "latest": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "tags": {"2.2.3--pl5321hdfd78af_1": "sha256:9bfaf876eef8986005b96d84b6f6745caaaedf539991f0eb1f69d51f6da1167e"}, "docker": "quay.io/biocontainers/metaxa", "aliases": {"metaxa2": "/usr/local/bin/metaxa2", "metaxa2_c": "/usr/local/bin/metaxa2_c", "metaxa2_dbb": "/usr/local/bin/metaxa2_dbb", "metaxa2_dc": "/usr/local/bin/metaxa2_dc", "metaxa2_install_database": "/usr/local/bin/metaxa2_install_database", "metaxa2_rf": "/usr/local/bin/metaxa2_rf", "metaxa2_si": "/usr/local/bin/metaxa2_si", "metaxa2_ttt": "/usr/local/bin/metaxa2_ttt", "metaxa2_uc": "/usr/local/bin/metaxa2_uc", "metaxa2_x": "/usr/local/bin/metaxa2_x", "2to3-3.10": "/usr/local/bin/2to3-3.10", "alimask": "/usr/local/bin/alimask", "blast_formatter": "/usr/local/bin/blast_formatter", "blastdb_aliastool": "/usr/local/bin/blastdb_aliastool", "blastdbcheck": "/usr/local/bin/blastdbcheck", "blastdbcmd": "/usr/local/bin/blastdbcmd", "blastdbcp": "/usr/local/bin/blastdbcp", "blastn": "/usr/local/bin/blastn", "blastp": "/usr/local/bin/blastp", "blastx": "/usr/local/bin/blastx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metaxa.
@@ -194,6 +204,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/metaxa2_uc   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/metaxa2_x
 $ podman run --it --rm --entrypoint /usr/local/bin/metaxa2_x   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/metaxa2_x   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast_formatter
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast_formatter
+$ podman run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast_formatter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdb_aliastool
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdb_aliastool
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdb_aliastool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcmd
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcmd
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastdbcp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastdbcp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastdbcp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastn
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastn
+$ podman run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastp
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastp
+$ podman run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blastx
+
+```bash
+$ singularity exec <container> /usr/local/bin/blastx
+$ podman run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blastx   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

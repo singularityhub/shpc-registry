@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/galaxy-workflow-executor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/galaxy-workflow-executor/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/galaxy-workflow-executor/container.yaml"
-updated_at: "2022-10-27 00:34:48.118922"
+updated_at: "2022-10-29 05:51:55.752743"
 latest: "0.2.6--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/galaxy-workflow-executor"
 aliases:
  - "generate_params_from_workflow.py"
  - "run_galaxy_workflow.py"
+ - "2to3-3.9"
+ - "asadmin"
+ - "bioblend-galaxy-tests"
+ - "bundle_image"
+ - "cfadmin"
+ - "chardetect"
+ - "cq"
+ - "cwutil"
+ - "dynamodb_dump"
+ - "dynamodb_load"
 versions:
  - "0.2.6--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for galaxy-workflow-executor"
-config: {"url": "https://biocontainers.pro/tools/galaxy-workflow-executor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-workflow-executor", "latest": {"0.2.6--pyh5e36f6f_0": "sha256:0337c95e597e44e0a4a516d264b271e4ded01f63ba9091815994ec8b7292d744"}, "tags": {"0.2.6--pyh5e36f6f_0": "sha256:0337c95e597e44e0a4a516d264b271e4ded01f63ba9091815994ec8b7292d744"}, "docker": "quay.io/biocontainers/galaxy-workflow-executor", "aliases": {"generate_params_from_workflow.py": "/usr/local/bin/generate_params_from_workflow.py", "run_galaxy_workflow.py": "/usr/local/bin/run_galaxy_workflow.py"}}
+config: {"url": "https://biocontainers.pro/tools/galaxy-workflow-executor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for galaxy-workflow-executor", "latest": {"0.2.6--pyh5e36f6f_0": "sha256:0337c95e597e44e0a4a516d264b271e4ded01f63ba9091815994ec8b7292d744"}, "tags": {"0.2.6--pyh5e36f6f_0": "sha256:0337c95e597e44e0a4a516d264b271e4ded01f63ba9091815994ec8b7292d744"}, "docker": "quay.io/biocontainers/galaxy-workflow-executor", "aliases": {"generate_params_from_workflow.py": "/usr/local/bin/generate_params_from_workflow.py", "run_galaxy_workflow.py": "/usr/local/bin/run_galaxy_workflow.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "asadmin": "/usr/local/bin/asadmin", "bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "chardetect": "/usr/local/bin/chardetect", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/galaxy-workflow-executor.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/generate_params_from_workflow
 $ singularity exec <container> /usr/local/bin/run_galaxy_workflow.py
 $ podman run --it --rm --entrypoint /usr/local/bin/run_galaxy_workflow.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/run_galaxy_workflow.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/asadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bioblend-galaxy-tests
+
+```bash
+$ singularity exec <container> /usr/local/bin/bioblend-galaxy-tests
+$ podman run --it --rm --entrypoint /usr/local/bin/bioblend-galaxy-tests   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bioblend-galaxy-tests   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bundle_image
+
+```bash
+$ singularity exec <container> /usr/local/bin/bundle_image
+$ podman run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bundle_image   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cfadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cfadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cfadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cq
+
+```bash
+$ singularity exec <container> /usr/local/bin/cq
+$ podman run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwutil
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwutil
+$ podman run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwutil   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dynamodb_load
+
+```bash
+$ singularity exec <container> /usr/local/bin/dynamodb_load
+$ podman run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dynamodb_load   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-http-negotiate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-http-negotiate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-http-negotiate/container.yaml"
-updated_at: "2022-10-27 00:19:33.077187"
+updated_at: "2022-10-29 05:31:40.604873"
 latest: "6.01--pl526_3"
 container_url: "https://biocontainers.pro/tools/perl-http-negotiate"
-
+aliases:
+ - "perl5.26.2"
+ - "podselect"
 versions:
  - "6.01--pl526_3"
 description: "shpc-registry automated BioContainers addition for perl-http-negotiate"
-config: {"url": "https://biocontainers.pro/tools/perl-http-negotiate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-negotiate", "latest": {"6.01--pl526_3": "sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612"}, "tags": {"6.01--pl526_3": "sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612"}, "docker": "quay.io/biocontainers/perl-http-negotiate"}
+config: {"url": "https://biocontainers.pro/tools/perl-http-negotiate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-http-negotiate", "latest": {"6.01--pl526_3": "sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612"}, "tags": {"6.01--pl526_3": "sha256:027f29875f10b9f8ba85c1614bebbff7402fa95fb53ecb1b3129dfaf98183612"}, "docker": "quay.io/biocontainers/perl-http-negotiate", "aliases": {"perl5.26.2": "/usr/local/bin/perl5.26.2", "podselect": "/usr/local/bin/podselect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-http-negotiate.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-http-negotiate
+#### perl5.26.2
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.26.2
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.26.2   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### podselect
+
+```bash
+$ singularity exec <container> /usr/local/bin/podselect
+$ podman run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/podselect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

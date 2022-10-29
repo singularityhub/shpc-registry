@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/eden"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eden/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/eden/container.yaml"
-updated_at: "2022-10-27 00:21:34.963943"
+updated_at: "2022-10-29 05:34:20.569805"
 latest: "2.0--pyhd1c1de3_3"
 container_url: "https://biocontainers.pro/tools/eden"
 aliases:
@@ -16,10 +16,20 @@ aliases:
  - "motif_display.py"
  - "obfitall"
  - "obmm"
+ - "acyclic"
+ - "annotate.py"
+ - "annotateBed"
+ - "assistant"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bcomps"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
 versions:
  - "2.0--pyhd1c1de3_3"
 description: "shpc-registry automated BioContainers addition for eden"
-config: {"url": "https://biocontainers.pro/tools/eden", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eden", "latest": {"2.0--pyhd1c1de3_3": "sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63"}, "tags": {"2.0--pyhd1c1de3_3": "sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63"}, "docker": "quay.io/biocontainers/eden", "aliases": {"RNAshapes": "/usr/local/bin/RNAshapes", "dsdp5": "/usr/local/bin/dsdp5", "location_predictor": "/usr/local/bin/location_predictor", "model": "/usr/local/bin/model", "motif": "/usr/local/bin/motif", "motif_display.py": "/usr/local/bin/motif_display.py", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm"}}
+config: {"url": "https://biocontainers.pro/tools/eden", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for eden", "latest": {"2.0--pyhd1c1de3_3": "sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63"}, "tags": {"2.0--pyhd1c1de3_3": "sha256:7712b82c3a4b8e88e29038028da5609fac8216e1f2fa7743bb329059da30ff63"}, "docker": "quay.io/biocontainers/eden", "aliases": {"RNAshapes": "/usr/local/bin/RNAshapes", "dsdp5": "/usr/local/bin/dsdp5", "location_predictor": "/usr/local/bin/location_predictor", "model": "/usr/local/bin/model", "motif": "/usr/local/bin/motif", "motif_display.py": "/usr/local/bin/motif_display.py", "obfitall": "/usr/local/bin/obfitall", "obmm": "/usr/local/bin/obmm", "acyclic": "/usr/local/bin/acyclic", "annotate.py": "/usr/local/bin/annotate.py", "annotateBed": "/usr/local/bin/annotateBed", "assistant": "/usr/local/bin/assistant", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bcomps": "/usr/local/bin/bcomps", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/eden.
@@ -174,6 +184,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/obfitall   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/obmm
 $ podman run --it --rm --entrypoint /usr/local/bin/obmm   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/obmm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate.py
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

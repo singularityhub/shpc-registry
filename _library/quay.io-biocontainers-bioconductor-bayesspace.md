@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-bayesspace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayesspace/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayesspace/container.yaml"
-updated_at: "2022-10-27 00:23:20.056255"
+updated_at: "2022-10-29 05:36:41.892727"
 latest: "1.4.1--r41hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayesspace"
-
+aliases:
+ - "glpsol"
+ - "xgboost"
 versions:
  - "1.4.1--r41hc247a5b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-bayesspace"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesspace", "latest": {"1.4.1--r41hc247a5b_1": "sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327"}, "tags": {"1.4.1--r41hc247a5b_1": "sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327"}, "docker": "quay.io/biocontainers/bioconductor-bayesspace"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesspace", "latest": {"1.4.1--r41hc247a5b_1": "sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327"}, "tags": {"1.4.1--r41hc247a5b_1": "sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327"}, "docker": "quay.io/biocontainers/bioconductor-bayesspace", "aliases": {"glpsol": "/usr/local/bin/glpsol", "xgboost": "/usr/local/bin/xgboost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bayesspace.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-bayesspace
+#### glpsol
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### xgboost
+
+```bash
+$ singularity exec <container> /usr/local/bin/xgboost
+$ podman run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/xgboost   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hail"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hail/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hail/container.yaml"
-updated_at: "2022-10-27 00:25:20.286455"
+updated_at: "2022-10-29 05:39:20.596045"
 latest: "0.2.61--py36hf1ae8f4_1"
 container_url: "https://biocontainers.pro/tools/hail"
 aliases:
@@ -37,10 +37,20 @@ aliases:
  - "sparkR"
  - "sparkR.cmd"
  - "sparkR2.cmd"
+ - "2to3-3.6"
+ - "appletviewer"
+ - "bokeh"
+ - "bq"
+ - "chardetect"
+ - "clhsdb"
+ - "docker-credential-gcloud"
+ - "extcheck"
+ - "f2py3.6"
+ - "gcloud"
 versions:
  - "0.2.61--py36hf1ae8f4_1"
 description: "shpc-registry automated BioContainers addition for hail"
-config: {"url": "https://biocontainers.pro/tools/hail", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hail", "latest": {"0.2.61--py36hf1ae8f4_1": "sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88"}, "tags": {"0.2.61--py36hf1ae8f4_1": "sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88"}, "docker": "quay.io/biocontainers/hail", "aliases": {"beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "hailctl": "/usr/local/bin/hailctl", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd"}}
+config: {"url": "https://biocontainers.pro/tools/hail", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hail", "latest": {"0.2.61--py36hf1ae8f4_1": "sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88"}, "tags": {"0.2.61--py36hf1ae8f4_1": "sha256:e95626893f2d3a582ed0b9681889822e4963b937ef50548706dcd2f0f60d2a88"}, "docker": "quay.io/biocontainers/hail", "aliases": {"beeline": "/usr/local/bin/beeline", "beeline.cmd": "/usr/local/bin/beeline.cmd", "docker-image-tool.sh": "/usr/local/bin/docker-image-tool.sh", "find-spark-home": "/usr/local/bin/find-spark-home", "find-spark-home.cmd": "/usr/local/bin/find-spark-home.cmd", "find_spark_home.py": "/usr/local/bin/find_spark_home.py", "hailctl": "/usr/local/bin/hailctl", "load-spark-env.cmd": "/usr/local/bin/load-spark-env.cmd", "load-spark-env.sh": "/usr/local/bin/load-spark-env.sh", "pyspark": "/usr/local/bin/pyspark", "pyspark.cmd": "/usr/local/bin/pyspark.cmd", "pyspark2.cmd": "/usr/local/bin/pyspark2.cmd", "run-example": "/usr/local/bin/run-example", "run-example.cmd": "/usr/local/bin/run-example.cmd", "spark-class": "/usr/local/bin/spark-class", "spark-class.cmd": "/usr/local/bin/spark-class.cmd", "spark-class2.cmd": "/usr/local/bin/spark-class2.cmd", "spark-shell": "/usr/local/bin/spark-shell", "spark-shell.cmd": "/usr/local/bin/spark-shell.cmd", "spark-shell2.cmd": "/usr/local/bin/spark-shell2.cmd", "spark-sql": "/usr/local/bin/spark-sql", "spark-sql.cmd": "/usr/local/bin/spark-sql.cmd", "spark-sql2.cmd": "/usr/local/bin/spark-sql2.cmd", "spark-submit": "/usr/local/bin/spark-submit", "spark-submit.cmd": "/usr/local/bin/spark-submit.cmd", "spark-submit2.cmd": "/usr/local/bin/spark-submit2.cmd", "sparkR": "/usr/local/bin/sparkR", "sparkR.cmd": "/usr/local/bin/sparkR.cmd", "sparkR2.cmd": "/usr/local/bin/sparkR2.cmd", "2to3-3.6": "/usr/local/bin/2to3-3.6", "appletviewer": "/usr/local/bin/appletviewer", "bokeh": "/usr/local/bin/bokeh", "bq": "/usr/local/bin/bq", "chardetect": "/usr/local/bin/chardetect", "clhsdb": "/usr/local/bin/clhsdb", "docker-credential-gcloud": "/usr/local/bin/docker-credential-gcloud", "extcheck": "/usr/local/bin/extcheck", "f2py3.6": "/usr/local/bin/f2py3.6", "gcloud": "/usr/local/bin/gcloud"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hail.
@@ -384,6 +394,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/sparkR.cmd   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/sparkR2.cmd
 $ podman run --it --rm --entrypoint /usr/local/bin/sparkR2.cmd   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sparkR2.cmd   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bokeh
+
+```bash
+$ singularity exec <container> /usr/local/bin/bokeh
+$ podman run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bokeh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bq
+$ podman run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/clhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### docker-credential-gcloud
+
+```bash
+$ singularity exec <container> /usr/local/bin/docker-credential-gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/docker-credential-gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gcloud
+
+```bash
+$ singularity exec <container> /usr/local/bin/gcloud
+$ podman run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gcloud   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

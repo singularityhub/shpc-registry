@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/rfplasmid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rfplasmid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rfplasmid/container.yaml"
-updated_at: "2022-10-27 00:28:03.250798"
+updated_at: "2022-10-29 05:42:57.296628"
 latest: "0.0.18--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/rfplasmid"
 aliases:
  - "rfplasmid"
+ - "2to3-3.9"
+ - "alimask"
+ - "checkm"
+ - "dendropy-format"
+ - "diamond"
+ - "easel"
+ - "esl-afetch"
+ - "esl-alimanip"
+ - "esl-alimap"
+ - "esl-alimask"
 versions:
  - "0.0.18--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for rfplasmid"
-config: {"url": "https://biocontainers.pro/tools/rfplasmid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rfplasmid", "latest": {"0.0.18--pyhdfd78af_0": "sha256:037bef18bcae57e403e40856d6434c08441a17ff24f1e62b8b9a7139843de870"}, "tags": {"0.0.18--pyhdfd78af_0": "sha256:037bef18bcae57e403e40856d6434c08441a17ff24f1e62b8b9a7139843de870"}, "docker": "quay.io/biocontainers/rfplasmid", "aliases": {"rfplasmid": "/usr/local/bin/rfplasmid"}}
+config: {"url": "https://biocontainers.pro/tools/rfplasmid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rfplasmid", "latest": {"0.0.18--pyhdfd78af_0": "sha256:037bef18bcae57e403e40856d6434c08441a17ff24f1e62b8b9a7139843de870"}, "tags": {"0.0.18--pyhdfd78af_0": "sha256:037bef18bcae57e403e40856d6434c08441a17ff24f1e62b8b9a7139843de870"}, "docker": "quay.io/biocontainers/rfplasmid", "aliases": {"rfplasmid": "/usr/local/bin/rfplasmid", "2to3-3.9": "/usr/local/bin/2to3-3.9", "alimask": "/usr/local/bin/alimask", "checkm": "/usr/local/bin/checkm", "dendropy-format": "/usr/local/bin/dendropy-format", "diamond": "/usr/local/bin/diamond", "easel": "/usr/local/bin/easel", "esl-afetch": "/usr/local/bin/esl-afetch", "esl-alimanip": "/usr/local/bin/esl-alimanip", "esl-alimap": "/usr/local/bin/esl-alimap", "esl-alimask": "/usr/local/bin/esl-alimask"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rfplasmid.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/rfplasmid
 $ podman run --it --rm --entrypoint /usr/local/bin/rfplasmid   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rfplasmid   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### checkm
+
+```bash
+$ singularity exec <container> /usr/local/bin/checkm
+$ podman run --it --rm --entrypoint /usr/local/bin/checkm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/checkm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dendropy-format
+
+```bash
+$ singularity exec <container> /usr/local/bin/dendropy-format
+$ podman run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dendropy-format   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### diamond
+
+```bash
+$ singularity exec <container> /usr/local/bin/diamond
+$ podman run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/diamond   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### easel
+
+```bash
+$ singularity exec <container> /usr/local/bin/easel
+$ podman run --it --rm --entrypoint /usr/local/bin/easel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-afetch
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-afetch
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-afetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-afetch   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-alimanip
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-alimanip
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimanip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimanip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-alimap
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-alimap
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimap   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimap   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### esl-alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/esl-alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/esl-alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/esl-alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

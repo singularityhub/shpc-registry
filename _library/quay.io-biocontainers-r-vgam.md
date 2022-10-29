@@ -4,14 +4,20 @@ name:  "quay.io/biocontainers/r-vgam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-vgam/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-vgam/container.yaml"
-updated_at: "2022-10-27 00:33:08.410830"
+updated_at: "2022-10-29 05:49:39.998690"
 latest: "1.0_2--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-vgam"
-
+aliases:
+ - "bmp2tiff"
+ - "gif2tiff"
+ - "ras2tiff"
+ - "rgb2ycbcr"
+ - "thumbnail"
+ - "uconv"
 versions:
  - "1.0_2--r3.3.1_0"
 description: "shpc-registry automated BioContainers addition for r-vgam"
-config: {"url": "https://biocontainers.pro/tools/r-vgam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vgam", "latest": {"1.0_2--r3.3.1_0": "sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30"}, "tags": {"1.0_2--r3.3.1_0": "sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30"}, "docker": "quay.io/biocontainers/r-vgam"}
+config: {"url": "https://biocontainers.pro/tools/r-vgam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-vgam", "latest": {"1.0_2--r3.3.1_0": "sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30"}, "tags": {"1.0_2--r3.3.1_0": "sha256:4879d702562f4192b1d1c89205ba7b12319c3bb593dd618298b935efaa239a30"}, "docker": "quay.io/biocontainers/r-vgam", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "uconv": "/usr/local/bin/uconv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-vgam.
@@ -97,14 +103,59 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### r-vgam
+#### bmp2tiff
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/bmp2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bmp2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### gif2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ras2tiff
+
+```bash
+$ singularity exec <container> /usr/local/bin/ras2tiff
+$ podman run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ras2tiff   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rgb2ycbcr
+
+```bash
+$ singularity exec <container> /usr/local/bin/rgb2ycbcr
+$ podman run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rgb2ycbcr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### thumbnail
+
+```bash
+$ singularity exec <container> /usr/local/bin/thumbnail
+$ podman run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/thumbnail   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### uconv
+
+```bash
+$ singularity exec <container> /usr/local/bin/uconv
+$ podman run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/uconv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

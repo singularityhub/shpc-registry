@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/mysql-connector-c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysql-connector-c/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mysql-connector-c/container.yaml"
-updated_at: "2022-10-27 00:20:32.409128"
+updated_at: "2022-10-29 05:32:58.022244"
 latest: "6.1.6--2"
 container_url: "https://biocontainers.pro/tools/mysql-connector-c"
-
+aliases:
+ - "my_print_defaults"
+ - "mysql_config"
+ - "perror"
 versions:
  - "6.1.6--2"
 description: "shpc-registry automated BioContainers addition for mysql-connector-c"
-config: {"url": "https://biocontainers.pro/tools/mysql-connector-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mysql-connector-c", "latest": {"6.1.6--2": "sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1"}, "tags": {"6.1.6--2": "sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1"}, "docker": "quay.io/biocontainers/mysql-connector-c"}
+config: {"url": "https://biocontainers.pro/tools/mysql-connector-c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mysql-connector-c", "latest": {"6.1.6--2": "sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1"}, "tags": {"6.1.6--2": "sha256:48c7eef63472057baccd8d6f0ae72733d171adc14df5c835244f7cca36b8d5e1"}, "docker": "quay.io/biocontainers/mysql-connector-c", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mysql-connector-c.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### mysql-connector-c
+#### my_print_defaults
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/my_print_defaults
+$ podman run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### mysql_config
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_config
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perror
+
+```bash
+$ singularity exec <container> /usr/local/bin/perror
+$ podman run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-experimenthubdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
-updated_at: "2022-10-27 00:25:11.320415"
+updated_at: "2022-10-29 05:39:08.129033"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-experimenthubdata"
-
+aliases:
+ - "wget"
 versions:
  - "1.8.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-experimenthubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata", "latest": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924"}, "tags": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924"}, "docker": "quay.io/biocontainers/bioconductor-experimenthubdata"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-experimenthubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata", "latest": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924"}, "tags": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924"}, "docker": "quay.io/biocontainers/bioconductor-experimenthubdata", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-experimenthubdata.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-experimenthubdata
+#### wget
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

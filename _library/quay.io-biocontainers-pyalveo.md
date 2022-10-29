@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/pyalveo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyalveo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyalveo/container.yaml"
-updated_at: "2022-10-27 00:26:02.679415"
+updated_at: "2022-10-29 05:40:17.438244"
 latest: "1.0.3--py36_1"
 container_url: "https://biocontainers.pro/tools/pyalveo"
 aliases:
  - "pyjwt"
+ - "2to3-3.6"
+ - "chardetect"
+ - "idle3.6"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
+ - "python3.6m"
+ - "python3.6m-config"
 versions:
  - "1.0.3--py36_1"
 description: "shpc-registry automated BioContainers addition for pyalveo"
-config: {"url": "https://biocontainers.pro/tools/pyalveo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyalveo", "latest": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c"}, "tags": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c"}, "docker": "quay.io/biocontainers/pyalveo", "aliases": {"pyjwt": "/usr/local/bin/pyjwt"}}
+config: {"url": "https://biocontainers.pro/tools/pyalveo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyalveo", "latest": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c"}, "tags": {"1.0.3--py36_1": "sha256:eea320f41e8f7a87cdbfe309c0764356f17a32b5d7c6b3d60fef6d5a6bb13b7c"}, "docker": "quay.io/biocontainers/pyalveo", "aliases": {"pyjwt": "/usr/local/bin/pyjwt", "2to3-3.6": "/usr/local/bin/2to3-3.6", "chardetect": "/usr/local/bin/chardetect", "idle3.6": "/usr/local/bin/idle3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyalveo.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/pyjwt
 $ podman run --it --rm --entrypoint /usr/local/bin/pyjwt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyjwt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

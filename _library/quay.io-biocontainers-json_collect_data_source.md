@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/json_collect_data_source"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/json_collect_data_source/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/json_collect_data_source/container.yaml"
-updated_at: "2022-10-27 00:40:07.226860"
+updated_at: "2022-10-29 05:58:54.479089"
 latest: "1.0.1--2"
 container_url: "https://biocontainers.pro/tools/json_collect_data_source"
 aliases:
  - "json_collect_data_source.py"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "1.0.1--2"
 description: "shpc-registry automated BioContainers addition for json_collect_data_source"
-config: {"url": "https://biocontainers.pro/tools/json_collect_data_source", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for json_collect_data_source", "latest": {"1.0.1--2": "sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281"}, "tags": {"1.0.1--2": "sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281"}, "docker": "quay.io/biocontainers/json_collect_data_source", "aliases": {"json_collect_data_source.py": "/usr/local/bin/json_collect_data_source.py"}}
+config: {"url": "https://biocontainers.pro/tools/json_collect_data_source", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for json_collect_data_source", "latest": {"1.0.1--2": "sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281"}, "tags": {"1.0.1--2": "sha256:dc70d7de289200c3732cec1add821ae3bfecf1fae9030db6c74e9fc7e91d6281"}, "docker": "quay.io/biocontainers/json_collect_data_source", "aliases": {"json_collect_data_source.py": "/usr/local/bin/json_collect_data_source.py", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/json_collect_data_source.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/json_collect_data_source.py
 $ podman run --it --rm --entrypoint /usr/local/bin/json_collect_data_source.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/json_collect_data_source.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

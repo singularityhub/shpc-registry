@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/svanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/svanalyzer/container.yaml"
-updated_at: "2022-10-27 00:23:30.332865"
+updated_at: "2022-10-29 05:36:55.956021"
 latest: "0.36--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/svanalyzer"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "SVrefine"
  - "SVwiden"
  - "svanalyzer"
+ - "2to3-3.10"
+ - "ace2sam"
+ - "annotateBed"
+ - "bamToBed"
+ - "bamToFastq"
+ - "bed12ToBed6"
+ - "bedToBam"
+ - "bedToIgv"
+ - "bedpeToBam"
+ - "bedtools"
 versions:
  - "0.36--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for svanalyzer"
-config: {"url": "https://biocontainers.pro/tools/svanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svanalyzer", "latest": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "tags": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "docker": "quay.io/biocontainers/svanalyzer", "aliases": {"SVbenchmark": "/usr/local/bin/SVbenchmark", "SVcomp": "/usr/local/bin/SVcomp", "SVmerge": "/usr/local/bin/SVmerge", "SVrefine": "/usr/local/bin/SVrefine", "SVwiden": "/usr/local/bin/SVwiden", "svanalyzer": "/usr/local/bin/svanalyzer"}}
+config: {"url": "https://biocontainers.pro/tools/svanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for svanalyzer", "latest": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "tags": {"0.36--pl5321hdfd78af_2": "sha256:d5ddfe600cb2c6b0db9f16cfd6e4e8cffe7d708e7aa51012cb3e4fd24801af2b"}, "docker": "quay.io/biocontainers/svanalyzer", "aliases": {"SVbenchmark": "/usr/local/bin/SVbenchmark", "SVcomp": "/usr/local/bin/SVcomp", "SVmerge": "/usr/local/bin/SVmerge", "SVrefine": "/usr/local/bin/SVrefine", "SVwiden": "/usr/local/bin/SVwiden", "svanalyzer": "/usr/local/bin/svanalyzer", "2to3-3.10": "/usr/local/bin/2to3-3.10", "ace2sam": "/usr/local/bin/ace2sam", "annotateBed": "/usr/local/bin/annotateBed", "bamToBed": "/usr/local/bin/bamToBed", "bamToFastq": "/usr/local/bin/bamToFastq", "bed12ToBed6": "/usr/local/bin/bed12ToBed6", "bedToBam": "/usr/local/bin/bedToBam", "bedToIgv": "/usr/local/bin/bedToIgv", "bedpeToBam": "/usr/local/bin/bedpeToBam", "bedtools": "/usr/local/bin/bedtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/svanalyzer.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/SVwiden   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/svanalyzer
 $ podman run --it --rm --entrypoint /usr/local/bin/svanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/svanalyzer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotateBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotateBed
+$ podman run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotateBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToBed
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToBed
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToBed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamToFastq
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamToFastq
+$ podman run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamToFastq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bed12ToBed6
+
+```bash
+$ singularity exec <container> /usr/local/bin/bed12ToBed6
+$ podman run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bed12ToBed6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedToIgv
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedToIgv
+$ podman run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedToIgv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedpeToBam
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedpeToBam
+$ podman run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedpeToBam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bedtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bedtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bedtools   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pythonnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythonnet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pythonnet/container.yaml"
-updated_at: "2022-10-27 00:38:11.813290"
+updated_at: "2022-10-29 05:56:24.307057"
 latest: "2.3.0--py27_1"
 container_url: "https://biocontainers.pro/tools/pythonnet"
 aliases:
@@ -13,10 +13,20 @@ aliases:
  - "nunit-console2"
  - "nunit-console4"
  - "prj2make"
+ - "al"
+ - "al2"
+ - "caspol"
+ - "cccheck"
+ - "ccrewrite"
+ - "cert-sync"
+ - "cert2spc"
+ - "certmgr"
+ - "chktrust"
+ - "crlupdate"
 versions:
  - "2.3.0--py27_1"
 description: "shpc-registry automated BioContainers addition for pythonnet"
-config: {"url": "https://biocontainers.pro/tools/pythonnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythonnet", "latest": {"2.3.0--py27_1": "sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a"}, "tags": {"2.3.0--py27_1": "sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a"}, "docker": "quay.io/biocontainers/pythonnet", "aliases": {"monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "prj2make": "/usr/local/bin/prj2make"}}
+config: {"url": "https://biocontainers.pro/tools/pythonnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pythonnet", "latest": {"2.3.0--py27_1": "sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a"}, "tags": {"2.3.0--py27_1": "sha256:9e7ea74a9c5644a827b7643cc53dc629602947ca172ad142fbde4a8cf92a301a"}, "docker": "quay.io/biocontainers/pythonnet", "aliases": {"monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "prj2make": "/usr/local/bin/prj2make", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr", "chktrust": "/usr/local/bin/chktrust", "crlupdate": "/usr/local/bin/crlupdate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pythonnet.
@@ -144,6 +154,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nunit-console4   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/prj2make
 $ podman run --it --rm --entrypoint /usr/local/bin/prj2make   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/prj2make   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### al
+
+```bash
+$ singularity exec <container> /usr/local/bin/al
+$ podman run --it --rm --entrypoint /usr/local/bin/al   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/al   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### al2
+
+```bash
+$ singularity exec <container> /usr/local/bin/al2
+$ podman run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/al2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### caspol
+
+```bash
+$ singularity exec <container> /usr/local/bin/caspol
+$ podman run --it --rm --entrypoint /usr/local/bin/caspol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/caspol   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cccheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/cccheck
+$ podman run --it --rm --entrypoint /usr/local/bin/cccheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cccheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ccrewrite
+
+```bash
+$ singularity exec <container> /usr/local/bin/ccrewrite
+$ podman run --it --rm --entrypoint /usr/local/bin/ccrewrite   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ccrewrite   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cert-sync
+
+```bash
+$ singularity exec <container> /usr/local/bin/cert-sync
+$ podman run --it --rm --entrypoint /usr/local/bin/cert-sync   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cert-sync   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cert2spc
+
+```bash
+$ singularity exec <container> /usr/local/bin/cert2spc
+$ podman run --it --rm --entrypoint /usr/local/bin/cert2spc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cert2spc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### certmgr
+
+```bash
+$ singularity exec <container> /usr/local/bin/certmgr
+$ podman run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/certmgr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chktrust
+
+```bash
+$ singularity exec <container> /usr/local/bin/chktrust
+$ podman run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chktrust   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### crlupdate
+
+```bash
+$ singularity exec <container> /usr/local/bin/crlupdate
+$ podman run --it --rm --entrypoint /usr/local/bin/crlupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/crlupdate   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

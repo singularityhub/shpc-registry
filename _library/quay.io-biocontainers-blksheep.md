@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/blksheep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blksheep/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blksheep/container.yaml"
-updated_at: "2022-10-27 00:36:35.657941"
+updated_at: "2022-10-29 05:54:18.036926"
 latest: "0.0.7--py_0"
 container_url: "https://biocontainers.pro/tools/blksheep"
 aliases:
  - "blacksheep"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.0.7--py_0"
 description: "shpc-registry automated BioContainers addition for blksheep"
-config: {"url": "https://biocontainers.pro/tools/blksheep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blksheep", "latest": {"0.0.7--py_0": "sha256:8e3fd09eb69f9be9ef5a2578f43f885dd1cc010f57d24725470362fc394c5ad9"}, "tags": {"0.0.7--py_0": "sha256:8e3fd09eb69f9be9ef5a2578f43f885dd1cc010f57d24725470362fc394c5ad9"}, "docker": "quay.io/biocontainers/blksheep", "aliases": {"blacksheep": "/usr/local/bin/blacksheep"}}
+config: {"url": "https://biocontainers.pro/tools/blksheep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blksheep", "latest": {"0.0.7--py_0": "sha256:8e3fd09eb69f9be9ef5a2578f43f885dd1cc010f57d24725470362fc394c5ad9"}, "tags": {"0.0.7--py_0": "sha256:8e3fd09eb69f9be9ef5a2578f43f885dd1cc010f57d24725470362fc394c5ad9"}, "docker": "quay.io/biocontainers/blksheep", "aliases": {"blacksheep": "/usr/local/bin/blacksheep", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blksheep.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/blacksheep
 $ podman run --it --rm --entrypoint /usr/local/bin/blacksheep   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/blacksheep   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

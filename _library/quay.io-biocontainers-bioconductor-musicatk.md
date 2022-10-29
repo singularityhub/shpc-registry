@@ -4,22 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-musicatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-musicatk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-musicatk/container.yaml"
-updated_at: "2022-10-27 00:27:07.170848"
+updated_at: "2022-10-29 05:41:44.859672"
 latest: "1.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-musicatk"
 aliases:
- - ".bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh"
- - ".bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh"
- - ".bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh"
- - ".bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh"
- - ".bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh"
- - ".bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh"
- - ".bioconductor-tcgabiolinksgui.data-post-link.sh"
- - ".bioconductor-tcgabiolinksgui.data-pre-unlink.sh"
+ - "pandoc"
 versions:
  - "1.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-musicatk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-musicatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-musicatk", "latest": {"1.4.0--r41hdfd78af_0": "sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37"}, "docker": "quay.io/biocontainers/bioconductor-musicatk", "aliases": {".bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh": "/usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh", ".bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh": "/usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh", ".bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh": "/usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh", ".bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh": "/usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh", ".bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh": "/usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh", ".bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh": "/usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh", ".bioconductor-tcgabiolinksgui.data-post-link.sh": "/usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh", ".bioconductor-tcgabiolinksgui.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-musicatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-musicatk", "latest": {"1.4.0--r41hdfd78af_0": "sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:ba9ae41dfd5e2565eb3bb4472562095abd319411e499486fda46eeb8252b5c37"}, "docker": "quay.io/biocontainers/bioconductor-musicatk", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-musicatk.
@@ -105,75 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh
+#### pandoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.hsapiens.ucsc.hg38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-bsgenome.mmusculus.ucsc.mm9-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-tcgabiolinksgui.data-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-tcgabiolinksgui.data-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

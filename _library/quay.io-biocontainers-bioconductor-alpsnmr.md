@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-alpsnmr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alpsnmr/container.yaml"
-updated_at: "2022-10-27 00:33:46.906611"
+updated_at: "2022-10-29 05:50:29.693280"
 latest: "3.4.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alpsnmr"
-
+aliases:
+ - "pandoc"
 versions:
  - "3.4.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-alpsnmr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alpsnmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpsnmr", "latest": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585"}, "docker": "quay.io/biocontainers/bioconductor-alpsnmr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alpsnmr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alpsnmr", "latest": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585"}, "tags": {"3.4.0--r41hdfd78af_0": "sha256:9f18bd9328cba49d419393af3b9026f436610054a5b9043075ad070dabd13585"}, "docker": "quay.io/biocontainers/bioconductor-alpsnmr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alpsnmr.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-alpsnmr
+#### pandoc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

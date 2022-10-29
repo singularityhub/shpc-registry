@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scanpy-scripts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scanpy-scripts/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scanpy-scripts/container.yaml"
-updated_at: "2022-10-27 00:22:53.149107"
+updated_at: "2022-10-29 05:36:06.033997"
 latest: "1.1.2--pypyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scanpy-scripts"
 aliases:
@@ -26,10 +26,20 @@ aliases:
  - "scanpy-run-umap"
  - "scanpy-scale-data"
  - "scanpy-scripts-tests.bats"
+ - "2to3-3.9"
+ - "JxrDecApp"
+ - "JxrEncApp"
+ - "aec"
+ - "brotli"
+ - "cbrunsli"
+ - "chardetect"
+ - "cmpfillin"
+ - "dbrunsli"
+ - "dunamai"
 versions:
  - "1.1.2--pypyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for scanpy-scripts"
-config: {"url": "https://biocontainers.pro/tools/scanpy-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scanpy-scripts", "latest": {"1.1.2--pypyhdfd78af_1": "sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085"}, "tags": {"1.1.2--pypyhdfd78af_1": "sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085"}, "docker": "quay.io/biocontainers/scanpy-scripts", "aliases": {"loompy": "/usr/local/bin/loompy", "scanpy-cli": "/usr/local/bin/scanpy-cli", "scanpy-filter-cells": "/usr/local/bin/scanpy-filter-cells", "scanpy-filter-genes": "/usr/local/bin/scanpy-filter-genes", "scanpy-find-cluster": "/usr/local/bin/scanpy-find-cluster", "scanpy-find-markers": "/usr/local/bin/scanpy-find-markers", "scanpy-find-variable-genes": "/usr/local/bin/scanpy-find-variable-genes", "scanpy-integrate": "/usr/local/bin/scanpy-integrate", "scanpy-multiplet": "/usr/local/bin/scanpy-multiplet", "scanpy-neighbors": "/usr/local/bin/scanpy-neighbors", "scanpy-normalise-data": "/usr/local/bin/scanpy-normalise-data", "scanpy-read-10x": "/usr/local/bin/scanpy-read-10x", "scanpy-regress": "/usr/local/bin/scanpy-regress", "scanpy-run-pca": "/usr/local/bin/scanpy-run-pca", "scanpy-run-tsne": "/usr/local/bin/scanpy-run-tsne", "scanpy-run-umap": "/usr/local/bin/scanpy-run-umap", "scanpy-scale-data": "/usr/local/bin/scanpy-scale-data", "scanpy-scripts-tests.bats": "/usr/local/bin/scanpy-scripts-tests.bats"}}
+config: {"url": "https://biocontainers.pro/tools/scanpy-scripts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scanpy-scripts", "latest": {"1.1.2--pypyhdfd78af_1": "sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085"}, "tags": {"1.1.2--pypyhdfd78af_1": "sha256:c58b780539347faadb9073bebde291e5ae029457ec43f8754ad248b1f09fc085"}, "docker": "quay.io/biocontainers/scanpy-scripts", "aliases": {"loompy": "/usr/local/bin/loompy", "scanpy-cli": "/usr/local/bin/scanpy-cli", "scanpy-filter-cells": "/usr/local/bin/scanpy-filter-cells", "scanpy-filter-genes": "/usr/local/bin/scanpy-filter-genes", "scanpy-find-cluster": "/usr/local/bin/scanpy-find-cluster", "scanpy-find-markers": "/usr/local/bin/scanpy-find-markers", "scanpy-find-variable-genes": "/usr/local/bin/scanpy-find-variable-genes", "scanpy-integrate": "/usr/local/bin/scanpy-integrate", "scanpy-multiplet": "/usr/local/bin/scanpy-multiplet", "scanpy-neighbors": "/usr/local/bin/scanpy-neighbors", "scanpy-normalise-data": "/usr/local/bin/scanpy-normalise-data", "scanpy-read-10x": "/usr/local/bin/scanpy-read-10x", "scanpy-regress": "/usr/local/bin/scanpy-regress", "scanpy-run-pca": "/usr/local/bin/scanpy-run-pca", "scanpy-run-tsne": "/usr/local/bin/scanpy-run-tsne", "scanpy-run-umap": "/usr/local/bin/scanpy-run-umap", "scanpy-scale-data": "/usr/local/bin/scanpy-scale-data", "scanpy-scripts-tests.bats": "/usr/local/bin/scanpy-scripts-tests.bats", "2to3-3.9": "/usr/local/bin/2to3-3.9", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "aec": "/usr/local/bin/aec", "brotli": "/usr/local/bin/brotli", "cbrunsli": "/usr/local/bin/cbrunsli", "chardetect": "/usr/local/bin/chardetect", "cmpfillin": "/usr/local/bin/cmpfillin", "dbrunsli": "/usr/local/bin/dbrunsli", "dunamai": "/usr/local/bin/dunamai"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scanpy-scripts.
@@ -274,6 +284,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scanpy-scale-data   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/scanpy-scripts-tests.bats
 $ podman run --it --rm --entrypoint /usr/local/bin/scanpy-scripts-tests.bats   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/scanpy-scripts-tests.bats   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### JxrDecApp
+
+```bash
+$ singularity exec <container> /usr/local/bin/JxrDecApp
+$ podman run --it --rm --entrypoint /usr/local/bin/JxrDecApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/JxrDecApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### JxrEncApp
+
+```bash
+$ singularity exec <container> /usr/local/bin/JxrEncApp
+$ podman run --it --rm --entrypoint /usr/local/bin/JxrEncApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/JxrEncApp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aec
+
+```bash
+$ singularity exec <container> /usr/local/bin/aec
+$ podman run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aec   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cbrunsli
+
+```bash
+$ singularity exec <container> /usr/local/bin/cbrunsli
+$ podman run --it --rm --entrypoint /usr/local/bin/cbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cmpfillin
+
+```bash
+$ singularity exec <container> /usr/local/bin/cmpfillin
+$ podman run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cmpfillin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbrunsli
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbrunsli
+$ podman run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbrunsli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dunamai
+
+```bash
+$ singularity exec <container> /usr/local/bin/dunamai
+$ podman run --it --rm --entrypoint /usr/local/bin/dunamai   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dunamai   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

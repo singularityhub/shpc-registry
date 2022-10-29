@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/seqwish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqwish/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/seqwish/container.yaml"
-updated_at: "2022-10-27 00:23:10.671364"
+updated_at: "2022-10-29 05:36:28.398026"
 latest: "0.7.6--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/seqwish"
 aliases:
  - "seqwish"
+ - "2to3-3.10"
+ - "idle3.10"
+ - "pydoc3.10"
+ - "python3.1"
+ - "python3.10"
+ - "python3.10-config"
 versions:
  - "0.7.6--h5b5514e_1"
 description: "shpc-registry automated BioContainers addition for seqwish"
-config: {"url": "https://biocontainers.pro/tools/seqwish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqwish", "latest": {"0.7.6--h5b5514e_1": "sha256:04e9f1ccfb56b084970ef38390b02e035b79c825ac0e65e7cd7f06ab6521ff90"}, "tags": {"0.7.6--h5b5514e_1": "sha256:04e9f1ccfb56b084970ef38390b02e035b79c825ac0e65e7cd7f06ab6521ff90"}, "docker": "quay.io/biocontainers/seqwish", "aliases": {"seqwish": "/usr/local/bin/seqwish"}}
+config: {"url": "https://biocontainers.pro/tools/seqwish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqwish", "latest": {"0.7.6--h5b5514e_1": "sha256:04e9f1ccfb56b084970ef38390b02e035b79c825ac0e65e7cd7f06ab6521ff90"}, "tags": {"0.7.6--h5b5514e_1": "sha256:04e9f1ccfb56b084970ef38390b02e035b79c825ac0e65e7cd7f06ab6521ff90"}, "docker": "quay.io/biocontainers/seqwish", "aliases": {"seqwish": "/usr/local/bin/seqwish", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqwish.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/seqwish
 $ podman run --it --rm --entrypoint /usr/local/bin/seqwish   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/seqwish   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.1
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.1
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.10-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.10-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.10-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

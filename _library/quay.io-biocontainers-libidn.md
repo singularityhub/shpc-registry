@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libidn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libidn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/libidn/container.yaml"
-updated_at: "2022-10-27 00:33:16.121370"
+updated_at: "2022-10-29 05:49:49.665356"
 latest: "7.45.0--h87f3376_6"
 container_url: "https://biocontainers.pro/tools/libidn"
-
+aliases:
+ - "idn"
 versions:
  - "7.45.0--h87f3376_6"
 description: "shpc-registry automated BioContainers addition for libidn"
-config: {"url": "https://biocontainers.pro/tools/libidn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libidn", "latest": {"7.45.0--h87f3376_6": "sha256:04c8fc17e0ef3e5aae46f5b16a28639e3529238c0ecc944e0fb82bf0ed511d42"}, "tags": {"7.45.0--h87f3376_6": "sha256:04c8fc17e0ef3e5aae46f5b16a28639e3529238c0ecc944e0fb82bf0ed511d42"}, "docker": "quay.io/biocontainers/libidn"}
+config: {"url": "https://biocontainers.pro/tools/libidn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libidn", "latest": {"7.45.0--h87f3376_6": "sha256:04c8fc17e0ef3e5aae46f5b16a28639e3529238c0ecc944e0fb82bf0ed511d42"}, "tags": {"7.45.0--h87f3376_6": "sha256:04c8fc17e0ef3e5aae46f5b16a28639e3529238c0ecc944e0fb82bf0ed511d42"}, "docker": "quay.io/biocontainers/libidn", "aliases": {"idn": "/usr/local/bin/idn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libidn.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### libidn
+#### idn
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/idn
+$ podman run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

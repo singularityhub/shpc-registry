@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/fragbuilder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fragbuilder/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fragbuilder/container.yaml"
-updated_at: "2022-10-27 00:23:26.940819"
+updated_at: "2022-10-29 05:36:51.598760"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/fragbuilder"
-
+aliases:
+ - "babel"
+ - "f2py2"
+ - "f2py2.7"
+ - "idle"
+ - "obabel"
+ - "obchiral"
+ - "obconformer"
+ - "obdistgen"
+ - "obenergy"
+ - "obfit"
 versions:
  - "1.0.1--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for fragbuilder"
-config: {"url": "https://biocontainers.pro/tools/fragbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fragbuilder", "latest": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "tags": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "docker": "quay.io/biocontainers/fragbuilder"}
+config: {"url": "https://biocontainers.pro/tools/fragbuilder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fragbuilder", "latest": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "tags": {"1.0.1--hdfd78af_1": "sha256:08abce9d04d2fc67fc65a80013cbd702fd7d06284d6af53381158dc9c7a59390"}, "docker": "quay.io/biocontainers/fragbuilder", "aliases": {"babel": "/usr/local/bin/babel", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "obabel": "/usr/local/bin/obabel", "obchiral": "/usr/local/bin/obchiral", "obconformer": "/usr/local/bin/obconformer", "obdistgen": "/usr/local/bin/obdistgen", "obenergy": "/usr/local/bin/obenergy", "obfit": "/usr/local/bin/obfit"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fragbuilder.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### fragbuilder
+#### babel
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/babel
+$ podman run --it --rm --entrypoint /usr/local/bin/babel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/babel   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obabel
+
+```bash
+$ singularity exec <container> /usr/local/bin/obabel
+$ podman run --it --rm --entrypoint /usr/local/bin/obabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obabel   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obchiral
+
+```bash
+$ singularity exec <container> /usr/local/bin/obchiral
+$ podman run --it --rm --entrypoint /usr/local/bin/obchiral   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obchiral   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obconformer
+
+```bash
+$ singularity exec <container> /usr/local/bin/obconformer
+$ podman run --it --rm --entrypoint /usr/local/bin/obconformer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obconformer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obdistgen
+
+```bash
+$ singularity exec <container> /usr/local/bin/obdistgen
+$ podman run --it --rm --entrypoint /usr/local/bin/obdistgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obdistgen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obenergy
+
+```bash
+$ singularity exec <container> /usr/local/bin/obenergy
+$ podman run --it --rm --entrypoint /usr/local/bin/obenergy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obenergy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### obfit
+
+```bash
+$ singularity exec <container> /usr/local/bin/obfit
+$ podman run --it --rm --entrypoint /usr/local/bin/obfit   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/obfit   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

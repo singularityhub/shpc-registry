@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/tbl2asn-forever"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tbl2asn-forever/container.yaml"
-updated_at: "2022-10-27 00:22:09.661036"
+updated_at: "2022-10-29 05:35:06.577284"
 latest: "25.7f--0"
 container_url: "https://biocontainers.pro/tools/tbl2asn-forever"
-
+aliases:
+ - "faketime"
+ - "idn"
+ - "real-tbl2asn"
+ - "tbl2asn"
 versions:
  - "25.7f--0"
 description: "shpc-registry automated BioContainers addition for tbl2asn-forever"
-config: {"url": "https://biocontainers.pro/tools/tbl2asn-forever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn-forever", "latest": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "tags": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "docker": "quay.io/biocontainers/tbl2asn-forever"}
+config: {"url": "https://biocontainers.pro/tools/tbl2asn-forever", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbl2asn-forever", "latest": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "tags": {"25.7f--0": "sha256:e63cde4eb1597dee1a01c414b625d269eb2c5c172cf20102264d1c0e6e057b33"}, "docker": "quay.io/biocontainers/tbl2asn-forever", "aliases": {"faketime": "/usr/local/bin/faketime", "idn": "/usr/local/bin/idn", "real-tbl2asn": "/usr/local/bin/real-tbl2asn", "tbl2asn": "/usr/local/bin/tbl2asn"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbl2asn-forever.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### tbl2asn-forever
+#### faketime
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/faketime
+$ podman run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/faketime   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idn
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn
+$ podman run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### real-tbl2asn
+
+```bash
+$ singularity exec <container> /usr/local/bin/real-tbl2asn
+$ podman run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/real-tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tbl2asn
+
+```bash
+$ singularity exec <container> /usr/local/bin/tbl2asn
+$ podman run --it --rm --entrypoint /usr/local/bin/tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tbl2asn   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

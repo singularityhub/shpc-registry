@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-biocancer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocancer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocancer/container.yaml"
-updated_at: "2022-10-27 00:33:49.428389"
+updated_at: "2022-10-29 05:50:32.989403"
 latest: "1.22.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocancer"
 aliases:
- - ".bioconductor-org.bt.eg.db-post-link.sh"
- - ".bioconductor-org.bt.eg.db-pre-unlink.sh"
+ - "pandoc"
 versions:
  - "1.22.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biocancer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biocancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocancer", "latest": {"1.22.0--r41hdfd78af_0": "sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913"}, "docker": "quay.io/biocontainers/bioconductor-biocancer", "aliases": {".bioconductor-org.bt.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-org.bt.eg.db-post-link.sh", ".bioconductor-org.bt.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-org.bt.eg.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biocancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biocancer", "latest": {"1.22.0--r41hdfd78af_0": "sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:87f5f8091df9cc763c452753c7206f6a552591af5ffeaea00bb49cf8f6430913"}, "docker": "quay.io/biocontainers/bioconductor-biocancer", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biocancer.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-org.bt.eg.db-post-link.sh
+#### pandoc
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-org.bt.eg.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.bt.eg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.bt.eg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-org.bt.eg.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-org.bt.eg.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.bt.eg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-org.bt.eg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

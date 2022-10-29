@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-logger-simple"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-logger-simple/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-logger-simple/container.yaml"
-updated_at: "2022-10-27 00:36:57.044054"
+updated_at: "2022-10-29 05:54:46.991420"
 latest: "2.0--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-logger-simple"
-
+aliases:
+ - "perl5.32.1"
+ - "streamzip"
 versions:
  - "2.0--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-logger-simple"
-config: {"url": "https://biocontainers.pro/tools/perl-logger-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-logger-simple", "latest": {"2.0--pl5321hdfd78af_1": "sha256:9d1d4c2ec070d99b05f58f754b899d8aac56e0c6647b1294045394f06e4fe832"}, "tags": {"2.0--pl5321hdfd78af_1": "sha256:9d1d4c2ec070d99b05f58f754b899d8aac56e0c6647b1294045394f06e4fe832"}, "docker": "quay.io/biocontainers/perl-logger-simple"}
+config: {"url": "https://biocontainers.pro/tools/perl-logger-simple", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-logger-simple", "latest": {"2.0--pl5321hdfd78af_1": "sha256:9d1d4c2ec070d99b05f58f754b899d8aac56e0c6647b1294045394f06e4fe832"}, "tags": {"2.0--pl5321hdfd78af_1": "sha256:9d1d4c2ec070d99b05f58f754b899d8aac56e0c6647b1294045394f06e4fe832"}, "docker": "quay.io/biocontainers/perl-logger-simple", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-logger-simple.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-logger-simple
+#### perl5.32.1
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl5.32.1
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.1   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### streamzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/streamzip
+$ podman run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/streamzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

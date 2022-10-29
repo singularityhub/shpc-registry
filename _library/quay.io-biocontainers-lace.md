@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lace/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lace/container.yaml"
-updated_at: "2022-10-27 00:38:30.773688"
+updated_at: "2022-10-29 05:56:48.400096"
 latest: "1.14.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/lace"
 aliases:
@@ -14,10 +14,20 @@ aliases:
  - "Mobius"
  - "Mobius-as"
  - "STViewer"
+ - "2to3-3.9"
+ - "blat"
+ - "f2py3.9"
+ - "idle3.9"
+ - "opj_compress"
+ - "opj_decompress"
+ - "opj_dump"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "1.14.1--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for lace"
-config: {"url": "https://biocontainers.pro/tools/lace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lace", "latest": {"1.14.1--pyh5e36f6f_0": "sha256:fcbec17ba597549888f3231a9a92b6923f52ba979390cfbca0674448a1e5ba6d"}, "tags": {"1.14.1--pyh5e36f6f_0": "sha256:fcbec17ba597549888f3231a9a92b6923f52ba979390cfbca0674448a1e5ba6d"}, "docker": "quay.io/biocontainers/lace", "aliases": {"BuildSuperTranscript": "/usr/local/bin/BuildSuperTranscript", "Lace": "/usr/local/bin/Lace", "Lace_Checker": "/usr/local/bin/Lace_Checker", "Mobius": "/usr/local/bin/Mobius", "Mobius-as": "/usr/local/bin/Mobius-as", "STViewer": "/usr/local/bin/STViewer"}}
+config: {"url": "https://biocontainers.pro/tools/lace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lace", "latest": {"1.14.1--pyh5e36f6f_0": "sha256:fcbec17ba597549888f3231a9a92b6923f52ba979390cfbca0674448a1e5ba6d"}, "tags": {"1.14.1--pyh5e36f6f_0": "sha256:fcbec17ba597549888f3231a9a92b6923f52ba979390cfbca0674448a1e5ba6d"}, "docker": "quay.io/biocontainers/lace", "aliases": {"BuildSuperTranscript": "/usr/local/bin/BuildSuperTranscript", "Lace": "/usr/local/bin/Lace", "Lace_Checker": "/usr/local/bin/Lace_Checker", "Mobius": "/usr/local/bin/Mobius", "Mobius-as": "/usr/local/bin/Mobius-as", "STViewer": "/usr/local/bin/STViewer", "2to3-3.9": "/usr/local/bin/2to3-3.9", "blat": "/usr/local/bin/blat", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lace.
@@ -154,6 +164,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/Mobius-as   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/STViewer
 $ podman run --it --rm --entrypoint /usr/local/bin/STViewer   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/STViewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blat
+
+```bash
+$ singularity exec <container> /usr/local/bin/blat
+$ podman run --it --rm --entrypoint /usr/local/bin/blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blat   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_compress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_compress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_compress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_decompress
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_decompress
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_decompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### opj_dump
+
+```bash
+$ singularity exec <container> /usr/local/bin/opj_dump
+$ podman run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/opj_dump   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

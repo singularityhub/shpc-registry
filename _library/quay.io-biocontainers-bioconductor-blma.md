@@ -4,22 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-blma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-blma/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-blma/container.yaml"
-updated_at: "2022-10-27 00:33:47.750941"
+updated_at: "2022-10-29 05:50:30.771641"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-blma"
 aliases:
- - ".bioconductor-hgu133a.db-post-link.sh"
- - ".bioconductor-hgu133a.db-pre-unlink.sh"
- - ".bioconductor-hgu133plus2.db-post-link.sh"
- - ".bioconductor-hgu133plus2.db-pre-unlink.sh"
- - ".bioconductor-kegg.db-post-link.sh"
- - ".bioconductor-kegg.db-pre-unlink.sh"
- - ".bioconductor-keggdzpathwaysgeo-post-link.sh"
- - ".bioconductor-keggdzpathwaysgeo-pre-unlink.sh"
+ - "c89"
+ - "c99"
+ - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-blma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-blma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blma", "latest": {"1.8.0--r36_1": "sha256:7b91129b99513cce5e35e6e44e305bd4ad18777769692214694a72aa28ddf5a8"}, "tags": {"1.8.0--r36_1": "sha256:7b91129b99513cce5e35e6e44e305bd4ad18777769692214694a72aa28ddf5a8"}, "docker": "quay.io/biocontainers/bioconductor-blma", "aliases": {".bioconductor-hgu133a.db-post-link.sh": "/usr/local/bin/.bioconductor-hgu133a.db-post-link.sh", ".bioconductor-hgu133a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh", ".bioconductor-hgu133plus2.db-post-link.sh": "/usr/local/bin/.bioconductor-hgu133plus2.db-post-link.sh", ".bioconductor-hgu133plus2.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu133plus2.db-pre-unlink.sh", ".bioconductor-kegg.db-post-link.sh": "/usr/local/bin/.bioconductor-kegg.db-post-link.sh", ".bioconductor-kegg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-kegg.db-pre-unlink.sh", ".bioconductor-keggdzpathwaysgeo-post-link.sh": "/usr/local/bin/.bioconductor-keggdzpathwaysgeo-post-link.sh", ".bioconductor-keggdzpathwaysgeo-pre-unlink.sh": "/usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-blma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-blma", "latest": {"1.8.0--r36_1": "sha256:7b91129b99513cce5e35e6e44e305bd4ad18777769692214694a72aa28ddf5a8"}, "tags": {"1.8.0--r36_1": "sha256:7b91129b99513cce5e35e6e44e305bd4ad18777769692214694a72aa28ddf5a8"}, "docker": "quay.io/biocontainers/bioconductor-blma", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-blma.
@@ -105,75 +100,30 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-hgu133a.db-post-link.sh
+#### c89
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-hgu133a.db-pre-unlink.sh
+#### c99
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133a.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
-#### .bioconductor-hgu133plus2.db-post-link.sh
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133plus2.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133plus2.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133plus2.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-hgu133plus2.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-hgu133plus2.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133plus2.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-hgu133plus2.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-kegg.db-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-kegg.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-kegg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-kegg.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-kegg.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-kegg.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-kegg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-kegg.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-keggdzpathwaysgeo-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-keggdzpathwaysgeo-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggdzpathwaysgeo-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggdzpathwaysgeo-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-keggdzpathwaysgeo-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-keggdzpathwaysgeo-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

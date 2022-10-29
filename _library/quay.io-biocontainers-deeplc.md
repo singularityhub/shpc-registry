@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/deeplc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeplc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deeplc/container.yaml"
-updated_at: "2022-10-27 00:32:03.889915"
+updated_at: "2022-10-29 05:48:15.518099"
 latest: "1.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/deeplc"
 aliases:
  - "deeplc"
  - "deeplc-gui"
+ - "2to3-3.9"
+ - "brotli"
+ - "cwebp"
+ - "dwebp"
+ - "estimator_ckpt_converter"
+ - "f2py3.9"
+ - "fonttools"
+ - "futurize"
+ - "gif2h5"
+ - "gif2rgb"
 versions:
  - "1.1.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for deeplc"
-config: {"url": "https://biocontainers.pro/tools/deeplc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeplc", "latest": {"1.1.2--pyhdfd78af_0": "sha256:ffd2beadc46a1f104fffcfd45a9be1ef8806f4a4b1189bad8da42a66820e3524"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:ffd2beadc46a1f104fffcfd45a9be1ef8806f4a4b1189bad8da42a66820e3524"}, "docker": "quay.io/biocontainers/deeplc", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui"}}
+config: {"url": "https://biocontainers.pro/tools/deeplc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deeplc", "latest": {"1.1.2--pyhdfd78af_0": "sha256:ffd2beadc46a1f104fffcfd45a9be1ef8806f4a4b1189bad8da42a66820e3524"}, "tags": {"1.1.2--pyhdfd78af_0": "sha256:ffd2beadc46a1f104fffcfd45a9be1ef8806f4a4b1189bad8da42a66820e3524"}, "docker": "quay.io/biocontainers/deeplc", "aliases": {"deeplc": "/usr/local/bin/deeplc", "deeplc-gui": "/usr/local/bin/deeplc-gui", "2to3-3.9": "/usr/local/bin/2to3-3.9", "brotli": "/usr/local/bin/brotli", "cwebp": "/usr/local/bin/cwebp", "dwebp": "/usr/local/bin/dwebp", "estimator_ckpt_converter": "/usr/local/bin/estimator_ckpt_converter", "f2py3.9": "/usr/local/bin/f2py3.9", "fonttools": "/usr/local/bin/fonttools", "futurize": "/usr/local/bin/futurize", "gif2h5": "/usr/local/bin/gif2h5", "gif2rgb": "/usr/local/bin/gif2rgb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deeplc.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/deeplc   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/deeplc-gui
 $ podman run --it --rm --entrypoint /usr/local/bin/deeplc-gui   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/deeplc-gui   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### brotli
+
+```bash
+$ singularity exec <container> /usr/local/bin/brotli
+$ podman run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/brotli   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/cwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dwebp
+
+```bash
+$ singularity exec <container> /usr/local/bin/dwebp
+$ podman run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dwebp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### estimator_ckpt_converter
+
+```bash
+$ singularity exec <container> /usr/local/bin/estimator_ckpt_converter
+$ podman run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/estimator_ckpt_converter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### fonttools
+
+```bash
+$ singularity exec <container> /usr/local/bin/fonttools
+$ podman run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/fonttools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### futurize
+
+```bash
+$ singularity exec <container> /usr/local/bin/futurize
+$ podman run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/futurize   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

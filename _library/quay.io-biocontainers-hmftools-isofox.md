@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/hmftools-isofox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-isofox/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-isofox/container.yaml"
-updated_at: "2022-10-27 00:21:42.680376"
+updated_at: "2022-10-29 05:34:30.453584"
 latest: "1.5--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hmftools-isofox"
 aliases:
  - "isofox"
+ - "aserver"
+ - "cups-config"
+ - "ippeveprinter"
+ - "ipptool"
+ - "jaotc"
+ - "jar"
+ - "jarsigner"
+ - "java"
+ - "javac"
+ - "javadoc"
 versions:
  - "1.5--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hmftools-isofox"
-config: {"url": "https://biocontainers.pro/tools/hmftools-isofox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-isofox", "latest": {"1.5--hdfd78af_0": "sha256:5d334f293ec92ff5472ee183df50b5bea22289fe2867baad9785af9229ebb6bf"}, "tags": {"1.5--hdfd78af_0": "sha256:5d334f293ec92ff5472ee183df50b5bea22289fe2867baad9785af9229ebb6bf"}, "docker": "quay.io/biocontainers/hmftools-isofox", "aliases": {"isofox": "/usr/local/bin/isofox"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-isofox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-isofox", "latest": {"1.5--hdfd78af_0": "sha256:5d334f293ec92ff5472ee183df50b5bea22289fe2867baad9785af9229ebb6bf"}, "tags": {"1.5--hdfd78af_0": "sha256:5d334f293ec92ff5472ee183df50b5bea22289fe2867baad9785af9229ebb6bf"}, "docker": "quay.io/biocontainers/hmftools-isofox", "aliases": {"isofox": "/usr/local/bin/isofox", "aserver": "/usr/local/bin/aserver", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jaotc": "/usr/local/bin/jaotc", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java", "javac": "/usr/local/bin/javac", "javadoc": "/usr/local/bin/javadoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-isofox.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/isofox
 $ podman run --it --rm --entrypoint /usr/local/bin/isofox   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/isofox   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cups-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/cups-config
+$ podman run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cups-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ippeveprinter
+
+```bash
+$ singularity exec <container> /usr/local/bin/ippeveprinter
+$ podman run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ippeveprinter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ipptool
+
+```bash
+$ singularity exec <container> /usr/local/bin/ipptool
+$ podman run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ipptool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javac
+
+```bash
+$ singularity exec <container> /usr/local/bin/javac
+$ podman run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javac   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### javadoc
+
+```bash
+$ singularity exec <container> /usr/local/bin/javadoc
+$ podman run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/javadoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

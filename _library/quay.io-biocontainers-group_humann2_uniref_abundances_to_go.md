@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/group_humann2_uniref_abundances_to_go"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/group_humann2_uniref_abundances_to_go/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/group_humann2_uniref_abundances_to_go/container.yaml"
-updated_at: "2022-10-27 00:37:18.045748"
+updated_at: "2022-10-29 05:55:14.734639"
 latest: "1.3.0--0"
 container_url: "https://biocontainers.pro/tools/group_humann2_uniref_abundances_to_go"
 aliases:
- - ".group_humann2_uniref_abundances_to_go-post-link.sh"
  - "compare_gos.py"
  - "download_metaphlan2_db.py"
  - "fetch_associations.py"
@@ -39,10 +38,20 @@ aliases:
  - "pyqi"
  - "wr_hier.py"
  - "wr_sections.py"
+ - "acyclic"
+ - "bcomps"
+ - "biom"
+ - "bowtie2"
+ - "bowtie2-align-l"
+ - "bowtie2-align-s"
+ - "bowtie2-build"
+ - "bowtie2-build-l"
+ - "bowtie2-build-s"
+ - "bowtie2-inspect"
 versions:
  - "1.3.0--0"
 description: "shpc-registry automated BioContainers addition for group_humann2_uniref_abundances_to_go"
-config: {"url": "https://biocontainers.pro/tools/group_humann2_uniref_abundances_to_go", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for group_humann2_uniref_abundances_to_go", "latest": {"1.3.0--0": "sha256:fb4bf29ac2192195177fb8e82607d2d340b33cddfc680fc527f1afe7736b72ac"}, "tags": {"1.3.0--0": "sha256:fb4bf29ac2192195177fb8e82607d2d340b33cddfc680fc527f1afe7736b72ac"}, "docker": "quay.io/biocontainers/group_humann2_uniref_abundances_to_go", "aliases": {".group_humann2_uniref_abundances_to_go-post-link.sh": "/usr/local/bin/.group_humann2_uniref_abundances_to_go-post-link.sh", "compare_gos.py": "/usr/local/bin/compare_gos.py", "download_metaphlan2_db.py": "/usr/local/bin/download_metaphlan2_db.py", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "go_plot.py": "/usr/local/bin/go_plot.py", "group_humann2_uniref_abundances_to_GO.sh": "/usr/local/bin/group_humann2_uniref_abundances_to_GO.sh", "humann2": "/usr/local/bin/humann2", "humann2_blastx_coverage": "/usr/local/bin/humann2_blastx_coverage", "humann2_config": "/usr/local/bin/humann2_config", "humann2_databases": "/usr/local/bin/humann2_databases", "humann2_humann1_kegg": "/usr/local/bin/humann2_humann1_kegg", "humann2_join_tables": "/usr/local/bin/humann2_join_tables", "humann2_merge_abundance_tables": "/usr/local/bin/humann2_merge_abundance_tables", "humann2_reduce_table": "/usr/local/bin/humann2_reduce_table", "humann2_regroup_table": "/usr/local/bin/humann2_regroup_table", "humann2_rename_table": "/usr/local/bin/humann2_rename_table", "humann2_renorm_table": "/usr/local/bin/humann2_renorm_table", "humann2_rna_dna_norm": "/usr/local/bin/humann2_rna_dna_norm", "humann2_split_table": "/usr/local/bin/humann2_split_table", "humann2_strain_profiler": "/usr/local/bin/humann2_strain_profiler", "humann2_test": "/usr/local/bin/humann2_test", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "metaphlan2.py": "/usr/local/bin/metaphlan2.py", "metaphlan2krona.py": "/usr/local/bin/metaphlan2krona.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "pyqi": "/usr/local/bin/pyqi", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py"}}
+config: {"url": "https://biocontainers.pro/tools/group_humann2_uniref_abundances_to_go", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for group_humann2_uniref_abundances_to_go", "latest": {"1.3.0--0": "sha256:fb4bf29ac2192195177fb8e82607d2d340b33cddfc680fc527f1afe7736b72ac"}, "tags": {"1.3.0--0": "sha256:fb4bf29ac2192195177fb8e82607d2d340b33cddfc680fc527f1afe7736b72ac"}, "docker": "quay.io/biocontainers/group_humann2_uniref_abundances_to_go", "aliases": {"compare_gos.py": "/usr/local/bin/compare_gos.py", "download_metaphlan2_db.py": "/usr/local/bin/download_metaphlan2_db.py", "fetch_associations.py": "/usr/local/bin/fetch_associations.py", "find_enrichment.py": "/usr/local/bin/find_enrichment.py", "go_plot.py": "/usr/local/bin/go_plot.py", "group_humann2_uniref_abundances_to_GO.sh": "/usr/local/bin/group_humann2_uniref_abundances_to_GO.sh", "humann2": "/usr/local/bin/humann2", "humann2_blastx_coverage": "/usr/local/bin/humann2_blastx_coverage", "humann2_config": "/usr/local/bin/humann2_config", "humann2_databases": "/usr/local/bin/humann2_databases", "humann2_humann1_kegg": "/usr/local/bin/humann2_humann1_kegg", "humann2_join_tables": "/usr/local/bin/humann2_join_tables", "humann2_merge_abundance_tables": "/usr/local/bin/humann2_merge_abundance_tables", "humann2_reduce_table": "/usr/local/bin/humann2_reduce_table", "humann2_regroup_table": "/usr/local/bin/humann2_regroup_table", "humann2_rename_table": "/usr/local/bin/humann2_rename_table", "humann2_renorm_table": "/usr/local/bin/humann2_renorm_table", "humann2_rna_dna_norm": "/usr/local/bin/humann2_rna_dna_norm", "humann2_split_table": "/usr/local/bin/humann2_split_table", "humann2_strain_profiler": "/usr/local/bin/humann2_strain_profiler", "humann2_test": "/usr/local/bin/humann2_test", "map_to_slim.py": "/usr/local/bin/map_to_slim.py", "metaphlan2.py": "/usr/local/bin/metaphlan2.py", "metaphlan2krona.py": "/usr/local/bin/metaphlan2krona.py", "ncbi_gene_results_to_python.py": "/usr/local/bin/ncbi_gene_results_to_python.py", "plot_go_term.py": "/usr/local/bin/plot_go_term.py", "prt_terms.py": "/usr/local/bin/prt_terms.py", "pyqi": "/usr/local/bin/pyqi", "wr_hier.py": "/usr/local/bin/wr_hier.py", "wr_sections.py": "/usr/local/bin/wr_sections.py", "acyclic": "/usr/local/bin/acyclic", "bcomps": "/usr/local/bin/bcomps", "biom": "/usr/local/bin/biom", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s", "bowtie2-inspect": "/usr/local/bin/bowtie2-inspect"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/group_humann2_uniref_abundances_to_go.
@@ -125,15 +134,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .group_humann2_uniref_abundances_to_go-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.group_humann2_uniref_abundances_to_go-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.group_humann2_uniref_abundances_to_go-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.group_humann2_uniref_abundances_to_go-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -404,6 +404,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/wr_hier.py   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/wr_sections.py
 $ podman run --it --rm --entrypoint /usr/local/bin/wr_sections.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/wr_sections.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### acyclic
+
+```bash
+$ singularity exec <container> /usr/local/bin/acyclic
+$ podman run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/acyclic   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcomps
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcomps
+$ podman run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcomps   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### biom
+
+```bash
+$ singularity exec <container> /usr/local/bin/biom
+$ podman run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/biom   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-inspect
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-inspect
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-inspect   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

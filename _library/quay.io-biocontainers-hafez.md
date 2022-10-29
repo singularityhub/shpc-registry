@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hafez"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hafez/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hafez/container.yaml"
-updated_at: "2022-10-27 00:19:36.502591"
+updated_at: "2022-10-29 05:31:44.947154"
 latest: "1.0.2--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/hafez"
 aliases:
@@ -35,10 +35,20 @@ aliases:
  - "hhsearch"
  - "hhsearch_omp"
  - "mosdepth"
+ - "a_sample_mt.sh"
+ - "accn-at-a-time"
+ - "ace2sam"
+ - "addadapters.sh"
+ - "addssu.sh"
+ - "adjusthomopolymers.sh"
+ - "align-columns"
+ - "alimask"
+ - "alltoall.sh"
+ - "amino-acid-composition"
 versions:
  - "1.0.2--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for hafez"
-config: {"url": "https://biocontainers.pro/tools/hafez", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hafez", "latest": {"1.0.2--pyh5e36f6f_0": "sha256:e8cd8b4c86e8c1df6d72ba0c3d6394587d5ec87b97b6b1cf3723153333f81049"}, "tags": {"1.0.2--pyh5e36f6f_0": "sha256:e8cd8b4c86e8c1df6d72ba0c3d6394587d5ec87b97b6b1cf3723153333f81049"}, "docker": "quay.io/biocontainers/hafez", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hafeZ.py": "/usr/local/bin/hafeZ.py", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "mosdepth": "/usr/local/bin/mosdepth"}}
+config: {"url": "https://biocontainers.pro/tools/hafez", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hafez", "latest": {"1.0.2--pyh5e36f6f_0": "sha256:e8cd8b4c86e8c1df6d72ba0c3d6394587d5ec87b97b6b1cf3723153333f81049"}, "tags": {"1.0.2--pyh5e36f6f_0": "sha256:e8cd8b4c86e8c1df6d72ba0c3d6394587d5ec87b97b6b1cf3723153333f81049"}, "docker": "quay.io/biocontainers/hafez", "aliases": {"a3m_database_extract": "/usr/local/bin/a3m_database_extract", "a3m_database_filter": "/usr/local/bin/a3m_database_filter", "a3m_database_reduce": "/usr/local/bin/a3m_database_reduce", "a3m_extract": "/usr/local/bin/a3m_extract", "a3m_reduce": "/usr/local/bin/a3m_reduce", "cstranslate": "/usr/local/bin/cstranslate", "ffindex_apply": "/usr/local/bin/ffindex_apply", "ffindex_build": "/usr/local/bin/ffindex_build", "ffindex_from_fasta": "/usr/local/bin/ffindex_from_fasta", "ffindex_from_fasta_with_split": "/usr/local/bin/ffindex_from_fasta_with_split", "ffindex_get": "/usr/local/bin/ffindex_get", "ffindex_modify": "/usr/local/bin/ffindex_modify", "ffindex_order": "/usr/local/bin/ffindex_order", "ffindex_reduce": "/usr/local/bin/ffindex_reduce", "ffindex_unpack": "/usr/local/bin/ffindex_unpack", "hafeZ.py": "/usr/local/bin/hafeZ.py", "hhalign": "/usr/local/bin/hhalign", "hhalign_omp": "/usr/local/bin/hhalign_omp", "hhblits": "/usr/local/bin/hhblits", "hhblits_ca3m": "/usr/local/bin/hhblits_ca3m", "hhblits_omp": "/usr/local/bin/hhblits_omp", "hhconsensus": "/usr/local/bin/hhconsensus", "hhfilter": "/usr/local/bin/hhfilter", "hhmake": "/usr/local/bin/hhmake", "hhsearch": "/usr/local/bin/hhsearch", "hhsearch_omp": "/usr/local/bin/hhsearch_omp", "mosdepth": "/usr/local/bin/mosdepth", "a_sample_mt.sh": "/usr/local/bin/a_sample_mt.sh", "accn-at-a-time": "/usr/local/bin/accn-at-a-time", "ace2sam": "/usr/local/bin/ace2sam", "addadapters.sh": "/usr/local/bin/addadapters.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "align-columns": "/usr/local/bin/align-columns", "alimask": "/usr/local/bin/alimask", "alltoall.sh": "/usr/local/bin/alltoall.sh", "amino-acid-composition": "/usr/local/bin/amino-acid-composition"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hafez.
@@ -364,6 +374,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/hhsearch_omp   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/mosdepth
 $ podman run --it --rm --entrypoint /usr/local/bin/mosdepth   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/mosdepth   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### a_sample_mt.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/a_sample_mt.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/a_sample_mt.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### accn-at-a-time
+
+```bash
+$ singularity exec <container> /usr/local/bin/accn-at-a-time
+$ podman run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/accn-at-a-time   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### addadapters.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/addadapters.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/addadapters.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### addssu.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/addssu.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/addssu.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### adjusthomopolymers.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/adjusthomopolymers.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/adjusthomopolymers.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align-columns
+
+```bash
+$ singularity exec <container> /usr/local/bin/align-columns
+$ podman run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align-columns   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alltoall.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/alltoall.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alltoall.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

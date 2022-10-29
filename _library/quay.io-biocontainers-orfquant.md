@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/orfquant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orfquant/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/orfquant/container.yaml"
-updated_at: "2022-10-27 00:37:10.765707"
+updated_at: "2022-10-29 05:55:04.922334"
 latest: "1.1.0--r41h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/orfquant"
-
+aliases:
+ - "pandoc"
 versions:
  - "1.1.0--r41h9ee0642_3"
 description: "shpc-registry automated BioContainers addition for orfquant"
-config: {"url": "https://biocontainers.pro/tools/orfquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfquant", "latest": {"1.1.0--r41h9ee0642_3": "sha256:7b4caab52c120bceb43065a9295adb12d376c509ece94af87a46bfbc4a17c74f"}, "tags": {"1.1.0--r41h9ee0642_3": "sha256:7b4caab52c120bceb43065a9295adb12d376c509ece94af87a46bfbc4a17c74f"}, "docker": "quay.io/biocontainers/orfquant"}
+config: {"url": "https://biocontainers.pro/tools/orfquant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for orfquant", "latest": {"1.1.0--r41h9ee0642_3": "sha256:7b4caab52c120bceb43065a9295adb12d376c509ece94af87a46bfbc4a17c74f"}, "tags": {"1.1.0--r41h9ee0642_3": "sha256:7b4caab52c120bceb43065a9295adb12d376c509ece94af87a46bfbc4a17c74f"}, "docker": "quay.io/biocontainers/orfquant", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/orfquant.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### orfquant
+#### pandoc
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/pandoc
+$ podman run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pandoc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

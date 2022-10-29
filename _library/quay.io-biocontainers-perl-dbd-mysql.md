@@ -4,15 +4,21 @@ name:  "quay.io/biocontainers/perl-dbd-mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-mysql/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-mysql/container.yaml"
-updated_at: "2022-10-27 00:24:52.181988"
+updated_at: "2022-10-29 05:38:42.555819"
 latest: "4.050--pl5321h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/perl-dbd-mysql"
 aliases:
  - "use-devel-checklib"
+ - "dbilogstrip"
+ - "dbiprof"
+ - "dbiproxy"
+ - "my_print_defaults"
+ - "mysql_config"
+ - "perror"
 versions:
  - "4.050--pl5321h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for perl-dbd-mysql"
-config: {"url": "https://biocontainers.pro/tools/perl-dbd-mysql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-mysql", "latest": {"4.050--pl5321h9f5acd7_0": "sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a"}, "tags": {"4.050--pl5321h9f5acd7_0": "sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a"}, "docker": "quay.io/biocontainers/perl-dbd-mysql", "aliases": {"use-devel-checklib": "/usr/local/bin/use-devel-checklib"}}
+config: {"url": "https://biocontainers.pro/tools/perl-dbd-mysql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-mysql", "latest": {"4.050--pl5321h9f5acd7_0": "sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a"}, "tags": {"4.050--pl5321h9f5acd7_0": "sha256:799bad957a8610d11b293d4630b0b0c244533ecd86394eb1c3c62c5d7f20db5a"}, "docker": "quay.io/biocontainers/perl-dbd-mysql", "aliases": {"use-devel-checklib": "/usr/local/bin/use-devel-checklib", "dbilogstrip": "/usr/local/bin/dbilogstrip", "dbiprof": "/usr/local/bin/dbiprof", "dbiproxy": "/usr/local/bin/dbiproxy", "my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-dbd-mysql.
@@ -104,6 +110,60 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/use-devel-checklib
 $ podman run --it --rm --entrypoint /usr/local/bin/use-devel-checklib   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/use-devel-checklib   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbilogstrip
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbilogstrip
+$ podman run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbilogstrip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbiprof
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbiprof
+$ podman run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbiprof   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### dbiproxy
+
+```bash
+$ singularity exec <container> /usr/local/bin/dbiproxy
+$ podman run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/dbiproxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### my_print_defaults
+
+```bash
+$ singularity exec <container> /usr/local/bin/my_print_defaults
+$ podman run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/my_print_defaults   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mysql_config
+
+```bash
+$ singularity exec <container> /usr/local/bin/mysql_config
+$ podman run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mysql_config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### perror
+
+```bash
+$ singularity exec <container> /usr/local/bin/perror
+$ podman run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perror   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

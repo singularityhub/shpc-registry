@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mirfix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirfix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mirfix/container.yaml"
-updated_at: "2022-10-27 00:33:45.621034"
+updated_at: "2022-10-29 05:50:28.096215"
 latest: "2.1.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirfix"
 aliases:
@@ -12,10 +12,20 @@ aliases:
  - "dialign2-2"
  - "runMIRfix.sh"
  - "testMIRfix.sh"
+ - "2to3-3.8"
+ - "AnalyseDists"
+ - "AnalyseSeqs"
+ - "Kinfold"
+ - "RNA2Dfold"
+ - "RNALalifold"
+ - "RNALfold"
+ - "RNAPKplex"
+ - "RNAaliduplex"
+ - "RNAalifold"
 versions:
  - "2.1.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mirfix"
-config: {"url": "https://biocontainers.pro/tools/mirfix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirfix", "latest": {"2.1.0--hdfd78af_0": "sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55"}, "tags": {"2.1.0--hdfd78af_0": "sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55"}, "docker": "quay.io/biocontainers/mirfix", "aliases": {"MIRfix.py": "/usr/local/bin/MIRfix.py", "dialign2-2": "/usr/local/bin/dialign2-2", "runMIRfix.sh": "/usr/local/bin/runMIRfix.sh", "testMIRfix.sh": "/usr/local/bin/testMIRfix.sh"}}
+config: {"url": "https://biocontainers.pro/tools/mirfix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirfix", "latest": {"2.1.0--hdfd78af_0": "sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55"}, "tags": {"2.1.0--hdfd78af_0": "sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55"}, "docker": "quay.io/biocontainers/mirfix", "aliases": {"MIRfix.py": "/usr/local/bin/MIRfix.py", "dialign2-2": "/usr/local/bin/dialign2-2", "runMIRfix.sh": "/usr/local/bin/runMIRfix.sh", "testMIRfix.sh": "/usr/local/bin/testMIRfix.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "Kinfold": "/usr/local/bin/Kinfold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNALfold": "/usr/local/bin/RNALfold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mirfix.
@@ -134,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/runMIRfix.sh   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/testMIRfix.sh
 $ podman run --it --rm --entrypoint /usr/local/bin/testMIRfix.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/testMIRfix.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnalyseDists
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnalyseDists
+$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnalyseSeqs
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnalyseSeqs
+$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Kinfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/Kinfold
+$ podman run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNA2Dfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNA2Dfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNALalifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNALalifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNALfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNALfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAPKplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAPKplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAaliduplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAaliduplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAalifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAalifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

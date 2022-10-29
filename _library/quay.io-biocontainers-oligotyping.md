@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oligotyping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oligotyping/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/oligotyping/container.yaml"
-updated_at: "2022-10-27 00:30:53.397323"
+updated_at: "2022-10-29 05:46:42.028582"
 latest: "2.1--py27_0"
 container_url: "https://biocontainers.pro/tools/oligotyping"
 aliases:
@@ -22,26 +22,18 @@ aliases:
  - "gdal2tiles.py"
  - "gdal2xyz.py"
  - "gdal_auth.py"
- - "gdal_calc.dox"
  - "gdal_calc.py"
- - "gdal_edit.dox"
  - "gdal_edit.py"
- - "gdal_fillnodata.dox"
  - "gdal_fillnodata.py"
  - "gdal_merge.py"
- - "gdal_polygonize.dox"
  - "gdal_polygonize.py"
- - "gdal_proximity.dox"
  - "gdal_proximity.py"
  - "gdal_retile.py"
- - "gdal_sieve.dox"
  - "gdal_sieve.py"
  - "gdalchksum.py"
- - "gdalcompare.dox"
  - "gdalcompare.py"
  - "gdalident.py"
  - "gdalimport.py"
- - "gdalmove.dox"
  - "gdalmove.py"
  - "gdalserver"
  - "mkgraticule.py"
@@ -87,10 +79,20 @@ aliases:
  - "pg_resetxlog"
  - "pg_xlogdump"
  - "rgb2pct.py"
+ - "CreateDOMDocument"
+ - "DOMCount"
+ - "DOMPrint"
+ - "EnumVal"
+ - "MemParse"
+ - "PParse"
+ - "PSVIWriter"
+ - "Redirect"
+ - "SAX2Count"
+ - "SAX2Print"
 versions:
  - "2.1--py27_0"
 description: "shpc-registry automated BioContainers addition for oligotyping"
-config: {"url": "https://biocontainers.pro/tools/oligotyping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oligotyping", "latest": {"2.1--py27_0": "sha256:966f6a8c85340781122687f89cd992c61604faeff87fef1bf9fd67bf7139d5a9"}, "tags": {"2.1--py27_0": "sha256:966f6a8c85340781122687f89cd992c61604faeff87fef1bf9fd67bf7139d5a9"}, "docker": "quay.io/biocontainers/oligotyping", "aliases": {"createlang": "/usr/local/bin/createlang", "decompose": "/usr/local/bin/decompose", "django-admin": "/usr/local/bin/django-admin", "django-admin.py": "/usr/local/bin/django-admin.py", "django-admin.pyc": "/usr/local/bin/django-admin.pyc", "droplang": "/usr/local/bin/droplang", "entropy-analysis": "/usr/local/bin/entropy-analysis", "epsg_tr.py": "/usr/local/bin/epsg_tr.py", "esri2wkt.py": "/usr/local/bin/esri2wkt.py", "gcps2vec.py": "/usr/local/bin/gcps2vec.py", "gcps2wld.py": "/usr/local/bin/gcps2wld.py", "gdal2tiles.py": "/usr/local/bin/gdal2tiles.py", "gdal2xyz.py": "/usr/local/bin/gdal2xyz.py", "gdal_auth.py": "/usr/local/bin/gdal_auth.py", "gdal_calc.dox": "/usr/local/bin/gdal_calc.dox", "gdal_calc.py": "/usr/local/bin/gdal_calc.py", "gdal_edit.dox": "/usr/local/bin/gdal_edit.dox", "gdal_edit.py": "/usr/local/bin/gdal_edit.py", "gdal_fillnodata.dox": "/usr/local/bin/gdal_fillnodata.dox", "gdal_fillnodata.py": "/usr/local/bin/gdal_fillnodata.py", "gdal_merge.py": "/usr/local/bin/gdal_merge.py", "gdal_polygonize.dox": "/usr/local/bin/gdal_polygonize.dox", "gdal_polygonize.py": "/usr/local/bin/gdal_polygonize.py", "gdal_proximity.dox": "/usr/local/bin/gdal_proximity.dox", "gdal_proximity.py": "/usr/local/bin/gdal_proximity.py", "gdal_retile.py": "/usr/local/bin/gdal_retile.py", "gdal_sieve.dox": "/usr/local/bin/gdal_sieve.dox", "gdal_sieve.py": "/usr/local/bin/gdal_sieve.py", "gdalchksum.py": "/usr/local/bin/gdalchksum.py", "gdalcompare.dox": "/usr/local/bin/gdalcompare.dox", "gdalcompare.py": "/usr/local/bin/gdalcompare.py", "gdalident.py": "/usr/local/bin/gdalident.py", "gdalimport.py": "/usr/local/bin/gdalimport.py", "gdalmove.dox": "/usr/local/bin/gdalmove.dox", "gdalmove.py": "/usr/local/bin/gdalmove.py", "gdalserver": "/usr/local/bin/gdalserver", "mkgraticule.py": "/usr/local/bin/mkgraticule.py", "nad2bin": "/usr/local/bin/nad2bin", "o-bars-for-each-column.R": "/usr/local/bin/o-bars-for-each-column.R", "o-boxplots.R": "/usr/local/bin/o-boxplots.R", "o-cluster-analysis.R": "/usr/local/bin/o-cluster-analysis.R", "o-create-GG-alignment-template-from-taxon": "/usr/local/bin/o-create-GG-alignment-template-from-taxon", "o-fasta-length-distribution": "/usr/local/bin/o-fasta-length-distribution", "o-gen-dicts-for-qual-stats": "/usr/local/bin/o-gen-dicts-for-qual-stats", "o-gen-stackbar-with-sets-from-ENVIRONMENT": "/usr/local/bin/o-gen-stackbar-with-sets-from-ENVIRONMENT", "o-generate-consensus-from-alignment": "/usr/local/bin/o-generate-consensus-from-alignment", "o-generate-environment-from-matrix-counts": "/usr/local/bin/o-generate-environment-from-matrix-counts", "o-generate-exclusive-figures": "/usr/local/bin/o-generate-exclusive-figures", "o-generate-gephi-network-file": "/usr/local/bin/o-generate-gephi-network-file", "o-generate-html-output": "/usr/local/bin/o-generate-html-output", "o-generate-matching-qual-file": "/usr/local/bin/o-generate-matching-qual-file", "o-generate-matrix-files-from-ENVIRONMENT": "/usr/local/bin/o-generate-matrix-files-from-ENVIRONMENT", "o-generate-oligo-base-networks": "/usr/local/bin/o-generate-oligo-base-networks", "o-get-reads-from-fasta": "/usr/local/bin/o-get-reads-from-fasta", "o-get-sample-info-from-fasta": "/usr/local/bin/o-get-sample-info-from-fasta", "o-heatmap.R": "/usr/local/bin/o-heatmap.R", "o-keep-or-remove-samples-from-fasta": "/usr/local/bin/o-keep-or-remove-samples-from-fasta", "o-lines-for-each-column.R": "/usr/local/bin/o-lines-for-each-column.R", "o-metaMDS-analysis-with-metadata.R": "/usr/local/bin/o-metaMDS-analysis-with-metadata.R", "o-metaMDS-analysis.R": "/usr/local/bin/o-metaMDS-analysis.R", "o-pad-with-gaps": "/usr/local/bin/o-pad-with-gaps", "o-populate-datasets-from-VAMPS-download": "/usr/local/bin/o-populate-datasets-from-VAMPS-download", "o-remove-gaps": "/usr/local/bin/o-remove-gaps", "o-sequence-distances": "/usr/local/bin/o-sequence-distances", "o-smart-trim": "/usr/local/bin/o-smart-trim", "o-stackbar.R": "/usr/local/bin/o-stackbar.R", "o-subsample-fasta-file": "/usr/local/bin/o-subsample-fasta-file", "o-subsample-matrix-file": "/usr/local/bin/o-subsample-matrix-file", "o-treat-homopolymer-regions": "/usr/local/bin/o-treat-homopolymer-regions", "o-trim": "/usr/local/bin/o-trim", "o-trim-uninformative-columns-from-alignment": "/usr/local/bin/o-trim-uninformative-columns-from-alignment", "o-visualize-distance-matrix.R": "/usr/local/bin/o-visualize-distance-matrix.R", "o-visualize-qual-scores-along-columns.py": "/usr/local/bin/o-visualize-qual-scores-along-columns.py", "oligotype": "/usr/local/bin/oligotype", "pct2rgb.py": "/usr/local/bin/pct2rgb.py", "pg_receivexlog": "/usr/local/bin/pg_receivexlog", "pg_resetxlog": "/usr/local/bin/pg_resetxlog", "pg_xlogdump": "/usr/local/bin/pg_xlogdump", "rgb2pct.py": "/usr/local/bin/rgb2pct.py"}}
+config: {"url": "https://biocontainers.pro/tools/oligotyping", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oligotyping", "latest": {"2.1--py27_0": "sha256:966f6a8c85340781122687f89cd992c61604faeff87fef1bf9fd67bf7139d5a9"}, "tags": {"2.1--py27_0": "sha256:966f6a8c85340781122687f89cd992c61604faeff87fef1bf9fd67bf7139d5a9"}, "docker": "quay.io/biocontainers/oligotyping", "aliases": {"createlang": "/usr/local/bin/createlang", "decompose": "/usr/local/bin/decompose", "django-admin": "/usr/local/bin/django-admin", "django-admin.py": "/usr/local/bin/django-admin.py", "django-admin.pyc": "/usr/local/bin/django-admin.pyc", "droplang": "/usr/local/bin/droplang", "entropy-analysis": "/usr/local/bin/entropy-analysis", "epsg_tr.py": "/usr/local/bin/epsg_tr.py", "esri2wkt.py": "/usr/local/bin/esri2wkt.py", "gcps2vec.py": "/usr/local/bin/gcps2vec.py", "gcps2wld.py": "/usr/local/bin/gcps2wld.py", "gdal2tiles.py": "/usr/local/bin/gdal2tiles.py", "gdal2xyz.py": "/usr/local/bin/gdal2xyz.py", "gdal_auth.py": "/usr/local/bin/gdal_auth.py", "gdal_calc.py": "/usr/local/bin/gdal_calc.py", "gdal_edit.py": "/usr/local/bin/gdal_edit.py", "gdal_fillnodata.py": "/usr/local/bin/gdal_fillnodata.py", "gdal_merge.py": "/usr/local/bin/gdal_merge.py", "gdal_polygonize.py": "/usr/local/bin/gdal_polygonize.py", "gdal_proximity.py": "/usr/local/bin/gdal_proximity.py", "gdal_retile.py": "/usr/local/bin/gdal_retile.py", "gdal_sieve.py": "/usr/local/bin/gdal_sieve.py", "gdalchksum.py": "/usr/local/bin/gdalchksum.py", "gdalcompare.py": "/usr/local/bin/gdalcompare.py", "gdalident.py": "/usr/local/bin/gdalident.py", "gdalimport.py": "/usr/local/bin/gdalimport.py", "gdalmove.py": "/usr/local/bin/gdalmove.py", "gdalserver": "/usr/local/bin/gdalserver", "mkgraticule.py": "/usr/local/bin/mkgraticule.py", "nad2bin": "/usr/local/bin/nad2bin", "o-bars-for-each-column.R": "/usr/local/bin/o-bars-for-each-column.R", "o-boxplots.R": "/usr/local/bin/o-boxplots.R", "o-cluster-analysis.R": "/usr/local/bin/o-cluster-analysis.R", "o-create-GG-alignment-template-from-taxon": "/usr/local/bin/o-create-GG-alignment-template-from-taxon", "o-fasta-length-distribution": "/usr/local/bin/o-fasta-length-distribution", "o-gen-dicts-for-qual-stats": "/usr/local/bin/o-gen-dicts-for-qual-stats", "o-gen-stackbar-with-sets-from-ENVIRONMENT": "/usr/local/bin/o-gen-stackbar-with-sets-from-ENVIRONMENT", "o-generate-consensus-from-alignment": "/usr/local/bin/o-generate-consensus-from-alignment", "o-generate-environment-from-matrix-counts": "/usr/local/bin/o-generate-environment-from-matrix-counts", "o-generate-exclusive-figures": "/usr/local/bin/o-generate-exclusive-figures", "o-generate-gephi-network-file": "/usr/local/bin/o-generate-gephi-network-file", "o-generate-html-output": "/usr/local/bin/o-generate-html-output", "o-generate-matching-qual-file": "/usr/local/bin/o-generate-matching-qual-file", "o-generate-matrix-files-from-ENVIRONMENT": "/usr/local/bin/o-generate-matrix-files-from-ENVIRONMENT", "o-generate-oligo-base-networks": "/usr/local/bin/o-generate-oligo-base-networks", "o-get-reads-from-fasta": "/usr/local/bin/o-get-reads-from-fasta", "o-get-sample-info-from-fasta": "/usr/local/bin/o-get-sample-info-from-fasta", "o-heatmap.R": "/usr/local/bin/o-heatmap.R", "o-keep-or-remove-samples-from-fasta": "/usr/local/bin/o-keep-or-remove-samples-from-fasta", "o-lines-for-each-column.R": "/usr/local/bin/o-lines-for-each-column.R", "o-metaMDS-analysis-with-metadata.R": "/usr/local/bin/o-metaMDS-analysis-with-metadata.R", "o-metaMDS-analysis.R": "/usr/local/bin/o-metaMDS-analysis.R", "o-pad-with-gaps": "/usr/local/bin/o-pad-with-gaps", "o-populate-datasets-from-VAMPS-download": "/usr/local/bin/o-populate-datasets-from-VAMPS-download", "o-remove-gaps": "/usr/local/bin/o-remove-gaps", "o-sequence-distances": "/usr/local/bin/o-sequence-distances", "o-smart-trim": "/usr/local/bin/o-smart-trim", "o-stackbar.R": "/usr/local/bin/o-stackbar.R", "o-subsample-fasta-file": "/usr/local/bin/o-subsample-fasta-file", "o-subsample-matrix-file": "/usr/local/bin/o-subsample-matrix-file", "o-treat-homopolymer-regions": "/usr/local/bin/o-treat-homopolymer-regions", "o-trim": "/usr/local/bin/o-trim", "o-trim-uninformative-columns-from-alignment": "/usr/local/bin/o-trim-uninformative-columns-from-alignment", "o-visualize-distance-matrix.R": "/usr/local/bin/o-visualize-distance-matrix.R", "o-visualize-qual-scores-along-columns.py": "/usr/local/bin/o-visualize-qual-scores-along-columns.py", "oligotype": "/usr/local/bin/oligotype", "pct2rgb.py": "/usr/local/bin/pct2rgb.py", "pg_receivexlog": "/usr/local/bin/pg_receivexlog", "pg_resetxlog": "/usr/local/bin/pg_resetxlog", "pg_xlogdump": "/usr/local/bin/pg_xlogdump", "rgb2pct.py": "/usr/local/bin/rgb2pct.py", "CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oligotyping.
@@ -302,15 +304,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdal_auth.py   -v ${PWD} -w $
 ```
 
 
-#### gdal_calc.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdal_calc.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdal_calc.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdal_calc.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gdal_calc.py
 
 ```bash
@@ -320,30 +313,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdal_calc.py   -v ${PWD} -w $
 ```
 
 
-#### gdal_edit.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdal_edit.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdal_edit.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdal_edit.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gdal_edit.py
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gdal_edit.py
 $ podman run --it --rm --entrypoint /usr/local/bin/gdal_edit.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gdal_edit.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdal_fillnodata.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdal_fillnodata.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdal_fillnodata.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdal_fillnodata.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -365,30 +340,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdal_merge.py   -v ${PWD} -w 
 ```
 
 
-#### gdal_polygonize.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdal_polygonize.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdal_polygonize.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdal_polygonize.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gdal_polygonize.py
 
 ```bash
 $ singularity exec <container> /usr/local/bin/gdal_polygonize.py
 $ podman run --it --rm --entrypoint /usr/local/bin/gdal_polygonize.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gdal_polygonize.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdal_proximity.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdal_proximity.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdal_proximity.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdal_proximity.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -410,15 +367,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdal_retile.py   -v ${PWD} -w
 ```
 
 
-#### gdal_sieve.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdal_sieve.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdal_sieve.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdal_sieve.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### gdal_sieve.py
 
 ```bash
@@ -434,15 +382,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdal_sieve.py   -v ${PWD} -w 
 $ singularity exec <container> /usr/local/bin/gdalchksum.py
 $ podman run --it --rm --entrypoint /usr/local/bin/gdalchksum.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gdalchksum.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdalcompare.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdalcompare.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdalcompare.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdalcompare.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -470,15 +409,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gdalident.py   -v ${PWD} -w $
 $ singularity exec <container> /usr/local/bin/gdalimport.py
 $ podman run --it --rm --entrypoint /usr/local/bin/gdalimport.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gdalimport.py   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### gdalmove.dox
-
-```bash
-$ singularity exec <container> /usr/local/bin/gdalmove.dox
-$ podman run --it --rm --entrypoint /usr/local/bin/gdalmove.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/gdalmove.dox   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -884,6 +814,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pg_xlogdump   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/rgb2pct.py
 $ podman run --it --rm --entrypoint /usr/local/bin/rgb2pct.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rgb2pct.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### CreateDOMDocument
+
+```bash
+$ singularity exec <container> /usr/local/bin/CreateDOMDocument
+$ podman run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/CreateDOMDocument   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMCount
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMCount
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMCount   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### DOMPrint
+
+```bash
+$ singularity exec <container> /usr/local/bin/DOMPrint
+$ podman run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/DOMPrint   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### EnumVal
+
+```bash
+$ singularity exec <container> /usr/local/bin/EnumVal
+$ podman run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/EnumVal   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### MemParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/MemParse
+$ podman run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/MemParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PParse
+
+```bash
+$ singularity exec <container> /usr/local/bin/PParse
+$ podman run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PParse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### PSVIWriter
+
+```bash
+$ singularity exec <container> /usr/local/bin/PSVIWriter
+$ podman run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/PSVIWriter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Redirect
+
+```bash
+$ singularity exec <container> /usr/local/bin/Redirect
+$ podman run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Redirect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Count
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Count
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Count   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SAX2Print
+
+```bash
+$ singularity exec <container> /usr/local/bin/SAX2Print
+$ podman run --it --rm --entrypoint /usr/local/bin/SAX2Print   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SAX2Print   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

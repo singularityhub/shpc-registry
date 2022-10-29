@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-structuralvariantannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-structuralvariantannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-structuralvariantannotation/container.yaml"
-updated_at: "2022-10-27 00:30:59.376762"
+updated_at: "2022-10-29 05:46:49.549081"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-structuralvariantannotation"
-
+aliases:
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-structuralvariantannotation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-structuralvariantannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structuralvariantannotation", "latest": {"1.8.0--r41hdfd78af_0": "sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f"}, "docker": "quay.io/biocontainers/bioconductor-structuralvariantannotation"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-structuralvariantannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structuralvariantannotation", "latest": {"1.8.0--r41hdfd78af_0": "sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f"}, "docker": "quay.io/biocontainers/bioconductor-structuralvariantannotation", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-structuralvariantannotation.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-structuralvariantannotation
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

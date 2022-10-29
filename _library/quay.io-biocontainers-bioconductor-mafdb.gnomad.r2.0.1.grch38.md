@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38/container.yaml"
-updated_at: "2022-10-27 00:33:19.962234"
+updated_at: "2022-10-29 05:49:54.533067"
 latest: "3.9.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.gnomad.r2.0.1.grch38"
 aliases:
- - ".bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh"
- - ".bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh"
+ - "gio-launch-desktop"
 versions:
  - "3.9.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomad.r2.0.1.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomad.r2.0.1.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomad.r2.0.1.grch38", "latest": {"3.9.0--r36_1": "sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3"}, "tags": {"3.9.0--r36_1": "sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38", "aliases": {".bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh": "/usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh", ".bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh": "/usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mafdb.gnomad.r2.0.1.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mafdb.gnomad.r2.0.1.grch38", "latest": {"3.9.0--r36_1": "sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3"}, "tags": {"3.9.0--r36_1": "sha256:7adf03f9a68207f161ae5f3b93eba6d9dba4bdc23fc178db630cbbc9ddfd67c3"}, "docker": "quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mafdb.gnomad.r2.0.1.grch38.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh
+#### gio-launch-desktop
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-mafdb.gnomad.r2.0.1.grch38-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/gio-launch-desktop
+$ podman run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gio-launch-desktop   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

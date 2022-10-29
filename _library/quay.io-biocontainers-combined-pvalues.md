@@ -4,16 +4,25 @@ name:  "quay.io/biocontainers/combined-pvalues"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/combined-pvalues/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/combined-pvalues/container.yaml"
-updated_at: "2022-10-27 00:34:21.749003"
+updated_at: "2022-10-29 05:51:18.572646"
 latest: "0.50.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/combined-pvalues"
 aliases:
  - "comb-p"
  - "toolshed"
+ - "f2py2"
+ - "f2py2.7"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "0.50.6--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for combined-pvalues"
-config: {"url": "https://biocontainers.pro/tools/combined-pvalues", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for combined-pvalues", "latest": {"0.50.6--pyhdfd78af_0": "sha256:808aa11a81910735d6a801123dd9ffd924aa19976866f0ca5492f0023cf9b50c"}, "tags": {"0.50.6--pyhdfd78af_0": "sha256:808aa11a81910735d6a801123dd9ffd924aa19976866f0ca5492f0023cf9b50c"}, "docker": "quay.io/biocontainers/combined-pvalues", "aliases": {"comb-p": "/usr/local/bin/comb-p", "toolshed": "/usr/local/bin/toolshed"}}
+config: {"url": "https://biocontainers.pro/tools/combined-pvalues", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for combined-pvalues", "latest": {"0.50.6--pyhdfd78af_0": "sha256:808aa11a81910735d6a801123dd9ffd924aa19976866f0ca5492f0023cf9b50c"}, "tags": {"0.50.6--pyhdfd78af_0": "sha256:808aa11a81910735d6a801123dd9ffd924aa19976866f0ca5492f0023cf9b50c"}, "docker": "quay.io/biocontainers/combined-pvalues", "aliases": {"comb-p": "/usr/local/bin/comb-p", "toolshed": "/usr/local/bin/toolshed", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/combined-pvalues.
@@ -114,6 +123,87 @@ $ docker run --it --rm --entrypoint /usr/local/bin/comb-p   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/toolshed
 $ podman run --it --rm --entrypoint /usr/local/bin/toolshed   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/toolshed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

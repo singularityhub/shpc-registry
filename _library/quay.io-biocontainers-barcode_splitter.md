@@ -4,15 +4,23 @@ name:  "quay.io/biocontainers/barcode_splitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/barcode_splitter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/barcode_splitter/container.yaml"
-updated_at: "2022-10-27 00:36:00.667431"
+updated_at: "2022-10-29 05:53:31.736041"
 latest: "0.18.6--py_0"
 container_url: "https://biocontainers.pro/tools/barcode_splitter"
 aliases:
  - "barcode_splitter"
+ - "2to3-3.7"
+ - "idle3.7"
+ - "pydoc3.7"
+ - "python3.7"
+ - "python3.7-config"
+ - "python3.7m"
+ - "python3.7m-config"
+ - "pyvenv-3.7"
 versions:
  - "0.18.6--py_0"
 description: "shpc-registry automated BioContainers addition for barcode_splitter"
-config: {"url": "https://biocontainers.pro/tools/barcode_splitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barcode_splitter", "latest": {"0.18.6--py_0": "sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650"}, "tags": {"0.18.6--py_0": "sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650"}, "docker": "quay.io/biocontainers/barcode_splitter", "aliases": {"barcode_splitter": "/usr/local/bin/barcode_splitter"}}
+config: {"url": "https://biocontainers.pro/tools/barcode_splitter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for barcode_splitter", "latest": {"0.18.6--py_0": "sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650"}, "tags": {"0.18.6--py_0": "sha256:9793d3e815752d640feeaee8f55b7171e247bbbb8ceb8e86d8bbbbfc69a0f650"}, "docker": "quay.io/biocontainers/barcode_splitter", "aliases": {"barcode_splitter": "/usr/local/bin/barcode_splitter", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/barcode_splitter.
@@ -104,6 +112,78 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/barcode_splitter
 $ podman run --it --rm --entrypoint /usr/local/bin/barcode_splitter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/barcode_splitter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.7m-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.7m-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.7m-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyvenv-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyvenv-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyvenv-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-platecore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-platecore/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-platecore/container.yaml"
-updated_at: "2022-10-27 00:37:21.028371"
+updated_at: "2022-10-29 05:55:18.478133"
 latest: "1.40.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-platecore"
-
+aliases:
+ - "c89"
+ - "c99"
 versions:
  - "1.40.1--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-platecore"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-platecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-platecore", "latest": {"1.40.1--r351_0": "sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9"}, "tags": {"1.40.1--r351_0": "sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9"}, "docker": "quay.io/biocontainers/bioconductor-platecore"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-platecore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-platecore", "latest": {"1.40.1--r351_0": "sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9"}, "tags": {"1.40.1--r351_0": "sha256:893df8bdfa82f41498bbc56eca262ff534f49175c7f88237ec87f35f11f35ee9"}, "docker": "quay.io/biocontainers/bioconductor-platecore", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-platecore.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-platecore
+#### c89
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

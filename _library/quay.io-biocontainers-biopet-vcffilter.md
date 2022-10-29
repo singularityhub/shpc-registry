@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/biopet-vcffilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-vcffilter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-vcffilter/container.yaml"
-updated_at: "2022-10-27 00:20:50.541406"
+updated_at: "2022-10-29 05:33:22.673826"
 latest: "0.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-vcffilter"
 aliases:
  - "biopet-vcffilter"
+ - "2to3-3.9"
+ - "appletviewer"
+ - "clhsdb"
+ - "extcheck"
+ - "hsdb"
+ - "idle3.9"
+ - "idlj"
+ - "jar"
+ - "jarsigner"
+ - "java"
 versions:
  - "0.2--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for biopet-vcffilter"
-config: {"url": "https://biocontainers.pro/tools/biopet-vcffilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-vcffilter", "latest": {"0.2--hdfd78af_1": "sha256:1a8fdfe44e6944310900b0b82e4136d56d52c7c2655795d3f3713c470716d22f"}, "tags": {"0.2--hdfd78af_1": "sha256:1a8fdfe44e6944310900b0b82e4136d56d52c7c2655795d3f3713c470716d22f"}, "docker": "quay.io/biocontainers/biopet-vcffilter", "aliases": {"biopet-vcffilter": "/usr/local/bin/biopet-vcffilter"}}
+config: {"url": "https://biocontainers.pro/tools/biopet-vcffilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-vcffilter", "latest": {"0.2--hdfd78af_1": "sha256:1a8fdfe44e6944310900b0b82e4136d56d52c7c2655795d3f3713c470716d22f"}, "tags": {"0.2--hdfd78af_1": "sha256:1a8fdfe44e6944310900b0b82e4136d56d52c7c2655795d3f3713c470716d22f"}, "docker": "quay.io/biocontainers/biopet-vcffilter", "aliases": {"biopet-vcffilter": "/usr/local/bin/biopet-vcffilter", "2to3-3.9": "/usr/local/bin/2to3-3.9", "appletviewer": "/usr/local/bin/appletviewer", "clhsdb": "/usr/local/bin/clhsdb", "extcheck": "/usr/local/bin/extcheck", "hsdb": "/usr/local/bin/hsdb", "idle3.9": "/usr/local/bin/idle3.9", "idlj": "/usr/local/bin/idlj", "jar": "/usr/local/bin/jar", "jarsigner": "/usr/local/bin/jarsigner", "java": "/usr/local/bin/java"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biopet-vcffilter.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/biopet-vcffilter
 $ podman run --it --rm --entrypoint /usr/local/bin/biopet-vcffilter   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/biopet-vcffilter   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clhsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/clhsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clhsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### extcheck
+
+```bash
+$ singularity exec <container> /usr/local/bin/extcheck
+$ podman run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/extcheck   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hsdb
+
+```bash
+$ singularity exec <container> /usr/local/bin/hsdb
+$ podman run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hsdb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idlj
+
+```bash
+$ singularity exec <container> /usr/local/bin/idlj
+$ podman run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idlj   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jar
+
+```bash
+$ singularity exec <container> /usr/local/bin/jar
+$ podman run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jar   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jarsigner
+
+```bash
+$ singularity exec <container> /usr/local/bin/jarsigner
+$ podman run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jarsigner   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### java
+
+```bash
+$ singularity exec <container> /usr/local/bin/java
+$ podman run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/java   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

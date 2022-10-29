@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bamr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bamr/container.yaml"
-updated_at: "2022-10-27 00:24:03.592799"
+updated_at: "2022-10-29 05:37:38.822405"
 latest: "0.2.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bamr"
-
+aliases:
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.2.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bamr"
-config: {"url": "https://biocontainers.pro/tools/bamr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamr", "latest": {"0.2.0--pyhdfd78af_0": "sha256:ea9118e55fa7d151c2830dd9821f8e4c9427991db6cf073b7cf89824be391135"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:ea9118e55fa7d151c2830dd9821f8e4c9427991db6cf073b7cf89824be391135"}, "docker": "quay.io/biocontainers/bamr"}
+config: {"url": "https://biocontainers.pro/tools/bamr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamr", "latest": {"0.2.0--pyhdfd78af_0": "sha256:ea9118e55fa7d151c2830dd9821f8e4c9427991db6cf073b7cf89824be391135"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:ea9118e55fa7d151c2830dd9821f8e4c9427991db6cf073b7cf89824be391135"}, "docker": "quay.io/biocontainers/bamr", "aliases": {"2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamr.
@@ -97,14 +102,50 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bamr
+#### 2to3-3.9
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

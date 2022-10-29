@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prophane"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prophane/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/prophane/container.yaml"
-updated_at: "2022-10-27 00:24:10.838869"
+updated_at: "2022-10-29 05:37:48.037067"
 latest: "6.2.6--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/prophane"
 aliases:
@@ -19,10 +19,20 @@ aliases:
  - "prophane"
  - "repo2solv"
  - "testsolv"
+ - "2to3-3.9"
+ - "cbc"
+ - "chardetect"
+ - "clp"
+ - "conda-env"
+ - "cph"
+ - "f2py3.9"
+ - "idle3.9"
+ - "jpgicc"
+ - "jsonschema"
 versions:
  - "6.2.6--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for prophane"
-config: {"url": "https://biocontainers.pro/tools/prophane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophane", "latest": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "tags": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "docker": "quay.io/biocontainers/prophane", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "prophane": "/usr/local/bin/prophane", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv"}}
+config: {"url": "https://biocontainers.pro/tools/prophane", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for prophane", "latest": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "tags": {"6.2.6--hdfd78af_0": "sha256:8a81c7f15901d49c5b2c8793070c9efc2595751d3cc13ebe2fb698c928689c99"}, "docker": "quay.io/biocontainers/prophane", "aliases": {"bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mergesolv": "/usr/local/bin/mergesolv", "prophane": "/usr/local/bin/prophane", "repo2solv": "/usr/local/bin/repo2solv", "testsolv": "/usr/local/bin/testsolv", "2to3-3.9": "/usr/local/bin/2to3-3.9", "cbc": "/usr/local/bin/cbc", "chardetect": "/usr/local/bin/chardetect", "clp": "/usr/local/bin/clp", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "jpgicc": "/usr/local/bin/jpgicc", "jsonschema": "/usr/local/bin/jsonschema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/prophane.
@@ -204,6 +214,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/repo2solv   -v ${PWD} -w ${PW
 $ singularity exec <container> /usr/local/bin/testsolv
 $ podman run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/testsolv   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cbc
+
+```bash
+$ singularity exec <container> /usr/local/bin/cbc
+$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clp
+
+```bash
+$ singularity exec <container> /usr/local/bin/clp
+$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### conda-env
+
+```bash
+$ singularity exec <container> /usr/local/bin/conda-env
+$ podman run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/conda-env   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cph
+
+```bash
+$ singularity exec <container> /usr/local/bin/cph
+$ podman run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jpgicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jpgicc
+$ podman run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jpgicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jsonschema
+
+```bash
+$ singularity exec <container> /usr/local/bin/jsonschema
+$ podman run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jsonschema   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

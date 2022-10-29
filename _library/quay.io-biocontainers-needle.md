@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/needle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/needle/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/needle/container.yaml"
-updated_at: "2022-10-27 00:26:10.774518"
+updated_at: "2022-10-29 05:40:28.393460"
 latest: "1.0.1--h19e8d03_1"
 container_url: "https://biocontainers.pro/tools/needle"
-
+aliases:
+ - "needle"
 versions:
  - "1.0.1--h19e8d03_1"
 description: "shpc-registry automated BioContainers addition for needle"
-config: {"url": "https://biocontainers.pro/tools/needle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for needle", "latest": {"1.0.1--h19e8d03_1": "sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f"}, "tags": {"1.0.1--h19e8d03_1": "sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f"}, "docker": "quay.io/biocontainers/needle"}
+config: {"url": "https://biocontainers.pro/tools/needle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for needle", "latest": {"1.0.1--h19e8d03_1": "sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f"}, "tags": {"1.0.1--h19e8d03_1": "sha256:f48f6909435e6d787cfcf57d6a6bf2e832557f3aeb62f63141ef204b88cf595f"}, "docker": "quay.io/biocontainers/needle", "aliases": {"needle": "/usr/local/bin/needle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/needle.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### needle
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/needle
+$ podman run --it --rm --entrypoint /usr/local/bin/needle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/needle   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

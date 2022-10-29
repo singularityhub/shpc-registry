@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ebisearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ebisearch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ebisearch/container.yaml"
-updated_at: "2022-10-27 00:22:53.576229"
+updated_at: "2022-10-29 05:36:06.559665"
 latest: "0.0.3--py_2"
 container_url: "https://biocontainers.pro/tools/ebisearch"
 aliases:
@@ -13,10 +13,18 @@ aliases:
  - "flake8"
  - "pycodestyle"
  - "pyflakes"
+ - "chardetect"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "0.0.3--py_2"
 description: "shpc-registry automated BioContainers addition for ebisearch"
-config: {"url": "https://biocontainers.pro/tools/ebisearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ebisearch", "latest": {"0.0.3--py_2": "sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987"}, "tags": {"0.0.3--py_2": "sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987"}, "docker": "quay.io/biocontainers/ebisearch", "aliases": {"ebi_metagenomics": "/usr/local/bin/ebi_metagenomics", "ebisearch": "/usr/local/bin/ebisearch", "flake8": "/usr/local/bin/flake8", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes"}}
+config: {"url": "https://biocontainers.pro/tools/ebisearch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ebisearch", "latest": {"0.0.3--py_2": "sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987"}, "tags": {"0.0.3--py_2": "sha256:a525bf0301e81e0134d6d46356db1f2bd976805673598618994c52e8fa41f987"}, "docker": "quay.io/biocontainers/ebisearch", "aliases": {"ebi_metagenomics": "/usr/local/bin/ebi_metagenomics", "ebisearch": "/usr/local/bin/ebisearch", "flake8": "/usr/local/bin/flake8", "pycodestyle": "/usr/local/bin/pycodestyle", "pyflakes": "/usr/local/bin/pyflakes", "chardetect": "/usr/local/bin/chardetect", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ebisearch.
@@ -144,6 +152,78 @@ $ docker run --it --rm --entrypoint /usr/local/bin/pycodestyle   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/pyflakes
 $ podman run --it --rm --entrypoint /usr/local/bin/pyflakes   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/pyflakes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

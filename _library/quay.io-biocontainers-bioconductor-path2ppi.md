@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-path2ppi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-path2ppi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-path2ppi/container.yaml"
-updated_at: "2022-10-27 00:37:01.343806"
+updated_at: "2022-10-29 05:54:52.444575"
 latest: "1.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-path2ppi"
-
+aliases:
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "tclsh8.5"
+ - "wish8.5"
 versions:
  - "1.8.0--r3.4.1_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-path2ppi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-path2ppi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-path2ppi", "latest": {"1.8.0--r3.4.1_0": "sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db"}, "tags": {"1.8.0--r3.4.1_0": "sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db"}, "docker": "quay.io/biocontainers/bioconductor-path2ppi"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-path2ppi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-path2ppi", "latest": {"1.8.0--r3.4.1_0": "sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db"}, "tags": {"1.8.0--r3.4.1_0": "sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db"}, "docker": "quay.io/biocontainers/bioconductor-path2ppi", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-path2ppi.
@@ -97,14 +101,41 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### bioconductor-path2ppi
+#### ncurses5-config
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### tclsh8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/tclsh8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/tclsh8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wish8.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/wish8.5
+$ podman run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wish8.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

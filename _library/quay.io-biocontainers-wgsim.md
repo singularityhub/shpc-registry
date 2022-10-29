@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/wgsim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgsim/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wgsim/container.yaml"
-updated_at: "2022-10-27 00:19:31.802706"
+updated_at: "2022-10-29 05:31:38.981996"
 latest: "1.0--h7132678_5"
 container_url: "https://biocontainers.pro/tools/wgsim"
-
+aliases:
+ - "wgsim"
+ - "wgsim_eval.pl"
 versions:
  - "1.0--h7132678_5"
 description: "shpc-registry automated BioContainers addition for wgsim"
-config: {"url": "https://biocontainers.pro/tools/wgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgsim", "latest": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "tags": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "docker": "quay.io/biocontainers/wgsim"}
+config: {"url": "https://biocontainers.pro/tools/wgsim", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wgsim", "latest": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "tags": {"1.0--h7132678_5": "sha256:649797d4a94d3a34605296782c44829f94ad89a25d6e679ec93a2d2ac373c30c"}, "docker": "quay.io/biocontainers/wgsim", "aliases": {"wgsim": "/usr/local/bin/wgsim", "wgsim_eval.pl": "/usr/local/bin/wgsim_eval.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wgsim.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
 #### wgsim
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/wgsim
+$ podman run --it --rm --entrypoint /usr/local/bin/wgsim   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wgsim   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### wgsim_eval.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/wgsim_eval.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/wgsim_eval.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wgsim_eval.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

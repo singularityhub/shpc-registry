@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rgu34b.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgu34b.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgu34b.db/container.yaml"
-updated_at: "2022-10-27 00:34:14.497480"
+updated_at: "2022-10-29 05:51:08.278292"
 latest: "3.2.3--r41hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgu34b.db"
 aliases:
- - ".bioconductor-rgu34b.db-post-link.sh"
- - ".bioconductor-rgu34b.db-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgu34b.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgu34b.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgu34b.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:7069d3cfa42d2ce1d993cda011a0f500a10c95106f52ef594431fac70e4bc78c"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:7069d3cfa42d2ce1d993cda011a0f500a10c95106f52ef594431fac70e4bc78c"}, "docker": "quay.io/biocontainers/bioconductor-rgu34b.db", "aliases": {".bioconductor-rgu34b.db-post-link.sh": "/usr/local/bin/.bioconductor-rgu34b.db-post-link.sh", ".bioconductor-rgu34b.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-rgu34b.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgu34b.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgu34b.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:7069d3cfa42d2ce1d993cda011a0f500a10c95106f52ef594431fac70e4bc78c"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:7069d3cfa42d2ce1d993cda011a0f500a10c95106f52ef594431fac70e4bc78c"}, "docker": "quay.io/biocontainers/bioconductor-rgu34b.db", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgu34b.db.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-rgu34b.db-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-rgu34b.db-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rgu34b.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rgu34b.db-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-rgu34b.db-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-rgu34b.db-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-rgu34b.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-rgu34b.db-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

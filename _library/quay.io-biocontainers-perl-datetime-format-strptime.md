@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/perl-datetime-format-strptime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
-updated_at: "2022-10-27 00:29:38.663002"
+updated_at: "2022-10-29 05:45:01.639462"
 latest: "1.75--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-datetime-format-strptime"
-
+aliases:
+ - "cpanm"
+ - "package-stash-conflicts"
 versions:
  - "1.75--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-datetime-format-strptime"
-config: {"url": "https://biocontainers.pro/tools/perl-datetime-format-strptime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-format-strptime", "latest": {"1.75--pl5321hdfd78af_1": "sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae"}, "tags": {"1.75--pl5321hdfd78af_1": "sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae"}, "docker": "quay.io/biocontainers/perl-datetime-format-strptime"}
+config: {"url": "https://biocontainers.pro/tools/perl-datetime-format-strptime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime-format-strptime", "latest": {"1.75--pl5321hdfd78af_1": "sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae"}, "tags": {"1.75--pl5321hdfd78af_1": "sha256:f9276d1203dda67800326f095cf59f6abbea838a08b84d89a64fe1a3956e84ae"}, "docker": "quay.io/biocontainers/perl-datetime-format-strptime", "aliases": {"cpanm": "/usr/local/bin/cpanm", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-datetime-format-strptime.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-datetime-format-strptime
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/dammit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dammit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dammit/container.yaml"
-updated_at: "2022-10-27 00:18:23.578618"
+updated_at: "2022-10-29 05:30:09.453324"
 latest: "1.2--pyh5ca1d4c_0"
 container_url: "https://biocontainers.pro/tools/dammit"
 aliases:
- - ".busco-post-link.sh"
  - "TransDecoder.LongOrfs"
  - "TransDecoder.Predict"
  - "aa2nonred.pl"
@@ -83,10 +82,20 @@ aliases:
  - "train_start_PWM.pl"
  - "uri_unescape.pl"
  - "utrrnaseq"
+ - "2to3-3.6"
+ - "SplicedAlignment.pm"
+ - "abundance-dist-single.py"
+ - "abundance-dist.py"
+ - "alimask"
+ - "amino-acid-composition"
+ - "annotate-partitions.py"
+ - "archive-pubmed"
+ - "asp-cp"
+ - "asp-ls"
 versions:
  - "1.2--pyh5ca1d4c_0"
 description: "shpc-registry automated BioContainers addition for dammit"
-config: {"url": "https://biocontainers.pro/tools/dammit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dammit", "latest": {"1.2--pyh5ca1d4c_0": "sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2"}, "tags": {"1.2--pyh5ca1d4c_0": "sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2"}, "docker": "quay.io/biocontainers/dammit", "aliases": {".busco-post-link.sh": "/usr/local/bin/.busco-post-link.sh", "TransDecoder.LongOrfs": "/usr/local/bin/TransDecoder.LongOrfs", "TransDecoder.Predict": "/usr/local/bin/TransDecoder.Predict", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "autoRun.pathInfo": "/usr/local/bin/autoRun.pathInfo", "bamToWig.py": "/usr/local/bin/bamToWig.py", "cdna_alignment_orf_to_genome_orf.pl": "/usr/local/bin/cdna_alignment_orf_to_genome_orf.pl", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "compute_base_probs.pl": "/usr/local/bin/compute_base_probs.pl", "dammit": "/usr/local/bin/dammit", "doit": "/usr/local/bin/doit", "espoca": "/usr/local/bin/espoca", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl", "exclude_similar_proteins.pl": "/usr/local/bin/exclude_similar_proteins.pl", "fasta_prot_checker.pl": "/usr/local/bin/fasta_prot_checker.pl", "fastq-interleave": "/usr/local/bin/fastq-interleave", "ffindex_resume.pl": "/usr/local/bin/ffindex_resume.pl", "filterGenesIn.pl": "/usr/local/bin/filterGenesIn.pl", "findGffNamesInFasta.pl": "/usr/local/bin/findGffNamesInFasta.pl", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "gene_list_to_gff.pl": "/usr/local/bin/gene_list_to_gff.pl", "generate_plot": "/usr/local/bin/generate_plot", "generate_plot.py": "/usr/local/bin/generate_plot.py", "getAnnoFastaFromJoingenes.py": "/usr/local/bin/getAnnoFastaFromJoingenes.py", "getLinesMatching.pl": "/usr/local/bin/getLinesMatching.pl", "get_FL_accs.pl": "/usr/local/bin/get_FL_accs.pl", "get_longest_ORF_per_transcript.pl": "/usr/local/bin/get_longest_ORF_per_transcript.pl", "get_top_longest_fasta_entries.pl": "/usr/local/bin/get_top_longest_fasta_entries.pl", "gff3_file_to_bed.pl": "/usr/local/bin/gff3_file_to_bed.pl", "gff3_file_to_proteins.pl": "/usr/local/bin/gff3_file_to_proteins.pl", "gff3_gene_to_gtf_format.pl": "/usr/local/bin/gff3_gene_to_gtf_format.pl", "gtf2aa.pl": "/usr/local/bin/gtf2aa.pl", "gtf_genome_to_cdna_fasta.pl": "/usr/local/bin/gtf_genome_to_cdna_fasta.pl", "gtf_to_alignment_gff3.pl": "/usr/local/bin/gtf_to_alignment_gff3.pl", "gtf_to_bed.pl": "/usr/local/bin/gtf_to_bed.pl", "gth2gtf.pl": "/usr/local/bin/gth2gtf.pl", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-split8": "/usr/local/bin/last-split8", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastal8": "/usr/local/bin/lastal8", "lastdb": "/usr/local/bin/lastdb", "lastdb8": "/usr/local/bin/lastdb8", "maf-convert": "/usr/local/bin/maf-convert", "maf-cut": "/usr/local/bin/maf-cut", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "nr_ORFs_gff3.pl": "/usr/local/bin/nr_ORFs_gff3.pl", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "pfam_runner.pl": "/usr/local/bin/pfam_runner.pl", "ratewig.pl": "/usr/local/bin/ratewig.pl", "refine_gff3_group_iso_strip_utrs.pl": "/usr/local/bin/refine_gff3_group_iso_strip_utrs.pl", "refine_hexamer_scores.pl": "/usr/local/bin/refine_hexamer_scores.pl", "remove_eclipsed_ORFs.pl": "/usr/local/bin/remove_eclipsed_ORFs.pl", "run_BUSCO.py": "/usr/local/bin/run_BUSCO.py", "run_busco": "/usr/local/bin/run_busco", "score_CDS_likelihood_all_6_frames.pl": "/usr/local/bin/score_CDS_likelihood_all_6_frames.pl", "select_best_ORFs_per_transcript.pl": "/usr/local/bin/select_best_ORFs_per_transcript.pl", "seq_n_baseprobs_to_loglikelihood_vals.pl": "/usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl", "setStopCodonFreqs.pl": "/usr/local/bin/setStopCodonFreqs.pl", "shmlast": "/usr/local/bin/shmlast", "start_codon_refinement.pl": "/usr/local/bin/start_codon_refinement.pl", "train_start_PWM.pl": "/usr/local/bin/train_start_PWM.pl", "uri_unescape.pl": "/usr/local/bin/uri_unescape.pl", "utrrnaseq": "/usr/local/bin/utrrnaseq"}}
+config: {"url": "https://biocontainers.pro/tools/dammit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dammit", "latest": {"1.2--pyh5ca1d4c_0": "sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2"}, "tags": {"1.2--pyh5ca1d4c_0": "sha256:bde81c271f61ab186a856ada712efc605f69f78706e3384a70cd84bf2b98b6d2"}, "docker": "quay.io/biocontainers/dammit", "aliases": {"TransDecoder.LongOrfs": "/usr/local/bin/TransDecoder.LongOrfs", "TransDecoder.Predict": "/usr/local/bin/TransDecoder.Predict", "aa2nonred.pl": "/usr/local/bin/aa2nonred.pl", "autoRun.pathInfo": "/usr/local/bin/autoRun.pathInfo", "bamToWig.py": "/usr/local/bin/bamToWig.py", "cdna_alignment_orf_to_genome_orf.pl": "/usr/local/bin/cdna_alignment_orf_to_genome_orf.pl", "compare_masking.pl": "/usr/local/bin/compare_masking.pl", "compileSpliceCands": "/usr/local/bin/compileSpliceCands", "computeFlankingRegion.pl": "/usr/local/bin/computeFlankingRegion.pl", "compute_base_probs.pl": "/usr/local/bin/compute_base_probs.pl", "dammit": "/usr/local/bin/dammit", "doit": "/usr/local/bin/doit", "espoca": "/usr/local/bin/espoca", "eval_multi_gtf.pl": "/usr/local/bin/eval_multi_gtf.pl", "exclude_similar_proteins.pl": "/usr/local/bin/exclude_similar_proteins.pl", "fasta_prot_checker.pl": "/usr/local/bin/fasta_prot_checker.pl", "fastq-interleave": "/usr/local/bin/fastq-interleave", "ffindex_resume.pl": "/usr/local/bin/ffindex_resume.pl", "filterGenesIn.pl": "/usr/local/bin/filterGenesIn.pl", "findGffNamesInFasta.pl": "/usr/local/bin/findGffNamesInFasta.pl", "fix_in_frame_stop_codon_genes.py": "/usr/local/bin/fix_in_frame_stop_codon_genes.py", "fix_joingenes_gtf.pl": "/usr/local/bin/fix_joingenes_gtf.pl", "gene_list_to_gff.pl": "/usr/local/bin/gene_list_to_gff.pl", "generate_plot": "/usr/local/bin/generate_plot", "generate_plot.py": "/usr/local/bin/generate_plot.py", "getAnnoFastaFromJoingenes.py": "/usr/local/bin/getAnnoFastaFromJoingenes.py", "getLinesMatching.pl": "/usr/local/bin/getLinesMatching.pl", "get_FL_accs.pl": "/usr/local/bin/get_FL_accs.pl", "get_longest_ORF_per_transcript.pl": "/usr/local/bin/get_longest_ORF_per_transcript.pl", "get_top_longest_fasta_entries.pl": "/usr/local/bin/get_top_longest_fasta_entries.pl", "gff3_file_to_bed.pl": "/usr/local/bin/gff3_file_to_bed.pl", "gff3_file_to_proteins.pl": "/usr/local/bin/gff3_file_to_proteins.pl", "gff3_gene_to_gtf_format.pl": "/usr/local/bin/gff3_gene_to_gtf_format.pl", "gtf2aa.pl": "/usr/local/bin/gtf2aa.pl", "gtf_genome_to_cdna_fasta.pl": "/usr/local/bin/gtf_genome_to_cdna_fasta.pl", "gtf_to_alignment_gff3.pl": "/usr/local/bin/gtf_to_alignment_gff3.pl", "gtf_to_bed.pl": "/usr/local/bin/gtf_to_bed.pl", "gth2gtf.pl": "/usr/local/bin/gth2gtf.pl", "last-dotplot": "/usr/local/bin/last-dotplot", "last-map-probs": "/usr/local/bin/last-map-probs", "last-pair-probs": "/usr/local/bin/last-pair-probs", "last-postmask": "/usr/local/bin/last-postmask", "last-split": "/usr/local/bin/last-split", "last-split8": "/usr/local/bin/last-split8", "last-train": "/usr/local/bin/last-train", "lastal": "/usr/local/bin/lastal", "lastal8": "/usr/local/bin/lastal8", "lastdb": "/usr/local/bin/lastdb", "lastdb8": "/usr/local/bin/lastdb8", "maf-convert": "/usr/local/bin/maf-convert", "maf-cut": "/usr/local/bin/maf-cut", "maf-join": "/usr/local/bin/maf-join", "maf-sort": "/usr/local/bin/maf-sort", "maf-swap": "/usr/local/bin/maf-swap", "merge_masking.pl": "/usr/local/bin/merge_masking.pl", "nr_ORFs_gff3.pl": "/usr/local/bin/nr_ORFs_gff3.pl", "parallel-fasta": "/usr/local/bin/parallel-fasta", "parallel-fastq": "/usr/local/bin/parallel-fastq", "pfam_runner.pl": "/usr/local/bin/pfam_runner.pl", "ratewig.pl": "/usr/local/bin/ratewig.pl", "refine_gff3_group_iso_strip_utrs.pl": "/usr/local/bin/refine_gff3_group_iso_strip_utrs.pl", "refine_hexamer_scores.pl": "/usr/local/bin/refine_hexamer_scores.pl", "remove_eclipsed_ORFs.pl": "/usr/local/bin/remove_eclipsed_ORFs.pl", "run_BUSCO.py": "/usr/local/bin/run_BUSCO.py", "run_busco": "/usr/local/bin/run_busco", "score_CDS_likelihood_all_6_frames.pl": "/usr/local/bin/score_CDS_likelihood_all_6_frames.pl", "select_best_ORFs_per_transcript.pl": "/usr/local/bin/select_best_ORFs_per_transcript.pl", "seq_n_baseprobs_to_loglikelihood_vals.pl": "/usr/local/bin/seq_n_baseprobs_to_loglikelihood_vals.pl", "setStopCodonFreqs.pl": "/usr/local/bin/setStopCodonFreqs.pl", "shmlast": "/usr/local/bin/shmlast", "start_codon_refinement.pl": "/usr/local/bin/start_codon_refinement.pl", "train_start_PWM.pl": "/usr/local/bin/train_start_PWM.pl", "uri_unescape.pl": "/usr/local/bin/uri_unescape.pl", "utrrnaseq": "/usr/local/bin/utrrnaseq", "2to3-3.6": "/usr/local/bin/2to3-3.6", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "abundance-dist-single.py": "/usr/local/bin/abundance-dist-single.py", "abundance-dist.py": "/usr/local/bin/abundance-dist.py", "alimask": "/usr/local/bin/alimask", "amino-acid-composition": "/usr/local/bin/amino-acid-composition", "annotate-partitions.py": "/usr/local/bin/annotate-partitions.py", "archive-pubmed": "/usr/local/bin/archive-pubmed", "asp-cp": "/usr/local/bin/asp-cp", "asp-ls": "/usr/local/bin/asp-ls"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dammit.
@@ -169,15 +178,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .busco-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.busco-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.busco-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.busco-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -844,6 +844,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/uri_unescape.pl   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/utrrnaseq
 $ podman run --it --rm --entrypoint /usr/local/bin/utrrnaseq   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/utrrnaseq   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SplicedAlignment.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/SplicedAlignment.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abundance-dist-single.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/abundance-dist-single.py
+$ podman run --it --rm --entrypoint /usr/local/bin/abundance-dist-single.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abundance-dist-single.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### abundance-dist.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/abundance-dist.py
+$ podman run --it --rm --entrypoint /usr/local/bin/abundance-dist.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/abundance-dist.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### alimask
+
+```bash
+$ singularity exec <container> /usr/local/bin/alimask
+$ podman run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/alimask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### amino-acid-composition
+
+```bash
+$ singularity exec <container> /usr/local/bin/amino-acid-composition
+$ podman run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/amino-acid-composition   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### annotate-partitions.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/annotate-partitions.py
+$ podman run --it --rm --entrypoint /usr/local/bin/annotate-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/annotate-partitions.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### archive-pubmed
+
+```bash
+$ singularity exec <container> /usr/local/bin/archive-pubmed
+$ podman run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/archive-pubmed   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-cp
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-cp
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-cp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asp-ls
+
+```bash
+$ singularity exec <container> /usr/local/bin/asp-ls
+$ podman run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asp-ls   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/lusstr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lusstr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lusstr/container.yaml"
-updated_at: "2022-10-27 00:21:56.335460"
+updated_at: "2022-10-29 05:34:48.589426"
 latest: "0.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/lusstr"
 aliases:
  - "lusstr"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
+ - "runxlrd.py"
 versions:
  - "0.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for lusstr"
-config: {"url": "https://biocontainers.pro/tools/lusstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lusstr", "latest": {"0.5--pyhdfd78af_0": "sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712"}, "tags": {"0.5--pyhdfd78af_0": "sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712"}, "docker": "quay.io/biocontainers/lusstr", "aliases": {"lusstr": "/usr/local/bin/lusstr"}}
+config: {"url": "https://biocontainers.pro/tools/lusstr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lusstr", "latest": {"0.5--pyhdfd78af_0": "sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712"}, "tags": {"0.5--pyhdfd78af_0": "sha256:8320d78476367d67551ef0c8166b1b69fde1b7fbdc1e45be537e82604ac0e712"}, "docker": "quay.io/biocontainers/lusstr", "aliases": {"lusstr": "/usr/local/bin/lusstr", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "runxlrd.py": "/usr/local/bin/runxlrd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lusstr.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/lusstr
 $ podman run --it --rm --entrypoint /usr/local/bin/lusstr   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/lusstr   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### runxlrd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/runxlrd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/runxlrd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

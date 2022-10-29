@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/foldseek"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/foldseek/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/foldseek/container.yaml"
-updated_at: "2022-10-27 00:22:31.883905"
+updated_at: "2022-10-29 05:35:37.174119"
 latest: "3.915ef7d--pl5321hf1761c0_1"
 container_url: "https://biocontainers.pro/tools/foldseek"
 aliases:
  - "aria2c"
  - "foldseek"
+ - "awk"
+ - "gawk"
+ - "gawk-5.1.0"
+ - "idn2"
+ - "wget"
 versions:
  - "3.915ef7d--pl5321hf1761c0_1"
 description: "shpc-registry automated BioContainers addition for foldseek"
-config: {"url": "https://biocontainers.pro/tools/foldseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for foldseek", "latest": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8"}, "tags": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8"}, "docker": "quay.io/biocontainers/foldseek", "aliases": {"aria2c": "/usr/local/bin/aria2c", "foldseek": "/usr/local/bin/foldseek"}}
+config: {"url": "https://biocontainers.pro/tools/foldseek", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for foldseek", "latest": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8"}, "tags": {"3.915ef7d--pl5321hf1761c0_1": "sha256:ad8a423b260403e5f95640f0d0e66e11ad36f566b1360dbb99f481f45f2a67c8"}, "docker": "quay.io/biocontainers/foldseek", "aliases": {"aria2c": "/usr/local/bin/aria2c", "foldseek": "/usr/local/bin/foldseek", "awk": "/usr/local/bin/awk", "gawk": "/usr/local/bin/gawk", "gawk-5.1.0": "/usr/local/bin/gawk-5.1.0", "idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/foldseek.
@@ -114,6 +119,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/aria2c   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/foldseek
 $ podman run --it --rm --entrypoint /usr/local/bin/foldseek   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/foldseek   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### awk
+
+```bash
+$ singularity exec <container> /usr/local/bin/awk
+$ podman run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/awk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gawk
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gawk-5.1.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/gawk-5.1.0
+$ podman run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gawk-5.1.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idn2
+
+```bash
+$ singularity exec <container> /usr/local/bin/idn2
+$ podman run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idn2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### wget
+
+```bash
+$ singularity exec <container> /usr/local/bin/wget
+$ podman run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/wget   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

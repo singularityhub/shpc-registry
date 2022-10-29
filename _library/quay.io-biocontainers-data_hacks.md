@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/data_hacks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/data_hacks/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/data_hacks/container.yaml"
-updated_at: "2022-10-27 00:39:02.348279"
+updated_at: "2022-10-29 05:57:30.686916"
 latest: "0.3.1--py_2"
 container_url: "https://biocontainers.pro/tools/data_hacks"
 aliases:
@@ -13,10 +13,17 @@ aliases:
  - "ninety_five_percent.py"
  - "run_for.py"
  - "sample.py"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "0.3.1--py_2"
 description: "shpc-registry automated BioContainers addition for data_hacks"
-config: {"url": "https://biocontainers.pro/tools/data_hacks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for data_hacks", "latest": {"0.3.1--py_2": "sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc"}, "tags": {"0.3.1--py_2": "sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc"}, "docker": "quay.io/biocontainers/data_hacks", "aliases": {"bar_chart.py": "/usr/local/bin/bar_chart.py", "histogram.py": "/usr/local/bin/histogram.py", "ninety_five_percent.py": "/usr/local/bin/ninety_five_percent.py", "run_for.py": "/usr/local/bin/run_for.py", "sample.py": "/usr/local/bin/sample.py"}}
+config: {"url": "https://biocontainers.pro/tools/data_hacks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for data_hacks", "latest": {"0.3.1--py_2": "sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc"}, "tags": {"0.3.1--py_2": "sha256:2dc735dded644c36e3c8087d73375570f8b73de903ca9a6b017ee98aaca55dbc"}, "docker": "quay.io/biocontainers/data_hacks", "aliases": {"bar_chart.py": "/usr/local/bin/bar_chart.py", "histogram.py": "/usr/local/bin/histogram.py", "ninety_five_percent.py": "/usr/local/bin/ninety_five_percent.py", "run_for.py": "/usr/local/bin/run_for.py", "sample.py": "/usr/local/bin/sample.py", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/data_hacks.
@@ -144,6 +151,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/run_for.py   -v ${PWD} -w ${P
 $ singularity exec <container> /usr/local/bin/sample.py
 $ podman run --it --rm --entrypoint /usr/local/bin/sample.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sample.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

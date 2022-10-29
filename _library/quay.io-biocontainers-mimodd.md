@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mimodd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mimodd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mimodd/container.yaml"
-updated_at: "2022-10-27 00:25:44.898675"
+updated_at: "2022-10-29 05:39:53.578204"
 latest: "0.1.9--py36_0"
 container_url: "https://biocontainers.pro/tools/mimodd"
 aliases:
@@ -40,10 +40,20 @@ aliases:
  - "ranlib"
  - "rtags"
  - "strip"
+ - "2to3-3.6"
+ - "c89"
+ - "c99"
+ - "idle3.6"
+ - "libtool"
+ - "ncurses5-config"
+ - "ncursesw5-config"
+ - "pydoc3.6"
+ - "python3.6"
+ - "python3.6-config"
 versions:
  - "0.1.9--py36_0"
 description: "shpc-registry automated BioContainers addition for mimodd"
-config: {"url": "https://biocontainers.pro/tools/mimodd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimodd", "latest": {"0.1.9--py36_0": "sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804"}, "tags": {"0.1.9--py36_0": "sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804"}, "docker": "quay.io/biocontainers/mimodd", "aliases": {"BATCH": "/usr/local/bin/BATCH", "COMPILE": "/usr/local/bin/COMPILE", "INSTALL": "/usr/local/bin/INSTALL", "LINK": "/usr/local/bin/LINK", "REMOVE": "/usr/local/bin/REMOVE", "Rcmd": "/usr/local/bin/Rcmd", "Rd2pdf": "/usr/local/bin/Rd2pdf", "Rdconv": "/usr/local/bin/Rdconv", "Rdiff": "/usr/local/bin/Rdiff", "Rprof": "/usr/local/bin/Rprof", "SHLIB": "/usr/local/bin/SHLIB", "Stangle": "/usr/local/bin/Stangle", "Sweave": "/usr/local/bin/Sweave", "ar": "/usr/local/bin/ar", "build": "/usr/local/bin/build", "c++": "/usr/local/bin/c++", "cc": "/usr/local/bin/cc", "check": "/usr/local/bin/check", "config": "/usr/local/bin/config", "f77": "/usr/local/bin/f77", "f77_f2c": "/usr/local/bin/f77_f2c", "fc": "/usr/local/bin/fc", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gfortran": "/usr/local/bin/gfortran", "javareconf": "/usr/local/bin/javareconf", "mimodd": "/usr/local/bin/mimodd", "mkinstalldirs": "/usr/local/bin/mkinstalldirs", "pager": "/usr/local/bin/pager", "ranlib": "/usr/local/bin/ranlib", "rtags": "/usr/local/bin/rtags", "strip": "/usr/local/bin/strip"}}
+config: {"url": "https://biocontainers.pro/tools/mimodd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mimodd", "latest": {"0.1.9--py36_0": "sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804"}, "tags": {"0.1.9--py36_0": "sha256:891054c4a37eadca5433989561a2b31842e7e21f828d50a164afab4e1bd65804"}, "docker": "quay.io/biocontainers/mimodd", "aliases": {"BATCH": "/usr/local/bin/BATCH", "COMPILE": "/usr/local/bin/COMPILE", "INSTALL": "/usr/local/bin/INSTALL", "LINK": "/usr/local/bin/LINK", "REMOVE": "/usr/local/bin/REMOVE", "Rcmd": "/usr/local/bin/Rcmd", "Rd2pdf": "/usr/local/bin/Rd2pdf", "Rdconv": "/usr/local/bin/Rdconv", "Rdiff": "/usr/local/bin/Rdiff", "Rprof": "/usr/local/bin/Rprof", "SHLIB": "/usr/local/bin/SHLIB", "Stangle": "/usr/local/bin/Stangle", "Sweave": "/usr/local/bin/Sweave", "ar": "/usr/local/bin/ar", "build": "/usr/local/bin/build", "c++": "/usr/local/bin/c++", "cc": "/usr/local/bin/cc", "check": "/usr/local/bin/check", "config": "/usr/local/bin/config", "f77": "/usr/local/bin/f77", "f77_f2c": "/usr/local/bin/f77_f2c", "fc": "/usr/local/bin/fc", "g++": "/usr/local/bin/g++", "gcc": "/usr/local/bin/gcc", "gfortran": "/usr/local/bin/gfortran", "javareconf": "/usr/local/bin/javareconf", "mimodd": "/usr/local/bin/mimodd", "mkinstalldirs": "/usr/local/bin/mkinstalldirs", "pager": "/usr/local/bin/pager", "ranlib": "/usr/local/bin/ranlib", "rtags": "/usr/local/bin/rtags", "strip": "/usr/local/bin/strip", "2to3-3.6": "/usr/local/bin/2to3-3.6", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99", "idle3.6": "/usr/local/bin/idle3.6", "libtool": "/usr/local/bin/libtool", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mimodd.
@@ -414,6 +424,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rtags   -v ${PWD} -w ${PWD} <
 $ singularity exec <container> /usr/local/bin/strip
 $ podman run --it --rm --entrypoint /usr/local/bin/strip   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/strip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c89
+
+```bash
+$ singularity exec <container> /usr/local/bin/c89
+$ podman run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c89   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### c99
+
+```bash
+$ singularity exec <container> /usr/local/bin/c99
+$ podman run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/c99   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### libtool
+
+```bash
+$ singularity exec <container> /usr/local/bin/libtool
+$ podman run --it --rm --entrypoint /usr/local/bin/libtool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/libtool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncurses5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncurses5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncurses5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ncursesw5-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/ncursesw5-config
+$ podman run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ncursesw5-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.6-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.6-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.6-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

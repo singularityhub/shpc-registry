@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/scorpio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scorpio/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scorpio/container.yaml"
-updated_at: "2022-10-27 00:31:49.402108"
+updated_at: "2022-10-29 05:47:55.802456"
 latest: "0.3.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scorpio"
 aliases:
@@ -12,10 +12,16 @@ aliases:
  - "extract_definitions.py"
  - "scorpio"
  - "type_constellations.py"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.3.9--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for scorpio"
-config: {"url": "https://biocontainers.pro/tools/scorpio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scorpio", "latest": {"0.3.9--pyhdfd78af_0": "sha256:b8604db530f657839e7ac0d94f9cbfe3f66a59bec37852b2165d0229a95e0147"}, "tags": {"0.3.9--pyhdfd78af_0": "sha256:b8604db530f657839e7ac0d94f9cbfe3f66a59bec37852b2165d0229a95e0147"}, "docker": "quay.io/biocontainers/scorpio", "aliases": {"constellations": "/usr/local/bin/constellations", "extract_definitions.py": "/usr/local/bin/extract_definitions.py", "scorpio": "/usr/local/bin/scorpio", "type_constellations.py": "/usr/local/bin/type_constellations.py"}}
+config: {"url": "https://biocontainers.pro/tools/scorpio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scorpio", "latest": {"0.3.9--pyhdfd78af_0": "sha256:b8604db530f657839e7ac0d94f9cbfe3f66a59bec37852b2165d0229a95e0147"}, "tags": {"0.3.9--pyhdfd78af_0": "sha256:b8604db530f657839e7ac0d94f9cbfe3f66a59bec37852b2165d0229a95e0147"}, "docker": "quay.io/biocontainers/scorpio", "aliases": {"constellations": "/usr/local/bin/constellations", "extract_definitions.py": "/usr/local/bin/extract_definitions.py", "scorpio": "/usr/local/bin/scorpio", "type_constellations.py": "/usr/local/bin/type_constellations.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scorpio.
@@ -134,6 +140,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scorpio   -v ${PWD} -w ${PWD}
 $ singularity exec <container> /usr/local/bin/type_constellations.py
 $ podman run --it --rm --entrypoint /usr/local/bin/type_constellations.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/type_constellations.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ncrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncrf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ncrf/container.yaml"
-updated_at: "2022-10-27 00:40:11.504548"
+updated_at: "2022-10-29 05:58:59.843020"
 latest: "1.01.02--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/ncrf"
 aliases:
@@ -22,10 +22,17 @@ aliases:
  - "ncrf_summary.py"
  - "ncrf_to_bed"
  - "ncrf_to_bed.py"
+ - "idle"
+ - "python-config"
+ - "python2"
+ - "python2-config"
+ - "python2.7"
+ - "python2.7-config"
+ - "smtpd.py"
 versions:
  - "1.01.02--hec16e2b_3"
 description: "shpc-registry automated BioContainers addition for ncrf"
-config: {"url": "https://biocontainers.pro/tools/ncrf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncrf", "latest": {"1.01.02--hec16e2b_3": "sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6"}, "tags": {"1.01.02--hec16e2b_3": "sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6"}, "docker": "quay.io/biocontainers/ncrf", "aliases": {"NCRF": "/usr/local/bin/NCRF", "ncrf_cat": "/usr/local/bin/ncrf_cat", "ncrf_cat.py": "/usr/local/bin/ncrf_cat.py", "ncrf_consensus_filter": "/usr/local/bin/ncrf_consensus_filter", "ncrf_consensus_filter.py": "/usr/local/bin/ncrf_consensus_filter.py", "ncrf_parse.py": "/usr/local/bin/ncrf_parse.py", "ncrf_resolve_overlaps": "/usr/local/bin/ncrf_resolve_overlaps", "ncrf_resolve_overlaps.py": "/usr/local/bin/ncrf_resolve_overlaps.py", "ncrf_sort": "/usr/local/bin/ncrf_sort", "ncrf_sort.py": "/usr/local/bin/ncrf_sort.py", "ncrf_summary": "/usr/local/bin/ncrf_summary", "ncrf_summary.py": "/usr/local/bin/ncrf_summary.py", "ncrf_to_bed": "/usr/local/bin/ncrf_to_bed", "ncrf_to_bed.py": "/usr/local/bin/ncrf_to_bed.py"}}
+config: {"url": "https://biocontainers.pro/tools/ncrf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncrf", "latest": {"1.01.02--hec16e2b_3": "sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6"}, "tags": {"1.01.02--hec16e2b_3": "sha256:a81f0c9601c9ba6a2fec8acf5092572ef1068eead081b18d155d3263187432b6"}, "docker": "quay.io/biocontainers/ncrf", "aliases": {"NCRF": "/usr/local/bin/NCRF", "ncrf_cat": "/usr/local/bin/ncrf_cat", "ncrf_cat.py": "/usr/local/bin/ncrf_cat.py", "ncrf_consensus_filter": "/usr/local/bin/ncrf_consensus_filter", "ncrf_consensus_filter.py": "/usr/local/bin/ncrf_consensus_filter.py", "ncrf_parse.py": "/usr/local/bin/ncrf_parse.py", "ncrf_resolve_overlaps": "/usr/local/bin/ncrf_resolve_overlaps", "ncrf_resolve_overlaps.py": "/usr/local/bin/ncrf_resolve_overlaps.py", "ncrf_sort": "/usr/local/bin/ncrf_sort", "ncrf_sort.py": "/usr/local/bin/ncrf_sort.py", "ncrf_summary": "/usr/local/bin/ncrf_summary", "ncrf_summary.py": "/usr/local/bin/ncrf_summary.py", "ncrf_to_bed": "/usr/local/bin/ncrf_to_bed", "ncrf_to_bed.py": "/usr/local/bin/ncrf_to_bed.py", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "python2": "/usr/local/bin/python2", "python2-config": "/usr/local/bin/python2-config", "python2.7": "/usr/local/bin/python2.7", "python2.7-config": "/usr/local/bin/python2.7-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncrf.
@@ -234,6 +241,69 @@ $ docker run --it --rm --entrypoint /usr/local/bin/ncrf_to_bed   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/ncrf_to_bed.py
 $ podman run --it --rm --entrypoint /usr/local/bin/ncrf_to_bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/ncrf_to_bed.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2
+$ podman run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python2.7-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python2.7-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python2.7-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### smtpd.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/smtpd.py
+$ podman run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/smtpd.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

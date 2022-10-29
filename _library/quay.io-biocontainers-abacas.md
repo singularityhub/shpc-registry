@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/abacas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abacas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abacas/container.yaml"
-updated_at: "2022-10-27 00:34:28.096086"
+updated_at: "2022-10-29 05:51:27.721835"
 latest: "1.3.1--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/abacas"
 aliases:
@@ -13,29 +13,21 @@ aliases:
  - "combineMUMs"
  - "delta-filter"
  - "dnadiff"
- - "enc2xs"
  - "exact-tandems"
  - "mapview"
  - "mgaps"
  - "mummer"
  - "mummerplot"
  - "nucmer"
- - "repeat-match"
- - "run-mummer1"
- - "run-mummer3"
- - "show-aligns"
- - "show-coords"
- - "show-diff"
- - "show-snps"
- - "show-tiling"
+ - "promer"
 versions:
  - "1.3.1--pl5321hdfd78af_2"
-description: "Abacas is intended to rapidly contiguate (align, order, orientate), visualize and design primers to close gaps on shotgun assembled contigs based on a reference sequence."
-config: {"url": "https://biocontainers.pro/tools/abacas", "maintainer": "@vsoch", "description": "Abacas is intended to rapidly contiguate (align, order, orientate), visualize and design primers to close gaps on shotgun assembled contigs based on a reference sequence.", "latest": {"1.3.1--pl5321hdfd78af_2": "sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2"}, "tags": {"1.3.1--pl5321hdfd78af_2": "sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2"}, "docker": "quay.io/biocontainers/abacas", "aliases": {"abacas.1.3.1.pl": "/usr/local/bin/abacas.1.3.1.pl", "abacas.pl": "/usr/local/bin/abacas.pl", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "enc2xs": "/usr/local/bin/enc2xs", "exact-tandems": "/usr/local/bin/exact-tandems", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "repeat-match": "/usr/local/bin/repeat-match", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "show-aligns": "/usr/local/bin/show-aligns", "show-coords": "/usr/local/bin/show-coords", "show-diff": "/usr/local/bin/show-diff", "show-snps": "/usr/local/bin/show-snps", "show-tiling": "/usr/local/bin/show-tiling"}}
+description: "shpc-registry automated BioContainers addition for abacas"
+config: {"url": "https://biocontainers.pro/tools/abacas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for abacas", "latest": {"1.3.1--pl5321hdfd78af_2": "sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2"}, "tags": {"1.3.1--pl5321hdfd78af_2": "sha256:18c1fd4874883f331b3578ec2448ab36ab213c156a863495debf8a8e956a83b2"}, "docker": "quay.io/biocontainers/abacas", "aliases": {"abacas.1.3.1.pl": "/usr/local/bin/abacas.1.3.1.pl", "abacas.pl": "/usr/local/bin/abacas.pl", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "mummer": "/usr/local/bin/mummer", "mummerplot": "/usr/local/bin/mummerplot", "nucmer": "/usr/local/bin/nucmer", "promer": "/usr/local/bin/promer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/abacas.
-Abacas is intended to rapidly contiguate (align, order, orientate), visualize and design primers to close gaps on shotgun assembled contigs based on a reference sequence.
+shpc-registry automated BioContainers addition for abacas
 After [installing shpc](#install) you will want to install this container module:
 
 
@@ -162,15 +154,6 @@ $ docker run --it --rm --entrypoint /usr/local/bin/dnadiff   -v ${PWD} -w ${PWD}
 ```
 
 
-#### enc2xs
-
-```bash
-$ singularity exec <container> /usr/local/bin/enc2xs
-$ podman run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/enc2xs   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### exact-tandems
 
 ```bash
@@ -225,75 +208,12 @@ $ docker run --it --rm --entrypoint /usr/local/bin/nucmer   -v ${PWD} -w ${PWD} 
 ```
 
 
-#### repeat-match
+#### promer
 
 ```bash
-$ singularity exec <container> /usr/local/bin/repeat-match
-$ podman run --it --rm --entrypoint /usr/local/bin/repeat-match   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/repeat-match   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### run-mummer1
-
-```bash
-$ singularity exec <container> /usr/local/bin/run-mummer1
-$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer1   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### run-mummer3
-
-```bash
-$ singularity exec <container> /usr/local/bin/run-mummer3
-$ podman run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/run-mummer3   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### show-aligns
-
-```bash
-$ singularity exec <container> /usr/local/bin/show-aligns
-$ podman run --it --rm --entrypoint /usr/local/bin/show-aligns   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/show-aligns   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### show-coords
-
-```bash
-$ singularity exec <container> /usr/local/bin/show-coords
-$ podman run --it --rm --entrypoint /usr/local/bin/show-coords   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/show-coords   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### show-diff
-
-```bash
-$ singularity exec <container> /usr/local/bin/show-diff
-$ podman run --it --rm --entrypoint /usr/local/bin/show-diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/show-diff   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### show-snps
-
-```bash
-$ singularity exec <container> /usr/local/bin/show-snps
-$ podman run --it --rm --entrypoint /usr/local/bin/show-snps   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/show-snps   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### show-tiling
-
-```bash
-$ singularity exec <container> /usr/local/bin/show-tiling
-$ podman run --it --rm --entrypoint /usr/local/bin/show-tiling   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/show-tiling   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/promer
+$ podman run --it --rm --entrypoint /usr/local/bin/promer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/promer   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

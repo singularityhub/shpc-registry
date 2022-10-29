@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/rust-bio-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-bio-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rust-bio-tools/container.yaml"
-updated_at: "2022-10-27 00:35:37.220126"
+updated_at: "2022-10-29 05:52:59.908629"
 latest: "0.9.2--h46ad9a4_1"
 container_url: "https://biocontainers.pro/tools/rust-bio-tools"
 aliases:
  - "rbt"
+ - "starcode"
 versions:
  - "0.9.2--h46ad9a4_1"
 description: "shpc-registry automated BioContainers addition for rust-bio-tools"
-config: {"url": "https://biocontainers.pro/tools/rust-bio-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-bio-tools", "latest": {"0.9.2--h46ad9a4_1": "sha256:7ab14141f8438fe52f5257e8a2d202fbd58841d129049ab9e2c87c862df601e2"}, "tags": {"0.9.2--h46ad9a4_1": "sha256:7ab14141f8438fe52f5257e8a2d202fbd58841d129049ab9e2c87c862df601e2"}, "docker": "quay.io/biocontainers/rust-bio-tools", "aliases": {"rbt": "/usr/local/bin/rbt"}}
+config: {"url": "https://biocontainers.pro/tools/rust-bio-tools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rust-bio-tools", "latest": {"0.9.2--h46ad9a4_1": "sha256:7ab14141f8438fe52f5257e8a2d202fbd58841d129049ab9e2c87c862df601e2"}, "tags": {"0.9.2--h46ad9a4_1": "sha256:7ab14141f8438fe52f5257e8a2d202fbd58841d129049ab9e2c87c862df601e2"}, "docker": "quay.io/biocontainers/rust-bio-tools", "aliases": {"rbt": "/usr/local/bin/rbt", "starcode": "/usr/local/bin/starcode"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rust-bio-tools.
@@ -104,6 +105,15 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/rbt
 $ podman run --it --rm --entrypoint /usr/local/bin/rbt   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rbt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### starcode
+
+```bash
+$ singularity exec <container> /usr/local/bin/starcode
+$ podman run --it --rm --entrypoint /usr/local/bin/starcode   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/starcode   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

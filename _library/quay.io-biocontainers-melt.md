@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/melt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/melt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/melt/container.yaml"
-updated_at: "2022-10-27 00:29:21.181812"
+updated_at: "2022-10-29 05:44:39.021418"
 latest: "1.0.3--pyh864c0ab_4"
 container_url: "https://biocontainers.pro/tools/melt"
 aliases:
  - "Tm"
+ - "2to3-3.8"
+ - "idle3.8"
+ - "pydoc3.8"
+ - "python3.8"
+ - "python3.8-config"
 versions:
  - "1.0.3--pyh864c0ab_4"
 description: "shpc-registry automated BioContainers addition for melt"
-config: {"url": "https://biocontainers.pro/tools/melt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for melt", "latest": {"1.0.3--pyh864c0ab_4": "sha256:fd47a0327b2aa9e7cb06a6b7d87a88ce9673c3a48a51314721a4a5acffca7d96"}, "tags": {"1.0.3--pyh864c0ab_4": "sha256:fd47a0327b2aa9e7cb06a6b7d87a88ce9673c3a48a51314721a4a5acffca7d96"}, "docker": "quay.io/biocontainers/melt", "aliases": {"Tm": "/usr/local/bin/Tm"}}
+config: {"url": "https://biocontainers.pro/tools/melt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for melt", "latest": {"1.0.3--pyh864c0ab_4": "sha256:fd47a0327b2aa9e7cb06a6b7d87a88ce9673c3a48a51314721a4a5acffca7d96"}, "tags": {"1.0.3--pyh864c0ab_4": "sha256:fd47a0327b2aa9e7cb06a6b7d87a88ce9673c3a48a51314721a4a5acffca7d96"}, "docker": "quay.io/biocontainers/melt", "aliases": {"Tm": "/usr/local/bin/Tm", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/melt.
@@ -104,6 +109,51 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/Tm
 $ podman run --it --rm --entrypoint /usr/local/bin/Tm   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/Tm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.8-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.8-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.8-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

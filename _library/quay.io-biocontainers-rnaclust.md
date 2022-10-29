@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnaclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaclust/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rnaclust/container.yaml"
-updated_at: "2022-10-27 00:37:33.418659"
+updated_at: "2022-10-29 05:55:34.253508"
 latest: "1.3--pl5.22.0_0"
 container_url: "https://biocontainers.pro/tools/rnaclust"
 aliases:
@@ -45,10 +45,20 @@ aliases:
  - "rnaclustScores2Dist.pl"
  - "rnasoup_consMFE.pl"
  - "sparse"
+ - "AnalyseDists"
+ - "AnalyseSeqs"
+ - "Kinfold"
+ - "RNA2Dfold"
+ - "RNALalifold"
+ - "RNALfold"
+ - "RNAPKplex"
+ - "RNAaliduplex"
+ - "RNAalifold"
+ - "RNAcofold"
 versions:
  - "1.3--pl5.22.0_0"
 description: "shpc-registry automated BioContainers addition for rnaclust"
-config: {"url": "https://biocontainers.pro/tools/rnaclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaclust", "latest": {"1.3--pl5.22.0_0": "sha256:2e0d96cb5f04645abb7bf7cfe7e03a2bec36a3a99ca41e9343981651b818f7e9"}, "tags": {"1.3--pl5.22.0_0": "sha256:2e0d96cb5f04645abb7bf7cfe7e03a2bec36a3a99ca41e9343981651b818f7e9"}, "docker": "quay.io/biocontainers/rnaclust", "aliases": {"LocARNA_RNAz.pm": "/usr/local/bin/LocARNA_RNAz.pm", "RNAclust.pl": "/usr/local/bin/RNAclust.pl", "RNAsoup": "/usr/local/bin/RNAsoup", "RNAz.pm": "/usr/local/bin/RNAz.pm", "aln-seqs.pl": "/usr/local/bin/aln-seqs.pl", "aln2fa.pl": "/usr/local/bin/aln2fa.pl", "alnsel.pl": "/usr/local/bin/alnsel.pl", "average-dot.pl": "/usr/local/bin/average-dot.pl", "dot2pp": "/usr/local/bin/dot2pp", "exparna_p": "/usr/local/bin/exparna_p", "exploc_p": "/usr/local/bin/exploc_p", "gen-reliab-dot.pl": "/usr/local/bin/gen-reliab-dot.pl", "locarna": "/usr/local/bin/locarna", "locarna-mea.pl": "/usr/local/bin/locarna-mea.pl", "locarna-motif-scan": "/usr/local/bin/locarna-motif-scan", "locarna_deviation": "/usr/local/bin/locarna_deviation", "locarna_p": "/usr/local/bin/locarna_p", "locarna_rnafold_pp": "/usr/local/bin/locarna_rnafold_pp", "locarnap-predict-and-plot.pl": "/usr/local/bin/locarnap-predict-and-plot.pl", "locarnap-realign-all.pl": "/usr/local/bin/locarnap-realign-all.pl", "locarnap-revcomp.pl": "/usr/local/bin/locarnap-revcomp.pl", "locarnap-revisit-RNAz-hits.pl": "/usr/local/bin/locarnap-revisit-RNAz-hits.pl", "locarnap_fit": "/usr/local/bin/locarnap_fit", "locarnate": "/usr/local/bin/locarnate", "mlocarna": "/usr/local/bin/mlocarna", "mlocarna_nnames": "/usr/local/bin/mlocarna_nnames", "pgma": "/usr/local/bin/pgma", "plot-bmprobs": "/usr/local/bin/plot-bmprobs", "pp2dot": "/usr/local/bin/pp2dot", "reliability-profile.pl": "/usr/local/bin/reliability-profile.pl", "ribosum2cc": "/usr/local/bin/ribosum2cc", "rnaclustAlignRange.pl": "/usr/local/bin/rnaclustAlignRange.pl", "rnaclustCleanAln.pl": "/usr/local/bin/rnaclustCleanAln.pl", "rnaclustDecodeTable": "/usr/local/bin/rnaclustDecodeTable", "rnaclustScores2Dist.pl": "/usr/local/bin/rnaclustScores2Dist.pl", "rnasoup_consMFE.pl": "/usr/local/bin/rnasoup_consMFE.pl", "sparse": "/usr/local/bin/sparse"}}
+config: {"url": "https://biocontainers.pro/tools/rnaclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rnaclust", "latest": {"1.3--pl5.22.0_0": "sha256:2e0d96cb5f04645abb7bf7cfe7e03a2bec36a3a99ca41e9343981651b818f7e9"}, "tags": {"1.3--pl5.22.0_0": "sha256:2e0d96cb5f04645abb7bf7cfe7e03a2bec36a3a99ca41e9343981651b818f7e9"}, "docker": "quay.io/biocontainers/rnaclust", "aliases": {"LocARNA_RNAz.pm": "/usr/local/bin/LocARNA_RNAz.pm", "RNAclust.pl": "/usr/local/bin/RNAclust.pl", "RNAsoup": "/usr/local/bin/RNAsoup", "RNAz.pm": "/usr/local/bin/RNAz.pm", "aln-seqs.pl": "/usr/local/bin/aln-seqs.pl", "aln2fa.pl": "/usr/local/bin/aln2fa.pl", "alnsel.pl": "/usr/local/bin/alnsel.pl", "average-dot.pl": "/usr/local/bin/average-dot.pl", "dot2pp": "/usr/local/bin/dot2pp", "exparna_p": "/usr/local/bin/exparna_p", "exploc_p": "/usr/local/bin/exploc_p", "gen-reliab-dot.pl": "/usr/local/bin/gen-reliab-dot.pl", "locarna": "/usr/local/bin/locarna", "locarna-mea.pl": "/usr/local/bin/locarna-mea.pl", "locarna-motif-scan": "/usr/local/bin/locarna-motif-scan", "locarna_deviation": "/usr/local/bin/locarna_deviation", "locarna_p": "/usr/local/bin/locarna_p", "locarna_rnafold_pp": "/usr/local/bin/locarna_rnafold_pp", "locarnap-predict-and-plot.pl": "/usr/local/bin/locarnap-predict-and-plot.pl", "locarnap-realign-all.pl": "/usr/local/bin/locarnap-realign-all.pl", "locarnap-revcomp.pl": "/usr/local/bin/locarnap-revcomp.pl", "locarnap-revisit-RNAz-hits.pl": "/usr/local/bin/locarnap-revisit-RNAz-hits.pl", "locarnap_fit": "/usr/local/bin/locarnap_fit", "locarnate": "/usr/local/bin/locarnate", "mlocarna": "/usr/local/bin/mlocarna", "mlocarna_nnames": "/usr/local/bin/mlocarna_nnames", "pgma": "/usr/local/bin/pgma", "plot-bmprobs": "/usr/local/bin/plot-bmprobs", "pp2dot": "/usr/local/bin/pp2dot", "reliability-profile.pl": "/usr/local/bin/reliability-profile.pl", "ribosum2cc": "/usr/local/bin/ribosum2cc", "rnaclustAlignRange.pl": "/usr/local/bin/rnaclustAlignRange.pl", "rnaclustCleanAln.pl": "/usr/local/bin/rnaclustCleanAln.pl", "rnaclustDecodeTable": "/usr/local/bin/rnaclustDecodeTable", "rnaclustScores2Dist.pl": "/usr/local/bin/rnaclustScores2Dist.pl", "rnasoup_consMFE.pl": "/usr/local/bin/rnasoup_consMFE.pl", "sparse": "/usr/local/bin/sparse", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "Kinfold": "/usr/local/bin/Kinfold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNALfold": "/usr/local/bin/RNALfold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold", "RNAcofold": "/usr/local/bin/RNAcofold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rnaclust.
@@ -464,6 +474,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/rnasoup_consMFE.pl   -v ${PWD
 $ singularity exec <container> /usr/local/bin/sparse
 $ podman run --it --rm --entrypoint /usr/local/bin/sparse   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/sparse   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnalyseDists
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnalyseDists
+$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnalyseSeqs
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnalyseSeqs
+$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Kinfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/Kinfold
+$ podman run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNA2Dfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNA2Dfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNALalifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNALalifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNALfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNALfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAPKplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAPKplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAaliduplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAaliduplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAalifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAalifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAcofold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAcofold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAcofold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAcofold   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

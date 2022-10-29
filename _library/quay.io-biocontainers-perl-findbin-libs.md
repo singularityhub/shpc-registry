@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-findbin-libs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-findbin-libs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-findbin-libs/container.yaml"
-updated_at: "2022-10-27 00:27:22.598275"
+updated_at: "2022-10-29 05:42:05.094615"
 latest: "2.017008--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-findbin-libs"
-
+aliases:
+ - "perl-reversion"
 versions:
  - "2.017008--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-findbin-libs"
-config: {"url": "https://biocontainers.pro/tools/perl-findbin-libs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-findbin-libs", "latest": {"2.017008--pl5321hdfd78af_2": "sha256:50ab6f7a62072b596fb8abb83e2049e46bd7b6c3369083ed2d69e84e6ed95b2f"}, "tags": {"2.017008--pl5321hdfd78af_2": "sha256:50ab6f7a62072b596fb8abb83e2049e46bd7b6c3369083ed2d69e84e6ed95b2f"}, "docker": "quay.io/biocontainers/perl-findbin-libs"}
+config: {"url": "https://biocontainers.pro/tools/perl-findbin-libs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-findbin-libs", "latest": {"2.017008--pl5321hdfd78af_2": "sha256:50ab6f7a62072b596fb8abb83e2049e46bd7b6c3369083ed2d69e84e6ed95b2f"}, "tags": {"2.017008--pl5321hdfd78af_2": "sha256:50ab6f7a62072b596fb8abb83e2049e46bd7b6c3369083ed2d69e84e6ed95b2f"}, "docker": "quay.io/biocontainers/perl-findbin-libs", "aliases": {"perl-reversion": "/usr/local/bin/perl-reversion"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-findbin-libs.
@@ -97,14 +98,14 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-findbin-libs
+#### perl-reversion
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/perl-reversion
+$ podman run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl-reversion   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

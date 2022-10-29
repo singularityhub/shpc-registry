@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/chira"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chira/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/chira/container.yaml"
-updated_at: "2022-10-27 00:20:18.176944"
+updated_at: "2022-10-29 05:32:38.927730"
 latest: "1.4.3--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/chira"
 aliases:
@@ -32,10 +32,20 @@ aliases:
  - "clan_index"
  - "clan_output"
  - "clan_search"
+ - "2to3-3.9"
+ - "AnalyseDists"
+ - "AnalyseSeqs"
+ - "Kinfold"
+ - "RNA2Dfold"
+ - "RNALalifold"
+ - "RNALfold"
+ - "RNAPKplex"
+ - "RNAaliduplex"
+ - "RNAalifold"
 versions:
  - "1.4.3--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for chira"
-config: {"url": "https://biocontainers.pro/tools/chira", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chira", "latest": {"1.4.3--hdfd78af_2": "sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd"}, "tags": {"1.4.3--hdfd78af_2": "sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd"}, "docker": "quay.io/biocontainers/chira", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "blockbuster.x": "/usr/local/bin/blockbuster.x", "chira_collapse.py": "/usr/local/bin/chira_collapse.py", "chira_extract.py": "/usr/local/bin/chira_extract.py", "chira_map.py": "/usr/local/bin/chira_map.py", "chira_merge.py": "/usr/local/bin/chira_merge.py", "chira_quantify.py": "/usr/local/bin/chira_quantify.py", "chira_utilities.py": "/usr/local/bin/chira_utilities.py", "clan_annotate": "/usr/local/bin/clan_annotate", "clan_index": "/usr/local/bin/clan_index", "clan_output": "/usr/local/bin/clan_output", "clan_search": "/usr/local/bin/clan_search"}}
+config: {"url": "https://biocontainers.pro/tools/chira", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chira", "latest": {"1.4.3--hdfd78af_2": "sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd"}, "tags": {"1.4.3--hdfd78af_2": "sha256:fab0a27149cb985fca193e33b2c331f78558dc90e799e85fb912dcdc255898bd"}, "docker": "quay.io/biocontainers/chira", "aliases": {"CopomuS.py": "/usr/local/bin/CopomuS.py", "IntaRNA": "/usr/local/bin/IntaRNA", "IntaRNA1": "/usr/local/bin/IntaRNA1", "IntaRNA2": "/usr/local/bin/IntaRNA2", "IntaRNA3": "/usr/local/bin/IntaRNA3", "IntaRNA_CSV_p-value.R": "/usr/local/bin/IntaRNA_CSV_p-value.R", "IntaRNA_plotRegions.R": "/usr/local/bin/IntaRNA_plotRegions.R", "IntaRNAduplex": "/usr/local/bin/IntaRNAduplex", "IntaRNAens": "/usr/local/bin/IntaRNAens", "IntaRNAexact": "/usr/local/bin/IntaRNAexact", "IntaRNAhelix": "/usr/local/bin/IntaRNAhelix", "IntaRNAsTar": "/usr/local/bin/IntaRNAsTar", "IntaRNAseed": "/usr/local/bin/IntaRNAseed", "blockbuster.x": "/usr/local/bin/blockbuster.x", "chira_collapse.py": "/usr/local/bin/chira_collapse.py", "chira_extract.py": "/usr/local/bin/chira_extract.py", "chira_map.py": "/usr/local/bin/chira_map.py", "chira_merge.py": "/usr/local/bin/chira_merge.py", "chira_quantify.py": "/usr/local/bin/chira_quantify.py", "chira_utilities.py": "/usr/local/bin/chira_utilities.py", "clan_annotate": "/usr/local/bin/clan_annotate", "clan_index": "/usr/local/bin/clan_index", "clan_output": "/usr/local/bin/clan_output", "clan_search": "/usr/local/bin/clan_search", "2to3-3.9": "/usr/local/bin/2to3-3.9", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "Kinfold": "/usr/local/bin/Kinfold", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold", "RNALfold": "/usr/local/bin/RNALfold", "RNAPKplex": "/usr/local/bin/RNAPKplex", "RNAaliduplex": "/usr/local/bin/RNAaliduplex", "RNAalifold": "/usr/local/bin/RNAalifold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chira.
@@ -334,6 +344,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/clan_output   -v ${PWD} -w ${
 $ singularity exec <container> /usr/local/bin/clan_search
 $ podman run --it --rm --entrypoint /usr/local/bin/clan_search   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/clan_search   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnalyseDists
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnalyseDists
+$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseDists   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### AnalyseSeqs
+
+```bash
+$ singularity exec <container> /usr/local/bin/AnalyseSeqs
+$ podman run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/AnalyseSeqs   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Kinfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/Kinfold
+$ podman run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Kinfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNA2Dfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNA2Dfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNA2Dfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNALalifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNALalifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNALalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNALfold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNALfold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNALfold   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAPKplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAPKplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAPKplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAaliduplex
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAaliduplex
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAaliduplex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### RNAalifold
+
+```bash
+$ singularity exec <container> /usr/local/bin/RNAalifold
+$ podman run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/RNAalifold   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

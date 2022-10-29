@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/oauth2client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oauth2client/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/oauth2client/container.yaml"
-updated_at: "2022-10-27 00:38:34.608217"
+updated_at: "2022-10-29 05:56:53.290320"
 latest: "1.5.2--py36_0"
 container_url: "https://biocontainers.pro/tools/oauth2client"
-
+aliases:
+ - "2to3-3.6"
+ - "easy_install-3.6"
+ - "idle3.6"
+ - "pydoc3.6"
+ - "pyrsa-decrypt"
+ - "pyrsa-decrypt-bigfile"
+ - "pyrsa-encrypt"
+ - "pyrsa-encrypt-bigfile"
+ - "pyrsa-keygen"
+ - "pyrsa-priv2pub"
 versions:
  - "1.5.2--py36_0"
 description: "shpc-registry automated BioContainers addition for oauth2client"
-config: {"url": "https://biocontainers.pro/tools/oauth2client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oauth2client", "latest": {"1.5.2--py36_0": "sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16"}, "tags": {"1.5.2--py36_0": "sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16"}, "docker": "quay.io/biocontainers/oauth2client"}
+config: {"url": "https://biocontainers.pro/tools/oauth2client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for oauth2client", "latest": {"1.5.2--py36_0": "sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16"}, "tags": {"1.5.2--py36_0": "sha256:1e79da7fe2a2fb5672670f5b2427b91a74f3166c6b8fa6fce824588e62fccb16"}, "docker": "quay.io/biocontainers/oauth2client", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "pyrsa-decrypt": "/usr/local/bin/pyrsa-decrypt", "pyrsa-decrypt-bigfile": "/usr/local/bin/pyrsa-decrypt-bigfile", "pyrsa-encrypt": "/usr/local/bin/pyrsa-encrypt", "pyrsa-encrypt-bigfile": "/usr/local/bin/pyrsa-encrypt-bigfile", "pyrsa-keygen": "/usr/local/bin/pyrsa-keygen", "pyrsa-priv2pub": "/usr/local/bin/pyrsa-priv2pub"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/oauth2client.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### oauth2client
+#### 2to3-3.6
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/2to3-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### easy_install-3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/easy_install-3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/easy_install-3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.6
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.6
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.6   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-decrypt
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-decrypt
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-decrypt-bigfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-decrypt-bigfile
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt-bigfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-decrypt-bigfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-encrypt
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-encrypt
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-encrypt-bigfile
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-encrypt-bigfile
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt-bigfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-encrypt-bigfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-keygen
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-keygen
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-keygen   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pyrsa-priv2pub
+
+```bash
+$ singularity exec <container> /usr/local/bin/pyrsa-priv2pub
+$ podman run --it --rm --entrypoint /usr/local/bin/pyrsa-priv2pub   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pyrsa-priv2pub   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

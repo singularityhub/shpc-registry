@@ -4,16 +4,22 @@ name:  "quay.io/biocontainers/phirbo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phirbo/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phirbo/container.yaml"
-updated_at: "2022-10-27 00:36:21.135862"
+updated_at: "2022-10-29 05:53:58.058465"
 latest: "1.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/phirbo"
 aliases:
  - "phirbo"
  - "phirbo.py"
+ - "2to3-3.9"
+ - "f2py3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for phirbo"
-config: {"url": "https://biocontainers.pro/tools/phirbo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phirbo", "latest": {"1.0--hdfd78af_1": "sha256:6bbb1edf1669679691a20a3c9f3ebad1bcfa15d4b677fb509a7e69a8cab77188"}, "tags": {"1.0--hdfd78af_1": "sha256:6bbb1edf1669679691a20a3c9f3ebad1bcfa15d4b677fb509a7e69a8cab77188"}, "docker": "quay.io/biocontainers/phirbo", "aliases": {"phirbo": "/usr/local/bin/phirbo", "phirbo.py": "/usr/local/bin/phirbo.py"}}
+config: {"url": "https://biocontainers.pro/tools/phirbo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phirbo", "latest": {"1.0--hdfd78af_1": "sha256:6bbb1edf1669679691a20a3c9f3ebad1bcfa15d4b677fb509a7e69a8cab77188"}, "tags": {"1.0--hdfd78af_1": "sha256:6bbb1edf1669679691a20a3c9f3ebad1bcfa15d4b677fb509a7e69a8cab77188"}, "docker": "quay.io/biocontainers/phirbo", "aliases": {"phirbo": "/usr/local/bin/phirbo", "phirbo.py": "/usr/local/bin/phirbo.py", "2to3-3.9": "/usr/local/bin/2to3-3.9", "f2py3.9": "/usr/local/bin/f2py3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phirbo.
@@ -114,6 +120,60 @@ $ docker run --it --rm --entrypoint /usr/local/bin/phirbo   -v ${PWD} -w ${PWD} 
 $ singularity exec <container> /usr/local/bin/phirbo.py
 $ podman run --it --rm --entrypoint /usr/local/bin/phirbo.py   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/phirbo.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

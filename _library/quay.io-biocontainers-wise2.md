@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wise2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wise2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wise2/container.yaml"
-updated_at: "2022-10-27 00:25:12.585076"
+updated_at: "2022-10-29 05:39:09.766318"
 latest: "2.4.1--h40d77a6_1"
 container_url: "https://biocontainers.pro/tools/wise2"
 aliases:
@@ -19,10 +19,15 @@ aliases:
  - "pswdb"
  - "scanwise"
  - "scanwise_server"
+ - "2to3-3.9"
+ - "idle3.9"
+ - "pydoc3.9"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "2.4.1--h40d77a6_1"
 description: "shpc-registry automated BioContainers addition for wise2"
-config: {"url": "https://biocontainers.pro/tools/wise2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wise2", "latest": {"2.4.1--h40d77a6_1": "sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059"}, "tags": {"2.4.1--h40d77a6_1": "sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059"}, "docker": "quay.io/biocontainers/wise2", "aliases": {"dba": "/usr/local/bin/dba", "dnal": "/usr/local/bin/dnal", "estwise": "/usr/local/bin/estwise", "estwisedb": "/usr/local/bin/estwisedb", "genewise": "/usr/local/bin/genewise", "genewisedb": "/usr/local/bin/genewisedb", "promoterwise": "/usr/local/bin/promoterwise", "psw": "/usr/local/bin/psw", "pswdb": "/usr/local/bin/pswdb", "scanwise": "/usr/local/bin/scanwise", "scanwise_server": "/usr/local/bin/scanwise_server"}}
+config: {"url": "https://biocontainers.pro/tools/wise2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wise2", "latest": {"2.4.1--h40d77a6_1": "sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059"}, "tags": {"2.4.1--h40d77a6_1": "sha256:9541d66cc07102b1cbb0b8252f3cd8fe2d575788d55248b1a9d5b899d7223059"}, "docker": "quay.io/biocontainers/wise2", "aliases": {"dba": "/usr/local/bin/dba", "dnal": "/usr/local/bin/dnal", "estwise": "/usr/local/bin/estwise", "estwisedb": "/usr/local/bin/estwisedb", "genewise": "/usr/local/bin/genewise", "genewisedb": "/usr/local/bin/genewisedb", "promoterwise": "/usr/local/bin/promoterwise", "psw": "/usr/local/bin/psw", "pswdb": "/usr/local/bin/pswdb", "scanwise": "/usr/local/bin/scanwise", "scanwise_server": "/usr/local/bin/scanwise_server", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wise2.
@@ -204,6 +209,51 @@ $ docker run --it --rm --entrypoint /usr/local/bin/scanwise   -v ${PWD} -w ${PWD
 $ singularity exec <container> /usr/local/bin/scanwise_server
 $ podman run --it --rm --entrypoint /usr/local/bin/scanwise_server   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/scanwise_server   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

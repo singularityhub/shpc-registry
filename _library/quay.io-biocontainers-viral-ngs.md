@@ -4,11 +4,10 @@ name:  "quay.io/biocontainers/viral-ngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viral-ngs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/viral-ngs/container.yaml"
-updated_at: "2022-10-27 00:36:47.251141"
+updated_at: "2022-10-29 05:54:33.447637"
 latest: "1.13.4--py35_0"
 container_url: "https://biocontainers.pro/tools/viral-ngs"
 aliases:
- - ".viral-ngs-post-link.sh"
  - "Trinity-test"
  - "assembly.py"
  - "bamtools-2.4.0"
@@ -59,10 +58,20 @@ aliases:
  - "taxon_filter.py"
  - "variant_caller"
  - "vphaser2"
+ - "2to3-3.5"
+ - "GenomeAnalysisTK"
+ - "Trinity"
+ - "ace2sam"
+ - "appletviewer"
+ - "asadmin"
+ - "assistant"
+ - "bamtools"
+ - "bcftools"
+ - "bgzip"
 versions:
  - "1.13.4--py35_0"
 description: "shpc-registry automated BioContainers addition for viral-ngs"
-config: {"url": "https://biocontainers.pro/tools/viral-ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viral-ngs", "latest": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "tags": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "docker": "quay.io/biocontainers/viral-ngs", "aliases": {".viral-ngs-post-link.sh": "/usr/local/bin/.viral-ngs-post-link.sh", "Trinity-test": "/usr/local/bin/Trinity-test", "assembly.py": "/usr/local/bin/assembly.py", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "broad_utils.py": "/usr/local/bin/broad_utils.py", "coverage-3.5": "/usr/local/bin/coverage-3.5", "coverage3": "/usr/local/bin/coverage3", "extract_fullseq": "/usr/local/bin/extract_fullseq", "flake8": "/usr/local/bin/flake8", "gatk-register": "/usr/local/bin/gatk-register", "illumina.py": "/usr/local/bin/illumina.py", "install_tools.py": "/usr/local/bin/install_tools.py", "interhost.py": "/usr/local/bin/interhost.py", "intrahost.py": "/usr/local/bin/intrahost.py", "isnovoindex": "/usr/local/bin/isnovoindex", "kraken-build.bak": "/usr/local/bin/kraken-build.bak", "kraken-filter.bak": "/usr/local/bin/kraken-filter.bak", "kraken-mpa-report.bak": "/usr/local/bin/kraken-mpa-report.bak", "kraken-report.bak": "/usr/local/bin/kraken-report.bak", "kraken-translate.bak": "/usr/local/bin/kraken-translate.bak", "kraken.bak": "/usr/local/bin/kraken.bak", "metagenomics.py": "/usr/local/bin/metagenomics.py", "mvicuna": "/usr/local/bin/mvicuna", "ncbi.py": "/usr/local/bin/ncbi.py", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignCS": "/usr/local/bin/novoalignCS", "novoalignCSMPI": "/usr/local/bin/novoalignCSMPI", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "prinseq-graphs-noPCA.pl": "/usr/local/bin/prinseq-graphs-noPCA.pl", "prinseq-graphs.pl": "/usr/local/bin/prinseq-graphs.pl", "prinseq-lite.pl": "/usr/local/bin/prinseq-lite.pl", "py.test-3.5": "/usr/local/bin/py.test-3.5", "pyflakes": "/usr/local/bin/pyflakes", "read_utils.py": "/usr/local/bin/read_utils.py", "reports.py": "/usr/local/bin/reports.py", "srprism": "/usr/local/bin/srprism", "taxon_filter.py": "/usr/local/bin/taxon_filter.py", "variant_caller": "/usr/local/bin/variant_caller", "vphaser2": "/usr/local/bin/vphaser2"}}
+config: {"url": "https://biocontainers.pro/tools/viral-ngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viral-ngs", "latest": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "tags": {"1.13.4--py35_0": "sha256:cd9bfe241ddfdd6c7928778258fdcbd17621b1e32c944db3d0cba7072bddb5eb"}, "docker": "quay.io/biocontainers/viral-ngs", "aliases": {"Trinity-test": "/usr/local/bin/Trinity-test", "assembly.py": "/usr/local/bin/assembly.py", "bamtools-2.4.0": "/usr/local/bin/bamtools-2.4.0", "bmfilter": "/usr/local/bin/bmfilter", "bmtagger.sh": "/usr/local/bin/bmtagger.sh", "bmtool": "/usr/local/bin/bmtool", "broad_utils.py": "/usr/local/bin/broad_utils.py", "coverage-3.5": "/usr/local/bin/coverage-3.5", "coverage3": "/usr/local/bin/coverage3", "extract_fullseq": "/usr/local/bin/extract_fullseq", "flake8": "/usr/local/bin/flake8", "gatk-register": "/usr/local/bin/gatk-register", "illumina.py": "/usr/local/bin/illumina.py", "install_tools.py": "/usr/local/bin/install_tools.py", "interhost.py": "/usr/local/bin/interhost.py", "intrahost.py": "/usr/local/bin/intrahost.py", "isnovoindex": "/usr/local/bin/isnovoindex", "kraken-build.bak": "/usr/local/bin/kraken-build.bak", "kraken-filter.bak": "/usr/local/bin/kraken-filter.bak", "kraken-mpa-report.bak": "/usr/local/bin/kraken-mpa-report.bak", "kraken-report.bak": "/usr/local/bin/kraken-report.bak", "kraken-translate.bak": "/usr/local/bin/kraken-translate.bak", "kraken.bak": "/usr/local/bin/kraken.bak", "metagenomics.py": "/usr/local/bin/metagenomics.py", "mvicuna": "/usr/local/bin/mvicuna", "ncbi.py": "/usr/local/bin/ncbi.py", "novo2paf": "/usr/local/bin/novo2paf", "novoalign": "/usr/local/bin/novoalign", "novoalign-license-register": "/usr/local/bin/novoalign-license-register", "novoalignCS": "/usr/local/bin/novoalignCS", "novoalignCSMPI": "/usr/local/bin/novoalignCSMPI", "novoalignMPI": "/usr/local/bin/novoalignMPI", "novobarcode": "/usr/local/bin/novobarcode", "novoindex": "/usr/local/bin/novoindex", "novomethyl": "/usr/local/bin/novomethyl", "novope2bed.pl": "/usr/local/bin/novope2bed.pl", "novorun.pl": "/usr/local/bin/novorun.pl", "novosort": "/usr/local/bin/novosort", "novoutil": "/usr/local/bin/novoutil", "prinseq-graphs-noPCA.pl": "/usr/local/bin/prinseq-graphs-noPCA.pl", "prinseq-graphs.pl": "/usr/local/bin/prinseq-graphs.pl", "prinseq-lite.pl": "/usr/local/bin/prinseq-lite.pl", "py.test-3.5": "/usr/local/bin/py.test-3.5", "pyflakes": "/usr/local/bin/pyflakes", "read_utils.py": "/usr/local/bin/read_utils.py", "reports.py": "/usr/local/bin/reports.py", "srprism": "/usr/local/bin/srprism", "taxon_filter.py": "/usr/local/bin/taxon_filter.py", "variant_caller": "/usr/local/bin/variant_caller", "vphaser2": "/usr/local/bin/vphaser2", "2to3-3.5": "/usr/local/bin/2to3-3.5", "GenomeAnalysisTK": "/usr/local/bin/GenomeAnalysisTK", "Trinity": "/usr/local/bin/Trinity", "ace2sam": "/usr/local/bin/ace2sam", "appletviewer": "/usr/local/bin/appletviewer", "asadmin": "/usr/local/bin/asadmin", "assistant": "/usr/local/bin/assistant", "bamtools": "/usr/local/bin/bamtools", "bcftools": "/usr/local/bin/bcftools", "bgzip": "/usr/local/bin/bgzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viral-ngs.
@@ -145,15 +154,6 @@ $ singularity inspect -r <container>
 
 ```bash
 $ singularity inspect -d <container>
-```
-
-
-#### .viral-ngs-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.viral-ngs-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.viral-ngs-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.viral-ngs-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
@@ -604,6 +604,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/variant_caller   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/vphaser2
 $ podman run --it --rm --entrypoint /usr/local/bin/vphaser2   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/vphaser2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.5
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.5
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### GenomeAnalysisTK
+
+```bash
+$ singularity exec <container> /usr/local/bin/GenomeAnalysisTK
+$ podman run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/GenomeAnalysisTK   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### Trinity
+
+```bash
+$ singularity exec <container> /usr/local/bin/Trinity
+$ podman run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/Trinity   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### appletviewer
+
+```bash
+$ singularity exec <container> /usr/local/bin/appletviewer
+$ podman run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/appletviewer   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/asadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bamtools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bamtools
+$ podman run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bamtools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bcftools
+
+```bash
+$ singularity exec <container> /usr/local/bin/bcftools
+$ podman run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bcftools   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

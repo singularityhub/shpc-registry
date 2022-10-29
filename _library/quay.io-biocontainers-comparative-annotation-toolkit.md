@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/comparative-annotation-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/comparative-annotation-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/comparative-annotation-toolkit/container.yaml"
-updated_at: "2022-10-27 00:32:13.260666"
+updated_at: "2022-10-29 05:48:28.431015"
 latest: "0.1--py_2"
 container_url: "https://biocontainers.pro/tools/comparative-annotation-toolkit"
 aliases:
@@ -48,10 +48,20 @@ aliases:
  - "toil-wdl-runner"
  - "transMapPslToGenePred"
  - "webserver-results.body"
+ - "SplicedAlignment.pm"
+ - "ace2sam"
+ - "aggregate_scores_in_intervals.py"
+ - "align_print_template.py"
+ - "asadmin"
+ - "assistant"
+ - "augustus"
+ - "augustus2browser.pl"
+ - "augustus2gbrowse.pl"
+ - "autoAug.pl"
 versions:
  - "0.1--py_2"
 description: "shpc-registry automated BioContainers addition for comparative-annotation-toolkit"
-config: {"url": "https://biocontainers.pro/tools/comparative-annotation-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for comparative-annotation-toolkit", "latest": {"0.1--py_2": "sha256:eced8ca5b7bb2dd4ad4bb0d2e1a089944f6b6c95ca6126ba1067a93f8075eb63"}, "tags": {"0.1--py_2": "sha256:eced8ca5b7bb2dd4ad4bb0d2e1a089944f6b6c95ca6126ba1067a93f8075eb63"}, "docker": "quay.io/biocontainers/comparative-annotation-toolkit", "aliases": {"_toil_mesos_executor": "/usr/local/bin/_toil_mesos_executor", "_toil_worker": "/usr/local/bin/_toil_worker", "autoRun.pathInfo": "/usr/local/bin/autoRun.pathInfo", "axtChain": "/usr/local/bin/axtChain", "bamToPsl": "/usr/local/bin/bamToPsl", "bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "bedSort": "/usr/local/bin/bedSort", "chainMergeSort": "/usr/local/bin/chainMergeSort", "clusterGenes": "/usr/local/bin/clusterGenes", "cwltest": "/usr/local/bin/cwltest", "cwltoil": "/usr/local/bin/cwltoil", "espoca": "/usr/local/bin/espoca", "filterGenesIn_mRNAname.pl.patch": "/usr/local/bin/filterGenesIn_mRNAname.pl.patch", "genePredToBed": "/usr/local/bin/genePredToBed", "genePredToFakePsl": "/usr/local/bin/genePredToFakePsl", "genePredToGtf": "/usr/local/bin/genePredToGtf", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gtf2gff.pl.origexit": "/usr/local/bin/gtf2gff.pl.origexit", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "intron2exex.pl": "/usr/local/bin/intron2exex.pl", "luigi": "/usr/local/bin/luigi", "luigi-deps": "/usr/local/bin/luigi-deps", "luigi-deps-tree": "/usr/local/bin/luigi-deps-tree", "luigi-grep": "/usr/local/bin/luigi-grep", "luigid": "/usr/local/bin/luigid", "mock-cwl-runner": "/usr/local/bin/mock-cwl-runner", "pslCDnaFilter": "/usr/local/bin/pslCDnaFilter", "pslCheck": "/usr/local/bin/pslCheck", "pslMap": "/usr/local/bin/pslMap", "pslMapPostChain": "/usr/local/bin/pslMapPostChain", "pslPosTarget": "/usr/local/bin/pslPosTarget", "pslRecalcMatch": "/usr/local/bin/pslRecalcMatch", "pslToBigPsl": "/usr/local/bin/pslToBigPsl", "pyfasta": "/usr/local/bin/pyfasta", "ratewig.pl": "/usr/local/bin/ratewig.pl", "toil": "/usr/local/bin/toil", "toil-cwl-runner": "/usr/local/bin/toil-cwl-runner", "toil-wdl-runner": "/usr/local/bin/toil-wdl-runner", "transMapPslToGenePred": "/usr/local/bin/transMapPslToGenePred", "webserver-results.body": "/usr/local/bin/webserver-results.body"}}
+config: {"url": "https://biocontainers.pro/tools/comparative-annotation-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for comparative-annotation-toolkit", "latest": {"0.1--py_2": "sha256:eced8ca5b7bb2dd4ad4bb0d2e1a089944f6b6c95ca6126ba1067a93f8075eb63"}, "tags": {"0.1--py_2": "sha256:eced8ca5b7bb2dd4ad4bb0d2e1a089944f6b6c95ca6126ba1067a93f8075eb63"}, "docker": "quay.io/biocontainers/comparative-annotation-toolkit", "aliases": {"_toil_mesos_executor": "/usr/local/bin/_toil_mesos_executor", "_toil_worker": "/usr/local/bin/_toil_worker", "autoRun.pathInfo": "/usr/local/bin/autoRun.pathInfo", "axtChain": "/usr/local/bin/axtChain", "bamToPsl": "/usr/local/bin/bamToPsl", "bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "bedSort": "/usr/local/bin/bedSort", "chainMergeSort": "/usr/local/bin/chainMergeSort", "clusterGenes": "/usr/local/bin/clusterGenes", "cwltest": "/usr/local/bin/cwltest", "cwltoil": "/usr/local/bin/cwltoil", "espoca": "/usr/local/bin/espoca", "filterGenesIn_mRNAname.pl.patch": "/usr/local/bin/filterGenesIn_mRNAname.pl.patch", "genePredToBed": "/usr/local/bin/genePredToBed", "genePredToFakePsl": "/usr/local/bin/genePredToFakePsl", "genePredToGtf": "/usr/local/bin/genePredToGtf", "gff3ToGenePred": "/usr/local/bin/gff3ToGenePred", "gtf2gff.pl.origexit": "/usr/local/bin/gtf2gff.pl.origexit", "gtfToGenePred": "/usr/local/bin/gtfToGenePred", "intron2exex.pl": "/usr/local/bin/intron2exex.pl", "luigi": "/usr/local/bin/luigi", "luigi-deps": "/usr/local/bin/luigi-deps", "luigi-deps-tree": "/usr/local/bin/luigi-deps-tree", "luigi-grep": "/usr/local/bin/luigi-grep", "luigid": "/usr/local/bin/luigid", "mock-cwl-runner": "/usr/local/bin/mock-cwl-runner", "pslCDnaFilter": "/usr/local/bin/pslCDnaFilter", "pslCheck": "/usr/local/bin/pslCheck", "pslMap": "/usr/local/bin/pslMap", "pslMapPostChain": "/usr/local/bin/pslMapPostChain", "pslPosTarget": "/usr/local/bin/pslPosTarget", "pslRecalcMatch": "/usr/local/bin/pslRecalcMatch", "pslToBigPsl": "/usr/local/bin/pslToBigPsl", "pyfasta": "/usr/local/bin/pyfasta", "ratewig.pl": "/usr/local/bin/ratewig.pl", "toil": "/usr/local/bin/toil", "toil-cwl-runner": "/usr/local/bin/toil-cwl-runner", "toil-wdl-runner": "/usr/local/bin/toil-wdl-runner", "transMapPslToGenePred": "/usr/local/bin/transMapPslToGenePred", "webserver-results.body": "/usr/local/bin/webserver-results.body", "SplicedAlignment.pm": "/usr/local/bin/SplicedAlignment.pm", "ace2sam": "/usr/local/bin/ace2sam", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "asadmin": "/usr/local/bin/asadmin", "assistant": "/usr/local/bin/assistant", "augustus": "/usr/local/bin/augustus", "augustus2browser.pl": "/usr/local/bin/augustus2browser.pl", "augustus2gbrowse.pl": "/usr/local/bin/augustus2gbrowse.pl", "autoAug.pl": "/usr/local/bin/autoAug.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/comparative-annotation-toolkit.
@@ -494,6 +504,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/transMapPslToGenePred   -v ${
 $ singularity exec <container> /usr/local/bin/webserver-results.body
 $ podman run --it --rm --entrypoint /usr/local/bin/webserver-results.body   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/webserver-results.body   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### SplicedAlignment.pm
+
+```bash
+$ singularity exec <container> /usr/local/bin/SplicedAlignment.pm
+$ podman run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/SplicedAlignment.pm   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aggregate_scores_in_intervals.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/aggregate_scores_in_intervals.py
+$ podman run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aggregate_scores_in_intervals.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### align_print_template.py
+
+```bash
+$ singularity exec <container> /usr/local/bin/align_print_template.py
+$ podman run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/align_print_template.py   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### asadmin
+
+```bash
+$ singularity exec <container> /usr/local/bin/asadmin
+$ podman run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/asadmin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### assistant
+
+```bash
+$ singularity exec <container> /usr/local/bin/assistant
+$ podman run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/assistant   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### augustus
+
+```bash
+$ singularity exec <container> /usr/local/bin/augustus
+$ podman run --it --rm --entrypoint /usr/local/bin/augustus   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/augustus   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### augustus2browser.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/augustus2browser.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/augustus2browser.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/augustus2browser.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### augustus2gbrowse.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/augustus2gbrowse.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/augustus2gbrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/augustus2gbrowse.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### autoAug.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/autoAug.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/autoAug.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/autoAug.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

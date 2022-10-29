@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/machina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/machina/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/machina/container.yaml"
-updated_at: "2022-10-27 00:30:15.744363"
+updated_at: "2022-10-29 05:45:49.709252"
 latest: "1.2--h7ff8a90_4"
 container_url: "https://biocontainers.pro/tools/machina"
 aliases:
@@ -21,10 +21,14 @@ aliases:
  - "pmh_tr"
  - "visualizeclonetree"
  - "visualizemigrationgraph"
+ - "cbc"
+ - "clp"
+ - "cluster"
+ - "glpsol"
 versions:
  - "1.2--h7ff8a90_4"
 description: "shpc-registry automated BioContainers addition for machina"
-config: {"url": "https://biocontainers.pro/tools/machina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for machina", "latest": {"1.2--h7ff8a90_4": "sha256:e8e3b1c68d42fd8ae63a6c7fc7e25352b35d069fb0e647513db8e3e31ad8eb89"}, "tags": {"1.2--h7ff8a90_4": "sha256:e8e3b1c68d42fd8ae63a6c7fc7e25352b35d069fb0e647513db8e3e31ad8eb89"}, "docker": "quay.io/biocontainers/machina", "aliases": {"dimacs-solver": "/usr/local/bin/dimacs-solver", "dimacs-to-lgf": "/usr/local/bin/dimacs-to-lgf", "generatemigrationtrees": "/usr/local/bin/generatemigrationtrees", "generatemutationtrees": "/usr/local/bin/generatemutationtrees", "lemon-0.x-to-1.x.sh": "/usr/local/bin/lemon-0.x-to-1.x.sh", "lgf-gen": "/usr/local/bin/lgf-gen", "ms": "/usr/local/bin/ms", "pmh": "/usr/local/bin/pmh", "pmh_sankoff": "/usr/local/bin/pmh_sankoff", "pmh_ti": "/usr/local/bin/pmh_ti", "pmh_tr": "/usr/local/bin/pmh_tr", "visualizeclonetree": "/usr/local/bin/visualizeclonetree", "visualizemigrationgraph": "/usr/local/bin/visualizemigrationgraph"}}
+config: {"url": "https://biocontainers.pro/tools/machina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for machina", "latest": {"1.2--h7ff8a90_4": "sha256:e8e3b1c68d42fd8ae63a6c7fc7e25352b35d069fb0e647513db8e3e31ad8eb89"}, "tags": {"1.2--h7ff8a90_4": "sha256:e8e3b1c68d42fd8ae63a6c7fc7e25352b35d069fb0e647513db8e3e31ad8eb89"}, "docker": "quay.io/biocontainers/machina", "aliases": {"dimacs-solver": "/usr/local/bin/dimacs-solver", "dimacs-to-lgf": "/usr/local/bin/dimacs-to-lgf", "generatemigrationtrees": "/usr/local/bin/generatemigrationtrees", "generatemutationtrees": "/usr/local/bin/generatemutationtrees", "lemon-0.x-to-1.x.sh": "/usr/local/bin/lemon-0.x-to-1.x.sh", "lgf-gen": "/usr/local/bin/lgf-gen", "ms": "/usr/local/bin/ms", "pmh": "/usr/local/bin/pmh", "pmh_sankoff": "/usr/local/bin/pmh_sankoff", "pmh_ti": "/usr/local/bin/pmh_ti", "pmh_tr": "/usr/local/bin/pmh_tr", "visualizeclonetree": "/usr/local/bin/visualizeclonetree", "visualizemigrationgraph": "/usr/local/bin/visualizemigrationgraph", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "cluster": "/usr/local/bin/cluster", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/machina.
@@ -224,6 +228,42 @@ $ docker run --it --rm --entrypoint /usr/local/bin/visualizeclonetree   -v ${PWD
 $ singularity exec <container> /usr/local/bin/visualizemigrationgraph
 $ podman run --it --rm --entrypoint /usr/local/bin/visualizemigrationgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/visualizemigrationgraph   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cbc
+
+```bash
+$ singularity exec <container> /usr/local/bin/cbc
+$ podman run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cbc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### clp
+
+```bash
+$ singularity exec <container> /usr/local/bin/clp
+$ podman run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/clp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### cluster
+
+```bash
+$ singularity exec <container> /usr/local/bin/cluster
+$ podman run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cluster   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### glpsol
+
+```bash
+$ singularity exec <container> /usr/local/bin/glpsol
+$ podman run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/glpsol   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

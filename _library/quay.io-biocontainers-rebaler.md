@@ -4,15 +4,22 @@ name:  "quay.io/biocontainers/rebaler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rebaler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rebaler/container.yaml"
-updated_at: "2022-10-27 00:33:37.960242"
+updated_at: "2022-10-29 05:50:17.819142"
 latest: "0.2.0--py_1"
 container_url: "https://biocontainers.pro/tools/rebaler"
 aliases:
  - "rebaler"
+ - "f2py3.8"
+ - "k8"
+ - "minimap2"
+ - "paftools.js"
+ - "racon"
+ - "racon_wrapper"
+ - "rampler"
 versions:
  - "0.2.0--py_1"
 description: "shpc-registry automated BioContainers addition for rebaler"
-config: {"url": "https://biocontainers.pro/tools/rebaler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rebaler", "latest": {"0.2.0--py_1": "sha256:f4375fb837759febbc8332e10c78ab855f1f41eb3b1d034274baca189656d215"}, "tags": {"0.2.0--py_1": "sha256:f4375fb837759febbc8332e10c78ab855f1f41eb3b1d034274baca189656d215"}, "docker": "quay.io/biocontainers/rebaler", "aliases": {"rebaler": "/usr/local/bin/rebaler"}}
+config: {"url": "https://biocontainers.pro/tools/rebaler", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rebaler", "latest": {"0.2.0--py_1": "sha256:f4375fb837759febbc8332e10c78ab855f1f41eb3b1d034274baca189656d215"}, "tags": {"0.2.0--py_1": "sha256:f4375fb837759febbc8332e10c78ab855f1f41eb3b1d034274baca189656d215"}, "docker": "quay.io/biocontainers/rebaler", "aliases": {"rebaler": "/usr/local/bin/rebaler", "f2py3.8": "/usr/local/bin/f2py3.8", "k8": "/usr/local/bin/k8", "minimap2": "/usr/local/bin/minimap2", "paftools.js": "/usr/local/bin/paftools.js", "racon": "/usr/local/bin/racon", "racon_wrapper": "/usr/local/bin/racon_wrapper", "rampler": "/usr/local/bin/rampler"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rebaler.
@@ -104,6 +111,69 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/rebaler
 $ podman run --it --rm --entrypoint /usr/local/bin/rebaler   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/rebaler   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.8
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.8
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### k8
+
+```bash
+$ singularity exec <container> /usr/local/bin/k8
+$ podman run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/k8   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### minimap2
+
+```bash
+$ singularity exec <container> /usr/local/bin/minimap2
+$ podman run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/minimap2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### paftools.js
+
+```bash
+$ singularity exec <container> /usr/local/bin/paftools.js
+$ podman run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/paftools.js   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### racon
+
+```bash
+$ singularity exec <container> /usr/local/bin/racon
+$ podman run --it --rm --entrypoint /usr/local/bin/racon   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/racon   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### racon_wrapper
+
+```bash
+$ singularity exec <container> /usr/local/bin/racon_wrapper
+$ podman run --it --rm --entrypoint /usr/local/bin/racon_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/racon_wrapper   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### rampler
+
+```bash
+$ singularity exec <container> /usr/local/bin/rampler
+$ podman run --it --rm --entrypoint /usr/local/bin/rampler   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/rampler   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

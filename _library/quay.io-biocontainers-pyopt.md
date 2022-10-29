@@ -4,14 +4,24 @@ name:  "quay.io/biocontainers/pyopt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyopt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyopt/container.yaml"
-updated_at: "2022-10-27 00:26:45.230517"
+updated_at: "2022-10-29 05:41:14.647728"
 latest: "1.2.0--py27_1"
 container_url: "https://biocontainers.pro/tools/pyopt"
-
+aliases:
+ - "hydra_nameserver"
+ - "hydra_persist"
+ - "hydra_pmi_proxy"
+ - "idle"
+ - "mpic++"
+ - "mpicc"
+ - "mpichversion"
+ - "mpicxx"
+ - "mpiexec"
+ - "mpiexec.hydra"
 versions:
  - "1.2.0--py27_1"
 description: "shpc-registry automated BioContainers addition for pyopt"
-config: {"url": "https://biocontainers.pro/tools/pyopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopt", "latest": {"1.2.0--py27_1": "sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0"}, "tags": {"1.2.0--py27_1": "sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0"}, "docker": "quay.io/biocontainers/pyopt"}
+config: {"url": "https://biocontainers.pro/tools/pyopt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyopt", "latest": {"1.2.0--py27_1": "sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0"}, "tags": {"1.2.0--py27_1": "sha256:68a81d6e10bc3827a4ab2bccff07adfa6252637a1a8cf955fbb25c56218df1b0"}, "docker": "quay.io/biocontainers/pyopt", "aliases": {"hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "idle": "/usr/local/bin/idle", "mpic++": "/usr/local/bin/mpic++", "mpicc": "/usr/local/bin/mpicc", "mpichversion": "/usr/local/bin/mpichversion", "mpicxx": "/usr/local/bin/mpicxx", "mpiexec": "/usr/local/bin/mpiexec", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyopt.
@@ -97,14 +107,95 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### pyopt
+#### hydra_nameserver
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/hydra_nameserver
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_nameserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_nameserver   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### hydra_persist
+
+```bash
+$ singularity exec <container> /usr/local/bin/hydra_persist
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_persist   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_persist   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### hydra_pmi_proxy
+
+```bash
+$ singularity exec <container> /usr/local/bin/hydra_pmi_proxy
+$ podman run --it --rm --entrypoint /usr/local/bin/hydra_pmi_proxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/hydra_pmi_proxy   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle
+$ podman run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpic++
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpic++
+$ podman run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpic++   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpicc
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpicc
+$ podman run --it --rm --entrypoint /usr/local/bin/mpicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpicc   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpichversion
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpichversion
+$ podman run --it --rm --entrypoint /usr/local/bin/mpichversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpichversion   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpicxx
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpicxx
+$ podman run --it --rm --entrypoint /usr/local/bin/mpicxx   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpicxx   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpiexec
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpiexec
+$ podman run --it --rm --entrypoint /usr/local/bin/mpiexec   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpiexec   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### mpiexec.hydra
+
+```bash
+$ singularity exec <container> /usr/local/bin/mpiexec.hydra
+$ podman run --it --rm --entrypoint /usr/local/bin/mpiexec.hydra   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/mpiexec.hydra   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

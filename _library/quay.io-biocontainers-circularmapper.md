@@ -4,16 +4,26 @@ name:  "quay.io/biocontainers/circularmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circularmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/circularmapper/container.yaml"
-updated_at: "2022-10-27 00:19:27.511257"
+updated_at: "2022-10-29 05:31:33.618482"
 latest: "1.93.5--h4a94de4_1"
 container_url: "https://biocontainers.pro/tools/circularmapper"
 aliases:
  - "circulargenerator"
  - "realignsamfile"
+ - "2to3-3.9"
+ - "aserver"
+ - "gif2rgb"
+ - "gifbuild"
+ - "gifclrmp"
+ - "giffix"
+ - "giftext"
+ - "giftool"
+ - "idle3.9"
+ - "jaotc"
 versions:
  - "1.93.5--h4a94de4_1"
 description: "shpc-registry automated BioContainers addition for circularmapper"
-config: {"url": "https://biocontainers.pro/tools/circularmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circularmapper", "latest": {"1.93.5--h4a94de4_1": "sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895"}, "tags": {"1.93.5--h4a94de4_1": "sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895"}, "docker": "quay.io/biocontainers/circularmapper", "aliases": {"circulargenerator": "/usr/local/bin/circulargenerator", "realignsamfile": "/usr/local/bin/realignsamfile"}}
+config: {"url": "https://biocontainers.pro/tools/circularmapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circularmapper", "latest": {"1.93.5--h4a94de4_1": "sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895"}, "tags": {"1.93.5--h4a94de4_1": "sha256:4d535a4464632ca9d2484185fb7c995700bb29b226e7cf6260a0dfbc53eed895"}, "docker": "quay.io/biocontainers/circularmapper", "aliases": {"circulargenerator": "/usr/local/bin/circulargenerator", "realignsamfile": "/usr/local/bin/realignsamfile", "2to3-3.9": "/usr/local/bin/2to3-3.9", "aserver": "/usr/local/bin/aserver", "gif2rgb": "/usr/local/bin/gif2rgb", "gifbuild": "/usr/local/bin/gifbuild", "gifclrmp": "/usr/local/bin/gifclrmp", "giffix": "/usr/local/bin/giffix", "giftext": "/usr/local/bin/giftext", "giftool": "/usr/local/bin/giftool", "idle3.9": "/usr/local/bin/idle3.9", "jaotc": "/usr/local/bin/jaotc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circularmapper.
@@ -114,6 +124,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/circulargenerator   -v ${PWD}
 $ singularity exec <container> /usr/local/bin/realignsamfile
 $ podman run --it --rm --entrypoint /usr/local/bin/realignsamfile   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/realignsamfile   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### aserver
+
+```bash
+$ singularity exec <container> /usr/local/bin/aserver
+$ podman run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/aserver   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2rgb
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2rgb
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2rgb   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifbuild
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifbuild
+$ podman run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifbuild   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gifclrmp
+
+```bash
+$ singularity exec <container> /usr/local/bin/gifclrmp
+$ podman run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gifclrmp   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giffix
+
+```bash
+$ singularity exec <container> /usr/local/bin/giffix
+$ podman run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giffix   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftext
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftext
+$ podman run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftext   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### giftool
+
+```bash
+$ singularity exec <container> /usr/local/bin/giftool
+$ podman run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/giftool   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### jaotc
+
+```bash
+$ singularity exec <container> /usr/local/bin/jaotc
+$ podman run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/jaotc   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

@@ -4,17 +4,27 @@ name:  "quay.io/biocontainers/r-recetox-aplcms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-aplcms/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-aplcms/container.yaml"
-updated_at: "2022-10-27 00:39:13.826623"
+updated_at: "2022-10-29 05:57:45.304957"
 latest: "0.9.4--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-recetox-aplcms"
 aliases:
  - "elasticurl"
  - "elasticurl_cpp"
  - "elastipubsub"
+ - "2to3-3.10"
+ - "csv-import"
+ - "f2py3.10"
+ - "gflags_completions.sh"
+ - "gif2h5"
+ - "gif2hdf"
+ - "grpc_cpp_plugin"
+ - "grpc_csharp_plugin"
+ - "grpc_node_plugin"
+ - "grpc_objective_c_plugin"
 versions:
  - "0.9.4--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-recetox-aplcms"
-config: {"url": "https://biocontainers.pro/tools/r-recetox-aplcms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-aplcms", "latest": {"0.9.4--r41hdfd78af_0": "sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e"}, "tags": {"0.9.4--r41hdfd78af_0": "sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e"}, "docker": "quay.io/biocontainers/r-recetox-aplcms", "aliases": {"elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub"}}
+config: {"url": "https://biocontainers.pro/tools/r-recetox-aplcms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-recetox-aplcms", "latest": {"0.9.4--r41hdfd78af_0": "sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e"}, "tags": {"0.9.4--r41hdfd78af_0": "sha256:99b0b84eed1ed66dd9793caa02eeb5062ad1e543f32e1209835d2314ef41016e"}, "docker": "quay.io/biocontainers/r-recetox-aplcms", "aliases": {"elasticurl": "/usr/local/bin/elasticurl", "elasticurl_cpp": "/usr/local/bin/elasticurl_cpp", "elastipubsub": "/usr/local/bin/elastipubsub", "2to3-3.10": "/usr/local/bin/2to3-3.10", "csv-import": "/usr/local/bin/csv-import", "f2py3.10": "/usr/local/bin/f2py3.10", "gflags_completions.sh": "/usr/local/bin/gflags_completions.sh", "gif2h5": "/usr/local/bin/gif2h5", "gif2hdf": "/usr/local/bin/gif2hdf", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-recetox-aplcms.
@@ -124,6 +134,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/elasticurl_cpp   -v ${PWD} -w
 $ singularity exec <container> /usr/local/bin/elastipubsub
 $ podman run --it --rm --entrypoint /usr/local/bin/elastipubsub   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/elastipubsub   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### csv-import
+
+```bash
+$ singularity exec <container> /usr/local/bin/csv-import
+$ podman run --it --rm --entrypoint /usr/local/bin/csv-import   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/csv-import   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### f2py3.10
+
+```bash
+$ singularity exec <container> /usr/local/bin/f2py3.10
+$ podman run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/f2py3.10   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gflags_completions.sh
+
+```bash
+$ singularity exec <container> /usr/local/bin/gflags_completions.sh
+$ podman run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gflags_completions.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2h5
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2h5
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2h5   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### gif2hdf
+
+```bash
+$ singularity exec <container> /usr/local/bin/gif2hdf
+$ podman run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/gif2hdf   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_cpp_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_cpp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_cpp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_csharp_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_csharp_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_csharp_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_node_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_node_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_node_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### grpc_objective_c_plugin
+
+```bash
+$ singularity exec <container> /usr/local/bin/grpc_objective_c_plugin
+$ podman run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/grpc_objective_c_plugin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

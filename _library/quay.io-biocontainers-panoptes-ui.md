@@ -4,15 +4,25 @@ name:  "quay.io/biocontainers/panoptes-ui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/panoptes-ui/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/panoptes-ui/container.yaml"
-updated_at: "2022-10-27 00:40:27.460842"
+updated_at: "2022-10-29 05:59:20.590530"
 latest: "0.2.0--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/panoptes-ui"
 aliases:
  - "panoptes"
+ - "2to3-3.9"
+ - "chardetect"
+ - "flask"
+ - "humanfriendly"
+ - "idle3.9"
+ - "py.test"
+ - "pydoc3.9"
+ - "pytest"
+ - "python3.9"
+ - "python3.9-config"
 versions:
  - "0.2.0--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for panoptes-ui"
-config: {"url": "https://biocontainers.pro/tools/panoptes-ui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoptes-ui", "latest": {"0.2.0--pyh3252c3a_0": "sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112"}, "tags": {"0.2.0--pyh3252c3a_0": "sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112"}, "docker": "quay.io/biocontainers/panoptes-ui", "aliases": {"panoptes": "/usr/local/bin/panoptes"}}
+config: {"url": "https://biocontainers.pro/tools/panoptes-ui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for panoptes-ui", "latest": {"0.2.0--pyh3252c3a_0": "sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112"}, "tags": {"0.2.0--pyh3252c3a_0": "sha256:55226f91152460f59889229153c8f790dbf43a3e62d9a5bab5c84478620d4112"}, "docker": "quay.io/biocontainers/panoptes-ui", "aliases": {"panoptes": "/usr/local/bin/panoptes", "2to3-3.9": "/usr/local/bin/2to3-3.9", "chardetect": "/usr/local/bin/chardetect", "flask": "/usr/local/bin/flask", "humanfriendly": "/usr/local/bin/humanfriendly", "idle3.9": "/usr/local/bin/idle3.9", "py.test": "/usr/local/bin/py.test", "pydoc3.9": "/usr/local/bin/pydoc3.9", "pytest": "/usr/local/bin/pytest", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/panoptes-ui.
@@ -104,6 +114,96 @@ $ singularity inspect -d <container>
 $ singularity exec <container> /usr/local/bin/panoptes
 $ podman run --it --rm --entrypoint /usr/local/bin/panoptes   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/panoptes   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### chardetect
+
+```bash
+$ singularity exec <container> /usr/local/bin/chardetect
+$ podman run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/chardetect   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### flask
+
+```bash
+$ singularity exec <container> /usr/local/bin/flask
+$ podman run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/flask   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### humanfriendly
+
+```bash
+$ singularity exec <container> /usr/local/bin/humanfriendly
+$ podman run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/humanfriendly   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### idle3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/idle3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/idle3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### py.test
+
+```bash
+$ singularity exec <container> /usr/local/bin/py.test
+$ podman run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/py.test   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pydoc3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/pydoc3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pydoc3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### pytest
+
+```bash
+$ singularity exec <container> /usr/local/bin/pytest
+$ podman run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/pytest   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### python3.9-config
+
+```bash
+$ singularity exec <container> /usr/local/bin/python3.9-config
+$ podman run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/python3.9-config   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

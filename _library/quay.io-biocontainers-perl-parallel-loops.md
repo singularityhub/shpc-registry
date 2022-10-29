@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/perl-parallel-loops"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parallel-loops/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parallel-loops/container.yaml"
-updated_at: "2022-10-27 00:26:04.374940"
+updated_at: "2022-10-29 05:40:19.567908"
 latest: "0.10--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-parallel-loops"
-
+aliases:
+ - "cpanm"
+ - "moose-outdated"
+ - "package-stash-conflicts"
 versions:
  - "0.10--pl5321hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for perl-parallel-loops"
-config: {"url": "https://biocontainers.pro/tools/perl-parallel-loops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-parallel-loops", "latest": {"0.10--pl5321hdfd78af_1": "sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2"}, "tags": {"0.10--pl5321hdfd78af_1": "sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2"}, "docker": "quay.io/biocontainers/perl-parallel-loops"}
+config: {"url": "https://biocontainers.pro/tools/perl-parallel-loops", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-parallel-loops", "latest": {"0.10--pl5321hdfd78af_1": "sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2"}, "tags": {"0.10--pl5321hdfd78af_1": "sha256:caa9346c1ff9cc78d1d916bb33eb0b9105742415932abd2ef5fec067d6287dc2"}, "docker": "quay.io/biocontainers/perl-parallel-loops", "aliases": {"cpanm": "/usr/local/bin/cpanm", "moose-outdated": "/usr/local/bin/moose-outdated", "package-stash-conflicts": "/usr/local/bin/package-stash-conflicts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-parallel-loops.
@@ -97,14 +100,32 @@ $ singularity inspect -d <container>
 ```
 
 
-
-#### perl-parallel-loops
+#### cpanm
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/cpanm
+$ podman run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/cpanm   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
+
+#### moose-outdated
+
+```bash
+$ singularity exec <container> /usr/local/bin/moose-outdated
+$ podman run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/moose-outdated   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### package-stash-conflicts
+
+```bash
+$ singularity exec <container> /usr/local/bin/package-stash-conflicts
+$ podman run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/package-stash-conflicts   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

@@ -4,16 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genomicstate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicstate/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicstate/container.yaml"
-updated_at: "2022-10-27 00:30:43.966304"
+updated_at: "2022-10-29 05:46:28.918832"
 latest: "0.99.9--r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicstate"
 aliases:
- - ".bioconductor-genomicstate-post-link.sh"
- - ".bioconductor-genomicstate-pre-unlink.sh"
+ - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.99.9--r41hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicstate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicstate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicstate", "latest": {"0.99.9--r41hdfd78af_3": "sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2"}, "tags": {"0.99.9--r41hdfd78af_3": "sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2"}, "docker": "quay.io/biocontainers/bioconductor-genomicstate", "aliases": {".bioconductor-genomicstate-post-link.sh": "/usr/local/bin/.bioconductor-genomicstate-post-link.sh", ".bioconductor-genomicstate-pre-unlink.sh": "/usr/local/bin/.bioconductor-genomicstate-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicstate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicstate", "latest": {"0.99.9--r41hdfd78af_3": "sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2"}, "tags": {"0.99.9--r41hdfd78af_3": "sha256:4f8694e744d49143838e91ba3765c48739237a383739b81c4232e37b032b45c2"}, "docker": "quay.io/biocontainers/bioconductor-genomicstate", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicstate.
@@ -99,21 +98,12 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .bioconductor-genomicstate-post-link.sh
+#### x86_64-conda-linux-gnu-gfortran.bin
 
 ```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-genomicstate-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-genomicstate-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-genomicstate-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
-#### .bioconductor-genomicstate-pre-unlink.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.bioconductor-genomicstate-pre-unlink.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.bioconductor-genomicstate-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.bioconductor-genomicstate-pre-unlink.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ singularity exec <container> /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
+$ podman run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 

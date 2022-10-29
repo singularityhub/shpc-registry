@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/samclip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samclip/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samclip/container.yaml"
-updated_at: "2022-10-27 00:37:29.586178"
+updated_at: "2022-10-29 05:55:29.335695"
 latest: "0.4.0--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/samclip"
-
+aliases:
+ - "perl5.32.0"
+ - "samclip"
 versions:
  - "0.4.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for samclip"
-config: {"url": "https://biocontainers.pro/tools/samclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samclip", "latest": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "tags": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "docker": "quay.io/biocontainers/samclip"}
+config: {"url": "https://biocontainers.pro/tools/samclip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for samclip", "latest": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "tags": {"0.4.0--hdfd78af_1": "sha256:5cda1c9937eee7d269ee40bd3a7a04472f22f5cb1c78f5b856dfecb7339246ea"}, "docker": "quay.io/biocontainers/samclip", "aliases": {"perl5.32.0": "/usr/local/bin/perl5.32.0", "samclip": "/usr/local/bin/samclip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/samclip.
@@ -97,14 +99,23 @@ $ singularity inspect -d <container>
 ```
 
 
+#### perl5.32.0
+
+```bash
+$ singularity exec <container> /usr/local/bin/perl5.32.0
+$ podman run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/perl5.32.0   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
 
 #### samclip
 
 ```bash
-$ singularity run <container>
-$ podman run --rm  -v ${PWD} -w ${PWD} <container>
-$ docker run --rm  -v ${PWD} -w ${PWD} <container>
+$ singularity exec <container> /usr/local/bin/samclip
+$ podman run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/samclip   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
+
 
 
 In the above, the `<container>` directive will reference an actual container provided

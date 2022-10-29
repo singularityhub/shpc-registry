@@ -4,19 +4,28 @@ name:  "quay.io/biocontainers/gmap-fusion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmap-fusion/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gmap-fusion/container.yaml"
-updated_at: "2022-10-27 00:18:29.909486"
+updated_at: "2022-10-29 05:30:18.166362"
 latest: "0.4.0--2"
 container_url: "https://biocontainers.pro/tools/gmap-fusion"
 aliases:
- - ".gmap-fusion-post-link.sh"
  - "GMAP-fusion"
  - "gmap_compress"
  - "gmap_reassemble"
  - "gmap_uncompress"
+ - "2to3-3.7"
+ - "ace2sam"
+ - "atoiindex"
+ - "bgzip"
+ - "blast2sam.pl"
+ - "bowtie2"
+ - "bowtie2-align-l"
+ - "bowtie2-align-s"
+ - "bowtie2-build"
+ - "bowtie2-build-l"
 versions:
  - "0.4.0--2"
 description: "shpc-registry automated BioContainers addition for gmap-fusion"
-config: {"url": "https://biocontainers.pro/tools/gmap-fusion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmap-fusion", "latest": {"0.4.0--2": "sha256:40465100fd9563473496cc6d56e303b77cc691079a934db0e1b65b4a3f677e4f"}, "tags": {"0.4.0--2": "sha256:40465100fd9563473496cc6d56e303b77cc691079a934db0e1b65b4a3f677e4f"}, "docker": "quay.io/biocontainers/gmap-fusion", "aliases": {".gmap-fusion-post-link.sh": "/usr/local/bin/.gmap-fusion-post-link.sh", "GMAP-fusion": "/usr/local/bin/GMAP-fusion", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress"}}
+config: {"url": "https://biocontainers.pro/tools/gmap-fusion", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gmap-fusion", "latest": {"0.4.0--2": "sha256:40465100fd9563473496cc6d56e303b77cc691079a934db0e1b65b4a3f677e4f"}, "tags": {"0.4.0--2": "sha256:40465100fd9563473496cc6d56e303b77cc691079a934db0e1b65b4a3f677e4f"}, "docker": "quay.io/biocontainers/gmap-fusion", "aliases": {"GMAP-fusion": "/usr/local/bin/GMAP-fusion", "gmap_compress": "/usr/local/bin/gmap_compress", "gmap_reassemble": "/usr/local/bin/gmap_reassemble", "gmap_uncompress": "/usr/local/bin/gmap_uncompress", "2to3-3.7": "/usr/local/bin/2to3-3.7", "ace2sam": "/usr/local/bin/ace2sam", "atoiindex": "/usr/local/bin/atoiindex", "bgzip": "/usr/local/bin/bgzip", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gmap-fusion.
@@ -102,15 +111,6 @@ $ singularity inspect -d <container>
 ```
 
 
-#### .gmap-fusion-post-link.sh
-
-```bash
-$ singularity exec <container> /usr/local/bin/.gmap-fusion-post-link.sh
-$ podman run --it --rm --entrypoint /usr/local/bin/.gmap-fusion-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-$ docker run --it --rm --entrypoint /usr/local/bin/.gmap-fusion-post-link.sh   -v ${PWD} -w ${PWD} <container> -c " $@"
-```
-
-
 #### GMAP-fusion
 
 ```bash
@@ -144,6 +144,96 @@ $ docker run --it --rm --entrypoint /usr/local/bin/gmap_reassemble   -v ${PWD} -
 $ singularity exec <container> /usr/local/bin/gmap_uncompress
 $ podman run --it --rm --entrypoint /usr/local/bin/gmap_uncompress   -v ${PWD} -w ${PWD} <container> -c " $@"
 $ docker run --it --rm --entrypoint /usr/local/bin/gmap_uncompress   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### 2to3-3.7
+
+```bash
+$ singularity exec <container> /usr/local/bin/2to3-3.7
+$ podman run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/2to3-3.7   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### ace2sam
+
+```bash
+$ singularity exec <container> /usr/local/bin/ace2sam
+$ podman run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/ace2sam   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### atoiindex
+
+```bash
+$ singularity exec <container> /usr/local/bin/atoiindex
+$ podman run --it --rm --entrypoint /usr/local/bin/atoiindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/atoiindex   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bgzip
+
+```bash
+$ singularity exec <container> /usr/local/bin/bgzip
+$ podman run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bgzip   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### blast2sam.pl
+
+```bash
+$ singularity exec <container> /usr/local/bin/blast2sam.pl
+$ podman run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/blast2sam.pl   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-align-s
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-align-s
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-align-s   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build   -v ${PWD} -w ${PWD} <container> -c " $@"
+```
+
+
+#### bowtie2-build-l
+
+```bash
+$ singularity exec <container> /usr/local/bin/bowtie2-build-l
+$ podman run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
+$ docker run --it --rm --entrypoint /usr/local/bin/bowtie2-build-l   -v ${PWD} -w ${PWD} <container> -c " $@"
 ```
 
 
