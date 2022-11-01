@@ -22,7 +22,7 @@ jobs:
       run: |
         git clone https://github.com/singularityhub/shpc-registry-cache /tmp/cache
         printf "python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 25\n"
-        python .github/scripts/update_biocontainers.py ---cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 10
+        python .github/scripts/update_biocontainers.py --cache /tmp/cache --registry $(pwd) --min-count-inclusion 10 --additional-count-inclusion 10
 
     - name: Checkout Update branch
       env:
