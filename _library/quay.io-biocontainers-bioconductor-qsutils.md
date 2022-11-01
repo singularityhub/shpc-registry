@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-qsutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qsutils/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qsutils/container.yaml"
-updated_at: "2022-10-29 18:27:34.815774"
+updated_at: "2022-11-01 03:58:54.915817"
 latest: "1.8.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-qsutils"
 aliases:

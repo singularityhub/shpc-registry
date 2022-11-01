@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vmatch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vmatch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vmatch/container.yaml"
-updated_at: "2022-10-29 18:26:48.045091"
+updated_at: "2022-11-01 03:58:09.575146"
 latest: "2.3.0--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/vmatch"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-genomictools.filehandler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genomictools.filehandler/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-genomictools.filehandler/container.yaml"
-updated_at: "2022-10-29 18:15:58.816518"
+updated_at: "2022-11-01 03:47:39.120497"
 latest: "0.1.5.9--r41h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-genomictools.filehandler"
 aliases:

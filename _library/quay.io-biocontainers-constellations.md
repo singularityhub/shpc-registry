@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/constellations"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/constellations/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/constellations/container.yaml"
-updated_at: "2022-10-29 18:25:44.947106"
+updated_at: "2022-11-01 03:57:08.064551"
 latest: "0.1.9--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/constellations"
 aliases:

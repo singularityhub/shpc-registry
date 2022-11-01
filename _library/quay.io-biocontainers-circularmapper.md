@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/circularmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circularmapper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/circularmapper/container.yaml"
-updated_at: "2022-10-29 17:35:06.766384"
+updated_at: "2022-11-01 03:07:29.440654"
 latest: "1.93.5--h4a94de4_1"
 container_url: "https://biocontainers.pro/tools/circularmapper"
 aliases:

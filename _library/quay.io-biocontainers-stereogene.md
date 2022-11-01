@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/stereogene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/stereogene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/stereogene/container.yaml"
-updated_at: "2022-10-29 18:06:20.400750"
+updated_at: "2022-11-01 03:38:06.363725"
 latest: "2.20--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/stereogene"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-riboprofiling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-riboprofiling/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-riboprofiling/container.yaml"
-updated_at: "2022-10-29 18:18:00.956652"
+updated_at: "2022-11-01 03:49:39.518453"
 latest: "1.7.1--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-riboprofiling"
 aliases:

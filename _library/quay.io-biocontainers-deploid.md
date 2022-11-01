@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deploid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deploid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deploid/container.yaml"
-updated_at: "2022-10-29 18:11:34.911876"
+updated_at: "2022-11-01 03:43:18.246588"
 latest: "v0.5--h1341992_1"
 container_url: "https://biocontainers.pro/tools/deploid"
 aliases:
