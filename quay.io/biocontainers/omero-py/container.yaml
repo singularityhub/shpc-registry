@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/omero-py
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for omero-py
 latest:
-  5.9.1--py_0: sha256:56a89fde2637162ba04ef1ebcd437c974d48197bd2a5bfb1109af75bb9438cee
+  5.11.1--pyhdfd78af_1: sha256:2807469d81d69722225f9ac50bfd8b618308678b02261907dcda015120848cfb
 tags:
   5.9.1--py_0: sha256:56a89fde2637162ba04ef1ebcd437c974d48197bd2a5bfb1109af75bb9438cee
+  5.11.1--pyhdfd78af_1: sha256:2807469d81d69722225f9ac50bfd8b618308678b02261907dcda015120848cfb
+  5.10.3--pyhdfd78af_0: sha256:99d0d8c8fb734e2b743d1184b8d2596465fdde14535e454c8a27a2d95c1e1a9b
 docker: quay.io/biocontainers/omero-py
 aliases:
   omero: /usr/local/bin/omero

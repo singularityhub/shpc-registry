@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-tcgawgbsdata.hg19
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tcgawgbsdata.hg19
 latest:
-  1.8.0--r40hdfd78af_1: sha256:2c202a09d1ddba8190dc457cdcb27a88c07da16eb190a37e387f686ef105949c
+  1.12.0--r41hdfd78af_1: sha256:7b908be7771fa4bba796f3a18014c672025710e70fffdd022c96ff70e622da2a
 tags:
   1.8.0--r40hdfd78af_1: sha256:2c202a09d1ddba8190dc457cdcb27a88c07da16eb190a37e387f686ef105949c
+  1.12.0--r41hdfd78af_1: sha256:7b908be7771fa4bba796f3a18014c672025710e70fffdd022c96ff70e622da2a
+  1.10.0--r41hdfd78af_0: sha256:7af0f1e1d40b523188733be3e310b3673083ad70637b8e8e631f16963f46ec9f
 docker: quay.io/biocontainers/bioconductor-tcgawgbsdata.hg19
 aliases:
   .bioconductor-tcgawgbsdata.hg19-post-link.sh: /usr/local/bin/.bioconductor-tcgawgbsdata.hg19-post-link.sh

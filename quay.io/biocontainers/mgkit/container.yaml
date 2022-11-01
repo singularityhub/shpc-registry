@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mgkit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mgkit
 latest:
-  0.5.6--py36h91eb985_1: sha256:48ba88f8625cb52ac37fcfe25caf643d4ffb29ef5998357b109a545cefc4a5fd
+  0.5.8--py39hbf8eff0_0: sha256:987920948efaab1690076606ad11f7390e160e49c1d48d4ff415ceb61f94e63e
 tags:
   0.5.6--py36h91eb985_1: sha256:48ba88f8625cb52ac37fcfe25caf643d4ffb29ef5998357b109a545cefc4a5fd
+  0.5.8--py39hbf8eff0_0: sha256:987920948efaab1690076606ad11f7390e160e49c1d48d4ff415ceb61f94e63e
 docker: quay.io/biocontainers/mgkit
 aliases:
   add-gff-info: /usr/local/bin/add-gff-info

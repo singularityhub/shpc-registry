@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodnorway.450
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodnorway.450k
 latest:
-  1.8.0--r351_0: sha256:8a2f126ebe128eaee70e3b48d42a36e1507593bc5832774883d0ef1654ae143f
+  1.18.0--r41hdfd78af_0: sha256:091637eef9cb9481b0e9f5d534d212e99cd13d05e24b644e0ac899cac523b5a1
 tags:
   1.8.0--r351_0: sha256:8a2f126ebe128eaee70e3b48d42a36e1507593bc5832774883d0ef1654ae143f
+  1.18.0--r41hdfd78af_0: sha256:091637eef9cb9481b0e9f5d534d212e99cd13d05e24b644e0ac899cac523b5a1
+  1.16.0--r40hdfd78af_1: sha256:f7c54e88639863acf84560f145dcdd0513d2eeb2544722533bc606bffe24bdc5
+  1.14.0--r40_0: sha256:ad3c35f5df38d1f7fdee9fd5c595c3e7211d3b6ebd58d3409b868b8aa092ef6a
+  1.12.0--r36_0: sha256:1cc6f0f778a9c0bd39e6d223b14975c7224baa26af0d2c57e89ea55b59416278
+  1.10.0--r36_1: sha256:fb4b1be0e2376a6b2fe313de3d9f7adcf31797db8f1474862f7d2bf9d1148df8
 docker: quay.io/biocontainers/bioconductor-flowsorted.cordbloodnorway.450k
 aliases:
   .bioconductor-flowsorted.cordbloodnorway.450k-post-link.sh: /usr/local/bin/.bioconductor-flowsorted.cordbloodnorway.450k-post-link.sh

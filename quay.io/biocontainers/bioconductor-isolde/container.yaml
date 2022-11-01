@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-isolde
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-isolde
 latest:
-  1.8.0--r341h470a237_0: sha256:a634508bc0cbe032f34949ba7cb760a30c2fe2b258a42355d32268ebd14b6ae2
+  1.22.0--r41hc0cfd56_2: sha256:81e54aa4e9574e717bee99c8ced337e413d49573191d1b51c567d8040c6e442d
 tags:
   1.8.0--r341h470a237_0: sha256:a634508bc0cbe032f34949ba7cb760a30c2fe2b258a42355d32268ebd14b6ae2
+  1.22.0--r41hc0cfd56_2: sha256:81e54aa4e9574e717bee99c8ced337e413d49573191d1b51c567d8040c6e442d
+  1.20.0--r41hd029910_0: sha256:8ee4c94ffb826fe79afa62cd69ea0eb0f781f1027391b76003c63d8d0acfadcb
+  1.15.0--r40h037d062_0: sha256:fb00f09d922d42f0bdcdf88708ef0f87515c95eee72bc476bf13d268c332874f
+  1.14.0--r36h516909a_0: sha256:914fda989831e8d16a9798dcc8f5a0af2f874229f310177ee6ac1caccdc35acf
+  1.12.0--r36h516909a_1: sha256:e93d5be5d01dbf27249da95acd583b7b1cabb36a9de401efc4511d24970a2069
 docker: quay.io/biocontainers/bioconductor-isolde
 aliases:
   ncurses5-config: /usr/local/bin/ncurses5-config

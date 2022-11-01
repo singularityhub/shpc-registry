@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/fasta3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for fasta3
 latest:
-  36.3.8h--hec16e2b_0: sha256:74d827176d102207aadbc3d22a32df8e4b9842a8880c578cdeca77ff9ec3d213
+  36.3.8--hec16e2b_7: sha256:18b6f8acded5f8f9119815d76309420d1b5ab129065545c9cad094807d6ebf55
 tags:
   36.3.8h--hec16e2b_0: sha256:74d827176d102207aadbc3d22a32df8e4b9842a8880c578cdeca77ff9ec3d213
+  36.3.8--hec16e2b_7: sha256:18b6f8acded5f8f9119815d76309420d1b5ab129065545c9cad094807d6ebf55
 docker: quay.io/biocontainers/fasta3
 aliases:
   ann_exons_all.pl: /usr/local/bin/ann_exons_all.pl
