@@ -99,6 +99,8 @@ def include_path(path):
     ]:
         if path.endswith(ending):
             return False
+    if os.path.basename(path).startswith("_"):
+        return False
     if os.path.basename(path).startswith("."):
         return False
     if "[" in path or "]" in path or "README" in path:
@@ -156,6 +158,9 @@ def main():
         keepers = {}
         for x, path in aliases.items():
 
+            if not include_path(path):
+                continue
+
             # Always use a regular expression of the image name to include
             if re.search(image_name.lower(), path.lower()):
                 keepers[x] = path
@@ -193,6 +198,7 @@ def main():
             print(f"Issue adding container {container}")
 
     # Now add those not yet seen!
+    return
     print(f"Found {len(seen)} containers already added.")
     response = requests.get("https://depot.galaxyproject.org/singularity/")
     soup = BeautifulSoup(response.text, "html.parser")
