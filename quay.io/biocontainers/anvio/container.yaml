@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/anvio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for anvio
 latest:
-  6.2--0: sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8
+  7--hdfd78af_1: sha256:0bde9100ec18cef61457a716ba36a97d8b970b29409569362458f19f0632627e
 tags:
   6.2--0: sha256:b0cadc15147c6afbb48cb1c8549443d81875ce222f6ac748f58fe8423ed256b8
+  7--hdfd78af_1: sha256:0bde9100ec18cef61457a716ba36a97d8b970b29409569362458f19f0632627e
+  7--0: sha256:bdecae32f7462876bcbb367c43b944ab9c7b2352a8464fe45644e4e98e10e42e
 docker: quay.io/biocontainers/anvio
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter
