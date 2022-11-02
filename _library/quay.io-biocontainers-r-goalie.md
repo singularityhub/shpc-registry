@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-goalie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-goalie/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-goalie/container.yaml"
-updated_at: "2022-11-02 01:10:00.823707"
+updated_at: "2022-11-02 19:44:37.190875"
 latest: "0.6.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-goalie"
 

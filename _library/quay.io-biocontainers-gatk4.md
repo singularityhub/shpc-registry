@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/gatk4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk4/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gatk4/container.yaml"
-updated_at: "2022-11-02 00:23:13.081574"
-latest: "4.1.0.0--0"
+updated_at: "2022-11-02 18:43:40.953315"
+latest: "4.2.5.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gatk4"
 
 versions:
- - "4.1.0.0--0"
+ - "4.1.9.0--py39_0"
+ - "4.2.5.0--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for gatk4"
-config: {"url": "https://biocontainers.pro/tools/gatk4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4", "latest": {"4.1.0.0--0": "sha256:5309488edb01e0835fdfacf127e6e9c0a52f6ea7fe0d90fafbe1316347189f72"}, "tags": {"4.1.0.0--0": "sha256:5309488edb01e0835fdfacf127e6e9c0a52f6ea7fe0d90fafbe1316347189f72"}, "docker": "quay.io/biocontainers/gatk4"}
+config: {"url": "https://biocontainers.pro/tools/gatk4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk4", "latest": {"4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21"}, "tags": {"4.1.9.0--py39_0": "sha256:7b0b112b595861b140cbebdec5a0534bea9c40ef8bea4b3927fcea7ec53f5f57", "4.2.5.0--hdfd78af_0": "sha256:7e97333012f99e9b316d812b61bfa23fc438478e62909e64507bd1405f4ddb21"}, "docker": "quay.io/biocontainers/gatk4"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatk4.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/gatk4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gatk4:4.1.0.0--0
+$ shpc install quay.io/biocontainers/gatk4:4.1.9.0--py39_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gatk4/4.1.0.0--0
-$ module help quay.io/biocontainers/gatk4/4.1.0.0--0
+$ module load quay.io/biocontainers/gatk4/4.1.9.0--py39_0
+$ module help quay.io/biocontainers/gatk4/4.1.9.0--py39_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

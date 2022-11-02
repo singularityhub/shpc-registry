@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genogam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genogam/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genogam/container.yaml"
-updated_at: "2022-11-02 00:51:05.667618"
+updated_at: "2022-11-02 19:20:28.417094"
 latest: "2.8.0--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genogam"
 aliases:

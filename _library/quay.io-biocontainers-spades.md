@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/spades"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spades/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/spades/container.yaml"
-updated_at: "2022-11-02 00:22:28.248141"
-latest: "3.9.1--h9ee0642_1"
+updated_at: "2022-11-02 18:42:40.731378"
+latest: "3.15.4--h95f258a_0"
 container_url: "https://biocontainers.pro/tools/spades"
 aliases:
  - "bwa-spades"
@@ -32,9 +32,9 @@ aliases:
  - "pyvenv-3.5"
  - "pyvenv"
 versions:
- - "3.9.1--h9ee0642_1"
+ - "3.15.4--h95f258a_0"
 description: "shpc-registry automated BioContainers addition for spades"
-config: {"url": "https://biocontainers.pro/tools/spades", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spades", "latest": {"3.9.1--h9ee0642_1": "sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab"}, "tags": {"3.9.1--h9ee0642_1": "sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab"}, "docker": "quay.io/biocontainers/spades", "aliases": {"bwa-spades": "/usr/local/bin/bwa-spades", "corrector": "/usr/local/bin/corrector", "dipspades": "/usr/local/bin/dipspades", "dipspades.py": "/usr/local/bin/dipspades.py", "hammer": "/usr/local/bin/hammer", "ionhammer": "/usr/local/bin/ionhammer", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "scaffold_correction": "/usr/local/bin/scaffold_correction", "spades": "/usr/local/bin/spades", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "truspades.py": "/usr/local/bin/truspades.py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/spades", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spades", "latest": {"3.15.4--h95f258a_0": "sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1"}, "tags": {"3.15.4--h95f258a_0": "sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1"}, "docker": "quay.io/biocontainers/spades", "aliases": {"bwa-spades": "/usr/local/bin/bwa-spades", "corrector": "/usr/local/bin/corrector", "dipspades": "/usr/local/bin/dipspades", "dipspades.py": "/usr/local/bin/dipspades.py", "hammer": "/usr/local/bin/hammer", "ionhammer": "/usr/local/bin/ionhammer", "metaspades.py": "/usr/local/bin/metaspades.py", "plasmidspades.py": "/usr/local/bin/plasmidspades.py", "rnaspades.py": "/usr/local/bin/rnaspades.py", "scaffold_correction": "/usr/local/bin/scaffold_correction", "spades": "/usr/local/bin/spades", "spades.py": "/usr/local/bin/spades.py", "spades_init.py": "/usr/local/bin/spades_init.py", "truspades.py": "/usr/local/bin/truspades.py", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spades.
@@ -49,7 +49,7 @@ $ shpc install quay.io/biocontainers/spades
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/spades:3.9.1--h9ee0642_1
+$ shpc install quay.io/biocontainers/spades:3.15.4--h95f258a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/spades/3.9.1--h9ee0642_1
-$ module help quay.io/biocontainers/spades/3.9.1--h9ee0642_1
+$ module load quay.io/biocontainers/spades/3.15.4--h95f258a_0
+$ module help quay.io/biocontainers/spades/3.15.4--h95f258a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-repitools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-repitools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-repitools/container.yaml"
-updated_at: "2022-11-02 01:07:22.932003"
+updated_at: "2022-11-02 19:41:13.324771"
 latest: "1.40.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-repitools"
 

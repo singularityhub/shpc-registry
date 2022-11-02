@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-erccdashboard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-erccdashboard/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erccdashboard/container.yaml"
-updated_at: "2022-11-02 00:29:03.094555"
+updated_at: "2022-11-02 18:51:10.638454"
 latest: "1.28.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-erccdashboard"
 

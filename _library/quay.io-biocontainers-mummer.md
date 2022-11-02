@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/mummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mummer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mummer/container.yaml"
-updated_at: "2022-11-02 01:06:28.741858"
-latest: "3.23--pl526_8"
+updated_at: "2022-11-02 19:40:07.698200"
+latest: "3.23--pl5321h87f3376_14"
 container_url: "https://biocontainers.pro/tools/mummer"
 
 versions:
- - "3.23--pl526_8"
+ - "3.23--pl5321h87f3376_14"
 description: "shpc-registry automated BioContainers addition for mummer"
-config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl526_8": "sha256:bf48bf40c8187c335e9aa04efbf4972cda6e676d79a9a7d22c2bc9a65471c86c"}, "tags": {"3.23--pl526_8": "sha256:bf48bf40c8187c335e9aa04efbf4972cda6e676d79a9a7d22c2bc9a65471c86c"}, "docker": "quay.io/biocontainers/mummer"}
+config: {"url": "https://biocontainers.pro/tools/mummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mummer", "latest": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f"}, "tags": {"3.23--pl5321h87f3376_14": "sha256:7e8794c0f90afcca59db2b8d4be8c769b463ef7f3dc6d3f70970eae5c36ccf3f"}, "docker": "quay.io/biocontainers/mummer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mummer.
@@ -26,7 +26,7 @@ $ shpc install quay.io/biocontainers/mummer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mummer:3.23--pl526_8
+$ shpc install quay.io/biocontainers/mummer:3.23--pl5321h87f3376_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +38,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mummer/3.23--pl526_8
-$ module help quay.io/biocontainers/mummer/3.23--pl526_8
+$ module load quay.io/biocontainers/mummer/3.23--pl5321h87f3376_14
+$ module help quay.io/biocontainers/mummer/3.23--pl5321h87f3376_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

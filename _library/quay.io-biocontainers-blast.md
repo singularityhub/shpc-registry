@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
-updated_at: "2022-11-02 00:39:25.315464"
-latest: "2.9.0--pl526he19e7b1_7"
+updated_at: "2022-11-02 19:05:25.011027"
+latest: "2.13.0--hf3cf87c_0"
 container_url: "https://biocontainers.pro/tools/blast"
 
 versions:
- - "2.9.0--pl526he19e7b1_7"
+ - "2.10.1--pl526he19e7b1_3"
+ - "2.11.0--pl5262h3289130_1"
+ - "2.12.0--pl5262h3289130_0"
+ - "2.12.0--hf3cf87c_4"
+ - "2.13.0--hf3cf87c_0"
 description: "shpc-registry automated BioContainers addition for blast"
-config: {"url": "https://biocontainers.pro/tools/blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast", "latest": {"2.9.0--pl526he19e7b1_7": "sha256:8d29404e971caeeed47fa4e352a0fa8a3796a891378fe20a62aee05ecb13d006"}, "tags": {"2.9.0--pl526he19e7b1_7": "sha256:8d29404e971caeeed47fa4e352a0fa8a3796a891378fe20a62aee05ecb13d006"}, "docker": "quay.io/biocontainers/blast"}
+config: {"url": "https://biocontainers.pro/tools/blast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blast", "latest": {"2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8"}, "tags": {"2.10.1--pl526he19e7b1_3": "sha256:f12a5a35a0e6645134fcfe8650b0d1b5ff1f486430828a4ec3c4c9bfe35a5d78", "2.11.0--pl5262h3289130_1": "sha256:52e8e0ed12a0fe8854681dadb600e1d5599e04b960b01034cb53812fad944c3d", "2.12.0--pl5262h3289130_0": "sha256:a7eb056f5ca6a32551bf9f87b6b15acc45598cfef39bffdd672f59da3847cd18", "2.12.0--hf3cf87c_4": "sha256:9df91dee10f97405384734f964021feae38fcf68a721315f706be99be9366d86", "2.13.0--hf3cf87c_0": "sha256:221b0ab5540cf7c4013b51b60b2c66113104a5b700611d411ae25eb5904f78d8"}, "docker": "quay.io/biocontainers/blast"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blast.
@@ -26,7 +30,7 @@ $ shpc install quay.io/biocontainers/blast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blast:2.9.0--pl526he19e7b1_7
+$ shpc install quay.io/biocontainers/blast:2.10.1--pl526he19e7b1_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blast/2.9.0--pl526he19e7b1_7
-$ module help quay.io/biocontainers/blast/2.9.0--pl526he19e7b1_7
+$ module load quay.io/biocontainers/blast/2.10.1--pl526he19e7b1_3
+$ module help quay.io/biocontainers/blast/2.10.1--pl526he19e7b1_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

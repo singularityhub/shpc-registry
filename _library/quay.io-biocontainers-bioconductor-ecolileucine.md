@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ecolileucine"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecolileucine/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecolileucine/container.yaml"
-updated_at: "2022-11-02 00:22:06.919120"
+updated_at: "2022-11-02 18:42:12.762789"
 latest: "1.34.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecolileucine"
 aliases:

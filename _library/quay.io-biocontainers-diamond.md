@@ -4,15 +4,15 @@ name:  "quay.io/biocontainers/diamond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/diamond/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/diamond/container.yaml"
-updated_at: "2022-11-02 00:42:15.712621"
-latest: "0.9.36--h56fc30b_0"
+updated_at: "2022-11-02 19:09:06.081455"
+latest: "2.0.14--hdcc8f71_0"
 container_url: "https://biocontainers.pro/tools/diamond"
 aliases:
  - "diamond"
 versions:
- - "0.9.36--h56fc30b_0"
+ - "2.0.14--hdcc8f71_0"
 description: "shpc-registry automated BioContainers addition for diamond"
-config: {"url": "https://biocontainers.pro/tools/diamond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond", "latest": {"0.9.36--h56fc30b_0": "sha256:0f80076288d495263598b24d8684da078a86f359bd58e39958cb491abd817399"}, "tags": {"0.9.36--h56fc30b_0": "sha256:0f80076288d495263598b24d8684da078a86f359bd58e39958cb491abd817399"}, "docker": "quay.io/biocontainers/diamond", "aliases": {"diamond": "/usr/local/bin/diamond"}}
+config: {"url": "https://biocontainers.pro/tools/diamond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for diamond", "latest": {"2.0.14--hdcc8f71_0": "sha256:275f3b3c587f8a40a39693db8acd91da8be6f053ff1426863da22061bd4e7957"}, "tags": {"2.0.14--hdcc8f71_0": "sha256:275f3b3c587f8a40a39693db8acd91da8be6f053ff1426863da22061bd4e7957"}, "docker": "quay.io/biocontainers/diamond", "aliases": {"diamond": "/usr/local/bin/diamond"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/diamond.
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/diamond
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/diamond:0.9.36--h56fc30b_0
+$ shpc install quay.io/biocontainers/diamond:2.0.14--hdcc8f71_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/diamond/0.9.36--h56fc30b_0
-$ module help quay.io/biocontainers/diamond/0.9.36--h56fc30b_0
+$ module load quay.io/biocontainers/diamond/2.0.14--hdcc8f71_0
+$ module help quay.io/biocontainers/diamond/2.0.14--hdcc8f71_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

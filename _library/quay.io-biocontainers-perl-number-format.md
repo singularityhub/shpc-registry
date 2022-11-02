@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-number-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-number-format/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-number-format/container.yaml"
-updated_at: "2022-11-02 00:34:23.282852"
+updated_at: "2022-11-02 18:58:32.719356"
 latest: "1.75--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-number-format"
 aliases:

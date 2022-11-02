@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/knot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/knot/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/knot/container.yaml"
-updated_at: "2022-11-02 00:44:57.738523"
+updated_at: "2022-11-02 19:12:33.322642"
 latest: "1.0.0--1"
 container_url: "https://biocontainers.pro/tools/knot"
 

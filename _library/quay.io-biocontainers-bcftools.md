@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/bcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bcftools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bcftools/container.yaml"
-updated_at: "2022-11-02 00:39:14.335477"
-latest: "1.9--h68d8f2e_9"
+updated_at: "2022-11-02 19:05:10.049601"
+latest: "1.15--haf5b3da_0"
 container_url: "https://biocontainers.pro/tools/bcftools"
 
 versions:
- - "1.9--h68d8f2e_9"
+ - "1.12--h45bccc9_1"
+ - "1.13--h3a49de5_0"
+ - "1.14--h88f3f91_0"
+ - "1.15--haf5b3da_0"
 description: "shpc-registry automated BioContainers addition for bcftools"
-config: {"url": "https://biocontainers.pro/tools/bcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcftools", "latest": {"1.9--h68d8f2e_9": "sha256:d2a52023ebb849cb9f03823090e414147ab7a8615b8522b6e62afaa1f8ad5452"}, "tags": {"1.9--h68d8f2e_9": "sha256:d2a52023ebb849cb9f03823090e414147ab7a8615b8522b6e62afaa1f8ad5452"}, "docker": "quay.io/biocontainers/bcftools"}
+config: {"url": "https://biocontainers.pro/tools/bcftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bcftools", "latest": {"1.15--haf5b3da_0": "sha256:139465dc94f46e08600b5285602bdb3a363b683271dbab3b397618edc654719c"}, "tags": {"1.12--h45bccc9_1": "sha256:46e9e8527167c0394a99a5f0f964c8af771f8349140062a3a2d32b1e348a9bf0", "1.13--h3a49de5_0": "sha256:4eba5e6d3083a3e5c858bedb98d2148b0b27b3182c2462e82905721065bf4962", "1.14--h88f3f91_0": "sha256:1da62c4e5facf6c6186cabec8ad5320f52ed0845d0f3102e80d68fc1832f4a61", "1.15--haf5b3da_0": "sha256:139465dc94f46e08600b5285602bdb3a363b683271dbab3b397618edc654719c"}, "docker": "quay.io/biocontainers/bcftools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bcftools.
@@ -26,7 +29,7 @@ $ shpc install quay.io/biocontainers/bcftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bcftools:1.9--h68d8f2e_9
+$ shpc install quay.io/biocontainers/bcftools:1.12--h45bccc9_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bcftools/1.9--h68d8f2e_9
-$ module help quay.io/biocontainers/bcftools/1.9--h68d8f2e_9
+$ module load quay.io/biocontainers/bcftools/1.12--h45bccc9_1
+$ module help quay.io/biocontainers/bcftools/1.12--h45bccc9_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

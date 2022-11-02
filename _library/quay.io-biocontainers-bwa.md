@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/bwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bwa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bwa/container.yaml"
-updated_at: "2022-11-02 00:31:17.503922"
-latest: "0.7.8--h7132678_7"
+updated_at: "2022-11-02 18:54:11.732348"
+latest: "0.7.17--h7132678_9"
 container_url: "https://biocontainers.pro/tools/bwa"
 
 versions:
- - "0.7.8--h7132678_7"
+ - "0.7.17--h7132678_9"
 description: "shpc-registry automated BioContainers addition for bwa"
-config: {"url": "https://biocontainers.pro/tools/bwa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa", "latest": {"0.7.8--h7132678_7": "sha256:92907ceb35f5aab25fd6084b75d0f3f526b15d8e25b9923d930468ddca08c48c"}, "tags": {"0.7.8--h7132678_7": "sha256:92907ceb35f5aab25fd6084b75d0f3f526b15d8e25b9923d930468ddca08c48c"}, "docker": "quay.io/biocontainers/bwa"}
+config: {"url": "https://biocontainers.pro/tools/bwa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bwa", "latest": {"0.7.17--h7132678_9": "sha256:07822e4293a8c59755b295c448b9541db6c9bdbfdedb010bdbdcc1e1e935370f"}, "tags": {"0.7.17--h7132678_9": "sha256:07822e4293a8c59755b295c448b9541db6c9bdbfdedb010bdbdcc1e1e935370f"}, "docker": "quay.io/biocontainers/bwa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bwa.
@@ -26,7 +26,7 @@ $ shpc install quay.io/biocontainers/bwa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bwa:0.7.8--h7132678_7
+$ shpc install quay.io/biocontainers/bwa:0.7.17--h7132678_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +38,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bwa/0.7.8--h7132678_7
-$ module help quay.io/biocontainers/bwa/0.7.8--h7132678_7
+$ module load quay.io/biocontainers/bwa/0.7.17--h7132678_9
+$ module help quay.io/biocontainers/bwa/0.7.17--h7132678_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scope/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scope/container.yaml"
-updated_at: "2022-11-02 00:54:16.720201"
+updated_at: "2022-11-02 19:24:27.407394"
 latest: "1.6.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scope"
 

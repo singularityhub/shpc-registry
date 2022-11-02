@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cutadapt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cutadapt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cutadapt/container.yaml"
-updated_at: "2022-11-02 01:05:46.522865"
-latest: "2.6--py37h516909a_0"
+updated_at: "2022-11-02 19:39:15.979056"
+latest: "3.7--py38hbff2b2d_0"
 container_url: "https://biocontainers.pro/tools/cutadapt"
 aliases:
  - "cutadapt"
@@ -20,9 +20,11 @@ aliases:
  - "python3.7m-config"
  - "pyvenv-3.7"
 versions:
- - "2.6--py37h516909a_0"
+ - "3.4--py38h4a8c8d9_1"
+ - "3.5--py39h38f01e4_0"
+ - "3.7--py38hbff2b2d_0"
 description: "shpc-registry automated BioContainers addition for cutadapt"
-config: {"url": "https://biocontainers.pro/tools/cutadapt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cutadapt", "latest": {"2.6--py37h516909a_0": "sha256:b67f5a343b3b9a2d5e7be779dae6d0ec6133d5a499c7c1fe91671fbf794e774e"}, "tags": {"2.6--py37h516909a_0": "sha256:b67f5a343b3b9a2d5e7be779dae6d0ec6133d5a499c7c1fe91671fbf794e774e"}, "docker": "quay.io/biocontainers/cutadapt", "aliases": {"cutadapt": "/usr/local/bin/cutadapt", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
+config: {"url": "https://biocontainers.pro/tools/cutadapt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cutadapt", "latest": {"3.7--py38hbff2b2d_0": "sha256:c2201f010d14f6beed26e2fee75d2b8418c1413c457ccb6862b27e75913ce1ff"}, "tags": {"3.4--py38h4a8c8d9_1": "sha256:489eda33229f60e7ca8e0397f95c775d53d6f40fa0baed04386e3726d4e9e136", "3.5--py39h38f01e4_0": "sha256:7df6dc446d6a920fa78319113f05d15e79240aee0829f08ee5ebef2f8d4775a4", "3.7--py38hbff2b2d_0": "sha256:c2201f010d14f6beed26e2fee75d2b8418c1413c457ccb6862b27e75913ce1ff"}, "docker": "quay.io/biocontainers/cutadapt", "aliases": {"cutadapt": "/usr/local/bin/cutadapt", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cutadapt.
@@ -37,7 +39,7 @@ $ shpc install quay.io/biocontainers/cutadapt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cutadapt:2.6--py37h516909a_0
+$ shpc install quay.io/biocontainers/cutadapt:3.4--py38h4a8c8d9_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cutadapt/2.6--py37h516909a_0
-$ module help quay.io/biocontainers/cutadapt/2.6--py37h516909a_0
+$ module load quay.io/biocontainers/cutadapt/3.4--py38h4a8c8d9_1
+$ module help quay.io/biocontainers/cutadapt/3.4--py38h4a8c8d9_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

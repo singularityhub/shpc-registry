@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bbmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bbmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bbmap/container.yaml"
-updated_at: "2022-11-02 00:26:13.922068"
-latest: "38.79--h516909a_0"
+updated_at: "2022-11-02 18:47:36.184907"
+latest: "38.96--h5c4e2a8_0"
 container_url: "https://biocontainers.pro/tools/bbmap"
 aliases:
  - "bbmap.sh"
@@ -22,9 +22,14 @@ aliases:
  - "analyzeaccession.sh"
  - "analyzegenes.sh"
 versions:
- - "38.79--h516909a_0"
+ - "38.89--h1296035_0"
+ - "38.90--he522d1c_3"
+ - "38.91--he522d1c_1"
+ - "38.92--he522d1c_0"
+ - "38.93--he522d1c_0"
+ - "38.96--h5c4e2a8_0"
 description: "shpc-registry automated BioContainers addition for bbmap"
-config: {"url": "https://biocontainers.pro/tools/bbmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbmap", "latest": {"38.79--h516909a_0": "sha256:f12df79cf92bbc50effabab6cda944c128954295340070e5a3bdc2c991a65b87"}, "tags": {"38.79--h516909a_0": "sha256:f12df79cf92bbc50effabab6cda944c128954295340070e5a3bdc2c991a65b87"}, "docker": "quay.io/biocontainers/bbmap", "aliases": {"bbmap.sh": "/usr/local/bin/bbmap.sh", "bbmapskimmer.sh": "/usr/local/bin/bbmapskimmer.sh", "demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bbmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bbmap", "latest": {"38.96--h5c4e2a8_0": "sha256:1bc2b5f07fd506ee2cce882a1f8b7b40abffe4e860a89bd87e6599e09dee827c"}, "tags": {"38.89--h1296035_0": "sha256:acc26b0e54b1323c2db287fabb8bffecda94e766b6759dfdddc7472687b52f33", "38.90--he522d1c_3": "sha256:e85733071f68bc84959aa97155f9d13b87fdfd17f41703fe861c057a56dec2b0", "38.91--he522d1c_1": "sha256:5679f2c146844662be023769146fa787ea101f3dd833ade36aaa0bb533c9939a", "38.92--he522d1c_0": "sha256:103f3a1ec4144933c583da1f8f9bfc7447468e0150c9591d4cc1aff8f98830b9", "38.93--he522d1c_0": "sha256:c171d975ea9b1d4232af2e3608927b5ec83807608263d4e12428964b2f99e4dc", "38.96--h5c4e2a8_0": "sha256:1bc2b5f07fd506ee2cce882a1f8b7b40abffe4e860a89bd87e6599e09dee827c"}, "docker": "quay.io/biocontainers/bbmap", "aliases": {"bbmap.sh": "/usr/local/bin/bbmap.sh", "bbmapskimmer.sh": "/usr/local/bin/bbmapskimmer.sh", "demuxbyname2.sh": "/usr/local/bin/demuxbyname2.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh", "analyzesketchresults.sh": "/usr/local/bin/analyzesketchresults.sh", "comparessu.sh": "/usr/local/bin/comparessu.sh", "filtersilva.sh": "/usr/local/bin/filtersilva.sh", "sketchblacklist2.sh": "/usr/local/bin/sketchblacklist2.sh", "splitribo.sh": "/usr/local/bin/splitribo.sh", "addssu.sh": "/usr/local/bin/addssu.sh", "adjusthomopolymers.sh": "/usr/local/bin/adjusthomopolymers.sh", "analyzeaccession.sh": "/usr/local/bin/analyzeaccession.sh", "analyzegenes.sh": "/usr/local/bin/analyzegenes.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bbmap.
@@ -39,7 +44,7 @@ $ shpc install quay.io/biocontainers/bbmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bbmap:38.79--h516909a_0
+$ shpc install quay.io/biocontainers/bbmap:38.89--h1296035_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bbmap/38.79--h516909a_0
-$ module help quay.io/biocontainers/bbmap/38.79--h516909a_0
+$ module load quay.io/biocontainers/bbmap/38.89--h1296035_0
+$ module help quay.io/biocontainers/bbmap/38.89--h1296035_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

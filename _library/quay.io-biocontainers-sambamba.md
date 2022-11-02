@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sambamba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sambamba/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sambamba/container.yaml"
-updated_at: "2022-11-02 00:45:09.189709"
+updated_at: "2022-11-02 19:12:47.822566"
 latest: "0.8.2--h98b6b92_2"
 container_url: "https://biocontainers.pro/tools/sambamba"
 aliases:
@@ -15,9 +15,11 @@ aliases:
  - "ldmd2"
  - "sambamba"
 versions:
+ - "0.6.9--h89e63da_0"
+ - "0.7.1--h984e79f_3"
  - "0.8.2--h98b6b92_2"
 description: "shpc-registry automated BioContainers addition for sambamba"
-config: {"url": "https://biocontainers.pro/tools/sambamba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sambamba", "latest": {"0.8.2--h98b6b92_2": "sha256:7eef9b8c037f526a3ecb71cc05604c77eda72d90a50ca29c0af42a6e94580073"}, "tags": {"0.8.2--h98b6b92_2": "sha256:7eef9b8c037f526a3ecb71cc05604c77eda72d90a50ca29c0af42a6e94580073"}, "docker": "quay.io/biocontainers/sambamba", "aliases": {"ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "sambamba": "/usr/local/bin/sambamba"}}
+config: {"url": "https://biocontainers.pro/tools/sambamba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sambamba", "latest": {"0.8.2--h98b6b92_2": "sha256:7eef9b8c037f526a3ecb71cc05604c77eda72d90a50ca29c0af42a6e94580073"}, "tags": {"0.6.9--h89e63da_0": "sha256:b7852eccc079fff9e1ff6c4fb6e59883624373e2489588174da9f99db83b431b", "0.7.1--h984e79f_3": "sha256:9ec72d3d0991c4209830e4ff17937986808c64c430780071559e7072e8317ab3", "0.8.2--h98b6b92_2": "sha256:7eef9b8c037f526a3ecb71cc05604c77eda72d90a50ca29c0af42a6e94580073"}, "docker": "quay.io/biocontainers/sambamba", "aliases": {"ldc-build-runtime": "/usr/local/bin/ldc-build-runtime", "ldc-profdata": "/usr/local/bin/ldc-profdata", "ldc-prune-cache": "/usr/local/bin/ldc-prune-cache", "ldc2": "/usr/local/bin/ldc2", "ldmd2": "/usr/local/bin/ldmd2", "sambamba": "/usr/local/bin/sambamba"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sambamba.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/sambamba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sambamba:0.8.2--h98b6b92_2
+$ shpc install quay.io/biocontainers/sambamba:0.6.9--h89e63da_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sambamba/0.8.2--h98b6b92_2
-$ module help quay.io/biocontainers/sambamba/0.8.2--h98b6b92_2
+$ module load quay.io/biocontainers/sambamba/0.6.9--h89e63da_0
+$ module help quay.io/biocontainers/sambamba/0.6.9--h89e63da_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,14 @@ name:  "quay.io/biocontainers/star"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/star/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/star/container.yaml"
-updated_at: "2022-11-02 00:28:53.224472"
-latest: "2.7.9a--h9ee0642_0"
+updated_at: "2022-11-02 18:50:58.022871"
+latest: "2.7.10a--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/star"
 
 versions:
- - "2.7.9a--h9ee0642_0"
+ - "2.7.10a--h9ee0642_0"
 description: "shpc-registry automated BioContainers addition for star"
-config: {"url": "https://biocontainers.pro/tools/star", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for star", "latest": {"2.7.9a--h9ee0642_0": "sha256:d80ae2e0354e890d55ad0009e9ad9667d1113a679659071e6e02d50e46c8bba1"}, "tags": {"2.7.9a--h9ee0642_0": "sha256:d80ae2e0354e890d55ad0009e9ad9667d1113a679659071e6e02d50e46c8bba1"}, "docker": "quay.io/biocontainers/star"}
+config: {"url": "https://biocontainers.pro/tools/star", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for star", "latest": {"2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "tags": {"2.7.10a--h9ee0642_0": "sha256:8e4a22498462f54b924cec7dd28dc53b3f277b736497e7105036f63361aad1f4"}, "docker": "quay.io/biocontainers/star"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/star.
@@ -26,7 +26,7 @@ $ shpc install quay.io/biocontainers/star
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/star:2.7.9a--h9ee0642_0
+$ shpc install quay.io/biocontainers/star:2.7.10a--h9ee0642_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +38,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/star/2.7.9a--h9ee0642_0
-$ module help quay.io/biocontainers/star/2.7.9a--h9ee0642_0
+$ module load quay.io/biocontainers/star/2.7.10a--h9ee0642_0
+$ module help quay.io/biocontainers/star/2.7.10a--h9ee0642_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
