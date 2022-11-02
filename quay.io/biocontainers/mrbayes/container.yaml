@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/mrbayes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mrbayes
 latest:
-  3.2.7a--hcee41ef_0: sha256:bf64e9bd6a35d0b7e132a7766b89a8787ee1fb4cb269cc97f62fd3ab78b2e422
+  3.2.7--h5465cc4_4: sha256:c07cbbd563dec595ac4bf4aaedd87ce4c0fcc548ff92bc48a8a7d5cd151ec0a1
 tags:
-  3.2.7a--hcee41ef_0: sha256:bf64e9bd6a35d0b7e132a7766b89a8787ee1fb4cb269cc97f62fd3ab78b2e422
+  3.2.7--h5465cc4_4: sha256:c07cbbd563dec595ac4bf4aaedd87ce4c0fcc548ff92bc48a8a7d5cd151ec0a1
 docker: quay.io/biocontainers/mrbayes
 aliases:
   mb: /usr/local/bin/mb
