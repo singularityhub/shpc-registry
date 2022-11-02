@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/krakenuniq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/krakenuniq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/krakenuniq/container.yaml"
-updated_at: "2022-11-01 03:28:56.182529"
-latest: "1.0.1a--pl5321h19e8d03_1"
+updated_at: "2022-11-02 00:38:54.679975"
+latest: "1.0.2--pl5321h19e8d03_0"
 container_url: "https://biocontainers.pro/tools/krakenuniq"
 aliases:
  - "build_taxdb"
@@ -30,8 +30,9 @@ aliases:
  - "lwp-download"
 versions:
  - "1.0.1a--pl5321h19e8d03_1"
+ - "1.0.2--pl5321h19e8d03_0"
 description: "shpc-registry automated BioContainers addition for krakenuniq"
-config: {"url": "https://biocontainers.pro/tools/krakenuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenuniq", "latest": {"1.0.1a--pl5321h19e8d03_1": "sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e"}, "tags": {"1.0.1a--pl5321h19e8d03_1": "sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e"}, "docker": "quay.io/biocontainers/krakenuniq", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenuniq": "/usr/local/bin/krakenuniq", "krakenuniq-build": "/usr/local/bin/krakenuniq-build", "krakenuniq-download": "/usr/local/bin/krakenuniq-download", "krakenuniq-extract-reads": "/usr/local/bin/krakenuniq-extract-reads", "krakenuniq-filter": "/usr/local/bin/krakenuniq-filter", "krakenuniq-mpa-report": "/usr/local/bin/krakenuniq-mpa-report", "krakenuniq-report": "/usr/local/bin/krakenuniq-report", "krakenuniq-translate": "/usr/local/bin/krakenuniq-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "jellyfish": "/usr/local/bin/jellyfish", "idn2": "/usr/local/bin/idn2", "lwp-download": "/usr/local/bin/lwp-download"}}
+config: {"url": "https://biocontainers.pro/tools/krakenuniq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for krakenuniq", "latest": {"1.0.2--pl5321h19e8d03_0": "sha256:a3c562fab4cb3de4be59b1ed2106486bf1560d0ca2dc2c8ee5c3caf723cb50ab"}, "tags": {"1.0.1a--pl5321h19e8d03_1": "sha256:6e3e0ae1accf6002e746fe4bb3de8e81bcb206ceeaf5ee59f0cb299c4a90d11e", "1.0.2--pl5321h19e8d03_0": "sha256:a3c562fab4cb3de4be59b1ed2106486bf1560d0ca2dc2c8ee5c3caf723cb50ab"}, "docker": "quay.io/biocontainers/krakenuniq", "aliases": {"build_taxdb": "/usr/local/bin/build_taxdb", "krakenuniq": "/usr/local/bin/krakenuniq", "krakenuniq-build": "/usr/local/bin/krakenuniq-build", "krakenuniq-download": "/usr/local/bin/krakenuniq-download", "krakenuniq-extract-reads": "/usr/local/bin/krakenuniq-extract-reads", "krakenuniq-filter": "/usr/local/bin/krakenuniq-filter", "krakenuniq-mpa-report": "/usr/local/bin/krakenuniq-mpa-report", "krakenuniq-report": "/usr/local/bin/krakenuniq-report", "krakenuniq-translate": "/usr/local/bin/krakenuniq-translate", "read_merger.pl": "/usr/local/bin/read_merger.pl", "rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "tar": "/usr/local/bin/tar", "jellyfish": "/usr/local/bin/jellyfish", "idn2": "/usr/local/bin/idn2", "lwp-download": "/usr/local/bin/lwp-download"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/krakenuniq.

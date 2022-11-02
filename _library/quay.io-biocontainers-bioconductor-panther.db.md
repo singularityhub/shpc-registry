@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-panther.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-panther.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-panther.db/container.yaml"
-updated_at: "2022-11-01 03:26:34.611562"
-latest: "1.0.5--r36_0"
+updated_at: "2022-11-02 00:36:31.464393"
+latest: "1.0.11--r41hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-panther.db"
 aliases:
  - ".bioconductor-panther.db-post-link.sh"
@@ -15,8 +15,9 @@ aliases:
  - "c99"
 versions:
  - "1.0.5--r36_0"
+ - "1.0.11--r41hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-panther.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-panther.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panther.db", "latest": {"1.0.5--r36_0": "sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f"}, "tags": {"1.0.5--r36_0": "sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f"}, "docker": "quay.io/biocontainers/bioconductor-panther.db", "aliases": {".bioconductor-panther.db-post-link.sh": "/usr/local/bin/.bioconductor-panther.db-post-link.sh", ".bioconductor-panther.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-panther.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-panther.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-panther.db", "latest": {"1.0.11--r41hdfd78af_2": "sha256:bea660b93ff92277267d81d21897cff57b876df0ff8ebd7e12024e5df24e478d"}, "tags": {"1.0.5--r36_0": "sha256:3f65b64503b9661107ac8402ffcfcf3f0e0e080aeed772979fa6bc4ecd25c36f", "1.0.11--r41hdfd78af_2": "sha256:bea660b93ff92277267d81d21897cff57b876df0ff8ebd7e12024e5df24e478d"}, "docker": "quay.io/biocontainers/bioconductor-panther.db", "aliases": {".bioconductor-panther.db-post-link.sh": "/usr/local/bin/.bioconductor-panther.db-post-link.sh", ".bioconductor-panther.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-panther.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-panther.db.

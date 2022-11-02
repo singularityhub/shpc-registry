@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mwastools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mwastools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mwastools/container.yaml"
-updated_at: "2022-11-01 03:38:04.735332"
+updated_at: "2022-11-02 00:48:08.655263"
 latest: "1.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mwastools"
 aliases:

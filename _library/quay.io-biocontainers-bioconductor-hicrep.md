@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hicrep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hicrep/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hicrep/container.yaml"
-updated_at: "2022-11-01 03:09:29.455542"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-02 00:19:16.560776"
+latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hicrep"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,10 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.11.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hicrep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hicrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicrep", "latest": {"1.8.0--r36_1": "sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244"}, "tags": {"1.8.0--r36_1": "sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244"}, "docker": "quay.io/biocontainers/bioconductor-hicrep", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hicrep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hicrep", "latest": {"1.11.0--r40_0": "sha256:6361e43889de8888c8a3edb8e298dbfb9a3b851fdbbb0f0f470e496418149137"}, "tags": {"1.8.0--r36_1": "sha256:e199bec7ef2610abe3211b16cf08498077bb61b5f3a4e913afb6b39571cb5244", "1.11.0--r40_0": "sha256:6361e43889de8888c8a3edb8e298dbfb9a3b851fdbbb0f0f470e496418149137", "1.10.0--r36_0": "sha256:ab87cfc13eddb6c56ecba4f3f4c9b449e2d05e2319b42c2b30c72826b00dd1c4"}, "docker": "quay.io/biocontainers/bioconductor-hicrep", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hicrep.

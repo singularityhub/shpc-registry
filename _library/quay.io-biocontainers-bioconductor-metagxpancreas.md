@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metagxpancreas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagxpancreas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagxpancreas/container.yaml"
-updated_at: "2022-11-01 04:02:38.926791"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-02 01:12:58.964247"
+latest: "1.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagxpancreas"
 aliases:
  - ".bioconductor-metagxpancreas-post-link.sh"
@@ -20,8 +20,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-metagxpancreas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxpancreas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxpancreas", "latest": {"1.8.0--r40_0": "sha256:693bb8b05532be0bb82ad96b2e851723a429212d95279a8a1ef0457b7025a9fd"}, "tags": {"1.8.0--r40_0": "sha256:693bb8b05532be0bb82ad96b2e851723a429212d95279a8a1ef0457b7025a9fd"}, "docker": "quay.io/biocontainers/bioconductor-metagxpancreas", "aliases": {".bioconductor-metagxpancreas-post-link.sh": "/usr/local/bin/.bioconductor-metagxpancreas-post-link.sh", ".bioconductor-metagxpancreas-pre-unlink.sh": "/usr/local/bin/.bioconductor-metagxpancreas-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxpancreas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxpancreas", "latest": {"1.14.0--r41hdfd78af_1": "sha256:9af7366f79a09d4e1b431ec79b156a35189ba0aeeca74c37e7df6cbf3c2b0d2f"}, "tags": {"1.8.0--r40_0": "sha256:693bb8b05532be0bb82ad96b2e851723a429212d95279a8a1ef0457b7025a9fd", "1.14.0--r41hdfd78af_1": "sha256:9af7366f79a09d4e1b431ec79b156a35189ba0aeeca74c37e7df6cbf3c2b0d2f", "1.12.0--r41hdfd78af_0": "sha256:44646a46cdf7052a59a9b746d578776e47ce8d1a03d44d6c74e6634662d42943", "1.10.0--r40hdfd78af_1": "sha256:6f0e3a1cffe33e13b100fc1cfc4dc52356af71163e04c1aa00d5445a55af4ad0"}, "docker": "quay.io/biocontainers/bioconductor-metagxpancreas", "aliases": {".bioconductor-metagxpancreas-post-link.sh": "/usr/local/bin/.bioconductor-metagxpancreas-post-link.sh", ".bioconductor-metagxpancreas-pre-unlink.sh": "/usr/local/bin/.bioconductor-metagxpancreas-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metagxpancreas.

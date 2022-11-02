@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-jaspar2018"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jaspar2018/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jaspar2018/container.yaml"
-updated_at: "2022-11-01 03:56:07.392548"
-latest: "1.1.1--r41hdfd78af_9"
+updated_at: "2022-11-02 01:06:22.614724"
+latest: "1.1.1--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-jaspar2018"
 aliases:
  - ".bioconductor-jaspar2018-post-link.sh"
  - ".bioconductor-jaspar2018-pre-unlink.sh"
 versions:
  - "1.1.1--r41hdfd78af_9"
+ - "1.1.1--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-jaspar2018"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2018", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2018", "latest": {"1.1.1--r41hdfd78af_9": "sha256:0c1156523c2fe1a0960597e2591ad3d6f612d991dee427d611169979d03ad147"}, "tags": {"1.1.1--r41hdfd78af_9": "sha256:0c1156523c2fe1a0960597e2591ad3d6f612d991dee427d611169979d03ad147"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2018", "aliases": {".bioconductor-jaspar2018-post-link.sh": "/usr/local/bin/.bioconductor-jaspar2018-post-link.sh", ".bioconductor-jaspar2018-pre-unlink.sh": "/usr/local/bin/.bioconductor-jaspar2018-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2018", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2018", "latest": {"1.1.1--r41hdfd78af_10": "sha256:07564c3abd9023ce9bf6a65ac11b7bbb1ea359a337e9fdfff14c23627669cbee"}, "tags": {"1.1.1--r41hdfd78af_9": "sha256:0c1156523c2fe1a0960597e2591ad3d6f612d991dee427d611169979d03ad147", "1.1.1--r41hdfd78af_10": "sha256:07564c3abd9023ce9bf6a65ac11b7bbb1ea359a337e9fdfff14c23627669cbee"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2018", "aliases": {".bioconductor-jaspar2018-post-link.sh": "/usr/local/bin/.bioconductor-jaspar2018-post-link.sh", ".bioconductor-jaspar2018-pre-unlink.sh": "/usr/local/bin/.bioconductor-jaspar2018-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-jaspar2018.

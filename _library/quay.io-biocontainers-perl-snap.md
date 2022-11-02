@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-snap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-snap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-snap/container.yaml"
-updated_at: "2022-11-01 03:17:23.093201"
+updated_at: "2022-11-02 00:27:14.228977"
 latest: "2.1.1--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-snap"
 aliases:

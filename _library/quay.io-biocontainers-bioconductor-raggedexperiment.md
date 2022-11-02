@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-raggedexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-raggedexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-raggedexperiment/container.yaml"
-updated_at: "2022-11-01 03:15:33.946872"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-02 00:25:23.909358"
+latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-raggedexperiment"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.1--r40hdfd78af_0"
+ - "1.12.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-raggedexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-raggedexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-raggedexperiment", "latest": {"1.8.0--r36_1": "sha256:08fcafd5ee52a4679de83fd64f3dffa6fe8413b2a6a4c77ede9ff0c4d5c65e89"}, "tags": {"1.8.0--r36_1": "sha256:08fcafd5ee52a4679de83fd64f3dffa6fe8413b2a6a4c77ede9ff0c4d5c65e89"}, "docker": "quay.io/biocontainers/bioconductor-raggedexperiment", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-raggedexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-raggedexperiment", "latest": {"1.18.0--r41hdfd78af_0": "sha256:718348e009a234f2f4676f2c37ede0a4db3f1bfa6d779a1a368a60c24201601d"}, "tags": {"1.8.0--r36_1": "sha256:08fcafd5ee52a4679de83fd64f3dffa6fe8413b2a6a4c77ede9ff0c4d5c65e89", "1.18.0--r41hdfd78af_0": "sha256:718348e009a234f2f4676f2c37ede0a4db3f1bfa6d779a1a368a60c24201601d", "1.16.0--r41hdfd78af_0": "sha256:310f0affb9a24bec39c88cd82979fef8886b8888a5618ce79a2c5a5abf1ebf0a", "1.14.1--r40hdfd78af_0": "sha256:30a282b4e6fe4f16159b8d5ce00186a058efb668c7da170d0792922d3ed60212", "1.12.0--r40_0": "sha256:99df1d37e43fa3dd566ef1fff6a1caa63c6543f56c009ed50e94a8ab16fa7f66", "1.10.0--r36_0": "sha256:078c47831fff5417244df971de4bd079452a1beb2782e0fe92d30583cc7a1c25"}, "docker": "quay.io/biocontainers/bioconductor-raggedexperiment", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-raggedexperiment.

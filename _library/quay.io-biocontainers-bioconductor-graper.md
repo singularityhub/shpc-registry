@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-graper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graper/container.yaml"
-updated_at: "2022-11-01 03:28:55.776468"
-latest: "1.8.0--r41h399db7b_0"
+updated_at: "2022-11-02 00:38:54.265089"
+latest: "1.10.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-graper"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41h399db7b_0"
+ - "1.10.0--r41hc247a5b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-graper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-graper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graper", "latest": {"1.8.0--r41h399db7b_0": "sha256:9129dad9604cb638c68329dd5e1b938970375678548910a62e2e42006d5f2823"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:9129dad9604cb638c68329dd5e1b938970375678548910a62e2e42006d5f2823"}, "docker": "quay.io/biocontainers/bioconductor-graper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-graper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graper", "latest": {"1.10.0--r41hc247a5b_2": "sha256:252e9059b19175b8ca5971766cd0396f2ffb6c1337310a840ad1d9297a769167"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:9129dad9604cb638c68329dd5e1b938970375678548910a62e2e42006d5f2823", "1.10.0--r41hc247a5b_2": "sha256:252e9059b19175b8ca5971766cd0396f2ffb6c1337310a840ad1d9297a769167"}, "docker": "quay.io/biocontainers/bioconductor-graper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-graper.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-experimenthubdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-experimenthubdata/container.yaml"
-updated_at: "2022-11-01 03:13:10.147620"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-02 00:22:58.273098"
+latest: "1.20.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-experimenthubdata"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r351_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r40hdfd78af_1"
+ - "1.14.0--r40_0"
+ - "1.12.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-experimenthubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata", "latest": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924"}, "tags": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924"}, "docker": "quay.io/biocontainers/bioconductor-experimenthubdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-experimenthubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-experimenthubdata", "latest": {"1.20.0--r41hdfd78af_0": "sha256:4ede104f7af994756750a5e571a64c64e685b029df93361aae5de3d241fc4e33"}, "tags": {"1.8.0--r351_0": "sha256:f5e5373c60a15764ec8e41ad1165fe8c00749f376f3def1741346efb68ed7924", "1.20.0--r41hdfd78af_0": "sha256:4ede104f7af994756750a5e571a64c64e685b029df93361aae5de3d241fc4e33", "1.18.0--r41hdfd78af_0": "sha256:f67895ee66da9cba7cec6c9b616177fa90c668ae538825aa947ae0e353725d8a", "1.16.0--r40hdfd78af_1": "sha256:2f67a7a83ae9a6c89ff050fab15901da25b23d7416eebc28c05bd8d7eca05340", "1.14.0--r40_0": "sha256:756eca4bfe7abe1e3107e721f5a339a5e3f32fd9436eb506f6cb53ec945144ad", "1.12.0--r36_0": "sha256:2b47c3f34ca38d8a85c5fd331cd3ceb4f91a5c46bad92552501e9dbf4b205470"}, "docker": "quay.io/biocontainers/bioconductor-experimenthubdata", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-experimenthubdata.

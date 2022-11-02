@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-onassis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-onassis/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-onassis/container.yaml"
-updated_at: "2022-11-01 03:34:59.155224"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-02 00:45:01.425304"
+latest: "1.12.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-onassis"
 aliases:
  - ".bioconductor-onassisjavalibs-post-link.sh"
@@ -22,8 +22,9 @@ aliases:
  - "orbd"
 versions:
  - "1.8.0--r36_1"
+ - "1.12.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-onassis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-onassis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onassis", "latest": {"1.8.0--r36_1": "sha256:7f6b41c7db1447c47aec641208abf94c386b8ac1d018ff6bb6b7e0614a6383ed"}, "tags": {"1.8.0--r36_1": "sha256:7f6b41c7db1447c47aec641208abf94c386b8ac1d018ff6bb6b7e0614a6383ed"}, "docker": "quay.io/biocontainers/bioconductor-onassis", "aliases": {".bioconductor-onassisjavalibs-post-link.sh": "/usr/local/bin/.bioconductor-onassisjavalibs-post-link.sh", ".bioconductor-onassisjavalibs-pre-unlink.sh": "/usr/local/bin/.bioconductor-onassisjavalibs-pre-unlink.sh", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-onassis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-onassis", "latest": {"1.12.0--r40hdfd78af_1": "sha256:bc283549013c7e70d4f7109c0771ff2c9c78921a92be8e1899a8cfba7af0424d"}, "tags": {"1.8.0--r36_1": "sha256:7f6b41c7db1447c47aec641208abf94c386b8ac1d018ff6bb6b7e0614a6383ed", "1.12.0--r40hdfd78af_1": "sha256:bc283549013c7e70d4f7109c0771ff2c9c78921a92be8e1899a8cfba7af0424d"}, "docker": "quay.io/biocontainers/bioconductor-onassis", "aliases": {".bioconductor-onassisjavalibs-post-link.sh": "/usr/local/bin/.bioconductor-onassisjavalibs-post-link.sh", ".bioconductor-onassisjavalibs-pre-unlink.sh": "/usr/local/bin/.bioconductor-onassisjavalibs-pre-unlink.sh", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-onassis.

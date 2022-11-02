@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-wiggleplotr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wiggleplotr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wiggleplotr/container.yaml"
-updated_at: "2022-11-01 03:27:26.160470"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-02 00:37:23.609535"
+latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wiggleplotr"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
+ - "1.10.1--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wiggleplotr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wiggleplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wiggleplotr", "latest": {"1.8.0--r36_1": "sha256:4ef14dec7eb0e3b31934c99b9ca2cf2f4cf293bf32cfbe2c474f74ae73456e8b"}, "tags": {"1.8.0--r36_1": "sha256:4ef14dec7eb0e3b31934c99b9ca2cf2f4cf293bf32cfbe2c474f74ae73456e8b"}, "docker": "quay.io/biocontainers/bioconductor-wiggleplotr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wiggleplotr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wiggleplotr", "latest": {"1.18.0--r41hdfd78af_0": "sha256:9612426d56cb83bb1bf208e4844bf40d4e8ed6e07a31b60bf6503ab9a24a4566"}, "tags": {"1.8.0--r36_1": "sha256:4ef14dec7eb0e3b31934c99b9ca2cf2f4cf293bf32cfbe2c474f74ae73456e8b", "1.18.0--r41hdfd78af_0": "sha256:9612426d56cb83bb1bf208e4844bf40d4e8ed6e07a31b60bf6503ab9a24a4566", "1.16.0--r41hdfd78af_0": "sha256:758384c0ace6cf1e807b2d9f84e788d283a30dce3914f53b7747ffcd795a6dac", "1.14.0--r40hdfd78af_1": "sha256:b9ab0bf7439b854913da3650985e1c884c88286b06a9eeadd34f219d340b5eba", "1.12.0--r40_0": "sha256:cc29183ffb30e927d3edd6f1fef42afff35d48ad053aaeb07afac5c317e6a9d3", "1.10.1--r36_0": "sha256:0445bf8243475db9cd87c403fb437bd5cf1e8176558a55c56deba4e4cbfb1875"}, "docker": "quay.io/biocontainers/bioconductor-wiggleplotr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wiggleplotr.

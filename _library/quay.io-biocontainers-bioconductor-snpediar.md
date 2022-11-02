@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snpediar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snpediar/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snpediar/container.yaml"
-updated_at: "2022-11-01 03:59:02.980672"
+updated_at: "2022-11-02 01:09:20.320041"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snpediar"
 aliases:

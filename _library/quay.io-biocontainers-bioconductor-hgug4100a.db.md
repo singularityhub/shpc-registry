@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hgug4100a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgug4100a.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgug4100a.db/container.yaml"
-updated_at: "2022-11-01 03:24:54.356087"
-latest: "3.2.3--r41hdfd78af_9"
+updated_at: "2022-11-02 00:34:49.978757"
+latest: "3.2.3--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgug4100a.db"
 aliases:
  - ".bioconductor-hgug4100a.db-post-link.sh"
  - ".bioconductor-hgug4100a.db-pre-unlink.sh"
 versions:
  - "3.2.3--r41hdfd78af_9"
+ - "3.2.3--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hgug4100a.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hgug4100a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgug4100a.db", "latest": {"3.2.3--r41hdfd78af_9": "sha256:9d5ad7626eed7e1432adf8c40ca6db3c46379dfdaaf992617fd4d233fbe7941f"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:9d5ad7626eed7e1432adf8c40ca6db3c46379dfdaaf992617fd4d233fbe7941f"}, "docker": "quay.io/biocontainers/bioconductor-hgug4100a.db", "aliases": {".bioconductor-hgug4100a.db-post-link.sh": "/usr/local/bin/.bioconductor-hgug4100a.db-post-link.sh", ".bioconductor-hgug4100a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgug4100a.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hgug4100a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgug4100a.db", "latest": {"3.2.3--r41hdfd78af_10": "sha256:1332250c314c98f838a3376b367da036fb628bbad0104f0502256774f6a80536"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:9d5ad7626eed7e1432adf8c40ca6db3c46379dfdaaf992617fd4d233fbe7941f", "3.2.3--r41hdfd78af_10": "sha256:1332250c314c98f838a3376b367da036fb628bbad0104f0502256774f6a80536"}, "docker": "quay.io/biocontainers/bioconductor-hgug4100a.db", "aliases": {".bioconductor-hgug4100a.db-post-link.sh": "/usr/local/bin/.bioconductor-hgug4100a.db-post-link.sh", ".bioconductor-hgug4100a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgug4100a.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hgug4100a.db.

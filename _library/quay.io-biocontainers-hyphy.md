@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/hyphy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hyphy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hyphy/container.yaml"
-updated_at: "2022-11-01 03:52:31.411257"
-latest: "2.5.9--ha076c6e_0"
+updated_at: "2022-11-02 01:02:43.759517"
+latest: "2.5.38--h91ae1e9_0"
 container_url: "https://biocontainers.pro/tools/hyphy"
 
 versions:
  - "2.5.9--ha076c6e_0"
+ - "2.5.38--h91ae1e9_0"
 description: "shpc-registry automated BioContainers addition for hyphy"
-config: {"url": "https://biocontainers.pro/tools/hyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hyphy", "latest": {"2.5.9--ha076c6e_0": "sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3"}, "tags": {"2.5.9--ha076c6e_0": "sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3"}, "docker": "quay.io/biocontainers/hyphy"}
+config: {"url": "https://biocontainers.pro/tools/hyphy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hyphy", "latest": {"2.5.38--h91ae1e9_0": "sha256:9f943f4c5c10e4017da77ede652df4b920858fcdc9926a077b426b4fbad18d2a"}, "tags": {"2.5.9--ha076c6e_0": "sha256:a84936a03479d9782d991344e44db9539804065e04d9c6850ae911c068b723d3", "2.5.38--h91ae1e9_0": "sha256:9f943f4c5c10e4017da77ede652df4b920858fcdc9926a077b426b4fbad18d2a"}, "docker": "quay.io/biocontainers/hyphy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hyphy.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-wheatprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wheatprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wheatprobe/container.yaml"
-updated_at: "2022-11-01 03:35:53.479586"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-02 00:45:56.070044"
+latest: "2.18.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-wheatprobe"
 aliases:
  - ".bioconductor-wheatprobe-post-link.sh"
  - ".bioconductor-wheatprobe-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-wheatprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wheatprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wheatprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:444bc9708fc582c5b519ca4fbdb92fcc829faf9af66cbfa31450581eba8a89bb"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:444bc9708fc582c5b519ca4fbdb92fcc829faf9af66cbfa31450581eba8a89bb"}, "docker": "quay.io/biocontainers/bioconductor-wheatprobe", "aliases": {".bioconductor-wheatprobe-post-link.sh": "/usr/local/bin/.bioconductor-wheatprobe-post-link.sh", ".bioconductor-wheatprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-wheatprobe-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wheatprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wheatprobe", "latest": {"2.18.0--r41hdfd78af_10": "sha256:386bd3a3324603becaad34c3e8d9ebe2c7546b798b452533383febcbc147f872"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:444bc9708fc582c5b519ca4fbdb92fcc829faf9af66cbfa31450581eba8a89bb", "2.18.0--r41hdfd78af_10": "sha256:386bd3a3324603becaad34c3e8d9ebe2c7546b798b452533383febcbc147f872"}, "docker": "quay.io/biocontainers/bioconductor-wheatprobe", "aliases": {".bioconductor-wheatprobe-post-link.sh": "/usr/local/bin/.bioconductor-wheatprobe-post-link.sh", ".bioconductor-wheatprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-wheatprobe-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wheatprobe.

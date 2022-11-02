@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cmap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cmap/container.yaml"
-updated_at: "2022-11-01 03:39:03.261883"
-latest: "1.15.1--r40hdfd78af_9"
+updated_at: "2022-11-02 00:49:07.751493"
+latest: "1.15.1--r41hdfd78af_12"
 container_url: "https://biocontainers.pro/tools/bioconductor-cmap"
 aliases:
  - ".bioconductor-cmap-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.15.1--r40hdfd78af_9"
+ - "1.15.1--r41hdfd78af_12"
 description: "shpc-registry automated BioContainers addition for bioconductor-cmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cmap", "latest": {"1.15.1--r40hdfd78af_9": "sha256:e9bbaa68cc1d35e8c91394485bab68b3c82f6803c5a41470cb973d0a6bafe702"}, "tags": {"1.15.1--r40hdfd78af_9": "sha256:e9bbaa68cc1d35e8c91394485bab68b3c82f6803c5a41470cb973d0a6bafe702"}, "docker": "quay.io/biocontainers/bioconductor-cmap", "aliases": {".bioconductor-cmap-post-link.sh": "/usr/local/bin/.bioconductor-cmap-post-link.sh", ".bioconductor-cmap-pre-unlink.sh": "/usr/local/bin/.bioconductor-cmap-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cmap", "latest": {"1.15.1--r41hdfd78af_12": "sha256:edd28b1613447880bf593f3e7ab7930b2792c275d8a484b825a8e4c81f6eaaa9"}, "tags": {"1.15.1--r40hdfd78af_9": "sha256:e9bbaa68cc1d35e8c91394485bab68b3c82f6803c5a41470cb973d0a6bafe702", "1.15.1--r41hdfd78af_12": "sha256:edd28b1613447880bf593f3e7ab7930b2792c275d8a484b825a8e4c81f6eaaa9"}, "docker": "quay.io/biocontainers/bioconductor-cmap", "aliases": {".bioconductor-cmap-post-link.sh": "/usr/local/bin/.bioconductor-cmap-post-link.sh", ".bioconductor-cmap-pre-unlink.sh": "/usr/local/bin/.bioconductor-cmap-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cmap.

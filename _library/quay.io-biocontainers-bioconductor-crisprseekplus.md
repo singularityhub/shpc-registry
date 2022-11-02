@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-crisprseekplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crisprseekplus/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crisprseekplus/container.yaml"
-updated_at: "2022-11-01 03:50:10.307522"
+updated_at: "2022-11-02 01:00:21.288633"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crisprseekplus"
 aliases:

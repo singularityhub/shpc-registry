@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trnascan-se"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnascan-se/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/trnascan-se/container.yaml"
-updated_at: "2022-11-01 03:20:27.725176"
-latest: "2.0.9--pl5321hec16e2b_3"
+updated_at: "2022-11-02 00:30:21.198710"
+latest: "2.0.11--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/trnascan-se"
 aliases:
  - "EukHighConfidenceFilter"
@@ -29,8 +29,9 @@ aliases:
  - "cmstat"
 versions:
  - "2.0.9--pl5321hec16e2b_3"
+ - "2.0.11--pl5321hec16e2b_0"
 description: "shpc-registry automated BioContainers addition for trnascan-se"
-config: {"url": "https://biocontainers.pro/tools/trnascan-se", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnascan-se", "latest": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db"}, "tags": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db"}, "docker": "quay.io/biocontainers/trnascan-se", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
+config: {"url": "https://biocontainers.pro/tools/trnascan-se", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnascan-se", "latest": {"2.0.11--pl5321hec16e2b_0": "sha256:2481d6ff812e85feade195effde2895c78470c578046a0770b7c87c32050131f"}, "tags": {"2.0.9--pl5321hec16e2b_3": "sha256:fd0e8936d0d819cdfee10e4d5246cfc07a52b391432b525390580fc42c08d9db", "2.0.11--pl5321hec16e2b_0": "sha256:2481d6ff812e85feade195effde2895c78470c578046a0770b7c87c32050131f"}, "docker": "quay.io/biocontainers/trnascan-se", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "eufindtRNA": "/usr/local/bin/eufindtRNA", "fasta2gsi": "/usr/local/bin/fasta2gsi", "sstofa": "/usr/local/bin/sstofa", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "cmalign": "/usr/local/bin/cmalign", "cmbuild": "/usr/local/bin/cmbuild", "cmcalibrate": "/usr/local/bin/cmcalibrate", "cmconvert": "/usr/local/bin/cmconvert", "cmemit": "/usr/local/bin/cmemit", "cmfetch": "/usr/local/bin/cmfetch", "cmpress": "/usr/local/bin/cmpress", "cmscan": "/usr/local/bin/cmscan", "cmsearch": "/usr/local/bin/cmsearch", "cmstat": "/usr/local/bin/cmstat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trnascan-se.

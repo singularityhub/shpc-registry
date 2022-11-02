@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-normalyzerde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-normalyzerde/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-normalyzerde/container.yaml"
-updated_at: "2022-11-01 03:58:51.282470"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-02 01:09:08.498813"
+latest: "1.12.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-normalyzerde"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-normalyzerde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-normalyzerde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normalyzerde", "latest": {"1.8.0--r40hdfd78af_1": "sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a"}, "docker": "quay.io/biocontainers/bioconductor-normalyzerde", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-normalyzerde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-normalyzerde", "latest": {"1.12.0--r41hdfd78af_0": "sha256:eecd6e09323b90456133fe14d35ae228e45ec61397c4af7dc79d0cb1261b9e9e"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:90686d98fa3cff795f8b781bf7090468f883aee5dcc796f0d8a955224bf8653a", "1.12.0--r41hdfd78af_0": "sha256:eecd6e09323b90456133fe14d35ae228e45ec61397c4af7dc79d0cb1261b9e9e", "1.10.0--r41hdfd78af_0": "sha256:64a1ce5e5d9bf288157ac7a971aac8d9f30859a0f807143db5a7b4b53a1ba5cd"}, "docker": "quay.io/biocontainers/bioconductor-normalyzerde", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-normalyzerde.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cobra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cobra/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cobra/container.yaml"
-updated_at: "2022-11-01 03:33:07.397311"
-latest: "0.4.0b6--py35_0"
+updated_at: "2022-11-02 00:43:08.492432"
+latest: "0.21.0--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/cobra"
 aliases:
  - "glpsol"
@@ -20,8 +20,13 @@ aliases:
  - "xslt-config"
 versions:
  - "0.4.0b6--py35_0"
+ - "0.21.0--pyh5e36f6f_1"
+ - "0.20.0--pyh3252c3a_0"
+ - "0.19.0--pyh864c0ab_0"
+ - "0.18.1--pyh864c0ab_1"
+ - "0.17.1--py_0"
 description: "shpc-registry automated BioContainers addition for cobra"
-config: {"url": "https://biocontainers.pro/tools/cobra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cobra", "latest": {"0.4.0b6--py35_0": "sha256:5f16c88186911111b9674164f82267860b5b80ac67a466c48d7f14141be5bf7c"}, "tags": {"0.4.0b6--py35_0": "sha256:5f16c88186911111b9674164f82267860b5b80ac67a466c48d7f14141be5bf7c"}, "docker": "quay.io/biocontainers/cobra", "aliases": {"glpsol": "/usr/local/bin/glpsol", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "xslt-config": "/usr/local/bin/xslt-config"}}
+config: {"url": "https://biocontainers.pro/tools/cobra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cobra", "latest": {"0.21.0--pyh5e36f6f_1": "sha256:86b3e2f5de186eae27c29ef803b61aea121b77d4396e3be1f9520e149218cfcf"}, "tags": {"0.4.0b6--py35_0": "sha256:5f16c88186911111b9674164f82267860b5b80ac67a466c48d7f14141be5bf7c", "0.21.0--pyh5e36f6f_1": "sha256:86b3e2f5de186eae27c29ef803b61aea121b77d4396e3be1f9520e149218cfcf", "0.20.0--pyh3252c3a_0": "sha256:146ee1835b11dc76bc34df6163a82336f0f6edfae90e12dc56e2af709ea544be", "0.19.0--pyh864c0ab_0": "sha256:965d05da0beb8943616dbceec50ff337f8d0e50eda1856e305f750b27caab84a", "0.18.1--pyh864c0ab_1": "sha256:9d0aac96014ca4d7fb9f6532d6d87fb493059b18c816713e8f3b13cb4822dd2f", "0.17.1--py_0": "sha256:20568094f1a546bf5a8cea091d477ed66a5c5524baadc2dcc1ff89a5c71f8e78"}, "docker": "quay.io/biocontainers/cobra", "aliases": {"glpsol": "/usr/local/bin/glpsol", "2to3-3.5": "/usr/local/bin/2to3-3.5", "idle3.5": "/usr/local/bin/idle3.5", "pydoc3.5": "/usr/local/bin/pydoc3.5", "python3.5": "/usr/local/bin/python3.5", "python3.5-config": "/usr/local/bin/python3.5-config", "python3.5m": "/usr/local/bin/python3.5m", "python3.5m-config": "/usr/local/bin/python3.5m-config", "pyvenv-3.5": "/usr/local/bin/pyvenv-3.5", "xslt-config": "/usr/local/bin/xslt-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cobra.

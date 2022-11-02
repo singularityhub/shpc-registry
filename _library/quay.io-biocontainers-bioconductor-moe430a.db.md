@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-moe430a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moe430a.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moe430a.db/container.yaml"
-updated_at: "2022-11-01 03:47:33.434269"
-latest: "3.2.3--r41hdfd78af_7"
+updated_at: "2022-11-02 00:57:42.580932"
+latest: "3.13.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-moe430a.db"
 aliases:
  - ".bioconductor-moe430a.db-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
+ - "3.13.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-moe430a.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moe430a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moe430a.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:0e9c4ce223cdda8b561891164833a913cb6b6285adc7d2ca3fd62b3d675d92d1"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:0e9c4ce223cdda8b561891164833a913cb6b6285adc7d2ca3fd62b3d675d92d1"}, "docker": "quay.io/biocontainers/bioconductor-moe430a.db", "aliases": {".bioconductor-moe430a.db-post-link.sh": "/usr/local/bin/.bioconductor-moe430a.db-post-link.sh", ".bioconductor-moe430a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-moe430a.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moe430a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moe430a.db", "latest": {"3.13.0--r41hdfd78af_1": "sha256:7937af599c756318a86ee442af654e67b22fad2c6066e99d3b13a19d35c6ba9d"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:0e9c4ce223cdda8b561891164833a913cb6b6285adc7d2ca3fd62b3d675d92d1", "3.13.0--r41hdfd78af_1": "sha256:7937af599c756318a86ee442af654e67b22fad2c6066e99d3b13a19d35c6ba9d"}, "docker": "quay.io/biocontainers/bioconductor-moe430a.db", "aliases": {".bioconductor-moe430a.db-post-link.sh": "/usr/local/bin/.bioconductor-moe430a.db-post-link.sh", ".bioconductor-moe430a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-moe430a.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moe430a.db.

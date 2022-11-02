@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-epic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-epic/container.yaml"
-updated_at: "2022-11-01 03:40:14.705072"
+updated_at: "2022-11-02 00:50:19.833062"
 latest: "1.1--r41hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-epic"
 aliases:

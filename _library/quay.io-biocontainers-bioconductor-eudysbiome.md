@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-eudysbiome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eudysbiome/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eudysbiome/container.yaml"
-updated_at: "2022-11-01 03:53:44.670765"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-11-02 01:03:57.832031"
+latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eudysbiome"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r40hdfd78af_1"
+ - "1.18.0--r40_0"
+ - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-eudysbiome"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eudysbiome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eudysbiome", "latest": {"1.8.0--r3.4.1_0": "sha256:fa4a3cd198ec3982251894fe99e5543c74924f92f9db23b0b829c0735916dbb5"}, "tags": {"1.8.0--r3.4.1_0": "sha256:fa4a3cd198ec3982251894fe99e5543c74924f92f9db23b0b829c0735916dbb5"}, "docker": "quay.io/biocontainers/bioconductor-eudysbiome", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eudysbiome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eudysbiome", "latest": {"1.24.0--r41hdfd78af_0": "sha256:ea2d016933beeea37dccf757b65ad537d8c903a8639e56c8c5332bd5f6ce266f"}, "tags": {"1.8.0--r3.4.1_0": "sha256:fa4a3cd198ec3982251894fe99e5543c74924f92f9db23b0b829c0735916dbb5", "1.24.0--r41hdfd78af_0": "sha256:ea2d016933beeea37dccf757b65ad537d8c903a8639e56c8c5332bd5f6ce266f", "1.22.0--r41hdfd78af_0": "sha256:33f724bedd481e04e58da21ad10d58c86d0e3650cadb3e6096442fc5ce6f7d4f", "1.20.0--r40hdfd78af_1": "sha256:06fd96805210144b7b09d95305e5a44e161188238fdd8ea34d5e47e875544549", "1.18.0--r40_0": "sha256:27bb9a97b060dc9f4b94d22c9629e78d2e318fc62d51dc1554f2120e00ef2e6f", "1.16.0--r36_0": "sha256:352339e73fa7f14d3503f6938fed3fbc502aff9cd026d02b340d20201ac54219"}, "docker": "quay.io/biocontainers/bioconductor-eudysbiome", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eudysbiome.

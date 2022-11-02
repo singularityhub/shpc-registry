@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-potra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-potra/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-potra/container.yaml"
-updated_at: "2022-11-01 03:13:45.767695"
-latest: "1.7.0--r41hdfd78af_0"
+updated_at: "2022-11-02 00:23:34.434609"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-potra"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.7.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-potra"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-potra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-potra", "latest": {"1.7.0--r41hdfd78af_0": "sha256:646d9a88c2a5920305d2cac63ec44f0f1e3554a30407962edcc29d9deffe6737"}, "tags": {"1.7.0--r41hdfd78af_0": "sha256:646d9a88c2a5920305d2cac63ec44f0f1e3554a30407962edcc29d9deffe6737"}, "docker": "quay.io/biocontainers/bioconductor-potra", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-potra", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-potra", "latest": {"1.10.0--r41hdfd78af_0": "sha256:24a3ab746b236bd4aade3033477fff7034dfcc7d63e14ffa895ac70751c596df"}, "tags": {"1.7.0--r41hdfd78af_0": "sha256:646d9a88c2a5920305d2cac63ec44f0f1e3554a30407962edcc29d9deffe6737", "1.10.0--r41hdfd78af_0": "sha256:24a3ab746b236bd4aade3033477fff7034dfcc7d63e14ffa895ac70751c596df"}, "docker": "quay.io/biocontainers/bioconductor-potra", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-potra.

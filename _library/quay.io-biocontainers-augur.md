@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/augur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/augur/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/augur/container.yaml"
-updated_at: "2022-11-01 03:49:59.387076"
-latest: "9.0.0--py_1"
+updated_at: "2022-11-02 01:00:10.296662"
+latest: "13.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/augur"
 aliases:
  - "augur"
@@ -24,8 +24,13 @@ aliases:
  - "cmpfillin"
 versions:
  - "9.0.0--py_1"
+ - "13.1.2--pyhdfd78af_0"
+ - "13.0.4--pyhdfd78af_0"
+ - "12.1.1--pyhdfd78af_0"
+ - "12.0.0--pyhdfd78af_0"
+ - "11.3.0--py_0"
 description: "shpc-registry automated BioContainers addition for augur"
-config: {"url": "https://biocontainers.pro/tools/augur", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for augur", "latest": {"9.0.0--py_1": "sha256:b50216d6d9feda2fa8e54fd976d596c5b58410b98aede1419fe54525203a337b"}, "tags": {"9.0.0--py_1": "sha256:b50216d6d9feda2fa8e54fd976d596c5b58410b98aede1419fe54525203a337b"}, "docker": "quay.io/biocontainers/augur", "aliases": {"augur": "/usr/local/bin/augur", "dsdp5": "/usr/local/bin/dsdp5", "treetime": "/usr/local/bin/treetime", "vcftools": "/usr/local/bin/vcftools", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "cmpfillin": "/usr/local/bin/cmpfillin"}}
+config: {"url": "https://biocontainers.pro/tools/augur", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for augur", "latest": {"13.1.2--pyhdfd78af_0": "sha256:d9fb311e25b0bfd52ec109aed76f270d428f7098cdc719d05796132fae3df3db"}, "tags": {"9.0.0--py_1": "sha256:b50216d6d9feda2fa8e54fd976d596c5b58410b98aede1419fe54525203a337b", "13.1.2--pyhdfd78af_0": "sha256:d9fb311e25b0bfd52ec109aed76f270d428f7098cdc719d05796132fae3df3db", "13.0.4--pyhdfd78af_0": "sha256:fbbff4860cde5d4ca8c9977b8b902d288ea8d529a63aa3a15327f89b8d7779f6", "12.1.1--pyhdfd78af_0": "sha256:548eabeaee28da804021d0f68e2fdbcf9202f6c0f0790def57ab84149b7bf3ac", "12.0.0--pyhdfd78af_0": "sha256:558b1eeb992284f3cb35f3d461ad03ef8471deb95c2065df65a9016d29c3f6af", "11.3.0--py_0": "sha256:7185216d958d3f06355eda046e50b3bf8620fc142bb8acca30f2c56fabfddff6"}, "docker": "quay.io/biocontainers/augur", "aliases": {"augur": "/usr/local/bin/augur", "dsdp5": "/usr/local/bin/dsdp5", "treetime": "/usr/local/bin/treetime", "vcftools": "/usr/local/bin/vcftools", "iqtree": "/usr/local/bin/iqtree", "raxmlHPC": "/usr/local/bin/raxmlHPC", "raxmlHPC-AVX2": "/usr/local/bin/raxmlHPC-AVX2", "raxmlHPC-PTHREADS": "/usr/local/bin/raxmlHPC-PTHREADS", "raxmlHPC-PTHREADS-AVX2": "/usr/local/bin/raxmlHPC-PTHREADS-AVX2", "raxmlHPC-PTHREADS-SSE3": "/usr/local/bin/raxmlHPC-PTHREADS-SSE3", "raxmlHPC-SSE3": "/usr/local/bin/raxmlHPC-SSE3", "FastTree-2.1.10.c": "/usr/local/bin/FastTree-2.1.10.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "cmpfillin": "/usr/local/bin/cmpfillin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/augur.

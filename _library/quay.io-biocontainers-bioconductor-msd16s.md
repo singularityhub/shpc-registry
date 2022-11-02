@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msd16s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msd16s/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msd16s/container.yaml"
-updated_at: "2022-11-01 03:52:20.533312"
+updated_at: "2022-11-02 01:02:32.670892"
 latest: "1.8.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msd16s"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clonotyper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clonotyper/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clonotyper/container.yaml"
-updated_at: "2022-11-01 03:37:58.245477"
+updated_at: "2022-11-02 00:48:02.114187"
 latest: "1.32.1--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clonotyper"
 

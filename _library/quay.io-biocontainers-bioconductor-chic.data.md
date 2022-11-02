@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chic.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chic.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chic.data/container.yaml"
-updated_at: "2022-11-01 03:15:58.646159"
-latest: "1.9.0--r40_0"
+updated_at: "2022-11-02 00:25:48.894710"
+latest: "1.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-chic.data"
 aliases:
  - ".bioconductor-chic.data-post-link.sh"
@@ -13,8 +13,11 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-chic.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chic.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chic.data", "latest": {"1.9.0--r40_0": "sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1"}, "tags": {"1.9.0--r40_0": "sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1"}, "docker": "quay.io/biocontainers/bioconductor-chic.data", "aliases": {".bioconductor-chic.data-post-link.sh": "/usr/local/bin/.bioconductor-chic.data-post-link.sh", ".bioconductor-chic.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-chic.data-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chic.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chic.data", "latest": {"1.14.0--r41hdfd78af_1": "sha256:e783af1e753a09f9847d36e25fd58cbeec808c48348ae7edcf017e37a320ff76"}, "tags": {"1.9.0--r40_0": "sha256:3e4e28ec5a2a671485c57dbd8713c437f82585eb5719d5bf3d6b0d866e7aa2f1", "1.14.0--r41hdfd78af_1": "sha256:e783af1e753a09f9847d36e25fd58cbeec808c48348ae7edcf017e37a320ff76", "1.12.0--r41hdfd78af_0": "sha256:4dced7846866258c662402e451c488444a6c5e46e1d4cfc56f1848193d4906ae", "1.10.0--r40hdfd78af_1": "sha256:94e8accacab341dd4c85bc2360830405bf8fe51490c9dfc8fbf4681aa92da04a"}, "docker": "quay.io/biocontainers/bioconductor-chic.data", "aliases": {".bioconductor-chic.data-post-link.sh": "/usr/local/bin/.bioconductor-chic.data-post-link.sh", ".bioconductor-chic.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-chic.data-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chic.data.

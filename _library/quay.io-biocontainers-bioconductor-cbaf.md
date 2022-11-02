@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cbaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cbaf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cbaf/container.yaml"
-updated_at: "2022-11-01 03:58:02.692130"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-02 01:08:19.303343"
+latest: "1.16.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cbaf"
 aliases:
  - "extcheck"
@@ -20,8 +20,11 @@ aliases:
  - "orbd"
 versions:
  - "1.8.0--r36_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.1--r40hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cbaf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cbaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbaf", "latest": {"1.8.0--r36_0": "sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74"}, "tags": {"1.8.0--r36_0": "sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74"}, "docker": "quay.io/biocontainers/bioconductor-cbaf", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cbaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cbaf", "latest": {"1.16.0--r41hdfd78af_0": "sha256:4e864c023123df66481610145f778dc77e4744b50ba1638265c331aea4b77729"}, "tags": {"1.8.0--r36_0": "sha256:54f25d8cd192b5d7d99b6b5e061ba2d8e5d4107ea69c802aca8f9aadfdb91c74", "1.16.0--r41hdfd78af_0": "sha256:4e864c023123df66481610145f778dc77e4744b50ba1638265c331aea4b77729", "1.14.0--r41hdfd78af_0": "sha256:044b06d205723585c12aedccc6d593990b2341e209f9d3340af188902295efda", "1.12.1--r40hdfd78af_0": "sha256:0f2d456f8137fa3ec7c355100a8aeb169c9984187cf6c05b3c046ee0e3c37e59"}, "docker": "quay.io/biocontainers/bioconductor-cbaf", "aliases": {"extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cbaf.

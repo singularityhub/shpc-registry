@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mcbiclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcbiclust/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcbiclust/container.yaml"
-updated_at: "2022-11-01 03:23:45.842335"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-02 00:33:40.938724"
+latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcbiclust"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mcbiclust"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mcbiclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcbiclust", "latest": {"1.8.0--r36_1": "sha256:e07a66a816f36d4ebe38f3606aeb130401d420f4c485f485e92e74bb7fd99c60"}, "tags": {"1.8.0--r36_1": "sha256:e07a66a816f36d4ebe38f3606aeb130401d420f4c485f485e92e74bb7fd99c60"}, "docker": "quay.io/biocontainers/bioconductor-mcbiclust", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mcbiclust", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcbiclust", "latest": {"1.18.0--r41hdfd78af_0": "sha256:d392dda22d36fb05b508bbf17cabc10abd3b5c12f7e32d2d0613dd88dcce0dff"}, "tags": {"1.8.0--r36_1": "sha256:e07a66a816f36d4ebe38f3606aeb130401d420f4c485f485e92e74bb7fd99c60", "1.18.0--r41hdfd78af_0": "sha256:d392dda22d36fb05b508bbf17cabc10abd3b5c12f7e32d2d0613dd88dcce0dff", "1.16.0--r41hdfd78af_0": "sha256:e1f1224cb68e5f56a163e9a3eb3e4bb9d36e074d91a1796e5c2b5a2195fe12fa", "1.14.0--r40hdfd78af_1": "sha256:4e9f61f68c44e12e2c11edc03ceff6803c5b6d1e4c6459b14626d90c960c4585", "1.12.0--r40_0": "sha256:6d349b59306f38d1b3c4d18ed50f000be4be056d1fe41eec54bf8ac26553d48a", "1.10.0--r36_0": "sha256:95d7d6a2915ae26e3617387725c6ae7def06c52a4464e6657958f7bc30c6863a"}, "docker": "quay.io/biocontainers/bioconductor-mcbiclust", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mcbiclust.

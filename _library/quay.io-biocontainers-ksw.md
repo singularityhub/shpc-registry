@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ksw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ksw/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ksw/container.yaml"
-updated_at: "2022-11-01 03:34:34.752561"
+updated_at: "2022-11-02 00:44:36.927070"
 latest: "0.2.1--h5b5514e_3"
 container_url: "https://biocontainers.pro/tools/ksw"
 aliases:

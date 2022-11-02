@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eventpointer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eventpointer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eventpointer/container.yaml"
-updated_at: "2022-11-01 03:08:21.771319"
+updated_at: "2022-11-02 00:18:09.044158"
 latest: "3.2.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-eventpointer"
 aliases:

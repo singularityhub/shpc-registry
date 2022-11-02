@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/velocyto.py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/velocyto.py/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/velocyto.py/container.yaml"
-updated_at: "2022-11-01 03:37:07.810624"
+updated_at: "2022-11-02 00:47:11.379978"
 latest: "0.17.17--py38h17adfb0_5"
 container_url: "https://biocontainers.pro/tools/velocyto.py"
 aliases:

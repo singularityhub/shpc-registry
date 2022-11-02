@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/xsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xsv/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xsv/container.yaml"
-updated_at: "2022-11-01 03:56:35.286013"
-latest: "0.9.8--0"
+updated_at: "2022-11-02 01:06:50.911669"
+latest: "0.10.3--0"
 container_url: "https://biocontainers.pro/tools/xsv"
 aliases:
  - "xsv"
 versions:
  - "0.9.8--0"
+ - "0.10.3--0"
 description: "shpc-registry automated BioContainers addition for xsv"
-config: {"url": "https://biocontainers.pro/tools/xsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xsv", "latest": {"0.9.8--0": "sha256:2570fab538bce6762431f3abfd27e99b9f3de61b0e279bc4d1fbff53ecb8dbcb"}, "tags": {"0.9.8--0": "sha256:2570fab538bce6762431f3abfd27e99b9f3de61b0e279bc4d1fbff53ecb8dbcb"}, "docker": "quay.io/biocontainers/xsv", "aliases": {"xsv": "/usr/local/bin/xsv"}}
+config: {"url": "https://biocontainers.pro/tools/xsv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xsv", "latest": {"0.10.3--0": "sha256:3531553a778de8d442a25136a0a579f6bda4d61f8e1140a99bf4a3f2fd40d639"}, "tags": {"0.9.8--0": "sha256:2570fab538bce6762431f3abfd27e99b9f3de61b0e279bc4d1fbff53ecb8dbcb", "0.10.3--0": "sha256:3531553a778de8d442a25136a0a579f6bda4d61f8e1140a99bf4a3f2fd40d639"}, "docker": "quay.io/biocontainers/xsv", "aliases": {"xsv": "/usr/local/bin/xsv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xsv.

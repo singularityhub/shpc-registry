@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hgu133plus2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgu133plus2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu133plus2cdf/container.yaml"
-updated_at: "2022-11-01 03:42:48.608600"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-02 00:52:55.117525"
+latest: "2.18.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgu133plus2cdf"
 aliases:
  - ".bioconductor-hgu133plus2cdf-post-link.sh"
  - ".bioconductor-hgu133plus2cdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hgu133plus2cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hgu133plus2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgu133plus2cdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:0831cb3fe1cb7ddf6eaf9b9c78d77e5ac17c4de10e8d458128a2a1b3d1714c79"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:0831cb3fe1cb7ddf6eaf9b9c78d77e5ac17c4de10e8d458128a2a1b3d1714c79"}, "docker": "quay.io/biocontainers/bioconductor-hgu133plus2cdf", "aliases": {".bioconductor-hgu133plus2cdf-post-link.sh": "/usr/local/bin/.bioconductor-hgu133plus2cdf-post-link.sh", ".bioconductor-hgu133plus2cdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu133plus2cdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hgu133plus2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgu133plus2cdf", "latest": {"2.18.0--r41hdfd78af_10": "sha256:73684029399fbcfd4cd9f571745b1070135b1abc30c4f0246b12e9275ec75d31"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:0831cb3fe1cb7ddf6eaf9b9c78d77e5ac17c4de10e8d458128a2a1b3d1714c79", "2.18.0--r41hdfd78af_10": "sha256:73684029399fbcfd4cd9f571745b1070135b1abc30c4f0246b12e9275ec75d31"}, "docker": "quay.io/biocontainers/bioconductor-hgu133plus2cdf", "aliases": {".bioconductor-hgu133plus2cdf-post-link.sh": "/usr/local/bin/.bioconductor-hgu133plus2cdf-post-link.sh", ".bioconductor-hgu133plus2cdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu133plus2cdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hgu133plus2cdf.

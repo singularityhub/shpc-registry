@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mgu74cprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mgu74cprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mgu74cprobe/container.yaml"
-updated_at: "2022-11-01 03:31:25.234439"
-latest: "2.18.0--r41hdfd78af_8"
+updated_at: "2022-11-02 00:41:25.474003"
+latest: "2.18.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mgu74cprobe"
 aliases:
  - ".bioconductor-mgu74cprobe-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.18.0--r41hdfd78af_8"
+ - "2.18.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-mgu74cprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mgu74cprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mgu74cprobe", "latest": {"2.18.0--r41hdfd78af_8": "sha256:d67e3e7247a52753cc3bebc9cfef4ef1b1ee5643108968249accc7cf3b7a7717"}, "tags": {"2.18.0--r41hdfd78af_8": "sha256:d67e3e7247a52753cc3bebc9cfef4ef1b1ee5643108968249accc7cf3b7a7717"}, "docker": "quay.io/biocontainers/bioconductor-mgu74cprobe", "aliases": {".bioconductor-mgu74cprobe-post-link.sh": "/usr/local/bin/.bioconductor-mgu74cprobe-post-link.sh", ".bioconductor-mgu74cprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-mgu74cprobe-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mgu74cprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mgu74cprobe", "latest": {"2.18.0--r41hdfd78af_10": "sha256:683724305d90da10a86f27162d25022d17b96567bb9cc351fd3bb06ea321843f"}, "tags": {"2.18.0--r41hdfd78af_8": "sha256:d67e3e7247a52753cc3bebc9cfef4ef1b1ee5643108968249accc7cf3b7a7717", "2.18.0--r41hdfd78af_10": "sha256:683724305d90da10a86f27162d25022d17b96567bb9cc351fd3bb06ea321843f"}, "docker": "quay.io/biocontainers/bioconductor-mgu74cprobe", "aliases": {".bioconductor-mgu74cprobe-post-link.sh": "/usr/local/bin/.bioconductor-mgu74cprobe-post-link.sh", ".bioconductor-mgu74cprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-mgu74cprobe-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mgu74cprobe.

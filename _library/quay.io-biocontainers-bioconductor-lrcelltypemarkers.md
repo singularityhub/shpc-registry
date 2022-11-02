@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-lrcelltypemarkers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lrcelltypemarkers/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lrcelltypemarkers/container.yaml"
-updated_at: "2022-11-01 03:30:19.225745"
+updated_at: "2022-11-02 00:40:18.506343"
 latest: "1.2.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-lrcelltypemarkers"
 aliases:

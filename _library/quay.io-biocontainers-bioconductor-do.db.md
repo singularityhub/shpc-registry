@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-do.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-do.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-do.db/container.yaml"
-updated_at: "2022-11-01 03:43:39.305449"
-latest: "2.9--r40_9"
+updated_at: "2022-11-02 00:53:45.920483"
+latest: "2.9--r41hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-do.db"
 aliases:
  - ".bioconductor-do.db-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.9--r40_9"
+ - "2.9--r41hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-do.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-do.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-do.db", "latest": {"2.9--r40_9": "sha256:b014006c35272c7680c1ca330c68c63b3efab10650047aaa4bba5ce8f841bfe5"}, "tags": {"2.9--r40_9": "sha256:b014006c35272c7680c1ca330c68c63b3efab10650047aaa4bba5ce8f841bfe5"}, "docker": "quay.io/biocontainers/bioconductor-do.db", "aliases": {".bioconductor-do.db-post-link.sh": "/usr/local/bin/.bioconductor-do.db-post-link.sh", ".bioconductor-do.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-do.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-do.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-do.db", "latest": {"2.9--r41hdfd78af_13": "sha256:74c497703db0123cf4248a511004ff5a0973ec66539a2988e457c92492b51aad"}, "tags": {"2.9--r40_9": "sha256:b014006c35272c7680c1ca330c68c63b3efab10650047aaa4bba5ce8f841bfe5", "2.9--r41hdfd78af_13": "sha256:74c497703db0123cf4248a511004ff5a0973ec66539a2988e457c92492b51aad"}, "docker": "quay.io/biocontainers/bioconductor-do.db", "aliases": {".bioconductor-do.db-post-link.sh": "/usr/local/bin/.bioconductor-do.db-post-link.sh", ".bioconductor-do.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-do.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-do.db.

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-affixcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affixcan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affixcan/container.yaml"
-updated_at: "2022-11-01 03:41:48.096282"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-02 00:51:53.944753"
+latest: "1.12.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affixcan"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-affixcan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affixcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affixcan", "latest": {"1.8.0--r40hdfd78af_1": "sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83"}, "docker": "quay.io/biocontainers/bioconductor-affixcan", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affixcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affixcan", "latest": {"1.12.0--r41hdfd78af_0": "sha256:292e9c1db6c4d9e924291a679e4903027be74655314a1310f64dd73a7ea5e5aa"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9b97fb2c5e95086120e87c377952052fb26b816f66de09c27abfb1a3cbc75c83", "1.12.0--r41hdfd78af_0": "sha256:292e9c1db6c4d9e924291a679e4903027be74655314a1310f64dd73a7ea5e5aa", "1.10.0--r41hdfd78af_0": "sha256:4bbdcbdb6fc1e8cd2cb0a8571bdf00694ff985e996103a09706ebd1ca7d222b5"}, "docker": "quay.io/biocontainers/bioconductor-affixcan", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affixcan.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-drawproteins"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-drawproteins/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-drawproteins/container.yaml"
-updated_at: "2022-11-01 03:53:34.582463"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-02 01:03:47.628474"
+latest: "1.14.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-drawproteins"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-drawproteins"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-drawproteins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drawproteins", "latest": {"1.8.0--r40_0": "sha256:95f1b2b420d62cd3af4f41c117542eeba33659ab69e5fcaa991c18293088aac2"}, "tags": {"1.8.0--r40_0": "sha256:95f1b2b420d62cd3af4f41c117542eeba33659ab69e5fcaa991c18293088aac2"}, "docker": "quay.io/biocontainers/bioconductor-drawproteins", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-drawproteins", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-drawproteins", "latest": {"1.14.0--r41hdfd78af_0": "sha256:0f79a8cae84ba75ae41e015f7578d0e1faee17f539f54ab572c4270be3c83702"}, "tags": {"1.8.0--r40_0": "sha256:95f1b2b420d62cd3af4f41c117542eeba33659ab69e5fcaa991c18293088aac2", "1.14.0--r41hdfd78af_0": "sha256:0f79a8cae84ba75ae41e015f7578d0e1faee17f539f54ab572c4270be3c83702", "1.12.0--r41hdfd78af_0": "sha256:4595d750aee83d20686844c3099fe99198c8b2102ec9ecfdd95a893860196c2e", "1.10.0--r40hdfd78af_1": "sha256:77d8f5c9ac61b73298e8d9bf6274a0ce399c51c5d042ffd86c99bf1835addd7e"}, "docker": "quay.io/biocontainers/bioconductor-drawproteins", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-drawproteins.

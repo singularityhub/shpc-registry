@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sirius-csifingerid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sirius-csifingerid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sirius-csifingerid/container.yaml"
-updated_at: "2022-11-01 03:33:55.005845"
-latest: "4.9.8--hec16e2b_2"
+updated_at: "2022-11-02 00:43:56.650098"
+latest: "4.9.15--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/sirius-csifingerid"
 aliases:
  - ".sirius-csifingerid-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "sirius-gui"
 versions:
  - "4.9.8--hec16e2b_2"
+ - "4.9.15--hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for sirius-csifingerid"
-config: {"url": "https://biocontainers.pro/tools/sirius-csifingerid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sirius-csifingerid", "latest": {"4.9.8--hec16e2b_2": "sha256:745743cc397513f88f5bb20ac0b5e48f9955deedfc071ee3104145146eb141d3"}, "tags": {"4.9.8--hec16e2b_2": "sha256:745743cc397513f88f5bb20ac0b5e48f9955deedfc071ee3104145146eb141d3"}, "docker": "quay.io/biocontainers/sirius-csifingerid", "aliases": {".sirius-csifingerid-post-link.sh": "/usr/local/bin/.sirius-csifingerid-post-link.sh", "sirius": "/usr/local/bin/sirius", "sirius-gui": "/usr/local/bin/sirius-gui"}}
+config: {"url": "https://biocontainers.pro/tools/sirius-csifingerid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sirius-csifingerid", "latest": {"4.9.15--hec16e2b_1": "sha256:6a8895779bba32e140f5aeda269947a291c4ef52fc5494bce537637925197804"}, "tags": {"4.9.8--hec16e2b_2": "sha256:745743cc397513f88f5bb20ac0b5e48f9955deedfc071ee3104145146eb141d3", "4.9.15--hec16e2b_1": "sha256:6a8895779bba32e140f5aeda269947a291c4ef52fc5494bce537637925197804"}, "docker": "quay.io/biocontainers/sirius-csifingerid", "aliases": {".sirius-csifingerid-post-link.sh": "/usr/local/bin/.sirius-csifingerid-post-link.sh", "sirius": "/usr/local/bin/sirius", "sirius-gui": "/usr/local/bin/sirius-gui"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sirius-csifingerid.

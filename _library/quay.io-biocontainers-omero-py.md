@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/omero-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/omero-py/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/omero-py/container.yaml"
-updated_at: "2022-11-01 03:43:55.945455"
-latest: "5.9.1--py_0"
+updated_at: "2022-11-02 00:54:02.752040"
+latest: "5.11.1--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/omero-py"
 aliases:
  - "omero"
@@ -22,8 +22,10 @@ aliases:
  - "linkicc"
 versions:
  - "5.9.1--py_0"
+ - "5.11.1--pyhdfd78af_1"
+ - "5.10.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for omero-py"
-config: {"url": "https://biocontainers.pro/tools/omero-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for omero-py", "latest": {"5.9.1--py_0": "sha256:56a89fde2637162ba04ef1ebcd437c974d48197bd2a5bfb1109af75bb9438cee"}, "tags": {"5.9.1--py_0": "sha256:56a89fde2637162ba04ef1ebcd437c974d48197bd2a5bfb1109af75bb9438cee"}, "docker": "quay.io/biocontainers/omero-py", "aliases": {"omero": "/usr/local/bin/omero", "slice2py": "/usr/local/bin/slice2py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
+config: {"url": "https://biocontainers.pro/tools/omero-py", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for omero-py", "latest": {"5.11.1--pyhdfd78af_1": "sha256:2807469d81d69722225f9ac50bfd8b618308678b02261907dcda015120848cfb"}, "tags": {"5.9.1--py_0": "sha256:56a89fde2637162ba04ef1ebcd437c974d48197bd2a5bfb1109af75bb9438cee", "5.11.1--pyhdfd78af_1": "sha256:2807469d81d69722225f9ac50bfd8b618308678b02261907dcda015120848cfb", "5.10.3--pyhdfd78af_0": "sha256:99d0d8c8fb734e2b743d1184b8d2596465fdde14535e454c8a27a2d95c1e1a9b"}, "docker": "quay.io/biocontainers/omero-py", "aliases": {"omero": "/usr/local/bin/omero", "slice2py": "/usr/local/bin/slice2py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "jpgicc": "/usr/local/bin/jpgicc", "linkicc": "/usr/local/bin/linkicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/omero-py.

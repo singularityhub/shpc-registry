@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mmdiff2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mmdiff2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mmdiff2/container.yaml"
-updated_at: "2022-11-01 03:55:22.133154"
-latest: "1.8.0--r341_0"
+updated_at: "2022-11-02 01:05:36.665544"
+latest: "1.22.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mmdiff2"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r341_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
+ - "1.14.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mmdiff2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mmdiff2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmdiff2", "latest": {"1.8.0--r341_0": "sha256:8d57bafc53fb3cae67e200465edc80b410f6122b746843fc874b15289a3b4a70"}, "tags": {"1.8.0--r341_0": "sha256:8d57bafc53fb3cae67e200465edc80b410f6122b746843fc874b15289a3b4a70"}, "docker": "quay.io/biocontainers/bioconductor-mmdiff2", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mmdiff2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mmdiff2", "latest": {"1.22.0--r41hdfd78af_0": "sha256:a024e36ba6a9591c5e7c5885c15055a75cf3c989bd9de5e7c20a0fd218dbd6f6"}, "tags": {"1.8.0--r341_0": "sha256:8d57bafc53fb3cae67e200465edc80b410f6122b746843fc874b15289a3b4a70", "1.22.0--r41hdfd78af_0": "sha256:a024e36ba6a9591c5e7c5885c15055a75cf3c989bd9de5e7c20a0fd218dbd6f6", "1.20.0--r41hdfd78af_0": "sha256:914cdb1d6aa6ca31cbc1dec70a99365de9d1e74bd751b1c46c07860c777bd4cf", "1.18.0--r40hdfd78af_1": "sha256:82f2881232085e6982640214234f9a57011800ffebb29bbeaae4d611e50951ad", "1.16.0--r40_0": "sha256:4ac7b5069ddaf1846ef2a2f1748e7536e633d7f25fa5938262070d636189a18a", "1.14.0--r36_0": "sha256:569d9596d2412bae9fd4787258efa228b0e91f281db482be8ccd93cba0b5b3df"}, "docker": "quay.io/biocontainers/bioconductor-mmdiff2", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mmdiff2.

@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picard/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/picard/container.yaml"
-updated_at: "2022-11-01 03:41:22.913477"
-latest: "2.9.2--py36_1"
+updated_at: "2022-11-02 00:51:28.615494"
+latest: "2.18.23--0"
 container_url: "https://biocontainers.pro/tools/picard"
 aliases:
  - "picard"
 versions:
  - "2.9.2--py36_1"
+ - "2.18.23--0"
+ - "2.17.11--py36_0"
+ - "2.16.0--py36_0"
+ - "2.15.0--py35_0"
+ - "2.14.1--py35_0"
 description: "shpc-registry automated BioContainers addition for picard"
-config: {"url": "https://biocontainers.pro/tools/picard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picard", "latest": {"2.9.2--py36_1": "sha256:25184f30e42354dd535cb5ec09f69b39dfdd3684e9aaaf5ff51fad2ea658cd8b"}, "tags": {"2.9.2--py36_1": "sha256:25184f30e42354dd535cb5ec09f69b39dfdd3684e9aaaf5ff51fad2ea658cd8b"}, "docker": "quay.io/biocontainers/picard", "aliases": {"picard": "/usr/local/bin/picard"}}
+config: {"url": "https://biocontainers.pro/tools/picard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for picard", "latest": {"2.18.23--0": "sha256:e3023898206f99dac5b5f608aa87ca75d5158842d3b855b6d9c6daab594f29c9"}, "tags": {"2.9.2--py36_1": "sha256:25184f30e42354dd535cb5ec09f69b39dfdd3684e9aaaf5ff51fad2ea658cd8b", "2.18.23--0": "sha256:e3023898206f99dac5b5f608aa87ca75d5158842d3b855b6d9c6daab594f29c9", "2.17.11--py36_0": "sha256:7f3e2f2b4858949c746d323532a8f7c473094e3d6c57b28cd2899a3df6280c05", "2.16.0--py36_0": "sha256:d1ca84ec035b98d31084beccfe501ab025c343c94c73ea45a7ebba034003cb0d", "2.15.0--py35_0": "sha256:70b1ccf1cb066196ea946f4c612f2e4628b1b8370db3f0db5a8cd45364861932", "2.14.1--py35_0": "sha256:11be45bc9f298f352ac8c3e94f1f45a166f6db8ea77f952ca2a39ea30c9b91c3"}, "docker": "quay.io/biocontainers/picard", "aliases": {"picard": "/usr/local/bin/picard"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/picard.
