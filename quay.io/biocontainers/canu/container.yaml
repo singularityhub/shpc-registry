@@ -5,6 +5,7 @@ latest:
   2.2--ha47f30e_0: sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196
 tags:
   2.2--ha47f30e_0: sha256:0149e37fd2d15cd60cfe5e3e228604a024d52a62ddd55aee775af7e82a1f4196
+  2.1.1--h1b792b2_2: sha256:b48b52afc355477015ef60bebded3b4ab3d3099bbf5698879de8eb600c9ff1a4
 docker: quay.io/biocontainers/canu
 aliases:
   alignGFA: /usr/local/bin/alignGFA

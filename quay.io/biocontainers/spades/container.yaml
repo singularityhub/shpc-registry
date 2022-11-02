@@ -2,9 +2,9 @@ url: https://biocontainers.pro/tools/spades
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for spades
 latest:
-  3.9.1--h9ee0642_1: sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab
+  3.15.4--h95f258a_0: sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1
 tags:
-  3.9.1--h9ee0642_1: sha256:fd23ddfae841eb045747193287761e61c8874e970c621803f22e9be936c2c2ab
+  3.15.4--h95f258a_0: sha256:7dfda44ae2535ba1ccc7c60c2ec265f8672cfd45885f458a964daf1b839a7ec1
 docker: quay.io/biocontainers/spades
 aliases:
   bwa-spades: /usr/local/bin/bwa-spades

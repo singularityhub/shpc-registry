@@ -4,6 +4,7 @@ description: shpc-registry automated BioContainers addition for vcftools
 latest:
   0.1.16--pl5321hd03093a_7: sha256:bd6df7b77ae7b49710f58e536edc6672989a951d1dda8f7fbc01be6f02243a5b
 tags:
+  0.1.15--he941832_2: sha256:8af7cefca50bfdcf184f8a4faff336ae436e04f7a16dcd9b18fa0687b0ae975e
   0.1.16--pl5321hd03093a_7: sha256:bd6df7b77ae7b49710f58e536edc6672989a951d1dda8f7fbc01be6f02243a5b
 docker: quay.io/biocontainers/vcftools
 aliases:
