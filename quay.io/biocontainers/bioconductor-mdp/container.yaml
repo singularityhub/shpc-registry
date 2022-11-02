@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-mdp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mdp
 latest:
-  1.8.0--r40_0: sha256:13e978a255b8773c01791d1fa7bff34acc0d07937dc51837cab332a6e1c6769b
+  1.14.0--r41hdfd78af_0: sha256:d31800e02ba44f953c7e11dba86fc2cc63e1d80d0479f46348c450bd02161167
 tags:
   1.8.0--r40_0: sha256:13e978a255b8773c01791d1fa7bff34acc0d07937dc51837cab332a6e1c6769b
+  1.14.0--r41hdfd78af_0: sha256:d31800e02ba44f953c7e11dba86fc2cc63e1d80d0479f46348c450bd02161167
+  1.12.0--r41hdfd78af_0: sha256:83f2fe86814c1eeec1843284616c64d5b119d2d00498e7c3aa5879860213412e
+  1.10.0--r40hdfd78af_1: sha256:1646e4eb15c197363419183c30bbb1c199b45572d2be19e91efc99c80a635949
 docker: quay.io/biocontainers/bioconductor-mdp
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

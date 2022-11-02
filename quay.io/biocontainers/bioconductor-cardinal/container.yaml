@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cardinal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cardinal
 latest:
-  2.8.0--r40h399db7b_2: sha256:49af076e3f9f5c67f9482c909e947758ea730cbcabc6a25ea3054b284f60b396
+  2.12.0--r41hc247a5b_2: sha256:bc355cf3d07962ccd4246ce8be97374089fc740d498487c4ff635c2db9fc6441
 tags:
   2.8.0--r40h399db7b_2: sha256:49af076e3f9f5c67f9482c909e947758ea730cbcabc6a25ea3054b284f60b396
+  2.12.0--r41hc247a5b_2: sha256:bc355cf3d07962ccd4246ce8be97374089fc740d498487c4ff635c2db9fc6441
+  2.10.0--r41h399db7b_0: sha256:83536b553aba4f728628d62a59f8eaf8b9a5468f21675dcf0c0e05333ab96804
 docker: quay.io/biocontainers/bioconductor-cardinal
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

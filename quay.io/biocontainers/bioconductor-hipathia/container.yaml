@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hipathia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hipathia
 latest:
-  2.8.0--r41hdfd78af_0: sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28
+  2.10.0--r41hdfd78af_0: sha256:dbebc41e22d18f18bd94b65ff3f54a40100ea02835452ed764eec1afebf770c3
 tags:
   2.8.0--r41hdfd78af_0: sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28
+  2.10.0--r41hdfd78af_0: sha256:dbebc41e22d18f18bd94b65ff3f54a40100ea02835452ed764eec1afebf770c3
 docker: quay.io/biocontainers/bioconductor-hipathia
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
