@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/igdiscover
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for igdiscover
 latest:
-  0.9--py36_1: sha256:71df4a6d8576297bd50a18dffdd5d2b3d93c211829c2013fe356fbaecf28c5e4
+  0.15.1--pyhdfd78af_0: sha256:f3ce56d6828b2cf7898a7e7daecd3d83729f0b9ae5d2c8c0be188f87ab0ead28
 tags:
   0.9--py36_1: sha256:71df4a6d8576297bd50a18dffdd5d2b3d93c211829c2013fe356fbaecf28c5e4
+  0.15.1--pyhdfd78af_0: sha256:f3ce56d6828b2cf7898a7e7daecd3d83729f0b9ae5d2c8c0be188f87ab0ead28
+  0.14--pyhdfd78af_0: sha256:cc438b67c7aa540405aed692015e0a53872d76449020ad28f1ba968582fbe783
+  0.13--pyhdfd78af_0: sha256:03b8432cb55646cc2d5662f1fdb2328a3774ce469070b11eb9a66009a8d37744
+  0.12.3--py_1: sha256:80f6bfda27374457995f8c76f711530dfa544b27ea56607ad1792af89291a72b
+  0.11--py36_0: sha256:41be00401d7381142796f30f4031be81163afb8a22413f6d6798cd098d8c9ad2
 docker: quay.io/biocontainers/igdiscover
 aliases:
   aclocal.bak: /usr/local/bin/aclocal.bak

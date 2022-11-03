@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/phylorank
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for phylorank
 latest:
-  0.1.9--py_0: sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98
+  0.1.12--pyhdfd78af_0: sha256:abb4ebd274fbda33cbbbd8ceaf6bee7f9c60305a9484ca3881a4f92e948aadd9
 tags:
   0.1.9--py_0: sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98
+  0.1.12--pyhdfd78af_0: sha256:abb4ebd274fbda33cbbbd8ceaf6bee7f9c60305a9484ca3881a4f92e948aadd9
 docker: quay.io/biocontainers/phylorank
 aliases:
   phylorank: /usr/local/bin/phylorank

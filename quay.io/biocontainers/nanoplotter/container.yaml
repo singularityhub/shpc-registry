@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/nanoplotter
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanoplotter
 latest:
-  1.9.1--py_0: sha256:6867211f2bbbcd6cf05ccbba6484a5f9caa9351fb5ee3d1a96d1f1f1bb44086a
+  1.10.0--py_1: sha256:c243d7ef7ba97701fada4a685565720a2c5d90b40294aea5fe3fe143b41bafbf
 tags:
   1.9.1--py_0: sha256:6867211f2bbbcd6cf05ccbba6484a5f9caa9351fb5ee3d1a96d1f1f1bb44086a
+  1.10.0--py_1: sha256:c243d7ef7ba97701fada4a685565720a2c5d90b40294aea5fe3fe143b41bafbf
 docker: quay.io/biocontainers/nanoplotter

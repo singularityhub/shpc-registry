@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mysqlclient
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mysqlclient
 latest:
-  1.3.9--py27_0: sha256:02245055f0576434dc080344832bdda981b4fbc4db4c67f9c61e65a963015dd9
+  1.3.10--py36_0: sha256:c491371db47b1eb925db64f01d57abdcafe45d7213e23e6e300afe2133a8eaed
 tags:
   1.3.9--py27_0: sha256:02245055f0576434dc080344832bdda981b4fbc4db4c67f9c61e65a963015dd9
+  1.3.10--py36_0: sha256:c491371db47b1eb925db64f01d57abdcafe45d7213e23e6e300afe2133a8eaed
 docker: quay.io/biocontainers/mysqlclient
 aliases:
   easy_install-2.7: /usr/local/bin/easy_install-2.7
