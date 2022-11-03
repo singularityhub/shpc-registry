@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyani
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyani
 latest:
-  0.2.9--pyh24bf2e0_0: sha256:e95fbb3cfbeff44d6f0a1f7934d685ed3e1acc93f0eaae4a5c1d22fb7d84896f
+  0.2.12--pyhdfd78af_0: sha256:255c207f0fec533ce143de5c106e1f1a442c466a4b0179e324cedfdbae96394e
 tags:
   0.2.9--pyh24bf2e0_0: sha256:e95fbb3cfbeff44d6f0a1f7934d685ed3e1acc93f0eaae4a5c1d22fb7d84896f
+  0.2.12--pyhdfd78af_0: sha256:255c207f0fec533ce143de5c106e1f1a442c466a4b0179e324cedfdbae96394e
 docker: quay.io/biocontainers/pyani
 aliases:
   average_nucleotide_identity.py: /usr/local/bin/average_nucleotide_identity.py

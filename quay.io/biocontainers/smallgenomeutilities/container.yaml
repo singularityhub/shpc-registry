@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/smallgenomeutilities
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for smallgenomeutilities
 latest:
-  0.3.8--pyhdfd78af_0: sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e
+  0.3.9--pyhdfd78af_0: sha256:d20d6a293a56894a83d467d55e0f8c319bae2013d89a98c24dce18b439915238
 tags:
   0.3.8--pyhdfd78af_0: sha256:7b8704ad07a1c8115ceb8601485aac729a0db24b7e6d746e46823c46950b4e0e
+  0.3.9--pyhdfd78af_0: sha256:d20d6a293a56894a83d467d55e0f8c319bae2013d89a98c24dce18b439915238
 docker: quay.io/biocontainers/smallgenomeutilities
 aliases:
   aln2basecnt: /usr/local/bin/aln2basecnt

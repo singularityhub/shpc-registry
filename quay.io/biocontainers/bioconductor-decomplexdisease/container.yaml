@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-decomplexdisease
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-decomplexdisease
 latest:
-  1.8.0--r40h5f743cb_0: sha256:df1d33ebc7c810d66693e67e0421bfb1911e2d3de6261adb283abd10e9fa8e7d
+  1.14.0--r41hc247a5b_2: sha256:08454b8ce74f3d828a9d2ab9aee44da9aac9af7e1b55332e43d64e2f35a04854
 tags:
   1.8.0--r40h5f743cb_0: sha256:df1d33ebc7c810d66693e67e0421bfb1911e2d3de6261adb283abd10e9fa8e7d
+  1.14.0--r41hc247a5b_2: sha256:08454b8ce74f3d828a9d2ab9aee44da9aac9af7e1b55332e43d64e2f35a04854
+  1.12.0--r41h399db7b_0: sha256:5f96ab68ec109d2ac4cb9a1384121e1f4112b22c4fa0e01ab3d040bdafcf4f2e
+  1.10.0--r40h399db7b_1: sha256:b966a133467a95a06f7190347c22e6f1d8274efe0f9543b4f896e0be89ece532
 docker: quay.io/biocontainers/bioconductor-decomplexdisease
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

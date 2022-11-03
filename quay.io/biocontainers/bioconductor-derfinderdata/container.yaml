@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-derfinderdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-derfinderdata
 latest:
-  2.8.1--r40hdfd78af_0: sha256:73228542504179377e475b57bce07216699f9fc4580b0294b3c89d7814562178
+  2.15.0--r42hdfd78af_0: sha256:961ab413e27ebd7cf6325dbc9f87f4ee5ec894f93dfccb107b456afa60db8808
 tags:
   2.8.1--r40hdfd78af_0: sha256:73228542504179377e475b57bce07216699f9fc4580b0294b3c89d7814562178
+  2.15.0--r42hdfd78af_0: sha256:961ab413e27ebd7cf6325dbc9f87f4ee5ec894f93dfccb107b456afa60db8808
+  2.12.0--r41hdfd78af_1: sha256:4fe2fa647acf3cf33046ccd9023f649c6f675eba5ed39a1cf468111d4c1e714b
+  2.10.0--r41hdfd78af_0: sha256:9e8514ecd08eadeda1639557beb1f67ee6c75a573bc34e788033d5f2f2af7d63
 docker: quay.io/biocontainers/bioconductor-derfinderdata
 aliases:
   .bioconductor-derfinderdata-post-link.sh: /usr/local/bin/.bioconductor-derfinderdata-post-link.sh
