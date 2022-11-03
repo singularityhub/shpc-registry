@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/container.yaml"
-updated_at: "2022-11-02 19:16:07.237743"
-latest: "3.2.2--r40_9"
+updated_at: "2022-11-03 00:58:53.906127"
+latest: "3.2.2--r41hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
 aliases:
  - ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.2--r40_9"
+ - "3.2.2--r41hdfd78af_13"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "latest": {"3.2.2--r40_9": "sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773"}, "tags": {"3.2.2--r40_9": "sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "aliases": {".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "latest": {"3.2.2--r41hdfd78af_13": "sha256:94429dd582908ea45ce225e104a2b94afb648d06964f0eaae7de9e2b9d9bbd2a"}, "tags": {"3.2.2--r40_9": "sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773", "3.2.2--r41hdfd78af_13": "sha256:94429dd582908ea45ce225e104a2b94afb648d06964f0eaae7de9e2b9d9bbd2a"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene", "aliases": {".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene.

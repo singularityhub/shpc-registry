@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-anaquin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anaquin/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anaquin/container.yaml"
-updated_at: "2022-11-02 19:48:03.069252"
+updated_at: "2022-11-03 01:25:07.463321"
 latest: "2.8.0--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-anaquin"
 aliases:

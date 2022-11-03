@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-path2ppi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-path2ppi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-path2ppi/container.yaml"
-updated_at: "2022-11-02 18:59:12.373629"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-11-03 00:45:26.773808"
+latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-path2ppi"
 aliases:
  - "tclsh8.5"
@@ -14,8 +14,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r40hdfd78af_1"
+ - "1.18.0--r40_0"
+ - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-path2ppi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-path2ppi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-path2ppi", "latest": {"1.8.0--r3.4.1_0": "sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db"}, "tags": {"1.8.0--r3.4.1_0": "sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db"}, "docker": "quay.io/biocontainers/bioconductor-path2ppi", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-path2ppi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-path2ppi", "latest": {"1.24.0--r41hdfd78af_0": "sha256:cbec8e0826b44cd525a3735948317ff6ff4eff622aba2fd30883d938b7fd8ba0"}, "tags": {"1.8.0--r3.4.1_0": "sha256:838ccc95ba12523e20b6a5be2050b936aa73a382923779aa3b7e98d9ca0985db", "1.24.0--r41hdfd78af_0": "sha256:cbec8e0826b44cd525a3735948317ff6ff4eff622aba2fd30883d938b7fd8ba0", "1.22.0--r41hdfd78af_0": "sha256:841b3fbb226e27238a8eb06bb08f7a9d29b0097f1813ff214a128b0fdb6d14cb", "1.20.0--r40hdfd78af_1": "sha256:22ec7787c89d7278f6504e28f56875267b0ef2fcd9f951033786e2a530b00d2e", "1.18.0--r40_0": "sha256:9811f7b0bbb1ca1b55a7717a54e1e1a2da4b1de885a7b0688ae83fabd621006d", "1.16.0--r36_0": "sha256:c6a0d8621834f0eebfe6a4f5fd05eb449c91fdcbbd881b7094816735cc5d7ecf"}, "docker": "quay.io/biocontainers/bioconductor-path2ppi", "aliases": {"tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-path2ppi.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scale4c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scale4c/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scale4c/container.yaml"
-updated_at: "2022-11-02 18:35:27.239132"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-03 00:26:44.744778"
+latest: "1.16.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scale4c"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scale4c"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scale4c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scale4c", "latest": {"1.8.0--r36_0": "sha256:4ec1724497a7d6284a5a2a0fa36f36e94faa28aec33b70328c745950ae2eeb96"}, "tags": {"1.8.0--r36_0": "sha256:4ec1724497a7d6284a5a2a0fa36f36e94faa28aec33b70328c745950ae2eeb96"}, "docker": "quay.io/biocontainers/bioconductor-scale4c", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scale4c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scale4c", "latest": {"1.16.0--r41hdfd78af_0": "sha256:5a54ccb85d28b5eddf9f17fd87bef283bf68cc8507129691c057dc5d2cca4c72"}, "tags": {"1.8.0--r36_0": "sha256:4ec1724497a7d6284a5a2a0fa36f36e94faa28aec33b70328c745950ae2eeb96", "1.16.0--r41hdfd78af_0": "sha256:5a54ccb85d28b5eddf9f17fd87bef283bf68cc8507129691c057dc5d2cca4c72", "1.14.0--r41hdfd78af_0": "sha256:aadf465dbd20470b70acaf7d879b7627adb2a3f84f406377879fe18e11ae3271", "1.12.0--r40hdfd78af_1": "sha256:e847fdac70cd3c69f7179f89828096a92aa33b35e79fa52172a1182de51bb17c", "1.10.0--r40_0": "sha256:5e49fb0cd007219f87670e1621b0cd8a06f135b450a4b6346b431a27229338b0"}, "docker": "quay.io/biocontainers/bioconductor-scale4c", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scale4c.

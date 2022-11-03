@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/htseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/htseq/container.yaml"
-updated_at: "2022-11-02 19:15:21.762456"
-latest: "0.9.1--py37h70f9b12_3"
+updated_at: "2022-11-03 00:58:17.655023"
+latest: "0.12.4--py36h39af1c6_1"
 container_url: "https://biocontainers.pro/tools/htseq"
 aliases:
  - "htseq-count"
@@ -22,8 +22,10 @@ aliases:
  - "jpgicc"
 versions:
  - "0.9.1--py37h70f9b12_3"
+ - "0.12.4--py36h39af1c6_1"
+ - "0.11.3--py27hb3f55d8_0"
 description: "shpc-registry automated BioContainers addition for htseq"
-config: {"url": "https://biocontainers.pro/tools/htseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htseq", "latest": {"0.9.1--py37h70f9b12_3": "sha256:f10c9c62602ecef7b4c32ed64e506b4dc4d024d3d07aa45498fd18a684c17464"}, "tags": {"0.9.1--py37h70f9b12_3": "sha256:f10c9c62602ecef7b4c32ed64e506b4dc4d024d3d07aa45498fd18a684c17464"}, "docker": "quay.io/biocontainers/htseq", "aliases": {"htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "jpgicc": "/usr/local/bin/jpgicc"}}
+config: {"url": "https://biocontainers.pro/tools/htseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for htseq", "latest": {"0.12.4--py36h39af1c6_1": "sha256:07a8a108bcce188c6d35f46011ffec147df6d2eabe581033889745561fef579f"}, "tags": {"0.9.1--py37h70f9b12_3": "sha256:f10c9c62602ecef7b4c32ed64e506b4dc4d024d3d07aa45498fd18a684c17464", "0.12.4--py36h39af1c6_1": "sha256:07a8a108bcce188c6d35f46011ffec147df6d2eabe581033889745561fef579f", "0.11.3--py27hb3f55d8_0": "sha256:c81d4143ebeb36c829266bf585993405fadfc52c7954e7a6c40f4ba83713a6d3"}, "docker": "quay.io/biocontainers/htseq", "aliases": {"htseq-count": "/usr/local/bin/htseq-count", "htseq-qa": "/usr/local/bin/htseq-qa", "f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "jpgicc": "/usr/local/bin/jpgicc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/htseq.

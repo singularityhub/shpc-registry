@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/sqlite/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/sqlite/container.yaml"
-updated_at: "2022-11-02 19:50:17.377766"
+updated_at: "2022-11-03 01:27:00.004746"
 latest: "3.39.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/sqlite"
 aliases:

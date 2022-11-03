@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-melissa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-melissa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-melissa/container.yaml"
-updated_at: "2022-11-02 19:38:56.630215"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-03 01:17:34.957175"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-melissa"
 aliases:
  - "pandoc"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-melissa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-melissa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-melissa", "latest": {"1.8.0--r41hdfd78af_0": "sha256:1fc4198d6dfcbe21d94fd51ce0e3fc18226479f8dd0253dc569c860b5983fb2c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1fc4198d6dfcbe21d94fd51ce0e3fc18226479f8dd0253dc569c860b5983fb2c"}, "docker": "quay.io/biocontainers/bioconductor-melissa", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-melissa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-melissa", "latest": {"1.10.0--r41hdfd78af_0": "sha256:12fd37e0271f4be8b437b51a44ec918ca99a15526567bbb1798acccd84a0edc8"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1fc4198d6dfcbe21d94fd51ce0e3fc18226479f8dd0253dc569c860b5983fb2c", "1.10.0--r41hdfd78af_0": "sha256:12fd37e0271f4be8b437b51a44ec918ca99a15526567bbb1798acccd84a0edc8"}, "docker": "quay.io/biocontainers/bioconductor-melissa", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-melissa.

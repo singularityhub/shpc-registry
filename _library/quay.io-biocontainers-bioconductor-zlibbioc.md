@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-zlibbioc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zlibbioc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zlibbioc/container.yaml"
-updated_at: "2022-11-02 18:48:49.513388"
+updated_at: "2022-11-03 00:37:24.961733"
 latest: "1.40.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-zlibbioc"
 

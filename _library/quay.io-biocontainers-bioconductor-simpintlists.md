@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simpintlists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simpintlists/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simpintlists/container.yaml"
-updated_at: "2022-11-02 19:46:59.819970"
+updated_at: "2022-11-03 01:24:15.744394"
 latest: "1.30.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-simpintlists"
 aliases:

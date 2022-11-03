@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pathwaysplice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pathwaysplice/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pathwaysplice/container.yaml"
-updated_at: "2022-11-02 19:02:26.079766"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-03 00:47:55.273760"
+latest: "1.10.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pathwaysplice"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,9 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pathwaysplice"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pathwaysplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathwaysplice", "latest": {"1.8.0--r36_1": "sha256:73b9ae499b7e96a0a747dc4c1ef3610abe7c87fb6b1364c1f481a202167b486f"}, "tags": {"1.8.0--r36_1": "sha256:73b9ae499b7e96a0a747dc4c1ef3610abe7c87fb6b1364c1f481a202167b486f"}, "docker": "quay.io/biocontainers/bioconductor-pathwaysplice", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pathwaysplice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pathwaysplice", "latest": {"1.10.0--r36_0": "sha256:48ec13e2ce2f5f4c80793f00bf99714e152e25396edbb50773b24b1489d5503d"}, "tags": {"1.8.0--r36_1": "sha256:73b9ae499b7e96a0a747dc4c1ef3610abe7c87fb6b1364c1f481a202167b486f", "1.10.0--r36_0": "sha256:48ec13e2ce2f5f4c80793f00bf99714e152e25396edbb50773b24b1489d5503d"}, "docker": "quay.io/biocontainers/bioconductor-pathwaysplice", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pathwaysplice.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mirnature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirnature/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mirnature/container.yaml"
-updated_at: "2022-11-02 19:43:10.251764"
-latest: "1.0--pl5262r35hdfd78af_5"
+updated_at: "2022-11-03 01:21:07.295438"
+latest: "1.1--pl5321r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirnature"
 aliases:
  - "MIRfix.py"
@@ -28,8 +28,9 @@ aliases:
  - "copymat"
 versions:
  - "1.0--pl5262r35hdfd78af_5"
+ - "1.1--pl5321r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mirnature"
-config: {"url": "https://biocontainers.pro/tools/mirnature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirnature", "latest": {"1.0--pl5262r35hdfd78af_5": "sha256:51a1b3218a672e7b641b464632117b4e91010b49fe103863e2e11ecc6853b4ae"}, "tags": {"1.0--pl5262r35hdfd78af_5": "sha256:51a1b3218a672e7b641b464632117b4e91010b49fe103863e2e11ecc6853b4ae"}, "docker": "quay.io/biocontainers/mirnature", "aliases": {"MIRfix.py": "/usr/local/bin/MIRfix.py", "dialign2-2": "/usr/local/bin/dialign2-2", "evaluate_conserved_str.py": "/usr/local/bin/evaluate_conserved_str.py", "miRNAnchor.pl": "/usr/local/bin/miRNAnchor.pl", "miRNAture": "/usr/local/bin/miRNAture", "miRNAture.pl": "/usr/local/bin/miRNAture.pl", "runMIRfix.sh": "/usr/local/bin/runMIRfix.sh", "testMIRfix.sh": "/usr/local/bin/testMIRfix.sh", "rmblastn": "/usr/local/bin/rmblastn", "clustalo": "/usr/local/bin/clustalo", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat"}}
+config: {"url": "https://biocontainers.pro/tools/mirnature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirnature", "latest": {"1.1--pl5321r41hdfd78af_0": "sha256:f94ae66f440a73de7bfa71d9aa4bf342d8d4490d740569166a0b9a198966e4f4"}, "tags": {"1.0--pl5262r35hdfd78af_5": "sha256:51a1b3218a672e7b641b464632117b4e91010b49fe103863e2e11ecc6853b4ae", "1.1--pl5321r41hdfd78af_0": "sha256:f94ae66f440a73de7bfa71d9aa4bf342d8d4490d740569166a0b9a198966e4f4"}, "docker": "quay.io/biocontainers/mirnature", "aliases": {"MIRfix.py": "/usr/local/bin/MIRfix.py", "dialign2-2": "/usr/local/bin/dialign2-2", "evaluate_conserved_str.py": "/usr/local/bin/evaluate_conserved_str.py", "miRNAnchor.pl": "/usr/local/bin/miRNAnchor.pl", "miRNAture": "/usr/local/bin/miRNAture", "miRNAture.pl": "/usr/local/bin/miRNAture.pl", "runMIRfix.sh": "/usr/local/bin/runMIRfix.sh", "testMIRfix.sh": "/usr/local/bin/testMIRfix.sh", "rmblastn": "/usr/local/bin/rmblastn", "clustalo": "/usr/local/bin/clustalo", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mirnature.

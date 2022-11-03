@@ -4,16 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-genrank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genrank/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genrank/container.yaml"
-updated_at: "2022-11-02 19:35:10.579838"
-latest: "1.8.0--r341_0"
+updated_at: "2022-11-03 01:14:29.014970"
+latest: "1.15.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genrank"
 aliases:
  - "ncurses5-config"
  - "ncursesw5-config"
 versions:
  - "1.8.0--r341_0"
+ - "1.15.0--r40_0"
+ - "1.14.0--r36_0"
+ - "1.12.0--r36_1"
+ - "1.10.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genrank"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genrank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genrank", "latest": {"1.8.0--r341_0": "sha256:510a3809f6eb0f83df1f059e1f34fd316814972a91f47015f5e158a9f5a51fa8"}, "tags": {"1.8.0--r341_0": "sha256:510a3809f6eb0f83df1f059e1f34fd316814972a91f47015f5e158a9f5a51fa8"}, "docker": "quay.io/biocontainers/bioconductor-genrank", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genrank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genrank", "latest": {"1.15.0--r40_0": "sha256:02773f6dc855b485fc714dd70745ca926162707077a0b4ec3956cfc9322d857c"}, "tags": {"1.8.0--r341_0": "sha256:510a3809f6eb0f83df1f059e1f34fd316814972a91f47015f5e158a9f5a51fa8", "1.15.0--r40_0": "sha256:02773f6dc855b485fc714dd70745ca926162707077a0b4ec3956cfc9322d857c", "1.14.0--r36_0": "sha256:234548f34ffcb5672df6c33290d5db69325f73436880aa1ffe1731b98caeeab1", "1.12.0--r36_1": "sha256:6187a37229c1b3cd71235af6a02cc1c8b4bf22b6515fe1f3afdd0b0aafe897e8", "1.10.0--r351_0": "sha256:6db94623768e9b0a7895ef58cde9b3ef7a13ffdd99db6b570ad8f5fed5f7ea04"}, "docker": "quay.io/biocontainers/bioconductor-genrank", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genrank.

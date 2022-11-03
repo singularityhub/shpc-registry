@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-trendy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trendy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trendy/container.yaml"
-updated_at: "2022-11-02 19:33:35.623986"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-03 01:13:10.842223"
+latest: "1.16.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trendy"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trendy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trendy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trendy", "latest": {"1.8.0--r36_0": "sha256:d53ed2b4d5adaa3f3756007340c1780f11021a92a7030dada21f17ab907379cd"}, "tags": {"1.8.0--r36_0": "sha256:d53ed2b4d5adaa3f3756007340c1780f11021a92a7030dada21f17ab907379cd"}, "docker": "quay.io/biocontainers/bioconductor-trendy", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trendy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trendy", "latest": {"1.16.0--r41hdfd78af_0": "sha256:d672a5bf58b460d75db111ee789e36d7421ab31a7025da88fda1e5c402dd54d3"}, "tags": {"1.8.0--r36_0": "sha256:d53ed2b4d5adaa3f3756007340c1780f11021a92a7030dada21f17ab907379cd", "1.16.0--r41hdfd78af_0": "sha256:d672a5bf58b460d75db111ee789e36d7421ab31a7025da88fda1e5c402dd54d3", "1.14.0--r41hdfd78af_0": "sha256:467a07f245001a51d8980d915d3a999a7714c44bd035c20e4dfa6589467e578e", "1.12.0--r40hdfd78af_1": "sha256:51ce4863c06411acdcd7fe3319f7bfcd9d64bc8948a45b8a88eae221bfdce5b4", "1.10.0--r40_0": "sha256:5c9dbcb4833994061564cc1dbac93fc8b35669fc36f92027d96b2b80bf29a679"}, "docker": "quay.io/biocontainers/bioconductor-trendy", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trendy.

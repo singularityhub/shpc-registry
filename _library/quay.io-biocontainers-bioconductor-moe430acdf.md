@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-moe430acdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moe430acdf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moe430acdf/container.yaml"
-updated_at: "2022-11-02 18:39:03.063435"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-03 00:29:36.972538"
+latest: "2.18.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-moe430acdf"
 aliases:
  - ".bioconductor-moe430acdf-post-link.sh"
  - ".bioconductor-moe430acdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-moe430acdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moe430acdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moe430acdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:72f94eaf567a19d0a90f0bc591d75c1835b8a3caa700d31780d360491638ad2d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:72f94eaf567a19d0a90f0bc591d75c1835b8a3caa700d31780d360491638ad2d"}, "docker": "quay.io/biocontainers/bioconductor-moe430acdf", "aliases": {".bioconductor-moe430acdf-post-link.sh": "/usr/local/bin/.bioconductor-moe430acdf-post-link.sh", ".bioconductor-moe430acdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-moe430acdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moe430acdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moe430acdf", "latest": {"2.18.0--r41hdfd78af_10": "sha256:2f3dc7e127400c807c13d1ee78bec8f9ab478794f326f7bbe4ff82e18a87d9c6"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:72f94eaf567a19d0a90f0bc591d75c1835b8a3caa700d31780d360491638ad2d", "2.18.0--r41hdfd78af_10": "sha256:2f3dc7e127400c807c13d1ee78bec8f9ab478794f326f7bbe4ff82e18a87d9c6"}, "docker": "quay.io/biocontainers/bioconductor-moe430acdf", "aliases": {".bioconductor-moe430acdf-post-link.sh": "/usr/local/bin/.bioconductor-moe430acdf-post-link.sh", ".bioconductor-moe430acdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-moe430acdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moe430acdf.

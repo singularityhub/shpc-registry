@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/auspice"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/auspice/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/auspice/container.yaml"
-updated_at: "2022-11-02 19:42:15.341535"
-latest: "2.39.0--h87f3376_1"
+updated_at: "2022-11-03 01:20:23.123879"
+latest: "2.40.0--h87f3376_0"
 container_url: "https://biocontainers.pro/tools/auspice"
 aliases:
  - "auspice"
@@ -15,8 +15,9 @@ aliases:
  - "npx"
 versions:
  - "2.39.0--h87f3376_1"
+ - "2.40.0--h87f3376_0"
 description: "shpc-registry automated BioContainers addition for auspice"
-config: {"url": "https://biocontainers.pro/tools/auspice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for auspice", "latest": {"2.39.0--h87f3376_1": "sha256:1cd30df83fb16d5115e85ffced86830112b53cb2ccee821647cea6235800f268"}, "tags": {"2.39.0--h87f3376_1": "sha256:1cd30df83fb16d5115e85ffced86830112b53cb2ccee821647cea6235800f268"}, "docker": "quay.io/biocontainers/auspice", "aliases": {"auspice": "/usr/local/bin/auspice", "corepack": "/usr/local/bin/corepack", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx"}}
+config: {"url": "https://biocontainers.pro/tools/auspice", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for auspice", "latest": {"2.40.0--h87f3376_0": "sha256:0c9ca157de340a1d48f111c37287b37b9ea7aafe12b8801308c7c115a0464cc6"}, "tags": {"2.39.0--h87f3376_1": "sha256:1cd30df83fb16d5115e85ffced86830112b53cb2ccee821647cea6235800f268", "2.40.0--h87f3376_0": "sha256:0c9ca157de340a1d48f111c37287b37b9ea7aafe12b8801308c7c115a0464cc6"}, "docker": "quay.io/biocontainers/auspice", "aliases": {"auspice": "/usr/local/bin/auspice", "corepack": "/usr/local/bin/corepack", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/auspice.

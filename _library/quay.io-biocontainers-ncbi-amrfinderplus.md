@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ncbi-amrfinderplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
-updated_at: "2022-11-02 19:18:11.914123"
-latest: "3.9.8--h671e170_0"
+updated_at: "2022-11-03 01:00:35.283307"
+latest: "3.10.45--h6e70893_0"
 container_url: "https://biocontainers.pro/tools/ncbi-amrfinderplus"
 aliases:
  - "amr_report"
@@ -28,8 +28,9 @@ aliases:
  - "readme.pdf"
 versions:
  - "3.9.8--h671e170_0"
+ - "3.10.45--h6e70893_0"
 description: "shpc-registry automated BioContainers addition for ncbi-amrfinderplus"
-config: {"url": "https://biocontainers.pro/tools/ncbi-amrfinderplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-amrfinderplus", "latest": {"3.9.8--h671e170_0": "sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7"}, "tags": {"3.9.8--h671e170_0": "sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7"}, "docker": "quay.io/biocontainers/ncbi-amrfinderplus", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/ncbi-amrfinderplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ncbi-amrfinderplus", "latest": {"3.10.45--h6e70893_0": "sha256:092bf3870139e32f920f3070f569c0290d096604d9be67003a9d127875c26444"}, "tags": {"3.9.8--h671e170_0": "sha256:3934bdbd348fd253dec99739e70df26e6a3dc674cdde37ef7e87b0f5c82a41a7", "3.10.45--h6e70893_0": "sha256:092bf3870139e32f920f3070f569c0290d096604d9be67003a9d127875c26444"}, "docker": "quay.io/biocontainers/ncbi-amrfinderplus", "aliases": {"amr_report": "/usr/local/bin/amr_report", "amrfinder": "/usr/local/bin/amrfinder", "amrfinder_update": "/usr/local/bin/amrfinder_update", "dna_mutation": "/usr/local/bin/dna_mutation", "fasta2parts": "/usr/local/bin/fasta2parts", "fasta_check": "/usr/local/bin/fasta_check", "fasta_extract": "/usr/local/bin/fasta_extract", "gff_check": "/usr/local/bin/gff_check", "CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ncbi-amrfinderplus.

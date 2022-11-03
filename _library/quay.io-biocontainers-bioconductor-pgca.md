@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pgca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pgca/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pgca/container.yaml"
-updated_at: "2022-11-02 19:32:05.918103"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-03 01:11:58.696500"
+latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pgca"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pgca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pgca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pgca", "latest": {"1.8.0--r36_1": "sha256:ec781610e8d3943311435926a4931099947c6b5ef9dfdba976e0b52040e136bd"}, "tags": {"1.8.0--r36_1": "sha256:ec781610e8d3943311435926a4931099947c6b5ef9dfdba976e0b52040e136bd"}, "docker": "quay.io/biocontainers/bioconductor-pgca", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pgca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pgca", "latest": {"1.18.0--r41hdfd78af_0": "sha256:e0f652fbb7ca2d802d0803f7e9bc1af90bf826eb488f7b326cb4cfd7ebe10213"}, "tags": {"1.8.0--r36_1": "sha256:ec781610e8d3943311435926a4931099947c6b5ef9dfdba976e0b52040e136bd", "1.18.0--r41hdfd78af_0": "sha256:e0f652fbb7ca2d802d0803f7e9bc1af90bf826eb488f7b326cb4cfd7ebe10213", "1.16.0--r41hdfd78af_0": "sha256:6f75a576f4877cdfa263976b7f198600663e03631ee025ad85b9decef0da9087", "1.14.0--r40hdfd78af_1": "sha256:5c6ed77f782f7329bac2da0f694a7b6877eee851a86a05058ffb7a6e99383dda", "1.12.0--r40_0": "sha256:095474f8929cdc151515326976c8ef414ac341c286487fae24750ecc443c5a6f", "1.10.0--r36_0": "sha256:33e7bd98fbdde9ff45dabcd6f7bbe7b0e6dc21b86e76701e01c52ad553f557c3"}, "docker": "quay.io/biocontainers/bioconductor-pgca", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pgca.

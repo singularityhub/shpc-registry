@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/artic-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/artic-tools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/artic-tools/container.yaml"
-updated_at: "2022-11-02 18:48:03.190024"
+updated_at: "2022-11-03 00:36:46.033734"
 latest: "0.3.1--hb777114_3"
 container_url: "https://biocontainers.pro/tools/artic-tools"
 aliases:

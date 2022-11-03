@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-spidermir"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-spidermir/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-spidermir/container.yaml"
-updated_at: "2022-11-02 18:44:37.548095"
-latest: "1.8.2--r3.4.1_0"
+updated_at: "2022-11-03 00:34:02.522349"
+latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-spidermir"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.2--r3.4.1_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r40hdfd78af_1"
+ - "1.18.0--r40_0"
+ - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-spidermir"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-spidermir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spidermir", "latest": {"1.8.2--r3.4.1_0": "sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be"}, "tags": {"1.8.2--r3.4.1_0": "sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be"}, "docker": "quay.io/biocontainers/bioconductor-spidermir", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-spidermir", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-spidermir", "latest": {"1.24.0--r41hdfd78af_0": "sha256:cd96ad5b6eec227adb68ad933346004836f77add9e80b71cffcf4daf7a2bb8dc"}, "tags": {"1.8.2--r3.4.1_0": "sha256:7c1cbd8b6a2ce06b93b4a0bd3e5495f4fd7b4bd9cfe6f48d4317bce4a5c6c4be", "1.24.0--r41hdfd78af_0": "sha256:cd96ad5b6eec227adb68ad933346004836f77add9e80b71cffcf4daf7a2bb8dc", "1.22.0--r41hdfd78af_0": "sha256:da62464fc5a9369d55836cd5d2da989afe898e307ecb15b45b171f7b18eff159", "1.20.0--r40hdfd78af_1": "sha256:e278a2a37f645e77d21cd98cffad9cd4806a4a3bfbcda4efaf1e18af2e8fcfe8", "1.18.0--r40_0": "sha256:42220c8ebdbae253c1b8b583afe5a562ba4863d28f820303e4dbd26565921ca0", "1.16.0--r36_0": "sha256:eecf20c2c5e216bff6f8d82220bd7e755194ba0eee4bb71d80522d062b8dc392"}, "docker": "quay.io/biocontainers/bioconductor-spidermir", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-spidermir.

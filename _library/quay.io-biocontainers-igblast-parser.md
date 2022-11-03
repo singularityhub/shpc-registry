@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/igblast-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igblast-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/igblast-parser/container.yaml"
-updated_at: "2022-11-02 19:22:20.570148"
+updated_at: "2022-11-03 01:04:01.664541"
 latest: "0.0.4--py36h91eb985_3"
 container_url: "https://biocontainers.pro/tools/igblast-parser"
 aliases:

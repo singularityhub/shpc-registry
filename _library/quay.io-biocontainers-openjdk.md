@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/openjdk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/openjdk/container.yaml"
-updated_at: "2022-11-02 18:55:29.124030"
+updated_at: "2022-11-03 00:42:39.906111"
 latest: "8.0.121"
 container_url: "https://biocontainers.pro/tools/openjdk"
 aliases:

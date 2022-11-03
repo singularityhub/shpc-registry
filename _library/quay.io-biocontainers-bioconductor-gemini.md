@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gemini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gemini/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gemini/container.yaml"
-updated_at: "2022-11-02 18:50:00.460664"
+updated_at: "2022-11-03 00:38:22.547188"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gemini"
 

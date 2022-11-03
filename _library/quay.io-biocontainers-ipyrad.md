@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ipyrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipyrad/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ipyrad/container.yaml"
-updated_at: "2022-11-02 18:55:51.002114"
-latest: "0.9.8--py_0"
+updated_at: "2022-11-03 00:42:55.689931"
+latest: "0.9.66--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/ipyrad"
 aliases:
  - "ipcluster"
@@ -24,8 +24,9 @@ aliases:
  - "jupyter-kernel"
 versions:
  - "0.9.8--py_0"
+ - "0.9.66--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for ipyrad"
-config: {"url": "https://biocontainers.pro/tools/ipyrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ipyrad", "latest": {"0.9.8--py_0": "sha256:ef4c19a2e963d9862cec2639a71404738d83e0352b61c0c6ed270516ec34479c"}, "tags": {"0.9.8--py_0": "sha256:ef4c19a2e963d9862cec2639a71404738d83e0352b61c0c6ed270516ec34479c"}, "docker": "quay.io/biocontainers/ipyrad", "aliases": {"ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "ipyrad": "/usr/local/bin/ipyrad", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "jupyter-kernel": "/usr/local/bin/jupyter-kernel"}}
+config: {"url": "https://biocontainers.pro/tools/ipyrad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ipyrad", "latest": {"0.9.66--pyh3252c3a_0": "sha256:47646e1b0c74073a16d3033a9176ea6e651dad555aae4e7fe102eef81e4f29c2"}, "tags": {"0.9.8--py_0": "sha256:ef4c19a2e963d9862cec2639a71404738d83e0352b61c0c6ed270516ec34479c", "0.9.66--pyh3252c3a_0": "sha256:47646e1b0c74073a16d3033a9176ea6e651dad555aae4e7fe102eef81e4f29c2"}, "docker": "quay.io/biocontainers/ipyrad", "aliases": {"ipcluster": "/usr/local/bin/ipcluster", "ipcontroller": "/usr/local/bin/ipcontroller", "ipengine": "/usr/local/bin/ipengine", "ipyrad": "/usr/local/bin/ipyrad", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "cutadapt": "/usr/local/bin/cutadapt", "vsearch": "/usr/local/bin/vsearch", "jupyter-kernel": "/usr/local/bin/jupyter-kernel"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ipyrad.

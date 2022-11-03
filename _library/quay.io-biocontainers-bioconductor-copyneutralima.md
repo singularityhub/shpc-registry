@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-copyneutralima"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copyneutralima/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copyneutralima/container.yaml"
-updated_at: "2022-11-02 18:38:23.657332"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-03 00:29:05.531317"
+latest: "1.12.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-copyneutralima"
 aliases:
  - ".bioconductor-copyneutralima-post-link.sh"
@@ -13,8 +13,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-copyneutralima"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-copyneutralima", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copyneutralima", "latest": {"1.8.0--r40hdfd78af_1": "sha256:0728f30629f1046cfb6e6595cd460cf524628a5a62b399a134101f4eb424ce36"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:0728f30629f1046cfb6e6595cd460cf524628a5a62b399a134101f4eb424ce36"}, "docker": "quay.io/biocontainers/bioconductor-copyneutralima", "aliases": {".bioconductor-copyneutralima-post-link.sh": "/usr/local/bin/.bioconductor-copyneutralima-post-link.sh", ".bioconductor-copyneutralima-pre-unlink.sh": "/usr/local/bin/.bioconductor-copyneutralima-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-copyneutralima", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copyneutralima", "latest": {"1.12.0--r41hdfd78af_1": "sha256:29a306b21f5c19a8d9a3f0430717dcf13429e27891bb5de9471bed59baea118a"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:0728f30629f1046cfb6e6595cd460cf524628a5a62b399a134101f4eb424ce36", "1.12.0--r41hdfd78af_1": "sha256:29a306b21f5c19a8d9a3f0430717dcf13429e27891bb5de9471bed59baea118a", "1.10.0--r41hdfd78af_0": "sha256:4db48ef61609205e229641abac8f316ee77c356b943dc1740c921bcdb4b926e3"}, "docker": "quay.io/biocontainers/bioconductor-copyneutralima", "aliases": {".bioconductor-copyneutralima-post-link.sh": "/usr/local/bin/.bioconductor-copyneutralima-post-link.sh", ".bioconductor-copyneutralima-pre-unlink.sh": "/usr/local/bin/.bioconductor-copyneutralima-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-copyneutralima.

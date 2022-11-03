@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-htscluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htscluster/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-htscluster/container.yaml"
-updated_at: "2022-11-02 18:43:12.584049"
-latest: "2.0.8--r41h3342da4_5"
+updated_at: "2022-11-03 00:32:52.585822"
+latest: "2.0.10--r41h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-htscluster"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.0.8--r41h3342da4_5"
+ - "2.0.10--r41h3342da4_0"
 description: "shpc-registry automated BioContainers addition for r-htscluster"
-config: {"url": "https://biocontainers.pro/tools/r-htscluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htscluster", "latest": {"2.0.8--r41h3342da4_5": "sha256:041d08fd25b3b730f6f826ade813c4a55cc0043b4166890c25f2d37aacad3301"}, "tags": {"2.0.8--r41h3342da4_5": "sha256:041d08fd25b3b730f6f826ade813c4a55cc0043b4166890c25f2d37aacad3301"}, "docker": "quay.io/biocontainers/r-htscluster", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-htscluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htscluster", "latest": {"2.0.10--r41h3342da4_0": "sha256:e9703b64950dd2213d463ce11ddcf4299cfadabaf44839d3679c30d50cbfc1ff"}, "tags": {"2.0.8--r41h3342da4_5": "sha256:041d08fd25b3b730f6f826ade813c4a55cc0043b4166890c25f2d37aacad3301", "2.0.10--r41h3342da4_0": "sha256:e9703b64950dd2213d463ce11ddcf4299cfadabaf44839d3679c30d50cbfc1ff"}, "docker": "quay.io/biocontainers/r-htscluster", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-htscluster.

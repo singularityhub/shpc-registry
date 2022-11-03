@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nanolyse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanolyse/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanolyse/container.yaml"
-updated_at: "2022-11-02 18:58:24.756070"
-latest: "1.2.0--py_0"
+updated_at: "2022-11-03 00:44:49.962297"
+latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nanolyse"
 aliases:
  - "NanoLyse"
@@ -18,8 +18,9 @@ aliases:
  - "python3.8-config"
 versions:
  - "1.2.0--py_0"
+ - "1.2.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nanolyse"
-config: {"url": "https://biocontainers.pro/tools/nanolyse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanolyse", "latest": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "tags": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503"}, "docker": "quay.io/biocontainers/nanolyse", "aliases": {"NanoLyse": "/usr/local/bin/NanoLyse", "minimap2.py": "/usr/local/bin/minimap2.py", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
+config: {"url": "https://biocontainers.pro/tools/nanolyse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanolyse", "latest": {"1.2.1--pyhdfd78af_0": "sha256:4adbbc680fefb4515218b3aff3c44652af1bc0ee255090464e686f98037a595b"}, "tags": {"1.2.0--py_0": "sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503", "1.2.1--pyhdfd78af_0": "sha256:4adbbc680fefb4515218b3aff3c44652af1bc0ee255090464e686f98037a595b"}, "docker": "quay.io/biocontainers/nanolyse", "aliases": {"NanoLyse": "/usr/local/bin/NanoLyse", "minimap2.py": "/usr/local/bin/minimap2.py", "f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanolyse.

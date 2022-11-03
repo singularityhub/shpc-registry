@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-crossmeta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-crossmeta/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-crossmeta/container.yaml"
-updated_at: "2022-11-02 18:59:55.119991"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-03 00:45:58.872159"
+latest: "1.20.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-crossmeta"
 aliases:
  - "xgboost"
@@ -16,8 +16,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r351_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.15.0--r40_1"
+ - "1.14.0--r40_0"
+ - "1.12.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-crossmeta"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-crossmeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crossmeta", "latest": {"1.8.0--r351_0": "sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232"}, "tags": {"1.8.0--r351_0": "sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232"}, "docker": "quay.io/biocontainers/bioconductor-crossmeta", "aliases": {"xgboost": "/usr/local/bin/xgboost", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-crossmeta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-crossmeta", "latest": {"1.20.0--r41hdfd78af_0": "sha256:efb5d35b4d8eb2528c0815a73a5f86969f53cffcc1befdc72049ec5c18467407"}, "tags": {"1.8.0--r351_0": "sha256:b446acc8d80fbb229ea126f46d70ae0ca929b146a1b5c46e0614852f4713a232", "1.20.0--r41hdfd78af_0": "sha256:efb5d35b4d8eb2528c0815a73a5f86969f53cffcc1befdc72049ec5c18467407", "1.18.0--r41hdfd78af_0": "sha256:5b8d4deaa00266fcd80c90d9c773be4ca52c487681f652ccb7df6c69285c8fe6", "1.15.0--r40_1": "sha256:b50247effdc0b7fa173f0c27a5c3188a8f562f3effbd345411d9a04f3e3891ca", "1.14.0--r40_0": "sha256:030285850a49a791d9cb6253901b3f84bca752db0cb9fc8095e5c0ebf1c56412", "1.12.0--r36_0": "sha256:1cf996d2605651dea730720f3a084640c7eef83a225bd8f1d753614fd61fad04"}, "docker": "quay.io/biocontainers/bioconductor-crossmeta", "aliases": {"xgboost": "/usr/local/bin/xgboost", "pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-crossmeta.

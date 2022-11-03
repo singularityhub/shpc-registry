@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-test3probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-test3probe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-test3probe/container.yaml"
-updated_at: "2022-11-02 19:42:02.976392"
+updated_at: "2022-11-03 01:20:13.214890"
 latest: "2.18.0--r41hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-test3probe"
 aliases:

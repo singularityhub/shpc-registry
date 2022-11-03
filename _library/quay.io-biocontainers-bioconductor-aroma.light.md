@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-aroma.light"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-aroma.light/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-aroma.light/container.yaml"
-updated_at: "2022-11-02 19:07:35.740915"
+updated_at: "2022-11-03 00:51:58.387186"
 latest: "3.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-aroma.light"
 aliases:

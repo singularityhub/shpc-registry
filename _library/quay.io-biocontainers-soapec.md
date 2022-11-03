@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/soapec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soapec/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/soapec/container.yaml"
-updated_at: "2022-11-02 19:09:52.624076"
+updated_at: "2022-11-03 00:53:50.596207"
 latest: "2.03--hd03093a_6"
 container_url: "https://biocontainers.pro/tools/soapec"
 aliases:

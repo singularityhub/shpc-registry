@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metagxovarian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagxovarian/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagxovarian/container.yaml"
-updated_at: "2022-11-02 19:19:45.626352"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-03 01:01:51.616248"
+latest: "1.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagxovarian"
 aliases:
  - ".bioconductor-metagxovarian-post-link.sh"
@@ -20,8 +20,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-metagxovarian"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxovarian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxovarian", "latest": {"1.8.0--r40_0": "sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984"}, "tags": {"1.8.0--r40_0": "sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984"}, "docker": "quay.io/biocontainers/bioconductor-metagxovarian", "aliases": {".bioconductor-metagxovarian-post-link.sh": "/usr/local/bin/.bioconductor-metagxovarian-post-link.sh", ".bioconductor-metagxovarian-pre-unlink.sh": "/usr/local/bin/.bioconductor-metagxovarian-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metagxovarian", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagxovarian", "latest": {"1.14.0--r41hdfd78af_1": "sha256:badbab304588613c8d666119710ae5f006c5fdc6544ba070c8a8cf422254191f"}, "tags": {"1.8.0--r40_0": "sha256:6947c38a5bdbd518ae6bd06fce8f12c8d723036f4612db45adc5a9849cba9984", "1.14.0--r41hdfd78af_1": "sha256:badbab304588613c8d666119710ae5f006c5fdc6544ba070c8a8cf422254191f", "1.12.0--r41hdfd78af_0": "sha256:286ffa11225094d04c85f160763791f06b2897d3d6b66270584a3f9a5f4bb569", "1.10.0--r40hdfd78af_1": "sha256:3ed319eb2b043207c4353bc755935b3fd6c362c07e7596c5e8411efbbff262b0"}, "docker": "quay.io/biocontainers/bioconductor-metagxovarian", "aliases": {".bioconductor-metagxovarian-post-link.sh": "/usr/local/bin/.bioconductor-metagxovarian-post-link.sh", ".bioconductor-metagxovarian-pre-unlink.sh": "/usr/local/bin/.bioconductor-metagxovarian-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metagxovarian.

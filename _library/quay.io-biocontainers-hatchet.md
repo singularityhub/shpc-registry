@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hatchet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hatchet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hatchet/container.yaml"
-updated_at: "2022-11-02 19:43:39.219800"
-latest: "0.4.9--py37h22450f8_0"
+updated_at: "2022-11-03 01:21:30.105318"
+latest: "0.4.10--py38h8c62d01_0"
 container_url: "https://biocontainers.pro/tools/hatchet"
 aliases:
  - "hatchet"
@@ -22,8 +22,9 @@ aliases:
  - "plot-ampliconstats"
 versions:
  - "0.4.9--py37h22450f8_0"
+ - "0.4.10--py38h8c62d01_0"
 description: "shpc-registry automated BioContainers addition for hatchet"
-config: {"url": "https://biocontainers.pro/tools/hatchet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hatchet", "latest": {"0.4.9--py37h22450f8_0": "sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194"}, "tags": {"0.4.9--py37h22450f8_0": "sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194"}, "docker": "quay.io/biocontainers/hatchet", "aliases": {"hatchet": "/usr/local/bin/hatchet", "pyomo": "/usr/local/bin/pyomo", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
+config: {"url": "https://biocontainers.pro/tools/hatchet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hatchet", "latest": {"0.4.10--py38h8c62d01_0": "sha256:912ac7d7943c6297667329264ff961ae884c41957c62fc1e5ba596c84dc47362"}, "tags": {"0.4.9--py37h22450f8_0": "sha256:eda1508a16eed310a7fba5e2ecf8b101338f7f0cb5bc793e81fbbbe16b2ea194", "0.4.10--py38h8c62d01_0": "sha256:912ac7d7943c6297667329264ff961ae884c41957c62fc1e5ba596c84dc47362"}, "docker": "quay.io/biocontainers/hatchet", "aliases": {"hatchet": "/usr/local/bin/hatchet", "pyomo": "/usr/local/bin/pyomo", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hatchet.

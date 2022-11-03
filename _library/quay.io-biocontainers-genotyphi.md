@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genotyphi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genotyphi/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/genotyphi/container.yaml"
-updated_at: "2022-11-02 18:36:57.967794"
+updated_at: "2022-11-03 00:27:57.805279"
 latest: "1.9.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/genotyphi"
 aliases:

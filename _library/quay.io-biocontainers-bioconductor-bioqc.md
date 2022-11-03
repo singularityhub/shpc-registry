@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-bioqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioqc/container.yaml"
-updated_at: "2022-11-02 19:16:45.012495"
-latest: "1.8.0--r341hfc679d8_0"
+updated_at: "2022-11-03 00:59:25.201053"
+latest: "1.22.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioqc"
 aliases:
  - "ncurses5-config"
  - "ncursesw5-config"
 versions:
  - "1.8.0--r341hfc679d8_0"
+ - "1.22.0--r41hc247a5b_2"
+ - "1.20.0--r41h399db7b_0"
+ - "1.18.0--r40h399db7b_1"
+ - "1.16.0--r40h5f743cb_0"
+ - "1.14.0--r36he1b5a44_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bioqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bioqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioqc", "latest": {"1.8.0--r341hfc679d8_0": "sha256:a55dba9d4cc3b0ab78715db6384c908a0226c55588c16d4bc241589caa5283a0"}, "tags": {"1.8.0--r341hfc679d8_0": "sha256:a55dba9d4cc3b0ab78715db6384c908a0226c55588c16d4bc241589caa5283a0"}, "docker": "quay.io/biocontainers/bioconductor-bioqc", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bioqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioqc", "latest": {"1.22.0--r41hc247a5b_2": "sha256:cc76208d641da94003e4e17ade26d8bc16406dab93cd512f08a8495fe20f011e"}, "tags": {"1.8.0--r341hfc679d8_0": "sha256:a55dba9d4cc3b0ab78715db6384c908a0226c55588c16d4bc241589caa5283a0", "1.22.0--r41hc247a5b_2": "sha256:cc76208d641da94003e4e17ade26d8bc16406dab93cd512f08a8495fe20f011e", "1.20.0--r41h399db7b_0": "sha256:bece82b25a9de255b124d4ffaa03496897b3f7ba76791f4cac9d26d4d976906f", "1.18.0--r40h399db7b_1": "sha256:f061676d3e48a2fa67efa4aaba80896960308d341aaa9eaf5e27a5d6ae5a1221", "1.16.0--r40h5f743cb_0": "sha256:9767c349029687a2e147b7f2f220db6bf5706cb3c2a3a51e97373f53223e12c6", "1.14.0--r36he1b5a44_0": "sha256:d8de53d31e4212de1670ed936d53d67d485a6f097ee5d0cd8199f7aa36ce3b4c"}, "docker": "quay.io/biocontainers/bioconductor-bioqc", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bioqc.

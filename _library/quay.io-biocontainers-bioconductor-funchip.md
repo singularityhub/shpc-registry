@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-funchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
-updated_at: "2022-11-02 18:45:41.295325"
-latest: "1.8.0--r351hf484d3e_0"
+updated_at: "2022-11-03 00:34:54.188412"
+latest: "1.20.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-funchip"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r351hf484d3e_0"
+ - "1.20.0--r41hc247a5b_2"
+ - "1.18.0--r41h399db7b_0"
+ - "1.16.0--r40h399db7b_1"
+ - "1.14.0--r40h5f743cb_0"
+ - "1.12.0--r36he1b5a44_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-funchip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-funchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funchip", "latest": {"1.8.0--r351hf484d3e_0": "sha256:d8296eadaf1491a5a1124089cbe6398e9ae0761af41926bc5e9ca4dd3191f566"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:d8296eadaf1491a5a1124089cbe6398e9ae0761af41926bc5e9ca4dd3191f566"}, "docker": "quay.io/biocontainers/bioconductor-funchip", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-funchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-funchip", "latest": {"1.20.0--r41hc247a5b_2": "sha256:d0a4cd7e55ffec015fbe615a3e47c7113d36a5da335c37904d951bbf262e556d"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:d8296eadaf1491a5a1124089cbe6398e9ae0761af41926bc5e9ca4dd3191f566", "1.20.0--r41hc247a5b_2": "sha256:d0a4cd7e55ffec015fbe615a3e47c7113d36a5da335c37904d951bbf262e556d", "1.18.0--r41h399db7b_0": "sha256:9152073caaae7d2add662ad2eef9df2aaf8562180c34f928d1af36fddec6768b", "1.16.0--r40h399db7b_1": "sha256:375cd7c492ddad3d5206e649238b68d52fda9e47a8a3bebb088bb24aeef38dea", "1.14.0--r40h5f743cb_0": "sha256:3f814eec23cd33ba13ed903a9f83ee69af6ac7486d097cad471f7a810c27a965", "1.12.0--r36he1b5a44_0": "sha256:202bb4608087fde7aec04c2bef281e754df83424c828237339805c351eb3a751"}, "docker": "quay.io/biocontainers/bioconductor-funchip", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-funchip.

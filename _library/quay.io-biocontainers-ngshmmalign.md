@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ngshmmalign"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngshmmalign/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ngshmmalign/container.yaml"
-updated_at: "2022-11-02 19:11:11.607459"
+updated_at: "2022-11-03 00:54:55.585047"
 latest: "0.1.1--ha04c180_4"
 container_url: "https://biocontainers.pro/tools/ngshmmalign"
 aliases:

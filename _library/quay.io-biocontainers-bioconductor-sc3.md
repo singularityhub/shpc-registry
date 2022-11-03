@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-sc3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sc3/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sc3/container.yaml"
-updated_at: "2022-11-02 19:17:05.426996"
-latest: "1.8.0--r351hfc679d8_0"
+updated_at: "2022-11-03 00:59:41.831816"
+latest: "1.22.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-sc3"
 
 versions:
  - "1.8.0--r351hfc679d8_0"
+ - "1.22.0--r41hc247a5b_2"
+ - "1.20.0--r41h399db7b_0"
+ - "1.18.0--r40h399db7b_1"
+ - "1.16.0--r40h5f743cb_0"
+ - "1.14.0--r36he1b5a44_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sc3"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sc3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sc3", "latest": {"1.8.0--r351hfc679d8_0": "sha256:0497316480637c02d04e33c439f662e6cd00b812e5703e16f6d3e9255847963c"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:0497316480637c02d04e33c439f662e6cd00b812e5703e16f6d3e9255847963c"}, "docker": "quay.io/biocontainers/bioconductor-sc3"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sc3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sc3", "latest": {"1.22.0--r41hc247a5b_2": "sha256:4bb50eaefc15a90c33b2a65ee0d8636d63897a7032db8bac7a8496e68422fb55"}, "tags": {"1.8.0--r351hfc679d8_0": "sha256:0497316480637c02d04e33c439f662e6cd00b812e5703e16f6d3e9255847963c", "1.22.0--r41hc247a5b_2": "sha256:4bb50eaefc15a90c33b2a65ee0d8636d63897a7032db8bac7a8496e68422fb55", "1.20.0--r41h399db7b_0": "sha256:fd0884ecbb56a93615070033e6851d9f8bbd164fff7020b424e1ccbbb59ceb10", "1.18.0--r40h399db7b_1": "sha256:703e12fb4561f8c614fcd106624f06ababf386fd12284553d68025844f42eac6", "1.16.0--r40h5f743cb_0": "sha256:2f7756554fa69a521f918b4f0b532bf91a79562a148c5ee5458a48a5d3c3f771", "1.14.0--r36he1b5a44_0": "sha256:40fb1b93cdfad0b302e40301efa0482002b8568a1643f0c9536e391aae9a70d5"}, "docker": "quay.io/biocontainers/bioconductor-sc3"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sc3.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-elmer.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-elmer.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-elmer.data/container.yaml"
-updated_at: "2022-11-02 19:36:39.874813"
-latest: "2.8.0--r36_1"
+updated_at: "2022-11-03 01:15:41.700858"
+latest: "2.18.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-elmer.data"
 aliases:
  - ".bioconductor-elmer.data-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "2.8.0--r36_1"
+ - "2.18.0--r41hdfd78af_1"
+ - "2.16.0--r41hdfd78af_0"
+ - "2.14.0--r40hdfd78af_1"
+ - "2.12.0--r40_0"
+ - "2.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-elmer.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-elmer.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-elmer.data", "latest": {"2.8.0--r36_1": "sha256:7b9ea7716d40a1d8062505afc59b1c78f0033dc40212c77bf08a0744079cc5da"}, "tags": {"2.8.0--r36_1": "sha256:7b9ea7716d40a1d8062505afc59b1c78f0033dc40212c77bf08a0744079cc5da"}, "docker": "quay.io/biocontainers/bioconductor-elmer.data", "aliases": {".bioconductor-elmer.data-post-link.sh": "/usr/local/bin/.bioconductor-elmer.data-post-link.sh", ".bioconductor-elmer.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-elmer.data-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-elmer.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-elmer.data", "latest": {"2.18.0--r41hdfd78af_1": "sha256:a774b357770b0065eae1262890a3ab39e05c4999c60d1a0354bf502336fc23cb"}, "tags": {"2.8.0--r36_1": "sha256:7b9ea7716d40a1d8062505afc59b1c78f0033dc40212c77bf08a0744079cc5da", "2.18.0--r41hdfd78af_1": "sha256:a774b357770b0065eae1262890a3ab39e05c4999c60d1a0354bf502336fc23cb", "2.16.0--r41hdfd78af_0": "sha256:4f8dcd66c23fa9b1f159c52dbd151d78edc9574aade330aa8dad0588ee580007", "2.14.0--r40hdfd78af_1": "sha256:36acc96a59338b4a09f674e25a1b7e9696057789022ae6115b0be2359fa2db1b", "2.12.0--r40_0": "sha256:bbfe2939dc922aeb47eed84e2859c3e375975a00eb513c6503d723a986b8b20c", "2.10.0--r36_0": "sha256:de4ee4b93ed5da36934b3eeec8672f9f847354f970e6243a6e4f99d69e3a33a3"}, "docker": "quay.io/biocontainers/bioconductor-elmer.data", "aliases": {".bioconductor-elmer.data-post-link.sh": "/usr/local/bin/.bioconductor-elmer.data-post-link.sh", ".bioconductor-elmer.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-elmer.data-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-elmer.data.

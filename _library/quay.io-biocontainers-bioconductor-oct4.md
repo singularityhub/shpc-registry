@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-oct4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oct4/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oct4/container.yaml"
-updated_at: "2022-11-02 19:43:07.488581"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-03 01:21:05.141493"
+latest: "1.10.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-oct4"
 aliases:
  - ".bioconductor-oct4-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-oct4"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oct4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oct4", "latest": {"1.8.0--r41hdfd78af_0": "sha256:73a49bec10fa4164f6a98ba6883c2e4ca80075369a11e1df138a2eb499d397fa"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:73a49bec10fa4164f6a98ba6883c2e4ca80075369a11e1df138a2eb499d397fa"}, "docker": "quay.io/biocontainers/bioconductor-oct4", "aliases": {".bioconductor-oct4-post-link.sh": "/usr/local/bin/.bioconductor-oct4-post-link.sh", ".bioconductor-oct4-pre-unlink.sh": "/usr/local/bin/.bioconductor-oct4-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oct4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oct4", "latest": {"1.10.0--r41hdfd78af_1": "sha256:3ae7545121dc8999620116b2e27bc4d6d28c4444dfa0735ef8ed39f0bdc303d6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:73a49bec10fa4164f6a98ba6883c2e4ca80075369a11e1df138a2eb499d397fa", "1.10.0--r41hdfd78af_1": "sha256:3ae7545121dc8999620116b2e27bc4d6d28c4444dfa0735ef8ed39f0bdc303d6"}, "docker": "quay.io/biocontainers/bioconductor-oct4", "aliases": {".bioconductor-oct4-post-link.sh": "/usr/local/bin/.bioconductor-oct4-post-link.sh", ".bioconductor-oct4-pre-unlink.sh": "/usr/local/bin/.bioconductor-oct4-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oct4.

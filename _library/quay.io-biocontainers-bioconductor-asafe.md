@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-asafe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-asafe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-asafe/container.yaml"
-updated_at: "2022-11-02 18:57:38.138939"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-03 00:44:14.626208"
+latest: "1.20.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-asafe"
 aliases:
  - "c89"
  - "c99"
 versions:
  - "1.8.0--r351_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r40hdfd78af_1"
+ - "1.14.0--r40_0"
+ - "1.12.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-asafe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-asafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asafe", "latest": {"1.8.0--r351_0": "sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0"}, "tags": {"1.8.0--r351_0": "sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0"}, "docker": "quay.io/biocontainers/bioconductor-asafe", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-asafe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-asafe", "latest": {"1.20.0--r41hdfd78af_0": "sha256:096117497eb78163eb4b30cbc2c2d5499ab9d072f3a4072e15a79dd0e9079b59"}, "tags": {"1.8.0--r351_0": "sha256:6ddcc4f3440ad493c34dcc446070e8f83bccd4f1629f06b2c67cbb268c137fb0", "1.20.0--r41hdfd78af_0": "sha256:096117497eb78163eb4b30cbc2c2d5499ab9d072f3a4072e15a79dd0e9079b59", "1.18.0--r41hdfd78af_0": "sha256:84e1a4c966096ede44aaef9373af1621af5c4423276b7bd6de783389c6084e56", "1.16.0--r40hdfd78af_1": "sha256:d417e5d12c7ded7e2ee2e442fc615f1807984a824314a2cd8a21bfa04a49b194", "1.14.0--r40_0": "sha256:ef2adbebd5bb5ed422e48c40fdb065ebd0291332b74e795e9e0477cf12997183", "1.12.0--r36_0": "sha256:add49e53c2a43bf6be4e3533b0691382e7c974647a6f50a74849e493582b7ea0"}, "docker": "quay.io/biocontainers/bioconductor-asafe", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-asafe.

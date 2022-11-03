@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-structstrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-structstrings/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-structstrings/container.yaml"
-updated_at: "2022-11-02 18:58:29.284942"
-latest: "1.8.0--r41hd029910_0"
+updated_at: "2022-11-03 00:44:53.400502"
+latest: "1.10.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-structstrings"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hd029910_0"
+ - "1.10.0--r41hc0cfd56_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-structstrings"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-structstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structstrings", "latest": {"1.8.0--r41hd029910_0": "sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705"}, "tags": {"1.8.0--r41hd029910_0": "sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705"}, "docker": "quay.io/biocontainers/bioconductor-structstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-structstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structstrings", "latest": {"1.10.0--r41hc0cfd56_2": "sha256:980514e566d8c20d1d6153e731e722bbea8801ab3c5f6a8b9b6452400bb836d7"}, "tags": {"1.8.0--r41hd029910_0": "sha256:8dda416ccf29528ff7e21c963eb1bef7291227a0c3f87d73460d0ed7c8d20705", "1.10.0--r41hc0cfd56_2": "sha256:980514e566d8c20d1d6153e731e722bbea8801ab3c5f6a8b9b6452400bb836d7"}, "docker": "quay.io/biocontainers/bioconductor-structstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-structstrings.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-org.bt.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.bt.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.bt.eg.db/container.yaml"
-updated_at: "2022-11-02 19:48:05.740347"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-03 01:25:09.619989"
+latest: "3.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.bt.eg.db"
 aliases:
  - ".bioconductor-org.bt.eg.db-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.11.1--r40_0"
+ - "3.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.bt.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.bt.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.bt.eg.db", "latest": {"3.8.2--r36_1": "sha256:606617bd5e55b60eed7145284b7c426003e31ff3c587288bcbff621b99042889"}, "tags": {"3.8.2--r36_1": "sha256:606617bd5e55b60eed7145284b7c426003e31ff3c587288bcbff621b99042889"}, "docker": "quay.io/biocontainers/bioconductor-org.bt.eg.db", "aliases": {".bioconductor-org.bt.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-org.bt.eg.db-post-link.sh", ".bioconductor-org.bt.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-org.bt.eg.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.bt.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.bt.eg.db", "latest": {"3.14.0--r41hdfd78af_1": "sha256:df74b519cfc1265834a2e0cf32abf948035efbd34c74239dc18398d7e7f0403a"}, "tags": {"3.8.2--r36_1": "sha256:606617bd5e55b60eed7145284b7c426003e31ff3c587288bcbff621b99042889", "3.14.0--r41hdfd78af_1": "sha256:df74b519cfc1265834a2e0cf32abf948035efbd34c74239dc18398d7e7f0403a", "3.13.0--r41hdfd78af_0": "sha256:b38dc49bce112c079faeb8b03c5902b062f75e19479bf4a02c3906ec8c4f55bc", "3.12.0--r40hdfd78af_1": "sha256:c30669a1bd1fec0b293c965354214c71b4f5721e8ff0009da0cebead0b4419f1", "3.11.1--r40_0": "sha256:81702990531f7b70da06f9418dd5c5afc5eefd2d37f60208af84b816aaf12115", "3.10.0--r36_0": "sha256:ac37ee2fc1437d1126eae4aaf19ce007cacb564a9af37a03ab669c0bac773d32"}, "docker": "quay.io/biocontainers/bioconductor-org.bt.eg.db", "aliases": {".bioconductor-org.bt.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-org.bt.eg.db-post-link.sh", ".bioconductor-org.bt.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-org.bt.eg.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.bt.eg.db.

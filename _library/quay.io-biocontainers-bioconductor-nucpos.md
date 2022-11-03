@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nucpos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nucpos/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nucpos/container.yaml"
-updated_at: "2022-11-02 19:28:32.887237"
-latest: "1.8.0--r40hacda110_1"
+updated_at: "2022-11-03 01:09:09.057797"
+latest: "1.12.0--r41hefde4a7_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-nucpos"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hacda110_1"
+ - "1.12.0--r41hefde4a7_2"
+ - "1.10.0--r41hacda110_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nucpos"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nucpos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nucpos", "latest": {"1.8.0--r40hacda110_1": "sha256:f55553a618f780793b4bb5aa0e74a1f98f348508f8e899fdfc277613ff44f562"}, "tags": {"1.8.0--r40hacda110_1": "sha256:f55553a618f780793b4bb5aa0e74a1f98f348508f8e899fdfc277613ff44f562"}, "docker": "quay.io/biocontainers/bioconductor-nucpos", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nucpos", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nucpos", "latest": {"1.12.0--r41hefde4a7_2": "sha256:f321ee951faf449d88f7eda042cbc1315611a9d81fe62a2885c7e8fa52a9f0fb"}, "tags": {"1.8.0--r40hacda110_1": "sha256:f55553a618f780793b4bb5aa0e74a1f98f348508f8e899fdfc277613ff44f562", "1.12.0--r41hefde4a7_2": "sha256:f321ee951faf449d88f7eda042cbc1315611a9d81fe62a2885c7e8fa52a9f0fb", "1.10.0--r41hacda110_0": "sha256:82922799f259227eee3600d4cdcc074e059ca4286e0b88ea63412128d829616f"}, "docker": "quay.io/biocontainers/bioconductor-nucpos", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nucpos.

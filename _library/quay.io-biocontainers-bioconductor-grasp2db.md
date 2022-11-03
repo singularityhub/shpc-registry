@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-grasp2db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grasp2db/container.yaml"
-updated_at: "2022-11-02 19:42:44.620910"
-latest: "1.1.0--r41hdfd78af_9"
+updated_at: "2022-11-03 01:20:46.724669"
+latest: "1.1.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-grasp2db"
 aliases:
  - ".bioconductor-grasp2db-post-link.sh"
  - ".bioconductor-grasp2db-pre-unlink.sh"
 versions:
  - "1.1.0--r41hdfd78af_9"
+ - "1.1.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-grasp2db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-grasp2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grasp2db", "latest": {"1.1.0--r41hdfd78af_9": "sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3"}, "docker": "quay.io/biocontainers/bioconductor-grasp2db", "aliases": {".bioconductor-grasp2db-post-link.sh": "/usr/local/bin/.bioconductor-grasp2db-post-link.sh", ".bioconductor-grasp2db-pre-unlink.sh": "/usr/local/bin/.bioconductor-grasp2db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-grasp2db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grasp2db", "latest": {"1.1.0--r41hdfd78af_10": "sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659"}, "tags": {"1.1.0--r41hdfd78af_9": "sha256:02543353a8b5f63baf1570f614fe0d8fd2a2edb5d0cc53758315a7b31d50c9e3", "1.1.0--r41hdfd78af_10": "sha256:103cf3058c01b66b85067a46568a03bf3012eb0a111aef479fc154d131bdd659"}, "docker": "quay.io/biocontainers/bioconductor-grasp2db", "aliases": {".bioconductor-grasp2db-post-link.sh": "/usr/local/bin/.bioconductor-grasp2db-post-link.sh", ".bioconductor-grasp2db-pre-unlink.sh": "/usr/local/bin/.bioconductor-grasp2db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-grasp2db.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tcgabiolinksgui.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgabiolinksgui.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgabiolinksgui.data/container.yaml"
-updated_at: "2022-11-02 18:53:26.157002"
-latest: "1.9.2--r40_0"
+updated_at: "2022-11-03 00:41:05.845839"
+latest: "1.14.1--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui.data"
 aliases:
  - ".bioconductor-tcgabiolinksgui.data-post-link.sh"
@@ -13,8 +13,11 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.2--r40_0"
+ - "1.14.1--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui.data", "latest": {"1.9.2--r40_0": "sha256:5204c72eec34329ae4e07c38db9684d986eb14f11cf71b21e63d3dfaa46db7e1"}, "tags": {"1.9.2--r40_0": "sha256:5204c72eec34329ae4e07c38db9684d986eb14f11cf71b21e63d3dfaa46db7e1"}, "docker": "quay.io/biocontainers/bioconductor-tcgabiolinksgui.data", "aliases": {".bioconductor-tcgabiolinksgui.data-post-link.sh": "/usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh", ".bioconductor-tcgabiolinksgui.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgabiolinksgui.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgabiolinksgui.data", "latest": {"1.14.1--r41hdfd78af_0": "sha256:673c5044cb349058d145e6feb6b002bcf5e2e56848a895a56e45556c84d060ee"}, "tags": {"1.9.2--r40_0": "sha256:5204c72eec34329ae4e07c38db9684d986eb14f11cf71b21e63d3dfaa46db7e1", "1.14.1--r41hdfd78af_0": "sha256:673c5044cb349058d145e6feb6b002bcf5e2e56848a895a56e45556c84d060ee", "1.12.0--r41hdfd78af_0": "sha256:7d307cff0fd4b48ba9ea910120267512d15f7097bbc168a61392f170ce01d36e", "1.10.0--r40hdfd78af_1": "sha256:a5d9f50add8ccb4807ecabf9817eb81150e15161b78930ffeca6d44fc4d49c6d"}, "docker": "quay.io/biocontainers/bioconductor-tcgabiolinksgui.data", "aliases": {".bioconductor-tcgabiolinksgui.data-post-link.sh": "/usr/local/bin/.bioconductor-tcgabiolinksgui.data-post-link.sh", ".bioconductor-tcgabiolinksgui.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-tcgabiolinksgui.data-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcgabiolinksgui.data.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hipathia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hipathia/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hipathia/container.yaml"
-updated_at: "2022-11-02 19:34:34.458243"
-latest: "2.8.0--r41hdfd78af_0"
+updated_at: "2022-11-03 01:13:58.677786"
+latest: "2.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hipathia"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r41hdfd78af_0"
+ - "2.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hipathia"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hipathia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hipathia", "latest": {"2.8.0--r41hdfd78af_0": "sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28"}, "docker": "quay.io/biocontainers/bioconductor-hipathia", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hipathia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hipathia", "latest": {"2.10.0--r41hdfd78af_0": "sha256:dbebc41e22d18f18bd94b65ff3f54a40100ea02835452ed764eec1afebf770c3"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:380c13f6b01b78ab19ba86f7e94643bbb4eddb4328009d209d52ddead94d5c28", "2.10.0--r41hdfd78af_0": "sha256:dbebc41e22d18f18bd94b65ff3f54a40100ea02835452ed764eec1afebf770c3"}, "docker": "quay.io/biocontainers/bioconductor-hipathia", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hipathia.

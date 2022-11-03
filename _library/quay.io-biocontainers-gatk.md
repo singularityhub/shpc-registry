@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/gatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gatk/container.yaml"
-updated_at: "2022-11-02 18:52:52.624627"
-latest: "3.8--9"
+updated_at: "2022-11-03 00:40:40.952680"
+latest: "3.8--hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/gatk"
 
 versions:
  - "3.8--9"
+ - "3.8--hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for gatk"
-config: {"url": "https://biocontainers.pro/tools/gatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk", "latest": {"3.8--9": "sha256:e07c301b41224bd79f114438945677e3c62339d84e96659be29315c2b6d6c5db"}, "tags": {"3.8--9": "sha256:e07c301b41224bd79f114438945677e3c62339d84e96659be29315c2b6d6c5db"}, "docker": "quay.io/biocontainers/gatk"}
+config: {"url": "https://biocontainers.pro/tools/gatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gatk", "latest": {"3.8--hdfd78af_11": "sha256:8f1ee6b1a419132bda968af90c9abcd1ea1f48eb9780cff408438e59fe6615c5"}, "tags": {"3.8--9": "sha256:e07c301b41224bd79f114438945677e3c62339d84e96659be29315c2b6d6c5db", "3.8--hdfd78af_11": "sha256:8f1ee6b1a419132bda968af90c9abcd1ea1f48eb9780cff408438e59fe6615c5"}, "docker": "quay.io/biocontainers/gatk"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gatk.

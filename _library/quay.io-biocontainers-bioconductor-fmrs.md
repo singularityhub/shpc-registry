@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-fmrs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fmrs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fmrs/container.yaml"
-updated_at: "2022-11-02 19:26:30.805595"
+updated_at: "2022-11-03 01:07:31.586820"
 latest: "1.4.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-fmrs"
 

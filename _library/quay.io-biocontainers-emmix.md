@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emmix/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/emmix/container.yaml"
-updated_at: "2022-11-02 19:07:08.397922"
+updated_at: "2022-11-03 00:51:36.934304"
 latest: "1.3--he991be0_4"
 container_url: "https://biocontainers.pro/tools/emmix"
 aliases:

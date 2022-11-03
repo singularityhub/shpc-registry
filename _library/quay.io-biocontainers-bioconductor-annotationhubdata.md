@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-annotationhubdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotationhubdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotationhubdata/container.yaml"
-updated_at: "2022-11-02 18:36:26.208656"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-11-03 00:27:31.029263"
+latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotationhubdata"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.1--r40hdfd78af_0"
+ - "1.18.0--r40_0"
+ - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotationhubdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationhubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationhubdata", "latest": {"1.8.0--r3.4.1_0": "sha256:d1d90553bc03e39751e4084529355c327a822318fc8aaf2eb4c184fcd622ff57"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d1d90553bc03e39751e4084529355c327a822318fc8aaf2eb4c184fcd622ff57"}, "docker": "quay.io/biocontainers/bioconductor-annotationhubdata", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationhubdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationhubdata", "latest": {"1.24.0--r41hdfd78af_0": "sha256:e3da2de3f97b49104d9f837fbe41cb44add5c1e481f5fd1ad49a4058935b3119"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d1d90553bc03e39751e4084529355c327a822318fc8aaf2eb4c184fcd622ff57", "1.24.0--r41hdfd78af_0": "sha256:e3da2de3f97b49104d9f837fbe41cb44add5c1e481f5fd1ad49a4058935b3119", "1.22.0--r41hdfd78af_0": "sha256:c5c7c844a1aed70050d7c2ff12e980034dddd8af242711fc4789afa442056e9c", "1.20.1--r40hdfd78af_0": "sha256:1c598fd87c4b75c335c3df1e7b2b5a2a9c3b64423f4c9a7c291eafe44c56459f", "1.18.0--r40_0": "sha256:7270d2b6cb994cabdba8d28a7bcbed62cfc4e933c131455375541cb80ce9c753", "1.16.0--r36_0": "sha256:0db8b3be8b8f0a5171374bb409645152e2466d5174aed4b9a17ae361cfe96511"}, "docker": "quay.io/biocontainers/bioconductor-annotationhubdata", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotationhubdata.
