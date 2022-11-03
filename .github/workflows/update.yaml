@@ -3,7 +3,7 @@ name: 'Update Containers'
 on:
   schedule:
     # Now daily for a smaller subset of containers
-    - cron: '0 17 * * *'
+    - cron: '0 23 * * *'
 
 jobs:
   auto-scan:
