@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ramwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ramwas/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ramwas/container.yaml"
-updated_at: "2022-11-03 01:21:08.603261"
+updated_at: "2022-11-03 01:34:05.848762"
 latest: "1.8.0--r36h516909a_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ramwas"
 aliases:

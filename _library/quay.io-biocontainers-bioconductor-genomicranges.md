@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicranges/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicranges/container.yaml"
-updated_at: "2022-11-03 01:00:23.745566"
+updated_at: "2022-11-03 01:08:33.250985"
 latest: "1.46.1--r41hc0cfd56_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicranges"
 

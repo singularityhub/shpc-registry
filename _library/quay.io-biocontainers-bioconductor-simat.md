@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-simat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-simat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-simat/container.yaml"
-updated_at: "2022-11-03 00:45:18.546534"
+updated_at: "2022-11-03 00:49:23.799612"
 latest: "1.26.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-simat"
 aliases:

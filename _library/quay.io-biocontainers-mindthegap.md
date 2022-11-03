@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mindthegap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mindthegap/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mindthegap/container.yaml"
-updated_at: "2022-11-03 01:05:09.722369"
+updated_at: "2022-11-03 01:14:40.894834"
 latest: "2.3.0--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/mindthegap"
 aliases:

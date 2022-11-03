@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ramr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ramr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ramr/container.yaml"
-updated_at: "2022-11-03 00:37:26.226183"
+updated_at: "2022-11-03 00:39:44.319773"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ramr"
 

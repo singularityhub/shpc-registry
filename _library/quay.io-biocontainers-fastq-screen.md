@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastq-screen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-screen/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-screen/container.yaml"
-updated_at: "2022-11-03 00:51:49.825318"
+updated_at: "2022-11-03 00:57:35.768811"
 latest: "0.5.2--1"
 container_url: "https://biocontainers.pro/tools/fastq-screen"
 aliases:

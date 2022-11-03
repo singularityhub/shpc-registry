@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pymummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymummer/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pymummer/container.yaml"
-updated_at: "2022-11-03 01:06:53.020702"
+updated_at: "2022-11-03 01:16:50.016623"
 latest: "0.9.0--py35_0"
 container_url: "https://biocontainers.pro/tools/pymummer"
 aliases:
