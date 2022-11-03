@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mirnature
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mirnature
 latest:
-  1.0--pl5262r35hdfd78af_5: sha256:51a1b3218a672e7b641b464632117b4e91010b49fe103863e2e11ecc6853b4ae
+  1.1--pl5321r41hdfd78af_0: sha256:f94ae66f440a73de7bfa71d9aa4bf342d8d4490d740569166a0b9a198966e4f4
 tags:
   1.0--pl5262r35hdfd78af_5: sha256:51a1b3218a672e7b641b464632117b4e91010b49fe103863e2e11ecc6853b4ae
+  1.1--pl5321r41hdfd78af_0: sha256:f94ae66f440a73de7bfa71d9aa4bf342d8d4490d740569166a0b9a198966e4f4
 docker: quay.io/biocontainers/mirnature
 aliases:
   MIRfix.py: /usr/local/bin/MIRfix.py

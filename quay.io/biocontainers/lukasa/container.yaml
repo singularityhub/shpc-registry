@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/lukasa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for lukasa
 latest:
-  0.0.8--py310hdfd78af_1: sha256:e55304725d85cb9cc8859c82f3ecdf95d0b2cada7e792bb18ff4ff6321567737
+  0.13.2--py310hdfd78af_0: sha256:ef0b7676230171a1fe7181421b88521a6f63b099ea65affc2c1cb5773db1c305
 tags:
   0.0.8--py310hdfd78af_1: sha256:e55304725d85cb9cc8859c82f3ecdf95d0b2cada7e792bb18ff4ff6321567737
+  0.13.2--py310hdfd78af_0: sha256:ef0b7676230171a1fe7181421b88521a6f63b099ea65affc2c1cb5773db1c305
+  0.12.0--py310hdfd78af_0: sha256:3ada043529484102b4d0a392d633b22554a6604274e4705de3c56eb2bef14743
+  0.11.0--py310hdfd78af_0: sha256:aa57abb09e71c228096a59715067db5280431dbb60647546978048c341328c92
+  0.10.0--py310hdfd78af_0: sha256:f84966aa1b0ae4f81e3623aac862a8c8adc89c9f8182ff85bbf7d71a4e3e121c
 docker: quay.io/biocontainers/lukasa
 aliases:
   bagit.py: /usr/local/bin/bagit.py

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nanolyse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nanolyse
 latest:
-  1.2.0--py_0: sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503
+  1.2.1--pyhdfd78af_0: sha256:4adbbc680fefb4515218b3aff3c44652af1bc0ee255090464e686f98037a595b
 tags:
   1.2.0--py_0: sha256:ac8b4a358471ee570a0e811ca85dd332612b7481b97be548c384ae5c422b4503
+  1.2.1--pyhdfd78af_0: sha256:4adbbc680fefb4515218b3aff3c44652af1bc0ee255090464e686f98037a595b
 docker: quay.io/biocontainers/nanolyse
 aliases:
   NanoLyse: /usr/local/bin/NanoLyse

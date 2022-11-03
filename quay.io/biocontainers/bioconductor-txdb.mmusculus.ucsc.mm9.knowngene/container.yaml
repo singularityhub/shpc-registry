@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowng
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
 latest:
-  3.2.2--r40_9: sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773
+  3.2.2--r41hdfd78af_13: sha256:94429dd582908ea45ce225e104a2b94afb648d06964f0eaae7de9e2b9d9bbd2a
 tags:
   3.2.2--r40_9: sha256:8415202b978f006380bee7bdd2c09ddb0bc4d6280f3cdc24c5f8042ac4a4c773
+  3.2.2--r41hdfd78af_13: sha256:94429dd582908ea45ce225e104a2b94afb648d06964f0eaae7de9e2b9d9bbd2a
 docker: quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene
 aliases:
   .bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh: /usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm9.knowngene-post-link.sh
