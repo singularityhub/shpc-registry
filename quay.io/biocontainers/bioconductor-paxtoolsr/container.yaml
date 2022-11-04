@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-paxtoolsr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-paxtoolsr
 latest:
-  1.28.0--r41hdfd78af_0: sha256:7ea7ccf6cb10bc55356f01271fe6c3e08428ef3bc91fc51c22943d8609816ea2
+  1.32.0--r42hdfd78af_0: sha256:0d9d9c06edf0507a039f23daddb68937d907114ec409f9f4a579aae58ea49f7f
 tags:
   1.28.0--r41hdfd78af_0: sha256:7ea7ccf6cb10bc55356f01271fe6c3e08428ef3bc91fc51c22943d8609816ea2
+  1.32.0--r42hdfd78af_0: sha256:0d9d9c06edf0507a039f23daddb68937d907114ec409f9f4a579aae58ea49f7f
 docker: quay.io/biocontainers/bioconductor-paxtoolsr
 aliases:
   jfr: /usr/local/bin/jfr

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mykrobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mykrobe
 latest:
-  0.9.0--py38h8e3bb3f_3: sha256:cad54cf1570ba39df553217c2589f294560ccf692f0c6d5682844b92e95e7a02
+  0.10.0--py37h09c1ff4_1: sha256:9900f495e67fedde41d4cdf02985cc282bef407331ca03669ae9f259e7dc2044
 tags:
   0.9.0--py38h8e3bb3f_3: sha256:cad54cf1570ba39df553217c2589f294560ccf692f0c6d5682844b92e95e7a02
+  0.10.0--py37h09c1ff4_1: sha256:9900f495e67fedde41d4cdf02985cc282bef407331ca03669ae9f259e7dc2044
 docker: quay.io/biocontainers/mykrobe
 aliases:
   install_compass: /usr/local/bin/install_compass

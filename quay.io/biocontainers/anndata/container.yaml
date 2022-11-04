@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/anndata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for anndata
 latest:
-  0.6.9--py_0: sha256:76436ac95bc757f6f06c64831e42e9187a6c3a2416d9465e732e3e730745bf1e
+  0.6.22.post1--py_0: sha256:1f27f4af53214e9a1291739e398ce0f3861f44941525a87e8f91c1157fb5d511
 tags:
   0.6.9--py_0: sha256:76436ac95bc757f6f06c64831e42e9187a6c3a2416d9465e732e3e730745bf1e
+  0.6.22.post1--py_0: sha256:1f27f4af53214e9a1291739e398ce0f3861f44941525a87e8f91c1157fb5d511
 docker: quay.io/biocontainers/anndata
 aliases:
   natsort: /usr/local/bin/natsort

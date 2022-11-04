@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-biodbchebi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biodbchebi
 latest:
-  1.0.1--r41hdfd78af_0: sha256:c4e03aa65059f1eadafbe06ad51884b80fc1a7997c45d4f5f5abf1269bca7004
+  1.4.0--r42hdfd78af_0: sha256:5f6b1d4dfa21f85258e350f92563f9e2233c5d66ff293f9f4e9bc8da190108ab
 tags:
   1.0.1--r41hdfd78af_0: sha256:c4e03aa65059f1eadafbe06ad51884b80fc1a7997c45d4f5f5abf1269bca7004
+  1.4.0--r42hdfd78af_0: sha256:5f6b1d4dfa21f85258e350f92563f9e2233c5d66ff293f9f4e9bc8da190108ab
 docker: quay.io/biocontainers/bioconductor-biodbchebi

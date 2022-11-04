@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-heebodata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-heebodata
 latest:
-  1.32.0--r41hdfd78af_1: sha256:019cf87a86a879654c107a461ceae33a42f695301a97b7ce670a8f4a11f2d66b
+  1.35.0--r42hdfd78af_0: sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06
 tags:
   1.32.0--r41hdfd78af_1: sha256:019cf87a86a879654c107a461ceae33a42f695301a97b7ce670a8f4a11f2d66b
+  1.35.0--r42hdfd78af_0: sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06
 docker: quay.io/biocontainers/bioconductor-heebodata
 aliases:
   .bioconductor-heebodata-post-link.sh: /usr/local/bin/.bioconductor-heebodata-post-link.sh

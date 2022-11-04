@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-densvis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-densvis
 latest:
-  1.4.0--r41hc247a5b_2: sha256:594159b6af145a90070412d0f1ebb3044f7ab1efdb982430ecdbb0f829764088
+  1.8.0--r42hc247a5b_0: sha256:ab9ef67509ad1c79e50c0db6eb69509eb01504304a3f52799de86cb51e790476
 tags:
   1.4.0--r41hc247a5b_2: sha256:594159b6af145a90070412d0f1ebb3044f7ab1efdb982430ecdbb0f829764088
+  1.8.0--r42hc247a5b_0: sha256:ab9ef67509ad1c79e50c0db6eb69509eb01504304a3f52799de86cb51e790476
 docker: quay.io/biocontainers/bioconductor-densvis

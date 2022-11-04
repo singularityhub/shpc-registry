@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-msstatslobd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msstatslobd
 latest:
-  1.2.0--r41hc247a5b_2: sha256:67058b031825913c9f78b47fa6b67ba0d15c9c2a53c329a27daf10881e97bcaf
+  1.6.0--r42hc247a5b_0: sha256:641caa61d9e6b9d5264b0b37053fe204cff8d0234d991fa86d7b5414f8965a2d
 tags:
   1.2.0--r41hc247a5b_2: sha256:67058b031825913c9f78b47fa6b67ba0d15c9c2a53c329a27daf10881e97bcaf
+  1.6.0--r42hc247a5b_0: sha256:641caa61d9e6b9d5264b0b37053fe204cff8d0234d991fa86d7b5414f8965a2d
 docker: quay.io/biocontainers/bioconductor-msstatslobd

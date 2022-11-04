@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-logitt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-logitt
 latest:
-  1.52.0--r41hc0cfd56_2: sha256:c31b2ca44009ad9a48eb79cc8ebfb58d507e595a0ba4c4e2f6f15a1a0d3858bc
+  1.56.0--r42hc0cfd56_0: sha256:ea4841395c939a3fab78b2ca5610064622b7b1136094a64b4cc6b0e8b1082d11
 tags:
   1.52.0--r41hc0cfd56_2: sha256:c31b2ca44009ad9a48eb79cc8ebfb58d507e595a0ba4c4e2f6f15a1a0d3858bc
+  1.56.0--r42hc0cfd56_0: sha256:ea4841395c939a3fab78b2ca5610064622b7b1136094a64b4cc6b0e8b1082d11
 docker: quay.io/biocontainers/bioconductor-logitt
