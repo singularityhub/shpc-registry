@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mouse430a2frmavecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mouse430a2frmavecs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mouse430a2frmavecs/container.yaml"
-updated_at: "2022-11-03 00:52:56.979861"
-latest: "1.3.0--r41hdfd78af_9"
+updated_at: "2022-11-04 00:08:09.303122"
+latest: "1.3.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mouse430a2frmavecs"
 aliases:
  - ".bioconductor-mouse430a2frmavecs-post-link.sh"
  - ".bioconductor-mouse430a2frmavecs-pre-unlink.sh"
 versions:
  - "1.3.0--r41hdfd78af_9"
+ - "1.3.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-mouse430a2frmavecs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse430a2frmavecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse430a2frmavecs", "latest": {"1.3.0--r41hdfd78af_9": "sha256:a073efa16dd7914098f72c37778646f5a073e418b869ac24d9496f7f3f693813"}, "tags": {"1.3.0--r41hdfd78af_9": "sha256:a073efa16dd7914098f72c37778646f5a073e418b869ac24d9496f7f3f693813"}, "docker": "quay.io/biocontainers/bioconductor-mouse430a2frmavecs", "aliases": {".bioconductor-mouse430a2frmavecs-post-link.sh": "/usr/local/bin/.bioconductor-mouse430a2frmavecs-post-link.sh", ".bioconductor-mouse430a2frmavecs-pre-unlink.sh": "/usr/local/bin/.bioconductor-mouse430a2frmavecs-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mouse430a2frmavecs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mouse430a2frmavecs", "latest": {"1.3.0--r42hdfd78af_10": "sha256:5e227e12c69a3bcdfa324f543255cdde915bfc869d3370fbc735310564429e2d"}, "tags": {"1.3.0--r41hdfd78af_9": "sha256:a073efa16dd7914098f72c37778646f5a073e418b869ac24d9496f7f3f693813", "1.3.0--r42hdfd78af_10": "sha256:5e227e12c69a3bcdfa324f543255cdde915bfc869d3370fbc735310564429e2d"}, "docker": "quay.io/biocontainers/bioconductor-mouse430a2frmavecs", "aliases": {".bioconductor-mouse430a2frmavecs-post-link.sh": "/usr/local/bin/.bioconductor-mouse430a2frmavecs-post-link.sh", ".bioconductor-mouse430a2frmavecs-pre-unlink.sh": "/usr/local/bin/.bioconductor-mouse430a2frmavecs-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mouse430a2frmavecs.

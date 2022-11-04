@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-transite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transite/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transite/container.yaml"
-updated_at: "2022-11-03 00:58:27.094031"
+updated_at: "2022-11-04 00:13:27.205001"
 latest: "1.8.0--r40h399db7b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-transite"
 aliases:

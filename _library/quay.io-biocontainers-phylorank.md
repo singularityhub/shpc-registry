@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/phylorank"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylorank/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phylorank/container.yaml"
-updated_at: "2022-11-03 00:47:46.257323"
-latest: "0.1.9--py_0"
+updated_at: "2022-11-04 00:03:12.192811"
+latest: "0.1.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/phylorank"
 aliases:
  - "phylorank"
@@ -21,8 +21,9 @@ aliases:
  - "python3.9"
 versions:
  - "0.1.9--py_0"
+ - "0.1.12--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for phylorank"
-config: {"url": "https://biocontainers.pro/tools/phylorank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylorank", "latest": {"0.1.9--py_0": "sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98"}, "tags": {"0.1.9--py_0": "sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98"}, "docker": "quay.io/biocontainers/phylorank", "aliases": {"phylorank": "/usr/local/bin/phylorank", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
+config: {"url": "https://biocontainers.pro/tools/phylorank", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for phylorank", "latest": {"0.1.12--pyhdfd78af_0": "sha256:abb4ebd274fbda33cbbbd8ceaf6bee7f9c60305a9484ca3881a4f92e948aadd9"}, "tags": {"0.1.9--py_0": "sha256:d3700b258a02cd4c7421e4cd0a8cf80b7ca71a4a81abfa6e210dfd6e3ccbba98", "0.1.12--pyhdfd78af_0": "sha256:abb4ebd274fbda33cbbbd8ceaf6bee7f9c60305a9484ca3881a4f92e948aadd9"}, "docker": "quay.io/biocontainers/phylorank", "aliases": {"phylorank": "/usr/local/bin/phylorank", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/phylorank.

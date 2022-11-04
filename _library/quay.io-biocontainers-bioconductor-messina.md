@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-messina"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-messina/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-messina/container.yaml"
-updated_at: "2022-11-03 01:05:35.301109"
-latest: "1.30.0--r41hc247a5b_2"
+updated_at: "2022-11-04 00:20:03.966340"
+latest: "1.34.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-messina"
 
 versions:
  - "1.30.0--r41hc247a5b_2"
+ - "1.34.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-messina"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-messina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-messina", "latest": {"1.30.0--r41hc247a5b_2": "sha256:e1a4f18eb7a8b4e9dd6057f1753b6da2b05bd8318bc83432852696185a2b7848"}, "tags": {"1.30.0--r41hc247a5b_2": "sha256:e1a4f18eb7a8b4e9dd6057f1753b6da2b05bd8318bc83432852696185a2b7848"}, "docker": "quay.io/biocontainers/bioconductor-messina"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-messina", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-messina", "latest": {"1.34.0--r42hc247a5b_0": "sha256:4a0b47131fa83c803b03fd3c652fe81d5c6c961b08564c927d9759ee5541b615"}, "tags": {"1.30.0--r41hc247a5b_2": "sha256:e1a4f18eb7a8b4e9dd6057f1753b6da2b05bd8318bc83432852696185a2b7848", "1.34.0--r42hc247a5b_0": "sha256:4a0b47131fa83c803b03fd3c652fe81d5c6c961b08564c927d9759ee5541b615"}, "docker": "quay.io/biocontainers/bioconductor-messina"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-messina.

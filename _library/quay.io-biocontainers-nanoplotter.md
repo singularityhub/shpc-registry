@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/nanoplotter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplotter/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplotter/container.yaml"
-updated_at: "2022-11-03 01:00:35.852815"
-latest: "1.9.1--py_0"
+updated_at: "2022-11-04 00:15:27.516398"
+latest: "1.10.0--py_1"
 container_url: "https://biocontainers.pro/tools/nanoplotter"
 
 versions:
  - "1.9.1--py_0"
+ - "1.10.0--py_1"
 description: "shpc-registry automated BioContainers addition for nanoplotter"
-config: {"url": "https://biocontainers.pro/tools/nanoplotter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplotter", "latest": {"1.9.1--py_0": "sha256:6867211f2bbbcd6cf05ccbba6484a5f9caa9351fb5ee3d1a96d1f1f1bb44086a"}, "tags": {"1.9.1--py_0": "sha256:6867211f2bbbcd6cf05ccbba6484a5f9caa9351fb5ee3d1a96d1f1f1bb44086a"}, "docker": "quay.io/biocontainers/nanoplotter"}
+config: {"url": "https://biocontainers.pro/tools/nanoplotter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nanoplotter", "latest": {"1.10.0--py_1": "sha256:c243d7ef7ba97701fada4a685565720a2c5d90b40294aea5fe3fe143b41bafbf"}, "tags": {"1.9.1--py_0": "sha256:6867211f2bbbcd6cf05ccbba6484a5f9caa9351fb5ee3d1a96d1f1f1bb44086a", "1.10.0--py_1": "sha256:c243d7ef7ba97701fada4a685565720a2c5d90b40294aea5fe3fe143b41bafbf"}, "docker": "quay.io/biocontainers/nanoplotter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nanoplotter.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fqtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqtools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fqtools/container.yaml"
-updated_at: "2022-11-03 00:54:10.132413"
-latest: "2.0--h6233b05_9"
+updated_at: "2022-11-04 00:09:21.340891"
+latest: "2.0--hb0d9459_10"
 container_url: "https://biocontainers.pro/tools/fqtools"
 aliases:
  - "fqtools"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "2.0--h6233b05_9"
+ - "2.0--hb0d9459_10"
 description: "shpc-registry automated BioContainers addition for fqtools"
-config: {"url": "https://biocontainers.pro/tools/fqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqtools", "latest": {"2.0--h6233b05_9": "sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb"}, "tags": {"2.0--h6233b05_9": "sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb"}, "docker": "quay.io/biocontainers/fqtools", "aliases": {"fqtools": "/usr/local/bin/fqtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/fqtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fqtools", "latest": {"2.0--hb0d9459_10": "sha256:390708c9dca3cd02d36f6acde16bed1699b405c4a4de6680aa85eba74b1d7b8d"}, "tags": {"2.0--h6233b05_9": "sha256:63710e23819216691604b249a89cb54957d02ec0446b458c6964fc5d4e87e0eb", "2.0--hb0d9459_10": "sha256:390708c9dca3cd02d36f6acde16bed1699b405c4a4de6680aa85eba74b1d7b8d"}, "docker": "quay.io/biocontainers/fqtools", "aliases": {"fqtools": "/usr/local/bin/fqtools", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fqtools.

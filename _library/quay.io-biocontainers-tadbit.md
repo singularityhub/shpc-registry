@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tadbit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadbit/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tadbit/container.yaml"
-updated_at: "2022-11-03 00:27:20.754039"
+updated_at: "2022-11-03 23:44:11.849423"
 latest: "1.0.1--py36h4aaaa08_1"
 container_url: "https://biocontainers.pro/tools/tadbit"
 aliases:
@@ -25,8 +25,9 @@ aliases:
  - "mcxassemble"
 versions:
  - "1.0.1--py36h4aaaa08_1"
+ - "1.0--py27h877ad6c_1"
 description: "shpc-registry automated BioContainers addition for tadbit"
-config: {"url": "https://biocontainers.pro/tools/tadbit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadbit", "latest": {"1.0.1--py36h4aaaa08_1": "sha256:c3c69e45f09ff844de670fb2204610268bab04c181f495c45cc810268d468897"}, "tags": {"1.0.1--py36h4aaaa08_1": "sha256:c3c69e45f09ff844de670fb2204610268bab04c181f495c45cc810268d468897"}, "docker": "quay.io/biocontainers/tadbit", "aliases": {"gem-indexer": "/usr/local/bin/gem-indexer", "gem-mapper": "/usr/local/bin/gem-mapper", "gem-retriever": "/usr/local/bin/gem-retriever", "normalize_oneD.R": "/usr/local/bin/normalize_oneD.R", "tadbit": "/usr/local/bin/tadbit", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
+config: {"url": "https://biocontainers.pro/tools/tadbit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tadbit", "latest": {"1.0.1--py36h4aaaa08_1": "sha256:c3c69e45f09ff844de670fb2204610268bab04c181f495c45cc810268d468897"}, "tags": {"1.0.1--py36h4aaaa08_1": "sha256:c3c69e45f09ff844de670fb2204610268bab04c181f495c45cc810268d468897", "1.0--py27h877ad6c_1": "sha256:c82fad7b55d437ae373e3926a75c793503e3c7e08b7319b1b926ccdb88ea5b30"}, "docker": "quay.io/biocontainers/tadbit", "aliases": {"gem-indexer": "/usr/local/bin/gem-indexer", "gem-mapper": "/usr/local/bin/gem-mapper", "gem-retriever": "/usr/local/bin/gem-retriever", "normalize_oneD.R": "/usr/local/bin/normalize_oneD.R", "tadbit": "/usr/local/bin/tadbit", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tadbit.

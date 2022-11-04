@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/ffmpeg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ffmpeg/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/ffmpeg/container.yaml"
-updated_at: "2022-11-03 01:40:30.530141"
+updated_at: "2022-11-04 00:53:16.340126"
 latest: "4.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ffmpeg"
 aliases:
@@ -14,7 +14,7 @@ versions:
  - "4.5"
  - "latest"
 description: "FFmpeg is a free and open-source software project consisting of a large suite of libraries and programs for handling video, audio, and other multimedia files and streams."
-config: {"docker": "ghcr.io/autamus/ffmpeg", "url": "https://github.com/orgs/autamus/packages/container/package/ffmpeg", "maintainer": "@vsoch", "description": "FFmpeg is a free and open-source software project consisting of a large suite of libraries and programs for handling video, audio, and other multimedia files and streams.", "latest": {"4.5": "sha256:83d07b4621380cda4c8487e029e5a57d07f408f346ed2ea46ae997783a511cc9"}, "tags": {"4.5": "sha256:83d07b4621380cda4c8487e029e5a57d07f408f346ed2ea46ae997783a511cc9", "latest": "sha256:f03368bcc8fe2131819e1e95ed6b1746334c6b73d2557701d82ac9d9fa124806"}, "aliases": {"ffmpeg": "/opt/view/bin/ffmpeg", "ffprobe": "/opt/view/bin/ffprobe"}}
+config: {"docker": "ghcr.io/autamus/ffmpeg", "url": "https://github.com/orgs/autamus/packages/container/package/ffmpeg", "maintainer": "@vsoch", "description": "FFmpeg is a free and open-source software project consisting of a large suite of libraries and programs for handling video, audio, and other multimedia files and streams.", "latest": {"4.5": "sha256:83d07b4621380cda4c8487e029e5a57d07f408f346ed2ea46ae997783a511cc9"}, "tags": {"4.5": "sha256:83d07b4621380cda4c8487e029e5a57d07f408f346ed2ea46ae997783a511cc9", "latest": "sha256:9891b7e2e92a22b745e835d2d59dab8727a35fc2f2f86016ebb41c51e0a91cb6"}, "aliases": {"ffmpeg": "/opt/view/bin/ffmpeg", "ffprobe": "/opt/view/bin/ffprobe"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/ffmpeg.

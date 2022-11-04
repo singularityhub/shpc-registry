@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-igc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-igc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-igc/container.yaml"
-updated_at: "2022-11-03 01:15:39.920879"
-latest: "1.24.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:29:20.938582"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-igc"
 
 versions:
  - "1.24.0--r41hdfd78af_0"
+ - "1.28.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-igc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-igc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-igc", "latest": {"1.24.0--r41hdfd78af_0": "sha256:d9384dbfff9640d00dd5a9023fbd90dedeb714781a3a1e9868c7e6716a74bafa"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:d9384dbfff9640d00dd5a9023fbd90dedeb714781a3a1e9868c7e6716a74bafa"}, "docker": "quay.io/biocontainers/bioconductor-igc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-igc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-igc", "latest": {"1.28.0--r42hdfd78af_0": "sha256:b86839224fc7ec51ac04ceb0bae47fb6455a6bb1c896e481cd0c58cccf32afff"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:d9384dbfff9640d00dd5a9023fbd90dedeb714781a3a1e9868c7e6716a74bafa", "1.28.0--r42hdfd78af_0": "sha256:b86839224fc7ec51ac04ceb0bae47fb6455a6bb1c896e481cd0c58cccf32afff"}, "docker": "quay.io/biocontainers/bioconductor-igc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-igc.

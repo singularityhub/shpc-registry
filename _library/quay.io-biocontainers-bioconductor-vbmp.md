@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-vbmp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vbmp/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vbmp/container.yaml"
-updated_at: "2022-11-03 01:21:32.006324"
-latest: "1.62.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:34:55.532363"
+latest: "1.66.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vbmp"
 
 versions:
  - "1.62.0--r41hdfd78af_0"
+ - "1.66.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vbmp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vbmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vbmp", "latest": {"1.62.0--r41hdfd78af_0": "sha256:d3f7b8c7324913400b182de6a7f695fb6bf867f7fabec9acdbdfed3eca89d2db"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:d3f7b8c7324913400b182de6a7f695fb6bf867f7fabec9acdbdfed3eca89d2db"}, "docker": "quay.io/biocontainers/bioconductor-vbmp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vbmp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vbmp", "latest": {"1.66.0--r42hdfd78af_0": "sha256:dc6e2255e22d6329cbb5902505a1070ab9b7c59e04c14f2752867c69638777c5"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:d3f7b8c7324913400b182de6a7f695fb6bf867f7fabec9acdbdfed3eca89d2db", "1.66.0--r42hdfd78af_0": "sha256:dc6e2255e22d6329cbb5902505a1070ab9b7c59e04c14f2752867c69638777c5"}, "docker": "quay.io/biocontainers/bioconductor-vbmp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vbmp.

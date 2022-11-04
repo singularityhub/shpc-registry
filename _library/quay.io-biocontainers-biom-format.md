@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biom-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biom-format/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biom-format/container.yaml"
-updated_at: "2022-11-03 01:28:24.413328"
-latest: "2.1.7--py27_0"
+updated_at: "2022-11-04 00:41:32.993018"
+latest: "2.1.12"
 container_url: "https://biocontainers.pro/tools/biom-format"
 aliases:
  - "pyqi"
@@ -21,8 +21,9 @@ aliases:
  - "python2.7"
 versions:
  - "2.1.7--py27_0"
+ - "2.1.12"
 description: "shpc-registry automated BioContainers addition for biom-format"
-config: {"url": "https://biocontainers.pro/tools/biom-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biom-format", "latest": {"2.1.7--py27_0": "sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c"}, "tags": {"2.1.7--py27_0": "sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c"}, "docker": "quay.io/biocontainers/biom-format", "aliases": {"pyqi": "/usr/local/bin/pyqi", "unit2": "/usr/local/bin/unit2", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "biom": "/usr/local/bin/biom", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
+config: {"url": "https://biocontainers.pro/tools/biom-format", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biom-format", "latest": {"2.1.12": "sha256:b958db2587da58dd22a2e08e09c0207b3625091ca5555a855e77ee18b915c5c2"}, "tags": {"2.1.7--py27_0": "sha256:26f1d5f7fdbe14881c73b0c8530e772e616c7684a4d8b7d1031860646286551c", "2.1.12": "sha256:b958db2587da58dd22a2e08e09c0207b3625091ca5555a855e77ee18b915c5c2"}, "docker": "quay.io/biocontainers/biom-format", "aliases": {"pyqi": "/usr/local/bin/pyqi", "unit2": "/usr/local/bin/unit2", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "biom": "/usr/local/bin/biom", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biom-format.

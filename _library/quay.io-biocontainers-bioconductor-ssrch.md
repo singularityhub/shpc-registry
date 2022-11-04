@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ssrch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ssrch/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ssrch/container.yaml"
-updated_at: "2022-11-03 01:32:35.560426"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:45:42.205047"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ssrch"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ssrch"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ssrch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ssrch", "latest": {"1.8.0--r41hdfd78af_0": "sha256:23de792adb33e1511e209cdd321be43227d5bee5209f336220e80a0799efdc9c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:23de792adb33e1511e209cdd321be43227d5bee5209f336220e80a0799efdc9c"}, "docker": "quay.io/biocontainers/bioconductor-ssrch", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ssrch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ssrch", "latest": {"1.14.0--r42hdfd78af_0": "sha256:b56ca53ccaaba3b0d860a4b0f7df4db240856e657e11c8f829e457557e43c76c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:23de792adb33e1511e209cdd321be43227d5bee5209f336220e80a0799efdc9c", "1.14.0--r42hdfd78af_0": "sha256:b56ca53ccaaba3b0d860a4b0f7df4db240856e657e11c8f829e457557e43c76c", "1.10.0--r41hdfd78af_0": "sha256:53beecdf400679943f0da36fba17735135bd6b421b99b9aff992e55031ab27b2"}, "docker": "quay.io/biocontainers/bioconductor-ssrch", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ssrch.

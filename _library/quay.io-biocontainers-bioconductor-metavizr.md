@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metavizr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metavizr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metavizr/container.yaml"
-updated_at: "2022-11-03 01:33:53.352124"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-04 00:46:57.876312"
+latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metavizr"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.15.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metavizr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metavizr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metavizr", "latest": {"1.8.0--r36_1": "sha256:28b1a334059b5d607da3b6a04189cb8033b8d87d78e567cf4abb650bba9a8cc5"}, "tags": {"1.8.0--r36_1": "sha256:28b1a334059b5d607da3b6a04189cb8033b8d87d78e567cf4abb650bba9a8cc5"}, "docker": "quay.io/biocontainers/bioconductor-metavizr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metavizr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metavizr", "latest": {"1.18.0--r41hdfd78af_0": "sha256:af963eb77744f203d48cf257a506428c94b0e2efe00b1a69f852fe89568891ca"}, "tags": {"1.8.0--r36_1": "sha256:28b1a334059b5d607da3b6a04189cb8033b8d87d78e567cf4abb650bba9a8cc5", "1.18.0--r41hdfd78af_0": "sha256:af963eb77744f203d48cf257a506428c94b0e2efe00b1a69f852fe89568891ca", "1.15.0--r41hdfd78af_0": "sha256:ff5103d28c71af1d80898e4e3355871e7a5dbf7184536d080f51613546694a58", "1.14.0--r40hdfd78af_1": "sha256:c62a86e61bb9d328af7209ef0b5841ab2d792320cdbf4404f8f6b0f16621a50f", "1.12.0--r40_0": "sha256:62ad689b2d41d29e8645b99f3da6433a705ed6b1e352044a8c2bab750765ecea", "1.10.0--r36_0": "sha256:69e965d4d11acf072f274286c6879444d170475d41775cd9cbcee18b5be18008"}, "docker": "quay.io/biocontainers/bioconductor-metavizr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metavizr.

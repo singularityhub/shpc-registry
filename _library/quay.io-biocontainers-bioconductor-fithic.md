@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-fithic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fithic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fithic/container.yaml"
-updated_at: "2022-11-03 00:26:29.291371"
-latest: "1.8.0--r351hf484d3e_0"
+updated_at: "2022-11-03 23:43:22.144077"
+latest: "1.24.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fithic"
 aliases:
  - "c89"
  - "c99"
 versions:
  - "1.8.0--r351hf484d3e_0"
+ - "1.24.0--r42hc247a5b_0"
+ - "1.20.0--r41hc247a5b_2"
+ - "1.18.0--r41h399db7b_0"
+ - "1.16.0--r40h399db7b_1"
+ - "1.14.0--r40h5f743cb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fithic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fithic", "latest": {"1.8.0--r351hf484d3e_0": "sha256:fdacd86bff25ae93ff36ed55acac886d5fbc93a084e12e4bd19aab9ed35176c1"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:fdacd86bff25ae93ff36ed55acac886d5fbc93a084e12e4bd19aab9ed35176c1"}, "docker": "quay.io/biocontainers/bioconductor-fithic", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fithic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fithic", "latest": {"1.24.0--r42hc247a5b_0": "sha256:3023fd7844ea97769343c4ce5879006940b3f64ac66489db25f9a170d6b4813e"}, "tags": {"1.8.0--r351hf484d3e_0": "sha256:fdacd86bff25ae93ff36ed55acac886d5fbc93a084e12e4bd19aab9ed35176c1", "1.24.0--r42hc247a5b_0": "sha256:3023fd7844ea97769343c4ce5879006940b3f64ac66489db25f9a170d6b4813e", "1.20.0--r41hc247a5b_2": "sha256:7e88980c0dc939d0b08b17299b8272aa4d60e9cd81c7ddb95dc1c6bde475269c", "1.18.0--r41h399db7b_0": "sha256:7030bcca8e2dbf049f352023b4892ca6d6a096d2d4077a6ca2499e37bf6cf6c4", "1.16.0--r40h399db7b_1": "sha256:f40968c41e01fdda2b906d5236f266a3ba448dece5135a1fcaaa69bf231308d6", "1.14.0--r40h5f743cb_0": "sha256:d176950b2f934359a7d1d1593bcd2f0a7b2602c13eb3b785369813f209b0891d"}, "docker": "quay.io/biocontainers/bioconductor-fithic", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fithic.

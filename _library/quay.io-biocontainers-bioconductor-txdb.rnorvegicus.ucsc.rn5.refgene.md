@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/container.yaml"
-updated_at: "2022-11-03 01:14:42.981482"
-latest: "3.4.6--r36_1"
+updated_at: "2022-11-04 00:28:29.039777"
+latest: "3.12.0--r41hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene"
 aliases:
  - ".bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-post-link.sh"
@@ -15,8 +15,11 @@ aliases:
  - "c99"
 versions:
  - "3.4.6--r36_1"
+ - "3.12.0--r41hdfd78af_4"
+ - "3.11.0--r40_0"
+ - "3.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene", "latest": {"3.4.6--r36_1": "sha256:686d093b2cf125687a44888b64cd0afa37d85c6b47419eb15cda601486eca7d6"}, "tags": {"3.4.6--r36_1": "sha256:686d093b2cf125687a44888b64cd0afa37d85c6b47419eb15cda601486eca7d6"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene", "aliases": {".bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-post-link.sh", ".bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene", "latest": {"3.12.0--r41hdfd78af_4": "sha256:00dc03cbe7d1fd74bf7ededcb8c4b9714a52d2154d4b70b8762266ff2844fd6b"}, "tags": {"3.4.6--r36_1": "sha256:686d093b2cf125687a44888b64cd0afa37d85c6b47419eb15cda601486eca7d6", "3.12.0--r41hdfd78af_4": "sha256:00dc03cbe7d1fd74bf7ededcb8c4b9714a52d2154d4b70b8762266ff2844fd6b", "3.11.0--r40_0": "sha256:f8289fc6cfc708aac7fe7e1b600d1a93375dabfee2424c0d65e5490930f35601", "3.10.0--r36_0": "sha256:5c23a809bc7d2997265c86ea0b8a8fc8775e579db40305f22246fae6c9d8a27e"}, "docker": "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene", "aliases": {".bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-post-link.sh", ".bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene.

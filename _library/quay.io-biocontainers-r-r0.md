@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-r0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r0/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-r0/container.yaml"
-updated_at: "2022-11-03 01:35:34.981588"
-latest: "1.2_6--r41h3121a25_0"
+updated_at: "2022-11-04 00:48:32.568099"
+latest: "1.2_6--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-r0"
 
 versions:
  - "1.2_6--r41h3121a25_0"
+ - "1.2_6--r42h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-r0"
-config: {"url": "https://biocontainers.pro/tools/r-r0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r0", "latest": {"1.2_6--r41h3121a25_0": "sha256:11ee1f23da1384699320bfa421606c1b9017c3fbe2ca264900ae4abb8eb29e65"}, "tags": {"1.2_6--r41h3121a25_0": "sha256:11ee1f23da1384699320bfa421606c1b9017c3fbe2ca264900ae4abb8eb29e65"}, "docker": "quay.io/biocontainers/r-r0"}
+config: {"url": "https://biocontainers.pro/tools/r-r0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-r0", "latest": {"1.2_6--r42h3121a25_1": "sha256:d0487f0eb63ab42915ec713f9d325db8036b9418563b35af1918ab0bd01e043f"}, "tags": {"1.2_6--r41h3121a25_0": "sha256:11ee1f23da1384699320bfa421606c1b9017c3fbe2ca264900ae4abb8eb29e65", "1.2_6--r42h3121a25_1": "sha256:d0487f0eb63ab42915ec713f9d325db8036b9418563b35af1918ab0bd01e043f"}, "docker": "quay.io/biocontainers/r-r0"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-r0.

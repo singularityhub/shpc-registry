@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-gpaexample"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gpaexample/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gpaexample/container.yaml"
-updated_at: "2022-11-03 00:29:47.060520"
-latest: "1.6.0--r41hdfd78af_1"
+updated_at: "2022-11-03 23:46:26.234192"
+latest: "1.9.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gpaexample"
 aliases:
  - ".bioconductor-gpaexample-post-link.sh"
  - ".bioconductor-gpaexample-pre-unlink.sh"
 versions:
  - "1.6.0--r41hdfd78af_1"
+ - "1.9.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gpaexample"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gpaexample", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gpaexample", "latest": {"1.6.0--r41hdfd78af_1": "sha256:5cbe9805e6dbd801fc71821d03c3705f8202fe6949bfb37223a952132f0e05e3"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:5cbe9805e6dbd801fc71821d03c3705f8202fe6949bfb37223a952132f0e05e3"}, "docker": "quay.io/biocontainers/bioconductor-gpaexample", "aliases": {".bioconductor-gpaexample-post-link.sh": "/usr/local/bin/.bioconductor-gpaexample-post-link.sh", ".bioconductor-gpaexample-pre-unlink.sh": "/usr/local/bin/.bioconductor-gpaexample-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gpaexample", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gpaexample", "latest": {"1.9.0--r42hdfd78af_0": "sha256:7943d7e8d3beaa5c4462e186e259f7e6de2b4ae2530c7b46b70004b260ba0b68"}, "tags": {"1.6.0--r41hdfd78af_1": "sha256:5cbe9805e6dbd801fc71821d03c3705f8202fe6949bfb37223a952132f0e05e3", "1.9.0--r42hdfd78af_0": "sha256:7943d7e8d3beaa5c4462e186e259f7e6de2b4ae2530c7b46b70004b260ba0b68"}, "docker": "quay.io/biocontainers/bioconductor-gpaexample", "aliases": {".bioconductor-gpaexample-post-link.sh": "/usr/local/bin/.bioconductor-gpaexample-post-link.sh", ".bioconductor-gpaexample-pre-unlink.sh": "/usr/local/bin/.bioconductor-gpaexample-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gpaexample.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mimosa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mimosa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mimosa/container.yaml"
-updated_at: "2022-11-03 01:25:20.251754"
-latest: "1.32.0--r41hc247a5b_2"
+updated_at: "2022-11-04 00:38:32.912449"
+latest: "1.36.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mimosa"
 
 versions:
  - "1.32.0--r41hc247a5b_2"
+ - "1.36.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mimosa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mimosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mimosa", "latest": {"1.32.0--r41hc247a5b_2": "sha256:0e2ad68c2223c504159a7f9104a75be736e64960671c5492d5d6ae8f30b1a28e"}, "tags": {"1.32.0--r41hc247a5b_2": "sha256:0e2ad68c2223c504159a7f9104a75be736e64960671c5492d5d6ae8f30b1a28e"}, "docker": "quay.io/biocontainers/bioconductor-mimosa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mimosa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mimosa", "latest": {"1.36.0--r42hc247a5b_0": "sha256:cc4545f4844c26e0b51dbad4292d2d7a7233ba95890564f9e9b509f87ecbce6c"}, "tags": {"1.32.0--r41hc247a5b_2": "sha256:0e2ad68c2223c504159a7f9104a75be736e64960671c5492d5d6ae8f30b1a28e", "1.36.0--r42hc247a5b_0": "sha256:cc4545f4844c26e0b51dbad4292d2d7a7233ba95890564f9e9b509f87ecbce6c"}, "docker": "quay.io/biocontainers/bioconductor-mimosa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mimosa.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyani/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyani/container.yaml"
-updated_at: "2022-11-03 00:58:08.770383"
-latest: "0.2.9--pyh24bf2e0_0"
+updated_at: "2022-11-04 00:13:09.567622"
+latest: "0.2.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/pyani"
 aliases:
  - "average_nucleotide_identity.py"
@@ -23,8 +23,9 @@ aliases:
  - "makemat"
 versions:
  - "0.2.9--pyh24bf2e0_0"
+ - "0.2.12--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for pyani"
-config: {"url": "https://biocontainers.pro/tools/pyani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyani", "latest": {"0.2.9--pyh24bf2e0_0": "sha256:e95fbb3cfbeff44d6f0a1f7934d685ed3e1acc93f0eaae4a5c1d22fb7d84896f"}, "tags": {"0.2.9--pyh24bf2e0_0": "sha256:e95fbb3cfbeff44d6f0a1f7934d685ed3e1acc93f0eaae4a5c1d22fb7d84896f"}, "docker": "quay.io/biocontainers/pyani", "aliases": {"average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
+config: {"url": "https://biocontainers.pro/tools/pyani", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyani", "latest": {"0.2.12--pyhdfd78af_0": "sha256:255c207f0fec533ce143de5c106e1f1a442c466a4b0179e324cedfdbae96394e"}, "tags": {"0.2.9--pyh24bf2e0_0": "sha256:e95fbb3cfbeff44d6f0a1f7934d685ed3e1acc93f0eaae4a5c1d22fb7d84896f", "0.2.12--pyhdfd78af_0": "sha256:255c207f0fec533ce143de5c106e1f1a442c466a4b0179e324cedfdbae96394e"}, "docker": "quay.io/biocontainers/pyani", "aliases": {"average_nucleotide_identity.py": "/usr/local/bin/average_nucleotide_identity.py", "delta_filter_wrapper.py": "/usr/local/bin/delta_filter_wrapper.py", "genbank_get_genomes_by_taxon.py": "/usr/local/bin/genbank_get_genomes_by_taxon.py", "bl2seq": "/usr/local/bin/bl2seq", "blastall": "/usr/local/bin/blastall", "blastclust": "/usr/local/bin/blastclust", "blastpgp": "/usr/local/bin/blastpgp", "copymat": "/usr/local/bin/copymat", "fastacmd": "/usr/local/bin/fastacmd", "formatdb": "/usr/local/bin/formatdb", "formatrpsdb": "/usr/local/bin/formatrpsdb", "impala": "/usr/local/bin/impala", "makemat": "/usr/local/bin/makemat"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyani.

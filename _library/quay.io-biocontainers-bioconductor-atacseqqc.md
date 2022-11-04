@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-atacseqqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atacseqqc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atacseqqc/container.yaml"
-updated_at: "2022-11-03 01:12:27.966992"
-latest: "1.8.5--r36_0"
+updated_at: "2022-11-04 00:26:25.805568"
+latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atacseqqc"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.5--r36_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.4--r40hdfd78af_1"
+ - "1.12.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-atacseqqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-atacseqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atacseqqc", "latest": {"1.8.5--r36_0": "sha256:b1aa228aebd9966700420ae58d56056c047f68172d98361e68c8959bc29b2685"}, "tags": {"1.8.5--r36_0": "sha256:b1aa228aebd9966700420ae58d56056c047f68172d98361e68c8959bc29b2685"}, "docker": "quay.io/biocontainers/bioconductor-atacseqqc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-atacseqqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atacseqqc", "latest": {"1.18.0--r41hdfd78af_0": "sha256:0b2d64e0dc4656734423a4667adc0bdd7cb3b034bcda4c6d18f6588a52bbfbbc"}, "tags": {"1.8.5--r36_0": "sha256:b1aa228aebd9966700420ae58d56056c047f68172d98361e68c8959bc29b2685", "1.18.0--r41hdfd78af_0": "sha256:0b2d64e0dc4656734423a4667adc0bdd7cb3b034bcda4c6d18f6588a52bbfbbc", "1.16.0--r41hdfd78af_0": "sha256:d18f3526303e6791bef99334180da0affd3128dc0aaf9c206e87d26c31442d19", "1.14.4--r40hdfd78af_1": "sha256:ca7efd605d056c41e4dac8c7acccb91490eb97f384450d80e7fd851c67359896", "1.12.0--r40_0": "sha256:580a7d9ff9eed4ce1a6eef3447dc2f40ee88332afa02c8252286302d0a0efe9e", "1.10.0--r36_0": "sha256:238360868b0a8a9667d66cf9c53be6e5080b07fe03c3231b1c546424b23f4af6"}, "docker": "quay.io/biocontainers/bioconductor-atacseqqc", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-atacseqqc.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-datetime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime/container.yaml"
-updated_at: "2022-11-03 01:00:12.030292"
-latest: "1.58--pl5321h9f5acd7_1"
+updated_at: "2022-11-04 00:15:05.947420"
+latest: "1.59--pl5321h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/perl-datetime"
 
 versions:
  - "1.58--pl5321h9f5acd7_1"
+ - "1.59--pl5321h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for perl-datetime"
-config: {"url": "https://biocontainers.pro/tools/perl-datetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime", "latest": {"1.58--pl5321h9f5acd7_1": "sha256:a6b4f54183fa36f387096f5d0566d7d376af7ce413bb5fdb0f369f550dfd70cc"}, "tags": {"1.58--pl5321h9f5acd7_1": "sha256:a6b4f54183fa36f387096f5d0566d7d376af7ce413bb5fdb0f369f550dfd70cc"}, "docker": "quay.io/biocontainers/perl-datetime"}
+config: {"url": "https://biocontainers.pro/tools/perl-datetime", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-datetime", "latest": {"1.59--pl5321h9f5acd7_0": "sha256:829050a5ac76481ae22af618b416d93101929dd1f55427a4306b02bb3ded3375"}, "tags": {"1.58--pl5321h9f5acd7_1": "sha256:a6b4f54183fa36f387096f5d0566d7d376af7ce413bb5fdb0f369f550dfd70cc", "1.59--pl5321h9f5acd7_0": "sha256:829050a5ac76481ae22af618b416d93101929dd1f55427a4306b02bb3ded3375"}, "docker": "quay.io/biocontainers/perl-datetime"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-datetime.

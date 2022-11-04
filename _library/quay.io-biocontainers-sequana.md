@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/sequana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequana/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sequana/container.yaml"
-updated_at: "2022-11-03 00:56:42.553523"
-latest: "0.8.2--py36h4c5857e_1"
+updated_at: "2022-11-04 00:11:48.182814"
+latest: "0.14.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sequana"
 
 versions:
  - "0.8.2--py36h4c5857e_1"
+ - "0.14.3--pyh7cba7a3_0"
+ - "0.13.2--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for sequana"
-config: {"url": "https://biocontainers.pro/tools/sequana", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequana", "latest": {"0.8.2--py36h4c5857e_1": "sha256:03bd2313d7dfc05e294f3b5e9d37510fc14c6e5823f657aee0b3146e157f6a28"}, "tags": {"0.8.2--py36h4c5857e_1": "sha256:03bd2313d7dfc05e294f3b5e9d37510fc14c6e5823f657aee0b3146e157f6a28"}, "docker": "quay.io/biocontainers/sequana"}
+config: {"url": "https://biocontainers.pro/tools/sequana", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sequana", "latest": {"0.14.3--pyh7cba7a3_0": "sha256:c684fb31f660c1ab46c990389e1b5ed1f73cfb8d7ce5cffdbf47356a80a1eff9"}, "tags": {"0.8.2--py36h4c5857e_1": "sha256:03bd2313d7dfc05e294f3b5e9d37510fc14c6e5823f657aee0b3146e157f6a28", "0.14.3--pyh7cba7a3_0": "sha256:c684fb31f660c1ab46c990389e1b5ed1f73cfb8d7ce5cffdbf47356a80a1eff9", "0.13.2--pyh5e36f6f_0": "sha256:1e3f43185f9d8f2b5872db976a216a9dbf2731d95662707c8c620d0bf06287b6"}, "docker": "quay.io/biocontainers/sequana"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sequana.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-omicslonda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicslonda/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicslonda/container.yaml"
-updated_at: "2022-11-03 01:38:23.867841"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:51:16.461304"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicslonda"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicslonda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicslonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicslonda", "latest": {"1.8.0--r41hdfd78af_0": "sha256:5578e5c11ee8154322bffce98db16c92b327da2bea0784c429f944d3d5d2792c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:5578e5c11ee8154322bffce98db16c92b327da2bea0784c429f944d3d5d2792c"}, "docker": "quay.io/biocontainers/bioconductor-omicslonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicslonda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicslonda", "latest": {"1.10.0--r41hdfd78af_0": "sha256:846b9b5eee2676cc773c62d361251339cb6fbbe13d1c28b2e9ab5170fa90ac04"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:5578e5c11ee8154322bffce98db16c92b327da2bea0784c429f944d3d5d2792c", "1.10.0--r41hdfd78af_0": "sha256:846b9b5eee2676cc773c62d361251339cb6fbbe13d1c28b2e9ab5170fa90ac04"}, "docker": "quay.io/biocontainers/bioconductor-omicslonda", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicslonda.

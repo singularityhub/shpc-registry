@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-globalseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-globalseq/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-globalseq/container.yaml"
-updated_at: "2022-11-03 00:58:10.363128"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-04 00:13:11.123266"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-globalseq"
 
 versions:
  - "1.8.0--r351_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-globalseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-globalseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-globalseq", "latest": {"1.8.0--r351_0": "sha256:f09ebf3fe3800aadcd0041448e1ab4f9d4245b6ff7201c41e133d918d628f2af"}, "tags": {"1.8.0--r351_0": "sha256:f09ebf3fe3800aadcd0041448e1ab4f9d4245b6ff7201c41e133d918d628f2af"}, "docker": "quay.io/biocontainers/bioconductor-globalseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-globalseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-globalseq", "latest": {"1.26.0--r42hdfd78af_0": "sha256:a3ee04e64274a5070dac442bf358b0f2b4649c262748cf818e3066b8ef54c30f"}, "tags": {"1.8.0--r351_0": "sha256:f09ebf3fe3800aadcd0041448e1ab4f9d4245b6ff7201c41e133d918d628f2af", "1.26.0--r42hdfd78af_0": "sha256:a3ee04e64274a5070dac442bf358b0f2b4649c262748cf818e3066b8ef54c30f", "1.22.0--r41hdfd78af_0": "sha256:7b19ba84385a9350c59275517789f63a2d28b4189f2d8b30b6851c0edfe98684", "1.20.0--r41hdfd78af_0": "sha256:322b0d782e7e59a6fec428c0ce2d698f71154e058335d3ebe8cd8eaeffb633b2", "1.18.0--r40hdfd78af_1": "sha256:510e9130fe7324878bd9baf24a8a11f5f06e2098c4114b49e7c60fb654d6eac3", "1.16.0--r40_0": "sha256:c4e0dbd62e99fc08afd596d46808985a6758db1b50843b90f9cda1644fe4dddf"}, "docker": "quay.io/biocontainers/bioconductor-globalseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-globalseq.

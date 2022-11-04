@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-pcan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcan/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcan/container.yaml"
-updated_at: "2022-11-03 01:02:32.695479"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-04 00:17:15.073686"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcan"
 
 versions:
  - "1.8.0--r351_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcan", "latest": {"1.8.0--r351_0": "sha256:8a6805edbc77d7a895b9365cf3553bcb622282814805a2f4e84447be6f05a4df"}, "tags": {"1.8.0--r351_0": "sha256:8a6805edbc77d7a895b9365cf3553bcb622282814805a2f4e84447be6f05a4df"}, "docker": "quay.io/biocontainers/bioconductor-pcan"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcan", "latest": {"1.26.0--r42hdfd78af_0": "sha256:77978c99b81f65c91b92150e219f7500af57a408a0218fc352173cfa7b6d461c"}, "tags": {"1.8.0--r351_0": "sha256:8a6805edbc77d7a895b9365cf3553bcb622282814805a2f4e84447be6f05a4df", "1.26.0--r42hdfd78af_0": "sha256:77978c99b81f65c91b92150e219f7500af57a408a0218fc352173cfa7b6d461c", "1.22.0--r41hdfd78af_0": "sha256:197c22bfed5e491dcbf880004704c078b9accd13a82e9e097ea88c066a9f1ac7", "1.20.0--r41hdfd78af_0": "sha256:ac4c9b35a2198c53aa8b704934f66c9c8f1fdb4fed6688eb4c371c8ff9b82fd4", "1.18.0--r40hdfd78af_1": "sha256:9c049b50776ea9d9fe3b739068c1fe9da814328070b9f638599044429f8ada5c", "1.16.0--r40_0": "sha256:b652cba9cd6f789e3b3a669183eea3d997da910d8eec17cae3486e3e9fde98a6"}, "docker": "quay.io/biocontainers/bioconductor-pcan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcan.

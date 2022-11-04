@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/crispresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispresso/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crispresso/container.yaml"
-updated_at: "2022-11-03 01:34:56.488555"
-latest: "1.0.8--py27_0"
+updated_at: "2022-11-04 00:47:57.320198"
+latest: "1.0.13--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/crispresso"
 
 versions:
  - "1.0.8--py27_0"
+ - "1.0.13--py27h9801fc8_5"
 description: "shpc-registry automated BioContainers addition for crispresso"
-config: {"url": "https://biocontainers.pro/tools/crispresso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispresso", "latest": {"1.0.8--py27_0": "sha256:6081ce8a61fb391d395112dae63501e8a447f900f6281b49a1ead7bfb983c117"}, "tags": {"1.0.8--py27_0": "sha256:6081ce8a61fb391d395112dae63501e8a447f900f6281b49a1ead7bfb983c117"}, "docker": "quay.io/biocontainers/crispresso"}
+config: {"url": "https://biocontainers.pro/tools/crispresso", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for crispresso", "latest": {"1.0.13--py27h9801fc8_5": "sha256:f24bf87ca5557adb745aa8b5515877de2be5cda69c26224f00c9e3994ecbc8b3"}, "tags": {"1.0.8--py27_0": "sha256:6081ce8a61fb391d395112dae63501e8a447f900f6281b49a1ead7bfb983c117", "1.0.13--py27h9801fc8_5": "sha256:f24bf87ca5557adb745aa8b5515877de2be5cda69c26224f00c9e3994ecbc8b3"}, "docker": "quay.io/biocontainers/crispresso"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/crispresso.

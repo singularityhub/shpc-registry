@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rsemmed"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rsemmed/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rsemmed/container.yaml"
-updated_at: "2022-11-03 01:37:02.916322"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:49:57.827841"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rsemmed"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rsemmed"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rsemmed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsemmed", "latest": {"1.4.0--r41hdfd78af_0": "sha256:b3d9766c560dcd8bc3d4247835d6c57ef843eaf0a563309c46cb6f99984d8a0f"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:b3d9766c560dcd8bc3d4247835d6c57ef843eaf0a563309c46cb6f99984d8a0f"}, "docker": "quay.io/biocontainers/bioconductor-rsemmed"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rsemmed", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rsemmed", "latest": {"1.8.0--r42hdfd78af_0": "sha256:779438585d65401761d5c3a83ab20cf2df003bc065e365975454e45d34dfa344"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:b3d9766c560dcd8bc3d4247835d6c57ef843eaf0a563309c46cb6f99984d8a0f", "1.8.0--r42hdfd78af_0": "sha256:779438585d65401761d5c3a83ab20cf2df003bc065e365975454e45d34dfa344"}, "docker": "quay.io/biocontainers/bioconductor-rsemmed"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rsemmed.

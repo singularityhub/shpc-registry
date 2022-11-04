@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-regparallel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regparallel/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regparallel/container.yaml"
-updated_at: "2022-11-03 01:38:57.647077"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-04 00:51:48.093068"
+latest: "1.15.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regparallel"
 aliases:
  - ".bioconductor-regparallel-post-link.sh"
@@ -13,8 +13,11 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.15.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-regparallel"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-regparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regparallel", "latest": {"1.8.0--r40hdfd78af_1": "sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82"}, "docker": "quay.io/biocontainers/bioconductor-regparallel", "aliases": {".bioconductor-regparallel-post-link.sh": "/usr/local/bin/.bioconductor-regparallel-post-link.sh", ".bioconductor-regparallel-pre-unlink.sh": "/usr/local/bin/.bioconductor-regparallel-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-regparallel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regparallel", "latest": {"1.15.0--r42hdfd78af_0": "sha256:9de9385b1edd9092ac2bf616aa54bdb368970714a42d017bf7a621a706f95c64"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:a57f9fb5b9a40c8f0e4d37bfc07fd8baa76746df7c3a85bc474e3e5f956edc82", "1.15.0--r42hdfd78af_0": "sha256:9de9385b1edd9092ac2bf616aa54bdb368970714a42d017bf7a621a706f95c64", "1.12.0--r41hdfd78af_1": "sha256:b2d56f50466be93e2e3dc54933996faa161233f363360ba26868c51a3d635624", "1.10.0--r41hdfd78af_0": "sha256:63e64746b580152f645530c8fa2cc704713b41cdc4143c6c202dc1addc3cb745"}, "docker": "quay.io/biocontainers/bioconductor-regparallel", "aliases": {".bioconductor-regparallel-post-link.sh": "/usr/local/bin/.bioconductor-regparallel-post-link.sh", ".bioconductor-regparallel-pre-unlink.sh": "/usr/local/bin/.bioconductor-regparallel-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-regparallel.

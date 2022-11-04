@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-repviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-repviz/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-repviz/container.yaml"
-updated_at: "2022-11-03 00:59:58.373019"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:14:53.370355"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-repviz"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-repviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-repviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-repviz", "latest": {"1.8.0--r41hdfd78af_0": "sha256:efa1d56959e527df15354f9eac7f58588cd87b751ae88527eaafbe0f2b6d45cc"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:efa1d56959e527df15354f9eac7f58588cd87b751ae88527eaafbe0f2b6d45cc"}, "docker": "quay.io/biocontainers/bioconductor-repviz", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-repviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-repviz", "latest": {"1.10.0--r41hdfd78af_0": "sha256:9b33cc8f50d5d0e6847ee0f05f96e20f7b323996e5f75e726a006f1e71dc8fc2"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:efa1d56959e527df15354f9eac7f58588cd87b751ae88527eaafbe0f2b6d45cc", "1.10.0--r41hdfd78af_0": "sha256:9b33cc8f50d5d0e6847ee0f05f96e20f7b323996e5f75e726a006f1e71dc8fc2"}, "docker": "quay.io/biocontainers/bioconductor-repviz", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-repviz.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-googlegenomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-googlegenomics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-googlegenomics/container.yaml"
-updated_at: "2022-11-03 01:18:17.471349"
+updated_at: "2022-11-04 00:31:48.327590"
 latest: "2.4.0--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-googlegenomics"
 aliases:

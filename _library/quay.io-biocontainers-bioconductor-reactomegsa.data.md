@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-reactomegsa.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reactomegsa.data/container.yaml"
-updated_at: "2022-11-03 00:31:15.676928"
-latest: "1.8.0--r41hdfd78af_1"
+updated_at: "2022-11-03 23:47:47.248182"
+latest: "1.11.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reactomegsa.data"
 aliases:
  - ".bioconductor-reactomegsa.data-post-link.sh"
@@ -15,8 +15,9 @@ aliases:
  - "glpsol"
 versions:
  - "1.8.0--r41hdfd78af_1"
+ - "1.11.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {".bioconductor-reactomegsa.data-post-link.sh": "/usr/local/bin/.bioconductor-reactomegsa.data-post-link.sh", ".bioconductor-reactomegsa.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-reactomegsa.data-pre-unlink.sh", "geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reactomegsa.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reactomegsa.data", "latest": {"1.11.0--r42hdfd78af_0": "sha256:dd9543bb1a2844c8c1793cb5bc5f0f6ac26a219f124749efced4a350a8d32e07"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:3d47ef470ff9d95f59bcf03dfcb18b05dbd14b8909dbc61cb2036ff30a1dc28d", "1.11.0--r42hdfd78af_0": "sha256:dd9543bb1a2844c8c1793cb5bc5f0f6ac26a219f124749efced4a350a8d32e07"}, "docker": "quay.io/biocontainers/bioconductor-reactomegsa.data", "aliases": {".bioconductor-reactomegsa.data-post-link.sh": "/usr/local/bin/.bioconductor-reactomegsa.data-post-link.sh", ".bioconductor-reactomegsa.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-reactomegsa.data-pre-unlink.sh", "geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reactomegsa.data.

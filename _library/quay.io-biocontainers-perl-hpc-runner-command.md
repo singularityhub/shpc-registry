@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-hpc-runner-command"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-command/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-command/container.yaml"
-updated_at: "2022-11-03 00:45:55.751304"
-latest: "3.2.9--pl5.22.0_0"
+updated_at: "2022-11-04 00:01:27.574063"
+latest: "3.2.13--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-command"
 
 versions:
  - "3.2.9--pl5.22.0_0"
+ - "3.2.13--pl5321hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for perl-hpc-runner-command"
-config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-command", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-command", "latest": {"3.2.9--pl5.22.0_0": "sha256:2324cbf8aff8915362ea3b18abe278fa1e85987ce3ca82b9449ab6c1651eac86"}, "tags": {"3.2.9--pl5.22.0_0": "sha256:2324cbf8aff8915362ea3b18abe278fa1e85987ce3ca82b9449ab6c1651eac86"}, "docker": "quay.io/biocontainers/perl-hpc-runner-command"}
+config: {"url": "https://biocontainers.pro/tools/perl-hpc-runner-command", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-hpc-runner-command", "latest": {"3.2.13--pl5321hdfd78af_2": "sha256:af94f69ace6ffc0d4a649a88ec276a4daf990e2153fad5dc638936573b5b6d33"}, "tags": {"3.2.9--pl5.22.0_0": "sha256:2324cbf8aff8915362ea3b18abe278fa1e85987ce3ca82b9449ab6c1651eac86", "3.2.13--pl5321hdfd78af_2": "sha256:af94f69ace6ffc0d4a649a88ec276a4daf990e2153fad5dc638936573b5b6d33"}, "docker": "quay.io/biocontainers/perl-hpc-runner-command"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-hpc-runner-command.

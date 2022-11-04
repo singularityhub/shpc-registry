@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-dbd-pg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-dbd-pg/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-dbd-pg/container.yaml"
-updated_at: "2022-11-03 01:08:30.496794"
-latest: "3.8.1--pl526h14c3975_0"
+updated_at: "2022-11-04 00:22:47.453719"
+latest: "3.16.0--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/perl-dbd-pg"
 aliases:
  - "pg_verify_checksums"
@@ -21,8 +21,10 @@ aliases:
  - "clusterdb"
 versions:
  - "3.8.1--pl526h14c3975_0"
+ - "3.16.0--pl5321hec16e2b_0"
+ - "3.15.1--pl5321hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for perl-dbd-pg"
-config: {"url": "https://biocontainers.pro/tools/perl-dbd-pg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-pg", "latest": {"3.8.1--pl526h14c3975_0": "sha256:f4d5310c024fdaccdeb31dc97051644b09183b63c55366d4151989a6437a2845"}, "tags": {"3.8.1--pl526h14c3975_0": "sha256:f4d5310c024fdaccdeb31dc97051644b09183b63c55366d4151989a6437a2845"}, "docker": "quay.io/biocontainers/perl-dbd-pg", "aliases": {"pg_verify_checksums": "/usr/local/bin/pg_verify_checksums", "pg_standby": "/usr/local/bin/pg_standby", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb"}}
+config: {"url": "https://biocontainers.pro/tools/perl-dbd-pg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-dbd-pg", "latest": {"3.16.0--pl5321hec16e2b_0": "sha256:56731792fe6c89aae9cb565b187ac55423663830e46ee0cde1935678d5e0fee1"}, "tags": {"3.8.1--pl526h14c3975_0": "sha256:f4d5310c024fdaccdeb31dc97051644b09183b63c55366d4151989a6437a2845", "3.16.0--pl5321hec16e2b_0": "sha256:56731792fe6c89aae9cb565b187ac55423663830e46ee0cde1935678d5e0fee1", "3.15.1--pl5321hec16e2b_1": "sha256:243891b7d78398681df315fbfb093180b7fa42e8ad8d645628612f331936bac4"}, "docker": "quay.io/biocontainers/perl-dbd-pg", "aliases": {"pg_verify_checksums": "/usr/local/bin/pg_verify_checksums", "pg_standby": "/usr/local/bin/pg_standby", "tzselect": "/usr/local/bin/tzselect", "zdump": "/usr/local/bin/zdump", "zic": "/usr/local/bin/zic", "oid2name": "/usr/local/bin/oid2name", "pg_receivewal": "/usr/local/bin/pg_receivewal", "pg_resetwal": "/usr/local/bin/pg_resetwal", "pg_waldump": "/usr/local/bin/pg_waldump", "vacuumlo": "/usr/local/bin/vacuumlo", "clusterdb": "/usr/local/bin/clusterdb"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-dbd-pg.

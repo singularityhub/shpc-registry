@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ecoli2.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ecoli2.db/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ecoli2.db/container.yaml"
-updated_at: "2022-11-03 01:26:08.902978"
-latest: "3.2.3--r41hdfd78af_7"
+updated_at: "2022-11-04 00:39:20.293396"
+latest: "3.13.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ecoli2.db"
 aliases:
  - ".bioconductor-ecoli2.db-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
+ - "3.13.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ecoli2.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ecoli2.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecoli2.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:2b301fca27e2e30311e04769855445a241c1bb21276331f19558848271cca733"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:2b301fca27e2e30311e04769855445a241c1bb21276331f19558848271cca733"}, "docker": "quay.io/biocontainers/bioconductor-ecoli2.db", "aliases": {".bioconductor-ecoli2.db-post-link.sh": "/usr/local/bin/.bioconductor-ecoli2.db-post-link.sh", ".bioconductor-ecoli2.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-ecoli2.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ecoli2.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ecoli2.db", "latest": {"3.13.0--r41hdfd78af_1": "sha256:6067fecb3110eb9e76bcb9b8bd0148319cef1d79e2d0af3b0c057017fff4d6c8"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:2b301fca27e2e30311e04769855445a241c1bb21276331f19558848271cca733", "3.13.0--r41hdfd78af_1": "sha256:6067fecb3110eb9e76bcb9b8bd0148319cef1d79e2d0af3b0c057017fff4d6c8"}, "docker": "quay.io/biocontainers/bioconductor-ecoli2.db", "aliases": {".bioconductor-ecoli2.db-post-link.sh": "/usr/local/bin/.bioconductor-ecoli2.db-post-link.sh", ".bioconductor-ecoli2.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-ecoli2.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ecoli2.db.

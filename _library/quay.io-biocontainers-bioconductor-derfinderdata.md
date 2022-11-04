@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-derfinderdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-derfinderdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-derfinderdata/container.yaml"
-updated_at: "2022-11-03 01:37:05.459079"
-latest: "2.8.1--r40hdfd78af_0"
+updated_at: "2022-11-04 00:50:00.343466"
+latest: "2.15.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-derfinderdata"
 aliases:
  - ".bioconductor-derfinderdata-post-link.sh"
@@ -13,8 +13,11 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.1--r40hdfd78af_0"
+ - "2.15.0--r42hdfd78af_0"
+ - "2.12.0--r41hdfd78af_1"
+ - "2.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-derfinderdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinderdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinderdata", "latest": {"2.8.1--r40hdfd78af_0": "sha256:73228542504179377e475b57bce07216699f9fc4580b0294b3c89d7814562178"}, "tags": {"2.8.1--r40hdfd78af_0": "sha256:73228542504179377e475b57bce07216699f9fc4580b0294b3c89d7814562178"}, "docker": "quay.io/biocontainers/bioconductor-derfinderdata", "aliases": {".bioconductor-derfinderdata-post-link.sh": "/usr/local/bin/.bioconductor-derfinderdata-post-link.sh", ".bioconductor-derfinderdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-derfinderdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-derfinderdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-derfinderdata", "latest": {"2.15.0--r42hdfd78af_0": "sha256:961ab413e27ebd7cf6325dbc9f87f4ee5ec894f93dfccb107b456afa60db8808"}, "tags": {"2.8.1--r40hdfd78af_0": "sha256:73228542504179377e475b57bce07216699f9fc4580b0294b3c89d7814562178", "2.15.0--r42hdfd78af_0": "sha256:961ab413e27ebd7cf6325dbc9f87f4ee5ec894f93dfccb107b456afa60db8808", "2.12.0--r41hdfd78af_1": "sha256:4fe2fa647acf3cf33046ccd9023f649c6f675eba5ed39a1cf468111d4c1e714b", "2.10.0--r41hdfd78af_0": "sha256:9e8514ecd08eadeda1639557beb1f67ee6c75a573bc34e788033d5f2f2af7d63"}, "docker": "quay.io/biocontainers/bioconductor-derfinderdata", "aliases": {".bioconductor-derfinderdata-post-link.sh": "/usr/local/bin/.bioconductor-derfinderdata-post-link.sh", ".bioconductor-derfinderdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-derfinderdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-derfinderdata.

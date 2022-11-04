@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bioassayr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bioassayr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bioassayr/container.yaml"
-updated_at: "2022-11-03 01:06:59.461684"
-latest: "1.32.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:21:25.244131"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bioassayr"
 aliases:
  - "rsvg-convert"
@@ -15,8 +15,9 @@ aliases:
  - "gdk-pixbuf-query-loaders"
 versions:
  - "1.32.0--r41hdfd78af_0"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bioassayr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bioassayr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioassayr", "latest": {"1.32.0--r41hdfd78af_0": "sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c"}, "docker": "quay.io/biocontainers/bioconductor-bioassayr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bioassayr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bioassayr", "latest": {"1.36.0--r42hdfd78af_0": "sha256:10230fa3f9d49ffe443345fba069d585bf4862ea924d4adabbf74af972da3aa0"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:880e1f15a46896dee9b3620134dfc45d66af334170f7472b81957bb8995a8b0c", "1.36.0--r42hdfd78af_0": "sha256:10230fa3f9d49ffe443345fba069d585bf4862ea924d4adabbf74af972da3aa0"}, "docker": "quay.io/biocontainers/bioconductor-bioassayr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bioassayr.

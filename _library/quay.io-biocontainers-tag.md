@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tag/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tag/container.yaml"
-updated_at: "2022-11-03 01:23:20.837037"
+updated_at: "2022-11-04 00:36:38.968103"
 latest: "0.5.1--py_0"
 container_url: "https://biocontainers.pro/tools/tag"
 aliases:
@@ -16,8 +16,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.5.1--py_0"
+ - "0.5--py_1"
 description: "shpc-registry automated BioContainers addition for tag"
-config: {"url": "https://biocontainers.pro/tools/tag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tag", "latest": {"0.5.1--py_0": "sha256:490c7ffecf409d3b18334ed641b33795e10b2bbc15ed845721caad870d64a08b"}, "tags": {"0.5.1--py_0": "sha256:490c7ffecf409d3b18334ed641b33795e10b2bbc15ed845721caad870d64a08b"}, "docker": "quay.io/biocontainers/tag", "aliases": {"tag": "/usr/local/bin/tag", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/tag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tag", "latest": {"0.5.1--py_0": "sha256:490c7ffecf409d3b18334ed641b33795e10b2bbc15ed845721caad870d64a08b"}, "tags": {"0.5.1--py_0": "sha256:490c7ffecf409d3b18334ed641b33795e10b2bbc15ed845721caad870d64a08b", "0.5--py_1": "sha256:e39578938166a68c6952ffe684629ab5de3e4ba1cf97e3733703bd8a8c2c25dd"}, "docker": "quay.io/biocontainers/tag", "aliases": {"tag": "/usr/local/bin/tag", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tag.

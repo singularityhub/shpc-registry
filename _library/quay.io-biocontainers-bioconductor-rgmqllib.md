@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rgmqllib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgmqllib/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgmqllib/container.yaml"
-updated_at: "2022-11-03 00:50:54.941363"
-latest: "1.9.0--r40_0"
+updated_at: "2022-11-04 00:06:11.692428"
+latest: "1.17.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgmqllib"
 aliases:
  - ".bioconductor-rgmqllib-post-link.sh"
@@ -13,8 +13,12 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
+ - "1.17.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgmqllib"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgmqllib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgmqllib", "latest": {"1.9.0--r40_0": "sha256:be444842e11e228abb46f9e0ba7b5f68fcec86a5a4fe947c3e96bbf94eb89a74"}, "tags": {"1.9.0--r40_0": "sha256:be444842e11e228abb46f9e0ba7b5f68fcec86a5a4fe947c3e96bbf94eb89a74"}, "docker": "quay.io/biocontainers/bioconductor-rgmqllib", "aliases": {".bioconductor-rgmqllib-post-link.sh": "/usr/local/bin/.bioconductor-rgmqllib-post-link.sh", ".bioconductor-rgmqllib-pre-unlink.sh": "/usr/local/bin/.bioconductor-rgmqllib-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgmqllib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgmqllib", "latest": {"1.17.0--r42hdfd78af_0": "sha256:f29fe4f30d030496aceb87a2cd35bba6aaf8566bf5bff82f40f2ee32b3cebb19"}, "tags": {"1.9.0--r40_0": "sha256:be444842e11e228abb46f9e0ba7b5f68fcec86a5a4fe947c3e96bbf94eb89a74", "1.17.0--r42hdfd78af_0": "sha256:f29fe4f30d030496aceb87a2cd35bba6aaf8566bf5bff82f40f2ee32b3cebb19", "1.14.0--r41hdfd78af_1": "sha256:715deb6b0922f0dd304d4eaa08bbcf2700bf2e95deb8b1e2add0ef1b19dcd9f7", "1.12.0--r41hdfd78af_0": "sha256:24f08a40ff2288a6b45ed1a688f5d3efffe5290838896fb03268b1e456edb91d", "1.10.0--r40hdfd78af_1": "sha256:5f26aa8b22708be0aa82b2f7e81a83ac8f15492393c02a82b14b0da6e799c115"}, "docker": "quay.io/biocontainers/bioconductor-rgmqllib", "aliases": {".bioconductor-rgmqllib-post-link.sh": "/usr/local/bin/.bioconductor-rgmqllib-post-link.sh", ".bioconductor-rgmqllib-pre-unlink.sh": "/usr/local/bin/.bioconductor-rgmqllib-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgmqllib.

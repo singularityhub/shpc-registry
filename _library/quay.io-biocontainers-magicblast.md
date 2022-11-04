@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/magicblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magicblast/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/magicblast/container.yaml"
-updated_at: "2022-11-03 00:45:21.651958"
-latest: "1.6.0--hf1761c0_1"
+updated_at: "2022-11-04 00:00:54.715199"
+latest: "1.7.0--hf1761c0_0"
 container_url: "https://biocontainers.pro/tools/magicblast"
 aliases:
  - "magicblast"
@@ -21,8 +21,9 @@ aliases:
  - "disambiguate-nucleotides"
 versions:
  - "1.6.0--hf1761c0_1"
+ - "1.7.0--hf1761c0_0"
 description: "shpc-registry automated BioContainers addition for magicblast"
-config: {"url": "https://biocontainers.pro/tools/magicblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magicblast", "latest": {"1.6.0--hf1761c0_1": "sha256:f93c39752229aef9f4fdf236cf42339a8f8474f23075f6a6904d00fa559c2519"}, "tags": {"1.6.0--hf1761c0_1": "sha256:f93c39752229aef9f4fdf236cf42339a8f8474f23075f6a6904d00fa559c2519"}, "docker": "quay.io/biocontainers/magicblast", "aliases": {"magicblast": "/usr/local/bin/magicblast", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
+config: {"url": "https://biocontainers.pro/tools/magicblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for magicblast", "latest": {"1.7.0--hf1761c0_0": "sha256:82e399f07bfde74b5404dfd28314d2f49c1b5d72e5ef1beccb741c0568b43ab1"}, "tags": {"1.6.0--hf1761c0_1": "sha256:f93c39752229aef9f4fdf236cf42339a8f8474f23075f6a6904d00fa559c2519", "1.7.0--hf1761c0_0": "sha256:82e399f07bfde74b5404dfd28314d2f49c1b5d72e5ef1beccb741c0568b43ab1"}, "docker": "quay.io/biocontainers/magicblast", "aliases": {"magicblast": "/usr/local/bin/magicblast", "edirect.py": "/usr/local/bin/edirect.py", "filter-columns": "/usr/local/bin/filter-columns", "fuse-segments": "/usr/local/bin/fuse-segments", "gene2range": "/usr/local/bin/gene2range", "tbl2prod": "/usr/local/bin/tbl2prod", "uniq-table": "/usr/local/bin/uniq-table", "align-columns": "/usr/local/bin/align-columns", "blst2tkns": "/usr/local/bin/blst2tkns", "csv2xml": "/usr/local/bin/csv2xml", "disambiguate-nucleotides": "/usr/local/bin/disambiguate-nucleotides"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/magicblast.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-dta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dta/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dta/container.yaml"
-updated_at: "2022-11-03 00:57:24.748172"
-latest: "2.40.0--r41hdfd78af_0"
+updated_at: "2022-11-04 00:12:27.889599"
+latest: "2.44.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dta"
 
 versions:
  - "2.40.0--r41hdfd78af_0"
+ - "2.44.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dta"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dta", "latest": {"2.40.0--r41hdfd78af_0": "sha256:862f3b4c0b1f557b9d564b7eb81c10d4bf1d7f1c589fedadb6c79fd16b86f8a5"}, "tags": {"2.40.0--r41hdfd78af_0": "sha256:862f3b4c0b1f557b9d564b7eb81c10d4bf1d7f1c589fedadb6c79fd16b86f8a5"}, "docker": "quay.io/biocontainers/bioconductor-dta"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dta", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dta", "latest": {"2.44.0--r42hdfd78af_0": "sha256:76fbcf78249e545eb582beebda4b56ff5a967dde808c1060d66dd5ad887decc8"}, "tags": {"2.40.0--r41hdfd78af_0": "sha256:862f3b4c0b1f557b9d564b7eb81c10d4bf1d7f1c589fedadb6c79fd16b86f8a5", "2.44.0--r42hdfd78af_0": "sha256:76fbcf78249e545eb582beebda4b56ff5a967dde808c1060d66dd5ad887decc8"}, "docker": "quay.io/biocontainers/bioconductor-dta"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dta.

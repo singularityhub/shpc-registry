@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/checkm-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkm-genome/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/checkm-genome/container.yaml"
-updated_at: "2022-11-03 01:15:02.390221"
-latest: "1.2.1--pyhdfd78af_0"
+updated_at: "2022-11-04 00:28:47.264517"
+latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkm-genome"
 aliases:
  - ".checkm-genome-post-link.sh"
@@ -23,8 +23,9 @@ aliases:
  - "esl-mixdchlet"
 versions:
  - "1.2.1--pyhdfd78af_0"
+ - "1.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for checkm-genome"
-config: {"url": "https://biocontainers.pro/tools/checkm-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkm-genome", "latest": {"1.2.1--pyhdfd78af_0": "sha256:17878d360b193a74c71b35a0f3d1dd979c833d6e49e67eb9c2d7001f4b6d3eeb"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:17878d360b193a74c71b35a0f3d1dd979c833d6e49e67eb9c2d7001f4b6d3eeb"}, "docker": "quay.io/biocontainers/checkm-genome", "aliases": {".checkm-genome-post-link.sh": "/usr/local/bin/.checkm-genome-post-link.sh", ".checkm-genome-pre-unlink.sh": "/usr/local/bin/.checkm-genome-pre-unlink.sh", "checkm": "/usr/local/bin/checkm", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet"}}
+config: {"url": "https://biocontainers.pro/tools/checkm-genome", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for checkm-genome", "latest": {"1.2.2--pyhdfd78af_0": "sha256:d4c33d67b4f93df58b8237583d39b1c9219240fab54a8c1679bd5c281e70f715"}, "tags": {"1.2.1--pyhdfd78af_0": "sha256:17878d360b193a74c71b35a0f3d1dd979c833d6e49e67eb9c2d7001f4b6d3eeb", "1.2.2--pyhdfd78af_0": "sha256:d4c33d67b4f93df58b8237583d39b1c9219240fab54a8c1679bd5c281e70f715"}, "docker": "quay.io/biocontainers/checkm-genome", "aliases": {".checkm-genome-post-link.sh": "/usr/local/bin/.checkm-genome-post-link.sh", ".checkm-genome-pre-unlink.sh": "/usr/local/bin/.checkm-genome-pre-unlink.sh", "checkm": "/usr/local/bin/checkm", "rppr": "/usr/local/bin/rppr", "guppy": "/usr/local/bin/guppy", "pplacer": "/usr/local/bin/pplacer", "dendropy-format": "/usr/local/bin/dendropy-format", "sumlabels.py": "/usr/local/bin/sumlabels.py", "sumtrees.py": "/usr/local/bin/sumtrees.py", "prodigal": "/usr/local/bin/prodigal", "hmmpgmd_shard": "/usr/local/bin/hmmpgmd_shard", "easel": "/usr/local/bin/easel", "esl-mixdchlet": "/usr/local/bin/esl-mixdchlet"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/checkm-genome.
