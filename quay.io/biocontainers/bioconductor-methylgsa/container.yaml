@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-methylgsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylgsa
 latest:
-  1.8.0--r40hdfd78af_1: sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795
+  1.10.0--r41hdfd78af_0: sha256:67cdc44868da089e8060812905156931ca8aa77b6ef6eae7e034c35a406e2dcf
 tags:
   1.8.0--r40hdfd78af_1: sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795
+  1.10.0--r41hdfd78af_0: sha256:67cdc44868da089e8060812905156931ca8aa77b6ef6eae7e034c35a406e2dcf
 docker: quay.io/biocontainers/bioconductor-methylgsa
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

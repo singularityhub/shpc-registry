@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-seventygenedata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-seventygenedata
 latest:
-  1.30.0--r41hdfd78af_1: sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937
+  1.33.0--r42hdfd78af_0: sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30
 tags:
   1.30.0--r41hdfd78af_1: sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937
+  1.33.0--r42hdfd78af_0: sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30
 docker: quay.io/biocontainers/bioconductor-seventygenedata
 aliases:
   .bioconductor-seventygenedata-post-link.sh: /usr/local/bin/.bioconductor-seventygenedata-post-link.sh

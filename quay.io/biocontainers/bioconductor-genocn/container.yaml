@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-genocn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genocn
 latest:
-  1.46.0--r41hc0cfd56_2: sha256:a11862dbf154c749fa48d814c27b8cb8150a2794771494e3bf00b5b56f4913c0
+  1.50.0--r42hc0cfd56_0: sha256:9e2901eba9664227f2cadeaeeed41603bcee15adf8ba7849602f664bc7edff33
 tags:
   1.46.0--r41hc0cfd56_2: sha256:a11862dbf154c749fa48d814c27b8cb8150a2794771494e3bf00b5b56f4913c0
+  1.50.0--r42hc0cfd56_0: sha256:9e2901eba9664227f2cadeaeeed41603bcee15adf8ba7849602f664bc7edff33
 docker: quay.io/biocontainers/bioconductor-genocn
