@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mistyr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mistyr
 latest:
-  1.2.1--r41hdfd78af_0: sha256:ae248d9375fb86567d69517564f582f5fbfe8b6e63d6765ec6c55a3219f12f84
+  1.6.0--r42hdfd78af_0: sha256:b43781c084cacbbd642afe2318215e746648c73e1ac2eeb512ce2b941422127d
 tags:
   1.2.1--r41hdfd78af_0: sha256:ae248d9375fb86567d69517564f582f5fbfe8b6e63d6765ec6c55a3219f12f84
+  1.6.0--r42hdfd78af_0: sha256:b43781c084cacbbd642afe2318215e746648c73e1ac2eeb512ce2b941422127d
 docker: quay.io/biocontainers/bioconductor-mistyr

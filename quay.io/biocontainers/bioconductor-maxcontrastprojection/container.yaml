@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-maxcontrastprojection
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-maxcontrastprojection
 latest:
-  1.8.0--r36_1: sha256:b7c8973d3f8354deb5fd01162b8f56c2b1542ecbf9362ff5df967c07266aacf3
+  1.11.0--r40_0: sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44
 tags:
   1.8.0--r36_1: sha256:b7c8973d3f8354deb5fd01162b8f56c2b1542ecbf9362ff5df967c07266aacf3
+  1.11.0--r40_0: sha256:9451ffc4db8e05c1ee2a6fca11805104a3400f69e2173b7a3e81ea615f2fff44
+  1.10.0--r36_0: sha256:134ad997c2aa2ed73689634862c246338041fc8eeb776a0677415384aa698735
 docker: quay.io/biocontainers/bioconductor-maxcontrastprojection
 aliases:
   mpichversion: /usr/local/bin/mpichversion

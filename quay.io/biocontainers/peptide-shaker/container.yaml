@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/peptide-shaker
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for peptide-shaker
 latest:
-  1.16.4--py27_0: sha256:1ee91304befdc6a6b3573eadfd25ff59ec64f4f08c909b0e95a3edfa4e3d0617
+  1.16.36--0: sha256:517b09a0af52899fd1143053d06595b8e2dbddbe1c4b3cf717018e2ea6edc4ab
 tags:
   1.16.4--py27_0: sha256:1ee91304befdc6a6b3573eadfd25ff59ec64f4f08c909b0e95a3edfa4e3d0617
+  1.16.36--0: sha256:517b09a0af52899fd1143053d06595b8e2dbddbe1c4b3cf717018e2ea6edc4ab
 docker: quay.io/biocontainers/peptide-shaker
 aliases:
   peptide-shaker: /usr/local/bin/peptide-shaker

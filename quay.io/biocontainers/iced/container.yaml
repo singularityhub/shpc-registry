@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/iced
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for iced
 latest:
-  0.5.9--py37h9c5868f_0: sha256:57e789ead8ebd6aef0f697052a9c6a8d18151913245f01bb5ac085e7570da9c2
+  0.5.10--py36hd5865be_1: sha256:83746a628214562a8f3bbc05e1025ea396522168522b21a6bcc311337eb370a4
 tags:
   0.5.9--py37h9c5868f_0: sha256:57e789ead8ebd6aef0f697052a9c6a8d18151913245f01bb5ac085e7570da9c2
+  0.5.10--py36hd5865be_1: sha256:83746a628214562a8f3bbc05e1025ea396522168522b21a6bcc311337eb370a4
 docker: quay.io/biocontainers/iced
 aliases:
   ice: /usr/local/bin/ice

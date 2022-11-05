@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-samexplorer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-samexplorer
 latest:
-  1.8.0--r36_1: sha256:a59dd311147a30b9c34bbd98ce142fdd909b703954c5078b0fc3d2f25699e9b3
+  1.13.0--r40hdfd78af_1: sha256:a0e9892ff281a5370055e355fd61f0ccd530ffd5c69a709f1f484d6f9be40309
 tags:
   1.8.0--r36_1: sha256:a59dd311147a30b9c34bbd98ce142fdd909b703954c5078b0fc3d2f25699e9b3
+  1.13.0--r40hdfd78af_1: sha256:a0e9892ff281a5370055e355fd61f0ccd530ffd5c69a709f1f484d6f9be40309
+  1.12.0--r40_0: sha256:dff440c6caec8b3f690d5190208c6de0ebdce36a9233465e1cd24a2700ea3a6e
+  1.10.0--r36_1: sha256:55946c467617b035d41157bb9380cd079780bf870c535831c51604c4df963415
 docker: quay.io/biocontainers/bioconductor-samexplorer
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
