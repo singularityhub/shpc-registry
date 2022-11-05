@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mirintegrator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirintegrator/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirintegrator/container.yaml"
-updated_at: "2022-11-04 00:31:15.536039"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-11-05 00:37:23.867689"
+latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirintegrator"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r40hdfd78af_1"
+ - "1.18.0--r40_0"
+ - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirintegrator"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirintegrator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirintegrator", "latest": {"1.8.0--r3.4.1_0": "sha256:d275f1a7351168cebe9920312fbee6287b16c7a8dd6ca436eded6ebc5f6ba416"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d275f1a7351168cebe9920312fbee6287b16c7a8dd6ca436eded6ebc5f6ba416"}, "docker": "quay.io/biocontainers/bioconductor-mirintegrator", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirintegrator", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirintegrator", "latest": {"1.24.0--r41hdfd78af_0": "sha256:03e60d5c1babfa48e78fe55a097fc010b243e7fafdc45b1ad8422d21aefe97bb"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d275f1a7351168cebe9920312fbee6287b16c7a8dd6ca436eded6ebc5f6ba416", "1.24.0--r41hdfd78af_0": "sha256:03e60d5c1babfa48e78fe55a097fc010b243e7fafdc45b1ad8422d21aefe97bb", "1.22.0--r41hdfd78af_0": "sha256:d2475fe0652b5ff19804bb521f7aabe87ae413f8b310e73ebe05d80a710e1c04", "1.20.0--r40hdfd78af_1": "sha256:f4d0112d3bfa84c1333575e63614e78b9ef0715ff0a183d5650a0eb999963d5c", "1.18.0--r40_0": "sha256:46b1dc45b4783bed4b9bb6b936664963df9ba9c90bf61ecc26627fe62b79b851", "1.16.0--r36_0": "sha256:2c31c01dfa897a8e934fb693fbdd19875cb7ec2fb7cb2c045cc7298cfed32c95"}, "docker": "quay.io/biocontainers/bioconductor-mirintegrator", "aliases": {"wget": "/usr/local/bin/wget", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirintegrator.

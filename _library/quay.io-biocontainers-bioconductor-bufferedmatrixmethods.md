@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-bufferedmatrixmethods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bufferedmatrixmethods/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bufferedmatrixmethods/container.yaml"
-updated_at: "2022-11-04 00:52:23.564329"
-latest: "1.58.0--r41hc0cfd56_2"
+updated_at: "2022-11-05 00:54:04.453669"
+latest: "1.61.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bufferedmatrixmethods"
 
 versions:
  - "1.58.0--r41hc0cfd56_2"
+ - "1.61.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bufferedmatrixmethods"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bufferedmatrixmethods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bufferedmatrixmethods", "latest": {"1.58.0--r41hc0cfd56_2": "sha256:6e5218393657051ad69aedc51e0d4288fed1e5c3e27c832aeef4070c8c6d2c6b"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:6e5218393657051ad69aedc51e0d4288fed1e5c3e27c832aeef4070c8c6d2c6b"}, "docker": "quay.io/biocontainers/bioconductor-bufferedmatrixmethods"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bufferedmatrixmethods", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bufferedmatrixmethods", "latest": {"1.61.0--r42hc0cfd56_0": "sha256:f6224b1e59722f1ef8c259af27708b93c0473974e429cbb3a3c15324b872ab58"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:6e5218393657051ad69aedc51e0d4288fed1e5c3e27c832aeef4070c8c6d2c6b", "1.61.0--r42hc0cfd56_0": "sha256:f6224b1e59722f1ef8c259af27708b93c0473974e429cbb3a3c15324b872ab58"}, "docker": "quay.io/biocontainers/bioconductor-bufferedmatrixmethods"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bufferedmatrixmethods.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-somaticadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-somaticadata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-somaticadata/container.yaml"
-updated_at: "2022-11-04 00:29:19.456792"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-05 00:35:50.916285"
+latest: "1.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-somaticadata"
 aliases:
  - ".bioconductor-somaticadata-post-link.sh"
  - ".bioconductor-somaticadata-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-somaticadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-somaticadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-somaticadata", "latest": {"1.32.0--r41hdfd78af_1": "sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e"}, "docker": "quay.io/biocontainers/bioconductor-somaticadata", "aliases": {".bioconductor-somaticadata-post-link.sh": "/usr/local/bin/.bioconductor-somaticadata-post-link.sh", ".bioconductor-somaticadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-somaticadata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-somaticadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-somaticadata", "latest": {"1.35.0--r42hdfd78af_0": "sha256:f72ab277caa9995779ea213e15616a5cc7bddc9de72cb93fb0ecc1abdaf21d3a"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:6aa9ee00cff04a788cd9be6bb128fb04da3fb1673860c90a28c57e8bc0d0e98e", "1.35.0--r42hdfd78af_0": "sha256:f72ab277caa9995779ea213e15616a5cc7bddc9de72cb93fb0ecc1abdaf21d3a"}, "docker": "quay.io/biocontainers/bioconductor-somaticadata", "aliases": {".bioconductor-somaticadata-post-link.sh": "/usr/local/bin/.bioconductor-somaticadata-post-link.sh", ".bioconductor-somaticadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-somaticadata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-somaticadata.

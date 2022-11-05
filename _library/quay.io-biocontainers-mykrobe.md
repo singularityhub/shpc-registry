@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mykrobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mykrobe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mykrobe/container.yaml"
-updated_at: "2022-11-03 23:53:57.248337"
-latest: "0.9.0--py38h8e3bb3f_3"
+updated_at: "2022-11-05 00:08:08.673656"
+latest: "0.10.0--py37h09c1ff4_1"
 container_url: "https://biocontainers.pro/tools/mykrobe"
 aliases:
  - "install_compass"
@@ -25,8 +25,9 @@ aliases:
  - "pydoc3.8"
 versions:
  - "0.9.0--py38h8e3bb3f_3"
+ - "0.10.0--py37h09c1ff4_1"
 description: "shpc-registry automated BioContainers addition for mykrobe"
-config: {"url": "https://biocontainers.pro/tools/mykrobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykrobe", "latest": {"0.9.0--py38h8e3bb3f_3": "sha256:cad54cf1570ba39df553217c2589f294560ccf692f0c6d5682844b92e95e7a02"}, "tags": {"0.9.0--py38h8e3bb3f_3": "sha256:cad54cf1570ba39df553217c2589f294560ccf692f0c6d5682844b92e95e7a02"}, "docker": "quay.io/biocontainers/mykrobe", "aliases": {"install_compass": "/usr/local/bin/install_compass", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "mykrobe": "/usr/local/bin/mykrobe", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "idn2": "/usr/local/bin/idn2", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "wget": "/usr/local/bin/wget", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
+config: {"url": "https://biocontainers.pro/tools/mykrobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mykrobe", "latest": {"0.10.0--py37h09c1ff4_1": "sha256:9900f495e67fedde41d4cdf02985cc282bef407331ca03669ae9f259e7dc2044"}, "tags": {"0.9.0--py38h8e3bb3f_3": "sha256:cad54cf1570ba39df553217c2589f294560ccf692f0c6d5682844b92e95e7a02", "0.10.0--py37h09c1ff4_1": "sha256:9900f495e67fedde41d4cdf02985cc282bef407331ca03669ae9f259e7dc2044"}, "docker": "quay.io/biocontainers/mykrobe", "aliases": {"install_compass": "/usr/local/bin/install_compass", "mongo": "/usr/local/bin/mongo", "mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "mykrobe": "/usr/local/bin/mykrobe", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "idn2": "/usr/local/bin/idn2", "f2py3.8": "/usr/local/bin/f2py3.8", "chardetect": "/usr/local/bin/chardetect", "wget": "/usr/local/bin/wget", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mykrobe.

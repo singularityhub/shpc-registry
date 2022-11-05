@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/iva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iva/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/iva/container.yaml"
-updated_at: "2022-11-03 23:44:31.484581"
-latest: "1.0.9--py_2"
+updated_at: "2022-11-05 00:00:42.456998"
+latest: "1.0.11--py_0"
 container_url: "https://biocontainers.pro/tools/iva"
 aliases:
  - "basqcol"
@@ -33,8 +33,9 @@ aliases:
  - "delta-filter"
 versions:
  - "1.0.9--py_2"
+ - "1.0.11--py_0"
 description: "shpc-registry automated BioContainers addition for iva"
-config: {"url": "https://biocontainers.pro/tools/iva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iva", "latest": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "tags": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2"}, "docker": "quay.io/biocontainers/iva", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "iva": "/usr/local/bin/iva", "iva_qc": "/usr/local/bin/iva_qc", "iva_qc_make_db": "/usr/local/bin/iva_qc_make_db", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter"}}
+config: {"url": "https://biocontainers.pro/tools/iva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for iva", "latest": {"1.0.11--py_0": "sha256:141db6cbbf8882f044139cedf9262dc78ad9d8d3a552835315d1cf780bcf8dee"}, "tags": {"1.0.9--py_2": "sha256:60681684ef330b1cbd291639c91c013ab3ef157840c0f8d978cbc487e2029be2", "1.0.11--py_0": "sha256:141db6cbbf8882f044139cedf9262dc78ad9d8d3a552835315d1cf780bcf8dee"}, "docker": "quay.io/biocontainers/iva", "aliases": {"basqcol": "/usr/local/bin/basqcol", "fetchseq": "/usr/local/bin/fetchseq", "iva": "/usr/local/bin/iva", "iva_qc": "/usr/local/bin/iva_qc", "iva_qc_make_db": "/usr/local/bin/iva_qc_make_db", "mixreads": "/usr/local/bin/mixreads", "readstats": "/usr/local/bin/readstats", "simqual": "/usr/local/bin/simqual", "simread": "/usr/local/bin/simread", "smalt": "/usr/local/bin/smalt", "splitmates": "/usr/local/bin/splitmates", "splitreads": "/usr/local/bin/splitreads", "trunkreads": "/usr/local/bin/trunkreads", "kmc": "/usr/local/bin/kmc", "kmc_dump": "/usr/local/bin/kmc_dump", "kmc_tools": "/usr/local/bin/kmc_tools", "fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/iva.

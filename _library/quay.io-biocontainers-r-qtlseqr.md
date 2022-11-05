@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-qtlseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
-updated_at: "2022-11-04 00:39:48.569193"
-latest: "0.7.5.2--r41h9f5acd7_3"
+updated_at: "2022-11-05 00:44:10.793193"
+latest: "0.7.5.2--r42h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/r-qtlseqr"
 
 versions:
  - "0.7.5.2--r41h9f5acd7_3"
+ - "0.7.5.2--r42h9f5acd7_4"
 description: "shpc-registry automated BioContainers addition for r-qtlseqr"
-config: {"url": "https://biocontainers.pro/tools/r-qtlseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qtlseqr", "latest": {"0.7.5.2--r41h9f5acd7_3": "sha256:bee93102d5df32746c52d318ff5123f28603e4a97adcb2104c0eb260d2ea2304"}, "tags": {"0.7.5.2--r41h9f5acd7_3": "sha256:bee93102d5df32746c52d318ff5123f28603e4a97adcb2104c0eb260d2ea2304"}, "docker": "quay.io/biocontainers/r-qtlseqr"}
+config: {"url": "https://biocontainers.pro/tools/r-qtlseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-qtlseqr", "latest": {"0.7.5.2--r42h9f5acd7_4": "sha256:1c2274ca910e9363c66343dda8406fa559bb493f06910fd502544b06b1b3e153"}, "tags": {"0.7.5.2--r41h9f5acd7_3": "sha256:bee93102d5df32746c52d318ff5123f28603e4a97adcb2104c0eb260d2ea2304", "0.7.5.2--r42h9f5acd7_4": "sha256:1c2274ca910e9363c66343dda8406fa559bb493f06910fd502544b06b1b3e153"}, "docker": "quay.io/biocontainers/r-qtlseqr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-qtlseqr.

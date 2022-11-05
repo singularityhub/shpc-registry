@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/anadama2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anadama2/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/anadama2/container.yaml"
-updated_at: "2022-11-04 00:20:39.357866"
-latest: "0.8.0--pyhdfd78af_0"
+updated_at: "2022-11-05 00:28:58.421293"
+latest: "0.10.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anadama2"
 aliases:
  - "anadama2_aws_batch_task"
@@ -25,8 +25,9 @@ aliases:
  - "jupyter-trust"
 versions:
  - "0.8.0--pyhdfd78af_0"
+ - "0.10.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for anadama2"
-config: {"url": "https://biocontainers.pro/tools/anadama2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anadama2", "latest": {"0.8.0--pyhdfd78af_0": "sha256:eb63964c5eda4d732e554f5aca4374f2f77e71e51dfc8311873a1f568e80cba4"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:eb63964c5eda4d732e554f5aca4374f2f77e71e51dfc8311873a1f568e80cba4"}, "docker": "quay.io/biocontainers/anadama2", "aliases": {"anadama2_aws_batch_task": "/usr/local/bin/anadama2_aws_batch_task", "ptangle": "/usr/local/bin/ptangle", "pweave": "/usr/local/bin/pweave", "pweave-convert": "/usr/local/bin/pweave-convert", "pypublish": "/usr/local/bin/pypublish", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "curve_keygen": "/usr/local/bin/curve_keygen", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
+config: {"url": "https://biocontainers.pro/tools/anadama2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for anadama2", "latest": {"0.10.0--pyhdfd78af_0": "sha256:9347cfbb4ad18c32d157e6b296e7dbc18a55e9404f6f702911cbe82b9f4936e3"}, "tags": {"0.8.0--pyhdfd78af_0": "sha256:eb63964c5eda4d732e554f5aca4374f2f77e71e51dfc8311873a1f568e80cba4", "0.10.0--pyhdfd78af_0": "sha256:9347cfbb4ad18c32d157e6b296e7dbc18a55e9404f6f702911cbe82b9f4936e3"}, "docker": "quay.io/biocontainers/anadama2", "aliases": {"anadama2_aws_batch_task": "/usr/local/bin/anadama2_aws_batch_task", "ptangle": "/usr/local/bin/ptangle", "pweave": "/usr/local/bin/pweave", "pweave-convert": "/usr/local/bin/pweave-convert", "pypublish": "/usr/local/bin/pypublish", "jupyter-nbconvert": "/usr/local/bin/jupyter-nbconvert", "jupyter-kernel": "/usr/local/bin/jupyter-kernel", "jupyter-kernelspec": "/usr/local/bin/jupyter-kernelspec", "jupyter-run": "/usr/local/bin/jupyter-run", "iptest3": "/usr/local/bin/iptest3", "curve_keygen": "/usr/local/bin/curve_keygen", "iptest": "/usr/local/bin/iptest", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "jupyter-trust": "/usr/local/bin/jupyter-trust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/anadama2.

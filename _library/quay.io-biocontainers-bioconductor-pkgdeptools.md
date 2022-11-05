@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pkgdeptools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pkgdeptools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pkgdeptools/container.yaml"
-updated_at: "2022-11-03 23:56:27.647253"
-latest: "1.60.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:10:07.427771"
+latest: "1.63.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pkgdeptools"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
+ - "1.63.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pkgdeptools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pkgdeptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pkgdeptools", "latest": {"1.60.0--r41hdfd78af_0": "sha256:4c130b5681ade014f54b17ddea950c239b6c883604fbf061ed3f5e2a46a4075f"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:4c130b5681ade014f54b17ddea950c239b6c883604fbf061ed3f5e2a46a4075f"}, "docker": "quay.io/biocontainers/bioconductor-pkgdeptools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pkgdeptools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pkgdeptools", "latest": {"1.63.0--r42hdfd78af_0": "sha256:5b888488a8053ff835e7de01213be1a213917b7fb8e0e577857cfff0bf5e6a2e"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:4c130b5681ade014f54b17ddea950c239b6c883604fbf061ed3f5e2a46a4075f", "1.63.0--r42hdfd78af_0": "sha256:5b888488a8053ff835e7de01213be1a213917b7fb8e0e577857cfff0bf5e6a2e"}, "docker": "quay.io/biocontainers/bioconductor-pkgdeptools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pkgdeptools.

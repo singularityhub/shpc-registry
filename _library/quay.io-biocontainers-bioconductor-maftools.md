@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-maftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maftools/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maftools/container.yaml"
-updated_at: "2022-11-04 00:18:53.279264"
-latest: "2.8.0--r41hd029910_0"
+updated_at: "2022-11-05 00:27:37.244339"
+latest: "2.14.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-maftools"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r41hd029910_0"
+ - "2.14.0--r42hc0cfd56_0"
+ - "2.10.05--r41hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-maftools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-maftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maftools", "latest": {"2.8.0--r41hd029910_0": "sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73"}, "tags": {"2.8.0--r41hd029910_0": "sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73"}, "docker": "quay.io/biocontainers/bioconductor-maftools", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-maftools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-maftools", "latest": {"2.14.0--r42hc0cfd56_0": "sha256:85a197c81a55ad102b0e09fde189ccd6409e76e24d540e89bda27eb69e2cd954"}, "tags": {"2.8.0--r41hd029910_0": "sha256:bcabe3ce0167d6893b164345824bf233037f90152f687155923306fa9f7b0a73", "2.14.0--r42hc0cfd56_0": "sha256:85a197c81a55ad102b0e09fde189ccd6409e76e24d540e89bda27eb69e2cd954", "2.10.05--r41hc0cfd56_0": "sha256:058f7104c820216854a0b054a85f7224ebe2cf33977e5c9a931d86c02a6053e8"}, "docker": "quay.io/biocontainers/bioconductor-maftools", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-maftools.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cve"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cve/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cve/container.yaml"
-updated_at: "2022-11-04 00:42:59.647441"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-05 00:46:41.521629"
+latest: "1.11.2--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cve"
 aliases:
  - "pandoc-citeproc"
@@ -15,8 +15,10 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r351_0"
+ - "1.11.2--r36_0"
+ - "1.10.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-cve"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cve", "latest": {"1.8.0--r351_0": "sha256:962eff49e89ee998db3e2e6355a984f739583d8d27c6d0962312842b9ad0a7fa"}, "tags": {"1.8.0--r351_0": "sha256:962eff49e89ee998db3e2e6355a984f739583d8d27c6d0962312842b9ad0a7fa"}, "docker": "quay.io/biocontainers/bioconductor-cve", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cve", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cve", "latest": {"1.11.2--r36_0": "sha256:10f0f94fb2c276479793e2438a99b919b9e37a5f61e856b403310c1b92417664"}, "tags": {"1.8.0--r351_0": "sha256:962eff49e89ee998db3e2e6355a984f739583d8d27c6d0962312842b9ad0a7fa", "1.11.2--r36_0": "sha256:10f0f94fb2c276479793e2438a99b919b9e37a5f61e856b403310c1b92417664", "1.10.0--r36_1": "sha256:353c605aeeec016c9a0cae9a251e83a79a4595db55246ca7b1af3a0a162a0755"}, "docker": "quay.io/biocontainers/bioconductor-cve", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cve.

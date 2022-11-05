@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-excluderanges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-excluderanges/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-excluderanges/container.yaml"
-updated_at: "2022-11-04 00:13:27.721492"
-latest: "0.99.6--r41hdfd78af_1"
+updated_at: "2022-11-05 00:23:20.734838"
+latest: "0.99.6--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-excluderanges"
 aliases:
  - ".bioconductor-excluderanges-post-link.sh"
  - ".bioconductor-excluderanges-pre-unlink.sh"
 versions:
  - "0.99.6--r41hdfd78af_1"
+ - "0.99.6--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-excluderanges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-excluderanges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-excluderanges", "latest": {"0.99.6--r41hdfd78af_1": "sha256:370db92af5f30ed99b4b6fb9912af0021d636efe48956d8860ce3d1b86646909"}, "tags": {"0.99.6--r41hdfd78af_1": "sha256:370db92af5f30ed99b4b6fb9912af0021d636efe48956d8860ce3d1b86646909"}, "docker": "quay.io/biocontainers/bioconductor-excluderanges", "aliases": {".bioconductor-excluderanges-post-link.sh": "/usr/local/bin/.bioconductor-excluderanges-post-link.sh", ".bioconductor-excluderanges-pre-unlink.sh": "/usr/local/bin/.bioconductor-excluderanges-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-excluderanges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-excluderanges", "latest": {"0.99.6--r42hdfd78af_2": "sha256:d8665a88f8c5082659fa7c7bc7b4abcbb2399490cb1f96bd7193a0184217d36d"}, "tags": {"0.99.6--r41hdfd78af_1": "sha256:370db92af5f30ed99b4b6fb9912af0021d636efe48956d8860ce3d1b86646909", "0.99.6--r42hdfd78af_2": "sha256:d8665a88f8c5082659fa7c7bc7b4abcbb2399490cb1f96bd7193a0184217d36d"}, "docker": "quay.io/biocontainers/bioconductor-excluderanges", "aliases": {".bioconductor-excluderanges-post-link.sh": "/usr/local/bin/.bioconductor-excluderanges-post-link.sh", ".bioconductor-excluderanges-pre-unlink.sh": "/usr/local/bin/.bioconductor-excluderanges-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-excluderanges.

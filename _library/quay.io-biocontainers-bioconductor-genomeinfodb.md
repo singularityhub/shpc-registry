@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomeinfodb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomeinfodb/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomeinfodb/container.yaml"
-updated_at: "2022-11-04 00:20:13.861330"
-latest: "1.6.3--0"
+updated_at: "2022-11-05 00:28:38.482090"
+latest: "1.30.1--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomeinfodb"
 aliases:
  - "pngcp"
@@ -18,8 +18,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.6.3--0"
+ - "1.30.1--r41hdfd78af_0"
+ - "1.28.0--r41hdfd78af_0"
+ - "1.26.4--r40hdfd78af_0"
+ - "1.24.0--r40_0"
+ - "1.22.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomeinfodb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomeinfodb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomeinfodb", "latest": {"1.6.3--0": "sha256:1b6276c9d5d17beef003f5c1f8caa5ff1a2b5c687713cfecca1fa9730f410c35"}, "tags": {"1.6.3--0": "sha256:1b6276c9d5d17beef003f5c1f8caa5ff1a2b5c687713cfecca1fa9730f410c35"}, "docker": "quay.io/biocontainers/bioconductor-genomeinfodb", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomeinfodb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomeinfodb", "latest": {"1.30.1--r41hdfd78af_0": "sha256:173b560b5f8730d04152db395330519788912523cbc9687a370d7de365e18d90"}, "tags": {"1.6.3--0": "sha256:1b6276c9d5d17beef003f5c1f8caa5ff1a2b5c687713cfecca1fa9730f410c35", "1.30.1--r41hdfd78af_0": "sha256:173b560b5f8730d04152db395330519788912523cbc9687a370d7de365e18d90", "1.28.0--r41hdfd78af_0": "sha256:da7973f70f0706e9a8d14fb3c758b51440b742e21a17e639f212bd46c73da3f5", "1.26.4--r40hdfd78af_0": "sha256:f874f96ccaa3c846b65bd93a8a17aa3253e7df93f6b3ea4a490fa945e5a14a76", "1.24.0--r40_0": "sha256:8f77d6ba37835fba755e6e746499d93fbd6253ea9a167accf2024a14b2388a1b", "1.22.0--r36_0": "sha256:da2322bcd36faad15102648471a98614e0693197334324f631acc0ceb007e93d"}, "docker": "quay.io/biocontainers/bioconductor-genomeinfodb", "aliases": {"pngcp": "/usr/local/bin/pngcp", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomeinfodb.

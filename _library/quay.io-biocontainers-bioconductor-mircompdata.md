@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-mircompdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mircompdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mircompdata/container.yaml"
-updated_at: "2022-11-04 00:19:42.092457"
-latest: "1.24.0--r41hdfd78af_1"
+updated_at: "2022-11-05 00:28:14.221034"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mircompdata"
 aliases:
  - ".bioconductor-mircompdata-post-link.sh"
  - ".bioconductor-mircompdata-pre-unlink.sh"
 versions:
  - "1.24.0--r41hdfd78af_1"
+ - "1.28.0--r42hdfd78af_0"
+ - "1.27.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mircompdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mircompdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mircompdata", "latest": {"1.24.0--r41hdfd78af_1": "sha256:eabcd08fa8d7ebbe98e80dbba2b412d1a90af00f1baebc63635dd41cd5323d2c"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:eabcd08fa8d7ebbe98e80dbba2b412d1a90af00f1baebc63635dd41cd5323d2c"}, "docker": "quay.io/biocontainers/bioconductor-mircompdata", "aliases": {".bioconductor-mircompdata-post-link.sh": "/usr/local/bin/.bioconductor-mircompdata-post-link.sh", ".bioconductor-mircompdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mircompdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mircompdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mircompdata", "latest": {"1.28.0--r42hdfd78af_0": "sha256:d9e0ddc2b414f9b4943a1d22052b4aff3d06d93b1a7a5a720f069412334f4966"}, "tags": {"1.24.0--r41hdfd78af_1": "sha256:eabcd08fa8d7ebbe98e80dbba2b412d1a90af00f1baebc63635dd41cd5323d2c", "1.28.0--r42hdfd78af_0": "sha256:d9e0ddc2b414f9b4943a1d22052b4aff3d06d93b1a7a5a720f069412334f4966", "1.27.0--r42hdfd78af_0": "sha256:440451d920163e217be7fec549afd3d60c54230fc6f1e72a637e0817a756a182"}, "docker": "quay.io/biocontainers/bioconductor-mircompdata", "aliases": {".bioconductor-mircompdata-post-link.sh": "/usr/local/bin/.bioconductor-mircompdata-post-link.sh", ".bioconductor-mircompdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mircompdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mircompdata.

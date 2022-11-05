@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-deqms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-deqms/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-deqms/container.yaml"
-updated_at: "2022-11-04 00:21:06.815481"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-05 00:29:20.151011"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-deqms"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.11.1--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-deqms"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-deqms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deqms", "latest": {"1.8.0--r40hdfd78af_1": "sha256:35eba855e5c3e119319cd27d88a9ded1d6c6d33cecf28faf0bd3b45ddf1c21d9"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:35eba855e5c3e119319cd27d88a9ded1d6c6d33cecf28faf0bd3b45ddf1c21d9"}, "docker": "quay.io/biocontainers/bioconductor-deqms", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-deqms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-deqms", "latest": {"1.16.0--r42hdfd78af_0": "sha256:31061354d2a39483077babf7054a547d0a35e3920b5c5522a32b766e52d5ac6d"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:35eba855e5c3e119319cd27d88a9ded1d6c6d33cecf28faf0bd3b45ddf1c21d9", "1.16.0--r42hdfd78af_0": "sha256:31061354d2a39483077babf7054a547d0a35e3920b5c5522a32b766e52d5ac6d", "1.11.1--r41hdfd78af_0": "sha256:5820795018abd49508cc9c2063c17cbc4a4deaab081205aa59da6e88a6badc20", "1.10.0--r41hdfd78af_0": "sha256:9f2f648f39dea20039775e40096e2f1d0e8dc1588604d80f52e1f4edca2173a2"}, "docker": "quay.io/biocontainers/bioconductor-deqms", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-deqms.

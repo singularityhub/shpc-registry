@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-msstatslobd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatslobd/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatslobd/container.yaml"
-updated_at: "2022-11-04 00:08:18.072760"
-latest: "1.2.0--r41hc247a5b_2"
+updated_at: "2022-11-05 00:19:21.885174"
+latest: "1.6.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatslobd"
 
 versions:
  - "1.2.0--r41hc247a5b_2"
+ - "1.6.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstatslobd"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatslobd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatslobd", "latest": {"1.2.0--r41hc247a5b_2": "sha256:67058b031825913c9f78b47fa6b67ba0d15c9c2a53c329a27daf10881e97bcaf"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:67058b031825913c9f78b47fa6b67ba0d15c9c2a53c329a27daf10881e97bcaf"}, "docker": "quay.io/biocontainers/bioconductor-msstatslobd"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatslobd", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatslobd", "latest": {"1.6.0--r42hc247a5b_0": "sha256:641caa61d9e6b9d5264b0b37053fe204cff8d0234d991fa86d7b5414f8965a2d"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:67058b031825913c9f78b47fa6b67ba0d15c9c2a53c329a27daf10881e97bcaf", "1.6.0--r42hc247a5b_0": "sha256:641caa61d9e6b9d5264b0b37053fe204cff8d0234d991fa86d7b5414f8965a2d"}, "docker": "quay.io/biocontainers/bioconductor-msstatslobd"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstatslobd.

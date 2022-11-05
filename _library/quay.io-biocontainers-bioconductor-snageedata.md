@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-snageedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snageedata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snageedata/container.yaml"
-updated_at: "2022-11-04 00:51:04.870965"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-05 00:53:01.968415"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-snageedata"
 aliases:
  - ".bioconductor-snageedata-post-link.sh"
  - ".bioconductor-snageedata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-snageedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snageedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snageedata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:ab28c4063f36abe0c92b7e6f9f5bd48a908092bbd21453cc45b34de6af66b4d8"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:ab28c4063f36abe0c92b7e6f9f5bd48a908092bbd21453cc45b34de6af66b4d8"}, "docker": "quay.io/biocontainers/bioconductor-snageedata", "aliases": {".bioconductor-snageedata-post-link.sh": "/usr/local/bin/.bioconductor-snageedata-post-link.sh", ".bioconductor-snageedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-snageedata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snageedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snageedata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:9458b89219d56d03f11fa8112fb9c97ce0bef5562393ba70643717c097dbb2a4"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:ab28c4063f36abe0c92b7e6f9f5bd48a908092bbd21453cc45b34de6af66b4d8", "1.33.0--r42hdfd78af_0": "sha256:9458b89219d56d03f11fa8112fb9c97ce0bef5562393ba70643717c097dbb2a4"}, "docker": "quay.io/biocontainers/bioconductor-snageedata", "aliases": {".bioconductor-snageedata-post-link.sh": "/usr/local/bin/.bioconductor-snageedata-post-link.sh", ".bioconductor-snageedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-snageedata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snageedata.

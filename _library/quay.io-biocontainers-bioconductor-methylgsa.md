@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-methylgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylgsa/container.yaml"
-updated_at: "2022-11-04 00:38:43.906667"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-05 00:43:19.093746"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylgsa"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylgsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylgsa", "latest": {"1.8.0--r40hdfd78af_1": "sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795"}, "docker": "quay.io/biocontainers/bioconductor-methylgsa", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylgsa", "latest": {"1.10.0--r41hdfd78af_0": "sha256:67cdc44868da089e8060812905156931ca8aa77b6ef6eae7e034c35a406e2dcf"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:fe4439ce435da59e7a9af7734acf11d123795c6c6548ddf155daf017bb7dc795", "1.10.0--r41hdfd78af_0": "sha256:67cdc44868da089e8060812905156931ca8aa77b6ef6eae7e034c35a406e2dcf"}, "docker": "quay.io/biocontainers/bioconductor-methylgsa", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylgsa.

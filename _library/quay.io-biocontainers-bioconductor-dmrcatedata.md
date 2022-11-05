@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-dmrcatedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrcatedata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrcatedata/container.yaml"
-updated_at: "2022-11-04 00:47:06.453056"
-latest: "2.8.2--r40hdfd78af_0"
+updated_at: "2022-11-05 00:49:52.995975"
+latest: "2.12.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrcatedata"
 aliases:
  - ".bioconductor-dmrcatedata-post-link.sh"
@@ -13,8 +13,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.2--r40hdfd78af_0"
+ - "2.12.0--r41hdfd78af_1"
+ - "2.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dmrcatedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrcatedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrcatedata", "latest": {"2.8.2--r40hdfd78af_0": "sha256:c7ef6b53cad4c69d79a11e3aaa797be3e4c7c32d116061464e7bba4ca9ad50c3"}, "tags": {"2.8.2--r40hdfd78af_0": "sha256:c7ef6b53cad4c69d79a11e3aaa797be3e4c7c32d116061464e7bba4ca9ad50c3"}, "docker": "quay.io/biocontainers/bioconductor-dmrcatedata", "aliases": {".bioconductor-dmrcatedata-post-link.sh": "/usr/local/bin/.bioconductor-dmrcatedata-post-link.sh", ".bioconductor-dmrcatedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-dmrcatedata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dmrcatedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dmrcatedata", "latest": {"2.12.0--r41hdfd78af_1": "sha256:31ad58455c867a9d0202511a063d302e7d386f3142832b469b07eccca1995110"}, "tags": {"2.8.2--r40hdfd78af_0": "sha256:c7ef6b53cad4c69d79a11e3aaa797be3e4c7c32d116061464e7bba4ca9ad50c3", "2.12.0--r41hdfd78af_1": "sha256:31ad58455c867a9d0202511a063d302e7d386f3142832b469b07eccca1995110", "2.10.0--r41hdfd78af_0": "sha256:610e15a7a78ad53df655be17c775f821aa7d694dcbb786f4d55e96a46c9000d0"}, "docker": "quay.io/biocontainers/bioconductor-dmrcatedata", "aliases": {".bioconductor-dmrcatedata-post-link.sh": "/usr/local/bin/.bioconductor-dmrcatedata-post-link.sh", ".bioconductor-dmrcatedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-dmrcatedata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dmrcatedata.

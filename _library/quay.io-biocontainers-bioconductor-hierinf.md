@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-hierinf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hierinf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hierinf/container.yaml"
-updated_at: "2022-11-04 00:03:39.859552"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-05 00:15:48.308962"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hierinf"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hierinf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hierinf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hierinf", "latest": {"1.8.0--r40hdfd78af_1": "sha256:aaefe3a22e8ba7e1404990a69ab996d4543f0c6802cb40bf3686401574d00b27"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:aaefe3a22e8ba7e1404990a69ab996d4543f0c6802cb40bf3686401574d00b27"}, "docker": "quay.io/biocontainers/bioconductor-hierinf", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hierinf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hierinf", "latest": {"1.16.0--r42hdfd78af_0": "sha256:9d75169a4c212102ac062a0ae85919a31acf50aadc34a7ecea607339d60d2227"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:aaefe3a22e8ba7e1404990a69ab996d4543f0c6802cb40bf3686401574d00b27", "1.16.0--r42hdfd78af_0": "sha256:9d75169a4c212102ac062a0ae85919a31acf50aadc34a7ecea607339d60d2227", "1.12.0--r41hdfd78af_0": "sha256:117123f887a27efad217d1c8c9652bc9e9f0fdbc1ca1cf556451f3dd8d784b90", "1.10.0--r41hdfd78af_0": "sha256:344e3005b9faf263721de8faf4ad7ccc6869a01a8e3aac1e44a7b762daa7cc7e"}, "docker": "quay.io/biocontainers/bioconductor-hierinf", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hierinf.

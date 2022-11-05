@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/deploid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deploid/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deploid/container.yaml"
-updated_at: "2022-11-04 00:28:06.703126"
-latest: "v0.5--h1341992_1"
+updated_at: "2022-11-05 00:34:51.861581"
+latest: "0.5--h5b5514e_2"
 container_url: "https://biocontainers.pro/tools/deploid"
 aliases:
  - "dEploid"
  - "dEploid_dbg"
 versions:
  - "v0.5--h1341992_1"
+ - "0.5--h5b5514e_2"
 description: "shpc-registry automated BioContainers addition for deploid"
-config: {"url": "https://biocontainers.pro/tools/deploid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deploid", "latest": {"v0.5--h1341992_1": "sha256:a58bf17768f7c24873794f964ce3ca4eba8a81baef3eac71961bbb4457fca439"}, "tags": {"v0.5--h1341992_1": "sha256:a58bf17768f7c24873794f964ce3ca4eba8a81baef3eac71961bbb4457fca439"}, "docker": "quay.io/biocontainers/deploid", "aliases": {"dEploid": "/usr/local/bin/dEploid", "dEploid_dbg": "/usr/local/bin/dEploid_dbg"}}
+config: {"url": "https://biocontainers.pro/tools/deploid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for deploid", "latest": {"0.5--h5b5514e_2": "sha256:d2f4f07ded58dddb85835db0d2cec93c42e5189d260e4293b74c51ebb1786beb"}, "tags": {"v0.5--h1341992_1": "sha256:a58bf17768f7c24873794f964ce3ca4eba8a81baef3eac71961bbb4457fca439", "0.5--h5b5514e_2": "sha256:d2f4f07ded58dddb85835db0d2cec93c42e5189d260e4293b74c51ebb1786beb"}, "docker": "quay.io/biocontainers/deploid", "aliases": {"dEploid": "/usr/local/bin/dEploid", "dEploid_dbg": "/usr/local/bin/dEploid_dbg"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/deploid.

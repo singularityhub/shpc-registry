@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-swathxtend"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-swathxtend/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-swathxtend/container.yaml"
-updated_at: "2022-11-03 23:56:47.803021"
-latest: "2.8.0--r36_0"
+updated_at: "2022-11-05 00:10:23.379265"
+latest: "2.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-swathxtend"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "2.8.0--r36_0"
+ - "2.20.0--r42hdfd78af_0"
+ - "2.16.0--r41hdfd78af_0"
+ - "2.14.0--r41hdfd78af_0"
+ - "2.12.0--r40hdfd78af_1"
+ - "2.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-swathxtend"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-swathxtend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-swathxtend", "latest": {"2.8.0--r36_0": "sha256:0264896db1620649ebf1054612b21c64eed956d6cf3edc0e36688eddd2918c28"}, "tags": {"2.8.0--r36_0": "sha256:0264896db1620649ebf1054612b21c64eed956d6cf3edc0e36688eddd2918c28"}, "docker": "quay.io/biocontainers/bioconductor-swathxtend", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-swathxtend", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-swathxtend", "latest": {"2.20.0--r42hdfd78af_0": "sha256:49857f94ea16e971754b2f37513d2e841d9ded064082c6ed560811dba3273ddf"}, "tags": {"2.8.0--r36_0": "sha256:0264896db1620649ebf1054612b21c64eed956d6cf3edc0e36688eddd2918c28", "2.20.0--r42hdfd78af_0": "sha256:49857f94ea16e971754b2f37513d2e841d9ded064082c6ed560811dba3273ddf", "2.16.0--r41hdfd78af_0": "sha256:b619f53629b6864dc428b0eebd00a7ba75c93c46ff9fa141e239b778fdb21cd6", "2.14.0--r41hdfd78af_0": "sha256:96df12c0fbc1c6552e6b6ded0c1275076b27dd4c881956bc0796fcb8c63947cb", "2.12.0--r40hdfd78af_1": "sha256:2259e3cac55ac87cea6dc71da9fdbb0f780394f4a0306dc3422316baae42a08f", "2.10.0--r40_0": "sha256:a97337392e59a858d21c8f37f889a876f90e162e7221b7159bff065b5f05d0bc"}, "docker": "quay.io/biocontainers/bioconductor-swathxtend", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-swathxtend.

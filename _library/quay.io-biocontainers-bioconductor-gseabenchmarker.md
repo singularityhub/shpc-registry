@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gseabenchmarker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gseabenchmarker/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gseabenchmarker/container.yaml"
-updated_at: "2022-11-04 00:29:28.924778"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-05 00:35:58.510958"
+latest: "1.14.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gseabenchmarker"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.1--r40hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gseabenchmarker"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gseabenchmarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gseabenchmarker", "latest": {"1.8.0--r40_0": "sha256:441cdb2f36ead3fd44dd91c82817f4b329b53d4602492748345e1402e49e1453"}, "tags": {"1.8.0--r40_0": "sha256:441cdb2f36ead3fd44dd91c82817f4b329b53d4602492748345e1402e49e1453"}, "docker": "quay.io/biocontainers/bioconductor-gseabenchmarker", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gseabenchmarker", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gseabenchmarker", "latest": {"1.14.0--r41hdfd78af_0": "sha256:fd9f38af4a9f1bda238ae23a7223d36b95311de0d126cf66828ec5c7c39642b7"}, "tags": {"1.8.0--r40_0": "sha256:441cdb2f36ead3fd44dd91c82817f4b329b53d4602492748345e1402e49e1453", "1.14.0--r41hdfd78af_0": "sha256:fd9f38af4a9f1bda238ae23a7223d36b95311de0d126cf66828ec5c7c39642b7", "1.12.0--r41hdfd78af_0": "sha256:bf5d87167d8ee171c6ec2ba5bafd61f69d6fda2e01d1396b24c3a177f514995a", "1.10.1--r40hdfd78af_0": "sha256:d54e1aa0da2364e577fbbd039a3d9ab89ed6d561e22ffd96a611e5c37accd0fa"}, "docker": "quay.io/biocontainers/bioconductor-gseabenchmarker", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gseabenchmarker.

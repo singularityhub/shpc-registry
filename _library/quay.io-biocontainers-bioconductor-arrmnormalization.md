@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-arrmnormalization"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arrmnormalization/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arrmnormalization/container.yaml"
-updated_at: "2022-11-04 00:05:50.710815"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:17:30.048256"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arrmnormalization"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-arrmnormalization"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-arrmnormalization", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arrmnormalization", "latest": {"1.34.0--r41hdfd78af_0": "sha256:04890f26fe6ba479d4490a8a0807d8e210fb3fce56d49088db830b0714825f8e"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:04890f26fe6ba479d4490a8a0807d8e210fb3fce56d49088db830b0714825f8e"}, "docker": "quay.io/biocontainers/bioconductor-arrmnormalization"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-arrmnormalization", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arrmnormalization", "latest": {"1.38.0--r42hdfd78af_0": "sha256:edb5ea52ece9ed192fdadedc98777d60e6e67e3195dafc052f759fc32fc64be5"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:04890f26fe6ba479d4490a8a0807d8e210fb3fce56d49088db830b0714825f8e", "1.38.0--r42hdfd78af_0": "sha256:edb5ea52ece9ed192fdadedc98777d60e6e67e3195dafc052f759fc32fc64be5"}, "docker": "quay.io/biocontainers/bioconductor-arrmnormalization"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-arrmnormalization.

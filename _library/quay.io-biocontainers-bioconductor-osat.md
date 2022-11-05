@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-osat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-osat/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-osat/container.yaml"
-updated_at: "2022-11-04 00:15:49.228592"
-latest: "1.42.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:25:11.342388"
+latest: "1.46.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-osat"
 
 versions:
  - "1.42.0--r41hdfd78af_0"
+ - "1.46.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-osat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-osat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-osat", "latest": {"1.42.0--r41hdfd78af_0": "sha256:8562b99eaec4811a521f4818835f508d0547a0f160e250ca26e2049dcb04133a"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:8562b99eaec4811a521f4818835f508d0547a0f160e250ca26e2049dcb04133a"}, "docker": "quay.io/biocontainers/bioconductor-osat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-osat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-osat", "latest": {"1.46.0--r42hdfd78af_0": "sha256:10fd014cb46bded84c77606eadb8d5b71b930a3a1fabb621926c5afa1540dac2"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:8562b99eaec4811a521f4818835f508d0547a0f160e250ca26e2049dcb04133a", "1.46.0--r42hdfd78af_0": "sha256:10fd014cb46bded84c77606eadb8d5b71b930a3a1fabb621926c5afa1540dac2"}, "docker": "quay.io/biocontainers/bioconductor-osat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-osat.

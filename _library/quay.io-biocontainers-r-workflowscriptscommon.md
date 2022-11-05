@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-workflowscriptscommon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-workflowscriptscommon/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-workflowscriptscommon/container.yaml"
-updated_at: "2022-11-04 00:51:28.492561"
-latest: "0.0.8--r40hdfd78af_1"
+updated_at: "2022-11-05 00:53:20.711171"
+latest: "0.0.8--r41hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-workflowscriptscommon"
 
 versions:
  - "0.0.8--r40hdfd78af_1"
+ - "0.0.8--r41hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for r-workflowscriptscommon"
-config: {"url": "https://biocontainers.pro/tools/r-workflowscriptscommon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-workflowscriptscommon", "latest": {"0.0.8--r40hdfd78af_1": "sha256:a19006b0836a2870b1657441e06d9481f278bb8bcc961a3031f76f0c7fef130a"}, "tags": {"0.0.8--r40hdfd78af_1": "sha256:a19006b0836a2870b1657441e06d9481f278bb8bcc961a3031f76f0c7fef130a"}, "docker": "quay.io/biocontainers/r-workflowscriptscommon"}
+config: {"url": "https://biocontainers.pro/tools/r-workflowscriptscommon", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-workflowscriptscommon", "latest": {"0.0.8--r41hdfd78af_2": "sha256:9dbca7fcdb0568d0bfa11cbd109177a06a2566735493c5cbbc9d118100b6b20e"}, "tags": {"0.0.8--r40hdfd78af_1": "sha256:a19006b0836a2870b1657441e06d9481f278bb8bcc961a3031f76f0c7fef130a", "0.0.8--r41hdfd78af_2": "sha256:9dbca7fcdb0568d0bfa11cbd109177a06a2566735493c5cbbc9d118100b6b20e"}, "docker": "quay.io/biocontainers/r-workflowscriptscommon"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-workflowscriptscommon.

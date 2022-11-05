@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ryuto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ryuto/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ryuto/container.yaml"
-updated_at: "2022-11-04 00:10:57.474584"
+updated_at: "2022-11-05 00:21:24.893283"
 latest: "1.6.2--h986a166_0"
 container_url: "https://biocontainers.pro/tools/ryuto"
 aliases:

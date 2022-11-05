@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tdaracne"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tdaracne/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tdaracne/container.yaml"
-updated_at: "2022-11-03 23:44:09.828176"
-latest: "1.44.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:00:25.760078"
+latest: "1.47.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tdaracne"
 
 versions:
  - "1.44.0--r41hdfd78af_0"
+ - "1.47.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tdaracne"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tdaracne", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tdaracne", "latest": {"1.44.0--r41hdfd78af_0": "sha256:049a8c4f40963b3699e08d7a841d883ec370eaaada4076df1d307580e3cd9ebb"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:049a8c4f40963b3699e08d7a841d883ec370eaaada4076df1d307580e3cd9ebb"}, "docker": "quay.io/biocontainers/bioconductor-tdaracne"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tdaracne", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tdaracne", "latest": {"1.47.0--r42hdfd78af_0": "sha256:55409ae060293d74c953972762675f24c68e3474daa15878b27d10eb953f47c1"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:049a8c4f40963b3699e08d7a841d883ec370eaaada4076df1d307580e3cd9ebb", "1.47.0--r42hdfd78af_0": "sha256:55409ae060293d74c953972762675f24c68e3474daa15878b27d10eb953f47c1"}, "docker": "quay.io/biocontainers/bioconductor-tdaracne"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tdaracne.

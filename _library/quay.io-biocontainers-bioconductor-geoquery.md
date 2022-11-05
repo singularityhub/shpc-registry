@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-geoquery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geoquery/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geoquery/container.yaml"
-updated_at: "2022-11-03 23:50:34.042034"
-latest: "2.62.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:05:27.343726"
+latest: "2.66.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geoquery"
 
 versions:
  - "2.62.0--r41hdfd78af_0"
+ - "2.66.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geoquery"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geoquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geoquery", "latest": {"2.62.0--r41hdfd78af_0": "sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253"}, "tags": {"2.62.0--r41hdfd78af_0": "sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253"}, "docker": "quay.io/biocontainers/bioconductor-geoquery"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geoquery", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geoquery", "latest": {"2.66.0--r42hdfd78af_0": "sha256:65ede9b8a4f30704b350f11d9a664349a0ae78bfe72be951bac6b5e3e77d5492"}, "tags": {"2.62.0--r41hdfd78af_0": "sha256:4510fd8391009c823f6a2137684595bf7419c93494c96878428b038e23e93253", "2.66.0--r42hdfd78af_0": "sha256:65ede9b8a4f30704b350f11d9a664349a0ae78bfe72be951bac6b5e3e77d5492"}, "docker": "quay.io/biocontainers/bioconductor-geoquery"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geoquery.

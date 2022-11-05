@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/container.yaml"
-updated_at: "2022-11-03 23:46:40.466875"
-latest: "3.4.6--r36_1"
+updated_at: "2022-11-05 00:02:23.143537"
+latest: "3.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene"
 aliases:
  - ".bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh"
@@ -15,8 +15,11 @@ aliases:
  - "c99"
 versions:
  - "3.4.6--r36_1"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.10.0--r40hdfd78af_3"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.knowngene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "latest": {"3.4.6--r36_1": "sha256:3df625e0066e33a2de5fa43c3620e3d4705616be92462927d1dd73efe999eece"}, "tags": {"3.4.6--r36_1": "sha256:3df625e0066e33a2de5fa43c3620e3d4705616be92462927d1dd73efe999eece"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "aliases": {".bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh", ".bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "latest": {"3.14.0--r41hdfd78af_1": "sha256:34a5b2df033d794fe69fded1795ae82125b65e7be3a96bce9da3b37e1852876d"}, "tags": {"3.4.6--r36_1": "sha256:3df625e0066e33a2de5fa43c3620e3d4705616be92462927d1dd73efe999eece", "3.14.0--r41hdfd78af_1": "sha256:34a5b2df033d794fe69fded1795ae82125b65e7be3a96bce9da3b37e1852876d", "3.13.0--r41hdfd78af_0": "sha256:f2796f2c5bd8937d813aca3cb10b5e2ebda930995598f04f50325cb75f026d86", "3.10.0--r40hdfd78af_3": "sha256:c127ff40a6e4486d575f607d7ed90eee280b54ee0694f16b4cf3c5fc839329eb"}, "docker": "quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene", "aliases": {".bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-post-link.sh", ".bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.hsapiens.ucsc.hg38.knowngene-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-yapsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
-updated_at: "2022-11-04 00:40:10.174906"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-05 00:44:27.837768"
+latest: "1.19.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yapsa"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r351_0"
+ - "1.19.0--r41hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r40hdfd78af_1"
+ - "1.14.0--r40_0"
+ - "1.12.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-yapsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-yapsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yapsa", "latest": {"1.8.0--r351_0": "sha256:111aa7dbfac5cf3f026c4d92ff2c67a3e368e4ac888e8da1948c16a25af5626e"}, "tags": {"1.8.0--r351_0": "sha256:111aa7dbfac5cf3f026c4d92ff2c67a3e368e4ac888e8da1948c16a25af5626e"}, "docker": "quay.io/biocontainers/bioconductor-yapsa", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-yapsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yapsa", "latest": {"1.19.0--r41hdfd78af_0": "sha256:d1edb509042ce5e98f84aa2e3896614add1c2c2a7ce4e83720ae39df88ed505f"}, "tags": {"1.8.0--r351_0": "sha256:111aa7dbfac5cf3f026c4d92ff2c67a3e368e4ac888e8da1948c16a25af5626e", "1.19.0--r41hdfd78af_0": "sha256:d1edb509042ce5e98f84aa2e3896614add1c2c2a7ce4e83720ae39df88ed505f", "1.18.0--r41hdfd78af_0": "sha256:a190ea549efc3ed8c501c241056bdc1842bdcb14284ba89e44dc9f5c9fc286f6", "1.16.0--r40hdfd78af_1": "sha256:d1c6d668f201ceb40814d4824546afe5f4f9274399f090f76eac3c63b2eeb860", "1.14.0--r40_0": "sha256:86f05776829b2657bbaddea45f207b94264349612f5cf2543a645fbecc6d66b3", "1.12.0--r36_0": "sha256:f8a43f15c998106cddd743d40edccaecdc2545dcad19dd6e61a3948b5cbc58a0"}, "docker": "quay.io/biocontainers/bioconductor-yapsa", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-yapsa.

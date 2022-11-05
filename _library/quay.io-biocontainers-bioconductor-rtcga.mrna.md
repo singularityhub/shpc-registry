@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.mrna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.mrna/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.mrna/container.yaml"
-updated_at: "2022-11-04 00:16:39.951852"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-05 00:25:52.072561"
+latest: "1.25.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.mrna"
 aliases:
  - ".bioconductor-rtcga.mrna-post-link.sh"
@@ -13,8 +13,13 @@ aliases:
  - "wget"
 versions:
  - "1.8.0--r351_0"
+ - "1.25.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_1"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.17.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.mrna"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.mrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.mrna", "latest": {"1.8.0--r351_0": "sha256:e997891a35892b582f188b274aa7367278bbc4050861ea98aab5a0944978d57f"}, "tags": {"1.8.0--r351_0": "sha256:e997891a35892b582f188b274aa7367278bbc4050861ea98aab5a0944978d57f"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.mrna", "aliases": {".bioconductor-rtcga.mrna-post-link.sh": "/usr/local/bin/.bioconductor-rtcga.mrna-post-link.sh", ".bioconductor-rtcga.mrna-pre-unlink.sh": "/usr/local/bin/.bioconductor-rtcga.mrna-pre-unlink.sh", "wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.mrna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.mrna", "latest": {"1.25.0--r42hdfd78af_0": "sha256:8e070c6feafdf81b201b0a8b271567882d2b06e8b173a1335a569d477ea546f3"}, "tags": {"1.8.0--r351_0": "sha256:e997891a35892b582f188b274aa7367278bbc4050861ea98aab5a0944978d57f", "1.25.0--r42hdfd78af_0": "sha256:8e070c6feafdf81b201b0a8b271567882d2b06e8b173a1335a569d477ea546f3", "1.22.0--r41hdfd78af_1": "sha256:7c2c857e49bc3589283b906a552ac9931e7b34bb554b3d650e42fdc53609d6b9", "1.20.0--r41hdfd78af_0": "sha256:2574b5315f59d0ed089d1b4fde1bf8806b05e64dd532ffd5b8c8d35d200e9569", "1.18.0--r40hdfd78af_1": "sha256:d60cfd7e13af0cc38dcb4473b9ca2853659493fb06d8f3160d3d7a4122456af3", "1.17.0--r40_0": "sha256:5fd5a1e14590ae50c4842030d12e7f3fff20fb237e816e5badccee62ce1be358"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.mrna", "aliases": {".bioconductor-rtcga.mrna-post-link.sh": "/usr/local/bin/.bioconductor-rtcga.mrna-post-link.sh", ".bioconductor-rtcga.mrna-pre-unlink.sh": "/usr/local/bin/.bioconductor-rtcga.mrna-pre-unlink.sh", "wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.mrna.

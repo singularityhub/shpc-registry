@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ballgown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ballgown/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ballgown/container.yaml"
-updated_at: "2022-11-03 23:51:07.166204"
+updated_at: "2022-11-05 00:05:53.617836"
 latest: "2.8.4--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ballgown"
 aliases:

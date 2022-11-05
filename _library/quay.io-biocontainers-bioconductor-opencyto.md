@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-opencyto"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-opencyto/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-opencyto/container.yaml"
-updated_at: "2022-11-04 00:45:44.235688"
-latest: "2.6.0--r41hc247a5b_2"
+updated_at: "2022-11-05 00:48:48.738610"
+latest: "2.10.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-opencyto"
 
 versions:
  - "2.6.0--r41hc247a5b_2"
+ - "2.10.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-opencyto"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-opencyto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-opencyto", "latest": {"2.6.0--r41hc247a5b_2": "sha256:6c7d537b410551a19de9ba08df57662701ea75c6af6a07f68503bcaa8e34d292"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:6c7d537b410551a19de9ba08df57662701ea75c6af6a07f68503bcaa8e34d292"}, "docker": "quay.io/biocontainers/bioconductor-opencyto"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-opencyto", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-opencyto", "latest": {"2.10.0--r42hc247a5b_0": "sha256:372a11aa99315b16e878c5ff3d5ed7c71adf243eae01a9f556d9c906bfb0fbb9"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:6c7d537b410551a19de9ba08df57662701ea75c6af6a07f68503bcaa8e34d292", "2.10.0--r42hc247a5b_0": "sha256:372a11aa99315b16e878c5ff3d5ed7c71adf243eae01a9f556d9c906bfb0fbb9"}, "docker": "quay.io/biocontainers/bioconductor-opencyto"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-opencyto.

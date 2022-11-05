@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-emdomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-emdomics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-emdomics/container.yaml"
-updated_at: "2022-11-04 00:30:20.140599"
-latest: "2.24.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:36:39.761992"
+latest: "2.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-emdomics"
 
 versions:
  - "2.24.0--r41hdfd78af_0"
+ - "2.28.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-emdomics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-emdomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-emdomics", "latest": {"2.24.0--r41hdfd78af_0": "sha256:cee172f799878bc2035ef7fe70d3514d75db443a305db71b402d37fccbe409b6"}, "tags": {"2.24.0--r41hdfd78af_0": "sha256:cee172f799878bc2035ef7fe70d3514d75db443a305db71b402d37fccbe409b6"}, "docker": "quay.io/biocontainers/bioconductor-emdomics"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-emdomics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-emdomics", "latest": {"2.28.0--r42hdfd78af_0": "sha256:7ec38a428177cf19155cc0dacbf3aae8d32f0f75973d4d3979a5dbb64c24e1fc"}, "tags": {"2.24.0--r41hdfd78af_0": "sha256:cee172f799878bc2035ef7fe70d3514d75db443a305db71b402d37fccbe409b6", "2.28.0--r42hdfd78af_0": "sha256:7ec38a428177cf19155cc0dacbf3aae8d32f0f75973d4d3979a5dbb64c24e1fc"}, "docker": "quay.io/biocontainers/bioconductor-emdomics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-emdomics.

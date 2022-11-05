@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ahmeshdbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahmeshdbs/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahmeshdbs/container.yaml"
-updated_at: "2022-11-04 00:25:46.595909"
+updated_at: "2022-11-05 00:32:59.862108"
 latest: "1.2.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahmeshdbs"
 aliases:

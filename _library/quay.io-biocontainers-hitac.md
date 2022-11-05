@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hitac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hitac/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/hitac/container.yaml"
-updated_at: "2022-11-04 00:04:04.743026"
-latest: "2.0.9--pyhdfd78af_1"
+updated_at: "2022-11-05 00:16:07.733144"
+latest: "2.0.21--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/hitac"
 aliases:
  - "hiclass"
@@ -21,8 +21,9 @@ aliases:
  - "mirror_server"
 versions:
  - "2.0.9--pyhdfd78af_1"
+ - "2.0.21--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for hitac"
-config: {"url": "https://biocontainers.pro/tools/hitac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hitac", "latest": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4"}, "docker": "quay.io/biocontainers/hitac", "aliases": {"hiclass": "/usr/local/bin/hiclass", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
+config: {"url": "https://biocontainers.pro/tools/hitac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hitac", "latest": {"2.0.21--pyhdfd78af_0": "sha256:a5fa1532708e157cc37614dcff5294da86c2260aa10b8305612409d5fb9d339d"}, "tags": {"2.0.9--pyhdfd78af_1": "sha256:93e8fbf4c59aec2d7144867b2ccf5efb3d8895de6a1cdd25aec13f077536fdd4", "2.0.21--pyhdfd78af_0": "sha256:a5fa1532708e157cc37614dcff5294da86c2260aa10b8305612409d5fb9d339d"}, "docker": "quay.io/biocontainers/hitac", "aliases": {"hiclass": "/usr/local/bin/hiclass", "doesitcache": "/usr/local/bin/doesitcache", "ipython3": "/usr/local/bin/ipython3", "ipython": "/usr/local/bin/ipython", "cygdb": "/usr/local/bin/cygdb", "cython": "/usr/local/bin/cython", "cythonize": "/usr/local/bin/cythonize", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "natsort": "/usr/local/bin/natsort", "mirror_server": "/usr/local/bin/mirror_server"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hitac.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.blood.epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.blood.epic/container.yaml"
-updated_at: "2022-11-03 23:56:20.596033"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-05 00:10:01.841110"
+latest: "1.12.1--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic"
 aliases:
  - ".bioconductor-flowsorted.blood.epic-post-link.sh"
@@ -13,8 +13,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.12.1--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic", "latest": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.blood.epic", "aliases": {".bioconductor-flowsorted.blood.epic-post-link.sh": "/usr/local/bin/.bioconductor-flowsorted.blood.epic-post-link.sh", ".bioconductor-flowsorted.blood.epic-pre-unlink.sh": "/usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.blood.epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.blood.epic", "latest": {"1.12.1--r41hdfd78af_1": "sha256:8f6c12a38d9755b06989f09876bdad656853e4a140a71b4a611e49f35f238528"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:10ff49b495a6dff41cc2b44732e385dc978ef950c70b4483b23694cc54e6b51c", "1.12.1--r41hdfd78af_1": "sha256:8f6c12a38d9755b06989f09876bdad656853e4a140a71b4a611e49f35f238528", "1.10.0--r41hdfd78af_0": "sha256:c5e9303e93fd05d981c4c9bbb57d43571a7aa5a0d0dfd6d343eeeacffc4a4d0a"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.blood.epic", "aliases": {".bioconductor-flowsorted.blood.epic-post-link.sh": "/usr/local/bin/.bioconductor-flowsorted.blood.epic-post-link.sh", ".bioconductor-flowsorted.blood.epic-pre-unlink.sh": "/usr/local/bin/.bioconductor-flowsorted.blood.epic-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.blood.epic.

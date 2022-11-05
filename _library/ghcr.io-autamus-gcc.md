@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/gcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gcc/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gcc/container.yaml"
-updated_at: "2022-11-04 00:53:26.576916"
+updated_at: "2022-11-05 00:54:54.468905"
 latest: "12.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gcc"
 aliases:
@@ -29,7 +29,7 @@ versions:
  - "12.2.0"
  - "12.1.0"
 description: "The GNU Compiler Collection"
-config: {"docker": "ghcr.io/autamus/gcc", "url": "https://github.com/orgs/autamus/packages/container/package/gcc", "maintainer": "@vsoch", "description": "The GNU Compiler Collection", "latest": {"12.2.0": "sha256:51f11688070f0c3805dbd339e3a3f4ff6fc6f57565754ebac269ca048a7addca"}, "tags": {"10.3.0": "sha256:f06a6be26b7e03e405061cceb10e9df9787f1c7d79a475613a0165c2ec133e98", "11.1.0": "sha256:eab5ff08025ade13c2f5ed1b71954f353a7f477ffb94a50456b633527c87bfd3", "11.2.0": "sha256:acc888bb3828e0d0be8e1ee0f22706e5db71e8578a4f388f6cce94236541fba0", "latest": "sha256:51f11688070f0c3805dbd339e3a3f4ff6fc6f57565754ebac269ca048a7addca", "11.3.0": "sha256:7c276796cc78837f8e9ed0cd1cf46f06f29c0b6ce81aab04e582cca117608f46", "12.2.0": "sha256:51f11688070f0c3805dbd339e3a3f4ff6fc6f57565754ebac269ca048a7addca", "12.1.0": "sha256:b5c42f140ca3dadeb2c998a029e8cc8b7bdb5f9b37527c413d8b4df19b1a7924"}, "aliases": {"c++": "/opt/view/bin/c++", "cpp": "/opt/view/bin/cpp", "g++": "/opt/view/bin/g++", "gcc": "/opt/view/bin/gcc", "gcc-ar": "/opt/view/bin/gcc-ar", "gcc-nm": "/opt/view/bin/gcc-nm", "gcc-ranlib": "/opt/view/bin/gcc-ranlib", "gcov": "/opt/view/bin/gcov", "gcov-dump": "/opt/view/bin/gcov-dump", "gcov-tool": "/opt/view/bin/gcov-tool", "gfortran": "/opt/view/bin/gfortran", "zstd": "/opt/view/bin/zstd"}}
+config: {"docker": "ghcr.io/autamus/gcc", "url": "https://github.com/orgs/autamus/packages/container/package/gcc", "maintainer": "@vsoch", "description": "The GNU Compiler Collection", "latest": {"12.2.0": "sha256:02f2bb400eb4b29eeda564d11f99696e6f0b38a7c9f1f497d2924a83173b3975"}, "tags": {"10.3.0": "sha256:f06a6be26b7e03e405061cceb10e9df9787f1c7d79a475613a0165c2ec133e98", "11.1.0": "sha256:eab5ff08025ade13c2f5ed1b71954f353a7f477ffb94a50456b633527c87bfd3", "11.2.0": "sha256:acc888bb3828e0d0be8e1ee0f22706e5db71e8578a4f388f6cce94236541fba0", "latest": "sha256:02f2bb400eb4b29eeda564d11f99696e6f0b38a7c9f1f497d2924a83173b3975", "11.3.0": "sha256:7c276796cc78837f8e9ed0cd1cf46f06f29c0b6ce81aab04e582cca117608f46", "12.2.0": "sha256:02f2bb400eb4b29eeda564d11f99696e6f0b38a7c9f1f497d2924a83173b3975", "12.1.0": "sha256:b5c42f140ca3dadeb2c998a029e8cc8b7bdb5f9b37527c413d8b4df19b1a7924"}, "aliases": {"c++": "/opt/view/bin/c++", "cpp": "/opt/view/bin/cpp", "g++": "/opt/view/bin/g++", "gcc": "/opt/view/bin/gcc", "gcc-ar": "/opt/view/bin/gcc-ar", "gcc-nm": "/opt/view/bin/gcc-nm", "gcc-ranlib": "/opt/view/bin/gcc-ranlib", "gcov": "/opt/view/bin/gcov", "gcov-dump": "/opt/view/bin/gcov-dump", "gcov-tool": "/opt/view/bin/gcov-tool", "gfortran": "/opt/view/bin/gfortran", "zstd": "/opt/view/bin/zstd"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/gcc.

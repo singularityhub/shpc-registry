@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/platypus-variant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/platypus-variant/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/platypus-variant/container.yaml"
-updated_at: "2022-11-04 00:47:12.978393"
+updated_at: "2022-11-05 00:49:58.148759"
 latest: "0.8.1.2--py27hb698ca4_5"
 container_url: "https://biocontainers.pro/tools/platypus-variant"
 aliases:

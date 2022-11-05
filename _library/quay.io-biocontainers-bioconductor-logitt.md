@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-logitt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-logitt/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-logitt/container.yaml"
-updated_at: "2022-11-04 00:16:32.933524"
-latest: "1.52.0--r41hc0cfd56_2"
+updated_at: "2022-11-05 00:25:46.463196"
+latest: "1.56.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-logitt"
 
 versions:
  - "1.52.0--r41hc0cfd56_2"
+ - "1.56.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-logitt"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-logitt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logitt", "latest": {"1.52.0--r41hc0cfd56_2": "sha256:c31b2ca44009ad9a48eb79cc8ebfb58d507e595a0ba4c4e2f6f15a1a0d3858bc"}, "tags": {"1.52.0--r41hc0cfd56_2": "sha256:c31b2ca44009ad9a48eb79cc8ebfb58d507e595a0ba4c4e2f6f15a1a0d3858bc"}, "docker": "quay.io/biocontainers/bioconductor-logitt"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-logitt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logitt", "latest": {"1.56.0--r42hc0cfd56_0": "sha256:ea4841395c939a3fab78b2ca5610064622b7b1136094a64b4cc6b0e8b1082d11"}, "tags": {"1.52.0--r41hc0cfd56_2": "sha256:c31b2ca44009ad9a48eb79cc8ebfb58d507e595a0ba4c4e2f6f15a1a0d3858bc", "1.56.0--r42hc0cfd56_0": "sha256:ea4841395c939a3fab78b2ca5610064622b7b1136094a64b4cc6b0e8b1082d11"}, "docker": "quay.io/biocontainers/bioconductor-logitt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-logitt.

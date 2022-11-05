@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tomatocdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tomatocdf/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tomatocdf/container.yaml"
-updated_at: "2022-11-04 00:16:44.440314"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-05 00:25:55.679237"
+latest: "2.18.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-tomatocdf"
 aliases:
  - ".bioconductor-tomatocdf-post-link.sh"
  - ".bioconductor-tomatocdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-tomatocdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tomatocdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tomatocdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:50957b3f809421f6d9719b93aae2aab8b17aefa3443ce48207d4854755760c3b"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:50957b3f809421f6d9719b93aae2aab8b17aefa3443ce48207d4854755760c3b"}, "docker": "quay.io/biocontainers/bioconductor-tomatocdf", "aliases": {".bioconductor-tomatocdf-post-link.sh": "/usr/local/bin/.bioconductor-tomatocdf-post-link.sh", ".bioconductor-tomatocdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-tomatocdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tomatocdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tomatocdf", "latest": {"2.18.0--r41hdfd78af_10": "sha256:3b0104ca907d8a7639002c6e446f27cef8ad6d5b5287d0e786485540b64c6dbb"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:50957b3f809421f6d9719b93aae2aab8b17aefa3443ce48207d4854755760c3b", "2.18.0--r41hdfd78af_10": "sha256:3b0104ca907d8a7639002c6e446f27cef8ad6d5b5287d0e786485540b64c6dbb"}, "docker": "quay.io/biocontainers/bioconductor-tomatocdf", "aliases": {".bioconductor-tomatocdf-post-link.sh": "/usr/local/bin/.bioconductor-tomatocdf-post-link.sh", ".bioconductor-tomatocdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-tomatocdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tomatocdf.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-heebodata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heebodata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heebodata/container.yaml"
-updated_at: "2022-11-04 00:41:36.510133"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-05 00:45:36.361748"
+latest: "1.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heebodata"
 aliases:
  - ".bioconductor-heebodata-post-link.sh"
  - ".bioconductor-heebodata-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-heebodata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-heebodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heebodata", "latest": {"1.32.0--r41hdfd78af_1": "sha256:019cf87a86a879654c107a461ceae33a42f695301a97b7ce670a8f4a11f2d66b"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:019cf87a86a879654c107a461ceae33a42f695301a97b7ce670a8f4a11f2d66b"}, "docker": "quay.io/biocontainers/bioconductor-heebodata", "aliases": {".bioconductor-heebodata-post-link.sh": "/usr/local/bin/.bioconductor-heebodata-post-link.sh", ".bioconductor-heebodata-pre-unlink.sh": "/usr/local/bin/.bioconductor-heebodata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-heebodata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heebodata", "latest": {"1.35.0--r42hdfd78af_0": "sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:019cf87a86a879654c107a461ceae33a42f695301a97b7ce670a8f4a11f2d66b", "1.35.0--r42hdfd78af_0": "sha256:bb1c936768a90bd050ff5bc6b09a6ba7bbd5e358966730139083a44d4ed33d06"}, "docker": "quay.io/biocontainers/bioconductor-heebodata", "aliases": {".bioconductor-heebodata-post-link.sh": "/usr/local/bin/.bioconductor-heebodata-post-link.sh", ".bioconductor-heebodata-pre-unlink.sh": "/usr/local/bin/.bioconductor-heebodata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-heebodata.

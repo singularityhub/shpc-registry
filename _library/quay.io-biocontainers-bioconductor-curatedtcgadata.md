@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-curatedtcgadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedtcgadata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedtcgadata/container.yaml"
-updated_at: "2022-11-04 00:46:28.867457"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-05 00:49:23.666658"
+latest: "1.16.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedtcgadata"
 aliases:
  - ".bioconductor-curatedtcgadata-post-link.sh"
@@ -15,8 +15,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.16.0--r41hdfd78af_1"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-curatedtcgadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedtcgadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedtcgadata", "latest": {"1.8.0--r36_0": "sha256:975d911f99fdae54b6b79d4fe5344d6a06d369f7c0745fbd72068f12f99274a6"}, "tags": {"1.8.0--r36_0": "sha256:975d911f99fdae54b6b79d4fe5344d6a06d369f7c0745fbd72068f12f99274a6"}, "docker": "quay.io/biocontainers/bioconductor-curatedtcgadata", "aliases": {".bioconductor-curatedtcgadata-post-link.sh": "/usr/local/bin/.bioconductor-curatedtcgadata-post-link.sh", ".bioconductor-curatedtcgadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-curatedtcgadata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedtcgadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedtcgadata", "latest": {"1.16.0--r41hdfd78af_1": "sha256:9af61b0dc3c452433a7c9a008f4637a351dd128560264c5686426d4f113c1be3"}, "tags": {"1.8.0--r36_0": "sha256:975d911f99fdae54b6b79d4fe5344d6a06d369f7c0745fbd72068f12f99274a6", "1.16.0--r41hdfd78af_1": "sha256:9af61b0dc3c452433a7c9a008f4637a351dd128560264c5686426d4f113c1be3", "1.14.0--r41hdfd78af_0": "sha256:05924190ec8385093a1b73edf89eefd8c0c8f58209b5a8cca4865d3598c9675d", "1.12.0--r40hdfd78af_1": "sha256:81e30aac57c442960b544e3f9a500cff5be026ad8f460cfcb23ecb304c94927a", "1.10.0--r40_0": "sha256:e6932b6812e39d9709c3cd7374250a0a5a2c89d3736ffcaa40d447895308bf89"}, "docker": "quay.io/biocontainers/bioconductor-curatedtcgadata", "aliases": {".bioconductor-curatedtcgadata-post-link.sh": "/usr/local/bin/.bioconductor-curatedtcgadata-post-link.sh", ".bioconductor-curatedtcgadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-curatedtcgadata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-curatedtcgadata.

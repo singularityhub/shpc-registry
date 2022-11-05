@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-italicsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-italicsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-italicsdata/container.yaml"
-updated_at: "2022-11-03 23:59:56.950975"
-latest: "2.32.0--r41hdfd78af_1"
+updated_at: "2022-11-05 00:12:52.936564"
+latest: "2.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-italicsdata"
 aliases:
  - ".bioconductor-italicsdata-post-link.sh"
  - ".bioconductor-italicsdata-pre-unlink.sh"
 versions:
  - "2.32.0--r41hdfd78af_1"
+ - "2.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-italicsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-italicsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-italicsdata", "latest": {"2.32.0--r41hdfd78af_1": "sha256:3e980c35c846274dad61dab2ce3dc8557ac34d053e70ae9fd2343eb25a0469cb"}, "tags": {"2.32.0--r41hdfd78af_1": "sha256:3e980c35c846274dad61dab2ce3dc8557ac34d053e70ae9fd2343eb25a0469cb"}, "docker": "quay.io/biocontainers/bioconductor-italicsdata", "aliases": {".bioconductor-italicsdata-post-link.sh": "/usr/local/bin/.bioconductor-italicsdata-post-link.sh", ".bioconductor-italicsdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-italicsdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-italicsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-italicsdata", "latest": {"2.36.0--r42hdfd78af_0": "sha256:ce574f2034def617207ced60a91ad200e85cf90221cc2d6dda492c6900c8b34b"}, "tags": {"2.32.0--r41hdfd78af_1": "sha256:3e980c35c846274dad61dab2ce3dc8557ac34d053e70ae9fd2343eb25a0469cb", "2.36.0--r42hdfd78af_0": "sha256:ce574f2034def617207ced60a91ad200e85cf90221cc2d6dda492c6900c8b34b"}, "docker": "quay.io/biocontainers/bioconductor-italicsdata", "aliases": {".bioconductor-italicsdata-post-link.sh": "/usr/local/bin/.bioconductor-italicsdata-post-link.sh", ".bioconductor-italicsdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-italicsdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-italicsdata.

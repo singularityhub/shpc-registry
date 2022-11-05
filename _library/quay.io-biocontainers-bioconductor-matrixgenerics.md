@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-matrixgenerics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matrixgenerics/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matrixgenerics/container.yaml"
-updated_at: "2022-11-04 00:42:05.863739"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:45:59.481819"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matrixgenerics"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-matrixgenerics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-matrixgenerics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matrixgenerics", "latest": {"1.6.0--r41hdfd78af_0": "sha256:56e4e617b0774f182ac143d91569d33a43d671c606c1fc44c199ed7bca8d7e1a"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:56e4e617b0774f182ac143d91569d33a43d671c606c1fc44c199ed7bca8d7e1a"}, "docker": "quay.io/biocontainers/bioconductor-matrixgenerics"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-matrixgenerics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-matrixgenerics", "latest": {"1.10.0--r42hdfd78af_0": "sha256:29320fd25e9f47419019977e3e4b0da190a09a02003d8f41fd688bb75636461b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:56e4e617b0774f182ac143d91569d33a43d671c606c1fc44c199ed7bca8d7e1a", "1.10.0--r42hdfd78af_0": "sha256:29320fd25e9f47419019977e3e4b0da190a09a02003d8f41fd688bb75636461b"}, "docker": "quay.io/biocontainers/bioconductor-matrixgenerics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-matrixgenerics.

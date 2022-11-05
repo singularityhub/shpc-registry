@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chipexoqualexample"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chipexoqualexample/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chipexoqualexample/container.yaml"
-updated_at: "2022-11-04 00:35:27.151780"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-05 00:40:42.616763"
+latest: "1.21.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chipexoqualexample"
 aliases:
  - ".bioconductor-chipexoqualexample-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.21.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_1"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.13.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chipexoqualexample"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chipexoqualexample", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipexoqualexample", "latest": {"1.8.0--r36_1": "sha256:ed284a73f9f99f4dd6a8d6a73dc5d4a05d1e17a416bf61609568254205563ed2"}, "tags": {"1.8.0--r36_1": "sha256:ed284a73f9f99f4dd6a8d6a73dc5d4a05d1e17a416bf61609568254205563ed2"}, "docker": "quay.io/biocontainers/bioconductor-chipexoqualexample", "aliases": {".bioconductor-chipexoqualexample-post-link.sh": "/usr/local/bin/.bioconductor-chipexoqualexample-post-link.sh", ".bioconductor-chipexoqualexample-pre-unlink.sh": "/usr/local/bin/.bioconductor-chipexoqualexample-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chipexoqualexample", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chipexoqualexample", "latest": {"1.21.0--r42hdfd78af_0": "sha256:6a95a8e740a4f8950c4c06c6ffafe88bb4e2a7be4ae2ed15e3dffc13029a0d4c"}, "tags": {"1.8.0--r36_1": "sha256:ed284a73f9f99f4dd6a8d6a73dc5d4a05d1e17a416bf61609568254205563ed2", "1.21.0--r42hdfd78af_0": "sha256:6a95a8e740a4f8950c4c06c6ffafe88bb4e2a7be4ae2ed15e3dffc13029a0d4c", "1.18.0--r41hdfd78af_1": "sha256:cfdc2414c35081d3e51591f9dbb6323aeca00bc48e807323b4f17351f5df1af4", "1.16.0--r41hdfd78af_0": "sha256:74d1b74689d1cc748b65793438688d8b3625f426096e82d4b39996545a0c31f7", "1.14.0--r40hdfd78af_1": "sha256:62b94b2a79f643933e036a300bea98c50fc1a818b376f4d826577a73adbca169", "1.13.0--r40_0": "sha256:938d9488eb7d5b8a87b35d3b04abd12fa9c0c641984f7a920ba312e547e45caa"}, "docker": "quay.io/biocontainers/bioconductor-chipexoqualexample", "aliases": {".bioconductor-chipexoqualexample-post-link.sh": "/usr/local/bin/.bioconductor-chipexoqualexample-post-link.sh", ".bioconductor-chipexoqualexample-pre-unlink.sh": "/usr/local/bin/.bioconductor-chipexoqualexample-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chipexoqualexample.

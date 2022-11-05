@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-specond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-specond/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-specond/container.yaml"
-updated_at: "2022-11-04 00:27:19.416115"
-latest: "1.48.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:34:14.194647"
+latest: "1.52.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-specond"
 
 versions:
  - "1.48.0--r41hdfd78af_0"
+ - "1.52.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-specond"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-specond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-specond", "latest": {"1.48.0--r41hdfd78af_0": "sha256:0b35b0393b278522b72d6fcf1ef032092fc122648205041fd0c92e9fc41a4185"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:0b35b0393b278522b72d6fcf1ef032092fc122648205041fd0c92e9fc41a4185"}, "docker": "quay.io/biocontainers/bioconductor-specond"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-specond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-specond", "latest": {"1.52.0--r42hdfd78af_0": "sha256:7fe4166c135506f60d6de33c9afc3e9c962a8cb35e381e15f6ef14b1f095fd59"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:0b35b0393b278522b72d6fcf1ef032092fc122648205041fd0c92e9fc41a4185", "1.52.0--r42hdfd78af_0": "sha256:7fe4166c135506f60d6de33c9afc3e9c962a8cb35e381e15f6ef14b1f095fd59"}, "docker": "quay.io/biocontainers/bioconductor-specond"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-specond.

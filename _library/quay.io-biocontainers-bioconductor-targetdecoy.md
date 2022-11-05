@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-targetdecoy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
-updated_at: "2022-11-04 00:28:30.042254"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-11-05 00:35:10.907695"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetdecoy"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-targetdecoy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-targetdecoy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetdecoy", "latest": {"1.0.0--r41hdfd78af_0": "sha256:e126c60fdbd454f8659d5969f4422902db19119a03d6fdf9711f592fc7578cc4"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e126c60fdbd454f8659d5969f4422902db19119a03d6fdf9711f592fc7578cc4"}, "docker": "quay.io/biocontainers/bioconductor-targetdecoy", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-targetdecoy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetdecoy", "latest": {"1.4.0--r42hdfd78af_0": "sha256:377c3c7dc123f633fb1a6aed8dd42f2714da34b32c7c8900a5e2675ed4469abd"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:e126c60fdbd454f8659d5969f4422902db19119a03d6fdf9711f592fc7578cc4", "1.4.0--r42hdfd78af_0": "sha256:377c3c7dc123f633fb1a6aed8dd42f2714da34b32c7c8900a5e2675ed4469abd"}, "docker": "quay.io/biocontainers/bioconductor-targetdecoy", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-targetdecoy.

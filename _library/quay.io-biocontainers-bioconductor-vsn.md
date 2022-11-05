@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-vsn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vsn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vsn/container.yaml"
-updated_at: "2022-11-03 23:57:54.305656"
-latest: "3.62.0--r41hc0cfd56_2"
+updated_at: "2022-11-05 00:11:15.946583"
+latest: "3.66.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-vsn"
 
 versions:
  - "3.62.0--r41hc0cfd56_2"
+ - "3.66.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-vsn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vsn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vsn", "latest": {"3.62.0--r41hc0cfd56_2": "sha256:1b3f69b340b2b1b24aee329204bfadf740f27a70ebfb3777808136b9e4fb2adb"}, "tags": {"3.62.0--r41hc0cfd56_2": "sha256:1b3f69b340b2b1b24aee329204bfadf740f27a70ebfb3777808136b9e4fb2adb"}, "docker": "quay.io/biocontainers/bioconductor-vsn"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vsn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vsn", "latest": {"3.66.0--r42hc0cfd56_0": "sha256:a4b32f949c74c4bdd85e9f7ac43e9abde1114ce474173437ea15232dcd1ef50c"}, "tags": {"3.62.0--r41hc0cfd56_2": "sha256:1b3f69b340b2b1b24aee329204bfadf740f27a70ebfb3777808136b9e4fb2adb", "3.66.0--r42hc0cfd56_0": "sha256:a4b32f949c74c4bdd85e9f7ac43e9abde1114ce474173437ea15232dcd1ef50c"}, "docker": "quay.io/biocontainers/bioconductor-vsn"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vsn.

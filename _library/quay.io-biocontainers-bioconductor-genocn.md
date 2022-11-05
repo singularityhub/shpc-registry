@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genocn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genocn/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genocn/container.yaml"
-updated_at: "2022-11-04 00:50:51.326883"
-latest: "1.46.0--r41hc0cfd56_2"
+updated_at: "2022-11-05 00:52:51.181660"
+latest: "1.50.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genocn"
 
 versions:
  - "1.46.0--r41hc0cfd56_2"
+ - "1.50.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genocn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genocn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genocn", "latest": {"1.46.0--r41hc0cfd56_2": "sha256:a11862dbf154c749fa48d814c27b8cb8150a2794771494e3bf00b5b56f4913c0"}, "tags": {"1.46.0--r41hc0cfd56_2": "sha256:a11862dbf154c749fa48d814c27b8cb8150a2794771494e3bf00b5b56f4913c0"}, "docker": "quay.io/biocontainers/bioconductor-genocn"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genocn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genocn", "latest": {"1.50.0--r42hc0cfd56_0": "sha256:9e2901eba9664227f2cadeaeeed41603bcee15adf8ba7849602f664bc7edff33"}, "tags": {"1.46.0--r41hc0cfd56_2": "sha256:a11862dbf154c749fa48d814c27b8cb8150a2794771494e3bf00b5b56f4913c0", "1.50.0--r42hc0cfd56_0": "sha256:9e2901eba9664227f2cadeaeeed41603bcee15adf8ba7849602f664bc7edff33"}, "docker": "quay.io/biocontainers/bioconductor-genocn"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genocn.

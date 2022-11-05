@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-m3c"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-m3c/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-m3c/container.yaml"
-updated_at: "2022-11-03 23:50:06.767887"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-05 00:05:05.812896"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-m3c"
 aliases:
  - "f2py3.7"
@@ -20,8 +20,13 @@ aliases:
  - "gio-launch-desktop"
 versions:
  - "1.8.0--r36_0"
+ - "1.20.0--r42hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-m3c"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-m3c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3c", "latest": {"1.8.0--r36_0": "sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f"}, "tags": {"1.8.0--r36_0": "sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f"}, "docker": "quay.io/biocontainers/bioconductor-m3c", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-m3c", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-m3c", "latest": {"1.20.0--r42hdfd78af_0": "sha256:289d2ed48d9c44ec03da11d9aa62181c1eaeedeff666b79ab20281b3bdfa78b8"}, "tags": {"1.8.0--r36_0": "sha256:1828a7bed62203129a2db1ce03d8f05bb561f49f278b3df71a7883729db7059f", "1.20.0--r42hdfd78af_0": "sha256:289d2ed48d9c44ec03da11d9aa62181c1eaeedeff666b79ab20281b3bdfa78b8", "1.16.0--r41hdfd78af_0": "sha256:a747c8470c5442520d0bd7f26e542b0e3775a5a80d186acc677c66886910831c", "1.14.0--r41hdfd78af_0": "sha256:247855dfc592b126f6b1433e3bc4d204fbab4a616c050382f02ad1e7bff6d8d0", "1.12.0--r40hdfd78af_1": "sha256:0e23571cab81f2a7c37414061ce33dd3c7957847cfbd806cf16daa23603487f7", "1.10.0--r40_0": "sha256:7b2147f51a35d5fa17abfcfa1335892450f6e57e2ee4306b913576896e8b986c"}, "docker": "quay.io/biocontainers/bioconductor-m3c", "aliases": {"f2py3.7": "/usr/local/bin/f2py3.7", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config", "python3.7m": "/usr/local/bin/python3.7m", "python3.7m-config": "/usr/local/bin/python3.7m-config", "pyvenv-3.7": "/usr/local/bin/pyvenv-3.7", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-m3c.

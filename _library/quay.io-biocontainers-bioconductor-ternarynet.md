@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-ternarynet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ternarynet/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ternarynet/container.yaml"
-updated_at: "2022-11-03 23:47:54.274519"
-latest: "1.38.0--r41hc247a5b_2"
+updated_at: "2022-11-05 00:03:21.069439"
+latest: "1.42.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ternarynet"
 aliases:
  - "glpsol"
 versions:
  - "1.38.0--r41hc247a5b_2"
+ - "1.42.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ternarynet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ternarynet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ternarynet", "latest": {"1.38.0--r41hc247a5b_2": "sha256:82aa58b7ad43d4b0d06d5dc27959539eba46f464817bfbb974361a0d658a5721"}, "tags": {"1.38.0--r41hc247a5b_2": "sha256:82aa58b7ad43d4b0d06d5dc27959539eba46f464817bfbb974361a0d658a5721"}, "docker": "quay.io/biocontainers/bioconductor-ternarynet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ternarynet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ternarynet", "latest": {"1.42.0--r42hc247a5b_0": "sha256:178fa0cc8bc671cbe69da341956ef098eba0469b09970d3d4800f5b979d11d61"}, "tags": {"1.38.0--r41hc247a5b_2": "sha256:82aa58b7ad43d4b0d06d5dc27959539eba46f464817bfbb974361a0d658a5721", "1.42.0--r42hc247a5b_0": "sha256:178fa0cc8bc671cbe69da341956ef098eba0469b09970d3d4800f5b979d11d61"}, "docker": "quay.io/biocontainers/bioconductor-ternarynet", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ternarynet.

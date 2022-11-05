@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hgu95dprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgu95dprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu95dprobe/container.yaml"
-updated_at: "2022-11-04 00:22:07.571699"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-05 00:30:08.210207"
+latest: "2.18.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgu95dprobe"
 aliases:
  - ".bioconductor-hgu95dprobe-post-link.sh"
  - ".bioconductor-hgu95dprobe-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hgu95dprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hgu95dprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgu95dprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:7e8762028c0a8ee1945a16c59db526b50dce534d65e99b4bf80709224e2ee4a9"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:7e8762028c0a8ee1945a16c59db526b50dce534d65e99b4bf80709224e2ee4a9"}, "docker": "quay.io/biocontainers/bioconductor-hgu95dprobe", "aliases": {".bioconductor-hgu95dprobe-post-link.sh": "/usr/local/bin/.bioconductor-hgu95dprobe-post-link.sh", ".bioconductor-hgu95dprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu95dprobe-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hgu95dprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgu95dprobe", "latest": {"2.18.0--r41hdfd78af_10": "sha256:0703fd11cc57c7ca5ed4b1724d67bd16591073c0f3de820f79df0b6693a2aa65"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:7e8762028c0a8ee1945a16c59db526b50dce534d65e99b4bf80709224e2ee4a9", "2.18.0--r41hdfd78af_10": "sha256:0703fd11cc57c7ca5ed4b1724d67bd16591073c0f3de820f79df0b6693a2aa65"}, "docker": "quay.io/biocontainers/bioconductor-hgu95dprobe", "aliases": {".bioconductor-hgu95dprobe-post-link.sh": "/usr/local/bin/.bioconductor-hgu95dprobe-post-link.sh", ".bioconductor-hgu95dprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgu95dprobe-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hgu95dprobe.

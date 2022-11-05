@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hapmap100kxba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapmap100kxba/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapmap100kxba/container.yaml"
-updated_at: "2022-11-04 00:17:56.161789"
-latest: "1.36.0--r41hdfd78af_1"
+updated_at: "2022-11-05 00:26:52.279048"
+latest: "1.39.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapmap100kxba"
 aliases:
  - ".bioconductor-hapmap100kxba-post-link.sh"
  - ".bioconductor-hapmap100kxba-pre-unlink.sh"
 versions:
  - "1.36.0--r41hdfd78af_1"
+ - "1.39.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hapmap100kxba"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmap100kxba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmap100kxba", "latest": {"1.36.0--r41hdfd78af_1": "sha256:f249d4f5ca34ac695b6ed16173e5ada0af72ec3833c77b5c45ede298bc4b1a3a"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:f249d4f5ca34ac695b6ed16173e5ada0af72ec3833c77b5c45ede298bc4b1a3a"}, "docker": "quay.io/biocontainers/bioconductor-hapmap100kxba", "aliases": {".bioconductor-hapmap100kxba-post-link.sh": "/usr/local/bin/.bioconductor-hapmap100kxba-post-link.sh", ".bioconductor-hapmap100kxba-pre-unlink.sh": "/usr/local/bin/.bioconductor-hapmap100kxba-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmap100kxba", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmap100kxba", "latest": {"1.39.0--r42hdfd78af_0": "sha256:7aaf59d0d0efa8796f1de2bcd6a0a1f9f946d7082c5229a7e31df175c52c5699"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:f249d4f5ca34ac695b6ed16173e5ada0af72ec3833c77b5c45ede298bc4b1a3a", "1.39.0--r42hdfd78af_0": "sha256:7aaf59d0d0efa8796f1de2bcd6a0a1f9f946d7082c5229a7e31df175c52c5699"}, "docker": "quay.io/biocontainers/bioconductor-hapmap100kxba", "aliases": {".bioconductor-hapmap100kxba-post-link.sh": "/usr/local/bin/.bioconductor-hapmap100kxba-post-link.sh", ".bioconductor-hapmap100kxba-pre-unlink.sh": "/usr/local/bin/.bioconductor-hapmap100kxba-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hapmap100kxba.

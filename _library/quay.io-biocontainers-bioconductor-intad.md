@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-intad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-intad/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-intad/container.yaml"
-updated_at: "2022-11-03 23:59:01.177938"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-05 00:12:08.897849"
+latest: "1.14.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-intad"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-intad"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-intad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-intad", "latest": {"1.8.0--r40_0": "sha256:fd026f85fea120fe1d0309251543d30d2c2d2aa5a36f3be2ecb7499898f37cd9"}, "tags": {"1.8.0--r40_0": "sha256:fd026f85fea120fe1d0309251543d30d2c2d2aa5a36f3be2ecb7499898f37cd9"}, "docker": "quay.io/biocontainers/bioconductor-intad", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-intad", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-intad", "latest": {"1.14.0--r41hdfd78af_0": "sha256:0b5ea64a034b5342ec1c5e21b483637c6e593aca96772113dc1ca8f47d30fee7"}, "tags": {"1.8.0--r40_0": "sha256:fd026f85fea120fe1d0309251543d30d2c2d2aa5a36f3be2ecb7499898f37cd9", "1.14.0--r41hdfd78af_0": "sha256:0b5ea64a034b5342ec1c5e21b483637c6e593aca96772113dc1ca8f47d30fee7", "1.12.0--r41hdfd78af_0": "sha256:677f96d6127a55add9d7d52ddf11ce732e54f5c11f027b3fd5368a202e7202fd", "1.10.0--r40hdfd78af_1": "sha256:b8e7bc3597659778b15db0086676c25fe7ac2ad60f3d8879e6725295db2e7dc0"}, "docker": "quay.io/biocontainers/bioconductor-intad", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-intad.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-human660quadv1acrlmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-human660quadv1acrlmm/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-human660quadv1acrlmm/container.yaml"
-updated_at: "2022-11-04 00:19:07.384163"
-latest: "1.0.3--r41hdfd78af_9"
+updated_at: "2022-11-05 00:27:47.958326"
+latest: "1.0.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-human660quadv1acrlmm"
 aliases:
  - ".bioconductor-human660quadv1acrlmm-post-link.sh"
  - ".bioconductor-human660quadv1acrlmm-pre-unlink.sh"
 versions:
  - "1.0.3--r41hdfd78af_9"
+ - "1.0.3--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-human660quadv1acrlmm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-human660quadv1acrlmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-human660quadv1acrlmm", "latest": {"1.0.3--r41hdfd78af_9": "sha256:235c3baf6ac80d9434800137b51d94d29762dfd91c5b110a4c1ef40a5a77a892"}, "tags": {"1.0.3--r41hdfd78af_9": "sha256:235c3baf6ac80d9434800137b51d94d29762dfd91c5b110a4c1ef40a5a77a892"}, "docker": "quay.io/biocontainers/bioconductor-human660quadv1acrlmm", "aliases": {".bioconductor-human660quadv1acrlmm-post-link.sh": "/usr/local/bin/.bioconductor-human660quadv1acrlmm-post-link.sh", ".bioconductor-human660quadv1acrlmm-pre-unlink.sh": "/usr/local/bin/.bioconductor-human660quadv1acrlmm-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-human660quadv1acrlmm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-human660quadv1acrlmm", "latest": {"1.0.3--r42hdfd78af_10": "sha256:7bdb3b87f6364100a392394580e0b80c4ab78313ca881ff69a8e9d9db4325d8c"}, "tags": {"1.0.3--r41hdfd78af_9": "sha256:235c3baf6ac80d9434800137b51d94d29762dfd91c5b110a4c1ef40a5a77a892", "1.0.3--r42hdfd78af_10": "sha256:7bdb3b87f6364100a392394580e0b80c4ab78313ca881ff69a8e9d9db4325d8c"}, "docker": "quay.io/biocontainers/bioconductor-human660quadv1acrlmm", "aliases": {".bioconductor-human660quadv1acrlmm-post-link.sh": "/usr/local/bin/.bioconductor-human660quadv1acrlmm-post-link.sh", ".bioconductor-human660quadv1acrlmm-pre-unlink.sh": "/usr/local/bin/.bioconductor-human660quadv1acrlmm-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-human660quadv1acrlmm.

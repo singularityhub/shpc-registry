@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tiledbarray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tiledbarray/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tiledbarray/container.yaml"
-updated_at: "2022-11-03 23:45:46.603677"
-latest: "1.4.0--r41hc247a5b_2"
+updated_at: "2022-11-05 00:01:41.044520"
+latest: "1.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tiledbarray"
 
 versions:
  - "1.4.0--r41hc247a5b_2"
+ - "1.8.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tiledbarray"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tiledbarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tiledbarray", "latest": {"1.4.0--r41hc247a5b_2": "sha256:5a7cbb1f90694692d64a10f12cf77762a619dbdda3b385c5ad91d9e3c2aed411"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:5a7cbb1f90694692d64a10f12cf77762a619dbdda3b385c5ad91d9e3c2aed411"}, "docker": "quay.io/biocontainers/bioconductor-tiledbarray"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tiledbarray", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tiledbarray", "latest": {"1.8.0--r42hc247a5b_0": "sha256:141df3ec85aafeefb4d5424a55eb1b357f0774da9825d393eb41d9adf0fb84ce"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:5a7cbb1f90694692d64a10f12cf77762a619dbdda3b385c5ad91d9e3c2aed411", "1.8.0--r42hc247a5b_0": "sha256:141df3ec85aafeefb4d5424a55eb1b357f0774da9825d393eb41d9adf0fb84ce"}, "docker": "quay.io/biocontainers/bioconductor-tiledbarray"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tiledbarray.

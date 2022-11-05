@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-seventygenedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seventygenedata/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seventygenedata/container.yaml"
-updated_at: "2022-11-04 00:21:26.772243"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-05 00:29:35.699329"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seventygenedata"
 aliases:
  - ".bioconductor-seventygenedata-post-link.sh"
  - ".bioconductor-seventygenedata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-seventygenedata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seventygenedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seventygenedata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937"}, "docker": "quay.io/biocontainers/bioconductor-seventygenedata", "aliases": {".bioconductor-seventygenedata-post-link.sh": "/usr/local/bin/.bioconductor-seventygenedata-post-link.sh", ".bioconductor-seventygenedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-seventygenedata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seventygenedata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seventygenedata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:49a6847bdd86167d38ead67482a9e967c8c1f374a278f4eb07cf2970fc764937", "1.33.0--r42hdfd78af_0": "sha256:88748751e9506ae1e84c2b41cabb366574e73fce9f296f340225848a6f779f30"}, "docker": "quay.io/biocontainers/bioconductor-seventygenedata", "aliases": {".bioconductor-seventygenedata-post-link.sh": "/usr/local/bin/.bioconductor-seventygenedata-post-link.sh", ".bioconductor-seventygenedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-seventygenedata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seventygenedata.

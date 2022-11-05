@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-cp4p"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cp4p/container.yaml"
 config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-cp4p/container.yaml"
-updated_at: "2022-11-04 00:10:07.955479"
-latest: "0.3.6--r41h3342da4_4"
+updated_at: "2022-11-05 00:20:45.989952"
+latest: "0.3.6--r42h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-cp4p"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.3.6--r41h3342da4_4"
+ - "0.3.6--r42h3342da4_5"
 description: "shpc-registry automated BioContainers addition for r-cp4p"
-config: {"url": "https://biocontainers.pro/tools/r-cp4p", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cp4p", "latest": {"0.3.6--r41h3342da4_4": "sha256:7c93e540b020cd74e4a4d67f2aeae19933137a75252381c305fa122a6f3e4bd0"}, "tags": {"0.3.6--r41h3342da4_4": "sha256:7c93e540b020cd74e4a4d67f2aeae19933137a75252381c305fa122a6f3e4bd0"}, "docker": "quay.io/biocontainers/r-cp4p", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-cp4p", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cp4p", "latest": {"0.3.6--r42h3342da4_5": "sha256:18d25b3f9333aaa04e9b42b4a53eb5d9dada6f7b89d222a4756cd83384b58a12"}, "tags": {"0.3.6--r41h3342da4_4": "sha256:7c93e540b020cd74e4a4d67f2aeae19933137a75252381c305fa122a6f3e4bd0", "0.3.6--r42h3342da4_5": "sha256:18d25b3f9333aaa04e9b42b4a53eb5d9dada6f7b89d222a4756cd83384b58a12"}, "docker": "quay.io/biocontainers/r-cp4p", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cp4p.
