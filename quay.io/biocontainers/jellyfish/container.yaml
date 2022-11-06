@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/jellyfish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for jellyfish
 latest:
-  2.2.6--0: sha256:2fa06e6c6afe001df9a96b14617c5faa4e43e3d6c5df094b21be3052c7496f2d
+  2.2.10--h6bb024c_1: sha256:2f55a16d4c96f366f9287e1d4fe6d10ae63974afee1e2e0627b90dab651c35f4
 tags:
   2.2.6--0: sha256:2fa06e6c6afe001df9a96b14617c5faa4e43e3d6c5df094b21be3052c7496f2d
+  2.2.10--h6bb024c_1: sha256:2f55a16d4c96f366f9287e1d4fe6d10ae63974afee1e2e0627b90dab651c35f4
 docker: quay.io/biocontainers/jellyfish
 aliases:
   jellyfish: /usr/local/bin/jellyfish

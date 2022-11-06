@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-protgenerics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-protgenerics
 latest:
-  1.8.0--r3.4.1_0: sha256:28f0dd18fdb0526851afb31b5e4db6ff686c921bd4ebf3c172e892c7010de8e4
+  1.30.0--r42hdfd78af_0: sha256:f282c900756f5bd0a246dc8a25ee86970b46356e93c30450c7cbac724e4eb6ce
 tags:
   1.8.0--r3.4.1_0: sha256:28f0dd18fdb0526851afb31b5e4db6ff686c921bd4ebf3c172e892c7010de8e4
+  1.30.0--r42hdfd78af_0: sha256:f282c900756f5bd0a246dc8a25ee86970b46356e93c30450c7cbac724e4eb6ce
+  1.26.0--r41hdfd78af_0: sha256:7eb96d7afba23d123e5b8896b7d0362858940c3956285b34fe60297ff11c307a
+  1.24.0--r41hdfd78af_0: sha256:44b4b6661cb75ab392a2a97ef130baf4d2eeae7744546ed8819a99d7a07d2556
+  1.22.0--r40hdfd78af_1: sha256:65b8cabe5dd0a0fdfde4a6b6fa4f038a8f62a8b02bcad60eda27bf3ae7f82ee1
+  1.20.0--r40_0: sha256:bc94a1adc8f46c1aa4bd145c08a60bfc0dca7800f167d08bc68ec7e800c1ac8a
 docker: quay.io/biocontainers/bioconductor-protgenerics
 aliases:
   tclsh8.5: /usr/local/bin/tclsh8.5

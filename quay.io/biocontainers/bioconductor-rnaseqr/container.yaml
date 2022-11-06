@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-rnaseqr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnaseqr
 latest:
-  1.8.0--r40hdfd78af_1: sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58
+  1.12.0--r41hdfd78af_0: sha256:61e588fc498a77499ea07afe6e5b1c4c43baa747566ece3362be8423b157b1a7
 tags:
   1.8.0--r40hdfd78af_1: sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58
+  1.12.0--r41hdfd78af_0: sha256:61e588fc498a77499ea07afe6e5b1c4c43baa747566ece3362be8423b157b1a7
+  1.10.0--r41hdfd78af_0: sha256:54e6881eb33379f5962560ad398f3662ca16001468791950e1cd2c2b4727e4ba
 docker: quay.io/biocontainers/bioconductor-rnaseqr
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

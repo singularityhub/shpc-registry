@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-erccdashboard
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-erccdashboard
 latest:
-  1.28.0--r41hdfd78af_0: sha256:f902a7038ea220e297ee7cd906833d7dd8bf184191491292bb7bc04a910ac91b
+  1.32.0--r42hdfd78af_0: sha256:01d78ab87b9d4947190d652fe0292569a4c11357909783af37299df6543cb2b9
 tags:
   1.28.0--r41hdfd78af_0: sha256:f902a7038ea220e297ee7cd906833d7dd8bf184191491292bb7bc04a910ac91b
+  1.32.0--r42hdfd78af_0: sha256:01d78ab87b9d4947190d652fe0292569a4c11357909783af37299df6543cb2b9
 docker: quay.io/biocontainers/bioconductor-erccdashboard

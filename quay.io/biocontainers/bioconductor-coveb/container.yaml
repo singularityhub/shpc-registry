@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-coveb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-coveb
 latest:
-  1.8.1--r351_0: sha256:168a6597c962489d42d5daddef58a24b7621eaf200087f7cd28ad492a21fe1ac
+  1.24.0--r42hdfd78af_0: sha256:e609a80f7bd9588c484da9766cbb0c492012de05616059533fda818b3a1f3d69
 tags:
   1.8.1--r351_0: sha256:168a6597c962489d42d5daddef58a24b7621eaf200087f7cd28ad492a21fe1ac
+  1.24.0--r42hdfd78af_0: sha256:e609a80f7bd9588c484da9766cbb0c492012de05616059533fda818b3a1f3d69
+  1.20.0--r41hdfd78af_0: sha256:11046a4e221b55515bf1d7fd539b5d6c868c4a873bb3d11bc122faa1f726f2df
+  1.18.0--r41hdfd78af_0: sha256:e32a47bbda2a2841030846ada74fc10ae56a9e0fad34d741b89d2f34afd6f0f6
+  1.16.0--r40hdfd78af_1: sha256:88e7ad6fd22207bf0bf9a41f1df685256b016e7d4e98e654fd54ff4b3564932e
+  1.14.0--r40_0: sha256:adc1dc61cc822a28ef6cfaf2eb2bf4b749e559ee51f5cb3a68ac5d793b7252c7
 docker: quay.io/biocontainers/bioconductor-coveb
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

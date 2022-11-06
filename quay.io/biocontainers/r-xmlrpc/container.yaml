@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-xmlrpc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-xmlrpc
 latest:
-  0.2_4--r41h9ee0642_5: sha256:188f1c730cfccd39953522ea81c197695839a63d4b884d79b438647a213ba4ca
+  0.2_4--r42h9ee0642_6: sha256:0a7a24ef9dd26c28cb6dcd7435ad5d0b16e7e52ef74526065a151f155cc00342
 tags:
   0.2_4--r41h9ee0642_5: sha256:188f1c730cfccd39953522ea81c197695839a63d4b884d79b438647a213ba4ca
+  0.2_4--r42h9ee0642_6: sha256:0a7a24ef9dd26c28cb6dcd7435ad5d0b16e7e52ef74526065a151f155cc00342
 docker: quay.io/biocontainers/r-xmlrpc
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-netpathminer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-netpathminer
 latest:
-  1.30.0--r41hbe66c35_2: sha256:d73e49d4f03dfebb1c0e2055e481fe5b1688ec8dc271c0927a62f48d79bf3c15
+  1.34.0--r42hbe66c35_0: sha256:ecd18613e5bec2db71f5c7c6da5b8a10c5eecf3cf38c5f66038f4022a25d84e6
 tags:
   1.30.0--r41hbe66c35_2: sha256:d73e49d4f03dfebb1c0e2055e481fe5b1688ec8dc271c0927a62f48d79bf3c15
+  1.34.0--r42hbe66c35_0: sha256:ecd18613e5bec2db71f5c7c6da5b8a10c5eecf3cf38c5f66038f4022a25d84e6
 docker: quay.io/biocontainers/bioconductor-netpathminer
 aliases:
   glpsol: /usr/local/bin/glpsol

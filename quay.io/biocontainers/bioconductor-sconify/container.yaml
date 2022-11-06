@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-sconify
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sconify
 latest:
-  1.8.0--r40_0: sha256:e4d0ff8d52df9f1a72334e484888c4ba4e72af81f2839236545e1b25e4f404a3
+  1.18.0--r42hdfd78af_0: sha256:9d76880aaafb3a0b59bc0640cbb713fa413ea6a21b6b3a658efc3efce1455de5
 tags:
   1.8.0--r40_0: sha256:e4d0ff8d52df9f1a72334e484888c4ba4e72af81f2839236545e1b25e4f404a3
+  1.18.0--r42hdfd78af_0: sha256:9d76880aaafb3a0b59bc0640cbb713fa413ea6a21b6b3a658efc3efce1455de5
+  1.14.0--r41hdfd78af_0: sha256:7c8f15ddd98850edb5f9c1655a24dac97f86c1fae33f98bf6260833816aa786c
+  1.12.0--r41hdfd78af_0: sha256:58c7a791a4a9d86bcd5913fbef4cc58f6a06325fa1814f68e7af43e25511835d
+  1.10.0--r40hdfd78af_1: sha256:2578c846f0f97937d4dbfbcf09816d6cf5b9cb9514f44816aa36b312a6d97977
 docker: quay.io/biocontainers/bioconductor-sconify
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

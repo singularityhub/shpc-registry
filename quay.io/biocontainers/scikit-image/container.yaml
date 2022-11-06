@@ -5,6 +5,7 @@ latest:
   0.14.0--py36hfc679d8_1: sha256:bff85e573f89e13c82a362d2dfcbea165567e2460cb425c2fa40ff78ac8c0875
 tags:
   0.14.0--py36hfc679d8_1: sha256:bff85e573f89e13c82a362d2dfcbea165567e2460cb425c2fa40ff78ac8c0875
+  0.14.0: sha256:5c4ddcce2406cc3ad6d5d7271ab75ac24ec50cc573ec49f040567cdb94a5f786
 docker: quay.io/biocontainers/scikit-image
 aliases:
   imageio_download_bin: /usr/local/bin/imageio_download_bin
