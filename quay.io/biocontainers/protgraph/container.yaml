@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/protgraph
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for protgraph
 latest:
-  0.3.4--pyhdfd78af_0: sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d
+  0.3.8--pyhdfd78af_0: sha256:0854c9a39a18474bb568abe9c4625c90f5a0490cf5c5e4300c3854d4774bf3c8
 tags:
   0.3.4--pyhdfd78af_0: sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d
+  0.3.8--pyhdfd78af_0: sha256:0854c9a39a18474bb568abe9c4625c90f5a0490cf5c5e4300c3854d4774bf3c8
 docker: quay.io/biocontainers/protgraph
 aliases:
   geomet: /usr/local/bin/geomet

@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-discordant
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-discordant
 latest:
-  1.8.0--r36h516909a_1: sha256:858d2dacc35d4146066f13d871a6c3a06af47c844d06be0fd268c8dfff287cc3
+  1.22.0--r42hc247a5b_0: sha256:cb1f5726b49430ef8b847643f091f0f2bd5d01e8e88f803d92d0e8e49df9e06a
 tags:
   1.8.0--r36h516909a_1: sha256:858d2dacc35d4146066f13d871a6c3a06af47c844d06be0fd268c8dfff287cc3
+  1.22.0--r42hc247a5b_0: sha256:cb1f5726b49430ef8b847643f091f0f2bd5d01e8e88f803d92d0e8e49df9e06a
+  1.18.0--r41hc0cfd56_2: sha256:6405ea7cccad492e2d1ab380147b897f7929d3a878015c87de8c99379849b67c
+  1.16.0--r41hd029910_0: sha256:2c3cf0ddd5ca642db0e6b1901fd4003144a9504571e2ea9d1fe46765ddb0750c
+  1.14.0--r40hd029910_1: sha256:d7b9ef3fad53a4a89f38b7597895ca937798d1a3c7fd93dfaa3d5e6f6205dd22
+  1.12.0--r40h037d062_0: sha256:c56617eca802ccc279cc08c317d5e8f25065921b82c23953a7aca00b082c23ba
 docker: quay.io/biocontainers/bioconductor-discordant
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

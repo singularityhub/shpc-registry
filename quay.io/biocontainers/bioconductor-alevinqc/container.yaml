@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-alevinqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-alevinqc
 latest:
-  1.8.0--r41hdfd78af_0: sha256:f2b65a2313e0842a429c2380314b17275fb11d282bd11d895a86d8331b0d0e5c
+  1.14.0--r42hc247a5b_0: sha256:71e7e7d00b492ad8912cfa9e6a1f641b007f88220318e56651a4a43ad7bc3656
 tags:
   1.8.0--r41hdfd78af_0: sha256:f2b65a2313e0842a429c2380314b17275fb11d282bd11d895a86d8331b0d0e5c
+  1.14.0--r42hc247a5b_0: sha256:71e7e7d00b492ad8912cfa9e6a1f641b007f88220318e56651a4a43ad7bc3656
+  1.12.1--r41h9f5acd7_0: sha256:d8ff55d336d1c45cb5d06037b8c094eced2375e54bf6ca9d72bbc725c403731d
+  1.10.0--r41hdfd78af_0: sha256:5b2bab5fcd35a9ba373412ee1805ad83e56c117f8f1057b890ad53933cf48182
 docker: quay.io/biocontainers/bioconductor-alevinqc
 aliases:
   pandoc: /usr/local/bin/pandoc

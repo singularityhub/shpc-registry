@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-grndata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-grndata
 latest:
-  1.26.0--r41hdfd78af_1: sha256:1a0c8ad51000e9e40a154f706b2f1e8dbea1150a168361af08bce45c73886759
+  1.29.0--r42hdfd78af_0: sha256:c7074fa46e4e6176ef739b1ddf3a7bef52b91d060fe3313136964dd254c93bb0
 tags:
   1.26.0--r41hdfd78af_1: sha256:1a0c8ad51000e9e40a154f706b2f1e8dbea1150a168361af08bce45c73886759
+  1.29.0--r42hdfd78af_0: sha256:c7074fa46e4e6176ef739b1ddf3a7bef52b91d060fe3313136964dd254c93bb0
 docker: quay.io/biocontainers/bioconductor-grndata
 aliases:
   .bioconductor-grndata-post-link.sh: /usr/local/bin/.bioconductor-grndata-post-link.sh

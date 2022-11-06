@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-lisaclust
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lisaclust
 latest:
-  1.2.0--r41hdfd78af_0: sha256:7c47a796f7c3e36d7207cf87f87cdb180f87e8e22d9bc7ef4fb62644b37dca52
+  1.6.0--r42hdfd78af_0: sha256:b3bae946c7d27134c533527f2e4a89bb0522f90fccb2ceb94316ca283aa57dac
 tags:
   1.2.0--r41hdfd78af_0: sha256:7c47a796f7c3e36d7207cf87f87cdb180f87e8e22d9bc7ef4fb62644b37dca52
+  1.6.0--r42hdfd78af_0: sha256:b3bae946c7d27134c533527f2e4a89bb0522f90fccb2ceb94316ca283aa57dac
 docker: quay.io/biocontainers/bioconductor-lisaclust
 aliases:
   testepsg: /usr/local/bin/testepsg

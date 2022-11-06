@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-chipenrich.data
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-chipenrich.data
 latest:
-  2.8.0--r36_1: sha256:6178e60ed4d52731cf252cd73220232f85b4ee2451d28b48ef4c800a3a6c5d1b
+  2.18.0--r41hdfd78af_1: sha256:63a702815d8591eea49ae38b5e1c999ba8376a3b5eecae6c5c3c8835e87fe5a8
 tags:
   2.8.0--r36_1: sha256:6178e60ed4d52731cf252cd73220232f85b4ee2451d28b48ef4c800a3a6c5d1b
+  2.18.0--r41hdfd78af_1: sha256:63a702815d8591eea49ae38b5e1c999ba8376a3b5eecae6c5c3c8835e87fe5a8
+  2.16.0--r41hdfd78af_0: sha256:4e062cd7e72c3b84ce3afc9bd18f693888befb3d2d418108834b9bd386f06c4e
+  2.14.0--r40hdfd78af_1: sha256:c3c91b02bd9b64ef729f2c3c953a82cf74333def2764dc432f625a7db2222ec8
+  2.12.0--r40_0: sha256:458bd33f577c1f078494c76b9fcc5a9791d412cbf653cef0a0e11fc844632cc1
+  2.10.0--r36_0: sha256:b2241cb479d7da843c1ce8388450a4bf1b06cb3280bfaf6dd109fb58b0ea43b0
 docker: quay.io/biocontainers/bioconductor-chipenrich.data
 aliases:
   .bioconductor-chipenrich.data-post-link.sh: /usr/local/bin/.bioconductor-chipenrich.data-post-link.sh

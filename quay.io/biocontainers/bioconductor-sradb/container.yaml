@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sradb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sradb
 latest:
-  1.56.0--r41hdfd78af_0: sha256:96a13344d1468817f1fa13295ac580512db44f4e6bd328684b157ced932f340e
+  1.60.0--r42hdfd78af_0: sha256:c4f9126b70c801baf1436e2fb78503d612c26d0a2e76fd608d685fb72fc75469
 tags:
   1.56.0--r41hdfd78af_0: sha256:96a13344d1468817f1fa13295ac580512db44f4e6bd328684b157ced932f340e
+  1.60.0--r42hdfd78af_0: sha256:c4f9126b70c801baf1436e2fb78503d612c26d0a2e76fd608d685fb72fc75469
 docker: quay.io/biocontainers/bioconductor-sradb
