@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-limmagui
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-limmagui
 latest:
-  1.70.0--r41hdfd78af_0: sha256:01e3e6e68fb10608fbc57cce89e9e978ae36d50715f764f5626409a9ef276a31
+  1.74.0--r42hdfd78af_0: sha256:93a9d1548ee7ffa78ab483a45962a85c471021cb69e8175c2c674abee25ff9d8
 tags:
   1.70.0--r41hdfd78af_0: sha256:01e3e6e68fb10608fbc57cce89e9e978ae36d50715f764f5626409a9ef276a31
+  1.74.0--r42hdfd78af_0: sha256:93a9d1548ee7ffa78ab483a45962a85c471021cb69e8175c2c674abee25ff9d8
 docker: quay.io/biocontainers/bioconductor-limmagui

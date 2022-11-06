@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/viennarna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for viennarna
 latest:
-  2.4.9--py27hd28b015_0: sha256:475a89fc6b56fb8afb5585339074b949e82d5a6e6aa3d3d2eb07b7f2a2a6ffb1
+  2.4.11--py36hdbcaa40_2: sha256:8bee96fc934d0174072dddd0181285ce7856888e10051870a8a996637e376dc2
 tags:
   2.4.9--py27hd28b015_0: sha256:475a89fc6b56fb8afb5585339074b949e82d5a6e6aa3d3d2eb07b7f2a2a6ffb1
+  2.4.11--py36hdbcaa40_2: sha256:8bee96fc934d0174072dddd0181285ce7856888e10051870a8a996637e376dc2
 docker: quay.io/biocontainers/viennarna
 aliases:
   AnalyseDists: /usr/local/bin/AnalyseDists

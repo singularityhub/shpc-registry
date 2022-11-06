@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gosummaries
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gosummaries
 latest:
-  2.30.0--r41hc247a5b_2: sha256:005138f73ce407b7736b9d7963e863a7e5d169133ce2806bc8f40d1598fbe85b
+  2.34.0--r42hc247a5b_0: sha256:4a72988a628d61e390e1af42a0a1f2b08601ff1da1bb2306957198486c23c275
 tags:
   2.30.0--r41hc247a5b_2: sha256:005138f73ce407b7736b9d7963e863a7e5d169133ce2806bc8f40d1598fbe85b
+  2.34.0--r42hc247a5b_0: sha256:4a72988a628d61e390e1af42a0a1f2b08601ff1da1bb2306957198486c23c275
 docker: quay.io/biocontainers/bioconductor-gosummaries

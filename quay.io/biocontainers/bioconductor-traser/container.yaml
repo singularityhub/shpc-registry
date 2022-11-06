@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-traser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-traser
 latest:
-  1.8.0--r3.4.1_0: sha256:ef34ce7232f1b369501761674307c246e138205bff7afa7c5321c499e25c5dba
+  1.24.0--r41hdfd78af_0: sha256:a7214d0ae44704a9abfaa3d02fa231ca98186444704affa2b83c275df633d3b4
 tags:
   1.8.0--r3.4.1_0: sha256:ef34ce7232f1b369501761674307c246e138205bff7afa7c5321c499e25c5dba
+  1.24.0--r41hdfd78af_0: sha256:a7214d0ae44704a9abfaa3d02fa231ca98186444704affa2b83c275df633d3b4
+  1.22.0--r41hdfd78af_0: sha256:612bb0000c4ee21ce6aaaa9d32bcd2c393b369b0a1ef58c21d98850052551380
+  1.20.0--r40hdfd78af_1: sha256:3c88e3e7e4313f49fcced32ad42d3941ce077dde5c542c30ea61eb5a805b8d09
+  1.18.0--r40_0: sha256:f24446943ac9218413ec3c59872f7bf0b7f17c516879d14f23dcfeb0f3e4faf9
+  1.16.0--r36_0: sha256:3b9d3d6f146db353c00e59d67f7867e20e6f9425f53f81ef86f2046d03f468cf
 docker: quay.io/biocontainers/bioconductor-traser
 aliases:
   wget: /usr/local/bin/wget

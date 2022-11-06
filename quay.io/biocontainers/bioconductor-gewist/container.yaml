@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gewist
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gewist
 latest:
-  1.38.0--r41hdfd78af_0: sha256:26376253ffa0569fd4b80d0780ef3b37412f90cd28be608527962917e81f4cfc
+  1.42.0--r42hdfd78af_0: sha256:1e6fb38531f65b1dbe3528bbebd9c9bbc9f4a71e238cc275778babc6d68c584b
 tags:
   1.38.0--r41hdfd78af_0: sha256:26376253ffa0569fd4b80d0780ef3b37412f90cd28be608527962917e81f4cfc
+  1.42.0--r42hdfd78af_0: sha256:1e6fb38531f65b1dbe3528bbebd9c9bbc9f4a71e238cc275778babc6d68c584b
 docker: quay.io/biocontainers/bioconductor-gewist

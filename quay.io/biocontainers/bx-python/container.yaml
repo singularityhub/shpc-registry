@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bx-python
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bx-python
 latest:
-  0.8.9--py27h54ae540_2: sha256:cc1f109a9aabe9943ab6df613d5aed5bdd0e6e88a72853fb7171b8de51dcda66
+  0.8.11--py36h5e0341f_0: sha256:c46b0e7f726f61b22d6cfbd8abe65bcebdd33b9ee018c42808d012e078332ad0
 tags:
   0.8.9--py27h54ae540_2: sha256:cc1f109a9aabe9943ab6df613d5aed5bdd0e6e88a72853fb7171b8de51dcda66
+  0.8.11--py36h5e0341f_0: sha256:c46b0e7f726f61b22d6cfbd8abe65bcebdd33b9ee018c42808d012e078332ad0
 docker: quay.io/biocontainers/bx-python

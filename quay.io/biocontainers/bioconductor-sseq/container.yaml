@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sseq
 latest:
-  1.32.0--r41hdfd78af_0: sha256:e21c88b6c442fb2b13928341ab80c105aa481809de69b69382783d5ce9396c69
+  1.36.0--r42hdfd78af_0: sha256:86ec576fbdff1ec003ef4f23bfb86af33a397d2ce924cf26bff4cbe0c3239005
 tags:
   1.32.0--r41hdfd78af_0: sha256:e21c88b6c442fb2b13928341ab80c105aa481809de69b69382783d5ce9396c69
+  1.36.0--r42hdfd78af_0: sha256:86ec576fbdff1ec003ef4f23bfb86af33a397d2ce924cf26bff4cbe0c3239005
 docker: quay.io/biocontainers/bioconductor-sseq
