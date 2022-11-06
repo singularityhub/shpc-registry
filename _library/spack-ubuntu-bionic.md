@@ -3,8 +3,8 @@ layout: container
 name:  "spack/ubuntu-bionic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/spack/ubuntu-bionic/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/spack/ubuntu-bionic/container.yaml"
-updated_at: "2022-11-05 00:55:34.823570"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/spack/ubuntu-bionic/container.yaml"
+updated_at: "2022-11-06 00:59:06.373805"
 latest: "v0.18.1"
 container_url: "https://hub.docker.com/r/spack/ubuntu-bionic"
 aliases:
@@ -38,7 +38,7 @@ $ shpc install spack/ubuntu-bionic
 Or a specific version:
 
 ```bash
-$ shpc install spack/ubuntu-bionic:0.16.1
+$ shpc install spack/ubuntu-bionic:v0.18.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load spack/ubuntu-bionic/0.16.1
-$ module help spack/ubuntu-bionic/0.16.1
+$ module load spack/ubuntu-bionic/v0.18.1
+$ module help spack/ubuntu-bionic/v0.18.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

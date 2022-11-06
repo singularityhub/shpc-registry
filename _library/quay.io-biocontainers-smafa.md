@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/smafa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smafa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/smafa/container.yaml"
-updated_at: "2022-11-05 00:43:31.566523"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smafa/container.yaml"
+updated_at: "2022-11-06 00:50:24.137168"
 latest: "0.5.0--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/smafa"
 aliases:

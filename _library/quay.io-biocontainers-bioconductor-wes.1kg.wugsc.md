@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-wes.1kg.wugsc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wes.1kg.wugsc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wes.1kg.wugsc/container.yaml"
-updated_at: "2022-11-05 00:48:13.362679"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wes.1kg.wugsc/container.yaml"
+updated_at: "2022-11-06 00:53:47.484736"
 latest: "1.26.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-wes.1kg.wugsc"
 aliases:

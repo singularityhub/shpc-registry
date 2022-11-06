@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/solvebio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/solvebio/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/solvebio/container.yaml"
-updated_at: "2022-11-05 00:03:53.601553"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/solvebio/container.yaml"
+updated_at: "2022-11-06 00:21:53.500584"
 latest: "2.9.0--py_0"
 container_url: "https://biocontainers.pro/tools/solvebio"
 aliases:

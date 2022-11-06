@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-datetime-format-strptime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
-updated_at: "2022-11-05 00:09:35.220794"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime-format-strptime/container.yaml"
+updated_at: "2022-11-06 00:25:59.171324"
 latest: "1.75--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-datetime-format-strptime"
 aliases:

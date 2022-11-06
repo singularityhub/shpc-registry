@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-iterclust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iterclust/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iterclust/container.yaml"
-updated_at: "2022-11-05 00:51:48.015983"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iterclust/container.yaml"
+updated_at: "2022-11-06 00:56:22.692882"
 latest: "1.8.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iterclust"
 aliases:

@@ -3,15 +3,16 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-geofastq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-geofastq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geofastq/container.yaml"
-updated_at: "2022-11-05 00:51:05.947916"
-latest: "1.2.0--r41hdfd78af_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-geofastq/container.yaml"
+updated_at: "2022-11-06 00:55:52.193338"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-geofastq"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-geofastq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-geofastq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geofastq", "latest": {"1.2.0--r41hdfd78af_0": "sha256:68c4ad38c5f9db54280ff4d8088ec57fcf75db46ae2a841304137830244434b9"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:68c4ad38c5f9db54280ff4d8088ec57fcf75db46ae2a841304137830244434b9"}, "docker": "quay.io/biocontainers/bioconductor-geofastq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-geofastq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-geofastq", "latest": {"1.6.0--r42hdfd78af_0": "sha256:7049934b64556a47a70c0be67aeb1543dfeb7808ee4d52662a2367e9e9b149d9"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:68c4ad38c5f9db54280ff4d8088ec57fcf75db46ae2a841304137830244434b9", "1.6.0--r42hdfd78af_0": "sha256:7049934b64556a47a70c0be67aeb1543dfeb7808ee4d52662a2367e9e9b149d9"}, "docker": "quay.io/biocontainers/bioconductor-geofastq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-geofastq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-geofastq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-geofastq:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-geofastq:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-geofastq/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-geofastq/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-geofastq/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-geofastq/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

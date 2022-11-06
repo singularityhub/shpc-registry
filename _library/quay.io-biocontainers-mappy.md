@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/mappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mappy/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mappy/container.yaml"
-updated_at: "2022-11-05 00:36:16.972070"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mappy/container.yaml"
+updated_at: "2022-11-06 00:45:10.816324"
 latest: "2.9--py36_1"
 container_url: "https://biocontainers.pro/tools/mappy"
 aliases:

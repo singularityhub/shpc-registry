@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-sigtree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigtree/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigtree/container.yaml"
-updated_at: "2022-11-05 00:32:20.466035"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigtree/container.yaml"
+updated_at: "2022-11-06 00:42:20.824536"
 latest: "1.10.6--r41h73dbb54_9"
 container_url: "https://biocontainers.pro/tools/r-sigtree"
 

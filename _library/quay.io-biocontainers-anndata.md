@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/anndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anndata/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/anndata/container.yaml"
-updated_at: "2022-11-05 00:47:05.820280"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anndata/container.yaml"
+updated_at: "2022-11-06 00:52:58.679780"
 latest: "0.6.22.post1--py_0"
 container_url: "https://biocontainers.pro/tools/anndata"
 aliases:
@@ -37,7 +37,7 @@ $ shpc install quay.io/biocontainers/anndata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/anndata:0.6.9--py_0
+$ shpc install quay.io/biocontainers/anndata:0.6.22.post1--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/anndata/0.6.9--py_0
-$ module help quay.io/biocontainers/anndata/0.6.9--py_0
+$ module load quay.io/biocontainers/anndata/0.6.22.post1--py_0
+$ module help quay.io/biocontainers/anndata/0.6.22.post1--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

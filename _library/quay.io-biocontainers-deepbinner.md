@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/deepbinner"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepbinner/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/deepbinner/container.yaml"
-updated_at: "2022-11-05 00:24:23.131984"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepbinner/container.yaml"
+updated_at: "2022-11-06 00:36:38.014217"
 latest: "0.2.0--pyh24bf2e0_1"
 container_url: "https://biocontainers.pro/tools/deepbinner"
 aliases:

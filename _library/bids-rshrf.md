@@ -3,8 +3,8 @@ layout: container
 name:  "bids/rshrf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/rshrf/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/rshrf/container.yaml"
-updated_at: "2022-11-05 00:55:44.092206"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/rshrf/container.yaml"
+updated_at: "2022-11-06 00:59:12.995342"
 latest: "1.5.8"
 container_url: "https://hub.docker.com/r/bids/rshrf"
 aliases:
@@ -32,7 +32,7 @@ $ shpc install bids/rshrf
 Or a specific version:
 
 ```bash
-$ shpc install bids/rshrf:latest
+$ shpc install bids/rshrf:1.5.8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/rshrf/latest
-$ module help bids/rshrf/latest
+$ module load bids/rshrf/1.5.8
+$ module help bids/rshrf/1.5.8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

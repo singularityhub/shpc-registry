@@ -3,15 +3,16 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-erccdashboard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-erccdashboard/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erccdashboard/container.yaml"
-updated_at: "2022-11-05 00:11:09.206540"
-latest: "1.28.0--r41hdfd78af_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erccdashboard/container.yaml"
+updated_at: "2022-11-06 00:27:06.684672"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-erccdashboard"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-erccdashboard"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-erccdashboard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-erccdashboard", "latest": {"1.28.0--r41hdfd78af_0": "sha256:f902a7038ea220e297ee7cd906833d7dd8bf184191491292bb7bc04a910ac91b"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:f902a7038ea220e297ee7cd906833d7dd8bf184191491292bb7bc04a910ac91b"}, "docker": "quay.io/biocontainers/bioconductor-erccdashboard"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-erccdashboard", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-erccdashboard", "latest": {"1.32.0--r42hdfd78af_0": "sha256:01d78ab87b9d4947190d652fe0292569a4c11357909783af37299df6543cb2b9"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:f902a7038ea220e297ee7cd906833d7dd8bf184191491292bb7bc04a910ac91b", "1.32.0--r42hdfd78af_0": "sha256:01d78ab87b9d4947190d652fe0292569a4c11357909783af37299df6543cb2b9"}, "docker": "quay.io/biocontainers/bioconductor-erccdashboard"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-erccdashboard.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-erccdashboard
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-erccdashboard:1.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-erccdashboard:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-erccdashboard/1.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-erccdashboard/1.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-erccdashboard/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-erccdashboard/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

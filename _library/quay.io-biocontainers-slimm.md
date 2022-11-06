@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/slimm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slimm/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/slimm/container.yaml"
-updated_at: "2022-11-05 00:48:12.966204"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slimm/container.yaml"
+updated_at: "2022-11-06 00:53:47.193989"
 latest: "0.3.4--hf1761c0_3"
 container_url: "https://biocontainers.pro/tools/slimm"
 aliases:

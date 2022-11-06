@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-excluderanges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-excluderanges/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-excluderanges/container.yaml"
-updated_at: "2022-11-05 00:23:20.734838"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-excluderanges/container.yaml"
+updated_at: "2022-11-06 00:35:53.236831"
 latest: "0.99.6--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-excluderanges"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-excluderanges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-excluderanges:0.99.6--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-excluderanges:0.99.6--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-excluderanges/0.99.6--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-excluderanges/0.99.6--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-excluderanges/0.99.6--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-excluderanges/0.99.6--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

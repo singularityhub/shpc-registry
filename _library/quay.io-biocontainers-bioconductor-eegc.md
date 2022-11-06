@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-eegc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eegc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eegc/container.yaml"
-updated_at: "2022-11-05 00:49:16.907963"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eegc/container.yaml"
+updated_at: "2022-11-06 00:54:33.479808"
 latest: "1.8.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eegc"
 aliases:

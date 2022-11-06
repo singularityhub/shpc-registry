@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-matter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-matter/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matter/container.yaml"
-updated_at: "2022-11-05 00:51:46.036663"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-matter/container.yaml"
+updated_at: "2022-11-06 00:56:21.252590"
 latest: "1.8.3--r351hf484d3e_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-matter"
 aliases:

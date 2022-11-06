@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/vcontact2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcontact2/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vcontact2/container.yaml"
-updated_at: "2022-11-05 00:33:25.391325"
-latest: "0.9.19--py_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcontact2/container.yaml"
+updated_at: "2022-11-06 00:43:07.611116"
+latest: "0.11.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/vcontact2"
 aliases:
  - "vcontact2"
@@ -22,8 +22,9 @@ aliases:
  - "gif2h5"
 versions:
  - "0.9.19--py_0"
+ - "0.11.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for vcontact2"
-config: {"url": "https://biocontainers.pro/tools/vcontact2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcontact2", "latest": {"0.9.19--py_0": "sha256:b7fc2478c774c86f23d20abe29695eda84c030fbbce367cc7b566f379659db67"}, "tags": {"0.9.19--py_0": "sha256:b7fc2478c774c86f23d20abe29695eda84c030fbbce367cc7b566f379659db67"}, "docker": "quay.io/biocontainers/vcontact2", "aliases": {"vcontact2": "/usr/local/bin/vcontact2", "vcontact2_gene2genome": "/usr/local/bin/vcontact2_gene2genome", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "f2py3.8": "/usr/local/bin/f2py3.8", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5"}}
+config: {"url": "https://biocontainers.pro/tools/vcontact2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for vcontact2", "latest": {"0.11.3--pyhdfd78af_0": "sha256:dc83f6b778ab2709b37639c79ce3030d45989ab00326ed2b027d2c66fb3682d7"}, "tags": {"0.9.19--py_0": "sha256:b7fc2478c774c86f23d20abe29695eda84c030fbbce367cc7b566f379659db67", "0.11.3--pyhdfd78af_0": "sha256:dc83f6b778ab2709b37639c79ce3030d45989ab00326ed2b027d2c66fb3682d7"}, "docker": "quay.io/biocontainers/vcontact2", "aliases": {"vcontact2": "/usr/local/bin/vcontact2", "vcontact2_gene2genome": "/usr/local/bin/vcontact2_gene2genome", "pt2to3": "/usr/local/bin/pt2to3", "ptdump": "/usr/local/bin/ptdump", "ptrepack": "/usr/local/bin/ptrepack", "pttree": "/usr/local/bin/pttree", "f2py3.8": "/usr/local/bin/f2py3.8", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert", "h5watch": "/usr/local/bin/h5watch", "h5fc": "/usr/local/bin/h5fc", "gif2h5": "/usr/local/bin/gif2h5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/vcontact2.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/vcontact2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcontact2:0.9.19--py_0
+$ shpc install quay.io/biocontainers/vcontact2:0.11.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcontact2/0.9.19--py_0
-$ module help quay.io/biocontainers/vcontact2/0.9.19--py_0
+$ module load quay.io/biocontainers/vcontact2/0.11.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/vcontact2/0.11.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-pscl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pscl/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-pscl/container.yaml"
-updated_at: "2022-11-05 00:15:24.134128"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pscl/container.yaml"
+updated_at: "2022-11-06 00:30:11.307274"
 latest: "1.4.9--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-pscl"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/protobuf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/protobuf/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/protobuf/container.yaml"
-updated_at: "2022-11-05 00:55:27.535443"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/protobuf/container.yaml"
+updated_at: "2022-11-06 00:59:01.221563"
 latest: "3.19.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/protobuf"
 aliases:
@@ -36,7 +36,7 @@ $ shpc install ghcr.io/autamus/protobuf
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/protobuf:3.15.8
+$ shpc install ghcr.io/autamus/protobuf:3.19.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/protobuf/3.15.8
-$ module help ghcr.io/autamus/protobuf/3.15.8
+$ module load ghcr.io/autamus/protobuf/3.19.1
+$ module help ghcr.io/autamus/protobuf/3.19.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

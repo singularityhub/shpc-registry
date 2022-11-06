@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/rnaredprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnaredprint/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rnaredprint/container.yaml"
-updated_at: "2022-11-05 00:47:18.589414"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnaredprint/container.yaml"
+updated_at: "2022-11-06 00:53:07.902363"
 latest: "0.3pre--py39h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/rnaredprint"
 aliases:

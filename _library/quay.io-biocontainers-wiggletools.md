@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/wiggletools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wiggletools/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/wiggletools/container.yaml"
-updated_at: "2022-11-05 00:16:29.976916"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wiggletools/container.yaml"
+updated_at: "2022-11-06 00:30:58.825486"
 latest: "1.2.11--h31cdec7_4"
 container_url: "https://biocontainers.pro/tools/wiggletools"
 aliases:
@@ -31,7 +31,7 @@ $ shpc install quay.io/biocontainers/wiggletools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wiggletools:1.2.8--he98db58_2
+$ shpc install quay.io/biocontainers/wiggletools:1.2.11--h31cdec7_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wiggletools/1.2.8--he98db58_2
-$ module help quay.io/biocontainers/wiggletools/1.2.8--he98db58_2
+$ module load quay.io/biocontainers/wiggletools/1.2.11--h31cdec7_4
+$ module help quay.io/biocontainers/wiggletools/1.2.11--h31cdec7_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

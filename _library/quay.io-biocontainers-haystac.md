@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/haystac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haystac/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/haystac/container.yaml"
-updated_at: "2022-11-05 00:43:17.903041"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haystac/container.yaml"
+updated_at: "2022-11-06 00:50:14.382774"
 latest: "0.4.8--pypyhfa5458b_0"
 container_url: "https://biocontainers.pro/tools/haystac"
 aliases:

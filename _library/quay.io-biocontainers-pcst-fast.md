@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pcst-fast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pcst-fast/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pcst-fast/container.yaml"
-updated_at: "2022-11-05 00:25:37.596216"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pcst-fast/container.yaml"
+updated_at: "2022-11-06 00:37:31.473082"
 latest: "1.0.8--py36h2ad2d48_1"
 container_url: "https://biocontainers.pro/tools/pcst-fast"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-htqpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htqpcr/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htqpcr/container.yaml"
-updated_at: "2022-11-05 00:09:29.223526"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htqpcr/container.yaml"
+updated_at: "2022-11-06 00:25:54.879748"
 latest: "1.48.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-htqpcr"
 

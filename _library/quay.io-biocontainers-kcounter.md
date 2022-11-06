@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/kcounter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kcounter/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/kcounter/container.yaml"
-updated_at: "2022-11-05 00:45:16.497011"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kcounter/container.yaml"
+updated_at: "2022-11-06 00:51:39.815159"
 latest: "0.1.1--py37h8902056_1"
 container_url: "https://biocontainers.pro/tools/kcounter"
 aliases:

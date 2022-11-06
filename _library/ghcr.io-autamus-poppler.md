@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/poppler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/poppler/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/poppler/container.yaml"
-updated_at: "2022-11-05 00:54:30.275098"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/poppler/container.yaml"
+updated_at: "2022-11-06 00:58:19.890776"
 latest: "21.11.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/poppler"
 aliases:
@@ -44,7 +44,7 @@ $ shpc install ghcr.io/autamus/poppler
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/poppler:0.90.1
+$ shpc install ghcr.io/autamus/poppler:21.11.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/poppler/0.90.1
-$ module help ghcr.io/autamus/poppler/0.90.1
+$ module load ghcr.io/autamus/poppler/21.11.0
+$ module help ghcr.io/autamus/poppler/21.11.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

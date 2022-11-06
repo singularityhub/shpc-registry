@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bird_tool_utils_python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bird_tool_utils_python/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bird_tool_utils_python/container.yaml"
-updated_at: "2022-11-05 00:44:34.184803"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bird_tool_utils_python/container.yaml"
+updated_at: "2022-11-06 00:51:09.256975"
 latest: "0.4.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bird_tool_utils_python"
 aliases:

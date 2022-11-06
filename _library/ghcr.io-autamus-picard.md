@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/picard/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/picard/container.yaml"
-updated_at: "2022-11-05 00:55:05.594849"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/picard/container.yaml"
+updated_at: "2022-11-06 00:58:45.457372"
 latest: "2.26.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/picard"
 aliases:
@@ -37,7 +37,7 @@ $ shpc install ghcr.io/autamus/picard
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/picard:2.25.2
+$ shpc install ghcr.io/autamus/picard:2.26.5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/picard/2.25.2
-$ module help ghcr.io/autamus/picard/2.25.2
+$ module load ghcr.io/autamus/picard/2.26.5
+$ module help ghcr.io/autamus/picard/2.26.5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

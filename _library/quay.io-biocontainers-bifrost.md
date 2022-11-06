@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bifrost"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bifrost/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bifrost/container.yaml"
-updated_at: "2022-11-05 00:19:08.788661"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bifrost/container.yaml"
+updated_at: "2022-11-06 00:32:53.412363"
 latest: "1.0.6.5--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/bifrost"
 aliases:

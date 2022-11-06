@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/picard"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/picard/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/picard/container.yaml"
-updated_at: "2022-11-05 00:32:58.650346"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/picard/container.yaml"
+updated_at: "2022-11-06 00:42:48.390402"
 latest: "2.18.23--0"
 container_url: "https://biocontainers.pro/tools/picard"
 aliases:
@@ -32,7 +32,7 @@ $ shpc install quay.io/biocontainers/picard
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/picard:2.9.2--py36_1
+$ shpc install quay.io/biocontainers/picard:2.18.23--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/picard/2.9.2--py36_1
-$ module help quay.io/biocontainers/picard/2.9.2--py36_1
+$ module load quay.io/biocontainers/picard/2.18.23--0
+$ module help quay.io/biocontainers/picard/2.18.23--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

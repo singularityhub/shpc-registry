@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/collect_mgf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/collect_mgf/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/collect_mgf/container.yaml"
-updated_at: "2022-11-05 00:35:35.405617"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/collect_mgf/container.yaml"
+updated_at: "2022-11-06 00:44:40.994534"
 latest: "1.0--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/collect_mgf"
 aliases:

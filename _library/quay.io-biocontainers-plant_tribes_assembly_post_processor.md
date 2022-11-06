@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/plant_tribes_assembly_post_processor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/plant_tribes_assembly_post_processor/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_assembly_post_processor/container.yaml"
-updated_at: "2022-11-05 00:28:34.522198"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/plant_tribes_assembly_post_processor/container.yaml"
+updated_at: "2022-11-06 00:39:38.947291"
 latest: "1.0.4--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/plant_tribes_assembly_post_processor"
 aliases:

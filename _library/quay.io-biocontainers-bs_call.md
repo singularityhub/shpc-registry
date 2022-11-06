@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bs_call"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bs_call/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bs_call/container.yaml"
-updated_at: "2022-11-05 00:14:03.253761"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bs_call/container.yaml"
+updated_at: "2022-11-06 00:29:12.755544"
 latest: "2.02--h7c6eca5_6"
 container_url: "https://biocontainers.pro/tools/bs_call"
 aliases:

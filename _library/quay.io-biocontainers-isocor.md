@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/isocor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/isocor/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/isocor/container.yaml"
-updated_at: "2022-11-05 00:01:21.962435"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/isocor/container.yaml"
+updated_at: "2022-11-06 00:20:04.219059"
 latest: "2.2.0--py_0"
 container_url: "https://biocontainers.pro/tools/isocor"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/igdiscover"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igdiscover/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/igdiscover/container.yaml"
-updated_at: "2022-11-05 00:45:21.273014"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igdiscover/container.yaml"
+updated_at: "2022-11-06 00:51:43.282491"
 latest: "0.15.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/igdiscover"
 aliases:
@@ -56,7 +56,7 @@ $ shpc install quay.io/biocontainers/igdiscover
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/igdiscover:0.9--py36_1
+$ shpc install quay.io/biocontainers/igdiscover:0.15.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -68,8 +68,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/igdiscover/0.9--py36_1
-$ module help quay.io/biocontainers/igdiscover/0.9--py36_1
+$ module load quay.io/biocontainers/igdiscover/0.15.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/igdiscover/0.15.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

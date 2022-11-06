@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/encyclopedia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/encyclopedia/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/encyclopedia/container.yaml"
-updated_at: "2022-11-05 00:24:08.280415"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/encyclopedia/container.yaml"
+updated_at: "2022-11-06 00:36:27.402411"
 latest: "1.12.34--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/encyclopedia"
 aliases:
@@ -38,7 +38,7 @@ $ shpc install quay.io/biocontainers/encyclopedia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/encyclopedia:1.2.2--hdfd78af_0
+$ shpc install quay.io/biocontainers/encyclopedia:1.12.34--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/encyclopedia/1.2.2--hdfd78af_0
-$ module help quay.io/biocontainers/encyclopedia/1.2.2--hdfd78af_0
+$ module load quay.io/biocontainers/encyclopedia/1.12.34--hdfd78af_0
+$ module help quay.io/biocontainers/encyclopedia/1.12.34--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

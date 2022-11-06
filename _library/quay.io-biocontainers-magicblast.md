@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/magicblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/magicblast/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/magicblast/container.yaml"
-updated_at: "2022-11-05 00:13:38.624099"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/magicblast/container.yaml"
+updated_at: "2022-11-06 00:28:54.958161"
 latest: "1.7.0--hf1761c0_0"
 container_url: "https://biocontainers.pro/tools/magicblast"
 aliases:
@@ -38,7 +38,7 @@ $ shpc install quay.io/biocontainers/magicblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/magicblast:1.6.0--hf1761c0_1
+$ shpc install quay.io/biocontainers/magicblast:1.7.0--hf1761c0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/magicblast/1.6.0--hf1761c0_1
-$ module help quay.io/biocontainers/magicblast/1.6.0--hf1761c0_1
+$ module load quay.io/biocontainers/magicblast/1.7.0--hf1761c0_0
+$ module help quay.io/biocontainers/magicblast/1.7.0--hf1761c0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

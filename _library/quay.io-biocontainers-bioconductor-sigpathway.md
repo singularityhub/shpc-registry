@@ -3,15 +3,16 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-sigpathway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sigpathway/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigpathway/container.yaml"
-updated_at: "2022-11-05 00:35:25.840737"
-latest: "1.62.0--r41hc0cfd56_2"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigpathway/container.yaml"
+updated_at: "2022-11-06 00:44:34.099164"
+latest: "1.66.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sigpathway"
 
 versions:
  - "1.62.0--r41hc0cfd56_2"
+ - "1.66.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sigpathway"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sigpathway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sigpathway", "latest": {"1.62.0--r41hc0cfd56_2": "sha256:6c2307b8a8c449027f5cfa81adde84b1efa353c408327f19439f562c091e2b33"}, "tags": {"1.62.0--r41hc0cfd56_2": "sha256:6c2307b8a8c449027f5cfa81adde84b1efa353c408327f19439f562c091e2b33"}, "docker": "quay.io/biocontainers/bioconductor-sigpathway"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sigpathway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sigpathway", "latest": {"1.66.0--r42hc0cfd56_0": "sha256:d094d2f17564163e02c20a0e8f5bce7ed893029f3b48c742bfa7be77b941f977"}, "tags": {"1.62.0--r41hc0cfd56_2": "sha256:6c2307b8a8c449027f5cfa81adde84b1efa353c408327f19439f562c091e2b33", "1.66.0--r42hc0cfd56_0": "sha256:d094d2f17564163e02c20a0e8f5bce7ed893029f3b48c742bfa7be77b941f977"}, "docker": "quay.io/biocontainers/bioconductor-sigpathway"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sigpathway.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sigpathway
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sigpathway:1.62.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-sigpathway:1.66.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sigpathway/1.62.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-sigpathway/1.62.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-sigpathway/1.66.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-sigpathway/1.66.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastqsplitter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastqsplitter/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastqsplitter/container.yaml"
-updated_at: "2022-11-05 00:12:54.519987"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastqsplitter/container.yaml"
+updated_at: "2022-11-06 00:28:23.159122"
 latest: "1.2.0--py38hbff2b2d_3"
 container_url: "https://biocontainers.pro/tools/fastqsplitter"
 aliases:

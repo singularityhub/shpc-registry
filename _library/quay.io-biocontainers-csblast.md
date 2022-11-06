@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/csblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/csblast/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/csblast/container.yaml"
-updated_at: "2022-11-05 00:00:03.113968"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/csblast/container.yaml"
+updated_at: "2022-11-06 00:19:07.343838"
 latest: "2.2.3--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/csblast"
 aliases:

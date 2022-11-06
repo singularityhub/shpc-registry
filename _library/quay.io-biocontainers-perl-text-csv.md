@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-text-csv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-csv/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-csv/container.yaml"
-updated_at: "2022-11-05 00:05:45.250599"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-csv/container.yaml"
+updated_at: "2022-11-06 00:23:13.971071"
 latest: "2.01--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-text-csv"
 aliases:

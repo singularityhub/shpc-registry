@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-glad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
-updated_at: "2022-11-05 00:46:38.347739"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-glad/container.yaml"
+updated_at: "2022-11-06 00:52:38.945975"
 latest: "2.58.0--r41hd4b0f26_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-glad"
 

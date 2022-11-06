@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-interminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-interminer/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interminer/container.yaml"
-updated_at: "2022-11-05 00:37:02.213102"
-latest: "1.8.0--r36_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-interminer/container.yaml"
+updated_at: "2022-11-06 00:45:43.208819"
+latest: "1.16.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-interminer"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.1--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-interminer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-interminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interminer", "latest": {"1.8.0--r36_0": "sha256:4cc6ed718c683a1643f1f80db43b76a8147b0ece23b63edbb56d1f66e0175d81"}, "tags": {"1.8.0--r36_0": "sha256:4cc6ed718c683a1643f1f80db43b76a8147b0ece23b63edbb56d1f66e0175d81"}, "docker": "quay.io/biocontainers/bioconductor-interminer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-interminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-interminer", "latest": {"1.16.0--r41hdfd78af_0": "sha256:e8f3f4b59f0b116f7205470a5e5d4cb99ef6e47b0ad61a5569efaa7e1681402a"}, "tags": {"1.8.0--r36_0": "sha256:4cc6ed718c683a1643f1f80db43b76a8147b0ece23b63edbb56d1f66e0175d81", "1.16.0--r41hdfd78af_0": "sha256:e8f3f4b59f0b116f7205470a5e5d4cb99ef6e47b0ad61a5569efaa7e1681402a", "1.14.1--r41hdfd78af_0": "sha256:64ff76e456529378cfbe420eefad538e07a11539f6e3faa19df428ce2728bf24", "1.12.0--r40hdfd78af_1": "sha256:d967bff24ed93871d8796a6d02b0a10362e34cb923cd2ba6b4e90a99cb9004d8", "1.10.0--r40_0": "sha256:6d6d63bea3554e1ce66dad5318edd8b0446130b47ec1acde4963201b13fb5796"}, "docker": "quay.io/biocontainers/bioconductor-interminer", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-interminer.
@@ -29,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-interminer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-interminer:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-interminer:1.16.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-interminer/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-interminer/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-interminer/1.16.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-interminer/1.16.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

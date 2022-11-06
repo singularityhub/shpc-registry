@@ -3,8 +3,8 @@ layout: container
 name:  "golang"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/golang/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/golang/container.yaml"
-updated_at: "2022-11-05 00:55:48.050576"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/golang/container.yaml"
+updated_at: "2022-11-06 00:59:15.872924"
 latest: "1.19"
 container_url: "https://hub.docker.com/r/_/golang"
 aliases:
@@ -44,7 +44,7 @@ $ shpc install golang
 Or a specific version:
 
 ```bash
-$ shpc install golang:1.16.4-alpine
+$ shpc install golang:1.19
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load golang/1.16.4-alpine
-$ module help golang/1.16.4-alpine
+$ module load golang/1.19
+$ module help golang/1.19
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

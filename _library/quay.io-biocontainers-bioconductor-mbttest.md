@@ -3,17 +3,22 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-mbttest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mbttest/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbttest/container.yaml"
-updated_at: "2022-11-05 00:22:07.822712"
-latest: "1.8.1--r341_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mbttest/container.yaml"
+updated_at: "2022-11-06 00:35:01.078671"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mbttest"
 aliases:
  - "ncurses5-config"
  - "ncursesw5-config"
 versions:
  - "1.8.1--r341_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mbttest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mbttest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mbttest", "latest": {"1.8.1--r341_0": "sha256:e0ed3521f7cc010fa1b99aedc6e2ef41c675f1a325f9df8442a0a2beb1ab8b83"}, "tags": {"1.8.1--r341_0": "sha256:e0ed3521f7cc010fa1b99aedc6e2ef41c675f1a325f9df8442a0a2beb1ab8b83"}, "docker": "quay.io/biocontainers/bioconductor-mbttest", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mbttest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mbttest", "latest": {"1.26.0--r42hdfd78af_0": "sha256:bd1618b9b95215f687974ce3142e4eb308fe2516982f4920208d27026f10d18a"}, "tags": {"1.8.1--r341_0": "sha256:e0ed3521f7cc010fa1b99aedc6e2ef41c675f1a325f9df8442a0a2beb1ab8b83", "1.26.0--r42hdfd78af_0": "sha256:bd1618b9b95215f687974ce3142e4eb308fe2516982f4920208d27026f10d18a", "1.22.0--r41hdfd78af_0": "sha256:778dd5c6ec26e735bcb07e19e3782527785a5b66a8249feed72564b695edb37e", "1.20.0--r41hdfd78af_0": "sha256:c4654fde0e783a55061ec52c3bc7da5719afb2814ab296c8fba433440ac94e12", "1.18.0--r40hdfd78af_1": "sha256:2ed3528024cee28ce84b664648911234f7129bf5735957b614089d50f45e6b8d", "1.16.0--r40_0": "sha256:3676ba61703515dc0dc4759ee810eaecd799cd523e5a29e541fcf8a5b98e092f"}, "docker": "quay.io/biocontainers/bioconductor-mbttest", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mbttest.
@@ -28,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mbttest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mbttest:1.8.1--r341_0
+$ shpc install quay.io/biocontainers/bioconductor-mbttest:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mbttest/1.8.1--r341_0
-$ module help quay.io/biocontainers/bioconductor-mbttest/1.8.1--r341_0
+$ module load quay.io/biocontainers/bioconductor-mbttest/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mbttest/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

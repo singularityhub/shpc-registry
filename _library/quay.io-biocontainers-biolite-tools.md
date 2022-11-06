@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/biolite-tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biolite-tools/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biolite-tools/container.yaml"
-updated_at: "2022-11-05 00:02:20.773493"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biolite-tools/container.yaml"
+updated_at: "2022-11-06 00:20:46.668261"
 latest: "0.4.0--hd03093a_6"
 container_url: "https://biocontainers.pro/tools/biolite-tools"
 aliases:

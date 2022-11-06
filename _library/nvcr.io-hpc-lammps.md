@@ -3,8 +3,8 @@ layout: container
 name:  "nvcr.io/hpc/lammps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/lammps/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/lammps/container.yaml"
-updated_at: "2022-11-05 00:55:50.027427"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/lammps/container.yaml"
+updated_at: "2022-11-06 00:59:17.303708"
 latest: "29Sep2021"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:lammps/tags"
 
@@ -27,7 +27,7 @@ $ shpc install nvcr.io/hpc/lammps
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/hpc/lammps:29Oct2020
+$ shpc install nvcr.io/hpc/lammps:29Sep2021
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/hpc/lammps/29Oct2020
-$ module help nvcr.io/hpc/lammps/29Oct2020
+$ module load nvcr.io/hpc/lammps/29Sep2021
+$ module help nvcr.io/hpc/lammps/29Sep2021
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

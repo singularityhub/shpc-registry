@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/sccaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sccaf/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sccaf/container.yaml"
-updated_at: "2022-11-05 00:15:09.051700"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sccaf/container.yaml"
+updated_at: "2022-11-06 00:30:00.414937"
 latest: "0.0.9--py_0"
 container_url: "https://biocontainers.pro/tools/sccaf"
 aliases:

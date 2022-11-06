@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/yaggo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/yaggo/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/yaggo/container.yaml"
-updated_at: "2022-11-05 00:45:53.908400"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/yaggo/container.yaml"
+updated_at: "2022-11-06 00:52:06.806201"
 latest: "1.5.9--0"
 container_url: "https://biocontainers.pro/tools/yaggo"
 aliases:

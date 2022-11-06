@@ -3,17 +3,18 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-fletcher2013a"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fletcher2013a/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fletcher2013a/container.yaml"
-updated_at: "2022-11-05 00:13:38.227309"
-latest: "1.30.0--r41hdfd78af_1"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fletcher2013a/container.yaml"
+updated_at: "2022-11-06 00:28:54.671807"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fletcher2013a"
 aliases:
  - ".bioconductor-fletcher2013a-post-link.sh"
  - ".bioconductor-fletcher2013a-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fletcher2013a"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fletcher2013a", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fletcher2013a", "latest": {"1.30.0--r41hdfd78af_1": "sha256:58a2048effd700ce9c05c8b65465d88317ee43591dd434c345174048874e2805"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:58a2048effd700ce9c05c8b65465d88317ee43591dd434c345174048874e2805"}, "docker": "quay.io/biocontainers/bioconductor-fletcher2013a", "aliases": {".bioconductor-fletcher2013a-post-link.sh": "/usr/local/bin/.bioconductor-fletcher2013a-post-link.sh", ".bioconductor-fletcher2013a-pre-unlink.sh": "/usr/local/bin/.bioconductor-fletcher2013a-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fletcher2013a", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fletcher2013a", "latest": {"1.34.0--r42hdfd78af_0": "sha256:3fe7851b4326f3d599c70f7eda8e1ecee89dd474e006ea5ddba1f8f7a0b9c9f9"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:58a2048effd700ce9c05c8b65465d88317ee43591dd434c345174048874e2805", "1.34.0--r42hdfd78af_0": "sha256:3fe7851b4326f3d599c70f7eda8e1ecee89dd474e006ea5ddba1f8f7a0b9c9f9"}, "docker": "quay.io/biocontainers/bioconductor-fletcher2013a", "aliases": {".bioconductor-fletcher2013a-post-link.sh": "/usr/local/bin/.bioconductor-fletcher2013a-post-link.sh", ".bioconductor-fletcher2013a-pre-unlink.sh": "/usr/local/bin/.bioconductor-fletcher2013a-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fletcher2013a.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fletcher2013a
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fletcher2013a:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-fletcher2013a:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fletcher2013a/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-fletcher2013a/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-fletcher2013a/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fletcher2013a/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

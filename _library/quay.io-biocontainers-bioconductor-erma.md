@@ -3,16 +3,17 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-erma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-erma/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erma/container.yaml"
-updated_at: "2022-11-05 00:25:46.054758"
-latest: "1.8.0--r41hdfd78af_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-erma/container.yaml"
+updated_at: "2022-11-06 00:37:37.543891"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-erma"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-erma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-erma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-erma", "latest": {"1.8.0--r41hdfd78af_0": "sha256:4d6b1d1b47feecb063df3f2ff8ee0fbca8eb879904d79bf3bef12b7653e18dc7"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4d6b1d1b47feecb063df3f2ff8ee0fbca8eb879904d79bf3bef12b7653e18dc7"}, "docker": "quay.io/biocontainers/bioconductor-erma", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-erma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-erma", "latest": {"1.10.0--r41hdfd78af_0": "sha256:8744d5f2145f02ed8df0502072cb70ec288ee1348416d10e635ec46654fb38a2"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4d6b1d1b47feecb063df3f2ff8ee0fbca8eb879904d79bf3bef12b7653e18dc7", "1.10.0--r41hdfd78af_0": "sha256:8744d5f2145f02ed8df0502072cb70ec288ee1348416d10e635ec46654fb38a2"}, "docker": "quay.io/biocontainers/bioconductor-erma", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-erma.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-erma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-erma:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-erma:1.10.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-erma/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-erma/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-erma/1.10.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-erma/1.10.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

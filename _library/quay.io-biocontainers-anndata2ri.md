@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/anndata2ri"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/anndata2ri/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/anndata2ri/container.yaml"
-updated_at: "2022-11-05 00:29:33.715295"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/anndata2ri/container.yaml"
+updated_at: "2022-11-06 00:40:21.409163"
 latest: "1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/anndata2ri"
 aliases:

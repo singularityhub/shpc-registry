@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-mmgenome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mmgenome/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-mmgenome/container.yaml"
-updated_at: "2022-11-05 00:42:37.182279"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mmgenome/container.yaml"
+updated_at: "2022-11-06 00:49:45.093982"
 latest: "0.7.1--r41h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-mmgenome"
 aliases:

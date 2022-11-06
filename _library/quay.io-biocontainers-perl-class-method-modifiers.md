@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-class-method-modifiers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-method-modifiers/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-method-modifiers/container.yaml"
-updated_at: "2022-11-05 00:39:45.837336"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-method-modifiers/container.yaml"
+updated_at: "2022-11-06 00:47:41.251284"
 latest: "2.13--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-class-method-modifiers"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-celldex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celldex/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celldex/container.yaml"
-updated_at: "2022-11-05 00:05:43.255080"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celldex/container.yaml"
+updated_at: "2022-11-06 00:23:12.535592"
 latest: "1.4.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-celldex"
 aliases:

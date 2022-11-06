@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/perl/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/perl/container.yaml"
-updated_at: "2022-11-05 00:55:18.403541"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/perl/container.yaml"
+updated_at: "2022-11-06 00:58:54.650744"
 latest: "5.35.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/perl"
 aliases:
@@ -33,7 +33,7 @@ $ shpc install ghcr.io/autamus/perl
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/perl:5.33.3
+$ shpc install ghcr.io/autamus/perl:5.35.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/perl/5.33.3
-$ module help ghcr.io/autamus/perl/5.33.3
+$ module load ghcr.io/autamus/perl/5.35.0
+$ module help ghcr.io/autamus/perl/5.35.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

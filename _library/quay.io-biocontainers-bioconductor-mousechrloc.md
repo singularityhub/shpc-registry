@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-mousechrloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mousechrloc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mousechrloc/container.yaml"
-updated_at: "2022-11-05 00:15:19.356028"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mousechrloc/container.yaml"
+updated_at: "2022-11-06 00:30:07.844098"
 latest: "2.1.6--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-mousechrloc"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mousechrloc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mousechrloc:2.1.6--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-mousechrloc:2.1.6--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mousechrloc/2.1.6--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-mousechrloc/2.1.6--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-mousechrloc/2.1.6--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-mousechrloc/2.1.6--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

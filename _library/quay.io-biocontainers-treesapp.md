@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/treesapp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/treesapp/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/treesapp/container.yaml"
-updated_at: "2022-11-05 00:09:20.689576"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/treesapp/container.yaml"
+updated_at: "2022-11-06 00:25:48.877685"
 latest: "0.9.8--py36hf1ae8f4_0"
 container_url: "https://biocontainers.pro/tools/treesapp"
 aliases:

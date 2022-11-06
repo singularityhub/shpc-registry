@@ -3,8 +3,8 @@ layout: container
 name:  "nvcr.io/hpc/quantum_espresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/quantum_espresso/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/quantum_espresso/container.yaml"
-updated_at: "2022-11-05 00:55:49.236254"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/quantum_espresso/container.yaml"
+updated_at: "2022-11-06 00:59:16.730025"
 latest: "qe-7.1"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:quantum_espresso/tags"
 
@@ -29,7 +29,7 @@ $ shpc install nvcr.io/hpc/quantum_espresso
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/hpc/quantum_espresso:v6.7
+$ shpc install nvcr.io/hpc/quantum_espresso:qe-7.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/hpc/quantum_espresso/v6.7
-$ module help nvcr.io/hpc/quantum_espresso/v6.7
+$ module load nvcr.io/hpc/quantum_espresso/qe-7.1
+$ module help nvcr.io/hpc/quantum_espresso/qe-7.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

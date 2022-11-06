@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/biom-format"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biom-format/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biom-format/container.yaml"
-updated_at: "2022-11-05 00:45:33.585850"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biom-format/container.yaml"
+updated_at: "2022-11-06 00:51:52.167597"
 latest: "2.1.12"
 container_url: "https://biocontainers.pro/tools/biom-format"
 aliases:
@@ -38,7 +38,7 @@ $ shpc install quay.io/biocontainers/biom-format
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biom-format:2.1.7--py27_0
+$ shpc install quay.io/biocontainers/biom-format:2.1.12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biom-format/2.1.7--py27_0
-$ module help quay.io/biocontainers/biom-format/2.1.7--py27_0
+$ module load quay.io/biocontainers/biom-format/2.1.12
+$ module help quay.io/biocontainers/biom-format/2.1.12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

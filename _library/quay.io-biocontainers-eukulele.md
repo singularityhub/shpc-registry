@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/eukulele"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/eukulele/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/eukulele/container.yaml"
-updated_at: "2022-11-05 00:27:20.193629"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/eukulele/container.yaml"
+updated_at: "2022-11-06 00:38:45.255106"
 latest: "2.0.3--pyh723bec7_0"
 container_url: "https://biocontainers.pro/tools/eukulele"
 aliases:

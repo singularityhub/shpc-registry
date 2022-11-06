@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-file-util"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-util/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-util/container.yaml"
-updated_at: "2022-11-05 00:24:19.145528"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-util/container.yaml"
+updated_at: "2022-11-06 00:36:35.146860"
 latest: "4.201720--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-file-util"
 aliases:

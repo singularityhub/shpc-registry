@@ -3,8 +3,8 @@ layout: container
 name:  "jupyter/tensorflow-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/tensorflow-notebook/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/jupyter/tensorflow-notebook/container.yaml"
-updated_at: "2022-11-04 23:58:35.772891"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/tensorflow-notebook/container.yaml"
+updated_at: "2022-11-06 00:18:04.091182"
 latest: "x86_64-ubuntu-22.04"
 container_url: "https://hub.docker.com/r/jupyter/tensorflow-notebook"
 aliases:
@@ -30,7 +30,7 @@ $ shpc install jupyter/tensorflow-notebook
 Or a specific version:
 
 ```bash
-$ shpc install jupyter/tensorflow-notebook:latest
+$ shpc install jupyter/tensorflow-notebook:x86_64-ubuntu-22.04
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load jupyter/tensorflow-notebook/latest
-$ module help jupyter/tensorflow-notebook/latest
+$ module load jupyter/tensorflow-notebook/x86_64-ubuntu-22.04
+$ module help jupyter/tensorflow-notebook/x86_64-ubuntu-22.04
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

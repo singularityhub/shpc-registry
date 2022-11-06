@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/ncbi-amrfinderplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
-updated_at: "2022-11-05 00:30:52.872423"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ncbi-amrfinderplus/container.yaml"
+updated_at: "2022-11-06 00:41:17.998952"
 latest: "3.10.45--h6e70893_0"
 container_url: "https://biocontainers.pro/tools/ncbi-amrfinderplus"
 aliases:
@@ -45,7 +45,7 @@ $ shpc install quay.io/biocontainers/ncbi-amrfinderplus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ncbi-amrfinderplus:3.9.8--h671e170_0
+$ shpc install quay.io/biocontainers/ncbi-amrfinderplus:3.10.45--h6e70893_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ncbi-amrfinderplus/3.9.8--h671e170_0
-$ module help quay.io/biocontainers/ncbi-amrfinderplus/3.9.8--h671e170_0
+$ module load quay.io/biocontainers/ncbi-amrfinderplus/3.10.45--h6e70893_0
+$ module help quay.io/biocontainers/ncbi-amrfinderplus/3.10.45--h6e70893_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

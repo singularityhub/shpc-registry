@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/multiqc_sav"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc_sav/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc_sav/container.yaml"
-updated_at: "2022-11-04 23:59:25.404431"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc_sav/container.yaml"
+updated_at: "2022-11-06 00:18:40.062890"
 latest: "0.0.3--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/multiqc_sav"
 aliases:

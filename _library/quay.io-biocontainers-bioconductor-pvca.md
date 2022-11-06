@@ -3,15 +3,16 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-pvca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pvca/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pvca/container.yaml"
-updated_at: "2022-11-05 00:52:08.280160"
-latest: "1.34.0--r41hdfd78af_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pvca/container.yaml"
+updated_at: "2022-11-06 00:56:37.389121"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pvca"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pvca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pvca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pvca", "latest": {"1.34.0--r41hdfd78af_0": "sha256:899c84b896f50ee86b75acbec95709b8b97129a2748d3d8276bb734f63ad6f4a"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:899c84b896f50ee86b75acbec95709b8b97129a2748d3d8276bb734f63ad6f4a"}, "docker": "quay.io/biocontainers/bioconductor-pvca"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pvca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pvca", "latest": {"1.38.0--r42hdfd78af_0": "sha256:360403f4bccc1584f8556b0500cf6c1a34cb84c09a0db09502aa1bce1031e83c"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:899c84b896f50ee86b75acbec95709b8b97129a2748d3d8276bb734f63ad6f4a", "1.38.0--r42hdfd78af_0": "sha256:360403f4bccc1584f8556b0500cf6c1a34cb84c09a0db09502aa1bce1031e83c"}, "docker": "quay.io/biocontainers/bioconductor-pvca"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pvca.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pvca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pvca:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pvca:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pvca/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pvca/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pvca/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pvca/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

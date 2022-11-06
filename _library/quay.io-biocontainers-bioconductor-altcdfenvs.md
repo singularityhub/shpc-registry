@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-altcdfenvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-altcdfenvs/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-altcdfenvs/container.yaml"
-updated_at: "2022-11-05 00:02:59.641627"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-altcdfenvs/container.yaml"
+updated_at: "2022-11-06 00:21:14.676301"
 latest: "2.56.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-altcdfenvs"
 

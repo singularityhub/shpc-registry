@@ -3,8 +3,8 @@ layout: container
 name:  "bids/freesurfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/freesurfer/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/freesurfer/container.yaml"
-updated_at: "2022-11-05 00:55:44.883580"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/freesurfer/container.yaml"
+updated_at: "2022-11-06 00:59:13.566154"
 latest: "V30-a43f1f"
 container_url: "https://hub.docker.com/r/bids/freesurfer"
 
@@ -31,7 +31,7 @@ $ shpc install bids/freesurfer
 Or a specific version:
 
 ```bash
-$ shpc install bids/freesurfer:latest
+$ shpc install bids/freesurfer:V30-a43f1f
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/freesurfer/latest
-$ module help bids/freesurfer/latest
+$ module load bids/freesurfer/V30-a43f1f
+$ module help bids/freesurfer/V30-a43f1f
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

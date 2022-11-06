@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-sugarcaneprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sugarcaneprobe/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sugarcaneprobe/container.yaml"
-updated_at: "2022-11-05 00:07:58.295649"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sugarcaneprobe/container.yaml"
+updated_at: "2022-11-06 00:24:49.740234"
 latest: "2.18.0--r41hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-sugarcaneprobe"
 aliases:

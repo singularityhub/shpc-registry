@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/container.yaml"
-updated_at: "2022-11-05 00:29:17.737738"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/container.yaml"
+updated_at: "2022-11-06 00:40:09.964643"
 latest: "3.2.2--r41hdfd78af_13"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene"
 aliases:
@@ -30,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowng
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene:3.2.2--r40_9
+$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene:3.2.2--r41hdfd78af_13
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r40_9
-$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r40_9
+$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r41hdfd78af_13
+$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm9.knowngene/3.2.2--r41hdfd78af_13
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

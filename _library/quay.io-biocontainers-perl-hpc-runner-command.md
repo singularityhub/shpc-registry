@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-hpc-runner-command"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-hpc-runner-command/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-command/container.yaml"
-updated_at: "2022-11-05 00:14:04.444864"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-hpc-runner-command/container.yaml"
+updated_at: "2022-11-06 00:29:13.617444"
 latest: "3.2.13--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-hpc-runner-command"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-hpc-runner-command
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-hpc-runner-command:3.2.9--pl5.22.0_0
+$ shpc install quay.io/biocontainers/perl-hpc-runner-command:3.2.13--pl5321hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-hpc-runner-command/3.2.9--pl5.22.0_0
-$ module help quay.io/biocontainers/perl-hpc-runner-command/3.2.9--pl5.22.0_0
+$ module load quay.io/biocontainers/perl-hpc-runner-command/3.2.13--pl5321hdfd78af_2
+$ module help quay.io/biocontainers/perl-hpc-runner-command/3.2.13--pl5321hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

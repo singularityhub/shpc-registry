@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-log-log4perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-log-log4perl/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-log-log4perl/container.yaml"
-updated_at: "2022-11-05 00:40:37.858610"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-log-log4perl/container.yaml"
+updated_at: "2022-11-06 00:48:18.962056"
 latest: "1.55--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-log-log4perl"
 aliases:

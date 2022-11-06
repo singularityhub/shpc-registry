@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-gam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gam/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-gam/container.yaml"
-updated_at: "2022-11-05 00:34:58.313431"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gam/container.yaml"
+updated_at: "2022-11-06 00:44:14.553694"
 latest: "1.14_4--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-gam"
 aliases:

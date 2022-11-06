@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/snp-pileup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-pileup/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snp-pileup/container.yaml"
-updated_at: "2022-11-05 00:03:05.996408"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-pileup/container.yaml"
+updated_at: "2022-11-06 00:21:19.232518"
 latest: "0.6.2--ha04fe3b_3"
 container_url: "https://biocontainers.pro/tools/snp-pileup"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install quay.io/biocontainers/snp-pileup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snp-pileup:v0.5.14--h3cba802_0
+$ shpc install quay.io/biocontainers/snp-pileup:0.6.2--ha04fe3b_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snp-pileup/v0.5.14--h3cba802_0
-$ module help quay.io/biocontainers/snp-pileup/v0.5.14--h3cba802_0
+$ module load quay.io/biocontainers/snp-pileup/0.6.2--ha04fe3b_3
+$ module help quay.io/biocontainers/snp-pileup/0.6.2--ha04fe3b_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/nco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/nco/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/nco/container.yaml"
-updated_at: "2022-11-05 00:55:17.585600"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/nco/container.yaml"
+updated_at: "2022-11-06 00:58:54.079695"
 latest: "5.0.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/nco"
 aliases:
@@ -54,7 +54,7 @@ $ shpc install ghcr.io/autamus/nco
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/nco:4.9.8
+$ shpc install ghcr.io/autamus/nco:5.0.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +66,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/nco/4.9.8
-$ module help ghcr.io/autamus/nco/4.9.8
+$ module load ghcr.io/autamus/nco/5.0.3
+$ module help ghcr.io/autamus/nco/5.0.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/megan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/megan/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/megan/container.yaml"
-updated_at: "2022-11-05 00:05:44.852351"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/megan/container.yaml"
+updated_at: "2022-11-06 00:23:13.684531"
 latest: "6.21.7--h9ee0642_0"
 container_url: "https://biocontainers.pro/tools/megan"
 aliases:

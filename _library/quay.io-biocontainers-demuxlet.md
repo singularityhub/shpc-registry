@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/demuxlet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/demuxlet/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/demuxlet/container.yaml"
-updated_at: "2022-11-04 23:59:47.218832"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/demuxlet/container.yaml"
+updated_at: "2022-11-06 00:18:55.853321"
 latest: "1.0--h35e0156_4"
 container_url: "https://biocontainers.pro/tools/demuxlet"
 aliases:

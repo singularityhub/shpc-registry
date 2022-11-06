@@ -3,8 +3,8 @@ layout: container
 name:  "nginx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nginx/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nginx/container.yaml"
-updated_at: "2022-11-05 00:54:17.969963"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nginx/container.yaml"
+updated_at: "2022-11-06 00:58:10.981793"
 latest: "1.23"
 container_url: "https://hub.docker.com/r/_/nginx"
 aliases:
@@ -42,7 +42,7 @@ $ shpc install nginx
 Or a specific version:
 
 ```bash
-$ shpc install nginx:1.20.0-alpine-perl
+$ shpc install nginx:1.23
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nginx/1.20.0-alpine-perl
-$ module help nginx/1.20.0-alpine-perl
+$ module load nginx/1.23
+$ module help nginx/1.23
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

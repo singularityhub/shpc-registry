@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-xde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
-updated_at: "2022-11-05 00:41:04.482215"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
+updated_at: "2022-11-06 00:48:38.196637"
 latest: "2.40.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-xde"
 

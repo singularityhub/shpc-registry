@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/mapdamage2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mapdamage2/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mapdamage2/container.yaml"
-updated_at: "2022-11-05 00:52:02.340643"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mapdamage2/container.yaml"
+updated_at: "2022-11-06 00:56:33.075759"
 latest: "2.2.1--pyr40_0"
 container_url: "https://biocontainers.pro/tools/mapdamage2"
 aliases:

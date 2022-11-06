@@ -3,8 +3,8 @@ layout: container
 name:  "jupyter/scipy-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/scipy-notebook/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/jupyter/scipy-notebook/container.yaml"
-updated_at: "2022-11-04 23:58:35.379866"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/scipy-notebook/container.yaml"
+updated_at: "2022-11-06 00:18:03.803800"
 latest: "2022-09-30"
 container_url: "https://hub.docker.com/r/jupyter/scipy-notebook"
 aliases:
@@ -40,7 +40,7 @@ $ shpc install jupyter/scipy-notebook
 Or a specific version:
 
 ```bash
-$ shpc install jupyter/scipy-notebook:4.0
+$ shpc install jupyter/scipy-notebook:2022-09-30
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load jupyter/scipy-notebook/4.0
-$ module help jupyter/scipy-notebook/4.0
+$ module load jupyter/scipy-notebook/2022-09-30
+$ module help jupyter/scipy-notebook/2022-09-30
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

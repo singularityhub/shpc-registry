@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-consensusclusterplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-consensusclusterplus/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consensusclusterplus/container.yaml"
-updated_at: "2022-11-05 00:49:41.897243"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consensusclusterplus/container.yaml"
+updated_at: "2022-11-06 00:54:51.518237"
 latest: "1.58.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-consensusclusterplus"
 

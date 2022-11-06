@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/circularmapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circularmapper/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/circularmapper/container.yaml"
-updated_at: "2022-11-04 23:59:44.049945"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circularmapper/container.yaml"
+updated_at: "2022-11-06 00:18:53.560652"
 latest: "1.93.5--h4a94de4_1"
 container_url: "https://biocontainers.pro/tools/circularmapper"
 aliases:

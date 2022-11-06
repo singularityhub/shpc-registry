@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-manta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-manta/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-manta/container.yaml"
-updated_at: "2022-11-05 00:16:57.427732"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-manta/container.yaml"
+updated_at: "2022-11-06 00:31:18.617696"
 latest: "1.32.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-manta"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/raptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raptor/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/raptor/container.yaml"
-updated_at: "2022-11-05 00:25:53.283789"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raptor/container.yaml"
+updated_at: "2022-11-06 00:37:42.708528"
 latest: "2.0.0--h19e8d03_1"
 container_url: "https://biocontainers.pro/tools/raptor"
 aliases:

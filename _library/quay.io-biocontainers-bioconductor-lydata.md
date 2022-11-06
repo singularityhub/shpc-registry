@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-lydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lydata/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lydata/container.yaml"
-updated_at: "2022-11-05 00:31:43.013401"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lydata/container.yaml"
+updated_at: "2022-11-06 00:41:53.809656"
 latest: "1.8.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lydata"
 aliases:

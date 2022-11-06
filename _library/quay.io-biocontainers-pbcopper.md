@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pbcopper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pbcopper/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pbcopper/container.yaml"
-updated_at: "2022-11-05 00:41:42.817503"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pbcopper/container.yaml"
+updated_at: "2022-11-06 00:49:05.802781"
 latest: "2.0.0--ha04c180_1"
 container_url: "https://biocontainers.pro/tools/pbcopper"
 

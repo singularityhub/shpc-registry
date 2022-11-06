@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/cdo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cdo/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cdo/container.yaml"
-updated_at: "2022-11-05 00:54:44.138956"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cdo/container.yaml"
+updated_at: "2022-11-06 00:58:29.949576"
 latest: "2.0.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cdo"
 aliases:
@@ -30,7 +30,7 @@ $ shpc install ghcr.io/autamus/cdo
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/cdo:1.9.10
+$ shpc install ghcr.io/autamus/cdo:2.0.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/cdo/1.9.10
-$ module help ghcr.io/autamus/cdo/1.9.10
+$ module load ghcr.io/autamus/cdo/2.0.2
+$ module help ghcr.io/autamus/cdo/2.0.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cyntenator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cyntenator/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cyntenator/container.yaml"
-updated_at: "2022-11-05 00:31:35.012635"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cyntenator/container.yaml"
+updated_at: "2022-11-06 00:41:48.104789"
 latest: "0.0.r2326--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/cyntenator"
 aliases:

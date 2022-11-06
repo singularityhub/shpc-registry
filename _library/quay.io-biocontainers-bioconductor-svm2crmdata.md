@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-svm2crmdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svm2crmdata/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svm2crmdata/container.yaml"
-updated_at: "2022-11-05 00:24:02.638186"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svm2crmdata/container.yaml"
+updated_at: "2022-11-06 00:36:23.381030"
 latest: "1.26.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-svm2crmdata"
 aliases:

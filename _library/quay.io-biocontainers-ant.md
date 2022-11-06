@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/ant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ant/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ant/container.yaml"
-updated_at: "2022-11-05 00:09:47.140186"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ant/container.yaml"
+updated_at: "2022-11-06 00:26:07.748336"
 latest: "1.9.6--1"
 container_url: "https://biocontainers.pro/tools/ant"
 aliases:

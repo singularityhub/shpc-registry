@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/snakemake-minimal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakemake-minimal/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-minimal/container.yaml"
-updated_at: "2022-11-05 00:21:20.861171"
-latest: "5.9.1--py_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakemake-minimal/container.yaml"
+updated_at: "2022-11-06 00:34:28.062370"
+latest: "5.18.0--py_0"
 container_url: "https://biocontainers.pro/tools/snakemake-minimal"
 aliases:
  - "snakemake"
@@ -20,8 +20,13 @@ aliases:
  - "rst2odt_prepstyles.py"
 versions:
  - "5.9.1--py_0"
+ - "5.18.0--py_0"
+ - "5.17.0--py_0"
+ - "5.16.0--py_0"
+ - "5.15.0--py_0"
+ - "5.14.0--py_1"
 description: "shpc-registry automated BioContainers addition for snakemake-minimal"
-config: {"url": "https://biocontainers.pro/tools/snakemake-minimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake-minimal", "latest": {"5.9.1--py_0": "sha256:46611f4b19c9f6e11d9a159af8ded402e59d78d24f2dac6fec24210fde8c602c"}, "tags": {"5.9.1--py_0": "sha256:46611f4b19c9f6e11d9a159af8ded402e59d78d24f2dac6fec24210fde8c602c"}, "docker": "quay.io/biocontainers/snakemake-minimal", "aliases": {"snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "rst2html4.py": "/usr/local/bin/rst2html4.py", "jsonschema": "/usr/local/bin/jsonschema", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py"}}
+config: {"url": "https://biocontainers.pro/tools/snakemake-minimal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakemake-minimal", "latest": {"5.18.0--py_0": "sha256:887a52ddbfd7ab338974941c1f699744773652bff7585a5b17884eb81fe8ef21"}, "tags": {"5.9.1--py_0": "sha256:46611f4b19c9f6e11d9a159af8ded402e59d78d24f2dac6fec24210fde8c602c", "5.18.0--py_0": "sha256:887a52ddbfd7ab338974941c1f699744773652bff7585a5b17884eb81fe8ef21", "5.17.0--py_0": "sha256:078abd9fb362f20f870e5af7e84b0fc820b89734b2baaed5d781a2a37b81b44e", "5.16.0--py_0": "sha256:a0b11db100a14b3fc369db17bb097ca78d255f6403284cd104c61f1ae70cea2f", "5.15.0--py_0": "sha256:9e1724dc99a4a8dcf77ceac11748c66778ebf747d4f8bf622bf600c0b86ada5e", "5.14.0--py_1": "sha256:767af568eb20a31325ff128c2df6a507c54a6e2700a08856ed5b593d11b78c1f"}, "docker": "quay.io/biocontainers/snakemake-minimal", "aliases": {"snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "rst2html4.py": "/usr/local/bin/rst2html4.py", "jsonschema": "/usr/local/bin/jsonschema", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakemake-minimal.
@@ -36,7 +41,7 @@ $ shpc install quay.io/biocontainers/snakemake-minimal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakemake-minimal:5.9.1--py_0
+$ shpc install quay.io/biocontainers/snakemake-minimal:5.18.0--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakemake-minimal/5.9.1--py_0
-$ module help quay.io/biocontainers/snakemake-minimal/5.9.1--py_0
+$ module load quay.io/biocontainers/snakemake-minimal/5.18.0--py_0
+$ module help quay.io/biocontainers/snakemake-minimal/5.18.0--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

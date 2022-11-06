@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/tiddit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tiddit/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tiddit/container.yaml"
-updated_at: "2022-11-05 00:48:30.858801"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tiddit/container.yaml"
+updated_at: "2022-11-06 00:54:00.156557"
 latest: "3.1.0--py39h59fae87_0"
 container_url: "https://biocontainers.pro/tools/tiddit"
 aliases:

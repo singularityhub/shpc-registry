@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/samsum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samsum/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samsum/container.yaml"
-updated_at: "2022-11-05 00:24:42.653702"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samsum/container.yaml"
+updated_at: "2022-11-06 00:36:52.054372"
 latest: "0.1.4--py36hffcf100_2"
 container_url: "https://biocontainers.pro/tools/samsum"
 aliases:

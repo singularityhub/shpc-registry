@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastv/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastv/container.yaml"
-updated_at: "2022-11-05 00:07:08.049166"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastv/container.yaml"
+updated_at: "2022-11-06 00:24:13.646571"
 latest: "0.8.1--hd03093a_2"
 container_url: "https://biocontainers.pro/tools/fastv"
 aliases:

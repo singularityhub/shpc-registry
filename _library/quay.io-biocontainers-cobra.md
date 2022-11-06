@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cobra"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cobra/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cobra/container.yaml"
-updated_at: "2022-11-05 00:24:51.389161"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cobra/container.yaml"
+updated_at: "2022-11-06 00:36:58.349482"
 latest: "0.21.0--pyh5e36f6f_1"
 container_url: "https://biocontainers.pro/tools/cobra"
 aliases:
@@ -41,7 +41,7 @@ $ shpc install quay.io/biocontainers/cobra
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cobra:0.4.0b6--py35_0
+$ shpc install quay.io/biocontainers/cobra:0.21.0--pyh5e36f6f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cobra/0.4.0b6--py35_0
-$ module help quay.io/biocontainers/cobra/0.4.0b6--py35_0
+$ module load quay.io/biocontainers/cobra/0.21.0--pyh5e36f6f_1
+$ module help quay.io/biocontainers/cobra/0.21.0--pyh5e36f6f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

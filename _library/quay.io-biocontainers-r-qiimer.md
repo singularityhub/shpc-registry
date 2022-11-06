@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-qiimer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qiimer/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-qiimer/container.yaml"
-updated_at: "2022-11-05 00:10:46.109928"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qiimer/container.yaml"
+updated_at: "2022-11-06 00:26:50.094547"
 latest: "0.9.4--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/r-qiimer"
 aliases:

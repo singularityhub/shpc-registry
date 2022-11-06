@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/xbioc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xbioc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xbioc/container.yaml"
-updated_at: "2022-11-05 00:48:20.126527"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xbioc/container.yaml"
+updated_at: "2022-11-06 00:53:52.428056"
 latest: "0.1.19--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/xbioc"
 

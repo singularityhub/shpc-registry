@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/multiqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multiqc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc/container.yaml"
-updated_at: "2022-11-05 00:29:09.697779"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multiqc/container.yaml"
+updated_at: "2022-11-06 00:40:04.262512"
 latest: "1.12--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multiqc"
 
@@ -29,7 +29,7 @@ $ shpc install quay.io/biocontainers/multiqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multiqc:1.9--py_1
+$ shpc install quay.io/biocontainers/multiqc:1.12--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multiqc/1.9--py_1
-$ module help quay.io/biocontainers/multiqc/1.9--py_1
+$ module load quay.io/biocontainers/multiqc/1.12--pyhdfd78af_0
+$ module help quay.io/biocontainers/multiqc/1.12--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-anvilpublish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilpublish/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilpublish/container.yaml"
-updated_at: "2022-11-05 00:11:34.226277"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilpublish/container.yaml"
+updated_at: "2022-11-06 00:27:24.742931"
 latest: "1.4.1--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilpublish"
 aliases:

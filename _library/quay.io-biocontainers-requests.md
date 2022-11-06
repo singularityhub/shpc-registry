@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/requests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/requests/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/requests/container.yaml"
-updated_at: "2022-11-05 00:08:04.310016"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/requests/container.yaml"
+updated_at: "2022-11-06 00:24:54.020040"
 latest: "2.26.0"
 container_url: "https://biocontainers.pro/tools/requests"
 

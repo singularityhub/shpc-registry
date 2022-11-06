@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-scbio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-scbio/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-scbio/container.yaml"
-updated_at: "2022-11-05 00:11:41.788119"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-scbio/container.yaml"
+updated_at: "2022-11-06 00:27:30.221986"
 latest: "0.1.4--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-scbio"
 

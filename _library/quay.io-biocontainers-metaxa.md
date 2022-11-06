@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/metaxa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metaxa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metaxa/container.yaml"
-updated_at: "2022-11-05 00:07:21.265414"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metaxa/container.yaml"
+updated_at: "2022-11-06 00:24:23.126603"
 latest: "2.2.3--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metaxa"
 aliases:

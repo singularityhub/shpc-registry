@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/crispresso"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/crispresso/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/crispresso/container.yaml"
-updated_at: "2022-11-05 00:50:33.055297"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/crispresso/container.yaml"
+updated_at: "2022-11-06 00:55:28.420923"
 latest: "1.0.13--py27h9801fc8_5"
 container_url: "https://biocontainers.pro/tools/crispresso"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/crispresso
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/crispresso:1.0.8--py27_0
+$ shpc install quay.io/biocontainers/crispresso:1.0.13--py27h9801fc8_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/crispresso/1.0.8--py27_0
-$ module help quay.io/biocontainers/crispresso/1.0.8--py27_0
+$ module load quay.io/biocontainers/crispresso/1.0.13--py27h9801fc8_5
+$ module help quay.io/biocontainers/crispresso/1.0.13--py27h9801fc8_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

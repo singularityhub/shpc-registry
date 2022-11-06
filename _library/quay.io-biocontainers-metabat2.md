@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/metabat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metabat2/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/metabat2/container.yaml"
-updated_at: "2022-11-05 00:43:59.661592"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metabat2/container.yaml"
+updated_at: "2022-11-06 00:50:44.260159"
 latest: "2.15--h986a166_1"
 container_url: "https://biocontainers.pro/tools/metabat2"
 aliases:

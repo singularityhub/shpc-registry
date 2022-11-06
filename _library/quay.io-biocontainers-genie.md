@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/genie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genie/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/genie/container.yaml"
-updated_at: "2022-11-05 00:45:24.845587"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genie/container.yaml"
+updated_at: "2022-11-06 00:51:45.856678"
 latest: "0.7.0--h375a9b1_0"
 container_url: "https://biocontainers.pro/tools/genie"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "nvcr.io/nvidia/rapidsai/rapidsai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/rapidsai/rapidsai/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/nvidia/rapidsai/rapidsai/container.yaml"
-updated_at: "2022-11-05 00:55:52.013225"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/rapidsai/rapidsai/container.yaml"
+updated_at: "2022-11-06 00:59:18.739869"
 latest: "22.10-cuda11.5-runtime-ubuntu20.04-py3.9"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:rapidsai:rapidsai/tags"
 aliases:
@@ -36,7 +36,7 @@ $ shpc install nvcr.io/nvidia/rapidsai/rapidsai
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/nvidia/rapidsai/rapidsai:0.18-cuda11.0-runtime-centos7
+$ shpc install nvcr.io/nvidia/rapidsai/rapidsai:22.10-cuda11.5-runtime-ubuntu20.04-py3.9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/nvidia/rapidsai/rapidsai/0.18-cuda11.0-runtime-centos7
-$ module help nvcr.io/nvidia/rapidsai/rapidsai/0.18-cuda11.0-runtime-centos7
+$ module load nvcr.io/nvidia/rapidsai/rapidsai/22.10-cuda11.5-runtime-ubuntu20.04-py3.9
+$ module help nvcr.io/nvidia/rapidsai/rapidsai/22.10-cuda11.5-runtime-ubuntu20.04-py3.9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

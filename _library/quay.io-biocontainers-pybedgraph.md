@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pybedgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pybedgraph/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pybedgraph/container.yaml"
-updated_at: "2022-11-05 00:40:54.517806"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pybedgraph/container.yaml"
+updated_at: "2022-11-06 00:48:30.984965"
 latest: "0.5.43--py38h8ded8fe_3"
 container_url: "https://biocontainers.pro/tools/pybedgraph"
 aliases:

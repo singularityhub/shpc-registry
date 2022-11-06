@@ -3,8 +3,8 @@ layout: container
 name:  "python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/python/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/python/container.yaml"
-updated_at: "2022-11-05 00:55:40.091350"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/python/container.yaml"
+updated_at: "2022-11-06 00:59:10.119752"
 latest: "3.11-rc"
 container_url: "https://hub.docker.com/_/python"
 aliases:
@@ -39,7 +39,7 @@ $ shpc install python
 Or a specific version:
 
 ```bash
-$ shpc install python:3.9.2-alpine
+$ shpc install python:3.11-rc
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load python/3.9.2-alpine
-$ module help python/3.9.2-alpine
+$ module load python/3.11-rc
+$ module help python/3.11-rc
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

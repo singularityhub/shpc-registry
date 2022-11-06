@@ -3,8 +3,8 @@ layout: container
 name:  "mysql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mysql/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mysql/container.yaml"
-updated_at: "2022-11-05 00:55:39.691639"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mysql/container.yaml"
+updated_at: "2022-11-06 00:59:09.831605"
 latest: "8.0.28"
 container_url: "https://hub.docker.com/r/_/mysql"
 aliases:
@@ -49,7 +49,7 @@ $ shpc install mysql
 Or a specific version:
 
 ```bash
-$ shpc install mysql:8.0.25
+$ shpc install mysql:8.0.28
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load mysql/8.0.25
-$ module help mysql/8.0.25
+$ module load mysql/8.0.28
+$ module help mysql/8.0.28
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

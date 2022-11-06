@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/biopython"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopython/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biopython/container.yaml"
-updated_at: "2022-11-05 00:28:15.417049"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopython/container.yaml"
+updated_at: "2022-11-06 00:39:25.187102"
 latest: "1.70--np112py36_1"
 container_url: "https://biocontainers.pro/tools/biopython"
 

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastq-screen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-screen/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-screen/container.yaml"
-updated_at: "2022-11-05 00:22:42.331682"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-screen/container.yaml"
+updated_at: "2022-11-06 00:35:25.725002"
 latest: "0.5.2--1"
 container_url: "https://biocontainers.pro/tools/fastq-screen"
 aliases:

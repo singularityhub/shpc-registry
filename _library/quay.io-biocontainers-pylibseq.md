@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pylibseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pylibseq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pylibseq/container.yaml"
-updated_at: "2022-11-05 00:11:28.282727"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pylibseq/container.yaml"
+updated_at: "2022-11-06 00:27:20.431818"
 latest: "0.2.3--py36h2ad2d48_3"
 container_url: "https://biocontainers.pro/tools/pylibseq"
 aliases:

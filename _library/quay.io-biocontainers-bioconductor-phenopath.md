@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-phenopath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenopath/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenopath/container.yaml"
-updated_at: "2022-11-05 00:18:42.048484"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenopath/container.yaml"
+updated_at: "2022-11-06 00:32:34.244719"
 latest: "1.8.0--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenopath"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/raxml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/raxml/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/raxml/container.yaml"
-updated_at: "2022-11-05 00:20:53.196902"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/raxml/container.yaml"
+updated_at: "2022-11-06 00:34:08.284911"
 latest: "8.2.9--hec16e2b_5"
 container_url: "https://biocontainers.pro/tools/raxml"
 

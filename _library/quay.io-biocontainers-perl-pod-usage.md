@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-pod-usage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-usage/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-usage/container.yaml"
-updated_at: "2022-11-05 00:05:10.182632"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-usage/container.yaml"
+updated_at: "2022-11-06 00:22:48.794402"
 latest: "2.03--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-pod-usage"
 aliases:

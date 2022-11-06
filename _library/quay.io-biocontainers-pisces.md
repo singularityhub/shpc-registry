@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pisces"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pisces/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pisces/container.yaml"
-updated_at: "2022-11-05 00:42:41.564984"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pisces/container.yaml"
+updated_at: "2022-11-06 00:49:48.259830"
 latest: "5.2.10.49--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pisces"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install quay.io/biocontainers/pisces
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pisces:5.2.9.122--0
+$ shpc install quay.io/biocontainers/pisces:5.2.10.49--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pisces/5.2.9.122--0
-$ module help quay.io/biocontainers/pisces/5.2.9.122--0
+$ module load quay.io/biocontainers/pisces/5.2.10.49--hdfd78af_1
+$ module help quay.io/biocontainers/pisces/5.2.10.49--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

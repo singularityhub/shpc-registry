@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-hgu133plus2barcodevecs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgu133plus2barcodevecs/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu133plus2barcodevecs/container.yaml"
-updated_at: "2022-11-05 00:15:05.086066"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgu133plus2barcodevecs/container.yaml"
+updated_at: "2022-11-06 00:29:57.526713"
 latest: "1.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgu133plus2barcodevecs"
 aliases:

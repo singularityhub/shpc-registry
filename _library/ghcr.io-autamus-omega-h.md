@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/omega-h"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/omega-h/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/omega-h/container.yaml"
-updated_at: "2022-11-05 00:55:25.950431"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/omega-h/container.yaml"
+updated_at: "2022-11-06 00:59:00.070392"
 latest: "9.34.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/omega-h"
 
@@ -30,7 +30,7 @@ $ shpc install ghcr.io/autamus/omega-h
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/omega-h:9.32.5
+$ shpc install ghcr.io/autamus/omega-h:9.34.6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/omega-h/9.32.5
-$ module help ghcr.io/autamus/omega-h/9.32.5
+$ module load ghcr.io/autamus/omega-h/9.34.6
+$ module help ghcr.io/autamus/omega-h/9.34.6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

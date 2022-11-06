@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/dyninst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/dyninst/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/dyninst/container.yaml"
-updated_at: "2022-11-05 00:54:31.464115"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/dyninst/container.yaml"
+updated_at: "2022-11-06 00:58:20.754510"
 latest: "11.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/dyninst"
 
@@ -27,7 +27,7 @@ $ shpc install ghcr.io/autamus/dyninst
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/dyninst:11.0.0
+$ shpc install ghcr.io/autamus/dyninst:11.0.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/dyninst/11.0.0
-$ module help ghcr.io/autamus/dyninst/11.0.0
+$ module load ghcr.io/autamus/dyninst/11.0.1
+$ module help ghcr.io/autamus/dyninst/11.0.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

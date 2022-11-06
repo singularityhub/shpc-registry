@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/gdc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gdc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gdc/container.yaml"
-updated_at: "2022-11-05 00:20:59.582609"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gdc/container.yaml"
+updated_at: "2022-11-06 00:34:12.902469"
 latest: "2.0--hd03093a_3"
 container_url: "https://biocontainers.pro/tools/gdc"
 

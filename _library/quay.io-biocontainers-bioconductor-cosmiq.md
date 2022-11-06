@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-cosmiq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosmiq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosmiq/container.yaml"
-updated_at: "2022-11-05 00:35:47.331771"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosmiq/container.yaml"
+updated_at: "2022-11-06 00:44:49.587265"
 latest: "1.28.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosmiq"
 aliases:

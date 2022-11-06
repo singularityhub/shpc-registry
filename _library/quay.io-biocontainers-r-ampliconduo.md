@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-ampliconduo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ampliconduo/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampliconduo/container.yaml"
-updated_at: "2022-11-05 00:15:11.030534"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ampliconduo/container.yaml"
+updated_at: "2022-11-06 00:30:01.846564"
 latest: "1.1--r351h6115d3f_0"
 container_url: "https://biocontainers.pro/tools/r-ampliconduo"
 aliases:

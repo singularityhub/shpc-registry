@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/cloc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cloc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cloc/container.yaml"
-updated_at: "2022-11-05 00:55:27.135265"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cloc/container.yaml"
+updated_at: "2022-11-06 00:59:00.934173"
 latest: "1.90"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cloc"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install ghcr.io/autamus/cloc
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/cloc:1.88
+$ shpc install ghcr.io/autamus/cloc:1.90
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/cloc/1.88
-$ module help ghcr.io/autamus/cloc/1.88
+$ module load ghcr.io/autamus/cloc/1.90
+$ module help ghcr.io/autamus/cloc/1.90
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

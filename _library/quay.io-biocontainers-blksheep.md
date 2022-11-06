@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/blksheep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blksheep/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blksheep/container.yaml"
-updated_at: "2022-11-05 00:16:22.024508"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blksheep/container.yaml"
+updated_at: "2022-11-06 00:30:53.113049"
 latest: "0.0.7--py_0"
 container_url: "https://biocontainers.pro/tools/blksheep"
 aliases:

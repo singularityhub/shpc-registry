@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/dfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dfast/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dfast/container.yaml"
-updated_at: "2022-11-05 00:42:23.196876"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dfast/container.yaml"
+updated_at: "2022-11-06 00:49:34.956789"
 latest: "1.2.7--h8b12597_0"
 container_url: "https://biocontainers.pro/tools/dfast"
 aliases:

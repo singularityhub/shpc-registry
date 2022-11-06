@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/tobias"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tobias/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tobias/container.yaml"
-updated_at: "2022-11-05 00:27:04.687440"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tobias/container.yaml"
+updated_at: "2022-11-06 00:38:34.064354"
 latest: "0.9.0--py36hc1659b7_0"
 container_url: "https://biocontainers.pro/tools/tobias"
 aliases:

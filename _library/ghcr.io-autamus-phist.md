@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/phist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/phist/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/phist/container.yaml"
-updated_at: "2022-11-05 00:55:13.607766"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/phist/container.yaml"
+updated_at: "2022-11-06 00:58:51.210579"
 latest: "1.9.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/phist"
 aliases:
@@ -37,7 +37,7 @@ $ shpc install ghcr.io/autamus/phist
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/phist:1.9.4
+$ shpc install ghcr.io/autamus/phist:1.9.6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/phist/1.9.4
-$ module help ghcr.io/autamus/phist/1.9.4
+$ module load ghcr.io/autamus/phist/1.9.6
+$ module help ghcr.io/autamus/phist/1.9.6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

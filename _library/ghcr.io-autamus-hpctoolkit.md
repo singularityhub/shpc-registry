@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/hpctoolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hpctoolkit/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/hpctoolkit/container.yaml"
-updated_at: "2022-11-05 00:55:31.125450"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hpctoolkit/container.yaml"
+updated_at: "2022-11-06 00:59:03.803785"
 latest: "2021.10.15"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hpctoolkit"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install ghcr.io/autamus/hpctoolkit
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/hpctoolkit:2021.05.15
+$ shpc install ghcr.io/autamus/hpctoolkit:2021.10.15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/hpctoolkit/2021.05.15
-$ module help ghcr.io/autamus/hpctoolkit/2021.05.15
+$ module load ghcr.io/autamus/hpctoolkit/2021.10.15
+$ module help ghcr.io/autamus/hpctoolkit/2021.10.15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/msaprobs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/msaprobs/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/msaprobs/container.yaml"
-updated_at: "2022-11-05 00:47:27.319285"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/msaprobs/container.yaml"
+updated_at: "2022-11-06 00:53:14.219468"
 latest: "0.9.7--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/msaprobs"
 aliases:

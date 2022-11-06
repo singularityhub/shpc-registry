@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/mysqlclient"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mysqlclient/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mysqlclient/container.yaml"
-updated_at: "2022-11-05 00:46:32.004106"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mysqlclient/container.yaml"
+updated_at: "2022-11-06 00:52:34.350649"
 latest: "1.3.10--py36_0"
 container_url: "https://biocontainers.pro/tools/mysqlclient"
 aliases:
@@ -37,7 +37,7 @@ $ shpc install quay.io/biocontainers/mysqlclient
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mysqlclient:1.3.9--py27_0
+$ shpc install quay.io/biocontainers/mysqlclient:1.3.10--py36_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mysqlclient/1.3.9--py27_0
-$ module help quay.io/biocontainers/mysqlclient/1.3.9--py27_0
+$ module load quay.io/biocontainers/mysqlclient/1.3.10--py36_0
+$ module help quay.io/biocontainers/mysqlclient/1.3.10--py36_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

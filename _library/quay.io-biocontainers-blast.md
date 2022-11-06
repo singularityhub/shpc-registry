@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blast/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
-updated_at: "2022-11-05 00:21:12.454828"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blast/container.yaml"
+updated_at: "2022-11-06 00:34:22.047568"
 latest: "2.13.0--hf3cf87c_0"
 container_url: "https://biocontainers.pro/tools/blast"
 
@@ -30,7 +30,7 @@ $ shpc install quay.io/biocontainers/blast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blast:2.10.1--pl526he19e7b1_3
+$ shpc install quay.io/biocontainers/blast:2.13.0--hf3cf87c_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blast/2.10.1--pl526he19e7b1_3
-$ module help quay.io/biocontainers/blast/2.10.1--pl526he19e7b1_3
+$ module load quay.io/biocontainers/blast/2.13.0--hf3cf87c_0
+$ module help quay.io/biocontainers/blast/2.13.0--hf3cf87c_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

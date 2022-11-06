@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pyranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyranges/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyranges/container.yaml"
-updated_at: "2022-11-05 00:48:01.472807"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyranges/container.yaml"
+updated_at: "2022-11-06 00:53:38.863874"
 latest: "0.0.88--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/pyranges"
 aliases:

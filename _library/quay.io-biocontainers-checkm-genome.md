@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/checkm-genome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/checkm-genome/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/checkm-genome/container.yaml"
-updated_at: "2022-11-05 00:35:25.022679"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/checkm-genome/container.yaml"
+updated_at: "2022-11-06 00:44:33.527080"
 latest: "1.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/checkm-genome"
 aliases:
@@ -40,7 +40,7 @@ $ shpc install quay.io/biocontainers/checkm-genome
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/checkm-genome:1.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/checkm-genome:1.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/checkm-genome/1.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/checkm-genome/1.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/checkm-genome/1.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/checkm-genome/1.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

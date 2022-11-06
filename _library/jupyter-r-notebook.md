@@ -3,8 +3,8 @@ layout: container
 name:  "jupyter/r-notebook"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/jupyter/r-notebook/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/jupyter/r-notebook/container.yaml"
-updated_at: "2022-11-04 23:58:34.982514"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/jupyter/r-notebook/container.yaml"
+updated_at: "2022-11-06 00:18:03.517759"
 latest: "2022-09-30"
 container_url: "https://hub.docker.com/r/jupyter/r-notebook"
 aliases:
@@ -40,7 +40,7 @@ $ shpc install jupyter/r-notebook
 Or a specific version:
 
 ```bash
-$ shpc install jupyter/r-notebook:4.0
+$ shpc install jupyter/r-notebook:2022-09-30
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load jupyter/r-notebook/4.0
-$ module help jupyter/r-notebook/4.0
+$ module load jupyter/r-notebook/2022-09-30
+$ module help jupyter/r-notebook/2022-09-30
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

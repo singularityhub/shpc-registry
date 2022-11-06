@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-org.bt.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.bt.eg.db/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.bt.eg.db/container.yaml"
-updated_at: "2022-11-05 00:53:37.826548"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.bt.eg.db/container.yaml"
+updated_at: "2022-11-06 00:57:42.034127"
 latest: "3.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.bt.eg.db"
 aliases:
@@ -36,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-org.bt.eg.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-org.bt.eg.db:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-org.bt.eg.db:3.14.0--r41hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-org.bt.eg.db/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-org.bt.eg.db/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-org.bt.eg.db/3.14.0--r41hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-org.bt.eg.db/3.14.0--r41hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

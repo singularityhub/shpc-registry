@@ -3,8 +3,8 @@ layout: container
 name:  "rocker/rstudio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/rstudio/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/rstudio/container.yaml"
-updated_at: "2022-11-05 00:54:16.378086"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/rstudio/container.yaml"
+updated_at: "2022-11-06 00:58:09.832369"
 latest: "latest-daily"
 container_url: "https://hub.docker.com/r/rocker/rstudio"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install rocker/rstudio
 Or a specific version:
 
 ```bash
-$ shpc install rocker/rstudio:latest
+$ shpc install rocker/rstudio:latest-daily
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/rstudio/latest
-$ module help rocker/rstudio/latest
+$ module load rocker/rstudio/latest-daily
+$ module help rocker/rstudio/latest-daily
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

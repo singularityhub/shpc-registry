@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/gatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gatk/container.yaml"
-updated_at: "2022-11-05 00:12:24.016756"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatk/container.yaml"
+updated_at: "2022-11-06 00:28:00.600482"
 latest: "3.8--hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/gatk"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/gatk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gatk:3.8--9
+$ shpc install quay.io/biocontainers/gatk:3.8--hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gatk/3.8--9
-$ module help quay.io/biocontainers/gatk/3.8--9
+$ module load quay.io/biocontainers/gatk/3.8--hdfd78af_11
+$ module help quay.io/biocontainers/gatk/3.8--hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

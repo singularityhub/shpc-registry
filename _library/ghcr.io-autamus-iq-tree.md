@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/iq-tree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/iq-tree/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/iq-tree/container.yaml"
-updated_at: "2022-11-05 00:55:19.999686"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/iq-tree/container.yaml"
+updated_at: "2022-11-06 00:58:55.794510"
 latest: "2.1.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/iq-tree"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install ghcr.io/autamus/iq-tree
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/iq-tree:2.0.6
+$ shpc install ghcr.io/autamus/iq-tree:2.1.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/iq-tree/2.0.6
-$ module help ghcr.io/autamus/iq-tree/2.0.6
+$ module load ghcr.io/autamus/iq-tree/2.1.3
+$ module help ghcr.io/autamus/iq-tree/2.1.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

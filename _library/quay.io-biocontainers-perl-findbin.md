@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-findbin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-findbin/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-findbin/container.yaml"
-updated_at: "2022-11-05 00:28:07.487040"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-findbin/container.yaml"
+updated_at: "2022-11-06 00:39:19.459538"
 latest: "1.51--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-findbin"
 

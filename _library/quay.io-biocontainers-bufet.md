@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bufet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bufet/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bufet/container.yaml"
-updated_at: "2022-11-05 00:23:41.092380"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bufet/container.yaml"
+updated_at: "2022-11-06 00:36:07.831232"
 latest: "1.0--py27h470a237_0"
 container_url: "https://biocontainers.pro/tools/bufet"
 aliases:

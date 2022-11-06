@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/btrim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/btrim/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/btrim/container.yaml"
-updated_at: "2022-11-04 23:59:53.167423"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/btrim/container.yaml"
+updated_at: "2022-11-06 00:19:00.150331"
 latest: "1.0.1--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/btrim"
 aliases:

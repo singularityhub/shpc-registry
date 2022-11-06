@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-sigqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigqc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigqc/container.yaml"
-updated_at: "2022-11-05 00:03:16.710628"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigqc/container.yaml"
+updated_at: "2022-11-06 00:21:26.936617"
 latest: "0.1.22--r41h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-sigqc"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-ade4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ade4/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-ade4/container.yaml"
-updated_at: "2022-11-05 00:02:18.002814"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ade4/container.yaml"
+updated_at: "2022-11-06 00:20:44.672349"
 latest: "1.7_2--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-ade4"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fusioncatcher"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fusioncatcher/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fusioncatcher/container.yaml"
-updated_at: "2022-11-04 23:59:03.935787"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fusioncatcher/container.yaml"
+updated_at: "2022-11-06 00:18:24.471839"
 latest: "1.33--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/fusioncatcher"
 

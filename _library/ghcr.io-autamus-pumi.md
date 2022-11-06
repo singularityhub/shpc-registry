@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/pumi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/pumi/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/pumi/container.yaml"
-updated_at: "2022-11-05 00:54:34.630067"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/pumi/container.yaml"
+updated_at: "2022-11-06 00:58:23.053148"
 latest: "2.2.6"
 container_url: "https://github.com/orgs/autamus/packages/container/package/pumi"
 aliases:
@@ -28,7 +28,7 @@ $ shpc install ghcr.io/autamus/pumi
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/pumi:2.2.5
+$ shpc install ghcr.io/autamus/pumi:2.2.6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/pumi/2.2.5
-$ module help ghcr.io/autamus/pumi/2.2.5
+$ module load ghcr.io/autamus/pumi/2.2.6
+$ module help ghcr.io/autamus/pumi/2.2.6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

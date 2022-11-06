@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/dnp-mapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dnp-mapping/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-mapping/container.yaml"
-updated_at: "2022-11-05 00:04:30.110368"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dnp-mapping/container.yaml"
+updated_at: "2022-11-06 00:22:19.868564"
 latest: "1.0--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/dnp-mapping"
 aliases:

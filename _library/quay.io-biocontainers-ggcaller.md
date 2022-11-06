@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/ggcaller"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ggcaller/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ggcaller/container.yaml"
-updated_at: "2022-11-05 00:10:34.918282"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ggcaller/container.yaml"
+updated_at: "2022-11-06 00:26:42.070453"
 latest: "1.3.0--py38hee2cf1e_1"
 container_url: "https://biocontainers.pro/tools/ggcaller"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-htmg430a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-htmg430a.db/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htmg430a.db/container.yaml"
-updated_at: "2022-11-05 00:23:27.120021"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-htmg430a.db/container.yaml"
+updated_at: "2022-11-06 00:35:57.812876"
 latest: "3.13.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-htmg430a.db"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/piper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piper/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/piper/container.yaml"
-updated_at: "2022-11-05 00:51:44.452035"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piper/container.yaml"
+updated_at: "2022-11-06 00:56:20.086494"
 latest: "0.12.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/piper"
 aliases:

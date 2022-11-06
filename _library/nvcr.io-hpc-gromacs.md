@@ -3,8 +3,8 @@ layout: container
 name:  "nvcr.io/hpc/gromacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/hpc/gromacs/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/hpc/gromacs/container.yaml"
-updated_at: "2022-11-05 00:55:50.425250"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/hpc/gromacs/container.yaml"
+updated_at: "2022-11-06 00:59:17.589571"
 latest: "2022.1"
 container_url: "https://ngc.nvidia.com/catalog/containers/hpc:gromacs/tags"
 aliases:
@@ -32,7 +32,7 @@ $ shpc install nvcr.io/hpc/gromacs
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/hpc/gromacs:2020.2
+$ shpc install nvcr.io/hpc/gromacs:2022.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/hpc/gromacs/2020.2
-$ module help nvcr.io/hpc/gromacs/2020.2
+$ module load nvcr.io/hpc/gromacs/2022.1
+$ module help nvcr.io/hpc/gromacs/2022.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

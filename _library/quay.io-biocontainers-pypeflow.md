@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pypeflow"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pypeflow/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pypeflow/container.yaml"
-updated_at: "2022-11-05 00:16:51.825590"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pypeflow/container.yaml"
+updated_at: "2022-11-06 00:31:14.616671"
 latest: "2.2.0--py27_0"
 container_url: "https://biocontainers.pro/tools/pypeflow"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-targetdecoy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
-updated_at: "2022-11-05 00:35:10.907695"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetdecoy/container.yaml"
+updated_at: "2022-11-06 00:44:23.454860"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetdecoy"
 aliases:
@@ -37,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-targetdecoy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-targetdecoy:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-targetdecoy:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-targetdecoy/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-targetdecoy/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-targetdecoy/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-targetdecoy/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

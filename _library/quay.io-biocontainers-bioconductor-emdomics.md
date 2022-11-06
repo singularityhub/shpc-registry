@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-emdomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-emdomics/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-emdomics/container.yaml"
-updated_at: "2022-11-05 00:36:39.761992"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-emdomics/container.yaml"
+updated_at: "2022-11-06 00:45:27.146444"
 latest: "2.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-emdomics"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-emdomics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-emdomics:2.24.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-emdomics:2.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-emdomics/2.24.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-emdomics/2.24.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-emdomics/2.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-emdomics/2.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

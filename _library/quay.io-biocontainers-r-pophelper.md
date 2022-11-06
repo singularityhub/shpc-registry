@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-pophelper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pophelper/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-pophelper/container.yaml"
-updated_at: "2022-11-05 00:05:42.063550"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pophelper/container.yaml"
+updated_at: "2022-11-06 00:23:11.672963"
 latest: "2.3.1--r41hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-pophelper"
 aliases:

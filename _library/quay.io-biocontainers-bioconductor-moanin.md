@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-moanin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moanin/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moanin/container.yaml"
-updated_at: "2022-11-05 00:50:36.235216"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moanin/container.yaml"
+updated_at: "2022-11-06 00:55:30.720925"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moanin"
 

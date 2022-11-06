@@ -3,8 +3,8 @@ layout: container
 name:  "bids/hcppipelines"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/hcppipelines/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/hcppipelines/container.yaml"
-updated_at: "2022-11-05 00:55:42.509404"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/hcppipelines/container.yaml"
+updated_at: "2022-11-06 00:59:11.840489"
 latest: "v4.3.0-3"
 container_url: "https://hub.docker.com/r/bids/hcppipelines"
 
@@ -29,7 +29,7 @@ $ shpc install bids/hcppipelines
 Or a specific version:
 
 ```bash
-$ shpc install bids/hcppipelines:latest
+$ shpc install bids/hcppipelines:v4.3.0-3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/hcppipelines/latest
-$ module help bids/hcppipelines/latest
+$ module load bids/hcppipelines/v4.3.0-3
+$ module help bids/hcppipelines/v4.3.0-3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

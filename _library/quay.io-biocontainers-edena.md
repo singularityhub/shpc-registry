@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/edena"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/edena/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/edena/container.yaml"
-updated_at: "2022-11-05 00:52:52.374018"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/edena/container.yaml"
+updated_at: "2022-11-06 00:57:09.267425"
 latest: "3.131028--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/edena"
 aliases:

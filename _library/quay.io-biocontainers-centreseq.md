@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/centreseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centreseq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/centreseq/container.yaml"
-updated_at: "2022-11-05 00:06:29.087349"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centreseq/container.yaml"
+updated_at: "2022-11-06 00:23:45.512344"
 latest: "v0.2.3--py_0"
 container_url: "https://biocontainers.pro/tools/centreseq"
 

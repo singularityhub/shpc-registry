@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/simpleaf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/simpleaf/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/simpleaf/container.yaml"
-updated_at: "2022-11-05 00:27:25.354853"
-latest: "0.5.3--h9f5acd7_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/simpleaf/container.yaml"
+updated_at: "2022-11-06 00:38:49.006384"
+latest: "0.6.0--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/simpleaf"
 aliases:
  - "alevin-fry"
@@ -23,8 +23,9 @@ aliases:
  - "tabulate"
 versions:
  - "0.5.3--h9f5acd7_0"
+ - "0.6.0--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for simpleaf"
-config: {"url": "https://biocontainers.pro/tools/simpleaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simpleaf", "latest": {"0.5.3--h9f5acd7_0": "sha256:e3d091171880db081708f097fab967b6d6bfd517087b8da1ded720727356d032"}, "tags": {"0.5.3--h9f5acd7_0": "sha256:e3d091171880db081708f097fab967b6d6bfd517087b8da1ded720727356d032"}, "docker": "quay.io/biocontainers/simpleaf", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry", "pyroe": "/usr/local/bin/pyroe", "simpleaf": "/usr/local/bin/simpleaf", "salmon": "/usr/local/bin/salmon", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "tabulate": "/usr/local/bin/tabulate"}}
+config: {"url": "https://biocontainers.pro/tools/simpleaf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for simpleaf", "latest": {"0.6.0--h9f5acd7_0": "sha256:fc9f851428207eb47fc4421c8e5c3bc7d3d0cd13a871d563a7342597da178ffe"}, "tags": {"0.5.3--h9f5acd7_0": "sha256:e3d091171880db081708f097fab967b6d6bfd517087b8da1ded720727356d032", "0.6.0--h9f5acd7_0": "sha256:fc9f851428207eb47fc4421c8e5c3bc7d3d0cd13a871d563a7342597da178ffe"}, "docker": "quay.io/biocontainers/simpleaf", "aliases": {"alevin-fry": "/usr/local/bin/alevin-fry", "pyroe": "/usr/local/bin/pyroe", "simpleaf": "/usr/local/bin/simpleaf", "salmon": "/usr/local/bin/salmon", "scanpy": "/usr/local/bin/scanpy", "docutils": "/usr/local/bin/docutils", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "tabulate": "/usr/local/bin/tabulate"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/simpleaf.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/simpleaf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/simpleaf:0.5.3--h9f5acd7_0
+$ shpc install quay.io/biocontainers/simpleaf:0.6.0--h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/simpleaf/0.5.3--h9f5acd7_0
-$ module help quay.io/biocontainers/simpleaf/0.5.3--h9f5acd7_0
+$ module load quay.io/biocontainers/simpleaf/0.6.0--h9f5acd7_0
+$ module help quay.io/biocontainers/simpleaf/0.6.0--h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "bids/spm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/spm/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/spm/container.yaml"
-updated_at: "2022-11-05 00:55:42.904324"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/spm/container.yaml"
+updated_at: "2022-11-06 00:59:12.127148"
 latest: "chrisfilo-patch-1"
 container_url: "https://hub.docker.com/r/bids/spm"
 aliases:
@@ -30,7 +30,7 @@ $ shpc install bids/spm
 Or a specific version:
 
 ```bash
-$ shpc install bids/spm:latest
+$ shpc install bids/spm:chrisfilo-patch-1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/spm/latest
-$ module help bids/spm/latest
+$ module load bids/spm/chrisfilo-patch-1
+$ module help bids/spm/chrisfilo-patch-1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

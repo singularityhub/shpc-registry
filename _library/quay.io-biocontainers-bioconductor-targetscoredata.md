@@ -3,17 +3,18 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-targetscoredata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-targetscoredata/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetscoredata/container.yaml"
-updated_at: "2022-11-05 00:06:53.291945"
-latest: "1.30.0--r41hdfd78af_1"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-targetscoredata/container.yaml"
+updated_at: "2022-11-06 00:24:03.083409"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-targetscoredata"
 aliases:
  - ".bioconductor-targetscoredata-post-link.sh"
  - ".bioconductor-targetscoredata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-targetscoredata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-targetscoredata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetscoredata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:dcfe966c4297bd28b15cebe9de992c1933f81c8c71c3f0ab81e14c6b00c13c19"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:dcfe966c4297bd28b15cebe9de992c1933f81c8c71c3f0ab81e14c6b00c13c19"}, "docker": "quay.io/biocontainers/bioconductor-targetscoredata", "aliases": {".bioconductor-targetscoredata-post-link.sh": "/usr/local/bin/.bioconductor-targetscoredata-post-link.sh", ".bioconductor-targetscoredata-pre-unlink.sh": "/usr/local/bin/.bioconductor-targetscoredata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-targetscoredata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-targetscoredata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:184d7af596d450803ed4f44794793f5580c531ff8fd609248383aae877255cf1"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:dcfe966c4297bd28b15cebe9de992c1933f81c8c71c3f0ab81e14c6b00c13c19", "1.33.0--r42hdfd78af_0": "sha256:184d7af596d450803ed4f44794793f5580c531ff8fd609248383aae877255cf1"}, "docker": "quay.io/biocontainers/bioconductor-targetscoredata", "aliases": {".bioconductor-targetscoredata-post-link.sh": "/usr/local/bin/.bioconductor-targetscoredata-post-link.sh", ".bioconductor-targetscoredata-pre-unlink.sh": "/usr/local/bin/.bioconductor-targetscoredata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-targetscoredata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-targetscoredata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-targetscoredata:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-targetscoredata:1.33.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-targetscoredata/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-targetscoredata/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-targetscoredata/1.33.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-targetscoredata/1.33.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

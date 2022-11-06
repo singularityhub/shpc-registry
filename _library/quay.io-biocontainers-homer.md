@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/homer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/homer/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/homer/container.yaml"
-updated_at: "2022-11-05 00:01:22.789264"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/homer/container.yaml"
+updated_at: "2022-11-06 00:20:04.812255"
 latest: "4.11--pl5321h9f5acd7_7"
 container_url: "https://biocontainers.pro/tools/homer"
 aliases:
@@ -187,7 +187,7 @@ $ shpc install quay.io/biocontainers/homer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/homer:4.9.1--pl526h2d50403_6
+$ shpc install quay.io/biocontainers/homer:4.11--pl5321h9f5acd7_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -199,8 +199,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/homer/4.9.1--pl526h2d50403_6
-$ module help quay.io/biocontainers/homer/4.9.1--pl526h2d50403_6
+$ module load quay.io/biocontainers/homer/4.11--pl5321h9f5acd7_7
+$ module help quay.io/biocontainers/homer/4.11--pl5321h9f5acd7_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

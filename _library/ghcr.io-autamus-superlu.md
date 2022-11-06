@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/superlu"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/superlu/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/superlu/container.yaml"
-updated_at: "2022-11-05 00:55:14.002922"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/superlu/container.yaml"
+updated_at: "2022-11-06 00:58:51.495708"
 latest: "5.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/superlu"
 
@@ -28,7 +28,7 @@ $ shpc install ghcr.io/autamus/superlu
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/superlu:5.2.2
+$ shpc install ghcr.io/autamus/superlu:5.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/superlu/5.2.2
-$ module help ghcr.io/autamus/superlu/5.2.2
+$ module load ghcr.io/autamus/superlu/5.3.0
+$ module help ghcr.io/autamus/superlu/5.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

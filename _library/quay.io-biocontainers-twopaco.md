@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/twopaco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/twopaco/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/twopaco/container.yaml"
-updated_at: "2022-11-05 00:52:13.428886"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/twopaco/container.yaml"
+updated_at: "2022-11-06 00:56:41.117850"
 latest: "1.0.0--h7bb7ee6_0"
 container_url: "https://biocontainers.pro/tools/twopaco"
 aliases:

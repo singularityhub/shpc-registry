@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/stringtie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/stringtie/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/stringtie/container.yaml"
-updated_at: "2022-11-05 00:54:47.312507"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/stringtie/container.yaml"
+updated_at: "2022-11-06 00:58:32.235296"
 latest: "2.1.7"
 container_url: "https://github.com/orgs/autamus/packages/container/package/stringtie"
 aliases:
@@ -30,7 +30,7 @@ $ shpc install ghcr.io/autamus/stringtie
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/stringtie:2.1.5
+$ shpc install ghcr.io/autamus/stringtie:2.1.7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/stringtie/2.1.5
-$ module help ghcr.io/autamus/stringtie/2.1.5
+$ module load ghcr.io/autamus/stringtie/2.1.7
+$ module help ghcr.io/autamus/stringtie/2.1.7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

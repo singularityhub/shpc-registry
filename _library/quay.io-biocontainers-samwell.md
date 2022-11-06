@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/samwell"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/samwell/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/samwell/container.yaml"
-updated_at: "2022-11-05 00:19:18.311113"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/samwell/container.yaml"
+updated_at: "2022-11-06 00:33:00.260296"
 latest: "0.0.4--py39hbf8eff0_1"
 container_url: "https://biocontainers.pro/tools/samwell"
 aliases:

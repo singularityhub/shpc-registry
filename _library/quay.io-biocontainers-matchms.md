@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/matchms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/matchms/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/matchms/container.yaml"
-updated_at: "2022-11-05 00:50:52.882909"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/matchms/container.yaml"
+updated_at: "2022-11-06 00:55:42.771064"
 latest: "0.17.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/matchms"
 aliases:
@@ -41,7 +41,7 @@ $ shpc install quay.io/biocontainers/matchms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/matchms:0.9.2--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/matchms:0.17.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/matchms/0.9.2--pyh5e36f6f_0
-$ module help quay.io/biocontainers/matchms/0.9.2--pyh5e36f6f_0
+$ module load quay.io/biocontainers/matchms/0.17.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/matchms/0.17.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

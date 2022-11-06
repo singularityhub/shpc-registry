@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/selectfasta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/selectfasta/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/selectfasta/container.yaml"
-updated_at: "2022-11-05 00:35:52.515548"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/selectfasta/container.yaml"
+updated_at: "2022-11-06 00:44:53.304035"
 latest: "1.0--h87f3376_2"
 container_url: "https://biocontainers.pro/tools/selectfasta"
 aliases:

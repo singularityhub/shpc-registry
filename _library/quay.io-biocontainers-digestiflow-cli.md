@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/digestiflow-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/digestiflow-cli/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/digestiflow-cli/container.yaml"
-updated_at: "2022-11-05 00:44:08.810487"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/digestiflow-cli/container.yaml"
+updated_at: "2022-11-06 00:50:50.872843"
 latest: "0.5.8--h1f4ba0c_3"
 container_url: "https://biocontainers.pro/tools/digestiflow-cli"
 aliases:

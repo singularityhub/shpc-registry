@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-rtn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtn/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtn/container.yaml"
-updated_at: "2022-11-05 00:00:55.628016"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtn/container.yaml"
+updated_at: "2022-11-06 00:19:45.269378"
 latest: "2.8.1--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtn"
 aliases:

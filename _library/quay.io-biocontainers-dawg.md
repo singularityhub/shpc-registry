@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/dawg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dawg/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dawg/container.yaml"
-updated_at: "2022-11-04 23:59:58.716751"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dawg/container.yaml"
+updated_at: "2022-11-06 00:19:04.183580"
 latest: "2.0.beta1--gsl2.2_boost1.64_0"
 container_url: "https://biocontainers.pro/tools/dawg"
 aliases:

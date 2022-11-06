@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-biodbhmdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biodbhmdb/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbhmdb/container.yaml"
-updated_at: "2022-11-05 00:01:49.409390"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biodbhmdb/container.yaml"
+updated_at: "2022-11-06 00:20:24.029415"
 latest: "1.0.3--r41hc247a5b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-biodbhmdb"
 

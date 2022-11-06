@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-empiricalfdr.deseq2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-empiricalfdr.deseq2/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-empiricalfdr.deseq2/container.yaml"
-updated_at: "2022-11-05 00:36:31.782961"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-empiricalfdr.deseq2/container.yaml"
+updated_at: "2022-11-06 00:45:21.414205"
 latest: "1.0.3--r41h3121a25_8"
 container_url: "https://biocontainers.pro/tools/r-empiricalfdr.deseq2"
 aliases:

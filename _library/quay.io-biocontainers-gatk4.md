@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/gatk4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gatk4/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gatk4/container.yaml"
-updated_at: "2022-11-05 00:05:29.338278"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gatk4/container.yaml"
+updated_at: "2022-11-06 00:23:02.529772"
 latest: "4.2.5.0--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gatk4"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/gatk4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gatk4:4.1.9.0--py39_0
+$ shpc install quay.io/biocontainers/gatk4:4.2.5.0--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gatk4/4.1.9.0--py39_0
-$ module help quay.io/biocontainers/gatk4/4.1.9.0--py39_0
+$ module load quay.io/biocontainers/gatk4/4.2.5.0--hdfd78af_0
+$ module help quay.io/biocontainers/gatk4/4.2.5.0--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

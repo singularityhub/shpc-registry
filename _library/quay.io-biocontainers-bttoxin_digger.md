@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bttoxin_digger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bttoxin_digger/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bttoxin_digger/container.yaml"
-updated_at: "2022-11-05 00:38:14.857533"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bttoxin_digger/container.yaml"
+updated_at: "2022-11-06 00:46:35.478066"
 latest: "1.0.10--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bttoxin_digger"
 aliases:
@@ -112,7 +112,7 @@ $ shpc install quay.io/biocontainers/bttoxin_digger
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bttoxin_digger:1.0.9--hdfd78af_0
+$ shpc install quay.io/biocontainers/bttoxin_digger:1.0.10--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -124,8 +124,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bttoxin_digger/1.0.9--hdfd78af_0
-$ module help quay.io/biocontainers/bttoxin_digger/1.0.9--hdfd78af_0
+$ module load quay.io/biocontainers/bttoxin_digger/1.0.10--hdfd78af_0
+$ module help quay.io/biocontainers/bttoxin_digger/1.0.10--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

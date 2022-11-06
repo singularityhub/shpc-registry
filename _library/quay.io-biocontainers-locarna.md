@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/locarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/locarna/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/locarna/container.yaml"
-updated_at: "2022-11-05 00:04:42.784718"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/locarna/container.yaml"
+updated_at: "2022-11-06 00:22:29.055871"
 latest: "2.0.0RC10--pl5321h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/locarna"
 aliases:
@@ -68,7 +68,7 @@ $ shpc install quay.io/biocontainers/locarna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/locarna:2.0.0RC8--h9f5acd7_2
+$ shpc install quay.io/biocontainers/locarna:2.0.0RC10--pl5321h9f5acd7_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -80,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/locarna/2.0.0RC8--h9f5acd7_2
-$ module help quay.io/biocontainers/locarna/2.0.0RC8--h9f5acd7_2
+$ module load quay.io/biocontainers/locarna/2.0.0RC10--pl5321h9f5acd7_1
+$ module help quay.io/biocontainers/locarna/2.0.0RC10--pl5321h9f5acd7_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

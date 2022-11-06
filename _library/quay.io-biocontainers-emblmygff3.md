@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/emblmygff3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emblmygff3/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/emblmygff3/container.yaml"
-updated_at: "2022-11-05 00:49:38.738031"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emblmygff3/container.yaml"
+updated_at: "2022-11-06 00:54:49.234018"
 latest: "2.1--py_0"
 container_url: "https://biocontainers.pro/tools/emblmygff3"
 aliases:

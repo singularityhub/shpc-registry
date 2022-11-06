@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/smoothxg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smoothxg/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/smoothxg/container.yaml"
-updated_at: "2022-11-05 00:01:05.232994"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smoothxg/container.yaml"
+updated_at: "2022-11-06 00:19:52.178756"
 latest: "0.6.5--hfb1f815_2"
 container_url: "https://biocontainers.pro/tools/smoothxg"
 aliases:

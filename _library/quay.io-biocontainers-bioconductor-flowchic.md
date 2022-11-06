@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-flowchic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowchic/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowchic/container.yaml"
-updated_at: "2022-11-05 00:42:32.001285"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowchic/container.yaml"
+updated_at: "2022-11-06 00:49:41.302148"
 latest: "1.28.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowchic"
 aliases:

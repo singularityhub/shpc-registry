@@ -3,8 +3,8 @@ layout: container
 name:  "vault"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/vault/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/vault/container.yaml"
-updated_at: "2022-11-05 00:55:40.925379"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/vault/container.yaml"
+updated_at: "2022-11-06 00:59:10.694331"
 latest: "1.12.1"
 container_url: "https://hub.docker.com/_/vault"
 aliases:
@@ -59,7 +59,7 @@ $ shpc install vault
 Or a specific version:
 
 ```bash
-$ shpc install vault:1.4.7
+$ shpc install vault:1.12.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -71,8 +71,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load vault/1.4.7
-$ module help vault/1.4.7
+$ module load vault/1.12.1
+$ module help vault/1.12.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

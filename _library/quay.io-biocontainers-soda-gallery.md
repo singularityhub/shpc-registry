@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/soda-gallery"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/soda-gallery/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/soda-gallery/container.yaml"
-updated_at: "2022-11-05 00:21:04.377347"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/soda-gallery/container.yaml"
+updated_at: "2022-11-06 00:34:16.350823"
 latest: "1.0.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/soda-gallery"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/abpoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/abpoa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/abpoa/container.yaml"
-updated_at: "2022-11-05 00:19:31.469278"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/abpoa/container.yaml"
+updated_at: "2022-11-06 00:33:09.684659"
 latest: "1.4.1--h7132678_1"
 container_url: "https://biocontainers.pro/tools/abpoa"
 aliases:

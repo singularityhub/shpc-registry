@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/snp-dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snp-dists/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/snp-dists/container.yaml"
-updated_at: "2022-11-05 00:04:14.656018"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snp-dists/container.yaml"
+updated_at: "2022-11-06 00:22:08.710881"
 latest: "0.8.2--h7132678_1"
 container_url: "https://biocontainers.pro/tools/snp-dists"
 aliases:

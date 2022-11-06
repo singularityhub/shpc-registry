@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/tidehunter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tidehunter/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/tidehunter/container.yaml"
-updated_at: "2022-11-05 00:07:15.631049"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tidehunter/container.yaml"
+updated_at: "2022-11-06 00:24:19.102883"
 latest: "1.5.3--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/tidehunter"
 aliases:

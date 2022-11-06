@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-r.rsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-r.rsp/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.rsp/container.yaml"
-updated_at: "2022-11-05 00:44:21.500549"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-r.rsp/container.yaml"
+updated_at: "2022-11-06 00:51:00.057043"
 latest: "0.30.0--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-r.rsp"
 aliases:

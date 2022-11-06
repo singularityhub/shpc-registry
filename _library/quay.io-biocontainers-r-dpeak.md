@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-dpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dpeak/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-dpeak/container.yaml"
-updated_at: "2022-11-05 00:24:31.526271"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dpeak/container.yaml"
+updated_at: "2022-11-06 00:36:44.052869"
 latest: "2.0.1--r41h9f5acd7_6"
 container_url: "https://biocontainers.pro/tools/r-dpeak"
 aliases:

@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-rnaseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqr/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqr/container.yaml"
-updated_at: "2022-11-05 00:34:23.839430"
-latest: "1.8.0--r40hdfd78af_1"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqr/container.yaml"
+updated_at: "2022-11-06 00:43:49.736047"
+latest: "1.12.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqr"
 aliases:
  - "rsvg-convert"
@@ -16,8 +16,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaseqr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqr", "latest": {"1.8.0--r40hdfd78af_1": "sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaseqr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaseqr", "latest": {"1.12.0--r41hdfd78af_0": "sha256:61e588fc498a77499ea07afe6e5b1c4c43baa747566ece3362be8423b157b1a7"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:656e52b5476cedcaa970de38630d49a8a66d25df779b10146e70f2feaeba9b58", "1.12.0--r41hdfd78af_0": "sha256:61e588fc498a77499ea07afe6e5b1c4c43baa747566ece3362be8423b157b1a7", "1.10.0--r41hdfd78af_0": "sha256:54e6881eb33379f5962560ad398f3662ca16001468791950e1cd2c2b4727e4ba"}, "docker": "quay.io/biocontainers/bioconductor-rnaseqr", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaseqr.
@@ -32,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaseqr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaseqr:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-rnaseqr:1.12.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaseqr/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-rnaseqr/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-rnaseqr/1.12.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnaseqr/1.12.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

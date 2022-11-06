@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/nanoplotter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanoplotter/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplotter/container.yaml"
-updated_at: "2022-11-05 00:24:54.190863"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanoplotter/container.yaml"
+updated_at: "2022-11-06 00:37:00.386185"
 latest: "1.10.0--py_1"
 container_url: "https://biocontainers.pro/tools/nanoplotter"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/nanoplotter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nanoplotter:1.9.1--py_0
+$ shpc install quay.io/biocontainers/nanoplotter:1.10.0--py_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nanoplotter/1.9.1--py_0
-$ module help quay.io/biocontainers/nanoplotter/1.9.1--py_0
+$ module load quay.io/biocontainers/nanoplotter/1.10.0--py_1
+$ module help quay.io/biocontainers/nanoplotter/1.10.0--py_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

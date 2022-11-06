@@ -3,8 +3,8 @@ layout: container
 name:  "bids/validator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/validator/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/validator/container.yaml"
-updated_at: "2022-11-05 00:55:46.069151"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/validator/container.yaml"
+updated_at: "2022-11-06 00:59:14.435450"
 latest: "v1.9.2"
 container_url: "https://hub.docker.com/r/bids/validator"
 aliases:
@@ -35,7 +35,7 @@ $ shpc install bids/validator
 Or a specific version:
 
 ```bash
-$ shpc install bids/validator:latest
+$ shpc install bids/validator:v1.9.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/validator/latest
-$ module help bids/validator/latest
+$ module load bids/validator/v1.9.2
+$ module help bids/validator/v1.9.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

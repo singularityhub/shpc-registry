@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-affypdnn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affypdnn/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affypdnn/container.yaml"
-updated_at: "2022-11-05 00:31:16.584559"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affypdnn/container.yaml"
+updated_at: "2022-11-06 00:41:34.962253"
 latest: "1.60.0--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affypdnn"
 aliases:

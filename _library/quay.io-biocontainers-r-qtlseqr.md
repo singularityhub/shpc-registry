@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-qtlseqr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
-updated_at: "2022-11-05 00:44:10.793193"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-qtlseqr/container.yaml"
+updated_at: "2022-11-06 00:50:52.312374"
 latest: "0.7.5.2--r42h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/r-qtlseqr"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-qtlseqr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-qtlseqr:0.7.5.2--r41h9f5acd7_3
+$ shpc install quay.io/biocontainers/r-qtlseqr:0.7.5.2--r42h9f5acd7_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-qtlseqr/0.7.5.2--r41h9f5acd7_3
-$ module help quay.io/biocontainers/r-qtlseqr/0.7.5.2--r41h9f5acd7_3
+$ module load quay.io/biocontainers/r-qtlseqr/0.7.5.2--r42h9f5acd7_4
+$ module help quay.io/biocontainers/r-qtlseqr/0.7.5.2--r42h9f5acd7_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

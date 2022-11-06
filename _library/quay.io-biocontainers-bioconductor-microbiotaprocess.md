@@ -3,15 +3,16 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-microbiotaprocess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-microbiotaprocess/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiotaprocess/container.yaml"
-updated_at: "2022-11-05 00:52:09.070766"
-latest: "1.6.1--r41hdfd78af_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-microbiotaprocess/container.yaml"
+updated_at: "2022-11-06 00:56:37.958407"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-microbiotaprocess"
 
 versions:
  - "1.6.1--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-microbiotaprocess"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiotaprocess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiotaprocess", "latest": {"1.6.1--r41hdfd78af_0": "sha256:d141d9822d1e21216d3bbdbc938946c16ba01b6361a9db6721d96d86ad2598c4"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:d141d9822d1e21216d3bbdbc938946c16ba01b6361a9db6721d96d86ad2598c4"}, "docker": "quay.io/biocontainers/bioconductor-microbiotaprocess"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-microbiotaprocess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-microbiotaprocess", "latest": {"1.10.0--r42hdfd78af_0": "sha256:ed4fdfb7c9bd8f733935e46192d26a9cb92a645a863d43c6bc7fe2a020502145"}, "tags": {"1.6.1--r41hdfd78af_0": "sha256:d141d9822d1e21216d3bbdbc938946c16ba01b6361a9db6721d96d86ad2598c4", "1.10.0--r42hdfd78af_0": "sha256:ed4fdfb7c9bd8f733935e46192d26a9cb92a645a863d43c6bc7fe2a020502145"}, "docker": "quay.io/biocontainers/bioconductor-microbiotaprocess"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-microbiotaprocess.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-microbiotaprocess
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-microbiotaprocess:1.6.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-microbiotaprocess:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-microbiotaprocess/1.6.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-microbiotaprocess/1.6.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-microbiotaprocess/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-microbiotaprocess/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

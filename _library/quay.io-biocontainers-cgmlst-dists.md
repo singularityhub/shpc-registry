@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cgmlst-dists"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgmlst-dists/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgmlst-dists/container.yaml"
-updated_at: "2022-11-05 00:18:04.706280"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgmlst-dists/container.yaml"
+updated_at: "2022-11-06 00:32:07.276322"
 latest: "0.4.0--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/cgmlst-dists"
 aliases:

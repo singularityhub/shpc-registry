@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-ibh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ibh/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ibh/container.yaml"
-updated_at: "2022-11-05 00:52:10.255335"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ibh/container.yaml"
+updated_at: "2022-11-06 00:56:38.818987"
 latest: "1.42.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ibh"
 

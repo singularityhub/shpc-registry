@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/samtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/samtools/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/samtools/container.yaml"
-updated_at: "2022-11-05 00:54:45.333011"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/samtools/container.yaml"
+updated_at: "2022-11-06 00:58:30.810426"
 latest: "1.14"
 container_url: "https://github.com/orgs/autamus/packages/container/package/samtools"
 aliases:
@@ -43,7 +43,7 @@ $ shpc install ghcr.io/autamus/samtools
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/samtools:1.12
+$ shpc install ghcr.io/autamus/samtools:1.14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/samtools/1.12
-$ module help ghcr.io/autamus/samtools/1.12
+$ module load ghcr.io/autamus/samtools/1.14
+$ module help ghcr.io/autamus/samtools/1.14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

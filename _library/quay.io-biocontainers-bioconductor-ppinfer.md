@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-ppinfer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
-updated_at: "2022-11-04 23:59:42.059969"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ppinfer/container.yaml"
+updated_at: "2022-11-06 00:18:52.139758"
 latest: "1.20.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ppinfer"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ppinfer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ppinfer:1.8.1--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-ppinfer:1.20.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ppinfer/1.8.1--r351_0
-$ module help quay.io/biocontainers/bioconductor-ppinfer/1.8.1--r351_0
+$ module load quay.io/biocontainers/bioconductor-ppinfer/1.20.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ppinfer/1.20.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/sequana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sequana/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sequana/container.yaml"
-updated_at: "2022-11-05 00:22:03.814831"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sequana/container.yaml"
+updated_at: "2022-11-06 00:34:58.214291"
 latest: "0.14.3--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/sequana"
 
@@ -28,7 +28,7 @@ $ shpc install quay.io/biocontainers/sequana
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sequana:0.8.2--py36h4c5857e_1
+$ shpc install quay.io/biocontainers/sequana:0.14.3--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sequana/0.8.2--py36h4c5857e_1
-$ module help quay.io/biocontainers/sequana/0.8.2--py36h4c5857e_1
+$ module load quay.io/biocontainers/sequana/0.14.3--pyh7cba7a3_0
+$ module help quay.io/biocontainers/sequana/0.14.3--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

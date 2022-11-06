@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/nucdiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nucdiff/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nucdiff/container.yaml"
-updated_at: "2022-11-05 00:34:06.945676"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nucdiff/container.yaml"
+updated_at: "2022-11-06 00:43:37.638900"
 latest: "2.0.3--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/nucdiff"
 aliases:

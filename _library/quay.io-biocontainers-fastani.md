@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastani/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastani/container.yaml"
-updated_at: "2022-11-05 00:52:05.901712"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastani/container.yaml"
+updated_at: "2022-11-06 00:56:35.659964"
 latest: "1.33--h0fdf51a_1"
 container_url: "https://biocontainers.pro/tools/fastani"
 aliases:

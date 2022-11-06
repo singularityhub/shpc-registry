@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/container.yaml"
-updated_at: "2022-11-05 00:35:10.077811"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/container.yaml"
+updated_at: "2022-11-06 00:44:22.865958"
 latest: "3.12.0--r41hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene:3.4.6--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene:3.12.0--r41hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/3.4.6--r36_1
-$ module help quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/3.4.6--r36_1
+$ module load quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/3.12.0--r41hdfd78af_4
+$ module help quay.io/biocontainers/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/3.12.0--r41hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

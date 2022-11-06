@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/libopenms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libopenms/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/libopenms/container.yaml"
-updated_at: "2022-11-05 00:44:43.406340"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libopenms/container.yaml"
+updated_at: "2022-11-06 00:51:15.888251"
 latest: "2.8.0--h7ca0330_3"
 container_url: "https://biocontainers.pro/tools/libopenms"
 aliases:

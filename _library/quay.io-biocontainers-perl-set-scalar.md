@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-set-scalar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-set-scalar/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-set-scalar/container.yaml"
-updated_at: "2022-11-05 00:28:34.918475"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-set-scalar/container.yaml"
+updated_at: "2022-11-06 00:39:39.231756"
 latest: "1.29--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-set-scalar"
 aliases:

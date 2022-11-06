@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/gbsx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gbsx/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gbsx/container.yaml"
-updated_at: "2022-11-05 00:38:42.310993"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gbsx/container.yaml"
+updated_at: "2022-11-06 00:46:55.265619"
 latest: "1.3--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gbsx"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/atlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/atlas/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/atlas/container.yaml"
-updated_at: "2022-11-05 00:05:40.874865"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/atlas/container.yaml"
+updated_at: "2022-11-06 00:23:10.811692"
 latest: "0.9.9--h42556f1_1"
 container_url: "https://biocontainers.pro/tools/atlas"
 aliases:

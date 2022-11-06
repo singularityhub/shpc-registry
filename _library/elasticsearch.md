@@ -3,8 +3,8 @@ layout: container
 name:  "elasticsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/elasticsearch/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/elasticsearch/container.yaml"
-updated_at: "2022-11-05 00:55:35.227110"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/elasticsearch/container.yaml"
+updated_at: "2022-11-06 00:59:06.662011"
 latest: "8.4.2"
 container_url: "https://hub.docker.com/_/elasticsearch"
 aliases:
@@ -67,7 +67,7 @@ $ shpc install elasticsearch
 Or a specific version:
 
 ```bash
-$ shpc install elasticsearch:7.12.0
+$ shpc install elasticsearch:8.4.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +79,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load elasticsearch/7.12.0
-$ module help elasticsearch/7.12.0
+$ module load elasticsearch/8.4.2
+$ module help elasticsearch/8.4.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

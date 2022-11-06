@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/trnascan-se"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnascan-se/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/trnascan-se/container.yaml"
-updated_at: "2022-11-05 00:12:24.818430"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trnascan-se/container.yaml"
+updated_at: "2022-11-06 00:28:01.192491"
 latest: "2.0.11--pl5321hec16e2b_0"
 container_url: "https://biocontainers.pro/tools/trnascan-se"
 aliases:
@@ -46,7 +46,7 @@ $ shpc install quay.io/biocontainers/trnascan-se
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trnascan-se:2.0.9--pl5321hec16e2b_3
+$ shpc install quay.io/biocontainers/trnascan-se:2.0.11--pl5321hec16e2b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trnascan-se/2.0.9--pl5321hec16e2b_3
-$ module help quay.io/biocontainers/trnascan-se/2.0.9--pl5321hec16e2b_3
+$ module load quay.io/biocontainers/trnascan-se/2.0.11--pl5321hec16e2b_0
+$ module help quay.io/biocontainers/trnascan-se/2.0.11--pl5321hec16e2b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

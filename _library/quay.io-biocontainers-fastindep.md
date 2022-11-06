@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastindep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastindep/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastindep/container.yaml"
-updated_at: "2022-11-05 00:33:23.004320"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastindep/container.yaml"
+updated_at: "2022-11-06 00:43:05.898742"
 latest: "1.0.0--h9f5acd7_4"
 container_url: "https://biocontainers.pro/tools/fastindep"
 aliases:

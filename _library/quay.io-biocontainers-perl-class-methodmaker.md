@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-class-methodmaker"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-class-methodmaker/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-methodmaker/container.yaml"
-updated_at: "2022-11-05 00:47:22.557944"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-class-methodmaker/container.yaml"
+updated_at: "2022-11-06 00:53:10.765918"
 latest: "2.24--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-class-methodmaker"
 aliases:

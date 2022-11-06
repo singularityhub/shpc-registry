@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-funchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
-updated_at: "2022-11-05 00:07:00.882700"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-funchip/container.yaml"
+updated_at: "2022-11-06 00:24:08.502572"
 latest: "1.20.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-funchip"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-funchip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-funchip:1.8.0--r351hf484d3e_0
+$ shpc install quay.io/biocontainers/bioconductor-funchip:1.20.0--r41hc247a5b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-funchip/1.8.0--r351hf484d3e_0
-$ module help quay.io/biocontainers/bioconductor-funchip/1.8.0--r351hf484d3e_0
+$ module load quay.io/biocontainers/bioconductor-funchip/1.20.0--r41hc247a5b_2
+$ module help quay.io/biocontainers/bioconductor-funchip/1.20.0--r41hc247a5b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-hopach"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hopach/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hopach/container.yaml"
-updated_at: "2022-11-05 00:18:13.038213"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hopach/container.yaml"
+updated_at: "2022-11-06 00:32:13.318965"
 latest: "2.54.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-hopach"
 

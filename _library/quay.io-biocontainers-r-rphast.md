@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-rphast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rphast/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-rphast/container.yaml"
-updated_at: "2022-11-05 00:01:57.385865"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rphast/container.yaml"
+updated_at: "2022-11-06 00:20:29.767470"
 latest: "1.6.9--r41h73dbb54_7"
 container_url: "https://biocontainers.pro/tools/r-rphast"
 

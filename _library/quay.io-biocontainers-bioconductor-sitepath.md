@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-sitepath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sitepath/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sitepath/container.yaml"
-updated_at: "2022-11-05 00:28:22.592875"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sitepath/container.yaml"
+updated_at: "2022-11-06 00:39:30.354247"
 latest: "1.8.0--r41h399db7b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sitepath"
 aliases:

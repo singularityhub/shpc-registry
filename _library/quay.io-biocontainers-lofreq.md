@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/lofreq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lofreq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/lofreq/container.yaml"
-updated_at: "2022-11-05 00:01:43.025337"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lofreq/container.yaml"
+updated_at: "2022-11-06 00:20:19.424230"
 latest: "2.1.5--py38ha1fcc84_8"
 container_url: "https://biocontainers.pro/tools/lofreq"
 aliases:
@@ -25,8 +25,9 @@ aliases:
  - "md5fa"
 versions:
  - "2.1.5--py38ha1fcc84_8"
+ - "broken---2.5.1--py38h1bd3507_2"
 description: "shpc-registry automated BioContainers addition for lofreq"
-config: {"url": "https://biocontainers.pro/tools/lofreq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lofreq", "latest": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8"}, "tags": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8"}, "docker": "quay.io/biocontainers/lofreq", "aliases": {"lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
+config: {"url": "https://biocontainers.pro/tools/lofreq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lofreq", "latest": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8"}, "tags": {"2.1.5--py38ha1fcc84_8": "sha256:d5d773ded7be9fa618fa7475ba11b3761e46099f1f01618e39b097e2ddddb0b8", "broken---2.5.1--py38h1bd3507_2": "sha256:680ed9df39b5c5b13e60cedae5dc5f9a9a92cbc152d42b06a143c0865aaea932"}, "docker": "quay.io/biocontainers/lofreq", "aliases": {"lofreq": "/usr/local/bin/lofreq", "lofreq2_call_pparallel.py": "/usr/local/bin/lofreq2_call_pparallel.py", "lofreq2_indel_ovlp.py": "/usr/local/bin/lofreq2_indel_ovlp.py", "lofreq2_somatic.py": "/usr/local/bin/lofreq2_somatic.py", "lofreq2_vcfplot.py": "/usr/local/bin/lofreq2_vcfplot.py", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl", "bowtie2sam.pl": "/usr/local/bin/bowtie2sam.pl", "export2sam.pl": "/usr/local/bin/export2sam.pl", "interpolate_sam.pl": "/usr/local/bin/interpolate_sam.pl", "maq2sam-long": "/usr/local/bin/maq2sam-long", "maq2sam-short": "/usr/local/bin/maq2sam-short", "md5fa": "/usr/local/bin/md5fa"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lofreq.

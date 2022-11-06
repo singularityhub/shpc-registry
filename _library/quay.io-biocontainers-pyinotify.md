@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pyinotify"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyinotify/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyinotify/container.yaml"
-updated_at: "2022-11-05 00:34:25.034400"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyinotify/container.yaml"
+updated_at: "2022-11-06 00:43:50.591835"
 latest: "0.9.6--py35_0"
 container_url: "https://biocontainers.pro/tools/pyinotify"
 aliases:

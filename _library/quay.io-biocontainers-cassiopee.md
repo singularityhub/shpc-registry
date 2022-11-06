@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cassiopee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cassiopee/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cassiopee/container.yaml"
-updated_at: "2022-11-05 00:34:20.642250"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cassiopee/container.yaml"
+updated_at: "2022-11-06 00:43:47.431327"
 latest: "1.0.9--hc0e6a75_4"
 container_url: "https://biocontainers.pro/tools/cassiopee"
 aliases:

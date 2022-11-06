@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/scikit-image"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scikit-image/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-image/container.yaml"
-updated_at: "2022-11-05 00:32:23.280898"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scikit-image/container.yaml"
+updated_at: "2022-11-06 00:42:22.845069"
 latest: "0.14.0--py36hfc679d8_1"
 container_url: "https://biocontainers.pro/tools/scikit-image"
 aliases:
@@ -20,8 +20,9 @@ aliases:
  - "gst-device-monitor-1.0"
 versions:
  - "0.14.0--py36hfc679d8_1"
+ - "0.14.0"
 description: "shpc-registry automated BioContainers addition for scikit-image"
-config: {"url": "https://biocontainers.pro/tools/scikit-image", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-image", "latest": {"0.14.0--py36hfc679d8_1": "sha256:bff85e573f89e13c82a362d2dfcbea165567e2460cb425c2fa40ff78ac8c0875"}, "tags": {"0.14.0--py36hfc679d8_1": "sha256:bff85e573f89e13c82a362d2dfcbea165567e2460cb425c2fa40ff78ac8c0875"}, "docker": "quay.io/biocontainers/scikit-image", "aliases": {"imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0"}}
+config: {"url": "https://biocontainers.pro/tools/scikit-image", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scikit-image", "latest": {"0.14.0--py36hfc679d8_1": "sha256:bff85e573f89e13c82a362d2dfcbea165567e2460cb425c2fa40ff78ac8c0875"}, "tags": {"0.14.0--py36hfc679d8_1": "sha256:bff85e573f89e13c82a362d2dfcbea165567e2460cb425c2fa40ff78ac8c0875", "0.14.0": "sha256:5c4ddcce2406cc3ad6d5d7271ab75ac24ec50cc573ec49f040567cdb94a5f786"}, "docker": "quay.io/biocontainers/scikit-image", "aliases": {"imageio_download_bin": "/usr/local/bin/imageio_download_bin", "imageio_remove_bin": "/usr/local/bin/imageio_remove_bin", "skivi": "/usr/local/bin/skivi", "qhelpconverter": "/usr/local/bin/qhelpconverter", "pylupdate5": "/usr/local/bin/pylupdate5", "pyrcc5": "/usr/local/bin/pyrcc5", "pyuic5": "/usr/local/bin/pyuic5", "sip": "/usr/local/bin/sip", "qdoc": "/usr/local/bin/qdoc", "gst-device-monitor-1.0": "/usr/local/bin/gst-device-monitor-1.0"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scikit-image.

@@ -3,8 +3,8 @@ layout: container
 name:  "openjdk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/openjdk/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/openjdk/container.yaml"
-updated_at: "2022-11-05 00:55:33.996468"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/openjdk/container.yaml"
+updated_at: "2022-11-06 00:59:05.802156"
 latest: "20"
 container_url: "https://hub.docker.com/_/openjdk"
 aliases:
@@ -65,7 +65,7 @@ $ shpc install openjdk
 Or a specific version:
 
 ```bash
-$ shpc install openjdk:16.0.1-buster
+$ shpc install openjdk:20
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +77,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load openjdk/16.0.1-buster
-$ module help openjdk/16.0.1-buster
+$ module load openjdk/20
+$ module help openjdk/20
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

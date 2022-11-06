@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/container.yaml"
-updated_at: "2022-11-05 00:16:48.660488"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaseqdata.hnrnpc.bam.chr14/container.yaml"
+updated_at: "2022-11-06 00:31:12.313974"
 latest: "0.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaseqdata.hnrnpc.bam.chr14"
 aliases:

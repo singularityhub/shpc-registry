@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-pod-elemental"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-pod-elemental/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-elemental/container.yaml"
-updated_at: "2022-11-05 00:05:54.015196"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-pod-elemental/container.yaml"
+updated_at: "2022-11-06 00:23:20.251580"
 latest: "0.103005--pl5321hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/perl-pod-elemental"
 aliases:

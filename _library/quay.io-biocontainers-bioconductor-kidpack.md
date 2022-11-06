@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-kidpack"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-kidpack/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kidpack/container.yaml"
-updated_at: "2022-11-05 00:06:35.075635"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-kidpack/container.yaml"
+updated_at: "2022-11-06 00:23:49.874324"
 latest: "1.36.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-kidpack"
 aliases:

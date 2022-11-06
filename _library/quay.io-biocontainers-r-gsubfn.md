@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-gsubfn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gsubfn/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-gsubfn/container.yaml"
-updated_at: "2022-11-05 00:00:22.194525"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gsubfn/container.yaml"
+updated_at: "2022-11-06 00:19:21.110626"
 latest: "0.6_6--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-gsubfn"
 aliases:

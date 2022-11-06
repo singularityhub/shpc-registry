@@ -3,8 +3,8 @@ layout: container
 name:  "kibana"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/kibana/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/kibana/container.yaml"
-updated_at: "2022-11-05 00:55:38.492519"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/kibana/container.yaml"
+updated_at: "2022-11-06 00:59:08.971594"
 latest: "8.4.2"
 container_url: "https://hub.docker.com/_/kibana"
 aliases:
@@ -51,7 +51,7 @@ $ shpc install kibana
 Or a specific version:
 
 ```bash
-$ shpc install kibana:7.12.0
+$ shpc install kibana:8.4.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -63,8 +63,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load kibana/7.12.0
-$ module help kibana/7.12.0
+$ module load kibana/8.4.2
+$ module help kibana/8.4.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

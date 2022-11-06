@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/decoypyrat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/decoypyrat/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/decoypyrat/container.yaml"
-updated_at: "2022-11-05 00:08:10.663142"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/decoypyrat/container.yaml"
+updated_at: "2022-11-06 00:24:58.570162"
 latest: "1.0.1--py_0"
 container_url: "https://biocontainers.pro/tools/decoypyrat"
 aliases:

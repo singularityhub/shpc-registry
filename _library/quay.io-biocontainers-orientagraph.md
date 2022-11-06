@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/orientagraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/orientagraph/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/orientagraph/container.yaml"
-updated_at: "2022-11-05 00:13:07.268993"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/orientagraph/container.yaml"
+updated_at: "2022-11-06 00:28:32.315408"
 latest: "1.1--h52d0f6c_2"
 container_url: "https://biocontainers.pro/tools/orientagraph"
 aliases:

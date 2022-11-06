@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-datetime"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-datetime/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime/container.yaml"
-updated_at: "2022-11-05 00:24:37.079146"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-datetime/container.yaml"
+updated_at: "2022-11-06 00:36:48.048652"
 latest: "1.59--pl5321h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/perl-datetime"
 
@@ -27,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-datetime
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-datetime:1.58--pl5321h9f5acd7_1
+$ shpc install quay.io/biocontainers/perl-datetime:1.59--pl5321h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-datetime/1.58--pl5321h9f5acd7_1
-$ module help quay.io/biocontainers/perl-datetime/1.58--pl5321h9f5acd7_1
+$ module load quay.io/biocontainers/perl-datetime/1.59--pl5321h9f5acd7_0
+$ module help quay.io/biocontainers/perl-datetime/1.59--pl5321h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/gb_taxonomy_tools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gb_taxonomy_tools/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gb_taxonomy_tools/container.yaml"
-updated_at: "2022-11-05 00:25:20.712758"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gb_taxonomy_tools/container.yaml"
+updated_at: "2022-11-06 00:37:19.401690"
 latest: "1.0.1--h87f3376_3"
 container_url: "https://biocontainers.pro/tools/gb_taxonomy_tools"
 aliases:

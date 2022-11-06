@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-tibble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tibble/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-tibble/container.yaml"
-updated_at: "2022-11-05 00:47:23.350993"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tibble/container.yaml"
+updated_at: "2022-11-06 00:53:11.340341"
 latest: "1.2--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-tibble"
 aliases:

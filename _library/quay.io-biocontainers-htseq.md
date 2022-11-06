@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/htseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/htseq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/htseq/container.yaml"
-updated_at: "2022-11-05 00:28:43.648470"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/htseq/container.yaml"
+updated_at: "2022-11-06 00:39:45.532540"
 latest: "0.12.4--py36h39af1c6_1"
 container_url: "https://biocontainers.pro/tools/htseq"
 aliases:
@@ -40,7 +40,7 @@ $ shpc install quay.io/biocontainers/htseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/htseq:0.9.1--py37h70f9b12_3
+$ shpc install quay.io/biocontainers/htseq:0.12.4--py36h39af1c6_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/htseq/0.9.1--py37h70f9b12_3
-$ module help quay.io/biocontainers/htseq/0.9.1--py37h70f9b12_3
+$ module load quay.io/biocontainers/htseq/0.12.4--py36h39af1c6_1
+$ module help quay.io/biocontainers/htseq/0.12.4--py36h39af1c6_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

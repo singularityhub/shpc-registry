@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/opentargets-urlzsource"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/opentargets-urlzsource/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets-urlzsource/container.yaml"
-updated_at: "2022-11-05 00:16:24.807094"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/opentargets-urlzsource/container.yaml"
+updated_at: "2022-11-06 00:30:55.113052"
 latest: "1.0.0--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/opentargets-urlzsource"
 aliases:

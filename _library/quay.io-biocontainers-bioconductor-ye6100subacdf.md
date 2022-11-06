@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-ye6100subacdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ye6100subacdf/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ye6100subacdf/container.yaml"
-updated_at: "2022-11-05 00:17:43.156409"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ye6100subacdf/container.yaml"
+updated_at: "2022-11-06 00:31:51.719047"
 latest: "2.18.0--r41hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-ye6100subacdf"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/elector"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/elector/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/elector/container.yaml"
-updated_at: "2022-11-05 00:50:38.217879"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/elector/container.yaml"
+updated_at: "2022-11-06 00:55:32.158633"
 latest: "1.0.4--py36h4aaaa08_3"
 container_url: "https://biocontainers.pro/tools/elector"
 aliases:

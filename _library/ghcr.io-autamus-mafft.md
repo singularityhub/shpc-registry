@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/mafft"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/mafft/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/mafft/container.yaml"
-updated_at: "2022-11-05 00:55:20.795648"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/mafft/container.yaml"
+updated_at: "2022-11-06 00:58:56.364664"
 latest: "7.481"
 container_url: "https://github.com/orgs/autamus/packages/container/package/mafft"
 aliases:
@@ -40,7 +40,7 @@ $ shpc install ghcr.io/autamus/mafft
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/mafft:7.475
+$ shpc install ghcr.io/autamus/mafft:7.481
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/mafft/7.475
-$ module help ghcr.io/autamus/mafft/7.475
+$ module load ghcr.io/autamus/mafft/7.481
+$ module help ghcr.io/autamus/mafft/7.481
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

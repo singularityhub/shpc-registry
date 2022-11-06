@@ -3,15 +3,16 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-diggit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diggit/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diggit/container.yaml"
-updated_at: "2022-11-05 00:27:29.713665"
-latest: "1.26.0--r41hdfd78af_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diggit/container.yaml"
+updated_at: "2022-11-06 00:38:52.160948"
+latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diggit"
 
 versions:
  - "1.26.0--r41hdfd78af_0"
+ - "1.30.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diggit"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diggit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diggit", "latest": {"1.26.0--r41hdfd78af_0": "sha256:9e7db64c71e69772e4f242c61d9d135165ee72e071655949fcc70e7a4ebe8911"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:9e7db64c71e69772e4f242c61d9d135165ee72e071655949fcc70e7a4ebe8911"}, "docker": "quay.io/biocontainers/bioconductor-diggit"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diggit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diggit", "latest": {"1.30.0--r42hdfd78af_0": "sha256:2001e03d72a28854fc6201217164635f6b119899e452ff2e150f3548fd799ec9"}, "tags": {"1.26.0--r41hdfd78af_0": "sha256:9e7db64c71e69772e4f242c61d9d135165ee72e071655949fcc70e7a4ebe8911", "1.30.0--r42hdfd78af_0": "sha256:2001e03d72a28854fc6201217164635f6b119899e452ff2e150f3548fd799ec9"}, "docker": "quay.io/biocontainers/bioconductor-diggit"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diggit.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-diggit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-diggit:1.26.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-diggit:1.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-diggit/1.26.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-diggit/1.26.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-diggit/1.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-diggit/1.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

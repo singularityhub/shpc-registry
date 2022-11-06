@@ -3,8 +3,8 @@ layout: container
 name:  "uvarc/qiime2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/uvarc/qiime2/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/uvarc/qiime2/container.yaml"
-updated_at: "2022-11-05 00:55:36.442206"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/uvarc/qiime2/container.yaml"
+updated_at: "2022-11-06 00:59:07.526463"
 latest: "2022.2"
 container_url: "https://hub.docker.com/r/uvarc/qiime2"
 
@@ -27,7 +27,7 @@ $ shpc install uvarc/qiime2
 Or a specific version:
 
 ```bash
-$ shpc install uvarc/qiime2:2020.8
+$ shpc install uvarc/qiime2:2022.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load uvarc/qiime2/2020.8
-$ module help uvarc/qiime2/2020.8
+$ module load uvarc/qiime2/2022.2
+$ module help uvarc/qiime2/2022.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

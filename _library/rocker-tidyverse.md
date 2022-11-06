@@ -3,8 +3,8 @@ layout: container
 name:  "rocker/tidyverse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/tidyverse/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
-updated_at: "2022-11-05 00:54:17.571602"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/tidyverse/container.yaml"
+updated_at: "2022-11-06 00:58:10.689167"
 latest: "latest-daily"
 container_url: "https://hub.docker.com/r/rocker/tidyverse"
 aliases:
@@ -35,7 +35,7 @@ $ shpc install rocker/tidyverse
 Or a specific version:
 
 ```bash
-$ shpc install rocker/tidyverse:latest
+$ shpc install rocker/tidyverse:latest-daily
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/tidyverse/latest
-$ module help rocker/tidyverse/latest
+$ module load rocker/tidyverse/latest-daily
+$ module help rocker/tidyverse/latest-daily
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

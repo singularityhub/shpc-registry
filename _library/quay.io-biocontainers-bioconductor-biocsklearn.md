@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-biocsklearn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biocsklearn/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocsklearn/container.yaml"
-updated_at: "2022-11-05 00:26:05.359745"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biocsklearn/container.yaml"
+updated_at: "2022-11-06 00:37:51.302446"
 latest: "1.16.0--py38r41h22d1e0a_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-biocsklearn"
 aliases:
@@ -40,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biocsklearn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biocsklearn:1.8.0--pyr36h5ca1d4c_0
+$ shpc install quay.io/biocontainers/bioconductor-biocsklearn:1.16.0--py38r41h22d1e0a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biocsklearn/1.8.0--pyr36h5ca1d4c_0
-$ module help quay.io/biocontainers/bioconductor-biocsklearn/1.8.0--pyr36h5ca1d4c_0
+$ module load quay.io/biocontainers/bioconductor-biocsklearn/1.16.0--py38r41h22d1e0a_3
+$ module help quay.io/biocontainers/bioconductor-biocsklearn/1.16.0--py38r41h22d1e0a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "redis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/redis/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/redis/container.yaml"
-updated_at: "2022-11-05 00:54:18.373327"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/redis/container.yaml"
+updated_at: "2022-11-06 00:58:11.271939"
 latest: "7-alpine3.16"
 container_url: "https://hub.docker.com/r/_/redis"
 aliases:
@@ -45,7 +45,7 @@ $ shpc install redis
 Or a specific version:
 
 ```bash
-$ shpc install redis:6.2.3-alpine
+$ shpc install redis:7-alpine3.16
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load redis/6.2.3-alpine
-$ module help redis/6.2.3-alpine
+$ module load redis/7-alpine3.16
+$ module help redis/7-alpine3.16
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/strling"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/strling/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/strling/container.yaml"
-updated_at: "2022-11-05 00:05:22.156247"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/strling/container.yaml"
+updated_at: "2022-11-06 00:22:57.380298"
 latest: "0.5.1--h8a6b41c_3"
 container_url: "https://biocontainers.pro/tools/strling"
 aliases:

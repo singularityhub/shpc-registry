@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/rebaler"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rebaler/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rebaler/container.yaml"
-updated_at: "2022-11-05 00:13:26.715252"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rebaler/container.yaml"
+updated_at: "2022-11-06 00:28:46.362970"
 latest: "0.2.0--py_1"
 container_url: "https://biocontainers.pro/tools/rebaler"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/alignlib-lite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/alignlib-lite/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/alignlib-lite/container.yaml"
-updated_at: "2022-11-05 00:38:37.941083"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/alignlib-lite/container.yaml"
+updated_at: "2022-11-06 00:46:52.122727"
 latest: "0.3--py39he1fd14c_5"
 container_url: "https://biocontainers.pro/tools/alignlib-lite"
 aliases:

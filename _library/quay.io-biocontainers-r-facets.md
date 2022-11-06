@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-facets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-facets/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-facets/container.yaml"
-updated_at: "2022-11-05 00:26:44.302946"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-facets/container.yaml"
+updated_at: "2022-11-06 00:38:19.398539"
 latest: "0.6.2--r41h1107714_1"
 container_url: "https://biocontainers.pro/tools/r-facets"
 

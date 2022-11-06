@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/clust"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clust/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/clust/container.yaml"
-updated_at: "2022-11-05 00:03:55.983088"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clust/container.yaml"
+updated_at: "2022-11-06 00:21:55.215311"
 latest: "1.8.9--py27h24bf2e0_0"
 container_url: "https://biocontainers.pro/tools/clust"
 aliases:

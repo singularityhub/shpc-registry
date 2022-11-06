@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/vcftools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcftools/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vcftools/container.yaml"
-updated_at: "2022-11-05 00:46:37.952706"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcftools/container.yaml"
+updated_at: "2022-11-06 00:52:38.656562"
 latest: "0.1.16--pl5321hd03093a_7"
 container_url: "https://biocontainers.pro/tools/vcftools"
 aliases:
@@ -38,7 +38,7 @@ $ shpc install quay.io/biocontainers/vcftools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vcftools:0.1.15--he941832_2
+$ shpc install quay.io/biocontainers/vcftools:0.1.16--pl5321hd03093a_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vcftools/0.1.15--he941832_2
-$ module help quay.io/biocontainers/vcftools/0.1.15--he941832_2
+$ module load quay.io/biocontainers/vcftools/0.1.16--pl5321hd03093a_7
+$ module help quay.io/biocontainers/vcftools/0.1.16--pl5321hd03093a_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

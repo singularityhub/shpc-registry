@@ -3,8 +3,8 @@ layout: container
 name:  "rocker/ml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/rocker/ml/container.yaml"
-updated_at: "2022-11-05 00:54:15.978172"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/ml/container.yaml"
+updated_at: "2022-11-06 00:58:09.546898"
 latest: "latest"
 container_url: "https://hub.docker.com/r/rocker/ml"
 aliases:
@@ -18,7 +18,7 @@ aliases:
 versions:
  - "latest"
 description: "Docker images with R + machine learning libraries (CPU versions)."
-config: {"docker": "rocker/ml", "url": "https://hub.docker.com/r/rocker/ml", "maintainer": "@vsoch", "description": "Docker images with R + machine learning libraries (CPU versions).", "latest": {"latest": "sha256:0c7650114d5d84d7367a9c8ba3431c4a5a32e0b1cc7cf6156b0120fa926fd5a7"}, "tags": {"latest": "sha256:0c7650114d5d84d7367a9c8ba3431c4a5a32e0b1cc7cf6156b0120fa926fd5a7"}, "filter": ["latest"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/ml", "url": "https://hub.docker.com/r/rocker/ml", "maintainer": "@vsoch", "description": "Docker images with R + machine learning libraries (CPU versions).", "latest": {"latest": "sha256:71fbffc1b0243874fc6672838e2b9f40b2c3d9bde2a6c727f30e10cbfa0735df"}, "tags": {"latest": "sha256:71fbffc1b0243874fc6672838e2b9f40b2c3d9bde2a6c727f30e10cbfa0735df"}, "filter": ["latest"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/ml.

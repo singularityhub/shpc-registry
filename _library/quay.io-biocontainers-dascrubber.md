@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/dascrubber"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dascrubber/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/dascrubber/container.yaml"
-updated_at: "2022-11-05 00:25:01.328654"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dascrubber/container.yaml"
+updated_at: "2022-11-06 00:37:05.541953"
 latest: "0.0.1a2--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/dascrubber"
 aliases:

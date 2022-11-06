@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-sesamedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sesamedata/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sesamedata/container.yaml"
-updated_at: "2022-11-05 00:49:19.689636"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sesamedata/container.yaml"
+updated_at: "2022-11-06 00:54:35.511736"
 latest: "1.8.1--r40hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sesamedata"
 aliases:

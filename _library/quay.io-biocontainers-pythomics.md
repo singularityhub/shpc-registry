@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pythomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pythomics/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pythomics/container.yaml"
-updated_at: "2022-11-05 00:37:58.551131"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pythomics/container.yaml"
+updated_at: "2022-11-06 00:46:23.685384"
 latest: "0.3.46--pyh864c0ab_2"
 container_url: "https://biocontainers.pro/tools/pythomics"
 aliases:

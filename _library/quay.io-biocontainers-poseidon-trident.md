@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/poseidon-trident"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poseidon-trident/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/poseidon-trident/container.yaml"
-updated_at: "2022-11-05 00:38:12.860172"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poseidon-trident/container.yaml"
+updated_at: "2022-11-06 00:46:34.019547"
 latest: "0.28.0--h9325052_0"
 container_url: "https://biocontainers.pro/tools/poseidon-trident"
 aliases:

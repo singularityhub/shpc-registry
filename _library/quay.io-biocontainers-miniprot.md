@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/miniprot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniprot/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/miniprot/container.yaml"
-updated_at: "2022-11-05 00:23:21.137775"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miniprot/container.yaml"
+updated_at: "2022-11-06 00:35:53.520294"
 latest: "0.4--h7132678_0"
 container_url: "https://biocontainers.pro/tools/miniprot"
 aliases:

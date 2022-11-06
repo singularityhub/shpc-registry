@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-sleuth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sleuth/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-sleuth/container.yaml"
-updated_at: "2022-11-05 00:10:20.989187"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sleuth/container.yaml"
+updated_at: "2022-11-06 00:26:32.051201"
 latest: "0.30.0--r41hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-sleuth"
 aliases:

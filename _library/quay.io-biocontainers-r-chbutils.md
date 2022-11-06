@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-chbutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-chbutils/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-chbutils/container.yaml"
-updated_at: "2022-11-04 23:59:31.358610"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-chbutils/container.yaml"
+updated_at: "2022-11-06 00:18:44.379553"
 latest: "0.1_2017_10_26--r41hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-chbutils"
 aliases:

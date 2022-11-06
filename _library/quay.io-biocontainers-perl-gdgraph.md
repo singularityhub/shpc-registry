@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-gdgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gdgraph/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gdgraph/container.yaml"
-updated_at: "2022-11-05 00:10:34.520423"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gdgraph/container.yaml"
+updated_at: "2022-11-06 00:26:41.784653"
 latest: "1.54--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-gdgraph"
 

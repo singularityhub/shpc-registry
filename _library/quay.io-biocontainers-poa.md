@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/poa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/poa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/poa/container.yaml"
-updated_at: "2022-11-05 00:04:39.213705"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/poa/container.yaml"
+updated_at: "2022-11-06 00:22:26.450088"
 latest: "2.0--hec16e2b_4"
 container_url: "https://biocontainers.pro/tools/poa"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-lumihumanidmapping"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumihumanidmapping/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumihumanidmapping/container.yaml"
-updated_at: "2022-11-05 00:41:55.633755"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumihumanidmapping/container.yaml"
+updated_at: "2022-11-06 00:49:15.046213"
 latest: "1.10.1--r41hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumihumanidmapping"
 aliases:

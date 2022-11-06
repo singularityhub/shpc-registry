@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/weeder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/weeder/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/weeder/container.yaml"
-updated_at: "2022-11-05 00:07:54.726140"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/weeder/container.yaml"
+updated_at: "2022-11-06 00:24:47.180811"
 latest: "2.0--h9f5acd7_6"
 container_url: "https://biocontainers.pro/tools/weeder"
 aliases:

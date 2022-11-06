@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-liger"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-liger/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-liger/container.yaml"
-updated_at: "2022-11-05 00:45:37.947627"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-liger/container.yaml"
+updated_at: "2022-11-06 00:51:55.316172"
 latest: "1.0.0--r41h3b3379e_1"
 container_url: "https://biocontainers.pro/tools/r-liger"
 aliases:

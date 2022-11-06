@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/verifyidintensity"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verifyidintensity/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/verifyidintensity/container.yaml"
-updated_at: "2022-11-05 00:28:06.695635"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verifyidintensity/container.yaml"
+updated_at: "2022-11-06 00:39:18.886031"
 latest: "0.0.1--h7ff8a90_2"
 container_url: "https://biocontainers.pro/tools/verifyidintensity"
 aliases:

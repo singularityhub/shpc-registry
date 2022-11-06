@@ -3,8 +3,8 @@ layout: container
 name:  "mariadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/mariadb/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/mariadb/container.yaml"
-updated_at: "2022-11-05 00:54:15.582810"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/mariadb/container.yaml"
+updated_at: "2022-11-06 00:58:09.261994"
 latest: "10.10-rc"
 container_url: "https://hub.docker.com/r/_/mariadb"
 aliases:
@@ -75,7 +75,7 @@ $ shpc install mariadb
 Or a specific version:
 
 ```bash
-$ shpc install mariadb:10.5.9-focal
+$ shpc install mariadb:10.10-rc
 ```
 
 And then you can tell lmod about your modules folder:
@@ -87,8 +87,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load mariadb/10.5.9-focal
-$ module help mariadb/10.5.9-focal
+$ module load mariadb/10.10-rc
+$ module help mariadb/10.10-rc
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

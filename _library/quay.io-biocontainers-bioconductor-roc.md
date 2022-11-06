@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-roc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roc/container.yaml"
-updated_at: "2022-11-05 00:54:10.019409"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roc/container.yaml"
+updated_at: "2022-11-06 00:58:05.250312"
 latest: "1.70.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-roc"
 

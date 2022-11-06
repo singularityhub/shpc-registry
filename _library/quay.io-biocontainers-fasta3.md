@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fasta3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasta3/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fasta3/container.yaml"
-updated_at: "2022-11-05 00:03:27.830384"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasta3/container.yaml"
+updated_at: "2022-11-06 00:21:34.947730"
 latest: "36.3.8--hec16e2b_7"
 container_url: "https://biocontainers.pro/tools/fasta3"
 aliases:
@@ -79,7 +79,7 @@ $ shpc install quay.io/biocontainers/fasta3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fasta3:36.3.8h--hec16e2b_0
+$ shpc install quay.io/biocontainers/fasta3:36.3.8--hec16e2b_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -91,8 +91,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fasta3/36.3.8h--hec16e2b_0
-$ module help quay.io/biocontainers/fasta3/36.3.8h--hec16e2b_0
+$ module load quay.io/biocontainers/fasta3/36.3.8--hec16e2b_7
+$ module help quay.io/biocontainers/fasta3/36.3.8--hec16e2b_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

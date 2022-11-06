@@ -3,8 +3,8 @@ layout: container
 name:  "nvcr.io/nvidia/digits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia/digits/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/nvidia/digits/container.yaml"
-updated_at: "2022-11-05 00:55:53.203438"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia/digits/container.yaml"
+updated_at: "2022-11-06 00:59:19.596442"
 latest: "21.09-tensorflow-py3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia:digits/tags"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install nvcr.io/nvidia/digits
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/nvidia/digits:21.02-tensorflow-py3
+$ shpc install nvcr.io/nvidia/digits:21.09-tensorflow-py3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/nvidia/digits/21.02-tensorflow-py3
-$ module help nvcr.io/nvidia/digits/21.02-tensorflow-py3
+$ module load nvcr.io/nvidia/digits/21.09-tensorflow-py3
+$ module help nvcr.io/nvidia/digits/21.09-tensorflow-py3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/sailfish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sailfish/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sailfish/container.yaml"
-updated_at: "2022-11-05 00:47:47.128186"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sailfish/container.yaml"
+updated_at: "2022-11-06 00:53:28.542301"
 latest: "0.10.1--pl5321hf742e08_6"
 container_url: "https://biocontainers.pro/tools/sailfish"
 aliases:

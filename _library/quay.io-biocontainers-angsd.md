@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/angsd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/angsd/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/angsd/container.yaml"
-updated_at: "2022-11-05 00:46:33.980884"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/angsd/container.yaml"
+updated_at: "2022-11-06 00:52:35.796237"
 latest: "0.939--h470d46e_1"
 container_url: "https://biocontainers.pro/tools/angsd"
 aliases:

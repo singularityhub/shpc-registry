@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/geos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/geos/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/geos/container.yaml"
-updated_at: "2022-11-05 00:55:29.905067"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/geos/container.yaml"
+updated_at: "2022-11-06 00:59:02.941965"
 latest: "3.9.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/geos"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install ghcr.io/autamus/geos
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/geos:3.8.1
+$ shpc install ghcr.io/autamus/geos:3.9.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/geos/3.8.1
-$ module help ghcr.io/autamus/geos/3.8.1
+$ module load ghcr.io/autamus/geos/3.9.1
+$ module help ghcr.io/autamus/geos/3.9.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/piranha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piranha/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/piranha/container.yaml"
-updated_at: "2022-11-05 00:28:40.863847"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piranha/container.yaml"
+updated_at: "2022-11-06 00:39:43.523025"
 latest: "1.2.1--gsl2.2_bamtools2.4.1_5"
 container_url: "https://biocontainers.pro/tools/piranha"
 aliases:

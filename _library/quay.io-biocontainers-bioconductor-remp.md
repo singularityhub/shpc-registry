@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-remp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
-updated_at: "2022-11-05 00:04:49.934872"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-remp/container.yaml"
+updated_at: "2022-11-06 00:22:34.216295"
 latest: "1.8.1--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-remp"
 aliases:

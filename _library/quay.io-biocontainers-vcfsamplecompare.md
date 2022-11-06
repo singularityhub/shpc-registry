@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/vcfsamplecompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
-updated_at: "2022-11-05 00:34:04.937617"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vcfsamplecompare/container.yaml"
+updated_at: "2022-11-06 00:43:36.193086"
 latest: "v2.008--pl526_1"
 container_url: "https://biocontainers.pro/tools/vcfsamplecompare"
 aliases:

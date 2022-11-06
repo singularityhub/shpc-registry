@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/pandaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pandaseq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pandaseq/container.yaml"
-updated_at: "2022-11-05 00:14:08.808594"
-latest: "2.8.1--h67092d7_5"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pandaseq/container.yaml"
+updated_at: "2022-11-06 00:29:16.781779"
+latest: "2.11--h67092d7_6"
 container_url: "https://biocontainers.pro/tools/pandaseq"
 aliases:
  - "pandaseq"
@@ -15,8 +15,9 @@ aliases:
  - "pandaxs"
 versions:
  - "2.8.1--h67092d7_5"
+ - "2.11--h67092d7_6"
 description: "shpc-registry automated BioContainers addition for pandaseq"
-config: {"url": "https://biocontainers.pro/tools/pandaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandaseq", "latest": {"2.8.1--h67092d7_5": "sha256:1be33559ab6f1f426f99c2e0d8230f52643df009756da4a6e6ece0dbf04e5f18"}, "tags": {"2.8.1--h67092d7_5": "sha256:1be33559ab6f1f426f99c2e0d8230f52643df009756da4a6e6ece0dbf04e5f18"}, "docker": "quay.io/biocontainers/pandaseq", "aliases": {"pandaseq": "/usr/local/bin/pandaseq", "pandaseq-checkid": "/usr/local/bin/pandaseq-checkid", "pandaseq-diff": "/usr/local/bin/pandaseq-diff", "pandaseq-hang": "/usr/local/bin/pandaseq-hang", "pandaxs": "/usr/local/bin/pandaxs"}}
+config: {"url": "https://biocontainers.pro/tools/pandaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pandaseq", "latest": {"2.11--h67092d7_6": "sha256:9073ca60900d33d015cee556698c66e1eea806e9ef461ef723eea5643107a096"}, "tags": {"2.8.1--h67092d7_5": "sha256:1be33559ab6f1f426f99c2e0d8230f52643df009756da4a6e6ece0dbf04e5f18", "2.11--h67092d7_6": "sha256:9073ca60900d33d015cee556698c66e1eea806e9ef461ef723eea5643107a096"}, "docker": "quay.io/biocontainers/pandaseq", "aliases": {"pandaseq": "/usr/local/bin/pandaseq", "pandaseq-checkid": "/usr/local/bin/pandaseq-checkid", "pandaseq-diff": "/usr/local/bin/pandaseq-diff", "pandaseq-hang": "/usr/local/bin/pandaseq-hang", "pandaxs": "/usr/local/bin/pandaxs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pandaseq.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/pandaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pandaseq:2.8.1--h67092d7_5
+$ shpc install quay.io/biocontainers/pandaseq:2.11--h67092d7_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pandaseq/2.8.1--h67092d7_5
-$ module help quay.io/biocontainers/pandaseq/2.8.1--h67092d7_5
+$ module load quay.io/biocontainers/pandaseq/2.11--h67092d7_6
+$ module help quay.io/biocontainers/pandaseq/2.11--h67092d7_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-yapsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
-updated_at: "2022-11-05 00:44:27.837768"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yapsa/container.yaml"
+updated_at: "2022-11-06 00:51:04.676601"
 latest: "1.19.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yapsa"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-yapsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-yapsa:1.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-yapsa:1.19.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-yapsa/1.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-yapsa/1.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-yapsa/1.19.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-yapsa/1.19.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "bids/pymvpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/pymvpa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/pymvpa/container.yaml"
-updated_at: "2022-11-05 00:55:44.487090"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/pymvpa/container.yaml"
+updated_at: "2022-11-06 00:59:13.279189"
 latest: "v2.0.2"
 container_url: "https://hub.docker.com/r/bids/pymvpa"
 
@@ -27,7 +27,7 @@ $ shpc install bids/pymvpa
 Or a specific version:
 
 ```bash
-$ shpc install bids/pymvpa:latest
+$ shpc install bids/pymvpa:v2.0.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/pymvpa/latest
-$ module help bids/pymvpa/latest
+$ module load bids/pymvpa/v2.0.2
+$ module help bids/pymvpa/v2.0.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

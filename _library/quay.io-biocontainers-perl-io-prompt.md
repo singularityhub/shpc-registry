@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-io-prompt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-prompt/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-prompt/container.yaml"
-updated_at: "2022-11-05 00:10:41.323592"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-prompt/container.yaml"
+updated_at: "2022-11-06 00:26:46.678633"
 latest: "0.997004--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-io-prompt"
 aliases:

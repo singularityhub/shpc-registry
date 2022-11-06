@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/prequal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prequal/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/prequal/container.yaml"
-updated_at: "2022-11-05 00:06:04.368198"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prequal/container.yaml"
+updated_at: "2022-11-06 00:23:27.691160"
 latest: "1.02--hb97b32f_3"
 container_url: "https://biocontainers.pro/tools/prequal"
 aliases:

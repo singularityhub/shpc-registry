@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/augur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/augur/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/augur/container.yaml"
-updated_at: "2022-11-05 00:41:26.387182"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/augur/container.yaml"
+updated_at: "2022-11-06 00:48:54.025082"
 latest: "13.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/augur"
 aliases:
@@ -45,7 +45,7 @@ $ shpc install quay.io/biocontainers/augur
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/augur:9.0.0--py_1
+$ shpc install quay.io/biocontainers/augur:13.1.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/augur/9.0.0--py_1
-$ module help quay.io/biocontainers/augur/9.0.0--py_1
+$ module load quay.io/biocontainers/augur/13.1.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/augur/13.1.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

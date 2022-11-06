@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/py-libensemble"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/py-libensemble/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/py-libensemble/container.yaml"
-updated_at: "2022-11-05 00:55:22.377975"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/py-libensemble/container.yaml"
+updated_at: "2022-11-06 00:58:57.502098"
 latest: "0.8.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/py-libensemble"
 
@@ -28,7 +28,7 @@ $ shpc install ghcr.io/autamus/py-libensemble
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/py-libensemble:0.7.2
+$ shpc install ghcr.io/autamus/py-libensemble:0.8.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/py-libensemble/0.7.2
-$ module help ghcr.io/autamus/py-libensemble/0.7.2
+$ module load ghcr.io/autamus/py-libensemble/0.8.0
+$ module help ghcr.io/autamus/py-libensemble/0.8.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

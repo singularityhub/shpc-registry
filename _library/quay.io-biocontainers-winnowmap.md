@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/winnowmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/winnowmap/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/winnowmap/container.yaml"
-updated_at: "2022-11-05 00:37:29.459734"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/winnowmap/container.yaml"
+updated_at: "2022-11-06 00:46:02.737341"
 latest: "2.03--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/winnowmap"
 aliases:

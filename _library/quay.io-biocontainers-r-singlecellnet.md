@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-singlecellnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-singlecellnet/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-singlecellnet/container.yaml"
-updated_at: "2022-11-05 00:11:53.322195"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-singlecellnet/container.yaml"
+updated_at: "2022-11-06 00:27:38.534636"
 latest: "0.4.1--r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-singlecellnet"
 aliases:

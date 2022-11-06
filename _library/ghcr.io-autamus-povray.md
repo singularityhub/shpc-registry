@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/povray"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/povray/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/povray/container.yaml"
-updated_at: "2022-11-05 00:54:48.506519"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/povray/container.yaml"
+updated_at: "2022-11-06 00:58:33.101411"
 latest: "3.7.0.10"
 container_url: "https://github.com/orgs/autamus/packages/container/package/povray"
 aliases:
@@ -30,7 +30,7 @@ $ shpc install ghcr.io/autamus/povray
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/povray:3.7.0.8
+$ shpc install ghcr.io/autamus/povray:3.7.0.10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/povray/3.7.0.8
-$ module help ghcr.io/autamus/povray/3.7.0.8
+$ module load ghcr.io/autamus/povray/3.7.0.10
+$ module help ghcr.io/autamus/povray/3.7.0.10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

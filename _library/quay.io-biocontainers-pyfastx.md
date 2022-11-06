@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pyfastx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyfastx/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastx/container.yaml"
-updated_at: "2022-11-05 00:06:14.733075"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyfastx/container.yaml"
+updated_at: "2022-11-06 00:23:35.167742"
 latest: "0.8.4--py38h4c6a040_1"
 container_url: "https://biocontainers.pro/tools/pyfastx"
 aliases:

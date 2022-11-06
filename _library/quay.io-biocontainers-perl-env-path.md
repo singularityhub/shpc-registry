@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-env-path"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-env-path/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-env-path/container.yaml"
-updated_at: "2022-11-05 00:51:23.025912"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-env-path/container.yaml"
+updated_at: "2022-11-06 00:56:04.553231"
 latest: "0.19--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-env-path"
 aliases:

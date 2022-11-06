@@ -3,16 +3,17 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-netpathminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netpathminer/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netpathminer/container.yaml"
-updated_at: "2022-11-05 00:25:57.298025"
-latest: "1.30.0--r41hbe66c35_2"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netpathminer/container.yaml"
+updated_at: "2022-11-06 00:37:45.568436"
+latest: "1.34.0--r42hbe66c35_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netpathminer"
 aliases:
  - "glpsol"
 versions:
  - "1.30.0--r41hbe66c35_2"
+ - "1.34.0--r42hbe66c35_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netpathminer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netpathminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netpathminer", "latest": {"1.30.0--r41hbe66c35_2": "sha256:d73e49d4f03dfebb1c0e2055e481fe5b1688ec8dc271c0927a62f48d79bf3c15"}, "tags": {"1.30.0--r41hbe66c35_2": "sha256:d73e49d4f03dfebb1c0e2055e481fe5b1688ec8dc271c0927a62f48d79bf3c15"}, "docker": "quay.io/biocontainers/bioconductor-netpathminer", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netpathminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netpathminer", "latest": {"1.34.0--r42hbe66c35_0": "sha256:ecd18613e5bec2db71f5c7c6da5b8a10c5eecf3cf38c5f66038f4022a25d84e6"}, "tags": {"1.30.0--r41hbe66c35_2": "sha256:d73e49d4f03dfebb1c0e2055e481fe5b1688ec8dc271c0927a62f48d79bf3c15", "1.34.0--r42hbe66c35_0": "sha256:ecd18613e5bec2db71f5c7c6da5b8a10c5eecf3cf38c5f66038f4022a25d84e6"}, "docker": "quay.io/biocontainers/bioconductor-netpathminer", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netpathminer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netpathminer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netpathminer:1.30.0--r41hbe66c35_2
+$ shpc install quay.io/biocontainers/bioconductor-netpathminer:1.34.0--r42hbe66c35_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netpathminer/1.30.0--r41hbe66c35_2
-$ module help quay.io/biocontainers/bioconductor-netpathminer/1.30.0--r41hbe66c35_2
+$ module load quay.io/biocontainers/bioconductor-netpathminer/1.34.0--r42hbe66c35_0
+$ module help quay.io/biocontainers/bioconductor-netpathminer/1.34.0--r42hbe66c35_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

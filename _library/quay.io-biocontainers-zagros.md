@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/zagros"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/zagros/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/zagros/container.yaml"
-updated_at: "2022-11-05 00:46:32.398856"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/zagros/container.yaml"
+updated_at: "2022-11-06 00:52:34.644537"
 latest: "1.0.0--h7fd9d64_7"
 container_url: "https://biocontainers.pro/tools/zagros"
 aliases:

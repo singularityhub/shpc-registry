@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-cp4p"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cp4p/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-cp4p/container.yaml"
-updated_at: "2022-11-05 00:20:45.989952"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cp4p/container.yaml"
+updated_at: "2022-11-06 00:34:03.137636"
 latest: "0.3.6--r42h3342da4_5"
 container_url: "https://biocontainers.pro/tools/r-cp4p"
 aliases:
@@ -28,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-cp4p
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cp4p:0.3.6--r41h3342da4_4
+$ shpc install quay.io/biocontainers/r-cp4p:0.3.6--r42h3342da4_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cp4p/0.3.6--r41h3342da4_4
-$ module help quay.io/biocontainers/r-cp4p/0.3.6--r41h3342da4_4
+$ module load quay.io/biocontainers/r-cp4p/0.3.6--r42h3342da4_5
+$ module help quay.io/biocontainers/r-cp4p/0.3.6--r42h3342da4_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

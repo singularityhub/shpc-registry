@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/sqlite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/sqlite/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/sqlite/container.yaml"
-updated_at: "2022-11-05 00:55:20.397803"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/sqlite/container.yaml"
+updated_at: "2022-11-06 00:58:56.077534"
 latest: "3.39.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/sqlite"
 aliases:
@@ -35,7 +35,7 @@ $ shpc install ghcr.io/autamus/sqlite
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/sqlite:3.35.4
+$ shpc install ghcr.io/autamus/sqlite:3.39.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/sqlite/3.35.4
-$ module help ghcr.io/autamus/sqlite/3.35.4
+$ module load ghcr.io/autamus/sqlite/3.39.2
+$ module help ghcr.io/autamus/sqlite/3.39.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

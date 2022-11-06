@@ -3,8 +3,8 @@ layout: container
 name:  "bids/mrtrix3_connectome"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/mrtrix3_connectome/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/mrtrix3_connectome/container.yaml"
-updated_at: "2022-11-05 00:55:47.255571"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/mrtrix3_connectome/container.yaml"
+updated_at: "2022-11-06 00:59:15.301723"
 latest: "chrisfilo-patch-1"
 container_url: "https://hub.docker.com/r/bids/mrtrix3_connectome"
 
@@ -32,7 +32,7 @@ $ shpc install bids/mrtrix3_connectome
 Or a specific version:
 
 ```bash
-$ shpc install bids/mrtrix3_connectome:latest
+$ shpc install bids/mrtrix3_connectome:chrisfilo-patch-1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/mrtrix3_connectome/latest
-$ module help bids/mrtrix3_connectome/latest
+$ module load bids/mrtrix3_connectome/chrisfilo-patch-1
+$ module help bids/mrtrix3_connectome/chrisfilo-patch-1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

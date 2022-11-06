@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-myvariant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-myvariant/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-myvariant/container.yaml"
-updated_at: "2022-11-05 00:47:01.057699"
-latest: "1.8.0--r3.4.1_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-myvariant/container.yaml"
+updated_at: "2022-11-06 00:52:55.264940"
+latest: "1.24.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-myvariant"
 aliases:
  - "my_print_defaults"
@@ -18,8 +18,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.24.0--r41hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r40hdfd78af_1"
+ - "1.18.0--r40_0"
+ - "1.16.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-myvariant"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-myvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-myvariant", "latest": {"1.8.0--r3.4.1_0": "sha256:d083d1722e20e9b7b59a2658c32b35fea33bd15b9f56317386b5a72628109911"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d083d1722e20e9b7b59a2658c32b35fea33bd15b9f56317386b5a72628109911"}, "docker": "quay.io/biocontainers/bioconductor-myvariant", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-myvariant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-myvariant", "latest": {"1.24.0--r41hdfd78af_0": "sha256:ad6c91abcc66a58e6d9b0ec0e3606003313ad6ba578c7040e1ae3e4a6f81f0aa"}, "tags": {"1.8.0--r3.4.1_0": "sha256:d083d1722e20e9b7b59a2658c32b35fea33bd15b9f56317386b5a72628109911", "1.24.0--r41hdfd78af_0": "sha256:ad6c91abcc66a58e6d9b0ec0e3606003313ad6ba578c7040e1ae3e4a6f81f0aa", "1.22.0--r41hdfd78af_0": "sha256:cef21736e773811829bd9635c5dc739d5b4e88aecd3b73d924dd0a5f78983ef1", "1.20.0--r40hdfd78af_1": "sha256:c34f2e1992b985de636f7f5260e0f497fa983c6733c6b010eb41a154b1d6e380", "1.18.0--r40_0": "sha256:2f89b03fe90bfd5337410c464c614d2c332256dad13d71946387d06a4af8c467", "1.16.0--r36_0": "sha256:e9c99b01585855aa40e22556e1fcb441d3d97205069877c4e755a0fc101c7c61"}, "docker": "quay.io/biocontainers/bioconductor-myvariant", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-myvariant.
@@ -34,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-myvariant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-myvariant:1.8.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-myvariant:1.24.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-myvariant/1.8.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-myvariant/1.8.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-myvariant/1.24.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-myvariant/1.24.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/humann"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/humann/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/humann/container.yaml"
-updated_at: "2022-11-05 00:53:24.704557"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/humann/container.yaml"
+updated_at: "2022-11-06 00:57:32.598459"
 latest: "3.6--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/humann"
 

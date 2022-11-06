@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/rustynuc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rustynuc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rustynuc/container.yaml"
-updated_at: "2022-11-05 00:23:57.863149"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rustynuc/container.yaml"
+updated_at: "2022-11-06 00:36:19.931082"
 latest: "0.3.1--h7132678_0"
 container_url: "https://biocontainers.pro/tools/rustynuc"
 aliases:

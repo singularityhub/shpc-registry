@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/idemux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/idemux/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/idemux/container.yaml"
-updated_at: "2022-11-05 00:39:58.936045"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/idemux/container.yaml"
+updated_at: "2022-11-06 00:47:50.811232"
 latest: "0.1.6--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/idemux"
 aliases:

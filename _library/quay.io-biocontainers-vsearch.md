@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/vsearch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vsearch/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vsearch/container.yaml"
-updated_at: "2022-11-05 00:39:21.236458"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vsearch/container.yaml"
+updated_at: "2022-11-06 00:47:23.393193"
 latest: "2.21.1--hf1761c0_1"
 container_url: "https://biocontainers.pro/tools/vsearch"
 aliases:
@@ -32,7 +32,7 @@ $ shpc install quay.io/biocontainers/vsearch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/vsearch:2.9.1--h96824bc_0
+$ shpc install quay.io/biocontainers/vsearch:2.21.1--hf1761c0_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/vsearch/2.9.1--h96824bc_0
-$ module help quay.io/biocontainers/vsearch/2.9.1--h96824bc_0
+$ module load quay.io/biocontainers/vsearch/2.21.1--hf1761c0_1
+$ module help quay.io/biocontainers/vsearch/2.21.1--hf1761c0_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "nvcr.io/nvidia-hpcvis/paraview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
-updated_at: "2022-11-05 00:55:50.822693"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/nvcr.io/nvidia-hpcvis/paraview/container.yaml"
+updated_at: "2022-11-06 00:59:17.875086"
 latest: "egl-5.6.0rc3"
 container_url: "https://ngc.nvidia.com/catalog/containers/nvidia-hpcvis:paraview/tags"
 aliases:
@@ -32,7 +32,7 @@ $ shpc install nvcr.io/nvidia-hpcvis/paraview
 Or a specific version:
 
 ```bash
-$ shpc install nvcr.io/nvidia-hpcvis/paraview:egl-py3-5.9.0
+$ shpc install nvcr.io/nvidia-hpcvis/paraview:egl-5.6.0rc3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load nvcr.io/nvidia-hpcvis/paraview/egl-py3-5.9.0
-$ module help nvcr.io/nvidia-hpcvis/paraview/egl-py3-5.9.0
+$ module load nvcr.io/nvidia-hpcvis/paraview/egl-5.6.0rc3
+$ module help nvcr.io/nvidia-hpcvis/paraview/egl-5.6.0rc3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

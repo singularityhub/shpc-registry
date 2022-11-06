@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-parglms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-parglms/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-parglms/container.yaml"
-updated_at: "2022-11-05 00:30:26.480127"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-parglms/container.yaml"
+updated_at: "2022-11-06 00:40:59.019070"
 latest: "1.26.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-parglms"
 

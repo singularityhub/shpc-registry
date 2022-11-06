@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cnvetti"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnvetti/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cnvetti/container.yaml"
-updated_at: "2022-11-05 00:34:47.064226"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnvetti/container.yaml"
+updated_at: "2022-11-06 00:44:06.502960"
 latest: "0.2.0--he4cf2ce_0"
 container_url: "https://biocontainers.pro/tools/cnvetti"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bgreat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bgreat/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bgreat/container.yaml"
-updated_at: "2022-11-05 00:40:26.342254"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bgreat/container.yaml"
+updated_at: "2022-11-06 00:48:10.619699"
 latest: "2.0.0--h5b5514e_4"
 container_url: "https://biocontainers.pro/tools/bgreat"
 aliases:

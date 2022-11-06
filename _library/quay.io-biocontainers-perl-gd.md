@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/perl-gd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-gd/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gd/container.yaml"
-updated_at: "2022-11-05 00:14:49.235554"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-gd/container.yaml"
+updated_at: "2022-11-06 00:29:46.094228"
 latest: "2.76--pl5321h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/perl-gd"
 

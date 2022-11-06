@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastool/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastool/container.yaml"
-updated_at: "2022-11-05 00:29:17.332474"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastool/container.yaml"
+updated_at: "2022-11-06 00:40:09.681512"
 latest: "0.1.4--h7132678_6"
 container_url: "https://biocontainers.pro/tools/fastool"
 aliases:

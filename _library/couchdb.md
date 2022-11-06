@@ -3,8 +3,8 @@ layout: container
 name:  "couchdb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/couchdb/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/couchdb/container.yaml"
-updated_at: "2022-11-05 00:55:37.256037"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/couchdb/container.yaml"
+updated_at: "2022-11-06 00:59:08.105674"
 latest: "3.2.1"
 container_url: "https://hub.docker.com/_/couchdb"
 aliases:
@@ -38,7 +38,7 @@ $ shpc install couchdb
 Or a specific version:
 
 ```bash
-$ shpc install couchdb:2
+$ shpc install couchdb:3.2.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load couchdb/2
-$ module help couchdb/2
+$ module load couchdb/3.2.1
+$ module help couchdb/3.2.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

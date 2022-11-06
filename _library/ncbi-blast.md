@@ -3,8 +3,8 @@ layout: container
 name:  "ncbi/blast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ncbi/blast/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
-updated_at: "2022-11-04 23:58:36.957924"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ncbi/blast/container.yaml"
+updated_at: "2022-11-06 00:18:04.945854"
 latest: "2.13.0"
 container_url: "https://hub.docker.com/r/ncbi/blast"
 
@@ -29,7 +29,7 @@ $ shpc install ncbi/blast
 Or a specific version:
 
 ```bash
-$ shpc install ncbi/blast:2.11.0
+$ shpc install ncbi/blast:2.13.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ncbi/blast/2.11.0
-$ module help ncbi/blast/2.11.0
+$ module load ncbi/blast/2.13.0
+$ module help ncbi/blast/2.13.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

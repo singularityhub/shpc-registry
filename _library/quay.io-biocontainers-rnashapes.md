@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/rnashapes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnashapes/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/rnashapes/container.yaml"
-updated_at: "2022-11-05 00:40:23.964123"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnashapes/container.yaml"
+updated_at: "2022-11-06 00:48:08.902360"
 latest: "3.3.2--pl5321h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/rnashapes"
 aliases:

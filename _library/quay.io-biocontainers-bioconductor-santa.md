@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-santa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-santa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-santa/container.yaml"
-updated_at: "2022-11-05 00:02:21.563043"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-santa/container.yaml"
+updated_at: "2022-11-06 00:20:47.236276"
 latest: "2.30.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-santa"
 aliases:

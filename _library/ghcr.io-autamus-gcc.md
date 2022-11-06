@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/gcc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gcc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gcc/container.yaml"
-updated_at: "2022-11-05 00:54:54.468905"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gcc/container.yaml"
+updated_at: "2022-11-06 00:58:37.417297"
 latest: "12.2.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gcc"
 aliases:
@@ -44,7 +44,7 @@ $ shpc install ghcr.io/autamus/gcc
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/gcc:10.3.0
+$ shpc install ghcr.io/autamus/gcc:12.2.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/gcc/10.3.0
-$ module help ghcr.io/autamus/gcc/10.3.0
+$ module load ghcr.io/autamus/gcc/12.2.0
+$ module help ghcr.io/autamus/gcc/12.2.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

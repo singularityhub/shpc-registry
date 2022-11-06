@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/nanopolish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nanopolish/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/nanopolish/container.yaml"
-updated_at: "2022-11-05 00:38:42.710288"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nanopolish/container.yaml"
+updated_at: "2022-11-06 00:46:55.554275"
 latest: "0.9.2--py35_ncurses5.9_4"
 container_url: "https://biocontainers.pro/tools/nanopolish"
 aliases:

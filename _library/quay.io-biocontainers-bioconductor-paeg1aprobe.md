@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-paeg1aprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-paeg1aprobe/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paeg1aprobe/container.yaml"
-updated_at: "2022-11-05 00:07:23.301841"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paeg1aprobe/container.yaml"
+updated_at: "2022-11-06 00:24:24.559133"
 latest: "2.18.0--r41hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-paeg1aprobe"
 aliases:

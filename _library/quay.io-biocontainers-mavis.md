@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/mavis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mavis/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mavis/container.yaml"
-updated_at: "2022-11-05 00:50:35.839187"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mavis/container.yaml"
+updated_at: "2022-11-06 00:55:30.430498"
 latest: "2.2.6--py_0"
 container_url: "https://biocontainers.pro/tools/mavis"
 aliases:

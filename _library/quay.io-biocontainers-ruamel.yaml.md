@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/ruamel.yaml"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruamel.yaml/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ruamel.yaml/container.yaml"
-updated_at: "2022-11-05 00:26:22.097128"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruamel.yaml/container.yaml"
+updated_at: "2022-11-06 00:38:03.331614"
 latest: "0.12.13--py35_0"
 container_url: "https://biocontainers.pro/tools/ruamel.yaml"
 aliases:

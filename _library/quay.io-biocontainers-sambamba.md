@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/sambamba"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sambamba/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/sambamba/container.yaml"
-updated_at: "2022-11-05 00:26:49.064810"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sambamba/container.yaml"
+updated_at: "2022-11-06 00:38:22.840570"
 latest: "0.8.2--h98b6b92_2"
 container_url: "https://biocontainers.pro/tools/sambamba"
 aliases:
@@ -34,7 +34,7 @@ $ shpc install quay.io/biocontainers/sambamba
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sambamba:0.6.9--h89e63da_0
+$ shpc install quay.io/biocontainers/sambamba:0.8.2--h98b6b92_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sambamba/0.6.9--h89e63da_0
-$ module help quay.io/biocontainers/sambamba/0.6.9--h89e63da_0
+$ module load quay.io/biocontainers/sambamba/0.8.2--h98b6b92_2
+$ module help quay.io/biocontainers/sambamba/0.8.2--h98b6b92_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

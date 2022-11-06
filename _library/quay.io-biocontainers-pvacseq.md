@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pvacseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pvacseq/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pvacseq/container.yaml"
-updated_at: "2022-11-05 00:40:39.045525"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pvacseq/container.yaml"
+updated_at: "2022-11-06 00:48:19.818444"
 latest: "4.0.9--py36_0"
 container_url: "https://biocontainers.pro/tools/pvacseq"
 aliases:

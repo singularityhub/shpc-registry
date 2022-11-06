@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-ggdendro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggdendro/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggdendro/container.yaml"
-updated_at: "2022-11-05 00:22:32.682247"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggdendro/container.yaml"
+updated_at: "2022-11-06 00:35:18.863022"
 latest: "0.1_17--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-ggdendro"
 aliases:

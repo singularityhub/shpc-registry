@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bleties"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bleties/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bleties/container.yaml"
-updated_at: "2022-11-05 00:40:33.499563"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bleties/container.yaml"
+updated_at: "2022-11-06 00:48:15.803617"
 latest: "0.1.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bleties"
 aliases:

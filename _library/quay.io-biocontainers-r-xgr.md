@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-xgr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-xgr/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-xgr/container.yaml"
-updated_at: "2022-11-05 00:45:27.632576"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-xgr/container.yaml"
+updated_at: "2022-11-06 00:51:47.867815"
 latest: "1.1.7--r41h3342da4_3"
 container_url: "https://biocontainers.pro/tools/r-xgr"
 aliases:

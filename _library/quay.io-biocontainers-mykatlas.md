@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/mykatlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mykatlas/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mykatlas/container.yaml"
-updated_at: "2022-11-05 00:46:13.378872"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mykatlas/container.yaml"
+updated_at: "2022-11-06 00:52:20.864670"
 latest: "0.6.1--py27h21c881e_5"
 container_url: "https://biocontainers.pro/tools/mykatlas"
 aliases:

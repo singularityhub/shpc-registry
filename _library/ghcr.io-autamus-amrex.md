@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/amrex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/amrex/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/amrex/container.yaml"
-updated_at: "2022-11-05 00:55:01.226187"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/amrex/container.yaml"
+updated_at: "2022-11-06 00:58:42.309233"
 latest: "22.01"
 container_url: "https://github.com/orgs/autamus/packages/container/package/amrex"
 
@@ -32,7 +32,7 @@ $ shpc install ghcr.io/autamus/amrex
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/amrex:21.06
+$ shpc install ghcr.io/autamus/amrex:22.01
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/amrex/21.06
-$ module help ghcr.io/autamus/amrex/21.06
+$ module load ghcr.io/autamus/amrex/22.01
+$ module help ghcr.io/autamus/amrex/22.01
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

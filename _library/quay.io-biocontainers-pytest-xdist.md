@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pytest-xdist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pytest-xdist/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-xdist/container.yaml"
-updated_at: "2022-11-05 00:26:02.956292"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pytest-xdist/container.yaml"
+updated_at: "2022-11-06 00:37:49.580924"
 latest: "1.14--py36_0"
 container_url: "https://biocontainers.pro/tools/pytest-xdist"
 aliases:

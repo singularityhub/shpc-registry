@@ -3,9 +3,9 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-netsmooth"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netsmooth/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netsmooth/container.yaml"
-updated_at: "2022-11-05 00:23:01.572119"
-latest: "1.8.0--r40_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netsmooth/container.yaml"
+updated_at: "2022-11-06 00:35:39.490669"
+latest: "1.14.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netsmooth"
 aliases:
  - "f2py3.8"
@@ -19,8 +19,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-netsmooth"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netsmooth", "latest": {"1.8.0--r40_0": "sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416"}, "tags": {"1.8.0--r40_0": "sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416"}, "docker": "quay.io/biocontainers/bioconductor-netsmooth", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netsmooth", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netsmooth", "latest": {"1.14.0--r41hdfd78af_0": "sha256:31c8b4673dc78d82feb07f49506f2f8d78e00eda1adbcba862601d4d2853c72c"}, "tags": {"1.8.0--r40_0": "sha256:8a62a4417d29954dfd0954393f31c9b55303f7cae7aa253c49db9b7b94b58416", "1.14.0--r41hdfd78af_0": "sha256:31c8b4673dc78d82feb07f49506f2f8d78e00eda1adbcba862601d4d2853c72c", "1.12.0--r41hdfd78af_0": "sha256:5f977d64e07631add3009b0ed31bae284fc088ab73f439699f96d1532d26e28e", "1.10.0--r40hdfd78af_1": "sha256:424754a4b71d9cefbd2f84809cc527bd0c40b06dc7c534925703374c95a10df6"}, "docker": "quay.io/biocontainers/bioconductor-netsmooth", "aliases": {"f2py3.8": "/usr/local/bin/f2py3.8", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netsmooth.
@@ -35,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netsmooth
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netsmooth:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-netsmooth:1.14.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netsmooth/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-netsmooth/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-netsmooth/1.14.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-netsmooth/1.14.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

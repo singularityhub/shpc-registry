@@ -3,16 +3,21 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-cindex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cindex/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cindex/container.yaml"
-updated_at: "2022-11-05 00:01:19.588082"
-latest: "1.8.0--r351_0"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cindex/container.yaml"
+updated_at: "2022-11-06 00:20:02.494909"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cindex"
 aliases:
  - "wget"
 versions:
  - "1.8.0--r351_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cindex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cindex", "latest": {"1.8.0--r351_0": "sha256:6df66f2813ab9dbca4629a7c6f547f1bf1179d8638cf0849e6527679f82328d0"}, "tags": {"1.8.0--r351_0": "sha256:6df66f2813ab9dbca4629a7c6f547f1bf1179d8638cf0849e6527679f82328d0"}, "docker": "quay.io/biocontainers/bioconductor-cindex", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cindex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cindex", "latest": {"1.26.0--r42hdfd78af_0": "sha256:243da5ab680bcf3624bc3ae9b14bf7a0522971b6af9398a0ffb09373dbf90ef7"}, "tags": {"1.8.0--r351_0": "sha256:6df66f2813ab9dbca4629a7c6f547f1bf1179d8638cf0849e6527679f82328d0", "1.26.0--r42hdfd78af_0": "sha256:243da5ab680bcf3624bc3ae9b14bf7a0522971b6af9398a0ffb09373dbf90ef7", "1.22.0--r41hdfd78af_0": "sha256:3835c7c7033853c46e44fb22f90e2de7ae8faec646f9f1f12cc32638e63e5d1c", "1.20.0--r41hdfd78af_0": "sha256:a2659653fc8cd35c01f1409ee553ce5f0d27fb75ee72cbaa5942109914422e9e", "1.18.0--r40hdfd78af_1": "sha256:4266ab83c62a80059f5315c439dee2f3faf354b86055e4718572f1f68be4cda3", "1.16.0--r40_0": "sha256:1d1c9fd3eac12aa43451b93c812a01ce3aadcad48125559c3223620eb4802fa5"}, "docker": "quay.io/biocontainers/bioconductor-cindex", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cindex.
@@ -27,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cindex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cindex:1.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-cindex:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cindex/1.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-cindex/1.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-cindex/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cindex/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

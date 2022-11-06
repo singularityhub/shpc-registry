@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/gcnvkernel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcnvkernel/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gcnvkernel/container.yaml"
-updated_at: "2022-11-05 00:00:07.526220"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcnvkernel/container.yaml"
+updated_at: "2022-11-06 00:19:10.509295"
 latest: "0.7--py_0"
 container_url: "https://biocontainers.pro/tools/gcnvkernel"
 aliases:

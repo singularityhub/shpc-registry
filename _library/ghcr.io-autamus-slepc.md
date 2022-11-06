@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/slepc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/slepc/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/slepc/container.yaml"
-updated_at: "2022-11-05 00:54:20.754141"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/slepc/container.yaml"
+updated_at: "2022-11-06 00:58:13.020019"
 latest: "3.16.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/slepc"
 
@@ -30,7 +30,7 @@ $ shpc install ghcr.io/autamus/slepc
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/slepc:3.15.1
+$ shpc install ghcr.io/autamus/slepc:3.16.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/slepc/3.15.1
-$ module help ghcr.io/autamus/slepc/3.15.1
+$ module load ghcr.io/autamus/slepc/3.16.1
+$ module help ghcr.io/autamus/slepc/3.16.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

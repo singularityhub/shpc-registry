@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bioconductor-scatac.explorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scatac.explorer/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scatac.explorer/container.yaml"
-updated_at: "2022-11-05 00:17:03.795234"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scatac.explorer/container.yaml"
+updated_at: "2022-11-06 00:31:23.181604"
 latest: "1.0.1--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-scatac.explorer"
 aliases:

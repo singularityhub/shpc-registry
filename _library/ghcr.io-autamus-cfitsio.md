@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/cfitsio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/cfitsio/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/cfitsio/container.yaml"
-updated_at: "2022-11-05 00:54:53.278510"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/cfitsio/container.yaml"
+updated_at: "2022-11-06 00:58:36.561335"
 latest: "4.0.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/cfitsio"
 
@@ -28,7 +28,7 @@ $ shpc install ghcr.io/autamus/cfitsio
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/cfitsio:3.49
+$ shpc install ghcr.io/autamus/cfitsio:4.0.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/cfitsio/3.49
-$ module help ghcr.io/autamus/cfitsio/3.49
+$ module load ghcr.io/autamus/cfitsio/4.0.0
+$ module help ghcr.io/autamus/cfitsio/4.0.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

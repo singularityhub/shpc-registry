@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cansam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cansam/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cansam/container.yaml"
-updated_at: "2022-11-05 00:41:19.626630"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cansam/container.yaml"
+updated_at: "2022-11-06 00:48:49.157131"
 latest: "21d64bb--h7ff8a90_5"
 container_url: "https://biocontainers.pro/tools/cansam"
 aliases:

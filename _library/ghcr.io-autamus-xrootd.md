@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/xrootd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/xrootd/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/xrootd/container.yaml"
-updated_at: "2022-11-05 00:55:06.419446"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/xrootd/container.yaml"
+updated_at: "2022-11-06 00:58:46.049718"
 latest: "5.3.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/xrootd"
 aliases:
@@ -43,7 +43,7 @@ $ shpc install ghcr.io/autamus/xrootd
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/xrootd:5.1.0
+$ shpc install ghcr.io/autamus/xrootd:5.3.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/xrootd/5.1.0
-$ module help ghcr.io/autamus/xrootd/5.1.0
+$ module load ghcr.io/autamus/xrootd/5.3.2
+$ module help ghcr.io/autamus/xrootd/5.3.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/jalview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jalview/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/jalview/container.yaml"
-updated_at: "2022-11-05 00:17:40.777374"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jalview/container.yaml"
+updated_at: "2022-11-06 00:31:49.961516"
 latest: "2.11.2.4--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/jalview"
 aliases:

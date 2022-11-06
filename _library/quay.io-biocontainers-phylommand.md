@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/phylommand"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/phylommand/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/phylommand/container.yaml"
-updated_at: "2022-11-05 00:44:52.200824"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/phylommand/container.yaml"
+updated_at: "2022-11-06 00:51:22.207381"
 latest: "1.1.0--h8961cb6_3"
 container_url: "https://biocontainers.pro/tools/phylommand"
 aliases:

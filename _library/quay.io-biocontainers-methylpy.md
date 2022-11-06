@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/methylpy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/methylpy/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/methylpy/container.yaml"
-updated_at: "2022-11-05 00:38:04.915273"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/methylpy/container.yaml"
+updated_at: "2022-11-06 00:46:28.291220"
 latest: "1.4.3--py27h41a55b7_0"
 container_url: "https://biocontainers.pro/tools/methylpy"
 aliases:

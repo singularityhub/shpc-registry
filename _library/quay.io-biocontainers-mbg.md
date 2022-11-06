@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/mbg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mbg/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/mbg/container.yaml"
-updated_at: "2022-11-05 00:41:50.057198"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mbg/container.yaml"
+updated_at: "2022-11-06 00:49:11.008807"
 latest: "1.0.9--hd03093a_1"
 container_url: "https://biocontainers.pro/tools/mbg"
 aliases:

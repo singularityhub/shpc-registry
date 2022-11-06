@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/xsv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xsv/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/xsv/container.yaml"
-updated_at: "2022-11-05 00:47:56.233958"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xsv/container.yaml"
+updated_at: "2022-11-06 00:53:35.121561"
 latest: "0.10.3--0"
 container_url: "https://biocontainers.pro/tools/xsv"
 aliases:
@@ -28,7 +28,7 @@ $ shpc install quay.io/biocontainers/xsv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xsv:0.9.8--0
+$ shpc install quay.io/biocontainers/xsv:0.10.3--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xsv/0.9.8--0
-$ module help quay.io/biocontainers/xsv/0.9.8--0
+$ module load quay.io/biocontainers/xsv/0.10.3--0
+$ module help quay.io/biocontainers/xsv/0.10.3--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

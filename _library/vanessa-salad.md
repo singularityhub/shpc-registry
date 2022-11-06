@@ -3,8 +3,8 @@ layout: container
 name:  "vanessa/salad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/vanessa/salad/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/vanessa/salad/container.yaml"
-updated_at: "2022-11-05 00:55:35.622972"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/vanessa/salad/container.yaml"
+updated_at: "2022-11-06 00:59:06.947194"
 latest: "latest"
 container_url: "https://hub.docker.com/r/vanessa/salad"
 aliases:

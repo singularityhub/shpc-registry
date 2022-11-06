@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/odgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/odgi/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/odgi/container.yaml"
-updated_at: "2022-11-05 00:35:27.045261"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/odgi/container.yaml"
+updated_at: "2022-11-06 00:44:34.962396"
 latest: "v0.3--py36h8b12597_0"
 container_url: "https://biocontainers.pro/tools/odgi"
 aliases:

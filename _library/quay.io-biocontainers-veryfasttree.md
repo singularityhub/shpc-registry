@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/veryfasttree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/veryfasttree/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/veryfasttree/container.yaml"
-updated_at: "2022-11-05 00:32:19.674850"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/veryfasttree/container.yaml"
+updated_at: "2022-11-06 00:42:20.251636"
 latest: "3.1.1--h9f5acd7_1"
 container_url: "https://biocontainers.pro/tools/veryfasttree"
 aliases:

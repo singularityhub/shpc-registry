@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-bigmemory"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bigmemory/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-bigmemory/container.yaml"
-updated_at: "2022-11-05 00:31:13.749608"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bigmemory/container.yaml"
+updated_at: "2022-11-06 00:41:32.913978"
 latest: "4.5.19--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-bigmemory"
 

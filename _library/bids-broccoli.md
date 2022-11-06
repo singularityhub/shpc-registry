@@ -3,8 +3,8 @@ layout: container
 name:  "bids/broccoli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/bids/broccoli/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/bids/broccoli/container.yaml"
-updated_at: "2022-11-05 00:55:46.859687"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/bids/broccoli/container.yaml"
+updated_at: "2022-11-06 00:59:15.018116"
 latest: "enh_various"
 container_url: "https://hub.docker.com/r/bids/broccoli"
 
@@ -27,7 +27,7 @@ $ shpc install bids/broccoli
 Or a specific version:
 
 ```bash
-$ shpc install bids/broccoli:enh_v
+$ shpc install bids/broccoli:enh_various
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load bids/broccoli/enh_v
-$ module help bids/broccoli/enh_v
+$ module load bids/broccoli/enh_various
+$ module help bids/broccoli/enh_various
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

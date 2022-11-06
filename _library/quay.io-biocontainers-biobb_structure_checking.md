@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/biobb_structure_checking"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_structure_checking/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_structure_checking/container.yaml"
-updated_at: "2022-11-05 00:37:42.604684"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_structure_checking/container.yaml"
+updated_at: "2022-11-06 00:46:12.193850"
 latest: "3.9.9--pyhb7b1952_0"
 container_url: "https://biocontainers.pro/tools/biobb_structure_checking"
 aliases:

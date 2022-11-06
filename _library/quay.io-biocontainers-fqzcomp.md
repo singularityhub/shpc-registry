@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fqzcomp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fqzcomp/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fqzcomp/container.yaml"
-updated_at: "2022-11-05 00:30:00.142611"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fqzcomp/container.yaml"
+updated_at: "2022-11-06 00:40:40.364669"
 latest: "4.6--hd03093a_3"
 container_url: "https://biocontainers.pro/tools/fqzcomp"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/transgenescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transgenescan/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/transgenescan/container.yaml"
-updated_at: "2022-11-05 00:41:31.193951"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transgenescan/container.yaml"
+updated_at: "2022-11-06 00:48:57.457097"
 latest: "1.2.1--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/transgenescan"
 aliases:

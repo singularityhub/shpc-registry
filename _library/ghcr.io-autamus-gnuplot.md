@@ -3,8 +3,8 @@ layout: container
 name:  "ghcr.io/autamus/gnuplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/gnuplot/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/ghcr.io/autamus/gnuplot/container.yaml"
-updated_at: "2022-11-05 00:54:33.441754"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/gnuplot/container.yaml"
+updated_at: "2022-11-06 00:58:22.184517"
 latest: "5.4.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/gnuplot"
 aliases:
@@ -29,7 +29,7 @@ $ shpc install ghcr.io/autamus/gnuplot
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/gnuplot:5.2.8
+$ shpc install ghcr.io/autamus/gnuplot:5.4.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/gnuplot/5.2.8
-$ module help ghcr.io/autamus/gnuplot/5.2.8
+$ module load ghcr.io/autamus/gnuplot/5.4.2
+$ module help ghcr.io/autamus/gnuplot/5.4.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,16 +3,17 @@ layout: container
 name:  "quay.io/biocontainers/ema"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ema/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ema/container.yaml"
-updated_at: "2022-11-05 00:46:26.058361"
-latest: "v0.6.2--hd28b015_1"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ema/container.yaml"
+updated_at: "2022-11-06 00:52:30.043634"
+latest: "0.6.2--h5b5514e_4"
 container_url: "https://biocontainers.pro/tools/ema"
 aliases:
  - "ema"
 versions:
  - "v0.6.2--hd28b015_1"
+ - "0.6.2--h5b5514e_4"
 description: "shpc-registry automated BioContainers addition for ema"
-config: {"url": "https://biocontainers.pro/tools/ema", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ema", "latest": {"v0.6.2--hd28b015_1": "sha256:538157206506c51fe9dab97d4787f43b1217164a24282d1381be119a05d72bad"}, "tags": {"v0.6.2--hd28b015_1": "sha256:538157206506c51fe9dab97d4787f43b1217164a24282d1381be119a05d72bad"}, "docker": "quay.io/biocontainers/ema", "aliases": {"ema": "/usr/local/bin/ema"}}
+config: {"url": "https://biocontainers.pro/tools/ema", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ema", "latest": {"0.6.2--h5b5514e_4": "sha256:6fc471216c51fe15f4266fd787c0fbf31dd267ef83cfa1f953cb723982bb99f9"}, "tags": {"v0.6.2--hd28b015_1": "sha256:538157206506c51fe9dab97d4787f43b1217164a24282d1381be119a05d72bad", "0.6.2--h5b5514e_4": "sha256:6fc471216c51fe15f4266fd787c0fbf31dd267ef83cfa1f953cb723982bb99f9"}, "docker": "quay.io/biocontainers/ema", "aliases": {"ema": "/usr/local/bin/ema"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ema.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/ema
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ema:v0.6.2--hd28b015_1
+$ shpc install quay.io/biocontainers/ema:0.6.2--h5b5514e_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ema/v0.6.2--hd28b015_1
-$ module help quay.io/biocontainers/ema/v0.6.2--hd28b015_1
+$ module load quay.io/biocontainers/ema/0.6.2--h5b5514e_4
+$ module help quay.io/biocontainers/ema/0.6.2--h5b5514e_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-garnett"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-garnett/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-garnett/container.yaml"
-updated_at: "2022-11-05 00:05:11.783826"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-garnett/container.yaml"
+updated_at: "2022-11-06 00:22:49.936967"
 latest: "0.2.8--r41hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/r-garnett"
 aliases:

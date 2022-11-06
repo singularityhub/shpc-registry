@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/vtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vtools/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/vtools/container.yaml"
-updated_at: "2022-11-05 00:01:48.576209"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vtools/container.yaml"
+updated_at: "2022-11-06 00:20:23.416317"
 latest: "1.1.0--py38h17adfb0_4"
 container_url: "https://biocontainers.pro/tools/vtools"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cgat-pipelines-nosetests"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgat-pipelines-nosetests/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-pipelines-nosetests/container.yaml"
-updated_at: "2022-11-05 00:51:48.421139"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgat-pipelines-nosetests/container.yaml"
+updated_at: "2022-11-06 00:56:22.983456"
 latest: "0.0.4--py35r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/cgat-pipelines-nosetests"
 aliases:

@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/pyspoa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyspoa/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/pyspoa/container.yaml"
-updated_at: "2022-11-05 00:50:21.952708"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyspoa/container.yaml"
+updated_at: "2022-11-06 00:55:20.419661"
 latest: "0.0.3--py39h67e14b5_3"
 container_url: "https://biocontainers.pro/tools/pyspoa"
 aliases:

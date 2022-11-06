@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/ipyrad"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ipyrad/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/ipyrad/container.yaml"
-updated_at: "2022-11-05 00:14:27.834310"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ipyrad/container.yaml"
+updated_at: "2022-11-06 00:29:30.618021"
 latest: "0.9.66--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/ipyrad"
 aliases:
@@ -41,7 +41,7 @@ $ shpc install quay.io/biocontainers/ipyrad
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ipyrad:0.9.8--py_0
+$ shpc install quay.io/biocontainers/ipyrad:0.9.66--pyh3252c3a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ipyrad/0.9.8--py_0
-$ module help quay.io/biocontainers/ipyrad/0.9.8--py_0
+$ module load quay.io/biocontainers/ipyrad/0.9.66--pyh3252c3a_0
+$ module help quay.io/biocontainers/ipyrad/0.9.66--pyh3252c3a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

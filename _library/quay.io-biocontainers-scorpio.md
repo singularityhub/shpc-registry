@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/scorpio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scorpio/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/scorpio/container.yaml"
-updated_at: "2022-11-05 00:11:42.583733"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scorpio/container.yaml"
+updated_at: "2022-11-06 00:27:30.797346"
 latest: "0.3.9--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/scorpio"
 aliases:

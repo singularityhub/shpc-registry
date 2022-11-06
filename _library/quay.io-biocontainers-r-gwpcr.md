@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-gwpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gwpcr/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-gwpcr/container.yaml"
-updated_at: "2022-11-05 00:06:46.957924"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gwpcr/container.yaml"
+updated_at: "2022-11-06 00:23:58.458807"
 latest: "1.0.4--r41hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/r-gwpcr"
 

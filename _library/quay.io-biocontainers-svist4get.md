@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/svist4get"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/svist4get/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/svist4get/container.yaml"
-updated_at: "2022-11-05 00:47:10.612357"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/svist4get/container.yaml"
+updated_at: "2022-11-06 00:53:02.156058"
 latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/svist4get"
 aliases:

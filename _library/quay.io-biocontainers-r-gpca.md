@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-gpca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gpca/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-gpca/container.yaml"
-updated_at: "2022-11-05 00:11:15.155372"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gpca/container.yaml"
+updated_at: "2022-11-06 00:27:10.965708"
 latest: "1.0--r351h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-gpca"
 aliases:

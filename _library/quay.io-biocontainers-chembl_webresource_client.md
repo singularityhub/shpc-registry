@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/chembl_webresource_client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chembl_webresource_client/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/chembl_webresource_client/container.yaml"
-updated_at: "2022-11-05 00:39:45.441158"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chembl_webresource_client/container.yaml"
+updated_at: "2022-11-06 00:47:40.967376"
 latest: "0.9.31"
 container_url: "https://biocontainers.pro/tools/chembl_webresource_client"
 aliases:

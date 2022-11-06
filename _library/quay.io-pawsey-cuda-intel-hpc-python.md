@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/pawsey/cuda-intel-hpc-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/pawsey/cuda-intel-hpc-python/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/pawsey/cuda-intel-hpc-python/container.yaml"
-updated_at: "2022-11-05 00:54:13.591419"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/pawsey/cuda-intel-hpc-python/container.yaml"
+updated_at: "2022-11-06 00:58:07.823265"
 latest: "2022.03"
 container_url: "https://quay.io/repository/pawsey/cuda-intel-hpc-python"
 aliases:
@@ -31,7 +31,7 @@ $ shpc install quay.io/pawsey/cuda-intel-hpc-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/pawsey/cuda-intel-hpc-python:2021.09
+$ shpc install quay.io/pawsey/cuda-intel-hpc-python:2022.03
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/pawsey/cuda-intel-hpc-python/2021.09
-$ module help quay.io/pawsey/cuda-intel-hpc-python/2021.09
+$ module load quay.io/pawsey/cuda-intel-hpc-python/2022.03
+$ module help quay.io/pawsey/cuda-intel-hpc-python/2022.03
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

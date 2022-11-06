@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/gemoma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gemoma/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/gemoma/container.yaml"
-updated_at: "2022-11-05 00:27:45.971927"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gemoma/container.yaml"
+updated_at: "2022-11-06 00:39:03.946218"
 latest: "1.7.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/gemoma"
 aliases:

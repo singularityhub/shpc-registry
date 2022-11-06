@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/bis-snp-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bis-snp-utils/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/bis-snp-utils/container.yaml"
-updated_at: "2022-11-05 00:16:31.956545"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bis-snp-utils/container.yaml"
+updated_at: "2022-11-06 00:31:00.254393"
 latest: "0.0.1--hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/bis-snp-utils"
 aliases:

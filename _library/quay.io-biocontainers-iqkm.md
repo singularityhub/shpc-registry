@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/iqkm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/iqkm/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/iqkm/container.yaml"
-updated_at: "2022-11-05 00:37:42.206636"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/iqkm/container.yaml"
+updated_at: "2022-11-06 00:46:11.904608"
 latest: "1.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/iqkm"
 aliases:

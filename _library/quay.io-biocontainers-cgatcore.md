@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/cgatcore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cgatcore/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/cgatcore/container.yaml"
-updated_at: "2022-11-05 00:30:02.961477"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cgatcore/container.yaml"
+updated_at: "2022-11-06 00:40:42.373906"
 latest: "0.6.14--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cgatcore"
 aliases:
@@ -41,7 +41,7 @@ $ shpc install quay.io/biocontainers/cgatcore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cgatcore:0.6.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/cgatcore:0.6.14--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cgatcore/0.6.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/cgatcore/0.6.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/cgatcore/0.6.14--pyhdfd78af_0
+$ module help quay.io/biocontainers/cgatcore/0.6.14--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

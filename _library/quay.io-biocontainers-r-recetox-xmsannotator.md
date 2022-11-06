@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/r-recetox-xmsannotator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-recetox-xmsannotator/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-xmsannotator/container.yaml"
-updated_at: "2022-11-05 00:08:57.128839"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-recetox-xmsannotator/container.yaml"
+updated_at: "2022-11-06 00:25:32.026249"
 latest: "0.9.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-recetox-xmsannotator"
 aliases:

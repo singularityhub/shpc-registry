@@ -3,8 +3,8 @@ layout: container
 name:  "quay.io/biocontainers/fastq-multx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastq-multx/container.yaml"
-config_url: "https://raw.githubusercontent.com//singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-multx/container.yaml"
-updated_at: "2022-11-05 00:36:03.718333"
+config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastq-multx/container.yaml"
+updated_at: "2022-11-06 00:45:01.334653"
 latest: "1.4.2--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/fastq-multx"
 aliases:
