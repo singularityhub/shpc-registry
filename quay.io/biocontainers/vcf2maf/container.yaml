@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/vcf2maf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for vcf2maf
 latest:
-  1.6.8--0: sha256:5f4b0b6159d556d2de7f2bb46db688928d41ee28c8b1dd0f632cf6b558732805
+  1.6.21--hdfd78af_0: sha256:e33def318468ac924bdcc280c4aa8984865709d111cd0df9b0d82c7908b7dd07
 tags:
   1.6.8--0: sha256:5f4b0b6159d556d2de7f2bb46db688928d41ee28c8b1dd0f632cf6b558732805
+  1.6.21--hdfd78af_0: sha256:e33def318468ac924bdcc280c4aa8984865709d111cd0df9b0d82c7908b7dd07
 docker: quay.io/biocontainers/vcf2maf
 aliases:
   crc32: /usr/local/bin/crc32

@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-cand
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cand
 latest:
-  1.8.0--r3.3.2_0: sha256:6a11406ac9c123aecefc7d30ee2c611deb31ab1de63a6a1d7d8f00b33ab26312
+  1.26.0--r41hdfd78af_0: sha256:37691c421e11b9f807261c6b0c1ca8586457c20fdea9f00af97f51e1dc3cd49e
 tags:
   1.8.0--r3.3.2_0: sha256:6a11406ac9c123aecefc7d30ee2c611deb31ab1de63a6a1d7d8f00b33ab26312
+  1.26.0--r41hdfd78af_0: sha256:37691c421e11b9f807261c6b0c1ca8586457c20fdea9f00af97f51e1dc3cd49e
+  1.24.0--r41hdfd78af_0: sha256:d698591c1772a8d2a865b81c7e4ff77960aad95c7e08700e8cf812b42e7af295
+  1.22.0--r40hdfd78af_1: sha256:cedb19608b7f5c63d39d886183f16e7a56cac28e203a346775a474e0349a7eac
+  1.20.0--r40_0: sha256:5ab07e5c7a4889c4ebb59a9fa97094ff2ea051a39272a1a6d54e07bc24e12300
+  1.18.0--r36_0: sha256:4d73e15141ad8aa5981c8f430059ef6aecb0ce606cf8b1bf5731828acf980aa7
 docker: quay.io/biocontainers/bioconductor-cand
 aliases:
   bmp2tiff: /usr/local/bin/bmp2tiff

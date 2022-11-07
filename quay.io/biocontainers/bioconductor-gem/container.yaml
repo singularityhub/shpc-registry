@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-gem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gem
 latest:
-  1.8.0--r351_0: sha256:f04340f70500905d5c67fa4b8c7d8434b9130d65fc7e0d0d9fdaa3de0b796c02
+  1.24.0--r42hdfd78af_0: sha256:99957cdc77198254aabe6c77e7a35fa276377d5b90aed03da8310c0421e7b475
 tags:
   1.8.0--r351_0: sha256:f04340f70500905d5c67fa4b8c7d8434b9130d65fc7e0d0d9fdaa3de0b796c02
+  1.24.0--r42hdfd78af_0: sha256:99957cdc77198254aabe6c77e7a35fa276377d5b90aed03da8310c0421e7b475
+  1.20.0--r41hdfd78af_0: sha256:b12cc92ecf8f3e02e398dbb77d845950d2cd73a60956d41df3744271c3666625
+  1.18.0--r41hdfd78af_0: sha256:dfccac9e7a7e1c7fc916ae352fcc6871eba62be9da436274ee1c64624b056a63
+  1.16.0--r40hdfd78af_1: sha256:78d67122908f66a566a097deedc792c1978e4cb3b353ce92bf4a26d948325aa9
+  1.14.0--r40_0: sha256:40170d422558a4098991fd948fdfb9d038cbe16a7ec5a5b85e1eca853f5a4550
 docker: quay.io/biocontainers/bioconductor-gem
 aliases:
   c89: /usr/local/bin/c89

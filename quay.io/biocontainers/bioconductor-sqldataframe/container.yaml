@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sqldataframe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sqldataframe
 latest:
-  1.8.0--r41hdfd78af_0: sha256:9f8b0a2de15fc3ca513fe9f8afd6ccf8d2b2bf55062c88253b1966b25675aece
+  1.12.0--r42hdfd78af_0: sha256:5cb8595c9237b0676bce2e1356579517c4362d7c0665ef26abd602392428dade
 tags:
   1.8.0--r41hdfd78af_0: sha256:9f8b0a2de15fc3ca513fe9f8afd6ccf8d2b2bf55062c88253b1966b25675aece
+  1.12.0--r42hdfd78af_0: sha256:5cb8595c9237b0676bce2e1356579517c4362d7c0665ef26abd602392428dade
 docker: quay.io/biocontainers/bioconductor-sqldataframe

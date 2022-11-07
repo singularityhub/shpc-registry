@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rcade
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rcade
 latest:
-  1.36.0--r41hdfd78af_0: sha256:392318da79262d28594c618dc455c97c1cc6a1a546bedd4ff5ebcce1778c5cde
+  1.39.1--r42hdfd78af_0: sha256:20513738f3ce11864d8fabaad32bc82f177b7f3a5b06b59df57bb57ee44ddc82
 tags:
   1.36.0--r41hdfd78af_0: sha256:392318da79262d28594c618dc455c97c1cc6a1a546bedd4ff5ebcce1778c5cde
+  1.39.1--r42hdfd78af_0: sha256:20513738f3ce11864d8fabaad32bc82f177b7f3a5b06b59df57bb57ee44ddc82
 docker: quay.io/biocontainers/bioconductor-rcade

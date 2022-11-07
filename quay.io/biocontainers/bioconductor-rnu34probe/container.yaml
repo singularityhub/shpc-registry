@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rnu34probe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnu34probe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:bcf8e0924171ff2656cb2d32efa70c749b08afcf1fd8d6995c2988c25f514f34
+  2.18.0--r42hdfd78af_10: sha256:d828cf10266b85cbc39516070101a00781b4ab051683b75d65a48f93745fd683
 tags:
   2.18.0--r41hdfd78af_9: sha256:bcf8e0924171ff2656cb2d32efa70c749b08afcf1fd8d6995c2988c25f514f34
+  2.18.0--r42hdfd78af_10: sha256:d828cf10266b85cbc39516070101a00781b4ab051683b75d65a48f93745fd683
 docker: quay.io/biocontainers/bioconductor-rnu34probe
 aliases:
   .bioconductor-rnu34probe-post-link.sh: /usr/local/bin/.bioconductor-rnu34probe-post-link.sh

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/gem3-mapper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gem3-mapper
 latest:
-  3.6.1--h36cd882_9: sha256:c99eee888ac719f16886b56cbc6db85f6755aba2129fec10eba628a467b30136
+  3.6.1--h67092d7_10: sha256:171004494f57544a86349dd1d843751af7bb2f88d22a819a945c7f4a38fea169
 tags:
   3.6.1--h36cd882_9: sha256:c99eee888ac719f16886b56cbc6db85f6755aba2129fec10eba628a467b30136
+  3.6.1--h67092d7_10: sha256:171004494f57544a86349dd1d843751af7bb2f88d22a819a945c7f4a38fea169
 docker: quay.io/biocontainers/gem3-mapper
 aliases:
   gem-indexer: /usr/local/bin/gem-indexer

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-clariomdhumantranscriptcluster
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-clariomdhumantranscriptcluster.db
 latest:
-  8.8.0--r41hdfd78af_1: sha256:1677bb460b94b9afd5ca43b8cbb5beddea1c6d168aace34c9b132665bb2a9743
+  8.8.0--r42hdfd78af_2: sha256:675dfdb9400fe98c631d00a696f7b6307b14a5a806a3c1fdef74187a9eaac368
 tags:
   8.8.0--r41hdfd78af_1: sha256:1677bb460b94b9afd5ca43b8cbb5beddea1c6d168aace34c9b132665bb2a9743
+  8.8.0--r42hdfd78af_2: sha256:675dfdb9400fe98c631d00a696f7b6307b14a5a806a3c1fdef74187a9eaac368
 docker: quay.io/biocontainers/bioconductor-clariomdhumantranscriptcluster.db
 aliases:
   .bioconductor-clariomdhumantranscriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-clariomdhumantranscriptcluster.db-post-link.sh

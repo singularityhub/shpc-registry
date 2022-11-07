@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-experimentsubset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-experimentsubset
 latest:
-  1.4.0--r41hdfd78af_0: sha256:080e1c8c37e62ba1f8b5bb98c9fb60a1d490fae9a2247e11d5469a78b11a2e1b
+  1.8.0--r42hdfd78af_0: sha256:95cf44d7396f51f44543e539a0bdd540fb2c4bc870c24f80426495f8340cf4c2
 tags:
   1.4.0--r41hdfd78af_0: sha256:080e1c8c37e62ba1f8b5bb98c9fb60a1d490fae9a2247e11d5469a78b11a2e1b
+  1.8.0--r42hdfd78af_0: sha256:95cf44d7396f51f44543e539a0bdd540fb2c4bc870c24f80426495f8340cf4c2
 docker: quay.io/biocontainers/bioconductor-experimentsubset
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

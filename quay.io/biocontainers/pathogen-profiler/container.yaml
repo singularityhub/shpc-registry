@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pathogen-profiler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pathogen-profiler
 latest:
-  2.0.1--pypyh5e36f6f_0: sha256:05d950e86c0eb0ad8d8294b4a2e4e6ed54366e05fdb4ac57fea4517041fb91c2
+  2.0.2--pyh7cba7a3_0: sha256:43b6643d6e3922b88665fe53839f6498b3e767cac488f5cab16f0f00d7b1b17b
 tags:
   2.0.1--pypyh5e36f6f_0: sha256:05d950e86c0eb0ad8d8294b4a2e4e6ed54366e05fdb4ac57fea4517041fb91c2
+  2.0.2--pyh7cba7a3_0: sha256:43b6643d6e3922b88665fe53839f6498b3e767cac488f5cab16f0f00d7b1b17b
 docker: quay.io/biocontainers/pathogen-profiler
 aliases:
   add_dummy_AD.py: /usr/local/bin/add_dummy_AD.py

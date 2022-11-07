@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-hdcytodata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hdcytodata
 latest:
-  1.8.0--r40_0: sha256:caf1d99bf723f4985fa20aaf87afa327a1bb4a499a0b8b43df028515d3efb145
+  1.14.0--r41hdfd78af_1: sha256:e4b68a59e1254af61e74015a20dae5c7c8241381ac75b391e69a71edf086dbb0
 tags:
   1.8.0--r40_0: sha256:caf1d99bf723f4985fa20aaf87afa327a1bb4a499a0b8b43df028515d3efb145
+  1.14.0--r41hdfd78af_1: sha256:e4b68a59e1254af61e74015a20dae5c7c8241381ac75b391e69a71edf086dbb0
+  1.12.0--r41hdfd78af_0: sha256:882245aa5d8e0ff0cd121a0fb932a20f73bc6ee4ecbb22e72113d2bf508cab1a
+  1.10.0--r40hdfd78af_1: sha256:fb902b9eb342b5b2338e81083c15781ce2e27d73bb3b64eec3ad7e1e09efc09f
 docker: quay.io/biocontainers/bioconductor-hdcytodata
 aliases:
   .bioconductor-hdcytodata-post-link.sh: /usr/local/bin/.bioconductor-hdcytodata-post-link.sh

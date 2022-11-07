@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-netboxr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-netboxr
 latest:
-  1.6.0--r41hdfd78af_0: sha256:364aab28ae4e28740b1f3ac74eba1885d1413aa7a6ab9b806e42ba10706ca5ec
+  1.9.0--r42hdfd78af_0: sha256:39f2715457af8f347c413c10a75acf34d042f38fe1de52ab767f3e9abc9edce4
 tags:
   1.6.0--r41hdfd78af_0: sha256:364aab28ae4e28740b1f3ac74eba1885d1413aa7a6ab9b806e42ba10706ca5ec
+  1.9.0--r42hdfd78af_0: sha256:39f2715457af8f347c413c10a75acf34d042f38fe1de52ab767f3e9abc9edce4
 docker: quay.io/biocontainers/bioconductor-netboxr

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/basenji
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for basenji
 latest:
-  0.5.1--pyhdfd78af_0: sha256:edcc0d7142482dbff5b857a4b7e549db12ef455ef410fb853b75e0119b466e4b
+  0.6--pyhdfd78af_0: sha256:ca7ce11a35ca7a861e72e4acb10f7804c55c963912d4137a7ab539efde8476e6
 tags:
   0.5.1--pyhdfd78af_0: sha256:edcc0d7142482dbff5b857a4b7e549db12ef455ef410fb853b75e0119b466e4b
+  0.6--pyhdfd78af_0: sha256:ca7ce11a35ca7a861e72e4acb10f7804c55c963912d4137a7ab539efde8476e6
 docker: quay.io/biocontainers/basenji
 aliases:
   akita_data.py: /usr/local/bin/akita_data.py

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-canine.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-canine.db
 latest:
-  3.2.3--r41hdfd78af_7: sha256:b9776d892ae2364c18d96b6c58b3e4578615af3bc73bb284fb08b8e877853dbb
+  3.13.0--r42hdfd78af_2: sha256:0e5dd6defde0e2da4a346949e90d33304fa27a87e3b7221a80b8e9c26083ed97
 tags:
   3.2.3--r41hdfd78af_7: sha256:b9776d892ae2364c18d96b6c58b3e4578615af3bc73bb284fb08b8e877853dbb
+  3.13.0--r42hdfd78af_2: sha256:0e5dd6defde0e2da4a346949e90d33304fa27a87e3b7221a80b8e9c26083ed97
 docker: quay.io/biocontainers/bioconductor-canine.db
 aliases:
   .bioconductor-canine.db-post-link.sh: /usr/local/bin/.bioconductor-canine.db-post-link.sh

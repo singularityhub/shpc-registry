@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-digest
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-digest
 latest:
-  0.6.9--r3.3.1_1: sha256:9e963354cf354cc6ca06ff24f2e7ce22ae368a569190f5d6028a896db04d2c84
+  0.6.12--r3.3.1_0: sha256:7c2bc626726f403d86c68e7464bbd47a35dcfa7da3aba46f06b46712b12755a0
 tags:
   0.6.9--r3.3.1_1: sha256:9e963354cf354cc6ca06ff24f2e7ce22ae368a569190f5d6028a896db04d2c84
+  0.6.12--r3.3.1_0: sha256:7c2bc626726f403d86c68e7464bbd47a35dcfa7da3aba46f06b46712b12755a0
 docker: quay.io/biocontainers/r-digest
 aliases:
   uconv: /usr/local/bin/uconv

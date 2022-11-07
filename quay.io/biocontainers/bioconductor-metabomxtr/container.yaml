@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-metabomxtr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metabomxtr
 latest:
-  1.28.0--r41hdfd78af_0: sha256:c99f395e67cec62dd51827ced2f5935c6e51b7191d9876e48ce3c4c6060242f4
+  1.32.0--r42hdfd78af_0: sha256:ae8e35d1eda63982308570f38d15a85590444700d651f3bb36d68de27c8b78e3
 tags:
   1.28.0--r41hdfd78af_0: sha256:c99f395e67cec62dd51827ced2f5935c6e51b7191d9876e48ce3c4c6060242f4
+  1.32.0--r42hdfd78af_0: sha256:ae8e35d1eda63982308570f38d15a85590444700d651f3bb36d68de27c8b78e3
 docker: quay.io/biocontainers/bioconductor-metabomxtr

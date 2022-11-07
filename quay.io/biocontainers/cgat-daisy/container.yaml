@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cgat-daisy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cgat-daisy
 latest:
-  0.1.9--pyh5e36f6f_2: sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281
+  0.1.12--pyh5e36f6f_0: sha256:47c8b225939a4f4c4f6844bd0aad75ef621373ace3e7d2a68d6b5a456ac98805
 tags:
   0.1.9--pyh5e36f6f_2: sha256:9fab34f735fa4d0aabb6f59eb2040a460d41a30ee0186ad8eafbb047aed50281
+  0.1.12--pyh5e36f6f_0: sha256:47c8b225939a4f4c4f6844bd0aad75ef621373ace3e7d2a68d6b5a456ac98805
 docker: quay.io/biocontainers/cgat-daisy
 aliases:
   bq: /usr/local/bin/bq

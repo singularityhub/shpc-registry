@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-bovine.db0
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bovine.db0
 latest:
-  3.8.2--r36_1: sha256:a23f774e850f5b7c4e87b5553aafe4a040f4e0105ee7323eaf610dd12d31d2ff
+  3.16.0--r42hdfd78af_0: sha256:9cfb38d8d9c45ef17f66c0ee6939144f42ee0651b5dfc7d5b5da62ad0b097c6b
 tags:
   3.8.2--r36_1: sha256:a23f774e850f5b7c4e87b5553aafe4a040f4e0105ee7323eaf610dd12d31d2ff
+  3.16.0--r42hdfd78af_0: sha256:9cfb38d8d9c45ef17f66c0ee6939144f42ee0651b5dfc7d5b5da62ad0b097c6b
+  3.14.0--r41hdfd78af_1: sha256:413ab4f04e44d751c7de6b7eb143e9ef150ee10e16c790f37312cea7f18d59e3
+  3.13.0--r41hdfd78af_0: sha256:54470c367199dca5f07c6dfe3c62529e115132e905901b7c4aec9d7f26c00f99
+  3.12.0--r40hdfd78af_1: sha256:46d812849dc85977d64c7e2e9c3cc084673464f2a6d6bf36b9194832beb3e4d8
+  3.11.2--r40_0: sha256:fddce8a7c0692c9f95b234cb94b7c0eb83ce65253285f8b36b7515820cccab2d
 docker: quay.io/biocontainers/bioconductor-bovine.db0
 aliases:
   .bioconductor-bovine.db0-post-link.sh: /usr/local/bin/.bioconductor-bovine.db0-post-link.sh
