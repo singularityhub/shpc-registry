@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/constax
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for constax
 latest:
-  2.0.9--hdfd78af_0: sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98
+  2.0.18--pyhdfd78af_0: sha256:b7090c8d1411a59a2c82058806ac74e82f971308c43d5a6bd4e986c2c29c1fb1
 tags:
   2.0.9--hdfd78af_0: sha256:d428d99662be90f976b3352c56fe393173f51913b42b8274da8af08e77a7ac98
+  2.0.18--pyhdfd78af_0: sha256:b7090c8d1411a59a2c82058806ac74e82f971308c43d5a6bd4e986c2c29c1fb1
 docker: quay.io/biocontainers/constax
 aliases:
   AbundanceStats: /usr/local/bin/AbundanceStats

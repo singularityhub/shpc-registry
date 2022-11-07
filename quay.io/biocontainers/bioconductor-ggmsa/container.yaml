@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ggmsa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ggmsa
 latest:
-  1.0.0--r41hdfd78af_0: sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e
+  1.4.0--r42hdfd78af_0: sha256:a284b6bff1109922682871e81d611e93efa2097ad0b428a6d3ca7db74c19baa8
 tags:
   1.0.0--r41hdfd78af_0: sha256:f4526e13a79c4fed63b3830440c4bc1176616b792340d5e2527682fae563875e
+  1.4.0--r42hdfd78af_0: sha256:a284b6bff1109922682871e81d611e93efa2097ad0b428a6d3ca7db74c19baa8
 docker: quay.io/biocontainers/bioconductor-ggmsa
 aliases:
   projsync: /usr/local/bin/projsync

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-memes
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-memes
 latest:
-  1.2.0--r41hdfd78af_0: sha256:6c64da8ec39a83cee02e4f1653c30db92927384c51d7cb07635b8430474d3d96
+  1.6.0--r42hdfd78af_0: sha256:20da95e8493ea40cb46761c59b32ceb9df06f58e1bfd617ef7265032b49d42db
 tags:
   1.2.0--r41hdfd78af_0: sha256:6c64da8ec39a83cee02e4f1653c30db92927384c51d7cb07635b8430474d3d96
+  1.6.0--r42hdfd78af_0: sha256:20da95e8493ea40cb46761c59b32ceb9df06f58e1bfd617ef7265032b49d42db
 docker: quay.io/biocontainers/bioconductor-memes

@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-tenxbraindata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tenxbraindata
 latest:
-  1.8.0--r40_0: sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5
+  1.14.0--r41hdfd78af_1: sha256:ec4d1338c353e407efe5844a10fbaa7858b6a891d8524e585ae6e33d248ae023
 tags:
   1.8.0--r40_0: sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5
+  1.14.0--r41hdfd78af_1: sha256:ec4d1338c353e407efe5844a10fbaa7858b6a891d8524e585ae6e33d248ae023
+  1.12.0--r41hdfd78af_0: sha256:84a11e6b027e4b58281021b62415085ca0935e9bf7c9b04c9cdcfa53441780f1
+  1.10.0--r40hdfd78af_1: sha256:54d48c64323f5632501bc6f95aa7c054f13d9607083cfc2feebb556e7fca4fc8
 docker: quay.io/biocontainers/bioconductor-tenxbraindata
 aliases:
   .bioconductor-tenxbraindata-post-link.sh: /usr/local/bin/.bioconductor-tenxbraindata-post-link.sh

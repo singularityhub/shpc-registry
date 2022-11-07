@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ichip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ichip
 latest:
-  1.48.0--r41hc0cfd56_2: sha256:5e6174ae3f6499d5e353a9b0290b8194626a586ba9437d840333cd08724de9b1
+  1.52.0--r42hc0cfd56_0: sha256:c972484eba06a756ae1e6dd26a0485c43a3fc1615e0e2d01029592c52a48868e
 tags:
   1.48.0--r41hc0cfd56_2: sha256:5e6174ae3f6499d5e353a9b0290b8194626a586ba9437d840333cd08724de9b1
+  1.52.0--r42hc0cfd56_0: sha256:c972484eba06a756ae1e6dd26a0485c43a3fc1615e0e2d01029592c52a48868e
 docker: quay.io/biocontainers/bioconductor-ichip

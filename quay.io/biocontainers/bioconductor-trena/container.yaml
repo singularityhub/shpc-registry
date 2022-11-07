@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-trena
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-trena
 latest:
-  1.8.0--r36_0: sha256:f2bd624e93ce60eca564db630a3605dcbd437e8d85ce32d0904521f665029257
+  1.16.0--r41hdfd78af_0: sha256:62da8921ae2e36f2d4bc002d5c3dc1981778804303b7bf57128700d984bbc49e
 tags:
   1.8.0--r36_0: sha256:f2bd624e93ce60eca564db630a3605dcbd437e8d85ce32d0904521f665029257
+  1.16.0--r41hdfd78af_0: sha256:62da8921ae2e36f2d4bc002d5c3dc1981778804303b7bf57128700d984bbc49e
+  1.14.0--r41hdfd78af_0: sha256:2b09120d0461526d0d7de195916994c5825b1c0cc0ce1cb4a60295ebc7c99f4b
 docker: quay.io/biocontainers/bioconductor-trena
 aliases:
   xgboost: /usr/local/bin/xgboost

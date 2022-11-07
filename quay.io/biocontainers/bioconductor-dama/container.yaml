@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-dama
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dama
 latest:
-  1.66.0--r41hdfd78af_0: sha256:5538621d1dd4e6a27f6a89e24d7f6c04d970ebe66f36f300334731e037801a48
+  1.70.0--r42hdfd78af_0: sha256:c135414007bd676ca5094beaceed4d80c42141ab80e825907b44c2f956fef5ae
 tags:
   1.66.0--r41hdfd78af_0: sha256:5538621d1dd4e6a27f6a89e24d7f6c04d970ebe66f36f300334731e037801a48
+  1.70.0--r42hdfd78af_0: sha256:c135414007bd676ca5094beaceed4d80c42141ab80e825907b44c2f956fef5ae
 docker: quay.io/biocontainers/bioconductor-dama

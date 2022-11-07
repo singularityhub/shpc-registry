@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gcrma
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gcrma
 latest:
-  2.66.0--r41hc0cfd56_2: sha256:5d7fe65c21e750c17b593a1dca57d9dc85d5d9ee3b2108479054618fc1bd9eb6
+  2.70.0--r42hc0cfd56_0: sha256:2c3739bbd962b544fbdcc42ad2b5b3d59dd56e7a34783a74bc6eac08fd070a11
 tags:
   2.66.0--r41hc0cfd56_2: sha256:5d7fe65c21e750c17b593a1dca57d9dc85d5d9ee3b2108479054618fc1bd9eb6
+  2.70.0--r42hc0cfd56_0: sha256:2c3739bbd962b544fbdcc42ad2b5b3d59dd56e7a34783a74bc6eac08fd070a11
 docker: quay.io/biocontainers/bioconductor-gcrma

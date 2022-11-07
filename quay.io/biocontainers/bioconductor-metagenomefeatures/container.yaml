@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-metagenomefeatures
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metagenomefeatures
 latest:
-  2.8.0--r40_0: sha256:64115c48e27905595afe0c15605ec9227cf0f94a1d015325f358037e38b230ef
+  2.10.0--r40hdfd78af_1: sha256:ec7b6b650cfbdafb8cc157320e794a3808bead7f3454c7dedc76ce9a1c9336be
 tags:
   2.8.0--r40_0: sha256:64115c48e27905595afe0c15605ec9227cf0f94a1d015325f358037e38b230ef
+  2.10.0--r40hdfd78af_1: sha256:ec7b6b650cfbdafb8cc157320e794a3808bead7f3454c7dedc76ce9a1c9336be
 docker: quay.io/biocontainers/bioconductor-metagenomefeatures
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

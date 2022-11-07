@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ncrnatools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ncrnatools
 latest:
-  1.4.0--r41hdfd78af_0: sha256:7ebca866d58807246bb91dde424819bcdbb3acf85fa0b115d2689e824a7925a9
+  1.8.0--r42hdfd78af_0: sha256:1556b48bf1096f14a6a779b91cefc9c322a78c7f5e9fa33e79262740add64141
 tags:
   1.4.0--r41hdfd78af_0: sha256:7ebca866d58807246bb91dde424819bcdbb3acf85fa0b115d2689e824a7925a9
+  1.8.0--r42hdfd78af_0: sha256:1556b48bf1096f14a6a779b91cefc9c322a78c7f5e9fa33e79262740add64141
 docker: quay.io/biocontainers/bioconductor-ncrnatools

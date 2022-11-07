@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bohra
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bohra
 latest:
-  1.2.9--py_0: sha256:1c7945448913cb47ccd34f3f8dde4aca6e9ba1fb46776daa4eb170c393ed5f62
+  1.2.19--py_1: sha256:d68e2efbed09911274a79d0af128a71e7a72bf415d56e778f063bfa89300d798
 tags:
   1.2.9--py_0: sha256:1c7945448913cb47ccd34f3f8dde4aca6e9ba1fb46776daa4eb170c393ed5f62
+  1.2.19--py_1: sha256:d68e2efbed09911274a79d0af128a71e7a72bf415d56e778f063bfa89300d798
 docker: quay.io/biocontainers/bohra
 aliases:
   abricate: /usr/local/bin/abricate
