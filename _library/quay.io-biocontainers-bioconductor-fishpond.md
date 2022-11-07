@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-fishpond"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fishpond/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fishpond/container.yaml"
-updated_at: "2022-11-06 00:53:33.405777"
-latest: "2.0.1--r41hc247a5b_1"
+updated_at: "2022-11-07 01:06:15.737197"
+latest: "2.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fishpond"
 
 versions:
  - "2.0.1--r41hc247a5b_1"
+ - "2.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fishpond"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fishpond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fishpond", "latest": {"2.0.1--r41hc247a5b_1": "sha256:16356fe078eb835b961a12cfa226a28d26d9fd8cd7e300fa4da0198b51acf89c"}, "tags": {"2.0.1--r41hc247a5b_1": "sha256:16356fe078eb835b961a12cfa226a28d26d9fd8cd7e300fa4da0198b51acf89c"}, "docker": "quay.io/biocontainers/bioconductor-fishpond"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fishpond", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fishpond", "latest": {"2.4.0--r42hdfd78af_0": "sha256:6e2a764e61c28f52fcfc4ffd20c112d6b490244113c423fafc5fc7bd5c33ebf3"}, "tags": {"2.0.1--r41hc247a5b_1": "sha256:16356fe078eb835b961a12cfa226a28d26d9fd8cd7e300fa4da0198b51acf89c", "2.4.0--r42hdfd78af_0": "sha256:6e2a764e61c28f52fcfc4ffd20c112d6b490244113c423fafc5fc7bd5c33ebf3"}, "docker": "quay.io/biocontainers/bioconductor-fishpond"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fishpond.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fishpond
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fishpond:2.0.1--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-fishpond:2.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fishpond/2.0.1--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-fishpond/2.0.1--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-fishpond/2.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fishpond/2.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

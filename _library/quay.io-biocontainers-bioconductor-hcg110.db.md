@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hcg110.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hcg110.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hcg110.db/container.yaml"
-updated_at: "2022-11-06 00:19:16.536269"
+updated_at: "2022-11-06 23:56:35.500038"
 latest: "3.2.3--r41hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-hcg110.db"
 aliases:

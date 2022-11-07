@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/breakdancer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/breakdancer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/breakdancer/container.yaml"
-updated_at: "2022-11-06 00:45:27.432339"
-latest: "1.4.5--hc755212_9"
+updated_at: "2022-11-07 00:49:50.790298"
+latest: "1.4.5--pl5321h360a1d4_10"
 container_url: "https://biocontainers.pro/tools/breakdancer"
 aliases:
  - "bam2cfg.pl"
@@ -22,8 +22,9 @@ aliases:
  - "giftogd2"
 versions:
  - "1.4.5--hc755212_9"
+ - "1.4.5--pl5321h360a1d4_10"
 description: "shpc-registry automated BioContainers addition for breakdancer"
-config: {"url": "https://biocontainers.pro/tools/breakdancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for breakdancer", "latest": {"1.4.5--hc755212_9": "sha256:11c7010c5cba03987fbd796928bc9472417462a3c46c0cbf876cbb43cf6fb013"}, "tags": {"1.4.5--hc755212_9": "sha256:11c7010c5cba03987fbd796928bc9472417462a3c46c0cbf876cbb43cf6fb013"}, "docker": "quay.io/biocontainers/breakdancer", "aliases": {"bam2cfg.pl": "/usr/local/bin/bam2cfg.pl", "breakdancer-max": "/usr/local/bin/breakdancer-max", "gdlib-config": "/usr/local/bin/gdlib-config", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2"}}
+config: {"url": "https://biocontainers.pro/tools/breakdancer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for breakdancer", "latest": {"1.4.5--pl5321h360a1d4_10": "sha256:c8f6dc392b9db72e0ff40273851a9d05cf9b46ea18e53c490ef1e908fe3a69d9"}, "tags": {"1.4.5--hc755212_9": "sha256:11c7010c5cba03987fbd796928bc9472417462a3c46c0cbf876cbb43cf6fb013", "1.4.5--pl5321h360a1d4_10": "sha256:c8f6dc392b9db72e0ff40273851a9d05cf9b46ea18e53c490ef1e908fe3a69d9"}, "docker": "quay.io/biocontainers/breakdancer", "aliases": {"bam2cfg.pl": "/usr/local/bin/bam2cfg.pl", "breakdancer-max": "/usr/local/bin/breakdancer-max", "gdlib-config": "/usr/local/bin/gdlib-config", "bdf2gdfont.pl": "/usr/local/bin/bdf2gdfont.pl", "bdftogd": "/usr/local/bin/bdftogd", "gd2copypal": "/usr/local/bin/gd2copypal", "gd2togif": "/usr/local/bin/gd2togif", "gd2topng": "/usr/local/bin/gd2topng", "gdcmpgif": "/usr/local/bin/gdcmpgif", "gdparttopng": "/usr/local/bin/gdparttopng", "gdtopng": "/usr/local/bin/gdtopng", "giftogd2": "/usr/local/bin/giftogd2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/breakdancer.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/breakdancer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/breakdancer:1.4.5--hc755212_9
+$ shpc install quay.io/biocontainers/breakdancer:1.4.5--pl5321h360a1d4_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/breakdancer/1.4.5--hc755212_9
-$ module help quay.io/biocontainers/breakdancer/1.4.5--hc755212_9
+$ module load quay.io/biocontainers/breakdancer/1.4.5--pl5321h360a1d4_10
+$ module help quay.io/biocontainers/breakdancer/1.4.5--pl5321h360a1d4_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

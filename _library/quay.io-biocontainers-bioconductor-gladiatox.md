@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gladiatox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gladiatox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gladiatox/container.yaml"
-updated_at: "2022-11-06 00:57:22.238591"
+updated_at: "2022-11-07 01:13:56.323130"
 latest: "1.8.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gladiatox"
 aliases:

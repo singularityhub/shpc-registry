@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-vitisviniferacdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-vitisviniferacdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-vitisviniferacdf/container.yaml"
-updated_at: "2022-11-06 00:47:37.536555"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-07 00:54:15.704169"
+latest: "2.18.0--r41hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-vitisviniferacdf"
 aliases:
  - ".bioconductor-vitisviniferacdf-post-link.sh"
  - ".bioconductor-vitisviniferacdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r41hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-vitisviniferacdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-vitisviniferacdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vitisviniferacdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:6c2e6d84b1efac41699e300669b3c49b578be12355ca7e7a16e70217cdeefb81"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6c2e6d84b1efac41699e300669b3c49b578be12355ca7e7a16e70217cdeefb81"}, "docker": "quay.io/biocontainers/bioconductor-vitisviniferacdf", "aliases": {".bioconductor-vitisviniferacdf-post-link.sh": "/usr/local/bin/.bioconductor-vitisviniferacdf-post-link.sh", ".bioconductor-vitisviniferacdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-vitisviniferacdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-vitisviniferacdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-vitisviniferacdf", "latest": {"2.18.0--r41hdfd78af_10": "sha256:0747b15cfd946eb3e44a9c1b626b92db831f0508139818ae106a09809c71a13b"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6c2e6d84b1efac41699e300669b3c49b578be12355ca7e7a16e70217cdeefb81", "2.18.0--r41hdfd78af_10": "sha256:0747b15cfd946eb3e44a9c1b626b92db831f0508139818ae106a09809c71a13b"}, "docker": "quay.io/biocontainers/bioconductor-vitisviniferacdf", "aliases": {".bioconductor-vitisviniferacdf-post-link.sh": "/usr/local/bin/.bioconductor-vitisviniferacdf-post-link.sh", ".bioconductor-vitisviniferacdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-vitisviniferacdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-vitisviniferacdf.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-vitisviniferacdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-vitisviniferacdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-vitisviniferacdf:2.18.0--r41hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-vitisviniferacdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-vitisviniferacdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-vitisviniferacdf/2.18.0--r41hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-vitisviniferacdf/2.18.0--r41hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

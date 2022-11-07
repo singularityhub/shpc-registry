@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastalite"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastalite/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastalite/container.yaml"
-updated_at: "2022-11-06 00:44:45.005373"
+updated_at: "2022-11-07 00:48:22.386405"
 latest: "0.3--py_0"
 container_url: "https://biocontainers.pro/tools/fastalite"
 aliases:

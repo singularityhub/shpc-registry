@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-zinbwave"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zinbwave/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zinbwave/container.yaml"
-updated_at: "2022-11-06 00:38:26.297836"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-07 00:35:21.103730"
+latest: "1.16.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zinbwave"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.1--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-zinbwave"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zinbwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zinbwave", "latest": {"1.8.0--r36_0": "sha256:ebbc4508631522d30d100f76c18ef17990157dcfa4c68c592459478d2153d8d1"}, "tags": {"1.8.0--r36_0": "sha256:ebbc4508631522d30d100f76c18ef17990157dcfa4c68c592459478d2153d8d1"}, "docker": "quay.io/biocontainers/bioconductor-zinbwave", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zinbwave", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zinbwave", "latest": {"1.16.0--r41hdfd78af_0": "sha256:e4c3e078827ad6d0898f59ace21b3f12c66076d583cacb8fab409d0b8711e0ad"}, "tags": {"1.8.0--r36_0": "sha256:ebbc4508631522d30d100f76c18ef17990157dcfa4c68c592459478d2153d8d1", "1.16.0--r41hdfd78af_0": "sha256:e4c3e078827ad6d0898f59ace21b3f12c66076d583cacb8fab409d0b8711e0ad", "1.14.1--r41hdfd78af_0": "sha256:99c4f8fbd939e677bb759235475d5d2bd9b69aa07f82457d40711affdb8ee865", "1.12.0--r40hdfd78af_1": "sha256:4d40f949cb6729bae1e139d2c3e9d42d318ddc53d7b75b78b7ea39e9b5b242e1", "1.10.0--r40_0": "sha256:f4fa342bca6f8876e89d52a93651ce97591502bf4f3399cf319322082c920c1a"}, "docker": "quay.io/biocontainers/bioconductor-zinbwave", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zinbwave.
@@ -29,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-zinbwave
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-zinbwave:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-zinbwave:1.16.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-zinbwave/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-zinbwave/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-zinbwave/1.16.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-zinbwave/1.16.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-amplican"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-amplican/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-amplican/container.yaml"
-updated_at: "2022-11-06 00:34:10.010407"
-latest: "1.8.0--r36he1b5a44_0"
+updated_at: "2022-11-07 00:26:32.058968"
+latest: "1.16.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-amplican"
 aliases:
  - "pandoc-citeproc"
@@ -15,8 +15,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36he1b5a44_0"
+ - "1.16.0--r41hc247a5b_2"
+ - "1.14.0--r41h399db7b_0"
+ - "1.12.0--r40h399db7b_1"
+ - "1.10.0--r40h5f743cb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-amplican"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-amplican", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-amplican", "latest": {"1.8.0--r36he1b5a44_0": "sha256:744ec8d7f3b05afc5becf2a4acd3ba6b8c2fbac1374cefe97c4037b2aa2d740f"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:744ec8d7f3b05afc5becf2a4acd3ba6b8c2fbac1374cefe97c4037b2aa2d740f"}, "docker": "quay.io/biocontainers/bioconductor-amplican", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-amplican", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-amplican", "latest": {"1.16.0--r41hc247a5b_2": "sha256:30bf8a5ae6c186817feba02370c0254b011b2075fb7b49184ffd1cffd1e4434e"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:744ec8d7f3b05afc5becf2a4acd3ba6b8c2fbac1374cefe97c4037b2aa2d740f", "1.16.0--r41hc247a5b_2": "sha256:30bf8a5ae6c186817feba02370c0254b011b2075fb7b49184ffd1cffd1e4434e", "1.14.0--r41h399db7b_0": "sha256:5527580989ae490a1e4619764334c5f47d24f47fad4a64b4434c017d704f808c", "1.12.0--r40h399db7b_1": "sha256:7d7f6d4ecc6deddd346c7a9cf9aac97a7b563101001371c6b4954038bb030673", "1.10.0--r40h5f743cb_0": "sha256:d5f5db4c1fd8f5da3955f2729396eeb6a4d2384fb72e3ef228d3446cfa5ec784"}, "docker": "quay.io/biocontainers/bioconductor-amplican", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-amplican.
@@ -31,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-amplican
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-amplican:1.8.0--r36he1b5a44_0
+$ shpc install quay.io/biocontainers/bioconductor-amplican:1.16.0--r41hc247a5b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-amplican/1.8.0--r36he1b5a44_0
-$ module help quay.io/biocontainers/bioconductor-amplican/1.8.0--r36he1b5a44_0
+$ module load quay.io/biocontainers/bioconductor-amplican/1.16.0--r41hc247a5b_2
+$ module help quay.io/biocontainers/bioconductor-amplican/1.16.0--r41hc247a5b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

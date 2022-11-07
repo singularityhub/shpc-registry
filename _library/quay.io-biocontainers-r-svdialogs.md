@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-svdialogs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-svdialogs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-svdialogs/container.yaml"
-updated_at: "2022-11-06 00:44:18.000999"
+updated_at: "2022-11-07 00:47:28.035609"
 latest: "0.9_57--r3.3.2_0"
 container_url: "https://biocontainers.pro/tools/r-svdialogs"
 aliases:

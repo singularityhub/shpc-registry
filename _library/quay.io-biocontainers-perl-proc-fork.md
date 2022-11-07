@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-proc-fork"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-proc-fork/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-proc-fork/container.yaml"
-updated_at: "2022-11-06 00:34:15.771224"
+updated_at: "2022-11-07 00:26:43.578963"
 latest: "0.806--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-proc-fork"
 aliases:

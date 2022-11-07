@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-herper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-herper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-herper/container.yaml"
-updated_at: "2022-11-06 00:20:30.629656"
-latest: "1.3.0--r41hdfd78af_0"
+updated_at: "2022-11-06 23:59:09.040686"
+latest: "1.7.2--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-herper"
 
 versions:
  - "1.3.0--r41hdfd78af_0"
+ - "1.7.2--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-herper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-herper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-herper", "latest": {"1.3.0--r41hdfd78af_0": "sha256:99e28373a57a68fc90b9ca94aff2a976cdd4cde5b40e4a22659857beec210149"}, "tags": {"1.3.0--r41hdfd78af_0": "sha256:99e28373a57a68fc90b9ca94aff2a976cdd4cde5b40e4a22659857beec210149"}, "docker": "quay.io/biocontainers/bioconductor-herper"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-herper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-herper", "latest": {"1.7.2--r42hdfd78af_0": "sha256:9be69816c8df664a813f635e3ca3544fc8174722853308dd37aa6e3b7ddb052c"}, "tags": {"1.3.0--r41hdfd78af_0": "sha256:99e28373a57a68fc90b9ca94aff2a976cdd4cde5b40e4a22659857beec210149", "1.7.2--r42hdfd78af_0": "sha256:9be69816c8df664a813f635e3ca3544fc8174722853308dd37aa6e3b7ddb052c"}, "docker": "quay.io/biocontainers/bioconductor-herper"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-herper.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-herper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-herper:1.3.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-herper:1.7.2--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-herper/1.3.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-herper/1.3.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-herper/1.7.2--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-herper/1.7.2--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

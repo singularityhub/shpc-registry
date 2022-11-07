@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-wrap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-wrap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-wrap/container.yaml"
-updated_at: "2022-11-06 00:31:18.900716"
+updated_at: "2022-11-07 00:20:48.773937"
 latest: "2021.0814--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-text-wrap"
 aliases:

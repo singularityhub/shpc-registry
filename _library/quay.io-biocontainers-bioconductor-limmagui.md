@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-limmagui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-limmagui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-limmagui/container.yaml"
-updated_at: "2022-11-06 00:31:24.614912"
-latest: "1.70.0--r41hdfd78af_0"
+updated_at: "2022-11-07 00:20:59.983759"
+latest: "1.74.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-limmagui"
 
 versions:
  - "1.70.0--r41hdfd78af_0"
+ - "1.74.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-limmagui"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-limmagui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-limmagui", "latest": {"1.70.0--r41hdfd78af_0": "sha256:01e3e6e68fb10608fbc57cce89e9e978ae36d50715f764f5626409a9ef276a31"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:01e3e6e68fb10608fbc57cce89e9e978ae36d50715f764f5626409a9ef276a31"}, "docker": "quay.io/biocontainers/bioconductor-limmagui"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-limmagui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-limmagui", "latest": {"1.74.0--r42hdfd78af_0": "sha256:93a9d1548ee7ffa78ab483a45962a85c471021cb69e8175c2c674abee25ff9d8"}, "tags": {"1.70.0--r41hdfd78af_0": "sha256:01e3e6e68fb10608fbc57cce89e9e978ae36d50715f764f5626409a9ef276a31", "1.74.0--r42hdfd78af_0": "sha256:93a9d1548ee7ffa78ab483a45962a85c471021cb69e8175c2c674abee25ff9d8"}, "docker": "quay.io/biocontainers/bioconductor-limmagui"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-limmagui.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-limmagui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-limmagui:1.70.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-limmagui:1.74.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-limmagui/1.70.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-limmagui/1.70.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-limmagui/1.74.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-limmagui/1.74.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

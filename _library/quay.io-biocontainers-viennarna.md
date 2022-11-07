@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/viennarna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/viennarna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/viennarna/container.yaml"
-updated_at: "2022-11-06 00:29:40.634693"
-latest: "2.4.9--py27hd28b015_0"
+updated_at: "2022-11-07 00:17:34.951220"
+latest: "2.4.11--py36hdbcaa40_2"
 container_url: "https://biocontainers.pro/tools/viennarna"
 aliases:
  - "AnalyseDists"
@@ -20,8 +20,9 @@ aliases:
  - "RNALalifold"
 versions:
  - "2.4.9--py27hd28b015_0"
+ - "2.4.11--py36hdbcaa40_2"
 description: "shpc-registry automated BioContainers addition for viennarna"
-config: {"url": "https://biocontainers.pro/tools/viennarna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viennarna", "latest": {"2.4.9--py27hd28b015_0": "sha256:475a89fc6b56fb8afb5585339074b949e82d5a6e6aa3d3d2eb07b7f2a2a6ffb1"}, "tags": {"2.4.9--py27hd28b015_0": "sha256:475a89fc6b56fb8afb5585339074b949e82d5a6e6aa3d3d2eb07b7f2a2a6ffb1"}, "docker": "quay.io/biocontainers/viennarna", "aliases": {"AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold"}}
+config: {"url": "https://biocontainers.pro/tools/viennarna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for viennarna", "latest": {"2.4.11--py36hdbcaa40_2": "sha256:8bee96fc934d0174072dddd0181285ce7856888e10051870a8a996637e376dc2"}, "tags": {"2.4.9--py27hd28b015_0": "sha256:475a89fc6b56fb8afb5585339074b949e82d5a6e6aa3d3d2eb07b7f2a2a6ffb1", "2.4.11--py36hdbcaa40_2": "sha256:8bee96fc934d0174072dddd0181285ce7856888e10051870a8a996637e376dc2"}, "docker": "quay.io/biocontainers/viennarna", "aliases": {"AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt", "RNA2Dfold": "/usr/local/bin/RNA2Dfold", "RNALalifold": "/usr/local/bin/RNALalifold"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/viennarna.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/viennarna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/viennarna:2.4.9--py27hd28b015_0
+$ shpc install quay.io/biocontainers/viennarna:2.4.11--py36hdbcaa40_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/viennarna/2.4.9--py27hd28b015_0
-$ module help quay.io/biocontainers/viennarna/2.4.9--py27hd28b015_0
+$ module load quay.io/biocontainers/viennarna/2.4.11--py36hdbcaa40_2
+$ module help quay.io/biocontainers/viennarna/2.4.11--py36hdbcaa40_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

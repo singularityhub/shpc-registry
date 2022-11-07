@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pymummer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pymummer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pymummer/container.yaml"
-updated_at: "2022-11-06 00:45:30.868533"
-latest: "0.9.0--py35_0"
+updated_at: "2022-11-07 00:49:57.747637"
+latest: "0.11.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/pymummer"
 aliases:
  - "fastaq"
@@ -20,8 +20,10 @@ aliases:
  - "mummer"
 versions:
  - "0.9.0--py35_0"
+ - "0.11.0--pyhdfd78af_1"
+ - "0.10.3--py_2"
 description: "shpc-registry automated BioContainers addition for pymummer"
-config: {"url": "https://biocontainers.pro/tools/pymummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymummer", "latest": {"0.9.0--py35_0": "sha256:b608927d77cd74781f3f77267b2dc96cabef0cc70554d47c23a835f5de41127e"}, "tags": {"0.9.0--py35_0": "sha256:b608927d77cd74781f3f77267b2dc96cabef0cc70554d47c23a835f5de41127e"}, "docker": "quay.io/biocontainers/pymummer", "aliases": {"fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
+config: {"url": "https://biocontainers.pro/tools/pymummer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pymummer", "latest": {"0.11.0--pyhdfd78af_1": "sha256:d1d5062e78c3751344e54308c16d26a66f6a425e00b6bbdd58bded008ea6b766"}, "tags": {"0.9.0--py35_0": "sha256:b608927d77cd74781f3f77267b2dc96cabef0cc70554d47c23a835f5de41127e", "0.11.0--pyhdfd78af_1": "sha256:d1d5062e78c3751344e54308c16d26a66f6a425e00b6bbdd58bded008ea6b766", "0.10.3--py_2": "sha256:70b2d9dd73b384de78eee2899332dc8aeec5585dfea4d91e21cbc297d9a9b530"}, "docker": "quay.io/biocontainers/pymummer", "aliases": {"fastaq": "/usr/local/bin/fastaq", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1", "run-mummer3": "/usr/local/bin/run-mummer3", "combineMUMs": "/usr/local/bin/combineMUMs", "delta-filter": "/usr/local/bin/delta-filter", "dnadiff": "/usr/local/bin/dnadiff", "exact-tandems": "/usr/local/bin/exact-tandems", "mummer": "/usr/local/bin/mummer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pymummer.
@@ -36,7 +38,7 @@ $ shpc install quay.io/biocontainers/pymummer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pymummer:0.9.0--py35_0
+$ shpc install quay.io/biocontainers/pymummer:0.11.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pymummer/0.9.0--py35_0
-$ module help quay.io/biocontainers/pymummer/0.9.0--py35_0
+$ module load quay.io/biocontainers/pymummer/0.11.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/pymummer/0.11.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

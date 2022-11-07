@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-grndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grndata/container.yaml"
-updated_at: "2022-11-06 00:19:39.210349"
-latest: "1.26.0--r41hdfd78af_1"
+updated_at: "2022-11-06 23:57:23.404566"
+latest: "1.29.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grndata"
 aliases:
  - ".bioconductor-grndata-post-link.sh"
  - ".bioconductor-grndata-pre-unlink.sh"
 versions:
  - "1.26.0--r41hdfd78af_1"
+ - "1.29.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-grndata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-grndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grndata", "latest": {"1.26.0--r41hdfd78af_1": "sha256:1a0c8ad51000e9e40a154f706b2f1e8dbea1150a168361af08bce45c73886759"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:1a0c8ad51000e9e40a154f706b2f1e8dbea1150a168361af08bce45c73886759"}, "docker": "quay.io/biocontainers/bioconductor-grndata", "aliases": {".bioconductor-grndata-post-link.sh": "/usr/local/bin/.bioconductor-grndata-post-link.sh", ".bioconductor-grndata-pre-unlink.sh": "/usr/local/bin/.bioconductor-grndata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-grndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grndata", "latest": {"1.29.0--r42hdfd78af_0": "sha256:c7074fa46e4e6176ef739b1ddf3a7bef52b91d060fe3313136964dd254c93bb0"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:1a0c8ad51000e9e40a154f706b2f1e8dbea1150a168361af08bce45c73886759", "1.29.0--r42hdfd78af_0": "sha256:c7074fa46e4e6176ef739b1ddf3a7bef52b91d060fe3313136964dd254c93bb0"}, "docker": "quay.io/biocontainers/bioconductor-grndata", "aliases": {".bioconductor-grndata-post-link.sh": "/usr/local/bin/.bioconductor-grndata-post-link.sh", ".bioconductor-grndata-pre-unlink.sh": "/usr/local/bin/.bioconductor-grndata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-grndata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-grndata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-grndata:1.26.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-grndata:1.29.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-grndata/1.26.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-grndata/1.26.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-grndata/1.29.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-grndata/1.29.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

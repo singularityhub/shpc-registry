@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-phyext2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-phyext2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-phyext2/container.yaml"
-updated_at: "2022-11-06 00:31:13.753061"
-latest: "0.0.4--r41h3121a25_7"
+updated_at: "2022-11-07 00:20:38.628883"
+latest: "0.0.4--r42h3121a25_8"
 container_url: "https://biocontainers.pro/tools/r-phyext2"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.0.4--r41h3121a25_7"
+ - "0.0.4--r42h3121a25_8"
 description: "shpc-registry automated BioContainers addition for r-phyext2"
-config: {"url": "https://biocontainers.pro/tools/r-phyext2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phyext2", "latest": {"0.0.4--r41h3121a25_7": "sha256:e3a4cdb3b721e45cf16869f21b3013e623b3443b01c29f331353da7f873b964f"}, "tags": {"0.0.4--r41h3121a25_7": "sha256:e3a4cdb3b721e45cf16869f21b3013e623b3443b01c29f331353da7f873b964f"}, "docker": "quay.io/biocontainers/r-phyext2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-phyext2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-phyext2", "latest": {"0.0.4--r42h3121a25_8": "sha256:9f08ca5c254e5f4376424d58a1d2778f1364573bca38c087c2bace8f9526ac2f"}, "tags": {"0.0.4--r41h3121a25_7": "sha256:e3a4cdb3b721e45cf16869f21b3013e623b3443b01c29f331353da7f873b964f", "0.0.4--r42h3121a25_8": "sha256:9f08ca5c254e5f4376424d58a1d2778f1364573bca38c087c2bace8f9526ac2f"}, "docker": "quay.io/biocontainers/r-phyext2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-phyext2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-phyext2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-phyext2:0.0.4--r41h3121a25_7
+$ shpc install quay.io/biocontainers/r-phyext2:0.0.4--r42h3121a25_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-phyext2/0.0.4--r41h3121a25_7
-$ module help quay.io/biocontainers/r-phyext2/0.0.4--r41h3121a25_7
+$ module load quay.io/biocontainers/r-phyext2/0.0.4--r42h3121a25_8
+$ module help quay.io/biocontainers/r-phyext2/0.0.4--r42h3121a25_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

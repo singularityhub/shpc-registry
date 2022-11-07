@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bx-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bx-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bx-python/container.yaml"
-updated_at: "2022-11-06 00:54:58.366849"
-latest: "0.8.9--py27h54ae540_2"
+updated_at: "2022-11-07 01:09:09.932611"
+latest: "0.8.11--py36h5e0341f_0"
 container_url: "https://biocontainers.pro/tools/bx-python"
 
 versions:
  - "0.8.9--py27h54ae540_2"
+ - "0.8.11--py36h5e0341f_0"
 description: "shpc-registry automated BioContainers addition for bx-python"
-config: {"url": "https://biocontainers.pro/tools/bx-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bx-python", "latest": {"0.8.9--py27h54ae540_2": "sha256:cc1f109a9aabe9943ab6df613d5aed5bdd0e6e88a72853fb7171b8de51dcda66"}, "tags": {"0.8.9--py27h54ae540_2": "sha256:cc1f109a9aabe9943ab6df613d5aed5bdd0e6e88a72853fb7171b8de51dcda66"}, "docker": "quay.io/biocontainers/bx-python"}
+config: {"url": "https://biocontainers.pro/tools/bx-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bx-python", "latest": {"0.8.11--py36h5e0341f_0": "sha256:c46b0e7f726f61b22d6cfbd8abe65bcebdd33b9ee018c42808d012e078332ad0"}, "tags": {"0.8.9--py27h54ae540_2": "sha256:cc1f109a9aabe9943ab6df613d5aed5bdd0e6e88a72853fb7171b8de51dcda66", "0.8.11--py36h5e0341f_0": "sha256:c46b0e7f726f61b22d6cfbd8abe65bcebdd33b9ee018c42808d012e078332ad0"}, "docker": "quay.io/biocontainers/bx-python"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bx-python.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bx-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bx-python:0.8.9--py27h54ae540_2
+$ shpc install quay.io/biocontainers/bx-python:0.8.11--py36h5e0341f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bx-python/0.8.9--py27h54ae540_2
-$ module help quay.io/biocontainers/bx-python/0.8.9--py27h54ae540_2
+$ module load quay.io/biocontainers/bx-python/0.8.11--py36h5e0341f_0
+$ module help quay.io/biocontainers/bx-python/0.8.11--py36h5e0341f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

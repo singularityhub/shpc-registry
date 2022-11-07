@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/perl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/perl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/perl/container.yaml"
-updated_at: "2022-11-06 00:58:54.650744"
-latest: "5.35.0"
+updated_at: "2022-11-07 01:16:57.996078"
+latest: "5.36.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/perl"
 aliases:
  - "perl"
@@ -17,8 +17,9 @@ versions:
  - "5.33.3"
  - "5.35.0"
  - "latest"
+ - "5.36.0"
 description: "The Perl programming language."
-config: {"docker": "ghcr.io/autamus/perl", "url": "https://github.com/orgs/autamus/packages/container/package/perl", "maintainer": "@vsoch", "description": "The Perl programming language.", "latest": {"5.35.0": "sha256:6d6e403eb7098f3d6873d72c4bae81e4bf279f833fed5939ff14147ffa0305a4"}, "tags": {"5.33.3": "sha256:ddbe04d704c8883aed0959dbd88bd8410cf5e1a6775a2f46264af306723b6459", "5.35.0": "sha256:6d6e403eb7098f3d6873d72c4bae81e4bf279f833fed5939ff14147ffa0305a4", "latest": "sha256:6d6e403eb7098f3d6873d72c4bae81e4bf279f833fed5939ff14147ffa0305a4"}, "aliases": {"perl": "/opt/view/bin/perl", "perlbug": "/opt/view/bin/perlbug", "perldoc": "/opt/view/bin/perldoc", "perlivp": "/opt/view/bin/perlivp", "perlthanks": "/opt/view/bin/perlthanks"}}
+config: {"docker": "ghcr.io/autamus/perl", "url": "https://github.com/orgs/autamus/packages/container/package/perl", "maintainer": "@vsoch", "description": "The Perl programming language.", "latest": {"5.36.0": "sha256:d1137ca1bf3858cfffc058d67e52e14f290b8a5760ec76e411cea7a95e427953"}, "tags": {"5.33.3": "sha256:ddbe04d704c8883aed0959dbd88bd8410cf5e1a6775a2f46264af306723b6459", "5.35.0": "sha256:6dc96bb9baa90832f638145421669d4da794caf44fb9ca58271c793eace6dd95", "latest": "sha256:d1137ca1bf3858cfffc058d67e52e14f290b8a5760ec76e411cea7a95e427953", "5.36.0": "sha256:d1137ca1bf3858cfffc058d67e52e14f290b8a5760ec76e411cea7a95e427953"}, "aliases": {"perl": "/opt/view/bin/perl", "perlbug": "/opt/view/bin/perlbug", "perldoc": "/opt/view/bin/perldoc", "perlivp": "/opt/view/bin/perlivp", "perlthanks": "/opt/view/bin/perlthanks"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/perl.
@@ -33,7 +34,7 @@ $ shpc install ghcr.io/autamus/perl
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/perl:5.35.0
+$ shpc install ghcr.io/autamus/perl:5.36.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/perl/5.35.0
-$ module help ghcr.io/autamus/perl/5.35.0
+$ module load ghcr.io/autamus/perl/5.36.0
+$ module help ghcr.io/autamus/perl/5.36.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

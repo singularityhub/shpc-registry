@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bridgedbr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bridgedbr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bridgedbr/container.yaml"
-updated_at: "2022-11-06 00:45:30.005168"
-latest: "2.4.0--r41hdfd78af_0"
+updated_at: "2022-11-07 00:49:55.990360"
+latest: "2.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bridgedbr"
 aliases:
  - "jfr"
@@ -20,8 +20,9 @@ aliases:
  - "jjs"
 versions:
  - "2.4.0--r41hdfd78af_0"
+ - "2.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bridgedbr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bridgedbr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bridgedbr", "latest": {"2.4.0--r41hdfd78af_0": "sha256:7e2209a0bdbb0029511e8c1a3d520e6f1a8939d1a18ac042c8eeed9ff8aecbb9"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:7e2209a0bdbb0029511e8c1a3d520e6f1a8939d1a18ac042c8eeed9ff8aecbb9"}, "docker": "quay.io/biocontainers/bioconductor-bridgedbr", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bridgedbr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bridgedbr", "latest": {"2.8.0--r42hdfd78af_0": "sha256:256ec0b991a6774a53762957b7d6b4255602614a9f56d477ae90241fb10638ef"}, "tags": {"2.4.0--r41hdfd78af_0": "sha256:7e2209a0bdbb0029511e8c1a3d520e6f1a8939d1a18ac042c8eeed9ff8aecbb9", "2.8.0--r42hdfd78af_0": "sha256:256ec0b991a6774a53762957b7d6b4255602614a9f56d477ae90241fb10638ef"}, "docker": "quay.io/biocontainers/bioconductor-bridgedbr", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bridgedbr.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bridgedbr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bridgedbr:2.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bridgedbr:2.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bridgedbr/2.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bridgedbr/2.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bridgedbr/2.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bridgedbr/2.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gewist"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gewist/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gewist/container.yaml"
-updated_at: "2022-11-06 00:24:37.769058"
-latest: "1.38.0--r41hdfd78af_0"
+updated_at: "2022-11-07 00:07:28.060200"
+latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gewist"
 
 versions:
  - "1.38.0--r41hdfd78af_0"
+ - "1.42.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gewist"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gewist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gewist", "latest": {"1.38.0--r41hdfd78af_0": "sha256:26376253ffa0569fd4b80d0780ef3b37412f90cd28be608527962917e81f4cfc"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:26376253ffa0569fd4b80d0780ef3b37412f90cd28be608527962917e81f4cfc"}, "docker": "quay.io/biocontainers/bioconductor-gewist"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gewist", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gewist", "latest": {"1.42.0--r42hdfd78af_0": "sha256:1e6fb38531f65b1dbe3528bbebd9c9bbc9f4a71e238cc275778babc6d68c584b"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:26376253ffa0569fd4b80d0780ef3b37412f90cd28be608527962917e81f4cfc", "1.42.0--r42hdfd78af_0": "sha256:1e6fb38531f65b1dbe3528bbebd9c9bbc9f4a71e238cc275778babc6d68c584b"}, "docker": "quay.io/biocontainers/bioconductor-gewist"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gewist.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gewist
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gewist:1.38.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gewist:1.42.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gewist/1.38.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gewist/1.38.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gewist/1.42.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gewist/1.42.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

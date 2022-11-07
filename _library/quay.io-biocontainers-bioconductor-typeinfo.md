@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-typeinfo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-typeinfo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-typeinfo/container.yaml"
-updated_at: "2022-11-06 00:29:42.348757"
-latest: "1.60.0--r41hdfd78af_0"
+updated_at: "2022-11-07 00:17:38.226683"
+latest: "1.64.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-typeinfo"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
+ - "1.64.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-typeinfo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-typeinfo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-typeinfo", "latest": {"1.60.0--r41hdfd78af_0": "sha256:6c1c6ae9637c36378fb9d24abae85b7d8f9dea72b18918dcde7dfaf752293749"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:6c1c6ae9637c36378fb9d24abae85b7d8f9dea72b18918dcde7dfaf752293749"}, "docker": "quay.io/biocontainers/bioconductor-typeinfo"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-typeinfo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-typeinfo", "latest": {"1.64.0--r42hdfd78af_0": "sha256:9863856e8c3b1cb2f9e4373cb8236d52a9631def2eadd2fab77798cf623b489e"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:6c1c6ae9637c36378fb9d24abae85b7d8f9dea72b18918dcde7dfaf752293749", "1.64.0--r42hdfd78af_0": "sha256:9863856e8c3b1cb2f9e4373cb8236d52a9631def2eadd2fab77798cf623b489e"}, "docker": "quay.io/biocontainers/bioconductor-typeinfo"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-typeinfo.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-typeinfo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-typeinfo:1.60.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-typeinfo:1.64.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-typeinfo/1.60.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-typeinfo/1.60.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-typeinfo/1.64.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-typeinfo/1.64.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

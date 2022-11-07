@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wfmash"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wfmash/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wfmash/container.yaml"
-updated_at: "2022-11-06 00:38:48.721881"
-latest: "0.9.1--hfdddef0_3"
+updated_at: "2022-11-07 00:36:07.758261"
+latest: "0.10.0--hfdddef0_0"
 container_url: "https://biocontainers.pro/tools/wfmash"
 aliases:
  - "wfmash"
@@ -14,8 +14,9 @@ aliases:
  - "tabix"
 versions:
  - "0.9.1--hfdddef0_3"
+ - "0.10.0--hfdddef0_0"
 description: "shpc-registry automated BioContainers addition for wfmash"
-config: {"url": "https://biocontainers.pro/tools/wfmash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wfmash", "latest": {"0.9.1--hfdddef0_3": "sha256:a4d74aac03fac24d65c01df40db6018830824f22ed0e1a3645f6ddcbb0186fbc"}, "tags": {"0.9.1--hfdddef0_3": "sha256:a4d74aac03fac24d65c01df40db6018830824f22ed0e1a3645f6ddcbb0186fbc"}, "docker": "quay.io/biocontainers/wfmash", "aliases": {"wfmash": "/usr/local/bin/wfmash", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
+config: {"url": "https://biocontainers.pro/tools/wfmash", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wfmash", "latest": {"0.10.0--hfdddef0_0": "sha256:835276ccd4754e135c64c509f909077fd9d29dc32e9e0d04566b23587abee4c2"}, "tags": {"0.9.1--hfdddef0_3": "sha256:a4d74aac03fac24d65c01df40db6018830824f22ed0e1a3645f6ddcbb0186fbc", "0.10.0--hfdddef0_0": "sha256:835276ccd4754e135c64c509f909077fd9d29dc32e9e0d04566b23587abee4c2"}, "docker": "quay.io/biocontainers/wfmash", "aliases": {"wfmash": "/usr/local/bin/wfmash", "htsfile": "/usr/local/bin/htsfile", "bgzip": "/usr/local/bin/bgzip", "tabix": "/usr/local/bin/tabix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wfmash.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/wfmash
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wfmash:0.9.1--hfdddef0_3
+$ shpc install quay.io/biocontainers/wfmash:0.10.0--hfdddef0_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wfmash/0.9.1--hfdddef0_3
-$ module help quay.io/biocontainers/wfmash/0.9.1--hfdddef0_3
+$ module load quay.io/biocontainers/wfmash/0.10.0--hfdddef0_0
+$ module help quay.io/biocontainers/wfmash/0.10.0--hfdddef0_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

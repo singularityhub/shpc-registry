@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cnorode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnorode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnorode/container.yaml"
-updated_at: "2022-11-06 00:37:11.619832"
-latest: "1.36.0--r41hc0cfd56_2"
+updated_at: "2022-11-07 00:32:46.689619"
+latest: "1.40.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnorode"
 aliases:
  - "diffimg"
@@ -20,8 +20,9 @@ aliases:
  - "stl2gts"
 versions:
  - "1.36.0--r41hc0cfd56_2"
+ - "1.40.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnorode"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnorode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnorode", "latest": {"1.36.0--r41hc0cfd56_2": "sha256:a8cd23f3f460ba315df483c7fa06a262076ba39aaffbf87b762c890548f38805"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:a8cd23f3f460ba315df483c7fa06a262076ba39aaffbf87b762c890548f38805"}, "docker": "quay.io/biocontainers/bioconductor-cnorode", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnorode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnorode", "latest": {"1.40.0--r42hc0cfd56_0": "sha256:77ee06782dfc1b8add313ca285bf60d099a0405a22a3d4f8e70992ec06f1a7b9"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:a8cd23f3f460ba315df483c7fa06a262076ba39aaffbf87b762c890548f38805", "1.40.0--r42hc0cfd56_0": "sha256:77ee06782dfc1b8add313ca285bf60d099a0405a22a3d4f8e70992ec06f1a7b9"}, "docker": "quay.io/biocontainers/bioconductor-cnorode", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnorode.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnorode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnorode:1.36.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-cnorode:1.40.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnorode/1.36.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-cnorode/1.36.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-cnorode/1.40.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-cnorode/1.40.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

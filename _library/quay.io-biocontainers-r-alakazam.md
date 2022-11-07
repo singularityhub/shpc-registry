@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-alakazam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-alakazam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-alakazam/container.yaml"
-updated_at: "2022-11-06 00:50:29.001531"
+updated_at: "2022-11-07 01:00:01.394450"
 latest: "1.2.1--r41hecf12ef_0"
 container_url: "https://biocontainers.pro/tools/r-alakazam"
 aliases:

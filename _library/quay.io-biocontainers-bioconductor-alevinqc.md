@@ -4,16 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-alevinqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-alevinqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-alevinqc/container.yaml"
-updated_at: "2022-11-06 00:22:30.485424"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-07 00:03:08.848134"
+latest: "1.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-alevinqc"
 aliases:
  - "pandoc"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hc247a5b_0"
+ - "1.12.1--r41h9f5acd7_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-alevinqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-alevinqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alevinqc", "latest": {"1.8.0--r41hdfd78af_0": "sha256:f2b65a2313e0842a429c2380314b17275fb11d282bd11d895a86d8331b0d0e5c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:f2b65a2313e0842a429c2380314b17275fb11d282bd11d895a86d8331b0d0e5c"}, "docker": "quay.io/biocontainers/bioconductor-alevinqc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-alevinqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-alevinqc", "latest": {"1.14.0--r42hc247a5b_0": "sha256:71e7e7d00b492ad8912cfa9e6a1f641b007f88220318e56651a4a43ad7bc3656"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:f2b65a2313e0842a429c2380314b17275fb11d282bd11d895a86d8331b0d0e5c", "1.14.0--r42hc247a5b_0": "sha256:71e7e7d00b492ad8912cfa9e6a1f641b007f88220318e56651a4a43ad7bc3656", "1.12.1--r41h9f5acd7_0": "sha256:d8ff55d336d1c45cb5d06037b8c094eced2375e54bf6ca9d72bbc725c403731d", "1.10.0--r41hdfd78af_0": "sha256:5b2bab5fcd35a9ba373412ee1805ad83e56c117f8f1057b890ad53933cf48182"}, "docker": "quay.io/biocontainers/bioconductor-alevinqc", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-alevinqc.
@@ -28,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-alevinqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-alevinqc:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-alevinqc:1.14.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-alevinqc/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-alevinqc/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-alevinqc/1.14.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-alevinqc/1.14.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

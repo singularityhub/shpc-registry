@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-altcdfenvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-altcdfenvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-altcdfenvs/container.yaml"
-updated_at: "2022-11-06 00:21:14.676301"
+updated_at: "2022-11-07 00:00:38.149492"
 latest: "2.56.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-altcdfenvs"
 

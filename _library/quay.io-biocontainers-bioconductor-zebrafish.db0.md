@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-zebrafish.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-zebrafish.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-zebrafish.db0/container.yaml"
-updated_at: "2022-11-06 00:36:58.641992"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-07 00:32:18.462899"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-zebrafish.db0"
 aliases:
  - ".bioconductor-zebrafish.db0-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.16.0--r42hdfd78af_0"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.11.2--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-zebrafish.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafish.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafish.db0", "latest": {"3.8.2--r36_1": "sha256:1fe40caf61605a6188686a57b18cc47ab629bb0a26fcbdf3bb306139713e91cf"}, "tags": {"3.8.2--r36_1": "sha256:1fe40caf61605a6188686a57b18cc47ab629bb0a26fcbdf3bb306139713e91cf"}, "docker": "quay.io/biocontainers/bioconductor-zebrafish.db0", "aliases": {".bioconductor-zebrafish.db0-post-link.sh": "/usr/local/bin/.bioconductor-zebrafish.db0-post-link.sh", ".bioconductor-zebrafish.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-zebrafish.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-zebrafish.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-zebrafish.db0", "latest": {"3.16.0--r42hdfd78af_0": "sha256:45d1c54448a328ec516b02b1c206128b31a96641cc70adf3f517e16c0777785c"}, "tags": {"3.8.2--r36_1": "sha256:1fe40caf61605a6188686a57b18cc47ab629bb0a26fcbdf3bb306139713e91cf", "3.16.0--r42hdfd78af_0": "sha256:45d1c54448a328ec516b02b1c206128b31a96641cc70adf3f517e16c0777785c", "3.14.0--r41hdfd78af_1": "sha256:76dd9b8977334b0f81fa657d6df5d238b55d541d895a9681afc9633a1e8dab55", "3.13.0--r41hdfd78af_0": "sha256:04f1533ed44441dd301475e091132f3cb6d3ea214f8e49363145c0395dfca2e5", "3.12.0--r40hdfd78af_1": "sha256:8d7c73e484c5502d47eae908212b547c308e64ce81199664a1d3264d58e45147", "3.11.2--r40_0": "sha256:f289b732c5a67e83bd0ca5efa411f9c17e1b7b8cb9ac59b8aa82f380de69f1f6"}, "docker": "quay.io/biocontainers/bioconductor-zebrafish.db0", "aliases": {".bioconductor-zebrafish.db0-post-link.sh": "/usr/local/bin/.bioconductor-zebrafish.db0-post-link.sh", ".bioconductor-zebrafish.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-zebrafish.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-zebrafish.db0.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-zebrafish.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-zebrafish.db0:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-zebrafish.db0:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-zebrafish.db0/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-zebrafish.db0/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-zebrafish.db0/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-zebrafish.db0/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/protgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protgraph/container.yaml"
-updated_at: "2022-11-06 00:18:09.550950"
-latest: "0.3.4--pyhdfd78af_0"
+updated_at: "2022-11-06 23:54:21.645409"
+latest: "0.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/protgraph"
 aliases:
  - "geomet"
@@ -27,8 +27,9 @@ aliases:
  - "normalizer"
 versions:
  - "0.3.4--pyhdfd78af_0"
+ - "0.3.8--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for protgraph"
-config: {"url": "https://biocontainers.pro/tools/protgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for protgraph", "latest": {"0.3.4--pyhdfd78af_0": "sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d"}, "docker": "quay.io/biocontainers/protgraph", "aliases": {"geomet": "/usr/local/bin/geomet", "protgraph": "/usr/local/bin/protgraph", "protgraph_compact_fasta": "/usr/local/bin/protgraph_compact_fasta", "protgraph_generate_fasta_decoys": "/usr/local/bin/protgraph_generate_fasta_decoys", "protgraph_pepsqlite_to_fasta": "/usr/local/bin/protgraph_pepsqlite_to_fasta", "protgraph_print_sums": "/usr/local/bin/protgraph_print_sums", "protgraph_replace_fasta_header": "/usr/local/bin/protgraph_replace_fasta_header", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
+config: {"url": "https://biocontainers.pro/tools/protgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for protgraph", "latest": {"0.3.8--pyhdfd78af_0": "sha256:0854c9a39a18474bb568abe9c4625c90f5a0490cf5c5e4300c3854d4774bf3c8"}, "tags": {"0.3.4--pyhdfd78af_0": "sha256:85a8697b47b0c2b3a3b2f6507586f6f55c35801c3c79ddf42fa944d5fd311f8d", "0.3.8--pyhdfd78af_0": "sha256:0854c9a39a18474bb568abe9c4625c90f5a0490cf5c5e4300c3854d4774bf3c8"}, "docker": "quay.io/biocontainers/protgraph", "aliases": {"geomet": "/usr/local/bin/geomet", "protgraph": "/usr/local/bin/protgraph", "protgraph_compact_fasta": "/usr/local/bin/protgraph_compact_fasta", "protgraph_generate_fasta_decoys": "/usr/local/bin/protgraph_generate_fasta_decoys", "protgraph_pepsqlite_to_fasta": "/usr/local/bin/protgraph_pepsqlite_to_fasta", "protgraph_print_sums": "/usr/local/bin/protgraph_print_sums", "protgraph_replace_fasta_header": "/usr/local/bin/protgraph_replace_fasta_header", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "protoc": "/usr/local/bin/protoc", "normalizer": "/usr/local/bin/normalizer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/protgraph.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/protgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/protgraph:0.3.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/protgraph:0.3.8--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/protgraph/0.3.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/protgraph/0.3.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/protgraph/0.3.8--pyhdfd78af_0
+$ module help quay.io/biocontainers/protgraph/0.3.8--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

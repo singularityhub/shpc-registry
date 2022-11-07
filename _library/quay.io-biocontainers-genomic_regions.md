@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/genomic_regions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomic_regions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomic_regions/container.yaml"
-updated_at: "2022-11-06 00:36:17.363281"
-latest: "0.0.9--py_0"
+updated_at: "2022-11-07 00:30:50.294552"
+latest: "0.0.10--py_0"
 container_url: "https://biocontainers.pro/tools/genomic_regions"
 aliases:
  - "convert-regions"
@@ -21,8 +21,9 @@ aliases:
  - "pasteurize"
 versions:
  - "0.0.9--py_0"
+ - "0.0.10--py_0"
 description: "shpc-registry automated BioContainers addition for genomic_regions"
-config: {"url": "https://biocontainers.pro/tools/genomic_regions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomic_regions", "latest": {"0.0.9--py_0": "sha256:921428a9bf7476a9c3aaf232948fb7c51f56e568ed4012afddf55cb5dedc9f55"}, "tags": {"0.0.9--py_0": "sha256:921428a9bf7476a9c3aaf232948fb7c51f56e568ed4012afddf55cb5dedc9f55"}, "docker": "quay.io/biocontainers/genomic_regions", "aliases": {"convert-regions": "/usr/local/bin/convert-regions", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize"}}
+config: {"url": "https://biocontainers.pro/tools/genomic_regions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomic_regions", "latest": {"0.0.10--py_0": "sha256:1b019f11f7273958b53389b7abfff7dbb854668e2a3051d292f6193be3c6b4cc"}, "tags": {"0.0.9--py_0": "sha256:921428a9bf7476a9c3aaf232948fb7c51f56e568ed4012afddf55cb5dedc9f55", "0.0.10--py_0": "sha256:1b019f11f7273958b53389b7abfff7dbb854668e2a3051d292f6193be3c6b4cc"}, "docker": "quay.io/biocontainers/genomic_regions", "aliases": {"convert-regions": "/usr/local/bin/convert-regions", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomic_regions.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/genomic_regions
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomic_regions:0.0.9--py_0
+$ shpc install quay.io/biocontainers/genomic_regions:0.0.10--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomic_regions/0.0.9--py_0
-$ module help quay.io/biocontainers/genomic_regions/0.0.9--py_0
+$ module load quay.io/biocontainers/genomic_regions/0.0.10--py_0
+$ module help quay.io/biocontainers/genomic_regions/0.0.10--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-gage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gage/container.yaml"
-updated_at: "2022-11-06 00:44:16.853285"
+updated_at: "2022-11-07 00:47:25.753886"
 latest: "2.44.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gage"
 

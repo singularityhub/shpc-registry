@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/oncogemini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/oncogemini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/oncogemini/container.yaml"
-updated_at: "2022-11-06 00:40:53.573565"
+updated_at: "2022-11-07 00:40:22.697560"
 latest: "1.0.0--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/oncogemini"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rcaspar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcaspar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcaspar/container.yaml"
-updated_at: "2022-11-06 00:47:09.599436"
-latest: "1.40.0--r41hdfd78af_0"
+updated_at: "2022-11-07 00:53:18.210027"
+latest: "1.44.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcaspar"
 
 versions:
  - "1.40.0--r41hdfd78af_0"
+ - "1.44.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcaspar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcaspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcaspar", "latest": {"1.40.0--r41hdfd78af_0": "sha256:62e7ef8f59289c9e4da8ab185b14f28ddb71e08d3277f96d243e32f3cd9f0d39"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:62e7ef8f59289c9e4da8ab185b14f28ddb71e08d3277f96d243e32f3cd9f0d39"}, "docker": "quay.io/biocontainers/bioconductor-rcaspar"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcaspar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcaspar", "latest": {"1.44.0--r42hdfd78af_0": "sha256:f9cf72f2c15e7e69ed2355e87314a8300b6ec1488362becdeea16aec055f97a5"}, "tags": {"1.40.0--r41hdfd78af_0": "sha256:62e7ef8f59289c9e4da8ab185b14f28ddb71e08d3277f96d243e32f3cd9f0d39", "1.44.0--r42hdfd78af_0": "sha256:f9cf72f2c15e7e69ed2355e87314a8300b6ec1488362becdeea16aec055f97a5"}, "docker": "quay.io/biocontainers/bioconductor-rcaspar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcaspar.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcaspar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcaspar:1.40.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rcaspar:1.44.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcaspar/1.40.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rcaspar/1.40.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rcaspar/1.44.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcaspar/1.44.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-esatac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-esatac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-esatac/container.yaml"
-updated_at: "2022-11-06 00:41:07.662249"
-latest: "1.8.0--r36he1b5a44_1"
+updated_at: "2022-11-07 00:40:51.735580"
+latest: "1.16.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-esatac"
 aliases:
  - "pandoc-citeproc"
@@ -20,8 +20,11 @@ aliases:
  - "idlj"
 versions:
  - "1.8.0--r36he1b5a44_1"
+ - "1.16.0--r41hc247a5b_2"
+ - "1.14.0--r41h399db7b_0"
+ - "1.12.0--r40h399db7b_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-esatac"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-esatac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-esatac", "latest": {"1.8.0--r36he1b5a44_1": "sha256:fc1cfd5d22cada0a02a2fe4c4dcf8a32d641cc45fb6c23eeb5f4f2c3dc754732"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:fc1cfd5d22cada0a02a2fe4c4dcf8a32d641cc45fb6c23eeb5f4f2c3dc754732"}, "docker": "quay.io/biocontainers/bioconductor-esatac", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-esatac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-esatac", "latest": {"1.16.0--r41hc247a5b_2": "sha256:9b4eeb129112868c5939111a2d87867c18a99cd2744598294028eac1a1405af7"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:fc1cfd5d22cada0a02a2fe4c4dcf8a32d641cc45fb6c23eeb5f4f2c3dc754732", "1.16.0--r41hc247a5b_2": "sha256:9b4eeb129112868c5939111a2d87867c18a99cd2744598294028eac1a1405af7", "1.14.0--r41h399db7b_0": "sha256:5f9fbf4fee8920cf1f2e32a50364fd9a459b9c4519f59c427a66d5b328123d6b", "1.12.0--r40h399db7b_1": "sha256:575ee0e943508db900a02f5b3b4a7abf6147046597ea682279d505567c1b14ab"}, "docker": "quay.io/biocontainers/bioconductor-esatac", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-esatac.
@@ -36,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-esatac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-esatac:1.8.0--r36he1b5a44_1
+$ shpc install quay.io/biocontainers/bioconductor-esatac:1.16.0--r41hc247a5b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-esatac/1.8.0--r36he1b5a44_1
-$ module help quay.io/biocontainers/bioconductor-esatac/1.8.0--r36he1b5a44_1
+$ module load quay.io/biocontainers/bioconductor-esatac/1.16.0--r41hc247a5b_2
+$ module help quay.io/biocontainers/bioconductor-esatac/1.16.0--r41hc247a5b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
