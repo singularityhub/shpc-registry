@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-genesis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genesis
 latest:
-  2.24.2--r41hc0cfd56_0: sha256:ed996b44aa5fb4666d1a39eb20570d110e28a8ce68175abfcdfaee0f25941505
+  2.28.0--r42hc0cfd56_0: sha256:244520b80d3af2384313c43e735eedf62bfee39d104f603cc2f8a16af1383ea9
 tags:
   2.24.2--r41hc0cfd56_0: sha256:ed996b44aa5fb4666d1a39eb20570d110e28a8ce68175abfcdfaee0f25941505
+  2.28.0--r42hc0cfd56_0: sha256:244520b80d3af2384313c43e735eedf62bfee39d104f603cc2f8a16af1383ea9
 docker: quay.io/biocontainers/bioconductor-genesis
 aliases:
   glpsol: /usr/local/bin/glpsol

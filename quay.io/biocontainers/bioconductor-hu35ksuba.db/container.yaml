@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hu35ksuba.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hu35ksuba.db
 latest:
-  3.2.3--r41hdfd78af_7: sha256:58a3b060c9e5280db3d2638b3960a38a4d4e08ffc3042b00189d481aebf972c0
+  3.13.0--r42hdfd78af_2: sha256:a249ba9e8ba69029f21c0a228b402deecfe7ddf55fa197dc68ee0f5bf4847b92
 tags:
   3.2.3--r41hdfd78af_7: sha256:58a3b060c9e5280db3d2638b3960a38a4d4e08ffc3042b00189d481aebf972c0
+  3.13.0--r42hdfd78af_2: sha256:a249ba9e8ba69029f21c0a228b402deecfe7ddf55fa197dc68ee0f5bf4847b92
 docker: quay.io/biocontainers/bioconductor-hu35ksuba.db
 aliases:
   .bioconductor-hu35ksuba.db-post-link.sh: /usr/local/bin/.bioconductor-hu35ksuba.db-post-link.sh

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-synaptome.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-synaptome.db
 latest:
-  0.99.8--r41hdfd78af_1: sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f
+  0.99.12--r42hdfd78af_0: sha256:8f1b7fe30bb9916aacf08bc7165fde57d299081804363b4245006054bc2c7d9d
 tags:
   0.99.8--r41hdfd78af_1: sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f
+  0.99.12--r42hdfd78af_0: sha256:8f1b7fe30bb9916aacf08bc7165fde57d299081804363b4245006054bc2c7d9d
 docker: quay.io/biocontainers/bioconductor-synaptome.db
 aliases:
   .bioconductor-synaptome.db-post-link.sh: /usr/local/bin/.bioconductor-synaptome.db-post-link.sh

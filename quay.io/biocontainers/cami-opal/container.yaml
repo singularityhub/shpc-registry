@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/cami-opal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cami-opal
 latest:
-  1.0.9--pyhdfd78af_1: sha256:51a714b227dfa994fa5f812ad4ac465f15b53c1ad251603d2163e53de1bb0e5d
+  1.0.11--pyhdfd78af_0: sha256:dae974d094d75e49147279d393a633b24a52d71f7cec3b4d82734448b266a58c
 tags:
   1.0.9--pyhdfd78af_1: sha256:51a714b227dfa994fa5f812ad4ac465f15b53c1ad251603d2163e53de1bb0e5d
+  1.0.11--pyhdfd78af_0: sha256:dae974d094d75e49147279d393a633b24a52d71f7cec3b4d82734448b266a58c
 docker: quay.io/biocontainers/cami-opal
 aliases:
   opal.py: /usr/local/bin/opal.py

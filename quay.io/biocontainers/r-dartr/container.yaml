@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-dartr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-dartr
 latest:
-  2.0.4--r41h3121a25_0: sha256:e666fc8c32eed5e81b3b94b2badfbf75fb3d841cd54b735ea1efd60f197c7a2e
+  2.0.4--r42h3121a25_1: sha256:c02119e7a566cb32d5807277bef40580fb1a9dead33c93e98e9d62562387c67b
 tags:
   2.0.4--r41h3121a25_0: sha256:e666fc8c32eed5e81b3b94b2badfbf75fb3d841cd54b735ea1efd60f197c7a2e
+  2.0.4--r42h3121a25_1: sha256:c02119e7a566cb32d5807277bef40580fb1a9dead33c93e98e9d62562387c67b
 docker: quay.io/biocontainers/r-dartr
 aliases:
   pg_amcheck: /usr/local/bin/pg_amcheck

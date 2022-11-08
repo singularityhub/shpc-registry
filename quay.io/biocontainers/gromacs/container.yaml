@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/gromacs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for gromacs
 latest:
-  4.6.5--0: sha256:53707e5fc5f3e385157cc4ef01ab6a9985060a3255288436336530b891df9086
+  '2022': sha256:f99aa301a3720dae443c3fe7a0c8528a8f368bd48689460e850bda90a64e112f
 tags:
   4.6.5--0: sha256:53707e5fc5f3e385157cc4ef01ab6a9985060a3255288436336530b891df9086
+  '2022': sha256:f99aa301a3720dae443c3fe7a0c8528a8f368bd48689460e850bda90a64e112f
+  2021.3--mpi_openmpi_h9969a6a_0: sha256:f09863bccd197d6db28e22f1b7ae13162b042c1b611e1884cbf37d50b568dfd4
+  2021--h3ddc34e_1: sha256:9ae79478fe6429591f581bdcbc7a551d33fb803f687cd6763e9ceae1ecd1ea3e
+  2021--h3ddc34e_0: sha256:7746e530aae199720345de90154bebe47eb52205c4338d8ab14a9a729af48d99
+  2020.6--h8f66b55_0: sha256:03dd0bda6ce2df2f661f04a922c3ee1028f54623215c07bc345f623f4e2a7659
 docker: quay.io/biocontainers/gromacs
 aliases:
   GMXRC: /usr/local/bin/GMXRC
