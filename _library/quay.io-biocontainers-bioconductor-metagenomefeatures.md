@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metagenomefeatures"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagenomefeatures/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagenomefeatures/container.yaml"
-updated_at: "2022-11-07 01:10:03.460399"
-latest: "2.8.0--r40_0"
+updated_at: "2022-11-08 00:37:09.781168"
+latest: "2.10.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagenomefeatures"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,9 @@ aliases:
  - "c99"
 versions:
  - "2.8.0--r40_0"
+ - "2.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-metagenomefeatures"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metagenomefeatures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagenomefeatures", "latest": {"2.8.0--r40_0": "sha256:64115c48e27905595afe0c15605ec9227cf0f94a1d015325f358037e38b230ef"}, "tags": {"2.8.0--r40_0": "sha256:64115c48e27905595afe0c15605ec9227cf0f94a1d015325f358037e38b230ef"}, "docker": "quay.io/biocontainers/bioconductor-metagenomefeatures", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metagenomefeatures", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagenomefeatures", "latest": {"2.10.0--r40hdfd78af_1": "sha256:ec7b6b650cfbdafb8cc157320e794a3808bead7f3454c7dedc76ce9a1c9336be"}, "tags": {"2.8.0--r40_0": "sha256:64115c48e27905595afe0c15605ec9227cf0f94a1d015325f358037e38b230ef", "2.10.0--r40hdfd78af_1": "sha256:ec7b6b650cfbdafb8cc157320e794a3808bead7f3454c7dedc76ce9a1c9336be"}, "docker": "quay.io/biocontainers/bioconductor-metagenomefeatures", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metagenomefeatures.
@@ -34,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metagenomefeatures
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metagenomefeatures:2.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-metagenomefeatures:2.10.0--r40hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metagenomefeatures/2.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-metagenomefeatures/2.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-metagenomefeatures/2.10.0--r40hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-metagenomefeatures/2.10.0--r40hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

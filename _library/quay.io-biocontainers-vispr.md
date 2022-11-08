@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vispr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vispr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vispr/container.yaml"
-updated_at: "2022-11-07 00:55:31.267098"
+updated_at: "2022-11-08 00:26:56.401378"
 latest: "0.4.17--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/vispr"
 aliases:

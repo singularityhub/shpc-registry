@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-human660quadv1acrlmm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-human660quadv1acrlmm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-human660quadv1acrlmm/container.yaml"
-updated_at: "2022-11-07 00:36:41.502013"
+updated_at: "2022-11-08 00:13:50.445143"
 latest: "1.0.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-human660quadv1acrlmm"
 aliases:

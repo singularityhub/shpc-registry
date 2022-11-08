@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gwas.bayes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwas.bayes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwas.bayes/container.yaml"
-updated_at: "2022-11-07 00:35:39.408071"
-latest: "1.4.0--r41hc247a5b_2"
+updated_at: "2022-11-08 00:13:06.910831"
+latest: "1.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwas.bayes"
 
 versions:
  - "1.4.0--r41hc247a5b_2"
+ - "1.8.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gwas.bayes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gwas.bayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwas.bayes", "latest": {"1.4.0--r41hc247a5b_2": "sha256:1035dbb14b6a300bf5e99cba295f63bdffb60d34c28ef9949abda4eaac5d9618"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:1035dbb14b6a300bf5e99cba295f63bdffb60d34c28ef9949abda4eaac5d9618"}, "docker": "quay.io/biocontainers/bioconductor-gwas.bayes"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gwas.bayes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwas.bayes", "latest": {"1.8.0--r42hc247a5b_0": "sha256:20c2f590f2d5d7713f393c5795cb14425b35892bb28ef37ee8f806c56f1cb9db"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:1035dbb14b6a300bf5e99cba295f63bdffb60d34c28ef9949abda4eaac5d9618", "1.8.0--r42hc247a5b_0": "sha256:20c2f590f2d5d7713f393c5795cb14425b35892bb28ef37ee8f806c56f1cb9db"}, "docker": "quay.io/biocontainers/bioconductor-gwas.bayes"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gwas.bayes.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gwas.bayes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gwas.bayes:1.4.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-gwas.bayes:1.8.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gwas.bayes/1.4.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-gwas.bayes/1.4.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-gwas.bayes/1.8.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-gwas.bayes/1.8.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

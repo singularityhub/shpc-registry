@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-nupop"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nupop/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nupop/container.yaml"
-updated_at: "2022-11-07 00:52:57.395674"
-latest: "2.2.0--r41hefde4a7_2"
+updated_at: "2022-11-08 00:25:08.953788"
+latest: "2.6.0--r42hefde4a7_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nupop"
 
 versions:
  - "2.2.0--r41hefde4a7_2"
+ - "2.6.0--r42hefde4a7_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nupop"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nupop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nupop", "latest": {"2.2.0--r41hefde4a7_2": "sha256:570f4d0cb7bb3299f4ba501423a3958c3b46bb50e96da4a4032319d029f54223"}, "tags": {"2.2.0--r41hefde4a7_2": "sha256:570f4d0cb7bb3299f4ba501423a3958c3b46bb50e96da4a4032319d029f54223"}, "docker": "quay.io/biocontainers/bioconductor-nupop"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nupop", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nupop", "latest": {"2.6.0--r42hefde4a7_0": "sha256:b56c214c8285b07f716059a3005475ff33c05de044b123e571991a33064bf2e5"}, "tags": {"2.2.0--r41hefde4a7_2": "sha256:570f4d0cb7bb3299f4ba501423a3958c3b46bb50e96da4a4032319d029f54223", "2.6.0--r42hefde4a7_0": "sha256:b56c214c8285b07f716059a3005475ff33c05de044b123e571991a33064bf2e5"}, "docker": "quay.io/biocontainers/bioconductor-nupop"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nupop.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nupop
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nupop:2.2.0--r41hefde4a7_2
+$ shpc install quay.io/biocontainers/bioconductor-nupop:2.6.0--r42hefde4a7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nupop/2.2.0--r41hefde4a7_2
-$ module help quay.io/biocontainers/bioconductor-nupop/2.2.0--r41hefde4a7_2
+$ module load quay.io/biocontainers/bioconductor-nupop/2.6.0--r42hefde4a7_0
+$ module help quay.io/biocontainers/bioconductor-nupop/2.6.0--r42hefde4a7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

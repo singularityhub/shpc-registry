@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gem3-mapper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gem3-mapper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gem3-mapper/container.yaml"
-updated_at: "2022-11-06 23:58:27.374841"
-latest: "3.6.1--h36cd882_9"
+updated_at: "2022-11-07 23:46:41.106929"
+latest: "3.6.1--h67092d7_10"
 container_url: "https://biocontainers.pro/tools/gem3-mapper"
 aliases:
  - "gem-indexer"
@@ -13,8 +13,9 @@ aliases:
  - "gem-retriever"
 versions:
  - "3.6.1--h36cd882_9"
+ - "3.6.1--h67092d7_10"
 description: "shpc-registry automated BioContainers addition for gem3-mapper"
-config: {"url": "https://biocontainers.pro/tools/gem3-mapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gem3-mapper", "latest": {"3.6.1--h36cd882_9": "sha256:c99eee888ac719f16886b56cbc6db85f6755aba2129fec10eba628a467b30136"}, "tags": {"3.6.1--h36cd882_9": "sha256:c99eee888ac719f16886b56cbc6db85f6755aba2129fec10eba628a467b30136"}, "docker": "quay.io/biocontainers/gem3-mapper", "aliases": {"gem-indexer": "/usr/local/bin/gem-indexer", "gem-mapper": "/usr/local/bin/gem-mapper", "gem-retriever": "/usr/local/bin/gem-retriever"}}
+config: {"url": "https://biocontainers.pro/tools/gem3-mapper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gem3-mapper", "latest": {"3.6.1--h67092d7_10": "sha256:171004494f57544a86349dd1d843751af7bb2f88d22a819a945c7f4a38fea169"}, "tags": {"3.6.1--h36cd882_9": "sha256:c99eee888ac719f16886b56cbc6db85f6755aba2129fec10eba628a467b30136", "3.6.1--h67092d7_10": "sha256:171004494f57544a86349dd1d843751af7bb2f88d22a819a945c7f4a38fea169"}, "docker": "quay.io/biocontainers/gem3-mapper", "aliases": {"gem-indexer": "/usr/local/bin/gem-indexer", "gem-mapper": "/usr/local/bin/gem-mapper", "gem-retriever": "/usr/local/bin/gem-retriever"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gem3-mapper.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/gem3-mapper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gem3-mapper:3.6.1--h36cd882_9
+$ shpc install quay.io/biocontainers/gem3-mapper:3.6.1--h67092d7_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gem3-mapper/3.6.1--h36cd882_9
-$ module help quay.io/biocontainers/gem3-mapper/3.6.1--h36cd882_9
+$ module load quay.io/biocontainers/gem3-mapper/3.6.1--h67092d7_10
+$ module help quay.io/biocontainers/gem3-mapper/3.6.1--h67092d7_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

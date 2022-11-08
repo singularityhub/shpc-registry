@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chimp.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chimp.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chimp.db0/container.yaml"
-updated_at: "2022-11-07 00:24:41.043005"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-08 00:05:27.727934"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chimp.db0"
 aliases:
  - ".bioconductor-chimp.db0-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.16.0--r42hdfd78af_0"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.11.2--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chimp.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chimp.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chimp.db0", "latest": {"3.8.2--r36_1": "sha256:3cab0a3f7148df56440a396fc0d7c0bb4c28ab017e061b93a1596e0efac86c47"}, "tags": {"3.8.2--r36_1": "sha256:3cab0a3f7148df56440a396fc0d7c0bb4c28ab017e061b93a1596e0efac86c47"}, "docker": "quay.io/biocontainers/bioconductor-chimp.db0", "aliases": {".bioconductor-chimp.db0-post-link.sh": "/usr/local/bin/.bioconductor-chimp.db0-post-link.sh", ".bioconductor-chimp.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-chimp.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chimp.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chimp.db0", "latest": {"3.16.0--r42hdfd78af_0": "sha256:1e106381df6b0f85132988d22656bde403b27a3f54143073adfd8c57c6597ea3"}, "tags": {"3.8.2--r36_1": "sha256:3cab0a3f7148df56440a396fc0d7c0bb4c28ab017e061b93a1596e0efac86c47", "3.16.0--r42hdfd78af_0": "sha256:1e106381df6b0f85132988d22656bde403b27a3f54143073adfd8c57c6597ea3", "3.14.0--r41hdfd78af_1": "sha256:794d838ef388bb4fac663a02a0eb03a21a3cadc7fa707d9345bda07374f39ee7", "3.13.0--r41hdfd78af_0": "sha256:765754be5565be4999671a8e90461225081f0017a3677ddcba5de4bc76f96b32", "3.12.0--r40hdfd78af_1": "sha256:94a56ab92fdc3c0e3c2625bd87d13e68edef0adecc721d5b64ae90e752747b3d", "3.11.2--r40_0": "sha256:5268b7cc4b7bdef50498ccb24778cbe79f9a877b1e53787be432c57cfad06517"}, "docker": "quay.io/biocontainers/bioconductor-chimp.db0", "aliases": {".bioconductor-chimp.db0-post-link.sh": "/usr/local/bin/.bioconductor-chimp.db0-post-link.sh", ".bioconductor-chimp.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-chimp.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chimp.db0.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chimp.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chimp.db0:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-chimp.db0:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chimp.db0/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-chimp.db0/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-chimp.db0/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chimp.db0/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

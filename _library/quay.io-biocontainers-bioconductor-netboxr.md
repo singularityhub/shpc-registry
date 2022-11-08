@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-netboxr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netboxr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netboxr/container.yaml"
-updated_at: "2022-11-07 00:52:01.108401"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-08 00:24:29.474337"
+latest: "1.9.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netboxr"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.9.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netboxr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netboxr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netboxr", "latest": {"1.6.0--r41hdfd78af_0": "sha256:364aab28ae4e28740b1f3ac74eba1885d1413aa7a6ab9b806e42ba10706ca5ec"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:364aab28ae4e28740b1f3ac74eba1885d1413aa7a6ab9b806e42ba10706ca5ec"}, "docker": "quay.io/biocontainers/bioconductor-netboxr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netboxr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netboxr", "latest": {"1.9.0--r42hdfd78af_0": "sha256:39f2715457af8f347c413c10a75acf34d042f38fe1de52ab767f3e9abc9edce4"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:364aab28ae4e28740b1f3ac74eba1885d1413aa7a6ab9b806e42ba10706ca5ec", "1.9.0--r42hdfd78af_0": "sha256:39f2715457af8f347c413c10a75acf34d042f38fe1de52ab767f3e9abc9edce4"}, "docker": "quay.io/biocontainers/bioconductor-netboxr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netboxr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netboxr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netboxr:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-netboxr:1.9.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netboxr/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-netboxr/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-netboxr/1.9.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-netboxr/1.9.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

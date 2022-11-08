@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-migsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-migsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-migsa/container.yaml"
-updated_at: "2022-11-07 00:25:06.556179"
-latest: "1.8.1--r36_0"
+updated_at: "2022-11-08 00:05:46.205470"
+latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-migsa"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.1--r36_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.1--r40hdfd78af_1"
+ - "1.12.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-migsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-migsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-migsa", "latest": {"1.8.1--r36_0": "sha256:89161df0f68a6975039407ee2a8909d6c2a4e57c4b0a0731a5ac7a186bd03f3d"}, "tags": {"1.8.1--r36_0": "sha256:89161df0f68a6975039407ee2a8909d6c2a4e57c4b0a0731a5ac7a186bd03f3d"}, "docker": "quay.io/biocontainers/bioconductor-migsa", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-migsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-migsa", "latest": {"1.18.0--r41hdfd78af_0": "sha256:8c5d5dbde924de917a439a1c7e49f80620f7bf01fcd209e03be152b3eac7de5c"}, "tags": {"1.8.1--r36_0": "sha256:89161df0f68a6975039407ee2a8909d6c2a4e57c4b0a0731a5ac7a186bd03f3d", "1.18.0--r41hdfd78af_0": "sha256:8c5d5dbde924de917a439a1c7e49f80620f7bf01fcd209e03be152b3eac7de5c", "1.16.0--r41hdfd78af_0": "sha256:b79b132721ea1c44246e721d6f1ea107be26be55017477eab90bbee98905faa2", "1.14.1--r40hdfd78af_1": "sha256:5d374308f2735e1f91de1b15b61300fb0899af31dd468ba9a45d2df63619282e", "1.12.0--r40_0": "sha256:6c94371eea2fd9f04d3209d3f695ee2b6a541ca928bc878cf54c6378460edcdc", "1.10.0--r36_0": "sha256:b258f2e2ce0d3198153913d6ba971c8266cade403837df71f5ac30dce54ba836"}, "docker": "quay.io/biocontainers/bioconductor-migsa", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-migsa.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-migsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-migsa:1.8.1--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-migsa:1.18.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-migsa/1.8.1--r36_0
-$ module help quay.io/biocontainers/bioconductor-migsa/1.8.1--r36_0
+$ module load quay.io/biocontainers/bioconductor-migsa/1.18.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-migsa/1.18.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

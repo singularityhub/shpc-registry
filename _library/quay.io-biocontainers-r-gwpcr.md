@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-gwpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gwpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gwpcr/container.yaml"
-updated_at: "2022-11-07 00:06:08.198345"
-latest: "1.0.4--r41hec16e2b_1"
+updated_at: "2022-11-07 23:52:10.122019"
+latest: "1.0.4--r42hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/r-gwpcr"
 
 versions:
  - "1.0.4--r41hec16e2b_1"
+ - "1.0.4--r42hec16e2b_2"
 description: "shpc-registry automated BioContainers addition for r-gwpcr"
-config: {"url": "https://biocontainers.pro/tools/r-gwpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gwpcr", "latest": {"1.0.4--r41hec16e2b_1": "sha256:7fbbf45b37dbb420197fa24ce0e357e5b451a9ffbd07fe891b3c3a02431de45e"}, "tags": {"1.0.4--r41hec16e2b_1": "sha256:7fbbf45b37dbb420197fa24ce0e357e5b451a9ffbd07fe891b3c3a02431de45e"}, "docker": "quay.io/biocontainers/r-gwpcr"}
+config: {"url": "https://biocontainers.pro/tools/r-gwpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gwpcr", "latest": {"1.0.4--r42hec16e2b_2": "sha256:b0966e176075725c824f72fe88a275fbf48ea1fca2c68315dfa1f8f0555293e0"}, "tags": {"1.0.4--r41hec16e2b_1": "sha256:7fbbf45b37dbb420197fa24ce0e357e5b451a9ffbd07fe891b3c3a02431de45e", "1.0.4--r42hec16e2b_2": "sha256:b0966e176075725c824f72fe88a275fbf48ea1fca2c68315dfa1f8f0555293e0"}, "docker": "quay.io/biocontainers/r-gwpcr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gwpcr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-gwpcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gwpcr:1.0.4--r41hec16e2b_1
+$ shpc install quay.io/biocontainers/r-gwpcr:1.0.4--r42hec16e2b_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gwpcr/1.0.4--r41hec16e2b_1
-$ module help quay.io/biocontainers/r-gwpcr/1.0.4--r41hec16e2b_1
+$ module load quay.io/biocontainers/r-gwpcr/1.0.4--r42hec16e2b_2
+$ module help quay.io/biocontainers/r-gwpcr/1.0.4--r42hec16e2b_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

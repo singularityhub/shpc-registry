@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-garfield"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-garfield/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-garfield/container.yaml"
-updated_at: "2022-11-07 00:24:47.868259"
-latest: "1.22.0--r41hc247a5b_2"
+updated_at: "2022-11-08 00:05:32.673601"
+latest: "1.26.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-garfield"
 
 versions:
  - "1.22.0--r41hc247a5b_2"
+ - "1.26.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-garfield"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-garfield", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-garfield", "latest": {"1.22.0--r41hc247a5b_2": "sha256:5ba919c6995637125ddc51ed4b9b17af730f1bc778557e2663611a3ffaed51b4"}, "tags": {"1.22.0--r41hc247a5b_2": "sha256:5ba919c6995637125ddc51ed4b9b17af730f1bc778557e2663611a3ffaed51b4"}, "docker": "quay.io/biocontainers/bioconductor-garfield"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-garfield", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-garfield", "latest": {"1.26.0--r42hc247a5b_0": "sha256:5debbccbc9065d4ea9367300ecbc6e35caedc690e30b8eb699ea2c5e9f9d9dde"}, "tags": {"1.22.0--r41hc247a5b_2": "sha256:5ba919c6995637125ddc51ed4b9b17af730f1bc778557e2663611a3ffaed51b4", "1.26.0--r42hc247a5b_0": "sha256:5debbccbc9065d4ea9367300ecbc6e35caedc690e30b8eb699ea2c5e9f9d9dde"}, "docker": "quay.io/biocontainers/bioconductor-garfield"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-garfield.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-garfield
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-garfield:1.22.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-garfield:1.26.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-garfield/1.22.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-garfield/1.22.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-garfield/1.26.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-garfield/1.26.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

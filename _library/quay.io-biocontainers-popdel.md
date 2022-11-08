@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/popdel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/popdel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/popdel/container.yaml"
-updated_at: "2022-11-07 01:05:27.830014"
+updated_at: "2022-11-08 00:33:55.920744"
 latest: "1.5.0--h867801b_4"
 container_url: "https://biocontainers.pro/tools/popdel"
 aliases:

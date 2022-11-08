@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tepid"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tepid/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tepid/container.yaml"
-updated_at: "2022-11-07 01:08:59.848445"
-latest: "0.8--py_3"
+updated_at: "2022-11-08 00:36:25.598110"
+latest: "0.10--py_0"
 container_url: "https://biocontainers.pro/tools/tepid"
 aliases:
  - "samblaster"
@@ -26,8 +26,9 @@ aliases:
  - "bowtie2"
 versions:
  - "0.8--py_3"
+ - "0.10--py_0"
 description: "shpc-registry automated BioContainers addition for tepid"
-config: {"url": "https://biocontainers.pro/tools/tepid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tepid", "latest": {"0.8--py_3": "sha256:d6d03c578db8761b8fc517c2fa2cf2de0e2feeaac8e9414174a8afd635d051d0"}, "tags": {"0.8--py_3": "sha256:d6d03c578db8761b8fc517c2fa2cf2de0e2feeaac8e9414174a8afd635d051d0"}, "docker": "quay.io/biocontainers/tepid", "aliases": {"samblaster": "/usr/local/bin/samblaster", "tepid-discover": "/usr/local/bin/tepid-discover", "tepid-map": "/usr/local/bin/tepid-map", "tepid-map-se": "/usr/local/bin/tepid-map-se", "tepid-refine": "/usr/local/bin/tepid-refine", "yaha": "/usr/local/bin/yaha", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "nosetests": "/usr/local/bin/nosetests", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "bowtie2": "/usr/local/bin/bowtie2"}}
+config: {"url": "https://biocontainers.pro/tools/tepid", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tepid", "latest": {"0.10--py_0": "sha256:586e342ced54a5ced60d9cf92afa0fdb29b95a3fe506f3dcff5905ffb2d6872a"}, "tags": {"0.8--py_3": "sha256:d6d03c578db8761b8fc517c2fa2cf2de0e2feeaac8e9414174a8afd635d051d0", "0.10--py_0": "sha256:586e342ced54a5ced60d9cf92afa0fdb29b95a3fe506f3dcff5905ffb2d6872a"}, "docker": "quay.io/biocontainers/tepid", "aliases": {"samblaster": "/usr/local/bin/samblaster", "tepid-discover": "/usr/local/bin/tepid-discover", "tepid-map": "/usr/local/bin/tepid-map", "tepid-map-se": "/usr/local/bin/tepid-map-se", "tepid-refine": "/usr/local/bin/tepid-refine", "yaha": "/usr/local/bin/yaha", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py", "intron_exon_reads.py": "/usr/local/bin/intron_exon_reads.py", "nosetests": "/usr/local/bin/nosetests", "pbt_plotting_example.py": "/usr/local/bin/pbt_plotting_example.py", "peak_pie.py": "/usr/local/bin/peak_pie.py", "pybedtools": "/usr/local/bin/pybedtools", "venn_gchart.py": "/usr/local/bin/venn_gchart.py", "venn_mpl.py": "/usr/local/bin/venn_mpl.py", "annotate.py": "/usr/local/bin/annotate.py", "bowtie2": "/usr/local/bin/bowtie2"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tepid.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/tepid
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tepid:0.8--py_3
+$ shpc install quay.io/biocontainers/tepid:0.10--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tepid/0.8--py_3
-$ module help quay.io/biocontainers/tepid/0.8--py_3
+$ module load quay.io/biocontainers/tepid/0.10--py_0
+$ module help quay.io/biocontainers/tepid/0.10--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

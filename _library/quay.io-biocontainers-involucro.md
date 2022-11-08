@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/involucro"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/involucro/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/involucro/container.yaml"
-updated_at: "2022-11-07 00:52:44.020511"
+updated_at: "2022-11-08 00:24:59.539135"
 latest: "1.1.2--he881be0_3"
 container_url: "https://biocontainers.pro/tools/involucro"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-aroma.affymetrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-aroma.affymetrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-aroma.affymetrix/container.yaml"
-updated_at: "2022-11-07 00:54:08.260642"
-latest: "3.2.1--r41h3121a25_0"
+updated_at: "2022-11-08 00:25:58.189463"
+latest: "3.2.1--r42h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-aroma.affymetrix"
 
 versions:
  - "3.2.1--r41h3121a25_0"
+ - "3.2.1--r42h3121a25_2"
 description: "shpc-registry automated BioContainers addition for r-aroma.affymetrix"
-config: {"url": "https://biocontainers.pro/tools/r-aroma.affymetrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aroma.affymetrix", "latest": {"3.2.1--r41h3121a25_0": "sha256:76b1894c7ec98b34149cee0aab1ab85d3ecc860d3a52624e6224c1562862d042"}, "tags": {"3.2.1--r41h3121a25_0": "sha256:76b1894c7ec98b34149cee0aab1ab85d3ecc860d3a52624e6224c1562862d042"}, "docker": "quay.io/biocontainers/r-aroma.affymetrix"}
+config: {"url": "https://biocontainers.pro/tools/r-aroma.affymetrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-aroma.affymetrix", "latest": {"3.2.1--r42h3121a25_2": "sha256:4db647fc87345805362c2f03faf6c021481bca10c9132e3dd75314caa2d45f70"}, "tags": {"3.2.1--r41h3121a25_0": "sha256:76b1894c7ec98b34149cee0aab1ab85d3ecc860d3a52624e6224c1562862d042", "3.2.1--r42h3121a25_2": "sha256:4db647fc87345805362c2f03faf6c021481bca10c9132e3dd75314caa2d45f70"}, "docker": "quay.io/biocontainers/r-aroma.affymetrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-aroma.affymetrix.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-aroma.affymetrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-aroma.affymetrix:3.2.1--r41h3121a25_0
+$ shpc install quay.io/biocontainers/r-aroma.affymetrix:3.2.1--r42h3121a25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-aroma.affymetrix/3.2.1--r41h3121a25_0
-$ module help quay.io/biocontainers/r-aroma.affymetrix/3.2.1--r41h3121a25_0
+$ module load quay.io/biocontainers/r-aroma.affymetrix/3.2.1--r42h3121a25_2
+$ module help quay.io/biocontainers/r-aroma.affymetrix/3.2.1--r42h3121a25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

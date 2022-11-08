@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-phenopath"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-phenopath/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-phenopath/container.yaml"
-updated_at: "2022-11-07 00:23:19.804532"
+updated_at: "2022-11-08 00:04:29.640025"
 latest: "1.8.0--r36he1b5a44_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-phenopath"
 aliases:

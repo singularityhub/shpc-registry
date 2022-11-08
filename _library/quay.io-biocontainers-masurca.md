@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/masurca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/masurca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/masurca/container.yaml"
-updated_at: "2022-11-07 00:45:01.629929"
+updated_at: "2022-11-08 00:19:37.820626"
 latest: "4.0.9--pl5321h6e1a2d6_1"
 container_url: "https://biocontainers.pro/tools/masurca"
 aliases:

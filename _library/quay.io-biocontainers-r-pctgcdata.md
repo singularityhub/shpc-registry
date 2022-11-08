@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-pctgcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pctgcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pctgcdata/container.yaml"
-updated_at: "2022-11-06 23:57:39.208413"
-latest: "0.3.0--r41h9ee0642_2"
+updated_at: "2022-11-07 23:46:07.725920"
+latest: "0.3.0--r42h9ee0642_3"
 container_url: "https://biocontainers.pro/tools/r-pctgcdata"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.3.0--r41h9ee0642_2"
+ - "0.3.0--r42h9ee0642_3"
 description: "shpc-registry automated BioContainers addition for r-pctgcdata"
-config: {"url": "https://biocontainers.pro/tools/r-pctgcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pctgcdata", "latest": {"0.3.0--r41h9ee0642_2": "sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991"}, "tags": {"0.3.0--r41h9ee0642_2": "sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991"}, "docker": "quay.io/biocontainers/r-pctgcdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-pctgcdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-pctgcdata", "latest": {"0.3.0--r42h9ee0642_3": "sha256:d198c5876be29e615eff5273d83a0ca7ff5428c589428f145379b857001391f9"}, "tags": {"0.3.0--r41h9ee0642_2": "sha256:9645f369bc68715dfde8b2ce507e01cbfc2c0f7c030cb5578445676a18473991", "0.3.0--r42h9ee0642_3": "sha256:d198c5876be29e615eff5273d83a0ca7ff5428c589428f145379b857001391f9"}, "docker": "quay.io/biocontainers/r-pctgcdata", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-pctgcdata.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-pctgcdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-pctgcdata:0.3.0--r41h9ee0642_2
+$ shpc install quay.io/biocontainers/r-pctgcdata:0.3.0--r42h9ee0642_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-pctgcdata/0.3.0--r41h9ee0642_2
-$ module help quay.io/biocontainers/r-pctgcdata/0.3.0--r41h9ee0642_2
+$ module load quay.io/biocontainers/r-pctgcdata/0.3.0--r42h9ee0642_3
+$ module help quay.io/biocontainers/r-pctgcdata/0.3.0--r42h9ee0642_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

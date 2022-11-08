@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tenxbraindata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tenxbraindata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tenxbraindata/container.yaml"
-updated_at: "2022-11-06 23:58:10.862200"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-07 23:46:29.557097"
+latest: "1.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-tenxbraindata"
 aliases:
  - ".bioconductor-tenxbraindata-post-link.sh"
@@ -20,8 +20,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-tenxbraindata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxbraindata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxbraindata", "latest": {"1.8.0--r40_0": "sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5"}, "tags": {"1.8.0--r40_0": "sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5"}, "docker": "quay.io/biocontainers/bioconductor-tenxbraindata", "aliases": {".bioconductor-tenxbraindata-post-link.sh": "/usr/local/bin/.bioconductor-tenxbraindata-post-link.sh", ".bioconductor-tenxbraindata-pre-unlink.sh": "/usr/local/bin/.bioconductor-tenxbraindata-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tenxbraindata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tenxbraindata", "latest": {"1.14.0--r41hdfd78af_1": "sha256:ec4d1338c353e407efe5844a10fbaa7858b6a891d8524e585ae6e33d248ae023"}, "tags": {"1.8.0--r40_0": "sha256:c3870cc26da4a80eb1caeff5e05ac4c368fa6869aa9287633c0f800aca81c0a5", "1.14.0--r41hdfd78af_1": "sha256:ec4d1338c353e407efe5844a10fbaa7858b6a891d8524e585ae6e33d248ae023", "1.12.0--r41hdfd78af_0": "sha256:84a11e6b027e4b58281021b62415085ca0935e9bf7c9b04c9cdcfa53441780f1", "1.10.0--r40hdfd78af_1": "sha256:54d48c64323f5632501bc6f95aa7c054f13d9607083cfc2feebb556e7fca4fc8"}, "docker": "quay.io/biocontainers/bioconductor-tenxbraindata", "aliases": {".bioconductor-tenxbraindata-post-link.sh": "/usr/local/bin/.bioconductor-tenxbraindata-post-link.sh", ".bioconductor-tenxbraindata-pre-unlink.sh": "/usr/local/bin/.bioconductor-tenxbraindata-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tenxbraindata.
@@ -36,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tenxbraindata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tenxbraindata:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-tenxbraindata:1.14.0--r41hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tenxbraindata/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-tenxbraindata/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-tenxbraindata/1.14.0--r41hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-tenxbraindata/1.14.0--r41hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

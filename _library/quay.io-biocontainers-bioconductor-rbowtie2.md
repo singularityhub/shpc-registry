@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rbowtie2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rbowtie2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rbowtie2/container.yaml"
-updated_at: "2022-11-07 00:53:20.527266"
-latest: "2.0.0--r41he06c1ba_2"
+updated_at: "2022-11-08 00:25:25.426559"
+latest: "2.4.0--r42he06c1ba_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rbowtie2"
 
 versions:
  - "2.0.0--r41he06c1ba_2"
+ - "2.4.0--r42he06c1ba_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rbowtie2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rbowtie2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbowtie2", "latest": {"2.0.0--r41he06c1ba_2": "sha256:bb26b0a663dc59c90296d8f6772bffcb4080e2b75a4d54fef0b0285426e637a3"}, "tags": {"2.0.0--r41he06c1ba_2": "sha256:bb26b0a663dc59c90296d8f6772bffcb4080e2b75a4d54fef0b0285426e637a3"}, "docker": "quay.io/biocontainers/bioconductor-rbowtie2"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rbowtie2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rbowtie2", "latest": {"2.4.0--r42he06c1ba_0": "sha256:b4f16088639ce0c82658ca4a13e3cc45fe982d41e11af01c1fc971bca2925086"}, "tags": {"2.0.0--r41he06c1ba_2": "sha256:bb26b0a663dc59c90296d8f6772bffcb4080e2b75a4d54fef0b0285426e637a3", "2.4.0--r42he06c1ba_0": "sha256:b4f16088639ce0c82658ca4a13e3cc45fe982d41e11af01c1fc971bca2925086"}, "docker": "quay.io/biocontainers/bioconductor-rbowtie2"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rbowtie2.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rbowtie2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rbowtie2:2.0.0--r41he06c1ba_2
+$ shpc install quay.io/biocontainers/bioconductor-rbowtie2:2.4.0--r42he06c1ba_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rbowtie2/2.0.0--r41he06c1ba_2
-$ module help quay.io/biocontainers/bioconductor-rbowtie2/2.0.0--r41he06c1ba_2
+$ module load quay.io/biocontainers/bioconductor-rbowtie2/2.4.0--r42he06c1ba_0
+$ module help quay.io/biocontainers/bioconductor-rbowtie2/2.4.0--r42he06c1ba_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

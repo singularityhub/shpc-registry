@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-tools-run-alignment-tcoffee/container.yaml"
-updated_at: "2022-11-07 00:37:11.063741"
+updated_at: "2022-11-08 00:14:10.991098"
 latest: "1.7.4--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-bio-tools-run-alignment-tcoffee"
 aliases:

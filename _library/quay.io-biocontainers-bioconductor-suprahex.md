@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-suprahex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-suprahex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-suprahex/container.yaml"
-updated_at: "2022-11-07 00:41:41.927814"
-latest: "1.32.0--r41hdfd78af_0"
+updated_at: "2022-11-08 00:17:19.580433"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-suprahex"
 
 versions:
  - "1.32.0--r41hdfd78af_0"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-suprahex"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-suprahex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-suprahex", "latest": {"1.32.0--r41hdfd78af_0": "sha256:144cf3309edc7828bacb40d2258a90af6bdf1ff287321bb7cc59ad12334bab4b"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:144cf3309edc7828bacb40d2258a90af6bdf1ff287321bb7cc59ad12334bab4b"}, "docker": "quay.io/biocontainers/bioconductor-suprahex"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-suprahex", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-suprahex", "latest": {"1.36.0--r42hdfd78af_0": "sha256:62e7a03c4c23869224658e3ea378b1ec21ccf0c0bd92d876f7f9b3f6c5a8dc74"}, "tags": {"1.32.0--r41hdfd78af_0": "sha256:144cf3309edc7828bacb40d2258a90af6bdf1ff287321bb7cc59ad12334bab4b", "1.36.0--r42hdfd78af_0": "sha256:62e7a03c4c23869224658e3ea378b1ec21ccf0c0bd92d876f7f9b3f6c5a8dc74"}, "docker": "quay.io/biocontainers/bioconductor-suprahex"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-suprahex.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-suprahex
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-suprahex:1.32.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-suprahex:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-suprahex/1.32.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-suprahex/1.32.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-suprahex/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-suprahex/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

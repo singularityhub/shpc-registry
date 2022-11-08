@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cytofpower"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytofpower/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytofpower/container.yaml"
-updated_at: "2022-11-07 00:21:48.425869"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-11-08 00:03:25.304628"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytofpower"
 
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytofpower"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytofpower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytofpower", "latest": {"1.0.0--r41hdfd78af_0": "sha256:dbb489e7547da2881bbf25a9f46360610c89e231a68f6003134037d3fbdaebb4"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dbb489e7547da2881bbf25a9f46360610c89e231a68f6003134037d3fbdaebb4"}, "docker": "quay.io/biocontainers/bioconductor-cytofpower"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytofpower", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytofpower", "latest": {"1.4.0--r42hdfd78af_0": "sha256:64267da491fb27a87e37452a0d12ddd4da01ad1ab49567ca158810963c1bb567"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:dbb489e7547da2881bbf25a9f46360610c89e231a68f6003134037d3fbdaebb4", "1.4.0--r42hdfd78af_0": "sha256:64267da491fb27a87e37452a0d12ddd4da01ad1ab49567ca158810963c1bb567"}, "docker": "quay.io/biocontainers/bioconductor-cytofpower"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytofpower.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytofpower
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytofpower:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cytofpower:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytofpower/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cytofpower/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cytofpower/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cytofpower/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

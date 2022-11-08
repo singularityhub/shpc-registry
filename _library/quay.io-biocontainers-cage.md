@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cage"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cage/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cage/container.yaml"
-updated_at: "2022-11-07 00:04:01.317789"
+updated_at: "2022-11-07 23:50:39.380302"
 latest: "2016.05.13--hb0f8ad4_5"
 container_url: "https://biocontainers.pro/tools/cage"
 aliases:

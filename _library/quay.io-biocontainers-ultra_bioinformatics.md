@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ultra_bioinformatics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ultra_bioinformatics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ultra_bioinformatics/container.yaml"
-updated_at: "2022-11-07 00:19:11.956759"
-latest: "0.0.4.1--pyh5e36f6f_0"
+updated_at: "2022-11-08 00:01:30.953897"
+latest: "0.0.4.2--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/ultra_bioinformatics"
 aliases:
  - "StrobeMap"
@@ -24,8 +24,9 @@ aliases:
  - "run-mummer1"
 versions:
  - "0.0.4.1--pyh5e36f6f_0"
+ - "0.0.4.2--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for ultra_bioinformatics"
-config: {"url": "https://biocontainers.pro/tools/ultra_bioinformatics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ultra_bioinformatics", "latest": {"0.0.4.1--pyh5e36f6f_0": "sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51"}, "tags": {"0.0.4.1--pyh5e36f6f_0": "sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51"}, "docker": "quay.io/biocontainers/ultra_bioinformatics", "aliases": {"StrobeMap": "/usr/local/bin/StrobeMap", "edlib-aligner": "/usr/local/bin/edlib-aligner", "slaMEM": "/usr/local/bin/slaMEM", "uLTRA": "/usr/local/bin/uLTRA", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "get_objgraph": "/usr/local/bin/get_objgraph", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "undill": "/usr/local/bin/undill", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1"}}
+config: {"url": "https://biocontainers.pro/tools/ultra_bioinformatics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ultra_bioinformatics", "latest": {"0.0.4.2--pyh7cba7a3_0": "sha256:dc72b7a871c02bf2631e46ea1444b336cd2480a34ab8460d165c81cffabc611a"}, "tags": {"0.0.4.1--pyh5e36f6f_0": "sha256:efe193ed72700788e40ed41cb75aaa1ec23be83438068eb052b2b5f37748ed51", "0.0.4.2--pyh7cba7a3_0": "sha256:dc72b7a871c02bf2631e46ea1444b336cd2480a34ab8460d165c81cffabc611a"}, "docker": "quay.io/biocontainers/ultra_bioinformatics", "aliases": {"StrobeMap": "/usr/local/bin/StrobeMap", "edlib-aligner": "/usr/local/bin/edlib-aligner", "slaMEM": "/usr/local/bin/slaMEM", "uLTRA": "/usr/local/bin/uLTRA", "gffutils-cli": "/usr/local/bin/gffutils-cli", "activate-global-python-argcomplete": "/usr/local/bin/activate-global-python-argcomplete", "get_objgraph": "/usr/local/bin/get_objgraph", "python-argcomplete-check-easy-install-script": "/usr/local/bin/python-argcomplete-check-easy-install-script", "python-argcomplete-tcsh": "/usr/local/bin/python-argcomplete-tcsh", "register-python-argcomplete": "/usr/local/bin/register-python-argcomplete", "undill": "/usr/local/bin/undill", "mapview": "/usr/local/bin/mapview", "mgaps": "/usr/local/bin/mgaps", "run-mummer1": "/usr/local/bin/run-mummer1"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ultra_bioinformatics.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/ultra_bioinformatics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ultra_bioinformatics:0.0.4.1--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/ultra_bioinformatics:0.0.4.2--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ultra_bioinformatics/0.0.4.1--pyh5e36f6f_0
-$ module help quay.io/biocontainers/ultra_bioinformatics/0.0.4.1--pyh5e36f6f_0
+$ module load quay.io/biocontainers/ultra_bioinformatics/0.0.4.2--pyh7cba7a3_0
+$ module help quay.io/biocontainers/ultra_bioinformatics/0.0.4.2--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

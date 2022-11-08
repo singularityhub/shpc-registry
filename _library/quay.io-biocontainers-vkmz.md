@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/vkmz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/vkmz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/vkmz/container.yaml"
-updated_at: "2022-11-07 00:23:29.726532"
+updated_at: "2022-11-08 00:04:36.694785"
 latest: "v1.4dev1--py_0"
 container_url: "https://biocontainers.pro/tools/vkmz"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/winnowmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/winnowmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/winnowmap/container.yaml"
-updated_at: "2022-11-07 00:51:01.313604"
+updated_at: "2022-11-08 00:23:47.925326"
 latest: "2.03--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/winnowmap"
 aliases:

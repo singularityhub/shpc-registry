@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancercamcap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancercamcap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancercamcap/container.yaml"
-updated_at: "2022-11-07 00:08:25.714196"
-latest: "1.22.0--r41hdfd78af_1"
+updated_at: "2022-11-07 23:53:46.622551"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancercamcap"
 aliases:
  - ".bioconductor-prostatecancercamcap-post-link.sh"
  - ".bioconductor-prostatecancercamcap-pre-unlink.sh"
 versions:
  - "1.22.0--r41hdfd78af_1"
+ - "1.26.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prostatecancercamcap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancercamcap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancercamcap", "latest": {"1.22.0--r41hdfd78af_1": "sha256:01a85a0908c7117fccd52023cf1e78e18e180637dfb877d11a83673a3c8061e9"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:01a85a0908c7117fccd52023cf1e78e18e180637dfb877d11a83673a3c8061e9"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancercamcap", "aliases": {".bioconductor-prostatecancercamcap-post-link.sh": "/usr/local/bin/.bioconductor-prostatecancercamcap-post-link.sh", ".bioconductor-prostatecancercamcap-pre-unlink.sh": "/usr/local/bin/.bioconductor-prostatecancercamcap-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancercamcap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancercamcap", "latest": {"1.26.0--r42hdfd78af_0": "sha256:1715e26a4aaa66a56516489901f678fffe8e0f6bc9a09d32e1b44233b5b8ab4e"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:01a85a0908c7117fccd52023cf1e78e18e180637dfb877d11a83673a3c8061e9", "1.26.0--r42hdfd78af_0": "sha256:1715e26a4aaa66a56516489901f678fffe8e0f6bc9a09d32e1b44233b5b8ab4e"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancercamcap", "aliases": {".bioconductor-prostatecancercamcap-post-link.sh": "/usr/local/bin/.bioconductor-prostatecancercamcap-post-link.sh", ".bioconductor-prostatecancercamcap-pre-unlink.sh": "/usr/local/bin/.bioconductor-prostatecancercamcap-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prostatecancercamcap.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prostatecancercamcap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prostatecancercamcap:1.22.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-prostatecancercamcap:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prostatecancercamcap/1.22.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-prostatecancercamcap/1.22.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-prostatecancercamcap/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-prostatecancercamcap/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

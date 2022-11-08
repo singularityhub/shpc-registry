@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ngmaster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ngmaster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ngmaster/container.yaml"
-updated_at: "2022-11-07 00:35:22.870204"
-latest: "0.5.8--pyhdfd78af_1"
+updated_at: "2022-11-08 00:12:55.802579"
+latest: "1.0.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/ngmaster"
 aliases:
  - "gfPcr"
@@ -21,8 +21,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.5.8--pyhdfd78af_1"
+ - "1.0.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for ngmaster"
-config: {"url": "https://biocontainers.pro/tools/ngmaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmaster", "latest": {"0.5.8--pyhdfd78af_1": "sha256:c935646bd88a0274c22387674575f6086cf757e1226d3a0a2ad80c48e7a54998"}, "tags": {"0.5.8--pyhdfd78af_1": "sha256:c935646bd88a0274c22387674575f6086cf757e1226d3a0a2ad80c48e7a54998"}, "docker": "quay.io/biocontainers/ngmaster", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "ngmaster": "/usr/local/bin/ngmaster", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/ngmaster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ngmaster", "latest": {"1.0.0--pyhdfd78af_0": "sha256:a102083cb6e2d958ec01da8c2de2e2fcf5b8d44d0d79a17b6bb870ab32a39ac5"}, "tags": {"0.5.8--pyhdfd78af_1": "sha256:c935646bd88a0274c22387674575f6086cf757e1226d3a0a2ad80c48e7a54998", "1.0.0--pyhdfd78af_0": "sha256:a102083cb6e2d958ec01da8c2de2e2fcf5b8d44d0d79a17b6bb870ab32a39ac5"}, "docker": "quay.io/biocontainers/ngmaster", "aliases": {"gfPcr": "/usr/local/bin/gfPcr", "gfServer": "/usr/local/bin/gfServer", "isPcr": "/usr/local/bin/isPcr", "ngmaster": "/usr/local/bin/ngmaster", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ngmaster.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/ngmaster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ngmaster:0.5.8--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/ngmaster:1.0.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ngmaster/0.5.8--pyhdfd78af_1
-$ module help quay.io/biocontainers/ngmaster/0.5.8--pyhdfd78af_1
+$ module load quay.io/biocontainers/ngmaster/1.0.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/ngmaster/1.0.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

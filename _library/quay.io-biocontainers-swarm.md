@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/swarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/swarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/swarm/container.yaml"
-updated_at: "2022-11-07 00:01:47.152299"
-latest: "3.1.0--h9f5acd7_2"
+updated_at: "2022-11-07 23:49:04.971762"
+latest: "3.1.1--h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/swarm"
 aliases:
  - "amplicon_contingency_table.py"
@@ -23,8 +23,9 @@ aliases:
  - "idle3.10"
 versions:
  - "3.1.0--h9f5acd7_2"
+ - "3.1.1--h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for swarm"
-config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
+config: {"url": "https://biocontainers.pro/tools/swarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for swarm", "latest": {"3.1.1--h9f5acd7_0": "sha256:47eda5e8f6bc3915a308fd6e4aa07df8b5db7f886eee814f36758cc68a726e4e"}, "tags": {"3.1.0--h9f5acd7_2": "sha256:14bfc4fc45bd94185881d240fbbb4a94d2820908796c911bc56cc1d9d5fcd812", "3.1.1--h9f5acd7_0": "sha256:47eda5e8f6bc3915a308fd6e4aa07df8b5db7f886eee814f36758cc68a726e4e"}, "docker": "quay.io/biocontainers/swarm", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "igraph": "/usr/local/bin/igraph", "cmpfillin": "/usr/local/bin/cmpfillin", "gpmetis": "/usr/local/bin/gpmetis", "graphchk": "/usr/local/bin/graphchk", "m2gmetis": "/usr/local/bin/m2gmetis", "mpmetis": "/usr/local/bin/mpmetis", "ndmetis": "/usr/local/bin/ndmetis", "glpsol": "/usr/local/bin/glpsol", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/swarm.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/swarm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/swarm:3.1.0--h9f5acd7_2
+$ shpc install quay.io/biocontainers/swarm:3.1.1--h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/swarm/3.1.0--h9f5acd7_2
-$ module help quay.io/biocontainers/swarm/3.1.0--h9f5acd7_2
+$ module load quay.io/biocontainers/swarm/3.1.1--h9f5acd7_0
+$ module help quay.io/biocontainers/swarm/3.1.1--h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-ccube"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ccube/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ccube/container.yaml"
-updated_at: "2022-11-07 00:18:18.257027"
+updated_at: "2022-11-08 00:00:52.246717"
 latest: "1.0_beta.1--r41h46c59ee_1"
 container_url: "https://biocontainers.pro/tools/r-ccube"
 

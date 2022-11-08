@@ -4,14 +4,17 @@ name:  "quay.io/biocontainers/biopython"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopython/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopython/container.yaml"
-updated_at: "2022-11-07 00:37:22.680388"
-latest: "1.70--np112py36_1"
+updated_at: "2022-11-08 00:14:18.823413"
+latest: "1.78"
 container_url: "https://biocontainers.pro/tools/biopython"
 
 versions:
  - "1.70--np112py36_1"
+ - "1.78"
+ - "1.76"
+ - "1.75"
 description: "shpc-registry automated BioContainers addition for biopython"
-config: {"url": "https://biocontainers.pro/tools/biopython", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopython", "latest": {"1.70--np112py36_1": "sha256:1196016b05927094af161ccf2cd8371aafc2e3a8daa51c51ff023f5eb45a820f"}, "tags": {"1.70--np112py36_1": "sha256:1196016b05927094af161ccf2cd8371aafc2e3a8daa51c51ff023f5eb45a820f"}, "docker": "quay.io/biocontainers/biopython"}
+config: {"url": "https://biocontainers.pro/tools/biopython", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopython", "latest": {"1.78": "sha256:8bdeb52fb15b5f61c40292f73d85a3a77cda4bbd95d29e710ddaad7a6bf76720"}, "tags": {"1.70--np112py36_1": "sha256:1196016b05927094af161ccf2cd8371aafc2e3a8daa51c51ff023f5eb45a820f", "1.78": "sha256:8bdeb52fb15b5f61c40292f73d85a3a77cda4bbd95d29e710ddaad7a6bf76720", "1.76": "sha256:b0204cf662a3d858f6c28627124b83ed6f564e2b156b8788092f2dd9256c9290", "1.75": "sha256:fa2c959d7b17b27dd1d3ca3dcc18ac4002f971d1731d57ddcdbd204afab90dba"}, "docker": "quay.io/biocontainers/biopython"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biopython.
@@ -26,7 +29,7 @@ $ shpc install quay.io/biocontainers/biopython
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biopython:1.70--np112py36_1
+$ shpc install quay.io/biocontainers/biopython:1.78
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biopython/1.70--np112py36_1
-$ module help quay.io/biocontainers/biopython/1.70--np112py36_1
+$ module load quay.io/biocontainers/biopython/1.78
+$ module help quay.io/biocontainers/biopython/1.78
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

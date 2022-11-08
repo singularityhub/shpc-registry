@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sensv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sensv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sensv/container.yaml"
-updated_at: "2022-11-07 00:49:05.187685"
-latest: "v1.0.1--h8b12597_0"
+updated_at: "2022-11-08 00:22:26.029183"
+latest: "1.0.4--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/sensv"
 aliases:
  - "Makefile"
@@ -29,8 +29,9 @@ aliases:
  - "plotXPEHH.R"
 versions:
  - "v1.0.1--h8b12597_0"
+ - "1.0.4--h5b5514e_1"
 description: "shpc-registry automated BioContainers addition for sensv"
-config: {"url": "https://biocontainers.pro/tools/sensv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sensv", "latest": {"v1.0.1--h8b12597_0": "sha256:001423fe13c250b9d74dcdca4043a55e6e654f5326b93ed5ced03514d3b85d5b"}, "tags": {"v1.0.1--h8b12597_0": "sha256:001423fe13c250b9d74dcdca4043a55e6e654f5326b93ed5ced03514d3b85d5b"}, "docker": "quay.io/biocontainers/sensv", "aliases": {"Makefile": "/usr/local/bin/Makefile", "SURVIVOR": "/usr/local/bin/SURVIVOR", "config.ini": "/usr/local/bin/config.ini", "grabix": "/usr/local/bin/grabix", "pypy3": "/usr/local/bin/pypy3", "sensv": "/usr/local/bin/sensv", "vcfnormalizesvs": "/usr/local/bin/vcfnormalizesvs", "vcfnull2ref": "/usr/local/bin/vcfnull2ref", "vcfunphase": "/usr/local/bin/vcfunphase", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "plotBfst.R": "/usr/local/bin/plotBfst.R", "plotHapLrt.R": "/usr/local/bin/plotHapLrt.R", "plotHaplotypes.R": "/usr/local/bin/plotHaplotypes.R", "plotPfst.R": "/usr/local/bin/plotPfst.R", "plotSmoothed.R": "/usr/local/bin/plotSmoothed.R", "plotWCfst.R": "/usr/local/bin/plotWCfst.R", "plotXPEHH.R": "/usr/local/bin/plotXPEHH.R"}}
+config: {"url": "https://biocontainers.pro/tools/sensv", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sensv", "latest": {"1.0.4--h5b5514e_1": "sha256:89efedfdcac3e246e2cefb5860ae78a8d21dc72d2581d5b9bde22adf0b2cd301"}, "tags": {"v1.0.1--h8b12597_0": "sha256:001423fe13c250b9d74dcdca4043a55e6e654f5326b93ed5ced03514d3b85d5b", "1.0.4--h5b5514e_1": "sha256:89efedfdcac3e246e2cefb5860ae78a8d21dc72d2581d5b9bde22adf0b2cd301"}, "docker": "quay.io/biocontainers/sensv", "aliases": {"Makefile": "/usr/local/bin/Makefile", "SURVIVOR": "/usr/local/bin/SURVIVOR", "config.ini": "/usr/local/bin/config.ini", "grabix": "/usr/local/bin/grabix", "pypy3": "/usr/local/bin/pypy3", "sensv": "/usr/local/bin/sensv", "vcfnormalizesvs": "/usr/local/bin/vcfnormalizesvs", "vcfnull2ref": "/usr/local/bin/vcfnull2ref", "vcfunphase": "/usr/local/bin/vcfunphase", "gdbm_dump": "/usr/local/bin/gdbm_dump", "gdbm_load": "/usr/local/bin/gdbm_load", "gdbmtool": "/usr/local/bin/gdbmtool", "plotBfst.R": "/usr/local/bin/plotBfst.R", "plotHapLrt.R": "/usr/local/bin/plotHapLrt.R", "plotHaplotypes.R": "/usr/local/bin/plotHaplotypes.R", "plotPfst.R": "/usr/local/bin/plotPfst.R", "plotSmoothed.R": "/usr/local/bin/plotSmoothed.R", "plotWCfst.R": "/usr/local/bin/plotWCfst.R", "plotXPEHH.R": "/usr/local/bin/plotXPEHH.R"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sensv.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/sensv
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sensv:v1.0.1--h8b12597_0
+$ shpc install quay.io/biocontainers/sensv:1.0.4--h5b5514e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sensv/v1.0.1--h8b12597_0
-$ module help quay.io/biocontainers/sensv/v1.0.1--h8b12597_0
+$ module load quay.io/biocontainers/sensv/1.0.4--h5b5514e_1
+$ module help quay.io/biocontainers/sensv/1.0.4--h5b5514e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rprotobuflib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rprotobuflib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rprotobuflib/container.yaml"
-updated_at: "2022-11-07 01:05:46.871959"
+updated_at: "2022-11-08 00:34:10.043850"
 latest: "2.6.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-rprotobuflib"
 

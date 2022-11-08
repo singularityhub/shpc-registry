@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-convert-binhex"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-convert-binhex/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-convert-binhex/container.yaml"
-updated_at: "2022-11-07 00:22:13.661730"
+updated_at: "2022-11-08 00:03:43.812427"
 latest: "1.125--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-convert-binhex"
 aliases:

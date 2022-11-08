@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-yeastgsdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeastgsdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeastgsdata/container.yaml"
-updated_at: "2022-11-07 00:17:28.949719"
-latest: "0.32.0--r41hdfd78af_1"
+updated_at: "2022-11-08 00:00:16.059057"
+latest: "0.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeastgsdata"
 aliases:
  - ".bioconductor-yeastgsdata-post-link.sh"
  - ".bioconductor-yeastgsdata-pre-unlink.sh"
 versions:
  - "0.32.0--r41hdfd78af_1"
+ - "0.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-yeastgsdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-yeastgsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yeastgsdata", "latest": {"0.32.0--r41hdfd78af_1": "sha256:af4804fcd1fb4dae4e76bc658fa14c2e0f45d8e35ab5ab57a34a59d40e06b74e"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:af4804fcd1fb4dae4e76bc658fa14c2e0f45d8e35ab5ab57a34a59d40e06b74e"}, "docker": "quay.io/biocontainers/bioconductor-yeastgsdata", "aliases": {".bioconductor-yeastgsdata-post-link.sh": "/usr/local/bin/.bioconductor-yeastgsdata-post-link.sh", ".bioconductor-yeastgsdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-yeastgsdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-yeastgsdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yeastgsdata", "latest": {"0.35.0--r42hdfd78af_0": "sha256:384d37eb785ce63356711a4d2bbc4fa92cc68d0ff546212bd678fc226a89e35c"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:af4804fcd1fb4dae4e76bc658fa14c2e0f45d8e35ab5ab57a34a59d40e06b74e", "0.35.0--r42hdfd78af_0": "sha256:384d37eb785ce63356711a4d2bbc4fa92cc68d0ff546212bd678fc226a89e35c"}, "docker": "quay.io/biocontainers/bioconductor-yeastgsdata", "aliases": {".bioconductor-yeastgsdata-post-link.sh": "/usr/local/bin/.bioconductor-yeastgsdata-post-link.sh", ".bioconductor-yeastgsdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-yeastgsdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-yeastgsdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-yeastgsdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-yeastgsdata:0.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-yeastgsdata:0.35.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-yeastgsdata/0.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-yeastgsdata/0.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-yeastgsdata/0.35.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-yeastgsdata/0.35.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

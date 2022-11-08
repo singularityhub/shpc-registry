@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rrho"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rrho/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rrho/container.yaml"
-updated_at: "2022-11-07 00:22:54.183299"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2022-11-08 00:04:12.299197"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rrho"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rrho"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rrho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rrho", "latest": {"1.34.0--r41hdfd78af_0": "sha256:ed197765ec6f2bbc4d27014e0e453c55e80e3a8c6df0639f5037ea687ee73b17"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:ed197765ec6f2bbc4d27014e0e453c55e80e3a8c6df0639f5037ea687ee73b17"}, "docker": "quay.io/biocontainers/bioconductor-rrho"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rrho", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rrho", "latest": {"1.38.0--r42hdfd78af_0": "sha256:0ca8b5a8aeea9d46a6f7e48516e0d27a4b6ed9e615aa315e80237297b3405106"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:ed197765ec6f2bbc4d27014e0e453c55e80e3a8c6df0639f5037ea687ee73b17", "1.38.0--r42hdfd78af_0": "sha256:0ca8b5a8aeea9d46a6f7e48516e0d27a4b6ed9e615aa315e80237297b3405106"}, "docker": "quay.io/biocontainers/bioconductor-rrho"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rrho.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rrho
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rrho:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rrho:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rrho/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rrho/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rrho/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rrho/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

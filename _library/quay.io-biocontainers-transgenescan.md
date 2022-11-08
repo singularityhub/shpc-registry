@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/transgenescan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/transgenescan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/transgenescan/container.yaml"
-updated_at: "2022-11-07 00:56:58.773703"
+updated_at: "2022-11-08 00:27:57.596088"
 latest: "1.2.1--hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/transgenescan"
 aliases:

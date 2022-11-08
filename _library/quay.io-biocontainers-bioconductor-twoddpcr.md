@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-twoddpcr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-twoddpcr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-twoddpcr/container.yaml"
-updated_at: "2022-11-07 00:33:52.386560"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-08 00:11:52.929806"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-twoddpcr"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-twoddpcr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-twoddpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-twoddpcr", "latest": {"1.8.0--r36_1": "sha256:da1c32951ff006e12061a77381df7e92eefbe20a0f045aeb12d2eecbab0114e8"}, "tags": {"1.8.0--r36_1": "sha256:da1c32951ff006e12061a77381df7e92eefbe20a0f045aeb12d2eecbab0114e8"}, "docker": "quay.io/biocontainers/bioconductor-twoddpcr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-twoddpcr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-twoddpcr", "latest": {"1.22.0--r42hdfd78af_0": "sha256:22272cb4003b4701e9db41b3a8222c0bf5d1505a37f5aac40f75659aa28a2608"}, "tags": {"1.8.0--r36_1": "sha256:da1c32951ff006e12061a77381df7e92eefbe20a0f045aeb12d2eecbab0114e8", "1.22.0--r42hdfd78af_0": "sha256:22272cb4003b4701e9db41b3a8222c0bf5d1505a37f5aac40f75659aa28a2608", "1.18.0--r41hdfd78af_0": "sha256:c046a8d0c2899648a3062226f27fbb18cbb17416e313d86c6a073b2ded462807", "1.16.0--r41hdfd78af_0": "sha256:a25b663f2666c5a669b63df5f687cda7ead54bc97432f10020343951e21ec7f3", "1.14.0--r40hdfd78af_1": "sha256:fe8fd916c13012cfb8ab86778012d7d9c643c982076b92e4e26e1d06d3741eb1", "1.12.0--r40_0": "sha256:48905a7bbd1647323f6f5db827c31cffe9c51c0bcbb7c4aba16a1f7f2fe73afe"}, "docker": "quay.io/biocontainers/bioconductor-twoddpcr", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-twoddpcr.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-twoddpcr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-twoddpcr:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-twoddpcr:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-twoddpcr/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-twoddpcr/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-twoddpcr/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-twoddpcr/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rnaprobr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnaprobr/container.yaml"
-updated_at: "2022-11-07 00:19:04.130510"
-latest: "1.9.0--r3.4.1_0"
+updated_at: "2022-11-08 00:01:25.147197"
+latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnaprobr"
 aliases:
  - "my_print_defaults"
@@ -18,8 +18,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.9.0--r3.4.1_0"
+ - "1.22.0--r40hdfd78af_1"
+ - "1.20.0--r40_0"
+ - "1.18.0--r36_0"
+ - "1.16.0--r36_1"
+ - "1.14.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnaprobr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaprobr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaprobr", "latest": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f"}, "tags": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f"}, "docker": "quay.io/biocontainers/bioconductor-rnaprobr", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnaprobr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnaprobr", "latest": {"1.22.0--r40hdfd78af_1": "sha256:ae5152eb5dfc321821b0b324e4310a66d978a475106a8e972d624e83bee0992b"}, "tags": {"1.9.0--r3.4.1_0": "sha256:073f66507a73bf5cf820a0ab77b7103768049541b43ed00696252a973584d77f", "1.22.0--r40hdfd78af_1": "sha256:ae5152eb5dfc321821b0b324e4310a66d978a475106a8e972d624e83bee0992b", "1.20.0--r40_0": "sha256:4d7d49064bfbfc63eb3538b13efadef061d675489995e3c4ccb64a92ceefe02b", "1.18.0--r36_0": "sha256:93926ddd290cb60c07f8640e7fdd6e0c2d2272ca31e2c7d5e9c300fc6f5744c4", "1.16.0--r36_1": "sha256:049f59f0023bf74048038c47b170c1d0c56886776eed70190e3d5cc18049e3a3", "1.14.0--r351_0": "sha256:fc139b55beed0ed81e2bdaa262a71e946bb402a7fcec4ea6cf84e4ac66437a24"}, "docker": "quay.io/biocontainers/bioconductor-rnaprobr", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "wget": "/usr/local/bin/wget", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnaprobr.
@@ -34,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnaprobr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnaprobr:1.9.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-rnaprobr:1.22.0--r40hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnaprobr/1.9.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-rnaprobr/1.9.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-rnaprobr/1.22.0--r40hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-rnaprobr/1.22.0--r40hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

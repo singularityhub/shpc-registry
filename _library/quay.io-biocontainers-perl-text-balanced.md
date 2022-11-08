@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-text-balanced"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-text-balanced/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-text-balanced/container.yaml"
-updated_at: "2022-11-07 00:53:18.777053"
+updated_at: "2022-11-08 00:25:24.190085"
 latest: "2.06--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-text-balanced"
 aliases:

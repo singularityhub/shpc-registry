@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/adios2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/adios2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/adios2/container.yaml"
-updated_at: "2022-11-07 01:16:41.790608"
-latest: "2.7.1"
+updated_at: "2022-11-08 00:41:57.232988"
+latest: "2.8.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/adios2"
 aliases:
  - "adios2-config"
@@ -16,8 +16,9 @@ aliases:
 versions:
  - "2.7.1"
  - "latest"
+ - "2.8.3"
 description: "The Adaptable Input Output System version 2, developed in the Exascale Computing Program"
-config: {"docker": "ghcr.io/autamus/adios2", "url": "https://github.com/orgs/autamus/packages/container/package/adios2", "maintainer": "@vsoch", "description": "The Adaptable Input Output System version 2, developed in the Exascale Computing Program", "latest": {"2.7.1": "sha256:ad475f144747104b57674f84e72efa877e904645ce5edeb9d43a06e058764c72"}, "tags": {"2.7.1": "sha256:ad475f144747104b57674f84e72efa877e904645ce5edeb9d43a06e058764c72", "latest": "sha256:ad475f144747104b57674f84e72efa877e904645ce5edeb9d43a06e058764c72"}, "aliases": {"adios2-config": "/opt/view/bin/adios2-config", "adios2_deactivate_bp": "/opt/view/bin/adios2_deactivate_bp", "adios2_iotest": "/opt/view/bin/adios2_iotest", "adios2_reorganize": "/opt/view/bin/adios2_reorganize", "adios2_reorganize_mpi": "/opt/view/bin/adios2_reorganize_mpi"}}
+config: {"docker": "ghcr.io/autamus/adios2", "url": "https://github.com/orgs/autamus/packages/container/package/adios2", "maintainer": "@vsoch", "description": "The Adaptable Input Output System version 2, developed in the Exascale Computing Program", "latest": {"2.8.3": "sha256:0e4f6b43dfeca7ca11cc2f524e498581a85bdf515b8b15bd6b2ac7953816ba4b"}, "tags": {"2.7.1": "sha256:ad475f144747104b57674f84e72efa877e904645ce5edeb9d43a06e058764c72", "latest": "sha256:0e4f6b43dfeca7ca11cc2f524e498581a85bdf515b8b15bd6b2ac7953816ba4b", "2.8.3": "sha256:0e4f6b43dfeca7ca11cc2f524e498581a85bdf515b8b15bd6b2ac7953816ba4b"}, "aliases": {"adios2-config": "/opt/view/bin/adios2-config", "adios2_deactivate_bp": "/opt/view/bin/adios2_deactivate_bp", "adios2_iotest": "/opt/view/bin/adios2_iotest", "adios2_reorganize": "/opt/view/bin/adios2_reorganize", "adios2_reorganize_mpi": "/opt/view/bin/adios2_reorganize_mpi"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/adios2.
@@ -32,7 +33,7 @@ $ shpc install ghcr.io/autamus/adios2
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/adios2:2.7.1
+$ shpc install ghcr.io/autamus/adios2:2.8.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/adios2/2.7.1
-$ module help ghcr.io/autamus/adios2/2.7.1
+$ module load ghcr.io/autamus/adios2/2.8.3
+$ module help ghcr.io/autamus/adios2/2.8.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

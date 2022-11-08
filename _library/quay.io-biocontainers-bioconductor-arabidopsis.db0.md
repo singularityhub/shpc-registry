@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-arabidopsis.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-arabidopsis.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-arabidopsis.db0/container.yaml"
-updated_at: "2022-11-07 00:38:02.727290"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-08 00:14:46.854976"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-arabidopsis.db0"
 aliases:
  - ".bioconductor-arabidopsis.db0-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.16.0--r42hdfd78af_0"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.11.3--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-arabidopsis.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-arabidopsis.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arabidopsis.db0", "latest": {"3.8.2--r36_1": "sha256:2374b9481e328e2f39d0691a62d7642d5fd395067d270dc7df6caf5b1129d7ed"}, "tags": {"3.8.2--r36_1": "sha256:2374b9481e328e2f39d0691a62d7642d5fd395067d270dc7df6caf5b1129d7ed"}, "docker": "quay.io/biocontainers/bioconductor-arabidopsis.db0", "aliases": {".bioconductor-arabidopsis.db0-post-link.sh": "/usr/local/bin/.bioconductor-arabidopsis.db0-post-link.sh", ".bioconductor-arabidopsis.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-arabidopsis.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-arabidopsis.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-arabidopsis.db0", "latest": {"3.16.0--r42hdfd78af_0": "sha256:9148533900346c853ac0c5b193b2fd30855c00b96918d66a65e2da9818444ca1"}, "tags": {"3.8.2--r36_1": "sha256:2374b9481e328e2f39d0691a62d7642d5fd395067d270dc7df6caf5b1129d7ed", "3.16.0--r42hdfd78af_0": "sha256:9148533900346c853ac0c5b193b2fd30855c00b96918d66a65e2da9818444ca1", "3.14.0--r41hdfd78af_1": "sha256:ac25886096c75ea625e59da226e44da4703e391d56cd5b4045ed691660cea32a", "3.13.0--r41hdfd78af_0": "sha256:d4012a22367305c36c03c83ff8b2fced1f4fe781635c372ad4d7164a80a78450", "3.12.0--r40hdfd78af_1": "sha256:1c2690fbc1523617c774eec74a5b2ced1000cb334e2f4c61d6cb1e4c8123257e", "3.11.3--r40_0": "sha256:bce2e406e5acf1d132e9a79e12777799ab49567ca95816d1c0d65889d5e23330"}, "docker": "quay.io/biocontainers/bioconductor-arabidopsis.db0", "aliases": {".bioconductor-arabidopsis.db0-post-link.sh": "/usr/local/bin/.bioconductor-arabidopsis.db0-post-link.sh", ".bioconductor-arabidopsis.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-arabidopsis.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-arabidopsis.db0.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-arabidopsis.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-arabidopsis.db0:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-arabidopsis.db0:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-arabidopsis.db0/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-arabidopsis.db0/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-arabidopsis.db0/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-arabidopsis.db0/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

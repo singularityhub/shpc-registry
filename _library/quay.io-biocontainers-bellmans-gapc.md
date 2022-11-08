@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bellmans-gapc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bellmans-gapc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bellmans-gapc/container.yaml"
-updated_at: "2022-11-07 00:16:39.547628"
+updated_at: "2022-11-07 23:59:39.516853"
 latest: "2022.07.04--h16d3260_0"
 container_url: "https://biocontainers.pro/tools/bellmans-gapc"
 aliases:
