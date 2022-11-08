@@ -2,7 +2,11 @@ url: https://biocontainers.pro/tools/igblast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for igblast
 latest:
-  1.9.0--hab87656_0: sha256:2253ac59f465ec415feede6a43b244fd7ed36a1ded3263603b5ea43be3cb2fed
+  1.19.0--pl5321h3928612_0: sha256:0cc5a7bd4b964ccd096fdd91a843abf14cd5f1a0b14b40eb964442e501841621
 tags:
   1.9.0--hab87656_0: sha256:2253ac59f465ec415feede6a43b244fd7ed36a1ded3263603b5ea43be3cb2fed
+  1.19.0--pl5321h3928612_0: sha256:0cc5a7bd4b964ccd096fdd91a843abf14cd5f1a0b14b40eb964442e501841621
+  1.17.1--pl5321h3928612_1: sha256:9e268b2be74b82a7fc6297c86ed4fca244ceae4e290c25df734c4d1cbc6962e3
+  1.15.0--h18cd00f_0: sha256:13eba2ad6d1a9d500d84beb1eeb51c8341b2c3b3b6279bdc86dc81955c347c31
+  1.10.0--h6ac72b6_1: sha256:fe26238d113f5abc6ce3c34c6a336e0286f90fb32a4ef4362a13daba88f222f3
 docker: quay.io/biocontainers/igblast

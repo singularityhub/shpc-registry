@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ragene20sttranscriptcluster.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ragene20sttranscriptcluster.db
 latest:
-  8.8.0--r41hdfd78af_1: sha256:6d2586ae5a85f6f3e739a5e89da1adf1a1e69926077b9d81fe45f2f739c3bc6f
+  8.8.0--r42hdfd78af_2: sha256:26d519615720e34334f2ee7c35a249ecef3d1d464fe929f9120babe4f6cadd0b
 tags:
   8.8.0--r41hdfd78af_1: sha256:6d2586ae5a85f6f3e739a5e89da1adf1a1e69926077b9d81fe45f2f739c3bc6f
+  8.8.0--r42hdfd78af_2: sha256:26d519615720e34334f2ee7c35a249ecef3d1d464fe929f9120babe4f6cadd0b
 docker: quay.io/biocontainers/bioconductor-ragene20sttranscriptcluster.db
 aliases:
   .bioconductor-ragene20sttranscriptcluster.db-post-link.sh: /usr/local/bin/.bioconductor-ragene20sttranscriptcluster.db-post-link.sh

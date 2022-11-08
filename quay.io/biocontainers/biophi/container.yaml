@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biophi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biophi
 latest:
-  1.0.5--pyhdfd78af_0: sha256:19d21733389ffcc3b7d8eefb06f1aae5703fd5d594f561079d0bdb30ca6d1531
+  1.0.6--pyhdfd78af_0: sha256:e5d36d76b583fb449ed30e93960294256b5c3bc7562054d6826c0e738aee7742
 tags:
   1.0.5--pyhdfd78af_0: sha256:19d21733389ffcc3b7d8eefb06f1aae5703fd5d594f561079d0bdb30ca6d1531
+  1.0.6--pyhdfd78af_0: sha256:e5d36d76b583fb449ed30e93960294256b5c3bc7562054d6826c0e738aee7742
 docker: quay.io/biocontainers/biophi
 aliases:
   ANARCI: /usr/local/bin/ANARCI

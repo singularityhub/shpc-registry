@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rfarm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rfarm
 latest:
-  1.6.0--r41hdfd78af_0: sha256:1e829fff8580c39c228a0fb8fada8f02b5adedf2405fc2c9b9aa823da1d2d50b
+  1.10.0--r42hdfd78af_0: sha256:636128c1415b7549f94f5bf71d9cd532d75d3739d2aafdcd79ae0607fcba4c1f
 tags:
   1.6.0--r41hdfd78af_0: sha256:1e829fff8580c39c228a0fb8fada8f02b5adedf2405fc2c9b9aa823da1d2d50b
+  1.10.0--r42hdfd78af_0: sha256:636128c1415b7549f94f5bf71d9cd532d75d3739d2aafdcd79ae0607fcba4c1f
 docker: quay.io/biocontainers/bioconductor-rfarm
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-nestlink
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nestlink
 latest:
-  1.8.0--r41hdfd78af_0: sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093
+  1.10.0--r41hdfd78af_1: sha256:69db6e6a2cdc4651683c2988ac0cba688db3f962ffe8d4de81ec74084158beee
 tags:
   1.8.0--r41hdfd78af_0: sha256:2cfa15a73d82a9c7221fb3a5639c249f35befdab4ccc81d8f9a08aec04826093
+  1.10.0--r41hdfd78af_1: sha256:69db6e6a2cdc4651683c2988ac0cba688db3f962ffe8d4de81ec74084158beee
 docker: quay.io/biocontainers/bioconductor-nestlink
 aliases:
   .bioconductor-nestlink-post-link.sh: /usr/local/bin/.bioconductor-nestlink-post-link.sh

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-fcoex
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fcoex
 latest:
-  1.6.0--r41hdfd78af_0: sha256:89d756cda790a8a90ae07388bafa1536497ae10ab79fb64d0b797f663749d5ae
+  1.12.0--r42hdfd78af_0: sha256:d0075bd1dbc021f8b24d1270ccbd7f9dac137a68d1440bacddefdf00fa1424bc
 tags:
   1.6.0--r41hdfd78af_0: sha256:89d756cda790a8a90ae07388bafa1536497ae10ab79fb64d0b797f663749d5ae
+  1.12.0--r42hdfd78af_0: sha256:d0075bd1dbc021f8b24d1270ccbd7f9dac137a68d1440bacddefdf00fa1424bc
 docker: quay.io/biocontainers/bioconductor-fcoex
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-impulsede2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-impulsede2
 latest:
-  1.8.0--r36_1: sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0
+  1.11.0--r40_0: sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87
 tags:
   1.8.0--r36_1: sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0
+  1.11.0--r40_0: sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87
+  1.10.0--r36_0: sha256:6b45ae1f747d3a096ed2b7c682d57275b0d3efd55ffd556ab5fcb5c8195e97c1
 docker: quay.io/biocontainers/bioconductor-impulsede2
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

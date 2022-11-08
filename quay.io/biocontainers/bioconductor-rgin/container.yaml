@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-rgin
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rgin
 latest:
-  1.8.0--r40h5f743cb_0: sha256:ffdd6b669c3a713a936121871f322da5a6101115fa5b0fbdfb36fc893c1000f0
+  1.14.0--r41h399db7b_0: sha256:5ef8129544430545c2c93eef2ed97c87c39b74d3ec21d6f4c27a78ac86910505
 tags:
   1.8.0--r40h5f743cb_0: sha256:ffdd6b669c3a713a936121871f322da5a6101115fa5b0fbdfb36fc893c1000f0
+  1.14.0--r41h399db7b_0: sha256:5ef8129544430545c2c93eef2ed97c87c39b74d3ec21d6f4c27a78ac86910505
+  1.12.0--r41h399db7b_0: sha256:c5f35a5765e5f395bb9dd6fd264d8c53df8cd7a20d54d2bd22d8ee2bde146195
+  1.10.0--r40h399db7b_1: sha256:767f21e106c01a1812696a89e77c2cd4b4481c5c11b32bde8c8af85340066360
 docker: quay.io/biocontainers/bioconductor-rgin
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

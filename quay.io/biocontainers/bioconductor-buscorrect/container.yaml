@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-buscorrect
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-buscorrect
 latest:
-  1.8.0--r40hd029910_1: sha256:a37dec7d691c3678797d7e44698507c158e3afef82ccd02e62f65a63115cbf38
+  1.16.0--r42hc0cfd56_0: sha256:9d1066a8070a70235ee591ffa6a3fcf2599322bd046067e542f8bce23d45c6b8
 tags:
   1.8.0--r40hd029910_1: sha256:a37dec7d691c3678797d7e44698507c158e3afef82ccd02e62f65a63115cbf38
+  1.16.0--r42hc0cfd56_0: sha256:9d1066a8070a70235ee591ffa6a3fcf2599322bd046067e542f8bce23d45c6b8
+  1.12.0--r41hc0cfd56_2: sha256:2b7133817bc614b6174a62e612f2f50240bcd5d73079bc00820084c36d62448c
+  1.10.0--r41hd029910_0: sha256:be154f75842a6f5a53fbeaf6ab2d66deb9d878f67c6565a81987f6342910890f
 docker: quay.io/biocontainers/bioconductor-buscorrect
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
