@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ggmsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ggmsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ggmsa/container.yaml"
-updated_at: "2022-11-07 23:58:20.458288"
-latest: "1.0.2--r41h3121a25_1"
+updated_at: "2022-11-09 00:04:02.366945"
+latest: "1.0.2--r42h3121a25_2"
 container_url: "https://biocontainers.pro/tools/r-ggmsa"
 aliases:
  - "projsync"
@@ -19,8 +19,9 @@ aliases:
  - "proj"
 versions:
  - "1.0.2--r41h3121a25_1"
+ - "1.0.2--r42h3121a25_2"
 description: "shpc-registry automated BioContainers addition for r-ggmsa"
-config: {"url": "https://biocontainers.pro/tools/r-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggmsa", "latest": {"1.0.2--r41h3121a25_1": "sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f"}, "tags": {"1.0.2--r41h3121a25_1": "sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f"}, "docker": "quay.io/biocontainers/r-ggmsa", "aliases": {"projsync": "/usr/local/bin/projsync", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj"}}
+config: {"url": "https://biocontainers.pro/tools/r-ggmsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ggmsa", "latest": {"1.0.2--r42h3121a25_2": "sha256:d16073153fd126d3799a4ef0a010bfa84de0baf2ccabde867ffe2d477161f925"}, "tags": {"1.0.2--r41h3121a25_1": "sha256:8318b4493108ec40b3afa091268689f770cb9747c80894e81eb98acb5bc6a98f", "1.0.2--r42h3121a25_2": "sha256:d16073153fd126d3799a4ef0a010bfa84de0baf2ccabde867ffe2d477161f925"}, "docker": "quay.io/biocontainers/r-ggmsa", "aliases": {"projsync": "/usr/local/bin/projsync", "invgeod": "/usr/local/bin/invgeod", "invproj": "/usr/local/bin/invproj", "projinfo": "/usr/local/bin/projinfo", "cct": "/usr/local/bin/cct", "gie": "/usr/local/bin/gie", "cs2cs": "/usr/local/bin/cs2cs", "geod": "/usr/local/bin/geod", "proj": "/usr/local/bin/proj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ggmsa.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/r-ggmsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ggmsa:1.0.2--r41h3121a25_1
+$ shpc install quay.io/biocontainers/r-ggmsa:1.0.2--r42h3121a25_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ggmsa/1.0.2--r41h3121a25_1
-$ module help quay.io/biocontainers/r-ggmsa/1.0.2--r41h3121a25_1
+$ module load quay.io/biocontainers/r-ggmsa/1.0.2--r42h3121a25_2
+$ module help quay.io/biocontainers/r-ggmsa/1.0.2--r42h3121a25_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

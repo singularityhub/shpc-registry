@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmmratac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmmratac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmmratac/container.yaml"
-updated_at: "2022-11-08 00:07:06.159786"
-latest: "1.2.9--0"
+updated_at: "2022-11-09 00:15:56.275974"
+latest: "1.2.10--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmmratac"
 aliases:
  - "HMMRATAC"
@@ -21,8 +21,9 @@ aliases:
  - "jlink"
 versions:
  - "1.2.9--0"
+ - "1.2.10--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for hmmratac"
-config: {"url": "https://biocontainers.pro/tools/hmmratac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmratac", "latest": {"1.2.9--0": "sha256:be28c28d52f565b5fbc683a21324aea81c8d342b9eb6993aeb672ac1a0f8ff13"}, "tags": {"1.2.9--0": "sha256:be28c28d52f565b5fbc683a21324aea81c8d342b9eb6993aeb672ac1a0f8ff13"}, "docker": "quay.io/biocontainers/hmmratac", "aliases": {"HMMRATAC": "/usr/local/bin/HMMRATAC", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/hmmratac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmmratac", "latest": {"1.2.10--hdfd78af_1": "sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425"}, "tags": {"1.2.9--0": "sha256:be28c28d52f565b5fbc683a21324aea81c8d342b9eb6993aeb672ac1a0f8ff13", "1.2.10--hdfd78af_1": "sha256:4ffa2b9c47150af4878557ce012da6a5b3fddb3d6c0b1e70021d1afda548c425"}, "docker": "quay.io/biocontainers/hmmratac", "aliases": {"HMMRATAC": "/usr/local/bin/HMMRATAC", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmmratac.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/hmmratac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmmratac:1.2.9--0
+$ shpc install quay.io/biocontainers/hmmratac:1.2.10--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmmratac/1.2.9--0
-$ module help quay.io/biocontainers/hmmratac/1.2.9--0
+$ module load quay.io/biocontainers/hmmratac/1.2.10--hdfd78af_1
+$ module help quay.io/biocontainers/hmmratac/1.2.10--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

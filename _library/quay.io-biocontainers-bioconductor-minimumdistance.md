@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-minimumdistance"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-minimumdistance/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-minimumdistance/container.yaml"
-updated_at: "2022-11-08 00:04:20.472958"
-latest: "1.38.0--r41hdfd78af_0"
+updated_at: "2022-11-09 00:12:15.134535"
+latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-minimumdistance"
 
 versions:
  - "1.38.0--r41hdfd78af_0"
+ - "1.42.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-minimumdistance"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-minimumdistance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-minimumdistance", "latest": {"1.38.0--r41hdfd78af_0": "sha256:f4305dcd3aac9a96865a76c19a309eb5d4b20a7cc3317bf10a4ceb8e8d43b464"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:f4305dcd3aac9a96865a76c19a309eb5d4b20a7cc3317bf10a4ceb8e8d43b464"}, "docker": "quay.io/biocontainers/bioconductor-minimumdistance"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-minimumdistance", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-minimumdistance", "latest": {"1.42.0--r42hdfd78af_0": "sha256:39c5d9770a222678f4acc44e5b515e249bbbe9e5236a95b9745ab5de281b6bb1"}, "tags": {"1.38.0--r41hdfd78af_0": "sha256:f4305dcd3aac9a96865a76c19a309eb5d4b20a7cc3317bf10a4ceb8e8d43b464", "1.42.0--r42hdfd78af_0": "sha256:39c5d9770a222678f4acc44e5b515e249bbbe9e5236a95b9745ab5de281b6bb1"}, "docker": "quay.io/biocontainers/bioconductor-minimumdistance"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-minimumdistance.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-minimumdistance
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-minimumdistance:1.38.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-minimumdistance:1.42.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-minimumdistance/1.38.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-minimumdistance/1.38.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-minimumdistance/1.42.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-minimumdistance/1.42.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

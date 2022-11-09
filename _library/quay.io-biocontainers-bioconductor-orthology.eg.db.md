@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-orthology.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orthology.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orthology.eg.db/container.yaml"
-updated_at: "2022-11-07 23:54:49.382727"
+updated_at: "2022-11-08 23:59:13.200416"
 latest: "3.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-orthology.eg.db"
 aliases:

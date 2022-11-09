@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-moose"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moose/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moose/container.yaml"
-updated_at: "2022-11-08 00:12:24.964498"
+updated_at: "2022-11-09 00:23:05.675632"
 latest: "2.2201--pl5321hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/perl-moose"
 aliases:

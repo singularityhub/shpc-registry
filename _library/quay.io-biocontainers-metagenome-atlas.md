@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/metagenome-atlas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/metagenome-atlas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/metagenome-atlas/container.yaml"
-updated_at: "2022-11-08 00:14:47.267101"
-latest: "2.9.1--pyhdfd78af_0"
+updated_at: "2022-11-09 00:26:25.279067"
+latest: "2.12.0--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/metagenome-atlas"
 aliases:
  - "atlas"
@@ -34,8 +34,11 @@ aliases:
  - "alltoall.sh"
 versions:
  - "2.9.1--pyhdfd78af_0"
+ - "2.12.0--pyhdfd78af_1"
+ - "2.11.1--pyhdfd78af_0"
+ - "2.10.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for metagenome-atlas"
-config: {"url": "https://biocontainers.pro/tools/metagenome-atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagenome-atlas", "latest": {"2.9.1--pyhdfd78af_0": "sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca"}, "tags": {"2.9.1--pyhdfd78af_0": "sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca"}, "docker": "quay.io/biocontainers/metagenome-atlas", "aliases": {"atlas": "/usr/local/bin/atlas", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "cookiecutter": "/usr/local/bin/cookiecutter", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "slugify": "/usr/local/bin/slugify", "testsolv": "/usr/local/bin/testsolv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh"}}
+config: {"url": "https://biocontainers.pro/tools/metagenome-atlas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for metagenome-atlas", "latest": {"2.12.0--pyhdfd78af_1": "sha256:b28317b771a5563b11d20d6ee9b9885794a1aa8f4e6f66af4b09b570bf304342"}, "tags": {"2.9.1--pyhdfd78af_0": "sha256:5b24ec8e8747ee48f0b7f8b690d574e026617895f4ebd37e777878634885faca", "2.12.0--pyhdfd78af_1": "sha256:b28317b771a5563b11d20d6ee9b9885794a1aa8f4e6f66af4b09b570bf304342", "2.11.1--pyhdfd78af_0": "sha256:21b22a444df2001b23654a7a2f01d6efee816cfe297e2541f1b57e6897a61e71", "2.10.0--pyhdfd78af_0": "sha256:05cc984118d2f7df96504005260e8e40ae6384c7845e559217f9523c499ce08c"}, "docker": "quay.io/biocontainers/metagenome-atlas", "aliases": {"atlas": "/usr/local/bin/atlas", "bsdcat": "/usr/local/bin/bsdcat", "bsdcpio": "/usr/local/bin/bsdcpio", "bsdtar": "/usr/local/bin/bsdtar", "conda2solv": "/usr/local/bin/conda2solv", "cookiecutter": "/usr/local/bin/cookiecutter", "dumpsolv": "/usr/local/bin/dumpsolv", "installcheck": "/usr/local/bin/installcheck", "mamba": "/usr/local/bin/mamba", "mamba-package": "/usr/local/bin/mamba-package", "mergesolv": "/usr/local/bin/mergesolv", "repo2solv": "/usr/local/bin/repo2solv", "slugify": "/usr/local/bin/slugify", "testsolv": "/usr/local/bin/testsolv", "kmutate.sh": "/usr/local/bin/kmutate.sh", "runhmm.sh": "/usr/local/bin/runhmm.sh", "conda-env": "/usr/local/bin/conda-env", "cph": "/usr/local/bin/cph", "plac_runner.py": "/usr/local/bin/plac_runner.py", "yte": "/usr/local/bin/yte", "kmerposition.sh": "/usr/local/bin/kmerposition.sh", "reformatpb.sh": "/usr/local/bin/reformatpb.sh", "summarizecoverage.sh": "/usr/local/bin/summarizecoverage.sh", "alltoall.sh": "/usr/local/bin/alltoall.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/metagenome-atlas.
@@ -50,7 +53,7 @@ $ shpc install quay.io/biocontainers/metagenome-atlas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/metagenome-atlas:2.9.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/metagenome-atlas:2.12.0--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -62,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/metagenome-atlas/2.9.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/metagenome-atlas/2.9.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/metagenome-atlas/2.12.0--pyhdfd78af_1
+$ module help quay.io/biocontainers/metagenome-atlas/2.12.0--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

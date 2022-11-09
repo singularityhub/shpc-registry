@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mugaexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mugaexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mugaexampledata/container.yaml"
-updated_at: "2022-11-07 23:55:12.008456"
-latest: "1.9.0--r40_0"
+updated_at: "2022-11-08 23:59:43.750945"
+latest: "1.17.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mugaexampledata"
 aliases:
  - ".bioconductor-mugaexampledata-post-link.sh"
@@ -13,8 +13,12 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
+ - "1.17.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mugaexampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mugaexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mugaexampledata", "latest": {"1.9.0--r40_0": "sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125"}, "tags": {"1.9.0--r40_0": "sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125"}, "docker": "quay.io/biocontainers/bioconductor-mugaexampledata", "aliases": {".bioconductor-mugaexampledata-post-link.sh": "/usr/local/bin/.bioconductor-mugaexampledata-post-link.sh", ".bioconductor-mugaexampledata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mugaexampledata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mugaexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mugaexampledata", "latest": {"1.17.0--r42hdfd78af_0": "sha256:46161e7af12a157ba941f6321b920bfe87dab1da8691ec7813575dc21d4ee4ee"}, "tags": {"1.9.0--r40_0": "sha256:b5b98de92801f9fa7b3e17857822b60098403986b15e510fac562c7a51da7125", "1.17.0--r42hdfd78af_0": "sha256:46161e7af12a157ba941f6321b920bfe87dab1da8691ec7813575dc21d4ee4ee", "1.14.0--r41hdfd78af_1": "sha256:eb3aa79e48ba14e9054c3c56cb7c0b9a855599b9b644fa87a3a4ecb713c4f3f9", "1.12.0--r41hdfd78af_0": "sha256:42753e4c033085871cd5e68bf9cc56defec87c55e6050f034d546d4aaef6808c", "1.10.0--r40hdfd78af_1": "sha256:293f4457669c34392693df36e86b6ae7c3769cbc49851b36cae4d0fe6006226d"}, "docker": "quay.io/biocontainers/bioconductor-mugaexampledata", "aliases": {".bioconductor-mugaexampledata-post-link.sh": "/usr/local/bin/.bioconductor-mugaexampledata-post-link.sh", ".bioconductor-mugaexampledata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mugaexampledata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mugaexampledata.
@@ -29,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mugaexampledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mugaexampledata:1.9.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-mugaexampledata:1.17.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mugaexampledata/1.9.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-mugaexampledata/1.9.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-mugaexampledata/1.17.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mugaexampledata/1.17.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

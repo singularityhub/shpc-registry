@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-structuralvariantannotation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-structuralvariantannotation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-structuralvariantannotation/container.yaml"
-updated_at: "2022-11-07 23:56:24.900638"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-09 00:01:21.795764"
+latest: "1.13.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-structuralvariantannotation"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.13.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-structuralvariantannotation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-structuralvariantannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structuralvariantannotation", "latest": {"1.8.0--r41hdfd78af_0": "sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f"}, "docker": "quay.io/biocontainers/bioconductor-structuralvariantannotation", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-structuralvariantannotation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-structuralvariantannotation", "latest": {"1.13.0--r42hdfd78af_0": "sha256:e43df95940d5ee24ecd86e4d33aa26341ca2b555889818c1df0ae6383782f8fd"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:70a34ebffa62d1c3e2d9af0da0825a71d58a314a6fe0e0b156a20f7a03c05f8f", "1.13.0--r42hdfd78af_0": "sha256:e43df95940d5ee24ecd86e4d33aa26341ca2b555889818c1df0ae6383782f8fd", "1.10.0--r41hdfd78af_0": "sha256:b74008a8312cb0f21550ce10e220de118fceffeecf0931812d5ef3cf82e69a48"}, "docker": "quay.io/biocontainers/bioconductor-structuralvariantannotation", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-structuralvariantannotation.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-structuralvariantannotation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-structuralvariantannotation:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-structuralvariantannotation:1.13.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-structuralvariantannotation/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-structuralvariantannotation/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-structuralvariantannotation/1.13.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-structuralvariantannotation/1.13.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

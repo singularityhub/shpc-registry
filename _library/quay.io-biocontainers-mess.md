@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mess"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mess/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mess/container.yaml"
-updated_at: "2022-11-08 00:33:26.834220"
-latest: "v0.2.1--pyhdfd78af_0"
+updated_at: "2022-11-09 00:51:51.855796"
+latest: "0.2.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mess"
 aliases:
  - "mess"
@@ -21,8 +21,9 @@ aliases:
  - "rst2html4.py"
 versions:
  - "v0.2.1--pyhdfd78af_0"
+ - "0.2.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mess"
-config: {"url": "https://biocontainers.pro/tools/mess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mess", "latest": {"v0.2.1--pyhdfd78af_0": "sha256:075b9a2353137cadffd70344aa01537de415419bf09a66eee659d674b4c1f581"}, "tags": {"v0.2.1--pyhdfd78af_0": "sha256:075b9a2353137cadffd70344aa01537de415419bf09a66eee659d674b4c1f581"}, "docker": "quay.io/biocontainers/mess", "aliases": {"mess": "/usr/local/bin/mess", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
+config: {"url": "https://biocontainers.pro/tools/mess", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mess", "latest": {"0.2.2--pyhdfd78af_0": "sha256:1d07b5dd14e16bef7001b9a95e1c3141ee543b42c806c97271e9dba22d570c74"}, "tags": {"v0.2.1--pyhdfd78af_0": "sha256:075b9a2353137cadffd70344aa01537de415419bf09a66eee659d674b4c1f581", "0.2.2--pyhdfd78af_0": "sha256:1d07b5dd14e16bef7001b9a95e1c3141ee543b42c806c97271e9dba22d570c74"}, "docker": "quay.io/biocontainers/mess", "aliases": {"mess": "/usr/local/bin/mess", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mess.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/mess
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mess:v0.2.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mess:0.2.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mess/v0.2.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/mess/v0.2.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/mess/0.2.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/mess/0.2.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

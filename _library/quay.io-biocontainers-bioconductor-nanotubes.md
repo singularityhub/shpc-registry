@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-nanotubes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nanotubes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nanotubes/container.yaml"
-updated_at: "2022-11-08 00:20:50.552188"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-09 00:34:36.941501"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nanotubes"
 aliases:
  - ".bioconductor-nanotubes-post-link.sh"
@@ -13,8 +13,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-nanotubes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotubes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotubes", "latest": {"1.8.0--r41hdfd78af_0": "sha256:787cbddfc0a4a20cf31d8a187eb490fd0223e12fff70a21d42bacd9a11f298f8"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:787cbddfc0a4a20cf31d8a187eb490fd0223e12fff70a21d42bacd9a11f298f8"}, "docker": "quay.io/biocontainers/bioconductor-nanotubes", "aliases": {".bioconductor-nanotubes-post-link.sh": "/usr/local/bin/.bioconductor-nanotubes-post-link.sh", ".bioconductor-nanotubes-pre-unlink.sh": "/usr/local/bin/.bioconductor-nanotubes-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nanotubes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nanotubes", "latest": {"1.14.0--r42hdfd78af_0": "sha256:d1518d5c642a55b6a06008f7d7cc72373ace0d4442c181a925b8341feb57d881"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:787cbddfc0a4a20cf31d8a187eb490fd0223e12fff70a21d42bacd9a11f298f8", "1.14.0--r42hdfd78af_0": "sha256:d1518d5c642a55b6a06008f7d7cc72373ace0d4442c181a925b8341feb57d881", "1.10.0--r41hdfd78af_1": "sha256:4dffc6a0bd600ca030f286ccb71b351dc45e6433af8d74b9cb2af533e8973460"}, "docker": "quay.io/biocontainers/bioconductor-nanotubes", "aliases": {".bioconductor-nanotubes-post-link.sh": "/usr/local/bin/.bioconductor-nanotubes-post-link.sh", ".bioconductor-nanotubes-pre-unlink.sh": "/usr/local/bin/.bioconductor-nanotubes-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nanotubes.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nanotubes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nanotubes:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nanotubes:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nanotubes/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nanotubes/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nanotubes/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nanotubes/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

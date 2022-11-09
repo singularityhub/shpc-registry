@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/midas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/midas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/midas/container.yaml"
-updated_at: "2022-11-08 00:00:14.428044"
+updated_at: "2022-11-09 00:06:38.404363"
 latest: "1.3.2--pyh5e36f6f_6"
 container_url: "https://biocontainers.pro/tools/midas"
 aliases:

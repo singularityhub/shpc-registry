@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cogito"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cogito/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cogito/container.yaml"
-updated_at: "2022-11-08 00:09:27.419372"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-11-09 00:19:04.321554"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cogito"
 aliases:
  - "pandoc"
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cogito"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cogito", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogito", "latest": {"1.0.0--r41hdfd78af_0": "sha256:a7e1aaae7f25d70c9e4d46e347855bff1e5ffac979d6a51e39b032cdbd3ee085"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a7e1aaae7f25d70c9e4d46e347855bff1e5ffac979d6a51e39b032cdbd3ee085"}, "docker": "quay.io/biocontainers/bioconductor-cogito", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cogito", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cogito", "latest": {"1.4.0--r42hdfd78af_0": "sha256:1297935cd8dd924372e1737219193d188e29a03b96c4e0939319cb70ca734132"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:a7e1aaae7f25d70c9e4d46e347855bff1e5ffac979d6a51e39b032cdbd3ee085", "1.4.0--r42hdfd78af_0": "sha256:1297935cd8dd924372e1737219193d188e29a03b96c4e0939319cb70ca734132"}, "docker": "quay.io/biocontainers/bioconductor-cogito", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cogito.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cogito
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cogito:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cogito:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cogito/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cogito/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cogito/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cogito/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

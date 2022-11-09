@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-ramclustr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-ramclustr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-ramclustr/container.yaml"
-updated_at: "2022-11-07 23:46:48.578838"
-latest: "1.2.4--r41h3342da4_0"
+updated_at: "2022-11-08 23:48:19.932777"
+latest: "1.2.4--r42h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-ramclustr"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "1.2.4--r41h3342da4_0"
+ - "1.2.4--r42h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-ramclustr"
-config: {"url": "https://biocontainers.pro/tools/r-ramclustr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ramclustr", "latest": {"1.2.4--r41h3342da4_0": "sha256:c593b557fc54763b6e5fd35b2e7c9f7697c887ae2fac0bd45ad758393417349c"}, "tags": {"1.2.4--r41h3342da4_0": "sha256:c593b557fc54763b6e5fd35b2e7c9f7697c887ae2fac0bd45ad758393417349c"}, "docker": "quay.io/biocontainers/r-ramclustr", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/r-ramclustr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-ramclustr", "latest": {"1.2.4--r42h3342da4_1": "sha256:0ec27a41a5b758c0337685db6a9c373dca287d37929d08b5c00b943707ec37e7"}, "tags": {"1.2.4--r41h3342da4_0": "sha256:c593b557fc54763b6e5fd35b2e7c9f7697c887ae2fac0bd45ad758393417349c", "1.2.4--r42h3342da4_1": "sha256:0ec27a41a5b758c0337685db6a9c373dca287d37929d08b5c00b943707ec37e7"}, "docker": "quay.io/biocontainers/r-ramclustr", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-ramclustr.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-ramclustr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-ramclustr:1.2.4--r41h3342da4_0
+$ shpc install quay.io/biocontainers/r-ramclustr:1.2.4--r42h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-ramclustr/1.2.4--r41h3342da4_0
-$ module help quay.io/biocontainers/r-ramclustr/1.2.4--r41h3342da4_0
+$ module load quay.io/biocontainers/r-ramclustr/1.2.4--r42h3342da4_1
+$ module help quay.io/biocontainers/r-ramclustr/1.2.4--r42h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

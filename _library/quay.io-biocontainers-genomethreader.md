@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genomethreader"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomethreader/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomethreader/container.yaml"
-updated_at: "2022-11-07 23:58:34.903130"
+updated_at: "2022-11-09 00:04:21.973645"
 latest: "1.7.1--h87f3376_4"
 container_url: "https://biocontainers.pro/tools/genomethreader"
 aliases:

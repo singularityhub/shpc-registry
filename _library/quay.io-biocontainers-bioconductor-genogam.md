@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-genogam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genogam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genogam/container.yaml"
-updated_at: "2022-11-08 00:18:46.616049"
-latest: "2.8.0--r40h399db7b_1"
+updated_at: "2022-11-09 00:31:50.197259"
+latest: "2.11.0--r41h619a076_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genogam"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r40h399db7b_1"
+ - "2.11.0--r41h619a076_1"
+ - "2.10.0--r41h399db7b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genogam"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genogam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genogam", "latest": {"2.8.0--r40h399db7b_1": "sha256:25aea260743100774e955088b36bf97dee07961fb39297d8effe4f5d1f9c642d"}, "tags": {"2.8.0--r40h399db7b_1": "sha256:25aea260743100774e955088b36bf97dee07961fb39297d8effe4f5d1f9c642d"}, "docker": "quay.io/biocontainers/bioconductor-genogam", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genogam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genogam", "latest": {"2.11.0--r41h619a076_1": "sha256:e3e5bf20282e699d17fbf5657e89a2bdf3a1820a74f67b3e1d5229ec67919007"}, "tags": {"2.8.0--r40h399db7b_1": "sha256:25aea260743100774e955088b36bf97dee07961fb39297d8effe4f5d1f9c642d", "2.11.0--r41h619a076_1": "sha256:e3e5bf20282e699d17fbf5657e89a2bdf3a1820a74f67b3e1d5229ec67919007", "2.10.0--r41h399db7b_0": "sha256:edfa41ad7908a866e81fec7f193ac5b26f8fff5026f1204cc395fbc8d90728f5"}, "docker": "quay.io/biocontainers/bioconductor-genogam", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genogam.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genogam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genogam:2.8.0--r40h399db7b_1
+$ shpc install quay.io/biocontainers/bioconductor-genogam:2.11.0--r41h619a076_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genogam/2.8.0--r40h399db7b_1
-$ module help quay.io/biocontainers/bioconductor-genogam/2.8.0--r40h399db7b_1
+$ module load quay.io/biocontainers/bioconductor-genogam/2.11.0--r41h619a076_1
+$ module help quay.io/biocontainers/bioconductor-genogam/2.11.0--r41h619a076_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

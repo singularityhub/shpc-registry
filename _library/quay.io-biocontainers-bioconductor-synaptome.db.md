@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-synaptome.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synaptome.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synaptome.db/container.yaml"
-updated_at: "2022-11-07 23:47:40.262055"
-latest: "0.99.8--r41hdfd78af_1"
+updated_at: "2022-11-08 23:49:29.048664"
+latest: "0.99.12--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synaptome.db"
 aliases:
  - ".bioconductor-synaptome.db-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "glpsol"
 versions:
  - "0.99.8--r41hdfd78af_1"
+ - "0.99.12--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-synaptome.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synaptome.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synaptome.db", "latest": {"0.99.8--r41hdfd78af_1": "sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f"}, "tags": {"0.99.8--r41hdfd78af_1": "sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f"}, "docker": "quay.io/biocontainers/bioconductor-synaptome.db", "aliases": {".bioconductor-synaptome.db-post-link.sh": "/usr/local/bin/.bioconductor-synaptome.db-post-link.sh", ".bioconductor-synaptome.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-synaptome.db-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synaptome.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synaptome.db", "latest": {"0.99.12--r42hdfd78af_0": "sha256:8f1b7fe30bb9916aacf08bc7165fde57d299081804363b4245006054bc2c7d9d"}, "tags": {"0.99.8--r41hdfd78af_1": "sha256:2d453fdef720b1037f3e36272cd38f34a4e2fc5fb2ca92011f44c271f37c063f", "0.99.12--r42hdfd78af_0": "sha256:8f1b7fe30bb9916aacf08bc7165fde57d299081804363b4245006054bc2c7d9d"}, "docker": "quay.io/biocontainers/bioconductor-synaptome.db", "aliases": {".bioconductor-synaptome.db-post-link.sh": "/usr/local/bin/.bioconductor-synaptome.db-post-link.sh", ".bioconductor-synaptome.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-synaptome.db-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synaptome.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-synaptome.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-synaptome.db:0.99.8--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-synaptome.db:0.99.12--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-synaptome.db/0.99.8--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-synaptome.db/0.99.8--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-synaptome.db/0.99.12--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-synaptome.db/0.99.12--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

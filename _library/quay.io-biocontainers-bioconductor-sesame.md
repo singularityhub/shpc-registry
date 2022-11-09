@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sesame"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sesame/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sesame/container.yaml"
-updated_at: "2022-11-08 00:02:35.882347"
-latest: "1.8.2--r40hdfd78af_0"
+updated_at: "2022-11-09 00:09:52.992530"
+latest: "1.12.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sesame"
 aliases:
  - ".bioconductor-sesamedata-post-link.sh"
@@ -13,8 +13,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.2--r40hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.3--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sesame"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sesame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sesame", "latest": {"1.8.2--r40hdfd78af_0": "sha256:4695c2afe25ac3ce5908e7f878466870d6129796f9e3d3c7bb6cfb640bcd3d25"}, "tags": {"1.8.2--r40hdfd78af_0": "sha256:4695c2afe25ac3ce5908e7f878466870d6129796f9e3d3c7bb6cfb640bcd3d25"}, "docker": "quay.io/biocontainers/bioconductor-sesame", "aliases": {".bioconductor-sesamedata-post-link.sh": "/usr/local/bin/.bioconductor-sesamedata-post-link.sh", ".bioconductor-sesamedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-sesamedata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sesame", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sesame", "latest": {"1.12.0--r41hdfd78af_0": "sha256:5c122a1473543183127a7adeb4440ff10124b6997c8476864c76b1d95e8f50ad"}, "tags": {"1.8.2--r40hdfd78af_0": "sha256:4695c2afe25ac3ce5908e7f878466870d6129796f9e3d3c7bb6cfb640bcd3d25", "1.12.0--r41hdfd78af_0": "sha256:5c122a1473543183127a7adeb4440ff10124b6997c8476864c76b1d95e8f50ad", "1.10.3--r41hdfd78af_0": "sha256:007b12a01e3653b2aedf514cbd0b94dd73fa1e7f259f1ef1adb5c031d77b14d4"}, "docker": "quay.io/biocontainers/bioconductor-sesame", "aliases": {".bioconductor-sesamedata-post-link.sh": "/usr/local/bin/.bioconductor-sesamedata-post-link.sh", ".bioconductor-sesamedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-sesamedata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sesame.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sesame
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sesame:1.8.2--r40hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-sesame:1.12.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sesame/1.8.2--r40hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-sesame/1.8.2--r40hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-sesame/1.12.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sesame/1.12.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

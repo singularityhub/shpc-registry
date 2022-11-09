@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-systempiperdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-systempiperdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-systempiperdata/container.yaml"
-updated_at: "2022-11-07 23:44:01.480162"
+updated_at: "2022-11-08 23:44:37.526883"
 latest: "1.22.3--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-systempiperdata"
 aliases:

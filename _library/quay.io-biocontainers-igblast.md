@@ -4,14 +4,18 @@ name:  "quay.io/biocontainers/igblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/igblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/igblast/container.yaml"
-updated_at: "2022-11-08 00:02:32.579869"
-latest: "1.9.0--hab87656_0"
+updated_at: "2022-11-09 00:09:48.561544"
+latest: "1.19.0--pl5321h3928612_0"
 container_url: "https://biocontainers.pro/tools/igblast"
 
 versions:
  - "1.9.0--hab87656_0"
+ - "1.19.0--pl5321h3928612_0"
+ - "1.17.1--pl5321h3928612_1"
+ - "1.15.0--h18cd00f_0"
+ - "1.10.0--h6ac72b6_1"
 description: "shpc-registry automated BioContainers addition for igblast"
-config: {"url": "https://biocontainers.pro/tools/igblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igblast", "latest": {"1.9.0--hab87656_0": "sha256:2253ac59f465ec415feede6a43b244fd7ed36a1ded3263603b5ea43be3cb2fed"}, "tags": {"1.9.0--hab87656_0": "sha256:2253ac59f465ec415feede6a43b244fd7ed36a1ded3263603b5ea43be3cb2fed"}, "docker": "quay.io/biocontainers/igblast"}
+config: {"url": "https://biocontainers.pro/tools/igblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for igblast", "latest": {"1.19.0--pl5321h3928612_0": "sha256:0cc5a7bd4b964ccd096fdd91a843abf14cd5f1a0b14b40eb964442e501841621"}, "tags": {"1.9.0--hab87656_0": "sha256:2253ac59f465ec415feede6a43b244fd7ed36a1ded3263603b5ea43be3cb2fed", "1.19.0--pl5321h3928612_0": "sha256:0cc5a7bd4b964ccd096fdd91a843abf14cd5f1a0b14b40eb964442e501841621", "1.17.1--pl5321h3928612_1": "sha256:9e268b2be74b82a7fc6297c86ed4fca244ceae4e290c25df734c4d1cbc6962e3", "1.15.0--h18cd00f_0": "sha256:13eba2ad6d1a9d500d84beb1eeb51c8341b2c3b3b6279bdc86dc81955c347c31", "1.10.0--h6ac72b6_1": "sha256:fe26238d113f5abc6ce3c34c6a336e0286f90fb32a4ef4362a13daba88f222f3"}, "docker": "quay.io/biocontainers/igblast"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/igblast.
@@ -26,7 +30,7 @@ $ shpc install quay.io/biocontainers/igblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/igblast:1.9.0--hab87656_0
+$ shpc install quay.io/biocontainers/igblast:1.19.0--pl5321h3928612_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/igblast/1.9.0--hab87656_0
-$ module help quay.io/biocontainers/igblast/1.9.0--hab87656_0
+$ module load quay.io/biocontainers/igblast/1.19.0--pl5321h3928612_0
+$ module help quay.io/biocontainers/igblast/1.19.0--pl5321h3928612_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

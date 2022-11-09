@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ricecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ricecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ricecdf/container.yaml"
-updated_at: "2022-11-08 00:35:17.694548"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-09 00:54:23.719738"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-ricecdf"
 aliases:
  - ".bioconductor-ricecdf-post-link.sh"
  - ".bioconductor-ricecdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-ricecdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ricecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ricecdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:76e10389f9fd63d4f9000f70333800dcd67d374042b6b5df2a4d89ab3876288e"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:76e10389f9fd63d4f9000f70333800dcd67d374042b6b5df2a4d89ab3876288e"}, "docker": "quay.io/biocontainers/bioconductor-ricecdf", "aliases": {".bioconductor-ricecdf-post-link.sh": "/usr/local/bin/.bioconductor-ricecdf-post-link.sh", ".bioconductor-ricecdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-ricecdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ricecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ricecdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:43b1d6968b8e7b608d06359b81b9efd617b9b04add165f84c8a1d19f7ee1d548"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:76e10389f9fd63d4f9000f70333800dcd67d374042b6b5df2a4d89ab3876288e", "2.18.0--r42hdfd78af_10": "sha256:43b1d6968b8e7b608d06359b81b9efd617b9b04add165f84c8a1d19f7ee1d548"}, "docker": "quay.io/biocontainers/bioconductor-ricecdf", "aliases": {".bioconductor-ricecdf-post-link.sh": "/usr/local/bin/.bioconductor-ricecdf-post-link.sh", ".bioconductor-ricecdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-ricecdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ricecdf.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ricecdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ricecdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-ricecdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ricecdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-ricecdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-ricecdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-ricecdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

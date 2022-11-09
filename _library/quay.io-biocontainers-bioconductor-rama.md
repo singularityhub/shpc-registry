@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rama"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rama/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rama/container.yaml"
-updated_at: "2022-11-08 00:22:53.576510"
-latest: "1.68.0--r41hc0cfd56_2"
+updated_at: "2022-11-09 00:37:25.878209"
+latest: "1.72.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rama"
 
 versions:
  - "1.68.0--r41hc0cfd56_2"
+ - "1.72.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rama"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rama", "latest": {"1.68.0--r41hc0cfd56_2": "sha256:31d2c232e93d19a63983fc5dda4b325a1de1b033d789c4a25fd9be630b73129e"}, "tags": {"1.68.0--r41hc0cfd56_2": "sha256:31d2c232e93d19a63983fc5dda4b325a1de1b033d789c4a25fd9be630b73129e"}, "docker": "quay.io/biocontainers/bioconductor-rama"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rama", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rama", "latest": {"1.72.0--r42hc0cfd56_0": "sha256:e65e8ed776e829fde5b5ebc0f72f20370319818c0dc2f2f2f88ef3243a6731f5"}, "tags": {"1.68.0--r41hc0cfd56_2": "sha256:31d2c232e93d19a63983fc5dda4b325a1de1b033d789c4a25fd9be630b73129e", "1.72.0--r42hc0cfd56_0": "sha256:e65e8ed776e829fde5b5ebc0f72f20370319818c0dc2f2f2f88ef3243a6731f5"}, "docker": "quay.io/biocontainers/bioconductor-rama"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rama.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rama
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rama:1.68.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-rama:1.72.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rama/1.68.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-rama/1.68.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-rama/1.72.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-rama/1.72.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

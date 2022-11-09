@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/container.yaml"
-updated_at: "2022-11-08 00:25:16.378853"
-latest: "8.8.0--r41hdfd78af_1"
+updated_at: "2022-11-09 00:40:41.051381"
+latest: "8.8.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-clariomdhumanprobeset.db"
 aliases:
  - ".bioconductor-clariomdhumanprobeset.db-post-link.sh"
  - ".bioconductor-clariomdhumanprobeset.db-pre-unlink.sh"
 versions:
  - "8.8.0--r41hdfd78af_1"
+ - "8.8.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-clariomdhumanprobeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-clariomdhumanprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clariomdhumanprobeset.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:d47880b8f643a2874c3c08e624c3f26dcdcc3d7a2da206edc55cb83d1149e746"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:d47880b8f643a2874c3c08e624c3f26dcdcc3d7a2da206edc55cb83d1149e746"}, "docker": "quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db", "aliases": {".bioconductor-clariomdhumanprobeset.db-post-link.sh": "/usr/local/bin/.bioconductor-clariomdhumanprobeset.db-post-link.sh", ".bioconductor-clariomdhumanprobeset.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-clariomdhumanprobeset.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-clariomdhumanprobeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-clariomdhumanprobeset.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:336f059a64768bc7c64ff411ea90ee61a6e68e98e399716e3fc707bcc99eb91f"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:d47880b8f643a2874c3c08e624c3f26dcdcc3d7a2da206edc55cb83d1149e746", "8.8.0--r42hdfd78af_2": "sha256:336f059a64768bc7c64ff411ea90ee61a6e68e98e399716e3fc707bcc99eb91f"}, "docker": "quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db", "aliases": {".bioconductor-clariomdhumanprobeset.db-post-link.sh": "/usr/local/bin/.bioconductor-clariomdhumanprobeset.db-post-link.sh", ".bioconductor-clariomdhumanprobeset.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-clariomdhumanprobeset.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db:8.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db:8.8.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/8.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/8.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/8.8.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-clariomdhumanprobeset.db/8.8.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

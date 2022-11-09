@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cytokernel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cytokernel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cytokernel/container.yaml"
-updated_at: "2022-11-07 23:57:00.656070"
-latest: "1.0.0--r41hc247a5b_2"
+updated_at: "2022-11-09 00:02:11.892875"
+latest: "1.4.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cytokernel"
 
 versions:
  - "1.0.0--r41hc247a5b_2"
+ - "1.4.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cytokernel"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cytokernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytokernel", "latest": {"1.0.0--r41hc247a5b_2": "sha256:8096ffe932d2046d6b09407a7c570af1303d220271845d27133be8c728ccd557"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:8096ffe932d2046d6b09407a7c570af1303d220271845d27133be8c728ccd557"}, "docker": "quay.io/biocontainers/bioconductor-cytokernel"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cytokernel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cytokernel", "latest": {"1.4.0--r42hc247a5b_0": "sha256:6d8639891afc5fb013f31cc8ea96e58ce23ec5010f835e4d5934115f29ffff07"}, "tags": {"1.0.0--r41hc247a5b_2": "sha256:8096ffe932d2046d6b09407a7c570af1303d220271845d27133be8c728ccd557", "1.4.0--r42hc247a5b_0": "sha256:6d8639891afc5fb013f31cc8ea96e58ce23ec5010f835e4d5934115f29ffff07"}, "docker": "quay.io/biocontainers/bioconductor-cytokernel"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cytokernel.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cytokernel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cytokernel:1.0.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-cytokernel:1.4.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cytokernel/1.0.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-cytokernel/1.0.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-cytokernel/1.4.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cytokernel/1.4.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

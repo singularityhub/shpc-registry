@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-granulator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-granulator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-granulator/container.yaml"
-updated_at: "2022-11-07 23:46:23.378595"
+updated_at: "2022-11-08 23:47:46.318013"
 latest: "1.2.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-granulator"
 aliases:

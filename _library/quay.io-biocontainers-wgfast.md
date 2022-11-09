@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/wgfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wgfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wgfast/container.yaml"
-updated_at: "2022-11-08 00:25:33.186492"
+updated_at: "2022-11-09 00:41:04.040720"
 latest: "1.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/wgfast"
 

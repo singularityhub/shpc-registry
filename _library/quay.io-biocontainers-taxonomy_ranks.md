@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taxonomy_ranks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taxonomy_ranks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taxonomy_ranks/container.yaml"
-updated_at: "2022-11-08 00:12:01.546794"
-latest: "0.0.8--py_0"
+updated_at: "2022-11-09 00:22:33.081423"
+latest: "0.0.10--py_0"
 container_url: "https://biocontainers.pro/tools/taxonomy_ranks"
 aliases:
  - "taxaranks"
@@ -21,8 +21,9 @@ aliases:
  - "pk12util"
 versions:
  - "0.0.8--py_0"
+ - "0.0.10--py_0"
 description: "shpc-registry automated BioContainers addition for taxonomy_ranks"
-config: {"url": "https://biocontainers.pro/tools/taxonomy_ranks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxonomy_ranks", "latest": {"0.0.8--py_0": "sha256:3c201ed7dcd4967231596cf293e82cd2d7123ce59591dbe316db1d9618e9c23b"}, "tags": {"0.0.8--py_0": "sha256:3c201ed7dcd4967231596cf293e82cd2d7123ce59591dbe316db1d9618e9c23b"}, "docker": "quay.io/biocontainers/taxonomy_ranks", "aliases": {"taxaranks": "/usr/local/bin/taxaranks", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
+config: {"url": "https://biocontainers.pro/tools/taxonomy_ranks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taxonomy_ranks", "latest": {"0.0.10--py_0": "sha256:1b7c283c8fbf1dc2bc533aace68c0374c8b8222f608203f089577ad262a43921"}, "tags": {"0.0.8--py_0": "sha256:3c201ed7dcd4967231596cf293e82cd2d7123ce59591dbe316db1d9618e9c23b", "0.0.10--py_0": "sha256:1b7c283c8fbf1dc2bc533aace68c0374c8b8222f608203f089577ad262a43921"}, "docker": "quay.io/biocontainers/taxonomy_ranks", "aliases": {"taxaranks": "/usr/local/bin/taxaranks", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config", "pk12util": "/usr/local/bin/pk12util"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taxonomy_ranks.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/taxonomy_ranks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taxonomy_ranks:0.0.8--py_0
+$ shpc install quay.io/biocontainers/taxonomy_ranks:0.0.10--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taxonomy_ranks/0.0.8--py_0
-$ module help quay.io/biocontainers/taxonomy_ranks/0.0.8--py_0
+$ module load quay.io/biocontainers/taxonomy_ranks/0.0.10--py_0
+$ module help quay.io/biocontainers/taxonomy_ranks/0.0.10--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

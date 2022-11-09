@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-impulsede2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-impulsede2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-impulsede2/container.yaml"
-updated_at: "2022-11-08 00:38:10.173841"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-09 00:58:19.187435"
+latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-impulsede2"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,10 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.11.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-impulsede2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-impulsede2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-impulsede2", "latest": {"1.8.0--r36_1": "sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0"}, "tags": {"1.8.0--r36_1": "sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0"}, "docker": "quay.io/biocontainers/bioconductor-impulsede2", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-impulsede2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-impulsede2", "latest": {"1.11.0--r40_0": "sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87"}, "tags": {"1.8.0--r36_1": "sha256:156cc5c9d1615d846ad01625f9225c011d5980ca41e30966e6a3abe5bba23df0", "1.11.0--r40_0": "sha256:06a000c0380739a8e607ff92c853e80f290c2ca55242f54c8a3a0fc813f5cf87", "1.10.0--r36_0": "sha256:6b45ae1f747d3a096ed2b7c682d57275b0d3efd55ffd556ab5fcb5c8195e97c1"}, "docker": "quay.io/biocontainers/bioconductor-impulsede2", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-impulsede2.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-impulsede2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-impulsede2:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-impulsede2:1.11.0--r40_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-impulsede2/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-impulsede2/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-impulsede2/1.11.0--r40_0
+$ module help quay.io/biocontainers/bioconductor-impulsede2/1.11.0--r40_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-damefinder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-damefinder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-damefinder/container.yaml"
-updated_at: "2022-11-08 00:33:41.148485"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-09 00:52:11.931918"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-damefinder"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-damefinder"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-damefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-damefinder", "latest": {"1.6.0--r41hdfd78af_0": "sha256:65dc271d5151bd851e87c58be7f3171d7242300a18cbd8a0e655e902548ca66e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:65dc271d5151bd851e87c58be7f3171d7242300a18cbd8a0e655e902548ca66e"}, "docker": "quay.io/biocontainers/bioconductor-damefinder"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-damefinder", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-damefinder", "latest": {"1.10.0--r42hdfd78af_0": "sha256:346a98fedd0c118c764eb94f68252d0f8cb6c32712aafa8307043239c9f86280"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:65dc271d5151bd851e87c58be7f3171d7242300a18cbd8a0e655e902548ca66e", "1.10.0--r42hdfd78af_0": "sha256:346a98fedd0c118c764eb94f68252d0f8cb6c32712aafa8307043239c9f86280"}, "docker": "quay.io/biocontainers/bioconductor-damefinder"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-damefinder.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-damefinder
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-damefinder:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-damefinder:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-damefinder/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-damefinder/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-damefinder/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-damefinder/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

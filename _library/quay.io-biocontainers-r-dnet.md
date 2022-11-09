@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-dnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dnet/container.yaml"
-updated_at: "2022-11-07 23:44:26.081811"
-latest: "1.1.7--r41h3342da4_3"
+updated_at: "2022-11-08 23:45:10.237962"
+latest: "1.1.7--r42h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-dnet"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.7--r41h3342da4_3"
+ - "1.1.7--r42h3342da4_4"
 description: "shpc-registry automated BioContainers addition for r-dnet"
-config: {"url": "https://biocontainers.pro/tools/r-dnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dnet", "latest": {"1.1.7--r41h3342da4_3": "sha256:01cfc7637677e1abaa2c9ff1e1f6de7f13819a21131ed4deb7658488da4fb5f5"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:01cfc7637677e1abaa2c9ff1e1f6de7f13819a21131ed4deb7658488da4fb5f5"}, "docker": "quay.io/biocontainers/r-dnet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-dnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dnet", "latest": {"1.1.7--r42h3342da4_4": "sha256:b9a3178e1e773c517bf6836bfd36ed394ccfa6c20ac4ce5a3eb09dbe46980105"}, "tags": {"1.1.7--r41h3342da4_3": "sha256:01cfc7637677e1abaa2c9ff1e1f6de7f13819a21131ed4deb7658488da4fb5f5", "1.1.7--r42h3342da4_4": "sha256:b9a3178e1e773c517bf6836bfd36ed394ccfa6c20ac4ce5a3eb09dbe46980105"}, "docker": "quay.io/biocontainers/r-dnet", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dnet.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-dnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dnet:1.1.7--r41h3342da4_3
+$ shpc install quay.io/biocontainers/r-dnet:1.1.7--r42h3342da4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dnet/1.1.7--r41h3342da4_3
-$ module help quay.io/biocontainers/r-dnet/1.1.7--r41h3342da4_3
+$ module load quay.io/biocontainers/r-dnet/1.1.7--r42h3342da4_4
+$ module help quay.io/biocontainers/r-dnet/1.1.7--r42h3342da4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

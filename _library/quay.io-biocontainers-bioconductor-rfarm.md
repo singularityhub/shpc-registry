@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rfarm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rfarm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rfarm/container.yaml"
-updated_at: "2022-11-08 00:22:04.583973"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-09 00:36:18.090157"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rfarm"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -20,8 +20,9 @@ aliases:
  - "identify"
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rfarm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rfarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfarm", "latest": {"1.6.0--r41hdfd78af_0": "sha256:1e829fff8580c39c228a0fb8fada8f02b5adedf2405fc2c9b9aa823da1d2d50b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:1e829fff8580c39c228a0fb8fada8f02b5adedf2405fc2c9b9aa823da1d2d50b"}, "docker": "quay.io/biocontainers/bioconductor-rfarm", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rfarm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rfarm", "latest": {"1.10.0--r42hdfd78af_0": "sha256:636128c1415b7549f94f5bf71d9cd532d75d3739d2aafdcd79ae0607fcba4c1f"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:1e829fff8580c39c228a0fb8fada8f02b5adedf2405fc2c9b9aa823da1d2d50b", "1.10.0--r42hdfd78af_0": "sha256:636128c1415b7549f94f5bf71d9cd532d75d3739d2aafdcd79ae0607fcba4c1f"}, "docker": "quay.io/biocontainers/bioconductor-rfarm", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rfarm.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rfarm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rfarm:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-rfarm:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rfarm/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-rfarm/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-rfarm/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rfarm/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
