@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-spsimseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spsimseq
 latest:
-  1.4.0--r41hdfd78af_0: sha256:19114b9bc419dfe5ed3dca677933b5259fa7b360078db947dd80e4efa7272373
+  1.8.0--r42hdfd78af_0: sha256:eac076f53a3593479c50725bd0b8dd99329d4e0f3d9d052b3fdad7d86d15b56d
 tags:
   1.4.0--r41hdfd78af_0: sha256:19114b9bc419dfe5ed3dca677933b5259fa7b360078db947dd80e4efa7272373
+  1.8.0--r42hdfd78af_0: sha256:eac076f53a3593479c50725bd0b8dd99329d4e0f3d9d052b3fdad7d86d15b56d
 docker: quay.io/biocontainers/bioconductor-spsimseq

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-plasfia
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-plasfia
 latest:
-  1.22.0--r41hdfd78af_1: sha256:297d7d15b57bf8d412234abeb7f647749e54d93e77971c793b4a9ac43a516d2f
+  1.26.0--r42hdfd78af_0: sha256:0c786b156817e633082294751da0138b10afaf4580d8047eee350c15d9c06c41
 tags:
   1.22.0--r41hdfd78af_1: sha256:297d7d15b57bf8d412234abeb7f647749e54d93e77971c793b4a9ac43a516d2f
+  1.26.0--r42hdfd78af_0: sha256:0c786b156817e633082294751da0138b10afaf4580d8047eee350c15d9c06c41
 docker: quay.io/biocontainers/bioconductor-plasfia
 aliases:
   .bioconductor-plasfia-post-link.sh: /usr/local/bin/.bioconductor-plasfia-post-link.sh

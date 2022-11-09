@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/nextstrain-cli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for nextstrain-cli
 latest:
-  4.2.0--pyhdfd78af_1: sha256:71902449c6f452deb519f63a161f24453565bbc3caad0344b24bb7da8fa2db2f
+  5.0.1--pyhdfd78af_0: sha256:a7fd5d87d83fd364f6d045b2c704aed26bfbeecdf5eac3b6fc631bd1de67341b
 tags:
   4.2.0--pyhdfd78af_1: sha256:71902449c6f452deb519f63a161f24453565bbc3caad0344b24bb7da8fa2db2f
+  5.0.1--pyhdfd78af_0: sha256:a7fd5d87d83fd364f6d045b2c704aed26bfbeecdf5eac3b6fc631bd1de67341b
 docker: quay.io/biocontainers/nextstrain-cli
 aliases:
   nextstrain: /usr/local/bin/nextstrain

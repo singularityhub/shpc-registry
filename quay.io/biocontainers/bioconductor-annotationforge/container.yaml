@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-annotationforge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-annotationforge
 latest:
-  1.36.0--r41hdfd78af_0: sha256:e75c5fed340242f3096f61b9e9760f9a8e1c1334ff902d0a6336ce4cf07ccb63
+  1.40.0--r42hdfd78af_0: sha256:6084b2a6b10bc6a6bc5c199cff146188c159595f85186df946dd51f585655a99
 tags:
   1.36.0--r41hdfd78af_0: sha256:e75c5fed340242f3096f61b9e9760f9a8e1c1334ff902d0a6336ce4cf07ccb63
+  1.40.0--r42hdfd78af_0: sha256:6084b2a6b10bc6a6bc5c199cff146188c159595f85186df946dd51f585655a99
 docker: quay.io/biocontainers/bioconductor-annotationforge

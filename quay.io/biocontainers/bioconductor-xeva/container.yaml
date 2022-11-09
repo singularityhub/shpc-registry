@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-xeva
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xeva
 latest:
-  1.8.0--r41hdfd78af_0: sha256:43eac95eb0c459a53ea934b8255163e5ce36e52f34fbcd569b01f07e50d9b518
+  1.14.0--r42hdfd78af_0: sha256:036f7d52714230230f72de6df4c18e80ad4327ba0d65140292937406fd0e0458
 tags:
   1.8.0--r41hdfd78af_0: sha256:43eac95eb0c459a53ea934b8255163e5ce36e52f34fbcd569b01f07e50d9b518
+  1.14.0--r42hdfd78af_0: sha256:036f7d52714230230f72de6df4c18e80ad4327ba0d65140292937406fd0e0458
+  1.10.0--r41hdfd78af_0: sha256:e9d26fab3f7269e6e5d3d86a8d1ba6422ca4dcf9294c0cab98fed6eb0e8d3122
 docker: quay.io/biocontainers/bioconductor-xeva
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

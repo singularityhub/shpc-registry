@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-elmer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-elmer
 latest:
-  2.9.5--r36_1: sha256:8ee90501c93ed9cca858f0f141720140b78180d0eaa9541d4579fec8b595605c
+  2.18.0--r41hdfd78af_0: sha256:3294c57ff78dee748fc5c7750b8a0d5675ff6d8a0103512e16eb1adb5606712e
 tags:
   2.9.5--r36_1: sha256:8ee90501c93ed9cca858f0f141720140b78180d0eaa9541d4579fec8b595605c
+  2.18.0--r41hdfd78af_0: sha256:3294c57ff78dee748fc5c7750b8a0d5675ff6d8a0103512e16eb1adb5606712e
+  2.16.0--r41hdfd78af_0: sha256:889d836ae363ee146580dbafa83f1c38d2f6c50fb909955fe1fc1554fe168257
+  2.14.0--r40hdfd78af_1: sha256:7bc4aa9d8f3ef21feb81bc6445c270659f2c4a4898b54804dec9433462176d8c
+  2.12.0--r40_0: sha256:df5a876b098564f58ce1c45d6ec91d06119af1776978be1f2e8b7747569c920c
 docker: quay.io/biocontainers/bioconductor-elmer
 aliases:
   .bioconductor-elmer.data-post-link.sh: /usr/local/bin/.bioconductor-elmer.data-post-link.sh

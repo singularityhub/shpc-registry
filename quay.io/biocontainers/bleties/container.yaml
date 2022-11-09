@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bleties
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bleties
 latest:
-  0.1.9--pyhdfd78af_0: sha256:15d5ec60cc4117788297db9e6a3d07c1a508ff6e6a947a1c27a0d8bf240ef22d
+  0.1.11--pyhdfd78af_1: sha256:4baecaeab13e9c7071868250cd8cd30873109bf264ac0fa7a26f5e5ff1ee3def
 tags:
   0.1.9--pyhdfd78af_0: sha256:15d5ec60cc4117788297db9e6a3d07c1a508ff6e6a947a1c27a0d8bf240ef22d
+  0.1.11--pyhdfd78af_1: sha256:4baecaeab13e9c7071868250cd8cd30873109bf264ac0fa7a26f5e5ff1ee3def
 docker: quay.io/biocontainers/bleties
 aliases:
   NCRF: /usr/local/bin/NCRF

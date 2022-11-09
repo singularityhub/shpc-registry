@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-ahpathbankdbs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ahpathbankdbs
 latest:
-  0.99.5--r41hdfd78af_2: sha256:567ecb8989f79ce36d7cce929135cee42fc9289e1bcf7df406cd9caec8696069
+  0.99.5--r42hdfd78af_3: sha256:93e11561c0a63f098edcf79713b48b3feb8ff32eb22315601f40298268dc77b5
 tags:
   0.99.5--r41hdfd78af_2: sha256:567ecb8989f79ce36d7cce929135cee42fc9289e1bcf7df406cd9caec8696069
+  0.99.5--r42hdfd78af_3: sha256:93e11561c0a63f098edcf79713b48b3feb8ff32eb22315601f40298268dc77b5
 docker: quay.io/biocontainers/bioconductor-ahpathbankdbs
 aliases:
   .bioconductor-ahpathbankdbs-post-link.sh: /usr/local/bin/.bioconductor-ahpathbankdbs-post-link.sh

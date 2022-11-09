@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-scaledmatrix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scaledmatrix
 latest:
-  1.2.0--r41hdfd78af_0: sha256:29b0c7f54a0e6801d4174310c076d17f68a54bbf74811b0e6de77bccd4424192
+  1.6.0--r42hdfd78af_0: sha256:b6cd2b6a53706ac710b8449501c95bcbc293193e5e9dc93fd8227101a508246a
 tags:
   1.2.0--r41hdfd78af_0: sha256:29b0c7f54a0e6801d4174310c076d17f68a54bbf74811b0e6de77bccd4424192
+  1.6.0--r42hdfd78af_0: sha256:b6cd2b6a53706ac710b8449501c95bcbc293193e5e9dc93fd8227101a508246a
 docker: quay.io/biocontainers/bioconductor-scaledmatrix

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gseabase
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gseabase
 latest:
-  1.56.0--r41hdfd78af_0: sha256:7c6f35899aaf29007ab48d1318fc520cb962b318087b28ffcf47334307044802
+  1.60.0--r42hdfd78af_0: sha256:f60024cc99a506b35159fc3eed41ad2a19889a7da2f2e032e946b04457f07e59
 tags:
   1.56.0--r41hdfd78af_0: sha256:7c6f35899aaf29007ab48d1318fc520cb962b318087b28ffcf47334307044802
+  1.60.0--r42hdfd78af_0: sha256:f60024cc99a506b35159fc3eed41ad2a19889a7da2f2e032e946b04457f07e59
 docker: quay.io/biocontainers/bioconductor-gseabase
