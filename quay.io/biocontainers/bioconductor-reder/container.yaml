@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-reder
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-reder
 latest:
-  1.42.0--r41hdfd78af_0: sha256:9d44392aa5467d308688fbd4b58d39b3472d837ff9c04c82182014f932b732de
+  2.2.0--r42hdfd78af_0: sha256:df9182a693ad3d54901ba5c8b43d0ca04f4ec5d7229b3d032ff0611f344bfeb4
 tags:
   1.42.0--r41hdfd78af_0: sha256:9d44392aa5467d308688fbd4b58d39b3472d837ff9c04c82182014f932b732de
+  2.2.0--r42hdfd78af_0: sha256:df9182a693ad3d54901ba5c8b43d0ca04f4ec5d7229b3d032ff0611f344bfeb4
 docker: quay.io/biocontainers/bioconductor-reder

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-illumina450probevariants.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-illumina450probevariants.db
 latest:
-  1.30.0--r41hdfd78af_1: sha256:9e46aea5ff59ce784072d181b0c2d5192689ab39808dceecc76d1cab7c1e9a41
+  1.33.0--r42hdfd78af_0: sha256:a370ea6e619ccdea4b3a70d6d6715ee0c301b0421012db0848f593e1e345340e
 tags:
   1.30.0--r41hdfd78af_1: sha256:9e46aea5ff59ce784072d181b0c2d5192689ab39808dceecc76d1cab7c1e9a41
+  1.33.0--r42hdfd78af_0: sha256:a370ea6e619ccdea4b3a70d6d6715ee0c301b0421012db0848f593e1e345340e
 docker: quay.io/biocontainers/bioconductor-illumina450probevariants.db
 aliases:
   .bioconductor-illumina450probevariants.db-post-link.sh: /usr/local/bin/.bioconductor-illumina450probevariants.db-post-link.sh

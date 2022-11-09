@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-msstatsqcgui
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msstatsqcgui
 latest:
-  1.8.0--r40_0: sha256:cc54b9400b1b94792ec23aeb54a20f3fc23c7fd0112daad570ffa93889ec7fba
+  1.18.0--r42hdfd78af_0: sha256:cff1ff256b42c59bbc6ce6478c753266e13140d8c4c4bbc6da15f1f8985f870c
 tags:
   1.8.0--r40_0: sha256:cc54b9400b1b94792ec23aeb54a20f3fc23c7fd0112daad570ffa93889ec7fba
+  1.18.0--r42hdfd78af_0: sha256:cff1ff256b42c59bbc6ce6478c753266e13140d8c4c4bbc6da15f1f8985f870c
+  1.14.0--r41hdfd78af_0: sha256:b8df5cc71e308278801454117ee16c4ac04138e1ee58533206beffe63cc00397
+  1.12.0--r41hdfd78af_0: sha256:7d9b9da17a0fd0ae812893474f1b6813cca4e629ab7e522650766df2f94ba7f9
+  1.10.0--r40hdfd78af_1: sha256:3f728102e06752bab9d12ea3b992b2cb1045b2b195c31c8bf6dd3863cda9094a
 docker: quay.io/biocontainers/bioconductor-msstatsqcgui
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

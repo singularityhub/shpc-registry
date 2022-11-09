@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-plotgardener
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-plotgardener
 latest:
-  1.0.17--r41hc247a5b_0: sha256:f02fcfd4e1d44377d8acc143955341d62f8f8945114f650256d04031b8d4a5a7
+  1.4.1--r42hc247a5b_0: sha256:87c218468d6866fdd01a8593a8c6fabe896542a643fe556ff25fe9e7efc4cccb
 tags:
   1.0.17--r41hc247a5b_0: sha256:f02fcfd4e1d44377d8acc143955341d62f8f8945114f650256d04031b8d4a5a7
+  1.4.1--r42hc247a5b_0: sha256:87c218468d6866fdd01a8593a8c6fabe896542a643fe556ff25fe9e7efc4cccb
 docker: quay.io/biocontainers/bioconductor-plotgardener

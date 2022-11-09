@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-diffgeneanalysis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-diffgeneanalysis
 latest:
-  1.76.0--r41hdfd78af_0: sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5
+  1.80.0--r42hdfd78af_0: sha256:6316567d8466ffeeea091ded1e6c05ee883cc17a522d293bbc6ad4788ed605d6
 tags:
   1.76.0--r41hdfd78af_0: sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5
+  1.80.0--r42hdfd78af_0: sha256:6316567d8466ffeeea091ded1e6c05ee883cc17a522d293bbc6ad4788ed605d6
 docker: quay.io/biocontainers/bioconductor-diffgeneanalysis

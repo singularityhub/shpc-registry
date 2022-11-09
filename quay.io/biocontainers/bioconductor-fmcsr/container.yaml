@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-fmcsr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fmcsr
 latest:
-  1.36.0--r41hc247a5b_2: sha256:042cde91e3d0b262e80e0852d811d3d465c90417fe2a34329529ec214b212e12
+  1.40.0--r42hc247a5b_0: sha256:3ec1e4bfb931bf792aa5b853e75e9f63398c7de2795533c7f5a13f77069ea4ee
 tags:
   1.36.0--r41hc247a5b_2: sha256:042cde91e3d0b262e80e0852d811d3d465c90417fe2a34329529ec214b212e12
+  1.40.0--r42hc247a5b_0: sha256:3ec1e4bfb931bf792aa5b853e75e9f63398c7de2795533c7f5a13f77069ea4ee
 docker: quay.io/biocontainers/bioconductor-fmcsr
 aliases:
   rsvg-convert: /usr/local/bin/rsvg-convert

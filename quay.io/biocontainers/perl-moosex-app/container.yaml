@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/perl-moosex-app
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-moosex-app
 latest:
-  1.42--pl5321hdfd78af_0: sha256:401759371036b24bf55e455a8e52ff45e261baddab52c7105a91c66af949984b
+  1.3701--pl526_2: sha256:06b63a3f8c024c61a0af0beee7da67a93343a0f6df474ad8166822745970099e
 tags:
   1.42--pl5321hdfd78af_0: sha256:401759371036b24bf55e455a8e52ff45e261baddab52c7105a91c66af949984b
+  1.3701--pl526_2: sha256:06b63a3f8c024c61a0af0beee7da67a93343a0f6df474ad8166822745970099e
 docker: quay.io/biocontainers/perl-moosex-app
