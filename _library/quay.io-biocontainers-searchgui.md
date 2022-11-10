@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/searchgui"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/searchgui/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/searchgui/container.yaml"
-updated_at: "2022-11-09 00:03:09.423852"
-latest: "3.3.9--1"
+updated_at: "2022-11-09 23:47:21.748238"
+latest: "3.3.10--h470a237_0"
 container_url: "https://biocontainers.pro/tools/searchgui"
 aliases:
  - "csc"
@@ -30,8 +30,9 @@ aliases:
  - "certmgr"
 versions:
  - "3.3.9--1"
+ - "3.3.10--h470a237_0"
 description: "shpc-registry automated BioContainers addition for searchgui"
-config: {"url": "https://biocontainers.pro/tools/searchgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for searchgui", "latest": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce"}, "tags": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce"}, "docker": "quay.io/biocontainers/searchgui", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "searchgui": "/usr/local/bin/searchgui", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
+config: {"url": "https://biocontainers.pro/tools/searchgui", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for searchgui", "latest": {"3.3.10--h470a237_0": "sha256:4da9144fdc9d12215e928886934c02c4a15a4342f131bc8607fd4357ddd1eb8a"}, "tags": {"3.3.9--1": "sha256:aa164bf07a166fcc397a07cd5d9b51df9162a3253ea9ab0bbabcac420a3cdbce", "3.3.10--h470a237_0": "sha256:4da9144fdc9d12215e928886934c02c4a15a4342f131bc8607fd4357ddd1eb8a"}, "docker": "quay.io/biocontainers/searchgui", "aliases": {"csc": "/usr/local/bin/csc", "csc-dim": "/usr/local/bin/csc-dim", "csi": "/usr/local/bin/csi", "illinkanalyzer": "/usr/local/bin/illinkanalyzer", "monograph": "/usr/local/bin/monograph", "nunit-console": "/usr/local/bin/nunit-console", "nunit-console2": "/usr/local/bin/nunit-console2", "nunit-console4": "/usr/local/bin/nunit-console4", "searchgui": "/usr/local/bin/searchgui", "vbc": "/usr/local/bin/vbc", "mono-package-runtime": "/usr/local/bin/mono-package-runtime", "sgen-grep-binprot": "/usr/local/bin/sgen-grep-binprot", "al": "/usr/local/bin/al", "al2": "/usr/local/bin/al2", "caspol": "/usr/local/bin/caspol", "cccheck": "/usr/local/bin/cccheck", "ccrewrite": "/usr/local/bin/ccrewrite", "cert-sync": "/usr/local/bin/cert-sync", "cert2spc": "/usr/local/bin/cert2spc", "certmgr": "/usr/local/bin/certmgr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/searchgui.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/searchgui
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/searchgui:3.3.9--1
+$ shpc install quay.io/biocontainers/searchgui:3.3.10--h470a237_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/searchgui/3.3.9--1
-$ module help quay.io/biocontainers/searchgui/3.3.9--1
+$ module load quay.io/biocontainers/searchgui/3.3.10--h470a237_0
+$ module help quay.io/biocontainers/searchgui/3.3.10--h470a237_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

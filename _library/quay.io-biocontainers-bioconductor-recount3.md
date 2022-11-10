@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-recount3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-recount3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-recount3/container.yaml"
-updated_at: "2022-11-08 23:48:01.201363"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:36:32.249035"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-recount3"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-recount3"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-recount3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-recount3", "latest": {"1.4.0--r41hdfd78af_0": "sha256:58c52b92e30b0ee218fd79532538b92a88254e04c744d28c636137fb687685fe"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:58c52b92e30b0ee218fd79532538b92a88254e04c744d28c636137fb687685fe"}, "docker": "quay.io/biocontainers/bioconductor-recount3"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-recount3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-recount3", "latest": {"1.8.0--r42hdfd78af_0": "sha256:08176578d4f604a464c47f83abe8a0d945a88b340f0a3355d56bea602ea1ddfb"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:58c52b92e30b0ee218fd79532538b92a88254e04c744d28c636137fb687685fe", "1.8.0--r42hdfd78af_0": "sha256:08176578d4f604a464c47f83abe8a0d945a88b340f0a3355d56bea602ea1ddfb"}, "docker": "quay.io/biocontainers/bioconductor-recount3"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-recount3.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-recount3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-recount3:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-recount3:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-recount3/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-recount3/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-recount3/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-recount3/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

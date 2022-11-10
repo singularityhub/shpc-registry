@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-viscorvar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-viscorvar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-viscorvar/container.yaml"
-updated_at: "2022-11-09 00:25:26.096910"
-latest: "0.9--r41hdfd78af_0"
+updated_at: "2022-11-10 00:03:19.864518"
+latest: "0.9--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-viscorvar"
 aliases:
  - "pandoc"
@@ -17,8 +17,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.9--r41hdfd78af_0"
+ - "0.9--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-viscorvar"
-config: {"url": "https://biocontainers.pro/tools/r-viscorvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-viscorvar", "latest": {"0.9--r41hdfd78af_0": "sha256:552a66ed7f207f3a455688c675dfacb2236be4aac2f7aa62c7861bcbe4457f8d"}, "tags": {"0.9--r41hdfd78af_0": "sha256:552a66ed7f207f3a455688c675dfacb2236be4aac2f7aa62c7861bcbe4457f8d"}, "docker": "quay.io/biocontainers/r-viscorvar", "aliases": {"pandoc": "/usr/local/bin/pandoc", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-viscorvar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-viscorvar", "latest": {"0.9--r42hdfd78af_1": "sha256:d2d9aee5bbd0520a76a2bec2f93fd4027a62528c75466c8c2b471f17debcbc46"}, "tags": {"0.9--r41hdfd78af_0": "sha256:552a66ed7f207f3a455688c675dfacb2236be4aac2f7aa62c7861bcbe4457f8d", "0.9--r42hdfd78af_1": "sha256:d2d9aee5bbd0520a76a2bec2f93fd4027a62528c75466c8c2b471f17debcbc46"}, "docker": "quay.io/biocontainers/r-viscorvar", "aliases": {"pandoc": "/usr/local/bin/pandoc", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-viscorvar.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/r-viscorvar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-viscorvar:0.9--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-viscorvar:0.9--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-viscorvar/0.9--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-viscorvar/0.9--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-viscorvar/0.9--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-viscorvar/0.9--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

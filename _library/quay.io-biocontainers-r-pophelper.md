@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-pophelper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-pophelper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-pophelper/container.yaml"
-updated_at: "2022-11-08 23:54:07.770457"
+updated_at: "2022-11-09 23:40:53.498403"
 latest: "2.3.1--r41hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/r-pophelper"
 aliases:

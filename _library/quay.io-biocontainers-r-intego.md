@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-intego"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-intego/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-intego/container.yaml"
-updated_at: "2022-11-09 00:00:10.677155"
-latest: "2.0--r41h9ee0642_3"
+updated_at: "2022-11-09 23:45:15.940127"
+latest: "2.0--r42h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-intego"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.0--r41h9ee0642_3"
+ - "2.0--r42h9ee0642_4"
 description: "shpc-registry automated BioContainers addition for r-intego"
-config: {"url": "https://biocontainers.pro/tools/r-intego", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-intego", "latest": {"2.0--r41h9ee0642_3": "sha256:d515275f7baa3550f31f59481973e07e102057c910ace137763a2bb529733823"}, "tags": {"2.0--r41h9ee0642_3": "sha256:d515275f7baa3550f31f59481973e07e102057c910ace137763a2bb529733823"}, "docker": "quay.io/biocontainers/r-intego", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-intego", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-intego", "latest": {"2.0--r42h9ee0642_4": "sha256:fa467ee12d2d1e39425160f48d0668e6e73b07ec7900af7fcacae7d92de1419b"}, "tags": {"2.0--r41h9ee0642_3": "sha256:d515275f7baa3550f31f59481973e07e102057c910ace137763a2bb529733823", "2.0--r42h9ee0642_4": "sha256:fa467ee12d2d1e39425160f48d0668e6e73b07ec7900af7fcacae7d92de1419b"}, "docker": "quay.io/biocontainers/r-intego", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-intego.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-intego
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-intego:2.0--r41h9ee0642_3
+$ shpc install quay.io/biocontainers/r-intego:2.0--r42h9ee0642_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-intego/2.0--r41h9ee0642_3
-$ module help quay.io/biocontainers/r-intego/2.0--r41h9ee0642_3
+$ module load quay.io/biocontainers/r-intego/2.0--r42h9ee0642_4
+$ module help quay.io/biocontainers/r-intego/2.0--r42h9ee0642_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-confessdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-confessdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-confessdata/container.yaml"
-updated_at: "2022-11-09 00:29:06.985945"
-latest: "1.22.0--r41hdfd78af_1"
+updated_at: "2022-11-10 00:05:56.585372"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-confessdata"
 aliases:
  - ".bioconductor-confessdata-post-link.sh"
  - ".bioconductor-confessdata-pre-unlink.sh"
 versions:
  - "1.22.0--r41hdfd78af_1"
+ - "1.26.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-confessdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-confessdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-confessdata", "latest": {"1.22.0--r41hdfd78af_1": "sha256:9dc597a2dc14c4224136490c14bc1cfcf94cb052d1c82d765bfd77440d0d913c"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:9dc597a2dc14c4224136490c14bc1cfcf94cb052d1c82d765bfd77440d0d913c"}, "docker": "quay.io/biocontainers/bioconductor-confessdata", "aliases": {".bioconductor-confessdata-post-link.sh": "/usr/local/bin/.bioconductor-confessdata-post-link.sh", ".bioconductor-confessdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-confessdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-confessdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-confessdata", "latest": {"1.26.0--r42hdfd78af_0": "sha256:ff7ff9d9b31e825c8d43de26c750097028e9172170aebd4313efb24260c64387"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:9dc597a2dc14c4224136490c14bc1cfcf94cb052d1c82d765bfd77440d0d913c", "1.26.0--r42hdfd78af_0": "sha256:ff7ff9d9b31e825c8d43de26c750097028e9172170aebd4313efb24260c64387"}, "docker": "quay.io/biocontainers/bioconductor-confessdata", "aliases": {".bioconductor-confessdata-post-link.sh": "/usr/local/bin/.bioconductor-confessdata-post-link.sh", ".bioconductor-confessdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-confessdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-confessdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-confessdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-confessdata:1.22.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-confessdata:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-confessdata/1.22.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-confessdata/1.22.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-confessdata/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-confessdata/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

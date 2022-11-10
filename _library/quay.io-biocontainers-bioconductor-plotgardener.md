@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-plotgardener"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plotgardener/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plotgardener/container.yaml"
-updated_at: "2022-11-08 23:55:32.004210"
-latest: "1.0.17--r41hc247a5b_0"
+updated_at: "2022-11-09 23:41:54.116351"
+latest: "1.4.1--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plotgardener"
 
 versions:
  - "1.0.17--r41hc247a5b_0"
+ - "1.4.1--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-plotgardener"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plotgardener", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plotgardener", "latest": {"1.0.17--r41hc247a5b_0": "sha256:f02fcfd4e1d44377d8acc143955341d62f8f8945114f650256d04031b8d4a5a7"}, "tags": {"1.0.17--r41hc247a5b_0": "sha256:f02fcfd4e1d44377d8acc143955341d62f8f8945114f650256d04031b8d4a5a7"}, "docker": "quay.io/biocontainers/bioconductor-plotgardener"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plotgardener", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plotgardener", "latest": {"1.4.1--r42hc247a5b_0": "sha256:87c218468d6866fdd01a8593a8c6fabe896542a643fe556ff25fe9e7efc4cccb"}, "tags": {"1.0.17--r41hc247a5b_0": "sha256:f02fcfd4e1d44377d8acc143955341d62f8f8945114f650256d04031b8d4a5a7", "1.4.1--r42hc247a5b_0": "sha256:87c218468d6866fdd01a8593a8c6fabe896542a643fe556ff25fe9e7efc4cccb"}, "docker": "quay.io/biocontainers/bioconductor-plotgardener"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plotgardener.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plotgardener
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plotgardener:1.0.17--r41hc247a5b_0
+$ shpc install quay.io/biocontainers/bioconductor-plotgardener:1.4.1--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plotgardener/1.0.17--r41hc247a5b_0
-$ module help quay.io/biocontainers/bioconductor-plotgardener/1.0.17--r41hc247a5b_0
+$ module load quay.io/biocontainers/bioconductor-plotgardener/1.4.1--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-plotgardener/1.4.1--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

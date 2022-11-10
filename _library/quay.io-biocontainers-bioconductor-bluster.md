@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-bluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bluster/container.yaml"
-updated_at: "2022-11-09 00:22:04.182355"
-latest: "1.4.0--r41hc247a5b_2"
+updated_at: "2022-11-10 00:00:58.325002"
+latest: "1.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bluster"
 aliases:
  - "glpsol"
 versions:
  - "1.4.0--r41hc247a5b_2"
+ - "1.8.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bluster"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bluster", "latest": {"1.4.0--r41hc247a5b_2": "sha256:fcb086716e9c7006fb46c9d012b59dacf803d5d60745487b99cbe2a1d532598e"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:fcb086716e9c7006fb46c9d012b59dacf803d5d60745487b99cbe2a1d532598e"}, "docker": "quay.io/biocontainers/bioconductor-bluster", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bluster", "latest": {"1.8.0--r42hc247a5b_0": "sha256:896f02361ee91fd38eb21e603100453092fb44b1d6901cb2d35eea610644478d"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:fcb086716e9c7006fb46c9d012b59dacf803d5d60745487b99cbe2a1d532598e", "1.8.0--r42hc247a5b_0": "sha256:896f02361ee91fd38eb21e603100453092fb44b1d6901cb2d35eea610644478d"}, "docker": "quay.io/biocontainers/bioconductor-bluster", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bluster.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bluster:1.4.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-bluster:1.8.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bluster/1.4.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-bluster/1.4.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-bluster/1.8.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-bluster/1.8.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

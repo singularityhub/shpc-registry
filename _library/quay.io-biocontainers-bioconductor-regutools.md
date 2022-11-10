@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-regutools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-regutools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-regutools/container.yaml"
-updated_at: "2022-11-09 00:20:24.972603"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:59:47.496325"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-regutools"
 aliases:
  - "Cytoscape"
@@ -20,8 +20,9 @@ aliases:
  - "jmod"
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-regutools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-regutools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regutools", "latest": {"1.6.0--r41hdfd78af_0": "sha256:3a5cee7cd010df6f78fb623eb2e520667c6c2e484374a59d6ff33989b2253c0f"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:3a5cee7cd010df6f78fb623eb2e520667c6c2e484374a59d6ff33989b2253c0f"}, "docker": "quay.io/biocontainers/bioconductor-regutools", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-regutools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-regutools", "latest": {"1.10.0--r42hdfd78af_0": "sha256:187435ab02e47e19fd7e0f224686d157a66a5707c0462deebfac102d0e48a00b"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:3a5cee7cd010df6f78fb623eb2e520667c6c2e484374a59d6ff33989b2253c0f", "1.10.0--r42hdfd78af_0": "sha256:187435ab02e47e19fd7e0f224686d157a66a5707c0462deebfac102d0e48a00b"}, "docker": "quay.io/biocontainers/bioconductor-regutools", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-regutools.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-regutools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-regutools:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-regutools:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-regutools/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-regutools/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-regutools/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-regutools/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

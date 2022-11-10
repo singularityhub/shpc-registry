@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-metagene2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagene2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagene2/container.yaml"
-updated_at: "2022-11-09 00:51:23.576821"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-10 00:21:53.197868"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagene2"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metagene2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metagene2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagene2", "latest": {"1.8.0--r41hdfd78af_0": "sha256:b43c0809e0da7df9a0a36d593af52bee4425a2fe01fcf2cf6d005887e228eef9"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b43c0809e0da7df9a0a36d593af52bee4425a2fe01fcf2cf6d005887e228eef9"}, "docker": "quay.io/biocontainers/bioconductor-metagene2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metagene2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metagene2", "latest": {"1.14.0--r42hdfd78af_0": "sha256:8e8cd5815e31fd64e748cb4278f53e58689065fef853bb6c3f49f44b77383123"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b43c0809e0da7df9a0a36d593af52bee4425a2fe01fcf2cf6d005887e228eef9", "1.14.0--r42hdfd78af_0": "sha256:8e8cd5815e31fd64e748cb4278f53e58689065fef853bb6c3f49f44b77383123", "1.10.0--r41hdfd78af_0": "sha256:52153a9597458d61086d006fd4650edcd0dd298944970675da9750bc88dbdec5"}, "docker": "quay.io/biocontainers/bioconductor-metagene2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metagene2.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metagene2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metagene2:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-metagene2:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metagene2/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-metagene2/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-metagene2/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metagene2/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

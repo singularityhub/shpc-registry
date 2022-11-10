@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/qualimap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/qualimap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/qualimap/container.yaml"
-updated_at: "2022-11-08 23:45:30.870793"
+updated_at: "2022-11-09 23:34:42.488171"
 latest: "2.2.2d--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/qualimap"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "jjs"
 versions:
  - "2.2.2d--hdfd78af_2"
+ - "2.2.2a--2"
 description: "shpc-registry automated BioContainers addition for qualimap"
-config: {"url": "https://biocontainers.pro/tools/qualimap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qualimap", "latest": {"2.2.2d--hdfd78af_2": "sha256:cbc038154e4177120eb2865324948838ec13d957f871168ceb83a16615be699d"}, "tags": {"2.2.2d--hdfd78af_2": "sha256:cbc038154e4177120eb2865324948838ec13d957f871168ceb83a16615be699d"}, "docker": "quay.io/biocontainers/qualimap", "aliases": {"qualimap": "/usr/local/bin/qualimap", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/qualimap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for qualimap", "latest": {"2.2.2d--hdfd78af_2": "sha256:cbc038154e4177120eb2865324948838ec13d957f871168ceb83a16615be699d"}, "tags": {"2.2.2d--hdfd78af_2": "sha256:cbc038154e4177120eb2865324948838ec13d957f871168ceb83a16615be699d", "2.2.2a--2": "sha256:e7df2242c3a0cd7940174e9b9c7a373346c3a3a54c25719f2aeeb2ea4f3153e9"}, "docker": "quay.io/biocontainers/qualimap", "aliases": {"qualimap": "/usr/local/bin/qualimap", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/qualimap.

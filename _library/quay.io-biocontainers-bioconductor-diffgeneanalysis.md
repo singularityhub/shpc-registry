@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-diffgeneanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffgeneanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffgeneanalysis/container.yaml"
-updated_at: "2022-11-09 00:17:27.243526"
-latest: "1.76.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:57:37.874770"
+latest: "1.80.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffgeneanalysis"
 
 versions:
  - "1.76.0--r41hdfd78af_0"
+ - "1.80.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-diffgeneanalysis"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-diffgeneanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffgeneanalysis", "latest": {"1.76.0--r41hdfd78af_0": "sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5"}, "tags": {"1.76.0--r41hdfd78af_0": "sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5"}, "docker": "quay.io/biocontainers/bioconductor-diffgeneanalysis"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-diffgeneanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-diffgeneanalysis", "latest": {"1.80.0--r42hdfd78af_0": "sha256:6316567d8466ffeeea091ded1e6c05ee883cc17a522d293bbc6ad4788ed605d6"}, "tags": {"1.76.0--r41hdfd78af_0": "sha256:1f1fdad20da77f6e4f1d005b4ce12a5f30b0f8e0775cfa64f4284e7b60bb5bf5", "1.80.0--r42hdfd78af_0": "sha256:6316567d8466ffeeea091ded1e6c05ee883cc17a522d293bbc6ad4788ed605d6"}, "docker": "quay.io/biocontainers/bioconductor-diffgeneanalysis"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-diffgeneanalysis.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-diffgeneanalysis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-diffgeneanalysis:1.76.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-diffgeneanalysis:1.80.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-diffgeneanalysis/1.76.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-diffgeneanalysis/1.76.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-diffgeneanalysis/1.80.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-diffgeneanalysis/1.80.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cleaver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cleaver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cleaver/container.yaml"
-updated_at: "2022-11-09 00:10:19.966553"
+updated_at: "2022-11-09 23:52:28.178913"
 latest: "1.32.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cleaver"
 

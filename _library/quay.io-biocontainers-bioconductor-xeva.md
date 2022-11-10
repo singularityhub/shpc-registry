@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-xeva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xeva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xeva/container.yaml"
-updated_at: "2022-11-08 23:53:30.214060"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:40:26.971423"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xeva"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xeva"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xeva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xeva", "latest": {"1.8.0--r41hdfd78af_0": "sha256:43eac95eb0c459a53ea934b8255163e5ce36e52f34fbcd569b01f07e50d9b518"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:43eac95eb0c459a53ea934b8255163e5ce36e52f34fbcd569b01f07e50d9b518"}, "docker": "quay.io/biocontainers/bioconductor-xeva", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xeva", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xeva", "latest": {"1.14.0--r42hdfd78af_0": "sha256:036f7d52714230230f72de6df4c18e80ad4327ba0d65140292937406fd0e0458"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:43eac95eb0c459a53ea934b8255163e5ce36e52f34fbcd569b01f07e50d9b518", "1.14.0--r42hdfd78af_0": "sha256:036f7d52714230230f72de6df4c18e80ad4327ba0d65140292937406fd0e0458", "1.10.0--r41hdfd78af_0": "sha256:e9d26fab3f7269e6e5d3d86a8d1ba6422ca4dcf9294c0cab98fed6eb0e8d3122"}, "docker": "quay.io/biocontainers/bioconductor-xeva", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xeva.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xeva
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xeva:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-xeva:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xeva/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-xeva/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-xeva/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-xeva/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

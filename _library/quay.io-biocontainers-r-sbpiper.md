@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-sbpiper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sbpiper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sbpiper/container.yaml"
-updated_at: "2022-11-09 00:47:26.787944"
-latest: "1.9.0--r41h3121a25_6"
+updated_at: "2022-11-10 00:19:05.358489"
+latest: "1.9.0--r42h3121a25_7"
 container_url: "https://biocontainers.pro/tools/r-sbpiper"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r41h3121a25_6"
+ - "1.9.0--r42h3121a25_7"
 description: "shpc-registry automated BioContainers addition for r-sbpiper"
-config: {"url": "https://biocontainers.pro/tools/r-sbpiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sbpiper", "latest": {"1.9.0--r41h3121a25_6": "sha256:3f018bdabd4ff6d2aa17bbbf9d03fdd9d7ac0c9f6c9743554ef56461c28348d5"}, "tags": {"1.9.0--r41h3121a25_6": "sha256:3f018bdabd4ff6d2aa17bbbf9d03fdd9d7ac0c9f6c9743554ef56461c28348d5"}, "docker": "quay.io/biocontainers/r-sbpiper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-sbpiper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sbpiper", "latest": {"1.9.0--r42h3121a25_7": "sha256:f41c33bc5a85a2dec60059a22f9e717e746c76f1ae1d4e780b6d60d0ce4712a3"}, "tags": {"1.9.0--r41h3121a25_6": "sha256:3f018bdabd4ff6d2aa17bbbf9d03fdd9d7ac0c9f6c9743554ef56461c28348d5", "1.9.0--r42h3121a25_7": "sha256:f41c33bc5a85a2dec60059a22f9e717e746c76f1ae1d4e780b6d60d0ce4712a3"}, "docker": "quay.io/biocontainers/r-sbpiper", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sbpiper.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-sbpiper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sbpiper:1.9.0--r41h3121a25_6
+$ shpc install quay.io/biocontainers/r-sbpiper:1.9.0--r42h3121a25_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sbpiper/1.9.0--r41h3121a25_6
-$ module help quay.io/biocontainers/r-sbpiper/1.9.0--r41h3121a25_6
+$ module load quay.io/biocontainers/r-sbpiper/1.9.0--r42h3121a25_7
+$ module help quay.io/biocontainers/r-sbpiper/1.9.0--r42h3121a25_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-minems2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-minems2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-minems2/container.yaml"
-updated_at: "2022-11-09 00:21:09.860703"
-latest: "0.9.3--r41h9f5acd7_4"
+updated_at: "2022-11-10 00:00:19.225030"
+latest: "0.9.3--r42h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/r-minems2"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "0.9.3--r41h9f5acd7_4"
+ - "0.9.3--r42h9f5acd7_5"
 description: "shpc-registry automated BioContainers addition for r-minems2"
-config: {"url": "https://biocontainers.pro/tools/r-minems2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-minems2", "latest": {"0.9.3--r41h9f5acd7_4": "sha256:f19cfcc07ad1e8077a659e0b5ffb3c927944a1e1bf729d5aad29a05b03b43086"}, "tags": {"0.9.3--r41h9f5acd7_4": "sha256:f19cfcc07ad1e8077a659e0b5ffb3c927944a1e1bf729d5aad29a05b03b43086"}, "docker": "quay.io/biocontainers/r-minems2", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/r-minems2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-minems2", "latest": {"0.9.3--r42h9f5acd7_5": "sha256:076b470f07729cca1d06921ac812496b0a3ff18d5472326881cdc59141dc1500"}, "tags": {"0.9.3--r41h9f5acd7_4": "sha256:f19cfcc07ad1e8077a659e0b5ffb3c927944a1e1bf729d5aad29a05b03b43086", "0.9.3--r42h9f5acd7_5": "sha256:076b470f07729cca1d06921ac812496b0a3ff18d5472326881cdc59141dc1500"}, "docker": "quay.io/biocontainers/r-minems2", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-minems2.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-minems2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-minems2:0.9.3--r41h9f5acd7_4
+$ shpc install quay.io/biocontainers/r-minems2:0.9.3--r42h9f5acd7_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-minems2/0.9.3--r41h9f5acd7_4
-$ module help quay.io/biocontainers/r-minems2/0.9.3--r41h9f5acd7_4
+$ module load quay.io/biocontainers/r-minems2/0.9.3--r42h9f5acd7_5
+$ module help quay.io/biocontainers/r-minems2/0.9.3--r42h9f5acd7_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-champdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-champdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-champdata/container.yaml"
-updated_at: "2022-11-08 23:51:55.104213"
-latest: "2.26.0--r41hdfd78af_1"
+updated_at: "2022-11-09 23:39:20.046435"
+latest: "2.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-champdata"
 aliases:
  - ".bioconductor-champdata-post-link.sh"
  - ".bioconductor-champdata-pre-unlink.sh"
 versions:
  - "2.26.0--r41hdfd78af_1"
+ - "2.30.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-champdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-champdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-champdata", "latest": {"2.26.0--r41hdfd78af_1": "sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5"}, "tags": {"2.26.0--r41hdfd78af_1": "sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5"}, "docker": "quay.io/biocontainers/bioconductor-champdata", "aliases": {".bioconductor-champdata-post-link.sh": "/usr/local/bin/.bioconductor-champdata-post-link.sh", ".bioconductor-champdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-champdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-champdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-champdata", "latest": {"2.30.0--r42hdfd78af_0": "sha256:e83632a053a49d4cc55d21bf4801e5fac5213e3b2ed51038b89bc547b3b5f874"}, "tags": {"2.26.0--r41hdfd78af_1": "sha256:47517caecacd1453fb2e1861df56d87c803cf66cc1b6c2e27a542d636798d4d5", "2.30.0--r42hdfd78af_0": "sha256:e83632a053a49d4cc55d21bf4801e5fac5213e3b2ed51038b89bc547b3b5f874"}, "docker": "quay.io/biocontainers/bioconductor-champdata", "aliases": {".bioconductor-champdata-post-link.sh": "/usr/local/bin/.bioconductor-champdata-post-link.sh", ".bioconductor-champdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-champdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-champdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-champdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-champdata:2.26.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-champdata:2.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-champdata/2.26.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-champdata/2.26.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-champdata/2.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-champdata/2.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

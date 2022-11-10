@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-multiassayexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multiassayexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multiassayexperiment/container.yaml"
-updated_at: "2022-11-09 00:25:21.583958"
-latest: "1.8.1--r351_0"
+updated_at: "2022-11-10 00:03:16.659648"
+latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multiassayexperiment"
 aliases:
  - "wget"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.1--r351_0"
+ - "1.24.0--r42hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r40hdfd78af_1"
+ - "1.14.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-multiassayexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-multiassayexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multiassayexperiment", "latest": {"1.8.1--r351_0": "sha256:b6bcc94f7cc0a6480605fc7c738b5b91701a7ec16c8b9b54535a1c5113339560"}, "tags": {"1.8.1--r351_0": "sha256:b6bcc94f7cc0a6480605fc7c738b5b91701a7ec16c8b9b54535a1c5113339560"}, "docker": "quay.io/biocontainers/bioconductor-multiassayexperiment", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-multiassayexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multiassayexperiment", "latest": {"1.24.0--r42hdfd78af_0": "sha256:bae54a9065ae6c8940f36859ee88eb952f258efa52e5c5897b5dba10d09a6930"}, "tags": {"1.8.1--r351_0": "sha256:b6bcc94f7cc0a6480605fc7c738b5b91701a7ec16c8b9b54535a1c5113339560", "1.24.0--r42hdfd78af_0": "sha256:bae54a9065ae6c8940f36859ee88eb952f258efa52e5c5897b5dba10d09a6930", "1.20.0--r41hdfd78af_0": "sha256:dea7a5e10ebb3d3ac78ab12d254dfc4fef711634229a0c53798a2f190dfad804", "1.18.0--r41hdfd78af_0": "sha256:60346afe982a51dc5a8e3000b30b32d1b6ee4495f049c3b69daca709a30be112", "1.16.0--r40hdfd78af_1": "sha256:bc95f014e0ffc1fad31ab1a484ed30edc7953d17e10c8dfbfc2acfced3fff3a7", "1.14.0--r40_0": "sha256:0b4625feab8dba5586b07735ef343cbc5d25a822ba5b7576f43b75d530f41e33"}, "docker": "quay.io/biocontainers/bioconductor-multiassayexperiment", "aliases": {"wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-multiassayexperiment.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-multiassayexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-multiassayexperiment:1.8.1--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-multiassayexperiment:1.24.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-multiassayexperiment/1.8.1--r351_0
-$ module help quay.io/biocontainers/bioconductor-multiassayexperiment/1.8.1--r351_0
+$ module load quay.io/biocontainers/bioconductor-multiassayexperiment/1.24.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-multiassayexperiment/1.24.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cooltools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cooltools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cooltools/container.yaml"
-updated_at: "2022-11-08 23:49:01.188697"
-latest: "0.5.1--py37h37892f8_1"
+updated_at: "2022-11-09 23:37:16.051194"
+latest: "0.5.2--py39h5371cbf_1"
 container_url: "https://biocontainers.pro/tools/cooltools"
 aliases:
  - "cooltools"
@@ -23,8 +23,9 @@ aliases:
  - "zopflipng"
 versions:
  - "0.5.1--py37h37892f8_1"
+ - "0.5.2--py39h5371cbf_1"
 description: "shpc-registry automated BioContainers addition for cooltools"
-config: {"url": "https://biocontainers.pro/tools/cooltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cooltools", "latest": {"0.5.1--py37h37892f8_1": "sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0"}, "tags": {"0.5.1--py37h37892f8_1": "sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0"}, "docker": "quay.io/biocontainers/cooltools", "aliases": {"cooltools": "/usr/local/bin/cooltools", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
+config: {"url": "https://biocontainers.pro/tools/cooltools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cooltools", "latest": {"0.5.2--py39h5371cbf_1": "sha256:5222c15e76def0f9472cbaf8a5bb5f4f1fca48beb99349478c9503868d4ffb34"}, "tags": {"0.5.1--py37h37892f8_1": "sha256:84794ab72277c275326b75ca7a62a0bb7ed7d7dab600ed470df14bb9a9db45a0", "0.5.2--py39h5371cbf_1": "sha256:5222c15e76def0f9472cbaf8a5bb5f4f1fca48beb99349478c9503868d4ffb34"}, "docker": "quay.io/biocontainers/cooltools", "aliases": {"cooltools": "/usr/local/bin/cooltools", "tiff2fsspec": "/usr/local/bin/tiff2fsspec", "tiffcomment": "/usr/local/bin/tiffcomment", "JxrDecApp": "/usr/local/bin/JxrDecApp", "JxrEncApp": "/usr/local/bin/JxrEncApp", "cbrunsli": "/usr/local/bin/cbrunsli", "dbrunsli": "/usr/local/bin/dbrunsli", "imagecodecs": "/usr/local/bin/imagecodecs", "lsm2bin": "/usr/local/bin/lsm2bin", "tifffile": "/usr/local/bin/tifffile", "zfp": "/usr/local/bin/zfp", "zopfli": "/usr/local/bin/zopfli", "zopflipng": "/usr/local/bin/zopflipng"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cooltools.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/cooltools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cooltools:0.5.1--py37h37892f8_1
+$ shpc install quay.io/biocontainers/cooltools:0.5.2--py39h5371cbf_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cooltools/0.5.1--py37h37892f8_1
-$ module help quay.io/biocontainers/cooltools/0.5.1--py37h37892f8_1
+$ module load quay.io/biocontainers/cooltools/0.5.2--py39h5371cbf_1
+$ module help quay.io/biocontainers/cooltools/0.5.2--py39h5371cbf_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

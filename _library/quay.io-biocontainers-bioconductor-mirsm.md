@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mirsm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirsm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirsm/container.yaml"
-updated_at: "2022-11-09 00:17:01.933611"
+updated_at: "2022-11-09 23:57:19.497094"
 latest: "1.8.3--r40h68001a8_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirsm"
 aliases:

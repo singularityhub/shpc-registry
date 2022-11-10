@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-methylseqdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methylseqdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methylseqdata/container.yaml"
-updated_at: "2022-11-09 00:26:50.161859"
-latest: "1.4.0--r41hdfd78af_1"
+updated_at: "2022-11-10 00:04:18.391981"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-methylseqdata"
 aliases:
  - ".bioconductor-methylseqdata-post-link.sh"
  - ".bioconductor-methylseqdata-pre-unlink.sh"
 versions:
  - "1.4.0--r41hdfd78af_1"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methylseqdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methylseqdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylseqdata", "latest": {"1.4.0--r41hdfd78af_1": "sha256:f8217659ae2f4a02126f93fa43be515f9fa3c77dbbf926d465cc5783008aca76"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:f8217659ae2f4a02126f93fa43be515f9fa3c77dbbf926d465cc5783008aca76"}, "docker": "quay.io/biocontainers/bioconductor-methylseqdata", "aliases": {".bioconductor-methylseqdata-post-link.sh": "/usr/local/bin/.bioconductor-methylseqdata-post-link.sh", ".bioconductor-methylseqdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-methylseqdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methylseqdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methylseqdata", "latest": {"1.8.0--r42hdfd78af_0": "sha256:0d560c73780e20ee854ee683509dc85fa86258a96dcba284e6bbea91a49e8bdf"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:f8217659ae2f4a02126f93fa43be515f9fa3c77dbbf926d465cc5783008aca76", "1.8.0--r42hdfd78af_0": "sha256:0d560c73780e20ee854ee683509dc85fa86258a96dcba284e6bbea91a49e8bdf"}, "docker": "quay.io/biocontainers/bioconductor-methylseqdata", "aliases": {".bioconductor-methylseqdata-post-link.sh": "/usr/local/bin/.bioconductor-methylseqdata-post-link.sh", ".bioconductor-methylseqdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-methylseqdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methylseqdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methylseqdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methylseqdata:1.4.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-methylseqdata:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methylseqdata/1.4.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-methylseqdata/1.4.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-methylseqdata/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-methylseqdata/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

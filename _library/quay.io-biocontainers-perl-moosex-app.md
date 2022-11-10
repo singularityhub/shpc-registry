@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/perl-moosex-app"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-moosex-app/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-moosex-app/container.yaml"
-updated_at: "2022-11-09 00:19:29.513930"
-latest: "1.42--pl5321hdfd78af_0"
+updated_at: "2022-11-09 23:59:07.125454"
+latest: "1.3701--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-moosex-app"
 
 versions:
  - "1.42--pl5321hdfd78af_0"
+ - "1.3701--pl526_2"
 description: "shpc-registry automated BioContainers addition for perl-moosex-app"
-config: {"url": "https://biocontainers.pro/tools/perl-moosex-app", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-app", "latest": {"1.42--pl5321hdfd78af_0": "sha256:401759371036b24bf55e455a8e52ff45e261baddab52c7105a91c66af949984b"}, "tags": {"1.42--pl5321hdfd78af_0": "sha256:401759371036b24bf55e455a8e52ff45e261baddab52c7105a91c66af949984b"}, "docker": "quay.io/biocontainers/perl-moosex-app"}
+config: {"url": "https://biocontainers.pro/tools/perl-moosex-app", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-moosex-app", "latest": {"1.3701--pl526_2": "sha256:06b63a3f8c024c61a0af0beee7da67a93343a0f6df474ad8166822745970099e"}, "tags": {"1.42--pl5321hdfd78af_0": "sha256:401759371036b24bf55e455a8e52ff45e261baddab52c7105a91c66af949984b", "1.3701--pl526_2": "sha256:06b63a3f8c024c61a0af0beee7da67a93343a0f6df474ad8166822745970099e"}, "docker": "quay.io/biocontainers/perl-moosex-app"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-moosex-app.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/perl-moosex-app
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-moosex-app:1.42--pl5321hdfd78af_0
+$ shpc install quay.io/biocontainers/perl-moosex-app:1.3701--pl526_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-moosex-app/1.42--pl5321hdfd78af_0
-$ module help quay.io/biocontainers/perl-moosex-app/1.42--pl5321hdfd78af_0
+$ module load quay.io/biocontainers/perl-moosex-app/1.3701--pl526_2
+$ module help quay.io/biocontainers/perl-moosex-app/1.3701--pl526_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

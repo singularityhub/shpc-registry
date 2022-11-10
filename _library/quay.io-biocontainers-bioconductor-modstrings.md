@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-modstrings"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-modstrings/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-modstrings/container.yaml"
-updated_at: "2022-11-08 23:56:56.928113"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:42:54.988789"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-modstrings"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-modstrings"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-modstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-modstrings", "latest": {"1.8.0--r41hdfd78af_0": "sha256:1f8d6a297c6273424676bc4c52972d74620763c18e0a496ef900c50f4076d0af"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1f8d6a297c6273424676bc4c52972d74620763c18e0a496ef900c50f4076d0af"}, "docker": "quay.io/biocontainers/bioconductor-modstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-modstrings", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-modstrings", "latest": {"1.14.0--r42hdfd78af_0": "sha256:0e6b0876c32ece4d60f67a8534a45294b311fea77f965c31a007d58bfb036e05"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:1f8d6a297c6273424676bc4c52972d74620763c18e0a496ef900c50f4076d0af", "1.14.0--r42hdfd78af_0": "sha256:0e6b0876c32ece4d60f67a8534a45294b311fea77f965c31a007d58bfb036e05", "1.10.0--r41hdfd78af_0": "sha256:921f415d2786267bd074ed3258c0371bbf1efa188efd73ed00644d89c52ef911"}, "docker": "quay.io/biocontainers/bioconductor-modstrings", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-modstrings.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-modstrings
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-modstrings:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-modstrings:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-modstrings/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-modstrings/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-modstrings/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-modstrings/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

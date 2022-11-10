@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-plasfia"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plasfia/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plasfia/container.yaml"
-updated_at: "2022-11-09 00:20:37.316182"
-latest: "1.22.0--r41hdfd78af_1"
+updated_at: "2022-11-09 23:59:56.298213"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plasfia"
 aliases:
  - ".bioconductor-plasfia-post-link.sh"
@@ -22,8 +22,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "1.22.0--r41hdfd78af_1"
+ - "1.26.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-plasfia"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plasfia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plasfia", "latest": {"1.22.0--r41hdfd78af_1": "sha256:297d7d15b57bf8d412234abeb7f647749e54d93e77971c793b4a9ac43a516d2f"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:297d7d15b57bf8d412234abeb7f647749e54d93e77971c793b4a9ac43a516d2f"}, "docker": "quay.io/biocontainers/bioconductor-plasfia", "aliases": {".bioconductor-plasfia-post-link.sh": "/usr/local/bin/.bioconductor-plasfia-post-link.sh", ".bioconductor-plasfia-pre-unlink.sh": "/usr/local/bin/.bioconductor-plasfia-pre-unlink.sh", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plasfia", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plasfia", "latest": {"1.26.0--r42hdfd78af_0": "sha256:0c786b156817e633082294751da0138b10afaf4580d8047eee350c15d9c06c41"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:297d7d15b57bf8d412234abeb7f647749e54d93e77971c793b4a9ac43a516d2f", "1.26.0--r42hdfd78af_0": "sha256:0c786b156817e633082294751da0138b10afaf4580d8047eee350c15d9c06c41"}, "docker": "quay.io/biocontainers/bioconductor-plasfia", "aliases": {".bioconductor-plasfia-post-link.sh": "/usr/local/bin/.bioconductor-plasfia-post-link.sh", ".bioconductor-plasfia-pre-unlink.sh": "/usr/local/bin/.bioconductor-plasfia-pre-unlink.sh", "zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plasfia.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plasfia
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plasfia:1.22.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-plasfia:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plasfia/1.22.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-plasfia/1.22.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-plasfia/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-plasfia/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

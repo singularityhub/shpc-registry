@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-acidcli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidcli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidcli/container.yaml"
-updated_at: "2022-11-09 00:19:01.519476"
-latest: "0.2.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:58:46.726203"
+latest: "0.2.5--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidcli"
 
 versions:
  - "0.2.0--r41hdfd78af_0"
+ - "0.2.5--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-acidcli"
-config: {"url": "https://biocontainers.pro/tools/r-acidcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidcli", "latest": {"0.2.0--r41hdfd78af_0": "sha256:9a36d78a939ef97ccaa9ecdc4f7f9873c5af3155c740e1e18fb20f74acd54a2e"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:9a36d78a939ef97ccaa9ecdc4f7f9873c5af3155c740e1e18fb20f74acd54a2e"}, "docker": "quay.io/biocontainers/r-acidcli"}
+config: {"url": "https://biocontainers.pro/tools/r-acidcli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidcli", "latest": {"0.2.5--r42hdfd78af_0": "sha256:8af160273025875429f3318b9e6fe69a6cc05df3616b02e74ba8d6a16c4e0b94"}, "tags": {"0.2.0--r41hdfd78af_0": "sha256:9a36d78a939ef97ccaa9ecdc4f7f9873c5af3155c740e1e18fb20f74acd54a2e", "0.2.5--r42hdfd78af_0": "sha256:8af160273025875429f3318b9e6fe69a6cc05df3616b02e74ba8d6a16c4e0b94"}, "docker": "quay.io/biocontainers/r-acidcli"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidcli.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-acidcli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidcli:0.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidcli:0.2.5--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidcli/0.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-acidcli/0.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-acidcli/0.2.5--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-acidcli/0.2.5--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

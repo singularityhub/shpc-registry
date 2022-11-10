@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-signac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-signac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-signac/container.yaml"
-updated_at: "2022-11-09 00:43:02.210357"
+updated_at: "2022-11-10 00:15:55.544599"
 latest: "1.8.0--r41hecf12ef_0"
 container_url: "https://biocontainers.pro/tools/r-signac"
 aliases:

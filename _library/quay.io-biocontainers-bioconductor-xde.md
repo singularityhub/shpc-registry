@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-xde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-xde/container.yaml"
-updated_at: "2022-11-09 00:43:42.538139"
-latest: "2.40.0--r41hc247a5b_2"
+updated_at: "2022-11-10 00:16:24.858443"
+latest: "2.44.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-xde"
 
 versions:
  - "2.40.0--r41hc247a5b_2"
+ - "2.44.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-xde"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-xde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xde", "latest": {"2.40.0--r41hc247a5b_2": "sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490"}, "tags": {"2.40.0--r41hc247a5b_2": "sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490"}, "docker": "quay.io/biocontainers/bioconductor-xde"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-xde", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-xde", "latest": {"2.44.0--r42hc247a5b_0": "sha256:fbafa31d3882b685ae9df295f964a67f2d3a48c90b939d5bf624a3ea3b1582c1"}, "tags": {"2.40.0--r41hc247a5b_2": "sha256:18d5059127324925ae95f5aad649294a426bdacac7f55cba62ff92ec754e5490", "2.44.0--r42hc247a5b_0": "sha256:fbafa31d3882b685ae9df295f964a67f2d3a48c90b939d5bf624a3ea3b1582c1"}, "docker": "quay.io/biocontainers/bioconductor-xde"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-xde.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-xde
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-xde:2.40.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-xde:2.44.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-xde/2.40.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-xde/2.40.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-xde/2.44.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-xde/2.44.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

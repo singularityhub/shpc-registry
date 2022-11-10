@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-moanin"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moanin/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moanin/container.yaml"
-updated_at: "2022-11-09 00:57:08.722959"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-10 00:26:00.412517"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moanin"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-moanin"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moanin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moanin", "latest": {"1.2.0--r41hdfd78af_0": "sha256:ed68b2dee171c0000ebdfa672d2b57d6700e2a002801b2034fd738a79c3534e5"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ed68b2dee171c0000ebdfa672d2b57d6700e2a002801b2034fd738a79c3534e5"}, "docker": "quay.io/biocontainers/bioconductor-moanin"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moanin", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moanin", "latest": {"1.6.0--r42hdfd78af_0": "sha256:a074f22bfb1fea4cb395a7fcdf4699306efa7e3c243c40606c78fde61a0bf6a2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ed68b2dee171c0000ebdfa672d2b57d6700e2a002801b2034fd738a79c3534e5", "1.6.0--r42hdfd78af_0": "sha256:a074f22bfb1fea4cb395a7fcdf4699306efa7e3c243c40606c78fde61a0bf6a2"}, "docker": "quay.io/biocontainers/bioconductor-moanin"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moanin.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-moanin
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-moanin:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-moanin:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-moanin/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-moanin/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-moanin/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-moanin/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

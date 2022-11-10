@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-macsquantifyr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-macsquantifyr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-macsquantifyr/container.yaml"
-updated_at: "2022-11-09 00:04:32.165142"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:48:21.102093"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-macsquantifyr"
 aliases:
  - "pandoc"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-macsquantifyr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-macsquantifyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macsquantifyr", "latest": {"1.8.0--r41hdfd78af_0": "sha256:feef60fa7cca6143b9ed90f86afed1d4e7b0949d085aa9e2a5c9aa9574838caf"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:feef60fa7cca6143b9ed90f86afed1d4e7b0949d085aa9e2a5c9aa9574838caf"}, "docker": "quay.io/biocontainers/bioconductor-macsquantifyr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-macsquantifyr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-macsquantifyr", "latest": {"1.12.0--r42hdfd78af_0": "sha256:fd325361011eecbc28e6302bfdbaf385d294f4ad10708edbe92c6abf6aac0cbd"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:feef60fa7cca6143b9ed90f86afed1d4e7b0949d085aa9e2a5c9aa9574838caf", "1.12.0--r42hdfd78af_0": "sha256:fd325361011eecbc28e6302bfdbaf385d294f4ad10708edbe92c6abf6aac0cbd"}, "docker": "quay.io/biocontainers/bioconductor-macsquantifyr", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-macsquantifyr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-macsquantifyr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-macsquantifyr:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-macsquantifyr:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-macsquantifyr/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-macsquantifyr/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-macsquantifyr/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-macsquantifyr/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

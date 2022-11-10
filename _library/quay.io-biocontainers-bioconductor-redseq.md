@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-redseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-redseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-redseq/container.yaml"
-updated_at: "2022-11-09 00:57:38.113236"
+updated_at: "2022-11-10 00:26:21.642620"
 latest: "1.40.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-redseq"
 

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ahcytobands"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahcytobands/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahcytobands/container.yaml"
-updated_at: "2022-11-09 00:42:36.109493"
+updated_at: "2022-11-10 00:15:36.717813"
 latest: "0.99.1--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahcytobands"
 aliases:

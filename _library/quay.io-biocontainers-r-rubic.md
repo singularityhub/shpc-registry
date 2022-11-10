@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-rubic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rubic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rubic/container.yaml"
-updated_at: "2022-11-08 23:47:36.950552"
+updated_at: "2022-11-09 23:36:14.600217"
 latest: "1.0.3--r41hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-rubic"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hpaanalyze"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hpaanalyze/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hpaanalyze/container.yaml"
-updated_at: "2022-11-09 00:01:32.452520"
+updated_at: "2022-11-09 23:46:14.424296"
 latest: "1.8.1--r40hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hpaanalyze"
 aliases:

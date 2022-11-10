@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bleties"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bleties/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bleties/container.yaml"
-updated_at: "2022-11-09 00:42:59.385388"
-latest: "0.1.9--pyhdfd78af_0"
+updated_at: "2022-11-10 00:15:53.549816"
+latest: "0.1.11--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bleties"
 aliases:
  - "NCRF"
@@ -38,8 +38,9 @@ aliases:
  - "python3.7-config"
 versions:
  - "0.1.9--pyhdfd78af_0"
+ - "0.1.11--pyhdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bleties"
-config: {"url": "https://biocontainers.pro/tools/bleties", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bleties", "latest": {"0.1.9--pyhdfd78af_0": "sha256:15d5ec60cc4117788297db9e6a3d07c1a508ff6e6a947a1c27a0d8bf240ef22d"}, "tags": {"0.1.9--pyhdfd78af_0": "sha256:15d5ec60cc4117788297db9e6a3d07c1a508ff6e6a947a1c27a0d8bf240ef22d"}, "docker": "quay.io/biocontainers/bleties", "aliases": {"NCRF": "/usr/local/bin/NCRF", "bleties": "/usr/local/bin/bleties", "milcor_plot.py": "/usr/local/bin/milcor_plot.py", "milraa_plot.py": "/usr/local/bin/milraa_plot.py", "ncrf_cat": "/usr/local/bin/ncrf_cat", "ncrf_cat.py": "/usr/local/bin/ncrf_cat.py", "ncrf_consensus_filter": "/usr/local/bin/ncrf_consensus_filter", "ncrf_consensus_filter.py": "/usr/local/bin/ncrf_consensus_filter.py", "ncrf_parse.py": "/usr/local/bin/ncrf_parse.py", "ncrf_resolve_overlaps": "/usr/local/bin/ncrf_resolve_overlaps", "ncrf_resolve_overlaps.py": "/usr/local/bin/ncrf_resolve_overlaps.py", "ncrf_sort": "/usr/local/bin/ncrf_sort", "ncrf_sort.py": "/usr/local/bin/ncrf_sort.py", "ncrf_summary": "/usr/local/bin/ncrf_summary", "ncrf_summary.py": "/usr/local/bin/ncrf_summary.py", "ncrf_to_bed": "/usr/local/bin/ncrf_to_bed", "ncrf_to_bed.py": "/usr/local/bin/ncrf_to_bed.py", "spoa": "/usr/local/bin/spoa", "muscle": "/usr/local/bin/muscle", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/bleties", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bleties", "latest": {"0.1.11--pyhdfd78af_1": "sha256:4baecaeab13e9c7071868250cd8cd30873109bf264ac0fa7a26f5e5ff1ee3def"}, "tags": {"0.1.9--pyhdfd78af_0": "sha256:15d5ec60cc4117788297db9e6a3d07c1a508ff6e6a947a1c27a0d8bf240ef22d", "0.1.11--pyhdfd78af_1": "sha256:4baecaeab13e9c7071868250cd8cd30873109bf264ac0fa7a26f5e5ff1ee3def"}, "docker": "quay.io/biocontainers/bleties", "aliases": {"NCRF": "/usr/local/bin/NCRF", "bleties": "/usr/local/bin/bleties", "milcor_plot.py": "/usr/local/bin/milcor_plot.py", "milraa_plot.py": "/usr/local/bin/milraa_plot.py", "ncrf_cat": "/usr/local/bin/ncrf_cat", "ncrf_cat.py": "/usr/local/bin/ncrf_cat.py", "ncrf_consensus_filter": "/usr/local/bin/ncrf_consensus_filter", "ncrf_consensus_filter.py": "/usr/local/bin/ncrf_consensus_filter.py", "ncrf_parse.py": "/usr/local/bin/ncrf_parse.py", "ncrf_resolve_overlaps": "/usr/local/bin/ncrf_resolve_overlaps", "ncrf_resolve_overlaps.py": "/usr/local/bin/ncrf_resolve_overlaps.py", "ncrf_sort": "/usr/local/bin/ncrf_sort", "ncrf_sort.py": "/usr/local/bin/ncrf_sort.py", "ncrf_summary": "/usr/local/bin/ncrf_summary", "ncrf_summary.py": "/usr/local/bin/ncrf_summary.py", "ncrf_to_bed": "/usr/local/bin/ncrf_to_bed", "ncrf_to_bed.py": "/usr/local/bin/ncrf_to_bed.py", "spoa": "/usr/local/bin/spoa", "muscle": "/usr/local/bin/muscle", "f2py3.7": "/usr/local/bin/f2py3.7", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "2to3-3.7": "/usr/local/bin/2to3-3.7", "idle3.7": "/usr/local/bin/idle3.7", "pydoc3.7": "/usr/local/bin/pydoc3.7", "python3.7": "/usr/local/bin/python3.7", "python3.7-config": "/usr/local/bin/python3.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bleties.
@@ -54,7 +55,7 @@ $ shpc install quay.io/biocontainers/bleties
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bleties:0.1.9--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/bleties:0.1.11--pyhdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -66,8 +67,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bleties/0.1.9--pyhdfd78af_0
-$ module help quay.io/biocontainers/bleties/0.1.9--pyhdfd78af_0
+$ module load quay.io/biocontainers/bleties/0.1.11--pyhdfd78af_1
+$ module help quay.io/biocontainers/bleties/0.1.11--pyhdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

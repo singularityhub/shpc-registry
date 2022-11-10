@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-perturbatr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-perturbatr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-perturbatr/container.yaml"
-updated_at: "2022-11-09 00:29:25.962738"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-10 00:06:10.239213"
+latest: "1.13.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-perturbatr"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.13.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-perturbatr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-perturbatr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-perturbatr", "latest": {"1.8.0--r40_0": "sha256:eb481898e92faed624e93cb0c34733bb6fdf85f3d5ad84d3f303ee8f8c62a266"}, "tags": {"1.8.0--r40_0": "sha256:eb481898e92faed624e93cb0c34733bb6fdf85f3d5ad84d3f303ee8f8c62a266"}, "docker": "quay.io/biocontainers/bioconductor-perturbatr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-perturbatr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-perturbatr", "latest": {"1.13.0--r41hdfd78af_0": "sha256:20e5103c3f7e0ce84b601c28910dc37b422775ac8a03fe8cf98150ef2b747b7d"}, "tags": {"1.8.0--r40_0": "sha256:eb481898e92faed624e93cb0c34733bb6fdf85f3d5ad84d3f303ee8f8c62a266", "1.13.0--r41hdfd78af_0": "sha256:20e5103c3f7e0ce84b601c28910dc37b422775ac8a03fe8cf98150ef2b747b7d", "1.12.0--r41hdfd78af_0": "sha256:43417eebe33ab69bd2551eb25f9da3638c009beae80cccd199cc34ab8341d019", "1.10.0--r40hdfd78af_1": "sha256:fe5e14a18880e4e39abe1fc167e111124f0b6479263f0ac4d71da07d04a028de"}, "docker": "quay.io/biocontainers/bioconductor-perturbatr", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-perturbatr.
@@ -34,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-perturbatr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-perturbatr:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-perturbatr:1.13.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-perturbatr/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-perturbatr/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-perturbatr/1.13.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-perturbatr/1.13.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

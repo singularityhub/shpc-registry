@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-harbchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-harbchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-harbchip/container.yaml"
-updated_at: "2022-11-08 23:56:09.715102"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-09 23:42:21.304115"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-harbchip"
 aliases:
  - ".bioconductor-harbchip-post-link.sh"
  - ".bioconductor-harbchip-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-harbchip"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-harbchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harbchip", "latest": {"1.32.0--r41hdfd78af_1": "sha256:b96e33d5e1626f8d2072f019e2945f0cdc123b3e9bf80c4397325d316f7da66c"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:b96e33d5e1626f8d2072f019e2945f0cdc123b3e9bf80c4397325d316f7da66c"}, "docker": "quay.io/biocontainers/bioconductor-harbchip", "aliases": {".bioconductor-harbchip-post-link.sh": "/usr/local/bin/.bioconductor-harbchip-post-link.sh", ".bioconductor-harbchip-pre-unlink.sh": "/usr/local/bin/.bioconductor-harbchip-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-harbchip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-harbchip", "latest": {"1.36.0--r42hdfd78af_0": "sha256:782ac11e3161e14b08f479d5ea00eb352ae4de3cb898e0df23f3166f90d13023"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:b96e33d5e1626f8d2072f019e2945f0cdc123b3e9bf80c4397325d316f7da66c", "1.36.0--r42hdfd78af_0": "sha256:782ac11e3161e14b08f479d5ea00eb352ae4de3cb898e0df23f3166f90d13023"}, "docker": "quay.io/biocontainers/bioconductor-harbchip", "aliases": {".bioconductor-harbchip-post-link.sh": "/usr/local/bin/.bioconductor-harbchip-post-link.sh", ".bioconductor-harbchip-pre-unlink.sh": "/usr/local/bin/.bioconductor-harbchip-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-harbchip.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-harbchip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-harbchip:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-harbchip:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-harbchip/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-harbchip/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-harbchip/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-harbchip/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

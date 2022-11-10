@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-scatac.explorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scatac.explorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scatac.explorer/container.yaml"
-updated_at: "2022-11-09 00:10:08.896989"
-latest: "1.0.1--r41hdfd78af_1"
+updated_at: "2022-11-09 23:52:20.166269"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scatac.explorer"
 aliases:
  - ".bioconductor-scatac.explorer-post-link.sh"
  - ".bioconductor-scatac.explorer-pre-unlink.sh"
 versions:
  - "1.0.1--r41hdfd78af_1"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scatac.explorer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scatac.explorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scatac.explorer", "latest": {"1.0.1--r41hdfd78af_1": "sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5"}, "tags": {"1.0.1--r41hdfd78af_1": "sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5"}, "docker": "quay.io/biocontainers/bioconductor-scatac.explorer", "aliases": {".bioconductor-scatac.explorer-post-link.sh": "/usr/local/bin/.bioconductor-scatac.explorer-post-link.sh", ".bioconductor-scatac.explorer-pre-unlink.sh": "/usr/local/bin/.bioconductor-scatac.explorer-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scatac.explorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scatac.explorer", "latest": {"1.4.0--r42hdfd78af_0": "sha256:cc4501d2bd8fbba963f5093514a9fde1b610caa40d23a15c19b0127653acd8f4"}, "tags": {"1.0.1--r41hdfd78af_1": "sha256:29edc141012c44c9bdd7c0c93bf90e071cf49e47bf80f3d3f053b5bb71b63fc5", "1.4.0--r42hdfd78af_0": "sha256:cc4501d2bd8fbba963f5093514a9fde1b610caa40d23a15c19b0127653acd8f4"}, "docker": "quay.io/biocontainers/bioconductor-scatac.explorer", "aliases": {".bioconductor-scatac.explorer-post-link.sh": "/usr/local/bin/.bioconductor-scatac.explorer-post-link.sh", ".bioconductor-scatac.explorer-pre-unlink.sh": "/usr/local/bin/.bioconductor-scatac.explorer-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scatac.explorer.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scatac.explorer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scatac.explorer:1.0.1--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-scatac.explorer:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scatac.explorer/1.0.1--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-scatac.explorer/1.0.1--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-scatac.explorer/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scatac.explorer/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

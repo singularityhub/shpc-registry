@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnu34.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnu34.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnu34.db/container.yaml"
-updated_at: "2022-11-09 00:59:01.008626"
+updated_at: "2022-11-10 00:27:20.620366"
 latest: "3.2.3--r41hdfd78af_8"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnu34.db"
 aliases:

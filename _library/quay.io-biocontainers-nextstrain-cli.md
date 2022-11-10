@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/nextstrain-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/nextstrain-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/nextstrain-cli/container.yaml"
-updated_at: "2022-11-09 00:33:39.768467"
-latest: "4.2.0--pyhdfd78af_1"
+updated_at: "2022-11-10 00:09:13.792757"
+latest: "5.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/nextstrain-cli"
 aliases:
  - "nextstrain"
@@ -21,8 +21,9 @@ aliases:
  - "rst2pseudoxml.py"
 versions:
  - "4.2.0--pyhdfd78af_1"
+ - "5.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for nextstrain-cli"
-config: {"url": "https://biocontainers.pro/tools/nextstrain-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextstrain-cli", "latest": {"4.2.0--pyhdfd78af_1": "sha256:71902449c6f452deb519f63a161f24453565bbc3caad0344b24bb7da8fa2db2f"}, "tags": {"4.2.0--pyhdfd78af_1": "sha256:71902449c6f452deb519f63a161f24453565bbc3caad0344b24bb7da8fa2db2f"}, "docker": "quay.io/biocontainers/nextstrain-cli", "aliases": {"nextstrain": "/usr/local/bin/nextstrain", "docutils": "/usr/local/bin/docutils", "jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py"}}
+config: {"url": "https://biocontainers.pro/tools/nextstrain-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for nextstrain-cli", "latest": {"5.0.1--pyhdfd78af_0": "sha256:a7fd5d87d83fd364f6d045b2c704aed26bfbeecdf5eac3b6fc631bd1de67341b"}, "tags": {"4.2.0--pyhdfd78af_1": "sha256:71902449c6f452deb519f63a161f24453565bbc3caad0344b24bb7da8fa2db2f", "5.0.1--pyhdfd78af_0": "sha256:a7fd5d87d83fd364f6d045b2c704aed26bfbeecdf5eac3b6fc631bd1de67341b"}, "docker": "quay.io/biocontainers/nextstrain-cli", "aliases": {"nextstrain": "/usr/local/bin/nextstrain", "docutils": "/usr/local/bin/docutils", "jp.py": "/usr/local/bin/jp.py", "rst2html4.py": "/usr/local/bin/rst2html4.py", "rst2html5.py": "/usr/local/bin/rst2html5.py", "rst2html.py": "/usr/local/bin/rst2html.py", "rst2latex.py": "/usr/local/bin/rst2latex.py", "rst2man.py": "/usr/local/bin/rst2man.py", "rst2odt.py": "/usr/local/bin/rst2odt.py", "rst2odt_prepstyles.py": "/usr/local/bin/rst2odt_prepstyles.py", "rst2pseudoxml.py": "/usr/local/bin/rst2pseudoxml.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/nextstrain-cli.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/nextstrain-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/nextstrain-cli:4.2.0--pyhdfd78af_1
+$ shpc install quay.io/biocontainers/nextstrain-cli:5.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/nextstrain-cli/4.2.0--pyhdfd78af_1
-$ module help quay.io/biocontainers/nextstrain-cli/4.2.0--pyhdfd78af_1
+$ module load quay.io/biocontainers/nextstrain-cli/5.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/nextstrain-cli/5.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

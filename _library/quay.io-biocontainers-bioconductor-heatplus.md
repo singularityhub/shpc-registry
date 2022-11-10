@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-heatplus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-heatplus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-heatplus/container.yaml"
-updated_at: "2022-11-08 23:53:47.373020"
-latest: "3.2.0--r41hdfd78af_0"
+updated_at: "2022-11-09 23:40:39.034942"
+latest: "3.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-heatplus"
 
 versions:
  - "3.2.0--r41hdfd78af_0"
+ - "3.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-heatplus"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-heatplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heatplus", "latest": {"3.2.0--r41hdfd78af_0": "sha256:af996e312aa757687d68478acb516f6dd1efaf8e917791ec2876ff37302e61c8"}, "tags": {"3.2.0--r41hdfd78af_0": "sha256:af996e312aa757687d68478acb516f6dd1efaf8e917791ec2876ff37302e61c8"}, "docker": "quay.io/biocontainers/bioconductor-heatplus"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-heatplus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-heatplus", "latest": {"3.6.0--r42hdfd78af_0": "sha256:07dae01af4a2d320674b58fe86ceea76a680600901ca3efdb9b8636c2c14863d"}, "tags": {"3.2.0--r41hdfd78af_0": "sha256:af996e312aa757687d68478acb516f6dd1efaf8e917791ec2876ff37302e61c8", "3.6.0--r42hdfd78af_0": "sha256:07dae01af4a2d320674b58fe86ceea76a680600901ca3efdb9b8636c2c14863d"}, "docker": "quay.io/biocontainers/bioconductor-heatplus"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-heatplus.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-heatplus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-heatplus:3.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-heatplus:3.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-heatplus/3.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-heatplus/3.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-heatplus/3.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-heatplus/3.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

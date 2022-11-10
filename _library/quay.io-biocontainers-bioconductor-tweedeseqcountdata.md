@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tweedeseqcountdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tweedeseqcountdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tweedeseqcountdata/container.yaml"
-updated_at: "2022-11-09 00:46:22.338061"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-10 00:18:20.444436"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tweedeseqcountdata"
 aliases:
  - ".bioconductor-tweedeseqcountdata-post-link.sh"
  - ".bioconductor-tweedeseqcountdata-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tweedeseqcountdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tweedeseqcountdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tweedeseqcountdata", "latest": {"1.32.0--r41hdfd78af_1": "sha256:0a063dfb7e484d887023a4ff33b8bd38c6afcdc8b4851d4c048da779648dbf40"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:0a063dfb7e484d887023a4ff33b8bd38c6afcdc8b4851d4c048da779648dbf40"}, "docker": "quay.io/biocontainers/bioconductor-tweedeseqcountdata", "aliases": {".bioconductor-tweedeseqcountdata-post-link.sh": "/usr/local/bin/.bioconductor-tweedeseqcountdata-post-link.sh", ".bioconductor-tweedeseqcountdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-tweedeseqcountdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tweedeseqcountdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tweedeseqcountdata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:d240cbf12ced94353a9d3ddf02269e5f36b1603e0875a6ec6193d59b85ef69e2"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:0a063dfb7e484d887023a4ff33b8bd38c6afcdc8b4851d4c048da779648dbf40", "1.36.0--r42hdfd78af_0": "sha256:d240cbf12ced94353a9d3ddf02269e5f36b1603e0875a6ec6193d59b85ef69e2"}, "docker": "quay.io/biocontainers/bioconductor-tweedeseqcountdata", "aliases": {".bioconductor-tweedeseqcountdata-post-link.sh": "/usr/local/bin/.bioconductor-tweedeseqcountdata-post-link.sh", ".bioconductor-tweedeseqcountdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-tweedeseqcountdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tweedeseqcountdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tweedeseqcountdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tweedeseqcountdata:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-tweedeseqcountdata:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tweedeseqcountdata/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-tweedeseqcountdata/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-tweedeseqcountdata/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tweedeseqcountdata/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-psichomics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-psichomics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-psichomics/container.yaml"
-updated_at: "2022-11-09 00:53:14.330845"
+updated_at: "2022-11-10 00:23:12.254670"
 latest: "1.20.2--r41hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-psichomics"
 aliases:
