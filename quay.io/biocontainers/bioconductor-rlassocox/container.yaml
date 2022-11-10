@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rlassocox
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rlassocox
 latest:
-  1.2.0--r41hdfd78af_0: sha256:3b3691a76faffe0d6ed7189c9aa3f59db22571b272246c787f6beae322d226ff
+  1.6.0--r42hdfd78af_0: sha256:31aeff723653220e8a884388eb1885971621a323ab961c129b15d1373aa5734e
 tags:
   1.2.0--r41hdfd78af_0: sha256:3b3691a76faffe0d6ed7189c9aa3f59db22571b272246c787f6beae322d226ff
+  1.6.0--r42hdfd78af_0: sha256:31aeff723653220e8a884388eb1885971621a323ab961c129b15d1373aa5734e
 docker: quay.io/biocontainers/bioconductor-rlassocox

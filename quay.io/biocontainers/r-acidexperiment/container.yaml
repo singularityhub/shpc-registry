@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-acidexperiment
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-acidexperiment
 latest:
-  0.3.0--r41hdfd78af_0: sha256:7f190b21233e13ed428108eed86005c9896f03d82fad42d5c45a5c81252b12a3
+  0.4.4--r42hdfd78af_0: sha256:9ce87bf63b684343a8b113ef9f829b60c53c8064805dce7746ebd1ee9cac6871
 tags:
   0.3.0--r41hdfd78af_0: sha256:7f190b21233e13ed428108eed86005c9896f03d82fad42d5c45a5c81252b12a3
+  0.4.4--r42hdfd78af_0: sha256:9ce87bf63b684343a8b113ef9f829b60c53c8064805dce7746ebd1ee9cac6871
 docker: quay.io/biocontainers/r-acidexperiment

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-transview
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-transview
 latest:
-  1.38.0--r41hc0cfd56_2: sha256:ba1feae14587d25043c4e9c442d4582d13b655e966e4f620d979159791de16a6
+  1.42.0--r42hc0cfd56_0: sha256:baa5f7a57354da506faf3e99035900162d6a0beb0b15d92b68cff1e506d75480
 tags:
   1.38.0--r41hc0cfd56_2: sha256:ba1feae14587d25043c4e9c442d4582d13b655e966e4f620d979159791de16a6
+  1.42.0--r42hc0cfd56_0: sha256:baa5f7a57354da506faf3e99035900162d6a0beb0b15d92b68cff1e506d75480
 docker: quay.io/biocontainers/bioconductor-transview

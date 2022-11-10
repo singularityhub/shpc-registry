@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-bumpymatrix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bumpymatrix
 latest:
-  1.2.0--r41hdfd78af_0: sha256:b3d766bd1b8b4a452e8f9fa13dd97208f7a3100b91b3c1276a6a3ff8efd85281
+  1.6.0--r42hdfd78af_0: sha256:c4757a1c5a00b36d3f8b8974a3b8b7132aa71adff22e20572b053e21b9c62b69
 tags:
   1.2.0--r41hdfd78af_0: sha256:b3d766bd1b8b4a452e8f9fa13dd97208f7a3100b91b3c1276a6a3ff8efd85281
+  1.6.0--r42hdfd78af_0: sha256:c4757a1c5a00b36d3f8b8974a3b8b7132aa71adff22e20572b053e21b9c62b69
 docker: quay.io/biocontainers/bioconductor-bumpymatrix

@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-proteomicsannotationhubdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-proteomicsannotationhubdata
 latest:
-  1.8.0--r3.4.1_0: sha256:61270bbb793525acb5ac91836b3d99b33bf52f99edbd45daacb3ef91befd253a
+  1.24.0--r41hdfd78af_0: sha256:bd71dcb4975351a5566db3107d78787fba5149e5997d5fa1329df4571e00a805
 tags:
   1.8.0--r3.4.1_0: sha256:61270bbb793525acb5ac91836b3d99b33bf52f99edbd45daacb3ef91befd253a
+  1.24.0--r41hdfd78af_0: sha256:bd71dcb4975351a5566db3107d78787fba5149e5997d5fa1329df4571e00a805
+  1.22.0--r41hdfd78af_0: sha256:0625f90af3dbb9d422b49adbbb86ae2aa71c8fc6c9926b37ab0eff3e2b884cd9
+  1.20.0--r40hdfd78af_1: sha256:79d560eb29aa139829308b8f26e714f981844b4f144a3fc48528a280b8bcc2ee
+  1.18.0--r40_0: sha256:19f97043d7132caece4e174332966a6ca4edf33ccd34013abaf1805f45df14d2
+  1.16.0--r36_0: sha256:9124e20b7417e13ed4bbd83085cec94ac2434ae14ef37b9dc7378d1381cc223c
 docker: quay.io/biocontainers/bioconductor-proteomicsannotationhubdata
 aliases:
   gif2hdf: /usr/local/bin/gif2hdf
