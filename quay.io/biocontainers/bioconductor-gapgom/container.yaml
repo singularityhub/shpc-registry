@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-gapgom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gapgom
 latest:
-  1.8.0--r41hdfd78af_0: sha256:bda891c0ca33afe92f3176702cff09df7d014da054cc6a040443e3bc6e9ea463
+  1.10.0--r41hdfd78af_0: sha256:56c6d33a3ac5ede9328b3ca8ea6d7e9fbea72ebc04e53365d212b41f92b073d8
 tags:
   1.8.0--r41hdfd78af_0: sha256:bda891c0ca33afe92f3176702cff09df7d014da054cc6a040443e3bc6e9ea463
+  1.10.0--r41hdfd78af_0: sha256:56c6d33a3ac5ede9328b3ca8ea6d7e9fbea72ebc04e53365d212b41f92b073d8
 docker: quay.io/biocontainers/bioconductor-gapgom
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

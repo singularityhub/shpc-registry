@@ -5,6 +5,7 @@ latest:
   0.3_r179--h7132678_3: sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0
 tags:
   0.3_r179--h7132678_3: sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0
+  '0.3': sha256:33f8c2437d6fcb7fab46ff02fc65fdddc1f79a933b1e0293a24b21daa58e3e22
 docker: quay.io/biocontainers/miniasm
 aliases:
   miniasm: /usr/local/bin/miniasm

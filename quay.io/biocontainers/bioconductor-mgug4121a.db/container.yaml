@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mgug4121a.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mgug4121a.db
 latest:
-  3.2.3--r41hdfd78af_9: sha256:48fac3d97af616cdbf2a2a7ed8d641c277e4ca7e163eba747eb708829897eaa4
+  3.2.3--r42hdfd78af_10: sha256:c52032cdf2c6994dfbca9e0537bbbbe708f71e315be35dd6641ba4b3f6667c91
 tags:
   3.2.3--r41hdfd78af_9: sha256:48fac3d97af616cdbf2a2a7ed8d641c277e4ca7e163eba747eb708829897eaa4
+  3.2.3--r42hdfd78af_10: sha256:c52032cdf2c6994dfbca9e0537bbbbe708f71e315be35dd6641ba4b3f6667c91
 docker: quay.io/biocontainers/bioconductor-mgug4121a.db
 aliases:
   .bioconductor-mgug4121a.db-post-link.sh: /usr/local/bin/.bioconductor-mgug4121a.db-post-link.sh

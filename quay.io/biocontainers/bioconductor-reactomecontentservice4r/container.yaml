@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-reactomecontentservice4r
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-reactomecontentservice4r
 latest:
-  1.2.0--r41hdfd78af_0: sha256:fa9bbc9646a8572c089b73f9aca9427c552f2ccf568035df9a00e22d0b77fe88
+  1.6.0--r42hdfd78af_0: sha256:7b6e1a058c029edb5baa9fa7dc879dcb8cb9c7ff10e0e7d96311a10ff77c6b00
 tags:
   1.2.0--r41hdfd78af_0: sha256:fa9bbc9646a8572c089b73f9aca9427c552f2ccf568035df9a00e22d0b77fe88
+  1.6.0--r42hdfd78af_0: sha256:7b6e1a058c029edb5baa9fa7dc879dcb8cb9c7ff10e0e7d96311a10ff77c6b00
 docker: quay.io/biocontainers/bioconductor-reactomecontentservice4r
 aliases:
   x86_64-conda-linux-gnu-pkg-config: /usr/local/bin/x86_64-conda-linux-gnu-pkg-config

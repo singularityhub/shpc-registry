@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/chromosight
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chromosight
 latest:
-  1.6.2--pyhdfd78af_0: sha256:c27a352add95980e57ea0eb6c87fbaf16c4c4a277ec3ddd20caa6dcb3dacb4d3
+  1.6.3--pyhdfd78af_0: sha256:cba9d3d1ce5352293cf4168d4616ef48b575b0e490005d6bcc4f49a96f38adab
 tags:
   1.6.2--pyhdfd78af_0: sha256:c27a352add95980e57ea0eb6c87fbaf16c4c4a277ec3ddd20caa6dcb3dacb4d3
+  1.6.3--pyhdfd78af_0: sha256:cba9d3d1ce5352293cf4168d4616ef48b575b0e490005d6bcc4f49a96f38adab
 docker: quay.io/biocontainers/chromosight
 aliases:
   chromosight: /usr/local/bin/chromosight

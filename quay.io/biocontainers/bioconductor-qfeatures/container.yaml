@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-qfeatures
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qfeatures
 latest:
-  1.4.0--r41hdfd78af_0: sha256:2d3f121be603cb463dbf0adf58e93ead4a1e617147c2d0edca36b21d0613db58
+  1.8.0--r42hdfd78af_0: sha256:4218c6050ab0673195e9abc08f7a884e6d059512ac513972550a719c7dc8a5db
 tags:
   1.4.0--r41hdfd78af_0: sha256:2d3f121be603cb463dbf0adf58e93ead4a1e617147c2d0edca36b21d0613db58
+  1.8.0--r42hdfd78af_0: sha256:4218c6050ab0673195e9abc08f7a884e6d059512ac513972550a719c7dc8a5db
 docker: quay.io/biocontainers/bioconductor-qfeatures

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-msqrob2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-msqrob2
 latest:
-  1.2.0--r41hdfd78af_0: sha256:9ec5889158be1cead005cc1b4cb5715654021d345247f45eded020027e5b57b8
+  1.6.0--r42hdfd78af_0: sha256:d37f9392ea9d36da9912c5c20f7f589c387b700a5103d4ad35047ded7932aec8
 tags:
   1.2.0--r41hdfd78af_0: sha256:9ec5889158be1cead005cc1b4cb5715654021d345247f45eded020027e5b57b8
+  1.6.0--r42hdfd78af_0: sha256:d37f9392ea9d36da9912c5c20f7f589c387b700a5103d4ad35047ded7932aec8
 docker: quay.io/biocontainers/bioconductor-msqrob2

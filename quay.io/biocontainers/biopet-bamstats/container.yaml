@@ -5,6 +5,7 @@ latest:
   1.0.1--hdfd78af_1: sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401
 tags:
   1.0.1--hdfd78af_1: sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401
+  1.0--hdfd78af_1: sha256:6a13ca0642aa2558bafdc5d0969640e30fab6b8451cd39f3a390fc3d4bbbc96c
 docker: quay.io/biocontainers/biopet-bamstats
 aliases:
   biopet-bamstats: /usr/local/bin/biopet-bamstats

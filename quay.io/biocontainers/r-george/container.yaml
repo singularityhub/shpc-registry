@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-george
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-george
 latest:
-  1.0.1--r41h9ee0642_4: sha256:b142309ddef7906ed8a4af669fc191c90a1e4115f927abbae5e9801df6c9a052
+  1.0.1--r42h9ee0642_5: sha256:087ff0c38e996f34784966c3d77ad905c91493df55f07704e8155d6f7a29e954
 tags:
   1.0.1--r41h9ee0642_4: sha256:b142309ddef7906ed8a4af669fc191c90a1e4115f927abbae5e9801df6c9a052
+  1.0.1--r42h9ee0642_5: sha256:087ff0c38e996f34784966c3d77ad905c91493df55f07704e8155d6f7a29e954
 docker: quay.io/biocontainers/r-george
 aliases:
   zipcmp: /usr/local/bin/zipcmp

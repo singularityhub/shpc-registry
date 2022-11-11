@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-paeg1aprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-paeg1aprobe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:47b25ff3f0bbc3612e4649ceea7a03ace9be6e788f8c6cc1099cab6c3fc20f19
+  2.18.0--r42hdfd78af_11: sha256:0dc4cab27d918a644cae756a31d8431835416ac0779b897784fe04990c2f2b66
 tags:
   2.18.0--r41hdfd78af_9: sha256:47b25ff3f0bbc3612e4649ceea7a03ace9be6e788f8c6cc1099cab6c3fc20f19
+  2.18.0--r42hdfd78af_11: sha256:0dc4cab27d918a644cae756a31d8431835416ac0779b897784fe04990c2f2b66
 docker: quay.io/biocontainers/bioconductor-paeg1aprobe
 aliases:
   .bioconductor-paeg1aprobe-post-link.sh: /usr/local/bin/.bioconductor-paeg1aprobe-post-link.sh

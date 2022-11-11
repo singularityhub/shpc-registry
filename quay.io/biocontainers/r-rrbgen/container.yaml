@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-rrbgen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-rrbgen
 latest:
-  0.0.6--r41h9f5acd7_6: sha256:484ac797fab2a3f76843f4123df2f791dd6d7f31921228ef095479d42474b2e3
+  0.0.6--r42h9f5acd7_7: sha256:1129cf324330c6a72a428d93bbb5f5a2b1183fbb46210c48da4e9a9394ac8785
 tags:
   0.0.6--r41h9f5acd7_6: sha256:484ac797fab2a3f76843f4123df2f791dd6d7f31921228ef095479d42474b2e3
+  0.0.6--r42h9f5acd7_7: sha256:1129cf324330c6a72a428d93bbb5f5a2b1183fbb46210c48da4e9a9394ac8785
 docker: quay.io/biocontainers/r-rrbgen

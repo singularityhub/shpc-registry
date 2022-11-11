@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-loom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-loom
 latest:
-  0.2.0.2--r41hdfd78af_4: sha256:c473ada74eb684ea3327b6a3558cadf2742b75d6bef564e38ee0d362c083e2ee
+  0.2.0.2--r42hdfd78af_5: sha256:7812b7235f6f86d16661dfa91216727d01f724966e6fcf96b35a386fa3e83ecf
 tags:
   0.2.0.2--r41hdfd78af_4: sha256:c473ada74eb684ea3327b6a3558cadf2742b75d6bef564e38ee0d362c083e2ee
+  0.2.0.2--r42hdfd78af_5: sha256:7812b7235f6f86d16661dfa91216727d01f724966e6fcf96b35a386fa3e83ecf
 docker: quay.io/biocontainers/r-loom
 aliases:
   h5clear: /usr/local/bin/h5clear

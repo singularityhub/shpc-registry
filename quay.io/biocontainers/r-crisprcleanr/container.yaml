@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-crisprcleanr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-crisprcleanr
 latest:
-  2.3.1--r41hdfd78af_0: sha256:6b6ac5be02b266bb7f645cea235f7a97abe00c8203424730de1dd04e54128eb1
+  2.3.1--r42hdfd78af_1: sha256:2bd10491471084d969f258316680bb9c93a3fcd16276e9b6ae4de8f5d590ad7e
 tags:
   2.3.1--r41hdfd78af_0: sha256:6b6ac5be02b266bb7f645cea235f7a97abe00c8203424730de1dd04e54128eb1
+  2.3.1--r42hdfd78af_1: sha256:2bd10491471084d969f258316680bb9c93a3fcd16276e9b6ae4de8f5d590ad7e
 docker: quay.io/biocontainers/r-crisprcleanr

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/btyper3
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for btyper3
 latest:
-  3.3.2--pyhdfd78af_0: sha256:6b7eea4cc2b725019bcdf458303618a77c2ac813267712585ed464b7a4eab52c
+  3.3.3--pyhdfd78af_0: sha256:f09f2e8d5a042296d15e0c32577feb9af6eeff889eb3bdbad50d0c23eaccd487
 tags:
   3.3.2--pyhdfd78af_0: sha256:6b7eea4cc2b725019bcdf458303618a77c2ac813267712585ed464b7a4eab52c
+  3.3.3--pyhdfd78af_0: sha256:f09f2e8d5a042296d15e0c32577feb9af6eeff889eb3bdbad50d0c23eaccd487
 docker: quay.io/biocontainers/btyper3
 aliases:
   btyper3: /usr/local/bin/btyper3

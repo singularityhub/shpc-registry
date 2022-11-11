@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-rgmql
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rgmql
 latest:
-  1.6.0--r36_1: sha256:b0c4d005ebc6eaaadd54573591c9b4f1976afcc00c8896b9568d0baec584a941
+  1.18.0--r42hdfd78af_0: sha256:a5c611b40544500238b1426e77192e91aab0a2b77eb44c8e051a9292ffebfa7b
 tags:
   1.6.0--r36_1: sha256:b0c4d005ebc6eaaadd54573591c9b4f1976afcc00c8896b9568d0baec584a941
+  1.18.0--r42hdfd78af_0: sha256:a5c611b40544500238b1426e77192e91aab0a2b77eb44c8e051a9292ffebfa7b
+  1.14.0--r41hdfd78af_0: sha256:7e9ab72b7f19ef9c80a2ab04d5d5a212dcd6fcde3d70c8307d5c5c6afdaa181a
+  1.12.1--r41hdfd78af_0: sha256:2c147cce2e39c191a1eb3d08af4d8c9468789c55a4726f623ab8606a73534757
+  1.10.0--r40hdfd78af_1: sha256:1edec32119c15eb5d440d7261bc0665b37e5ecd7b12e6b3c5b154f3ab5071cf7
 docker: quay.io/biocontainers/bioconductor-rgmql
 aliases:
   .bioconductor-rgmqllib-post-link.sh: /usr/local/bin/.bioconductor-rgmqllib-post-link.sh
