@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mimseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mimseq
 latest:
-  1.2--pyhdfd78af_0: sha256:7f03bf31b08f2b425b4effab2d248b429953b9e4660494265e0a0dcaf8e65262
+  1.2.1--pyhdfd78af_0: sha256:bfbf4e61b7d6912b81824d040cff1c97306d2d712608c3e3d591f460f1fa712d
 tags:
   1.2--pyhdfd78af_0: sha256:7f03bf31b08f2b425b4effab2d248b429953b9e4660494265e0a0dcaf8e65262
+  1.2.1--pyhdfd78af_0: sha256:bfbf4e61b7d6912b81824d040cff1c97306d2d712608c3e3d591f460f1fa712d
 docker: quay.io/biocontainers/mimseq
 aliases:
   atoiindex: /usr/local/bin/atoiindex

@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-metams
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metams
 latest:
-  1.8.0--0: sha256:d1e2c9473cd7d4fb6de868c687e4966e7011b8a078bc42b0a09fe1d766b3c5c0
+  1.34.0--r42hdfd78af_0: sha256:815a27196f3ff430b493062f4e8aabc02c9c57293394358c855d5b53b4fc244d
 tags:
   1.8.0--0: sha256:d1e2c9473cd7d4fb6de868c687e4966e7011b8a078bc42b0a09fe1d766b3c5c0
+  1.34.0--r42hdfd78af_0: sha256:815a27196f3ff430b493062f4e8aabc02c9c57293394358c855d5b53b4fc244d
+  1.30.0--r41hdfd78af_0: sha256:2c67fcd4a8f8069fb6e0692287e871ec86aeab8ef5bd641bfd82ea9f2acd7c31
+  1.28.0--r41hdfd78af_0: sha256:b186edb08dfd71454c7ba314fd9efddad40d56a17c62e26ca5e686f1e00cd968
+  1.26.0--r40hdfd78af_1: sha256:618e03c20473e897291ead36fe57122ea969d9d93724adb21a900ffee5098a04
+  1.24.0--r40_0: sha256:8a70c1cccffbee4f32de1532a232561fd6815cee639723970c1d1dd5de80f8f4
 docker: quay.io/biocontainers/bioconductor-metams
 aliases:
   pngcp: /usr/local/bin/pngcp

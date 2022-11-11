@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scpdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scpdata
 latest:
-  1.2.0--r41hdfd78af_1: sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc
+  1.6.0--r42hdfd78af_0: sha256:0db19fb3bc401c252e1e5d9bbcfebead0f4239aa10d7673609f278edfb384afb
 tags:
   1.2.0--r41hdfd78af_1: sha256:97c24d199ce9fbe9602b03ad0d658c9b98382377b01eadae5822aeaa476d6ccc
+  1.6.0--r42hdfd78af_0: sha256:0db19fb3bc401c252e1e5d9bbcfebead0f4239aa10d7673609f278edfb384afb
 docker: quay.io/biocontainers/bioconductor-scpdata
 aliases:
   .bioconductor-scpdata-post-link.sh: /usr/local/bin/.bioconductor-scpdata-post-link.sh

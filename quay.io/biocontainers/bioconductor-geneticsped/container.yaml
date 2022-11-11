@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-geneticsped
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geneticsped
 latest:
-  1.56.0--r41h38f54d8_2: sha256:f1eec506d1fd6f2e369b2e8eea8f3d8f49693ef08952429ee63676de432e2277
+  1.60.0--r42h38f54d8_0: sha256:4b337e642b65ba084cec459117899c701e7f9f9ef4643d359437f157946beb2a
 tags:
   1.56.0--r41h38f54d8_2: sha256:f1eec506d1fd6f2e369b2e8eea8f3d8f49693ef08952429ee63676de432e2277
+  1.60.0--r42h38f54d8_0: sha256:4b337e642b65ba084cec459117899c701e7f9f9ef4643d359437f157946beb2a
 docker: quay.io/biocontainers/bioconductor-geneticsped
