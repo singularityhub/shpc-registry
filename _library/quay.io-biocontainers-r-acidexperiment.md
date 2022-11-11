@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-acidexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidexperiment/container.yaml"
-updated_at: "2022-11-09 23:56:57.554207"
-latest: "0.3.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:32:29.158020"
+latest: "0.4.4--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-acidexperiment"
 
 versions:
  - "0.3.0--r41hdfd78af_0"
+ - "0.4.4--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-acidexperiment"
-config: {"url": "https://biocontainers.pro/tools/r-acidexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidexperiment", "latest": {"0.3.0--r41hdfd78af_0": "sha256:7f190b21233e13ed428108eed86005c9896f03d82fad42d5c45a5c81252b12a3"}, "tags": {"0.3.0--r41hdfd78af_0": "sha256:7f190b21233e13ed428108eed86005c9896f03d82fad42d5c45a5c81252b12a3"}, "docker": "quay.io/biocontainers/r-acidexperiment"}
+config: {"url": "https://biocontainers.pro/tools/r-acidexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidexperiment", "latest": {"0.4.4--r42hdfd78af_0": "sha256:9ce87bf63b684343a8b113ef9f829b60c53c8064805dce7746ebd1ee9cac6871"}, "tags": {"0.3.0--r41hdfd78af_0": "sha256:7f190b21233e13ed428108eed86005c9896f03d82fad42d5c45a5c81252b12a3", "0.4.4--r42hdfd78af_0": "sha256:9ce87bf63b684343a8b113ef9f829b60c53c8064805dce7746ebd1ee9cac6871"}, "docker": "quay.io/biocontainers/r-acidexperiment"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidexperiment.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-acidexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidexperiment:0.3.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidexperiment:0.4.4--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidexperiment/0.3.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-acidexperiment/0.3.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-acidexperiment/0.4.4--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-acidexperiment/0.4.4--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

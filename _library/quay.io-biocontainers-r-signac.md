@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-signac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-signac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-signac/container.yaml"
-updated_at: "2022-11-10 00:15:55.544599"
-latest: "1.8.0--r41hecf12ef_0"
+updated_at: "2022-11-11 00:52:20.089602"
+latest: "1.8.0--r42hecf12ef_1"
 container_url: "https://biocontainers.pro/tools/r-signac"
 aliases:
  - "geosop"
  - "geos-config"
 versions:
  - "1.8.0--r41hecf12ef_0"
+ - "1.8.0--r42hecf12ef_1"
 description: "shpc-registry automated BioContainers addition for r-signac"
-config: {"url": "https://biocontainers.pro/tools/r-signac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-signac", "latest": {"1.8.0--r41hecf12ef_0": "sha256:f212100013aac7cf43778f9fa5d9fc9e2aea39ed90d58919ea99c43f99405fb8"}, "tags": {"1.8.0--r41hecf12ef_0": "sha256:f212100013aac7cf43778f9fa5d9fc9e2aea39ed90d58919ea99c43f99405fb8"}, "docker": "quay.io/biocontainers/r-signac", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-signac", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-signac", "latest": {"1.8.0--r42hecf12ef_1": "sha256:0e1afe6c0bae43e4b1064710c97d9be7e282f44ea147e1cd1f9e9ebcaa05ff34"}, "tags": {"1.8.0--r41hecf12ef_0": "sha256:f212100013aac7cf43778f9fa5d9fc9e2aea39ed90d58919ea99c43f99405fb8", "1.8.0--r42hecf12ef_1": "sha256:0e1afe6c0bae43e4b1064710c97d9be7e282f44ea147e1cd1f9e9ebcaa05ff34"}, "docker": "quay.io/biocontainers/r-signac", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-signac.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-signac
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-signac:1.8.0--r41hecf12ef_0
+$ shpc install quay.io/biocontainers/r-signac:1.8.0--r42hecf12ef_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-signac/1.8.0--r41hecf12ef_0
-$ module help quay.io/biocontainers/r-signac/1.8.0--r41hecf12ef_0
+$ module load quay.io/biocontainers/r-signac/1.8.0--r42hecf12ef_1
+$ module help quay.io/biocontainers/r-signac/1.8.0--r42hecf12ef_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

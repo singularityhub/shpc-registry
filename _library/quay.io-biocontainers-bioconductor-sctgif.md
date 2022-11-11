@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-sctgif"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sctgif/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sctgif/container.yaml"
-updated_at: "2022-11-09 23:41:10.373889"
-latest: "1.8.0--r41hc247a5b_2"
+updated_at: "2022-11-11 00:15:55.147419"
+latest: "1.12.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sctgif"
 aliases:
  - "pg_amcheck"
@@ -20,8 +20,9 @@ aliases:
  - "applygeo"
 versions:
  - "1.8.0--r41hc247a5b_2"
+ - "1.12.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sctgif"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sctgif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sctgif", "latest": {"1.8.0--r41hc247a5b_2": "sha256:19344ef27f25508fcc987aa019b67c6f0bcb1798e658c9f118a3b2879b6e11ed"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:19344ef27f25508fcc987aa019b67c6f0bcb1798e658c9f118a3b2879b6e11ed"}, "docker": "quay.io/biocontainers/bioconductor-sctgif", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sctgif", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sctgif", "latest": {"1.12.0--r42hc247a5b_0": "sha256:352a7648685fd446ada6962f6d4cb9efd2005c1adc5d5ced1d483facb85234fb"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:19344ef27f25508fcc987aa019b67c6f0bcb1798e658c9f118a3b2879b6e11ed", "1.12.0--r42hc247a5b_0": "sha256:352a7648685fd446ada6962f6d4cb9efd2005c1adc5d5ced1d483facb85234fb"}, "docker": "quay.io/biocontainers/bioconductor-sctgif", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sctgif.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sctgif
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sctgif:1.8.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-sctgif:1.12.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sctgif/1.8.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-sctgif/1.8.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-sctgif/1.12.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-sctgif/1.12.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

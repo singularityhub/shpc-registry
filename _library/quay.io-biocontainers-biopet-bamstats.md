@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-bamstats"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-bamstats/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-bamstats/container.yaml"
-updated_at: "2022-11-10 00:19:20.175274"
+updated_at: "2022-11-11 00:55:53.275291"
 latest: "1.0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-bamstats"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "appletviewer"
 versions:
  - "1.0.1--hdfd78af_1"
+ - "1.0--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for biopet-bamstats"
-config: {"url": "https://biocontainers.pro/tools/biopet-bamstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-bamstats", "latest": {"1.0.1--hdfd78af_1": "sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401"}, "tags": {"1.0.1--hdfd78af_1": "sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401"}, "docker": "quay.io/biocontainers/biopet-bamstats", "aliases": {"biopet-bamstats": "/usr/local/bin/biopet-bamstats", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
+config: {"url": "https://biocontainers.pro/tools/biopet-bamstats", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biopet-bamstats", "latest": {"1.0.1--hdfd78af_1": "sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401"}, "tags": {"1.0.1--hdfd78af_1": "sha256:d8384c4a06c4fa08af2ba2d426996a0f5d887987c2c4755b3c36bbd255b3c401", "1.0--hdfd78af_1": "sha256:6a13ca0642aa2558bafdc5d0969640e30fab6b8451cd39f3a390fc3d4bbbc96c"}, "docker": "quay.io/biocontainers/biopet-bamstats", "aliases": {"biopet-bamstats": "/usr/local/bin/biopet-bamstats", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biopet-bamstats.

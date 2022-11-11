@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-affymetrixdatatestfiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/container.yaml"
-updated_at: "2022-11-09 23:42:02.519325"
-latest: "0.32.0--r41hdfd78af_1"
+updated_at: "2022-11-11 00:16:49.640462"
+latest: "0.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-affymetrixdatatestfiles"
 aliases:
  - ".bioconductor-affymetrixdatatestfiles-post-link.sh"
  - ".bioconductor-affymetrixdatatestfiles-pre-unlink.sh"
 versions:
  - "0.32.0--r41hdfd78af_1"
+ - "0.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-affymetrixdatatestfiles"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-affymetrixdatatestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affymetrixdatatestfiles", "latest": {"0.32.0--r41hdfd78af_1": "sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a"}, "docker": "quay.io/biocontainers/bioconductor-affymetrixdatatestfiles", "aliases": {".bioconductor-affymetrixdatatestfiles-post-link.sh": "/usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh", ".bioconductor-affymetrixdatatestfiles-pre-unlink.sh": "/usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-affymetrixdatatestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-affymetrixdatatestfiles", "latest": {"0.35.0--r42hdfd78af_0": "sha256:3527daa7d8d772fb901aa1d87854d3aafb0f2f112cbd84be7a538e49b0dfb8f1"}, "tags": {"0.32.0--r41hdfd78af_1": "sha256:55eab41c1e0ef118f812ba138cceb383712127f08ea794c46b4b2c16bcc02a7a", "0.35.0--r42hdfd78af_0": "sha256:3527daa7d8d772fb901aa1d87854d3aafb0f2f112cbd84be7a538e49b0dfb8f1"}, "docker": "quay.io/biocontainers/bioconductor-affymetrixdatatestfiles", "aliases": {".bioconductor-affymetrixdatatestfiles-post-link.sh": "/usr/local/bin/.bioconductor-affymetrixdatatestfiles-post-link.sh", ".bioconductor-affymetrixdatatestfiles-pre-unlink.sh": "/usr/local/bin/.bioconductor-affymetrixdatatestfiles-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-affymetrixdatatestfiles.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-affymetrixdatatestfiles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-affymetrixdatatestfiles:0.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-affymetrixdatatestfiles:0.35.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/0.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/0.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/0.35.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-affymetrixdatatestfiles/0.35.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

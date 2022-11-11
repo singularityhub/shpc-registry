@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/miniasm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/miniasm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/miniasm/container.yaml"
-updated_at: "2022-11-09 23:45:49.537254"
+updated_at: "2022-11-11 00:20:46.898376"
 latest: "0.3_r179--h7132678_3"
 container_url: "https://biocontainers.pro/tools/miniasm"
 aliases:
@@ -12,8 +12,9 @@ aliases:
  - "minidot"
 versions:
  - "0.3_r179--h7132678_3"
+ - "0.3"
 description: "shpc-registry automated BioContainers addition for miniasm"
-config: {"url": "https://biocontainers.pro/tools/miniasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miniasm", "latest": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0"}, "tags": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0"}, "docker": "quay.io/biocontainers/miniasm", "aliases": {"miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot"}}
+config: {"url": "https://biocontainers.pro/tools/miniasm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for miniasm", "latest": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0"}, "tags": {"0.3_r179--h7132678_3": "sha256:8f317be94f1b5e299957daf3a806ee089aac090eb3510766bd3d6a38ac2be9f0", "0.3": "sha256:33f8c2437d6fcb7fab46ff02fc65fdddc1f79a933b1e0293a24b21daa58e3e22"}, "docker": "quay.io/biocontainers/miniasm", "aliases": {"miniasm": "/usr/local/bin/miniasm", "minidot": "/usr/local/bin/minidot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/miniasm.

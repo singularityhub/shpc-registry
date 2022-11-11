@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/container.yaml"
-updated_at: "2022-11-09 23:42:40.188913"
-latest: "4.28.0--r41hdfd78af_1"
+updated_at: "2022-11-11 00:17:28.751677"
+latest: "4.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pwmenrich.hsapiens.background"
 aliases:
  - ".bioconductor-pwmenrich.hsapiens.background-post-link.sh"
  - ".bioconductor-pwmenrich.hsapiens.background-pre-unlink.sh"
 versions:
  - "4.28.0--r41hdfd78af_1"
+ - "4.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pwmenrich.hsapiens.background"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pwmenrich.hsapiens.background", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pwmenrich.hsapiens.background", "latest": {"4.28.0--r41hdfd78af_1": "sha256:97341cafd2a70fc45c51c7e3329499f887e53efee306e1fde9a1057176169637"}, "tags": {"4.28.0--r41hdfd78af_1": "sha256:97341cafd2a70fc45c51c7e3329499f887e53efee306e1fde9a1057176169637"}, "docker": "quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background", "aliases": {".bioconductor-pwmenrich.hsapiens.background-post-link.sh": "/usr/local/bin/.bioconductor-pwmenrich.hsapiens.background-post-link.sh", ".bioconductor-pwmenrich.hsapiens.background-pre-unlink.sh": "/usr/local/bin/.bioconductor-pwmenrich.hsapiens.background-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pwmenrich.hsapiens.background", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pwmenrich.hsapiens.background", "latest": {"4.32.0--r42hdfd78af_0": "sha256:64b4cdef6d6684f96a01c5ac276a6bd23c719ca5c465360dc29c4ea8eace6467"}, "tags": {"4.28.0--r41hdfd78af_1": "sha256:97341cafd2a70fc45c51c7e3329499f887e53efee306e1fde9a1057176169637", "4.32.0--r42hdfd78af_0": "sha256:64b4cdef6d6684f96a01c5ac276a6bd23c719ca5c465360dc29c4ea8eace6467"}, "docker": "quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background", "aliases": {".bioconductor-pwmenrich.hsapiens.background-post-link.sh": "/usr/local/bin/.bioconductor-pwmenrich.hsapiens.background-post-link.sh", ".bioconductor-pwmenrich.hsapiens.background-pre-unlink.sh": "/usr/local/bin/.bioconductor-pwmenrich.hsapiens.background-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background:4.28.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background:4.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/4.28.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/4.28.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/4.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pwmenrich.hsapiens.background/4.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

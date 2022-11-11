@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chromosight"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chromosight/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chromosight/container.yaml"
-updated_at: "2022-11-10 00:02:53.426286"
-latest: "1.6.2--pyhdfd78af_0"
+updated_at: "2022-11-11 00:38:40.804245"
+latest: "1.6.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/chromosight"
 aliases:
  - "chromosight"
@@ -21,8 +21,9 @@ aliases:
  - "pairix"
 versions:
  - "1.6.2--pyhdfd78af_0"
+ - "1.6.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for chromosight"
-config: {"url": "https://biocontainers.pro/tools/chromosight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromosight", "latest": {"1.6.2--pyhdfd78af_0": "sha256:c27a352add95980e57ea0eb6c87fbaf16c4c4a277ec3ddd20caa6dcb3dacb4d3"}, "tags": {"1.6.2--pyhdfd78af_0": "sha256:c27a352add95980e57ea0eb6c87fbaf16c4c4a277ec3ddd20caa6dcb3dacb4d3"}, "docker": "quay.io/biocontainers/chromosight", "aliases": {"chromosight": "/usr/local/bin/chromosight", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
+config: {"url": "https://biocontainers.pro/tools/chromosight", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chromosight", "latest": {"1.6.3--pyhdfd78af_0": "sha256:cba9d3d1ce5352293cf4168d4616ef48b575b0e490005d6bcc4f49a96f38adab"}, "tags": {"1.6.2--pyhdfd78af_0": "sha256:c27a352add95980e57ea0eb6c87fbaf16c4c4a277ec3ddd20caa6dcb3dacb4d3", "1.6.3--pyhdfd78af_0": "sha256:cba9d3d1ce5352293cf4168d4616ef48b575b0e490005d6bcc4f49a96f38adab"}, "docker": "quay.io/biocontainers/chromosight", "aliases": {"chromosight": "/usr/local/bin/chromosight", "cooler": "/usr/local/bin/cooler", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chromosight.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/chromosight
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chromosight:1.6.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/chromosight:1.6.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chromosight/1.6.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/chromosight/1.6.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/chromosight/1.6.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/chromosight/1.6.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-mutoss"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-mutoss/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-mutoss/container.yaml"
-updated_at: "2022-11-09 23:44:12.716873"
+updated_at: "2022-11-11 00:19:04.890723"
 latest: "0.1_12--r41h3121a25_5"
 container_url: "https://biocontainers.pro/tools/r-mutoss"
 aliases:

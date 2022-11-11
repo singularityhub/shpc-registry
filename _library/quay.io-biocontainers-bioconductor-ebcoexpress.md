@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ebcoexpress"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ebcoexpress/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ebcoexpress/container.yaml"
-updated_at: "2022-11-09 23:51:03.621959"
-latest: "1.38.0--r41hc0cfd56_2"
+updated_at: "2022-11-11 00:26:19.518605"
+latest: "1.42.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ebcoexpress"
 
 versions:
  - "1.38.0--r41hc0cfd56_2"
+ - "1.42.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ebcoexpress"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ebcoexpress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebcoexpress", "latest": {"1.38.0--r41hc0cfd56_2": "sha256:801af83f9aff29876ee4711c6cfefc3b8e98d5c6be863230b7c8c6448e547f1a"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:801af83f9aff29876ee4711c6cfefc3b8e98d5c6be863230b7c8c6448e547f1a"}, "docker": "quay.io/biocontainers/bioconductor-ebcoexpress"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ebcoexpress", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ebcoexpress", "latest": {"1.42.0--r42hc0cfd56_0": "sha256:c330880628ad3113328b47fa41acfdbf6f95c27d85d2d6b78c980f8f8132fe11"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:801af83f9aff29876ee4711c6cfefc3b8e98d5c6be863230b7c8c6448e547f1a", "1.42.0--r42hc0cfd56_0": "sha256:c330880628ad3113328b47fa41acfdbf6f95c27d85d2d6b78c980f8f8132fe11"}, "docker": "quay.io/biocontainers/bioconductor-ebcoexpress"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ebcoexpress.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ebcoexpress
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ebcoexpress:1.38.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-ebcoexpress:1.42.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ebcoexpress/1.38.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-ebcoexpress/1.38.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-ebcoexpress/1.42.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-ebcoexpress/1.42.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

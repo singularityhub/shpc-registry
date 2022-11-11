@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hd2013sgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hd2013sgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hd2013sgi/container.yaml"
-updated_at: "2022-11-10 00:18:50.540368"
-latest: "1.34.0--r41hdfd78af_1"
+updated_at: "2022-11-11 00:55:22.425108"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hd2013sgi"
 aliases:
  - ".bioconductor-hd2013sgi-post-link.sh"
@@ -16,8 +16,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "1.34.0--r41hdfd78af_1"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hd2013sgi"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hd2013sgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hd2013sgi", "latest": {"1.34.0--r41hdfd78af_1": "sha256:0f8bab43e27ed890a64d8d7f8287c9c3ab828fa102d6b09a7c44a78643ca4a4b"}, "tags": {"1.34.0--r41hdfd78af_1": "sha256:0f8bab43e27ed890a64d8d7f8287c9c3ab828fa102d6b09a7c44a78643ca4a4b"}, "docker": "quay.io/biocontainers/bioconductor-hd2013sgi", "aliases": {".bioconductor-hd2013sgi-post-link.sh": "/usr/local/bin/.bioconductor-hd2013sgi-post-link.sh", ".bioconductor-hd2013sgi-pre-unlink.sh": "/usr/local/bin/.bioconductor-hd2013sgi-pre-unlink.sh", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hd2013sgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hd2013sgi", "latest": {"1.38.0--r42hdfd78af_0": "sha256:d31a6b64091dc6eb91caca8520676b9e68ca93f1c3b6b2959a95470cbfd96930"}, "tags": {"1.34.0--r41hdfd78af_1": "sha256:0f8bab43e27ed890a64d8d7f8287c9c3ab828fa102d6b09a7c44a78643ca4a4b", "1.38.0--r42hdfd78af_0": "sha256:d31a6b64091dc6eb91caca8520676b9e68ca93f1c3b6b2959a95470cbfd96930"}, "docker": "quay.io/biocontainers/bioconductor-hd2013sgi", "aliases": {".bioconductor-hd2013sgi-post-link.sh": "/usr/local/bin/.bioconductor-hd2013sgi-post-link.sh", ".bioconductor-hd2013sgi-pre-unlink.sh": "/usr/local/bin/.bioconductor-hd2013sgi-pre-unlink.sh", "fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hd2013sgi.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hd2013sgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hd2013sgi:1.34.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-hd2013sgi:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hd2013sgi/1.34.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-hd2013sgi/1.34.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-hd2013sgi/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hd2013sgi/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

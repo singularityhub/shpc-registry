@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-math-matrixreal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-math-matrixreal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-math-matrixreal/container.yaml"
-updated_at: "2022-11-10 00:16:31.705730"
+updated_at: "2022-11-11 00:52:57.935920"
 latest: "2.13--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-math-matrixreal"
 aliases:

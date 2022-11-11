@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mirfix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mirfix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mirfix/container.yaml"
-updated_at: "2022-11-09 23:48:48.709718"
-latest: "2.1.0--hdfd78af_0"
+updated_at: "2022-11-11 00:23:56.964445"
+latest: "2.1.1--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mirfix"
 aliases:
  - "MIRfix.py"
@@ -24,8 +24,9 @@ aliases:
  - "popt"
 versions:
  - "2.1.0--hdfd78af_0"
+ - "2.1.1--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mirfix"
-config: {"url": "https://biocontainers.pro/tools/mirfix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirfix", "latest": {"2.1.0--hdfd78af_0": "sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55"}, "tags": {"2.1.0--hdfd78af_0": "sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55"}, "docker": "quay.io/biocontainers/mirfix", "aliases": {"MIRfix.py": "/usr/local/bin/MIRfix.py", "dialign2-2": "/usr/local/bin/dialign2-2", "runMIRfix.sh": "/usr/local/bin/runMIRfix.sh", "testMIRfix.sh": "/usr/local/bin/testMIRfix.sh", "RNAdos": "/usr/local/bin/RNAdos", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt"}}
+config: {"url": "https://biocontainers.pro/tools/mirfix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mirfix", "latest": {"2.1.1--hdfd78af_0": "sha256:13fe6ec153c21432bbc10c081c88f85e92effa94d62873ac9cc7f105decf573c"}, "tags": {"2.1.0--hdfd78af_0": "sha256:ddc45e81f31a1fcd852867932873d38608da93672640adf9df3bca43f4233f55", "2.1.1--hdfd78af_0": "sha256:13fe6ec153c21432bbc10c081c88f85e92effa94d62873ac9cc7f105decf573c"}, "docker": "quay.io/biocontainers/mirfix", "aliases": {"MIRfix.py": "/usr/local/bin/MIRfix.py", "dialign2-2": "/usr/local/bin/dialign2-2", "runMIRfix.sh": "/usr/local/bin/runMIRfix.sh", "testMIRfix.sh": "/usr/local/bin/testMIRfix.sh", "RNAdos": "/usr/local/bin/RNAdos", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker", "popt": "/usr/local/bin/popt"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mirfix.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/mirfix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mirfix:2.1.0--hdfd78af_0
+$ shpc install quay.io/biocontainers/mirfix:2.1.1--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mirfix/2.1.0--hdfd78af_0
-$ module help quay.io/biocontainers/mirfix/2.1.0--hdfd78af_0
+$ module load quay.io/biocontainers/mirfix/2.1.1--hdfd78af_0
+$ module help quay.io/biocontainers/mirfix/2.1.1--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

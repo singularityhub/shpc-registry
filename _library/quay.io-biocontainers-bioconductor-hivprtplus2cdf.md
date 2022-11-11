@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hivprtplus2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hivprtplus2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hivprtplus2cdf/container.yaml"
-updated_at: "2022-11-09 23:40:47.861085"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-11 00:15:31.695091"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hivprtplus2cdf"
 aliases:
  - ".bioconductor-hivprtplus2cdf-post-link.sh"
  - ".bioconductor-hivprtplus2cdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hivprtplus2cdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hivprtplus2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hivprtplus2cdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:6baaa8d350900db571a0eceae5a526119d6d94640a217a440507948e20c0ea0d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6baaa8d350900db571a0eceae5a526119d6d94640a217a440507948e20c0ea0d"}, "docker": "quay.io/biocontainers/bioconductor-hivprtplus2cdf", "aliases": {".bioconductor-hivprtplus2cdf-post-link.sh": "/usr/local/bin/.bioconductor-hivprtplus2cdf-post-link.sh", ".bioconductor-hivprtplus2cdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-hivprtplus2cdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hivprtplus2cdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hivprtplus2cdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:3fae1ea83f30944fcd6713e2ab273b6a7fd7f93cfc1bd66087a0c9a859387d49"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:6baaa8d350900db571a0eceae5a526119d6d94640a217a440507948e20c0ea0d", "2.18.0--r42hdfd78af_10": "sha256:3fae1ea83f30944fcd6713e2ab273b6a7fd7f93cfc1bd66087a0c9a859387d49"}, "docker": "quay.io/biocontainers/bioconductor-hivprtplus2cdf", "aliases": {".bioconductor-hivprtplus2cdf-post-link.sh": "/usr/local/bin/.bioconductor-hivprtplus2cdf-post-link.sh", ".bioconductor-hivprtplus2cdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-hivprtplus2cdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hivprtplus2cdf.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hivprtplus2cdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hivprtplus2cdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-hivprtplus2cdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hivprtplus2cdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-hivprtplus2cdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-hivprtplus2cdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-hivprtplus2cdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

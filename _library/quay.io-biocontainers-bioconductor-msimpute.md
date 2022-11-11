@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-msimpute"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msimpute/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msimpute/container.yaml"
-updated_at: "2022-11-09 23:53:58.418227"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:29:22.060304"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msimpute"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msimpute"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msimpute", "latest": {"1.4.0--r41hdfd78af_0": "sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399"}, "docker": "quay.io/biocontainers/bioconductor-msimpute"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msimpute", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msimpute", "latest": {"1.8.0--r42hdfd78af_0": "sha256:24e167f5f4a501e2561bac0dc76b65dad41ea35008feaac79952d34a26ab8b2e"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:4176ec6d112d6b28128199960353ae2b671cf5573d2b8a496e1b5f8f208ac399", "1.8.0--r42hdfd78af_0": "sha256:24e167f5f4a501e2561bac0dc76b65dad41ea35008feaac79952d34a26ab8b2e"}, "docker": "quay.io/biocontainers/bioconductor-msimpute"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msimpute.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msimpute
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msimpute:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msimpute:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msimpute/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msimpute/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msimpute/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msimpute/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

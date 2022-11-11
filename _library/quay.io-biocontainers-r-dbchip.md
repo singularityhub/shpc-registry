@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-dbchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dbchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dbchip/container.yaml"
-updated_at: "2022-11-09 23:58:03.864721"
+updated_at: "2022-11-11 00:33:38.398045"
 latest: "1.1.6--r3.2.2_1"
 container_url: "https://biocontainers.pro/tools/r-dbchip"
 aliases:

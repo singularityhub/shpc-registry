@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-george"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-george/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-george/container.yaml"
-updated_at: "2022-11-10 00:28:09.120510"
-latest: "1.0.1--r41h9ee0642_4"
+updated_at: "2022-11-11 01:05:05.031596"
+latest: "1.0.1--r42h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/r-george"
 aliases:
  - "zipcmp"
@@ -20,8 +20,9 @@ aliases:
  - "hdf2gif"
 versions:
  - "1.0.1--r41h9ee0642_4"
+ - "1.0.1--r42h9ee0642_5"
 description: "shpc-registry automated BioContainers addition for r-george"
-config: {"url": "https://biocontainers.pro/tools/r-george", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-george", "latest": {"1.0.1--r41h9ee0642_4": "sha256:b142309ddef7906ed8a4af669fc191c90a1e4115f927abbae5e9801df6c9a052"}, "tags": {"1.0.1--r41h9ee0642_4": "sha256:b142309ddef7906ed8a4af669fc191c90a1e4115f927abbae5e9801df6c9a052"}, "docker": "quay.io/biocontainers/r-george", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
+config: {"url": "https://biocontainers.pro/tools/r-george", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-george", "latest": {"1.0.1--r42h9ee0642_5": "sha256:087ff0c38e996f34784966c3d77ad905c91493df55f07704e8155d6f7a29e954"}, "tags": {"1.0.1--r41h9ee0642_4": "sha256:b142309ddef7906ed8a4af669fc191c90a1e4115f927abbae5e9801df6c9a052", "1.0.1--r42h9ee0642_5": "sha256:087ff0c38e996f34784966c3d77ad905c91493df55f07704e8155d6f7a29e954"}, "docker": "quay.io/biocontainers/r-george", "aliases": {"zipcmp": "/usr/local/bin/zipcmp", "zipmerge": "/usr/local/bin/zipmerge", "ziptool": "/usr/local/bin/ziptool", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-george.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-george
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-george:1.0.1--r41h9ee0642_4
+$ shpc install quay.io/biocontainers/r-george:1.0.1--r42h9ee0642_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-george/1.0.1--r41h9ee0642_4
-$ module help quay.io/biocontainers/r-george/1.0.1--r41h9ee0642_4
+$ module load quay.io/biocontainers/r-george/1.0.1--r42h9ee0642_5
+$ module help quay.io/biocontainers/r-george/1.0.1--r42h9ee0642_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

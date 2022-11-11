@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-bumpymatrix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bumpymatrix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bumpymatrix/container.yaml"
-updated_at: "2022-11-10 00:28:39.951593"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-11 01:05:37.160056"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bumpymatrix"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bumpymatrix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bumpymatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bumpymatrix", "latest": {"1.2.0--r41hdfd78af_0": "sha256:b3d766bd1b8b4a452e8f9fa13dd97208f7a3100b91b3c1276a6a3ff8efd85281"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b3d766bd1b8b4a452e8f9fa13dd97208f7a3100b91b3c1276a6a3ff8efd85281"}, "docker": "quay.io/biocontainers/bioconductor-bumpymatrix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bumpymatrix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bumpymatrix", "latest": {"1.6.0--r42hdfd78af_0": "sha256:c4757a1c5a00b36d3f8b8974a3b8b7132aa71adff22e20572b053e21b9c62b69"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:b3d766bd1b8b4a452e8f9fa13dd97208f7a3100b91b3c1276a6a3ff8efd85281", "1.6.0--r42hdfd78af_0": "sha256:c4757a1c5a00b36d3f8b8974a3b8b7132aa71adff22e20572b053e21b9c62b69"}, "docker": "quay.io/biocontainers/bioconductor-bumpymatrix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bumpymatrix.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bumpymatrix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bumpymatrix:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bumpymatrix:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bumpymatrix/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bumpymatrix/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bumpymatrix/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bumpymatrix/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

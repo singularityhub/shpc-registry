@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-paeg1aprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-paeg1aprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-paeg1aprobe/container.yaml"
-updated_at: "2022-11-09 23:42:35.395998"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-11 00:17:23.710636"
+latest: "2.18.0--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-paeg1aprobe"
 aliases:
  - ".bioconductor-paeg1aprobe-post-link.sh"
  - ".bioconductor-paeg1aprobe-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-paeg1aprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-paeg1aprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-paeg1aprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:47b25ff3f0bbc3612e4649ceea7a03ace9be6e788f8c6cc1099cab6c3fc20f19"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:47b25ff3f0bbc3612e4649ceea7a03ace9be6e788f8c6cc1099cab6c3fc20f19"}, "docker": "quay.io/biocontainers/bioconductor-paeg1aprobe", "aliases": {".bioconductor-paeg1aprobe-post-link.sh": "/usr/local/bin/.bioconductor-paeg1aprobe-post-link.sh", ".bioconductor-paeg1aprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-paeg1aprobe-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-paeg1aprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-paeg1aprobe", "latest": {"2.18.0--r42hdfd78af_11": "sha256:0dc4cab27d918a644cae756a31d8431835416ac0779b897784fe04990c2f2b66"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:47b25ff3f0bbc3612e4649ceea7a03ace9be6e788f8c6cc1099cab6c3fc20f19", "2.18.0--r42hdfd78af_11": "sha256:0dc4cab27d918a644cae756a31d8431835416ac0779b897784fe04990c2f2b66"}, "docker": "quay.io/biocontainers/bioconductor-paeg1aprobe", "aliases": {".bioconductor-paeg1aprobe-post-link.sh": "/usr/local/bin/.bioconductor-paeg1aprobe-post-link.sh", ".bioconductor-paeg1aprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-paeg1aprobe-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-paeg1aprobe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-paeg1aprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-paeg1aprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-paeg1aprobe:2.18.0--r42hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-paeg1aprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-paeg1aprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-paeg1aprobe/2.18.0--r42hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-paeg1aprobe/2.18.0--r42hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

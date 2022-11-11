@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/verkko"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/verkko/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/verkko/container.yaml"
-updated_at: "2022-11-10 00:27:03.357834"
-latest: "1.1--h64afbab_0"
+updated_at: "2022-11-11 01:03:56.283501"
+latest: "1.2--h64afbab_0"
 container_url: "https://biocontainers.pro/tools/verkko"
 
 versions:
  - "1.1--h64afbab_0"
+ - "1.2--h64afbab_0"
+ - "1.1--h64afbab_1"
 description: "shpc-registry automated BioContainers addition for verkko"
-config: {"url": "https://biocontainers.pro/tools/verkko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verkko", "latest": {"1.1--h64afbab_0": "sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a"}, "tags": {"1.1--h64afbab_0": "sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a"}, "docker": "quay.io/biocontainers/verkko"}
+config: {"url": "https://biocontainers.pro/tools/verkko", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for verkko", "latest": {"1.2--h64afbab_0": "sha256:d4f8db736d1df768b5afc2b5d8e4f29634356f6f51f0a6eb8c411a4835fbfb4f"}, "tags": {"1.1--h64afbab_0": "sha256:7f5e46ea6b03f3d1873c4a06b681f24a9db1bda10a03d4b0e59f0a4d881d6d4a", "1.2--h64afbab_0": "sha256:d4f8db736d1df768b5afc2b5d8e4f29634356f6f51f0a6eb8c411a4835fbfb4f", "1.1--h64afbab_1": "sha256:d88c307bac8a0dfed25ec704fe2a48ccb9fd306ff7f82e35797d9411765eada4"}, "docker": "quay.io/biocontainers/verkko"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/verkko.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/verkko
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/verkko:1.1--h64afbab_0
+$ shpc install quay.io/biocontainers/verkko:1.2--h64afbab_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/verkko/1.1--h64afbab_0
-$ module help quay.io/biocontainers/verkko/1.1--h64afbab_0
+$ module load quay.io/biocontainers/verkko/1.2--h64afbab_0
+$ module help quay.io/biocontainers/verkko/1.2--h64afbab_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

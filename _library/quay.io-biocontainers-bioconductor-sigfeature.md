@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-sigfeature"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sigfeature/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sigfeature/container.yaml"
-updated_at: "2022-11-09 23:38:35.237030"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-11 00:13:13.588469"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sigfeature"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-sigfeature"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-sigfeature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sigfeature", "latest": {"1.8.0--r40hdfd78af_1": "sha256:cf19e911939096b313d9b9b63409cfbbfbd514098fac051f446c5c815f65414a"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:cf19e911939096b313d9b9b63409cfbbfbd514098fac051f446c5c815f65414a"}, "docker": "quay.io/biocontainers/bioconductor-sigfeature", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-sigfeature", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-sigfeature", "latest": {"1.16.0--r42hdfd78af_0": "sha256:a06b3899f176b2148892a196484feb5f0d4d0bd2fe0169dbfa93a582947bf9e9"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:cf19e911939096b313d9b9b63409cfbbfbd514098fac051f446c5c815f65414a", "1.16.0--r42hdfd78af_0": "sha256:a06b3899f176b2148892a196484feb5f0d4d0bd2fe0169dbfa93a582947bf9e9", "1.12.0--r41hdfd78af_0": "sha256:47396b5578843e609c6e8ca7e78e0d1b9ecdeebc5575bef3ceb4a26aa880dcbc", "1.10.0--r41hdfd78af_0": "sha256:e484057097e1efa0c337032c83e387851024308a09868d30c988d89f40bbe9a8"}, "docker": "quay.io/biocontainers/bioconductor-sigfeature", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-sigfeature.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-sigfeature
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-sigfeature:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-sigfeature:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-sigfeature/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-sigfeature/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-sigfeature/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-sigfeature/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

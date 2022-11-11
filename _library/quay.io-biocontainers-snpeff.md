@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snpeff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snpeff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snpeff/container.yaml"
-updated_at: "2022-11-09 23:51:31.667150"
-latest: "5.1d--hdfd78af_0"
+updated_at: "2022-11-11 00:26:48.816040"
+latest: "5.1--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/snpeff"
 aliases:
  - "snpEff"
@@ -21,8 +21,9 @@ aliases:
  - "jlink"
 versions:
  - "5.1d--hdfd78af_0"
+ - "5.1--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for snpeff"
-config: {"url": "https://biocontainers.pro/tools/snpeff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpeff", "latest": {"5.1d--hdfd78af_0": "sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410"}, "tags": {"5.1d--hdfd78af_0": "sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410"}, "docker": "quay.io/biocontainers/snpeff", "aliases": {"snpEff": "/usr/local/bin/snpEff", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/snpeff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snpeff", "latest": {"5.1--hdfd78af_2": "sha256:fe9947c05033dbca97de108732667e66cb1ab6e0860a3e507c4f907f5d7b4a9c"}, "tags": {"5.1d--hdfd78af_0": "sha256:7ac091da707f5d63f307eef4ee57c3f0e94eed49f86bbdace3d4be3a514ed410", "5.1--hdfd78af_2": "sha256:fe9947c05033dbca97de108732667e66cb1ab6e0860a3e507c4f907f5d7b4a9c"}, "docker": "quay.io/biocontainers/snpeff", "aliases": {"snpEff": "/usr/local/bin/snpEff", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snpeff.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/snpeff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snpeff:5.1d--hdfd78af_0
+$ shpc install quay.io/biocontainers/snpeff:5.1--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snpeff/5.1d--hdfd78af_0
-$ module help quay.io/biocontainers/snpeff/5.1d--hdfd78af_0
+$ module load quay.io/biocontainers/snpeff/5.1--hdfd78af_2
+$ module help quay.io/biocontainers/snpeff/5.1--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

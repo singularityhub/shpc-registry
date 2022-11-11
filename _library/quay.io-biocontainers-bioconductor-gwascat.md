@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gwascat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gwascat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gwascat/container.yaml"
-updated_at: "2022-11-09 23:54:50.891477"
-latest: "2.26.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:30:17.031322"
+latest: "2.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gwascat"
 
 versions:
  - "2.26.0--r41hdfd78af_0"
+ - "2.30.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gwascat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gwascat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwascat", "latest": {"2.26.0--r41hdfd78af_0": "sha256:8e41b2299d783021f0f4b1154580aecf34624358644c2ec50ba5085b6a1c4724"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:8e41b2299d783021f0f4b1154580aecf34624358644c2ec50ba5085b6a1c4724"}, "docker": "quay.io/biocontainers/bioconductor-gwascat"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gwascat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gwascat", "latest": {"2.30.0--r42hdfd78af_0": "sha256:c6522167541242cdf087237b420be6ee10c52d4b829bcd9649858336af866a14"}, "tags": {"2.26.0--r41hdfd78af_0": "sha256:8e41b2299d783021f0f4b1154580aecf34624358644c2ec50ba5085b6a1c4724", "2.30.0--r42hdfd78af_0": "sha256:c6522167541242cdf087237b420be6ee10c52d4b829bcd9649858336af866a14"}, "docker": "quay.io/biocontainers/bioconductor-gwascat"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gwascat.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gwascat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gwascat:2.26.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gwascat:2.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gwascat/2.26.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gwascat/2.26.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gwascat/2.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gwascat/2.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

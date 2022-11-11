@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-grenits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grenits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grenits/container.yaml"
-updated_at: "2022-11-09 23:37:37.956340"
+updated_at: "2022-11-11 00:12:13.875249"
 latest: "1.46.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-grenits"
 

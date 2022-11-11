@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nparc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nparc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nparc/container.yaml"
-updated_at: "2022-11-09 23:46:33.589207"
+updated_at: "2022-11-11 00:21:33.919020"
 latest: "1.6.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nparc"
 

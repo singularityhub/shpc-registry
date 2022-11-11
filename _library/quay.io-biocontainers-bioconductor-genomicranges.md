@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genomicranges"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicranges/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicranges/container.yaml"
-updated_at: "2022-11-10 00:05:59.799450"
-latest: "1.46.1--r41hc0cfd56_1"
+updated_at: "2022-11-11 00:41:56.630932"
+latest: "1.50.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicranges"
 
 versions:
  - "1.46.1--r41hc0cfd56_1"
+ - "1.50.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicranges"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicranges", "latest": {"1.46.1--r41hc0cfd56_1": "sha256:8d8da7fb85a221e37b90faacdc11ae7a8c8c01decc9d0d2c1cb05dbc1583cf08"}, "tags": {"1.46.1--r41hc0cfd56_1": "sha256:8d8da7fb85a221e37b90faacdc11ae7a8c8c01decc9d0d2c1cb05dbc1583cf08"}, "docker": "quay.io/biocontainers/bioconductor-genomicranges"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicranges", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicranges", "latest": {"1.50.0--r42hc0cfd56_0": "sha256:93201e43ecc91803249436d1e67428700e8c280bfc528292653affe3f98f40a5"}, "tags": {"1.46.1--r41hc0cfd56_1": "sha256:8d8da7fb85a221e37b90faacdc11ae7a8c8c01decc9d0d2c1cb05dbc1583cf08", "1.50.0--r42hc0cfd56_0": "sha256:93201e43ecc91803249436d1e67428700e8c280bfc528292653affe3f98f40a5"}, "docker": "quay.io/biocontainers/bioconductor-genomicranges"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicranges.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicranges
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicranges:1.46.1--r41hc0cfd56_1
+$ shpc install quay.io/biocontainers/bioconductor-genomicranges:1.50.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicranges/1.46.1--r41hc0cfd56_1
-$ module help quay.io/biocontainers/bioconductor-genomicranges/1.46.1--r41hc0cfd56_1
+$ module load quay.io/biocontainers/bioconductor-genomicranges/1.50.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-genomicranges/1.50.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

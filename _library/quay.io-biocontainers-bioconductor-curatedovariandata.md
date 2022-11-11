@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-curatedovariandata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedovariandata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedovariandata/container.yaml"
-updated_at: "2022-11-09 23:49:23.938609"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-11 00:24:34.262001"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedovariandata"
 aliases:
  - ".bioconductor-curatedovariandata-post-link.sh"
  - ".bioconductor-curatedovariandata-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-curatedovariandata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedovariandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedovariandata", "latest": {"1.32.0--r41hdfd78af_1": "sha256:51881a8658749c63a8757c5f565121586b26a0ace3978252c7838b77de9061e7"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:51881a8658749c63a8757c5f565121586b26a0ace3978252c7838b77de9061e7"}, "docker": "quay.io/biocontainers/bioconductor-curatedovariandata", "aliases": {".bioconductor-curatedovariandata-post-link.sh": "/usr/local/bin/.bioconductor-curatedovariandata-post-link.sh", ".bioconductor-curatedovariandata-pre-unlink.sh": "/usr/local/bin/.bioconductor-curatedovariandata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-curatedovariandata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-curatedovariandata", "latest": {"1.36.0--r42hdfd78af_0": "sha256:01ad8594de63d543c841949444ef6ebd47791c50c6e49f35d8a7a7ceffecf22a"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:51881a8658749c63a8757c5f565121586b26a0ace3978252c7838b77de9061e7", "1.36.0--r42hdfd78af_0": "sha256:01ad8594de63d543c841949444ef6ebd47791c50c6e49f35d8a7a7ceffecf22a"}, "docker": "quay.io/biocontainers/bioconductor-curatedovariandata", "aliases": {".bioconductor-curatedovariandata-post-link.sh": "/usr/local/bin/.bioconductor-curatedovariandata-post-link.sh", ".bioconductor-curatedovariandata-pre-unlink.sh": "/usr/local/bin/.bioconductor-curatedovariandata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-curatedovariandata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-curatedovariandata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-curatedovariandata:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-curatedovariandata:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-curatedovariandata/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-curatedovariandata/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-curatedovariandata/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-curatedovariandata/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

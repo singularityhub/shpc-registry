@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/bioconductor-ttmap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ttmap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ttmap/container.yaml"
-updated_at: "2022-11-10 00:14:24.719795"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-11 00:50:45.177933"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ttmap"
 
 versions:
  - "1.8.0--r36_0"
+ - "1.20.0--r42hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ttmap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ttmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ttmap", "latest": {"1.8.0--r36_0": "sha256:1677c44e98ceb5af5a3bdf0efdefa5bd9b578c395cffa0ff5bfbe3a19267cfd6"}, "tags": {"1.8.0--r36_0": "sha256:1677c44e98ceb5af5a3bdf0efdefa5bd9b578c395cffa0ff5bfbe3a19267cfd6"}, "docker": "quay.io/biocontainers/bioconductor-ttmap"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ttmap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ttmap", "latest": {"1.20.0--r42hdfd78af_0": "sha256:bb95f33ad94252c2768abe8f2e3202355459be95fb093616bc3e2ce9da938306"}, "tags": {"1.8.0--r36_0": "sha256:1677c44e98ceb5af5a3bdf0efdefa5bd9b578c395cffa0ff5bfbe3a19267cfd6", "1.20.0--r42hdfd78af_0": "sha256:bb95f33ad94252c2768abe8f2e3202355459be95fb093616bc3e2ce9da938306", "1.16.0--r41hdfd78af_0": "sha256:d69da23f6c8a24517f455c77fb7dc5d4cc141e429e921e0d3feeb545da8b3056", "1.14.0--r41hdfd78af_0": "sha256:2cbff82b2e62c0691547f5f4f5cfbcf34bf3b1fff86465b4216bf36591095856", "1.12.0--r40hdfd78af_1": "sha256:66a398ab41c4f0b179fe6bad4bec91db2d01440556ba875d9235c8b35dc2b093", "1.10.0--r40_0": "sha256:b06bb804479b24039cf61b41c777ee68e0b0c9797712541e5994eacd911d62b4"}, "docker": "quay.io/biocontainers/bioconductor-ttmap"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ttmap.
@@ -26,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ttmap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ttmap:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-ttmap:1.20.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ttmap/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-ttmap/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-ttmap/1.20.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ttmap/1.20.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

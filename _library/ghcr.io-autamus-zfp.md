@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/zfp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/zfp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/zfp/container.yaml"
-updated_at: "2022-11-10 00:30:58.936639"
+updated_at: "2022-11-11 01:08:01.709069"
 latest: "0.5.5"
 container_url: "https://github.com/orgs/autamus/packages/container/package/zfp"
 
@@ -12,7 +12,7 @@ versions:
  - "0.5.5"
  - "latest"
 description: "zfp is a compressed number format for multidimensional floating-point and integer arrays."
-config: {"docker": "ghcr.io/autamus/zfp", "url": "https://github.com/orgs/autamus/packages/container/package/zfp", "maintainer": "@vsoch", "description": "zfp is a compressed number format for multidimensional floating-point and integer arrays.", "latest": {"0.5.5": "sha256:563b3d317c7a992ebb4ce71486dad3b0059c1501d41a25e8c51053bdc5917542"}, "tags": {"0.5.5": "sha256:563b3d317c7a992ebb4ce71486dad3b0059c1501d41a25e8c51053bdc5917542", "latest": "sha256:563b3d317c7a992ebb4ce71486dad3b0059c1501d41a25e8c51053bdc5917542"}}
+config: {"docker": "ghcr.io/autamus/zfp", "url": "https://github.com/orgs/autamus/packages/container/package/zfp", "maintainer": "@vsoch", "description": "zfp is a compressed number format for multidimensional floating-point and integer arrays.", "latest": {"0.5.5": "sha256:95051afe1d3cf610dd9e260d9418b145aa52a1b8e8458380f36984ae23484cc3"}, "tags": {"0.5.5": "sha256:95051afe1d3cf610dd9e260d9418b145aa52a1b8e8458380f36984ae23484cc3", "latest": "sha256:95051afe1d3cf610dd9e260d9418b145aa52a1b8e8458380f36984ae23484cc3"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/zfp.

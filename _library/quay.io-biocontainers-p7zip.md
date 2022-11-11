@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/p7zip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/p7zip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/p7zip/container.yaml"
-updated_at: "2022-11-09 23:50:47.997808"
-latest: "15.09--h2d50403_4"
+updated_at: "2022-11-11 00:26:03.120616"
+latest: "16.02"
 container_url: "https://biocontainers.pro/tools/p7zip"
 aliases:
  - "7z"
@@ -13,8 +13,9 @@ aliases:
  - "7zr"
 versions:
  - "15.09--h2d50403_4"
+ - "16.02"
 description: "shpc-registry automated BioContainers addition for p7zip"
-config: {"url": "https://biocontainers.pro/tools/p7zip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for p7zip", "latest": {"15.09--h2d50403_4": "sha256:f28085ce2216fa7656306d2d3dc7db9c4071d16260c84292206d672d93fcba22"}, "tags": {"15.09--h2d50403_4": "sha256:f28085ce2216fa7656306d2d3dc7db9c4071d16260c84292206d672d93fcba22"}, "docker": "quay.io/biocontainers/p7zip", "aliases": {"7z": "/usr/local/bin/7z", "7za": "/usr/local/bin/7za", "7zr": "/usr/local/bin/7zr"}}
+config: {"url": "https://biocontainers.pro/tools/p7zip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for p7zip", "latest": {"16.02": "sha256:731aaeef376a95510b4f99d2f0f04be8ec6c737809f09a74438cbebf6cca02d8"}, "tags": {"15.09--h2d50403_4": "sha256:f28085ce2216fa7656306d2d3dc7db9c4071d16260c84292206d672d93fcba22", "16.02": "sha256:731aaeef376a95510b4f99d2f0f04be8ec6c737809f09a74438cbebf6cca02d8"}, "docker": "quay.io/biocontainers/p7zip", "aliases": {"7z": "/usr/local/bin/7z", "7za": "/usr/local/bin/7za", "7zr": "/usr/local/bin/7zr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/p7zip.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/p7zip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/p7zip:15.09--h2d50403_4
+$ shpc install quay.io/biocontainers/p7zip:16.02
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/p7zip/15.09--h2d50403_4
-$ module help quay.io/biocontainers/p7zip/15.09--h2d50403_4
+$ module load quay.io/biocontainers/p7zip/16.02
+$ module help quay.io/biocontainers/p7zip/16.02
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

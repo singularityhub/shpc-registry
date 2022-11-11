@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/r-syntactic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-syntactic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-syntactic/container.yaml"
-updated_at: "2022-11-09 23:43:55.472133"
-latest: "0.5.2--r41hdfd78af_0"
+updated_at: "2022-11-11 00:18:46.992358"
+latest: "0.6.3--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/r-syntactic"
 
 versions:
  - "0.5.2--r41hdfd78af_0"
+ - "0.6.3--r42hdfd78af_0"
+ - "0.5.2--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-syntactic"
-config: {"url": "https://biocontainers.pro/tools/r-syntactic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-syntactic", "latest": {"0.5.2--r41hdfd78af_0": "sha256:cdd5fbf4e79457feecca9b70fb1916e9ce81781da6aded717829b228e2a2a91d"}, "tags": {"0.5.2--r41hdfd78af_0": "sha256:cdd5fbf4e79457feecca9b70fb1916e9ce81781da6aded717829b228e2a2a91d"}, "docker": "quay.io/biocontainers/r-syntactic"}
+config: {"url": "https://biocontainers.pro/tools/r-syntactic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-syntactic", "latest": {"0.6.3--r42hdfd78af_0": "sha256:5bcba9a3f081674975e5e32c5c1603be36d711006b81ef07528f82af4db627d0"}, "tags": {"0.5.2--r41hdfd78af_0": "sha256:cdd5fbf4e79457feecca9b70fb1916e9ce81781da6aded717829b228e2a2a91d", "0.6.3--r42hdfd78af_0": "sha256:5bcba9a3f081674975e5e32c5c1603be36d711006b81ef07528f82af4db627d0", "0.5.2--r41hdfd78af_1": "sha256:ba527bcaef1d5a464615ef229083b3280419104d4b4ba10b0a12403ddda74663"}, "docker": "quay.io/biocontainers/r-syntactic"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-syntactic.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-syntactic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-syntactic:0.5.2--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-syntactic:0.6.3--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-syntactic/0.5.2--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-syntactic/0.5.2--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-syntactic/0.6.3--r42hdfd78af_0
+$ module help quay.io/biocontainers/r-syntactic/0.6.3--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

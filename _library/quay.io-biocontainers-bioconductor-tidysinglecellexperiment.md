@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tidysinglecellexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tidysinglecellexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tidysinglecellexperiment/container.yaml"
-updated_at: "2022-11-09 23:43:30.268636"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:18:20.797936"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tidysinglecellexperiment"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tidysinglecellexperiment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tidysinglecellexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tidysinglecellexperiment", "latest": {"1.4.0--r41hdfd78af_0": "sha256:675a74d04c5c911789d978c5dc2c6a132290e862b772930f5d32854902953f80"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:675a74d04c5c911789d978c5dc2c6a132290e862b772930f5d32854902953f80"}, "docker": "quay.io/biocontainers/bioconductor-tidysinglecellexperiment"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tidysinglecellexperiment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tidysinglecellexperiment", "latest": {"1.8.0--r42hdfd78af_0": "sha256:85417eb67f879b3eddeb34605a8a3bcd1f1fdc0edc607fb48a2b48e0cd6bd6f5"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:675a74d04c5c911789d978c5dc2c6a132290e862b772930f5d32854902953f80", "1.8.0--r42hdfd78af_0": "sha256:85417eb67f879b3eddeb34605a8a3bcd1f1fdc0edc607fb48a2b48e0cd6bd6f5"}, "docker": "quay.io/biocontainers/bioconductor-tidysinglecellexperiment"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tidysinglecellexperiment.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tidysinglecellexperiment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tidysinglecellexperiment:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tidysinglecellexperiment:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tidysinglecellexperiment/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tidysinglecellexperiment/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tidysinglecellexperiment/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tidysinglecellexperiment/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

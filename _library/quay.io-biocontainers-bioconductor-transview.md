@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-transview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-transview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-transview/container.yaml"
-updated_at: "2022-11-10 00:02:39.793656"
-latest: "1.38.0--r41hc0cfd56_2"
+updated_at: "2022-11-11 00:38:26.496919"
+latest: "1.42.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-transview"
 
 versions:
  - "1.38.0--r41hc0cfd56_2"
+ - "1.42.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-transview"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-transview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transview", "latest": {"1.38.0--r41hc0cfd56_2": "sha256:ba1feae14587d25043c4e9c442d4582d13b655e966e4f620d979159791de16a6"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:ba1feae14587d25043c4e9c442d4582d13b655e966e4f620d979159791de16a6"}, "docker": "quay.io/biocontainers/bioconductor-transview"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-transview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-transview", "latest": {"1.42.0--r42hc0cfd56_0": "sha256:baa5f7a57354da506faf3e99035900162d6a0beb0b15d92b68cff1e506d75480"}, "tags": {"1.38.0--r41hc0cfd56_2": "sha256:ba1feae14587d25043c4e9c442d4582d13b655e966e4f620d979159791de16a6", "1.42.0--r42hc0cfd56_0": "sha256:baa5f7a57354da506faf3e99035900162d6a0beb0b15d92b68cff1e506d75480"}, "docker": "quay.io/biocontainers/bioconductor-transview"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-transview.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-transview
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-transview:1.38.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-transview:1.42.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-transview/1.38.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-transview/1.38.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-transview/1.42.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-transview/1.42.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

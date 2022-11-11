@@ -4,14 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-basilisk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-basilisk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-basilisk/container.yaml"
-updated_at: "2022-11-09 23:58:17.481022"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:33:52.548704"
+latest: "1.10.2--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-basilisk"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.2--r42hdfd78af_0"
+ - "1.9.12--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-basilisk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-basilisk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basilisk", "latest": {"1.6.0--r41hdfd78af_0": "sha256:5b39ad6bf15ce80d073c4628e2a4a8fef1b0128834688b27cb98becc172b179d"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:5b39ad6bf15ce80d073c4628e2a4a8fef1b0128834688b27cb98becc172b179d"}, "docker": "quay.io/biocontainers/bioconductor-basilisk"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-basilisk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-basilisk", "latest": {"1.10.2--r42hdfd78af_0": "sha256:4bb0a9d93f833e2f8cb0cc6e52dbbccf28470626c98178e0abefe1b2f2d07bcd"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:5b39ad6bf15ce80d073c4628e2a4a8fef1b0128834688b27cb98becc172b179d", "1.10.2--r42hdfd78af_0": "sha256:4bb0a9d93f833e2f8cb0cc6e52dbbccf28470626c98178e0abefe1b2f2d07bcd", "1.9.12--r42hdfd78af_0": "sha256:d6cdc743a4284ba1de1e2be3effa70e5273fe2cc3349af6f797f1402372a12f4"}, "docker": "quay.io/biocontainers/bioconductor-basilisk"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-basilisk.
@@ -26,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-basilisk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-basilisk:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-basilisk:1.10.2--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-basilisk/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-basilisk/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-basilisk/1.10.2--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-basilisk/1.10.2--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

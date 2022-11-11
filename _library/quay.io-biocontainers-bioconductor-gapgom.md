@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-gapgom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gapgom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gapgom/container.yaml"
-updated_at: "2022-11-10 00:17:40.779153"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:54:09.818163"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gapgom"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gapgom"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gapgom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gapgom", "latest": {"1.8.0--r41hdfd78af_0": "sha256:bda891c0ca33afe92f3176702cff09df7d014da054cc6a040443e3bc6e9ea463"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:bda891c0ca33afe92f3176702cff09df7d014da054cc6a040443e3bc6e9ea463"}, "docker": "quay.io/biocontainers/bioconductor-gapgom", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gapgom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gapgom", "latest": {"1.10.0--r41hdfd78af_0": "sha256:56c6d33a3ac5ede9328b3ca8ea6d7e9fbea72ebc04e53365d212b41f92b073d8"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:bda891c0ca33afe92f3176702cff09df7d014da054cc6a040443e3bc6e9ea463", "1.10.0--r41hdfd78af_0": "sha256:56c6d33a3ac5ede9328b3ca8ea6d7e9fbea72ebc04e53365d212b41f92b073d8"}, "docker": "quay.io/biocontainers/bioconductor-gapgom", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gapgom.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gapgom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gapgom:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gapgom:1.10.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gapgom/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gapgom/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gapgom/1.10.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gapgom/1.10.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

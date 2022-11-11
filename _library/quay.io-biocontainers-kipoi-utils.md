@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kipoi-utils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kipoi-utils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kipoi-utils/container.yaml"
-updated_at: "2022-11-10 00:10:38.565196"
-latest: "0.7.6--pyh5e36f6f_0"
+updated_at: "2022-11-11 00:46:48.749440"
+latest: "0.7.7--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/kipoi-utils"
 aliases:
  - "tqdm"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.7.6--pyh5e36f6f_0"
+ - "0.7.7--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for kipoi-utils"
-config: {"url": "https://biocontainers.pro/tools/kipoi-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kipoi-utils", "latest": {"0.7.6--pyh5e36f6f_0": "sha256:a11b200c85a1f763643450fac996f7063a10e0fb5aab0ddb9c9997e98b19816a"}, "tags": {"0.7.6--pyh5e36f6f_0": "sha256:a11b200c85a1f763643450fac996f7063a10e0fb5aab0ddb9c9997e98b19816a"}, "docker": "quay.io/biocontainers/kipoi-utils", "aliases": {"tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/kipoi-utils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kipoi-utils", "latest": {"0.7.7--pyh7cba7a3_0": "sha256:6331e84cd79f74598fc5a737bac67a49ee1c379fd7cf617448bdd99853f7e18e"}, "tags": {"0.7.6--pyh5e36f6f_0": "sha256:a11b200c85a1f763643450fac996f7063a10e0fb5aab0ddb9c9997e98b19816a", "0.7.7--pyh7cba7a3_0": "sha256:6331e84cd79f74598fc5a737bac67a49ee1c379fd7cf617448bdd99853f7e18e"}, "docker": "quay.io/biocontainers/kipoi-utils", "aliases": {"tqdm": "/usr/local/bin/tqdm", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kipoi-utils.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/kipoi-utils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kipoi-utils:0.7.6--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/kipoi-utils:0.7.7--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kipoi-utils/0.7.6--pyh5e36f6f_0
-$ module help quay.io/biocontainers/kipoi-utils/0.7.6--pyh5e36f6f_0
+$ module load quay.io/biocontainers/kipoi-utils/0.7.7--pyh7cba7a3_0
+$ module help quay.io/biocontainers/kipoi-utils/0.7.7--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

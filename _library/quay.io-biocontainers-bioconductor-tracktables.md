@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tracktables"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tracktables/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tracktables/container.yaml"
-updated_at: "2022-11-10 00:07:41.559369"
-latest: "1.28.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:43:43.319343"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tracktables"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tracktables"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tracktables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tracktables", "latest": {"1.28.0--r41hdfd78af_0": "sha256:ed5025a301c6a026d2d9f90f516fe84680ee3620495a93b88a3aac7e9cda4b8f"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:ed5025a301c6a026d2d9f90f516fe84680ee3620495a93b88a3aac7e9cda4b8f"}, "docker": "quay.io/biocontainers/bioconductor-tracktables"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tracktables", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tracktables", "latest": {"1.32.0--r42hdfd78af_0": "sha256:e67b53db4c7e4c9f253aae7f8f04a25c142aa46fe1e2746167776da05fca5f0d"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:ed5025a301c6a026d2d9f90f516fe84680ee3620495a93b88a3aac7e9cda4b8f", "1.32.0--r42hdfd78af_0": "sha256:e67b53db4c7e4c9f253aae7f8f04a25c142aa46fe1e2746167776da05fca5f0d"}, "docker": "quay.io/biocontainers/bioconductor-tracktables"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tracktables.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tracktables
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tracktables:1.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-tracktables:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tracktables/1.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-tracktables/1.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-tracktables/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tracktables/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

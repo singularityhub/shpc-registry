@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ncigraphdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ncigraphdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ncigraphdata/container.yaml"
-updated_at: "2022-11-10 00:25:40.826215"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-11 01:02:30.055856"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ncigraphdata"
 aliases:
  - ".bioconductor-ncigraphdata-post-link.sh"
  - ".bioconductor-ncigraphdata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ncigraphdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ncigraphdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncigraphdata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:63f7beabdcaeefd7b2930e83b127af9b7153890ce2c12d6d5f1eb63e956e9ba9"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:63f7beabdcaeefd7b2930e83b127af9b7153890ce2c12d6d5f1eb63e956e9ba9"}, "docker": "quay.io/biocontainers/bioconductor-ncigraphdata", "aliases": {".bioconductor-ncigraphdata-post-link.sh": "/usr/local/bin/.bioconductor-ncigraphdata-post-link.sh", ".bioconductor-ncigraphdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ncigraphdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ncigraphdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ncigraphdata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:aff0422e1a825b9d4a482528940a5cd6fed5c4b0e796ac27623ab779078752b7"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:63f7beabdcaeefd7b2930e83b127af9b7153890ce2c12d6d5f1eb63e956e9ba9", "1.33.0--r42hdfd78af_0": "sha256:aff0422e1a825b9d4a482528940a5cd6fed5c4b0e796ac27623ab779078752b7"}, "docker": "quay.io/biocontainers/bioconductor-ncigraphdata", "aliases": {".bioconductor-ncigraphdata-post-link.sh": "/usr/local/bin/.bioconductor-ncigraphdata-post-link.sh", ".bioconductor-ncigraphdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ncigraphdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ncigraphdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ncigraphdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ncigraphdata:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ncigraphdata:1.33.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ncigraphdata/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ncigraphdata/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ncigraphdata/1.33.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ncigraphdata/1.33.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

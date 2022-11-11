@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/biopet-validatevcf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biopet-validatevcf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biopet-validatevcf/container.yaml"
-updated_at: "2022-11-10 00:09:08.576094"
+updated_at: "2022-11-11 00:45:14.769156"
 latest: "0.1--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/biopet-validatevcf"
 aliases:

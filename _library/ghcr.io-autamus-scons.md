@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/scons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/scons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/scons/container.yaml"
-updated_at: "2022-11-10 00:29:56.833898"
-latest: "3.1.2"
+updated_at: "2022-11-11 01:06:57.350970"
+latest: "4.3.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/scons"
 aliases:
  - "scons"
@@ -21,8 +21,9 @@ aliases:
 versions:
  - "3.1.2"
  - "latest"
+ - "4.3.0"
 description: "SCons is an Open Source software construction tool."
-config: {"docker": "ghcr.io/autamus/scons", "url": "https://github.com/orgs/autamus/packages/container/package/scons", "maintainer": "@vsoch", "description": "SCons is an Open Source software construction tool.", "latest": {"3.1.2": "sha256:118047c12783c1d331f8b8a3600994b84b398a79f199cff1d5f8bb02860a599f"}, "tags": {"3.1.2": "sha256:118047c12783c1d331f8b8a3600994b84b398a79f199cff1d5f8bb02860a599f", "latest": "sha256:118047c12783c1d331f8b8a3600994b84b398a79f199cff1d5f8bb02860a599f"}, "aliases": {"scons": "/opt/view/bin/scons", "scons-3.1.2": "/opt/view/bin/scons-3.1.2", "scons-3.1.2.bat": "/opt/view/bin/scons-3.1.2.bat", "scons-configure-cache": "/opt/view/bin/scons-configure-cache", "scons-configure-cache-3.1.2": "/opt/view/bin/scons-configure-cache-3.1.2", "scons-time": "/opt/view/bin/scons-time", "scons-time-3.1.2": "/opt/view/bin/scons-time-3.1.2", "scons.bat": "/opt/view/bin/scons.bat", "sconsign": "/opt/view/bin/sconsign", "sconsign-3.1.2": "/opt/view/bin/sconsign-3.1.2"}}
+config: {"docker": "ghcr.io/autamus/scons", "url": "https://github.com/orgs/autamus/packages/container/package/scons", "maintainer": "@vsoch", "description": "SCons is an Open Source software construction tool.", "latest": {"4.3.0": "sha256:fe5158258e37b744d27c58cddf50e077b1a17113eb957cf3e8e9305f2a8e2d46"}, "tags": {"3.1.2": "sha256:118047c12783c1d331f8b8a3600994b84b398a79f199cff1d5f8bb02860a599f", "latest": "sha256:fe5158258e37b744d27c58cddf50e077b1a17113eb957cf3e8e9305f2a8e2d46", "4.3.0": "sha256:fe5158258e37b744d27c58cddf50e077b1a17113eb957cf3e8e9305f2a8e2d46"}, "aliases": {"scons": "/opt/view/bin/scons", "scons-3.1.2": "/opt/view/bin/scons-3.1.2", "scons-3.1.2.bat": "/opt/view/bin/scons-3.1.2.bat", "scons-configure-cache": "/opt/view/bin/scons-configure-cache", "scons-configure-cache-3.1.2": "/opt/view/bin/scons-configure-cache-3.1.2", "scons-time": "/opt/view/bin/scons-time", "scons-time-3.1.2": "/opt/view/bin/scons-time-3.1.2", "scons.bat": "/opt/view/bin/scons.bat", "sconsign": "/opt/view/bin/sconsign", "sconsign-3.1.2": "/opt/view/bin/sconsign-3.1.2"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/scons.
@@ -37,7 +38,7 @@ $ shpc install ghcr.io/autamus/scons
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/scons:3.1.2
+$ shpc install ghcr.io/autamus/scons:4.3.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/scons/3.1.2
-$ module help ghcr.io/autamus/scons/3.1.2
+$ module load ghcr.io/autamus/scons/4.3.0
+$ module help ghcr.io/autamus/scons/4.3.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

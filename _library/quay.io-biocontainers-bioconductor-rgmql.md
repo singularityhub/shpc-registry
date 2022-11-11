@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rgmql"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rgmql/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rgmql/container.yaml"
-updated_at: "2022-11-10 00:06:06.641521"
-latest: "1.6.0--r36_1"
+updated_at: "2022-11-11 00:42:03.812000"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rgmql"
 aliases:
  - ".bioconductor-rgmqllib-post-link.sh"
@@ -22,8 +22,12 @@ aliases:
  - "orbd"
 versions:
  - "1.6.0--r36_1"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.1--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rgmql"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rgmql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgmql", "latest": {"1.6.0--r36_1": "sha256:b0c4d005ebc6eaaadd54573591c9b4f1976afcc00c8896b9568d0baec584a941"}, "tags": {"1.6.0--r36_1": "sha256:b0c4d005ebc6eaaadd54573591c9b4f1976afcc00c8896b9568d0baec584a941"}, "docker": "quay.io/biocontainers/bioconductor-rgmql", "aliases": {".bioconductor-rgmqllib-post-link.sh": "/usr/local/bin/.bioconductor-rgmqllib-post-link.sh", ".bioconductor-rgmqllib-pre-unlink.sh": "/usr/local/bin/.bioconductor-rgmqllib-pre-unlink.sh", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rgmql", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rgmql", "latest": {"1.18.0--r42hdfd78af_0": "sha256:a5c611b40544500238b1426e77192e91aab0a2b77eb44c8e051a9292ffebfa7b"}, "tags": {"1.6.0--r36_1": "sha256:b0c4d005ebc6eaaadd54573591c9b4f1976afcc00c8896b9568d0baec584a941", "1.18.0--r42hdfd78af_0": "sha256:a5c611b40544500238b1426e77192e91aab0a2b77eb44c8e051a9292ffebfa7b", "1.14.0--r41hdfd78af_0": "sha256:7e9ab72b7f19ef9c80a2ab04d5d5a212dcd6fcde3d70c8307d5c5c6afdaa181a", "1.12.1--r41hdfd78af_0": "sha256:2c147cce2e39c191a1eb3d08af4d8c9468789c55a4726f623ab8606a73534757", "1.10.0--r40hdfd78af_1": "sha256:1edec32119c15eb5d440d7261bc0665b37e5ecd7b12e6b3c5b154f3ab5071cf7"}, "docker": "quay.io/biocontainers/bioconductor-rgmql", "aliases": {".bioconductor-rgmqllib-post-link.sh": "/usr/local/bin/.bioconductor-rgmqllib-post-link.sh", ".bioconductor-rgmqllib-pre-unlink.sh": "/usr/local/bin/.bioconductor-rgmqllib-pre-unlink.sh", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rgmql.
@@ -38,7 +42,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rgmql
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rgmql:1.6.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-rgmql:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rgmql/1.6.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-rgmql/1.6.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-rgmql/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rgmql/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

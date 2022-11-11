@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-keggrest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-keggrest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-keggrest/container.yaml"
-updated_at: "2022-11-10 00:09:30.616096"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2022-11-11 00:45:37.966654"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-keggrest"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-keggrest"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-keggrest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggrest", "latest": {"1.34.0--r41hdfd78af_0": "sha256:b5b872a18bcedcf11f91df10d95a83152d26d2235a051f9ec1d153be003894a4"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:b5b872a18bcedcf11f91df10d95a83152d26d2235a051f9ec1d153be003894a4"}, "docker": "quay.io/biocontainers/bioconductor-keggrest"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-keggrest", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-keggrest", "latest": {"1.38.0--r42hdfd78af_0": "sha256:4e46144e74744e81b4df3eb2ff5cccffef8c531afcfc19ee8b4911ee5ba7e435"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:b5b872a18bcedcf11f91df10d95a83152d26d2235a051f9ec1d153be003894a4", "1.38.0--r42hdfd78af_0": "sha256:4e46144e74744e81b4df3eb2ff5cccffef8c531afcfc19ee8b4911ee5ba7e435"}, "docker": "quay.io/biocontainers/bioconductor-keggrest"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-keggrest.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-keggrest
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-keggrest:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-keggrest:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-keggrest/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-keggrest/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-keggrest/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-keggrest/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

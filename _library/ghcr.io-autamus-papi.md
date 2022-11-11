@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/papi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/papi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/papi/container.yaml"
-updated_at: "2022-11-10 00:30:24.894957"
+updated_at: "2022-11-11 01:07:26.436062"
 latest: "6.0.0.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/papi"
 aliases:
@@ -26,7 +26,7 @@ versions:
  - "6.0.0.1"
  - "latest"
 description: "Performance Application Programming Interface."
-config: {"docker": "ghcr.io/autamus/papi", "url": "https://github.com/orgs/autamus/packages/container/package/papi", "maintainer": "@vsoch", "description": "Performance Application Programming Interface.", "latest": {"6.0.0.1": "sha256:3f1491ab5697a98cc6f14a938989d617920f948f15fb2505180475794ce9d692"}, "tags": {"6.0.0.1": "sha256:3f1491ab5697a98cc6f14a938989d617920f948f15fb2505180475794ce9d692", "latest": "sha256:3f1491ab5697a98cc6f14a938989d617920f948f15fb2505180475794ce9d692"}, "aliases": {"papi_avail": "/opt/view/bin/papi_avail", "papi_clockres": "/opt/view/bin/papi_clockres", "papi_command_line": "/opt/view/bin/papi_command_line", "papi_component_avail": "/opt/view/bin/papi_component_avail", "papi_cost": "/opt/view/bin/papi_cost", "papi_decode": "/opt/view/bin/papi_decode", "papi_error_codes": "/opt/view/bin/papi_error_codes", "papi_event_chooser": "/opt/view/bin/papi_event_chooser", "papi_hl_output_writer.py": "/opt/view/bin/papi_hl_output_writer.py", "papi_mem_info": "/opt/view/bin/papi_mem_info", "papi_multiplex_cost": "/opt/view/bin/papi_multiplex_cost", "papi_native_avail": "/opt/view/bin/papi_native_avail", "papi_version": "/opt/view/bin/papi_version", "papi_xml_event_info": "/opt/view/bin/papi_xml_event_info"}}
+config: {"docker": "ghcr.io/autamus/papi", "url": "https://github.com/orgs/autamus/packages/container/package/papi", "maintainer": "@vsoch", "description": "Performance Application Programming Interface.", "latest": {"6.0.0.1": "sha256:5290b93bfda20dae769f78e1cf3fd62b882de6bb81091655091cba088b48c0e9"}, "tags": {"6.0.0.1": "sha256:5290b93bfda20dae769f78e1cf3fd62b882de6bb81091655091cba088b48c0e9", "latest": "sha256:5290b93bfda20dae769f78e1cf3fd62b882de6bb81091655091cba088b48c0e9"}, "aliases": {"papi_avail": "/opt/view/bin/papi_avail", "papi_clockres": "/opt/view/bin/papi_clockres", "papi_command_line": "/opt/view/bin/papi_command_line", "papi_component_avail": "/opt/view/bin/papi_component_avail", "papi_cost": "/opt/view/bin/papi_cost", "papi_decode": "/opt/view/bin/papi_decode", "papi_error_codes": "/opt/view/bin/papi_error_codes", "papi_event_chooser": "/opt/view/bin/papi_event_chooser", "papi_hl_output_writer.py": "/opt/view/bin/papi_hl_output_writer.py", "papi_mem_info": "/opt/view/bin/papi_mem_info", "papi_multiplex_cost": "/opt/view/bin/papi_multiplex_cost", "papi_native_avail": "/opt/view/bin/papi_native_avail", "papi_version": "/opt/view/bin/papi_version", "papi_xml_event_info": "/opt/view/bin/papi_xml_event_info"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/papi.
