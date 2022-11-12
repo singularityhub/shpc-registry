@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ivygapse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ivygapse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ivygapse/container.yaml"
-updated_at: "2022-11-11 00:27:19.840107"
+updated_at: "2022-11-12 00:30:15.238891"
 latest: "1.16.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ivygapse"
 aliases:

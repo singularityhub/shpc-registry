@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-aliased"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-aliased/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-aliased/container.yaml"
-updated_at: "2022-11-11 00:39:03.908765"
+updated_at: "2022-11-12 00:42:51.210492"
 latest: "0.34--pl5321hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/perl-aliased"
 aliases:

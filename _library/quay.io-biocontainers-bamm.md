@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bamm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bamm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bamm/container.yaml"
-updated_at: "2022-11-11 00:17:02.956723"
-latest: "1.7.3--py27hf4361d6_8"
+updated_at: "2022-11-12 00:19:24.724582"
+latest: "1.7.3--py27h8478def_12"
 container_url: "https://biocontainers.pro/tools/bamm"
 aliases:
  - "bamFlags"
@@ -22,8 +22,9 @@ aliases:
  - "python2.7-config"
 versions:
  - "1.7.3--py27hf4361d6_8"
+ - "1.7.3--py27h8478def_12"
 description: "shpc-registry automated BioContainers addition for bamm"
-config: {"url": "https://biocontainers.pro/tools/bamm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamm", "latest": {"1.7.3--py27hf4361d6_8": "sha256:6375c3c260bfa8e4e4ab6f195303f265e34af4cad2a856a828951965efb7a88d"}, "tags": {"1.7.3--py27hf4361d6_8": "sha256:6375c3c260bfa8e4e4ab6f195303f265e34af4cad2a856a828951965efb7a88d"}, "docker": "quay.io/biocontainers/bamm", "aliases": {"bamFlags": "/usr/local/bin/bamFlags", "bamm": "/usr/local/bin/bamm", "perl5.32.0": "/usr/local/bin/perl5.32.0", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config"}}
+config: {"url": "https://biocontainers.pro/tools/bamm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bamm", "latest": {"1.7.3--py27h8478def_12": "sha256:f7eff70100b510a6b8bf15ebd2afa4279581ca5465591a43868b167050e6eb1e"}, "tags": {"1.7.3--py27hf4361d6_8": "sha256:6375c3c260bfa8e4e4ab6f195303f265e34af4cad2a856a828951965efb7a88d", "1.7.3--py27h8478def_12": "sha256:f7eff70100b510a6b8bf15ebd2afa4279581ca5465591a43868b167050e6eb1e"}, "docker": "quay.io/biocontainers/bamm", "aliases": {"bamFlags": "/usr/local/bin/bamFlags", "bamm": "/usr/local/bin/bamm", "perl5.32.0": "/usr/local/bin/perl5.32.0", "qualfa2fq.pl": "/usr/local/bin/qualfa2fq.pl", "xa2multi.pl": "/usr/local/bin/xa2multi.pl", "bwa": "/usr/local/bin/bwa", "f2py2": "/usr/local/bin/f2py2", "f2py2.7": "/usr/local/bin/f2py2.7", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bamm.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/bamm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bamm:1.7.3--py27hf4361d6_8
+$ shpc install quay.io/biocontainers/bamm:1.7.3--py27h8478def_12
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bamm/1.7.3--py27hf4361d6_8
-$ module help quay.io/biocontainers/bamm/1.7.3--py27hf4361d6_8
+$ module load quay.io/biocontainers/bamm/1.7.3--py27h8478def_12
+$ module help quay.io/biocontainers/bamm/1.7.3--py27h8478def_12
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

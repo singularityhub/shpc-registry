@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hmftools-cobalt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hmftools-cobalt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hmftools-cobalt/container.yaml"
-updated_at: "2022-11-11 00:53:10.090375"
-latest: "1.9--0"
+updated_at: "2022-11-12 00:57:53.710901"
+latest: "1.13--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/hmftools-cobalt"
 aliases:
  - "COBALT"
@@ -21,8 +21,11 @@ aliases:
  - "jjs"
 versions:
  - "1.9--0"
+ - "1.13--hdfd78af_1"
+ - "1.11--hdfd78af_1"
+ - "1.10--0"
 description: "shpc-registry automated BioContainers addition for hmftools-cobalt"
-config: {"url": "https://biocontainers.pro/tools/hmftools-cobalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-cobalt", "latest": {"1.9--0": "sha256:ae5a215a7bccd112701b9cbaf60fb747eb7eb528f2458e73b9927b8540ca8f00"}, "tags": {"1.9--0": "sha256:ae5a215a7bccd112701b9cbaf60fb747eb7eb528f2458e73b9927b8540ca8f00"}, "docker": "quay.io/biocontainers/hmftools-cobalt", "aliases": {"COBALT": "/usr/local/bin/COBALT", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/hmftools-cobalt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hmftools-cobalt", "latest": {"1.13--hdfd78af_1": "sha256:e67c6fa7b201e25bfc16234553c29e632bffb451013cc7d98036a75aca446661"}, "tags": {"1.9--0": "sha256:ae5a215a7bccd112701b9cbaf60fb747eb7eb528f2458e73b9927b8540ca8f00", "1.13--hdfd78af_1": "sha256:e67c6fa7b201e25bfc16234553c29e632bffb451013cc7d98036a75aca446661", "1.11--hdfd78af_1": "sha256:d3f5ba72c90284694d9948878530f3cb83a504e25e431032a8a6110eb2ecca2c", "1.10--0": "sha256:3e61a06bd2c796e804e0ace76b379b397d98122ead2bd297e2ae1340fcbc5e48"}, "docker": "quay.io/biocontainers/hmftools-cobalt", "aliases": {"COBALT": "/usr/local/bin/COBALT", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hmftools-cobalt.
@@ -37,7 +40,7 @@ $ shpc install quay.io/biocontainers/hmftools-cobalt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hmftools-cobalt:1.9--0
+$ shpc install quay.io/biocontainers/hmftools-cobalt:1.13--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hmftools-cobalt/1.9--0
-$ module help quay.io/biocontainers/hmftools-cobalt/1.9--0
+$ module load quay.io/biocontainers/hmftools-cobalt/1.13--hdfd78af_1
+$ module help quay.io/biocontainers/hmftools-cobalt/1.13--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

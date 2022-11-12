@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rimmport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rimmport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rimmport/container.yaml"
-updated_at: "2022-11-11 00:44:03.443533"
+updated_at: "2022-11-12 00:48:11.893620"
 latest: "1.8.0--r341_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rimmport"
 aliases:

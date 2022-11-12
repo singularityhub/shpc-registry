@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75/container.yaml"
-updated_at: "2022-11-11 00:50:23.744726"
-latest: "2.99.0--r41hdfd78af_9"
+updated_at: "2022-11-12 00:54:58.102657"
+latest: "2.99.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v75"
 aliases:
  - ".bioconductor-ensdb.rnorvegicus.v75-post-link.sh"
  - ".bioconductor-ensdb.rnorvegicus.v75-pre-unlink.sh"
 versions:
  - "2.99.0--r41hdfd78af_9"
+ - "2.99.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-ensdb.rnorvegicus.v75"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v75", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.rnorvegicus.v75", "latest": {"2.99.0--r41hdfd78af_9": "sha256:a6c67b571a999f7171c5b2c1cfa279c3b9c67c5f28a32ea7d601aa94cf675c2c"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:a6c67b571a999f7171c5b2c1cfa279c3b9c67c5f28a32ea7d601aa94cf675c2c"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75", "aliases": {".bioconductor-ensdb.rnorvegicus.v75-post-link.sh": "/usr/local/bin/.bioconductor-ensdb.rnorvegicus.v75-post-link.sh", ".bioconductor-ensdb.rnorvegicus.v75-pre-unlink.sh": "/usr/local/bin/.bioconductor-ensdb.rnorvegicus.v75-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ensdb.rnorvegicus.v75", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ensdb.rnorvegicus.v75", "latest": {"2.99.0--r42hdfd78af_10": "sha256:e0941a522ddd44803e56b63164498e05eb35537003df2b006aa4939445d14eca"}, "tags": {"2.99.0--r41hdfd78af_9": "sha256:a6c67b571a999f7171c5b2c1cfa279c3b9c67c5f28a32ea7d601aa94cf675c2c", "2.99.0--r42hdfd78af_10": "sha256:e0941a522ddd44803e56b63164498e05eb35537003df2b006aa4939445d14eca"}, "docker": "quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75", "aliases": {".bioconductor-ensdb.rnorvegicus.v75-post-link.sh": "/usr/local/bin/.bioconductor-ensdb.rnorvegicus.v75-post-link.sh", ".bioconductor-ensdb.rnorvegicus.v75-pre-unlink.sh": "/usr/local/bin/.bioconductor-ensdb.rnorvegicus.v75-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75:2.99.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75:2.99.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75/2.99.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75/2.99.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75/2.99.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-ensdb.rnorvegicus.v75/2.99.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

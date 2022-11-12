@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-bayesknockdown"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayesknockdown/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayesknockdown/container.yaml"
-updated_at: "2022-11-11 00:22:31.804507"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-12 00:25:09.318824"
+latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayesknockdown"
 aliases:
  - "c89"
  - "c99"
 versions:
  - "1.8.0--r351_0"
+ - "1.24.0--r42hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r40hdfd78af_1"
+ - "1.14.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bayesknockdown"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesknockdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesknockdown", "latest": {"1.8.0--r351_0": "sha256:1264e30117124866ac45bbf6c71e1423b03c80be5103a38ee4a5f5bbc0018a0f"}, "tags": {"1.8.0--r351_0": "sha256:1264e30117124866ac45bbf6c71e1423b03c80be5103a38ee4a5f5bbc0018a0f"}, "docker": "quay.io/biocontainers/bioconductor-bayesknockdown", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesknockdown", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesknockdown", "latest": {"1.24.0--r42hdfd78af_0": "sha256:a7a263fd970fa05bdd2bb8e816c9887a60ee8dd05e69c2c2731e2f88c5c09594"}, "tags": {"1.8.0--r351_0": "sha256:1264e30117124866ac45bbf6c71e1423b03c80be5103a38ee4a5f5bbc0018a0f", "1.24.0--r42hdfd78af_0": "sha256:a7a263fd970fa05bdd2bb8e816c9887a60ee8dd05e69c2c2731e2f88c5c09594", "1.20.0--r41hdfd78af_0": "sha256:65b079f28689dc0908108120a5e469fd10ce5793df3b7b7b6b92e6e15d86b1b4", "1.18.0--r41hdfd78af_0": "sha256:1c4f857fe4255a75ddfbf28366db154436d3890c36a6661bdab137048974e679", "1.16.0--r40hdfd78af_1": "sha256:83749b8d89359b704dd06d6b0ad0cb0b5c6b1add6b1e892619bf62a20a43b448", "1.14.0--r40_0": "sha256:06232ee75e4e345c3d2ee79f135d8bfd1cba85a3fc6e193e2e6bb0f248f4f824"}, "docker": "quay.io/biocontainers/bioconductor-bayesknockdown", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bayesknockdown.
@@ -28,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bayesknockdown
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bayesknockdown:1.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-bayesknockdown:1.24.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bayesknockdown/1.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-bayesknockdown/1.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-bayesknockdown/1.24.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bayesknockdown/1.24.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/kronos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kronos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kronos/container.yaml"
-updated_at: "2022-11-11 00:36:22.356089"
+updated_at: "2022-11-12 00:39:58.430842"
 latest: "2.3.0--py_1"
 container_url: "https://biocontainers.pro/tools/kronos"
 aliases:

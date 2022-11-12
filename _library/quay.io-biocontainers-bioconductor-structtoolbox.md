@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-structtoolbox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-structtoolbox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-structtoolbox/container.yaml"
-updated_at: "2022-11-11 00:44:19.412451"
+updated_at: "2022-11-12 00:48:28.987080"
 latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-structtoolbox"
 aliases:

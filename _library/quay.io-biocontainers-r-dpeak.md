@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-dpeak"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-dpeak/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-dpeak/container.yaml"
-updated_at: "2022-11-11 00:35:26.665173"
-latest: "2.0.1--r41h9f5acd7_6"
+updated_at: "2022-11-12 00:38:58.990574"
+latest: "2.0.1--r42h9f5acd7_7"
 container_url: "https://biocontainers.pro/tools/r-dpeak"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "2.0.1--r41h9f5acd7_6"
+ - "2.0.1--r42h9f5acd7_7"
 description: "shpc-registry automated BioContainers addition for r-dpeak"
-config: {"url": "https://biocontainers.pro/tools/r-dpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dpeak", "latest": {"2.0.1--r41h9f5acd7_6": "sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64"}, "tags": {"2.0.1--r41h9f5acd7_6": "sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64"}, "docker": "quay.io/biocontainers/r-dpeak", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/r-dpeak", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-dpeak", "latest": {"2.0.1--r42h9f5acd7_7": "sha256:7302245e5b1ecccc82e5b14c606f4644c5d29ef868c906343bf30d97097ec078"}, "tags": {"2.0.1--r41h9f5acd7_6": "sha256:2d6e1ba36915ebe97faeb90af7bf0e17b1e362e8ff5afca70d9592f72f65bd64", "2.0.1--r42h9f5acd7_7": "sha256:7302245e5b1ecccc82e5b14c606f4644c5d29ef868c906343bf30d97097ec078"}, "docker": "quay.io/biocontainers/r-dpeak", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-dpeak.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-dpeak
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-dpeak:2.0.1--r41h9f5acd7_6
+$ shpc install quay.io/biocontainers/r-dpeak:2.0.1--r42h9f5acd7_7
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-dpeak/2.0.1--r41h9f5acd7_6
-$ module help quay.io/biocontainers/r-dpeak/2.0.1--r41h9f5acd7_6
+$ module load quay.io/biocontainers/r-dpeak/2.0.1--r42h9f5acd7_7
+$ module help quay.io/biocontainers/r-dpeak/2.0.1--r42h9f5acd7_7
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

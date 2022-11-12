@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-catalyst"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-catalyst/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-catalyst/container.yaml"
-updated_at: "2022-11-11 00:59:09.482211"
+updated_at: "2022-11-12 01:04:10.682335"
 latest: "1.8.6--r36_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-catalyst"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-misha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-misha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-misha/container.yaml"
-updated_at: "2022-11-11 00:44:18.991102"
-latest: "4.1.0--r41h87f3376_3"
+updated_at: "2022-11-12 00:48:28.541690"
+latest: "4.1.0--r42h87f3376_4"
 container_url: "https://biocontainers.pro/tools/r-misha"
 
 versions:
  - "4.1.0--r41h87f3376_3"
+ - "4.1.0--r42h87f3376_4"
 description: "shpc-registry automated BioContainers addition for r-misha"
-config: {"url": "https://biocontainers.pro/tools/r-misha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misha", "latest": {"4.1.0--r41h87f3376_3": "sha256:2e6e7f9883bf497da9b96c25564dd1976f53f2ec3d4570226e36c5d7d9af2b27"}, "tags": {"4.1.0--r41h87f3376_3": "sha256:2e6e7f9883bf497da9b96c25564dd1976f53f2ec3d4570226e36c5d7d9af2b27"}, "docker": "quay.io/biocontainers/r-misha"}
+config: {"url": "https://biocontainers.pro/tools/r-misha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-misha", "latest": {"4.1.0--r42h87f3376_4": "sha256:a5d293d63c1b36194cb09436337fb9700e4112b62169bb5da5074645b552f8bc"}, "tags": {"4.1.0--r41h87f3376_3": "sha256:2e6e7f9883bf497da9b96c25564dd1976f53f2ec3d4570226e36c5d7d9af2b27", "4.1.0--r42h87f3376_4": "sha256:a5d293d63c1b36194cb09436337fb9700e4112b62169bb5da5074645b552f8bc"}, "docker": "quay.io/biocontainers/r-misha"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-misha.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-misha
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-misha:4.1.0--r41h87f3376_3
+$ shpc install quay.io/biocontainers/r-misha:4.1.0--r42h87f3376_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-misha/4.1.0--r41h87f3376_3
-$ module help quay.io/biocontainers/r-misha/4.1.0--r41h87f3376_3
+$ module load quay.io/biocontainers/r-misha/4.1.0--r42h87f3376_4
+$ module help quay.io/biocontainers/r-misha/4.1.0--r42h87f3376_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

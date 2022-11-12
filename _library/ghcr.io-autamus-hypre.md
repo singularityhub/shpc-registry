@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/hypre"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/hypre/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/hypre/container.yaml"
-updated_at: "2022-11-11 01:07:39.294909"
-latest: "2.23.0"
+updated_at: "2022-11-12 01:12:59.271686"
+latest: "2.26.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/hypre"
 
 versions:
@@ -15,8 +15,9 @@ versions:
  - "2.22.1"
  - "2.23.0"
  - "latest"
+ - "2.26.0"
 description: "A library of high performance preconditioners and solvers featuring multigrid methods for the solution of large, sparse linear systems of equations on massively parallel computers."
-config: {"docker": "ghcr.io/autamus/hypre", "url": "https://github.com/orgs/autamus/packages/container/package/hypre", "maintainer": "@vsoch", "description": "A library of high performance preconditioners and solvers featuring multigrid methods for the solution of large, sparse linear systems of equations on massively parallel computers.", "latest": {"2.23.0": "sha256:2fe5bd7f87b499c503cc951fb41b7bb0b1e42da8dc755a93b35ec101c8802bc3"}, "tags": {"2.20.0": "sha256:764702fee4c12182bb8c894a727a2aff6deee547551fa2bcc4c6f6e0866bcee6", "2.21.0": "sha256:3983e937576b5cd835a40b7bef5ce254727381040304dfd470e629d1d5d02099", "2.22.0": "sha256:9dbedd069503b4e341ea582ed7c0f0a881edc48e5be448eda2990cd52f0cc147", "2.22.1": "sha256:4ad18841a1dd688480a43eb51bb62d46da8781ae68432aacb07426c7a7202d17", "2.23.0": "sha256:2fe5bd7f87b499c503cc951fb41b7bb0b1e42da8dc755a93b35ec101c8802bc3", "latest": "sha256:2fe5bd7f87b499c503cc951fb41b7bb0b1e42da8dc755a93b35ec101c8802bc3"}}
+config: {"docker": "ghcr.io/autamus/hypre", "url": "https://github.com/orgs/autamus/packages/container/package/hypre", "maintainer": "@vsoch", "description": "A library of high performance preconditioners and solvers featuring multigrid methods for the solution of large, sparse linear systems of equations on massively parallel computers.", "latest": {"2.26.0": "sha256:e330a987086b83fe2e33b87a434dc3600c1f5ab7723bdebcecc73cb9f6b9c626"}, "tags": {"2.20.0": "sha256:764702fee4c12182bb8c894a727a2aff6deee547551fa2bcc4c6f6e0866bcee6", "2.21.0": "sha256:3983e937576b5cd835a40b7bef5ce254727381040304dfd470e629d1d5d02099", "2.22.0": "sha256:9dbedd069503b4e341ea582ed7c0f0a881edc48e5be448eda2990cd52f0cc147", "2.22.1": "sha256:4ad18841a1dd688480a43eb51bb62d46da8781ae68432aacb07426c7a7202d17", "2.23.0": "sha256:2fe5bd7f87b499c503cc951fb41b7bb0b1e42da8dc755a93b35ec101c8802bc3", "latest": "sha256:e330a987086b83fe2e33b87a434dc3600c1f5ab7723bdebcecc73cb9f6b9c626", "2.26.0": "sha256:e330a987086b83fe2e33b87a434dc3600c1f5ab7723bdebcecc73cb9f6b9c626"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/hypre.
@@ -31,7 +32,7 @@ $ shpc install ghcr.io/autamus/hypre
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/hypre:2.23.0
+$ shpc install ghcr.io/autamus/hypre:2.26.0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/hypre/2.23.0
-$ module help ghcr.io/autamus/hypre/2.23.0
+$ module load ghcr.io/autamus/hypre/2.26.0
+$ module help ghcr.io/autamus/hypre/2.26.0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

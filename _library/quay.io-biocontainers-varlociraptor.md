@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/varlociraptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varlociraptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varlociraptor/container.yaml"
-updated_at: "2022-11-11 00:58:34.484359"
+updated_at: "2022-11-12 01:03:34.406448"
 latest: "4.1.1--hd302352_0"
 container_url: "https://biocontainers.pro/tools/varlociraptor"
 aliases:

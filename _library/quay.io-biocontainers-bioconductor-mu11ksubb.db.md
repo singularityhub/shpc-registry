@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mu11ksubb.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mu11ksubb.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mu11ksubb.db/container.yaml"
-updated_at: "2022-11-11 00:35:10.368984"
+updated_at: "2022-11-12 00:38:41.561338"
 latest: "3.2.3--r41hdfd78af_7"
 container_url: "https://biocontainers.pro/tools/bioconductor-mu11ksubb.db"
 aliases:

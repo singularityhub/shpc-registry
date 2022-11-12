@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tcgautils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tcgautils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tcgautils/container.yaml"
-updated_at: "2022-11-11 00:46:36.244512"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-12 00:50:54.189699"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tcgautils"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-tcgautils"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgautils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgautils", "latest": {"1.8.0--r40_0": "sha256:48551f4b89e2d35c651f2e8e64756d82828dd26e060d74ba77beecddef9c84b3"}, "tags": {"1.8.0--r40_0": "sha256:48551f4b89e2d35c651f2e8e64756d82828dd26e060d74ba77beecddef9c84b3"}, "docker": "quay.io/biocontainers/bioconductor-tcgautils", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tcgautils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tcgautils", "latest": {"1.18.0--r42hdfd78af_0": "sha256:77cf15fb28b769e5fbc8ff9aa83b363312a1df55d89e53e389ffc3b96e26c669"}, "tags": {"1.8.0--r40_0": "sha256:48551f4b89e2d35c651f2e8e64756d82828dd26e060d74ba77beecddef9c84b3", "1.18.0--r42hdfd78af_0": "sha256:77cf15fb28b769e5fbc8ff9aa83b363312a1df55d89e53e389ffc3b96e26c669", "1.14.0--r41hdfd78af_0": "sha256:1573f84392037443a20f86d91f2e61ab438db1a1aa7a5f921bd15558a3f9dcdf", "1.12.0--r41hdfd78af_0": "sha256:4795de1c9ac7901703b64c73940dab9e18f3464ec43f852cf3667655524268bf", "1.10.0--r40hdfd78af_1": "sha256:de7baf706db33f71166f1e8a3f5c4b02ba2241d48fe983de586d55aaedba6ef3"}, "docker": "quay.io/biocontainers/bioconductor-tcgautils", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tcgautils.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tcgautils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tcgautils:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-tcgautils:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tcgautils/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-tcgautils/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-tcgautils/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tcgautils/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

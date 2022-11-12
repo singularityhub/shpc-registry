@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-scde"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scde/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scde/container.yaml"
-updated_at: "2022-11-11 00:38:55.084904"
+updated_at: "2022-11-12 00:42:41.677418"
 latest: "2.22.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-scde"
 

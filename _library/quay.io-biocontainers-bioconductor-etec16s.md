@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-etec16s"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-etec16s/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-etec16s/container.yaml"
-updated_at: "2022-11-11 01:02:45.484049"
-latest: "1.22.0--r41hdfd78af_1"
+updated_at: "2022-11-12 01:07:55.997411"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-etec16s"
 aliases:
  - ".bioconductor-etec16s-post-link.sh"
  - ".bioconductor-etec16s-pre-unlink.sh"
 versions:
  - "1.22.0--r41hdfd78af_1"
+ - "1.26.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-etec16s"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-etec16s", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-etec16s", "latest": {"1.22.0--r41hdfd78af_1": "sha256:3f4b9296b86e8eaabb75abe13ba51fbb923f85b6e9287572ed09d6bb9995c2ba"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:3f4b9296b86e8eaabb75abe13ba51fbb923f85b6e9287572ed09d6bb9995c2ba"}, "docker": "quay.io/biocontainers/bioconductor-etec16s", "aliases": {".bioconductor-etec16s-post-link.sh": "/usr/local/bin/.bioconductor-etec16s-post-link.sh", ".bioconductor-etec16s-pre-unlink.sh": "/usr/local/bin/.bioconductor-etec16s-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-etec16s", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-etec16s", "latest": {"1.26.0--r42hdfd78af_0": "sha256:b1404d02656af56f608d371936002f096fddcbedd5cbbad19bdd19c62d9ca16e"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:3f4b9296b86e8eaabb75abe13ba51fbb923f85b6e9287572ed09d6bb9995c2ba", "1.26.0--r42hdfd78af_0": "sha256:b1404d02656af56f608d371936002f096fddcbedd5cbbad19bdd19c62d9ca16e"}, "docker": "quay.io/biocontainers/bioconductor-etec16s", "aliases": {".bioconductor-etec16s-post-link.sh": "/usr/local/bin/.bioconductor-etec16s-post-link.sh", ".bioconductor-etec16s-pre-unlink.sh": "/usr/local/bin/.bioconductor-etec16s-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-etec16s.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-etec16s
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-etec16s:1.22.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-etec16s:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-etec16s/1.22.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-etec16s/1.22.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-etec16s/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-etec16s/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

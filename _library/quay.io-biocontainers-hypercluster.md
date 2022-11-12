@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hypercluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hypercluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hypercluster/container.yaml"
-updated_at: "2022-11-11 00:19:25.791808"
+updated_at: "2022-11-12 00:21:53.168976"
 latest: "0.1.9--0"
 container_url: "https://biocontainers.pro/tools/hypercluster"
 aliases:

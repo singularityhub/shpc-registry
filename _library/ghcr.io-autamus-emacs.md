@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/emacs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/emacs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/emacs/container.yaml"
-updated_at: "2022-11-11 01:06:51.086287"
-latest: "27.2"
+updated_at: "2022-11-12 01:12:09.606306"
+latest: "28.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/emacs"
 aliases:
  - "ebrowse"
@@ -15,8 +15,9 @@ aliases:
 versions:
  - "27.2"
  - "latest"
+ - "28.1"
 description: "The Emacs programmable text editor. https://www.gnu.org/software/emacs"
-config: {"docker": "ghcr.io/autamus/emacs", "url": "https://github.com/orgs/autamus/packages/container/package/emacs", "maintainer": "@vsoch", "description": "The Emacs programmable text editor. https://www.gnu.org/software/emacs", "latest": {"27.2": "sha256:49a6cce6e5b4c62891bd18a7c876170de19b84a51d2f65e7cd1e761b08ba8c76"}, "tags": {"27.2": "sha256:49a6cce6e5b4c62891bd18a7c876170de19b84a51d2f65e7cd1e761b08ba8c76", "latest": "sha256:49a6cce6e5b4c62891bd18a7c876170de19b84a51d2f65e7cd1e761b08ba8c76"}, "aliases": {"ebrowse": "/opt/view/bin/ebrowse", "emacs": "/opt/view/bin/emacs", "emacsclient": "/opt/view/bin/emacsclient", "etags": "/opt/view/bin/etags"}}
+config: {"docker": "ghcr.io/autamus/emacs", "url": "https://github.com/orgs/autamus/packages/container/package/emacs", "maintainer": "@vsoch", "description": "The Emacs programmable text editor. https://www.gnu.org/software/emacs", "latest": {"28.1": "sha256:4df9f0769c200b1d67352f3b0bd9c870c13203b3c016a1c80ef477622e73f8da"}, "tags": {"27.2": "sha256:49a6cce6e5b4c62891bd18a7c876170de19b84a51d2f65e7cd1e761b08ba8c76", "latest": "sha256:4df9f0769c200b1d67352f3b0bd9c870c13203b3c016a1c80ef477622e73f8da", "28.1": "sha256:4df9f0769c200b1d67352f3b0bd9c870c13203b3c016a1c80ef477622e73f8da"}, "aliases": {"ebrowse": "/opt/view/bin/ebrowse", "emacs": "/opt/view/bin/emacs", "emacsclient": "/opt/view/bin/emacsclient", "etags": "/opt/view/bin/etags"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/emacs.
@@ -31,7 +32,7 @@ $ shpc install ghcr.io/autamus/emacs
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/emacs:27.2
+$ shpc install ghcr.io/autamus/emacs:28.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/emacs/27.2
-$ module help ghcr.io/autamus/emacs/27.2
+$ module load ghcr.io/autamus/emacs/28.1
+$ module help ghcr.io/autamus/emacs/28.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

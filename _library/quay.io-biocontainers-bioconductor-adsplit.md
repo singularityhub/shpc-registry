@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-adsplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-adsplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-adsplit/container.yaml"
-updated_at: "2022-11-11 00:29:36.371316"
-latest: "1.64.0--r41hc247a5b_2"
+updated_at: "2022-11-12 00:32:42.172953"
+latest: "1.68.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-adsplit"
 
 versions:
  - "1.64.0--r41hc247a5b_2"
+ - "1.68.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-adsplit"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-adsplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-adsplit", "latest": {"1.64.0--r41hc247a5b_2": "sha256:e4dd6d27681cf17eb292caf820f636bede369e7cc1b126224a8f78fa6e90b3d9"}, "tags": {"1.64.0--r41hc247a5b_2": "sha256:e4dd6d27681cf17eb292caf820f636bede369e7cc1b126224a8f78fa6e90b3d9"}, "docker": "quay.io/biocontainers/bioconductor-adsplit"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-adsplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-adsplit", "latest": {"1.68.0--r42hc247a5b_0": "sha256:4e83cc2418d6d49510a3c71ca93739f9df1d4f7c5386b0c98ffa3d70697772a9"}, "tags": {"1.64.0--r41hc247a5b_2": "sha256:e4dd6d27681cf17eb292caf820f636bede369e7cc1b126224a8f78fa6e90b3d9", "1.68.0--r42hc247a5b_0": "sha256:4e83cc2418d6d49510a3c71ca93739f9df1d4f7c5386b0c98ffa3d70697772a9"}, "docker": "quay.io/biocontainers/bioconductor-adsplit"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-adsplit.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-adsplit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-adsplit:1.64.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-adsplit:1.68.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-adsplit/1.64.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-adsplit/1.64.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-adsplit/1.68.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-adsplit/1.68.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

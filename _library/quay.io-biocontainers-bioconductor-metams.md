@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-metams"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metams/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metams/container.yaml"
-updated_at: "2022-11-11 00:28:03.455859"
-latest: "1.8.0--0"
+updated_at: "2022-11-12 00:31:02.133805"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metams"
 aliases:
  - "pngcp"
@@ -20,8 +20,13 @@ aliases:
  - "rgb2ycbcr"
 versions:
  - "1.8.0--0"
+ - "1.34.0--r42hdfd78af_0"
+ - "1.30.0--r41hdfd78af_0"
+ - "1.28.0--r41hdfd78af_0"
+ - "1.26.0--r40hdfd78af_1"
+ - "1.24.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metams"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metams", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metams", "latest": {"1.8.0--0": "sha256:d1e2c9473cd7d4fb6de868c687e4966e7011b8a078bc42b0a09fe1d766b3c5c0"}, "tags": {"1.8.0--0": "sha256:d1e2c9473cd7d4fb6de868c687e4966e7011b8a078bc42b0a09fe1d766b3c5c0"}, "docker": "quay.io/biocontainers/bioconductor-metams", "aliases": {"pngcp": "/usr/local/bin/pngcp", "nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metams", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metams", "latest": {"1.34.0--r42hdfd78af_0": "sha256:815a27196f3ff430b493062f4e8aabc02c9c57293394358c855d5b53b4fc244d"}, "tags": {"1.8.0--0": "sha256:d1e2c9473cd7d4fb6de868c687e4966e7011b8a078bc42b0a09fe1d766b3c5c0", "1.34.0--r42hdfd78af_0": "sha256:815a27196f3ff430b493062f4e8aabc02c9c57293394358c855d5b53b4fc244d", "1.30.0--r41hdfd78af_0": "sha256:2c67fcd4a8f8069fb6e0692287e871ec86aeab8ef5bd641bfd82ea9f2acd7c31", "1.28.0--r41hdfd78af_0": "sha256:b186edb08dfd71454c7ba314fd9efddad40d56a17c62e26ca5e686f1e00cd968", "1.26.0--r40hdfd78af_1": "sha256:618e03c20473e897291ead36fe57122ea969d9d93724adb21a900ffee5098a04", "1.24.0--r40_0": "sha256:8a70c1cccffbee4f32de1532a232561fd6815cee639723970c1d1dd5de80f8f4"}, "docker": "quay.io/biocontainers/bioconductor-metams", "aliases": {"pngcp": "/usr/local/bin/pngcp", "nc-config": "/usr/local/bin/nc-config", "nccopy": "/usr/local/bin/nccopy", "ncdump": "/usr/local/bin/ncdump", "ncgen": "/usr/local/bin/ncgen", "ncgen3": "/usr/local/bin/ncgen3", "bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metams.
@@ -36,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metams
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metams:1.8.0--0
+$ shpc install quay.io/biocontainers/bioconductor-metams:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metams/1.8.0--0
-$ module help quay.io/biocontainers/bioconductor-metams/1.8.0--0
+$ module load quay.io/biocontainers/bioconductor-metams/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-metams/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

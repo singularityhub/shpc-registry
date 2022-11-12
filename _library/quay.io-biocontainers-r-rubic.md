@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-rubic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rubic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rubic/container.yaml"
-updated_at: "2022-11-11 00:10:47.306418"
-latest: "1.0.3--r41hdfd78af_4"
+updated_at: "2022-11-12 00:12:53.213704"
+latest: "1.0.3--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-rubic"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.0.3--r41hdfd78af_4"
+ - "1.0.3--r42hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-rubic"
-config: {"url": "https://biocontainers.pro/tools/r-rubic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rubic", "latest": {"1.0.3--r41hdfd78af_4": "sha256:43154ac89a0a02f437b9472d403d91113b21d89457110b5df38bf73dd6577f25"}, "tags": {"1.0.3--r41hdfd78af_4": "sha256:43154ac89a0a02f437b9472d403d91113b21d89457110b5df38bf73dd6577f25"}, "docker": "quay.io/biocontainers/r-rubic", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-rubic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rubic", "latest": {"1.0.3--r42hdfd78af_5": "sha256:238cb0f20526ff1e8a17e79beee21d880d2cc6514d97d34088f32287efd9dc62"}, "tags": {"1.0.3--r41hdfd78af_4": "sha256:43154ac89a0a02f437b9472d403d91113b21d89457110b5df38bf73dd6577f25", "1.0.3--r42hdfd78af_5": "sha256:238cb0f20526ff1e8a17e79beee21d880d2cc6514d97d34088f32287efd9dc62"}, "docker": "quay.io/biocontainers/r-rubic", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rubic.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-rubic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-rubic:1.0.3--r41hdfd78af_4
+$ shpc install quay.io/biocontainers/r-rubic:1.0.3--r42hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-rubic/1.0.3--r41hdfd78af_4
-$ module help quay.io/biocontainers/r-rubic/1.0.3--r41hdfd78af_4
+$ module load quay.io/biocontainers/r-rubic/1.0.3--r42hdfd78af_5
+$ module help quay.io/biocontainers/r-rubic/1.0.3--r42hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

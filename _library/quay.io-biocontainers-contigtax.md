@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/contigtax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contigtax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contigtax/container.yaml"
-updated_at: "2022-11-11 00:12:05.108877"
+updated_at: "2022-11-12 00:14:14.785782"
 latest: "0.5.9--py_0"
 container_url: "https://biocontainers.pro/tools/contigtax"
 aliases:

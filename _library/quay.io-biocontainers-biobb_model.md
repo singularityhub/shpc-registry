@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/biobb_model"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/biobb_model/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/biobb_model/container.yaml"
-updated_at: "2022-11-11 00:25:16.478032"
-latest: "3.8.0--pyhdfd78af_0"
+updated_at: "2022-11-12 00:28:03.831742"
+latest: "3.8.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/biobb_model"
 aliases:
  - "check_structure"
@@ -25,8 +25,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "3.8.0--pyhdfd78af_0"
+ - "3.8.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for biobb_model"
-config: {"url": "https://biocontainers.pro/tools/biobb_model", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_model", "latest": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1"}, "docker": "quay.io/biocontainers/biobb_model", "aliases": {"check_structure": "/usr/local/bin/check_structure", "checking_log": "/usr/local/bin/checking_log", "fix_amides": "/usr/local/bin/fix_amides", "fix_backbone": "/usr/local/bin/fix_backbone", "fix_chirality": "/usr/local/bin/fix_chirality", "fix_side_chain": "/usr/local/bin/fix_side_chain", "mutate": "/usr/local/bin/mutate", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/biobb_model", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for biobb_model", "latest": {"3.8.1--pyhdfd78af_0": "sha256:19b5815d31611fce680b84c10f11a4daf528d6263e8d23473754706b67445f44"}, "tags": {"3.8.0--pyhdfd78af_0": "sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1", "3.8.1--pyhdfd78af_0": "sha256:19b5815d31611fce680b84c10f11a4daf528d6263e8d23473754706b67445f44"}, "docker": "quay.io/biocontainers/biobb_model", "aliases": {"check_structure": "/usr/local/bin/check_structure", "checking_log": "/usr/local/bin/checking_log", "fix_amides": "/usr/local/bin/fix_amides", "fix_backbone": "/usr/local/bin/fix_backbone", "fix_chirality": "/usr/local/bin/fix_chirality", "fix_side_chain": "/usr/local/bin/fix_side_chain", "mutate": "/usr/local/bin/mutate", "normalizer": "/usr/local/bin/normalizer", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/biobb_model.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/biobb_model
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/biobb_model:3.8.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/biobb_model:3.8.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/biobb_model/3.8.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/biobb_model/3.8.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/biobb_model/3.8.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/biobb_model/3.8.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

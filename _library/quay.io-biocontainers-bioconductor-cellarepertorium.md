@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cellarepertorium"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellarepertorium/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellarepertorium/container.yaml"
-updated_at: "2022-11-11 00:36:28.626681"
-latest: "1.4.0--r41hc247a5b_2"
+updated_at: "2022-11-12 00:40:05.258113"
+latest: "1.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellarepertorium"
 
 versions:
  - "1.4.0--r41hc247a5b_2"
+ - "1.8.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellarepertorium"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellarepertorium", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellarepertorium", "latest": {"1.4.0--r41hc247a5b_2": "sha256:70de99cd78206abeaa0aad446aa85c7f465cdc9266367a154130057d2d5558ac"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:70de99cd78206abeaa0aad446aa85c7f465cdc9266367a154130057d2d5558ac"}, "docker": "quay.io/biocontainers/bioconductor-cellarepertorium"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellarepertorium", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellarepertorium", "latest": {"1.8.0--r42hc247a5b_0": "sha256:34786689ecab877e6ed382697670eb1a4e585ce045514a0e770b1b8cb31c316c"}, "tags": {"1.4.0--r41hc247a5b_2": "sha256:70de99cd78206abeaa0aad446aa85c7f465cdc9266367a154130057d2d5558ac", "1.8.0--r42hc247a5b_0": "sha256:34786689ecab877e6ed382697670eb1a4e585ce045514a0e770b1b8cb31c316c"}, "docker": "quay.io/biocontainers/bioconductor-cellarepertorium"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellarepertorium.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellarepertorium
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellarepertorium:1.4.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-cellarepertorium:1.8.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellarepertorium/1.4.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-cellarepertorium/1.4.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-cellarepertorium/1.8.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cellarepertorium/1.8.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

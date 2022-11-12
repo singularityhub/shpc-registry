@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mg-toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mg-toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mg-toolkit/container.yaml"
-updated_at: "2022-11-11 00:25:33.697545"
-latest: "0.9.1--py_0"
+updated_at: "2022-11-12 00:28:22.058916"
+latest: "0.10.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mg-toolkit"
 aliases:
  - "mg-toolkit"
@@ -20,8 +20,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "0.9.1--py_0"
+ - "0.10.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mg-toolkit"
-config: {"url": "https://biocontainers.pro/tools/mg-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mg-toolkit", "latest": {"0.9.1--py_0": "sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3"}, "tags": {"0.9.1--py_0": "sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3"}, "docker": "quay.io/biocontainers/mg-toolkit", "aliases": {"mg-toolkit": "/usr/local/bin/mg-toolkit", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/mg-toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mg-toolkit", "latest": {"0.10.1--pyhdfd78af_0": "sha256:b5adea33832b64cd1a1de1e69bf7c67a7a198692baaca78f8b64636e14bf39d6"}, "tags": {"0.9.1--py_0": "sha256:38c312a228b8ded34328f89510247eb876b2d11a15a53b4f37179e1c332b04b3", "0.10.1--pyhdfd78af_0": "sha256:b5adea33832b64cd1a1de1e69bf7c67a7a198692baaca78f8b64636e14bf39d6"}, "docker": "quay.io/biocontainers/mg-toolkit", "aliases": {"mg-toolkit": "/usr/local/bin/mg-toolkit", "jsonschema": "/usr/local/bin/jsonschema", "tqdm": "/usr/local/bin/tqdm", "chardetect": "/usr/local/bin/chardetect", "f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mg-toolkit.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/mg-toolkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mg-toolkit:0.9.1--py_0
+$ shpc install quay.io/biocontainers/mg-toolkit:0.10.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mg-toolkit/0.9.1--py_0
-$ module help quay.io/biocontainers/mg-toolkit/0.9.1--py_0
+$ module load quay.io/biocontainers/mg-toolkit/0.10.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/mg-toolkit/0.10.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

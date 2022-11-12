@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-readmzxmldata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-readmzxmldata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-readmzxmldata/container.yaml"
-updated_at: "2022-11-11 00:33:58.797133"
+updated_at: "2022-11-12 00:37:24.245993"
 latest: "2.8.1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-readmzxmldata"
 aliases:

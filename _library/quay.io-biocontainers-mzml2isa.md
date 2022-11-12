@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mzml2isa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mzml2isa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mzml2isa/container.yaml"
-updated_at: "2022-11-11 00:57:46.588517"
-latest: "1.0.4--pyhdfd78af_0"
+updated_at: "2022-11-12 01:02:43.342918"
+latest: "1.1.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/mzml2isa"
 aliases:
  - "mzml2isa"
@@ -19,8 +19,9 @@ aliases:
  - "python3.9-config"
 versions:
  - "1.0.4--pyhdfd78af_0"
+ - "1.1.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for mzml2isa"
-config: {"url": "https://biocontainers.pro/tools/mzml2isa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mzml2isa", "latest": {"1.0.4--pyhdfd78af_0": "sha256:a287689e4fc2d3143ba7d4a60c18c41024ca7710c2a3c0c15271432806092b41"}, "tags": {"1.0.4--pyhdfd78af_0": "sha256:a287689e4fc2d3143ba7d4a60c18c41024ca7710c2a3c0c15271432806092b41"}, "docker": "quay.io/biocontainers/mzml2isa", "aliases": {"mzml2isa": "/usr/local/bin/mzml2isa", "pronto": "/usr/local/bin/pronto", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
+config: {"url": "https://biocontainers.pro/tools/mzml2isa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mzml2isa", "latest": {"1.1.1--pyhdfd78af_0": "sha256:9d3ef84453d206b1249f89263857f02fa701a262ae1a18e873a150e330fb5449"}, "tags": {"1.0.4--pyhdfd78af_0": "sha256:a287689e4fc2d3143ba7d4a60c18c41024ca7710c2a3c0c15271432806092b41", "1.1.1--pyhdfd78af_0": "sha256:9d3ef84453d206b1249f89263857f02fa701a262ae1a18e873a150e330fb5449"}, "docker": "quay.io/biocontainers/mzml2isa", "aliases": {"mzml2isa": "/usr/local/bin/mzml2isa", "pronto": "/usr/local/bin/pronto", "xslt-config": "/usr/local/bin/xslt-config", "xsltproc": "/usr/local/bin/xsltproc", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mzml2isa.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/mzml2isa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mzml2isa:1.0.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/mzml2isa:1.1.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mzml2isa/1.0.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/mzml2isa/1.0.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/mzml2isa/1.1.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/mzml2isa/1.1.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

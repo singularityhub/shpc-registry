@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/taco"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/taco/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/taco/container.yaml"
-updated_at: "2022-11-11 00:58:44.889612"
-latest: "v0.7.0--py27_0"
+updated_at: "2022-11-12 01:03:45.174320"
+latest: "0.7.3--py27_0"
 container_url: "https://biocontainers.pro/tools/taco"
 aliases:
  - "pyi-archive_viewer"
@@ -28,8 +28,9 @@ aliases:
  - "wish8.5"
 versions:
  - "v0.7.0--py27_0"
+ - "0.7.3--py27_0"
 description: "shpc-registry automated BioContainers addition for taco"
-config: {"url": "https://biocontainers.pro/tools/taco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taco", "latest": {"v0.7.0--py27_0": "sha256:413c880fd6d29f84293cca1d4f3e0f7ecb883d700445ee31d319da078df09820"}, "tags": {"v0.7.0--py27_0": "sha256:413c880fd6d29f84293cca1d4f3e0f7ecb883d700445ee31d319da078df09820"}, "docker": "quay.io/biocontainers/taco", "aliases": {"pyi-archive_viewer": "/usr/local/bin/pyi-archive_viewer", "pyi-bindepend": "/usr/local/bin/pyi-bindepend", "pyi-grab_version": "/usr/local/bin/pyi-grab_version", "pyi-makespec": "/usr/local/bin/pyi-makespec", "pyi-set_version": "/usr/local/bin/pyi-set_version", "pyinstaller": "/usr/local/bin/pyinstaller", "taco_refcomp": "/usr/local/bin/taco_refcomp", "taco_run": "/usr/local/bin/taco_run", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
+config: {"url": "https://biocontainers.pro/tools/taco", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for taco", "latest": {"0.7.3--py27_0": "sha256:6f83695531aa2b6fbb07d56e53b139ab41883631892426c3efdbd6ab5ba3ee7f"}, "tags": {"v0.7.0--py27_0": "sha256:413c880fd6d29f84293cca1d4f3e0f7ecb883d700445ee31d319da078df09820", "0.7.3--py27_0": "sha256:6f83695531aa2b6fbb07d56e53b139ab41883631892426c3efdbd6ab5ba3ee7f"}, "docker": "quay.io/biocontainers/taco", "aliases": {"pyi-archive_viewer": "/usr/local/bin/pyi-archive_viewer", "pyi-bindepend": "/usr/local/bin/pyi-bindepend", "pyi-grab_version": "/usr/local/bin/pyi-grab_version", "pyi-makespec": "/usr/local/bin/pyi-makespec", "pyi-set_version": "/usr/local/bin/pyi-set_version", "pyinstaller": "/usr/local/bin/pyinstaller", "taco_refcomp": "/usr/local/bin/taco_refcomp", "taco_run": "/usr/local/bin/taco_run", "easy_install-2.7": "/usr/local/bin/easy_install-2.7", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/taco.
@@ -44,7 +45,7 @@ $ shpc install quay.io/biocontainers/taco
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/taco:v0.7.0--py27_0
+$ shpc install quay.io/biocontainers/taco:0.7.3--py27_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -56,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/taco/v0.7.0--py27_0
-$ module help quay.io/biocontainers/taco/v0.7.0--py27_0
+$ module load quay.io/biocontainers/taco/0.7.3--py27_0
+$ module help quay.io/biocontainers/taco/0.7.3--py27_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

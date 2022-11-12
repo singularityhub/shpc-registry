@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rnainteractmapk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnainteractmapk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnainteractmapk/container.yaml"
-updated_at: "2022-11-11 00:43:18.624813"
+updated_at: "2022-11-12 00:47:23.842000"
 latest: "1.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnainteractmapk"
 aliases:

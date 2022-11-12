@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-ngscopydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ngscopydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ngscopydata/container.yaml"
-updated_at: "2022-11-11 00:41:05.420740"
-latest: "1.9.0--r40_0"
+updated_at: "2022-11-12 00:44:59.753288"
+latest: "1.17.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ngscopydata"
 aliases:
  - ".bioconductor-ngscopydata-post-link.sh"
@@ -13,8 +13,12 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
+ - "1.17.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-ngscopydata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ngscopydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ngscopydata", "latest": {"1.9.0--r40_0": "sha256:8d4e563698e044531de6ab62a31af47d4e15a2aa527fe5b962cad9a395cb0df8"}, "tags": {"1.9.0--r40_0": "sha256:8d4e563698e044531de6ab62a31af47d4e15a2aa527fe5b962cad9a395cb0df8"}, "docker": "quay.io/biocontainers/bioconductor-ngscopydata", "aliases": {".bioconductor-ngscopydata-post-link.sh": "/usr/local/bin/.bioconductor-ngscopydata-post-link.sh", ".bioconductor-ngscopydata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ngscopydata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ngscopydata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ngscopydata", "latest": {"1.17.0--r42hdfd78af_0": "sha256:3c85fae391fab268745da46eb93d20aeca5b8a31f683325b630273c0586b1142"}, "tags": {"1.9.0--r40_0": "sha256:8d4e563698e044531de6ab62a31af47d4e15a2aa527fe5b962cad9a395cb0df8", "1.17.0--r42hdfd78af_0": "sha256:3c85fae391fab268745da46eb93d20aeca5b8a31f683325b630273c0586b1142", "1.14.0--r41hdfd78af_1": "sha256:cd58bc6a12638ceb5d2b692f151f05fa3a8e711ed6d77cc79c728055299ab121", "1.12.0--r41hdfd78af_0": "sha256:307f6491a635662037466d305f8cc691b6b87b9e2588af6d124fe3ac7753f793", "1.10.0--r40hdfd78af_1": "sha256:e911f86d114961137237555ccf63c90fb8c5c0cb2301898c5012b672c6ada66d"}, "docker": "quay.io/biocontainers/bioconductor-ngscopydata", "aliases": {".bioconductor-ngscopydata-post-link.sh": "/usr/local/bin/.bioconductor-ngscopydata-post-link.sh", ".bioconductor-ngscopydata-pre-unlink.sh": "/usr/local/bin/.bioconductor-ngscopydata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ngscopydata.
@@ -29,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ngscopydata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ngscopydata:1.9.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-ngscopydata:1.17.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ngscopydata/1.9.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-ngscopydata/1.9.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-ngscopydata/1.17.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ngscopydata/1.17.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

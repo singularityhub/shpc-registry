@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-msprep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msprep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msprep/container.yaml"
-updated_at: "2022-11-11 01:03:42.875600"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-12 01:08:55.064604"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msprep"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msprep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msprep", "latest": {"1.4.0--r41hdfd78af_0": "sha256:c8730bb17f4620830e270fa110911380d137838598ce4cf0a7bfc40a7a8a6847"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:c8730bb17f4620830e270fa110911380d137838598ce4cf0a7bfc40a7a8a6847"}, "docker": "quay.io/biocontainers/bioconductor-msprep"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msprep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msprep", "latest": {"1.8.0--r42hdfd78af_0": "sha256:dbe83d27a83a459b597d4a331743a013f2aac9aa3619edb92ea3a0c9bc5ae3b5"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:c8730bb17f4620830e270fa110911380d137838598ce4cf0a7bfc40a7a8a6847", "1.8.0--r42hdfd78af_0": "sha256:dbe83d27a83a459b597d4a331743a013f2aac9aa3619edb92ea3a0c9bc5ae3b5"}, "docker": "quay.io/biocontainers/bioconductor-msprep"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msprep.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msprep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msprep:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msprep:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msprep/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msprep/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msprep/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msprep/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-chickencdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chickencdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chickencdf/container.yaml"
-updated_at: "2022-11-11 00:52:17.562751"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-12 00:56:59.068750"
+latest: "2.18.0--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-chickencdf"
 aliases:
  - ".bioconductor-chickencdf-post-link.sh"
  - ".bioconductor-chickencdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-chickencdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chickencdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chickencdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:e4d7fedb05377b54e8f607aa6531bfcca03f33f55c02643b227394794564c904"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:e4d7fedb05377b54e8f607aa6531bfcca03f33f55c02643b227394794564c904"}, "docker": "quay.io/biocontainers/bioconductor-chickencdf", "aliases": {".bioconductor-chickencdf-post-link.sh": "/usr/local/bin/.bioconductor-chickencdf-post-link.sh", ".bioconductor-chickencdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-chickencdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chickencdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chickencdf", "latest": {"2.18.0--r42hdfd78af_11": "sha256:ff01694c96286a29ce00ffa7a3575aaac2eaf4d9059603fec7c32d380e8fb5bb"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:e4d7fedb05377b54e8f607aa6531bfcca03f33f55c02643b227394794564c904", "2.18.0--r42hdfd78af_11": "sha256:ff01694c96286a29ce00ffa7a3575aaac2eaf4d9059603fec7c32d380e8fb5bb"}, "docker": "quay.io/biocontainers/bioconductor-chickencdf", "aliases": {".bioconductor-chickencdf-post-link.sh": "/usr/local/bin/.bioconductor-chickencdf-post-link.sh", ".bioconductor-chickencdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-chickencdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chickencdf.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chickencdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chickencdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-chickencdf:2.18.0--r42hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chickencdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-chickencdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-chickencdf/2.18.0--r42hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-chickencdf/2.18.0--r42hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-caninecdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-caninecdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-caninecdf/container.yaml"
-updated_at: "2022-11-11 00:35:11.607722"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-12 00:38:42.914365"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-caninecdf"
 aliases:
  - ".bioconductor-caninecdf-post-link.sh"
  - ".bioconductor-caninecdf-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-caninecdf"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-caninecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-caninecdf", "latest": {"2.18.0--r41hdfd78af_9": "sha256:34abe7c01ebbd58b3d4a3d1da829363484cfbb179b374aa9654d449fdc81afd7"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:34abe7c01ebbd58b3d4a3d1da829363484cfbb179b374aa9654d449fdc81afd7"}, "docker": "quay.io/biocontainers/bioconductor-caninecdf", "aliases": {".bioconductor-caninecdf-post-link.sh": "/usr/local/bin/.bioconductor-caninecdf-post-link.sh", ".bioconductor-caninecdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-caninecdf-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-caninecdf", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-caninecdf", "latest": {"2.18.0--r42hdfd78af_10": "sha256:82d503021c0c7dd39ca48ee84a7a8fc96983af8365c5fc00da802143260d2c0f"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:34abe7c01ebbd58b3d4a3d1da829363484cfbb179b374aa9654d449fdc81afd7", "2.18.0--r42hdfd78af_10": "sha256:82d503021c0c7dd39ca48ee84a7a8fc96983af8365c5fc00da802143260d2c0f"}, "docker": "quay.io/biocontainers/bioconductor-caninecdf", "aliases": {".bioconductor-caninecdf-post-link.sh": "/usr/local/bin/.bioconductor-caninecdf-post-link.sh", ".bioconductor-caninecdf-pre-unlink.sh": "/usr/local/bin/.bioconductor-caninecdf-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-caninecdf.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-caninecdf
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-caninecdf:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-caninecdf:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-caninecdf/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-caninecdf/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-caninecdf/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-caninecdf/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

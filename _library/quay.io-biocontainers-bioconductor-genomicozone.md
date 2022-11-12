@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-genomicozone"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicozone/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicozone/container.yaml"
-updated_at: "2022-11-11 00:41:57.895442"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-12 00:45:56.016008"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicozone"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicozone"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicozone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicozone", "latest": {"1.8.0--r41hdfd78af_0": "sha256:cbb3518068e749c9ddb8ff6fa798174240ff548e69fe40e68d3aa7cfd64c3fd6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:cbb3518068e749c9ddb8ff6fa798174240ff548e69fe40e68d3aa7cfd64c3fd6"}, "docker": "quay.io/biocontainers/bioconductor-genomicozone"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicozone", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicozone", "latest": {"1.12.0--r42hdfd78af_0": "sha256:722d8e014c0da215fd9fb4a1860e589ab2c9b9c3a22e27f856691f5de32868b2"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:cbb3518068e749c9ddb8ff6fa798174240ff548e69fe40e68d3aa7cfd64c3fd6", "1.12.0--r42hdfd78af_0": "sha256:722d8e014c0da215fd9fb4a1860e589ab2c9b9c3a22e27f856691f5de32868b2"}, "docker": "quay.io/biocontainers/bioconductor-genomicozone"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicozone.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicozone
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicozone:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genomicozone:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicozone/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genomicozone/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genomicozone/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicozone/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

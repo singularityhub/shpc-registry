@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-frmaexampledata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frmaexampledata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frmaexampledata/container.yaml"
-updated_at: "2022-11-11 01:04:10.177104"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-12 01:09:23.058974"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frmaexampledata"
 aliases:
  - ".bioconductor-frmaexampledata-post-link.sh"
  - ".bioconductor-frmaexampledata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-frmaexampledata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-frmaexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frmaexampledata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:dfc734ac7dfe7c46f171284b02a74cfa5666153ce8cf6e7b282b6c2e397b5477"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:dfc734ac7dfe7c46f171284b02a74cfa5666153ce8cf6e7b282b6c2e397b5477"}, "docker": "quay.io/biocontainers/bioconductor-frmaexampledata", "aliases": {".bioconductor-frmaexampledata-post-link.sh": "/usr/local/bin/.bioconductor-frmaexampledata-post-link.sh", ".bioconductor-frmaexampledata-pre-unlink.sh": "/usr/local/bin/.bioconductor-frmaexampledata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-frmaexampledata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frmaexampledata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:17979361999e4e89d07da1eb40c96f459ab84676ce5cdc3d83cf1d5ff4621605"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:dfc734ac7dfe7c46f171284b02a74cfa5666153ce8cf6e7b282b6c2e397b5477", "1.33.0--r42hdfd78af_0": "sha256:17979361999e4e89d07da1eb40c96f459ab84676ce5cdc3d83cf1d5ff4621605"}, "docker": "quay.io/biocontainers/bioconductor-frmaexampledata", "aliases": {".bioconductor-frmaexampledata-post-link.sh": "/usr/local/bin/.bioconductor-frmaexampledata-post-link.sh", ".bioconductor-frmaexampledata-pre-unlink.sh": "/usr/local/bin/.bioconductor-frmaexampledata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-frmaexampledata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-frmaexampledata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-frmaexampledata:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-frmaexampledata:1.33.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-frmaexampledata/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-frmaexampledata/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-frmaexampledata/1.33.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-frmaexampledata/1.33.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

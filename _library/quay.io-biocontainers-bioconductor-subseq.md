@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-subseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-subseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-subseq/container.yaml"
-updated_at: "2022-11-11 01:02:44.235686"
+updated_at: "2022-11-12 01:07:54.687889"
 latest: "1.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-subseq"
 aliases:

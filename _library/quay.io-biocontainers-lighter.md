@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/lighter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lighter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lighter/container.yaml"
-updated_at: "2022-11-11 00:56:22.258685"
+updated_at: "2022-11-12 01:01:13.499065"
 latest: "1.1.2--hd03093a_4"
 container_url: "https://biocontainers.pro/tools/lighter"
 aliases:

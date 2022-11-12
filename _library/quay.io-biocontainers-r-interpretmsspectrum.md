@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-interpretmsspectrum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-interpretmsspectrum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-interpretmsspectrum/container.yaml"
-updated_at: "2022-11-11 01:00:45.134747"
+updated_at: "2022-11-12 01:05:50.139737"
 latest: "1.2--r41h3342da4_2"
 container_url: "https://biocontainers.pro/tools/r-interpretmsspectrum"
 aliases:

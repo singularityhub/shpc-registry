@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-yeast2probe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeast2probe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeast2probe/container.yaml"
-updated_at: "2022-11-11 00:43:03.883325"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-12 00:47:08.172450"
+latest: "2.18.0--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeast2probe"
 aliases:
  - ".bioconductor-yeast2probe-post-link.sh"
  - ".bioconductor-yeast2probe-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-yeast2probe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-yeast2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yeast2probe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:5c4fee88635afc31c8a613c75b24678982f8cfd4b5e79656464cba5c44f0eb3b"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:5c4fee88635afc31c8a613c75b24678982f8cfd4b5e79656464cba5c44f0eb3b"}, "docker": "quay.io/biocontainers/bioconductor-yeast2probe", "aliases": {".bioconductor-yeast2probe-post-link.sh": "/usr/local/bin/.bioconductor-yeast2probe-post-link.sh", ".bioconductor-yeast2probe-pre-unlink.sh": "/usr/local/bin/.bioconductor-yeast2probe-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-yeast2probe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-yeast2probe", "latest": {"2.18.0--r42hdfd78af_11": "sha256:5e16a61027d41bc93a50d79e9719d03f54fbded84002e8f4cbce1965b06e2b8c"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:5c4fee88635afc31c8a613c75b24678982f8cfd4b5e79656464cba5c44f0eb3b", "2.18.0--r42hdfd78af_11": "sha256:5e16a61027d41bc93a50d79e9719d03f54fbded84002e8f4cbce1965b06e2b8c"}, "docker": "quay.io/biocontainers/bioconductor-yeast2probe", "aliases": {".bioconductor-yeast2probe-post-link.sh": "/usr/local/bin/.bioconductor-yeast2probe-post-link.sh", ".bioconductor-yeast2probe-pre-unlink.sh": "/usr/local/bin/.bioconductor-yeast2probe-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-yeast2probe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-yeast2probe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-yeast2probe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-yeast2probe:2.18.0--r42hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-yeast2probe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-yeast2probe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-yeast2probe/2.18.0--r42hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-yeast2probe/2.18.0--r42hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

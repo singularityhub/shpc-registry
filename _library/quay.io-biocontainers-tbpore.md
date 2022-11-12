@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tbpore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tbpore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tbpore/container.yaml"
-updated_at: "2022-11-11 00:40:16.893380"
-latest: "0.2.0--pyhdfd78af_0"
+updated_at: "2022-11-12 00:44:08.481535"
+latest: "0.3.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/tbpore"
 aliases:
  - "mongod"
@@ -27,8 +27,9 @@ aliases:
  - "sdust"
 versions:
  - "0.2.0--pyhdfd78af_0"
+ - "0.3.2--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for tbpore"
-config: {"url": "https://biocontainers.pro/tools/tbpore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbpore", "latest": {"0.2.0--pyhdfd78af_0": "sha256:90f2175de4dff91941656a28cfdf9d96cc2a4355b71644765c7366b9bac184e3"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:90f2175de4dff91941656a28cfdf9d96cc2a4355b71644765c7366b9bac184e3"}, "docker": "quay.io/biocontainers/tbpore", "aliases": {"mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "mykrobe": "/usr/local/bin/mykrobe", "psdm": "/usr/local/bin/psdm", "rasusa": "/usr/local/bin/rasusa", "resmoke.py": "/usr/local/bin/resmoke.py", "tbpore": "/usr/local/bin/tbpore", "seqkit": "/usr/local/bin/seqkit", "cyvcf2": "/usr/local/bin/cyvcf2", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "gff2gff.py": "/usr/local/bin/gff2gff.py", "coloredlogs": "/usr/local/bin/coloredlogs", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "humanfriendly": "/usr/local/bin/humanfriendly", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "sdust": "/usr/local/bin/sdust"}}
+config: {"url": "https://biocontainers.pro/tools/tbpore", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tbpore", "latest": {"0.3.2--pyhdfd78af_0": "sha256:5934d7743c724470beee8ef126133f277176f7df00353bff36a36fb7e3ac049b"}, "tags": {"0.2.0--pyhdfd78af_0": "sha256:90f2175de4dff91941656a28cfdf9d96cc2a4355b71644765c7366b9bac184e3", "0.3.2--pyhdfd78af_0": "sha256:5934d7743c724470beee8ef126133f277176f7df00353bff36a36fb7e3ac049b"}, "docker": "quay.io/biocontainers/tbpore", "aliases": {"mongod": "/usr/local/bin/mongod", "mongos": "/usr/local/bin/mongos", "mykrobe": "/usr/local/bin/mykrobe", "psdm": "/usr/local/bin/psdm", "rasusa": "/usr/local/bin/rasusa", "resmoke.py": "/usr/local/bin/resmoke.py", "tbpore": "/usr/local/bin/tbpore", "seqkit": "/usr/local/bin/seqkit", "cyvcf2": "/usr/local/bin/cyvcf2", "x86_64-conda_cos7-linux-gnu-ld": "/usr/local/bin/x86_64-conda_cos7-linux-gnu-ld", "gff2gff.py": "/usr/local/bin/gff2gff.py", "coloredlogs": "/usr/local/bin/coloredlogs", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "humanfriendly": "/usr/local/bin/humanfriendly", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "sdust": "/usr/local/bin/sdust"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tbpore.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/tbpore
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tbpore:0.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/tbpore:0.3.2--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tbpore/0.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/tbpore/0.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/tbpore/0.3.2--pyhdfd78af_0
+$ module help quay.io/biocontainers/tbpore/0.3.2--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

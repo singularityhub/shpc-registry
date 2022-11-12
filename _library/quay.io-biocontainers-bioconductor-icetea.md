@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-icetea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-icetea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-icetea/container.yaml"
-updated_at: "2022-11-11 00:51:00.935849"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-12 00:55:38.410730"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-icetea"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-icetea"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-icetea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icetea", "latest": {"1.8.0--r40hdfd78af_1": "sha256:7f4b6438cf9eeab3b2d8ea63668d5789700f19ffb270ab4f129794a7dcd66c41"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7f4b6438cf9eeab3b2d8ea63668d5789700f19ffb270ab4f129794a7dcd66c41"}, "docker": "quay.io/biocontainers/bioconductor-icetea", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-icetea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-icetea", "latest": {"1.16.0--r42hdfd78af_0": "sha256:1e6692a6dcd24903cfdb6f09f95792e9f254cf993842f55dddd715cf45a1160e"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7f4b6438cf9eeab3b2d8ea63668d5789700f19ffb270ab4f129794a7dcd66c41", "1.16.0--r42hdfd78af_0": "sha256:1e6692a6dcd24903cfdb6f09f95792e9f254cf993842f55dddd715cf45a1160e", "1.12.0--r41hdfd78af_0": "sha256:1515c28f3b59393aec4dd0043482376ddc4e6962479ba4054fa5c3cc5840948b", "1.10.0--r41hdfd78af_0": "sha256:b91b763ebe657b5eab84346115eb4043e47c55b56b68a1922a4f7def0c6d17cd"}, "docker": "quay.io/biocontainers/bioconductor-icetea", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-icetea.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-icetea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-icetea:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-icetea:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-icetea/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-icetea/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-icetea/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-icetea/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

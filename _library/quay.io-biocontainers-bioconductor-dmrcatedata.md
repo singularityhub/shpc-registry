@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dmrcatedata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dmrcatedata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dmrcatedata/container.yaml"
-updated_at: "2022-11-11 01:02:04.939508"
+updated_at: "2022-11-12 01:07:14.154003"
 latest: "2.12.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dmrcatedata"
 aliases:

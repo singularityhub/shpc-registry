@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rcistarget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rcistarget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rcistarget/container.yaml"
-updated_at: "2022-11-11 00:55:11.138063"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-12 00:59:59.353545"
+latest: "1.17.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rcistarget"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.17.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-rcistarget"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rcistarget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcistarget", "latest": {"1.8.0--r40_0": "sha256:0a350c7587e02a70d90bbb2f624f10a25cece776351b7df930260be8fc39fb2f"}, "tags": {"1.8.0--r40_0": "sha256:0a350c7587e02a70d90bbb2f624f10a25cece776351b7df930260be8fc39fb2f"}, "docker": "quay.io/biocontainers/bioconductor-rcistarget", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rcistarget", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rcistarget", "latest": {"1.17.0--r42hdfd78af_0": "sha256:a73f0b526d4d5bd65d0fbfa750c9a9b0a33390d4272ca050a0c81dc2da8456ea"}, "tags": {"1.8.0--r40_0": "sha256:0a350c7587e02a70d90bbb2f624f10a25cece776351b7df930260be8fc39fb2f", "1.17.0--r42hdfd78af_0": "sha256:a73f0b526d4d5bd65d0fbfa750c9a9b0a33390d4272ca050a0c81dc2da8456ea", "1.14.0--r41hdfd78af_0": "sha256:1a0c457ee1c8624b9d13f76055f2a771acc355214eb2c6d531ed6c6ee8bd699d", "1.12.0--r41hdfd78af_0": "sha256:69b932a84cc75a9a58b1828daf19e021dfc74cd474c307950ff9f1315c2de8a3", "1.10.0--r40hdfd78af_1": "sha256:248812149692e6325b7e0e16d04c16e00592b383c8e8cfb8ff208ea83a139fa5"}, "docker": "quay.io/biocontainers/bioconductor-rcistarget", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rcistarget.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rcistarget
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rcistarget:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-rcistarget:1.17.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rcistarget/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-rcistarget/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-rcistarget/1.17.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rcistarget/1.17.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

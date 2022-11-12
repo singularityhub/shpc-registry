@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/r-shinyngs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shinyngs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shinyngs/container.yaml"
-updated_at: "2022-11-11 00:33:37.982131"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-12 00:37:01.852068"
+latest: "1.4.2--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-shinyngs"
 aliases:
  - "make_app_from_files.R"
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.4.2--r42hdfd78af_1"
+ - "1.3.2--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for r-shinyngs"
-config: {"url": "https://biocontainers.pro/tools/r-shinyngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shinyngs", "latest": {"1.2.0--r41hdfd78af_0": "sha256:0b2271a598ca51e7099addc4126c557292666b864121fb1a9011c35e919ff79b"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0b2271a598ca51e7099addc4126c557292666b864121fb1a9011c35e919ff79b"}, "docker": "quay.io/biocontainers/r-shinyngs", "aliases": {"make_app_from_files.R": "/usr/local/bin/make_app_from_files.R"}}
+config: {"url": "https://biocontainers.pro/tools/r-shinyngs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shinyngs", "latest": {"1.4.2--r42hdfd78af_1": "sha256:3330de58c91d3f130fb40ab7bcc3f163b9e33f63af72f511ca90383659b1cdd2"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:0b2271a598ca51e7099addc4126c557292666b864121fb1a9011c35e919ff79b", "1.4.2--r42hdfd78af_1": "sha256:3330de58c91d3f130fb40ab7bcc3f163b9e33f63af72f511ca90383659b1cdd2", "1.3.2--r41hdfd78af_0": "sha256:f47057276e3e039cde275fab6ab3d5e1e67e7f05f7f3d61810afb613d6521a3b"}, "docker": "quay.io/biocontainers/r-shinyngs", "aliases": {"make_app_from_files.R": "/usr/local/bin/make_app_from_files.R"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-shinyngs.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-shinyngs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-shinyngs:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-shinyngs:1.4.2--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-shinyngs/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-shinyngs/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-shinyngs/1.4.2--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-shinyngs/1.4.2--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

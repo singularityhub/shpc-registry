@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/circexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/circexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/circexplorer/container.yaml"
-updated_at: "2022-11-11 00:37:23.383902"
-latest: "1.1.9--py35_0"
+updated_at: "2022-11-12 00:41:03.606917"
+latest: "1.1.10--py_4"
 container_url: "https://biocontainers.pro/tools/circexplorer"
 
 versions:
  - "1.1.9--py35_0"
+ - "1.1.10--py_4"
 description: "shpc-registry automated BioContainers addition for circexplorer"
-config: {"url": "https://biocontainers.pro/tools/circexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circexplorer", "latest": {"1.1.9--py35_0": "sha256:9380fe88974fbe9c3cc589741b6eaec33d91f01e038f34f4c3afdd006895cada"}, "tags": {"1.1.9--py35_0": "sha256:9380fe88974fbe9c3cc589741b6eaec33d91f01e038f34f4c3afdd006895cada"}, "docker": "quay.io/biocontainers/circexplorer"}
+config: {"url": "https://biocontainers.pro/tools/circexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for circexplorer", "latest": {"1.1.10--py_4": "sha256:875ecc3d98def975849ac65a35103bf1b113f6e3b026dde849f74701f2803b85"}, "tags": {"1.1.9--py35_0": "sha256:9380fe88974fbe9c3cc589741b6eaec33d91f01e038f34f4c3afdd006895cada", "1.1.10--py_4": "sha256:875ecc3d98def975849ac65a35103bf1b113f6e3b026dde849f74701f2803b85"}, "docker": "quay.io/biocontainers/circexplorer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/circexplorer.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/circexplorer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/circexplorer:1.1.9--py35_0
+$ shpc install quay.io/biocontainers/circexplorer:1.1.10--py_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/circexplorer/1.1.9--py35_0
-$ module help quay.io/biocontainers/circexplorer/1.1.9--py35_0
+$ module load quay.io/biocontainers/circexplorer/1.1.10--py_4
+$ module help quay.io/biocontainers/circexplorer/1.1.10--py_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
