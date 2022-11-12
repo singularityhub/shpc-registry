@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-interaccircos
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-interaccircos
 latest:
-  1.4.0--r41hdfd78af_0: sha256:db009e2e1d0db0926be91d0da1ac0f9c2681e46891f819c031d4326aefcd1811
+  1.8.0--r42hdfd78af_0: sha256:4af3f77f6935bba660b83427b37f004b584537b97ff1ab132614a53519cbdfa7
 tags:
   1.4.0--r41hdfd78af_0: sha256:db009e2e1d0db0926be91d0da1ac0f9c2681e46891f819c031d4326aefcd1811
+  1.8.0--r42hdfd78af_0: sha256:4af3f77f6935bba660b83427b37f004b584537b97ff1ab132614a53519cbdfa7
 docker: quay.io/biocontainers/bioconductor-interaccircos

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cner
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cner
 latest:
-  1.30.0--r41hc0cfd56_2: sha256:67698a758bc0d3e18c293bb5bdfb92366f9adf266763e8671f5c60d9590de951
+  1.34.0--r42hc0cfd56_0: sha256:c06076f605bfd723b05dff033d450b4c4b687da09c2ddd4b62ae81bafede8529
 tags:
   1.30.0--r41hc0cfd56_2: sha256:67698a758bc0d3e18c293bb5bdfb92366f9adf266763e8671f5c60d9590de951
+  1.34.0--r42hc0cfd56_0: sha256:c06076f605bfd723b05dff033d450b4c4b687da09c2ddd4b62ae81bafede8529
 docker: quay.io/biocontainers/bioconductor-cner

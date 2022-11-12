@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/epytope
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for epytope
 latest:
-  3.1.0--pyh5e36f6f_0: sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9
+  3.2.0--pyh7cba7a3_0: sha256:87c936925de98449e1f9d49eb02858584cac778a9ac8fb090c6519bee8145e5b
 tags:
   3.1.0--pyh5e36f6f_0: sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9
+  3.2.0--pyh7cba7a3_0: sha256:87c936925de98449e1f9d49eb02858584cac778a9ac8fb090c6519bee8145e5b
 docker: quay.io/biocontainers/epytope
 aliases:
   _mhcflurry-cluster-worker-entry-point: /usr/local/bin/_mhcflurry-cluster-worker-entry-point

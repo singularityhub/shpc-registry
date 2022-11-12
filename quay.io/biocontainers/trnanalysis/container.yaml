@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/trnanalysis
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for trnanalysis
 latest:
-  0.1.9--py_0: sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8
+  0.1.10--py_1: sha256:d24343d938cf048dd68e39e1b70ce6b645b7c11d7a3fa8debeb65775a197316e
 tags:
   0.1.9--py_0: sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8
+  0.1.10--py_1: sha256:d24343d938cf048dd68e39e1b70ce6b645b7c11d7a3fa8debeb65775a197316e
 docker: quay.io/biocontainers/trnanalysis
 aliases:
   EukHighConfidenceFilter: /usr/local/bin/EukHighConfidenceFilter

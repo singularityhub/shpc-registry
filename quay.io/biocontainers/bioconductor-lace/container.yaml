@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-lace
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lace
 latest:
-  1.6.0--r41hdfd78af_0: sha256:8ae85d97e6b6c2582a75c811bedb146c1108b3edeaa46a63be73b3d25a1cbf5d
+  2.2.0--r42hdfd78af_0: sha256:b2dacc60fe0f9274b0b56c28cbcb49a546e76a3912bdb5056c37752e43331c85
 tags:
   1.6.0--r41hdfd78af_0: sha256:8ae85d97e6b6c2582a75c811bedb146c1108b3edeaa46a63be73b3d25a1cbf5d
+  2.2.0--r42hdfd78af_0: sha256:b2dacc60fe0f9274b0b56c28cbcb49a546e76a3912bdb5056c37752e43331c85
 docker: quay.io/biocontainers/bioconductor-lace

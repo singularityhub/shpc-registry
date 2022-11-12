@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-frmatools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-frmatools
 latest:
-  1.46.0--r41hdfd78af_0: sha256:568b8a453f6f91450c4e2eb78b162a10046113515daa126afb3028eff696018c
+  1.50.0--r42hdfd78af_0: sha256:ea437aba6cc393f1f62b488d23f12324c209c2fbc6eaa8c3474d5d00b2223879
 tags:
   1.46.0--r41hdfd78af_0: sha256:568b8a453f6f91450c4e2eb78b162a10046113515daa126afb3028eff696018c
+  1.50.0--r42hdfd78af_0: sha256:ea437aba6cc393f1f62b488d23f12324c209c2fbc6eaa8c3474d5d00b2223879
 docker: quay.io/biocontainers/bioconductor-frmatools

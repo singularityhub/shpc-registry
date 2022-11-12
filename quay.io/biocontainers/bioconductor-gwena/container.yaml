@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gwena
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gwena
 latest:
-  1.4.0--r41hdfd78af_0: sha256:249a767dc6af9e54046d0c0476e069aab59e6c0644aea996f9edaaec77eef71a
+  1.8.0--r42hdfd78af_0: sha256:456e370526d5d8e659ae76a0665ba506f3bac8aed6b63619c047a6d060ece7bd
 tags:
   1.4.0--r41hdfd78af_0: sha256:249a767dc6af9e54046d0c0476e069aab59e6c0644aea996f9edaaec77eef71a
+  1.8.0--r42hdfd78af_0: sha256:456e370526d5d8e659ae76a0665ba506f3bac8aed6b63619c047a6d060ece7bd
 docker: quay.io/biocontainers/bioconductor-gwena

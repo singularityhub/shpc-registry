@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-ddir
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-ddir
 latest:
-  0.0.3--r41hdfd78af_3: sha256:b3e2b04a7cd1161f5b4b8af4d6f7eea37d6d84cd4ea0cd74cf59cc90afa357b3
+  0.0.3--r42hdfd78af_4: sha256:9b48b1fd17ea5b156733a803cd65c0cdae298e35d46b1d953a0dea6b0a2c0a6d
 tags:
   0.0.3--r41hdfd78af_3: sha256:b3e2b04a7cd1161f5b4b8af4d6f7eea37d6d84cd4ea0cd74cf59cc90afa357b3
+  0.0.3--r42hdfd78af_4: sha256:9b48b1fd17ea5b156733a803cd65c0cdae298e35d46b1d953a0dea6b0a2c0a6d
 docker: quay.io/biocontainers/r-ddir
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

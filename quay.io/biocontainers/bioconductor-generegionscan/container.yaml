@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-generegionscan
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-generegionscan
 latest:
-  1.50.0--r41hdfd78af_0: sha256:0666442a0b5c3366060be67531ad43049a300e68ebcc25a93a5d28fd154146b8
+  1.54.0--r42hdfd78af_0: sha256:37f8038f8f91d4ed3e201a02aa995df62bf8da7f0b9505cd3d2d31ff33b1eceb
 tags:
   1.50.0--r41hdfd78af_0: sha256:0666442a0b5c3366060be67531ad43049a300e68ebcc25a93a5d28fd154146b8
+  1.54.0--r42hdfd78af_0: sha256:37f8038f8f91d4ed3e201a02aa995df62bf8da7f0b9505cd3d2d31ff33b1eceb
 docker: quay.io/biocontainers/bioconductor-generegionscan

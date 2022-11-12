@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rmassbankdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rmassbankdata
 latest:
-  1.32.0--r41hdfd78af_1: sha256:c9731852a3fc4279577aa862dca9e8f4a9fbe4c833b14f4cb2ae41bdf85d09ee
+  1.35.0--r42hdfd78af_0: sha256:50ee96fbe62897c9677fcbac8c7ef44c694ccd186069cd3b5a0d764b66665950
 tags:
   1.32.0--r41hdfd78af_1: sha256:c9731852a3fc4279577aa862dca9e8f4a9fbe4c833b14f4cb2ae41bdf85d09ee
+  1.35.0--r42hdfd78af_0: sha256:50ee96fbe62897c9677fcbac8c7ef44c694ccd186069cd3b5a0d764b66665950
 docker: quay.io/biocontainers/bioconductor-rmassbankdata
 aliases:
   .bioconductor-rmassbankdata-post-link.sh: /usr/local/bin/.bioconductor-rmassbankdata-post-link.sh

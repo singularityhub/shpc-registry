@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-past
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-past
 latest:
-  1.8.0--r41hdfd78af_0: sha256:034278a81015a15a67ec9bf15e2f0e60da0a064edb0aff2ba8cb0e36731ee184
+  1.14.0--r42hdfd78af_0: sha256:1a88516f3ee4ba9ec703819af254c3a98507d71970dda935c8158f9d33b3a55a
 tags:
   1.8.0--r41hdfd78af_0: sha256:034278a81015a15a67ec9bf15e2f0e60da0a064edb0aff2ba8cb0e36731ee184
+  1.14.0--r42hdfd78af_0: sha256:1a88516f3ee4ba9ec703819af254c3a98507d71970dda935c8158f9d33b3a55a
+  1.10.0--r41hdfd78af_0: sha256:a0f0e12137bfe99aef78bc885d4a7d0933d2ece395edd84771764f600ca72281
 docker: quay.io/biocontainers/bioconductor-past
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

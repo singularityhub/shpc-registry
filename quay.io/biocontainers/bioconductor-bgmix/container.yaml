@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-bgmix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bgmix
 latest:
-  1.54.0--r41hc247a5b_2: sha256:c5a3d5e8ecb4f2f8338c63c483a976e353eff0253bb12986d29ce07b11022bf4
+  1.58.0--r42hc247a5b_0: sha256:acfb1abe7e749d2edf11249036f4a9a8f5967e24fa29918e19b355a8bc124abf
 tags:
   1.54.0--r41hc247a5b_2: sha256:c5a3d5e8ecb4f2f8338c63c483a976e353eff0253bb12986d29ce07b11022bf4
+  1.58.0--r42hc247a5b_0: sha256:acfb1abe7e749d2edf11249036f4a9a8f5967e24fa29918e19b355a8bc124abf
 docker: quay.io/biocontainers/bioconductor-bgmix

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-qubic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qubic
 latest:
-  1.22.0--r41hc247a5b_2: sha256:e79cc58c714ecb1941ab1ef734edf66578379ac2dbb71ed7461001dc12d02e53
+  1.26.0--r42hc247a5b_0: sha256:acacd2f4a470640d3c3a58d379198dfcc259b2dae40f937c56f1a1e2b0b6d698
 tags:
   1.22.0--r41hc247a5b_2: sha256:e79cc58c714ecb1941ab1ef734edf66578379ac2dbb71ed7461001dc12d02e53
+  1.26.0--r42hc247a5b_0: sha256:acacd2f4a470640d3c3a58d379198dfcc259b2dae40f937c56f1a1e2b0b6d698
 docker: quay.io/biocontainers/bioconductor-qubic

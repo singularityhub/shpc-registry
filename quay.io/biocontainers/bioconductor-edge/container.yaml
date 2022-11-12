@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-edge
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-edge
 latest:
-  2.26.0--r41hc0cfd56_2: sha256:425ba51e871b7a00e342eb63ddc5a9d141a5d26b95881a8338ba313aa9052f19
+  2.30.0--r42hc0cfd56_0: sha256:faca9376c88095e52709ffdf1b381315b3e7ceb06affe6b1a968bbad6225fa9d
 tags:
   2.26.0--r41hc0cfd56_2: sha256:425ba51e871b7a00e342eb63ddc5a9d141a5d26b95881a8338ba313aa9052f19
+  2.30.0--r42hc0cfd56_0: sha256:faca9376c88095e52709ffdf1b381315b3e7ceb06affe6b1a968bbad6225fa9d
 docker: quay.io/biocontainers/bioconductor-edge
 aliases:
   f2py3.10: /usr/local/bin/f2py3.10

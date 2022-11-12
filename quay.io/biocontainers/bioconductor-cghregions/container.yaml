@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cghregions
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cghregions
 latest:
-  1.52.0--r41hdfd78af_0: sha256:202164e59b7ee2d82de821cbad01cfee377a4f818f4142781b450f115aadc443
+  1.56.0--r42hdfd78af_0: sha256:dbd1e15a73658cedd55d2713d20a6118c36c8c854242b78b78456b659e2f8a7f
 tags:
   1.52.0--r41hdfd78af_0: sha256:202164e59b7ee2d82de821cbad01cfee377a4f818f4142781b450f115aadc443
+  1.56.0--r42hdfd78af_0: sha256:dbd1e15a73658cedd55d2713d20a6118c36c8c854242b78b78456b659e2f8a7f
 docker: quay.io/biocontainers/bioconductor-cghregions

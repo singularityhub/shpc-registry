@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-htssip
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-htssip
 latest:
-  1.4.1--r41h3342da4_3: sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f
+  1.4.1--r42h3342da4_4: sha256:cad30486a067c7a7b23993669c16e193b72aba4ea35c454f80c7190ee8e8b5d5
 tags:
   1.4.1--r41h3342da4_3: sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f
+  1.4.1--r42h3342da4_4: sha256:cad30486a067c7a7b23993669c16e193b72aba4ea35c454f80c7190ee8e8b5d5
 docker: quay.io/biocontainers/r-htssip
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
