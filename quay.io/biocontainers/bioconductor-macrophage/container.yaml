@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-macrophage
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-macrophage
 latest:
-  1.8.0--r41hdfd78af_0: sha256:a65aecdc5484813a54475e62750831432c13aba622d608333d95798319befa0f
+  1.13.0--r42hdfd78af_0: sha256:f991763e25f246959946fd1812d60812eeb838bdf2d66d14fc6b1a6a85140556
 tags:
   1.8.0--r41hdfd78af_0: sha256:a65aecdc5484813a54475e62750831432c13aba622d608333d95798319befa0f
+  1.13.0--r42hdfd78af_0: sha256:f991763e25f246959946fd1812d60812eeb838bdf2d66d14fc6b1a6a85140556
+  1.10.0--r41hdfd78af_1: sha256:3c512f0d69491bd4ffc78af5ed8f27e4f900e993c5f4c3454e8f112a236d02af
 docker: quay.io/biocontainers/bioconductor-macrophage
 aliases:
   .bioconductor-macrophage-post-link.sh: /usr/local/bin/.bioconductor-macrophage-post-link.sh

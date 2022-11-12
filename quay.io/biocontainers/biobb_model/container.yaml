@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/biobb_model
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for biobb_model
 latest:
-  3.8.0--pyhdfd78af_0: sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1
+  3.8.1--pyhdfd78af_0: sha256:19b5815d31611fce680b84c10f11a4daf528d6263e8d23473754706b67445f44
 tags:
   3.8.0--pyhdfd78af_0: sha256:b166cdac4abfb4d5e77ff3b74c587a381a42f8d798ab90a2abb5a99b99fa9ea1
+  3.8.1--pyhdfd78af_0: sha256:19b5815d31611fce680b84c10f11a4daf528d6263e8d23473754706b67445f44
 docker: quay.io/biocontainers/biobb_model
 aliases:
   check_structure: /usr/local/bin/check_structure

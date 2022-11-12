@@ -5,6 +5,7 @@ latest:
   1.3.1--ha04fe3b_4: sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931
 tags:
   1.3.1--ha04fe3b_4: sha256:36131bfeb1c0699df733e121cd123a58f922769026b667e889c5c4f55fe87931
+  1.3--h089eab3_1: sha256:8826f9d967aa3f56a51662744f535483e0644165f186fc1d9399a7f037fea77f
 docker: quay.io/biocontainers/ivar
 aliases:
   ivar: /usr/local/bin/ivar

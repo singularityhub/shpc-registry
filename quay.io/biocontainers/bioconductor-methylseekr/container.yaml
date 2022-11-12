@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-methylseekr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methylseekr
 latest:
-  1.34.0--r41hdfd78af_0: sha256:fd810c9eb0ab5620b5c8915a51845e25d12796cd40ac70fe8e9229941f466cb7
+  1.38.0--r42hdfd78af_0: sha256:9772acf039a0dab82ecda3462d01165edfb40b33962a3c7f51f79fbd592b49b8
 tags:
   1.34.0--r41hdfd78af_0: sha256:fd810c9eb0ab5620b5c8915a51845e25d12796cd40ac70fe8e9229941f466cb7
+  1.38.0--r42hdfd78af_0: sha256:9772acf039a0dab82ecda3462d01165edfb40b33962a3c7f51f79fbd592b49b8
 docker: quay.io/biocontainers/bioconductor-methylseekr

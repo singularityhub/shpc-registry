@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/mzml2isa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for mzml2isa
 latest:
-  1.0.4--pyhdfd78af_0: sha256:a287689e4fc2d3143ba7d4a60c18c41024ca7710c2a3c0c15271432806092b41
+  1.1.1--pyhdfd78af_0: sha256:9d3ef84453d206b1249f89263857f02fa701a262ae1a18e873a150e330fb5449
 tags:
   1.0.4--pyhdfd78af_0: sha256:a287689e4fc2d3143ba7d4a60c18c41024ca7710c2a3c0c15271432806092b41
+  1.1.1--pyhdfd78af_0: sha256:9d3ef84453d206b1249f89263857f02fa701a262ae1a18e873a150e330fb5449
 docker: quay.io/biocontainers/mzml2isa
 aliases:
   mzml2isa: /usr/local/bin/mzml2isa

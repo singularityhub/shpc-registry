@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyfba
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyfba
 latest:
-  2.62--py39h8c4442e_2: sha256:4b3eaf5f92231aacb9cb5a9f2e6dc78f6836edc9bac0a014efb23482c7ab3a7f
+  2.62--py39h09b9a4b_3: sha256:fe3351bd431282a704fdc3824da11ef41cad5ff4d47ced8de7cf8cc9574b532d
 tags:
   2.62--py39h8c4442e_2: sha256:4b3eaf5f92231aacb9cb5a9f2e6dc78f6836edc9bac0a014efb23482c7ab3a7f
+  2.62--py39h09b9a4b_3: sha256:fe3351bd431282a704fdc3824da11ef41cad5ff4d47ced8de7cf8cc9574b532d
 docker: quay.io/biocontainers/pyfba
 aliases:
   black: /usr/local/bin/black

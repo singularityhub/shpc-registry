@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cocitestats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cocitestats
 latest:
-  1.66.0--r41hdfd78af_0: sha256:b17092279c5d74b3857d71f158ed7bc1ea1e93336d17e85ef33a30f6b2ae214f
+  1.70.0--r42hdfd78af_0: sha256:aa56f8d132d61e1dfcdde174284d1720319e1961b98298cf8ca3898da18742e7
 tags:
   1.66.0--r41hdfd78af_0: sha256:b17092279c5d74b3857d71f158ed7bc1ea1e93336d17e85ef33a30f6b2ae214f
+  1.70.0--r42hdfd78af_0: sha256:aa56f8d132d61e1dfcdde174284d1720319e1961b98298cf8ca3898da18742e7
 docker: quay.io/biocontainers/bioconductor-cocitestats

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tbpore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tbpore
 latest:
-  0.2.0--pyhdfd78af_0: sha256:90f2175de4dff91941656a28cfdf9d96cc2a4355b71644765c7366b9bac184e3
+  0.3.2--pyhdfd78af_0: sha256:5934d7743c724470beee8ef126133f277176f7df00353bff36a36fb7e3ac049b
 tags:
   0.2.0--pyhdfd78af_0: sha256:90f2175de4dff91941656a28cfdf9d96cc2a4355b71644765c7366b9bac184e3
+  0.3.2--pyhdfd78af_0: sha256:5934d7743c724470beee8ef126133f277176f7df00353bff36a36fb7e3ac049b
 docker: quay.io/biocontainers/tbpore
 aliases:
   mongod: /usr/local/bin/mongod
