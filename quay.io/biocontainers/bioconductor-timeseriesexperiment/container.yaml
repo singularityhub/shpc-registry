@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-timeseriesexperiment
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-timeseriesexperiment
 latest:
-  1.8.0--r40hdfd78af_1: sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b
+  1.12.0--r41hdfd78af_0: sha256:54fd85db5ce3c2cabd7335cdc99d0f3d3173440ccbce39fc50c41bda75f2c011
 tags:
   1.8.0--r40hdfd78af_1: sha256:01961a5377c756748aa3cb2474008f65632500821e9f55d5a88b7fce7178ac6b
+  1.12.0--r41hdfd78af_0: sha256:54fd85db5ce3c2cabd7335cdc99d0f3d3173440ccbce39fc50c41bda75f2c011
+  1.10.0--r41hdfd78af_0: sha256:f091a4bf6a98692827c73d24ac31cd3ca637c15e176ebb3693927fede41d7890
 docker: quay.io/biocontainers/bioconductor-timeseriesexperiment
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/refgenconf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for refgenconf
 latest:
-  0.9.3--pyh3252c3a_0: sha256:340fd3ca078477ca4647c6a0e0580927b5c746fb63db3f90b6f7271e3a7502e4
+  0.12.2--pyhdfd78af_0: sha256:83014d20513e03560ff4d056ba971b56f8781611256daf944bceac9d419a7023
 tags:
   0.9.3--pyh3252c3a_0: sha256:340fd3ca078477ca4647c6a0e0580927b5c746fb63db3f90b6f7271e3a7502e4
+  0.12.2--pyhdfd78af_0: sha256:83014d20513e03560ff4d056ba971b56f8781611256daf944bceac9d419a7023
+  0.11.1--pyhdfd78af_0: sha256:96296db354f7470b61b3af79dc0479d357411d9f3a4ee8af32b3a72ccf2ce995
+  0.10.0--py_0: sha256:db41ecfb0580ea8e74ae9cca10e60d49fd861a7e9a761ed61ef582de5ff2d9e3
 docker: quay.io/biocontainers/refgenconf
 aliases:
   py.test: /usr/local/bin/py.test

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-airpart
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-airpart
 latest:
-  1.2.0--r41hdfd78af_0: sha256:3115dbcd8ed70620d9a51f3092def1d1b14842f0b030540fa886aded2ec2995f
+  1.6.0--r42hdfd78af_0: sha256:21466c9445e509f4e51db6804b7bafe826f00e09569573fe736125859f826644
 tags:
   1.2.0--r41hdfd78af_0: sha256:3115dbcd8ed70620d9a51f3092def1d1b14842f0b030540fa886aded2ec2995f
+  1.6.0--r42hdfd78af_0: sha256:21466c9445e509f4e51db6804b7bafe826f00e09569573fe736125859f826644
 docker: quay.io/biocontainers/bioconductor-airpart

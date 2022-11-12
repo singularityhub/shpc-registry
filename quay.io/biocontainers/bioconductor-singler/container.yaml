@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-singler
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-singler
 latest:
-  1.8.1--r41hc247a5b_1: sha256:975b3f41bd94a141dcce611a08c76bfde66df15e9ae466360fe5faa750ace46c
+  2.0.0--r42hc247a5b_0: sha256:5e594b755c2c673ab61134db3e70de49b03166df100ead8bf0cf2e793ebacaf5
 tags:
   1.8.1--r41hc247a5b_1: sha256:975b3f41bd94a141dcce611a08c76bfde66df15e9ae466360fe5faa750ace46c
+  2.0.0--r42hc247a5b_0: sha256:5e594b755c2c673ab61134db3e70de49b03166df100ead8bf0cf2e793ebacaf5
 docker: quay.io/biocontainers/bioconductor-singler

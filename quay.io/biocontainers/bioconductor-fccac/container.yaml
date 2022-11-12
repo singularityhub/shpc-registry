@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-fccac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fccac
 latest:
-  1.8.0--r351_0: sha256:6f97236a6cf9429fea4eb2755b63a2fcd0a407aed7b8993fbcd324f3fda3edcd
+  1.24.0--r42hdfd78af_0: sha256:6ffa7ab16add93bbc6a680a7665c95719a99619c9818fc461730d3b24630cf81
 tags:
   1.8.0--r351_0: sha256:6f97236a6cf9429fea4eb2755b63a2fcd0a407aed7b8993fbcd324f3fda3edcd
+  1.24.0--r42hdfd78af_0: sha256:6ffa7ab16add93bbc6a680a7665c95719a99619c9818fc461730d3b24630cf81
+  1.20.0--r41hdfd78af_0: sha256:2449ce32785c67947b9bc7fb7f334c18da8663039be4dc0faa49625514e2ef91
+  1.18.0--r41hdfd78af_0: sha256:8bb8220f9f86a5ee3f27cd545fd840f6b8a694bad08ef4b7be0bd92939a2c941
+  1.16.0--r40hdfd78af_1: sha256:7e75ac8e54ea3db08e0afb4dbf8c34a55ddc150edefc25415d81b0fe98aafca5
+  1.14.0--r40_0: sha256:f32ccfabff45400dd8b3034c5fa78f2efcc51dadb325251b84decfa1140527e8
 docker: quay.io/biocontainers/bioconductor-fccac
 aliases:
   wget: /usr/local/bin/wget

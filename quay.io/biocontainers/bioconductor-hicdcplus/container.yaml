@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-hicdcplus
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hicdcplus
 latest:
-  1.2.1--r41hc247a5b_1: sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd
+  1.6.0--r42hc247a5b_0: sha256:2e4d62e6812c7619a1c4e202eba328880465a3785ba5fbf27b6b54aa5fccc7b6
 tags:
   1.2.1--r41hc247a5b_1: sha256:1a07323f2db6f9fd4bf7ff0af0e04da476010810bbf9ca1ac25e125a6693f3fd
+  1.6.0--r42hc247a5b_0: sha256:2e4d62e6812c7619a1c4e202eba328880465a3785ba5fbf27b6b54aa5fccc7b6
 docker: quay.io/biocontainers/bioconductor-hicdcplus
 aliases:
   glpsol: /usr/local/bin/glpsol

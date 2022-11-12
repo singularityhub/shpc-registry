@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/aquila_stlfr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for aquila_stlfr
 latest:
-  1.2.9--py_0: sha256:4c761deb2bb351fc8214778d87cee91a4c0003899d4b30ae11a3befe458a044e
+  1.2.11--py_0: sha256:f4871f71899e56e8b3549ddece63a1726f7f263ad3e9e91d706fb54062ca99dd
 tags:
   1.2.9--py_0: sha256:4c761deb2bb351fc8214778d87cee91a4c0003899d4b30ae11a3befe458a044e
+  1.2.11--py_0: sha256:f4871f71899e56e8b3549ddece63a1726f7f263ad3e9e91d706fb54062ca99dd
 docker: quay.io/biocontainers/aquila_stlfr
 aliases:
   Aquila_stLFR_assembly_based_variants_call: /usr/local/bin/Aquila_stLFR_assembly_based_variants_call
