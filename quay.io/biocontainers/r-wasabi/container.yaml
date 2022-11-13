@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-wasabi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-wasabi
 latest:
-  1.0.1--r41hdfd78af_4: sha256:c475dbda694bef4031d2c966873456584f3732d61b18f6fb1f46d02df06fb987
+  1.0.1--r42hdfd78af_5: sha256:f2e9812a196b87ca475c6377ffbd4570a1707e26148f8f3093398b50e1c842db
 tags:
   1.0.1--r41hdfd78af_4: sha256:c475dbda694bef4031d2c966873456584f3732d61b18f6fb1f46d02df06fb987
+  1.0.1--r42hdfd78af_5: sha256:f2e9812a196b87ca475c6377ffbd4570a1707e26148f8f3093398b50e1c842db
 docker: quay.io/biocontainers/r-wasabi
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

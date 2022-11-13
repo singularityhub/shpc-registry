@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-artms
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-artms
 latest:
-  1.8.2--r40hdfd78af_0: sha256:d6cff4fbd7188d879402d6a2f7f73c15c4a6ee5accc37679cd56e499978db60a
+  1.16.0--r42hdfd78af_0: sha256:6da8f5e3d865d6607265844fb1826f1d52d2bcd57ba78591433851241c795b71
 tags:
   1.8.2--r40hdfd78af_0: sha256:d6cff4fbd7188d879402d6a2f7f73c15c4a6ee5accc37679cd56e499978db60a
+  1.16.0--r42hdfd78af_0: sha256:6da8f5e3d865d6607265844fb1826f1d52d2bcd57ba78591433851241c795b71
+  1.12.0--r41hdfd78af_0: sha256:775fe2bc48e253807c1db3d782573cc3a09a862646d0200f6673280944ded1b3
+  1.10.0--r41hdfd78af_0: sha256:beabbce71137b457245cac9799f3d6ea1b22dc46670ab9c8bf9054a7b3122771
 docker: quay.io/biocontainers/bioconductor-artms
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

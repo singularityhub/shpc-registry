@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-lumi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lumi
 latest:
-  2.46.0--r41hdfd78af_1: sha256:6754316ec0fc6bc9163b4611e4b03846ffc663b2084d0352a3703963e9f0ea58
+  2.50.0--r42hdfd78af_0: sha256:4193afac50ce5849c9f7d04e1669b901b13a0b91e2d432086657c01927fdf09c
 tags:
   2.46.0--r41hdfd78af_1: sha256:6754316ec0fc6bc9163b4611e4b03846ffc663b2084d0352a3703963e9f0ea58
+  2.50.0--r42hdfd78af_0: sha256:4193afac50ce5849c9f7d04e1669b901b13a0b91e2d432086657c01927fdf09c
 docker: quay.io/biocontainers/bioconductor-lumi

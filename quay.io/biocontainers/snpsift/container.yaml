@@ -5,6 +5,7 @@ latest:
   5.1d--hdfd78af_0: sha256:049babfac841d15a92d8febfc10a25f5aa109c9fe6670af35ea79583a1c78402
 tags:
   5.1d--hdfd78af_0: sha256:049babfac841d15a92d8febfc10a25f5aa109c9fe6670af35ea79583a1c78402
+  5.1--hdfd78af_0: sha256:be57b5ce5f1fa3cd517500cb3ade3a55c6379b01e73704ae6130d594ea55bc72
 docker: quay.io/biocontainers/snpsift
 aliases:
   SnpSift: /usr/local/bin/SnpSift

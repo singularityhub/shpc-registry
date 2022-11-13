@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scate
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scate
 latest:
-  1.4.0--r41hdfd78af_0: sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b
+  1.8.0--r42hdfd78af_0: sha256:1f33fde2902729ca776761bc9768661d9d0f7417af4a4f62c61e302a6b64134e
 tags:
   1.4.0--r41hdfd78af_0: sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b
+  1.8.0--r42hdfd78af_0: sha256:1f33fde2902729ca776761bc9768661d9d0f7417af4a4f62c61e302a6b64134e
 docker: quay.io/biocontainers/bioconductor-scate
 aliases:
   .bioconductor-scatedata-post-link.sh: /usr/local/bin/.bioconductor-scatedata-post-link.sh

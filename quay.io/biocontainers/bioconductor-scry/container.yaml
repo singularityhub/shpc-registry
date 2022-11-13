@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-scry
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scry
 latest:
-  1.6.0--r41hdfd78af_0: sha256:b5d08ac130b03338bfea30b929b648e73fb1b2fa28e663b83b3a485b52c9a830
+  1.10.0--r42hdfd78af_0: sha256:df05cfd1e0fa0576522c65d49294321108e726d256a70aed545491839c59e5ba
 tags:
   1.6.0--r41hdfd78af_0: sha256:b5d08ac130b03338bfea30b929b648e73fb1b2fa28e663b83b3a485b52c9a830
+  1.10.0--r42hdfd78af_0: sha256:df05cfd1e0fa0576522c65d49294321108e726d256a70aed545491839c59e5ba
 docker: quay.io/biocontainers/bioconductor-scry

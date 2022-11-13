@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/beast
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for beast
 latest:
-  1.8.4--0: sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645
+  1.10.4--hdfd78af_2: sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802
 tags:
   1.8.4--0: sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645
+  1.10.4--hdfd78af_2: sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802
 docker: quay.io/biocontainers/beast
 aliases:
   beast: /usr/local/bin/beast

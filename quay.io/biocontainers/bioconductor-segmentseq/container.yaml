@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-segmentseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-segmentseq
 latest:
-  2.28.0--r41hdfd78af_0: sha256:698b891b724bfb77335632b7b4e73c936ff62eefbef971c0c7704d829c3e57ee
+  2.32.0--r42hdfd78af_0: sha256:5fbb484c62ad770cb35284a3b405f2dab52c351e1f6609db1af798a82d0ad044
 tags:
   2.28.0--r41hdfd78af_0: sha256:698b891b724bfb77335632b7b4e73c936ff62eefbef971c0c7704d829c3e57ee
+  2.32.0--r42hdfd78af_0: sha256:5fbb484c62ad770cb35284a3b405f2dab52c351e1f6609db1af798a82d0ad044
 docker: quay.io/biocontainers/bioconductor-segmentseq

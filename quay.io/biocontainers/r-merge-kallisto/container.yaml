@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-merge-kallisto
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-merge-kallisto
 latest:
-  0.6--hdfd78af_1: sha256:3b4522235d25f421df8b5174f2f7ac3666b3a850aff808a54c2f90de521b8532
+  0.6--hdfd78af_2: sha256:c906dc6421f31614d317fbce605ddcb68fbe5cd08b27d19f4f1edb26a62db9d5
 tags:
   0.6--hdfd78af_1: sha256:3b4522235d25f421df8b5174f2f7ac3666b3a850aff808a54c2f90de521b8532
+  0.6--hdfd78af_2: sha256:c906dc6421f31614d317fbce605ddcb68fbe5cd08b27d19f4f1edb26a62db9d5
 docker: quay.io/biocontainers/r-merge-kallisto
 aliases:
   merge_kallisto.R: /usr/local/bin/merge_kallisto.R
