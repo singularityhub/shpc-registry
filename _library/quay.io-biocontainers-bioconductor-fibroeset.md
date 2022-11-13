@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-fibroeset"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fibroeset/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fibroeset/container.yaml"
-updated_at: "2022-11-12 00:47:43.604342"
-latest: "1.36.0--r41hdfd78af_1"
+updated_at: "2022-11-13 00:18:04.749810"
+latest: "1.40.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fibroeset"
 aliases:
  - ".bioconductor-fibroeset-post-link.sh"
  - ".bioconductor-fibroeset-pre-unlink.sh"
 versions:
  - "1.36.0--r41hdfd78af_1"
+ - "1.40.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fibroeset"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fibroeset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fibroeset", "latest": {"1.36.0--r41hdfd78af_1": "sha256:2a75e9f1e42172413f149770abd9f34f33a8306529e897002df8c6acc7547ff7"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:2a75e9f1e42172413f149770abd9f34f33a8306529e897002df8c6acc7547ff7"}, "docker": "quay.io/biocontainers/bioconductor-fibroeset", "aliases": {".bioconductor-fibroeset-post-link.sh": "/usr/local/bin/.bioconductor-fibroeset-post-link.sh", ".bioconductor-fibroeset-pre-unlink.sh": "/usr/local/bin/.bioconductor-fibroeset-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fibroeset", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fibroeset", "latest": {"1.40.0--r42hdfd78af_0": "sha256:55ee4979c3154c51d43bd1624b4a4c8745bf4212bf7f1a94ba0aba80729ef1b2"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:2a75e9f1e42172413f149770abd9f34f33a8306529e897002df8c6acc7547ff7", "1.40.0--r42hdfd78af_0": "sha256:55ee4979c3154c51d43bd1624b4a4c8745bf4212bf7f1a94ba0aba80729ef1b2"}, "docker": "quay.io/biocontainers/bioconductor-fibroeset", "aliases": {".bioconductor-fibroeset-post-link.sh": "/usr/local/bin/.bioconductor-fibroeset-post-link.sh", ".bioconductor-fibroeset-pre-unlink.sh": "/usr/local/bin/.bioconductor-fibroeset-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fibroeset.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fibroeset
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fibroeset:1.36.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-fibroeset:1.40.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fibroeset/1.36.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-fibroeset/1.36.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-fibroeset/1.40.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fibroeset/1.40.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

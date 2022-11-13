@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-melissa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-melissa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-melissa/container.yaml"
-updated_at: "2022-11-12 01:03:40.823155"
+updated_at: "2022-11-13 00:32:45.123698"
 latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-melissa"
 aliases:

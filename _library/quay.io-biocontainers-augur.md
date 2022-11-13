@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/augur"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/augur/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/augur/container.yaml"
-updated_at: "2022-11-12 00:57:57.552894"
+updated_at: "2022-11-13 00:27:25.112221"
 latest: "13.1.2--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/augur"
 aliases:

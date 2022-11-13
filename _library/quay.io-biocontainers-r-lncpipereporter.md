@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-lncpipereporter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-lncpipereporter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-lncpipereporter/container.yaml"
-updated_at: "2022-11-12 00:36:35.554716"
-latest: "0.1.1--r41hec16e2b_5"
+updated_at: "2022-11-13 00:08:01.517482"
+latest: "0.1.1--r42hec16e2b_6"
 container_url: "https://biocontainers.pro/tools/r-lncpipereporter"
 aliases:
  - "pandoc"
 versions:
  - "0.1.1--r41hec16e2b_5"
+ - "0.1.1--r42hec16e2b_6"
 description: "shpc-registry automated BioContainers addition for r-lncpipereporter"
-config: {"url": "https://biocontainers.pro/tools/r-lncpipereporter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lncpipereporter", "latest": {"0.1.1--r41hec16e2b_5": "sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268"}, "tags": {"0.1.1--r41hec16e2b_5": "sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268"}, "docker": "quay.io/biocontainers/r-lncpipereporter", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-lncpipereporter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-lncpipereporter", "latest": {"0.1.1--r42hec16e2b_6": "sha256:a7d6df5d1901e5851f8f6bfc2d0b5bf2249383dc88efcfe3a070fef60b6b823f"}, "tags": {"0.1.1--r41hec16e2b_5": "sha256:916d49aaddcb11fffc11fd3cf4b2d44fd9455653b88cca1685eda71ce7d64268", "0.1.1--r42hec16e2b_6": "sha256:a7d6df5d1901e5851f8f6bfc2d0b5bf2249383dc88efcfe3a070fef60b6b823f"}, "docker": "quay.io/biocontainers/r-lncpipereporter", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-lncpipereporter.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-lncpipereporter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-lncpipereporter:0.1.1--r41hec16e2b_5
+$ shpc install quay.io/biocontainers/r-lncpipereporter:0.1.1--r42hec16e2b_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-lncpipereporter/0.1.1--r41hec16e2b_5
-$ module help quay.io/biocontainers/r-lncpipereporter/0.1.1--r41hec16e2b_5
+$ module load quay.io/biocontainers/r-lncpipereporter/0.1.1--r42hec16e2b_6
+$ module help quay.io/biocontainers/r-lncpipereporter/0.1.1--r42hec16e2b_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ffpe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ffpe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ffpe/container.yaml"
-updated_at: "2022-11-12 01:03:19.921549"
-latest: "1.38.0--r41hdfd78af_1"
+updated_at: "2022-11-13 00:32:25.284406"
+latest: "1.42.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ffpe"
 
 versions:
  - "1.38.0--r41hdfd78af_1"
+ - "1.42.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ffpe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ffpe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ffpe", "latest": {"1.38.0--r41hdfd78af_1": "sha256:2715ca81c893e5dd73ce3695be7c6e6e65a14ccc158330744cb82a8a4f519e3b"}, "tags": {"1.38.0--r41hdfd78af_1": "sha256:2715ca81c893e5dd73ce3695be7c6e6e65a14ccc158330744cb82a8a4f519e3b"}, "docker": "quay.io/biocontainers/bioconductor-ffpe"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ffpe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ffpe", "latest": {"1.42.0--r42hdfd78af_0": "sha256:2c2b509d79f7c21adb4ec4ae40eb6d101d24ca8fdb85c3df173559b40202a37a"}, "tags": {"1.38.0--r41hdfd78af_1": "sha256:2715ca81c893e5dd73ce3695be7c6e6e65a14ccc158330744cb82a8a4f519e3b", "1.42.0--r42hdfd78af_0": "sha256:2c2b509d79f7c21adb4ec4ae40eb6d101d24ca8fdb85c3df173559b40202a37a"}, "docker": "quay.io/biocontainers/bioconductor-ffpe"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ffpe.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ffpe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ffpe:1.38.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ffpe:1.42.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ffpe/1.38.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ffpe/1.38.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ffpe/1.42.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ffpe/1.42.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-isanalytics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-isanalytics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-isanalytics/container.yaml"
-updated_at: "2022-11-12 00:31:28.978131"
-latest: "1.4.1--r41hdfd78af_0"
+updated_at: "2022-11-13 00:03:25.587893"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-isanalytics"
 
 versions:
  - "1.4.1--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-isanalytics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-isanalytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isanalytics", "latest": {"1.4.1--r41hdfd78af_0": "sha256:8a57b1287c5f118ffbbc69e851a2b2bd69c74b33f53c28deea433660914367b5"}, "tags": {"1.4.1--r41hdfd78af_0": "sha256:8a57b1287c5f118ffbbc69e851a2b2bd69c74b33f53c28deea433660914367b5"}, "docker": "quay.io/biocontainers/bioconductor-isanalytics"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-isanalytics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-isanalytics", "latest": {"1.8.0--r42hdfd78af_0": "sha256:7924276bf42f704deebe01ac534e08c057a0fcf2ec7c1fcf0403cb7ca23db0e8"}, "tags": {"1.4.1--r41hdfd78af_0": "sha256:8a57b1287c5f118ffbbc69e851a2b2bd69c74b33f53c28deea433660914367b5", "1.8.0--r42hdfd78af_0": "sha256:7924276bf42f704deebe01ac534e08c057a0fcf2ec7c1fcf0403cb7ca23db0e8"}, "docker": "quay.io/biocontainers/bioconductor-isanalytics"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-isanalytics.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-isanalytics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-isanalytics:1.4.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-isanalytics:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-isanalytics/1.4.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-isanalytics/1.4.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-isanalytics/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-isanalytics/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

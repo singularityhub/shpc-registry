@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-generegionscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-generegionscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-generegionscan/container.yaml"
-updated_at: "2022-11-12 00:51:37.694371"
-latest: "1.50.0--r41hdfd78af_0"
+updated_at: "2022-11-13 00:21:38.639541"
+latest: "1.54.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-generegionscan"
 
 versions:
  - "1.50.0--r41hdfd78af_0"
+ - "1.54.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-generegionscan"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-generegionscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-generegionscan", "latest": {"1.50.0--r41hdfd78af_0": "sha256:0666442a0b5c3366060be67531ad43049a300e68ebcc25a93a5d28fd154146b8"}, "tags": {"1.50.0--r41hdfd78af_0": "sha256:0666442a0b5c3366060be67531ad43049a300e68ebcc25a93a5d28fd154146b8"}, "docker": "quay.io/biocontainers/bioconductor-generegionscan"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-generegionscan", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-generegionscan", "latest": {"1.54.0--r42hdfd78af_0": "sha256:37f8038f8f91d4ed3e201a02aa995df62bf8da7f0b9505cd3d2d31ff33b1eceb"}, "tags": {"1.50.0--r41hdfd78af_0": "sha256:0666442a0b5c3366060be67531ad43049a300e68ebcc25a93a5d28fd154146b8", "1.54.0--r42hdfd78af_0": "sha256:37f8038f8f91d4ed3e201a02aa995df62bf8da7f0b9505cd3d2d31ff33b1eceb"}, "docker": "quay.io/biocontainers/bioconductor-generegionscan"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-generegionscan.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-generegionscan
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-generegionscan:1.50.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-generegionscan:1.54.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-generegionscan/1.50.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-generegionscan/1.50.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-generegionscan/1.54.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-generegionscan/1.54.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-saige"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-saige/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-saige/container.yaml"
-updated_at: "2022-11-12 00:13:38.059208"
+updated_at: "2022-11-12 23:47:04.260420"
 latest: "0.45.0--r41h723e9af_4"
 container_url: "https://biocontainers.pro/tools/r-saige"
 aliases:

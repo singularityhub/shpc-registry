@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-bicare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bicare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bicare/container.yaml"
-updated_at: "2022-11-12 00:57:41.928813"
+updated_at: "2022-11-13 00:27:10.405344"
 latest: "1.52.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-bicare"
 

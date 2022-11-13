@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gmapr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gmapr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gmapr/container.yaml"
-updated_at: "2022-11-12 00:21:50.216891"
-latest: "1.36.0--r41hc0cfd56_2"
+updated_at: "2022-11-12 23:54:45.819422"
+latest: "1.40.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gmapr"
 
 versions:
  - "1.36.0--r41hc0cfd56_2"
+ - "1.40.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gmapr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gmapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gmapr", "latest": {"1.36.0--r41hc0cfd56_2": "sha256:5b6fcab399519f0e29b38c316246c4159c1722bd7fad36645e9ede4c6298673d"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:5b6fcab399519f0e29b38c316246c4159c1722bd7fad36645e9ede4c6298673d"}, "docker": "quay.io/biocontainers/bioconductor-gmapr"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gmapr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gmapr", "latest": {"1.40.0--r42hc0cfd56_0": "sha256:2cdbf64e47eb9c4080a7a8318e44745a25a49daafeecd04b2872ee52f540d689"}, "tags": {"1.36.0--r41hc0cfd56_2": "sha256:5b6fcab399519f0e29b38c316246c4159c1722bd7fad36645e9ede4c6298673d", "1.40.0--r42hc0cfd56_0": "sha256:2cdbf64e47eb9c4080a7a8318e44745a25a49daafeecd04b2872ee52f540d689"}, "docker": "quay.io/biocontainers/bioconductor-gmapr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gmapr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gmapr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gmapr:1.36.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-gmapr:1.40.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gmapr/1.36.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-gmapr/1.36.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-gmapr/1.40.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-gmapr/1.40.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

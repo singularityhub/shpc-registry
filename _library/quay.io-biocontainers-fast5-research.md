@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fast5-research"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fast5-research/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fast5-research/container.yaml"
-updated_at: "2022-11-12 00:56:11.778436"
-latest: "1.2.8--pyhbdddce8_0"
+updated_at: "2022-11-13 00:25:45.804563"
+latest: "1.2.22--pyh864c0ab_0"
 container_url: "https://biocontainers.pro/tools/fast5-research"
 aliases:
  - "extract_reads"
@@ -21,8 +21,9 @@ aliases:
  - "python3.6m"
 versions:
  - "1.2.8--pyhbdddce8_0"
+ - "1.2.22--pyh864c0ab_0"
 description: "shpc-registry automated BioContainers addition for fast5-research"
-config: {"url": "https://biocontainers.pro/tools/fast5-research", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fast5-research", "latest": {"1.2.8--pyhbdddce8_0": "sha256:ea3c572b2db00214ab2c883d9a7ef98ff5c6319e04dba759ca14cda599d1be8d"}, "tags": {"1.2.8--pyhbdddce8_0": "sha256:ea3c572b2db00214ab2c883d9a7ef98ff5c6319e04dba759ca14cda599d1be8d"}, "docker": "quay.io/biocontainers/fast5-research", "aliases": {"extract_reads": "/usr/local/bin/extract_reads", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
+config: {"url": "https://biocontainers.pro/tools/fast5-research", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fast5-research", "latest": {"1.2.22--pyh864c0ab_0": "sha256:e62e3c13d4e4b8a8797ef021a05e4e2e2d35f8e8e90314a057475c9eb10d8f8d"}, "tags": {"1.2.8--pyhbdddce8_0": "sha256:ea3c572b2db00214ab2c883d9a7ef98ff5c6319e04dba759ca14cda599d1be8d", "1.2.22--pyh864c0ab_0": "sha256:e62e3c13d4e4b8a8797ef021a05e4e2e2d35f8e8e90314a057475c9eb10d8f8d"}, "docker": "quay.io/biocontainers/fast5-research", "aliases": {"extract_reads": "/usr/local/bin/extract_reads", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "py.test": "/usr/local/bin/py.test", "pytest": "/usr/local/bin/pytest", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fast5-research.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/fast5-research
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fast5-research:1.2.8--pyhbdddce8_0
+$ shpc install quay.io/biocontainers/fast5-research:1.2.22--pyh864c0ab_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fast5-research/1.2.8--pyhbdddce8_0
-$ module help quay.io/biocontainers/fast5-research/1.2.8--pyhbdddce8_0
+$ module load quay.io/biocontainers/fast5-research/1.2.22--pyh864c0ab_0
+$ module help quay.io/biocontainers/fast5-research/1.2.22--pyh864c0ab_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

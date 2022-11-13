@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fastcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fastcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fastcluster/container.yaml"
-updated_at: "2022-11-12 00:46:35.076996"
+updated_at: "2022-11-13 00:17:02.995736"
 latest: "1.1.20--r3.3.2_1"
 container_url: "https://biocontainers.pro/tools/r-fastcluster"
 aliases:

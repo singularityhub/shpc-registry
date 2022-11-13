@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-lungcanceracvssccgeo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/container.yaml"
-updated_at: "2022-11-12 01:09:06.000922"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-13 00:37:50.972828"
+latest: "1.34.0--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-lungcanceracvssccgeo"
 aliases:
  - ".bioconductor-lungcanceracvssccgeo-post-link.sh"
  - ".bioconductor-lungcanceracvssccgeo-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lungcanceracvssccgeo"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lungcanceracvssccgeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lungcanceracvssccgeo", "latest": {"1.30.0--r41hdfd78af_1": "sha256:a85961ba83366da8f9889e4b3817fa615b556d7b8dd4b1fdf9888594c00d2d2c"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:a85961ba83366da8f9889e4b3817fa615b556d7b8dd4b1fdf9888594c00d2d2c"}, "docker": "quay.io/biocontainers/bioconductor-lungcanceracvssccgeo", "aliases": {".bioconductor-lungcanceracvssccgeo-post-link.sh": "/usr/local/bin/.bioconductor-lungcanceracvssccgeo-post-link.sh", ".bioconductor-lungcanceracvssccgeo-pre-unlink.sh": "/usr/local/bin/.bioconductor-lungcanceracvssccgeo-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lungcanceracvssccgeo", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lungcanceracvssccgeo", "latest": {"1.34.0--r42hdfd78af_1": "sha256:bcb752a41e6f3539d6ddfb87dd96f72b55391d74ca595c00a614c6a0524e27b6"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:a85961ba83366da8f9889e4b3817fa615b556d7b8dd4b1fdf9888594c00d2d2c", "1.34.0--r42hdfd78af_1": "sha256:bcb752a41e6f3539d6ddfb87dd96f72b55391d74ca595c00a614c6a0524e27b6", "1.33.0--r42hdfd78af_0": "sha256:454c20900dc158b8d96ed1bd07575df0bbccff6d76c4adf41a69eb425988a825"}, "docker": "quay.io/biocontainers/bioconductor-lungcanceracvssccgeo", "aliases": {".bioconductor-lungcanceracvssccgeo-post-link.sh": "/usr/local/bin/.bioconductor-lungcanceracvssccgeo-post-link.sh", ".bioconductor-lungcanceracvssccgeo-pre-unlink.sh": "/usr/local/bin/.bioconductor-lungcanceracvssccgeo-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lungcanceracvssccgeo.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lungcanceracvssccgeo
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lungcanceracvssccgeo:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-lungcanceracvssccgeo:1.34.0--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/1.34.0--r42hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-lungcanceracvssccgeo/1.34.0--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

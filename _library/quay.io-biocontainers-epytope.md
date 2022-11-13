@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/epytope"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/epytope/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/epytope/container.yaml"
-updated_at: "2022-11-12 00:18:37.049029"
-latest: "3.1.0--pyh5e36f6f_0"
+updated_at: "2022-11-12 23:51:45.350551"
+latest: "3.2.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/epytope"
 aliases:
  - "_mhcflurry-cluster-worker-entry-point"
@@ -29,8 +29,9 @@ aliases:
  - "grpc_python_plugin"
 versions:
  - "3.1.0--pyh5e36f6f_0"
+ - "3.2.0--pyh7cba7a3_0"
 description: "shpc-registry automated BioContainers addition for epytope"
-config: {"url": "https://biocontainers.pro/tools/epytope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epytope", "latest": {"3.1.0--pyh5e36f6f_0": "sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9"}, "tags": {"3.1.0--pyh5e36f6f_0": "sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9"}, "docker": "quay.io/biocontainers/epytope", "aliases": {"_mhcflurry-cluster-worker-entry-point": "/usr/local/bin/_mhcflurry-cluster-worker-entry-point", "mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "pyomo": "/usr/local/bin/pyomo", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin"}}
+config: {"url": "https://biocontainers.pro/tools/epytope", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for epytope", "latest": {"3.2.0--pyh7cba7a3_0": "sha256:87c936925de98449e1f9d49eb02858584cac778a9ac8fb090c6519bee8145e5b"}, "tags": {"3.1.0--pyh5e36f6f_0": "sha256:5516aca1093fd09e4da49bd6e1d248703426ccec06cced9995f1e16bb36e2fe9", "3.2.0--pyh7cba7a3_0": "sha256:87c936925de98449e1f9d49eb02858584cac778a9ac8fb090c6519bee8145e5b"}, "docker": "quay.io/biocontainers/epytope", "aliases": {"_mhcflurry-cluster-worker-entry-point": "/usr/local/bin/_mhcflurry-cluster-worker-entry-point", "mhcflurry-calibrate-percentile-ranks": "/usr/local/bin/mhcflurry-calibrate-percentile-ranks", "mhcflurry-class1-select-allele-specific-models": "/usr/local/bin/mhcflurry-class1-select-allele-specific-models", "mhcflurry-class1-select-pan-allele-models": "/usr/local/bin/mhcflurry-class1-select-pan-allele-models", "mhcflurry-class1-train-allele-specific-models": "/usr/local/bin/mhcflurry-class1-train-allele-specific-models", "mhcflurry-class1-train-pan-allele-models": "/usr/local/bin/mhcflurry-class1-train-pan-allele-models", "mhcflurry-downloads": "/usr/local/bin/mhcflurry-downloads", "mhcflurry-predict": "/usr/local/bin/mhcflurry-predict", "pyomo": "/usr/local/bin/pyomo", "theano-cache": "/usr/local/bin/theano-cache", "theano-nose": "/usr/local/bin/theano-nose", "freeze_graph": "/usr/local/bin/freeze_graph", "mako-render": "/usr/local/bin/mako-render", "grpc_cpp_plugin": "/usr/local/bin/grpc_cpp_plugin", "grpc_csharp_plugin": "/usr/local/bin/grpc_csharp_plugin", "grpc_node_plugin": "/usr/local/bin/grpc_node_plugin", "grpc_objective_c_plugin": "/usr/local/bin/grpc_objective_c_plugin", "grpc_php_plugin": "/usr/local/bin/grpc_php_plugin", "grpc_python_plugin": "/usr/local/bin/grpc_python_plugin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/epytope.
@@ -45,7 +46,7 @@ $ shpc install quay.io/biocontainers/epytope
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/epytope:3.1.0--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/epytope:3.2.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -57,8 +58,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/epytope/3.1.0--pyh5e36f6f_0
-$ module help quay.io/biocontainers/epytope/3.1.0--pyh5e36f6f_0
+$ module load quay.io/biocontainers/epytope/3.2.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/epytope/3.2.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

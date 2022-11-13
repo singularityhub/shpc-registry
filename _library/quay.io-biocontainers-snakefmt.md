@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/snakefmt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snakefmt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snakefmt/container.yaml"
-updated_at: "2022-11-12 00:46:00.468794"
-latest: "0.6.1--pyhdfd78af_0"
+updated_at: "2022-11-13 00:16:33.096925"
+latest: "0.7.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/snakefmt"
 aliases:
  - "black"
@@ -19,8 +19,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "0.6.1--pyhdfd78af_0"
+ - "0.7.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for snakefmt"
-config: {"url": "https://biocontainers.pro/tools/snakefmt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakefmt", "latest": {"0.6.1--pyhdfd78af_0": "sha256:9d7d016c142dab89a2f02835c2ff74f2d523557570c6346536fbf0010d8f7ae8"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:9d7d016c142dab89a2f02835c2ff74f2d523557570c6346536fbf0010d8f7ae8"}, "docker": "quay.io/biocontainers/snakefmt", "aliases": {"black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "snakefmt": "/usr/local/bin/snakefmt", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/snakefmt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for snakefmt", "latest": {"0.7.0--pyhdfd78af_0": "sha256:0b85a551ffa5811453c453138cda9c97246aba576249b364582f85bb05c05d32"}, "tags": {"0.6.1--pyhdfd78af_0": "sha256:9d7d016c142dab89a2f02835c2ff74f2d523557570c6346536fbf0010d8f7ae8", "0.7.0--pyhdfd78af_0": "sha256:0b85a551ffa5811453c453138cda9c97246aba576249b364582f85bb05c05d32"}, "docker": "quay.io/biocontainers/snakefmt", "aliases": {"black": "/usr/local/bin/black", "blackd": "/usr/local/bin/blackd", "snakefmt": "/usr/local/bin/snakefmt", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/snakefmt.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/snakefmt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/snakefmt:0.6.1--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/snakefmt:0.7.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/snakefmt/0.6.1--pyhdfd78af_0
-$ module help quay.io/biocontainers/snakefmt/0.6.1--pyhdfd78af_0
+$ module load quay.io/biocontainers/snakefmt/0.7.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/snakefmt/0.7.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

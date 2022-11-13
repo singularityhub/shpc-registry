@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mirtarrnaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirtarrnaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirtarrnaseq/container.yaml"
-updated_at: "2022-11-12 00:24:43.525184"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-12 23:57:21.832455"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirtarrnaseq"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirtarrnaseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirtarrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirtarrnaseq", "latest": {"1.2.0--r41hdfd78af_0": "sha256:f151033b7a5c465d3cebe78fa38dde21f77f0f7a2d54e222849ff3bd70db0408"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f151033b7a5c465d3cebe78fa38dde21f77f0f7a2d54e222849ff3bd70db0408"}, "docker": "quay.io/biocontainers/bioconductor-mirtarrnaseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirtarrnaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirtarrnaseq", "latest": {"1.6.0--r42hdfd78af_0": "sha256:da6e8fa1977e9b6a3173b678367a2d08a81565ba3363d60860d6578f8856cebf"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:f151033b7a5c465d3cebe78fa38dde21f77f0f7a2d54e222849ff3bd70db0408", "1.6.0--r42hdfd78af_0": "sha256:da6e8fa1977e9b6a3173b678367a2d08a81565ba3363d60860d6578f8856cebf"}, "docker": "quay.io/biocontainers/bioconductor-mirtarrnaseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirtarrnaseq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirtarrnaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirtarrnaseq:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mirtarrnaseq:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirtarrnaseq/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mirtarrnaseq/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mirtarrnaseq/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mirtarrnaseq/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

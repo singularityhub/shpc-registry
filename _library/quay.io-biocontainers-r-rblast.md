@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-rblast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rblast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rblast/container.yaml"
-updated_at: "2022-11-12 01:06:16.396898"
-latest: "0.99.1--r41h9ee0642_5"
+updated_at: "2022-11-13 00:35:10.973869"
+latest: "0.99.1--r42h9ee0642_6"
 container_url: "https://biocontainers.pro/tools/r-rblast"
 aliases:
  - "CA.pm"
@@ -20,8 +20,9 @@ aliases:
  - "readme.pdf"
 versions:
  - "0.99.1--r41h9ee0642_5"
+ - "0.99.1--r42h9ee0642_6"
 description: "shpc-registry automated BioContainers addition for r-rblast"
-config: {"url": "https://biocontainers.pro/tools/r-rblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rblast", "latest": {"0.99.1--r41h9ee0642_5": "sha256:92742498ec8844a62cf6d87a611db71e31a8aa5d6905c71fb2bdd6b1023145bd"}, "tags": {"0.99.1--r41h9ee0642_5": "sha256:92742498ec8844a62cf6d87a611db71e31a8aa5d6905c71fb2bdd6b1023145bd"}, "docker": "quay.io/biocontainers/r-rblast", "aliases": {"CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
+config: {"url": "https://biocontainers.pro/tools/r-rblast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rblast", "latest": {"0.99.1--r42h9ee0642_6": "sha256:c93f946121c8f4aa8872b04ac09df1154226766c8947fbc52a0e1ede01eb4260"}, "tags": {"0.99.1--r41h9ee0642_5": "sha256:92742498ec8844a62cf6d87a611db71e31a8aa5d6905c71fb2bdd6b1023145bd", "0.99.1--r42h9ee0642_6": "sha256:c93f946121c8f4aa8872b04ac09df1154226766c8947fbc52a0e1ede01eb4260"}, "docker": "quay.io/biocontainers/r-rblast", "aliases": {"CA.pm": "/usr/local/bin/CA.pm", "cacert.pem": "/usr/local/bin/cacert.pem", "index-themes": "/usr/local/bin/index-themes", "fetch-extras": "/usr/local/bin/fetch-extras", "go.mod": "/usr/local/bin/go.mod", "go.sum": "/usr/local/bin/go.sum", "hlp-xtract.txt": "/usr/local/bin/hlp-xtract.txt", "index-extras": "/usr/local/bin/index-extras", "pm-collect": "/usr/local/bin/pm-collect", "readme.pdf": "/usr/local/bin/readme.pdf"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rblast.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-rblast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-rblast:0.99.1--r41h9ee0642_5
+$ shpc install quay.io/biocontainers/r-rblast:0.99.1--r42h9ee0642_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-rblast/0.99.1--r41h9ee0642_5
-$ module help quay.io/biocontainers/r-rblast/0.99.1--r41h9ee0642_5
+$ module load quay.io/biocontainers/r-rblast/0.99.1--r42h9ee0642_6
+$ module help quay.io/biocontainers/r-rblast/0.99.1--r42h9ee0642_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

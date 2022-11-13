@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/digestiflow-demux"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/digestiflow-demux/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/digestiflow-demux/container.yaml"
-updated_at: "2022-11-12 00:35:00.891256"
+updated_at: "2022-11-13 00:06:36.489612"
 latest: "0.5.2--py_0"
 container_url: "https://biocontainers.pro/tools/digestiflow-demux"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-breastcancermainz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-breastcancermainz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-breastcancermainz/container.yaml"
-updated_at: "2022-11-12 00:19:58.048342"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-12 23:53:01.813775"
+latest: "1.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-breastcancermainz"
 aliases:
  - ".bioconductor-breastcancermainz-post-link.sh"
  - ".bioconductor-breastcancermainz-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-breastcancermainz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-breastcancermainz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-breastcancermainz", "latest": {"1.32.0--r41hdfd78af_1": "sha256:b5f87a526ca64699540f01b8906513f80d22faec934385a4836df227aa56340d"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:b5f87a526ca64699540f01b8906513f80d22faec934385a4836df227aa56340d"}, "docker": "quay.io/biocontainers/bioconductor-breastcancermainz", "aliases": {".bioconductor-breastcancermainz-post-link.sh": "/usr/local/bin/.bioconductor-breastcancermainz-post-link.sh", ".bioconductor-breastcancermainz-pre-unlink.sh": "/usr/local/bin/.bioconductor-breastcancermainz-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-breastcancermainz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-breastcancermainz", "latest": {"1.35.0--r42hdfd78af_0": "sha256:2e3b0150a7dd5ea1154d214a5336e89e3f46f51c2e97a7a769e94cc2387c3553"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:b5f87a526ca64699540f01b8906513f80d22faec934385a4836df227aa56340d", "1.35.0--r42hdfd78af_0": "sha256:2e3b0150a7dd5ea1154d214a5336e89e3f46f51c2e97a7a769e94cc2387c3553"}, "docker": "quay.io/biocontainers/bioconductor-breastcancermainz", "aliases": {".bioconductor-breastcancermainz-post-link.sh": "/usr/local/bin/.bioconductor-breastcancermainz-post-link.sh", ".bioconductor-breastcancermainz-pre-unlink.sh": "/usr/local/bin/.bioconductor-breastcancermainz-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-breastcancermainz.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-breastcancermainz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-breastcancermainz:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-breastcancermainz:1.35.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-breastcancermainz/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-breastcancermainz/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-breastcancermainz/1.35.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-breastcancermainz/1.35.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-mdqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mdqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mdqc/container.yaml"
-updated_at: "2022-11-12 00:28:31.575640"
-latest: "1.56.0--r41hdfd78af_0"
+updated_at: "2022-11-13 00:00:46.708648"
+latest: "1.60.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mdqc"
 
 versions:
  - "1.56.0--r41hdfd78af_0"
+ - "1.60.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mdqc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mdqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdqc", "latest": {"1.56.0--r41hdfd78af_0": "sha256:d07be10810270a6b819f597c100e2b7c5a795a5d68cfbc9753cdb54e5eece3f0"}, "tags": {"1.56.0--r41hdfd78af_0": "sha256:d07be10810270a6b819f597c100e2b7c5a795a5d68cfbc9753cdb54e5eece3f0"}, "docker": "quay.io/biocontainers/bioconductor-mdqc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mdqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdqc", "latest": {"1.60.0--r42hdfd78af_0": "sha256:4efa2d306877e15f15a88d30d74cd1d93023b46f4463f3455fedd01131154675"}, "tags": {"1.56.0--r41hdfd78af_0": "sha256:d07be10810270a6b819f597c100e2b7c5a795a5d68cfbc9753cdb54e5eece3f0", "1.60.0--r42hdfd78af_0": "sha256:4efa2d306877e15f15a88d30d74cd1d93023b46f4463f3455fedd01131154675"}, "docker": "quay.io/biocontainers/bioconductor-mdqc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mdqc.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mdqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mdqc:1.56.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mdqc:1.60.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mdqc/1.56.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mdqc/1.56.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mdqc/1.60.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mdqc/1.60.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

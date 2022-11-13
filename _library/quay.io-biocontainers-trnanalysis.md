@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trnanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trnanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trnanalysis/container.yaml"
-updated_at: "2022-11-12 00:45:39.042686"
-latest: "0.1.9--py_0"
+updated_at: "2022-11-13 00:16:13.583702"
+latest: "0.1.10--py_1"
 container_url: "https://biocontainers.pro/tools/trnanalysis"
 aliases:
  - "EukHighConfidenceFilter"
@@ -51,8 +51,9 @@ aliases:
  - "gifsponge"
 versions:
  - "0.1.9--py_0"
+ - "0.1.10--py_1"
 description: "shpc-registry automated BioContainers addition for trnanalysis"
-config: {"url": "https://biocontainers.pro/tools/trnanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnanalysis", "latest": {"0.1.9--py_0": "sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8"}, "tags": {"0.1.9--py_0": "sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8"}, "docker": "quay.io/biocontainers/trnanalysis", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "bq": "/usr/local/bin/bq", "cgat": "/usr/local/bin/cgat", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "detectionCall": "/usr/local/bin/detectionCall", "eufindtRNA": "/usr/local/bin/eufindtRNA", "exactSNP": "/usr/local/bin/exactSNP", "fasta2gsi": "/usr/local/bin/fasta2gsi", "fastq_screen": "/usr/local/bin/fastq_screen", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "gcloud": "/usr/local/bin/gcloud", "genRandomReads": "/usr/local/bin/genRandomReads", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "sstofa": "/usr/local/bin/sstofa", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "time": "/usr/local/bin/time", "trnanalysis": "/usr/local/bin/trnanalysis", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "txUnique": "/usr/local/bin/txUnique", "gsutil": "/usr/local/bin/gsutil", "multiqc": "/usr/local/bin/multiqc", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge"}}
+config: {"url": "https://biocontainers.pro/tools/trnanalysis", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trnanalysis", "latest": {"0.1.10--py_1": "sha256:d24343d938cf048dd68e39e1b70ce6b645b7c11d7a3fa8debeb65775a197316e"}, "tags": {"0.1.9--py_0": "sha256:924fc24e3415f0d235f6e7ff0c1a0eba7bb24d1649e48e26b2c42d01e5be2fb8", "0.1.10--py_1": "sha256:d24343d938cf048dd68e39e1b70ce6b645b7c11d7a3fa8debeb65775a197316e"}, "docker": "quay.io/biocontainers/trnanalysis", "aliases": {"EukHighConfidenceFilter": "/usr/local/bin/EukHighConfidenceFilter", "bq": "/usr/local/bin/bq", "cgat": "/usr/local/bin/cgat", "covels-SE": "/usr/local/bin/covels-SE", "coves-SE": "/usr/local/bin/coves-SE", "detectionCall": "/usr/local/bin/detectionCall", "eufindtRNA": "/usr/local/bin/eufindtRNA", "exactSNP": "/usr/local/bin/exactSNP", "fasta2gsi": "/usr/local/bin/fasta2gsi", "fastq_screen": "/usr/local/bin/fastq_screen", "featureCounts": "/usr/local/bin/featureCounts", "flattenGTF": "/usr/local/bin/flattenGTF", "gcloud": "/usr/local/bin/gcloud", "genRandomReads": "/usr/local/bin/genRandomReads", "propmapped": "/usr/local/bin/propmapped", "qualityScores": "/usr/local/bin/qualityScores", "removeDup": "/usr/local/bin/removeDup", "repair": "/usr/local/bin/repair", "sstofa": "/usr/local/bin/sstofa", "subindel": "/usr/local/bin/subindel", "subjunc": "/usr/local/bin/subjunc", "sublong": "/usr/local/bin/sublong", "subread-align": "/usr/local/bin/subread-align", "subread-buildindex": "/usr/local/bin/subread-buildindex", "subread-fullscan": "/usr/local/bin/subread-fullscan", "tRNAscan-SE": "/usr/local/bin/tRNAscan-SE", "tRNAscan-SE.conf": "/usr/local/bin/tRNAscan-SE.conf", "time": "/usr/local/bin/time", "trnanalysis": "/usr/local/bin/trnanalysis", "trnascan-1.4": "/usr/local/bin/trnascan-1.4", "txUnique": "/usr/local/bin/txUnique", "gsutil": "/usr/local/bin/gsutil", "multiqc": "/usr/local/bin/multiqc", "egrep": "/usr/local/bin/egrep", "fgrep": "/usr/local/bin/fgrep", "grep": "/usr/local/bin/grep", "wigToBigWig": "/usr/local/bin/wigToBigWig", "bedGraphToBigWig": "/usr/local/bin/bedGraphToBigWig", "bedToBigBed": "/usr/local/bin/bedToBigBed", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trnanalysis.
@@ -67,7 +68,7 @@ $ shpc install quay.io/biocontainers/trnanalysis
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trnanalysis:0.1.9--py_0
+$ shpc install quay.io/biocontainers/trnanalysis:0.1.10--py_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -79,8 +80,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trnanalysis/0.1.9--py_0
-$ module help quay.io/biocontainers/trnanalysis/0.1.9--py_0
+$ module load quay.io/biocontainers/trnanalysis/0.1.10--py_1
+$ module help quay.io/biocontainers/trnanalysis/0.1.10--py_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

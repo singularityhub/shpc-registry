@@ -4,15 +4,16 @@ name:  "ghcr.io/autamus/lammps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/lammps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/lammps/container.yaml"
-updated_at: "2022-11-12 01:13:01.028085"
-latest: "20210310"
+updated_at: "2022-11-13 00:41:33.523269"
+latest: "20220623"
 container_url: "https://github.com/orgs/autamus/packages/container/package/lammps"
 
 versions:
  - "latest"
  - "20210310"
+ - "20220623"
 description: "LAMMPS is a classical molecular dynamics code with a focus on materials modeling."
-config: {"docker": "ghcr.io/autamus/lammps", "url": "https://github.com/orgs/autamus/packages/container/package/lammps", "maintainer": "@vsoch", "description": "LAMMPS is a classical molecular dynamics code with a focus on materials modeling.", "latest": {"20210310": "sha256:6b49f26c1d75e460ca1edae7ed7ad819204cff880c69acaeaa868c6e7eacc893"}, "tags": {"latest": "sha256:6b49f26c1d75e460ca1edae7ed7ad819204cff880c69acaeaa868c6e7eacc893", "20210310": "sha256:6b49f26c1d75e460ca1edae7ed7ad819204cff880c69acaeaa868c6e7eacc893"}}
+config: {"docker": "ghcr.io/autamus/lammps", "url": "https://github.com/orgs/autamus/packages/container/package/lammps", "maintainer": "@vsoch", "description": "LAMMPS is a classical molecular dynamics code with a focus on materials modeling.", "latest": {"20220623": "sha256:1dd156b2fee3842e30cd975d48cb4c36a45be6b6b549726ecfa7f6e7e3c35bdc"}, "tags": {"latest": "sha256:1dd156b2fee3842e30cd975d48cb4c36a45be6b6b549726ecfa7f6e7e3c35bdc", "20210310": "sha256:6b49f26c1d75e460ca1edae7ed7ad819204cff880c69acaeaa868c6e7eacc893", "20220623": "sha256:1dd156b2fee3842e30cd975d48cb4c36a45be6b6b549726ecfa7f6e7e3c35bdc"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/lammps.
@@ -27,7 +28,7 @@ $ shpc install ghcr.io/autamus/lammps
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/lammps:20210310
+$ shpc install ghcr.io/autamus/lammps:20220623
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/lammps/20210310
-$ module help ghcr.io/autamus/lammps/20210310
+$ module load ghcr.io/autamus/lammps/20220623
+$ module help ghcr.io/autamus/lammps/20220623
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

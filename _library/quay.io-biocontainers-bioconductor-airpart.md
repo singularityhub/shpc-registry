@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-airpart"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-airpart/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-airpart/container.yaml"
-updated_at: "2022-11-12 00:29:45.170289"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-13 00:01:53.074640"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-airpart"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-airpart"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-airpart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-airpart", "latest": {"1.2.0--r41hdfd78af_0": "sha256:3115dbcd8ed70620d9a51f3092def1d1b14842f0b030540fa886aded2ec2995f"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:3115dbcd8ed70620d9a51f3092def1d1b14842f0b030540fa886aded2ec2995f"}, "docker": "quay.io/biocontainers/bioconductor-airpart"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-airpart", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-airpart", "latest": {"1.6.0--r42hdfd78af_0": "sha256:21466c9445e509f4e51db6804b7bafe826f00e09569573fe736125859f826644"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:3115dbcd8ed70620d9a51f3092def1d1b14842f0b030540fa886aded2ec2995f", "1.6.0--r42hdfd78af_0": "sha256:21466c9445e509f4e51db6804b7bafe826f00e09569573fe736125859f826644"}, "docker": "quay.io/biocontainers/bioconductor-airpart"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-airpart.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-airpart
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-airpart:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-airpart:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-airpart/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-airpart/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-airpart/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-airpart/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

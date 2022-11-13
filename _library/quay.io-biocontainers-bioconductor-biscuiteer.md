@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-biscuiteer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-biscuiteer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-biscuiteer/container.yaml"
-updated_at: "2022-11-12 00:12:07.358737"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-12 23:45:38.611608"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-biscuiteer"
 aliases:
  - ".bioconductor-biscuiteerdata-post-link.sh"
  - ".bioconductor-biscuiteerdata-pre-unlink.sh"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-biscuiteer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-biscuiteer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biscuiteer", "latest": {"1.8.0--r41hdfd78af_0": "sha256:9ec0bff29f4ae35f22f90a96da9addad0861a56675a4ec4a3bc76611f5828e01"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:9ec0bff29f4ae35f22f90a96da9addad0861a56675a4ec4a3bc76611f5828e01"}, "docker": "quay.io/biocontainers/bioconductor-biscuiteer", "aliases": {".bioconductor-biscuiteerdata-post-link.sh": "/usr/local/bin/.bioconductor-biscuiteerdata-post-link.sh", ".bioconductor-biscuiteerdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-biscuiteerdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-biscuiteer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-biscuiteer", "latest": {"1.12.0--r42hdfd78af_0": "sha256:0307706bd0ef8bb4693558fd623628e034c69e8960891b0dd8841011c0290341"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:9ec0bff29f4ae35f22f90a96da9addad0861a56675a4ec4a3bc76611f5828e01", "1.12.0--r42hdfd78af_0": "sha256:0307706bd0ef8bb4693558fd623628e034c69e8960891b0dd8841011c0290341"}, "docker": "quay.io/biocontainers/bioconductor-biscuiteer", "aliases": {".bioconductor-biscuiteerdata-post-link.sh": "/usr/local/bin/.bioconductor-biscuiteerdata-post-link.sh", ".bioconductor-biscuiteerdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-biscuiteerdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-biscuiteer.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-biscuiteer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-biscuiteer:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-biscuiteer:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-biscuiteer/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-biscuiteer/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-biscuiteer/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-biscuiteer/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/scmap-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/scmap-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/scmap-cli/container.yaml"
-updated_at: "2022-11-12 00:21:02.355424"
-latest: "0.0.9--0"
+updated_at: "2022-11-12 23:54:01.728134"
+latest: "0.0.11--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/scmap-cli"
 aliases:
  - "scmap-cli-post-install-tests.bats"
@@ -30,8 +30,9 @@ aliases:
  - "c99"
 versions:
  - "0.0.9--0"
+ - "0.0.11--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for scmap-cli"
-config: {"url": "https://biocontainers.pro/tools/scmap-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scmap-cli", "latest": {"0.0.9--0": "sha256:9713c8fb1a1508db9fb261f4429614d6b609c37612bde66f3729e5cba9b06d27"}, "tags": {"0.0.9--0": "sha256:9713c8fb1a1508db9fb261f4429614d6b609c37612bde66f3729e5cba9b06d27"}, "docker": "quay.io/biocontainers/scmap-cli", "aliases": {"scmap-cli-post-install-tests.bats": "/usr/local/bin/scmap-cli-post-install-tests.bats", "scmap-cli-post-install-tests.sh": "/usr/local/bin/scmap-cli-post-install-tests.sh", "scmap-index-cell.R": "/usr/local/bin/scmap-index-cell.R", "scmap-index-cluster.R": "/usr/local/bin/scmap-index-cluster.R", "scmap-make-test-data.R": "/usr/local/bin/scmap-make-test-data.R", "scmap-preprocess-sce.R": "/usr/local/bin/scmap-preprocess-sce.R", "scmap-scmap-cell.R": "/usr/local/bin/scmap-scmap-cell.R", "scmap-scmap-cluster.R": "/usr/local/bin/scmap-scmap-cluster.R", "scmap-select-features.R": "/usr/local/bin/scmap-select-features.R", "scmap_get_std_output.R": "/usr/local/bin/scmap_get_std_output.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/scmap-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for scmap-cli", "latest": {"0.0.11--hdfd78af_1": "sha256:4380a5149ad33a228467a6ee6b570cfb38a2a8b35e792c88c0e8d0025dee263d"}, "tags": {"0.0.9--0": "sha256:9713c8fb1a1508db9fb261f4429614d6b609c37612bde66f3729e5cba9b06d27", "0.0.11--hdfd78af_1": "sha256:4380a5149ad33a228467a6ee6b570cfb38a2a8b35e792c88c0e8d0025dee263d"}, "docker": "quay.io/biocontainers/scmap-cli", "aliases": {"scmap-cli-post-install-tests.bats": "/usr/local/bin/scmap-cli-post-install-tests.bats", "scmap-cli-post-install-tests.sh": "/usr/local/bin/scmap-cli-post-install-tests.sh", "scmap-index-cell.R": "/usr/local/bin/scmap-index-cell.R", "scmap-index-cluster.R": "/usr/local/bin/scmap-index-cluster.R", "scmap-make-test-data.R": "/usr/local/bin/scmap-make-test-data.R", "scmap-preprocess-sce.R": "/usr/local/bin/scmap-preprocess-sce.R", "scmap-scmap-cell.R": "/usr/local/bin/scmap-scmap-cell.R", "scmap-scmap-cluster.R": "/usr/local/bin/scmap-scmap-cluster.R", "scmap-select-features.R": "/usr/local/bin/scmap-select-features.R", "scmap_get_std_output.R": "/usr/local/bin/scmap_get_std_output.R", "build_env_setup.sh": "/usr/local/bin/build_env_setup.sh", "conda_build.sh": "/usr/local/bin/conda_build.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/scmap-cli.
@@ -46,7 +47,7 @@ $ shpc install quay.io/biocontainers/scmap-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/scmap-cli:0.0.9--0
+$ shpc install quay.io/biocontainers/scmap-cli:0.0.11--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +59,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/scmap-cli/0.0.9--0
-$ module help quay.io/biocontainers/scmap-cli/0.0.9--0
+$ module load quay.io/biocontainers/scmap-cli/0.0.11--hdfd78af_1
+$ module help quay.io/biocontainers/scmap-cli/0.0.11--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

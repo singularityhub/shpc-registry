@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lace/container.yaml"
-updated_at: "2022-11-12 01:06:38.697855"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-13 00:35:31.151731"
+latest: "2.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lace"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "2.2.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lace"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lace", "latest": {"1.6.0--r41hdfd78af_0": "sha256:8ae85d97e6b6c2582a75c811bedb146c1108b3edeaa46a63be73b3d25a1cbf5d"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:8ae85d97e6b6c2582a75c811bedb146c1108b3edeaa46a63be73b3d25a1cbf5d"}, "docker": "quay.io/biocontainers/bioconductor-lace"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lace", "latest": {"2.2.0--r42hdfd78af_0": "sha256:b2dacc60fe0f9274b0b56c28cbcb49a546e76a3912bdb5056c37752e43331c85"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:8ae85d97e6b6c2582a75c811bedb146c1108b3edeaa46a63be73b3d25a1cbf5d", "2.2.0--r42hdfd78af_0": "sha256:b2dacc60fe0f9274b0b56c28cbcb49a546e76a3912bdb5056c37752e43331c85"}, "docker": "quay.io/biocontainers/bioconductor-lace"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lace.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lace
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lace:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lace:2.2.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lace/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lace/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lace/2.2.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lace/2.2.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

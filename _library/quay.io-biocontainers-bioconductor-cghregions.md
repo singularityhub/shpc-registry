@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cghregions"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cghregions/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cghregions/container.yaml"
-updated_at: "2022-11-12 00:53:32.124288"
-latest: "1.52.0--r41hdfd78af_0"
+updated_at: "2022-11-13 00:23:22.137540"
+latest: "1.56.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cghregions"
 
 versions:
  - "1.52.0--r41hdfd78af_0"
+ - "1.56.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cghregions"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cghregions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cghregions", "latest": {"1.52.0--r41hdfd78af_0": "sha256:202164e59b7ee2d82de821cbad01cfee377a4f818f4142781b450f115aadc443"}, "tags": {"1.52.0--r41hdfd78af_0": "sha256:202164e59b7ee2d82de821cbad01cfee377a4f818f4142781b450f115aadc443"}, "docker": "quay.io/biocontainers/bioconductor-cghregions"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cghregions", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cghregions", "latest": {"1.56.0--r42hdfd78af_0": "sha256:dbd1e15a73658cedd55d2713d20a6118c36c8c854242b78b78456b659e2f8a7f"}, "tags": {"1.52.0--r41hdfd78af_0": "sha256:202164e59b7ee2d82de821cbad01cfee377a4f818f4142781b450f115aadc443", "1.56.0--r42hdfd78af_0": "sha256:dbd1e15a73658cedd55d2713d20a6118c36c8c854242b78b78456b659e2f8a7f"}, "docker": "quay.io/biocontainers/bioconductor-cghregions"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cghregions.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cghregions
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cghregions:1.52.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cghregions:1.56.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cghregions/1.52.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cghregions/1.52.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cghregions/1.56.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cghregions/1.56.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rmassbankdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rmassbankdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rmassbankdata/container.yaml"
-updated_at: "2022-11-12 00:59:13.338542"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-13 00:28:36.347808"
+latest: "1.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rmassbankdata"
 aliases:
  - ".bioconductor-rmassbankdata-post-link.sh"
  - ".bioconductor-rmassbankdata-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rmassbankdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rmassbankdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmassbankdata", "latest": {"1.32.0--r41hdfd78af_1": "sha256:c9731852a3fc4279577aa862dca9e8f4a9fbe4c833b14f4cb2ae41bdf85d09ee"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:c9731852a3fc4279577aa862dca9e8f4a9fbe4c833b14f4cb2ae41bdf85d09ee"}, "docker": "quay.io/biocontainers/bioconductor-rmassbankdata", "aliases": {".bioconductor-rmassbankdata-post-link.sh": "/usr/local/bin/.bioconductor-rmassbankdata-post-link.sh", ".bioconductor-rmassbankdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-rmassbankdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rmassbankdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rmassbankdata", "latest": {"1.35.0--r42hdfd78af_0": "sha256:50ee96fbe62897c9677fcbac8c7ef44c694ccd186069cd3b5a0d764b66665950"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:c9731852a3fc4279577aa862dca9e8f4a9fbe4c833b14f4cb2ae41bdf85d09ee", "1.35.0--r42hdfd78af_0": "sha256:50ee96fbe62897c9677fcbac8c7ef44c694ccd186069cd3b5a0d764b66665950"}, "docker": "quay.io/biocontainers/bioconductor-rmassbankdata", "aliases": {".bioconductor-rmassbankdata-post-link.sh": "/usr/local/bin/.bioconductor-rmassbankdata-post-link.sh", ".bioconductor-rmassbankdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-rmassbankdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rmassbankdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rmassbankdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rmassbankdata:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-rmassbankdata:1.35.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rmassbankdata/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-rmassbankdata/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-rmassbankdata/1.35.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rmassbankdata/1.35.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

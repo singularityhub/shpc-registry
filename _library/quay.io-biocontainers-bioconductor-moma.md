@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-moma"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-moma/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-moma/container.yaml"
-updated_at: "2022-11-12 00:26:25.018682"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-12 23:58:53.730260"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-moma"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-moma"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-moma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moma", "latest": {"1.6.0--r41hdfd78af_0": "sha256:0c03fb25867e4db9793ac1a482b4eff5763b1f2e7de898dc5029c506a907b249"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:0c03fb25867e4db9793ac1a482b4eff5763b1f2e7de898dc5029c506a907b249"}, "docker": "quay.io/biocontainers/bioconductor-moma"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-moma", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-moma", "latest": {"1.10.0--r42hdfd78af_0": "sha256:279ed54eb9ac3a77f5cadd3b566a02185b5f1f348ed7d3b16c25258e1da4c79e"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:0c03fb25867e4db9793ac1a482b4eff5763b1f2e7de898dc5029c506a907b249", "1.10.0--r42hdfd78af_0": "sha256:279ed54eb9ac3a77f5cadd3b566a02185b5f1f348ed7d3b16c25258e1da4c79e"}, "docker": "quay.io/biocontainers/bioconductor-moma"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-moma.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-moma
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-moma:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-moma:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-moma/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-moma/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-moma/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-moma/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

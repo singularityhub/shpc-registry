@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-multihiccompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-multihiccompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-multihiccompare/container.yaml"
-updated_at: "2022-11-12 00:47:17.062300"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-13 00:17:40.381475"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-multihiccompare"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-multihiccompare"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-multihiccompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multihiccompare", "latest": {"1.8.0--r40hdfd78af_1": "sha256:18677d0a6343e180b478f6fc19aaea1ae25be8976ba47d4a4bfced1c9bd3d8c0"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:18677d0a6343e180b478f6fc19aaea1ae25be8976ba47d4a4bfced1c9bd3d8c0"}, "docker": "quay.io/biocontainers/bioconductor-multihiccompare", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-multihiccompare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-multihiccompare", "latest": {"1.16.0--r42hdfd78af_0": "sha256:533fb5f6caf64baadccd2ca9007be700fc0e6b831f07d59de97a0a9265d12a28"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:18677d0a6343e180b478f6fc19aaea1ae25be8976ba47d4a4bfced1c9bd3d8c0", "1.16.0--r42hdfd78af_0": "sha256:533fb5f6caf64baadccd2ca9007be700fc0e6b831f07d59de97a0a9265d12a28", "1.12.0--r41hdfd78af_0": "sha256:1b3b80c902d749f73ef78de012dbef45e133ec1a6566c48565e2877f41330a74", "1.10.0--r41hdfd78af_0": "sha256:61bfbd877216a24335d8d0904dc296bf7cd25cf7907fd331a87c0f2643edaa56"}, "docker": "quay.io/biocontainers/bioconductor-multihiccompare", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-multihiccompare.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-multihiccompare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-multihiccompare:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-multihiccompare:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-multihiccompare/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-multihiccompare/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-multihiccompare/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-multihiccompare/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

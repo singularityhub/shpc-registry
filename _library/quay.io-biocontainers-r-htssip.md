@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-htssip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-htssip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-htssip/container.yaml"
-updated_at: "2022-11-12 01:06:05.858677"
-latest: "1.4.1--r41h3342da4_3"
+updated_at: "2022-11-13 00:35:01.304076"
+latest: "1.4.1--r42h3342da4_4"
 container_url: "https://biocontainers.pro/tools/r-htssip"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.4.1--r41h3342da4_3"
+ - "1.4.1--r42h3342da4_4"
 description: "shpc-registry automated BioContainers addition for r-htssip"
-config: {"url": "https://biocontainers.pro/tools/r-htssip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htssip", "latest": {"1.4.1--r41h3342da4_3": "sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f"}, "tags": {"1.4.1--r41h3342da4_3": "sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f"}, "docker": "quay.io/biocontainers/r-htssip", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-htssip", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-htssip", "latest": {"1.4.1--r42h3342da4_4": "sha256:cad30486a067c7a7b23993669c16e193b72aba4ea35c454f80c7190ee8e8b5d5"}, "tags": {"1.4.1--r41h3342da4_3": "sha256:a5c0d03b49d3fe89d054069d916ceff1e837d90bc4901a27080a97613f68c01f", "1.4.1--r42h3342da4_4": "sha256:cad30486a067c7a7b23993669c16e193b72aba4ea35c454f80c7190ee8e8b5d5"}, "docker": "quay.io/biocontainers/r-htssip", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-htssip.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-htssip
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-htssip:1.4.1--r41h3342da4_3
+$ shpc install quay.io/biocontainers/r-htssip:1.4.1--r42h3342da4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-htssip/1.4.1--r41h3342da4_3
-$ module help quay.io/biocontainers/r-htssip/1.4.1--r41h3342da4_3
+$ module load quay.io/biocontainers/r-htssip/1.4.1--r42h3342da4_4
+$ module help quay.io/biocontainers/r-htssip/1.4.1--r42h3342da4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,20 @@ name:  "quay.io/biocontainers/bioconductor-chromplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromplot/container.yaml"
-updated_at: "2022-11-12 01:11:32.357436"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-13 00:40:10.129749"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromplot"
 aliases:
  - "wget"
 versions:
  - "1.8.0--r351_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromplot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromplot", "latest": {"1.8.0--r351_0": "sha256:6a45a9c1f22e44af3a4b8823872fe4f35f4cf3b80153cd4afce0543a8da7f81e"}, "tags": {"1.8.0--r351_0": "sha256:6a45a9c1f22e44af3a4b8823872fe4f35f4cf3b80153cd4afce0543a8da7f81e"}, "docker": "quay.io/biocontainers/bioconductor-chromplot", "aliases": {"wget": "/usr/local/bin/wget"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromplot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromplot", "latest": {"1.26.0--r42hdfd78af_0": "sha256:858749f900bef1ac68c5c4e68d7b54c0f037d5fce0f09986744b45c87ac1bbcb"}, "tags": {"1.8.0--r351_0": "sha256:6a45a9c1f22e44af3a4b8823872fe4f35f4cf3b80153cd4afce0543a8da7f81e", "1.26.0--r42hdfd78af_0": "sha256:858749f900bef1ac68c5c4e68d7b54c0f037d5fce0f09986744b45c87ac1bbcb", "1.22.0--r41hdfd78af_0": "sha256:5653d5e3795fc79d4f4ccd0d4674b6009899298bc213a654621d3008d6583edd", "1.20.0--r41hdfd78af_0": "sha256:40d0a5344275616fb5ee5df0e9043e367a55fb0d2b24d27ea75f06e418325bf5", "1.18.0--r40hdfd78af_1": "sha256:2463930872c644e01faa0b9039256c7cd326779936de8fdfe1526331b51d59bc", "1.16.0--r40_0": "sha256:48ae97416f2a6960662a862b40cd6e107c1b71e1aa5f7844ef97799945c22f74"}, "docker": "quay.io/biocontainers/bioconductor-chromplot", "aliases": {"wget": "/usr/local/bin/wget"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromplot.
@@ -27,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chromplot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chromplot:1.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-chromplot:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chromplot/1.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-chromplot/1.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-chromplot/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-chromplot/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

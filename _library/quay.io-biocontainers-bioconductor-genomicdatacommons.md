@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genomicdatacommons"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicdatacommons/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicdatacommons/container.yaml"
-updated_at: "2022-11-12 01:08:30.629378"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-13 00:37:17.164839"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicdatacommons"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genomicdatacommons"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdatacommons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdatacommons", "latest": {"1.8.0--r36_1": "sha256:79917c059f5e3476fc05277e3e547e3c492f4abba408c19ee482c84f77d35948"}, "tags": {"1.8.0--r36_1": "sha256:79917c059f5e3476fc05277e3e547e3c492f4abba408c19ee482c84f77d35948"}, "docker": "quay.io/biocontainers/bioconductor-genomicdatacommons", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genomicdatacommons", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genomicdatacommons", "latest": {"1.22.0--r42hdfd78af_0": "sha256:917274470ce0934fa4ef67d8ec48a59c88717fdfa03a27bafae478326a50e8f1"}, "tags": {"1.8.0--r36_1": "sha256:79917c059f5e3476fc05277e3e547e3c492f4abba408c19ee482c84f77d35948", "1.22.0--r42hdfd78af_0": "sha256:917274470ce0934fa4ef67d8ec48a59c88717fdfa03a27bafae478326a50e8f1", "1.18.0--r41hdfd78af_0": "sha256:f8cd6a409a9099322bf63607f97c0b163ea4ba39ed78cc39e96e9f0fb7c7ffdd", "1.16.0--r41hdfd78af_0": "sha256:fa481d114a03eb0b05b569e68c398a86dc0bf0e249b909e96568d8be27acf3e5", "1.14.0--r40hdfd78af_1": "sha256:ecaf57e141df50aa1f45fd4738280ced0d8e2a52bfeccd9eaee0be357a7af192", "1.12.0--r40_0": "sha256:834e0bedeaf408bb6d35ccb6181d6e1993e58021256e2dae400cfe728c57207d"}, "docker": "quay.io/biocontainers/bioconductor-genomicdatacommons", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genomicdatacommons.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genomicdatacommons
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genomicdatacommons:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-genomicdatacommons:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genomicdatacommons/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-genomicdatacommons/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-genomicdatacommons/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genomicdatacommons/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

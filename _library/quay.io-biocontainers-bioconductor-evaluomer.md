@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-evaluomer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-evaluomer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-evaluomer/container.yaml"
-updated_at: "2022-11-12 00:15:24.001817"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-12 23:48:42.799278"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-evaluomer"
 aliases:
  - "pandoc"
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-evaluomer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-evaluomer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-evaluomer", "latest": {"1.8.0--r41hdfd78af_0": "sha256:5db5b26b1a8514d12d378bafb2372c575a7310d5898101dcccef942a3746514c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:5db5b26b1a8514d12d378bafb2372c575a7310d5898101dcccef942a3746514c"}, "docker": "quay.io/biocontainers/bioconductor-evaluomer", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-evaluomer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-evaluomer", "latest": {"1.14.0--r42hdfd78af_0": "sha256:1766ff8582b083eb2bce0752e0c40814921d55e6ecd12487e17e3c43e5d62d8c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:5db5b26b1a8514d12d378bafb2372c575a7310d5898101dcccef942a3746514c", "1.14.0--r42hdfd78af_0": "sha256:1766ff8582b083eb2bce0752e0c40814921d55e6ecd12487e17e3c43e5d62d8c", "1.10.0--r41hdfd78af_0": "sha256:05cd07c2bdddbc343b205b5008a0e00ba4479bfe5d9a8c4e5adb45e207778e46"}, "docker": "quay.io/biocontainers/bioconductor-evaluomer", "aliases": {"pandoc": "/usr/local/bin/pandoc", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-evaluomer.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-evaluomer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-evaluomer:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-evaluomer:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-evaluomer/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-evaluomer/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-evaluomer/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-evaluomer/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

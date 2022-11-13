@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-genomicalignments"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genomicalignments/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genomicalignments/container.yaml"
-updated_at: "2022-11-12 00:49:58.429697"
+updated_at: "2022-11-13 00:20:07.275470"
 latest: "1.6.3--1"
 container_url: "https://biocontainers.pro/tools/bioconductor-genomicalignments"
 aliases:

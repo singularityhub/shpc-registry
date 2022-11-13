@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-bayesspace"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bayesspace/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bayesspace/container.yaml"
-updated_at: "2022-11-12 00:15:30.908980"
-latest: "1.4.1--r41hc247a5b_1"
+updated_at: "2022-11-12 23:48:49.342706"
+latest: "1.8.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bayesspace"
 aliases:
  - "xgboost"
  - "glpsol"
 versions:
  - "1.4.1--r41hc247a5b_1"
+ - "1.8.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bayesspace"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesspace", "latest": {"1.4.1--r41hc247a5b_1": "sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327"}, "tags": {"1.4.1--r41hc247a5b_1": "sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327"}, "docker": "quay.io/biocontainers/bioconductor-bayesspace", "aliases": {"xgboost": "/usr/local/bin/xgboost", "glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bayesspace", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bayesspace", "latest": {"1.8.0--r42hc247a5b_0": "sha256:d6ebc9ac153906cb540bec174cd9a68ee3e196a4658c4fb3478940e165ee092c"}, "tags": {"1.4.1--r41hc247a5b_1": "sha256:741b190033024c02a7fa75e7bbda7e4f22cf47c097d2d843a47ec66030931327", "1.8.0--r42hc247a5b_0": "sha256:d6ebc9ac153906cb540bec174cd9a68ee3e196a4658c4fb3478940e165ee092c"}, "docker": "quay.io/biocontainers/bioconductor-bayesspace", "aliases": {"xgboost": "/usr/local/bin/xgboost", "glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bayesspace.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bayesspace
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bayesspace:1.4.1--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-bayesspace:1.8.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bayesspace/1.4.1--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-bayesspace/1.4.1--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-bayesspace/1.8.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-bayesspace/1.8.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

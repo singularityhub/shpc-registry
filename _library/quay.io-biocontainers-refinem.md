@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/refinem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/refinem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/refinem/container.yaml"
-updated_at: "2022-11-12 00:54:47.105603"
+updated_at: "2022-11-13 00:24:30.698232"
 latest: "0.1.2--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/refinem"
 aliases:

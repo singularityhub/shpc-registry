@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-omadb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omadb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omadb/container.yaml"
-updated_at: "2022-11-12 00:25:21.956696"
-latest: "2.8.0--r41hdfd78af_0"
+updated_at: "2022-11-12 23:57:56.144118"
+latest: "2.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omadb"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.8.0--r41hdfd78af_0"
+ - "2.14.0--r42hdfd78af_0"
+ - "2.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omadb"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omadb", "latest": {"2.8.0--r41hdfd78af_0": "sha256:444daa83ed6f186265cd969fbc0e8a52209a837904e0539cad0f749acaeda2ae"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:444daa83ed6f186265cd969fbc0e8a52209a837904e0539cad0f749acaeda2ae"}, "docker": "quay.io/biocontainers/bioconductor-omadb", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omadb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omadb", "latest": {"2.14.0--r42hdfd78af_0": "sha256:5e0dd5e0e4e1bd41a1e9887008be235e04397ef3f6ec2748843cbca8ca67fc2e"}, "tags": {"2.8.0--r41hdfd78af_0": "sha256:444daa83ed6f186265cd969fbc0e8a52209a837904e0539cad0f749acaeda2ae", "2.14.0--r42hdfd78af_0": "sha256:5e0dd5e0e4e1bd41a1e9887008be235e04397ef3f6ec2748843cbca8ca67fc2e", "2.10.0--r41hdfd78af_0": "sha256:630e2e4e629c043f81d79b4499ff376886b2c30c300faa78a7d5ef33c54e74d4"}, "docker": "quay.io/biocontainers/bioconductor-omadb", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omadb.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omadb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omadb:2.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omadb:2.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omadb/2.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omadb/2.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omadb/2.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omadb/2.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

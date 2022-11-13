@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-frmatools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-frmatools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-frmatools/container.yaml"
-updated_at: "2022-11-12 00:13:47.658699"
-latest: "1.46.0--r41hdfd78af_0"
+updated_at: "2022-11-12 23:47:13.412680"
+latest: "1.50.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-frmatools"
 
 versions:
  - "1.46.0--r41hdfd78af_0"
+ - "1.50.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-frmatools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-frmatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frmatools", "latest": {"1.46.0--r41hdfd78af_0": "sha256:568b8a453f6f91450c4e2eb78b162a10046113515daa126afb3028eff696018c"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:568b8a453f6f91450c4e2eb78b162a10046113515daa126afb3028eff696018c"}, "docker": "quay.io/biocontainers/bioconductor-frmatools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-frmatools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-frmatools", "latest": {"1.50.0--r42hdfd78af_0": "sha256:ea437aba6cc393f1f62b488d23f12324c209c2fbc6eaa8c3474d5d00b2223879"}, "tags": {"1.46.0--r41hdfd78af_0": "sha256:568b8a453f6f91450c4e2eb78b162a10046113515daa126afb3028eff696018c", "1.50.0--r42hdfd78af_0": "sha256:ea437aba6cc393f1f62b488d23f12324c209c2fbc6eaa8c3474d5d00b2223879"}, "docker": "quay.io/biocontainers/bioconductor-frmatools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-frmatools.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-frmatools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-frmatools:1.46.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-frmatools:1.50.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-frmatools/1.46.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-frmatools/1.46.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-frmatools/1.50.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-frmatools/1.50.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

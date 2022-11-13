@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-tabulamurisdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tabulamurisdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tabulamurisdata/container.yaml"
-updated_at: "2022-11-12 00:37:44.061807"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-13 00:09:03.817590"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tabulamurisdata"
 aliases:
  - ".bioconductor-tabulamurisdata-post-link.sh"
@@ -13,8 +13,11 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tabulamurisdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tabulamurisdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tabulamurisdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:9abed4edeb2be03b4cd4fd9e3fdb3d860419b4581ac3fb0ed720e2945b4b0855"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9abed4edeb2be03b4cd4fd9e3fdb3d860419b4581ac3fb0ed720e2945b4b0855"}, "docker": "quay.io/biocontainers/bioconductor-tabulamurisdata", "aliases": {".bioconductor-tabulamurisdata-post-link.sh": "/usr/local/bin/.bioconductor-tabulamurisdata-post-link.sh", ".bioconductor-tabulamurisdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-tabulamurisdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tabulamurisdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tabulamurisdata", "latest": {"1.16.0--r42hdfd78af_0": "sha256:597cd3bf425816d8bb24eb4db10039def963f6f6621011a5cc6902d6c649f244"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:9abed4edeb2be03b4cd4fd9e3fdb3d860419b4581ac3fb0ed720e2945b4b0855", "1.16.0--r42hdfd78af_0": "sha256:597cd3bf425816d8bb24eb4db10039def963f6f6621011a5cc6902d6c649f244", "1.12.0--r41hdfd78af_1": "sha256:67e7ff7446c0c1510162ea45b6125dd4729c4dd66add7a0bc297918746eb5cb8", "1.10.0--r41hdfd78af_0": "sha256:d947b71460f6e114d564b79e40ef3b44282c45e25674a9442ee5545fa1b0a947"}, "docker": "quay.io/biocontainers/bioconductor-tabulamurisdata", "aliases": {".bioconductor-tabulamurisdata-post-link.sh": "/usr/local/bin/.bioconductor-tabulamurisdata-post-link.sh", ".bioconductor-tabulamurisdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-tabulamurisdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tabulamurisdata.
@@ -29,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tabulamurisdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tabulamurisdata:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-tabulamurisdata:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tabulamurisdata/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-tabulamurisdata/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-tabulamurisdata/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tabulamurisdata/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

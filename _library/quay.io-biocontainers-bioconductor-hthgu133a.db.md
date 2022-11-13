@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hthgu133a.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hthgu133a.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hthgu133a.db/container.yaml"
-updated_at: "2022-11-12 00:57:29.810012"
-latest: "3.2.3--r41hdfd78af_7"
+updated_at: "2022-11-13 00:26:58.827380"
+latest: "3.13.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-hthgu133a.db"
 aliases:
  - ".bioconductor-hthgu133a.db-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
+ - "3.13.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-hthgu133a.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hthgu133a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hthgu133a.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:db2ea43944ee98c3f919c6a3f77c6804f5e519dd9c0cd7e0fb5064db2200c74e"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:db2ea43944ee98c3f919c6a3f77c6804f5e519dd9c0cd7e0fb5064db2200c74e"}, "docker": "quay.io/biocontainers/bioconductor-hthgu133a.db", "aliases": {".bioconductor-hthgu133a.db-post-link.sh": "/usr/local/bin/.bioconductor-hthgu133a.db-post-link.sh", ".bioconductor-hthgu133a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hthgu133a.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hthgu133a.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hthgu133a.db", "latest": {"3.13.0--r42hdfd78af_2": "sha256:28d4d52405e1ae435cf3d35246e17749a5f18b59b5de9629efe9840844e0601b"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:db2ea43944ee98c3f919c6a3f77c6804f5e519dd9c0cd7e0fb5064db2200c74e", "3.13.0--r42hdfd78af_2": "sha256:28d4d52405e1ae435cf3d35246e17749a5f18b59b5de9629efe9840844e0601b"}, "docker": "quay.io/biocontainers/bioconductor-hthgu133a.db", "aliases": {".bioconductor-hthgu133a.db-post-link.sh": "/usr/local/bin/.bioconductor-hthgu133a.db-post-link.sh", ".bioconductor-hthgu133a.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hthgu133a.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hthgu133a.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hthgu133a.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hthgu133a.db:3.2.3--r41hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-hthgu133a.db:3.13.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hthgu133a.db/3.2.3--r41hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-hthgu133a.db/3.2.3--r41hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-hthgu133a.db/3.13.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-hthgu133a.db/3.13.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
