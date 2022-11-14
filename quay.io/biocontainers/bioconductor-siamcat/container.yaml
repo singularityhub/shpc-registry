@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-siamcat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-siamcat
 latest:
-  1.8.0--r40_0: sha256:217fb5c5a48a6fd7a85d5af00f25e9921eeb6679ec2cf34fbc83c48b3690b3b9
+  2.2.0--r42hdfd78af_0: sha256:5385e9ef433f560227046d6418b25f0bdb2482928754d78336892b5e8e67ad9f
 tags:
   1.8.0--r40_0: sha256:217fb5c5a48a6fd7a85d5af00f25e9921eeb6679ec2cf34fbc83c48b3690b3b9
+  2.2.0--r42hdfd78af_0: sha256:5385e9ef433f560227046d6418b25f0bdb2482928754d78336892b5e8e67ad9f
+  1.14.0--r41hdfd78af_0: sha256:38f60538dd4b25c80d90f36697b3f809b9180ea8eaaf112df77e48d22b717859
+  1.12.0--r41hdfd78af_0: sha256:4b1eca70d84f062e3a306a390f693f4166358d39089a2c1a8af5d220ca2dbe30
+  1.10.0--r40hdfd78af_1: sha256:6da81769914e72f7ef2aa9ca86933c38ee565af5c39e02956638fd08072de919
 docker: quay.io/biocontainers/bioconductor-siamcat
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-imagehts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-imagehts
 latest:
-  1.44.0--r41hdfd78af_0: sha256:d7224c1cf124ada90bb12f54922b26b0b3254b982c80f7a5a79e86c5ef5d458c
+  1.48.0--r42hdfd78af_0: sha256:117311d246c95f74610880cf6ee2e9331b10d4f41e1aa957a8b14ead96dbf2f9
 tags:
   1.44.0--r41hdfd78af_0: sha256:d7224c1cf124ada90bb12f54922b26b0b3254b982c80f7a5a79e86c5ef5d458c
+  1.48.0--r42hdfd78af_0: sha256:117311d246c95f74610880cf6ee2e9331b10d4f41e1aa957a8b14ead96dbf2f9
 docker: quay.io/biocontainers/bioconductor-imagehts
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

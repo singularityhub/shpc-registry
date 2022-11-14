@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/piranha
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for piranha
 latest:
-  1.2.1--gsl2.2_bamtools2.4.1_5: sha256:ce0348a3730f88815fdc924643034c219eb189c7006ed63fe6ede07c8416ba90
+  1.2.1--ha5748cb_11: sha256:71fabf9856ec42f00bf6df7162c077bfa0f977112e4581a903538e6e3e01ece2
 tags:
   1.2.1--gsl2.2_bamtools2.4.1_5: sha256:ce0348a3730f88815fdc924643034c219eb189c7006ed63fe6ede07c8416ba90
+  1.2.1--ha5748cb_11: sha256:71fabf9856ec42f00bf6df7162c077bfa0f977112e4581a903538e6e3e01ece2
 docker: quay.io/biocontainers/piranha
 aliases:
   Piranha: /usr/local/bin/Piranha

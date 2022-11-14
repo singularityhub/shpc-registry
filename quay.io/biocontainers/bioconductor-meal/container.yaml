@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-meal
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-meal
 latest:
-  1.22.0--r41hdfd78af_0: sha256:ad758e9b629f507571ffc0460256d19ac2faf5193395dacbebba2874b12c777a
+  1.28.0--r42hdfd78af_0: sha256:88e8554abc324741edb514b89614774ac6c5c97135ff2bbd033377d94a130e35
 tags:
   1.22.0--r41hdfd78af_0: sha256:ad758e9b629f507571ffc0460256d19ac2faf5193395dacbebba2874b12c777a
+  1.28.0--r42hdfd78af_0: sha256:88e8554abc324741edb514b89614774ac6c5c97135ff2bbd033377d94a130e35
 docker: quay.io/biocontainers/bioconductor-meal
 aliases:
   f2py3.9: /usr/local/bin/f2py3.9

@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-go.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-go.db
 latest:
-  3.8.2--r36_1: sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921
+  3.16.0--r42hdfd78af_0: sha256:7a59ae7269667f6857315b9b28bee02b8dfae8204ad453482e161ca531bc4138
 tags:
   3.8.2--r36_1: sha256:b83401a4f80d6954659ef664e7f3c3b146ef250d6f4a35b5a35aef19ad4fe921
+  3.16.0--r42hdfd78af_0: sha256:7a59ae7269667f6857315b9b28bee02b8dfae8204ad453482e161ca531bc4138
+  3.14.0--r41hdfd78af_1: sha256:49c0eba2f643972c6b684bd9b62447bd5282a96cef946730a52b2e3b0c2205ce
+  3.13.0--r41hdfd78af_0: sha256:b7c858988d529ca092d5df304348f61d60b2ea2b2945674dc3e523ff99ff0236
+  3.12.1--r40hdfd78af_1: sha256:af5c97f9e2f7cb9e03869373d49748b2812c09fcb7cbbc08fa2f6218a0ec8302
+  3.11.4--r40_0: sha256:a4fc7475bc81d8e71f2c7d4f21be15f782f3b577722164387c42dd06202e3719
 docker: quay.io/biocontainers/bioconductor-go.db
 aliases:
   .bioconductor-go.db-post-link.sh: /usr/local/bin/.bioconductor-go.db-post-link.sh

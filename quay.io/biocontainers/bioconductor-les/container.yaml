@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-les
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-les
 latest:
-  1.44.0--r41hdfd78af_0: sha256:78508b43a0803d5e853fd0d262eb2b1cab90ed7fcae64a20f6fdfc722b4effb3
+  1.48.0--r42hdfd78af_0: sha256:84d08a8a97ac655027232330a6dab05af757776e84e14846778aef53855e260d
 tags:
   1.44.0--r41hdfd78af_0: sha256:78508b43a0803d5e853fd0d262eb2b1cab90ed7fcae64a20f6fdfc722b4effb3
+  1.48.0--r42hdfd78af_0: sha256:84d08a8a97ac655027232330a6dab05af757776e84e14846778aef53855e260d
 docker: quay.io/biocontainers/bioconductor-les

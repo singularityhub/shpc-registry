@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pandar
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pandar
 latest:
-  1.26.0--r41hdfd78af_0: sha256:bb51fff2fd55848beb3e4b242126b25bb0bb0cd57e529d41bd2d29b6523b304e
+  1.30.0--r42hdfd78af_0: sha256:0ae86544880edaea2c42c450ab4361c77113489bb64fb9286101ad6aeeb025d8
 tags:
   1.26.0--r41hdfd78af_0: sha256:bb51fff2fd55848beb3e4b242126b25bb0bb0cd57e529d41bd2d29b6523b304e
+  1.30.0--r42hdfd78af_0: sha256:0ae86544880edaea2c42c450ab4361c77113489bb64fb9286101ad6aeeb025d8
 docker: quay.io/biocontainers/bioconductor-pandar
