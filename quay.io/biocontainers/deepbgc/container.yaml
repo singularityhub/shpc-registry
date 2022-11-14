@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/deepbgc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for deepbgc
 latest:
-  0.1.9--py_0: sha256:5ef5c60c9039dee19ea53f5aba46fec1beea5fe69a40a8d901757ae26fbeddf9
+  0.1.30--pyhca03a8a_2: sha256:3309f4fbb6ca00ef6bde62af358c78ac76da4e3600bb868bed34f13207f438ad
 tags:
   0.1.9--py_0: sha256:5ef5c60c9039dee19ea53f5aba46fec1beea5fe69a40a8d901757ae26fbeddf9
+  0.1.30--pyhca03a8a_2: sha256:3309f4fbb6ca00ef6bde62af358c78ac76da4e3600bb868bed34f13207f438ad
 docker: quay.io/biocontainers/deepbgc
 aliases:
   deepbgc: /usr/local/bin/deepbgc

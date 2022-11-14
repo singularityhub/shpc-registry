@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-shazam
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-shazam
 latest:
-  1.1.2--r41h3121a25_0: sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb
+  1.1.2--r42h3121a25_1: sha256:30e3d7fd8ec1dc542c78cb139bf898c0923c4a95956f68fe8d0cab89476bb5f0
 tags:
   1.1.2--r41h3121a25_0: sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb
+  1.1.2--r42h3121a25_1: sha256:30e3d7fd8ec1dc542c78cb139bf898c0923c4a95956f68fe8d0cab89476bb5f0
 docker: quay.io/biocontainers/r-shazam
 aliases:
   glpsol: /usr/local/bin/glpsol

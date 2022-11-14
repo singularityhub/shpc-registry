@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-gsbenchmark
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gsbenchmark
 latest:
-  1.9.0--r40_0: sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e
+  1.18.0--r42hdfd78af_0: sha256:fa96bbd5cd60b4b65ae7aa76a321a31be3c33a93f06d3d4ea0771d65f7084462
 tags:
   1.9.0--r40_0: sha256:6f52b767b4c53a7a9b208f221f5e1235e787b15dab2f65b9855988eae517599e
+  1.18.0--r42hdfd78af_0: sha256:fa96bbd5cd60b4b65ae7aa76a321a31be3c33a93f06d3d4ea0771d65f7084462
+  1.14.0--r41hdfd78af_1: sha256:5267f1a93e3a9deaf38c485d12b36dbf6ffc2c1d6e33771f0a7988010e05c094
+  1.12.0--r41hdfd78af_0: sha256:b297974351d2efd24f67feb1ecd40fc72c71798fd0509727efd7b72d31f5a85e
+  1.10.0--r40hdfd78af_1: sha256:57959ac51618d3f02b971defbb0c9219143514a39bb4bd5f322ee4d6f55a7baa
 docker: quay.io/biocontainers/bioconductor-gsbenchmark
 aliases:
   .bioconductor-gsbenchmark-post-link.sh: /usr/local/bin/.bioconductor-gsbenchmark-post-link.sh

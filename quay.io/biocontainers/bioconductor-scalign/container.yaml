@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-scalign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scalign
 latest:
-  1.8.0--py36r41hdfd78af_0: sha256:9b32646debdc89d4e39c976befd2e29c11afcf115fb42f91006bc511abddb923
+  1.11.0--py36r42hdfd78af_0: sha256:fd38f82b93ea2e19a2928040ccb45a3cf95f86d1badce636e234053fd982a673
 tags:
   1.8.0--py36r41hdfd78af_0: sha256:9b32646debdc89d4e39c976befd2e29c11afcf115fb42f91006bc511abddb923
+  1.11.0--py36r42hdfd78af_0: sha256:fd38f82b93ea2e19a2928040ccb45a3cf95f86d1badce636e234053fd982a673
 docker: quay.io/biocontainers/bioconductor-scalign
 aliases:
   2to3-3.6: /usr/local/bin/2to3-3.6

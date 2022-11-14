@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-bioperl-core
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-bioperl-core
 latest:
-  1.7.8--pl5321hdfd78af_1: sha256:44b47ade77cae2b11f555d921483841143880d0cb03f8d3714e666ee859082b9
+  1.007002--pl5321hdfd78af_4: sha256:f61797093debaceca5a8f356ae0fd3065f247d943d7c154ac5db829615d8267f
 tags:
   1.7.8--pl5321hdfd78af_1: sha256:44b47ade77cae2b11f555d921483841143880d0cb03f8d3714e666ee859082b9
+  1.007002--pl5321hdfd78af_4: sha256:f61797093debaceca5a8f356ae0fd3065f247d943d7c154ac5db829615d8267f
 docker: quay.io/biocontainers/perl-bioperl-core
 aliases:
   bp_aacomp: /usr/local/bin/bp_aacomp

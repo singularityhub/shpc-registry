@@ -5,10 +5,11 @@ description: The Toolkit for Adaptive Stochastic Modeling and Non-Intrusive Appr
   is a robust library for high dimensional integration and interpolation as well as
   parameter calibration.  https://tasmanian.ornl.gov
 latest:
-  '7.7': sha256:4d4aebe382a3a7adc1a9bed86666a775222a084b9f308a1b50490c28c15fcc1e
+  '7.9': sha256:c59326a80672a27b41bda0cbd608806ed8ef4deb419102de76fbd3b2a5c3ea8b
 tags:
   '7.5': sha256:8772fb92e3af323742e280917650acac1b817cd35c6243948c3917e17866e163
   '7.7': sha256:4d4aebe382a3a7adc1a9bed86666a775222a084b9f308a1b50490c28c15fcc1e
-  latest: sha256:4d4aebe382a3a7adc1a9bed86666a775222a084b9f308a1b50490c28c15fcc1e
+  latest: sha256:c59326a80672a27b41bda0cbd608806ed8ef4deb419102de76fbd3b2a5c3ea8b
+  '7.9': sha256:c59326a80672a27b41bda0cbd608806ed8ef4deb419102de76fbd3b2a5c3ea8b
 aliases:
   tasgrid: /opt/view/bin/tasgrid

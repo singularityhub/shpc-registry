@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-garnett
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-garnett
 latest:
-  0.2.8--r41hdfd78af_3: sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1
+  0.2.8--r42hdfd78af_4: sha256:6b8ac1ebb43706d01b8a898fc6b0551a2540198476f073165c0a493bd41bf1f9
 tags:
   0.2.8--r41hdfd78af_3: sha256:1fe0793cb78be331c1e4627a4f301e0a2ec795b64afc4fd134a4504f99fa8ed1
+  0.2.8--r42hdfd78af_4: sha256:6b8ac1ebb43706d01b8a898fc6b0551a2540198476f073165c0a493bd41bf1f9
 docker: quay.io/biocontainers/r-garnett
 aliases:
   testepsg: /usr/local/bin/testepsg

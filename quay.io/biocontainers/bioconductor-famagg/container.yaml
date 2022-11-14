@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-famagg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-famagg
 latest:
-  1.22.0--r41hdfd78af_0: sha256:3554603d9e140e769e8ceb4a85fd1d0a4dbab7111c8e976e871806bca3bae343
+  1.26.0--r42hdfd78af_0: sha256:3116341805ec0c24f3b08193e2beb2d457ac11e678412b4456f956feb72b401e
 tags:
   1.22.0--r41hdfd78af_0: sha256:3554603d9e140e769e8ceb4a85fd1d0a4dbab7111c8e976e871806bca3bae343
+  1.26.0--r42hdfd78af_0: sha256:3116341805ec0c24f3b08193e2beb2d457ac11e678412b4456f956feb72b401e
 docker: quay.io/biocontainers/bioconductor-famagg

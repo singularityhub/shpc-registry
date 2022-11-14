@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-debrowser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-debrowser
 latest:
-  1.22.1--r41hdfd78af_0: sha256:c9c185ca8280f2c6ec3b2597614942d0b07a3261d4052c75d8b97017f2f5dede
+  1.26.0--r42hdfd78af_0: sha256:44d0daac641eab9fa8f2b5a29866ccc6481108ab5f3d8906ed20d027d6c8700f
 tags:
   1.22.1--r41hdfd78af_0: sha256:c9c185ca8280f2c6ec3b2597614942d0b07a3261d4052c75d8b97017f2f5dede
+  1.26.0--r42hdfd78af_0: sha256:44d0daac641eab9fa8f2b5a29866ccc6481108ab5f3d8906ed20d027d6c8700f
 docker: quay.io/biocontainers/bioconductor-debrowser

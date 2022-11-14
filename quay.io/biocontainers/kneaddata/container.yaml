@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/kneaddata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for kneaddata
 latest:
-  0.9.0--pyhdfd78af_0: sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25
+  0.12.0--pyhdfd78af_0: sha256:bd990e3d0f22d21a3322c3808a866d4a52b8b8d04129dfb7b1e3cd087a5ed732
 tags:
   0.9.0--pyhdfd78af_0: sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25
+  0.12.0--pyhdfd78af_0: sha256:bd990e3d0f22d21a3322c3808a866d4a52b8b8d04129dfb7b1e3cd087a5ed732
+  0.10.0--pyhdfd78af_0: sha256:9ee7eb1d0ac4809beaadde622a0299677575708fa6cb45e9f1ad55388860aea4
 docker: quay.io/biocontainers/kneaddata
 aliases:
   kneaddata: /usr/local/bin/kneaddata

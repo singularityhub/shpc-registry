@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mzid
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mzid
 latest:
-  1.32.0--r41hdfd78af_0: sha256:7fa835b0665dfb3a6c44cc8c2340067e6cd20fb2a5725424413336eec1fd4f69
+  1.36.0--r42hdfd78af_0: sha256:cf50170bd1e7bf983fc647d9c2332c0a12842d327ba28119b2f70e61efc6e303
 tags:
   1.32.0--r41hdfd78af_0: sha256:7fa835b0665dfb3a6c44cc8c2340067e6cd20fb2a5725424413336eec1fd4f69
+  1.36.0--r42hdfd78af_0: sha256:cf50170bd1e7bf983fc647d9c2332c0a12842d327ba28119b2f70e61efc6e303
 docker: quay.io/biocontainers/bioconductor-mzid

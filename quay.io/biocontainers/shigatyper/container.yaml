@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/shigatyper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for shigatyper
 latest:
-  2.0.1--pyhdfd78af_1: sha256:42e5f7739299c4d70b3dae3585ac9fcf2dced5c135ea21365332f85244cf7d88
+  2.0.3--pyhdfd78af_0: sha256:5a9b8a7c99ac1e862ce3a486019d0707b53f5764ceff08a96ce7e7776ed0d72e
 tags:
   2.0.1--pyhdfd78af_1: sha256:42e5f7739299c4d70b3dae3585ac9fcf2dced5c135ea21365332f85244cf7d88
+  2.0.3--pyhdfd78af_0: sha256:5a9b8a7c99ac1e862ce3a486019d0707b53f5764ceff08a96ce7e7776ed0d72e
 docker: quay.io/biocontainers/shigatyper
 aliases:
   shigatyper: /usr/local/bin/shigatyper

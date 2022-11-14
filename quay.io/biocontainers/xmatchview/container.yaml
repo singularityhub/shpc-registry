@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/xmatchview
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for xmatchview
 latest:
-  v1.1.1--py_0: sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e
+  1.2.5--hdfd78af_1: sha256:b2b5d13863d1e7636a0d02d19cd351e6bb9de99c96448d9d67bc633df1f3e598
 tags:
   v1.1.1--py_0: sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e
+  1.2.5--hdfd78af_1: sha256:b2b5d13863d1e7636a0d02d19cd351e6bb9de99c96448d9d67bc633df1f3e598
 docker: quay.io/biocontainers/xmatchview
 aliases:
   icc2ps: /usr/local/bin/icc2ps

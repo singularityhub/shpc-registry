@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-altcdfenvs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-altcdfenvs
 latest:
-  2.56.0--r41hdfd78af_0: sha256:e9bc1f4ef3f912f941b569f823a799783a6c51a40f284cc826fb27848b73fac2
+  2.60.0--r42hdfd78af_0: sha256:dcaa7421c450eacd5f6c3d039b22c3306acbc6ac8a1847f3e01c575552655c93
 tags:
   2.56.0--r41hdfd78af_0: sha256:e9bc1f4ef3f912f941b569f823a799783a6c51a40f284cc826fb27848b73fac2
+  2.60.0--r42hdfd78af_0: sha256:dcaa7421c450eacd5f6c3d039b22c3306acbc6ac8a1847f3e01c575552655c93
 docker: quay.io/biocontainers/bioconductor-altcdfenvs

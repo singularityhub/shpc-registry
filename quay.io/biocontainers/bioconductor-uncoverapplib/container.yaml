@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-uncoverapplib
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-uncoverapplib
 latest:
-  1.4.0--r41hdfd78af_0: sha256:2e83b5823bfc0d57c39d8f5022a0282962202c025741ea7481932f9114dab87b
+  1.7.0--r42hdfd78af_0: sha256:26dad16b482655f35994f696148a2ffe0f0430f7daa858d253be5d2afb46f45a
 tags:
   1.4.0--r41hdfd78af_0: sha256:2e83b5823bfc0d57c39d8f5022a0282962202c025741ea7481932f9114dab87b
+  1.7.0--r42hdfd78af_0: sha256:26dad16b482655f35994f696148a2ffe0f0430f7daa858d253be5d2afb46f45a
 docker: quay.io/biocontainers/bioconductor-uncoverapplib
 aliases:
   pandoc: /usr/local/bin/pandoc

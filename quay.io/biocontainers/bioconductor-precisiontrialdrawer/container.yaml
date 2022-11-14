@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-precisiontrialdrawer
 latest:
-  1.8.0--r41hdfd78af_0: sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6
+  1.10.0--r41hdfd78af_0: sha256:a4787e0a1be8ebd944ffb23fb0f21f55378348a4331bedfea14f83d8e0444ebc
 tags:
   1.8.0--r41hdfd78af_0: sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6
+  1.10.0--r41hdfd78af_0: sha256:a4787e0a1be8ebd944ffb23fb0f21f55378348a4331bedfea14f83d8e0444ebc
 docker: quay.io/biocontainers/bioconductor-precisiontrialdrawer
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

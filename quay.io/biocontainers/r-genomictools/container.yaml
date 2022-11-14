@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-genomictools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-genomictools
 latest:
-  0.2.9.7--r41hecf12ef_3: sha256:ba6ebb2ba3850901156dc063def734a0c598ff9ee7ebd95e2b1a65568b9274a1
+  0.2.9.7--r42hecf12ef_4: sha256:32cfdb044774b7e10cc1b28259f6226b76bd8fe06aca7f223bf3e8c8449c2633
 tags:
   0.2.9.7--r41hecf12ef_3: sha256:ba6ebb2ba3850901156dc063def734a0c598ff9ee7ebd95e2b1a65568b9274a1
+  0.2.9.7--r42hecf12ef_4: sha256:32cfdb044774b7e10cc1b28259f6226b76bd8fe06aca7f223bf3e8c8449c2633
 docker: quay.io/biocontainers/r-genomictools

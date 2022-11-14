@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rnaeditr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rnaeditr
 latest:
-  1.4.0--r41hdfd78af_0: sha256:07f0bb7cf5ed2ea0ff5b17f904625e079c3c93788adfbd73f0753d3007b7ec12
+  1.8.0--r42hdfd78af_0: sha256:1bfa53ba3dc69a0e5ccd4542f2c09384974d36037cfe21cd81e8ec98d070409d
 tags:
   1.4.0--r41hdfd78af_0: sha256:07f0bb7cf5ed2ea0ff5b17f904625e079c3c93788adfbd73f0753d3007b7ec12
+  1.8.0--r42hdfd78af_0: sha256:1bfa53ba3dc69a0e5ccd4542f2c09384974d36037cfe21cd81e8ec98d070409d
 docker: quay.io/biocontainers/bioconductor-rnaeditr

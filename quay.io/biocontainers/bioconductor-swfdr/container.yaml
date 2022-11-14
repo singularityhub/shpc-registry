@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-swfdr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-swfdr
 latest:
-  1.8.0--r351_0: sha256:c000f86d2783e25a1fe0dd95e619826aea94607f8758321cb2d24f8bcc66e6ed
+  1.24.0--r42hdfd78af_0: sha256:059bd51a8b73c62955a63ea610ac52503c5e0609bbd6e56089e49c8267d4c48a
 tags:
   1.8.0--r351_0: sha256:c000f86d2783e25a1fe0dd95e619826aea94607f8758321cb2d24f8bcc66e6ed
+  1.24.0--r42hdfd78af_0: sha256:059bd51a8b73c62955a63ea610ac52503c5e0609bbd6e56089e49c8267d4c48a
+  1.20.0--r41hdfd78af_0: sha256:7d53c7417417fe125ce5f928b799b1d27dd58c3633ac05812e49a0e3bd451ffe
+  1.18.0--r41hdfd78af_0: sha256:470614e57b78bfc01a8b4a270911d21a74fb83dc64068353eb34001f7d8a0c0e
+  1.16.0--r40hdfd78af_1: sha256:1af449ecc27b7083028caf7815bfcccd1ca4bf70108152dd62fc73afbbabbd95
+  1.14.0--r40_0: sha256:a9bf7ae9037e8c0c973233b9f8741ec340f67bc1745add925b41d8969ae90070
 docker: quay.io/biocontainers/bioconductor-swfdr
 aliases:
   c89: /usr/local/bin/c89

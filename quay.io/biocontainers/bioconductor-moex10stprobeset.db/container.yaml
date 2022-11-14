@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-moex10stprobeset.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-moex10stprobeset.db
 latest:
-  8.8.0--r41hdfd78af_1: sha256:3037451726ea8ed7ead3c3726a1fb6937b8fb420bce5b19b5e8309b195f28542
+  8.8.0--r42hdfd78af_2: sha256:1f965abb6c323bd053731c8596c22dab8b663114849b864d95b96f9b7500d174
 tags:
   8.8.0--r41hdfd78af_1: sha256:3037451726ea8ed7ead3c3726a1fb6937b8fb420bce5b19b5e8309b195f28542
+  8.8.0--r42hdfd78af_2: sha256:1f965abb6c323bd053731c8596c22dab8b663114849b864d95b96f9b7500d174
 docker: quay.io/biocontainers/bioconductor-moex10stprobeset.db
 aliases:
   .bioconductor-moex10stprobeset.db-post-link.sh: /usr/local/bin/.bioconductor-moex10stprobeset.db-post-link.sh

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-timeomics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-timeomics
 latest:
-  1.6.0--r41hdfd78af_0: sha256:6eddbef4d68b6b52a33e9fcfb83eeff49f53a5cc1ea70bcd86c238807f767290
+  1.10.0--r42hdfd78af_0: sha256:07bdbe60ed7a165faae5cfcdbdebf7f3944bdf76c32d0b6c6cfc7e943239065e
 tags:
   1.6.0--r41hdfd78af_0: sha256:6eddbef4d68b6b52a33e9fcfb83eeff49f53a5cc1ea70bcd86c238807f767290
+  1.10.0--r42hdfd78af_0: sha256:07bdbe60ed7a165faae5cfcdbdebf7f3944bdf76c32d0b6c6cfc7e943239065e
 docker: quay.io/biocontainers/bioconductor-timeomics
