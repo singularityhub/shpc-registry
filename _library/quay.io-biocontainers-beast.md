@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/beast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/beast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/beast/container.yaml"
-updated_at: "2022-11-12 23:56:44.821183"
-latest: "1.8.4--0"
+updated_at: "2022-11-14 00:15:14.589879"
+latest: "1.10.4--hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/beast"
 aliases:
  - "beast"
@@ -26,8 +26,9 @@ aliases:
  - "orbd"
 versions:
  - "1.8.4--0"
+ - "1.10.4--hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for beast"
-config: {"url": "https://biocontainers.pro/tools/beast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast", "latest": {"1.8.4--0": "sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645"}, "tags": {"1.8.4--0": "sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645"}, "docker": "quay.io/biocontainers/beast", "aliases": {"beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "treeannotator": "/usr/local/bin/treeannotator", "treestat": "/usr/local/bin/treestat", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/beast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for beast", "latest": {"1.10.4--hdfd78af_2": "sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802"}, "tags": {"1.8.4--0": "sha256:d84f6fe2fe5eb2ea703425045a5d5ab6aa7cb169398407176149ec26d1297645", "1.10.4--hdfd78af_2": "sha256:35fb15bd76191d8b6ecef2691b69a18b43019cb7c52f4c8df2e50f610853d802"}, "docker": "quay.io/biocontainers/beast", "aliases": {"beast": "/usr/local/bin/beast", "beauti": "/usr/local/bin/beauti", "loganalyser": "/usr/local/bin/loganalyser", "logcombiner": "/usr/local/bin/logcombiner", "treeannotator": "/usr/local/bin/treeannotator", "treestat": "/usr/local/bin/treestat", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/beast.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/beast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/beast:1.8.4--0
+$ shpc install quay.io/biocontainers/beast:1.10.4--hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/beast/1.8.4--0
-$ module help quay.io/biocontainers/beast/1.8.4--0
+$ module load quay.io/biocontainers/beast/1.10.4--hdfd78af_2
+$ module help quay.io/biocontainers/beast/1.10.4--hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

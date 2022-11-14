@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/smafa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/smafa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/smafa/container.yaml"
-updated_at: "2022-11-13 00:29:33.055614"
+updated_at: "2022-11-14 00:49:37.706563"
 latest: "0.5.0--hec16e2b_2"
 container_url: "https://biocontainers.pro/tools/smafa"
 aliases:

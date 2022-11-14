@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/mhcnuggets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mhcnuggets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mhcnuggets/container.yaml"
-updated_at: "2022-11-13 00:38:38.219271"
+updated_at: "2022-11-14 00:59:01.069761"
 latest: "2.3.2--py_0"
 container_url: "https://biocontainers.pro/tools/mhcnuggets"
 aliases:

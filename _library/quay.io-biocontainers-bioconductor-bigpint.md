@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-bigpint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bigpint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bigpint/container.yaml"
-updated_at: "2022-11-13 00:25:31.839022"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:45:29.376890"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bigpint"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bigpint"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bigpint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bigpint", "latest": {"1.8.0--r41hdfd78af_0": "sha256:369eea5632d623a45da1b0c3561607b9750a7f7054bbab8260dab59e8c3e53b8"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:369eea5632d623a45da1b0c3561607b9750a7f7054bbab8260dab59e8c3e53b8"}, "docker": "quay.io/biocontainers/bioconductor-bigpint", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bigpint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bigpint", "latest": {"1.14.0--r42hdfd78af_0": "sha256:360160f6e390c99467963e7e4ddfdd0179c57d7ce1c8ed06d6dbd2b04c24fdc0"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:369eea5632d623a45da1b0c3561607b9750a7f7054bbab8260dab59e8c3e53b8", "1.14.0--r42hdfd78af_0": "sha256:360160f6e390c99467963e7e4ddfdd0179c57d7ce1c8ed06d6dbd2b04c24fdc0", "1.10.0--r41hdfd78af_0": "sha256:cc6f0fbbd0296fa3afce05d6afaaee6f1c9fcddaf898066b57336ebd8880919b"}, "docker": "quay.io/biocontainers/bioconductor-bigpint", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bigpint.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bigpint
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bigpint:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-bigpint:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bigpint/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-bigpint/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-bigpint/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bigpint/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

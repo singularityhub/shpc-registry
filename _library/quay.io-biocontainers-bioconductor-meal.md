@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-meal"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-meal/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-meal/container.yaml"
-updated_at: "2022-11-13 00:29:21.038831"
-latest: "1.22.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:49:25.525098"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-meal"
 aliases:
  - "f2py3.9"
@@ -17,8 +17,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.22.0--r41hdfd78af_0"
+ - "1.28.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-meal"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-meal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meal", "latest": {"1.22.0--r41hdfd78af_0": "sha256:ad758e9b629f507571ffc0460256d19ac2faf5193395dacbebba2874b12c777a"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:ad758e9b629f507571ffc0460256d19ac2faf5193395dacbebba2874b12c777a"}, "docker": "quay.io/biocontainers/bioconductor-meal", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-meal", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-meal", "latest": {"1.28.0--r42hdfd78af_0": "sha256:88e8554abc324741edb514b89614774ac6c5c97135ff2bbd033377d94a130e35"}, "tags": {"1.22.0--r41hdfd78af_0": "sha256:ad758e9b629f507571ffc0460256d19ac2faf5193395dacbebba2874b12c777a", "1.28.0--r42hdfd78af_0": "sha256:88e8554abc324741edb514b89614774ac6c5c97135ff2bbd033377d94a130e35"}, "docker": "quay.io/biocontainers/bioconductor-meal", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-meal.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-meal
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-meal:1.22.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-meal:1.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-meal/1.22.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-meal/1.22.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-meal/1.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-meal/1.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

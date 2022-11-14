@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/ant"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ant/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ant/container.yaml"
-updated_at: "2022-11-12 23:55:15.750489"
-latest: "1.9.6--1"
+updated_at: "2022-11-14 00:13:40.704085"
+latest: "1.10.0--0"
 container_url: "https://biocontainers.pro/tools/ant"
 aliases:
  - "ant"
@@ -33,8 +33,9 @@ aliases:
  - "orbd"
 versions:
  - "1.9.6--1"
+ - "1.10.0--0"
 description: "shpc-registry automated BioContainers addition for ant"
-config: {"url": "https://biocontainers.pro/tools/ant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ant", "latest": {"1.9.6--1": "sha256:fdb45cdd113bb3e5c395f85811afe44b457d2af7babba8a2e24333620a84cb81"}, "tags": {"1.9.6--1": "sha256:fdb45cdd113bb3e5c395f85811afe44b457d2af7babba8a2e24333620a84cb81"}, "docker": "quay.io/biocontainers/ant", "aliases": {"ant": "/usr/local/bin/ant", "ant.bat": "/usr/local/bin/ant.bat", "ant.cmd": "/usr/local/bin/ant.cmd", "antRun": "/usr/local/bin/antRun", "antRun.bat": "/usr/local/bin/antRun.bat", "antRun.pl": "/usr/local/bin/antRun.pl", "antenv.cmd": "/usr/local/bin/antenv.cmd", "complete-ant-cmd.pl": "/usr/local/bin/complete-ant-cmd.pl", "envset.cmd": "/usr/local/bin/envset.cmd", "lcp.bat": "/usr/local/bin/lcp.bat", "runant.pl": "/usr/local/bin/runant.pl", "runant.py": "/usr/local/bin/runant.py", "runrc.cmd": "/usr/local/bin/runrc.cmd", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
+config: {"url": "https://biocontainers.pro/tools/ant", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for ant", "latest": {"1.10.0--0": "sha256:9d522f1feea0c33e19ec8c1b9f9d8f42dbcbe1e5c57998c53a651b2727c1cf91"}, "tags": {"1.9.6--1": "sha256:fdb45cdd113bb3e5c395f85811afe44b457d2af7babba8a2e24333620a84cb81", "1.10.0--0": "sha256:9d522f1feea0c33e19ec8c1b9f9d8f42dbcbe1e5c57998c53a651b2727c1cf91"}, "docker": "quay.io/biocontainers/ant", "aliases": {"ant": "/usr/local/bin/ant", "ant.bat": "/usr/local/bin/ant.bat", "ant.cmd": "/usr/local/bin/ant.cmd", "antRun": "/usr/local/bin/antRun", "antRun.bat": "/usr/local/bin/antRun.bat", "antRun.pl": "/usr/local/bin/antRun.pl", "antenv.cmd": "/usr/local/bin/antenv.cmd", "complete-ant-cmd.pl": "/usr/local/bin/complete-ant-cmd.pl", "envset.cmd": "/usr/local/bin/envset.cmd", "lcp.bat": "/usr/local/bin/lcp.bat", "runant.pl": "/usr/local/bin/runant.pl", "runant.py": "/usr/local/bin/runant.py", "runrc.cmd": "/usr/local/bin/runrc.cmd", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj", "orbd": "/usr/local/bin/orbd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/ant.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/ant
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/ant:1.9.6--1
+$ shpc install quay.io/biocontainers/ant:1.10.0--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/ant/1.9.6--1
-$ module help quay.io/biocontainers/ant/1.9.6--1
+$ module load quay.io/biocontainers/ant/1.10.0--0
+$ module help quay.io/biocontainers/ant/1.10.0--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

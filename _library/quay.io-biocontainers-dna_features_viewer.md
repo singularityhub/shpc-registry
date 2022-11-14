@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dna_features_viewer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dna_features_viewer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dna_features_viewer/container.yaml"
-updated_at: "2022-11-12 23:52:34.992462"
+updated_at: "2022-11-14 00:10:56.456070"
 latest: "3.1.1--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/dna_features_viewer"
 aliases:

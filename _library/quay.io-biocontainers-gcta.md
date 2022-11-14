@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gcta"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gcta/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gcta/container.yaml"
-updated_at: "2022-11-13 00:23:48.268426"
+updated_at: "2022-11-14 00:43:42.322972"
 latest: "1.93.2beta--h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/gcta"
 aliases:

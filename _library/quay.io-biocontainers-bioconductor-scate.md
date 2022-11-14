@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-scate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scate/container.yaml"
-updated_at: "2022-11-13 00:00:14.081352"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:18:53.762194"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scate"
 aliases:
  - ".bioconductor-scatedata-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "xgboost"
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scate"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scate", "latest": {"1.4.0--r41hdfd78af_0": "sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b"}, "docker": "quay.io/biocontainers/bioconductor-scate", "aliases": {".bioconductor-scatedata-post-link.sh": "/usr/local/bin/.bioconductor-scatedata-post-link.sh", ".bioconductor-scatedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-scatedata-pre-unlink.sh", "xgboost": "/usr/local/bin/xgboost"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scate", "latest": {"1.8.0--r42hdfd78af_0": "sha256:1f33fde2902729ca776761bc9768661d9d0f7417af4a4f62c61e302a6b64134e"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:d48cc511ae5f2c15d8768bbda2aaeb3ab1f076fbdf57136553a0dd28373bfe6b", "1.8.0--r42hdfd78af_0": "sha256:1f33fde2902729ca776761bc9768661d9d0f7417af4a4f62c61e302a6b64134e"}, "docker": "quay.io/biocontainers/bioconductor-scate", "aliases": {".bioconductor-scatedata-post-link.sh": "/usr/local/bin/.bioconductor-scatedata-post-link.sh", ".bioconductor-scatedata-pre-unlink.sh": "/usr/local/bin/.bioconductor-scatedata-pre-unlink.sh", "xgboost": "/usr/local/bin/xgboost"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scate.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scate
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scate:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scate:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scate/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scate/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scate/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scate/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

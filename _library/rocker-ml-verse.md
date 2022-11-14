@@ -4,7 +4,7 @@ name:  "rocker/ml-verse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/ml-verse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/ml-verse/container.yaml"
-updated_at: "2022-11-13 00:40:36.625041"
+updated_at: "2022-11-14 01:01:02.256669"
 latest: "latest"
 container_url: "https://hub.docker.com/r/rocker/ml-verse"
 aliases:
@@ -19,7 +19,7 @@ aliases:
 versions:
  - "latest"
 description: "Machine learning in R."
-config: {"docker": "rocker/ml-verse", "url": "https://hub.docker.com/r/rocker/ml-verse", "maintainer": "@vsoch", "description": "Machine learning in R.", "latest": {"latest": "sha256:c793fb4b5a3da479b81e9429e565d1f3fa5d6a221786c4dfbcf0deec764d07d3"}, "tags": {"latest": "sha256:c793fb4b5a3da479b81e9429e565d1f3fa5d6a221786c4dfbcf0deec764d07d3"}, "filter": ["latest"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-ml-verse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
+config: {"docker": "rocker/ml-verse", "url": "https://hub.docker.com/r/rocker/ml-verse", "maintainer": "@vsoch", "description": "Machine learning in R.", "latest": {"latest": "sha256:0775cf2aa53c0c9049ce7128e3beabc509b37700078c653bce7330cf05b2a1f8"}, "tags": {"latest": "sha256:0775cf2aa53c0c9049ce7128e3beabc509b37700078c653bce7330cf05b2a1f8"}, "filter": ["latest"], "aliases": {"R": "/usr/local/bin/R", "Rscript": "/usr/local/bin/Rscript", "rocker-ml-run": "/bin/bash", "rocker-ml-verse-run": "/bin/bash", "rserver": "/usr/lib/rstudio-server/bin/rserver", "rserver-pam": "/usr/lib/rstudio-server/bin/rserver-pam", "rsession": "/usr/lib/rstudio-server/bin/rsession", "rstudio-server": "/usr/lib/rstudio-server/bin/rstudio-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/ml-verse.

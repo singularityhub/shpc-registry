@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-nbamseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nbamseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nbamseq/container.yaml"
-updated_at: "2022-11-13 00:00:56.429049"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:19:39.132859"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nbamseq"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-nbamseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-nbamseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nbamseq", "latest": {"1.8.0--r41hdfd78af_0": "sha256:b81384b64857c72bbb4dd2840a884b84f455fc30e28542abad6b281d0894cfe8"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b81384b64857c72bbb4dd2840a884b84f455fc30e28542abad6b281d0894cfe8"}, "docker": "quay.io/biocontainers/bioconductor-nbamseq", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-nbamseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-nbamseq", "latest": {"1.14.0--r42hdfd78af_0": "sha256:c7db7c72f96b633d326b65e7c0ca43fc6f3bc421fb7b5c5baa0b974d5f598486"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b81384b64857c72bbb4dd2840a884b84f455fc30e28542abad6b281d0894cfe8", "1.14.0--r42hdfd78af_0": "sha256:c7db7c72f96b633d326b65e7c0ca43fc6f3bc421fb7b5c5baa0b974d5f598486", "1.10.0--r41hdfd78af_0": "sha256:e1357ef8206dd4a6e693d729b244ad0bf1117a9721541259d74c8e8abfae365f"}, "docker": "quay.io/biocontainers/bioconductor-nbamseq", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-nbamseq.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-nbamseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-nbamseq:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-nbamseq:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-nbamseq/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-nbamseq/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-nbamseq/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-nbamseq/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

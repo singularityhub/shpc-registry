@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-segmentseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-segmentseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-segmentseq/container.yaml"
-updated_at: "2022-11-13 00:06:38.111163"
-latest: "2.28.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:25:40.358508"
+latest: "2.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-segmentseq"
 
 versions:
  - "2.28.0--r41hdfd78af_0"
+ - "2.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-segmentseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-segmentseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-segmentseq", "latest": {"2.28.0--r41hdfd78af_0": "sha256:698b891b724bfb77335632b7b4e73c936ff62eefbef971c0c7704d829c3e57ee"}, "tags": {"2.28.0--r41hdfd78af_0": "sha256:698b891b724bfb77335632b7b4e73c936ff62eefbef971c0c7704d829c3e57ee"}, "docker": "quay.io/biocontainers/bioconductor-segmentseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-segmentseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-segmentseq", "latest": {"2.32.0--r42hdfd78af_0": "sha256:5fbb484c62ad770cb35284a3b405f2dab52c351e1f6609db1af798a82d0ad044"}, "tags": {"2.28.0--r41hdfd78af_0": "sha256:698b891b724bfb77335632b7b4e73c936ff62eefbef971c0c7704d829c3e57ee", "2.32.0--r42hdfd78af_0": "sha256:5fbb484c62ad770cb35284a3b405f2dab52c351e1f6609db1af798a82d0ad044"}, "docker": "quay.io/biocontainers/bioconductor-segmentseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-segmentseq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-segmentseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-segmentseq:2.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-segmentseq:2.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-segmentseq/2.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-segmentseq/2.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-segmentseq/2.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-segmentseq/2.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-wpm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wpm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wpm/container.yaml"
-updated_at: "2022-11-13 00:02:03.855957"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:20:51.475047"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wpm"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wpm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wpm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wpm", "latest": {"1.4.0--r41hdfd78af_0": "sha256:6310e16b6193d3f4e4107a64520b16b824f6452de87dd67357804196170270da"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:6310e16b6193d3f4e4107a64520b16b824f6452de87dd67357804196170270da"}, "docker": "quay.io/biocontainers/bioconductor-wpm"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wpm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wpm", "latest": {"1.8.0--r42hdfd78af_0": "sha256:8b8290fdd0e0223765121045f13874c9aa8704e8a68ffb7d73309f79960870a7"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:6310e16b6193d3f4e4107a64520b16b824f6452de87dd67357804196170270da", "1.8.0--r42hdfd78af_0": "sha256:8b8290fdd0e0223765121045f13874c9aa8704e8a68ffb7d73309f79960870a7"}, "docker": "quay.io/biocontainers/bioconductor-wpm"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wpm.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-wpm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-wpm:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-wpm:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-wpm/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-wpm/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-wpm/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-wpm/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

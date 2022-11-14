@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-omicsprint"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicsprint/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicsprint/container.yaml"
-updated_at: "2022-11-13 00:32:46.769006"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-14 00:52:55.608521"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicsprint"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicsprint"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicsprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicsprint", "latest": {"1.8.0--r40_0": "sha256:04af044b6136068b46aab3715e0076b94cba78fcc8eb84d6ff6c612c8cb69335"}, "tags": {"1.8.0--r40_0": "sha256:04af044b6136068b46aab3715e0076b94cba78fcc8eb84d6ff6c612c8cb69335"}, "docker": "quay.io/biocontainers/bioconductor-omicsprint", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicsprint", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicsprint", "latest": {"1.18.0--r42hdfd78af_0": "sha256:0cc170a51247687dce03600f0693e6109cd8fdecb796afde5f196399091856d9"}, "tags": {"1.8.0--r40_0": "sha256:04af044b6136068b46aab3715e0076b94cba78fcc8eb84d6ff6c612c8cb69335", "1.18.0--r42hdfd78af_0": "sha256:0cc170a51247687dce03600f0693e6109cd8fdecb796afde5f196399091856d9", "1.14.0--r41hdfd78af_0": "sha256:1d457f29c98a22c464da1a933fb78bf0a083d1e16933bf096c19a22a9e619afa", "1.12.0--r41hdfd78af_0": "sha256:3c7bcfb93045723d226bd042f49ceecbd7a202da251f15b98480b0cc88d78d17", "1.10.0--r40hdfd78af_1": "sha256:3dd15305ae623b684df6d0e3a921471266090856c22e754ef2d7187cd21c2091"}, "docker": "quay.io/biocontainers/bioconductor-omicsprint", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicsprint.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omicsprint
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omicsprint:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-omicsprint:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omicsprint/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-omicsprint/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-omicsprint/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omicsprint/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

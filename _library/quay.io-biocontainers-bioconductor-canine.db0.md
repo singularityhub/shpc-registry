@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-canine.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-canine.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-canine.db0/container.yaml"
-updated_at: "2022-11-13 00:00:30.379622"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-14 00:19:11.345299"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-canine.db0"
 aliases:
  - ".bioconductor-canine.db0-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.16.0--r42hdfd78af_0"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.11.2--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-canine.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-canine.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-canine.db0", "latest": {"3.8.2--r36_1": "sha256:8441945b9d5412a642fc7cfd9cc5a2e9cf74a3e67ecac039f40427092bdec460"}, "tags": {"3.8.2--r36_1": "sha256:8441945b9d5412a642fc7cfd9cc5a2e9cf74a3e67ecac039f40427092bdec460"}, "docker": "quay.io/biocontainers/bioconductor-canine.db0", "aliases": {".bioconductor-canine.db0-post-link.sh": "/usr/local/bin/.bioconductor-canine.db0-post-link.sh", ".bioconductor-canine.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-canine.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-canine.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-canine.db0", "latest": {"3.16.0--r42hdfd78af_0": "sha256:9adb613b1a20190edc3cfe3730e0e30a93736dc7fede63a7876a36334204a277"}, "tags": {"3.8.2--r36_1": "sha256:8441945b9d5412a642fc7cfd9cc5a2e9cf74a3e67ecac039f40427092bdec460", "3.16.0--r42hdfd78af_0": "sha256:9adb613b1a20190edc3cfe3730e0e30a93736dc7fede63a7876a36334204a277", "3.14.0--r41hdfd78af_1": "sha256:889fe1dcf9c7655a59914ebcb8a8293982e0c2eba0a522e6787766051ae97556", "3.13.0--r41hdfd78af_0": "sha256:aafc5bf00a56694483d1cc89ede71e5b4eb421bf19b90bcce0f851457a985b0b", "3.12.0--r40hdfd78af_1": "sha256:28ed1e25c8964c6c7a51e7db2787b5e032e673c44e77fdfe648716f89f08d625", "3.11.2--r40_0": "sha256:e9a62ff1c410c5c8858352d590c165fac9da90557cfb26f7d3764c22a7319872"}, "docker": "quay.io/biocontainers/bioconductor-canine.db0", "aliases": {".bioconductor-canine.db0-post-link.sh": "/usr/local/bin/.bioconductor-canine.db0-post-link.sh", ".bioconductor-canine.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-canine.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-canine.db0.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-canine.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-canine.db0:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-canine.db0:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-canine.db0/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-canine.db0/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-canine.db0/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-canine.db0/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mpedbarray.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpedbarray.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpedbarray.db/container.yaml"
-updated_at: "2022-11-13 00:17:55.233855"
-latest: "3.2.3--r41hdfd78af_9"
+updated_at: "2022-11-14 00:37:35.710291"
+latest: "3.2.3--r42hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpedbarray.db"
 aliases:
  - ".bioconductor-mpedbarray.db-post-link.sh"
  - ".bioconductor-mpedbarray.db-pre-unlink.sh"
 versions:
  - "3.2.3--r41hdfd78af_9"
+ - "3.2.3--r42hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-mpedbarray.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mpedbarray.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpedbarray.db", "latest": {"3.2.3--r41hdfd78af_9": "sha256:5d802f7ada010a58f587fa11e07074e7cdf75d56de0e2637f8ac3f6d04bd06fa"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:5d802f7ada010a58f587fa11e07074e7cdf75d56de0e2637f8ac3f6d04bd06fa"}, "docker": "quay.io/biocontainers/bioconductor-mpedbarray.db", "aliases": {".bioconductor-mpedbarray.db-post-link.sh": "/usr/local/bin/.bioconductor-mpedbarray.db-post-link.sh", ".bioconductor-mpedbarray.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mpedbarray.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mpedbarray.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mpedbarray.db", "latest": {"3.2.3--r42hdfd78af_11": "sha256:096a8c798db80b88ad0cc6a418d29b3b882657036fac1135f09885ba3dea8da4"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:5d802f7ada010a58f587fa11e07074e7cdf75d56de0e2637f8ac3f6d04bd06fa", "3.2.3--r42hdfd78af_11": "sha256:096a8c798db80b88ad0cc6a418d29b3b882657036fac1135f09885ba3dea8da4"}, "docker": "quay.io/biocontainers/bioconductor-mpedbarray.db", "aliases": {".bioconductor-mpedbarray.db-post-link.sh": "/usr/local/bin/.bioconductor-mpedbarray.db-post-link.sh", ".bioconductor-mpedbarray.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mpedbarray.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mpedbarray.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mpedbarray.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mpedbarray.db:3.2.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-mpedbarray.db:3.2.3--r42hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mpedbarray.db/3.2.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-mpedbarray.db/3.2.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-mpedbarray.db/3.2.3--r42hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-mpedbarray.db/3.2.3--r42hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

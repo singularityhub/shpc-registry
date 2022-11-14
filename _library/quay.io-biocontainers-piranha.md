@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/piranha"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/piranha/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/piranha/container.yaml"
-updated_at: "2022-11-13 00:14:25.023260"
-latest: "1.2.1--gsl2.2_bamtools2.4.1_5"
+updated_at: "2022-11-14 00:33:50.408999"
+latest: "1.2.1--ha5748cb_11"
 container_url: "https://biocontainers.pro/tools/piranha"
 aliases:
  - "Piranha"
@@ -14,8 +14,9 @@ aliases:
  - "bamtools"
 versions:
  - "1.2.1--gsl2.2_bamtools2.4.1_5"
+ - "1.2.1--ha5748cb_11"
 description: "shpc-registry automated BioContainers addition for piranha"
-config: {"url": "https://biocontainers.pro/tools/piranha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piranha", "latest": {"1.2.1--gsl2.2_bamtools2.4.1_5": "sha256:ce0348a3730f88815fdc924643034c219eb189c7006ed63fe6ede07c8416ba90"}, "tags": {"1.2.1--gsl2.2_bamtools2.4.1_5": "sha256:ce0348a3730f88815fdc924643034c219eb189c7006ed63fe6ede07c8416ba90"}, "docker": "quay.io/biocontainers/piranha", "aliases": {"Piranha": "/usr/local/bin/Piranha", "Simulate": "/usr/local/bin/Simulate", "bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "bamtools": "/usr/local/bin/bamtools"}}
+config: {"url": "https://biocontainers.pro/tools/piranha", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for piranha", "latest": {"1.2.1--ha5748cb_11": "sha256:71fabf9856ec42f00bf6df7162c077bfa0f977112e4581a903538e6e3e01ece2"}, "tags": {"1.2.1--gsl2.2_bamtools2.4.1_5": "sha256:ce0348a3730f88815fdc924643034c219eb189c7006ed63fe6ede07c8416ba90", "1.2.1--ha5748cb_11": "sha256:71fabf9856ec42f00bf6df7162c077bfa0f977112e4581a903538e6e3e01ece2"}, "docker": "quay.io/biocontainers/piranha", "aliases": {"Piranha": "/usr/local/bin/Piranha", "Simulate": "/usr/local/bin/Simulate", "bamtools-2.4.1": "/usr/local/bin/bamtools-2.4.1", "bamtools": "/usr/local/bin/bamtools"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/piranha.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/piranha
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/piranha:1.2.1--gsl2.2_bamtools2.4.1_5
+$ shpc install quay.io/biocontainers/piranha:1.2.1--ha5748cb_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/piranha/1.2.1--gsl2.2_bamtools2.4.1_5
-$ module help quay.io/biocontainers/piranha/1.2.1--gsl2.2_bamtools2.4.1_5
+$ module load quay.io/biocontainers/piranha/1.2.1--ha5748cb_11
+$ module help quay.io/biocontainers/piranha/1.2.1--ha5748cb_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cellbarcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellbarcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellbarcode/container.yaml"
-updated_at: "2022-11-13 00:09:36.516577"
+updated_at: "2022-11-14 00:28:49.180896"
 latest: "1.0.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellbarcode"
 

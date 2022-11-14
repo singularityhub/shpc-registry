@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fedup"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fedup/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fedup/container.yaml"
-updated_at: "2022-11-13 00:14:55.819771"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:34:23.501551"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fedup"
 aliases:
  - "Cytoscape"
@@ -20,8 +20,9 @@ aliases:
  - "jimage"
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fedup"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fedup", "latest": {"1.2.0--r41hdfd78af_0": "sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd"}, "docker": "quay.io/biocontainers/bioconductor-fedup", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fedup", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fedup", "latest": {"1.6.0--r42hdfd78af_0": "sha256:05dd515ce7932a18f5c5ce42b33adbab7b6d699b58619a6529a5d75195185d1e"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:c2ce73bfe8c1078b0389bb52daa9712c5f4033ecd96dbfcbe81f25ab927daffd", "1.6.0--r42hdfd78af_0": "sha256:05dd515ce7932a18f5c5ce42b33adbab7b6d699b58619a6529a5d75195185d1e"}, "docker": "quay.io/biocontainers/bioconductor-fedup", "aliases": {"Cytoscape": "/usr/local/bin/Cytoscape", "cytoscape.sh": "/usr/local/bin/cytoscape.sh", "gen_vmoptions.sh": "/usr/local/bin/gen_vmoptions.sh", "curve_keygen": "/usr/local/bin/curve_keygen", "jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fedup.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fedup
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fedup:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fedup:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fedup/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fedup/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fedup/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fedup/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

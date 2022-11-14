@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-synaptome.data"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-synaptome.data/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-synaptome.data/container.yaml"
-updated_at: "2022-11-13 00:28:53.784299"
-latest: "0.99.3--r41hdfd78af_1"
+updated_at: "2022-11-14 00:48:57.931556"
+latest: "0.99.6--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-synaptome.data"
 aliases:
  - ".bioconductor-synaptome.data-post-link.sh"
  - ".bioconductor-synaptome.data-pre-unlink.sh"
 versions:
  - "0.99.3--r41hdfd78af_1"
+ - "0.99.6--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-synaptome.data"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-synaptome.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synaptome.data", "latest": {"0.99.3--r41hdfd78af_1": "sha256:1e00ed83147a4dda8fe9660e8592de2e38087a23d05d4c50bcc47fe8fe732b9a"}, "tags": {"0.99.3--r41hdfd78af_1": "sha256:1e00ed83147a4dda8fe9660e8592de2e38087a23d05d4c50bcc47fe8fe732b9a"}, "docker": "quay.io/biocontainers/bioconductor-synaptome.data", "aliases": {".bioconductor-synaptome.data-post-link.sh": "/usr/local/bin/.bioconductor-synaptome.data-post-link.sh", ".bioconductor-synaptome.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-synaptome.data-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-synaptome.data", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-synaptome.data", "latest": {"0.99.6--r42hdfd78af_0": "sha256:c882f2f2c2fa077d400ac6fefe5a9ad68aaacfc409ccc9ff115451d93abe99a8"}, "tags": {"0.99.3--r41hdfd78af_1": "sha256:1e00ed83147a4dda8fe9660e8592de2e38087a23d05d4c50bcc47fe8fe732b9a", "0.99.6--r42hdfd78af_0": "sha256:c882f2f2c2fa077d400ac6fefe5a9ad68aaacfc409ccc9ff115451d93abe99a8"}, "docker": "quay.io/biocontainers/bioconductor-synaptome.data", "aliases": {".bioconductor-synaptome.data-post-link.sh": "/usr/local/bin/.bioconductor-synaptome.data-post-link.sh", ".bioconductor-synaptome.data-pre-unlink.sh": "/usr/local/bin/.bioconductor-synaptome.data-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-synaptome.data.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-synaptome.data
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-synaptome.data:0.99.3--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-synaptome.data:0.99.6--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-synaptome.data/0.99.3--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-synaptome.data/0.99.3--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-synaptome.data/0.99.6--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-synaptome.data/0.99.6--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

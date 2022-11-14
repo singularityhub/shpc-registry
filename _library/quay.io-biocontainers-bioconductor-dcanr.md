@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dcanr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dcanr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dcanr/container.yaml"
-updated_at: "2022-11-13 00:09:38.513548"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:28:51.273730"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dcanr"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dcanr"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dcanr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dcanr", "latest": {"1.8.0--r41hdfd78af_0": "sha256:3f5bba028b64dc33be0cc4543a3ebf4d2fd2410fb68d488156c606a9d033cfa6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:3f5bba028b64dc33be0cc4543a3ebf4d2fd2410fb68d488156c606a9d033cfa6"}, "docker": "quay.io/biocontainers/bioconductor-dcanr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dcanr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dcanr", "latest": {"1.14.0--r42hdfd78af_0": "sha256:9e7603a1baa961a987715cc9eafada99e07447bfa73b58e5daba77d836cc3cff"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:3f5bba028b64dc33be0cc4543a3ebf4d2fd2410fb68d488156c606a9d033cfa6", "1.14.0--r42hdfd78af_0": "sha256:9e7603a1baa961a987715cc9eafada99e07447bfa73b58e5daba77d836cc3cff", "1.10.0--r41hdfd78af_0": "sha256:f45a8aa158c5868b8ef991d5476498b384f83dce1ff550d5ef563a3b5995f49f"}, "docker": "quay.io/biocontainers/bioconductor-dcanr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dcanr.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dcanr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dcanr:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-dcanr:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dcanr/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-dcanr/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-dcanr/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dcanr/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

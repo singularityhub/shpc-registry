@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pfam.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pfam.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pfam.db/container.yaml"
-updated_at: "2022-11-13 00:06:28.798857"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-14 00:25:30.468366"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pfam.db"
 aliases:
  - ".bioconductor-pfam.db-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.16.0--r42hdfd78af_0"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.10.0--r40_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-pfam.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pfam.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pfam.db", "latest": {"3.8.2--r36_1": "sha256:be2ba30b7307531062c70e611d4c57822f27913dc8bbd00b4875bff18e93c3a7"}, "tags": {"3.8.2--r36_1": "sha256:be2ba30b7307531062c70e611d4c57822f27913dc8bbd00b4875bff18e93c3a7"}, "docker": "quay.io/biocontainers/bioconductor-pfam.db", "aliases": {".bioconductor-pfam.db-post-link.sh": "/usr/local/bin/.bioconductor-pfam.db-post-link.sh", ".bioconductor-pfam.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pfam.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pfam.db", "latest": {"3.16.0--r42hdfd78af_0": "sha256:e248e97c21d1ff95a27671aef425b24a674673c5d082c4ea3eb2900c2280b682"}, "tags": {"3.8.2--r36_1": "sha256:be2ba30b7307531062c70e611d4c57822f27913dc8bbd00b4875bff18e93c3a7", "3.16.0--r42hdfd78af_0": "sha256:e248e97c21d1ff95a27671aef425b24a674673c5d082c4ea3eb2900c2280b682", "3.14.0--r41hdfd78af_1": "sha256:817adae48d127df57debb7857f873aea721c26834e5661bccf5165721e4a49b9", "3.13.0--r41hdfd78af_0": "sha256:ae3dc2006841692075a78254f3ec9edbcca68a51e33c54be8e817542899c8d2c", "3.12.0--r40hdfd78af_1": "sha256:8f8ed00ca082a8db611b229e52997f8366dc8da6440c8b8e433646dbc41cfed1", "3.10.0--r40_1": "sha256:ce4fc9bbbba39d503eb2acb16646b9a6ed2b31de648e1b5f4abf4569889dbca8"}, "docker": "quay.io/biocontainers/bioconductor-pfam.db", "aliases": {".bioconductor-pfam.db-post-link.sh": "/usr/local/bin/.bioconductor-pfam.db-post-link.sh", ".bioconductor-pfam.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-pfam.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pfam.db.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pfam.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pfam.db:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-pfam.db:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pfam.db/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-pfam.db/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-pfam.db/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pfam.db/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

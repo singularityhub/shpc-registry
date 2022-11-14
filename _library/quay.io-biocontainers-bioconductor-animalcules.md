@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-animalcules"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-animalcules/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-animalcules/container.yaml"
-updated_at: "2022-11-13 00:32:23.636440"
-latest: "1.6.0--r40hdfd78af_1"
+updated_at: "2022-11-14 00:52:32.338126"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-animalcules"
 aliases:
  - "f2py3.9"
@@ -17,8 +17,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.6.0--r40hdfd78af_1"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-animalcules"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-animalcules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-animalcules", "latest": {"1.6.0--r40hdfd78af_1": "sha256:03581664e1b390a4a2ff74a76dda38f0a2ae074644307333552809c2dc4636da"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:03581664e1b390a4a2ff74a76dda38f0a2ae074644307333552809c2dc4636da"}, "docker": "quay.io/biocontainers/bioconductor-animalcules", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-animalcules", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-animalcules", "latest": {"1.14.0--r42hdfd78af_0": "sha256:08472aec13b37a128c5aba1e8bd6d656800c3ff5aa840df80519050c2707b540"}, "tags": {"1.6.0--r40hdfd78af_1": "sha256:03581664e1b390a4a2ff74a76dda38f0a2ae074644307333552809c2dc4636da", "1.14.0--r42hdfd78af_0": "sha256:08472aec13b37a128c5aba1e8bd6d656800c3ff5aa840df80519050c2707b540", "1.10.0--r41hdfd78af_0": "sha256:36de1465e16371d4885dd384a73581909d6cbe8955362c18fd37f1d0d07468fa"}, "docker": "quay.io/biocontainers/bioconductor-animalcules", "aliases": {"f2py3.9": "/usr/local/bin/f2py3.9", "2to3-3.9": "/usr/local/bin/2to3-3.9", "idle3.9": "/usr/local/bin/idle3.9", "pydoc3.9": "/usr/local/bin/pydoc3.9", "python3.9": "/usr/local/bin/python3.9", "python3.9-config": "/usr/local/bin/python3.9-config", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-animalcules.
@@ -33,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-animalcules
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-animalcules:1.6.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-animalcules:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-animalcules/1.6.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-animalcules/1.6.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-animalcules/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-animalcules/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

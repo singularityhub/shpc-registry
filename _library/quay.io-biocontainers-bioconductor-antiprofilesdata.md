@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-antiprofilesdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-antiprofilesdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-antiprofilesdata/container.yaml"
-updated_at: "2022-11-13 00:23:31.289706"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-14 00:43:25.330716"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-antiprofilesdata"
 aliases:
  - ".bioconductor-antiprofilesdata-post-link.sh"
  - ".bioconductor-antiprofilesdata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-antiprofilesdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-antiprofilesdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-antiprofilesdata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:8fcff7fb0d5d9eb9f43d3237096d6637fed141a79c00f668b694f7bf01661cef"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:8fcff7fb0d5d9eb9f43d3237096d6637fed141a79c00f668b694f7bf01661cef"}, "docker": "quay.io/biocontainers/bioconductor-antiprofilesdata", "aliases": {".bioconductor-antiprofilesdata-post-link.sh": "/usr/local/bin/.bioconductor-antiprofilesdata-post-link.sh", ".bioconductor-antiprofilesdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-antiprofilesdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-antiprofilesdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-antiprofilesdata", "latest": {"1.34.0--r42hdfd78af_0": "sha256:300b6c5d51aae1097355815fa2076933dafc03028fcea432136fef3a2ecf1785"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:8fcff7fb0d5d9eb9f43d3237096d6637fed141a79c00f668b694f7bf01661cef", "1.34.0--r42hdfd78af_0": "sha256:300b6c5d51aae1097355815fa2076933dafc03028fcea432136fef3a2ecf1785"}, "docker": "quay.io/biocontainers/bioconductor-antiprofilesdata", "aliases": {".bioconductor-antiprofilesdata-post-link.sh": "/usr/local/bin/.bioconductor-antiprofilesdata-post-link.sh", ".bioconductor-antiprofilesdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-antiprofilesdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-antiprofilesdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-antiprofilesdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-antiprofilesdata:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-antiprofilesdata:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-antiprofilesdata/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-antiprofilesdata/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-antiprofilesdata/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-antiprofilesdata/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

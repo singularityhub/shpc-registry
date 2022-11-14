@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-wgcna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-wgcna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-wgcna/container.yaml"
-updated_at: "2022-11-12 23:46:41.709350"
-latest: "1.71--r41hecf12ef_0"
+updated_at: "2022-11-14 00:05:01.562809"
+latest: "1.71--r42hecf12ef_2"
 container_url: "https://biocontainers.pro/tools/r-wgcna"
 
 versions:
  - "1.71--r41hecf12ef_0"
+ - "1.71--r42hecf12ef_2"
 description: "shpc-registry automated BioContainers addition for r-wgcna"
-config: {"url": "https://biocontainers.pro/tools/r-wgcna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wgcna", "latest": {"1.71--r41hecf12ef_0": "sha256:cf8283be7ca15cb9cd473d76baebdc0ba3d0b46b14a89ec1334095c36d3f2f7e"}, "tags": {"1.71--r41hecf12ef_0": "sha256:cf8283be7ca15cb9cd473d76baebdc0ba3d0b46b14a89ec1334095c36d3f2f7e"}, "docker": "quay.io/biocontainers/r-wgcna"}
+config: {"url": "https://biocontainers.pro/tools/r-wgcna", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-wgcna", "latest": {"1.71--r42hecf12ef_2": "sha256:1ed10b40e891b9aeadfb004b4b2f5445117f7cd4bf45e54fef6131d20ea79361"}, "tags": {"1.71--r41hecf12ef_0": "sha256:cf8283be7ca15cb9cd473d76baebdc0ba3d0b46b14a89ec1334095c36d3f2f7e", "1.71--r42hecf12ef_2": "sha256:1ed10b40e891b9aeadfb004b4b2f5445117f7cd4bf45e54fef6131d20ea79361"}, "docker": "quay.io/biocontainers/r-wgcna"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-wgcna.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-wgcna
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-wgcna:1.71--r41hecf12ef_0
+$ shpc install quay.io/biocontainers/r-wgcna:1.71--r42hecf12ef_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-wgcna/1.71--r41hecf12ef_0
-$ module help quay.io/biocontainers/r-wgcna/1.71--r41hecf12ef_0
+$ module load quay.io/biocontainers/r-wgcna/1.71--r42hecf12ef_2
+$ module help quay.io/biocontainers/r-wgcna/1.71--r42hecf12ef_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

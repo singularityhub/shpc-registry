@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-eatonetalchipseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eatonetalchipseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eatonetalchipseq/container.yaml"
-updated_at: "2022-11-12 23:48:52.573993"
+updated_at: "2022-11-14 00:07:13.329861"
 latest: "0.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-eatonetalchipseq"
 aliases:

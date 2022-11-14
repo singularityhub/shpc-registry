@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowploidy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowploidy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowploidy/container.yaml"
-updated_at: "2022-11-13 00:00:11.696343"
-latest: "1.8.0--r351_0"
+updated_at: "2022-11-14 00:18:51.163587"
+latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowploidy"
 aliases:
  - "pandoc-citeproc"
@@ -14,8 +14,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r351_0"
+ - "1.24.0--r42hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r40hdfd78af_1"
+ - "1.14.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowploidy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowploidy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowploidy", "latest": {"1.8.0--r351_0": "sha256:98394452fa90e7614ed010b11cf07863bd9790d115db4046f0c352c69f6225fe"}, "tags": {"1.8.0--r351_0": "sha256:98394452fa90e7614ed010b11cf07863bd9790d115db4046f0c352c69f6225fe"}, "docker": "quay.io/biocontainers/bioconductor-flowploidy", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowploidy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowploidy", "latest": {"1.24.0--r42hdfd78af_0": "sha256:c13e505924b959fb59ae0b06e7ea3108161b2efd563f30dd24d79f8036fef71b"}, "tags": {"1.8.0--r351_0": "sha256:98394452fa90e7614ed010b11cf07863bd9790d115db4046f0c352c69f6225fe", "1.24.0--r42hdfd78af_0": "sha256:c13e505924b959fb59ae0b06e7ea3108161b2efd563f30dd24d79f8036fef71b", "1.20.0--r41hdfd78af_0": "sha256:0130639bdb56f74179ed32a9d5c877d11b4d81e2c3464a741bc512bd7d29e246", "1.18.0--r41hdfd78af_0": "sha256:5b4d50f2f68b3870791bdeb532c90f25f2deebb741dcbf71a317372fe2f722e4", "1.16.0--r40hdfd78af_1": "sha256:f148e9be17b60314fe2565e9d3ee633aa315bdd838e93347ac26da2440634cbf", "1.14.0--r40_0": "sha256:178dc4ffad4384030064d738a05bf5de25ca360fc3c2e143f3cc721723e230c4"}, "docker": "quay.io/biocontainers/bioconductor-flowploidy", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowploidy.
@@ -30,7 +35,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowploidy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowploidy:1.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-flowploidy:1.24.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +47,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowploidy/1.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-flowploidy/1.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-flowploidy/1.24.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowploidy/1.24.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

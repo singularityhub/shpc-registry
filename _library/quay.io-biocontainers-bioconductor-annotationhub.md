@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-annotationhub"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-annotationhub/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-annotationhub/container.yaml"
-updated_at: "2022-11-13 00:16:00.765662"
-latest: "3.2.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:35:31.005435"
+latest: "3.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-annotationhub"
 
 versions:
  - "3.2.0--r41hdfd78af_0"
+ - "3.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-annotationhub"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationhub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationhub", "latest": {"3.2.0--r41hdfd78af_0": "sha256:03512824214ad768fbb83e71814e8ba339ff608257c73dcd818b93b45440345b"}, "tags": {"3.2.0--r41hdfd78af_0": "sha256:03512824214ad768fbb83e71814e8ba339ff608257c73dcd818b93b45440345b"}, "docker": "quay.io/biocontainers/bioconductor-annotationhub"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-annotationhub", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-annotationhub", "latest": {"3.6.0--r42hdfd78af_0": "sha256:fbc9d8102d1da40fa5a0a75a410b1f72c4a4f8e861ccfc1530d4a5dfa4d5c100"}, "tags": {"3.2.0--r41hdfd78af_0": "sha256:03512824214ad768fbb83e71814e8ba339ff608257c73dcd818b93b45440345b", "3.6.0--r42hdfd78af_0": "sha256:fbc9d8102d1da40fa5a0a75a410b1f72c4a4f8e861ccfc1530d4a5dfa4d5c100"}, "docker": "quay.io/biocontainers/bioconductor-annotationhub"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-annotationhub.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-annotationhub
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-annotationhub:3.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-annotationhub:3.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-annotationhub/3.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-annotationhub/3.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-annotationhub/3.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-annotationhub/3.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

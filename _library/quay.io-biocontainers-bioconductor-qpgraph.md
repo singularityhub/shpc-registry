@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-qpgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qpgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qpgraph/container.yaml"
-updated_at: "2022-11-13 00:37:22.154810"
-latest: "2.28.2--r41hc0cfd56_0"
+updated_at: "2022-11-14 00:57:43.009933"
+latest: "2.32.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qpgraph"
 
 versions:
  - "2.28.2--r41hc0cfd56_0"
+ - "2.32.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-qpgraph"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qpgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qpgraph", "latest": {"2.28.2--r41hc0cfd56_0": "sha256:18fb1092f84b0cc109752555579b89973af1b33dbf16edb5aec874cc85b1da9e"}, "tags": {"2.28.2--r41hc0cfd56_0": "sha256:18fb1092f84b0cc109752555579b89973af1b33dbf16edb5aec874cc85b1da9e"}, "docker": "quay.io/biocontainers/bioconductor-qpgraph"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qpgraph", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qpgraph", "latest": {"2.32.0--r42hc0cfd56_0": "sha256:501140b6cf1a67e2afde2d9cce227568a724e9b981abb14c2771887542a92251"}, "tags": {"2.28.2--r41hc0cfd56_0": "sha256:18fb1092f84b0cc109752555579b89973af1b33dbf16edb5aec874cc85b1da9e", "2.32.0--r42hc0cfd56_0": "sha256:501140b6cf1a67e2afde2d9cce227568a724e9b981abb14c2771887542a92251"}, "docker": "quay.io/biocontainers/bioconductor-qpgraph"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qpgraph.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qpgraph
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qpgraph:2.28.2--r41hc0cfd56_0
+$ shpc install quay.io/biocontainers/bioconductor-qpgraph:2.32.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qpgraph/2.28.2--r41hc0cfd56_0
-$ module help quay.io/biocontainers/bioconductor-qpgraph/2.28.2--r41hc0cfd56_0
+$ module load quay.io/biocontainers/bioconductor-qpgraph/2.32.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-qpgraph/2.32.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

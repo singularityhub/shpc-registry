@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/primer3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/primer3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/primer3/container.yaml"
-updated_at: "2022-11-13 00:06:06.557662"
+updated_at: "2022-11-14 00:25:06.687505"
 latest: "v2.5.0--pl526he1b5a44_0"
 container_url: "https://biocontainers.pro/tools/primer3"
 

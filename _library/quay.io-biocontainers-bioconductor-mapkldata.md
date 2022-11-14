@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mapkldata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mapkldata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mapkldata/container.yaml"
-updated_at: "2022-11-13 00:03:41.690382"
-latest: "1.26.0--r41hdfd78af_1"
+updated_at: "2022-11-14 00:22:35.844950"
+latest: "1.29.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mapkldata"
 aliases:
  - ".bioconductor-mapkldata-post-link.sh"
  - ".bioconductor-mapkldata-pre-unlink.sh"
 versions:
  - "1.26.0--r41hdfd78af_1"
+ - "1.29.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mapkldata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mapkldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mapkldata", "latest": {"1.26.0--r41hdfd78af_1": "sha256:1b288317b018fb75360969426a51ce6ad84576ed63d69f4a208f6dfb9d2e355a"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:1b288317b018fb75360969426a51ce6ad84576ed63d69f4a208f6dfb9d2e355a"}, "docker": "quay.io/biocontainers/bioconductor-mapkldata", "aliases": {".bioconductor-mapkldata-post-link.sh": "/usr/local/bin/.bioconductor-mapkldata-post-link.sh", ".bioconductor-mapkldata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mapkldata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mapkldata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mapkldata", "latest": {"1.29.0--r42hdfd78af_0": "sha256:c318b089b23ce7943bc699faf5d7cb9236f84b4c1344a80fa1fa7ba86237f87b"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:1b288317b018fb75360969426a51ce6ad84576ed63d69f4a208f6dfb9d2e355a", "1.29.0--r42hdfd78af_0": "sha256:c318b089b23ce7943bc699faf5d7cb9236f84b4c1344a80fa1fa7ba86237f87b"}, "docker": "quay.io/biocontainers/bioconductor-mapkldata", "aliases": {".bioconductor-mapkldata-post-link.sh": "/usr/local/bin/.bioconductor-mapkldata-post-link.sh", ".bioconductor-mapkldata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mapkldata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mapkldata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mapkldata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mapkldata:1.26.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-mapkldata:1.29.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mapkldata/1.26.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-mapkldata/1.26.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-mapkldata/1.29.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mapkldata/1.29.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

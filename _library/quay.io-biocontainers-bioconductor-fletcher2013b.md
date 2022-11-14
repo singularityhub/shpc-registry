@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fletcher2013b"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fletcher2013b/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fletcher2013b/container.yaml"
-updated_at: "2022-11-12 23:46:30.045350"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-14 00:04:49.952335"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fletcher2013b"
 aliases:
  - ".bioconductor-fletcher2013b-post-link.sh"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fletcher2013b"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fletcher2013b", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fletcher2013b", "latest": {"1.30.0--r41hdfd78af_1": "sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e"}, "docker": "quay.io/biocontainers/bioconductor-fletcher2013b", "aliases": {".bioconductor-fletcher2013b-post-link.sh": "/usr/local/bin/.bioconductor-fletcher2013b-post-link.sh", ".bioconductor-fletcher2013b-pre-unlink.sh": "/usr/local/bin/.bioconductor-fletcher2013b-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fletcher2013b", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fletcher2013b", "latest": {"1.34.0--r42hdfd78af_0": "sha256:06a36d92f16414adaf78eceb2de77ee6e62945ac86c5b623daad3f463b423883"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:953bcebe23c7f808f14956b178f85e26aa49adccaddddb8cfe673344ccbda58e", "1.34.0--r42hdfd78af_0": "sha256:06a36d92f16414adaf78eceb2de77ee6e62945ac86c5b623daad3f463b423883"}, "docker": "quay.io/biocontainers/bioconductor-fletcher2013b", "aliases": {".bioconductor-fletcher2013b-post-link.sh": "/usr/local/bin/.bioconductor-fletcher2013b-post-link.sh", ".bioconductor-fletcher2013b-pre-unlink.sh": "/usr/local/bin/.bioconductor-fletcher2013b-pre-unlink.sh", "glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fletcher2013b.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fletcher2013b
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fletcher2013b:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-fletcher2013b:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fletcher2013b/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-fletcher2013b/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-fletcher2013b/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fletcher2013b/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

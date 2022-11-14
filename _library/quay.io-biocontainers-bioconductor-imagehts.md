@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-imagehts"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imagehts/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imagehts/container.yaml"
-updated_at: "2022-11-13 00:32:32.308587"
-latest: "1.44.0--r41hdfd78af_0"
+updated_at: "2022-11-14 00:52:41.037245"
+latest: "1.48.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imagehts"
 aliases:
  - "fftw-wisdom"
@@ -14,8 +14,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "1.44.0--r41hdfd78af_0"
+ - "1.48.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-imagehts"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-imagehts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imagehts", "latest": {"1.44.0--r41hdfd78af_0": "sha256:d7224c1cf124ada90bb12f54922b26b0b3254b982c80f7a5a79e86c5ef5d458c"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:d7224c1cf124ada90bb12f54922b26b0b3254b982c80f7a5a79e86c5ef5d458c"}, "docker": "quay.io/biocontainers/bioconductor-imagehts", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-imagehts", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imagehts", "latest": {"1.48.0--r42hdfd78af_0": "sha256:117311d246c95f74610880cf6ee2e9331b10d4f41e1aa957a8b14ead96dbf2f9"}, "tags": {"1.44.0--r41hdfd78af_0": "sha256:d7224c1cf124ada90bb12f54922b26b0b3254b982c80f7a5a79e86c5ef5d458c", "1.48.0--r42hdfd78af_0": "sha256:117311d246c95f74610880cf6ee2e9331b10d4f41e1aa957a8b14ead96dbf2f9"}, "docker": "quay.io/biocontainers/bioconductor-imagehts", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-imagehts.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-imagehts
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-imagehts:1.44.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-imagehts:1.48.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-imagehts/1.44.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-imagehts/1.44.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-imagehts/1.48.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-imagehts/1.48.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

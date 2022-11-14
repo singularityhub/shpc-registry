@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-celda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-celda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-celda/container.yaml"
-updated_at: "2022-11-13 00:23:03.215339"
-latest: "1.8.1--r41h399db7b_0"
+updated_at: "2022-11-14 00:42:56.511580"
+latest: "1.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-celda"
 aliases:
  - "x86_64-conda-linux-gnu-pkg-config"
@@ -20,8 +20,10 @@ aliases:
  - "identify"
 versions:
  - "1.8.1--r41h399db7b_0"
+ - "1.14.0--r42hc247a5b_0"
+ - "1.10.0--r41hc247a5b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-celda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-celda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celda", "latest": {"1.8.1--r41h399db7b_0": "sha256:075bed972dfeae2f537bb1106fe4947731e3ab38ea56a733e408c86020708f66"}, "tags": {"1.8.1--r41h399db7b_0": "sha256:075bed972dfeae2f537bb1106fe4947731e3ab38ea56a733e408c86020708f66"}, "docker": "quay.io/biocontainers/bioconductor-celda", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-celda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-celda", "latest": {"1.14.0--r42hc247a5b_0": "sha256:2939a5e9f39cfb561a72c1dffd341d7e54c4e3c7a9f4de7b135c9e142c0cb307"}, "tags": {"1.8.1--r41h399db7b_0": "sha256:075bed972dfeae2f537bb1106fe4947731e3ab38ea56a733e408c86020708f66", "1.14.0--r42hc247a5b_0": "sha256:2939a5e9f39cfb561a72c1dffd341d7e54c4e3c7a9f4de7b135c9e142c0cb307", "1.10.0--r41hc247a5b_2": "sha256:c2c5e3e5be2116e99f49007114998f1ba995283846fec7ad0b11b1332fc69365"}, "docker": "quay.io/biocontainers/bioconductor-celda", "aliases": {"x86_64-conda-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda-linux-gnu-pkg-config", "Magick++-config": "/usr/local/bin/Magick++-config", "MagickCore-config": "/usr/local/bin/MagickCore-config", "MagickWand-config": "/usr/local/bin/MagickWand-config", "animate": "/usr/local/bin/animate", "composite": "/usr/local/bin/composite", "conjure": "/usr/local/bin/conjure", "convert": "/usr/local/bin/convert", "display": "/usr/local/bin/display", "identify": "/usr/local/bin/identify"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-celda.
@@ -36,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-celda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-celda:1.8.1--r41h399db7b_0
+$ shpc install quay.io/biocontainers/bioconductor-celda:1.14.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-celda/1.8.1--r41h399db7b_0
-$ module help quay.io/biocontainers/bioconductor-celda/1.8.1--r41h399db7b_0
+$ module load quay.io/biocontainers/bioconductor-celda/1.14.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-celda/1.14.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

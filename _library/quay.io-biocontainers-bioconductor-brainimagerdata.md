@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-brainimagerdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-brainimagerdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-brainimagerdata/container.yaml"
-updated_at: "2022-11-13 00:06:48.221588"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-14 00:25:51.087699"
+latest: "1.12.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-brainimagerdata"
 aliases:
  - ".bioconductor-brainimagerdata-post-link.sh"
@@ -13,8 +13,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-brainimagerdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-brainimagerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainimagerdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:f2127099c9617964f635628cc143764d57aac19a459f3ac174f2bfc58c91e7dc"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:f2127099c9617964f635628cc143764d57aac19a459f3ac174f2bfc58c91e7dc"}, "docker": "quay.io/biocontainers/bioconductor-brainimagerdata", "aliases": {".bioconductor-brainimagerdata-post-link.sh": "/usr/local/bin/.bioconductor-brainimagerdata-post-link.sh", ".bioconductor-brainimagerdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-brainimagerdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-brainimagerdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-brainimagerdata", "latest": {"1.12.0--r41hdfd78af_1": "sha256:213c2599deaf6b28cfdb694932e8a05b1c2229cfa62f4b58822ae0a2bc5abf01"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:f2127099c9617964f635628cc143764d57aac19a459f3ac174f2bfc58c91e7dc", "1.12.0--r41hdfd78af_1": "sha256:213c2599deaf6b28cfdb694932e8a05b1c2229cfa62f4b58822ae0a2bc5abf01", "1.10.0--r41hdfd78af_0": "sha256:436ab6d9bd7cd8fb6b88e7dcd12e7e8ca29a79889f906e3ff05ca29727e79b16"}, "docker": "quay.io/biocontainers/bioconductor-brainimagerdata", "aliases": {".bioconductor-brainimagerdata-post-link.sh": "/usr/local/bin/.bioconductor-brainimagerdata-post-link.sh", ".bioconductor-brainimagerdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-brainimagerdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-brainimagerdata.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-brainimagerdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-brainimagerdata:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-brainimagerdata:1.12.0--r41hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-brainimagerdata/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-brainimagerdata/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-brainimagerdata/1.12.0--r41hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-brainimagerdata/1.12.0--r41hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

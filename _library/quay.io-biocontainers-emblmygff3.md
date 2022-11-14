@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/emblmygff3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/emblmygff3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/emblmygff3/container.yaml"
-updated_at: "2022-11-13 00:35:49.339194"
+updated_at: "2022-11-14 00:56:07.608240"
 latest: "2.1--py_0"
 container_url: "https://biocontainers.pro/tools/emblmygff3"
 aliases:
@@ -24,8 +24,9 @@ aliases:
  - "bed_count_by_interval.py"
 versions:
  - "2.1--py_0"
+ - "2--py_1"
 description: "shpc-registry automated BioContainers addition for emblmygff3"
-config: {"url": "https://biocontainers.pro/tools/emblmygff3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emblmygff3", "latest": {"2.1--py_0": "sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020"}, "tags": {"2.1--py_0": "sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020"}, "docker": "quay.io/biocontainers/emblmygff3", "aliases": {"EMBLmyGFF3": "/usr/local/bin/EMBLmyGFF3", "EMBLmyGFF3-augustus-example": "/usr/local/bin/EMBLmyGFF3-augustus-example", "EMBLmyGFF3-maker-example": "/usr/local/bin/EMBLmyGFF3-maker-example", "EMBLmyGFF3-prokka-example": "/usr/local/bin/EMBLmyGFF3-prokka-example", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
+config: {"url": "https://biocontainers.pro/tools/emblmygff3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for emblmygff3", "latest": {"2.1--py_0": "sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020"}, "tags": {"2.1--py_0": "sha256:f464ed6a5a58d5ac4ed4904b72be10da0e1d1b3c79050e7da37769a1736e7020", "2--py_1": "sha256:e7af473b044cdb424a4df52d9eb1ffa90e95dd9a63b3af51f904617fa0827b87"}, "docker": "quay.io/biocontainers/emblmygff3", "aliases": {"EMBLmyGFF3": "/usr/local/bin/EMBLmyGFF3", "EMBLmyGFF3-augustus-example": "/usr/local/bin/EMBLmyGFF3-augustus-example", "EMBLmyGFF3-maker-example": "/usr/local/bin/EMBLmyGFF3-maker-example", "EMBLmyGFF3-prokka-example": "/usr/local/bin/EMBLmyGFF3-prokka-example", "aggregate_scores_in_intervals.py": "/usr/local/bin/aggregate_scores_in_intervals.py", "align_print_template.py": "/usr/local/bin/align_print_template.py", "axt_extract_ranges.py": "/usr/local/bin/axt_extract_ranges.py", "axt_to_fasta.py": "/usr/local/bin/axt_to_fasta.py", "axt_to_lav.py": "/usr/local/bin/axt_to_lav.py", "axt_to_maf.py": "/usr/local/bin/axt_to_maf.py", "bed_bigwig_profile.py": "/usr/local/bin/bed_bigwig_profile.py", "bed_build_windows.py": "/usr/local/bin/bed_build_windows.py", "bed_complement.py": "/usr/local/bin/bed_complement.py", "bed_count_by_interval.py": "/usr/local/bin/bed_count_by_interval.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/emblmygff3.

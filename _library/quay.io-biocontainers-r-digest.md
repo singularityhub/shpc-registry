@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-digest"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-digest/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-digest/container.yaml"
-updated_at: "2022-11-13 00:24:25.798484"
+updated_at: "2022-11-14 00:44:20.309015"
 latest: "0.6.12--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-digest"
 aliases:
