@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-metnet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metnet
 latest:
-  1.8.0--r40hdfd78af_1: sha256:90a43429c6dc68809710f4143c22468b466b2f7c2d358ce3745944bfb6ab4682
+  1.16.0--r42hdfd78af_0: sha256:eb9f01336c518e8a4dcafbe416d8a6c460b5cc2cb105e2d7415e828e16bf9ae6
 tags:
   1.8.0--r40hdfd78af_1: sha256:90a43429c6dc68809710f4143c22468b466b2f7c2d358ce3745944bfb6ab4682
+  1.16.0--r42hdfd78af_0: sha256:eb9f01336c518e8a4dcafbe416d8a6c460b5cc2cb105e2d7415e828e16bf9ae6
+  1.12.0--r41hdfd78af_0: sha256:c3fff91aabd2ce39209cc11a0dded6149b5e2df2bb2e27378419e227d181f626
 docker: quay.io/biocontainers/bioconductor-metnet
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

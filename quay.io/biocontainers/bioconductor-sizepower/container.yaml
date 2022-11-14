@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sizepower
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sizepower
 latest:
-  1.64.0--r41hdfd78af_0: sha256:66198589383d67b8c39e2b10257ae0018172b038b96ad8397de8a78a31f011c1
+  1.68.0--r42hdfd78af_0: sha256:e9ed13aedafd68cde3df4d8740ff34ca5a00ba4e09789494d0974beee0f762fc
 tags:
   1.64.0--r41hdfd78af_0: sha256:66198589383d67b8c39e2b10257ae0018172b038b96ad8397de8a78a31f011c1
+  1.68.0--r42hdfd78af_0: sha256:e9ed13aedafd68cde3df4d8740ff34ca5a00ba4e09789494d0974beee0f762fc
 docker: quay.io/biocontainers/bioconductor-sizepower

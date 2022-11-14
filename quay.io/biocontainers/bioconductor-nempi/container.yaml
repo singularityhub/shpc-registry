@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-nempi
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-nempi
 latest:
-  1.2.0--r41hdfd78af_0: sha256:3cba6b8ad8c5317d4ca619001e0fcba8316a43e45bb57b3517c8fee48c3e3491
+  1.6.0--r42hdfd78af_0: sha256:49521c8517ebc4f9f61dec79da32acf6eef726a20d809f1f74089ba0219c084e
 tags:
   1.2.0--r41hdfd78af_0: sha256:3cba6b8ad8c5317d4ca619001e0fcba8316a43e45bb57b3517c8fee48c3e3491
+  1.6.0--r42hdfd78af_0: sha256:49521c8517ebc4f9f61dec79da32acf6eef726a20d809f1f74089ba0219c084e
 docker: quay.io/biocontainers/bioconductor-nempi

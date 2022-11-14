@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/ananse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for ananse
 latest:
-  v0.1.2--py_0: sha256:3608e88d6d66dfa0f644a498482cdee030281fe528139a605f6ac999fcfe6cd3
+  0.4.0--pyhdfd78af_1: sha256:daf127a56ff5c37e4ed4d0a5ff484fb4545ab49a670f2433a57eae11c83d2469
 tags:
   v0.1.2--py_0: sha256:3608e88d6d66dfa0f644a498482cdee030281fe528139a605f6ac999fcfe6cd3
+  0.4.0--pyhdfd78af_1: sha256:daf127a56ff5c37e4ed4d0a5ff484fb4545ab49a670f2433a57eae11c83d2469
+  0.3.0--pyhdfd78af_0: sha256:334ab333d431cd7856a88bfd3662dd75b20e25d1f903662ac081d1b0c781d692
+  0.2.2--pyhdfd78af_1: sha256:07ba9e355bfea46b629ca5951c1d4544693bdd87e735a87191df35e147f845be
+  0.1.7--py_0: sha256:cf3b241fcf91d68b8b4164e6f179308b3f0c426e2770e1f1c5aa9d5f2154564c
 docker: quay.io/biocontainers/ananse
 aliases:
   GenomeOntology.pl: /usr/local/bin/GenomeOntology.pl

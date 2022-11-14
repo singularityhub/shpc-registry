@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-metavolcanor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metavolcanor
 latest:
-  1.8.0--r41hdfd78af_0: sha256:b7430c2453301b364e155ed2b51e24f338cb1ae192b76639d5f241702f2b6dc7
+  1.12.0--r42hdfd78af_0: sha256:245e939d96d003c3b72f234d79ae525f8db574462752c8c291022c906c3565bc
 tags:
   1.8.0--r41hdfd78af_0: sha256:b7430c2453301b364e155ed2b51e24f338cb1ae192b76639d5f241702f2b6dc7
+  1.12.0--r42hdfd78af_0: sha256:245e939d96d003c3b72f234d79ae525f8db574462752c8c291022c906c3565bc
 docker: quay.io/biocontainers/bioconductor-metavolcanor

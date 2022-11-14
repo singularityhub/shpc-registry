@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-worm.db0
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-worm.db0
 latest:
-  3.8.2--r36_1: sha256:d6e14fe868384ff78e083d6a670c24ffa2c8cd28a3c0faab4aed6cbb3227830c
+  3.16.0--r42hdfd78af_0: sha256:d00ac48e7110b69e50891df5f59f70adc070cc3107738c7da97c3bbd3ce3d6e2
 tags:
   3.8.2--r36_1: sha256:d6e14fe868384ff78e083d6a670c24ffa2c8cd28a3c0faab4aed6cbb3227830c
+  3.16.0--r42hdfd78af_0: sha256:d00ac48e7110b69e50891df5f59f70adc070cc3107738c7da97c3bbd3ce3d6e2
+  3.14.0--r41hdfd78af_1: sha256:5754ca5c09fda1183f6a257b557499bded9fc548a71f4ba2c9bc46f88e9a6ca8
+  3.13.0--r41hdfd78af_0: sha256:d63243ae318b444e325043e91fee191d80b121d845e643eb25f1ae397f37f662
+  3.12.0--r40hdfd78af_1: sha256:077f674121ed47a63158b5969277f3d1e74eaf82fb51a784fcc2918fdfcf8f0f
+  3.11.2--r40_0: sha256:0de158937caa4715b7b5fa1932a294ba72dfb1d795279cc7b25e69fa912662bb
 docker: quay.io/biocontainers/bioconductor-worm.db0
 aliases:
   .bioconductor-worm.db0-post-link.sh: /usr/local/bin/.bioconductor-worm.db0-post-link.sh

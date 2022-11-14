@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-factdesign
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-factdesign
 latest:
-  1.70.0--r41hdfd78af_0: sha256:8992262852d6969d1bfec1d6a22a36141b5d45de9efdc8d550059333f99ec53c
+  1.74.0--r42hdfd78af_0: sha256:a25582545665cfa0b00de2c87b7f12f75ab339d5a107d67cf2d9238e8a616c5a
 tags:
   1.70.0--r41hdfd78af_0: sha256:8992262852d6969d1bfec1d6a22a36141b5d45de9efdc8d550059333f99ec53c
+  1.74.0--r42hdfd78af_0: sha256:a25582545665cfa0b00de2c87b7f12f75ab339d5a107d67cf2d9238e8a616c5a
 docker: quay.io/biocontainers/bioconductor-factdesign

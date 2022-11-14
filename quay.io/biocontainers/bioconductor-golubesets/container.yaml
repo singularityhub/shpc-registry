@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-golubesets
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-golubesets
 latest:
-  1.36.0--r41hdfd78af_1: sha256:52f1d40300d436c9a97a41f0b0ab804f262d75053bdd663ee52c4613c81ab12e
+  1.40.0--r42hdfd78af_0: sha256:b2212201e9de85c861644709894fbf26ad8ed385e7a8330aee8d9c3c10e97d7d
 tags:
   1.36.0--r41hdfd78af_1: sha256:52f1d40300d436c9a97a41f0b0ab804f262d75053bdd663ee52c4613c81ab12e
+  1.40.0--r42hdfd78af_0: sha256:b2212201e9de85c861644709894fbf26ad8ed385e7a8330aee8d9c3c10e97d7d
 docker: quay.io/biocontainers/bioconductor-golubesets
 aliases:
   .bioconductor-golubesets-post-link.sh: /usr/local/bin/.bioconductor-golubesets-post-link.sh

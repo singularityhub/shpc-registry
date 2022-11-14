@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/rdp_classifier
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for rdp_classifier
 latest:
-  2.2--2: sha256:94625e4e71c4c0534448ae393825f59c0b33c06555442cad9e226d956033c0d2
+  2.13--hdfd78af_1: sha256:b4551f4a8409b37af7108c7ffc713bcbf734725bb2aa72433f7497a0d5d9d609
 tags:
   2.2--2: sha256:94625e4e71c4c0534448ae393825f59c0b33c06555442cad9e226d956033c0d2
+  2.13--hdfd78af_1: sha256:b4551f4a8409b37af7108c7ffc713bcbf734725bb2aa72433f7497a0d5d9d609
 docker: quay.io/biocontainers/rdp_classifier
 aliases:
   rdp_classifier: /usr/local/bin/rdp_classifier
