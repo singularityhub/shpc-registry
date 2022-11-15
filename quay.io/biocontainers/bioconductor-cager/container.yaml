@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cager
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cager
 latest:
-  2.0.1--r41hdfd78af_0: sha256:5ef5ec5ad4e946ab2ac07292492868f0ce42cee3ac3d8f0bda65dd44024c9a83
+  2.4.0--r42hdfd78af_0: sha256:9d1bbee057e9a52c2f310a2f2f0b293ed8c298c3a971db9c5778c97026982e75
 tags:
   2.0.1--r41hdfd78af_0: sha256:5ef5ec5ad4e946ab2ac07292492868f0ce42cee3ac3d8f0bda65dd44024c9a83
+  2.4.0--r42hdfd78af_0: sha256:9d1bbee057e9a52c2f310a2f2f0b293ed8c298c3a971db9c5778c97026982e75
 docker: quay.io/biocontainers/bioconductor-cager

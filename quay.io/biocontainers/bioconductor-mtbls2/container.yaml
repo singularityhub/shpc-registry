@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mtbls2
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mtbls2
 latest:
-  1.24.0--r41hdfd78af_1: sha256:5ead4a41a3a83906366dc0c1c4701007e406f6755902dfacba38dc9936146244
+  1.27.0--r42hdfd78af_0: sha256:c071c5387e096b47589cbd34184e15945b25deb471ce89c8b1e17ab60d104ba2
 tags:
   1.24.0--r41hdfd78af_1: sha256:5ead4a41a3a83906366dc0c1c4701007e406f6755902dfacba38dc9936146244
+  1.27.0--r42hdfd78af_0: sha256:c071c5387e096b47589cbd34184e15945b25deb471ce89c8b1e17ab60d104ba2
 docker: quay.io/biocontainers/bioconductor-mtbls2
 aliases:
   .bioconductor-mtbls2-post-link.sh: /usr/local/bin/.bioconductor-mtbls2-post-link.sh

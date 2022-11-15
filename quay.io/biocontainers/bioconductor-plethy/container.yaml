@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-plethy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-plethy
 latest:
-  1.30.0--r41hdfd78af_0: sha256:e996f8f3a92014a6b5e79da60e87a914dccf3642dccf53949a26c23e737862f3
+  1.36.0--r42hdfd78af_0: sha256:cc3912a3424287b2530e3b573fb83ac0734ca750c5cda843fe54fe6b5e938bc8
 tags:
   1.30.0--r41hdfd78af_0: sha256:e996f8f3a92014a6b5e79da60e87a914dccf3642dccf53949a26c23e737862f3
+  1.36.0--r42hdfd78af_0: sha256:cc3912a3424287b2530e3b573fb83ac0734ca750c5cda843fe54fe6b5e938bc8
 docker: quay.io/biocontainers/bioconductor-plethy
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin
