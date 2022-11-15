@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/xmatchview"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/xmatchview/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/xmatchview/container.yaml"
-updated_at: "2022-11-14 00:13:27.964226"
-latest: "v1.1.1--py_0"
+updated_at: "2022-11-15 00:08:47.626168"
+latest: "1.2.5--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/xmatchview"
 aliases:
  - "icc2ps"
@@ -26,8 +26,9 @@ aliases:
  - "idle"
 versions:
  - "v1.1.1--py_0"
+ - "1.2.5--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for xmatchview"
-config: {"url": "https://biocontainers.pro/tools/xmatchview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmatchview", "latest": {"v1.1.1--py_0": "sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e"}, "tags": {"v1.1.1--py_0": "sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e"}, "docker": "quay.io/biocontainers/xmatchview", "aliases": {"icc2ps": "/usr/local/bin/icc2ps", "icclink": "/usr/local/bin/icclink", "icctrans": "/usr/local/bin/icctrans", "wtpt": "/usr/local/bin/wtpt", "xmatchview-conifer.py": "/usr/local/bin/xmatchview-conifer.py", "xmatchview.py": "/usr/local/bin/xmatchview.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py", "pilfont.py": "/usr/local/bin/pilfont.py", "pilprint.py": "/usr/local/bin/pilprint.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
+config: {"url": "https://biocontainers.pro/tools/xmatchview", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for xmatchview", "latest": {"1.2.5--hdfd78af_1": "sha256:b2b5d13863d1e7636a0d02d19cd351e6bb9de99c96448d9d67bc633df1f3e598"}, "tags": {"v1.1.1--py_0": "sha256:0dbeca3b652e659af168e3fb16c9d4d3dc3311d018cdbb71505f43fbad69364e", "1.2.5--hdfd78af_1": "sha256:b2b5d13863d1e7636a0d02d19cd351e6bb9de99c96448d9d67bc633df1f3e598"}, "docker": "quay.io/biocontainers/xmatchview", "aliases": {"icc2ps": "/usr/local/bin/icc2ps", "icclink": "/usr/local/bin/icclink", "icctrans": "/usr/local/bin/icctrans", "wtpt": "/usr/local/bin/wtpt", "xmatchview-conifer.py": "/usr/local/bin/xmatchview-conifer.py", "xmatchview.py": "/usr/local/bin/xmatchview.py", "pilconvert.py": "/usr/local/bin/pilconvert.py", "pildriver.py": "/usr/local/bin/pildriver.py", "pilfile.py": "/usr/local/bin/pilfile.py", "pilfont.py": "/usr/local/bin/pilfont.py", "pilprint.py": "/usr/local/bin/pilprint.py", "python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/xmatchview.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/xmatchview
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/xmatchview:v1.1.1--py_0
+$ shpc install quay.io/biocontainers/xmatchview:1.2.5--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/xmatchview/v1.1.1--py_0
-$ module help quay.io/biocontainers/xmatchview/v1.1.1--py_0
+$ module load quay.io/biocontainers/xmatchview/1.2.5--hdfd78af_1
+$ module help quay.io/biocontainers/xmatchview/1.2.5--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

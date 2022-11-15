@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kneaddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kneaddata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kneaddata/container.yaml"
-updated_at: "2022-11-14 00:17:37.056349"
-latest: "0.9.0--pyhdfd78af_0"
+updated_at: "2022-11-15 00:14:22.400292"
+latest: "0.12.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/kneaddata"
 aliases:
  - "kneaddata"
@@ -27,8 +27,10 @@ aliases:
  - "bowtie2-build-s"
 versions:
  - "0.9.0--pyhdfd78af_0"
+ - "0.12.0--pyhdfd78af_0"
+ - "0.10.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for kneaddata"
-config: {"url": "https://biocontainers.pro/tools/kneaddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kneaddata", "latest": {"0.9.0--pyhdfd78af_0": "sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25"}, "docker": "quay.io/biocontainers/kneaddata", "aliases": {"kneaddata": "/usr/local/bin/kneaddata", "kneaddata_bowtie2_discordant_pairs": "/usr/local/bin/kneaddata_bowtie2_discordant_pairs", "kneaddata_build_database": "/usr/local/bin/kneaddata_build_database", "kneaddata_database": "/usr/local/bin/kneaddata_database", "kneaddata_read_count_table": "/usr/local/bin/kneaddata_read_count_table", "kneaddata_test": "/usr/local/bin/kneaddata_test", "kneaddata_trf_parallel": "/usr/local/bin/kneaddata_trf_parallel", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "fastqc": "/usr/local/bin/fastqc", "trimmomatic": "/usr/local/bin/trimmomatic", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
+config: {"url": "https://biocontainers.pro/tools/kneaddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kneaddata", "latest": {"0.12.0--pyhdfd78af_0": "sha256:bd990e3d0f22d21a3322c3808a866d4a52b8b8d04129dfb7b1e3cd087a5ed732"}, "tags": {"0.9.0--pyhdfd78af_0": "sha256:82470860691070b1a8934fa77a0b149c74e10b2c4d41f2ea534f36e9cce00a25", "0.12.0--pyhdfd78af_0": "sha256:bd990e3d0f22d21a3322c3808a866d4a52b8b8d04129dfb7b1e3cd087a5ed732", "0.10.0--pyhdfd78af_0": "sha256:9ee7eb1d0ac4809beaadde622a0299677575708fa6cb45e9f1ad55388860aea4"}, "docker": "quay.io/biocontainers/kneaddata", "aliases": {"kneaddata": "/usr/local/bin/kneaddata", "kneaddata_bowtie2_discordant_pairs": "/usr/local/bin/kneaddata_bowtie2_discordant_pairs", "kneaddata_build_database": "/usr/local/bin/kneaddata_build_database", "kneaddata_database": "/usr/local/bin/kneaddata_database", "kneaddata_read_count_table": "/usr/local/bin/kneaddata_read_count_table", "kneaddata_test": "/usr/local/bin/kneaddata_test", "kneaddata_trf_parallel": "/usr/local/bin/kneaddata_trf_parallel", "trf4.10.0-rc.2.linux64.exe": "/usr/local/bin/trf4.10.0-rc.2.linux64.exe", "trf": "/usr/local/bin/trf", "fastqc": "/usr/local/bin/fastqc", "trimmomatic": "/usr/local/bin/trimmomatic", "bowtie2": "/usr/local/bin/bowtie2", "bowtie2-align-l": "/usr/local/bin/bowtie2-align-l", "bowtie2-align-s": "/usr/local/bin/bowtie2-align-s", "bowtie2-build": "/usr/local/bin/bowtie2-build", "bowtie2-build-l": "/usr/local/bin/bowtie2-build-l", "bowtie2-build-s": "/usr/local/bin/bowtie2-build-s"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kneaddata.
@@ -43,7 +45,7 @@ $ shpc install quay.io/biocontainers/kneaddata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kneaddata:0.9.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/kneaddata:0.12.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +57,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kneaddata/0.9.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/kneaddata/0.9.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/kneaddata/0.12.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/kneaddata/0.12.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

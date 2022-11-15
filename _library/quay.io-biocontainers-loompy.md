@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/loompy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/loompy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/loompy/container.yaml"
-updated_at: "2022-11-14 00:59:57.204537"
-latest: "2.0.9--py36_0"
+updated_at: "2022-11-15 01:10:48.371793"
+latest: "2.0.16--py_0"
 container_url: "https://biocontainers.pro/tools/loompy"
 aliases:
  - "2to3-3.6"
@@ -20,8 +20,9 @@ aliases:
  - "h5format_convert"
 versions:
  - "2.0.9--py36_0"
+ - "2.0.16--py_0"
 description: "shpc-registry automated BioContainers addition for loompy"
-config: {"url": "https://biocontainers.pro/tools/loompy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for loompy", "latest": {"2.0.9--py36_0": "sha256:704d823f262684d20f6e7ed04b0a585d01a4097189d833b08c85aa555e4facd5"}, "tags": {"2.0.9--py36_0": "sha256:704d823f262684d20f6e7ed04b0a585d01a4097189d833b08c85aa555e4facd5"}, "docker": "quay.io/biocontainers/loompy", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
+config: {"url": "https://biocontainers.pro/tools/loompy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for loompy", "latest": {"2.0.16--py_0": "sha256:8d0c86bb398f427170f11c490d65696228c97e72fdf892f35e56d2e95ddc0712"}, "tags": {"2.0.9--py36_0": "sha256:704d823f262684d20f6e7ed04b0a585d01a4097189d833b08c85aa555e4facd5", "2.0.16--py_0": "sha256:8d0c86bb398f427170f11c490d65696228c97e72fdf892f35e56d2e95ddc0712"}, "docker": "quay.io/biocontainers/loompy", "aliases": {"2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "h5clear": "/usr/local/bin/h5clear", "h5format_convert": "/usr/local/bin/h5format_convert"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/loompy.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/loompy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/loompy:2.0.9--py36_0
+$ shpc install quay.io/biocontainers/loompy:2.0.16--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/loompy/2.0.9--py36_0
-$ module help quay.io/biocontainers/loompy/2.0.9--py36_0
+$ module load quay.io/biocontainers/loompy/2.0.16--py_0
+$ module help quay.io/biocontainers/loompy/2.0.16--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

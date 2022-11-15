@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioservices"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioservices/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioservices/container.yaml"
-updated_at: "2022-11-14 00:37:36.144597"
-latest: "1.7.9--pyh3252c3a_0"
+updated_at: "2022-11-15 00:40:47.518740"
+latest: "1.7.11--pyh3252c3a_0"
 container_url: "https://biocontainers.pro/tools/bioservices"
 aliases:
  - "easydev_buildPackage"
@@ -20,8 +20,9 @@ aliases:
  - "rst2html4.py"
 versions:
  - "1.7.9--pyh3252c3a_0"
+ - "1.7.11--pyh3252c3a_0"
 description: "shpc-registry automated BioContainers addition for bioservices"
-config: {"url": "https://biocontainers.pro/tools/bioservices", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioservices", "latest": {"1.7.9--pyh3252c3a_0": "sha256:cb4882e07676079e5ed211615d8e3d1ee58e8a52160129de58f67fc70c7d7c58"}, "tags": {"1.7.9--pyh3252c3a_0": "sha256:cb4882e07676079e5ed211615d8e3d1ee58e8a52160129de58f67fc70c7d7c58"}, "docker": "quay.io/biocontainers/bioservices", "aliases": {"easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
+config: {"url": "https://biocontainers.pro/tools/bioservices", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioservices", "latest": {"1.7.11--pyh3252c3a_0": "sha256:cddb4493b53f6d39d854c353adb554f3ba563d2434e63d0728fe921445099ebc"}, "tags": {"1.7.9--pyh3252c3a_0": "sha256:cb4882e07676079e5ed211615d8e3d1ee58e8a52160129de58f67fc70c7d7c58", "1.7.11--pyh3252c3a_0": "sha256:cddb4493b53f6d39d854c353adb554f3ba563d2434e63d0728fe921445099ebc"}, "docker": "quay.io/biocontainers/bioservices", "aliases": {"easydev_buildPackage": "/usr/local/bin/easydev_buildPackage", "ibrowse": "/usr/local/bin/ibrowse", "multigit": "/usr/local/bin/multigit", "browse": "/usr/local/bin/browse", "sphinx-apidoc": "/usr/local/bin/sphinx-apidoc", "sphinx-autogen": "/usr/local/bin/sphinx-autogen", "sphinx-build": "/usr/local/bin/sphinx-build", "sphinx-quickstart": "/usr/local/bin/sphinx-quickstart", "pybabel": "/usr/local/bin/pybabel", "rst2html4.py": "/usr/local/bin/rst2html4.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioservices.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioservices
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioservices:1.7.9--pyh3252c3a_0
+$ shpc install quay.io/biocontainers/bioservices:1.7.11--pyh3252c3a_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioservices/1.7.9--pyh3252c3a_0
-$ module help quay.io/biocontainers/bioservices/1.7.9--pyh3252c3a_0
+$ module load quay.io/biocontainers/bioservices/1.7.11--pyh3252c3a_0
+$ module help quay.io/biocontainers/bioservices/1.7.11--pyh3252c3a_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

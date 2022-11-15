@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/enrichm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/enrichm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/enrichm/container.yaml"
-updated_at: "2022-11-14 00:54:37.100954"
-latest: "0.6.4--pyhdfd78af_0"
+updated_at: "2022-11-15 01:03:40.198545"
+latest: "0.6.5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/enrichm"
 aliases:
  - "chronic"
@@ -36,8 +36,9 @@ aliases:
  - "mcxassemble"
 versions:
  - "0.6.4--pyhdfd78af_0"
+ - "0.6.5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for enrichm"
-config: {"url": "https://biocontainers.pro/tools/enrichm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for enrichm", "latest": {"0.6.4--pyhdfd78af_0": "sha256:0c6eeaf823e60524784724dfb740ee6ee0ec01406ac02a737351a1684bea9c09"}, "tags": {"0.6.4--pyhdfd78af_0": "sha256:0c6eeaf823e60524784724dfb740ee6ee0ec01406ac02a737351a1684bea9c09"}, "docker": "quay.io/biocontainers/enrichm", "aliases": {"chronic": "/usr/local/bin/chronic", "combine": "/usr/local/bin/combine", "enrichm": "/usr/local/bin/enrichm", "errno": "/usr/local/bin/errno", "ifdata": "/usr/local/bin/ifdata", "ifne": "/usr/local/bin/ifne", "isutf8": "/usr/local/bin/isutf8", "lckdo": "/usr/local/bin/lckdo", "mispipe": "/usr/local/bin/mispipe", "pee": "/usr/local/bin/pee", "seqmagick": "/usr/local/bin/seqmagick", "sponge": "/usr/local/bin/sponge", "ts": "/usr/local/bin/ts", "vidir": "/usr/local/bin/vidir", "vipe": "/usr/local/bin/vipe", "zrun": "/usr/local/bin/zrun", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
+config: {"url": "https://biocontainers.pro/tools/enrichm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for enrichm", "latest": {"0.6.5--pyhdfd78af_0": "sha256:e97f9c0e571ae3c3f4c0e007f7d7af7ea2abec92affdd4fc4684266073f24eb7"}, "tags": {"0.6.4--pyhdfd78af_0": "sha256:0c6eeaf823e60524784724dfb740ee6ee0ec01406ac02a737351a1684bea9c09", "0.6.5--pyhdfd78af_0": "sha256:e97f9c0e571ae3c3f4c0e007f7d7af7ea2abec92affdd4fc4684266073f24eb7"}, "docker": "quay.io/biocontainers/enrichm", "aliases": {"chronic": "/usr/local/bin/chronic", "combine": "/usr/local/bin/combine", "enrichm": "/usr/local/bin/enrichm", "errno": "/usr/local/bin/errno", "ifdata": "/usr/local/bin/ifdata", "ifne": "/usr/local/bin/ifne", "isutf8": "/usr/local/bin/isutf8", "lckdo": "/usr/local/bin/lckdo", "mispipe": "/usr/local/bin/mispipe", "pee": "/usr/local/bin/pee", "seqmagick": "/usr/local/bin/seqmagick", "sponge": "/usr/local/bin/sponge", "ts": "/usr/local/bin/ts", "vidir": "/usr/local/bin/vidir", "vipe": "/usr/local/bin/vipe", "zrun": "/usr/local/bin/zrun", "clm": "/usr/local/bin/clm", "clmformat": "/usr/local/bin/clmformat", "clxdo": "/usr/local/bin/clxdo", "mcl": "/usr/local/bin/mcl", "mclblastline": "/usr/local/bin/mclblastline", "mclcm": "/usr/local/bin/mclcm", "mclpipeline": "/usr/local/bin/mclpipeline", "mcx": "/usr/local/bin/mcx", "mcxarray": "/usr/local/bin/mcxarray", "mcxassemble": "/usr/local/bin/mcxassemble"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/enrichm.
@@ -52,7 +53,7 @@ $ shpc install quay.io/biocontainers/enrichm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/enrichm:0.6.4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/enrichm:0.6.5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -64,8 +65,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/enrichm/0.6.4--pyhdfd78af_0
-$ module help quay.io/biocontainers/enrichm/0.6.4--pyhdfd78af_0
+$ module load quay.io/biocontainers/enrichm/0.6.5--pyhdfd78af_0
+$ module help quay.io/biocontainers/enrichm/0.6.5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

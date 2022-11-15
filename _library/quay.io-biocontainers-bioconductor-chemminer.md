@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-chemminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chemminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chemminer/container.yaml"
-updated_at: "2022-11-14 00:26:42.155115"
-latest: "3.46.0--r41hc247a5b_2"
+updated_at: "2022-11-15 00:26:23.947290"
+latest: "3.50.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chemminer"
 aliases:
  - "rsvg-convert"
@@ -15,8 +15,9 @@ aliases:
  - "gdk-pixbuf-query-loaders"
 versions:
  - "3.46.0--r41hc247a5b_2"
+ - "3.50.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chemminer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chemminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chemminer", "latest": {"3.46.0--r41hc247a5b_2": "sha256:d78371c0f7c155ca817fa8f0c7f0b7a01f433f57bb68b32a137b536934c532c1"}, "tags": {"3.46.0--r41hc247a5b_2": "sha256:d78371c0f7c155ca817fa8f0c7f0b7a01f433f57bb68b32a137b536934c532c1"}, "docker": "quay.io/biocontainers/bioconductor-chemminer", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chemminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chemminer", "latest": {"3.50.0--r42hc247a5b_0": "sha256:67531a786f200a2233f79173bbb09f7d5939293852b61d6447fc0cdc390fe03f"}, "tags": {"3.46.0--r41hc247a5b_2": "sha256:d78371c0f7c155ca817fa8f0c7f0b7a01f433f57bb68b32a137b536934c532c1", "3.50.0--r42hc247a5b_0": "sha256:67531a786f200a2233f79173bbb09f7d5939293852b61d6447fc0cdc390fe03f"}, "docker": "quay.io/biocontainers/bioconductor-chemminer", "aliases": {"rsvg-convert": "/usr/local/bin/rsvg-convert", "gdk-pixbuf-thumbnailer": "/usr/local/bin/gdk-pixbuf-thumbnailer", "gdk-pixbuf-csource": "/usr/local/bin/gdk-pixbuf-csource", "gdk-pixbuf-pixdata": "/usr/local/bin/gdk-pixbuf-pixdata", "gdk-pixbuf-query-loaders": "/usr/local/bin/gdk-pixbuf-query-loaders"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chemminer.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chemminer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chemminer:3.46.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-chemminer:3.50.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chemminer/3.46.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-chemminer/3.46.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-chemminer/3.50.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-chemminer/3.50.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

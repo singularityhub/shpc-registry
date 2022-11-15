@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nucpos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nucpos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nucpos/container.yaml"
-updated_at: "2022-11-14 00:44:43.089806"
+updated_at: "2022-11-15 00:50:18.898701"
 latest: "1.12.0--r41hefde4a7_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-nucpos"
 aliases:

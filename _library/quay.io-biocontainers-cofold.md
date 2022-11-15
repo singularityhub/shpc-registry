@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cofold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cofold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cofold/container.yaml"
-updated_at: "2022-11-14 00:29:42.398892"
+updated_at: "2022-11-15 00:30:24.051376"
 latest: "2.0.4--h87f3376_5"
 container_url: "https://biocontainers.pro/tools/cofold"
 aliases:

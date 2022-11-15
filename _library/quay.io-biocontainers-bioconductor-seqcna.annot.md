@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-seqcna.annot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-seqcna.annot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-seqcna.annot/container.yaml"
-updated_at: "2022-11-14 00:22:12.896218"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-15 00:20:25.388162"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-seqcna.annot"
 aliases:
  - ".bioconductor-seqcna.annot-post-link.sh"
  - ".bioconductor-seqcna.annot-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-seqcna.annot"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-seqcna.annot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqcna.annot", "latest": {"1.30.0--r41hdfd78af_1": "sha256:e8ecf152d88a2d43120b6fc728ad84ae2d6717badd32296677975f569c2e0bc2"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:e8ecf152d88a2d43120b6fc728ad84ae2d6717badd32296677975f569c2e0bc2"}, "docker": "quay.io/biocontainers/bioconductor-seqcna.annot", "aliases": {".bioconductor-seqcna.annot-post-link.sh": "/usr/local/bin/.bioconductor-seqcna.annot-post-link.sh", ".bioconductor-seqcna.annot-pre-unlink.sh": "/usr/local/bin/.bioconductor-seqcna.annot-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-seqcna.annot", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-seqcna.annot", "latest": {"1.34.0--r42hdfd78af_0": "sha256:c81af5d756e5a08c1ed20ae2bdc213caaf9165bf7dbc15ee2e0882639bc3cb23"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:e8ecf152d88a2d43120b6fc728ad84ae2d6717badd32296677975f569c2e0bc2", "1.34.0--r42hdfd78af_0": "sha256:c81af5d756e5a08c1ed20ae2bdc213caaf9165bf7dbc15ee2e0882639bc3cb23", "1.33.0--r42hdfd78af_0": "sha256:73339dd69d669589645aa5eed87f74445fd275c44d16aaffc61e7033dc535275"}, "docker": "quay.io/biocontainers/bioconductor-seqcna.annot", "aliases": {".bioconductor-seqcna.annot-post-link.sh": "/usr/local/bin/.bioconductor-seqcna.annot-post-link.sh", ".bioconductor-seqcna.annot-pre-unlink.sh": "/usr/local/bin/.bioconductor-seqcna.annot-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-seqcna.annot.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-seqcna.annot
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-seqcna.annot:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-seqcna.annot:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-seqcna.annot/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-seqcna.annot/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-seqcna.annot/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-seqcna.annot/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/tasmanian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/tasmanian/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/tasmanian/container.yaml"
-updated_at: "2022-11-14 01:02:23.651784"
-latest: "7.7"
+updated_at: "2022-11-15 01:14:03.864425"
+latest: "7.9"
 container_url: "https://github.com/orgs/autamus/packages/container/package/tasmanian"
 aliases:
  - "tasgrid"
@@ -13,8 +13,9 @@ versions:
  - "7.5"
  - "7.7"
  - "latest"
+ - "7.9"
 description: "The Toolkit for Adaptive Stochastic Modeling and Non-Intrusive ApproximatioN is a robust library for high dimensional integration and interpolation as well as parameter calibration.  https://tasmanian.ornl.gov"
-config: {"docker": "ghcr.io/autamus/tasmanian", "url": "https://github.com/orgs/autamus/packages/container/package/tasmanian", "maintainer": "@vsoch", "description": "The Toolkit for Adaptive Stochastic Modeling and Non-Intrusive ApproximatioN is a robust library for high dimensional integration and interpolation as well as parameter calibration.  https://tasmanian.ornl.gov", "latest": {"7.7": "sha256:4d4aebe382a3a7adc1a9bed86666a775222a084b9f308a1b50490c28c15fcc1e"}, "tags": {"7.5": "sha256:8772fb92e3af323742e280917650acac1b817cd35c6243948c3917e17866e163", "7.7": "sha256:4d4aebe382a3a7adc1a9bed86666a775222a084b9f308a1b50490c28c15fcc1e", "latest": "sha256:4d4aebe382a3a7adc1a9bed86666a775222a084b9f308a1b50490c28c15fcc1e"}, "aliases": {"tasgrid": "/opt/view/bin/tasgrid"}}
+config: {"docker": "ghcr.io/autamus/tasmanian", "url": "https://github.com/orgs/autamus/packages/container/package/tasmanian", "maintainer": "@vsoch", "description": "The Toolkit for Adaptive Stochastic Modeling and Non-Intrusive ApproximatioN is a robust library for high dimensional integration and interpolation as well as parameter calibration.  https://tasmanian.ornl.gov", "latest": {"7.9": "sha256:c59326a80672a27b41bda0cbd608806ed8ef4deb419102de76fbd3b2a5c3ea8b"}, "tags": {"7.5": "sha256:8772fb92e3af323742e280917650acac1b817cd35c6243948c3917e17866e163", "7.7": "sha256:4d4aebe382a3a7adc1a9bed86666a775222a084b9f308a1b50490c28c15fcc1e", "latest": "sha256:c59326a80672a27b41bda0cbd608806ed8ef4deb419102de76fbd3b2a5c3ea8b", "7.9": "sha256:c59326a80672a27b41bda0cbd608806ed8ef4deb419102de76fbd3b2a5c3ea8b"}, "aliases": {"tasgrid": "/opt/view/bin/tasgrid"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/tasmanian.
@@ -29,7 +30,7 @@ $ shpc install ghcr.io/autamus/tasmanian
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/tasmanian:7.7
+$ shpc install ghcr.io/autamus/tasmanian:7.9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/tasmanian/7.7
-$ module help ghcr.io/autamus/tasmanian/7.7
+$ module load ghcr.io/autamus/tasmanian/7.9
+$ module help ghcr.io/autamus/tasmanian/7.9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

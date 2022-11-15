@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/toulligqc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/toulligqc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/toulligqc/container.yaml"
-updated_at: "2022-11-14 00:21:36.475763"
-latest: "2.2.2--pyhdfd78af_0"
+updated_at: "2022-11-15 00:19:37.283719"
+latest: "2.2.3--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/toulligqc"
 aliases:
  - "toulligqc"
@@ -21,8 +21,9 @@ aliases:
  - "h5clear"
 versions:
  - "2.2.2--pyhdfd78af_0"
+ - "2.2.3--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for toulligqc"
-config: {"url": "https://biocontainers.pro/tools/toulligqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toulligqc", "latest": {"2.2.2--pyhdfd78af_0": "sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560"}, "tags": {"2.2.2--pyhdfd78af_0": "sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560"}, "docker": "quay.io/biocontainers/toulligqc", "aliases": {"toulligqc": "/usr/local/bin/toulligqc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear"}}
+config: {"url": "https://biocontainers.pro/tools/toulligqc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for toulligqc", "latest": {"2.2.3--pyhdfd78af_0": "sha256:f4f5a10e5e0509d48d34d7f88c85109fe499d06cbe8b5d757e8b69c682715110"}, "tags": {"2.2.2--pyhdfd78af_0": "sha256:57b6eb1361c01302a4182e0ecb71de2fa16331a5e002be1e0018076896785560", "2.2.3--pyhdfd78af_0": "sha256:f4f5a10e5e0509d48d34d7f88c85109fe499d06cbe8b5d757e8b69c682715110"}, "docker": "quay.io/biocontainers/toulligqc", "aliases": {"toulligqc": "/usr/local/bin/toulligqc", "fonttools": "/usr/local/bin/fonttools", "pyftmerge": "/usr/local/bin/pyftmerge", "pyftsubset": "/usr/local/bin/pyftsubset", "ttx": "/usr/local/bin/ttx", "brotli": "/usr/local/bin/brotli", "f2py3.10": "/usr/local/bin/f2py3.10", "opj_compress": "/usr/local/bin/opj_compress", "opj_decompress": "/usr/local/bin/opj_decompress", "opj_dump": "/usr/local/bin/opj_dump", "h5clear": "/usr/local/bin/h5clear"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/toulligqc.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/toulligqc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/toulligqc:2.2.2--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/toulligqc:2.2.3--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/toulligqc/2.2.2--pyhdfd78af_0
-$ module help quay.io/biocontainers/toulligqc/2.2.2--pyhdfd78af_0
+$ module load quay.io/biocontainers/toulligqc/2.2.3--pyhdfd78af_0
+$ module help quay.io/biocontainers/toulligqc/2.2.3--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

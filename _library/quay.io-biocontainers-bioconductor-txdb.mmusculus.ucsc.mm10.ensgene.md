@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/container.yaml"
-updated_at: "2022-11-14 00:19:58.719336"
-latest: "3.4.0--r40_9"
+updated_at: "2022-11-15 00:17:28.771846"
+latest: "3.4.0--r42hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
 aliases:
  - ".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh"
@@ -20,8 +20,9 @@ aliases:
  - "c99"
 versions:
  - "3.4.0--r40_9"
+ - "3.4.0--r42hdfd78af_15"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm10.ensgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "latest": {"3.4.0--r40_9": "sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2"}, "tags": {"3.4.0--r40_9": "sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "aliases": {".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "latest": {"3.4.0--r42hdfd78af_15": "sha256:e54522e15920c9a6740f3b89e1dd5c2154b12b0f6a194e29d510b08a7d87c252"}, "tags": {"3.4.0--r40_9": "sha256:b87d48cf341dba877002e1d819a519170e1e2163597a24fd8e380ee0035579e2", "3.4.0--r42hdfd78af_15": "sha256:e54522e15920c9a6740f3b89e1dd5c2154b12b0f6a194e29d510b08a7d87c252"}, "docker": "quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene", "aliases": {".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-post-link.sh", ".bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.mmusculus.ucsc.mm10.ensgene-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene:3.4.0--r40_9
+$ shpc install quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene:3.4.0--r42hdfd78af_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/3.4.0--r40_9
-$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/3.4.0--r40_9
+$ module load quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/3.4.0--r42hdfd78af_15
+$ module help quay.io/biocontainers/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/3.4.0--r42hdfd78af_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

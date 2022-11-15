@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/container.yaml"
-updated_at: "2022-11-14 00:42:14.203957"
-latest: "3.4.6--r36_2"
+updated_at: "2022-11-15 00:46:57.730766"
+latest: "3.15.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.ensgene"
 aliases:
  - ".bioconductor-txdb.celegans.ucsc.ce11.ensgene-post-link.sh"
@@ -15,8 +15,11 @@ aliases:
  - "c99"
 versions:
  - "3.4.6--r36_2"
+ - "3.15.0--r42hdfd78af_0"
+ - "3.12.0--r41hdfd78af_4"
+ - "3.11.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.ensgene"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.ensgene", "latest": {"3.4.6--r36_2": "sha256:77bc5f4a0b6443cb5f421ff151ad3ed5e8cf19a3567c292f79123e54564aa28a"}, "tags": {"3.4.6--r36_2": "sha256:77bc5f4a0b6443cb5f421ff151ad3ed5e8cf19a3567c292f79123e54564aa28a"}, "docker": "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "aliases": {".bioconductor-txdb.celegans.ucsc.ce11.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.ensgene-post-link.sh", ".bioconductor-txdb.celegans.ucsc.ce11.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.ensgene-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-txdb.celegans.ucsc.ce11.ensgene", "latest": {"3.15.0--r42hdfd78af_0": "sha256:40c79f13ec2ba3ecaa60f27cccd2784713b1230048882dfe75258005050d0e31"}, "tags": {"3.4.6--r36_2": "sha256:77bc5f4a0b6443cb5f421ff151ad3ed5e8cf19a3567c292f79123e54564aa28a", "3.15.0--r42hdfd78af_0": "sha256:40c79f13ec2ba3ecaa60f27cccd2784713b1230048882dfe75258005050d0e31", "3.12.0--r41hdfd78af_4": "sha256:e8a608e6e2caee6666c5e81b342329cee5962e01df4f0ccff7ec6727218adb30", "3.11.0--r40_0": "sha256:8f1918e12dd22c9954df879b5264b2a1e3f9999e59587403c22a1dc4666121be"}, "docker": "quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene", "aliases": {".bioconductor-txdb.celegans.ucsc.ce11.ensgene-post-link.sh": "/usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.ensgene-post-link.sh", ".bioconductor-txdb.celegans.ucsc.ce11.ensgene-pre-unlink.sh": "/usr/local/bin/.bioconductor-txdb.celegans.ucsc.ce11.ensgene-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene.
@@ -31,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene:3.4.6--r36_2
+$ shpc install quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene:3.15.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.4.6--r36_2
-$ module help quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.4.6--r36_2
+$ module load quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.15.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.ensgene/3.15.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

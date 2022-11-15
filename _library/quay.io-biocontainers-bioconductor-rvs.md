@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rvs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rvs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rvs/container.yaml"
-updated_at: "2022-11-14 00:16:06.606416"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-15 00:12:21.467941"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rvs"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.20.0--r42hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rvs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rvs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rvs", "latest": {"1.8.0--r36_0": "sha256:db4241a77862d17434b8b9fc4ec13c916c1a01f1290a44e937d01314cb4e1c1f"}, "tags": {"1.8.0--r36_0": "sha256:db4241a77862d17434b8b9fc4ec13c916c1a01f1290a44e937d01314cb4e1c1f"}, "docker": "quay.io/biocontainers/bioconductor-rvs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rvs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rvs", "latest": {"1.20.0--r42hdfd78af_0": "sha256:dfa521904890a1f0ecd14b2a8487c3067a0a58086be1d6349b581750aa42d000"}, "tags": {"1.8.0--r36_0": "sha256:db4241a77862d17434b8b9fc4ec13c916c1a01f1290a44e937d01314cb4e1c1f", "1.20.0--r42hdfd78af_0": "sha256:dfa521904890a1f0ecd14b2a8487c3067a0a58086be1d6349b581750aa42d000", "1.16.0--r41hdfd78af_0": "sha256:7ff4766468331cdb3a2310175f53e749bba90cd852a7683fe40428df8265a1c1", "1.14.0--r41hdfd78af_0": "sha256:a2a27b15fbd5bb2f04080868c295b392492b1c853b806e1d04c74858d18f4766", "1.12.0--r40hdfd78af_1": "sha256:c5345c1c8f0c41c3738f77dab06d099d851bbb62edac27ccce872504d0ac81a3", "1.10.0--r40_0": "sha256:30e9e760369be6ed6b2bb4e08ed57bc65bcf61639d3e0561ca9c8647feaf8a5b"}, "docker": "quay.io/biocontainers/bioconductor-rvs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rvs.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rvs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rvs:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-rvs:1.20.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rvs/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-rvs/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-rvs/1.20.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rvs/1.20.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

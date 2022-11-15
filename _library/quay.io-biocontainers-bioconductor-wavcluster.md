@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-wavcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-wavcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-wavcluster/container.yaml"
-updated_at: "2022-11-14 00:34:56.013111"
-latest: "2.28.0--r41hdfd78af_0"
+updated_at: "2022-11-15 00:37:21.163692"
+latest: "2.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-wavcluster"
 
 versions:
  - "2.28.0--r41hdfd78af_0"
+ - "2.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-wavcluster"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-wavcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wavcluster", "latest": {"2.28.0--r41hdfd78af_0": "sha256:1ef5ef0be5ffff0074ee06ee69fcbaa960df625305810f903f475051b3118d8d"}, "tags": {"2.28.0--r41hdfd78af_0": "sha256:1ef5ef0be5ffff0074ee06ee69fcbaa960df625305810f903f475051b3118d8d"}, "docker": "quay.io/biocontainers/bioconductor-wavcluster"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-wavcluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-wavcluster", "latest": {"2.32.0--r42hdfd78af_0": "sha256:79ff13bde9ed7813d5aeed3d1de55b82297e977b28c22bf92bbf90a3ced960d9"}, "tags": {"2.28.0--r41hdfd78af_0": "sha256:1ef5ef0be5ffff0074ee06ee69fcbaa960df625305810f903f475051b3118d8d", "2.32.0--r42hdfd78af_0": "sha256:79ff13bde9ed7813d5aeed3d1de55b82297e977b28c22bf92bbf90a3ced960d9"}, "docker": "quay.io/biocontainers/bioconductor-wavcluster"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-wavcluster.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-wavcluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-wavcluster:2.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-wavcluster:2.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-wavcluster/2.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-wavcluster/2.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-wavcluster/2.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-wavcluster/2.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

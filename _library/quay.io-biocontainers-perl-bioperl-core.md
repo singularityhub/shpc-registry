@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bioperl-core"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bioperl-core/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bioperl-core/container.yaml"
-updated_at: "2022-11-14 00:51:37.051341"
-latest: "1.7.8--pl5321hdfd78af_1"
+updated_at: "2022-11-15 00:59:39.134023"
+latest: "1.007002--pl5321hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/perl-bioperl-core"
 aliases:
  - "bp_aacomp"
@@ -20,8 +20,9 @@ aliases:
  - "bp_gccalc"
 versions:
  - "1.7.8--pl5321hdfd78af_1"
+ - "1.007002--pl5321hdfd78af_4"
 description: "shpc-registry automated BioContainers addition for perl-bioperl-core"
-config: {"url": "https://biocontainers.pro/tools/perl-bioperl-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bioperl-core", "latest": {"1.7.8--pl5321hdfd78af_1": "sha256:44b47ade77cae2b11f555d921483841143880d0cb03f8d3714e666ee859082b9"}, "tags": {"1.7.8--pl5321hdfd78af_1": "sha256:44b47ade77cae2b11f555d921483841143880d0cb03f8d3714e666ee859082b9"}, "docker": "quay.io/biocontainers/perl-bioperl-core", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bioperl-core", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bioperl-core", "latest": {"1.007002--pl5321hdfd78af_4": "sha256:f61797093debaceca5a8f356ae0fd3065f247d943d7c154ac5db829615d8267f"}, "tags": {"1.7.8--pl5321hdfd78af_1": "sha256:44b47ade77cae2b11f555d921483841143880d0cb03f8d3714e666ee859082b9", "1.007002--pl5321hdfd78af_4": "sha256:f61797093debaceca5a8f356ae0fd3065f247d943d7c154ac5db829615d8267f"}, "docker": "quay.io/biocontainers/perl-bioperl-core", "aliases": {"bp_aacomp": "/usr/local/bin/bp_aacomp", "bp_bioflat_index": "/usr/local/bin/bp_bioflat_index", "bp_biogetseq": "/usr/local/bin/bp_biogetseq", "bp_dbsplit": "/usr/local/bin/bp_dbsplit", "bp_extract_feature_seq": "/usr/local/bin/bp_extract_feature_seq", "bp_fastam9_to_table": "/usr/local/bin/bp_fastam9_to_table", "bp_fetch": "/usr/local/bin/bp_fetch", "bp_filter_search": "/usr/local/bin/bp_filter_search", "bp_find-blast-matches": "/usr/local/bin/bp_find-blast-matches", "bp_gccalc": "/usr/local/bin/bp_gccalc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bioperl-core.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/perl-bioperl-core
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bioperl-core:1.7.8--pl5321hdfd78af_1
+$ shpc install quay.io/biocontainers/perl-bioperl-core:1.007002--pl5321hdfd78af_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bioperl-core/1.7.8--pl5321hdfd78af_1
-$ module help quay.io/biocontainers/perl-bioperl-core/1.7.8--pl5321hdfd78af_1
+$ module load quay.io/biocontainers/perl-bioperl-core/1.007002--pl5321hdfd78af_4
+$ module help quay.io/biocontainers/perl-bioperl-core/1.007002--pl5321hdfd78af_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

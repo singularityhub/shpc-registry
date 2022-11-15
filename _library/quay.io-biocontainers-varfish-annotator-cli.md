@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/varfish-annotator-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/varfish-annotator-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/varfish-annotator-cli/container.yaml"
-updated_at: "2022-11-14 00:17:08.188559"
-latest: "0.9--0"
+updated_at: "2022-11-15 00:13:43.618064"
+latest: "0.27--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/varfish-annotator-cli"
 aliases:
  - "varfish-annotator"
@@ -21,8 +21,13 @@ aliases:
  - "rmic"
 versions:
  - "0.9--0"
+ - "0.27--hdfd78af_0"
+ - "0.26--hdfd78af_0"
+ - "0.25--hdfd78af_0"
+ - "0.24--hdfd78af_0"
+ - "0.23--hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for varfish-annotator-cli"
-config: {"url": "https://biocontainers.pro/tools/varfish-annotator-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varfish-annotator-cli", "latest": {"0.9--0": "sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467"}, "tags": {"0.9--0": "sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467"}, "docker": "quay.io/biocontainers/varfish-annotator-cli", "aliases": {"varfish-annotator": "/usr/local/bin/varfish-annotator", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
+config: {"url": "https://biocontainers.pro/tools/varfish-annotator-cli", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for varfish-annotator-cli", "latest": {"0.27--hdfd78af_0": "sha256:778d85820cba2fd4a336e9208d066d66fbe9dbce3286c3e5dd12ee39d695c8eb"}, "tags": {"0.9--0": "sha256:657a6c41bb9517c1fd606579e2dc091a92bd9a0f2c3891d34343de93e2b66467", "0.27--hdfd78af_0": "sha256:778d85820cba2fd4a336e9208d066d66fbe9dbce3286c3e5dd12ee39d695c8eb", "0.26--hdfd78af_0": "sha256:65632fd7e18b0ba98e72398a98b52ecf75526d55faf0640e9f7cc3defaa0ba84", "0.25--hdfd78af_0": "sha256:dd1f080ad7e0b47aa5066455c641ffdb1771358b224423424b8ea35036c6eb06", "0.24--hdfd78af_0": "sha256:976bb0526cd980955c7a740f8941181eaaa2428bbc939c7a6fef91b883e8fbcd", "0.23--hdfd78af_0": "sha256:966cb74572c4451da66e4d499121f0cc4de0a6c554d7d2a06d38fa4b8e4520c3"}, "docker": "quay.io/biocontainers/varfish-annotator-cli", "aliases": {"varfish-annotator": "/usr/local/bin/varfish-annotator", "jaotc": "/usr/local/bin/jaotc", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs", "pack200": "/usr/local/bin/pack200", "rmic": "/usr/local/bin/rmic"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/varfish-annotator-cli.
@@ -37,7 +42,7 @@ $ shpc install quay.io/biocontainers/varfish-annotator-cli
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/varfish-annotator-cli:0.9--0
+$ shpc install quay.io/biocontainers/varfish-annotator-cli:0.27--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/varfish-annotator-cli/0.9--0
-$ module help quay.io/biocontainers/varfish-annotator-cli/0.9--0
+$ module load quay.io/biocontainers/varfish-annotator-cli/0.27--hdfd78af_0
+$ module help quay.io/biocontainers/varfish-annotator-cli/0.27--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

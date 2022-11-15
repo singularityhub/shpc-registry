@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rdp_classifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdp_classifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdp_classifier/container.yaml"
-updated_at: "2022-11-14 00:57:20.381623"
-latest: "2.2--2"
+updated_at: "2022-11-15 01:07:17.149514"
+latest: "2.13--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rdp_classifier"
 aliases:
  - "rdp_classifier"
@@ -21,8 +21,9 @@ aliases:
  - "jlink"
 versions:
  - "2.2--2"
+ - "2.13--hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for rdp_classifier"
-config: {"url": "https://biocontainers.pro/tools/rdp_classifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp_classifier", "latest": {"2.2--2": "sha256:94625e4e71c4c0534448ae393825f59c0b33c06555442cad9e226d956033c0d2"}, "tags": {"2.2--2": "sha256:94625e4e71c4c0534448ae393825f59c0b33c06555442cad9e226d956033c0d2"}, "docker": "quay.io/biocontainers/rdp_classifier", "aliases": {"rdp_classifier": "/usr/local/bin/rdp_classifier", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
+config: {"url": "https://biocontainers.pro/tools/rdp_classifier", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rdp_classifier", "latest": {"2.13--hdfd78af_1": "sha256:b4551f4a8409b37af7108c7ffc713bcbf734725bb2aa72433f7497a0d5d9d609"}, "tags": {"2.2--2": "sha256:94625e4e71c4c0534448ae393825f59c0b33c06555442cad9e226d956033c0d2", "2.13--hdfd78af_1": "sha256:b4551f4a8409b37af7108c7ffc713bcbf734725bb2aa72433f7497a0d5d9d609"}, "docker": "quay.io/biocontainers/rdp_classifier", "aliases": {"rdp_classifier": "/usr/local/bin/rdp_classifier", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "gifecho": "/usr/local/bin/gifecho", "gifinto": "/usr/local/bin/gifinto", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rdp_classifier.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/rdp_classifier
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rdp_classifier:2.2--2
+$ shpc install quay.io/biocontainers/rdp_classifier:2.13--hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rdp_classifier/2.2--2
-$ module help quay.io/biocontainers/rdp_classifier/2.2--2
+$ module load quay.io/biocontainers/rdp_classifier/2.13--hdfd78af_1
+$ module help quay.io/biocontainers/rdp_classifier/2.13--hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

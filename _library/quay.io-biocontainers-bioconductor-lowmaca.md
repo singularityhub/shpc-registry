@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-lowmaca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lowmaca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lowmaca/container.yaml"
-updated_at: "2022-11-14 00:59:03.584172"
-latest: "1.24.0--r41hdfd78af_0"
+updated_at: "2022-11-15 01:09:36.691149"
+latest: "1.28.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lowmaca"
 aliases:
  - ".bioconductor-lowmacaannotation-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "clustalo"
 versions:
  - "1.24.0--r41hdfd78af_0"
+ - "1.28.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lowmaca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lowmaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lowmaca", "latest": {"1.24.0--r41hdfd78af_0": "sha256:a69f079b23fa0fa63775c6f4c9d9cb2ff8637c0394d2919d22f9e9853d2a69e2"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:a69f079b23fa0fa63775c6f4c9d9cb2ff8637c0394d2919d22f9e9853d2a69e2"}, "docker": "quay.io/biocontainers/bioconductor-lowmaca", "aliases": {".bioconductor-lowmacaannotation-post-link.sh": "/usr/local/bin/.bioconductor-lowmacaannotation-post-link.sh", ".bioconductor-lowmacaannotation-pre-unlink.sh": "/usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh", "clustalo": "/usr/local/bin/clustalo"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lowmaca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lowmaca", "latest": {"1.28.0--r42hdfd78af_0": "sha256:ce4b7ebe4db24362313468bdedaedc3a51c4c5252454ff3e522bcef16cccbb40"}, "tags": {"1.24.0--r41hdfd78af_0": "sha256:a69f079b23fa0fa63775c6f4c9d9cb2ff8637c0394d2919d22f9e9853d2a69e2", "1.28.0--r42hdfd78af_0": "sha256:ce4b7ebe4db24362313468bdedaedc3a51c4c5252454ff3e522bcef16cccbb40"}, "docker": "quay.io/biocontainers/bioconductor-lowmaca", "aliases": {".bioconductor-lowmacaannotation-post-link.sh": "/usr/local/bin/.bioconductor-lowmacaannotation-post-link.sh", ".bioconductor-lowmacaannotation-pre-unlink.sh": "/usr/local/bin/.bioconductor-lowmacaannotation-pre-unlink.sh", "clustalo": "/usr/local/bin/clustalo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lowmaca.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lowmaca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lowmaca:1.24.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lowmaca:1.28.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lowmaca/1.24.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lowmaca/1.24.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lowmaca/1.28.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lowmaca/1.28.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

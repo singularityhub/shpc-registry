@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gostag"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gostag/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gostag/container.yaml"
-updated_at: "2022-11-14 00:14:04.391494"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-15 00:09:37.232714"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gostag"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.2--r40hdfd78af_0"
+ - "1.13.1--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gostag"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gostag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gostag", "latest": {"1.8.0--r36_1": "sha256:780cbb8658a82aec4dee5b0ae8e24f637edb8bd64a577f47dea7ce9e23a606be"}, "tags": {"1.8.0--r36_1": "sha256:780cbb8658a82aec4dee5b0ae8e24f637edb8bd64a577f47dea7ce9e23a606be"}, "docker": "quay.io/biocontainers/bioconductor-gostag", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gostag", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gostag", "latest": {"1.22.0--r42hdfd78af_0": "sha256:1a609bd13f973dad82908068722f53b3cf91d70018596a39933a842c73166ce8"}, "tags": {"1.8.0--r36_1": "sha256:780cbb8658a82aec4dee5b0ae8e24f637edb8bd64a577f47dea7ce9e23a606be", "1.22.0--r42hdfd78af_0": "sha256:1a609bd13f973dad82908068722f53b3cf91d70018596a39933a842c73166ce8", "1.18.0--r41hdfd78af_0": "sha256:ffd8b3f4efce76eda799fad6ba142d447e78a69c22fc1f2af5f63bf54bddd899", "1.16.0--r41hdfd78af_0": "sha256:96c0004540de9d8ac0d5fbba487b965a5e3b252ea07f3841adb9ce30db3e27d5", "1.14.2--r40hdfd78af_0": "sha256:33748f2a69506ca01532887307498f9b77d40150a4e95e3bc55c7066defe684c", "1.13.1--r40_0": "sha256:77db10afc518e67414952a307752956f8891d3c8e286c79ec3e4d8162e84a42a"}, "docker": "quay.io/biocontainers/bioconductor-gostag", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gostag.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gostag
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gostag:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-gostag:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gostag/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-gostag/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-gostag/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gostag/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

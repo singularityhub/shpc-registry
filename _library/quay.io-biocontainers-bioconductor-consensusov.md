@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-consensusov"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-consensusov/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-consensusov/container.yaml"
-updated_at: "2022-11-14 00:02:18.140581"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-14 23:53:25.922920"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-consensusov"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.20.0--r42hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-consensusov"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusov", "latest": {"1.8.0--r36_0": "sha256:37992854edec3208eb0b3657fa5d60225765733109ec80d27d34af66bfbe4267"}, "tags": {"1.8.0--r36_0": "sha256:37992854edec3208eb0b3657fa5d60225765733109ec80d27d34af66bfbe4267"}, "docker": "quay.io/biocontainers/bioconductor-consensusov", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-consensusov", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-consensusov", "latest": {"1.20.0--r42hdfd78af_0": "sha256:901a1102098445e1ed62e79670048451f2dc07aa06f1fe79746fbc36aa265874"}, "tags": {"1.8.0--r36_0": "sha256:37992854edec3208eb0b3657fa5d60225765733109ec80d27d34af66bfbe4267", "1.20.0--r42hdfd78af_0": "sha256:901a1102098445e1ed62e79670048451f2dc07aa06f1fe79746fbc36aa265874", "1.16.0--r41hdfd78af_0": "sha256:28c846dcf25520ed7bc76118b8d57c9bb94a4bb88c3c850e90d25e1f5114cab0", "1.14.0--r41hdfd78af_0": "sha256:b9fd86cce123c54e64f0ab5edb473e372b2c108460eb3bf453e388f2b36893ae", "1.12.0--r40hdfd78af_1": "sha256:104d54babcc3efca2e770528d8ec957a210867195c89cb94cb69ba3433558b30", "1.10.0--r40_0": "sha256:410876cba281e8ae2ef7c245db8a045dbb004ddb99048c6425d730407c7acb38"}, "docker": "quay.io/biocontainers/bioconductor-consensusov", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-consensusov.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-consensusov
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-consensusov:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-consensusov:1.20.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-consensusov/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-consensusov/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-consensusov/1.20.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-consensusov/1.20.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

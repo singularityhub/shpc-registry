@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-grbase"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-grbase/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-grbase/container.yaml"
-updated_at: "2022-11-14 00:32:25.890896"
-latest: "1.8_6.7--r41h930fe3c_2"
+updated_at: "2022-11-15 00:34:02.699775"
+latest: "1.8.9--r42h25def4e_1"
 container_url: "https://biocontainers.pro/tools/r-grbase"
 
 versions:
  - "1.8_6.7--r41h930fe3c_2"
+ - "1.8.9--r42h25def4e_1"
 description: "shpc-registry automated BioContainers addition for r-grbase"
-config: {"url": "https://biocontainers.pro/tools/r-grbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-grbase", "latest": {"1.8_6.7--r41h930fe3c_2": "sha256:51bc8563430fac095fc0474d55215cb4fd74746f06eb80d9dae7685caf799531"}, "tags": {"1.8_6.7--r41h930fe3c_2": "sha256:51bc8563430fac095fc0474d55215cb4fd74746f06eb80d9dae7685caf799531"}, "docker": "quay.io/biocontainers/r-grbase"}
+config: {"url": "https://biocontainers.pro/tools/r-grbase", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-grbase", "latest": {"1.8.9--r42h25def4e_1": "sha256:763efd94c13300ce9eadff8c4dbe5ca6822fbf6c8c8518ee0eedc2263f62e3e5"}, "tags": {"1.8_6.7--r41h930fe3c_2": "sha256:51bc8563430fac095fc0474d55215cb4fd74746f06eb80d9dae7685caf799531", "1.8.9--r42h25def4e_1": "sha256:763efd94c13300ce9eadff8c4dbe5ca6822fbf6c8c8518ee0eedc2263f62e3e5"}, "docker": "quay.io/biocontainers/r-grbase"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-grbase.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-grbase
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-grbase:1.8_6.7--r41h930fe3c_2
+$ shpc install quay.io/biocontainers/r-grbase:1.8.9--r42h25def4e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-grbase/1.8_6.7--r41h930fe3c_2
-$ module help quay.io/biocontainers/r-grbase/1.8_6.7--r41h930fe3c_2
+$ module load quay.io/biocontainers/r-grbase/1.8.9--r42h25def4e_1
+$ module help quay.io/biocontainers/r-grbase/1.8.9--r42h25def4e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

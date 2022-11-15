@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-diffcorr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-diffcorr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-diffcorr/container.yaml"
-updated_at: "2022-11-14 00:31:22.983955"
-latest: "0.4.2--r41h3342da4_0"
+updated_at: "2022-11-15 00:32:39.151859"
+latest: "0.4.2--r42h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-diffcorr"
 
 versions:
  - "0.4.2--r41h3342da4_0"
+ - "0.4.2--r42h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-diffcorr"
-config: {"url": "https://biocontainers.pro/tools/r-diffcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-diffcorr", "latest": {"0.4.2--r41h3342da4_0": "sha256:6be201058cf0c4526b7b67d5798253110dbbfcac1867a41fb88274d65654248f"}, "tags": {"0.4.2--r41h3342da4_0": "sha256:6be201058cf0c4526b7b67d5798253110dbbfcac1867a41fb88274d65654248f"}, "docker": "quay.io/biocontainers/r-diffcorr"}
+config: {"url": "https://biocontainers.pro/tools/r-diffcorr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-diffcorr", "latest": {"0.4.2--r42h3342da4_1": "sha256:9f558f966ec4e3b952085edf049a91c32020b87b9d6f474a690081fa0f0ac6d7"}, "tags": {"0.4.2--r41h3342da4_0": "sha256:6be201058cf0c4526b7b67d5798253110dbbfcac1867a41fb88274d65654248f", "0.4.2--r42h3342da4_1": "sha256:9f558f966ec4e3b952085edf049a91c32020b87b9d6f474a690081fa0f0ac6d7"}, "docker": "quay.io/biocontainers/r-diffcorr"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-diffcorr.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-diffcorr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-diffcorr:0.4.2--r41h3342da4_0
+$ shpc install quay.io/biocontainers/r-diffcorr:0.4.2--r42h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-diffcorr/0.4.2--r41h3342da4_0
-$ module help quay.io/biocontainers/r-diffcorr/0.4.2--r41h3342da4_0
+$ module load quay.io/biocontainers/r-diffcorr/0.4.2--r42h3342da4_1
+$ module help quay.io/biocontainers/r-diffcorr/0.4.2--r42h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

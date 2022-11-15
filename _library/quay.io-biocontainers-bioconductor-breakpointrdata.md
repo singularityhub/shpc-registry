@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-breakpointrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-breakpointrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-breakpointrdata/container.yaml"
-updated_at: "2022-11-14 00:31:43.229067"
+updated_at: "2022-11-15 00:33:06.139997"
 latest: "1.8.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-breakpointrdata"
 aliases:

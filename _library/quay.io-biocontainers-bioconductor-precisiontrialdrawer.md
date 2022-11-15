@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-precisiontrialdrawer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-precisiontrialdrawer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-precisiontrialdrawer/container.yaml"
-updated_at: "2022-11-14 00:08:57.417629"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-15 00:02:34.329538"
+latest: "1.10.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-precisiontrialdrawer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-precisiontrialdrawer", "latest": {"1.8.0--r41hdfd78af_0": "sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6"}, "docker": "quay.io/biocontainers/bioconductor-precisiontrialdrawer", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-precisiontrialdrawer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-precisiontrialdrawer", "latest": {"1.10.0--r41hdfd78af_0": "sha256:a4787e0a1be8ebd944ffb23fb0f21f55378348a4331bedfea14f83d8e0444ebc"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:71d834f75af92098f563e03a791b214a7cad3f4311cc8e258bafcfa5f48961b6", "1.10.0--r41hdfd78af_0": "sha256:a4787e0a1be8ebd944ffb23fb0f21f55378348a4331bedfea14f83d8e0444ebc"}, "docker": "quay.io/biocontainers/bioconductor-precisiontrialdrawer", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-precisiontrialdrawer.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-precisiontrialdrawer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-precisiontrialdrawer:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-precisiontrialdrawer:1.10.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-precisiontrialdrawer/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-precisiontrialdrawer/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-precisiontrialdrawer/1.10.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-precisiontrialdrawer/1.10.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

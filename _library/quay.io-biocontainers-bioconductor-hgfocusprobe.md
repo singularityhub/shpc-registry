@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hgfocusprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hgfocusprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hgfocusprobe/container.yaml"
-updated_at: "2022-11-14 00:07:39.421283"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-15 00:00:46.559799"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hgfocusprobe"
 aliases:
  - ".bioconductor-hgfocusprobe-post-link.sh"
  - ".bioconductor-hgfocusprobe-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hgfocusprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hgfocusprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgfocusprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:28ead63e2526d2e6bffef6d956db470c4573ca96efcd4125f4061ce7e5b4ae38"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:28ead63e2526d2e6bffef6d956db470c4573ca96efcd4125f4061ce7e5b4ae38"}, "docker": "quay.io/biocontainers/bioconductor-hgfocusprobe", "aliases": {".bioconductor-hgfocusprobe-post-link.sh": "/usr/local/bin/.bioconductor-hgfocusprobe-post-link.sh", ".bioconductor-hgfocusprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgfocusprobe-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hgfocusprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hgfocusprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:e813c52395ba24ad7ad0583dc8a5c4425ea1f6f3f87a591f95e871d771e9de24"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:28ead63e2526d2e6bffef6d956db470c4573ca96efcd4125f4061ce7e5b4ae38", "2.18.0--r42hdfd78af_10": "sha256:e813c52395ba24ad7ad0583dc8a5c4425ea1f6f3f87a591f95e871d771e9de24"}, "docker": "quay.io/biocontainers/bioconductor-hgfocusprobe", "aliases": {".bioconductor-hgfocusprobe-post-link.sh": "/usr/local/bin/.bioconductor-hgfocusprobe-post-link.sh", ".bioconductor-hgfocusprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-hgfocusprobe-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hgfocusprobe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hgfocusprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hgfocusprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-hgfocusprobe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hgfocusprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-hgfocusprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-hgfocusprobe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-hgfocusprobe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

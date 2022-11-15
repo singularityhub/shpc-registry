@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-muscle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-muscle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-muscle/container.yaml"
-updated_at: "2022-11-14 00:53:08.158468"
-latest: "3.36.0--r41hc247a5b_2"
+updated_at: "2022-11-15 01:01:42.975142"
+latest: "3.40.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-muscle"
 
 versions:
  - "3.36.0--r41hc247a5b_2"
+ - "3.40.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-muscle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-muscle", "latest": {"3.36.0--r41hc247a5b_2": "sha256:1904411d39d7c00dbf18cef33c82180ce03eec476ea7b87e2e34c220e81bdf57"}, "tags": {"3.36.0--r41hc247a5b_2": "sha256:1904411d39d7c00dbf18cef33c82180ce03eec476ea7b87e2e34c220e81bdf57"}, "docker": "quay.io/biocontainers/bioconductor-muscle"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-muscle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-muscle", "latest": {"3.40.0--r42hc247a5b_0": "sha256:1e65564055c026d4dceec663ac41c92b82d99aa7c767a4cdbe98186fce247746"}, "tags": {"3.36.0--r41hc247a5b_2": "sha256:1904411d39d7c00dbf18cef33c82180ce03eec476ea7b87e2e34c220e81bdf57", "3.40.0--r42hc247a5b_0": "sha256:1e65564055c026d4dceec663ac41c92b82d99aa7c767a4cdbe98186fce247746"}, "docker": "quay.io/biocontainers/bioconductor-muscle"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-muscle.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-muscle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-muscle:3.36.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-muscle:3.40.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-muscle/3.36.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-muscle/3.36.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-muscle/3.40.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-muscle/3.40.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

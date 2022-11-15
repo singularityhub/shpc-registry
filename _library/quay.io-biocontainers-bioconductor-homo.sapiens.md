@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-homo.sapiens"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-homo.sapiens/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-homo.sapiens/container.yaml"
-updated_at: "2022-11-14 00:49:44.432303"
-latest: "1.3.1--r40_9"
+updated_at: "2022-11-15 00:57:06.691946"
+latest: "1.3.1--r42hdfd78af_14"
 container_url: "https://biocontainers.pro/tools/bioconductor-homo.sapiens"
 aliases:
  - ".bioconductor-homo.sapiens-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.3.1--r40_9"
+ - "1.3.1--r42hdfd78af_14"
 description: "shpc-registry automated BioContainers addition for bioconductor-homo.sapiens"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-homo.sapiens", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-homo.sapiens", "latest": {"1.3.1--r40_9": "sha256:d36836f2b62d6d3740d1312cd44d338b4e12f101bf9582d73aae5b2e2848f709"}, "tags": {"1.3.1--r40_9": "sha256:d36836f2b62d6d3740d1312cd44d338b4e12f101bf9582d73aae5b2e2848f709"}, "docker": "quay.io/biocontainers/bioconductor-homo.sapiens", "aliases": {".bioconductor-homo.sapiens-post-link.sh": "/usr/local/bin/.bioconductor-homo.sapiens-post-link.sh", ".bioconductor-homo.sapiens-pre-unlink.sh": "/usr/local/bin/.bioconductor-homo.sapiens-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-homo.sapiens", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-homo.sapiens", "latest": {"1.3.1--r42hdfd78af_14": "sha256:6af85da35480f22cf69fbdf723ad8ccf7a0d48124d4fce35d5da03da2f5a4d44"}, "tags": {"1.3.1--r40_9": "sha256:d36836f2b62d6d3740d1312cd44d338b4e12f101bf9582d73aae5b2e2848f709", "1.3.1--r42hdfd78af_14": "sha256:6af85da35480f22cf69fbdf723ad8ccf7a0d48124d4fce35d5da03da2f5a4d44"}, "docker": "quay.io/biocontainers/bioconductor-homo.sapiens", "aliases": {".bioconductor-homo.sapiens-post-link.sh": "/usr/local/bin/.bioconductor-homo.sapiens-post-link.sh", ".bioconductor-homo.sapiens-pre-unlink.sh": "/usr/local/bin/.bioconductor-homo.sapiens-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-homo.sapiens.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-homo.sapiens
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-homo.sapiens:1.3.1--r40_9
+$ shpc install quay.io/biocontainers/bioconductor-homo.sapiens:1.3.1--r42hdfd78af_14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-homo.sapiens/1.3.1--r40_9
-$ module help quay.io/biocontainers/bioconductor-homo.sapiens/1.3.1--r40_9
+$ module load quay.io/biocontainers/bioconductor-homo.sapiens/1.3.1--r42hdfd78af_14
+$ module help quay.io/biocontainers/bioconductor-homo.sapiens/1.3.1--r42hdfd78af_14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

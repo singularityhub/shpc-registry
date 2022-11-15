@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rust-overlaps"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rust-overlaps/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rust-overlaps/container.yaml"
-updated_at: "2022-11-14 00:32:08.898089"
+updated_at: "2022-11-15 00:33:40.189149"
 latest: "0.1.1--h7132678_7"
 container_url: "https://biocontainers.pro/tools/rust-overlaps"
 aliases:

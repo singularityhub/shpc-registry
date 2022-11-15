@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-shazam"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-shazam/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-shazam/container.yaml"
-updated_at: "2022-11-14 00:12:06.625911"
-latest: "1.1.2--r41h3121a25_0"
+updated_at: "2022-11-15 00:06:55.564970"
+latest: "1.1.2--r42h3121a25_1"
 container_url: "https://biocontainers.pro/tools/r-shazam"
 aliases:
  - "glpsol"
 versions:
  - "1.1.2--r41h3121a25_0"
+ - "1.1.2--r42h3121a25_1"
 description: "shpc-registry automated BioContainers addition for r-shazam"
-config: {"url": "https://biocontainers.pro/tools/r-shazam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shazam", "latest": {"1.1.2--r41h3121a25_0": "sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb"}, "tags": {"1.1.2--r41h3121a25_0": "sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb"}, "docker": "quay.io/biocontainers/r-shazam", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-shazam", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-shazam", "latest": {"1.1.2--r42h3121a25_1": "sha256:30e3d7fd8ec1dc542c78cb139bf898c0923c4a95956f68fe8d0cab89476bb5f0"}, "tags": {"1.1.2--r41h3121a25_0": "sha256:8822a48ac9637ee1851b7ab768ab47493f53f1934e2e7964c766258323619beb", "1.1.2--r42h3121a25_1": "sha256:30e3d7fd8ec1dc542c78cb139bf898c0923c4a95956f68fe8d0cab89476bb5f0"}, "docker": "quay.io/biocontainers/r-shazam", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-shazam.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-shazam
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-shazam:1.1.2--r41h3121a25_0
+$ shpc install quay.io/biocontainers/r-shazam:1.1.2--r42h3121a25_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-shazam/1.1.2--r41h3121a25_0
-$ module help quay.io/biocontainers/r-shazam/1.1.2--r41h3121a25_0
+$ module load quay.io/biocontainers/r-shazam/1.1.2--r42h3121a25_1
+$ module help quay.io/biocontainers/r-shazam/1.1.2--r42h3121a25_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

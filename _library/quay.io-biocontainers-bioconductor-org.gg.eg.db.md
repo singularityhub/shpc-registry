@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-org.gg.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-org.gg.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-org.gg.eg.db/container.yaml"
-updated_at: "2022-11-14 00:07:55.532576"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-15 00:01:08.791629"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-org.gg.eg.db"
 aliases:
  - ".bioconductor-org.gg.eg.db-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.16.0--r42hdfd78af_0"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.11.1--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-org.gg.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-org.gg.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.gg.eg.db", "latest": {"3.8.2--r36_1": "sha256:f13ddebb0c58a67c8d7bbed05c5b464c0e397530e728639f43f0bf96503f7849"}, "tags": {"3.8.2--r36_1": "sha256:f13ddebb0c58a67c8d7bbed05c5b464c0e397530e728639f43f0bf96503f7849"}, "docker": "quay.io/biocontainers/bioconductor-org.gg.eg.db", "aliases": {".bioconductor-org.gg.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-org.gg.eg.db-post-link.sh", ".bioconductor-org.gg.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-org.gg.eg.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-org.gg.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-org.gg.eg.db", "latest": {"3.16.0--r42hdfd78af_0": "sha256:aedf14c2dcea2c1e4d867ebe16e2f64097e7c83dcf647159820c1c73ffcb6e2f"}, "tags": {"3.8.2--r36_1": "sha256:f13ddebb0c58a67c8d7bbed05c5b464c0e397530e728639f43f0bf96503f7849", "3.16.0--r42hdfd78af_0": "sha256:aedf14c2dcea2c1e4d867ebe16e2f64097e7c83dcf647159820c1c73ffcb6e2f", "3.14.0--r41hdfd78af_1": "sha256:7f5a7bbad66bc2b77b3d63779799a7e2c9b2e521bc630410a013e09a7c1024d3", "3.13.0--r41hdfd78af_0": "sha256:e9e90d225c4b4598f097af8fb8f09bdcce9dd42f2afcdd2d706e367f9ee83df5", "3.12.0--r40hdfd78af_1": "sha256:5cb8bc76954ae22b1de12f5b12993673d2cf3ca17ff4744a3c8247d3d9de9347", "3.11.1--r40_0": "sha256:0c0df72cc626d1f6a56a89cb11086efaddead03dec05f3e728b0cf9b0c8bc907"}, "docker": "quay.io/biocontainers/bioconductor-org.gg.eg.db", "aliases": {".bioconductor-org.gg.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-org.gg.eg.db-post-link.sh", ".bioconductor-org.gg.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-org.gg.eg.db-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-org.gg.eg.db.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-org.gg.eg.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-org.gg.eg.db:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-org.gg.eg.db:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-org.gg.eg.db/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-org.gg.eg.db/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-org.gg.eg.db/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-org.gg.eg.db/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

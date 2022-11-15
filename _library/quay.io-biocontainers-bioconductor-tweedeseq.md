@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-tweedeseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tweedeseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tweedeseq/container.yaml"
-updated_at: "2022-11-14 00:52:14.880260"
-latest: "1.40.0--r41hc0cfd56_2"
+updated_at: "2022-11-15 01:00:30.586641"
+latest: "1.44.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tweedeseq"
 
 versions:
  - "1.40.0--r41hc0cfd56_2"
+ - "1.44.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tweedeseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tweedeseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tweedeseq", "latest": {"1.40.0--r41hc0cfd56_2": "sha256:9aa59a4cdef737f593ece0e64dda88b085be1fc76c3a044e07bbb813e33b09ac"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:9aa59a4cdef737f593ece0e64dda88b085be1fc76c3a044e07bbb813e33b09ac"}, "docker": "quay.io/biocontainers/bioconductor-tweedeseq"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tweedeseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tweedeseq", "latest": {"1.44.0--r42hc0cfd56_0": "sha256:916c91388562e6f6b8d6affc01e1f1723d53640a7b0a17d879b5e971a54cbefc"}, "tags": {"1.40.0--r41hc0cfd56_2": "sha256:9aa59a4cdef737f593ece0e64dda88b085be1fc76c3a044e07bbb813e33b09ac", "1.44.0--r42hc0cfd56_0": "sha256:916c91388562e6f6b8d6affc01e1f1723d53640a7b0a17d879b5e971a54cbefc"}, "docker": "quay.io/biocontainers/bioconductor-tweedeseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tweedeseq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tweedeseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tweedeseq:1.40.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-tweedeseq:1.44.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tweedeseq/1.40.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-tweedeseq/1.40.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-tweedeseq/1.44.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-tweedeseq/1.44.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

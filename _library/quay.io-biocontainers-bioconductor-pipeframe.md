@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-pipeframe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pipeframe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pipeframe/container.yaml"
-updated_at: "2022-11-14 00:02:22.275459"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-14 23:53:31.586379"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pipeframe"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pipeframe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pipeframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pipeframe", "latest": {"1.8.0--r41hdfd78af_0": "sha256:a4f15c26b109902bce1611a1d1c2a5a2bc0c837f45532123fdd42cc8890910e2"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:a4f15c26b109902bce1611a1d1c2a5a2bc0c837f45532123fdd42cc8890910e2"}, "docker": "quay.io/biocontainers/bioconductor-pipeframe", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pipeframe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pipeframe", "latest": {"1.14.0--r42hdfd78af_0": "sha256:6f41636d0900719215e5622392e2fda7fb29e5d11390d75e58972e52653ca7f6"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:a4f15c26b109902bce1611a1d1c2a5a2bc0c837f45532123fdd42cc8890910e2", "1.14.0--r42hdfd78af_0": "sha256:6f41636d0900719215e5622392e2fda7fb29e5d11390d75e58972e52653ca7f6", "1.10.0--r41hdfd78af_0": "sha256:5cc2455dc1cf3299eb655ac3e3247aa414ab40dc9119b9d3222fd8f8be068184"}, "docker": "quay.io/biocontainers/bioconductor-pipeframe", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pipeframe.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pipeframe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pipeframe:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pipeframe:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pipeframe/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pipeframe/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pipeframe/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pipeframe/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

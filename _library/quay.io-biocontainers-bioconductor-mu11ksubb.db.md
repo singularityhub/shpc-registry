@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mu11ksubb.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mu11ksubb.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mu11ksubb.db/container.yaml"
-updated_at: "2022-11-14 00:29:08.409237"
-latest: "3.2.3--r41hdfd78af_7"
+updated_at: "2022-11-15 00:29:38.359610"
+latest: "3.13.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-mu11ksubb.db"
 aliases:
  - ".bioconductor-mu11ksubb.db-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "3.2.3--r41hdfd78af_7"
+ - "3.13.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-mu11ksubb.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mu11ksubb.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mu11ksubb.db", "latest": {"3.2.3--r41hdfd78af_7": "sha256:f9baa109ee4cc23fe5a21a1ba62db95ece9b0ca5ede1e62bb2d5f8fb4eeeb924"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:f9baa109ee4cc23fe5a21a1ba62db95ece9b0ca5ede1e62bb2d5f8fb4eeeb924"}, "docker": "quay.io/biocontainers/bioconductor-mu11ksubb.db", "aliases": {".bioconductor-mu11ksubb.db-post-link.sh": "/usr/local/bin/.bioconductor-mu11ksubb.db-post-link.sh", ".bioconductor-mu11ksubb.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mu11ksubb.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mu11ksubb.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mu11ksubb.db", "latest": {"3.13.0--r42hdfd78af_2": "sha256:263705653178ac2484aa95a64056d3867e830be633a94d2be701701c4bf67265"}, "tags": {"3.2.3--r41hdfd78af_7": "sha256:f9baa109ee4cc23fe5a21a1ba62db95ece9b0ca5ede1e62bb2d5f8fb4eeeb924", "3.13.0--r42hdfd78af_2": "sha256:263705653178ac2484aa95a64056d3867e830be633a94d2be701701c4bf67265"}, "docker": "quay.io/biocontainers/bioconductor-mu11ksubb.db", "aliases": {".bioconductor-mu11ksubb.db-post-link.sh": "/usr/local/bin/.bioconductor-mu11ksubb.db-post-link.sh", ".bioconductor-mu11ksubb.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mu11ksubb.db-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mu11ksubb.db.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mu11ksubb.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mu11ksubb.db:3.2.3--r41hdfd78af_7
+$ shpc install quay.io/biocontainers/bioconductor-mu11ksubb.db:3.13.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mu11ksubb.db/3.2.3--r41hdfd78af_7
-$ module help quay.io/biocontainers/bioconductor-mu11ksubb.db/3.2.3--r41hdfd78af_7
+$ module load quay.io/biocontainers/bioconductor-mu11ksubb.db/3.13.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-mu11ksubb.db/3.13.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-genomictools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-genomictools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-genomictools/container.yaml"
-updated_at: "2022-11-14 00:53:52.813746"
-latest: "0.2.9.7--r41hecf12ef_3"
+updated_at: "2022-11-15 01:02:42.525325"
+latest: "0.2.9.7--r42hecf12ef_4"
 container_url: "https://biocontainers.pro/tools/r-genomictools"
 
 versions:
  - "0.2.9.7--r41hecf12ef_3"
+ - "0.2.9.7--r42hecf12ef_4"
 description: "shpc-registry automated BioContainers addition for r-genomictools"
-config: {"url": "https://biocontainers.pro/tools/r-genomictools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genomictools", "latest": {"0.2.9.7--r41hecf12ef_3": "sha256:ba6ebb2ba3850901156dc063def734a0c598ff9ee7ebd95e2b1a65568b9274a1"}, "tags": {"0.2.9.7--r41hecf12ef_3": "sha256:ba6ebb2ba3850901156dc063def734a0c598ff9ee7ebd95e2b1a65568b9274a1"}, "docker": "quay.io/biocontainers/r-genomictools"}
+config: {"url": "https://biocontainers.pro/tools/r-genomictools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-genomictools", "latest": {"0.2.9.7--r42hecf12ef_4": "sha256:32cfdb044774b7e10cc1b28259f6226b76bd8fe06aca7f223bf3e8c8449c2633"}, "tags": {"0.2.9.7--r41hecf12ef_3": "sha256:ba6ebb2ba3850901156dc063def734a0c598ff9ee7ebd95e2b1a65568b9274a1", "0.2.9.7--r42hecf12ef_4": "sha256:32cfdb044774b7e10cc1b28259f6226b76bd8fe06aca7f223bf3e8c8449c2633"}, "docker": "quay.io/biocontainers/r-genomictools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-genomictools.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-genomictools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-genomictools:0.2.9.7--r41hecf12ef_3
+$ shpc install quay.io/biocontainers/r-genomictools:0.2.9.7--r42hecf12ef_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-genomictools/0.2.9.7--r41hecf12ef_3
-$ module help quay.io/biocontainers/r-genomictools/0.2.9.7--r41hecf12ef_3
+$ module load quay.io/biocontainers/r-genomictools/0.2.9.7--r42hecf12ef_4
+$ module help quay.io/biocontainers/r-genomictools/0.2.9.7--r42hecf12ef_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-rprotobuflib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rprotobuflib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rprotobuflib/container.yaml"
-updated_at: "2022-11-14 00:53:51.962243"
-latest: "2.6.0--r41hc247a5b_2"
+updated_at: "2022-11-15 01:02:41.384035"
+latest: "2.10.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rprotobuflib"
 
 versions:
  - "2.6.0--r41hc247a5b_2"
+ - "2.10.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rprotobuflib"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rprotobuflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rprotobuflib", "latest": {"2.6.0--r41hc247a5b_2": "sha256:084c42539d35c7c11ddfb19a722748d933bb7f3a599f2ad30e17771d09379762"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:084c42539d35c7c11ddfb19a722748d933bb7f3a599f2ad30e17771d09379762"}, "docker": "quay.io/biocontainers/bioconductor-rprotobuflib"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rprotobuflib", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rprotobuflib", "latest": {"2.10.0--r42hc247a5b_0": "sha256:438593ee009dc1e1b821444f4576e4a56bac6755587b9b301a9c6d6ba91afd75"}, "tags": {"2.6.0--r41hc247a5b_2": "sha256:084c42539d35c7c11ddfb19a722748d933bb7f3a599f2ad30e17771d09379762", "2.10.0--r42hc247a5b_0": "sha256:438593ee009dc1e1b821444f4576e4a56bac6755587b9b301a9c6d6ba91afd75"}, "docker": "quay.io/biocontainers/bioconductor-rprotobuflib"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rprotobuflib.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rprotobuflib
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rprotobuflib:2.6.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-rprotobuflib:2.10.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rprotobuflib/2.6.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-rprotobuflib/2.6.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-rprotobuflib/2.10.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-rprotobuflib/2.10.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

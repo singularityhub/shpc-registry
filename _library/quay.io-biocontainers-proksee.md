@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/proksee"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/proksee/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/proksee/container.yaml"
-updated_at: "2022-11-14 00:32:22.485169"
-latest: "1.0.0a4--pyhdfd78af_0"
+updated_at: "2022-11-15 00:33:58.178835"
+latest: "1.0.0a5--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/proksee"
 aliases:
  - "icarus.py"
@@ -31,8 +31,9 @@ aliases:
  - "test.modules"
 versions:
  - "1.0.0a4--pyhdfd78af_0"
+ - "1.0.0a5--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for proksee"
-config: {"url": "https://biocontainers.pro/tools/proksee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proksee", "latest": {"1.0.0a4--pyhdfd78af_0": "sha256:fb811bb9bef452206126f7c68199a3c820064cae0d4a7b973da5f5c3500299ce"}, "tags": {"1.0.0a4--pyhdfd78af_0": "sha256:fb811bb9bef452206126f7c68199a3c820064cae0d4a7b973da5f5c3500299ce"}, "docker": "quay.io/biocontainers/proksee", "aliases": {"icarus.py": "/usr/local/bin/icarus.py", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "proksee": "/usr/local/bin/proksee", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "skesa": "/usr/local/bin/skesa", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "fastp": "/usr/local/bin/fastp", "gddiag": "/usr/local/bin/gddiag", "glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules"}}
+config: {"url": "https://biocontainers.pro/tools/proksee", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for proksee", "latest": {"1.0.0a5--pyhdfd78af_0": "sha256:5b48c4c8a99339f97a8c9795d82a3efd8902c8b6be660e1f5aa112ee87867fd5"}, "tags": {"1.0.0a4--pyhdfd78af_0": "sha256:fb811bb9bef452206126f7c68199a3c820064cae0d4a7b973da5f5c3500299ce", "1.0.0a5--pyhdfd78af_0": "sha256:5b48c4c8a99339f97a8c9795d82a3efd8902c8b6be660e1f5aa112ee87867fd5"}, "docker": "quay.io/biocontainers/proksee", "aliases": {"icarus.py": "/usr/local/bin/icarus.py", "metaquast": "/usr/local/bin/metaquast", "metaquast.py": "/usr/local/bin/metaquast.py", "proksee": "/usr/local/bin/proksee", "quast": "/usr/local/bin/quast", "quast-download-busco": "/usr/local/bin/quast-download-busco", "quast-download-gridss": "/usr/local/bin/quast-download-gridss", "quast-download-silva": "/usr/local/bin/quast-download-silva", "quast-lg.py": "/usr/local/bin/quast-lg.py", "quast.py": "/usr/local/bin/quast.py", "skesa": "/usr/local/bin/skesa", "circos": "/usr/local/bin/circos", "circos.exe": "/usr/local/bin/circos.exe", "compile.bat": "/usr/local/bin/compile.bat", "compile.make": "/usr/local/bin/compile.make", "fastp": "/usr/local/bin/fastp", "gddiag": "/usr/local/bin/gddiag", "glimmerhmm": "/usr/local/bin/glimmerhmm", "glimmhmm.pl": "/usr/local/bin/glimmhmm.pl", "list.modules": "/usr/local/bin/list.modules", "test.modules": "/usr/local/bin/test.modules"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/proksee.
@@ -47,7 +48,7 @@ $ shpc install quay.io/biocontainers/proksee
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/proksee:1.0.0a4--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/proksee:1.0.0a5--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -59,8 +60,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/proksee/1.0.0a4--pyhdfd78af_0
-$ module help quay.io/biocontainers/proksee/1.0.0a4--pyhdfd78af_0
+$ module load quay.io/biocontainers/proksee/1.0.0a5--pyhdfd78af_0
+$ module help quay.io/biocontainers/proksee/1.0.0a5--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

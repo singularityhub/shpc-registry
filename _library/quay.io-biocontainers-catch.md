@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/catch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/catch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/catch/container.yaml"
-updated_at: "2022-11-14 00:02:37.878318"
-latest: "1.5.0--pyhdfd78af_0"
+updated_at: "2022-11-14 23:53:53.041625"
+latest: "1.5.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/catch"
 aliases:
  - "analyze_probe_coverage.py"
@@ -22,8 +22,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.5.0--pyhdfd78af_0"
+ - "1.5.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for catch"
-config: {"url": "https://biocontainers.pro/tools/catch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for catch", "latest": {"1.5.0--pyhdfd78af_0": "sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8"}, "docker": "quay.io/biocontainers/catch", "aliases": {"analyze_probe_coverage.py": "/usr/local/bin/analyze_probe_coverage.py", "design.py": "/usr/local/bin/design.py", "design_large.py": "/usr/local/bin/design_large.py", "design_naively.py": "/usr/local/bin/design_naively.py", "pool.py": "/usr/local/bin/pool.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/catch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for catch", "latest": {"1.5.1--pyhdfd78af_0": "sha256:4c063e381f1c99ef77b47a7291015e397c26add75a82b04af66e5e2adc83a743"}, "tags": {"1.5.0--pyhdfd78af_0": "sha256:9b0a8e7c650f94c2ef9618ddc8cf153e28959e57b5daba2b90a44ce66a24d9b8", "1.5.1--pyhdfd78af_0": "sha256:4c063e381f1c99ef77b47a7291015e397c26add75a82b04af66e5e2adc83a743"}, "docker": "quay.io/biocontainers/catch", "aliases": {"analyze_probe_coverage.py": "/usr/local/bin/analyze_probe_coverage.py", "design.py": "/usr/local/bin/design.py", "design_large.py": "/usr/local/bin/design_large.py", "design_naively.py": "/usr/local/bin/design_naively.py", "pool.py": "/usr/local/bin/pool.py", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/catch.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/catch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/catch:1.5.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/catch:1.5.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/catch/1.5.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/catch/1.5.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/catch/1.5.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/catch/1.5.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ribor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ribor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ribor/container.yaml"
-updated_at: "2022-11-14 00:47:15.157114"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-15 00:53:44.791421"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ribor"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ribor"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ribor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribor", "latest": {"1.6.0--r41hdfd78af_0": "sha256:bd53a9240a993daef65255e8ab8ee16d3a2ef7bacf259a2759e949f6e092df1f"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd53a9240a993daef65255e8ab8ee16d3a2ef7bacf259a2759e949f6e092df1f"}, "docker": "quay.io/biocontainers/bioconductor-ribor"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ribor", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ribor", "latest": {"1.10.0--r42hdfd78af_0": "sha256:2ec5aced0d6703f7109b5e7793c6ae1cf8bd53e18ab2b2d7d91b09334140b7cd"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:bd53a9240a993daef65255e8ab8ee16d3a2ef7bacf259a2759e949f6e092df1f", "1.10.0--r42hdfd78af_0": "sha256:2ec5aced0d6703f7109b5e7793c6ae1cf8bd53e18ab2b2d7d91b09334140b7cd"}, "docker": "quay.io/biocontainers/bioconductor-ribor"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ribor.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ribor
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ribor:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ribor:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ribor/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ribor/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ribor/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ribor/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

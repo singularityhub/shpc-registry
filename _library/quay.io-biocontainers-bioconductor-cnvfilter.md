@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cnvfilter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cnvfilter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cnvfilter/container.yaml"
-updated_at: "2022-11-14 00:19:49.422624"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-15 00:17:16.356734"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cnvfilter"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cnvfilter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvfilter", "latest": {"1.8.0--r41hdfd78af_0": "sha256:87e1b922d36ac7add00aac9a152db5a98b688ef2b8757c843f9436c3c425a47a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:87e1b922d36ac7add00aac9a152db5a98b688ef2b8757c843f9436c3c425a47a"}, "docker": "quay.io/biocontainers/bioconductor-cnvfilter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cnvfilter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cnvfilter", "latest": {"1.12.0--r42hdfd78af_0": "sha256:c0ab27d89a89044968d6242afb31747b1b376338e5b79b6b4f73bded6dd5175b"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:87e1b922d36ac7add00aac9a152db5a98b688ef2b8757c843f9436c3c425a47a", "1.12.0--r42hdfd78af_0": "sha256:c0ab27d89a89044968d6242afb31747b1b376338e5b79b6b4f73bded6dd5175b"}, "docker": "quay.io/biocontainers/bioconductor-cnvfilter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cnvfilter.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cnvfilter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cnvfilter:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cnvfilter:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cnvfilter/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cnvfilter/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cnvfilter/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cnvfilter/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

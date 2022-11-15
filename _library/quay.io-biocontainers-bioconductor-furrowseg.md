@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-furrowseg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-furrowseg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-furrowseg/container.yaml"
-updated_at: "2022-11-14 00:21:30.089708"
+updated_at: "2022-11-15 00:19:28.792093"
 latest: "1.22.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-furrowseg"
 aliases:

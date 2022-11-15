@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-epitxdb.mm.mm10"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-epitxdb.mm.mm10/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-epitxdb.mm.mm10/container.yaml"
-updated_at: "2022-11-14 00:43:43.989775"
-latest: "0.99.6--r41hdfd78af_4"
+updated_at: "2022-11-15 00:48:59.054289"
+latest: "0.99.6--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/bioconductor-epitxdb.mm.mm10"
 aliases:
  - ".bioconductor-epitxdb.mm.mm10-post-link.sh"
  - ".bioconductor-epitxdb.mm.mm10-pre-unlink.sh"
 versions:
  - "0.99.6--r41hdfd78af_4"
+ - "0.99.6--r42hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for bioconductor-epitxdb.mm.mm10"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-epitxdb.mm.mm10", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epitxdb.mm.mm10", "latest": {"0.99.6--r41hdfd78af_4": "sha256:f5e3ca6caf50db440e05110946f3507c4afbc4aae86daeec55bcf46cecb5b5c3"}, "tags": {"0.99.6--r41hdfd78af_4": "sha256:f5e3ca6caf50db440e05110946f3507c4afbc4aae86daeec55bcf46cecb5b5c3"}, "docker": "quay.io/biocontainers/bioconductor-epitxdb.mm.mm10", "aliases": {".bioconductor-epitxdb.mm.mm10-post-link.sh": "/usr/local/bin/.bioconductor-epitxdb.mm.mm10-post-link.sh", ".bioconductor-epitxdb.mm.mm10-pre-unlink.sh": "/usr/local/bin/.bioconductor-epitxdb.mm.mm10-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-epitxdb.mm.mm10", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-epitxdb.mm.mm10", "latest": {"0.99.6--r42hdfd78af_5": "sha256:9bb88372bc816267f571708aca186d52f8cfabd2fb5a73e8ee14ff1db399fc3d"}, "tags": {"0.99.6--r41hdfd78af_4": "sha256:f5e3ca6caf50db440e05110946f3507c4afbc4aae86daeec55bcf46cecb5b5c3", "0.99.6--r42hdfd78af_5": "sha256:9bb88372bc816267f571708aca186d52f8cfabd2fb5a73e8ee14ff1db399fc3d"}, "docker": "quay.io/biocontainers/bioconductor-epitxdb.mm.mm10", "aliases": {".bioconductor-epitxdb.mm.mm10-post-link.sh": "/usr/local/bin/.bioconductor-epitxdb.mm.mm10-post-link.sh", ".bioconductor-epitxdb.mm.mm10-pre-unlink.sh": "/usr/local/bin/.bioconductor-epitxdb.mm.mm10-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-epitxdb.mm.mm10.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-epitxdb.mm.mm10
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-epitxdb.mm.mm10:0.99.6--r41hdfd78af_4
+$ shpc install quay.io/biocontainers/bioconductor-epitxdb.mm.mm10:0.99.6--r42hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-epitxdb.mm.mm10/0.99.6--r41hdfd78af_4
-$ module help quay.io/biocontainers/bioconductor-epitxdb.mm.mm10/0.99.6--r41hdfd78af_4
+$ module load quay.io/biocontainers/bioconductor-epitxdb.mm.mm10/0.99.6--r42hdfd78af_5
+$ module help quay.io/biocontainers/bioconductor-epitxdb.mm.mm10/0.99.6--r42hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

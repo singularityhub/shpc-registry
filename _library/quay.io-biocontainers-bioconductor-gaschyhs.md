@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-gaschyhs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gaschyhs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gaschyhs/container.yaml"
-updated_at: "2022-11-14 00:09:29.057837"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-15 00:03:17.926459"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gaschyhs"
 aliases:
  - ".bioconductor-gaschyhs-post-link.sh"
  - ".bioconductor-gaschyhs-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gaschyhs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gaschyhs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gaschyhs", "latest": {"1.32.0--r41hdfd78af_1": "sha256:802c68c746eaebda337ba0daad1ff75a09287391c5a13d7ec4027e18bfd69afc"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:802c68c746eaebda337ba0daad1ff75a09287391c5a13d7ec4027e18bfd69afc"}, "docker": "quay.io/biocontainers/bioconductor-gaschyhs", "aliases": {".bioconductor-gaschyhs-post-link.sh": "/usr/local/bin/.bioconductor-gaschyhs-post-link.sh", ".bioconductor-gaschyhs-pre-unlink.sh": "/usr/local/bin/.bioconductor-gaschyhs-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gaschyhs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gaschyhs", "latest": {"1.36.0--r42hdfd78af_0": "sha256:dd12495a239fdae3e8092e0c66cdc94c2f977b58f95878061f5ef745d37d9566"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:802c68c746eaebda337ba0daad1ff75a09287391c5a13d7ec4027e18bfd69afc", "1.36.0--r42hdfd78af_0": "sha256:dd12495a239fdae3e8092e0c66cdc94c2f977b58f95878061f5ef745d37d9566"}, "docker": "quay.io/biocontainers/bioconductor-gaschyhs", "aliases": {".bioconductor-gaschyhs-post-link.sh": "/usr/local/bin/.bioconductor-gaschyhs-post-link.sh", ".bioconductor-gaschyhs-pre-unlink.sh": "/usr/local/bin/.bioconductor-gaschyhs-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gaschyhs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gaschyhs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gaschyhs:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-gaschyhs:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gaschyhs/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-gaschyhs/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-gaschyhs/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gaschyhs/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
