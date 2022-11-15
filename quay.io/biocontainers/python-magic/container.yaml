@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/python-magic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for python-magic
 latest:
-  0.4.6--py36_0: sha256:2a00435f21a6089649300d9af29e4de5489c1c259f169a9a417cb7e3248a9ab2
+  0.4.10--py35_1: sha256:92b7a8c6e737c81eb759ed828487ac4bb5b8af6d47bf9314f125ccde023f48c9
 tags:
   0.4.6--py36_0: sha256:2a00435f21a6089649300d9af29e4de5489c1c259f169a9a417cb7e3248a9ab2
+  0.4.10--py35_1: sha256:92b7a8c6e737c81eb759ed828487ac4bb5b8af6d47bf9314f125ccde023f48c9
 docker: quay.io/biocontainers/python-magic
 aliases:
   easy_install-3.6: /usr/local/bin/easy_install-3.6

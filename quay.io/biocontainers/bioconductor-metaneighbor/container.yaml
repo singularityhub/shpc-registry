@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-metaneighbor
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-metaneighbor
 latest:
-  1.8.0--r40h5f743cb_0: sha256:f23833c6e80a38c6c17f3984387ad93684b8f210e485ccd6ab7713f85ae34deb
+  1.18.0--r42hdfd78af_0: sha256:94fab1e7422ed9e45adae1129603842403cd6a41f454a6006983b8ff467e8d4c
 tags:
   1.8.0--r40h5f743cb_0: sha256:f23833c6e80a38c6c17f3984387ad93684b8f210e485ccd6ab7713f85ae34deb
+  1.18.0--r42hdfd78af_0: sha256:94fab1e7422ed9e45adae1129603842403cd6a41f454a6006983b8ff467e8d4c
+  1.14.0--r41hdfd78af_0: sha256:b5fa68c098f6a530c1948366f288eed70703a4e0cda6cc082bef263f0192ea23
+  1.12.0--r41hdfd78af_0: sha256:b312b3c6a14c5823c3b68c5d369480e446709eba812611d316f377f415df23ba
+  1.10.0--r40hdfd78af_1: sha256:54cf3849a22787d97f93ad2ff8d3c5006db6164d9836da72f85f3c50d10c8164
 docker: quay.io/biocontainers/bioconductor-metaneighbor
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

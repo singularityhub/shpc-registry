@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-humanchrloc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-humanchrloc
 latest:
-  2.1.6--r41hdfd78af_9: sha256:befce3387fe5d5f7c041c1c39c51310c59c23bfc1023209257b3034ae1c84e4b
+  2.1.6--r42hdfd78af_10: sha256:49678e0249f3c21fdc8da16be16ebb2a6402fe0aa0b94b12700484bae564f137
 tags:
   2.1.6--r41hdfd78af_9: sha256:befce3387fe5d5f7c041c1c39c51310c59c23bfc1023209257b3034ae1c84e4b
+  2.1.6--r42hdfd78af_10: sha256:49678e0249f3c21fdc8da16be16ebb2a6402fe0aa0b94b12700484bae564f137
 docker: quay.io/biocontainers/bioconductor-humanchrloc
 aliases:
   .bioconductor-humanchrloc-post-link.sh: /usr/local/bin/.bioconductor-humanchrloc-post-link.sh

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-rlmm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rlmm
 latest:
-  1.56.0--r41hdfd78af_0: sha256:ab1bcbcbb13f1e33f45e37911919aa0953e3d09361ee99301424760fb549009e
+  1.60.0--r42hdfd78af_0: sha256:510d460dda1dc25483cd8821b780637dde64ee9b71363a9e9ff7f0101b8d1eba
 tags:
   1.56.0--r41hdfd78af_0: sha256:ab1bcbcbb13f1e33f45e37911919aa0953e3d09361ee99301424760fb549009e
+  1.60.0--r42hdfd78af_0: sha256:510d460dda1dc25483cd8821b780637dde64ee9b71363a9e9ff7f0101b8d1eba
 docker: quay.io/biocontainers/bioconductor-rlmm

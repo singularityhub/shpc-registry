@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-odseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-odseq
 latest:
-  1.22.0--r41hdfd78af_0: sha256:138e66d611190cb5a5396d28e54e6b2a105b333ae5aca443f611efa61f1a155e
+  1.26.0--r42hdfd78af_0: sha256:a6d9fe8399ac9c0d2e524925eed4b8d1ec5d7e5ffe678f6bb41192f08bfee49b
 tags:
   1.22.0--r41hdfd78af_0: sha256:138e66d611190cb5a5396d28e54e6b2a105b333ae5aca443f611efa61f1a155e
+  1.26.0--r42hdfd78af_0: sha256:a6d9fe8399ac9c0d2e524925eed4b8d1ec5d7e5ffe678f6bb41192f08bfee49b
 docker: quay.io/biocontainers/bioconductor-odseq

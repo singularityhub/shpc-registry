@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-spikeli
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spikeli
 latest:
-  2.54.0--r41hdfd78af_0: sha256:93bb96bcbb331d11f56071a27a63e25ff1136b93aeee1fead3d08262080b4c29
+  2.58.0--r42hdfd78af_0: sha256:a69261648f7de1f0a2cc3e42fde2f4e935b853cf9f5345cc62d0f8855bc4b8b9
 tags:
   2.54.0--r41hdfd78af_0: sha256:93bb96bcbb331d11f56071a27a63e25ff1136b93aeee1fead3d08262080b4c29
+  2.58.0--r42hdfd78af_0: sha256:a69261648f7de1f0a2cc3e42fde2f4e935b853cf9f5345cc62d0f8855bc4b8b9
 docker: quay.io/biocontainers/bioconductor-spikeli

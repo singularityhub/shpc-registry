@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-stitch
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-stitch
 latest:
-  1.6.6--r41h37595e4_3: sha256:39cf13b4a30cc68dc4a6385243b7efbd53aac3dcd733dc174725dde9c1fa2697
+  1.6.6--r42h37595e4_4: sha256:447201d728245f53ea41040129f9827086c027957d7e37c98169269e2a3b32a4
 tags:
   1.6.6--r41h37595e4_3: sha256:39cf13b4a30cc68dc4a6385243b7efbd53aac3dcd733dc174725dde9c1fa2697
+  1.6.6--r42h37595e4_4: sha256:447201d728245f53ea41040129f9827086c027957d7e37c98169269e2a3b32a4
 docker: quay.io/biocontainers/r-stitch
 aliases:
   rsync-ssl: /usr/local/bin/rsync-ssl

@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/tobias
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tobias
 latest:
-  0.9.0--py36hc1659b7_0: sha256:66a68d1bef15ab6b78de28a74ad94833244bae1c8caf6f823e3095e47c45d9df
+  0.13.0--py36h4f025d9_0: sha256:248678d29f151ff297b5b41feaa86d28ab7c3dfe3c08605c19dd9a28003eb570
 tags:
   0.9.0--py36hc1659b7_0: sha256:66a68d1bef15ab6b78de28a74ad94833244bae1c8caf6f823e3095e47c45d9df
+  0.13.0--py36h4f025d9_0: sha256:248678d29f151ff297b5b41feaa86d28ab7c3dfe3c08605c19dd9a28003eb570
+  0.12.12--py36h4f025d9_0: sha256:1b1c9ba97db7f468e7d9151d1bcbd1b900d6f1772a62a443f8672a2e12e6a1df
+  0.11.6--py36h29c9776_1: sha256:09780107398b644439cddd1540e6fe3d25e68c6c287355617b3db8f52236e51c
 docker: quay.io/biocontainers/tobias
 aliases:
   TOBIAS: /usr/local/bin/TOBIAS

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-huexexonprobesetlocationhg19
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-huexexonprobesetlocationhg19
 latest:
-  0.0.3--r41hdfd78af_9: sha256:641465091828550b682ec971a6475026fae67bfde330a217fdd91dc528633ed6
+  0.0.3--r42hdfd78af_10: sha256:4667de47c95c05ca7306cf671b9e2791672d195d159e9e85303865c07eb022ba
 tags:
   0.0.3--r41hdfd78af_9: sha256:641465091828550b682ec971a6475026fae67bfde330a217fdd91dc528633ed6
+  0.0.3--r42hdfd78af_10: sha256:4667de47c95c05ca7306cf671b9e2791672d195d159e9e85303865c07eb022ba
 docker: quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19
 aliases:
   .bioconductor-huexexonprobesetlocationhg19-post-link.sh: /usr/local/bin/.bioconductor-huexexonprobesetlocationhg19-post-link.sh

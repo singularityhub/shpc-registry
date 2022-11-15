@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-scnorm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-scnorm
 latest:
-  1.8.0--r36_0: sha256:8d345ad1d9d887350efc09c60eab03bc37ed331316e3ef041b78e1c8af9e925f
+  1.20.0--r42hdfd78af_0: sha256:6de0d9021db31522ae61b783924c744a4f8388aea1210661e959c5cc8c0b15de
 tags:
   1.8.0--r36_0: sha256:8d345ad1d9d887350efc09c60eab03bc37ed331316e3ef041b78e1c8af9e925f
+  1.20.0--r42hdfd78af_0: sha256:6de0d9021db31522ae61b783924c744a4f8388aea1210661e959c5cc8c0b15de
+  1.16.0--r41hdfd78af_0: sha256:9c0c916b8d0d8dc744e06bff74214472af5043acbd8ec96d2a2011a14bdbcb19
+  1.14.0--r41hdfd78af_0: sha256:6104cb06e3105337e2cc85bdc7b054bc03ce3c0214c7970506632bb364046950
+  1.12.0--r40hdfd78af_1: sha256:99fd4f79421cc72c4bd965b564e850b95887c4a1d41b319fa31d3e232959f6c7
+  1.10.0--r40_0: sha256:eedfd1c16ac2e25e1774fd99d48bfa001294431c5ab69ca93bbbb44cfc5fa4a5
 docker: quay.io/biocontainers/bioconductor-scnorm
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop
