@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-methcp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methcp
 latest:
-  1.7.0--r41hdfd78af_0: sha256:c8f793082f218a134abb16fee394afe193874551a08b3eebdd3a6954839d5e5a
+  1.11.0--r42hdfd78af_0: sha256:5322dc76f831f8dc6e9e12911961cb51392741b63ca4691bed318cc42d98279e
 tags:
   1.7.0--r41hdfd78af_0: sha256:c8f793082f218a134abb16fee394afe193874551a08b3eebdd3a6954839d5e5a
+  1.11.0--r42hdfd78af_0: sha256:5322dc76f831f8dc6e9e12911961cb51392741b63ca4691bed318cc42d98279e
 docker: quay.io/biocontainers/bioconductor-methcp

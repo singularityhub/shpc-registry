@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/slamem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for slamem
 latest:
-  v0.8.5--h779adbc_0: sha256:839a7025e184d553021d1aac43d305b0b4b09c5f8205ebbff8431cdb6e1b9684
+  0.8.5--hec16e2b_1: sha256:a74c2b46db94b4489e18dd4d1eba268a9c0fed658680af875a79693159261ae8
 tags:
   v0.8.5--h779adbc_0: sha256:839a7025e184d553021d1aac43d305b0b4b09c5f8205ebbff8431cdb6e1b9684
+  0.8.5--hec16e2b_1: sha256:a74c2b46db94b4489e18dd4d1eba268a9c0fed658680af875a79693159261ae8
 docker: quay.io/biocontainers/slamem
 aliases:
   slaMEM: /usr/local/bin/slaMEM

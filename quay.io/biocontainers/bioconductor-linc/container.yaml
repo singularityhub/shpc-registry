@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-linc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-linc
 latest:
-  1.8.0--r341hfc679d8_0: sha256:60ec90d8ca9ecb214a254866a813dbeeaecd1f7618ebe5a05105ca99dc5d9e00
+  1.15.0--r40h5f743cb_0: sha256:f9ba91f388330a62e2a9667ac30d493cc6747d3609d53e09637ab9b5ee116184
 tags:
   1.8.0--r341hfc679d8_0: sha256:60ec90d8ca9ecb214a254866a813dbeeaecd1f7618ebe5a05105ca99dc5d9e00
+  1.15.0--r40h5f743cb_0: sha256:f9ba91f388330a62e2a9667ac30d493cc6747d3609d53e09637ab9b5ee116184
+  1.14.0--r36he1b5a44_0: sha256:264942dd348b34dff97724839718b34b2abd0e022dfbc0258f0e47ae319a0498
+  1.12.0--r36he1b5a44_1: sha256:a4db30a3661434ef057fb6b62d7d614e695e05c48f2d6931289270a4ceed4bd3
+  1.10.0--r351hf484d3e_0: sha256:b5cb01f2c8c2ac11ce2b5479950dac32fb493c9ed26b381072d9b295b6e06d5f
 docker: quay.io/biocontainers/bioconductor-linc
 aliases:
   udunits2: /usr/local/bin/udunits2

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-megadepth
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-megadepth
 latest:
-  1.4.0--r41hdfd78af_0: sha256:41b0c42750ccdbd3359d17ab7a3c5d98b145223cead3596102bf58645591c893
+  1.8.0--r42hdfd78af_0: sha256:8c7cef912305ebaa2e69c419f4d1664f5e307a052f45245dff75bebf343e421d
 tags:
   1.4.0--r41hdfd78af_0: sha256:41b0c42750ccdbd3359d17ab7a3c5d98b145223cead3596102bf58645591c893
+  1.8.0--r42hdfd78af_0: sha256:8c7cef912305ebaa2e69c419f4d1664f5e307a052f45245dff75bebf343e421d
 docker: quay.io/biocontainers/bioconductor-megadepth

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-gpart
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gpart
 latest:
-  1.8.0--r40h399db7b_1: sha256:6ca0724efb65ce9b7f9e2e18a0d73cb40b9d8de598c5f578bd4ec981a115925f
+  1.12.0--r41h399db7b_0: sha256:b285d12ed11c155f611d52059fbd5c095a3442b6b03a9ad226e428a765ecdfbd
 tags:
   1.8.0--r40h399db7b_1: sha256:6ca0724efb65ce9b7f9e2e18a0d73cb40b9d8de598c5f578bd4ec981a115925f
+  1.12.0--r41h399db7b_0: sha256:b285d12ed11c155f611d52059fbd5c095a3442b6b03a9ad226e428a765ecdfbd
+  1.10.0--r41h399db7b_0: sha256:d5cf22aee5c750436ce1b48c206120157eca41e89cf99b0b2507f7e5235a9e78
 docker: quay.io/biocontainers/bioconductor-gpart
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

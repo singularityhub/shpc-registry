@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/cnv_facets
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for cnv_facets
 latest:
-  v0.11.3--r351_2: sha256:c6fb22e0ee176146131e9dfe8411b0e3e2128ec6a65c96441ca59c6fc1427068
+  0.16.0--py38r36h4b26f60_1: sha256:11a4bce7d58ef48538fe478d73991b65193024225b90fe4936c4bc88325b507a
 tags:
   v0.11.3--r351_2: sha256:c6fb22e0ee176146131e9dfe8411b0e3e2128ec6a65c96441ca59c6fc1427068
+  0.16.0--py38r36h4b26f60_1: sha256:11a4bce7d58ef48538fe478d73991b65193024225b90fe4936c4bc88325b507a
+  0.15.0--r36h4b26f60_1: sha256:129a23cde5a82afa6258739692f9e1d41e3c6ceea2cbade77ec85e1755ff7359
+  0.14.0--r351h14c3975_1: sha256:e2c567ece38c9aa0cfad6ac7b5b5c4b98fcbbee261e4ceefbc3fac66879439d6
+  0.13.0--r351h14c3975_1: sha256:651054e8dab1d2554638644ca44fee2bc8e6bf11fb9a9fc0bb6e163f37cfcda8
+  0.12.1--r351h14c3975_1: sha256:b9bc31d2fe8729a166891219d3723301351670b0d83d3692891953c006de87d7
 docker: quay.io/biocontainers/cnv_facets
 aliases:
   cnv_facets.R: /usr/local/bin/cnv_facets.R
