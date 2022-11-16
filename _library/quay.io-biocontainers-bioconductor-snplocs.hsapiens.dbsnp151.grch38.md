@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/container.yaml"
-updated_at: "2022-11-14 23:59:46.260819"
-latest: "0.99.20--r41hdfd78af_9"
+updated_at: "2022-11-15 23:54:59.860420"
+latest: "0.99.20--r41hdfd78af_11"
 container_url: "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp151.grch38"
 aliases:
  - ".bioconductor-snplocs.hsapiens.dbsnp151.grch38-post-link.sh"
@@ -13,8 +13,9 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.99.20--r41hdfd78af_9"
+ - "0.99.20--r41hdfd78af_11"
 description: "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp151.grch38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp151.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp151.grch38", "latest": {"0.99.20--r41hdfd78af_9": "sha256:027d92e0db22ee0157d2e3f63282876ebccd3773166774d61d7783a8f459e5e2"}, "tags": {"0.99.20--r41hdfd78af_9": "sha256:027d92e0db22ee0157d2e3f63282876ebccd3773166774d61d7783a8f459e5e2"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38", "aliases": {".bioconductor-snplocs.hsapiens.dbsnp151.grch38-post-link.sh": "/usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp151.grch38-post-link.sh", ".bioconductor-snplocs.hsapiens.dbsnp151.grch38-pre-unlink.sh": "/usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp151.grch38-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-snplocs.hsapiens.dbsnp151.grch38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-snplocs.hsapiens.dbsnp151.grch38", "latest": {"0.99.20--r41hdfd78af_11": "sha256:4137c2b606065c999c6bf5be6e6827eeb27a3ea996ece077948bc67ceff1d951"}, "tags": {"0.99.20--r41hdfd78af_9": "sha256:027d92e0db22ee0157d2e3f63282876ebccd3773166774d61d7783a8f459e5e2", "0.99.20--r41hdfd78af_11": "sha256:4137c2b606065c999c6bf5be6e6827eeb27a3ea996ece077948bc67ceff1d951"}, "docker": "quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38", "aliases": {".bioconductor-snplocs.hsapiens.dbsnp151.grch38-post-link.sh": "/usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp151.grch38-post-link.sh", ".bioconductor-snplocs.hsapiens.dbsnp151.grch38-pre-unlink.sh": "/usr/local/bin/.bioconductor-snplocs.hsapiens.dbsnp151.grch38-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38:0.99.20--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38:0.99.20--r41hdfd78af_11
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/0.99.20--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/0.99.20--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/0.99.20--r41hdfd78af_11
+$ module help quay.io/biocontainers/bioconductor-snplocs.hsapiens.dbsnp151.grch38/0.99.20--r41hdfd78af_11
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

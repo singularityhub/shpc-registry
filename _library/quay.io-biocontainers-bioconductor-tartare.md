@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-tartare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-tartare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-tartare/container.yaml"
-updated_at: "2022-11-15 01:12:03.285791"
-latest: "1.8.0--r41hdfd78af_1"
+updated_at: "2022-11-16 00:48:51.838139"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-tartare"
 aliases:
  - ".bioconductor-tartare-post-link.sh"
  - ".bioconductor-tartare-pre-unlink.sh"
 versions:
  - "1.8.0--r41hdfd78af_1"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-tartare"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-tartare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tartare", "latest": {"1.8.0--r41hdfd78af_1": "sha256:72c99c967fb892ed3c7ba2988b89a2e138a24013c2c3b5293f5f62199e5a1822"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:72c99c967fb892ed3c7ba2988b89a2e138a24013c2c3b5293f5f62199e5a1822"}, "docker": "quay.io/biocontainers/bioconductor-tartare", "aliases": {".bioconductor-tartare-post-link.sh": "/usr/local/bin/.bioconductor-tartare-post-link.sh", ".bioconductor-tartare-pre-unlink.sh": "/usr/local/bin/.bioconductor-tartare-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-tartare", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-tartare", "latest": {"1.12.0--r42hdfd78af_0": "sha256:bc94dad95643989f00f949c7658967dba9244e24b3aa0f2ff0c8f4a387826920"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:72c99c967fb892ed3c7ba2988b89a2e138a24013c2c3b5293f5f62199e5a1822", "1.12.0--r42hdfd78af_0": "sha256:bc94dad95643989f00f949c7658967dba9244e24b3aa0f2ff0c8f4a387826920"}, "docker": "quay.io/biocontainers/bioconductor-tartare", "aliases": {".bioconductor-tartare-post-link.sh": "/usr/local/bin/.bioconductor-tartare-post-link.sh", ".bioconductor-tartare-pre-unlink.sh": "/usr/local/bin/.bioconductor-tartare-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-tartare.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-tartare
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-tartare:1.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-tartare:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-tartare/1.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-tartare/1.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-tartare/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-tartare/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-greylistchip"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-greylistchip/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-greylistchip/container.yaml"
-updated_at: "2022-11-15 01:03:50.922435"
+updated_at: "2022-11-16 00:42:43.652926"
 latest: "1.26.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-greylistchip"
 

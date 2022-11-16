@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tadarida-d"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tadarida-d/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tadarida-d/container.yaml"
-updated_at: "2022-11-15 00:55:56.612433"
+updated_at: "2022-11-16 00:36:50.921747"
 latest: "1.03--hf71b8e2_6"
 container_url: "https://biocontainers.pro/tools/tadarida-d"
 aliases:

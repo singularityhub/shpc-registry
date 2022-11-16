@@ -4,14 +4,19 @@ name:  "quay.io/biocontainers/genomepy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genomepy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genomepy/container.yaml"
-updated_at: "2022-11-15 00:40:45.249539"
-latest: "0.9.3--py_0"
+updated_at: "2022-11-16 00:25:31.226544"
+latest: "0.14.0--pyh7cba7a3_1"
 container_url: "https://biocontainers.pro/tools/genomepy"
 
 versions:
  - "0.9.3--py_0"
+ - "0.14.0--pyh7cba7a3_1"
+ - "0.13.1--pyhdfd78af_0"
+ - "0.12.0--pyhdfd78af_0"
+ - "0.11.1--pyhdfd78af_0"
+ - "0.10.0--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for genomepy"
-config: {"url": "https://biocontainers.pro/tools/genomepy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomepy", "latest": {"0.9.3--py_0": "sha256:07de9012b90c84b3905b3ec85773936f7c9cc68712672acd2bd61ca621de8dae"}, "tags": {"0.9.3--py_0": "sha256:07de9012b90c84b3905b3ec85773936f7c9cc68712672acd2bd61ca621de8dae"}, "docker": "quay.io/biocontainers/genomepy"}
+config: {"url": "https://biocontainers.pro/tools/genomepy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for genomepy", "latest": {"0.14.0--pyh7cba7a3_1": "sha256:a5a9a61ae0c5e266deea1aee53bb85376df459c49391c940e4e53a0780a0be93"}, "tags": {"0.9.3--py_0": "sha256:07de9012b90c84b3905b3ec85773936f7c9cc68712672acd2bd61ca621de8dae", "0.14.0--pyh7cba7a3_1": "sha256:a5a9a61ae0c5e266deea1aee53bb85376df459c49391c940e4e53a0780a0be93", "0.13.1--pyhdfd78af_0": "sha256:ab261f633b9c009290e97944ece38071b83a8dd2fd79926e4840e9526b85e8b3", "0.12.0--pyhdfd78af_0": "sha256:0b33cfd6ba31f913f7a6343ad48c186b016cdb7cc18d62cca9c609b3ae0fd4a7", "0.11.1--pyhdfd78af_0": "sha256:decf50a6370afeb35db4f1baa9b36cab019fc22eb53d945291e1d06294739ba7", "0.10.0--pyhdfd78af_0": "sha256:0c0b430b060487a753521d930d95f398827e50610081f97cf55cc80ed99650da"}, "docker": "quay.io/biocontainers/genomepy"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/genomepy.
@@ -26,7 +31,7 @@ $ shpc install quay.io/biocontainers/genomepy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/genomepy:0.9.3--py_0
+$ shpc install quay.io/biocontainers/genomepy:0.14.0--pyh7cba7a3_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/genomepy/0.9.3--py_0
-$ module help quay.io/biocontainers/genomepy/0.9.3--py_0
+$ module load quay.io/biocontainers/genomepy/0.14.0--pyh7cba7a3_1
+$ module help quay.io/biocontainers/genomepy/0.14.0--pyh7cba7a3_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

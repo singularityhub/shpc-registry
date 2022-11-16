@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-magic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-magic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-magic/container.yaml"
-updated_at: "2022-11-15 00:28:59.833213"
-latest: "0.4.6--py36_0"
+updated_at: "2022-11-16 00:16:43.297905"
+latest: "0.4.10--py35_1"
 container_url: "https://biocontainers.pro/tools/python-magic"
 aliases:
  - "easy_install-3.6"
@@ -20,8 +20,9 @@ aliases:
  - "tclsh8.5"
 versions:
  - "0.4.6--py36_0"
+ - "0.4.10--py35_1"
 description: "shpc-registry automated BioContainers addition for python-magic"
-config: {"url": "https://biocontainers.pro/tools/python-magic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-magic", "latest": {"0.4.6--py36_0": "sha256:2a00435f21a6089649300d9af29e4de5489c1c259f169a9a417cb7e3248a9ab2"}, "tags": {"0.4.6--py36_0": "sha256:2a00435f21a6089649300d9af29e4de5489c1c259f169a9a417cb7e3248a9ab2"}, "docker": "quay.io/biocontainers/python-magic", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
+config: {"url": "https://biocontainers.pro/tools/python-magic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-magic", "latest": {"0.4.10--py35_1": "sha256:92b7a8c6e737c81eb759ed828487ac4bb5b8af6d47bf9314f125ccde023f48c9"}, "tags": {"0.4.6--py36_0": "sha256:2a00435f21a6089649300d9af29e4de5489c1c259f169a9a417cb7e3248a9ab2", "0.4.10--py35_1": "sha256:92b7a8c6e737c81eb759ed828487ac4bb5b8af6d47bf9314f125ccde023f48c9"}, "docker": "quay.io/biocontainers/python-magic", "aliases": {"easy_install-3.6": "/usr/local/bin/easy_install-3.6", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "tclsh8.5": "/usr/local/bin/tclsh8.5"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-magic.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/python-magic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-magic:0.4.6--py36_0
+$ shpc install quay.io/biocontainers/python-magic:0.4.10--py35_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-magic/0.4.6--py36_0
-$ module help quay.io/biocontainers/python-magic/0.4.6--py36_0
+$ module load quay.io/biocontainers/python-magic/0.4.10--py35_1
+$ module help quay.io/biocontainers/python-magic/0.4.10--py35_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

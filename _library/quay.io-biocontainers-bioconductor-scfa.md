@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-scfa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-scfa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-scfa/container.yaml"
-updated_at: "2022-11-15 00:09:49.079523"
-latest: "1.4.0--r41hdfd78af_0"
+updated_at: "2022-11-16 00:02:27.336662"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-scfa"
 
 versions:
  - "1.4.0--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-scfa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-scfa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scfa", "latest": {"1.4.0--r41hdfd78af_0": "sha256:f7f6016aedea93366b69b7c1e7a04bb8cddb145bf17e0d7f7847860e98e85c93"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:f7f6016aedea93366b69b7c1e7a04bb8cddb145bf17e0d7f7847860e98e85c93"}, "docker": "quay.io/biocontainers/bioconductor-scfa"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-scfa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-scfa", "latest": {"1.8.0--r42hdfd78af_0": "sha256:9a51a8a26c62c5ac029c118b5b8ced150dcd236f64c0d47393ad4a8b39b85b7c"}, "tags": {"1.4.0--r41hdfd78af_0": "sha256:f7f6016aedea93366b69b7c1e7a04bb8cddb145bf17e0d7f7847860e98e85c93", "1.8.0--r42hdfd78af_0": "sha256:9a51a8a26c62c5ac029c118b5b8ced150dcd236f64c0d47393ad4a8b39b85b7c"}, "docker": "quay.io/biocontainers/bioconductor-scfa"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-scfa.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-scfa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-scfa:1.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-scfa:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-scfa/1.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-scfa/1.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-scfa/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-scfa/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

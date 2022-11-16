@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arcs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arcs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arcs/container.yaml"
-updated_at: "2022-11-15 00:24:54.798089"
+updated_at: "2022-11-16 00:13:40.683442"
 latest: "1.2.4--h7ff8a90_1"
 container_url: "https://biocontainers.pro/tools/arcs"
 aliases:

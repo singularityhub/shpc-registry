@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-netreg"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netreg/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netreg/container.yaml"
-updated_at: "2022-11-14 23:58:56.843873"
-latest: "1.8.0--r36he1b5a44_1"
+updated_at: "2022-11-15 23:54:23.172312"
+latest: "1.13.1--r40h399db7b_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-netreg"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36he1b5a44_1"
+ - "1.13.1--r40h399db7b_1"
+ - "1.11.0--r40h5f743cb_0"
+ - "1.10.0--r36he1b5a44_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netreg"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netreg", "latest": {"1.8.0--r36he1b5a44_1": "sha256:cf644b26060abff59f3e70fc467fdfb6942c19fd9d828e8371d19af8ab7e1dc0"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:cf644b26060abff59f3e70fc467fdfb6942c19fd9d828e8371d19af8ab7e1dc0"}, "docker": "quay.io/biocontainers/bioconductor-netreg", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netreg", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netreg", "latest": {"1.13.1--r40h399db7b_1": "sha256:32d7b9d62c7c74c58802f18ac833d4bc8ba4adfe95b1c96298e6f85a807e9aaa"}, "tags": {"1.8.0--r36he1b5a44_1": "sha256:cf644b26060abff59f3e70fc467fdfb6942c19fd9d828e8371d19af8ab7e1dc0", "1.13.1--r40h399db7b_1": "sha256:32d7b9d62c7c74c58802f18ac833d4bc8ba4adfe95b1c96298e6f85a807e9aaa", "1.11.0--r40h5f743cb_0": "sha256:eac09d99ced2357a0fa3c1b8e3d0a275c225e004c5b5a59563281cbc9feb725f", "1.10.0--r36he1b5a44_0": "sha256:ac001058439e6878ae932c2c810a015ec00bc35cf46e0db2c02051f27f639434"}, "docker": "quay.io/biocontainers/bioconductor-netreg", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netreg.
@@ -29,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netreg
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netreg:1.8.0--r36he1b5a44_1
+$ shpc install quay.io/biocontainers/bioconductor-netreg:1.13.1--r40h399db7b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netreg/1.8.0--r36he1b5a44_1
-$ module help quay.io/biocontainers/bioconductor-netreg/1.8.0--r36he1b5a44_1
+$ module load quay.io/biocontainers/bioconductor-netreg/1.13.1--r40h399db7b_1
+$ module help quay.io/biocontainers/bioconductor-netreg/1.13.1--r40h399db7b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-gemini"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gemini/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gemini/container.yaml"
-updated_at: "2022-11-15 00:09:45.171674"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-16 00:02:24.362387"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gemini"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gemini"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gemini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gemini", "latest": {"1.8.0--r41hdfd78af_0": "sha256:07cf68c9fce8a2476caa77fc95e9352dd02374aca8875dda51e046e137ab2f3c"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:07cf68c9fce8a2476caa77fc95e9352dd02374aca8875dda51e046e137ab2f3c"}, "docker": "quay.io/biocontainers/bioconductor-gemini"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gemini", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gemini", "latest": {"1.12.0--r42hdfd78af_0": "sha256:3e8673a1245ba51ae9a6be613d9ceb590a832296cc91c414749cade124f99c79"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:07cf68c9fce8a2476caa77fc95e9352dd02374aca8875dda51e046e137ab2f3c", "1.12.0--r42hdfd78af_0": "sha256:3e8673a1245ba51ae9a6be613d9ceb590a832296cc91c414749cade124f99c79"}, "docker": "quay.io/biocontainers/bioconductor-gemini"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gemini.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gemini
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gemini:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gemini:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gemini/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gemini/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gemini/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gemini/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

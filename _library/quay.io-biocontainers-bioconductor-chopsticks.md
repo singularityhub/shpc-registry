@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-chopsticks"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chopsticks/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chopsticks/container.yaml"
-updated_at: "2022-11-15 00:45:41.235854"
-latest: "1.60.0--r41hc0cfd56_2"
+updated_at: "2022-11-16 00:29:12.293755"
+latest: "1.64.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chopsticks"
 
 versions:
  - "1.60.0--r41hc0cfd56_2"
+ - "1.64.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-chopsticks"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chopsticks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chopsticks", "latest": {"1.60.0--r41hc0cfd56_2": "sha256:4f26615e2b0594ffd9b4da49d540f99e3098a9ea8a5cdda50cfefa42ed71acca"}, "tags": {"1.60.0--r41hc0cfd56_2": "sha256:4f26615e2b0594ffd9b4da49d540f99e3098a9ea8a5cdda50cfefa42ed71acca"}, "docker": "quay.io/biocontainers/bioconductor-chopsticks"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chopsticks", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chopsticks", "latest": {"1.64.0--r42hc0cfd56_0": "sha256:8973052869777e417b1e59d1cb0ad11fc3d2dacbfa647ee478683674196dcb35"}, "tags": {"1.60.0--r41hc0cfd56_2": "sha256:4f26615e2b0594ffd9b4da49d540f99e3098a9ea8a5cdda50cfefa42ed71acca", "1.64.0--r42hc0cfd56_0": "sha256:8973052869777e417b1e59d1cb0ad11fc3d2dacbfa647ee478683674196dcb35"}, "docker": "quay.io/biocontainers/bioconductor-chopsticks"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chopsticks.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chopsticks
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chopsticks:1.60.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-chopsticks:1.64.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chopsticks/1.60.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-chopsticks/1.60.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-chopsticks/1.64.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-chopsticks/1.64.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-stitch"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-stitch/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-stitch/container.yaml"
-updated_at: "2022-11-15 00:05:29.277226"
-latest: "1.6.6--r41h37595e4_3"
+updated_at: "2022-11-15 23:59:14.281225"
+latest: "1.6.6--r42h37595e4_4"
 container_url: "https://biocontainers.pro/tools/r-stitch"
 aliases:
  - "rsync-ssl"
@@ -20,8 +20,9 @@ aliases:
  - "blast2sam.pl"
 versions:
  - "1.6.6--r41h37595e4_3"
+ - "1.6.6--r42h37595e4_4"
 description: "shpc-registry automated BioContainers addition for r-stitch"
-config: {"url": "https://biocontainers.pro/tools/r-stitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-stitch", "latest": {"1.6.6--r41h37595e4_3": "sha256:39cf13b4a30cc68dc4a6385243b7efbd53aac3dcd733dc174725dde9c1fa2697"}, "tags": {"1.6.6--r41h37595e4_3": "sha256:39cf13b4a30cc68dc4a6385243b7efbd53aac3dcd733dc174725dde9c1fa2697"}, "docker": "quay.io/biocontainers/r-stitch", "aliases": {"rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/r-stitch", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-stitch", "latest": {"1.6.6--r42h37595e4_4": "sha256:447201d728245f53ea41040129f9827086c027957d7e37c98169269e2a3b32a4"}, "tags": {"1.6.6--r41h37595e4_3": "sha256:39cf13b4a30cc68dc4a6385243b7efbd53aac3dcd733dc174725dde9c1fa2697", "1.6.6--r42h37595e4_4": "sha256:447201d728245f53ea41040129f9827086c027957d7e37c98169269e2a3b32a4"}, "docker": "quay.io/biocontainers/r-stitch", "aliases": {"rsync-ssl": "/usr/local/bin/rsync-ssl", "rsync": "/usr/local/bin/rsync", "xxh128sum": "/usr/local/bin/xxh128sum", "xxh32sum": "/usr/local/bin/xxh32sum", "xxh64sum": "/usr/local/bin/xxh64sum", "xxhsum": "/usr/local/bin/xxhsum", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl", "plot-ampliconstats": "/usr/local/bin/plot-ampliconstats", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-stitch.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-stitch
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-stitch:1.6.6--r41h37595e4_3
+$ shpc install quay.io/biocontainers/r-stitch:1.6.6--r42h37595e4_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-stitch/1.6.6--r41h37595e4_3
-$ module help quay.io/biocontainers/r-stitch/1.6.6--r41h37595e4_3
+$ module load quay.io/biocontainers/r-stitch/1.6.6--r42h37595e4_4
+$ module help quay.io/biocontainers/r-stitch/1.6.6--r42h37595e4_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

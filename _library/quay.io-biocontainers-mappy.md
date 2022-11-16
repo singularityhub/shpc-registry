@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/mappy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/mappy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/mappy/container.yaml"
-updated_at: "2022-11-15 00:46:39.036382"
-latest: "2.9--py36_1"
+updated_at: "2022-11-16 00:29:54.960228"
+latest: "2.17--py36h955c1b8_2"
 container_url: "https://biocontainers.pro/tools/mappy"
 aliases:
  - "minimap2.py"
@@ -20,8 +20,13 @@ aliases:
  - "ncurses5-config"
 versions:
  - "2.9--py36_1"
+ - "2.17--py36h955c1b8_2"
+ - "2.16--py37h84994c4_0"
+ - "2.15--py36ha92aebf_0"
+ - "2.14--py35ha92aebf_0"
+ - "2.13--py35ha92aebf_0"
 description: "shpc-registry automated BioContainers addition for mappy"
-config: {"url": "https://biocontainers.pro/tools/mappy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mappy", "latest": {"2.9--py36_1": "sha256:5e7ea3aac9c51a8751c411714d9e435435cd146bd9b002ede342066b7745dae3"}, "tags": {"2.9--py36_1": "sha256:5e7ea3aac9c51a8751c411714d9e435435cd146bd9b002ede342066b7745dae3"}, "docker": "quay.io/biocontainers/mappy", "aliases": {"minimap2.py": "/usr/local/bin/minimap2.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
+config: {"url": "https://biocontainers.pro/tools/mappy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for mappy", "latest": {"2.17--py36h955c1b8_2": "sha256:32549721f3553f8372a583c24e02a8033d42b647588ce959e1eddf00ab1498c0"}, "tags": {"2.9--py36_1": "sha256:5e7ea3aac9c51a8751c411714d9e435435cd146bd9b002ede342066b7745dae3", "2.17--py36h955c1b8_2": "sha256:32549721f3553f8372a583c24e02a8033d42b647588ce959e1eddf00ab1498c0", "2.16--py37h84994c4_0": "sha256:4472900819eea7d321f27426c8a51951c64a9249a591bf825b1797fc30c3382c", "2.15--py36ha92aebf_0": "sha256:18d7684626107a20a90ac4778a23c62c776e9675fe4fd486b2391499bc1867e2", "2.14--py35ha92aebf_0": "sha256:dd532750fcadc7b15508a07c108169e493c45ecc672308cd74e59d07de05c3ee", "2.13--py35ha92aebf_0": "sha256:de4e18183953d62ef3b74a1bd1860a143b2a402af478d6c8e0cb050d8f79e9db"}, "docker": "quay.io/biocontainers/mappy", "aliases": {"minimap2.py": "/usr/local/bin/minimap2.py", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "ncurses5-config": "/usr/local/bin/ncurses5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/mappy.
@@ -36,7 +41,7 @@ $ shpc install quay.io/biocontainers/mappy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/mappy:2.9--py36_1
+$ shpc install quay.io/biocontainers/mappy:2.17--py36h955c1b8_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/mappy/2.9--py36_1
-$ module help quay.io/biocontainers/mappy/2.9--py36_1
+$ module load quay.io/biocontainers/mappy/2.17--py36h955c1b8_2
+$ module help quay.io/biocontainers/mappy/2.17--py36h955c1b8_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

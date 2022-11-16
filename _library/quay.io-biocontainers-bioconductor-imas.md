@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-imas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imas/container.yaml"
-updated_at: "2022-11-14 23:59:15.026432"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-15 23:54:36.687296"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imas"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-imas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-imas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imas", "latest": {"1.8.0--r36_1": "sha256:59c9a5483e33426961eb76a60148580d06a56b855aa65ba9fd90cb7621fd6de0"}, "tags": {"1.8.0--r36_1": "sha256:59c9a5483e33426961eb76a60148580d06a56b855aa65ba9fd90cb7621fd6de0"}, "docker": "quay.io/biocontainers/bioconductor-imas", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-imas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imas", "latest": {"1.22.0--r42hdfd78af_0": "sha256:34e2c0656425c56de9bdddee2d928c2017cf13f90397c0a6b598b1a2d960b3a6"}, "tags": {"1.8.0--r36_1": "sha256:59c9a5483e33426961eb76a60148580d06a56b855aa65ba9fd90cb7621fd6de0", "1.22.0--r42hdfd78af_0": "sha256:34e2c0656425c56de9bdddee2d928c2017cf13f90397c0a6b598b1a2d960b3a6", "1.18.0--r41hdfd78af_0": "sha256:06150ae9f7d4ab913617eaab17ae519beea5e1d54a0e6f36bbdbf0e0512db47c", "1.16.0--r41hdfd78af_0": "sha256:a133014525b84f3985e64c8f9397e443dd15dec0e7ec9ea0951673c47c0728fc", "1.14.0--r40hdfd78af_1": "sha256:fe362ec80284a85676c6be51cdfaee085c28814fae9cb042f85b0730b786223e", "1.12.0--r40_0": "sha256:dd39a73e10d34ae2f471f23464096527de25566150a2eb6d0a31e030272ae62f"}, "docker": "quay.io/biocontainers/bioconductor-imas", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-imas.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-imas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-imas:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-imas:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-imas/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-imas/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-imas/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-imas/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

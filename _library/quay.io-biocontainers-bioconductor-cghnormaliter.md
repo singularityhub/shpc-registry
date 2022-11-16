@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cghnormaliter"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cghnormaliter/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cghnormaliter/container.yaml"
-updated_at: "2022-11-15 00:44:45.663619"
-latest: "1.48.0--r41hdfd78af_0"
+updated_at: "2022-11-16 00:28:30.717591"
+latest: "1.52.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cghnormaliter"
 
 versions:
  - "1.48.0--r41hdfd78af_0"
+ - "1.52.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cghnormaliter"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cghnormaliter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cghnormaliter", "latest": {"1.48.0--r41hdfd78af_0": "sha256:31bcd3bdb3eea315bd4bd189817092d3c9fb9e6e09bc35ce82a5fac3ef122c55"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:31bcd3bdb3eea315bd4bd189817092d3c9fb9e6e09bc35ce82a5fac3ef122c55"}, "docker": "quay.io/biocontainers/bioconductor-cghnormaliter"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cghnormaliter", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cghnormaliter", "latest": {"1.52.0--r42hdfd78af_0": "sha256:08333b709dbd4cddb501aa5684269d29c29a66635402c7a017e06ea94599b8e6"}, "tags": {"1.48.0--r41hdfd78af_0": "sha256:31bcd3bdb3eea315bd4bd189817092d3c9fb9e6e09bc35ce82a5fac3ef122c55", "1.52.0--r42hdfd78af_0": "sha256:08333b709dbd4cddb501aa5684269d29c29a66635402c7a017e06ea94599b8e6"}, "docker": "quay.io/biocontainers/bioconductor-cghnormaliter"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cghnormaliter.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cghnormaliter
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cghnormaliter:1.48.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cghnormaliter:1.52.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cghnormaliter/1.48.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cghnormaliter/1.48.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cghnormaliter/1.52.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cghnormaliter/1.52.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

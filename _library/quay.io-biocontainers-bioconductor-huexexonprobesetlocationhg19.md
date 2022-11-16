@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19/container.yaml"
-updated_at: "2022-11-15 01:10:17.385171"
-latest: "0.0.3--r41hdfd78af_9"
+updated_at: "2022-11-16 00:47:33.564106"
+latest: "0.0.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-huexexonprobesetlocationhg19"
 aliases:
  - ".bioconductor-huexexonprobesetlocationhg19-post-link.sh"
  - ".bioconductor-huexexonprobesetlocationhg19-pre-unlink.sh"
 versions:
  - "0.0.3--r41hdfd78af_9"
+ - "0.0.3--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-huexexonprobesetlocationhg19"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-huexexonprobesetlocationhg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-huexexonprobesetlocationhg19", "latest": {"0.0.3--r41hdfd78af_9": "sha256:641465091828550b682ec971a6475026fae67bfde330a217fdd91dc528633ed6"}, "tags": {"0.0.3--r41hdfd78af_9": "sha256:641465091828550b682ec971a6475026fae67bfde330a217fdd91dc528633ed6"}, "docker": "quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19", "aliases": {".bioconductor-huexexonprobesetlocationhg19-post-link.sh": "/usr/local/bin/.bioconductor-huexexonprobesetlocationhg19-post-link.sh", ".bioconductor-huexexonprobesetlocationhg19-pre-unlink.sh": "/usr/local/bin/.bioconductor-huexexonprobesetlocationhg19-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-huexexonprobesetlocationhg19", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-huexexonprobesetlocationhg19", "latest": {"0.0.3--r42hdfd78af_10": "sha256:4667de47c95c05ca7306cf671b9e2791672d195d159e9e85303865c07eb022ba"}, "tags": {"0.0.3--r41hdfd78af_9": "sha256:641465091828550b682ec971a6475026fae67bfde330a217fdd91dc528633ed6", "0.0.3--r42hdfd78af_10": "sha256:4667de47c95c05ca7306cf671b9e2791672d195d159e9e85303865c07eb022ba"}, "docker": "quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19", "aliases": {".bioconductor-huexexonprobesetlocationhg19-post-link.sh": "/usr/local/bin/.bioconductor-huexexonprobesetlocationhg19-post-link.sh", ".bioconductor-huexexonprobesetlocationhg19-pre-unlink.sh": "/usr/local/bin/.bioconductor-huexexonprobesetlocationhg19-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19:0.0.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19:0.0.3--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19/0.0.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19/0.0.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19/0.0.3--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-huexexonprobesetlocationhg19/0.0.3--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

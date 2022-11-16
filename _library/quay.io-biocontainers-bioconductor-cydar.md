@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cydar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cydar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cydar/container.yaml"
-updated_at: "2022-11-15 00:46:54.903684"
+updated_at: "2022-11-16 00:30:07.030986"
 latest: "1.18.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-cydar"
 aliases:

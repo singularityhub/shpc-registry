@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.methylation"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.methylation/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.methylation/container.yaml"
-updated_at: "2022-11-15 00:30:59.024062"
-latest: "1.22.0--r41hdfd78af_1"
+updated_at: "2022-11-16 00:18:12.458030"
+latest: "1.25.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.methylation"
 aliases:
  - ".bioconductor-rtcga.methylation-post-link.sh"
@@ -19,8 +19,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.22.0--r41hdfd78af_1"
+ - "1.25.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rtcga.methylation"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.methylation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.methylation", "latest": {"1.22.0--r41hdfd78af_1": "sha256:72daf79c4a5ce7fef0395c8600bf1b40d39ba6b6cdfb4d5b8fab84c245294baf"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:72daf79c4a5ce7fef0395c8600bf1b40d39ba6b6cdfb4d5b8fab84c245294baf"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.methylation", "aliases": {".bioconductor-rtcga.methylation-post-link.sh": "/usr/local/bin/.bioconductor-rtcga.methylation-post-link.sh", ".bioconductor-rtcga.methylation-pre-unlink.sh": "/usr/local/bin/.bioconductor-rtcga.methylation-pre-unlink.sh", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rtcga.methylation", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rtcga.methylation", "latest": {"1.25.0--r42hdfd78af_0": "sha256:98be2e6e8eefd8afe993c4cf157a79f054c9ee096fa0a87f260af0b535b0aaa6"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:72daf79c4a5ce7fef0395c8600bf1b40d39ba6b6cdfb4d5b8fab84c245294baf", "1.25.0--r42hdfd78af_0": "sha256:98be2e6e8eefd8afe993c4cf157a79f054c9ee096fa0a87f260af0b535b0aaa6"}, "docker": "quay.io/biocontainers/bioconductor-rtcga.methylation", "aliases": {".bioconductor-rtcga.methylation-post-link.sh": "/usr/local/bin/.bioconductor-rtcga.methylation-post-link.sh", ".bioconductor-rtcga.methylation-pre-unlink.sh": "/usr/local/bin/.bioconductor-rtcga.methylation-pre-unlink.sh", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rtcga.methylation.
@@ -35,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rtcga.methylation
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rtcga.methylation:1.22.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-rtcga.methylation:1.25.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rtcga.methylation/1.22.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-rtcga.methylation/1.22.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-rtcga.methylation/1.25.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rtcga.methylation/1.25.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/clhep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/clhep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/clhep/container.yaml"
-updated_at: "2022-11-15 01:12:56.449680"
+updated_at: "2022-11-16 00:49:31.268001"
 latest: "2.4.5.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/clhep"
 aliases:
@@ -25,8 +25,9 @@ versions:
  - "2.4.4.0"
  - "2.4.5.1"
  - "latest"
+ - "2.4.6.0"
 description: "CLHEP is a C++ library that provides utility classes for general numerical programming, vector arithmetic, geometry, pseudorandom number generation, and linear algebra, specifically targeted for high energy physics simulation and analysis software."
-config: {"docker": "ghcr.io/autamus/clhep", "url": "https://github.com/orgs/autamus/packages/container/package/clhep", "maintainer": "@vsoch", "description": "CLHEP is a C++ library that provides utility classes for general numerical programming, vector arithmetic, geometry, pseudorandom number generation, and linear algebra, specifically targeted for high energy physics simulation and analysis software.", "latest": {"2.4.5.1": "sha256:5e73148f9fa144fc6333db76b27e176f73b2a99fc973d162ea589220c1fa543a"}, "tags": {"2.4.4.0": "sha256:b881d89a14929d265f8848ea9785bb8fea149c40e3aa1d471642b5268d3c02db", "2.4.5.1": "sha256:5e73148f9fa144fc6333db76b27e176f73b2a99fc973d162ea589220c1fa543a", "latest": "sha256:5e73148f9fa144fc6333db76b27e176f73b2a99fc973d162ea589220c1fa543a"}, "aliases": {"Cast-config": "/opt/view/bin/Cast-config", "Evaluator-config": "/opt/view/bin/Evaluator-config", "Exceptions-config": "/opt/view/bin/Exceptions-config", "GenericFunctions-config": "/opt/view/bin/GenericFunctions-config", "Geometry-config": "/opt/view/bin/Geometry-config", "Matrix-config": "/opt/view/bin/Matrix-config", "Random-config": "/opt/view/bin/Random-config", "RandomObjects-config": "/opt/view/bin/RandomObjects-config", "RefCount-config": "/opt/view/bin/RefCount-config", "Units-config": "/opt/view/bin/Units-config", "Utility-config": "/opt/view/bin/Utility-config", "Vector-config": "/opt/view/bin/Vector-config", "clhep-config": "/opt/view/bin/clhep-config"}}
+config: {"docker": "ghcr.io/autamus/clhep", "url": "https://github.com/orgs/autamus/packages/container/package/clhep", "maintainer": "@vsoch", "description": "CLHEP is a C++ library that provides utility classes for general numerical programming, vector arithmetic, geometry, pseudorandom number generation, and linear algebra, specifically targeted for high energy physics simulation and analysis software.", "latest": {"2.4.5.1": "sha256:5e73148f9fa144fc6333db76b27e176f73b2a99fc973d162ea589220c1fa543a"}, "tags": {"2.4.4.0": "sha256:b881d89a14929d265f8848ea9785bb8fea149c40e3aa1d471642b5268d3c02db", "2.4.5.1": "sha256:5e73148f9fa144fc6333db76b27e176f73b2a99fc973d162ea589220c1fa543a", "latest": "sha256:4b636e45637263a392f7ba30ff8b980c5148d2b522597618d3f70ae701884b18", "2.4.6.0": "sha256:4b636e45637263a392f7ba30ff8b980c5148d2b522597618d3f70ae701884b18"}, "aliases": {"Cast-config": "/opt/view/bin/Cast-config", "Evaluator-config": "/opt/view/bin/Evaluator-config", "Exceptions-config": "/opt/view/bin/Exceptions-config", "GenericFunctions-config": "/opt/view/bin/GenericFunctions-config", "Geometry-config": "/opt/view/bin/Geometry-config", "Matrix-config": "/opt/view/bin/Matrix-config", "Random-config": "/opt/view/bin/Random-config", "RandomObjects-config": "/opt/view/bin/RandomObjects-config", "RefCount-config": "/opt/view/bin/RefCount-config", "Units-config": "/opt/view/bin/Units-config", "Utility-config": "/opt/view/bin/Utility-config", "Vector-config": "/opt/view/bin/Vector-config", "clhep-config": "/opt/view/bin/clhep-config"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/clhep.

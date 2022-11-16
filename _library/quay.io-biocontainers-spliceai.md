@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/spliceai"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/spliceai/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/spliceai/container.yaml"
-updated_at: "2022-11-15 00:50:24.012360"
+updated_at: "2022-11-16 00:32:42.911041"
 latest: "1.3.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/spliceai"
 
 versions:
  - "1.3.1--pyh864c0ab_1"
+ - "1.3--py_1"
 description: "shpc-registry automated BioContainers addition for spliceai"
-config: {"url": "https://biocontainers.pro/tools/spliceai", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spliceai", "latest": {"1.3.1--pyh864c0ab_1": "sha256:dcbe88faa015c5a92490b25d54a3fda981d0efaf73821f82ed088d8261754c78"}, "tags": {"1.3.1--pyh864c0ab_1": "sha256:dcbe88faa015c5a92490b25d54a3fda981d0efaf73821f82ed088d8261754c78"}, "docker": "quay.io/biocontainers/spliceai"}
+config: {"url": "https://biocontainers.pro/tools/spliceai", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for spliceai", "latest": {"1.3.1--pyh864c0ab_1": "sha256:dcbe88faa015c5a92490b25d54a3fda981d0efaf73821f82ed088d8261754c78"}, "tags": {"1.3.1--pyh864c0ab_1": "sha256:dcbe88faa015c5a92490b25d54a3fda981d0efaf73821f82ed088d8261754c78", "1.3--py_1": "sha256:32092ee0abcaa276736ef8636543f6d95c7fbb67baa8d372271d91b090409a71"}, "docker": "quay.io/biocontainers/spliceai"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/spliceai.

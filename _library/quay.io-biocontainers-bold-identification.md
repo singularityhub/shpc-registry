@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bold-identification"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bold-identification/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bold-identification/container.yaml"
-updated_at: "2022-11-15 00:54:20.040454"
+updated_at: "2022-11-16 00:35:38.732710"
 latest: "0.0.27--py_0"
 container_url: "https://biocontainers.pro/tools/bold-identification"
 aliases:

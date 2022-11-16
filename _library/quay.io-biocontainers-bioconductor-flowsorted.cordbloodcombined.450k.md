@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/container.yaml"
-updated_at: "2022-11-14 23:56:00.151829"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-15 23:52:11.339727"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodcombined.450k"
 aliases:
  - ".bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh"
@@ -13,8 +13,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodcombined.450k"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodcombined.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodcombined.450k", "latest": {"1.8.0--r41hdfd78af_0": "sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k", "aliases": {".bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh": "/usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh", ".bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh": "/usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-flowsorted.cordbloodcombined.450k", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-flowsorted.cordbloodcombined.450k", "latest": {"1.14.0--r42hdfd78af_0": "sha256:202ef62ecf328e89b5f3373719fc47d6700361ad670567bded2707ada5cc21cb"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:6bc0021db4dc576e58cec8d50ec1f00f52c4012d2e9e6a05a671da1f6fed14be", "1.14.0--r42hdfd78af_0": "sha256:202ef62ecf328e89b5f3373719fc47d6700361ad670567bded2707ada5cc21cb", "1.10.0--r41hdfd78af_1": "sha256:9d09ef880e256f499f4f1d0d0ffb2f0e3c1c3e162d9dc88dc6f92fddb3f00b73"}, "docker": "quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k", "aliases": {".bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh": "/usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-post-link.sh", ".bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh": "/usr/local/bin/.bioconductor-flowsorted.cordbloodcombined.450k-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-flowsorted.cordbloodcombined.450k/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

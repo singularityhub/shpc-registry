@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-biom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biom/container.yaml"
-updated_at: "2022-11-15 00:03:13.406043"
+updated_at: "2022-11-15 23:57:33.511681"
 latest: "0.3.12--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-biom"
 aliases:

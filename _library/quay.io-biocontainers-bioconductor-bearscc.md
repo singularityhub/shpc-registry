@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bearscc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bearscc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bearscc/container.yaml"
-updated_at: "2022-11-14 23:53:54.756807"
-latest: "1.7.0--r40_0"
+updated_at: "2022-11-15 23:50:38.173596"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bearscc"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.7.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-bearscc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bearscc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bearscc", "latest": {"1.7.0--r40_0": "sha256:1d962fbe69ddafe63de11f2e28116a896a91d103ffd748870c81444510a76cb1"}, "tags": {"1.7.0--r40_0": "sha256:1d962fbe69ddafe63de11f2e28116a896a91d103ffd748870c81444510a76cb1"}, "docker": "quay.io/biocontainers/bioconductor-bearscc", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bearscc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bearscc", "latest": {"1.18.0--r42hdfd78af_0": "sha256:33878e0babf34de95696cce64749b8672788c547b22f01131339479fd4ba6f76"}, "tags": {"1.7.0--r40_0": "sha256:1d962fbe69ddafe63de11f2e28116a896a91d103ffd748870c81444510a76cb1", "1.18.0--r42hdfd78af_0": "sha256:33878e0babf34de95696cce64749b8672788c547b22f01131339479fd4ba6f76", "1.14.0--r41hdfd78af_0": "sha256:960051e29c467d7f4f7791e4cb238d2366d96417a5e0c0d772c29b4ebace7b34", "1.12.0--r41hdfd78af_0": "sha256:d4c77800eb6ec6bce3c1795b9f78538045290e9b86ebff0b5474a5cdf9864aab", "1.10.0--r40hdfd78af_1": "sha256:9aae8fc38cbc5ad4353ae4063709272f3519c3c9808bab3947d6d7a17d16cfd0"}, "docker": "quay.io/biocontainers/bioconductor-bearscc", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bearscc.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bearscc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bearscc:1.7.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-bearscc:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bearscc/1.7.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-bearscc/1.7.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-bearscc/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bearscc/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

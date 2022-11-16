@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/hypercluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hypercluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hypercluster/container.yaml"
-updated_at: "2022-11-15 00:08:26.778197"
-latest: "0.1.9--0"
+updated_at: "2022-11-16 00:01:25.944826"
+latest: "0.1.13--0"
 container_url: "https://biocontainers.pro/tools/hypercluster"
 aliases:
  - "community"
@@ -24,8 +24,9 @@ aliases:
  - "gifsponge"
 versions:
  - "0.1.9--0"
+ - "0.1.13--0"
 description: "shpc-registry automated BioContainers addition for hypercluster"
-config: {"url": "https://biocontainers.pro/tools/hypercluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypercluster", "latest": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "tags": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39"}, "docker": "quay.io/biocontainers/hypercluster", "aliases": {"community": "/usr/local/bin/community", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge"}}
+config: {"url": "https://biocontainers.pro/tools/hypercluster", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for hypercluster", "latest": {"0.1.13--0": "sha256:825c3000db99967580c507bf2e9e2ae28bd21b863d200053b51c96fc5d6e966b"}, "tags": {"0.1.9--0": "sha256:5afc687e7b82043c76d30d17a25458e8433324ba3f7774c478eb36aad449ea39", "0.1.13--0": "sha256:825c3000db99967580c507bf2e9e2ae28bd21b863d200053b51c96fc5d6e966b"}, "docker": "quay.io/biocontainers/hypercluster", "aliases": {"community": "/usr/local/bin/community", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "mpichversion": "/usr/local/bin/mpichversion", "mpivars": "/usr/local/bin/mpivars", "parkill": "/usr/local/bin/parkill", "hydra_nameserver": "/usr/local/bin/hydra_nameserver", "hydra_persist": "/usr/local/bin/hydra_persist", "hydra_pmi_proxy": "/usr/local/bin/hydra_pmi_proxy", "mpiexec.hydra": "/usr/local/bin/mpiexec.hydra", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/hypercluster.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/hypercluster
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/hypercluster:0.1.9--0
+$ shpc install quay.io/biocontainers/hypercluster:0.1.13--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/hypercluster/0.1.9--0
-$ module help quay.io/biocontainers/hypercluster/0.1.9--0
+$ module load quay.io/biocontainers/hypercluster/0.1.13--0
+$ module help quay.io/biocontainers/hypercluster/0.1.13--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-srnadiff"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-srnadiff/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-srnadiff/container.yaml"
-updated_at: "2022-11-15 00:12:41.981143"
-latest: "1.8.0--r40h5f743cb_0"
+updated_at: "2022-11-16 00:04:36.250883"
+latest: "1.18.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-srnadiff"
 aliases:
  - "pandoc-citeproc"
@@ -20,8 +20,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40h5f743cb_0"
+ - "1.18.0--r42hc247a5b_0"
+ - "1.14.0--r41hc247a5b_2"
+ - "1.12.2--r41h399db7b_0"
+ - "1.10.1--r40h399db7b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-srnadiff"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-srnadiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-srnadiff", "latest": {"1.8.0--r40h5f743cb_0": "sha256:89ea9f33aa6fbf9cf90faee540f9da52134e2242b9e1760d180a7b79875b71cf"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:89ea9f33aa6fbf9cf90faee540f9da52134e2242b9e1760d180a7b79875b71cf"}, "docker": "quay.io/biocontainers/bioconductor-srnadiff", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-srnadiff", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-srnadiff", "latest": {"1.18.0--r42hc247a5b_0": "sha256:e041de989ecc5e35a04feaa50878e6a80fbe438295ee7ae824a2ca249c68506c"}, "tags": {"1.8.0--r40h5f743cb_0": "sha256:89ea9f33aa6fbf9cf90faee540f9da52134e2242b9e1760d180a7b79875b71cf", "1.18.0--r42hc247a5b_0": "sha256:e041de989ecc5e35a04feaa50878e6a80fbe438295ee7ae824a2ca249c68506c", "1.14.0--r41hc247a5b_2": "sha256:dd353c3d2449165457625232ea4f1d367b6252a879cc0fa0153b4e95cd902ca3", "1.12.2--r41h399db7b_0": "sha256:9dce7f5e1adbd005dfaca8910b2729e8cd59d2de414a7ff2eaa8d077639d7677", "1.10.1--r40h399db7b_0": "sha256:b0fd963364a6fa438780aa09346677377d029dc25690935aa537ff8a0bdecf2c"}, "docker": "quay.io/biocontainers/bioconductor-srnadiff", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-srnadiff.
@@ -36,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-srnadiff
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-srnadiff:1.8.0--r40h5f743cb_0
+$ shpc install quay.io/biocontainers/bioconductor-srnadiff:1.18.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-srnadiff/1.8.0--r40h5f743cb_0
-$ module help quay.io/biocontainers/bioconductor-srnadiff/1.8.0--r40h5f743cb_0
+$ module load quay.io/biocontainers/bioconductor-srnadiff/1.18.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-srnadiff/1.18.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

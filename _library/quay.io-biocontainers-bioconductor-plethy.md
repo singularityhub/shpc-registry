@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-plethy"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-plethy/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-plethy/container.yaml"
-updated_at: "2022-11-15 00:31:47.224083"
-latest: "1.30.0--r41hdfd78af_0"
+updated_at: "2022-11-16 00:18:48.659910"
+latest: "1.36.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-plethy"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.30.0--r41hdfd78af_0"
+ - "1.36.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-plethy"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-plethy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plethy", "latest": {"1.30.0--r41hdfd78af_0": "sha256:e996f8f3a92014a6b5e79da60e87a914dccf3642dccf53949a26c23e737862f3"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:e996f8f3a92014a6b5e79da60e87a914dccf3642dccf53949a26c23e737862f3"}, "docker": "quay.io/biocontainers/bioconductor-plethy", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-plethy", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-plethy", "latest": {"1.36.0--r42hdfd78af_0": "sha256:cc3912a3424287b2530e3b573fb83ac0734ca750c5cda843fe54fe6b5e938bc8"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:e996f8f3a92014a6b5e79da60e87a914dccf3642dccf53949a26c23e737862f3", "1.36.0--r42hdfd78af_0": "sha256:cc3912a3424287b2530e3b573fb83ac0734ca750c5cda843fe54fe6b5e938bc8"}, "docker": "quay.io/biocontainers/bioconductor-plethy", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-plethy.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-plethy
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-plethy:1.30.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-plethy:1.36.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-plethy/1.30.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-plethy/1.30.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-plethy/1.36.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-plethy/1.36.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

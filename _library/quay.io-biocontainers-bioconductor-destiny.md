@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-destiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-destiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-destiny/container.yaml"
-updated_at: "2022-11-15 00:04:27.064915"
-latest: "3.8.1--r41hc247a5b_1"
+updated_at: "2022-11-15 23:58:28.166305"
+latest: "3.12.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-destiny"
 aliases:
  - "f2py3.10"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "3.8.1--r41hc247a5b_1"
+ - "3.12.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-destiny"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-destiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-destiny", "latest": {"3.8.1--r41hc247a5b_1": "sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0"}, "tags": {"3.8.1--r41hc247a5b_1": "sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0"}, "docker": "quay.io/biocontainers/bioconductor-destiny", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-destiny", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-destiny", "latest": {"3.12.0--r42hc247a5b_0": "sha256:bf2c7e8d0b239256e75ee0425758f4ca21b32d42b7e1ad5eba4a93928e03fcfc"}, "tags": {"3.8.1--r41hc247a5b_1": "sha256:f41c42d632a80bcad7d537e9055f02b9a617421f022faaef8dac985af4dd7ca0", "3.12.0--r42hc247a5b_0": "sha256:bf2c7e8d0b239256e75ee0425758f4ca21b32d42b7e1ad5eba4a93928e03fcfc"}, "docker": "quay.io/biocontainers/bioconductor-destiny", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-destiny.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-destiny
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-destiny:3.8.1--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-destiny:3.12.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-destiny/3.8.1--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-destiny/3.8.1--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-destiny/3.12.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-destiny/3.12.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

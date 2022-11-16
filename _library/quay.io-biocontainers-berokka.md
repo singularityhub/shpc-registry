@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/berokka"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/berokka/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/berokka/container.yaml"
-updated_at: "2022-11-15 01:00:54.920020"
+updated_at: "2022-11-16 00:40:32.126976"
 latest: "0.2.3--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/berokka"
 aliases:
@@ -21,8 +21,9 @@ aliases:
  - "infinitesites"
 versions:
  - "0.2.3--hdfd78af_3"
+ - "0.2--3"
 description: "shpc-registry automated BioContainers addition for berokka"
-config: {"url": "https://biocontainers.pro/tools/berokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for berokka", "latest": {"0.2.3--hdfd78af_3": "sha256:1fea82109bc0ebd7f2abe7a1f36b5798ce54114f14ae8941339d360de793f7d8"}, "tags": {"0.2.3--hdfd78af_3": "sha256:1fea82109bc0ebd7f2abe7a1f36b5798ce54114f14ae8941339d360de793f7d8"}, "docker": "quay.io/biocontainers/berokka", "aliases": {"berokka": "/usr/local/bin/berokka", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver", "infinitesites": "/usr/local/bin/infinitesites"}}
+config: {"url": "https://biocontainers.pro/tools/berokka", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for berokka", "latest": {"0.2.3--hdfd78af_3": "sha256:1fea82109bc0ebd7f2abe7a1f36b5798ce54114f14ae8941339d360de793f7d8"}, "tags": {"0.2.3--hdfd78af_3": "sha256:1fea82109bc0ebd7f2abe7a1f36b5798ce54114f14ae8941339d360de793f7d8", "0.2--3": "sha256:366ef78a81994088121c43d1ccc21da8645ce41fa0ecf260a79001ae599d1d4d"}, "docker": "quay.io/biocontainers/berokka", "aliases": {"berokka": "/usr/local/bin/berokka", "bam2bedgraph": "/usr/local/bin/bam2bedgraph", "bp_pairwise_kaks": "/usr/local/bin/bp_pairwise_kaks", "bp_find-blast-matches.pl": "/usr/local/bin/bp_find-blast-matches.pl", "t_coffee": "/usr/local/bin/t_coffee", "baseml": "/usr/local/bin/baseml", "basemlg": "/usr/local/bin/basemlg", "chi2": "/usr/local/bin/chi2", "codeml": "/usr/local/bin/codeml", "evolver": "/usr/local/bin/evolver", "infinitesites": "/usr/local/bin/infinitesites"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/berokka.

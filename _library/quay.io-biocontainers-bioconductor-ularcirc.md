@@ -4,15 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-ularcirc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ularcirc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ularcirc/container.yaml"
-updated_at: "2022-11-15 00:36:01.827297"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-16 00:21:58.505176"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ularcirc"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ularcirc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ularcirc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ularcirc", "latest": {"1.8.0--r40hdfd78af_1": "sha256:7b02aa301fa8c571248c17f6d91bbde30cafc7f2d820ddf52736138dde6b9da8"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7b02aa301fa8c571248c17f6d91bbde30cafc7f2d820ddf52736138dde6b9da8"}, "docker": "quay.io/biocontainers/bioconductor-ularcirc", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ularcirc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ularcirc", "latest": {"1.16.0--r42hdfd78af_0": "sha256:03dded7c5b56e1e2cdded565ffc76bd3a533124b16226714e46ea82bceb693c5"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:7b02aa301fa8c571248c17f6d91bbde30cafc7f2d820ddf52736138dde6b9da8", "1.16.0--r42hdfd78af_0": "sha256:03dded7c5b56e1e2cdded565ffc76bd3a533124b16226714e46ea82bceb693c5", "1.12.0--r41hdfd78af_0": "sha256:132450da1fa0d32c168b660f69aeebb1bab906371e81ada833cdd3b2439c55f0", "1.10.0--r41hdfd78af_0": "sha256:1d829c7bbb50c2d82f1922d2b2e99d92996c99e9d2ba732ce26237911aa18c12"}, "docker": "quay.io/biocontainers/bioconductor-ularcirc", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ularcirc.
@@ -27,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ularcirc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ularcirc:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ularcirc:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ularcirc/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ularcirc/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ularcirc/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ularcirc/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-clusterexperiment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-clusterexperiment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-clusterexperiment/container.yaml"
-updated_at: "2022-11-14 23:53:29.342215"
+updated_at: "2022-11-15 23:50:19.279780"
 latest: "2.18.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-clusterexperiment"
 aliases:

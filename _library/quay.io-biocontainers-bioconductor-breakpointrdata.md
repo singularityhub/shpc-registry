@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-breakpointrdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-breakpointrdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-breakpointrdata/container.yaml"
-updated_at: "2022-11-15 00:33:06.139997"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-16 00:19:47.528121"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-breakpointrdata"
 aliases:
  - ".bioconductor-breakpointrdata-post-link.sh"
@@ -13,8 +13,12 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.15.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-breakpointrdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-breakpointrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-breakpointrdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:4632309994266977023d5666ca081c1dc3d4565c447e7d03b824d22ffaa7beed"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:4632309994266977023d5666ca081c1dc3d4565c447e7d03b824d22ffaa7beed"}, "docker": "quay.io/biocontainers/bioconductor-breakpointrdata", "aliases": {".bioconductor-breakpointrdata-post-link.sh": "/usr/local/bin/.bioconductor-breakpointrdata-post-link.sh", ".bioconductor-breakpointrdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-breakpointrdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-breakpointrdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-breakpointrdata", "latest": {"1.16.0--r42hdfd78af_0": "sha256:fe9cca009c9fc03ec2ad16f5abdc207588fb57cc4b1ca9bf25218aeed690daf2"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:4632309994266977023d5666ca081c1dc3d4565c447e7d03b824d22ffaa7beed", "1.16.0--r42hdfd78af_0": "sha256:fe9cca009c9fc03ec2ad16f5abdc207588fb57cc4b1ca9bf25218aeed690daf2", "1.15.0--r42hdfd78af_0": "sha256:533de351191b620e0b58ed436c352fa2cc3e36e7813a2fea63f9d448eab7ad4d", "1.12.0--r41hdfd78af_1": "sha256:12a73d45d83bd3d9b34c277fcff86cab1490b23b2d6b4472323e0c4777a5fc43", "1.10.0--r41hdfd78af_0": "sha256:79c311e8cbdfd4d48533f29bcb970a18b14dc386134ad9903514da63b1c8fef8"}, "docker": "quay.io/biocontainers/bioconductor-breakpointrdata", "aliases": {".bioconductor-breakpointrdata-post-link.sh": "/usr/local/bin/.bioconductor-breakpointrdata-post-link.sh", ".bioconductor-breakpointrdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-breakpointrdata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-breakpointrdata.
@@ -29,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-breakpointrdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-breakpointrdata:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-breakpointrdata:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-breakpointrdata/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-breakpointrdata/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-breakpointrdata/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-breakpointrdata/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

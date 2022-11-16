@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5/container.yaml"
-updated_at: "2022-11-15 00:56:31.879834"
+updated_at: "2022-11-16 00:37:16.932752"
 latest: "3.7.0--r36_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/tobias"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tobias/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tobias/container.yaml"
-updated_at: "2022-11-15 00:33:36.790123"
-latest: "0.9.0--py36hc1659b7_0"
+updated_at: "2022-11-16 00:20:10.140758"
+latest: "0.13.0--py36h4f025d9_0"
 container_url: "https://biocontainers.pro/tools/tobias"
 aliases:
  - "TOBIAS"
@@ -30,8 +30,11 @@ aliases:
  - "intersection_matrix.py"
 versions:
  - "0.9.0--py36hc1659b7_0"
+ - "0.13.0--py36h4f025d9_0"
+ - "0.12.12--py36h4f025d9_0"
+ - "0.11.6--py36h29c9776_1"
 description: "shpc-registry automated BioContainers addition for tobias"
-config: {"url": "https://biocontainers.pro/tools/tobias", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tobias", "latest": {"0.9.0--py36hc1659b7_0": "sha256:66a68d1bef15ab6b78de28a74ad94833244bae1c8caf6f823e3095e47c45d9df"}, "tags": {"0.9.0--py36hc1659b7_0": "sha256:66a68d1bef15ab6b78de28a74ad94833244bae1c8caf6f823e3095e47c45d9df"}, "docker": "quay.io/biocontainers/tobias", "aliases": {"TOBIAS": "/usr/local/bin/TOBIAS", "ccache-swig": "/usr/local/bin/ccache-swig", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "filter_important_factors.py": "/usr/local/bin/filter_important_factors.py", "moods-dna.py": "/usr/local/bin/moods-dna.py", "svist4get": "/usr/local/bin/svist4get", "svist4get_copier": "/usr/local/bin/svist4get_copier", "swig": "/usr/local/bin/swig", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "vba_extract.py": "/usr/local/bin/vba_extract.py", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py"}}
+config: {"url": "https://biocontainers.pro/tools/tobias", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for tobias", "latest": {"0.13.0--py36h4f025d9_0": "sha256:248678d29f151ff297b5b41feaa86d28ab7c3dfe3c08605c19dd9a28003eb570"}, "tags": {"0.9.0--py36hc1659b7_0": "sha256:66a68d1bef15ab6b78de28a74ad94833244bae1c8caf6f823e3095e47c45d9df", "0.13.0--py36h4f025d9_0": "sha256:248678d29f151ff297b5b41feaa86d28ab7c3dfe3c08605c19dd9a28003eb570", "0.12.12--py36h4f025d9_0": "sha256:1b1c9ba97db7f468e7d9151d1bcbd1b900d6f1772a62a443f8672a2e12e6a1df", "0.11.6--py36h29c9776_1": "sha256:09780107398b644439cddd1540e6fe3d25e68c6c287355617b3db8f52236e51c"}, "docker": "quay.io/biocontainers/tobias", "aliases": {"TOBIAS": "/usr/local/bin/TOBIAS", "ccache-swig": "/usr/local/bin/ccache-swig", "croco-0.6-config": "/usr/local/bin/croco-0.6-config", "csslint-0.6": "/usr/local/bin/csslint-0.6", "filter_important_factors.py": "/usr/local/bin/filter_important_factors.py", "moods-dna.py": "/usr/local/bin/moods-dna.py", "svist4get": "/usr/local/bin/svist4get", "svist4get_copier": "/usr/local/bin/svist4get_copier", "swig": "/usr/local/bin/swig", "x86_64-conda_cos6-linux-gnu-pkg-config": "/usr/local/bin/x86_64-conda_cos6-linux-gnu-pkg-config", "g-ir-doc-tool": "/usr/local/bin/g-ir-doc-tool", "giffilter": "/usr/local/bin/giffilter", "gifsponge": "/usr/local/bin/gifsponge", "vba_extract.py": "/usr/local/bin/vba_extract.py", "g-ir-annotation-tool": "/usr/local/bin/g-ir-annotation-tool", "g-ir-compiler": "/usr/local/bin/g-ir-compiler", "g-ir-generate": "/usr/local/bin/g-ir-generate", "g-ir-inspect": "/usr/local/bin/g-ir-inspect", "g-ir-scanner": "/usr/local/bin/g-ir-scanner", "intersection_matrix.py": "/usr/local/bin/intersection_matrix.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/tobias.
@@ -46,7 +49,7 @@ $ shpc install quay.io/biocontainers/tobias
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/tobias:0.9.0--py36hc1659b7_0
+$ shpc install quay.io/biocontainers/tobias:0.13.0--py36h4f025d9_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -58,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/tobias/0.9.0--py36hc1659b7_0
-$ module help quay.io/biocontainers/tobias/0.9.0--py36hc1659b7_0
+$ module load quay.io/biocontainers/tobias/0.13.0--py36h4f025d9_0
+$ module help quay.io/biocontainers/tobias/0.13.0--py36h4f025d9_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

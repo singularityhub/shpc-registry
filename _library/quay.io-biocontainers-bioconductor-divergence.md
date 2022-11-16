@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-divergence"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-divergence/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-divergence/container.yaml"
-updated_at: "2022-11-15 01:03:46.986087"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-16 00:42:40.645579"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-divergence"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-divergence"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-divergence", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-divergence", "latest": {"1.8.0--r41hdfd78af_0": "sha256:b6eefa30bc8d3bfff867fc3f6da56af55c9d5f98fa5ddcdfd46f61f80be1a7e3"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b6eefa30bc8d3bfff867fc3f6da56af55c9d5f98fa5ddcdfd46f61f80be1a7e3"}, "docker": "quay.io/biocontainers/bioconductor-divergence", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-divergence", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-divergence", "latest": {"1.14.0--r42hdfd78af_0": "sha256:2a3680641517a31d069d53debfdf20b66671747601ef9cb322f463f33d57550e"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b6eefa30bc8d3bfff867fc3f6da56af55c9d5f98fa5ddcdfd46f61f80be1a7e3", "1.14.0--r42hdfd78af_0": "sha256:2a3680641517a31d069d53debfdf20b66671747601ef9cb322f463f33d57550e", "1.10.0--r41hdfd78af_0": "sha256:c1c6660e2f8090c115a5b243bacff1bd3f74e4be543a541d0c73f7d8b8d810df"}, "docker": "quay.io/biocontainers/bioconductor-divergence", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-divergence.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-divergence
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-divergence:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-divergence:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-divergence/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-divergence/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-divergence/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-divergence/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

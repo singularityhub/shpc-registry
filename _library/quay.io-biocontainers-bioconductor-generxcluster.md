@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-generxcluster"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-generxcluster/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-generxcluster/container.yaml"
-updated_at: "2022-11-15 00:08:39.167448"
+updated_at: "2022-11-16 00:01:35.279729"
 latest: "1.30.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-generxcluster"
 
