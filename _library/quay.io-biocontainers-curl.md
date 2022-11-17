@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/curl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/curl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/curl/container.yaml"
-updated_at: "2022-11-16 00:02:31.118655"
+updated_at: "2022-11-17 03:00:04.748715"
 latest: "7.80.0"
 container_url: "https://biocontainers.pro/tools/curl"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hta20probeset.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hta20probeset.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hta20probeset.db/container.yaml"
-updated_at: "2022-11-16 00:38:06.295074"
-latest: "8.8.0--r41hdfd78af_1"
+updated_at: "2022-11-17 03:34:52.502064"
+latest: "8.8.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-hta20probeset.db"
 aliases:
  - ".bioconductor-hta20probeset.db-post-link.sh"
  - ".bioconductor-hta20probeset.db-pre-unlink.sh"
 versions:
  - "8.8.0--r41hdfd78af_1"
+ - "8.8.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-hta20probeset.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hta20probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hta20probeset.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:89ec17f27083ca1f69270d05318c4344f19f1a5713c3923f67fcb0346c817e43"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:89ec17f27083ca1f69270d05318c4344f19f1a5713c3923f67fcb0346c817e43"}, "docker": "quay.io/biocontainers/bioconductor-hta20probeset.db", "aliases": {".bioconductor-hta20probeset.db-post-link.sh": "/usr/local/bin/.bioconductor-hta20probeset.db-post-link.sh", ".bioconductor-hta20probeset.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hta20probeset.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hta20probeset.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hta20probeset.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:576932d37ce9bd2afcaa65b2d0ba79779c1ef536de760a8458b2e30561fb33c0"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:89ec17f27083ca1f69270d05318c4344f19f1a5713c3923f67fcb0346c817e43", "8.8.0--r42hdfd78af_2": "sha256:576932d37ce9bd2afcaa65b2d0ba79779c1ef536de760a8458b2e30561fb33c0"}, "docker": "quay.io/biocontainers/bioconductor-hta20probeset.db", "aliases": {".bioconductor-hta20probeset.db-post-link.sh": "/usr/local/bin/.bioconductor-hta20probeset.db-post-link.sh", ".bioconductor-hta20probeset.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-hta20probeset.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hta20probeset.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hta20probeset.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hta20probeset.db:8.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-hta20probeset.db:8.8.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hta20probeset.db/8.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-hta20probeset.db/8.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-hta20probeset.db/8.8.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-hta20probeset.db/8.8.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

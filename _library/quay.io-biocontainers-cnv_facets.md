@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/cnv_facets"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cnv_facets/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cnv_facets/container.yaml"
-updated_at: "2022-11-16 00:23:07.457468"
-latest: "v0.11.3--r351_2"
+updated_at: "2022-11-17 03:20:13.516896"
+latest: "0.16.0--py38r36h4b26f60_1"
 container_url: "https://biocontainers.pro/tools/cnv_facets"
 aliases:
  - "cnv_facets.R"
@@ -22,8 +22,13 @@ aliases:
  - "blast2sam.pl"
 versions:
  - "v0.11.3--r351_2"
+ - "0.16.0--py38r36h4b26f60_1"
+ - "0.15.0--r36h4b26f60_1"
+ - "0.14.0--r351h14c3975_1"
+ - "0.13.0--r351h14c3975_1"
+ - "0.12.1--r351h14c3975_1"
 description: "shpc-registry automated BioContainers addition for cnv_facets"
-config: {"url": "https://biocontainers.pro/tools/cnv_facets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnv_facets", "latest": {"v0.11.3--r351_2": "sha256:c6fb22e0ee176146131e9dfe8411b0e3e2128ec6a65c96441ca59c6fc1427068"}, "tags": {"v0.11.3--r351_2": "sha256:c6fb22e0ee176146131e9dfe8411b0e3e2128ec6a65c96441ca59c6fc1427068"}, "docker": "quay.io/biocontainers/cnv_facets", "aliases": {"cnv_facets.R": "/usr/local/bin/cnv_facets.R", "snp-pileup": "/usr/local/bin/snp-pileup", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "wget": "/usr/local/bin/wget", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
+config: {"url": "https://biocontainers.pro/tools/cnv_facets", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for cnv_facets", "latest": {"0.16.0--py38r36h4b26f60_1": "sha256:11a4bce7d58ef48538fe478d73991b65193024225b90fe4936c4bc88325b507a"}, "tags": {"v0.11.3--r351_2": "sha256:c6fb22e0ee176146131e9dfe8411b0e3e2128ec6a65c96441ca59c6fc1427068", "0.16.0--py38r36h4b26f60_1": "sha256:11a4bce7d58ef48538fe478d73991b65193024225b90fe4936c4bc88325b507a", "0.15.0--r36h4b26f60_1": "sha256:129a23cde5a82afa6258739692f9e1d41e3c6ceea2cbade77ec85e1755ff7359", "0.14.0--r351h14c3975_1": "sha256:e2c567ece38c9aa0cfad6ac7b5b5c4b98fcbbee261e4ceefbc3fac66879439d6", "0.13.0--r351h14c3975_1": "sha256:651054e8dab1d2554638644ca44fee2bc8e6bf11fb9a9fc0bb6e163f37cfcda8", "0.12.1--r351h14c3975_1": "sha256:b9bc31d2fe8729a166891219d3723301351670b0d83d3692891953c006de87d7"}, "docker": "quay.io/biocontainers/cnv_facets", "aliases": {"cnv_facets.R": "/usr/local/bin/cnv_facets.R", "snp-pileup": "/usr/local/bin/snp-pileup", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "wget": "/usr/local/bin/wget", "ace2sam": "/usr/local/bin/ace2sam", "blast2sam.pl": "/usr/local/bin/blast2sam.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/cnv_facets.
@@ -38,7 +43,7 @@ $ shpc install quay.io/biocontainers/cnv_facets
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/cnv_facets:v0.11.3--r351_2
+$ shpc install quay.io/biocontainers/cnv_facets:0.16.0--py38r36h4b26f60_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/cnv_facets/v0.11.3--r351_2
-$ module help quay.io/biocontainers/cnv_facets/v0.11.3--r351_2
+$ module load quay.io/biocontainers/cnv_facets/0.16.0--py38r36h4b26f60_1
+$ module help quay.io/biocontainers/cnv_facets/0.16.0--py38r36h4b26f60_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

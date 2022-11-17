@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-monocle3"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-monocle3/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-monocle3/container.yaml"
-updated_at: "2022-11-16 00:10:55.426959"
-latest: "1.0.0--r41h9f5acd7_2"
+updated_at: "2022-11-17 03:08:18.453055"
+latest: "1.0.0--r42h9f5acd7_3"
 container_url: "https://biocontainers.pro/tools/r-monocle3"
 aliases:
  - "pg_amcheck"
@@ -20,8 +20,9 @@ aliases:
  - "applygeo"
 versions:
  - "1.0.0--r41h9f5acd7_2"
+ - "1.0.0--r42h9f5acd7_3"
 description: "shpc-registry automated BioContainers addition for r-monocle3"
-config: {"url": "https://biocontainers.pro/tools/r-monocle3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-monocle3", "latest": {"1.0.0--r41h9f5acd7_2": "sha256:d4852b89fa06b6f62f4abd30679cc92368e8c49beea05a1ccaae664a3962152e"}, "tags": {"1.0.0--r41h9f5acd7_2": "sha256:d4852b89fa06b6f62f4abd30679cc92368e8c49beea05a1ccaae664a3962152e"}, "docker": "quay.io/biocontainers/r-monocle3", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
+config: {"url": "https://biocontainers.pro/tools/r-monocle3", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-monocle3", "latest": {"1.0.0--r42h9f5acd7_3": "sha256:dea840f4cf6e2e1b09d2adebe2ce3490cf9c0611c45ebbdf111a9098ffdb96b7"}, "tags": {"1.0.0--r41h9f5acd7_2": "sha256:d4852b89fa06b6f62f4abd30679cc92368e8c49beea05a1ccaae664a3962152e", "1.0.0--r42h9f5acd7_3": "sha256:dea840f4cf6e2e1b09d2adebe2ce3490cf9c0611c45ebbdf111a9098ffdb96b7"}, "docker": "quay.io/biocontainers/r-monocle3", "aliases": {"pg_amcheck": "/usr/local/bin/pg_amcheck", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach", "applygeo": "/usr/local/bin/applygeo"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-monocle3.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-monocle3
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-monocle3:1.0.0--r41h9f5acd7_2
+$ shpc install quay.io/biocontainers/r-monocle3:1.0.0--r42h9f5acd7_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-monocle3/1.0.0--r41h9f5acd7_2
-$ module help quay.io/biocontainers/r-monocle3/1.0.0--r41h9f5acd7_2
+$ module load quay.io/biocontainers/r-monocle3/1.0.0--r42h9f5acd7_3
+$ module help quay.io/biocontainers/r-monocle3/1.0.0--r42h9f5acd7_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

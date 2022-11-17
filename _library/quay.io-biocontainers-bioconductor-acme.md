@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-acme"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-acme/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-acme/container.yaml"
-updated_at: "2022-11-16 00:05:08.040901"
-latest: "2.50.0--r41hc0cfd56_2"
+updated_at: "2022-11-17 03:02:38.341085"
+latest: "2.54.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-acme"
 
 versions:
  - "2.50.0--r41hc0cfd56_2"
+ - "2.54.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-acme"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-acme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-acme", "latest": {"2.50.0--r41hc0cfd56_2": "sha256:4fd50d3647cc843691a64ea2b22d9f2436907dc3bf5473fad2be8664cd8df3b1"}, "tags": {"2.50.0--r41hc0cfd56_2": "sha256:4fd50d3647cc843691a64ea2b22d9f2436907dc3bf5473fad2be8664cd8df3b1"}, "docker": "quay.io/biocontainers/bioconductor-acme"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-acme", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-acme", "latest": {"2.54.0--r42hc0cfd56_0": "sha256:add961f4d145fa3a0f21f368c686c5c4b775cb4fed16a549a83d78fb6424fb7b"}, "tags": {"2.50.0--r41hc0cfd56_2": "sha256:4fd50d3647cc843691a64ea2b22d9f2436907dc3bf5473fad2be8664cd8df3b1", "2.54.0--r42hc0cfd56_0": "sha256:add961f4d145fa3a0f21f368c686c5c4b775cb4fed16a549a83d78fb6424fb7b"}, "docker": "quay.io/biocontainers/bioconductor-acme"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-acme.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-acme
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-acme:2.50.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-acme:2.54.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-acme/2.50.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-acme/2.50.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-acme/2.54.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-acme/2.54.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

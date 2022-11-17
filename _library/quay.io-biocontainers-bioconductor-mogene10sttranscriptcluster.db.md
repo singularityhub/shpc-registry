@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db/container.yaml"
-updated_at: "2022-11-16 00:07:58.207179"
-latest: "8.8.0--r41hdfd78af_1"
+updated_at: "2022-11-17 03:05:24.659307"
+latest: "8.8.0--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-mogene10sttranscriptcluster.db"
 aliases:
  - ".bioconductor-mogene10sttranscriptcluster.db-post-link.sh"
  - ".bioconductor-mogene10sttranscriptcluster.db-pre-unlink.sh"
 versions:
  - "8.8.0--r41hdfd78af_1"
+ - "8.8.0--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-mogene10sttranscriptcluster.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mogene10sttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mogene10sttranscriptcluster.db", "latest": {"8.8.0--r41hdfd78af_1": "sha256:7b838ea43880554867cf91bde089fc4a0a5f35020497c0de48528865af0f7acc"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:7b838ea43880554867cf91bde089fc4a0a5f35020497c0de48528865af0f7acc"}, "docker": "quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db", "aliases": {".bioconductor-mogene10sttranscriptcluster.db-post-link.sh": "/usr/local/bin/.bioconductor-mogene10sttranscriptcluster.db-post-link.sh", ".bioconductor-mogene10sttranscriptcluster.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mogene10sttranscriptcluster.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mogene10sttranscriptcluster.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mogene10sttranscriptcluster.db", "latest": {"8.8.0--r42hdfd78af_2": "sha256:040fcb0f8d256a2b896f7eaf705c3a7e029086363f293ba9bf8e149b9c08e80f"}, "tags": {"8.8.0--r41hdfd78af_1": "sha256:7b838ea43880554867cf91bde089fc4a0a5f35020497c0de48528865af0f7acc", "8.8.0--r42hdfd78af_2": "sha256:040fcb0f8d256a2b896f7eaf705c3a7e029086363f293ba9bf8e149b9c08e80f"}, "docker": "quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db", "aliases": {".bioconductor-mogene10sttranscriptcluster.db-post-link.sh": "/usr/local/bin/.bioconductor-mogene10sttranscriptcluster.db-post-link.sh", ".bioconductor-mogene10sttranscriptcluster.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-mogene10sttranscriptcluster.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db:8.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db:8.8.0--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db/8.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db/8.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db/8.8.0--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-mogene10sttranscriptcluster.db/8.8.0--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

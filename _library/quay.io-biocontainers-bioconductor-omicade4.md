@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-omicade4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicade4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicade4/container.yaml"
-updated_at: "2022-11-16 00:23:43.853430"
-latest: "1.34.0--r41hdfd78af_0"
+updated_at: "2022-11-17 03:20:49.202908"
+latest: "1.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicade4"
 
 versions:
  - "1.34.0--r41hdfd78af_0"
+ - "1.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicade4"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicade4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicade4", "latest": {"1.34.0--r41hdfd78af_0": "sha256:7a83bccc6d166feb0f083edccb30dff2e5a30b0c87e4e163ac102c2cfaf611db"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:7a83bccc6d166feb0f083edccb30dff2e5a30b0c87e4e163ac102c2cfaf611db"}, "docker": "quay.io/biocontainers/bioconductor-omicade4"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicade4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicade4", "latest": {"1.38.0--r42hdfd78af_0": "sha256:19329f0e4b9d55526d86c55a9c4ba6a1e3bbeb97ad42682bbd2c68fad2c66381"}, "tags": {"1.34.0--r41hdfd78af_0": "sha256:7a83bccc6d166feb0f083edccb30dff2e5a30b0c87e4e163ac102c2cfaf611db", "1.38.0--r42hdfd78af_0": "sha256:19329f0e4b9d55526d86c55a9c4ba6a1e3bbeb97ad42682bbd2c68fad2c66381"}, "docker": "quay.io/biocontainers/bioconductor-omicade4"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicade4.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omicade4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omicade4:1.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-omicade4:1.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omicade4/1.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-omicade4/1.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-omicade4/1.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omicade4/1.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

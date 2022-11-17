@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-gmwt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-gmwt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-gmwt/container.yaml"
-updated_at: "2022-11-16 00:39:54.483480"
-latest: "1.1.1--r41h25def4e_5"
+updated_at: "2022-11-17 03:36:37.759920"
+latest: "1.2--r42h25def4e_1"
 container_url: "https://biocontainers.pro/tools/r-gmwt"
 
 versions:
  - "1.1.1--r41h25def4e_5"
+ - "1.2--r42h25def4e_1"
 description: "shpc-registry automated BioContainers addition for r-gmwt"
-config: {"url": "https://biocontainers.pro/tools/r-gmwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gmwt", "latest": {"1.1.1--r41h25def4e_5": "sha256:2fc0c75c7d600bd7444a3ef317f16ba38751b477c8a636a8b3ea76eba894956b"}, "tags": {"1.1.1--r41h25def4e_5": "sha256:2fc0c75c7d600bd7444a3ef317f16ba38751b477c8a636a8b3ea76eba894956b"}, "docker": "quay.io/biocontainers/r-gmwt"}
+config: {"url": "https://biocontainers.pro/tools/r-gmwt", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-gmwt", "latest": {"1.2--r42h25def4e_1": "sha256:766ced7c8230e6079f6a1ce2bdc806d450457aea71982adf1777cb2669ae108b"}, "tags": {"1.1.1--r41h25def4e_5": "sha256:2fc0c75c7d600bd7444a3ef317f16ba38751b477c8a636a8b3ea76eba894956b", "1.2--r42h25def4e_1": "sha256:766ced7c8230e6079f6a1ce2bdc806d450457aea71982adf1777cb2669ae108b"}, "docker": "quay.io/biocontainers/r-gmwt"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-gmwt.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-gmwt
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-gmwt:1.1.1--r41h25def4e_5
+$ shpc install quay.io/biocontainers/r-gmwt:1.2--r42h25def4e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-gmwt/1.1.1--r41h25def4e_5
-$ module help quay.io/biocontainers/r-gmwt/1.1.1--r41h25def4e_5
+$ module load quay.io/biocontainers/r-gmwt/1.2--r42h25def4e_1
+$ module help quay.io/biocontainers/r-gmwt/1.2--r42h25def4e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

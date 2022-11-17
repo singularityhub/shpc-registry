@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mpfe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mpfe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mpfe/container.yaml"
-updated_at: "2022-11-16 00:24:48.781971"
+updated_at: "2022-11-17 03:21:52.512667"
 latest: "1.30.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mpfe"
 

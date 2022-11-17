@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-bioverbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bioverbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bioverbs/container.yaml"
-updated_at: "2022-11-16 00:08:33.725039"
-latest: "0.2.9--r36_0"
+updated_at: "2022-11-17 03:05:59.628770"
+latest: "0.2.13--r36_0"
 container_url: "https://biocontainers.pro/tools/r-bioverbs"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,9 @@ aliases:
  - "c99"
 versions:
  - "0.2.9--r36_0"
+ - "0.2.13--r36_0"
 description: "shpc-registry automated BioContainers addition for r-bioverbs"
-config: {"url": "https://biocontainers.pro/tools/r-bioverbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bioverbs", "latest": {"0.2.9--r36_0": "sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9"}, "tags": {"0.2.9--r36_0": "sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9"}, "docker": "quay.io/biocontainers/r-bioverbs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-bioverbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bioverbs", "latest": {"0.2.13--r36_0": "sha256:55e653056816b13123b60266ebcf503384c31ca269d076d8348448208d3063e1"}, "tags": {"0.2.9--r36_0": "sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9", "0.2.13--r36_0": "sha256:55e653056816b13123b60266ebcf503384c31ca269d076d8348448208d3063e1"}, "docker": "quay.io/biocontainers/r-bioverbs", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bioverbs.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/r-bioverbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bioverbs:0.2.9--r36_0
+$ shpc install quay.io/biocontainers/r-bioverbs:0.2.13--r36_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bioverbs/0.2.9--r36_0
-$ module help quay.io/biocontainers/r-bioverbs/0.2.9--r36_0
+$ module load quay.io/biocontainers/r-bioverbs/0.2.13--r36_0
+$ module help quay.io/biocontainers/r-bioverbs/0.2.13--r36_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

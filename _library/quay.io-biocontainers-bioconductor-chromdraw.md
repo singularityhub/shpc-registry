@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromdraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromdraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromdraw/container.yaml"
-updated_at: "2022-11-16 00:41:10.821333"
+updated_at: "2022-11-17 03:37:52.719213"
 latest: "2.8.0--r3.4.1_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromdraw"
 aliases:

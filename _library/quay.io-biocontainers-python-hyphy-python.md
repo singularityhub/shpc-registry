@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/python-hyphy-python"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-hyphy-python/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-hyphy-python/container.yaml"
-updated_at: "2022-11-16 00:13:15.204008"
-latest: "0.1.9--py27hfae33f2_4"
+updated_at: "2022-11-17 03:10:35.320968"
+latest: "0.1.10--py38hb572783_2"
 container_url: "https://biocontainers.pro/tools/python-hyphy-python"
 aliases:
  - "python2-config"
@@ -17,8 +17,9 @@ aliases:
  - "smtpd.py"
 versions:
  - "0.1.9--py27hfae33f2_4"
+ - "0.1.10--py38hb572783_2"
 description: "shpc-registry automated BioContainers addition for python-hyphy-python"
-config: {"url": "https://biocontainers.pro/tools/python-hyphy-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-hyphy-python", "latest": {"0.1.9--py27hfae33f2_4": "sha256:134aa20159e65218ca6b46c3d4fd31fd7ba9f1530f16201dd10c485da72b95b2"}, "tags": {"0.1.9--py27hfae33f2_4": "sha256:134aa20159e65218ca6b46c3d4fd31fd7ba9f1530f16201dd10c485da72b95b2"}, "docker": "quay.io/biocontainers/python-hyphy-python", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
+config: {"url": "https://biocontainers.pro/tools/python-hyphy-python", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for python-hyphy-python", "latest": {"0.1.10--py38hb572783_2": "sha256:f84e1e078d0941aeab7ef51cd2a61f59489273f89f7c0a4e034cca76ddd95236"}, "tags": {"0.1.9--py27hfae33f2_4": "sha256:134aa20159e65218ca6b46c3d4fd31fd7ba9f1530f16201dd10c485da72b95b2", "0.1.10--py38hb572783_2": "sha256:f84e1e078d0941aeab7ef51cd2a61f59489273f89f7c0a4e034cca76ddd95236"}, "docker": "quay.io/biocontainers/python-hyphy-python", "aliases": {"python2-config": "/usr/local/bin/python2-config", "python2.7-config": "/usr/local/bin/python2.7-config", "python2": "/usr/local/bin/python2", "python2.7": "/usr/local/bin/python2.7", "idle": "/usr/local/bin/idle", "python-config": "/usr/local/bin/python-config", "smtpd.py": "/usr/local/bin/smtpd.py"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/python-hyphy-python.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/python-hyphy-python
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/python-hyphy-python:0.1.9--py27hfae33f2_4
+$ shpc install quay.io/biocontainers/python-hyphy-python:0.1.10--py38hb572783_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/python-hyphy-python/0.1.9--py27hfae33f2_4
-$ module help quay.io/biocontainers/python-hyphy-python/0.1.9--py27hfae33f2_4
+$ module load quay.io/biocontainers/python-hyphy-python/0.1.10--py38hb572783_2
+$ module help quay.io/biocontainers/python-hyphy-python/0.1.10--py38hb572783_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

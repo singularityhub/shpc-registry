@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-omicspcadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-omicspcadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-omicspcadata/container.yaml"
-updated_at: "2022-11-16 00:46:49.244104"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-17 03:43:21.963947"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-omicspcadata"
 aliases:
  - ".bioconductor-omicspcadata-post-link.sh"
@@ -13,8 +13,11 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-omicspcadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-omicspcadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicspcadata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:6fbd4674fde033f244d586630f4cde857aef8d58c01db5bd2057601487ecde56"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:6fbd4674fde033f244d586630f4cde857aef8d58c01db5bd2057601487ecde56"}, "docker": "quay.io/biocontainers/bioconductor-omicspcadata", "aliases": {".bioconductor-omicspcadata-post-link.sh": "/usr/local/bin/.bioconductor-omicspcadata-post-link.sh", ".bioconductor-omicspcadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-omicspcadata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-omicspcadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-omicspcadata", "latest": {"1.16.0--r42hdfd78af_0": "sha256:4bed0b2f55b0ee40b81c0acd697edd64dc6415664d0e0dabbfe7e78de89a1f37"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:6fbd4674fde033f244d586630f4cde857aef8d58c01db5bd2057601487ecde56", "1.16.0--r42hdfd78af_0": "sha256:4bed0b2f55b0ee40b81c0acd697edd64dc6415664d0e0dabbfe7e78de89a1f37", "1.12.0--r41hdfd78af_1": "sha256:173045b04c8e965e971df392261fb66d3b745383b9449b3c300aa6a06862b7f3", "1.10.0--r41hdfd78af_0": "sha256:002907838ea860ce5df3c0aab02518e24c6b5de4c91ef1cce4130df19629c047"}, "docker": "quay.io/biocontainers/bioconductor-omicspcadata", "aliases": {".bioconductor-omicspcadata-post-link.sh": "/usr/local/bin/.bioconductor-omicspcadata-post-link.sh", ".bioconductor-omicspcadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-omicspcadata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-omicspcadata.
@@ -29,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-omicspcadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-omicspcadata:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-omicspcadata:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-omicspcadata/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-omicspcadata/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-omicspcadata/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-omicspcadata/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

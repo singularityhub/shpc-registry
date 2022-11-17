@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/easypqp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/easypqp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/easypqp/container.yaml"
-updated_at: "2022-11-16 00:33:29.171091"
-latest: "0.1.9--py_0"
+updated_at: "2022-11-17 03:30:21.390958"
+latest: "0.1.32--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/easypqp"
 
 versions:
  - "0.1.9--py_0"
+ - "0.1.32--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for easypqp"
-config: {"url": "https://biocontainers.pro/tools/easypqp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for easypqp", "latest": {"0.1.9--py_0": "sha256:efcf721422625e00ac551c33a533fec687a0cd4e52bb93aa5648f255b5b26b23"}, "tags": {"0.1.9--py_0": "sha256:efcf721422625e00ac551c33a533fec687a0cd4e52bb93aa5648f255b5b26b23"}, "docker": "quay.io/biocontainers/easypqp"}
+config: {"url": "https://biocontainers.pro/tools/easypqp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for easypqp", "latest": {"0.1.32--pyhdfd78af_0": "sha256:6ad75c09290082fa1f1704960847d1364c67ac52fa37c913ad2880bd11aedbdf"}, "tags": {"0.1.9--py_0": "sha256:efcf721422625e00ac551c33a533fec687a0cd4e52bb93aa5648f255b5b26b23", "0.1.32--pyhdfd78af_0": "sha256:6ad75c09290082fa1f1704960847d1364c67ac52fa37c913ad2880bd11aedbdf"}, "docker": "quay.io/biocontainers/easypqp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/easypqp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/easypqp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/easypqp:0.1.9--py_0
+$ shpc install quay.io/biocontainers/easypqp:0.1.32--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/easypqp/0.1.9--py_0
-$ module help quay.io/biocontainers/easypqp/0.1.9--py_0
+$ module load quay.io/biocontainers/easypqp/0.1.32--pyhdfd78af_0
+$ module help quay.io/biocontainers/easypqp/0.1.32--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

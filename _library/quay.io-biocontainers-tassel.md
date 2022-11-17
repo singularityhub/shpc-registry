@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/tassel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/tassel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/tassel/container.yaml"
-updated_at: "2022-11-16 00:25:46.990439"
+updated_at: "2022-11-17 03:22:49.175951"
 latest: "5.2.40--hdfd78af_3"
 container_url: "https://biocontainers.pro/tools/tassel"
 aliases:

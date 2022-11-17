@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-illuminamousev2.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-illuminamousev2.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-illuminamousev2.db/container.yaml"
-updated_at: "2022-11-16 00:08:34.563508"
-latest: "1.26.0--r40_9"
+updated_at: "2022-11-17 03:06:00.462680"
+latest: "1.26.0--r42hdfd78af_15"
 container_url: "https://biocontainers.pro/tools/bioconductor-illuminamousev2.db"
 aliases:
  - ".bioconductor-illuminamousev2.db-post-link.sh"
@@ -20,8 +20,9 @@ aliases:
  - "c99"
 versions:
  - "1.26.0--r40_9"
+ - "1.26.0--r42hdfd78af_15"
 description: "shpc-registry automated BioContainers addition for bioconductor-illuminamousev2.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminamousev2.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminamousev2.db", "latest": {"1.26.0--r40_9": "sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb"}, "tags": {"1.26.0--r40_9": "sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb"}, "docker": "quay.io/biocontainers/bioconductor-illuminamousev2.db", "aliases": {".bioconductor-illuminamousev2.db-post-link.sh": "/usr/local/bin/.bioconductor-illuminamousev2.db-post-link.sh", ".bioconductor-illuminamousev2.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-illuminamousev2.db-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-illuminamousev2.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-illuminamousev2.db", "latest": {"1.26.0--r42hdfd78af_15": "sha256:de46a53dc721890158bf84c58656beb039550091a1eb0722693be242c67d0fdf"}, "tags": {"1.26.0--r40_9": "sha256:3494bc4c37447c4bfe3828b0458fa471431ad30c2abb87e6d4511bd4b1d03acb", "1.26.0--r42hdfd78af_15": "sha256:de46a53dc721890158bf84c58656beb039550091a1eb0722693be242c67d0fdf"}, "docker": "quay.io/biocontainers/bioconductor-illuminamousev2.db", "aliases": {".bioconductor-illuminamousev2.db-post-link.sh": "/usr/local/bin/.bioconductor-illuminamousev2.db-post-link.sh", ".bioconductor-illuminamousev2.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-illuminamousev2.db-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-illuminamousev2.db.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-illuminamousev2.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-illuminamousev2.db:1.26.0--r40_9
+$ shpc install quay.io/biocontainers/bioconductor-illuminamousev2.db:1.26.0--r42hdfd78af_15
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-illuminamousev2.db/1.26.0--r40_9
-$ module help quay.io/biocontainers/bioconductor-illuminamousev2.db/1.26.0--r40_9
+$ module load quay.io/biocontainers/bioconductor-illuminamousev2.db/1.26.0--r42hdfd78af_15
+$ module help quay.io/biocontainers/bioconductor-illuminamousev2.db/1.26.0--r42hdfd78af_15
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

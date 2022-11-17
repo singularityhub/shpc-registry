@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/bwa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/bwa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/bwa/container.yaml"
-updated_at: "2022-11-16 00:49:26.259539"
+updated_at: "2022-11-17 03:45:55.474071"
 latest: "0.7.17"
 container_url: "https://github.com/orgs/autamus/packages/container/package/bwa"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "0.7.17"
  - "latest"
 description: "BWA is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome."
-config: {"docker": "ghcr.io/autamus/bwa", "url": "https://github.com/orgs/autamus/packages/container/package/bwa", "maintainer": "@vsoch", "description": "BWA is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome.", "latest": {"0.7.17": "sha256:a3a1a41f4eac0f8b2bf730315b43a6912d9add6635a145fa3bfba08f2243478c"}, "tags": {"0.7.17": "sha256:a3a1a41f4eac0f8b2bf730315b43a6912d9add6635a145fa3bfba08f2243478c", "latest": "sha256:a3a1a41f4eac0f8b2bf730315b43a6912d9add6635a145fa3bfba08f2243478c"}, "aliases": {"bwa": "/opt/view/bin/bwa"}}
+config: {"docker": "ghcr.io/autamus/bwa", "url": "https://github.com/orgs/autamus/packages/container/package/bwa", "maintainer": "@vsoch", "description": "BWA is a software package for mapping low-divergent sequences against a large reference genome, such as the human genome.", "latest": {"0.7.17": "sha256:cec40797bbe92df24dc4ddf9e9c9cce44fe068bfbf27b0e3bc0b3b6be65b6e3a"}, "tags": {"0.7.17": "sha256:cec40797bbe92df24dc4ddf9e9c9cce44fe068bfbf27b0e3bc0b3b6be65b6e3a", "latest": "sha256:cec40797bbe92df24dc4ddf9e9c9cce44fe068bfbf27b0e3bc0b3b6be65b6e3a"}, "aliases": {"bwa": "/opt/view/bin/bwa"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/bwa.

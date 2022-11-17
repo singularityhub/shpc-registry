@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/calib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/calib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/calib/container.yaml"
-updated_at: "2022-11-16 00:20:21.464509"
+updated_at: "2022-11-17 03:17:32.203418"
 latest: "0.3.4--hd03093a_3"
 container_url: "https://biocontainers.pro/tools/calib"
 aliases:

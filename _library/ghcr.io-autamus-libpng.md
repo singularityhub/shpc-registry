@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libpng"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libpng/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libpng/container.yaml"
-updated_at: "2022-11-16 00:49:42.776072"
+updated_at: "2022-11-17 03:46:11.612870"
 latest: "1.6.37"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libpng"
 aliases:
@@ -16,7 +16,7 @@ versions:
  - "1.6.37"
  - "latest"
 description: "libpng is the official PNG reference library."
-config: {"docker": "ghcr.io/autamus/libpng", "url": "https://github.com/orgs/autamus/packages/container/package/libpng", "maintainer": "@vsoch", "description": "libpng is the official PNG reference library.", "latest": {"1.6.37": "sha256:8950bd0cff322d0de13a96a2bb28751c6705532bd07b10d23d9aec2fc2fd1712"}, "tags": {"1.6.37": "sha256:8950bd0cff322d0de13a96a2bb28751c6705532bd07b10d23d9aec2fc2fd1712", "latest": "sha256:8950bd0cff322d0de13a96a2bb28751c6705532bd07b10d23d9aec2fc2fd1712"}, "aliases": {"libpng-config": "/opt/view/bin/libpng-config", "libpng16-config": "/opt/view/bin/libpng16-config", "png-fix-itxt": "/opt/view/bin/png-fix-itxt", "pngfix": "/opt/view/bin/pngfix"}}
+config: {"docker": "ghcr.io/autamus/libpng", "url": "https://github.com/orgs/autamus/packages/container/package/libpng", "maintainer": "@vsoch", "description": "libpng is the official PNG reference library.", "latest": {"1.6.37": "sha256:ad00e5f0737acd7264699a01f9998c1a0c91fa246c21ed3db0523fbf403b4c57"}, "tags": {"1.6.37": "sha256:ad00e5f0737acd7264699a01f9998c1a0c91fa246c21ed3db0523fbf403b4c57", "latest": "sha256:ad00e5f0737acd7264699a01f9998c1a0c91fa246c21ed3db0523fbf403b4c57"}, "aliases": {"libpng-config": "/opt/view/bin/libpng-config", "libpng16-config": "/opt/view/bin/libpng16-config", "png-fix-itxt": "/opt/view/bin/png-fix-itxt", "pngfix": "/opt/view/bin/pngfix"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/libpng.

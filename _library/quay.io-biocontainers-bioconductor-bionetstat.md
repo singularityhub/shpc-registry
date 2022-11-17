@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-bionetstat"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bionetstat/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bionetstat/container.yaml"
-updated_at: "2022-11-16 00:26:24.342048"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-17 03:23:25.574875"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bionetstat"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.2--r40hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bionetstat"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bionetstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bionetstat", "latest": {"1.8.0--r40_0": "sha256:a7e9a31bf6552a7bbccf6de61bc3535b92ba7889d42ced79efcb3a484379d339"}, "tags": {"1.8.0--r40_0": "sha256:a7e9a31bf6552a7bbccf6de61bc3535b92ba7889d42ced79efcb3a484379d339"}, "docker": "quay.io/biocontainers/bioconductor-bionetstat", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bionetstat", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bionetstat", "latest": {"1.18.0--r42hdfd78af_0": "sha256:7d94eba4417cfa986fcf9ef0aa64690dfc304841b3308a2f4a21a38fa50030c4"}, "tags": {"1.8.0--r40_0": "sha256:a7e9a31bf6552a7bbccf6de61bc3535b92ba7889d42ced79efcb3a484379d339", "1.18.0--r42hdfd78af_0": "sha256:7d94eba4417cfa986fcf9ef0aa64690dfc304841b3308a2f4a21a38fa50030c4", "1.14.0--r41hdfd78af_0": "sha256:3c89d06dcbd39c27ed735e2cfed214a4208641beb065668a44e4a652d4a4dca4", "1.12.0--r41hdfd78af_0": "sha256:9901e5e6a8cab4bdb7774a7d31516d7774c55fed8760647b7667b26b9364674f", "1.10.2--r40hdfd78af_0": "sha256:0714eb5ac3360244c4dd18602654d09c8081430d71f40bc3f2bafba213c13c64"}, "docker": "quay.io/biocontainers/bioconductor-bionetstat", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bionetstat.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bionetstat
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bionetstat:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-bionetstat:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bionetstat/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-bionetstat/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-bionetstat/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-bionetstat/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

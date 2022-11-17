@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/chembl_webresource_client"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/chembl_webresource_client/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/chembl_webresource_client/container.yaml"
-updated_at: "2022-11-16 00:33:35.908078"
-latest: "0.9.31"
+updated_at: "2022-11-17 03:30:27.993524"
+latest: "0.10.1"
 container_url: "https://biocontainers.pro/tools/chembl_webresource_client"
 aliases:
  - "chembl_act"
@@ -26,8 +26,9 @@ aliases:
  - "pyvenv"
 versions:
  - "0.9.31"
+ - "0.10.1"
 description: "shpc-registry automated BioContainers addition for chembl_webresource_client"
-config: {"url": "https://biocontainers.pro/tools/chembl_webresource_client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chembl_webresource_client", "latest": {"0.9.31": "sha256:15e969d3600d910c4637809b6c3f6fa8ee69f9b0d85b8cb4ed56d8032c86c1e0"}, "tags": {"0.9.31": "sha256:15e969d3600d910c4637809b6c3f6fa8ee69f9b0d85b8cb4ed56d8032c86c1e0"}, "docker": "quay.io/biocontainers/chembl_webresource_client", "aliases": {"chembl_act": "/usr/local/bin/chembl_act", "chembl_ids": "/usr/local/bin/chembl_ids", "chembl_m2t": "/usr/local/bin/chembl_m2t", "chembl_sim": "/usr/local/bin/chembl_sim", "chembl_sub": "/usr/local/bin/chembl_sub", "chembl_t2m": "/usr/local/bin/chembl_t2m", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
+config: {"url": "https://biocontainers.pro/tools/chembl_webresource_client", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for chembl_webresource_client", "latest": {"0.10.1": "sha256:d60f1846d22ef9cd24b4092ef1e2999ebf1b8c0d811ab285b0558b815e72c77f"}, "tags": {"0.9.31": "sha256:15e969d3600d910c4637809b6c3f6fa8ee69f9b0d85b8cb4ed56d8032c86c1e0", "0.10.1": "sha256:d60f1846d22ef9cd24b4092ef1e2999ebf1b8c0d811ab285b0558b815e72c77f"}, "docker": "quay.io/biocontainers/chembl_webresource_client", "aliases": {"chembl_act": "/usr/local/bin/chembl_act", "chembl_ids": "/usr/local/bin/chembl_ids", "chembl_m2t": "/usr/local/bin/chembl_m2t", "chembl_sim": "/usr/local/bin/chembl_sim", "chembl_sub": "/usr/local/bin/chembl_sub", "chembl_t2m": "/usr/local/bin/chembl_t2m", "chardetect": "/usr/local/bin/chardetect", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6", "pyvenv": "/usr/local/bin/pyvenv"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/chembl_webresource_client.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/chembl_webresource_client
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/chembl_webresource_client:0.9.31
+$ shpc install quay.io/biocontainers/chembl_webresource_client:0.10.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/chembl_webresource_client/0.9.31
-$ module help quay.io/biocontainers/chembl_webresource_client/0.9.31
+$ module load quay.io/biocontainers/chembl_webresource_client/0.10.1
+$ module help quay.io/biocontainers/chembl_webresource_client/0.10.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

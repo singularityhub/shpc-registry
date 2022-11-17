@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-mqmetrics"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mqmetrics/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mqmetrics/container.yaml"
-updated_at: "2022-11-15 23:55:43.752415"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-17 02:53:25.408548"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mqmetrics"
 aliases:
  - "pandoc"
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mqmetrics"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mqmetrics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mqmetrics", "latest": {"1.2.0--r41hdfd78af_0": "sha256:a4d6acf9b45d542d7a668af61ce76085eb6e56fb6a0aabc09a7ab30bbd4d4fdc"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a4d6acf9b45d542d7a668af61ce76085eb6e56fb6a0aabc09a7ab30bbd4d4fdc"}, "docker": "quay.io/biocontainers/bioconductor-mqmetrics", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mqmetrics", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mqmetrics", "latest": {"1.6.0--r42hdfd78af_0": "sha256:46127466cb4fbf795ea7e1b8294fbc4a5d00fe1310e5ffa6257fe45cec1492ff"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:a4d6acf9b45d542d7a668af61ce76085eb6e56fb6a0aabc09a7ab30bbd4d4fdc", "1.6.0--r42hdfd78af_0": "sha256:46127466cb4fbf795ea7e1b8294fbc4a5d00fe1310e5ffa6257fe45cec1492ff"}, "docker": "quay.io/biocontainers/bioconductor-mqmetrics", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mqmetrics.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mqmetrics
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mqmetrics:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-mqmetrics:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mqmetrics/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-mqmetrics/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-mqmetrics/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mqmetrics/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

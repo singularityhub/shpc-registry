@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-trajectoryutils"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-trajectoryutils/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-trajectoryutils/container.yaml"
-updated_at: "2022-11-16 00:34:11.043740"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-17 03:31:02.343626"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-trajectoryutils"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-trajectoryutils"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-trajectoryutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trajectoryutils", "latest": {"1.2.0--r41hdfd78af_0": "sha256:d99f95c7da52371fea4cd36ab8299142c4b6a6ec289d9a09a33adc1d2d39f9f1"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d99f95c7da52371fea4cd36ab8299142c4b6a6ec289d9a09a33adc1d2d39f9f1"}, "docker": "quay.io/biocontainers/bioconductor-trajectoryutils"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-trajectoryutils", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-trajectoryutils", "latest": {"1.6.0--r42hdfd78af_0": "sha256:080888683cc123b6fa30cbd4ec25a19daf52a14a486acf7c59be34c513c99f26"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:d99f95c7da52371fea4cd36ab8299142c4b6a6ec289d9a09a33adc1d2d39f9f1", "1.6.0--r42hdfd78af_0": "sha256:080888683cc123b6fa30cbd4ec25a19daf52a14a486acf7c59be34c513c99f26"}, "docker": "quay.io/biocontainers/bioconductor-trajectoryutils"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-trajectoryutils.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-trajectoryutils
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-trajectoryutils:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-trajectoryutils:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-trajectoryutils/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-trajectoryutils/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-trajectoryutils/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-trajectoryutils/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

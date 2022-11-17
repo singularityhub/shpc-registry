@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-imcrtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-imcrtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-imcrtools/container.yaml"
-updated_at: "2022-11-16 00:27:57.627075"
-latest: "1.0.0--r41hdfd78af_0"
+updated_at: "2022-11-17 03:24:57.161386"
+latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-imcrtools"
 aliases:
  - "testepsg"
@@ -20,8 +20,9 @@ aliases:
  - "pdfattach"
 versions:
  - "1.0.0--r41hdfd78af_0"
+ - "1.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-imcrtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-imcrtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imcrtools", "latest": {"1.0.0--r41hdfd78af_0": "sha256:90a0402543a4607a704f81433d36488f211ce078b4a8d17d70ceefa4db6c7fb5"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:90a0402543a4607a704f81433d36488f211ce078b4a8d17d70ceefa4db6c7fb5"}, "docker": "quay.io/biocontainers/bioconductor-imcrtools", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-imcrtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-imcrtools", "latest": {"1.4.0--r42hdfd78af_0": "sha256:a9b6767e9f471b10d14a0db77eba0b9086a1502e70bb12f1b9636a990c43b84c"}, "tags": {"1.0.0--r41hdfd78af_0": "sha256:90a0402543a4607a704f81433d36488f211ce078b4a8d17d70ceefa4db6c7fb5", "1.4.0--r42hdfd78af_0": "sha256:a9b6767e9f471b10d14a0db77eba0b9086a1502e70bb12f1b9636a990c43b84c"}, "docker": "quay.io/biocontainers/bioconductor-imcrtools", "aliases": {"testepsg": "/usr/local/bin/testepsg", "gdal_create": "/usr/local/bin/gdal_create", "pdfsig": "/usr/local/bin/pdfsig", "pg_standby": "/usr/local/bin/pg_standby", "gdal_viewshed": "/usr/local/bin/gdal_viewshed", "gdalmdiminfo": "/usr/local/bin/gdalmdiminfo", "gdalmdimtranslate": "/usr/local/bin/gdalmdimtranslate", "pg_verifybackup": "/usr/local/bin/pg_verifybackup", "geosop": "/usr/local/bin/geosop", "pdfattach": "/usr/local/bin/pdfattach"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-imcrtools.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-imcrtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-imcrtools:1.0.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-imcrtools:1.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-imcrtools/1.0.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-imcrtools/1.0.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-imcrtools/1.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-imcrtools/1.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-anndata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-anndata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-anndata/container.yaml"
-updated_at: "2022-11-16 00:43:54.946234"
-latest: "0.7.5.4--r41hdfd78af_0"
+updated_at: "2022-11-17 03:40:30.716074"
+latest: "0.7.5.4--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-anndata"
 
 versions:
  - "0.7.5.4--r41hdfd78af_0"
+ - "0.7.5.4--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-anndata"
-config: {"url": "https://biocontainers.pro/tools/r-anndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-anndata", "latest": {"0.7.5.4--r41hdfd78af_0": "sha256:221ffed999bdfadda221aa48191e7dacf16d1ffad3271bbe9c93c2e0d4cb3c96"}, "tags": {"0.7.5.4--r41hdfd78af_0": "sha256:221ffed999bdfadda221aa48191e7dacf16d1ffad3271bbe9c93c2e0d4cb3c96"}, "docker": "quay.io/biocontainers/r-anndata"}
+config: {"url": "https://biocontainers.pro/tools/r-anndata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-anndata", "latest": {"0.7.5.4--r42hdfd78af_1": "sha256:bc2ed019f8cc88733c4bc4822c32b4ae8a9d88fd16fcdbb808cf06a0ef74e6aa"}, "tags": {"0.7.5.4--r41hdfd78af_0": "sha256:221ffed999bdfadda221aa48191e7dacf16d1ffad3271bbe9c93c2e0d4cb3c96", "0.7.5.4--r42hdfd78af_1": "sha256:bc2ed019f8cc88733c4bc4822c32b4ae8a9d88fd16fcdbb808cf06a0ef74e6aa"}, "docker": "quay.io/biocontainers/r-anndata"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-anndata.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-anndata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-anndata:0.7.5.4--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-anndata:0.7.5.4--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-anndata/0.7.5.4--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-anndata/0.7.5.4--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-anndata/0.7.5.4--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-anndata/0.7.5.4--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

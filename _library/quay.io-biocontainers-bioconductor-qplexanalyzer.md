@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-qplexanalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qplexanalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qplexanalyzer/container.yaml"
-updated_at: "2022-11-16 00:12:55.836717"
-latest: "1.8.2--r40hdfd78af_0"
+updated_at: "2022-11-17 03:10:16.346052"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qplexanalyzer"
 aliases:
  - "gif2hdf"
@@ -20,8 +20,11 @@ aliases:
  - "hdfcomp"
 versions:
  - "1.8.2--r40hdfd78af_0"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-qplexanalyzer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qplexanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qplexanalyzer", "latest": {"1.8.2--r40hdfd78af_0": "sha256:b2e7b35af521c93cc83db1ec015a59692d6a7b91d4f98f773afee89c5fbb1677"}, "tags": {"1.8.2--r40hdfd78af_0": "sha256:b2e7b35af521c93cc83db1ec015a59692d6a7b91d4f98f773afee89c5fbb1677"}, "docker": "quay.io/biocontainers/bioconductor-qplexanalyzer", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qplexanalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qplexanalyzer", "latest": {"1.16.0--r42hdfd78af_0": "sha256:a4788ead99968ea42c1284183818d7c3ba274edc446cd6c3076f07f72a0f08ec"}, "tags": {"1.8.2--r40hdfd78af_0": "sha256:b2e7b35af521c93cc83db1ec015a59692d6a7b91d4f98f773afee89c5fbb1677", "1.16.0--r42hdfd78af_0": "sha256:a4788ead99968ea42c1284183818d7c3ba274edc446cd6c3076f07f72a0f08ec", "1.12.0--r41hdfd78af_0": "sha256:0c90a16e2f975bf4f1684caa82683147d9d29f0fd8125bab72b6a69df9868716", "1.10.0--r41hdfd78af_0": "sha256:0b0b1122a063b2cf6c6b46d34645a78938eefd6c95bef1f1ae52b200d6074ee8"}, "docker": "quay.io/biocontainers/bioconductor-qplexanalyzer", "aliases": {"gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qplexanalyzer.
@@ -36,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qplexanalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qplexanalyzer:1.8.2--r40hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-qplexanalyzer:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qplexanalyzer/1.8.2--r40hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-qplexanalyzer/1.8.2--r40hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-qplexanalyzer/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-qplexanalyzer/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

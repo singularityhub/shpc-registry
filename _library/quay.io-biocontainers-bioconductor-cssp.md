@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cssp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cssp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cssp/container.yaml"
-updated_at: "2022-11-16 00:30:47.095646"
-latest: "1.32.0--r41hc0cfd56_2"
+updated_at: "2022-11-17 03:27:42.794199"
+latest: "1.36.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cssp"
 
 versions:
  - "1.32.0--r41hc0cfd56_2"
+ - "1.36.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cssp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cssp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cssp", "latest": {"1.32.0--r41hc0cfd56_2": "sha256:bec862d16af719eab5e1569ced5073591041757b114c77e78aba1c24c21361c2"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:bec862d16af719eab5e1569ced5073591041757b114c77e78aba1c24c21361c2"}, "docker": "quay.io/biocontainers/bioconductor-cssp"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cssp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cssp", "latest": {"1.36.0--r42hc0cfd56_0": "sha256:e55cc7a51ec2b4a8553d489bd6630727da9bf631c1239c8a1f39e71de9055041"}, "tags": {"1.32.0--r41hc0cfd56_2": "sha256:bec862d16af719eab5e1569ced5073591041757b114c77e78aba1c24c21361c2", "1.36.0--r42hc0cfd56_0": "sha256:e55cc7a51ec2b4a8553d489bd6630727da9bf631c1239c8a1f39e71de9055041"}, "docker": "quay.io/biocontainers/bioconductor-cssp"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cssp.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cssp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cssp:1.32.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-cssp:1.36.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cssp/1.32.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-cssp/1.32.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-cssp/1.36.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-cssp/1.36.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

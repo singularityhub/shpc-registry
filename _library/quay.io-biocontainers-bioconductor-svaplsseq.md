@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-svaplsseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-svaplsseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-svaplsseq/container.yaml"
-updated_at: "2022-11-15 23:51:22.653381"
-latest: "1.8.1--r351_0"
+updated_at: "2022-11-17 02:49:11.055070"
+latest: "1.13.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-svaplsseq"
 aliases:
  - "idn2"
@@ -14,8 +14,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.1--r351_0"
+ - "1.13.0--r40_0"
+ - "1.12.0--r36_0"
+ - "1.10.0--r36_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-svaplsseq"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-svaplsseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-svaplsseq", "latest": {"1.8.1--r351_0": "sha256:e401f5dcf3927326f5dd2dd336e8ddbdc1f166d76d91906d11e6d07c2374fc3f"}, "tags": {"1.8.1--r351_0": "sha256:e401f5dcf3927326f5dd2dd336e8ddbdc1f166d76d91906d11e6d07c2374fc3f"}, "docker": "quay.io/biocontainers/bioconductor-svaplsseq", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-svaplsseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-svaplsseq", "latest": {"1.13.0--r40_0": "sha256:277ff84918a5b45bc650cec5b77c655e3aab47b8983aca7bab4fad24da0e3fb8"}, "tags": {"1.8.1--r351_0": "sha256:e401f5dcf3927326f5dd2dd336e8ddbdc1f166d76d91906d11e6d07c2374fc3f", "1.13.0--r40_0": "sha256:277ff84918a5b45bc650cec5b77c655e3aab47b8983aca7bab4fad24da0e3fb8", "1.12.0--r36_0": "sha256:77239871ab071d2582e1fbc9d298013e3f0715ffd8320f43c3048f6b5ba9643c", "1.10.0--r36_1": "sha256:16b06b741c4fe7cd2b2da53c3e3a186a01891aecbac1207b87ea7cb56174f0b9"}, "docker": "quay.io/biocontainers/bioconductor-svaplsseq", "aliases": {"idn2": "/usr/local/bin/idn2", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-svaplsseq.
@@ -30,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-svaplsseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-svaplsseq:1.8.1--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-svaplsseq:1.13.0--r40_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-svaplsseq/1.8.1--r351_0
-$ module help quay.io/biocontainers/bioconductor-svaplsseq/1.8.1--r351_0
+$ module load quay.io/biocontainers/bioconductor-svaplsseq/1.13.0--r40_0
+$ module help quay.io/biocontainers/bioconductor-svaplsseq/1.13.0--r40_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

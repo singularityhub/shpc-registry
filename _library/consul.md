@@ -4,8 +4,8 @@ name:  "consul"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/consul/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/consul/container.yaml"
-updated_at: "2022-11-16 00:50:29.517357"
-latest: "1.13"
+updated_at: "2022-11-17 03:46:56.641311"
+latest: "1.14"
 container_url: "https://hub.docker.com/_/consul"
 aliases:
  - "consul"
@@ -26,8 +26,9 @@ versions:
  - "1.8"
  - "1.12"
  - "1.13"
+ - "1.14"
 description: "Consul is a datacenter runtime that provides service discovery, configuration, and orchestration."
-config: {"docker": "consul", "url": "https://hub.docker.com/_/consul", "maintainer": "@vsoch", "description": "Consul is a datacenter runtime that provides service discovery, configuration, and orchestration.", "latest": {"1.13": "sha256:2f3c54ba26a0ecd54208b878921c9b180d6c8aa42c64d3c2eabf06bf8fcac84a"}, "tags": {"1.7": "sha256:fce4d3cbf7d610394f5c862356f0bddc652c0062c6fb078bc7a67a8831d55d97", "1.7.14": "sha256:fce4d3cbf7d610394f5c862356f0bddc652c0062c6fb078bc7a67a8831d55d97", "1.10.0-beta": "sha256:a3a7e4fca544b3d64a36a361e3bfe814eb052df2cd76f5dd48c5005124850338", "1.10.2": "sha256:5f59265e0ddcbfadee9f18038a02e5a465242fb4f514fc0b19fc445df49ef23b", "1.10.3": "sha256:483b592fa76d734882cf7336df94a5bf6f9e808a78b1a1ba17002a2aaf80da46", "1.11.0-beta": "sha256:b65caa85b885338a6a5ff8f11b5588ccc32f6534329b4ba39191f5d4292d2331", "1.11.1": "sha256:05d70d30639d5e0411f92fb75dd670ec1ef8fa4a918c6e57960db1710fd38125", "1.11.2": "sha256:43cc31d422649c88fec7f5c146110854149da68ee70c505f5bbd667c71bc698a", "1.11.3": "sha256:019e7f964280cd5719d60b8887fe20a349d1a0365acd06290ac1b055101d4e1c", "latest": "sha256:2f3c54ba26a0ecd54208b878921c9b180d6c8aa42c64d3c2eabf06bf8fcac84a", "1.11": "sha256:85732997fc8f0b321c66574a687eb48f64a4aa7793f7dd9952d5aa786cbe5b2c", "1.10": "sha256:a1db177a76c22ade0887a4b1f673dd4a10b94947a9313df34e0dea1daaf809d7", "1.9": "sha256:46ccd87fe5d42aa4d7d55522f64ab389dc2b4148f07011313d824e06d9f666ca", "1.8": "sha256:93cb9286a1ec5e084193fd2b625977df74003a81e8bc373f5adf900bb87318d4", "1.12": "sha256:8cfdd5bd6020ca6ccb462ad0f45e4fa851f5a7866e75aecd2fa49a0750f6b4bc", "1.13": "sha256:2f3c54ba26a0ecd54208b878921c9b180d6c8aa42c64d3c2eabf06bf8fcac84a"}, "aliases": {"consul": "/bin/consul"}}
+config: {"docker": "consul", "url": "https://hub.docker.com/_/consul", "maintainer": "@vsoch", "description": "Consul is a datacenter runtime that provides service discovery, configuration, and orchestration.", "latest": {"1.14": "sha256:192f202e8120d80e864b6e42af1627297dd8b88f42cf148e02a5c6185d717190"}, "tags": {"1.7": "sha256:fce4d3cbf7d610394f5c862356f0bddc652c0062c6fb078bc7a67a8831d55d97", "1.7.14": "sha256:fce4d3cbf7d610394f5c862356f0bddc652c0062c6fb078bc7a67a8831d55d97", "1.10.0-beta": "sha256:a3a7e4fca544b3d64a36a361e3bfe814eb052df2cd76f5dd48c5005124850338", "1.10.2": "sha256:5f59265e0ddcbfadee9f18038a02e5a465242fb4f514fc0b19fc445df49ef23b", "1.10.3": "sha256:483b592fa76d734882cf7336df94a5bf6f9e808a78b1a1ba17002a2aaf80da46", "1.11.0-beta": "sha256:b65caa85b885338a6a5ff8f11b5588ccc32f6534329b4ba39191f5d4292d2331", "1.11.1": "sha256:05d70d30639d5e0411f92fb75dd670ec1ef8fa4a918c6e57960db1710fd38125", "1.11.2": "sha256:43cc31d422649c88fec7f5c146110854149da68ee70c505f5bbd667c71bc698a", "1.11.3": "sha256:019e7f964280cd5719d60b8887fe20a349d1a0365acd06290ac1b055101d4e1c", "latest": "sha256:192f202e8120d80e864b6e42af1627297dd8b88f42cf148e02a5c6185d717190", "1.11": "sha256:ad656548143eacd6ceca2ea5816b083a2ff895e3d2901d00ca974bba82d835e4", "1.10": "sha256:a1db177a76c22ade0887a4b1f673dd4a10b94947a9313df34e0dea1daaf809d7", "1.9": "sha256:46ccd87fe5d42aa4d7d55522f64ab389dc2b4148f07011313d824e06d9f666ca", "1.8": "sha256:93cb9286a1ec5e084193fd2b625977df74003a81e8bc373f5adf900bb87318d4", "1.12": "sha256:4dce476b684b658e6a22b2a64eed16a1b33052fa255beaf70dbe4aa55cc03ceb", "1.13": "sha256:af77bcb370db135046de257a7d98c4e2e0fd32a30507683d0f6e45a7de4e18d0", "1.14": "sha256:192f202e8120d80e864b6e42af1627297dd8b88f42cf148e02a5c6185d717190"}, "aliases": {"consul": "/bin/consul"}}
 ---
 
 This module is a singularity container wrapper for consul.
@@ -42,7 +43,7 @@ $ shpc install consul
 Or a specific version:
 
 ```bash
-$ shpc install consul:1.13
+$ shpc install consul:1.14
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load consul/1.13
-$ module help consul/1.13
+$ module load consul/1.14
+$ module help consul/1.14
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

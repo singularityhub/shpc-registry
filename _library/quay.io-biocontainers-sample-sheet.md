@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/sample-sheet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sample-sheet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sample-sheet/container.yaml"
-updated_at: "2022-11-16 00:30:56.389185"
-latest: "0.9.4--py_0"
+updated_at: "2022-11-17 03:27:51.833467"
+latest: "0.13.0--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/sample-sheet"
 aliases:
  - "sample-sheet"
@@ -21,8 +21,12 @@ aliases:
  - "glacier"
 versions:
  - "0.9.4--py_0"
+ - "0.13.0--pyhdfd78af_0"
+ - "0.12.0--py_0"
+ - "0.11.0--py_0"
+ - "0.10.0--py_0"
 description: "shpc-registry automated BioContainers addition for sample-sheet"
-config: {"url": "https://biocontainers.pro/tools/sample-sheet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sample-sheet", "latest": {"0.9.4--py_0": "sha256:a8da80e55e8585bc6ae1299686364839bdf9d3b46fe92e1c7ff8257ee92ba42e"}, "tags": {"0.9.4--py_0": "sha256:a8da80e55e8585bc6ae1299686364839bdf9d3b46fe92e1c7ff8257ee92ba42e"}, "docker": "quay.io/biocontainers/sample-sheet", "aliases": {"sample-sheet": "/usr/local/bin/sample-sheet", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/sample-sheet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for sample-sheet", "latest": {"0.13.0--pyhdfd78af_0": "sha256:f43efe7e7da8a0359dd072890c4754c275d72df725c54c8aaa2de9082150b322"}, "tags": {"0.9.4--py_0": "sha256:a8da80e55e8585bc6ae1299686364839bdf9d3b46fe92e1c7ff8257ee92ba42e", "0.13.0--pyhdfd78af_0": "sha256:f43efe7e7da8a0359dd072890c4754c275d72df725c54c8aaa2de9082150b322", "0.12.0--py_0": "sha256:1f91c6ad649763170b5e4c56898223e50f5b6b2fc2eae338b535f3e554b2ae38", "0.11.0--py_0": "sha256:292bd5521c6b364416ec54f27d35965d9ce6dc3f28657f147f0a74d79d42315f", "0.10.0--py_0": "sha256:a08eb3d03ef2e7918330b5579c7a1833b77185518abee00bf3c58d3f2326ad2c"}, "docker": "quay.io/biocontainers/sample-sheet", "aliases": {"sample-sheet": "/usr/local/bin/sample-sheet", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/sample-sheet.
@@ -37,7 +41,7 @@ $ shpc install quay.io/biocontainers/sample-sheet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/sample-sheet:0.9.4--py_0
+$ shpc install quay.io/biocontainers/sample-sheet:0.13.0--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/sample-sheet/0.9.4--py_0
-$ module help quay.io/biocontainers/sample-sheet/0.9.4--py_0
+$ module load quay.io/biocontainers/sample-sheet/0.13.0--pyhdfd78af_0
+$ module help quay.io/biocontainers/sample-sheet/0.13.0--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

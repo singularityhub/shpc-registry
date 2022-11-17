@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-apalyzer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-apalyzer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-apalyzer/container.yaml"
-updated_at: "2022-11-15 23:56:39.447916"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-17 02:54:20.052140"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-apalyzer"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-apalyzer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-apalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-apalyzer", "latest": {"1.8.0--r41hdfd78af_0": "sha256:360430302712778e0b7efa552b37e1d85e818559b7dc282f305a8bde37b3d9a3"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:360430302712778e0b7efa552b37e1d85e818559b7dc282f305a8bde37b3d9a3"}, "docker": "quay.io/biocontainers/bioconductor-apalyzer"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-apalyzer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-apalyzer", "latest": {"1.12.0--r42hdfd78af_0": "sha256:f1bc139f8b60785979eb06f9856c4c3db8f53b3954c200232ec1dcb020273dae"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:360430302712778e0b7efa552b37e1d85e818559b7dc282f305a8bde37b3d9a3", "1.12.0--r42hdfd78af_0": "sha256:f1bc139f8b60785979eb06f9856c4c3db8f53b3954c200232ec1dcb020273dae"}, "docker": "quay.io/biocontainers/bioconductor-apalyzer"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-apalyzer.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-apalyzer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-apalyzer:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-apalyzer:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-apalyzer/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-apalyzer/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-apalyzer/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-apalyzer/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

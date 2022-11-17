@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-minionsummarydata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-minionsummarydata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-minionsummarydata/container.yaml"
-updated_at: "2022-11-15 23:59:55.899777"
+updated_at: "2022-11-17 02:57:33.075383"
 latest: "1.24.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-minionsummarydata"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-qplexdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-qplexdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-qplexdata/container.yaml"
-updated_at: "2022-11-16 00:28:32.836944"
-latest: "1.8.0--r40hdfd78af_1"
+updated_at: "2022-11-17 03:25:31.532771"
+latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-qplexdata"
 aliases:
  - ".bioconductor-qplexdata-post-link.sh"
@@ -22,8 +22,11 @@ aliases:
  - "hdfcomp"
 versions:
  - "1.8.0--r40hdfd78af_1"
+ - "1.16.0--r42hdfd78af_0"
+ - "1.12.0--r41hdfd78af_1"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-qplexdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-qplexdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qplexdata", "latest": {"1.8.0--r40hdfd78af_1": "sha256:ca134d4808641786cdfea460d85b2cdb13a80b655f484b9b6b205f7be02ca7e4"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ca134d4808641786cdfea460d85b2cdb13a80b655f484b9b6b205f7be02ca7e4"}, "docker": "quay.io/biocontainers/bioconductor-qplexdata", "aliases": {".bioconductor-qplexdata-post-link.sh": "/usr/local/bin/.bioconductor-qplexdata-post-link.sh", ".bioconductor-qplexdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-qplexdata-pre-unlink.sh", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-qplexdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-qplexdata", "latest": {"1.16.0--r42hdfd78af_0": "sha256:aa16bca0596c034d2c0c0512e5b0e7f61a45c191431aec649015decd0a20e7f9"}, "tags": {"1.8.0--r40hdfd78af_1": "sha256:ca134d4808641786cdfea460d85b2cdb13a80b655f484b9b6b205f7be02ca7e4", "1.16.0--r42hdfd78af_0": "sha256:aa16bca0596c034d2c0c0512e5b0e7f61a45c191431aec649015decd0a20e7f9", "1.12.0--r41hdfd78af_1": "sha256:2496fb81be4485fab8ff281ae37e598a6b715321353f79a3bdc54abcde34c011", "1.10.0--r41hdfd78af_0": "sha256:f3f2de2557318d152027bbfc5a899dabef479f4128316f8c40f043aece5250b1"}, "docker": "quay.io/biocontainers/bioconductor-qplexdata", "aliases": {".bioconductor-qplexdata-post-link.sh": "/usr/local/bin/.bioconductor-qplexdata-post-link.sh", ".bioconductor-qplexdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-qplexdata-pre-unlink.sh", "gif2hdf": "/usr/local/bin/gif2hdf", "h4_ncdump": "/usr/local/bin/h4_ncdump", "h4_ncgen": "/usr/local/bin/h4_ncgen", "h4cc": "/usr/local/bin/h4cc", "h4redeploy": "/usr/local/bin/h4redeploy", "hdf24to8": "/usr/local/bin/hdf24to8", "hdf2gif": "/usr/local/bin/hdf2gif", "hdf2jpeg": "/usr/local/bin/hdf2jpeg", "hdf8to24": "/usr/local/bin/hdf8to24", "hdfcomp": "/usr/local/bin/hdfcomp"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-qplexdata.
@@ -38,7 +41,7 @@ $ shpc install quay.io/biocontainers/bioconductor-qplexdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-qplexdata:1.8.0--r40hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-qplexdata:1.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-qplexdata/1.8.0--r40hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-qplexdata/1.8.0--r40hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-qplexdata/1.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-qplexdata/1.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

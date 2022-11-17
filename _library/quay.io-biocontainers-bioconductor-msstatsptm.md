@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-msstatsptm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatsptm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatsptm/container.yaml"
-updated_at: "2022-11-15 23:56:22.345292"
-latest: "1.4.2--r41hc247a5b_1"
+updated_at: "2022-11-17 02:54:03.259178"
+latest: "2.0.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatsptm"
 aliases:
  - "f2py3.10"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.4.2--r41hc247a5b_1"
+ - "2.0.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstatsptm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatsptm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatsptm", "latest": {"1.4.2--r41hc247a5b_1": "sha256:62c963607b3966907a1c05be1f8493f90c79d2fa48dbf493e609e9843f09beef"}, "tags": {"1.4.2--r41hc247a5b_1": "sha256:62c963607b3966907a1c05be1f8493f90c79d2fa48dbf493e609e9843f09beef"}, "docker": "quay.io/biocontainers/bioconductor-msstatsptm", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatsptm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatsptm", "latest": {"2.0.0--r42hc247a5b_0": "sha256:2ae1f2230aa1445c8aeefa1ad4e7bdad10a16935fcccd56f75044d75ba5a319f"}, "tags": {"1.4.2--r41hc247a5b_1": "sha256:62c963607b3966907a1c05be1f8493f90c79d2fa48dbf493e609e9843f09beef", "2.0.0--r42hc247a5b_0": "sha256:2ae1f2230aa1445c8aeefa1ad4e7bdad10a16935fcccd56f75044d75ba5a319f"}, "docker": "quay.io/biocontainers/bioconductor-msstatsptm", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstatsptm.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msstatsptm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msstatsptm:1.4.2--r41hc247a5b_1
+$ shpc install quay.io/biocontainers/bioconductor-msstatsptm:2.0.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msstatsptm/1.4.2--r41hc247a5b_1
-$ module help quay.io/biocontainers/bioconductor-msstatsptm/1.4.2--r41hc247a5b_1
+$ module load quay.io/biocontainers/bioconductor-msstatsptm/2.0.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-msstatsptm/2.0.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

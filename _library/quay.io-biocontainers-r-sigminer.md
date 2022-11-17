@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-sigminer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-sigminer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-sigminer/container.yaml"
-updated_at: "2022-11-15 23:52:27.247974"
-latest: "2.1.7--r41hecf12ef_1"
+updated_at: "2022-11-17 02:50:14.353319"
+latest: "2.1.9--r42hecf12ef_1"
 container_url: "https://biocontainers.pro/tools/r-sigminer"
 aliases:
  - "f2py3.10"
@@ -17,8 +17,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "2.1.7--r41hecf12ef_1"
+ - "2.1.9--r42hecf12ef_1"
 description: "shpc-registry automated BioContainers addition for r-sigminer"
-config: {"url": "https://biocontainers.pro/tools/r-sigminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigminer", "latest": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366"}, "tags": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366"}, "docker": "quay.io/biocontainers/r-sigminer", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/r-sigminer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-sigminer", "latest": {"2.1.9--r42hecf12ef_1": "sha256:b9f51c2a7726724e4d7f15d7e1002b31a402e89cba537c5b10c3d269d4dc862b"}, "tags": {"2.1.7--r41hecf12ef_1": "sha256:d1b85332c383412d0c463b0ce4459fa6078b504299bcdfadf4536f7ca318c366", "2.1.9--r42hecf12ef_1": "sha256:b9f51c2a7726724e4d7f15d7e1002b31a402e89cba537c5b10c3d269d4dc862b"}, "docker": "quay.io/biocontainers/r-sigminer", "aliases": {"f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-sigminer.
@@ -33,7 +34,7 @@ $ shpc install quay.io/biocontainers/r-sigminer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-sigminer:2.1.7--r41hecf12ef_1
+$ shpc install quay.io/biocontainers/r-sigminer:2.1.9--r42hecf12ef_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -45,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-sigminer/2.1.7--r41hecf12ef_1
-$ module help quay.io/biocontainers/r-sigminer/2.1.7--r41hecf12ef_1
+$ module load quay.io/biocontainers/r-sigminer/2.1.9--r42hecf12ef_1
+$ module help quay.io/biocontainers/r-sigminer/2.1.9--r42hecf12ef_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

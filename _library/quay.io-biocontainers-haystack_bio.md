@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/haystack_bio"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/haystack_bio/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/haystack_bio/container.yaml"
-updated_at: "2022-11-16 00:00:51.697131"
-latest: "v0.5.0--0"
+updated_at: "2022-11-17 02:58:27.286927"
+latest: "0.5.5--py_1"
 container_url: "https://biocontainers.pro/tools/haystack_bio"
 aliases:
  - "bigWigAverageOverBed"
@@ -67,8 +67,9 @@ aliases:
  - "clustalw2phylip"
 versions:
  - "v0.5.0--0"
+ - "0.5.5--py_1"
 description: "shpc-registry automated BioContainers addition for haystack_bio"
-config: {"url": "https://biocontainers.pro/tools/haystack_bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haystack_bio", "latest": {"v0.5.0--0": "sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3"}, "tags": {"v0.5.0--0": "sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3"}, "docker": "quay.io/biocontainers/haystack_bio", "aliases": {"bigWigAverageOverBed": "/usr/local/bin/bigWigAverageOverBed", "font2c": "/usr/local/bin/font2c", "haystack_download_genome": "/usr/local/bin/haystack_download_genome", "haystack_hotspots": "/usr/local/bin/haystack_hotspots", "haystack_motifs": "/usr/local/bin/haystack_motifs", "haystack_pipeline": "/usr/local/bin/haystack_pipeline", "haystack_run_test": "/usr/local/bin/haystack_run_test", "haystack_tf_activity_plane": "/usr/local/bin/haystack_tf_activity_plane", "innochecksum": "/usr/local/bin/innochecksum", "msql2mysql": "/usr/local/bin/msql2mysql", "myisam_ftdump": "/usr/local/bin/myisam_ftdump", "myisamchk": "/usr/local/bin/myisamchk", "myisamlog": "/usr/local/bin/myisamlog", "myisampack": "/usr/local/bin/myisampack", "mysql": "/usr/local/bin/mysql", "mysql_client_test": "/usr/local/bin/mysql_client_test", "mysql_convert_table_format": "/usr/local/bin/mysql_convert_table_format", "mysql_find_rows": "/usr/local/bin/mysql_find_rows", "mysql_fix_extensions": "/usr/local/bin/mysql_fix_extensions", "mysql_plugin": "/usr/local/bin/mysql_plugin", "mysql_secure_installation": "/usr/local/bin/mysql_secure_installation", "mysql_setpermission": "/usr/local/bin/mysql_setpermission", "mysql_tzinfo_to_sql": "/usr/local/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/local/bin/mysql_upgrade", "mysql_waitpid": "/usr/local/bin/mysql_waitpid", "mysql_zap": "/usr/local/bin/mysql_zap", "mysqlaccess": "/usr/local/bin/mysqlaccess", "mysqlaccess.conf": "/usr/local/bin/mysqlaccess.conf", "mysqladmin": "/usr/local/bin/mysqladmin", "mysqlbinlog": "/usr/local/bin/mysqlbinlog", "mysqlbug": "/usr/local/bin/mysqlbug", "mysqlcheck": "/usr/local/bin/mysqlcheck", "mysqld": "/usr/local/bin/mysqld", "mysqld_multi": "/usr/local/bin/mysqld_multi", "mysqld_safe": "/usr/local/bin/mysqld_safe", "mysqldump": "/usr/local/bin/mysqldump", "mysqldumpslow": "/usr/local/bin/mysqldumpslow", "mysqlhotcopy": "/usr/local/bin/mysqlhotcopy", "mysqlimport": "/usr/local/bin/mysqlimport", "mysqlshow": "/usr/local/bin/mysqlshow", "mysqlslap": "/usr/local/bin/mysqlslap", "mysqltest": "/usr/local/bin/mysqltest", "replace": "/usr/local/bin/replace", "resolve_stack_dump": "/usr/local/bin/resolve_stack_dump", "resolveip": "/usr/local/bin/resolveip", "wftopfa": "/usr/local/bin/wftopfa", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip"}}
+config: {"url": "https://biocontainers.pro/tools/haystack_bio", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for haystack_bio", "latest": {"0.5.5--py_1": "sha256:a8b31e06623ab414a223672727140951a1ad22d6a9c34c7c52c9ef7731917e60"}, "tags": {"v0.5.0--0": "sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3", "0.5.5--py_1": "sha256:a8b31e06623ab414a223672727140951a1ad22d6a9c34c7c52c9ef7731917e60"}, "docker": "quay.io/biocontainers/haystack_bio", "aliases": {"bigWigAverageOverBed": "/usr/local/bin/bigWigAverageOverBed", "font2c": "/usr/local/bin/font2c", "haystack_download_genome": "/usr/local/bin/haystack_download_genome", "haystack_hotspots": "/usr/local/bin/haystack_hotspots", "haystack_motifs": "/usr/local/bin/haystack_motifs", "haystack_pipeline": "/usr/local/bin/haystack_pipeline", "haystack_run_test": "/usr/local/bin/haystack_run_test", "haystack_tf_activity_plane": "/usr/local/bin/haystack_tf_activity_plane", "innochecksum": "/usr/local/bin/innochecksum", "msql2mysql": "/usr/local/bin/msql2mysql", "myisam_ftdump": "/usr/local/bin/myisam_ftdump", "myisamchk": "/usr/local/bin/myisamchk", "myisamlog": "/usr/local/bin/myisamlog", "myisampack": "/usr/local/bin/myisampack", "mysql": "/usr/local/bin/mysql", "mysql_client_test": "/usr/local/bin/mysql_client_test", "mysql_convert_table_format": "/usr/local/bin/mysql_convert_table_format", "mysql_find_rows": "/usr/local/bin/mysql_find_rows", "mysql_fix_extensions": "/usr/local/bin/mysql_fix_extensions", "mysql_plugin": "/usr/local/bin/mysql_plugin", "mysql_secure_installation": "/usr/local/bin/mysql_secure_installation", "mysql_setpermission": "/usr/local/bin/mysql_setpermission", "mysql_tzinfo_to_sql": "/usr/local/bin/mysql_tzinfo_to_sql", "mysql_upgrade": "/usr/local/bin/mysql_upgrade", "mysql_waitpid": "/usr/local/bin/mysql_waitpid", "mysql_zap": "/usr/local/bin/mysql_zap", "mysqlaccess": "/usr/local/bin/mysqlaccess", "mysqlaccess.conf": "/usr/local/bin/mysqlaccess.conf", "mysqladmin": "/usr/local/bin/mysqladmin", "mysqlbinlog": "/usr/local/bin/mysqlbinlog", "mysqlbug": "/usr/local/bin/mysqlbug", "mysqlcheck": "/usr/local/bin/mysqlcheck", "mysqld": "/usr/local/bin/mysqld", "mysqld_multi": "/usr/local/bin/mysqld_multi", "mysqld_safe": "/usr/local/bin/mysqld_safe", "mysqldump": "/usr/local/bin/mysqldump", "mysqldumpslow": "/usr/local/bin/mysqldumpslow", "mysqlhotcopy": "/usr/local/bin/mysqlhotcopy", "mysqlimport": "/usr/local/bin/mysqlimport", "mysqlshow": "/usr/local/bin/mysqlshow", "mysqlslap": "/usr/local/bin/mysqlslap", "mysqltest": "/usr/local/bin/mysqltest", "replace": "/usr/local/bin/replace", "resolve_stack_dump": "/usr/local/bin/resolve_stack_dump", "resolveip": "/usr/local/bin/resolveip", "wftopfa": "/usr/local/bin/wftopfa", "xsltproc_lite": "/usr/local/bin/xsltproc_lite", "alphtype": "/usr/local/bin/alphtype", "ama": "/usr/local/bin/ama", "ama-qvalues": "/usr/local/bin/ama-qvalues", "ame": "/usr/local/bin/ame", "beeml2meme": "/usr/local/bin/beeml2meme", "centrimo": "/usr/local/bin/centrimo", "ceqlogo": "/usr/local/bin/ceqlogo", "chen2meme": "/usr/local/bin/chen2meme", "clustalw2fasta": "/usr/local/bin/clustalw2fasta", "clustalw2phylip": "/usr/local/bin/clustalw2phylip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/haystack_bio.
@@ -83,7 +84,7 @@ $ shpc install quay.io/biocontainers/haystack_bio
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/haystack_bio:v0.5.0--0
+$ shpc install quay.io/biocontainers/haystack_bio:0.5.5--py_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -95,8 +96,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/haystack_bio/v0.5.0--0
-$ module help quay.io/biocontainers/haystack_bio/v0.5.0--0
+$ module load quay.io/biocontainers/haystack_bio/0.5.5--py_1
+$ module help quay.io/biocontainers/haystack_bio/0.5.5--py_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

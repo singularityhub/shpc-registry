@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/slamem"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/slamem/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/slamem/container.yaml"
-updated_at: "2022-11-15 23:55:57.667239"
-latest: "v0.8.5--h779adbc_0"
+updated_at: "2022-11-17 02:53:38.972744"
+latest: "0.8.5--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/slamem"
 aliases:
  - "slaMEM"
 versions:
  - "v0.8.5--h779adbc_0"
+ - "0.8.5--hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for slamem"
-config: {"url": "https://biocontainers.pro/tools/slamem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slamem", "latest": {"v0.8.5--h779adbc_0": "sha256:839a7025e184d553021d1aac43d305b0b4b09c5f8205ebbff8431cdb6e1b9684"}, "tags": {"v0.8.5--h779adbc_0": "sha256:839a7025e184d553021d1aac43d305b0b4b09c5f8205ebbff8431cdb6e1b9684"}, "docker": "quay.io/biocontainers/slamem", "aliases": {"slaMEM": "/usr/local/bin/slaMEM"}}
+config: {"url": "https://biocontainers.pro/tools/slamem", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for slamem", "latest": {"0.8.5--hec16e2b_1": "sha256:a74c2b46db94b4489e18dd4d1eba268a9c0fed658680af875a79693159261ae8"}, "tags": {"v0.8.5--h779adbc_0": "sha256:839a7025e184d553021d1aac43d305b0b4b09c5f8205ebbff8431cdb6e1b9684", "0.8.5--hec16e2b_1": "sha256:a74c2b46db94b4489e18dd4d1eba268a9c0fed658680af875a79693159261ae8"}, "docker": "quay.io/biocontainers/slamem", "aliases": {"slaMEM": "/usr/local/bin/slaMEM"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/slamem.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/slamem
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/slamem:v0.8.5--h779adbc_0
+$ shpc install quay.io/biocontainers/slamem:0.8.5--hec16e2b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/slamem/v0.8.5--h779adbc_0
-$ module help quay.io/biocontainers/slamem/v0.8.5--h779adbc_0
+$ module load quay.io/biocontainers/slamem/0.8.5--hec16e2b_1
+$ module help quay.io/biocontainers/slamem/0.8.5--hec16e2b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

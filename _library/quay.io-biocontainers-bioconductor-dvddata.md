@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-dvddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dvddata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dvddata/container.yaml"
-updated_at: "2022-11-16 00:44:32.152388"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-17 03:41:07.369958"
+latest: "1.33.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-dvddata"
 aliases:
  - ".bioconductor-dvddata-post-link.sh"
  - ".bioconductor-dvddata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.33.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-dvddata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-dvddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dvddata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:56ce7efc91f34603c04bc9526cdf8a041d732e47aa3df7854cc2586f07fc7b35"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:56ce7efc91f34603c04bc9526cdf8a041d732e47aa3df7854cc2586f07fc7b35"}, "docker": "quay.io/biocontainers/bioconductor-dvddata", "aliases": {".bioconductor-dvddata-post-link.sh": "/usr/local/bin/.bioconductor-dvddata-post-link.sh", ".bioconductor-dvddata-pre-unlink.sh": "/usr/local/bin/.bioconductor-dvddata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-dvddata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-dvddata", "latest": {"1.33.0--r42hdfd78af_0": "sha256:1f494c0155dbac8a168197ef3bf853d46ea6ab62be0847b67217f8be961867e5"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:56ce7efc91f34603c04bc9526cdf8a041d732e47aa3df7854cc2586f07fc7b35", "1.33.0--r42hdfd78af_0": "sha256:1f494c0155dbac8a168197ef3bf853d46ea6ab62be0847b67217f8be961867e5"}, "docker": "quay.io/biocontainers/bioconductor-dvddata", "aliases": {".bioconductor-dvddata-post-link.sh": "/usr/local/bin/.bioconductor-dvddata-post-link.sh", ".bioconductor-dvddata-pre-unlink.sh": "/usr/local/bin/.bioconductor-dvddata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-dvddata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-dvddata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-dvddata:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-dvddata:1.33.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-dvddata/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-dvddata/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-dvddata/1.33.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-dvddata/1.33.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

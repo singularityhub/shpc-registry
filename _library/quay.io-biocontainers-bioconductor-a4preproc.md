@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-a4preproc"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-a4preproc/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-a4preproc/container.yaml"
-updated_at: "2022-11-16 00:12:58.338181"
-latest: "1.42.0--r41hdfd78af_0"
+updated_at: "2022-11-17 03:10:18.805533"
+latest: "1.46.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-a4preproc"
 
 versions:
  - "1.42.0--r41hdfd78af_0"
+ - "1.46.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-a4preproc"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-a4preproc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-a4preproc", "latest": {"1.42.0--r41hdfd78af_0": "sha256:ae935cba2cfd9540eefd618092636b7c82c832035d0ed9ecc804e5a456540dd4"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:ae935cba2cfd9540eefd618092636b7c82c832035d0ed9ecc804e5a456540dd4"}, "docker": "quay.io/biocontainers/bioconductor-a4preproc"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-a4preproc", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-a4preproc", "latest": {"1.46.0--r42hdfd78af_0": "sha256:ab59ec980ca2305421a2cfa89cf7fdeb19e549990f0d7f07b183b7cb037935c9"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:ae935cba2cfd9540eefd618092636b7c82c832035d0ed9ecc804e5a456540dd4", "1.46.0--r42hdfd78af_0": "sha256:ab59ec980ca2305421a2cfa89cf7fdeb19e549990f0d7f07b183b7cb037935c9"}, "docker": "quay.io/biocontainers/bioconductor-a4preproc"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-a4preproc.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-a4preproc
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-a4preproc:1.42.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-a4preproc:1.46.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-a4preproc/1.42.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-a4preproc/1.42.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-a4preproc/1.46.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-a4preproc/1.46.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

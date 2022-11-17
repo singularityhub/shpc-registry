@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/blasr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/blasr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/blasr/container.yaml"
-updated_at: "2022-11-16 00:30:55.545565"
-latest: "5.3.f8bfa9c--0"
+updated_at: "2022-11-17 03:27:51.004244"
+latest: "5.3.9c6f0a5--0"
 container_url: "https://biocontainers.pro/tools/blasr"
 aliases:
  - "bam2sam"
@@ -32,8 +32,9 @@ aliases:
  - "pyvenv-3.6"
 versions:
  - "5.3.f8bfa9c--0"
+ - "5.3.9c6f0a5--0"
 description: "shpc-registry automated BioContainers addition for blasr"
-config: {"url": "https://biocontainers.pro/tools/blasr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blasr", "latest": {"5.3.f8bfa9c--0": "sha256:800983bd7c0e51d81e611d46aa52c53a10577b27dfe11012a5d6aeff10456e3f"}, "tags": {"5.3.f8bfa9c--0": "sha256:800983bd7c0e51d81e611d46aa52c53a10577b27dfe11012a5d6aeff10456e3f"}, "docker": "quay.io/biocontainers/blasr", "aliases": {"bam2sam": "/usr/local/bin/bam2sam", "blasr": "/usr/local/bin/blasr", "loadPulses": "/usr/local/bin/loadPulses", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "pls2fasta": "/usr/local/bin/pls2fasta", "samFilter": "/usr/local/bin/samFilter", "samtoh5": "/usr/local/bin/samtoh5", "samtom4": "/usr/local/bin/samtom4", "sawriter": "/usr/local/bin/sawriter", "sdpMatcher": "/usr/local/bin/sdpMatcher", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "uconv": "/usr/local/bin/uconv", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
+config: {"url": "https://biocontainers.pro/tools/blasr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for blasr", "latest": {"5.3.9c6f0a5--0": "sha256:aef2bbccae532afc33bd90e78ca7973334a79e82e8be5d9698f3f81799ad0214"}, "tags": {"5.3.f8bfa9c--0": "sha256:800983bd7c0e51d81e611d46aa52c53a10577b27dfe11012a5d6aeff10456e3f", "5.3.9c6f0a5--0": "sha256:aef2bbccae532afc33bd90e78ca7973334a79e82e8be5d9698f3f81799ad0214"}, "docker": "quay.io/biocontainers/blasr", "aliases": {"bam2sam": "/usr/local/bin/bam2sam", "blasr": "/usr/local/bin/blasr", "loadPulses": "/usr/local/bin/loadPulses", "pbindex": "/usr/local/bin/pbindex", "pbindexdump": "/usr/local/bin/pbindexdump", "pbmerge": "/usr/local/bin/pbmerge", "pls2fasta": "/usr/local/bin/pls2fasta", "samFilter": "/usr/local/bin/samFilter", "samtoh5": "/usr/local/bin/samtoh5", "samtom4": "/usr/local/bin/samtom4", "sawriter": "/usr/local/bin/sawriter", "sdpMatcher": "/usr/local/bin/sdpMatcher", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "uconv": "/usr/local/bin/uconv", "2to3-3.6": "/usr/local/bin/2to3-3.6", "idle3.6": "/usr/local/bin/idle3.6", "pydoc3.6": "/usr/local/bin/pydoc3.6", "python3.6": "/usr/local/bin/python3.6", "python3.6-config": "/usr/local/bin/python3.6-config", "python3.6m": "/usr/local/bin/python3.6m", "python3.6m-config": "/usr/local/bin/python3.6m-config", "pyvenv-3.6": "/usr/local/bin/pyvenv-3.6"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/blasr.
@@ -48,7 +49,7 @@ $ shpc install quay.io/biocontainers/blasr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/blasr:5.3.f8bfa9c--0
+$ shpc install quay.io/biocontainers/blasr:5.3.9c6f0a5--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -60,8 +61,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/blasr/5.3.f8bfa9c--0
-$ module help quay.io/biocontainers/blasr/5.3.f8bfa9c--0
+$ module load quay.io/biocontainers/blasr/5.3.9c6f0a5--0
+$ module help quay.io/biocontainers/blasr/5.3.9c6f0a5--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-atsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-atsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-atsnp/container.yaml"
-updated_at: "2022-11-16 00:15:34.687526"
-latest: "1.8.0--r41h399db7b_0"
+updated_at: "2022-11-17 03:12:51.828207"
+latest: "1.14.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-atsnp"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41h399db7b_0"
+ - "1.14.0--r42hc247a5b_0"
+ - "1.10.0--r41hc247a5b_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-atsnp"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-atsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atsnp", "latest": {"1.8.0--r41h399db7b_0": "sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b"}, "docker": "quay.io/biocontainers/bioconductor-atsnp", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-atsnp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-atsnp", "latest": {"1.14.0--r42hc247a5b_0": "sha256:e851e4286e6427a3e0a7139d3c1f405a3daba89cef097df653989973f8ec58d1"}, "tags": {"1.8.0--r41h399db7b_0": "sha256:40e1ab4feb8dfae9dbef31172293dfb3153eec7992d3d9f09e708caa33d6af2b", "1.14.0--r42hc247a5b_0": "sha256:e851e4286e6427a3e0a7139d3c1f405a3daba89cef097df653989973f8ec58d1", "1.10.0--r41hc247a5b_2": "sha256:2711465010c3adfbc15d96b1bf75944cdc61886b74a3b4199dcb11448335e8ea"}, "docker": "quay.io/biocontainers/bioconductor-atsnp", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-atsnp.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-atsnp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-atsnp:1.8.0--r41h399db7b_0
+$ shpc install quay.io/biocontainers/bioconductor-atsnp:1.14.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-atsnp/1.8.0--r41h399db7b_0
-$ module help quay.io/biocontainers/bioconductor-atsnp/1.8.0--r41h399db7b_0
+$ module load quay.io/biocontainers/bioconductor-atsnp/1.14.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-atsnp/1.14.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
