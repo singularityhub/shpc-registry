@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-paa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-paa
 latest:
-  1.28.0--r41hc247a5b_2: sha256:29a2e4487e4a186a36100af63c530bd23c19f4bf3501fe1558b96c3608475e39
+  1.32.0--r42hc247a5b_0: sha256:051d93e3ae92673dbc14bbc9c04705ee47217a16a68cabcffe50885cce1516de
 tags:
   1.28.0--r41hc247a5b_2: sha256:29a2e4487e4a186a36100af63c530bd23c19f4bf3501fe1558b96c3608475e39
+  1.32.0--r42hc247a5b_0: sha256:051d93e3ae92673dbc14bbc9c04705ee47217a16a68cabcffe50885cce1516de
 docker: quay.io/biocontainers/bioconductor-paa
 aliases:
   glpsol: /usr/local/bin/glpsol

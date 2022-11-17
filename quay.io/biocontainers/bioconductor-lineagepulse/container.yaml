@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-lineagepulse
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lineagepulse
 latest:
-  1.8.0--r40_0: sha256:006c0ccf38d25a42db753732f780111b4277967b0ddc54a7c095276393cafdce
+  1.18.0--r42hdfd78af_0: sha256:421dc2e571e615700b4a7cec22bbf57134d249a5c7bb2e629e955461d496a569
 tags:
   1.8.0--r40_0: sha256:006c0ccf38d25a42db753732f780111b4277967b0ddc54a7c095276393cafdce
+  1.18.0--r42hdfd78af_0: sha256:421dc2e571e615700b4a7cec22bbf57134d249a5c7bb2e629e955461d496a569
+  1.14.0--r41hdfd78af_0: sha256:994055929d2770ad7908570901c46655e2f655c8b85d4fb2bb1707174cba2300
+  1.12.0--r41hdfd78af_0: sha256:ccc0bd61a76acc4a259622fc24da596bbfea5d70730f2f4d3ba2f4c50b79bb7c
+  1.10.0--r40hdfd78af_1: sha256:8f5d80ae370d469dc3ad90a746d764504ff2a18821b932dbc9f59041a99782a8
 docker: quay.io/biocontainers/bioconductor-lineagepulse
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

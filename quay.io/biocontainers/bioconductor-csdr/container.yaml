@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-csdr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-csdr
 latest:
-  1.0.0--r41hc247a5b_2: sha256:4d600ac2a62cdf7f4cd5c9e195c2a91fd3628931ad015d9ace071335239e6806
+  1.4.0--r42hc247a5b_0: sha256:542ff548228da23851e632a5757609018786606ecee84b8a3f5acd9254346b69
 tags:
   1.0.0--r41hc247a5b_2: sha256:4d600ac2a62cdf7f4cd5c9e195c2a91fd3628931ad015d9ace071335239e6806
+  1.4.0--r42hc247a5b_0: sha256:542ff548228da23851e632a5757609018786606ecee84b8a3f5acd9254346b69
 docker: quay.io/biocontainers/bioconductor-csdr

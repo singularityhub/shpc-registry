@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-summarizedbenchmark
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-summarizedbenchmark
 latest:
-  2.8.0--r40hdfd78af_1: sha256:69f700a491d99333ce544c111bce419abe884c7a9c1f678d1fd690255b7b57ce
+  2.16.0--r42hdfd78af_0: sha256:4da200743a53f16596d99524ab9fe4d9f699b7aca9062e3cdc13dc0753bbb6b6
 tags:
   2.8.0--r40hdfd78af_1: sha256:69f700a491d99333ce544c111bce419abe884c7a9c1f678d1fd690255b7b57ce
+  2.16.0--r42hdfd78af_0: sha256:4da200743a53f16596d99524ab9fe4d9f699b7aca9062e3cdc13dc0753bbb6b6
+  2.12.0--r41hdfd78af_0: sha256:b01a27d8d5c406cab46d15f237918bd251e73d7a8e77931b03bda3e815a17618
+  2.10.0--r41hdfd78af_0: sha256:7526bff9b525b4c76568f3f2d98e096b62a8af72fa1f81e28acabfcff5e31969
 docker: quay.io/biocontainers/bioconductor-summarizedbenchmark
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

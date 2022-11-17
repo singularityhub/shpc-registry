@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-bioverbs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-bioverbs
 latest:
-  0.2.9--r36_0: sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9
+  0.2.13--r36_0: sha256:55e653056816b13123b60266ebcf503384c31ca269d076d8348448208d3063e1
 tags:
   0.2.9--r36_0: sha256:f3797918f483eb5bd7bea247c4c39757380f4f76ec0c9df3034de93123e3cfb9
+  0.2.13--r36_0: sha256:55e653056816b13123b60266ebcf503384c31ca269d076d8348448208d3063e1
 docker: quay.io/biocontainers/r-bioverbs
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-brio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-brio
 latest:
-  0.3.9--r36_0: sha256:09b828be0f35565a895bef5a84e63bf28e2cdc24673ccddc3e787207290fb8f8
+  0.3.17--r36_0: sha256:ef62e194d9a221ab026dca091143a225d4659cc4624998145dc06678bf751011
 tags:
   0.3.9--r36_0: sha256:09b828be0f35565a895bef5a84e63bf28e2cdc24673ccddc3e787207290fb8f8
+  0.3.17--r36_0: sha256:ef62e194d9a221ab026dca091143a225d4659cc4624998145dc06678bf751011
 docker: quay.io/biocontainers/r-brio
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

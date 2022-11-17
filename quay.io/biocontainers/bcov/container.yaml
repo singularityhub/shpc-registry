@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bcov
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bcov
 latest:
-  1.0--h2b57dba_4: sha256:9a011f8c9acd441b220a24866ff94e4c9b601ea060b75c442b05c58a47d971a4
+  1.0--h7dd7c9e_5: sha256:fb024166348604b0f0d3e7ddaa51f2013aaa502309883a55faf101136d3e2747
 tags:
   1.0--h2b57dba_4: sha256:9a011f8c9acd441b220a24866ff94e4c9b601ea060b75c442b05c58a47d971a4
+  1.0--h7dd7c9e_5: sha256:fb024166348604b0f0d3e7ddaa51f2013aaa502309883a55faf101136d3e2747
 docker: quay.io/biocontainers/bcov
 aliases:
   bcov: /usr/local/bin/bcov

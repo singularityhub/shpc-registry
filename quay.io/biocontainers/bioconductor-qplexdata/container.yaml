@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-qplexdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-qplexdata
 latest:
-  1.8.0--r40hdfd78af_1: sha256:ca134d4808641786cdfea460d85b2cdb13a80b655f484b9b6b205f7be02ca7e4
+  1.16.0--r42hdfd78af_0: sha256:aa16bca0596c034d2c0c0512e5b0e7f61a45c191431aec649015decd0a20e7f9
 tags:
   1.8.0--r40hdfd78af_1: sha256:ca134d4808641786cdfea460d85b2cdb13a80b655f484b9b6b205f7be02ca7e4
+  1.16.0--r42hdfd78af_0: sha256:aa16bca0596c034d2c0c0512e5b0e7f61a45c191431aec649015decd0a20e7f9
+  1.12.0--r41hdfd78af_1: sha256:2496fb81be4485fab8ff281ae37e598a6b715321353f79a3bdc54abcde34c011
+  1.10.0--r41hdfd78af_0: sha256:f3f2de2557318d152027bbfc5a899dabef479f4128316f8c40f043aece5250b1
 docker: quay.io/biocontainers/bioconductor-qplexdata
 aliases:
   .bioconductor-qplexdata-post-link.sh: /usr/local/bin/.bioconductor-qplexdata-post-link.sh

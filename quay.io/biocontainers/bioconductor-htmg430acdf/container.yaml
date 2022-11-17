@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-htmg430acdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htmg430acdf
 latest:
-  2.18.0--r41hdfd78af_9: sha256:152eabe1f24019d7a8400c5a9fd4856991704e03503a5fa6ead73a9974d1b5e0
+  2.18.0--r42hdfd78af_10: sha256:fc06d8382d9154ea65b2e80c5649ade2791e5ee7437f799fb8e71ff8cead89e9
 tags:
   2.18.0--r41hdfd78af_9: sha256:152eabe1f24019d7a8400c5a9fd4856991704e03503a5fa6ead73a9974d1b5e0
+  2.18.0--r42hdfd78af_10: sha256:fc06d8382d9154ea65b2e80c5649ade2791e5ee7437f799fb8e71ff8cead89e9
 docker: quay.io/biocontainers/bioconductor-htmg430acdf
 aliases:
   .bioconductor-htmg430acdf-post-link.sh: /usr/local/bin/.bioconductor-htmg430acdf-post-link.sh

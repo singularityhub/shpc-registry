@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/haystack_bio
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for haystack_bio
 latest:
-  v0.5.0--0: sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3
+  0.5.5--py_1: sha256:a8b31e06623ab414a223672727140951a1ad22d6a9c34c7c52c9ef7731917e60
 tags:
   v0.5.0--0: sha256:65b010177a7b945fef60ba38251f70d7e40402274982fd90310929fd62396ae3
+  0.5.5--py_1: sha256:a8b31e06623ab414a223672727140951a1ad22d6a9c34c7c52c9ef7731917e60
 docker: quay.io/biocontainers/haystack_bio
 aliases:
   bigWigAverageOverBed: /usr/local/bin/bigWigAverageOverBed

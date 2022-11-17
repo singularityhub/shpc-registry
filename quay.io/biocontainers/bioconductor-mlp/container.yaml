@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-mlp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mlp
 latest:
-  1.42.0--r41hdfd78af_0: sha256:d81f68d39ce74fe64e33401aa14f090a90edde9214041d0c9730143b68c915e1
+  1.46.0--r42hdfd78af_0: sha256:522ee36dffdecd99fd512fe072adace1c0c5f726c2939a0396e856617cde816c
 tags:
   1.42.0--r41hdfd78af_0: sha256:d81f68d39ce74fe64e33401aa14f090a90edde9214041d0c9730143b68c915e1
+  1.46.0--r42hdfd78af_0: sha256:522ee36dffdecd99fd512fe072adace1c0c5f726c2939a0396e856617cde816c
 docker: quay.io/biocontainers/bioconductor-mlp

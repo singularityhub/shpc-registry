@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-biobtreer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-biobtreer
 latest:
-  1.6.0--r41hdfd78af_0: sha256:9dbda507303a3aaab53f775f57e33ee27771ed9961d33e102fca97e2668b65c8
+  1.10.0--r42hdfd78af_0: sha256:5dc7730f2e5010d90f96a694dc3fede2891a40f0e427cc9f5d86b05e96e0ee06
 tags:
   1.6.0--r41hdfd78af_0: sha256:9dbda507303a3aaab53f775f57e33ee27771ed9961d33e102fca97e2668b65c8
+  1.10.0--r42hdfd78af_0: sha256:5dc7730f2e5010d90f96a694dc3fede2891a40f0e427cc9f5d86b05e96e0ee06
 docker: quay.io/biocontainers/bioconductor-biobtreer

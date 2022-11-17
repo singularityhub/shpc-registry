@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-gmwt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-gmwt
 latest:
-  1.1.1--r41h25def4e_5: sha256:2fc0c75c7d600bd7444a3ef317f16ba38751b477c8a636a8b3ea76eba894956b
+  1.2--r42h25def4e_1: sha256:766ced7c8230e6079f6a1ce2bdc806d450457aea71982adf1777cb2669ae108b
 tags:
   1.1.1--r41h25def4e_5: sha256:2fc0c75c7d600bd7444a3ef317f16ba38751b477c8a636a8b3ea76eba894956b
+  1.2--r42h25def4e_1: sha256:766ced7c8230e6079f6a1ce2bdc806d450457aea71982adf1777cb2669ae108b
 docker: quay.io/biocontainers/r-gmwt
