@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-slalom
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-slalom
 latest:
-  1.8.0--r36he1b5a44_0: sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727
+  1.20.0--r42hc247a5b_0: sha256:3a93c6b4ccc5aeb0ff6b9543d3d57865eea2183c22e6a5dacdcec755b4f62d3c
 tags:
   1.8.0--r36he1b5a44_0: sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727
+  1.20.0--r42hc247a5b_0: sha256:3a93c6b4ccc5aeb0ff6b9543d3d57865eea2183c22e6a5dacdcec755b4f62d3c
+  1.16.0--r41hc247a5b_2: sha256:75b51fe6538e4e5de2ebffd13c91b540e60caf32299a1e5a26a03c83c9f750b9
+  1.14.0--r41h399db7b_0: sha256:674cdcb8ecf52fb935ec039866d46823ad62d9537e52487adf0c618ae050e544
+  1.12.0--r40h399db7b_1: sha256:07c317679c1bb5baf6a89b189fec04c52d94bcbc8f391e712ee8e04b672d8dae
+  1.10.0--r40h5f743cb_0: sha256:be4250eb10c671bcbf712397dc0219d4805d80fc6787b6e566d63a734ced5cdd
 docker: quay.io/biocontainers/bioconductor-slalom
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-mgu74av2.db
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mgu74av2.db
 latest:
-  3.2.3--r41hdfd78af_7: sha256:7ea93c318b27c9c7efaf9c73665645339a90994cea2fafdc7688e2624a6ec854
+  3.13.0--r42hdfd78af_2: sha256:dde267eb6cae8c92082edb8811bb55b3bf31d58cab8b20fb4660cab9ff086233
 tags:
   3.2.3--r41hdfd78af_7: sha256:7ea93c318b27c9c7efaf9c73665645339a90994cea2fafdc7688e2624a6ec854
+  3.13.0--r42hdfd78af_2: sha256:dde267eb6cae8c92082edb8811bb55b3bf31d58cab8b20fb4660cab9ff086233
 docker: quay.io/biocontainers/bioconductor-mgu74av2.db
 aliases:
   .bioconductor-mgu74av2.db-post-link.sh: /usr/local/bin/.bioconductor-mgu74av2.db-post-link.sh

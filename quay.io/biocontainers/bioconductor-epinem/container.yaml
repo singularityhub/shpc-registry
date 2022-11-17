@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-epinem
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epinem
 latest:
-  1.18.0--r41hdfd78af_0: sha256:a532d06a387e715c3a83ab945f52d749d9c7385913c7c8880e7f8a6f9f393220
+  1.22.0--r42hdfd78af_0: sha256:7ce333bfc28e508ebb06fed1e28dcef93da2219318788cda770d350678d331be
 tags:
   1.18.0--r41hdfd78af_0: sha256:a532d06a387e715c3a83ab945f52d749d9c7385913c7c8880e7f8a6f9f393220
+  1.22.0--r42hdfd78af_0: sha256:7ce333bfc28e508ebb06fed1e28dcef93da2219318788cda770d350678d331be
 docker: quay.io/biocontainers/bioconductor-epinem

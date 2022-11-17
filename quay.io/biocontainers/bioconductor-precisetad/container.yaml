@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-precisetad
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-precisetad
 latest:
-  1.4.0--r41hdfd78af_0: sha256:c1b7900391104f8333f72a58e7efd3162e8cf4943981c672bcd32bdfacf6828a
+  1.8.0--r42hdfd78af_0: sha256:2c27f5c895128d2177bf22e20119c3233e9f9dc2792658559e832c0fb35106cb
 tags:
   1.4.0--r41hdfd78af_0: sha256:c1b7900391104f8333f72a58e7efd3162e8cf4943981c672bcd32bdfacf6828a
+  1.8.0--r42hdfd78af_0: sha256:2c27f5c895128d2177bf22e20119c3233e9f9dc2792658559e832c0fb35106cb
 docker: quay.io/biocontainers/bioconductor-precisetad

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-sitepath
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sitepath
 latest:
-  1.8.0--r41h399db7b_0: sha256:0d0cd4e4fd0ff11b5a99ab23a9659ab7326a252031675254ab1ce3deaa127eb6
+  1.14.0--r42hc247a5b_0: sha256:b3e570d3e634c1382fd8d3ca9642ab7994f4b041ae3c38cfac9fa0498fe082e4
 tags:
   1.8.0--r41h399db7b_0: sha256:0d0cd4e4fd0ff11b5a99ab23a9659ab7326a252031675254ab1ce3deaa127eb6
+  1.14.0--r42hc247a5b_0: sha256:b3e570d3e634c1382fd8d3ca9642ab7994f4b041ae3c38cfac9fa0498fe082e4
+  1.10.2--r41hc247a5b_1: sha256:418818a12424c875a9d3d7f81eb3a654d5a09c0d906e8f273028dd7c04892f63
 docker: quay.io/biocontainers/bioconductor-sitepath
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

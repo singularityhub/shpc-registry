@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/libstatgen
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for libstatgen
 latest:
-  1.0.5--he941832_0: sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a
+  1.0.15--hd03093a_3: sha256:c7edf3325763c7a5171120fe6179a7e3316eaf16836a1ac5c7ba8d1451dcb7e4
 tags:
   1.0.5--he941832_0: sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a
+  1.0.15--hd03093a_3: sha256:c7edf3325763c7a5171120fe6179a7e3316eaf16836a1ac5c7ba8d1451dcb7e4
 docker: quay.io/biocontainers/libstatgen

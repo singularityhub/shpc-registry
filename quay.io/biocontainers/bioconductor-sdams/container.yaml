@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-sdams
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sdams
 latest:
-  1.8.0--r40_0: sha256:1d8ccd7b622d7854543360b1ce1e2460fc06a44cf3ce6290f6aa0c7b13e79dce
+  1.18.0--r42hdfd78af_0: sha256:82a171c46b5c0b24d8c2e1c4a23255466e8997fb500a4aa00a2b212f18a8661b
 tags:
   1.8.0--r40_0: sha256:1d8ccd7b622d7854543360b1ce1e2460fc06a44cf3ce6290f6aa0c7b13e79dce
+  1.18.0--r42hdfd78af_0: sha256:82a171c46b5c0b24d8c2e1c4a23255466e8997fb500a4aa00a2b212f18a8661b
+  1.14.0--r41hdfd78af_0: sha256:b8578c3363989a5063c0325c02158bc4ae4345c943c80ab29825a6ba3986e33c
+  1.12.0--r41hdfd78af_0: sha256:9829c7a7c519155acbdc4be1ce96676b5cfb0417e68b3d416601e35f725a09ad
+  1.10.0--r40hdfd78af_1: sha256:9596f4c5a0b7fa7f0fe9370a96eed6a96c83b14bd60fd4b49eba3454164759df
 docker: quay.io/biocontainers/bioconductor-sdams
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

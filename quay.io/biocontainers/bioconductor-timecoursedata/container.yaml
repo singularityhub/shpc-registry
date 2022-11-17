@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-timecoursedata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-timecoursedata
 latest:
-  1.4.0--r41hdfd78af_1: sha256:099c7849212b26eab5d0bdf263ff0a92b8bca943f591f896f3be015766611a58
+  1.8.0--r42hdfd78af_0: sha256:6b3da897691e61110751ccd6282eb08d3cb2c6be825426c97893b12d1dded1af
 tags:
   1.4.0--r41hdfd78af_1: sha256:099c7849212b26eab5d0bdf263ff0a92b8bca943f591f896f3be015766611a58
+  1.8.0--r42hdfd78af_0: sha256:6b3da897691e61110751ccd6282eb08d3cb2c6be825426c97893b12d1dded1af
 docker: quay.io/biocontainers/bioconductor-timecoursedata
 aliases:
   .bioconductor-timecoursedata-post-link.sh: /usr/local/bin/.bioconductor-timecoursedata-post-link.sh

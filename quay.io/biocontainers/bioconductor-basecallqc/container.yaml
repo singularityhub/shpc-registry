@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-basecallqc
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-basecallqc
 latest:
-  1.8.0--r36_1: sha256:465adc6c16c4917ce702916b9cd73b453bc81b5da9637e9c8ca4170d666c9a14
+  1.18.0--r41hdfd78af_0: sha256:5d342cebbc171bcee550e794907986d73e7f78672b0752b31a8069c852b43d14
 tags:
   1.8.0--r36_1: sha256:465adc6c16c4917ce702916b9cd73b453bc81b5da9637e9c8ca4170d666c9a14
+  1.18.0--r41hdfd78af_0: sha256:5d342cebbc171bcee550e794907986d73e7f78672b0752b31a8069c852b43d14
+  1.16.0--r41hdfd78af_0: sha256:b5c18e6e068dac50b6ddfff27ef833afa28c19e3f0f3cc7be83e97381305a3ba
+  1.14.0--r40hdfd78af_1: sha256:d342dfa759022018986178b92505281a38254cb4b3c0eb518268a7da0256f2b2
+  1.12.0--r40_0: sha256:6d143de0293b63a9b7a9d8f2784a485ef2aa83c2cf6c9d10b5603839dfbb9180
+  1.10.0--r36_0: sha256:b73f0cf89544e1b8a9774ba2aaef9c80b85fd315262f23ac3497b3feeb983077
 docker: quay.io/biocontainers/bioconductor-basecallqc
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

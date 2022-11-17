@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sparsematrixstats
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sparsematrixstats
 latest:
-  1.6.0--r41hc247a5b_2: sha256:a8ff49c3961f7ed73c9d8e5b5ce94f036cd93dd94347e9272752b383a8a69431
+  1.10.0--r42hc247a5b_0: sha256:82de2dd3dbd8cc934ca9c53ad3de321e6f3f0adf0899e47d4dbb353acda7b818
 tags:
   1.6.0--r41hc247a5b_2: sha256:a8ff49c3961f7ed73c9d8e5b5ce94f036cd93dd94347e9272752b383a8a69431
+  1.10.0--r42hc247a5b_0: sha256:82de2dd3dbd8cc934ca9c53ad3de321e6f3f0adf0899e47d4dbb353acda7b818
 docker: quay.io/biocontainers/bioconductor-sparsematrixstats
