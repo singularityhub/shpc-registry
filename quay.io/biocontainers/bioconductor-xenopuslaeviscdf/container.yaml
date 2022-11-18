@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-xenopuslaeviscdf
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-xenopuslaeviscdf
 latest:
-  2.18.0--r41hdfd78af_9: sha256:208ff238fb3c9ae10bfe7c9cdde895a04e9d07480388fc7d634b320da587a5f6
+  2.18.0--r42hdfd78af_10: sha256:c70e121d6e78c80e3d9af8bf14ecae78357d226c85b61f042f8e664c9ac6f983
 tags:
   2.18.0--r41hdfd78af_9: sha256:208ff238fb3c9ae10bfe7c9cdde895a04e9d07480388fc7d634b320da587a5f6
+  2.18.0--r42hdfd78af_10: sha256:c70e121d6e78c80e3d9af8bf14ecae78357d226c85b61f042f8e664c9ac6f983
 docker: quay.io/biocontainers/bioconductor-xenopuslaeviscdf
 aliases:
   .bioconductor-xenopuslaeviscdf-post-link.sh: /usr/local/bin/.bioconductor-xenopuslaeviscdf-post-link.sh

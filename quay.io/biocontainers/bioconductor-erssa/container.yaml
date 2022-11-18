@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-erssa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-erssa
 latest:
-  1.8.0--r40hdfd78af_1: sha256:b33eb925dc6d19f82024b60bddbfa5a6316b551f11cc1041fb8b1517208f680c
+  1.16.0--r42hdfd78af_0: sha256:69e0a9ed8f498fe04b7e42f63dd73329cdae668f25eddb4c7bb7ab019bf4570b
 tags:
   1.8.0--r40hdfd78af_1: sha256:b33eb925dc6d19f82024b60bddbfa5a6316b551f11cc1041fb8b1517208f680c
+  1.16.0--r42hdfd78af_0: sha256:69e0a9ed8f498fe04b7e42f63dd73329cdae668f25eddb4c7bb7ab019bf4570b
+  1.12.0--r41hdfd78af_0: sha256:08491a6726145828c7a3b2bb91ffed59df4d036dd28e5ca37c8fe45fe1f99774
+  1.10.0--r41hdfd78af_0: sha256:47b451edd788ee9190658f5e005bec67f381011bfad76867c0717d7c625cd4ce
 docker: quay.io/biocontainers/bioconductor-erssa
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

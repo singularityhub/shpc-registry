@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tabulamurissenisdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tabulamurissenisdata
 latest:
-  1.0.0--r41hdfd78af_1: sha256:b310b585a4a1b0f2c0068823cfdb2e8e84dfe033b4dc5a38b5f219976c52192e
+  1.4.0--r42hdfd78af_0: sha256:4552a6b944e6726e221658494750b3d4bd9218aa3fef9ddd3bff1f0875ff8bee
 tags:
   1.0.0--r41hdfd78af_1: sha256:b310b585a4a1b0f2c0068823cfdb2e8e84dfe033b4dc5a38b5f219976c52192e
+  1.4.0--r42hdfd78af_0: sha256:4552a6b944e6726e221658494750b3d4bd9218aa3fef9ddd3bff1f0875ff8bee
 docker: quay.io/biocontainers/bioconductor-tabulamurissenisdata
 aliases:
   .bioconductor-tabulamurissenisdata-post-link.sh: /usr/local/bin/.bioconductor-tabulamurissenisdata-post-link.sh

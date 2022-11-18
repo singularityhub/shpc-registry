@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-consensusde
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-consensusde
 latest:
-  1.8.0--r40hdfd78af_1: sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436
+  1.16.0--r42hdfd78af_0: sha256:40bdacf5f51f7b6b6ef5d269992c302ce868519e357bf79b99fb52a320c9f2b3
 tags:
   1.8.0--r40hdfd78af_1: sha256:4a2dc49bf31653e0c7dd600eaaac3a59ada797a1457c59214f0f73196016a436
+  1.16.0--r42hdfd78af_0: sha256:40bdacf5f51f7b6b6ef5d269992c302ce868519e357bf79b99fb52a320c9f2b3
+  1.12.0--r41hdfd78af_0: sha256:ab364929b25668639be0d959ab3c5e9916745a3a897756cc0e96eae2d2a4746b
+  1.10.0--r41hdfd78af_0: sha256:3d831ab719142870bd89485db93e36dae27d79a899af79dce05a50dd8f170815
 docker: quay.io/biocontainers/bioconductor-consensusde
 aliases:
   2to3-3.9: /usr/local/bin/2to3-3.9

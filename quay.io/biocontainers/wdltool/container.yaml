@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/wdltool
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wdltool
 latest:
-  0.9--py36_0: sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6
+  0.14--1: sha256:d6206ae9c55565fc9c08149e3cc08c5188378aaab8f28ca3cf2d264d8ef9ae71
 tags:
   0.9--py36_0: sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6
+  0.14--1: sha256:d6206ae9c55565fc9c08149e3cc08c5188378aaab8f28ca3cf2d264d8ef9ae71
 docker: quay.io/biocontainers/wdltool
 aliases:
   wdltool: /usr/local/bin/wdltool

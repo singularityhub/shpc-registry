@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-cellbench
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cellbench
 latest:
-  1.8.0--r41hdfd78af_0: sha256:811c0963c07be52ab3ca2a324dbe4e7591ad3b3ce0ce061d85d10c85b253bb3e
+  1.14.0--r42hdfd78af_0: sha256:e096606d6875a980b604bf735be6f9f7a0b4b9275f3b877d86bbb765ad65afcd
 tags:
   1.8.0--r41hdfd78af_0: sha256:811c0963c07be52ab3ca2a324dbe4e7591ad3b3ce0ce061d85d10c85b253bb3e
+  1.14.0--r42hdfd78af_0: sha256:e096606d6875a980b604bf735be6f9f7a0b4b9275f3b877d86bbb765ad65afcd
+  1.10.0--r41hdfd78af_0: sha256:bfaea4d2f0b8f7a6913275022e5ec18adad12bbc4b019492c687d69a9a5c282c
 docker: quay.io/biocontainers/bioconductor-cellbench
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

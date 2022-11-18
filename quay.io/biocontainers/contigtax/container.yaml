@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/contigtax
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for contigtax
 latest:
-  0.5.9--py_0: sha256:d655abcba455ad5632707e4cf617748b2b760c4579a9a64b4e8b24ebb6c0188e
+  0.5.10--pyhdfd78af_0: sha256:eda1f5d6b28710afa552292f08d9e0ba47e8216853060472aa961996f3fd65a9
 tags:
   0.5.9--py_0: sha256:d655abcba455ad5632707e4cf617748b2b760c4579a9a64b4e8b24ebb6c0188e
+  0.5.10--pyhdfd78af_0: sha256:eda1f5d6b28710afa552292f08d9e0ba47e8216853060472aa961996f3fd65a9
 docker: quay.io/biocontainers/contigtax
 aliases:
   contigtax: /usr/local/bin/contigtax

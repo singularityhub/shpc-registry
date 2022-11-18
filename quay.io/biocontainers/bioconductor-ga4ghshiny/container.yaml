@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-ga4ghshiny
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ga4ghshiny
 latest:
-  1.8.0--r36_0: sha256:a19bc8b63a4a7faf4ad57319e9714fa5f6cf791941f00e555c1fbf6c633c4664
+  1.20.0--r42hdfd78af_0: sha256:e28692b47a5f65e1f02e333faee8f753482c2ddcb8c1b68e942786434f141bb5
 tags:
   1.8.0--r36_0: sha256:a19bc8b63a4a7faf4ad57319e9714fa5f6cf791941f00e555c1fbf6c633c4664
+  1.20.0--r42hdfd78af_0: sha256:e28692b47a5f65e1f02e333faee8f753482c2ddcb8c1b68e942786434f141bb5
+  1.16.0--r41hdfd78af_0: sha256:2d27178ec9a8de0e12fee44c398ce3e90c4badd1c937add1fd2d93a53ca7d863
+  1.14.0--r41hdfd78af_0: sha256:5eb4eec4308c9910f3959e39bd4f8a69bb685358e23d4392bfb0073e3ca6da88
+  1.12.0--r40hdfd78af_1: sha256:695cb48c3f86a6102ed1f3b20d539a0e4cf2983ec5e6aa2fe3c3b3ce0707f02b
+  1.10.0--r40_0: sha256:3284f1e69a2804a19c192185ac6267938797ed1583a974eed34384354c23c86f
 docker: quay.io/biocontainers/bioconductor-ga4ghshiny
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

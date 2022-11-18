@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-podcall
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-podcall
 latest:
-  1.2.0--r41hdfd78af_0: sha256:a2bf33133c0bb4b0e859bd9f569810faea70f5eece1a9fc62ac16aa53ad8370a
+  1.6.0--r42hdfd78af_0: sha256:04c03cf7b56deec125cd8f37f80227753b91224e51a0be31e2f3c61f52f70396
 tags:
   1.2.0--r41hdfd78af_0: sha256:a2bf33133c0bb4b0e859bd9f569810faea70f5eece1a9fc62ac16aa53ad8370a
+  1.6.0--r42hdfd78af_0: sha256:04c03cf7b56deec125cd8f37f80227753b91224e51a0be31e2f3c61f52f70396
 docker: quay.io/biocontainers/bioconductor-podcall

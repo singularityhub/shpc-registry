@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-optimalflow
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-optimalflow
 latest:
-  1.6.0--r41hdfd78af_0: sha256:5c934cf158858a3a375e6bdc1c5ae46e7786283d51ddbee5416484b3e1189d63
+  1.10.0--r42hdfd78af_0: sha256:de174f14e9fbe6b9a9f581dc9c683634b1ce64b353478274c3c7b83e899cb53b
 tags:
   1.6.0--r41hdfd78af_0: sha256:5c934cf158858a3a375e6bdc1c5ae46e7786283d51ddbee5416484b3e1189d63
+  1.10.0--r42hdfd78af_0: sha256:de174f14e9fbe6b9a9f581dc9c683634b1ce64b353478274c3c7b83e899cb53b
 docker: quay.io/biocontainers/bioconductor-optimalflow
 aliases:
   .bioconductor-optimalflowdata-post-link.sh: /usr/local/bin/.bioconductor-optimalflowdata-post-link.sh
