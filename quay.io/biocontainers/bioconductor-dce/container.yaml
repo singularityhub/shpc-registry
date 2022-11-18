@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-dce
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dce
 latest:
-  1.2.0--r41hdfd78af_0: sha256:8e1cb0e1924983286499586059fef38b241b797df2722a67548b25443b4605cf
+  1.6.0--r42hdfd78af_0: sha256:138ecb06cb6b0c981c1b94f076ee8d6e5481bb58a2c63f05ab875b1a53d3e472
 tags:
   1.2.0--r41hdfd78af_0: sha256:8e1cb0e1924983286499586059fef38b241b797df2722a67548b25443b4605cf
+  1.6.0--r42hdfd78af_0: sha256:138ecb06cb6b0c981c1b94f076ee8d6e5481bb58a2c63f05ab875b1a53d3e472
 docker: quay.io/biocontainers/bioconductor-dce
 aliases:
   pandoc: /usr/local/bin/pandoc

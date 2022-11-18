@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-firebrowser
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-firebrowser
 latest:
-  1.1.35--r41hdfd78af_3: sha256:b7434e714be97ced7ae28c9471144a4c199f481561d063a34dc53056cb2e4f5b
+  1.1.35--r42hdfd78af_4: sha256:21677c6daa74488b8e1ec5c3b98784dbf4bb8efc43bf7a545300d55e7951bfb9
 tags:
   1.1.35--r41hdfd78af_3: sha256:b7434e714be97ced7ae28c9471144a4c199f481561d063a34dc53056cb2e4f5b
+  1.1.35--r42hdfd78af_4: sha256:21677c6daa74488b8e1ec5c3b98784dbf4bb8efc43bf7a545300d55e7951bfb9
 docker: quay.io/biocontainers/r-firebrowser
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-methyvim
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-methyvim
 latest:
-  1.8.0--r36_0: sha256:77830173a8538eee9e9ae866b8c80c9e7b2529ffc9974f5762b6ca128e833411
+  1.11.0--r40hdfd78af_1: sha256:a29250b05a1dc284366c810e5107fc4240ff27c1572401ec6f79ff974f42564b
 tags:
   1.8.0--r36_0: sha256:77830173a8538eee9e9ae866b8c80c9e7b2529ffc9974f5762b6ca128e833411
+  1.11.0--r40hdfd78af_1: sha256:a29250b05a1dc284366c810e5107fc4240ff27c1572401ec6f79ff974f42564b
+  1.10.0--r40_0: sha256:642fa6aab491f92e98b7f0f88295fce5eec647f62a912bc8c03499c83855092a
 docker: quay.io/biocontainers/bioconductor-methyvim
 aliases:
   gio-launch-desktop: /usr/local/bin/gio-launch-desktop

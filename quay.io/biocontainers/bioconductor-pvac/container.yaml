@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-pvac
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-pvac
 latest:
-  1.42.0--r41hdfd78af_0: sha256:23cf14b66668df674e3fa6e75e8d6e2658bc15a449ac20f10f5c562448a99689
+  1.46.0--r42hdfd78af_0: sha256:18800f1b59e9bd4818052c720535968cf2cef609989268a94e449859b3fd7834
 tags:
   1.42.0--r41hdfd78af_0: sha256:23cf14b66668df674e3fa6e75e8d6e2658bc15a449ac20f10f5c562448a99689
+  1.46.0--r42hdfd78af_0: sha256:18800f1b59e9bd4818052c720535968cf2cef609989268a94e449859b3fd7834
 docker: quay.io/biocontainers/bioconductor-pvac

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-receptloss
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-receptloss
 latest:
-  1.6.0--r41hdfd78af_0: sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a
+  1.10.0--r42hdfd78af_0: sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c
 tags:
   1.6.0--r41hdfd78af_0: sha256:c77e7ebfc1556f498f39528bf9adc1d349b5df4fffe6d7e4d37a86579abe539a
+  1.10.0--r42hdfd78af_0: sha256:6f3b4bc0b2c428b7a44cc02e2e4e2e1067eeb898e7032681bb943a82bee38d0c
 docker: quay.io/biocontainers/bioconductor-receptloss

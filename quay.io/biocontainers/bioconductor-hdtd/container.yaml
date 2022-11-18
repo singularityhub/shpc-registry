@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-hdtd
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-hdtd
 latest:
-  1.28.0--r41hc247a5b_2: sha256:ac44a5366106295c7e0a27e655a7c96cc62213290f9c493d41dd9169490787e2
+  1.32.0--r42hc247a5b_0: sha256:8e6990e0bbbcfcd895d3bba246233cd03068a40e4f44988a382b193772fe98d4
 tags:
   1.28.0--r41hc247a5b_2: sha256:ac44a5366106295c7e0a27e655a7c96cc62213290f9c493d41dd9169490787e2
+  1.32.0--r42hc247a5b_0: sha256:8e6990e0bbbcfcd895d3bba246233cd03068a40e4f44988a382b193772fe98d4
 docker: quay.io/biocontainers/bioconductor-hdtd

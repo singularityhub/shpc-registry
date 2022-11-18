@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyseer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyseer
 latest:
-  1.3.9--pyh5e36f6f_0: sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e
+  1.3.10--pyh5e36f6f_0: sha256:1db6b7b3bf8c0f2d07b434dca71a4a13a0a9b5d7e4e29c4290c20da2fdf0a65e
 tags:
   1.3.9--pyh5e36f6f_0: sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e
+  1.3.10--pyh5e36f6f_0: sha256:1db6b7b3bf8c0f2d07b434dca71a4a13a0a9b5d7e4e29c4290c20da2fdf0a65e
 docker: quay.io/biocontainers/pyseer
 aliases:
   annotate_hits_pyseer: /usr/local/bin/annotate_hits_pyseer
