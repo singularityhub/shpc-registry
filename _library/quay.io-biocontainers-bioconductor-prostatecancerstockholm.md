@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-prostatecancerstockholm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-prostatecancerstockholm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-prostatecancerstockholm/container.yaml"
-updated_at: "2022-11-17 02:51:52.694794"
-latest: "1.22.0--r41hdfd78af_1"
+updated_at: "2022-11-18 00:38:24.647913"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-prostatecancerstockholm"
 aliases:
  - ".bioconductor-prostatecancerstockholm-post-link.sh"
  - ".bioconductor-prostatecancerstockholm-pre-unlink.sh"
 versions:
  - "1.22.0--r41hdfd78af_1"
+ - "1.26.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-prostatecancerstockholm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancerstockholm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancerstockholm", "latest": {"1.22.0--r41hdfd78af_1": "sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancerstockholm", "aliases": {".bioconductor-prostatecancerstockholm-post-link.sh": "/usr/local/bin/.bioconductor-prostatecancerstockholm-post-link.sh", ".bioconductor-prostatecancerstockholm-pre-unlink.sh": "/usr/local/bin/.bioconductor-prostatecancerstockholm-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-prostatecancerstockholm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-prostatecancerstockholm", "latest": {"1.26.0--r42hdfd78af_0": "sha256:01741c4ad08e0e02ddb16fdfced7173b894914defb81050ee25559fd24450713"}, "tags": {"1.22.0--r41hdfd78af_1": "sha256:1e0fb9c4e1ca359b2d3e81e3453211c0e76f02c1b0e43e80019bd54217a8ded5", "1.26.0--r42hdfd78af_0": "sha256:01741c4ad08e0e02ddb16fdfced7173b894914defb81050ee25559fd24450713"}, "docker": "quay.io/biocontainers/bioconductor-prostatecancerstockholm", "aliases": {".bioconductor-prostatecancerstockholm-post-link.sh": "/usr/local/bin/.bioconductor-prostatecancerstockholm-post-link.sh", ".bioconductor-prostatecancerstockholm-pre-unlink.sh": "/usr/local/bin/.bioconductor-prostatecancerstockholm-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-prostatecancerstockholm.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-prostatecancerstockholm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-prostatecancerstockholm:1.22.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-prostatecancerstockholm:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-prostatecancerstockholm/1.22.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-prostatecancerstockholm/1.22.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-prostatecancerstockholm/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-prostatecancerstockholm/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

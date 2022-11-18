@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snoscan"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snoscan/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snoscan/container.yaml"
-updated_at: "2022-11-17 03:06:50.611632"
+updated_at: "2022-11-18 00:53:57.939691"
 latest: "1.0--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/snoscan"
 aliases:

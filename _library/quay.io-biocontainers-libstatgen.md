@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/libstatgen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libstatgen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libstatgen/container.yaml"
-updated_at: "2022-11-17 03:06:46.510982"
-latest: "1.0.5--he941832_0"
+updated_at: "2022-11-18 00:53:53.696268"
+latest: "1.0.15--hd03093a_3"
 container_url: "https://biocontainers.pro/tools/libstatgen"
 
 versions:
  - "1.0.5--he941832_0"
+ - "1.0.15--hd03093a_3"
 description: "shpc-registry automated BioContainers addition for libstatgen"
-config: {"url": "https://biocontainers.pro/tools/libstatgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libstatgen", "latest": {"1.0.5--he941832_0": "sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a"}, "tags": {"1.0.5--he941832_0": "sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a"}, "docker": "quay.io/biocontainers/libstatgen"}
+config: {"url": "https://biocontainers.pro/tools/libstatgen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libstatgen", "latest": {"1.0.15--hd03093a_3": "sha256:c7edf3325763c7a5171120fe6179a7e3316eaf16836a1ac5c7ba8d1451dcb7e4"}, "tags": {"1.0.5--he941832_0": "sha256:545f1c5acc46fcde107494c96fa1f2b25e678ab3a5183d97167810c225fe609a", "1.0.15--hd03093a_3": "sha256:c7edf3325763c7a5171120fe6179a7e3316eaf16836a1ac5c7ba8d1451dcb7e4"}, "docker": "quay.io/biocontainers/libstatgen"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libstatgen.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/libstatgen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libstatgen:1.0.5--he941832_0
+$ shpc install quay.io/biocontainers/libstatgen:1.0.15--hd03093a_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libstatgen/1.0.5--he941832_0
-$ module help quay.io/biocontainers/libstatgen/1.0.5--he941832_0
+$ module load quay.io/biocontainers/libstatgen/1.0.15--hd03093a_3
+$ module help quay.io/biocontainers/libstatgen/1.0.15--hd03093a_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wdltool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wdltool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wdltool/container.yaml"
-updated_at: "2022-11-17 02:53:15.973661"
-latest: "0.9--py36_0"
+updated_at: "2022-11-18 00:39:51.557609"
+latest: "0.14--1"
 container_url: "https://biocontainers.pro/tools/wdltool"
 aliases:
  - "wdltool"
@@ -21,8 +21,9 @@ aliases:
  - "idlj"
 versions:
  - "0.9--py36_0"
+ - "0.14--1"
 description: "shpc-registry automated BioContainers addition for wdltool"
-config: {"url": "https://biocontainers.pro/tools/wdltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wdltool", "latest": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6"}, "tags": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6"}, "docker": "quay.io/biocontainers/wdltool", "aliases": {"wdltool": "/usr/local/bin/wdltool", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
+config: {"url": "https://biocontainers.pro/tools/wdltool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wdltool", "latest": {"0.14--1": "sha256:d6206ae9c55565fc9c08149e3cc08c5188378aaab8f28ca3cf2d264d8ef9ae71"}, "tags": {"0.9--py36_0": "sha256:3970de1150546d251a457fd101dd2ad5545a02b2bfea7b19769ca1f95068bfe6", "0.14--1": "sha256:d6206ae9c55565fc9c08149e3cc08c5188378aaab8f28ca3cf2d264d8ef9ae71"}, "docker": "quay.io/biocontainers/wdltool", "aliases": {"wdltool": "/usr/local/bin/wdltool", "easy_install-3.6": "/usr/local/bin/easy_install-3.6", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer", "idlj": "/usr/local/bin/idlj"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wdltool.
@@ -37,7 +38,7 @@ $ shpc install quay.io/biocontainers/wdltool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wdltool:0.9--py36_0
+$ shpc install quay.io/biocontainers/wdltool:0.14--1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wdltool/0.9--py36_0
-$ module help quay.io/biocontainers/wdltool/0.9--py36_0
+$ module load quay.io/biocontainers/wdltool/0.14--1
+$ module help quay.io/biocontainers/wdltool/0.14--1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

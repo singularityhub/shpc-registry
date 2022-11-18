@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/r-loose.rock"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-loose.rock/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-loose.rock/container.yaml"
-updated_at: "2022-11-17 03:22:28.916976"
-latest: "1.0.9--r351h6115d3f_0"
+updated_at: "2022-11-18 01:10:07.891561"
+latest: "1.0.13--r36h6115d3f_1"
 container_url: "https://biocontainers.pro/tools/r-loose.rock"
 aliases:
  - "c89"
  - "c99"
 versions:
  - "1.0.9--r351h6115d3f_0"
+ - "1.0.13--r36h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-loose.rock"
-config: {"url": "https://biocontainers.pro/tools/r-loose.rock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loose.rock", "latest": {"1.0.9--r351h6115d3f_0": "sha256:73867ac98610dfa9e61adee54d32b78f09178adc5ca3daa18738ae9e0e2e41d9"}, "tags": {"1.0.9--r351h6115d3f_0": "sha256:73867ac98610dfa9e61adee54d32b78f09178adc5ca3daa18738ae9e0e2e41d9"}, "docker": "quay.io/biocontainers/r-loose.rock", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/r-loose.rock", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-loose.rock", "latest": {"1.0.13--r36h6115d3f_1": "sha256:591e930d1660697761ec661b72930ad4798747bd6a9497dbe1d03d667d63d6dc"}, "tags": {"1.0.9--r351h6115d3f_0": "sha256:73867ac98610dfa9e61adee54d32b78f09178adc5ca3daa18738ae9e0e2e41d9", "1.0.13--r36h6115d3f_1": "sha256:591e930d1660697761ec661b72930ad4798747bd6a9497dbe1d03d667d63d6dc"}, "docker": "quay.io/biocontainers/r-loose.rock", "aliases": {"c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-loose.rock.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-loose.rock
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-loose.rock:1.0.9--r351h6115d3f_0
+$ shpc install quay.io/biocontainers/r-loose.rock:1.0.13--r36h6115d3f_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-loose.rock/1.0.9--r351h6115d3f_0
-$ module help quay.io/biocontainers/r-loose.rock/1.0.9--r351h6115d3f_0
+$ module load quay.io/biocontainers/r-loose.rock/1.0.13--r36h6115d3f_1
+$ module help quay.io/biocontainers/r-loose.rock/1.0.13--r36h6115d3f_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

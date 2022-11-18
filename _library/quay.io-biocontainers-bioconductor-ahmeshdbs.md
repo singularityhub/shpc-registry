@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ahmeshdbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahmeshdbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahmeshdbs/container.yaml"
-updated_at: "2022-11-17 03:23:28.487184"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2022-11-18 01:11:08.910313"
+latest: "1.5.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahmeshdbs"
 aliases:
  - ".bioconductor-ahmeshdbs-post-link.sh"
  - ".bioconductor-ahmeshdbs-pre-unlink.sh"
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.5.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ahmeshdbs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ahmeshdbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahmeshdbs", "latest": {"1.2.0--r41hdfd78af_1": "sha256:73a548296ef6d743f730fa2fcdb22165fb217aded3dc6b4a106a5ee5e82771ab"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:73a548296ef6d743f730fa2fcdb22165fb217aded3dc6b4a106a5ee5e82771ab"}, "docker": "quay.io/biocontainers/bioconductor-ahmeshdbs", "aliases": {".bioconductor-ahmeshdbs-post-link.sh": "/usr/local/bin/.bioconductor-ahmeshdbs-post-link.sh", ".bioconductor-ahmeshdbs-pre-unlink.sh": "/usr/local/bin/.bioconductor-ahmeshdbs-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ahmeshdbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahmeshdbs", "latest": {"1.5.0--r42hdfd78af_0": "sha256:3fe39e191658511e980d9b1a1c6c0bfa6811f50ac38f4569b41ef46330da3527"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:73a548296ef6d743f730fa2fcdb22165fb217aded3dc6b4a106a5ee5e82771ab", "1.5.0--r42hdfd78af_0": "sha256:3fe39e191658511e980d9b1a1c6c0bfa6811f50ac38f4569b41ef46330da3527"}, "docker": "quay.io/biocontainers/bioconductor-ahmeshdbs", "aliases": {".bioconductor-ahmeshdbs-post-link.sh": "/usr/local/bin/.bioconductor-ahmeshdbs-post-link.sh", ".bioconductor-ahmeshdbs-pre-unlink.sh": "/usr/local/bin/.bioconductor-ahmeshdbs-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ahmeshdbs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ahmeshdbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ahmeshdbs:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ahmeshdbs:1.5.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ahmeshdbs/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ahmeshdbs/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ahmeshdbs/1.5.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ahmeshdbs/1.5.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

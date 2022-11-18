@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/abi-dumper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/abi-dumper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/abi-dumper/container.yaml"
-updated_at: "2022-11-17 03:45:37.384969"
+updated_at: "2022-11-18 01:33:57.846160"
 latest: "1.2"
 container_url: "https://github.com/orgs/autamus/packages/container/package/abi-dumper"
 aliases:
@@ -13,7 +13,7 @@ versions:
  - "1.2"
  - "latest"
 description: "ABI Dumper is a tool for dumping ABI information of an ELF object containing DWARF debug info."
-config: {"docker": "ghcr.io/autamus/abi-dumper", "url": "https://github.com/orgs/autamus/packages/container/package/abi-dumper", "maintainer": "@vsoch", "description": "ABI Dumper is a tool for dumping ABI information of an ELF object containing DWARF debug info.", "latest": {"1.2": "sha256:6f9a2e90a4723cb21fef3b5f1ab307996b92a2165342ea6587ae2cee0a949cbc"}, "tags": {"1.2": "sha256:6f9a2e90a4723cb21fef3b5f1ab307996b92a2165342ea6587ae2cee0a949cbc", "latest": "sha256:6f9a2e90a4723cb21fef3b5f1ab307996b92a2165342ea6587ae2cee0a949cbc"}, "aliases": {"abi-dumper": "/opt/view/bin/abi-dumper"}}
+config: {"docker": "ghcr.io/autamus/abi-dumper", "url": "https://github.com/orgs/autamus/packages/container/package/abi-dumper", "maintainer": "@vsoch", "description": "ABI Dumper is a tool for dumping ABI information of an ELF object containing DWARF debug info.", "latest": {"1.2": "sha256:53c6bb9fa5bf0f0029580dff7f48bb5f410657f8acb497b5a80504355407da9f"}, "tags": {"1.2": "sha256:53c6bb9fa5bf0f0029580dff7f48bb5f410657f8acb497b5a80504355407da9f", "latest": "sha256:53c6bb9fa5bf0f0029580dff7f48bb5f410657f8acb497b5a80504355407da9f"}, "aliases": {"abi-dumper": "/opt/view/bin/abi-dumper"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/abi-dumper.

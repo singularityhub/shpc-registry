@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-stroma4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-stroma4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-stroma4/container.yaml"
-updated_at: "2022-11-17 03:31:23.429562"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-18 01:19:18.756336"
+latest: "1.22.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-stroma4"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.22.0--r42hdfd78af_0"
+ - "1.18.0--r41hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r40hdfd78af_1"
+ - "1.12.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-stroma4"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-stroma4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stroma4", "latest": {"1.8.0--r36_1": "sha256:08fb201c3fdb1f059d9e0fe4a61354da6f6b5b7b6f08a52cd5e9e47f7c57cf8b"}, "tags": {"1.8.0--r36_1": "sha256:08fb201c3fdb1f059d9e0fe4a61354da6f6b5b7b6f08a52cd5e9e47f7c57cf8b"}, "docker": "quay.io/biocontainers/bioconductor-stroma4", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-stroma4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-stroma4", "latest": {"1.22.0--r42hdfd78af_0": "sha256:6b6f965781b21c28c3c6a39afbadf47ee8d3a3ccb6faea6fcfce5536a31ec81a"}, "tags": {"1.8.0--r36_1": "sha256:08fb201c3fdb1f059d9e0fe4a61354da6f6b5b7b6f08a52cd5e9e47f7c57cf8b", "1.22.0--r42hdfd78af_0": "sha256:6b6f965781b21c28c3c6a39afbadf47ee8d3a3ccb6faea6fcfce5536a31ec81a", "1.18.0--r41hdfd78af_0": "sha256:3d7c806cee1f95361b040aebeddb3f50eccbf6fe711a18112a0815aeeee37ab0", "1.16.0--r41hdfd78af_0": "sha256:a1f9097c79a6c7010913baa85bf1450a4e67f73ae5f0a60b359091f79b050ba4", "1.14.0--r40hdfd78af_1": "sha256:d6962cf7b53018394f0fa21fbe0f782406eea47367fdcdda573b99cdee12d16c", "1.12.0--r40_0": "sha256:505816d1eceb6a26f5cb413433125e893ff97af59da2d921ccab0c59a87f8679"}, "docker": "quay.io/biocontainers/bioconductor-stroma4", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-stroma4.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-stroma4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-stroma4:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-stroma4:1.22.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-stroma4/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-stroma4/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-stroma4/1.22.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-stroma4/1.22.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/staphb_toolkit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/staphb_toolkit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/staphb_toolkit/container.yaml"
-updated_at: "2022-11-17 03:27:53.881273"
-latest: "2.0.0--pyhdfd78af_0"
+updated_at: "2022-11-18 01:15:41.787641"
+latest: "2.0.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/staphb_toolkit"
 aliases:
  - "pyfiglet"
@@ -25,8 +25,9 @@ aliases:
  - "jfr"
 versions:
  - "2.0.0--pyhdfd78af_0"
+ - "2.0.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for staphb_toolkit"
-config: {"url": "https://biocontainers.pro/tools/staphb_toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staphb_toolkit", "latest": {"2.0.0--pyhdfd78af_0": "sha256:6d3b3371b8b029af19b919e842efc036cd74bf809f8a84a9aa027d8d25805ed0"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:6d3b3371b8b029af19b919e842efc036cd74bf809f8a84a9aa027d8d25805ed0"}, "docker": "quay.io/biocontainers/staphb_toolkit", "aliases": {"pyfiglet": "/usr/local/bin/pyfiglet", "pysemver": "/usr/local/bin/pysemver", "spython": "/usr/local/bin/spython", "staphb-tk": "/usr/local/bin/staphb-tk", "wsdump": "/usr/local/bin/wsdump", "jpackage": "/usr/local/bin/jpackage", "cmark": "/usr/local/bin/cmark", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "jfr": "/usr/local/bin/jfr"}}
+config: {"url": "https://biocontainers.pro/tools/staphb_toolkit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for staphb_toolkit", "latest": {"2.0.1--pyhdfd78af_0": "sha256:dd26d53d3564fa365865f87786b912011f78fdc3f5c83711c1f9300b13b2582e"}, "tags": {"2.0.0--pyhdfd78af_0": "sha256:6d3b3371b8b029af19b919e842efc036cd74bf809f8a84a9aa027d8d25805ed0", "2.0.1--pyhdfd78af_0": "sha256:dd26d53d3564fa365865f87786b912011f78fdc3f5c83711c1f9300b13b2582e"}, "docker": "quay.io/biocontainers/staphb_toolkit", "aliases": {"pyfiglet": "/usr/local/bin/pyfiglet", "pysemver": "/usr/local/bin/pysemver", "spython": "/usr/local/bin/spython", "staphb-tk": "/usr/local/bin/staphb-tk", "wsdump": "/usr/local/bin/wsdump", "jpackage": "/usr/local/bin/jpackage", "cmark": "/usr/local/bin/cmark", "cups-config": "/usr/local/bin/cups-config", "ippeveprinter": "/usr/local/bin/ippeveprinter", "ipptool": "/usr/local/bin/ipptool", "pygmentize": "/usr/local/bin/pygmentize", "normalizer": "/usr/local/bin/normalizer", "futurize": "/usr/local/bin/futurize", "pasteurize": "/usr/local/bin/pasteurize", "jfr": "/usr/local/bin/jfr"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/staphb_toolkit.
@@ -41,7 +42,7 @@ $ shpc install quay.io/biocontainers/staphb_toolkit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/staphb_toolkit:2.0.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/staphb_toolkit:2.0.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -53,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/staphb_toolkit/2.0.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/staphb_toolkit/2.0.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/staphb_toolkit/2.0.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/staphb_toolkit/2.0.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

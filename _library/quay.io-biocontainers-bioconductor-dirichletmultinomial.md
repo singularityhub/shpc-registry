@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dirichletmultinomial"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dirichletmultinomial/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dirichletmultinomial/container.yaml"
-updated_at: "2022-11-17 03:38:38.047794"
+updated_at: "2022-11-18 01:26:44.834070"
 latest: "1.36.0--r41hda872b5_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-dirichletmultinomial"
 

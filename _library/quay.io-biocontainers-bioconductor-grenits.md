@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-grenits"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-grenits/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-grenits/container.yaml"
-updated_at: "2022-11-17 02:51:55.156367"
-latest: "1.46.0--r41hc247a5b_2"
+updated_at: "2022-11-18 00:38:27.237355"
+latest: "1.50.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-grenits"
 
 versions:
  - "1.46.0--r41hc247a5b_2"
+ - "1.50.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-grenits"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-grenits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grenits", "latest": {"1.46.0--r41hc247a5b_2": "sha256:9eedd228f06739543da98366fea04072544032ff9b0ed210baa4453acd6e8e12"}, "tags": {"1.46.0--r41hc247a5b_2": "sha256:9eedd228f06739543da98366fea04072544032ff9b0ed210baa4453acd6e8e12"}, "docker": "quay.io/biocontainers/bioconductor-grenits"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-grenits", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-grenits", "latest": {"1.50.0--r42hc247a5b_0": "sha256:590ef7df5e0222c779b265046f63dae64be3d1f57cdb195e9ba54b63eb6ded7e"}, "tags": {"1.46.0--r41hc247a5b_2": "sha256:9eedd228f06739543da98366fea04072544032ff9b0ed210baa4453acd6e8e12", "1.50.0--r42hc247a5b_0": "sha256:590ef7df5e0222c779b265046f63dae64be3d1f57cdb195e9ba54b63eb6ded7e"}, "docker": "quay.io/biocontainers/bioconductor-grenits"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-grenits.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-grenits
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-grenits:1.46.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-grenits:1.50.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-grenits/1.46.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-grenits/1.46.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-grenits/1.50.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-grenits/1.50.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

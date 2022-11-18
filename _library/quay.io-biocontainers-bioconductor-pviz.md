@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pviz"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pviz/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pviz/container.yaml"
-updated_at: "2022-11-17 03:40:03.030994"
-latest: "1.28.0--r41hdfd78af_0"
+updated_at: "2022-11-18 01:28:12.161593"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pviz"
 
 versions:
  - "1.28.0--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pviz"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pviz", "latest": {"1.28.0--r41hdfd78af_0": "sha256:516343a80955f6a913f9238f32ef9540532f2052e533af5461f1ad5944088828"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:516343a80955f6a913f9238f32ef9540532f2052e533af5461f1ad5944088828"}, "docker": "quay.io/biocontainers/bioconductor-pviz"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pviz", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pviz", "latest": {"1.32.0--r42hdfd78af_0": "sha256:ba01727b3319ef1d94fc1d683052ef9a7d67ed01d326c10502e3d19c1783338f"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:516343a80955f6a913f9238f32ef9540532f2052e533af5461f1ad5944088828", "1.32.0--r42hdfd78af_0": "sha256:ba01727b3319ef1d94fc1d683052ef9a7d67ed01d326c10502e3d19c1783338f"}, "docker": "quay.io/biocontainers/bioconductor-pviz"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pviz.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pviz
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pviz:1.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pviz:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pviz/1.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pviz/1.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pviz/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pviz/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

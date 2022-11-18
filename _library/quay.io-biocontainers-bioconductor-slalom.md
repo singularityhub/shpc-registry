@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-slalom"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-slalom/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-slalom/container.yaml"
-updated_at: "2022-11-17 03:32:56.627697"
-latest: "1.8.0--r36he1b5a44_0"
+updated_at: "2022-11-18 01:20:54.198977"
+latest: "1.20.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-slalom"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36he1b5a44_0"
+ - "1.20.0--r42hc247a5b_0"
+ - "1.16.0--r41hc247a5b_2"
+ - "1.14.0--r41h399db7b_0"
+ - "1.12.0--r40h399db7b_1"
+ - "1.10.0--r40h5f743cb_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-slalom"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-slalom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-slalom", "latest": {"1.8.0--r36he1b5a44_0": "sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727"}, "docker": "quay.io/biocontainers/bioconductor-slalom", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-slalom", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-slalom", "latest": {"1.20.0--r42hc247a5b_0": "sha256:3a93c6b4ccc5aeb0ff6b9543d3d57865eea2183c22e6a5dacdcec755b4f62d3c"}, "tags": {"1.8.0--r36he1b5a44_0": "sha256:6696d408ba45ea0971fa8a4b34e5e3e38dcf81628dd1d95cb36f607c35e7c727", "1.20.0--r42hc247a5b_0": "sha256:3a93c6b4ccc5aeb0ff6b9543d3d57865eea2183c22e6a5dacdcec755b4f62d3c", "1.16.0--r41hc247a5b_2": "sha256:75b51fe6538e4e5de2ebffd13c91b540e60caf32299a1e5a26a03c83c9f750b9", "1.14.0--r41h399db7b_0": "sha256:674cdcb8ecf52fb935ec039866d46823ad62d9537e52487adf0c618ae050e544", "1.12.0--r40h399db7b_1": "sha256:07c317679c1bb5baf6a89b189fec04c52d94bcbc8f391e712ee8e04b672d8dae", "1.10.0--r40h5f743cb_0": "sha256:be4250eb10c671bcbf712397dc0219d4805d80fc6787b6e566d63a734ced5cdd"}, "docker": "quay.io/biocontainers/bioconductor-slalom", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-slalom.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-slalom
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-slalom:1.8.0--r36he1b5a44_0
+$ shpc install quay.io/biocontainers/bioconductor-slalom:1.20.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-slalom/1.8.0--r36he1b5a44_0
-$ module help quay.io/biocontainers/bioconductor-slalom/1.8.0--r36he1b5a44_0
+$ module load quay.io/biocontainers/bioconductor-slalom/1.20.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-slalom/1.20.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

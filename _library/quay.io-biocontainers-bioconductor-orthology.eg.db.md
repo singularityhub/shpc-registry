@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-orthology.eg.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-orthology.eg.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-orthology.eg.db/container.yaml"
-updated_at: "2022-11-17 02:59:02.411756"
-latest: "3.14.0--r41hdfd78af_1"
+updated_at: "2022-11-18 00:45:50.475831"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-orthology.eg.db"
 aliases:
  - ".bioconductor-orthology.eg.db-post-link.sh"
  - ".bioconductor-orthology.eg.db-pre-unlink.sh"
 versions:
  - "3.14.0--r41hdfd78af_1"
+ - "3.16.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-orthology.eg.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-orthology.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-orthology.eg.db", "latest": {"3.14.0--r41hdfd78af_1": "sha256:048028a17bb8811ffecd28f4837ee634524d9c0cfcc2a02fedd043146176e8ed"}, "tags": {"3.14.0--r41hdfd78af_1": "sha256:048028a17bb8811ffecd28f4837ee634524d9c0cfcc2a02fedd043146176e8ed"}, "docker": "quay.io/biocontainers/bioconductor-orthology.eg.db", "aliases": {".bioconductor-orthology.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-orthology.eg.db-post-link.sh", ".bioconductor-orthology.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-orthology.eg.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-orthology.eg.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-orthology.eg.db", "latest": {"3.16.0--r42hdfd78af_0": "sha256:b339c9b12f932e0e1223f1cee6f852cc66e43e241dc3fa28a87120bc584724b6"}, "tags": {"3.14.0--r41hdfd78af_1": "sha256:048028a17bb8811ffecd28f4837ee634524d9c0cfcc2a02fedd043146176e8ed", "3.16.0--r42hdfd78af_0": "sha256:b339c9b12f932e0e1223f1cee6f852cc66e43e241dc3fa28a87120bc584724b6"}, "docker": "quay.io/biocontainers/bioconductor-orthology.eg.db", "aliases": {".bioconductor-orthology.eg.db-post-link.sh": "/usr/local/bin/.bioconductor-orthology.eg.db-post-link.sh", ".bioconductor-orthology.eg.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-orthology.eg.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-orthology.eg.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-orthology.eg.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-orthology.eg.db:3.14.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-orthology.eg.db:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-orthology.eg.db/3.14.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-orthology.eg.db/3.14.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-orthology.eg.db/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-orthology.eg.db/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

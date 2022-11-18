@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-lumimouseall.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumimouseall.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumimouseall.db/container.yaml"
-updated_at: "2022-11-17 03:39:37.891813"
-latest: "1.22.0--r41hdfd78af_9"
+updated_at: "2022-11-18 01:27:46.324094"
+latest: "1.22.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumimouseall.db"
 aliases:
  - ".bioconductor-lumimouseall.db-post-link.sh"
  - ".bioconductor-lumimouseall.db-pre-unlink.sh"
 versions:
  - "1.22.0--r41hdfd78af_9"
+ - "1.22.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-lumimouseall.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lumimouseall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumimouseall.db", "latest": {"1.22.0--r41hdfd78af_9": "sha256:265552b04065ab345fec13af65bffd564819ad9f410395748df42374a6c1bd4d"}, "tags": {"1.22.0--r41hdfd78af_9": "sha256:265552b04065ab345fec13af65bffd564819ad9f410395748df42374a6c1bd4d"}, "docker": "quay.io/biocontainers/bioconductor-lumimouseall.db", "aliases": {".bioconductor-lumimouseall.db-post-link.sh": "/usr/local/bin/.bioconductor-lumimouseall.db-post-link.sh", ".bioconductor-lumimouseall.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-lumimouseall.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lumimouseall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumimouseall.db", "latest": {"1.22.0--r42hdfd78af_10": "sha256:95ed76f20568ed883ea9c63b54dc0a22c36c0ef8ed376369b88d6b860c237279"}, "tags": {"1.22.0--r41hdfd78af_9": "sha256:265552b04065ab345fec13af65bffd564819ad9f410395748df42374a6c1bd4d", "1.22.0--r42hdfd78af_10": "sha256:95ed76f20568ed883ea9c63b54dc0a22c36c0ef8ed376369b88d6b860c237279"}, "docker": "quay.io/biocontainers/bioconductor-lumimouseall.db", "aliases": {".bioconductor-lumimouseall.db-post-link.sh": "/usr/local/bin/.bioconductor-lumimouseall.db-post-link.sh", ".bioconductor-lumimouseall.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-lumimouseall.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lumimouseall.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lumimouseall.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lumimouseall.db:1.22.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-lumimouseall.db:1.22.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lumimouseall.db/1.22.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-lumimouseall.db/1.22.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-lumimouseall.db/1.22.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-lumimouseall.db/1.22.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

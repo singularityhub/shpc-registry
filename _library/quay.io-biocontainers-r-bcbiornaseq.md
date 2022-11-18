@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-bcbiornaseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-bcbiornaseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-bcbiornaseq/container.yaml"
-updated_at: "2022-11-17 03:27:36.667440"
-latest: "0.4.0--r41hdfd78af_0"
+updated_at: "2022-11-18 01:15:23.749809"
+latest: "0.5.1--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-bcbiornaseq"
 aliases:
  - "pandoc"
 versions:
  - "0.4.0--r41hdfd78af_0"
+ - "0.5.1--r42hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-bcbiornaseq"
-config: {"url": "https://biocontainers.pro/tools/r-bcbiornaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiornaseq", "latest": {"0.4.0--r41hdfd78af_0": "sha256:95701957bc505b497ebdb56c6dbce92df8fae3b63de60ff776a00c4d246f2433"}, "tags": {"0.4.0--r41hdfd78af_0": "sha256:95701957bc505b497ebdb56c6dbce92df8fae3b63de60ff776a00c4d246f2433"}, "docker": "quay.io/biocontainers/r-bcbiornaseq", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-bcbiornaseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-bcbiornaseq", "latest": {"0.5.1--r42hdfd78af_1": "sha256:f6a19ecd3caf672f7471dab63a33cfb847a4dd5e5423eb4fdeb89e4630f646d2"}, "tags": {"0.4.0--r41hdfd78af_0": "sha256:95701957bc505b497ebdb56c6dbce92df8fae3b63de60ff776a00c4d246f2433", "0.5.1--r42hdfd78af_1": "sha256:f6a19ecd3caf672f7471dab63a33cfb847a4dd5e5423eb4fdeb89e4630f646d2"}, "docker": "quay.io/biocontainers/r-bcbiornaseq", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-bcbiornaseq.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-bcbiornaseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-bcbiornaseq:0.4.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-bcbiornaseq:0.5.1--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-bcbiornaseq/0.4.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-bcbiornaseq/0.4.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-bcbiornaseq/0.5.1--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-bcbiornaseq/0.5.1--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

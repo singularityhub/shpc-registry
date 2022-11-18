@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/seqtk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqtk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqtk/container.yaml"
-updated_at: "2022-11-17 02:57:21.115632"
-latest: "1.3--h7132678_4"
+updated_at: "2022-11-18 00:44:05.505343"
+latest: "r93--0"
 container_url: "https://biocontainers.pro/tools/seqtk"
 aliases:
  - "seqtk"
 versions:
  - "1.3--h7132678_4"
+ - "r93--0"
+ - "r82--1"
 description: "shpc-registry automated BioContainers addition for seqtk"
-config: {"url": "https://biocontainers.pro/tools/seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqtk", "latest": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9"}, "tags": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9"}, "docker": "quay.io/biocontainers/seqtk", "aliases": {"seqtk": "/usr/local/bin/seqtk"}}
+config: {"url": "https://biocontainers.pro/tools/seqtk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for seqtk", "latest": {"r93--0": "sha256:91ca70e54ebf744d9e6b8a8320c86558bcf20b72a9ab881b1499c3a36e2a6711"}, "tags": {"1.3--h7132678_4": "sha256:93e4f7c1a202e3ebfa1c3b692c733b6d520b41c4e12eeb6f099a7ca3871fd1a9", "r93--0": "sha256:91ca70e54ebf744d9e6b8a8320c86558bcf20b72a9ab881b1499c3a36e2a6711", "r82--1": "sha256:c1d3ee29e5f3249281f37f78d53244cc2b3e881cbd8ddc6a49abd80d40fc1648"}, "docker": "quay.io/biocontainers/seqtk", "aliases": {"seqtk": "/usr/local/bin/seqtk"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/seqtk.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/seqtk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/seqtk:1.3--h7132678_4
+$ shpc install quay.io/biocontainers/seqtk:r93--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/seqtk/1.3--h7132678_4
-$ module help quay.io/biocontainers/seqtk/1.3--h7132678_4
+$ module load quay.io/biocontainers/seqtk/r93--0
+$ module help quay.io/biocontainers/seqtk/r93--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

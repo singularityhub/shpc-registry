@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-norce"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-norce/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-norce/container.yaml"
-updated_at: "2022-11-17 02:48:18.010135"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-18 00:34:41.803221"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-norce"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-norce"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-norce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norce", "latest": {"1.6.0--r41hdfd78af_0": "sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a"}, "docker": "quay.io/biocontainers/bioconductor-norce"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-norce", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-norce", "latest": {"1.10.0--r42hdfd78af_0": "sha256:69892493bbe0a8a7699b7f26e859dc7709c1972d7d73a4797a5a5695b04b0e1c"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:f68861adeda4b782b2c81a40473535d389364284093d921d346ad8e8809b9a8a", "1.10.0--r42hdfd78af_0": "sha256:69892493bbe0a8a7699b7f26e859dc7709c1972d7d73a4797a5a5695b04b0e1c"}, "docker": "quay.io/biocontainers/bioconductor-norce"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-norce.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-norce
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-norce:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-norce:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-norce/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-norce/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-norce/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-norce/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

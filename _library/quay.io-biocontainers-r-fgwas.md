@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-fgwas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fgwas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fgwas/container.yaml"
-updated_at: "2022-11-17 03:30:58.612585"
-latest: "0.3.6--r41hdfd78af_5"
+updated_at: "2022-11-18 01:18:53.310095"
+latest: "0.3.6--r42hdfd78af_6"
 container_url: "https://biocontainers.pro/tools/r-fgwas"
 aliases:
  - "parsort"
@@ -20,8 +20,9 @@ aliases:
  - "env_parallel.mksh"
 versions:
  - "0.3.6--r41hdfd78af_5"
+ - "0.3.6--r42hdfd78af_6"
 description: "shpc-registry automated BioContainers addition for r-fgwas"
-config: {"url": "https://biocontainers.pro/tools/r-fgwas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fgwas", "latest": {"0.3.6--r41hdfd78af_5": "sha256:b08040648838093e64eb651e4b5f44f94cb4649ca061b53a6d6aaad18c20ee4f"}, "tags": {"0.3.6--r41hdfd78af_5": "sha256:b08040648838093e64eb651e4b5f44f94cb4649ca061b53a6d6aaad18c20ee4f"}, "docker": "quay.io/biocontainers/r-fgwas", "aliases": {"parsort": "/usr/local/bin/parsort", "perl5.32.0": "/usr/local/bin/perl5.32.0", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh"}}
+config: {"url": "https://biocontainers.pro/tools/r-fgwas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-fgwas", "latest": {"0.3.6--r42hdfd78af_6": "sha256:eb9dbb707707533cf8e165443523757160bbb742e0e17d36fb90972cce007631"}, "tags": {"0.3.6--r41hdfd78af_5": "sha256:b08040648838093e64eb651e4b5f44f94cb4649ca061b53a6d6aaad18c20ee4f", "0.3.6--r42hdfd78af_6": "sha256:eb9dbb707707533cf8e165443523757160bbb742e0e17d36fb90972cce007631"}, "docker": "quay.io/biocontainers/r-fgwas", "aliases": {"parsort": "/usr/local/bin/parsort", "perl5.32.0": "/usr/local/bin/perl5.32.0", "env_parallel": "/usr/local/bin/env_parallel", "env_parallel.ash": "/usr/local/bin/env_parallel.ash", "env_parallel.bash": "/usr/local/bin/env_parallel.bash", "env_parallel.csh": "/usr/local/bin/env_parallel.csh", "env_parallel.dash": "/usr/local/bin/env_parallel.dash", "env_parallel.fish": "/usr/local/bin/env_parallel.fish", "env_parallel.ksh": "/usr/local/bin/env_parallel.ksh", "env_parallel.mksh": "/usr/local/bin/env_parallel.mksh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-fgwas.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-fgwas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-fgwas:0.3.6--r41hdfd78af_5
+$ shpc install quay.io/biocontainers/r-fgwas:0.3.6--r42hdfd78af_6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-fgwas/0.3.6--r41hdfd78af_5
-$ module help quay.io/biocontainers/r-fgwas/0.3.6--r41hdfd78af_5
+$ module load quay.io/biocontainers/r-fgwas/0.3.6--r42hdfd78af_6
+$ module help quay.io/biocontainers/r-fgwas/0.3.6--r42hdfd78af_6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

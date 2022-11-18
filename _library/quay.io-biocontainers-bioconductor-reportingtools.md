@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-reportingtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-reportingtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-reportingtools/container.yaml"
-updated_at: "2022-11-17 03:28:28.130327"
-latest: "2.34.0--r41hdfd78af_0"
+updated_at: "2022-11-18 01:16:17.862789"
+latest: "2.38.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-reportingtools"
 
 versions:
  - "2.34.0--r41hdfd78af_0"
+ - "2.38.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-reportingtools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-reportingtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reportingtools", "latest": {"2.34.0--r41hdfd78af_0": "sha256:562eeb71107b5cd1d97b05f3b52ff6f633a8454f260d157e01a0039e464b312b"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:562eeb71107b5cd1d97b05f3b52ff6f633a8454f260d157e01a0039e464b312b"}, "docker": "quay.io/biocontainers/bioconductor-reportingtools"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-reportingtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-reportingtools", "latest": {"2.38.0--r42hdfd78af_0": "sha256:4e5413f45941249a49577b4432c1eeb48da5b369fa879283d0d29b1055259506"}, "tags": {"2.34.0--r41hdfd78af_0": "sha256:562eeb71107b5cd1d97b05f3b52ff6f633a8454f260d157e01a0039e464b312b", "2.38.0--r42hdfd78af_0": "sha256:4e5413f45941249a49577b4432c1eeb48da5b369fa879283d0d29b1055259506"}, "docker": "quay.io/biocontainers/bioconductor-reportingtools"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-reportingtools.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-reportingtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-reportingtools:2.34.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-reportingtools:2.38.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-reportingtools/2.34.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-reportingtools/2.34.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-reportingtools/2.38.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-reportingtools/2.38.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

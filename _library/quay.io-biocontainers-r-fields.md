@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-fields"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-fields/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-fields/container.yaml"
-updated_at: "2022-11-17 02:57:16.172284"
+updated_at: "2022-11-18 00:44:00.451565"
 latest: "8.4_1--r3.2.2_0"
 container_url: "https://biocontainers.pro/tools/r-fields"
 aliases:

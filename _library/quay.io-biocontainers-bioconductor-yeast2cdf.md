@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-yeast2cdf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-yeast2cdf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-yeast2cdf/container.yaml"
-updated_at: "2022-11-17 03:23:32.216146"
+updated_at: "2022-11-18 01:11:12.705559"
 latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-yeast2cdf"
 aliases:

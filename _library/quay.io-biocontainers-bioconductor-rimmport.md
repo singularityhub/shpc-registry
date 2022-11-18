@@ -4,16 +4,21 @@ name:  "quay.io/biocontainers/bioconductor-rimmport"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rimmport/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rimmport/container.yaml"
-updated_at: "2022-11-17 03:23:10.687640"
-latest: "1.8.0--r341_0"
+updated_at: "2022-11-18 01:10:50.679398"
+latest: "1.26.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rimmport"
 aliases:
  - "ncurses5-config"
  - "ncursesw5-config"
 versions:
  - "1.8.0--r341_0"
+ - "1.26.0--r42hdfd78af_0"
+ - "1.22.0--r41hdfd78af_0"
+ - "1.20.0--r41hdfd78af_0"
+ - "1.18.0--r40hdfd78af_1"
+ - "1.16.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rimmport"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rimmport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rimmport", "latest": {"1.8.0--r341_0": "sha256:519064578fd2c8c6f964338cc090ab98ef8c868622ca6ea54e60604ebaf07e11"}, "tags": {"1.8.0--r341_0": "sha256:519064578fd2c8c6f964338cc090ab98ef8c868622ca6ea54e60604ebaf07e11"}, "docker": "quay.io/biocontainers/bioconductor-rimmport", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rimmport", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rimmport", "latest": {"1.26.0--r42hdfd78af_0": "sha256:f75d30f1978b278fac325521d85897825eeec64770440650f55553bdc370d945"}, "tags": {"1.8.0--r341_0": "sha256:519064578fd2c8c6f964338cc090ab98ef8c868622ca6ea54e60604ebaf07e11", "1.26.0--r42hdfd78af_0": "sha256:f75d30f1978b278fac325521d85897825eeec64770440650f55553bdc370d945", "1.22.0--r41hdfd78af_0": "sha256:ad228178ab8fb8fc4337f027f5fb53e30cec437e631efcc9849e7f178fe1b8e3", "1.20.0--r41hdfd78af_0": "sha256:8ab03d82e93e8ffd77f376f4979f4f17b38c00dcaf1e07e88d3408212a7ec093", "1.18.0--r40hdfd78af_1": "sha256:21934d06fefbf34031d26a62b332e2df3740d3f8de09c77e4735db9f22e31e8f", "1.16.0--r40_0": "sha256:c4b004ffcc6265c65a9a14c822b7a3d49650a862bed7b72fd02f455921e19161"}, "docker": "quay.io/biocontainers/bioconductor-rimmport", "aliases": {"ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rimmport.
@@ -28,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rimmport
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rimmport:1.8.0--r341_0
+$ shpc install quay.io/biocontainers/bioconductor-rimmport:1.26.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rimmport/1.8.0--r341_0
-$ module help quay.io/biocontainers/bioconductor-rimmport/1.8.0--r341_0
+$ module load quay.io/biocontainers/bioconductor-rimmport/1.26.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rimmport/1.26.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

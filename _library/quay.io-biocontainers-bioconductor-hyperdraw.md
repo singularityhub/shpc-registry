@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-hyperdraw"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hyperdraw/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hyperdraw/container.yaml"
-updated_at: "2022-11-17 03:20:38.861239"
-latest: "1.46.0--r41hcb05c77_1"
+updated_at: "2022-11-18 01:08:14.651315"
+latest: "1.50.0--r42hcb05c77_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hyperdraw"
 aliases:
  - "diffimg"
@@ -20,8 +20,9 @@ aliases:
  - "stl2gts"
 versions:
  - "1.46.0--r41hcb05c77_1"
+ - "1.50.0--r42hcb05c77_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hyperdraw"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hyperdraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hyperdraw", "latest": {"1.46.0--r41hcb05c77_1": "sha256:a818c82afe8b9caa7dd679092ca377994d540831d66b96c249b607b061753c45"}, "tags": {"1.46.0--r41hcb05c77_1": "sha256:a818c82afe8b9caa7dd679092ca377994d540831d66b96c249b607b061753c45"}, "docker": "quay.io/biocontainers/bioconductor-hyperdraw", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hyperdraw", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hyperdraw", "latest": {"1.50.0--r42hcb05c77_0": "sha256:b155cdc0a592b91a3168ec51246a1bad5b203d050d0fe5697e3a809152a6b3f1"}, "tags": {"1.46.0--r41hcb05c77_1": "sha256:a818c82afe8b9caa7dd679092ca377994d540831d66b96c249b607b061753c45", "1.50.0--r42hcb05c77_0": "sha256:b155cdc0a592b91a3168ec51246a1bad5b203d050d0fe5697e3a809152a6b3f1"}, "docker": "quay.io/biocontainers/bioconductor-hyperdraw", "aliases": {"diffimg": "/usr/local/bin/diffimg", "delaunay": "/usr/local/bin/delaunay", "gts-config": "/usr/local/bin/gts-config", "gts2dxf": "/usr/local/bin/gts2dxf", "gts2oogl": "/usr/local/bin/gts2oogl", "gts2stl": "/usr/local/bin/gts2stl", "gtscheck": "/usr/local/bin/gtscheck", "gtscompare": "/usr/local/bin/gtscompare", "gtstemplate": "/usr/local/bin/gtstemplate", "stl2gts": "/usr/local/bin/stl2gts"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hyperdraw.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hyperdraw
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hyperdraw:1.46.0--r41hcb05c77_1
+$ shpc install quay.io/biocontainers/bioconductor-hyperdraw:1.50.0--r42hcb05c77_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hyperdraw/1.46.0--r41hcb05c77_1
-$ module help quay.io/biocontainers/bioconductor-hyperdraw/1.46.0--r41hcb05c77_1
+$ module load quay.io/biocontainers/bioconductor-hyperdraw/1.50.0--r42hcb05c77_0
+$ module help quay.io/biocontainers/bioconductor-hyperdraw/1.50.0--r42hcb05c77_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/prinseq-plus-plus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/prinseq-plus-plus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/prinseq-plus-plus/container.yaml"
-updated_at: "2022-11-17 03:37:44.548098"
+updated_at: "2022-11-18 01:25:49.722983"
 latest: "1.2.4--h7ff8a90_2"
 container_url: "https://biocontainers.pro/tools/prinseq-plus-plus"
 aliases:

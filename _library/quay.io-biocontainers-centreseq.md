@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/centreseq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/centreseq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/centreseq/container.yaml"
-updated_at: "2022-11-17 02:56:04.171272"
-latest: "v0.2.3--py_0"
+updated_at: "2022-11-18 00:42:45.848295"
+latest: "0.3.8--py_0"
 container_url: "https://biocontainers.pro/tools/centreseq"
 
 versions:
  - "v0.2.3--py_0"
+ - "0.3.8--py_0"
 description: "shpc-registry automated BioContainers addition for centreseq"
-config: {"url": "https://biocontainers.pro/tools/centreseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centreseq", "latest": {"v0.2.3--py_0": "sha256:c5401f178dc0158a5c515e64912c8eadc063f5da5c7fd68311867363c16e139e"}, "tags": {"v0.2.3--py_0": "sha256:c5401f178dc0158a5c515e64912c8eadc063f5da5c7fd68311867363c16e139e"}, "docker": "quay.io/biocontainers/centreseq"}
+config: {"url": "https://biocontainers.pro/tools/centreseq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for centreseq", "latest": {"0.3.8--py_0": "sha256:ad3cf2b81eb2a603fe11f8a38cb38b516e6efe1829a767df1c0ada07fb4d535d"}, "tags": {"v0.2.3--py_0": "sha256:c5401f178dc0158a5c515e64912c8eadc063f5da5c7fd68311867363c16e139e", "0.3.8--py_0": "sha256:ad3cf2b81eb2a603fe11f8a38cb38b516e6efe1829a767df1c0ada07fb4d535d"}, "docker": "quay.io/biocontainers/centreseq"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/centreseq.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/centreseq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/centreseq:v0.2.3--py_0
+$ shpc install quay.io/biocontainers/centreseq:0.3.8--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/centreseq/v0.2.3--py_0
-$ module help quay.io/biocontainers/centreseq/v0.2.3--py_0
+$ module load quay.io/biocontainers/centreseq/0.3.8--py_0
+$ module help quay.io/biocontainers/centreseq/0.3.8--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

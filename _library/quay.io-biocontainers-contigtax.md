@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/contigtax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/contigtax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/contigtax/container.yaml"
-updated_at: "2022-11-17 02:51:46.575554"
-latest: "0.5.9--py_0"
+updated_at: "2022-11-18 00:38:18.133440"
+latest: "0.5.10--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/contigtax"
 aliases:
  - "contigtax"
@@ -22,8 +22,9 @@ aliases:
  - "nss-config"
 versions:
  - "0.5.9--py_0"
+ - "0.5.10--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for contigtax"
-config: {"url": "https://biocontainers.pro/tools/contigtax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for contigtax", "latest": {"0.5.9--py_0": "sha256:d655abcba455ad5632707e4cf617748b2b760c4579a9a64b4e8b24ebb6c0188e"}, "tags": {"0.5.9--py_0": "sha256:d655abcba455ad5632707e4cf617748b2b760c4579a9a64b4e8b24ebb6c0188e"}, "docker": "quay.io/biocontainers/contigtax", "aliases": {"contigtax": "/usr/local/bin/contigtax", "evaluate_contigtax.py": "/usr/local/bin/evaluate_contigtax.py", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "diamond": "/usr/local/bin/diamond", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config"}}
+config: {"url": "https://biocontainers.pro/tools/contigtax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for contigtax", "latest": {"0.5.10--pyhdfd78af_0": "sha256:eda1f5d6b28710afa552292f08d9e0ba47e8216853060472aa961996f3fd65a9"}, "tags": {"0.5.9--py_0": "sha256:d655abcba455ad5632707e4cf617748b2b760c4579a9a64b4e8b24ebb6c0188e", "0.5.10--pyhdfd78af_0": "sha256:eda1f5d6b28710afa552292f08d9e0ba47e8216853060472aa961996f3fd65a9"}, "docker": "quay.io/biocontainers/contigtax", "aliases": {"contigtax": "/usr/local/bin/contigtax", "evaluate_contigtax.py": "/usr/local/bin/evaluate_contigtax.py", "ete3": "/usr/local/bin/ete3", "compile-et.pl": "/usr/local/bin/compile-et.pl", "prerr.properties": "/usr/local/bin/prerr.properties", "diamond": "/usr/local/bin/diamond", "qdistancefieldgenerator": "/usr/local/bin/qdistancefieldgenerator", "qmlpreview": "/usr/local/bin/qmlpreview", "qvkgen": "/usr/local/bin/qvkgen", "certutil": "/usr/local/bin/certutil", "nspr-config": "/usr/local/bin/nspr-config", "nss-config": "/usr/local/bin/nss-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/contigtax.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/contigtax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/contigtax:0.5.9--py_0
+$ shpc install quay.io/biocontainers/contigtax:0.5.10--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/contigtax/0.5.9--py_0
-$ module help quay.io/biocontainers/contigtax/0.5.9--py_0
+$ module load quay.io/biocontainers/contigtax/0.5.10--pyhdfd78af_0
+$ module help quay.io/biocontainers/contigtax/0.5.10--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

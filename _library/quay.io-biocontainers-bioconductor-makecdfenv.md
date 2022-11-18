@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-makecdfenv"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-makecdfenv/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-makecdfenv/container.yaml"
-updated_at: "2022-11-17 03:38:48.262905"
+updated_at: "2022-11-18 01:26:55.414409"
 latest: "1.70.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-makecdfenv"
 

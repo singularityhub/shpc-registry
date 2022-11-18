@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/r-interpretmsspectrum"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-interpretmsspectrum/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-interpretmsspectrum/container.yaml"
-updated_at: "2022-11-17 03:39:38.709254"
-latest: "1.2--r41h3342da4_2"
+updated_at: "2022-11-18 01:27:47.177307"
+latest: "1.3.3--r42h3342da4_0"
 container_url: "https://biocontainers.pro/tools/r-interpretmsspectrum"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.2--r41h3342da4_2"
+ - "1.3.3--r42h3342da4_0"
+ - "1.2--r42h3342da4_3"
 description: "shpc-registry automated BioContainers addition for r-interpretmsspectrum"
-config: {"url": "https://biocontainers.pro/tools/r-interpretmsspectrum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-interpretmsspectrum", "latest": {"1.2--r41h3342da4_2": "sha256:b2af360966d64406f167f8c6b4d7110ad75f7ded4ccc13895dbe563262da1d63"}, "tags": {"1.2--r41h3342da4_2": "sha256:b2af360966d64406f167f8c6b4d7110ad75f7ded4ccc13895dbe563262da1d63"}, "docker": "quay.io/biocontainers/r-interpretmsspectrum", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-interpretmsspectrum", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-interpretmsspectrum", "latest": {"1.3.3--r42h3342da4_0": "sha256:2e44ec84bd379c6a8691a6ce33f45c4c6fe6f5909f4a08a8102776a3b3a4472a"}, "tags": {"1.2--r41h3342da4_2": "sha256:b2af360966d64406f167f8c6b4d7110ad75f7ded4ccc13895dbe563262da1d63", "1.3.3--r42h3342da4_0": "sha256:2e44ec84bd379c6a8691a6ce33f45c4c6fe6f5909f4a08a8102776a3b3a4472a", "1.2--r42h3342da4_3": "sha256:142b7651a8340b2b6de212a3df855b3e4c032fa4848436c2419e0332c371d3eb"}, "docker": "quay.io/biocontainers/r-interpretmsspectrum", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-interpretmsspectrum.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-interpretmsspectrum
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-interpretmsspectrum:1.2--r41h3342da4_2
+$ shpc install quay.io/biocontainers/r-interpretmsspectrum:1.3.3--r42h3342da4_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-interpretmsspectrum/1.2--r41h3342da4_2
-$ module help quay.io/biocontainers/r-interpretmsspectrum/1.2--r41h3342da4_2
+$ module load quay.io/biocontainers/r-interpretmsspectrum/1.3.3--r42h3342da4_0
+$ module help quay.io/biocontainers/r-interpretmsspectrum/1.3.3--r42h3342da4_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

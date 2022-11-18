@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-gsvadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gsvadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gsvadata/container.yaml"
-updated_at: "2022-11-17 02:52:45.588722"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-18 00:39:19.979581"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gsvadata"
 aliases:
  - ".bioconductor-gsvadata-post-link.sh"
  - ".bioconductor-gsvadata-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gsvadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gsvadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsvadata", "latest": {"1.30.0--r41hdfd78af_1": "sha256:f639b52895e384cf2759943bee6ed76fb1f857fe23bc8990c4182658039f5082"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:f639b52895e384cf2759943bee6ed76fb1f857fe23bc8990c4182658039f5082"}, "docker": "quay.io/biocontainers/bioconductor-gsvadata", "aliases": {".bioconductor-gsvadata-post-link.sh": "/usr/local/bin/.bioconductor-gsvadata-post-link.sh", ".bioconductor-gsvadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gsvadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gsvadata", "latest": {"1.34.0--r42hdfd78af_0": "sha256:6b884bae8568e50aad08cb0101ff964e99f7019a10052b29a7b7585a54891ffc"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:f639b52895e384cf2759943bee6ed76fb1f857fe23bc8990c4182658039f5082", "1.34.0--r42hdfd78af_0": "sha256:6b884bae8568e50aad08cb0101ff964e99f7019a10052b29a7b7585a54891ffc"}, "docker": "quay.io/biocontainers/bioconductor-gsvadata", "aliases": {".bioconductor-gsvadata-post-link.sh": "/usr/local/bin/.bioconductor-gsvadata-post-link.sh", ".bioconductor-gsvadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-gsvadata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gsvadata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gsvadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gsvadata:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-gsvadata:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gsvadata/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-gsvadata/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-gsvadata/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gsvadata/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

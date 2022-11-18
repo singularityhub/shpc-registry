@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/fasttree"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fasttree/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fasttree/container.yaml"
-updated_at: "2022-11-17 03:14:44.223159"
-latest: "2.1.9--2"
+updated_at: "2022-11-18 01:02:06.776810"
+latest: "2.1.11--hec16e2b_1"
 container_url: "https://biocontainers.pro/tools/fasttree"
 aliases:
  - "FastTree"
@@ -14,8 +14,9 @@ aliases:
  - "fasttree"
 versions:
  - "2.1.9--2"
+ - "2.1.11--hec16e2b_1"
 description: "shpc-registry automated BioContainers addition for fasttree"
-config: {"url": "https://biocontainers.pro/tools/fasttree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasttree", "latest": {"2.1.9--2": "sha256:e7c96730148a0581faba14748b6c439a68e311ae751dadf4a018d3d4bcb494f5"}, "tags": {"2.1.9--2": "sha256:e7c96730148a0581faba14748b6c439a68e311ae751dadf4a018d3d4bcb494f5"}, "docker": "quay.io/biocontainers/fasttree", "aliases": {"FastTree": "/usr/local/bin/FastTree", "FastTree.c": "/usr/local/bin/FastTree.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "fasttree": "/usr/local/bin/fasttree"}}
+config: {"url": "https://biocontainers.pro/tools/fasttree", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for fasttree", "latest": {"2.1.11--hec16e2b_1": "sha256:1e93e85fa7d768b9f80379ed14eaa03258487b73520537944029897347f2e38b"}, "tags": {"2.1.9--2": "sha256:e7c96730148a0581faba14748b6c439a68e311ae751dadf4a018d3d4bcb494f5", "2.1.11--hec16e2b_1": "sha256:1e93e85fa7d768b9f80379ed14eaa03258487b73520537944029897347f2e38b"}, "docker": "quay.io/biocontainers/fasttree", "aliases": {"FastTree": "/usr/local/bin/FastTree", "FastTree.c": "/usr/local/bin/FastTree.c", "FastTreeMP": "/usr/local/bin/FastTreeMP", "fasttree": "/usr/local/bin/fasttree"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/fasttree.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/fasttree
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/fasttree:2.1.9--2
+$ shpc install quay.io/biocontainers/fasttree:2.1.11--hec16e2b_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/fasttree/2.1.9--2
-$ module help quay.io/biocontainers/fasttree/2.1.9--2
+$ module load quay.io/biocontainers/fasttree/2.1.11--hec16e2b_1
+$ module help quay.io/biocontainers/fasttree/2.1.11--hec16e2b_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
