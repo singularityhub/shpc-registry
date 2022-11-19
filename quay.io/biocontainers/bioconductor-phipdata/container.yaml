@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-phipdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-phipdata
 latest:
-  1.2.0--r41hdfd78af_0: sha256:69f62f71b4eaf6dbfaf70fe6dd47fa5b7d48d90bc26737b7eb018053bae1889c
+  1.6.0--r42hdfd78af_0: sha256:8ed8880877ad395f165c8302c48c9ee8da5f1917256ae02a96b637b38b6d0c29
 tags:
   1.2.0--r41hdfd78af_0: sha256:69f62f71b4eaf6dbfaf70fe6dd47fa5b7d48d90bc26737b7eb018053bae1889c
+  1.6.0--r42hdfd78af_0: sha256:8ed8880877ad395f165c8302c48c9ee8da5f1917256ae02a96b637b38b6d0c29
 docker: quay.io/biocontainers/bioconductor-phipdata

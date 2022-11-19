@@ -2,9 +2,14 @@ url: https://biocontainers.pro/tools/bioconductor-starbiotrek
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-starbiotrek
 latest:
-  1.8.1--r351_1: sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d
+  1.24.0--r42hdfd78af_0: sha256:deed92f2a9e4b932c1707a9f95b9e0c96981fda77ab50d691630a877f44a8897
 tags:
   1.8.1--r351_1: sha256:b9c2577145e28b0891c6c58b14a0c9ef908c79c76adf85f5b55262032865211d
+  1.24.0--r42hdfd78af_0: sha256:deed92f2a9e4b932c1707a9f95b9e0c96981fda77ab50d691630a877f44a8897
+  1.20.0--r41hdfd78af_0: sha256:eb2b5d31a4996112f914ba4b67d488f1a5279508021fa24306d10a931e0deae4
+  1.18.0--r41hdfd78af_0: sha256:62d12172d36035a23fd7994498df92020694ffc2d3bdde288473e44c7cdab598
+  1.16.0--r40hdfd78af_1: sha256:27531451e0d16f67af3afa2f4b0945ceda37f4a55d35bdc0ee9799f3ed3aa846
+  1.14.0--r40_0: sha256:16292d737035ee34565815ac6186d376fbc3b490208e621bed2825fd4f4172e3
 docker: quay.io/biocontainers/bioconductor-starbiotrek
 aliases:
   idn2: /usr/local/bin/idn2

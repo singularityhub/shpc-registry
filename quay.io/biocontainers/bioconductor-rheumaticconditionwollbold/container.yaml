@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rheumaticconditionwollbold
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rheumaticconditionwollbold
 latest:
-  1.32.0--r41hdfd78af_1: sha256:8d80483382e46a5ec2a4fe5a62714fb8960cb24c0c34735fd8695fdf1da7ef09
+  1.35.0--r42hdfd78af_0: sha256:77d7cfefceff8453cb608811b2860814fb30d52a832bb6864dfd98a744b0ed21
 tags:
   1.32.0--r41hdfd78af_1: sha256:8d80483382e46a5ec2a4fe5a62714fb8960cb24c0c34735fd8695fdf1da7ef09
+  1.35.0--r42hdfd78af_0: sha256:77d7cfefceff8453cb608811b2860814fb30d52a832bb6864dfd98a744b0ed21
 docker: quay.io/biocontainers/bioconductor-rheumaticconditionwollbold
 aliases:
   .bioconductor-rheumaticconditionwollbold-post-link.sh: /usr/local/bin/.bioconductor-rheumaticconditionwollbold-post-link.sh

@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-mirsm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-mirsm
 latest:
-  1.8.3--r40h68001a8_0: sha256:757e77c90a1509ebf68515b134eb0bb177d27bdfe5ebfc90e089aa4f62eeced3
+  1.16.0--r42hc247a5b_0: sha256:b1a3e88604ad064561114cc7c1ca5ca0d2b44de58f67bc04feb89a3db08e107a
 tags:
   1.8.3--r40h68001a8_0: sha256:757e77c90a1509ebf68515b134eb0bb177d27bdfe5ebfc90e089aa4f62eeced3
+  1.16.0--r42hc247a5b_0: sha256:b1a3e88604ad064561114cc7c1ca5ca0d2b44de58f67bc04feb89a3db08e107a
+  1.12.0--r41hc247a5b_2: sha256:3e77b310b1148530950ad8ccb65f94678f678f9ae33b953201aa20c3a23dc412
+  1.10.0--r41h399db7b_0: sha256:99a888c02531464fdba6cc021db512ce21652877b3321674007b902fcf820180
 docker: quay.io/biocontainers/bioconductor-mirsm
 aliases:
   jfr: /usr/local/bin/jfr

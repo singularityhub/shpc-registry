@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-viper
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-viper
 latest:
-  1.28.0--r41hdfd78af_0: sha256:5116714e0804a77e69562a6c736b893d22993aea225c212c00ecf96516dc6585
+  1.32.0--r42hdfd78af_0: sha256:b6d5f9530685637421abf109c6594c9a83e75a7b32115f56b19b4d1c3c12d2a5
 tags:
   1.28.0--r41hdfd78af_0: sha256:5116714e0804a77e69562a6c736b893d22993aea225c212c00ecf96516dc6585
+  1.32.0--r42hdfd78af_0: sha256:b6d5f9530685637421abf109c6594c9a83e75a7b32115f56b19b4d1c3c12d2a5
 docker: quay.io/biocontainers/bioconductor-viper

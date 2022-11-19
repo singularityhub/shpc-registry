@@ -2,9 +2,12 @@ url: https://biocontainers.pro/tools/bioconductor-gigseadata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gigseadata
 latest:
-  1.8.0--r40hdfd78af_1: sha256:5dddcf66426e1422a288fb09ac6a489607426b6aa68231b5fa716c7c9fe373fd
+  1.15.0--r42hdfd78af_0: sha256:8a632c9eebd92cb40e5f84f46c77d432ec29855115c348a806c78ff6d132095a
 tags:
   1.8.0--r40hdfd78af_1: sha256:5dddcf66426e1422a288fb09ac6a489607426b6aa68231b5fa716c7c9fe373fd
+  1.15.0--r42hdfd78af_0: sha256:8a632c9eebd92cb40e5f84f46c77d432ec29855115c348a806c78ff6d132095a
+  1.12.0--r41hdfd78af_1: sha256:d8a01be4d036696a50346776b02608b2691c9a07e9b8d1585c97faf1e0207c62
+  1.10.0--r41hdfd78af_0: sha256:39d9b2da1b01e35a043327bf27a1de76f15de893d20001b43ccdadfbc4942282
 docker: quay.io/biocontainers/bioconductor-gigseadata
 aliases:
   .bioconductor-gigseadata-post-link.sh: /usr/local/bin/.bioconductor-gigseadata-post-link.sh

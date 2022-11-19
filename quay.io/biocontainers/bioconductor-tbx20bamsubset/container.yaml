@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-tbx20bamsubset
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-tbx20bamsubset
 latest:
-  1.30.0--r41hdfd78af_1: sha256:53beac5705ce8e2a9a5acf71b322ebd3d25072efcf858b4e366087bc0ed4a4be
+  1.34.0--r42hdfd78af_0: sha256:dd9b6590e25d5320305a00fef75aac03629a0fa0039d18ef31ceeda9b5126301
 tags:
   1.30.0--r41hdfd78af_1: sha256:53beac5705ce8e2a9a5acf71b322ebd3d25072efcf858b4e366087bc0ed4a4be
+  1.34.0--r42hdfd78af_0: sha256:dd9b6590e25d5320305a00fef75aac03629a0fa0039d18ef31ceeda9b5126301
 docker: quay.io/biocontainers/bioconductor-tbx20bamsubset
 aliases:
   .bioconductor-tbx20bamsubset-post-link.sh: /usr/local/bin/.bioconductor-tbx20bamsubset-post-link.sh

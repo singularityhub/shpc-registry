@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-geoexplorer
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-geoexplorer
 latest:
-  1.0.0--r41hdfd78af_0: sha256:5beb57efef8672150738844ad7ea383b9175108b32ed1e8116f2329b9c888b1d
+  1.4.0--r42hdfd78af_0: sha256:3c89d24902f08cf7a1563790d3ad6dd77595032974ed54810c043a0f1836ae92
 tags:
   1.0.0--r41hdfd78af_0: sha256:5beb57efef8672150738844ad7ea383b9175108b32ed1e8116f2329b9c888b1d
+  1.4.0--r42hdfd78af_0: sha256:3c89d24902f08cf7a1563790d3ad6dd77595032974ed54810c043a0f1836ae92
 docker: quay.io/biocontainers/bioconductor-geoexplorer
 aliases:
   pandoc: /usr/local/bin/pandoc

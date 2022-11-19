@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-epitxdb
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epitxdb
 latest:
-  1.6.0--r41hdfd78af_0: sha256:e9052ca98c818b4a1e60f9d4ae97f84345c5a461ae3134e21dad3abaf1f32b22
+  1.10.0--r42hdfd78af_0: sha256:daeddbd072fbb8eb351de9ab5554acb2be4ec41bb85c701eed0e3ddefd1d6111
 tags:
   1.6.0--r41hdfd78af_0: sha256:e9052ca98c818b4a1e60f9d4ae97f84345c5a461ae3134e21dad3abaf1f32b22
+  1.10.0--r42hdfd78af_0: sha256:daeddbd072fbb8eb351de9ab5554acb2be4ec41bb85c701eed0e3ddefd1d6111
 docker: quay.io/biocontainers/bioconductor-epitxdb

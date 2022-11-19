@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-rrdpdata
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rrdpdata
 latest:
-  1.8.0--r40_0: sha256:05413fbf16b06cfa04eb338ccfb626c2c50081127dcc438f6c18e7d70b5e8458
+  1.18.0--r42hdfd78af_0: sha256:496dab84069fb4d0624534e89c872c7539117e6b0f9c5324e60e9130c5bdd13d
 tags:
   1.8.0--r40_0: sha256:05413fbf16b06cfa04eb338ccfb626c2c50081127dcc438f6c18e7d70b5e8458
+  1.18.0--r42hdfd78af_0: sha256:496dab84069fb4d0624534e89c872c7539117e6b0f9c5324e60e9130c5bdd13d
+  1.14.0--r41hdfd78af_1: sha256:5417ae46a1b14e1af49f06bf876aa17f0b7a9a7abeaf592ea07c66c69eae7eff
+  1.12.0--r41hdfd78af_0: sha256:7bf6759e366acb0456204fcd0e4e9c9b1b6eff5e536be3229dff5851a86d756f
+  1.10.0--r40hdfd78af_1: sha256:9981dccece929009431dcb359641f080ce3e979edd32f4a8350c534ee88b1f55
 docker: quay.io/biocontainers/bioconductor-rrdpdata
 aliases:
   .bioconductor-rrdpdata-post-link.sh: /usr/local/bin/.bioconductor-rrdpdata-post-link.sh

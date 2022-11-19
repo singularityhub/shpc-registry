@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-anvilpublish
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-anvilpublish
 latest:
-  1.4.1--r41hdfd78af_0: sha256:ebb6c422a681661de72df54f2ec63d08c427947adea5b4a0cf496be1355c1883
+  1.8.0--r42hdfd78af_0: sha256:f25b03e6c53ffad4f24c9a1e62a4fe9c9e51128e2f6ff8f9f99a9aa5475ffcd7
 tags:
   1.4.1--r41hdfd78af_0: sha256:ebb6c422a681661de72df54f2ec63d08c427947adea5b4a0cf496be1355c1883
+  1.8.0--r42hdfd78af_0: sha256:f25b03e6c53ffad4f24c9a1e62a4fe9c9e51128e2f6ff8f9f99a9aa5475ffcd7
 docker: quay.io/biocontainers/bioconductor-anvilpublish
 aliases:
   pandoc: /usr/local/bin/pandoc
