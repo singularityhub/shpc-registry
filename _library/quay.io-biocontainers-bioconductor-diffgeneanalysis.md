@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-diffgeneanalysis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-diffgeneanalysis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-diffgeneanalysis/container.yaml"
-updated_at: "2022-11-18 00:59:47.546144"
+updated_at: "2022-11-19 02:11:42.575513"
 latest: "1.80.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-diffgeneanalysis"
 

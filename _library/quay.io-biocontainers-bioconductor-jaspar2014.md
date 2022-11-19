@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-jaspar2014"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-jaspar2014/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-jaspar2014/container.yaml"
-updated_at: "2022-11-18 00:54:17.914180"
-latest: "1.30.0--r41hdfd78af_1"
+updated_at: "2022-11-19 02:06:16.676166"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-jaspar2014"
 aliases:
  - ".bioconductor-jaspar2014-post-link.sh"
  - ".bioconductor-jaspar2014-pre-unlink.sh"
 versions:
  - "1.30.0--r41hdfd78af_1"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-jaspar2014"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2014", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2014", "latest": {"1.30.0--r41hdfd78af_1": "sha256:a5e209270387a937cd3aa2c9334264607d912f140768604b1fd69a5dbf2aed64"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:a5e209270387a937cd3aa2c9334264607d912f140768604b1fd69a5dbf2aed64"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2014", "aliases": {".bioconductor-jaspar2014-post-link.sh": "/usr/local/bin/.bioconductor-jaspar2014-post-link.sh", ".bioconductor-jaspar2014-pre-unlink.sh": "/usr/local/bin/.bioconductor-jaspar2014-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-jaspar2014", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-jaspar2014", "latest": {"1.34.0--r42hdfd78af_0": "sha256:b75a6093e10f072e01b35ee0a331a83669b5475c5297a695fe0605f7215173b4"}, "tags": {"1.30.0--r41hdfd78af_1": "sha256:a5e209270387a937cd3aa2c9334264607d912f140768604b1fd69a5dbf2aed64", "1.34.0--r42hdfd78af_0": "sha256:b75a6093e10f072e01b35ee0a331a83669b5475c5297a695fe0605f7215173b4"}, "docker": "quay.io/biocontainers/bioconductor-jaspar2014", "aliases": {".bioconductor-jaspar2014-post-link.sh": "/usr/local/bin/.bioconductor-jaspar2014-post-link.sh", ".bioconductor-jaspar2014-pre-unlink.sh": "/usr/local/bin/.bioconductor-jaspar2014-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-jaspar2014.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-jaspar2014
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-jaspar2014:1.30.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-jaspar2014:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-jaspar2014/1.30.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-jaspar2014/1.30.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-jaspar2014/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-jaspar2014/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pyseer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyseer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyseer/container.yaml"
-updated_at: "2022-11-18 00:52:43.402855"
-latest: "1.3.9--pyh5e36f6f_0"
+updated_at: "2022-11-19 02:04:43.082564"
+latest: "1.3.10--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/pyseer"
 aliases:
  - "annotate_hits_pyseer"
@@ -27,8 +27,9 @@ aliases:
  - "bam2bed_sge-float128"
 versions:
  - "1.3.9--pyh5e36f6f_0"
+ - "1.3.10--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for pyseer"
-config: {"url": "https://biocontainers.pro/tools/pyseer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseer", "latest": {"1.3.9--pyh5e36f6f_0": "sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e"}, "tags": {"1.3.9--pyh5e36f6f_0": "sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e"}, "docker": "quay.io/biocontainers/pyseer", "aliases": {"annotate_hits_pyseer": "/usr/local/bin/annotate_hits_pyseer", "enet_predict_pyseer": "/usr/local/bin/enet_predict_pyseer", "phandango_mapper": "/usr/local/bin/phandango_mapper", "pyseer": "/usr/local/bin/pyseer", "scree_plot_pyseer": "/usr/local/bin/scree_plot_pyseer", "similarity_pyseer": "/usr/local/bin/similarity_pyseer", "square_mash": "/usr/local/bin/square_mash", "bam2bed": "/usr/local/bin/bam2bed", "bam2bed-float128": "/usr/local/bin/bam2bed-float128", "bam2bed-megarow": "/usr/local/bin/bam2bed-megarow", "bam2bed-typical": "/usr/local/bin/bam2bed-typical", "bam2bed_gnuParallel": "/usr/local/bin/bam2bed_gnuParallel", "bam2bed_gnuParallel-float128": "/usr/local/bin/bam2bed_gnuParallel-float128", "bam2bed_gnuParallel-megarow": "/usr/local/bin/bam2bed_gnuParallel-megarow", "bam2bed_gnuParallel-typical": "/usr/local/bin/bam2bed_gnuParallel-typical", "bam2bed_sge": "/usr/local/bin/bam2bed_sge", "bam2bed_sge-float128": "/usr/local/bin/bam2bed_sge-float128"}}
+config: {"url": "https://biocontainers.pro/tools/pyseer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pyseer", "latest": {"1.3.10--pyh5e36f6f_0": "sha256:1db6b7b3bf8c0f2d07b434dca71a4a13a0a9b5d7e4e29c4290c20da2fdf0a65e"}, "tags": {"1.3.9--pyh5e36f6f_0": "sha256:703d932e154bc3eefbfa977300987bbc14d9bfe08e2ccff6c9861b153f51801e", "1.3.10--pyh5e36f6f_0": "sha256:1db6b7b3bf8c0f2d07b434dca71a4a13a0a9b5d7e4e29c4290c20da2fdf0a65e"}, "docker": "quay.io/biocontainers/pyseer", "aliases": {"annotate_hits_pyseer": "/usr/local/bin/annotate_hits_pyseer", "enet_predict_pyseer": "/usr/local/bin/enet_predict_pyseer", "phandango_mapper": "/usr/local/bin/phandango_mapper", "pyseer": "/usr/local/bin/pyseer", "scree_plot_pyseer": "/usr/local/bin/scree_plot_pyseer", "similarity_pyseer": "/usr/local/bin/similarity_pyseer", "square_mash": "/usr/local/bin/square_mash", "bam2bed": "/usr/local/bin/bam2bed", "bam2bed-float128": "/usr/local/bin/bam2bed-float128", "bam2bed-megarow": "/usr/local/bin/bam2bed-megarow", "bam2bed-typical": "/usr/local/bin/bam2bed-typical", "bam2bed_gnuParallel": "/usr/local/bin/bam2bed_gnuParallel", "bam2bed_gnuParallel-float128": "/usr/local/bin/bam2bed_gnuParallel-float128", "bam2bed_gnuParallel-megarow": "/usr/local/bin/bam2bed_gnuParallel-megarow", "bam2bed_gnuParallel-typical": "/usr/local/bin/bam2bed_gnuParallel-typical", "bam2bed_sge": "/usr/local/bin/bam2bed_sge", "bam2bed_sge-float128": "/usr/local/bin/bam2bed_sge-float128"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pyseer.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/pyseer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pyseer:1.3.9--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/pyseer:1.3.10--pyh5e36f6f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pyseer/1.3.9--pyh5e36f6f_0
-$ module help quay.io/biocontainers/pyseer/1.3.9--pyh5e36f6f_0
+$ module load quay.io/biocontainers/pyseer/1.3.10--pyh5e36f6f_0
+$ module help quay.io/biocontainers/pyseer/1.3.10--pyh5e36f6f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

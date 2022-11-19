@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-artms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-artms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-artms/container.yaml"
-updated_at: "2022-11-18 01:13:54.083870"
+updated_at: "2022-11-19 02:25:40.268154"
 latest: "1.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-artms"
 aliases:

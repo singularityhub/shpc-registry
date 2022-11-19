@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/terminus"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/terminus/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/terminus/container.yaml"
-updated_at: "2022-11-18 01:23:57.022960"
-latest: "v0.1.0--h2db0a6b_0"
+updated_at: "2022-11-19 02:35:38.616035"
+latest: "0.1.0--hbd16fde_5"
 container_url: "https://biocontainers.pro/tools/terminus"
 aliases:
  - "terminus"
 versions:
  - "v0.1.0--h2db0a6b_0"
+ - "0.1.0--hbd16fde_5"
 description: "shpc-registry automated BioContainers addition for terminus"
-config: {"url": "https://biocontainers.pro/tools/terminus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for terminus", "latest": {"v0.1.0--h2db0a6b_0": "sha256:d697cdff1ac8396bbe362e3436073c5bc850c3b79bb6d40cdba5fb9e5ee009fa"}, "tags": {"v0.1.0--h2db0a6b_0": "sha256:d697cdff1ac8396bbe362e3436073c5bc850c3b79bb6d40cdba5fb9e5ee009fa"}, "docker": "quay.io/biocontainers/terminus", "aliases": {"terminus": "/usr/local/bin/terminus"}}
+config: {"url": "https://biocontainers.pro/tools/terminus", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for terminus", "latest": {"0.1.0--hbd16fde_5": "sha256:8d8d1f377af0a5959e9b32ba53cff31a7aa3488f752456f873c5cdd9d4ad5558"}, "tags": {"v0.1.0--h2db0a6b_0": "sha256:d697cdff1ac8396bbe362e3436073c5bc850c3b79bb6d40cdba5fb9e5ee009fa", "0.1.0--hbd16fde_5": "sha256:8d8d1f377af0a5959e9b32ba53cff31a7aa3488f752456f873c5cdd9d4ad5558"}, "docker": "quay.io/biocontainers/terminus", "aliases": {"terminus": "/usr/local/bin/terminus"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/terminus.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/terminus
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/terminus:v0.1.0--h2db0a6b_0
+$ shpc install quay.io/biocontainers/terminus:0.1.0--hbd16fde_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/terminus/v0.1.0--h2db0a6b_0
-$ module help quay.io/biocontainers/terminus/v0.1.0--h2db0a6b_0
+$ module load quay.io/biocontainers/terminus/0.1.0--hbd16fde_5
+$ module help quay.io/biocontainers/terminus/0.1.0--hbd16fde_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

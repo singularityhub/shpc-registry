@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-lapmix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lapmix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lapmix/container.yaml"
-updated_at: "2022-11-18 01:07:09.592183"
-latest: "1.60.0--r41hdfd78af_0"
+updated_at: "2022-11-19 02:18:59.024509"
+latest: "1.64.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-lapmix"
 
 versions:
  - "1.60.0--r41hdfd78af_0"
+ - "1.64.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-lapmix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lapmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lapmix", "latest": {"1.60.0--r41hdfd78af_0": "sha256:61558a4ac427721937616ca5ea16402b5f3704ce329ce800042d64eb31600fdf"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:61558a4ac427721937616ca5ea16402b5f3704ce329ce800042d64eb31600fdf"}, "docker": "quay.io/biocontainers/bioconductor-lapmix"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lapmix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lapmix", "latest": {"1.64.0--r42hdfd78af_0": "sha256:6aebea2c50bd02f5b51e7a3bebd6e7e0663c9a07a5c858504f4586c538684c8c"}, "tags": {"1.60.0--r41hdfd78af_0": "sha256:61558a4ac427721937616ca5ea16402b5f3704ce329ce800042d64eb31600fdf", "1.64.0--r42hdfd78af_0": "sha256:6aebea2c50bd02f5b51e7a3bebd6e7e0663c9a07a5c858504f4586c538684c8c"}, "docker": "quay.io/biocontainers/bioconductor-lapmix"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lapmix.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lapmix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lapmix:1.60.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-lapmix:1.64.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lapmix/1.60.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-lapmix/1.60.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-lapmix/1.64.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-lapmix/1.64.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

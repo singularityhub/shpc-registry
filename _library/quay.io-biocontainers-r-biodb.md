@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-biodb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-biodb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-biodb/container.yaml"
-updated_at: "2022-11-18 01:09:58.166970"
-latest: "1.2.2--r41h9f5acd7_4"
+updated_at: "2022-11-19 02:21:45.840413"
+latest: "1.2.2--r42h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/r-biodb"
 
 versions:
  - "1.2.2--r41h9f5acd7_4"
+ - "1.2.2--r42h9f5acd7_5"
 description: "shpc-registry automated BioContainers addition for r-biodb"
-config: {"url": "https://biocontainers.pro/tools/r-biodb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biodb", "latest": {"1.2.2--r41h9f5acd7_4": "sha256:9394e9103a7e7c0ae08468d52bc782c888493609a115eacb827bd29a6f6337f7"}, "tags": {"1.2.2--r41h9f5acd7_4": "sha256:9394e9103a7e7c0ae08468d52bc782c888493609a115eacb827bd29a6f6337f7"}, "docker": "quay.io/biocontainers/r-biodb"}
+config: {"url": "https://biocontainers.pro/tools/r-biodb", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-biodb", "latest": {"1.2.2--r42h9f5acd7_5": "sha256:a32b53a855ca20e028ffae798cc3b2d1823221779c94a8674156deb89a673f87"}, "tags": {"1.2.2--r41h9f5acd7_4": "sha256:9394e9103a7e7c0ae08468d52bc782c888493609a115eacb827bd29a6f6337f7", "1.2.2--r42h9f5acd7_5": "sha256:a32b53a855ca20e028ffae798cc3b2d1823221779c94a8674156deb89a673f87"}, "docker": "quay.io/biocontainers/r-biodb"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-biodb.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-biodb
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-biodb:1.2.2--r41h9f5acd7_4
+$ shpc install quay.io/biocontainers/r-biodb:1.2.2--r42h9f5acd7_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-biodb/1.2.2--r41h9f5acd7_4
-$ module help quay.io/biocontainers/r-biodb/1.2.2--r41h9f5acd7_4
+$ module load quay.io/biocontainers/r-biodb/1.2.2--r42h9f5acd7_5
+$ module help quay.io/biocontainers/r-biodb/1.2.2--r42h9f5acd7_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

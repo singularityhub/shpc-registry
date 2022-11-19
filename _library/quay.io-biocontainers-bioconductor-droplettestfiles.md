@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-droplettestfiles"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-droplettestfiles/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-droplettestfiles/container.yaml"
-updated_at: "2022-11-18 00:35:54.080665"
-latest: "1.4.0--r41hdfd78af_1"
+updated_at: "2022-11-19 01:48:04.291080"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-droplettestfiles"
 aliases:
  - ".bioconductor-droplettestfiles-post-link.sh"
  - ".bioconductor-droplettestfiles-pre-unlink.sh"
 versions:
  - "1.4.0--r41hdfd78af_1"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-droplettestfiles"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-droplettestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-droplettestfiles", "latest": {"1.4.0--r41hdfd78af_1": "sha256:36e9970f718ea5b738253b6e6cbd40726eb415b685bb1d484631272f8ca038fd"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:36e9970f718ea5b738253b6e6cbd40726eb415b685bb1d484631272f8ca038fd"}, "docker": "quay.io/biocontainers/bioconductor-droplettestfiles", "aliases": {".bioconductor-droplettestfiles-post-link.sh": "/usr/local/bin/.bioconductor-droplettestfiles-post-link.sh", ".bioconductor-droplettestfiles-pre-unlink.sh": "/usr/local/bin/.bioconductor-droplettestfiles-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-droplettestfiles", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-droplettestfiles", "latest": {"1.8.0--r42hdfd78af_0": "sha256:5819f5de05b608122db6e0e4ffb5efa4b51615d87a6645d57ba7742a69da496f"}, "tags": {"1.4.0--r41hdfd78af_1": "sha256:36e9970f718ea5b738253b6e6cbd40726eb415b685bb1d484631272f8ca038fd", "1.8.0--r42hdfd78af_0": "sha256:5819f5de05b608122db6e0e4ffb5efa4b51615d87a6645d57ba7742a69da496f"}, "docker": "quay.io/biocontainers/bioconductor-droplettestfiles", "aliases": {".bioconductor-droplettestfiles-post-link.sh": "/usr/local/bin/.bioconductor-droplettestfiles-post-link.sh", ".bioconductor-droplettestfiles-pre-unlink.sh": "/usr/local/bin/.bioconductor-droplettestfiles-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-droplettestfiles.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-droplettestfiles
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-droplettestfiles:1.4.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-droplettestfiles:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-droplettestfiles/1.4.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-droplettestfiles/1.4.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-droplettestfiles/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-droplettestfiles/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/gxformat2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gxformat2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gxformat2/container.yaml"
-updated_at: "2022-11-18 01:13:06.933409"
-latest: "0.9.0--py_0"
+updated_at: "2022-11-19 02:24:53.421546"
+latest: "0.16.0--pyh7cba7a3_0"
 container_url: "https://biocontainers.pro/tools/gxformat2"
 aliases:
  - "bioblend-galaxy-tests"
@@ -21,8 +21,13 @@ aliases:
  - "glacier"
 versions:
  - "0.9.0--py_0"
+ - "0.16.0--pyh7cba7a3_0"
+ - "0.15.0--pyh864c0ab_0"
+ - "0.14.0--pyh864c0ab_0"
+ - "0.13.1--pyh864c0ab_0"
+ - "0.12.0--pyh864c0ab_0"
 description: "shpc-registry automated BioContainers addition for gxformat2"
-config: {"url": "https://biocontainers.pro/tools/gxformat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gxformat2", "latest": {"0.9.0--py_0": "sha256:5273e519856edf1070ccd8bea9981579f827d6507c738e02b8c12180c442ba50"}, "tags": {"0.9.0--py_0": "sha256:5273e519856edf1070ccd8bea9981579f827d6507c738e02b8c12180c442ba50"}, "docker": "quay.io/biocontainers/gxformat2", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
+config: {"url": "https://biocontainers.pro/tools/gxformat2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for gxformat2", "latest": {"0.16.0--pyh7cba7a3_0": "sha256:6312ef9f5fd5c219ed578eb7901b82c851ae970b8c1a52e69d77ecaa989563c6"}, "tags": {"0.9.0--py_0": "sha256:5273e519856edf1070ccd8bea9981579f827d6507c738e02b8c12180c442ba50", "0.16.0--pyh7cba7a3_0": "sha256:6312ef9f5fd5c219ed578eb7901b82c851ae970b8c1a52e69d77ecaa989563c6", "0.15.0--pyh864c0ab_0": "sha256:c77ac4361ecf2ea4918b5030fd49593b6a18315b671d393c7beecc8dd38fd414", "0.14.0--pyh864c0ab_0": "sha256:8c1b303849d20ae49abea318b7fbbd4294461dec555704a5097c562f33178af2", "0.13.1--pyh864c0ab_0": "sha256:2c63ccd2121fa404373dc18889b1bc57d43c2d01fdfbee876a59bdac137a04ff", "0.12.0--pyh864c0ab_0": "sha256:b10cdb0d1ba15ea51e51353a8cb42a7d74dbd5c1a6f7ade6e874cc964ac839ba"}, "docker": "quay.io/biocontainers/gxformat2", "aliases": {"bioblend-galaxy-tests": "/usr/local/bin/bioblend-galaxy-tests", "asadmin": "/usr/local/bin/asadmin", "bundle_image": "/usr/local/bin/bundle_image", "cfadmin": "/usr/local/bin/cfadmin", "cq": "/usr/local/bin/cq", "cwutil": "/usr/local/bin/cwutil", "dynamodb_dump": "/usr/local/bin/dynamodb_dump", "dynamodb_load": "/usr/local/bin/dynamodb_load", "elbadmin": "/usr/local/bin/elbadmin", "fetch_file": "/usr/local/bin/fetch_file", "glacier": "/usr/local/bin/glacier"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/gxformat2.
@@ -37,7 +42,7 @@ $ shpc install quay.io/biocontainers/gxformat2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/gxformat2:0.9.0--py_0
+$ shpc install quay.io/biocontainers/gxformat2:0.16.0--pyh7cba7a3_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/gxformat2/0.9.0--py_0
-$ module help quay.io/biocontainers/gxformat2/0.9.0--py_0
+$ module load quay.io/biocontainers/gxformat2/0.16.0--pyh7cba7a3_0
+$ module help quay.io/biocontainers/gxformat2/0.16.0--pyh7cba7a3_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

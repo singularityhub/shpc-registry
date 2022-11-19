@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/exparna"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/exparna/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/exparna/container.yaml"
-updated_at: "2022-11-18 01:11:27.094375"
+updated_at: "2022-11-19 02:23:14.307404"
 latest: "1.0.1--pl5321h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/exparna"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-logolas"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-logolas/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-logolas/container.yaml"
-updated_at: "2022-11-18 01:16:04.855455"
-latest: "1.8.0--r36_1"
+updated_at: "2022-11-19 02:27:49.040338"
+latest: "1.11.0--r40_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-logolas"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,10 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_1"
+ - "1.11.0--r40_0"
+ - "1.10.0--r36_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-logolas"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-logolas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logolas", "latest": {"1.8.0--r36_1": "sha256:0fb3a54cbbef12ed9adbf6b8d86f09bc10a3c33398f314044a7e7d7871fbbd69"}, "tags": {"1.8.0--r36_1": "sha256:0fb3a54cbbef12ed9adbf6b8d86f09bc10a3c33398f314044a7e7d7871fbbd69"}, "docker": "quay.io/biocontainers/bioconductor-logolas", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-logolas", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-logolas", "latest": {"1.11.0--r40_0": "sha256:2516db9cdfb84cb003247593708a15338acb8ab9724c70373c07b551ee845370"}, "tags": {"1.8.0--r36_1": "sha256:0fb3a54cbbef12ed9adbf6b8d86f09bc10a3c33398f314044a7e7d7871fbbd69", "1.11.0--r40_0": "sha256:2516db9cdfb84cb003247593708a15338acb8ab9724c70373c07b551ee845370", "1.10.0--r36_0": "sha256:83c1f314ff173bfbaf2d6f418d952cc7bc0e82282ee2d2d01d6512254ecabfa6"}, "docker": "quay.io/biocontainers/bioconductor-logolas", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-logolas.
@@ -29,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-logolas
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-logolas:1.8.0--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-logolas:1.11.0--r40_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-logolas/1.8.0--r36_1
-$ module help quay.io/biocontainers/bioconductor-logolas/1.8.0--r36_1
+$ module load quay.io/biocontainers/bioconductor-logolas/1.11.0--r40_0
+$ module help quay.io/biocontainers/bioconductor-logolas/1.11.0--r40_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

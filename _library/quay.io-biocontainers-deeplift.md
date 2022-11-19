@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deeplift"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deeplift/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deeplift/container.yaml"
-updated_at: "2022-11-18 01:31:03.513628"
+updated_at: "2022-11-19 02:42:43.198781"
 latest: "0.6.9.3--py_0"
 container_url: "https://biocontainers.pro/tools/deeplift"
 aliases:

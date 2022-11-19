@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chronos"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chronos/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chronos/container.yaml"
-updated_at: "2022-11-18 00:46:28.995810"
+updated_at: "2022-11-19 01:58:32.759814"
 latest: "1.8.1--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-chronos"
 

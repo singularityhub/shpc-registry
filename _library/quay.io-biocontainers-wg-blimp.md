@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/wg-blimp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/wg-blimp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/wg-blimp/container.yaml"
-updated_at: "2022-11-18 00:50:44.677841"
-latest: "0.9.9--pyh5e36f6f_0"
+updated_at: "2022-11-19 02:02:46.442263"
+latest: "0.10.0--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/wg-blimp"
 aliases:
  - "wg-blimp"
@@ -21,8 +21,10 @@ aliases:
  - "jupyter-troubleshoot"
 versions:
  - "0.9.9--pyh5e36f6f_0"
+ - "0.10.0--pyh5e36f6f_0"
+ - "0.9.10--pyh5e36f6f_0"
 description: "shpc-registry automated BioContainers addition for wg-blimp"
-config: {"url": "https://biocontainers.pro/tools/wg-blimp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wg-blimp", "latest": {"0.9.9--pyh5e36f6f_0": "sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475"}, "tags": {"0.9.9--pyh5e36f6f_0": "sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475"}, "docker": "quay.io/biocontainers/wg-blimp", "aliases": {"wg-blimp": "/usr/local/bin/wg-blimp", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot"}}
+config: {"url": "https://biocontainers.pro/tools/wg-blimp", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for wg-blimp", "latest": {"0.10.0--pyh5e36f6f_0": "sha256:719545752a557580f9931cbbf42ca19b17940d80342dde9c2c9565d52a267c4b"}, "tags": {"0.9.9--pyh5e36f6f_0": "sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475", "0.10.0--pyh5e36f6f_0": "sha256:719545752a557580f9931cbbf42ca19b17940d80342dde9c2c9565d52a267c4b", "0.9.10--pyh5e36f6f_0": "sha256:aa338997bb2a6d46fea5a95fa2e156e7983563730865ea2b9f37d58e73908404"}, "docker": "quay.io/biocontainers/wg-blimp", "aliases": {"wg-blimp": "/usr/local/bin/wg-blimp", "pulptest": "/usr/local/bin/pulptest", "cbc": "/usr/local/bin/cbc", "clp": "/usr/local/bin/clp", "snakemake": "/usr/local/bin/snakemake", "snakemake-bash-completion": "/usr/local/bin/snakemake-bash-completion", "tabulate": "/usr/local/bin/tabulate", "jupyter-trust": "/usr/local/bin/jupyter-trust", "jupyter": "/usr/local/bin/jupyter", "jupyter-migrate": "/usr/local/bin/jupyter-migrate", "jupyter-troubleshoot": "/usr/local/bin/jupyter-troubleshoot"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/wg-blimp.
@@ -37,7 +39,7 @@ $ shpc install quay.io/biocontainers/wg-blimp
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/wg-blimp:0.9.9--pyh5e36f6f_0
+$ shpc install quay.io/biocontainers/wg-blimp:0.10.0--pyh5e36f6f_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/wg-blimp/0.9.9--pyh5e36f6f_0
-$ module help quay.io/biocontainers/wg-blimp/0.9.9--pyh5e36f6f_0
+$ module load quay.io/biocontainers/wg-blimp/0.10.0--pyh5e36f6f_0
+$ module help quay.io/biocontainers/wg-blimp/0.10.0--pyh5e36f6f_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

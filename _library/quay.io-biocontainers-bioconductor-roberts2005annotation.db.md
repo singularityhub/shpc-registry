@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-roberts2005annotation.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-roberts2005annotation.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-roberts2005annotation.db/container.yaml"
-updated_at: "2022-11-18 00:40:03.485228"
-latest: "3.2.3--r41hdfd78af_9"
+updated_at: "2022-11-19 01:52:11.746348"
+latest: "3.2.3--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-roberts2005annotation.db"
 aliases:
  - ".bioconductor-roberts2005annotation.db-post-link.sh"
  - ".bioconductor-roberts2005annotation.db-pre-unlink.sh"
 versions:
  - "3.2.3--r41hdfd78af_9"
+ - "3.2.3--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-roberts2005annotation.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-roberts2005annotation.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-roberts2005annotation.db", "latest": {"3.2.3--r41hdfd78af_9": "sha256:a09f042c60f941931a10bc6b822cff1250d5395cdc50d1d6e87163c20a25d18a"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:a09f042c60f941931a10bc6b822cff1250d5395cdc50d1d6e87163c20a25d18a"}, "docker": "quay.io/biocontainers/bioconductor-roberts2005annotation.db", "aliases": {".bioconductor-roberts2005annotation.db-post-link.sh": "/usr/local/bin/.bioconductor-roberts2005annotation.db-post-link.sh", ".bioconductor-roberts2005annotation.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-roberts2005annotation.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-roberts2005annotation.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-roberts2005annotation.db", "latest": {"3.2.3--r42hdfd78af_10": "sha256:be7a26a173c12057b93c1874518efe9f31f4ca6d971b253aed916703824326f7"}, "tags": {"3.2.3--r41hdfd78af_9": "sha256:a09f042c60f941931a10bc6b822cff1250d5395cdc50d1d6e87163c20a25d18a", "3.2.3--r42hdfd78af_10": "sha256:be7a26a173c12057b93c1874518efe9f31f4ca6d971b253aed916703824326f7"}, "docker": "quay.io/biocontainers/bioconductor-roberts2005annotation.db", "aliases": {".bioconductor-roberts2005annotation.db-post-link.sh": "/usr/local/bin/.bioconductor-roberts2005annotation.db-post-link.sh", ".bioconductor-roberts2005annotation.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-roberts2005annotation.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-roberts2005annotation.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-roberts2005annotation.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-roberts2005annotation.db:3.2.3--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-roberts2005annotation.db:3.2.3--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-roberts2005annotation.db/3.2.3--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-roberts2005annotation.db/3.2.3--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-roberts2005annotation.db/3.2.3--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-roberts2005annotation.db/3.2.3--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

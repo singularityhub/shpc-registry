@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genetonic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genetonic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genetonic/container.yaml"
-updated_at: "2022-11-18 00:45:24.840702"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-19 01:57:28.965952"
+latest: "2.2.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genetonic"
 aliases:
  - "fftw-wisdom"
@@ -15,8 +15,9 @@ aliases:
  - "pandoc"
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "2.2.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-genetonic"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genetonic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genetonic", "latest": {"1.6.0--r41hdfd78af_0": "sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1"}, "docker": "quay.io/biocontainers/bioconductor-genetonic", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genetonic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genetonic", "latest": {"2.2.0--r42hdfd78af_0": "sha256:95f46aa8c3b0d27d2e5236b8015a5f0aa8f3278ba6b887a61be9791f1494f99f"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1", "2.2.0--r42hdfd78af_0": "sha256:95f46aa8c3b0d27d2e5236b8015a5f0aa8f3278ba6b887a61be9791f1494f99f"}, "docker": "quay.io/biocontainers/bioconductor-genetonic", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genetonic.
@@ -31,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genetonic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genetonic:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-genetonic:2.2.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genetonic/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-genetonic/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-genetonic/2.2.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genetonic/2.2.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

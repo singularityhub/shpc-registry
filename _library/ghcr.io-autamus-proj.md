@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/proj"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/proj/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/proj/container.yaml"
-updated_at: "2022-11-18 01:34:12.714223"
-latest: "8.1.0"
+updated_at: "2022-11-19 02:45:49.790501"
+latest: "8.2.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/proj"
 aliases:
  - "proj"
@@ -15,8 +15,9 @@ versions:
  - "7.2.1"
  - "8.1.0"
  - "latest"
+ - "8.2.1"
 description: "PROJ is a generic coordinate transformation software, that transforms coordinates from one coordinate reference system (CRS) to another."
-config: {"docker": "ghcr.io/autamus/proj", "url": "https://github.com/orgs/autamus/packages/container/package/proj", "maintainer": "@vsoch", "description": "PROJ is a generic coordinate transformation software, that transforms coordinates from one coordinate reference system (CRS) to another.", "latest": {"8.1.0": "sha256:ac26607412c7b8755cc7195c15e34a22393760b01372e5e34afaa4cd5081dc9a"}, "tags": {"7.2.1": "sha256:38ece517a69a68bd8e92237432621c08a2f2b8d2db3d4951196cbb2efa575b11", "8.1.0": "sha256:ac26607412c7b8755cc7195c15e34a22393760b01372e5e34afaa4cd5081dc9a", "latest": "sha256:ac26607412c7b8755cc7195c15e34a22393760b01372e5e34afaa4cd5081dc9a"}, "aliases": {"proj": "/opt/view/bin/proj", "projinfo": "/opt/view/bin/projinfo", "projsync": "/opt/view/bin/projsync"}}
+config: {"docker": "ghcr.io/autamus/proj", "url": "https://github.com/orgs/autamus/packages/container/package/proj", "maintainer": "@vsoch", "description": "PROJ is a generic coordinate transformation software, that transforms coordinates from one coordinate reference system (CRS) to another.", "latest": {"8.2.1": "sha256:4d27c270e2fe16ce40ed1939b5386aebcb45fbe18bd661094b9b3295c97547cf"}, "tags": {"7.2.1": "sha256:38ece517a69a68bd8e92237432621c08a2f2b8d2db3d4951196cbb2efa575b11", "8.1.0": "sha256:ac26607412c7b8755cc7195c15e34a22393760b01372e5e34afaa4cd5081dc9a", "latest": "sha256:4d27c270e2fe16ce40ed1939b5386aebcb45fbe18bd661094b9b3295c97547cf", "8.2.1": "sha256:4d27c270e2fe16ce40ed1939b5386aebcb45fbe18bd661094b9b3295c97547cf"}, "aliases": {"proj": "/opt/view/bin/proj", "projinfo": "/opt/view/bin/projinfo", "projsync": "/opt/view/bin/projsync"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/proj.
@@ -31,7 +32,7 @@ $ shpc install ghcr.io/autamus/proj
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/proj:8.1.0
+$ shpc install ghcr.io/autamus/proj:8.2.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/proj/8.1.0
-$ module help ghcr.io/autamus/proj/8.1.0
+$ module load ghcr.io/autamus/proj/8.2.1
+$ module help ghcr.io/autamus/proj/8.2.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

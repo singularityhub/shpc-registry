@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-preprocesscore"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-preprocesscore/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-preprocesscore/container.yaml"
-updated_at: "2022-11-18 01:12:01.051728"
+updated_at: "2022-11-19 02:23:48.177040"
 latest: "1.56.0--r41hc0cfd56_3"
 container_url: "https://biocontainers.pro/tools/bioconductor-preprocesscore"
 

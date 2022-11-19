@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-hilda"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hilda/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hilda/container.yaml"
-updated_at: "2022-11-18 00:58:04.654108"
-latest: "1.8.0--r41hc247a5b_2"
+updated_at: "2022-11-19 02:10:01.110484"
+latest: "1.12.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hilda"
 aliases:
  - "jags"
 versions:
  - "1.8.0--r41hc247a5b_2"
+ - "1.12.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hilda"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hilda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hilda", "latest": {"1.8.0--r41hc247a5b_2": "sha256:e046c215a105ac93a409fc6292321bdcaad87c5c9e4fe8c47b58e0e30652414a"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:e046c215a105ac93a409fc6292321bdcaad87c5c9e4fe8c47b58e0e30652414a"}, "docker": "quay.io/biocontainers/bioconductor-hilda", "aliases": {"jags": "/usr/local/bin/jags"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hilda", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hilda", "latest": {"1.12.0--r42hc247a5b_0": "sha256:6e244037e7e6563d1d1ca446f82e0a0fbbf4b36f2e2daf731dd93b4d072c42fd"}, "tags": {"1.8.0--r41hc247a5b_2": "sha256:e046c215a105ac93a409fc6292321bdcaad87c5c9e4fe8c47b58e0e30652414a", "1.12.0--r42hc247a5b_0": "sha256:6e244037e7e6563d1d1ca446f82e0a0fbbf4b36f2e2daf731dd93b4d072c42fd"}, "docker": "quay.io/biocontainers/bioconductor-hilda", "aliases": {"jags": "/usr/local/bin/jags"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hilda.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hilda
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hilda:1.8.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-hilda:1.12.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hilda/1.8.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-hilda/1.8.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-hilda/1.12.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-hilda/1.12.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

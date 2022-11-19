@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mdgsa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mdgsa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mdgsa/container.yaml"
-updated_at: "2022-11-18 01:30:59.269733"
-latest: "1.8.0--r3.4.1_0"
+updated_at: "2022-11-19 02:42:39.023455"
+latest: "1.22.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-mdgsa"
 aliases:
  - "bmp2tiff"
@@ -19,8 +19,13 @@ aliases:
  - "ncursesw5-config"
 versions:
  - "1.8.0--r3.4.1_0"
+ - "1.22.0--r40hdfd78af_1"
+ - "1.20.0--r40_0"
+ - "1.18.0--r36_0"
+ - "1.16.0--r36_1"
+ - "1.14.0--r351_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mdgsa"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mdgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdgsa", "latest": {"1.8.0--r3.4.1_0": "sha256:a7190ffaf2458b7d681715edbad731f3457e50d68d0e0c5857b3efae6d13cfe3"}, "tags": {"1.8.0--r3.4.1_0": "sha256:a7190ffaf2458b7d681715edbad731f3457e50d68d0e0c5857b3efae6d13cfe3"}, "docker": "quay.io/biocontainers/bioconductor-mdgsa", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mdgsa", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mdgsa", "latest": {"1.22.0--r40hdfd78af_1": "sha256:8456a5979131a111c31084cd0d7c480b6a9151b3572fef77a09b8230b4aeefde"}, "tags": {"1.8.0--r3.4.1_0": "sha256:a7190ffaf2458b7d681715edbad731f3457e50d68d0e0c5857b3efae6d13cfe3", "1.22.0--r40hdfd78af_1": "sha256:8456a5979131a111c31084cd0d7c480b6a9151b3572fef77a09b8230b4aeefde", "1.20.0--r40_0": "sha256:e6c720da3ae9d360273248ff0a441f4905e5fbfe7e8625577dcf2eac163b6404", "1.18.0--r36_0": "sha256:8b209e7675deec5c06286e47751768adec0bbe35baea99f7237818803ce9f4f9", "1.16.0--r36_1": "sha256:f13bf16b9b8c1f706fe3782fcc801998a06022d3e4784aeec1c6264c1de215ac", "1.14.0--r351_0": "sha256:3d8c48f93bdb7609ab7150bd4712dfe5510a66790743151224398203af4c7c3e"}, "docker": "quay.io/biocontainers/bioconductor-mdgsa", "aliases": {"bmp2tiff": "/usr/local/bin/bmp2tiff", "gif2tiff": "/usr/local/bin/gif2tiff", "ras2tiff": "/usr/local/bin/ras2tiff", "rgb2ycbcr": "/usr/local/bin/rgb2ycbcr", "thumbnail": "/usr/local/bin/thumbnail", "tclsh8.5": "/usr/local/bin/tclsh8.5", "wish8.5": "/usr/local/bin/wish8.5", "ncurses5-config": "/usr/local/bin/ncurses5-config", "ncursesw5-config": "/usr/local/bin/ncursesw5-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mdgsa.
@@ -35,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mdgsa
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mdgsa:1.8.0--r3.4.1_0
+$ shpc install quay.io/biocontainers/bioconductor-mdgsa:1.22.0--r40hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -47,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mdgsa/1.8.0--r3.4.1_0
-$ module help quay.io/biocontainers/bioconductor-mdgsa/1.8.0--r3.4.1_0
+$ module load quay.io/biocontainers/bioconductor-mdgsa/1.22.0--r40hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-mdgsa/1.22.0--r40hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

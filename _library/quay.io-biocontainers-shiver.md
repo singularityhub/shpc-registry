@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/shiver"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/shiver/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/shiver/container.yaml"
-updated_at: "2022-11-18 01:07:28.274374"
+updated_at: "2022-11-19 02:19:17.190590"
 latest: "1.3.5--py35_0"
 container_url: "https://biocontainers.pro/tools/shiver"
 aliases:

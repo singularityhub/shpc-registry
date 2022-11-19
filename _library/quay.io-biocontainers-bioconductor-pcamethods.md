@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pcamethods"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcamethods/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcamethods/container.yaml"
-updated_at: "2022-11-18 00:53:35.738959"
+updated_at: "2022-11-19 02:05:34.753592"
 latest: "1.86.0--r41hc247a5b_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcamethods"
 

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-iteremoval"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iteremoval/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iteremoval/container.yaml"
-updated_at: "2022-11-18 00:56:42.316735"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-19 02:08:39.576120"
+latest: "1.14.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iteremoval"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,11 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-iteremoval"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-iteremoval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iteremoval", "latest": {"1.8.0--r40_0": "sha256:049387256c355c74a577cae266373c426975e905804e2484b0d36da07c004137"}, "tags": {"1.8.0--r40_0": "sha256:049387256c355c74a577cae266373c426975e905804e2484b0d36da07c004137"}, "docker": "quay.io/biocontainers/bioconductor-iteremoval", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-iteremoval", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-iteremoval", "latest": {"1.14.0--r41hdfd78af_0": "sha256:81c4a7d7256b06a195bc3099aaa74da7395cabd4e28c6898ea2205bcc533ca6e"}, "tags": {"1.8.0--r40_0": "sha256:049387256c355c74a577cae266373c426975e905804e2484b0d36da07c004137", "1.14.0--r41hdfd78af_0": "sha256:81c4a7d7256b06a195bc3099aaa74da7395cabd4e28c6898ea2205bcc533ca6e", "1.12.0--r41hdfd78af_0": "sha256:23987d7297a840e8a0797907de1572d0ddc1c99a2a9d1a8475d60be9ddb68189", "1.10.0--r40hdfd78af_1": "sha256:009c278012cbd36b58341e252d31803284bbe2cdb9eb1aff06f9272becef5d71"}, "docker": "quay.io/biocontainers/bioconductor-iteremoval", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-iteremoval.
@@ -34,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-iteremoval
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-iteremoval:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-iteremoval:1.14.0--r41hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-iteremoval/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-iteremoval/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-iteremoval/1.14.0--r41hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-iteremoval/1.14.0--r41hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

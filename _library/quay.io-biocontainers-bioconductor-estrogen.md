@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-estrogen"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-estrogen/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-estrogen/container.yaml"
-updated_at: "2022-11-18 01:14:24.728630"
-latest: "1.40.0--r41hdfd78af_1"
+updated_at: "2022-11-19 02:26:10.474375"
+latest: "1.43.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-estrogen"
 aliases:
  - ".bioconductor-estrogen-post-link.sh"
  - ".bioconductor-estrogen-pre-unlink.sh"
 versions:
  - "1.40.0--r41hdfd78af_1"
+ - "1.43.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-estrogen"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-estrogen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-estrogen", "latest": {"1.40.0--r41hdfd78af_1": "sha256:6ac882777f9ddd07a2a089d857adc991a55c2205e5511861456e2118e10c3f11"}, "tags": {"1.40.0--r41hdfd78af_1": "sha256:6ac882777f9ddd07a2a089d857adc991a55c2205e5511861456e2118e10c3f11"}, "docker": "quay.io/biocontainers/bioconductor-estrogen", "aliases": {".bioconductor-estrogen-post-link.sh": "/usr/local/bin/.bioconductor-estrogen-post-link.sh", ".bioconductor-estrogen-pre-unlink.sh": "/usr/local/bin/.bioconductor-estrogen-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-estrogen", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-estrogen", "latest": {"1.43.0--r42hdfd78af_0": "sha256:e63c5ad46fe9784396cd2c9214a37c2140da117b440b4276f7718685ca3e8047"}, "tags": {"1.40.0--r41hdfd78af_1": "sha256:6ac882777f9ddd07a2a089d857adc991a55c2205e5511861456e2118e10c3f11", "1.43.0--r42hdfd78af_0": "sha256:e63c5ad46fe9784396cd2c9214a37c2140da117b440b4276f7718685ca3e8047"}, "docker": "quay.io/biocontainers/bioconductor-estrogen", "aliases": {".bioconductor-estrogen-post-link.sh": "/usr/local/bin/.bioconductor-estrogen-post-link.sh", ".bioconductor-estrogen-pre-unlink.sh": "/usr/local/bin/.bioconductor-estrogen-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-estrogen.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-estrogen
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-estrogen:1.40.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-estrogen:1.43.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-estrogen/1.40.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-estrogen/1.40.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-estrogen/1.43.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-estrogen/1.43.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

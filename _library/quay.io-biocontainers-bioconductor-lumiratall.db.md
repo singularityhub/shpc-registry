@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-lumiratall.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-lumiratall.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-lumiratall.db/container.yaml"
-updated_at: "2022-11-18 00:34:45.225086"
-latest: "1.22.0--r41hdfd78af_9"
+updated_at: "2022-11-19 01:46:55.622562"
+latest: "1.22.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-lumiratall.db"
 aliases:
  - ".bioconductor-lumiratall.db-post-link.sh"
  - ".bioconductor-lumiratall.db-pre-unlink.sh"
 versions:
  - "1.22.0--r41hdfd78af_9"
+ - "1.22.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-lumiratall.db"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-lumiratall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumiratall.db", "latest": {"1.22.0--r41hdfd78af_9": "sha256:075ea54a967e0281f167808240ffe6aa8789b7a10e56db8b807d42adcf51e2be"}, "tags": {"1.22.0--r41hdfd78af_9": "sha256:075ea54a967e0281f167808240ffe6aa8789b7a10e56db8b807d42adcf51e2be"}, "docker": "quay.io/biocontainers/bioconductor-lumiratall.db", "aliases": {".bioconductor-lumiratall.db-post-link.sh": "/usr/local/bin/.bioconductor-lumiratall.db-post-link.sh", ".bioconductor-lumiratall.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-lumiratall.db-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-lumiratall.db", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-lumiratall.db", "latest": {"1.22.0--r42hdfd78af_10": "sha256:87d7c05c556e10057645b93809dc7047f5c456dd5e7b2c05b1c65d655343ad38"}, "tags": {"1.22.0--r41hdfd78af_9": "sha256:075ea54a967e0281f167808240ffe6aa8789b7a10e56db8b807d42adcf51e2be", "1.22.0--r42hdfd78af_10": "sha256:87d7c05c556e10057645b93809dc7047f5c456dd5e7b2c05b1c65d655343ad38"}, "docker": "quay.io/biocontainers/bioconductor-lumiratall.db", "aliases": {".bioconductor-lumiratall.db-post-link.sh": "/usr/local/bin/.bioconductor-lumiratall.db-post-link.sh", ".bioconductor-lumiratall.db-pre-unlink.sh": "/usr/local/bin/.bioconductor-lumiratall.db-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-lumiratall.db.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-lumiratall.db
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-lumiratall.db:1.22.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-lumiratall.db:1.22.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-lumiratall.db/1.22.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-lumiratall.db/1.22.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-lumiratall.db/1.22.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-lumiratall.db/1.22.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

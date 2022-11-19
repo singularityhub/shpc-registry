@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-cimpl"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cimpl/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cimpl/container.yaml"
-updated_at: "2022-11-18 00:55:19.952549"
-latest: "1.1--r41h9ee0642_4"
+updated_at: "2022-11-19 02:07:18.056310"
+latest: "1.1--r42h9ee0642_5"
 container_url: "https://biocontainers.pro/tools/r-cimpl"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1--r41h9ee0642_4"
+ - "1.1--r42h9ee0642_5"
 description: "shpc-registry automated BioContainers addition for r-cimpl"
-config: {"url": "https://biocontainers.pro/tools/r-cimpl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cimpl", "latest": {"1.1--r41h9ee0642_4": "sha256:9630c2b9c7022f200bf7cfedf29fc3ae924c08dc412c798570373b26229bfd2e"}, "tags": {"1.1--r41h9ee0642_4": "sha256:9630c2b9c7022f200bf7cfedf29fc3ae924c08dc412c798570373b26229bfd2e"}, "docker": "quay.io/biocontainers/r-cimpl", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-cimpl", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cimpl", "latest": {"1.1--r42h9ee0642_5": "sha256:8db684729fb7e1e933807af223f34cc89ef79c73865e977a6d8acb0c09e675c2"}, "tags": {"1.1--r41h9ee0642_4": "sha256:9630c2b9c7022f200bf7cfedf29fc3ae924c08dc412c798570373b26229bfd2e", "1.1--r42h9ee0642_5": "sha256:8db684729fb7e1e933807af223f34cc89ef79c73865e977a6d8acb0c09e675c2"}, "docker": "quay.io/biocontainers/r-cimpl", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cimpl.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-cimpl
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-cimpl:1.1--r41h9ee0642_4
+$ shpc install quay.io/biocontainers/r-cimpl:1.1--r42h9ee0642_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-cimpl/1.1--r41h9ee0642_4
-$ module help quay.io/biocontainers/r-cimpl/1.1--r41h9ee0642_4
+$ module load quay.io/biocontainers/r-cimpl/1.1--r42h9ee0642_5
+$ module help quay.io/biocontainers/r-cimpl/1.1--r42h9ee0642_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

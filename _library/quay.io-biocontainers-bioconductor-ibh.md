@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-ibh"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ibh/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ibh/container.yaml"
-updated_at: "2022-11-18 01:31:35.838479"
-latest: "1.42.0--r41hdfd78af_0"
+updated_at: "2022-11-19 02:43:15.201539"
+latest: "1.46.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ibh"
 
 versions:
  - "1.42.0--r41hdfd78af_0"
+ - "1.46.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ibh"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ibh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibh", "latest": {"1.42.0--r41hdfd78af_0": "sha256:97c0d38b3460c4bca7e37ae16dc0341c147ba0f73a35ebdacaac9ec41dc224cc"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:97c0d38b3460c4bca7e37ae16dc0341c147ba0f73a35ebdacaac9ec41dc224cc"}, "docker": "quay.io/biocontainers/bioconductor-ibh"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ibh", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ibh", "latest": {"1.46.0--r42hdfd78af_0": "sha256:f885ba8169608676fb0e0c37de7d2399f7890956fc26e50ef000dcf603fbd89b"}, "tags": {"1.42.0--r41hdfd78af_0": "sha256:97c0d38b3460c4bca7e37ae16dc0341c147ba0f73a35ebdacaac9ec41dc224cc", "1.46.0--r42hdfd78af_0": "sha256:f885ba8169608676fb0e0c37de7d2399f7890956fc26e50ef000dcf603fbd89b"}, "docker": "quay.io/biocontainers/bioconductor-ibh"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ibh.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ibh
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ibh:1.42.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-ibh:1.46.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ibh/1.42.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-ibh/1.42.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-ibh/1.46.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ibh/1.46.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-fishalyser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-fishalyser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-fishalyser/container.yaml"
-updated_at: "2022-11-18 00:49:10.937117"
-latest: "1.28.0--r41hdfd78af_0"
+updated_at: "2022-11-19 02:01:13.162632"
+latest: "1.32.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-fishalyser"
 aliases:
  - "fftw-wisdom"
@@ -14,8 +14,9 @@ aliases:
  - "fftwl-wisdom"
 versions:
  - "1.28.0--r41hdfd78af_0"
+ - "1.32.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-fishalyser"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-fishalyser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fishalyser", "latest": {"1.28.0--r41hdfd78af_0": "sha256:adab4cc196fb3d8be0750727028bb1f3a02ee648334c8449c5fb3966aceffb5a"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:adab4cc196fb3d8be0750727028bb1f3a02ee648334c8449c5fb3966aceffb5a"}, "docker": "quay.io/biocontainers/bioconductor-fishalyser", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-fishalyser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-fishalyser", "latest": {"1.32.0--r42hdfd78af_0": "sha256:859a726c8506dee460e7c7415036a1b5a7434c1f59a308f770e3bfdb1cf28457"}, "tags": {"1.28.0--r41hdfd78af_0": "sha256:adab4cc196fb3d8be0750727028bb1f3a02ee648334c8449c5fb3966aceffb5a", "1.32.0--r42hdfd78af_0": "sha256:859a726c8506dee460e7c7415036a1b5a7434c1f59a308f770e3bfdb1cf28457"}, "docker": "quay.io/biocontainers/bioconductor-fishalyser", "aliases": {"fftw-wisdom": "/usr/local/bin/fftw-wisdom", "fftw-wisdom-to-conf": "/usr/local/bin/fftw-wisdom-to-conf", "fftwf-wisdom": "/usr/local/bin/fftwf-wisdom", "fftwl-wisdom": "/usr/local/bin/fftwl-wisdom"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-fishalyser.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-fishalyser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-fishalyser:1.28.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-fishalyser:1.32.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-fishalyser/1.28.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-fishalyser/1.28.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-fishalyser/1.32.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-fishalyser/1.32.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-cohcap"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cohcap/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cohcap/container.yaml"
-updated_at: "2022-11-18 00:51:34.309137"
-latest: "1.40.0--pl5321r41hc247a5b_3"
+updated_at: "2022-11-19 02:03:35.379479"
+latest: "1.44.0--pl5321r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cohcap"
 aliases:
  - ".bioconductor-cohcapanno-post-link.sh"
@@ -14,8 +14,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.40.0--pl5321r41hc247a5b_3"
+ - "1.44.0--pl5321r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cohcap"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cohcap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cohcap", "latest": {"1.40.0--pl5321r41hc247a5b_3": "sha256:19670a6ce08344aa0a468bd6ed81414dcb0e9bf130942ab7866626993f269a3b"}, "tags": {"1.40.0--pl5321r41hc247a5b_3": "sha256:19670a6ce08344aa0a468bd6ed81414dcb0e9bf130942ab7866626993f269a3b"}, "docker": "quay.io/biocontainers/bioconductor-cohcap", "aliases": {".bioconductor-cohcapanno-post-link.sh": "/usr/local/bin/.bioconductor-cohcapanno-post-link.sh", ".bioconductor-cohcapanno-pre-unlink.sh": "/usr/local/bin/.bioconductor-cohcapanno-pre-unlink.sh", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cohcap", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cohcap", "latest": {"1.44.0--pl5321r42hc247a5b_0": "sha256:b46b84dd806fcb7247492a7146352025a8d4e859d7f2fb6e61f073e14cb047e3"}, "tags": {"1.40.0--pl5321r41hc247a5b_3": "sha256:19670a6ce08344aa0a468bd6ed81414dcb0e9bf130942ab7866626993f269a3b", "1.44.0--pl5321r42hc247a5b_0": "sha256:b46b84dd806fcb7247492a7146352025a8d4e859d7f2fb6e61f073e14cb047e3"}, "docker": "quay.io/biocontainers/bioconductor-cohcap", "aliases": {".bioconductor-cohcapanno-post-link.sh": "/usr/local/bin/.bioconductor-cohcapanno-post-link.sh", ".bioconductor-cohcapanno-pre-unlink.sh": "/usr/local/bin/.bioconductor-cohcapanno-pre-unlink.sh", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cohcap.
@@ -30,7 +31,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cohcap
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cohcap:1.40.0--pl5321r41hc247a5b_3
+$ shpc install quay.io/biocontainers/bioconductor-cohcap:1.44.0--pl5321r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +43,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cohcap/1.40.0--pl5321r41hc247a5b_3
-$ module help quay.io/biocontainers/bioconductor-cohcap/1.40.0--pl5321r41hc247a5b_3
+$ module load quay.io/biocontainers/bioconductor-cohcap/1.44.0--pl5321r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-cohcap/1.44.0--pl5321r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

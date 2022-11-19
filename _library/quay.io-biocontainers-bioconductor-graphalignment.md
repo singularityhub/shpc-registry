@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-graphalignment"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-graphalignment/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-graphalignment/container.yaml"
-updated_at: "2022-11-18 00:41:10.555663"
-latest: "1.58.0--r41hc0cfd56_2"
+updated_at: "2022-11-19 01:53:17.921593"
+latest: "1.62.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-graphalignment"
 
 versions:
  - "1.58.0--r41hc0cfd56_2"
+ - "1.62.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-graphalignment"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-graphalignment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graphalignment", "latest": {"1.58.0--r41hc0cfd56_2": "sha256:ed5eb1a24c546d2d320f780dbeb3c1762fa76e8f48149abd42e61a36c39ec824"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:ed5eb1a24c546d2d320f780dbeb3c1762fa76e8f48149abd42e61a36c39ec824"}, "docker": "quay.io/biocontainers/bioconductor-graphalignment"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-graphalignment", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-graphalignment", "latest": {"1.62.0--r42hc0cfd56_0": "sha256:ef71b7f4f622167a8fd11bd61160c5659c8eb1334e9ad221851d22714439e151"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:ed5eb1a24c546d2d320f780dbeb3c1762fa76e8f48149abd42e61a36c39ec824", "1.62.0--r42hc0cfd56_0": "sha256:ef71b7f4f622167a8fd11bd61160c5659c8eb1334e9ad221851d22714439e151"}, "docker": "quay.io/biocontainers/bioconductor-graphalignment"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-graphalignment.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-graphalignment
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-graphalignment:1.58.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-graphalignment:1.62.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-graphalignment/1.58.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-graphalignment/1.58.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-graphalignment/1.62.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-graphalignment/1.62.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

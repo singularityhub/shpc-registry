@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/womtool"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/womtool/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/womtool/container.yaml"
-updated_at: "2022-11-18 01:18:12.735475"
-latest: "53.1--0"
+updated_at: "2022-11-19 02:29:55.333174"
+latest: "61--hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/womtool"
 aliases:
  - "womtool"
@@ -21,8 +21,13 @@ aliases:
  - "appletviewer"
 versions:
  - "53.1--0"
+ - "61--hdfd78af_0"
+ - "60--hdfd78af_1"
+ - "60--0"
+ - "58--hdfd78af_0"
+ - "57--0"
 description: "shpc-registry automated BioContainers addition for womtool"
-config: {"url": "https://biocontainers.pro/tools/womtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for womtool", "latest": {"53.1--0": "sha256:34e98b4c720e02ca04fee75b38575b798dc3ec5b66ac570ae0a1f721f857559b"}, "tags": {"53.1--0": "sha256:34e98b4c720e02ca04fee75b38575b798dc3ec5b66ac570ae0a1f721f857559b"}, "docker": "quay.io/biocontainers/womtool", "aliases": {"womtool": "/usr/local/bin/womtool", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
+config: {"url": "https://biocontainers.pro/tools/womtool", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for womtool", "latest": {"61--hdfd78af_0": "sha256:2aeeac92d1ca026dcd6f9ce26c1a7327bc2243a69c3b41fd712e76bb5cb158b4"}, "tags": {"53.1--0": "sha256:34e98b4c720e02ca04fee75b38575b798dc3ec5b66ac570ae0a1f721f857559b", "61--hdfd78af_0": "sha256:2aeeac92d1ca026dcd6f9ce26c1a7327bc2243a69c3b41fd712e76bb5cb158b4", "60--hdfd78af_1": "sha256:afc58d7e9a884112ae8d98fcb3d6c3d4a41627a46b3a6fb722601ae1364a5ff6", "60--0": "sha256:2cfa7d40ca01bc13f7e01c5ee8283d7065edef92ccd17d4cd26b1ed36d76c7e6", "58--hdfd78af_0": "sha256:7608523b24823368e26e2cb729cc03f0e9e6c8983399a4a32989006baed9d7b0", "57--0": "sha256:e4d9c73634d1f8b695b3e4a72d11457a3791f5712d83be31dd6f3695a1ace789"}, "docker": "quay.io/biocontainers/womtool", "aliases": {"womtool": "/usr/local/bin/womtool", "clhsdb": "/usr/local/bin/clhsdb", "hsdb": "/usr/local/bin/hsdb", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd", "native2ascii": "/usr/local/bin/native2ascii", "policytool": "/usr/local/bin/policytool", "appletviewer": "/usr/local/bin/appletviewer"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/womtool.
@@ -37,7 +42,7 @@ $ shpc install quay.io/biocontainers/womtool
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/womtool:53.1--0
+$ shpc install quay.io/biocontainers/womtool:61--hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -49,8 +54,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/womtool/53.1--0
-$ module help quay.io/biocontainers/womtool/53.1--0
+$ module load quay.io/biocontainers/womtool/61--hdfd78af_0
+$ module help quay.io/biocontainers/womtool/61--hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

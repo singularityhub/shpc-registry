@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hspec"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hspec/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hspec/container.yaml"
-updated_at: "2022-11-18 01:01:05.445011"
-latest: "0.99.1--r41hdfd78af_9"
+updated_at: "2022-11-19 02:12:59.648993"
+latest: "0.99.1--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hspec"
 aliases:
  - ".bioconductor-hspec-post-link.sh"
  - ".bioconductor-hspec-pre-unlink.sh"
 versions:
  - "0.99.1--r41hdfd78af_9"
+ - "0.99.1--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hspec"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hspec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hspec", "latest": {"0.99.1--r41hdfd78af_9": "sha256:2774d752de3e1a314713df4bc7c916e3877025bb588a1ef2d78f2444f40bbaf8"}, "tags": {"0.99.1--r41hdfd78af_9": "sha256:2774d752de3e1a314713df4bc7c916e3877025bb588a1ef2d78f2444f40bbaf8"}, "docker": "quay.io/biocontainers/bioconductor-hspec", "aliases": {".bioconductor-hspec-post-link.sh": "/usr/local/bin/.bioconductor-hspec-post-link.sh", ".bioconductor-hspec-pre-unlink.sh": "/usr/local/bin/.bioconductor-hspec-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hspec", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hspec", "latest": {"0.99.1--r42hdfd78af_10": "sha256:8b0e2abf3803feff6b8b712653c16086e56b3a93ba218db15ceb0550022db38e"}, "tags": {"0.99.1--r41hdfd78af_9": "sha256:2774d752de3e1a314713df4bc7c916e3877025bb588a1ef2d78f2444f40bbaf8", "0.99.1--r42hdfd78af_10": "sha256:8b0e2abf3803feff6b8b712653c16086e56b3a93ba218db15ceb0550022db38e"}, "docker": "quay.io/biocontainers/bioconductor-hspec", "aliases": {".bioconductor-hspec-post-link.sh": "/usr/local/bin/.bioconductor-hspec-post-link.sh", ".bioconductor-hspec-pre-unlink.sh": "/usr/local/bin/.bioconductor-hspec-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hspec.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hspec
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hspec:0.99.1--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-hspec:0.99.1--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hspec/0.99.1--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-hspec/0.99.1--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-hspec/0.99.1--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-hspec/0.99.1--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

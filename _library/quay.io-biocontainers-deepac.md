@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/deepac"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/deepac/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/deepac/container.yaml"
-updated_at: "2022-11-18 00:55:04.077438"
+updated_at: "2022-11-19 02:07:02.271111"
 latest: "0.9.3--py_1"
 container_url: "https://biocontainers.pro/tools/deepac"
 aliases:

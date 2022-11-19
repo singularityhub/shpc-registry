@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/meta-sparse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/meta-sparse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/meta-sparse/container.yaml"
-updated_at: "2022-11-18 00:56:20.161497"
+updated_at: "2022-11-19 02:08:17.631869"
 latest: "0.1.2--py27h24bf2e0_2"
 container_url: "https://biocontainers.pro/tools/meta-sparse"
 aliases:

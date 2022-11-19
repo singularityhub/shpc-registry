@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/clinker-py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/clinker-py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/clinker-py/container.yaml"
-updated_at: "2022-11-18 00:53:13.267911"
+updated_at: "2022-11-19 02:05:12.754905"
 latest: "0.0.25--pyh5e36f6f_0"
 container_url: "https://biocontainers.pro/tools/clinker-py"
 aliases:

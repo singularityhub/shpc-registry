@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-hca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hca/container.yaml"
-updated_at: "2022-11-18 01:24:28.219193"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-19 02:36:09.847162"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hca"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hca"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hca", "latest": {"1.2.0--r41hdfd78af_0": "sha256:ab20a261fedc655b8ca2ff9d60e04f40b6b4d200aa8046344f5100c597c67df1"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ab20a261fedc655b8ca2ff9d60e04f40b6b4d200aa8046344f5100c597c67df1"}, "docker": "quay.io/biocontainers/bioconductor-hca"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hca", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hca", "latest": {"1.6.0--r42hdfd78af_0": "sha256:0db59e82ec782967b47c4da4629d46922aacdffff2ebbd360feeba1230d7b3b5"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:ab20a261fedc655b8ca2ff9d60e04f40b6b4d200aa8046344f5100c597c67df1", "1.6.0--r42hdfd78af_0": "sha256:0db59e82ec782967b47c4da4629d46922aacdffff2ebbd360feeba1230d7b3b5"}, "docker": "quay.io/biocontainers/bioconductor-hca"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hca.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hca
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hca:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-hca:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hca/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-hca/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-hca/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hca/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-structssi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-structssi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-structssi/container.yaml"
-updated_at: "2022-11-18 00:51:48.977853"
-latest: "1.1.1--r41h3121a25_8"
+updated_at: "2022-11-19 02:03:49.761771"
+latest: "1.1.1--r42h3121a25_9"
 container_url: "https://biocontainers.pro/tools/r-structssi"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.1--r41h3121a25_8"
+ - "1.1.1--r42h3121a25_9"
 description: "shpc-registry automated BioContainers addition for r-structssi"
-config: {"url": "https://biocontainers.pro/tools/r-structssi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-structssi", "latest": {"1.1.1--r41h3121a25_8": "sha256:abcd68b8982fc07a9a122df3224efcfdc1d084c361e1a189c66c195e0dabb48b"}, "tags": {"1.1.1--r41h3121a25_8": "sha256:abcd68b8982fc07a9a122df3224efcfdc1d084c361e1a189c66c195e0dabb48b"}, "docker": "quay.io/biocontainers/r-structssi", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-structssi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-structssi", "latest": {"1.1.1--r42h3121a25_9": "sha256:8a3104d5e408707a6b72d3791d003916be97d6d1fd2a76971cf00ad5a3f52357"}, "tags": {"1.1.1--r41h3121a25_8": "sha256:abcd68b8982fc07a9a122df3224efcfdc1d084c361e1a189c66c195e0dabb48b", "1.1.1--r42h3121a25_9": "sha256:8a3104d5e408707a6b72d3791d003916be97d6d1fd2a76971cf00ad5a3f52357"}, "docker": "quay.io/biocontainers/r-structssi", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-structssi.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-structssi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-structssi:1.1.1--r41h3121a25_8
+$ shpc install quay.io/biocontainers/r-structssi:1.1.1--r42h3121a25_9
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-structssi/1.1.1--r41h3121a25_8
-$ module help quay.io/biocontainers/r-structssi/1.1.1--r41h3121a25_8
+$ module load quay.io/biocontainers/r-structssi/1.1.1--r42h3121a25_9
+$ module help quay.io/biocontainers/r-structssi/1.1.1--r42h3121a25_9
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
