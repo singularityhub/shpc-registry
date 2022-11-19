@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-confess
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-confess
 latest:
-  1.22.0--r41hdfd78af_0: sha256:ab1b2bec1787b8abe3a1d62559050a7e470cee5dc017729bcb12aba50a48c560
+  1.26.0--r42hdfd78af_0: sha256:48d25c214cb41d73788e38a3d4babe12e07c0fe74f54a3c18c96d1395ac8fdda
 tags:
   1.22.0--r41hdfd78af_0: sha256:ab1b2bec1787b8abe3a1d62559050a7e470cee5dc017729bcb12aba50a48c560
+  1.26.0--r42hdfd78af_0: sha256:48d25c214cb41d73788e38a3d4babe12e07c0fe74f54a3c18c96d1395ac8fdda
 docker: quay.io/biocontainers/bioconductor-confess
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

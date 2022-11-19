@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-samspectral
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-samspectral
 latest:
-  1.48.0--r41hc0cfd56_2: sha256:f4fd858ba58961ae7585211a5d11f2a1aa493d1252b41b73278de5011879ac35
+  1.52.0--r42hc0cfd56_0: sha256:77c76917c1eda0d8c273eee61291b6b668c0c03962e31a86c89e6dd0d3345069
 tags:
   1.48.0--r41hc0cfd56_2: sha256:f4fd858ba58961ae7585211a5d11f2a1aa493d1252b41b73278de5011879ac35
+  1.52.0--r42hc0cfd56_0: sha256:77c76917c1eda0d8c273eee61291b6b668c0c03962e31a86c89e6dd0d3345069
 docker: quay.io/biocontainers/bioconductor-samspectral

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pyslow5
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pyslow5
 latest:
-  0.7.0--py39h6471ffd_0: sha256:e898c7978c38db51683ec354a8723040cef681c64f6e1f852978963e09eb86e7
+  0.8.0--py310hdacdf33_0: sha256:0a6f5e20e390c6c44c5a43e0668e352d6b0a070be5481cbd9ac8a37c4452525d
 tags:
   0.7.0--py39h6471ffd_0: sha256:e898c7978c38db51683ec354a8723040cef681c64f6e1f852978963e09eb86e7
+  0.8.0--py310hdacdf33_0: sha256:0a6f5e20e390c6c44c5a43e0668e352d6b0a070be5481cbd9ac8a37c4452525d
 docker: quay.io/biocontainers/pyslow5
 aliases:
   x86_64-conda_cos7-linux-gnu-ld: /usr/local/bin/x86_64-conda_cos7-linux-gnu-ld

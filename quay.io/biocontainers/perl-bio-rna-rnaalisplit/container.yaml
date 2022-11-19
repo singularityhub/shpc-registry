@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/perl-bio-rna-rnaalisplit
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for perl-bio-rna-rnaalisplit
 latest:
-  v0.09--pl526_0: sha256:da30c3038969f787477ac7d57e02dbcefbf8f4db16e8f7555b9efb422f369425
+  0.11--pl5321hdfd78af_0: sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa
 tags:
   v0.09--pl526_0: sha256:da30c3038969f787477ac7d57e02dbcefbf8f4db16e8f7555b9efb422f369425
+  0.11--pl5321hdfd78af_0: sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa
 docker: quay.io/biocontainers/perl-bio-rna-rnaalisplit
 aliases:
   FUNCS.pm: /usr/local/bin/FUNCS.pm

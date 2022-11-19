@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-acidgenerics
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-acidgenerics
 latest:
-  0.6.0--r41hdfd78af_0: sha256:5aecd9de123be462df57a67f21f21e4120ae904213ec2257935a228f93cc982e
+  0.6.5--r42hdfd78af_0: sha256:eb404b2df7f957fe5ec4ae9b5a3a2c4df0fdd81e8688bac22425e62738a0b664
 tags:
   0.6.0--r41hdfd78af_0: sha256:5aecd9de123be462df57a67f21f21e4120ae904213ec2257935a228f93cc982e
+  0.6.5--r42hdfd78af_0: sha256:eb404b2df7f957fe5ec4ae9b5a3a2c4df0fdd81e8688bac22425e62738a0b664
 docker: quay.io/biocontainers/r-acidgenerics

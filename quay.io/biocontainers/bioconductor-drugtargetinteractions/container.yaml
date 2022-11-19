@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-drugtargetinteractions
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-drugtargetinteractions
 latest:
-  1.2.0--r41hdfd78af_0: sha256:f4a5fbcdf15387e7a12cbe49a425bba98057888b7b7efb1e9ebedc976f966bad
+  1.6.0--r42hdfd78af_0: sha256:a16b312c10d1d2ce4405d65b40aa7e1dc1f3a4b42b25a510f9022b95f9df44b4
 tags:
   1.2.0--r41hdfd78af_0: sha256:f4a5fbcdf15387e7a12cbe49a425bba98057888b7b7efb1e9ebedc976f966bad
+  1.6.0--r42hdfd78af_0: sha256:a16b312c10d1d2ce4405d65b40aa7e1dc1f3a4b42b25a510f9022b95f9df44b4
 docker: quay.io/biocontainers/bioconductor-drugtargetinteractions

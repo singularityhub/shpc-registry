@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-subcellbarcode
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-subcellbarcode
 latest:
-  1.8.0--r41hdfd78af_0: sha256:87d95b32a81f52a6c5bfe7e5524124d7f9721ea62995c498d34ea5b71070a129
+  1.14.0--r42hdfd78af_0: sha256:2cee52d8223da45f20e5f79871367eeae4358e7f76d3abc840bd9e39c6c0d558
 tags:
   1.8.0--r41hdfd78af_0: sha256:87d95b32a81f52a6c5bfe7e5524124d7f9721ea62995c498d34ea5b71070a129
+  1.14.0--r42hdfd78af_0: sha256:2cee52d8223da45f20e5f79871367eeae4358e7f76d3abc840bd9e39c6c0d558
+  1.10.0--r41hdfd78af_0: sha256:1a367fe71da58e50c3617b66ef7222b87832e1b65be3353ff23c3f4c32349fe3
 docker: quay.io/biocontainers/bioconductor-subcellbarcode
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

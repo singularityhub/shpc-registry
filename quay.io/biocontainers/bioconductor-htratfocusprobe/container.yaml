@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-htratfocusprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-htratfocusprobe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:296f6306b2aaf9ea0354d8a2182f1cb1d6ca24c02fb891bc1472224d55569be6
+  2.18.0--r42hdfd78af_10: sha256:e2f6da3a6f8e4f147ce8ad1e4eaaf4baace8a3bde7281bbbc5f34f79298c4fca
 tags:
   2.18.0--r41hdfd78af_9: sha256:296f6306b2aaf9ea0354d8a2182f1cb1d6ca24c02fb891bc1472224d55569be6
+  2.18.0--r42hdfd78af_10: sha256:e2f6da3a6f8e4f147ce8ad1e4eaaf4baace8a3bde7281bbbc5f34f79298c4fca
 docker: quay.io/biocontainers/bioconductor-htratfocusprobe
 aliases:
   .bioconductor-htratfocusprobe-post-link.sh: /usr/local/bin/.bioconductor-htratfocusprobe-post-link.sh
