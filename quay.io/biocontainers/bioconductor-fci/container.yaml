@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-fci
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fci
 latest:
-  1.24.0--r41hdfd78af_0: sha256:ee64602648e5f776c1fc3fa6ae1d9edbff922c985acc655f687d349cdc6824ca
+  1.28.0--r42hdfd78af_0: sha256:8d647e3207c0623e20d629c65bebd4047514063a4a8aee37b6c3608c97d62afb
 tags:
   1.24.0--r41hdfd78af_0: sha256:ee64602648e5f776c1fc3fa6ae1d9edbff922c985acc655f687d349cdc6824ca
+  1.28.0--r42hdfd78af_0: sha256:8d647e3207c0623e20d629c65bebd4047514063a4a8aee37b6c3608c97d62afb
 docker: quay.io/biocontainers/bioconductor-fci

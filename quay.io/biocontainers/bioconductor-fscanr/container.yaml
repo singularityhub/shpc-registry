@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-fscanr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-fscanr
 latest:
-  1.4.0--r41hdfd78af_0: sha256:c7ba85a2d37689acbeabbaeb2f8160ae7b89c7de5139255b0ee16778391589b9
+  1.8.0--r42hdfd78af_0: sha256:5252fe04429357d83f487a2941dc75dc4148d452546efae95088fc985958741a
 tags:
   1.4.0--r41hdfd78af_0: sha256:c7ba85a2d37689acbeabbaeb2f8160ae7b89c7de5139255b0ee16778391589b9
+  1.8.0--r42hdfd78af_0: sha256:5252fe04429357d83f487a2941dc75dc4148d452546efae95088fc985958741a
 docker: quay.io/biocontainers/bioconductor-fscanr

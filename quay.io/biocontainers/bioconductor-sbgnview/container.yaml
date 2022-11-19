@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sbgnview
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sbgnview
 latest:
-  1.8.0--r41hdfd78af_0: sha256:66bc6406f9e1b7e0790074fbced0152fc24e4436c3ce0d67faec628f807aa558
+  1.12.0--r42hdfd78af_0: sha256:dda30655aac932e18d01ca8e3684a42c31e00e416efa9b0290a0aff7313f33af
 tags:
   1.8.0--r41hdfd78af_0: sha256:66bc6406f9e1b7e0790074fbced0152fc24e4436c3ce0d67faec628f807aa558
+  1.12.0--r42hdfd78af_0: sha256:dda30655aac932e18d01ca8e3684a42c31e00e416efa9b0290a0aff7313f33af
 docker: quay.io/biocontainers/bioconductor-sbgnview

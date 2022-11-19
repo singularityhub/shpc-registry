@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/tetranscripts
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for tetranscripts
 latest:
-  2.2.1--pyh864c0ab_1: sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7
+  2.2.3--pyh7cba7a3_0: sha256:fefac55a3fff381c02507e76ea1689b32025c3b0c61a454f58e02a7dc31945c4
 tags:
   2.2.1--pyh864c0ab_1: sha256:bbe6f70f7f31dc3687d16ed1fad9f8b6e9415c805eb79db1bcc794361bc1a3e7
+  2.2.3--pyh7cba7a3_0: sha256:fefac55a3fff381c02507e76ea1689b32025c3b0c61a454f58e02a7dc31945c4
 docker: quay.io/biocontainers/tetranscripts
 aliases:
   TEcount: /usr/local/bin/TEcount

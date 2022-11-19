@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-lapmix
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-lapmix
 latest:
-  1.60.0--r41hdfd78af_0: sha256:61558a4ac427721937616ca5ea16402b5f3704ce329ce800042d64eb31600fdf
+  1.64.0--r42hdfd78af_0: sha256:6aebea2c50bd02f5b51e7a3bebd6e7e0663c9a07a5c858504f4586c538684c8c
 tags:
   1.60.0--r41hdfd78af_0: sha256:61558a4ac427721937616ca5ea16402b5f3704ce329ce800042d64eb31600fdf
+  1.64.0--r42hdfd78af_0: sha256:6aebea2c50bd02f5b51e7a3bebd6e7e0663c9a07a5c858504f4586c538684c8c
 docker: quay.io/biocontainers/bioconductor-lapmix

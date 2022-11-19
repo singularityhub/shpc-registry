@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/wg-blimp
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for wg-blimp
 latest:
-  0.9.9--pyh5e36f6f_0: sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475
+  0.10.0--pyh5e36f6f_0: sha256:719545752a557580f9931cbbf42ca19b17940d80342dde9c2c9565d52a267c4b
 tags:
   0.9.9--pyh5e36f6f_0: sha256:511443539165a79a647ae77ab960d57fe450f0e25b613d680c199bf8d4621475
+  0.10.0--pyh5e36f6f_0: sha256:719545752a557580f9931cbbf42ca19b17940d80342dde9c2c9565d52a267c4b
+  0.9.10--pyh5e36f6f_0: sha256:aa338997bb2a6d46fea5a95fa2e156e7983563730865ea2b9f37d58e73908404
 docker: quay.io/biocontainers/wg-blimp
 aliases:
   wg-blimp: /usr/local/bin/wg-blimp

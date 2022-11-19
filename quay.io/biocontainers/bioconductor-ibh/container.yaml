@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-ibh
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-ibh
 latest:
-  1.42.0--r41hdfd78af_0: sha256:97c0d38b3460c4bca7e37ae16dc0341c147ba0f73a35ebdacaac9ec41dc224cc
+  1.46.0--r42hdfd78af_0: sha256:f885ba8169608676fb0e0c37de7d2399f7890956fc26e50ef000dcf603fbd89b
 tags:
   1.42.0--r41hdfd78af_0: sha256:97c0d38b3460c4bca7e37ae16dc0341c147ba0f73a35ebdacaac9ec41dc224cc
+  1.46.0--r42hdfd78af_0: sha256:f885ba8169608676fb0e0c37de7d2399f7890956fc26e50ef000dcf603fbd89b
 docker: quay.io/biocontainers/bioconductor-ibh

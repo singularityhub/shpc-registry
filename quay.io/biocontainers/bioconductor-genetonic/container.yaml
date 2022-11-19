@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-genetonic
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-genetonic
 latest:
-  1.6.0--r41hdfd78af_0: sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1
+  2.2.0--r42hdfd78af_0: sha256:95f46aa8c3b0d27d2e5236b8015a5f0aa8f3278ba6b887a61be9791f1494f99f
 tags:
   1.6.0--r41hdfd78af_0: sha256:dd9a81d766efdd463f27556e40a5aa1a48c3adaacc2cacef3a87bce2b086bfd1
+  2.2.0--r42hdfd78af_0: sha256:95f46aa8c3b0d27d2e5236b8015a5f0aa8f3278ba6b887a61be9791f1494f99f
 docker: quay.io/biocontainers/bioconductor-genetonic
 aliases:
   fftw-wisdom: /usr/local/bin/fftw-wisdom

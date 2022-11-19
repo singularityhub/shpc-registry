@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-gpa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-gpa
 latest:
-  1.6.0--r41hc247a5b_2: sha256:cdd5031f63d7af6a1b60f12cc20973fe2f197f7777dbca669f3e669f28a59c8a
+  1.10.0--r42hc247a5b_0: sha256:fea64c512c3b1f5ac309ab0fd9244c7e9d9295a4233fd9515d183aa382fed242
 tags:
   1.6.0--r41hc247a5b_2: sha256:cdd5031f63d7af6a1b60f12cc20973fe2f197f7777dbca669f3e669f28a59c8a
+  1.10.0--r42hc247a5b_0: sha256:fea64c512c3b1f5ac309ab0fd9244c7e9d9295a4233fd9515d183aa382fed242
 docker: quay.io/biocontainers/bioconductor-gpa

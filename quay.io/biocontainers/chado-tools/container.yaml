@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/chado-tools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for chado-tools
 latest:
-  0.2.8--py_0: sha256:1d061eabf655fde26f2043d18f1274271252d8d67f1613db0ec7cd2fd122d9da
+  0.2.15--py_0: sha256:05ddf1c7f51f5b2f0f180e69766714b5d66178dd6f044be4dfab2306100b8983
 tags:
   0.2.8--py_0: sha256:1d061eabf655fde26f2043d18f1274271252d8d67f1613db0ec7cd2fd122d9da
+  0.2.15--py_0: sha256:05ddf1c7f51f5b2f0f180e69766714b5d66178dd6f044be4dfab2306100b8983
 docker: quay.io/biocontainers/chado-tools
 aliases:
   chado: /usr/local/bin/chado

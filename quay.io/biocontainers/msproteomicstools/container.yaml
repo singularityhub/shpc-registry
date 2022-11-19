@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/msproteomicstools
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for msproteomicstools
 latest:
-  0.8.0--py27h6d73bfa_1: sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1
+  0.11.0--py27h8b767f7_4: sha256:a2b1cf021fe37edbda0d69dd82670cfaede28201517cf36192e1eb32084a31ce
 tags:
   0.8.0--py27h6d73bfa_1: sha256:284aa6eb2165d8f92c4e0e6665b6983995bfb84a1c994b2466151f53895ec8f1
+  0.11.0--py27h8b767f7_4: sha256:a2b1cf021fe37edbda0d69dd82670cfaede28201517cf36192e1eb32084a31ce
 docker: quay.io/biocontainers/msproteomicstools
 aliases:
   AlignmentGUI.py: /usr/local/bin/AlignmentGUI.py

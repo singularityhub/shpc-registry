@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/r-immunedeconv
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-immunedeconv
 latest:
-  2.1.0--r41hdfd78af_0: sha256:adb586fa12a7ed29ab239b2f1ae4e6328de5d5eeb4ed30a1b9907a26f62fa3a9
+  2.1.0--r42hdfd78af_1: sha256:5be53611a4b1a3bb8d0ecfb60365f47817d1fec5a24605cae2f2635ebe2d993e
 tags:
   2.1.0--r41hdfd78af_0: sha256:adb586fa12a7ed29ab239b2f1ae4e6328de5d5eeb4ed30a1b9907a26f62fa3a9
+  2.1.0--r42hdfd78af_1: sha256:5be53611a4b1a3bb8d0ecfb60365f47817d1fec5a24605cae2f2635ebe2d993e
 docker: quay.io/biocontainers/r-immunedeconv
