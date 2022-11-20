@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-spqn
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-spqn
 latest:
-  1.6.0--r41hdfd78af_0: sha256:00c2d52ac7afaadc404fc6f9820f78b8627b50629476bd6d5cc70b8b3b5a064c
+  1.10.0--r42hdfd78af_0: sha256:3adfa190cb21e3e118f2cab3b92f91b01c875ca48f0e1dcbaf26a9683251607b
 tags:
   1.6.0--r41hdfd78af_0: sha256:00c2d52ac7afaadc404fc6f9820f78b8627b50629476bd6d5cc70b8b3b5a064c
+  1.10.0--r42hdfd78af_0: sha256:3adfa190cb21e3e118f2cab3b92f91b01c875ca48f0e1dcbaf26a9683251607b
 docker: quay.io/biocontainers/bioconductor-spqn

@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-impute
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-impute
 latest:
-  1.68.0--r41hefde4a7_2: sha256:12ed9015057c455610ded717c4608a1e931187d0f109bc19b2b6f72643f95fbf
+  1.72.0--r42hefde4a7_0: sha256:bd15f61cf31fe3db77e84b4c4ca914eeb9ff12ee89d9ea6f6763eb8103bdd7a1
 tags:
   1.68.0--r41hefde4a7_2: sha256:12ed9015057c455610ded717c4608a1e931187d0f109bc19b2b6f72643f95fbf
+  1.72.0--r42hefde4a7_0: sha256:bd15f61cf31fe3db77e84b4c4ca914eeb9ff12ee89d9ea6f6763eb8103bdd7a1
 docker: quay.io/biocontainers/bioconductor-impute

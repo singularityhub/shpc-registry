@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-exomecopy
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-exomecopy
 latest:
-  1.40.0--r41hc0cfd56_2: sha256:1ee29299606ec531c3cb60ac5e6fb99a81c003e81e514b6fd0a831587e45227d
+  1.44.0--r42hc0cfd56_0: sha256:17ec3e23146669e7bb29c338cf1c8817f0aadeb4e6ece9c1a74357a829402f21
 tags:
   1.40.0--r41hc0cfd56_2: sha256:1ee29299606ec531c3cb60ac5e6fb99a81c003e81e514b6fd0a831587e45227d
+  1.44.0--r42hc0cfd56_0: sha256:17ec3e23146669e7bb29c338cf1c8817f0aadeb4e6ece9c1a74357a829402f21
 docker: quay.io/biocontainers/bioconductor-exomecopy

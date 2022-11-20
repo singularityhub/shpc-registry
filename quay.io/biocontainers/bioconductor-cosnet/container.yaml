@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-cosnet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-cosnet
 latest:
-  1.28.0--r41hc0cfd56_2: sha256:0fc108595369f2deb733488ddf82fec0dbb25cfd001a112f8c6e0dff37492a44
+  1.32.0--r42hc0cfd56_0: sha256:5efe6bc543296dfd9c0ea82fe5c9fc0fe3161ddcba7d411a2720395681fdee86
 tags:
   1.28.0--r41hc0cfd56_2: sha256:0fc108595369f2deb733488ddf82fec0dbb25cfd001a112f8c6e0dff37492a44
+  1.32.0--r42hc0cfd56_0: sha256:5efe6bc543296dfd9c0ea82fe5c9fc0fe3161ddcba7d411a2720395681fdee86
 docker: quay.io/biocontainers/bioconductor-cosnet

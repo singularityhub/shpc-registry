@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-kissde
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-kissde
 latest:
-  1.8.0--r40_0: sha256:4adc7e6f7c32a7ca984a011dc1a98fecb1d9fb99047a5b8d6a2edc79f3ebe8e0
+  1.18.0--r42hdfd78af_0: sha256:ad2cb0d072125143b7c4b53a8e4850e0aed89da8e683c4603d8298e4145325ad
 tags:
   1.8.0--r40_0: sha256:4adc7e6f7c32a7ca984a011dc1a98fecb1d9fb99047a5b8d6a2edc79f3ebe8e0
+  1.18.0--r42hdfd78af_0: sha256:ad2cb0d072125143b7c4b53a8e4850e0aed89da8e683c4603d8298e4145325ad
+  1.14.0--r41hdfd78af_0: sha256:e4c678b8cb4fe6eced91acf2299112fd38577680ebf1ad441ecb09cafe86c0f2
+  1.12.0--r41hdfd78af_0: sha256:8920f4d44cb97b96333337b9a9f85204b4bbd1574f487b60911ab315136333dc
+  1.10.0--r40hdfd78af_1: sha256:20c669cb893fc446c833169d97cf6a66a1c14707aa1de6502894b7649ce7a85e
 docker: quay.io/biocontainers/bioconductor-kissde
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8

@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-rae230aprobe
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-rae230aprobe
 latest:
-  2.18.0--r41hdfd78af_9: sha256:1784247cf1725a4ea0cbe799f8030fcbde677d53eae0428ff62b80f05fe6eee5
+  2.18.0--r42hdfd78af_10: sha256:4dcddbd03af0e59613800c9c9efcf95303ea722b7c08d53ac31de1aa13f469be
 tags:
   2.18.0--r41hdfd78af_9: sha256:1784247cf1725a4ea0cbe799f8030fcbde677d53eae0428ff62b80f05fe6eee5
+  2.18.0--r42hdfd78af_10: sha256:4dcddbd03af0e59613800c9c9efcf95303ea722b7c08d53ac31de1aa13f469be
 docker: quay.io/biocontainers/bioconductor-rae230aprobe
 aliases:
   .bioconductor-rae230aprobe-post-link.sh: /usr/local/bin/.bioconductor-rae230aprobe-post-link.sh

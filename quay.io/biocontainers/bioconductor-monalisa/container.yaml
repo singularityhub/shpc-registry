@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-monalisa
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-monalisa
 latest:
-  1.0.0--r41hdfd78af_0: sha256:ac40a7ba6919070a3266847797fbfc1b84cdbc1f7829e71caffa3a0b3d7f4205
+  1.4.0--r42hdfd78af_0: sha256:eadc39c53e300efd3b40f9bbdb401c964da67458b4cf5d4f8278358c4c2c68f2
 tags:
   1.0.0--r41hdfd78af_0: sha256:ac40a7ba6919070a3266847797fbfc1b84cdbc1f7829e71caffa3a0b3d7f4205
+  1.4.0--r42hdfd78af_0: sha256:eadc39c53e300efd3b40f9bbdb401c964da67458b4cf5d4f8278358c4c2c68f2
 docker: quay.io/biocontainers/bioconductor-monalisa

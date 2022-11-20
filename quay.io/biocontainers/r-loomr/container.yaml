@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/r-loomr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for r-loomr
 latest:
-  0.2.0_beta--r41hdfd78af_3: sha256:23cb619943d10d6831894b77f296983607183e76e3cd17c0ca7d1eb137b296ab
+  0.2.0_beta--r42hdfd78af_4: sha256:52fee6d41e15ed9123eb069afd66043755a21e1bdeb5a9583cfaf518c96d79e4
 tags:
   0.2.0_beta--r41hdfd78af_3: sha256:23cb619943d10d6831894b77f296983607183e76e3cd17c0ca7d1eb137b296ab
+  0.2.0_beta--r42hdfd78af_4: sha256:52fee6d41e15ed9123eb069afd66043755a21e1bdeb5a9583cfaf518c96d79e4
 docker: quay.io/biocontainers/r-loomr
 aliases:
   h5clear: /usr/local/bin/h5clear

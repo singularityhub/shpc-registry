@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-sscore
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-sscore
 latest:
-  1.66.0--r41hdfd78af_0: sha256:a5c0ba44a8686ca75ea7c9591f6fd51f021ba5090234bba294f93abc50dccbf7
+  1.70.0--r42hdfd78af_0: sha256:7fe1d48fc2d54ba4d7c2a50c65ffb3751c18c7d737ff1123161431550a696f11
 tags:
   1.66.0--r41hdfd78af_0: sha256:a5c0ba44a8686ca75ea7c9591f6fd51f021ba5090234bba294f93abc50dccbf7
+  1.70.0--r42hdfd78af_0: sha256:7fe1d48fc2d54ba4d7c2a50c65ffb3751c18c7d737ff1123161431550a696f11
 docker: quay.io/biocontainers/bioconductor-sscore

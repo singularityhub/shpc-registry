@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-coexnet
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-coexnet
 latest:
-  1.9.0--r40_0: sha256:b8af8d50b7595802ef99d604cc6cf386291a0187ed61f9e45b26748af81cc1c7
+  1.19.1--r42hdfd78af_0: sha256:8dcb14bf5664707bc156b1e9dedc40ff7544144b36dfc1db2569efe7d280393b
 tags:
   1.9.0--r40_0: sha256:b8af8d50b7595802ef99d604cc6cf386291a0187ed61f9e45b26748af81cc1c7
+  1.19.1--r42hdfd78af_0: sha256:8dcb14bf5664707bc156b1e9dedc40ff7544144b36dfc1db2569efe7d280393b
+  1.15.0--r41hdfd78af_0: sha256:3b033b8e21389efcb48dc21d6d37cd6b752804b572df24bf89c9d1583e9e5ec4
+  1.14.0--r41hdfd78af_0: sha256:d7decdf0793dd622fb84086528f02ed41fa95d82e9b9fd0d3b4cff2b42f5c561
+  1.12.0--r40hdfd78af_1: sha256:92e2fd3dce89e83439375c2d4a637fc89129ae9460557ccfa4a2f9649427c21c
 docker: quay.io/biocontainers/bioconductor-coexnet
 aliases:
   pandoc-citeproc: /usr/local/bin/pandoc-citeproc

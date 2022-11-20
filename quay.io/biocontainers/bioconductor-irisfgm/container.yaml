@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-irisfgm
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-irisfgm
 latest:
-  1.2.0--r41hc247a5b_2: sha256:1d44c47aea396502ffdce092b7393207b8d746e2f4cc2c99f3583266082151b5
+  1.6.0--r42hc247a5b_0: sha256:28e6fff31dd67530a114fab66e280dba74b84a8afaa07a69beb84acf3036a6c3
 tags:
   1.2.0--r41hc247a5b_2: sha256:1d44c47aea396502ffdce092b7393207b8d746e2f4cc2c99f3583266082151b5
+  1.6.0--r42hc247a5b_0: sha256:28e6fff31dd67530a114fab66e280dba74b84a8afaa07a69beb84acf3036a6c3
 docker: quay.io/biocontainers/bioconductor-irisfgm
 aliases:
   geosop: /usr/local/bin/geosop

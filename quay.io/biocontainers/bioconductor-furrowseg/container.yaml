@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-furrowseg
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-furrowseg
 latest:
-  1.22.0--r41hdfd78af_1: sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744
+  1.25.0--r42hdfd78af_0: sha256:6ad77fb4a5979b8eb99f9e628e24c5a3e97beb271579ddffafa9e83a9e07fddd
 tags:
   1.22.0--r41hdfd78af_1: sha256:6dd18e795393b431862b95edc187f771519cbdac976372a401c3d6997afe3744
+  1.25.0--r42hdfd78af_0: sha256:6ad77fb4a5979b8eb99f9e628e24c5a3e97beb271579ddffafa9e83a9e07fddd
 docker: quay.io/biocontainers/bioconductor-furrowseg
 aliases:
   .bioconductor-furrowseg-post-link.sh: /usr/local/bin/.bioconductor-furrowseg-post-link.sh
