@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-bodymaprat
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-bodymaprat
 latest:
-  1.8.0--r41hdfd78af_0: sha256:cbb2f7b43b236016763c592cb69fed230499b0d3d6332ebfc0f55d2778fa0f04
+  1.14.0--r42hdfd78af_0: sha256:3f4cf9bc86a6b185d62ecfcc6fa77caf76d0908e507b27b4fc8ee048a7b35beb
 tags:
   1.8.0--r41hdfd78af_0: sha256:cbb2f7b43b236016763c592cb69fed230499b0d3d6332ebfc0f55d2778fa0f04
+  1.14.0--r42hdfd78af_0: sha256:3f4cf9bc86a6b185d62ecfcc6fa77caf76d0908e507b27b4fc8ee048a7b35beb
+  1.10.0--r41hdfd78af_1: sha256:f80413521129380d75e81ef28e526dbaf35981c4800e7db9167e996cabe6304f
 docker: quay.io/biocontainers/bioconductor-bodymaprat
 aliases:
   .bioconductor-bodymaprat-post-link.sh: /usr/local/bin/.bioconductor-bodymaprat-post-link.sh

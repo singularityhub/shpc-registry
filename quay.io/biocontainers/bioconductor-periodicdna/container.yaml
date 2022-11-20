@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-periodicdna
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-periodicdna
 latest:
-  1.4.0--r41hdfd78af_0: sha256:d5fc613ea0e8bbb7841e5c28428f7d5d03a479d073ed810887115530119e00e7
+  1.8.0--r42hdfd78af_0: sha256:99aa4b0433563bee10b5b79390976ed5d47c1e9347dd636e8c27443ccaa28238
 tags:
   1.4.0--r41hdfd78af_0: sha256:d5fc613ea0e8bbb7841e5c28428f7d5d03a479d073ed810887115530119e00e7
+  1.8.0--r42hdfd78af_0: sha256:99aa4b0433563bee10b5b79390976ed5d47c1e9347dd636e8c27443ccaa28238
 docker: quay.io/biocontainers/bioconductor-periodicdna

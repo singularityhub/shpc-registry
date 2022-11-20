@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-iaseq
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-iaseq
 latest:
-  1.38.0--r41hdfd78af_0: sha256:4e7e7d16ff9e33c5d596396dcacbeed82608cf3ba7d711678d74105ac749e2e6
+  1.42.0--r42hdfd78af_0: sha256:4f790d78d90f0ca85345ded26a7e6dd9f5477eee5ca5bc52ed2baa7f8309a705
 tags:
   1.38.0--r41hdfd78af_0: sha256:4e7e7d16ff9e33c5d596396dcacbeed82608cf3ba7d711678d74105ac749e2e6
+  1.42.0--r42hdfd78af_0: sha256:4f790d78d90f0ca85345ded26a7e6dd9f5477eee5ca5bc52ed2baa7f8309a705
 docker: quay.io/biocontainers/bioconductor-iaseq

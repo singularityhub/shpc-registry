@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/pm4ngs
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for pm4ngs
 latest:
-  0.0.9--pyhdfd78af_0: sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1
+  0.0.21--pyhdfd78af_0: sha256:465239c61f4b0249a67062fe075d8943c6f598b62505667e541e6f72fa253fc5
 tags:
   0.0.9--pyhdfd78af_0: sha256:8cc50f6f2bf525f2765f3546d311a1fff1b0009972a9ef0bb951bc8eaecc08e1
+  0.0.21--pyhdfd78af_0: sha256:465239c61f4b0249a67062fe075d8943c6f598b62505667e541e6f72fa253fc5
 docker: quay.io/biocontainers/pm4ngs
 aliases:
   bagit.py: /usr/local/bin/bagit.py

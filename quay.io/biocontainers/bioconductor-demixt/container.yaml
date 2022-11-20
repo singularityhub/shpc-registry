@@ -2,9 +2,11 @@ url: https://biocontainers.pro/tools/bioconductor-demixt
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-demixt
 latest:
-  1.8.0--r41h399db7b_0: sha256:7053c195625e35fb9271587a830bf6512827379f85641d5dc6ae3d531940a0b2
+  1.14.0--r42hc247a5b_0: sha256:0a1a2b9e8d6d34bd0e23cd7887c7820801f307b2e7190554fd1c02b54935c4ab
 tags:
   1.8.0--r41h399db7b_0: sha256:7053c195625e35fb9271587a830bf6512827379f85641d5dc6ae3d531940a0b2
+  1.14.0--r42hc247a5b_0: sha256:0a1a2b9e8d6d34bd0e23cd7887c7820801f307b2e7190554fd1c02b54935c4ab
+  1.10.0--r41hc247a5b_2: sha256:6075a01d0574669ba1f386992d7a844ac4a6788e119369188f32b6d95192ed3d
 docker: quay.io/biocontainers/bioconductor-demixt
 aliases:
   x86_64-conda-linux-gnu-gfortran.bin: /usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin

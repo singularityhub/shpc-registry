@@ -2,9 +2,10 @@ url: https://biocontainers.pro/tools/bioconductor-dyebiasexamples
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-dyebiasexamples
 latest:
-  1.34.0--r41hdfd78af_1: sha256:43202517e6a299942e2f16e27b56b661423224676fe8d0573ea1553fa126f7bf
+  1.38.0--r42hdfd78af_0: sha256:dd8a63e0299dc1b749caa6492046c50048169b970cd6a649391cb2e2d5937405
 tags:
   1.34.0--r41hdfd78af_1: sha256:43202517e6a299942e2f16e27b56b661423224676fe8d0573ea1553fa126f7bf
+  1.38.0--r42hdfd78af_0: sha256:dd8a63e0299dc1b749caa6492046c50048169b970cd6a649391cb2e2d5937405
 docker: quay.io/biocontainers/bioconductor-dyebiasexamples
 aliases:
   .bioconductor-dyebiasexamples-post-link.sh: /usr/local/bin/.bioconductor-dyebiasexamples-post-link.sh

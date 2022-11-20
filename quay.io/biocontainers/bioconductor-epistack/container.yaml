@@ -2,7 +2,8 @@ url: https://biocontainers.pro/tools/bioconductor-epistack
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-epistack
 latest:
-  1.0.0--r41hdfd78af_0: sha256:b64a53fd2a85db0d6077e27c716921c5728ea473b13b2d3f0761db49a26ae2db
+  1.4.0--r42hdfd78af_0: sha256:e40241854112b6238f66d7c99386f27660922057f10b101503ff050407193023
 tags:
   1.0.0--r41hdfd78af_0: sha256:b64a53fd2a85db0d6077e27c716921c5728ea473b13b2d3f0761db49a26ae2db
+  1.4.0--r42hdfd78af_0: sha256:e40241854112b6238f66d7c99386f27660922057f10b101503ff050407193023
 docker: quay.io/biocontainers/bioconductor-epistack

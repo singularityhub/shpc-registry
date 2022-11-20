@@ -2,9 +2,13 @@ url: https://biocontainers.pro/tools/bioconductor-powertcr
 maintainer: '@vsoch'
 description: shpc-registry automated BioContainers addition for bioconductor-powertcr
 latest:
-  1.8.0--r40_0: sha256:2bbd5185946b4ad6c3f45dc3f54c67dc247653d3c612efe0b64aa5633e7d94e4
+  1.18.0--r42hdfd78af_0: sha256:935bb556ca13b684f2177415399741d59628e8d1067b1263275e1a453ea0116b
 tags:
   1.8.0--r40_0: sha256:2bbd5185946b4ad6c3f45dc3f54c67dc247653d3c612efe0b64aa5633e7d94e4
+  1.18.0--r42hdfd78af_0: sha256:935bb556ca13b684f2177415399741d59628e8d1067b1263275e1a453ea0116b
+  1.14.0--r41hdfd78af_0: sha256:974fcad928069289b89a809d4aab8c9e9cad8083a32233d3271543f784cbe3dd
+  1.12.0--r41hdfd78af_0: sha256:cfe75392cd2e74d830be05729588a47bda318f6f7f1517ad067ce5c72e7a6c10
+  1.10.3--r40hdfd78af_0: sha256:cfc4f1cc1340b76869947fa8232f338cd6ea11f400291d00c9cfa5c642fb0ae6
 docker: quay.io/biocontainers/bioconductor-powertcr
 aliases:
   2to3-3.8: /usr/local/bin/2to3-3.8
