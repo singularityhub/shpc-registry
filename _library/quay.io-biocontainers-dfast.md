@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/dfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dfast/container.yaml"
-updated_at: "2022-11-19 02:32:52.082256"
-latest: "1.2.7--h8b12597_0"
+updated_at: "2022-11-20 00:54:59.713706"
+latest: "1.2.18--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/dfast"
 aliases:
  - ".dfast-pre-unlink.sh"
@@ -26,8 +26,9 @@ aliases:
  - "nettle-hash"
 versions:
  - "1.2.7--h8b12597_0"
+ - "1.2.18--h5b5514e_1"
 description: "shpc-registry automated BioContainers addition for dfast"
-config: {"url": "https://biocontainers.pro/tools/dfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dfast", "latest": {"1.2.7--h8b12597_0": "sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7"}, "tags": {"1.2.7--h8b12597_0": "sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7"}, "docker": "quay.io/biocontainers/dfast", "aliases": {".dfast-pre-unlink.sh": "/usr/local/bin/.dfast-pre-unlink.sh", "dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "aragorn": "/usr/local/bin/aragorn", "barrnap": "/usr/local/bin/barrnap", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash"}}
+config: {"url": "https://biocontainers.pro/tools/dfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for dfast", "latest": {"1.2.18--h5b5514e_1": "sha256:c512c2f4c061493ee88a467c17e93817f8a36ab42c7c0ae1fe2280285716b2e7"}, "tags": {"1.2.7--h8b12597_0": "sha256:0359598d2542ec3b6fc6718e3524190d7ddfcec81e6a72097e29ebb4a2540bc7", "1.2.18--h5b5514e_1": "sha256:c512c2f4c061493ee88a467c17e93817f8a36ab42c7c0ae1fe2280285716b2e7"}, "docker": "quay.io/biocontainers/dfast", "aliases": {".dfast-pre-unlink.sh": "/usr/local/bin/.dfast-pre-unlink.sh", "dfast": "/usr/local/bin/dfast", "dfast_file_downloader.py": "/usr/local/bin/dfast_file_downloader.py", "file_downloader.py": "/usr/local/bin/file_downloader.py", "ghostx": "/usr/local/bin/ghostx", "mga": "/usr/local/bin/mga", "blast_report": "/usr/local/bin/blast_report", "blastdb_convert": "/usr/local/bin/blastdb_convert", "blastdb_path": "/usr/local/bin/blastdb_path", "aragorn": "/usr/local/bin/aragorn", "barrnap": "/usr/local/bin/barrnap", "certtool": "/usr/local/bin/certtool", "gnutls-cli": "/usr/local/bin/gnutls-cli", "gnutls-cli-debug": "/usr/local/bin/gnutls-cli-debug", "gnutls-serv": "/usr/local/bin/gnutls-serv", "nettle-hash": "/usr/local/bin/nettle-hash"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/dfast.
@@ -42,7 +43,7 @@ $ shpc install quay.io/biocontainers/dfast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/dfast:1.2.7--h8b12597_0
+$ shpc install quay.io/biocontainers/dfast:1.2.18--h5b5514e_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -54,8 +55,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/dfast/1.2.7--h8b12597_0
-$ module help quay.io/biocontainers/dfast/1.2.7--h8b12597_0
+$ module load quay.io/biocontainers/dfast/1.2.18--h5b5514e_1
+$ module help quay.io/biocontainers/dfast/1.2.18--h5b5514e_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

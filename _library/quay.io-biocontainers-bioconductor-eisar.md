@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-eisar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-eisar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-eisar/container.yaml"
-updated_at: "2022-11-19 02:38:32.648008"
-latest: "1.6.0--r41hdfd78af_0"
+updated_at: "2022-11-20 01:02:40.250486"
+latest: "1.10.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-eisar"
 
 versions:
  - "1.6.0--r41hdfd78af_0"
+ - "1.10.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-eisar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-eisar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eisar", "latest": {"1.6.0--r41hdfd78af_0": "sha256:cbb7a248c07968cd66daac9a8d4d4055ebfd88e0e8dd9fe1dd5ddd8061098e87"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cbb7a248c07968cd66daac9a8d4d4055ebfd88e0e8dd9fe1dd5ddd8061098e87"}, "docker": "quay.io/biocontainers/bioconductor-eisar"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-eisar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-eisar", "latest": {"1.10.0--r42hdfd78af_0": "sha256:a58ee16573ee091bd2f722a2af2ba7b2e9a049b3469b1c38f93cc012eeae7058"}, "tags": {"1.6.0--r41hdfd78af_0": "sha256:cbb7a248c07968cd66daac9a8d4d4055ebfd88e0e8dd9fe1dd5ddd8061098e87", "1.10.0--r42hdfd78af_0": "sha256:a58ee16573ee091bd2f722a2af2ba7b2e9a049b3469b1c38f93cc012eeae7058"}, "docker": "quay.io/biocontainers/bioconductor-eisar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-eisar.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-eisar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-eisar:1.6.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-eisar:1.10.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-eisar/1.6.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-eisar/1.6.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-eisar/1.10.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-eisar/1.10.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

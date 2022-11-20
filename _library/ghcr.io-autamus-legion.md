@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/legion"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/legion/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/legion/container.yaml"
-updated_at: "2022-11-19 02:46:22.995769"
+updated_at: "2022-11-20 01:13:21.518529"
 latest: "21.03.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/legion"
 aliases:
@@ -15,7 +15,7 @@ versions:
  - "21.03.0"
  - "latest"
 description: "Legion is a data-centric parallel programming system for writing portable high performance programs targeted at distributed heterogeneous architectures."
-config: {"docker": "ghcr.io/autamus/legion", "url": "https://github.com/orgs/autamus/packages/container/package/legion", "maintainer": "@vsoch", "description": "Legion is a data-centric parallel programming system for writing portable high performance programs targeted at distributed heterogeneous architectures.", "latest": {"21.03.0": "sha256:4eee30a0a952bdb090b263bd0aec6447d86954436e3a0f4903b16eaf3da33cba"}, "tags": {"21.03.0": "sha256:4eee30a0a952bdb090b263bd0aec6447d86954436e3a0f4903b16eaf3da33cba", "latest": "sha256:4eee30a0a952bdb090b263bd0aec6447d86954436e3a0f4903b16eaf3da33cba"}, "aliases": {"legion_prof.py": "/opt/view/bin/legion_prof.py", "legion_serializer.py": "/opt/view/bin/legion_serializer.py", "legion_spy.py": "/opt/view/bin/legion_spy.py"}}
+config: {"docker": "ghcr.io/autamus/legion", "url": "https://github.com/orgs/autamus/packages/container/package/legion", "maintainer": "@vsoch", "description": "Legion is a data-centric parallel programming system for writing portable high performance programs targeted at distributed heterogeneous architectures.", "latest": {"21.03.0": "sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c"}, "tags": {"21.03.0": "sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c", "latest": "sha256:86251e961b1c9a01954bbfd123c7e69a4cf8a70014f586beac9365ca9e4a3e1c"}, "aliases": {"legion_prof.py": "/opt/view/bin/legion_prof.py", "legion_serializer.py": "/opt/view/bin/legion_serializer.py", "legion_spy.py": "/opt/view/bin/legion_spy.py"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/legion.

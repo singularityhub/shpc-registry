@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-maanova"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-maanova/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-maanova/container.yaml"
-updated_at: "2022-11-19 02:24:53.004296"
+updated_at: "2022-11-20 00:44:02.470390"
 latest: "1.64.0--r41hc0cfd56_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-maanova"
 

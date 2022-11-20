@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-metahdep"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metahdep/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metahdep/container.yaml"
-updated_at: "2022-11-19 02:14:02.408658"
-latest: "1.52.0--r41hc0cfd56_2"
+updated_at: "2022-11-20 00:29:11.391687"
+latest: "1.56.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-metahdep"
 
 versions:
  - "1.52.0--r41hc0cfd56_2"
+ - "1.56.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-metahdep"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-metahdep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metahdep", "latest": {"1.52.0--r41hc0cfd56_2": "sha256:7a582dda6071d6128d6a772acb70b9b34927477b924d75a824b38d82e84e4ad6"}, "tags": {"1.52.0--r41hc0cfd56_2": "sha256:7a582dda6071d6128d6a772acb70b9b34927477b924d75a824b38d82e84e4ad6"}, "docker": "quay.io/biocontainers/bioconductor-metahdep"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-metahdep", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-metahdep", "latest": {"1.56.0--r42hc0cfd56_0": "sha256:e5ba4efb5e29b24e0f31b47b1853af3b6b735a43e867ceb376871c58d7c74d57"}, "tags": {"1.52.0--r41hc0cfd56_2": "sha256:7a582dda6071d6128d6a772acb70b9b34927477b924d75a824b38d82e84e4ad6", "1.56.0--r42hc0cfd56_0": "sha256:e5ba4efb5e29b24e0f31b47b1853af3b6b735a43e867ceb376871c58d7c74d57"}, "docker": "quay.io/biocontainers/bioconductor-metahdep"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-metahdep.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-metahdep
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-metahdep:1.52.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-metahdep:1.56.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-metahdep/1.52.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-metahdep/1.52.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-metahdep/1.56.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-metahdep/1.56.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

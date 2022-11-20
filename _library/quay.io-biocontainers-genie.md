@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/genie"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/genie/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/genie/container.yaml"
-updated_at: "2022-11-19 02:36:03.916608"
+updated_at: "2022-11-20 00:59:17.579372"
 latest: "0.7.0--h375a9b1_0"
 container_url: "https://biocontainers.pro/tools/genie"
 aliases:

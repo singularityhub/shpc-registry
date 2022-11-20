@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-netresponse"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-netresponse/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-netresponse/container.yaml"
-updated_at: "2022-11-19 02:30:36.961132"
-latest: "1.54.0--r41hc0cfd56_2"
+updated_at: "2022-11-20 00:51:57.426351"
+latest: "1.58.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-netresponse"
 aliases:
  - "pandoc-server"
@@ -13,8 +13,9 @@ aliases:
  - "pandoc"
 versions:
  - "1.54.0--r41hc0cfd56_2"
+ - "1.58.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-netresponse"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-netresponse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netresponse", "latest": {"1.54.0--r41hc0cfd56_2": "sha256:bf4efbf2697e6dad1d7f1d263d14fae9dbd374f96369867fef1840962d2e3f20"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:bf4efbf2697e6dad1d7f1d263d14fae9dbd374f96369867fef1840962d2e3f20"}, "docker": "quay.io/biocontainers/bioconductor-netresponse", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-netresponse", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-netresponse", "latest": {"1.58.0--r42hc0cfd56_0": "sha256:97264e6f2101467af00754e6f4d231b7bceb8d56035063e66e83360cda199424"}, "tags": {"1.54.0--r41hc0cfd56_2": "sha256:bf4efbf2697e6dad1d7f1d263d14fae9dbd374f96369867fef1840962d2e3f20", "1.58.0--r42hc0cfd56_0": "sha256:97264e6f2101467af00754e6f4d231b7bceb8d56035063e66e83360cda199424"}, "docker": "quay.io/biocontainers/bioconductor-netresponse", "aliases": {"pandoc-server": "/usr/local/bin/pandoc-server", "glpsol": "/usr/local/bin/glpsol", "pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-netresponse.
@@ -29,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-netresponse
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-netresponse:1.54.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-netresponse:1.58.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-netresponse/1.54.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-netresponse/1.54.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-netresponse/1.58.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-netresponse/1.58.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

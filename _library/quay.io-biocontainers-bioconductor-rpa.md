@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rpa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rpa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rpa/container.yaml"
-updated_at: "2022-11-19 02:37:37.692109"
+updated_at: "2022-11-20 01:01:25.622618"
 latest: "1.50.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rpa"
 aliases:

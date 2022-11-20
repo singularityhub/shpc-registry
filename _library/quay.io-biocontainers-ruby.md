@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ruby"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ruby/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ruby/container.yaml"
-updated_at: "2022-11-19 02:31:16.646404"
+updated_at: "2022-11-20 00:52:51.445600"
 latest: "2.2.3--1"
 container_url: "https://biocontainers.pro/tools/ruby"
 

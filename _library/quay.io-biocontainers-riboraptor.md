@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/riboraptor"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/riboraptor/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/riboraptor/container.yaml"
-updated_at: "2022-11-19 02:17:51.209972"
+updated_at: "2022-11-20 00:34:23.590135"
 latest: "0.2.2--py_2"
 container_url: "https://biocontainers.pro/tools/riboraptor"
 

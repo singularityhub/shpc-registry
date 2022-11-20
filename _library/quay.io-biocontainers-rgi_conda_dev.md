@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rgi_conda_dev"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgi_conda_dev/container.yaml"
-updated_at: "2022-11-19 01:49:07.015654"
+updated_at: "2022-11-19 23:54:55.330346"
 latest: "3.1.2--py27_1"
 container_url: "https://biocontainers.pro/tools/rgi_conda_dev"
 aliases:

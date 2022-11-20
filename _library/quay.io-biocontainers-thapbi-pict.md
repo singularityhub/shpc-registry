@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/thapbi-pict"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/thapbi-pict/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/thapbi-pict/container.yaml"
-updated_at: "2022-11-19 02:02:32.218792"
-latest: "0.6.9--py_0"
+updated_at: "2022-11-20 00:13:16.190418"
+latest: "0.6.14--py_0"
 container_url: "https://biocontainers.pro/tools/thapbi-pict"
 aliases:
  - "amplicon_contingency_table.py"
@@ -24,8 +24,9 @@ aliases:
  - "fetch-extras"
 versions:
  - "0.6.9--py_0"
+ - "0.6.14--py_0"
 description: "shpc-registry automated BioContainers addition for thapbi-pict"
-config: {"url": "https://biocontainers.pro/tools/thapbi-pict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thapbi-pict", "latest": {"0.6.9--py_0": "sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3"}, "tags": {"0.6.9--py_0": "sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3"}, "docker": "quay.io/biocontainers/thapbi-pict", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "thapbi_pict": "/usr/local/bin/thapbi_pict", "flash": "/usr/local/bin/flash", "igraph": "/usr/local/bin/igraph", "cutadapt": "/usr/local/bin/cutadapt", "vba_extract.py": "/usr/local/bin/vba_extract.py", "trimmomatic": "/usr/local/bin/trimmomatic", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "fetch-extras": "/usr/local/bin/fetch-extras"}}
+config: {"url": "https://biocontainers.pro/tools/thapbi-pict", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for thapbi-pict", "latest": {"0.6.14--py_0": "sha256:6131cfe22d21355f9a7d1ae5540e6bafdd78d4cfbea1f5537c7c22f367fe9336"}, "tags": {"0.6.9--py_0": "sha256:3e121a42248380dea6324a085d0058c246a3b81622463da45e63f255716a6ff3", "0.6.14--py_0": "sha256:6131cfe22d21355f9a7d1ae5540e6bafdd78d4cfbea1f5537c7c22f367fe9336"}, "docker": "quay.io/biocontainers/thapbi-pict", "aliases": {"amplicon_contingency_table.py": "/usr/local/bin/amplicon_contingency_table.py", "graph_plot.py": "/usr/local/bin/graph_plot.py", "swarm": "/usr/local/bin/swarm", "thapbi_pict": "/usr/local/bin/thapbi_pict", "flash": "/usr/local/bin/flash", "igraph": "/usr/local/bin/igraph", "cutadapt": "/usr/local/bin/cutadapt", "vba_extract.py": "/usr/local/bin/vba_extract.py", "trimmomatic": "/usr/local/bin/trimmomatic", "cxpm": "/usr/local/bin/cxpm", "sxpm": "/usr/local/bin/sxpm", "pigz": "/usr/local/bin/pigz", "unpigz": "/usr/local/bin/unpigz", "fetch-extras": "/usr/local/bin/fetch-extras"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/thapbi-pict.
@@ -40,7 +41,7 @@ $ shpc install quay.io/biocontainers/thapbi-pict
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/thapbi-pict:0.6.9--py_0
+$ shpc install quay.io/biocontainers/thapbi-pict:0.6.14--py_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -52,8 +53,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/thapbi-pict/0.6.9--py_0
-$ module help quay.io/biocontainers/thapbi-pict/0.6.9--py_0
+$ module load quay.io/biocontainers/thapbi-pict/0.6.14--py_0
+$ module help quay.io/biocontainers/thapbi-pict/0.6.14--py_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bitmapperbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bitmapperbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bitmapperbs/container.yaml"
-updated_at: "2022-11-19 02:26:42.959911"
+updated_at: "2022-11-20 00:46:35.269081"
 latest: "1.0.2.3--h468198e_4"
 container_url: "https://biocontainers.pro/tools/bitmapperbs"
 aliases:

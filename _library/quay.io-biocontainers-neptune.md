@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/neptune"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/neptune/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/neptune/container.yaml"
-updated_at: "2022-11-19 02:31:23.389230"
+updated_at: "2022-11-20 00:53:00.358871"
 latest: "1.2.5--py_3"
 container_url: "https://biocontainers.pro/tools/neptune"
 aliases:

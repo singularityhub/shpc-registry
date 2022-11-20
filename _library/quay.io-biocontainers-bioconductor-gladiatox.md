@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gladiatox"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gladiatox/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gladiatox/container.yaml"
-updated_at: "2022-11-19 02:44:18.832784"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-20 01:10:27.827455"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gladiatox"
 aliases:
  - "my_print_defaults"
@@ -14,8 +14,10 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gladiatox"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gladiatox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gladiatox", "latest": {"1.8.0--r41hdfd78af_0": "sha256:b7abca5b33056c55c7a638f4ba09bb0612a6e741c078fe566ea8740cb4260573"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b7abca5b33056c55c7a638f4ba09bb0612a6e741c078fe566ea8740cb4260573"}, "docker": "quay.io/biocontainers/bioconductor-gladiatox", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gladiatox", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gladiatox", "latest": {"1.14.0--r42hdfd78af_0": "sha256:8df98944676a8741107e14b4837282bfb5caec90a428edce9c26551163aa190a"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b7abca5b33056c55c7a638f4ba09bb0612a6e741c078fe566ea8740cb4260573", "1.14.0--r42hdfd78af_0": "sha256:8df98944676a8741107e14b4837282bfb5caec90a428edce9c26551163aa190a", "1.10.0--r41hdfd78af_0": "sha256:6ab9c7747bdceb46d8f65e43cf9f43b5033519dc1cc461f4620b1ee319f96821"}, "docker": "quay.io/biocontainers/bioconductor-gladiatox", "aliases": {"my_print_defaults": "/usr/local/bin/my_print_defaults", "mysql_config": "/usr/local/bin/mysql_config", "perror": "/usr/local/bin/perror", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gladiatox.
@@ -30,7 +32,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gladiatox
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gladiatox:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gladiatox:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -42,8 +44,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gladiatox/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gladiatox/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gladiatox/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gladiatox/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

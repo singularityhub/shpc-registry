@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-rapidr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rapidr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rapidr/container.yaml"
-updated_at: "2022-11-19 02:40:00.625681"
-latest: "0.1.1--r41h3121a25_7"
+updated_at: "2022-11-20 01:04:36.305196"
+latest: "0.1.1--r42h3121a25_8"
 container_url: "https://biocontainers.pro/tools/r-rapidr"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "0.1.1--r41h3121a25_7"
+ - "0.1.1--r42h3121a25_8"
 description: "shpc-registry automated BioContainers addition for r-rapidr"
-config: {"url": "https://biocontainers.pro/tools/r-rapidr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rapidr", "latest": {"0.1.1--r41h3121a25_7": "sha256:fa874f319efedb270427fae1188208601ecd5730d5ba7ecf9336b587336a6a7b"}, "tags": {"0.1.1--r41h3121a25_7": "sha256:fa874f319efedb270427fae1188208601ecd5730d5ba7ecf9336b587336a6a7b"}, "docker": "quay.io/biocontainers/r-rapidr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-rapidr", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rapidr", "latest": {"0.1.1--r42h3121a25_8": "sha256:15a6fd6c7bfcf3d1f7b908880962c5be8212bd94a21a14591e02494f18e6af6c"}, "tags": {"0.1.1--r41h3121a25_7": "sha256:fa874f319efedb270427fae1188208601ecd5730d5ba7ecf9336b587336a6a7b", "0.1.1--r42h3121a25_8": "sha256:15a6fd6c7bfcf3d1f7b908880962c5be8212bd94a21a14591e02494f18e6af6c"}, "docker": "quay.io/biocontainers/r-rapidr", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rapidr.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-rapidr
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-rapidr:0.1.1--r41h3121a25_7
+$ shpc install quay.io/biocontainers/r-rapidr:0.1.1--r42h3121a25_8
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-rapidr/0.1.1--r41h3121a25_7
-$ module help quay.io/biocontainers/r-rapidr/0.1.1--r41h3121a25_7
+$ module load quay.io/biocontainers/r-rapidr/0.1.1--r42h3121a25_8
+$ module help quay.io/biocontainers/r-rapidr/0.1.1--r42h3121a25_8
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

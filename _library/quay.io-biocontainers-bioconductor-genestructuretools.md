@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-genestructuretools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-genestructuretools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-genestructuretools/container.yaml"
-updated_at: "2022-11-19 02:26:05.004464"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-20 00:45:42.358480"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-genestructuretools"
 aliases:
  - "2to3-3.8"
@@ -18,8 +18,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-genestructuretools"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-genestructuretools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genestructuretools", "latest": {"1.8.0--r40_0": "sha256:6667cd7b4df5fb4b4e0fbe5d9e38c11a27069fff76b2914759dde5b5ee6c10ca"}, "tags": {"1.8.0--r40_0": "sha256:6667cd7b4df5fb4b4e0fbe5d9e38c11a27069fff76b2914759dde5b5ee6c10ca"}, "docker": "quay.io/biocontainers/bioconductor-genestructuretools", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-genestructuretools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-genestructuretools", "latest": {"1.18.0--r42hdfd78af_0": "sha256:4ae729c2bc026433efa14a4c0b16fb68f20b92275c52fd448057100a1c62289b"}, "tags": {"1.8.0--r40_0": "sha256:6667cd7b4df5fb4b4e0fbe5d9e38c11a27069fff76b2914759dde5b5ee6c10ca", "1.18.0--r42hdfd78af_0": "sha256:4ae729c2bc026433efa14a4c0b16fb68f20b92275c52fd448057100a1c62289b", "1.14.0--r41hdfd78af_0": "sha256:fae6bd3b0dd100195bb2187b2fbf27b5fac9487a76d34fb247a346943367677b", "1.12.0--r41hdfd78af_0": "sha256:60be846aa79a3f05be95af15fbe56d941b63fdcca0d7a0506831384cc42ba1bd", "1.10.0--r40hdfd78af_1": "sha256:532b536e62800ea35403c226d332f43c12b03e8903b87e1b307843cd8d4e1056"}, "docker": "quay.io/biocontainers/bioconductor-genestructuretools", "aliases": {"2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-genestructuretools.
@@ -34,7 +38,7 @@ $ shpc install quay.io/biocontainers/bioconductor-genestructuretools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-genestructuretools:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-genestructuretools:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -46,8 +50,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-genestructuretools/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-genestructuretools/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-genestructuretools/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-genestructuretools/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-polyester"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-polyester/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-polyester/container.yaml"
-updated_at: "2022-11-19 02:23:26.614424"
-latest: "1.30.0--r41hdfd78af_0"
+updated_at: "2022-11-20 00:42:03.536129"
+latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-polyester"
 
 versions:
  - "1.30.0--r41hdfd78af_0"
+ - "1.34.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-polyester"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-polyester", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-polyester", "latest": {"1.30.0--r41hdfd78af_0": "sha256:1680fe0290d01b1c9b26ab26792625dd4780e9d0e7c62762d0858dc20617ce0c"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:1680fe0290d01b1c9b26ab26792625dd4780e9d0e7c62762d0858dc20617ce0c"}, "docker": "quay.io/biocontainers/bioconductor-polyester"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-polyester", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-polyester", "latest": {"1.34.0--r42hdfd78af_0": "sha256:731c182db21204246464c54eeb4b4bbe4a474d70c31be76f969739336d892087"}, "tags": {"1.30.0--r41hdfd78af_0": "sha256:1680fe0290d01b1c9b26ab26792625dd4780e9d0e7c62762d0858dc20617ce0c", "1.34.0--r42hdfd78af_0": "sha256:731c182db21204246464c54eeb4b4bbe4a474d70c31be76f969739336d892087"}, "docker": "quay.io/biocontainers/bioconductor-polyester"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-polyester.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-polyester
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-polyester:1.30.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-polyester:1.34.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-polyester/1.30.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-polyester/1.30.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-polyester/1.34.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-polyester/1.34.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

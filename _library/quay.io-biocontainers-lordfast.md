@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/lordfast"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/lordfast/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/lordfast/container.yaml"
-updated_at: "2022-11-19 02:29:50.731343"
-latest: "0.0.9--hd28b015_0"
+updated_at: "2022-11-20 00:50:55.259702"
+latest: "0.0.10--h5b5514e_3"
 container_url: "https://biocontainers.pro/tools/lordfast"
 aliases:
  - "lordfast"
 versions:
  - "0.0.9--hd28b015_0"
+ - "0.0.10--h5b5514e_3"
 description: "shpc-registry automated BioContainers addition for lordfast"
-config: {"url": "https://biocontainers.pro/tools/lordfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordfast", "latest": {"0.0.9--hd28b015_0": "sha256:0606f94cd3021b6721ad9224b952a4c403087f03a90044b1641d77b6970cc478"}, "tags": {"0.0.9--hd28b015_0": "sha256:0606f94cd3021b6721ad9224b952a4c403087f03a90044b1641d77b6970cc478"}, "docker": "quay.io/biocontainers/lordfast", "aliases": {"lordfast": "/usr/local/bin/lordfast"}}
+config: {"url": "https://biocontainers.pro/tools/lordfast", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for lordfast", "latest": {"0.0.10--h5b5514e_3": "sha256:e1b28b25719bb5592bfa8d5918bb12729f9e8b368d94079c03ec27976bedb4dd"}, "tags": {"0.0.9--hd28b015_0": "sha256:0606f94cd3021b6721ad9224b952a4c403087f03a90044b1641d77b6970cc478", "0.0.10--h5b5514e_3": "sha256:e1b28b25719bb5592bfa8d5918bb12729f9e8b368d94079c03ec27976bedb4dd"}, "docker": "quay.io/biocontainers/lordfast", "aliases": {"lordfast": "/usr/local/bin/lordfast"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/lordfast.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/lordfast
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/lordfast:0.0.9--hd28b015_0
+$ shpc install quay.io/biocontainers/lordfast:0.0.10--h5b5514e_3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/lordfast/0.0.9--hd28b015_0
-$ module help quay.io/biocontainers/lordfast/0.0.9--hd28b015_0
+$ module load quay.io/biocontainers/lordfast/0.0.10--h5b5514e_3
+$ module help quay.io/biocontainers/lordfast/0.0.10--h5b5514e_3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

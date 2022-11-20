@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-cate"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-cate/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-cate/container.yaml"
-updated_at: "2022-11-19 02:29:25.065305"
+updated_at: "2022-11-20 00:50:19.859807"
 latest: "1.1.1--r41h3342da4_3"
 container_url: "https://biocontainers.pro/tools/r-cate"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1.1--r41h3342da4_3"
+ - "1.1--r40h6115d3f_1"
 description: "shpc-registry automated BioContainers addition for r-cate"
-config: {"url": "https://biocontainers.pro/tools/r-cate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cate", "latest": {"1.1.1--r41h3342da4_3": "sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab"}, "tags": {"1.1.1--r41h3342da4_3": "sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab"}, "docker": "quay.io/biocontainers/r-cate", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-cate", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-cate", "latest": {"1.1.1--r41h3342da4_3": "sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab"}, "tags": {"1.1.1--r41h3342da4_3": "sha256:85adde4ce4e292eafb328227c941ba645de88de684178d97c5db96e1a923d9ab", "1.1--r40h6115d3f_1": "sha256:a0707b843ee0991c2b112246e94095f9f26ea182b8cda91360b3d7d2aa649f88"}, "docker": "quay.io/biocontainers/r-cate", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-cate.

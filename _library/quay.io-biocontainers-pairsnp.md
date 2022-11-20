@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pairsnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pairsnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pairsnp/container.yaml"
-updated_at: "2022-11-19 02:06:40.815335"
+updated_at: "2022-11-20 00:19:03.683336"
 latest: "0.3.1--hd03093a_0"
 container_url: "https://biocontainers.pro/tools/pairsnp"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/perl-bio-rna-rnaalisplit"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-bio-rna-rnaalisplit/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-bio-rna-rnaalisplit/container.yaml"
-updated_at: "2022-11-19 02:29:17.075759"
-latest: "v0.09--pl526_0"
+updated_at: "2022-11-20 00:50:08.591263"
+latest: "0.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-bio-rna-rnaalisplit"
 aliases:
  - "FUNCS.pm"
@@ -49,8 +49,9 @@ aliases:
  - "kinwalker"
 versions:
  - "v0.09--pl526_0"
+ - "0.11--pl5321hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for perl-bio-rna-rnaalisplit"
-config: {"url": "https://biocontainers.pro/tools/perl-bio-rna-rnaalisplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-rna-rnaalisplit", "latest": {"v0.09--pl526_0": "sha256:da30c3038969f787477ac7d57e02dbcefbf8f4db16e8f7555b9efb422f369425"}, "tags": {"v0.09--pl526_0": "sha256:da30c3038969f787477ac7d57e02dbcefbf8f4db16e8f7555b9efb422f369425"}, "docker": "quay.io/biocontainers/perl-bio-rna-rnaalisplit", "aliases": {"FUNCS.pm": "/usr/local/bin/FUNCS.pm", "MetamakeDemos.pl": "/usr/local/bin/MetamakeDemos.pl", "PDBFUNCS.pm": "/usr/local/bin/PDBFUNCS.pm", "R-scape": "/usr/local/bin/R-scape", "R-scape-sim": "/usr/local/bin/R-scape-sim", "R-scape-sim-nobps": "/usr/local/bin/R-scape-sim-nobps", "R-view": "/usr/local/bin/R-view", "RNAalisplit.pl": "/usr/local/bin/RNAalisplit.pl", "RNAz": "/usr/local/bin/RNAz", "SelectSubFamilyFromStockholm.pl": "/usr/local/bin/SelectSubFamilyFromStockholm.pl", "Stockholm.pm": "/usr/local/bin/Stockholm.pm", "appcov": "/usr/local/bin/appcov", "eval_alignment.pl": "/usr/local/bin/eval_alignment.pl", "msafilter": "/usr/local/bin/msafilter", "pdb_parse.pl": "/usr/local/bin/pdb_parse.pl", "r2r": "/usr/local/bin/r2r", "r2r_msa_comply.pl": "/usr/local/bin/r2r_msa_comply.pl", "rnazAnnotate.pl": "/usr/local/bin/rnazAnnotate.pl", "rnazBEDsort.pl": "/usr/local/bin/rnazBEDsort.pl", "rnazBEDstats.pl": "/usr/local/bin/rnazBEDstats.pl", "rnazBlast.pl": "/usr/local/bin/rnazBlast.pl", "rnazCluster.pl": "/usr/local/bin/rnazCluster.pl", "rnazFilter.pl": "/usr/local/bin/rnazFilter.pl", "rnazIndex.pl": "/usr/local/bin/rnazIndex.pl", "rnazMAF2BED.pl": "/usr/local/bin/rnazMAF2BED.pl", "rnazRandomizeAln.pl": "/usr/local/bin/rnazRandomizeAln.pl", "rnazSelectSeqs.pl": "/usr/local/bin/rnazSelectSeqs.pl", "rnazSort.pl": "/usr/local/bin/rnazSort.pl", "rnazWindow.pl": "/usr/local/bin/rnazWindow.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "gnuplot": "/usr/local/bin/gnuplot", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker"}}
+config: {"url": "https://biocontainers.pro/tools/perl-bio-rna-rnaalisplit", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-bio-rna-rnaalisplit", "latest": {"0.11--pl5321hdfd78af_0": "sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa"}, "tags": {"v0.09--pl526_0": "sha256:da30c3038969f787477ac7d57e02dbcefbf8f4db16e8f7555b9efb422f369425", "0.11--pl5321hdfd78af_0": "sha256:118298c8e9d71d83f3aeb47fd8409ab92907324d219b6b3420cafa7929ab9ffa"}, "docker": "quay.io/biocontainers/perl-bio-rna-rnaalisplit", "aliases": {"FUNCS.pm": "/usr/local/bin/FUNCS.pm", "MetamakeDemos.pl": "/usr/local/bin/MetamakeDemos.pl", "PDBFUNCS.pm": "/usr/local/bin/PDBFUNCS.pm", "R-scape": "/usr/local/bin/R-scape", "R-scape-sim": "/usr/local/bin/R-scape-sim", "R-scape-sim-nobps": "/usr/local/bin/R-scape-sim-nobps", "R-view": "/usr/local/bin/R-view", "RNAalisplit.pl": "/usr/local/bin/RNAalisplit.pl", "RNAz": "/usr/local/bin/RNAz", "SelectSubFamilyFromStockholm.pl": "/usr/local/bin/SelectSubFamilyFromStockholm.pl", "Stockholm.pm": "/usr/local/bin/Stockholm.pm", "appcov": "/usr/local/bin/appcov", "eval_alignment.pl": "/usr/local/bin/eval_alignment.pl", "msafilter": "/usr/local/bin/msafilter", "pdb_parse.pl": "/usr/local/bin/pdb_parse.pl", "r2r": "/usr/local/bin/r2r", "r2r_msa_comply.pl": "/usr/local/bin/r2r_msa_comply.pl", "rnazAnnotate.pl": "/usr/local/bin/rnazAnnotate.pl", "rnazBEDsort.pl": "/usr/local/bin/rnazBEDsort.pl", "rnazBEDstats.pl": "/usr/local/bin/rnazBEDstats.pl", "rnazBlast.pl": "/usr/local/bin/rnazBlast.pl", "rnazCluster.pl": "/usr/local/bin/rnazCluster.pl", "rnazFilter.pl": "/usr/local/bin/rnazFilter.pl", "rnazIndex.pl": "/usr/local/bin/rnazIndex.pl", "rnazMAF2BED.pl": "/usr/local/bin/rnazMAF2BED.pl", "rnazRandomizeAln.pl": "/usr/local/bin/rnazRandomizeAln.pl", "rnazSelectSeqs.pl": "/usr/local/bin/rnazSelectSeqs.pl", "rnazSort.pl": "/usr/local/bin/rnazSort.pl", "rnazWindow.pl": "/usr/local/bin/rnazWindow.pl", "bp_pairwise_kaks.pl": "/usr/local/bin/bp_pairwise_kaks.pl", "bp_search2BSML.pl": "/usr/local/bin/bp_search2BSML.pl", "gnuplot": "/usr/local/bin/gnuplot", "AnalyseDists": "/usr/local/bin/AnalyseDists", "AnalyseSeqs": "/usr/local/bin/AnalyseSeqs", "RNAlocmin": "/usr/local/bin/RNAlocmin", "RNApvmin": "/usr/local/bin/RNApvmin", "b2ct": "/usr/local/bin/b2ct", "ct2db": "/usr/local/bin/ct2db", "kinwalker": "/usr/local/bin/kinwalker"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-bio-rna-rnaalisplit.
@@ -65,7 +66,7 @@ $ shpc install quay.io/biocontainers/perl-bio-rna-rnaalisplit
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-bio-rna-rnaalisplit:v0.09--pl526_0
+$ shpc install quay.io/biocontainers/perl-bio-rna-rnaalisplit:0.11--pl5321hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -77,8 +78,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-bio-rna-rnaalisplit/v0.09--pl526_0
-$ module help quay.io/biocontainers/perl-bio-rna-rnaalisplit/v0.09--pl526_0
+$ module load quay.io/biocontainers/perl-bio-rna-rnaalisplit/0.11--pl5321hdfd78af_0
+$ module help quay.io/biocontainers/perl-bio-rna-rnaalisplit/0.11--pl5321hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

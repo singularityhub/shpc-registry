@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-mapscape"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mapscape/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mapscape/container.yaml"
-updated_at: "2022-11-19 02:07:11.278074"
+updated_at: "2022-11-20 00:19:46.148176"
 latest: "1.18.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mapscape"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/newt"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/newt/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/newt/container.yaml"
-updated_at: "2022-11-19 02:28:58.971521"
+updated_at: "2022-11-20 00:49:43.182862"
 latest: "0.52.18--py27_3"
 container_url: "https://biocontainers.pro/tools/newt"
 aliases:

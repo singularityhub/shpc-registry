@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mirsm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mirsm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mirsm/container.yaml"
-updated_at: "2022-11-19 02:11:23.214597"
-latest: "1.8.3--r40h68001a8_0"
+updated_at: "2022-11-20 00:25:36.661992"
+latest: "1.16.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mirsm"
 aliases:
  - "jfr"
@@ -20,8 +20,11 @@ aliases:
  - "f2py3.9"
 versions:
  - "1.8.3--r40h68001a8_0"
+ - "1.16.0--r42hc247a5b_0"
+ - "1.12.0--r41hc247a5b_2"
+ - "1.10.0--r41h399db7b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-mirsm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mirsm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirsm", "latest": {"1.8.3--r40h68001a8_0": "sha256:757e77c90a1509ebf68515b134eb0bb177d27bdfe5ebfc90e089aa4f62eeced3"}, "tags": {"1.8.3--r40h68001a8_0": "sha256:757e77c90a1509ebf68515b134eb0bb177d27bdfe5ebfc90e089aa4f62eeced3"}, "docker": "quay.io/biocontainers/bioconductor-mirsm", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "f2py3.9": "/usr/local/bin/f2py3.9"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mirsm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mirsm", "latest": {"1.16.0--r42hc247a5b_0": "sha256:b1a3e88604ad064561114cc7c1ca5ca0d2b44de58f67bc04feb89a3db08e107a"}, "tags": {"1.8.3--r40h68001a8_0": "sha256:757e77c90a1509ebf68515b134eb0bb177d27bdfe5ebfc90e089aa4f62eeced3", "1.16.0--r42hc247a5b_0": "sha256:b1a3e88604ad064561114cc7c1ca5ca0d2b44de58f67bc04feb89a3db08e107a", "1.12.0--r41hc247a5b_2": "sha256:3e77b310b1148530950ad8ccb65f94678f678f9ae33b953201aa20c3a23dc412", "1.10.0--r41h399db7b_0": "sha256:99a888c02531464fdba6cc021db512ce21652877b3321674007b902fcf820180"}, "docker": "quay.io/biocontainers/bioconductor-mirsm", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "f2py3.9": "/usr/local/bin/f2py3.9"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mirsm.
@@ -36,7 +39,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mirsm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mirsm:1.8.3--r40h68001a8_0
+$ shpc install quay.io/biocontainers/bioconductor-mirsm:1.16.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mirsm/1.8.3--r40h68001a8_0
-$ module help quay.io/biocontainers/bioconductor-mirsm/1.8.3--r40h68001a8_0
+$ module load quay.io/biocontainers/bioconductor-mirsm/1.16.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-mirsm/1.16.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

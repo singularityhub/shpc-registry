@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/dcplib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/dcplib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/dcplib/container.yaml"
-updated_at: "2022-11-19 02:30:47.564188"
+updated_at: "2022-11-20 00:52:11.654789"
 latest: "3.9.0--py_0"
 container_url: "https://biocontainers.pro/tools/dcplib"
 aliases:

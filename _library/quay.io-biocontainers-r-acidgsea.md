@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/r-acidgsea"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-acidgsea/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-acidgsea/container.yaml"
-updated_at: "2022-11-19 01:52:08.368784"
-latest: "0.7.0--r41hdfd78af_0"
+updated_at: "2022-11-19 23:58:59.462274"
+latest: "0.8.6--r42hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-acidgsea"
 aliases:
  - "pandoc"
 versions:
  - "0.7.0--r41hdfd78af_0"
+ - "0.8.6--r42hdfd78af_1"
+ - "0.7.0--r41hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for r-acidgsea"
-config: {"url": "https://biocontainers.pro/tools/r-acidgsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidgsea", "latest": {"0.7.0--r41hdfd78af_0": "sha256:d7f1697ab2efbaeea41765f2fed52efdcc30046c9c7519d55e96877792bc2ddc"}, "tags": {"0.7.0--r41hdfd78af_0": "sha256:d7f1697ab2efbaeea41765f2fed52efdcc30046c9c7519d55e96877792bc2ddc"}, "docker": "quay.io/biocontainers/r-acidgsea", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/r-acidgsea", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-acidgsea", "latest": {"0.8.6--r42hdfd78af_1": "sha256:a744b6b624d8993b6cd75b776a6c27a209fd718337466aa132f2c40be40c3eca"}, "tags": {"0.7.0--r41hdfd78af_0": "sha256:d7f1697ab2efbaeea41765f2fed52efdcc30046c9c7519d55e96877792bc2ddc", "0.8.6--r42hdfd78af_1": "sha256:a744b6b624d8993b6cd75b776a6c27a209fd718337466aa132f2c40be40c3eca", "0.7.0--r41hdfd78af_1": "sha256:9e39dc0dae3468d2291bc5c468df93d7daadf3fc24496f52ddcd025ef78e749e"}, "docker": "quay.io/biocontainers/r-acidgsea", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-acidgsea.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/r-acidgsea
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-acidgsea:0.7.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/r-acidgsea:0.8.6--r42hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-acidgsea/0.7.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/r-acidgsea/0.7.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/r-acidgsea/0.8.6--r42hdfd78af_1
+$ module help quay.io/biocontainers/r-acidgsea/0.8.6--r42hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

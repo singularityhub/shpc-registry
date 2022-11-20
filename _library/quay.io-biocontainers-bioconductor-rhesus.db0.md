@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-rhesus.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rhesus.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rhesus.db0/container.yaml"
-updated_at: "2022-11-19 02:15:25.893493"
-latest: "3.8.2--r36_1"
+updated_at: "2022-11-20 00:31:05.335675"
+latest: "3.16.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rhesus.db0"
 aliases:
  - ".bioconductor-rhesus.db0-post-link.sh"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "3.8.2--r36_1"
+ - "3.16.0--r42hdfd78af_0"
+ - "3.14.0--r41hdfd78af_1"
+ - "3.13.0--r41hdfd78af_0"
+ - "3.12.0--r40hdfd78af_1"
+ - "3.11.2--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rhesus.db0"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rhesus.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhesus.db0", "latest": {"3.8.2--r36_1": "sha256:9c1567a6385beca1554f027af9cf644a2a431cc8c26f367528b4269212156703"}, "tags": {"3.8.2--r36_1": "sha256:9c1567a6385beca1554f027af9cf644a2a431cc8c26f367528b4269212156703"}, "docker": "quay.io/biocontainers/bioconductor-rhesus.db0", "aliases": {".bioconductor-rhesus.db0-post-link.sh": "/usr/local/bin/.bioconductor-rhesus.db0-post-link.sh", ".bioconductor-rhesus.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-rhesus.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rhesus.db0", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rhesus.db0", "latest": {"3.16.0--r42hdfd78af_0": "sha256:e19095a292747298f7f14400cb7e70428e636e1982b9868006cd860da65d9860"}, "tags": {"3.8.2--r36_1": "sha256:9c1567a6385beca1554f027af9cf644a2a431cc8c26f367528b4269212156703", "3.16.0--r42hdfd78af_0": "sha256:e19095a292747298f7f14400cb7e70428e636e1982b9868006cd860da65d9860", "3.14.0--r41hdfd78af_1": "sha256:1705ed071177b28128739de86e00b1a2983cada8eae96aa16b6196bddff219cc", "3.13.0--r41hdfd78af_0": "sha256:726128ab21130d056cb9a87fe6cc20edf10ab9f8c93ac66b6711f1f638f94366", "3.12.0--r40hdfd78af_1": "sha256:0b7ee91995fcaca4a5a822075b985194d0222afff9f8b288b40c722df4a7a610", "3.11.2--r40_0": "sha256:52a095d857a2a80088881f7649cacc70655e187d0fd7e3e23ce3c703965dfde5"}, "docker": "quay.io/biocontainers/bioconductor-rhesus.db0", "aliases": {".bioconductor-rhesus.db0-post-link.sh": "/usr/local/bin/.bioconductor-rhesus.db0-post-link.sh", ".bioconductor-rhesus.db0-pre-unlink.sh": "/usr/local/bin/.bioconductor-rhesus.db0-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rhesus.db0.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rhesus.db0
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rhesus.db0:3.8.2--r36_1
+$ shpc install quay.io/biocontainers/bioconductor-rhesus.db0:3.16.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rhesus.db0/3.8.2--r36_1
-$ module help quay.io/biocontainers/bioconductor-rhesus.db0/3.8.2--r36_1
+$ module load quay.io/biocontainers/bioconductor-rhesus.db0/3.16.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rhesus.db0/3.16.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

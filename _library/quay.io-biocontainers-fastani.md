@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/fastani"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/fastani/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/fastani/container.yaml"
-updated_at: "2022-11-19 02:43:10.562474"
+updated_at: "2022-11-20 01:08:55.288098"
 latest: "1.33--h0fdf51a_1"
 container_url: "https://biocontainers.pro/tools/fastani"
 aliases:

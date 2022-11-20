@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-curatedcrcdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-curatedcrcdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-curatedcrcdata/container.yaml"
-updated_at: "2022-11-19 02:21:14.220833"
+updated_at: "2022-11-20 00:39:02.445397"
 latest: "2.29.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-curatedcrcdata"
 aliases:

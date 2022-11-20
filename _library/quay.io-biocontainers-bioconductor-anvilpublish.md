@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-anvilpublish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-anvilpublish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-anvilpublish/container.yaml"
-updated_at: "2022-11-19 02:00:14.950272"
-latest: "1.4.1--r41hdfd78af_0"
+updated_at: "2022-11-20 00:10:10.421680"
+latest: "1.8.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-anvilpublish"
 aliases:
  - "pandoc"
 versions:
  - "1.4.1--r41hdfd78af_0"
+ - "1.8.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-anvilpublish"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilpublish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anvilpublish", "latest": {"1.4.1--r41hdfd78af_0": "sha256:ebb6c422a681661de72df54f2ec63d08c427947adea5b4a0cf496be1355c1883"}, "tags": {"1.4.1--r41hdfd78af_0": "sha256:ebb6c422a681661de72df54f2ec63d08c427947adea5b4a0cf496be1355c1883"}, "docker": "quay.io/biocontainers/bioconductor-anvilpublish", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-anvilpublish", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-anvilpublish", "latest": {"1.8.0--r42hdfd78af_0": "sha256:f25b03e6c53ffad4f24c9a1e62a4fe9c9e51128e2f6ff8f9f99a9aa5475ffcd7"}, "tags": {"1.4.1--r41hdfd78af_0": "sha256:ebb6c422a681661de72df54f2ec63d08c427947adea5b4a0cf496be1355c1883", "1.8.0--r42hdfd78af_0": "sha256:f25b03e6c53ffad4f24c9a1e62a4fe9c9e51128e2f6ff8f9f99a9aa5475ffcd7"}, "docker": "quay.io/biocontainers/bioconductor-anvilpublish", "aliases": {"pandoc": "/usr/local/bin/pandoc"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-anvilpublish.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-anvilpublish
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-anvilpublish:1.4.1--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-anvilpublish:1.8.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-anvilpublish/1.4.1--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-anvilpublish/1.4.1--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-anvilpublish/1.8.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-anvilpublish/1.8.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

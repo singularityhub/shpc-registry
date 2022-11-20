@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/bioconductor-cellhts2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cellhts2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cellhts2/container.yaml"
-updated_at: "2022-11-19 02:39:12.634671"
-latest: "2.56.0--r41hdfd78af_0"
+updated_at: "2022-11-20 01:03:34.245218"
+latest: "2.62.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cellhts2"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "2.56.0--r41hdfd78af_0"
+ - "2.62.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cellhts2"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cellhts2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellhts2", "latest": {"2.56.0--r41hdfd78af_0": "sha256:41d610c3ff499607611867c36288730eec913b0a444010e10e2ceffa8744f180"}, "tags": {"2.56.0--r41hdfd78af_0": "sha256:41d610c3ff499607611867c36288730eec913b0a444010e10e2ceffa8744f180"}, "docker": "quay.io/biocontainers/bioconductor-cellhts2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cellhts2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cellhts2", "latest": {"2.62.0--r42hdfd78af_0": "sha256:2f6641e54c747e63767f16f01664244d04fd1428a6a9bf0fcb827e0d5c64c6b7"}, "tags": {"2.56.0--r41hdfd78af_0": "sha256:41d610c3ff499607611867c36288730eec913b0a444010e10e2ceffa8744f180", "2.62.0--r42hdfd78af_0": "sha256:2f6641e54c747e63767f16f01664244d04fd1428a6a9bf0fcb827e0d5c64c6b7"}, "docker": "quay.io/biocontainers/bioconductor-cellhts2", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cellhts2.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cellhts2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cellhts2:2.56.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-cellhts2:2.62.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cellhts2/2.56.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-cellhts2/2.56.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-cellhts2/2.62.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-cellhts2/2.62.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

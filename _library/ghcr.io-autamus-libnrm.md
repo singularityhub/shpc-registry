@@ -4,7 +4,7 @@ name:  "ghcr.io/autamus/libnrm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/libnrm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/libnrm/container.yaml"
-updated_at: "2022-11-19 02:46:31.049721"
+updated_at: "2022-11-20 01:13:32.904509"
 latest: "0.1.0"
 container_url: "https://github.com/orgs/autamus/packages/container/package/libnrm"
 
@@ -12,7 +12,7 @@ versions:
  - "0.1.0"
  - "latest"
 description: "Libnrm, the application instrumentation library for the Node Resource Manager(NRM)."
-config: {"docker": "ghcr.io/autamus/libnrm", "url": "https://github.com/orgs/autamus/packages/container/package/libnrm", "maintainer": "@vsoch", "description": "Libnrm, the application instrumentation library for the Node Resource Manager(NRM).", "latest": {"0.1.0": "sha256:71b28c683e651ea802ec1ef20812eb0e93eacbef6bfcd163d02f16306dd93bc5"}, "tags": {"0.1.0": "sha256:71b28c683e651ea802ec1ef20812eb0e93eacbef6bfcd163d02f16306dd93bc5", "latest": "sha256:71b28c683e651ea802ec1ef20812eb0e93eacbef6bfcd163d02f16306dd93bc5"}}
+config: {"docker": "ghcr.io/autamus/libnrm", "url": "https://github.com/orgs/autamus/packages/container/package/libnrm", "maintainer": "@vsoch", "description": "Libnrm, the application instrumentation library for the Node Resource Manager(NRM).", "latest": {"0.1.0": "sha256:65773a9945d137817dae9856656ae93d7426e9106a2b1d484c890e4e041bedde"}, "tags": {"0.1.0": "sha256:65773a9945d137817dae9856656ae93d7426e9106a2b1d484c890e4e041bedde", "latest": "sha256:65773a9945d137817dae9856656ae93d7426e9106a2b1d484c890e4e041bedde"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/libnrm.

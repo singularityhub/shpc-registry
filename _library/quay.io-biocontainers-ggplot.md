@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ggplot"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ggplot/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ggplot/container.yaml"
-updated_at: "2022-11-19 02:16:07.620735"
+updated_at: "2022-11-20 00:32:01.088282"
 latest: "0.6.8--py36_0"
 container_url: "https://biocontainers.pro/tools/ggplot"
 aliases:

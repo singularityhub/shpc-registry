@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-rtcga.clinical"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rtcga.clinical/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rtcga.clinical/container.yaml"
-updated_at: "2022-11-19 02:04:34.180736"
+updated_at: "2022-11-20 00:16:05.497983"
 latest: "20151101.24.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-rtcga.clinical"
 aliases:

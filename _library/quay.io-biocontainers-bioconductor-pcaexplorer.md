@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-pcaexplorer"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pcaexplorer/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pcaexplorer/container.yaml"
-updated_at: "2022-11-19 02:41:10.159624"
-latest: "2.8.0--r351_0"
+updated_at: "2022-11-20 01:06:11.659510"
+latest: "2.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pcaexplorer"
 aliases:
  - "pandoc-citeproc"
@@ -15,8 +15,13 @@ aliases:
  - "c99"
 versions:
  - "2.8.0--r351_0"
+ - "2.24.0--r42hdfd78af_0"
+ - "2.20.0--r41hdfd78af_0"
+ - "2.18.0--r41hdfd78af_0"
+ - "2.16.0--r40hdfd78af_1"
+ - "2.14.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pcaexplorer"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pcaexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcaexplorer", "latest": {"2.8.0--r351_0": "sha256:9d00df17eba8edfa5b251f2aed308cdbff9a1e3fd53afe1fb9421e499ea492e2"}, "tags": {"2.8.0--r351_0": "sha256:9d00df17eba8edfa5b251f2aed308cdbff9a1e3fd53afe1fb9421e499ea492e2"}, "docker": "quay.io/biocontainers/bioconductor-pcaexplorer", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pcaexplorer", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pcaexplorer", "latest": {"2.24.0--r42hdfd78af_0": "sha256:cc221554cd8dd5e71e6e9d46017a94b0aa0183d487ee7806ca5f6ef97fffd8e2"}, "tags": {"2.8.0--r351_0": "sha256:9d00df17eba8edfa5b251f2aed308cdbff9a1e3fd53afe1fb9421e499ea492e2", "2.24.0--r42hdfd78af_0": "sha256:cc221554cd8dd5e71e6e9d46017a94b0aa0183d487ee7806ca5f6ef97fffd8e2", "2.20.0--r41hdfd78af_0": "sha256:bbcaaf83e21662be577c519c5fb8c85c777ada6874a0db340c494d2404aac076", "2.18.0--r41hdfd78af_0": "sha256:051a5650c2eb34392bb241d089c7abb9b8e033ecf648969759bdc50452254f3e", "2.16.0--r40hdfd78af_1": "sha256:8fab6a96acf7262d9a3070abcf3151797565facd05985f8e94005d9e90e40864", "2.14.0--r40_0": "sha256:f04707b1f8338e573729defde3522c6368513ba3d41c9163f5133187115300f8"}, "docker": "quay.io/biocontainers/bioconductor-pcaexplorer", "aliases": {"pandoc-citeproc": "/usr/local/bin/pandoc-citeproc", "pandoc": "/usr/local/bin/pandoc", "wget": "/usr/local/bin/wget", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pcaexplorer.
@@ -31,7 +36,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pcaexplorer
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pcaexplorer:2.8.0--r351_0
+$ shpc install quay.io/biocontainers/bioconductor-pcaexplorer:2.24.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +48,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pcaexplorer/2.8.0--r351_0
-$ module help quay.io/biocontainers/bioconductor-pcaexplorer/2.8.0--r351_0
+$ module load quay.io/biocontainers/bioconductor-pcaexplorer/2.24.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pcaexplorer/2.24.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

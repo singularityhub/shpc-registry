@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/sam2lca"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/sam2lca/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/sam2lca/container.yaml"
-updated_at: "2022-11-19 02:02:31.785041"
+updated_at: "2022-11-20 00:13:15.568106"
 latest: "1.1.2--pyhdfd78af_1"
 container_url: "https://biocontainers.pro/tools/sam2lca"
 aliases:

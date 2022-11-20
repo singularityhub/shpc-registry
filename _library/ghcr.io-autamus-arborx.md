@@ -4,16 +4,17 @@ name:  "ghcr.io/autamus/arborx"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/arborx/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/arborx/container.yaml"
-updated_at: "2022-11-19 02:46:37.361933"
-latest: "1.1"
+updated_at: "2022-11-20 01:13:41.882220"
+latest: "1.3"
 container_url: "https://github.com/orgs/autamus/packages/container/package/arborx"
 
 versions:
  - "1.0"
  - "1.1"
  - "latest"
+ - "1.3"
 description: "ArborX is a performance-portable library for geometric search"
-config: {"docker": "ghcr.io/autamus/arborx", "url": "https://github.com/orgs/autamus/packages/container/package/arborx", "maintainer": "@vsoch", "description": "ArborX is a performance-portable library for geometric search", "latest": {"1.1": "sha256:e5970b877b4e9233373440babb70df8db1af648fbe94359f5e8225d833cb23fa"}, "tags": {"1.0": "sha256:d4c1d3e22344cf4c8f3d4b2a4a8f5532b303dc7a75a37c55c463a685b359a03b", "1.1": "sha256:e5970b877b4e9233373440babb70df8db1af648fbe94359f5e8225d833cb23fa", "latest": "sha256:e5970b877b4e9233373440babb70df8db1af648fbe94359f5e8225d833cb23fa"}}
+config: {"docker": "ghcr.io/autamus/arborx", "url": "https://github.com/orgs/autamus/packages/container/package/arborx", "maintainer": "@vsoch", "description": "ArborX is a performance-portable library for geometric search", "latest": {"1.3": "sha256:e535b0f07e17a61d64f399f67076906062425739d2635d8fd71c0ccca187919f"}, "tags": {"1.0": "sha256:d4c1d3e22344cf4c8f3d4b2a4a8f5532b303dc7a75a37c55c463a685b359a03b", "1.1": "sha256:e5970b877b4e9233373440babb70df8db1af648fbe94359f5e8225d833cb23fa", "latest": "sha256:e535b0f07e17a61d64f399f67076906062425739d2635d8fd71c0ccca187919f", "1.3": "sha256:e535b0f07e17a61d64f399f67076906062425739d2635d8fd71c0ccca187919f"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/arborx.
@@ -28,7 +29,7 @@ $ shpc install ghcr.io/autamus/arborx
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/arborx:1.1
+$ shpc install ghcr.io/autamus/arborx:1.3
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/arborx/1.1
-$ module help ghcr.io/autamus/arborx/1.1
+$ module load ghcr.io/autamus/arborx/1.3
+$ module help ghcr.io/autamus/arborx/1.3
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

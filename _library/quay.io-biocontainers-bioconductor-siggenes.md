@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-siggenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-siggenes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-siggenes/container.yaml"
-updated_at: "2022-11-19 02:01:57.813755"
+updated_at: "2022-11-20 00:12:28.337140"
 latest: "1.68.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-siggenes"
 

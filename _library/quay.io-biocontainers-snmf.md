@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/snmf"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/snmf/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/snmf/container.yaml"
-updated_at: "2022-11-19 02:40:15.822546"
+updated_at: "2022-11-20 01:04:56.878268"
 latest: "1.2--pl526h516909a_2"
 container_url: "https://biocontainers.pro/tools/snmf"
 aliases:

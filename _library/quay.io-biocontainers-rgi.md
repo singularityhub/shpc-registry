@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/rgi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rgi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rgi/container.yaml"
-updated_at: "2022-11-19 02:12:27.629335"
-latest: "6.0.0--pyha8f3691_0"
+updated_at: "2022-11-20 00:27:05.669584"
+latest: "6.0.1--pyha8f3691_1"
 container_url: "https://biocontainers.pro/tools/rgi"
 aliases:
  - "ct-energy"
@@ -33,8 +33,9 @@ aliases:
  - "diamond"
 versions:
  - "6.0.0--pyha8f3691_0"
+ - "6.0.1--pyha8f3691_1"
 description: "shpc-registry automated BioContainers addition for rgi"
-config: {"url": "https://biocontainers.pro/tools/rgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi", "latest": {"6.0.0--pyha8f3691_0": "sha256:e65160a3b5a83fb0fdc03b3c32be37125bc5d6e546a27f0fd5fad81dd8f70af4"}, "tags": {"6.0.0--pyha8f3691_0": "sha256:e65160a3b5a83fb0fdc03b3c32be37125bc5d6e546a27f0fd5fad81dd8f70af4"}, "docker": "quay.io/biocontainers/rgi", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "filetype": "/usr/local/bin/filetype", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "melt.pl": "/usr/local/bin/melt.pl", "rgi": "/usr/local/bin/rgi", "ss-count.pl": "/usr/local/bin/ss-count.pl", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bamtools": "/usr/local/bin/bamtools", "bokeh": "/usr/local/bin/bokeh", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "diamond": "/usr/local/bin/diamond"}}
+config: {"url": "https://biocontainers.pro/tools/rgi", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for rgi", "latest": {"6.0.1--pyha8f3691_1": "sha256:b651feac3b55e93cc181d44012c157bdb2a71e95f9cf776d4cffd828da8e0014"}, "tags": {"6.0.0--pyha8f3691_0": "sha256:e65160a3b5a83fb0fdc03b3c32be37125bc5d6e546a27f0fd5fad81dd8f70af4", "6.0.1--pyha8f3691_1": "sha256:b651feac3b55e93cc181d44012c157bdb2a71e95f9cf776d4cffd828da8e0014"}, "docker": "quay.io/biocontainers/rgi", "aliases": {"ct-energy": "/usr/local/bin/ct-energy", "ct2rnaml": "/usr/local/bin/ct2rnaml", "filetype": "/usr/local/bin/filetype", "h-num.pl": "/usr/local/bin/h-num.pl", "hybrid-min": "/usr/local/bin/hybrid-min", "hybrid-ss-min": "/usr/local/bin/hybrid-ss-min", "kma": "/usr/local/bin/kma", "kma_index": "/usr/local/bin/kma_index", "kma_shm": "/usr/local/bin/kma_shm", "kma_update": "/usr/local/bin/kma_update", "melt.pl": "/usr/local/bin/melt.pl", "rgi": "/usr/local/bin/rgi", "ss-count.pl": "/usr/local/bin/ss-count.pl", "xml2-config.bak": "/usr/local/bin/xml2-config.bak", "dask-scheduler": "/usr/local/bin/dask-scheduler", "dask-ssh": "/usr/local/bin/dask-ssh", "dask-worker": "/usr/local/bin/dask-worker", "bamtools": "/usr/local/bin/bamtools", "bokeh": "/usr/local/bin/bokeh", "vcf_sample_filter.py": "/usr/local/bin/vcf_sample_filter.py", "vcf_filter.py": "/usr/local/bin/vcf_filter.py", "vcf_melt": "/usr/local/bin/vcf_melt", "diamond": "/usr/local/bin/diamond"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/rgi.
@@ -49,7 +50,7 @@ $ shpc install quay.io/biocontainers/rgi
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/rgi:6.0.0--pyha8f3691_0
+$ shpc install quay.io/biocontainers/rgi:6.0.1--pyha8f3691_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -61,8 +62,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/rgi/6.0.0--pyha8f3691_0
-$ module help quay.io/biocontainers/rgi/6.0.0--pyha8f3691_0
+$ module load quay.io/biocontainers/rgi/6.0.1--pyha8f3691_1
+$ module help quay.io/biocontainers/rgi/6.0.1--pyha8f3691_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-intlim"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-intlim/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-intlim/container.yaml"
-updated_at: "2022-11-19 02:00:29.482601"
+updated_at: "2022-11-20 00:10:29.780453"
 latest: "1.1.0--r42hdfd78af_4"
 container_url: "https://biocontainers.pro/tools/r-intlim"
 aliases:

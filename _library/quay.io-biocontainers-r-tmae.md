@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/r-tmae"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-tmae/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-tmae/container.yaml"
-updated_at: "2022-11-19 02:00:44.881670"
-latest: "1.0.4--r41h9ee0642_0"
+updated_at: "2022-11-20 00:10:50.690166"
+latest: "1.0.4--r42h9ee0642_1"
 container_url: "https://biocontainers.pro/tools/r-tmae"
 
 versions:
  - "1.0.4--r41h9ee0642_0"
+ - "1.0.4--r42h9ee0642_1"
 description: "shpc-registry automated BioContainers addition for r-tmae"
-config: {"url": "https://biocontainers.pro/tools/r-tmae", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tmae", "latest": {"1.0.4--r41h9ee0642_0": "sha256:335ad6afe01c4a10e59e857f8c91e20b26df217c29e83c7166e93b429d3d9438"}, "tags": {"1.0.4--r41h9ee0642_0": "sha256:335ad6afe01c4a10e59e857f8c91e20b26df217c29e83c7166e93b429d3d9438"}, "docker": "quay.io/biocontainers/r-tmae"}
+config: {"url": "https://biocontainers.pro/tools/r-tmae", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-tmae", "latest": {"1.0.4--r42h9ee0642_1": "sha256:9ea953175e38584f93152e9d7867c1a9654e47cf91ee1e01ae41cb06d421057b"}, "tags": {"1.0.4--r41h9ee0642_0": "sha256:335ad6afe01c4a10e59e857f8c91e20b26df217c29e83c7166e93b429d3d9438", "1.0.4--r42h9ee0642_1": "sha256:9ea953175e38584f93152e9d7867c1a9654e47cf91ee1e01ae41cb06d421057b"}, "docker": "quay.io/biocontainers/r-tmae"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-tmae.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/r-tmae
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-tmae:1.0.4--r41h9ee0642_0
+$ shpc install quay.io/biocontainers/r-tmae:1.0.4--r42h9ee0642_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-tmae/1.0.4--r41h9ee0642_0
-$ module help quay.io/biocontainers/r-tmae/1.0.4--r41h9ee0642_0
+$ module load quay.io/biocontainers/r-tmae/1.0.4--r42h9ee0642_1
+$ module help quay.io/biocontainers/r-tmae/1.0.4--r42h9ee0642_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

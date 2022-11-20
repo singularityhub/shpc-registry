@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-oncomix"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-oncomix/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-oncomix/container.yaml"
-updated_at: "2022-11-19 01:59:07.585387"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-20 00:08:40.386188"
+latest: "1.20.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-oncomix"
 aliases:
  - "gio-launch-desktop"
@@ -13,8 +13,13 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.20.0--r42hdfd78af_0"
+ - "1.16.0--r41hdfd78af_0"
+ - "1.14.0--r41hdfd78af_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-oncomix"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-oncomix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oncomix", "latest": {"1.8.0--r36_0": "sha256:4a2409ada37d0d7d092d7004d1b5cec1a107cec25df20941b16afad58ddab7c8"}, "tags": {"1.8.0--r36_0": "sha256:4a2409ada37d0d7d092d7004d1b5cec1a107cec25df20941b16afad58ddab7c8"}, "docker": "quay.io/biocontainers/bioconductor-oncomix", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-oncomix", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-oncomix", "latest": {"1.20.0--r42hdfd78af_0": "sha256:826134bf2f77dde72444d2572290a2669724cd92b9715f19e558ea4c66a856f6"}, "tags": {"1.8.0--r36_0": "sha256:4a2409ada37d0d7d092d7004d1b5cec1a107cec25df20941b16afad58ddab7c8", "1.20.0--r42hdfd78af_0": "sha256:826134bf2f77dde72444d2572290a2669724cd92b9715f19e558ea4c66a856f6", "1.16.0--r41hdfd78af_0": "sha256:6a31f07a9d5f327d6d5004e1cf22770bf65d3d7bbd5109ef506817e4a4bcaff4", "1.14.0--r41hdfd78af_0": "sha256:35b99766d04432d3aad72c957728b6b0d3eff45bcccf6d8cacd310571589e0ce", "1.12.0--r40hdfd78af_1": "sha256:63b4d817894894a94fbc02aa2537b087cb029e2c610080984a81fd3017de1f86", "1.10.0--r40_0": "sha256:04bf08cf5dfa0b9dbec82b84fc0ac90e97c4643e12479e09b3c9c3b3d03c1edd"}, "docker": "quay.io/biocontainers/bioconductor-oncomix", "aliases": {"gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-oncomix.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-oncomix
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-oncomix:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-oncomix:1.20.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-oncomix/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-oncomix/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-oncomix/1.20.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-oncomix/1.20.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/pyqi"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pyqi/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pyqi/container.yaml"
-updated_at: "2022-11-19 02:23:21.923711"
+updated_at: "2022-11-20 00:41:56.948968"
 latest: "0.3.2--py27_1"
 container_url: "https://biocontainers.pro/tools/pyqi"
 aliases:

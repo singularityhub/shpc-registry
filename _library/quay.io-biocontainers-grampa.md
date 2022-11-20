@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/grampa"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/grampa/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/grampa/container.yaml"
-updated_at: "2022-11-19 02:07:31.562818"
+updated_at: "2022-11-20 00:20:14.420840"
 latest: "1.3.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/grampa"
 aliases:

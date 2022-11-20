@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-config-any"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-config-any/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-config-any/container.yaml"
-updated_at: "2022-11-19 02:36:36.364875"
+updated_at: "2022-11-20 01:00:00.927879"
 latest: "0.32--pl5321hec16e2b_3"
 container_url: "https://biocontainers.pro/tools/perl-config-any"
 aliases:

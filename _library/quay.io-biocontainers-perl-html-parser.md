@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/perl-html-parser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-html-parser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-html-parser/container.yaml"
-updated_at: "2022-11-19 02:11:14.380696"
-latest: "3.79--pl5321h9f5acd7_0"
+updated_at: "2022-11-20 00:25:24.245825"
+latest: "3.80--pl5321h9f5acd7_0"
 container_url: "https://biocontainers.pro/tools/perl-html-parser"
 aliases:
  - "perl5.32.1"
  - "streamzip"
 versions:
  - "3.79--pl5321h9f5acd7_0"
+ - "3.80--pl5321h9f5acd7_0"
 description: "shpc-registry automated BioContainers addition for perl-html-parser"
-config: {"url": "https://biocontainers.pro/tools/perl-html-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-parser", "latest": {"3.79--pl5321h9f5acd7_0": "sha256:5b1b36262cfba67cb7aedac234e2eac0dc53abf720baebc320ad07a1e6edd985"}, "tags": {"3.79--pl5321h9f5acd7_0": "sha256:5b1b36262cfba67cb7aedac234e2eac0dc53abf720baebc320ad07a1e6edd985"}, "docker": "quay.io/biocontainers/perl-html-parser", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/perl-html-parser", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for perl-html-parser", "latest": {"3.80--pl5321h9f5acd7_0": "sha256:eb501abf500be9d4982bd1afda9525bfb3a1a7b9fc67fab4d38e829458146f05"}, "tags": {"3.79--pl5321h9f5acd7_0": "sha256:5b1b36262cfba67cb7aedac234e2eac0dc53abf720baebc320ad07a1e6edd985", "3.80--pl5321h9f5acd7_0": "sha256:eb501abf500be9d4982bd1afda9525bfb3a1a7b9fc67fab4d38e829458146f05"}, "docker": "quay.io/biocontainers/perl-html-parser", "aliases": {"perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/perl-html-parser.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/perl-html-parser
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/perl-html-parser:3.79--pl5321h9f5acd7_0
+$ shpc install quay.io/biocontainers/perl-html-parser:3.80--pl5321h9f5acd7_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/perl-html-parser/3.79--pl5321h9f5acd7_0
-$ module help quay.io/biocontainers/perl-html-parser/3.79--pl5321h9f5acd7_0
+$ module load quay.io/biocontainers/perl-html-parser/3.80--pl5321h9f5acd7_0
+$ module help quay.io/biocontainers/perl-html-parser/3.80--pl5321h9f5acd7_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

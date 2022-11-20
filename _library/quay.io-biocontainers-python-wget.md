@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/python-wget"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/python-wget/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/python-wget/container.yaml"
-updated_at: "2022-11-19 02:30:26.319097"
+updated_at: "2022-11-20 00:51:43.103603"
 latest: "3.2--py36_0"
 container_url: "https://biocontainers.pro/tools/python-wget"
 aliases:

@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-epic"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-epic/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-epic/container.yaml"
-updated_at: "2022-11-19 02:21:44.158722"
-latest: "1.1--r41hdfd78af_4"
+updated_at: "2022-11-20 00:39:43.434722"
+latest: "1.1--r42hdfd78af_5"
 container_url: "https://biocontainers.pro/tools/r-epic"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.1--r41hdfd78af_4"
+ - "1.1--r42hdfd78af_5"
 description: "shpc-registry automated BioContainers addition for r-epic"
-config: {"url": "https://biocontainers.pro/tools/r-epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-epic", "latest": {"1.1--r41hdfd78af_4": "sha256:009053ec0f8cfb2d5a547677e497bf8e95f845962adffe23289554a774538c92"}, "tags": {"1.1--r41hdfd78af_4": "sha256:009053ec0f8cfb2d5a547677e497bf8e95f845962adffe23289554a774538c92"}, "docker": "quay.io/biocontainers/r-epic", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/r-epic", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-epic", "latest": {"1.1--r42hdfd78af_5": "sha256:1fe5e2dd6f1070c1ef1c445647aa5bb205442f2a36f05c0da97e6d4be0aac6d9"}, "tags": {"1.1--r41hdfd78af_4": "sha256:009053ec0f8cfb2d5a547677e497bf8e95f845962adffe23289554a774538c92", "1.1--r42hdfd78af_5": "sha256:1fe5e2dd6f1070c1ef1c445647aa5bb205442f2a36f05c0da97e6d4be0aac6d9"}, "docker": "quay.io/biocontainers/r-epic", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-epic.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-epic
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-epic:1.1--r41hdfd78af_4
+$ shpc install quay.io/biocontainers/r-epic:1.1--r42hdfd78af_5
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-epic/1.1--r41hdfd78af_4
-$ module help quay.io/biocontainers/r-epic/1.1--r41hdfd78af_4
+$ module load quay.io/biocontainers/r-epic/1.1--r42hdfd78af_5
+$ module help quay.io/biocontainers/r-epic/1.1--r42hdfd78af_5
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

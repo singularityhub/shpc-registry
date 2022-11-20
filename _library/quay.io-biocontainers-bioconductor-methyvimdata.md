@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-methyvimdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-methyvimdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-methyvimdata/container.yaml"
-updated_at: "2022-11-19 01:47:14.157916"
-latest: "1.8.0--r36_0"
+updated_at: "2022-11-19 23:52:28.038874"
+latest: "1.12.0--r40hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-methyvimdata"
 aliases:
  - ".bioconductor-methyvimdata-post-link.sh"
@@ -15,8 +15,10 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r36_0"
+ - "1.12.0--r40hdfd78af_1"
+ - "1.10.0--r40_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-methyvimdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-methyvimdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyvimdata", "latest": {"1.8.0--r36_0": "sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634"}, "tags": {"1.8.0--r36_0": "sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634"}, "docker": "quay.io/biocontainers/bioconductor-methyvimdata", "aliases": {".bioconductor-methyvimdata-post-link.sh": "/usr/local/bin/.bioconductor-methyvimdata-post-link.sh", ".bioconductor-methyvimdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-methyvimdata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-methyvimdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-methyvimdata", "latest": {"1.12.0--r40hdfd78af_1": "sha256:066922365743f4444da053d444c569f8d4df692abec3456569f4fca9930104bc"}, "tags": {"1.8.0--r36_0": "sha256:62d45d9aa165b623bbe2f182159f079cfc3f67a56d61d639d7b8013fb1da3634", "1.12.0--r40hdfd78af_1": "sha256:066922365743f4444da053d444c569f8d4df692abec3456569f4fca9930104bc", "1.10.0--r40_0": "sha256:f7f333943d265f64c33d8067c43843f3c57f8e780b1251aaee9f571cdcb2747d"}, "docker": "quay.io/biocontainers/bioconductor-methyvimdata", "aliases": {".bioconductor-methyvimdata-post-link.sh": "/usr/local/bin/.bioconductor-methyvimdata-post-link.sh", ".bioconductor-methyvimdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-methyvimdata-pre-unlink.sh", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-methyvimdata.
@@ -31,7 +33,7 @@ $ shpc install quay.io/biocontainers/bioconductor-methyvimdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-methyvimdata:1.8.0--r36_0
+$ shpc install quay.io/biocontainers/bioconductor-methyvimdata:1.12.0--r40hdfd78af_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -43,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-methyvimdata/1.8.0--r36_0
-$ module help quay.io/biocontainers/bioconductor-methyvimdata/1.8.0--r36_0
+$ module load quay.io/biocontainers/bioconductor-methyvimdata/1.12.0--r40hdfd78af_1
+$ module help quay.io/biocontainers/bioconductor-methyvimdata/1.12.0--r40hdfd78af_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

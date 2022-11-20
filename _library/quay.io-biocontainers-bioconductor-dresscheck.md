@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-dresscheck"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-dresscheck/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-dresscheck/container.yaml"
-updated_at: "2022-11-19 02:24:52.588137"
+updated_at: "2022-11-20 00:44:01.853274"
 latest: "0.32.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-dresscheck"
 aliases:

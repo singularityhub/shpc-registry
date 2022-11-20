@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/cite-seq-count"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/cite-seq-count/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/cite-seq-count/container.yaml"
-updated_at: "2022-11-19 02:10:10.331729"
+updated_at: "2022-11-20 00:23:53.421940"
 latest: "1.4.4--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/cite-seq-count"
 aliases:

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rheumaticconditionwollbold"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/container.yaml"
-updated_at: "2022-11-19 01:49:04.493373"
-latest: "1.32.0--r41hdfd78af_1"
+updated_at: "2022-11-19 23:54:51.978498"
+latest: "1.35.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rheumaticconditionwollbold"
 aliases:
  - ".bioconductor-rheumaticconditionwollbold-post-link.sh"
  - ".bioconductor-rheumaticconditionwollbold-pre-unlink.sh"
 versions:
  - "1.32.0--r41hdfd78af_1"
+ - "1.35.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rheumaticconditionwollbold"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rheumaticconditionwollbold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rheumaticconditionwollbold", "latest": {"1.32.0--r41hdfd78af_1": "sha256:8d80483382e46a5ec2a4fe5a62714fb8960cb24c0c34735fd8695fdf1da7ef09"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:8d80483382e46a5ec2a4fe5a62714fb8960cb24c0c34735fd8695fdf1da7ef09"}, "docker": "quay.io/biocontainers/bioconductor-rheumaticconditionwollbold", "aliases": {".bioconductor-rheumaticconditionwollbold-post-link.sh": "/usr/local/bin/.bioconductor-rheumaticconditionwollbold-post-link.sh", ".bioconductor-rheumaticconditionwollbold-pre-unlink.sh": "/usr/local/bin/.bioconductor-rheumaticconditionwollbold-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rheumaticconditionwollbold", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rheumaticconditionwollbold", "latest": {"1.35.0--r42hdfd78af_0": "sha256:77d7cfefceff8453cb608811b2860814fb30d52a832bb6864dfd98a744b0ed21"}, "tags": {"1.32.0--r41hdfd78af_1": "sha256:8d80483382e46a5ec2a4fe5a62714fb8960cb24c0c34735fd8695fdf1da7ef09", "1.35.0--r42hdfd78af_0": "sha256:77d7cfefceff8453cb608811b2860814fb30d52a832bb6864dfd98a744b0ed21"}, "docker": "quay.io/biocontainers/bioconductor-rheumaticconditionwollbold", "aliases": {".bioconductor-rheumaticconditionwollbold-post-link.sh": "/usr/local/bin/.bioconductor-rheumaticconditionwollbold-post-link.sh", ".bioconductor-rheumaticconditionwollbold-pre-unlink.sh": "/usr/local/bin/.bioconductor-rheumaticconditionwollbold-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rheumaticconditionwollbold.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rheumaticconditionwollbold
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rheumaticconditionwollbold:1.32.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-rheumaticconditionwollbold:1.35.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/1.32.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/1.32.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/1.35.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rheumaticconditionwollbold/1.35.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

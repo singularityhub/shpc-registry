@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-purecn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-purecn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-purecn/container.yaml"
-updated_at: "2022-11-19 01:47:44.750155"
-latest: "2.0.2--r41hdfd78af_0"
+updated_at: "2022-11-19 23:53:06.849545"
+latest: "2.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-purecn"
 
 versions:
  - "2.0.2--r41hdfd78af_0"
+ - "2.4.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-purecn"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-purecn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-purecn", "latest": {"2.0.2--r41hdfd78af_0": "sha256:a746e40a7f06b5491361003eaaade6c830e85e2365721461217373772f0a25c0"}, "tags": {"2.0.2--r41hdfd78af_0": "sha256:a746e40a7f06b5491361003eaaade6c830e85e2365721461217373772f0a25c0"}, "docker": "quay.io/biocontainers/bioconductor-purecn"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-purecn", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-purecn", "latest": {"2.4.0--r42hdfd78af_0": "sha256:f16a1db142358eb8484173db201478b5409433a536c6a982ddf838859ed5b259"}, "tags": {"2.0.2--r41hdfd78af_0": "sha256:a746e40a7f06b5491361003eaaade6c830e85e2365721461217373772f0a25c0", "2.4.0--r42hdfd78af_0": "sha256:f16a1db142358eb8484173db201478b5409433a536c6a982ddf838859ed5b259"}, "docker": "quay.io/biocontainers/bioconductor-purecn"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-purecn.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-purecn
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-purecn:2.0.2--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-purecn:2.4.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-purecn/2.0.2--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-purecn/2.0.2--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-purecn/2.4.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-purecn/2.4.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

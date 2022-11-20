@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-xml-twig"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-xml-twig/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-xml-twig/container.yaml"
-updated_at: "2022-11-19 02:05:32.618729"
+updated_at: "2022-11-20 00:17:27.636614"
 latest: "3.52--pl526_2"
 container_url: "https://biocontainers.pro/tools/perl-xml-twig"
 aliases:

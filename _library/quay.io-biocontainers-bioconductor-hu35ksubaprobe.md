@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hu35ksubaprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hu35ksubaprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hu35ksubaprobe/container.yaml"
-updated_at: "2022-11-19 02:38:57.337129"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-20 01:03:13.688133"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-hu35ksubaprobe"
 aliases:
  - ".bioconductor-hu35ksubaprobe-post-link.sh"
  - ".bioconductor-hu35ksubaprobe-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-hu35ksubaprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hu35ksubaprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hu35ksubaprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:05ecefee5fbcd65517305d3144c71ac2cc78139c3af578bedd76ee40016bb0c2"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:05ecefee5fbcd65517305d3144c71ac2cc78139c3af578bedd76ee40016bb0c2"}, "docker": "quay.io/biocontainers/bioconductor-hu35ksubaprobe", "aliases": {".bioconductor-hu35ksubaprobe-post-link.sh": "/usr/local/bin/.bioconductor-hu35ksubaprobe-post-link.sh", ".bioconductor-hu35ksubaprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-hu35ksubaprobe-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hu35ksubaprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hu35ksubaprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:575cf71e6209bd79dceb84124c50768b664db113d3fde062a39adc6c63366e3f"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:05ecefee5fbcd65517305d3144c71ac2cc78139c3af578bedd76ee40016bb0c2", "2.18.0--r42hdfd78af_10": "sha256:575cf71e6209bd79dceb84124c50768b664db113d3fde062a39adc6c63366e3f"}, "docker": "quay.io/biocontainers/bioconductor-hu35ksubaprobe", "aliases": {".bioconductor-hu35ksubaprobe-post-link.sh": "/usr/local/bin/.bioconductor-hu35ksubaprobe-post-link.sh", ".bioconductor-hu35ksubaprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-hu35ksubaprobe-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hu35ksubaprobe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hu35ksubaprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hu35ksubaprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-hu35ksubaprobe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hu35ksubaprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-hu35ksubaprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-hu35ksubaprobe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-hu35ksubaprobe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

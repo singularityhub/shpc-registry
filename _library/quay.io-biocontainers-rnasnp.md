@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rnasnp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rnasnp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rnasnp/container.yaml"
-updated_at: "2022-11-19 02:30:42.868481"
+updated_at: "2022-11-20 00:52:05.392733"
 latest: "1.2--h1b792b2_6"
 container_url: "https://biocontainers.pro/tools/rnasnp"
 aliases:

@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-gaggle"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-gaggle/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-gaggle/container.yaml"
-updated_at: "2022-11-19 01:57:01.502169"
-latest: "1.62.0--r41hdfd78af_0"
+updated_at: "2022-11-20 00:05:47.374170"
+latest: "1.66.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-gaggle"
 aliases:
  - "jfr"
@@ -20,8 +20,9 @@ aliases:
  - "jjs"
 versions:
  - "1.62.0--r41hdfd78af_0"
+ - "1.66.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-gaggle"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-gaggle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gaggle", "latest": {"1.62.0--r41hdfd78af_0": "sha256:f736d26f4d23313c77310a4df57d8322ebe26b48d18067ae4553593a4e657ac4"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:f736d26f4d23313c77310a4df57d8322ebe26b48d18067ae4553593a4e657ac4"}, "docker": "quay.io/biocontainers/bioconductor-gaggle", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-gaggle", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-gaggle", "latest": {"1.66.0--r42hdfd78af_0": "sha256:ed1d0fa483c841f61cb40fc107f0476583e346eb8ed7378554cbd2eb486942aa"}, "tags": {"1.62.0--r41hdfd78af_0": "sha256:f736d26f4d23313c77310a4df57d8322ebe26b48d18067ae4553593a4e657ac4", "1.66.0--r42hdfd78af_0": "sha256:ed1d0fa483c841f61cb40fc107f0476583e346eb8ed7378554cbd2eb486942aa"}, "docker": "quay.io/biocontainers/bioconductor-gaggle", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-gaggle.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-gaggle
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-gaggle:1.62.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-gaggle:1.66.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-gaggle/1.62.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-gaggle/1.62.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-gaggle/1.66.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-gaggle/1.66.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-agprobe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-agprobe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-agprobe/container.yaml"
-updated_at: "2022-11-19 02:15:12.760879"
-latest: "2.18.0--r41hdfd78af_9"
+updated_at: "2022-11-20 00:30:47.960481"
+latest: "2.18.0--r42hdfd78af_10"
 container_url: "https://biocontainers.pro/tools/bioconductor-agprobe"
 aliases:
  - ".bioconductor-agprobe-post-link.sh"
  - ".bioconductor-agprobe-pre-unlink.sh"
 versions:
  - "2.18.0--r41hdfd78af_9"
+ - "2.18.0--r42hdfd78af_10"
 description: "shpc-registry automated BioContainers addition for bioconductor-agprobe"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-agprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agprobe", "latest": {"2.18.0--r41hdfd78af_9": "sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e"}, "docker": "quay.io/biocontainers/bioconductor-agprobe", "aliases": {".bioconductor-agprobe-post-link.sh": "/usr/local/bin/.bioconductor-agprobe-post-link.sh", ".bioconductor-agprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-agprobe-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-agprobe", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-agprobe", "latest": {"2.18.0--r42hdfd78af_10": "sha256:cd0a57223a70af9ec8353a06be09cbbcfb1c8a1fb3d3aaa4557a88386288694d"}, "tags": {"2.18.0--r41hdfd78af_9": "sha256:3a49204e53bf60c0762ddcc6d776cb911e5e4b8572f1b56bdabe55216c78ab4e", "2.18.0--r42hdfd78af_10": "sha256:cd0a57223a70af9ec8353a06be09cbbcfb1c8a1fb3d3aaa4557a88386288694d"}, "docker": "quay.io/biocontainers/bioconductor-agprobe", "aliases": {".bioconductor-agprobe-post-link.sh": "/usr/local/bin/.bioconductor-agprobe-post-link.sh", ".bioconductor-agprobe-pre-unlink.sh": "/usr/local/bin/.bioconductor-agprobe-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-agprobe.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-agprobe
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-agprobe:2.18.0--r41hdfd78af_9
+$ shpc install quay.io/biocontainers/bioconductor-agprobe:2.18.0--r42hdfd78af_10
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-agprobe/2.18.0--r41hdfd78af_9
-$ module help quay.io/biocontainers/bioconductor-agprobe/2.18.0--r41hdfd78af_9
+$ module load quay.io/biocontainers/bioconductor-agprobe/2.18.0--r42hdfd78af_10
+$ module help quay.io/biocontainers/bioconductor-agprobe/2.18.0--r42hdfd78af_10
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

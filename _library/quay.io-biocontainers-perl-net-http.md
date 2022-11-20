@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-net-http"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-net-http/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-net-http/container.yaml"
-updated_at: "2022-11-19 02:32:46.516377"
+updated_at: "2022-11-20 00:54:52.372036"
 latest: "6.22--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-net-http"
 aliases:

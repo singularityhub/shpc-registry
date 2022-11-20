@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/somatic-sniper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/somatic-sniper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/somatic-sniper/container.yaml"
-updated_at: "2022-11-19 02:35:37.774833"
+updated_at: "2022-11-20 00:58:43.453716"
 latest: "1.0.5.0--0"
 container_url: "https://biocontainers.pro/tools/somatic-sniper"
 aliases:

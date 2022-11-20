@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/r-rtassel"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-rtassel/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-rtassel/container.yaml"
-updated_at: "2022-11-19 02:04:40.559458"
-latest: "0.1.2019.07.25--r41h9ee0642_3"
+updated_at: "2022-11-20 00:16:14.352894"
+latest: "0.1.2019.07.25--r42h9ee0642_4"
 container_url: "https://biocontainers.pro/tools/r-rtassel"
 aliases:
  - "jfr"
@@ -20,8 +20,9 @@ aliases:
  - "jjs"
 versions:
  - "0.1.2019.07.25--r41h9ee0642_3"
+ - "0.1.2019.07.25--r42h9ee0642_4"
 description: "shpc-registry automated BioContainers addition for r-rtassel"
-config: {"url": "https://biocontainers.pro/tools/r-rtassel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rtassel", "latest": {"0.1.2019.07.25--r41h9ee0642_3": "sha256:57f4ff458e5970d0b518d8f4ee765542f89fba3dae8fa0b3865b2aaf81043332"}, "tags": {"0.1.2019.07.25--r41h9ee0642_3": "sha256:57f4ff458e5970d0b518d8f4ee765542f89fba3dae8fa0b3865b2aaf81043332"}, "docker": "quay.io/biocontainers/r-rtassel", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
+config: {"url": "https://biocontainers.pro/tools/r-rtassel", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-rtassel", "latest": {"0.1.2019.07.25--r42h9ee0642_4": "sha256:cb9e751e32492ad16bf0ea58d97b42f6a13e9345adbf1dfdc81661772c3df1c2"}, "tags": {"0.1.2019.07.25--r41h9ee0642_3": "sha256:57f4ff458e5970d0b518d8f4ee765542f89fba3dae8fa0b3865b2aaf81043332", "0.1.2019.07.25--r42h9ee0642_4": "sha256:cb9e751e32492ad16bf0ea58d97b42f6a13e9345adbf1dfdc81661772c3df1c2"}, "docker": "quay.io/biocontainers/r-rtassel", "aliases": {"jfr": "/usr/local/bin/jfr", "jaotc": "/usr/local/bin/jaotc", "aserver": "/usr/local/bin/aserver", "jdeprscan": "/usr/local/bin/jdeprscan", "jhsdb": "/usr/local/bin/jhsdb", "jimage": "/usr/local/bin/jimage", "jlink": "/usr/local/bin/jlink", "jmod": "/usr/local/bin/jmod", "jshell": "/usr/local/bin/jshell", "jjs": "/usr/local/bin/jjs"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-rtassel.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/r-rtassel
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-rtassel:0.1.2019.07.25--r41h9ee0642_3
+$ shpc install quay.io/biocontainers/r-rtassel:0.1.2019.07.25--r42h9ee0642_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-rtassel/0.1.2019.07.25--r41h9ee0642_3
-$ module help quay.io/biocontainers/r-rtassel/0.1.2019.07.25--r41h9ee0642_3
+$ module load quay.io/biocontainers/r-rtassel/0.1.2019.07.25--r42h9ee0642_4
+$ module help quay.io/biocontainers/r-rtassel/0.1.2019.07.25--r42h9ee0642_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

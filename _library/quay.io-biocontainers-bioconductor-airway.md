@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-airway"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-airway/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-airway/container.yaml"
-updated_at: "2022-11-19 02:13:55.204754"
-latest: "1.8.0--r40_0"
+updated_at: "2022-11-20 00:29:02.002008"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-airway"
 aliases:
  - ".bioconductor-airway-post-link.sh"
@@ -20,8 +20,12 @@ aliases:
  - "c99"
 versions:
  - "1.8.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.0--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-airway"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-airway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-airway", "latest": {"1.8.0--r40_0": "sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4"}, "tags": {"1.8.0--r40_0": "sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4"}, "docker": "quay.io/biocontainers/bioconductor-airway", "aliases": {".bioconductor-airway-post-link.sh": "/usr/local/bin/.bioconductor-airway-post-link.sh", ".bioconductor-airway-pre-unlink.sh": "/usr/local/bin/.bioconductor-airway-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-airway", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-airway", "latest": {"1.18.0--r42hdfd78af_0": "sha256:e9e87f9f0915b5c97e57f23df7f12784abd6ca4d086c0e08f9bb66d07d9ca6db"}, "tags": {"1.8.0--r40_0": "sha256:6028277d59f5da247a21c29c113ba3868e0d5c2a80eadb360abcc2bd3bc241a4", "1.18.0--r42hdfd78af_0": "sha256:e9e87f9f0915b5c97e57f23df7f12784abd6ca4d086c0e08f9bb66d07d9ca6db", "1.14.0--r41hdfd78af_1": "sha256:f155cecb6c5b36dba203ff61ef137fea8cca4061d9ca7ef7151ccc5277931d83", "1.12.0--r41hdfd78af_0": "sha256:e4d3218868c94c6ab3d158c6642f5a149c1e615c1f540302c4e106d4d20bf59e", "1.10.0--r40hdfd78af_1": "sha256:b6beb68572e7f9ca9528269d319fecd18200b43ee48ff272b46126deb5974977"}, "docker": "quay.io/biocontainers/bioconductor-airway", "aliases": {".bioconductor-airway-post-link.sh": "/usr/local/bin/.bioconductor-airway-post-link.sh", ".bioconductor-airway-pre-unlink.sh": "/usr/local/bin/.bioconductor-airway-pre-unlink.sh", "2to3-3.8": "/usr/local/bin/2to3-3.8", "idle3.8": "/usr/local/bin/idle3.8", "pydoc3.8": "/usr/local/bin/pydoc3.8", "python3.8": "/usr/local/bin/python3.8", "python3.8-config": "/usr/local/bin/python3.8-config", "gio-launch-desktop": "/usr/local/bin/gio-launch-desktop", "c89": "/usr/local/bin/c89", "c99": "/usr/local/bin/c99"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-airway.
@@ -36,7 +40,7 @@ $ shpc install quay.io/biocontainers/bioconductor-airway
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-airway:1.8.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-airway:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-airway/1.8.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-airway/1.8.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-airway/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-airway/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-outliers"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-outliers/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-outliers/container.yaml"
-updated_at: "2022-11-19 02:17:27.749627"
+updated_at: "2022-11-20 00:33:50.678351"
 latest: "0.14--r3.3.1_0"
 container_url: "https://biocontainers.pro/tools/r-outliers"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-csar"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-csar/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-csar/container.yaml"
-updated_at: "2022-11-19 02:34:56.476283"
-latest: "1.46.0--r41hc0cfd56_2"
+updated_at: "2022-11-20 00:57:47.798567"
+latest: "1.50.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-csar"
 
 versions:
  - "1.46.0--r41hc0cfd56_2"
+ - "1.50.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-csar"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-csar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csar", "latest": {"1.46.0--r41hc0cfd56_2": "sha256:48f7b04399c514fab7bb35ddd62affcefb8ed49b4c2194854eb0b5eb89bda879"}, "tags": {"1.46.0--r41hc0cfd56_2": "sha256:48f7b04399c514fab7bb35ddd62affcefb8ed49b4c2194854eb0b5eb89bda879"}, "docker": "quay.io/biocontainers/bioconductor-csar"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-csar", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-csar", "latest": {"1.50.0--r42hc0cfd56_0": "sha256:852fa603953a9fa0552274f1b231a6d7d169449b6d95ced4614fdf67b83124db"}, "tags": {"1.46.0--r41hc0cfd56_2": "sha256:48f7b04399c514fab7bb35ddd62affcefb8ed49b4c2194854eb0b5eb89bda879", "1.50.0--r42hc0cfd56_0": "sha256:852fa603953a9fa0552274f1b231a6d7d169449b6d95ced4614fdf67b83124db"}, "docker": "quay.io/biocontainers/bioconductor-csar"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-csar.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-csar
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-csar:1.46.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-csar:1.50.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-csar/1.46.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-csar/1.46.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-csar/1.50.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-csar/1.50.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

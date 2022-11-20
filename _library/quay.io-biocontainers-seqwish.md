@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/seqwish"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/seqwish/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/seqwish/container.yaml"
-updated_at: "2022-11-19 01:51:30.533261"
+updated_at: "2022-11-19 23:58:07.883383"
 latest: "0.7.7--h5b5514e_1"
 container_url: "https://biocontainers.pro/tools/seqwish"
 aliases:

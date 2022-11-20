@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-parallel-iterator"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-parallel-iterator/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-parallel-iterator/container.yaml"
-updated_at: "2022-11-19 02:33:39.082588"
+updated_at: "2022-11-20 00:56:03.064871"
 latest: "1.00--pl5321hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/perl-parallel-iterator"
 aliases:

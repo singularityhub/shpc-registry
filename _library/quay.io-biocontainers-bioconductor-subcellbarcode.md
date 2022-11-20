@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-subcellbarcode"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-subcellbarcode/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-subcellbarcode/container.yaml"
-updated_at: "2022-11-19 01:50:22.768988"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-19 23:56:37.261783"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-subcellbarcode"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-subcellbarcode"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-subcellbarcode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-subcellbarcode", "latest": {"1.8.0--r41hdfd78af_0": "sha256:87d95b32a81f52a6c5bfe7e5524124d7f9721ea62995c498d34ea5b71070a129"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:87d95b32a81f52a6c5bfe7e5524124d7f9721ea62995c498d34ea5b71070a129"}, "docker": "quay.io/biocontainers/bioconductor-subcellbarcode", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-subcellbarcode", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-subcellbarcode", "latest": {"1.14.0--r42hdfd78af_0": "sha256:2cee52d8223da45f20e5f79871367eeae4358e7f76d3abc840bd9e39c6c0d558"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:87d95b32a81f52a6c5bfe7e5524124d7f9721ea62995c498d34ea5b71070a129", "1.14.0--r42hdfd78af_0": "sha256:2cee52d8223da45f20e5f79871367eeae4358e7f76d3abc840bd9e39c6c0d558", "1.10.0--r41hdfd78af_0": "sha256:1a367fe71da58e50c3617b66ef7222b87832e1b65be3353ff23c3f4c32349fe3"}, "docker": "quay.io/biocontainers/bioconductor-subcellbarcode", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-subcellbarcode.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-subcellbarcode
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-subcellbarcode:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-subcellbarcode:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-subcellbarcode/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-subcellbarcode/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-subcellbarcode/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-subcellbarcode/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-hapmapsnp5"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapmapsnp5/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapmapsnp5/container.yaml"
-updated_at: "2022-11-19 02:09:06.238486"
-latest: "1.36.0--r41hdfd78af_1"
+updated_at: "2022-11-20 00:22:24.460255"
+latest: "1.39.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapmapsnp5"
 aliases:
  - ".bioconductor-hapmapsnp5-post-link.sh"
  - ".bioconductor-hapmapsnp5-pre-unlink.sh"
 versions:
  - "1.36.0--r41hdfd78af_1"
+ - "1.39.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-hapmapsnp5"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmapsnp5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmapsnp5", "latest": {"1.36.0--r41hdfd78af_1": "sha256:5393e45d5564dc2613060ecbe009c771b177d6ce2bc554292eea7736ebdcd9d7"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:5393e45d5564dc2613060ecbe009c771b177d6ce2bc554292eea7736ebdcd9d7"}, "docker": "quay.io/biocontainers/bioconductor-hapmapsnp5", "aliases": {".bioconductor-hapmapsnp5-post-link.sh": "/usr/local/bin/.bioconductor-hapmapsnp5-post-link.sh", ".bioconductor-hapmapsnp5-pre-unlink.sh": "/usr/local/bin/.bioconductor-hapmapsnp5-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-hapmapsnp5", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-hapmapsnp5", "latest": {"1.39.0--r42hdfd78af_0": "sha256:6a0b8cc388ab3185c92048dc7c679e086f4e90ebd5685e4afa08bc2de7731857"}, "tags": {"1.36.0--r41hdfd78af_1": "sha256:5393e45d5564dc2613060ecbe009c771b177d6ce2bc554292eea7736ebdcd9d7", "1.39.0--r42hdfd78af_0": "sha256:6a0b8cc388ab3185c92048dc7c679e086f4e90ebd5685e4afa08bc2de7731857"}, "docker": "quay.io/biocontainers/bioconductor-hapmapsnp5", "aliases": {".bioconductor-hapmapsnp5-post-link.sh": "/usr/local/bin/.bioconductor-hapmapsnp5-post-link.sh", ".bioconductor-hapmapsnp5-pre-unlink.sh": "/usr/local/bin/.bioconductor-hapmapsnp5-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-hapmapsnp5.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-hapmapsnp5
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-hapmapsnp5:1.36.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-hapmapsnp5:1.39.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-hapmapsnp5/1.36.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-hapmapsnp5/1.36.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-hapmapsnp5/1.39.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-hapmapsnp5/1.39.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
