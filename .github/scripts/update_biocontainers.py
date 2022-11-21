@@ -198,7 +198,6 @@ def main():
             print(f"Issue adding container {container}")
 
     # Now add those not yet seen!
-    return
     print(f"Found {len(seen)} containers already added.")
     response = requests.get("https://depot.galaxyproject.org/singularity/")
     soup = BeautifulSoup(response.text, "html.parser")
