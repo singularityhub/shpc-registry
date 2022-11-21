@@ -9,7 +9,6 @@ tags:
   3.6.3: sha256:a2014be0cc26059c3f7fbbef66b25599b7c8871f880caac12037f9a142f60b81
 filter:
 - "^[0-9]+[.][0-9]+[.][0-9]+$"
-- "^[0-9]+[.][0-9]+$"
 aliases:
   R: /usr/local/bin/R
   Rscript: /usr/local/bin/Rscript

@@ -9,7 +9,6 @@ tags:
   3.6.3: sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625
 filter:
 - "^[0-9]+[.][0-9]+[.][0-9]+$"
-- "^[0-9]+[.][0-9]+$"
 aliases:
   rocker-shiny-run: /bin/bash
   shiny-server: /opt/shiny-server
