@@ -1,4 +1,4 @@
-docker: python
+docker: julia
 url: https://hub.docker.com/_/julia
 maintainer: '@marcodelapierre'
 description: An interpreted, high-level, high-performance dynamic programming language for technical computing.
