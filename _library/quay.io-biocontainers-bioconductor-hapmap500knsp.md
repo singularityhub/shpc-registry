@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-hapmap500knsp"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-hapmap500knsp/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-hapmap500knsp/container.yaml"
-updated_at: "2022-11-21 00:26:03.760485"
+updated_at: "2022-11-21 13:03:51.288939"
 latest: "1.39.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-hapmap500knsp"
 aliases:

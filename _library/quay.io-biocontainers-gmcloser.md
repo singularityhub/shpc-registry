@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/gmcloser"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/gmcloser/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/gmcloser/container.yaml"
-updated_at: "2022-11-21 01:00:16.878879"
+updated_at: "2022-11-21 13:27:44.524109"
 latest: "1.6.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/gmcloser"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-io-zlib"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-io-zlib/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-io-zlib/container.yaml"
-updated_at: "2022-11-21 00:33:51.002139"
+updated_at: "2022-11-21 13:09:11.366356"
 latest: "1.11--pl5321hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/perl-io-zlib"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/arvados-cli"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/arvados-cli/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/arvados-cli/container.yaml"
-updated_at: "2022-11-21 00:27:19.403057"
+updated_at: "2022-11-21 13:04:42.135728"
 latest: "0.1.20151207150126--0"
 container_url: "https://biocontainers.pro/tools/arvados-cli"
 aliases:

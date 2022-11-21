@@ -4,16 +4,17 @@ name:  "rocker/shiny"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/rocker/shiny/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/rocker/shiny/container.yaml"
-updated_at: "2022-11-21 01:02:14.779098"
-latest: "latest"
+updated_at: "2022-11-21 13:29:06.950812"
+latest: "4.2.2"
 container_url: "https://hub.docker.com/r/rocker/shiny"
 aliases:
  - "rocker-shiny-run"
  - "shiny-server"
 versions:
- - "latest"
+ - "4.2.2"
+ - "3.6.3"
 description: "Docker image with R + Shiny."
-config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"latest": "sha256:a50cd744ef64a8322100e26b53c6fbb3fbd89087d7597abf1867a4bfd6df9cfb"}, "tags": {"latest": "sha256:a50cd744ef64a8322100e26b53c6fbb3fbd89087d7597abf1867a4bfd6df9cfb"}, "filter": ["latest"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
+config: {"docker": "rocker/shiny", "url": "https://hub.docker.com/r/rocker/shiny", "maintainer": "@vsoch", "description": "Docker image with R + Shiny.", "latest": {"4.2.2": "sha256:e511673534e6001ad30e28470b3319a37431eef62e5f98a387850dca8e0fd07c"}, "tags": {"4.2.2": "sha256:e511673534e6001ad30e28470b3319a37431eef62e5f98a387850dca8e0fd07c", "3.6.3": "sha256:212182dd244edd0380f2f76521f2c10405504b632696852d776402585eb68625"}, "filter": ["^[0-9]+[.][0-9]+[.][0-9]+$"], "aliases": {"rocker-shiny-run": "/bin/bash", "shiny-server": "/opt/shiny-server"}}
 ---
 
 This module is a singularity container wrapper for rocker/shiny.
@@ -28,7 +29,7 @@ $ shpc install rocker/shiny
 Or a specific version:
 
 ```bash
-$ shpc install rocker/shiny:latest
+$ shpc install rocker/shiny:4.2.2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load rocker/shiny/latest
-$ module help rocker/shiny/latest
+$ module load rocker/shiny/4.2.2
+$ module help rocker/shiny/4.2.2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

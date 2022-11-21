@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-iasva"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-iasva/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-iasva/container.yaml"
-updated_at: "2022-11-20 23:52:48.240608"
+updated_at: "2022-11-21 12:41:22.114031"
 latest: "1.12.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-iasva"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/counterr"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/counterr/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/counterr/container.yaml"
-updated_at: "2022-11-21 00:58:10.961376"
+updated_at: "2022-11-21 13:26:15.930302"
 latest: "0.1--pyh864c0ab_1"
 container_url: "https://biocontainers.pro/tools/counterr"
 aliases:

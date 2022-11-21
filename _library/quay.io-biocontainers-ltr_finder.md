@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/ltr_finder"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/ltr_finder/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/ltr_finder/container.yaml"
-updated_at: "2022-11-20 23:53:04.378480"
+updated_at: "2022-11-21 12:41:33.940886"
 latest: "1.07--h9f5acd7_2"
 container_url: "https://biocontainers.pro/tools/ltr_finder"
 aliases:
