@@ -4,15 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-topconfects"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-topconfects/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-topconfects/container.yaml"
-updated_at: "2022-11-20 01:03:29.307048"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-21 00:54:55.505552"
+latest: "1.14.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-topconfects"
 aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.14.0--r42hdfd78af_0"
+ - "1.10.0--r41hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-topconfects"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-topconfects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topconfects", "latest": {"1.8.0--r41hdfd78af_0": "sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d"}, "docker": "quay.io/biocontainers/bioconductor-topconfects", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-topconfects", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-topconfects", "latest": {"1.14.0--r42hdfd78af_0": "sha256:33295ff46b7d8456c28ee5adf743341847c44b3d94addbb7983cbd708a416ce4"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:b58f263fecfac8ee2f0345b2c5a739f445f330286fb718213b7818a19dfd251d", "1.14.0--r42hdfd78af_0": "sha256:33295ff46b7d8456c28ee5adf743341847c44b3d94addbb7983cbd708a416ce4", "1.10.0--r41hdfd78af_0": "sha256:2e08200c00c3b7698c24b43141e2e2b2f13a21935c009c95ffc6b27f3515ca7e"}, "docker": "quay.io/biocontainers/bioconductor-topconfects", "aliases": {"x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-topconfects.
@@ -27,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-topconfects
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-topconfects:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-topconfects:1.14.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-topconfects/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-topconfects/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-topconfects/1.14.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-topconfects/1.14.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

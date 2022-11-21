@@ -4,15 +4,16 @@ name:  "quay.io/biocontainers/r-corncob"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-corncob/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-corncob/container.yaml"
-updated_at: "2022-11-20 01:03:24.150936"
-latest: "0.3.0--r41h3342da4_0"
+updated_at: "2022-11-21 00:54:51.038745"
+latest: "0.3.0--r42h3342da4_1"
 container_url: "https://biocontainers.pro/tools/r-corncob"
 aliases:
  - "glpsol"
 versions:
  - "0.3.0--r41h3342da4_0"
+ - "0.3.0--r42h3342da4_1"
 description: "shpc-registry automated BioContainers addition for r-corncob"
-config: {"url": "https://biocontainers.pro/tools/r-corncob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corncob", "latest": {"0.3.0--r41h3342da4_0": "sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8"}, "tags": {"0.3.0--r41h3342da4_0": "sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8"}, "docker": "quay.io/biocontainers/r-corncob", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
+config: {"url": "https://biocontainers.pro/tools/r-corncob", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for r-corncob", "latest": {"0.3.0--r42h3342da4_1": "sha256:aa9f89d8deb470c3a89bb99a88e54f345d4cc008e909eea41b92e830bcf25e2f"}, "tags": {"0.3.0--r41h3342da4_0": "sha256:515be655b655296720a14cacbcd65b02c77b53fbd67b77a2c8447341f4c7acb8", "0.3.0--r42h3342da4_1": "sha256:aa9f89d8deb470c3a89bb99a88e54f345d4cc008e909eea41b92e830bcf25e2f"}, "docker": "quay.io/biocontainers/r-corncob", "aliases": {"glpsol": "/usr/local/bin/glpsol"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/r-corncob.
@@ -27,7 +28,7 @@ $ shpc install quay.io/biocontainers/r-corncob
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/r-corncob:0.3.0--r41h3342da4_0
+$ shpc install quay.io/biocontainers/r-corncob:0.3.0--r42h3342da4_1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -39,8 +40,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/r-corncob/0.3.0--r41h3342da4_0
-$ module help quay.io/biocontainers/r-corncob/0.3.0--r41h3342da4_0
+$ module load quay.io/biocontainers/r-corncob/0.3.0--r42h3342da4_1
+$ module help quay.io/biocontainers/r-corncob/0.3.0--r42h3342da4_1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

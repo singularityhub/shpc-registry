@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-muscdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-muscdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-muscdata/container.yaml"
-updated_at: "2022-11-20 00:31:27.039252"
-latest: "1.8.0--r41hdfd78af_1"
+updated_at: "2022-11-21 00:27:30.144445"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-muscdata"
 aliases:
  - ".bioconductor-muscdata-post-link.sh"
  - ".bioconductor-muscdata-pre-unlink.sh"
 versions:
  - "1.8.0--r41hdfd78af_1"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-muscdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-muscdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-muscdata", "latest": {"1.8.0--r41hdfd78af_1": "sha256:a5c53c3da7823398ba5a8c3fe02a69e8e7eb0a70aab4b0319d818fc94244e566"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:a5c53c3da7823398ba5a8c3fe02a69e8e7eb0a70aab4b0319d818fc94244e566"}, "docker": "quay.io/biocontainers/bioconductor-muscdata", "aliases": {".bioconductor-muscdata-post-link.sh": "/usr/local/bin/.bioconductor-muscdata-post-link.sh", ".bioconductor-muscdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-muscdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-muscdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-muscdata", "latest": {"1.12.0--r42hdfd78af_0": "sha256:11e610f3d00f33066cab00c8dc4498f0586bab30bb9e5207c9a76fcdfed47419"}, "tags": {"1.8.0--r41hdfd78af_1": "sha256:a5c53c3da7823398ba5a8c3fe02a69e8e7eb0a70aab4b0319d818fc94244e566", "1.12.0--r42hdfd78af_0": "sha256:11e610f3d00f33066cab00c8dc4498f0586bab30bb9e5207c9a76fcdfed47419"}, "docker": "quay.io/biocontainers/bioconductor-muscdata", "aliases": {".bioconductor-muscdata-post-link.sh": "/usr/local/bin/.bioconductor-muscdata-post-link.sh", ".bioconductor-muscdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-muscdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-muscdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-muscdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-muscdata:1.8.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-muscdata:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-muscdata/1.8.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-muscdata/1.8.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-muscdata/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-muscdata/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

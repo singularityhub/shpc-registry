@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-rnbeads.hg38"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-rnbeads.hg38/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-rnbeads.hg38/container.yaml"
-updated_at: "2022-11-20 00:50:41.919175"
-latest: "1.26.0--r41hdfd78af_1"
+updated_at: "2022-11-21 00:43:56.878995"
+latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-rnbeads.hg38"
 aliases:
  - ".bioconductor-rnbeads.hg38-post-link.sh"
  - ".bioconductor-rnbeads.hg38-pre-unlink.sh"
 versions:
  - "1.26.0--r41hdfd78af_1"
+ - "1.30.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-rnbeads.hg38"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-rnbeads.hg38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnbeads.hg38", "latest": {"1.26.0--r41hdfd78af_1": "sha256:e8b60491a20e5b59cb1d73e4eca544ceefabac29306054545f4e0d2c93fac749"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:e8b60491a20e5b59cb1d73e4eca544ceefabac29306054545f4e0d2c93fac749"}, "docker": "quay.io/biocontainers/bioconductor-rnbeads.hg38", "aliases": {".bioconductor-rnbeads.hg38-post-link.sh": "/usr/local/bin/.bioconductor-rnbeads.hg38-post-link.sh", ".bioconductor-rnbeads.hg38-pre-unlink.sh": "/usr/local/bin/.bioconductor-rnbeads.hg38-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-rnbeads.hg38", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-rnbeads.hg38", "latest": {"1.30.0--r42hdfd78af_0": "sha256:72f085479611c7ff49df211b1d6238b838d134fb288babf9759490c4a25d29a9"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:e8b60491a20e5b59cb1d73e4eca544ceefabac29306054545f4e0d2c93fac749", "1.30.0--r42hdfd78af_0": "sha256:72f085479611c7ff49df211b1d6238b838d134fb288babf9759490c4a25d29a9"}, "docker": "quay.io/biocontainers/bioconductor-rnbeads.hg38", "aliases": {".bioconductor-rnbeads.hg38-post-link.sh": "/usr/local/bin/.bioconductor-rnbeads.hg38-post-link.sh", ".bioconductor-rnbeads.hg38-pre-unlink.sh": "/usr/local/bin/.bioconductor-rnbeads.hg38-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-rnbeads.hg38.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-rnbeads.hg38
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-rnbeads.hg38:1.26.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-rnbeads.hg38:1.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-rnbeads.hg38/1.26.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-rnbeads.hg38/1.26.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-rnbeads.hg38/1.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-rnbeads.hg38/1.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

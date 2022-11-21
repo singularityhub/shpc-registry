@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ihwpaper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ihwpaper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ihwpaper/container.yaml"
-updated_at: "2022-11-20 01:00:57.606445"
-latest: "1.22.0--r41hc247a5b_3"
+updated_at: "2022-11-21 00:52:45.492637"
+latest: "1.26.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ihwpaper"
 aliases:
  - ".bioconductor-ihwpaper-post-link.sh"
  - ".bioconductor-ihwpaper-pre-unlink.sh"
 versions:
  - "1.22.0--r41hc247a5b_3"
+ - "1.26.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ihwpaper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ihwpaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ihwpaper", "latest": {"1.22.0--r41hc247a5b_3": "sha256:899941e3143bd2b9b80e43444383dd640d5df975e39e80087aceacc8cb0459de"}, "tags": {"1.22.0--r41hc247a5b_3": "sha256:899941e3143bd2b9b80e43444383dd640d5df975e39e80087aceacc8cb0459de"}, "docker": "quay.io/biocontainers/bioconductor-ihwpaper", "aliases": {".bioconductor-ihwpaper-post-link.sh": "/usr/local/bin/.bioconductor-ihwpaper-post-link.sh", ".bioconductor-ihwpaper-pre-unlink.sh": "/usr/local/bin/.bioconductor-ihwpaper-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ihwpaper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ihwpaper", "latest": {"1.26.0--r42hc247a5b_0": "sha256:be22946a3a16ebf4f7f15f306fb5fe1a8fe82583e618d82bda8f5c0587611a01"}, "tags": {"1.22.0--r41hc247a5b_3": "sha256:899941e3143bd2b9b80e43444383dd640d5df975e39e80087aceacc8cb0459de", "1.26.0--r42hc247a5b_0": "sha256:be22946a3a16ebf4f7f15f306fb5fe1a8fe82583e618d82bda8f5c0587611a01"}, "docker": "quay.io/biocontainers/bioconductor-ihwpaper", "aliases": {".bioconductor-ihwpaper-post-link.sh": "/usr/local/bin/.bioconductor-ihwpaper-post-link.sh", ".bioconductor-ihwpaper-pre-unlink.sh": "/usr/local/bin/.bioconductor-ihwpaper-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ihwpaper.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ihwpaper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ihwpaper:1.22.0--r41hc247a5b_3
+$ shpc install quay.io/biocontainers/bioconductor-ihwpaper:1.26.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ihwpaper/1.22.0--r41hc247a5b_3
-$ module help quay.io/biocontainers/bioconductor-ihwpaper/1.22.0--r41hc247a5b_3
+$ module load quay.io/biocontainers/bioconductor-ihwpaper/1.26.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-ihwpaper/1.26.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

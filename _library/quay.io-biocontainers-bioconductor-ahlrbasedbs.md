@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-ahlrbasedbs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ahlrbasedbs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ahlrbasedbs/container.yaml"
-updated_at: "2022-11-20 00:01:51.060339"
-latest: "1.2.0--r41hdfd78af_1"
+updated_at: "2022-11-21 00:01:36.383274"
+latest: "1.5.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ahlrbasedbs"
 aliases:
  - ".bioconductor-ahlrbasedbs-post-link.sh"
  - ".bioconductor-ahlrbasedbs-pre-unlink.sh"
 versions:
  - "1.2.0--r41hdfd78af_1"
+ - "1.5.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-ahlrbasedbs"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-ahlrbasedbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahlrbasedbs", "latest": {"1.2.0--r41hdfd78af_1": "sha256:7a7726285e5c83cf3e9b4af8cffaf25939285ad55d771b3fdb11bc159e263d19"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:7a7726285e5c83cf3e9b4af8cffaf25939285ad55d771b3fdb11bc159e263d19"}, "docker": "quay.io/biocontainers/bioconductor-ahlrbasedbs", "aliases": {".bioconductor-ahlrbasedbs-post-link.sh": "/usr/local/bin/.bioconductor-ahlrbasedbs-post-link.sh", ".bioconductor-ahlrbasedbs-pre-unlink.sh": "/usr/local/bin/.bioconductor-ahlrbasedbs-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-ahlrbasedbs", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-ahlrbasedbs", "latest": {"1.5.0--r42hdfd78af_0": "sha256:abe0ee191fda768c1cd88d3ebd8af1cfc9b64b2309046d11514b2c3aecb41d96"}, "tags": {"1.2.0--r41hdfd78af_1": "sha256:7a7726285e5c83cf3e9b4af8cffaf25939285ad55d771b3fdb11bc159e263d19", "1.5.0--r42hdfd78af_0": "sha256:abe0ee191fda768c1cd88d3ebd8af1cfc9b64b2309046d11514b2c3aecb41d96"}, "docker": "quay.io/biocontainers/bioconductor-ahlrbasedbs", "aliases": {".bioconductor-ahlrbasedbs-post-link.sh": "/usr/local/bin/.bioconductor-ahlrbasedbs-post-link.sh", ".bioconductor-ahlrbasedbs-pre-unlink.sh": "/usr/local/bin/.bioconductor-ahlrbasedbs-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-ahlrbasedbs.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-ahlrbasedbs
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-ahlrbasedbs:1.2.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-ahlrbasedbs:1.5.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-ahlrbasedbs/1.2.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-ahlrbasedbs/1.2.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-ahlrbasedbs/1.5.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-ahlrbasedbs/1.5.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

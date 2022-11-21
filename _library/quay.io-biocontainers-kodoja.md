@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/kodoja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/kodoja/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/kodoja/container.yaml"
-updated_at: "2022-11-20 00:32:37.025479"
-latest: "0.0.9--0"
+updated_at: "2022-11-21 00:28:32.247993"
+latest: "0.0.10--0"
 container_url: "https://biocontainers.pro/tools/kodoja"
 aliases:
  - "addTaxonNames"
@@ -47,8 +47,9 @@ aliases:
  - "jsadebugd"
 versions:
  - "0.0.9--0"
+ - "0.0.10--0"
 description: "shpc-registry automated BioContainers addition for kodoja"
-config: {"url": "https://biocontainers.pro/tools/kodoja", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kodoja", "latest": {"0.0.9--0": "sha256:5d1c1cc0e1793497e177e0241945e7de65c3897239305a1bee21970e5d3c8db9"}, "tags": {"0.0.9--0": "sha256:5d1c1cc0e1793497e177e0241945e7de65c3897239305a1bee21970e5d3c8db9"}, "docker": "quay.io/biocontainers/kodoja", "aliases": {"addTaxonNames": "/usr/local/bin/addTaxonNames", "convertNR": "/usr/local/bin/convertNR", "convert_mar_to_kaiju.py": "/usr/local/bin/convert_mar_to_kaiju.py", "database_modules.py": "/usr/local/bin/database_modules.py", "diagnostic_modules.py": "/usr/local/bin/diagnostic_modules.py", "gbk2faa.pl": "/usr/local/bin/gbk2faa.pl", "kaiju": "/usr/local/bin/kaiju", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaijuReport": "/usr/local/bin/kaijuReport", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "kodoja_build.py": "/usr/local/bin/kodoja_build.py", "kodoja_retrieve.py": "/usr/local/bin/kodoja_retrieve.py", "kodoja_search.py": "/usr/local/bin/kodoja_search.py", "kraken": "/usr/local/bin/kraken", "kraken-build": "/usr/local/bin/kraken-build", "kraken-filter": "/usr/local/bin/kraken-filter", "kraken-mpa-report": "/usr/local/bin/kraken-mpa-report", "kraken-report": "/usr/local/bin/kraken-report", "kraken-translate": "/usr/local/bin/kraken-translate", "makeDB.sh": "/usr/local/bin/makeDB.sh", "mergeOutputs": "/usr/local/bin/mergeOutputs", "mkbwt": "/usr/local/bin/mkbwt", "mkfmi": "/usr/local/bin/mkfmi", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "taxonlist.tsv": "/usr/local/bin/taxonlist.tsv", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "fastqc": "/usr/local/bin/fastqc", "trimmomatic": "/usr/local/bin/trimmomatic", "jellyfish": "/usr/local/bin/jellyfish", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd"}}
+config: {"url": "https://biocontainers.pro/tools/kodoja", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for kodoja", "latest": {"0.0.10--0": "sha256:9f5fd786ee3e5a77f8a7159243c08ff64778dcadb534981b47683287cc7b92a5"}, "tags": {"0.0.9--0": "sha256:5d1c1cc0e1793497e177e0241945e7de65c3897239305a1bee21970e5d3c8db9", "0.0.10--0": "sha256:9f5fd786ee3e5a77f8a7159243c08ff64778dcadb534981b47683287cc7b92a5"}, "docker": "quay.io/biocontainers/kodoja", "aliases": {"addTaxonNames": "/usr/local/bin/addTaxonNames", "convertNR": "/usr/local/bin/convertNR", "convert_mar_to_kaiju.py": "/usr/local/bin/convert_mar_to_kaiju.py", "database_modules.py": "/usr/local/bin/database_modules.py", "diagnostic_modules.py": "/usr/local/bin/diagnostic_modules.py", "gbk2faa.pl": "/usr/local/bin/gbk2faa.pl", "kaiju": "/usr/local/bin/kaiju", "kaiju2krona": "/usr/local/bin/kaiju2krona", "kaijuReport": "/usr/local/bin/kaijuReport", "kaijup": "/usr/local/bin/kaijup", "kaijux": "/usr/local/bin/kaijux", "kodoja_build.py": "/usr/local/bin/kodoja_build.py", "kodoja_retrieve.py": "/usr/local/bin/kodoja_retrieve.py", "kodoja_search.py": "/usr/local/bin/kodoja_search.py", "kraken": "/usr/local/bin/kraken", "kraken-build": "/usr/local/bin/kraken-build", "kraken-filter": "/usr/local/bin/kraken-filter", "kraken-mpa-report": "/usr/local/bin/kraken-mpa-report", "kraken-report": "/usr/local/bin/kraken-report", "kraken-translate": "/usr/local/bin/kraken-translate", "makeDB.sh": "/usr/local/bin/makeDB.sh", "mergeOutputs": "/usr/local/bin/mergeOutputs", "mkbwt": "/usr/local/bin/mkbwt", "mkfmi": "/usr/local/bin/mkfmi", "ncbi-genome-download": "/usr/local/bin/ncbi-genome-download", "ngd": "/usr/local/bin/ngd", "taxonlist.tsv": "/usr/local/bin/taxonlist.tsv", "conv-template": "/usr/local/bin/conv-template", "from-template": "/usr/local/bin/from-template", "fastqc": "/usr/local/bin/fastqc", "trimmomatic": "/usr/local/bin/trimmomatic", "jellyfish": "/usr/local/bin/jellyfish", "extcheck": "/usr/local/bin/extcheck", "java-rmi.cgi": "/usr/local/bin/java-rmi.cgi", "javah": "/usr/local/bin/javah", "jhat": "/usr/local/bin/jhat", "jsadebugd": "/usr/local/bin/jsadebugd"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/kodoja.
@@ -63,7 +64,7 @@ $ shpc install quay.io/biocontainers/kodoja
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/kodoja:0.0.9--0
+$ shpc install quay.io/biocontainers/kodoja:0.0.10--0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -75,8 +76,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/kodoja/0.0.9--0
-$ module help quay.io/biocontainers/kodoja/0.0.9--0
+$ module load quay.io/biocontainers/kodoja/0.0.10--0
+$ module help quay.io/biocontainers/kodoja/0.0.10--0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

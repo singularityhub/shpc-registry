@@ -4,8 +4,8 @@ name:  "ghcr.io/autamus/ninja"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/ghcr.io/autamus/ninja/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/ghcr.io/autamus/ninja/container.yaml"
-updated_at: "2022-11-20 01:12:49.859888"
-latest: "1.10.2"
+updated_at: "2022-11-21 01:02:50.372551"
+latest: "1.11.1"
 container_url: "https://github.com/orgs/autamus/packages/container/package/ninja"
 aliases:
  - "ninja"
@@ -13,8 +13,9 @@ aliases:
 versions:
  - "1.10.2"
  - "latest"
+ - "1.11.1"
 description: "Ninja is a small build system with a focus on speed."
-config: {"docker": "ghcr.io/autamus/ninja", "url": "https://github.com/orgs/autamus/packages/container/package/ninja", "maintainer": "@vsoch", "description": "Ninja is a small build system with a focus on speed.", "latest": {"1.10.2": "sha256:41ff2df8bff8339897ff31120dfb0509dc328aa5396946c497d2a4df0adc9d36"}, "tags": {"1.10.2": "sha256:41ff2df8bff8339897ff31120dfb0509dc328aa5396946c497d2a4df0adc9d36", "latest": "sha256:41ff2df8bff8339897ff31120dfb0509dc328aa5396946c497d2a4df0adc9d36"}, "aliases": {"ninja": "/opt/view/bin/ninja", "ninja-build": "/opt/view/bin/ninja-build"}}
+config: {"docker": "ghcr.io/autamus/ninja", "url": "https://github.com/orgs/autamus/packages/container/package/ninja", "maintainer": "@vsoch", "description": "Ninja is a small build system with a focus on speed.", "latest": {"1.11.1": "sha256:ae9869ef5131ea4ca7dc25269fdc065dffa9ebc4c3d020b3b71ae39d5f735e03"}, "tags": {"1.10.2": "sha256:41ff2df8bff8339897ff31120dfb0509dc328aa5396946c497d2a4df0adc9d36", "latest": "sha256:ae9869ef5131ea4ca7dc25269fdc065dffa9ebc4c3d020b3b71ae39d5f735e03", "1.11.1": "sha256:ae9869ef5131ea4ca7dc25269fdc065dffa9ebc4c3d020b3b71ae39d5f735e03"}, "aliases": {"ninja": "/opt/view/bin/ninja", "ninja-build": "/opt/view/bin/ninja-build"}}
 ---
 
 This module is a singularity container wrapper for ghcr.io/autamus/ninja.
@@ -29,7 +30,7 @@ $ shpc install ghcr.io/autamus/ninja
 Or a specific version:
 
 ```bash
-$ shpc install ghcr.io/autamus/ninja:1.10.2
+$ shpc install ghcr.io/autamus/ninja:1.11.1
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load ghcr.io/autamus/ninja/1.10.2
-$ module help ghcr.io/autamus/ninja/1.10.2
+$ module load ghcr.io/autamus/ninja/1.11.1
+$ module help ghcr.io/autamus/ninja/1.11.1
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

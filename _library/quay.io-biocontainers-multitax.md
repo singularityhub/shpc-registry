@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/multitax"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/multitax/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/multitax/container.yaml"
-updated_at: "2022-11-20 00:59:39.824776"
-latest: "1.2.0--pyhdfd78af_0"
+updated_at: "2022-11-21 00:51:38.833920"
+latest: "1.2.1--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/multitax"
 aliases:
  - "2to3-3.10"
@@ -16,8 +16,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.2.0--pyhdfd78af_0"
+ - "1.2.1--pyhdfd78af_0"
 description: "shpc-registry automated BioContainers addition for multitax"
-config: {"url": "https://biocontainers.pro/tools/multitax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multitax", "latest": {"1.2.0--pyhdfd78af_0": "sha256:700dadeeb1002ddd99e4bbff4a827fe9a68eb0311fe0004996992b77db353fcd"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:700dadeeb1002ddd99e4bbff4a827fe9a68eb0311fe0004996992b77db353fcd"}, "docker": "quay.io/biocontainers/multitax", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/multitax", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for multitax", "latest": {"1.2.1--pyhdfd78af_0": "sha256:9af48e8d7b4e84f41e44609a7d6422ee880f0d6ae41cc03b539ced7d47a20bae"}, "tags": {"1.2.0--pyhdfd78af_0": "sha256:700dadeeb1002ddd99e4bbff4a827fe9a68eb0311fe0004996992b77db353fcd", "1.2.1--pyhdfd78af_0": "sha256:9af48e8d7b4e84f41e44609a7d6422ee880f0d6ae41cc03b539ced7d47a20bae"}, "docker": "quay.io/biocontainers/multitax", "aliases": {"2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/multitax.
@@ -32,7 +33,7 @@ $ shpc install quay.io/biocontainers/multitax
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/multitax:1.2.0--pyhdfd78af_0
+$ shpc install quay.io/biocontainers/multitax:1.2.1--pyhdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -44,8 +45,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/multitax/1.2.0--pyhdfd78af_0
-$ module help quay.io/biocontainers/multitax/1.2.0--pyhdfd78af_0
+$ module load quay.io/biocontainers/multitax/1.2.1--pyhdfd78af_0
+$ module help quay.io/biocontainers/multitax/1.2.1--pyhdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

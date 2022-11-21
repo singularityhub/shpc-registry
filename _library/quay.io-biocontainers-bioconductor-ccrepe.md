@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-ccrepe"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-ccrepe/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-ccrepe/container.yaml"
-updated_at: "2022-11-20 01:10:17.748476"
+updated_at: "2022-11-21 01:00:45.152099"
 latest: "1.34.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-ccrepe"
 

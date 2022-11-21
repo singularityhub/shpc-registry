@@ -4,16 +4,18 @@ name:  "quay.io/biocontainers/bioconductor-copyhelper"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-copyhelper/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-copyhelper/container.yaml"
-updated_at: "2022-11-20 00:23:56.298297"
-latest: "1.26.0--r41hdfd78af_1"
+updated_at: "2022-11-21 00:20:55.278224"
+latest: "1.30.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-copyhelper"
 aliases:
  - ".bioconductor-copyhelper-post-link.sh"
  - ".bioconductor-copyhelper-pre-unlink.sh"
 versions:
  - "1.26.0--r41hdfd78af_1"
+ - "1.30.0--r42hdfd78af_0"
+ - "1.29.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-copyhelper"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-copyhelper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copyhelper", "latest": {"1.26.0--r41hdfd78af_1": "sha256:0f5763cfaf27bcfd469950f45f9f33e406698ac17e38dd87ab66c44afcfcd66a"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:0f5763cfaf27bcfd469950f45f9f33e406698ac17e38dd87ab66c44afcfcd66a"}, "docker": "quay.io/biocontainers/bioconductor-copyhelper", "aliases": {".bioconductor-copyhelper-post-link.sh": "/usr/local/bin/.bioconductor-copyhelper-post-link.sh", ".bioconductor-copyhelper-pre-unlink.sh": "/usr/local/bin/.bioconductor-copyhelper-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-copyhelper", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-copyhelper", "latest": {"1.30.0--r42hdfd78af_0": "sha256:574b20e16da52b0474858d9c891a3f0947a4c29b12c19659a9b3ebb306dc0448"}, "tags": {"1.26.0--r41hdfd78af_1": "sha256:0f5763cfaf27bcfd469950f45f9f33e406698ac17e38dd87ab66c44afcfcd66a", "1.30.0--r42hdfd78af_0": "sha256:574b20e16da52b0474858d9c891a3f0947a4c29b12c19659a9b3ebb306dc0448", "1.29.0--r42hdfd78af_0": "sha256:a8a3eb212f159af40fda74460752f5d59275a5544464b35d4c101afa8df4c5cd"}, "docker": "quay.io/biocontainers/bioconductor-copyhelper", "aliases": {".bioconductor-copyhelper-post-link.sh": "/usr/local/bin/.bioconductor-copyhelper-post-link.sh", ".bioconductor-copyhelper-pre-unlink.sh": "/usr/local/bin/.bioconductor-copyhelper-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-copyhelper.
@@ -28,7 +30,7 @@ $ shpc install quay.io/biocontainers/bioconductor-copyhelper
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-copyhelper:1.26.0--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-copyhelper:1.30.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +42,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-copyhelper/1.26.0--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-copyhelper/1.26.0--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-copyhelper/1.30.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-copyhelper/1.30.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

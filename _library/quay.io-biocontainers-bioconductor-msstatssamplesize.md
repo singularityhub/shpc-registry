@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-msstatssamplesize"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msstatssamplesize/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msstatssamplesize/container.yaml"
-updated_at: "2022-11-20 00:28:52.963648"
-latest: "1.8.0--r41hdfd78af_0"
+updated_at: "2022-11-21 00:25:13.923895"
+latest: "1.12.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msstatssamplesize"
 
 versions:
  - "1.8.0--r41hdfd78af_0"
+ - "1.12.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-msstatssamplesize"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatssamplesize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatssamplesize", "latest": {"1.8.0--r41hdfd78af_0": "sha256:4fc5f3aed9346756928bb91171687ec0f87f7783a779a88b19d0f147787b9479"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4fc5f3aed9346756928bb91171687ec0f87f7783a779a88b19d0f147787b9479"}, "docker": "quay.io/biocontainers/bioconductor-msstatssamplesize"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-msstatssamplesize", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-msstatssamplesize", "latest": {"1.12.0--r42hdfd78af_0": "sha256:923664192a3c3e9bd7b4d1aa0adb23c6b71ec027cb239390dbb27f792e55b785"}, "tags": {"1.8.0--r41hdfd78af_0": "sha256:4fc5f3aed9346756928bb91171687ec0f87f7783a779a88b19d0f147787b9479", "1.12.0--r42hdfd78af_0": "sha256:923664192a3c3e9bd7b4d1aa0adb23c6b71ec027cb239390dbb27f792e55b785"}, "docker": "quay.io/biocontainers/bioconductor-msstatssamplesize"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-msstatssamplesize.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-msstatssamplesize
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-msstatssamplesize:1.8.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-msstatssamplesize:1.12.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-msstatssamplesize/1.8.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-msstatssamplesize/1.8.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-msstatssamplesize/1.12.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-msstatssamplesize/1.12.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

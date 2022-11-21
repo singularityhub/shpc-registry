@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-bridge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bridge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bridge/container.yaml"
-updated_at: "2022-11-20 00:03:33.896422"
-latest: "1.58.0--r41hc0cfd56_2"
+updated_at: "2022-11-21 00:03:05.561320"
+latest: "1.62.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bridge"
 
 versions:
  - "1.58.0--r41hc0cfd56_2"
+ - "1.62.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bridge"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bridge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bridge", "latest": {"1.58.0--r41hc0cfd56_2": "sha256:670cf2714e02f74b754c536d10a42947587046d686d71e03f4f0939de9579d76"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:670cf2714e02f74b754c536d10a42947587046d686d71e03f4f0939de9579d76"}, "docker": "quay.io/biocontainers/bioconductor-bridge"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bridge", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bridge", "latest": {"1.62.0--r42hc0cfd56_0": "sha256:f95fc63417e89f2d003a30fa445747e541d70f432c331d23ed8d684fe802afe7"}, "tags": {"1.58.0--r41hc0cfd56_2": "sha256:670cf2714e02f74b754c536d10a42947587046d686d71e03f4f0939de9579d76", "1.62.0--r42hc0cfd56_0": "sha256:f95fc63417e89f2d003a30fa445747e541d70f432c331d23ed8d684fe802afe7"}, "docker": "quay.io/biocontainers/bioconductor-bridge"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bridge.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bridge
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bridge:1.58.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-bridge:1.62.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bridge/1.58.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-bridge/1.58.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-bridge/1.62.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-bridge/1.62.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

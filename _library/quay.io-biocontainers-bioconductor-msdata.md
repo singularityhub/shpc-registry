@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-msdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-msdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-msdata/container.yaml"
-updated_at: "2022-11-19 23:56:03.220584"
+updated_at: "2022-11-20 23:56:38.436772"
 latest: "0.37.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-msdata"
 aliases:

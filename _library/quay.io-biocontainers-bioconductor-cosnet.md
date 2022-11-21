@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-cosnet"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cosnet/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cosnet/container.yaml"
-updated_at: "2022-11-20 01:03:12.505881"
-latest: "1.28.0--r41hc0cfd56_2"
+updated_at: "2022-11-21 00:54:41.233329"
+latest: "1.32.0--r42hc0cfd56_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cosnet"
 
 versions:
  - "1.28.0--r41hc0cfd56_2"
+ - "1.32.0--r42hc0cfd56_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-cosnet"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-cosnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosnet", "latest": {"1.28.0--r41hc0cfd56_2": "sha256:0fc108595369f2deb733488ddf82fec0dbb25cfd001a112f8c6e0dff37492a44"}, "tags": {"1.28.0--r41hc0cfd56_2": "sha256:0fc108595369f2deb733488ddf82fec0dbb25cfd001a112f8c6e0dff37492a44"}, "docker": "quay.io/biocontainers/bioconductor-cosnet"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-cosnet", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-cosnet", "latest": {"1.32.0--r42hc0cfd56_0": "sha256:5efe6bc543296dfd9c0ea82fe5c9fc0fe3161ddcba7d411a2720395681fdee86"}, "tags": {"1.28.0--r41hc0cfd56_2": "sha256:0fc108595369f2deb733488ddf82fec0dbb25cfd001a112f8c6e0dff37492a44", "1.32.0--r42hc0cfd56_0": "sha256:5efe6bc543296dfd9c0ea82fe5c9fc0fe3161ddcba7d411a2720395681fdee86"}, "docker": "quay.io/biocontainers/bioconductor-cosnet"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-cosnet.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-cosnet
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-cosnet:1.28.0--r41hc0cfd56_2
+$ shpc install quay.io/biocontainers/bioconductor-cosnet:1.32.0--r42hc0cfd56_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-cosnet/1.28.0--r41hc0cfd56_2
-$ module help quay.io/biocontainers/bioconductor-cosnet/1.28.0--r41hc0cfd56_2
+$ module load quay.io/biocontainers/bioconductor-cosnet/1.32.0--r42hc0cfd56_0
+$ module help quay.io/biocontainers/bioconductor-cosnet/1.32.0--r42hc0cfd56_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

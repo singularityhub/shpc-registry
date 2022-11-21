@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-metagxovarian"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-metagxovarian/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-metagxovarian/container.yaml"
-updated_at: "2022-11-20 00:40:00.786893"
+updated_at: "2022-11-21 00:34:56.052567"
 latest: "1.14.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-metagxovarian"
 aliases:

@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-pdatk"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pdatk/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pdatk/container.yaml"
-updated_at: "2022-11-20 00:48:40.639464"
-latest: "1.2.0--r41hdfd78af_0"
+updated_at: "2022-11-21 00:42:15.831657"
+latest: "1.6.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-pdatk"
 
 versions:
  - "1.2.0--r41hdfd78af_0"
+ - "1.6.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-pdatk"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-pdatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pdatk", "latest": {"1.2.0--r41hdfd78af_0": "sha256:65e0c21e47aec07a44f9bbd498b14212faab98fe9068ac59867c85d07396d00a"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:65e0c21e47aec07a44f9bbd498b14212faab98fe9068ac59867c85d07396d00a"}, "docker": "quay.io/biocontainers/bioconductor-pdatk"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-pdatk", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-pdatk", "latest": {"1.6.0--r42hdfd78af_0": "sha256:3c40e09952b8b51c85aef29d9e266dff2ca0b60409db70fc401933193dc7a805"}, "tags": {"1.2.0--r41hdfd78af_0": "sha256:65e0c21e47aec07a44f9bbd498b14212faab98fe9068ac59867c85d07396d00a", "1.6.0--r42hdfd78af_0": "sha256:3c40e09952b8b51c85aef29d9e266dff2ca0b60409db70fc401933193dc7a805"}, "docker": "quay.io/biocontainers/bioconductor-pdatk"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-pdatk.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-pdatk
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-pdatk:1.2.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-pdatk:1.6.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-pdatk/1.2.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-pdatk/1.2.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-pdatk/1.6.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-pdatk/1.6.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

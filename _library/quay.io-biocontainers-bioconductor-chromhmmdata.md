@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/bioconductor-chromhmmdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromhmmdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromhmmdata/container.yaml"
-updated_at: "2022-11-20 00:47:43.178617"
-latest: "0.99.2--r41hdfd78af_1"
+updated_at: "2022-11-21 00:41:27.720264"
+latest: "0.99.2--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromhmmdata"
 aliases:
  - ".bioconductor-chromhmmdata-post-link.sh"
  - ".bioconductor-chromhmmdata-pre-unlink.sh"
 versions:
  - "0.99.2--r41hdfd78af_1"
+ - "0.99.2--r42hdfd78af_2"
 description: "shpc-registry automated BioContainers addition for bioconductor-chromhmmdata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-chromhmmdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromhmmdata", "latest": {"0.99.2--r41hdfd78af_1": "sha256:98c45eb5ce87ad8dd746a4a9746ff879cfe19c04eb40ba5ba8f2f8487a330935"}, "tags": {"0.99.2--r41hdfd78af_1": "sha256:98c45eb5ce87ad8dd746a4a9746ff879cfe19c04eb40ba5ba8f2f8487a330935"}, "docker": "quay.io/biocontainers/bioconductor-chromhmmdata", "aliases": {".bioconductor-chromhmmdata-post-link.sh": "/usr/local/bin/.bioconductor-chromhmmdata-post-link.sh", ".bioconductor-chromhmmdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-chromhmmdata-pre-unlink.sh"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-chromhmmdata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-chromhmmdata", "latest": {"0.99.2--r42hdfd78af_2": "sha256:eac3189592a2d044eae1bde58b69a127791d494db13c4ad9bd8297046644bbfd"}, "tags": {"0.99.2--r41hdfd78af_1": "sha256:98c45eb5ce87ad8dd746a4a9746ff879cfe19c04eb40ba5ba8f2f8487a330935", "0.99.2--r42hdfd78af_2": "sha256:eac3189592a2d044eae1bde58b69a127791d494db13c4ad9bd8297046644bbfd"}, "docker": "quay.io/biocontainers/bioconductor-chromhmmdata", "aliases": {".bioconductor-chromhmmdata-post-link.sh": "/usr/local/bin/.bioconductor-chromhmmdata-post-link.sh", ".bioconductor-chromhmmdata-pre-unlink.sh": "/usr/local/bin/.bioconductor-chromhmmdata-pre-unlink.sh"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-chromhmmdata.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/bioconductor-chromhmmdata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-chromhmmdata:0.99.2--r41hdfd78af_1
+$ shpc install quay.io/biocontainers/bioconductor-chromhmmdata:0.99.2--r42hdfd78af_2
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r41hdfd78af_1
-$ module help quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r41hdfd78af_1
+$ module load quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r42hdfd78af_2
+$ module help quay.io/biocontainers/bioconductor-chromhmmdata/0.99.2--r42hdfd78af_2
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

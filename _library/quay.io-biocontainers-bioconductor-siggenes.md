@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-siggenes"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-siggenes/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-siggenes/container.yaml"
-updated_at: "2022-11-20 00:12:28.337140"
-latest: "1.68.0--r41hdfd78af_0"
+updated_at: "2022-11-21 00:10:55.230829"
+latest: "1.72.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-siggenes"
 
 versions:
  - "1.68.0--r41hdfd78af_0"
+ - "1.72.0--r42hdfd78af_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-siggenes"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-siggenes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-siggenes", "latest": {"1.68.0--r41hdfd78af_0": "sha256:63f8adf23b59e7b9cfe87dec801fe501301e6523303a45751faa347021520a7b"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:63f8adf23b59e7b9cfe87dec801fe501301e6523303a45751faa347021520a7b"}, "docker": "quay.io/biocontainers/bioconductor-siggenes"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-siggenes", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-siggenes", "latest": {"1.72.0--r42hdfd78af_0": "sha256:41a0d48ecadf0f487ba6fc4eaf054b0e40370993a2b6e3cca80f83f0111d845e"}, "tags": {"1.68.0--r41hdfd78af_0": "sha256:63f8adf23b59e7b9cfe87dec801fe501301e6523303a45751faa347021520a7b", "1.72.0--r42hdfd78af_0": "sha256:41a0d48ecadf0f487ba6fc4eaf054b0e40370993a2b6e3cca80f83f0111d845e"}, "docker": "quay.io/biocontainers/bioconductor-siggenes"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-siggenes.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-siggenes
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-siggenes:1.68.0--r41hdfd78af_0
+$ shpc install quay.io/biocontainers/bioconductor-siggenes:1.72.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-siggenes/1.68.0--r41hdfd78af_0
-$ module help quay.io/biocontainers/bioconductor-siggenes/1.68.0--r41hdfd78af_0
+$ module load quay.io/biocontainers/bioconductor-siggenes/1.72.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-siggenes/1.72.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

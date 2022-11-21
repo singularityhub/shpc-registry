@@ -4,16 +4,17 @@ name:  "quay.io/biocontainers/jq"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jq/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jq/container.yaml"
-updated_at: "2022-11-20 00:24:56.247914"
-latest: "1.5--4"
+updated_at: "2022-11-21 00:21:46.088530"
+latest: "1.6"
 container_url: "https://biocontainers.pro/tools/jq"
 aliases:
  - "jq"
  - "onig-config"
 versions:
  - "1.5--4"
+ - "1.6"
 description: "shpc-registry automated BioContainers addition for jq"
-config: {"url": "https://biocontainers.pro/tools/jq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jq", "latest": {"1.5--4": "sha256:231dd2321ff3470fd14c5e2a59d5fc5ecb21d91cd62a62e1110efc19138c23fe"}, "tags": {"1.5--4": "sha256:231dd2321ff3470fd14c5e2a59d5fc5ecb21d91cd62a62e1110efc19138c23fe"}, "docker": "quay.io/biocontainers/jq", "aliases": {"jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config"}}
+config: {"url": "https://biocontainers.pro/tools/jq", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jq", "latest": {"1.6": "sha256:8ead3d706ddf3c848a4ec6e5740fb4bdcd5454a97e7c533b7417acede1de4c74"}, "tags": {"1.5--4": "sha256:231dd2321ff3470fd14c5e2a59d5fc5ecb21d91cd62a62e1110efc19138c23fe", "1.6": "sha256:8ead3d706ddf3c848a4ec6e5740fb4bdcd5454a97e7c533b7417acede1de4c74"}, "docker": "quay.io/biocontainers/jq", "aliases": {"jq": "/usr/local/bin/jq", "onig-config": "/usr/local/bin/onig-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jq.
@@ -28,7 +29,7 @@ $ shpc install quay.io/biocontainers/jq
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jq:1.5--4
+$ shpc install quay.io/biocontainers/jq:1.6
 ```
 
 And then you can tell lmod about your modules folder:
@@ -40,8 +41,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jq/1.5--4
-$ module help quay.io/biocontainers/jq/1.5--4
+$ module load quay.io/biocontainers/jq/1.6
+$ module help quay.io/biocontainers/jq/1.6
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

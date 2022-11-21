@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-irisfgm"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-irisfgm/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-irisfgm/container.yaml"
-updated_at: "2022-11-20 00:39:47.999837"
-latest: "1.2.0--r41hc247a5b_2"
+updated_at: "2022-11-21 00:34:45.152963"
+latest: "1.6.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-irisfgm"
 aliases:
  - "geosop"
@@ -20,8 +20,9 @@ aliases:
  - "python3.10-config"
 versions:
  - "1.2.0--r41hc247a5b_2"
+ - "1.6.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-irisfgm"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-irisfgm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-irisfgm", "latest": {"1.2.0--r41hc247a5b_2": "sha256:1d44c47aea396502ffdce092b7393207b8d746e2f4cc2c99f3583266082151b5"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:1d44c47aea396502ffdce092b7393207b8d746e2f4cc2c99f3583266082151b5"}, "docker": "quay.io/biocontainers/bioconductor-irisfgm", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-irisfgm", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-irisfgm", "latest": {"1.6.0--r42hc247a5b_0": "sha256:28e6fff31dd67530a114fab66e280dba74b84a8afaa07a69beb84acf3036a6c3"}, "tags": {"1.2.0--r41hc247a5b_2": "sha256:1d44c47aea396502ffdce092b7393207b8d746e2f4cc2c99f3583266082151b5", "1.6.0--r42hc247a5b_0": "sha256:28e6fff31dd67530a114fab66e280dba74b84a8afaa07a69beb84acf3036a6c3"}, "docker": "quay.io/biocontainers/bioconductor-irisfgm", "aliases": {"geosop": "/usr/local/bin/geosop", "geos-config": "/usr/local/bin/geos-config", "glpsol": "/usr/local/bin/glpsol", "f2py3.10": "/usr/local/bin/f2py3.10", "2to3-3.10": "/usr/local/bin/2to3-3.10", "idle3.10": "/usr/local/bin/idle3.10", "pydoc3.10": "/usr/local/bin/pydoc3.10", "python3.1": "/usr/local/bin/python3.1", "python3.10": "/usr/local/bin/python3.10", "python3.10-config": "/usr/local/bin/python3.10-config"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-irisfgm.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/bioconductor-irisfgm
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-irisfgm:1.2.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-irisfgm:1.6.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-irisfgm/1.2.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-irisfgm/1.2.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-irisfgm/1.6.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-irisfgm/1.6.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

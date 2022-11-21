@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/trust4"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/trust4/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/trust4/container.yaml"
-updated_at: "2022-11-20 00:27:45.182691"
-latest: "1.0.7--h5b5514e_0"
+updated_at: "2022-11-21 00:24:12.732233"
+latest: "1.0.8--h5b5514e_0"
 container_url: "https://biocontainers.pro/tools/trust4"
 aliases:
  - "BuildDatabaseFa.pl"
@@ -23,8 +23,9 @@ aliases:
  - "streamzip"
 versions:
  - "1.0.7--h5b5514e_0"
+ - "1.0.8--h5b5514e_0"
 description: "shpc-registry automated BioContainers addition for trust4"
-config: {"url": "https://biocontainers.pro/tools/trust4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trust4", "latest": {"1.0.7--h5b5514e_0": "sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e"}, "tags": {"1.0.7--h5b5514e_0": "sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e"}, "docker": "quay.io/biocontainers/trust4", "aliases": {"BuildDatabaseFa.pl": "/usr/local/bin/BuildDatabaseFa.pl", "BuildImgtAnnot.pl": "/usr/local/bin/BuildImgtAnnot.pl", "annotator": "/usr/local/bin/annotator", "bam-extractor": "/usr/local/bin/bam-extractor", "fastq-extractor": "/usr/local/bin/fastq-extractor", "run-trust4": "/usr/local/bin/run-trust4", "trust-airr.pl": "/usr/local/bin/trust-airr.pl", "trust-barcoderep.pl": "/usr/local/bin/trust-barcoderep.pl", "trust-simplerep.pl": "/usr/local/bin/trust-simplerep.pl", "trust-smartseq.pl": "/usr/local/bin/trust-smartseq.pl", "trust4": "/usr/local/bin/trust4", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
+config: {"url": "https://biocontainers.pro/tools/trust4", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for trust4", "latest": {"1.0.8--h5b5514e_0": "sha256:86c7b2b07f9fdd7f87f1ee9fccabacdfd3fdc8222bc5276582910bae9a389697"}, "tags": {"1.0.7--h5b5514e_0": "sha256:c2ebbe6ff6cc24630eb0aa6ea17295e9138e5d0612993b41fddd60398082836e", "1.0.8--h5b5514e_0": "sha256:86c7b2b07f9fdd7f87f1ee9fccabacdfd3fdc8222bc5276582910bae9a389697"}, "docker": "quay.io/biocontainers/trust4", "aliases": {"BuildDatabaseFa.pl": "/usr/local/bin/BuildDatabaseFa.pl", "BuildImgtAnnot.pl": "/usr/local/bin/BuildImgtAnnot.pl", "annotator": "/usr/local/bin/annotator", "bam-extractor": "/usr/local/bin/bam-extractor", "fastq-extractor": "/usr/local/bin/fastq-extractor", "run-trust4": "/usr/local/bin/run-trust4", "trust-airr.pl": "/usr/local/bin/trust-airr.pl", "trust-barcoderep.pl": "/usr/local/bin/trust-barcoderep.pl", "trust-simplerep.pl": "/usr/local/bin/trust-simplerep.pl", "trust-smartseq.pl": "/usr/local/bin/trust-smartseq.pl", "trust4": "/usr/local/bin/trust4", "perl5.32.1": "/usr/local/bin/perl5.32.1", "streamzip": "/usr/local/bin/streamzip"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/trust4.
@@ -39,7 +40,7 @@ $ shpc install quay.io/biocontainers/trust4
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/trust4:1.0.7--h5b5514e_0
+$ shpc install quay.io/biocontainers/trust4:1.0.8--h5b5514e_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -51,8 +52,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/trust4/1.0.7--h5b5514e_0
-$ module help quay.io/biocontainers/trust4/1.0.7--h5b5514e_0
+$ module load quay.io/biocontainers/trust4/1.0.8--h5b5514e_0
+$ module help quay.io/biocontainers/trust4/1.0.8--h5b5514e_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

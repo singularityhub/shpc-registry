@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-distinct"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-distinct/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-distinct/container.yaml"
-updated_at: "2022-11-20 00:36:44.638808"
-latest: "1.6.0--r41hc247a5b_2"
+updated_at: "2022-11-21 00:32:08.319469"
+latest: "1.10.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-distinct"
 
 versions:
  - "1.6.0--r41hc247a5b_2"
+ - "1.10.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-distinct"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-distinct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-distinct", "latest": {"1.6.0--r41hc247a5b_2": "sha256:30688b1389360b9eda0606d2868bda169ff893f0d77ee6b96569c92429848869"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:30688b1389360b9eda0606d2868bda169ff893f0d77ee6b96569c92429848869"}, "docker": "quay.io/biocontainers/bioconductor-distinct"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-distinct", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-distinct", "latest": {"1.10.0--r42hc247a5b_0": "sha256:586889d983ef45d30915d5a2e520de60b270f33896257718c80ebf060c100f6a"}, "tags": {"1.6.0--r41hc247a5b_2": "sha256:30688b1389360b9eda0606d2868bda169ff893f0d77ee6b96569c92429848869", "1.10.0--r42hc247a5b_0": "sha256:586889d983ef45d30915d5a2e520de60b270f33896257718c80ebf060c100f6a"}, "docker": "quay.io/biocontainers/bioconductor-distinct"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-distinct.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-distinct
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-distinct:1.6.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-distinct:1.10.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-distinct/1.6.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-distinct/1.6.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-distinct/1.10.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-distinct/1.10.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-categorycompare"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-categorycompare/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-categorycompare/container.yaml"
-updated_at: "2022-11-20 00:57:07.676429"
+updated_at: "2022-11-21 00:49:26.732447"
 latest: "1.38.0--r41hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-categorycompare"
 aliases:

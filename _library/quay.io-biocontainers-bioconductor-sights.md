@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-sights"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-sights/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-sights/container.yaml"
-updated_at: "2022-11-20 00:25:09.504929"
+updated_at: "2022-11-21 00:21:57.311080"
 latest: "1.24.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-sights"
 aliases:

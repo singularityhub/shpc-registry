@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/bioconductor-mcseadata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-mcseadata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-mcseadata/container.yaml"
-updated_at: "2022-11-20 00:15:11.236267"
-latest: "1.9.0--r40_0"
+updated_at: "2022-11-21 00:13:16.624813"
+latest: "1.18.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-mcseadata"
 aliases:
  - ".bioconductor-mcseadata-post-link.sh"
@@ -13,8 +13,13 @@ aliases:
  - "x86_64-conda-linux-gnu-gfortran.bin"
 versions:
  - "1.9.0--r40_0"
+ - "1.18.0--r42hdfd78af_0"
+ - "1.17.0--r42hdfd78af_0"
+ - "1.14.0--r41hdfd78af_1"
+ - "1.12.0--r41hdfd78af_0"
+ - "1.10.1--r40hdfd78af_1"
 description: "shpc-registry automated BioContainers addition for bioconductor-mcseadata"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-mcseadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcseadata", "latest": {"1.9.0--r40_0": "sha256:c5eb00801ebbea5228b9c018ae45d7b1caa621a433879b740340ff32b7138e99"}, "tags": {"1.9.0--r40_0": "sha256:c5eb00801ebbea5228b9c018ae45d7b1caa621a433879b740340ff32b7138e99"}, "docker": "quay.io/biocontainers/bioconductor-mcseadata", "aliases": {".bioconductor-mcseadata-post-link.sh": "/usr/local/bin/.bioconductor-mcseadata-post-link.sh", ".bioconductor-mcseadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mcseadata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-mcseadata", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-mcseadata", "latest": {"1.18.0--r42hdfd78af_0": "sha256:f38acfa00cd3bce4f9298f9d31baf5a601947a6ad64844f1d3ca878ba10cb648"}, "tags": {"1.9.0--r40_0": "sha256:c5eb00801ebbea5228b9c018ae45d7b1caa621a433879b740340ff32b7138e99", "1.18.0--r42hdfd78af_0": "sha256:f38acfa00cd3bce4f9298f9d31baf5a601947a6ad64844f1d3ca878ba10cb648", "1.17.0--r42hdfd78af_0": "sha256:0f0828fa71c1653377c0479e5be0475f21f7de0e7fd2fbd79747c196352ddc13", "1.14.0--r41hdfd78af_1": "sha256:6f2e201c52c48eb011cd27330beee59fde3fcfeebffbf414513e9dd312ff4af4", "1.12.0--r41hdfd78af_0": "sha256:d2f933f972503ce41e98003ef25c47ee3852fe008c14f9f399cddcd0ef11edfc", "1.10.1--r40hdfd78af_1": "sha256:5eaba2e332cb80bfca52744b5841c4ac1422a8d4799ae923ed1b25d719b6b814"}, "docker": "quay.io/biocontainers/bioconductor-mcseadata", "aliases": {".bioconductor-mcseadata-post-link.sh": "/usr/local/bin/.bioconductor-mcseadata-post-link.sh", ".bioconductor-mcseadata-pre-unlink.sh": "/usr/local/bin/.bioconductor-mcseadata-pre-unlink.sh", "x86_64-conda-linux-gnu-gfortran.bin": "/usr/local/bin/x86_64-conda-linux-gnu-gfortran.bin"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-mcseadata.
@@ -29,7 +34,7 @@ $ shpc install quay.io/biocontainers/bioconductor-mcseadata
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-mcseadata:1.9.0--r40_0
+$ shpc install quay.io/biocontainers/bioconductor-mcseadata:1.18.0--r42hdfd78af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -41,8 +46,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-mcseadata/1.9.0--r40_0
-$ module help quay.io/biocontainers/bioconductor-mcseadata/1.9.0--r40_0
+$ module load quay.io/biocontainers/bioconductor-mcseadata/1.18.0--r42hdfd78af_0
+$ module help quay.io/biocontainers/bioconductor-mcseadata/1.18.0--r42hdfd78af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

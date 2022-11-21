@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/libopenms"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/libopenms/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/libopenms/container.yaml"
-updated_at: "2022-11-20 00:58:19.542284"
-latest: "2.8.0--h7ca0330_3"
+updated_at: "2022-11-21 00:50:28.802562"
+latest: "2.8.0--h604f271_4"
 container_url: "https://biocontainers.pro/tools/libopenms"
 aliases:
  - "CreateDOMDocument"
@@ -20,8 +20,9 @@ aliases:
  - "SAX2Print"
 versions:
  - "2.8.0--h7ca0330_3"
+ - "2.8.0--h604f271_4"
 description: "shpc-registry automated BioContainers addition for libopenms"
-config: {"url": "https://biocontainers.pro/tools/libopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libopenms", "latest": {"2.8.0--h7ca0330_3": "sha256:a33b2779973c820f1a2c311949f9c8b3cbb6196fa8ac4a0b4e3bdaf90833d729"}, "tags": {"2.8.0--h7ca0330_3": "sha256:a33b2779973c820f1a2c311949f9c8b3cbb6196fa8ac4a0b4e3bdaf90833d729"}, "docker": "quay.io/biocontainers/libopenms", "aliases": {"CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
+config: {"url": "https://biocontainers.pro/tools/libopenms", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for libopenms", "latest": {"2.8.0--h604f271_4": "sha256:a7da8fd8b63bf4d8f0aaf5b609d2c3a285fc97fefd01f879e7931a610a83cea7"}, "tags": {"2.8.0--h7ca0330_3": "sha256:a33b2779973c820f1a2c311949f9c8b3cbb6196fa8ac4a0b4e3bdaf90833d729", "2.8.0--h604f271_4": "sha256:a7da8fd8b63bf4d8f0aaf5b609d2c3a285fc97fefd01f879e7931a610a83cea7"}, "docker": "quay.io/biocontainers/libopenms", "aliases": {"CreateDOMDocument": "/usr/local/bin/CreateDOMDocument", "DOMCount": "/usr/local/bin/DOMCount", "DOMPrint": "/usr/local/bin/DOMPrint", "EnumVal": "/usr/local/bin/EnumVal", "MemParse": "/usr/local/bin/MemParse", "PParse": "/usr/local/bin/PParse", "PSVIWriter": "/usr/local/bin/PSVIWriter", "Redirect": "/usr/local/bin/Redirect", "SAX2Count": "/usr/local/bin/SAX2Count", "SAX2Print": "/usr/local/bin/SAX2Print"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/libopenms.
@@ -36,7 +37,7 @@ $ shpc install quay.io/biocontainers/libopenms
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/libopenms:2.8.0--h7ca0330_3
+$ shpc install quay.io/biocontainers/libopenms:2.8.0--h604f271_4
 ```
 
 And then you can tell lmod about your modules folder:
@@ -48,8 +49,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/libopenms/2.8.0--h7ca0330_3
-$ module help quay.io/biocontainers/libopenms/2.8.0--h7ca0330_3
+$ module load quay.io/biocontainers/libopenms/2.8.0--h604f271_4
+$ module help quay.io/biocontainers/libopenms/2.8.0--h604f271_4
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

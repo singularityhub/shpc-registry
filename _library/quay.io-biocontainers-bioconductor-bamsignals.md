@@ -4,14 +4,15 @@ name:  "quay.io/biocontainers/bioconductor-bamsignals"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-bamsignals/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-bamsignals/container.yaml"
-updated_at: "2022-11-20 00:54:04.447585"
-latest: "1.26.0--r41hc247a5b_2"
+updated_at: "2022-11-21 00:46:51.278861"
+latest: "1.30.0--r42hc247a5b_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-bamsignals"
 
 versions:
  - "1.26.0--r41hc247a5b_2"
+ - "1.30.0--r42hc247a5b_0"
 description: "shpc-registry automated BioContainers addition for bioconductor-bamsignals"
-config: {"url": "https://biocontainers.pro/tools/bioconductor-bamsignals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bamsignals", "latest": {"1.26.0--r41hc247a5b_2": "sha256:d01915ae50dcaf030eb3cc4ebc52e709699d1fb3c54897a7c386b50a4b7fb573"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:d01915ae50dcaf030eb3cc4ebc52e709699d1fb3c54897a7c386b50a4b7fb573"}, "docker": "quay.io/biocontainers/bioconductor-bamsignals"}
+config: {"url": "https://biocontainers.pro/tools/bioconductor-bamsignals", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for bioconductor-bamsignals", "latest": {"1.30.0--r42hc247a5b_0": "sha256:9e034e37b3b8c3442198a100acae14b78b4b318d6d948795c8b813cf657e62e2"}, "tags": {"1.26.0--r41hc247a5b_2": "sha256:d01915ae50dcaf030eb3cc4ebc52e709699d1fb3c54897a7c386b50a4b7fb573", "1.30.0--r42hc247a5b_0": "sha256:9e034e37b3b8c3442198a100acae14b78b4b318d6d948795c8b813cf657e62e2"}, "docker": "quay.io/biocontainers/bioconductor-bamsignals"}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/bioconductor-bamsignals.
@@ -26,7 +27,7 @@ $ shpc install quay.io/biocontainers/bioconductor-bamsignals
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/bioconductor-bamsignals:1.26.0--r41hc247a5b_2
+$ shpc install quay.io/biocontainers/bioconductor-bamsignals:1.30.0--r42hc247a5b_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -38,8 +39,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/bioconductor-bamsignals/1.26.0--r41hc247a5b_2
-$ module help quay.io/biocontainers/bioconductor-bamsignals/1.26.0--r41hc247a5b_2
+$ module load quay.io/biocontainers/bioconductor-bamsignals/1.30.0--r42hc247a5b_0
+$ module help quay.io/biocontainers/bioconductor-bamsignals/1.30.0--r42hc247a5b_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

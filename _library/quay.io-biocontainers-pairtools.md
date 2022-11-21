@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/pairtools"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/pairtools/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/pairtools/container.yaml"
-updated_at: "2022-11-19 23:51:33.120472"
-latest: "1.0.1--py37h9f12aac_0"
+updated_at: "2022-11-20 23:52:40.928184"
+latest: "1.0.2--py39h2a9f597_0"
 container_url: "https://biocontainers.pro/tools/pairtools"
 aliases:
  - "pairtools"
@@ -22,8 +22,9 @@ aliases:
  - "pairs_merger"
 versions:
  - "1.0.1--py37h9f12aac_0"
+ - "1.0.2--py39h2a9f597_0"
 description: "shpc-registry automated BioContainers addition for pairtools"
-config: {"url": "https://biocontainers.pro/tools/pairtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pairtools", "latest": {"1.0.1--py37h9f12aac_0": "sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408"}, "tags": {"1.0.1--py37h9f12aac_0": "sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408"}, "docker": "quay.io/biocontainers/pairtools", "aliases": {"pairtools": "/usr/local/bin/pairtools", "pbgzip": "/usr/local/bin/pbgzip", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger"}}
+config: {"url": "https://biocontainers.pro/tools/pairtools", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for pairtools", "latest": {"1.0.2--py39h2a9f597_0": "sha256:ff368da550ad294718350f3b0777da92e0adfd0ec9f7dd71ce6b47c8679e6b7e"}, "tags": {"1.0.1--py37h9f12aac_0": "sha256:656044fea9e722c2a9189e3134f65949b7ee76644d3b8008bf5dd478c5846408", "1.0.2--py39h2a9f597_0": "sha256:ff368da550ad294718350f3b0777da92e0adfd0ec9f7dd71ce6b47c8679e6b7e"}, "docker": "quay.io/biocontainers/pairtools", "aliases": {"pairtools": "/usr/local/bin/pairtools", "pbgzip": "/usr/local/bin/pbgzip", "bam2pairs": "/usr/local/bin/bam2pairs", "column_remover.pl": "/usr/local/bin/column_remover.pl", "duplicate_header_remover.pl": "/usr/local/bin/duplicate_header_remover.pl", "fragment_4dnpairs.pl": "/usr/local/bin/fragment_4dnpairs.pl", "juicer_shortform2pairs.pl": "/usr/local/bin/juicer_shortform2pairs.pl", "merge-pairs.sh": "/usr/local/bin/merge-pairs.sh", "merged_nodup2pairs.pl": "/usr/local/bin/merged_nodup2pairs.pl", "old_merged_nodup2pairs.pl": "/usr/local/bin/old_merged_nodup2pairs.pl", "pairix": "/usr/local/bin/pairix", "pairs_merger": "/usr/local/bin/pairs_merger"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/pairtools.
@@ -38,7 +39,7 @@ $ shpc install quay.io/biocontainers/pairtools
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/pairtools:1.0.1--py37h9f12aac_0
+$ shpc install quay.io/biocontainers/pairtools:1.0.2--py39h2a9f597_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -50,8 +51,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/pairtools/1.0.1--py37h9f12aac_0
-$ module help quay.io/biocontainers/pairtools/1.0.1--py37h9f12aac_0
+$ module load quay.io/biocontainers/pairtools/1.0.2--py39h2a9f597_0
+$ module help quay.io/biocontainers/pairtools/1.0.2--py39h2a9f597_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.

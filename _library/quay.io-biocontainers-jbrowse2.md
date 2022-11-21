@@ -4,8 +4,8 @@ name:  "quay.io/biocontainers/jbrowse2"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/jbrowse2/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/jbrowse2/container.yaml"
-updated_at: "2022-11-20 00:07:43.803545"
-latest: "1.7.9--h9d45583_0"
+updated_at: "2022-11-21 00:06:43.420155"
+latest: "1.7.10--hd6180af_0"
 container_url: "https://biocontainers.pro/tools/jbrowse2"
 aliases:
  - "check-disorder.pl"
@@ -27,8 +27,9 @@ aliases:
  - "fasta-sanitize.pl"
 versions:
  - "1.7.9--h9d45583_0"
+ - "1.7.10--hd6180af_0"
 description: "shpc-registry automated BioContainers addition for jbrowse2"
-config: {"url": "https://biocontainers.pro/tools/jbrowse2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jbrowse2", "latest": {"1.7.9--h9d45583_0": "sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc"}, "tags": {"1.7.9--h9d45583_0": "sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc"}, "docker": "quay.io/biocontainers/jbrowse2", "aliases": {"check-disorder.pl": "/usr/local/bin/check-disorder.pl", "corepack": "/usr/local/bin/corepack", "gff3sort.pl": "/usr/local/bin/gff3sort.pl", "jbrowse": "/usr/local/bin/jbrowse", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "findrule": "/usr/local/bin/findrule", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
+config: {"url": "https://biocontainers.pro/tools/jbrowse2", "maintainer": "@vsoch", "description": "shpc-registry automated BioContainers addition for jbrowse2", "latest": {"1.7.10--hd6180af_0": "sha256:fcdf926186cfb6347ebeeed4612e64b399c2e2f996ff18c820440e46cd352aba"}, "tags": {"1.7.9--h9d45583_0": "sha256:d9346d8b6e01a4572dfca6ba912bb5e6d6b3c7abe64f8ae9bc26ea5b81e0f9fc", "1.7.10--hd6180af_0": "sha256:fcdf926186cfb6347ebeeed4612e64b399c2e2f996ff18c820440e46cd352aba"}, "docker": "quay.io/biocontainers/jbrowse2", "aliases": {"check-disorder.pl": "/usr/local/bin/check-disorder.pl", "corepack": "/usr/local/bin/corepack", "gff3sort.pl": "/usr/local/bin/gff3sort.pl", "jbrowse": "/usr/local/bin/jbrowse", "node": "/usr/local/bin/node", "npm": "/usr/local/bin/npm", "npx": "/usr/local/bin/npx", "findrule": "/usr/local/bin/findrule", "gff2gff.py": "/usr/local/bin/gff2gff.py", "guess-ploidy.py": "/usr/local/bin/guess-ploidy.py", "plot-roh.py": "/usr/local/bin/plot-roh.py", "run-roh.pl": "/usr/local/bin/run-roh.pl", "color-chrs.pl": "/usr/local/bin/color-chrs.pl", "plot-vcfstats": "/usr/local/bin/plot-vcfstats", "bcftools": "/usr/local/bin/bcftools", "vcfutils.pl": "/usr/local/bin/vcfutils.pl", "fasta-sanitize.pl": "/usr/local/bin/fasta-sanitize.pl"}}
 ---
 
 This module is a singularity container wrapper for quay.io/biocontainers/jbrowse2.
@@ -43,7 +44,7 @@ $ shpc install quay.io/biocontainers/jbrowse2
 Or a specific version:
 
 ```bash
-$ shpc install quay.io/biocontainers/jbrowse2:1.7.9--h9d45583_0
+$ shpc install quay.io/biocontainers/jbrowse2:1.7.10--hd6180af_0
 ```
 
 And then you can tell lmod about your modules folder:
@@ -55,8 +56,8 @@ $ module use ./modules
 And load the module, and ask for help, or similar.
 
 ```bash
-$ module load quay.io/biocontainers/jbrowse2/1.7.9--h9d45583_0
-$ module help quay.io/biocontainers/jbrowse2/1.7.9--h9d45583_0
+$ module load quay.io/biocontainers/jbrowse2/1.7.10--hd6180af_0
+$ module help quay.io/biocontainers/jbrowse2/1.7.10--hd6180af_0
 ```
 
 You can use tab for auto-completion of module names or commands that are provided.
