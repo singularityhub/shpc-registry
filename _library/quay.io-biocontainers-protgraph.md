@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/protgraph"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/protgraph/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/protgraph/container.yaml"
-updated_at: "2022-11-21 12:41:20.114066"
+updated_at: "2022-11-21 13:05:28.501290"
 latest: "0.3.8--pyhdfd78af_0"
 container_url: "https://biocontainers.pro/tools/protgraph"
 aliases:

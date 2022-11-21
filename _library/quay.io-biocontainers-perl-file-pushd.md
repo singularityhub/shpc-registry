@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-file-pushd"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-file-pushd/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-file-pushd/container.yaml"
-updated_at: "2022-11-21 12:56:00.564905"
+updated_at: "2022-11-21 13:27:26.104045"
 latest: "1.016--pl5321hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/perl-file-pushd"
 aliases:

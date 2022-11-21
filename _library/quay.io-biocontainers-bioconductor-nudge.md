@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-nudge"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-nudge/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-nudge/container.yaml"
-updated_at: "2022-11-21 13:00:31.736759"
+updated_at: "2022-11-21 13:34:19.599341"
 latest: "1.46.0--r351_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-nudge"
 

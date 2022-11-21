@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/quasirecomb"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/quasirecomb/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/quasirecomb/container.yaml"
-updated_at: "2022-11-21 13:20:42.278238"
+updated_at: "2022-11-21 14:04:56.201983"
 latest: "1.2--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/quasirecomb"
 aliases:

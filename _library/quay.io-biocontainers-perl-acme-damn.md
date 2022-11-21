@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/perl-acme-damn"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/perl-acme-damn/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/perl-acme-damn/container.yaml"
-updated_at: "2022-11-21 13:08:53.486951"
+updated_at: "2022-11-21 13:46:59.661439"
 latest: "0.08--pl5321h9f5acd7_5"
 container_url: "https://biocontainers.pro/tools/perl-acme-damn"
 aliases:

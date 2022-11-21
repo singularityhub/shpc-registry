@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-cepo"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-cepo/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-cepo/container.yaml"
-updated_at: "2022-11-21 12:42:34.934680"
+updated_at: "2022-11-21 13:07:16.624435"
 latest: "1.4.0--r42hdfd78af_0"
 container_url: "https://biocontainers.pro/tools/bioconductor-cepo"
 

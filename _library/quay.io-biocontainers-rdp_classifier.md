@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/rdp_classifier"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/rdp_classifier/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/rdp_classifier/container.yaml"
-updated_at: "2022-11-21 13:26:06.115640"
+updated_at: "2022-11-21 14:12:58.497240"
 latest: "2.13--hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/rdp_classifier"
 aliases:

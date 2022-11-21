@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/albatradis"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/albatradis/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/albatradis/container.yaml"
-updated_at: "2022-11-21 12:59:23.367658"
+updated_at: "2022-11-21 13:32:35.172964"
 latest: "1.0.4--py36h91eb985_3"
 container_url: "https://biocontainers.pro/tools/albatradis"
 aliases:

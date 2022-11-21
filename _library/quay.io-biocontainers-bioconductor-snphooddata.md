@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-snphooddata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-snphooddata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-snphooddata/container.yaml"
-updated_at: "2022-11-21 13:25:29.479823"
+updated_at: "2022-11-21 14:12:03.153665"
 latest: "1.24.0--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-snphooddata"
 aliases:
