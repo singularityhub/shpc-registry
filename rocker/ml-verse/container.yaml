@@ -5,7 +5,6 @@ description: Machine learning in R.
 latest:
   4.2.2: sha256:0775cf2aa53c0c9049ce7128e3beabc509b37700078c653bce7330cf05b2a1f8
 tags:
-  latest: sha256:0775cf2aa53c0c9049ce7128e3beabc509b37700078c653bce7330cf05b2a1f8
   4.2.2: sha256:0775cf2aa53c0c9049ce7128e3beabc509b37700078c653bce7330cf05b2a1f8
 filter:
 - "^[0-9]+[.][0-9]+[.][0-9]+$"
