@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-pig.db0"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-pig.db0/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-pig.db0/container.yaml"
-updated_at: "2022-11-21 13:32:19.612363"
+updated_at: "2022-11-21 14:04:23.769574"
 latest: "3.8.2--r36_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-pig.db0"
 aliases:

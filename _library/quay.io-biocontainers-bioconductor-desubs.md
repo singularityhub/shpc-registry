@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-desubs"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-desubs/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-desubs/container.yaml"
-updated_at: "2022-11-21 13:57:49.390080"
+updated_at: "2022-11-21 14:30:57.768064"
 latest: "1.8.1--r351_1"
 container_url: "https://biocontainers.pro/tools/bioconductor-desubs"
 aliases:

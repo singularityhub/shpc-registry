@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-huo22.db"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-huo22.db/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-huo22.db/container.yaml"
-updated_at: "2022-11-21 13:47:23.919933"
+updated_at: "2022-11-21 14:20:07.397235"
 latest: "3.2.3--r41hdfd78af_9"
 container_url: "https://biocontainers.pro/tools/bioconductor-huo22.db"
 aliases:

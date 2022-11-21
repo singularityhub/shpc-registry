@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/hap.py"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/hap.py/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/hap.py/container.yaml"
-updated_at: "2022-11-21 13:46:16.804833"
+updated_at: "2022-11-21 14:18:56.949402"
 latest: "0.3.14--py27h5c5a3ab_0"
 container_url: "https://biocontainers.pro/tools/hap.py"
 aliases:

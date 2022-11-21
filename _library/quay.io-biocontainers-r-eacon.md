@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/r-eacon"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/r-eacon/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/r-eacon/container.yaml"
-updated_at: "2022-11-21 14:13:40.213456"
+updated_at: "2022-11-21 14:47:21.517129"
 latest: "0.3.6--r41hdfd78af_1"
 container_url: "https://biocontainers.pro/tools/r-eacon"
 aliases:

@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/locus_processing"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/locus_processing/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/locus_processing/container.yaml"
-updated_at: "2022-11-21 13:20:34.325459"
+updated_at: "2022-11-21 13:51:58.207649"
 latest: "0.0.4--py_0"
 container_url: "https://biocontainers.pro/tools/locus_processing"
 

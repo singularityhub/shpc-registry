@@ -4,7 +4,7 @@ name:  "quay.io/biocontainers/bioconductor-chromhmmdata"
 maintainer: "@vsoch"
 github: "https://github.com/singularityhub/shpc-registry/blob/main/quay.io/biocontainers/bioconductor-chromhmmdata/container.yaml"
 config_url: "https://raw.githubusercontent.com/singularityhub/shpc-registry/main/quay.io/biocontainers/bioconductor-chromhmmdata/container.yaml"
-updated_at: "2022-11-21 13:55:27.001496"
+updated_at: "2022-11-21 14:28:30.479444"
 latest: "0.99.2--r42hdfd78af_2"
 container_url: "https://biocontainers.pro/tools/bioconductor-chromhmmdata"
 aliases:
